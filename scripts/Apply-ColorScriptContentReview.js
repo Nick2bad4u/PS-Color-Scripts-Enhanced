@@ -12,6 +12,7 @@ const {
     isSourceFidelityLocked,
     removeTrailingBlankRows,
     stripAnsiControls,
+    trimExpandedLeadingBlankRows,
 } = require("./Audit-ColorScriptContent.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
@@ -86,7 +87,13 @@ function mayContainNewBlankRows(source, baselineSource) {
 
 /**
  * @param {string} reviewPath
- * @returns {Map<string, { row: number; text: string }[]>}
+ * @returns {Map<string, {
+ *     action?: "blank-text" | "remove-row";
+ *     allowedRemainingOccurrences?: number;
+ *     row: number;
+ *     sha256?: string;
+ *     text?: string;
+ * }[]>}
  */
 function loadReview(reviewPath) {
     const document = JSON.parse(fs.readFileSync(reviewPath, "utf8"));
@@ -113,25 +120,56 @@ function loadReview(reviewPath) {
             if (
                 !evidence ||
                 !Number.isInteger(evidence.row) ||
-                typeof evidence.text !== "string"
+                (typeof evidence.text !== "string" &&
+                    (typeof evidence.sha256 !== "string" ||
+                        !/^[a-f\d]{64}$/u.test(evidence.sha256))) ||
+                (evidence.action != null &&
+                    evidence.action !== "blank-text" &&
+                    evidence.action !== "remove-row") ||
+                (evidence.allowedRemainingOccurrences != null &&
+                    (!Number.isSafeInteger(
+                        evidence.allowedRemainingOccurrences
+                    ) ||
+                        evidence.allowedRemainingOccurrences < 0))
             ) {
                 throw new Error(
                     `${candidate.file}: reviewed row evidence is malformed.`
                 );
             }
+            const normalized = {
+                ...(typeof evidence.action === "string"
+                    ? { action: evidence.action }
+                    : {}),
+                ...(typeof evidence.allowedRemainingOccurrences ===
+                    "number"
+                    ? {
+                          allowedRemainingOccurrences:
+                              evidence.allowedRemainingOccurrences,
+                      }
+                    : {}),
+                ...(typeof evidence.sha256 === "string"
+                    ? { sha256: evidence.sha256 }
+                    : {}),
+                ...(typeof evidence.text === "string"
+                    ? { text: evidence.text }
+                    : {}),
+            };
             const existing = rows.get(evidence.row);
-            if (existing != null && existing !== evidence.text) {
+            if (
+                existing != null &&
+                JSON.stringify(existing) !== JSON.stringify(normalized)
+            ) {
                 throw new Error(
                     `${candidate.file}: row ${evidence.row} has conflicting evidence.`
                 );
             }
-            rows.set(evidence.row, evidence.text);
+            rows.set(evidence.row, normalized);
         }
         result.set(
             candidate.file,
             [...rows]
                 .sort(([left], [right]) => left - right)
-                .map(([row, text]) => ({ row, text }))
+                .map(([row, evidence]) => ({ row, ...evidence }))
         );
     }
     return result;
@@ -141,6 +179,7 @@ function loadReview(reviewPath) {
  * @param {string[]} arguments_
  * @returns {{
  *     baselineDirectory: string | null;
+ *     leadingOnly: boolean;
  *     output: string;
  *     reviewPath: string | null;
  *     scriptsDirectory: string;
@@ -150,6 +189,7 @@ function loadReview(reviewPath) {
 function parseArguments(arguments_) {
     const options = {
         baselineDirectory: null,
+        leadingOnly: false,
         output: path.join(
             REPOSITORY_ROOT,
             "temp",
@@ -163,6 +203,8 @@ function parseArguments(arguments_) {
     for (const argument of arguments_) {
         if (argument === "--write") {
             options.write = true;
+        } else if (argument === "--leading-only") {
+            options.leadingOnly = true;
         } else if (argument.startsWith("--baseline-dir=")) {
             options.baselineDirectory = path.resolve(
                 REPOSITORY_ROOT,
@@ -191,6 +233,7 @@ Options:
   --baseline-dir=<path>  Pre-curation Scripts directory for blank-hole repair
   --scripts-dir=<path>   Target Scripts directory
   --output=<path>        JSON application report
+  --leading-only         Trim only extreme leading runs expanded by curation
   --write                Apply validated changes (default is a dry run)
   --help                 Show this help`);
             process.exit(0);
@@ -201,6 +244,14 @@ Options:
     if (!options.reviewPath && !options.baselineDirectory) {
         throw new Error(
             "Provide --review, --baseline-dir, or both."
+        );
+    }
+    if (options.leadingOnly && !options.baselineDirectory) {
+        throw new Error("--leading-only requires --baseline-dir.");
+    }
+    if (options.leadingOnly && options.reviewPath) {
+        throw new Error(
+            "--leading-only cannot be combined with --review."
         );
     }
     return options;
@@ -236,6 +287,8 @@ function main(arguments_ = process.argv.slice(2)) {
     const failures = [];
     let blankedRows = 0;
     let compactedRows = 0;
+    let leadingRows = 0;
+    let reviewRemovedRows = 0;
     let reviewedFiles = 0;
     let trailingRows = 0;
     for (const fileName of [...files].sort((left, right) =>
@@ -258,7 +311,10 @@ function main(arguments_ = process.argv.slice(2)) {
         let source = originalSource;
         let fileBlankedRows = 0;
         let fileCompactedRows = 0;
+        let fileLeadingRows = 0;
+        let fileReviewRemovedRows = 0;
         let fileTrailingRows = 0;
+        let payloadChanged = false;
 
         const evidence = review.get(fileName);
         if (evidence) {
@@ -274,6 +330,8 @@ function main(arguments_ = process.argv.slice(2)) {
             }
             source = result.source;
             fileBlankedRows += result.blankedRows;
+            fileReviewRemovedRows += result.removedRows;
+            payloadChanged ||= result.changed;
             reviewedFiles += 1;
         }
 
@@ -285,13 +343,24 @@ function main(arguments_ = process.argv.slice(2)) {
             if (fs.existsSync(baselinePath)) {
                 const baselineSource = readBoundedSource(baselinePath);
                 try {
-                    if (mayContainNewBlankRows(source, baselineSource)) {
+                    if (options.leadingOnly) {
+                        const result = trimExpandedLeadingBlankRows(
+                            source,
+                            baselineSource
+                        );
+                        source = result.source;
+                        fileLeadingRows += result.removedRows;
+                        payloadChanged ||= result.changed;
+                    } else if (
+                        mayContainNewBlankRows(source, baselineSource)
+                    ) {
                         const result = compactBlankRowsIntroducedSince(
                             source,
                             baselineSource
                         );
                         source = result.source;
                         fileCompactedRows += result.removedRows;
+                        payloadChanged ||= result.changed;
                     }
                 } catch (error) {
                     failures.push({
@@ -306,30 +375,42 @@ function main(arguments_ = process.argv.slice(2)) {
             }
         }
 
-        try {
-            const trailingResult = removeTrailingBlankRows(source);
-            source = documentCuration(trailingResult.source);
-            fileTrailingRows += trailingResult.removedRows;
-        } catch (error) {
-            failures.push({
-                error:
-                    error instanceof Error ? error.message : String(error),
-                file: fileName,
-                operation: "trim-trailing",
-            });
+        if (!options.leadingOnly) {
+            try {
+                const trailingResult = removeTrailingBlankRows(source);
+                source = trailingResult.source;
+                fileTrailingRows += trailingResult.removedRows;
+                payloadChanged ||= trailingResult.changed;
+            } catch (error) {
+                failures.push({
+                    error:
+                        error instanceof Error
+                            ? error.message
+                            : String(error),
+                    file: fileName,
+                    operation: "trim-trailing",
+                });
+            }
         }
 
+        if (payloadChanged) {
+            source = documentCuration(source);
+        }
         if (source !== originalSource) {
             if (options.write) {
                 writeFileAtomic(filePath, source);
             }
             blankedRows += fileBlankedRows;
             compactedRows += fileCompactedRows;
+            leadingRows += fileLeadingRows;
+            reviewRemovedRows += fileReviewRemovedRows;
             trailingRows += fileTrailingRows;
             records.push({
                 blankedRows: fileBlankedRows,
                 compactedRows: fileCompactedRows,
                 file: fileName,
+                leadingRows: fileLeadingRows,
+                reviewRemovedRows: fileReviewRemovedRows,
                 trailingRows: fileTrailingRows,
             });
         }
@@ -344,6 +425,8 @@ function main(arguments_ = process.argv.slice(2)) {
             changedFiles: records.length,
             compactedRows,
             failures: failures.length,
+            leadingRows,
+            reviewRemovedRows,
             reviewedFiles,
             trailingRows,
             write: options.write,

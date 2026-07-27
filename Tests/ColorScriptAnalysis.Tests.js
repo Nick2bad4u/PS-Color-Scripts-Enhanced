@@ -183,6 +183,93 @@ test("visible-row analysis preserves background-colored spaces", async () => {
     assert.equal(metrics.leadingBlankRows, 1);
     assert.equal(metrics.trailingBlankRows, 3);
     assert.equal(metrics.visibleCells, 5);
+    assert.deepEqual(metrics.blankRuns, [
+        {
+            endRow: 1,
+            kind: "leading",
+            rows: 1,
+            startRow: 1,
+        },
+        {
+            endRow: 6,
+            kind: "trailing",
+            rows: 3,
+            startRow: 4,
+        },
+    ]);
+});
+
+test("review signals identify extreme margins and orphaned tails", async () => {
+    const { analyzeReviewSignals, analyzeScript } = await analyzer;
+    const directory = createTemporaryDirectory();
+    const extreme = analyzeScript(
+        writeScript(
+            directory,
+            "extreme",
+            "1-10",
+            [...Array(8).fill(""), "ART", "ART"].join("\n")
+        )
+    );
+    const orphaned = analyzeScript(
+        writeScript(
+            directory,
+            "orphaned",
+            "1-15",
+            [
+                "ART",
+                "ART",
+                "ART",
+                "ART",
+                "ART",
+                ...Array(8).fill(""),
+                "TAIL",
+                "TAIL",
+            ].join("\n")
+        )
+    );
+    const issues = analyzeReviewSignals([extreme, orphaned], {
+        blankRun: 3,
+        maxRows: 50,
+        tinyTailRows: 10,
+    });
+
+    assert.deepEqual(
+        issues.find(
+            (issue) =>
+                issue.type === "extreme-leading-blank-run"
+        ),
+        {
+            type: "extreme-leading-blank-run",
+            family: "extreme",
+            script: "extreme",
+            rows: 8,
+            totalRows: 10,
+            ratio: 0.8,
+        }
+    );
+    assert.deepEqual(
+        issues.find(
+            (issue) =>
+                issue.type === "orphaned-tail-after-blank-run"
+        ),
+        {
+            type: "orphaned-tail-after-blank-run",
+            family: "orphaned",
+            script: "orphaned",
+            startRow: 6,
+            endRow: 13,
+            rows: 8,
+            visibleRowsAfter: 2,
+            remainingRows: 2,
+        }
+    );
+    assert.ok(
+        issues.some(
+            (issue) =>
+                issue.type === "internal-blank-run" &&
+                issue.family === "orphaned"
+        )
+    );
 });
 
 test("cell analysis reports broad color families and decoding damage", async () => {

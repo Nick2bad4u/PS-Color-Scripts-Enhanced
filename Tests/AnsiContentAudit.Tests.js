@@ -7,16 +7,24 @@ const test = require("node:test");
 
 const {
     analyzeRow,
+    applyReviewedRows,
     auditSource,
     blankTextRow,
+    compactBlankRowsIntroducedSince,
     documentCuration,
     extractPowerShellPayload,
+    findBlankRuns,
+    findContactDetails,
     findPolicyTerms,
+    getRenderedBlankRows,
+    getReviewEvidenceHash,
     isSourceFidelityLocked,
     parseArguments,
+    removeRowsPreservingControls,
     removeFlaggedText,
     removeTrailingBlankRows,
     stripAnsiControls,
+    trimExpandedLeadingBlankRows,
 } = require("../scripts/Audit-ColorScriptContent.js");
 
 test("stripAnsiControls removes SGR and OSC controls without removing art", () => {
@@ -70,12 +78,100 @@ test("extractPowerShellPayload decodes apostrophes in safe literals", () => {
     assert.equal(payload.value, "\nartist's work\n");
 });
 
-test("auditSource counts trailing rendered-blank rows including ANSI spaces", () => {
+test("auditSource preserves background-colored spaces as visible artwork", () => {
     const source = "Write-Host '\nART\n\u001b[41m   \u001b[0m\n\u001b[0m\n'";
     const audit = auditSource(source);
 
-    assert.equal(audit.trailingBlankRows, 3);
+    assert.equal(audit.trailingBlankRows, 2);
     assert.equal(audit.textRows.length, 0);
+});
+
+test("rendered blank analysis reports leading, internal, and trailing runs", () => {
+    const blankRows = getRenderedBlankRows([
+        "",
+        "\u001b[0m",
+        "ART",
+        "",
+        "\u001b[41m   \u001b[0m",
+        "",
+    ]);
+
+    assert.deepEqual(blankRows, [true, true, false, true, false, true]);
+    assert.deepEqual(findBlankRuns(blankRows), [
+        {
+            count: 2,
+            endRow: 2,
+            kind: "leading",
+            startRow: 1,
+        },
+        {
+            count: 1,
+            endRow: 4,
+            kind: "internal",
+            startRow: 4,
+        },
+        {
+            count: 1,
+            endRow: 6,
+            kind: "trailing",
+            startRow: 6,
+        },
+    ]);
+});
+
+test("contact detection finds real endpoints without flagging dates or baud rates", () => {
+    assert.deepEqual(
+        findContactDetails(
+            "Call (212) 555-0198 or mail sysop@example.org; telnet://bbs.example.org"
+        ),
+        {
+            categories: ["email", "network-endpoint", "phone"],
+            values: [
+                "(212) 555-0198",
+                "sysop@example.org",
+                "telnet://bbs.example.org",
+            ],
+        }
+    );
+    assert.deepEqual(findContactDetails("Released 1997-05-31 at 14400 baud"), {
+        categories: [],
+        values: [],
+    });
+    assert.deepEqual(
+        findContactDetails(
+            "Date: 11-01-92 (12:17) Number: 107"
+        ),
+        {
+            categories: [],
+            values: [],
+        }
+    );
+    assert.deepEqual(
+        findContactDetails("300/1200/2400 baud accepted"),
+        {
+            categories: [],
+            values: [],
+        }
+    );
+    assert.deepEqual(
+        findContactDetails("24OO/96OO/144OO Accepted"),
+        {
+            categories: [],
+            values: [],
+        }
+    );
+    assert.deepEqual(findContactDetails("████ 11111111 ████"), {
+        categories: [],
+        values: [],
+    });
+    assert.deepEqual(findContactDetails("░▒ 01110010 011000 ▒░"), {
+        categories: [],
+        values: [],
+    });
+    assert.deepEqual(findContactDetails("$$$$OOOOOIIIIIiiiii"), {
+        categories: [],
+        values: [],
+    });
 });
 
 test("blankTextRow preserves ANSI controls, geometry, and art glyphs", () => {
@@ -86,6 +182,131 @@ test("blankTextRow preserves ANSI controls, geometry, and art glyphs", () => {
     assert.equal(
         stripAnsiControls(output).length,
         stripAnsiControls(input).length
+    );
+});
+
+test("reviewed row redaction fails closed and preserves neighboring artwork", () => {
+    const source = `# Source Modification: original conversion
+
+Write-Host '
+\u001b[31m██ ART ██
+Call 212-555-0198
+\u001b[32m▓▓ MORE ART ▓▓
+'`;
+    const result = applyReviewedRows(source, [
+        { row: 3, text: "Call 212-555-0198" },
+    ]);
+
+    assert.equal(result.changed, true);
+    assert.equal(result.blankedRows, 1);
+    assert.equal(result.removedRows, 0);
+    assert.match(result.source, /██ ART ██/u);
+    assert.match(result.source, /▓▓ MORE ART ▓▓/u);
+    assert.doesNotMatch(result.source, /212-555-0198/u);
+    const hashedResult = applyReviewedRows(source, [
+        {
+            row: 3,
+            sha256: getReviewEvidenceHash("Call 212-555-0198"),
+        },
+    ]);
+    assert.equal(hashedResult.source, result.source);
+    const removedResult = applyReviewedRows(source, [
+        {
+            action: "remove-row",
+            row: 3,
+            sha256: getReviewEvidenceHash("Call 212-555-0198"),
+        },
+    ]);
+    assert.equal(removedResult.blankedRows, 0);
+    assert.equal(removedResult.removedRows, 1);
+    assert.doesNotMatch(removedResult.source, /212-555-0198/u);
+    assert.match(
+        removedResult.source,
+        /██ ART ██\n\u001b\[32m▓▓ MORE ART ▓▓/u
+    );
+    assert.throws(
+        () =>
+            applyReviewedRows(source, [
+                { row: 3, text: "Call 212-555-0100" },
+            ]),
+        /stale/u
+    );
+});
+
+test("baseline compaction removes only rows blanked by curation", () => {
+    const baseline = `# Source Modification: original conversion
+
+Write-Host '
+ART
+Promotional text
+
+\u001b[41m   \u001b[0m
+MORE ART
+'`;
+    const current = baseline.replace(
+        "Promotional text",
+        "                "
+    );
+    const result = compactBlankRowsIntroducedSince(current, baseline);
+    const payload = extractPowerShellPayload(result.source).value;
+
+    assert.equal(result.changed, true);
+    assert.equal(result.removedRows, 1);
+    assert.doesNotMatch(payload, /Promotional text/u);
+    assert.match(payload, /ART\n\n\u001b\[41m {3}\u001b\[0m\nMORE ART/u);
+});
+
+test("expanded leading trim restores the original margin only when extreme", () => {
+    const baseline = `# Source Modification: original conversion
+
+Write-Host '
+
+Removed heading
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ART
+'`;
+    const current = baseline.replace(
+        "Removed heading",
+        "               "
+    );
+    const result = trimExpandedLeadingBlankRows(current, baseline);
+    const payload = extractPowerShellPayload(result.source).value;
+
+    assert.equal(result.changed, true);
+    assert.equal(result.removedRows, 16);
+    assert.equal(
+        getRenderedBlankRows(payload.split("\n")).findIndex(
+            (isBlank) => !isBlank
+        ),
+        1
+    );
+    assert.equal(
+        trimExpandedLeadingBlankRows(baseline, baseline).changed,
+        false
+    );
+});
+
+test("removed rows carry terminal controls into the retained payload", () => {
+    assert.deepEqual(
+        removeRowsPreservingControls(
+            ["\u001b[31mART", "\u001b[0m", "MORE"],
+            new Set([1])
+        ),
+        ["\u001b[31mART", "\u001b[0mMORE"]
     );
 });
 

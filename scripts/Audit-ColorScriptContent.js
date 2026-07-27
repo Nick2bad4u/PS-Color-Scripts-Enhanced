@@ -5,6 +5,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const { spawnSync } = require("node:child_process");
+const { createHash } = require("node:crypto");
 const {
     convertAnsiToPs1,
 } = require("./Convert-AnsiToColorScript.js");
@@ -299,6 +300,48 @@ function isHighConfidencePhone(candidate, visible) {
     }
 
     const hasContactContext = CONTACT_CONTEXT_PATTERN.test(visible);
+    const actualDigits = candidate.replace(/\D/gu, "");
+    if (actualDigits.length < 3 && !hasContactContext) {
+        return false;
+    }
+    if (/^[01]+$/u.test(digits) && !hasContactContext) {
+        return false;
+    }
+    if (
+        /\b(?:date|released)\s*:/iu.test(visible) &&
+        /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b/u.test(
+            visible
+        )
+    ) {
+        return false;
+    }
+    const normalizedGroups = candidate
+        .replace(/[Oo]/gu, "0")
+        .replace(/[IiLl]/gu, "1")
+        .split(/\D+/gu)
+        .filter(Boolean);
+    const commonBaudRates = new Set([
+        "300",
+        "1200",
+        "2400",
+        "4800",
+        "9600",
+        "14400",
+        "16800",
+        "19200",
+        "28800",
+        "33600",
+        "56000",
+        "115200",
+    ]);
+    if (
+        normalizedGroups.length >= 2 &&
+        normalizedGroups.every((group) =>
+            commonBaudRates.has(group)
+        )
+    ) {
+        return false;
+    }
     if (
         CONTACT_FALSE_POSITIVE_CONTEXT_PATTERN.test(visible) &&
         !hasContactContext
@@ -574,21 +617,39 @@ function removeRowsPreservingControls(rows, indexes) {
 }
 
 /**
+ * @param {string} visible
+ * @returns {string}
+ */
+function getReviewEvidenceHash(visible) {
+    return createHash("sha256")
+        .update(visible.trim(), "utf8")
+        .digest("hex");
+}
+
+/**
  * Apply exact, human-reviewed payload-row redactions. Evidence text is checked
- * before any write so stale row numbers fail closed.
+ * before any write so stale row numbers fail closed. A reviewed ledger may
+ * store a SHA-256 instead of the original identifying text.
  *
  * @param {string} source
- * @param {{ row: number; text: string }[]} evidence
+ * @param {{
+ *     action?: "blank-text" | "remove-row";
+ *     row: number;
+ *     sha256?: string;
+ *     text?: string;
+ * }[]} evidence
  * @returns {{
  *     blankedRows: number;
  *     changed: boolean;
+ *     removedRows: number;
  *     source: string;
  * }}
  */
 function applyReviewedRows(source, evidence) {
     const payload = extractPowerShellPayload(source);
     const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
-    const rowIndexes = new Set();
+    const blankIndexes = new Set();
+    const removeIndexes = new Set();
 
     for (const item of evidence) {
         if (
@@ -596,32 +657,57 @@ function applyReviewedRows(source, evidence) {
             !Number.isInteger(item.row) ||
             item.row < 1 ||
             item.row > rows.length ||
-            typeof item.text !== "string"
+            (typeof item.text !== "string" &&
+                (typeof item.sha256 !== "string" ||
+                    !/^[a-f\d]{64}$/u.test(item.sha256)))
+            ||
+            (item.action != null &&
+                item.action !== "blank-text" &&
+                item.action !== "remove-row")
         ) {
             throw new RangeError("Reviewed row evidence is malformed.");
         }
         const rowIndex = item.row - 1;
         const visible = stripAnsiControls(rows[rowIndex]);
-        if (visible.trim() !== item.text.trim()) {
+        const textMatches =
+            typeof item.text === "string" &&
+            visible.trim() === item.text.trim();
+        const hashMatches =
+            typeof item.sha256 === "string" &&
+            getReviewEvidenceHash(visible) === item.sha256;
+        if (!textMatches && !hashMatches) {
             throw new Error(
                 `Reviewed row ${item.row} is stale: rendered text no longer matches.`
             );
         }
-        rowIndexes.add(rowIndex);
+        const action = item.action || "blank-text";
+        const target =
+            action === "remove-row" ? removeIndexes : blankIndexes;
+        target.add(rowIndex);
     }
 
-    if (rowIndexes.size === 0) {
-        return { blankedRows: 0, changed: false, source };
+    if (blankIndexes.size === 0 && removeIndexes.size === 0) {
+        return {
+            blankedRows: 0,
+            changed: false,
+            removedRows: 0,
+            source,
+        };
     }
-    const updatedRows = rows.map((row, index) =>
-        rowIndexes.has(index) ? blankTextRow(row) : row
+    const blankedRows = rows.map((row, index) =>
+        blankIndexes.has(index) ? blankTextRow(row) : row
+    );
+    const updatedRows = removeRowsPreservingControls(
+        blankedRows,
+        removeIndexes
     );
     const updatedSource = documentCuration(
         replacePayloadRows(source, payload, updatedRows)
     );
     return {
-        blankedRows: rowIndexes.size,
+        blankedRows: blankIndexes.size,
         changed: updatedSource !== source,
+        removedRows: removeIndexes.size,
         source: updatedSource,
     };
 }
@@ -666,6 +752,74 @@ function compactBlankRowsIntroducedSince(source, baselineSource) {
     const compactedRows = removeRowsPreservingControls(rows, indexes);
     const updatedSource = documentCuration(
         replacePayloadRows(source, payload, compactedRows)
+    );
+    return {
+        changed: updatedSource !== source,
+        removedRows: indexes.size,
+        source: updatedSource,
+    };
+}
+
+/**
+ * Removing a heading can expose a large source-authored spacer as the new top
+ * margin. Trim only the excess over the source's original leading margin, and
+ * only when the current run is objectively extreme.
+ *
+ * @param {string} source
+ * @param {string} baselineSource
+ * @returns {{
+ *     changed: boolean;
+ *     removedRows: number;
+ *     source: string;
+ * }}
+ */
+function trimExpandedLeadingBlankRows(source, baselineSource) {
+    const payload = extractPowerShellPayload(source);
+    const baselinePayload = extractPowerShellPayload(baselineSource);
+    const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
+    const baselineRows = baselinePayload.value
+        .replace(/\r\n?/gu, "\n")
+        .split("\n");
+    const currentBlankRows = getRenderedBlankRows(rows);
+    const baselineBlankRows = getRenderedBlankRows(baselineRows);
+    const firstCurrentVisible = currentBlankRows.findIndex(
+        (isBlank) => !isBlank
+    );
+    const firstBaselineVisible = baselineBlankRows.findIndex(
+        (isBlank) => !isBlank
+    );
+    const currentLeadingRows =
+        firstCurrentVisible === -1
+            ? currentBlankRows.length
+            : firstCurrentVisible;
+    const baselineLeadingRows =
+        firstBaselineVisible === -1
+            ? baselineBlankRows.length
+            : firstBaselineVisible;
+    const isExtreme =
+        currentLeadingRows >= 15 ||
+        (currentLeadingRows >= 3 &&
+            currentLeadingRows / rows.length >= 0.5);
+    if (
+        !isExtreme ||
+        currentLeadingRows <= baselineLeadingRows ||
+        firstCurrentVisible === -1 ||
+        firstBaselineVisible === -1
+    ) {
+        return { changed: false, removedRows: 0, source };
+    }
+
+    const indexes = new Set();
+    for (
+        let index = baselineLeadingRows;
+        index < currentLeadingRows;
+        index += 1
+    ) {
+        indexes.add(index);
+    }
+    const updatedRows = removeRowsPreservingControls(rows, indexes);
+    const updatedSource = documentCuration(
+        replacePayloadRows(source, payload, updatedRows)
     );
     return {
         changed: updatedSource !== source,
@@ -1250,6 +1404,7 @@ module.exports = {
     findPolicyTerms,
     getAddedFiles,
     getRenderedBlankRows,
+    getReviewEvidenceHash,
     getWorkingTreeFiles,
     isSourceFidelityLocked,
     isHighConfidencePhone,
@@ -1259,4 +1414,5 @@ module.exports = {
     removeTrailingBlankRows,
     serializePayload,
     stripAnsiControls,
+    trimExpandedLeadingBlankRows,
 };

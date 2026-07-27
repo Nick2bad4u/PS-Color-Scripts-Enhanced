@@ -42,6 +42,8 @@ const KNOWN_ISSUE_TYPES = new Set([
     "dense-split-boundary",
     "derivative-attribution-review",
     "embedded-dos-eof",
+    "extreme-leading-blank-run",
+    "internal-blank-run",
     "leading-blank-run",
     "low-cell-variety",
     "low-color-variety",
@@ -49,6 +51,7 @@ const KNOWN_ISSUE_TYPES = new Set([
     "mergeable-adjacent-parts",
     "missing-source-coordinates",
     "mostly-plain-ascii",
+    "orphaned-tail-after-blank-run",
     "source-row-gap-or-overlap",
     "sparse-cell-density",
     "suspicious-character-decoding",
@@ -549,6 +552,12 @@ function isVisibleCell(cell) {
  *     leadingBlankRows: number;
  *     trailingBlankRows: number;
  *     longestBlankRun: number;
+ *     blankRuns: {
+ *         endRow: number;
+ *         kind: "internal" | "leading" | "trailing";
+ *         rows: number;
+ *         startRow: number;
+ *     }[];
  *     uniqueGlyphs: number;
  *     uniqueStyles: number;
  *     uniqueRowPatterns: number;
@@ -639,11 +648,29 @@ function analyzeAnsiLines(lines) {
 
     let longestBlankRun = 0;
     let currentBlankRun = 0;
-    for (const isBlank of blankRows) {
+    let runStart = null;
+    const blankRuns = [];
+    for (let index = 0; index <= blankRows.length; index += 1) {
+        const isBlank = blankRows[index] === true;
+        if (isBlank && runStart === null) {
+            runStart = index;
+        }
         if (isBlank) {
             currentBlankRun += 1;
             longestBlankRun = Math.max(longestBlankRun, currentBlankRun);
-        } else {
+        } else if (runStart !== null) {
+            blankRuns.push({
+                endRow: index,
+                kind:
+                    runStart === 0
+                        ? "leading"
+                        : index === blankRows.length
+                          ? "trailing"
+                          : "internal",
+                rows: index - runStart,
+                startRow: runStart + 1,
+            });
+            runStart = null;
             currentBlankRun = 0;
         }
     }
@@ -665,6 +692,7 @@ function analyzeAnsiLines(lines) {
         leadingBlankRows: firstVisible,
         trailingBlankRows,
         longestBlankRun,
+        blankRuns,
         uniqueGlyphs: glyphs.size,
         uniqueStyles: styles.size,
         uniqueRowPatterns: rowPatterns.size,
@@ -1135,6 +1163,20 @@ function analyzeReviewSignals(records, options) {
                 rows: metrics.leadingBlankRows,
             });
         }
+        if (
+            metrics.leadingBlankRows >= 15 ||
+            (metrics.leadingBlankRows >= options.blankRun &&
+                metrics.leadingBlankRows / metrics.rows >= 0.5)
+        ) {
+            issues.push({
+                type: "extreme-leading-blank-run",
+                family,
+                script: record.name,
+                rows: metrics.leadingBlankRows,
+                totalRows: metrics.rows,
+                ratio: metrics.leadingBlankRows / metrics.rows,
+            });
+        }
         if (metrics.trailingBlankRows >= options.blankRun) {
             issues.push({
                 type: "trailing-blank-run",
@@ -1142,6 +1184,38 @@ function analyzeReviewSignals(records, options) {
                 script: record.name,
                 rows: metrics.trailingBlankRows,
             });
+        }
+        for (const run of metrics.blankRuns) {
+            if (
+                run.kind !== "internal" ||
+                run.rows < options.blankRun
+            ) {
+                continue;
+            }
+            const visibleRowsAfter = metrics.rowVisibleCellCounts
+                .slice(run.endRow)
+                .filter((visibleCells) => visibleCells > 0).length;
+            issues.push({
+                type: "internal-blank-run",
+                family,
+                script: record.name,
+                startRow: run.startRow,
+                endRow: run.endRow,
+                rows: run.rows,
+                visibleRowsAfter,
+            });
+            if (run.rows >= 8 && visibleRowsAfter > 0 && visibleRowsAfter <= 2) {
+                issues.push({
+                    type: "orphaned-tail-after-blank-run",
+                    family,
+                    script: record.name,
+                    startRow: run.startRow,
+                    endRow: run.endRow,
+                    rows: run.rows,
+                    visibleRowsAfter,
+                    remainingRows: metrics.rows - run.endRow,
+                });
+            }
         }
         if (metrics.visibleRows === 0) {
             issues.push({
@@ -1480,7 +1554,7 @@ Options:
   --no-exceptions           Show findings suppressed by the default ledger
   --max-rows=<count>        Maximum permitted source rows per part (default: 50)
   --tiny-tail-rows=<count>  Tail size to flag (default: 10)
-  --blank-run=<count>       Leading/trailing blank run to flag (default: 3)
+  --blank-run=<count>       Leading, internal, or trailing blank run to flag (default: 3)
   --check                   Exit nonzero when the selected report has findings
   --help, -h                Show this help`);
 }
