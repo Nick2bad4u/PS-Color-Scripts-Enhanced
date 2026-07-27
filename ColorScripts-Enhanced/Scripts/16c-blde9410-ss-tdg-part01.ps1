@@ -5,7 +5,7 @@
 # Source SHA-256: 10e410ebaf7449fed4fb9566a2bc1f01b5b0d9e6a01186265bdbd65f29d3fd14
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-TDG.ANS by Soul Seeker (Blade Productions); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Dark Gate Adverstisement
 # SAUCE Author: Soul Seeker
 # SAUCE Group: Blade Productions
@@ -21,7 +21,7 @@ Write-Host '
 [1;30m  █ [0m█ [36m▄▀▀  ▀▀█[0;1;36;46m░▒▓▓[0;1;36;40m▄ [0m▀▄ █ [36m▄▀▀  ▀▀█[0;1;36;46m░▒▓▓[0;1;36;40m▄ [0m▀▄[1;30m▀▄    ANSI from me, you can contact me[0m
 [1;30m ▄▀[0m▄▀  ▄████  [36m███[0;1;36;46m░▒▓[0;1;36;40m▄ [0m▀   ▄████  [36m███[0;1;36;46m░▒▓[0;1;36;40m▄ [0m▀▄[1;30m▀▄  on [0mEternal Insanity[1;30m, [0mCracked Ice
  [1;30m█ [0m█ [1;30m█ [0m▀███▀ [36m████▀▀▀[0;1;36;46m▓[0;1;36;40m█  [0;1;30;40m█ [0m▀███▀ [36m████▀▀▀[0;1;36;46m▓[0;1;36;40m█ [0m▀▄[1;30m▀▄  [0mBbs [1;30mor mail me on Internet at:[0m
-[1;30m ▀▄[0m▀▄ [1;30m█▄▄   [0;36m▀▀ [0;37m▄▄▄█▄▄ [0;1;36m▀  [0;1;30m█▄▄   [0;36m▀▀ [0;37m▄▄▄█▄▄ [0;1;36m▀ [0m█ [1;30m█[0m       SouLMaN@cybercom.com
+[1;30m ▀▄[0m▀▄ [1;30m█▄▄   [0;36m▀▀ [0;37m▄▄▄█▄▄ [0;1;36m▀  [0;1;30m█▄▄   [0;36m▀▀ [0;37m▄▄▄█▄▄ [0;1;36m▀ [0m█ [1;30m█[0m                           
  ▄[1;30m▀▄[0m▀▄ [1;30m▀▀███▄▄▄▄ [0m▀▀▀████▄ [1;30m▀▀███▄▄▄▄ [0m▀▀▀██▀▀[1;30m▄▀[0m
 [1;30m [0m▀[1;30m▄▀[0m▄▄██▄▄▄ [1;30m▀▀▀▀███▄▄ [0m▀████▄▄▄ [1;30m▀▀▀▀███▄▄ [0m▀▄[1;30m▀▄[0m        [1;30mS[0;36mo[0;1;36mu[0;1;37mL See[0;1;36mK[0;36me[0;1;30mR [[0;36mB[0;1;36mL[0;1;37mA[0;1;36mD[0;36mE[0;1;30m][0m
 [1;30m █ [0m█ [1;30m▄ [0m▀▀█▀▀▀▀ [36m▄▄  [0;1;30m▀▀█▄ ▄ [0m▀▀█▀▀▀▀ [36m▄▄  [0;1;30m▀▀█▄ [0m█ [1;30m█ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

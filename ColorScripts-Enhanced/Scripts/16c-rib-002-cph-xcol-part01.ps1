@@ -5,14 +5,13 @@
 # Source SHA-256: ed83d4c69010101772ac6957853a8c6626804ab3318d837bf50ee70ecec4a67f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-XCOL.ANS by Cyberpunch (rib-002); released in rib-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
 $$$$$╝ⁿ""$╛ⁿ""╛ⁿ$"ⁿ$$$$$╧╧╧╧╧╧╧╧╧╧╧╛
-                         [1m                                                    [0m
-$$''.d$$$$$  $$'',$ ._`$$$ [1mHope u like it...[0m
+[1m[0m$$''.d$$$$$  $$'',$ ._`$$$ [1mHope u like it...[0m
 $l $$$$$$$  $pS$$ `$b `$
 $b,.`ⁿ╚╝ⁿ''.d$$$$$, $$ ,$                                    {Ph..
 $$$$$$SS$$$$$$$$$$$$#S$$oooooooooo
@@ -32,7 +31,6 @@ $$$$$$SS$$$$$$$$$$$$#S$$oooooooooo
 
 
 [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^^[0m
-                                       
 [1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m---[0m
 
 
@@ -53,8 +51,6 @@ $[1m [0;1;36m$$[0;34m,[0;1;37m     [0m,$[34m$^[0;1;37m [0;36m,▓$[0;1;
 [1;30m┌[0;1;37m  [0;1;36m$$[0;34mp.[0;1;37m [0;34m,p[0;37m$[0;34m''[0;1;37m  [0;36m,$ⁿ''[0;1;37m  [0m,p[1;36m$$ⁿ[0;1;37m  [0;1;30ms⌡[0mafiiii[1;30miiiiidii[0ms[1m$ [0;1;36m$$$ⁿ[0m [1m [0;1;34m$[0;1;37m;;[0;1;34m$[0;1;37m [0;1;34m$$[0;34m$ⁿ[0;37m [0;1;37m [0;1;34m$[0;1;37m;;[0;1;34m$[0m [1;30m$i;;;;[0m
 [1;30m$$[0;1;37m  [0;34mⁿ$$$$$''[0;1;37m  [0;36mp$$p[0;37m@$$$ⁿ''[0;1;37m   [0;1;30msdsd[0ms[1;30md[0mf[1;30m°iiiiiiil[0ms4[1m$ [0m$$$p [1m [0;1;34m$[0;1;37m::[0;1;34m$ $$[0;1;36m$p[0m [1m [0;1;34m$[0;1;37m::[0m$ [1;30m$i;√[0m
 [1;30m$$$$[0;1;37m      [0;1;30m..;..[0;1;37m         [0;1;30masiii[0ml[1;30mi;i;i;√i;; i[0m;i[1m$. `[0;36m$[0;37m$ [0;36m$$[0;1;36m$ⁿ''[0;1;30m;[0;1;37m [0;1;36m`$$[0m [1;36m$[0m$$ⁿ'' [1;30m$i;[0m
-[1;30m     [0;1;37m     [0;1;30m   [0;1;37m              [0;1;30m          [0;1;37m      [0;1;30m [0m [1m    [0;36m   [0;1;37m  [0;1;30m    [0;1;37m  [0;1;36m   [0;1;37m  [0;1;30m      [0m
-  [1;30m    [0m                    [1;30m       [0;1;37m [0m          [1;30m [0m   [1;30m [0m       [1;30m   [0m    [1;30m     [0m
-    [1;30mi;i[0m     [1;30m,[0m             [1;30m`;;;;[0m               [1;30mii;;;..[0m         [1;30m;;;;[0m
+[1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;30m[0m[1m[0;36m[0;1;37m[0;1;30m[0;1;37m[0;1;36m[0;1;37m[0;1;30m[0m[1;30m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m    [1;30mi;i[0m     [1;30m,[0m             [1;30m`;;;;[0m               [1;30mii;;;..[0m         [1;30m;;;;[0m
      [1m [0;1;30m`;;.[0;1;37m [0m [1;30m;;[0m              [1;30m`;;,[0m                 [1;30m'';;;./[0m     [1;30m;;;;;[0m
       [1m [0m [1;30m`;;;''[0m                 [1m [0;1;30m``[0m                          [1;30m;:''''[0m'

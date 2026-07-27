@@ -5,7 +5,7 @@
 # Source SHA-256: af9c82239f8d31823db7c7474c2ceb0e00818a91925352fa1bb982abb08ad1dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QS-MEDC.ICE by Quicksilver (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 88-125
 # Columns: 1-80
 
@@ -42,9 +42,5 @@ Write-Host '
       [1;30m░[0;31m░░░░░░░░░░░[0;1;30m░ ░[0;31m░░░  [0;1;30m░[0;31m░░░░░░[0;1;30m░[0m      [1;30m░[0;31m░░░[0;1;30m░ ░[0;31m░░░[0m          [1;30m░   ░[0;31m░░░░    [0;1;30m░   ░[0m
          [1;30m░░░░░░░░░░ ░░░░[0m      [1;30m░░░░░░    ░░░░░ ░░░░[0m            [1;30m░ ░░░░░[0m
 
-  [1m               [0m [1;30m [0m  [1m                 [0m [1;30m [0m  [1m              [0m [1m  [0m [1;30m [0m  [1m               [0m
-[1m            [0m [1;30m [0m  [1m         [0m [1;30m [0m  [1m        [0m [1;30m [0m  [1m         [0m [1;30m [0m  [1m     [0m  [1m                 [0m
-[1m               [0m [1;30m [0m  [1m         [0m   [1;30m [0m  [1m   [0m [1m          [0m [1m       [0m [1;30m [0m  [1m                  [0m
-                       -[1;30m/[0m- [1m2 1 2 [0m. [1m2 4 2 [0m. [1m2 9 5 4 [0m-[1;30m/[0m-
-[1m───[0m─[1m─[0m───[1;30m─[0m─[1;30m────────────────────────────────────────────────────────────[0m─[1;30m─[0m───[1m─[0m─[1m───[0m
+[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m[1m───[0m─[1m─[0m───[1;30m─[0m─[1;30m────────────────────────────────────────────────────────────[0m─[1;30m─[0m───[1m─[0m─[1m───[0m
 [1m   Q [0mU i C k  [1mS [0mi L V ε R  [1;30m< [0;1;37mi [0;1;36mC [0;36mE [0;1;30m>  [0;1;37mP [0mR φ D U C T i φ N [1;30mS - [0;1;37mo [0m8 [1;30m/ [0;1;37mo [0m5 [1;30m/ [0;1;37m9 [0m2[0m'

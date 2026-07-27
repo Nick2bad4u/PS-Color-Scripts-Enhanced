@@ -5,7 +5,7 @@
 # Source SHA-256: 2700cfe01a0d4957bdf2f2029da4a944a75c700a49108d992680a00724d61b4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-CH02.ANS by Bad Karma (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Channel Zer0
 # SAUCE Author: Bad Karma
 # SAUCE Group: ACiD Productions
@@ -35,30 +35,17 @@ Write-Host '
 
                             [1mC[0;1;30m·[0;1;37mH[0;1;30m·[0;1;37mA[0;1;30m·[0;1;37mN[0;1;30m·[0;1;37mN[0;1;30m·[0;1;37mE[0;1;30m·[0;1;37mL [0;1;30m· [0;1;37mZ[0;1;30m·[0;1;37mE[0;1;30m·[0;1;37mR[0;1;30m·[0;1;37m0[0m
 
-                            [31m7 1 4 [0;1;30m· [0;31m5 3 2 [0;1;30m· [0;31m5 9 5 0[0m
-                            [31m7 1 4 [0;1;30m· [0;31m5 3 2 [0;1;30m· [0;31m5 9 6 8[0m
-
-                   [1;30m                                           [0m
-              [1;30m                                                   [0m
-
+[31m[0;1;30m[0;31m[0;1;30m[0;31m[0m[31m[0;1;30m[0;31m[0;1;30m[0;31m[0m
+[1;30m[0m[1;30m[0m
  [1m──[0m─[1m──[0m─[1m─[0m─────[1;30m─[0m─[1;30m────────────────────────────────────────────────[0m─[1;30m─[0m──────[1m─[0m─[1m──[0m─[1m───[0m
 [1m  C [0;1;30m·    [0;1;37mH [0;1;30m·    [0;1;37mA [0;1;30m·    [0;1;37mN [0;1;30m·    [0;1;37mN [0;1;30m·    [0;1;37mE [0;1;30m·    [0;1;37mL [0;1;30m·[0m       [1;30m· [0;1;37mZ    [0;1;30m· [0;1;37mE    [0;1;30m· [0;1;37mR    [0;1;30m· [0;1;37m0[0m
 [1;37m ──[0m─[1m──[0m─[1m─[0m─────[1;30m─[0m─[1;30m────────────────────────────────────────────────[0m─[1;30m─[0m──────[1m─[0m─[1m──[0m─[1m───[0m
 
-[1m   [0;1;30m     [0;1m [0m                                                         [1;30m   [0m
-
-                       [1;30m  [0m   [1;30m  [0m       [1;30m  [0m    [1;30m  [0m      [1;30m  [0m         [1;30m  [0m        [1;30m [0m
-            [1;30m  [0m     [1;30m  [0m     [1;30m  [0m    [1;30m  [0m     [1;30m  [0m     [1;30m [0m
-
-   [1;30m        [0;1;37m [0m                                 [1;30m   [0m
-
-          [1;30m  [0m          [1;30m  [0m      [1;30m  [0m         [1;30m  [0m       [1;30m  [0m           [1;30m  [0m       [1;30m [0m
-               [1;30m  [0m        [1;30m  [0m       [1;30m  [0m         [1;30m  [0m      [1;30m [0m
-
-[1;30m           [0;1;37m [0m                             [1;30m   [0m
-
-             [1;30m  [0m     [1;30m  [0m        [1;30m  [0m       [1;30m  [0m                       [1;30m  [0m       [1;30m [0m
-
+[1m[0;1;30m[0;1m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0;1;37m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0;1;37m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
   [1;30m─  ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
-                         [1;30m        [0m   [1m [0m [1;30m  [0;1;37m [0m [1;30m        [0m [1;30m  [0m
-                [1;30m─  ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m'
+[1;30m[0m[1m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;30m[0m                [1;30m─  ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m'

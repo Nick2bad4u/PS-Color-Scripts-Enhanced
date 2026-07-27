@@ -5,7 +5,7 @@
 # Source SHA-256: ed48ef37fa2ab5cf40784921e29c7dcbcaf9ea40e28decac2d9af15d47af1b99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR!STATS.ANS by trinity (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: status ansi
 # SAUCE Author: trinity
 # SAUCE Group: Phat Studios '97
@@ -32,13 +32,4 @@ Write-Host '
 [1;35;43m▒▀[0;1;33;43m░▄▄██▄   ▄▄▄▄[0;33m▀▀██[0;31;43m░░[0;1;31;43m     ▄██[0;1;31;47m▓░▓[0;1;31;43m▀[0;33m█▀[0m                                            [35;43m▒[0m
 [33;40m▀▀██[0;1;37;40m██[0;1;33;43m▀███▓▓▀ ▀[0;33m▌[0;37m  [0;33m█[0;31;43m▒▒[0;33;40m███[0;1;31;43m▄█▀▀▀[0;33m████████▄▄▄[0m                                       [35;43m░[0m
     [1;33;40m▀▀[0;33m▀██[0;1;33;43m ░░[0;33m██▀[0m   [33m▐[0;31;43m░░[0;33;40m█▀▀▀▀▀[0m       [33;40m░░[0;37;40m [0;33;40m▀▀▀█▄[0m   [33;40msome phukking stats![0m              [33;40m▓[0m
-          [33;40m▀▀[0m       [33;40m▐▀[0m                                                          [33;40m░[0m
-
-
-
-
-
-
-
-
-[1;30;40m--------------------------------------------------------------------------------[0m'
+          [33;40m▀▀[0m       [33;40m▐▀[0m                                                          [33;40m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: bf65cdda64cd6941541aefd71a726fb2f307e6f01c921ddd3de11089e1ba0db9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-TEN2.ANS by catch22 (glue); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: tenuous menuset
 # SAUCE Author: catch22
 # SAUCE Group: glue
@@ -30,13 +30,6 @@ Write-Host '
     [34m▀[0m    [34m▀▀▀▀▌[0;37m [0;1;34m  [0m  [31m░░▓▓▀ [0;37m [0;34m▐[0;37m [0;34m▀█[0;1;34;44m▀[0;1;34;47m▓[0;1;34;44m▓░[0;34m▓░[0;31m░▓[0;1;31m▒▒[0;31m████▀▀▀[0m    [31m░░▓███░[0;37m ░░[0;31m [0;1;31m▒▒[0;31m██[0;1;31;41m░░░[0;31m░[0;34m▒░[0m
              [34m▌[0;1;34m░[0;34m██[0m    [31m░░[0m   [34m [0;37m  ░░[0;34m▀▀▐▀[0;37m [0;31m ░[0m       [34m░░░░░[0m   [31m▀▀▀▀ [0m   [31m ▀▀▀▀▀▀ [0m
              [34m▀[0m     [34m██[0m       [34m  [0;37m [0;34m [0;37m [0;34m▀[0m
-                                  [37m              [0m
-
-      [37m              [0m              [37m              [0m            [37m              [0m
-      [37m              [0m              [37m              [0m            [37m              [0m
-      [37m              [0m              [37m              [0m            [37m              [0m
-      [37m              [0m              [37m              [0m            [37m              [0m
-      [37m              [0m              [37m              [0m            [37m              [0m
-      [37m              [0m              [37m              [0m            [37m              [0m
-
+[37m[0m
+[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m
 [37m--------[0m'

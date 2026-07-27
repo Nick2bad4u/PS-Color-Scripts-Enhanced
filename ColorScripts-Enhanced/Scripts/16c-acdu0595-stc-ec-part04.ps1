@@ -5,7 +5,7 @@
 # Source SHA-256: 4de6b2d20573afb3ae6815bb05a426f4819311a3ef7d5904cd359abdd8c1f5e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-EC.ANS by Stone The Crow (ACiD Productions); released in acdu0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Earth Crisis
 # SAUCE Author: Stone The Crow
 # SAUCE Group: ACiD Productions
@@ -38,7 +38,7 @@ Write-Host '
 [1m│[0m└[1;32m [0;31m▄[0;1;31m▄▄▄▄[0;31m▄[0;1;31m▄▄[0;31m▄[0;1;32m [0;1;31m▄[0;31m▄▄▄[0;1;32m  [0;31m▄▄[0;1;32m   [0;31m▄[0;1;32m        [0;31m▀▀[0;1;31;41m▒▄▄█[0;1;31;40m▀▀[0;1;30;40m▄[0;1;30;42m█▓░[0;32m▀[0;37m [0;32m▀▌▀ ▀[0;1;32m▀ [0m█[1m██▄ [0m█[1m█[0m█[1m█ [0m█[1m█[0m ▄[1m▄[0;1;47m▄[0;1;40m█[0m █[1m█[0m ▄[1m▄[0;1;47m▄[0;1;40m█[0m
 [1m│[0;1;31;41m▓▓[0;1;31;40m▀▀[0m
 [1m│[0;1;31;41m▒[0m [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m         [0m                       [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m        [0m
-[1;37m│[0;1;31;41m▒[0m [1;30m[[0m###[1m][0m [1m2[0;1;31m03[0;31m.568.1502[0m                       [1;30m[[0mtwi[1m][0m [1mT[0;1;31mwi[0;31mngle net[0m
+[1;37m│[0;1;31;41m▒[0m [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m         [0m                       [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m        [0m
 [1;37m│[0;1;31;41m░[0m [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                    [0m            [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m      [0m
 [1;37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                      [0m          [1;30m [0m   [1m   [0;1;31m  [0;31m       [0m
 [1;37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                     [0m           [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                    [0m

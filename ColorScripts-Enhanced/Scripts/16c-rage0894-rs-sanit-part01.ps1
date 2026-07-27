@@ -5,7 +5,7 @@
 # Source SHA-256: c914ae6e2497e3b74caba011145737aa2c49b0a549f13d4bc86414b30db11e2c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-SANIT.ANS by ReNeGAde SPiRiT (RaGE); released in rage0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Edge Of Sanity
 # SAUCE Author: ReNeGAde SPiRiT
 # SAUCE Group: RaGE
@@ -15,9 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                         [36m [0;1;30m [0;1;36m [0;1;30m  [0;36m [0;1;30m  [0;36m [0;1;36m [0;1;35m [0;1;36m  [0;36m [0;1;30m  [0;36m  [0;1;30m  [0;36m [0;1;30m [0;1;36m [0;1;30m    [0;36m [0m
-                        [1;30m [0;1;36m [0;1;30m     [0;36m [0;1;30m  [0;1;36m  [0;1;30m [0;1;36m  [0;36m [0;1;36m [0;36m [0;1;36m [0;36m   [0;1;36m  [0;36m  [0;1;36m [0;36m [0;1;36m [0;36m [0m
-
+[36m[0;1;30m[0;1;36m[0;1;30m[0;36m[0;1;30m[0;36m[0;1;36m[0;1;35m[0;1;36m[0;36m[0;1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0;1;36m[0;1;30m[0;36m[0m[1;30m[0;1;36m[0;1;30m[0;36m[0;1;30m[0;1;36m[0;1;30m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0m
 [36m [0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [30mA[0;1;37m█[0;31m█[0;1;30;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m█[0;1;37m█[0m
 [30mN[0;1;37m█[0;31m█[0;1;30;41m█[0;32m█░▓████████[0;1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;35m░░░░█▓▓▓▓▓▓[0;1;35m██░▓██████████[0;1;30;41m█[0;31m█[0;1;37m█[0m

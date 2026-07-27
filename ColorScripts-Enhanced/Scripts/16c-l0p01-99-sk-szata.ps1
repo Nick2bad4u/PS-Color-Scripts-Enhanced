@@ -5,7 +5,7 @@
 # Source SHA-256: b31f2893c413cc70850aece48129e16bc07625d12c065c92f12eab39a6e5184c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!SZATA.ANS by sIMON kING (tHElo0p); released in l0p01_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: szatan w cieniu
 # SAUCE Author: sIMON kING
 # SAUCE Group: tHElo0p
@@ -38,22 +38,4 @@ Write-Host '
 [1;30m░[0m     [1;33m▐[0;1;37m▌[0m    [1;30m░[0;1;33m █[0m        [1;30m   [0;34m  ▄▌[0;1;30m     [0;34m   [0;1;30m▒[0;34m█[0;1;30;44m [0;34m██▓▀▀▄▄▀████████████    ░▒▒   ▄▄▄▀███▓▌[0m
 [1;30m░░[0m     [1;33m▀[0;1;37m▀▄[0;1;33m▄▄▀▀[0m        [1;30m  [0;34m  ███▄█▌[0;1;30m     [0;34m  [0;1;30m░[0;1;30;44m [0;34m▀▓▌▐██▓▓ ░███████▄▀    ░ ▄██████▓▌▐█▓▓ [0m
 [1;30m░░░░[0m                  [1;30m [0;34m  ▐██████▄[0;1;30m        [0;34m███▄███▓▌ ▐███████▓░     ▐███▓▄▀▀▄█▓▓ ▀[0m
-[1;30m░░[0m  [1;30m░[0m                        [34m▌[0;37m [0;34m▀[0;37m  [0;34m   ▀▀[0;1;30m   [0;34m██▀▀▀▀▀[0;37m [0;34m░▀[0m     [1;30msK!l0p(1999)   [0m    [34m▀▀▄[0m
-
-
-
-[1;30m                                                                              [0m
-[1;30m                                                                              [0m
-[1;30m                                                                      [0m
-[1;30m                                                                        [0m
-[1;30m             [0m
-                                                           [1;30m              [0m
-[1;30m                                                          [0m
-
-[1;30m        [0m
-[1;30m                [0m
-[1;30m                             [0m
-[1;30m              [0m
-[1;30m      [0m
-
-[1;30mtel. +48(052) 3897456, +48(061) 8219584[0m'
+[1;30m░░[0m  [1;30m░[0m                        [34m▌[0;37m [0;34m▀[0;37m  [0;34m   ▀▀[0;1;30m   [0;34m██▀▀▀▀▀[0;37m [0;34m░▀[0m     [1;30msK!l0p(1999)   [0m    [34m▀▀▄[0m'

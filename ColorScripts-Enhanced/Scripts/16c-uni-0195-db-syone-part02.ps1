@@ -5,7 +5,7 @@
 # Source SHA-256: c9fa8bd0b59bb5b250c2a07641cdc763ab5d9ccdd569e4443ed87e42a5c24f2b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DB-SYONE.ANS by D-Vibe (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: System One
 # SAUCE Author: D-Vibe
 # SAUCE Group: Union
@@ -44,11 +44,4 @@ Write-Host '
        [34m████[0;1;34;44m▒[0;34m█▓█░    ██[0;1;34;44m▒[0;34m█████ [0;1;34;44m░[0;34m▓▓█[0;1;34;44m▒[0;34m██▓░    ██[0;1;34;44m▒[0;34m▓███▓ ███▓██[0;1;34;44m▒[0;34m█▀▀▀▀▀[0m
        [34m▀▓▓█[0;1;34;44m▓[0;34m██▓▒▄▄▄▄[0;1;34;44m░[0;34m█[0;1;34;44m▓[0;34m▓██▓▀ [0;1;34;44m▒[0;34m█▓█[0;1;34;44m▓[0;34m█▓▒▒    [0;1;34;44m░[0;34m█[0;1;34;44m▓[0;34m▓██▓▒ ▀▓[0;1;34;44m░[0;34m▓██[0;1;34;44m▓[0;34m▓▒▄▄▄▄▄▄▄▄▄▄▄▄[0m
          [34m░    ▒[0m           [34m░    ░    ░[0m        [34m░[0m             [34m░[0m      [34m▒[0m
-              [34m░    [0;1;30m                                         [0m      [34m░[0m
-           [1;30m                                                          [0m
-            [1;30m                                                        [0m
-              [1;30m                                                   [0m
-        [1;30m                                                                [0m
-
-                      [1;30mNode#1 +46.8.50026361 USRv.34 28800[0m
-                      [1;30mNode#2 +46.8.50026362 USRv.34 28800[0m'
+              [34m░    [0;1;30m                                         [0m      [34m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d700ceeb5ef394f3ea39b1447eb32e987a2ddb1e0a1037ea55bcba674bbbf154
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DB-DR1.ANS by D-Vibe (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Death Row
 # SAUCE Author: D-Vibe
 # SAUCE Group: Union
@@ -59,7 +59,7 @@ Write-Host '
               [1;30m▒    ░[0m         ░                              [1;30m░    ▒[0m
               [1;30m▓▄■▀[0m      D   e   a   t   h      R   o   w      [1;30m▀■▄▓[0m
            [1;30m░▄▓▀[0;31m░▄[0;36m■[0;31m░[0m                                          [31m░[0;36m■[0;31m▄░[0;1;30m▀▓▄░[0m
-           [1;30m▐▓ [0;31m▓▀[0m                 [37m4[0;1;37m13-[0m7[1m82-[0m1[1m851[0m                   [31m▀▓ [0;1;30m▓▌[0m
+           [1;30m▐▓ [0;31m▓▀[0m                 [37m [0;1;37m   [0m [1m   [0m [1m   [0m                   [31m▀▓ [0;1;30m▓▌[0m
           [1;30m░▐▌▓[0;31m▌[0;36m░[0m         [37mS[0;1;37mysOps: [0mS[1mociopath [0ma[1mnd [0mM[1maestro[0m          [36m░[0;31m▐[0;1;30m▓▐▌░[0m
            [1;30m▓ [0;31m░[0m                                                    [31m░ [0;1;30m▓[0m
            [1;30m▓▓▄■[0m     [1;30m        [0m       [1;30m   [0m      [1;30m                [0m     [1;30m■▄▓▓[0m

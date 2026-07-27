@@ -5,7 +5,7 @@
 # Source SHA-256: 7bd4d43061b5dc6f5fcf5f1c9acca74c0d313511086bb69de7f8e1b4712ed24a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LO-ANEY1.ICE by Leonardo (ice9503a); released in ice9503a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 48-95
 # Columns: 1-80
 
@@ -42,7 +42,7 @@ Write-Host '
 [1;31m▀▀▒▄▄▄░   ░  [0;34m░  [0;1;34m▒[0;1;34;44m▒[0m  [1;34;44m░░[0m  [1;34;44m░░[0m  [1;34;44m▒▒[0m  [1;34;44m▒[0;34m█  ░ [0;1;31m░▄▄▄[0;1;31;41m▓▀▀▒▀▀░[0;31m▓▓▀█[0;1;31;41m░▀▒▓█[0;1;31;47m▓██▓▓▓█[0;1;31;41m█▓▒▄░[0;31m█[0;31;41m [0;31;40m▓█▓▀▄▓▒▒[0m
 [31;40m█▀▄▄▄▄[0;1;31;40m▀▀▀▀▓▄░[0m [30mj/k, contact me on IRC[0;31m▄[0;1;31;41m░▀[0;31m▓▀▀▀▀▓░[0m     [31m▀▓▀█▀[0;1;31;41m░▓▓█[0;1;31;47m██▄▒▓[0;1;31;41m██▓▓▒░░░  [0;31m█▄▄▄[0;37m [0m
 [31m [0;1;31;41m░░[0;31m█▀▄▓▓▒░ [0;1;31m▀▓▄  [0;1;34m░░  ▒▒  ▓▓  [0;1;34;44m▓▓[0m  [34m▓░ [0;31m▒▀░  [0;1;34m░░  [0;31m░   [0;1;34m▒▓   [0;31m░▄▓▀[0;1;31;41m▀▒▓█▓[0;1;31;47m█▓[0;1;31;41m██[0;1;31;47m▓[0;1;31;41m█░[0;31m█[0;1;31;41m░ ░ [0;31m▓▄▄▀▀▓[0m
-[31m▌▐[0;1;31;41m░[0;31m▌▐███▓ ▒░ [0;1;31m▀█▓▄  ░[0m [30mor email:[0;37m [0;30mleo@vulcan.inlink.com[0;37m  [0;31m▐▄▓[0;31;41m [0;1;31;41m░[0;31m▄▄▀[0;1;31;41m▀▀[0;31m▀[0;1;31;41m▓[0;1;31;40m▀[0;31m▀▀▀[0;1;31;41m░[0;31m▄█▄▀ ▒▒░[0;37m [0m
+[31m▌▐[0;1;31;41m░[0;31m▌▐███▓ ▒░ [0;1;31m▀█▓▄  ░[0m [30m         [0;37m [0;30m                     [0;37m  [0;31m▐▄▓[0;31;41m [0;1;31;41m░[0;31m▄▄▀[0;1;31;41m▀▀[0;31m▀[0;1;31;41m▓[0;1;31;40m▀[0;31m▀▀▀[0;1;31;41m░[0;31m▄█▄▀ ▒▒░[0;37m [0m
 [1;31;41m▒[0;31m▄▀▄▄▀▄▀▌▐▓▓░░ [0;1;31m▀▄[0;1;31;47m▓[0;1;31;40m▄▓    [0;1;34;40m░░  ▒▒  ▓▓  ▓▓  ▓▒  ▒▒ [0;1;31;40m░ [0;1;34;40m▒   [0;1;31;40m▒[0;31m▀[0;1;31m▄▄▄▄[0;31m▀▀▀▓▀▄▄▀▓▓▄▄▓▒░░ [0;1;31m▄▄▄░[0m
 [1;31;41m▒▒▒[0;31m▀▄[0;1;31;41m░[0;31m▀▄▄▄▀▓▒▒░ [0;1;31m░ ▀[0;1;31;47m▓▓[0;1;31;40m█▓▄▄▄▄░[0m [30miCEiCEiCEiCE[0m [1;31m▄▓▄▄█▓▄   ░▐[0;1;31;47m▓▓[0;1;31;40m▀▀▀[0;1;31;41m▓▓[0;1;31;47m█[0;1;31;40m▄▄[0;31m▀▀▓▓▒▒ [0;1;31m▄▄[0;1;31;41m▓[0;1;31;47m█[0;1;31;40m█▀▀▀[0;1;31;41m▒[0m
 [1;31;40m▀[0;1;31;41m▓[0;1;31;40m▀▄[0;1;31;41m▒▒[0;31m▌▐[0;1;31;41m░[0;31m▌▐▓▓ ▒░  [0;1;31m▐[0;1;31;47m▓▒[0;1;31;40m▄▀▀▀▀█[0;1;31;47m▓█▓▓[0;1;31;40m█▄▄▄▄▄▓█▀██[0;1;31;47m▓[0;1;31;40m█[0;1;31;47m▓▒▀▓[0;1;31;40m▄▌░  ░[0;31m▄▄ [0;1;37m▀[0;1;37;41m▓[0;1;37;40m▄▄[0m▄[1;31m▀▀[0;1;31;41m▒[0;31m▄   [0;1;31m▄[0;1;31;47m▓[0;1;31;40m▀▀[0m▄[1m▄▄[0;1;41m▓[0;1;40m▀ [0;31m▄[0m

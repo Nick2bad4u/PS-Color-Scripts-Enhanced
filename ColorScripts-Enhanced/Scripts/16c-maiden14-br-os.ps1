@@ -5,7 +5,7 @@
 # Source SHA-256: 46a063b5708ed97094e9a13bbd331df2aa01c6b7f9118ff1c435e5febd2b0b37
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BR-OS!.ANS by Beerfull (Maiden); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Os!
 # SAUCE Author: Beerfull
 # SAUCE Group: Maiden
@@ -37,4 +37,4 @@ Write-Host '
                                    ██████
                                        [30;47m▓▓▓[0m              [37;40m       [0m
 
-[1;30;40m--─-─<beerfull@hotmail.com>----─-────────-─-─-─-─--─-─────────-─-─-─-─-─-─-─────[0m'
+[1;30;40m  ─ ─                          ─ ──────── ─ ─ ─ ─  ─ ───────── ─ ─ ─ ─ ─ ─ ─────[0m'

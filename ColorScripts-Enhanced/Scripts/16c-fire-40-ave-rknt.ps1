@@ -5,7 +5,7 @@
 # Source SHA-256: 802c24c2c47c44a38a79b307670c6a92ba5aee851c1940af67e3aa4b7bd31f32
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-RKNT.ANS by avenger (Fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Radikant
 # SAUCE Author: avenger
 # SAUCE Group: Fire
@@ -51,6 +51,5 @@ Write-Host '
             [1;31m▀▀▀[0m     [31m▄▄▄▄▄▄▄▄▄▄▄▄▄░░░░[0m           [1;34m...[0;34m   [0;1;34m___[0m       ▀▀[34m  [0;33m░░░░░░[0m
                 [1;34m....[0;1;33;41m  R A D I K A N T  [0;1;34;40m....[0m                [1;34m_____[0m
                   [1;34m#####[0;34m  [0;31m▓▓▓▓▀▀▀▀▀▀▀▀▀▀[0;34m   [0;1;34m:[0;1;33m [0;1;34m  [0;1;37mSTYLE[0;1;33m, SOUL[0m             [1;34m****[0m
-                                          [1;34m [0;34m   [0;1;34m   [0;34m [0;1;33m [0;32m   [0;1;32m         [0;1;34m    [0m
-                                          [1;34m:.___....________.[0m
+[1;34m[0;34m[0;1;34m[0;34m[0;1;33m[0;32m[0;1;32m[0;1;34m[0m                                          [1;34m:.___....________.[0m
                                                            [1;34m:.________[0m'

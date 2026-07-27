@@ -5,7 +5,7 @@
 # Source SHA-256: a32418cb6e6abaf4786a8df2b371728a3bae88e686e607a280b023d611e15b51
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-ELLAD.ANS by Cosmic Catalyst (ato-0294); released in ato-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 82-131
 # Columns: 1-80
 
@@ -45,7 +45,7 @@ Write-Host '
        [33m█████[0m                                                     [33m██████[0m
        [33m█████[0m        [1;37m■■[0;1;33m■■[0;33m■■[0;1;30m■■■■■■■■■■■■■■■■■■■■■■■■■[0;33m■■[0;1;33m■■[0;1;37m■■[0m        [33m██████[0m
        [33m█████[0m        [1;37m■■[0;1;33m■■[0;33m■■[0;1;30m■■■ [0;1;37mS[0;1;33my[0;33mS[0;1;30mGoD : [0;1;37mE[0;1;33mX[0;33mP[0;1;30mLOSiF ■■■[0;33m■■[0;1;33m■■[0;1;37m■■[0m        [33m███▓▓█[0m
-       [33m█▓█▓█[0m        [1;37m■■[0;1;33m■■[0;33m■■ [0;1;37mN[0;1;33mO[0;33mD[0;1;30mE 1 : [0;1;37m([0;1;33m7[0;33mo[0;1;30m5) [0;1;37m7[0;1;33m3[0;33m9[0;1;30m-[0;1;37m1[0;1;33m4[0;33m7[0;1;30m5 [0;33m■■[0;1;33m■■[0;1;37m■■[0m        [33m██▓█▓▓[0m
+       [33m█▓█▓█[0m        [1;37m■■[0;1;33m■■[0;33m■■ [0;1;37m [0;1;33m [0;33m [0;1;30m      [0;1;37m [0;1;33m [0;33m [0;1;30m   [0;1;37m [0;1;33m [0;33m [0;1;30m [0;1;37m [0;1;33m [0;33m [0;1;30m  [0;33m■■[0;1;33m■■[0;1;37m■■[0m        [33m██▓█▓▓[0m
        [33m██▓▓█[0m        [1;37m■■[0;1;33m■■[0;33m■■ [0;1;37mN[0;1;33mO[0;33mD[0;1;30mE 2 : [0;1;37m([0;1;33m7[0;33mo[0;1;30m5) [0;1;37mU[0;1;33mR[0;33m2[0;1;30m-[0;1;37mL[0;1;33mA[0;33mM[0;1;30mE [0;33m■■[0;1;33m■■[0;1;37m■■[0m        [33m█▓▓▓█▓[0m
        [33m█▓▓█▓[0m        [1;37m■■[0;1;33m■■[0;33m■■[0;1;30m■■■■■■ [0;1;37mZ[0;1;33mE[0;33mP[0;1;30mPLiN [0;1;37mW[0;1;33mH[0;1;30mQ ■■■■■■[0;33m■■[0;1;33m■■[0;1;37m■■[0m        [33m▓▒▓▓▒█[0m
        [33m▓▓▓▓▒[0m        [1;37m■■[0;1;33m■■[0;33m■■[0;1;30m■■ [0;1;37m6[0;1;33mo[0;33mo[0;1;30m+ [0;1;37mM[0;1;33mE[0;33mG[0;1;30mZ [0;1;37mO[0;1;33mF [0;1;37mP[0;1;33mO[0;33mW[0;1;30mER! ■■[0;33m■■[0;1;33m■■[0;1;37m■■[0m        [33m▒▒▒▓▓▓[0m

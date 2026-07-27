@@ -5,7 +5,7 @@
 # Source SHA-256: e967a4c7b0dc426d176e7096eda2514e8b5062cc456256d4d4bae21b888e9bb8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PI-JABY1.ANS by Pinhead (Moist); released in moi-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Jaby Da Gopher
 # SAUCE Author: Pinhead
 # SAUCE Group: Moist
@@ -57,7 +57,7 @@ Write-Host '
 [1;30;40m         [0;30;43m▀[0m                                                            [30;43m     ▓  [0m
 [1;30;40m   ░ ■   [0;33m▓▒░[0m               [1;37m■───[0m─[1m─[0m─[1;30m─[0m─[1;30m── ─  ─   ─[0m                     [33m░▒▓[0;33;43m       [0m
 [1;30;40m   ▒    [0;33m▓▒░[0m                                                          [33m░▒▓[0;33;43m [0;1;30;43m■    [0m
-[1;30;40m   ▓   [0;33m▓▒░[0m                  [37mNode1-209 522 5208[0m                        [33m░▒▓[0;33;43m     [0m
+[1;30;40m   ▓   [0;33m▓▒░[0m                  [37m                  [0m                        [33m░▒▓[0;33;43m     [0m
 [33;40m [0;30;40m■    [0;33;40m▓▒░[0m                   [37;40m                  [0m     [1;37;40m [0;1;30;40m [0m [1;30m  [0m [1;30m    [0m [1;30m   [0m      [33m░▒▓[0;33;43m    [0m
 [30;40m     [0;33;40m▓▒░[0m                                           [37;40ma[0;1;30;40mns[0mi [1;30mby y[0mou[1;30mrs[0m        [33m░▒▓[0;33;43m   [0m
 [33;40m▓[0;33;43m   [0;33;40m▓▒░[0m                    [1;30;40m─   ─  ─ ──[0m─[1;30m─[0m─[1m─[0m─[1m───■    [0;1;30mtr[0mu[1;30mly.....[0m            [33m░▒▓[0;33;43m [0;1;30;43m■[0m

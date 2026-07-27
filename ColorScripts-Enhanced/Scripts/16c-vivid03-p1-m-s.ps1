@@ -5,7 +5,7 @@
 # Source SHA-256: e010bf7aa07db2954dd4e2c7513978162d3236efea2d3adfe0c4d88761c9f922
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-M&S.ANS by Paranormal Intensity (ViViD); released in vivid03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mind And Sould Ansi
 # SAUCE Author: Paranormal Intensity
 # SAUCE Group: ViViD
@@ -29,8 +29,7 @@ Write-Host '
      [1m▒▄▄▄░ [0;1;30m▄  [0;1;37m▄▄▒[0m     [1m▒▄  [0;1;30m▄ [0;1;37m▄▄▄▓[0m           [1;30m[[0;1;37ma[0;1;30m][0;1;37mrea change[0m
 [1m    ▀▀[0;1;47m▓▓[0;1;40m█▌[0;1;30;40m▐  ▄ [0;1;37;47m░░[0;1;37;40m▄  ▄[0;1;37;47m░░[0m [1;30m▄  ▌[0;1;37m▐[0;1;37;47m▒▒▓[0;1;37;40m▀▀[0m         [1;30m[[0;1;37mc[0;1;30m][0;1;37mhat with sop[0m
        [1m▓▀▀ [0;1;30m▀▀  [0;1;37m▓[0m      [1m▓  [0;1;30m▀▀ [0;1;37m▀▀▒[0m            [1;30m[[0;1;37mm[0;1;30m][0;1;37message menu[0m
-                                           [1;30m [0;1;37m [0;1;30m [0;1;37m      [0m
-                 [33m▓[0m       [33m▒[0m       [33m▒[0m
+[1;30m[0;1;37m[0;1;30m[0;1;37m[0m                 [33m▓[0m       [33m▒[0m       [33m▒[0m
 [33m  ▒▄[0;1;31;43m▒▄[0;33m█▓▄█[0;1;31;43m▒[0;33m█▄ ░▄▒█▄▒ ▓[0;1;31;43m░▄▀[0;33m▓█[0;1;31;43m▓[0m  [33m▄█[0;1;31;43m▒▄▄[0;33m▓[0m
 [33m ▐[0;1;31;43m▄█▀[0;33m▒█[0;1;31;43m▒[0;33m▓ █[0;1;31;43m▓[0;33m█▓ [0;1;31;43m░▒█▌[0m  [33m▓[0;1;31;43m▄█[0;33m▌░█[0;1;31;43m▒[0;33m▒ █[0;1;31;43m▄█▀▓[0;33m█[0;1;31;43m░[0m
 [1;31m [0;33m▐[0;1;31;43m░▓ [0m [33m▐[0;1;31;43m▓[0;33m▌░[0;33;43m  [0;1;31;43m▒[0;33m▌ █▓[0;1;31;43m▒▓[0m  [1;31;43m▒▓[0;33m█  [0;1;31;43m░[0;33m█  █[0;1;31;43m▓▀[0m [33m▒█▌[0m

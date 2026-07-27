@@ -5,7 +5,7 @@
 # Source SHA-256: ccbb179448b35774ff6f47bc688f8ecc9672f041330a6d3341ba8ca149e0df09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-TSP.ANS by burps (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Shroom Palace
 # SAUCE Author: burps
 # SAUCE Group: Fuel Productions
@@ -41,9 +41,4 @@ Write-Host '
 [1;30m█▀▓▀▀   [0;1;35mxxx xxxxxxx xxxx   [0;1;30m▄▄▓[0;1;30;44m▓[0;1;30;40m██▓    ▀  ▀▓░   [0m▀  [1;30m░▓▄   ░   ▄ [0;1;31mburps[0;1;32m([0;1;33mfuel[0;1;32m) [0m▀
     [1;30m░▀▀                       ▀ ▀                         ▀                    [0m
 -------------------------------------------------------------------------------
-                                                                        
-                                                                   
-                                                                       
-                                                                     
-                              
 -------------------------------------------------------------------------------[0m'

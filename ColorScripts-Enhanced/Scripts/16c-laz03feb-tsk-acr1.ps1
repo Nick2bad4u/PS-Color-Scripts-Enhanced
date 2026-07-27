@@ -5,13 +5,12 @@
 # Source SHA-256: 95088b66bf5c31cc9c59caef643678ef87db8e6eea48c7cf556e4553f6ad41c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-ACR1.ANS by The Silent Killer (laz03feb); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-16
 # Columns: 1-80
 
 Write-Host '
 
-                                    
    [1m   [0m                                                [33m▀█[0;1;33;43m▐[0;1;33;40m█▄[0m
         [33m▄▄▄[0;1;33;43m▄▄▄[0;1;33;40m█▄[0m     [33m▄▄▄[0;1;33;43m▄▄[0;1;33;40m██▄[0m     [33m▄▄▄[0;1;33;43m▄▄▄[0;1;33;40m█▄ [0;33m▄[0;1;33m▄  [0m  [33m▀█[0;1;33;43m▄[0;1;33;40m█▄ [0;33m█[0;1;33;43m█[0;1;37;40m██[0;1;33;40m [0;33m▄▄▄[0;1;33m [0;1;37mTsk[0;1;33m  [0;33m▄▄▄[0;1;33;43m▄▄▄[0;1;33;40m█▄[0m
    [1;33m  [0;33m▄[0;1;33;43m▄▄[0;1;33;40m██[0;1;33;43m▀[0;33m▀[0;1;33;43m▐[0;1;33;40m█[0;1;37;40m██[0;1;33;40m [0;34m [0;33m▄[0;1;33;43m ▄▄[0;1;33;40m█[0;1;33;43m▀[0;33m▀[0;1;33;43m▀█[0;1;37;40m██[0;1;33;40m  [0;33m▄[0;1;33;43m ▄▄[0;1;33;40m█[0;1;33;43m▀[0;33m▀[0;1;33;43m▀[0;1;33;40m█[0;1;37;40m██[0;1;33;40m [0;1;33;43m▐[0;1;33;40m█▀[0m   [1;33m [0;33m▐[0;1;33;43m▐[0;1;37;40m██▌[0;1;33;43m▐[0;1;33;40m███ [0;33m█[0;1;33;43m▄[0;1;33;40m█[0;1;37;40m█[0;1;33;40m  [0;33m▄[0;1;33;43m▄▄[0;1;33;40m██[0;1;33;43m▀[0;33m▀[0;1;33;43m▀[0;1;33;40m█[0;1;37;40m██[0m

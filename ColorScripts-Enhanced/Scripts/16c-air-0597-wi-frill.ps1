@@ -5,7 +5,7 @@
 # Source SHA-256: b79f7c58eab064355c1fbb4c826d02b9e511bed9bd3ad1e2144e9cae70ee98bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WI-FRILL.ANS by \\i - White Ice (sOciety); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: no frill logo
 # SAUCE Author: \\i - White Ice
 # SAUCE Group: sOciety
@@ -38,6 +38,6 @@ Write-Host '
 [1;30;47m▒░░▒[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 [1;30;47m░[0;1;37;47m░[0m▌        [1m                                              [0m
 [1;47m▒[0m▌         [1m                                                            [0m
-[1;47m▓█[0m▌                    [1mf.e.a.r. [ 9 o 5 ] 6 o 2 - 8 i 5 2.[0m
+[1;47m▓█[0m▌                    [1m                                   [0m
 [1m ▀[0;1;47m█[0;1;40m█▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄[0;1;47m▒[0;1;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▒▒▄▄▄▄▄▄▄▄▄[0m
                                             [1;40m▓[0m'

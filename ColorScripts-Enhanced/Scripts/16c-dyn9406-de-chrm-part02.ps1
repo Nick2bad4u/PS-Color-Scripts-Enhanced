@@ -5,7 +5,7 @@
 # Source SHA-256: 126e84473d9e46538dd8dbd6c78bc316637bb4c703854aa70133ebc03028a882
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DE-CHRM.ANS by Dragons Eye (dyn9406); released in dyn9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -57,6 +57,6 @@ Write-Host '
                       [1;32;42m▓▓[0m [1;32;40m [0;1;37;40m  [0;1;32;40m [0;1;37;40m    [0;1;32;40m     [0;1;37;40m         [0;1;32;40m  [0m      [1;32;42m██[0m
                       [1;32;42m██[0m             [1;32;40m [0;1;37;40m     [0;1;32;40m   [0;1;37;40m    [0;1;32;40m     [0;1;32;42m██[0m
                       [1;37;40m▀▄[0m                               [1;32;42m▓▓[0m
-                      [1;37;40m▀[0m          [1;32;40m([0;1;37;40m818[0;1;32;40m) 2[0;1;37;40m82[0;1;32;40m-[0;1;37;40m592[0;1;32;40m5[0m        [1;33;42m▓▓[0m
+                      [1;37;40m▀[0m          [1;32;40m [0;1;37;40m   [0;1;32;40m   [0;1;37;40m  [0;1;32;40m [0;1;37;40m   [0;1;32;40m [0m        [1;33;42m▓▓[0m
                        [1;37;40m▀[0m                               [1;33;42m██[0m
                                          [1;37;40m▄ ▀[0;1;32;40m▄▄▀[0;1;32;42m██▓▓[0;1;33;42m▓▓██[0;32m▀[0m'

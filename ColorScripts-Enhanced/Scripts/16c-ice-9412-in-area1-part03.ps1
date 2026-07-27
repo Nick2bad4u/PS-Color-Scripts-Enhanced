@@ -5,7 +5,7 @@
 # Source SHA-256: f2aaec1c08c4f36ff4e4658b7f1da0b7d3199f02c718425d4b81a917aec8073e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-AREA1.ICE by Incubus (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 78-125
 # Columns: 1-80
 
@@ -29,18 +29,14 @@ Write-Host '
                                   [1;30m▀▀▀▀[0m      [1;31m▄[0;1;31;41m▀[0m         [34m■    ■ [0;31m▀[0m     [1;31;41m░[0;31m▌[0m     [30;44m▀[0m
                                              [31m▀[0;1;31m▄▄█[0;1;31;41m▀▀░[0;31m▄[0;1;31m▄   [0;34m■[0m      [30;44m▄[0m  [1;31m▄[0;1;31;41m▒[0;31m▌ [0;34m■[0m
          [1mA  [0;1;33mR  [0;33mE  A    [0;1;33m5  [0;1m1[0m                 [31m▄[0;1;31m▀[0;31m▀[0m     [31m▀▀[0;1;31;41m░[0;31m▄[0m     [34m·[0m     [31m▐[0;1;31;41m▓[0;31m▌[0m
-      [1;33m4 [0;1;32m1 4 [0;1;30m- [0;32m3 3 2 [0;1;30m- [0;32m9 [0;1;32m9 9 [0;1;33m2[0m                           [31m▀▄[0m     [34m■   [0;1;31m▐[0;1;31;41m▌[0m      [34m■[0m
+      [1;33m  [0;1;32m    [0;1;30m  [0;32m      [0;1;30m  [0;32m  [0;1;32m    [0;1;33m [0m                           [31m▀▄[0m     [34m■   [0;1;31m▐[0;1;31;41m▌[0m      [34m■[0m
                                             [1;31m·[0m           [1;31m▐[0;1;31;41m░[0;31m▌[0m        [1;31m▐[0;31m█[0m
       [1mS[0mys[1mA[0mwps[1m: A[0mstaroth                      [31m■[0m         [1;31m▄[0;1;31;41m▀[0;31m▀[0m         [1;31m▀[0;31m■ [0;1;31m▄▄[0;31m▄▄▄ [0;1;31m■ ·[0m
                [1mT[0mhanos                         [31m▀▄▄  [0;1;31m▄[0;31m▄[0;1;31;41m▀░[0;31m▀[0m       [1;31m▄▄[0;31m▄[0;1;31;41m▀▀[0;31m▀▀▀[0m
                                                  [31m▀▀▀▀[0m        [1;31m■▀[0;31m▀[0m
-        [1m [0m       [1m   [0m      [1m  [0;1;30m [0;1m [0m
-[1m  [0m [1m   [0m      [1m [0m    [1;30m  [0;1m      [0m      [1m [0m    
-     [1m         [0m      [1m [0m      [1m [0m    
-  [1m [0m        [1m [0m        [1;30m  [0;1m [0m [1m   [0m        
-      [1m750[0m+ [1mM[0megs[1;30m, [0;1m0[0m-[1m2 D[0may [1mW[0marez                    [1m▄▄▄███▄▄▄[0m
+[1m[0m[1m[0m[1m[0;1;30m[0;1m[0m[1m[0m[1m[0m[1m[0m[1;30m[0;1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;30m[0;1m[0m[1m[0m      [1m750[0m+ [1mM[0megs[1;30m, [0;1m0[0m-[1m2 D[0may [1mW[0marez                    [1m▄▄▄███▄▄▄[0m
                                                 [1;36m▄[0;1m▀[0;1;47m▄[0;1m▀[0;1;36m▄[0;36m▄▄[0;1m▀▄▀▀█[0m▄
-                 [1;30m■[0m        [1;34mC[0;34mall it...[0m           [1;36m▐█[0;36m▌▄[0;1;36;46m█[0;1;36m███[0;1;36;46m▄[0;36m▄[0;1m▀▄▐█[0m▌
+                 [1;30m■[0m        [1;34m [0;34m         [0m           [1;36m▐█[0;36m▌▄[0;1;36;46m█[0;1;36m███[0;1;36;46m▄[0;36m▄[0;1m▀▄▐█[0m▌
                     [1;30m▌    [0;1;34mI[0;34mt''s almost as[0m        [1;36m▐[0;36m▐▌[0;1;36;46m█[0;1;36m██▀[0;1;36;46m██▌[0;36m▌[0;1m▐██[0;1;47m [0m
 [30mi CCC EEE[0m        [1;30m▐[0m        [34mgood as this[0m          [1;36m▀[0;1m▄[0;1;36m▐█[0;1m■ [0;36m▐[0;1;36;46m▀[0;36m▀[0;1m▄[0;1;47m▀[0;1m█[0;1;47m▌[0m▌
   [30mC   E[0m             [1;30m▌[0m       [1;34mdoob[0;34m..[0m     [1;34m\    [0;1;31m▄▄▄██▄ [0;1;36m▀▀▄[0;36m█ [0;1m█[0;1;47m▄[0;1m█[0;1;47m▀[0m▀

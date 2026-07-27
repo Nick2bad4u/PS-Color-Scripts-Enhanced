@@ -5,7 +5,7 @@
 # Source SHA-256: 489aa4a5f80bf6c6cb95bcbea9b48ed4d403658c77473cd200e2d1e3b99c5d0c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TCS1.ANS by Marshal Law (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [1;30m▄▄▄▄[0m                                             [34m▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓████[0m         [1;37ma[0m
 [1;30m██▓░[0m       [1;37mINC Dist [0;34m⌂ [0;1;37m200+ Megs [0;34m⌂ [0;1;37mTCSnet[0m        [34m░░▒ ░░▒▒   ▓▓▒▓▓▓▓████[0m       [1;37mr[0m
 [1;30m██▓░[0m         [1;37mHST ONLY! [0;34m⌂ [0;1;37m0-7 Day Warez[0m            [34m▀░[0m            [34m░▒▓▓███[0m      [1;37ms[0m
-[1;30m██▓░[0m          [1;37m2 O 1 [0;34m- [0;1;37m5 3 5 [0;34m- [0;1;37mO 6 5 5[0m                             [34m░▒▓██[0m      [1;37mh[0m
+[1;30m██▓░[0m          [1;37m      [0;34m  [0;1;37m      [0;34m  [0;1;37m       [0m                             [34m░▒▓██[0m      [1;37m [0m
 [1;30m██▓░[0m                                                              [34m░▒▓▓█[0m      [1;37ma[0m
 [1;30m██▓░    [0m▀▀▀▀█ ▀▀▀                             [1;30m▄[0m▒▓███████[47m [0;40m█[0;47m [0;40m██████[0;1;47m▀░▒▓[0;34m▓▓[0m      [1;37ml[0m
 [1;30m██▓░[0m      █ █▀█▀                            [34m▄ [0;37m░▒▓████████▀█[0;37;47m   [0;37;40m███[0;1;37;40m█[0;1;37;47m▒▓[0;44m▌ [0;34;40m▌▓░[0m
@@ -59,4 +59,4 @@ Write-Host '
    ▀▀▀[1;47m░░[0m    ▀[1;30;47m▒▓[0;1;30;40m▌[0;1;37;47m░░[0m  [1;30;47m▒▒[0m   [1;37;47m░░[0m  [1;30;47m▒▒[0m   ▀[1;47m░░[0m  [1;47m░░[0m  [1;47m░░[0m▀       [1;30;47m▒▒▒▓[0;1;30;40m▌[0;1;37;47m░░[0m     [1;30;47m▒▒[0m     [1;37;47m░░[0m▀
  [47m  [0;40m▄  ▄█▌[0m      [40m▄█▌  [0;1;30;47m░░[0m   ██  [1;30;47m░░[0m    ██  ██  ██        [1;30;47m░░[0m   ██     [1;30;47m░░[0m    ▐█▄  ▄██
   ▀[47m    [0;40m▀   [0;47m     [0;40m▀   [0;47m  [0m  [47m  [0;40m▀  [0;47m  [0;1;30;40m▐[0;1;30;47m▓▒░  [0m  [1;30;47m  [0m  [1;30;47m  [0;1;30;40m▐[0;1;30;47m▓▒░  [0m  ▀[1;30;47m░▒[0m  ██     ▀[47m   [0m   [40m▀████▀[0m
-[40m [0;1;34;40m■■■■■■ [0;1;36;40mT H E [0;1;34;40m· [0;1;36;40mC R I M E [0;1;34;40m· [0;1;36;40mS Y N D I C A T E [0;1;34;40m· [0;1;36;40m2 O 1 [0;1;34;40m- [0;1;36;40m5 3 5 [0;1;34;40m- [0;1;36;40mO 6 5 5 [0;1;34;40m■■■■■■■[0m'
+[40m [0;1;34;40m■■■■■■ [0;1;36;40m      [0;1;34;40m  [0;1;36;40m          [0;1;34;40m  [0;1;36;40m                  [0;1;34;40m  [0;1;36;40m      [0;1;34;40m  [0;1;36;40m      [0;1;34;40m  [0;1;36;40m        [0;1;34;40m■■■■■■■[0m'

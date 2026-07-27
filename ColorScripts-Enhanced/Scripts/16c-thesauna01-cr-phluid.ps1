@@ -5,7 +5,7 @@
 # Source SHA-256: edd6827f46dc46dab4567bbde1d490ba5168ad53342b2097773c622ad9d74b71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cR-phluid.ans by Cranksy (pHluid); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: (pH)luid is back!
 # SAUCE Author: Cranksy
 # SAUCE Group: pHluid
@@ -41,4 +41,4 @@ Write-Host '
 [33m▓▓██▓▓██░[0;37m                                            [0;1;30m-cR - eVoke 2019[0m [33m░█▒▒█████▓[0m
 [33m▓▓██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█░█████▓▒[0m
 [33m▒▓▓██████████████████████████████████████████████████████████████████████████▓▓▒[0m
-[33m░▒▓▓▓▓▓▓▒██[0;1;37m(pH)luid is back biches - http://phluidmusic.bandcamp.com[0;33m██░▓▓▓▓▓▓▓▒░[0m'
+[33m░▒▓▓▓▓▓▓▒██[0;1;37m                                                         [0;33m██░▓▓▓▓▓▓▓▒░[0m'

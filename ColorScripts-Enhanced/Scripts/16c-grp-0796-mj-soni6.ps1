@@ -5,7 +5,7 @@
 # Source SHA-256: 9ae300f10c4314758c229b83daf1060b1c1e89733d10dd2d633613399f0cf61e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ-SONI6.ANS by mjay!? (grape); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sonic temple
 # SAUCE Author: mjay!?
 # SAUCE Group: grape
@@ -27,11 +27,8 @@ Write-Host '
 [1;30m,[0m`l$$$°,$$  [1;33m  [0md$°[1m$l[0m`$$$°$$ [1;33m    [0m $ss[1m$[0m''÷$$$$$[1;33m  [0m    s$$°''[1m$[0m $$$$l ls,l  ,ss$$$s$$ss
 [1;30m$$ [0ml$$s$$b. ,$$[1m$s$$[0m`l$l ,$y [1;33m   [0m,d[1m$$$[0ml,$°'',$l      l$[1ms,$$[0m $$$[1m$[0m $$$$   `$°$$$$$[1m$[0m
 [1;30m$''[0m,$$$s$$$$s[1ms$$$$$$s[0m l$$$''$b[1;33m  [0m,[1m$$''[0m [1m°$[0md$$$$$b,   ,$[1m$$$$$s,[0m`$[1m°`b,[0m''$b,   ls$$°`[1m$l[0m
-[1;30m                    [0m         [1m         [0m [1;30m            [0m        [1m     [0m           [1m    [0m
-[1;30m$$$$$$$$s÷²°''÷$$$$$%sssss$sss$$sss$ss$$$$$$$$$$$$$$s,[0m`""°[1m°²°°""''[0;1;30m,s$$s.[0m`"°[1m°°°°°"''[0m
+[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m$$$$$$$$s÷²°''÷$$$$$%sssss$sss$$sss$ss$$$$$$$$$$$$$$s,[0m`""°[1m°²°°""''[0;1;30m,s$$s.[0m`"°[1m°°°°°"''[0m
 [1;30m$$$÷²° [0;1;36m       [0;1;30m''$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ss$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;30m$$''[0msonic temple[1;30m$²°""''`""°²÷$$$$÷°"`"°÷$÷²°²÷$$$÷"''``s$$$$$$$$$÷²°''"°²÷$$$$$$$$$[0m
 [1;30ml''[0m [1;30m          [0m [1;30m''             `$° [0m     [1;30m,° [0m    [1;30m`$²      `$$$$$$''[0m [1;30m  [0m   [1;30m   ''$$$$$$$$$[0m
-[1;30m:[0m 905-685-3434 op''d by[1;34m [0mspasm,[1;30m''[0m               [1;30m`,[0m       [1;30m °$$$l [0m- mjay?! [1;30m,$$÷²°`$²°[0m
-[1;30m [0m                                            [1;30m    [0m        [1;30m   [0m          [1;30m  [0m     [1;30m [0m
-                                                           [1;30m `[0m        [1;30m''[0m'
+[1;30m[0m[1;34m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m                                                           [1;30m `[0m        [1;30m''[0m'

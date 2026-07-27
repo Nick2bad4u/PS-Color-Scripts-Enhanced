@@ -5,7 +5,7 @@
 # Source SHA-256: 519ab0b962adbf62b13448ea0cf8978c8c5268d51b5cc50cc553234af61e8034
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KJ-COMPU.ANS by kracker jack (SKiSM); released in skism-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: compuhell!@
 # SAUCE Author: kracker jack
 # SAUCE Group: SKiSM
@@ -40,7 +40,5 @@ Write-Host '
  [1;47mmess up this littl[0;1;30;47m▓▓[0;30;47me block all you want[0;1;33;47m░[0;1;30;47m▓▓▓[0;1;30;40m█▌[0;33m█ [0;1;33;43m█[0;1;33;40m██[0;1;33;41m█[0;1;33;43m▓[0;1;33;41m█[0;1;33;43m▓▒▒[0;1;33;41m▒[0;1;33;43m [0m [31m▐[0;1;31;41m▒[0;31m▌[0;1;31;41m░[0;31m██[0;1;30;41m░[0;1;33;40m▐▌[0;31m█ [0;33m▄[0;1;33;41m▒███▒░[0;1;33;43m▓[0m
 
 [1;33m---[0m
-[1;33m                                      [0m
-
-[1;36m                                  [0m
-[1;36m└──[0m'
+[1;33m[0m
+[1;36m[0m[1;36m└──[0m'

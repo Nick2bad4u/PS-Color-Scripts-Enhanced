@@ -5,7 +5,7 @@
 # Source SHA-256: d9f16dd0cf5a1eb0c7606bebe7a7d913336918bbfb41c29296fee241dc22c304
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-SKULL.ANS by Mr. Self Destruct (ACiD Productions); released in rmrs-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Atom
 # SAUCE Author: Mr. Self Destruct
 # SAUCE Group: ACiD Productions
@@ -16,8 +16,7 @@
 
 Write-Host '
 [1;31mmixi[0;31mn[0;1;31mg[0;1;30m [0;31matoms with angles[0;37m  [0;1;31m$[0;31m$  [0;1;31m$$[0;31m$$$$  [0;1;31m$[0;31m$$$  [0;1;31m$[0;31m$$$$$$$  $$$$$gg$$$$$$$$  $$g$gg.[0m
-[1;31mmsd[0;31m/rmrs[0;37m [0;31m- msd@pangea.ca [0;37m [0;1;31m$[0;31m$  [0;1;31mg[0;31mgg$$g  [0;1;31m$[0;31m$$$gg$$$$$$$$  [0;1;31m$[0;31m$$$$$$$$$$$$$$  $$$$$$: [0m
-[37m [0;1;31m-   -[0;31m- ─---──-- [0;1;31m:[0;31m:─  -  [0;1;31m:$[0;31m$gg[0;1;31m$[0;31m$$$$$  $$$$$$$$$$$$$$  [0;1;31m$[0;31m$$$$$$$$$$$$$ggg$$$$$$i[0m
+[1;31m[0;31m[0;37m[0;31m[0;37m[0;1;31m[0;31m[0;1;31m[0;31m[0;1;31m[0;31m[0;1;31m[0;31m[0m[37m [0;1;31m-   -[0;31m- ─---──-- [0;1;31m:[0;31m:─  -  [0;1;31m:$[0;31m$gg[0;1;31m$[0;31m$$$$$  $$$$$$$$$$$$$$  [0;1;31m$[0;31m$$$$$$$$$$$$$ggg$$$$$$i[0m
 [31m      . .[0;1;31m.,╓[0;31mgg╖,..[0;1;31m.,g[0;31mg. .[0;1;31m:$[0;31m$$$$$$$$$gg$$$$$$$$$:$$$$  $$$$$$$$$P$$$$$$$$$$$$$$[0m
 [1;31m..[0;31m.  [0;1;31m:[0;31m: . [0;1;31m$[0;31m$$$$$[0m   [31m`²²'' :[0;1;31m;[0;31m$$b`4$$$$$$$$$$$$$$$: $$$$gg$$$$$$$$P $$$$$$$$$$$$$$[0m
 [1;31m:[0;31m  [0;1;31m..[0;31m.: ;.[0;1;31m`[0;31mⁿ$$╜''[0;1;31m,[0;31mgS$$Gs,,d$$$;[0;37m [0;31m`4$$$$$$$$$$$$i  ;S$$$$$$$$$$$P :$$$$$$$$$$$$$$ [0m

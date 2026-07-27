@@ -5,14 +5,13 @@
 # Source SHA-256: c11e6fc10cd128f3243c0a84894db8f61a88328ff5694cfa227ac3b9ca950a17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-SUBV.ANS by The Reaper (purg-01); released in purg-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
 
-                 [1;30m                          [0m
-                 [1;30;44m▒▄█▄[0;1;30;46m▓[0;1;30;40m█▓█[0m  [1;30;44m▒▓[0;1;30;40m██[0;1;30;46m▓[0;1;30;40m █[0m [1;30m ▓[0;1;30;44m▓[0;1;30;40m▀▀[0;1;30;46m▓[0m
+[1;30m[0m                 [1;30;44m▒▄█▄[0;1;30;46m▓[0;1;30;40m█▓█[0m  [1;30;44m▒▓[0;1;30;40m██[0;1;30;46m▓[0;1;30;40m █[0m [1;30m ▓[0;1;30;44m▓[0;1;30;40m▀▀[0;1;30;46m▓[0m
                  [1;30;44m▓[0;1;30;40m█▓▀▀▀▀▀[0m  [1;30;44m▓[0;1;30;40m▓██[0;1;30;44m▓[0;1;30;40m▄▓  ▓▄[0;31m▀[0;37m  [0;31m▄▄[0m         [37m▌[0m   [37m▌   ▌   ▌[0m
               [37m ▄ [0;1;30m▀[0;31m▄▄▓▀▀▓█▄▄[0;1;30m▀▓▀▀▀[0m [1;30m▀[0m [1;30m ▀▀▀▀[0m [31m▀▀[0;37m ▀▀▀▀▄▄  ▐[0;31m▐▓[0;37m▐[0m   [37m▐[0;31m▐[0;37m  ▐[0m
              [37m ▐▀[0;31m▐[0;1;31;41m▒[0;31m█▓[0;37m▐▀▀▌[0;30;41m░[0;1;31;41m░[0;31m█▓[0;37m [0;31m▀▓[0;1;31;41m▒░[0;31m▀[0;37m▐▌[0;31m▀█▓█▀▀▓[0;1;31;41m░[0;31m█▀▀▀▄▄[0;37m▀▄▐[0;31m▐█[0;37m▐[0;31m  ▓ █[0;1;31;41m▒[0;31m░[0;37m▐[0m

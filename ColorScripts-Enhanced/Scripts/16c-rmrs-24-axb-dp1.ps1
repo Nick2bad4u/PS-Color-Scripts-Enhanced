@@ -5,7 +5,7 @@
 # Source SHA-256: cb081b118b089ae8d469d3de7b07554f6c30eb21ba942a8e2641e41c11442593
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AXB-DP1.ANS by Axb (rmrs-24); released in rmrs-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-14
 # Columns: 1-80
 
@@ -22,5 +22,4 @@ Write-Host '
              [35m$[0m            [35m"$$,"""""`````""`""""""`````"$"""""""`````""[0m
 [35m    [0;1;37m"the    [0;35m,$[0m           [35m___$$,[0m         [35m,_[0m             [35m$[0m
 [35m    [0;1;37mdeep"  [0;35ms$$$$""""````` $$ssss""""``` $$ssss""""```` $,[0m
-           [35m   [0m                                         [35m   [0m        [1;37m       [0m
-  [33m.[0;1;33m//[0;33m\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m//[0;33m\\.[0m'
+[35m[0m[35m[0m[1;37m[0m  [33m.[0;1;33m//[0;33m\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m///[0;33m\\\[0;1;33m//[0;33m\\.[0m'

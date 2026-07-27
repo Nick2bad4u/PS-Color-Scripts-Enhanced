@@ -5,7 +5,7 @@
 # Source SHA-256: 727ecb11005ddbc929bc58d6eb0db6fafa3676ca2b5f866771afdb386eeb1a45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BEYONDI1.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Beyond Imagination BBS Ad
 # SAUCE Author: Tank
 # SAUCE Group: NeXX
@@ -36,7 +36,7 @@ Write-Host '
      [30;47m▀[0;1;37;40m██▄[0m       ▀█[1;47m▀▀▀[0;1;40m█▄[0;1;36;40m1 G[0;1;34;40mig[0;1;37;40m▄████▀[0m     [1;37;40m▄[0;1;37;47m▀▀[0;1;37;40m█████[0;1;37;47m▀[0;1;30;40m▒▒▒▒▒[0;1;37;47m▀[0;1;37;40m██████▄  [0;1;35;40mU[0;36mSR [0;1;35m1[0;36m4[0;1;35m.[0;36m4 [0;1;37m▄███▀[0m
 [1;37m    [0;1;37;47m   [0;1;37;40m███[0m           ▀[1;47m▀▀▀▀▀▀▀[0;1;40m▀  [0m▄▄▄▄[1;47m░▒▓█▒[0;1;30;47m▒▓▓▓▓▓[0;1;30;40m▓▓▒▒▒▒▒▒░░░░[0;1;37;47m▀[0;1;37;40m█████▄  ▄████▀[0m
      [30;47m▄  [0;1;37;40m▀ ▄▄[0m                 [1;30;40m▄[0m▄█[1;30;47m▒░[0m█[1;47m░░▒▒▓█▒[0;1;30;47m▒▓▓▓[0;1;30;40m█▓▓▓▒▒▒▒▒░░░░░░░░▄[0;1;37;40m▀████▀[0m
-         [1;37;47m ▀[0;1;37;40m██ [0;1;30;40m([0;1;5;31;40m703[0;1;30m)[0;1;5;31m730[0;1;30m-[0;1;5;31m1688 [0;1;30;47m█▓▓▓▒▒░[0m██[1;47m░▒▒▓█▒[0;1;30;47m▒▓▓▓[0;1;30;40m█▓▓▓▒▒▒▒░░░░░░░░░▄[0m
+         [1;37;47m ▀[0;1;37;40m██ [0;1;30;40m [0;1;5;31;40m   [0;1;30m [0;1;5;31m   [0;1;30m [0;1;5;31m     [0;1;30;47m█▓▓▓▒▒░[0m██[1;47m░▒▒▓█▒[0;1;30;47m▒▓▓▓[0;1;30;40m█▓▓▓▒▒▒▒░░░░░░░░░▄[0m
           [30;47m▄▄[0m [1;37;40m▄[0m           [1;30;40m▄[0;1;30;47m▀█[0;1;30;43m▄▀[0;1;30;40m█[0;1;30;47m▓▓▓▒▒[0m██[1;47m░░▒▓█▒[0;1;30;47m▒▓▓▓[0;1;30;40m█▓▓▓▒▒▒▒░░░░░░░░░█▄[0m
 [1;30;40m  [0;1;37;40mT[0;1;36;40mA[0;1;34;40mN[0;34mK[0;1;30m■·    [0m▀[1;47m▀[0;1;40m▀[0m         [1;30;40m█[0;1;30;47m▓▓▓▀[0;1;30;40m█[0;1;30;43m▄▀[0;1;30;40m█[0;1;30;47m▓▓▓░[0m██[33;47m▄▄▄[0;37;40m█[0;33;47m▄▀[0;1;30;43m▓▄▀▀[0;1;30;40m█▓▓▓▒▒▒▒░░░░░░░░░░▄[0m
 [1;30;40m [0;1;37;40mN[0;1;36;40meX[0;1;34;40mX-[0;34mDA[0;1;30m■·[0m     [1;37m▀[0m       [1;30;47m█▓▓▓▓▓▓▀[0;1;30;40m█[0;1;30;43m▄▀[0;1;30;40m█[0;33;47m▄[0;1;30;43m░░▒▒▓▒▒[0;33;47m▄[0;1;30;43m▒[0m█[1;30;43m▒▄▀▀[0;1;30;40m█▓▓▓▒▒▒▒░░░░░░░░░░▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 603c246e256190ad5eadd326bd1b4f4ff9ee3eab7ceea6356f8439a895302628
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QT-NNLD1.ANS by Q Tak (lght9404); released in lght9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -56,7 +56,7 @@ Write-Host '
 [1;33;43m▒▒▒▒▒░▒▒▒▒▒▒▓▒▒▒▒▒▒░░░░░░░░░░░░░░░░░  ░      [0;33m▀▀▀ ▄▄▄[0;33;43m    [0;1;33;43m░░░ [0m  [1;37;40mS[0;1;33;40my[0;1;31;40ms[0;1;37;40mO[0;1;33;40mp[0;1;30;40m- [0;1;37;40mA[0;1;33;40mn[0;1;31;40ma[0;31mr[0;1;30mc[0mh[1my X[0m
 [1;33;43m▒▒░░░░▒░░░▒▒▒▒░░░░░░░▒░░ ░░░    ░      [0;33m▀▀▀ ▄▄▄[0;33;43m    [0;1;33;43m░░░░░▒░░░ [0m      [1;37;40mC[0;1;33;40mo[0;1;37;40mS[0;1;33;40my[0;1;31;40ms[0;1;37;40mO[0;1;33;40mp[0;1;31;40ms[0m
 [1;33;43m░░░░░░░░▓░░░░░░░░░ ░     ░      [0;33m▀▀▀▀ ▄▄▄[0;33;43m    [0;1;33;43m░░▒░░▒░▒▒▒▒▒░▒░[0;33m█   [0;31mP[0;1;31mh[0;1;33mo[0;1;37m≡[0;1;33mn[0;1;31mi[0;31mx [0;1;30m-[0;1;37mQ [0;1;33mT[0;1;31ma[0;31mK[0m
-[1;33;43m░░ ░░░░░░░░ ░           [0;33m▀▀▀▀ ▄▄▄▄[0;33;43m     [0;1;33;43m░░░▓░░▒▓▒▒▒▒▒▒▒▒▓▓▒▒░ [0m    [1;37;40m3[0;1;33;40mo[0;1;31;40m3[0;1;30;40m.[0;1;37;40m7[0;1;33;40m5[0;1;31;40mi[0;1;30;40m.[0;1;37;40m8[0;1;33;40mo[0;1;31;40m4[0;31m8  [0;1;33m█[0m
+[1;33;43m░░ ░░░░░░░░ ░           [0;33m▀▀▀▀ ▄▄▄▄[0;33;43m     [0;1;33;43m░░░▓░░▒▓▒▒▒▒▒▒▒▒▓▓▒▒░ [0m    [1;37;40m [0;1;33;40m [0;1;31;40m [0;1;30;40m [0;1;37;40m [0;1;33;40m [0;1;31;40m [0;1;30;40m [0;1;37;40m [0;1;33;40m [0;1;31;40m [0;31m   [0;1;33m█[0m
 [1;33;43m    ░          [0;33m▀▀▀▀▀ ▄▄▄▄[0;33;43m      [0;1;33;43m░░░░░░▒░░░▒▒░▒▒▒▓▒▓▒▓▒▓▓▒▒░░  [0m                [1;33;40m██[0m
 [33m▀▀▀▀▀▀▀▀ ▄▄▄▄▄▄▄[0;33;43m       [0;1;33;43m░░░▒░░░░░░▒▒░▒▒▒▒▒▓▒▒▓▒▓▓▒▓▓▓▓▓▓▒░▒░░ [0m  [1;37;40mQ [0;1;36;40mT[0;1;34;40ma[0;34mK [0;1;30m([0;1;37mL[0;1;33mi[0;1;37mGHT[0;1;30m)[0;1;33m▄██[0m
 [1;33;43m           ░░░░░▒░░░▒░░▓░░▒▒▓▒▒▒░▒▒▒▓▒▓▒▓▓▓▓▓▓▓▓▓▓▓▒▓▒▒▓▒░░░ [0;1;33;40m█[0m             [1;33;40m████[0m'

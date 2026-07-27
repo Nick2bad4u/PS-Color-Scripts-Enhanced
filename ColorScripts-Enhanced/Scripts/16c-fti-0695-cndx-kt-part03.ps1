@@ -5,7 +5,7 @@
 # Source SHA-256: 788d9cd659fa3c9aa82dedcaa8b63c4d70056f6a572e7feb64b03a639f46b2e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CNDX-KT.ANS by Angel Rat + Count Zero 616 (fti); released in fti-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Cnd-X/KT joint advert
 # SAUCE Author: Count Zero
 # SAUCE Group: fti
@@ -34,7 +34,7 @@ Write-Host '
     [1;30m█[0m             [31m    [0;1;37m [0;1;33m [0;1;31m [0;31m   [0;1;37m [0;1;33m [0;1;31m [0;31m  [0;1;37m [0;1;33m [0;1;31m [0;31m   [0;1;37m [0;1;33m [0;1;31m [0;31m [0;1;37m [0;1;33m [0;1;31m [0;31m     [0;1;37m [0;1;33m [0;1;31m [0;31m      [0m                [1;30m█[0m
     [1;30m█[0m         [1;34m [0m    [1m [0;1;33m [0;1;31m [0;31m     [0;1;37m [0;1;33m [0;1;31m [0;31m [0;1;37m [0;1;33m [0;31m [0;1;37m [0;1;33m [0;1;31m [0;31m  [0;1;37m [0;1;33m [0;1;31m [0;31m      [0;1;37m [0;1;33m [0;1;31m [0;31m    [0;1;37m [0;1;33m [0;31m [0;1;37m [0;1;33m [0;1;31m [0;31m  [0m             [1;30m█[0m
     [1;30m█[0m             [31m          [0;1;37m [0;1;33m [0;1;31m [0;31m  [0;1;37m [0;1;33m [0;1;31m [0;31m  [0;1;37m [0;1;33m [0;31m [0;1;37m [0;1;33m [0;1;31m [0;31m [0;1;37m [0;1;33m [0;1;31m [0;31m [0;1;37m [0;1;33m [0;1;31m [0;31m   [0m                     [1;30m█[0m
-    [1;30m▌[0m             [31m                 [0;1;37m6[0;1;33m1[0;1;31m6[0;31m/381/38O7[0m                             [1;30m▐[0m
+    [1;30m▌[0m             [31m                 [0;1;37m [0;1;33m [0;1;31m [0;31m         [0m                             [1;30m▐[0m
     [1;30m■[0m          [1;34m [0m   [31m            [0;1;37m [0;1;33m [0;1;31m [0;31m            [0;1;37m [0;1;33m [0;1;31m [0;31m   [0m                        [1;30m■[0m
     [1;30m·[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m·[0m
 
@@ -49,5 +49,4 @@ Write-Host '
 [1;30m░[0m            [1;30m                                                        [0m         [1;30m  [0m
 
  [1;30m■■■■■■■■■■[0mFancy lit by Angel Rat[1;30m ■ [0mAnsi artwerk[1;30m+[0mcolors[1;30m [0mby[1;30m [0mCount Zero[1;30m■■■■■■■■■■[0m
- [1;30m  [0m                       [1;30m  [0m      [1;30m  [0m                         
-[1;30m^0-abuse here------------------------------------------------------abuse here-0^[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m^0-abuse here------------------------------------------------------abuse here-0^[0m'

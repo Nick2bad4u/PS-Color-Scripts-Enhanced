@@ -5,7 +5,7 @@
 # Source SHA-256: e8478848f7cf1c78535a69b7738973ab844020b97c10781d39f76c30961df84f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-TUI3.ANS by Thor (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Trapped Under Ice
 # SAUCE Author: Thor
 # SAUCE Group: Shiver
@@ -48,10 +48,8 @@ Write-Host '
 [1;40mT [0m▌  [1;33mR    [0;1;35mA    [0;35mP    [0;1;30mP    E    D[0m        [1;30mU    N    D   [0m▌[1;30mE    [0;35mR[0m       [1;35mi    [0;1;33mC    [0;1;37mE[0m
 [1;37m  [0m▌
 
-                      [36m [0;1;37m [0m   [1m [0m      [1m [0m  [1m   [0m   [1m [0m         [36m    [0m
-                        [35m  [0;1;35m  [0;35m [0;1;35m    [0;35m [0;1;35m     [0;36m   [0;35m [0;1;35m           [0;36m [0m
-
+[36m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0m[36m[0m[35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;36m[0;35m[0;1;35m[0;36m[0m
 [1;34;44m███▄█▀▄▀▄  ▀      ▀                                             ▀  ▄  ▄▀▄▀▄████[0m
-[1;34;44m█▀█▀█▀█▄ ▀  [0;44mT[0;1;44mrapped [0;44mU[0;1;44mnder i[0;44mCE     S[0;1;44mysop[0;36;44m: [0;37;44mR[0;1;37;44me[0;44mD L[0;1;44mo[0;44mTUS     5[0;1;44mi[0;44m7[0;36;44m.[0;37;44m35[0;1;37;44mi[0;36;44m.[0;37;44m3968 [0;1;34;44m▄  ▄▀█▄█▄██[0m
+[1;34;44m█▀█▀█▀█▄ ▀  [0;44m [0;1;44m       [0;44m [0;1;44m      [0;44m        [0;1;44m    [0;36;44m  [0;37;44m [0;1;37;44m [0;44m   [0;1;44m [0;44m         [0;1;44m [0;44m [0;36;44m [0;37;44m  [0;1;37;44m [0;36;44m [0;37;44m     [0;1;34;44m▄  ▄▀█▄█▄██[0m
 [1;34;44m██▀██▄█▄▄ ▀ ▄ ▀   [0;44mA[0;1;44mffils?  [0;44mW[0;1;44me don[0;36;44m'' [0;1;37;44mneed no stinking affils[0;36;44m...     [0;1;34;44m▀ ▄ ▀▄▀▄█▄█▄█[0m
 [1;34;44m███▀█▄▀ ▄ ▀ ▄ ▄  ▀                                              ▄ ▀▄  ▄ ▀▄▀█▀██[0m'

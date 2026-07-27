@@ -5,15 +5,14 @@
 # Source SHA-256: dc84a6b9401e6956a62016623df815fa4044fa4f1138ad30fb5fab6ee21fff43
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: im-yo.ans by Icedmouse (blind-01); released in blind-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
   [1;36m [0;36m    [0;37m [0;1;36m [0;36m        [0;37m [0m   [1;37m ╖ [0m ╖                                [1;30m [0m   [1;30m [0m    [1;30m [0m
                      [1m°4¿[0m$$$:   ,╖gg╖,                 [1;30m.--.[0m   [32m([0;1;32m_[0;32m)[0;1;30m [0m [1;30m    [0m
-    [1;36m [0;36m      [0;37m [0;1;36m [0;36m [0;37m  [0m       [1;37m  [0m                            [1;30m  [0m   [32m [0m       [1;30m [0;32m [0;1;30m   [0m
-                       [1m,F[0m$$$sd$$$Sⁿ`                  [32m`[0;1;32m~~`[0m  ____
+[1;36m[0;36m[0;37m[0;1;36m[0;36m[0;37m[0m[1;37m[0m[1;30m[0m[32m[0m[1;30m[0;32m[0;1;30m[0m                       [1m,F[0m$$$sd$$$Sⁿ`                  [32m`[0;1;32m~~`[0m  ____
      [1;36m [0;36m  [0;37m [0;1;36m [0;36m   [0m       [37m [0;1;37m   [0m╜                                   ╜╜╜╜     
                     [1mjF[0m$b╖d'',d$$¿                      j$f`  [32mo[0;37m  [0;32m·[0;37m  `?$¿[0m
                     [1;37m?¿[0m$°ⁿ$b$$$$f          [35m_,╖gS$b, [0m   [37m°Q$¿,  [0;1;32m.[0m   ,i$P°

@@ -5,7 +5,7 @@
 # Source SHA-256: 75db01bdea0d78d3c2aeafc3de561841b0e3e90ae836dd4cf445848f0d77f1ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S5-LOL1.ANS by SuicidalSnowman (TOXiC); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Land'O'Lettuce (ANSIMATED)
 # SAUCE Author: SuicidalSnowman
 # SAUCE Group: TOXiC
@@ -43,5 +43,5 @@ Write-Host '
 [30;40m███████████████████████[0;36;40mT[0;30;40m█[0;1;36;40mH[0;30m█[0;1;37mE[0;30m██[0;1;37mL[0;30m█[0;1;37ma[0;30m█[0;1;37mn[0;30m█[0;1;37md[0;30m█[0;1;37m''[0;30m█[0;1;37mO[0;30m█[0;1;37m''[0;30m█[0;1;37mL[0;30m█[0;1;37me[0;30m█[0;1;37mt[0;30m█[0;1;37mt[0;30m█[0;1;37mU[0;30m█[0;1;36mC[0;30m█[0;36mE[0;30m███████████████████████[0m
 [30m████████████████████████████████████████████████████████████████████████████████[0m
 [30m ████████████████████████[0;37mansi[0;30m█[0;37mby[0;30m█[0;1;37mSuicidalSnowman(T[0;1;36mOX[0;1;34miC[0;1;37m)[0;30m██████████████████████[0m
-[30m████████████████████████[0;1;30memail[0;30m█[0;1;30maddress[0;30m█[0;1;30mSn0wman1@cris.com[0;30m█████████████████████████[0m
+[30m████████████████████████[0;1;30m     [0;30m█[0;1;30m       [0;30m█[0;1;30m                 [0;30m█████████████████████████[0m
 [30m████████████████████████████████████████████████████████████████████████████████[0m'

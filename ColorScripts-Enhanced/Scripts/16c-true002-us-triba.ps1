@@ -5,7 +5,7 @@
 # Source SHA-256: 33c7c6ff5c7f9660c05ab7f42cfe9cbbc42fd81b48c9fe2f1dbb8db33ab97dad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TRIBA.ANS by Vapor + Polygon (true002); released in true002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -40,8 +40,7 @@ Write-Host '
    [1;31m`$$s[0;1;30m$[0;1;37m$$$$$$$,[0m `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$;
     [1;31m`└$s[0;1;34mlS$$$$$$S.[0;1;37m [0m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^''
      [1;34m/_[0;1;31mⁿ[0;1;34ml$$$$l$$$Ss, [0m
-    [34m [0;1;34m        [0;34m [0;1;34m         [0m                             
-   [34m [0;1;34m   ││    [0;34m  [0;1;34m         [0m                                     
+[34m[0;1;34m[0;34m[0;1;34m[0m   [34m [0;1;34m   ││    [0;34m  [0;1;34m         [0m                                     
  [34m ;[0;1;34m$$;''[0;33m..[0;1;34m`l$$$[0;34m;[0;1;34m$$$$$''[0;33mssSS&s┐,[0m
 [37m [0;34m;[0;1;34m$$''[0;33m,S$$S,[0;1;34m`$$[0;34m;$[0;1;34m$$$''[0;33m$$$$$$$$$;[0m
 [37m [0;34m`[0;1;34m^^[0;1;33m ^^^^^^[0m [1;34m^^[0;34m`^[0;1;34m^^^[0m [1;33m^^^^^^^^^''[0m

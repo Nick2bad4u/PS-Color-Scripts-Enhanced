@@ -5,7 +5,7 @@
 # Source SHA-256: 833d9fbb0c7d3e2fd6e75e9412cb9d4641edd19f6a7e302930ddc7f28e218804
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-INTRU.ICE by Hoaks + Shaggy (ice-9407); released in ice-9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-98
 # Columns: 1-80
 
@@ -47,13 +47,8 @@ Write-Host '
 [1;36;46m█████████████[0;1;36;40m█[0;1;36;46m█████▄▄▄▄▄▄▄[0;36m█▄▄▄▄▄▄ [0;1;31m▀▀▀▀▀ [0;36m▄ [0;31m▄▄▄ [0;36m▄[0;36;46m [0;36;40m▄▄▄▄▄▄█[0;1;36;46m▄███████████████████████[0m
 [1;36;40m████████████████████████████████[0;1;36;46m▄▄▄▄▄▄▄▄ [0;36m▄▄▄▄▄█[0;1;36m████████████████████████████████[0m
 [1;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                             [1;37m          [0m [1m          [0m 
-                          [1m    [0;1;30m■ [0;1;37m    [0;1;30m■ [0;1;37m      [0;1;30m■ [0;1;37m    [0m   
+[1;37m[0m[1m[0m                          [1m    [0;1;30m■ [0;1;37m    [0;1;30m■ [0;1;37m      [0;1;30m■ [0;1;37m    [0m   
                           [1;30m■ [0m      [1;30m■ [0m      [1;30m■ [0m      [1;30m■ [0m      [1;30m■ [0m    
                               [1m  [0m     [1;30m■ [0;1;37m  [0m       
-                               [1m  [0m              
-                            [1m         [0m              
-                                     [1m        [0m [1m   [0m
-                                     [1m     [0m [1m   [0m
-                      [1m          [0m■ [1m   [0;1;30m■ [0;1;37m    [0;1;30m■ [0;1;37m    [0;1;30m■ [0;1;37m       [0m
-                           ([1m6i6[0m)[1m887[0m-[1m9573 [0;1;30m■ [0mNUP: [1mArtpack[0m'
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m                      [1m          [0m■ [1m   [0;1;30m■ [0;1;37m    [0;1;30m■ [0;1;37m    [0;1;30m■ [0;1;37m       [0m
+                            [1m   [0m [1m   [0m [1m     [0;1;30m■ [0m     [1m       [0m'

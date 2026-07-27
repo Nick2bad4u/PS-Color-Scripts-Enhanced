@@ -5,7 +5,7 @@
 # Source SHA-256: 4362370c28cf497dbd1066185aabf31180d6a4a9913c645995dedbc27604d5b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-MAIL.ANS by Cleaner (Ecolove); released in eco-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Nitrophusion Email Lister Matrix
 # SAUCE Author: Cleaner
 # SAUCE Group: Ecolove
@@ -32,7 +32,7 @@ Write-Host '
 [1;36;40m█[0m   [1mu[0mS[1;30mER[0;36m:[0m                [36m    [0;37m [0;1;31;43m░░▒▒▓▓[0;1;31;40m███[0;1;31;43m▓▓▓█▓█▓▓▒[0;1;31;40m▄[0m▀▀[1;31;47m▒▓▓[0;1;31;43m█▓▓▒▒▒▒▒▒▓▓[0;1;31;40m████[0;1;31;47m▓▓▒▒░░[0m [46m░[0;1;30;46m░[0;1;36;46m░▒[0m
 [1;36;46m▓[0m  cleaner                [36m    [0;37m [0;33m▀▀[0;1;37m [0m▄▄▄▄▄▄[1m [0;1;31m▀▀▀▀█[0;1;31;43m█▓▓▒▒[0;1;31;40m▄▄[0;1;31;43m█▓▓▒▒░░░░▒▒▓▓[0;1;31;40m██[0;1;31;47m▓▓▒▒░░[0m [36m▄[0;1;30;46m░[0;1;36;46m░░▒[0m
 [1;36;40m▌[0m  [1me[0mM[1;30mAiL[0;36m:[0m                [36m  [0;37m [0;1;37m▄▄▄[0;1;37;47m▓▓▓▒▒▒▒▒░░░░░[0m▄▄[1m [0;1;31m▀▀[0;1;31;43m▓▓▓█[0;1;31;40m█[0;1;31;43m█▓▓▒▒▒▒▒▓▓▓[0;1;31;40m██[0;1;31;47m▓▓▒▒░░[0m [36m▄[0;1;30;46m░[0;1;36;46m░░▒▒[0m
-[1;36;40m█[0m  cleaner@chez.com      [36m [0;1;37m▄▀ [0m [1m▀[0;1;47m██▓▓▓▓▓▓▓▒▒▒░░░[0;1;30;47m░░[0m▄[1m [0;1;31m▀▀█[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;43m▓▓▓▓▓[0;1;31;40m███[0;1;31;47m▓▓▒▒░░[0m▀[36m ▄[0;1;30;46m░[0;1;36;46m░░▒▒▓[0m
+[1;36;40m█[0m                        [36m [0;1;37m▄▀ [0m [1m▀[0;1;47m██▓▓▓▓▓▓▓▒▒▒░░░[0;1;30;47m░░[0m▄[1m [0;1;31m▀▀█[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;43m▓▓▓▓▓[0;1;31;40m███[0;1;31;47m▓▓▒▒░░[0m▀[36m ▄[0;1;30;46m░[0;1;36;46m░░▒▒▓[0m
 [1;36;40m█[0m                       [36m [0;1;37m▐▌[0m░[1;30m░░[0;1;37m ▐[0;1;37;47m▓▓█[0;1;37;40m▀▀▀▀[0;1;31;40m ▄▄▄▄ [0m▀▀▀[1;30;47m░░░[0m▄[31m ▄[0;33m▄[0;31m▄[0;1;31m▀▀▀▀██[0;1;31;47m▓▓▓▒▒░░[0m▀ [36m▄[0;1;30;46m░░[0;1;36;46m░░▒▒▓▓[0m
 [1;36;40m█[0m  [1mu[0mS[1;30mER [0;1;37mn[0mU[1;30mMBER[0m ooo[1;30m [0;1;37mo[0mF 999 [1m▀■▄▄■▀▀[0m [36m▄▄[0;37m [0;33m▀[0;1;31;43m░░▒▒▓▓[0;1;31;40m███▄▄▄[0m ▀▀ [31m▀[0;1;31m▄▄▄[0;1;31;47m▓▓▓▓▒▒▒░░[0m▀ [36m▄[0;1;30;46m░░[0;1;36;46m░░▒▒▓▓██[0m
 [1;36;40m█[0m  [1mb[0mR[1;30mOWSE [0m [36m■ [0;37m [0;1;37me[0mD[1;30miT [0m [36m■  [0;1;37ms[0mE[1;30mARCH[0m  [1;36m▄[0;1;36;46m▓▓▒▒░[0;36m▄[0;37m [0;33m▀▀[0;1;31;43m░░▒▒▓▓█[0;1;31;41m▓▓▓[0;1;31;40m████[0;1;31;47m▓▓▓▒▒▒▒░░[0m▀▀ [36m▄[0;1;30;46m░░[0;1;36;46m░░▒▒▓▓███[0;1;37;46m█[0m

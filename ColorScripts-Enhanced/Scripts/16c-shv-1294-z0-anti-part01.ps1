@@ -5,7 +5,7 @@
 # Source SHA-256: d18063ed60ca2a5162c59bb58bf3c6568b1ac42c4d075c25682ee66f1edb1be2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Z0-ANTI.ANS by Zer0 (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Anti-Capital
 # SAUCE Author: Zer0
 # SAUCE Group: Shiver
@@ -26,7 +26,7 @@ Write-Host '
 [34;40m█▄[0;35;40m▀▄   [0;37;40m▀[0;1;30;40m▄▒[0;31;44m▓[0;31;40m▀[0;1;30;40m▒[0;35m▓[0;36m▄ [0;1;37;47m░[0;45m█▓[0;36;40m▒ [0;31;44m▓▒[0m [36;40m▄▓ [0;34;40m█▀[0;1;30;40m▄▀▀▀ [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀ [0;1;30m▀▀▀▄[0;34m▀██[0m
 [34m██ [0;1;30;45m░[0;1;30;40m▀▀▀▓▀▓▀▀▓[0;32m░[0;36m▓▀▀▀▓▓▀▀▀▀▓ [0;34m▄[0;1;30m▄▀ ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄ ▀▄[0;34m▀[0m
 [34m██ [0;1;30;45m░[0m ▄[45m█▓[0m   [31;40m▄ [0;32;40m▒[0;36;40m▒ [0;1;37;47m░[0;45m█▓[0;36;40m▒[0;31;44m█▓█[0m [36;40m▒ [0;34;40m█[0;1;30;40m█ █ ▄█ j00 want [0mansi [1mfr0m the [0md00dleb[1;30m0y Zer0? █▄ █ █[0m
-[34m██ [0;1;30;45m▒[0m [45m█▓▒[0m [31;40m▄[0;31;44m▓[0;31;40m█ [0;32;40m▓[0;36;40m░ [0;37;45m█▓▒[0m [31;44m▓▓█[0m [36;40m░ [0;34;40m█  [0;1;30;40m█[0m        [1;30;40mEmail [0mme [1mat zero@gl[0mock.ram[1;30mp.com[0m       [1;30m█ [0;34m▄█[0m
+[34m██ [0;1;30;45m▒[0m [45m█▓▒[0m [31;40m▄[0;31;44m▓[0;31;40m█ [0;32;40m▓[0;36;40m░ [0;37;45m█▓▒[0m [31;44m▓▓█[0m [36;40m░ [0;34;40m█  [0;1;30;40m█[0m        [1;30;40m      [0m   [1m          [0m       [1;30m     [0m       [1;30m█ [0;34m▄█[0m
 [34m██ [0;1;30;45m▓[0m [45m▓▒░[0m [31;44m▓▒▓[0m [1;30;42m▓[0m  [45m▓▒░[0m [31;44m▒▒▓[0m [1;30;40m░ [0;34m█  [0;1;30m▓[0m   [1;30mOn iRC, [0mlook [1min #ANSI, [0m#TRAX, [1;30mor #SHIVER   ▓ [0;34m██[0m
 [34m██ [0;1;30;42m▓[0m [45m▒░[0;35;44m▓[0;34;40m▄[0;31;44m▒░▒[0m [1;30;42m▒[0m  [45m▒░[0;35;44m▓[0;34;40m▄[0;31;44m▒░▒[0m [1;30;40m▒ [0;34m█  [0;1;30m█    Call any [0mdece[1mnt art boa[0mrd in 6[1;30m02.  I''m    █ [0;34m▀█[0m
 [34m██ [0;1;30;42m▒[0m [45m░[0;35;44m▓▒[0;1;35;44m░[0;31;44m░ ░[0m [1;30;42m░[0m  [45m░[0;35;44m▓▒░[0;31;44m░ ░[0;1;30;40m░▓ [0;34m█[0;1;30m█ █ ▀█    too ch[0meap [1mto play th[0me LD ga[1;30mme ;)    █▀ █ █[0m

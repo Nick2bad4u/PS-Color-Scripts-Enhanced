@@ -5,7 +5,7 @@
 # Source SHA-256: 0dad548f9fdcb994219c238740f20110504834c98d9f8b873c6147b4c6ebfbc7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANS-0008.ANS by Mark Stein (ansis); released in ansis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [37;40m                   [0;33;40m│[0;37;40m      [0;33;40m│[0;37;40m                                                     [0m
 [37;40m                [0;1;32;40m╔╦╦╬╦╗ ╔╦╦╬╦╗  [0;1;5;31;40m∙[0;37;40m             [0;1;33;40mWELCOME TO  [0;1;5;32;40mLaguna Hills BBS[0;37;40m       [0m
 [37;40m                [0;1;32;40m╟╫╫╫╫╢ ╟╫╫╫╫╢  [0;36;40m│[0;37;40m                                                [0m
-[37;40m                [0;1;32;40m╟╫╫╫╫╢ ╟╫╫╫╫╢ [0;36;40m┌╩┐[0;37;40m                 [0;1;36;40m(714) 643-3066[0;37;40m                [0m
+[37;40m                [0;1;32;40m╟╫╫╫╫╢ ╟╫╫╫╫╢ [0;36;40m┌╩┐[0;37;40m                 [0;1;36;40m              [0;37;40m                [0m
 [37;40m                [0;1;32;40m╟╫╫╫╫╢ ╟╫╫╫╫╢[0;36;40m┌╧═╧┐   [0;37;40m_                                          [0m
 [37;40m                [0;1;32;40m╟╫╫╫╫╢ ╟╫╫╫╫╢[0;36;40m│***│   [0;35;47m▒[0;35;40m [0;37;40m      [0;1;33;40mOperating at 9600/2400/1200 Baud[0;37;40m   [0m
 [37;40m        [0;33;40m╒   [0;1;33;40m╒═══╩╩╩╩╩╩╕[0;1;32;40m╟╫╫╫╫╢[0;36;40m│***│[0;33;40m▄▄[0;30;45m∙∙∙[0;37;40m                                         [0m

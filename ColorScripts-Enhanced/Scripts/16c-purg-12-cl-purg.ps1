@@ -5,7 +5,7 @@
 # Source SHA-256: 4f405eb45482a57a367566a837511e2a96263f799156ce357195397a7a1db9e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-PURG.ANS by cLEANEr (pURG!LOGOs); released in purg-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: pURG!LOGo
 # SAUCE Author: cLEANEr
 # SAUCE Group: pURG!LOGOs
@@ -36,4 +36,4 @@ Write-Host '
 [1;30m■▄▄[0m■    [37m■[0;1;30;47m░[0m█[1;47m▒[0;1;30;47m░░[0m▀▀▀■[31m  [0;1;30m▄▄▄■▄[0;31m  ▀▀▀[0;37m■▄▄[0;1;30;47m░░[0m█[1;47m▒▒[0m▄ [31m▀▀[0;1;31;41m▀▀▀[0;31m▀ [0;1;30;47m░░[0m▓▀▀■[31m [0;1;30m▄▄■▄▄[0m■▀▀▀▀▀[1;30m ▄▄▄▄▄▀▀▀      [0m
    [1;30m▀▀▀▀▀▄▄▄▄▄▄▄▀▀▀▀▀[0m [1;30m  [0m  [1;30m▀▀▀▀▀▄▄▄▄▄▄ [0m▀▀▀▀■   ■▀[1;30m▄▄▄▄▀▀▀ [0m   [1;30m ▀▀▀▀▀▀▀[0m  [1;30m  [0m    [1;30m      [0m
           [1;30m      [0m     [1;30m       [0m        [1;30m▀▀▀▀▀▀▀▀▀▀▀[0m    [1;30m                       [0m
-[1;30m-─--∙[0;36m[[0;1;30mp[0mUR[1;30mG[0;36m![0;1;30mL[0mOG[1;30mo[0;36m][0;1;30m∙-──[0;36m[[0;1;30mr[0mEQUEST[1;30mS[0;36m^[0;1;30mo[0mN[36m^[0;1;30mc[0mLEANE[1;30mR[0;36m@[0;1;30mc[0mHE[1;30mZ[0;36m.[0;1;30mc[0mO[1;30mM[0;36m][0;1;30m─--∙[0;36m[[0;1;30m1[0m7[36m/[0;1;30m0[0m2[36m/[0;37m9[0;1;30m8[0;36m][0;1;30m∙─--[0;36m[[0;1;30m2[0m1[36m:[0;37m0[0;1;30m5[0;36m][0;1;30m──∙-─[0m'
+[1;30m ─   [0;36m [0;1;30m [0m  [1;30m [0;36m [0;1;30m [0m  [1;30m [0;36m [0;1;30m  ──[0;36m [0;1;30m [0m      [1;30m [0;36m [0;1;30m [0m [36m [0;1;30m [0m     [1;30m [0;36m [0;1;30m [0m  [1;30m [0;36m [0;1;30m [0m [1;30m [0;36m [0;1;30m─   [0;36m [0;1;30m [0m [36m [0;1;30m [0m [36m [0;37m [0;1;30m [0;36m [0;1;30m ─  [0;36m [0;1;30m [0m [36m [0;37m [0;1;30m [0;36m [0;1;30m──  ─[0m'

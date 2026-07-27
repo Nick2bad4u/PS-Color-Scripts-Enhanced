@@ -5,7 +5,7 @@
 # Source SHA-256: de7a8f9316870422dcec5d95b4cf66028f93eb0fd7468840e7a451c6a354d94c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NN-ILL.ANS by neo negro (blade); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ill communication
 # SAUCE Author: neo negro
 # SAUCE Group: blade
@@ -15,7 +15,6 @@
 # Columns: 1-80
 
 Write-Host '
-                
    [1m▄■▀▀[0m■▄                     [1m▄[0m
 [1m ■▀ [0;1;30m░░░ ▐[0m▌      [1m▄▄■[0m       [1m▄▄[0;1;47m▓█[0;1;40m▌[0m                     [30;46m▀▀[0m
 [1;37;40m▐[0m▌ [1;30m░░░ ▄▀ [0;1;37m▄▄▄[0;1;37;47m▓███[0;1;37;40m▌    ▄▄[0;1;37;47m▓█████[0m                    [30;46m▀ [0;1;33;46m░░ [0;30;46m▀[0m

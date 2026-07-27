@@ -5,7 +5,7 @@
 # Source SHA-256: 0a81d69c92995063fb0a4365b72e15125fa3131ebf847d9c9c049376cfc1018a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-clown.ans by Avenging Angel (1465-001); released in 1465-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -36,7 +36,6 @@ Write-Host '
 [1;35;47m▄▄[0;1;35;45m▀[0;35;40m▌▀▀[0;1;30;40m▄▄▐█[0;1;30;47m▀▀[0;37;40m▄ [0;1;30;40m▀[0;37;40m▀[0;1;30;47m▄▄[0;1;30;40m▌[0;1;37;47m▀▀▀[0;1;30;40m▐[0;1;30;47m▄▄[0;37;40m▀[0;1;30;40m▀[0;37;40m ▄[0;1;30;47m▀▀█[0;1;30;40m▐[0;1;30;47m█[0;1;30;40m▄▄[0;35;40m▀▀██████[0;1;35;45m▄[0;35;40m█[0;1;35;45m▀▀     ▄[0;1;35;47m▀▀[0;1;35;45m██▄ █████[0;1;35;47m▀  [0;1;35;45m█▀[0;35;40m████▐█▀▀▐█[0m
 [35m▀▀[0;37m [0;1;30m▄▓▌█▓[0;1;30;47m▒[0;1;37;47m▒███[0;37;40m▌ [0;1;30;40m   [0;37;40m [0;1;30;40m▀▀▀[0;37;40m     ▐[0;1;37;47m███▒[0;37;40m█[0;1;30;47m▒██[0;1;30;40m▐[0;1;30;47m█[0;1;30;40m▄[0;35;40m▀▐██████[0;1;35;45m      ▀[0;1;35;47m▄▄[0;1;35;45m██▀████ █[0;1;35;47m▄▄[0;1;35;45m▀[0;35;40m██▌▀▀▀[0;1;30;40mavg_[0;35;40m  [0m
 
-[1;30m                                                                    [0m
-                                                                    [1;30mDIE[0m
+[1;30m[0m                                                                    [1;30mDIE[0m
                                                                        [1;30mDIE[0m
                                                                           [1;30mDIE.[0m'

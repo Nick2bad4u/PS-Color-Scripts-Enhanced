@@ -5,7 +5,7 @@
 # Source SHA-256: d09e5bda519ae5c5533e59f4a1c1397bc5cfb786c01646a238929947276aa147
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: jn-konam.ans by Jashiin (Mimic Productions); released in mimic59 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: Jashiin
 # SAUCE Group: Mimic Productions
 # SAUCE Date: 20030511
@@ -16,8 +16,7 @@
 Write-Host '
                                                [1;37m$$[0m  [1;37m$$[0m
                                                [1;37m$$[0m  [1;37m$$[0m
-                                               [1;37m  [0m  [1;37m  [0m
-                                              [1;37m $$[0m  [1;37m$$[0m
+[1;37m[0m[1;37m[0m                                              [1;37m $$[0m  [1;37m$$[0m
                                                [1;37m$$[0m  [1;37m$$[0m
                                                [1;37m$$[0m  [1;37m$$[0m
                                                [1;37m$$[0m  [1;37m$$[0m
@@ -47,8 +46,5 @@ Write-Host '
 
 
 
-           
-                     
-           
 
 :([0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f5bf869f83f975dca5f0e2436e214c3e4b47e5ccd8c2923cb93db13daffe82db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-SFEI.ANS by Pussylover (fACt!); released in fact0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: SUN FEi promotion logo
 # SAUCE Author: Pussylover
 # SAUCE Group: fACt!
@@ -35,11 +35,7 @@ Write-Host '
                        [1;30m███▓▄ [0;31m██ ▀▀[0;1;30m▐▌[0;31m██▄██▀ ▐█▌[0;1;30m▄███████[0m
                  [1;30m░░    █████▄▄▄▄███▓▄▄▄▄▄▄█▄▄▄███████▓[0m
                        [1;32m◄             [0m                 [1;30m░░[0m
-                       [1;32m                                [0m
-
+[1;32m[0m
 
 [36m=push it=-----------------------------------------------------------------------[0m
-[36m                                                                               [0m
-[36m                                                                              [0m
-[36m                                         [0;1;36m                             [0;36m        [0m
-[36m----------------=-----------------------------=------------------------pl(fACt!)[0m'
+[36m[0m[36m[0m[36m[0;1;36m[0;36m[0m[36m----------------=-----------------------------=------------------------pl(fACt!)[0m'

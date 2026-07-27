@@ -5,7 +5,7 @@
 # Source SHA-256: 8bbe14b408ccf6c75f97afea1113992a797bb8c5b12c017b2a29b811f73ceda9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZS-S213.ANS by Zerostar (sys2_04); released in sys2_04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -31,8 +31,7 @@ Write-Host '
 [31m@p┌▬.[0;37m [0;1;30m`''²[0m└[36m*//[0;1;36m§§§§§§§§§§§§Q§\[0;36m*┘²''^``  [0;32m .┌q@S[0;1;32m§§§§§[0;32mä*┘²''^§[0;1;32m§§§[0;32m§^''²┘*ä§[0;1;32m§§§S[0;32m@p.[0;37m [0;33mÑÑ[0;1;31mÑÑÑÑ[0m
 [33mÑÑÑÑ[0;31mÑ[0;37m   [0;31m;S@p┌▬.[0;36m``^^''^^``[0m             [32m`^''²└*/[0;1;32m§S[0;32m@p┌▬.   §ää**   .▬┌[0;1;32mq[0;32m@[0;1;32mS§§[0;32m²''`[0;31m.[0;33mÑÑÑÑÑÑ[0m
 [33mÑÑ[0;31mS@p┌▬,l[0;33mÑÑÑÑÑ[0;31mÑ▬┐q@[0;33mSÑÑS[0;31m@p.[0m                  [32m`''\[0;1;32m§§§§§[0;32mb.[0m     [32m.d[0;1;32m§§[0;1;33m§§[0;1;32m§§7[0;32m`[0;31m.q@S[0;33mÑÑ[0;31m*┘²''Z[0m
-[33m          [0;1;31m   [0;33m             [0;31m [0m                    [32m  [0;1;32m [0;32m  [0m        [32m  [0;1;32m    [0;32m [0;37m [0;31m [0;33m     [0;31m    [0;37m [0;31m [0m
-[31mÑ*┘²''^''\Z[0;33mÑ[0;1;31mÑÑÑ[0;33mÑÑ[0;31m`^''²└*/`^''²└*//[0m                                [32m`\§§;[0;37m [0;33mÑ[0;31m*┘²''^`^''l[0;37m [0;31m;[0m
+[33m[0;1;31m[0;33m[0;31m[0m[32m[0;1;32m[0;32m[0m[32m[0;1;32m[0;32m[0;37m[0;31m[0;33m[0;31m[0;37m[0;31m[0m[31mÑ*┘²''^''\Z[0;33mÑ[0;1;31mÑÑÑ[0;33mÑÑ[0;31m`^''²└*/`^''²└*//[0m                                [32m`\§§;[0;37m [0;33mÑ[0;31m*┘²''^`^''l[0;37m [0;31m;[0m
         [31m [0;33m [0;1;31;43m   [0;33m  [0;31m [0m                                                 [1;30m [0m     [31m [0m     [31m [0m
           [30;43m░░░[0m
           [30;43m▓▓▓[0m'

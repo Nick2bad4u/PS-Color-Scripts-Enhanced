@@ -5,7 +5,7 @@
 # Source SHA-256: a5eec491ccff991e4fac1f4321960c6044d6fa92ac21b79410c3f5800b1d465e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: k1-sense.ans by Knocturnal (blocktronics_blockfury); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -22,8 +22,7 @@ Write-Host '
 
                   [1;30;40mo r i g i n a l    a n s i   a r t   b y[0m
 
-                          [30m                          [0m
-
+[30m[0m
 
                                   [1;30m░░░░░░░░░░[0m            [1;30m▄▄▀[0m
                  [1;30m▄▄   ▄▄▄ ░░░░░░ ▄▄[0m▄▄▄▄▄▄▄[1;30m▄▄   ░░░░░ ▄[0m▄[1;30;47m▀[0;1;30;40m▀▄▄  ▄▀[0m

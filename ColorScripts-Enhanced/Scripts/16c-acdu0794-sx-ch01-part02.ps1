@@ -5,7 +5,7 @@
 # Source SHA-256: 23bd28f92ba97345b25a8be80a3f12fcf621dfc829b5c553211efac7a7c645ec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SX-CH01.ANS by Sushi X (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Channel Zer0
 # SAUCE Author: Sushi X
 # SAUCE Group: ACiD Productions
@@ -62,6 +62,5 @@ Write-Host '
 [1;30m [0;1;31m▄  [0;31m▄ [0;1;30m▄  [0;1;31;41m▒[0;31m▄▄ [0;1;31;41m▒[0;31m▀[0;1;30;41m▓[0;1;30;40m [0;1;31;41m▒[0;31m▄[0;1;30;41m▒[0;1;30;40m [0;1;31;41m▒[0;1;31;40m [0;1;30;41m▒[0;1;30;40m [0;1;31;41m▒[0;1;31;40m [0;1;30;41m▓[0;1;30;40m [0;1;31;41m▒[0;1;30;41m░[0;31m▄ [0;1;31;41m▒[0;31m▄▄  [0;37m▄[0;1;30;47m▄[0;1;30;40m [0;31mz  [0;1;31me  [0;31mr  o  [0;1;30m.  [0;31m.  [0;1;31m.[0m                  [1;30m▒[0m
 [1;37m▄[0m▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄ [1;30m▄ [0m▄[1m▄▀ [0;1;30m█ a  [0mc  [1;30mi  d  w  e  s  t  e  [0mr  [1;30mn  [0mH  [1mQ[0m
 [1;30m█[0m                                  [1;30m▀[0m▀▀[1;30m▀[0m                                       [1;30m▓[0m
-[1;30m           [0m    [1;30m                                                               [0m
-[1;30;47m▓[0;1;30;40m▄▒    ▒[0m                                                               [1;30;40m▒    ░▄[0;1;30;47m▓[0m
+[1;30m[0m[1;30m[0m[1;30;47m▓[0;1;30;40m▄▒    ▒[0m                                                               [1;30;40m▒    ░▄[0;1;30;47m▓[0m
 ▀[1;30m▀▀▀▀▀▀▓▀▄▀ ■ [ [0;1;37ms[0mo[1;30mrry beastie, your ad gets 2nd priority, heh[0me[1mh [0;1;30m] ■ ▀▄▀▒▀▀▀▀▀▀[0m▀[0m'

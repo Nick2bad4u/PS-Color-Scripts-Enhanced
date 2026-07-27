@@ -5,7 +5,7 @@
 # Source SHA-256: a815a1229f337e3b8f874be2de6a63c01fb62c656c112062b09b10234fb334ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-OIMM.ANS by Pyx (Bamboosh); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Optical Illusion Main Menu
 # SAUCE Author: Pyx
 # SAUCE Group: Bamboosh
@@ -36,6 +36,5 @@ Write-Host '
 [1;34;44m▄░[0;1;36;40m c[0m comment to sysop [34m▐[0;1;34;44m▀[0;34m▌[0;37m [0;1;36mv[0m view stats [34m▀[0;1;34;44m▀▀[0;34m▀▓[0;1;34;44m▄▓▓▌▀█[0;34m█[0;37m  [0;1;36md[0m download     [34m░░▄[0;1;34;44m▄[0;1;34;47m▓▓[0;1;34;44m▀[0;34m▀[0;37m   [0m
 [1;34;44m▌[0;34m▌[0;37m [0;1;36mb[0m bulletins     [1;34m░[0;34m▄▌[0;37m [0;34m░[0;37m  [0;1;36mw[0m userinfo    [34m░░░▐[0;1;34;44m▐▀▀[0;34m█▀▀▌[0;37m  [0;1;36mu[0m upload   [34m░░░▀▀▀[0;1;34;44m▀▀█▓▓[0;34m▄[0m
 [34m▀░[0;1;36m g[0m log off      [34m▀▀[0;1;34;44m▀[0;34m█[0;37m  [0;1;36mqwk[0m grab messages  [34m▀▀[0m   [34m░░▀[0;37m  [0;1;36mn[0m newscan           [34m▀▀▀▀[0m
-[1;36m    [0m                   [1;36m    [0m                          [1;36m [0m                     
-
+[1;36m[0m[1;36m[0m[1;36m[0m
 ---------------------------[0m'

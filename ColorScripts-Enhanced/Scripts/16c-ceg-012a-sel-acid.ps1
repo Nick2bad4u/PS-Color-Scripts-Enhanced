@@ -5,7 +5,7 @@
 # Source SHA-256: e6d85f901c1d29d0bea73011d8b807464aec6925ad5b5f6946b40444e1f66e2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SEL-ACID.ANS by seltorn (black maiden); released in ceg-012a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: seltorn
 # SAUCE Group: black maiden
 # SAUCE Date: 20000809
@@ -42,13 +42,7 @@ Write-Host '
 
 [1;37m ------[0m
 
-[1;37m                                                                               [0m
-[1;37m       [0m [1;37m                                                                       [0m
-[1;37m                                                                               [0m
-[1;37m way.[0m
+[1;37m[0m[1;37m[0m[1;37m[0m[1;37m[0m[1;37m way.[0m
 
-[1;37m                                                                               [0m
-[1;37m                                                                               [0m
-[1;37m                                                 [0m
-
+[1;37m[0m[1;37m[0m[1;37m[0m
                                                            [1;37m_sel[0m'

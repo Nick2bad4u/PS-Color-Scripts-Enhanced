@@ -5,7 +5,7 @@
 # Source SHA-256: 8637456e61704a3c4968d02dd1966b010c2a23034462eef676d4a5930f727720
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-SKYL.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: SKYLIGHT
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -39,9 +39,6 @@ Write-Host '
 [1;36;40m [0;1;30;40m·  ·   · [0m─ [1m-┼[0m── [1;30m─[0m       [1;30m··[0m     [1;30m·[0m                                   [1;30m░   [0;36m▀▀[0m
                [36mL K [0;1;36mC C   W [0;1;37mO R L D   H E A D Q U A [0;1;36mR T E [0;36mR S[0m
              [1;30m:[0m
-                     [1;30m   [0m  [36m                       [0;37m   [0;1;30m  [0m
-          [1;30m   [0m  [36m          [0;37m   [0;1;30m   [0m  [36m         [0;37m   [0;1;30m   [0m  [36m           [0;37m   [0;1;30m  [0m
-             [1;30m.[0m
-                                [1;30m  [0m        [1;30m  [0m
-
+[1;30m[0m[36m[0;37m[0;1;30m[0m[1;30m[0m[36m[0;37m[0;1;30m[0m[36m[0;37m[0;1;30m[0m[36m[0;37m[0;1;30m[0m             [1;30m.[0m
+[1;30m[0m[1;30m[0m
 [1;30m▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀[1;30m▀▀▀▀▀▀▀▀[0m'

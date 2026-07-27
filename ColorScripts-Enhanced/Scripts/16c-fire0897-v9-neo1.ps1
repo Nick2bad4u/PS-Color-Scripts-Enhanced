@@ -5,7 +5,7 @@
 # Source SHA-256: ad90aba39a7de02c784ee16e0bbe7633650ce1fdc4f56e352d6fa172de90838a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V9-NEO1.ANS by Vade79 (f1RE); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Neosporin
 # SAUCE Author: Vade79
 # SAUCE Group: f1RE
@@ -38,4 +38,4 @@ Write-Host '
                [1;30m▄ [0m    [1;30m▀[0m  [1;30m░▓░  ░[0m    [1;30m▀[0m    [1;30m░[0m    [1;30m ▄▄█[0;1;30;47m█▀▄[0;1;30;40m▀      ▀██▌ ▀[0;1;30;47m███[0;1;30;40m▀ ▀▀    ▀ [0m
                [1;30m▀▀[0m        [1;30m░[0m           [1;30m  ▄▄▄████[0;1;30;47m▓▄[0;1;30;40m█▀[0m    [1;30m░  ■ ▐▀ ▄[0;1;30;47m▀[0;1;30;40m█▄  ▄[0m    [1;30m█▀[0m
      [1;30mNe o s p  o  r   i   n[0m   [1;30m▄[0;1;30;47m▀[0;1;30;40m█▄ ▄[0;1;30;47m██[0;1;30;40m▄▄[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▀▀[0;1;30;40m█▄█ ▌[0m          ░   [1;30m▀▀  ▀█▀[0m
-     [1;30m+o Rage_ [0m [1;30m604-942-9772[0m    [1;30m▀▀  ▀[0m▒▒[1;30m▀ ▀▀▀▀▀▀[0m'
+     [1;30m         [0m [1;30m            [0m    [1;30m▀▀  ▀[0m▒▒[1;30m▀ ▀▀▀▀▀▀[0m'

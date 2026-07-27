@@ -5,7 +5,7 @@
 # Source SHA-256: 9ee0ac914595fa44531604635f62c41b6e5f410a095d746fdef9b5d82e727d7c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TO-DYS01.ANS by Tonto (drOol prOductionz); released in drl-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dyslexia
 # SAUCE Author: Tonto
 # SAUCE Group: drOol prOductionz
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-       [1m                [0m [1m  [0m   [1m [0;1;31m [0m
-    [1m [0m [1m [0m  ▄▄▄▄[41m▀▀▀▀▀▀[0;40m▄▄  [0;1;40m [0m     |[1;31m [0m
+[1m[0m[1m[0m[1m[0;1;31m[0m    [1m [0m [1m [0m  ▄▄▄▄[41m▀▀▀▀▀▀[0;40m▄▄  [0;1;40m [0m     |[1;31m [0m
       ▄[41m▀▀ [0;1;41m▄[0;41m [0;1;41m▀▄ ▀▄[0;41m [0;1;41m▄[0;41m  ▀▀[0;40m▄ [0;1;40m  [0m  [1m|[0;1;31m [0m  Myah ghreets:
     [41m▀[0;1;41m ▄█[0;41m [0;1;41m▀▀[0;41m [0;1;41m▀▀[0;41m [0;1;41m▀▀[0;41m  [0;1;41m▀█[0;41m [0;1;41m▄▄[0;41m▀[0;40m▄[0m   [40m|[0;1;31;40m [0;1;30;40mc[0m   [1mpurple tentacle: [0mtake on the werld man!
     [1;41m▀[0;41m ▄[0;33;47m▀▄▄▄▄▄[0;1;33;47m▄[0;33;47m▄▄[0;1;33;47m▄[0;33;47m▄▄▄[0;37;41m▄▄▄ [0;1;37;41m▄[0;41m [0;40m█  [0;1;40m|[0;1;31;40m [0;1;30;40mu[0m   [1mfacade[0m: You have gay french name =)
@@ -27,17 +26,7 @@ Write-Host '
               ▐[1;43m▓▓[0m▌[1m [0m           [1;31m [0;1;30m [0m   [1m         [0m                                 
               [1;47m▐█[0;1;43m▓[0;1;47m▌[0m           [1m [0;1;31m [0;1;30m [0m   [1m         [0m                     
             ▄[1;47m▄████▄[0m▄         |[1;31m [0m    [1mchronos[0m: doo mee a proggy
-   [1m  [0m [1m                     [0m  [1m [0;1;31m  [0m   [1m       [0m                                     
-[1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m  [0;1;31m [0m    [1m      [0m                                   
-      [1;30m                [0m             [1m  [0m                                     
-                                   [1m      [0m                                 
-                                   [1m   [0m [1m       [0m [1m       [0m                       
-         [1m        [0m              [1m [0m   [1m   [0m [1m       [0m [1m       [0m                      
-          [1m       [0m              [1m [0m   [1m   [0m [1m     [0m [1m       [0m                       
-  [5;34m  [0m     [1m        [0m              [1m [0m   [1m   [0m [1m      [0m [1m       [0m                     
-                      [1m      [0m                     
-              [1m              [0m       [1m     [0m [1m    [0m [1m     [0m [1m        [0m [1m          [0m [1m       [0m
-              [1m              [0m       [1m           [0m [1m         [0m [1m      [0m       [36m░[0m
+[1m[0m[1m[0m[1m[0;1;31m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0;1;31m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[5;34m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m              [1m              [0m       [1m           [0m [1m         [0m [1m      [0m       [36m░[0m
                [1;37m1800-hot-tart[0m [36m░[0m                               [36m░[0m       [36m░▒░[0m
                     [36m░[0m       [36m░▒░[0m                             [36m░▒░[0m     [36m░▒▓▒░[0m
 [37m  [0;36m░[0m        [36m░░ [0m     [36m░▒░[0m     [36m░▒▓▒░[0m          [36m░░[0m               [36m░▒▓▒░[0m   [36m░▒▓[0;1;36m░[0;36m▓▒░[0m

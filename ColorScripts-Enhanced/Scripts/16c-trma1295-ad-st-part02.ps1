@@ -5,7 +5,7 @@
 # Source SHA-256: 37a4d7e6e154feefb69487d27b0c2f444ec5643ca7785fc409c3154431a51be7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AD-ST.ANS by Armageddon Donut (Trauma); released in trma1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shaolin Temple
 # SAUCE Author: Armageddon Donut
 # SAUCE Group: Trauma
@@ -35,8 +35,7 @@ Write-Host '
 [1;32m█[0;1;30m░▀▀[0;1;32m [0m [1;30m█[0;33m████████████[0;1;30;43m░[0;1;30;40m█▄░▀▀[0m [1;32m███████████████▄▄[0m░▀▀[1;30;47m▓▓▒██[0m▀▀░ [1;32m▄▄██████████████████████ [0m
 [1;32m████▌[0;1;30m▐[0;1;30;43m▌[0;33m█████████████[0;1;30;43m░▐[0;1;30;40m▌[0;1;32;40m▐█████████████████████▄▄▄▄▄▄▄███████████████████████████ [0m
 [1;32;40m                                                                               [0m
-   [33m    [0m                     [1;30m                  [0m
-                                      [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+[33m[0m[1;30m[0m                                      [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
                     [1;30m▄▄▄[0m    [32m▄▄▄▄▄█[0;32;46m▀▀▀▓[0;32;40m▄[0;37;40m [0;1;30;40m▀█████▀▀▀[0m [32m▄▄▄▄▄[0;32;46m▓▀▀▀▓[0;32;40m▄[0m
              [1;30;40m▄▄█████▀[0m [32m▄▄█[0;32;46m▀▀░▓[0;37;40m [0;32;46m▓░[0;36;40m█████[0;32;46m▀[0;32;40m█[0;37;40m [0;1;30;40m██▀[0m [32m▄▄[0;32;46m▓▀▀░▓[0;37;40m [0;32;46m▓░[0;36;40m████[0;32;46m░▀[0;32;40m█[0;37;40m [0;1;30;40m████▄▄[0m
                [1;30m▀████[0m [32;46m▓▀░[0;36;40m████[0;32;46m▓[0;37;40m [0;32;46m▓░[0;36;40m██████[0;32;46m▐[0;32;40m▌[0;1;30;40m▐█[0m [32;46m▓▀░[0;36;40m███[0;32;46m░▓[0;37;40m [0;32;46m▓[0;36;40m██████[0;32;46m░▐[0;32;40m▌[0;1;30;40m▐██▀[0m

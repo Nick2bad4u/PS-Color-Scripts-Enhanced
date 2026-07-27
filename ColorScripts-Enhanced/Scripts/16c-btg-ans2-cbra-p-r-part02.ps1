@@ -5,7 +5,7 @@
 # Source SHA-256: a882af0583e573e02565a9e783dd3e312ed53977e143bdf809fa7c4174870ae7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CBRA#P&R.ANS by Rage + Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 35-70
 # Columns: 1-80
 
@@ -41,7 +41,7 @@ Write-Host '
              [1;32;40m█▒░ ░ ░ ░░    ░   ░ ░ [0;30;42m▒▒▒░░░   [0m
 
 
-     [1;37;40mCo[0;1;32;40mBR[0;32ma S[0;1;32mBB[0;1;37mS ◄[0;1;36m↔[0;1;34m► [0;1;37m+35[0;1;32m8-([0;32m9)86-61[0;1;32m34[0;1;37m263 ◄[0;1;36m↔[0;1;34m► [0;1;37m120[0;1;32m0 [0;32m- 28800 [0;1;32mB[0;1;37mps ◄[0;1;36m↔[0;1;34m► [0;1;37m2[0;1;32m4[0;32mH/D[0;1;32ma[0;1;37my[0m
+     [1;37;40m  [0;1;32;40m  [0;32m   [0;1;32m  [0;1;37m  ◄[0;1;36m↔[0;1;34m► [0;1;37m   [0;1;32m   [0;32m       [0;1;32m  [0;1;37m    ◄[0;1;36m↔[0;1;34m► [0;1;37m   [0;1;32m  [0;32m        [0;1;32m [0;1;37m   ◄[0;1;36m↔[0;1;34m► [0;1;37m [0;1;32m [0;32m   [0;1;32m [0;1;37m [0m
 
           [1;37mTin[0;1;32myNE[0;32mT (9:86[0;1;32m6[0;1;37m/4) ◄[0;1;36m↔[0;1;34m► [0;1;37mCAB[0;1;32miN[0;32mET (112:911[0;1;32m/8[0;1;37m33) ◄[0;1;36m↔[0;1;34m► [0;1;37mC[0;1;32mD[0;32m-R[0;1;32m0[0;1;37mM[0m
 

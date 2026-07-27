@@ -5,7 +5,7 @@
 # Source SHA-256: e128848e21b7d58b16e7dd18ae16015d78a13925a24b21f3b1962d1d11aef8a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-LG12.ANS by Creator (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ansi logos for pack 12
 # SAUCE Author: Creator
 # SAUCE Group: Fuel Productions
@@ -17,8 +17,7 @@
 Write-Host '
 [1;30m─( [0;1;37mbad[0;1;30m )────────────────────────────────────────────────────────────────────────[0m
 
-    [1;30m         [0;1;37m [0;1;30m       [0m [1;30m               [0m
-    [1m [0m            [1;30m [0m                   [1;30m░░[0m
+[1;30m[0;1;37m[0;1;30m[0m[1;30m[0m    [1m [0m            [1;30m [0m                   [1;30m░░[0m
     [1m [0m      [1;30m░░[0m  ░▄[1;30m     [0m               [1;32m░░[0m
    [1m   [0m [1m [0m   [1;32m░░[0m  ▀[1;47m░[0m▀                   [1;32m▒▒ [0m
    [1;30m [0;1;37m [0;1;30m▀[0m [1;30m▀▀ [0m▐[1;32m▒▒[0;1;30m ▀▀[0;1;37m [0;1;30m▀[0m▀[1;30m▀[0m [1;32m▄▄[0;1;32;47m▓[0m▄           ▄[1;32;47m▓▓[0;1;32;40m▒[0m

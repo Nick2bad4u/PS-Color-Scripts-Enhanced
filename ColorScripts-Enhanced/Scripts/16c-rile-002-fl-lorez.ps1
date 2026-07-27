@@ -5,7 +5,7 @@
 # Source SHA-256: 442e0d351133ee68fe0536e46a96801edf8bd7549c007798802bc6d4ae281a08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-LOREZ.ANS by flame (RILE); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lo-rez, for diez.
 # SAUCE Author: flame
 # SAUCE Group: RILE
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[36m    [0m
-[31mflame[0m                                         [1;37m░[0m
+[36m[0m[31mflame[0m                                         [1;37m░[0m
                            [1;37m▄▌[0m                 [1;37m█[0m
                            [1;37m▐▀[0m                 [1;37m█[0m
             [1;37m▄▄[0m              [1;33m▄[0;1;37m▌[0m               [1;37m▄▌[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 920d5315bf30a702601e88f2bd6cc1e18a66bbccf80a75cdcbe64bedad8cd3a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RED-3O3.ANS by Red (3o3 Productions); released in 303pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: junk#1
 # SAUCE Author: Red
 # SAUCE Group: 3o3 Productions
@@ -57,7 +57,5 @@ Write-Host '
 
 [1m--------------------------------------------------------------[Cut]------------[0m
 
-[1m                                                                       [0m [1m      [0m
-[1m        [0m [1m                                                                    [0m
-
+[1m[0m[1m[0m[1m[0m[1m[0m
 -red[0m'

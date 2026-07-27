@@ -5,13 +5,12 @@
 # Source SHA-256: 45ed90e39bf3fde8698132536e070863d99f809b65c3ee2c2f7df97a34b44df6
 # Source License: FAL-1.3
 # Source Attribution: COS1.ANS by Roy/SAC aka Carsten Cumbrowski; released in royart35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 36-63
 # Columns: 1-80
 
 Write-Host '
-[31m [0;1;30m                         [0m   [1;30m    [0m              [1;30m  [0;1m          [0;1;30m  [0m      [1;30m     [0m    [1;30m   [0m
-[1;30m ──── ───────────────────────────────────────────────────────────────────── ───[0m
+[31m[0;1;30m[0m[1;30m[0m[1;30m[0;1m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m ──── ───────────────────────────────────────────────────────────────────── ───[0m
 [1;30m [0;32m── ──────────────────────────────────────────────────────────────────────── ──[0m
 [32m [0;1;33m─ ──────────────────────────[0;32m───[0;1;30m─── [0;1mT · H · E [0;1;30m───[0;32m───[0;1;33m───────────────────────── ─[0m
 
@@ -24,11 +23,8 @@ Write-Host '
 [1;33m [0;32m── ──────────────────────────────────────────────────────────────────────── ──[0m
 [32m [0;1;30m─── ────────────────────────────────────────────────────────────────────── ───[0m
 
-      [1;30m    [0m  [1m [0m  [1;30m    [0m [1;30m   [0m [1;30m   [0m [1;30m   [0m [1;30m      [0m [1;30m    [0m [1;30m     [0m [1;30m              [0m  [1m [0m  [1;30m    [0m
-        [1;30m    [0m  [1m [0m  [1;30m  [0m           [1;30m    [0m [1;30m            [0m [1;30m   [0m          [1;30m  [0m  [1m [0m  [1;30m  [0m
-              [1;30m······[0m··[1m·[0m··[1;30m········ [0mC[1;30mYBRiX [0mM[1;30mEMBER ··[0m··[1m·[0m··[1;30m··········[0m
+[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m              [1;30m······[0m··[1m·[0m··[1;30m········ [0mC[1;30mYBRiX [0mM[1;30mEMBER ··[0m··[1m·[0m··[1;30m··········[0m
 
         [1;30m··[0m··[1m·[0m··[1;30m·· [0mS[1;30mYSOP : [0mR[1;30mOY/[0mT[1;30mOaO//[0mC[1;30mBX ···[0m··[1m·[0m··[1;30m···[0m
-[1;30m     [0m [1m [0m [1;30m  [0m [1;30m       [0m [1;30m           [0m [1;30m     [0m [1;30m   [0m [1;30m    [0m [1;30m       [0m [1;30m     [0m [1;30m        [0m [1;30m    [0m [1m [0m  [1;30m [0m
-
+[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m
          [1;30m··[0m··[1m·[0m··[1;30m· [0m3 N[1;30mODES [0mF[1;30mOR [0mY[1;30mOUR [0mB[1;30mUSINESS  ·······[0m··[1m·[0m··[1;30m·······[0m'

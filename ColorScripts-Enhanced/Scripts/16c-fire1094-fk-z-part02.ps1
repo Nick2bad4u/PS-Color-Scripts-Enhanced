@@ -5,7 +5,7 @@
 # Source SHA-256: acac24aa8d7cd9a130f9e2984bedbe1e7b096bf10b424bbb10e7d482c9db471b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FK-Z.ANS by Farbekrieg (fire1094); released in fire1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Heavy Metal
 # SAUCE Author: Farbekrieg
 # SAUCE Date: 19941008
@@ -36,20 +36,16 @@ Write-Host '
 
       [1;37m▄▄[0m▄▄[1m▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄ [1mH E A V Y  M E T A L [0m▄▄[1m▄▄▄▄▄▄▄▄▄[0m▄[1m▄▄▄[0m▄▄[1m▄[0m▄[1m▄▄[0m
 [1m   [0m▄[1m▀[0m▀                                                               ▀[1m▀[0m▄
-     [1;30m                    [0;1;37m                       [0m     [1;30m               [0m
-     [1;30m                ▐   [0;1;37m                    [0m      [1;30m▌                [0m
+[1;30m[0;1;37m[0m[1;30m[0m     [1;30m                ▐   [0;1;37m                    [0m      [1;30m▌                [0m
 [1;30m  [0;1;37m▀  [0;1;30m                ▌   [0;1;37m                     [0m     [1;30m▐[0m     [1;30m         [0m      [1;37m▀[0m
      [1;30m      [0m          [1;30m▐   [0;1;37m                          [0;1;30m▌[0m
                      [1;30m▌   [0;1;37m                     [0m     [1;30m▐[0m
 [1;30m  [0m▄    [1;30m                ▄[0m         [1;37m     [0m          [1;30m▄ ▀[0m                     ▄
                               [1;30m▀[0m            [1;30m▀[0m
 [1;30m  [0;1;37m■   [0;1;30m                             [0m                                     [1;37m■[0m
-[1;37m  [0m    [1;30m                                 [0m                                  
-  [1m■   [0;1;30m                                       [0m                           [1;37m■[0m
-      [1;30m                                         [0m
-[1;30m  [0m▀   [1;30m                                                 [0m                 ▀
-      [1;30m                                                                [0m
-[1;30m  [0;1;37m▄   [0;1;30m                                  [0m                                [1;37m▄[0m
+[1;37m[0m[1;30m[0m  [1m■   [0;1;30m                                       [0m                           [1;37m■[0m
+[1;30m[0m[1;30m  [0m▀   [1;30m                                                 [0m                 ▀
+[1;30m[0m[1;30m  [0;1;37m▄   [0;1;30m                                  [0m                                [1;37m▄[0m
 
 [1;37m   [0m▄    [1;30m                                                [0m               ▄
     [1m▀[0m▀[1m▄[0m▄▄[1m▄▄▄▄▄[0m▄[1m▄▄▄[0m▄[1m▄▄▄▄[0m▄▄▄▄[1;30m▄▄▄▄▄▄[0m       [1;30m▄▄▄▄▄[0m▄▄▄[1m▄▄ ▄▄▄▄[0m▄[1m▄▄[0m▄▄▄[1m▄▄[0m▄ ▄[1m▄▄▄[0m▀[1m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 01b0b33b16c641fdeeb287220004430547efcbdd0ea94af6b48094265c7f5737
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-DYST1.ANS by Mass Delusion (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Terminally Nothing's DYSTOPIA!
 # SAUCE Author: Mass Delusion
 # SAUCE Group: Union
@@ -50,5 +50,5 @@ Write-Host '
 [34;44mfont is straight up DOPE.[0;34;40m█▄ [0;36;40m▀ [0;34;40m▐██████[0;34;44m█[0;34;40m█▀ [0;1;33;40m▄█▓██▄ [0;35m▀▓█████▄ [0;34m▀▀██████ [0;35m▀▄[0;35;41m▒▒░░▒▓[0;35;40m▌[0;1;33;40m▐▓ [0;34m█[0m
 [34;44mit doesn''t fit the ansi, but i like it[0;34;40m▌ [0;1;33;40m█▀▀  ▀▀█▄ [0;35m▀▀██[0;35;41m▓[0;35;40m███▄▄ [0;34;40m▀▀ [0;35;40m▄▄[0;35;41m▓▓▓▒▒▒▓[0;35;40m▀ [0;1;33;40m█▀ [0;34m█[0m
 [1;37;44mTerminally Nothing''s Dystopia[0;34m█████████ [0;1;33m▐▌ [0;34m████▄▄ [0;1;33m▀▓▄▄ [0;35m▀▀▀▄██▓▄███[0;35;41m▓[0;35;40m▓▀[0;35;41m▓[0;35;40m▀▀  [0;1;33;40m▄▓▀ [0;34m██[0m
-[1;37;44m301/898.8882 - Union Productions WHQ[0;34m██▄  [0;1;33m■ [0;34m██████▄▄▄ [0;1;33m▀▀██▄▄▄▄▄▄▄▄▄▄▄▄▄█▓▀▀ [0;34m▄███[0m
+[1;37;44m                                    [0;34m██▄  [0;1;33m■ [0;34m██████▄▄▄ [0;1;33m▀▀██▄▄▄▄▄▄▄▄▄▄▄▄▄█▓▀▀ [0;34m▄███[0m
 [1;37;44mansi and elite flaming font(tm) by massd [0;34m▄[0;1;37;44mo'' union![0;34m███▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████[0m'

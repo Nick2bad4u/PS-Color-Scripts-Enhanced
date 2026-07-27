@@ -5,7 +5,7 @@
 # Source SHA-256: fb64dd0b8d2eefa55c0db7d0c4b3d6905f34c0e8c6ae7177f935e3cb9e84418b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW-MATRX.ANS by balls wilson (apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Vomitorium Matrix
 # SAUCE Author: balls wilson
 # SAUCE Group: apathy
@@ -23,8 +23,7 @@ Write-Host '
     [34m███[0;37m [0;1;37m███▀▀▀[0;1;30m  [0m▀[1;47m▄[0;1;40m▀[0;1;30;40m [0;1;37;40m▀█▀[0;1;30;40m [0;34m ████[0m     [1;30mtime!@" wilson, baby!@ [0m
      [34m▀█▄ [0;1;37m▀[0m ▄▄[1;47m▄▄▄[0m▄[1;30m [0m▄[1;47m▄[0m▄ ▄[1;47m▄[0;1;40m▄[0;34m █▀[0m                [1;30mrough rough rough-> ,o>[0m [1;30m_o> _O)[0m
         [34m▀ [0m    [1;37m▀▀▀▀▀▀▀▀▀▀[0m [34m [0m    [1;30m                                               [0m
-[1;30m   [0m                            [1;30m                             [0m [1;30m               [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m
 [1;36;46mvomitorium matrix!@[0;36m▀[0;1;36m  [0;34m▄▀█▄▄[0;37m [0;34m▀▓[0;37m [0;34m█████ [0;37m [0;34m▐██████▀[0m    [34m▄[0;37m  [0;1;36m███████████████████████████[0m
 [36m███████▀▀▀▀▀▀████▀[0;1;36m [0m  [34m▀▀█████▄[0;37m [0;34m  ████[0;37m [0;34m ██████▀[0m   [34m▄██▀■[0;37m [0;1;36m██████████████████████████[0m
 [36m███▀▀[0;1;36m [0m [1;31m▄▄▄███▄▄[0;36m▀[0;1;36m [0m [34m▄▄▀▄ [0;37m [0;34m ▀▀██▀■[0;1;31m▄[0m [34m███▌[0;37m [0;34m█████▀[0;37m [0;34m ▄████▀[0;37m [0;1;36m███████████████████████████[0m

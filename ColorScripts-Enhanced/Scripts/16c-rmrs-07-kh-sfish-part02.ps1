@@ -5,7 +5,7 @@
 # Source SHA-256: e64b15311c03b58c78ff74bc796740bff1cd0c34b635127efc771d95c00d6baf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KH-SFISH.ANS by Killa Hertz (ACiD Productions); released in rmrs-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Skull Fish
 # SAUCE Author: Killa Hertz
 # SAUCE Group: ACiD Productions
@@ -45,8 +45,7 @@ Write-Host '
 [35m.[0m            [35m:[0;37m  a    a[0m    [35m:[0m            [37m;[0m      [37m,a [0m     [35m:[0m        [37m` $[0m      [37m÷[0m    [35m.[0m
 [35m.[0m            [35m:[0m             [37m² ,[0m           [35m:[0;37m  ,a`[0m            [37m,[0m                 [35m:[0m
          [35m.[0;37m [0;30mkH[0;35m.[0m            [35m.[0m   [37m ,[0m        [37m$ , `[0m         [35m:[0m                   [30mkHz[0;35m.[0m
-[1;35m        [0;1;30m     [0;35m [0;1;30m                [0m    [30m      [0;37m     [0;30m   [0;37m    [0;30m  [0;35m [0;37m      [0m    [35m [0;37m [0m      [37m     [0m
-[1;31m$$Sa,.[0;31m [0;1;35m``""²²$S▄a,,,[0;35m..[0;1;30m [0;35m.[0;1;30m  [0;35m:[0;1;30m   [0;35m.[0;37m  [0;35m.[0m    [37m,a`[0;35m:.[0;37m [0;35m.:[0;37m  [0;35m.[0;37m  [0;1;35m,²`"²`;[0m  [35m...[0;37m a i ` [0;1;35m,²[0;35m.[0;1;35m`[0m [1;35m²,[0m [35m.[0m
+[1;35m[0;1;30m[0;35m[0;1;30m[0m[30m[0;37m[0;30m[0;37m[0;30m[0;35m[0;37m[0m[35m[0;37m[0m[37m[0m[1;31m$$Sa,.[0;31m [0;1;35m``""²²$S▄a,,,[0;35m..[0;1;30m [0;35m.[0;1;30m  [0;35m:[0;1;30m   [0;35m.[0;37m  [0;35m.[0m    [37m,a`[0;35m:.[0;37m [0;35m.:[0;37m  [0;35m.[0;37m  [0;1;35m,²`"²`;[0m  [35m...[0;37m a i ` [0;1;35m,²[0;35m.[0;1;35m`[0m [1;35m²,[0m [35m.[0m
 [1;31m²"```"²$$$$Saa,,..[0;31m [0;1;35m``"²$Sa,.[0;1;30m [0m    ;$  a`  [35m:[0m         [1;35m:[0m   [1;35m,²[0m   [1;35m▓[0m    [35m:[0m   [1;35m;[0m [30mkHz[0m   [1;35m;[0m
 [34m,[0;37m [0;34m$[0;37m [0;1;34m,.[0m   [1;31m▀[0;31m$$$$$$$$$$$S[0;1;31maa,,[0;35m [0;1;35m``"²$a,.[0m      [35m:[0m         [1;35m,▄[0;35m [0;1;35m"`"²,[0m        : [1;35m², [0m
 [34m$,[0;37m [0;34m$$$[0;1;34m$$a,[0m [35;41m▓[0;31;40m$$$aaaa²²$$²$$$$$S[0;1;31;40ma,.[0;31m [0;1;35m`"²$[0;1;30mS[0;1;35ma,.[0;1;30m        [0;1;35mi;[0;1;30m  [0;35m:[0;1;30m [0m   [1;35m;[0m     [35m:[0;37m i  [0;1;35m¼`"²[0m  [1;35m`[0;35m.[0m

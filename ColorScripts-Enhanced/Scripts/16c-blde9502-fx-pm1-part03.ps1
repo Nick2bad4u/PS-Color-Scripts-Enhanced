@@ -5,7 +5,7 @@
 # Source SHA-256: 3b430e259a3d153ced1abaa271320510f25c69bcf59d522f675c06ba4c473269
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-PM1.ANS by facsimile (Blade Productions); released in blde9502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: proprietary madness
 # SAUCE Author: facsimile
 # SAUCE Group: Blade Productions
@@ -46,7 +46,7 @@ Write-Host '
 [31m▀ [0m  [31m░[0m  [1;37mp r o p r[0m [1;37mi e t a r y   m a d n e[0;31m░[0;1;37ms[0m [1;37ms[0m      [31m    [0m   [31m [0m  [37m        [0;31m▒[0;37m  [0;31m▄▄[0;1;37m [0;1;37;47m▄[0m
 [31m▄▄▄▓▄▄▄[0m [37moperator/zodiacal[0m [37mrunning renegade [0;31m▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▓ ░▀██▓▄▄▓[0;37;41m▀[0;31;40m▄[0;37;41m▀[0;1;37;41m▀▀[0;1;37;40m█▀[0m▀▀[31m [0;1;30m▀[0m
    [31m▒[0m    [37m 0-7 day wares! dual nodes 14400       [0;31m▒[0m           [31m█[0;37m [0;31m [0;37m  [0;31m▀░ [0;1;30m▓▌[0;31m  ▀[0;1;30;41m░[0;31m▌[0;37m█[0m  [31m▄▄▄[0m
-   [31m░[0m     [37m(818) 445 4531 / (818) 574 8321[0m     [31m░[0m [31m░[0m   [37mfacsimile [0;31mblade[0;1;30m▄[0;1;30;41m▓[0;1;30;40m▌[0;31m''95[0;1;30;41m▒[0;31m▌[0;1;30m█[0;31m![0m [31m▄[0m
+   [31m░[0m     [37m                               [0m     [31m░[0m [31m░[0m   [37m          [0;31m     [0;1;30m▄[0;1;30;41m▓[0;1;30;40m▌[0;31m   [0;1;30;41m▒[0;31m▌[0;1;30m█[0;31m [0m [31m▄[0m
      [31m▓[0m       [31m▒[0m                               [31m▒[0m             [31m█[0;37m [0m [1;30m▓▀[0;1;30;41m█[0;1;30;40m█[0;1;30;41m▓[0;1;30;40m█[0;31m  [0;1;30m▀█[0;1;30;41m▓[0;1;30;40m▓ [0m  [31m▓[0m
 [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0;37m [0m [1;30m░[0m  [1;30m▀▓ [0m    [1;30m▀▒ [0m  [31m▒▀▀[0m
 [1;30m                                [0m [1;30m                          [0;31m▒[0;37m [0m [1;30m [0m   [1;30m▒[0m      [1;30m░ [0m  [31m░[0;1;30m  [0m'

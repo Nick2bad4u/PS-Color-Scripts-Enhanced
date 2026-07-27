@@ -5,7 +5,7 @@
 # Source SHA-256: 26f7fe655729061f89a28d5e58725db0715aa38ce2e25f265f2eac2d1a395d5d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JP-DS2.ANS by Jack Phlash (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -15,7 +15,7 @@ Write-Host '
      [1;33m [0m   [35m  █[0;1;34;45m█[0;1;34;47m▓[0;1;34;40m▓[0;35m█    ▄▄░   █[0;1;34;45m██[0;1;34;40m▓[0;35m█    [0;1;34;45m▐[0;1;34;47m▓[0;1;34;45m▌[0m
      [1;33m░▄  [0m░[35m █[0;1;34;45m█▀▀█[0;35m█  █[0;1;34;45m█▓[0;35m▓░ █[0;1;34;45m█[0;35m█▐[0;1;34;45m██[0;35m▌   ▐[0;1;34;47m▓[0;1;34;45m▌[0m
      [1;33m  ▀▄[0;1;33;47m░[0;35m █[0;1;34;45m▓[0;35m█ █[0;1;34;45m▀[0;35m█  ▀▀  █[0;1;34;45m▓[0;35m█  █[0;1;34;45m▓[0;35m█ [0;1;33m▀▄[0;35m▐[0;1;34;45m▐[0;1;34;40m▓[0;35m▌   ▄[0;1;34;45m▄[0;35m▄░[0m     [1;37md i s k s h 0 p  b b s[0m
-     [1;33m  ▄[0;1;33;47m▓▓[0;35m █[0;1;34;45m░ [0;35m  █[0;1;34;45m░[0;35m█ █[0;1;34;45m▄▄▄▄░[0;35m  ▄ ▀▀▀ ▄ [0;1;34;45m▐▓▄[0;35m ▄[0;1;34;45m█▓░[0;35m▀[0m     [37mtelnet://bbs.diskshop.ca[0m
+     [1;33m  ▄[0;1;33;47m▓▓[0;35m █[0;1;34;45m░ [0;35m  █[0;1;34;45m░[0;35m█ █[0;1;34;45m▄▄▄▄░[0;35m  ▄ ▀▀▀ ▄ [0;1;34;45m▐▓▄[0;35m ▄[0;1;34;45m█▓░[0;35m▀[0m     [37m                        [0m
      [1;33m   ▀█[0;35m █[0;1;31;45m░[0;35m█[0;1;33m ▄[0;35m █[0;37;45m░[0;35;40m█▐[0;1;34;45m█▓░[0;35m█████▀▀▀██▓ █[0;1;34;45m░▓▄█▀[0;35m▀ [0;37m ░[0m
      [1;33m  ▄█[0;1;33;43m▓[0;35m [0;1;31;45m░▓[0;35m█[0;1;33m [0;1;33;47m▓[0;35m  █[0;1;31;45m░░[0;35m█[0;1;31;45m░[0;35m█  ▄▄▄ [0;1;33m▄ [0;35m▐[0;1;31;45m░[0;45m░[0;1;31;45m ░[0;35m█[0;1;34;45m░▀[0;35m▀ [0;1;33m▄[0;1;33;47m▓[0;1;33;40m▄▀[0mjp
      [1;33m ▀ ░[0;1;33;47m▓[0;35m [0;1;31;45m░[0;1;31;40m▓[0;35m█  ▄[0;1;31;45m▄▓▓[0;35m▌▐[0;1;31;45m▓▓[0;35m▌ █[0;1;31;45m▓▄[0;35m▌[0;1;33m▐▌[0;35m [0;1;31;45m▐▓[0;35m█[0;1;31;45m▓▓░▄▄[0;35m▄▄[0;1;33m ▀▀▀░ [0;35m   [0;1;35m░[0m

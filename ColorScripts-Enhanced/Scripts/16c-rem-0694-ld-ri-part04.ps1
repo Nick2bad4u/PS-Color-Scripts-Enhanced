@@ -5,15 +5,14 @@
 # Source SHA-256: 0c84161bc025f4e9b995efea4a439abb93622ee080775763ec4a06224b1a9a94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-RI.ANS by Lord Darkness (rem-0694); released in rem-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 131-165
 # Columns: 1-80
 
 Write-Host '
 
 
-                                  [34m2[0;1;34mi[0;1;30m5-654-94[0;1;34m2[0;34m4[0m
-[1;30m·    ─[0m     ─[1m─[0;1;30m─[0m     ─[1m─  [0;1;30m───────[0m───────[1m──────────[0;1;30m─  ───────────[0m─────[1m──────[0;1;30m─────[0m
+[34m[0;1;34m[0;1;30m[0;1;34m[0;34m[0m[1;30m·    ─[0m     ─[1m─[0;1;30m─[0m     ─[1m─  [0;1;30m───────[0m───────[1m──────────[0;1;30m─  ───────────[0m─────[1m──────[0;1;30m─────[0m
                [34mR  [0;1;34mA  [0;1;30mV  I  D    [0;34mI  [0;1;30mN  T  E  R  S  E  C  [0;1;34mK  [0;34mT[0m
 [1;30m·    ─[0m     ─[1m─[0;1;30m─[0m     ─[1m─  [0;1;30m───────[0m───────[1m──────────[0;1;30m─────[0m     [1;30m────[0m─────[1m──────[0;1;30m──[0m
         [1;37m▄[0m▄▄▄[1;30m▄[0m                                                       [1;37m▄[0m▄▄▄[1;30m▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 524cd9f0576eefb38d7f1b79ce6c64920d547c5c45a1713b8115009613552e26
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-CFRT2.ANS by Samsara 10/96 (Eerie & Dieznyik); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Chronic Farts [j]
 # SAUCE Author: Samsara 10/96
 # SAUCE Group: Eerie & Dieznyik
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[31m         [0m
-
+[31m[0m
 
 
 

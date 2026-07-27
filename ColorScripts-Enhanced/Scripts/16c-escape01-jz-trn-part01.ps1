@@ -5,19 +5,17 @@
 # Source SHA-256: eeb40f560a89f221f2a87d6d44f033fa48ce67a2b821884b99f82abb50c68fdd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JZ-TRN.ANS by Jazz (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
-       [1;30m█[0;1;30;47m▓█[0;1;30;40m█[0m       [1;30;40m▄[0;1;30;47m▓▓[0;1;30;40m█▀  │A│ me on PRiMENet or on TRN - 516.277.3525.[0m
+       [1;30m█[0;1;30;47m▓█[0;1;30;40m█[0m       [1;30;40m▄[0;1;30;47m▓▓[0;1;30;40m█▀  │ │                                         [0m
 [1;30m▀▀▀▀▀▀[0m▐[1;30;47m▒▒▓[0;1;30;40m▌[0;1;30m█▀ █▀[0m▄[1;30;47m▒▒▓[0;1;30;40m▀    │Z│[0;1;30m If you wanna requ[0;1;30;40m── g r e e t s ──[0;1;30m(why?!:), contact[0m
 ██▄  ▐[1;30;47m░░▒[0;1;30;40m▀    [0m▄█[1;30;47m░░[0;1;30;40m▀[0m      [1;30;40m│Z│ Lord Jazz(of course) - hi :)[0m
 [1;30;40m [0m▀█████▀    ▄████▄▄▄▄▄█  [1;30m│ │ Nitro - thanks for all your support, bro..[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[30m                                        [0;1;30m                                        [0m
-[30m                                                                                [0m
-[30m                                   [0;33m▄▄▄▄▄▄▄▄▄▄▄▄ [0;30m                               [0m
+[30m[0;1;30m[0m[30m[0m[30m                                   [0;33m▄▄▄▄▄▄▄▄▄▄▄▄ [0;30m                               [0m
 [30m                           [0;33m▄▄▄[0;33;43m                      [0;33;40m▄▄▄ [0;30;40m                       [0m
 [30;40m                      [0;33;40m▄▄[0;30;43m░░[0;33;40m█[0;33;43m [0;33;40m█[0;33;43m                           [0;33;40m█▄▄▄ [0;30;40m                   [0m
 [30;40mOBV/2, my favorite[0;33;40m▄[0;30;43m▒░░[0;33;40m██[0;33;43m     jz                           [0;33;40m████▄▄[0;30;40mbbs softawre :)[0m

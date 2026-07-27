@@ -5,7 +5,7 @@
 # Source SHA-256: 9084b784f2b86c2f479686aa4fb9335a21c2a2e89c576dd461a9dd137f8e00cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-YAKH1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 45-90
 # Columns: 1-80
 
@@ -44,7 +44,7 @@ Write-Host '
 [1;40m  [0;32m██[0;37m▐██[0;1;37;47m░▒▓[0m   ▐██[1;47m░▒▓[0m
 [1;40m  [0;32m▐▌[0;37m██[0;1;37;47m░▒▓[0;1;37;40m▌   [0m██[1;47m░▒▓[0;1;40m▌[0m
 [1;40m   [0m▐█[1;47m░▒▓[0;1;40m▀   [0m▐█[1;47m░▒▓[0;1;40m▀[0m
-[1;40m  [0;32m▄[0;37m▐[0;37;47m [0;1;37;47m▒▓[0;1;37;40m▌    [0m▐[47m [0;1;47m▒▓[0;1;40m▌[0m            [1;33;40m3 [0;1;32;40m0 [0;32m3 [0;1;30m. 8 6 1 . 4 [0;32m8 [0;1;32m1 [0;1;33m6[0m
+[1;40m  [0;32m▄[0;37m▐[0;37;47m [0;1;37;47m▒▓[0;1;37;40m▌    [0m▐[47m [0;1;47m▒▓[0;1;40m▌[0m            [1;33;40m  [0;1;32;40m  [0;32m  [0;1;30m            [0;32m  [0;1;32m  [0;1;33m [0m
 [1;33m   [0m█[1;47m░▒▓[0m     █[1;47m░▒▓[0m                  [1;33;40mS [0;1;32;40mc [0;32mu [0;1;30mm [0;32mN [0;1;32me [0;1;33mt[0m
 [1;33m  [0m▐█[1;47m▒▓[0;1;40m▌    [0m▐█[1;47m▒▓[0;1;40m▌[0m                 [1;33;40mT [0;1;32;40ma [0;32mp [0;1;30me D [0;32mo [0;1;32mo [0;1;33mr[0m
 [1;33m [0m▄█[1;47m░▒▓[0m    ▄█[1;47m░▒▓[0m

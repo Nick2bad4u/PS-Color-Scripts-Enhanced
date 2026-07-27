@@ -5,7 +5,7 @@
 # Source SHA-256: d3c7e010d60331ca7590d1ce68c86bcb893e294b1d273dcef8a14ec2ad0e40ec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HM-SLAM.ANS by head mOnk (Bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: slam city!
 # SAUCE Author: head mOnk
 # SAUCE Group: Bamboosh
@@ -35,6 +35,5 @@ Write-Host '
                          [1;30m▀█▀[0m   [1;30m              [0m   [1;30m▀█▀ [0m
                            [1;30m▀ ▄▄[0m    [1;30m [0m         [1;30m▄▄[0m [1;30m▀[0m
                                  [1;30m▀[0m  [1;30m■[0m  [1;30m■[0m  [1;30m▀[0m
-[35m   [0m                                                                 [35m [0;1;30m      [0;35m [0;1;30m  [0;35m [0m
-[1;30m--[0m
+[35m[0m[35m[0;1;30m[0;35m[0;1;30m[0;35m[0m[1;30m--[0m
 [1;30mhm,,....[0m'

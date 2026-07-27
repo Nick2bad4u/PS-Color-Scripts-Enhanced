@@ -5,7 +5,7 @@
 # Source SHA-256: 8a1db3051b466375efac6046b5a18d0ff265a63d2840a7fdd372acb6aad17ae4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SQR!UPLD.ANS by square (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: upload (genick)
 # SAUCE Author: square
 # SAUCE Group: rare!ascii
@@ -16,8 +16,7 @@
 
 Write-Host '
 
- [1;30m   [0;31m [0;1;31m  [0;31m [0;1;31m  [0;31m  [0;1;31m [0;31m [0;1;30m [0;31m [0m
-[37m  [0;1;30m [0;31m [0;1;31m  [0;36m ┌  [0;1;36m  [0;36m [0;1;36m [0;1;37m┐[0;1;30m  [0m                [1;30m            [0m
+[1;30m[0;31m[0;1;31m[0;31m[0;1;31m[0;31m[0;1;31m[0;31m[0;1;30m[0;31m[0m[37m  [0;1;30m [0;31m [0;1;31m  [0;36m ┌  [0;1;36m  [0;36m [0;1;36m [0;1;37m┐[0;1;30m  [0m                [1;30m            [0m
   [1;30ml[0;31ml$ [0;1;30m:[0;36m$[0;1;36m&[0m   [1;30m [0;36m:[0;1;36m$[0;1;37m&[0;1;30m [0m       [1;30m-[0;31m-   [0;1;31m-[0;31m -[0;1;31m+*[0;31ms[0;1;31mg[0;31mggg[0;1;30mgg┬[0m
   [31m  [0;1;31m [0;31m [0;1;36m [0;36m  [0m   [1;30m [0;36m  [0;1;36m [0m          [1m ┌[0;1;36m [0;36m [0;1;36m [0;36m   ┐ [0;1;30m [0;1;31m  [0;31m  [0;1;30m [0m
   [31m&$[0;1;31ml[0;31m [0;1;36ml[0;36m$:[0m   [1;30m:[0;36m&$[0;1;36m:[0m         [1;30m:[0;1;37m$[0;1;36m$[0;36m,[0;1;30m  [0;36m [0;1;30m  [0;36ml$[0;1;36m:[0;31m [0;1;31m:[0;31m$l[0;1;30ml[0m

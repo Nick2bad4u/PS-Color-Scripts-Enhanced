@@ -5,7 +5,7 @@
 # Source SHA-256: 9eb72f6f3b7f40678ea67d606a937852a7da573004caad9f37fbacc7bd757acb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-UNBRD.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 93-124
 # Columns: 1-80
 
@@ -31,7 +31,7 @@ Write-Host '
 [32m▌[0m       [32m██  ░░▒▓█▀   ░░▒▓██▀ ▌[0m       [32m██ ▌  ░░▒▓██▀  ▄▄▄███▀[0m      [32m██[0m      [32m██[0m
 
 
-[1;32;42m█▄██▀▄  ▀  [0;1;30;42m▄ ▀[0;1;30;40m█▀▄ ▀  ▄ [0;1;32;40m8  1  3  -  4  4  2  -  3  4  3  4[0;1;30;40m▄  ▀  ▄▀[0;1;30;42m█▀ ▄  [0;1;32;42m▀  ▄▀██▄█[0m
+[1;32;42m█▄██▀▄  ▀  [0;1;30;42m▄ ▀[0;1;30;40m█▀▄ ▀  ▄ [0;1;32;40m                                  [0;1;30;40m▄  ▀  ▄▀[0;1;30;42m█▀ ▄  [0;1;32;42m▀  ▄▀██▄█[0m
                      [1;30;40m│[0m                                   [1;30;40m│[0m
                      [1;30;40m├─ [0;1;32;40m                                [0;1;30;40m─┤[0m
                      [1;30;40m│[0m                                   [1;30;40m│[0m

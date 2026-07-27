@@ -5,7 +5,7 @@
 # Source SHA-256: dec8f7747a5222d7077d9deaa8e9810abb37774cb2ed3e7452c28898bf40f914
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tr-joint.ans by Terrato (serial05); released in serial05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -38,7 +38,6 @@ Write-Host '
                 [33m$[0;1;31m$$$Qgggggggggg,._[0m             [1;31m``""²²²4$$[0;33m,[0m
                 [33m`4$$[0;1;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;33m$$$$P''[0m
                    [33m``""²²²""``[0;1;31m   ````"""²²²[0;33m²""`[0m
-                            [1;31m              [0m
-                     [33m`+gQ$[0;1;31m$$$$$$$$$$$$$P''[0m
+[1;31m[0m                     [33m`+gQ$[0;1;31m$$$$$$$$$$$$$P''[0m
                        [33m`$$$$[0;1;31m$$$$$$$$$$$ [0m          [33m_,+[0m
                          [33m`"²4$$$$[0;1;31m$[0;33m$$[0;1;31m$$[0;33m$bgssssss+²"     [0m'

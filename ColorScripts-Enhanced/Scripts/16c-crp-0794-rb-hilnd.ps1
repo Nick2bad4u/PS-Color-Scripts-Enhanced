@@ -5,7 +5,7 @@
 # Source SHA-256: aadb478ef7ea47a1b7e2c9951471adf6a76d33db70329c3aee46fb5cbb4123b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RB_HILND.ANS by Red Baron (crp-0794); released in crp-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -51,7 +51,7 @@ Write-Host '
 [33m    [0;1;30m███▀▀█████    ██▄[0m       [1;30m▀█▀    ██[0m                  [1;30m███[0m      [1;30m██  █   ██[0;33mBaron[0m
 [33m    [0;1;30m████   ▀██[0m     [1;30m▀█[0m        [1;30m▀[0m                           [1;30m██   ▄██    █  ███[0;33mMiND[0m
 [33m    [0;1;30m█████   ██[0m     [1;30m██   High[0mlands Bul[1mletin [0mBoard Ser[1;30mvice  █  ▄██▀   █   ▀███ [0;33m94[0m
-[33m    [0;1;30m████▀  ██[0m         ────────── [1;30m31[0mo.[1m428.2[0m29[1;30m9 [0m────────────   [1;30m██[0m          [1;30m▀███[0m
+[33m    [0;1;30m████▀  ██[0m         ────────── [1;30m  [0m  [1m     [0m  [1;30m  [0m────────────   [1;30m██[0m          [1;30m▀███[0m
 [1;30m   ████▀  ██[0m        [1;30mRuNN[0minG ViSioN/2 [1m⌂ NUV [0mStriCtlY EnFo[1;30mRceD ▀██▄[0m         [1;30m▀███[0m
 [1;30m  ████▀   ▀██[0m      [1;30mMail[0m/MeSSaGe/OnLiN[1me GaM[0meZ ⌂ ReQueSt F[1;30miLes! ▀████[0m        [1;30m▀██[0m
 [1;30m ████▀[0m     [1;30m▀████[0m       [1;30m0-7 W[0maReZ ⌂ La[1mMeRz [0mNeeD NoT A[1;30mppLy[0m         [1;30m▀██[0m      [1;30m▄██▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: d47a1f1f3376408cf74e04510141c11adc191db1569b78ed76e1d9d192c1878a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!12TH!.ANS by Simonking (l0p12_01); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 99-143
 # Columns: 1-80
 
@@ -26,9 +26,7 @@ Write-Host '
 [31m▓▓▄[0;37m [0;33m░▀▄[0;37m  [0;33m▀▀▀▀▀▀▀▀▀▀▀[0;1;30m██▄[0;33m░[0;1;33;43m ░░░▒▒[0;1;33;40m▀[0m [31m▄▀[0m    [31m▀▀▄[0;37m [0;1;31m▀▀▄[0m [31m▄[0;1;31;41m▒▒[0;31m▀[0m   [35m░[0;31m▀▀▄[0m   [35m  [0;31m▄▀▀[0m    [31m▀[0m      [35m░[0;31m▀▄[0m
 [31m█▀▀▄[0;37m  [0;33m░░▀▀██[0;1;30;43m░░▒▒▒▒▒▓▓[0;1;30;40m▀░[0m [33m░▀▀▀▀░[0m             [35m░░[0;31m▄[0;1;31m▀[0;31m  [0m
 [37m [0;31m▀[0m        [33m░░░░[0;1;30m▀▀▀▀▀▀[0m                           [31m   [0m
-[1;30m            [0m     [1;30m                                                [0m
-[1;30m [0m                   [1;30m                                         [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
 
                    [1;30m▄[0m [1;33m▐▄▄[0m   [1;30m▄[0m                [1;30m▄[0m
 [1;30mmC_lASER/tSCC![0m     [1;30m▐[0m [1;33m▐[0;1;33;47m░▒▒[0m    [1m█[0;1;33m█[0m          [1;30m▄▀[0m  [1;33m▄▄[0;1;33;47m▓▓[0;1;33;40m█[0;1;37;40m█[0m

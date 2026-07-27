@@ -5,7 +5,7 @@
 # Source SHA-256: bf431366857ca6f6cd79ad8b8413e3825e2ec5522706f302830067273467a71d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-BKULT.ANS by Nivenh (Union); released in uni-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Bass Kult - 214
 # SAUCE Author: Nivenh
 # SAUCE Group: Union
@@ -45,15 +45,8 @@ Write-Host '
                         [1;47m█▀▄[0;1;40m▌    [0;1;47m▄▀[0m░  ▐[1;47m▄[0m▌  [1;47m▀▄[0m▌ [1m▐[0;1;47m█▄[0m
                        [1m▐█[0;1;47m██[0;1;40m█    ▐[0;1;47m█[0;1;40m█ ▄[0;1;47m█[0;1;40m▀ ▄[0;1;47m█[0;1;40m▀▀▀▄ ▀▀[0;1;47m█[0;1;40m▄[0m
                           [1m▀▀▀   ▀▀[0m
-                             [1;30m                  [0m
-
-                               [1m [0;1;30m [0m   [1m [0m  [1;30m [0m      [1m [0m    
-                                [1m [0;1;30m [0m  [1m [0m  [1;30m [0m  [1m [0m     
-                             [1m [0m    [1;30m [0m  [1m [0m  [1;30m [0m    [1m [0m   
-
-                               [1;30m [0m        [1m [0m    
-
-                          [1m [0m    [1m [0m          [1m [0m       
-                               [1m [0m  [1m [0m      [1m [0;1;30m [0m [1;30m [0m
-
+[1;30m[0m
+[1m[0;1;30m[0m[1m[0m[1;30m[0m[1m[0m[1m[0;1;30m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m
+[1;30m[0m[1m[0m
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0;1;30m[0m[1;30m[0m
 [1;30m--------------------^----------------------------------^-----------------------[0m'

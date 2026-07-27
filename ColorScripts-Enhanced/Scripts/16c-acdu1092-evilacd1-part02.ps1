@@ -5,7 +5,7 @@
 # Source SHA-256: b0247301f0a527f58e5c3806c440a865b612cff3bcff55078adead2a8a468462
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EVILACD1.ANS by Cerebrus (acdu1092); released in acdu1092 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 49-96
 # Columns: 1-80
 
@@ -51,8 +51,5 @@ Write-Host '
 [1;33m▀[0m     [32m▀[0;1;32m▀[0;32m▀  [0;31m▀[0;1;31m▀[0;1;33m█▀[0m     [32m▀[0;1;32m▀[0;32m▀  [0;31m▀[0;1;31m▀[0;1;33m█▀[0m     [32m▀[0;1;32m▀[0;32m▀  [0;31m▀[0;1;31m▀[0;1;33m█▀[0m     [32m▀[0;1;32m▀[0;32m▀  [0;31m▀[0;1;31m▀[0;1;33m█▀[0m     [32m▀[0;1;32m▀[0;32m▀  [0;31m▀[0;1;31m▀[0;1;33m█▀[0m     [32m▀[0m
 [1;33m▀[0m             [1;33m▀[0m             [1;33m▀[0m             [1;33m▀[0m             [1;33m▀[0m             [1;33m▀[0m
 [1;33m  [0;1;30m───────[0m────────[1m────────────[0m─[1;30m─ [0;35mE[0;1;35mvil [0;35mP[0;1;35malace [0;1;30m─[0m─[1m──────────────[0m────────[1;30m───────[0m
-     [1;34m         [0;1;37m                   [0;1;34m          [0m     [1;37m      [0;1;34m             [0m
-     [1;34m         [0;1;37m       [0m        [1;37m         [0;1;34m     [0m
-                             [1;33m([0;35m408[0;1;33m) [0;1;35m741[0;1;33m-[0;1;35m5584[0m
-                                               [1;30m─[0;31m─[0;1;31m┐[0m
+[1;34m[0;1;37m[0;1;34m[0m[1;37m[0;1;34m[0m[1;34m[0;1;37m[0m[1;37m[0;1;34m[0m[1;33m[0;35m[0;1;33m[0;1;35m[0;1;33m[0;1;35m[0m                                               [1;30m─[0;31m─[0;1;31m┐[0m
 [1;31m  [0;1;30m───────[0m──────[1;30m─ [0;1;33mA[0;1;34mN[0;1;31mS[0;1;35mi[0;36mM[0;1;36movie [0;32mb[0;1;32my [0;1;33mC[0;1;34merebru[0;1;30ms of [0;1;31m/┤C[0;31mi[0;1;31mD [0;31m├┘ro[0;1;31mdu[0;1;33mct[0;1;31mio[0;31mns [0;1;30m─[0m──────[1;30m───────[0m'

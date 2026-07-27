@@ -5,7 +5,7 @@
 # Source SHA-256: 60bba2dca7802673d16893ce3b846431f6456fadfa4859be80124544d92798f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-RAGE2.ANS by Primordial Chowder (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rage Phosphorus
 # SAUCE Author: Primordial Chowder
 # SAUCE Group: UNiON
@@ -15,14 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-     [1m                                                                      [0m 
-  [1m                                                                            [0m 
-   [1m                                                                          [0m 
-     [1m                                                                      [0m 
-    [1m                                                                        [0m 
-   [1m                                                                          [0m 
-    [1m                                                                         [0m 
-[1;30m▄[0m                              [1m                  [0m    [1m      [0m [1m   [0m                [1;30m▄[0m
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;30m▄[0m                              [1m                  [0m    [1m      [0m [1m   [0m                [1;30m▄[0m
 [1;37;47m▄[0;1;30;47m▀[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▀[0;1;37;47m▄[0m
 [1;37;47m██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██[0m
 [1;37;47m████████████████████████████████████████████████████████████████████████████████[0m

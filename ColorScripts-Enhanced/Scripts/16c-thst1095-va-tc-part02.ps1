@@ -5,7 +5,7 @@
 # Source SHA-256: 042cac24aec81990e552621f77c8ab3f9d98aa726b45ce25312039e53e18ed27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VA-TC.ANS by Vassago (THRuSt); released in thst1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Tokin' Toadie!
 # SAUCE Author: Vassago
 # SAUCE Group: THRuSt
@@ -33,10 +33,6 @@ Write-Host '
  [1;30m▀▄■▄▄▄▄■[0m  [1;30m▄▄[0m [1;30m▄▄▄▄▓[0m [1;30m▄■▄[0m [1;30m▄▄▄▓■▄▄▄[0m [1;30m▄▀▄▄▄▄▄[0m  [1;30m▄[0m [1;30m▄▄[0m [1;30m■▄▒▄▄■[0m [1;30m▄▄▒■▄▄[0m [1;30m▄▄[0m [1;30m■▄▄▄▄▄[0m [1;30m▄[0m [1;30m▄[0m [1;30m■▄ ░▄[0m
          [1;30m▀ [0m     [1;30m▓[0m                                         [1;30m▓[0m
 
-[1;30m                                                                                [0m
-[1;30m|[0m                                                          [1;30m|[0m [1;30m\[0m      [1;30m|[0m       [1;30m/[0m [1;30m |[0m
-[1;30m [0m [1;30m                                                      [0m   [1;30m [0m  [1;30m  [0m  [1;30m       [0m [1;30m [0m [1;30m [0m [1;30m  [0m
-[1;30m-----------------------------------------------------------|---[0m     [1;30mo''[0m    [1;30m ----|[0m
-[1;30m [0m  [1;30m                                                  [0m      [1;30m [0m   [1;30m [0m  [1;30m        [0m [1;30m [0m  [1;30m  [0m
-[1;30m [0m  [1;30m                                                  [0m      [1;30m [0m [1;30m [0m [1;30m [0m    [1;30m [0m    [1;30m  [0m  [1;30m [0m [1;30m [0m
-[1;30m-==-=-==--=-=-=-=-=-=-=-==--=-=-=-==--=-=-=-==--==--=-=-=-=-==-=--==--=-=-=-=-=-[0m'
+[1;30m[0m[1;30m|[0m                                                          [1;30m|[0m [1;30m\[0m      [1;30m|[0m       [1;30m/[0m [1;30m |[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m-----------------------------------------------------------|---[0m     [1;30mo''[0m    [1;30m ----|[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m-==-=-==--=-=-=-=-=-=-=-==--=-=-=-==--=-=-=-==--==--=-=-=-=-==-=--==--=-=-=-=-=-[0m'

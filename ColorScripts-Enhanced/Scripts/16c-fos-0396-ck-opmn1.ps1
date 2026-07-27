@@ -5,7 +5,7 @@
 # Source SHA-256: 38264f063d236ac39c42633ad4710dae2b54f1621d440190758400377d1f9dba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-OPMN1.ANS by Clark (fos-0396); released in fos-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
@@ -35,9 +35,4 @@ Write-Host '
                                                                 [1;30m           [0m
 
 [1;30m+---------------------------------SNIPSNAP_-----------------------------------+[0m
-[1;30m                                                                               [0m
-[1;30m                                                                             [0m
-[1;30m                                                                              [0m
-[1;30m                                                                             [0m
-[1;30m                                                                              [0m
-[1;30mI will do you something..[0m [1;30m+---------------------------------SNIPSNAP_----------[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30mI will do you something..[0m [1;30m+---------------------------------SNIPSNAP_----------[0m'

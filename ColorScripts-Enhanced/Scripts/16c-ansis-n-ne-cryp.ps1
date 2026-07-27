@@ -5,7 +5,7 @@
 # Source SHA-256: 1dbb10703923d137974ce81b94a1130836be1405cf4ae4d0bbc5d4ea9ee231f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NE-CRYP.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -38,7 +38,6 @@ Write-Host '
 
 
 
-                                                      
 
 [1;34m▄▄▄▄▄▄▄▄▄[0m
 [1;34m  █ ▄ █▄▄[0m

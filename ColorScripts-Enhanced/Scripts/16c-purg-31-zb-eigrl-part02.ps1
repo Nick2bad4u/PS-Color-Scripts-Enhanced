@@ -5,7 +5,7 @@
 # Source SHA-256: 25a8cb7a6879065dfd7ea189d5444362be4f51b985b3a6224bd8e2fe80720a71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZB!EIGRL.ANS by Zubfatal (purg-31); released in purg-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 46-94
 # Columns: 1-80
 
@@ -24,8 +24,7 @@ Write-Host '
                    [1;30m`l'' [0m:$$$$$$[1;30m$[0m²²²²²²²²²²²²²[1;30m''[0;33m.s[0;1;31mssssss[0;33ms  [0;1;30m:l$$;[0m
                     [1;30m''  [0m`²[1;30m''[0;33m.s[0;1;31mssss[0;33mS[0;1;31m$$$[0;33mS[0;1;31ms. [0;33m$[0;1;31m$$$$$$$$$$$$$   [0;1;30m`l''[0m
                                                           [1;30m''[0m
-                 [1m                  [0m  [1m                          [0m 
-
+[1m[0m[1m[0m
                   [1;30m.,┌sd$┘²²²²²²²²²²└$$$$$$$$$$''[0;1;37m_.,┌s5b.[0;1;30m`Sbs┐,.[0m
                  [1;30md7''[0;1;37m_.┌si²"~~"²$$$Ss┐._[0;1;30m`└$$$$$.[0;1;37m`²└$$$7''[0;1;30m.$$$$$$b[0m
                 [1;30m:''[0;1;37m.i$'' [0;1;30m.,sS$$$b.[0;1;37m`²$$$$$i.[0;1;30m`$$$7''[0;1;37m.sSs┐._[0;1;30m`$$$$$$$$:[0m
@@ -40,22 +39,12 @@ Write-Host '
                                                              [1;30m`-->>[0m
 [1;30m :[0m:[1m: notes :[0m:[1;30m:[0m
 [1;30m ∙~~~~~~~~~~~∙[0m
-[1;30m [0;1;37m    [0m  [1m                               [0m   [1m                                [0m
-[1m                      [0m [1m     [0m  [1m                                [0m   [1m    [0m  
-
- [1;30m [0m [1m            [0m [1;30m [0m
-[1;30m ∙~~~~~~~~~~~~~~∙[0m
-[1;30m [0;1;37m          [0m  [1m        [0m  [1m       [0m  [1m         [0m  [1m    [0m  [1m    [0m  [1m       [0m  [1m    [0m  [1m   [0m 
- [1m      [0m  [1m         [0m  [1m        [0m  [1m      [0m  [1m        [0m  [1m     [0m  [1m        [0m  [1m         [0m 
- [1m        [0m  [1m        [0m  [1m     [0m  [1m      [0m  [1m        [0m  [1m     [0m  [1m   [0m  [1m     [0m  [1m   [0m  [1m      [0m 
-     [1m     [0m            
-
- [1;30m [0m [1m             [0m [1;30m [0m
-[1;30m ∙~~~~~~~~~~~~~~~∙[0m
-[1;30m [0;1;37m       [0m [1m      [0m  
-
+[1;30m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m
+[1;30m[0m[1m[0m[1;30m[0m[1;30m ∙~~~~~~~~~~~~~~∙[0m
+[1;30m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m
+[1;30m[0m[1m[0m[1;30m[0m[1;30m ∙~~~~~~~~~~~~~~~∙[0m
+[1;30m[0;1;37m[0m[1m[0m
    [1m___/\___ [0;1;30m.----------------------------------------.   .----------------.[0m
 [1;30m.--[0;1;37m>_ Oo _<[0;1;30m-|  [0;1;37mcut this fucker right here![0m      [1;30m.----┴---┴----------------┴---.[0m
-[1;30m|---[0;1;37m)_/\_([0;1;30m--|-----------------------------------|[0m      [1;37mzubfatal@purg.com[0m      [1;30m|[0m
-[1;30m└--┐ [0;1;37m''--` [0;1;30m┌-''[0m                                   [1;30m`-----------------------------''[0m
+[1;30m[0;1;37m[0;1;30m[0m[1;37m[0m[1;30m[0m[1;30m└--┐ [0;1;37m''--` [0;1;30m┌-''[0m                                   [1;30m`-----------------------------''[0m
 [1;30m   `------''[0m'

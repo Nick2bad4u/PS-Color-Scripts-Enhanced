@@ -5,7 +5,7 @@
 # Source SHA-256: fc457e9cc3da4ba93f084154ad5ac2db0ddd519f269dba032fdaae4b22425acf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: [006] SC-SOULS.ans by Scythe (Visions of Reality); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Souls in Hell
 # SAUCE Author: Scythe
 # SAUCE Group: Visions of Reality
@@ -38,7 +38,5 @@ Write-Host '
 [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;37;41m                        ┤              [0;1;36;41m       [0;1;37;41m                                 [0m
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-[36m       [0m
-[36m            [0;1;36m                                                                 [0m
-[1;36m    [0;36mShadowdancer - [0;1;36m1 ju5+ |-|4+3 |< - \/4g1|\|4|_ P30p|_3 \^/|-|0 \^/r1+3[0m
+[36m[0m[36m[0;1;36m[0m[1;36m    [0;36mShadowdancer - [0;1;36m1 ju5+ |-|4+3 |< - \/4g1|\|4|_ P30p|_3 \^/|-|0 \^/r1+3[0m
                    [1;36m|_1|<3 +|-|15, |)0|\|+ Y0u?[0m      [1;36m|<-5p1f...[0m     [1;36m;)[0m'

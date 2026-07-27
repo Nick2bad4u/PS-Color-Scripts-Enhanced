@@ -25,5 +25,4 @@ Write-Host @"
                                    [31m▀[0m      [31m▒[0;37m [0;31mnu![0m
 
           [1;30m  there's a price on your head and i've come to collect[0m.
-
 "@

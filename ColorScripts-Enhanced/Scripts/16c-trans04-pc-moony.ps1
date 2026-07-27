@@ -5,7 +5,7 @@
 # Source SHA-256: bed454fe211f27969b58b043aef208de05291f33b662743fb31759d29049023a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-MOONY.ANS by Proctologist (Transmission); released in trans04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: moon ya again
 # SAUCE Author: Proctologist
 # SAUCE Group: Transmission
@@ -31,11 +31,8 @@ Write-Host '
   [1;30m.,_[0m [1;36m`ⁿ[0;36mS$$$$$$$$$$S[0;1;36mS$$$$[0;36m$$SS$SS$$S##S$$$$$SS$$$$$S$[0;1;36m$$$$$[0;36m$S$$S$$$$$$[0;1;36m$,[0m [1;30m°S$$$$l[0m
  [1;30md$$$$b, [0;36m`$$$P`[0;1;30m_.,[0m                                            [1;36m`?$[0;36m$$$$[0;1;36m$b,_[0;36m [0;1;30m`"ⁿ$, [0m
 [1;30ml$$$$$$$$,[0m [36m?$[0;37m [0;1;30md'' [0m           [1;30minfo goes here...[0m                   [1;36m$$[0;36m$$$P╜[0;1;36mⁿ^`[0;36m [0;1;36m~[0m [1;30m `[0m
-[1;30m?$$P``ⁿ?$$ [0m [36ml[0;37m [0;1;30m![0m     [1;30mOpen 24 hours.  403-240-2256[0m                [1;36mP"[0;36m` [0;1;30m.s#$$$$$b, [0m
-[1;30m   [0m     [1;30m  [0m  [36m  [0;1;30m  [0m    [1;30m                                         [0m  [1;36m [0m  [1;30m  [0m    [1;30m    [0m  [1;30m [0m
-[1;30m [0m       [1;30m l[0m                                                               [1;30m''[0m
+[1;30m[0m[36m[0;37m[0;1;30m[0m[1;30m[0m[1;36m[0;36m[0;1;30m[0m[1;30m[0m[1;30m[0m[36m[0;1;30m[0m[1;30m[0m[1;36m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m [0m       [1;30m l[0m                                                               [1;30m''[0m
  [1;30m [0m      [1;30m ''[0m
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>--[0m
-[1;30m                                [0m
-                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
+[1;30m[0m                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

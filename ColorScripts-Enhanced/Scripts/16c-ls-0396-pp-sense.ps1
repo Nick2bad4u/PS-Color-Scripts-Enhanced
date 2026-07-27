@@ -5,7 +5,7 @@
 # Source SHA-256: 025027270c2e5344f40a21cb57b3990a56ee0593123c55f51c80b77dc8ae7dc4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-SENSE.ANS by phorce phed (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sensory ? - use this if you can
 # SAUCE Author: phorce phed
 # SAUCE Group: leper society
@@ -32,6 +32,4 @@ Write-Host '
 [30m            [0;37m▓█[0;30m [0;1;34m  [0;30m  [0;1;34m    [0;30m [0;1;34m   [0;30m [0;1;34m [0;30m  [0;1;34m    [0;30m [0;1;34m     [0;30m  [0;1;34m  [0;30m  [0;1;34m   [0;30m [0;1;34m    [0;30m [0;1;34m [0;30m  [0;1;34m     [0;30m [0;37m█▓[0;30m [0;1;30m  [0;30m         [0m
 [30m            [0;37m▒[0;30m  [0;1;34m    [0;30m [0;1;34m   [0;30m [0;1;34m [0;30m [0;1;34m    [0;30m  [0;1;34m        [0;30m [0;1;34m    [0;30m [0;1;34m   [0;30m [0;1;34m    [0;30m [0;1;34m         [0;30m  [0;37m▒[0;1;30m    [0;30m        [0m
 [30m            [0;37m░[0;30m  [0;1;34m    [0;30m [0;1;34m    [0;30m [0;1;34m    [0;30m [0;1;34m  [0;30m [0;1;34m     [0;30m  [0;1;34m    [0;30m [0;1;34m     [0;30m [0;1;34m    [0;30m  [0;1;34m   [0;30m [0;1;34m   [0;30m  [0;37m░[0;30m            [0m
-[30m               [0;1;34m    [0;30m [0;1;34m     [0;30m  [0;1;34m      [0;30m [0;1;34m  [0;30m [0;1;34m   [0;30m  [0;1;34m   [0;30m [0;1;34m  [0;30m [0;1;34m  [0;30m [0;1;34m      [0;30m [0;1;34m  [0;30m [0;1;34m  [0;30m               [0m
-[30m               [0;1;34m                     [0;30m                                           [0m
-[30mls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[l[0m'
+[30m[0;1;34m[0;30m[0;1;34m[0;30m[0;1;34m[0;30m[0;1;34m[0;30m[0;1;34m[0;30m[0;1;34m[0;30m[0;1;34m[0;30m[0;1;34m[0;30m[0;1;34m[0;30m[0;1;34m[0;30m[0;1;34m[0;30m[0m[30m[0;1;34m[0;30m[0m[30mls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[l[0m'

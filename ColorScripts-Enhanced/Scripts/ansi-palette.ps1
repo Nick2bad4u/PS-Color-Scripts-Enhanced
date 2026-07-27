@@ -37,5 +37,4 @@ $sp$sp
   $esc[38;5;21m●$esc[0m Blue      $esc[48;5;21m       $esc[0m  $esc[38;5;21m▓▓▓▓▓▓▓$esc[0m  $esc[38;5;21;1m★ Bold Star ★$esc[0m
   $esc[38;5;201m●$esc[0m Magenta   $esc[48;5;201m       $esc[0m  $esc[38;5;201m▓▓▓▓▓▓▓$esc[0m  $esc[38;5;201;1m★ Bold Star ★$esc[0m
   $esc[38;5;231m●$esc[0m White     $esc[48;5;231m       $esc[0m  $esc[38;5;231m▓▓▓▓▓▓▓$esc[0m  $esc[38;5;231;1m★ Bold Star ★$esc[0m
-
 "@

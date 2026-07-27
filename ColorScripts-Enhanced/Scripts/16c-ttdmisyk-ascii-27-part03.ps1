@@ -5,7 +5,7 @@
 # Source SHA-256: 08ef8f0f3b1a3f4d22e603fa72a17a8e5fb31fc3ebc4db12ce06e2136c6435c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASCII-27.ANS by Konami (ttdmisyk); released in ttdmisyk and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 83-130
 # Columns: 1-80
 
@@ -39,8 +39,7 @@ Write-Host '
      [1m   [0m  [36m_[0;1;36m__[0;36m-[0;1;36m--`[0m        [1m [0m ,l [1;30m`[0m   [1m`"/[0m  [1ml[0m  [1;36m`[0;1;37m/$$$███$$\ [0m     [1;36m/,[0m
       [36m\[0;37m [0;36m` [0m                 [37m`*/,.   [0;1;36m/[0m _\"[1;33m  [0;1;36m/[0;1;33m [0;1;36m`[0;1;37m"²$[0;1;36;47m$[0;1;37;40m²"[0;1;36;40m`[0m  [1m,,[0m,,$[1;36m  ,[0m   [36m..[0;1;30m.............[0m
                                   [1;36m/[0m      [36m/[0m     [1;37m$[0;1;36m7[0m           [1;36m.[0m
- [36m               [0;1;36m         [0;36m  [0m      [36m [0m      [36m [0m      [1;37m   [0m      [36m [0;1;37m [0m
-                                [1m/[0m              [1;36ml[0m
+[36m[0;1;36m[0;36m[0m[36m[0m[36m[0m[1;37m[0m[36m[0;1;37m[0m                                [1m/[0m              [1;36ml[0m
 [34m"""""""""""""""""""""""""7S""""""""""""""""""""""SS""""""""""""7SS"""""""S""""""[0m
 [1;37m$$$$$$$$$$$[0;1;36m$$[0;1;37m $$$$$$$$$[0;1;36mb[0;1;37m [0m [34m7[0;1;37m $$$$$$$$$$$7` $$$$$ [0;1;33m [0;34m$$[0;1;37m [0;1;36m$$[0;1;37m$$$$$$$b [0m [34m7$[0;1;37m $$$$$[0m [34ml[0;37m [0;1;37m$$$$$[0m
 [1;33m$$$$$"""$$$$$[0m [1;33m$$$$$ 7$$$b   $$$$$"""""` [0;34m,[0;37m [0;1;33m$$$$$[0m [1;33m [0;34m$$[0;37m [0;1;33m$$$$$7$$$$b[0m [34m 7[0;37m [0;1;33m$$$$$[0m [34m;[0;37m [0;1;33m$$$$$[0m

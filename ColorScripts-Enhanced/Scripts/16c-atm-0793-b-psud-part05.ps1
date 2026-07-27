@@ -5,7 +5,7 @@
 # Source SHA-256: b9ecaf472c3b0724d44118db09abbe350c7a0c6a9713dba0b8e57c54fb4e521e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-PSUD.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 174-223
 # Columns: 1-80
 
@@ -49,14 +49,10 @@ Write-Host '
                                             │
                                             │
                                             [1m│[0m
-                         [34m      [0;1;34m       [0;36m         [0;1;36m         [0;1;37m  [0m
-                                      [1;30m∙─[0m──[1m──[0;1;36m┼[0;1;37m──[0m──[1;30m─∙[0m
+[34m[0;1;34m[0;36m[0;1;36m[0;1;37m[0m                                      [1;30m∙─[0m──[1m──[0;1;36m┼[0;1;37m──[0m──[1;30m─∙[0m
                                      [1;34m  [0;36m     [0;1;37m│[0m
-                          [34m        [0;1;34m      [0;36m          [0;1;36m       [0m
-                                 [34m [0;1;34m      [0;36m         [0m
-                                            [1;30m|[0m
+[34m[0;1;34m[0;36m[0;1;36m[0m[34m[0;1;34m[0;36m[0m                                            [1;30m|[0m
 
 
 [1;30m ───[0;33m─────────────────────────ATOM[0;1;33miC''93!─ATOMiC''93!─────────────────────────────[0m
-             [31m                        [0;1;31m                               [0m
-[1;31m [0;1;30m────────[0;33m────────────────────ATOMiC''93!-A[0;1;33mTOMiC''93!─────────────────────────────[0m'
+[31m[0;1;31m[0m[1;31m [0;1;30m────────[0;33m────────────────────ATOMiC''93!-A[0;1;33mTOMiC''93!─────────────────────────────[0m'

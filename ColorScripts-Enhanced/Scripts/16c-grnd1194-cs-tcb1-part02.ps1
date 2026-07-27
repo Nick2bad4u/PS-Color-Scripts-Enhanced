@@ -5,7 +5,7 @@
 # Source SHA-256: 16e1a32d81995612de143611cc7215f9b0167f5d8aea9a38204b39009c558136
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CS-TCB1.ANS by Cryptic Stench (grnd1194); released in grnd1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -56,7 +56,7 @@ Write-Host '
 [31;40m    ▐  ▐  ▌    [0;33;40m█[0m            [31;40mH[0;33;40mu[0;31;40mNDR[0;33;40me[0;31;40mDS [0;33;40mo[0;31;40mF D[0;33;40moo[0;31;40mM F[0;33;40mi[0;31;40mL[0;33;40me[0;31;40mS![0m            [33;40m█    [0;31;40m▐ ▌   █[0m
 [31;40m    ▐  ▐  ▌    [0;33;40m█[0m                 [31;40mD[0;33;40me[0;31;40mM[0;33;40mo[0;31;40mZ G[0;33;40ma[0;31;40mL[0;33;40mo[0;31;40mR[0;33;40me[0;31;40m![0m                 [33;40m█    [0;31;40m▐ ▌   █[0m
 [31;40m    ▐  ▐  ▌    [0;33;40m█[0m                                               [33;40m█    [0;31;40m▐ ▌   █[0m
-[31;40m    ▐  ▐  ▌    [0;33;40m█[0m                 [31;40m4[0;33;40m1[0;31;40m4[0;33;40m.[0;31;40m4[0;33;40m9[0;31;40m4[0;33;40m.[0;31;40m0[0;33;40m76[0;31;40m9[0m                  [33;40m█    [0;31;40m▐ ▌   █[0m
+[31;40m    ▐  ▐  ▌    [0;33;40m█[0m                 [31;40m [0;33;40m [0;31;40m [0;33;40m [0;31;40m [0;33;40m [0;31;40m [0;33;40m [0;31;40m [0;33;40m  [0;31;40m [0m                  [33;40m█    [0;31;40m▐ ▌   █[0m
 [31;40m    ▐  ▐[0m                                                            [31;40m▐[0m     [31;40m▐[0m
 [31;40m    ▐  ▐[0;1;30;40m                            [0m                                [31m▐[0m     [31m▐[0m
 [31m    ▐[0m                                                                     [31m▐[0m'

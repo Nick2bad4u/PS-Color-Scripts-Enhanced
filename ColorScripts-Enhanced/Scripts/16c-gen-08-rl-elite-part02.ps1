@@ -5,7 +5,7 @@
 # Source SHA-256: ddb7dc1c7d27f643cfcf72585e00d2c9125c249c068bc64985b492e6429f3c78
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: rl-elite.ans by rawlock (genuine); released in gen-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: i'm back
 # SAUCE Author: rawlock
 # SAUCE Group: genuine
@@ -43,7 +43,7 @@ Write-Host '
 [35m▄[0;1;35;45m▀▀▀▀▀[0;35m▌▐[0;1;37m██[0;1;35;45m█▄[0;35m▄[0;1;35;45m▄▀▀▀ [0;35m▄▄█[0;1;35;45m▀▀▀[0;35m▀[0m          [33m▀▀▀▀▓█[0;1;31;43m░░[0;33m█[0;1;31;43m▀▀▀▀[0;33m████▓▀▀▀[0m       [1;30mget in touch [0m
 [35m▄▄▄▄▄▄▄█████▀█▄▄▄▄▄▄▄▄▄▄▄  [0m         [1;31m [0m       [33m▀▀▀▀[0;30;43m▓▓[0m             [1;30;40mwith me. [0m
 [35m▐█[0;1;35;45m░░░░[0;35m  █[0;1;35;45m░░░░[0;35m▌▓[0;1;35;45m░░░░[0;35m ░█[0;1;35;45m░░░░[0;35m▌[0m                           [33m [0m
-[30;45m▓[0;1;35;45m░▒▒▒▒[0;35m  [0;1;35;45m░▒▒▒▒▒░▒▒▒▒[0;35m  [0;1;35;45m░▒▒▒▒▒[0m                                    [1;30mrawlock@spray.se[0m
+[30;45m▓[0;1;35;45m░▒▒▒▒[0;35m  [0;1;35;45m░▒▒▒▒▒░▒▒▒▒[0;35m  [0;1;35;45m░▒▒▒▒▒[0m                                    [1;30m                [0m
 [35m [0;1;35;45m▒▓▓▓▓[0;35m  [0;1;35;45m▒▓▓▓[0;1;35;41m▓▒[0;1;35;45m▒▓▓▓▓[0;35m  [0;1;35;45m▒▓▓▓[0;1;35;41m▓[0;1;35;45m░[0m
 [35m ▀[0;1;35;45m▀▀▀▀[0;35m▄▄[0;1;35;45m▓██[0;1;35;46m▓▓[0;1;35;45m▌[0;35m▀[0;1;35;45m▀▀▀▀[0;35m▄▄[0;1;35;45m▓█[0;1;35;47m█▓▓[0;1;35;45m▌[0m
 [35m  [0;1;30m▄[0;35m▄▄▄▄▄[0;1;35;45m▄[0;1;35;40m▓[0;1;35;45m█[0;1;35;40m█[0;1;35;45m▀[0;35m▌▄▄[0;1;30m ▄[0;35m▄▄▄[0;1;35;45m▄██[0;1;35;40m█[0;1;35;45m▀[0;35m▌[0m                                    [1;30mEnd Of File[0m

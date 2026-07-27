@@ -5,7 +5,7 @@
 # Source SHA-256: 35083c41e510b41d489fd706690a4e7ef25c10bac5994ea465049552f51672a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HH-CARD2.ANS by Hammer Head (ali-0794); released in ali-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 39-74
 # Columns: 1-80
 
@@ -17,8 +17,7 @@ Write-Host '
 [33;40m   ▀▒▒▒▀▀[0m         [1;37;40m▀▓[0;43m▓░[0;33;40m█▓█▓██▓▓█▓▒▓▓░[0;1;30;40m▀[0m
                       [33m▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30m                                                                               [0m
-[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
+[1;30m[0m[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
                                                             [31m▄▄▀[0m
                                             [1;30m▐[0m       [1;30m▌  [0;31m▄▄███▀[0m
                                                 [31m▄[0;1;30m▐[0;31m▄▄██████▀[0m
@@ -37,7 +36,7 @@ Write-Host '
 [1;30m▄  ▄▄ ▄▄▄[0;1;30;47m▄▄[0;1;30;40m█▄▄▄▄ ▄[0;1;30;44m▄▄▄[0;34m██[0;1;30;44m▄▄[0;34m██[0;1;30;44m▄[0;34m█[0;1;30;44m▐[0;34m█[0;1;30;44m▐▌▀▀[0;34m█[0;1;30;44m▀[0;1;30;40m█[0;1;30;44m▀[0;1;30;40m█[0;34m█[0;1;30;44m▀▀[0;1;30;40m▀█▀▀▀[0;31m■[0;1;30m▀▀▀  ▀ ▀  ▐ ▌▌ ▐    ▐[0m
         [1;30m▐[0;1;37m██[0;1;30;47m▌[0;1;37;40m████[0;1;37;47m▄[0;1;37;40m█[0;1;37;47m▀[0;1;37;40m█[0;1;37;47m▀▄[0;1;30;40m▌[0;34m▀▀▀█[0;1;30;44m▌▌[0;34m█████[0;1;30;44m▐[0;34m██[0;1;30;44m▌[0;34m█[0;1;30;44m▐[0;34m███[0m      [1;30m▐  ▌    ▌▐[0m        [1;30m▌    ▌[0m
 [1;30m ▀▀  ▀ ▀█▀▀▀▀▀▀▀▀▀ ▀ ▀   ▀  [0;34m▀▀▀[0;1;30;44m▌▌[0;34m█████████[0;1;30;44m▌[0m    [1;30;40m▌    ▌[0m        [1;30;40m▌▌[0m      [1;30;40m▐[0m
-        [1;30;40m▐  ▌[0;1;37;40m3[0;31m1[0;34m6-683-1899[0m     [1;30m▐   [0;34m▀▀████[0;1;30;44m▐[0;34m███ [0;1;30m▐[0m              [1;30m▐[0m
+        [1;30;40m▐  ▌[0;1;37;40m [0;31m [0;34m          [0m     [1;30m▐   [0;34m▀▀████[0;1;30;44m▐[0;34m███ [0;1;30m▐[0m              [1;30m▐[0m
         [1;30m▐   [0;1;37mO[0;31mb[0;34mv/2 Latest[0m             [34m▀████▌[0m
             [1;37m [0;31m [0;34m               [0;37m [0;1;37m         [0;1;37;44m [0;44m [0;34;40m█[0;1;37;40m  [0m [1m              [0m
            [1;30m▌[0;1;37m [0;31m [0;34m                [0m          [34m██[0m

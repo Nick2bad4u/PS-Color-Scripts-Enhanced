@@ -5,13 +5,12 @@
 # Source SHA-256: bcc7beff29c2bc9e51825c161ae730f81cc92f2af0dc15f8cb765710979cef70
 # Source License: FAL-1.3
 # Source Attribution: ROY-CSLG.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
 Write-Host '
-                 [1;33m                                              [0m
-
+[1;33m[0m
               [1;31m▄▀▀▀▀▀[0;33m▀[0;1;31m▀[0;33m█▀ [0;1;31m▄ ▀██▀▀▀▀[0;33m▀[0;1;31m▀[0;33m▀[0;1;31;41m▒░[0;31m▄ [0;1;31m▄█[0;1;31;41m▒[0;33m▀▀[0;31m▀[0;33m██▀ [0;1;31m█▀▀[0;33m▀██▀ [0;1;31m▀▀▀[0;33m▀██▄[0m
                 [1;31;41m▓▒░[0m  [33m▀ [0;1;31m▄[0;1;31;41m▒░[0m   [1;31m▀ [0;1;31;41m▓▒░[0m [1;30m░ [0;1;31;41m░[0;31m██ [0;1;31;41m▓▒░[0m [31m▄ [0;33m▀ [0;1;31m▄█[0;1;31;41m▓[0m [1;30m░ [0;33m▀ [0;1;31m▄[0;1;31;41m▓▒[0m [1;30m░ [0;33;41m▓▒░[0m
                 [1;31;41m▒░[0;31m█ [0;1;30m░  [0;33m█[0;1;31;41m░[0;31m█ [0;1;30m░░  [0;1;31;41m▒░[0;31m█ [0;1;30m░ [0;31m███  [0;33m▀▀▄ [0;31m█[0;33;41m▒[0;31m▄ [0;1;31;41m▓▒[0;33m▀▀ [0;1;30m░ [0;1;31;41m▓▒░[0m [1;30m░ [0;33;41m▒░[0;31m█[0m

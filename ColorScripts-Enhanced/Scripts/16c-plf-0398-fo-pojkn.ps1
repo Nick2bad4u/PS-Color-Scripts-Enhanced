@@ -5,7 +5,7 @@
 # Source SHA-256: 3898477fa3220af90f63d538513fe31d32f86f7dfa0aab2a220d7a361785e533
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FO-POJKN.ANS by flexor (p0ffelip0ff); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: thommy the ansee
 # SAUCE Author: flexor
 # SAUCE Group: p0ffelip0ff
@@ -20,8 +20,7 @@ Write-Host '
                            ▀█▀ █ ▀█▀  █ █  █ █▀█▀▄
                             █   ▀ ▀▄    ▀   ▀  ▀ █
                                 [1m   [0m
-         [1;30m [0m       [1;30m                       [0m [1;30m                [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m
 
 
 

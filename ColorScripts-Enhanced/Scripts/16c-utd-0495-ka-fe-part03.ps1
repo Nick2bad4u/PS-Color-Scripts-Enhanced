@@ -5,7 +5,7 @@
 # Source SHA-256: e4b4ca384f80334d8794bb51fcdf336cc2fd7f73ec0f81960867868d43152746
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KA-FE.ANS by Kamui (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fatal Error
 # SAUCE Author: Kamui
 # SAUCE Group: United
@@ -50,5 +50,4 @@ Write-Host '
                 [1;30;44m▓▒░[0;34m█▄▄▄[0;1;34m▄[0;1;34;44m▓[0m [1;30;44m▓▒░[0;34m█[0m      [1;30m▀[0;1;30;44m▓▒░[0m [34m███▀ [0;1;30;44m▓▒░[0;34m█[0m      [1;30;44m▓▒░[0;34m█[0m
                 [1;30;44m█▓▒░[0;34m█[0;1;34;44m░▒▓█[0m [1;30;44m█▓▒░[0m        [1;30;40m▀[0;1;30;44m▒[0;34m▄█▀   [0;1;30;44m█▓▒░[0m      [1;30;44m█▓▒░[0m
 
-                                 [1;36;40m [0;1;34;40m [0;34m [0;1;30m   [0;1;36m [0;1;34m [0;34m [0;1;30m   [0;1;36m [0;1;34m [0;34m [0m
-                             [1;36m9 [0;1;34m1 [0;34m4 [0;1;30m- [0;1;36m3 [0;1;34m4 [0;34m4 [0;1;30m- [0;1;36m3 [0;1;34m8 [0;34m3 [0;1;30m0[0m'
+                                 [1;36;40m [0;1;34;40m [0;34m [0;1;30m   [0;1;36m [0;1;34m [0;34m [0;1;30m   [0;1;36m [0;1;34m [0;34m [0m[1;36m[0;1;34m[0;34m[0;1;30m[0;1;36m[0;1;34m[0;34m[0;1;30m[0;1;36m[0;1;34m[0;34m[0;1;30m[0m'

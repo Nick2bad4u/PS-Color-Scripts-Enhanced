@@ -5,7 +5,7 @@
 # Source SHA-256: f69489dea9ef5cb75c4134d484d0c109e09b56dc9264fa04daf15c3c5f7eafc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-DIE#6.ANS by The Shamen (die-pk4); released in die-pk4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-93
 # Columns: 1-80
 
@@ -36,16 +36,14 @@ Write-Host '
                      [1;37;40m▀   ▄[0m       [1;37;40m▄   ▄[0m     [1;37;40m▄[0m         [1;37;40m▄[0m
 
 [1;30;40m*──────────────────────────────────────────────────────────────────────────────*[0m
-[1;30;40m  │█▓▒░ ──────────── ░▒▓█│  [0;1;34;40mC[0;34mall [0;1;34mt[0;34mhese [0;1;34mS[0;34miCK [0;1;34mB[0;34moards!  [0;1;30m│ ░▒▓█ ─────────── ░▒▓█ │[0m
+[1;30;40m  │█▓▒░ ──────────── ░▒▓█│  [0;1;34;40m [0;34m    [0;1;34m [0;34m     [0;1;34m [0;34m    [0;1;34m [0;34m        [0;1;30m│ ░▒▓█ ─────────── ░▒▓█ │[0m
 [1;30m  │──────────────────────────────────────────────────────────────────────────│[0m
-[1;30m  │[0m             [1;30m│ [0;1;37mV [0mi o l e n t  [1mC [0mr i m e s  [1;30m-  [0;1;37m+[0m613-[1m5[0m62-[1m1[0m008 [1;30m│[0m             [1;30m│[0m
-[1;30m  │[0m             [1;30m│ [0;1;37mO [0ml y m p u s               [1;30m-  [0;1;37m+[0m613-[1m7[0m43-[1m3[0m698 [1;30m│[0m             [1;30m│[0m
-[1;30m  :[0m             [1;30m│ [0;1;37mT [0me r m i n a l l y  [1mS [0ma n e[1;30m-  [0;1;37m+[0m613-[1m5[0m23-[1m7[0m337 [1;30m│[0m             [1;30m:[0m
-[1;30m  .[0m             [1;30m│ [0;1;37mT [0mh e   [1mR [0me b e l l i o n   [1;30m-  [0;1;37m+[0m617-[1m5[0m32-[1m6[0m461 [1;30m│[0m             [1;30m.[0m
+[1;30m  │[0m             [1;30m│ [0;1;37m  [0m             [1m  [0m           [1;30m   [0;1;37m [0m    [1m [0m   [1m [0m    [1;30m│[0m             [1;30m│[0m
+[1;30m  │[0m             [1;30m│ [0;1;37m  [0m                          [1;30m   [0;1;37m [0m    [1m [0m   [1m [0m    [1;30m│[0m             [1;30m│[0m
+[1;30m   [0m             [1;30m│ [0;1;37m  [0m                   [1m  [0m     [1;30m   [0;1;37m [0m    [1m [0m   [1m [0m    [1;30m│[0m             [1;30m [0m
+[1;30m   [0m             [1;30m│ [0;1;37m  [0m      [1m  [0m                  [1;30m   [0;1;37m [0m    [1m [0m   [1m [0m    [1;30m│[0m             [1;30m [0m
 [1;30m  .[0m             [1;30m:[0m                                              [1;30m:[0m             [1;30m.[0m
-                [1;30m  [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;34m  [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;34m [0;1;30m       [0;1;34m [0;34m [0;1;30m     [0;1;34m [0;34m  [0;1;34m [0;34m [0;1;30m       [0m
-[1;30m   [0m                                [1;34m [0;34m [0;1;30m   [0;1;34m [0;34m [0;1;30m   [0m                                [1;30m [0m
-                [1;30m.[0m                                              [1;30m.[0m
+[1;30m[0;1;34m[0;34m[0;1;30m[0;1;34m[0;34m[0;1;30m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;30m[0;1;34m[0;34m[0;1;30m[0;1;34m[0;34m[0;1;30m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;30m[0m[1;30m[0m[1;34m[0;34m[0;1;30m[0;1;34m[0;34m[0;1;30m[0m[1;30m[0m                [1;30m.[0m                                              [1;30m.[0m
 
 [1;37m┌────[0m───────[1;30m───────────  ─    ─[0m
 [1;37m│[0;1;30m ┤                    [0m

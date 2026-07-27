@@ -5,7 +5,7 @@
 # Source SHA-256: e8e0fecbfd8b43fb7a0cf456c7abb9e71adbdbda3cc4c992de03f9fbe5a6142f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HM-HUM.ANS by head mOnk! (Bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: humble hOme!
 # SAUCE Author: head mOnk!
 # SAUCE Group: Bamboosh
@@ -32,5 +32,4 @@ Write-Host '
                  [1;30;42m▓[0;1;30;40m██[0;1;30;43m▓[0m [1;30;43m▓[0;1;30;40m███ [0;32m ⁿ$,[0m     [32m,$ⁿ [0;1;30m ██[0;1;30;43m▓▒[0m   [1;30;43m▓[0;1;30;40m██[0;1;30;42m▓[0m [1;30;42m▒[0;1;30;40m██[0;1;30;43m▓[0;1;30;40m ▄▄▄▄[0m
                  [1;30m██[0;1;30;43m▓▒[0m [1;30m▀▀▀▀ [0m   [32mⁿ$s,s$ⁿ[0m   [1;30m [0m       [1;30m▀▀▀▀[0m [1;30m██[0;1;30;43m▓▒[0;1;30;40m▄██[0;1;30;43m▓▒[0m
 
-[33m    [0m                                                                [33m [0;1;30m      [0;33m [0;1;30m  [0;33m [0m
-[1;30m--[0m'
+[33m[0m[33m[0;1;30m[0;33m[0;1;30m[0;33m[0m[1;30m--[0m'

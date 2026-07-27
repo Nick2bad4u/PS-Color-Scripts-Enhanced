@@ -5,7 +5,7 @@
 # Source SHA-256: 26a4536bf79e86d357b8eb05e47b64b33e226e79f33935cc28dad73d4a7f4311
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D5-HEYMN.ANS by dee five (gel); released in gel-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hey man
 # SAUCE Author: dee five
 # SAUCE Group: gel
@@ -43,12 +43,5 @@ Write-Host '
 [1;40m        [0;1;47m█                                                                       [0m
 [1;30;40m-[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-[0;1;36m   Shhnip!   [0;1;30m·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+
 
-[1m [0m                                                                           
-                                                                           
-                                                                              
-                                                                             
-                                                                             
-            
-
-                                                    [1;30m [0m [1m   [0m [1;30m [0m
-                                                     [1;37m-[0md[1m+[0m5[1m-[0m'
+[1m[0m
+[1;30m[0m[1m[0m[1;30m[0m                                                     [1;37m-[0md[1m+[0m5[1m-[0m'

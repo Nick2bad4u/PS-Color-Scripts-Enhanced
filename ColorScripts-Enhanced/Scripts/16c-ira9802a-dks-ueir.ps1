@@ -5,7 +5,7 @@
 # Source SHA-256: 408efd285549624f61f1979355c58c9ee74618c092ebdeaaea3287ab66d4dbda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DKS-UEIR.ANS by derksar (irat0); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: irato random screen
 # SAUCE Author: derksar
 # SAUCE Group: irat0
@@ -30,7 +30,4 @@ Write-Host '
 
 
 [1;30m-------------------------------------------------------------------------------[0m
-[1;30m                                                                      [0m
-[1;30m                                                                            [0m
-[1;30m                                         [0m
-[1;30m-------------------------------------------------------------------------------[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m-------------------------------------------------------------------------------[0m'

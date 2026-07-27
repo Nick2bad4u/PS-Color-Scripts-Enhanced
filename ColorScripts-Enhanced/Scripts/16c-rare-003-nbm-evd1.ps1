@@ -5,7 +5,7 @@
 # Source SHA-256: f6000b766d4637b31cd2ef91cfe38b632aed7def99f02b216e9f9410c7c54dd4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NBM-EVD1.ANS by Niobium (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -21,12 +21,9 @@ Write-Host '
                   [1;35m$$[0;35m$$x,,_[0;1;35m _,,[0;35m+[0;1;35m  ;$$[0;35m$;[0;1;35m_,,+$$$[0;35m$[0;1;35m _;$$$[0;35m$x_[0;1;35m _d$$[0;35m;[0;1;35m [0;35m [0;1;30mnbm[0m([1mrare[0m)
              [35m .[0;1;35m-[0;1;37m*[0;1;35m²`[0;35m""[0m              [1;35m`[0;35m''"[0;1;35m¼¼²''`[0m
             [35m,∙''[0m
-            [35m   [0;37m [0;32m [0;1;32m   [0;32m [0;1;32m   [0;32m [0;1;32m   [0;32m  [0;1;32m   [0;32m [0;1;32m [0;32m [0;1;32m  [0;32m [0m                 [1;35m  [0;35m  [0;1;35m [0;1;37m [0;1;35m [0;35m  [0m   [35m [0m
-            [35mi[0m                               [32m   [0;35m        [0;1;35m;$$[0;35m$[0m
-            [35m [0m   [35m [0;1;30m                           [0;35m [0;37m  [0;35m        [0;1;35m  [0;35m  [0m
-            [35m∙[0m                                   [35mI[0m    [35m [0m
-                                               [35m   [0;1;32m [0m           [1;32m      [0m
-                                                [35m;[0m
+[35m[0;37m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0m[1;35m[0;35m[0;1;35m[0;1;37m[0;1;35m[0;35m[0m[35m[0m            [35mi[0m                               [32m   [0;35m        [0;1;35m;$$[0;35m$[0m
+[35m[0m[35m[0;1;30m[0;35m[0;37m[0;35m[0;1;35m[0;35m[0m            [35m∙[0m                                   [35mI[0m    [35m [0m
+[35m[0;1;32m[0m[1;32m[0m                                                [35m;[0m
 
 
 [37m─-───--- ──---─ ───-─-─ [0m'

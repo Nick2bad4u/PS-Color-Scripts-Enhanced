@@ -5,7 +5,7 @@
 # Source SHA-256: 960eac97a8b33fd6c62c35a1676afb42cf666422e57624b3332baa52eb7fc11d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BCP.ANS by Kp (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [1;30m▄▀▀▀▀ ▄▄▄▄ ▀[0m▀▀▀▄[1;30m▄▄ ▀▀▀[0m▄▄[1;30m▄[0m▄[1;30m▄[0m▄[1;30m▀[0m      [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ █[0m
 [1;30m▄▀▀▀▀▄▄▄▄▄▄▀▀▀▀▄ ▄▀▀▀▀ ▄▄▄▄ ▀[0m▀▀▀▄  [1;30m█ [0;30m█████████████████████████████████████[0m  [1;30m█ █[0m
 [1;30m█░▒▓▄▄▄▄▄▄▄▄███[0m█ [1;30m▄▀▀▀▀▄▄▄▄▄▄▀▀▀▀▄  █[0;30m███████[0;1;33mBaNIShED[0;30m█[0;1;33mCoRoSSIVE[0;30m█[0;1;33mPoISoN[0;30m████[0;1;33m    [0;1;30m█ █[0m
-[1;30m█░▒▓▓██████████[0m█ [1;30m█░▒▓▄▄▄▄▄▄▄▄███[0m█  [1;30m█ [0;30m████████████[0;1;33m(514)/523-3399[0;30m██████[0m       [1;30m█ █[0m
+[1;30m█░▒▓▓██████████[0m█ [1;30m█░▒▓▄▄▄▄▄▄▄▄███[0m█  [1;30m█ [0;30m████████████[0;1;33m              [0;30m██████[0m       [1;30m█ █[0m
 [1;30m▀████▓▓▓▓▓█████▀ █░▒▓▓██████████[0m█  [1;30m█ [0;30m████████[0;1;33mINC[0;30m█[0;1;33mDistribution[0m [1;33mSite[0m [30m█[0m        [1;30m█ █[0m
 [1;30m█▄▄▄▄▀▀▀▀▀▀▄▄▄▄[0m█ [1;30m▀████▓▓▓▓▓█████▀  █ [0;30m█████████[0;1;33mACiD[0;30m██[0;1;33mCanadian[0;30m█[0;1;33mHome[0;30m█████████[0;1;33m  [0;1;30m█ █[0m
 [1;30m█░▒▓▓██████████[0m█ [1;30m█▄▄▄▄▀▀▀▀▀▀▄▄▄▄[0m█  [1;30m█ [0;30m██████████[0;1;33miCE[0;30m██[0;1;33mHeadquarters[0;30m██████[0m      [1;30m█ █[0m

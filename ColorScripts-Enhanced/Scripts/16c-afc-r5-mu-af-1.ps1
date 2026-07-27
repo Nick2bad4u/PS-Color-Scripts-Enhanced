@@ -5,7 +5,7 @@
 # Source SHA-256: 84291d95d6160140de7ab00fac5b86ed9381273608ca54b1ac2361a1d741b8a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MU-AF#1.ANS by Mule (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -49,9 +49,7 @@ Write-Host '
 
                             [1;36;40m [0;36m [0;1;36m [0;36m [0;1;36m  [0;1;34m [0;36m [0;1;36m [0;1;37m  [0;1;34m [0;36m [0;1;36m [0;1;37m    [0;36m [0;1;36m [0;36m [0;1;36m [0;36m [0m
 
-                            [1;36m [0;36m [0;1;36m [0;36m [0;1;36m  [0;1;34m [0;36m [0;1;36m [0;1;37m    [0;1;34m [0;36m [0;1;36m [0;1;37m   [0;36m [0;1;36m [0;36m [0;1;36m [0;36m [0m
-                          [1;36m/[0;36m\[0;1;36m/[0;36m\[0;1;36m/ [0;1;34mO[0;36mp[0;1;36me[0;1;37mn [0;1;34m2[0;36m2[0;1;36m0[0;1;37m0 - [0;1;34m0[0;36m7[0;1;36m0[0;1;37m0 [0;36m\[0;1;36m/[0;36m\[0;1;36m/[0;36m\[0m
+[1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;1;34m[0;36m[0;1;36m[0;1;37m[0;1;34m[0;36m[0;1;36m[0;1;37m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0m                          [1;36m/[0;36m\[0;1;36m/[0;36m\[0;1;36m/ [0;1;34mO[0;36mp[0;1;36me[0;1;37mn [0;1;34m2[0;36m2[0;1;36m0[0;1;37m0 - [0;1;34m0[0;36m7[0;1;36m0[0;1;37m0 [0;36m\[0;1;36m/[0;36m\[0;1;36m/[0;36m\[0m
                              [1;36m/[0;36m\[0;1;36m/[0;36m\[0;1;36m/ [0;1;34m9[0;36m0[0;1;36m-[0;1;34m2[0;36m2[0;1;36m5[0;1;37m8936 [0;36m\[0;1;36m/[0;36m\[0;1;36m/[0;36m\[0m
-                          [1;36m [0;36m [0;1;36m [0;36m [0;1;36m  [0;1;34m [0;36m [0;1;36m [0;1;37m     [0;1;34m [0;36m [0;1;36m [0;1;37m  [0;1;34m [0;36m [0;1;36m  [0;36m [0;1;36m [0;36m [0;1;36m [0;36m [0m
-                               [1;36m/[0;36m\[0;1;36m/[0;36m\[0;1;36m/ [0;1;34m2[0;36m4[0;1;36m0[0;1;37m0[0;1;34mB[0;36mp[0;1;36ms [0;36m\[0;1;36m/[0;36m\[0;1;36m/[0;36m\[0m
+[1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;1;34m[0;36m[0;1;36m[0;1;37m[0;1;34m[0;36m[0;1;36m[0;1;37m[0;1;34m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0m                               [1;36m/[0;36m\[0;1;36m/[0;36m\[0;1;36m/ [0;1;34m2[0;36m4[0;1;36m0[0;1;37m0[0;1;34mB[0;36mp[0;1;36ms [0;36m\[0;1;36m/[0;36m\[0;1;36m/[0;36m\[0m
                                [1;36m/[0;36m\[0;1;36m/[0;36m\[0;1;36m/ [0;1;34mI[0;36mn[0;1;36mv[0;1;37ma[0;1;34mN[0;36me[0;1;36mt [0;36m\[0;1;36m/[0;36m\[0;1;36m/[0;36m\[0m'

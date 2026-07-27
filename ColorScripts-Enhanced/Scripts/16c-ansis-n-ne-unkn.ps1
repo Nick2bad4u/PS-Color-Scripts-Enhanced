@@ -5,7 +5,7 @@
 # Source SHA-256: b31bdb39701b6ef70b65ee788c292c2f6dc806ae4371ec9297599c8f3e40cffd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NE-UNKN.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -54,7 +54,5 @@ Write-Host '
              [1;37m [0m      [34m [0;1;34m     [0;34m [0;1;34m   [0;34m [0;1;34m  [0;1;30m╪ [0;34m [0;1;34m     [0;34m [0;1;34m     [0;1;30m╪ [0;34m [0;1;34m      [0m      [1;37m [0m
              [1;37m   [0;34m [0;1;34m      [0;34m [0;1;34m   [0;1;30m╪ [0;34m [0;1;34m      [0;34m [0;1;34m  [0;34m [0;1;34m   [0;34m [0;1;34m         [0;34m [0;1;34m        [0;1;37m [0m
                  [34m [0;1;34m    [0;34m [0;1;34m    [0;34m [0;1;34m      [0;1;30m╪ [0;34m [0;1;34m  [0;34m [0;1;34m     [0;34m [0;1;34m   [0;34m [0;1;34m  [0;34m [0;1;34m      [0m
-              [1;34m [0;34m [0;1;34m   [0;34m [0;1;34m    [0;34m [0;1;34m     [0;34m [0;1;34m   [0;34m [0;1;34m    [0;34m [0;1;34m  [0;34m [0;1;34m    [0;34m [0;1;34m  [0;34m [0;1;34m    [0;34m [0;1;34m      [0m
-             [1;37m [0m       [34m [0;1;34m      [0;34m [0;1;34m      [0;1;30m╪  [0;34m [0;1;34m         [0;34m [0;1;34m      [0m       [1;37m [0m
-             [1;37m [0m              [34m [0;1;34m    [0;34m [0;1;34m        [0;34m [0;1;36m [0;36m [0;1;34m [0;34m [0m               [1;37m [0m
-             [1;37m└──────[0m     [1;31m[ [0;31m4 [0;1;31m1 5 ] [0;31mU [0;1;31mN - [0;31mK [0;1;31mN O W N[0m      [1;37m──────┘[0m'
+[1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0m             [1;37m [0m       [34m [0;1;34m      [0;34m [0;1;34m      [0;1;30m╪  [0;34m [0;1;34m         [0;34m [0;1;34m      [0m       [1;37m [0m
+[1;37m[0m[34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;36m[0;36m[0;1;34m[0;34m[0m[1;37m[0m             [1;37m└──────[0m     [1;31m[ [0;31m4 [0;1;31m1 5 ] [0;31mU [0;1;31mN - [0;31mK [0;1;31mN O W N[0m      [1;37m──────┘[0m'

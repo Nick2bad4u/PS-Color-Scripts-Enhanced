@@ -5,7 +5,7 @@
 # Source SHA-256: 70352c3d47a52beb1ce005dff9993ac1cbbc6855d2814a3aca64f5434a2ad05e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FF-SLDER.ANS by Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: some.cheap.soldier
 # SAUCE Author: Free Fall
 # SAUCE Group: Hype.produktions
@@ -39,9 +39,4 @@ Write-Host '
 [1;31;41m▒▓▒▓▒▓▒▓▒▒[0;31m█[0;1;31;41m▒▒░░░[0;31m███▄[0;1;37m  [0;31m▀▀▀▀ ▄▄▄ ▀▀[0;1;37m  [0;31m▀█▓▓█████[0;1;31;41m░[0;31m█[0;1;31;41m░▒░[0;31m█[0;1;31;41m░▒░▒░[0;31m████████████▄[0m
 [1;31;41m▓[0;31m█[0;1;31;41m▓[0;31m█[0;1;31;41m░[0;31m█[0;1;31;41m▓[0;31m█▓▓█████[0;1;31;41m░░░[0;31m▓▓▓██▓▓▓▓███▓▓▓▓████[0;1;31;41m░[0;31m▓▓[0;1;31;41m▒▒[0;31m▓▓▓█[0;1;31;41m░[0;31m███[0;1;31;41m░[0;31m█[0;1;31;41m░[0;31m▓▓[0;1;31;41m░░[0;31m███[0;1;31;41m░░░[0;31m▓▓██▌░[0m       [34m░[0m
 [37m8<_____________________________________________________________________________ [0m
-[37m                                                                            [0m
-[37m                                                                             [0m
-[37m                                                    [0m
-[37m                                                                         [0m
-[37m                                                               [0m
-[37m8<_____________________________________________________________________________ [0m'
+[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m8<_____________________________________________________________________________ [0m'

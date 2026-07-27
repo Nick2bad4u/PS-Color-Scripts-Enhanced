@@ -5,7 +5,7 @@
 # Source SHA-256: a1cce8a8f8a5c03945adcf7be549f95c52596891478e1e3510f36a35aecd97ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-TB.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: terebinth
 # SAUCE Author: riddler
 # SAUCE Group: blend productions
@@ -36,5 +36,5 @@ Write-Host '
 [34m [0;1;31m [0m█[1m█████[0;1;47m▓[0m▌▀[31m [0;37m▄■[0;31m        [0;37m▀[0;1;37m▀[0;1;31m [0m▀[1m [0;31m         [0;37m▄[0;31m [0;1;37m [0m▀[1;47m▀[0;1;40m████[0;1;47m▄[0m▄ [34m▀███[0m
 [37m █[0;1;37m█████[0;1;37;47m▀[0m▀[1;31m [0;31m              [0;37m▀[0;30;47m░[0;37;40m▌ [0;31;40m        [0;37;40m▐▀[0;31;40m  [0;34;40m▄[0;37;40m▀[0;1;37;47m▀▐[0;1;37;40m███[0m█ [34m███[0m
 [37m▐[0;1;37;47m▐[0;1;37;40m██[0;1;37;47m▌▀[0m▀[34m▄█▌[0;37m░[0;30;47m░[0;37;40m [0;31;40m                          [0;34;40m▐█▌[0;37;40m▐[0;1;37;47m▐[0;1;37;40m███[0;1;37;47m▌[0m▌[34m▐[0;31;44m░[0;34;40m█[0m
-[1;37;47m▐[0;1;37;40m███[0;1;37;47m▌[0m▌[34m▐███▄[0;31m [0;37m▀  [0;31m       [0;37m▄[0;31m [0;37m [0;31m [0;37m   [0;30;47m▓[0;37;40m▄[0;31;40m       [0;34;40m▄[0;35;44m░[0;34;41m▓[0;34;40m█[0;1;37;40m [0m█[1m████[0;1;47m░[0m [34m██[0;37m  riddler@venture.fipnet.fi[0m
+[1;37;47m▐[0;1;37;40m███[0;1;37;47m▌[0m▌[34m▐███▄[0;31m [0;37m▀  [0;31m       [0;37m▄[0;31m [0;37m [0;31m [0;37m   [0;30;47m▓[0;37;40m▄[0;31;40m       [0;34;40m▄[0;35;44m░[0;34;41m▓[0;34;40m█[0;1;37;40m [0m█[1m████[0;1;47m░[0m [34m██[0;37m                           [0m
 [1;37m████[0m█ [34m█[0;31;44m░[0;34;41m▓▓[0;34;40m█▌[0;31;40m [0;37;40m [0;31;40m       [0;37;40m▀[0;31;40m  [0;37;40m [0;34;40m▓▄[0;31;40m   [0;37;40m [0;31;40m   [0;37;40m [0;31;40m  [0;34;40m█████▌[0;37;40m▐[0;1;37;47m▐█[0;1;37;40m██[0;1;37;47m▒[0;1;37;40m [0;34m██[0m'

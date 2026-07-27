@@ -5,7 +5,7 @@
 # Source SHA-256: 0c1af3b5800fe056130f661726483757bf0ca3618fad79b35e74cae1b15d3b21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-OA.ANS by Ts (tl199411); released in tl199411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 44-81
 # Columns: 1-80
 
@@ -40,11 +40,8 @@ Write-Host '
       [34m░   [0;1;37m [0;1;32m [0;32m     [0;37m  [0;1;30m  [0m                 [1;30m  [0m        [1;30m  [0m          [32m     [0;1;32m [0;1;37m [0m
       [34m░[0m                [1;37m [0;1;32m [0;32m   [0;37m    [0;1;30m  [0m         [1;30m  [0m   [32m   [0;1;32m [0;1;37m [0m
       [34m░[0m
-[34m    [0;1;37m [0;1;32m [0;32m     [0;37m    [0;1;30m  [0m             [1;30m  [0m                      [1;30m  [0m          [32m     [0;1;32m [0;1;37m [0m
-      [34m▒[0m
-[34m  ▀   ▓  ▄  ▀[0m             [1;37m2 [0;1;31mo [0;31m6 . 6 8 7 . o 5 [0;1;31m2 [0;1;37m7[0m
+[34m[0;1;37m[0;1;32m[0;32m[0;37m[0;1;30m[0m[1;30m[0m[1;30m[0m[32m[0;1;32m[0;1;37m[0m      [34m▒[0m
+[34m  ▀   ▓  ▄  ▀[0m             [1;37m  [0;1;31m  [0;31m                [0;1;31m  [0;1;37m [0m
 [1;37m    [0;34m▀ █▄▀[0m      [34m▄[0m
 [1;34m▄▄▄▄▄[0;34m▄▄[0;1;34m▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▄[0;1;34m▄▄▄▄▄▄▄[0;34m▄▄[0;1;34m▄▄▄▄[0;34m▄[0;1;34m▄▄▄▄[0;34m▄▄▄▄▄▄▄[0;1;34m▄▄▄▄▄▄▄▄[0;34m▄▄[0;1;34m▄[0;34m▄▄▄[0;1;34m▄▄▄▄▄[0;34m▄▄[0;1;34m▄[0;34m▄▄▄▄[0;1;34m▄▄▄▄▄▄▄▄▄[0;34m▄▄[0;1;34m▄[0;34m▄[0;1;34m▄▄[0m
-                                                                                
-                                                                            
 [34m▀▀[0;1;34m▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀[0;1;34m▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀▀▀[0;1;34m▀▀▀▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀[0;1;34m▀▀▀▀[0;34m▀▀▀[0;1;34m▀[0;34m▀▀▀▀▀▀▀[0;1;34m▀▀▀▀▀▀[0;34m▀▀[0;1;34m▀▀▀▀[0;34m▀[0;1;34m▀▀▀▀▀▀▀▀[0;34m▀▀[0;1;34m▀[0;34m▀▀▀[0;1;34m▀▀[0m'

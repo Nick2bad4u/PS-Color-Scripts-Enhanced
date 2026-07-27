@@ -5,7 +5,7 @@
 # Source SHA-256: f87fed8895be190b86a8fb3aff33b47620f4f65a49f1064c6e579f232072e135
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WZ-BR2.ANS by Weazel (VOiD); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Failure
 # SAUCE Author: Weazel
 # SAUCE Group: VOiD
@@ -24,8 +24,7 @@ Write-Host '
 [1m █████████████████████████ ▌  ■██████████▓▒░▒▒▓█████████████████▄ [0;1;30m▒[0;1m■[0m
 [1m █████████████████████████▀■  ▐███████████▓▒▓▓████████████████▀■ ■ [0;1;30m░[0m
 [1;30m [0;1;31m─────────────────[0;31m─[0;1;31m─[0;31m──[0;1;31m─[0;31m───[0;1;31m─[0;31m──────────────[0;1;30m─[0;31m─[0;1;30m──[0;31m─[0;1;30m───[0;31m─[0;1;30m─────────────── ─  ─   ─[0m
-             [1;30m                                                      [0m
-     [1;30m─   ─  ─ ──────────────[0;31m─[0;1;30m───[0;31m─[0;1;30m──[0;31m─[0;1;30m─[0;31m───────────────[0;1;31m─[0;31m───[0;1;31m─[0;31m──[0;1;31m─[0;31m─[0;1;31m──────────────────[0m
+[1;30m[0m     [1;30m─   ─  ─ ──────────────[0;31m─[0;1;30m───[0;31m─[0;1;30m──[0;31m─[0;1;30m─[0;31m───────────────[0;1;31m─[0;31m───[0;1;31m─[0;31m──[0;1;31m─[0;31m─[0;1;31m──────────────────[0m
 
 
 

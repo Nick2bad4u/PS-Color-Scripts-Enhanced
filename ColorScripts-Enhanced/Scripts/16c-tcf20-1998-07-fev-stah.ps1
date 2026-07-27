@@ -5,7 +5,7 @@
 # Source SHA-256: 814b3d77ccf36f1915cf30388412a4a975cd23a353129717de788f43d4e6b9f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 1998 - 07 - FEV-STAH.ANS by fever (the Legion); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: i'm already dead
 # SAUCE Author: fever
 # SAUCE Group: the Legion
@@ -40,13 +40,7 @@ Write-Host '
 [1;33;40m▓[0m  [1;33m▀▓▓▓▓▓▓▓▓▓▓▄███▀[0m [31m▄░░[0;37m [0;31m▓▓[0;37m [0;31m▐▓░▒[0;37m [0;31m▌ ▌[0;37m  [0;31m  [0;37m▀ [0;31;47m░[0;30;47m [0;37;40m▄[0;1;30;47m▀[0;30;47m [0;37;40m   ▄ ▄[0;1;30;40m▄[0m  ▓▓▐▓ [31;47m░[0;37;40m [0;31;40m▄■[0;37;40m    [0;31;40m▐▓[0;37;40m [0;31;40m▓▐▌[0;37;40m [0;31;40m▓[0;37;40m  [0;1;33;40m▀█[0m
 [1;33;40m▀▓▄▄▄▄▄█▄▄█▄███▀▀[0;31m [0;1;31m ░[0;31m▓[0;37m [0;31m░▐ ▓[0;37m [0;1;37;41m [0;1;31;40m░[0;31m░░[0;37m   [0;31m░[0;37m  [0;31m  [0;35m [0;31m [0;37m▀▓ [0;1;37;47m░░[0m▄▓▓[1;47m▄░░[0m▓▀[31;47m░░[0;37;40m▌ ░ ▀[0;31;40m [0;31;45m▓[0;31;40m░ [0;37;40m    [0;31;40m░[0;37;40m [0;31;40m▐[0;1;37;41m░[0;31m▌[0;37m [0;31m▐[0;1;31m░[0m [1;33m▓▄[0m
 
-      [30m    [0;37m [0;30m      [0;37m [0m
-
-            [30m         [0;37m [0;30m   [0;37m [0;30m    [0;37m [0;30m       [0;37m [0;30m    [0;37m [0;30m             [0;37m [0;30m    [0;37m [0;30m   [0;37m [0;30m         [0;37m [0m
-            [30m  [0;37m [0;30m         [0m
-
-            [30m     [0;37m    [0m
-                   [30m     [0;37m [0;30m [0;37m [0;30m     [0m
-
-            [37m                                                           [0m
-            [30m░░[0m'
+[30m[0;37m[0;30m[0;37m[0m
+[30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0m[30m[0;37m[0;30m[0m
+[30m[0;37m[0m[30m[0;37m[0;30m[0;37m[0;30m[0m
+[37m[0m            [30m░░[0m'

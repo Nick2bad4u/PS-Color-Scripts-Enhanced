@@ -5,7 +5,7 @@
 # Source SHA-256: 9c2e21eb759193d6de58e8f04c5d6f6e6777ddee96fb3792970e0cf101d1a5a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-BT1.ANS by lordjazz (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Black Thursday
 # SAUCE Author: lordjazz
 # SAUCE Group: Revival 2002
@@ -31,7 +31,7 @@ Write-Host '
 [1;30m [0;1;30;46m██[0;1;30;47m░[0m█▀█[1;47m░░░[0m█████████████▀▀█[1;47m ░░░[0m██[1;32;47m░[0m [1;30m▀[0m█████[1;32;47m░░▓[0m
   [1;30m█[0;1;30;47m░[0m▌█▀▀██[1;47m░░[0m█████████[1;30;47m░[0;1;30;40m▌[0m█[1;47m [0m▄███▀▄▄[1;32m▄[0m [1;32;47m▐[0m▐[1;30;47m [0m██[1;32;47m░░▒[0m
 [1;30;47m▀[0;1;30;40m▄▐[0;1;30;47m▓░[0m█ [1;30m▀▄[0m▄█████[1;30;47m░[0m████[1;30;47m░▓[0;1;30;40m▌[0m [1;30m [0m▀▀▀███[1;32;47m░░[0;1;32;40m▌[0m [1;30;47m▓░[0;1;32;47m░░░[0m▀
-██[1;30m▌[0;1;30;47m▓▓░[0m▌[1;30m█▄▀[0m▀███[1;30;47m░▓[0m▀██[1;30;47m░▓[0;1;30;40m▀[0;1;30;47m▓▓[0;1;30;40m▄[0m    ▀▀▀[1;32m▀[0;1;30m▄▐[0;1;30;47m▓▓░[0m▀[32m [0m       [1;32mtelnet://blackthursday.net[0m
+██[1;30m▌[0;1;30;47m▓▓░[0m▌[1;30m█▄▀[0m▀███[1;30;47m░▓[0m▀██[1;30;47m░▓[0;1;30;40m▀[0;1;30;47m▓▓[0;1;30;40m▄[0m    ▀▀▀[1;32m▀[0;1;30m▄▐[0;1;30;47m▓▓░[0m▀[32m [0m       [1;32m                          [0m
  ▀█[1;30;47m░░▓░[0;1;30;40m▌██▄[0m  ▀▀[1;30m▀[0m▐█[1;30;47m░▓[0;1;30;40m▌[0m█[1;30;47m░▓▓[0;1;30;40m▌[0m  [1;30m  ▄[0;1;30;42m▓[0;1;30;47m▓▓[0;1;30;40m▌[0;1;30;47m▓░[0;1;30;40m░[0m [32m  [0m
 [1;30m▄[0m  ██[1;30;47m ▓░[0m▓[1;30;47m▓[0;1;30;40m██[0m [1;30m▐▀[0m [32m▄[0;37m [0;32m▄▄[0;37m  ▀▀[0;1;30m▀▀[0m    [1;30m▀▀▀[0m [1;30m▄[0;1;30;47m░[0;1;30;40m   [0m
 [1;30m███[0m ▀[1;47m░[0m█[1;30;47m░░░▓[0;1;30;40m██[0m  [1;33;42m░[0;32m▀[0;37m [0;32m▐▌[0;36m░[0;32m█▀[0;37m [0;1;32;42m░[0;32m▌[0;36m░[0;32m█▌[0;37m [0;1;32;42m░[0;32m▀[0;1;30m▄[0;1;30;47m▓░[0;1;30;40mld!▄[0m

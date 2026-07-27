@@ -5,7 +5,7 @@
 # Source SHA-256: 96dad6b1f00740b69ffb43659923cc900d67a7ae3752e01ecff9e04d1365ad9a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zv-lud500.ans by Zerovision (sense22); released in sense22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 490-537
 # Columns: 1-80
 
@@ -33,8 +33,7 @@ Write-Host '
   [32m▀[0m         [32m██[0;1;32;42m░░[0;32m▀[0m              [37mSysGOD[0;1;30m·[0;1;37mzeroVision[0m
   [32m    [0;37m    [0;32m  █▀[0m                 [37m        [0;1;30m [0;1;37m         [0m
 
-  [1m       [0;1;30m [0;1;37m         [0;1;30m [0;1;37m                      [0;1;30m [0;1;37m        [0;1;30m [0;1;37m [0m [1m [0m [1m [0m [1;30m [0;1;37m [0;1;30m [0;1;37m                 [0m
-
+[1m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0m[1m[0m[1m[0m[1;30m[0;1;37m[0;1;30m[0;1;37m[0m
 [33m░[0m                        [37m         [0;1;37m             [0m     [1m   [0m
 [33m▓[0m                                                                             [33m▄[0m
 [33m█[0m                      [37m                                 [0m                     [33m▐█[0m

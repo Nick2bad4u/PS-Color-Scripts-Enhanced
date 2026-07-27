@@ -5,22 +5,19 @@
 # Source SHA-256: be5914dacc807219b02a121d0acb97799b58738a99c768cffb1aac51ce8ce9ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS!-TDD1.ANS by Luke Skywalker (tdd-0496); released in tdd-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
                                        [1;33m,[0;32m++[0;1;32mⁿ[0;33m²[0;1;33m+[0;1;32m+[0;32m.[0m
-[37m                                    [0;1;32m [0;32m [0m         [32m [0;33m [0;32m [0m
-[37m                  [0m               [1;32m  [0m               [1;32m    [0;32m    [0m
-                                [1;33m"[0m                 [32m.,s▒$$$#[0m
+[37m[0;1;32m[0;32m[0m[32m[0;33m[0;32m[0m[37m[0m[1;32m[0m[1;32m[0;32m[0m                                [1;33m"[0m                 [32m.,s▒$$$#[0m
                                [1;32m°[0m          [32m.,s.[0m      [32m`S$$$$[0m
                               [32m"[0m       [32m.,s$$$$@[0m        [32m`$$$[0m
        [36m-------------------- [0;32m,[0;1;32m$ [0;32m.,gg#Q[0;33;42m▓[0m [36;40m-[0;32;40m`S$$$$ [0;36;40m------- [0;32;40m$$[0;1;32;40m$ [0;36m--- (ls) -----[0m
                        [32m.,,,g$[0;33mg[0;32mS$^ⁿ$$$$    `$░$[0m         [32m$[0;1;32m$$[0m
                      [32m$$$$ⁿ^$$$$$  QⁿⁿS[0m     [32m$$[0;1;32m$,a@![0;1;32;42m▒[0;1;32;40m²""&$$$[0m
-                     [32m           [0m           [32m [0;1;32m  [0;1;33m [0;1;32m          [0;1;33m   [0m              
-                           [32m$[0;1;32m░$$[0;32m$  [0;1;32m,a@!$²""&$$$[0;1;33m$[0;1;32m$$;    o$▓[0;1;33m$[0m
+[32m[0m[32m[0;1;32m[0;1;33m[0;1;32m[0;1;33m[0m                           [32m$[0;1;32m░$$[0;32m$  [0;1;32m,a@!$²""&$$$[0;1;33m$[0;1;32m$$;    o$▓[0;1;33m$[0m
          the dirty dozen!  [1;32m$$$$$  [0;1;33m$[0;1;32m$$$''    $$[0;1;33m$`@$$$gg$$@$''[0m
                            [1;33m$[0;1;32m$[0;1;32;42m$[0;1;32;40m$[0;1;33;40m$  $[0;1;33;42m░[0;1;32;40m$;    o$[0;1;33;40m$$  `"²²²"^''[0m
                            [1;33;40m$$[0;1;32;40m$[0;1;33;40m$$  `@$$$gg$$@$''[0m       [33m$[0;32m''[0m

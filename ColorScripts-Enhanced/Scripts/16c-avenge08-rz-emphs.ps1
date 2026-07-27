@@ -5,7 +5,7 @@
 # Source SHA-256: e73c29b281a9f1f56759191fb4501a9ebdc59177cfc50ef5f3deb8ed5e46ac5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZ-EMPHS.ANS by _rzicus (avenge); released in avenge08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Empathy - help screen
 # SAUCE Author: _rzicus
 # SAUCE Group: avenge
@@ -27,10 +27,10 @@ Write-Host '
 [1;32;47m▓▓[0;1;32;42m█▓▓▒░[0;32m▓▒░[0;1;31m  [0;1;31;43m░▓[0;1;31;40m██████[0;33m▀[0;1;31;43m▀▓[0;1;31;40m█████[0;1;31;47m▓[0;1;31;40m████[0;33m█[0;1;30m▌[0;1;31m     [0m  [1;30mdrawing utility "EMPATHY"[0m         [32m▄[0;1;32m▀▀[0;32m█[0m
 [1;32;42m▓▀[0;32m▀▀[0;37m [0;34m▄▄[0;1;31m  [0;1;30m [0;1;31m░  [0;1;31;43m░▀▓[0;1;31;40m█████ [0;33m█[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;47m▓▓[0;1;31;40m████[0;33m█[0;1;30m▌[0;1;31m     [0m                                   [32m▐▌ [0;37m [0;32m▐[0m
 [1;32m [0m [34m▄[0;1;34;44m ▀[0;34m▀[0;37m [0;1;31m  [0;1;30m [0;1;31m▒░[0;33m▄▄[0;1;31m [0;1;31;43m░▀[0;1;31;40m█████████[0;1;31;47m▓▓[0;1;31;40m████[0;1;31;43m▌[0;33m█[0;1;30m▌[0;1;31m     [0m  [1;30mFor[0m [1;30mrequests email:[0m            [32m░▒▓[0;1;32m▓[0;1;32;42m▄[0;32m▄ [0m
-[34m▄[0;1;34;44m▄█[0;34m▀[0;37m   [0;1;31m  [0;33m [0;1;31m▒▒▓▓[0;1;31;43m▄[0;1;31;40m█████████[0;1;31;47m▓▓[0;1;31;40m████[0;1;31;43m▓▀ [0;33m█[0;1;30m▌[0;1;31m     [0m  [1;30mpuppy@neoncrayon.ml.org[0m         [32m ▀▀[0;1;32;42m▀▓[0;32m▌[0m
+[34m▄[0;1;34;44m▄█[0;34m▀[0;37m   [0;1;31m  [0;33m [0;1;31m▒▒▓▓[0;1;31;43m▄[0;1;31;40m█████████[0;1;31;47m▓▓[0;1;31;40m████[0;1;31;43m▓▀ [0;33m█[0;1;30m▌[0;1;31m     [0m  [1;30m                       [0m         [32m ▀▀[0;1;32;42m▀▓[0;32m▌[0m
 [1;34m▓▓[0;34m▀[0;37m    [0;1;31m   [0;33m▐[0;1;31m▓███████████[0;1;31;47m▓▓[0;1;31;40m████[0;1;31;43m▓░[0;1;31;40m [0;1;30;43m▌[0;33m█[0;1;30;43m▀[0;1;30;40m▄[0;1;31;40m    [0m                                    [32m ▌▀█[0m
 [1;34m░░[0m     [1;31m    [0;33m█[0;1;31m██████████[0;1;31;47m▓▓[0;1;31;40m█████[0;1;31;43m░[0;1;31;40m [0;1;30;40m▀[0;33m▀██[0;1;30;43m▄█[0;1;31;40m [0;33m [0;1;31m [0m  [1;30mvisit my Homepage "The Province"[0m  [32m ▌[0;37m [0;32m▐[0m
-[37m       [0;1;31m    [0;33m█[0;1;31m█████████[0;1;31;47m▓▓[0;1;31;40m█████[0;1;31;43m▓ [0;1;31;40m    [0;1;30;40m▀▀[0;1;31;40m    [0m  [1;30mhttp://neoncrayon.ml.org/db[0m        [32m▌[0;37m [0;32m▀[0m
+[37m       [0;1;31m    [0;33m█[0;1;31m█████████[0;1;31;47m▓▓[0;1;31;40m█████[0;1;31;43m▓ [0;1;31;40m    [0;1;30;40m▀▀[0;1;31;40m    [0m  [1;30m                           [0m        [32m▌[0;37m [0;32m▀[0m
 [37m       [0;1;31m    [0;33m▐[0;1;31;43m▐[0;1;31;40m█████[0;1;31;43m▌▀[0;1;31;40m██████[0;1;31;43m▓▓[0;1;31;40m▓▓[0;1;31;43m░[0;33m▄[0;1;30m▄[0;1;31m [0m                                           [32m▌[0m
 [37m       [0;1;31m     [0;33m█[0;1;31;43m▓[0;1;31;40m████[0;1;31;43m▌[0;33m▌▀[0;1;31;43m▀[0;1;31;40m███[0;1;31;43m▓[0;1;31;40m▓▓[0;1;31;43m░░ [0;33m█[0;1;30;43m▐█[0;1;30;40m▄[0m       [1;30m                                 [0m  [32m▀[0m
 [37m       [0;1;31m    [0;33m▄[0;1;31m [0;33m▀[0;1;31;43m▀▓[0;1;31;40m██[0;1;31;43m▌[0;33m▌[0;1;31m [0;33m▐[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m█[0;33m█▀████[0;1;30;43m▄██[0;1;30;40m▀[0m     [1;30m                             [0m        [32m░[0;30;42m▓[0;32;40m░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 7d48062834eefd80a51d0a68291f7e9c91ec5f62c7a559ad2a01ac4e7d0fa38f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TD-RIOT!.ANS by thE diRECtOR (RioT/EMi/510/Boink); released in riot0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: RioT!!!
 # SAUCE Author: thE diRECtOR
 # SAUCE Group: RioT/EMi/510/Boink
@@ -41,10 +41,5 @@ Write-Host '
 
 [37m┌[my ANSi sucks!]──────────────────────────────────────────────────────────────┐[0m
 [37m│[0m                                                                              [37m│[0m
-[37m [0m      [37m                                                                    [0m    [37m [0m
-[37m [0m      [37m                                                                    [0m    [37m [0m
-[37m [0m      [37m                                                                     [0m   [37m [0m
-[37m [0m      [37m                                                                    [0m
-
-       [37m                                                               [0m
-       [37mtd.[0m'
+[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m
+[37m[0m       [37mtd.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b63321b3267539552d612af4b9f1ad4b67a3c8bd06886a794a0dd27dece06f69
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-URBAN.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-92
 # Columns: 1-80
 
@@ -17,8 +17,7 @@ Write-Host '
 
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[1;30m                                                                           [0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
+[1;30m[0m[1;30m────────────────────────────────────────────────────────────────────────────────[0m
 
 
 [1;30;41m     [0m     [1;30;41m     [0m [1;30;41m            [0;31m▄ [0;31;41m            [0;31;40m▄[0m      [31;41m     [0;31;40m████[0m      [31;41m       [0m    [31;41m     [0m

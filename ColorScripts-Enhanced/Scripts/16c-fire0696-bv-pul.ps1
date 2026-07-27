@@ -5,7 +5,7 @@
 # Source SHA-256: e9344b8fe5de177c2f06db280cd81bc579f72913a34bf80b7ace971536547ab9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BV-PUL.ANS by Black Viper (iCE); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Pulse
 # SAUCE Author: Black Viper
 # SAUCE Group: iCE
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-   [1;30m          [0;32m           [0;1;30m      [0;1;31m    [0;1;30m    [0;32m         [0;1;30m [0m
-[32m  [0m
+[1;30m[0;32m[0;1;30m[0;1;31m[0;1;30m[0;32m[0;1;30m[0m[32m  [0m
 [32m   [0m                                                            [32m ▄▄[0;1;32m▄[0;1;32;42m■▄[0;1;32;40m▄[0;32m▄ [0m    [32m [0m
 [32m  ▄[0;1;32m▄[0;1;32;42m█▄▄█▄[0;1;32;40m▄▄[0;32m▄▄ [0m    [32m   [0m                               [32m ▄▄[0;1;32;42m▄██▄[0;32m▄▄▀█[0;1;32;42m▄▄█▄█[0;32m▀[0;1;32;42m▀███[0;1;32;40m█[0;1;32;42m▄[0;1;32;40m▄[0;32m▄[0m
 [32m ▀[0;1;32;42m██[0;1;32;40m█[0;1;32;42m█▀[0;32m▀▀[0;1;32;42m▀▀███▄▄[0;32m▄▄[0m           [32m ▄▄[0;1;32;42m■▄[0;32m▄▄▄[0m             [32m▄[0;1;32;42m▄█▀[0;32m▀  ▀[0;1;32;42m▀██▄[0;32m▄[0;1;32;42m█▓▓▓[0;32m    ▀[0;1;32;42m▀▓▓▓▓[0;32m▀[0m

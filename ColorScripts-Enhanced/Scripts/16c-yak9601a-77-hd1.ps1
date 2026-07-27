@@ -5,7 +5,7 @@
 # Source SHA-256: eb806658d6f91f85c34184b18ef2d0bb979e49d1e617794f32246b7df52f162f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 77-HD1.ANS by agent#77 (yak); released in yak9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hazardless destrction
 # SAUCE Author: agent#77
 # SAUCE Group: yak
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [1;31m  [0m [1;35m             [0;1;30m [0;1;31m        [0;1;30m      [0;35m           [0m                  [1;35m             [0m
- [1;31m [0m▄[1;31m▄▄██████████████████████████████████████████████████████████████████████[0;1;37m▄[0;1;31m▄▄ [0m
+[1;31m[0m[1;35m[0;1;30m[0;1;31m[0;1;30m[0;35m[0m[1;35m[0m [1;31m [0m▄[1;31m▄▄██████████████████████████████████████████████████████████████████████[0;1;37m▄[0;1;31m▄▄ [0m
 [1;31m▄[0;1;31;47m▓▓[0;1;31;40m▀[0m [1;31m▀[0;1;31;47m█[0;1;31;40m█████████████████████████[0;1;31;47m▓▓[0;1;31;40m████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m  [1;31m [0m
 [1;31m████▄[0;1;31;47m██[0;1;31;40m████▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█████████████[0;1;35;45m▄[0;35m███▄▄[0m
 [35m▄▄▄▄▄▄▄▄▄▄▄▄███████████████████████████████████████████████████[0;1;35;45m▄ [0;35m███████████[0;1;35;45m▒▒[0m

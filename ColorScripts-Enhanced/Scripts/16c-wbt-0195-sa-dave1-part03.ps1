@@ -5,7 +5,7 @@
 # Source SHA-256: 1e8f2637e37b2e599fca1dc25f81c4c50d6d20aa232632f12d4533d1ce5c4376
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-DAVE1.ANS by Sabotage (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Cave
 # SAUCE Author: Sabotage
 # SAUCE Group: WBT/SHiVER
@@ -52,7 +52,7 @@ Write-Host '
             [1;30;47m ░░▒[0m  [1;37;40m [0m [1;30m                                          [0m [1m [0m  [1;30;47m▒░░ [0m
             [1;30;47m  ░░[0m  [1;37;40m [0m [1;30m                                          [0m [1m [0m  [1;30;47m░░  [0m
             [1;47m░[0;1;30;47m  ░[0m     [1;37;40m [0m [1;30m                                     [0m [1m [0m    [1;30;47m░  [0;1;37;47m░[0m
-            [1;47m▒░[0;1;30;47m  [0m   [1;37;40m░[0m             [33m604-540-2256[0m                 [1;37m░[0m   [1;30;47m  [0;1;37;47m░▒[0m
+            [1;47m▒░[0;1;30;47m  [0m   [1;37;40m░[0m             [33m            [0m                 [1;37m░[0m   [1;30;47m  [0;1;37;47m░▒[0m
             █[1;47m▒░░▒[0;1;40m▄ ▒[0m                                          [1;40m▒ ▄[0;1;47m▒░░▒[0m█
              ▀[1;47m▒▒▓▓█[0;1;40m█▄▄▓[0m                                    [1;40m▓▄▄█[0;1;47m█▓▓▒▒[0m▀
                [1;47m▓▓█[0;1;40m▀▀[0m  [1;40m▒[0m                                    [1;40m▒[0m  [1;40m▀▀[0;1;47m█▓▓[0m

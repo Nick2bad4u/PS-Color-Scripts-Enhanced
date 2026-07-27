@@ -5,7 +5,7 @@
 # Source SHA-256: 08bc80d29fa58012d623999609a0f376b24290780caeb3aaa0958572ab3b290f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LA-COLBX.ANS by Liquid Acid (allnc-01); released in allnc-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 187-232
 # Columns: 1-80
 
@@ -41,17 +41,4 @@ Write-Host '
         [1;31;43m    ░░░░░▒▒▒▒▓▓▓▓██████▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒░░░▒░░[0;33m░[0;30;43m░░░░░   ░   [0;1;31;43m░ ░▒░░▒░▒▒▒▒▓▓[0m
          [1;31;43m   ░░░░░░▒▒▒▒▓▒▓▓▓▓████▓█▓▓▓▓█▓▒▓▒▒▒▒▒▒▒▒░░░░[0;33m░[0;30;43m░░░  ░        [0;1;31;43m░░░░░▒▓▒▒▒▓[0m
          [33m▀█[0;33;43m   [0;1;31;43m░░░░░▒▒▒▒▒▓▒▓▓▓█████▓▓█▓▓▓▓▓█▒▒▓▒▒▒▒▒░░░░[0;33m░[0;30;43m░░░░ ░  ░  [0;1;31;43m░ ░░▒░░░▒▒▒▓▒[0m
-           [1;31;43m   ░░░░░░░▒▒▒▒▒▒▓▓▓█████▓████▓▓▓▓▓▒▒▒▒▒▒▒▒░░░[0;33m░[0;30;43m░░ ░ ░      [0;1;31;43m░ ░░░▒▒▒▒▒▓[0m
-
-
-
-
-
-
-
-
-
-
-
-
-                  [1;37;40m[ [0;1;30;40mC  O  O  L    B  O  X[0m     [1;30;40mB  b  s [0;1;37;40m][0m'
+           [1;31;43m   ░░░░░░░▒▒▒▒▒▒▓▓▓█████▓████▓▓▓▓▓▒▒▒▒▒▒▒▒░░░[0;33m░[0;30;43m░░ ░ ░      [0;1;31;43m░ ░░░▒▒▒▒▒▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 803821ceca65a14b40bc12c05be4e617f99d587495e62852d19fbfab267e0ad4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-REB1.ANS by chromatik (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: rebel studios
 # SAUCE Author: chromatik
 # SAUCE Group: Blade Productions
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m                           [0m
-                                [35m■[0m [35m▄[0m
+[1;30m[0m                                [35m■[0m [35m▄[0m
  [1;30m░[0m                                [35m▐▓▄[0m                                      [1;30m░[0m
                          [35m▄▄▄▓██▄▄[0m  [35m▀[0m [35m▄[0m
                 [35m▄▄■[0m [35m▄▄▀▓██[0;1;35;45m░[0;35m█▓▀▀▀[0;1;35;45m░▒░[0;35m▄ [0m   [35m▄▄▀▀■▄▄▄▄▄[0m       [1;30m░[0m                 [1;30m░[0m

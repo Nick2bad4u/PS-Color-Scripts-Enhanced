@@ -5,7 +5,7 @@
 # Source SHA-256: f8c41dd0abc22c477c0b2665808f7af2c459d8f5bd31b04d1ba346fa38f9922a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-TC01.ANS by Terminal Psychosis (vi-9406); released in vi-9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 43-88
 # Columns: 1-80
 
@@ -47,12 +47,7 @@ Write-Host '
                [31m▀▀▀▀▀▀▀▀[0;1;31;41m▒▒▒▓▓▓▓██[0;1;31m▌[0m
                              [1;31m▀▀▀▀[0m
 [1m─[0;1;31m─[0;31m─[0;1;30m────────────────────────────────────────────────────────────────────────[0;31m─[0;1;31m─[0;1m─[0m
-[1m [0;1;31m [0;31m  [0;1;30m                                                                       [0;31m [0;1;31m [0;1m [0m
-[1m [0;1;31m [0;31m [0;1;30m                                                                        [0;31m [0;1;31m [0;1m [0m
-[1m [0;1;31m [0;31m [0;1;30m                                                                        [0;31m [0;1;31m [0;1m [0m
-[1m [0;1;31m [0;31m [0;1;30m                                                                        [0;31m [0;1;31m [0;1m [0m
-[1m [0;1;31m [0;31m [0;1;30m                                                                        [0;31m [0;1;31m [0;1m [0m
-[1m [0;1;31m [0;31m  [0;1;30m       ■              ■                                                [0;31m [0;1;31m [0;1m [0m
+[1m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1m[0m[1m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1m[0m[1m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1m[0m[1m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1m[0m[1m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1m[0m[1m [0;1;31m [0;31m  [0;1;30m       ■              ■                                                [0;31m [0;1;31m [0;1m [0m
 [1m─[0;1;31m─[0;31m─[0;1;30m────────────────────────────────────────────────────────────────────────[0;31m─[0;1;31m─[0;1m─[0m
            [1;30mA N S i  B y :  T e r m i n a l  P s y c h o s i s [ V i ][0m
 [1m─[0;1;31m─[0;31m─[0;1;30m────────────────────────────────────────────────────────────────────────[0;31m─[0;1;31m─[0;1m─[0m'

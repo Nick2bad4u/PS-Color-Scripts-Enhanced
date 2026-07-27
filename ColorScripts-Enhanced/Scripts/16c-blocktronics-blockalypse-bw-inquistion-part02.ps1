@@ -5,7 +5,7 @@
 # Source SHA-256: 45311206003e30257cb9543fd99206a692553db8bbc210da993ea934e7965945
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw_inquistion.ans by Binary Walker (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20140212
 # SAUCE Dimensions: 80x78
 # SAUCE Font: IBM VGA
@@ -48,8 +48,7 @@ Write-Host '
              [36m █[0;37m  [0;36m█[0;37m  [0;36m██[0;37m [0;36m█▀[0;37m [0;36m█[0;37m [0;36m▄[0;37m [0;36m█▀█[0;37m [0;36m█[0;37m  [0;36m█[0;37m [0;36m█[0;37m [0;36m██[0;37m [0;36m█▀[0;37m [0;36m██[0m       [31m▀▀[0;37msmallscale [0;31m▄[0;1;31m▀[0;31m▀[0;37m   [0;31m▀[0m
              [36m █[0;1;36m█[0m [36m█[0;1;36m▄[0m [36m█[0;1;36m█[0m [36m█[0;1;36m▄[0m [36m█[0;1;36m▀▄[0m [36m█▀[0;1;36m█[0m [36m█[0;1;36m▄[0m [1;36m▀[0;36m█[0;1;36m▀[0m [36m█[0;37m  [0;1;36m▄[0;36m█[0;37m [0;36m█[0;1;36m▄[0m
 
-                          [1;30m             [0m
-
+[1;30m[0m
                        [1;30m [0;1;37mP[0;1;30m A B L O [0;1;37md[0;1;30m R A W[0m
 
                            [1;30m S [0;35mO[0;1;30m [0;1;35mO[0;1;30m N ![0m'

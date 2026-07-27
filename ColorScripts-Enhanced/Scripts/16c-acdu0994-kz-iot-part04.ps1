@@ -5,7 +5,7 @@
 # Source SHA-256: 333f51a26535894930aa1ffd9b1cfc0fa3e6f22e39395c78055f994bfbe397e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KZ-IOT.ANS by Kamikazee (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Illusion of Tranquility
 # SAUCE Author: Kamikazee
 # SAUCE Group: ACiD Productions
@@ -32,8 +32,7 @@ Write-Host '
 [32m██████████████████████████████████▓████████████████████████████████[0;1;32;42m░▒░[0;32m██▓▓░[0;37m░▒▐██[0m
 [32m▀▓█████████████████████████████████▓████▓████████████████████████[0;1;32;42m░░░░[0;32m██▓▓▒ [0;37m░▒ █▓[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[1;30m                                                                                [0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
+[1;30m[0m[1;30m────────────────────────────────────────────────────────────────────────────────[0m
               [1;30m▄▄▄[0m              [1;30m-[0m-  [1mI    o[0m     [1mT   [0m-[1;30m-[0m
 [1;30m·∙∙─∙───────∙██[0;1;30;47m▓▒▒[0;1;30;40m▄[0m▀▄▄[1;30m∙──────────────────────────────────── [0m▄▄[1;47m░░[0m▄▄ [1;30m─────∙[0m▄[1;30m∙──∙∙·[0m
       ▄[1;47m▒[0m▄ ▄   [1;30m▀▀[0;1;30;47m▓▓[0;1;30;40m▀[0m▄[1;47m░▓▓▒[0m▄   ▄                 ▄           ▄[1;47m░░░▒▒░░░░[0m█▄▄[1;30;47m ░▒▓[0;1;30;40m▄▄[0m [1;30m▄[0m
@@ -52,7 +51,7 @@ Write-Host '
                      [1;30m▀[0;1;30;47m█▒[0;1;30;40m▀▀[0m                [1;37;47m▒▓[0m▀                          [1m▀[0m▌
 [1;30m-[0m-   [1;36mI  [0;36mL  L  U  S  I  O  N[0m      [1;36mo  [0;36mf[0m     [37m ▀ [0;1;36mT  [0;36mR  A  N  Q  U  I  L  I  T  Y[0m [1;30m  [0m-
            [1;32m▄[0;1;30m∙[0m                                                     [1;30m              [0m
-[1;30m·∙∙──∙───[0m [1;32m▄[0m [1;30m──────────[0m─[1;30m─[0m┬─[1;30m──[0m─[1;30m─∙─[ [0;1;37m516.321.1866 [0;1;30m]─∙──────────────────────∙──∙─∙∙·[0m
+[1;30m   ── ───[0m [1;32m▄[0m [1;30m──────────[0m─[1;30m─[0m┬─[1;30m──[0m─[1;30m─ ─  [0;1;37m             [0;1;30m ─ ────────────────────── ── ─   [0m
   [32m   [0;1;30m [0;32m▄  [0;1;32m▄[0;1;32;42m▓[0;32m▄     [0;1;32m▄[0;1;32;42m▓[0;1;32;40m▄[0;32m ▀[0m  [1;30m│[0m
   [32m▄■  [0;1;30m∙[0;32m▀[0;1;32;42m░▒▒▒░[0;32m▀[0;1;30m∙[0;32m▄[0;1;32m■▀[0m      [1;30m│[0m  [1;37mφ∙ [0;1;36mSysops [0;1;30m|[0m · [1mK[0mamikazee [1m∙ J[0m-Walker [1;30m [0m
   [1;32m  [0;32m▀[0;1;32;42m░[0;32m▄▄█[0;1;32;42m░░░[0;32m█▌▄[0;1;32;42m▒▒[0;32m▄ ▄ ▀[0m  [1;30m│[0m  [1;37mφ∙ [0;1;36mAfils  [0;1;30m│[0m · [1mA[0mC[1mi[0mD Member Board ·

@@ -5,7 +5,7 @@
 # Source SHA-256: 0e2e60dc024287af7e627aa26f56fe692aaf4092fccf36fb4b2e5ad2c08ac723
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SICK.ANS by Essence + Tee_Are (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sick
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Remorse Productions
@@ -17,8 +17,7 @@
 Write-Host '
 
                              [1;31m,[0;1;30m__[0m         [1;30m_[0m          [31m,[0m
-           [31m       [0;1;30m [0;31m  [0;1;31m [0;31m [0;1;31m [0;1;33m  [0;1;31m [0;31m  [0;1;37m  [0;1;33m [0;1;31m [0m [31m        [0;1;30m [0;31m        [0;1;31m [0;31m    [0;1;31m [0;1;30m  [0;31m  [0;1;31m  [0;1;33m [0;1;37m  [0;1;33m [0;1;31m [0;1;30m [0m   [1;30m [0m  [1;30m [0m
-[1;30m_[0m.,g%@$$╝[1;30m"[0m [31m:[0;1;31m$[0;1;33m$$[0;31m$;[0m    [31m,l[0;1;31m;[0;1;33m$[0;1;37m$$[0;1;31m;[0;31ml[0;1;33m$$[0;1;31m$;[0m [31mS$[0;1;31m$$[0;31ml[0;1;30m  [0m    [1;31m [0;31m7[0;1;31m$$$[0;31m;[0;1;31m [0;31m$[0;1;31m$[0;1;33m$[0;31m;[0;1;31m [0m   [1;31m [0;31m`[0;1;31m7[0;1;33m$[0;1;37m$[0;1;33ml[0m [1;30m_,[0mg@$[1m$$$[0mb,
+[31m[0;1;30m[0;31m[0;1;31m[0;31m[0;1;31m[0;1;33m[0;1;31m[0;31m[0;1;37m[0;1;33m[0;1;31m[0m[31m[0;1;30m[0;31m[0;1;31m[0;31m[0;1;31m[0;1;30m[0;31m[0;1;31m[0;1;33m[0;1;37m[0;1;33m[0;1;31m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m_[0m.,g%@$$╝[1;30m"[0m [31m:[0;1;31m$[0;1;33m$$[0;31m$;[0m    [31m,l[0;1;31m;[0;1;33m$[0;1;37m$$[0;1;31m;[0;31ml[0;1;33m$$[0;1;31m$;[0m [31mS$[0;1;31m$$[0;31ml[0;1;30m  [0m    [1;31m [0;31m7[0;1;31m$$$[0;31m;[0;1;31m [0;31m$[0;1;31m$[0;1;33m$[0;31m;[0;1;31m [0m   [1;31m [0;31m`[0;1;31m7[0;1;33m$[0;1;37m$[0;1;33ml[0m [1;30m_,[0mg@$[1m$$$[0mb,
 $$[1m$$[0;1;33m$$[0;1;37m$[0mb[1;30m,[0;1;37m [0m [31mi[0;1;31m$$$[0;31m$[0;1;31m  [0;1;30m   [0;31m`^ⁿ[0;1;31m╝$7[0;31m''[0;1;30m,[0;31m┌g$l[0;37m [0;31m$[0;1;31m$$$[0;31m;[0m       [31m;$*╝`[0;1;31m [0;31m$[0;1;31m$$[0;31ml[0;1;30m__[0;31m_.,g$[0;1;31m$╝''[0;1;30m,[0m$²"╚$[1m$$[0;1;33m$$[0m$"[1;30m`[0m
 ``"²╚$$$[1m$[0ml [31ml[0;1;31m$$$[0;31ml[0m      [31m$@%┐,[0;1;31m [0;31m:$[0;1;31m$[0;31m$:[0;37m [0;31m$[0;1;31m$$[0;31m$[0;1;30m:[0;1;31m     [0;1;30m_[0;31m,y%@$[0;1;30m,[0;1;31m [0;31m$[0;1;31m$[0;31m$"`[0;1;30m`[0;31m`""ⁿyy,[0;1;30m`[0m"$.,d$$╝²"^`[1;30m`[0m
 [1;30m$[0m$@g,[1;30m`[0m,d[1m$[0m$ [31m`ⁿⁿ╝Sb,[0;1;30m_[0;31m,,,$$[0;1;31m$$[0;31m$[0;1;31m [0;31mi$[0;1;31m$[0;31m$[0;1;30m:[0m [31mS[0;1;31m$$[0;31m$:[0m      [1;30m`[0;31m$[0;1;31m$[0;1;33m$[0;1;37m$[0;31ml $[0;1;31m$[0;31m$ [0;1;31m      [0;31m$[0;1;31m$$[0;31ml[0;37m l[0;1;37m$[0m$,_.,g%@$$[1;30m$[0m

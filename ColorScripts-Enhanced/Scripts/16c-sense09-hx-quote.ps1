@@ -5,7 +5,7 @@
 # Source SHA-256: ae0d631564e7d1e91b2c6354f29f9d528d9b677260e8eb9d081c9ae4229e8ff1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HX-QUOTE.ANS by HeXD (Sense); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: quote
 # SAUCE Author: HeXD
 # SAUCE Group: Sense
@@ -35,6 +35,4 @@ Write-Host '
 [1;37;40m▓[0;1;32;40m████████████████████[0;1;32;42m▓▒░[0;30;42m                                              [0;1;30;42m░▒▓[0m [30;42m [0;1;30;42m░▒░▒▓[0m
 [1;37;40m▄[0;1;32;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;37m [0m
-[1m [0m            [31m [0;1;30m                                         [0;31m [0m         [31m [0;1;30m  [0m
-                  [1;30m                      [0;31m [0;1;30m     [0;31m [0m
-[1;37m-[0;1;32m----------------------[0;32m---------------------------------------------------------[0m'
+[1m[0m[31m[0;1;30m[0;31m[0m[31m[0;1;30m[0m[1;30m[0;31m[0;1;30m[0;31m[0m[1;37m-[0;1;32m----------------------[0;32m---------------------------------------------------------[0m'

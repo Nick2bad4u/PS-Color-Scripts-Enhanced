@@ -5,7 +5,7 @@
 # Source SHA-256: bb99a82bf2286eb5312386fcaeb0f7c407ba6b61f373278c7ba978c95be72415
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-EI.ANS by Soul Seeker + Mindcrime (blde9406); released in blde9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 98-123
 # Columns: 1-80
 
@@ -21,6 +21,4 @@ Write-Host '
 [1;47m░░[0m [1;47m░▓[0m [1;47m░░[0m    [1;47m░░[0m [1;47m░▓[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m [1;47m░▓[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m [1;47m▓░[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m [1;47m░░[0m  [1;40m▐[0;1;47m░[0m▌
 [1;47m▒▓[0;1;40m▄[0;1;47m██[0m [1;47m▒▓[0m    [1;47m▒▓[0;1;40m▄[0;1;47m██[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0;1;40m▄[0;1;47m██[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;40m██▄[0;1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0m [1;47m▒▓[0m  [1;40m▐[0;1;47m▓[0;1;40m▌[0m
                                                                               [1;30;40mmc[0m
-              [1;37;40m· E  T  E  R  N  A  L    I  N  S  A  N  I  T  Y ·[0m
-
-                                9O8-224-878O[0m'
+              [1;37;40m· E  T  E  R  N  A  L    I  N  S  A  N  I  T  Y ·[0m'

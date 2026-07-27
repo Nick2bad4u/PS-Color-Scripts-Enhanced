@@ -5,13 +5,12 @@
 # Source SHA-256: 1c4e878c555f039ef166716d198866b4514ef41ed51aeb8bb8b4309ecc86c20d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-ICE3.ICE by Tempus Thales (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
-      [1m              [0;30m [0;1m         [0m [30m                     [0m
-        [30m··[0;1mThings[0;30m·[0;1mchange.[0;30m····[0;1m  [0;30m·····[0;1;31m▄▄[0;1;31;41m▀▀▀[0;31m███▄▄[0;1;31m▀[0;31m█[0;30m····· ····[0m
+[1m[0;30m[0;1m[0m[30m[0m        [30m··[0;1mThings[0;30m·[0;1mchange.[0;30m····[0;1m  [0;30m·····[0;1;31m▄▄[0;1;31;41m▀▀▀[0;31m███▄▄[0;1;31m▀[0;31m█[0;30m····· ····[0m
         [30m····[0;30;40m·[0;30m····[0;30;40m·[0;30m···············[0;1;31m▄[0;1;31;41m▀[0;31m█▀███████▄▀▄[0;30m··········[0m
            [1;34m▄▄[0m                [30m····[0;35m▄[0;1;30m▄[0;1;34m▄▀[0;31m▀▀███████[0;30m·[0;31m█[0;30m··········[0m
           [1;34m▐███[0m         [1;37m\[0m       [1;30m▄[0m▄[35m▄▀[0;1;30;45m▀█[0;1;34;40m▀▀▄[0;30m·[0;31m▀████▌▐▌[0;1;31m▄[0;30m······· [0m    [30m··················[0m

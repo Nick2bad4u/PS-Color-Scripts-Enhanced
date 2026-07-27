@@ -5,7 +5,7 @@
 # Source SHA-256: 7a934827b68328315d88922abc9a3bf414a1b846336e46834acef894fbecd65d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-SA2.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -43,8 +43,7 @@ Je[1md   ▄█[0;1;47m▀[0m▀  [1;34m│ [0m· ▄[1;30;47m▄[0;1;30;
   [1m▄█[0;1;47m▀[0m▀  ·  [1;30m·[0m▄[1;30;47m▄[0;1;30;40m█▀[0m      [1;37;40m└[0m─[1;34m──────────────────────────────────┘[0m       [1;30m│    │[0m
 [1;37m▄█[0;1;37;47m▀[0m▀  [1;34m    [0m▄[1;30;47m▄[0;1;30;40m█▀[0m               [1;37;40m  [0;1;36;40m   [0;36m    [0;1;34m               [0m             [1m       [0m    
 [1m█[0;1;47m▄▄▄▄▄▄▄▄[0;1;30;47m▄[0;1;30;40m█▀[0m                                                      [1;30;40m│    │[0m
-                                                                  [1m      [0m       
-                                                                  [1;30m└────┘[0m
+[1m[0m                                                                  [1;30m└────┘[0m
 [1;30;47m [0;30;47m◄--[0;37;40m████[0;1;30;47m▐[0;30m───[0;1;37m▐[0m██████████[1;30m▌ [0;1;37m▐[0m██[1;30m▌[0;30m─ ─[0;1;37;47m▌[0m█[1;30;47m▐[0;30m─  [0;1;37;47m▌[0m█[1;30;47m▐[0;30m──────────[0;1;37;47m▌[0m█[1;30;47m▐[0;30m───[0;1;37m▐[0m██[1;30m▌[0;30m──[0;1;37;47m▌[0m██████[1;30;47m▀[0;1;37;47m▀[0m█████[1;30m▌[0;30m─[0m
 [30m─────[0;1;37m▀[0;1;37;47m▌[0m██[1;30m▌[0;30m── [0;1;37;47m▌[0m█[1;30;47m▐[0;1;30;40m▀[0;30m───[0;1;37m▀[0;1;37;47m▌[0m█[1;30;47m▐[0;30m──[0;1;37;47m▌[0m█[1;30;47m▐[0;30m───[0;1;37m▐[0m██[1;30m▌[0;30m──[0;1;37m▐[0m██[1;30m▌[0;30m─────────[0;1;37m▐[0m██[1;30m▌[0;30m───[0;1;37;47m▌[0m█[1;30;47m▐[0;30m──[0;1;37m▐[0m██[47m [0;40m▀▀[0;1;47m▄[0m██[1;30;47m▄[0;1;30;40m▀[0;30m─[0;1;37;47m▌[0m█[1;30;47m▐[0;30m─[0m
 [30m──────[0;1;37m▐[0m██[1;30;47m▐[0;30m───[0;1;37m▐[0m██[1;30m▌[0;30m── [0;1;37m▄[0;1;37;47m▌[0;1;30;47m▄[0;1;30;40m▌[0;30m──[0;1;37m▐[0m█[47m [0;1;30;40m▌[0;30m───[0;1;37;47m▌[0m█[1;30;47m▐[0;30m───[0;1;37;47m▌[0m█[1;30;47m▐[0;30m──────────[0;1;37;47m▌[0m█[1;30;47m▐[0;30m───[0;1;37m▐[0m██[1;30m▌[0;30m──[0;1;37;47m▌[0m█[1;30;47m▐[0;30m───[0;1;37;47m▌[0m█[1;30m▌[0;30m──[0;1;37m▐[0m██[1;30m▌[0m

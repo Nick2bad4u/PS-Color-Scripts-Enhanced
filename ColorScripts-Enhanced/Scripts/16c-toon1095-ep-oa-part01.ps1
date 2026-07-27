@@ -5,7 +5,7 @@
 # Source SHA-256: 77ad5ad100cc486599a3908f4ebbff707c577851507c4ad78314a63d14e13429
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EP-OA.ANS by epoxy (tOOn); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ansi?! heh.
 # SAUCE Author: epoxy
 # SAUCE Group: tOOn
@@ -21,7 +21,7 @@ Write-Host '
 [1;30;40m    █ [0;1;37;40m██[0;1;33;47m▓[0;1;37;40m█▀▀▀▀▀[0;1;30;40m [0;1;37;40m▄ ▄[0;1;37;47m▓[0;1;37;40m▀▀▀▀▀[0;1;30;40m █ stay alert! stay safe![0m                       [1;30;40m [0m [1;30;40m█[0m
    [1;30;40m █ [0;1;37;40m▀ ▀[0;1;37;47m▓[0;1;37;40m ████[0;1;30;40m [0;1;37;40m██[0;1;37;47m▓▒[0;1;37;40m [0;1;30;40m██████ no, but really.  If you want a ''zee or        [0m [1;30;40m█[0m
     [1;30;40m█ [0;1;37;47m▐[0;1;37;40m▄[0;1;37;47m▓▀[0;1;37;40m ████[0;1;30;40m [0;1;37;47m▀[0;1;37;40m█[0;1;37;47m▀░[0;1;37;40m [0;1;30;40m██████[0m [1;30;40ma ''ski, you can[0m [1;30;40mfind me on rIak, or mail me @[0m  [1;30;40m█[0m
-    [1;30;40m█ [0;1;37;47m ▀░■[0;1;37;40m [0;1;37;47m▐[0;1;37;40m██[0;1;37;47m▀[0;1;37;40m [0;1;37;47m ░▄ [0;1;37;40m [0;1;30;40m██████[0m [1;30;40mme @ :[0m [1;30;40mepoxy@mbcc.com[0m [1;30;40mthank you, and please [0m   [1;30;40m█[0m
+    [1;30;40m█ [0;1;37;47m ▀░■[0;1;37;40m [0;1;37;47m▐[0;1;37;40m██[0;1;37;47m▀[0;1;37;40m [0;1;37;47m ░▄ [0;1;37;40m [0;1;30;40m██████[0m [1;30;40m      [0m [1;30;40m              [0m [1;30;40m                      [0m   [1;30;40m█[0m
     [1;30;40m█ [0;1;37;47m [0;1;30;47m░░░[0;1;30;40m [0;1;30;47m░[0;1;37;47m▀[0;1;30;47m░░[0;1;30;40m [0;1;30;47m░░[0;1;37;47m░[0;1;30;47m░[0;1;37;40m [0;1;30;40m██████[0m [1;30;40mkeep your[0m [1;30;40marms away from[0m [1;30;40mthe window.[0m           [1;30;40m█[0m
     [1;30;40m█ [0;1;37;47m    [0m▄[1;47m ░▀░[0;1;30;40m [0;1;37;47m    [0;1;37;40m [0;1;30;40m██████                                        [0m    [1;30;40m   [0m [1;30;40m█[0m
 [1;30;40m    █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m [1;30;40m  [0m

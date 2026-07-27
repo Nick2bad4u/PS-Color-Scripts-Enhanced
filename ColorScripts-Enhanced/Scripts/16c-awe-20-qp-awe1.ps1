@@ -5,7 +5,7 @@
 # Source SHA-256: 175c181c37d561a4f1accbb186767a53ad945ca95ae7bef45092a59e471c0a3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QP-AWE1.ANS by Quip (AWE Lettering Guest); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: AWE Lettering
 # SAUCE Author: Quip
 # SAUCE Group: AWE Lettering Guest
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [1m                          [0m
-                [32m [0m
+[1m[0m                [32m [0m
                   [32m▀ ▄▄  ▄ ■[0;1;30m░[0m
                     [32m▄[0;1;32;42m▀[0;32m▀▄[0m
                   [32m░▀[0m     [32m▄[0m

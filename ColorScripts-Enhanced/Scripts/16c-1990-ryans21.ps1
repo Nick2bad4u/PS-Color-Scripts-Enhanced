@@ -5,19 +5,15 @@
 # Source SHA-256: 1ea55f6f59f1193f6efb39e3b6603b6a33d2595fcfc6a82c2877c45ef8ecebd5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RYANS21.ANS by Ed Bragg (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
 ------------------------------------------------------------------------
 
-                                                                      
 
-                                                                      
   To: ALL                             Num: 131        Date:  8/05/1990
-                                                                    
-                                                             
 
                                [1;31;43m░[0;1;33;41m░▒[0m  [1;31;43m░▓░▒▓[0m [1;33;41m░▒▓[0m [1;33;41m▒▓░▒[0m  [1;31;43m░▒▓[0m [1;31;43m▓░▒▓[0;1;33;41m░▒[0;1;31;43m▓░[0m
                            [1;33;41m░▒▓░[0m [1;31;43m░▒▒[0m [1;31;43m▒▓░▒▓█[0;1;33;41m▒▓[0;1;34;40m▓[0;1;33;41m▒[0m [1;33;41m░▒▓[0m [1;31;43m░▒▓░[0;1;34;40m▓[0;1;31;43m▒▓█▓[0;1;33;41m▒▓[0;1;31;43m░▒[0;1;33;41m▒[0m [1;31;43m▓[0m

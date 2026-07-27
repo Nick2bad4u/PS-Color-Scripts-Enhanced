@@ -5,7 +5,7 @@
 # Source SHA-256: 001bc98cde5efdcdc8adf3765c65d24f1f2bbfbe402d3fbbc400cf1ae72140f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DF-ISF.ANS by dataflow (poem); released in blndr014 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: india, skydiving, the fbi
 # SAUCE Author: dataflow
 # SAUCE Group: poem
@@ -15,24 +15,18 @@
 # Columns: 1-80
 
 Write-Host '
-[1;32m                       [0m
-                                                                [1;34m             [0m
-                                                [1;36m█[0m
+[1;32m[0m[1;34m[0m                                                [1;36m█[0m
 --\     /--                                   [1;36m██[0m      [1;36m█[0m
    \   /                              [1;36m ▄█████████[0;1;36;46mfbi![0;1;36;40m█▀[0m
     \ /                                    [1;34m [0m  [1;36m██[0m
      |                                    [1;34m/-\[0m   [1;36m█[0m
-                                           [1;34m [0m   [1;34m [0m     [1;34m                     [0m
-                                           [1;34m        [0m  [1;34m                 [0m
-       \ --_
-                                            
+[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m       \ --_
         (__) °
            Q°
 
 
 
 
-              
 
                                   [1;5;31m█ █▀█[0m [1;5;31m█[0m [1;5;31m█▀▀▄[0m [1;5;31m█[0m [1;5;31m█▀▀█[0m [1;5;31m█[0m [1;5;31m █ █[0m [1;5;31m     [0m
                           india-> [1;5;31m█[0m [1;5;31m█[0m [1;5;31m█[0m [1;5;31m█[0m [1;5;31m█[0m  [1;5;31m█[0m [1;5;31m█[0m [1;5;31m█[0m  [1;5;31m█[0m [1;5;31m█[0m [1;5;31m▀█▀█▀[0m

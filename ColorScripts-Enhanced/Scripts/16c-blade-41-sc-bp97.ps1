@@ -5,7 +5,7 @@
 # Source SHA-256: e823d5015bff671c762f8691a2ce37ef9f3f1d2e54c9504db04ea2ad3f1a9df8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-BP97.ANS by subconsciousness (blade productions); released in blade-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: blade productions, baby!
 # SAUCE Author: subconsciousness
 # SAUCE Group: blade productions
@@ -60,6 +60,5 @@ Write-Host '
                       [35m▀[0;1;35m▀▀▀▀░░░ [0m
 
 
-                                                            
 
                        [1;30ms u b [0m([1mc[0m) [1;30mo[0m [1;30mn[0m [1;30ms c i[0m [1;30mo[0m [1;30mu[0m [1;30ms[0m [1;30mn[0m [1;30me[0m [1;30ms[0m [1;30ms[0m'

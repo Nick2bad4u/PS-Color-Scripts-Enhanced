@@ -5,7 +5,7 @@
 # Source SHA-256: 53651e305a199f82c4664e742e5a3e1a9bebf1d18e59eca9dcf2c0d41e5cb23a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: arl-cybercirujas2025.ans by Arlequin (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Cybercirujas
 # SAUCE Author: Arlequin
 # SAUCE Group: HPM
@@ -21,7 +21,6 @@ Write-Host '
     ║██        ║██ ║██▀▀▀▀██  ║██    ║██ ║██     ██ ║█████████         ██
     ║█████████ ║██ ║██     ██ ║█████████ ║█████████ ║██     ██ ║█████████
 
-                                       
 
  [1;34m┌┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┐[0m
  [1;34m┼[0;31m┌╖[0;31;101m╔══════════[0;1;34m┼┼[0;36m┌╖[0;36;106m╔══[0;1;34m┼┼┼[0;36m│[0;1;36m║[0;36;106m╔══[0;1;34m┼┼[0;35m┌╖[0;35;105m╔════════[0;1;34m┼┼┼┼[0;32m┌╖[0;32;102m╔══════════[0;1;34m┼┼[0m┌╖[107m╔════════[0;1;34m┼┼┼┼┼[0m
@@ -43,7 +42,6 @@ Write-Host '
  [1;34m┼  [0m║[1;34m┼┼┼┼┼┼┼┼┼[0m ║[1;34m┼┼[0m ║[1;34m┼┼[0m     [1;34m┼┼[0m ║[1;34m┼┼┼┼┼┼┼┼┼[0m ║[1;34m┼┼┼┼┼┼┼┼┼[0m ║[1;34m┼┼[0m     [1;34m┼┼[0m ║[1;34m┼┼┼┼┼┼┼┼┼[0m   [1;34m┼[0m
  [1;34m┼[0m                   [1;34m┼[0m                                                      [1;34m┼[0m
 
-                    
   [30;47m                                                                           [0;37;40m█[0m
 [37;40m  [0;30;47m  ██████████[0;37;40m▐[0;30;47m  [0;37;40m██[0;30;47m███   [0;37;40m██[0;30;47m██[0;37;40m█[0;30;47m  [0;37;40m██[0;30;47m█████████    [0;37;40m██[0;30;47m███████████  [0;37;40m██[0;30;47m████████[0;37;40m▐[0;30;47m    [0;37;40m█[0m
 [37;40m  [0;30;47m  █          ██[0;37;40m██[0;30;47m█ [0;37;40m██[0;30;47m█ [0;37;40m██[0;30;47m█  ██[0;37;40m██[0;30;47m█        ██  [0;37;40m██[0;30;47m█          [0;37;40m█[0;30;47m█[0;37;40m██[0;30;47m█        █[0;37;40m▐[0;30;47m  [0;37;40m█[0m

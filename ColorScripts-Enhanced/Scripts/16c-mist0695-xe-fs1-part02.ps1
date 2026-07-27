@@ -5,7 +5,7 @@
 # Source SHA-256: f950bc9a39ba9a454870882de40a93805868cde29c9eaaa3950d411011937971
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XE-FS1.ANS by Xeryrus (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Freak Show screens
 # SAUCE Author: Xeryrus
 # SAUCE Group: MiSTiGRiS
@@ -35,7 +35,7 @@ Write-Host '
 [35m████▌▐▒▓██ [0;32m▐▄  █ [0;1;37m▀ [0;1;37;47m░[0m█[1m▐█[0;1;47m▓▒░[0m▌[1m█[0;1;47m▓▒[0m▌[1m█[0;1;47m░[0m  [32m▄ ░ █[0m       [35m▄█[0;1;35;45m░[0;35m████▄ ▒██ ░  [0;36m█▄▄▄▄▄███████[0;36;46m  [0;1;36;46m░▓[0m
 [35m█████ ▀▒▓██ [0;32m█[0;1;33;42m▄[0;32m███▄▄   [0;1;37m▀▀[0m▀  [1m▀▀[0m▀  [32m▄▄███▓▒░[0m     [35m▓██[0;1;35;45m▒[0;35m█████▓▄ ▓█▄  ▄  [0;36m██[0;30;46m%freak[0;36;40m██▓████[0m
 [35;40m█[0;1;35;45m░ [0;35m██▓  ▒▓█▄ [0;35;42m [0;1;33;42m▓▒[0;32m███████▄▄▄█▄▄▄▄█████▓▒░[0m     [35m▓██[0;1;35;45m▒▀[0;35m█▓██▌ ▓▄ ░██▓▄ [0;36m▄████[0;30;46mshow![0;36;40m██████[0m
-[35;40m█[0;1;35;45m▄▒▄[0;35m███▄▄███▄ [0;32m▀▀[0;1;33;42m░ [0;32m█[0;1;33;42m░[0;32m██████▓██[0;1;33;42m▄▒▄[0;32m█▓▒░▀[0m      [35m▄[0;1;35;45m▄▄█▌[0;35m████▓ ░▒█▀ ▐█▒   [0;36m█[0;30;46m4i6.747.5o22  [0m
+[35;40m█[0;1;35;45m▄▒▄[0;35m███▄▄███▄ [0;32m▀▀[0;1;33;42m░ [0;32m█[0;1;33;42m░[0;32m██████▓██[0;1;33;42m▄▒▄[0;32m█▓▒░▀[0m      [35m▄[0;1;35;45m▄▄█▌[0;35m████▓ ░▒█▀ ▐█▒   [0;36m█[0;30;46m              [0m
 [35;40m██[0;1;35;45m▀ [0;35m████▓▄█▀███▄▄ [0;32m▀[0;32;42m [0;32;40m█████████▓[0;1;33;42m▀[0;32m▒░▀[0m      [35m▓██[0;1;35;45m▀░▀[0;35m█▀█ ▄▀ ▄▒▓█▀▄█▓▀▀   [0;36m▀▀▀███████████[0m
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: fe6316ea4b73eaa73bb734120da2cb801518332d284a61c8776999ef78046616
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TV-NODES.ANS by The Venom (Cancer); released in cnc-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Limp Nodes
 # SAUCE Author: The Venom
 # SAUCE Group: Cancer
@@ -22,13 +22,13 @@ Write-Host '
       ███▄[34m [0;1;30;47m▄[0;1;30;40m██[0m██[1;30m█▌[0m  [1;30;47m░▒[0m
 [34m [0m     [1;34m [0m█[1;30;47m▄[0;1;30;40m███[0;1;30;47m▀░▒[0;1;30;40m█▀[0m    [1;30;47m▒[0m▌     [1m  [0m      [1mFor those that want an ansi done     [0m
 ▐[34m [0m   [1;34m [0;1;30m▄▓▓▓[0;1;30;47m▓▌[0m██[1;30;47m▒[0m▌[1;30m [0m▄▄██[1;30;47m▓▌[0m▄▄     [1m  [0m    [1mby my for your board, i can be  [0m
-█▄[34m [0m [1;30m▄██▓▓[0;1;30;47m▓▌[0m███[1;30;47m▓[0;1;30;40m▒[0m████▀[1;30m▒▌[0m▀▀▀▄     [1m  [0m  [1mreached on my board 9o9.343.1717  [0m
+█▄[34m [0m [1;30m▄██▓▓[0;1;30;47m▓▌[0m███[1;30;47m▓[0;1;30;40m▒[0m████▀[1;30m▒▌[0m▀▀▀▄     [1m  [0m  [1m                                  [0m
 ▀██[1;30m█[0;1;30;47m▀[0m▄█[1;30;47m▀▓▓▌[0m███[1;30;47m▐[0;1;30;40m▒▓[0m█▀  [1;30m▒▌[0m [1;30mA[0m    [1;37m  [0m     [1;37mor leave me some mail at my INet [0m
 [1;34m [0m [1;30m▐█[0m▀████[1;30;47m▒▌[0m████[1;30;47m▐[0;1;30;40m▓[0m█▄ [1;30m▓▓[0m  N      [1m  [0m   [1maddress... and i''ll get back to[0m
    [1;30m▀█▄▄▀[0m▐[1;30;47m░[0m▓████[1;30;47m▐[0;1;30;40m▓▓[0m█[1;30m█▓[0m   [1;37mS[0m        [1;37m   you ASAP [0m          [1;37m             [0m
  ▐▄▄[34m [0m [1;30m [0m▄██[1;47m░[0m█████[1;30;47m▐[0;1;30;40m███[0m██  [1mi[0m
    ▀█████▀[1;47m▒[0m███[1;47m▐[0m [1;30;40m▐██[0m  █▌                            [1m   [0m [1mthe venom.cnc[0m
-     ▀▀▀  [1;47m▓▌[0m█[1;47m▐[0;1;40m█[0m [34m [0m     [37m▐[0m                       [1;37man215951@anon.penet.fi[0m
+     ▀▀▀  [1;47m▓▌[0m█[1;47m▐[0;1;40m█[0m [34m [0m     [37m▐[0m                       [1;37m                      [0m
        [34m   [0;1;37m▐█[0;1;37;47m▄[0;1;37;40m█▌[0m
   [34m        [0m [37m█[0;1;37m▀[0m
    [34m      [0m [37m█▌[0m

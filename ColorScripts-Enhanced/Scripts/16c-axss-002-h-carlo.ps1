@@ -5,7 +5,7 @@
 # Source SHA-256: 321ea2f716baef62097226d627a8e941462ed54f80f337ca1cdf1cdaa7131f3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: $H-CARLO.ANS by Shinigami (.%.AXss.%. -97); released in axss-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: A Logo for a coder.
 # SAUCE Author: Shinigami
 # SAUCE Group: .%.AXss.%. -97
@@ -30,8 +30,7 @@ Write-Host '
                        [1;30m`''''::::::::::::::::::::::::::::::::''''`[0m
                             [1;30m`'''':::::::::::::::::::::''''``[0m
    [1;30mHe''s big and bad,[0m              [1;30m`'''':::::::::::''`[0m
-   [1;30m                 [0m                   [1;30m        [0m
-                                [1;30m.:;''`''∙[0m [1;30m`:::''[0m
+[1;30m[0m[1;30m[0m                                [1;30m.:;''`''∙[0m [1;30m`:::''[0m
                                 [1;30m::[0m  [1;30m`∙''[0m [1;30m.::''[0m
                                 [1;30m`::.[0m  [1;30m.:::''[0m
                                   [1;30m`::::''`[0m
@@ -40,6 +39,4 @@ Write-Host '
   [30;45m [0;34;40m   [0;35;40m  [0;30;45m [0;34;40m                  [0m             [30;45m [0;34;40m [0;35;40m  [0;30;45m [0;34;40m              [0m              [30;45m [0;34;40m   [0;5;34;40m [0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
 
-  [1;35m [0;35m [0;34m     [0;1;35m [0;34m [0;1;35m [0;35m [0;34m   [0;1;35m [0;35m [0;34m  [0;1;35m [0;34m [0;1;35m [0;35m [0;34m   [0;1;35m [0;35m [0;34m  [0;1;35m [0;34m [0;1;35m [0;35m [0;34m   [0;1;35m [0;35m [0;34m       [0;1;35m [0;35m [0;34m    [0;1;35m [0;34m [0;1;35m [0;35m [0;34m    [0;1;35m [0;35m [0;34m    [0;1;35m [0;35m [0;34m  [0;1;35m [0;35m [0;34m  [0;1;35m [0;35m [0m
-[37m  [0;1;35m [0;35m [0;34m   [0;1;35m [0;35m [0;34m   [0;1;35m [0;35m [0;34m [0;1;35m [0;35m [0;34m     [0;1;35m [0;35m [0;34m  [0;1;35m [0;35m [0;34m    [0m
-                                                      [37m  [0m    [1;35m$[0;34m [0;35mh[0;34m í ∩ í Ç /┤ m ì[0m'
+[1;35m[0;35m[0;34m[0;1;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0m[37m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0;1;35m[0;35m[0;34m[0m                                                      [37m  [0m    [1;35m$[0;34m [0;35mh[0;34m í ∩ í Ç /┤ m ì[0m'

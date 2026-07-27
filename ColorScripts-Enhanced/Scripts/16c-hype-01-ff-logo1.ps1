@@ -5,7 +5,7 @@
 # Source SHA-256: 5629ebb286695fe5dcbb94bbefeaf7141aad1c07298128bbada2cce65fa43c85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FF-LOGO1.ANS by Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hype.promo.logo.1
 # SAUCE Author: Free Fall
 # SAUCE Group: Hype.produktions
@@ -14,8 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;34m [0;34m        [0;1;34m  [0;34m    [0;1;34m [0m
-                                [36m░░[0;37m  [0;36m░░[0;37m  [0;36m░░[0m
+[1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0m                                [36m░░[0;37m  [0;36m░░[0;37m  [0;36m░░[0m
                             [36m░[0m                [36m░░[0m
                                [36m▄▄[0;1;36;46m░[0;1;36;42m▓[0;1;36;46m░[0;36m█[0;1;36;42m▓▓[0;36m█[0;1;30;46m░[0;36m█[0;1;36;42m▓[0;36m▄▄[0m    [36m░[0m
                         [36m░░[0m   [36m▄[0;1;36;42m░[0;1;30;46m░[0;36m▌█▐[0;1;30;46m░░[0;1;36;46m░[0;1;30;46m░[0;36m▀▀ ▀▀[0;37m [0;36m ■[0m

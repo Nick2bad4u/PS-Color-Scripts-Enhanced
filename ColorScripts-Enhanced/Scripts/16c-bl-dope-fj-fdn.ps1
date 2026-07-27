@@ -5,7 +5,7 @@
 # Source SHA-256: 72765af3d30f560c6e6e2e72863c59cac5a80f48a0ee60bcc4dc9aa2b9e3b7c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ_FDN!.ANS by Fastjack (boil^fdn); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: foundation
 # SAUCE Author: Fastjack
 # SAUCE Group: boil^fdn
@@ -28,14 +28,4 @@ Write-Host '
     ▄[1;47m▄[0m  [1;30mFj[0m░[1;47m░[0;1;33;47m░[0;1;37;47m█▒░[0m▌▄[1;47m▓▌[0m  ▄▀▄[1;47m░[0m  [1;30m░[0m ▌ [1;47m░██░[0m  [31m [0;37m ▄[0;1;37;47m▄█▀[0m▀  ▄▀▄[1;47m░[0m [1;30m░[0m ░[1;47m░██▄[0;1;33;47m░[0m▌ ▀▄[1;47m░[0m [1;30m░▀[0m▐▌ ░[1;47m░█▌[0m  [1;30m▀[0m
     ▀[1;47m▓▄[0m▄█▀▀█[1;47m░[0m▀░▀▀▀▀ [1;30m▄▄▄[0m [1;30m▄[0m ▀▄▄[1;47m░▄[0m▄▄█▀▀[1;30m▀[0m▀█[1;47m█▀[0m▀▒░ [1;30m█▄▄▄[0m ▀▀▀▀▀█[1;47m░[0m▀░▀▀▀ [1;30m▄[0m ▀▄▄[31;47m░[0;37;40m█▄▄█[0;1;37;47m░[0m▀▀▀
                              ░▀  [1;30m░░[0m    ▀       [1;30m▀▓░[0m  [1;30m▀[0m       [1;30m▀ ▀▀▀[0m   ▀▒░
-             f     o     u     n     d      a     t     i     o     n
-
-
-
-
-
-
-
-
-
-[1;30m--------------------------------------------------------------------------[nfo]-[0m'
+             f     o     u     n     d      a     t     i     o     n[0m'

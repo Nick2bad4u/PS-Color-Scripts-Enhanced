@@ -5,7 +5,7 @@
 # Source SHA-256: f5622deb5681b732cd36a212b85ef3345ede42dbc79a36373a6d790e9e7cc032
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: smp-rmrs.ans by emok (mimic4life); released in mimic36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: stupid bbs screen
 # SAUCE Author: emok
 # SAUCE Group: mimic4life
@@ -33,8 +33,7 @@ M[1mMM[0;1;33mMM[0;1;37mMM[0mb   [32m`[0;37m [0;32m.[0;37m `[0;1;37mⁿ
              [1;37m`ⁿ[0mp                 [31mj[0;1;31mP[0;31m''[0m   [37m`.[0m         [31m`[0;1;31m/S[0;1;33m$$[0;1;31m$$[0;31m$[0m    [31m#%[0;1;31m%#S$$$$S\[0;31m''[0m
                           [31m     ./[0m         [37m.[0m     [31m     `[0;1;31m┘*/[0;31mS    $[0;1;31m$$$$S\[0;31m*`[0m
                          [36m [0m    [31m:[0m                        [31m       ┘[0;1;31mⁿ"~[0m
-[37m        [0;1;37m    [0m              [31m [0m    [31m   [0m                     [31m   [0m
-
+[37m[0;1;37m[0m[31m[0m[31m[0m[31m[0m
 
 
 [37m─[cut]──────────────────────────────────────────────────────────────────────────[0m'

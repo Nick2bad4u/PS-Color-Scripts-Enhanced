@@ -5,7 +5,7 @@
 # Source SHA-256: 8a8446827eed3c785c2fdb7252a5c7d7236a9fa92833a97014625f0c1e43a8f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ODB-JI1.ANS by Ol' Dirty Bastard (READ THE INI FILE); released in dsco0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Jello Insanity
 # SAUCE Author: Ol' Dirty Bastard
 # SAUCE Group: READ THE INI FILE
@@ -35,6 +35,4 @@ Write-Host '
        [1;30;40m▌[0m▐[35;47m▓[0;1;35;45m░[0;33;45m▓[0;33;40m▌[0;1;35;40m▐█[0;45m█ [0m [1;35;40m▀[0;35m▀[0;33m▀▀ [0;1;35m▀[0;45m█ [0;35;40m▄[0;35;47m▒[0;35;45m [0;33;40m▀  [0;1;35;40m▀[0;45m█ [0;35;40m▄[0;35;47m▒[0;35;45m [0;33;41m▒[0;31;40m▌[0;1;35;40m▐█[0;45m█ [0m [1;35;40m▀[0;35m▀[0;33m▀▀▐[0;33;45m▓[0;1;35;45m░[0;35;47m▓[0;37;40m▌[0;33;40m▀▀[0;35;40m▀[0;1;35;40m▀ [0;1;35;45m [0;45m█[0;1;35;40m█▌  [0;31m▄[0;35m▄[0;33m▄[0;35;47m▒[0;35;45m [0;33;40m▀ [0;1;30;40m█[0m
        [1;30;40m█ [0;1;35;40m▀[0;35m▀[0;33m▀▀ [0;1;30m▄▄▄▄█▀▀▀█▄▄▄▄▄▄▄██▄▄▄▄▄▄▄▄▄▄▄▄▄█▀█ [0;33m▀▀[0;35m▀[0;1;35m▀ [0;1;30m█▀▀█▄▄▄▄▄█▄▄▄▄▄▄▄█▀[0m
        [1;30m▀▀▀▀▀▀▀▀[0m                                [1;30m▀▀▀▀▀▀▀▀[0m
-                    [1;30mj  e  l  l  [0;1;36mo    [0;1;30mi  n  s  a  n  i  t  y[0m
-
-                            [1;30m7 O 8 - 4 2 O - O 5 8 7[0m'
+                    [1;30mj  e  l  l  [0;1;36mo    [0;1;30mi  n  s  a  n  i  t  y[0m'

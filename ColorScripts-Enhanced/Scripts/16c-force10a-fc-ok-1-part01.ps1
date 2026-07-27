@@ -5,7 +5,7 @@
 # Source SHA-256: df4b16e1d412a6730101c6d8dc0dc5124441ae52df3af1ce1cf0ca18bcb85bed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FC-OK#1.ANS by Fruitcake (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Organized Kaos
 # SAUCE Author: Fruitcake
 # SAUCE Group: fORCE
@@ -15,15 +15,12 @@
 # Columns: 1-80
 
 Write-Host '
-   [30m                                                                         [0m
-[37m [0;30m                           [0m
-
+[30m[0m[37m[0;30m[0m
 [37m                      f R U i t C A k E  O f  f O R C E[0m
 
                                [37mP R E S E N t S [0m
 
-                      [30m                                [0m
-             [1;31m                         [0m                    [1;31m             [0m
+[30m[0m             [1;31m                         [0m                    [1;31m             [0m
             [1;31m [0m▄▄▓[1;31;47m   [0m▄▄▄▄▄[1;31m            [0;1;30m▓ [0;1;31m [0m      [1;30m▄▄▓[0m  [1;31m    [0;1;30m  ▄[0;1;31m [0m   [33m ▓▄▄[0;1;31m  [0m
            [1;31m [0m▓[1;31;47m     ░░░░▒▒▒▒▒▓▓▓▓▓[0;1;31;40m▄▄▄▓  [0;1;30;40m [0m [1;30m▀ ▄▄[0;1;30;47m▓▒▓█[0;1;30;40m▄▄[0m [1;30m▀▀[0;1;31m  [0m    [33m▄██[0;1;31;43m   [0;33m█[0;1;31;43m [0;33m▄[0m
           [1;31m [0m▐[1;31;47m   ░░░▒▒▒▒▓▓▓▓▓[0;1;31;40m█████████▌ [0m   [1;30m [0m [1;30m▀▓[0;1;30;47m▓▒▓[0;1;30;40m▀[0m         [33m▓[0;1;31;43m         [0;33m▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: c25e2dc2d414a75993ac60c13636f49d0a493f90c69530c510756d420da68442
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-PUKE.ANS by Pyx (Bamoosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Puke!
 # SAUCE Author: Pyx
 # SAUCE Group: Bamoosh
@@ -17,14 +17,6 @@
 Write-Host '
 
 
-                                  
-                                     
-                                                            
-                                                       
-                                                          
-                                                      
-                                                           
-                                  
                                       [1;33m▄[0m
     all the bad feelings     [1;33m▄[0m  [1;33m▄▀▄▓▀▀▄▄▀▀▄▄▄[0m
     in one big blurt        [1;33m▐▌▐▐▌▄▀▄▄▀[0m [1;33m▄▀▀[0m

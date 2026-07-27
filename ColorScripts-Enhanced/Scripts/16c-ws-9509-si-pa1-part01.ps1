@@ -5,7 +5,7 @@
 # Source SHA-256: 717fc8a50c6aa1b6fbffbba829706d84ff31165c2de2464d962d5ef8d83540e6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-PA1.ANS by soul survivor (ws-9509); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: paradise addiction
 # SAUCE Author: soul survivor
 # SAUCE Date: 19950904
@@ -14,8 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m                             [0m
-[1;35m███████████████████████████████[0;1;35;45m▓[0;1;35;40m████████████████████████████████████████████████[0m
+[1m[0m[1;35m███████████████████████████████[0;1;35;45m▓[0;1;35;40m████████████████████████████████████████████████[0m
 [1;35;40m███[0;1;35;45m▓[0;1;35;40m█████████████████[0;1;35;45m▀▀[0;35m▀▀▀▀[0;1;35;45m▀▀[0;1;35;40m██████[0;1;35;45m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35;40m██████████[0;1;35;45m▓[0;1;35;40m████████████████████[0;1;35;45m▓[0;1;35;40m█[0m
 [1;35;40m███████████████████[0;1;35;45m▀[0;35m▀[0;1;36m [0;32m▄▄[0;1;32;42m▄▄[0;32m▄▄[0;34m [0;35m▀▀▀[0;1;35;45m▀[0;35m▀▀[0;1;36m [0;32m▄▄▄▄▄▄▄▄▄▄[0;34m [0;35m▀▀▀▀▀[0;1;35;45m▀▀▀▀▀[0;1;35;40m███████████████████████[0m
 [1;35;40m█████████████████[0;1;35;45m▀[0;35m▀[0;1;36m [0;32m▄[0;1;32;42m▄[0;1;32;40m███[0;1;32;42m▓[0;1;32;40m██[0;1;32;42m▄▄▄[0;32m▄▄▄▀▀▀[0;1;32;42m▀▀▀[0;1;32;40m██████[0;1;32;42m▄▄▄▄▄[0;32m▄▄▄▄▄[0;34m [0;35m▀▀▀[0;1;35;45m▀▀[0;1;35;40m██████████████████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 96cc07f5230df19ff00ba637c186fd7134dfcf38608b0f8b33e2d24199a43b76
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-IONOS.ANS by Tang + Murcurochrome (m1-9604); released in m1-9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -16,7 +16,7 @@ Write-Host '
                                 ▀ ▀▀[1;47m░[0m  ▒░[30;47m█▄▄▒▄▄▄▄▄▄▄▄    [0;1;30;47m░░ [0m  ▄[1;30m░ [0;30;47m▌[0m  [37;40m▀▀▀▀▀▀ ▀[0m
                                     [37;40m▐  ░[0;30;47m▀ ▀█[0;1;37;40m▌[0;1;34;44m▒[0;1;36;44m░▒[0;1;34;40m▌[0;1;37;40m▄[0;1;34;40m▀[0;1;36;44m▒░[0;1;34;40m▄▄▄ [0;30;47m▄▄[0m  [30;47m  ▀[0m    [37;40m▐[0m
 [37;40m [0;1;37;40mi  [0;1;34;40mo  [0mn  o  s  p  h  e  r  e  [1;34m/  [0;1;37m2 [0m■  ▓[47m [0;40m█[0;47m [0;30;47m▐[0;1;37;40m▐[0m▒[1;34;44m▒[0;1;36;44m░▒▀░▒▒░[0;1;34;44m▓[0m [1;37;40m█▀  ▄[0;30;47m█▄▄[0;37;40m█[0;30;47m▀[0m  [37;40m▀[0m
-[37;40m [0;1;37;40m9  [0;1;34;40m1  [0m6  -  7  2  2  -  9  4  [1;34m5  [0;1;37m7 [0m▌  [47m     [0;30;47m▀[0;1;37;40m▀▄[0;1;34;40m▀▀[0;1;37;40m▄▄▄[0;1;34;40m▀▀[0;1;37;40m▄▀  ▄██▌[0;30;47m▌   [0m  [1;34;47m▒[0m
+[37;40m [0;1;37;40m   [0;1;34;40m   [0m                        [1;34m   [0;1;37m  [0m▌  [47m     [0;30;47m▀[0;1;37;40m▀▄[0;1;34;40m▀▀[0;1;37;40m▄▄▄[0;1;34;40m▀▀[0;1;37;40m▄▀  ▄██▌[0;30;47m▌   [0m  [1;34;47m▒[0m
                                     [1;34;47m▒[0m  [1;34;47m   [0m▓[47m   [0;30;47m▒[0;1;37;40m▀████▓▀  ▄█████[0;30;47m█ [0;37;40m▀░  [0;1;34;47m▓[0m
                                  [1;34;40m▄ ▄[0;1;34;47m▓[0m  [1;37;47m░  [0m█[47m    [0;40m▓[0;30;47m▀[0;37;40m▄[0;1;37;40m▀  ▄▄██████▓▌   [0m░ [1;34m█▀ ▀[0m
 [1;34m [0;1;37ms [0;1;34mk [0ma n k  d i [1;34ms [0;1;37mt[0m                 [1;34m▀  [0;1;37;47m▒░      [0m▀▀ ▄▄[47m [0;40m▄[0;1;40m▀▀▀██▀▀■   [0;30;47m▀[0m

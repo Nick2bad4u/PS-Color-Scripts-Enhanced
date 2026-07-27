@@ -5,7 +5,7 @@
 # Source SHA-256: b621fa1ff773debb81e89336115a7fa3546805d02eb6a0a34838c2bd897298c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-TDL1.ANS by Terminator 2 (Legend); released in legend07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Dark Lands
 # SAUCE Author: Terminator 2
 # SAUCE Group: Legend
@@ -34,7 +34,7 @@ Write-Host '
      [1;32m▐[0;1;32;42m██▓[0;1;32;40m▀[0;32m▀ ▀▐▀▐▌[0;1;37m▐[0;1;37;47m▓▒[0m [34m▐ ░   ▄■ ░ [0;32m▄  [0;1;37m▐▀▀▄ [0;32m▓█[0;1;32;42m░▒▒░[0;32m▀▀▀ ▄[0;1;32;42m░[0;32m▀ ▀█▄█[0;1;32;42m░░[0;32m█▄▀   ▀▀▀[0;1;32;42m░[0;32m▓▄▀▀▄▀▀ [0;1;37m▄[0m
       [1;32m▀ [0;32m▄▄▄[0;1;32;42m░[0m [1;32;42m░[0;32m▀ [0;1;37m▄[0;1;37;47m▓▒[0m▌ [34m▀[0m     [1;32m▄[0;32m▄▌[0;1;32m▐[0;1;32;42m▀[0;32m▄▌[0m      [1;37m▄ [0;32m▀▀▄▄▄▄▀▀[0m       [32m▀▀▀[0m            [32m▀ [0;1;37m▄▄▀▀▄[0m
 [1;37m   [0;1;32m▄[0;32m▄[0;1;32;42m▒▒░ [0;32m██[0;32;42m [0;32;40m▄▄ [0;1;37;40m▐[0;1;37;47m▓▓▒░[0m▄ [1;32m▄ ▀[0;32m▀[0;1;32;42m▒░[0;32m▀ ▄▄▀   [0;37m▀▄[0;1;37m▄   [0;32m▓▄ ▄  [0;1;37m▄  [0m. [1mt[0mh[1;30me dark lan[0md[1ms [0m.  [1m▄[0;1;47m▓▒▓[0;1;40m▄█[0;1;47m▓▓[0m
-[1;40m  [0;1;32;40m▓[0;1;32;42m██▓▓▒░░ ░[0;32m▓ ▄ [0;1;37m▀▌[0m▀    [1;32m▀[0;1;32;42m▒░[0;32m▀▀[0;1;32;42m░▒░[0;32m▌    [0;37m▐[0;1;37;47m░▒▓[0;1;37;40m▄▄ [0;32m▀ [0;1;37m▄▄█▌  [0m. call it today! .  [1m▐[0;1;47m█▓[0;1;40m▀█[0;1;47m▓[0;1;40m▌▐[0m
+[1;40m  [0;1;32;40m▓[0;1;32;42m██▓▓▒░░ ░[0;32m▓ ▄ [0;1;37m▀▌[0m▀    [1;32m▀[0;1;32;42m▒░[0;32m▀▀[0;1;32;42m░▒░[0;32m▌    [0;37m▐[0;1;37;47m░▒▓[0;1;37;40m▄▄ [0;32m▀ [0;1;37m▄▄█▌  [0m                    [1m▐[0;1;47m█▓[0;1;40m▀█[0;1;47m▓[0;1;40m▌▐[0m
 [1;40m [0;1;32;40m▐[0;1;32;42m█▓▓▒▒░[0;32m▓▀▀▀[0m     [1;37m▀[0;1;30m▄[0;1;30;47m▀[0;1;30;40m▀[0m▄  [32m▐[0;1;32;42m░[0;32m▄[0;1;32;42m░[0;32m▀▀▄   [0;37m▄ ▀ [0;1;37m▐▌▀▓▄ ▀ ▀▓  [0m. grab the quarter   [1m▀▀▓▌▐█▓[0m
 [1;32m▀ ▀▀▀ [0;32mt▄▄▄▓   [0;1;30m▄[0m▄[1;30;47m▀[0m▀▄▄▀[1;30;47m░[0m▌ [32m▀[0;1;32;42m░[0;32m▄▄▓▀▀  [0;37m▄▄[0;1;37;47m░[0;1;37;40m▄▄   ▐▌ [0;32m▄▌ [0;1;37m░[0m     and dial it you fool . [1m▀[0m
 [1m▀▓ [0;1;47m█▓[0;1;40m▀[0;32m2▀▀▓    [0;37m▀▄▄[0;1;30;47m▒[0m▀▀▌ [1m▄■[0m       [32m▓▄  [0;37m▀[0;1;37;47m▒[0;1;37;40m▀[0;1;37;47m▓[0m [1;37;40m▄▀▀▄ [0;32m▀  [0;1;37m▄▄▀ [0m. ansi/logo by t2 and id .[0m'

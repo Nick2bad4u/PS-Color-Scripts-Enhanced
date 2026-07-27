@@ -5,7 +5,7 @@
 # Source SHA-256: a68d8ed36a31928fc81c48e24b3a7391ccac9145ff7c64a3d4d70c720613ef7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VG-MIST.ANS by Vertigo (Bleach); released in bleach02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mist
 # SAUCE Author: Vertigo
 # SAUCE Group: Bleach
@@ -51,15 +51,9 @@ Write-Host '
                         [1;36;46m▓█[0;1;36;40m▀[0;1;30;40m▒▓▀  [0;1;36;40m▀[0;1;36;46m█▓[0m [1;36;46m▓█[0;1;36;40m▀  ▄   █[0;1;36;46m█▓[0m [1;30m▀▓▒[0;1;36;46m▓█[0;1;36;40m▀[0m
                         [1;36m▀  [0;1;30m▀[0m      [1;36m▀ ▀[0m     [1;36m▀▀▀▀▀▀   [0;1;30m▀[0;1;36m▀[0m
                           [1;30m           [0m
-                    [1;30m [0m                [1m [0;36m [0;1;34m [0;1;30m [0m
-
-                    [1;30m  [0m      [36m [0;1;34m [0;1;30m [0;34m [0;36m   [0;1;34m   [0;1;30m [0;34m [0;36m   [0;1;34m  [0;1;30m  [0;36m   [0;1;34m  [0;1;30m [0;34m [0m
-                     [1;30m  [0m     [36m [0;1;34m [0;1;30m [0;34m [0;36m    [0;1;34m   [0;1;30m [0;34m [0;36m  [0;1;34m [0;1;30m [0;34m [0;36m   [0;1;34m  [0;1;30m [0;34m [0m
-                      [1;30m  [0m        [36m  [0;1;34m  [0;1;30m [0;34m [0;36m   [0;1;34m  [0;1;30m [0;34m [0m
-                       [1;30m  [0m   [36m6[0;1;34m1[0;1;30m9[0;34m∙[0;36m7[0;1;34m2[0;1;30m7[0;34m∙[0;36mst[0;1;34mi[0;1;30mf[0;34m([0;36m78[0;1;34m4[0;1;30m3[0;34m)[0;36m1[0;1;34m4.[0;1;30m4[0m
-                        [1;30m  [0m  [36m   [0;1;34m  [0;1;30m [0;1;34m [0;36m   [0;1;34m  [0;1;30m [0;1;34m [0;36m  [0;1;34m  [0;1;30m [0m
-                        [1;30m  [0m  [36m   [0;1;34m  [0;1;30m [0;1;34m [0;36m   [0;1;34m  [0;1;30m [0;1;34m [0;36m  [0;1;34m  [0;1;30m [0m
-                            [36mob[0;1;34mv[0;1;30m²[0m
+[1;30m[0m[1m[0;36m[0;1;34m[0;1;30m[0m
+[1;30m[0m[36m[0;1;34m[0;1;30m[0;34m[0;36m[0;1;34m[0;1;30m[0;34m[0;36m[0;1;34m[0;1;30m[0;36m[0;1;34m[0;1;30m[0;34m[0m[1;30m[0m[36m[0;1;34m[0;1;30m[0;34m[0;36m[0;1;34m[0;1;30m[0;34m[0;36m[0;1;34m[0;1;30m[0;34m[0;36m[0;1;34m[0;1;30m[0;34m[0m[1;30m[0m[36m[0;1;34m[0;1;30m[0;34m[0;36m[0;1;34m[0;1;30m[0;34m[0m                       [1;30m  [0m   [36m6[0;1;34m1[0;1;30m9[0;34m∙[0;36m7[0;1;34m2[0;1;30m7[0;34m∙[0;36mst[0;1;34mi[0;1;30mf[0;34m([0;36m78[0;1;34m4[0;1;30m3[0;34m)[0;36m1[0;1;34m4.[0;1;30m4[0m
+[1;30m[0m[36m[0;1;34m[0;1;30m[0;1;34m[0;36m[0;1;34m[0;1;30m[0;1;34m[0;36m[0;1;34m[0;1;30m[0m[1;30m[0m[36m[0;1;34m[0;1;30m[0;1;34m[0;36m[0;1;34m[0;1;30m[0;1;34m[0;36m[0;1;34m[0;1;30m[0m                            [36mob[0;1;34mv[0;1;30m²[0m
 [1;30m ▄ [0;1;30;44m░[0m [1;30;44m░[0m [1;30;44m░[0;34m▀▀[0;1;30m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30m█[0m [1;30m [0;1;30;44m▒[0m [1;30;44m▒[0m [1;30;44m▒[0m   [1;30m  [0m [1;30m                                         [0m [1;30m                  [0m   [1;30m  █[0m
 [1;30m█[0m  [1;30m▀▄▀[0m [1;30;44m▓[0;1;30;40m▄[0;1;30;44m▓[0m  [1;30m                                                     [0m              [1;30m█[0m

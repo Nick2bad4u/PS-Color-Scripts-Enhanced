@@ -5,7 +5,7 @@
 # Source SHA-256: dc126ed9ce28118e7f3af6f77fd1cb5d3c2f000480436cbe911ff374a1d4434f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-OPOST.ANS by Rawlock (Opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Outpost
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -32,6 +32,4 @@ Write-Host '
 [1;30m▀[0;32m▀[0;1;32;42m▀[0;1;32;47m▓[0;1;32;40m▀[0m [1;30m▀▀▀▀ ▀ ▀▀▀▀[0m [1;30m▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m   [1;30m▀▀▀[0m  [1;30m  ▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓rl![0m░[1;30m▀▀[0m▀[1;30m▀[0;1;30;47m▓[0m
           [1;30m  ▀■▄ ■▀[0m     [1;30m▄[0m    [1;30m▄[0m mAStER[1;30m:[0m iRONNUkE!     [1;30m▀[0m [1;30m■[0m
         ░       [1;30m  [0m
-       [1m  [0m    [1;30m [0m [1m     [0;1;30m [0m     [1m          [0;1;30m [0m   [1;30m [0m     [1m      [0m  [1m    [0m  [1m        [0m
-          [1m      [0m  [1;30m  [0m             [1;30m [0m [1m         [0m  [1m       [0;1;30m  [0m
-       ░ [1;30m▀[0m                       [1;30m▓ [0m                                 [1;30m▀[0m   ░[0m'
+[1m[0m[1;30m[0m[1m[0;1;30m[0m[1m[0;1;30m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1m[0;1;30m[0m       ░ [1;30m▀[0m                       [1;30m▓ [0m                                 [1;30m▀[0m   ░[0m'

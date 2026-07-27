@@ -5,7 +5,7 @@
 # Source SHA-256: 1e0aa16325d47bd429e67208581f5cb58eb951bcd73d4ed38dd06222a7d8d60c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-CCOL.ANS by spirit of rage (Brotherhood); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: compo colly #1
 # SAUCE Author: spirit of rage
 # SAUCE Group: Brotherhood
@@ -38,8 +38,6 @@ Write-Host '
                                                      [1;30m▀[0m
 --- nice font eh?! =) ----------------------------------------------------------
 
-                                                                            
-                                                                 
 
 [1;30m         [0m               [36m     [0;37m [0;36m%[0;37m [0;1;36mc a r n a g e [0;36m%[0m
                      [34m▐[0;1;34;47m░[0;1;37;47m░░[0;1;34;47m▒▒▓▓▓[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m███▓▓▓▓[0;1;34;40m▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░[0m

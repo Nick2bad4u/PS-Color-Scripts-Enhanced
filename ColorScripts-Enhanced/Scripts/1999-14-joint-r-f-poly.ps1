@@ -28,5 +28,4 @@ Write-Host @"
 
 
      [1;34mA[0;1;31m [0;1;34mjoint between[0;1;31m Rippa [0;1;34mand[0;1;31m Fever[0;1;34m,[0;1;31m [0;1;34mcool huh?[0m
-[1;34m[0m
 "@

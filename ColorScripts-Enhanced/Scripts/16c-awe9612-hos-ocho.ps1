@@ -5,7 +5,7 @@
 # Source SHA-256: c303a220df8784c32ab957f757b082ba54b3b1362df0461a0f8c58335d86fbbb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HOS-OCHO.ANS by Hos (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ocho
 # SAUCE Author: Hos
 # SAUCE Group: AWE Lettering
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m        [0m
-
+[1m[0m
 
 [1m    [0m  [1;30m,[0m                 [34m [0m                  [34m░░░[0m                         [34m ░[0m      [34m░[0m
     [34m▄▄▄[0;1;30m ▬[0m          [34m▄▄▄▌ [0m      [34m▄[0m   [1;30m░▌[0m       [34m░░░▄▄▄▄▄▄[0;37m [0;34m▄▄[0;37m [0;34m▄[0m        [34m▄▄▄▌ [0;37m [0;34m░▓▄▄▄[0m   [34m░[0m

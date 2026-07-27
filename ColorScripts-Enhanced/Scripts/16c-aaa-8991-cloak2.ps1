@@ -5,7 +5,7 @@
 # Source SHA-256: 6158cc75e0e6c49510db96c833e7ba4b696b84c761aa3948972885baef23e0b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CLOAK2.ANS by Mondoman (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -18,7 +18,7 @@ Write-Host '
  [31m█[0m             [31m█[0m     [31m█[0m     [31m█[0m   [31m█[0m  [31m█[0m    [31m■[0m   [31m█[0m  [31m▄▀[0m      [30m█[0m   [1;30m█[0m▓[1;30;47m░░░[0m▓[1;30m█[0m▓▓[1;30;47m█[0m [1;33;40mS[0;1;31;40mÿ[0;1;33;40mS[0;1;31;40mφ[0;1;33;40mP:[0m
  [31m█▌[0m            [31m█[0m     [31m█[0m     [31m█[0m  [31m█[0m    [31m█[0m       [31m█▀▀▄[0m       [30m█[0m  [1;30m█[0;1;30;47m░░[0m▓▓▓[1;30m█[0m▓[1;30;47m░[0;1;30;40m█[0m   [1;37;40mS[0;1;34;40mU[0;1;37;40mR[0;1;34;40mA[0;1;37;40mK[0m
  [31m▐█[0m        [31m▄■[0m  [31m█[0m      [31m▀▄▄▄▀[0m   [31m█▄▄[0m  [31m█[0m       [31m█[0m   [31m█[0m      [30m█[0m [1;30m█[0;1;30;47m░[0m▓[1;30;47m░░░[0;1;30;40m█[0;1;30;47m░░[0;1;30;40m█[0m
-  [31m▀█▄▄▄▄▄▄█▀[0m   [31m█▀▀▄▄[0m    [31m▄[0m    [31m█[0m   [31m█▀[0m [31m█[0m  [31m▄[0m  [31m█[0m     [31m█[0m     [30m█[0m [1;30m▀[0;1;30;47m▄░[0m▓▓[1;30m█[0m▓▓[1;30m█[0m [1;37m([0;1;32m516[0;1;37m)[0;1;35m7[0;1;36m9[0;1;33m1[0;1;35m-[0;1;36m2[0;1;33m1[0;1;35m5[0;1;36m6[0m
+  [31m▀█▄▄▄▄▄▄█▀[0m   [31m█▀▀▄▄[0m    [31m▄[0m    [31m█[0m   [31m█▀[0m [31m█[0m  [31m▄[0m  [31m█[0m     [31m█[0m     [30m█[0m [1;30m▀[0;1;30;47m▄░[0m▓▓[1;30m█[0m▓▓[1;30m█[0m [1;37m [0;1;32m   [0;1;37m [0;1;35m [0;1;36m [0;1;33m [0;1;35m [0;1;36m [0;1;33m [0;1;35m [0;1;36m [0m
     [31m▀▀▀▀▀▀[0m    [31m▀[0m     [31m▀▀▀▀[0m    [31m█[0m     [31m▌[0m  [31m▀▄▀[0m [31m▄▀[0m     [31m▀▄▄▀[0m  [1;30m█[0m█ [1;30m▀[0;1;30;47m▄[0m▓[1;30m█[0;1;30;47m░░[0;1;30;40m█[0m   [1;31;40mTHG[0m [1;31;40m-[0;1;32;40m-[0m [1;32;40mPHX[0m
        [31m [0m                          [31m■[0m                  [1;30m█[0m████ [1;30m▀▀▀▀[0m    [1;34mUL[0;1;36mTR[0;1;37mA[0m [1;36mTE[0;1;34mCH[0m
        [31m [0m                                            [1;30m█[0m████[1m███[0m█       [1;35m<[0;1;31mA[0;1;35m.[0;1;33mA[0;1;35m.[0;1;34mA[0;1;35m>[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 2fb3c133045a4442e52db2cd09f3a37129b6e97ed27a620e742958caf0937121
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ID-DV4.ANS by Iodine (fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Disembodied Voices
 # SAUCE Author: Iodine
 # SAUCE Group: fire
@@ -23,7 +23,7 @@ Write-Host '
 [31m  [0;35m▀  [0;31m▄[0m            [33m▀  [0;33;47m█[0;33;40m▄▄ ░   [0;31;40m■[0m         [1;33;40m▄▄▀  ■ ■ [0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0m
 [33;40m    [0;30;41m▓[0;31;40m▌    [0;32;40m░[0;30;42m▓[0;34;40m▄   [0;33;40m■  ▄[0;33;47m█[0;33;40m▄[0;33;47m█[0;33;40m▀▀[0m               [31;40m▄   ───────────────────────────────────[0m
 [31;40m  [0;35;40m░ [0;30;41m░[0;31;40m▌ [0;32;40m▌  ▓[0;30;42m░▓[0m        [33;40m▀[0;1;31;43m▀[0;33m▀ ▀   ■[0m      [30;42m▓▓[0m  [31;40m▐[0;30;41m▓[0m   [1;35;40m> > [0;36mDISEMBODIED VOICES IS ON THE[0m
-[36m  [0;35m▀ [0;31m▄▌ [0;1;32;42m▄[0;32m▌▄[0;1;32;42m▄▄[0;1;32;40m░    [0;33m▓▀  ▀[0m             [30;42m▓░[0;32;40m▓░ [0;31;40m▐▓[0m       [1;34;40mWEB [0;36mAT [0;1;33mWWW.DISEMBODIED.COM [0;35m>[0m
+[36m  [0;35m▀ [0;31m▄▌ [0;1;32;42m▄[0;32m▌▄[0;1;32;42m▄▄[0;1;32;40m░    [0;33m▓▀  ▀[0m             [30;42m▓░[0;32;40m▓░ [0;31;40m▐▓[0m       [1;34;40m    [0;36m   [0;1;33m                    [0;35m [0m
 [35m  [0;31m▄▄▄█ [0;1;32m▀▀[0;1;32;42m█[0;1;32;40m▌▀[0m                     [1;32;40m░[0;32m▐[0;1;32;42m░▓▓[0;1;32;40m░ [0;31m▐  ▄▌ ────────────────────────────────[0m
 [31m ▐[0;1;31;41m▀   [0;31m▄▌    ▬    [0;32m■  [0;30;42m▓▓[0;34;40m▄[0m          [32;40m▀ [0;1;32;40m▄██[0;32m▌ [0;31m▐▄▄ ░  [0;33m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0;30;43m►[0;33;40m►[0m
 [33;40m  [0;31;40m▀▀▄[0;31;47m▓█[0;31;40m▄▄▀▀    ▌   [0;32;40m▀▓[0;30;42m░▓[0m     [31;40m■    ▄ [0;1;32;40m▀ ▀ [0;31m▐██▄   ────────────────────────────────[0m

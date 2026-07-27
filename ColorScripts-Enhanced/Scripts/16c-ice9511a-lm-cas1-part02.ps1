@@ -5,7 +5,7 @@
 # Source SHA-256: e4bbdf2dfb922fe3d46d8f3a79bd43026ba1af21ca497d6c3d99fdbec2bdc4aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM-CAS1.ICE by Lemonade (iCE); released in ice9511a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Castrau...
 # SAUCE Author: Lemonade
 # SAUCE Group: iCE
@@ -40,4 +40,4 @@ Write-Host '
 [37m  [0;1;35m▀[0;1;35;45m▓[0;1;35;40m▄[0m  [1;35m▄[0;1;35;45m▓▓[0;1;35;40m▌[0;35m [0;1;35m▐[0;1;35;45m▒[0;35m  [0;1;35;45m▒[0;1;35;40m   [0;35m [0;1;35m▐[0;1;35;45m▓[0;1;35;40m▌▐[0;1;35;45m▒▓▒[0;1;35;40m▌[0;1;35;45m▓▓[0;1;35;40m▌[0;35m   [0;1;35;45m▓▓▓▓[0;1;35;40m▌[0;35m [0;1;35m▐[0;1;35;45m▒[0;35m  [0;1;35m▐[0;1;35;45m▓▓[0;1;35;40m▄[0;1;35;45m▓▓[0;1;35;40m▌▐[0;1;35;45m▒▒[0;35m  [0;1;35m▐[0;1;35;45m▒[0;35m [0;1;35m▐[0;1;35;45m▓▒▓[0;1;35;40m▌[0;1;35;45m▓▓[0;1;35;40m▄[0;1;35;45m▓▓▓[0;1;35;40m▐[0;1;35;45m▒▓[0;1;35;40m▌[0;35m [0;1;35m▐[0;1;35;45m▓[0;35m  [0m
 [37m [0;1;35m░░▒[0m [1;35m▀▀[0;35m [0;1;35m▀▀▀[0m [1;35;45m▓[0;1;35;40m▌[0;35m [0;37m [0;35m [0;1;35;45m▓[0;1;35;40m▄[0m [1;35m▄[0;1;35;45m▓[0;1;35;40m▀[0m [1;35m▀[0;1;35;45m▓▓▓[0;1;35;40m▀▀▀▀[0m [1;35m▄▀▀[0m [1;35m▀▀▀[0m [1;35;45m▓[0;1;35;40m▌[0;35m   [0;1;35m▀▀[0;1;35;45m▓▓[0;1;35;40m▀▀[0;1;35;45m▓▓[0;1;35;40m▀[0;35m [0;37m [0;1;35;45m▓[0;1;35;40m▌[0;35m [0;1;35m▀[0;1;35;45m█▓▓[0;1;35;40m▀ ▀[0;1;35;45m▓▓[0;1;35;40m▀▀[0;1;35;45m▓▓[0;1;35;40m▀[0;35m [0;37m [0;1;35;45m▓[0;1;35;40m▌[0;35m  [0m
    [1;35m░[0m       [35m  [0;1;35m▀[0m   [1;35m ▀▀▀  [0m  [1;35m ▀[0m     [1;35m▐▌[0m      [35m  [0;1;35m▀[0m     [35m   [0;37m  [0;1;35m▀ [0m [35m  [0;1;35m▀[0m   [1;35m▀[0m    [35m   [0m     [35m  [0;1;35m▀[0m
-                        [1m3[0m  O  1  [1;35m▀[0m-   [1m8[0m  9  8  -  [1m4[0m  O  8  8[0m'
+                        [1m [0m        [1;35m▀[0m    [1m [0m           [1m [0m         [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 22350caeb42fbda1edbd39b68320f64299c4359af202242ce2af0fad263fba11
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-BLK62.ANS by Pash (27inch03); released in 27inch03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -33,4 +33,4 @@ Write-Host '
 [34m██▌ ░▓█[0;1;34;44m▀▀▀███████████[0;1;34;47m▓▓[0;1;34;44m██▓[0;34m▄[0;1;33m   ▀[0;1;33;43m▄   ▀▀▀▀[0;1;33;40m██[0;1;33;43m▓█[0;1;33;40m███▀[0;31m░█▀[0;34m▄██[0;1;34;44m▄█[0;1;34;47m█▓[0;1;34;44m█▄[0;34m▌▀██▀▀▀ [0m
           [34m▀▀▀▀▀▀▀▀▀[0;1;34;44m ▀▀▀▀▀▐█▄[0;34m▄[0;1;33m   ▀[0;1;33;43m▄[0;1;30;43m▄▄▓[0;33m▄[0;1;33;43m [0;33m▀[0;1;33;43m ░▓[0;1;33;40m█▀ [0;31m▀[0;1;33m [0;34m▄██[0;1;34;44m▄██[0;1;34;47m▓▓░▓[0;1;34;44m▓░[0;34m [0m   [1;30mbl[0mack[1;33m:[0;1;37m6[0;1;33m:[0mbb[1;30ms[0m
                          [34m▀▀▀[0;1;34;44m▀░[0;34m▄   [0;1;33m ▀[0;1;30m▀[0;1;30;43m░[0;1;33;43m░[0;1;33;40m▌ ▀[0;31m ▄░[0;34m ▄█[0;1;34;44m▄▄█████[0;1;34;40m█[0;1;34;44m▀[0;1;34;40m▀[0;34m▀[0;37m  [0;1;30m-[0m [1;30m-------------[0m [1;30m-[0m
-                            [34m  ▀▓▄      [0;1;33m [0;34m [0;31m  [0;34m ▄█[0;1;34;44m██▀▀[0;1;34;40m▀▀[0;34m▀▀[0;37m    [0;1;30mbla[0mck6bbs[1;33m.[0;1;37mdarktech[0;1;33m.[0mor[1;30mg[0m'
+                            [34m  ▀▓▄      [0;1;33m [0;34m [0;31m  [0;34m ▄█[0;1;34;44m██▀▀[0;1;34;40m▀▀[0;34m▀▀[0;37m    [0;1;30m   [0m      [1;33m [0;1;37m        [0;1;33m [0m  [1;30m [0m'

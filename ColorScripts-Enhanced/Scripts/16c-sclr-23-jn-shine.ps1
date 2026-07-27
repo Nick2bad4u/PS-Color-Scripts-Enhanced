@@ -5,7 +5,7 @@
 # Source SHA-256: dd3d6c06e4d84b523d4be2f2165523e03f5fab9a59e44205a06dc4632c156d46
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JN-SHINE.ANS by Jashiin (sclr-23); released in sclr-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20011024
 # SAUCE Dimensions: 80x32
 # Lines: 1-32
@@ -33,6 +33,5 @@ $$$$$$$$$$$$$$$$[1;30m$$$[0m$$$[1m\`[0m [36md$[0;1;36m$$$$$$[0;36m$ÑÑÑ
 $$$$$$$$$$$$$$$$$$$$$$; [36m;$[0;1;36m$[0;1;37m$[0;1;36m$$$$$[0;36m$ÿÿyy [0m
 [37m$$$$$$$$$$$$$$$$$$$$$$/[0;1;30m_[0m [36m┘┘²²²²$$$ÑÑ$[0;1;36m$[0m
 [1;30m$[0m$$$$$$$$$$$$$$$$$$$[1m$[0m$$[1m$y[0my[1myÿÿÿ[0m [33m,[0;1;33m⌐¬[0;33m.[0;36m ²²[0m
-[37m                         [0;1;37m [0m  [1m  [0m [1;33m   [0;33m  [0;1;36m [0m   [1m                                   [0m
-$$$$[1;30m$$$[0m$$$$$$$$$$$$$$$$$$$y[1;33my[0myy[1my[0;1;33mÿ[0m [33m┘''[0m     [1;37mjashiin / mimic 2001[0m
+[37m[0;1;37m[0m[1m[0m[1;33m[0;33m[0;1;36m[0m[1m[0m$$$$[1;30m$$$[0m$$$$$$$$$$$$$$$$$$$y[1;33my[0myy[1my[0;1;33mÿ[0m [33m┘''[0m     [1;37mjashiin / mimic 2001[0m
 $$$$$$$$$$$[1;30m$$$$[0m$$[1;30m$$[0m$$$$$$$$$$[1m$[0m$[1;33mÑ[0;1;36m      [0m'

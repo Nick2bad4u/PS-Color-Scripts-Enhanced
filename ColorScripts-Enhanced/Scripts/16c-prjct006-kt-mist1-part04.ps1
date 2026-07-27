@@ -5,7 +5,7 @@
 # Source SHA-256: d50b14b5eb5241dbfc203b2fafd363003e2bc974a521fe2d3a5cc5f406c76769
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KT-MIST1.ANS by K-thulu++ (mISTFUNK 1999); released in prjct006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: SiETCH TaBR
 # SAUCE Author: K-thulu++
 # SAUCE Group: mISTFUNK 1999
@@ -17,9 +17,7 @@
 Write-Host '
 
 
-           [31m                                                                 [0m
-[31m                                                                                [0m
-[31m                                      ▄▄▄▄[0;37m [0;31m            [0m
+[31m[0m[31m[0m[31m                                      ▄▄▄▄[0;37m [0;31m            [0m
                       [31m  [0;37m   [0;31m ▄▄▄▄▄[0;37m  [0;31m▄████▀[0;37m    [0;31m▄█████[0m     [31m█[0m       [31m██[0m
       [31m▄▄▄▀▀▀[0;37m    [0;31m█[0m     [31m ▄▄██▀▀[0m     [31m██▀▀██[0;37m    [0;31m██▀[0;37m   [0;31m██[0;37m    [0;31m██[0m       [31m█▄[0m
 [31m███▀▀▀[0m          [31m██[0m     [31m█[0m       [31m▄▄▄[0m     [31m██[0;37m   [0;31m██[0m           [31m██▄▄▄█▀▀██▄[0m
@@ -35,17 +33,11 @@ Write-Host '
         [1;30m█   █[0m       [1;30m█  █   █  █  █ █    █ █  █ █    █ █   █ █ █  █ █ █[0m
         █████       ████   ████  █▄▄▀▀▀▀▄█   █▄▄▀▀▀▀▄█    █▄▄▄█  █▄▄▄█
 
-[33m     [0;36m            [0;33m   [0;32m   [0;33m  [0;37m   [0;33m [0;37m      [0;33m [0;37m  [0;33m                  [0;1;32m      [0;33m [0;1;36m    [0;33m    [0m
-[1;35m         [0;33m [0;1;36m    [0;33m    [0;37m [0;1;36m                  [0m [33m    [0;1;33m           [0;33m   [0;1;30;42m                  [0m
-[33m      [0;1;32m             [0m [33m        [0;37m [0;1;32m                    [0m [1;36m                             [0m
+[33m[0;36m[0;33m[0;32m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;1;32m[0;33m[0;1;36m[0;33m[0m[1;35m         [0;33m [0;1;36m    [0;33m    [0;37m [0;1;36m                  [0m [33m    [0;1;33m           [0;33m   [0;1;30;42m                  [0m
+[33m[0;1;32m[0m[33m[0;37m[0;1;32m[0m[1;36m[0m
 
 
-
-            [31m                                                                   [0m
-[31m                                                                               ↑[0m
-[31m                                                                            [0m
-[31m                                                                                [0m
-[31mribs!)[0m
-               [37m                                                                [0m
-                 [37m▄[0m
+[31m[0m[31m                                                                               ↑[0m
+[31m[0m[31m[0m[31mribs!)[0m
+[37m[0m                 [37m▄[0m
                 [37m▀█▀                                                       [0m'

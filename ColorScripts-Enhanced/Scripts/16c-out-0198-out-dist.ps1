@@ -5,7 +5,7 @@
 # Source SHA-256: e335d15418b0d66b5e624006fc9d6a9753494cbabb31d45b5426bedbb2bace85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OUT-DIST.ANS by Sandy Chidester (out-0198); released in out-0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -13,8 +13,8 @@ Write-Host '
    [1;30m▀▄▄▓▒░░▒▓▓█▀[0m                      [32m▄[0;1;32m▄[0;32m▄[0;1;32m▄▄▄[0m      [1mO[0mu[1;30mtWorld Arts Distribution Site[0m
      [1;30m▀[0m▄[1;30m▄▓ ░▒▓▀[0m                    [32m▄[0;1;32m██▀█▀█▀ ▀█[0;32m▄   [0;1mA[0mn[1;30msi/RIP1.54/RIP2/VGA Graphics[0m
         [1;30m▀▓   [0;32m▀[0;1;32m▄[0m                  [32m▐[0;1;32m█  ██▀[0m     [1;32m▀[0;32m█  [0;1mA[0mr[1;30mtpack released monthly[0m
-         ▐[1;30m▌  [0;32m░▓▓[0;1;32m▄[0m               [1;32m▐█ ▄█▀[0;32m█[0;1;32m█  [0;32m▄[0;1;32m▀█[0;32m▄█▌ [0;1mh[0mt[1;30mtp://www.outworldarts.com/[0m
-          [1m█[0m▄   [32m░▓[0;1;32m█[0m              [1;32m▐█▀   [0;33m▓[0;32m▀▄▀[0;33m▒░ [0;32m▀▐▌ [0;1mg[0mr[1;30maphics@outworldarts.com[0m
+         ▐[1;30m▌  [0;32m░▓▓[0;1;32m▄[0m               [1;32m▐█ ▄█▀[0;32m█[0;1;32m█  [0;32m▄[0;1;32m▀█[0;32m▄█▌ [0;1m [0m [1;30m                          [0m
+          [1m█[0m▄   [32m░▓[0;1;32m█[0m              [1;32m▐█▀   [0;33m▓[0;32m▀▄▀[0;33m▒░ [0;32m▀▐▌ [0;1m [0m [1;30m                       [0m
            [1m█[0m▄ ▄    [1;32m▄[0m            [1;32m▐[0;32m█ [0;33m▓  ▄[0;1;31;43m▒[0;33m▌[0;1;31;43m░[0;33m▄  ▒[0;32m▐▌ [0;1mG[0mr[1;30maphics for doorgames,[0m
        [1;31m▄    [0;1m▀[0m▀      [32m▓[0;1;32m█[0m          [1;32m▐ ▄ [0;1;32;43m [0;1;31;43m▒[0;1;32m▄▀[0;33m■[0;32m▒▄[0;1;31;43m░ [0m [32m█▌ [0;1mb[0mb[1;30ms'', web pages, etc.[0m
 [1;30m [0;1;31m▄▄▀▀█▀[0m      [1;30m▀▄[0m▄▀▄   [32m▓[0;1;32m█▄[0m        [1;32m▐█▒ ▄█▄▓ [0;32m▓▒▀▄░█▌[0m

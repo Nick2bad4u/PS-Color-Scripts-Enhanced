@@ -5,7 +5,7 @@
 # Source SHA-256: af675c99e9bfc87249b46f0e219ac4ee1a506c790745481e5e190e48924f33b1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-R666.ANS by Thrasher + Ize (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Route 666
 # SAUCE Author: Thrasher & Ize
 # SAUCE Group: Fuel Productions
@@ -32,7 +32,7 @@ Write-Host '
 [37m  [0;34m░[0m   [34m▄[0m         [34m▌[0;37m  [0;34m▌[0m   [34m▀[0;37m  [0;1;37;47m [0;1;37;40m█▄[0m ▀[1m▀ [0m [1;47m [0;1;40m█[0m ░[1;47m [0;1;40m█ [0m░[1;47m [0;1;40m█▀[0m  [1m [0m [1;47m [0;1;40m█[0m ░▓[1m█[0m [34m█[0;1;34;44m▀[0;34m▌██▄[0;1;34;44m▄▌[0;34m▄▐█▄[0;37m  [0;34m▀[0;1;34;44m░[0;34m▀[0;37m  [0;34m▄█[0;1;34;44m▀[0;34m█[0m
 [37m  [0;34m▌▄■▄▌[0m         [34m▀[0;37m  [0;34m▌[0m      [1;37;47m [0;1;37;40m█░[0m   [1m [0m ▀[1;47m▀[0;1;40m▄▄[0;1;47m▄[0;1;40m▀ [0m░▓[1m█▄▄▄ [0m [1;47m [0;1;40m█▄▄[0;1;47m▄[0;1;40m▀[0m [34m████[0;1;34;44m▀▌[0;34m█[0;1;34;44m░[0;34m██▀▐█▄░ [0;37m [0;34m▄[0;1;34;44m▐▀[0;34m▌▐█[0m
 [30m  [0;34m▌ [0;30m [0;34m▐[0m       [34m     [0;31m [0;34m    ░                          ▄ ▄▄▄[0;1;34;44m▄▌[0;34m████[0;1;34;44m▀thr![0;34m█▄[0;1;34;44m■[0;34m█▓███▀█▄██[0m
-[37m  [0;34m▌ [0;37m [0;34m▀[0;37m [0;1;31m░[0;31m■[0m     [34m▄[0;37m [0;31m■▀▌[0;34m▌[0m   [34m░[0m       [1;37mthrasher[0;1;36m@[0;1;37mnetlink[0;1;36m.[0;1;37mbe[0m [34m██[0;1;34;44m▀[0;34m██[0;1;34;44m▀[0;34m█████████████████[0;1;34;44m▐[0;34m████[0m
+[37m  [0;34m▌ [0;37m [0;34m▀[0;37m [0;1;31m░[0;31m■[0m     [34m▄[0;37m [0;31m■▀▌[0;34m▌[0m   [34m░[0m       [1;37m        [0;1;36m [0;1;37m       [0;1;36m [0;1;37m  [0m [34m██[0;1;34;44m▀[0;34m██[0;1;34;44m▀[0;34m█████████████████[0;1;34;44m▐[0;34m████[0m
 [37m  [0;34m▀[0m           [34m▌[0m    [34m▌[0m   [34m▀▌[0m                 [34m▄[0;37m  [0;34m░▄▄▄▄░███████████████████████[0;1;34;44m▐[0;34m████[0m
 [37m  [0;34m▌[0m           [34m▌[0m    [34m▌[0m                     [34m ▌▄[0;1;34;44m▄[0;34m█[0;1;34;44m▀░▀[0;34m█▌███████████████████████[0;1;34;44m▀[0;34m████[0m
 [37m  [0;34m▌[0m           [34m▌▄[0;37m  [0;34m▐█[0m              [34m░▓▄▄[0m   [34m▄[0;1;34;44m▄█▌[0;34m█████▌████████████████████████████[0m

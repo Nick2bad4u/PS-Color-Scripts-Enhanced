@@ -5,7 +5,7 @@
 # Source SHA-256: be17870a823f19826831c5339a835b7fa3ab8de0221fbaa4dbd85cce1a8c8557
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CW-ECLIP.ANS by Computer Wizard (euPHoRia); released in eph0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Final Eclipse aDD
 # SAUCE Author: Computer Wizard
 # SAUCE Group: euPHoRia
@@ -16,8 +16,7 @@
 
 Write-Host '
 
-                          [1m [0m [1;36m [0;36m [0;1;30m     [0;1;37m [0m [1;36m [0;36m [0;1;30m   [0;1;37m [0m [1;36m [0;36m [0;1;30m    [0m
-                     [1;30m··────[0;36m─[0;1;30m─[0;36m────────[0;1;36m─[0;36m─[0;1;36m──────[0m─[1;36m─[0m───[1m─[0m─[1m──··[0m
+[1m[0m[1;36m[0;36m[0;1;30m[0;1;37m[0m[1;36m[0;36m[0;1;30m[0;1;37m[0m[1;36m[0;36m[0;1;30m[0m                     [1;30m··────[0;36m─[0;1;30m─[0;36m────────[0;1;36m─[0;36m─[0;1;36m──────[0m─[1;36m─[0m───[1m─[0m─[1m──··[0m
                         [1m┌─ ┐ ┐ ┬─┐ ┐ ┌ ┌─┐ ┬─┐ · ┌─┐[0m
                         │  │ │ │ │ │ │ │ │ │ │ ┐ │ │
                         │  │ │ │ │ │─│ │ │ │ │ │ │─│

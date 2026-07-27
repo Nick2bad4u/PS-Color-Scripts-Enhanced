@@ -5,7 +5,7 @@
 # Source SHA-256: 53a0d33097d339f9a3ee7c1831a21e2fe80da7787c8de21fd5b4d60564100070
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NR-HX.ANS by Narcosis (toon); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Highway X
 # SAUCE Author: Narcosis
 # SAUCE Group: toon
@@ -23,10 +23,7 @@ Write-Host '
 [1;30m▀▐[0;1;30;47m▓▓▒▒▓[0;1;30;40m▌[0m [1;30m ▀▀▀▓[0;1;30;47m▓[0;1;30;40m█[0m [1;30;47m▓▒[0;1;30;40m▀▀▀[0m [1;30m▄ ░▀▄▄▓▄[0m [1;30m▒[0m ▀    [1;30mstare at  [0m  [1;30m░[0m [1;30mtechnifix.toon[0m [1;30m  ▄▄▀▓[0m
 [1;30m▄▀▀▓[0m   [1;30m▀[0m  ░  [1;30m▒[0m  [1;30m▀[0m▄ [1;30m [0m▒ [1;30m  [0m   [1;30m▀▓▀[0m  [1;30m░[0m     [1;30mthe dot...  [0m   [1;30mnitro.grip[0m [1;30m▀▀▀ ▀[0m [1;30meyeball[0m
 [1;30m ▄[0m [1;30m▒[0m  ▀   [1;30m▒[0m  [1;30m░[0m  ▀▓▀ ▓  [1;30m▀[0m    [1;30m▒[0m          [1;30m   \/ [0m        [1;30mtribe.dark[0m      [1;30m ernie?   [0m
-            [1;30m                 [0m             [1;30m   [0m        [1;30m          [0m      [1;30m          [0m
-[1;30m     [0m                                                                      [1;30m     [0m
-[1;30m     [0m            [1;30m                                          [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
 
                                          [1m ▄▄▄███████▄▐▄[0m
                                      [1m  ▄████████[0;1;47m▓[0;1;40m████▀░▀██▄[0m

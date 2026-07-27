@@ -5,13 +5,13 @@
 # Source SHA-256: bb31f7470893a9859fce5321f5c3018550b1efe6f314647eeb6730d8d644f286
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ULT-CHR2.ANS by Ultimate (galza-10); released in galza-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
                                        [34m▄▄▄▄▄[0m   [34m   ▄        [0m
-[37m  [0;35mjoin[0;34m [0;35m#cheatsrus[0m    [34m▄▀[0;37m  [0;34m▄[0;37m  [0;35mon[0;37m [0;34m▀▄[0m   [34m▄[0;1;34;44m▄▄███▐[0;34m▓▐█[0;1;34;44m▄[0;34m▄ ▐[0;1;34;44m█[0;34m▓    ▐█▄[0m      [35mirc.dal.net[0;34m    [0m
+[37m  [0;35m    [0;34m [0;35m          [0m    [34m▄▀[0;37m  [0;34m▄[0;37m  [0;35m  [0;37m [0;34m▀▄[0m   [34m▄[0;1;34;44m▄▄███▐[0;34m▓▐█[0;1;34;44m▄[0;34m▄ ▐[0;1;34;44m█[0;34m▓    ▐█▄[0m      [35m           [0;34m    [0m
             [35m▄▄[0m     [34m▄[0;1;34;44m▄[0;34m▌[0m   [34m▐[0;1;34;44m▄[0;34m▄[0m    [34m▐▓[0;37m [0;34m▐[0;1;34;44m▐[0;1;34;47m▓[0;1;34;44m▓▀[0;34m███▓▐█[0;1;34;44m▐▌[0;34m▌[0;37m [0;34m▀ [0;35m▄▄▄[0;37m [0;34m▀[0;37m [0;35m▄▄▀▀▀▄▄[0;37m  [0;34m▐▌[0m
      [34m▄[0m   [35m▄█▀░[0;30;45m▓[0;35;40m▀█▄[0;37;40m [0;34;40m▐[0;1;34;44m▐▌[0;34m█▄[0;37m [0;34m▄█[0;1;34;44m▐▌[0;34m▌[0;37m  [0;34m▄[0;1;34;44m▄▌[0;34m▌▄▀[0;1;34;44m▀▌[0;34m██▀▀▀▀▀[0;1;34;44m▀[0;34m▀[0;37m [0;35m▄█▀░▐[0;1;35;45m▓[0;35m▌[0;37m [0;35m▐[0;1;35;45m▓[0;35m▌[0;34m▄[0;37m  [0;35m░[0;30;45m░[0;35;40m▓[0;37;40m [0;34;40m▐[0;1;34;44m▄[0;34m▄[0m
      [30;44m▌[0;37;40m  [0;35;40m▐[0;1;35;45m▓[0;35m▌[0m    [35m▐[0;1;35;45m▀[0;35m▌[0;34m░▀[0;1;34;44m▀[0;34m▀▄██[0;1;34;44m▄▀[0;34m▀░▄█▀▀▀[0;37m [0;34m▐▌░▀[0;37m [0;35m▄▄▀▀▀▄▄[0;37m [0;35m█[0;1;35;45m▀[0;35m▌[0;37m  [0;35m▐[0;1;35;45m█[0;35m▌[0;37m [0;1;35;45m▐▌[0m [34m▐[0;30;44m░[0;34;40m▄[0;37;40m [0;35;40m░[0;30;45m▓[0;37;40m [0;34;40m░[0;1;34;44m▐▓▄[0;34m▄[0m   [34m▄[0m

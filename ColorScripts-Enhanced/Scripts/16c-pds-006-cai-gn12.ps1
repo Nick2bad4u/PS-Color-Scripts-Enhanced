@@ -5,7 +5,7 @@
 # Source SHA-256: f3db8805c56cacdf52903cf7ad37f44295d2dba027e887602ff49feef60ba8d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CAI-GN12.ANS by caithor (paradise); released in pds-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: genocide logotype!
 # SAUCE Author: caithor
 # SAUCE Group: paradise
@@ -28,8 +28,7 @@ Write-Host '
 [34m   `[0;1;34m"[0;1;37m"[0;1;34m""[0;34m""""""$$$$$$''    `""""""""""$$$$$$$$|.,!$$[0;1;32m [0;34m    [0;1;32m:[0;34m$$|.,|$$[0m         [37m       [0m
               [34m"""""''[0m   [1;33m,o[0;34mO$O[0;1;33mo.[0m      [34m"""""''$$$$$$$$     [0;1;32m;[0;34m$$$$$$$$[0m
                        [34m$$$$$$$[0m            [34m$$[0;1;34;44m$[0;34m$$$$$[0m     [1;32m.[0;34m$$$[0;1;37;44m½[0;34m%$$$[0m
-[37m [0;1;32m [0;1;35m  [0m [1;32m [0;1;35m   [0m [1;32m [0;1;35m           [0m [1;33m  [0;34m    [0;1;33m [0m    [1;32m [0;1;35m    [0m   [34m        [0m     [1;32m [0;34m        [0m    [1;34m [0;34m    [0;1;34m [0m
-                                          [34m`$$$$$$$[0m      [34m$$$░$$$$[0m
+[37m[0;1;32m[0;1;35m[0m[1;32m[0;1;35m[0m[1;32m[0;1;35m[0m[1;33m[0;34m[0;1;33m[0m[1;32m[0;1;35m[0m[34m[0m[1;32m[0;34m[0m[1;34m[0;34m[0;1;34m[0m                                          [34m`$$$$$$$[0m      [34m$$$░$$$$[0m
 [34m  ,%dOS$ⁿ""""ⁿ$░$$Og.   [0;1;33m,%[0;34mdOS$[0m             [34m`$$$$$$      $$$$$$$''[0;37m [0;35m½[0;37m [0;1;32mp[0;1;35ma ra dis e[0;35m ½[0m
 [34m,&$$░$$$[0;1;32m,[0m     [34m$$$$$$$l,&$$░$$$              `"""""      $$$$$$''[0m
 [34m$$P""Y$$[0;1;32m:[0m     [34m`""""""''$$P""Y$$[0m      [34m [0m       [34m$S[0;1;34;44mO[0;34mb%,    ,%dOS$ⁿ"""ⁿ$░$$Og. [0m

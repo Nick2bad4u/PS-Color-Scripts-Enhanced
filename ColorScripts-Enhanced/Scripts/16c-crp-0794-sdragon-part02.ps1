@@ -5,7 +5,7 @@
 # Source SHA-256: 4f0078800af010ca5e9c629b8949456b9c130ff82b76bf2d35552e8e6dc07db0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SDRAGON.ANS by Realm Dweller (crp-0794); released in crp-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 44-78
 # Columns: 1-80
 
@@ -43,5 +43,4 @@ Write-Host '
 [32m░▒▓███████████████████████▄[0m      [32m░  ▒▒▓▓▓  ░▒▓ ██████████████████ ███ ████[0;1;32;42m▄█[0m  [32m██[0m
 [32m░▒▓████████████████████████▄[0m      [32m░  ▒▒▓▓▓  ░▒▓█████████████████ ███ ███[0;1;32;42m▄▀[0m [32m▄▄███[0m
                                                [32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀[0m
-[32m [0;1;30m                                  [0m     [1;30m                                        [0m
-              [1;30m         [0m                               [1;30m   ┤        [0m'
+[32m[0;1;30m[0m[1;30m[0m              [1;30m         [0m                               [1;30m   ┤        [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 79b5fd3da211836e24e1e3bc1f92f6309b53d40a6ce421b692fec70a335435cd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XT-BOX2.ANS by Exocet (riot0897); released in riot0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -39,6 +39,4 @@ Write-Host '
 
 [1;30m----------[cRaCk!]-------------------------------------[cRaCk!]-----------------[0m
 
-     [1;30m                                                                   [0m
-     [1;30m                                                        [0m
-                                                             [1;30m-xt[0m'
+[1;30m[0m[1;30m[0m                                                             [1;30m-xt[0m'

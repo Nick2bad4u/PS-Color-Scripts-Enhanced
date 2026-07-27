@@ -5,7 +5,7 @@
 # Source SHA-256: 8b1772c8808d7cc9b042cc26b44902a01f0ebc76185a7012bf00149dd1dbd979
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CYBRACD2.ANS by Blade Runner (acdu0992); released in acdu0992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 73-116
 # Columns: 1-80
 
@@ -47,9 +47,7 @@ Write-Host '
       [1;37m│[0m       [1;36mS[0;36mys[0;1;36mO[0;36mp[0;1;30m: [0;1;35mBr[0;35miare[0;1;35mos[0m               [1;30m▀▄[0m         [1;30m▀▄▀[0m
       │ [1;36mC[0;36mo[0;1;36mS[0;36mys[0;1;36mO[0;36mps[0;1;30m: [0;1;35mAlac[0;35mrity Fit[0;1;35mzugh[0m            [1;30m▀▄▄▄▄▄▄▀▀▀[0m
       │               [1;33m [0;1;31m [0;31m [0;37m [0;1;33m [0;1;31m [0;31m [0;37m [0m
-      [37m [0m     [1;32m [0;32m  [0;1;37m [0;32m [0;1;32m  [0m   [1;30m      [0m   
-      [1;30m│[0m       [1;34m    [0;34m       [0;1;34m   [0m
+[37m[0m[1;32m[0;32m[0;1;37m[0;32m[0;1;32m[0m[1;30m[0m      [1;30m│[0m       [1;34m    [0;34m       [0;1;34m   [0m
       [1;30m│[0m    [1;36m  [0;36m  [0;1;30m  [0;36m  [0;1;36m    [0;1;30m  [0;1;36m   [0;36m    [0m
-      [30m [0m      [33m  [0;1;30m  [0;1;33m [0;33m  [0;1;30m  [0;1;33m [0;33m  [0;1;33m [0;33m   [0;1;30m [0m
-
+[30m[0m[33m[0;1;30m[0;1;33m[0;33m[0;1;30m[0;1;33m[0;33m[0;1;33m[0;33m[0;1;30m[0m
 [1;30m  ─  ─[0m─ ──[1m──     [0;1;36m [0;1;34m [0;34m  [0;1;30m   [0;1;35m    [0;35m [0;1;35m [0;35m       [0;1;30m   [0;32m [0;1;32m  [0;1;37m [0;1;32m [0;32m  [0;1;37m [0m         [1;30m   [0;1;32m  [0;1;30m  [0;1;37m   ──[0m── ─[1;30m─  ─[0m'

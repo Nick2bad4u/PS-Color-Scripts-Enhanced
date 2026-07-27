@@ -5,7 +5,7 @@
 # Source SHA-256: 018ac17181ebf0aabd3ee908c1f955d5bca7a8bc09b1b5cc089659284cf3ca75
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GF-SD.ANS by Griffin (fORCE); released in force-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Static Discharge Picture
 # SAUCE Author: Griffin
 # SAUCE Group: fORCE
@@ -53,15 +53,9 @@ Write-Host '
 
 [1;30m-[eof]--------------------------------------------------------------------------[0m
 
-[1;30m                                                                               [0m
-[1;30m                                                                                [0m
-[1;30m                                                                                [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m
 [1;30m-[0m[greets][1;30m-----------------------------------------------------------------------[0m
 
-[1;30m                                                                              [0m
-[1;30m                                                                             [0m
-
-[1;30m                                    [0m
-
+[1;30m[0m[1;30m[0m
+[1;30m[0m
 [1;30m-[the other eof]----------------------------------------------------------------[0m'

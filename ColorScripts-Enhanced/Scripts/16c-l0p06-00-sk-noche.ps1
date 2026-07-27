@@ -5,7 +5,7 @@
 # Source SHA-256: 3a7c699dc2dac18244183250fc170b9fb60c3db580c82d9b084d86a52c9f1106
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!NOCHE.ANS by sIMONkING (tHElo0p); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: kRwaWA cZERWIEN
 # SAUCE Author: sIMONkING
 # SAUCE Group: tHElo0p
@@ -33,16 +33,11 @@ Write-Host '
 [31m█▓▓▌[0m   [31m▒▀[0;1;31m▄[0m  [31m▄[0m   [31m██[0m    [31m▒[0;37m [0;31m▄[0;37m [0;31m▀[0;1;31;41m▀[0;31m█▓▓▓▄█▓ ▒░░░[0;37m [0;31m░▀██[0;37m [0;31m▒▓▓▒▒▒ ▌[0m
 [31m▓▒▒▒▒░ ░[0;37m [0;31m▓▌[0;37m  [0;31m▓▓▓▄[0;1;31;41m▀[0;31m█[0m   [31m░[0;37m  [0;31m▀▄[0;37m  [0;31m▀▀[0;1;31;41m▄[0;31m█▓▓[0;37m [0;31m░[0m     [31m▄▓▀[0;37m [0;31m░▒▒░░░[0;37m [0;31m▓█[0;1;31;41m▀[0;31m██▓▓▓▓██[0;1;31;41m▀▀[0;31m██▓▓▓▒▒▒░[0;37m [0;31m░░[0;37m [0;31m░[0m
 [31m▒░░░░[0;37m  [0;31m  ▒[0m   [31m▒▒▒▓▓▓[0m         [31m▀[0;37m [0;31m▀▀▀▀▀[0m      [31m▀▀▒[0m   [31m░░[0m    [31m▒[0;37m  [0;1;30m   %simonking2000[0m
-[31m░[0m        [31m░[0m   [31m░░[0;37m [0;31m▒▒▒ [0m                       [31m░[0m         [31m░ [0;1;30msimonking@poczta.onet.pl[0m
+[31m░[0m        [31m░[0m   [31m░░[0;37m [0;31m▒▒▒ [0m                       [31m░[0m         [31m░ [0;1;30m                        [0m
                 [31m░░░[0m
 
 
 
-[1;30m                [0m
-[1;30m                                                                                [0m
-[1;30m                                              [0m
-
-[1;30m                 [0m
-
-[1;30m                                                              [0m
-[1;30m03/05/2000[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m
+[1;30m[0m[1;30m03/05/2000[0m'

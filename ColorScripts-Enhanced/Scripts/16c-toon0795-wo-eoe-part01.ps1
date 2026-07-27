@@ -5,7 +5,7 @@
 # Source SHA-256: bcd3f73aecb7e6ee6da1f26d3765ce72caf95303afc6642c9cbfb08469484de5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-EOE.ANS by WatOr (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: EOE
 # SAUCE Author: WatOr
 # SAUCE Group: Toon
@@ -24,7 +24,7 @@ Write-Host '
     [34m▄[0;1;34;44m  ▄[0;34m█[0;1;30mup[0m [1;30m█[0m [34m███████▄[0;1;30mto?[0m [1m███▄▄▄[0;1;47m█████[0m▀[1;47m▀▀[0;1;40m█[0m [1;30mand mist boyz!  And i would like[0m [1;30m█[0m
    [34m█[0;1;34;44m  ▐▌[0;34m▌[0;1;30mfur▐▌[0;34m▐███[0;1;34;44m  ▄[0;34m██[0;37m [0;1;37m███[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▀▀▀▀[0m▀█[1;47m█▌[0m [1;30mto say that if you actually like my[0m  [1;30m█[0m
   [34m█[0;1;34;44m   ▐▌[0;34m▌[0;1;30mig[0;34m▄[0;37m [0;1;30m▌[0;34m▐███[0;1;34;44m  ▐▌[0;34m█▌[0;37m ▀▀[0;1;37;47m▐[0;1;37;40m█[0m█[1;30mjust[0;1;37m██[0m█ [1;30mstyle, then please call up my board[0m  [1;30m█[0m
- [34m▐[0;1;34;44m     █[0;34m█[0;37m [0;34m█[0;1;34;44m [0;34m█[0;37m [0;34m████[0;1;34;44m  ▐▌[0;34m██[0;37m [0;1;30mI[0m █[1m██[0;1;30mlik[0;1;37m▄█[0m█ [1;30mat 905.475.2987 nup''def luv (toonz -[0m  [1;30m█[0m
+ [34m▐[0;1;34;44m     █[0;34m█[0;37m [0;34m█[0;1;34;44m [0;34m█[0;37m [0;34m████[0;1;34;44m  ▐▌[0;34m██[0;37m [0;1;30m [0m █[1m██[0;1;30m   [0;1;37m▄█[0m█ [1;30m                                    [0m  [1;30m█[0m
  [34m▐[0;1;34;44m      ▄[0;34m█[0;1;34;44m   [0;34m██[0;1;34;44m     █[0;34m██▌[0;1;37m▄▄▄[0;1;37;47m▓████▓▀[0m▀ [1;30mtown) and request it from me.  Or if[0m   [1;30m█[0m
  [1;30m▌[0;34m█[0;1;34;44m          [0;34m██[0;1;34;44m   ▄▀[0;34m██▀[0;37m ▀[0;1;37;47m▀▀▀▀[0m▀▀▀▀ [1;30myou see me on a board your on, just   [0m   [1;30m█[0m
 [1;30m▐█[0m [34m█[0;1;34;44m      [0;34m▌▀[0;1;34;44m    ■▀  [0;34m▀[0;1;30m▄▌ki! [0;1;37m▄▄▌[0m [1;30memail me (watOr) and ask me from there! l8a[0m [1;30m█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 6c0f55a4d12edac40d0f81f93f23ebd0b67494620cb2f49bc8e42b159df8c1e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-BM1.ANS by Spearfx (The Used Coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Black Maiden
 # SAUCE Author: Spearfx
 # SAUCE Group: The Used Coalition
@@ -15,8 +15,7 @@
 
 Write-Host '
 
-[1;30m     [0m              [1;30m                                        [0m
-
+[1;30m[0m[1;30m[0m
 
 
 

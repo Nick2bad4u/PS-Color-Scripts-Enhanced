@@ -5,7 +5,7 @@
 # Source SHA-256: 456769aa5b57bb9841f910116656484062c31952948ebe9c42daafe7c38d41c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GI-MV.ANS by Gigantor (TekLordZ); released in tl199512 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Malvolence
 # SAUCE Author: Gigantor
 # SAUCE Group: TekLordZ
@@ -23,16 +23,9 @@ Write-Host '
                         [1;30m.[0;31m$$$$$$[0m   [1;30m∙[0;31m$$$$[0;1;30m: :[0;31m`$$$$$s$$$''[0;1;30m.[0m
                                                      [1;30m [0m
 
-[1;30m       [0m                         [1;30m [0;31m [0;1;31m           [0;31m [0;1;30m [0m
-                        [1;30m    [0m [1;30m [0;31m [0;1;31m                [0;31m [0;1;30m [0m
-                            [1;30m [0;31m [0;1;31m                  [0;31m [0;1;30m [0m
-
+[1;30m[0m[1;30m[0;31m[0;1;31m[0;31m[0;1;30m[0m[1;30m[0m[1;30m[0;31m[0;1;31m[0;31m[0;1;30m[0m[1;30m[0;31m[0;1;31m[0;31m[0;1;30m[0m
 [1;30m [0m
 
 
 [1;30m--------------------------------------------------------------------------------[0m
-[1;30m                                                                              [0m
-[1;30m                                                                             [0m
-[1;30m       [0m
-[1;30m                            [0m
-[1;30m--------------------------------------------------------------------------------[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m--------------------------------------------------------------------------------[0m'

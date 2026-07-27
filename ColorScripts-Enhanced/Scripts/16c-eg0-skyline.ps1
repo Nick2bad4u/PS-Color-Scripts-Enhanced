@@ -5,13 +5,12 @@
 # Source SHA-256: 2a9c32842d7655eedfabe2d0a08f89d4d43cd6c489187971fd65e29b7b039b81
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKYLINE.ANS by Buttcheek (eg0); released in eg0 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-[1;31m   [0m                                                       [1;5m                     [0m
-
+[1;31m[0m[1;5m[0m
                           [1m│[0m
                 [1m╔╦╦╦╦╗ ╔╦╦╬╦╗  |    [0;1;5;34m┌┬──┐ ┌┐ ┌─ ┌┐ ┌┐ ┌┐    ┌┐ ┌┬─┐ ┐ ┌┬──┐[0m
                 [1m╟╫╫╫╫╢ ╟╫╫╫╫╢  [0;1;5;31m¥    [0;1;5;34m└┴─┬┐ ├┼─┴┐ └┴─┼┤ ├┤    ├┤ ├┤ │ │ ├┼─[0m

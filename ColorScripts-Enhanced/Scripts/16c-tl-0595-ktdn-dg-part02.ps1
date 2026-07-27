@@ -5,7 +5,7 @@
 # Source SHA-256: 3ee0293bbbae4c884db6f3bd0f73d6da5fa3c2a1f4107c3a092b7feb1ff7758e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KTDN-DG.ANS by Knight*Time (TekLordZ); released in tl-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dark Genesis
 # SAUCE Author: Knight*Time
 # SAUCE Group: TekLordZ
@@ -48,8 +48,7 @@ Write-Host '
                           [1;33mv [0;31mr i  n e t w o r k i n [0;1;33mg[0m
                            [1;33mr [0;31me n e g a d e  u t i [0;1;33ml[0m
                   [1;33ma [0;31mn s i  d i s t r o b u t i o n / e m a [0;1;33mg[0m
-                            [1;33m5 [0;31m1 o  7 2 4  2 3 2 1[0m
-                         [1;33mn [0;31mu p :  a p p l e p e a [0;1;33mr[0m
+[1;33m[0;31m[0m                         [1;33mn [0;31mu p :  a p p l e p e a [0;1;33mr[0m
                        [1;33ms [0;31my s :  k n i g h t * t i m [0;1;33me[0m
                          [1;33ms [0;31my s :  d e n i z e n  ] [0;1;33m[[0m
 

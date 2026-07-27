@@ -5,7 +5,7 @@
 # Source SHA-256: d302cd28b7105cc94435b4eec953c37932c74ec1583a7167a6af474a2ab3dd89
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: iks&tainted-unl.ans by Iks + Tainted (impure); released in impure81 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: unleashed
 # SAUCE Author: iks / tainted
 # SAUCE Group: impure
@@ -42,15 +42,4 @@ Write-Host '
                                   [1;30m▓▓[0m
                                   [1;30m░░[0m
 
-                                  [1;30m░░[0m
-
-
-
-
-
-
-
-
-
-
-                                                                              [1;30m░[0m'
+                                  [1;30m░░[0m'

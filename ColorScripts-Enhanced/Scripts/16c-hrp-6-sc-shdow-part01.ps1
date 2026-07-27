@@ -5,7 +5,7 @@
 # Source SHA-256: f893c92a933fdd986089ddcb7f476fa5c59e72ee3e8ac9652bb17392d55ecf6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-SHDOW.ANS by Satan Claus (hrp-6); released in hrp-6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -26,9 +26,9 @@ Write-Host '
           [37m█[0;1;33;42m▒▓▓▓▓▓██[0m█[1;47m█[0m  █[1;33;42m██▓▓▓▓▓▒[0m█[1;47m█[0m            [1;32;40m│  [0;1;33;40mw[0;1;32;40mou[0;32mld  [0;1;33ml[0;1;32mi[0;32mke [0;1;33ma[0;32mn [0;1;33mA[0;1;32mN[0;32mSi  [0;1;33mo[0;32mr [0;1;33mV[0;1;32mG[0;32mA [0;1;33mo[0;32mf[0m
           [37m█[0;1;33;42m▒▓▓▓▓▓██[0m█[1;47m█[0m  █[1;33;42m██▓▓▓▓▓▒[0m█[1;47m█[0m            [1;32;40m│  [0;1;33;40my[0;1;32;40mo[0;32mur [0;1;33mo[0;1;32mw[0;32mn [0;1;33md[0;1;32mo[0;32mne [0;1;33mb[0;32my [0;1;33mm[0;1;32me[0;32m, [0;1;33mf[0;1;32me[0;32mel [0;1;33mf[0;1;32mr[0;32mee[0m
 [37m▄▄▄▄▄▄▄▄▄▄█[0;1;33;42m▒▒▓▓▓▓▓█[0m█[1;47m█[0m  █[1;33;42m█▓▓▓▓▓▒▒[0m█[1;47m▀[0m▄▄▄▄▄▄▄▄▄   [1;33m│  t[0;32mo [0;1;33mc[0;1;32mont[0;32mact [0;1;33mm[0;32me [0;1;33mo[0;32mn [0;1;33mC[0;1;32myb[0;32mer[0;1;33mP[0;1;32mHü[0;32mck [0;1;33ma[0;32mt[0m
-[37m█[0;37;42m  [0;1;33;42m░░░░░▒▒▒▒▒▓▓▓▓▓█[0m█[1;47m█[0m  █[1;33;42m█▓▓▓▓▓▒▒▒▒▒░░░░░  [0m█[1;47m█[0m  [1;32;40m│  [0;1;33;40m([0;1;32;40m8[0;32m13) [0;1;33m3[0;1;32m9[0;32m8-[0;1;33m7[0;1;32m5[0;32m14,[0;1;33m1[0;1;32m1[0;32m1,[0;1;33m1[0;1;32m1[0;32m1  [0;1;33mo[0;32mr  [0;1;33mo[0;32mn[0m
+[37m█[0;37;42m  [0;1;33;42m░░░░░▒▒▒▒▒▓▓▓▓▓█[0m█[1;47m█[0m  █[1;33;42m█▓▓▓▓▓▒▒▒▒▒░░░░░  [0m█[1;47m█[0m  [1;32;40m│  [0;1;33;40m [0;1;32;40m [0;32m    [0;1;33m [0;1;32m [0;32m  [0;1;33m [0;1;32m [0;32m   [0;1;33m [0;1;32m [0;32m  [0;1;33m [0;1;32m [0;32m   [0;1;33m [0;32m   [0;1;33m [0;32m [0m
 [37m█[0;37;42m   [0;1;33;42m░░░░░▒▒▒▒▒▓▓▓▓▓[0m█[1;47m█[0m  █[1;33;42m▓▓▓▓▓▒▒▒▒▒░░░░░   [0m█[1;47m█[0m  [1;32;40m│  [0;1;33;40mT[0;1;32;40mo[0;32mtal  [0;1;33mC[0;1;32morr[0;32muption, [0;1;33mt[0;1;32mh[0;32me [0;1;33mH[0;32mR [0;1;33mW[0;1;32mH[0;32mQ,[0m
-[37m█[0;37;42m    [0;1;33;42m░░░░░▒▒▒▒▒▓▓▓▓[0m█[1;47m█[0m  █[1;33;42m▓▓▓▓▒▒▒▒▒░░░░░    [0m█[1;47m█[0m  [1;32;40m│  [0;1;33;40ma[0;32mt [0;1;33m([0;1;32m2[0;32m17) [0;1;33m8[0;1;32m7[0;32m4-[0;1;33m2[0;1;32m3[0;32m24.[0m
+[37m█[0;37;42m    [0;1;33;42m░░░░░▒▒▒▒▒▓▓▓▓[0m█[1;47m█[0m  █[1;33;42m▓▓▓▓▒▒▒▒▒░░░░░    [0m█[1;47m█[0m  [1;32;40m│  [0;1;33;40m [0;32m  [0;1;33m [0;1;32m [0;32m    [0;1;33m [0;1;32m [0;32m  [0;1;33m [0;1;32m [0;32m   [0m
 [37m▀[0;1;37;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m  ▀[1;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m  [1;32;40m│[0m
 [32m───────[0;1;32m─[0;32m────[0;1;32m──[0;32m──[0;1;32m───[0;32m─[0;1;32m────[0;1;33m─[0;1;32m───[0;1;33m──[0;1;32m──[0;1;33m───[0;1;32m─[0;1;33m──────────[0;1;32m┴[0;1;33m───[0;1;32m──[0;1;33m──[0;1;32m───[0;1;33m─[0;1;32m─────[0;32m──[0;1;32m───[0;32m──[0;1;32m──[0;32m───[0;1;32m─[0;32m────[0m
 

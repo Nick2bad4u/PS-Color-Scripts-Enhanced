@@ -5,7 +5,7 @@
 # Source SHA-256: ad81adf091933310e3374104e7e0fd1006e335c6169d4c908192acbab1e3bc2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-CH01.ANS by Spawn (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Channel Zer0
 # SAUCE Author: Spawn
 # SAUCE Group: ACiD Productions
@@ -17,14 +17,11 @@
 Write-Host '
                        [1;30;40mC  H  A  N  N  E  L    Z  E  R  0[0m
 
-               7 1 4  5 3 2  5 9 5 0   [1;30m∙   [0m7 1 4  5 3 2  5 9 6 8
-
-                 [1m                                             [0m
-              [1m                        [0;1;30m■ [0;1;37m                         [0m
+[1;30m[0m
+[1m[0m              [1m                        [0;1;30m■ [0;1;37m                         [0m
                    [1;37m                           [0;1;30m■ [0;1;37m            [0m
 
                             [1;30m──────────────────────[0m
-                                                  
                             [1;30m──────────────────────[0m
 [1;30m■ [0;1;37m                        [0;1;30m■ [0;1;37m                        [0;1;30m■ [0;1;37m                        [0;1;30m■[0m
 [1;30m■ [0;1;37m                        [0;1;30m■ [0;1;37m                        [0;1;30m■ [0;1;37m                        [0;1;30m■[0m
@@ -34,7 +31,6 @@ Write-Host '
                         [1;30m■ [0;1;37m                           [0;1;30m■[0m
 
                           [1;30m───────────────────────────[0m
-                                                     
                           [1;30m───────────────────────────[0m
 [1;30m■ [0;1;37m                          [0;1;30m■ [0;1;37m                               [0;1;30m■ [0;1;37m              [0;1;30m■[0m
 [1;30m■ [0;1;37m                         [0;1;30m■ [0;1;37m                               [0;1;30m■ [0;1;37m                 [0m
@@ -45,17 +41,13 @@ Write-Host '
                            [1;30m■ [0;1;37m                      [0;1;30m■[0m
 
                                 [1;30m───────────────[0m
-                                               
                                 [1;30m───────────────[0m
       [1;30m■ [0;1;37m                     [0;1;30m■ [0;1;37m               [0;1;30m■ [0;1;37m           [0;1;30m■ [0;1;37m           [0;1;30m■[0m
 
 
           [1;37m─ - [0m──  [1;30m─── [0;1;37mANSi by Spawn of A[0;1;33mC[0;1;32mi[0;32mD [0;1;37mProductions [0;1;30m───[0m─ [1;30m─[0m── [1m─ ─[0m
 
-[1;30m                  [0m                                                         
-                                             
-[1;30m                  [0m        
-
+[1;30m[0m[1;30m[0m
                       [1m▀▀██▄[0m      [1;33m▄▄▀ ▀██▄  [0;1;32m▄   [0;32m▄▄▀▀▀█▄▄[0m
                        [1;37m▀ ▀██    [0;1;33m██[0m     [1;33m▀  [0;1;32m▀  [0;32m▀  ▄    ▀██▄[0m
                   [1;30m▄   [0;1;37m▄▀  ▀▀█  [0;1;33m██[0m         [1;32m██    [0;32m██[0m     [32m██▌ [0;1;30m▄[0m

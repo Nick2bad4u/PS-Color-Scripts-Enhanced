@@ -5,7 +5,7 @@
 # Source SHA-256: 47074bb25264384620cb25c76c6174dda2e71bedf59772754c492a5cab81c9df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JTE-MEN.ANS by Jate (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 49-98
 # Columns: 1-80
 
@@ -52,7 +52,7 @@ Write-Host '
 [1;35m░   ░[0m     [31m░   [0;1;35m░[0m       [36m│ [0;31mT[0;1;31mHE [0;31mM[0;1;31mENAGERIE[0m
 [1;35m▒░░░▒░[0m       [1;35m░░[0m       [1;34m│[0m
 [1;35m▓▒▒▒▒▒░░░░ ░░▒▒[0m       [34m│[0m
-[1;35m█▓▒▒▓▒▒▒▒▒░▒▒▒▒[0m       [34m│ [0;1;34m([0;36m718[0;1;34m) [0;36m251[0;1;34m-[0;36m9270[0m      [1;34mSysOp: [0;36mCobalt[0m
+[1;35m█▓▒▒▓▒▒▒▒▒░▒▒▒▒[0m       [34m│ [0;1;34m [0;36m   [0;1;34m  [0;36m   [0;1;34m [0;36m    [0m      [1;34m       [0;36m      [0m
 [1;35;44m▓[0;1;35;40m█▓▓█▓▓▒▒▓▒▒▓▓▓▒[0m      [34m│[0m
 [1;35;44m▒▓[0;1;35;40m██[0;1;35;44m▓[0;1;35;40m██▓▓█▓▓█▓▓▓▒[0m       [36m14400[0;1;34mbps [0;36mv.42b[0m      [1;34mRunning on ViSioN-[0;36mX[0m
 [1;35;44m░▒▓▓▒▓▓[0;1;35;40m██[0;1;35;44m▓[0;1;35;40m██[0;1;35;44m▓[0;1;35;40m██▓█[0m

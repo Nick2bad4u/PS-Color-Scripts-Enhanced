@@ -5,7 +5,7 @@
 # Source SHA-256: 6052ffe32963ac3b13f75ff41c6b30cbe2bf7411bf3e9c09e31232e037c5c39f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DI-PATR1.ANS by divine intervention (ash i996!); released in ash-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: patriarch's underground phont! ;)
 # SAUCE Author: divine intervention
 # SAUCE Group: ash i996!
@@ -23,7 +23,7 @@ Write-Host '
 [1;30m█[0;1;30;41m  i▐[0;1;30;40m███▀ [0;36m▄▄▄■[0;1;30m▀█▌[0;1;36m▐█[0;1;36;46m▓▒░[0;36m█▌[0;1;30m▐███▓▄▄▄▄▄▓███[0;1;30;41mi  █[0m     [1;31m..p[0;31mat[0;1;30mriarch''s undergro[0;31mun[0;1;31md..[0m     [1;30m█[0m
 [1;30m█[0;1;30;41m  n▐[0;1;30;40m█▀[0;1;36;40m▄█[0;1;36;46m▓▒▒░di[0;36m▄[0;1;30m▐▌[0;1;36m█[0;1;36;46m▓▒░░[0;36m▌[0;1;30m■█████▀▀▀▀■███[0;1;30;41mo  [0;1;30;40m█   keep checking out ash!  to [0mjoin   [1;30m█[0m
 [1;30m█[0;1;30;41m  e▐[0;1;36;40m■▐█[0;1;36;46m▓▒▒░[0;36m▀▀[0;1;30m▄▄[0;36m▀■[0;1;36m▐█[0;1;36;46m▓▒░[0m [36m▀[0;1;30m███[0;1;36m■▐█[0;1;36;46m▓▒░[0;1;30;40m▐█▓█[0;1;30;41mn  [0;1;30;40m█   ''ash art call napalm dynasty at   █[0m
-[1;30;40m█[0;1;30;41m  i▐[0;1;30;40m▌[0;1;36;40m█[0;1;36;46m▓▒▒[0;36m▌[0;1;30m■██████■[0;1;36m█[0;1;36;46m▓▒░[0;1;30;40m▐▓████[0;1;36;40m■█[0;1;36;46m▓▒░[0;1;30;40m▐▓██[0;1;30;41m!  [0;1;30;40m█    [0m4i4.367.9o99[1;30m.. leave myself or   █[0m
+[1;30;40m█[0;1;30;41m   ▐[0;1;30;40m▌[0;1;36;40m█[0;1;36;46m▓▒▒[0;36m▌[0;1;30m■██████■[0;1;36m█[0;1;36;46m▓▒░[0;1;30;40m▐▓████[0;1;36;40m■█[0;1;36;46m▓▒░[0;1;30;40m▐▓██[0;1;30;41m   [0;1;30;40m█    [0m            [1;30m                     █[0m
 [1;30;41m█  n▐[0;1;30;40m▌[0;1;36;40m▐█[0;1;36;46m▓▒▒[0;36m▄▄ [0;1;30m▀█[0;1;36m■[0;1;30m▀[0;36m■[0;1;36m▓█[0;1;36;46m▓[0;1;36;40m▌[0;1;30;40m██████▌[0;1;36;46m▓[0;1;36;40m█[0;1;36;46m▓[0;36m▌[0;1;30m██▀█[0;1;30;41ma  [0;1;30;40m█   broken machine (prez) e-mail an''  █[0m
 [1;30;40m█[0;1;30;41m  t▐[0;1;30;40m█▄[0;1;36;40m▀█[0;1;36;46m▓▒▒░  [0;36m▄▄▀[0;1;36m■[0;1;30m▄[0;1;36m▀[0;1;36;46m▓▒[0m [36m■▄[0;1;30m████▄[0;1;36m▀[0;1;36;46m▓░[0m [36m■▄■[0;1;30;41m▌  [0;1;30;40m█   some of yer art as well as your   █[0m
 [1;30;40m█[0;1;30;41m  e▐[0;1;30;40m███▄[0;36m■▀▀▀▀■[0;1;30m▄▄▄███▄■[0;36m▀▀■[0;1;30m██████▄■[0;36m▀▀■[0;1;30m█[0;1;30;41ms  [0;1;30;40m█   completed app.. ..([0mash.app[1;30m)..[0m     [1;30m█[0m
@@ -47,5 +47,5 @@ Write-Host '
 [1;31m    [0;1;31;41m░▒▓[0m     [31m▀▓ ▀[0m                                    [31m▀▀▀▀  ▐[0;31;41m [0;1;31;41m░[0m [1;31;41m░ [0m [31m▐▄  [0;1;31;41m░ [0m
 [1;31m  [0;31m░▒▓[0;1;31;41m░▒[0m [31mu    n    d    e    r    g    r    o    u    n    d▀▓ ▀  ▐[0;1;31;41m░▒[0m [31m██[0m
 [31m    ▀▓▌[0m                                                          [31m▐[0;31;41m [0;1;31;41m░[0m [31m██[0m
-     [31m▒[0m                           [31m4i4.367.4o33[0m                     [31m▀▀▀▓▀[0m
+     [31m▒[0m                           [31m            [0m                     [31m▀▀▀▓▀[0m
      [31m░[0m                       [31m                   [0m                     [31m▒[0m'

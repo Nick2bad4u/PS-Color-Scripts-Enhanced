@@ -5,7 +5,7 @@
 # Source SHA-256: 342937402ed7943b39c44a746565ea871c3279a7fd7da5eb0b88a35cd028da8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-FES.ANS by Black Lightning (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Flat Earth Society
 # SAUCE Author: Black Lightning
 # SAUCE Group: Union
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                     [30m                                   [0m
-[30m   [0;1;30m▄▄▄▄▄[0m
+[30m[0m[30m   [0;1;30m▄▄▄▄▄[0m
 [1;30m▄▀▀▀▀█[0;1;30;47m▄ ▀[0;1;30;40m▄ [0;30m                                                                     [0m
 [1;30m▌[0m     [1;30m▐█[0;1;30;47m▄▐[0;1;30;40m▌                                                                [0;30m    [0m
 [1;30m▓  ░  ██[0;1;30;47m░[0;1;30;40m█                                                              [0;30m     [0m

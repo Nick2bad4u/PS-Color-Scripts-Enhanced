@@ -5,7 +5,7 @@
 # Source SHA-256: cfe9bf13681c08829e920bea97f3bf3780554abbe398759c5c6d2e7edb1d2d2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH!TABS!.ANS by THiNK (THE S.S.!); released in twat0898 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: TABS LOGO!
 # SAUCE Author: THiNK
 # SAUCE Group: THE S.S.!
@@ -36,6 +36,4 @@ Write-Host '
 [1;30m!%$!&%&!#$!#$%*$##@$%#!$!&%*#$!&#!$$!#@$@#$!#$[0m [36m:SSSSSS:[0;37m [0;1;30m!#$%!&%*%!$#!I*%[0;1;37mTHiNK![0;1;30m@![0m
 [1;30m!#$^%$&#[0;1;37mi[0;1;30m%!#@$(*^@&#@!#$%!%!&%#[0;1;37m:[0;1;30m!#$%!@$!#$$#@$% [0;36m`²SS²''[0;37m [0;1;30m%$#@!@##$@!$#@%[0;1;37mTHE S.S.![0;1;30m![0m
 [1;30m`²S!@$!#[0;1;37m:[0;1;30m!$@#!$%@!@#!^#$!@#%!#@[0;1;37m.[0;1;30m@!#$@!@░▓█░▓█!#@$^%!@#$#@%^[0;1;37m¡[0;1;30m#@!$@$#!@#$!@%!@SS²''[0m
-        [1m [0m                [1m [0m [1m [0m   [1m [0m                           [1m [0m [1m                  [0m
-        [1m [0m [1m             [0m  [1m [0m     [1m [0m  [1m [0m  [1m                   [0m   [1m [0m [1m                   [0m
-        [1m|[0m                  [1m.[0m      [1m:[0m                        [1m.[0m'
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m        [1m|[0m                  [1m.[0m      [1m:[0m                        [1m.[0m'

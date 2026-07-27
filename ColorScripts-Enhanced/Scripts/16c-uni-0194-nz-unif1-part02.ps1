@@ -5,7 +5,7 @@
 # Source SHA-256: 44e4f4d4525c2d83886d39a6b11fe530f6e7212b1642da4a6445e461afb99f05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-UNIF1.ANS by Nailz (uni-0194); released in uni-0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-96
 # Columns: 1-80
 
@@ -47,13 +47,5 @@ Write-Host '
 [1m    ▀█ █▀  ██   ██ ██ ██[0m     [1m██   ▀█ █▀  ██   ██    ██[0m     [1m██  ▀█ █▀  ██   ██[0m
       [1m▀    ▀[0m     [1m▀ ▀  ▀[0m      [1m▀[0m      [1m▀    ▀[0m     [1m▀    ▀[0m      [1m▀[0m     [1m▀    ▀[0m     [1m▀[0m
 [1m────────────────────────────────────────────────────────────────────────────────[0m
-                      [1mUnification  -/-  613.224.8279[0m
-
-          [1m                                                         [0m
-               [1m                                              [0m
-                      [1m                            [0m
-                  [1m                                   [0m
-                              [1m                        [0m
-                              [1m                         [0m
-                              [1m                      [0m
-[1m────────────────────────────────────────────────────────────────────────────────[0m'
+[1m[0m
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m────────────────────────────────────────────────────────────────────────────────[0m'

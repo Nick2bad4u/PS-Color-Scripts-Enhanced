@@ -5,7 +5,7 @@
 # Source SHA-256: c24e0d580feffc08923bec4ddc22b5f854507a810e88dd6dcd9549684454a7f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KID-ROB.ANS by /4lex 3<idd (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rob the Fireman !
 # SAUCE Author: /4lex 3<idd
 # SAUCE Group: Nitrophusion
@@ -22,8 +22,7 @@ Write-Host '
 [35m  [0;31m`²²²²²²²²²²²²²²²²²²²²²''[0m      [35m$$ $$ `²S²'' $$S²''[0m       [35m`²S$ $$ $$ `$s%$[0m
 [35m    [0;1;31m$S²²"""²²S$S²²""²S$[0m
 [1;31m,%s,$''[0;1;37m,%S²S%,[0;1;31m`$''[0;1;37m,%²%,[0;1;31m`$,s,[0m
-[1;31m                          [0m      [1;35m [0;35m     [0;1;35m   [0;35m        [0;1;35m  [0;35m   [0;1;35m [0;35m    [0;1;35m [0;35m         [0;1;35m [0m
-[1;31m`"²^$$$$$$$$$%$%$$$$$$$`²''[0m      [35m$$s  $$ $$''  $$s²'' $$^$^$$ $$^$$ $$ $$[0m
+[1;31m[0m[1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0m[1;31m`"²^$$$$$$$$$%$%$$$$$$$`²''[0m      [35m$$s  $$ $$''  $$s²'' $$^$^$$ $$^$$ $$ $$[0m
 [35m    [0;1;31m`$$$$$S"^~~~"S$$$$''[0m         [35m$$   $$ $$   `$s%$ $$ $ $$ `²S²S $$ $$[0m     [37m''[0m
      [1;31m`²S$$$%ssss%$$S²''[0m          [35m$$[0m             [37m,[0m                              [37m''[0m
 [37m  [0;31m,sS$S%s,[0;1;31m∙~"²²"^~[0;31m,sSS,[0m                        [37m²,  ,    [0;31m,$$$$$$$$$$$$,   [0;37m`s   ,[0m

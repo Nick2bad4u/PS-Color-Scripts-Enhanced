@@ -5,7 +5,7 @@
 # Source SHA-256: 18833848327beb9d5314d8f7a61f1090125d52cd499c9365f23e178b8c55019b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKYNET2.ANS by Doomsday (ShadowByte); released in 1madoom and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Add for SkyNet BBS (+43-3178-2471)
 # SAUCE Author: Doomsday
 # SAUCE Group: ShadowByte
@@ -25,8 +25,7 @@ Write-Host '
 █[36m███████[0;1;30m█▀▀  [0m█[36;42m███[0;1;30;40m█  ▀█[0;36;42m▒▒▒░[0;1;30;40m█[0m     █[36m██[0;1;30m█[0m     █[36;42m███[0;1;30;40m█ ▀█[0;36;42m▓▒▒▒[0;1;30;40m█ [0m█[36m██████████[0;1;30m█    [0m█[1;36m████[0;1;30m█[0m
 [1;30m [0m▀[1;30m▀▀▀▀▀▀▀    [0m▀[1;30m▀▀▀▀   ▀▀▀▀▀▀[0m     ▀▀▀[1;30m▀[0m     ▀[1;30m▀▀▀▀  ▀▀▀▀▀▀ [0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀    [0m▀[1;30m▀▀▀▀▀[0m
 
-                              [1m+43.3178.2471[0m
-
+[1m[0m
                 [1m▄▄[0m▄▄▄▄▄▄▄▄▄▄    [1m▄▄[0m▄▄▄▄▄▄▄▄▄▄    [1m▄▄▄[0m▄▄▄▄▄▄
                 [1;47m▀[0;36;42m▓▓▒▒▒▒░░░░[0;1;30;40m█▄   [0;1;37;47m▀[0;36;42m▓▓▒▒▒▒░░░░[0;1;30;40m█▄  [0;1;37;40m▄█[0;36;42m▓▓▓▓▓▓▓[0;37;40m█▄[0;1;30;40m▄[0m
                 █[36;42m▓▓▓[0;1;30;40m█▀▀▀[0m█[36;42m░░░[0;1;30;40m█   [0m█[36;42m▓▓▓[0;1;30;40m█▀▀▀[0m█[36;42m░░░[0;1;30;40m█  [0m█[36;42m▒▒▒[0;1;30;40m█▀▀█[0;36;42m▒▒▒[0;1;30;40m█[0m

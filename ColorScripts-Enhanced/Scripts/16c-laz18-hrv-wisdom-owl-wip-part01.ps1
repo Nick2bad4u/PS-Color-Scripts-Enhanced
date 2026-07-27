@@ -5,7 +5,7 @@
 # Source SHA-256: a1df1bb4d8bdc6ed5855edcb5e62140c0338ecc0896b4d7b7d7ff9f605ec8f13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HRV_Wisdom_Owl_WiP.ans by harvest (Lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: OWL
 # SAUCE Author: harvest
 # SAUCE Group: Lazarus
@@ -46,16 +46,8 @@ Write-Host '
 [37m [0;33mentry. Do check out the other       [0;37m██▄       ████    ▀██▄  ▄██▀ ▄█▀    ▀  █▄[0m
 [37m [0;33mawesome entries, top notch pieces[0;37m    ▀███████ ███      ▀██████▀  █  ▄█ █▄ ▄█▀[0m
 [37m [0;33m    [0;31m      [0;33m                      [0;37m                                 ▀▀▀▀▀  ▀▀▀[0m
-[37m [0;33m                                 [0m
-[37m [0;33m                                 [0m
-[37m [0;33m                                 [0m
-[33m                                 [0m
-[37m [0;33m                                  [0m
-[37m [0;33m                                [0m
-[37m [0;33m                                           [0;1;31m [0m [1;33m       [0m
-
- [1;31m                                                   [0m
-
+[37m[0;33m[0m[37m[0;33m[0m[37m[0;33m[0m[33m[0m[37m[0;33m[0m[37m[0;33m[0m[37m[0;33m[0;1;31m[0m[1;33m[0m
+[1;31m[0m
 ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
        [1;30m▀▄▄[0m [1;30m▀▄[0m▄ ▀█ [1;30m▌▌                         █▀[0m▄████▀[1;30;47m▄[0;1;30;40m██████▄▄▀[0m              [1;30m█▄[0m
       [1;30m▄▄[0;34m [0;1;30m▀█▄[0m  ▀███[1;30m▐▐[0m                        [1;30m█[0m ▄████[1;30;47m▄[0m▀[1;30m▄▄▄[0m [1;30m▀▀▀▀[0m   [1;30m▀██▄          ▀█[0m

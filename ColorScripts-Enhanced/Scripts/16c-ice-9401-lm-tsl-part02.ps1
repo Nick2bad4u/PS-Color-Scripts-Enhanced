@@ -5,7 +5,7 @@
 # Source SHA-256: fd89401c3891e3551ff6fed922f32995998883553404bd3b21f78a72b3f45d49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM-TSL.ICE by Lord Mischief (ice-9401); released in ice-9401 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 33-73
 # Columns: 1-80
 
@@ -39,13 +39,11 @@ Write-Host '
 
                [34;40m·······[0;1;34;40mT[0;34m·[0;1;34mH[0;34m·[0;1;34mE[0;34m····[0;1;34mS[0;34m·[0;1;34mH[0;34m·[0;1;34mA[0;34m·[0;1;34mD[0;34m·[0;1;34mO[0;34m·[0;1;34mW[0;34m·[0;1;34mL[0;34m·[0;1;34mA[0;34m·[0;1;34mN[0;34m·[0;1;34mD[0;34m·[0;1;34mS[0;34m···········[0m
             [1;30m······················································[0m
-[1;30m  [0;1;34m                                     [0m                 [1;34m           [0m
-          [1;34m                       [0m     [31m▄[0m                 [1;34m         [0m
+[1;30m[0;1;34m[0m[1;34m[0m          [1;34m                       [0m     [31m▄[0m                 [1;34m         [0m
           [1;34m         [0m                  [1;31;41m▓▒[0;31m█[0m
                                [31m▄▄▄▄▄▄▐[0;1;31;41m░[0;31m▌▄▄▄▄▄▄▄[0m
             [31m▄▄▄▄▄▄▄▄▄███████████▀▀▄▄▄ █ ▄▄▄▀▀████████████▄▄▄▄▄▄▄[0m
          [31m▄█████▀[0;1;31;41m▄▄▄[0;31m███▄▄[0;1;31m▀[0;31m▀▀[0;1;31;41m▄▄[0;31m████▀▀▀▄ █ ▄▀▀▀█▄▄████[0;1;31;41m░▒▓[0;1;31;40m▄▄▄▄[0;31m▀▀▀██████▄[0m
           [31m▀▀████▄▄▄[0;1;31m▀▀▀[0;31m▀▀▀[0;1;31;41m▄▄[0;1;31;40m▄▄▄[0;31m▄████▄▄▀▀▀▄███████[0;1;31;41m░░▒▒▓[0;1;31;40m▀▀▀▀[0;31m▄▄▄█████▀▀[0m
               [31m▀▀▀▀███████▄▄▄▄▄▄▄▄▄▄███████▀▀▄▄█████▄▄██████▀▀▀▀[0m
-                         [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[31m   [0;1;34mN[0;34m·[0;1;34mO[0;34m·[0;1;34mD[0;34m·[0;1;34mE[0;34m··[0;1;34m1[0;34m··[0;1;34m(9600+)[0;34m··[0;1;34m609-256-0332 [0;34m···[0;1;34mN[0;34m·[0;1;34mO[0;34m·[0;1;34mD[0;34m·[0;1;34mE[0;34m··[0;1;34m2[0;34m··[0;1;34m(9600-)[0;34m··[0;1;34m609-569-1317[0m'
+                         [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m[31m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0m'

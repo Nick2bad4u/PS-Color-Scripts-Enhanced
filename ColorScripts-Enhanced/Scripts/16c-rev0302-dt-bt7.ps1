@@ -5,7 +5,7 @@
 # Source SHA-256: 7c60307137d3b8558b49ca39103a99502da925172bf17216d1b05fb8027fccbb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-BT7.ANS by Defiant (rev0302); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -18,9 +18,7 @@ Write-Host '
 [34m i   $:[0m     [1;30m"T$[0m$$$$$$$$$$$b"²%$$$S²d$$$[1;30m$$$$S [0;34m`i `b,[0m                          [34m.[0m
 [34m i   $i[0m      [1;30m,$[0m$$$P"T"²[1m²%SSS%a.",aSP²"[0;1;30m,aSSP" [0;34m:''  `:b.[0m
 [34m :  ,$$    [0;1;30m,d[0m$$$$$$$$S[1m@%a,.`"²4SSP  [0;1;30m"    .  [0;34m,d[0m     [34ma:[0m                        [34m:[0m
-[34m           [0;1;30m [0m       [1m       [0m     [1m  [0m         [1;30m   [0;34m     [0;1;34m [0;34m      [0;1;32m [0;32m     [0;1;32m [0;32m       [0m      [34m [0m
-[34m      [0;1;30m [0m                    [1m       [0m [1;30m           [0;34m      [0m       [32m         [0m         [34m [0m
-[34m   $ [0;1;30m:   [0mT$a$$$$$$S[1ma,. .,aS$$$[0m$[1mT$[0m$$[1;30mb" ''   :$$ [0;34mi$i''[0m          [32mskatter[0m          [34mI[0m
+[34m[0;1;30m[0m[1m[0m[1m[0m[1;30m[0;34m[0;1;34m[0;34m[0;1;32m[0;32m[0;1;32m[0;32m[0m[34m[0m[34m[0;1;30m[0m[1m[0m[1;30m[0;34m[0m[32m[0m[34m[0m[34m   $ [0;1;30m:   [0mT$a$$$$$$S[1ma,. .,aS$$$[0m$[1mT$[0m$$[1;30mb" ''   :$$ [0;34mi$i''[0m          [32mskatter[0m          [34mI[0m
 [34m   $: [0;1;30mb  [0m`²S$SP''[1;30m$$[0m$$$[1m$$$$$[0m$²''  [1m%$$[0m$$b[1;30ma.    sP [0;34m:$S[0m                           [34m.S[0m
 [34m : Tb [0;1;30m`[0m@a[1m%P[0m";  :[1;30m$[0m$$$$$$[1m$[0mP''  [1;30m''²[0m"T[1m$$4[0m$b[1;30m"''[0m     [1;30m'' [0;34md$`b,[0m                        [34m,d$[0m
 [34m :  `$%.[0;37m`[0;1;37m"[0m"[1;30m.    `²4[0mSSP²''   ,%[1ma,d$$$$[0m@[1m$[0m$[1;30m$:    [0;34m,$i  `²÷S@@%%aa,,,,..,,aa%%@@SS[0;1;34;44m$[0;34m$[0m

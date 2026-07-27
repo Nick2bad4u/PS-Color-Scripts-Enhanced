@@ -5,7 +5,7 @@
 # Source SHA-256: 7323f452a84809127befc29daee82994f0355b911549b452c275ed8261b3e6d5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_JERU0.ANS by jerusalem (black maiden); released in bmbook17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: styleneverdiez
 # SAUCE Author: jerusalem
 # SAUCE Group: black maiden
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[32m              [0m
-[1;34m······[0;1;36;45m··[0;1;34;40m········································································[0m
+[32m[0m[1;34m······[0;1;36;45m··[0;1;34;40m········································································[0m
    [33m,,[0m    [33m`"²╜*$S%y╖,._ __,,,╖y%S$[0;37m [0;33m╖[0;37m  [0;33m╓╖[0;37m [0;33myy%%[0;30;43mSS$[0;33;40m╖.[0;37;40m  [0;33;40m╓╓╖,,___[0;37;40m  [0;33;40my,_[0;37;40m  [0;33;40m,,[0m        [33;40m,,[0m
    [33;40m$$yy$ⁿⁿⁿyy+─╜╜$[0;30;43m$$$$[0;33;40m;$[0;30;43m$$[0;33;40m$$[0;31;43m$$$[0;30;43m$[0;33;40m$[0;37;40m [0;33;40m$**$![0;37;40m [0;33;40m$[0;30;43m$[0;33;40m$[0;30;43m$[0;33;41m$[0;31;43m$$[0;30;43m$[0;33;40m$:-╜╜╜`_,[0;30;43m$[0;33;40m$[0;37;40m [0;33;40m∙$[0;30;43m$[0;33;40m$[0;37;40m  [0;33;40m''''[0;37;40m [0;33;40m _,y%SS[0;30;43m$$$$[0m
 [33;40m╖╖ ![0;31;43m$$[0;33;40m$$: :[0;31;43m$$[0;33;40m╖.__ !$[0;30;43m$$[0;33;40mi[0;30;43m$$$[0;33;40m*$[0;31;43m$$[0;30;43m$[0;33;40m$ⁿ[0;37;40m [0;33;40m$ii$:∙$[0;31;43m$[0;33;40m$[0;30;43m$[0;33;41m$[0;33;40m![0;30;43m$$[0;33;40m$!%S[0;30;43m$[0;33;40m*$$[0;30;43m$$[0;33;40m$∙:[0;30;43m$$[0;33;40m![0;37;40m  [0;33;40m╓╖,,$[0;30;43m$$[0;33;40m²"^$[0;30;43m$$$[0m

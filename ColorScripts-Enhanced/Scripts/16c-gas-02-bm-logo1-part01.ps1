@@ -5,7 +5,7 @@
 # Source SHA-256: 6094f96a1c8a84e0a79485a918fb4e5f7146f9078db7d16bd385d6fa7abcf315
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM-LOGO1.ANS by biomass (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo collection #1
 # SAUCE Author: biomass
 # SAUCE Group: gas
@@ -23,8 +23,7 @@ Write-Host '
  [1;30m\[0m\ [1m  [0m [1m__[0m,  [1m [0m\[1;30m\[0;1;37m_[0m   [1;30m(|[0m½~^\[1;30m\[0m [1m  [0m¼[1;30m\[0;1;37m  [0;1;30m|[0m   [1m [0m\[1;30m\[0;1;37m_[0m   [1;30m(|[0m½~^\[1;30m\[0m [1m [0m
   [1;30m\[0;1;37m [0m_[1m__[0;1;30m||[0m^  [1m  [0m/[1;30m/_[0;1;37m__[0m,[1m  [0m   \[1;30m\[0;1;37m___[0;1;30m|\/|[0m   [1m  [0m/[1;30m/[0;1;37m___[0m,[1m  [0m   \[1;30m\[0;1;37m_[0;1;30m [0m
    [1;30m\/[0m~~~[1;30m[[0;1;37m___ [0m/[1;30m/[0m~~^~\[1;30m\[0;1;37m____[0m_ [1;30m/[0m~`~~~[1;30m|_[0;1;37m__ [0m/[1;30m/[0m~~^~\[1;30m\_[0;1;37m___[0m_ [1;30m/[0m
-           [1m [0;1;30m  [0m           [1;30m  [0;1;37m    [0m    [1m  [0;1;30m  [0m           [1;30m  [0m
-
+[1m[0;1;30m[0m[1;30m[0;1;37m[0m[1m[0;1;30m[0m[1;30m[0m
 
 <==[1;47m░[0m effigy [1;47m░[0m=================================================================>
 

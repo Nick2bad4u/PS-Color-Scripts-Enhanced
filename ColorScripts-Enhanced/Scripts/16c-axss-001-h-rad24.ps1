@@ -5,7 +5,7 @@
 # Source SHA-256: 2c9a6ae5c32144bb75ac8187a666d0ee8cc63154b6f68b592b6459dcd3ab3705
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: $H-RAD24.ANS by Shinigami (.%.AXss.%. -97); released in axss-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Radio 24 Logo !
 # SAUCE Author: Shinigami
 # SAUCE Group: .%.AXss.%. -97
@@ -41,13 +41,4 @@ Write-Host '
   [30;42m [0;1;32;40m   [0;32m  [0;30;42m [0;1;32;40m              [0m                 [30;42m [0;1;32;40m [0;32m  [0;30;42m [0;1;32;40m              [0m              [30;42m [0;1;32;40m   [0;1;5;32;40m [0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
 
-  [32m                                                       [0;1;32m        [0;32m             [0m
-[37m  [0;32m                                                                             [0m
-[37m  [0;32m                                                  [0m
-                                                      [37m  [0m    [32m$ h í ∩ í Ç /┤ m ì[0m
-                            [32m                         [0m
-
-       [1;30m     [0;32m        [0m            [1;30m                [0m         [1;30m     [0;32m              [0m
-      [1;30m       [0;32m        [0m           [1;30m       [0;32m         [0m            [1;30m       [0;32m       [0m
-    [1;30m          [0;32m         [0m        [1;32m                 [0m         [1;30m          [0;32m         [0m
-   [1;30mTel: [0;32m+41(0)22-348-5521[0m   [32mShinigami@Deathsdoor.com[0m    [1;30mTel: [0;32m+41(0)1-840-2162[0m'
+[32m[0;1;32m[0;32m[0m[37m[0;32m[0m[37m[0;32m[0m                                                      [37m  [0m    [32m$ h í ∩ í Ç /┤ m ì[0m'

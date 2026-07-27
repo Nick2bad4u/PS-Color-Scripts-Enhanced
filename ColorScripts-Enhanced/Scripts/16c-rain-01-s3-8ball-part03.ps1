@@ -5,7 +5,7 @@
 # Source SHA-256: d5c295f856b671e1dcc7a97e5b0ed01cb265d2f28d76b95ce29066bbf46af1c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S3-8BALL.ANS by Saturn 32 (rain-01); released in rain-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 74-115
 # Columns: 1-80
 
@@ -40,7 +40,7 @@ Write-Host '
                              [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
                             E i g h t  B a l l
-[1m▌ [0;1;30m░░░  [0;1;37m▌[0m                ( 6 0 2 ) 8 7 8 - 4 0 0 1                        [1m▌[0;1;30m░▒▒▒░[0;1;37m▐[0m
+[1m▌ [0;1;30m░░░  [0;1;37m▌[0m                                                                 [1m▌[0;1;30m░▒▒▒░[0;1;37m▐[0m
 [1;37m▌[0;1;30m░▒▒▒▒░[0;1;37m▌ [0m                                                                [1m▌[0;1;30m▓▒▒▒▓[0;1;37m▐[0m
 [1;37m▌[0;1;30m▒▓▓▓▓▒[0;1;37m▌[0m       DRiP Distro/Member Board / iMAGe Distro / CPO Dist        [1m▌[0;1;30m▓▓█▓▓[0;1;37m▐[0m
 [1;37m▌[0;1;30m█[0;1;30;44m▓█▓█▒[0;1;37;40m▌[0m            WACKYnet / PAGANnet / ONLY coderz board in 602       [1m▌[0;1;30;44m▓██▓▒[0;1;37;40m▐[0m

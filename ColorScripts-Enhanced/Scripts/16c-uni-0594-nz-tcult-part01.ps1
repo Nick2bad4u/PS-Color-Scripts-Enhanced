@@ -5,7 +5,7 @@
 # Source SHA-256: 55e583f4251c36c8907bde6fdac91d21d9edd21b753b550760e165d2c6f6a3da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-TCULT.ANS by Nailz (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Cult
 # SAUCE Author: Nailz
 # SAUCE Group: UNiON
@@ -19,7 +19,7 @@ Write-Host '
 
 [31m░█▄[0;1;37m▀▀[0;1;37;47m▓█▓█[0m [1;37;40m▓▀[0;1;37;47m▓[0;1;37;40m█▄▀▄▀▀[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m█ ▓▀[0;1;37;47m▓[0;1;37;40m█▄[0;31m▀▓█░ ▀▀▓▀▀▀▀▀▀▀▀▀▓█▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀█▓▀▀▀▀▀▀▀▀[0m
 [31m▒██▓ [0;1;37;47m▒▓▒▓[0m [1;37;40m▒ [0;1;37;47m▒▓▒▓[0m ▄▄[1;47m▒▓▒▓[0m [1;40m▒ [0;1;47m▒▓▒▓[0m [31m█▒ [0;1;37mIf[0;31m▒[0;1;37myou''d like[0;31m▓[0;1;37man ansi by[0;31m▒[0;1;37mNailz or by[0;31m▓[0;1;37many UNiON[0m
-[31m▓██▒ [0;1;37;47m░▒░▒[0m [1;37;40m░ [0;1;37;47m░▒░▒[0m [31m▄▄▄▄[0;37m▀[0;1;37;47m▒[0m [1;37;40m░ [0;1;37;47m░▒░▒[0m [31m█▓ [0;1;37mmember, call Flatlined Reality (613.224.8279).[0m
+[31m▓██▒ [0;1;37;47m░▒░▒[0m [1;37;40m░ [0;1;37;47m░▒░▒[0m [31m▄▄▄▄[0;37m▀[0;1;37;47m▒[0m [1;37;40m░ [0;1;37;47m░▒░▒[0m [31m█▓ [0;1;37m                                              [0m
 [31m███░ [0;31;47m [0;1;37;47m░ ░[0m [31m▄ [0;31;47m [0;1;37;47m░ ░[0m [31m▓▀[0;37m▄▄▄▄▄▄▄[0;37;47m [0;1;37;47m░ ░[0m [31m██ [0;1;37mThat would be your best bet, or try to contact[0m
 [31m███  [0;1;30;47m░ ░ [0m [31m█ [0;1;30;47m░ ░ [0m [31m▒ [0;1;30;47m░ ░ [0m ▓     [31m▓██ [0;1;37mNailz or Neurotic on some of the bigger art[0m
 [31m███  [0;1;30;47m▒░▒░[0m [31m▓ [0;1;30;47m▒░▒░[0m [31m░ [0;1;30;47m▒░▒░[0m ▒ [1;30;47m▒░▒░[0m [31m██ [0;1;37mboards around...  Btw: Neurotic is NOT Nailz''[0m

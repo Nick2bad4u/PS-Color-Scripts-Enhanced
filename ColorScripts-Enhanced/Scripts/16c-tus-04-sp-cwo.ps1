@@ -5,7 +5,7 @@
 # Source SHA-256: 00c513db880b6a643d1e2c6d32944b63cf644beae3be983019321e919c704932
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-CWO.ANS by Spinsane (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -31,6 +31,5 @@ Write-Host '
 [32m::[0;1;37m [0;33m,SSI$P[0;1;37m    [0;33mSS$[0;33;42mi[0;33;40mSS$⌂Q$q$$$⌂j/,._[0;1;37;40m [0;33mSiI[0;1;37m        [0;32m`╛SS$[0;1;37m      [0;32m [0;1;32m`$$[0;32ml[0;1;37m      [0;32m`⌐$$$$$b[0m
 [32m:[0;1;37m [0;33ml$$$$╢''[0;1;37m    [0;33m$$$I$$$[0;1;37m [0;33m`4$$b.[0;1;37m  [0;33m`"[0;1;33;47m][0;33m*$$$l[0;1;37m     [0;1;32m$.[0;1;37m   [0;32m`╘|[0;1;37m         [0;1;32m`*.[0;1;37m       [0;32m`''ⁿ*ⁿ''[0m
 [32mi.[0;33m`~''╘*)b,.__$$$S$$l[0;1;37m [0;32m:[0;1;37m [0;33m`4$$b.[0;1;37m  [0;32m..[0;1;37m [0;33m$$$[0;1;37m     [0;1;32m$$.[0;1;37m             [0m                [36m      [0m
-[1;31m [0;35m         [0;1;31m [0;35m      [0;1;31m [0;35m  [0;32m     [0;33m     [0;32m   [0;1;37m [0;33m   [0;1;37m     [0;1;32m  [0;32m  [0;1;37m                [0;32m    [0m
-[1;31ml[0;35mogin:[0;1;37m [0;5mspinsane[0;1m                           [0;1;32m$$[0;32m$$b,.___[0;1;37m     [0;32m_.,sd$$[0;1;32m$$$/.._[0m
+[1;31m[0;35m[0;1;31m[0;35m[0;1;31m[0;35m[0;32m[0;33m[0;32m[0;1;37m[0;33m[0;1;37m[0;1;32m[0;32m[0;1;37m[0;32m[0m[1;31ml[0;35mogin:[0;1;37m [0;5mspinsane[0;1m                           [0;1;32m$$[0;32m$$b,.___[0;1;37m     [0;32m_.,sd$$[0;1;32m$$$/.._[0m
 [1;31mp[0;35massword:[0;1;37m [0;5mrem0rse0wnz[0;1m                     [0;1;32m$$[0;32m$$$$$$$$$┼┼$┼┼$$$[0;1;32m$$$$$$$$$[0;32m$$>/[0;36mspRMRS[0m'

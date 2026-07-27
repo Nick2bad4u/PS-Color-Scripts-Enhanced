@@ -5,29 +5,12 @@
 # Source SHA-256: 3adca4da873feb018487722aa8e645c633fa4209f5d5027c3c3d9337c78c6985
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-radman.ans by Avenging Angel + Rad Man (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 31-80
 # Columns: 1-80
 
 Write-Host '
-                                                                            
-                                                                           
-                                                                            
-                                                                             
-                                                                        
-                                                                             
-                                                                               
-                                                                            
-                                                                           
-                                                                               
-                                                                            
-                                                                            
-                                                                       
-                                                                          
-                                                                       
-                                                      
 
-                                                                            
 
 
 

@@ -5,14 +5,14 @@
 # Source SHA-256: 061aa380ce8b32648ce552b9d820cc01b331fb05474d4f91bdf8b37825cbbf17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-TNS.ANS by Die Hard (bkn-1094); released in bkn-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 201-247
 # Columns: 1-80
 
 Write-Host '
                            [1;37;40mT [0;1;36;40mH [0;36mE  N [0;1;30mO R T H  [0;36mS T [0;1;36mA [0;1;37mR[0m
 
-           [36m│[0m                     [1;37m1[0;1;36m.[0;36m90[0;1;30m8.264.[0;36m50[0;1;36m4[0;1;37m2[0m
+           [36m│[0m                     [1;37m [0;1;36m [0;36m  [0;1;30m      [0;36m  [0;1;36m [0;1;37m [0m
            [1;36m│[0m                    [1;37m [0;1;36m [0;36m  [0;1;30m        [0;36m  [0;1;36m [0;1;37m [0m                      [36m [0m
       [36m- -─[0;1;36m─[0;1;37m┼[0;1;36m─[0;36m─ ─[0m                [1;37mA[0;1;36mr[0;36mt/[0;1;30mSysOp/HP[0;36mAV[0;1;36mC[0;1;37mT[0m                      [36m│[0m
            [1;36m│[0m                    [1;37m [0;1;36m [0;36m   [0;1;30m      [0;36m  [0;1;36m [0;1;37m [0m                       [1;36m│[0m
@@ -23,8 +23,7 @@ Write-Host '
                         [1;37m [0;1;36m [0;36m  [0;1;30m                         [0;36m  [0;1;36m [0;1;37m [0m             [1;36m│[0m
                                  [1;37m [0;1;36m  [0;36m  [0;1;30m     [0;36m  [0;1;36m [0;1;37m [0m                       [1;36m│[0m
                                [1;37m9[0;1;36m6[0;36m00 [0;1;30m- 14400 O[0;36mNL[0;1;36mY[0;1;37m![0m                     [36m│[0m
-                            [1;37m [0;1;36m  [0;36m  [0;1;30m                [0;36m  [0;1;36m [0;1;37m [0m                 [36m [0m
-
+[1;37m[0;1;36m[0;36m[0;1;30m[0;36m[0;1;36m[0;1;37m[0m[36m[0m
 
 
 
@@ -43,7 +42,6 @@ Write-Host '
       [1;36m▀▀▀███▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m▄▄ ▄▄▄▄▄▄▄▄▄ ▄▄[0;37m▄[0;36m▄[0;37m▄  ▄▄▄▄  ▄[0;1;30m▄   ▄   ▄    ▄[0m
 
 
-                       
 
                       [41m  [0;40m [0;41m [0;1;30;41m▒[0;1;30;40m▄ [0;1;30;41m  [0;1;30;40m [0;1;30;41m ▒[0;1;30;40m▄ [0;31m▄[0;31;41m  [0;1;30;41m░▒[0;1;30;40m▄ [0;1;30;41m░[0m     [1;30;41m  [0;1;30;40m [0;1;30;41m▓▒[0;31m▀ [0;31;41m  [0;31;40m▄ [0;31;41m [0;1;30;41m░[0m
                       [1;30;41m░▒[0;1;30;40m   █ [0;1;30;41m░▒[0;1;30;40m  ▄▀ [0;1;30;41m░▒[0;1;30;40m   [0;1;30;41m▓[0;1;30;40m [0;1;30;41m▒[0;1;30;40m ▄▀  [0;1;30;41m▒░[0m     [1;30;41m░▒[0;31m▀[0;1;30m█[0;1;30;41m▒▓[0m

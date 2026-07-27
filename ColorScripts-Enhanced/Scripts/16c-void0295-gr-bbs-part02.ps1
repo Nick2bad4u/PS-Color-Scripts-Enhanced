@@ -5,7 +5,7 @@
 # Source SHA-256: 0f7fdd02d27680d438924f7e088d8d32f6be7d0d848e0a7258a8beaf392d333a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-BBS!.ANS by Grimace (Void); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Free BBS Screens!
 # SAUCE Author: Grimace
 # SAUCE Group: Void
@@ -16,8 +16,7 @@
 
 Write-Host '
 [1;30;40m [0;1;37;40m───────────────[0m─[1m─[0m──[1m─[0m───[1m─[0m────[1;30m─[0m─[1;30m──[0m─[1;30m───[0m─[1;30m────────────────────────────────[0m [1;30m─[0m  [1;30m─[0m   [1;30m─[0m
-[1;30m [0m [1;30m                                                                            [0m
-[1;30m [0;1;37m───────────────[0m─[1m─[0m──[1m─[0m───[1m─[0m────[1;30m─[0m─[1;30m──[0m─[1;30m───[0m─[1;30m────────────────────────────────[0m [1;30m─[0m  [1;30m─[0m   [1;30m─[0m
+[1;30m[0m[1;30m[0m[1;30m [0;1;37m───────────────[0m─[1m─[0m──[1m─[0m───[1m─[0m────[1;30m─[0m─[1;30m──[0m─[1;30m───[0m─[1;30m────────────────────────────────[0m [1;30m─[0m  [1;30m─[0m   [1;30m─[0m
 [1;30m          [0m                                      [1;37m [0m  [1;37m░[0m [1;37m▄▄▄▄[0m    [1;37m▄▄▄▄[0m    [1;37m▄▄▄[0m
 [1;30m                [0m      [35m ░[0m                        [1;37m [0m [1;37m▄▒█[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓▓▒[0;1;37;40m▀▄█[0;1;37;47m▒▓█▓█[0;1;37;40m█▄█[0;1;37;47m▒▓▓[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m▄[0m [1;37;40m░[0m
                       [35m ▒▄░[0;33m▄[0m [35m▄ [0m  [37m [0m               [1;37m▄[0;1;37;47m▒▓[0;1;37;40m▓▄███[0;1;37;47m█▓[0;1;37;40m [0mL o g o n [1;47m▓█[0;1;40m█████▒[0m [1;40m [0m
@@ -43,6 +42,4 @@ Write-Host '
  [1;30mVoid Productions[0;33m▀▀▀[0;1;30;43m░[0;33m▄▄[0m         [33m▄[0;1;33;43m░[0;1;30;43m░[0;33m▀▀ [0m
                  [33m    [0m          [33m▀▀   [0m
  [1;37m───────────────[0m─[1m─[0m──[1m─[0m───[1m─[0m────[1;30m─[0m─[1;30m──[0m─[1;30m───[0m─[1;30m────────────────────────────────[0m [1;30m─[0m  [1;30m─[0m   [1;30m─[0m
-[1;30m              [0m [1;30m                                                 [0m
-                 [1;30m                                        [0m
- [1;37m───────────────[0m─[1m─[0m──[1m─[0m───[1m─[0m────[1;30m─[0m─[1;30m──[0m─[1;30m───[0m─[1;30m────────────────────────────────[0m [1;30m─[0m  [1;30m─[0m   [1;30m─[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m [1;37m───────────────[0m─[1m─[0m──[1m─[0m───[1m─[0m────[1;30m─[0m─[1;30m──[0m─[1;30m───[0m─[1;30m────────────────────────────────[0m [1;30m─[0m  [1;30m─[0m   [1;30m─[0m'

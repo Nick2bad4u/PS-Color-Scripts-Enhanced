@@ -5,7 +5,7 @@
 # Source SHA-256: 528840e1ca86a68518f13d9f79e7d4d243df083f02d4759a4d50705d2cc72496
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AA-TDF.ICE by Aada (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -50,9 +50,6 @@ Write-Host '
           [1m█[0;1;47m▓▀[0m▀     [1m██  [0;1;47m░▒▒[0;1;40m▄   ██[0;1;47m▄[0m    [1;40m█[0;1;47m▓░[0;1;40m█▀ ▀[0;1;47m▒▒▒▒░[0m [1;40m█[0;1;47m▄▀[0;1;40m█  ▀[0;1;47m▓▓▒░[0m [1;40m▐[0;1;47m▓[0m▀▄[1;47m▒█[0m  [1;40m▄[0;1;47m▒[0m
           [1;40m█[0;1;47m ▒[0m      [1;40m██   [0m▀[1;47m▓▓[0;1;40m█▄ ▐███▄  ██[0;1;47m▓[0m     [1;47m░░[0m█▀  [1m▀███[0;1;47m▓▓▒░[0m▀  [1m▐[0;1;47m▌░▒▄▄▓▓▒░[0m
 
-                                  [1;40m4[0m16-[1m7[0m37-[1m2[0m703
+                                  [1;40m [0m   [1m [0m   [1m [0m   
 [31m───────────────────────────────────────────────────────────────────────────────[0m
-               [1;37m   [0m       [1m [0m   [1m [0m            [1m     [0m   [1m [0m    
-               [1m    [0m   [1m [0m        [1m [0m          [1m   [0m         [1m [0m   [1m [0m       
-               [1m    [0m          [1m [0m       [1m [0m     [1m [0m    [1m [0m        [1m [0m    
-[31m───────────────────────────────[0;37mANSI[0;31m─[0;37mBY[0;31m─[0;37mAADA[0;31m─[0;37m[iCE][0;31m──────────────────────────────[0m'
+[1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[31m───────────────────────────────[0;37mANSI[0;31m─[0;37mBY[0;31m─[0;37mAADA[0;31m─[0;37m[iCE][0;31m──────────────────────────────[0m'

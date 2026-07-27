@@ -5,7 +5,7 @@
 # Source SHA-256: 86439e5c401f959efc3be9149a1df25bbecc2866982c4c05c7e533a28b6fb8f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PF_CFLD.ANS by profane (school); released in shl_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cottonfield whattever
 # SAUCE Author: profane
 # SAUCE Group: school
@@ -15,7 +15,6 @@
 # Columns: 1-80
 
 Write-Host '
-                                                                      
 
 
                        [1;36m▄█[0;1;36;46m░[0;36m▀▀[0;37m  [0;1;36m▄▄▄[0;1;36;46m░░[0;36m▄▄▄▄[0;37m [0;32m▄░░[0m     [1;36m▀[0;36m▀[0;1;36;46m░[0;36m█▌[0m

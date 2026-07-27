@@ -5,7 +5,7 @@
 # Source SHA-256: f5b9222f7a8a7102de82da1a151fc4020287a3da38acad557d418054f907f49d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-MERGE.ANS by Blind Sniper (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: D38/KiRRA Merge
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
@@ -43,10 +43,4 @@ Write-Host '
 
 [37;40m[[0;1;30;40mTime For A Break. Time For A Shag[0m]---------------------------------------------
 
-[1;30m [0;1;32m            [0;1;30m [0m [32m                                                           [0m
-               [32m               [0m
-               [32m                                                   [0m
-               [32m                                                        [0m
-               [32m                                                   [0m
-               [32m                                                          [0m
-               [32m<Sigh>[0;37m [0;1;32m:)* [0m'
+[1;30m[0;1;32m[0;1;30m[0m[32m[0m[32m[0m[32m[0m[32m[0m[32m[0m[32m[0m               [32m<Sigh>[0;37m [0;1;32m:)* [0m'

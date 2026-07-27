@@ -5,7 +5,7 @@
 # Source SHA-256: c9b76d3aef8854c6d6e3cd1a1e13f509295e39e1a5d81f5de041292da74885a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-ENTPS.ANS by Ts (tl199411); released in tl199411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -16,8 +16,7 @@ Write-Host '
                                                                      [1;37m∙[0m
                                ·
 
-                            [1m [0m  [1m  [0m [1m [0m  [1m [0m [1m    [0m [1m [0m  [1m [0m  [1m [0m [1m  [0m [1m [0m
-[1m    ∙[0m
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m    ∙[0m
                                      [1m∙[0m
                                                                            [1;30m·[0m
            ·

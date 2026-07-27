@@ -5,7 +5,7 @@
 # Source SHA-256: e60e7e5f22989d906c7b8afe36ba18900047a60bd7589862e0a50aadd092653c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _blocktronics_res[v]olution.ans by Avenging Angel + Enzo (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 195-242
 # Columns: 1-80
 
@@ -33,21 +33,21 @@ Write-Host '
 [32m  ████▒[0;1;30m▀[0m                                                                [32m▒██[0;32;46m█[0;32;40m█[0;1;30;42m▒[0m
 [1;30m▒[0;32m █████[0;1;30m [0;1;32m██▒[0m [1;36m [0;1;37m> Talk to us ([0;1;35m*[0;1;37m)[0m                                         [1;32m  [0;32m █████ [0;1;30m▒[0m
 [1;30m█[0m [32m████[0;1;30;42m▄[0m                                                                  [32m█████[0;37m [0;1;30m█[0m
-[1;30m█[0m [32m██[0;1;30;42m▄[0;1;30;40m▀[0;32m [0;1;30m▄▄█▒[0m      [32mwebsite _ [0;1;32mwww.blocktronics.org[0m                          [32m███[0;1;30;42m▄▄[0m [1;30m█[0m
-[1;30;42m█[0;32m [0;1;30;42m▄█[0;1;30;40m▄[0;1;30;42m███[0;1;30;40m▀[0;1;32;40m [0m        [32mcontact_[0;37m [0;1;32mblocktronics@blocktronics.org[0m              [1;32m  [0;32m [0;1;30;42m▄██[0;1;30;40m▀[0;1;30;42m█[0;32m [0;1;30;42m█[0m
-[1;30;40m█[0;32m [0;1;30;42m▀▀█▒▒[0m          [32mrequests_[0;37m [0;1;32mrequests@blocktronics.org[0m                    [1;30m▀▀▄[0;1;30;42m███[0m [1;30m█[0m
+[1;30m█[0m [32m██[0;1;30;42m▄[0;1;30;40m▀[0;32m [0;1;30m▄▄█▒[0m      [32m          [0;1;32m                    [0m                          [32m███[0;1;30;42m▄▄[0m [1;30m█[0m
+[1;30;42m█[0;32m [0;1;30;42m▄█[0;1;30;40m▄[0;1;30;42m███[0;1;30;40m▀[0;1;32;40m [0m        [32m        [0;37m [0;1;32m                             [0m              [1;32m  [0;32m [0;1;30;42m▄██[0;1;30;40m▀[0;1;30;42m█[0;32m [0;1;30;42m█[0m
+[1;30;40m█[0;32m [0;1;30;42m▀▀█▒▒[0m          [32m         [0;37m [0;1;32m                         [0m                    [1;30m▀▀▄[0;1;30;42m███[0m [1;30m█[0m
 [1;30m█[0m [1;36;42m██[0;32m [0;1;36;42m▒▒[0m                                                                  [1;30;42m▀ [0;1;30;40m▀██[0m [1;30m█[0m
 [1;30m█[0m [1;30;42m▄[0;1;36;42m▀[0;32m▄[0;1;36;42m██[0m        [1;35m* = we may never reply[0m                                    [1;36;42m░░[0;32m [0;1;30;42m▒▒[0m [1;30m█[0m
 [1;30m█[0m [32m▄[0;1;30;42m▀[0;1;36;42m ▀[0;1;30;42m▄[0m                                                               [1;30m░[0m  [1;36;42m▓▓[0;32m [0;1;36;42m░░[0m [1;30m█[0m
 [1;30m█[0m [1;36;42m▀[0;32m█[0;1;30;42m▀[0;1;30;40m▄[0;32m [0;37m [0;1;32m██▒[0;1;31m [0;1;37m> Ansi archive[0m                                             [1;30m▒▄[0;1;36;42m██[0;1;36;40m▒[0;1;36;42m▓▓[0m [1;30m█[0m
 [1;30m█[0m [1;36;42m▄██▄[0;1;30;42m▀[0m                                                             [1;31m [0m   [1;30m▀[0;1;30;42m▄[0;1;36;42m▀███[0m [1;30m█[0m
-[1;30m█[0m [1;36;42m▀██▀[0;1;30;42m▄[0;1;30;40m  [0m        [32m16colors_ [0;1;32mwww.sixteencolors.net[0m                         [32m [0;1;30m▀[0;1;30;42m▄[0;1;36;42m▀▀[0m [1;30m█[0m
+[1;30m█[0m [1;36;42m▀██▀[0;1;30;42m▄[0;1;30;40m  [0m        [32m          [0;1;32m                     [0m                         [32m [0;1;30m▀[0;1;30;42m▄[0;1;36;42m▀▀[0m [1;30m█[0m
 [1;30m█[0m [32m▀▀█[0;1;30;42m▀[0;32m▄[0;1;30m [0m                                                                 [1;36;42m▄▄[0;1;30;42m▀█[0;1;30;40m▀[0m [1;30m█[0m
 [1;30m█[0m [1;36;42m▄▓▓▓▓[0m [1;32m██▒[0m  [1m>[0m [1mWeb 2.0[0m                                                   [1;36;42m███▄[0;1;30;42m▀[0m [1;30m█[0m
 [1;30m█[0m [1;36;42m████▀[0m                                                                  [1;36;42m▀████[0m [1;30m█[0m
 [1;30m█[0m [1;36;42m▄██▄[0;32m█[0;37m  [0;1;30m░[0m       [32mmyspace[0;37m [0;32m_[0;37m [0;1;32mblocktronics[0m [1;32m(profile)[0m                     [1;30m▒▄[0m [1;36;42m██▄█▀[0m [1;30m█[0m
 [1;30m█[0m [1;36;42m█████[0;1;30;40m▄▒[0m        [32mfacebook_[0;37m [0;1;32m"blocktronics"[0m [1;32m(group)[0m                      [1;30m▀█[0;32m█[0;1;36;42m▀▀▀[0;32m█[0;37m [0;1;30m█[0m
-[1;30m█[0m [1;36;42m▀██▀[0;1;30;42m▄[0;1;30;40m▀[0m       [32mDeviantArt_[0;37m [0;1;32mblocktronics.deviantart.com[0m                   [1;30m▀[0;32m▀[0;1;30;42m▄[0;32m██[0;37m [0;1;30m█[0m
+[1;30m█[0m [1;36;42m▀██▀[0;1;30;42m▄[0;1;30;40m▀[0m       [32m           [0;37m [0;1;32m                           [0m                   [1;30m▀[0;32m▀[0;1;30;42m▄[0;32m██[0;37m [0;1;30m█[0m
 [1;30m█[0;32m ▀[0;1;30;42m▄█[0;1;30;40m▄▄[0;1;32;40m [0m         [32mYou[0;37m [0;32mTube_[0;37m [0;1;32mSearch[0m [1;32mfor[0m [1;32m"Ansi[0m [1;32mis[0m [1;32mdead"[0m [1;32mvideos[0m           [1;32m   [0;1;30;42m▀▀▀▀[0;1;30;40m▄[0;32m [0;1;30m█[0m
 [1;30m█[0m [1;36;42m▒▒▒▒▒[0m     [32m      [0;37m [0;32m       [0;37m [0;1;32m                                           [0m  [1;30m░[0;1;36;42m ▓ ▓▓[0m [1;30m█[0m
 [32m  [0;1;36;42m▀█ ▀[0;1;30;42m▄[0;1;30;40m▀[0;32m [0;1;30m▀▀[0m                                                          [1;30m   ▀[0;1;30;42m▄[0;1;36;42m▀[0;32m█[0;1;36;42m██[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 3cc6b2376dfc6fbdbf47f11a3e24888fd55295d6e72238dcd57b53823ca4fa7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-2IN1.ANS by minding age (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 2pix in one..
 # SAUCE Author: minding age
 # SAUCE Group: spin
@@ -18,9 +18,7 @@ Write-Host '
                      [1m,:[0m      , .  ,  ;     .  ;
                   [1m..i,[0m [1m:,[0m  ii   .    i     :, i    ;
                  [1m,:.[0m [1mi[0m  [1m,:.[0m..i.; i ;i  i  i  .     ii .
-                  [1m [0m [1m [0m [1m   [0m                                
-                                                          
-               .II'':Sb%s┐▬,.___ `iiI,,I''  _.,▬┌ss┐▬,`I;.i.
+[1m[0m[1m[0m[1m[0m               .II'':Sb%s┐▬,.___ `iiI,,I''  _.,▬┌ss┐▬,`I;.i.
                ;I: [1m_.,▬[0m┬┬▬,._``$i, T;I, ,4Pⁿⁿ''''""ⁿⁿⁿ: II''
               [36m [0;37m;''[0;1;37m,d$S[0mⁿ^~~^ⁿS$b,`?i: ;'' ,i'' [1m_.,▬[0m┬┬▬,._ '';
                 [1m,$P[0m''    ,▬▬,`*$,`;  ; ,4''[1m,d$S[0mⁿ^~~^ⁿS$b,
@@ -53,8 +51,7 @@ QQ[1;30mFG,[0m_   [36m$IS┐,[0;1;30m`RRT,[0m~[1;30;47m↓[0mⁿ"^~∙~^"
 [34m  [0;1;30m ┴┴┴┴┴┴┴[0m [36m,Iii[0;37m [0;1;30m┴┴┴┴ [0;34m  [0;1;30m ┴┴[0m [36m`┴┴┴┴┴┴***┴┴--┴┴┴''[0;37m [0;1;30m┴┴┴┴┴┴┴┴┴┴┴┴┴,[0;36m`↓i½½,[0;37m [0;1;30m┴┴┴┴┴┴┴┴┴┴┴┴[0m
 [1m     [0;1;30m,[0;1;37m [0;1;30m.[0;1;37m [0m [36m,$ii''[0;37m   [0;1;36m      [0;1;30m  [0;1;36m   [0m      [34mii[0;1;37mi[0;36mi[0;34mT[0;36mi[0;34mI[0;36mi[0;34mii[0;1;37m [0m      [1;30m [0m    [1;30m [0m    [36m`↓ⁿ"^~∙∙∙∙∙∙∙∙∙∙[0;37m [0m
 [1;37m     [0m.[1m   [0m [36m`┴┴┐''[0;37m  [0;1;37m_[0m\[1;30m|[0m/[1m_[0;1;36m   [0;1;30m [0m  [1;30m [0m.[1;30m [0m    [1mi[0;34mi[0;36mi[0;1;37mI[0;34mI[0;1;37mIii[0;34mi[0;1;37mi[0m        .  [1;30m [0m          [1;30m,[0m [1;30m.[0m   [1;30m.[0m
-    [1m  [0m [1m     [0m [1m [0;36m [0;37m  [0;1;30m [0m [1;30m [0m   [1;30m [0m           [1m [0;34m [0;1;37m  [0;36m [0;1;37m  [0;34m [0;1;37m  [0m                     
-         .      . .  .   . .     [1;30m,[0m [1m [0;1;30m [0;1;37m IITT[0m [1mII[0m [1m.[0m           .     .    [1m_[0m\[1;30m|[0m/[1m_[0m
+[1m[0m[1m[0m[1m[0;36m[0;37m[0;1;30m[0m[1;30m[0m[1;30m[0m[1m[0;34m[0;1;37m[0;36m[0;1;37m[0;34m[0;1;37m[0m         .      . .  .   . .     [1;30m,[0m [1m [0;1;30m [0;1;37m IITT[0m [1mII[0m [1m.[0m           .     .    [1m_[0m\[1;30m|[0m/[1m_[0m
            .  .                   .[1;30m [0m  [1mTT,[0m  [1mI[0m   [1m.[0m             . .     [1;30m [0m/[1;30m|[0m\
             .                      [1m.[0m [1m.[0m [1mI[0m [1m.[0m    [1m.[0m
                              [1;30m        [0m     [1m..[0m [1m.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 96ea9ad849f4a4d5ab0a884bc7a34f17ae453406861a07c8609ca0cf061c671d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PA-DSTNY.ANS by pandora (UNiT Productions); released in unit01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Neil Gaiman's Destiny
 # SAUCE Author: pandora
 # SAUCE Group: UNiT Productions
@@ -59,7 +59,4 @@ Write-Host '
 [33m███████████████████████████████████████████[0;36;43m █ █[0;33;40m▓▓▒████[0;1;30;40m███▓▓▓██▒▒█▓▓▓█▐[0;1;30;47m▓[0;1;30;40m▒▓[0;1;30;47m▒▒[0m [1;30m▒▓█[0m
 [33m███████████████████████████████████████████[0;36;43m █ █[0;33;40m▐▓▓█████[0;1;30;40m████▓▓▒▓▓▓▓▓█▐[0;1;30;47m▓▒[0;1;30;40m▓[0;1;30;47m▒[0;1;30;40m█████▄[0m
 [36m═pa!═══════════════════════[0;1;36mThe Endless Gallery BBS[0;36m═════════════════════════UNiT[0m
-       [1;36m                                         [0;36m [0;1;36m                           [0m
-                [1;36m                                               [0m
-         [1;36m              WWIV v4.24² ¡modded![0m [1;36m∙ (410)312-2761[0m
-[36m═══════════════════════════════════════════════════════════════════════════════[0m'
+[1;36m[0;36m[0;1;36m[0m[1;36m[0m[1;36m[0m[1;36m[0m[36m═══════════════════════════════════════════════════════════════════════════════[0m'

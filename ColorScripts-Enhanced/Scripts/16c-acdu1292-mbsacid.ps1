@@ -5,7 +5,7 @@
 # Source SHA-256: ef60361ab0ff8d0a7dbdff4edd363a7c5cd1cf8504063335984adfef79485dfa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MBSACID.ANS by Zed Nitro (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -41,6 +41,6 @@ Write-Host '
 [1;34m [0;34m  [0;1;34m [0;34m [0;1;34m  [0;34m              [0;1;30m│[0;1;37m  [0m                           [1m  [0m          [1m  [0m            [1m  [0m│
                      [1;30m│[0m                              [1;30m  [0m                         [1;30m│[0m
                      [1;30m│[0m                            [1;30m  [0m          [1;30m   [0m              [1;30m│[0m
-                     [1;30m│ [0;1;37mNode 1: [0m514-937-2005  [1mNode 2: [0m514-937-2909 [1m· 16.8k Dual [0;1;30m│[0m
-                     [1;30m│ [0;1;37mNode 3: [0m514-937-1413  [1mNode 4[0m: 514-937-0804 [1m· 14.4k HST  [0;1;30m│[0m
+                     [1;30m│ [0;1;37m        [0m              [1m        [0m             [1m             [0;1;30m│[0m
+                     [1;30m│ [0;1;37m        [0m              [1m      [0m               [1m             [0;1;30m│[0m
                      [1;30m└─────────────────────────────────────────────────────────┘[0m'

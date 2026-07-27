@@ -5,7 +5,7 @@
 # Source SHA-256: bdf01ab42db260da8fc5b4fb726eb7f93fda30c3b9de011ebe0614f77cd4dcea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-TST.ANS by prisoner number one (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Screaming Tomato
 # SAUCE Author: prisoner number one
 # SAUCE Group: ACiD Productions
@@ -42,16 +42,13 @@ Write-Host '
                               [1;36;40m                    [0m
 
                          [1;34;40m                              [0m
-                                 [1;34;40m(604)430-8805[0m
+                                 [1;34;40m             [0m
                                     [1;34;40m        [0m
 
 
-         [34m                          [0;37m [0;34m        [0;37m [0;34m         [0;37m [0;34m                  [0m
-
-                              [34m                    [0m
-
-              [34m                            [0;37m [0;34m                        [0m
-
+[34m[0;37m[0;34m[0;37m[0;34m[0;37m[0;34m[0m
+[34m[0m
+[34m[0;37m[0;34m[0m
 
 
 

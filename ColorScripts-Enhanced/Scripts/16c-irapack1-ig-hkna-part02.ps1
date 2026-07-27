@@ -5,7 +5,7 @@
 # Source SHA-256: 457228bbb4061d25607cf926ad249e5f8205caf8fbe85c5c1265d88b17872e39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IG-HKNA.ANS by Iguana (irapack1); released in irapack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 48-77
 # Columns: 1-80
 
@@ -31,7 +31,7 @@ Write-Host '
           [34mT[0;1;34mh[0;1;37me White Ensi[0;1;34mg[0;34mn[0m            [33m■[0m [33;41m▒▓[0m [33;41m░▓▓░[0;34;40m░[0m [33;41m░[0m [33;41m░[0m [33;41m░▓░[0;31;40m░[0m [33;41m░▓[0;31;40m▒[0m [33;40m▄[0m [33;40m▐[0;1;30;40m░░▓▒▓░▓░▒▓[0m
                 [36mB[0;1;36mB[0;1;37mS[0m                  [1;30m▒░▒[0;33;41m▒[0m [33;41m▓░░░[0m [33;41m░▓[0m [33;41m░[0m [33;40m█[0;33;41m▓[0m [33;41m░░▓[0m [33;41m▒[0m [31;40m▓[0m [33;41m░[0;1;30;40m░░▒▓░▓░▒▓░▒[0m
                                   [1;30;40m░▒░░▒▓░▒░▓▓[0;33;41m▓▓[0;33;40m▄[0m [33;41m░▓▓[0;33;40m·[0;33;41m░[0m [33;41m░▓░▓[0m [33;41m░[0;1;30;40m░▒░▒▓░▒▓░▓░▒▓[0m
-           [35m([0;1;35m7[0;1;37mo9) 334-24[0;1;35m7[0;35m4[0m         [1;30m░▒░░▒▓░▒▓░▒▓░░░░▒[0m [33;41m░▒[0;33;40m·[0m [1;30;40m▒░▒░░▓█░▒▓░▒▓░▒▓░[0m
+           [35m [0;1;35m [0;1;37m          [0;1;35m [0;35m [0m         [1;30m░▒░░▒▓░▒▓░▒▓░░░░▒[0m [33;41m░▒[0;33;40m [0m [1;30;40m▒░▒░░▓█░▒▓░▒▓░▒▓░[0m
      [32mS[0;1;32my[0;1;37msOp:Fa[0;1;32md[0;32me[0;1;32m [0m [33mC[0;1;33mo[0;1;37m-SysO[0;1;33mp[0;33ms:[0;1;30mD[0me[1ml[0mt[1;30ma[0m     [1;30m▒░▒░▒▓░▓▓▓▓░░▒▓▒░░▒▓█░▒▓█░▒▓░▒▓░▒▓▒[0m
            [34mJ[0;1;34ma[0;1;37md[0;1;34me[0m       [35mA[0;1;35ml[0;1;37mex The Gre[0;1;35ma[0;35mt[0m   [1;30m░░▒░░▒▓█░▒▓█▒▓█░▒▓█▒░▓█░▒▓█░▒▓░▒[0m
                                           [1;30m▒░▒░▓▒▓░▓▓░▓█░▒▓▒▓░▒▓░▓░▒▓░▒[0m

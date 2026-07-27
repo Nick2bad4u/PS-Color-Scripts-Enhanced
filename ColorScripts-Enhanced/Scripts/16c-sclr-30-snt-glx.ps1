@@ -5,7 +5,7 @@
 # Source SHA-256: 830ea057c8a53c99e37d6c9f776d73ff0fd375423f30d8f7a00023bc00247f7c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SNT-GLX.ANS by Shanti (sclr-30); released in sclr-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
@@ -14,8 +14,7 @@ Write-Host '
                                                                 [1;33m:.[0m
                         [1;33m.....:[0;1;31m:[0;1;33m:[0;1;31m:.[0;1;33m [0m                             [1;31m:[0;1;33m::.._[0m
 [1m               [0;1;33m     .:::::::::::[0;1;31m::[0;1;33m [0m                              [1;31m::[0;1;33m::::.[0m
-[1m        [0;1;33m                       [0;1;31m    [0m                              [1;31m  [0;1;33m     [0m
-[1m        [0;1;33m        .$$$$$$$$$$$$$[0;1;31m$[0;1;33m$[0;1;31m$i:[0m                              [1;31m:$$[0;1;33m$$$$[0m
+[1m[0;1;33m[0;1;31m[0m[1;31m[0;1;33m[0m[1m        [0;1;33m        .$$$$$$$$$$$$$[0;1;31m$[0;1;33m$[0;1;31m$i:[0m                              [1;31m:$$[0;1;33m$$$$[0m
 [1m        [0;1;33m      [0;1;37m.[0;1;33m$$$$$$$$$j$$$$$$[0;1;31m''[0;1;33m [0m                                [1;33m:[0;1;31m$[0;1;33m$[0;1;31m$[0;1;33m$$°[0m
 [1m     [0;1;33m        .$[0;1;37m$[0;1;33m$$┘''    °┘└Y$Y[0;1;31m┘[0;1;33m    [0;1;31m:[0;1;33m  [0m      [1;30m°[0;1;31m.oS[0;31mSo:::.[0;37m         [0;1;33m   [0;1;31m└[0;1;33m$$$L[0m
 [1m     [0;1;33m        [0;1;37m$[0;1;33m$$[0;1;37m''[0m  [1m             [0;1;33m  [0;1;31mj:.[0;1;33m [0;1;37m      [0m [31m`└0@$Oi:~[0;1;37m      [0m   [1;33m    °$$$L. [0m

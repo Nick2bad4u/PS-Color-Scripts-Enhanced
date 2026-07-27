@@ -5,7 +5,7 @@
 # Source SHA-256: b2f9e24236b5b41f4f1c5ffc5d5cfda9105de80619e3a46088924f7b13194709
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IK-CMPTN.ANS by ill communikation (Teklordz); released in tl-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Compton
 # SAUCE Author: ill communikation
 # SAUCE Group: Teklordz
@@ -30,7 +30,7 @@ Write-Host '
 [32;42mdz know how ta dew it..[0;32;40m██▀[0;37;40m [0;34;40m▄▄████▄███▄███[0;1;34;44m▀▀▀▀[0;1;34;40m▄▓▄[0m [32m▐█████████████████████████████[0m
 [32;42mlamer begone[0;32;40m█████████████[0;37;40m [0;34;40m███[0;30;44m_[0;34;40m██[0;30;44m_[0;34;40m█████[0;30;44m_[0;34;40m█[0;30;44m_[0;1;34;44m░[0;30;44m____ _[0;1;34;40m▓[0m [32m█████████████████████████████[0m
 [32;42mcall deadpool[0;32;40m███████████▌[0;34;40m▐██[0;30;44m/ //[0;34;40m█[0;30;44m//%//[0;34;40m█[0;30;44m/[0;34;40m█[0;30;44m/[0;34;40m█[0;30;44m/ //[0;34;40m█[0;30;44m/[0;1;34;40m▌[0;32m▐████████████████████████████[0m
-[32;42m716-826-1039[0;32;40m████████████[0;37;40m [0;1;34;44m░[0;34m█[0;30;44m/  /[0;34;40m█[0;30;44m//[0;34;40m█[0;30;44m//_/[0;34;40m█[0;30;44m/[0;34;40m█[0;30;44m/[0;34;40m█[0;30;44m// /[0;34;40m█[0;1;34;40m▓[0m [32m████████████████████████████[0m
+[32;42m            [0;32;40m████████████[0;37;40m [0;1;34;44m░[0;34m█[0;30;44m    [0;34;40m█[0;30;44m  [0;34;40m█[0;30;44m    [0;34;40m█[0;30;44m [0;34;40m█[0;30;44m [0;34;40m█[0;30;44m    [0;34;40m█[0;1;34;40m▓[0m [32m████████████████████████████[0m
 [32;42mnup: scurvy[0;32;40m███████████▓▀[0;34;40m▐█[0;30;44m/_//_//[0;34;40m█[0;30;44m//[0;34;40m███[0;30;44m/[0;34;40m█[0;30;44m/_// /[0;34;40m███[0;1;34;40m▌[0;32m▐███████████████████████████[0m
 [32m█████████████████████▓[0;37m [0;34m▓████▓████[0;30;44m!compton![0;34;40m████████[0;1;34;40m▓[0;34m [0;32m███████████████████████████[0m
 [32m██████████████████▓▀[0;37m [0;34m▄██████▌█[0;30;44mwewp...[0;34;40m█████[0;1;34;44m░[0;34m▀▓██████[0;1;34m▓[0;32m▐██████████████████████████[0m

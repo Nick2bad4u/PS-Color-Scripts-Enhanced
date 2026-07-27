@@ -5,7 +5,7 @@
 # Source SHA-256: 0a476f79c8d7294bb53db4654319ad62a13dfb94530e614ffebab2f5feba5544
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: E7-KO-HD.ANS by knot (rca-19a); released in rca-19a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: headers, can you read?
 # SAUCE Author: knot
 # SAUCE Date: 19970829
@@ -20,10 +20,8 @@ Write-Host '
 [1;32;46m▒▓[0m [30;47m░[0;37;40m▓█ [0;36;40m▀▀[0;1;32;40m▄[0;1;32;46m▓[0;1;32;40m▀▀▀▀▀▀▀[0m [1;32;46m▒[0m ▀▀▀ [1;32;46m░░[0m [1;32;46m▒[0;36m▀▀▀▀▀▀▀[0;37m [0;1;32;46m▒[0m [1;47m ▀[0m█ [1;32;46m▓▓[0m [1;32;46m▒[0m █[1;47m▀[0m█ [1;32;46m▓░[0m █ [1;32;46m▒▒[0m █ [1;32;46m░▒[0m [30;47m░[0;37;40m▓█ [0;1;32;46m▒▓[0m [1;32;46m░[0m [30;47m░░[0;37;40m▓ [0;1;32;46m▒▒[0m
 [1;32;46m░░[0m ░[30;47m▓░[0;37;40m▓  [0;1;32;46m░░[0;36m▄▄▄▄▄[0;1;32;46m░░[0m [1;32;46m░[0;36m▀▀▀▀▀▀▀▄[0;1;32;46m░[0;36m▄▄▄▄▄██[0;37m [0;1;32;46m░[0;36m▄▄▄▄▄[0;1;32;46m░░[0m [1;32;46m░[0;36m▄▄▄▄▄[0;1;32;46m░[0;36m█[0;37m [0;36m▄▄[0;1;32;46m░░[0;36m▄▄▄▀[0;1;32;46m░[0;36m▄▄▄▄▄[0;1;32;46m░░[0m [1;32;46m [0m ░[30;47m▓[0;37;40m░ [0;1;32;46m░░[0m
 
-                           [1m [0;1;32m                       [0;1;37m [0m
-
-[1;32m [0;1;37m [0;1;32m              [0m
-
+[1m[0;1;32m[0;1;37m[0m
+[1;32m[0;1;37m[0;1;32m[0m
 [30;47m░[0;37;40m▓█[0;30;47m    [0;37;40m██▀▀▀▀███[0;30;47m░[0;37;40m▓▀▀▀▀█████▀▀▀▀████████████████████████████████▀▀▀▀█████▀▀▀▀[0;1;37;47m░░▓[0m
 [30;47m▒▒░[0;37;40m [0;1;33;40m▄▄▄▄▄▄[0;1;33;46m▓[0;1;37;40m█[0m [36m▄▄[0;37m ░[0;30;47m▓[0;37;40m [0;1;33;46m▓[0;1;37;40m█[0m [1m▄▄[0;1;33m▄▄▄▄██[0m [1;33m▄▄▄▄▄▄[0;1;37m▄▄[0m [1;33m▄▄▄▄[0;1;37m▄▄[0;1;33m▄[0;1;37m▄[0m [1m▄▄[0;1;33m▄▄▄▄▄▄[0m [1;33m▄▄▄▄▄▄█[0;1;37m█[0m [1;33m▄▄▄▄▄▄█[0;1;37m█[0m [1;47m  ░[0m
 ░[30;47m▓▒[0;37;40m [0;1;33;46m▓▓[0m    [1;33;46m▒▓[0m [1;33;46m░░[0m    [1;33;46m▒▓[0m [1;33;46m▓█[0m    [1;33m▀▀[0m [1;33;46m█▓[0;1;33;40me7[0m  [1;33;46m▓█[0m    [1;33;46m▓▓[0m       [1;33m█[0;1;33;46m▓[0m    [1;33;46m▓▓[0m    [1;33;46m▓█[0m [1;33;46m█▓[0m    [1;33m██[0m [30;47m░[0;37;40m▓[0;30;47m░[0m

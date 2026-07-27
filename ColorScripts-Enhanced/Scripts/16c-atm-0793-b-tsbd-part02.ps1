@@ -5,7 +5,7 @@
 # Source SHA-256: 2519199b7eee1ad12dc134fdcc75446f69844a911ef1b8dced89f2b6c38f0028
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-TSBD.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -46,7 +46,7 @@ Write-Host '
                      [31m▄[0;1;31m▄▄[0m
                     [31m██[0;1;31;41m■[0;31m█[0;1;31;41m▀[0;31m▄[0;1;31m▄▄▄[0m                   [31m▄▄█[0;1;31;41m▀▀[0;1;31;40m▄[0m
            [1;30;40m▐▌[0m        [31m██ [0;1;37m  [0;1;36m     [0;36m      [0;1;34m     [0;34m     [0;1;30m      [0;1;31;41m▐[0m      [1;30;40m▐▌[0m
-           [1;30;40m▐▌[0m         [31m█[0;1;31;41m▄[0m      [1;36;40m([0;36m703) [0;1;34m378-3[0;34m553[0m        [31m██[0m      [1;30m▐▌[0m
+           [1;30;40m▐▌[0m         [31m█[0;1;31;41m▄[0m      [1;36;40m [0;36m     [0;1;34m     [0;34m   [0m        [31m██[0m      [1;30m▐▌[0m
            [1;30m▐▌[0m         [31m█    [0;1;36mSysop[0;36ms  : [0;1;34mFarmi[0;34mcus[0m       [31m█[0m       [1;30m▐▌[0m
            [1;30m▐[0;1;30;43m  [0m        [31m█[0m              [1;34m      [0;34m     [0;1;30m    [0;31m█[0m       [1;30m▐[0;1;30;43m  [0m
            [1;30;40m▐[0;33m█[0;1;30;43m░[0m        [31m▌    [0;1;37mR[0;1;36memote[0;36ms : M[0;1;34martia[0;34ml Law    [0;31m▐[0m       [1;30m▐[0;33m█[0;1;30;43m░[0m

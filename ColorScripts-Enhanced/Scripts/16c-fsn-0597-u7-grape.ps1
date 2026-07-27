@@ -5,7 +5,7 @@
 # Source SHA-256: b41b3962e3165eb5fa99686eef9d68a14782e21716cbce2408aaddc28cb2dce6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: U7%GRAPE.ANS by _undertaker (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: grape
 # SAUCE Author: _undertaker
 # SAUCE Group: fusion
@@ -42,7 +42,4 @@ Write-Host '
 
 [37m░░░               [0m
 [37m   [0m
-[1;37m             [0m
-                                                     
-                                                  
---[0m'
+[1;37m[0m--[0m'

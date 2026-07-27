@@ -5,17 +5,15 @@
 # Source SHA-256: 193bb73b42a0c4dfbf2ad3e8be19035b20a42bca413af10923921b28a79cd84d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zs-drmii.ans by Zerostar (sys2_01); released in sys2_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
 [34m                                        ┘                                       [0m
 [34m                                     [0;1;30m  ▬┐ [0;34m                                      [0m
-[34m                                      [0;1;30m [0;36m   [0;1;30m [0;34m                                     [0m
-[34m                                   ┘ [0;1;30m  [0;36m [0;1;36m [0;36m [0;1;30m  [0;34m                                    [0m
-[34m                                  [0;1;30m  [0;36m   [0;1;36m   [0;36m  [0;1;30m   [0;34m                                 [0m
-[34m                                  [0;1;30m [0;36m┘[0;1;30m   [0;36m   [0;1;30m   [0;36m└[0;1;30m [0;34m                                 [0m
+[34m[0;1;30m[0;36m[0;1;30m[0;34m[0m[34m                                   ┘ [0;1;30m  [0;36m [0;1;36m [0;36m [0;1;30m  [0;34m                                    [0m
+[34m[0;1;30m[0;36m[0;1;36m[0;36m[0;1;30m[0;34m[0m[34m                                  [0;1;30m [0;36m┘[0;1;30m   [0;36m   [0;1;30m   [0;36m└[0;1;30m [0;34m                                 [0m
 [34m                                       [0;1;30m   [0;34m     ┌▬                               [0m
 [34m                                    ┘       [0;35m [0;34m ┘ [0;35m  [0;34m   [0;35m [0;34m      ┘ ┘                 [0m
 [34m                           ┘   [0;35m [0;34m [0;35m ▬┐ [0;1;35m    [0;35m [0;34m  [0;1;35m [0;35m [0;34m  [0;1;35m [0;35m [0;34m  [0;1;35m [0;35m [0;34m                          [0m

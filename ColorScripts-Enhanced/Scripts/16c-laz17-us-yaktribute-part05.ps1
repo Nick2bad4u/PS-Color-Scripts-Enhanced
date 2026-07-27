@@ -5,7 +5,7 @@
 # Source SHA-256: 8bd4703acf2df21b9af9fab579396dbe27bfbb105a908f4da4fb0c2967e0c7f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-YAKTRIBUTE.ans by Warpus + Hennifer (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: YAK TRIBUTE
 # SAUCE Author: hennifer & warpus
 # SAUCE Group: LAZARUS
@@ -26,6 +26,5 @@ Write-Host '
 [31m  [0;1;30m►   [0;36m                                                                    [0;1;30m◄[0m
 
 
-                   [1;30m [0m                                     [1;30m [0m
-
+[1;30m[0m[1;30m[0m
                                      [1;30m**[0m'

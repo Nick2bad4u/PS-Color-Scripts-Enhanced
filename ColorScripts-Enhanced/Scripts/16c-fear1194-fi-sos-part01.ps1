@@ -5,7 +5,7 @@
 # Source SHA-256: 4d4dc8457c1a8a675c3a135b3887a050fa6c82d79f535d2a9ebb300e991e8eda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FI-SOS.ANS by Future Imperfect ([FEAR]); released in fear1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Synagogue of Satan
 # SAUCE Author: Future Imperfect
 # SAUCE Group: [FEAR]
@@ -29,10 +29,10 @@ Write-Host '
                [1;36;46m░[0;36m█▓[0m   [1;36;46m░[0;36m▌[0;1;37;47m▌[0;1;30;47m▐[0;1;30;40m▐[0;36m▒       ▀▓█▌[0;1;37;47m▌[0;1;30;40m▐[0;1;30;46m░[0;36m░[0m [1;37mb[0my[1;30m anyone[0m [1;30melse in the FEAR art[0m [1;30mgrou[0mp[1m.[0m
                [1;36;46m░[0;36m▓ [0m   [1;36;46m▒[0;36m▌[0;1;37;47m▌[0;1;30;40m▐▐[0;36m▒[0;1;30m [FEAR][0m [1;36;46m░[0;36m█[0;1;37m▐[0;1;30;47m▐[0;1;30;40m▐[0;1;30;46m░[0;36m░[0m [1;37mY[0mo[1;30mu[0m  [1;30mcan contact[0m [1;30m me[0m [1;30m (Geoff[0m [1;30m May)[0m [1;30m [0;1;37m3[0m
                [36m▀ [0m    [1;36;46m▒[0;36m▌[0;1;37m▌[0;1;30m▐▐[0;36m▒[0;1;30m [0m       [1;36;46m░[0;36m▌[0;1;37;47m▌[0;1;30;47m▐[0;1;30;40m▐[0;1;30;46m░[0;36m░[0m [1;37mw[0ma[1;30mys...[0m
-                     [1;36;46m▒[0;36m▌[0;1;37m▌[0;1;30;47m▐[0;1;30;40m▐[0;36m▒[0;1;30m [0m       [1;36;46m▒[0;36m▌[0;1;37;47m▌[0;1;30;40m▐▐[0;1;30;46m░[0;36m░[0m  [37m [0;1;37mV[0mo[1;30mice: [0m([1;30m5i9[0m)[1;30m578[0m-[1;30m3376 [0m
-                     [1;36;46m▒[0;36m▌[0;1;37;47m▌[0;1;30;47m▐[0;1;30;40m▐[0;36m▒[0;1;30m [0m       [1;36;46m▒[0;36m▌[0;1;37m▌[0;1;30m▐▐[0;1;30;46m░[0;36m░[0m  [37m [0;1;30m  [0;1;37mB[0mB[1;30mS: [0m([1;30m5i9[0m)[1;30m578[0m-[1;30m4725[0m [1;37mA[0mr[1;30mtists In[0mc[1m.[0m
+                     [1;36;46m▒[0;36m▌[0;1;37m▌[0;1;30;47m▐[0;1;30;40m▐[0;36m▒[0;1;30m [0m       [1;36;46m▒[0;36m▌[0;1;37;47m▌[0;1;30;40m▐▐[0;1;30;46m░[0;36m░[0m  [37m [0;1;37m [0m [1;30m     [0m [1;30m   [0m [1;30m   [0m [1;30m     [0m
+                     [1;36;46m▒[0;36m▌[0;1;37;47m▌[0;1;30;47m▐[0;1;30;40m▐[0;36m▒[0;1;30m [0m       [1;36;46m▒[0;36m▌[0;1;37m▌[0;1;30m▐▐[0;1;30;46m░[0;36m░[0m  [37m [0;1;30m  [0;1;37m [0m [1;30m   [0m [1;30m   [0m [1;30m   [0m [1;30m    [0m [1;37m [0m [1;30m        [0m [1m [0m
                      [1;36;46m▓[0;36m▌[0;1;37;47m▌[0;1;30;47m▐[0;1;30;40m▐[0;36m▒[0m        [1;36;46m▓[0;36m▌[0;1;37;47m▌[0;1;30;47m▐[0;1;30;40m▐[0;1;30;46m░[0;36m [0m         [1;30m              [0m
-                     [1;36;46m▓[0;36m▌[0;1;37;47m▌[0;1;30;40m▌[0;36m▒▌[0m        [1;36;46m▓[0;36m▌[0;1;37;47m▌[0;1;30;40m▌[0;1;30;46m▓[0;36m▓[0;1;30m  [0m [1mI[0mn[1;30mternet: gmay@fhci.kitchener.on.[0mc[1ma[0m
+                     [1;36;46m▓[0;36m▌[0;1;37;47m▌[0;1;30;40m▌[0;36m▒▌[0m        [1;36;46m▓[0;36m▌[0;1;37;47m▌[0;1;30;40m▌[0;1;30;46m▓[0;36m▓[0;1;30m  [0m [1m [0m [1;30m                               [0m [1m [0m
                      [1;36;46m▓[0;36m▌[0;1;37;47m▌[0;1;30;40m▐[0;36m▒▌[0m        [1;36;46m▓[0;36m▌[0;1;37;47m▌[0;1;30;40m▐[0;36m█▒[0m
             [37m [0m        [1;37;46m▒[0;36m▌[0;1;37m▌[0;1;30;46m▒[0;36m▒[0m         [1;37;46m▒[0;36m▌[0;1;37m▌[0;1;30;46m▓[0;36m▓▌[0m
                      [1;37;46m▓[0;1;30;46m░[0;36m▄▓▌[0m         [1;37;46m▓[0;36m█▄█▒[0m

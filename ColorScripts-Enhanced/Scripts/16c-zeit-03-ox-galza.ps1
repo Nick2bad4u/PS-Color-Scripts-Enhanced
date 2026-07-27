@@ -5,7 +5,7 @@
 # Source SHA-256: 087443240f86da7f91ab97c31ed0c320aa7094bd2a0b647ca78197c0663fd240
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OX-GALZA.ANS by 0xel (zeit_03); released in zeit_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -29,9 +29,7 @@ Write-Host '
 [1m       [0;1;32m$$$$$² [0;1;37m.┐S┘"^~~^"                                [0;1;36m   ,y#$$Q#╖,  [0;1;37m     $$&[0m
 [1m       [0;1;32m$$$P [0;1;37m dP                                         [0;1;36m  I$$''   `?$$,[0;1;37m     I$$[0m
 [1m            J$:    .......[0m   .┐#↕↕#┐.^''?#[1;30m:[0m     [1m........[0m [1;36m$$$$I      $$$[0;1;37m     $$?[0m
-[1m                   [0;1;30m [0m     [1;30m [0m                              [1;36m               [0;1;37m       [0m
-[1m             ?L    [0mli[1;30m:[0;1;37m.[0mii[1m...[0m""    [1;30m:[0mil [1;30m:[0mil  [1m.....[0m  .\`   [1;36m I$$$$$$$$$$$$;[0;1;37m ,$$?[0m
+[1m[0;1;30m[0m[1;30m[0m[1;36m[0;1;37m[0m[1m             ?L    [0mli[1;30m:[0;1;37m.[0mii[1m...[0m""    [1;30m:[0mil [1;30m:[0mil  [1m.....[0m  .\`   [1;36m I$$$$$$$$$$$$;[0;1;37m ,$$?[0m
 [1m              ''┘S┐,.__[0;1;30m:[0;1;37mSl  ......[0m li[1;30m:[0m li[1;30m:[0m    li[1;30m:[0m .i[1;30m:[0m    [1;36m_$$$       $$$[0;1;37md$$?`[0m
 [1m                  ~^""^~   [0;1;30m:[0mil [1m...[0mii [1;30m:[0mii[1m.....[0mii  ii[1m.....[0;1;36m$$$I   [0;1;37mQQ$$$$S?^[0m
-[1m                           [0m  [1;30m [0;1;37m     [0m [1;30m       [0m             [1;36m       [0;1;37m     [0m
-[1m                                                        [0;1;36m$$$$$$$$$[0m'
+[1m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;36m[0;1;37m[0m[1m                                                        [0;1;36m$$$$$$$$$[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0490fc6092e424a20da22586f64585511a81ccdde7d5b80e9d03269d4e5d89dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V5!STATI.ANS by fatsh (morph); released in morph-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Static
 # SAUCE Author: fatsh
 # SAUCE Group: morph
@@ -33,6 +33,4 @@ Write-Host '
     [1;33;41m         [0m
                                                   [1;36m         [0m
 -----[cut here >>---------------------------------------------------------------
-                          
-                                                                            
 cya                                ^[0m'

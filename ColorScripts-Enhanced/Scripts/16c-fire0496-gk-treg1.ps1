@@ -5,7 +5,7 @@
 # Source SHA-256: 5c93e826b23ef145638ec1c545b4dcc3160112e51dcb8a11b4aac7f75f25a877
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GK-TREG1.ANS by grind king (fire); released in fire0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the regency
 # SAUCE Author: grind king
 # SAUCE Group: fire
@@ -31,5 +31,5 @@ Write-Host '
        [34m███[0m   [34m▀▀[0;1;34;44m░[0;34m██▀[0m   [34m ▀▀[0;1;34;44m▀░[0;34m▄ [0;1;34m░[0;34m▀███▌   ▀▀▀███[0m      [1;34m [0;34m     ░▀▀▀▄██▀██▌[0;1;30m▓[0;34m [0;1;34;44m ▒[0;34m█▀[0m
                [1;34m░[0m         [34m▐█[0;30;44m [0;34;40m▌  [0;1;34;44m ░ [0;34m▀[0m                            [30;44m░[0;34;40m██  ▐███[0m
                         [34;40m ██[0;30;44m░[0;34;40m  ▐[0;1;34;44m░[0;1;34;47m▓[0;1;34;44m▌[0m     [36mtelnet[0m                 [34m▐██▄▄▄███▌[0m
-                        [34m▐██▄▄▄[0;1;34;44m▄ ▀[0;34m▌[0m     [36mtregency.res.cmu.edu[0m    [34m ▀▀▀▀▀▀[0m
+                        [34m▐██▄▄▄[0;1;34;44m▄ ▀[0;34m▌[0m     [36m                    [0m    [34m ▀▀▀▀▀▀[0m
                         [34m▀  ▀▀▀▀▀[0m'

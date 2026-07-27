@@ -5,7 +5,7 @@
 # Source SHA-256: 45afc860f33bb76d2be737609ed0667bdc5bbfb465803f01ac9330c6b05b4270
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-TOP10.ANS by spinal (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: top10
 # SAUCE Author: spinal
 # SAUCE Group: phobia
@@ -32,7 +32,4 @@ Write-Host '
 
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-   [1;37m                                                                     [0m
-   [1;37m                                                                   [0m
-             [1;37m                                                 [0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m'
+[1;37m[0m[1;37m[0m[1;37m[0m[1;30m────────────────────────────────────────────────────────────────────────────────[0m'

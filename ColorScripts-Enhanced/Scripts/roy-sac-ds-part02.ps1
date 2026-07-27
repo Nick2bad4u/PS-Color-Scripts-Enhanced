@@ -5,7 +5,7 @@
 # Source SHA-256: a32f5a27974c0fb843751a2b34e078fb36ad73287abe531600da02dd400697d8
 # Source License: FAL-1.3
 # Source Attribution: ROY-DS.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Desert Storm Logon
 # SAUCE Author: ROY
 # SAUCE Group: READ THE INI FILE
@@ -39,8 +39,5 @@ Write-Host '
 
                     [34m········· [0;1m! i[0;1;34mTS [0;1mi[0;1;34mL-[0;1mL[0;1;34mEGAL ! [0;34m·········[0m
 
-      [34m           [0;1m [0;1;34m       [0;1m [0;1;34m  [0;1m [0;1;34m     [0;1m [0;1;34m       [0;1m [0;1;34m    [0;1m   [0;1;34m    [0;1m [0;1;34m  [0;1m [0;1;34m     [0;34m          [0m
-               [34m·········· [0;1m5 N[0;1;34mODES [0;1mD[0;1;34mUAL + [0;1m2 N[0;1;34mODES [0;1mi[0;1;34mSDN [0;34m··········[0m
-[34m              [0;1m [0;1;34m     [0;1m [0;1;34m    [0;1m [0;1;34m            [0;1m [0;1;34m  [0;1m [0;1;34m       [0;1m [0;1;34m    [0;1m [0;1;34m     [0;1m [0;1;34m      [0;34m          [0m
-           [34m           [0;1m [0;1;34m     [0;1m [0;1;34m       [0;1m [0;1;34m          [0;1m [0;1;34m     [0;1m [0;1;34m     [0;34m          [0m
-                      [34m·········· [0;1m0[0;1;34m-3 [0;1mD[0;1;34mAYS [0;1mO[0;1;34mNLY [0;34m··········[0m'
+[34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;34m[0m               [34m·········· [0;1m5 N[0;1;34mODES [0;1mD[0;1;34mUAL + [0;1m2 N[0;1;34mODES [0;1mi[0;1;34mSDN [0;34m··········[0m
+[34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;34m[0m[34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;1m[0;1;34m[0;34m[0m                      [34m·········· [0;1m0[0;1;34m-3 [0;1mD[0;1;34mAYS [0;1mO[0;1;34mNLY [0;34m··········[0m'

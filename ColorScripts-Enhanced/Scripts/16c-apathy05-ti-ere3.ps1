@@ -5,7 +5,7 @@
 # Source SHA-256: 513776342aeac08a435f15df646c8b718540de2763dee4a311684ff44c5607aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-ERE3.ANS by Trip (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Erebus
 # SAUCE Author: Trip
 # SAUCE Group: Apathy
@@ -51,11 +51,10 @@ Write-Host '
 [33m▄██▄▄▄▄▄▄▄▄[0;1;30;43m ti![0;33m█▄▄▄▄▄▄▄▄█▌ ▄██▄▄▄▄▄▄▄▄████▄▄▄▄▄▄▄▄██▄ ▄██▄▄▄▄▄▄▄▄██████▄▄▄▄▄▄██▄[0m
 
 [33m-----[cut me, baby]-------------------------------------------------------------[0m
-                         [33m                                       [0m
-       [33m▄ ▀[0m       [33m▀[0;1;30;43m░░[0;33m▄▄[0m
+[33m[0m       [33m▄ ▀[0m       [33m▀[0;1;30;43m░░[0;33m▄▄[0m
      [33m▄▀ [0m          [33m▐[0;1;30;43m░[0;33m▌[0m
    [33m▄[0;1;30;43m░[0;33m▌ [0;37m [0;33m  ▄[0;1;30;43m▒[0;33m▄[0m     [33m▐[0;1;30;43m▒[0;33m [0m    [33m                                             [0m
-[37m [0;33m▄▀[0;37m [0;1;30;43m▒[0;33m▌[0;37m [0;33m  ▄[0;37m [0;33m▀[0m    [33m  ▐▌[0m     [33mthrust@primenet.com[0m
+[37m [0;33m▄▀[0;37m [0;1;30;43m▒[0;33m▌[0;37m [0;33m  ▄[0;37m [0;33m▀[0m    [33m  ▐▌[0m     [33m                   [0m
 [33m■[0m   [33m▐▌[0;37m  [0;33m ▐[0;1;30;43m▒[0m      [33m ▀[0m     [33m                                                        [0m
 [37m [0;1;30m ░░[0m [1;30;43m░[0;33m [0;1;30m░░[0;33m [0;1;30;43m▒[0;33m▌[0;1;30m░░░[0m [33m▄[0;1;30;43m░[0;33m▄[0;37m [0;1;30m░░[0m
  [1;30m   [0m  [33m▀[0;37m [0;33m  [0;37m [0;33m▀ [0m   [33m ▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7ae723191c7245f46e5add81bd404e170673565f07a463c42bd7317c031c6b8b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-vaprdplmcy.ans by Mel Farr Suppastar + Avg (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Vaporwave Diplomacy
 # SAUCE Author: MFS & AVG
 # SAUCE Group: Lazarus
@@ -19,8 +19,7 @@ Write-Host '
 
 
 
-[37m                            [0;35m                      [0m
-
+[37m[0;35m[0m
 
 [37m             [0;34m·[0;37m                    [0;35m▀█▀[0;37m [0;35m█▄[0;37m [0;35m█[0m
 [37m                                   [0;35m█[0;37m  [0;35m█ ▀█[0m

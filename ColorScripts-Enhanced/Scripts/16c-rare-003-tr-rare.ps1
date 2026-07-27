@@ -5,7 +5,7 @@
 # Source SHA-256: e8b1ed9e7edc10671d29f25ee3ee331249bd99d2561f0a96ccba72451344bada
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-RARE.ANS by Tee_Are (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -17,20 +17,16 @@ Write-Host '
 
 
 
-                            [1m                  [0m
-
+[1m[0m
                          [1mllll;;;;;;;''''''''''''''''''''''5555[0m
                          [1m5;;;'' _.,sss@SS?&*┘^`[0m   [1m55[0m
                          [1m5; _,d$P┘^` [0;31m┌─+─┘[0;1;37m ,┌@$  l5[0m
                          [1m55. `^└*?s,._  ,s@Slli; il[0m
                          [1m5555;;,,.....       ...,;i[0m
 
-                           [1m                [0m
-                            [1m                 [0m
+[1m[0m[1m[0m
 
-
-                            [1m             [0m
-
+[1m[0m
 
 
  [1m↓[0m
@@ -50,10 +46,8 @@ Write-Host '
 [37m   [0;35m  .┌ñ"[0;1;37m^"[0;35mⁿ╝ñi`   .b[0;37m [0;1;30ml  ;[0m  [1;30mi[0m 7'' [1;30m.''[0m ,''.`.[1;30m `. [0m`√ [1;30mi[0m  [1;30m;  l [0;35m. [0m     [35mm*╝ⁿ[0;1;35mⁿ"[0;35m"^^``.     [0m
 [37m   [0;35m .[0;1;35mÑ[0;1;30m:[0;35m  [0;1;37mg[0;35m*g[0;1;30m.[0;35m [0;1;37m:[0;35m    [0;1;35m:[0;35m7[0;37m [0;1;30m;   [0m. [1;30ml[0m  [1;30m.''[0m .`[1;30m [0md[1mÑ[0mb ''.[1;30m `. [0m [1;30ml[0m .[1;30m   ; [0;35mi [0m    [1;30m:[0;35m     [0;1;37m_..[0;35m,,g      [0m
 [37m   [0;35m i[0;1;30ml[0;35m  [0;1;37ml[0m   [1;30m:[0;35m  [0;1;37ml[0;35m   [0;1;35mi[0;35m''[0;1;30m.  , [0mi 1 [1;30m,[0m  7''[1;30m,[0mdÑ[1mÑ[0mÑb[1;30m.[0m`√ [1;30m ,[0m 1 i[1;30m ,  .[0;35m` [0m    [1;30ml[0;35m   [0;1;37m$[0;35m             [0m
-[37m   [0;35m  [0;1;30m [0;35m   [0m   [1;30m [0;35m  [0;1;37m [0;35m   [0;1;35m [0;1;30m    [0;34m [0;37m         [0;1;30m [0m  [1m [0m [1m [0m  [1;30m [0m          [1;30m    [0;35m [0m     [1;30m [0;35m  [0;1;37m [0;35m    [0m
-[37m   [0;35m [0;1;30m [0;35m  [0;1;37m [0;35m [0m   [1;35m [0;35m   [0;1;37m [0;35m  [0;1;30m     [0m [1m  [0m  [1;30m [0m   [1;30m [0m  [1m  [0m [1m  [0m  [1;30m [0m   [1;30m [0m  [1m  [0m  [1;30m    [0;35m  [0m   [1;30m [0;35m  [0;1;37m [0;35m   [0;1;35m ╝[0;35m        [0m
-[37m   [0;35m [0;1;30m [0;35m  [0;1;37m [0;35m [0m   [35m [0;1;30m [0;35m  [0;1;37m [0;35m [0;37m [0;1;30m    [0m [1m  [0m [1m [0m     [1;30m [0m  [1m [0m [1m [0m [1m [0m  [1;30m [0m     [1m [0m [1m  [0m [1;30m    [0m [35m [0m   [1;30m [0;35m     [0;1;37m   [0;35m        [0m
-[37m  [0;35m.[0;1;35mÑ[0;35m  [0;1;37m:[0;35mⁿⁿ""^^^   [0;1;37m7[0;35m.[0;1;30m`.[0mdÑ[1mÑÑÑ[0mÑ[1m|[0m l   [1;30m└└└[0m└└└└└[1;30m└└└[0m   l [1m|[0mÑ[1mÑÑÑ[0mÑb[1;30m.''[0m.[35mi[0m    [1;30m.[0;35m  [0;1;37m:[0;1;35mÑ[0;35m           [0m
+[37m[0;35m[0;1;30m[0;35m[0m[1;30m[0;35m[0;1;37m[0;35m[0;1;35m[0;1;30m[0;34m[0;37m[0;1;30m[0m[1m[0m[1m[0m[1;30m[0m[1;30m[0;35m[0m[1;30m[0;35m[0;1;37m[0;35m[0m[37m   [0;35m [0;1;30m [0;35m  [0;1;37m [0;35m [0m   [1;35m [0;35m   [0;1;37m [0;35m  [0;1;30m     [0m [1m  [0m  [1;30m [0m   [1;30m [0m  [1m  [0m [1m  [0m  [1;30m [0m   [1;30m [0m  [1m  [0m  [1;30m    [0;35m  [0m   [1;30m [0;35m  [0;1;37m [0;35m   [0;1;35m ╝[0;35m        [0m
+[37m[0;35m[0;1;30m[0;35m[0;1;37m[0;35m[0m[35m[0;1;30m[0;35m[0;1;37m[0;35m[0;37m[0;1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[35m[0m[1;30m[0;35m[0;1;37m[0;35m[0m[37m  [0;35m.[0;1;35mÑ[0;35m  [0;1;37m:[0;35mⁿⁿ""^^^   [0;1;37m7[0;35m.[0;1;30m`.[0mdÑ[1mÑÑÑ[0mÑ[1m|[0m l   [1;30m└└└[0m└└└└└[1;30m└└└[0m   l [1m|[0mÑ[1mÑÑÑ[0mÑb[1;30m.''[0m.[35mi[0m    [1;30m.[0;35m  [0;1;37m:[0;1;35mÑ[0;35m           [0m
 [37m  [0;35m [0;1;30m [0;35m   [0;1;37m [0;35m   [0;1;35m [0;35m [0;1;35m [0;35m   [0;1;37m [0;1;30m  [0m [1m    [0m  [1m [0m      └ [1m  [0m [1m  [0m ┘      [1m [0m  [1m    [0m [1;30m  [0;35m  [0m   [1;30m [0;35m  [0;1;35m  [0;35m  ╝   [0;1;35m   [0;35m  [0m
 [37m  [0;35m [0;1;30m [0;35m  [0;1;37m [0m      [1;35m [0;1;30m [0;35m  [0;1;37m [0;1;30m  [0m [1m  [0m  [1m└  [0m [1;30m [0m  [1;30m [0;1;35m┌ [0;35m     [0;1;30m [0;35m [0;1;35m [0;1;37m┐ [0m  [1;30m [0m [1m  ┘[0m  [1m  [0m [1;30m [0m [35m  [0m   [1;30m [0;35m       [0;1;37m   [0;1;35m  [0;35m   [0m
 [37m  [0;35m ╝          [0m   [35m [0;37m [0;1;30m [0m [1m [0m [1m [0;1;30m [0;35m  [0;1;37m  [0;1;30m  [0;35m [0;1;35m [0;1;30m  [0;35m [0;1;35m   [0;35m  [0;1;35m [0;35m   [0;1;37m  [0;1;30m  [0;1;35m  [0;1;37m   [0m [1m [0m [1;30m [0m [35m  [0m   [35m [0;1;37m   [0;35m┌           [0m

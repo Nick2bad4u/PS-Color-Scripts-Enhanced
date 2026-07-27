@@ -5,7 +5,7 @@
 # Source SHA-256: 88de888556ff4bef07d7f50de915128720ffaa448d79a236bcdc69d8e3007813
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LK-COLL1.ANS by L0wK3y (plAn 9); released in plan9-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: colly #1
 # SAUCE Author: L0wK3y
 # SAUCE Group: plAn 9
@@ -16,8 +16,7 @@
 
 Write-Host '
   [34m [0m
-[37m                                                [0m
-[37m-L0wK3y[0m
+[37m[0m[37m-L0wK3y[0m
 [37m--------------------------------------------------------------------------------[0m
 [34;46m██[0;34;40m█[0;34;46m████[0;34;40m░░▒▒▒▒▒░▒██████████▄▄▄▄▄▄▄[0;34;46m███████████[0;34;40m▄▄▄▒▒▒▒░░░░[0;34;46m████████[0;34;40m░▒░░░▒[0;34;46m███████[0;34;40m░▒▒▒[0m
 [34;46m▓▒░▒▓▒▓█[0;34;40m▒░█░░▒░█[0;34;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;34;40m██░ [0;34;46m████▓▓▓▓▓▓▓▓███[0;37;40m [0;34;40m░▒░[0;34;46m█▓▓▓▓▓██[0;34;40m░▒[0m

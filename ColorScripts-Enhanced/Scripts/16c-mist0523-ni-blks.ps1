@@ -5,7 +5,7 @@
 # Source SHA-256: 1cb3394c278b85ee9560b77f5c70774a9adb938787e677be5d8b1eff91d979d5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-BLKS.ANS by nitron (mist0523); released in mist0523 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: black sun bbs
 # SAUCE Author: nitron
 # SAUCE Date: 20230201
@@ -38,4 +38,4 @@ Write-Host '
 [37m [0;34m░[0;37m   [0;1;34m░░[0;34m     ░░      ░·[0;37m  [0;1;30m■[0m▄▄▀ ▓  ▓[1;30m [0m█ ▓  ▄▄▀ [1;30m░░[0m ▄▄▄ ▄ ▄ ▓ █  [1;30m·     [0;34m░░      [0;1;34m░░[0m   [34m░[0m
 [37m [0;34m░░    [0;1;34m░░[0m     [34m░░        [0;1;30m▄▓▄█ ▓▄ ▓■█ ▓▄ ▓ █[0m    [1;30m▄▄▀ ▀▄▓ ▓ █[0m       [34m░      [0;1;34m░░[0m    [34m░░[0m
 [37m [0;1;34m░[0;34m░[0;36m·[0;34m░[0;37m    [0;1;34m░   [0;1;37m·[0m    [34m░                      [0;1;30m▌[0m                   [34m░    [0;1;37m·[0m   [1;34m░[0;34m    ░[0;36m·[0;34m░[0;1;34m░[0m
- [1;34m░░[0;34m░░░░[0;1;34m      ░        [0;1;30mblacksun.kansit.com:2301 ☼ +o[0m [1;30malterra[0m       [1;34m░[0m     [34m░ ░░░[0;1;34m░░[0m'
+ [1;34m░░[0;34m░░░░[0;1;34m      ░        [0;1;30m                             [0m [1;30m       [0m       [1;34m░[0m     [34m░ ░░░[0;1;34m░░[0m'

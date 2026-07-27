@@ -5,7 +5,7 @@
 # Source SHA-256: 28b42e35a42fa36d022cffc9ea9bafc4ee8a0106b88cf5b2010164f33b022bc4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-TEA.ANS by avenging angel (Fokus fonting); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: tea
 # SAUCE Author: avenging angel
 # SAUCE Group: Fokus fonting
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m   [0m   
-            [32m▀[0m                        [36m   ▄[0;1;36m▄[0;36m      [0m                          [36m   [0m
+[1m[0m            [32m▀[0m                        [36m   ▄[0;1;36m▄[0;36m      [0m                          [36m   [0m
              [1;30m [0;1;30;42m▄[0;1;30;40m▀[0m             [36m  ▄[0;1;36m▄▄[0;36m▄  ▄▄▄ ▀  [0m                             [36m       [0m
 [32m [0m              [1;32m ▒▒[0;32m▄[0;36m▀[0;1;36m▀██▄[0;36m▄[0;32m [0;36m ▀ ▀[0;1;36m▀██▄▄[0;1;36;46m████[0;36m▀ [0;32m▀[0;1;32m▒▒░[0m        [1;30mt[0m [1;30mE[0m [1;30mA[0m         [32m░░[0m    [36m    ▄▄ [0m
 [32m░░░░░░[0;36m ▄ ▄[0;1;36m▄[0;1;36;46m▄█[0;36m▀▄▄[0;1;36m▄▄▄[0;1;36;46m▄██[0;1;36;40m█▄▄▄[0;1;37;46m▄███[0;1;36;46m██████▀[0;1;36;40m▀[0;36m▀▄[0;1;36;46m▄[0;1;36;40m▄▄[0;36m▄▀[0;1;36m▀[0;1;36;46m█▄[0;1;36;40m▄[0;36m▄ ▄ [0;32m   [0;36m  ▄ ▄[0;1;36m▄[0;1;36;46m▄[0;1;36;40m█▀[0;36m▀▄▄[0;1;36m▄▄[0;1;36;46m▄███[0;1;36;40m▄▄[0;1;36;46m▄█[0;36m▀[0m

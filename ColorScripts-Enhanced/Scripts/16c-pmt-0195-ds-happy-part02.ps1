@@ -5,7 +5,7 @@
 # Source SHA-256: 39032ed358e86583eedb348370e06d88b2b588c7ecedd2c7bc3d1d0075a75505
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-HAPPY.ANS by Devine Styler (pmt-0195); released in pmt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-99
 # Columns: 1-80
 
@@ -54,8 +54,7 @@ Write-Host '
 [34m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 
-         [1;37m                                                              [0m
-
+[1;37m[0m
 [1;37m   [0;1;30m▄▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀ [0;1;37m▒ [0;1;30m▓▀   ▀▀▀ [0;1;37m░ [0;1;30m▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▄[0m
 [34m█ [0;1;30m▐▌ [0;1;37m [0m [1;30m                              [0;1;37m░   [0m [1;30m                                 ▐▌ [0;34m█[0m
 [34m   [0;1;30m▀▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f6ee7383d6bce59e294db5225b38371d84021be105815fe2370bf6df695e390e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BCH1ACID.ANS by Tank (ansis-b); released in ansis-b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -38,7 +38,7 @@ Write-Host '
 [1;33;41m▓▒░[0;1;31;47m▒[0;1;33;40m▄   [0;31m▀[0;1;31;41m░[0m   [31m▄[0;1;31;41m░[0m  [1;33;40mWARES [0;1;31;40mWorld [0;31mH.Q.▀  [0;1;31m▄▀▀[0;1;33m▀[0;1;31m▀▀▄  [0;31m▀SysOp[0;1;31m: The Ga[0;1;33mtekeeper [0;1;31m▄[0;1;31;41m▒▒[0m    [1;33;40m▄[0;1;33;41m▒[0;1;33;40m▄[0;1;33;41m▒▓[0m
 [1;33;41m▓▓▒░[0;1;31;47m▒▓[0;1;31;40m▄▄[0;1;31;41m▒▒░[0m  [31m▀[0;1;31;41m░░[0;31m▄ [0;1;33mACiD [0;1;31mMember [0;31mBoard▀  [0;1;31m▄[0;1;33m▀[0;1;31m▄  [0;31m▀Runni[0;1;31mng: Ce[0;1;33mlerity[0m      [1;31;41m░▒▓[0;1;31;47m▓[0;1;31;40m▄  [0;1;33;40m▄[0;1;33;41m░▒▒▓▓[0m
 [1;33;41m▓▓▒░[0;1;31;47m▒▒▓[0;1;31;41m▓▓[0;1;31;40m▀   [0;31m▄[0;1;31;41m░░[0;31m▀   [0;1;33mAPEX [0;1;31mMember [0;31mBoard▀   ▀2.4 Gi[0;1;31mgs  2 [0;1;33mNodes   [0;31m▄▄[0;1;31;41m░░[0;1;31;40m▄ [0;1;31;41m▒▓▓[0;1;31;47m▓▒▒[0;1;33;41m░▒▒▓▒[0;1;33;40m▀[0m
-[1;33;41m▓▒[0;1;33;40m▀[0;1;33;41m░░[0;1;31;47m▒▓▓[0;1;31;41m▓▒[0;1;31;40m▄▄[0;1;31;41m▒░░░[0;31m▄[0m      [1;33mCPM [0;1;31mMember [0;31mBoard[0;1;33m▀[0;31m#:(310)[0;1;31m544.[0;1;33m0712[0m     [31m▀▀[0;1;31;41m░░░▒░░▒▓▓[0;1;31;47m▓▒[0;1;33;41m░░░▒▓[0;1;33;40m▄▄[0m
+[1;33;41m▓▒[0;1;33;40m▀[0;1;33;41m░░[0;1;31;47m▒▓▓[0;1;31;41m▓▒[0;1;31;40m▄▄[0;1;31;41m▒░░░[0;31m▄[0m      [1;33m    [0;1;31m       [0;31m     [0;1;33m▀[0;31m       [0;1;31m    [0;1;33m    [0m     [31m▀▀[0;1;31;41m░░░▒░░▒▓▓[0;1;31;47m▓▒[0;1;33;41m░░░▒▓[0;1;33;40m▄▄[0m
 [1;33;40m▀ ▄█[0;1;33;41m░[0;1;31;47m▒▓▒▓[0;1;31;41m▒░▒▒░░░[0;31m▀[0m                                        [31m▄[0;1;31;41m░░[0;31m▄▄ ▀[0;1;31;41m░░▒▓▓▓[0;1;31;47m▓▒▓▒[0;1;33;41m░▒░▒▓▓[0m
 [1;33;41m▓▒░░[0;1;31;47m▒▒▒▓[0;1;31;41m▒░▒░▒░[0;31m▄▄[0;1;31;41m░░[0;31m▄[0m               [1;31mTANK <[0;31mAC[0;1;31mi[0;31mD[0;1;31m>[0m        [31m▀▄▄█▀[0;1;31;41m░░▒░░░[0;1;31;40m▄▄▀[0;1;31;41m▒▓[0;1;31;47m▓▓▓▓[0;1;33;41m░[0;1;31;47m▒[0;1;33;40m▀[0;1;33;41m▒▒[0;1;33;40m▀▀[0m
 [1;33;41m▓░░[0;1;31;47m▒▒▓▓[0;1;31;41m▒[0;1;31;40m▀[0;1;31;41m▒▒▒░▒░▒░▒░░[0;31m▄  ▄[0m                                   [31m▀[0;1;31;41m░░▒░▒▒▒▓▓[0;1;31;47m▓▓▓▒▒[0;1;33;41m░░[0;1;33;40m▄▄ ▄[0m

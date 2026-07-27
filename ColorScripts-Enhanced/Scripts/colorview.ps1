@@ -32,5 +32,4 @@ $esc[0m     │ $esc[46m$esc[1;90m  black  $esc[46m$esc[1;91m   red   $esc[46m$e
 $esc[0m WHT │ $esc[47m$esc[30m  black  $esc[47m$esc[31m   red   $esc[47m$esc[32m  green  $esc[47m$esc[33m  yellow $esc[47m$esc[34m   blue  $esc[47m$esc[35m magenta $esc[47m$esc[36m   cyan  $esc[47m$esc[37m  white  $esc[0m │
 $esc[0m     │ $esc[47m$esc[1;90m  black  $esc[47m$esc[1;91m   red   $esc[47m$esc[1;92m  green  $esc[47m$esc[1;93m  yellow $esc[47m$esc[1;94m   blue  $esc[47m$esc[1;95m magenta $esc[47m$esc[1;96m   cyan  $esc[47m$esc[1;97m  white  $esc[0m │$esc[0m
      └──────────────────────────────────────────────────────────────────────────┘
-
 "@

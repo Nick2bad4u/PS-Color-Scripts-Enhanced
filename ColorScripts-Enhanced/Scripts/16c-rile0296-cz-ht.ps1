@@ -5,7 +5,7 @@
 # Source SHA-256: 15f103f3be5fa55635a1d160ce7636ad28da9cb237d4885bed7d8a756d54f5a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-HT.ANS by Cazz (RiLE); released in rile0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: High Times
 # SAUCE Author: Cazz
 # SAUCE Group: RiLE
@@ -38,8 +38,4 @@ Write-Host '
                      [1;32mH   [0;32mi   [0;1;30mG   H[0m       [1;30mT   i   M   [0;32mE   [0;1;32mS[0m
 
                             [1;30m5 i 3 [0;32m. [0;1;30m4 3 4 [0;32m. [0;1;30m* * * *[0m
-                               [1;30m                 [0m
-                                  [1;30m          [0m
-                                  [1m     [0;1;30m      [0m
-                                [1;30m               [0m
-                                   [1;30m14.4 v.[0;1;37mxx[0m'
+[1;30m[0m[1;30m[0m[1m[0;1;30m[0m[1;30m[0m                                   [1;30m14.4 v.[0;1;37mxx[0m'

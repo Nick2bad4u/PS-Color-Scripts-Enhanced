@@ -5,7 +5,7 @@
 # Source SHA-256: 3d16cb798a1484e730caffe6d8398bfdd5816f6cfdb8f86d05d06ee8989e1b50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMI-OOO.ANS by samurai (p301); released in blndr011 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: out of order
 # SAUCE Author: samurai
 # SAUCE Group: p301
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[32m  [0;1;32m               [0;32m [0;1;32m  [0m
-
+[32m[0;1;32m[0;32m[0;1;32m[0m
 
        [34m   ░[0;30;44m▓[0;34;40m    [0m                                                [34;40m   ░[0;30;44m▓[0;34;40m    [0m
        [34;40m▄▄▄[0;30;44m░[0;34;40m▓[0;30;44m▓[0;34;40m░  [0m                                                [34;40m▄▄▄[0;30;44m░[0;34;40m▓[0;30;44m▓[0;34;40m░  [0m

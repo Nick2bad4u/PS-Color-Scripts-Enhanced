@@ -5,7 +5,7 @@
 # Source SHA-256: 254211454c5a5c7608b9ddc50c64fde7d8a9b4fc2bb9ef7a3a9290a9f1aef03e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FI-DU.ANS by Future Imperfect ([FEAR]); released in fear1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Digital Underground
 # SAUCE Author: Future Imperfect
 # SAUCE Group: [FEAR]
@@ -51,7 +51,7 @@ Write-Host '
   ▀██[1;30;47m░▒▒▓[0m                    [1;30;40m0[0m [32m-[0;37m [0;1;32m7[0m  [1mDaZe  COuRie[0;1;32mR[0;32me[0;1;30mD[0m                     [1;30;47m▓▒▒░[0m██▀
     ▀▀[1;30;47m▒▓[0;1;30;40m▌[0m                 [1;30;40mR[0;32mu[0;1;32mN[0;1;37mNiNG  ReNeGaDe CuSToMi[0;1;32mZ[0;32me[0;1;30mD[0m      [1;30m  [0m          [1;30m▐[0;1;30;47m▓▒[0m▀▀
     [1;30m▄▒░▀[0m                      [1;30mo[0;32mL[0;1;32mG[0;1;37m''S aRe ReGiSTe[0;1;32mR[0;32me[0;1;30mD[0m                       [1;30m▀░▒▄[0m
-   [1;30m▐▓▀[0m                             [1;30mC[0;32ma[0;1;32mL[0;1;37mL  N[0;1;32mo[0;32mW[0;1;30m![0m                              [1;30m▀▓▌[0m
+   [1;30m▐▓▀[0m                             [1;30m [0;32m [0;1;32m [0;1;37m    [0;1;32m [0;32m [0;1;30m [0m                              [1;30m▀▓▌[0m
     [1;30m▀■[0m                                                                     [1;30m■▀[0m
 
 [1;30m─[0m[[1mF[0muture [1mI[0mmperfect][1;30m──────────────────────────────────────────────────────[0;31m[[0;1;31mF[0;31mEAR][0;1;30m─[0m'

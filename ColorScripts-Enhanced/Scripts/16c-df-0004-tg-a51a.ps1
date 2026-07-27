@@ -5,7 +5,7 @@
 # Source SHA-256: 3d47d5293671085159c5b9d655feb2fdbc8d23f376de7299d525204ce5fcd2fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-A51A.ANS by The Guyver (Devil Forces); released in df-0004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: What? Area 51? no  no no nono....
 # SAUCE Author: The Guyver
 # SAUCE Group: Devil Forces
@@ -38,11 +38,6 @@ Write-Host '
 
 
    [1;30m /\[0m       [1;30m/\[0m       [1;30m/\[0m       [1;30m/\[0m      [1;30m /\[0m       [1;30m/\[0m       [1;30m/\[0m       [1;30m/\[0m      [1;30m /\[0m
-  [1;30m [0m        [1;30m [0m        [1;30m [0m      [1;30m                  [0m  [1;30m [0m        [1;30m [0m        [1;30m [0m        [1;30m [0m     
-[1;30m/ [0m      [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m/ [0m      [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m
 
-                                                                           
-                                                                              
-                                                                             
-                                  
                                         - !tG? -[0m'

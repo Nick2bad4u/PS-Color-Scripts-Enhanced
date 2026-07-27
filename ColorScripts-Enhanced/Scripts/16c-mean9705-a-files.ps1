@@ -5,7 +5,7 @@
 # Source SHA-256: f4b397fbc0a10a3492e3d0908476895310166f4705fe122ac0b9ca0efaf675c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: A-FILES.ANS by alecs (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: icebreaker - files
 # SAUCE Author: alecs
 # SAUCE Group: mean scheme
@@ -29,14 +29,4 @@ Write-Host '
 [1;34;47m▓[0;1;34;44m▓░[0;34m▄[0;37m [0;31m░[0;30;41m▓[0;37;40m ▀[0;1;36;40m▀▌▀[0m░[30;47m▓[0;37;40m  [0;35;40m▀▐[0;1;33;45m▄[0;35m▄▄ [0;37m  ▄[0;1;36m▄▐▄▓▓[0;1;36;47m█[0;1;36;40m▌[0m▀▀▀[1;36;47m▀█[0m▓▓[1;36;47m█▄[0;1;36;40m▄▄[0m▄▀ [1;36;47m▓██[0;1;36;40m▓▓[0m ▐[1;36;47m██[0;1;36;40m▌▐▌▄[0m [35m▀[0;1;33;45m▀▓[0;35m▀▀[0;37m ▓[0;1;36;47m█[0m▓▓[1;36m▌[0m
 [1;34;44m▀▓[0;34m▀▌[0;1;30malecs[0mmean     [35m▀[0;1;33m▀▀[0;35m▐█[0;37m▐[0;1;36m▀▀[0m [1;36m▀[0;36m░░[0;1;36m▀▌[0m    ▀░[30;47m▓[0;37;40m  [0;1;36;40m▀▀▀[0;1;36;47m█▄[0m▀[1;36m▐▀[0m░[30;47m▓[0;1;36;40m▄[0;1;36;47m▄▓▓[0;1;36;40m▌▐▄█[0m▓▓▄▄ ▀[1;36m▀▀▌[0m░[30;47m▓[0;1;36;40m▌[0m
 [34m░[0;30;44m▓[0;37;40m [0;34;40m▀[0m                                          [1;36;40m▀▌[0m   [1;36m▀▀[0m░[30;47m▓[0;37;40m▌▀[0;1;36;40m▀▌[0m░[30;47m▓[0m         [1;36;40m▌[0m
-                                                                      [1;36m▀[0m
-
-
-
-
-
-
-
-
-
-↓↓[0m'
+                                                                      [1;36m▀[0m'

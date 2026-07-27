@@ -5,7 +5,7 @@
 # Source SHA-256: 0262ad5b9a1983cbec88fc0830ca94057c6c119118ed366a804e2f8ff071d5a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: t!-fin.ans by .xX[ tERROR ]Xx. (RioT); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: pHUNlAND!@#$
 # SAUCE Author: .xX[ tERROR ]Xx.
 # SAUCE Group: RioT
@@ -16,13 +16,9 @@
 
 Write-Host '
 
-                              [1;33m          [0m
-                       [1;30m     [0;1;33m              [0;1;30m               [0m
-[1;30m  __ ___ ____ _____ __.$.  [0;33ms[0;1;33m$$$ⁿ ⁿ$"   "$$s [0;1;37mt[0;1;36mERRO[0;36mR [0;1;37mi[0;1;36mN  [0;1;30m.$.__ _____ ____ ___ __[0m
+[1;33m[0m[1;30m[0;1;33m[0;1;30m[0m[1;30m  __ ___ ____ _____ __.$.  [0;33ms[0;1;33m$$$ⁿ ⁿ$"   "$$s [0;1;37mt[0;1;36mERRO[0;36mR [0;1;37mi[0;1;36mN  [0;1;30m.$.__ _____ ____ ___ __[0m
                       [1;30m`$''  [0;33mⁿ$[0;1;33m$$$$$$$$$$$$$ⁿ [0;1;37md[0;1;36mA [0;1;37mh[0;1;36mAUS![0;36m!  [0;1;30m`$''[0m
-                       [1;30m     [0;33m   [0;1;33m   [0;1;37m     [0;1;33m   [0;1;30m               [0m
-                              [33m      [0;1;33m    [0m
-
+[1;30m[0;33m[0;1;33m[0;1;37m[0;1;33m[0;1;30m[0m[33m[0;1;33m[0m
                                                [1;37m.sS[0m
                                            [1;37m.sS$$$$:[0m
                                        [1;37m.sS$$$$$$$$S.[0m
@@ -51,7 +47,5 @@ Write-Host '
        [1;37m:$$$$$$$$$$$$[0;1;34m`$$$$$$$$$.[0;1;37mⁿ"[0m                             [1;33m`ⁿS$$Sⁿ''[0m
        [1;37m`S$$$$$$$$$$$:[0;1;34m$$$$$Sⁿ"[0m                              [36msmile and live[0m
         [1;37m:$$$$$$$$$$$$[0;34m`S[0;1;34mⁿ"[0m                                    [36mhappily ;)[0m
-        [1;37m             [0m     [1;37m [0;1;36m [0;36m    [0;1;37m [0;1;36m  [0;1;37m [0;1;36m [0;36m    [0;1;37m [0;1;36m  [0;1;37m [0;1;36m [0;36m   [0;1;37m [0;1;36m [0;36m   [0;1;37m [0;1;36m [0;36m  [0m
-         [37m:$[0;1;37m$$$Sⁿ"[0m         [1;36m$[0;36m''    [0;1;36mⁿ[0;36m$ [0;1;36mⁿ[0;36m''`$  [0;1;36mⁿ[0;36m$ [0;1;36m$[0;36m..$ [0;1;36m$[0;36m..$   .$[0m
-         [37m [0m                [36m                                [0m
-                          [36m$..[0;1;36m$   $ [0;36m.$.    [0;1;36m$   [0;36m.[0;1;36m$   [0;36m.[0;1;36m$  $[0;36m''[0m'
+[1;37m[0m[1;37m[0;1;36m[0;36m[0;1;37m[0;1;36m[0;1;37m[0;1;36m[0;36m[0;1;37m[0;1;36m[0;1;37m[0;1;36m[0;36m[0;1;37m[0;1;36m[0;36m[0;1;37m[0;1;36m[0;36m[0m         [37m:$[0;1;37m$$$Sⁿ"[0m         [1;36m$[0;36m''    [0;1;36mⁿ[0;36m$ [0;1;36mⁿ[0;36m''`$  [0;1;36mⁿ[0;36m$ [0;1;36m$[0;36m..$ [0;1;36m$[0;36m..$   .$[0m
+[37m[0m[36m[0m                          [36m$..[0;1;36m$   $ [0;36m.$.    [0;1;36m$   [0;36m.[0;1;36m$   [0;36m.[0;1;36m$  $[0;36m''[0m'

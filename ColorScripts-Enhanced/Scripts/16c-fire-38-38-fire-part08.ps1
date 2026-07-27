@@ -5,7 +5,7 @@
 # Source SHA-256: 6cbe71fbc9752750037097d322aea863c3783e1aebda9313b37bc7aa4be14841
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: #38_FIRE.ANS by abstrakt (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fire #38 members
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -51,8 +51,7 @@ Write-Host '
 [1;30mY[0m;                                          [1;31mj$b.[0m                              l[1;30mP[0m
  [1;30m [0m  ┌  [36m  [0;37m   [0;1;30m [0m  [36m [0;37m [0;1;30m [0m  [1;30m [0m   [36m [0;1;30m  [0m  [36m [0;37m [0;1;30m [0m [1;30m   [0m [36m [0;37m [0;1;30m    [0;1;31m      [0m    [1;31m ┌ [0;31m [0;37m  [0;1;30m [0m  [1;30m  [0;36m [0;37m   [0;1;30m [0m  [1;30m  [0;36m [0;37m [0;1;30m┐   [0m
 [1;30m  [0md[32m$[0;1;30m$$[0m $$$[1;30m$[0m $$[36m$[0;1;30m$[0m [1;30m7$[0m$[1;30m$[0m [1;30m$[0m$$ [1;30m$$[0m$[32m$[0;37m [0;36m:$[0;37m$$[0;1;30m$[0m l[1;30m~`[0m [1;31m.d$[0;31m7''`\[0;1;31m$[0;31mb[0;1;30m  [0;1;31m`$[0;31m7[0;37m   [0;1;30md[0m$$$[1;30m [0;36m$[0;37m$$[0;1;30m$[0m [1;30m7[0m$$[32mQ[0;1;30m $[0m$$[1;30m$[0mb
-[36m [0;37m    [0;1;30m  [0m [36m [0;37m  [0m                              [1;31m  [0;31m [0;37m    [0;31m  [0;37m   [0;1;31m [0m                      [1;30m [0m  [1;30m [0m
-$[1;30m$$[0m l;[1;30m;[0m $[1;30m$$[0m                               [1;31m$[0;31m$[0m        [1;31mj$[0m     [1;31mj$[0m [1;31m.db[0m    [1;31m.d$b.[0m  [1;30m\$[0m$$
+[36m[0;37m[0;1;30m[0m[36m[0;37m[0m[1;31m[0;31m[0;37m[0;31m[0;37m[0;1;31m[0m[1;30m[0m[1;30m[0m$[1;30m$$[0m l;[1;30m;[0m $[1;30m$$[0m                               [1;31m$[0;31m$[0m        [1;31mj$[0m     [1;31mj$[0m [1;31m.db[0m    [1;31m.d$b.[0m  [1;30m\$[0m$$
  [36m  [0;37m [0;1;30m [0m   [1;30m [0m     [1;30m     [0m [1;30m          [0m           [1;31m  [0;31m [0;37m [0;1;31m  ┐[0m   [1;31m  [0;31m [0;37m    [0;1;31m       [0;31m [0;37m  [0;1;31m  ┘ └   [0m [1;30m [0m  
  [36m$[0;37m$[0;1;30m$7 [0;32m$[0;37m$[0;1;30m$$.[0m                             [1;31mj7$$$7[0;31m┘''[0;37m  [0;1;31mj7$[0;31m$[0;37m   [0;1;31mj7$[0;31m$''[0;37m [0;31m`$''[0;37m [0;1;31mj$[0;31m$[0;37m  [0;1;31mj$[0;31m7''[0;37m [0;36m$[0;37m$[0;1;30m$[0m
 [1;30my [0;36m,[0;37myy[0;1;30my[0m [36my[0;37myy[0;1;30my[0m                       [1;30mabs\[0m [1;31m`''[0m [1;31m$[0;31m$[0m     [1;31m`''[0m [1;31m$[0;31m$[0;37m  [0;1;31m`''[0m [1;31m$[0;31m$[0;37m   [0;31m`[0;37m [0;1;31m`''$$s[0;31mS┘''[0;37m   [0;1;30m┘²[0m''

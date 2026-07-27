@@ -5,7 +5,7 @@
 # Source SHA-256: 76f7523725fcd37a2538f68e5956ba1e1e1fe8bcbf107a089d8fb7e0658416ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T!-FISH.ANS by .xX[ tERROR ]Xx. (RioT); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dA fUX0RiNG fISHIE!! +free+
 # SAUCE Author: .xX[ tERROR ]Xx.
 # SAUCE Group: RioT
@@ -16,13 +16,8 @@
 
 Write-Host '
 
-                              [1;33m          [0m
-                       [1;30m     [0;1;33m              [0;1;30m               [0m
-                      [1;30m     [0;33m [0;1;33m                [0;1;37m [0;1;36m    [0;36m  [0;1;37m [0;1;36m   [0;1;30m   [0m
-                      [1;30m`$''  [0;33mⁿ[0;1;33m$$$$$$$$$$$$$$ⁿ [0;1;37md[0;1;36mA [0;1;37mh[0;1;36mAUS![0;36m!  [0;1;30m`$''[0m
-                       [1;30m     [0;33m  [0;1;33m    [0;1;37m     [0;1;33m   [0;1;30m               [0m
-                              [33m   [0;1;33m       [0m
-
+[1;33m[0m[1;30m[0;1;33m[0;1;30m[0m[1;30m[0;33m[0;1;33m[0;1;37m[0;1;36m[0;36m[0;1;37m[0;1;36m[0;1;30m[0m                      [1;30m`$''  [0;33mⁿ[0;1;33m$$$$$$$$$$$$$$ⁿ [0;1;37md[0;1;36mA [0;1;37mh[0;1;36mAUS![0;36m!  [0;1;30m`$''[0m
+[1;30m[0;33m[0;1;33m[0;1;37m[0;1;33m[0;1;30m[0m[33m[0;1;33m[0m
 [34m.sS$S[0;1;34ms[0;34m.s[0;1;34mS[0;34m$[0;1;34mSs.s[0;34mS$S[0;1;34ms[0;34m.sS$S[0;1;34ms.sS$Ss[0;34m.sS$Ss.sS$Ss.s[0;1;34mS$[0;34mSs[0;1;34m.[0;34msS[0;1;34m$[0;34mSs.[0;1;34ms[0;34mS[0;1;34m$[0;34mSs.sS$Ss.sS[0;1;34m$[0;34mSs.sS$S[0;1;34ms[0;34m.[0m
 [1;34m$[0;34m$$[0;1;34m$[0;34m$$$$$$[0;1;34m$[0;34m$$$$$$$[0;1;34m$$$$[0;34m$$[0;1;34m$$[0;34m$$$$$$[0;1;34m$[0;34m$$$$$$[0;1;34m$$[0;34m$$[0;1;34m$[0;34m$$[0;1;34m$$$[0;34m$[0;1;34m$[0;34m$$$$$$[0;1;34m$$[0;34m$$[0;1;34m$$[0;34m$$$$$$[0;1;34m$$$[0;34m$$$[0;1;34m$$[0;34m$[0;1;34m$[0m
 [1;34m$$$[0;34m$$[0;1;34m$$Sⁿ"ⁿS$$[0;34m$[0;1;34m$[0;34m$$[0;1;34m$$$$$$$$$[0;34m$$$[0;1;34m$$$$$$[0;34m$$[0;1;34m$$$$$$$$$$$[0;34m$$$[0;1;34m$$[0;34m$[0;1;34m$$$$$$$$$$$[0;34m$$[0;1;34m$$$$[0;34m$$$[0;1;34m$$$$[0m

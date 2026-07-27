@@ -5,7 +5,7 @@
 # Source SHA-256: c966843254b1d162e03d59d9b64f86036c7f551a2443ce9d335e48d440310492
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-C4Li6UL4.ans by f1L7H (Gary's Shoes); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: CALiGULA
 # SAUCE Author: f1L7H
 # SAUCE Group: Gary's Shoes
@@ -50,17 +50,7 @@ Write-Host '
 [35m█████████████████[0;37m [0;35m█[0;37m [0;35m███████████████████████████████████████████████████▀[0m
 [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 
-[37m  [0;35m        [0;37m [0;1;30m     [0m [1;30m          [0m [1;30m    [0m [1;30m     [0m [1;30m     [0m [1;30m      [0m [1;30m      [0m [1;30m        [0m [1;30m           [0m
-  [1;30m                                                              [0;35m            [0;1;30m  [0m
-  [1;30m   [0m [1;30m        [0m [1;30m       [0m [1;30m    [0m [1;30m   [0m [1;30m      [0m [1;30m      [0m [1;30m      [0m [1;30m   [0m [1;30m    [0m [1;30m [0m [1;30m       [0m [1;30m     [0m
-  [1;30m     [0m [1;30m        [0m [1;30m      [0m [1;30m                     [0m [1;30m   [0m [1;30m      [0m [1;30m  [0m [1;30m          [0m
-  [1;30m    [0m [1;30m        [0m [1;30m          [0m [1;30m        [0m [1;30m       [0m [1;30m    [0m [1;30m   [0m [1;30m   [0m [1;30m      [0m [1;30m   [0m [1;30m        [0m
-  [1;30m     [0m [1;30m            [0m [1;30m     [0m [1;30m  [0m [1;30m   [0m [1;30m  [0m [1;30m          [0m [1;30m       [0m [1;30m  [0m [1;30m   [0m [1;30m             [0m
+[37m[0;35m[0;37m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0;35m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
 
-  [1;30m    [0m [1;30m  [0m [1;30m  [0m [1;30m      [0m [1;30m     [0m [1;30m        [0m [1;30m      [0m [1;30m    [0m [1;30m    [0m [1;30m   [0m [1;30m     [0m [1;30m  [0m [1;30m   [0m [1;30m      [0m
-  [1;30m  [0m [1;30m [0m [1;30m     [0m [1;30m    [0m [1;30m  [0m [1;30m  [0m [1;30m    [0m [1;30m      [0m
-
-
-                       [1;30m            [0m
-                            [1;30m                          [0m
-                                          [1;30m555-SHOE[0m'
+[1;30m[0m[1;30m[0m                                          [1;30m555-SHOE[0m'

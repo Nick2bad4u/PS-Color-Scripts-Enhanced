@@ -5,7 +5,7 @@
 # Source SHA-256: 8b2e66edbebac0529bfbc1d1fa1f2d9b948e3b48cf0d0f6c6f64bd65eb3d0373
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-MTRX.ANS by lord dralacle (ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: lord dralacle
 # SAUCE Group: ecolove
 # SAUCE Date: 19990609
@@ -15,7 +15,6 @@
 
 Write-Host '
  [1;30m─[0m [1;30m──═--+─-─-───-═────-──--─═──--  [0m [1;30m-[0m [1;30m--[0m [1;30m---[0m [1;30m-═─-─+──[0m  [1;30m░[0m [1;30m─────[0m [1;30m──--[0m [1;30m-────+[0m [1;30m─-═- [0m
-          
           [36m▄▄███▄▄▄   [0;37m                                     [0m
 [37m [0;36m          [0;37m  [0;36m▀▀█████▄▄[0;37m                                  [0m
 [36m  ▄▄██▀[0;1;37m ▄▄██[0;1;37;47m█[0;1;37;40m▄[0m  [36m▀▀██████▄[0;37m stained glass fabric of tormented thoughts[0m

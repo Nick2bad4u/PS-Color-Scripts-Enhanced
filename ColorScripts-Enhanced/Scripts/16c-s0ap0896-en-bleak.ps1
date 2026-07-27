@@ -5,7 +5,7 @@
 # Source SHA-256: 81aa0ab57ed0dd09f0da4bd15458ee1132f02e8895667c1212cf7701584c08bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-BLEAK.ANS by Endless Nameless (s0ap); released in s0ap0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Bleak
 # SAUCE Author: Endless Nameless
 # SAUCE Group: s0ap
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[31m         [0;37m [0;31m [0;37m  [0;31m [0;37m [0;31m            [0m
-                                                    [35m$[0m
+[31m[0;37m[0;31m[0;37m[0;31m[0;37m[0;31m[0m                                                    [35m$[0m
                                                  [31m $ [0;35m$[0m     [31m    [0;35m`[0;31m   [0;1;35m`[0;35m"²[0;1;35m²T$[0;30;45m$[0;1;35;40m$[0;35m$$$[0;31m ,[0m
                   [31m.[0m                                [31m    [0;37m [0;33m.[0;37m [0;31m``  ²²T$$$#s, [0;1;35m`²[0;35mT$²[0;31m $[0m
                  [31m,$[0m                  [31m`[0m    [35m`[0;37m [0;31m"[0;35m²Y$[0;31m$$ [0;37m [0;35m²[0;31m,s[0;33m`[0;37m  [0;31m      [0;33m,[0;31m `$$$$$$#ss#$$[0m

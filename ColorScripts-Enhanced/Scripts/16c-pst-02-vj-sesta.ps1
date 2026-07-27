@@ -5,7 +5,7 @@
 # Source SHA-256: 0ad8fde1c53b4cd53e205f20a812bbbd5e652fe097523440879dbc4ec6171e5a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VJ-SESTA.ANS by El V~jino! (org%nic); released in pst-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mmm, nachos...
 # SAUCE Author: El V~jino!
 # SAUCE Group: org%nic
@@ -39,7 +39,4 @@ Write-Host '
 [1;30mel vejiño![0m                                         [1;33m [0;1;30m▀[0;1;33m [0;1;30m▄▄[0;31m▀▀▀▀[0;1;30m▄▄▄▀▀▀  [0m
                                                       [1;33m  [0;1;30m▀▀▀▀[0m
 [1;30m------------------------------------------------------------------------------- [0m
-[1;30m                                                                       [0m
-[1;30m                                                                             [0m
-[1;30m                               [0m [1;30m                                               [0m
-[1;30m------------------------------------------------------------------------------- [0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m------------------------------------------------------------------------------- [0m'

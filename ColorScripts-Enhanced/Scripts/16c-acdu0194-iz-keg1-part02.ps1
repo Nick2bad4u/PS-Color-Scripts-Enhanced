@@ -5,7 +5,7 @@
 # Source SHA-256: 118e0c7c8559860619e7558498915c25028fc7edd4d7430bff8e8aad754a2f03
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-KEG1.ANS by Icszer (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -49,14 +49,11 @@ Write-Host '
                                                  [1;30m░░[0m
               [34m,[0m                                                [34m.   .[0m
         [34m, ·[0m                                                          [34m■[0m
-      [1;34m▄[0;1;34;44m▀[0;34m▄'';▀ ,`  `[0m                914-234-[1;30m9674[0m                   [34m· ; ·▀·█▄[0;1;34m▄[0m
+      [1;34m▄[0;1;34;44m▀[0;34m▄  ▀      [0m                        [1;30m    [0m                   [34m     ▀ █▄[0;1;34m▄[0m
 [1;34m   ▄██[0;1;34;44m▀[0;34m■       [0m                        [1;30m                  [0m            [34m ▀ [0;30;44m■ [0;1;34;44m▀[0;1;34m█▄[0m
 [1;34m▄███[0;1;34;44m▓[0;34m█■.··[0m             Edge Memb[1;30mer [0mb[1;30moard  PoW Distro Site[0m               [34m.:[0;30;44m░[0;1;34;44m░[0;1;34m███▄[0m
 [1;34;44m▀▀▀[0;34m█[0;1;34;44m▄[0;34m█[0;1;34;44m [0;34m■    [0m                 [1;30m     [0m  [1;30m                        [0m         [34m    ■ █[0;1;34;44m▒▀▀▀[0m
 [34m▀████[0;1;34;44m■[0;34m▐ [0m     [1;30m  [0m      [1;30m     [0m   [1;30m      [0m [1;30m                                      [0;34m▌█████[0m
 [34m   ▀▀██▄  [0m           [1;30m    [0m [1;30m        [0m [1;30m                            [0m       [34m  ▄███▀[0m
       [34m▀██.` '',[0m                                                  [34m,  .~.▄▀▀▀[0m
-         [34m▀ . ,  ,[0m                                             [34m,   · ▄[0m
-                       [1;30m                                  [0m
-         [1;30m                                                             [0m
-                           [1;30mcall me at 1-800-521-5804[0m'
+         [34m▀ . ,  ,[0m                                             [34m,   · ▄[0m[1;30m[0m[1;30m[0m[1;30m[0m'

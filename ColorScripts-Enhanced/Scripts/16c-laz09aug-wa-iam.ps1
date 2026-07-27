@@ -5,7 +5,7 @@
 # Source SHA-256: 68d6835c2af284802b4224a1b962ac2096d01e67e8fef7bd6393d30a221b266a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-IAM.ANS by warpus (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: i am
 # SAUCE Author: warpus
 # SAUCE Group: lazarus
@@ -46,6 +46,5 @@ Write-Host '
                        [37m░░[0m
 
 
-[1;30m                                                                             [0m
-
+[1;30m[0m
 [1;30m:)[0m'

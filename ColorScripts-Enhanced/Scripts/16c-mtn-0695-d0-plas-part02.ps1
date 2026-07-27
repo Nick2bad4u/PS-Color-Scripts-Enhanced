@@ -5,7 +5,7 @@
 # Source SHA-256: ddf0d0ac0c1dd143ef987527c2baa136522012850204924b46f486dbbcb5f459
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D0-PLAS.ANS by double 0 (motion); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: plastiq london
 # SAUCE Author: double 0
 # SAUCE Group: motion
@@ -24,7 +24,7 @@ Write-Host '
 [1;30m░[0;36m▀[0;1;31;46m▒[0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;46m░[0;36m▀▀▀[0;1;37;46m░[0;1;36;46m  ▓[0;36m███▓ [0;1;31m█[0;1;31;43m█▓▓▓▒░░[0;33m█[0;1;31m▓[0;33m████████▓███████[0;1;31;43m  ░░░▒▒▒▒▒▒▒▓[0m
  [1m▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄[0;1;46m▓[0;1;40m▄▄▄▄▄▄▄▄▓▄▄[0;1;46m▓[0;1;40m▄▄[0m [1;46m░[0;1;36;46m  ▓[0;36m████▓ [0;1;31m▓[0;1;31;43m█[0;33m▓[0;37m [0;31m▀▓▀▄▄[0;33m▀▀▓[0;33;43m          [0;33;40m██[0;1;31;43m  ░▒▒▒▒▒▒▒▒▓█[0;1;31;40m▓[0m
 [1;37;40m [0;47m███[0;40m█[0;47m██[0;1;30;47m^[0;1;37;47mplastiq london[0;1;30;47m^[0;36;47m [0;37;47m█[0;1;37;40m▓[0;1;37;47m░▒▓▓█[0;1;37;40m [0;1;37;46m░[0;1;36;46m  ▓[0;36m█████▓ [0;1;31m█ [0;31m▄▄ ▄▄░▀▀[0;33m▄[0;33;43m         [0;33;40m██[0;1;31;43m░░░▒▒▒▒▒▒▒▓▓███[0m
-[1;37;40m [0;36;47m [0;1;30;47m [0;36;47m  [0;1;30;47m░[0;36;47m  [0;1;37;47m[520]299-1286[0;36;47m       [0;1;37;47m░▒▒[0;1;37;40m [0m [1;36;46m  ▓[0;36m███████ [0;1;31m█[0;33m▄▄[0;31m▀[0;33m▄▓▄██████████[0;33;43m [0;33;40m██[0;1;31;43m░▒▒▒▒▒▒▒▓▓▓▓██[0;1;31;40m▓▀[0m
+[1;37;40m [0;36;47m [0;1;30;47m [0;36;47m  [0;1;30;47m░[0;36;47m  [0;1;37;47m             [0;36;47m       [0;1;37;47m░▒▒[0;1;37;40m [0m [1;36;46m  ▓[0;36m███████ [0;1;31m█[0;33m▄▄[0;31m▀[0;33m▄▓▄██████████[0;33;43m [0;33;40m██[0;1;31;43m░▒▒▒▒▒▒▒▓▓▓▓██[0;1;31;40m▓▀[0m
 [1;37;40m [0;36;47m    [0;1;30;47m▒[0;1;37;47m  shiver member    [0;36;47m [0;1;37;47m░[0;36;47m   [0;1;37;47m▒[0;1;37;40m [0m [1;36;46m▒ ▒[0;36m██████▓[0;37m [0;1;31m▓[0;1;31;43m▓▒░[0;33m█▓████████████[0;1;31;43m░░▒▒▒▒▒▓▓▓▓▓▓▓█[0;1;31;40m▓[0m [1;31;43m▓[0m
 [1;37;40m [0;36;47m    [0;1;30;47m▒[0;1;37;47m  angst member     [0;36;47m  [0;1;37;47m░[0;36;47m  [0;1;37;47m░[0;1;37;40m [0m [1;36;46m░ ▓[0;36m███████▄[0;1;31m▀▓[0;1;31;43m▓▒░[0;33m███████████[0;1;31;43m░░░▒▒▓▓▓▓▓▓▓[0;1;31;40m▀▀▀[0m   [1;31;43m▓▓[0m
 [1;37;40m [0;1;30;47m░[0;36;47m   [0;1;37;47m   motion distro    [0;36;47m     [0;1;37;47m░[0;1;37;40m [0m [1;36;46m░ [0;36m█████████▄[0;1;31m▀█[0;1;31;43m▓▒░░░░    ░░░░░▓▓[0;1;31;40m▀▀▀▀[0m   [33m▄[0;37m [0;1;31;43m░░░▒▓▓█[0m
@@ -36,10 +36,7 @@ Write-Host '
 [36m████████████[0;1;30;46m░[0;36m████████████████████████████████████████████████ [0;1;31;43m [0m [33m█▓▓[0;1;31;43m░░▒▒▒▓███[0;1;31;40m▓[0;1;31;43m█[0;1;31;40m▀ [0m
 [36m███████[0;1;30;46m░[0;36m████[0;1;30;46m░[0;36m████████████████████████████████▓████████████████  [0;1;31m▓▀▄[0;1;31;43m░░▒▒▒▒▓▓█[0;1;31;40m▀▀[0;36m  [0m
 [37m   [0m                                                             [36m                [0m
-[37m [0;1;37m   [0m [36m                                     [0m
-[33m [0;1;37m   [0;33m [0;36m                         [0m
-
+[37m[0;1;37m[0m[36m[0m[33m[0;1;37m[0;33m[0;36m[0m
 [1;30m■▄■▄▄▄▄■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▄▄▄▄▄▄▄▄▄■■▄[0m
-[1;30m            [0;1;31m [0;1;32m [0m [31m [0;32m [0;1;30m  [0m
-
+[1;30m[0;1;31m[0;1;32m[0m[31m[0;32m[0;1;30m[0m
 [1;30m-----------------------------------!chop!---------------------------------------[0m'

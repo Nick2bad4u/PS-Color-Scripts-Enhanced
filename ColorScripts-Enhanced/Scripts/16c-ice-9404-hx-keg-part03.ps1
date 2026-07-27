@@ -5,7 +5,7 @@
 # Source SHA-256: eaf5a7a608924d5ec0580cf6a14e28ffeed7bb1471847af299ff6c9627796083
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HX-KEG.ICE by Hoaks (ice-9404); released in ice-9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 99-135
 # Columns: 1-80
 
@@ -23,7 +23,7 @@ Write-Host '
                  [1;30;45m░░[0;35m█▀[0;34m▄[0;35m▐▀ [0;1;34m▄[0;1;34;44m█▓[0;1;34;40m▀[0m         [35m▐█▄▄█▀[0m               [35m▌[0;34m▐▀[0;35m▄█[0;1;30;45m░[0;35m▄[0m
 [35m  [0;34mT H [0;1;34mE  K [0;34mE G    [0;35m▀[0;34m▄[0;1;30;44m▓▓[0m [1;34;40m▄██▀[0m     [1;34;40m▄[0m      [35m▀▀▀ [0;1;34m▄██▄▄[0m          [35m▐[0;1;30;45m░[0;35m▄███▀[0;1;30;45m░[0;35m▌[0m
 [35m [0;34m────[0;1;34m──────[0;34m────    [0;1;30;44m▓[0;1;30;40m▀[0;1;34;40m▄██▀[0m     [1;34;40m▄[0;1;34;44m▓▓▓[0;1;34;40m▄[0m     [34m█▌[0;1;34m▐█[0;1;34;44m▓▓[0;1;34;40m▀[0;1;34;44m▓[0;1;34;40m█▄[0m      [1;34;40m.  [0;1;30;45m░░[0;35m█▀[0;34m▄[0;35m▐▀[0m      [1;34m▄▄[0;1;34;44m▓[0;1;34;40m█▄[0m
-[1;34;40m [0;34m(914[0;1;34m) 234-[0;34m9674   [0;35m■[0;1;34m▄█▀▀°■▄  ▄█▀ [0;34m▀[0;1;34;44m▒▓[0;1;34;40m▌    [0;34m█ [0;1;34m█[0;1;34;44m▓▒[0;34m▌  [0;1;34m▀██▄ ▄■°    [0;35m▀[0;34m▄██[0m      [1;34m▄▀▀ ▀[0;1;34;44m▓▓[0;1;34;40m█[0m
+[1;34;40m [0;34m    [0;1;34m      [0;34m       [0;35m■[0;1;34m▄█▀▀ ■▄  ▄█▀ [0;34m▀[0;1;34;44m▒▓[0;1;34;40m▌    [0;34m█ [0;1;34m█[0;1;34;44m▓▒[0;34m▌  [0;1;34m▀██▄ ▄■     [0;35m▀[0;34m▄██[0m      [1;34m▄▀▀ ▀[0;1;34;44m▓▓[0;1;34;40m█[0m
 [1;34;40m [0;34m────[0;1;34m──────[0;34m────  [0;1;34m■▀[0;34m▄▄▀    [0;1;34m▀▀[0m     [34m▐[0;1;34;44m▒▓[0;1;34;40m■▄  ▄█[0;1;34;44m▓▒[0;34m▀[0m      [1;34m▀▀[0m      [35m▐▌[0;34m▀ [0;35m▄[0;1;30;45m░[0;35m▄[0m          [1;34;44m▒▓[0;1;34;40m▌[0m
      [1;34;40mStaff:[0m      [35m▐▌[0;34m▀ [0;35m▄[0;1;30;45m░[0;35m▄[0m         [1;34;44m▒▓▓[0m  [1;34;40m▀▀▀▀[0;34m▄ [0;35m▄[0m              [35m██▄██▀[0;1;30;45m░[0;35m▌[0m        [1;34m▐[0;1;34;44m▓▓[0m
 [1;34;40m    [0;34mS[0;1;34mix Pac[0;34mk    [0;1;30;45m░[0;35m█▄██▀[0;1;30;45m░[0;35m▌[0m       [1;34;44m▒▓▓[0m   [35m▐▌[0;34m█▀[0;35m▄██▌[0m             [35m▐[0;1;30;45m░[0;35m█▀[0;34m▄[0;35m▐[0;1;30;45m░[0m         [1;34;44m▓[0;1;34;40m█[0m
@@ -33,9 +33,7 @@ Write-Host '
                  [34m▄█▀▀▀█▄[0m       [1;34m▐[0;1;34;44m▓[0m     [34m▄██ [0;1;34m█[0;1;34;44m▓▒[0;34m▌  [0;1;34m▀██▄ ▄■°   [0;1;30m▄[0;1;30;44m▓▓[0m [1;34;40m█[0;1;34;44m▓▒[0;34m▌  [0;1;34m▀██▄ ▄■°[0m
                [34m■▀▀ [0;35m▄▀  [0;34m▀▀■[0m      [1;34m▀[0;1;34;44m▓[0;1;34;40m▄ ■▄[0;34m▀▀[0;1;34m▄█[0;1;34;44m▓▒[0;34m▀ ■    [0;1;34m▀▀    ■▄[0;1;30m▀▀[0;1;34m▄█[0;1;34;44m▓▒[0;34m▀ ■    [0;1;34m▀▀[0m
 [1;34m [0;34m·[0m               [35m■▀[0m               [1;34m▀▌  ▀▀▀▀[0m                 [1;34m▀▀▀▀[0m
-[1;34m [0;34m   [0;1;36m [0;1;34m [0;34m         [0;1;34m     [0m                                             [1;34m   [0;34m            [0m
-[34m              [0m                                                  [1;34m    [0;34m            [0m
-[34m │            [0;1;34m  [0m                                             [1;34m       [0;34m            [0m
+[1;34m[0;34m[0;1;36m[0;1;34m[0;34m[0;1;34m[0m[1;34m[0;34m[0m[34m[0m[1;34m[0;34m[0m[34m │            [0;1;34m  [0m                                             [1;34m       [0;34m            [0m
 [34m │            [0;1;34m   [0m                    [1;34m [0;1;36m     [0;1;34m [0m                   [1;34m     [0;34m           │[0m
 [34m │            [0m                       [1;34m [0;1;36m     [0;1;34m [0m                       [1;34m [0;34m           │[0m
 [34m │            [0;1;34m        [0m            [1;34m    [0;1;36m     [0;1;34m     [0m              [1;34m      [0;34m           │[0m

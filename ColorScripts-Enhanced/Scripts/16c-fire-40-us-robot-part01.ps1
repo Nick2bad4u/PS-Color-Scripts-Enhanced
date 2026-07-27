@@ -5,7 +5,7 @@
 # Source SHA-256: 9919d76f0035a596bbb85d454199d451a7d96ae30f056667d8089b50d8f5a054
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ROBOT.ANS by Magnetic M + Toon Goon (Fire/iCE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Robot City
 # SAUCE Author: Magnetic M/Toon Goon
 # SAUCE Group: Fire/iCE
@@ -28,9 +28,7 @@ Write-Host '
         [1m▄[0;1;44m▒[0;1;40m▀▀[0m         [1m▀[0;1;47m▀[0m      [1;44m░[0;1;40m▀[0;1;47m▀▒[0;1;30;40m▄ [0m▀      [1m░ [0m▀[1m▀[0m▄
        ▀                        ▀              [1;30m°[0m
 
-                    [1;30m [0m [1;30m            [0m              [1;30m              [0m [1;30m               [0m
-                    [1;30m [0m [1;30m        [0m                 [1;30m                               [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
 [34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 

@@ -5,7 +5,7 @@
 # Source SHA-256: dfc9099cc9697a44b1f4bad5544000b3367360005c1677efe6a7ee757bf80334
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-MM.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -48,7 +48,7 @@ Write-Host '
 [1;33m [0;1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▓█  [0;1;37m┌───[0m─────»[1;30mMidni[0mte [1;30mMadn[0mess«──[1m──────┐[0m
 [1m [0;1;30m░░[0;34m▄▄████▄▄[0;1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▓▓  [0;1;37m│[0m      Sysop [1;30m: El Gat[0mo Negr[1mo[0m      [1m│[0m
 [1m [0;34m▄██████████▄[0;1;34m▄[0;1;30m▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░░░░░░░░▒▒▓  [0;1;37m│[0m      CoSys [1;30m: Lorax[0m              [1;37m│[0m
-[1;37m [0;1;30m░[0;34m▀█████▀▀████[0;1;34m▌[0;1;30m███[0;1;30;44m▀▀▀▀[0;1;34;40m▄[0;1;30;40m▓▒▒▒[0;34m▄▄▄[0;1;34m▄[0;1;30m░░░░░░░░▒▒▓  [0;1;37m│[0m         (91[1;30m9) 942[0m-9061          [1m│[0m
+[1;37m [0;1;30m░[0;34m▀█████▀▀████[0;1;34m▌[0;1;30m███[0;1;30;44m▀▀▀▀[0;1;34;40m▄[0;1;30;40m▓▒▒▒[0;34m▄▄▄[0;1;34m▄[0;1;30m░░░░░░░░▒▒▓  [0;1;37m│[0m            [1;30m      [0m               [1m│[0m
 [1m [0;1;30m░░░[0;34m▀█▀[0;1;30m▒▒▓▓[0;33;44m▄[0;34;40m███[0;33;44m▀▄▄[0;33;43m [0;1;30;43m││ [0;33;44m▄▄[0;34;40m▄▀▀[0;1;30;40m▒░░[0;34m▀▀▄[0;1;30m░░░░░░▒▒▓  [0;1;37m│   WWIV[0mNet@29[1;30m955∙[0mFIITAN[1met@7156   │[0m
 [1m [0;1;30m░░░░░░░▒▒▓[0;1;30;43m │[0;34;43m▐[0;34;40m█[0;1;34;43m▌[0;1;30;43m│   │ ││[0;1;30;40m░[0;34m█[0;1;34m▌[0;1;30m░░░░░[0;34m▀[0;1;34m▄[0;1;30m░░░░░▒▒▓  [0;1;37m│[0m      [1;37miC[0mENet@9[1;30m99[0m5∙ACNe[1mt@9950[0m     [1m│[0m
 [1m [0;1;30m░░░░░░░░▒▒[0;1;30;43m││ [0;34m█[0;1;34;43m▌[0;1;30;43m│ │ │  │[0;1;30;40m▒▒[0;1;34;40m█[0;1;30;40m░░░░░░[0;34m█[0;1;34m█[0;1;30m░░░░░▒▒  [0;1;37m└»CD-ROM«»[0mPPI 14.4k«»1 [1mGig Online«┘[0m

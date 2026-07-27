@@ -5,7 +5,7 @@
 # Source SHA-256: 611085a0f3023cd0fddb48b6eafe59bdc465e7ade589ea4b2812f7bff72a29e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JAG_TWH.ANS by Jaguar (purg-03); released in purg-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -21,8 +21,7 @@ Write-Host '
 [37m [0m              [36m  [0m      [34m▀▓[0m  [1;36;44m▄[0;34m▀█▌[0m [1;34m▀[0;34m█[0m  [1;36;44m▄[0;34m██▄██ [0m  [36m  [0m
 [37m [0;36m [0m             [36m     [0m       [34m  [0m   [36m▀[0m   [34m▒[0m    [1;34m▒[0m   [36m  [0m                              [37m   [0m
 [37m [0;36m [0m             [36m [0;1;37m   [0;1;36;44m▓[0;1;37;40m [0m [1;30;40m     [0;1;37;40m [0m [1m [0m [1m     [0m [1m [0m [1;30m      [0m
- [36m                        [0m  [1;30m[9i[0m8[1m.838.[0m82[1;30mo][0m      [36m   [0m                [36m           [0;37m [0m
-[37m [0m  [1;36;44m▄[0;34m▄▓▄[0m [36m      [0;1;34m▄[0;34m▒▄▄[0m   [36m▀ [0;1;37m  [0m [1;34m█[0m  [1;30m[8[0m5[1mo[0m [1mM[0meG[1;30mz][0m [1;34m▀██[0;34m▄[0m   [1;34m▓[0;34m▄[0m  [36m                 [0m         [36m [0;37m  [0m
+[36m[0m[1;30m[0m[1m[0m[1;30m[0m[36m[0m[36m[0;37m[0m[37m [0m  [1;36;44m▄[0;34m▄▓▄[0m [36m      [0;1;34m▄[0;34m▒▄▄[0m   [36m▀ [0;1;37m  [0m [1;34m█[0m  [1;30m[8[0m5[1mo[0m [1mM[0meG[1;30mz][0m [1;34m▀██[0;34m▄[0m   [1;34m▓[0;34m▄[0m  [36m                 [0m         [36m [0;37m  [0m
 [37m [0m  [34m▐█[0;1;34m▓[0m [36m   [0m    [34m ░█▌[0m     [36m▄[0m     [34m            [0m [1;34m█[0;34m█[0m   [34m█[0;1;36;44m▒[0m               [36m▄▀[0m   [1;34m▀[0;1;36;44m▄[0;34m▄▓▄█▒[0m [36m [0;37m  [0m
 [37m [0m  [34m▐██[0m       [34m  ██ [0m                        [34m██[0m [36m▀[0m [34m██[0m                    [1;34m█[0;34m█[0m   [34m▀  [0;36m [0;37m  [0m
 [37m [0m  [34m▐██[0m        [34m ██ [0m                        [34m██[0m   [34m██[0m       [1;34m [0;1;36;44m▄[0m           [34m██[0m      [36m [0;37m  [0m

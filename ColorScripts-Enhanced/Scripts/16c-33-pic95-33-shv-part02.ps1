@@ -5,7 +5,7 @@
 # Source SHA-256: 3ad1e0cca6839b9e1964b74d32a244eb93f2c5c9791218a60fae428e82baf1f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-SHV.ANS by Eerie (Shiver); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shiver Promotional
 # SAUCE Author: Eerie
 # SAUCE Group: Shiver
@@ -36,7 +36,6 @@ Write-Host '
                    [36m▒  ▒[0m            [36m▒[0m              [1;36m▒[0m              [1;36m▒[0m     [1;36m▒[0m
                                                                        [1;36m░[0m
                    [1;37ms   h   i   v   e   r[0m       [1;37m1   9   9   5[0m
-                                                                          
 
 
  [46m                   [0;1;46m                                                           [0m

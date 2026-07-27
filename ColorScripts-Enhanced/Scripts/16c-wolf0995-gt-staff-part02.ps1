@@ -5,7 +5,7 @@
 # Source SHA-256: abf5559b9a0df86cc8f93ae9628c6cd10f567dd7fe561e7fc43808fb472054e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GT-STAFF.ANS by Glasnost (Wolfpack); released in wolf0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Binary Realm Ad
 # SAUCE Author: Glasnost
 # SAUCE Group: Wolfpack
@@ -57,8 +57,7 @@ Write-Host '
 
                        [1;37m [0;1;35m [0;35m  [0;1;30m          ■             ■   [0;35m [0;1;35m [0;1;37m [0m
 
-                         [1;37m  [0;1;35m [0;35m [0;1;30m                        [0;35m  [0;1;35m [0;1;37m [0m
-
+[1;37m[0;1;35m[0;35m[0;1;30m[0;35m[0;1;35m[0;1;37m[0m
                       [1;37m [0;1;35m  [0;35m [0;1;30m            ■          ■       [0;35m [0;1;35m [0;1;37m [0m
 
                       [1;37m7 [0;1;30m■ [0;1;35mo [0;1;30m■ [0;35m3 [0;1;30m■ 3 ■ 6 ■ o ■ 1 ■ [0;35m5 [0;1;30m■ [0;1;35m7 [0;1;30m■ [0;1;37m4[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 33f5a2c1459c6dde94a655f4cbcadc82536c9ccdf9944238c709a44511aa1c99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M1-ST1.ANS by Mystic Images (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sadistic Temple
 # SAUCE Author: Mystic Images
 # SAUCE Group: Vapor
@@ -37,9 +37,7 @@ Write-Host '
                          [1m [0;1;46m▒▄▄▌▄█[0;1;40m█[0;1;47m▓[0;1;40m█████▓▀▀[0m [1m▀[0;1;47m▓[0;1;40m▄▄[0;1;30;40m ▀▀[0;1;37;40m▄▄▀[0m
                        [1;30m   [0m  [1m▀▀[0;1;47m▓[0;1;40m██▀▀▀▀▀[0m         [1m▀▀▀  [0m
 
-[1;30m    [0m                           [1;30m                [0m
-                      [1;30m                                   [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m
 
   [1;30m▒[0m   [1;30m [0m                                                                        [1;30m▄[0m
 [1;30m▒▀▓▀▀▓▀▀ ▀▀▀▀▓▀▀█▀▀▀▀▀▓▀ ▀▀▀▀▀▀▀█▀▀▀▓▀▀▀ ▀▀▀▀█▀▀▀▓▀▀▀▀▀▀▀▀▓▀ ▀▀▀▀▀▓▀█▀▀▀ ▀▀▀▓▀▀[0;1;30;47m▓[0m

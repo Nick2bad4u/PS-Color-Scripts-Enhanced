@@ -5,7 +5,7 @@
 # Source SHA-256: 3d33ff631be5c0a11aaa8e662bb9a81f9387c19d1fbd5370837f1e324edbcc60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 77-OA.ANS by agent #77 (tOOn); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: organized anarchy toon
 # SAUCE Author: agent #77
 # SAUCE Group: tOOn
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m                                                   [0m [1;30m                         [0m [1;30m  [0m
-           ▄[1m▄▄▄▄▄▄[0m ▄[1m▄▄▄▄▄ [0m▄[1m▄▄▄▄▄[0m   ▄[1m▄▄▄[0m     ▄[1m▄▄▄▄▄[0m   ▄[1m▄▄▄▄▄ [0m▄[1m▄▄▄[0m
+[1;30m[0m[1;30m[0m[1;30m[0m           ▄[1m▄▄▄▄▄▄[0m ▄[1m▄▄▄▄▄ [0m▄[1m▄▄▄▄▄[0m   ▄[1m▄▄▄[0m     ▄[1m▄▄▄▄▄[0m   ▄[1m▄▄▄▄▄ [0m▄[1m▄▄▄[0m
           █[1m███[0;1;47m [0;1;40m███[0m█[1m███[0m█[1m███[0m█[1m███[0m▀[1;47m▀[0;1;40m██[0m █[1m███▀▀▀▀[0m█[1m███[0m▀[1;47m▀[0;1;40m██[0m █[1m███[0;1;47m [0;1;40m███[0m█[1m███[0m [1;30magent[0m#77[1;30maka[0mlO
 [36m    ▄▄▄██ [0;37m█[0;1;37m███[0m▄[1m▄▄▄[0m█[1m███[0m█[1m███[0m█[1m███[0m █[1m███[0m█[1m███[0m█[1m███[0m█[1m███ [0m▀[1m▀▀▀[0m█[1m███[0;1;47m [0;1;40m███[0m█[1m███[0m █[1m███[0;36m ███▄▄▄    [0m
 [36m [0;1;36m▄[0;1;36;46m▓▄[0;36m█████▄[0;37m▀[0;1;37;47m▀[0;1;37;40m██[0;1;37;47m▄[0;1;37;40m███[0m▀[1;47m▀[0;1;40m██[0;1;47m▄[0;1;40m██▀[0m█[1m███[0m █[1m███[0m▀[1;47m▀[0;1;40m██[0;1;47m▄[0;1;40m███[0m█[1m███[0m [36m███▄[0;37m▀[0;1;37;47m▀[0;1;37;40m██[0;1;37;47m▄[0;1;37;40m██▀[0m█[1m███[0;1;47m▄[0;1;40m█▀▀[0;36m▄███[0;1;36;46m▄▄[0;1;37;40m██[0;1;36;46m██[0;1;36;40m▄[0;36m [0m

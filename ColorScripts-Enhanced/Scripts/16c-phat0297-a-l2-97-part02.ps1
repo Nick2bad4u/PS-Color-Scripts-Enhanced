@@ -5,7 +5,7 @@
 # Source SHA-256: 374e050b2cead2e7547450a6acb856d8c84afb06ea2e3c9e344e7869a1957404
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (A)L2^97.ANS by Tricycle + Alecs (PHAT STUDIOS '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo cluster 2^97
 # SAUCE Author: al3cs
 # SAUCE Group: PHAT STUDIOS '97
@@ -48,7 +48,6 @@ Write-Host '
 [1;36m▄▄[0;33m▀[0;1;37m▀[0;33m▀[0;1;36;46m▒[0;1;36;40m▄▄▄▄▄[0;33m▀▀▀▀[0;1;36m▄▄[0;1;37m█▄[0;1;36m▄[0;33m▀▀[0;1;36m▄▄▄▄▄▄▄[0;33m▀[0;1;36m▄[0;33m▀[0;1;36m▄[0;33m▀▀[0;1;36m▄▄[0;33m▀▀▀[0;1;36m▄▄▄[0;33m▀▀▀[0;1;37m▄[0m [33m▓[0;37m [0;1;36m▄[0;33m▀▀▀▀▀[0;37m░[0;30;47m▓[0;37;40m ▀[0;33;40m▀[0;1;36;40m▄▄[0;33m▀[0;1;36m▄▄[0;33m▀▀▀[0;37m▀[0;33m▀▀▀▀▀▀▀[0;1;36m▄[0;1;37m▄[0m
 [1;36m█[0;1;36;46m▓▓▓[0;1;36;40m███[0;1;37;40m█[0;1;36;46m▓[0;1;36;40m████[0;1;36;46m▓▒▓[0;1;36;40m████[0;1;36;46m▓[0;1;36;40m██[0;1;36;46m▓[0;1;36;40m████[0;1;37;40m██[0;1;36;46m▓[0;1;36;40m████[0;1;36;46m▓[0;1;36;40m███████[0;1;36;46m▓[0;1;36;40m███[0;1;37;40m█[0;1;36;40m▄█████[0;1;36;46m▓[0;1;36;40m█▄▄███[0;1;36;46m▓[0;1;36;40m█[0;1;36;46m▓▓▓[0;1;36;40m███[0;1;36;46m▓▓[0;1;36;40m███[0;1;36;46m▒[0;1;36;40m█[0;1;37;40m██[0;1;36;46m▓[0m
 
-                                   
 $²''$$$$S°°ⁿ$²''$$ⁿ$$`²S$$$baaaad$$s.
 $, $$$$:   ., $$s$$ ,.`²S$$'' `²^"²$$
 $   ,$$baad$   ,$$$ `$s. ²$$  gs. `$
@@ -57,5 +56,4 @@ $  $. °$  $$  $. °$  `""²  $  $$$: $
 $: $b  $  $$  $b  $  $$$'' .$: $$$  $
 $. ⁿ$  $  $$. ⁿ$  $: $$'' .$$  $$'' .$
 ⁿ$.   .'' .$$$.   .$  $$gd$S'' .$ⁿs$$$
-                                    
 a!?$$$$$$$s$$$$$$$$$$$$$$$$ss$ⁿ __/\[0m'

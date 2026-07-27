@@ -5,7 +5,7 @@
 # Source SHA-256: 47bc366898a9e78978c3704d38069610da6f96767f1afb50dc9e3d62a145ecc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-DSC.ANS by Dark Spawn (Root); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: discoooo!
 # SAUCE Author: Dark Spawn
 # SAUCE Group: Root
@@ -19,15 +19,13 @@ Write-Host '
 
 
 [1m [0;1;35m.[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m..[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m..[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m..[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m..[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m..[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m..[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m..[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m..[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m..[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m..[0;1;32m,[0;1;34m;;;[0;1;32m,[0;1;35m.[0m [1m [0m
-[1;34m  [0;1;37m              [0;1;35m    [0m
-  [1m              [0;1;35m$$$$[0m
+[1;34m[0;1;37m[0;1;35m[0m  [1m              [0;1;35m$$$$[0m
   [1m              [0;1;35m$$$$[0m
   [1m              [0;1;35m$$$$[0m                      [1;34m"[0;1;32mb[0;1;34m [0;1;32mu[0;1;34m [0;1;32mr[0;1;34m [0;1;32mn[0;1;34m [0;1;32m b[0;1;34m [0;1;32ma[0;1;34m [0;1;32mb[0;1;34m [0;1;32my [0;1;34m [0;1;32mb[0;1;34m [0;1;32mu[0;1;34m [0;1;32mr[0;1;34m [0;1;32mn[0;1;34m"[0m
   [1m              [0;1;35m$$$$[0;1;37m    [0;1;35m,sss,[0m
   [1m              [0;1;35m$$$$[0;1;37m    [0;1;35m`SSS''[0m
   [1m              [0;1;35m$$$$[0m
-  [1m       [0;1;35m           [0;1;37m    [0;1;35m    [0;1;37m     [0;1;35m           [0;1;37m    [0;1;35m           [0;1;37m [0m   [1;35m          [0m
-  [1m    [0;1;35m.sS""""""S$$$$[0;1;37m  [0;1;35m.$$$$$[0;1;37m   [0;1;35m,$$$''[0;1;37m     [0;1;35m`"[0;1;37m    [0;1;35m,$''[0;1;37m      [0;1;35m`$''[0m  [1;35m,s$''[0;1;37m [0m    [1m [0;1;35m`$s [0m
+[1m[0;1;35m[0;1;37m[0;1;35m[0;1;37m[0;1;35m[0;1;37m[0;1;35m[0;1;37m[0m[1;35m[0m  [1m    [0;1;35m.sS""""""S$$$$[0;1;37m  [0;1;35m.$$$$$[0;1;37m   [0;1;35m,$$$''[0;1;37m     [0;1;35m`"[0;1;37m    [0;1;35m,$''[0;1;37m      [0;1;35m`$''[0m  [1;35m,s$''[0;1;37m [0m    [1m [0;1;35m`$s [0m
   [1m   [0;1;35m.$$''[0;1;37m      [0;1;35m`$$$$[0;1;37m   [0;1;35m`$$$$[0;1;37m   [0;1;35ms$$$[0;1;37m           [0;1;35m,$$[0m            [1;35ms$[0;1;37m    [0m   [1m   [0;1;35m$s [0m
   [1m  [0;1;35m.$$''[0;1;37m        [0;1;35m`$$$[0;1;37m    [0;1;35m$$$$[0;1;37m   [0;1;35m''$$$[0;1;37m           [0;1;35m$$$[0m           [1;35m;$$[0;1;37m    [0m   [1m   [0;1;35m$$;[0m
   [1m  [0;1;35m$$$[0;1;37m          [0;1;35m$$$[0;1;37m    [0;1;35m$$$$[0;1;37m     [0;1;35m''"$$$$$$s,[0;1;37m   [0;1;35m$$$[0m           [1;35m$$$[0;1;37m    [0m   [1m   [0;1;35m$$$[0m

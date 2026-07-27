@@ -5,7 +5,7 @@
 # Source SHA-256: f6f2377fb31d0ae2bc10a0e8477b7c32d53f965e3759ad85257c6cf99cb9d54f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NEO-CMPU.ANS by Neo (Apocalyptic Visions); released in avpack11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Compupal
 # SAUCE Author: Neo
 # SAUCE Group: Apocalyptic Visions
@@ -34,7 +34,7 @@ Write-Host '
       [1;37;40m█[0;36;44m▓▓[0;1;37;44m▒▄[0;36;44m▄▄[0;37;44m▒[0;36;44m▀▀ ▒[0;33;40m████░██[0;37;43m▒[0;33;40m██▓░░▓▓██████▒▓███▓  [0;35;44m▓[0m                            [35;44m▒[0m
       [1;37;40m█[0;36;44m▓▓▒▒░░[0;37;44m▒   [0;36;44m▒[0;33;40m█████░█[0;37;43m▓▒[0;33;40m██▓░░░▓▓████▒▓███▒  [0;35;44m▒[0;31;40m ░▒▒▓▓█[0;33;41m░░▒▒▓▓███▓▓▒▒░░[0;31;40m█▓▒▒░ [0;35;44m░[0m
        [36;44m▓▒▒░░ [0;37;44m▒  [0;36;44m▒[0;33;40m▓█▒▓▓▒░██[0;37;43m▒ [0;33;40m██▓░░░▓▓▓▓██▀███[0;31;40m▄  [0;35;44m▒[0m                            [35;44m░[0m
-       [1;37;40m█[0;36;44m░░░░ [0;37;44m▓  [0;36;44m▒[0;33;40m▓▓▒▓▓▓▒░█[0;37;43m▓▒[0;33;40m██▓░░░░▓[0;31;40m▀▀[0;33;40m▄▄███▓▓  [0;35;44m░[0;1;37;40m Line 1: +61 3789-1906 14.4 [0;1;37;44m [0m
+       [1;37;40m█[0;36;44m░░░░ [0;37;44m▓  [0;36;44m▒[0;33;40m▓▓▒▓▓▓▒░█[0;37;43m▓▒[0;33;40m██▓░░░░▓[0;31;40m▀▀[0;33;40m▄▄███▓▓  [0;35;44m░[0;1;37;40m                            [0;1;37;44m [0m
        [36;44m▓[0;1;37;44m▄[0;36;44m░░  [0;37;44m▒[0;34;40m█[0;34;44m [0;36;44m▒[0;33;40m▓▓▒▒▓▓▒░██[0;37;43m▒[0;33;40m██▓░░[0;31;40m▀[0;33;40m▄▄██▄██▓▓▒[0;31;40m▀  [0;34;40m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
       [1;37;40m█[0;36;44m▓▒▀[0;1;37;44m▀  [0;44m▓[0;34;40m██[0;36;44m░▒[0;33;40m▓▓▒[0;31;40m▀[0;33;41m░ [0;33;40m▒░█████▓░██████▓▓▒[0;31;40m░[0m
       [36;44m▓▒▒░░[0;34;40m█[0;34;44m [0;37;44m▓[0;34;40m██[0;36;44m░░[0;33;40m▒▒▒   ░█[0;33;47m▄▄[0;33;40m█▓▓▓░█[0;33;47m▀[0;33;40m█[0;33;47m▀[0;33;40m▓▓▒[0;31;40m▀[0m

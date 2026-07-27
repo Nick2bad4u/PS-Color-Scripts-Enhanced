@@ -5,7 +5,7 @@
 # Source SHA-256: b12cf6707b5e875997582dd2f2c67c34178327fd7ea482ad0de833a46a5990c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZB!COL30.ANS by Zubfatal (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 36-82
 # Columns: 1-80
 
@@ -49,8 +49,7 @@ Write-Host '
 [33m$$$$$$$$$$$$$$$$$b.[0;37m`²$$$$$$$ [0;33m$$$$$$$$$$$$$$$$$$$$$$$$$S#%sssss%#S$$$$$$$$$$$$$$[0m
 [33m$$$$$$$$$$$$$$$$$$$b.[0;37m`²²²²²'' [0;33m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 
-               [37m  [0;1;37m                     [0m [1m     [0m [1m               [0m [1m    [0m
-
+[37m[0;1;37m[0m[1m[0m[1m[0m[1m[0m
 
     [1m__\/__  [0;1;30m.----------------------------------------.[0m       [1;30m.-( [0mmade for [1;30m)-.[0m
 [1;30m.--[0;1;37m<_ oO _>[0;1;30m-┤[0m [1mdunno [0m..                          [1;30m.----┴-------┴--------------┴-.[0m

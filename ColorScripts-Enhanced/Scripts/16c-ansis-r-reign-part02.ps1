@@ -5,7 +5,7 @@
 # Source SHA-256: 0ecdcaf7bbc4ca416a00b1fb205c2c6ddb81a6a46810131dab9a80a93e9da026
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REIGN.ANS by Slum Dweller (ansis-r); released in ansis-r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 46-74
 # Columns: 1-80
 
@@ -33,7 +33,7 @@ Write-Host '
                  [31m▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
              [1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m█[0m
-             [1;37m█ [0m····[1;33mR[0;33meign[0;37m·[0;1;33mI[0;33mn[0;37m·[0;1;33mB[0;33mlood[0;37m················[0;33m[[0;1;33m718[0;33m][0;1;33m698[0;33m-[0;1;33m1969[0m···· [1;30m█[0m
+             [1;37m█ [0m    [1;33m [0;33m    [0;37m [0;1;33m [0;33m [0;37m [0;1;33m [0;33m    [0;37m                [0;33m [0;1;33m   [0;33m [0;1;33m   [0;33m [0;1;33m    [0m     [1;30m█[0m
              [1;37m█ [0m [1;33m [0;33m      [0;37m [0;1;33m [0;33m       [0;1;33m  [0;33m     [0;1;33m [0;33m  [0;37m   [0;1;33m [0;33m    [0;37m [0;1;33m [0;33m   [0;37m [0;1;33m [0;33m        [0;37m  [0;1;30m█[0m
              [1;37m█ [0m [1m [0;1;30m    [0m [1;31m■[0m [1m [0;1;30m    [0m  [1m [0;1;30m      [0;1;37m [0;1;30m [0m [1;31m■[0m [1m [0;1;30m   [0m [1m [0;1;30m    [0m [1m [0m [1m [0;1;30m        [0m  [1;30m█[0m
              [1;37m█ [0m··············[1;31mA[0;31mNSi[0;37m·[0;1;31mB[0;31my[0;37m·[0;34mS[0;1;34md[0;1;30m[[0;36mi[0;1;36mC[0;1;37mE[0;1;30m/[0;36mI[0;1;36mN[0;1;37mC[0;1;30m][0;1;31m''[0;34m9[0;1;34m2[0m··············· [1;30m█[0m

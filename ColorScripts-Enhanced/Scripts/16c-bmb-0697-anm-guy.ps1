@@ -5,7 +5,7 @@
 # Source SHA-256: 1b3dbc9ad66953ff169eb64f150e87991f89b5b30bfcd96f0a25f0d0722865a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-GUY.ANS by anomite (deranged); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 23liner!@ =)
 # SAUCE Author: anomite
 # SAUCE Group: deranged
@@ -37,7 +37,6 @@ Write-Host '
 [1;30;42m▓▓▒▒░░░[0;32m████▄▄[0;37m [0;33m▀▀[0;1;31;43m░[0;33m█[0;1;31;43m ░▓▀▀[0;1;31;40m███[0;1;31;43m▓[0;1;31;40m█████████████[0;1;31;43m▓[0;1;31;40m▀[0m [32m▄▄██████████████▓▓███████████[0m
 [1;30m▀[0;1;30;42m▓▓▓▒▒░░░[0;32m█[0;1;30;42m░[0;32m████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███████▓██████████████████████[0m
 
-            [1;30m [0m                        [1;30m [0m                                [1;30m [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m
 
 --------------------------[0m'

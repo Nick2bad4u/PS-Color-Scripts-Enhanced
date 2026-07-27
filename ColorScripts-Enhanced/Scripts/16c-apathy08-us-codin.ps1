@@ -5,7 +5,7 @@
 # Source SHA-256: 86a0d1b12ab036282e5b2dd996146478b7497d889babcb1ac4c975589a1672b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CODIN.ANS by Spear + Mighty Mouse (apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cOdine
 # SAUCE Author: spear!mmouse joint
 # SAUCE Group: apathy
@@ -17,8 +17,7 @@
 Write-Host '
 
 
-                                                                         [1m [0m     
-                                                                          / [1mS[0mun
+[1m[0m                                                                          / [1mS[0mun
                                         [1m           [0m           [1m▄▄[0;1;33;47m▓[0;1;33;40m▀█▀██▓▄[0;33m▄[0;37m [0m
                                                 [1;37m    [0m        [1;33m▄[0;1;33;47m▓▓[0;1;33;40m██ [0;1;33;47m█[0;1;33;40m [0;1;33;47m▓██[0;1;33;40m█[0;1;33;41m▓[0;1;33;43m░[0;33m▄[0m
 [1;37;42m░▒▒▓[0;1;37;40m▀▀▀▀▀▀▀▀[0;32m▀[0;1;37m▀[0;32m▀▀[0;1;37;42m░░[0;32m▀▀▀▀▀▀▀▀▀▀[0;1;37;42m░░░▒▒▓▓▒▒░[0;32m▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀[0;37m [0;1;33m▀▀██▀▀▀▀▀▀▀▀▀▀[0;33m▀[0;1;37m [0;1;37;42m▒▒░░[0m

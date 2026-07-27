@@ -5,7 +5,7 @@
 # Source SHA-256: 870f5655f1aeb0a1e57408fb74ef0e1af219ae9346c9688ac6895165f9ef83da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SU-REHAB.ANS by Suhu (afc-r7); released in afc-r7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 77-115
 # Columns: 1-80
 
@@ -44,6 +44,5 @@ Write-Host '
 [1;34;40m [0;34m██████[0;34;44m [0m   [1;30;40mE[0ml[1miteNet World Host ■ SF.Pirates Host ■ PC-TOP Home Boa[0mr[1;30md   [0;34m████████[0m
          [1;30m [0m [1m                 ■                 ■                 ■    [0;1;30m [0m
 [1;30m   [0m [1m                             ■                                          [0m [1;30m [0m
-                   [1;30m [0m [1m                                      [0m [1;30m [0m
-
+[1;30m[0m[1m[0m[1;30m[0m
 [1;30m  N[0mo[1mde 1 ZyXEL U-1496E+ 9600/14400/16800/19200 bp[0ms[1;30m![0m         [1;30m+[0m3[1m58-PUHELIN-NUME[0mR[1;30mO[0m'

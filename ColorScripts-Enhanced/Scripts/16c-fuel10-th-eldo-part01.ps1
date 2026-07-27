@@ -5,7 +5,7 @@
 # Source SHA-256: e394e860ed3457823750e494878fd4d47f771c26d29d7857881a64d8d1e38a53
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-ELDO.ANS by thrasher (fuel); released in fuel10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: eldorado
 # SAUCE Author: thrasher
 # SAUCE Group: fuel
@@ -21,14 +21,10 @@ Write-Host '
                                                █[1m██[0m [1m   [0m█[1m██[0m░█[1m██[0m   [1m [0;1;47m [0;1;40m██ [0;1;47m [0;1;40m██  [0m▀[1;47m▀[0;1;40m█▄ [0m
  the whole fuel gang (i''m NOT typing all the   ▐[1;47m▓[0;1;40m█▌  [0m▐[1;47m▐█[0;1;40m▌ [0;1;47m [0;1;40m██[0m    [1;47m [0;1;40m██[0m░[1;47m [0;1;40m██[0m   ▐[1;47m▐[0;1;40m█▌[0m
  names, not not not!) or am i :) tk, nf, cr,    ▀[1;47m▀[0;1;40m█▄▄[0;1;47m▄[0;1;40m█▀  [0;1;47m░▓▓[0m    [1;47m [0;1;40m██[0m░[1;47m [0;1;40m██[0m    [1;47m [0;1;40m██[0m
-                                              
  ws, pfez!  and... massm, burps, outkast, cu,    [1;47m [0;1;40m█▀▀[0;1;47m▀[0;1;40m█ [0m [1;47m [0;1;40m█[0m ░[1;47m [0;1;40m█ [0m░[1;47m [0;1;40m█▀▀▀ [0m [1;47m [0;1;40m█[0m
  liithn, fluor, nail, voice, tna, ''carebear''     [1;47m [0;1;40m█▄[0m ▀[1m▀ [0m [1;47m [0;1;40m█[0m ░[1;47m [0;1;40m█ [0m░[1;47m [0;1;40m█▀[0m  [1m [0m [1;47m [0;1;40m█[0m ░▓[1m█[0m
  ts, ext, bviper, ewheat, trip, misfit, azrael   [1;47m [0;1;40m█░[0m   [1m [0m ▀[1;47m▀[0;1;40m▄▄[0;1;47m▄[0;1;40m▀ [0m░▓[1m█▄▄▄ [0m [1;47m [0;1;40m█▄▄[0;1;47m▄[0;1;40m▀[0m
-                                                [30m                               [0m
-[37m                     [0m                                 [1;37m        [0;1;36m [0;1;37m       [0;1;36m [0;1;37m  [0m
-[1;30m [0m                                    [1;30m [0m           [1;30m                            [0m
-                                                                [32m [0;1;32m▄[0;32m▄[0;37m [0;1;30m            [0m
+[30m[0m[37m[0m[1;37m[0;1;36m[0;1;37m[0;1;36m[0;1;37m[0m[1;30m[0m[1;30m[0m[1;30m[0m                                                                [32m [0;1;32m▄[0;32m▄[0;37m [0;1;30m            [0m
                                                               [1;32m░░[0;1;33m▐[0;1;33;42m▓░[0;32m▌[0;1;30m            [0m
 [1;30m                                                                [0;1;32m▐[0;1;32;42m▀[0;32m█▒░[0;1;30m           [0m
 [1;30m                                                                [0;32m [0;1;32;42m▒░[0;32m░[0;1;30m           [0m

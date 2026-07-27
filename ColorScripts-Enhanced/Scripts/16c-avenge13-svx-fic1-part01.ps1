@@ -5,7 +5,7 @@
 # Source SHA-256: d1ab1b55d9bc6541b3e342e8868dad9ede777128fcd244af4b4683a71642bdc8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SVX-FIC1.ANS by Salvationx + Catch 22 (AVENGE!!!); released in avenge13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fiction (featuring Catch22)
 # SAUCE Author: SalvationX
 # SAUCE Group: AVENGE!!!
@@ -15,9 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30m                                                                      [0m
-[30m                                                                                [0m
-             [30m33333333333333333333333333Ansi3Saved3you.33333333333333333333333333[0m
+[30m[0m[30m[0m             [30m33333333333333333333333333Ansi3Saved3you.33333333333333333333333333[0m
              [30m3333333333333333333333333333333333333333333333333333333333333333333[0m
              [30m3333333333333333333333333333333333333333333333333333333333333333333[0m
 [30m3333333333333333333333[0;1;37mLook[0;30m3[0;1;37munto[0;30m3[0;1;37mthe[0;30m3[0;1;37mheavens...[0;30m3[0;1;37myou[0;30m3[0;1;37mwill[0;30m3[0;1;37msee.[0;30m33333333333333333333[0m

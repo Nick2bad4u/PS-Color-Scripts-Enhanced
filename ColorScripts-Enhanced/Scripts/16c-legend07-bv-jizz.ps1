@@ -5,7 +5,7 @@
 # Source SHA-256: 2f49cfd7814e5bcb9ff376d1db92d3d57e7a9c1a360c65415776d43c9e365e0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BV-JIZZ.ANS by Black Viper (Legend); released in legend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Jizz
 # SAUCE Author: Black Viper
 # SAUCE Group: Legend
@@ -40,11 +40,7 @@ Write-Host '
           [33m [0;37;43m░[0;33;40m█▀██▌▄█▀▄   [0;1;36;40m [0;33m▄[0;1;36m    [0;36m▀[0;1;36m▀▀[0;36m▀[0;1;36m  [0;33m▄▄▄▄▄▄▄▄[0;1;31;43m░░░░ [0;33m██▄▓█[0;1;31;43m░░░▒▒▓▓▒▒░░[0;33m█[0;1;31;43m░░[0;33m███▀▌█▐▄[0;1;30;43m  ░▒[0m
           [33m▐██▓▐█▄█▄▀▀██████░[0;30;43m░[0;33;40m▌█[0;30;43m░[0;33;40m▓█████████[0;1;31;43m░░▒▒▒▒░░░[0;33m██[0;30;43m░[0;33;40m███[0;1;31;43m░░▒▒░░[0;33m██████████▓▓▓█[0;1;30;43m  ░[0m
 
-                                                   
 
-                                              
-                          
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-                                 [1m           [0m      [1m                  [0m [1m     [0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m'
+[1m[0m[1m[0m[1m[0m[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4342372a4b499ab53cecdc46f9c1512898e2e3c63157d1253520f7f6e923a931
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-NOCT.ANS by Pariah (REMORSE); released in rmrs-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Nocturne
 # SAUCE Author: Pariah
 # SAUCE Group: REMORSE
@@ -15,12 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                                                
-                                                                                
-                                                                 
-                      [1m                           [0m                               
-                                                                    
-[1;30m--------------------------------------------------------------------------------[0m
+[1m[0m[1;30m--------------------------------------------------------------------------------[0m
 [1;37m╘       [0m  [1;36m      [0;1;37m                                            [0;1;36m        [0;1;37m            [0m
 
                                                                  [34m55[0;1;34m$[0;1;36m$$[0;1;34m$[0;34m$[0m    [30m [0m
@@ -56,7 +51,6 @@ Write-Host '
 [36m$[0;1;36m$$$$$$$[0;36ml[0;37m $$[0;1;37m$$$$$$$$$$$$$$$$[0mh,[33m`7[0;1;31m$$$$$$$$$$$$$$[0;33m8P''[0;37m,d[0;1;37m$$$$$$$$$$$$$$$$[0m$$ [36ml[0;1;36m$$$$$$$$[0;36m$[0m
 [36m$[0;1;36m$$$$$$$[0;36m|[0;37m $8[0;1;37m88888$$555$$$$8888[0mh,[33m`ⁿ75[0;1;31m$$$$$$$$[0;33mPⁿ''[0;37m,d[0;1;37m88855$$888888$$$55[0m$$ [36m|[0;1;36m$$$$$$$$[0;36m$[0m
 [36m$[0;1;36m$$$$$$$[0;36ml[0;37m $88[0;1;37m888855555$$'',8888885@[0m%gyy[1myyyyyy%@58885555,`8888888885[0m55$ [36ml[0;1;36m$$$$$$$$[0;36m$[0m
-[36m [0;1;36m       [0;36m [0;37m    [0;1;37m           [0m [1m                              [0m [1m          [0m    [36m [0;1;36m        [0;36m [0m
-[36m$[0;1;36m$$[0;1;36;47m▓▓▓[0;1;36;40m$$[0;36m$yy[0;37m ::::::::: ::   :::::::;;;;;;;;;;::::::;;;;; :::::::::;;;; [0;36mI[0;1;36m$$[0;1;36;47m▓▓[0;1;36;40m$$$$[0;36m$[0m
+[36m[0;1;36m[0;36m[0;37m[0;1;37m[0m[1m[0m[1m[0m[36m[0;1;36m[0;36m[0m[36m$[0;1;36m$$[0;1;36;47m▓▓▓[0;1;36;40m$$[0;36m$yy[0;37m ::::::::: ::   :::::::;;;;;;;;;;::::::;;;;; :::::::::;;;; [0;36mI[0;1;36m$$[0;1;36;47m▓▓[0;1;36;40m$$$$[0;36m$[0m
 [36m$[0;1;36m$$$$$$$$$[0;36m$[0;1;36m [0m          [1;30m::[0m          [1;30m::::::::::[0m      [1;30m:::::[0m          [1;30m::::[0m [36m$[0;1;36m$$$$$$$$[0;36m$[0m
 [36m$[0;1;36m$$$$$$$$@[0;36mg,[0;1;36m [0m                                                        [36my$[0;1;36m$$$$$$$$[0;36m$[0m'

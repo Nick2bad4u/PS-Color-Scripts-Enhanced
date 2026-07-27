@@ -5,7 +5,7 @@
 # Source SHA-256: 4164fb6c98239a1357b3beb7f39ed7c5467fc9364e81e0faa712946a3601a6e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-ID1.ANS by Soundmaster (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-75
 # Columns: 1-80
 
@@ -31,6 +31,6 @@ Write-Host '
 [31m║  [0;1;37mH[0;1;31mI[0;31mTnet, [0;1;37mT[0;1;31mO[0;31mPnet, [0;1;37mK[0;1;31mM[0;31mAnet, [0;1;37mS[0;1;31mE[0;31mEnet, [0;1;37mP[0;1;31mR[0;31miSMnet,  [0;37m─═≡≡[0;1;37m▐▄▄▄▐▄ ▄[0;1;37;47m▓[0;1;37;40m▐█▀ ▄[0m▄▄▓▄▄[1;30m▄ ▀▓▌   [0;31m║[0m
 [31m│  [0;1;37mT[0;1;31mS[0;31mAN net, [0;1;37mS[0;1;31mW[0;31mASHnet, [0;1;37mG[0;1;31mR[0;31miM Shq, [0;1;37mT[0;1;31mA[0;31mS Shq,[0m              [1;37m▀▀▀    ▀▄[0m▄▄▒▄▄[1;30m▄▀  [0;1;30;47m▓[0m▄  [31m║[0m
 [31m│  [0;1;37m [0;1;31m [0;31m              [0;1;37m [0;1;31m [0;31m           [0;1;37m [0;1;31m [0;31m            [0;1;37m [0;1;31m [0;31m              [0;1;37m▀▄[0m▄▄░▄▄[1;30m▄▀  [0;1;30;47m▒[0m   [31m║[0m
-[31m│  [0;1;37mN[0;1;31mH[0;31mA dist. [0;1;37mP[0;1;31m/[0;31mH/C/A/V/T, [0;1;37mN[0;1;31mo[0;31mde 1: [0;1;37m3[0;1;31m0[0;31m5.525.4722 [0;1;37m([0;1;31mH[0;31mST 9600+)    [0;1;37m▀▄[0m▄▄░▄▄[1;30m▄▀  [0m▄▀  [31m║[0m
+[31m│  [0;1;37m [0;1;31m [0;31m        [0;1;37m [0;1;31m [0;31m           [0;1;37m [0;1;31m [0;31m      [0;1;37m [0;1;31m [0;31m           [0;1;37m [0;1;31m [0;31m             [0;1;37m▀▄[0m▄▄░▄▄[1;30m▄▀  [0m▄▀  [31m║[0m
 [31m│[0m     [1;37mA[0;1;31mN[0;31mSi: [0;1;37mS[0;1;31mO[0;31mUNDMASTER [0;1;37m[[0;1;31mI[0;31mNC AD/UTOPiA] ─────────────═════════════[0;37m░[0;31m══════[0;1;30;47m░[0m▄[31m══╝[0m
                                                               [1;37m▄[0;1;37;47m▓[0;1;37;40m▀[0m▓░▓▀▓▄ ┘║║[0m'

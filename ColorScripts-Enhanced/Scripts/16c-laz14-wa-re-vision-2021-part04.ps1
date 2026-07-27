@@ -5,7 +5,7 @@
 # Source SHA-256: 9f8a471685c2a5a691bd2195952e3aa117969b1e91b40b435725d2d2771a4315
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-RE-VISION-2021.ANS by WARPUS (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: REVISION 2021
 # SAUCE Author: WARPUS
 # SAUCE Group: LAZARUS
@@ -40,14 +40,12 @@ Write-Host '
                                         [1;30m░░░[0m
 
 
-      [1;30m       [0;1;35m        [0;1;31m [0;1;37m    [0;1;30m          [0;31m [0;1;30m    [0;31m [0;1;30m                 [0;35m        [0;37m    [0;1;30m   [0m
-
+[1;30m[0;1;35m[0;1;31m[0;1;37m[0;1;30m[0;31m[0;1;30m[0;31m[0;1;30m[0;35m[0;37m[0;1;30m[0m
 
                                     [1;30m·---ooo---·[0m
 
 
-                               [1;30m       [0;31m       [0;1;30m [0m       
-
+[1;30m[0;31m[0;1;30m[0m
 
 
                                    [1;30m2021 [0m.[1;30m 04 [0m.[1;30m 02[0m
@@ -55,5 +53,4 @@ Write-Host '
 
 
 [1;30m--------------------------------------------------------------------------------[0m
-[1;30m                                                                              [0m
-                                          [30;47m██[0m'
+[1;30m[0m                                          [30;47m██[0m'

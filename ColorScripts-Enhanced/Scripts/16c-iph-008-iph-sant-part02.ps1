@@ -5,7 +5,7 @@
 # Source SHA-256: b28a3d9ee9598c62e199dca83b53ac99ed5d09f774003c3d0b62e65c7fcbd131
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IPH-SANT.ANS by inphamilair (iph) (plf guest starr); released in iph-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: :: santa is evil
 # SAUCE Author: inphamilair (iph)
 # SAUCE Group: plf guest starr
@@ -24,8 +24,7 @@ Write-Host '
 [32m$[0;1;32m$[0;32m   [0;1;30m$[0;32m$$$$$$$$$$$$$$$ii::iii$$$$$$$$$$$$$ii[0;1;30mii;:iiii:iii[0;32m$$$$$$$$$,   ,$$$iiii[0;1;30m::[0m
 [32m$$ggggggggggg[0;1;32mg[0;32m  [0;1;30m $[0;32m$$$$$iii$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$i;i[0;1;30m$$[0m
 [1;32m$[0;32m  [0;1;30m $[0;32m$$$$$$$$[0;1;32m$[0;32m  [0;1;30m $[0;32m$$$gggggg[0;1;32mg  [0;1;30m ╨[0;32m╨╨i$$$$$$$$$$$[0;1;32m$[0;32m  [0;1;30m $[0;32m$$$$$$$[0;1;32m$:[0;32m   [0;1;30mg[0;32mgggggg$$$$$i$$[0m
-[1;32m [0;1;30m [0;32m [0;1;30m  [0;32m        [0;1;32m [0;32m   [0;1;32m  [0;1;30m   [0;32m     [0;1;32m     [0;32m  [0;1;30m  [0;32m     [0;1;32m  [0;32m  [0;1;30m [0;1;32m [0;32m  [0;1;30m  [0;32m       [0;1;32m  [0;32m  [0;1;30m  [0;32m     [0;1;32m  [0;32m  [0;1;30m [0;32m    [0m
-[1;32m$;[0;32m [0;1;30m :$[0;32m$i;;;i$[0;1;32m$;[0;32m  [0;1;32mi[0;32m  [0;1;30m:[0;32m$$$$$$[0;1;32m$:[0;32m  [0;1;32m;[0;32m  [0;1;30m:$[0;32m$$$$$[0;1;32m$:[0;32m  [0;1;30m:[0;1;32mi[0;32m  [0;1;30m.g[0;32mgggg$$$$[0;1;32m$[0;32m  [0;1;30m:$[0;32m$$$$$[0;1;32m$:[0;32m  [0;1;30mi[0;32m$$i$[0m
+[1;32m[0;1;30m[0;32m[0;1;30m[0;32m[0;1;32m[0;32m[0;1;32m[0;1;30m[0;32m[0;1;32m[0;32m[0;1;30m[0;32m[0;1;32m[0;32m[0;1;30m[0;1;32m[0;32m[0;1;30m[0;32m[0;1;32m[0;32m[0;1;30m[0;32m[0;1;32m[0;32m[0;1;30m[0;32m[0m[1;32m$;[0;32m [0;1;30m :$[0;32m$i;;;i$[0;1;32m$;[0;32m  [0;1;32mi[0;32m  [0;1;30m:[0;32m$$$$$$[0;1;32m$:[0;32m  [0;1;32m;[0;32m  [0;1;30m:$[0;32m$$$$$[0;1;32m$:[0;32m  [0;1;30m:[0;1;32mi[0;32m  [0;1;30m.g[0;32mgggg$$$$[0;1;32m$[0;32m  [0;1;30m:$[0;32m$$$$$[0;1;32m$:[0;32m  [0;1;30mi[0;32m$$i$[0m
 [32m$[0;1;32mi[0;1;30m  [0;32m [0;1;30m$[0;32miiii$$$$[0;1;32mi[0;32m  [0;1;32m:[0;32m  [0;1;30mi[0;32m$$$$$$[0;1;32m$[0;32m   [0;1;32mi[0;32m   [0;1;30m$[0;32m$iii$[0;1;32m$i[0;32m  [0;1;30m [0;1;32m: [0;32m [0;1;30mi[0;32m$$$$$$[0;1;32m$   [0;32m   [0;1;30m$[0;32m$$$$$$[0;1;32mi[0;32m  [0;1;30m:$[0;32m$$$[0m
 [32m$[0;1;32m$ [0;32m  [0;1;30mi[0;32m$$$$$$$$[0;1;32m$ [0m    [1;30m$[0;32m$$$$$$[0;1;32m$ [0;32m  [0;1;32m$[0;32m   [0;1;30m$[0;32m$i;;i$[0;1;32m$[0m      [1;30m$[0;32m$$$$$$[0;1;32m$ [0m     [1;30m$[0;32m$$$$$$[0;1;32m$[0;32m   [0;1;30m$[0;32m$$$[0m
 [32m                           ┐              [0;1;32m [0;32m             [0;1;32m  [0;32m [0;1;30m    ┐[0;32m              [0m

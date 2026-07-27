@@ -5,7 +5,7 @@
 # Source SHA-256: aaf3648181e5060dc5990a911ae3a4ec587650c53d85c416c0a399e4d223a467
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N4-ODYSY.ANS by Natureboy (Pang); released in pang04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Odyssey
 # SAUCE Author: Natureboy
 # SAUCE Group: Pang
@@ -25,8 +25,7 @@ Write-Host '
    [32m`````` [0;1;32m        [0;32m ````[0;35m.[0;1;35md$$$$[0;35m.[0;1;32m [0;32m`[0;1;32m²└[0;32m**[0;1;32m┘²[0;32m`[0;1;32m [0;32m`[0;1;32m²└**┘[0;32m²`[0;1;32m [0;32m`²└[0;1;32m**⌂$$[0;32m`[0;1;32m²┴[0;32m`[0;1;32m [0m
                      [35m.d[0;1;35m$[0m$$[1;35m$$$$[0;35mY[0;1;35m#y[0;35m┐[0;1;35m,[0;35m..[0;1;35m_[0;35m_[0;37m       [0m         [32mll[0m
                    [37m  [0m        [1;35m [0;35m~~^"[0;1;35m²└$$$[0m             [1;35m.[0;35m.[0m
-                                    [35m   [0;37m [0;34m [0;1;34m   [0;34m [0;1;34m      [0m [1;35m [0;35m [0;37m [0m        [1;32m     [0;32m [0;1;32m [0;32m   [0m   [1;32m [0m
-                                                            [1;32m  [0m [32m/[0;1;32m$[0;32mb.[0;1;32m [0;32m,d[0;1;32m$$[0;32m`[0;1;32m [0;32m,,. [0m
+[35m[0;37m[0;34m[0;1;34m[0;34m[0;1;34m[0m[1;35m[0;35m[0;37m[0m[1;32m[0;32m[0;1;32m[0;32m[0m[1;32m[0m                                                            [1;32m  [0m [32m/[0;1;32m$[0;32mb.[0;1;32m [0;32m,d[0;1;32m$$[0;32m`[0;1;32m [0;32m,,. [0m
                                                             [32m,[0;1;32m.. [0;32m''[0;1;32m$$ [0;32m`[0;1;32ml$[0;32m`[0;1;32m ll[0;32m`[0m
         [1;30m[[0;35mcall[0;1;30m][0;36m me 03-951-3921[0m    [1;30m[[0;35mcall[0;1;30m][0;36m me 03-951-3921[0m       [1;32m_.[0;32m,,[0;37m [0;1;32m,[0;32m;;.4[0;1;32m$$[0;32m@[0;1;32my[0;32m┐.[0;1;32m [0m
         [1;30m[[0;35mcall[0;1;30m][0;36m me 03-951-3921[0m    [1;30m[[0;35mcall[0;1;30m][0;36m me 03-951-3921[0m    [32m.\[0;1;32m$[0;32m⌂*`[0;1;32m [0;1;33m`$$[0;33m$[0;32m`[0;1;32m [0;32m''²[0;1;32m└*⌂Y[0;32m$.[0m

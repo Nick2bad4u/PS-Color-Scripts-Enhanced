@@ -5,7 +5,7 @@
 # Source SHA-256: a80c4d1722886c9966c17a02795ee8ca368d9c9ca5f9afefdafd1d825cb39397
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLZ-BLND.ANS by blaze (raw^infinite); released in blndr018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: blender #18 - blaze`s stuff!
 # SAUCE Author: blaze
 # SAUCE Group: raw^infinite
@@ -42,6 +42,4 @@ Write-Host '
 
 
 [33m░ ░ ░▒▓[0;1;33;43m    [0;1;33;40m                                                        [0m
-                [1;33m                                                             [0m
-                [1;33m                                                       [0m
-                [1;33m                                          [0;1;33;45m              [0;35m▓▒░[0;37m [0;35m░[0;37m  [0;35m░[0m'
+[1;33m[0m[1;33m[0m                [1;33m                                          [0;1;33;45m              [0;35m▓▒░[0;37m [0;35m░[0;37m  [0;35m░[0m'

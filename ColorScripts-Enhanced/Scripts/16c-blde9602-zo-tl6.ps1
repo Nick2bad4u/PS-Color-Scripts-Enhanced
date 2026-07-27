@@ -5,7 +5,7 @@
 # Source SHA-256: 5f71ccedd6dc4d5f6bbffc50a0f0190cd2fb329c99f938eb910eadc1d41f048c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZO-TL6.ANS by zork (blade productions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the legacy!
 # SAUCE Author: zork
 # SAUCE Group: blade productions
@@ -34,7 +34,7 @@ Write-Host '
                  [30;45m▌[0;1;35;45m░[0;35m█[0;33;45m░[0;35;40m█[0;1;35;45m░[0;1;33;45m░░[0m    [30;45m▄▄░░░░▄▄▄█▌[0;1;35;45m░[0;35m█[0;33;45m░[0;35;40m█[0;1;35;45m░[0;1;33;45m░░[0m [30;45m▄█▌[0;1;35;45m░[0;35m█[0;33;45m░[0;35;40m█[0;1;35;45m░[0;1;33;45m░░[0;35m▌[0;37m  [0;1;30mOps Include Zork[0m
                  [30;45m▌[0;1;35;45m░▄[0;35m█[0;1;33;45m░[0;1;35;45m▀▄[0;33;45m░[0;30;45m▐[0m             [30;45m▌[0;1;35;45m░▄[0;35m█[0;1;33;45m░[0;1;35;45m▀▄[0;33;45m░[0;30;45m▐[0;37;40m  [0;30;45m [0;1;35;45m░▄[0;35m█[0;1;33;45m░[0;1;35;45m▀▄[0;33;45m░[0;35;40m▌[0;37;40m  [0;1;30;40mof Blade,and [0m
 [1;30mthe legacy[0m       [30;45m▌[0;1;35;45m▐▌[0;1;33;45m░▒░[0;1;35;45m▐░[0;30;45m▐[0m             [30;45m▌[0;1;35;45m▐▌[0;1;33;45m░▒░[0;1;35;45m▐░[0;30;45m▐[0;37;40m  [0;30;45m [0;1;35;45m▐▌[0;1;33;45m░▒░[0;1;35;45m▐░[0;35m▌[0;37m  [0;1;30mGrifter of Acid.[0m
-[1;30m8o5.486.2797[0m     [1;35m░[0;1;35;45m▓▓▄[0;1;33;45m░[0;1;35;45m░[0;35m█▓[0;30;45m▐[0m             [1;35;40m░[0;1;35;45m▓▓▄[0;1;33;45m░[0;1;35;45m░[0;35m█▓[0;30;45m▐[0;37;40m  [0;30;45m [0;1;35;45m▓▓▄[0;1;33;45m░[0;1;35;45m░[0;35m█▓▌[0m
+[1;30m            [0m     [1;35m░[0;1;35;45m▓▓▄[0;1;33;45m░[0;1;35;45m░[0;35m█▓[0;30;45m▐[0m             [1;35;40m░[0;1;35;45m▓▓▄[0;1;33;45m░[0;1;35;45m░[0;35m█▓[0;30;45m▐[0;37;40m  [0;30;45m [0;1;35;45m▓▓▄[0;1;33;45m░[0;1;35;45m░[0;35m█▓▌[0m
                [30;45m▄▄ [0;1;35;45m░▀▓█▀[0;33;45m░[0;35;40m█[0m            [30;45m▄▄ [0;1;35;45m░▀▓█▀[0;33;45m░[0;35;40m█[0m   [30;45m [0;1;35;45m░▀▓█▀[0;33;45m░[0;35;40m█▌[0m
                       [30;45m▄▄▄▄[0m            [30;43m█████[0;37;40m [0;30;45m▄▄▄▄▄[0;35;40m████████[0;1;35;40m░[0;35m▀▀[0m
                                                      [35m▀▀▀▀[0m'

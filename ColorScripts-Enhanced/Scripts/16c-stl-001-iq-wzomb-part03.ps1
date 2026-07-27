@@ -5,7 +5,7 @@
 # Source SHA-256: 1f973294503d74f22c126db160859639bd57f35f1ca4b425b817bdc5e9792c5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IQ-WZOMB.ANS by Ique (Stile); released in stl-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: White Zombie
 # SAUCE Author: Ique
 # SAUCE Group: Stile
@@ -37,8 +37,5 @@ Write-Host '
 [1;30;40m█[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░▓[0;1;30;46m▀[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░█▓[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░▓[0;1;30;46m▀[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░█▓[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░▓██▓[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░█▓[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░▓[0;1;30;46m▀[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░█▓[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░█▓[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░▓[0;1;30;46m▀[0;1;36;46m░[0;1;30;46m▒▓█[0;1;30;40m░█[0m
 [1;30;40m───────────────────────────────────────────────────────────────────────────────[0m
                       [1;37;40m<[0;1;36;40m<[0;36m<[0;1;30m<  [0;1;37mW h i t e  Z o m b i e [0;1;30m>[0;36m>[0;1;36m>[0;1;37m>[0m
-[1;37m     [0;1;36m [0;36m [0;1;30m  [0m     [1;30m  [0;1;37m      [0;1;30m [0m      [1;30m    [0m        [1;30m  [0;1;37m        [0;1;30m [0m        [1m    [0;1;30m [0m      [1;30m [0;36m [0;1;36m [0;1;37m [0m
-[1;37m     [0;1;36m [0;36m [0;1;30m  [0;1;37m         [0m        [1;30m    [0;1;37m    [0m              [1;30m    [0;1;37m      [0m             [1;30m [0;36m [0;1;36m [0;1;37m [0m
-           [1;37m<[0;1;36m<[0;36m<[0;1;30m< [0;1;37m2 [0;1;30m* [0mUsr[1;30m-[0;1;37m28.8 [0mNodes [1;30m<≡> [0mSoon [1m3 [0;1;30m* [0mUsr[1;30m-[0;1;37m28.8 [0mNodes!  [1;30m>[0;36m>[0;1;36m>[0;1;37m>[0m
-            [1;37m<[0;1;36m<[0;36m<[0;1;30m< [0mNode #[1m1  [0m+[1m46[0m-[1m8942603 [0;1;30m<≡> [0mNode #[1m2  [0m+[1m46[0m-[1m86048817 [0;1;30m>[0;36m>[0;1;36m>[0;1;37m>[0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m'
+[1;37m[0;1;36m[0;36m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1m[0;1;30m[0m[1;30m[0;36m[0;1;36m[0;1;37m[0m[1;37m[0;1;36m[0;36m[0;1;30m[0;1;37m[0m[1;30m[0;1;37m[0m[1;30m[0;1;37m[0m[1;30m[0;36m[0;1;36m[0;1;37m[0m           [1;37m<[0;1;36m<[0;36m<[0;1;30m< [0;1;37m2 [0;1;30m* [0mUsr[1;30m-[0;1;37m28.8 [0mNodes [1;30m<≡> [0mSoon [1m3 [0;1;30m* [0mUsr[1;30m-[0;1;37m28.8 [0mNodes!  [1;30m>[0;36m>[0;1;36m>[0;1;37m>[0m
+[1;37m[0;1;36m[0;36m[0;1;30m[0m[1m[0m[1m[0m[1m[0;1;30m[0m[1m[0m[1m[0m[1m[0;1;30m[0;36m[0;1;36m[0;1;37m[0m[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a3b2093f47c9a186b2149f4945c4b781e7f4bb72aaa87e1982b40edecdd3bb08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SW-NITRO.ANS by SandWorM (NitROpHuSiON); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: .% NiTROpHUSiON LogO %.
 # SAUCE Author: SandWorM
 # SAUCE Group: NitROpHuSiON
@@ -21,7 +21,7 @@ Write-Host '
 [1;30m█[0m   [1;36m█[0m  [36m▓[0;37m  [0;36m▐▒██[0;1;36;46m▒░▒▓[0;30;47m█[0;37;40m [0;1;30;40m [0m             [1;30mfun. No pretension.[0m
 [1;30m█[0m  [1;36m▐[0;1;36;46m▓[0;36m [0;37m [0;36m▓▌[0;37m [0;36m▒▓█[0;1;36;46m░░░▒▓[0;1;36;40m▌[0m [1;30m [0m
 [1;30m█[0m  [1;36m▐[0;1;36;46m▒[0;36m▌[0;37m  [0;36m█▄[0;37m  [0;1;36m▀▀[0;1;36;46m░▒▒▓▓[0m [1;30m [0m             [1;30mAnSi Request on my board GHoSt CiTy :[0m
-[1;30m█[0m  [36m▓[0;1;36;46m░▒[0;36m [0;37m  [0;1;36;46m░▒▓▓[0;1;36;40m▄[0m  [1;36m▀▀█[0m [1;30m [0m                     [1;30m+33 3 26.88.55.64[0m
+[1;30m█[0m  [36m▓[0;1;36;46m░▒[0;36m [0;37m  [0;1;36;46m░▒▓▓[0;1;36;40m▄[0m  [1;36m▀▀█[0m [1;30m [0m                     [1;30m                 [0m
 [1;30m█[0m  [36m▐[0;1;36;46m░▓[0;1;36;40m▌[0m   [36m▀▓[0;1;36;46m░▒▓[0;1;36;40m▄[0m                  [1;30mor to Darky''[0m [1;30mour mighty coordinator ;)[0m
 [1;30m█[0m   [36m▓[0;1;36;46m░▓[0m    [36m▐▒█[0;1;36;46m░▒▓[0m
 [1;30m█[0m    [36m▓[0;1;36;46m░▒[0;36m▄▄▄░▒▓[0;1;36;46m░▓[0;1;36;40m█[0m                          [1;30mSandWorM yar obedient servant[0m

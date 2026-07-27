@@ -5,7 +5,7 @@
 # Source SHA-256: 132522859c53b92932e9fc42a1a24e279f52b4a25e3a866dc68652d1891ab64d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WZ-MELT1.ANS by Weazel (VOiD); released in void1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Meltdown
 # SAUCE Author: Weazel
 # SAUCE Group: VOiD
@@ -31,9 +31,7 @@ Write-Host '
      [1;30m▓▄[0;31m▀█▀[0;1;30m▄▓▀▓▄▄[0;31m▀▀██▀[0;1;30m▐[0m     [1;30m▀▄[0;31m▀▀[0;1;31;41m░[0;31m████████████▀▀[0;1;30m▄▀[0m
       [1;30m▀▓▄▓▀   ▀▀▓▓▄▄▓▀[0m       [1;30m▀▓▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀[0m
 
-             [1m [0m [1;30m                    [0m [1m [0m
-[1m     [0m [1;30m                                        [0m [1m [0m
-
+[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m
 [1m [0;1;30m██▓▒░ ░  ░   ░[0m                                                  [1;30m░   ░  ░ ░▒▓██[0m
 [1;30m █▓▒░    ░   ░[0m                                                    [1;30m░   ░  ░ ░▒▓█[0m
 [1;30m ▓▒[0m                            [32m░[0m                                             [1;30m▒▓[0m

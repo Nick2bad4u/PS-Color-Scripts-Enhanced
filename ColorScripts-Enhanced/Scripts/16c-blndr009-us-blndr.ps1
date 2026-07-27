@@ -5,13 +5,12 @@
 # Source SHA-256: d784e1cbe70238021481239dbf80325d6d1cddec9dcfbe28cb167d5d740a8023
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BLNDR.ANS by Rust + Paratoxique (blndr009); released in blndr009 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
-[1;30m                            [0m                         [1m                     [0m
-[1;30m                            [0m    ▄▄[1m▄▄[0m
+[1;30m[0m[1m[0m[1;30m                            [0m    ▄▄[1m▄▄[0m
 [1;30mannual compo.[0m                ▄[1;47m░▄[0;1;40m██████▄[0m             once upon a time,
 [1;30myou would be gazing at my[0m   [1;47m ▓[0;1;40m█████████▌[0m ▄[1;47m ▄[0;1;40m██▄[0m     their was a cheery artist,
 [1;30m200 line anime but aciddraw[0m▐[1;47m░[0;1;40m█░▀[0m    [1m▀███░[0;1;47m░[0;1;40m█████▌[0m    his name was rust,

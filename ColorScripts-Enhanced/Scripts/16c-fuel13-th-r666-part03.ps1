@@ -5,7 +5,7 @@
 # Source SHA-256: af675c99e9bfc87249b46f0e219ac4ee1a506c790745481e5e190e48924f33b1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-R666.ANS by Thrasher + Ize (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Route 666
 # SAUCE Author: Thrasher & Ize
 # SAUCE Group: Fuel Productions
@@ -37,13 +37,8 @@ Write-Host '
          [31m   [0m
           [31m          [0m                [37mroute 666[0m
 
-    [37m                                                                         [0m
+[37m[0m
 
-
-         [37m                                                              [0m
-   [37m                                                                           [0m
-           [37m                                                          [0m
-
-   [37m                                                                           [0m
-
+[37m[0m[37m[0m[37m[0m
+[37m[0m
                                  [37m- -!- - - -!- -[0m'

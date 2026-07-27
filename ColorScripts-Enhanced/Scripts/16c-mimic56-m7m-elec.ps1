@@ -5,7 +5,7 @@
 # Source SHA-256: 8c8ac1bef2e4c4f1035a1f31d7363aafd0c2fb056bc040fefbc8b5a3e8dcb138
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: m7m-elec.ans by Metal Militia (mimic56); released in mimic56 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -38,19 +38,7 @@ Write-Host '
 
 
 
-[1;31m   [0;31m                                                                             [0m
-[31m                                                                                [0m
-[31m                                                                                [0m
-[31m                                                                   [0;1;31m      [0;31m       [0m
-[31m                                                                                [0m
-[31m                                                    [0;1;31m         [0;31m                   [0m
-[31m                                                   [0m
-
-[31m                                                        [0m
-
-[31m                              [0;1;31m   [0m
-[31m                           [0;1;31m   [0m
-[31m                       [0;1;31m [0m
-[31m                                       [0;1;31m   [0m
-
+[1;31m[0;31m[0m[31m[0m[31m[0m[31m[0;1;31m[0;31m[0m[31m[0m[31m[0;1;31m[0;31m[0m[31m[0m
+[31m[0m
+[31m[0;1;31m[0m[31m[0;1;31m[0m[31m[0;1;31m[0m[31m[0;1;31m[0m
 [31mGuy. (21/01/2003)[0m'

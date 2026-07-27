@@ -5,7 +5,7 @@
 # Source SHA-256: 1ab74f87ea1d687c3cb7045672448b4860c8f3594f1f26537cecdeaa68c1df1a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PN-PLSMA.ANS by Piston (Shiver); released in shv-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Plasma
 # SAUCE Author: Piston
 # SAUCE Group: Shiver
@@ -49,7 +49,6 @@ Write-Host '
 [32m   ▐██▀▀[0m                       [32m▀▄   ▐░▒▒▀[0m                [32m▀[0m          [32m▐░▒[0m
 [32m   █▀[0m                               [32m▐░▀[0m                             [32m░▀[0m        [1;32m∙[0m
 [1;32m  [0;32m■[0m                         [1;30m- (613) 838∙2691 -[0m                     [32m▀[0m
-[32m   [0;1;30m                                                                         [0m
-[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+[32m[0;1;30m[0m[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;47m   [0;34;47mP i S T O N   Oƒ   S H i V E R   P R O D U C T I O N S   ( c )   1 9 9 4 .   [0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

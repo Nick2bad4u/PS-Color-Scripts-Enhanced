@@ -5,7 +5,7 @@
 # Source SHA-256: 31c7852f605bc5b443b3e3b8ac9393398f8faa5d4786dc2674a67a3ce7d17ce0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-DOM01.ANS by Deeply D (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Domino 1.
 # SAUCE Author: Deeply D
 # SAUCE Group: Domino
@@ -16,8 +16,7 @@
 
 Write-Host '
 
-[1;30m           [0m           [1;30m   [0m
-[1;30m    [0m▄▄[1m▄▄▄[0;1;47m▄▄▄▀▀[0;1;40m▀[0;1;30;40m [0;1;37;47m░▀[0;1;37;40m▄[0m▄[1;30m [0;1;37m▀[0m [1m▄▄▄[0m    ▄[1m▄▄[0m [1m▄[0m                     ▄ ▄▄▄▄[1m▄▄▄[0m▄[1m▄[0m▄▄▄▄▄▄▄▄[1m    [0m
+[1;30m[0m[1;30m[0m[1;30m    [0m▄▄[1m▄▄▄[0;1;47m▄▄▄▀▀[0;1;40m▀[0;1;30;40m [0;1;37;47m░▀[0;1;37;40m▄[0m▄[1;30m [0;1;37m▀[0m [1m▄▄▄[0m    ▄[1m▄▄[0m [1m▄[0m                     ▄ ▄▄▄▄[1m▄▄▄[0m▄[1m▄[0m▄▄▄▄▄▄▄▄[1m    [0m
 [1;30m [0m▄▀[1m▀[0m▄▄[1m▄▄█▄██▀[0;1;47m▄░[0;1;40m▀▀[0;1;47m▀[0m▀ [1m▄▀[0m [1m▄[0m ▀▀[1;47m▀[0;1;40m▄[0m ▐▓▄   [1;30m▄[0m     [1;33m■[0m■    [1;30m▄▄▓▄▄▄▄▄[0m  ▐[1;47m▐▓▀▀▀▀▀[0;1;40m▀▀▀▀▀[0;1;47m▀▄[0;1;40m▄[0;1;47m▄[0m█▀▄[1m [0m
 ▐[1m [0m▄[1;47m [0m▄[1;47m ▄▄[0;1;33;40m█[0;1;37;47m▄[0;1;37;40m█▄[0;1;30;40m [0;1;37;40m▄[0;1;37;47m▀[0m▀[1;30m  [0m [1m▀[0m   ▀[1m▀[0m   [1;47m░[0;1;40m▓[0m  [1;30m▄▄▄[0;1;30;45m▀[0;1;30;40m█[0m░ [1;33m▄[0m▄  [1;30m▄▀[0m  [1m▌[0;1;30m [0m░[1;30;45m▒▓[0;1;30;40m▄ ▀[0m ▄▄[1;47m▄▀[0;1;40m█[0;1;47m▀[0;1;40m [0;1;47m ░▒▓[0;1;40m██[0;1;33;40m████[0;1;37;40m█[0;1;33;40m▓[0;1;37;47m▓[0m▌▐▌
 [1;47m░[0;1;30;40m [0;1;37;47m░[0;1;30;40m [0;1;37;47m ▐[0;1;37;40m██[0;1;37;47m▀[0;1;37;40m▀█▀[0m▀ [1;30m▄[0m▄[1m▄▀[0m  [1m▄▄▓▄▄[0m   ▄[1m▀[0m ▄  ░[1;30;45m░[0m▒ [1;33m▐[0;1;33;47m▒[0m▌ [1;30m▀▓▀[0m [1m▓▓[0m   ▄▄▄██[1;47m▀▀▄[0;1;40m▄[0m▄▀▓▀▄[1m▄[0;1;47m▄▀[0;1;40m▀▀▀▀▀[0;1;47m▀▀[0m▀[1m  [0m█

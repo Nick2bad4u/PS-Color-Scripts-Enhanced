@@ -5,7 +5,7 @@
 # Source SHA-256: 37cc93e893509517bad8a9906035c95a6ca75a517b0c4832ed3909ccdba4476e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-MDREA.ANS by rorsh4ck (Maiden Brazil!); released in mdn-9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: magic dreams fast logo
 # SAUCE Author: rorsh4ck
 # SAUCE Group: Maiden Brazil!
@@ -29,6 +29,4 @@ Write-Host '
          [1;47m▓[0m [1;36;46m░[0;1;30;46m▄▄▄▓[0;1;30;40m▄[0;1;30;46m▄[0;36m▀[0;37m [0;1;36;46m░[0;1;30;46m ▄▄▓[0;36m [0;1;30;46m▄▓[0m [1;36;46m░[0;36m█[0;1;30;46m▄▄▓[0;1;30;40m▄[0;1;30;46m▄▓[0m [1;36;46m░[0;36m█[0;1;30;46m▄▄▓[0;36m [0;1;30;46m▄█[0m [1;36;46m░[0;36m█[0;1;30;46m▄▄▓[0;36m [0;1;30;46m▄█[0m [1;30;46m▄█[0m [36m▀█[0;1;30;46m▄▄▓[0;1;30;40m▄[0;1;30;46m▄[0;36m▀[0;37m [0;1;37;47m▓[0m
          [1m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██[0m
 
-                     [1;30m.[0m . [1m.   m a g i c   d r e a m s   .[0m .[1;30m .[0m
-
-                        (011) 872-4520 [1mφ[0m 24hs [1mφ[0m 33.6kbps[0m'
+                     [1;30m.[0m . [1m.   m a g i c   d r e a m s   .[0m .[1;30m .[0m'

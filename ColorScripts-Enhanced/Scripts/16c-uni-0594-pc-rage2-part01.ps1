@@ -5,7 +5,7 @@
 # Source SHA-256: 60bba2dca7802673d16893ce3b846431f6456fadfa4859be80124544d92798f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-RAGE2.ANS by Primordial Chowder (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rage Phosphorus
 # SAUCE Author: Primordial Chowder
 # SAUCE Group: UNiON
@@ -25,7 +25,7 @@ Write-Host '
 [1;35m [0;35m▀ ▄▀██ █ █  ▄██ █ █▄▀ ▀  ▀   [0;1;37mannuder ansi, PC-RAGE1.ANS, for Brain Dead of   [0;1;35m│[0m
 [1;35m  [0;35m▄ ▀██ ▓ ██▀▀▄█ ▓ ██▀▄ ▀[0m     [1;37mRage Phosphorus. If you want a free pc ansi of  [0;1;35m│[0m
 [1;35m    [0;35m▀ █ ▒ █▀▀ ▄█ ▒ ███▄▀ ▄    [0;1;37myour own to love and cherish and breast feed,   [0;1;35m│[0m
-[1;35m   [0;35m▀ ▀█ ░ █▄▀ ▄▀▌░ █  ▐█▀[0m     [1;37mcontact me on the SoundGarden, 914.462.4O19, or [0;1;35m│[0m
+[1;35m   [0;35m▀ ▀█ ░ █▄▀ ▄▀▌░ █  ▐█▀[0m     [1;37m                                                [0;1;35m│[0m
 [1;35m    [0;35m▄▀▀▄  █▄▀▄ ██▄ ▀ ▄█ ▀ ▀   [0;1;37mRage Phosphorus (914), which will be up soon.   [0;1;35m│[0m
       [35m▀▄▀█▀▄▀  ▄▀████▀ ▀  ─  ── ─── ───────────────────────[0;1;35m─[0;35m──[0;1;35m──[0;35m─[0;1;35m───[0;35m─[0;1;35m─────────┘[0m
      [35m▀  ▄ ▀  ▀  ▄ ▀▄ ▀  ▄[0m

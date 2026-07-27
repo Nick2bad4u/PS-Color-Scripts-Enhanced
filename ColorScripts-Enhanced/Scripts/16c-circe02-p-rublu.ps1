@@ -5,7 +5,7 @@
 # Source SHA-256: 6b8ee897982410589b8d3d794e0280fbc78a97a22c6454e3d9262f008f05e75f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P-RUBLU.ANS by pop-a (circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: runnin' blues
 # SAUCE Author: pop-a
 # SAUCE Group: circe
@@ -27,8 +27,7 @@ Write-Host '
 [1m   [0;33m     [0;31m\[0;1;35m ☻☻☻☻☻☻ [0;1;34m|[0;34m_   |  [0;1;34m|[0;34m__      __ |    __ |    __    __ |   [0;1;34m|[0;33m        [0;32m/[0;33m /[0m
 [1;37m   [0;33m      [0;31m\__[0;33m     [0;34m  (__|    (_____| (_|___| (_|___| (___| (_|___[0;1;34m|[0;33m         /[0m
 [1;37m   [0;1;31m_[0;33m [0;1;31m___[0;33m _[0;31m_/[0;33m                                                            [0;31m/   [0m
-[1;37m   [0;33m    [0;1;31m [0;33m    [0;1;30m [0;33m  [0;1;30m            [0;32m                              [0;33m [0;1;30m          [0;33m    [0;31m  [0;33m [0;31m [0m
-[1;37m   [0;33m     [0;1;33m [0;33m \ [0;37m [0;33m     [0;34m [0;1;34m_______[0;34m [0;1;34m____[0;34m         [0;1;34m____________[0;34m   [0;1;34m_____[0;34m   [0;33m         [0;31m/[0m
+[1;37m[0;33m[0;1;31m[0;33m[0;1;30m[0;33m[0;1;30m[0;32m[0;33m[0;1;30m[0;33m[0;31m[0;33m[0;31m[0m[1;37m   [0;33m     [0;1;33m [0;33m \ [0;37m [0;33m     [0;34m [0;1;34m_______[0;34m [0;1;34m____[0;34m         [0;1;34m____________[0;34m   [0;1;34m_____[0;34m   [0;33m         [0;31m/[0m
 [1;37m   [0;33m      [0;1;33m [0;33m/       [0;1;34m|[0;34m      [0;1;34m/([0;34m    [0;1;34m|[0;34m    [0;1;34m___|[0;34m       __   [0;1;34m)_([0;34m  __[0;1;34m/__[0;34m [0;33m    [0;35m__/\__[0;31m [0m
 [1;37m   [0;33m       [0;31m\[0;33m       [0;1;34m|[0;34m     [0;1;34m/_|[0;34m    [0;1;34m|___([0;34m   |       \__________    [0;1;34m|[0;33m    [0;35m\[0;33m [0;36m||[0;31m [0;35m/[0m
 [1;37m   [0;33m        [0;31m\__[0;33m____[0;1;34m|[0;34m            |       |            |    /    [0;1;34m|[0;33m__[0;31m__[0;35m/_[0;31m [0;36m-[0;35m_\[0m

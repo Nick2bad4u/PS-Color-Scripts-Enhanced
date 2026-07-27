@@ -5,7 +5,7 @@
 # Source SHA-256: 296c11a67311dd83cfae039e6331567e003a68558e27f84c4319808f121473c8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OK-SCUM.ANS by Outkast (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Scum
 # SAUCE Author: Outkast
 # SAUCE Group: Samsara
@@ -41,6 +41,4 @@ Write-Host '
 
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-                                                                             
-                                                       
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

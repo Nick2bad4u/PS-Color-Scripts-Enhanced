@@ -5,7 +5,7 @@
 # Source SHA-256: aea0ba151b96e7b67dff2740aa9480f4086bf493e467ba3d58299265da2326a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M5-ATHMA.ANS by umkilla (sliver); released in sliver05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the aftermath
 # SAUCE Author: umkilla
 # SAUCE Group: sliver
@@ -17,9 +17,7 @@
 Write-Host '
 [1m  [0;1;32m─[0;1;33m│─  [0;1;30m [0m                              [1;31m                        [0m
 [1;31m   [0;1;30m│   │[0m                               [1;31m"[0m
-[1;31m   [0;1;30m     [0m                             [1;31m                                       [0m
-     [1;30m [0m                              [1;31m                                          [0m
-     [1;30m│[0m       [1;30m│[0m                      [1;31m                                          [0m
+[1;31m[0;1;30m[0m[1;31m[0m[1;30m[0m[1;31m[0m     [1;30m│[0m       [1;30m│[0m                      [1;31m                                          [0m
      ░       ░                       [1;31m      [0m      [1;31m    [0m      [1;31m                   [0m
      ░       ▒                         [1;33;45m░░░[0;1;31;40m           [0m      [1;31m                   [0m
      ░       █▄█[36;47m▄▄▄[0;37;40m██▄▄▄[0m               [1;33;45m▒▒▒[0m  [1;33m████ ████ ████ ████ ████ ████ ████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 5bc08369e393e8cc0474e08af8b6ef1bef4ec0337ebd0fc2a0abaece76c575dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-STX#2.ANS by cocox (opium); released in opx-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: satronix logo.. again :/
 # SAUCE Author: cocox
 # SAUCE Group: opium
@@ -29,5 +29,5 @@ Write-Host '
  [1;33m█ [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;30;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;47m▓[0;35m██[0;1;37;47m▓[0;1;33;40m [0;1;37;40m▀[0;1;37;45m▄[0;35m█[0;1;37;47m▓[0;1;37;40m▄[0;1;37;47m▓[0;35m█[0;1;37;45m▄[0;1;37;40m▀ [0;1;33;40m█[0m
  [1;33m█ [0;1;37m█[0;1;37;45m▄▄[0;1;37;40m█▄█[0;1;37;45m▄▄[0;1;37;40m█ █[0;1;37;45m▄▄[0;1;37;40m█▄█[0;1;37;45m▄▄[0;1;37;40m█ ▀▀▀▀ █[0;1;37;45m▄▄[0;1;37;40m█ █[0;1;37;45m▄▄[0;1;37;40m█ ▀▀▀▀ █[0;1;37;45m▄▄[0;1;37;40m█▄█[0;1;37;45m▄▄[0;1;37;40m█ █[0;1;37;45m▄▄[0;1;37;40m█ █[0;1;37;45m▄▄[0;1;37;40m█ █[0;1;37;45m▄▄[0;1;37;40m█ █[0;1;37;45m▄▄[0;1;37;40m█ █[0;35m██[0;1;37m█ [0;1;33m█[0m
  [1;33m  [0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37;47m▄[0;1;37;45m▄▄[0;1;37;47m▄[0m
-         [1;30m▄▄▄▄[0m         [33m<[0;1;33m#[0;33m> [0;32m+ 4 6 - 5 1 0 - 6 6 1 6 8 [0;33m<[0;1;33m#[0;33m>[0m           [1;30m▄▄▄[0m▄ [1;30mco![0m
+         [1;30m▄▄▄▄[0m         [33m [0;1;33m [0;33m  [0;32m                          [0;33m [0;1;33m [0;33m [0m           [1;30m▄▄▄[0m▄ [1;30m   [0m
          [1;30m█████████████[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▀▀[0;1;30;40m██[0;1;30;47m▀▀▀▀▀▀[0;1;30;40m████[0;1;30;47m▀▀▀▀▀▀▀▀[0;1;30;40m██[0;1;30;47m▀▀▀▀▀▀▀▀▀▀[0;1;30;40m█[0;1;30;47m▀▀▀▀▀▀▀▀▀▀ [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a1e4b6e9c59053099231187811ce9c3eb4e7f10eb14af8c6b8ce95a7a2b2bb7a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZT-CAIN.ANS by Z Trasher (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -48,11 +48,10 @@ Write-Host '
        [32m▀[0;1;32;42m▀[0;1;32;40m██████[0;32m▌▌ ▄▄▄▄[0m       [34m▀▀▀▀█████████████▀▀▀▀[0m       [32m▄▄▄   ▐[0;1;32;42m██████▀[0;32m▀[0m
          [32m▀[0;1;32;42m▀▀[0;1;32;40m█[0;1;32;42m█▄▄[0;32m▄[0;1;32;42m▄█▀▀█▄[0;32m▄[0m                               [32m▄[0;1;32;42m▄▀█[0;1;32;40m█[0;1;32;42m▄[0;32m▄ [0;1;32;42m▄▄██▀▀[0;32m▀[0m
            [32m▀█[0;1;32m██[0;1;32;42m███▄████▀[0;32m▀[0m        [1;37mC[0;1;34main''s [0;1;37mW[0;1;34morld[0m        [32m▄[0;1;32;42m▄███▄▄▀█▄███[0;32m█▀[0m
-             [32m▀[0;1;32;42m▀████████▀[0;32m▀[0m       [32m[[0;1;32m407[0;32m] [0;1;32m392[0;32m-[0;1;32m0268[0m       [32m▄[0;1;32;42m▄█████████▀[0;32m▀[0m
+             [32m▀[0;1;32;42m▀████████▀[0;32m▀[0m       [32m [0;1;32m   [0;32m  [0;1;32m   [0;32m [0;1;32m    [0m       [32m▄[0;1;32;42m▄█████████▀[0;32m▀[0m
                [32m▀[0;1;32;42m▀▀▀▀▀[0;32m▀▀   [0;1;34mGraphics [0;34m│ [0;1;34mSound [0;34m│ [0;1;34mAnarchy  [0;32m▀▀[0;1;32;42m▀▀▀▀▀▀▀[0;32m▀[0m
                         [34m──────────────────────────────[0m             [1;34mA[0;34mNS[0;1;34mi by[0m
-                                 [1;37m [0;1;34m     [0;34m  [0;1;37m    [0m                    [1;34m     [0;34m [0;1;34m    [0;34m [0m
-
+[1;37m[0;1;34m[0;34m[0;1;37m[0m[1;34m[0;34m[0;1;34m[0;34m[0m
 [34m  [0;32m▄[0;1;32;42m▄[0;32m▄[0m           [32m▄[0;1;32;42m▄[0;32m▄   ▄[0;1;32;42m▄▄▄▄▄▄▄[0;32m▄    ▄[0;1;32;42m▄▄▄▄▄▄▄▄▄▄[0;32m▄   ▄[0;1;32;42m▄[0;32m▄[0m          [32m▄[0;1;32;42m▄▄▄▄▄▄▄▄▄▄[0;32m▄[0m
 [32m ▐[0;1;32m███[0;1;32;42m▄[0;32m▄   ▄   ▄[0;1;32;42m▄[0;1;32;40m███[0;32m▌ [0;1;32;42m▄[0;1;32;40m██[0;1;32;42m▀[0;32m▀▀▀[0;1;32;42m▀[0;1;32;40m█[0;1;32;42m█▄[0m   [1;32;42m▐█[0;1;32;40m█[0;1;32;42m▀[0;32m▀▀▀▀[0;1;32;42m▀[0;1;32;40m███[0;32m▌  [0;1;32;42m▐[0;1;32;40m██[0;32m▌[0m        [32m▐[0;1;32m██[0;1;32;42m▌[0;32m▀▀▀▀▀▀[0;1;32;42m▀█[0;1;32;40m█[0;1;32;42m▄[0m
   [32m▀[0;1;32;42m▀[0;1;32;40m███[0;1;32;42m▄[0;32m▄[0;1;32;42m▄[0;1;32;40m█[0;1;32;42m▄[0;32m▄[0;1;32;42m▄[0;1;32;40m███[0;1;32;42m▀[0;32m▀ [0;1;32;42m▐[0;1;32;40m██[0;1;32;42m▌[0m     [1;32;42m▐██▌[0m  [1;32;42m▐[0;1;32;40m██[0;1;32;42m█▄▄▄▄█[0;1;32;40m██[0;1;32;42m▀[0m   [1;32;42m▐[0;1;32;40m██[0;32m▌[0m        [32m▐[0;1;32m█[0;1;32;42m█▌[0m       [32m█[0;1;32m██[0;32m▌[0m

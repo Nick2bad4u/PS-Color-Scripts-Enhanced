@@ -5,7 +5,7 @@
 # Source SHA-256: 3ae49a8720ef8854425cacecba0edb97789c28a34e652f32a8ae20fefd4fde56
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-PI2.ANS by Phatal (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Projekt iNsaNiTY
 # SAUCE Author: Phatal
 # SAUCE Group: TekLordZ
@@ -39,7 +39,7 @@ Write-Host '
                  [34m██[0;1;34;44m░░░░[0;34m████[0;1;34;44m░▒░[0m           [1;30;40m(yeah i know, maybe ill be[0m
                  [34m█[0;1;34;44m░▒▒░░[0;34m▌██[0;1;34;44m░▒▓░[0m            [1;30;40mgood at ansi someday.  If[0m
                 [34m█▓[0;1;34;44m░▒▒░░[0;34m██[0;1;34;44m░▒▒▒░[0;34m█[0m           [1;30myou wanna bag on me, call[0m
-                [34m██[0;1;34;44m▒▒░░[0;34m█▌█[0;1;34;44m░░▒░░[0;34m█[0m           [1;30mmy board..  8o5.834.51o5)[0m
+                [34m██[0;1;34;44m▒▒░░[0;34m█▌█[0;1;34;44m░░▒░░[0;34m█[0m           [1;30m                         [0m
                [34m██[0;1;34;44m░░[0;34m█[0;1;34;44m░░░[0;34m▄[0;1;34;44m░░░[0;34m██[0;1;34;44m░░[0;34m█[0m                                    [1;30m▄▓[0m
               [34m█▀[0;1;37m▄▄▄▄▄▄[0;34m▀█▀[0;1;37m▄▄▄▄▄▄[0;34m▀█[0m
                [1;37;47m░▒▓[0;1;37;40m██[0;1;37;47m▓▒░[0m [1;37;47m░▒▓[0;1;37;40m██[0;1;37;47m▓▒░[0m

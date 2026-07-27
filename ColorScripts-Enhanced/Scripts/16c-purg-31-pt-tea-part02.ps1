@@ -5,7 +5,7 @@
 # Source SHA-256: fb7ad100521467ae1ca8c293058f523ab9e953adbfbc019cfac90875a3624a81
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-TEA.ANS by Produkt (purg-31); released in purg-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 33-54
 # Columns: 1-80
 
@@ -25,10 +25,6 @@ Write-Host '
                                  [34m░[0m             [1;30m▒▒▒▒▒[0m
 
 ==============================-====Ç|_|7========================================
-                                                                          
 
-                                                                      
-                                                                       
-                                                        
 
                        H(0H)Oh0O0h0ho)HO0HO)ho)ho)HO0ho)Oh[0m'

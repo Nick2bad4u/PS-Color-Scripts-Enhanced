@@ -5,7 +5,7 @@
 # Source SHA-256: 095e39b06d55d4111f53c8b2bbdd0747633c031b71ce7fa33bc43c9aaeff3634
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-DOINK.ANS by gunthar (rune); released in rune0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: doink!
 # SAUCE Author: gunthar
 # SAUCE Group: rune
@@ -30,5 +30,5 @@ d [1;36m▐[0;1;36;46m▓░[0;36m████[0;1;36;46m░[0m [1;32;40m�
 [37;40mdo [0;36;40m▀▀████[0;30;46m░[0;36;40m█[0;30;46m░[0;36;40m▒░  [0;30;46m▓░[0m [36;40m▀[0;30;46m░[0;36;40m███[0;30;46m░░[0;36;40m▄[0;30;46m░[0;36;40m██[0;30;46m░░▒[0m [36;40m▐██████[0;30;46m░[0;36;40m▌  [0;1;36;46m░[0;36m█[0;30;46m░[0;36;40m█[0;30;46m░░░[0m [30;46m░ [0;36;40m█[0;30;46m░[0;36;40m█[0;30;46m░░[0;36;40m░[0;1;36;46m░[0;36m█[0;30;46m░[0;36;40m██[0;30;46m░░[0m [30;46m░░[0;36;40m█[0;30;46m░[0;36;40m█[0;30;46m░░[0m [37;40mnk[0m
 [37;40mdoinkdoi [0;36;40m░ ▀▀ [0;1;30;40mGr.[0;36m░ [0;37mkd [0;36m▀▀▀▀▀▀▀▀░ [0;37min [0;36m▀▀▀[0;30;46m░[0;36;40m█[0;30;46m░░[0;36;40m▀ [0;37;40mdoinkdoi [0;36;40m▀▀▀▀▀▀▀ [0;37;40mi[0;36;40m▀▀▀▀▀▀ [0;37;40mdoinkdoink[0m
 [37;40m                              [0;1;37;40m     [0m        [32m░░ [0;37m                                 [0m
-        [32m░   ░▒▒░░ ░ [0;37m+[0;1;37m1[0m-[1m407[0m-[1m783[0m-[1m1522   [0;32m░  ░░▒▒░ ░[0m        [32m░░[0m
+        [32m░   ░▒▒░░ ░ [0;37m [0;1;37m [0m [1m   [0m [1m   [0m [1m       [0;32m░  ░░▒▒░ ░[0m        [32m░░[0m
              [32m░░[0m                             [32m░[0m'

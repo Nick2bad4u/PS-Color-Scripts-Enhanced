@@ -5,7 +5,7 @@
 # Source SHA-256: e1d60e8966f3013e1aeba971b60788126cca7b6ddbf44f6d64717f7e10d2bb40
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: prm-bt2.ans by pR1ZM (rEVIVAL^aNSI); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bTHURZ
 # SAUCE Author: pR1ZM
 # SAUCE Group: rEVIVAL^aNSI
@@ -27,6 +27,4 @@ Write-Host '
 [36mZZZZZ $$$$$ [0;31m²[0;36m $$$$$┌ss$$$$$ .╒d$$$$$$$$$$$$$$s$$$$$ss [0;31m▬[0;36m`$$$$$a,$$$$$,[0;31m`²[0;36m ²$$$$$$[0m
 [36m`$$$$b$$$$$sss$$$$$ `7$$$$$$7" `╘$$$┘''``$$$$$$$$$$$7''┌¬╗$$$$$$$$$$$$$asss$$$$$7[0m
 [31m.[0;36m`$$$$$$$$$``$$$$$$ [0;31ms[0;36m `$$$$`[0;31m,4$$[0;36m |$''[0;31md$$[0;36m $$$$$`$$$╛`[0;31m,[0;36m |$$$$$$$$$╛[0;31m.[0;36m`╘$$$$$$$$$7''[0;31m.[0m
-[36m                                                                               [0m
-[1;31m                                                                               [0m
-[36m²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²[0m'
+[36m[0m[1;31m[0m[36m²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²[0m'

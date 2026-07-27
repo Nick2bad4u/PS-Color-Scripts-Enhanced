@@ -5,7 +5,7 @@
 # Source SHA-256: d474d6fc40341f96daecae7f9eaf3730889046e12addfe4686adcf0d947987d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US!DD.ANS by Xpozed + Vermin (wjroeit); released in drg0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dEWDLEDRAW
 # SAUCE Author: multiple jIZZMS
 # SAUCE Group: wjroeit
@@ -32,9 +32,7 @@ Write-Host '
            [36m.[0;37m  [0;36m.[0;37m [0;1;32m $$$$$[0;32m$.[0;36m.[0;37m  [0;36m.[0;37m [0;1;37m:[0;1;32m$$$$[0;32mD[0;1;32m  $$$$$[0;32m$.[0;36m.[0;37m  [0;36m.[0;37m [0;1;37m:[0;1;32m$$$$[0;32mD[0;37m  [0;36m.[0;37m  [0;36m.[0m
                  [32m"S$[0;1;32m$[0;32m$[0;1;32m$[0;1;32;42m$[0;1;32;40m#,[0;1;37;40m_[0;1;32;40m [0;1;37;40m*;[0;1;32;40m$$$[0;32m$[0;1;37m$[0;1;32m  [0;32m"S$[0;1;32m$[0;32m$[0;1;32m$$#,[0;1;37m_[0;1;32m [0;1;37m*;[0;1;32m$$$[0;32m$[0;1;37m$[0m
                    [32m²7Q[0;1;32m$$$$gy[0;1;37myS[0;1;32m$$[0;32m$[0;1;37mS''[0m    [32m²7Q[0;1;32m$$$$[0;1;32;42my[0;1;32;40my[0;1;37;40myS[0;1;32;40m$$[0;32m$[0;1;37mS''[0m
-                        [1;32m           [0m          [1;32m       [0;1;36m     [0;31m   [0m
-                      [1;32;42mD[0;1;32;40m  O  O  D  L  E  [0;1;32;42mD[0;1;32;40m  R  A  W[0m
+[1;32m[0m[1;32m[0;1;36m[0;31m[0m                      [1;32;42mD[0;1;32;40m  O  O  D  L  E  [0;1;32;42mD[0;1;32;40m  R  A  W[0m
 
 ---
-[31m                                              [0m
-[31mhir[0m'
+[31m[0m[31mhir[0m'

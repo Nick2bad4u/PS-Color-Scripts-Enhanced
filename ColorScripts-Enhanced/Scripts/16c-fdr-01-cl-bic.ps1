@@ -5,7 +5,7 @@
 # Source SHA-256: 79ddb8fda6f10e364c6ae7e7c5c4731f00a0cefba7b671601c2e978f7d217274
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-BIC.ANS by Cleaner (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Break Into Chat
 # SAUCE Author: Cleaner
 # SAUCE Group: Fire Dream
@@ -33,5 +33,4 @@ Write-Host '
 
 [1;37m [0;30m  [0;37m                [0;1;30m■[0;1;33m■[0;1;30m■[0;1;37m [0m                  [1m [0;1;30m■[0;1;33m■[0;1;30m■[0;1;37m [0m    [1m   [0m    [1m   [0m             [1m [0m   
 
-           [1m        [0m              
-[30m■ANSi■[0m'
+[1m[0m[30m■ANSi■[0m'

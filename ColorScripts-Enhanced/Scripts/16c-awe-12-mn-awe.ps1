@@ -5,7 +5,7 @@
 # Source SHA-256: 13324c1a0cab6a5b5ef6304f6cef6a4b3dc00de08fabf7e6665a8c6c923b3d4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MN-AWE.ANS by Menace (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: AWE Promotional
 # SAUCE Author: Menace
 # SAUCE Group: AWE Lettering
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m      [0m [1;33m   [0m 
-   [33m▄▄▄▄ [0;37m▄[0;1;37;47m░░░[0m▄███[47m [0;1;47m░░[0m▄▄▄▐[1;47m░░▓█[0m  [33m▀ ▀ ▀█[0;33;43m  [0;33;40m██▌▄[0;1;33;40m▄▄▄    [0;32m▐ [0;37m▀  ▀ ▀ ▄[0;1;37;47m▄[0m█▄ ▀▀▀▀▀▀[1;47m░░▓▓██[0m▄▄▐[1;47m██[0m
+[1m[0m[1;33m[0m   [33m▄▄▄▄ [0;37m▄[0;1;37;47m░░░[0m▄███[47m [0;1;47m░░[0m▄▄▄▐[1;47m░░▓█[0m  [33m▀ ▀ ▀█[0;33;43m  [0;33;40m██▌▄[0;1;33;40m▄▄▄    [0;32m▐ [0;37m▀  ▀ ▀ ▄[0;1;37;47m▄[0m█▄ ▀▀▀▀▀▀[1;47m░░▓▓██[0m▄▄▐[1;47m██[0m
 [33m█[0;1;33;43m░[0;33m▄[0;1;33;43m▐█▄[0;33m▄ [0;37m▀[0;1;37;47m▀▓▓░[0m▀▀  [1;47m██▓░[0m█▀▀▀[1m▀▀▀ ▀  ▀ [0;1;33;43m▐░░[0;30;43m░[0;33;40m▓[0;1;33;43m░░▓███[0m   [1;32;42m░[0;32m▌[0m        [37m▀▀  [0;32m░░▓██   [0;37m▀[0;1;37m▀▀[0m▄[1;47m▄[0m█[1;47m░▓▓[0m
 [1;33;43m░▓▓██▓░[0;33m▄▄[0m     [36m░[0;30;46m▓[0;36;40m▄▄▄▄▄▄ [0;1;36;46m██▓▓░░[0;30;46m░[0;36;40m▓░[0;30;46m▓[0m [1;33;43m▐▓▓░░[0m [33m▄[0;1;33m▄[0;33m▄    [0;32m▐[0;1;32;42m▒▌[0m [32m▐[0;1;33;42m███[0;32m▌▄[0;1;33m▄▄▄[0;1;33;42m▓░░[0;32m████[0;32;47m▓▓░[0;37;40m▌▄▄ ▀▀▐[0;1;37;47m░░[0m
 [33m█[0;1;33;43m░░▀[0;33m▀▀ [0;36m▄[0;1;36m▄▄[0;1;36;46m▓▓▓░░░[0;30;46m░[0;36;40m▓████ [0;1;36;46m▓▓░░[0;36m▄[0m      [1;33;43m▐██▓▓██▓░ [0m  [32m▄[0;1;32;42m▄▓▌[0m [32m▐[0;1;33;42m███████▀[0;32m▀   ▀[0;32;47m▓▓░░[0;37;40m██[0;1;37;47m░░▓[0m▄  ██

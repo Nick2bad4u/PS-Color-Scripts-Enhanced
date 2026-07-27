@@ -5,7 +5,7 @@
 # Source SHA-256: 8a42b80f00b7830ef1a4a0e6a8ff6a1479480324e6353ee56f38a5ca00ac722b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zO-JamesBodie.ANS by Enzo (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ANSi Legends: James Bodie
 # SAUCE Author: Enzo
 # SAUCE Group: blocktronics
@@ -33,25 +33,4 @@ Write-Host '
 
 
 
-[1;37m  [0;1;30m  [0m                                
-[1m   [0;1;30m ________________________________[0m
-
-[1;37m    [0;1;30m                                                                        [0m
-
-[1;37m    [0;1;30m                                                                     [0m
-[1;37m    [0;1;30m                [0m [1;30m                                                    [0m
-    [1;30m              [0m
-
-    [1;30m                                                                       [0m
-    [1;30m                                       [0m
-
-[1;37m    [0;1;30m                                             [0m
-
-
-
-[1;30m    [0;1;37m    [0m  [1m            [0m  [1;30m [0m [1;30m               [0m
-
-    [1;30m                     [0m
-
-
-[1;30m ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■[0m'
+[1;37m[0;1;30m[0m[1m   [0;1;30m ________________________________[0m'

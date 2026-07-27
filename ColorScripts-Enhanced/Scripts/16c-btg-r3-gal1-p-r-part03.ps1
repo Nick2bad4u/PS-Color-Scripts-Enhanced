@@ -5,7 +5,7 @@
 # Source SHA-256: cf4c424939774a771a83e9031b64a3a2b0c5d1feaa8a2576341cdd1f83dc05bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GAL1#P&R.ANS by Paz + Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 99-120
 # Columns: 1-80
 
@@ -21,7 +21,7 @@ Write-Host '
 [31m ▀▄▄[0m      [31m▄▄▀ [0;1;31m▌  [0;31m▐   [0;1;31m▌  [0;31m▐[0;1;31m▌[0m       [31m▐[0;1;31m▌[0m       [31m▐ ▀▄▄[0m     [31m▐[0;1;31m▌  [0;31m▐   [0;1;31m▌  [0;31m▐[0;1;31m▌  [0;31m▐[0;1;31m▌  [0;31m▐   [0;1;31m▌  [0;31m▐[0m
 [31m    ▀▀▀▀▀▀    ▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀[0m
 
-          [1;37m■[0;1;31m■[0;31m■ +358-(9)81-5555252 [0;1;37m■[0;1;31m■[0;31m■ USR v.fc 28.8Kbps [0;1;37m■[0;1;31m■[0;31m■ Open 24H [0;1;37m■[0;1;31m■[0;31m■[0m
+          [1;37m■[0;1;31m■[0;31m■                    [0;1;37m■[0;1;31m■[0;31m■                   [0;1;37m■[0;1;31m■[0;31m■          [0;1;37m■[0;1;31m■[0;31m■[0m
 
            [1;37m■[0;1;31m■[0;31m■ TinyNet [0;1;37m■[0;1;31m■[0;31m■ MetalNet [0;1;37m■[0;1;31m■[0;31m■ SwapNet [0;1;37m■[0;1;31m■[0;31m■ DGI [0;1;37m■[0;1;31m■[0;31m■ FidoNet [0;1;37m■[0;1;31m■[0;31m■[0m
 

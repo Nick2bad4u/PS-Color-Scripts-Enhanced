@@ -5,7 +5,7 @@
 # Source SHA-256: 4fb176de0802fe31545c635c6c51ddf5078e70e5f0fe2c0dede2dce4c8459e9d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GRAVE.ANS by Con Artist (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -20,7 +20,7 @@ Write-Host '
      [1;30;40m▀[0m▀[1m▀▀[0m▀▀   [1;5;37m·[0m                      [1;5;37m·[0m   .  [1;30m.[0m  o  [1m▐▄[0;31m.[0;1;37m▀██▀[0;31m.[0;1;37m▄▌[0m    [1;5;37m·[0m       [1;5;37m·[0;1;30m·[0m
  [1;36m╔══════════════════════════╗[0m [1;5;37m·[0m                 o  [1;37m██████▓▓[0m   .
  [36m█▒[0m [1;31mGrave[0m [1;31mof[0m [1;31mthe[0m [1;31mLost[0m [1;31mSoul[0m [36m█▒[0m   [1;30m▄[0m▄▄▓▓▓▓▄[1;47m▀[0;1;40m████▄▄[0m     [1;40m██[0m██[1m█▓[0m        [1m▄▓▓▓▀[0m  [1;30m·[0m
- [36m█▒[0m     [34m([0;1;34m516[0;34m)[0;1;34m328[0;34m-[0;1;34m0847[0m      [36m█▒[0m  [1;30m█[0m█████▓▓▓█▓ [1m▀▀██████████▓▓▓▓▓▓▓▓▓▓▓▀▀▀[0m    [1;5;37m·[0m
+ [36m█▒[0m     [34m [0;1;34m   [0;34m [0;1;34m   [0;34m [0;1;34m    [0m      [36m█▒[0m  [1;30m█[0m█████▓▓▓█▓ [1m▀▀██████████▓▓▓▓▓▓▓▓▓▓▓▀▀▀[0m    [1;5;37m [0m
  [36m█▒[0m    [1;34mSysop[0;34m:[0m [1;34mColdSteel[0m    [36m█▒[0m [1;30m█[0m███[1;30;47mR.I.P.[0m▓▓▓     [1m▀▀▓██████▓▓▓▓▓▀▀[0m
  [36m█▒[0m       [1;34m680[0m [1;34mMegs[0m         [36m█▒[0m [1;30m█[0m███[1;30;47m~~~~~~[0m▓▓▓  [1;30m·[0m    [1m▓▓█████▓▓▓▓[0m   [1;30m·[0m     · [1;30m·[0m
  [36m█▒[0m    [1;34mRunning[0;34m:[0;1;34m L[0;34m.[0;1;34mS[0;34m.[0;1;34mD[0;34m.[0m     [36m█▒[0m [1;30m█[0m███[47m [0;1;30;47mhere[0m█▓▓▓   . [1;30m.[0m [1m▐▓██████▓▓▓▌[0m            [1;5;37m·[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: d72ea7a082e928b4993e940b206fbce5ec940bdd415ba2a18b4d28823edadcd7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-SHOP1.ANS by thext (Glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The SkateShop
 # SAUCE Author: thext
 # SAUCE Group: Glue
@@ -48,8 +48,6 @@ Write-Host '
 [1;30m▀█ ▀▀▀▀▀▀[0m [1;30m█[0m [1;30m▀▀▀▀▀[0m [1;30m█[0m                                    [1;30m▄█▄▄█[0m [1;30m█[0m [1;30m█[0m [1;30m▄▄█▄ ▄▄█▄[0m [1;30m▄▄▄▄[0m
 [1;30m▀▀[0m [1;30m█▀▀▀[0m [1;30m▀▀▀[0m [1;30m▀▀▀█ ▀▀▀[0m        [1;30m▄[0m                           [1;30m▄ ▄[0m [1;30m▄▄▄█[0m [1;30m█▄▄▄▄[0m [1;30m█▄▄▄▄ ▄█[0m
 [1;30m▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀█[0m [1;30m▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ ▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀ [0m [1;30m▀[0m   [1;30m▀▀[0m    [1;30m▀▀[0m   [1;30m▄[0m
- [1;30m                                                                             [0m
- [1;30m                                                                              [0m
-[1;30m█[0m [1;30m▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄▄▄▄▄▄▄▄ ▄▄█[0m [1;30m▄ ▄▄▄▄▄▄▄[0m [1;30m▄[0m [1;30m█▄▄▄[0m [1;30m▄▄▄▄▄▄[0m [1;30m▄▄▄[0m [1;30m▄[0m  [1;30m▄[0m [1;30m▄[0m [1;30m▄▄▄[0m [1;30m▄▄▄[0m [1;30m▄▄▄[0m
+[1;30m[0m[1;30m[0m[1;30m█[0m [1;30m▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄▄▄▄▄▄▄▄ ▄▄█[0m [1;30m▄ ▄▄▄▄▄▄▄[0m [1;30m▄[0m [1;30m█▄▄▄[0m [1;30m▄▄▄▄▄▄[0m [1;30m▄▄▄[0m [1;30m▄[0m  [1;30m▄[0m [1;30m▄[0m [1;30m▄▄▄[0m [1;30m▄▄▄[0m [1;30m▄▄▄[0m
 [1;30m█▄▄ ▄ ▀ █[0m [1;30m▄ ▄ █[0m [1;30m▄█[0m [1;30m▄[0m [1;30m█[0m [1;30m▄▄▄[0m [1;30m█[0m [1;30m▀[0m [1;30m█[0m [1;30m█▄▄[0m [1;30m▄▄▄[0m [1;30m█[0m [1;30m▀[0m [1;30m█ ▄█[0m [1;30m█[0m [1;30m ▄▄█[0m [1;30m█[0m [1;30m▄[0m [1;30m█[0m  [1;30m█[0m [1;30m█[0m [1;30m█▄[0m  [1;30m█▄█[0m [1;30m█▄█[0m
 [1;30m▀ ▀▀▀ ▀▀▀[0m [1;30m▀▀█[0m [1;30m▀[0m [1;30m ▀[0m [1;30m▀▀▀[0m [1;30m█[0m [1;30m▀[0m [1;30m▀▀▀[0m [1;30m▀[0m [1;30m▀[0m  [1;30m▄▄[0m [1;30m▀[0m [1;30m▀▀▀[0m [1;30m▀[0m    [1;30m▀▀ █▄[0m  [1;30m▀▀▀[0m [1;30m▀▀[0m [1;30m▀▀▀[0m [1;30m█▄▄[0m   [1;30m█[0m [1;30m█▄█[0m'

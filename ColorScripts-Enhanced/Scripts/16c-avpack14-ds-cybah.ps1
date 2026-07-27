@@ -5,7 +5,7 @@
 # Source SHA-256: f692ec387da46e737766b71c36bc1636e9059ba9f5c5635d6643d452926f47dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-CYBAH.ANS by Deathstroke (apocalyptic visions); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cybah tech ansi
 # SAUCE Author: Deathstroke
 # SAUCE Group: apocalyptic visions
@@ -29,7 +29,7 @@ Write-Host '
    [1;30m█ [0m▐████[30;47m   [0;37;40m█████████████████████████[0;1;30;47m░[0m██████████████████▌[1;30m █[0m     [35m▀▀▀[0;32m ▀▀▀▀ [0m
 [37;45m▓▓[0;37;40m [0;1;30;40m█ [0m████[30;47mop: wizard, toxic krystal founder[0;37;40m█[0;30;47m& leader :)[0;37;40m████[0;1;30;40m █[0m         [32m▄▄▄[0;1;32m▄[0;32m▄▄[0m
    [1;30m█ [0m█████████████████████████████████████████████████████[1;30m █[0m      [35m▄[0;1;35;45m▄[0;35m▌[0;32m  ▐[0;1;32;42m▀[0;1;32;47m▓[0;1;32;42m▌[0;32m▌[0m
-   [1;30m█ [0m████████[47m█████[0;30;47m+ 6 1 3 - 9 7 7 2 - 0 8 4 1[0;37;40m█████████████[0;1;30;40m █[0m   [1;35;47m░▒[0;35m▐[0;1;35;47m▓[0;1;35;45m▌[0m    [32m▀▀[0m
+   [1;30m█ [0m████████[47m█████[0;30;47m                           [0;37;40m█████████████[0;1;30;40m █[0m   [1;35;47m░▒[0;35m▐[0;1;35;47m▓[0;1;35;45m▌[0m    [32m▀▀[0m
    [1;30m█ [0m██████████████[1;30;47m░░░[0m████████████████████████████████████[1;30m █[0m     [1;35;45m █▌[0;35m [0;32m   ▄▄[0;1;32;42m▄[0;32m▌[0;1;32;47m▒▒[0m
    [1;30m█ [0m███████████[30;47mppe''s, internet stuff, art packs[0;37;40m██████████[0;1;30;40m [0;1;30;47m▓▒░[0;35m [0;1;30;47m░░[0;35m ▀▀▀[0;32m ▀▀▀▀▀[0m
 [1;30;47m▓▓▓▒░░[0m███████████████[30;47manything in general[0;37;40m██████████████████[0;1;30;40m █[0m     [35m▄▄▄▄[0m   [35m  [0;1;32;47m░[0m

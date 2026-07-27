@@ -5,7 +5,7 @@
 # Source SHA-256: 686ef0e3413ce97d94f8d0aef37a49f558e437c836d96dfcd24fe7dd9d2613b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QS-SANC.ICE by Quicksilver (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 116-153
 # Columns: 1-80
 
@@ -46,5 +46,4 @@ Write-Host '
 [1;30m   ┌───────────────────────────────────────────────────────────────────────┐[0m
 [1;30m   │ [0m         [1m              [0m             [1m              [0m       [1m             [0;1;30m│[0m
 [1;30m   │ [0m          [1m      [0m      [1m              [0m     [1m          [0m  [1m                 [0;1;30m│[0m
-[1;30m   └───────────────────────────────────────────────────────────────────────┘[0m
-                  [1;30m- [0m3  o  5  /  [1m7  9  2  [0m-  [1m8  7  7  1 [0;1;30m-[0m'
+[1;30m   └───────────────────────────────────────────────────────────────────────┘[0m[1;30m[0m[1m[0m[1m[0;1;30m[0m'

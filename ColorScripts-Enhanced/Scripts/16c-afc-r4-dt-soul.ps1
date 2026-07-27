@@ -5,7 +5,7 @@
 # Source SHA-256: 573cd806432d1807ae57c9596b5af51d1eaf471f521b8d7b5775d0b06dd2a367
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-SOUL.ANS by Duster (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -58,5 +58,4 @@ Write-Host '
           [30m██   ████████████████[0;35m·■▄[0;1;34m▀[0;35m▄■·[0m      [1;30mAN[0;31mSi[0;1;30m: [0;31mD[0;1;30mU[0mS[31mT[0;1;30mE[0mR / [1;30mAF[0mC    [35m· [0;30m██████[0m
                                 [35m·[0m▄[35m▀[0m▄[35m·[0m■·
   [1;30m■ [0m· · ·  [1m·    ·[0m                 ▀  ·                     [1m·   ·   [0m·  [1m· [0m· · [1;30m■[0m
-[1;30m [0m  [32m        [0;36m      [0;32m            [0;36m               [0;32m      [0;36m                      [0;32m     [0m 
-  [1;30m■ [0m· · [1m·  ·    [0m·    [1m·[0m                                         [1m·   ·  [0m· · · [1;30m■[0m'
+[1;30m[0m[32m[0;36m[0;32m[0;36m[0;32m[0;36m[0;32m[0m  [1;30m■ [0m· · [1m·  ·    [0m·    [1m·[0m                                         [1m·   ·  [0m· · · [1;30m■[0m'

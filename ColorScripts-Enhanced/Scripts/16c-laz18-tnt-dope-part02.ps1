@@ -5,7 +5,7 @@
 # Source SHA-256: df0d9ebf47b70744c87c6b4b93c52b74f26979552b508a4bca10750668704fe0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt-dope.ans by tainted (fire); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lazarus farms
 # SAUCE Author: tainted
 # SAUCE Group: fire
@@ -41,21 +41,21 @@ Write-Host '
 [37;40m       [0;36;40m░▓[0;30;46m    [0;36;40m█[0;33;46m                     [0;30;46m [0;36;40m█[0;1;32;46m              [0;30;46m [0;36;40m█[0;30;46m  [0;36;40m█[0;1;33;46m             [0;36m█▓[0m
 [37m       [0;36m░███████[0;30;46mwe[0;36;40m█[0;30;46mhave you covered! get your smoke on madafukaz[0;36;40m███████▓░[0m
 [37;40m        [0;36;40m███████████████████████████████████████████████████████████████░[0m
-[37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46mFree Dope[0;36m███████████████████████████[0;30;46mtelnet.fr33d0p3.net:420[0;36;40m█[0m
+[37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46m         [0;36m███████████████████████████[0;30;46m                       [0;36;40m█[0m
 [37;40m        [0;36;40m███████████████████████████████████████████████████████████████[0m
-[37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46mStink/2[0;36m███████████████████████████████[0;30;46mtelnet.stink2.org:420[0;36;40m█[0m
+[37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46m       [0;36m███████████████████████████████[0;30;46m                     [0;36;40m█[0m
 [37;40m        [0;36;40m███████████████████████████████████████████████████████████████[0m
-[37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46mThe Black Hash[0;36m████████████████████[0;30;46mtelnet.teebeehash.com:420[0;36;40m█[0m
+[37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46m              [0;36m████████████████████[0;30;46m                         [0;36;40m█[0m
 [37;40m        [0;36;40m███████████████████████████████████████████████████████████████[0m
-[37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46mThe Bottomless Bowl[0;36m██████████████[0;30;46mit.reallyneverends.net:420[0;36;40m█[0m
+[37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46m                   [0;36m██████████████[0;30;46m                          [0;36;40m█[0m
 [37;40m        [0;36;40m███████████████████████████████████████████████████████████████[0m
 [37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46m                    [0;36m███████████████[0;30;46m                        [0;36;40m█[0m
 [37;40m        [0;36;40m███████████████████████████████████████████████████████████████[0m
-[37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46mPotlandia[0;36m█████████████████████████[0;30;46mtelnet.ohpotlandia.ca:420[0;36;40m█[0m
+[37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46m         [0;36m█████████████████████████[0;30;46m                         [0;36;40m█[0m
 [37;40m        [0;36;40m███████████████████████████████████████████████████████████████░[0m
-[37;40m       [0;36;40m░█[0;33;46m■[0;36;40m█[0;1;33;46mUndergrow[0;36m██████████████████████████[0;30;46mtelnet.undergrow.org:420[0;36;40m█░[0m
+[37;40m       [0;36;40m░█[0;33;46m■[0;36;40m█[0;1;33;46m         [0;36m██████████████████████████[0;30;46m                        [0;36;40m█░[0m
 [37;40m       [0;36;40m░███████████████████████████████████████████████████████████████[0m
-[37;40m       [0;36;40m░█[0;33;46m■[0;36;40m█[0;1;33;46mThe Twisted Toker[0;36m███████████████████[0;30;46mtelnet.twistedT.net:420[0;36;40m█[0m
+[37;40m       [0;36;40m░█[0;33;46m■[0;36;40m█[0;1;33;46m                 [0;36m███████████████████[0;30;46m                       [0;36;40m█[0m
 [37;40m       [0;36;40m░███████████████████████████████████████████████████████████████[0m
 [37;40m        [0;36;40m▓█████████████████████████████████████████████████████████████▓░[0m
 [37;40m        [0;36;40m▒▓█████████[0;1;37;46mWARNING:[0;30;46m [0;1;37;46msmoking marijuana and drawing ansi [0;36m████████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b375cea1df642235bec058abf9055b8c46f01bb6deedaac9eafddbf6ef55665c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-SECT7.ANS by Rawlock (Opium); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: - --[ sECTOr sEVEN ]-- -
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -37,4 +37,4 @@ Write-Host '
 [1;30m  ▐[0;1;30;43m▓[0;33m▄[0;37m [0;33m▀[0;1;30;43m░[0;33m▀ ▄█▌[0;1;30m [0m  Total v34 Power! with 1.1 gig For your needs [1;30m  ▐[0;1;30;43m░[0;33m▄[0;37m [0;33m▀[0;1;30;43m░[0;33m▀ ▄▓▌[0;1;30m [0m
 [1;30m   ▀[0;1;30;43m▓░[0;33m██[0;1;30;43m░░▒[0;33m▀[0;37m [0;1;30m  [0m        Operated by: Rawlock / Opium        [1;34m [0m [1;30m   ▀[0;1;30;43m▓░[0;33m█▄[0;1;30;43m░░▒[0;33m▀[0;37m [0;1;30m  [0m
 [1;30m▄[0;33m▄[0;1;30m▓[0;33m▀[0;37m [0;1;30;43m▓▒[0;33m▓[0;1;30;43m░░[0m [33m▀▄[0;1;30m [0m                                             [1;30m [0m [1;30m▄[0;33m▄[0;1;30m▓[0;33m▀[0;37m [0;1;30;43m▓▒[0;33m█[0;1;30;43m░░[0m [33m▀▄[0;1;30m [0m
-[1;30m ▀  ▀ [0;33m▀▀▀  [0;37m  [0;1;30;43m░[0;33m▀[0;37m      [0m    [37m+46.225.20575 / USR 28.8[0m     [37m     [0;1;30m [0m [1;30m ▀  ▀ [0;33m▀▀ ▀  [0;37m [0;1;30;43m░[0;33m▀[0;37m [0m'
+[1;30m ▀  ▀ [0;33m▀▀▀  [0;37m  [0;1;30;43m░[0;33m▀[0;37m      [0m    [37m                        [0m     [37m     [0;1;30m [0m [1;30m ▀  ▀ [0;33m▀▀ ▀  [0;37m [0;1;30;43m░[0;33m▀[0;37m [0m'

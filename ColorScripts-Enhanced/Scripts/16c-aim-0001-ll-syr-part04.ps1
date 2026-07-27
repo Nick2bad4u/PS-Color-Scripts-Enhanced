@@ -5,7 +5,7 @@
 # Source SHA-256: 23b6d9f50b09a80815812687dad3e9f6e6792c90cc109db9b44c18898d047e79
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LL-SYR.ANS by Lord Drakul (AiM); released in aim-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Scotland Yard - Revised
 # SAUCE Author: Lord Drakul
 # SAUCE Group: AiM
@@ -28,9 +28,8 @@ Write-Host '
                       [1;33m▄██[0;1;33;43m▓▒▒[0m                      [1;33;43m▒▒▓[0;1;33;40m██▄[0m
                       [1;33;40m▀[0;1;33;43m▓▓▒░[0;1;33;40m▌[0;1;37;40m [0m   [1;33;40mS[0;33mc[0;1;37motland Ya[0;33mr[0;1;33md[0m [1;37m [0m   [1;33m▐[0;1;33;43m░▒▓▓[0;1;33;40m▀[0m  [1;37;40m                      [0m
                        [1;33;43m▓▒░░[0m   [1;33;40mS[0;33m:[0;1;37m  Sherlock Oh[0;33mm[0;1;33ms[0m    [1;33;43m░░▒▓[0m
-                        [33m▀[0;1;33;43m░[0;33m▀[0m     [1;33m2[0;33m1[0;1;37m3-874-14[0;33m0[0;1;33m1[0m       [33m▀[0;1;33;43m░[0;33m▀[0m
-                              [1;33m [0;1;37m [0;33m [0;1;37m           [0;33m [0;1;33m [0m [1;37m [0m
-                         [33m▓[0m        [1;33m1[0;33m.[0;1;37m2 Gi[0;33mg[0;1;33mz[0m     [1;37m [0m
+                        [33m▀[0;1;33;43m░[0;33m▀[0m     [1;33m [0;33m [0;1;37m        [0;33m [0;1;33m [0m       [33m▀[0;1;33;43m░[0;33m▀[0m
+[1;33m[0;1;37m[0;33m[0;1;37m[0;33m[0;1;33m[0m[1;37m[0m                         [33m▓[0m        [1;33m1[0;33m.[0;1;37m2 Gi[0;33mg[0;1;33mz[0m     [1;37m [0m
                          [33m▒[0m    [1;33m [0;33m [0;1;37m             [0;33m [0;1;33m [0m [1;37m [0m   [33m░[0m
                          [33m░[0m    [1;33m [0;33m [0;1;37m            [0;33m [0;1;33m [0m [1;37m [0m    [33m▒[0m
                               [1;33m [0;33m [0;1;37m            [0;33m [0;1;33m [0;1;37m  [0m    [33m▓[0m
@@ -45,22 +44,8 @@ Write-Host '
                  [1;37m │  [0m                                        [1m│[0m
 [33m─────[0;1;33m──[0;33m──[0;1;30m───[0;1;37m─[0m────[1m──[0;1;30m──────────────────────────────────────────[0;1;37m──[0m────[1m─[0;1;30m───[0;33m──[0;1;33m──[0;33m─────[0m
                    [1;37m                     [0m
-                   [31m [0;1;30m [0m   [1;30m [0m                             
-                   [31m [0;1;30m [0m    [1;30m [0m                    
-                   [31m [0;1;30m [0m     [1;30m [0m                                
-                             CM!!!!!!!!
-                  [1m [0;31m [0;1;30m [0m       [1;30m   [0m                                
-                                                     
-                   [31m [0;1;30m [0m         [1;30m [0m                                    
-                                                           
-                   [31m [0;1;30m [0m    [1;30m [0m                                       
-                   [31m [0;1;30m [0m     [1;30m [0m                                  
-                                                     
-                   [31m [0;1;30m [0m           [1;30m [0m                         
-                   [31m [0;1;30m [0m [1;30m [0m                           
-
-                                                                
-                                                               
+[31m[0;1;30m[0m[1;30m[0m[31m[0;1;30m[0m[1;30m[0m[31m[0;1;30m[0m[1;30m[0m                             CM!!!!!!!!
+[1m[0;31m[0;1;30m[0m[1;30m[0m[31m[0;1;30m[0m[1;30m[0m[31m[0;1;30m[0m[1;30m[0m[31m[0;1;30m[0m[1;30m[0m[31m[0;1;30m[0m[1;30m[0m[31m[0;1;30m[0m[1;30m[0m
 
 [33m─────[0;1;33m──[0;33m──[0;1;30m───[0;1;37m─[0m────[1m──[0;1;30m──────────────────────────────────────────[0;1;37m──[0m────[1m─[0;1;30m───[0;33m──[0;1;33m──[0;33m─────[0m
                  [1;37m │ [0m    [1;30m   [0;31m [0;1;30m                       [0m [31m [0;1;30m     [0m   [1;37m│[0m

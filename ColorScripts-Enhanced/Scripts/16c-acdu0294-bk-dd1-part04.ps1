@@ -5,7 +5,7 @@
 # Source SHA-256: 390985e91eaf0181d6c2c6f607a6de4a494e671530253fff46987f078877d738
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-DD1.ANS by Bad Karma (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Digital Disturbance
 # SAUCE Author: Bad Karma
 # SAUCE Group: ACiD Productions
@@ -26,32 +26,16 @@ Write-Host '
                  [1;30m_[0m_ [1m_│_[0m_ [1;30m_[0m
                      [1;37m∙D [0;1;34mi [0;34mg i [0;1;30mt a l   D i s t u r b [0;34ma n [0;1;34mc [0;1;37me[0m
                      [1;30m·[0m
-                             [1;30m9 1 5 · 8 3 3 · 6 2 1 1[0m
-                                 [1;30m               [0m
-
-                                [1;37m [0;1;34m [0;34m   [0;1;30m         [0;34m [0;1;34m [0;1;37m [0m
-                             [1;37m [0;1;34m [0;34m  [0;1;30m               [0;34m  [0;1;34m [0;1;37m [0m
-                              [1;37m [0;1;34m [0;34m  [0;1;30m             [0;34m  [0;1;34m [0;1;37m [0m
-                                [1;37m [0;1;34m [0;34m   [0;1;30m        [0;34m  [0;1;34m [0;1;37m [0m
-
-                              [1;30m                     [0m
-
+[1;30m[0m[1;30m[0m
+[1;37m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;1;37m[0m[1;37m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;1;37m[0m[1;37m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;1;37m[0m[1;37m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;1;37m[0m
+[1;30m[0m
 
 
 
 
 
 [1;30m ─  ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
-                         [1;30m        [0m   [1m [0m [1;30m  [0;1;37m [0m [1;30m        [0m [1;30m  [0m
-                [1;30m─  ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
+[1;30m[0m[1m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;30m[0m                [1;30m─  ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
 
 [1;30m─ Greets ──────────────────────────────────────────────────────────────────────[0m
-          [1;30m                                      [0m
-          [1;30m                                   [0m
-          [1;30m                                                  [0m
-          [1;30m                                 [0m
-          [1;30m                                  [0m
-          [1;30m                                            [0m
-          [1;30m                                                         [0m
-          [1;30m                                          [0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

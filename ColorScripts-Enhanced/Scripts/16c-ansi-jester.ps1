@@ -5,7 +5,7 @@
 # Source SHA-256: 1a373e23296ee1fa2ac69054703c302720a680116866e454efc9af9eb17ab880
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JESTER.ANS by Mad Dog (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
 [30;44m      ▄[0;30;41m▀  ▀[0;30;44m▄       ▀█[0;1;37;40m▀██████████████▀██████▀███████████████▀[0;30;44m█▀       ▄[0;30;41m▀  ▀[0;30;44m▄     [0m
 [30;44m       ▀[0;30;41m▄▄[0;30;44m▀          ▀█[0;1;37;40m▀▀█████████▀ ▄██████▄[0;30;44m█[0;1;37;40m▀██████████▀▀[0;30;44m█▀          ▀[0;30;41m▄▄[0;30;44m▀      [0m
 [30;44m                        ▀█[0;1;37;40m██▀███▀██▄ ▀████▀[0;30;44m█[0;1;37;40m▄███▀███▀██[0;30;44m█▀                       [0m
-[30;44m     [0;1;31;44mThe King''s Court    [0;30;44m▀█[0;1;37;40m█▄ ▀[0;30;44m█[0;1;37;40m▄ ▀▀█▄[0;30;44m█[0;1;37;40m██[0;30;44m█[0;1;37;40m▄██▀▀[0;30;44m█[0;1;37;40m▄[0;30;44m█[0;1;37;40m▀ ▄█[0;30;44m█▀     [0;1;31;44m502-426-5640       [0m
+[30;44m     [0;1;31;44m                    [0;30;44m▀█[0;1;37;40m█▄ ▀[0;30;44m█[0;1;37;40m▄ ▀▀█▄[0;30;44m█[0;1;37;40m██[0;30;44m█[0;1;37;40m▄██▀▀[0;30;44m█[0;1;37;40m▄[0;30;44m█[0;1;37;40m▀ ▄█[0;30;44m█▀     [0;1;31;44m                   [0m
 [1;31;44m                          [0;30;44m▀█[0;1;37;40m█████[0;30;44m█[0;30;41m ▀[0m [1;37;40m▀▄▄▄▄█▀[0;30;44m█[0;30;41m▀ [0;30;44m█[0;1;37;40m█████[0;30;44m█▀                         [0m
 [30;44m                           █[0;1;37;40m█████[0;30;44m█[0;30;41m   ▀▀▀▀▀▀▀   [0;30;44m█[0;1;37;40m█████[0;30;44m█                          [0m
 [30;44m          █[0;30;42m▀[0;30;44m█▄▄          ▄█[0;30;42m▀[0;30;44m█[0;1;37;40m▀███▄[0;30;44m█[0;30;41m▄         ▄[0;30;44m█[0;1;37;40m▄███▀[0;30;44m█[0;30;42m▀[0;30;44m█▄          ▄▄█[0;30;42m▀[0;30;44m█         [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 66e461bf52ad4261298895253bd45451c18a8d8ed47e9da81d77c8af2aabf7f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N4-RARE.ANS by natureboy (rare!ascii - guest); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: rare!ascii promo
 # SAUCE Author: natureboy
 # SAUCE Group: rare!ascii - guest
@@ -16,8 +16,7 @@
 
 Write-Host '
     [1;36m         [0m
-                            [1;33m [0;1;37m     [0;1;33m [0m
-                [1;36m _.▬┐[0;36m▬,._[0m                 [1;36m [0m
+[1;33m[0;1;37m[0;1;33m[0m                [1;36m _.▬┐[0;36m▬,._[0m                 [1;36m [0m
                 [36md[0;1;36m$$²└*l$$[0;36mb.[0;1;36m    _.,,,._    _..,,..[0;36m_[0m                [1;37m_.,,[0m▬
                 [1;36m$$$[0m   [36m:[0;1;36m$$$$[0;36m:[0;1;36m [0;36m:[0;1;36m$$²"`"²$[0;36mY[0;1;36m  [0;36mY[0;1;36m$$²└*l$$[0;36mb.[0;1;36m  [0;36m:[0;1;36m¬┐▬,,[0;36m.._[0;1;36m   [0;1;37m$$$$[0ml
                [36m:[0;1;36m$$$_.,┌$$[0;36m┘`[0;1;36m  [0;36ml[0;1;36m$$  [0m   [1;36m$$[0;36m:[0;1;36m $$$[0m   [36m:[0;1;36m$$$[0;36mY[0;1;36m  [0;36ml[0;1;36m$$"²└*Y$$  [0ml[1m$$$[0m:

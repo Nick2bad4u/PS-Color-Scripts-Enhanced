@@ -5,7 +5,7 @@
 # Source SHA-256: eeb40f560a89f221f2a87d6d44f033fa48ce67a2b821884b99f82abb50c68fdd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JZ-TRN.ANS by Jazz (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 48-95
 # Columns: 1-80
 
@@ -35,8 +35,7 @@ Write-Host '
 
 
                  [1;30mE [0mP I N I C I O N   E A S T   C O A S T   H [1;30mQ[0m
-                     [30m                                      [0m
-                                [1;30m"~~"~~"~~"~~"~~"[0m
+[30m[0m                                [1;30m"~~"~~"~~"~~"~~"[0m
                         [1;30mD [0mi E   M e m b e r   B o a r [1;30md[0m
                      [1;30mS [0mH I V E R   M e m b e r   B o a r [1;30md[0m
                       [1;30mB [0mR E E D   M e m b e r   B o a r [1;30md[0m
@@ -56,5 +55,4 @@ Write-Host '
                  [30m┌─    [0;1;30m [0m           [1;30m [0m          [1;30m [0m      [1;30m [0m
                  [30m└                [0;1;30m [0m      [1;30m      [0m     [30m                    [0m
 
-[1;30m                           [0m
-[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄[1;30m▄▄[0m▄▄▄▄▄[1m▄▄[0;1;30m│ [0m5 [1m1 6   2 7 7   3 5 2 [0m5 [1;30m│[0;1;37m▄▄[0m▄▄[1m▄[0m▄▄▄▄▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄[0m▄[1;30m▄▄▄▄▄▄[0m'
+[1;30m[0m[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄[1;30m▄▄[0m▄▄▄▄▄[1m▄▄[0;1;30m│ [0m  [1m                    [0m  [1;30m│[0;1;37m▄▄[0m▄▄[1m▄[0m▄▄▄▄▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄[0m▄[1;30m▄▄▄▄▄▄[0m'

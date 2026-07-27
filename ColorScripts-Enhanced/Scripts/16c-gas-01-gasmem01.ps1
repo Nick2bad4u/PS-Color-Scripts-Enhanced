@@ -5,7 +5,7 @@
 # Source SHA-256: 33024b635585d25a594c80f01f9c5a89030f6bedba7eb5503070c6e2716cbe5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GASMEM01.ANS by Juice Gas (gas-01); released in gas-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -40,7 +40,7 @@ Write-Host '
 [1;30;47m           ░▒▓[0m
 [1;30;47m          · ░▒[0m         sites                                                  [32m░[0m
 [32;47m           [0;1;30;47m░▒▓[0m
-[1;30;47m ░ ·     [0;46m▓[0;47m [0;1;30;47m░▒▓[0m         [1;30;40marcane[0m               [1;30;40m(whq)  +61-7-5529-6541[0m
+[1;30;47m ░       [0;46m▓[0;47m [0;1;30;47m░▒▓[0m         [1;30;40m      [0m               [1;30;40m                      [0m
 [1;30;47m       ░  ░▒▓[0;1;30;40m▓[0m
 [46m▓[0;47m          [0;1;30;47m░▒▓[0m   [32m░[0m     [37minternet site[0m
 [37;47m [0;1;30;47m░  ░    ░░▒▓[0;1;30;40m▒[0m                                                               [32m░[0m

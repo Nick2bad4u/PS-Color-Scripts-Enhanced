@@ -5,7 +5,7 @@
 # Source SHA-256: 305269627d1c781e6a662884992f531c13bde70fd5fe6e8e90fcad656afcaf6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-DUNG2.ANS by Smooth (TekLordZ); released in tl-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Anutha Dungeon 2 ANSi
 # SAUCE Author: Smooth
 # SAUCE Group: TekLordZ
@@ -19,7 +19,7 @@ Write-Host '
 [1;30;47m▀[0;1;30;40m▓ [0;36m ▄████[0;1;36;46m■▄[0;36m██[0m [36m▀█[0;1;36;46m▄▄ [0;36m▄ [0m    [36m█[0;1;36;46m▄▄▄[0;36m█▀[0m [1;30m [0mHere it is!  Anutha KickAss ANSi by  [1;30m▒[0m  [1;30m ▄[0;1;30;47m▀[0;1;30;40m▌[0m
 [1;30;47m▒[0;1;30;40m▄[0m [36m█[0;1;36;46m░░▒▒▓██▀[0;36m█[0m  [36m▐█[0;1;36;46m▓▓[0;36m█▌▄[0m  [36m▒█[0;1;36;46m▓▓[0;36m█▌[0m   [37mSmooth.  If you would like to get a[0m  [1;30m░[0m  [1;30m▓[0;1;30;47m▓[0;1;30;40m█[0m
 [1;30;47m▓▓[0;36m▐█▀▀▀▀▀▀▀▒▀▀■[0m [36m█[0;1;36;46m▒▒[0;36m█▌ ▀▓[0m [1;36;46m ▒▒[0;36m█[0m    [37mkewl ANSi from me.  Contact me      [0m   [1;30m▐[0;1;30;47m▓▒[0;1;30;40m▌[0m
-[1;30;47m▓[0;1;30;40m▓[0m [36m▀▀▀▀▀▀▀██[0;1;36;46m░▄[0;36m█ █[0;1;36;46m░░[0;36m█▌[0m   [36m▐█[0;1;36;46m░░ [0;36m▌[0m   [37mon my board Dungeon2 @ 808.674.1673[0m     [1;30m▀[0;1;30;47m▄█[0;1;30;40m▄[0m
+[1;30;47m▓[0;1;30;40m▓[0m [36m▀▀▀▀▀▀▀██[0;1;36;46m░▄[0;36m█ █[0;1;36;46m░░[0;36m█▌[0m   [36m▐█[0;1;36;46m░░ [0;36m▌[0m   [37m                                   [0m     [1;30m▀[0;1;30;47m▄█[0;1;30;40m▄[0m
 [1;30;40m▄█[0m  [36m▓▄▄▄▄▄█[0;1;36;46m▓▀▀[0;36m█ █████▄[0m [36m▄███[0;1;36;46m░▀ [0;36m█▄▄▄ ▄[0m  [37mNew User Password - Phunkified[0m  [1;30m░[0m    [1;30m▀░░[0m
 [1;30m▀[0;1;30;47m▓[0;1;30;40m█▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m  [1;30;40m▄▓▒░[0m
                                                                           [1;30;40m▀[0m

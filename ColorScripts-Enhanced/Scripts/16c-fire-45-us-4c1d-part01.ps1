@@ -5,7 +5,7 @@
 # Source SHA-256: 8c782c8615f85c2a64b9553354d4cecd86868f9f0f52996bba2be827e0f6164d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-4C1D.ANS by Tainted + Aesthetic (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: acid forever
 # SAUCE Author: tainted/aesthetic
 # SAUCE Group: fire
@@ -16,8 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-              [1;30m           [0m         [1;30m   [0m          [1;30m [0m [1m    [0m [1m [0;1;30m          [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1m[0m[1m[0;1;30m[0m
 
                                                               [1;30m░ ░[0m
                                                                [1;30m░[0m

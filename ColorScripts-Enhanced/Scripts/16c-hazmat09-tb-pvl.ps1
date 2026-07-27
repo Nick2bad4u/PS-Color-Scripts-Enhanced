@@ -5,12 +5,11 @@
 # Source SHA-256: a20ca0ecb9b0f3babf252cfc21058f5d7f808cf4d142bdca8ed25467a94b9010
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TB-PVL.ANS by T-Bob (hazmat09); released in hazmat09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-                                               
            [1m               [0m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[1m  [0;1;30m  .    [0;1;37m                              [0m
       [1;30m .4$$$$$$$$$$[0m$$$$b.[1m [0;1;32m`√☺☺☺☺☺☺☻☻☺☺☺☺7''[0;1;37m [0;1;30m.4$$b┐.[0;1;37m  [0;36m      ☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺[0m
      [1;30m.4$$$$$$$[0m$$$$$$$$$$$b.[1m [0;1;32m`√☺☺☺☺☻☻☺☺7''[0;1;37m [0m.4$$$$[1;30m$$$[0;1;37m  [0;36m    .4☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 0ffd8fa2b1343dfe616b759ceeecf38785fd5f9148e002617ff765a438797121
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BT-BUMAT.ANS by buzztone (ANGER PRODUCTIONS); released in anger08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: butant underground matrix!
 # SAUCE Author: buzztone
 # SAUCE Group: ANGER PRODUCTIONS
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m                                                                               [0m
-[1;30m█[0;1;30;47m▀▓▓[0;1;30;40m██[0;1;30;47m▀[0;1;30;40m█░[0;1;31;40m▄████████▓▄▄▀ ▄[0;1;31;47m█[0;1;31;40m▓▀ ▄█ [0;1;30;40m░[0;1;31;40m▄▐▄ ▀▄▓▄▀▀▀▀▀▀▀▀▀▀▀▀▀████▄███▄[0;1;30;40m░[0m▐▄[1;30;47m░▄[0m███████[1;30;47m░[0m█[1;30;47m░▀▀[0;1;30;40m▄[0m
+[1;30m[0m[1;30m█[0;1;30;47m▀▓▓[0;1;30;40m██[0;1;30;47m▀[0;1;30;40m█░[0;1;31;40m▄████████▓▄▄▀ ▄[0;1;31;47m█[0;1;31;40m▓▀ ▄█ [0;1;30;40m░[0;1;31;40m▄▐▄ ▀▄▓▄▀▀▀▀▀▀▀▀▀▀▀▀▀████▄███▄[0;1;30;40m░[0m▐▄[1;30;47m░▄[0m███████[1;30;47m░[0m█[1;30;47m░▀▀[0;1;30;40m▄[0m
 [1;30;40m█[0;1;30;47m░ ▀▀░[0;1;30;40m█▓[0;1;31;40m▐█[0;1;31;47m▓▓[0;1;31;40m██▀▀▀▀▀▀▄██[0;1;31;47m█[0;1;31;40m▄[0;1;31;47m█[0;1;31;40m███▓ ▓█▄[0;1;31;43m█[0;1;31;40m▓ ▀[0;1;37;40m ▄█▀[0m   [1m▄▄▄▄[0m▄  [1;30m  [0m [1;31m▀▀█[0;1;31;47m█▓▓[0;1;31;40m██[0m [1;30;47m░[0m█[1;30;47m [0m▓▀[1;30m░░░[0m    ▀█[1;30;47m▄▓[0m
 [1;30;40m██[0;1;30;47m ▓▀ [0;1;30;40m█[0;1;31;40m █[0;1;31;47m▓▓[0;1;31;40m█▀[0;1;37;40m▄   ▄[0m▄ [1m  [0;1;31m▀███[0;1;31;47m██[0;1;31;40m█▄▀█[0;1;31;43m█[0;1;31;40m████[0;1;37;40m ██▌[0m  [1m▄████[0;1;47m█[0;1;40m█[0;1;47m▄[0m▄[1m [0m [1m▀▄[0m [1;31m▐[0;1;31;47m▓▒▒▓[0;1;31;40m█[0;33m▌[0;1;30m▐[0;1;30;47m▄[0;1;30;40m▓▌[0m         ▓██
 [1;30;47m▓▌░▄░[0;1;30;40m█▌[0;1;31;40m▐█[0;1;31;47m▓[0;1;31;40m█▌[0;1;37;40m▐▌[0m  [1m███[0;1;47m▄[0m▄ [1m [0;1;31m▐███[0;1;31;47m██[0;1;31;40m█[0;1;31;47m█[0;1;31;40m▀████▌[0;1;37;40m▐[0;1;37;47m▓[0;1;37;40m█[0m  [1m▐███████[0;1;47m█▓[0m▌ [1;30m [0;1;37m▐[0;1;37;47m▓[0m [1;31m█[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;43m▓░[0m [1;30;47m▀▓[0m           [1;30;47m▄▐[0m

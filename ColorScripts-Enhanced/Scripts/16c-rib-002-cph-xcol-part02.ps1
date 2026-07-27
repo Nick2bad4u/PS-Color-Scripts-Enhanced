@@ -5,25 +5,21 @@
 # Source SHA-256: ed83d4c69010101772ac6957853a8c6626804ab3318d837bf50ee70ecec4a67f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-XCOL.ANS by Cyberpunch (rib-002); released in rib-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-98
 # Columns: 1-80
 
 Write-Host '
 [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^^[0m
-                              
 [1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m---[0m
 
 
-                                         [1;30m  [0m [1;30m [0;1;37m     [0m  [1m  [0m [1;30m   [0m
-                [1;30m..:[0m                      [1;30m:.....[0m...[1m..[0m...[1;30m..:[0m
+[1;30m[0m[1;30m[0;1;37m[0m[1m[0m[1;30m[0m                [1;30m..:[0m                      [1;30m:.....[0m...[1m..[0m...[1;30m..:[0m
            ..[1;30m...:[0m                               [1;30m......[0m [1;30m.[0m
            :                                    [1;30m:[0m      [1;30m:[0m
            :                                ..[1;30m..:[0m      [1;30m:[0m       [1m{[0mPh''Ri[1mB[0m
            :                                :
-         [1m [0m                             [1m [0m                                       
- [1m              [0m            [1m              [0m            [1m                      [0m [1m   [0m
-i[1m ;;:.:; ::[0;34m:[0;1;37m:::::...:.:.[0m:[1m.; ;;.[0m;[1m.:..:;:[0m:[1m;..:.:[0;34m.[0;1;37m.:..:: ;::.::..[0m.:.:[1m::i:;:s::::;i[0m
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0mi[1m ;;:.:; ::[0;34m:[0;1;37m:::::...:.:.[0m:[1m.; ;;.[0m;[1m.:..:;:[0m:[1m;..:.:[0;34m.[0;1;37m.:..:: ;::.::..[0m.:.:[1m::i:;:s::::;i[0m
  [1m ░                         ┬        [0m  [1m       [0m [1m     ▓       [0;34m [0;1;37m       [0m  [1m         [0m
  [1m         [0m [1m  [0m [1m   [0;1;44m▒▒[0;1;40m   [0m [1m          ░                [0m [1m     [0m  [1m            [0;1;44m  [0;1;40m  [0m [1m    [0m
 :,.[1m  [0m..[1m [0m..[1m.[0m.[1m [0m.[1m [0m.[1m [0m.[1m [0m........:..[1m [0m..[1m  [0m.[1m [0m.[1m  [0m.[1m [0m.[1m [0m..[1m [0m..[1m [0m.[1m  [0m:[1m [0m....[1m [0m.[1m [0m.[1m [0m,[1m [0m..[1m [0m.[1m [0m.[1m [0m.[1m [0m.[1m [0m.,
@@ -34,7 +30,6 @@ i[1m ;;:.:; ::[0;34m:[0;1;37m:::::...:.:.[0m:[1m.; ;;.[0m;[1m.:..:;:[0m:
 
 
  [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^[0m
-                                                            
  [1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m--[0m
 
 
@@ -45,11 +40,9 @@ $$$$$[1;30m$[0;1;37m:[0;1;30m$[0m$$b [1;36m`$$$bd$$$$[0;36m$$$$[0;1;34m$$
 [1;30m$$$$$$$$[0;1;37m.....[0m [1;34m,$[0;36m$$$[0;1;34m$''[0m    [1;34m$$[0;34m$[0;1;36m{Ph?![0m [1;34m,$[0;36m$$$[0;1;34m$''[0m    [1;34m$$[0;34m$$$$$.[0;37m  [0;36m`"ⁿ$$$$$[0;1;34m$$$[0;34m$$$,[0;37m [0;1;37m.......[0;1;30m$[0m
 $$$$$$$[1;30m$[0;1;37m:[0;1;30m$$$''[0m [1;34m$$$[0;36m$$[0;1;34m$$b,_,d$$[0;34m$$$$''[0;37m [0;1;34m$[0;36m$$$$[0;1;34m$$b,_,d$$[0;34m$$$$''[0;1;34m$$$b.[0;36md$$$[0;1;34m$$$[0;34m$$$$''[0;37m [0;1;30m$$$$$$[0;1;37m:[0;1;30m$[0m
 $$$$$$$[1;30m$[0;1;37m:[0;1;30m$[0m$'' [1;34m$$$$ⁿ"ⁿ$$$$$$$[0;34m$$$ⁿ'',[0;1;34m$$$$ⁿ"ⁿ$$$$$$$[0;34m$$$''[0m   [1;34m`$[0;36m$$[0;1;34m$$$$$$$$[0;34m$ⁿ''[0;37m d$$$$$[0;1;30m$[0;1;37m:[0;1;30m$[0m
-[1;30m        [0m   [1m       [0m   [1;30m        [0m     [1m     [0m   [1;30m               [0m  [1m       [0m  [1;30m          [0m 
-
+[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m
 
 [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^[0m
-                                                                    
 [1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m--[0m
 
 

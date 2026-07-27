@@ -5,7 +5,7 @@
 # Source SHA-256: 1cc5115c65855ad7f402b2b882b1efe3e091c6c7d9fb36ecdfbc53c2efc4a6ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ_CMTRX.ANS by fastjack (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FS:: kein plan
 # SAUCE Author: fastjack
 # SAUCE Group: boil
@@ -25,19 +25,4 @@ Write-Host '
 [1;37;46m█▄[0;36m▄[0;37m [0;31m▐[0;1;33;41m▐[0;1;37;43m██[0;1;33;41m░[0;35m▐▀[0;1;37;45m░█▌[0;35m░░ [0;1;37;46m█[0;36m▌[0;35m [0;1;37;45m▐██▀[0;35m [0;36m▀[0;1;37;46m▐██▌[0;33m [0;1;33;43m▐[0;1;37;40m█[0;33m▌▐▌ [0;1;31;43m░▓▓█[0;1;31;47m▓[0;1;31;43m▐█[0;33m░[0;1;31;43m▓[0;1;31;47m▓▓[0;1;31;43m▓[0;33m ▄▀▀  [0;1;37;46m▄█▌▄[0;36m█▀[0m                [1;37;46m▐█░[0m
 [36m▌▀[0;31m ▄▀▀▀▀▀▀▀[0;35m▐[0;1;37;45m░░[0;35m▌ [0;36m▀▀[0;35m ▐[0;1;37;45m░░[0;35m▀[0;36m  [0;1;37;46m░▄█▀[0;36m▌[0;33m ▐[0;1;33;43m█▌[0;33m ▀  [0;1;31;43m▓[0;1;31;47m▒▒[0;1;31;43m█▄[0;33m▄[0;1;31;43m▄[0;1;31;40m█[0;1;31;43m██[0;33m▌   [0;36m░░[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m██▀[0m     [36m░░[0m      [1;37m░░[0m  [1m░[0;1;46m██[0;36m▌[0m
 [36m▀▀[0m   [36m░░▄[0;1;37;46m█[0;35m▄ ▀▀▀▀▀▀▀▀▀ [0;36m ░░▐▀▀▌▀░░[0;1;37m [0;33m▀[0;1;33;43m▀▄[0;33m░░[0;37m [0;33m ▀[0;1;31m▀[0;1;31;43m▀▓[0;1;31;40m▄▄[0;1;31;43m▓[0;1;31;40m▀[0;33m▀ ░░[0m   [36m▀░░[0;1;37;46m▀▄[0;36m▄▐[0;1;37;46m▄██░░[0;36m█▄▄▌▄[0;1;37;46m▄██░[0;36m█▐[0;1;37;46m░░[0;36m▌[0m
-                                                               [36m░░[0m       [36m▀▀[0m
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[1;30m-------------------------------------------------------------(schleim)----------[0m'
+                                                               [36m░░[0m       [36m▀▀[0m'

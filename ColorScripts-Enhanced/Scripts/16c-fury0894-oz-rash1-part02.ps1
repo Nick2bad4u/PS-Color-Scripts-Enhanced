@@ -5,7 +5,7 @@
 # Source SHA-256: 1d53b4995b7ffd6e83cbb33888b2cd3a3736b6dd918d7a583b01d6cb06d2a3c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OZ-RASH1.ANS by Ozzy (fury0894); released in fury0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-99
 # Columns: 1-80
 
@@ -40,7 +40,7 @@ Write-Host '
                          [1;40m▀▀[0;1;47m▓[0m [1;47m░░░░▒▒▒▒▒▒▓▓▓▓▓▓[0m [1;40m█▀▀[0m
                               ▀▀▀▀▀▀▀[1m▀▀▀▀▀▀▀[0m
 [1m   [0;32m▄[0;1;32;42m░░░░░░░░[0;32m▄▄▄▄[0m             [1;32mr[0;32ma[0;1;30msh  [0;1;32mr[0;32me[0;1;30mflections[0m           [32m▄[0;1;32;42m░░░░░░░░[0;32m▄▄▄▄[0m
-[32m   [0;1;32;42m░░░[0m      [32m▀▀▀▀[0;1;32;42m░░░[0;32m▄▄[0m         [1;32m1[0;32m-[0;1;30m514-635-4043[0m             [1;32;42m░░░[0m      [32m▀▀▀▀[0;1;32;42m░░░[0;32m▄▄[0m
+[32m   [0;1;32;42m░░░[0m      [32m▀▀▀▀[0;1;32;42m░░░[0;32m▄▄[0m         [1;32m [0;32m [0;1;30m            [0m             [1;32;42m░░░[0m      [32m▀▀▀▀[0;1;32;42m░░░[0;32m▄▄[0m
 [32m   [0;1;32;42m░░░[0m             [32m▀▀[0;1;32;42m░[0;32m▄[0m                                  [1;32;42m░░░[0m             [32m▀▀[0;1;32;42m░[0;32m▄[0m
 [32m   [0;1;32;42m▒░░[0m               [32m▐[0;1;32;42m▒[0;32m▌[0m     [1;32ms[0;32my[0;1;30msop: [0;1;32mc[0;32mo[0;1;30mluche [0;1;32m[[0;32mi[0;1;30mmp][0m        [1;32;42m▒░░[0m               [32m▐[0;1;32;42m▒[0;32m▌[0m
 [32m   [0;1;32;42m▒▒░[0m                [1;32;42m▒▒[0m                                 [1;32;42m▒▒░[0m                [1;32;42m▒▒[0m

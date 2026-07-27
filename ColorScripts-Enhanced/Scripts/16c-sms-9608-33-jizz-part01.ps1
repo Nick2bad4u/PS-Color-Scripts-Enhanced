@@ -5,7 +5,7 @@
 # Source SHA-256: cfc5312ee7a85fc743b8a4d3a1c301a0856230ad2c6065e05f8d950e6972e4ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-JIZZ.ANS by EERIE-KUN (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: JIZZ!!@  W00P!@#  =) =)
 # SAUCE Author: EERIE-KUN
 # SAUCE Group: SAMSARA
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[36m                        [0m
-
+[36m[0m
 
      [31m▄   ▄[0m
 [31m ▄    [0;1;31;41m░░[0;31m▄  ▀[0m

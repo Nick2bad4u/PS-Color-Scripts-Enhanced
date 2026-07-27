@@ -5,7 +5,7 @@
 # Source SHA-256: 92bfff1a82ae53d6db3aa753ed13a8c533e72faebb8103282caf9e15517aa8ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-DRM.ANS by Harlequin (Apocalyptic Visions); released in avpack08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dreamstate a la mexicana
 # SAUCE Author: Harlequin
 # SAUCE Group: Apocalyptic Visions
@@ -46,7 +46,7 @@ Write-Host '
        [31m [0m
 [37m       [0;34m [0m
 [37m   [0;31m             [0;35m [0;31m▒[0;35m [0;31m    [0;37m [0;1;30m [0m
-   [31m  [0;35m [0;31m█▀█[0;35m [0;31m    [0;35m [0;31m▄▄▓     [0;1;30m [0m          [1;30m■[0;35m■[0;1;35m■[0;1;30m +[0m613[1;30m-[0m9525[1;30m-[0m7287 28.8k line
+   [31m  [0;35m [0;31m█▀█[0;35m [0;31m    [0;35m [0;31m▄▄▓     [0;1;30m [0m          [1;30m■[0;35m■[0;1;35m■[0;1;30m  [0m   [1;30m [0m    [1;30m [0m               
    [31m  [0;35m [0;31m█[0;35m [0;31m██▀█▀▀▄█[0;35m [0;31m█[0;35m [0;31m    [0m           [1;30m■[0;35m■[0;1;35m■[0m NUP: Corrosion
   [31m▀█▄[0;35m [0;31m█[0;35m [0;31m▀▀[0;35m [0;31m█[0;35m [0;31m█[0;35m [0;31m█[0;35m [0;31m█[0;35m  [0;31m▄█▀[0m           [1;30m■[0;35m■[0;1;35m■[0m Sysops: Inferno, Blue Apache,
    [31m [0;35m [0;31m▓█▄██[0;35m [0;31m█[0;35m [0;31m▄▀█ ▀█[0;35m [0;31m   [0m            [35m [0m          [37mJayski...[0m

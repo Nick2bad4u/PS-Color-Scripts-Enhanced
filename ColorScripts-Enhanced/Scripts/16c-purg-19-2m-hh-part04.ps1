@@ -5,7 +5,7 @@
 # Source SHA-256: 612a5ef60efd54675a3355e4c7728f3a3970944739579e40ef0c55bf44a102a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2m-hh.ans by 2mStone (purg!logo's); released in purg-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Happy Halloween!
 # SAUCE Author: 2mStone
 # SAUCE Group: purg!logo's
@@ -42,18 +42,7 @@ Write-Host '
                            [1;35m▐▌[0m
                            [1;35m▐[0m
 [1;30m------------------------------------bobbit--------------------------------------[0m
-[1;30m                                                                        [0m
-[1;30m            [0m [1;30m  [0m [1;30m                                                                [0m
-[1;30m                                                                        [0m
-[1;30m                                                                          [0m
-[1;30m                                [0m
-
-[1;30m        [0m
-
-[1;30m                                                                                [0m
-[1;30m                                                                           [0m
-[1;30m       [0m
-
-[1;30m                                                                           [0m
-           [1;30m                                                [0m
-                                                                         [1;30m  -2m[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m                                                                         [1;30m  -2m[0m'

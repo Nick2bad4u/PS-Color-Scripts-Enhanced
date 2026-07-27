@@ -5,7 +5,7 @@
 # Source SHA-256: e1ddcd645d53cd07b772b854056e885472c40c7077f382b3ad59f3ad418b3439
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P!DUDE.ANS by Purplee (purg-20); released in purg-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -27,8 +27,7 @@ Write-Host '
 [1;37mss[0;1;34ms$ss,[0m [1;34m;[0;34m$$$[0;1;34m$$,[0m [31m│:[0;1;31ml$$$$$$$$$$$$$$$8,┐`$$$''[0;1;30m *┘ [0;1;31m┌l$$$$[0;33m$[0;1;31m$$$$l[0;1;37m:;[0m [1;36m\ÑÑÑÑ[0;36mÑÑÑÑÑii;''[0m
 [1;34m''$[0;1;37m$$[0;1;34m$$$$[0m [1;34m;*$''[0;36m,;[0;37m [0;31m`:[0;1;31mlÑÑÑÑÑÑ$$$$$$$$$$$$$$$$i;,[0;1;30m [0;1;31m,$$$$$$[0;33m$[0;1;31m$$$$l[0;1;37m''[0;31m [0;1;36m\ÑÑ[0;36mÑÑÑÑÑÑÑÑÑÑÑ;/,[0m
 [37m [0;1;34m;*$$$[0;34m$$[0;1;34m,[0m    [36mS_->[0;37m [0;1;31ml$$$ƒƒƒƒƒƒ$$$$$$$░░░░$$$$$┬$$$$$$[0;33m$$[0;1;31m$$$$l[0m [1;36m;ÑÑ[0;36mÑÑÑÑÑÑ[0;1;36;46mÑÑÑÑ[0;36mÑÑÑÑÑ[0m
-[37m   [0;1;34m     [0;34m [0;1;34m   [0m [36m  [0;37m   [0;1;31m  [0;1;37m [0;1;31m                              [0;33m [0;1;31m      [0m [36m                 [0;1;36m [0m
-     [1;34m       [0m [36m [0m    [1;31m  [0;1;37m  [0;1;31m  [0;33m [0;1;31m  [0;1;31;41m   [0;1;31;40m      [0;1;30;40m [0;1;31;40m             [0;33m  [0;1;31m      [0m [36m      [0;1;36;46m    [0;36m    [0;1;36m   [0m
+[37m[0;1;34m[0;34m[0;1;34m[0m[36m[0;37m[0;1;31m[0;1;37m[0;1;31m[0;33m[0;1;31m[0m[36m[0;1;36m[0m     [1;34m       [0m [36m [0m    [1;31m  [0;1;37m  [0;1;31m  [0;33m [0;1;31m  [0;1;31;41m   [0;1;31;40m      [0;1;30;40m [0;1;31;40m             [0;33m  [0;1;31m      [0m [36m      [0;1;36;46m    [0;36m    [0;1;36m   [0m
         [36m [0;37m [0;1;36m,;[0;36m8Iƒ│[0;1;36m/[0m [1;31m;$$$$$[0;33m$[0;1;31mƒƒƒƒƒƒƒ$$''[0;1;30m  [0;1;31m`$$$$$$$$$$$$$$$$$$$;[0;36m,ÑÑÑÑÑÑÑÑÑÑÑÑÑ[0;1;36mƒ;\[0m
         [1;36m\8Ñ[0;36mÑÑÑÑÑÑ[0;37m [0;1;31m/$$$$$[0;33m$$[0;1;31m$$$$$$$$$p;$$$$$;;;;;ƒƒ[0;1;31;41mƒƒ[0;1;31;40mƒƒƒ$$$\[0m  [36m`*s││ÑÑÑÑÑÑ[0;1;36mÑÑÑ[0m
       [1;36mMÑÑÑ[0;36mÑÑÑÑÑÑÑ/[0;37m [0;1;31m/$$$$[0;33m$$[0;1;31m$;;;$$$$$$$$$$$$$$$$$$ƒ[0mƒƒ[1;37mƒ[0;1;31mƒ$$$$\[0m     [36m`ⁿ*sÑÑÑ[0;1;36mÑli;[0m

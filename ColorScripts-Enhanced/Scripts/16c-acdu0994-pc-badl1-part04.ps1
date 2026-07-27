@@ -5,7 +5,7 @@
 # Source SHA-256: aa81a3debfce9f5df1a58ae711376b6e5f71c1baf4e4f9cea0c11c6a12f69c80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-BADL1.ANS by P-Chan (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The BadLands
 # SAUCE Author: P-Chan
 # SAUCE Group: ACiD Productions
@@ -34,7 +34,7 @@ Write-Host '
      [1;30;40m▄[0;1;30;47m▀▀█[0;1;30;40m▀[0m               [1;30;40mWouldn''t you like a shot?[0m                [1;30;40m██[0;1;30;47m▓[0;1;30;40m█[0m
 [1;30;40m    ▐[0;1;30;47m░▒█[0;1;30;40m▌[0m                                                         [1;30;40m██[0;1;30;47m▓[0;1;30;40m█[0m
 [1;30;40m    █[0;1;30;47m▒▓[0;1;30;40m█[0m                     [32m► Th[0;1;32me B[0;1;37madL[0;1;32man[0;32mds ◄[0m                     [1;30m██[0;1;30;47m█[0;1;30;40m█[0m
-[1;30;40m    █[0;1;30;47m▓[0;1;30;40m██[0m                      [32m1-4[0;1;32m08-[0;1;37m268[0;1;32m-4[0;32m251[0m                      [1;30m██[0;1;30;47m█[0;1;30;40m█[0m
+[1;30;40m    █[0;1;30;47m▓[0;1;30;40m██[0m                      [32m   [0;1;32m   [0;1;37m   [0;1;32m  [0;32m   [0m                      [1;30m██[0;1;30;47m█[0;1;30;40m█[0m
 [1;30;40m    █[0;1;30;47m▓[0;1;30;40m██[0m                [32mSysO[0;1;32mp: So[0;1;37multaker [0;1;32m<UiD [0;32mPREZ>[0m               [1;30m████ [0;32m▀[0m
     [1;30m████[0m                  [32mCo-Sy[0;1;32ms: Mi[0;1;37mdnigh[0;1;32mt Sh[0;32madow[0m                 [1;30m████[0m
 [34m    [0;1;30m████[0m                [32m     [0;1;32m     [0;1;37m       [0;1;32m     [0;32m     [0m               [1;30m██[0;1;30;47m█[0;1;30;40m█[0m
@@ -58,6 +58,5 @@ Write-Host '
 
                                                                 [32m▄[0m
                                 [37m ┤           [0m
-                              [37m                 [0m
-
+[37m[0m
                            [37m1 0 0 %   O R i G I N A L[0m'

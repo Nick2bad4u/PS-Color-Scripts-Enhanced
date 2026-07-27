@@ -5,7 +5,7 @@
 # Source SHA-256: febc0c367ca335d1729da7a22ad74bb8ceaae639a03c1a7a77bd26202a8c407f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EYE-CAKE.ANS by Eyeball (JiVE); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Cake + S0domy
 # SAUCE Author: Eyeball
 # SAUCE Group: JiVE
@@ -13,8 +13,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [1;30m           [0m [1;30m      [0m [1;30m      [0m                         [1;30m                       [0m
- [32m$$$$$$$$ⁿ''''[0;1;37m,y@y,[0;32m``ⁿ$$$$$$$$$$$$$$$$$$$$$$$$$ⁿⁿⁿ$$$$$$$$$$$$ⁿ''''[0;1;37m,y@y[0m,[32m``ⁿ$$$$$$$$[0;37m [0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m [32m$$$$$$$$ⁿ''''[0;1;37m,y@y,[0;32m``ⁿ$$$$$$$$$$$$$$$$$$$$$$$$$ⁿⁿⁿ$$$$$$$$$$$$ⁿ''''[0;1;37m,y@y[0m,[32m``ⁿ$$$$$$$$[0;37m [0m
  [32m$$$$$S''[0;1;37m,y$$$[0m$[1m$$$$$y[0;32m`$$$$$$ⁿ$$$$$$$$$$$$$$$$$y, `$$$$ⁿ''$$$$''[0;37my$[0;1;37m$$$$$$$[0m$y,[32m`$$$$$$[0;37m [0m
  [32m$$$$$''[0;1;30my[0mI[1m$$$$[0m$[1m''[0m,yy[1m,`[0;32m,$$$$$$y$$$$$$$$$$$$$$$$$$$y,$$$$, :$$$,[0;37m`[0;1;30mⁿⁿⁿⁿⁿ$[0m$$[1m$$$[0my[32m`$$$$$[0;37m [0m
  [32m$$$$$,[0;37m`III[0;1;37m$''[0;1;30my[0mI[1m$$$$$,[0;32m`S$$$$$$$ⁿⁿ''''````````````''''ⁿⁿS$$$,$$S''[0;1;37m,$$$[0m$$$y[1m`$$$[0m$''[32m,$ⁿ$$$[0;37m [0m

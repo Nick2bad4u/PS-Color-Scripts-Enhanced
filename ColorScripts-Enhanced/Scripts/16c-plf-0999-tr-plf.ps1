@@ -5,7 +5,7 @@
 # Source SHA-256: d424942e2ed2ab440d3be17bded5c5f5bf57163be9086a95cb1adb318ca33025
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-PLF.ANS by Tarot (poffelipoff); released in plf-0999 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Poffelipoff Ansee
 # SAUCE Author: Tarot
 # SAUCE Group: poffelipoff
@@ -16,8 +16,7 @@
 
 Write-Host '
 
-                                                                [35m              [0m
-[1;32;46m▓▓[0;1;32;40m█████[0;1;36;40m████[0;1;32;40m█[0;1;32;46m▓[0m  [1;32m▐[0;1;36m█████[0;1;32m██[0;1;36m [0m  [1;32m▀▀██[0;1;36m█████████████████[0;1;32m██▀▀[0m [1;33m▄[0;1;37m▄▄[0;1;37;47m▓▓█[0;1;37;40m▀▀▀[0;1;37;47m▀[0m▄▄▄▄▄▄▄▄  [1;30m▀[0m▀[1m▀▀[0;1;47m▓▒[0m▄
+[35m[0m[1;32;46m▓▓[0;1;32;40m█████[0;1;36;40m████[0;1;32;40m█[0;1;32;46m▓[0m  [1;32m▐[0;1;36m█████[0;1;32m██[0;1;36m [0m  [1;32m▀▀██[0;1;36m█████████████████[0;1;32m██▀▀[0m [1;33m▄[0;1;37m▄▄[0;1;37;47m▓▓█[0;1;37;40m▀▀▀[0;1;37;47m▀[0m▄▄▄▄▄▄▄▄  [1;30m▀[0m▀[1m▀▀[0;1;47m▓▒[0m▄
 [1;32m███▀▀█[0m  [1;36m [0;1;32m███[0m  [1;33m▌[0;1;32m▐█[0;1;36m█████[0;1;32m█[0m  [1;33m▄[0m  [1;32m█▀▀▀[0m          [1;32m▀▀[0;1;36m▀[0;1;32m██▀[0m [1;33m▄█[0;1;37;47m██[0;1;37;40m▀▀▄[0m▄[1;47m▀▀[0m█[1;47m  [0m▀▀[1;47m▄▄▄▄[0m█████[1m▒▒[0m▄[1m▄[0m [1;30m▀[0m
 [1;32m█[0;1;36m█[0;1;32m█[0m [1;33m▄[0m  [1;33m▀[0m [1;32m▀▀[0m  [1;33m█▌[0m [1;32m██[0;1;36m███[0;1;32m█[0m   [1m [0m  [1;36m [0m  [1m▄▄▄[0;1;47m▒▒░░[0m███▄▄[1m▄[0m  [1;32m▀[0m [1;33;47m█[0;1;37;40m█[0;1;37;47m█[0;1;37;40m▀[0m [1m▄[0;1;47m▀[0m█[1;47m▄[0m▀[1m▀[0m [1m▄██████████▄[0m▀▀▀[1;47m▒▒▒[0;1;40m▄[0m
 [1;36m███[0;1;32m▄[0m [1;33m▀█▄[0;1;37m██▄[0;1;33m▄█[0;1;37m██[0;1;33m▄[0m [1;32m▀[0;1;32;46m▓▓[0;1;32;40m▀[0m   [1;33m▀[0m   [1m▄[0;1;47m██▓▓[0;1;40m▀▀[0;1;47m▄[0;1;40m▄▄[0;1;33;40m▄[0m [1m▀[0m▀▀[1;47m▄[0m█[1;47m▀[0;1;40m▄[0;1;33;40m▐█[0;1;37;47m█[0;1;33;40m▌[0m [1m▐[0;1;47m▌[0m██▄  [1m▀███▄▄▄[0;1;47m▓▌[0;1;30;44m▌[0m [1m▀██[0;1;33m▄[0m  [1;47m▓▓[0;1;40m█[0m

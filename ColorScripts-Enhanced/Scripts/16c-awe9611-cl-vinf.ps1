@@ -5,7 +5,7 @@
 # Source SHA-256: 7957f4cfde9aa7bdc1fad1fec0a9f0b5fa59d08cf665a07ef19fc7f131fde7a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-VINF.ANS by Colourless (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Virtual Infinity
 # SAUCE Author: Colourless
 # SAUCE Group: AWE Lettering
@@ -35,5 +35,5 @@ Write-Host '
 [33m  ▄░[0;30;43m░ [0;1;31;43m■▀[0;33m▀  [0;33;42m [0;1;32;42m░    [0;32m▄ ▄   [0;33m▀[0;1;31;43m▀▌▄     [0;43m░[0;33;47m▓[0;33;40m▌▐▌  [0;1;37;40mc[0;33m▀ [0;1;37mommand_[0m      [33m▐[0;1;37;43mc[0;33m▌ [0;1;37mommand_   [0;33m▐[0;30;43m░[0;33;40m▌[0m
 [33;40m   ▀▀▀ ▄  [0;32;40m▐▄[0;32;42m [0;32;40m▀▀[0;32;42m    [0;32;40m▌ [0;33;40m▀▀▀▀▄[0;33;43m     [0;33;40m▀▀▀[0;33;43m [0;33;40m▄▀ ▄[0m                [33;40m░▀ ▄[0m          [33;40m▄[0;33;43m [0;33;40m▀ ▄[0m
 [33;40m ▐▄   ▀[0;1;31;43m▀[0;33m▀[0;32m▄▀[0;1;32;42m░     [0;32m▄▄▄░  [0;33m▄[0;1;31m▄[0;1;31;47m▓[0;1;31;43m▌░  [0;33m▌  [0;1;30m░[0;33m▐▄[0;33;43m [0;33;40m▌▄ ▀ ▐▄▄▄▄  [0;1;37;40mcommand[0;33m░[0;30;43m░[0;1;37;43m_[0;33m▌ ▄▄▄▄ ░[0;30;43m░[0;33;40m▌ ▄[0;1;31;40m▄▌[0;33m▐▌[0m
-        [32m▀[0;1;32;42m▀[0;32m▀▀▀[0;30;42m░  [0;1;32;42m▀▐[0;1;32;47m▓[0;1;32;42m▄▄[0;32m▄   [0;1;31m▀   [0;33m▀▀ ▄▄[0;1;31;43m░[0;33m▀[0m              [1;30mcl - cless@total.net [0;33m▄ ▀[0m
+        [32m▀[0;1;32;42m▀[0;32m▀▀▀[0;30;42m░  [0;1;32;42m▀▐[0;1;32;47m▓[0;1;32;42m▄▄[0;32m▄   [0;1;31m▀   [0;33m▀▀ ▄▄[0;1;31;43m░[0;33m▀[0m              [1;30m                     [0;33m▄ ▀[0m
       [32m▀▌[0;1;37mcl[0;32m▐▄▄ ▄  ▀[0;1;32m▀▀[0;32m▌▄▄[0m'

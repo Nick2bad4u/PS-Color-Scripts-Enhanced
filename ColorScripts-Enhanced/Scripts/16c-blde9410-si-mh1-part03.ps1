@@ -5,7 +5,7 @@
 # Source SHA-256: 32587f4ae9ca4a03551b7901cf7c57b3b2f49e9d41de0a2a166cdf2770145b34
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-MH1.ANS by Silence (Blade Productions); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mass Hysteria
 # SAUCE Author: Silence
 # SAUCE Group: Blade Productions
@@ -29,7 +29,7 @@ Write-Host '
            [1;37;41m▒[0m  [1;30;41m▒[0m     [31m▓[0m          [31m▀ ▒[0m      [31m░ ▀[0m     [31m░  ▀[0m     [31m░[0m     [1;37;41m░[0m  [1;30;41m░[0m   [1;37;40m▒▓▓██▓[0m
            [1;37;41m▓[0m  [1;30;41m▓[0m                  [31m░[0m                             [1;37;41m▒[0m  [1;30;41m▒[0m     [1;37;40m▒▓[0m
            [1;37;41m▒[0m  [1;30;41m▒[0m                m[1mass  hysteri[0ma                  [1;41m▒[0m  [1;30;41m▒[0m     [1;37;40m░▒[0m
-           [1;37;41m▒[0m  [1;30;41m▒[0m                 2[1m03.859.166[0m9                   [1;41m▓[0m  [1;30;41m▓[0m      [1;37;40m░[0m
+           [1;37;41m▒[0m  [1;30;41m▒[0m                  [1m          [0m                    [1;41m▓[0m  [1;30;41m▓[0m      [1;37;40m░[0m
            [1;37;41m░[0m  [1;30;41m░[0m                  o[1mblivion/[0m2                    [1;41m▒[0m  [1;30;41m▒[0m
            [1;37;41m▒[0m  [1;30;41m▒[0m               [1m     ■          [0m                 [1;41m▓[0m  [1;30;41m▓[0m
            [1;37;41m░[0m  [1;30;41m░[0m                9[1m600-28.8 onl[0my                  [1;41m▓[0m  [1;30;41m▓[0m
@@ -40,12 +40,9 @@ Write-Host '
      [1;37;40m░[0m      [1;31;40m▀▄▄▄[0;31m▄[0;1;31m▄[0;31m▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄[0;31m▄▄▄[0;1;30m▄▄[0;31m▄[0;1;30m▄▄▄[0;31m▄[0;1;30m▄▄▄▄▄▄▄▄[0;31m▄[0;1;30m▄▄▄▄▄▄▄▄▄[0;31m▄[0;1;30m▄▄▄▄▄▄▀[0m
 
 
-          [1;30m    [0m  [1;30m [0m          [1;30m        [0m [1;30m    [0m [1;30m   [0m [1;30m         [0m [1;30m  [0m       [1;30m [0m     
-
-             [1m                                                    [0m   
-
-       [1;30m                                                                 [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1m[0m
+[1;30m[0m
           ▄[1;47m░░[0m▄ ▄ ▄[1;47m░[0m [1;47m░░[0m▄▀▄[1;47m░░[0m▄ ▄[1;47m░▒▒[0m▄
   [1;30m▒[0m      [1;37;47m░▒▒▒▓▓[0m [1;37;47m▒▓[0;1;37;40m▌[0m▄▀[1;47m▒▓▓[0m ▄▀[1;47m▒▓[0m [1;47m░[0m ▀[1;47m▒[0m    [1;30;40m▒[0m                          [1;37;47m░  [0m▄▀[47m [0;40m▄▀[0;47m  [0;40m▄▀▄[0m
 [1;30;40m▄ ▓■▓▄▄ [0m▀ [1m▀▀▀▀ ▀▀▀  [0;1;30m▄ [0;1;37m▀▀ [0m▀  [1m▀▀ ▀  [0;1;30m▄  ▄▓▄▄▄■▓▄▄▄ ▄▓▄▄▓▒ ▓▄■░▓▄▄▓▄ [0;1;37;47m░   [0m [1;37;47m  [0m [1;37;47m   [0m [1;37;47m  [0m

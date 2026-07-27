@@ -5,7 +5,7 @@
 # Source SHA-256: 38317734d88a5a1b43c49f6d64f3fc954ffe92ad5d44a8c1f7492db91057c397
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-WHAM1.ANS by Andrew Nice (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Whammy Bar
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -47,19 +47,9 @@ Write-Host '
                      ▀[1;30m▀[0m▀▀▀▀▀▀▀[1m▀[0m▀[1m▀ ▀▀[0m▀[1m▀▀ ▀▀▀▀▀ ▀▀▀▀▀ ▀[0m▀[1m▀▀[0m▀▀[1m▀[0m
 
 [1;30mT[0m     [1;30mH[0m     [1;30mE[0m           [1;30mW[0m     [1;30mH[0m     [1;30mA[0m     [1;30mM[0m     [1;30mM[0m     [1;30mY[0m           [1;30mB[0m     [1;30mA[0m     [1;30mR[0m
-     [1;30m7[0m     [1;30mo[0m     [1;30m8[0m             [1;30m9[0m     [1;30m4[0m     [1;30m1[0m             [1;30m7[0m     [1;30m5[0m     [1;30m5[0m     [1;30m1[0m
-
-                                  [1;30m              [0m
-          [1;30m                                                            [0m
-                   [1;30m                                          [0m
-           [1;30m                                                          [0m
-             [1;30m                                                     [0m
-
-            [1;30m                                                        [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-                 [1;30m                                              [0m
-
-                                [1;30m  [0;36m   [0;1;36m      [0;36m   [0;1;30m  [0m
-                               [1;30m [0;36m [0;1;36m       [0;36m [0;1;30m   [0;36m [0;1;36m  [0;36m [0;1;30m [0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m'
+[1;30m[0m
+[1;30m[0;36m[0;1;36m[0;36m[0;1;30m[0m[1;30m[0;36m[0;1;36m[0;36m[0;1;30m[0;36m[0;1;36m[0;36m[0;1;30m[0m[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

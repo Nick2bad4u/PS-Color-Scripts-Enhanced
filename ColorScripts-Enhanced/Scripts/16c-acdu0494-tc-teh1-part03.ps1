@@ -5,7 +5,7 @@
 # Source SHA-256: 305dc32779d08f20d8768d1e00ae5495a792545770725f6b5ef45902530c2425
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TC-TEH1.ANS by The Clone (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Eleventh Hour
 # SAUCE Author: The Clone
 # SAUCE Group: ACiD Productions
@@ -36,10 +36,7 @@ Write-Host '
                          [33;40m░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
                                     [33;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 
-              [1m [0m [1;30m                                                    [0m [1m [0m
-         [1m [0m [1;30m                                                         [0m [1m [0m
-         [1m [0m  [1;30m                                            [0m    [1m [0m
-
+[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m
 
 
       [1m▄▄[0m        [1m▄▄[0m
@@ -56,6 +53,4 @@ Write-Host '
 [1;30;40m   ▀▀▀[0;1;30;47m▓▓[0;1;30;40m▄▄  ▄▀▀▀[0;1;30;47m▓▓[0;1;30;40m▄  ▄  ▀[0m      [1;30;40m▀[0m     [1;30;40m▀[0m     [1;30;40m▀▀▀[0m        [1;30;40m▀▀▀▀    ▀[0m     [1;30;40m▀[0m
         [1;30;40m▀▀▀▀[0m      [1;30;40m▀▀▀[0m
                      [1;30;40m∙ [0mT H E   E L E V E N T H   H O U R [1;30m∙[0m
-                [1;30m  [0m             [1;30m  [0m           [1;30m  [0m                 [1;30m [0m
-                [1;30m  [0m               [1;30m  [0m                            [1;30m [0m
-                  [1;30m  [0m ┤                 [1;30m  [0m                   [1;30m [0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m                  [1;30m  [0m ┤                 [1;30m  [0m                   [1;30m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5e7e169a492ddac4c53f1665dfc51b598490ca7a9964315eae533dd349365e91
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANSI20.ANS by George Ramos (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -19,7 +19,7 @@ Write-Host '
 [1;35;46m                                                                               [0m
 [1;35;46m    [0;1;31;46mfrom Morning Star BBS                     [0;46m▄▄▄▄[0;40m████[0;46m                         [0m
 [46m    [0;1;46mSysop * George Ramos         [0;34;46m▀▀▀[0;34;40m██[0;34;46m▄▄▄▄▄[0;37;46m▄[0;37;40m██████[0;30;47m┌─────[0;37;46m▄                      [0m
-[37;46m    [0;1;32;46m(707) 263-6612                 [0;31;46m▄▄[0;31;47m [0;30;47m┐ [0;34;47m▀██▄  [0;30;47m┌───┘ [0;1;31;47m▄███▄  [0;46m▄  [0;1;33;46m─────────────    [0m
+[37;46m    [0;1;32;46m                               [0;31;46m▄▄[0;31;47m [0;30;47m┐ [0;34;47m▀██▄  [0;30;47m┌───┘ [0;1;31;47m▄███▄  [0;46m▄  [0;1;33;46m─────────────    [0m
 [36;40m█████████████████████████[0;37;46m▄▄[0;37;40m█████[0;37;46m▄▄[0;30;47m│[0;31;47m▀  [0;30;47m└   [0;34;47m▀██[0;30;47m─┘[0;1;31;47m▀▀█▀███████▄  [0;1;31;46m                  [0m
 [1;31;42m                        [0;42m▄[0;30;47m┌┌┌[0;37;40m█[0;37;42m▀[0;37;40m████[0;30;47m││ └┬┘    [0;34;47m█[0;37;42m▀▀[0;37;47m      [0;1;31;47m▀▀▀     [0;1;31;42m  [0;1;33;42m──────────────  [0m
 [1;33;42m                       [0;31;42m▀[0;37;42m▀▀[0;37;41m▀[0;37;42m▀▀[0;31;42m▀ [0;37;42m▀[0;37;40m██[0;30;47m└┴──┴─────[0;37;42m▄      [0;1;33;42m─────────────────────────   [0m

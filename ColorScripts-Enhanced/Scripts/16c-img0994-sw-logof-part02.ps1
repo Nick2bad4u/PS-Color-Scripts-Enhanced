@@ -5,7 +5,7 @@
 # Source SHA-256: 833dad5ed52c7c50d4e001652b37d36445005ff1bfe92288bb7152b3110f3d8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SW-LOGOF.ANS by Sword Weaver (img0994); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 35-68
 # Columns: 1-80
 
@@ -41,6 +41,6 @@ Write-Host '
 
                            [34;40m         [0m
 
-                         [34;40m708 305 3491[0m
+                         [34;40m            [0m
 
-                         [34;40m708 305 7854[0m'
+                         [34;40m            [0m'

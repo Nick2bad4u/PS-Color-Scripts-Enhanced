@@ -5,7 +5,7 @@
 # Source SHA-256: e68c9e037fd2eebd5a5b476fa6d7af4925e1c24134227ec96d0a6b896c0cb2bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S&4-ANSC.ANS by Absent Spinsister + Aesthetic (sense); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: anscii
 # SAUCE Author: AbsentSpinsister/43
 # SAUCE Group: sense
@@ -36,9 +36,7 @@ Write-Host '
  [30mansi world[0;1;30m|[0;30mw[0;36m$[0;1;36m$[0;30me[0;1;37m░░░[0m [1m██[0m [1;47m████[0;1;40m▄[0m     ░              [34m░░░[0m         [1;30m:[0m$7`└4[1m$$$$$[0m$. , ·[1m ''[0m
 [1;30m<<<--------''[0;30me[0;36m''[0;1;36m''[0m ░░░ [1m█[0;1;47m▀[0m  ▀[1m▀[0;1;47m███▄[0;1;40m▄▄▄[0m               [34m░░░[0m                [37m`''ⁿ┘│ [0m    [1;30m|[0m
 [30mi hack all ansi over[0;37m▀[0m      [1;37m▀[0;1;37;47m████[0;1;37;40m▀[0m▀                                           [1;30m|[0m
-[30m                                         [0;37m [0;1;37m    [0m    [1;30m [0m [1;30m      [0;36m  [0;1;36m   [0;1;37m  [0m [1m   [0m  [1;30m      [0m
-                                   [1;30m      [0m                      [1;30m            [0m
-                                    [1;30m|[0m
+[30m[0;37m[0;1;37m[0m[1;30m[0m[1;30m[0;36m[0;1;36m[0;1;37m[0m[1m[0m[1;30m[0m[1;30m[0m[1;30m[0m                                    [1;30m|[0m
                                     [1;30m`-------.[0m
                                             [1;30m|[0m
                                             [1;30m.[0m'

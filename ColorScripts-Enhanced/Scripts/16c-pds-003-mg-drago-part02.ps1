@@ -5,7 +5,7 @@
 # Source SHA-256: 2350e35cbd9fbad4c9b629c3fb2089e48a8cb6a4a300a106a7441365d7d8337a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MG-DRAGO.ANS by Magician (Paradise); released in pds-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dragons Lair
 # SAUCE Author: Magician
 # SAUCE Group: Paradise
@@ -35,7 +35,6 @@ Write-Host '
 
 [1;30m-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ DRAGONS LAiR +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-[0m
 
-                                                                             
 
 [1;47m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;47m█[0m
 [1;37;40m█[0m█████████[30;47m      [0;37;40m█[0;30;47m [0;37;40m████[0;30;47mMAGiCiAN of PARADiSE productions -96[0;37;40m█[0;30;47m                   [0;37;40m█[0;1;37;47m█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: d9775e630bd9530756bf0c2d8cff1eddc3a69bf7d389ce4e09da39093fbcf9b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-SOC1.ANS by Clark (jive1196); released in jive1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shadows of Cyberia
 # SAUCE Author: Clark
 # Lines: 1-25
@@ -24,7 +24,7 @@ Write-Host '
      [1;31;40m▀█[0;1;31;47m█[0;1;31;40m██    ▐[0;1;31;43m██[0;1;31;40m██████▄▄▄▄██████    [0m▄▄█████[1;47m▄▄▄▄▄▓[0;1;40m▀▀▀██[0;1;47m▄▄░ [0m████[1;47m░▄▄▄[0;1;40m██▀▀[0m
 [1;30;40m▒▒[0m     [1;31;40m█[0;1;31;47m██[0;1;31;40m█▄   [0;1;31;47m█[0;1;31;40m████████████████    [0m█[1;47m░░▄[0;1;40m██▀▀▀▀[0m         [1;40m▀▀▀▀▀▀▀▀▀▀▀[0m
         [1;31;40m███▀ [0;34m▓▄ [0;1;31m▀███████████[0;1;31;47m██[0;1;31;40m▀  [0;1;30;40m░░[0m▐[47m  [0;1;47m█[0;1;40m█▌ [0m░░      [1mShadow Of Cyberia[0m
-[1m    [0;1;30m██   [0;1;31m▀ [0;34m▄████▄  [0;1;31m▀█▀  ▀██▀▀[0m       ▀▀█[1;47m▀[0;1;40m█    [0m+o cyber shadow  602-451-8564
+[1m    [0;1;30m██   [0;1;31m▀ [0;34m▄████▄  [0;1;31m▀█▀  ▀██▀▀[0m       ▀▀█[1;47m▀[0;1;40m█    [0m                             
         [34m▄▄▓████████ [0;1;31m▀▄  ▄█   [0;34m░ █▄▓[0m      [37m▀[0;1;37m▀▄[0m
          [34m▀▀████████▌  [0;1;31m▀▀▀[0m     [34m▐████▄[0m            [1;31m▄[0m        [1;30mhpav \ coding \[0m
             [34m▀███████▄[0m         [34m███████▄[0m           [1;31m███▄▄[0m      [1;30mbeer net[0m

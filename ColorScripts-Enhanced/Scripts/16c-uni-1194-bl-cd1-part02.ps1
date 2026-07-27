@@ -5,7 +5,7 @@
 # Source SHA-256: d3981163512cea5a1f0424ef3ddc766cb28feaa5924d2d5ece0bcd1feba21b23
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-CD1.ANS by Black Lightning (Union); released in uni-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Chaos Domain
 # SAUCE Author: Black Lightning
 # SAUCE Group: Union
@@ -31,9 +31,6 @@ Write-Host '
 [30manywhere, anyTIME[0;34m▀▀▀▀▀▀    ▀  ■▀[0m        [34m▀▀▀[0m          [34m▀▀▀[0m       [34m▀▀▀▀[0m     [30mfamily.[0m
                         [1;36mD[0m      [36mO[0m      [1;34mM[0m      [1;37mA[0m      I      [1;32mN[0m                   [1;37m▄[0m
 [1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                                                                
-                                                            
-                                                         
 
 [30mSay it, say it,[0m            [1;30m▄ ▄ ▄▄  ▄  ▄  ▄▄[0m                  [30mW E L C O M E[0m
 [30mUNION![0m                     [1;30m▓▌▓ ▓▐▓ ▓ ▓ ▓ ▓▐▓  Is Cool.[0m       [30mT O T H E N E[0m

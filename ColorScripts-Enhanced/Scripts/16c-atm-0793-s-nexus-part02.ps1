@@ -5,7 +5,7 @@
 # Source SHA-256: be3f3d20d4970ef0a82875087d15fcbef2bf0f42a8b74bdcf2ed5e7af68af0d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S-NEXUS.ANS by Surface (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 38-79
 # Columns: 1-80
 
@@ -39,16 +39,6 @@ Write-Host '
 [31;40m█[0;1;31;45m▒▒▓▓▓▓▓▓▓[0;31m█    █[0;1;31;45m▓▓▓▓▓▓▓▓▒▒▒▒[0;31m█[0;1;31;45m▒▒▒▒[0;31m█▄▄▄▄▄▄▄▄    ▄█[0;1;31;45m░░░[0;31m███[0;1;31;45m▓▓▓▓▓[0;31m█▄   █[0;1;31;45m░[0;31m█ █[0;1;31;45m▒[0;31m█   ▀[0;31;45m█[0;1;31;45m▓▓▓[0;31m█[0m
 [31m█[0;1;31;45m▒▓▓▓▓▓▓▓▓[0;31m█    █[0;1;31;45m▓▓▓▓▓▓▓▓▓▓▓▓[0;31m█[0;1;31;45m▓▓▒▒▒▒▒▒▒▒▒▒[0;31;45m██[0m [31;40m▄█[0;1;31;45m░░░░░[0;31m█  ▀█[0;1;31;45m▓▓▓▓▓[0;31m█▄ █[0;1;31;45m░[0;31m█ █[0;1;31;45m▒[0;31m█[0m     [31m▀[0;31;45m█[0;1;31;45m▒[0;31m█[0m
 [31m ▀[0;31;45m████████[0;31;40m▀[0m     [31;40m▀[0;31;45m██████████[0;31;40m▀ ▀[0;31;45m███████████[0;31;40m▀ █[0;1;31;45m░░░░░[0;31m█▀[0m     [31m▀█[0;1;31;45m▓▓▓▓▓[0;31m██[0;1;31;45m░[0;31m█ █[0;1;31;45m▒[0;31m█[0m     [31m▄[0;31;45m█[0;1;31;45m▒[0;31m█[0m
-                  [1;35m([0;1;36m301[0;1;35m)[0;1;36m608[0;1;35m-[0;1;36m2137[0m             [31m▀▀▀▀▀[0m         [31m▀████▀█[0;1;31;45m░▒[0;31;45m█[0;1;31;45m▒▒[0;31m█   ▄[0;31;45m█[0;1;31;45m▒▒[0;31;45m█[0;31;40m▀[0m
+                  [1;35m [0;1;36m   [0;1;35m [0;1;36m   [0;1;35m [0;1;36m    [0m             [31m▀▀▀▀▀[0m         [31m▀████▀█[0;1;31;45m░▒[0;31;45m█[0;1;31;45m▒▒[0;31m█   ▄[0;31;45m█[0;1;31;45m▒▒[0;31;45m█[0;31;40m▀[0m
                                                                  [31;40m▀▀▀▀▀  ▄[0;31;45m█[0;1;31;45m▒▒[0;31;45m█[0;31;40m▀[0m
-[31;40m   [0;1;33;40m                     [0m                         [1;32;40m                   [0m     [31m▀▀▀[0m
-      [1;33m                               [0m                [1;32m                    [0m
-        [1;33m       [0;1;32m [0;1;33m       [0;1;32m [0;1;33m        [0;1;32m [0;1;33m          [0m      [1;32m      [0m
-        [31m                            [0m                 [1;32m         [0m
-      [1;33m                                 [0m          [1;32m        [0m
-[1;32m  [0;1;33m                          [0;1;34m [0;31m [0;1;34m [0;31m [0;1;34m [0;31m [0;1;34m [0;31m [0;1;34m [0;1;33m [0m               [1;32m      [0;1;36m [0;1;32m        [0;1;36m [0;1;32m    [0m
-      [1;33m                       [0m                                [1;32m     [0m
-        [1;33m                               [0m          [1;32m             [0m
-        [1;33m                                    [0m
-     [1;33m                         [0m                               [1;34m       [0;1;33m [0;31m    [0;1;33m [0;31m [0m
-                  [1;35m([0;1;36m301[0;1;35m)[0;1;36m608[0;1;35m-[0;1;36m2137[0m'
+[31;40m   [0;1;33;40m                     [0m                         [1;32;40m                   [0m     [31m▀▀▀[0m[1;33m[0m[1;32m[0m[1;33m[0;1;32m[0;1;33m[0;1;32m[0;1;33m[0;1;32m[0;1;33m[0m[1;32m[0m[31m[0m[1;32m[0m[1;33m[0m[1;32m[0m[1;32m[0;1;33m[0;1;34m[0;31m[0;1;34m[0;31m[0;1;34m[0;31m[0;1;34m[0;31m[0;1;34m[0;1;33m[0m[1;32m[0;1;36m[0;1;32m[0;1;36m[0;1;32m[0m[1;33m[0m[1;32m[0m[1;33m[0m[1;32m[0m[1;33m[0m[1;33m[0m[1;34m[0;1;33m[0;31m[0;1;33m[0;31m[0m[1;35m[0;1;36m[0;1;35m[0;1;36m[0;1;35m[0;1;36m[0m'

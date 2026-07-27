@@ -5,7 +5,7 @@
 # Source SHA-256: ac8747ec67a8774955a9f5c6cef4e091600108df627a6c9c28dffba193b2d6b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLUEHELL.ANS by Crusader (bh-02); released in bh-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -26,9 +26,6 @@ Write-Host '
                 [31m░[0m      [31m░[0m      [31m░[0m                  [31m░ ░[0m      [31m░[0m      [31m░[0m
                           [31m░[0m       [1;30m»[0;34m»[0;1;34m» [0;1;30mB[0;34mB[0;1;34m$ «[0;34m«[0;1;30m«[0m
 
-               [1;30m   [0;34m  [0;1;34m  [0;34m  [0;1;30m  [0;34m [0;1;34m [0;34m  [0;1;30m   [0;34m [0;1;34m [0;34m [0;1;30m   [0;34m [0;1;34m [0;1;30m  [0;34m [0;1;34m [0;34m  [0;1;30m   [0;34m  [0;1;34m [0;34m  [0;1;30m   [0;34m [0;1;34m [0;34m [0;1;30m   [0m
-             [1;30m   [0;34m [0;1;34m [0;1;30m   [0;34m [0;1;34m [0;34m [0;1;30m   [0;34m [0;1;34m [0;34m [0;1;30m     [0;34m [0;1;34m [0;1;30m   [0;34m [0;1;34m [0;34m [0;1;30m   [0;34m  [0;1;34m [0;34m [0;1;30m    [0;34m [0;1;34m [0;34m  [0;1;30m [0;34m  [0;1;34m [0;34m [0;1;30m   [0m
-                    [1;30m   [0;34m [0;1;34m [0;34m [0;1;30m   [0;34m  [0;1;34m [0;34m [0;1;30m    [0;34m [0;1;34m [0;34m  [0;1;30m [0;34m  [0;1;34m [0;34m  [0;1;30m   [0;34m  [0;1;34m [0;34m [0;1;30m   [0m
-
+[1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0m[1;30m[0;34m[0;1;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0m[1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0;34m[0;1;34m[0;34m[0;1;30m[0m
 [1;30m    [0;34mD[0;1;34mÆ [0;1;30mF[0;34mUC[0;1;34mK[0;34mI''[0;1;30m∩ ∩[0;34mUM[0;1;34mB[0;34mÆ[0;1;30mS = ∩[0;34m0[0;1;34mD[0;1;30mε [0;1;34m#[0;34m1[0;1;30m: +[0;34m49[0;1;30m·[0;34m2[0;1;34m21[0;1;30m·[0;1;34m34[0;34m381 [0;1;30m[[0;1;34m28800[0;1;30m][0m
                         [1;30m∩[0;34m0[0;1;34mD[0;1;30mε [0;1;34m#[0;34m2[0;1;30m: +[0;34m49[0;1;30m·[0;34m2[0;1;34m21[0;1;30m·[0;1;34m934[0;1;30m·[0;1;34m8[0;34m812 [0;1;30m[[0;1;34mISD∩[0;1;30m][0m'

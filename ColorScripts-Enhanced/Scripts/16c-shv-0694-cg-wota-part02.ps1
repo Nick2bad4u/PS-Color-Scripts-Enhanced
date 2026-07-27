@@ -5,7 +5,7 @@
 # Source SHA-256: c257a6f48d3402afa9ef4e7c276f681859f19b4d77882edf3e5dbb7504b8275b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-WOTA.ANS by Cheese Grater (shv-0694); released in shv-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -48,7 +48,7 @@ Write-Host '
 [1;34;40m  [0;1;37;40m▄[0;1;34;40m▀[0;1;34;44m░░[0;1;34;40m▄[0;1;30;40m▀[0;1;34;40m▄[0;1;30;40m▀[0;1;30;47m▒▒▒▒▒▒░░░░░ ░    [0;1;37;47m░░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓██████[0m      [1;34;40m▐[0;1;34;44m▒▒▒▓[0;1;34;40m▄[0m        [1;34;40m▄[0;1;34;44m▓▓█[0m
 [1;34;40m  [0;1;37;40m█[0;1;30;47m▓[0;1;30;40m▄▄    [0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀           [1;34m▐[0;1;34;44m▒▒▓▒▒▒▓▒▒▓▒▓▓▓██[0;1;34;40m▀[0m
 [1;34;40m  [0;1;37;40m█[0;1;30;47m░░[0;1;30;40m█[0m           [36mThe [0;1;30mWrat[0;36mh of the A[0;1;36mpo[0;1;37mcal[0;1;36myp[0;36mse[0m                 [1;34m▐[0;1;34;44m░▒▒▒[0;1;34;40m▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;34;40m  [0;1;37;40m█[0;1;30;47m▒▒[0;1;30;40m█[0m                 [34m([0;1;34m310[0;34m) [0;1;34m470[0;34m-[0;1;34m7882[0m                        [1;34m▐[0;1;34;44m░░▒[0;1;34;40m▌  ▄▄▄▄▄▄[0m
+[1;34;40m  [0;1;37;40m█[0;1;30;47m▒▒[0;1;30;40m█[0m                 [34m [0;1;34m   [0;34m  [0;1;34m   [0;34m [0;1;34m    [0m                        [1;34m▐[0;1;34;44m░░▒[0;1;34;40m▌  ▄▄▄▄▄▄[0m
 [1;34;40m  [0;1;37;40m█[0;1;30;47m▒▒[0;1;30;40m█    [0;36mQ[0;1;36muic[0;1;37mk R[0;1;36mel[0;36mease[0;1;30ms[0m             [36mH[0;1;36mig[0;1;37mh Sp[0;1;36meed [0;36mOnl[0;1;30my[0m          [1;34;44m░░░[0m [1;34;44m░▒▒▓▓▓▓▓▓██[0m [1;34;40m▄[0m
 [1;34;40m  [0;1;37;40m█[0;1;37;47m  [0;1;30;40m█    [0;36mNo [0;1;36mFea[0;1;37mr W[0;1;36mHQ[0m                [36mAc[0;1;36mcep[0;1;37mting [0;1;36mqu[0;36malit[0;1;30my Users  [0;1;34;44m░[0m [1;34;40m▄[0;1;34;44m░▒▓▓[0;1;34;40m▀▀▀▀▀[0m
 [1;34;40m  [0;1;37;40m█[0;1;37;47m░░[0;1;30;40m█    [0;36mDiVE[0;1;36mRSi[0;1;37mON H[0;1;36mom[0;36me [0;1;30mBeta [0;36mSiTE[0m                            [1;34m▄ [0;1;34;44m░▒▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 32039268d5ddcf736a32c204eeeca87115b1ecf49409ba6e1f40356a6e73c095
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DF-AR2.ANS by Darkforce (Integrity); released in int-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Abstract Realisms
 # SAUCE Author: Darkforce
 # SAUCE Group: Integrity
@@ -18,7 +18,7 @@ Write-Host '
 [1;30m▒▓▀▀█▀[0;1;31m▄▄▀▀■[0;1;30m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
 [1;30m░[0m [1;30m█▀[0;1;31m▄[0;1;31;41m▓[0;1;31;40m▀[0;31m [0;1;30m▀▀▀▀▀ [0;31m▀▄[0;1;30m▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m [1;30m█[0m
 [1;30m [0m [1;30m█[0;1;31m▐[0;1;31;41m▒[0;31m▌[0m         [31m▐▌[0m   [1;30m▒[0m                                                       [1;30m█[0m [1;30m█[0m
-[1;30m░[0m [1;30m█[0m [31m▀[0;1;31;41m░[0;31m▄[0m       [31m▄▀[0m    [1;30m░[0m  Abstract Realisms - (604) 980-9512                   [1;30m█[0m [1;30m▓[0m
+[1;30m░[0m [1;30m█[0m [31m▀[0;1;31;41m░[0;31m▄[0m       [31m▄▀[0m    [1;30m░[0m                                                       [1;30m█[0m [1;30m▓[0m
 [1;30m▒[0m [1;30m█[0m   [31m▀▀▓▄▄▄▀▀[0m      [1;30m [0m                                                       [1;30m█[0m [1;30m▒[0m
 [1;30m▓[0m [1;30m█[0m      [31m▐[0;1;31;41m░[0;31m▄▄▄▀▀▀[0m   [1;30m░[0m                                                       [1;30m█[0m [1;30m░[0m
 [1;30m█[0m [1;30m█[0m [31m▄▄▀▀▀[0;1;31;41m░▒[0;31m [0;37m [0;31m [0;1;31m▄▄▀[0m   [1;30m▒[0m                                                       [1;30m█[0m [1;30m [0m

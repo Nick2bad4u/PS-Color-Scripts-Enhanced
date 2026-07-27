@@ -5,7 +5,7 @@
 # Source SHA-256: f0e5c023ccd98f184b9ec6f6277ecbc9aa718912f617e418a07f003524b8353b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-XSKAN.ANS by strahd (SKANK); released in sknk0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: kill0h kl0wn
 # SAUCE Author: strahd
 # SAUCE Group: SKANK
@@ -51,8 +51,7 @@ Write-Host '
 [33m       [0m
 [37m-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-[0m
 
-    [37m                                                                   [0m
-
+[37m[0m
 
 
 [37m-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3c2c94ea6c8349b6a902f68b302a4e231b1b8fd60d8a15a0e9d3416fcb902232
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STH-MUD2.ANS by seethe (READ THE INI FILE); released in ws-asc9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: muh name is mud
 # SAUCE Author: seethe
 # SAUCE Group: READ THE INI FILE
@@ -39,12 +39,8 @@ Write-Host '
 [1;30m  [0;35m$$$$$$$$$$$$ [0;1;37m$$[0;34m.[0;1;34ms.[0;34m$$$$"$$$[0;1;34m$.[0;1;37m$$$[0;34m$$$[0;1;34m$[0;1;37m$$$$$$$$$$$$$$ $$$$$$$$$$$$$ $$$$$$$$$[0m
 [1;30m   [0;35m$$$$$$$$$$[0;34ms.[0;37m  [0;34m$$[0;1;34m$.[0;34m"$$.[0;35m [0;34m"$$[0;1;34m$.[0;1;37m$$[0;34m$$[0;1;34m$;[0m$[1m$$$$$$$$$$$$$ :[0m$[1m$$$$$$$$$$$ [0m$[1m$$$$$$$[0;1;30mseethe[0m
 [1;30m  [0;35m$$$$[0;1;34m$$$s[0;35m$$[0;34m$$$$.[0;35m [0;34m$$[0;1;34m$.[0;34m"$$.[0;1;30m [0;34m$$[0;1;34m$:[0;1;37m$$$[0;34m.ss[0;1;34m.[0;1;37m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;30m[wrnr][0m
-     [34m     [0;1;34m  [0m [34m        [0;1;34m [0;35m [0;34m      [0;1;34m  [0m   [34m   [0;1;34m [0m [1;30m                                  [0m
-[34m.$$$.[0;37m [0;34m"$$$$[0;1;34m$s.[0;34m"$$$$$$[0;1;34m$[0;35m [0;34m$$$""[0;1;34m"[0;1;35m [0;35m [0m    [34m"[0;1;34m"[0m
-[34m       [0;35m [0;34m     [0;1;34m    [0;34m   [0;1;34m [0m       [1;30m                   [0m   [1;30m                         [0m
- [34m               [0;1;34m    [0;35m  [0;37m    [0;1;30m                                                [0m
-   [34m"$$$$s[0;37m [0;34m`[0;37m  [0;34m"$$$$[0;1;34m$$[0m                         [1;30m(803) 345-6148[0m
-    [35m [0;34m"$$$$ss[0m   [34m$$$$[0;1;34m$[0m         [1;30m [0m
+[34m[0;1;34m[0m[34m[0;1;34m[0;35m[0;34m[0;1;34m[0m[34m[0;1;34m[0m[1;30m[0m[34m.$$$.[0;37m [0;34m"$$$$[0;1;34m$s.[0;34m"$$$$$$[0;1;34m$[0;35m [0;34m$$$""[0;1;34m"[0;1;35m [0;35m [0m    [34m"[0;1;34m"[0m
+[34m[0;35m[0;34m[0;1;34m[0;34m[0;1;34m[0m[1;30m[0m[1;30m[0m[34m[0;1;34m[0;35m[0;37m[0;1;30m[0m[34m[0;37m[0;34m[0;37m[0;34m[0;1;34m[0m[1;30m[0m    [35m [0;34m"$$$$ss[0m   [34m$$$$[0;1;34m$[0m         [1;30m [0m
       [34m"$$$$$$[0m   [34m$$$[0;1;34m$[0m
         [34m$$$$$[0m    [34m$[0;1;34m$''[0m
          [34m"$"[0m

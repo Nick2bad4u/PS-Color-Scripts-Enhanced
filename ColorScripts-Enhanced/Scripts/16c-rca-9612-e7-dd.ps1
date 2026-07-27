@@ -5,7 +5,7 @@
 # Source SHA-256: 375da026cab9a8be9b283dba12d5decb442bb4d841b83714e77f2915b2292785
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: E7-DD.ANS by eternal (rCa); released in rca-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: da drug
 # SAUCE Author: eternal
 # SAUCE Group: rCa
@@ -49,16 +49,5 @@ Write-Host '
 
 [1;30m─-- -+[0m
 
-[1;30m                                                                              [0m
-[1;30m                                                                           [0m [1;30m   [0m
-[1;30m                                                                              [0m
-[1;30m              [0m [1;30m                                                                [0m
-[1;30m                      [0m
-[1;30m                                                         [0m
-[1;30m                                               [0m
-[1;30m                                    [0m
-[1;30m                                                                           [0m [1;30m  [0m
-[1;30m                                                                               [0m
-[1;30m                                         [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
 [1;30m─-- -+[0m'

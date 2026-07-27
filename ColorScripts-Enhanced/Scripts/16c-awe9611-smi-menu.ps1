@@ -5,7 +5,7 @@
 # Source SHA-256: 9c9ce2a7cfb65441e39f4ca68deff3d7e6b71855775df59b690970815d53c647
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMI-MENU.ANS by Samurai (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Special Sauce Menu
 # SAUCE Author: Samurai
 # SAUCE Group: AWE Lettering
@@ -25,7 +25,7 @@ Write-Host '
 [37m [0;32m [0;36m▄[0;1;32;46m▒▒▓▓[0;1;32;40m▀[0;32m▀▀▀[0m        [37m [0m    [37m         [0m                                [33m▀[0;37m [0;33m▀[0;37m [0;33m▀[0;1;31;43m▀[0;33m▀█░[0;37m  [0;36m▀[0;1;36;46m [0;1;32;46m [0;36m░[0m
 [30;43m▓[0;36;40m▐[0;1;32;46m░░[0;36m▀[0;1;32m░░[0;32m     [0m                                                        [37m  [0;33m [0;1;33m [0;1;31;43m░░[0;30;43m▒▓[0;33;40m░[0;30;43m▓[0;36;40m▀[0m
 [33;40m▒[0;32;40m [0;36;40m▀█▄[0;32;40m [0m         [1;37;40m                                                [0m        [33m░[0;1;31;43m░░░░░░[0;33m▄[0m
-[30;43m░[0;33;40m▓[0;30;43m▒[0;33;40m░[0;37;40m [0;36;40m▄[0;1;36;46m▄[0;36m▄[0m       [1;37msomething like this, email noodles@erols.com[0m           [33m ▒[0;1;31;43m▒▒▒▒▒▒▒[0;33m▌[0m
+[30;43m░[0;33;40m▓[0;30;43m▒[0;33;40m░[0;37;40m [0;36;40m▄[0;1;36;46m▄[0;36m▄[0m       [1;37m                                            [0m           [33m ▒[0;1;31;43m▒▒▒▒▒▒▒[0;33m▌[0m
 [1;31;43m░░░[0;30;43m░[0;1;36;40m░░[0;36m▀[0m        [1;37mpay/trade only!  i''m doin'' enought freebies this[0m       [33m░█[0;1;31;43m▓▓▓▓[0;33m▌▀▀[0m
 [33m▐[0;1;31;43m▒▒▒▓▓[0;33m▄[0;1;33m░[0m       [1mmonth =P[0m                                                [33m▐[0;1;31;43m▀███▄[0;1;31;40m▄[0;1;33;40m░░[0m
 [33m ▀▐[0;1;31;43m▓███[0;33m█[0m                                                               [33m ▀▀▀▌▀[0;1;31m█[0;1;33m██[0m

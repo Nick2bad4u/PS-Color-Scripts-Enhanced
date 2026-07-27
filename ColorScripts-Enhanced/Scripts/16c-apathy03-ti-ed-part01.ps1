@@ -5,7 +5,7 @@
 # Source SHA-256: beb5672e2e23e6899b70f2c47b1528ceda2bc2602f0198b89e0dd6c0dd8685e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-ED.ANS by Trip (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Eternal Damnation
 # SAUCE Author: Trip
 # SAUCE Date: 19951106
@@ -18,7 +18,7 @@ Write-Host '
 Hey all in AnsiLand.. nothah dark, demonic, ▌ [1;30m▒▀  [0m▄▄▄▄▄▄▄[1m▄▄[0;1;47m▀█[0m█▀    [1;30m▀[0m     [1;30m▒░ [0m█
 cute, furry ansi from me. If an ansi by me       [1;47m▄■ [0m█[1;47m░░[0m█[1;47m▀[0m██[47m [0;1;47m▐▌[0m  ▄███[1;47m■[0m▄ [1;30m░ ▓▒ [0m█
 would just make your day, catch me on irc as [1;30m▓  [0m▐[1;47m▐█▄■[0m██████[1;47m■▀[0m▌  ▀[1;47m█▄■[0m█▀      ▀▀▀█
-_TRiP_ or e-mail me at thrust@primenet.com,  [1;30m▒  [0m█▀   ▀█[1;47m▄■[0m████        ▄█  [1;30m░  ░  [0m█
+                                             [1;30m▒  [0m█▀   ▀█[1;47m▄■[0m████        ▄█  [1;30m░  ░  [0m█
 and make sure it says its for trip. I don''t  [1;30m░[0m        ▐[1;47m▌[0m███[1;47m░[0m█   ▄[1;47m░[0m██[1;47m▀█[0m▌ [1;30m░   ▒░ [0m█
 ask for money, but if you wish to pay me for  [1;30m--- ░░ - [0;1;37;47m█[0m█[1;47m■▓■ [0m [1;30m- [0;1;37;47m▄■[0m██[1;47m▀ [0m [1;30m--- ▓ ░ [0m█
 my services it will guarentee yourself an      [1;30m▒▄[0m     ▐[1;47m█▌[0m████  [1m▐[0;1;47m▌░[0m██[1;47m░[0m█         █

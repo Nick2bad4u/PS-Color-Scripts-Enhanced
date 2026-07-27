@@ -5,7 +5,7 @@
 # Source SHA-256: f82e68f93873e249b2ceae4d56e7d32ab3d9a0f26a755cbd8f52cb207fd76c11
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HD-TBS1.ANS by Hound (UNiON); released in uni-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Burning Sanctuary
 # SAUCE Author: Hound
 # SAUCE Group: UNiON
@@ -39,23 +39,9 @@ Write-Host '
 [31;43m          [0m [31;43m [0m [31;43m░░░[0;33;40m▄▀[0;33;43m    [0;33;40m▄▀█ [0;33;43m   [0m [33;43m    [0;33;40m▄[0;33;43m   [0m [31;43m░[0m [31;43m    [0m  [31;43m          [0m [31;43m        [0;33;40m▄ ▀[0;33;43m    [0;33;40m▄▀[0;33;43m    [0m
 [33;40m ▀▀▀▀▀▀▀▀ ▀▀ ▀▀▀ ▀▀▀▀▀▀▀ ▀▀▀▀ ▀▀▀▀▀▀▀ ▀▀▀ ▀▀ ▀ ▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀ ▀▀▀[0m
 [1;31;40m───────────────────────────────────────────────────────────────────────────────[0m
-                            [31m                      [0m
-                            [31mNode [1]: 731∙975∙7130[0m
-                            [31m                      [0m
-                         [31m                            [0m
-[31m───────────────────────────────────────────────────────────────────────────────[0m
-                              [31m                  [0m
-                            [31m                      [0m
-[31m───────────────────────────────────────────────────────────────────────────────[0m
-                             [31m                    [0m
-                            [31m                      [0m
-                     [31m                                     [0m
-[31m───────────────────────────────────────────────────────────────────────────────[0m
-                           [31m                        [0m
-                              [31m                 [0m
-[31m───────────────────────────────────────────────────────────────────────────────[0m
-                              [31m                 [0m
-                         [31m                           [0m
-                           [31m                      [0m
-                     [31m                                    [0m
-[1;31m───────────────────────────────────────────────────────────────────────────────[0m'
+[31m[0m                            [31mNode [1]: 731∙975∙7130[0m
+[31m[0m[31m[0m[31m───────────────────────────────────────────────────────────────────────────────[0m
+[31m[0m[31m[0m[31m───────────────────────────────────────────────────────────────────────────────[0m
+[31m[0m[31m[0m[31m[0m[31m───────────────────────────────────────────────────────────────────────────────[0m
+[31m[0m[31m[0m[31m───────────────────────────────────────────────────────────────────────────────[0m
+[31m[0m[31m[0m[31m[0m[31m[0m[1;31m───────────────────────────────────────────────────────────────────────────────[0m'

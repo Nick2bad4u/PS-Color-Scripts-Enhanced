@@ -5,7 +5,7 @@
 # Source SHA-256: e4e7fada8463a9929b4940f4cc452b1ce04dd867a14af25f615793a22494c0ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-ZONEX.ANS by scratch (fuel); released in fl-pack8 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: zone-x logo
 # SAUCE Author: scratch
 # SAUCE Group: fuel
@@ -37,7 +37,4 @@ Write-Host '
                             [32m▀▀▀▀[0;32;42m [0;1;30;42m▄  ▄▄▄[0;32m▓[0;1;30;42m▄▄▄██[0;1;30;40m▓▀▀▀▀[0m
 
 [1;30m- -cut here-─────--─-─--────-─-─────-─-─-────────-─────-─-─-- -────────── ─- ─[0m
-[1;30m                                                                    [0m
-[1;30m                                                                        [0m
-  [1;30m                                                                          [0m
-[1;30m- ── -─--──-─-─-─-─-─---─---─────────────---──────────-──────--──hate this-─ -[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m- ── -─--──-─-─-─-─-─---─---─────────────---──────────-──────--──hate this-─ -[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 270d86a0697325108be007a26384c710bb2aef838ee17b217697b5847af0aaa5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAC-UK.ANS by lacaid (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: uk?! logo
 # SAUCE Author: lacaid
 # SAUCE Group: dope
@@ -33,17 +33,9 @@ Write-Host '
              [1;30m [0;34m▓▌[0;1;34;44m█▀[0;34m▌[0;1;30m▀██▓████▄ [0;35m▀▌▀▀[0;1;30m ▄█▓▒[0m [35m▒[0;1;30m [0;34m█[0;1;34;44m▄[0;34m▄[0;35m▀▀[0;1;35;45m▒▓[0;35m▌▀▀▀████▌[0;34m▄[0;1;34;44m░▒▓▒░[0;34m▌[0m
               [34m▒[0;35m [0;34m▀[0;1;34;44m▀[0;34m█[0;37m [0;1;30mlac([0;35mdope[0;1;30m)[0;35m ▀[0;37m [0;35m▄[0;37m  [0;35m▄[0;37m [0;35m■[0;37m [0;35m░[0;37m [0;34m▓▀[0m    [35m▀[0;1;35;45m░[0;35m▄[0m   [35m▀▓▀[0;37m [0;34m▀▐[0;1;34;44m▄█[0;34m█▀[0m
               [34m░ ▄▀[0m             [35m [0m                 [35m▐▌[0m   [35m▒[0;37m  [0;34m  ▓▀[0m
-               [34m▐[0;37m    [0;1;30m[[0m [1;34m7 i 7 . 7 4 i . i i 9 5[0m [1;30m][0;35m ▄▀[0m    [35m░[0m    [34m▒[0m
+               [34m▐[0;37m    [0;1;30m [0m [1;34m                       [0m [1;30m [0;35m ▄▀[0m    [35m░[0m    [34m▒[0m
                 [34m▀[0m      [35m    [0;37m [0;1;30m      [0m [1;30m   [0;35m      [0m    [35m▓[0m          [34m░[0m
                                                 [35m░ [0m
 
 [1;30m---[snip-o-matic]---------------------------------------------------------------[0m
-[1;30m                                                                                [0m
-[1;30m                                                                                [0m
-[1;30m                                                                             [0m
-[1;30m           [0m
-[1;30m                                     [0m
-[1;30m                    [0m [1;30m          [0m
-                     [1;30m                  [0m
-                     [1;30m              [0m
-                     [1;30musa[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m                     [1;30musa[0m'

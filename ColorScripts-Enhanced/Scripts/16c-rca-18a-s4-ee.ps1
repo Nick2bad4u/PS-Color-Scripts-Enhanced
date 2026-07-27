@@ -5,13 +5,12 @@
 # Source SHA-256: 3aa9bd2d969127ed181e8d2069cd3e429146f830e621e2c81c3f5b743d36c997
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S4-EE.ANS by Static Addiction (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-             [1m   [0m  [1m         [0m                          [1m  [0m   [1m         [0m
-
+[1m[0m[1m[0m[1m[0m[1m[0m
                     [1;36m [0;36m  [0;1;36m▄▄[0;36m▄[0m                                   [1;36m░[0;36m  [0;1;36m▄▄[0;36m▄[0m
                  [1;36m░▄▄█[0;1;36;46m█▀[0;36m▀ [0;32m░[0;30;42m▓[0;32;40m░[0m    [30;42m▓[0m                         [1;36;40m░▄▄▓[0;1;36;46m█▀[0;36m▀ [0;32m░[0;30;42m▓[0;32;40m░[0m    [30;42m▓[0m
             [32;40m░[0;36;40m [0;32;40m [0;30;42m▓[0;1;36;40m░▓█[0;1;36;47m██[0;1;36;46m▌[0;36m▌[0;32m░[0;30;42m▓[0;32;40m▓[0;30;42m░[0;32;40m▓░[0;30;42m▓[0;32;40m░[0;30;42m▓░▓[0m                   [32;40m░[0;36;40m [0;32;40m [0;30;42m▓[0;1;36;40m░▓[0;1;36;47m▓██[0;1;36;46m▌[0;36m▌[0;32m░[0;30;42m▓[0;32;40m▓[0;30;42m░[0;32;40m▓░[0;30;42m▓[0;32;40m░[0;30;42m▓░▓[0m

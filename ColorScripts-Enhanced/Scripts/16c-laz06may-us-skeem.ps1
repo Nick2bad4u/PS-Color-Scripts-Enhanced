@@ -5,7 +5,7 @@
 # Source SHA-256: 43a1f30d1d1cb8121f51742d2f68373a6f000510f0db5234ecc886d88aab15f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SKEEM.ANS by Epoxy + Hennifer (lazarus/klexikal); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the 5cheme.
 # SAUCE Author: epoxy and hennifer
 # SAUCE Group: lazarus/klexikal
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-            [33m [0;37m [0;33m [0m                                          [1;30m  [0m      [1;30m               [0m
-[1;31m [0m           [1;31m  [0m      [33m [0;37m [0;33m▌[0;37m  [0;33m [0;37m  [0;33m▄[0m                                  [1;30m                 [0m
+[33m[0;37m[0;33m[0m[1;30m[0m[1;30m[0m[1;31m [0m           [1;31m  [0m      [33m [0;37m [0;33m▌[0;37m  [0;33m [0;37m  [0;33m▄[0m                                  [1;30m                 [0m
 [1;31m   [0m   [33m    ▐[0;1;31m [0;33m [0;30;43m▓[0;33;40m▌[0;37;40m  [0;33;40m     █▌ █ ▐[0;1;31;43m [0;33m [0;1;31m [0;33m▄▄▄  ▐ ▄   ▄ [0m   [33m  [0;1;31m  [0m
 [33m  [0;1;31m  [0;33m▄ ▌    █ ▐[0;1;31;43m▐▌[0;33m ▐▄ ▐▌[0;1;31;43m▐[0;33m▌▐[0;1;31;43m [0;33m █[0;1;31;43m▌[0;33m█[0;1;31m [0;33m▓[0;1;31;43m▀[0;33m▀            ▌   [0;1;30m  "what are ya tryin'' to say?"[0m
 [33m [0;1;31m  [0;33m ▀  ▌▄  [0;30;43m▓[0;33;40m  ▀[0;1;31;40m▀[0;33m▌▐[0;1;31;43m▐[0;1;31;40m▌[0;33m▐[0;1;31;43m▐█[0;33m █[0;1;31;43m▐[0;33m▐[0;1;31;43m██[0;33m█[0;1;31;43m█▀[0;33m ▄  █[0;1;31m▄[0;33m▌ ▄▄▌      ▄   [0m

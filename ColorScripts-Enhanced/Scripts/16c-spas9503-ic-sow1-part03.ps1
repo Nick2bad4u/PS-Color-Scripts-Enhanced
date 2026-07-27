@@ -5,7 +5,7 @@
 # Source SHA-256: 11dd61142a87ded80b4a9fd43667a97b9f697a4dd0c22569b02172e4a8d4cea0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-SOW1.ANS by Impact (Spastic Studios); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sowhatchawant!
 # SAUCE Author: Impact
 # SAUCE Group: Spastic Studios
@@ -21,12 +21,11 @@ Write-Host '
 [36m▓ ▐██  ▒  █▌   ░   ▐██ ▀[0m      [36m██  ▀ ░  ███▌  ░ ▓ ░ [0;1;36mta finish the last 2/3 of the[0m
 [36m▀ ██▌  ▓   █▌  ▒    ██[0m      [36m░ ▐█▌   ▒ ▐███  ▄▒▄  ░ [0;1;36mfont in about 20 min. or so..[0m
 [1;36m  [0;36m██   ▄▄██▐█▌ ▓ ░  ▐█   ░  ░ ▐█▌  ▄▓█▐███▐██▓█▌ ▒ [0;1;36mhope you like the ansi..[0m
-[1;36m [0;36m▐██▄██▀▀   ██   ░  ▐█   ░  ▒ ▐██ ▐███▐███▐▀▀▀   ▓ [0;1;36mGreat board.. great users..[0m
+[1;36m [0;36m▐██▄██▀▀   ██   ░  ▐█   ░  ▒ ▐██ ▐███▐███▐▀▀▀   ▓ [0;1;36m                           [0m
 [1;36m [0;36m▐█▌▀  ░[0m     [36m█▌  ▒  ██   ▒  ▓ ▐██   ▀ ▐███[0m       [36m▀ [0;1;36metc.. anyways i think that[0m
 [1;36m [0;36m██▌   ▒ ░   ██  ▓  ██▌  ▓    ▐██   ░  ███▌ ░[0m      [1;36mthis about wraps it up for[0m
 [36m▐██▌   ▓ ▒  ▐██▌ ▀ ▐███  ▀    ███▌  ▒  ▐███▄ ▄███▄ [0;1;36mthis edition.. until next[0m
 [36m████▄  ▀ ▓ ▄████   ████▌[0m     [36m▐████  ▓   ▀█▓█████▀  [0;1;36mtime..[0m            [1;36mwOOP![0m
-                                                                                
 
 
  [1m▄▀█▄▀█▄[0;35m▀██▄    [0;1;30m▄▓█▀[0;1;37m▄█▀▄█▀▄ ▄▀█▄▀█▄[0;32m▀██▄  [0;1;37m▄▀█▄▀█▄[0;31m▀██▄    [0;34m▄█▓▀[0;1;37m▄█▀▄█▀▄  [0;1;33m▄██▀[0;1;37m▄█▀▄█▀▄[0m

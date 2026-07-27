@@ -5,7 +5,7 @@
 # Source SHA-256: 2d3521db97b33304b4c453a1b595b37bda519a3eabbf7e32e9b91d5740cd5767
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LO-11TH.ANS by Lethal Outcast (mft-0794); released in mft-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 71-106
 # Columns: 1-80
 
@@ -41,6 +41,4 @@ Write-Host '
                      [1;30m▀[0m       [1;30m▀[0m         [31m▀▀▀▀▀▀[0m         [1;30m▀▀▀▀▀▀[0m
 
 
-                   [1;36m∙■ T H E  E L E V E N T H  H O U R ■∙[0m
-
-             [1;36m.[0m∙ (415) 855-9657 ∙ 16.8k Dual ∙ Running Vision-X ∙[1;36m.[0m'
+                   [1;36m∙■ T H E  E L E V E N T H  H O U R ■∙[0m'

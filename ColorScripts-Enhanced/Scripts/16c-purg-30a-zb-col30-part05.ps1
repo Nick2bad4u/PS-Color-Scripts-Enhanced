@@ -5,7 +5,7 @@
 # Source SHA-256: b12cf6707b5e875997582dd2f2c67c34178327fd7ea482ad0de833a46a5990c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZB!COL30.ANS by Zubfatal (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 179-226
 # Columns: 1-80
 
@@ -27,8 +27,7 @@ Write-Host '
                              ''
             [1mp  [0mu  [1mr  g    [0m%    n [1mi [0mn e t e e n  n [1mi [0mn e t y  n [1mi [0mn e
 
-               [1m                                               [0m    
-
+[1m[0m
 
      ┌ [1m                                                              [0m
      └┐ [1m                                                                  [0m
@@ -36,24 +35,15 @@ Write-Host '
        └ [1m                                                       [0m
 
 
-[1;30m  [0m [1m            [0m [1;30m [0m
-[1;30m ∙~~~~~~~~~~~~~~∙[0m
- [1m         [0m [1m        [0m [1m          [0m [1m         [0m [1m      [0m [1m      [0m [1m     [0m [1m    [0m [1m     [0m 
-[1m        [0m [1m       [0m [1m           [0m [1m         [0m [1m       [0m [1m      [0m [1m          [0m [1m         [0m 
-[1m         [0m [1m       [0m [1m        [0m [1m    [0m [1m     [0m [1m      [0m [1m        [0m  
-
-[1m [0m  [1m                       [0m  [1m      [0m  
-
-[1;30m  [0m [1m             [0m [1;30m [0m
-[1;30m ∙~~~~~~~~~~~~~~~∙[0m
- [1m        [0m [1m       [0m [1m        [0m [1m     [0m [1m       [0m [1m    [0m   
-
+[1;30m[0m[1m[0m[1;30m[0m[1;30m ∙~~~~~~~~~~~~~~∙[0m
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m
+[1m[0m[1m[0m[1m[0m
+[1;30m[0m[1m[0m[1;30m[0m[1;30m ∙~~~~~~~~~~~~~~~∙[0m
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m
 [1;30m :[0m:[1m: notes :[0m:[1;30m:[0m
 [1;30m ∙~~~~~~~~~~~∙[0m
- [1m                  [0m  [1m                                  [0m [1m [0m  [1m         [0m  
-
+[1m[0m[1m[0m[1m[0m[1m[0m
    [1m___/\___ [0;1;30m.----------------------------------------.   .----------------.[0m
 [1;30m.--[0;1;37m>_ Oo _<[0;1;30m-|  [0;1;37mcut this fucker right here![0m      [1;30m.----┴---┴----------------┴---.[0m
-[1;30m|---[0;1;37m)_/\_([0;1;30m--|-----------------------------------|[0m      [1mzubfatal@purg.com[0m      [1;30m|[0m
-[1;30m└--┐ [0;1;37m''--` [0;1;30m┌-''[0m                                   [1;30m`-----------------------------''[0m
+[1;30m[0;1;37m[0;1;30m[0m[1m[0m[1;30m[0m[1;30m└--┐ [0;1;37m''--` [0;1;30m┌-''[0m                                   [1;30m`-----------------------------''[0m
 [1;30m   `------''[0m'

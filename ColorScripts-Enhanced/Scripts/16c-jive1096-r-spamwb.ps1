@@ -5,15 +5,14 @@
 # Source SHA-256: 4d0bdb3786d0f26ce3062eb24be4ac35f9f6fbac985130e1eb518848ca206b9a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: R!SPAMWB.ANS by The Riddler (jive1096); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Spam
 # SAUCE Author: The Riddler
 # Lines: 1-16
 # Columns: 1-80
 
 Write-Host '
-             [1m    [0m     
-
+[1m[0m
                      [1;36m▄▄▄▄▄[0m                          [1;36m▄▄▄▄▄ [0m
 [1;34;44m ▄▄▄▄ [0;1;36;40m ▄▄███▀▀▀███▄▄ █[0;1;37;40m███[0;1;36;40m██▀▀▀███▄▄ [0;34m▀[0;1;36m ▄▄███▀▀▀███▄▄ █[0;1;37m███[0;1;36m██▀▀▀███▄▄ [0;34m▀▀▀[0;1;34m▀[0;34m▀▀[0;1;34m▀[0;1;34;44m▀▓▄▄▄░[0m
 [1;34;44m ▀██▌[0;34m▌[0;1;36m▐████▌[0;34m▄[0;1;34;44m▄[0;34m▄[0;1;36m▐████▌█████▌[0;34m▐[0;1;34;44m▄[0;34m▌[0;1;36m▐████▌▐█████ [0;34m▄[0;1;34;44m▄[0;34m▌[0;1;36m▐████▌█████▌[0;34m▐[0;1;34;44m [0;34m▌[0;1;36m▐█████▀▀▀███▄▄ [0;34m▀[0;1;34;44m▀█ [0m

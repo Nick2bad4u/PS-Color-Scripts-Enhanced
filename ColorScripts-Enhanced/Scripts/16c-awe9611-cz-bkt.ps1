@@ -5,7 +5,7 @@
 # Source SHA-256: a5639be6de6f98b54294483b630e2235359c39263a5c574b0bf4dc122ddee9ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-BKT.ANS by Cheeze (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Bucket
 # SAUCE Author: Cheeze
 # SAUCE Group: AWE Lettering
@@ -17,7 +17,6 @@
 Write-Host '
 
 
-            
 [1;30m-----------------------------------------------------------[0;33m [0;1;37m░░░[0;1;30m ---------------[0m
 [1;33m███[0;1;33;43m▌[0;33m▌ [0;37m▐[0;1;31;47m▒▒▓▓▓[0;33m▌[0;37m [0;33m▐[0;1;33;43m▐[0;1;33;40m█████[0;1;33;43m▀[0;1;33;40m▀▀▀▀▀[0;1;33;43m▀[0;1;33;40m██████[0;1;33;47m▓▓▓[0;1;33;40m████████████[0;1;33;43m▀[0;33m▀[0;1;33m [0m ▄[1m▄[0m▄▀[1m▀[0m▀▄[1m▄▄▄▄▄[0m▄[1m [0;1;33m [0;1;37m ░░░[0m▄[1m▄[0m▄[33m [0;1;37m░░░[0;1;33m [0m
 [1;33;47m▓▓[0;1;33;40m█[0;33m█ ░[0;1;31;47m▓▓▓██[0;33m█░[0;37m [0;33m▀▀[0;1;33m      [0m [1m░░░[0;33m █[0;1;33m███[0;1;33;47m█▓▓▒▒▒▓▓▓▓[0;1;33;40m██[0;1;33;47m▓▓[0;1;33;40m██[0;1;33;47m█▓[0;1;33;43m░[0;33m░ [0;37m▀[0;36m ▄[0;1;36m▄▄[0;1;36;46m▄[0;36m▌[0;37m▐▀[0;1;37;47m▀[0;1;37;46m▓[0;1;37;47m▀[0m▀[1;47m▀[0;1;46m█[0;1;47m▀[0m▀[1;47m▀▀[0m▀[1m [0;36m▄[0;1;37m [0m▀[1m▀[0m▀▄

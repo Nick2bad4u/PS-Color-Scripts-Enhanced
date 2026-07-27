@@ -5,7 +5,7 @@
 # Source SHA-256: d3a1a0345be3e8cbb059d86c7df7269c567b94f4c7602c677dda6f7287fac68f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TOY-ISDN.ANS by ToYDEALER (fACT!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: CoRNER NFo ABoUT iSDN
 # SAUCE Author: ToYDEALER
 # SAUCE Group: fACT!
@@ -33,5 +33,5 @@ Write-Host '
                   [1m▀▀██████[0;1;47m▀[0;1;40m█[0;1;47m▀▓░[0m█▄▄▄▄▓▀▀ [33m▄ [0;1;37m▀▀[0;1;37;47m▄[0;1;37;40m▄▄▄▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m▀[0;1;37;40m█[0;1;37;47m▀▀▀▀▀ ░[0m▀▀
                      [1;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31;43m▄[0;1;31;40m███[0;1;31;43m▄[0;1;31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 
-       [1;5;32mNEW ──►[0m     [32m28[0;1;32mk[0;32m8 [0;36m∙:∙ [0;1;32m+[0;32m49 [0;1;32m- [0;32m([0;1;32mo[0;32m) 2241 [0;1;32m- [0;32m946 384 [0;36m∙:∙ [0;32m28[0;1;32mk[0;32m8[0m      [1;5;32m◄── NEW[0m
-       [1;5;32mNEW ──►[0m     [1;32mi[0;32mSDN [0;36m∙:∙ [0;1;32m+[0;32m49 [0;1;32m- [0;32m([0;1;32mo[0;32m) 2241 [0;1;32m- [0;32m946 385 [0;36m∙:∙ [0;1;32mi[0;32mSDN[0m      [1;5;32m◄── NEW[0m'
+       [1;5;32m    ──►[0m     [32m  [0;1;32m [0;32m  [0;36m    [0;1;32m [0;32m   [0;1;32m  [0;32m [0;1;32m [0;32m       [0;1;32m  [0;32m        [0;36m    [0;32m  [0;1;32m [0;32m [0m      [1;5;32m◄──    [0m
+       [1;5;32m    ──►[0m     [1;32m [0;32m    [0;36m    [0;1;32m [0;32m   [0;1;32m  [0;32m [0;1;32m [0;32m       [0;1;32m  [0;32m        [0;36m    [0;1;32m [0;32m   [0m      [1;5;32m◄──    [0m'

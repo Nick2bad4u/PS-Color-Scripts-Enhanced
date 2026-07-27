@@ -5,7 +5,7 @@
 # Source SHA-256: b14b9eb402776f1e52c2822f92ee455b6f8d3ffcbe766db66b4c4813ac6af662
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PND-SH.ANS by pandur (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: stone henge
 # SAUCE Author: pandur
 # SAUCE Group: nerp
@@ -40,7 +40,4 @@ Write-Host '
 [1;31;41m█████████[0;1;31;47m████[0;1;31;41m█[0;1;31;47m▀░░▒[0;1;31;41m█▄█▓▓█████[0;1;31;47m█▌░[0;1;31;41m▌[0;31m▌ [0;1;31;41m▒▓[0;1;31;47m▌░[0;1;31;41m▌[0;31m▌ ▐[0;1;31;41m▐[0;1;31;47m▒▌░[0;1;31;41m▌[0;31m▌ ▌[0;37m [0;36;44m [0;1;36;46m▐▓▀▌▌[0;34m▌[0;37m [0;34m    [0;31m   [0m   [31m          [0m
 
 
-                                [37m           [0m
-                                [37m        [0m
-                                [37m         [0m
-                                [37mja[0m'
+[37m[0m[37m[0m[37m[0m                                [37mja[0m'

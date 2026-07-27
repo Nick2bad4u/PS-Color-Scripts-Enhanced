@@ -5,7 +5,7 @@
 # Source SHA-256: ab2b0eacc8c32ba492b3de8696f8d9d921ca7465decaf3f6f0c4a1455103ae84
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-MOOSE.ANS by Mendator (Stile Prod.); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Moose City!
 # SAUCE Author: Mendator
 # SAUCE Group: Stile Prod.
@@ -17,8 +17,7 @@
 Write-Host '
 [1;30m■▄■■▄[0m▄[1;30m▄▄▄[0m▄▄[1;30m▄▄▄▄[0m▄▄▄▄[1m▄[0m▄▄▄▄[1m▄▄[0m▄▄▄[1m▄▄▄▄▄▄▄▄▄[0m▄▄▄[1m▄▄[0m▄▄▄▄▄[1m▄[0m▄▄▄▄▄▄[1;30m▄▄▄[0m▄▄[1;30m▄▄▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄■■▄■[0m
 
-              [1;30m                      [0;36m        [0;1;30m   [0;36m     [0;1;30m               [0m
-
+[1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0m
 [1;30m■▀■■▀▀▀▀▀▀▀[0m▀[1;30m▀▀▀[0m▀▀[1;30m▀▀▀▀[0m▀▀▀▀[1m▀[0m▀▀▀▀[1m▀▀[0m▀▀▀[1m▀▀▀▀▀▀▀▀▀[0m▀▀▀[1m▀▀[0m▀▀▀▀▀[1m▀[0m▀▀▀▀▀▀[1;30m▀▀▀[0m▀▀[1;30m▀▀▀▀[0m▀[1;30m▀▀▀▀▀■■▀■[0m
 [1;36m ▄[0;1;36;46m██▓▓▒▓▒░░░░░ [0;36m█[0;1;36;46m░[0;36m██████████████████████████████████████████████[0;1;36;46m░[0;36m█[0;1;36;46m ░░░░░▒▓▒▓▓██[0;1;36;40m▄ [0m
 [1;36;40m▐[0;1;36;46m█▓▓░▓▒░▒░[0;36m█[0;1;36;46m░░[0;36m██[0;1;36;46m░ [0;36m█████████▀▀▀▀[0;37m [0;31m▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;36m▀▀▀▀▀▀▀█████████████[0;1;36;46m░[0;36m██[0;1;36;46m░░[0;36m█[0;1;36;46m░░░▒▓░▓▓█[0;1;36;40m▌[0m

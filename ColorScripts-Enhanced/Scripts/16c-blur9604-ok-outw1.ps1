@@ -5,7 +5,7 @@
 # Source SHA-256: a238752fa3ab00cbfbd483d59010eb4890178a4cb443c94848b4f06767a5e162
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OK-OUTW1.ANS by oUTkAST (READ THE INI FILE); released in blur9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Outworld
 # SAUCE Author: oUTkAST
 # SAUCE Group: READ THE INI FILE
@@ -30,6 +30,6 @@ Write-Host '
               [1;30m▒[0m       [1;30m▐ [0;32m█ [0;1;30m▌oK![0m      [1;30m▒[0m               [1;30m▒[0m
               [1;30m░[0m        [1;30m▌[0;32m▌[0;1;30m▐  ▀▀▀ ▀▓▀▀▀▀▀▀▓▀▀▀  ▀▀ ▀  ░ ▀ ▄[0m
                        [1;30m▌ ▌ [0;32mO   U   T   W   O   R   L   D [0;1;30m▄▄■▀[0m
-                        [1;30m▀ [0m        [1;30m4o8-947-o2o1[0m          [1;30m▄▀▄[0m
+                        [1;30m▀ [0m        [1;30m            [0m          [1;30m▄▀▄[0m
                           [1;30m ▀▓▀▀▀ ▀▀▀▓▀▀▀ ▀ ▀▀▀▀▓▀▀▀▀▀▀▀▀▒▄▄▀[0m
                                     [1;30m▒ [0;36m               [0m     [1;30m▀■[0m'

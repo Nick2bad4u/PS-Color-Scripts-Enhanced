@@ -5,7 +5,7 @@
 # Source SHA-256: 664ef1d8ae018818887b6a88c57923782016914f1c10659d93769b4cdc09183d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WAR-SI.ANS by War (dox_9612); released in dox_9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -39,4 +39,4 @@ Write-Host '
           [1;30m [0m    [34m [0;37m i [0;34m░[0;37m n[0m   [37mt  [0;34m [0;37me[0m   [37ml[0m   [37ml[0m   [37mi[0m   [37mg[0m   [37me[0m   [37mn  [0;34m░[0;37mc[0m   [37me[0m
                [34m [0m                     [34m░[0m
 
-[1;30m                       [0m       [1;30m─[0m─[1m>[0m 4i2.728.53o9 [1m<[0m─[1;30m─[0m'
+[1;30m                       [0m       [1;30m─[0m─[1m [0m              [1m [0m─[1;30m─[0m'

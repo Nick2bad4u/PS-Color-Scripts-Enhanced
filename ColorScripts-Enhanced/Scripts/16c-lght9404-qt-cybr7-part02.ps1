@@ -5,7 +5,7 @@
 # Source SHA-256: 63c1951bcd08258022fb01b0bbb7d0f1658d283481c03811caca702712d0abd1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QT-CYBR7.ANS by Q Tak (lght9404); released in lght9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-98
 # Columns: 1-80
 
@@ -42,19 +42,4 @@ Write-Host '
       [1m█[0;1;47m▓▒░ [0m   ░▒▓█[1;47m░[0m [1;40m█[0;1;47m▓▒░ [0m [1;47m█▓[0m ▒▓█[1;47m░▒[0m [1;40m█[0;1;47m▓▒░ [0m             [1;40m█[0;1;47m▓▒░ [0m   ▒░░▒▓
       [1m█[0;1;47m▓▒░ [0m   ░▒▓█[1;47m░[0m [1;40m█[0;1;47m▓▒░ [0m [1;47m█▓[0m ▒▓█[1;47m░▒[0m [1;47m█▓▒░ [0m▓[1;30m▄▄▄▄[0m▄       [1m█[0;1;47m▓▒░ [0m   ▒░░▒▓
        [1m█[0;1;47m▓▒[0m     ▒▓█   [1m█[0;1;47m▓▒[0m      ▒▓█  [1;47m█▓▒░ [0m▓▒░░▒▓[47m [0;1;47m░▒[0;1;40m▄▄▄  █[0;1;47m▓▒[0m     ▒░░
-        [1m█[0m       ▒     [1m█[0m        ▒    [1m▀[0;1;47m▓▒░ [0m▓▒░░▒▀▀▀      [1m█[0m       ▒
-                                                           [1m  [0;1;33m [0;33m [0;1;33m  [0;33m [0;1;37m [0;1;33m [0;1;37m   [0;33m [0m
-
-                           [1;30m [0;33m [0;1;33m [0;1;37m           [0;1;33m [0;1;37m    [0;1;33m [0;33m [0;1;30m [0m
-
-                         [1;30m [0;33m [0;1;33m [0;1;37m                    [0;1;33m [0;33m [0;1;30m [0m
-                        [1;30m [0;33m [0;1;33m [0;1;37m                      [0;1;33m [0;33m [0;1;30m [0m
-
-                          [1;30m [0;33m [0;1;33m [0;1;37m                  [0;1;33m [0;33m [0;1;30m [0m
-
-                          [1;30m [0;33m [0;1;33m [0;1;37m                  [0;1;33m [0;33m [0;1;30m [0m
-                          [1;30m [0;33m [0;1;33m [0;1;37m                  [0;1;33m [0;33m [0;1;30m [0m
-                           [1;30m [0;33m [0;1;33m [0;1;37m                [0;1;33m [0;33m [0;1;30m [0m
-                          [1;30m [0;33m [0;1;33m [0;1;37m                  [0;1;33m [0;33m [0;1;30m [0m
-
-                                [1;30m3[0;33mo[0;1;33m3[0;1;37m.779.5[0;1;33m8[0;33m0[0;1;30m7[0m'
+        [1m█[0m       ▒     [1m█[0m        ▒    [1m▀[0;1;47m▓▒░ [0m▓▒░░▒▀▀▀      [1m█[0m       ▒[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9961e7a3b26f5fe7b8ed1795fa60234cd0659e56b803997e4b3a9d32da474013
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC!NTR.ANS by VOiCE (BLACK MAiDEN); released in bmbook11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: neutron logo
 # SAUCE Author: VOiCE
 # SAUCE Group: BLACK MAiDEN
@@ -37,11 +37,5 @@ Write-Host '
 
 [1;37m-──[[0m Speech... [1m]──────────────────────────────────────────────────────────────--[0m
 
-                                                                             
-                                                                       
-                                                                           
 
-                                                                                
-                                                                                
-                                                                           
 ansi :))[0m'

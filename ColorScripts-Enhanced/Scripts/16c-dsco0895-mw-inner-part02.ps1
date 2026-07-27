@@ -5,7 +5,7 @@
 # Source SHA-256: b8159e42e113e9924413665f363261b15f8afc30c6f1a06ce688c8d3a7d7c7b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-INNER.ANS by Maeve Wolf (discO); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Inner Sanctum
 # SAUCE Author: Maeve Wolf
 # SAUCE Group: discO
@@ -59,8 +59,4 @@ Write-Host '
 [1m    [0;1;34;44m▓[0;1;34;40m██  ██[0;1;34;44m▓[0m [1;34;44m▓[0;1;34;40m██▌ ██[0;1;34;44m▓[0m   [1;34m██[0;1;34;44m▓[0m  [1;34;44m▓[0;1;34;40m█[0;1;34;44m▒[0m  [1;34m██[0;1;34;44m▓[0m  [1;34;44m▓[0;1;34;40m█[0;1;34;44m▓[0m  [1;34;44m▓[0;1;34;40m█[0;1;34;44m█[0m     [1;34;44m▓[0;1;34;40m██  ██[0;1;34;44m▓[0m  [1;34;44m▓[0;1;34;40m██[0m       [1;34;44m▓[0;1;34;40m██[0;1;30;40m-mW[0m
      [1;34m▀▀▀▀▀█▀▀ ▀▀▀▀[0;1;34;44m▓[0;1;34;40m▀▀▀ ▀▀█▀▀ ██[0;1;34;44m▓[0m [1;34m▀▀█▀▀▀▀▀▀ ▀▀█▀▀   ▀▀█▀▀▀▀▀  ▀▀█▀▀[0m     [1;34m▀▀▀▀[0m
                             [1;34m▀▀▀▀▀[0m
-                  ∙[1;30m  [0;1;37mI[0;1;30m  [0mn[1;30m  [0mn[1;30m  [0me[1;30m  [0mr[1;30m  [0m∙[1;30m  [0;1;37mS[0;1;30m  [0ma[1;30m  [0mn[1;30m  [0mc[1;30m  [0mt[1;30m  [0mu[1;30m  [0mm[1;30m  [0m∙
-                             [1;30m                    [0m
-               [1;30m                                                 [0m
-[1;30m                                                                            [0m
-     [1;30m+   6   1    -    7[0m     [1;30m-    5    5    -    7    6   6    3    6    3[0m'
+                  ∙[1;30m  [0;1;37mI[0;1;30m  [0mn[1;30m  [0mn[1;30m  [0me[1;30m  [0mr[1;30m  [0m∙[1;30m  [0;1;37mS[0;1;30m  [0ma[1;30m  [0mn[1;30m  [0mc[1;30m  [0mt[1;30m  [0mu[1;30m  [0mm[1;30m  [0m∙[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m'

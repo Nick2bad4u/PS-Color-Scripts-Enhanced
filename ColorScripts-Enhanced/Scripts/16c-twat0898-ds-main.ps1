@@ -5,7 +5,7 @@
 # Source SHA-256: 391603bb3946ba9fe2efe1f53bc228ff60483fac10027ba2518fedbad80d94cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS_MAIN.ANS by Wargod (twat0898); released in twat0898 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -25,12 +25,5 @@ Write-Host '
           [36md a r k [0;1;30m▀▀███▄  [0;36ms o u l  [0;1;36m:   [0;36mm a i[0;1;30m▀▀███▄ [0;36mn   m e n[0;1;30m▐█▌[0;36mu[0m
 [36m  [0;37m---------------------[0;1;30m▀▀▄[0m----------------------[1;30m▀▀▀▄[0m--------[1;30;47m█[0;1;30;40m█[0;1;30;47m█[0m-------------
                                                              [1;30m▀[0m
-     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m        [0m        [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m                 [0;1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m               [0m
-     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m       [0m         [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m                 [0;1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m        [0m
-     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m     [0;1;36m  [0;1;30m [0m [1m  [0m [1;30m    [0;1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m           [0m      [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m           [0m
-     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m         [0m       [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m           [0m      [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m           [0m
-     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m        [0m        [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m            [0m     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m        [0m
-     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m      [0m          [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m          [0m       [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m            [0m
-     [1;37m [0m [1;30m [0;36m  [0;1;30m [0m [1m  [0;36m               [0;1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m            [0m     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m         [0m
-
+[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0;1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0;1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0;1;36m[0;1;30m[0m[1m[0m[1;30m[0;1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0;1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m[1;37m[0m[1;30m[0;36m[0;1;30m[0m[1m[0;36m[0m
 [1;30m+-------------[[0;1;37mcUT tHIS sHEET[0;1;30m]-------------------------------------------------+[0m'

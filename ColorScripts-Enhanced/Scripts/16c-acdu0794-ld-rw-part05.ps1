@@ -5,7 +5,7 @@
 # Source SHA-256: 76c87fd08dc4683387b5d62c868a0db53242dcd3689be74c6a57f815dafe6b09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-RW.ANS by Lord Jazz (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Robag's World
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -44,10 +44,8 @@ Write-Host '
 
                        [1;30m··· [0;1;33mR [0;33mo [0;1;30mb a g '' s    W o r l d ···[0m
 
-                            [33m7 1 4 · 6 4 1 · 0 1 1 2[0m
-
+[33m[0m
 [33m [0;1;30m· ·· - ---─-────────────────────────────────────────────────────-──---- - ·· ·[0m
-                       [1;30m                       [0;1;33m    [0;1;30m     [0m
-[1;30m · ·· - ---─-────────────────────────────────────────────────────-──---- - ·· ·[0m
+[1;30m[0;1;33m[0;1;30m[0m[1;30m · ·· - ---─-────────────────────────────────────────────────────-──---- - ·· ·[0m
            [1;30m··· %   1   o   o[0m       [1;30mO   r   i   g   i   n   a   l ···[0m
 [1;30m · ·· - ---─-────────────────────────────────────────────────────-──---- - ·· ·[0m'

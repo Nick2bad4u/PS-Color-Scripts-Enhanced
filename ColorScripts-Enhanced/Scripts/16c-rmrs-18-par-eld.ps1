@@ -5,7 +5,7 @@
 # Source SHA-256: 4cb5684596bb771cea09f2e64d0d0ac321a6facabbf6f0365704eba2a962df35
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-ELD.ANS by Pariah (REMORSE); released in rmrs-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Eld
 # SAUCE Author: Pariah
 # SAUCE Group: REMORSE
@@ -14,8 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
- [1m [0m [1m      [0m                                                     [1m         [0m         
-
+[1m[0m[1m[0m[1m[0m
 [1m    [0m                      [33m_.,╓g[0;1;31m%@@@@@@@@@@@@@@@%[0;33mg╖,._[0;37m [0m
     [1;37m   [0m [1m [0m           [33m_,g8[0;1;31mÑ$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Ñ[0;33m8g,_[0m
 [1;37m    [0m              [33m,d[0;1;31m8$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$8[0;33mh,[0;37m      [0m
@@ -39,8 +38,7 @@ Write-Host '
  [1m    [0m     [33m`[0;1;31m7$[0;33mP''[0;37m        [0;33m`7P`[0m     [33m`7 [0;37m$[0;1;37m$$$$$$$[0m$ [1;31m$$$$P[0;33m''[0m    [33m`7[0;1;31mP[0;33m''[0m    [33m`7[0;1;31m$$$[0;33m''[0m
 [37m                                 [0;33m''[0;37m ;[0;1;37m$$$$$$$[0m$ [33m`[0;1;31m7P[0;33m''[0m        [33m`[0m       [33m`7''[0m          [37m  [0m
                                    [1;37m [0m`7[1m$$$$$[0m$
-                        [1;34m    [0m [1m       [0m    [1m   [0m                                     
-[34m___[0;1;34m___________________[0;34m__[0;1;34m  [0m,[1md[0m  __[1m_$$$$$[0mh,`7[1m$[0m'' [1;34m     [0;34m___[0;1;34m________________________[0;34m___[0m
+[1;34m[0m[1m[0m[1m[0m[34m___[0;1;34m___________________[0;34m__[0;1;34m  [0m,[1md[0m  __[1m_$$$$$[0mh,`7[1m$[0m'' [1;34m     [0;34m___[0;1;34m________________________[0;34m___[0m
 [34m$[0;1;34m$$$$$$$$$$$$$$$$$$$$$$[0;34m''[0;37m d[0;1;37m$$[0m  ╙[1m╨$$$$$$$$[0m;,[1mg@Ñ$Ñ[0m   [34m`ⁿ7[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$[0;34m$[0m
 [34m$[0;1;34m$$$$$$$$$$$$$$$$$$$$$[0;34ml[0;1;34m [0m;[1m$$$[0m  [1m88$[0m   [1m$$$$$[0mⁿ[1;30m`[0m _[1m,,[0m   [1m$[0mh,[34m`7[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$[0;34m$[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$$[0;34m;[0;37m $[0;1;37m$$$[0m  [1m""[0m~   [1m$$$$[0m''  ;[1m$$$[0m   [1m$$$[0mh [34m`[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$[0m

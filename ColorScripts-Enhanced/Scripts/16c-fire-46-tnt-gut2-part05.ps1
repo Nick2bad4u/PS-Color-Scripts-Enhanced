@@ -5,7 +5,7 @@
 # Source SHA-256: 51a01fa2c5528adf975c7207bbeab9b212c1b33e7af0ca8c99271f144ea025d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-GUT2.ANS by tainted (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: gutter emag
 # SAUCE Author: tainted
 # SAUCE Group: FiRE
@@ -47,5 +47,4 @@ Write-Host '
 
                         [31m    [0;1;31m         [0;31m                    ░░[0m
 
-           [31m                                                    [0;1;31m     [0;31m [0m
-                                                                               [30m░[0m'
+[31m[0;1;31m[0;31m[0m                                                                               [30m░[0m'

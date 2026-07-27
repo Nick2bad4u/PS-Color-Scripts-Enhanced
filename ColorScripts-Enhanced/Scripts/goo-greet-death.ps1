@@ -21,5 +21,4 @@ Write-Host @"
               [35m▀[0m
 [37m [0;1;30mmypalGOO^67[0m
     [1;30mMMXVi[0m
-[1;30m[0m
 "@

@@ -5,7 +5,7 @@
 # Source SHA-256: e0327b88b911f85d387492649e81cfbf9c156c90c72fdfe396d3944b0017174a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-CG1.ANS by the avenging angel (locus2001 ;)); released in locus-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cryo rocks..
 # SAUCE Author: the avenging angel
 # SAUCE Group: locus2001 ;)
@@ -15,9 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30m                        [0m   [30m          [0m   [30m          [0m   [30m          [0m   [30m          [0m
-[30m            [0m               [30m          [0m   [30m          [0m   [30m          [0m   [30m          [0m
-[30m            [0m      [36m▄[0;1;36m▄[0;36m▄[0m                   [30m          [0m   [30m          [0m   [30m          [0m
+[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m            [0m      [36m▄[0;1;36m▄[0;36m▄[0m                   [30m          [0m   [30m          [0m   [30m          [0m
 [30m  cryo rocks[0m   [36m▄[0;1;36;46m▄[0;1;36;40m███[0m [1m [0m  ░[30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0m        [36;40m▄[0;1;36;40m▄[0;36m▄[0m            [30mcryo rocks[0m   [30mcryo rocks[0m
             [30m [0;36m [0;1;36;46m▄█████▄[0;1;36;40m▄[0;36m▄[0m    [36m ▄[0;1;36m▄[0;36m▄ [0m   [36m▄[0;1;36;46m▄█[0;1;36;40m██  [0m ░[30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0m    [30;40mcryo rocks[0m   [30;40mcryo rocks[0m
             [36;40m [0;1;36;46m▄███[0;1;36;44m█[0;1;36;46m███[0;1;36;40m█[0;1;36;44m███[0;1;36;46m▄[0;1;36;40m▄▄▄█[0;1;36;46m██▄[0;1;36;40m▄█[0;1;36;46m█████▄[0;36m▄[0m   [36m▄[0;1;36m▄▄[0;36m▄[0m                    [33m▄[0m

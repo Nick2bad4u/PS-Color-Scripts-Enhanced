@@ -5,7 +5,7 @@
 # Source SHA-256: a1fdb8e8ff3f873fac06ad0a67f92aef700a43ea45615542bca715d96e7e74f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-PAC.ANS by Spastic 04/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Packaged Rebellion
 # SAUCE Author: Spastic 04/95
 # SAUCE Group: Eerie
@@ -24,8 +24,7 @@ Write-Host '
 [1;30;40m█▓▀▀[0m     [1;30;40m▓[0m        [1;30;40m▒   ■▄▓[0m      [33m▐█████▓[0;37;43m░░░[0;33;40m████████[0;37;43m░[0;33;40m██▀▄[0;1;30;43m░░[0;33m▀▀  [0;1;30m▄▓[0;1;30;47m▓▓[0;1;30;40m▀▌ ▀▀▓█████▓█[0;1;30;47m▓[0;1;30;40m█[0m
        [1;30;40m▄▓[0m       [1;30;40m▄▓▌    ▐█  ▄▀▓▄[0;33m▀▓█████▄[0;37;43m░[0;33;40m█[0;37;43m░░[0;33;40m█[0;37;43m░[0;33;40m███[0;37;43m░░░[0;33;40m▀   [0;1;30;40m▄▄▄[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██▓▀ ▄▄   ▀▀▓█████[0m
       [1;30;40m▀▓[0m       [1;30;40m▀░[0m                   [33m▀▀▀▀  ▀▀▀ ▀▀▀   [0;1;30m▀▀▀ ▀▀▀▀░▀▀   ░▀[0m        [1;30m▀▀▀[0m
-         [31m                                                             [0m
-                                        [1;30m█[0m
+[31m[0m                                        [1;30m█[0m
                [1;30m█[0m                        [1;30m█[0m             [1;30m█[0m
                [1;30m█[0m            [33m▄[0;33;47m▓[0;33;40m▄[0m         [1;30;40m█[0m             [1;30;40m█[0m     [1;30;40m█[0m
          [33m▄▓▄   [0;1;30m█▓[0m            [33m▀[0m          [1;30m▓[0m         [33m▄▓▄ [0;1;30m█[0m     [1;30m█[0m

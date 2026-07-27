@@ -5,7 +5,7 @@
 # Source SHA-256: a8350e114eec981eadf3f285358cb9b2d6e451e5fcbe7a8cfea5b07d2a3e5bb0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPN-SEC7.ANS by Spawn (TEA); released in tea-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sector 7
 # SAUCE Author: Spawn
 # SAUCE Group: TEA
@@ -50,8 +50,4 @@ Write-Host '
 █[1;30m▄[0m▀[1;47m ░░░░░░░▒▓[0;1;40m▀[0;1;30;40m▄▄▄[0m▀[1;47m ░░░░░░░▒▓[0;1;40m▀[0;1;30;40m▄▄▄[0m▀[1;47m ░░░░░░░▒▓[0;1;40m▀[0;1;30;40m▄█[0m▐█[1;47m ░░░[0m▌▀[1;47m ░░░░░░░▒▓[0;1;40m▀[0;1;30;40m▄▄[0m▐█[1;47m ░░░[0m▌[1;30m█████[0m█
 [1m█[0m█[1;30;47m█[0;1;30;40m▄[0m▀▀▀▀▀▀▀▀[1;30m▄█████▄[0m▀▀▀▀▀▀▀▀[1;30m▄█████▄[0m▀▀▀▀▀▀▀▀[1;30m▄█[0;1;30;47m▓[0;1;30;40m▌[0m▀▀▀▀▀▀▀[1;30m▄▄[0m▀▀▀▀▀▀▀▀[1;30m▄██▄[0m▀▀▀▀▀▀▀[1;30m▐███[0;1;30;47m░[0;1;37;40m█[0m
 [1;37;40m▀▀▀▀[0m▀▀▀▀▀[1;30m▀▀[0m▀▀▀▀▀[1;30m▀[0m▀▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37m [0;1;30m▀[0;1;30;47m▓▒▒[0;1;30;40m▀[0;1;37;40m [0;1;30;40m▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀[0m▀▀▀[1m▀▀▀[0m
-[1;30m                                   [0m [1;30m                            [0m [1;30m              [0m
-[1;30m                                                                             [0m
-[1;30m                                                                              [0m
-                      [1;30m                           [0m
-[1;30m■▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄▄[1m▄▄▄[0m▄▄▄▄[1;30m▄[0m▄▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄[1m▄[0m▄▄▄▄[1;30m▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄■[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m■▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄▄[1m▄▄▄[0m▄▄▄▄[1;30m▄[0m▄▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄[1m▄[0m▄▄▄▄[1;30m▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄■[0m'

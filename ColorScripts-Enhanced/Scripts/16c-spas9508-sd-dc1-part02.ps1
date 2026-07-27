@@ -5,7 +5,7 @@
 # Source SHA-256: 3828cb70a9593193ab8e09b105ae2e36d9332b313c19afcf86afd5709a9bf894
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-DC1.ANS by shadowhand (spastic); released in spas9508 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: derceto
 # SAUCE Author: shadowhand
 # SAUCE Group: spastic
@@ -38,9 +38,7 @@ Write-Host '
 [35m [0;1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m       [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m       [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m       [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m       [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m       [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀ [0;1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m
                         [35m... [0;37mx  [0;1;37md e r c e t o  [0mx [35m...[0m
 
-                        [37m [0;35m  [0;1;37m [0m [1m          [0m  [1m        [0;35m [0;37m [0m
-                        [37m [0;35m  [0;1;37m       [0m  [1m             [0;35m [0;37m [0m
-                                                            [31m▓   ▄▄[0;1;30m▄▄▄[0;1;31;41m░[0m
+[37m[0;35m[0;1;37m[0m[1m[0m[1m[0;35m[0;37m[0m[37m[0;35m[0;1;37m[0m[1m[0;35m[0;37m[0m                                                            [31m▓   ▄▄[0;1;30m▄▄▄[0;1;31;41m░[0m
                         [35m... [0;37mx  ([0;1;37m316[0m)[1m686[0m![1m8486  [0mx [35m...[0m        [1;30m▄[0;1;31;41m░[0;1;30;40m▀[0;31m▀▓    ■▒▀[0;1;30m▀▀▄[0;31m▓[0m
                                                          [1;30m▄[0;31m▀[0m       [36m▒  [0;31m░    ■▀[0;1;30m▄[0m
 ───--────------------------------─----------─────------ [31m░ [0;36m▀ ▄▄[0;1;36;46m░▒▄[0;36m█▄  ▄▄▓▀    [0;31m▒[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 1a8a426023294129eb8c548f6445d0576f98b2058268b2b98e4cda7e25ca2e7d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DISASTR2.ANS by Con Artist (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -16,9 +16,7 @@ Write-Host '
 
                             [1;32m([0;32m818[0;1;32m)[0m [32m790[0;1;32m:[0;32m6408[0m
                    [32mBaud[0;1;32m:[0m [32m9600[0;1;32m/[0;32m19200[0m [32mDual[0m [1;32m─[0;32m Megs[0;1;32m:[0m [32m400[0;1;32m+[0m
-                         [32m [0;1;32m [0;32m [0;1;32m [0;32m [0;1;32m [0m [32m [0;1;32m [0;32m [0;1;32m [0m [32m [0;1;32m [0;32m [0;1;32m [0m [32m [0;1;32m [0;32m [0;1;32m [0m
-                       [5;31m  [0m [5;31m    [0m [5;31m [0m [5;31m    [0m [5;31m [0m [5;31m    [0m
-                     [5;31m.·[0m
+[32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0m[32m[0;1;32m[0;32m[0;1;32m[0m[32m[0;1;32m[0;32m[0;1;32m[0m[32m[0;1;32m[0;32m[0;1;32m[0m[5;31m[0m[5;31m[0m[5;31m[0m[5;31m[0m[5;31m[0m[5;31m[0m                     [5;31m.·[0m
                     [5;31m·[0m
         [1;30m▄▄███[0m│[1m·[0m│[1;30m███████████████████████████████[0m│[1m·[0m│[1;30m█[0m│[1;30m▄[0m        [1;30m▄[0m│[1;30m\[0;1;30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;40m/[0m
      [1;30;40m▄███▄▄▀▀[0m│[1m:[0m│[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m│[1m:[0m│[1;30m▀[0m│[1;30m▀▄▄[0m    [1;30m▄[0m  │[1;30;47m▒[0m┌───────────┐▓
@@ -30,5 +28,4 @@ Write-Host '
      [1;30m▀█[0;1;30;47m▓▓▓▓▓▓[0m│[1m:[0m│[1;30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m│[1m:[0m│[1;30;47m▓[0m│[1;30;47m▓[0;1;30;40m█▀[0m    [1;30;40m▀██[0m│[1;30;47m▒[0m└───────────┘▓
         [1;30m▀▀▄▄▄[0m│[1m·[0m│[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m│[1m·[0m│[1;30m▄[0m│[1;30m▀[0m        [1;30m▀[0m│[1;30m/█████████████\[0m
 
-                          [1;32m [0;32m [0;1;32m [0;32m [0;1;32m [0;32m [0;1;32m [0;32m   [0;1;32m  [0;32m          [0;1;32m [0m
-                                 [32m(c)1991[0m'
+[1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0m                                 [32m(c)1991[0m'

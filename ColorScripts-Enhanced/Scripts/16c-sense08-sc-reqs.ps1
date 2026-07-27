@@ -5,7 +5,7 @@
 # Source SHA-256: dbfecfa6b1a30d84c646b0dea00dd0945d78447294d016b761b723e0c0f33485
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-REQS.ANS by scrye (sense); released in sense08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: request something, dammit!
 # SAUCE Author: scrye
 # SAUCE Group: sense
@@ -20,7 +20,7 @@ some [1mcool[0m menus? Got a [1mgroup[0m and you want                     �
 a [1mgroovy[0m logo? Just [1mmail[0m me and make your                   ▀▀[1;47m▀▓[0;1;40m█[0;1;47m▓[0;1;40m▀[0;1;33;40m▄[0;1;33;43m▓[0;1;33;40m▄▀█▄[0;1;37;40m▀▀[0;1;33;40m▄[0;1;37;40m▀▀[0;1;33;40m▄[0;1;33;43m▒[0m
 req.. All [1mprices[0m are listed in this                      ▄[1;47m▄▄[0;1;40m██▄[0m▀[1;47m▀[0m [1m▀[0;1;33m▀▀[0;1;37m▄▄[0m [1;33m▄▀▀██[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓[0m
 [1;37;40mchart[0m.. You can [1mreach[0m me at                           ▄▄[1;47m▄▓[0;1;40m███[0;1;47m▓[0;1;40m██▄████[0;1;47m▓[0;1;40m▀[0;1;33;40m▄██[0;1;33;43m▓[0;1;33;40m▄[0m  [1;33m▄▄[0m
-[1;37mSCRYE@HOTMAIL.COM[0m            ▄[1m▄▄▄▄▄▄▄▄[0;1;47m▄[0;1;40m███[0m▄[1m▄▄▄▄▄▄▄▄[0m                    [1m▀[0;1;33m▀[0m      [1;33;43m▓[0m
+[1;37m                 [0m            ▄[1m▄▄▄▄▄▄▄▄[0;1;47m▄[0;1;40m███[0m▄[1m▄▄▄▄▄▄▄▄[0m                    [1m▀[0;1;33m▀[0m      [1;33;43m▓[0m
                              █[1m███[0m      █[1m██[0;1;47m▀[0;1;40m██[0m   █[1m██[0;1;47m▄[0;1;40m██▀▀▀[0;1;47m▀[0;1;40m███[0m                  [1m▐[0m
            [1;31m  [0;33m▄▀▀▀▄▀▀▄[0m        [37m█[0;1;37m███[0m         █[1m█▀▀▀▀▀▀▀[0m▀[1m▀▀▀▀▀▀[0;1;47m▀[0;1;40m██[0m
           [1;31m [0;33m▄▀[0;37m ▄▄[0;1;37m▄[0m ▄[1m▄[0m [33m▀▄[0;37m  [0m    [37m█[0;1;37m█[0;1;37;47m▓▓[0m░░░     ▀[1m▀▀▀▀▀▀▀[0m       █[1m██▀▀[0m▄[1m▄▄▄▄▄▄▄▄▄▄[0m

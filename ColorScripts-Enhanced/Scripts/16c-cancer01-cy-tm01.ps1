@@ -5,7 +5,7 @@
 # Source SHA-256: 05d566a8ef3ebfc6108e28956ceba7e37a8942ca6a539dac030ee548e748a7b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CY-TM01.ANS by Crayon (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Tainted Meat
 # SAUCE Author: Crayon
 # SAUCE Group: Cancer
@@ -53,10 +53,6 @@ Write-Host '
     [34m░[0;37m [0;34m▀█[0;1;34;44m░[0;34m▀▀[0m    [34m▀▀▀▀▀[0;1;34m   [0;34m▄▀▀░[0m   [34m▓[0m     [34m░ [0;37m  [0;34m░[0m   [34m░▀▀▀▀[0m     [34m░[0;37m  [0;34m▀▀▀▀▀[0;1;34;44m░[0;34m▀▄▓▀[0;37m  [0;34m▀▓▀▀[0m
     [34m░[0;37m  [0;34m░▀▀▄[0m         [1;34m   [0m   [34m░[0m   [34m▐▌[0m   [34m▀▄[0m   [34m░[0m                 [34m·▄[0;37m [0;34m▐▌░[0;37m [0;34m░[0m    [34m░[0m
            [1;34m [0m                   [34m▀[0;1;34m [0;34m▄▄░▀[0m                       [34m■▀[0m   [34m░[0m
-                                 [1;37m     [0m
-                [1m       [0m [1m                  [0m [1m       [0m
-                                                 
-                                                    
-
+[1;37m[0m[1m[0m[1m[0m[1m[0m
 
 [1;30m+------------------------------------------------------------------------------+[0m'

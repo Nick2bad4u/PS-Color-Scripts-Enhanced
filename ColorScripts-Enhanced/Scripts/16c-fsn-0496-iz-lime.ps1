@@ -5,7 +5,7 @@
 # Source SHA-256: 195bdf0416e0a17e7ef18a63a7f091b9c15dd2aeb7984bdcc729028e523c42fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ%LIME.ANS by ize (fusion); released in fsn-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lime creature! :)
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -38,4 +38,4 @@ Write-Host '
                    [1;33;42m ░▒▓[0;1;33;40m▌ ▐[0;1;33;42m▓█[0;1;33;40m███▌ █[0;1;33;42m▓[0;1;33;40m▀▀[0m     [1;30m    [0m▄▄▄[1;47m░▒▓[0;1;40m▀▀[0m [1;30m     [0m
                    [32m▐[0;1;33;42m░▒▓[0;1;33;40m█[0;1;30;40ml[0;1;33;40m ▀[0;1;33;42m▓[0;1;33;40m█▀▀     [0m  ▄▄▄▄[1;33;47m░[0;1;34;47m  [0;1;37;47m░[0m▀▀▀ [1;30martboard[0m
                     [1;33;42m ░▒▓[0;1;33;40m█▄[0;1;30;40m    [0;1;33;40m▄▄▄[0;1;33;42m▓[0;1;33;47m█▓▒░[0m▀▀▀▀    [1;30mop.cocox[0m
-                     [32m▀[0;1;33;42m░▒▓[0;1;33;40m████[0;1;33;42m▓[0;1;33;40m▀▀▀▀[0m    [1;30m+46.510.66168[0m'
+                     [32m▀[0;1;33;42m░▒▓[0;1;33;40m████[0;1;33;42m▓[0;1;33;40m▀▀▀▀[0m    [1;30m             [0m'

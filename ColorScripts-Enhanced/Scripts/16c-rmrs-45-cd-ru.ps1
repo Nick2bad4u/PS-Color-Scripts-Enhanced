@@ -5,7 +5,7 @@
 # Source SHA-256: 830104f71fda90cb0709c8a689b27ef35dfae421263568a901232d8be9e4565a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Cd-ru.ans by Cd_ (rmrs-45); released in rmrs-45 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -27,7 +27,6 @@ Write-Host '
 [37m   [0m                [32m`ⁿ┴┴┴┴[0;1;33m:[0;32m*(''   [0;1;32m,d$[0;1;32;42m$[0;32m$$[0;1;32;42m$[0;32m$$$┤┤$S*┴ⁿ°[0;1;33m:[0;1;32mæ$[0;1;32;42m$[0;32m$$,[0m
 [37m   [0m                      [1;33m.[0m    [1;32m_\7Syl[0;32m*┴ⁿ°''~[0m        [1;33m.[0;32m''┤$$$;[0m
 [37m   [0m                      [1;33m.[0;32m  [0;1;32m d-[0;32m°~  [0;1;32m [0;32m   .[0;33mr[0;32mU[0;1;32m![0;32m [0;36m@[0m     [1;33m.[0;32m  °ⁿ┴''[0m
-[37m   [0m                      [1;33m [0;32m [0;1;32m   [0m                    [1;33m [0;32m   [0;1;30m        [0m
-
+[37m[0m[1;33m[0;32m[0;1;32m[0m[1;33m[0;32m[0;1;30m[0m
 
                  [33m.[0m'

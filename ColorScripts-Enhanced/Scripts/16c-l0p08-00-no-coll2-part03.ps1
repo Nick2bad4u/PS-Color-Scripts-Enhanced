@@ -5,7 +5,7 @@
 # Source SHA-256: 9911835f17cd82f7ba812a7562e721be6f8e433a7270fd74d8320b61de26a8c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NO!COLL2.ANS by noches (thelo0p); released in l0p08_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo colly 2
 # SAUCE Author: noches
 # SAUCE Group: thelo0p
@@ -33,8 +33,7 @@ Write-Host '
                        [34m░░[0m
 
 [1;30m--------------------------------------------------------------------------------[0m
-[1;30m                              [0m
-
+[1;30m[0m
 [1m       [0;32m▄[0;1;37m [0;32m ░░  ░░[0m
 [1;37m    [0;32m░░▀[0;1;32;42m▀[0;32m▀[0;1;32m█[0;1;32;42m [0;1;33;42m▄[0;1;37;40m [0;32m▄[0;1;32;42m░░[0;1;30;40m▀[0m
 [1m   [0;32m▄[0;1;37;42m▄[0;1;32;40m██[0;32m▄[0;1;32m███[0;32m▀[0;1;32m██[0;1;32;42m▒▒[0m  noches (theloop)

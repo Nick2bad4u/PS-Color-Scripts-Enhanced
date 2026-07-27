@@ -5,7 +5,7 @@
 # Source SHA-256: 57b0916d80ace788d939754768e67f78ad29adf4056be5d9599440566750a113
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-FATE.ANS by freebase (revolution.ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fate
 # SAUCE Author: freebase
 # SAUCE Group: revolution.ecolove
@@ -16,8 +16,7 @@
 
 Write-Host '
                                                               [1m( [0m [1mf a t e !  )[0m
-[32m                      [0m
-[32m   [0;1;32m ┴   [0;1;37m [0;1;32m   ┴ [0;32m        [0m          [1;37m ┐[0m             [35m                   [0m
+[32m[0m[32m   [0;1;32m ┴   [0;1;37m [0;1;32m   ┴ [0;32m        [0m          [1;37m ┐[0m             [35m                   [0m
 [32m [0;1;32m  [0m [1m [0m       [1m┐ [0m [1;32m └[0;32m     [0;1;34m      [0;1;36m [0m      [1m [0m [1;36m  [0;1;34m  [0;1;36m     [0;1;34m [0;35m     [0;1;35m    [0m [1m [0m [1;35m    [0;35m   [0m
 [37m  [0;1;37m,[0m$$$$$$$$$$$$b[1m,[0m [1;32m`└[0;32mÑÑ[0;1;34mÑÑÑÑÑ[0;1;36ml[0m [1m`[0m$$$$$T[1m,[0m    [1m,[0md$[1m,[0m [1;36m`[0;1;35m²²²²²[0m [1m,[0mdS$$$SS[1m┐,[0m [1;35m`$[0;31mÑÑÑÑÑÑÑÑÑÑÑÑÑ[0m
 [37m [0;1;37m,[0m$$$$$[1mP"└[0m$$$$[1;30m▓[0m$$$b[1m,[0m [1;32m`[0;1;36mP"`[0m _   [1m`[0mT$$$$$b$d$$$$T[1m`[0m ggggg$$[1;30m:[0m$$$$$$$$$b[1m,[0m [1;31m`T[0;31mÑÑÑÑÑÑÑÑÑÑ[0m
@@ -31,6 +30,5 @@ Write-Host '
  [32mÑ[0;1;32mb,[0;32m [0;1;32m_,db[0m [1m`[0mT$$$$$P[1m`[0m [32mj[0;1;32m,[0m [1m└[0m$$$$$$$$$[1mT┘[0m [1m`[0mT$$$$$P[1m`[0m [1;34mÑ[0;35mÑÑÑÑÑÑÑÑ[0;1;35m,[0m [1m`[0mT$$$$$$$$$$$$$$$$$[1mb[0md[1m$[0m
  [32m         [0;1;32m [0m [1m └  [0m [1;32m  [0;32m   [0;1;36m [0m [1m [0m    [1;30m▓[0m   [1m  [0m   [1m └  [0;1;34m [0;1;36m  [0;1;34m  [0;35m          [0;1;35m [0m [1m [0m       [1m   [0m        [1m [0m
                       [1;34m  [0;1;36m [0;1;34m [0;1;37m [0m           [1;34m  [0;1;36m  [0;1;34m     [0;35m            [0;1;35m [0m [1m └  [0m [1;31m   [0;31m [0;1;37m [0m    [1;30m▓▓[0m  
-    [1m  [0m [1m            [0m   [1;34m   [0;1;36m   [0;1;37m [0m         [1;36m  [0;1;34m       [0;35m [0m                  [31m   [0;1;31m [0m [1m  [0m     [1m [0m
-                              [1m`└"`[0m                                [31m$$$$$[0;1;31mb,[0m  [1m`└[0m$$
+[1m[0m[1m[0m[1;34m[0;1;36m[0;1;37m[0m[1;36m[0;1;34m[0;35m[0m[31m[0;1;31m[0m[1m[0m[1m[0m                              [1m`└"`[0m                                [31m$$$$$[0;1;31mb,[0m  [1m`└[0m$$
                                                                               [1m`[0m'

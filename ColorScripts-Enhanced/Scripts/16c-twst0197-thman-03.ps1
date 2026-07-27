@@ -5,7 +5,7 @@
 # Source SHA-256: 4b64308df1df1418d72bd405bed2e826315aeeb928d2b77e9c664ad8d4fcd4c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: THMAN-03.ANS by The Man (Twisted); released in twst0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Majick Mushrooms
 # SAUCE Author: The Man
 # SAUCE Group: Twisted
@@ -41,6 +41,4 @@ Write-Host '
 [32m/______\[0;33m [0;32m  [0;33m [0;32m/_________|________\___/___/_   /____|____/_____/______\  |________\[0m
 [33m-----/[0;32m/_______|[0;33m.------------------------\[0;32m\______|[0;33m.----------------\[0;32m\_______|[0;33m.---[0m
     [33m `---------''[0m                         [33m`-------''[0m                 [33m`--------''[0m
-[1;32m   [0m                          [32m [0;1;32m               [0m
-[1;32m  [0m                        [32m [0;1;32m                     [0m
-[1;30m---[ [0mpHEAR tHE lITTLE gREEN gUY [1;30m]--------------------------------------------[0m'
+[1;32m[0m[32m[0;1;32m[0m[1;32m[0m[32m[0;1;32m[0m[1;30m---[ [0mpHEAR tHE lITTLE gREEN gUY [1;30m]--------------------------------------------[0m'

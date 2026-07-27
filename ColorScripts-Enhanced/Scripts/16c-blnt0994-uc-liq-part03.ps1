@@ -5,7 +5,7 @@
 # Source SHA-256: a94b732e31e9580ce162b59a2d670d0f856be4923db8b8bc38a75b60b724581f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-LIQ.ANS by Unknown Comic (blnt0994); released in blnt0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 70-101
 # Columns: 1-80
 
@@ -15,8 +15,7 @@ Write-Host '
      [1;30m▀▀ ▀▀▀▀▀▀▀▀▀▀▐[0m     [1;30m▀▀ ▀▀▀▀▀▀▀▀▀▀▐[0m     [1;30m▀▀ ▀▀▀▀▀▀▀▀▀▀▐[0m     [1;30m▀▀ ▀▀▀▀▀▀▀▀▀▀▐[0m
 
 
-                            [1;37m                      [0m
-
+[1;37m[0m
                          [34m▄[0;1;34;44m▄[0;34m█[0m                  [34m▄▄▄[0m
                        [34m▄[0;1;37;44m▄[0;1;34;44m█▌[0;34m▌[0m               [34m▄[0;1;37;44m▄[0;1;34;44m▄█[0;1;37;44m▀[0;34m█[0;1;34;44m▄▄[0;34m▄[0m
                       [34m█[0;1;34;44m███[0;34m█[0m               [34m█[0;1;34;44m██▀[0;34m▀ ▀█[0;1;34;44m▀█[0;34m█[0m

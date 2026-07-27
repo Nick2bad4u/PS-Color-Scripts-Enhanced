@@ -5,7 +5,7 @@
 # Source SHA-256: b5668640141a13536efa01ba378c67225422ad804fc8dd3d0dad8990bef07250
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRUSADE3.ANS by crusader (fbk.sargahd^vos); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: victims of society
 # SAUCE Author: crusader
 # SAUCE Group: fbk.sargahd^vos
@@ -43,10 +43,7 @@ Write-Host '
             [31m▐▌[0m    [31m■[0m               [31m█   ▄■[0m           [31m▐▌[0m
              [31m▀▄▄▄▀[0m                 [31m▀▀▀[0m              [31m█[0m      [31m▄■[0m
                                                      [31m▀▀▄▄▀▀[0m
-                          [31m                           [0;35m [0m
-[1;37m           [0m
-                                  [31m           [0m
-[31m       [0m
-                                 [31m              [0m
-[31m        [0m                                 [31m [0m
+[31m[0;35m[0m[1;37m           [0m
+[31m[0m[31m       [0m
+[31m[0m[31m        [0m                                 [31m [0m
                             [1;31mvelocity! +49-40-6916197[0m'

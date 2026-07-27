@@ -5,7 +5,7 @@
 # Source SHA-256: ff8c097a81df11f61eb24bc24c8492b8cab0c3f26a963a3942cf8de7dcdbd5fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-SUCCO.ANS by Asian Knight + Vanquish (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Succotash
 # SAUCE Author: Asian Knight
 # SAUCE Group: ACiD Productions
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m [0m [1;30m                                [0;1;33m [0;1;30m                              [0;1;33m [0;1;30m             [0m
-[1;33m▓[0;34m███████████████▓███████▀█████▓████████▀▓▀█ ▒  [0;30mInviso-Greett  w00p!   [0;34m░[0m
+[1;30m[0m[1;30m[0;1;33m[0;1;30m[0;1;33m[0;1;30m[0m[1;33m▓[0;34m███████████████▓███████▀█████▓████████▀▓▀█ ▒  [0;30mInviso-Greett  w00p!   [0;34m░[0m
 [34m [0;1;33m▀▀[0;1;33;44m▄[0;34m████▓▀██████▓▄▀▀▀█▀[0;1;33m▄[0;34m▀▓▀███████▀███  ▒ ▀▀▓[0m          [1;30;47m▀[0;1;30;40m▀[0m▄  [1;30;47m▀[0;1;30;40m▀[0;1;30;47m▀[0m       [34m▒▄▄▄[0m
 [34m  [0;1;33m█[0;34m███▓███▄ ▀■▀▄▓██▄[0;1;33m▀▄▌[0;34m▄███ [0;1;33m▄[0;34m▀▀▀██░█▀▀▓ ░[0m              [1;37m▀▀ ▀ ▀ ▀[0m      [34m▄▓█[0;34;44m [0;1;33;44m▀[0;34m█[0m
 [1;33m▄▓▀▀[0;1;33;44m▄[0;34m████▓█▀ ▄▀ ▀██▓▌[0;1;33m▀[0;34m▐█▄▀ ▄▄██▓██▒▀▀ ▒ [0;30mPrince of  [0;1;30;47m▀[0;1;30;40m▀[0m▄  [1;30;47m▀[0;1;30;40m▀   [0;1;30;47m▀[0m [1;30;47m▀[0;1;30;40m▀[0m▄[34m▀▄█▀  ▀▀[0m

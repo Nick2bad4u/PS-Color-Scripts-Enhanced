@@ -5,7 +5,7 @@
 # Source SHA-256: 2148104a714b8c5df53d1a5870a5665185ca21931557c3a6ab8cf0f277ff698e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ViiX2 - zO-tl2.ans by Enzo (viix2i); released in viix2i and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -18,18 +18,7 @@ Write-Host '
 
 
 
-                                  [1;35m         [0;35m    [0m
-
-                               [1;32m  [0;35m              [0m
-
-
-
-
-
-
-
-
-                                        [32m▀▄[0m
+[1;35m[0;35m[0m[1;32m[0;35m[0m                                        [32m▀▄[0m
                                          [1;33;42m█[0;32m█[0m
                                        [32m▄▄▀[0m
                                  [32m▄  ▀▀[0m
@@ -43,7 +32,7 @@ Write-Host '
 [31m██[0;1;31;41m██[0;31m▄[0;33m ▀▄[0;1;33m [0;33m    [0m             [32m▀▄ [0;33m▀[0;1;33;43m█▀[0;33m▀[0;32m █[0;1;32;42m▀▀[0;32m▀ ▄[0;1;32m▄[0;1;32;42m▄▄▄[0;32m█[0;37m [0;33m▒▒[0m          [1;37mspear, h7 and qs[0m
 [31m███[0;1;31;41m▀▄[0;31m█ ▄ [0;33m▀▀ [0;37m   [0;31m▄ ▀[0;37m [0;32m ▄▄▀[0m      [33m▄▀[0;32m    █[0;1;32;42m▄[0;32m█[0;1;32;42m▄████▀[0;32m▀[0m
 [31m██████ [0;1;31;41m▄▄ [0;31m█▄▄██ [0;32m ▄■ [0;33m▄▄▄[0;32m ▄[0m       [32m▄██ ▀ [0;1;32;42m▀▀▀[0;32m▀[0;33m▄██▒[0m             [32menzOmbie[0m
-[31m▀█████████▄▄[0;1;31;41m■[0;31m█[0;33m [0;32m▄██[0;33m▄[0;1;33;43m▄███▒[0;32m [0;1;32;42m▄[0;32m▄   ▒ ▀[0m       [32m▒ [0;33m▀[0;32m   [0;33m [0;1;30m [0m [35m [0;37m [0;1;30mluciano@lucianoayres.com[0m [33m ▒▒[0m
+[31m▀█████████▄▄[0;1;31;41m■[0;31m█[0;33m [0;32m▄██[0;33m▄[0;1;33;43m▄███▒[0;32m [0;1;32;42m▄[0;32m▄   ▒ ▀[0m       [32m▒ [0;33m▀[0;32m   [0;33m [0;1;30m [0m [35m [0;37m [0;1;30m                        [0m [33m ▒▒[0m
 [31m▄▄████ [0;1;31;41m▄[0;31m█[0;1;31;41m▀[0;1;31;40m▀[0;31m▀▀█[0;33m [0;32m█[0;1;32;42m█[0;32m [0;33m█[0;1;33;43m██[0;32m [0;33m▀▀[0;32m [0;1;32;42m▀[0;32m▀[0;33m  [0;32m   [0;33m▄▄[0;1;37m▄[0;1;37;43m ▄▄[0;33m▒  ▄▄    [0;1;30m [0m  [33m [0m                         [33m ██[0m
 [31m▀[0;1;31;41m▀▀[0;31m▀██ ▀ [0;33m▄ ▀[0;37m [0;31m▒[0;33m [0;32m ▀▄ [0;33m▀▀■▄[0;32m ▀ ▄[0;33m   ▄[0;1;37;43m▄██▄██▒[0;33m ▄[0;1;37;43m▄▀[0;32m ▄▄  [0;1;30m [0;33m ▀[0m       [1;30m    [0m           [33m▒███[0;1;37;43m▀[0;33m█▀[0m
 [33m▄ [0;31m▀ ▒▒[0;33m ▄█   [0;31m  [0;33m [0;32m▀■▄▄  [0;33m▄▄[0;32m    [0;33m█▄[0;1;37;43m▄▓▀ ███▀[0;33m ▄[0;1;37;43m▒▀[0;33m [0;32m █[0;1;32;42m░[0;32m▄  [0;33m▌[0;32m  [0;31m█[0;1;31;41m▄[0;1;31;40m▄[0;31m▄[0m         [33m [0;37m    [0;33m [0;37m [0;33m [0;37m   [0;33m▄[0;1;37m▄[0;1;37;43m▄[0;33m▄[0m

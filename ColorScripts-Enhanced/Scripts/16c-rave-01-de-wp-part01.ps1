@@ -5,7 +5,7 @@
 # Source SHA-256: d1c5803606ed36ea6e2eacd55d260a7bd4125d52cb8a67db20434b95e811a872
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DE-WP.ANS by Deception (rave-01); released in rave-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -16,7 +16,7 @@ Write-Host '
 [1;30;40m│  [0;1;34;44m▒▒[0m     [1;34;44m▒▒[0m          [1;30;40m│  [0;1;33;40m   [0;1;31;40m   [0;1;37;40m    [0;1;30;40m    [0;1;37;40m [0;1;33;40m [0;1;31;40m [0;31m [0;1;37m  [0;1;30m                [0m
 [1;30m│  [0;1;34;44m░░[0m     [34m▐[0;1;34;44m░[0;34m▌[0m         [1;30m│                              [0;1;37m [0;1;33m [0;1;31m [0;31m [0;1;37m [0m
 [1;30m│  [0;1;30;44m  [0m      [1;30;44m  [0m [1;34;44m█▓[0;34m▄▄[0;1;34;44m░ [0m  [1;30;40m│                                          [0m
-[1;30;40m│  [0;1;30;44m░░[0m     [34m▐[0;1;30;44m░[0;34m▌   ▀▀    [0;1;30m│  1-610-896-9140 or my future BBS, the[0m
+[1;30;40m│  [0;1;30;44m░░[0m     [34m▐[0;1;30;44m░[0;34m▌   ▀▀    [0;1;30m│                                      [0m
 [1;30m│  [0;1;30;44m▒▒[0m     [1;30;44m▒▒[0m          [1;30;40m│                                 [0m
 [1;30;40m└─ [0;1;30;44m▓[0m [1;30;40m── ▄[0;1;30;44m▓[0;1;30;40m▀ ─ [0;34m▄▄  ▄ [0;1;30m──┴─────────────────────────────────────── ──  ─[0m
 [1;30m ▄▄▄[0;1;30;44m████[0;1;30;40m▀[0;1;34;40m▄[0;1;34;44m██▓▓[0;34m▀▀[0;1;34;44m░░[0;34m▀[0m

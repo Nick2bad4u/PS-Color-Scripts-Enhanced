@@ -5,7 +5,7 @@
 # Source SHA-256: 34547461352522ed78ae002fd3c413cf40d873c1da4973a06de021b5aa3678f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-BDAY.ANS by .:(cLEANER):. (.:(nITROPHUSION):.); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: .:(bIRTHDAY^fINAL^aNSI):.
 # SAUCE Author: .:(cLEANER):.
 # SAUCE Group: .:(nITROPHUSION):.
@@ -36,4 +36,4 @@ Write-Host '
 [1;34;40m    [0;1;31;47m▓[0m  [1;31;40m▀▀▀▀▀[0;1;31;47m▓▒░▓▒▓░▒▓░▒▓░▒░▒░░▓[0;1;31;40m▀▀▀▀▀  [0;1;31;47m▓[0m            [1;34;41m▓[0;1;34;40m▀▀▀▀ [0;31m▀[0;1;31;41m░[0;31m█▄▄██▀[0m
              [1;31;47m▓[0m   [1;31;40m▀▀▀▀▀▀▀▀▀  [0;1;31;47m▓[0m
 
-[1;30;40m-[0m--[1;30m-[0m[c[1;30mONTAC[0mT^[1;30mm[0mE^[1;30mo[0mN^[1;30mm[0mY^b[1;30mOAR[0mD^+[1;30m3[0m3-([1;30m0[0m)5-6[1;30m287221[0m2][1;30m-[0m---[1;30m-[0m[c[1;30mLEANE[0mR][1;30m-[0m---[1;30m-[0m[2[1;30m6[0;36m/[0;37mo[0;1;30m8[0;36m/[0;37m9[0;1;30m7[0m][1;30m-[0m--[1;30m-[0m'
+[1;30;40m [0m  [1;30m [0m  [1;30m     [0m  [1;30m [0m  [1;30m [0m  [1;30m [0m   [1;30m   [0m   [1;30m [0m   [1;30m [0m    [1;30m      [0m  [1;30m [0m   [1;30m [0m  [1;30m     [0m  [1;30m [0m   [1;30m [0m  [1;30m [0;36m [0;37m [0;1;30m [0;36m [0;37m [0;1;30m [0m [1;30m [0m  [1;30m [0m'

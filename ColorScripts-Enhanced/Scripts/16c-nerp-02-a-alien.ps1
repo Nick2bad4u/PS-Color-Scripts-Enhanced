@@ -5,7 +5,7 @@
 # Source SHA-256: ac81a3d67f9f84af4be4e59be1003ce3241a8475c885624530bd078f68986ea3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: A-ALIEN.ANS by alecs (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: drastic's alien.
 # SAUCE Author: alecs
 # SAUCE Group: nerp
@@ -33,7 +33,7 @@ Write-Host '
                              [1;31m░[0;1;31;47m▄[0;1;31;41m█▓ [0;31m██[0;31;42m▓[0;31;40m▀▄[0;1;31;41m▄[0;1;31;47m▓[0;1;31;41m▀▌[0;31m▄[0;1;31;41m▓▓░[0;31m░[0;37m [0;31m▐[0;1;31;41m░[0;31m▌[0;36m░[0;37m [0;31m▐▌▌[0m   [31m▐▌  ░█[0;37m [0;36m▐▌[0;37m  [0;31m███████▄ [0m
     [31m*hint* *hint* *hint*[0m     [1;31m░[0;1;31;41m▀[0;31m▀[0;1;31;41m░ [0;31m▄▐█ █[0;1;31;41m█▀[0;31m▐[0;1;31;47m█▀▀[0;1;31;41m█▓[0;31m░[0;37m [0;31m▐[0;1;31;41m▓[0;31m▌[0;36m▀[0;37m [0;31m▐ █[0m   [31m▐▌[0;36m░[0;31m  █[0;37m [0;36m▐[0;1;36m▌[0m  [31m▓▓█▀████[0m
       [1;31mthis is an alien.[0m  [1;30m [0m   [31m░▄████▐█▄ ▀▀▐[0;1;31;41m▀[0;1;31;47m▓▄▄[0;1;31;41m█▄[0m  [1;31;41m▐▌[0m  [31m [0;31;42m█[0;31;40m█[0m   [31;40m▐▌[0;36;40m░[0;31;40m ▄█[0;37;40m  [0;1;36;40m▌[0m  [31m░░  ▓███[0m
-        [37malecs@gmx.net[0m    [1;30m [0m   [31m░█[0;1;31;41m░░[0;31m██▐[0;1;31;41m░░[0;31m█▌▄▄ ▀▀▀[0;1;31;41m▀[0;31m▀[0;37m  [0;1;31;41m▐▌[0;31m   ██[0;37m [0;36m░[0;37m [0;31;42m▓[0m   [31;40m██[0;37;40m  [0;1;36;40m▌[0m    [31m░[0;37m [0;31m░▀▌▀[0m
+        [37m             [0m    [1;30m [0m   [31m░█[0;1;31;41m░░[0;31m██▐[0;1;31;41m░░[0;31m█▌▄▄ ▀▀▀[0;1;31;41m▀[0;31m▀[0;37m  [0;1;31;41m▐▌[0;31m   ██[0;37m [0;36m░[0;37m [0;31;42m▓[0m   [31;40m██[0;37;40m  [0;1;36;40m▌[0m    [31m░[0;37m [0;31m░▀▌▀[0m
     [31m*hint* *hint* *hint* [0;1;30m [0m   [31m░█[0;1;31;41m▒▒[0;31m██▐[0;1;31;41m▓▓[0;31m███████▄▄ [0;37m [0;31m▄[0;1;31;41m▐▌[0;31m  ▄[0;1;31;41m█[0;31m█   █   █▄[0;37m  [0;1;36m▌[0m   [31m▀▓▄[0;37m  [0;31m▀[0m
                          [1;30m [0m   [31m░█[0;1;31;41m▓▓[0;31m██▐[0;1;31;41m▀[0;1;31;47m▓[0;1;31;41m█▄▄[0;31m█████▌[0;37m [0;31m▐[0;1;31;41m  ░[0;31m ▄[0;1;31;41m▄█▄[0;31m▄[0;1;31;41m [0;31m▐██▄███▌[0;37m [0;36m▀[0;1;36;46m▄[0;36m█[0;37m [0;31m ▐███▄[0;30;41ma[0m
                          [1;30;40m [0m   [31m  [0m                  [31m▀▀▀[0;1;31;41m▀[0;1;31;47m▄░▓[0;1;31;41m███▓░[0;31m████▀[0m   [36m▀[0m

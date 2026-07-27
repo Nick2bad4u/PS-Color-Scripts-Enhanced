@@ -5,7 +5,7 @@
 # Source SHA-256: 0b82fefcc2cc8e2940a3f2127f7c70e96131657f23c65154e14e81cbad51482e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PF-SHDZN.ANS by Pfezzyo (Stile); released in stl-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shadow Zone
 # SAUCE Author: Pfezzyo
 # SAUCE Group: Stile
@@ -45,13 +45,8 @@ Write-Host '
 
              [1;30m·  · ─ ─ ───[0m──[1m■ [0;1;32mS H A D O W   Z O N E [0;1;37m■──[0;1;30m─── ─ ─ ·  ·[0m
 
-                [1;32m                             [0m  [1;32m         [0;1;30m [0m [1m   [0;1;30m [0;32m  [0;37m [0m
-              [37m  [0;1;32m                             [0m  [1;32m                 [0m 
-
-                          | [1;32mNODE #1  [0;1;30m+4[0m6-[1m8-76514[0;1;30m55 [0m|
-                            [1;32m         [0;1;30m  [0m  [1m       [0;1;30m   [0m 
-                            [1;32m         [0;1;30m  [0m  [1m       [0;1;30m   [0m 
-
+[1;32m[0m[1;32m[0;1;30m[0m[1m[0;1;30m[0;32m[0;37m[0m[37m[0;1;32m[0m[1;32m[0m
+[1;32m[0;1;30m[0m[1m[0;1;30m[0m[1;32m[0;1;30m[0m[1m[0;1;30m[0m[1;32m[0;1;30m[0m[1m[0;1;30m[0m
               [1;32m ╡ [0;1;30m   [0;1;32m  [0;1;30m  [0;1;32m  [0;1;30m    [0;1;32m [0;1;30m  [0;1;32m  [0;1;30m   [0;32m [0;1;32m  [0m  [1;32m  [0;1;30m [0;32m [0;1;32m    [0;1;30m       [0;32m [0;1;32m    [0;1;30m  [0m 
 
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

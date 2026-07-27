@@ -5,7 +5,7 @@
 # Source SHA-256: e09895c5ea9966bcf38e2beb5c0f5e9bd20e157394144ba38a9678bfd70b155e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-LOKI.ANS by Somms (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Loki's Error
 # SAUCE Author: Somms
 # SAUCE Group: ACiD Productions
@@ -59,7 +59,7 @@ Write-Host '
                  [1;33m■[0m     [1;33m▀[0m [1;33m░[0m  [1;33m [0m [1;33m [0m    [1;37m▀▄[0m [1;37m▀▓▀▄▒[0m [1;37m▀▓[0m [1;33m▀▓▄[0;1;37m█[0m [1;33m▀▀▀▓[0m [1;33m▀ ▀[0m [1;33m [0m [1;33m▀▄[0m [1;33m▀▀▄[0m [1;33m▀▄▌▀[0m   [1;33m▀[0m
      [31m░[0m            [1;33m▒▀[0m        [1;33m▀[0m [1;33m [0m   [1;37m■[0m   [1;37m▀[0m [1;37m [0m [1;37m▀[0m      [1;33m▀▓▀[0m [1;33m▀[0m  [1;33m■[0m   [1;33m▀[0m [1;33m▒[0m  [1;33m░▀[0m [1;33m [0m     [1;33m▀[0m  [1;33m■[0m
           [1;33m■[0m     [1;33m [0m                       [1;37m▀[0m   [1;37m■[0m                      [1;33m▄[0m    [1;33m▀[0m
-[1m             [0m  [1m[[0m  [1m8[0m   [1mO[0m   [1m4[0m  [1m][0m    [1m2[0m   [1m7[0m   [1m2[0m   [1m-[0m   [1m0[0m   [1m9[0m   [1m7[0m   [1m5[0m      [1;33m■[0m    [1;33m▀[0m
+[1m             [0m  [1m [0m  [1m [0m   [1m [0m   [1m [0m  [1m [0m    [1m [0m   [1m [0m   [1m [0m   [1m [0m   [1m [0m   [1m [0m   [1m [0m   [1m [0m      [1;33m■[0m    [1;33m▀[0m
                                 [1m [0m   [1m [0m
            [1;33m▀[0m               [1;33m░[0m       [1;37m [0m        [1;37m ▀[0m        [1;33m▀[0m           [1;33m▀[0m
 [1;30m        [0m         [1;33m [0m                      [1;37m░[0m                    [1;33m░[0m

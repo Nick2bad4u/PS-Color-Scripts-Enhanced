@@ -5,7 +5,7 @@
 # Source SHA-256: ef1ae7e084e00e03fc389fbf8847451fc81e8aee64be808112e88b89d53fdcad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 7O-UPLD.ANS by 7alo (lithium); released in ltm-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lithium upload ppe logo
 # SAUCE Author: 7alo
 # SAUCE Group: lithium
@@ -31,9 +31,7 @@ Write-Host '
 [37m   [0;34m [0;1;34mg[0m     [1;34ml[0m          [36m      [0;34m   [0;36m [0;34m;[0;36m  [0;37m       [0;1;34m [0m                 [34m;[0;37m    [0;36m`²╜$$b,$$$S╜²`[0m
 [34m^`[0;1;34m²d[0;34m$b²[0;1;34m''^[0m [34m;[0;37m [0;1;34m^[0;34m~[0;37m [0;1;34m^[0m [34m~[0;1;34m^`[0;34m~[0;1;34m''[0m [34m~[0;37m [0;1;34m`[0;34m~[0;37m [0;1;34m,[0;34m²"[0;1;34m^"[0;34m²[0;1;34m, [0m                       [34m.[0m
 [37m   [0;34m`[0;36m$[0;34m''[0;37m [0;36mHD Free[0;34m:           [0;37m   [0;34m^[0;1;34m"[0;34m."^ [0;37m       [0;1;34m [0m                [34m,[0;37m  [0;1;34m   [0m  [1;33m  [0m  [34m.  [0;36m  [0m
-[37m    [0;1;34m [0m  [36m       [0;34m            [0;37m     [0;34m [0;37m                       [0;34m [0;1;34m  [0;34m [0;1;34m [0;34m  [0;1;34m [0;34m [0;37m      [0;34m [0;1;34m [0;34m [0;37m [0;1;30m [0m
-    [34m [0;37m  [0;36m        [0;34m    [0;36m       [0;37m     [0;34m [0;37m [0;1;34m [0;36m▲[0;1;34m [0;36m▼[0;1;34m  [0m           [1;30m [0m      [34m [0;1;34m [0;34m   [0;37m     [0;34m  [0;1;34m  [0;34m   [0;1;34m  [0m
-    [1;34m        [0m                   [34m [0;37m   [0;1;34m [0;36m     [0;1;34m  [0m                [34m [0;37m          [0;34m [0;36m [0;34m [0m
-[37m           [0;34m"[0;37m [0;34m''''~[0;36m`²$g[0;34m$P²[0;1;33m"[0;1;34m`~[0m [34m^[0;1;34m. [0;34m"[0;37m        [0;1;34m[[0;36mESC[0;1;34m][0m Exit          [34m,[0;37m           [0;1;34ml[0m
+[37m[0;1;34m[0m[36m[0;34m[0;37m[0;34m[0;37m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;37m[0;34m[0;1;34m[0;34m[0;37m[0;1;30m[0m    [34m [0;37m  [0;36m        [0;34m    [0;36m       [0;37m     [0;34m [0;37m [0;1;34m [0;36m▲[0;1;34m [0;36m▼[0;1;34m  [0m           [1;30m [0m      [34m [0;1;34m [0;34m   [0;37m     [0;34m  [0;1;34m  [0;34m   [0;1;34m  [0m
+[1;34m[0m[34m[0;37m[0;1;34m[0;36m[0;1;34m[0m[34m[0;37m[0;34m[0;36m[0;34m[0m[37m           [0;34m"[0;37m [0;34m''''~[0;36m`²$g[0;34m$P²[0;1;33m"[0;1;34m`~[0m [34m^[0;1;34m. [0;34m"[0;37m        [0;1;34m[[0;36mESC[0;1;34m][0m Exit          [34m,[0;37m           [0;1;34ml[0m
                  [36m  [0;1;33m~[0;34m"l²∙[0;37m       [0;1;34m`∙.[0m [1;34m , [0m                  [1;34m .∙''[0m           [34m;[0m
 [37m                                       [0;34m''~[0;36m`²$g[0;34m$P²[0;1;33m"[0;1;34m`~[0m   [34m"[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1f58e6e657fd1b789e01935d9fc4bda3af9bb2a3247585a569aef3cf67baa5f3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-COT.ANS by pUSSYlOVEr (fACt!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cEMETERy of tWiliGht
 # SAUCE Author: pUSSYlOVEr
 # SAUCE Group: fACt!
@@ -41,14 +41,6 @@ Write-Host '
 
 [37m+[0;1;30m---[0m+[1;30m-----------------[0m+[1;30m--------------[0m+[1;30m-------[0m[ [1;30mC[0mU[1;30mT [0mH[1;30mE[0mR[1;30mE [0m][1;30m--------[0m+++++[1;30m---------[0m+
 
-[1;30m                      [0m           [1;30m                       [0m       [1;30m                [0m
-[1;30m       [0m      [1;30m                    [0m                        [1;30m                       [0m
-[1;30m                                                                              [0m
-[1;30m               [0m
-
-[1;30m                    [0m     [1;30m                                                   [0m
-[1;30m                      [0m
-
-[1;30m   [0m  [1;30m            [0m  [1;30m      [0m  [1;30m                              [0m  [1;30m                  [0m
-[1;30m            [0m  [1;30m          [0m  [1;30m                                [0m  [1;30m                    [0m
-+[1;30m---[0m+[1;30m-----------------[0m+[1;30m--------------[0m+[1;30m-------[0m[ [1;30mC[0mU[1;30mT [0mH[1;30mE[0mR[1;30mE [0m][1;30m--------[0m+++++[1;30m---------[0m+[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m+[1;30m---[0m+[1;30m-----------------[0m+[1;30m--------------[0m+[1;30m-------[0m[ [1;30mC[0mU[1;30mT [0mH[1;30mE[0mR[1;30mE [0m][1;30m--------[0m+++++[1;30m---------[0m+[0m'

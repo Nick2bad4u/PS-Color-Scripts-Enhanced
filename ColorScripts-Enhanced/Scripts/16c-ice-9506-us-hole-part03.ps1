@@ -5,7 +5,7 @@
 # Source SHA-256: 699011603bd34c0ade3918af3eacaf2841aba85f1b707b9f9c815d3b1506bb78
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-HOLE.ICE by Grimace + Leonardo + Boa + Squidgalator2 (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 91-123
 # Columns: 1-80
 
@@ -30,8 +30,7 @@ Write-Host '
        [34m▄[0;37m [0;34m▀[0m                     [1;30m  [0m                  [34m▄[0;37m [0;34m▀[0m     [1;34m▄[0;1;34;47m▓[0m
      [34m▄[0m                        [1;30m     [0;1;37m [0mH[1m O L [0mE [1;30m     [0;34m▄[0m    [1;37m▄▄ ▀▀[0m
                                            [1;30m    [0m   [34m▀[0m
-[37m [0;1;30m                                                                             [0m
-
+[37m[0;1;30m[0m
 [1;34m██▓▄▄▄░[0m               [1;30m  [0m                                [1;34m [0m               [1;34m  ▄▄▄▄▓█[0m
 [1;34m█[0;1;34;47m▓▓▓▒▒▓▓▓[0;1;34;40m████▓▄▄▄▄▄▄▄▄▄░░[0m             ░░               [1;34m  ░▄▄▄▄▄▄▄▄▄▄▓▓██[0;1;34;47m▓▓▒▒▓▓[0;1;34;40m██[0m
 [1;37;40m▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀[1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀[1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀[1m▀▀▀▀▀▀▀▀▀[0;1;34m▀▀▀[0m'

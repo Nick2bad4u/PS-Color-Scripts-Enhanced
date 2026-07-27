@@ -5,7 +5,7 @@
 # Source SHA-256: d5c55acef752b6f84109ef3fba66192bb73fa471627dde051c31fcb427b7f578
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: goo-unleash.ans by mypalGOO (b7); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: unleash a mask against the evil
 # SAUCE Author: mypalGOO
 # SAUCE Group: b7
@@ -22,8 +22,7 @@ Write-Host '
                                 [34magainst[0;37m▀▀▀[0;1;30m▀[0m▄▄▄▄[1;30m▄[0m   [1;34m▀[0m   [1;34m▄▄▀[0;34m▀[0m       [1;34m▀[0m [34m▄[0;1;34m▄█[0m   [34m▀[0;1;34m▄[0m
                                                 ▀▀▀▀▀▀[1;30m▀[0m▄▄▄▄▄▄[1;30m▄▄[0m            [1;34m ▀[0m
                                                          [1;34mthe[0m   ▀▀▀▀▀▀[1;30m▀▀▀[0m▄▄▄▄▄▄▄
-                                                                          [1;36m    [0m
-                                   [1;30m▀▄[0m      [1;30m▄▀[0m
+[1;36m[0m                                   [1;30m▀▄[0m      [1;30m▄▀[0m
                                     [1;30m▐▌    ▐▌[0m
                                    [1;30m▄▀[0m      [1;30m▀▄[0m
                               [1;30m▄▄▄▀▀[0m          [1;30m▀▀▄▄▄[0m

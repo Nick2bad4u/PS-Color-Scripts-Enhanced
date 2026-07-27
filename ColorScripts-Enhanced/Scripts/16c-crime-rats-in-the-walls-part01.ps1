@@ -5,7 +5,7 @@
 # Source SHA-256: cbd89128b59e044773372acfc5accc20225250fbd1370b2f8a69fa3086bfc2f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: rats in the walls.ans by Filth (crime); released in crime and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20160125
 # SAUCE Dimensions: 80x85
 # SAUCE Font: IBM VGA
@@ -24,11 +24,8 @@ Write-Host '
 [37;40m  [0;1;33;40m                                                                        [0m
 [1;33;40m                                                                         [0m
 [1;33;40m                                   [0m [1;33m                              [0m
-[1;33m                                                                           [0m
-[1;33m                                               [0m
-
-  [1;33m                                                           [0m
-
+[1;33m[0m[1;33m[0m
+[1;33m[0m
 
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 73d63eee70c0a4bdd2fc345e8eed5683c8f804d7e91471c5312bfd5355c111c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-AOM3.ANS by cryogenic (force); released in force-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: AOM menu
 # SAUCE Author: cryogenic
 # SAUCE Group: force
@@ -33,5 +33,4 @@ Write-Host '
 [36m██▌[0m       [1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m    [36m [0;1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m    [36m  ▐[0;37;46m░░[0;37;40m░[0m
 [30;46m░[0;36;40m▓ [0m       [1;36;40m [0m [36m      [0m     [1;36m [0m [36m      [0m    [36m [0;1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m      [36m [0;30;46m░[0;36;40m▓[0m
 [36;40m░░[0m        [1;36;40m [0m [36m      [0m     [1;36m [0m [36m      [0m    [36m [0;1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m       [36m░░[0m
-          [1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m    [36m [0;1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m    [36m      [0m
-[36m░░[0m        [1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m    [36m [0;1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m       [36m░░[0m'
+[1;36m[0m[36m[0m[1;36m[0m[36m[0m[36m[0;1;36m[0m[36m[0m[1;36m[0m[36m[0m[1;36m[0m[36m[0m[36m[0m[36m░░[0m        [1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m    [36m [0;1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m     [1;36m [0m [36m      [0m       [36m░░[0m'

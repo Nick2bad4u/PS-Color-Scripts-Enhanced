@@ -5,7 +5,7 @@
 # Source SHA-256: 2eadfa9dfed4331a19cb0dcfcf5545ec945d39d3ecb97ed91586b7d1bf3ec13c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-LD.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -54,8 +54,7 @@ Write-Host '
 [31m    ▐[0m             [37mLi[0;1;30mqui[0md De[1math[0m                          [1;31m▐[0;31m███▀[0m
 [31m    ■[0m                                                   [1;31m▐[0;31m██[0m
                 [1;37m  [0m     [1;30m  [0m   [1m    [0m                         [31m▐█[0m
-[31m    ■[0m            [1;37m(7[0m03) [1;30m533[0m-04[1m92[0m                           [31m▌[0m
+[31m    ■[0m            [1;37m  [0m    [1;30m   [0m   [1m  [0m                           [31m▌[0m
                    [1;37m [0m   [1;30m    [0m                               [31m▌[0m
                     [1;37m [0m   [1;30m    [0m                              [1;31m■[0m
-                    [1;37m  [0m   [1;30m   [0m
-                   [1;37m    [0m   [1;30m   [0m                             [31m▌   [0;34m [0;1;34m [0;36m [0;1;34m [0;34m [0;1;33m [0;31m  [0;1;31m  [0;1;33m [0;1;31m  [0;1;33m [0;31m  [0m'
+[1;37m[0m[1;30m[0m                   [1;37m    [0m   [1;30m   [0m                             [31m▌   [0;34m [0;1;34m [0;36m [0;1;34m [0;34m [0;1;33m [0;31m  [0;1;31m  [0;1;33m [0;1;31m  [0;1;33m [0;31m  [0m'

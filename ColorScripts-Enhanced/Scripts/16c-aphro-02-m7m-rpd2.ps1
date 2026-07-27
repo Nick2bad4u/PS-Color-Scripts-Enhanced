@@ -5,14 +5,13 @@
 # Source SHA-256: 2450675d36f489281250f8532b7e6c112aabd44a302fe9183d8ac6601007a980
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M7M-RPD2.ANS by Metal Militia (aphro-02); released in aphro-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-13
 # Columns: 1-80
 
 Write-Host '
                                                          [1m  [0;1;34m  [0;36m,[0;1;36ms[0;36m%d[0m
-                [1;36m [0;36m  [0;1;36m    [0;36m    [0;1;36m [0m                     [36m   [0;1;37m     [0m [1;36m  [0;36m [0;1;36m    [0;36m  [0;1;36m [0;36m [0m
-           [36m,s[0;1;36m%[0;36md[0;1;36m╜ⁿ[0;36m"^[0;1;36m^[0;36m``[0;1;36m `[0;36m''[0;1;36mⁿ╙$[0;36mbs,[0;1;36m    [0;36m,s[0;1;36mS$[0;36m$[0;1;36mb[0;36m@[0;1;36ms[0;36m,._[0m             [36m_[0;1;36m,$$$[0;36m$[0m
+[1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m[36m[0;1;37m[0m[1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0m           [36m,s[0;1;36m%[0;36md[0;1;36m╜ⁿ[0;36m"^[0;1;36m^[0;36m``[0;1;36m `[0;36m''[0;1;36mⁿ╙$[0;36mbs,[0;1;36m    [0;36m,s[0;1;36mS$[0;36m$[0;1;36mb[0;36m@[0;1;36ms[0;36m,._[0m             [36m_[0;1;36m,$$$[0;36m$[0m
          [1;36m:[0;36m:[0;1;36ml$$[0;36m$[0;1;36m [0;1;35m,s#[0;35m#[0;1;35ms[0;35m,[0;1;35m    [0;1;36m [0;1;37ml$[0;1;36m$l:: [0;36md[0;1;36m$$ⁿ^``^"ⁿ╜$[0;36mSbs,.[0;1;36m [0;36m_.,[0;1;36ms[0;1;37m@d[0;1;36m$$[0;36m$[0;1;36m╨╨[0;36m╨╜[0m
            [36m╨[0;1;36m╨[0;36m╨╜[0;1;36m [0;1;37mW[0;1;35m$[0;35m$[0;1;35m$[0;35m$S[0;1;35m [0;1;36m:[0;36m:[0;1;36m:[0;36m:[0;1;36m$$[0;36m$:[0;1;36m:[0;36m:[0;1;36m [0;36m`''[0;1;36m7b%[0;36ms,[0;1;36m [0;1;35m+[0;35m.[0;1;36m [0;1;37ml[0;36m$[0;1;36m$[0;36m$P''d[0;1;36m$Pⁿ"`[0;36m^"ⁿ[0;1;36m$[0;36my[0;1;36my[0;36myy[0m
  [36mn[0m   [36mm[0;1;34m  [0;36mmmmyy[0;1;36my[0;36my[0;1;36m [0;1;37mⁿ[0;1;35m^[0;35m`[0;1;35m`[0;35m`''[0;1;35m   [0;1;36m  "[0;36m""[0;1;36m  [0;1;37m$b[0;1;36ms,. `ⁿ7[0;36mb,.d[0;1;36m$P[0;36mⁿ''[0;1;36m  [0;36m~[0;1;36m~ [0;1;37m,[0;1;35ms#[0;35m#[0;1;35ms[0;35m,[0;1;36m l$$[0;36m$[0m

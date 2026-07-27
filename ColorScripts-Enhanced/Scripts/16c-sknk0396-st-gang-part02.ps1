@@ -5,7 +5,7 @@
 # Source SHA-256: c793006da48df1ad7c59883306d10cb288633b84e313c596dd184139ffd3defb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-GANG.ANS by Strahd (SKANK); released in sknk0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: gangrene
 # SAUCE Author: Strahd
 # SAUCE Group: SKANK
@@ -50,7 +50,7 @@ Write-Host '
     [1;33;43m░[0m  [1;33;43m▒░[0;33m [0;1;33;43m░[0m [33m  [0;34;46m▒[0;37;40m [0;34;46m ░▒[0;37;40m [0;34;46m▒░ [0;37;40m [0;36;44m░▒▓[0;37;40m [0;36;44m░▒▓[0;37;40m [0;36;44m░[0;34;40m▄[0;33;40m    [0;36;40m▄[0;36;44m▒[0;37;40m [0;36;44m░▒▓[0m     [34;40m▄[0;36;44m▒[0;36;40m▄[0;34;40m ▄[0;33;40m  [0;36;40m▄[0;37;40m [0;36;44m░[0;34;40m▄[0;36;40m▄[0;37;40m [0;36;44m░▒▓[0;37;40m [0;36;44m░▒[0;36;40m▄[0;33;40m [0;1;33;40m▀▀[0;1;33;43m▓▒[0m  [1;33;43m░[0m
        [1;33;43m░[0;34m▄[0;33m  [0;36m▄[0;34;46m░▒▓[0;37;40m [0;34;46m░▒[0;34;40m█[0;37;40m [0;34;46m█▒░[0;37;40m [0;36;44m ░▒[0;37;40m [0;36;44m ░▒[0;37;40m [0;36;44m ░▒▓[0;37;40m [0;36;44m▓▒░[0;37;40m [0;36;44m ░▒[0m     [36;44m ░▒[0;37;40m [0;36;44m ░▒▓[0;37;40m [0;36;44m ░▒[0;37;40m [0;36;44m ░▒[0;37;40m [0;36;44m ░▒[0;37;40m [0;36;44m░[0;34;40m▄▄[0;33;40m [0m
        [34;40m▀▀▀▀▀▀▀▀[0;37;40m [0;34;40m▀▀▀[0;37;40m [0;34;40m▀▀▀[0;37;40m [0;34;40m▀▀▀[0;37;40m [0;34;40m▀▀▀[0;37;40m [0;34;40m▀▀▀▀▀▀▀▀[0;37;40m [0;34;40m▀▀▀[0m     [34;40m▀▀▀▀▀▀▀▀[0;37;40m [0;34;40m▀▀▀[0;37;40m [0;34;40m▀▀▀[0;37;40m [0;34;40m▀▀▀▀▀▀▀▀[0m
-                      [1;30;40mGa[0;33mngr[0;1;33mene [0;1;34m(7[0;34m13[0;1;34m) 72[0;1;36m1-13[0;1;34m18[0m
+                      [1;30;40m  [0;33m   [0;1;33m    [0;1;34m  [0;34m  [0;1;34m    [0;1;36m    [0;1;34m  [0m
 
 [34m▓▀[0;37m [0;34m▀[0;37m [0;34m▀[0m                                                                    [34m▀[0;37m [0;34m▀[0;37m [0;34m▀▓[0m
 [34m▓[0m                                                                              [34m▓[0m

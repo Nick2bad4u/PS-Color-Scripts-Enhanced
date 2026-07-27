@@ -5,7 +5,7 @@
 # Source SHA-256: 914949064eff654ffbe4fa6912413959462838a1df219fa4358b7ab932c334aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LE-TRAZ.ANS by Leaf Eater (blndr022); released in blndr022 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -38,11 +38,9 @@ Write-Host '
 [34m [0;37m  [0;34mdP''''` `b.`$$$$$$P''''''`  [0m                      [34ma single man... [0m
    [34m$$b,...[0m
    [34m$$$$P$╝''````[0m
-   [34m       [0m                                                [34m                 [0m
-   [34ml$P''l      [0m
+[34m[0m[34m[0m   [34ml$P''l      [0m
    [34ml7''[0;37m [0;34m: [0m         [34m  [0m
-   [34m  [0;37m  [0;34m [0;37m  [0;34m  [0m       [34m [0m                 [34m                                      [0m
-   [34ml[0m      [34md$b,,...d$.[0m
+[34m[0;37m[0;34m[0;37m[0;34m[0m[34m[0m[34m[0m   [34ml[0m      [34md$b,,...d$.[0m
    [34m`[0m      [34m`?$$$$$$$P''``[0m                         [37m  [0m      [37m`$$$$P''''''[0m
             [34m`''''''''''` [0m                            [37m.db.[0m     [37m`╚P''[0m
                     [34m. [0m                           [37m`''P [0m     [37m ` [0;1;37m [0m

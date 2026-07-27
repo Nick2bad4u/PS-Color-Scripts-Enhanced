@@ -5,7 +5,7 @@
 # Source SHA-256: 7254e5d2bbb225aa8d42670b9a976385bfec91d64b09a1b9b996f5ad0038250e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NEPTUNE.ANS by Ray Sulich (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -18,7 +18,7 @@ Write-Host '
 [1;33;44m  [0;1;33;41m║[0;1;33;46m       [0;1;5;34;46mNet Node #  [0;30;46m│  [0;1;5;34;46m005/004          [0;1;33;41m║[0;1;33;44m                [0;44m°                    [0m
 [44m  [0;1;33;45m■[0;1;33;46m    [0;30;46m│  ──  ──  ──     ──  ──  ── │     [0;1;33;45m■[0;1;33;44m                  [0;1;5;37;44m°                  [0m
 [1;5;37;44m  [0;1;33;41m║[0;1;33;46m                   [0;30;46m│                   [0;1;33;41m║[0;1;33;44m                                     [0m
-[1;33;44m  [0;1;33;41m║[0;1;33;46m  [0;1;35;46m2400 N-8-1            [0;1;31;46m(708)689-1980  [0;1;33;41m║[0;1;33;44m               [0;1;5;37;44m°     [0;44m°               [0m
+[1;33;44m  [0;1;33;41m║[0;1;33;46m  [0;1;35;46m                      [0;1;31;46m               [0;1;33;41m║[0;1;33;44m               [0;1;5;37;44m      [0;44m                [0m
 [44m  [0;1;33;41m║[0;1;33;46m                   [0;30;46m│                   [0;1;33;41m║[0;1;33;44m      [0;32m█[0;32;44m          [0;37;44m°                   [0m
 [37;44m  [0;1;33;41m║[0;1;33;46m  [0;1;34;46m                                     [0;1;33;41m║[0;1;33;44m      [0m█[44m                              [0m
 [44m  [0;1;33;41m║[0;1;33;46m        [0;1;34;46mNeptune   [0;30;46m───           [0;1;34;46mWonder [0;1;33;41m║[0;1;33;44m      [0m█[44m       ╔   °  °  °            [0m

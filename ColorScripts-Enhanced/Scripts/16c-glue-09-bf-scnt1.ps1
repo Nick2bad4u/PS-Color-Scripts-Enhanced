@@ -5,7 +5,7 @@
 # Source SHA-256: cb1c0cc62b76326521b2a08bff9743547bd5567c2cdc6d1fbdd49a68a492c01c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-SCNT1.ANS by Boba Fett (glue-09); released in glue-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -41,6 +41,5 @@ t[1;30mox[0mi[1;30mx[0m''s [1;30m,[0m.  .[1;30m,[0m [1;30mS[0mC[1;30m
 [37;40m                                                                         [0m
 
 [1;37;40m                    [0m                                                         
-                                                  
 
 [34m░[0;30;44m▓[0;37;40m [0;1;37;40m        [0;34m [0;37m [0;34m░[0;30;44m▓[0;37;40m [0;1;37;40m    [0;34m [0;1;37m    [0;34m [0;1;37m [0;34m [0;1;37m   [0;34m [0;1;37m   [0;34m [0;1;37m   [0;34m [0;1;37m   [0;34m [0;1;37m     [0;34m░[0;30;44m▓[0m'

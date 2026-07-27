@@ -5,7 +5,7 @@
 # Source SHA-256: 27dd81d7ac750ed04bccb374de4ec757d155c9ca99ca58a181ec479a1271603c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: [011] SC-SEMW.ans by Skarecrow (Visions of Reality); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Seminole Wind
 # SAUCE Author: Skarecrow
 # SAUCE Group: Visions of Reality
@@ -32,16 +32,14 @@ Write-Host '
 
 
 [1;30;40m    [0m [1;30m  [0m [1;30m      [0m [1;30m   [0m
-[1;30m    [0m [1;30m  [0m [1;30m         [0m
-                                                                        [1;33m▀[0;1;33;41m▓▓█[0;1;33;40m▄▄[0m
+[1;30m[0m[1;30m[0m[1;30m[0m                                                                        [1;33m▀[0;1;33;41m▓▓█[0;1;33;40m▄▄[0m
 [31m▀[0;37m [0;31m▀[0;37m  [0;31m▄[0;37m [0;31m▀[0;37m [0;31m▄[0;37m  [0;31m▀[0;37m  [0;31m▀[0;37m   [0;31m▀[0;37m  [0;31m▀[0;37m  [0;31m▀▀▀▀▀▀▀▀▄▄▀▀▄▀█▀▄▀███▀██[0;1;33;41m░[0;31m█▄██[0;1;33;41m░░░░▒░░▒▒░▒▒▒▒▒▓▒▓▓▓▓▓▓██[0m
                                                                         [1;33m▄[0;1;33;41m▓▓█[0;1;33;40m▀▀[0m
                           [1;35mS[0m [1;35mE[0m [1;31mM[0m [1;31mI[0m [1;31mN[0m [1;33mO[0m [1;33mL[0m [1;33mE[0m    [1;31mW[0m [1;31mI[0m [1;31mN[0m [1;35mD[0m                   [1;33m▀▀▀[0m
-               ▄███▄           [1;31m(301[0;1;33m)[0m [1;33m236-903[0;1;31m0[0m             ▄███▄
+               ▄███▄           [1;31m    [0;1;33m [0m [1;33m       [0;1;31m [0m             ▄███▄
                █▄▀▄█           [1;31mSyso[0;1;33mp:[0m [1;33mOsceol[0;1;31ma[0m             █▄▀▄█
                ▄▀█▀▄         [1;31mVOR[0m [1;31mWH[0;1;33mQ,[0m [1;33mROC[0m [1;33mDi[0;1;31mstro[0m          ▄▀█▀▄
-                           [1;35m  [0;1;31m     [0m [1;33m   [0m [1;33m     [0m [1;31m  [0m [1;31m  [0;1;35m [0m
-     [1;33m▄▄▄[0m                [1;35m     [0;1;31m      [0;1;33m         [0;1;31m      [0;1;35m     [0m
+[1;35m[0;1;31m[0m[1;33m[0m[1;33m[0m[1;31m[0m[1;31m[0;1;35m[0m     [1;33m▄▄▄[0m                [1;35m     [0;1;31m      [0;1;33m         [0;1;31m      [0;1;35m     [0m
  [1;33m▄▄[0;1;33;41m█▓[0;1;33;40m▀▀[0m
 [1;33;41m██▓▓▓▓▓▓▒▓▒▒▒▒▒░▒▒░░▒░░░░[0;31m██▄█[0;1;33;41m░[0;31m██▀███▀▄▀█▀▄▀▀▄▄▀▀▀▀[0;37m [0;31m▀▀▀[0;37m  [0;31m▄[0;37m  [0;31m▀[0;37m   [0;31m▀[0m     [31m▀[0m      [31m▄[0;37m [0;31m▀[0m
 [37m [0;1;33m▀▀[0;1;33;41m█▓[0;1;33;40m▄▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: bdf01ab42db260da8fc5b4fb726eb7f93fda30c3b9de011ebe0614f77cd4dcea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-TST.ANS by prisoner number one (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Screaming Tomato
 # SAUCE Author: prisoner number one
 # SAUCE Group: ACiD Productions
@@ -30,7 +30,7 @@ Write-Host '
 [31m▄█▀▀  ▄▀█▄▄█▀▀  ▄▀██[0;1;36m▐▌[0;31m██▀▄  ▀▀██ [0;1;31m■▄ ▄█▀█▄  ▐ [0;31m█  [0;34mIf you would like an ansi from[0;31m│[0;37m [0m
 [31m█   [0;31;41m   [0;31;40m  [0;31;41m  [0;31;40m   [0;31;41m   [0;31;40m▄▄█[0;1;36;40m▐▌[0;31m█  [0;31;41m   [0;31;40m   [0;31;41m  [0;31;40m▄ [0;1;31;40m▒█  ▐█▌ █ [0;31m█  [0;34mme, the only place I will take[0;31m│[0;37m [0m
 [31m▌  ▐[0;35;41m░░░[0;35;40m  [0;35;41m▒[0;31;40m▌  ▄[0;35;41m░░░░░░[0;1;36;40m▐▌[0;35;41m░[0;35;40m  [0;35;41m░░░[0;31;40m▄  ▐[0;35;41m░░[0;35;40m [0;1;31;40m▒▓ ▄█▀ ▐▓ [0;31m█  [0;34myour request is on Psycho City[0;35m│[0;37m [0m
-[31m   [0;35;41m▒▒▒[0;35;40m▄  [0;31;45m░[0;31;40m   [0;35;41m▒▒▒▒▒▒▒[0;1;36;40m▐▌[0;35;41m▒[0;35;40m  [0;35;41m▒▒▒▒[0;35;40m   [0;35;41m▒▒[0;35;40m [0;1;31;40m▒▓▀▀ [0;35m▄ [0;1;31m█▓    [0;34m510-797-0950.  Greets to Brian[0;31m│[0;37m [0m
+[31m   [0;35;41m▒▒▒[0;35;40m▄  [0;31;45m░[0;31;40m   [0;35;41m▒▒▒▒▒▒▒[0;1;36;40m▐▌[0;35;41m▒[0;35;40m  [0;35;41m▒▒▒▒[0;35;40m   [0;35;41m▒▒[0;35;40m [0;1;31;40m▒▓▀▀ [0;35m▄ [0;1;31m█▓    [0;34m                              [0;31m│[0;37m [0m
 [34m   [0;31;45m░░░░[0;31;40m  [0;31;45m░[0;31;40m   [0;31;45m░░░░░░░[0;1;36;40m▐▌[0;31;45m░[0;31;40m  [0;31;45m░░░░[0;31;40m   [0;31;45m░░[0;31;40m [0;1;31;40m▒█ [0;31;45m░░░[0;31;40m [0;1;31;40m▓▒ [0;35m█  [0;34mStan Gary Jonny&Crissy Trevor1[0;35m│[0;37m [0m
 [35m▄  ▀███  █▄  ▀██▀  █[0;1;36m▐ [0;35m█  ███▀   ██ [0;1;31m▒█ [0;35m███ [0;1;31m▓▒ [0;35m█  [0;34mTrevor2 Derek Mike&Amy and all[0;31m│[0;37m [0m
 [35m▀█▄▄██▄▄█▀▀█▄▄▄▄[0;1;36m▓[0;1;37m▓▄[0;1;36m▄▐ [0;35m█▄▄▄▄▄▄▄▄██▀ [0;1;31m▒ [0;35m▄███▄▄▄▄█  [0;34mwho do ansi.  Where''s 33? uh..[0;35m│[0;37m [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 0bd1acdca8e2e64e38502dff250c08bde5428d4a7437608175dab36c9e80cbdb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-ESS1.ANS by Chromatik (Blade Productions); released in blde9501 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Essence!
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -42,7 +42,7 @@ Write-Host '
 ▒[1;30m ▓[0m                                                                         [1;30m▒[0m ▒
 ▒[1;30m ▒[0m        [1;35ms[0;35m y s o p[0;1;35m s[0m  [1;37mj[0m -[1m s[0m m o o v e  [1m[[0m a i m[1m ][0m  +  [1mp[0m a r a g o n        [1;30m▓[0m ▒
 ▒[1;30m ▒[0m                                                                         [1;30m▓[0m ▓
-▓[1;30m ▒[0m        [1;37m3[0m 1 4 .[1m 5[0m 2 4 .[1m 6[0m 7 9 6    [1;35mn[0;35m u p[0m    [1;37ml[0m u c i d   [1md[0m r e a m        [1;30m▒[0m ▒
+▓[1;30m ▒[0m        [1;37m [0m      [1m  [0m      [1m  [0m          [1;35m [0;35m    [0m    [1;37m [0m           [1m [0m                [1;30m▒[0m ▒
 ▒[1;30m ▓[0m                                                                         [1;30m▓[0m ▓
 ▒[1;30m ▒[0m            [1;37ma[0m i m    [1mc[0m e n t r a l    [1mh[0m e a d q u a r t e r s            [1;30m▒[0m ▒
 ▓[1;30m ▒[0m                                                                         [1;30m▓[0m ▒

@@ -5,7 +5,7 @@
 # Source SHA-256: 3b09ac14b17e7e2298acc6f468056de1b880bfd207c139adb77eef079969e58a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PICROTOXIN-BOTS.ANS by aleyna (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bots
 # SAUCE Author: aleyna
 # SAUCE Group: Mistigris
@@ -16,9 +16,6 @@
 # Columns: 1-80
 
 Write-Host '
-                                                                               
-                                                                              
-                                                                           
 [34m████████████████████████████████████████████████████████████████████████████████[0m
 [34m████[0;1;34;44m [0;34m███████████████████████████████████████████████████████████████████████████[0m
 [34m████[0;1;34;44m [0;34m███████████████████████████████████████████████████████████████████████████[0m

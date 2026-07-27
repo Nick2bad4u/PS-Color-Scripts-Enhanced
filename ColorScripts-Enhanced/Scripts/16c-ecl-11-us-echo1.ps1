@@ -5,7 +5,7 @@
 # Source SHA-256: a6b3e03daea26b9a37766eb5170d7de956ef5f27e0037dc0b583a4d447fdbdc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ECHO1.ANS by Wat0r + Spear (echo/eclipse); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: echo = plain? plain = echo? huh?
 # SAUCE Author: wator/spear
 # SAUCE Group: echo/eclipse
@@ -14,7 +14,6 @@
 # Columns: 1-80
 
 Write-Host '
-                                                     
 
 
          ▄               [1;32m▄-[0m

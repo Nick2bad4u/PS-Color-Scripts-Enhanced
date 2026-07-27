@@ -5,7 +5,7 @@
 # Source SHA-256: bdfd0e973c449e078ef467fcf5f7a3f247a468726e4da9d15917f158feda62ff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DRAGON.ANS by Blade Runner (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -57,6 +57,6 @@ Write-Host '
      [37m▄[0;1;33m███▀   ▀▀[0m▄[1;33m███[0m█[1;33;47m▀[0;1;33;40m██[0m█[1;33m██[0m      ▀█[1;33m██[0m▀▀█[1;33m██[0m             [1;31m║ [0;1;30mS[0mys[1;30mO[0mp[1;30m:[0m       [31m║[0m
      [31;47m [0;1;33;40m█[0;1;37;40m██  ▄▄▄[0;1;33;40m▄[0m█[1;33m█[0;1;37m██ [0;1;37;47m [0;1;37;40m██[0m█[1;33m█[0;1;37m█[0m       █[1m██  [0m▐[1;33;47m▐[0;1;37;40m██[0m            [1;31;40m║ [0;1;37;40mD[0;1;36;40mrag[0;36mon[0;1;37mS[0;1;36mlay[0;36mor [0;31m║[0m
      [31;47m [0;1;37;40m███ [0m▀[47m [0;1;47m▀[0;1;33;40m██[0m█[1m███ [0;1;47m [0;1;33;40m██[0m█[1m██[0m       █[1;33m█[0;1;37m█  [0m▐[1;47m▐[0;1;40m█▀[0m              [1;33;40m═══[0;33m═══════[0;1;33m═══[0m
-     [1;33;47m [0;1;37;47m▀[0;1;33;40m███▄▄██▀[0m█[1;47m▀[0;1;33;40m█████▀[0m█[1;33m██▄▄▄▄▄█ [0;1;33;47m▄[0;1;33;40m██▄▄[0;1;33;47m▄[0;1;33;40m█▀[0m               [1;30;40m[[0;1;34;40m3[0;1;30;40mo[0;1;34;40m5[0;1;30;40m][0;1;32;40m2[0;32m2[0;1;32m6[0;1;30m-[0;1;31m8[0;31m8[0;1;31m8[0;1;30mo[0m
+     [1;33;47m [0;1;37;47m▀[0;1;33;40m███▄▄██▀[0m█[1;47m▀[0;1;33;40m█████▀[0m█[1;33m██▄▄▄▄▄█ [0;1;33;47m▄[0;1;33;40m██▄▄[0;1;33;47m▄[0;1;33;40m█▀[0m               [1;30;40m [0;1;34;40m [0;1;30;40m [0;1;34;40m [0;1;30;40m [0;1;32;40m [0;32m [0;1;32m [0;1;30m [0;1;31m [0;31m [0;1;31m [0;1;30m [0m
       ▀[47m [0;1;33;47m▀▀▀▀[0;1;33;40m▀   [0m▀[47m [0;1;33;47m▀▀[0;1;33;40m▀  [0m█[1;33;47m▀▀▀▀▀▀[0;1;33;40m▀ [0m█[1;33;47m▀▀▀▀▀[0;1;33;40m▀   [0;31m-[0;1;31mBlad[0;31me[0;1;31m·[0;31mRunner [0;1;31m────[0;31m─────────[0m
                                               [1;30m[[0;1;34mAC[0;1;36mi[0;1;34mD[0;1;30m][0m'

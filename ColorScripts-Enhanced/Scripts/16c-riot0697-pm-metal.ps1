@@ -5,7 +5,7 @@
 # Source SHA-256: 3c789f44d87b792b5d013eb3cb6c13527ef8e9a9b2085827782b4155058d0229
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-METAL.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -33,6 +33,4 @@ Write-Host '
 [1;34m$$$$$$$$$$$$$$$$$$$$[0;34m$$[0;33m$$$$[0;31m$[0;1;33m$$$$$$$$$[0;33m$$$$$$[0;31m$[0;1;33m$$$$$$$[0;34m$[0;1;34m$$$[0;34m$[0;1;33m$$$$$$s[0;1;34m$[0;1;33ms$$[0;33m$$[0;34m$[0;33m$$$$$$[0;31m$[0;1;33m$$$[0;1;34m$[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$[0;34m$$[0;33m$$$$[0;31m$[0;1;33m$$$$$$$$[0;33m$$$$$$[0;31m$[0;1;33m$$$$$$$[0;34m$[0;1;34m$$$$$[0;34m$[0;1;33m$$$$$$$$$$$[0;33m$[0;34m$[0;33m$$$$$$$$[0;31m$[0;1;33m$$[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$$$[0;31m$[0;34m$$$$$$$$[0;1;34m$$$$$$$[0;34m$$$$$$$$$$$$$$$$$$$$$$[0;31m$[0;1;34m$[0m
-[1;34m$$$$$$$$$$$$$$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$[0;31m$[0;34m$$$$$$$$[0;1;34m$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$$$$[0;31m$[0;1;34m$$[0m
-
-[1m   [0m                        [1m <<[0m  [34m6[0;1;34m1[0;34m9[0;1;34m-[0;34m4[0;1;34m2[0;34m3-4[0;1;34m97[0;34m0[0;37m [0;1;37m>>[0m'
+[1;34m$$$$$$$$$$$$$$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$[0;31m$[0;34m$$$$$$$$[0;1;34m$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$$$$[0;31m$[0;1;34m$$[0m'

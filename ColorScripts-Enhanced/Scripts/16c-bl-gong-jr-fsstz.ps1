@@ -5,7 +5,7 @@
 # Source SHA-256: 2cde12c9dfd4277b531fd4d545cf062565abe8021079963a3e060410d503ba60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSSTZ.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FS shizo userstatz
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -31,12 +31,7 @@ Write-Host '
             [33m░░░[0m
       [1;37mu[0ms[1;30mer.........:[0m                      [1;30m  [0;1;37mb[0ma[1;30mud rate....:[0m
 [33m░░░[0;37m [0;33m░ [0;1;37m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
-      [1m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
-      [1m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
-      [1m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
-      [1m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
-      [1m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
-
+[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m
 
 
 

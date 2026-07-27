@@ -5,7 +5,7 @@
 # Source SHA-256: 75999fba33a89084fe89659247daecbfbd7b3ea51d9ec3a0a995fa028a12ca36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KU-AW.ANS by Kung Lao (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 193-227
 # Columns: 1-80
 
@@ -30,15 +30,7 @@ Write-Host '
                                                  [1;37;40m│  [0;31m▀▀[0m
               [1;36m ┤             [0m                 [1;30m [0;1;37m──┼─[0m [1;30m [0m
                                  [1;30m [0m  [36m    [0;1;36m   [0;36m [0;1;36m [0;36m    [0;1;37m│[0m
-                                 [1;30m [0m  [36m     [0;1;36m        [0;1;30m [0m
-                                 [1;30m [0m  [36m      [0;1;36m    [0m
-                                 [1;30mN[0mod[36me# [0;1;36m(909)[0;36m-6[0;1;36m86[0;36m-7[0;1;36m917[0m
-                                 [1;30m [0m   [36m [0;1;36m      [0;36m [0;1;36m   [0m
-                                 [1;30m [0m   [36m [0;1;36m   [0m
-                                 [1;30m [0m   [36m [0;1;36m   [0m
-                                 [1;30m [0m  [1m [0;36m [0;1;36m   [0;36m [0;1;36m        [0;36m [0;1;36m       [0m
-                                 [1;30m [0m   [36m [0;1;36m   [0;36m [0;1;36m    [0;36m  [0;1;36m    [0;36m [0;1;36m   [0;36m [0;1;36m   [0m
-[1;36m────────────────────────────────────────────────────────────────────────────────[0m
+[1;30m[0m[36m[0;1;36m[0;1;30m[0m[1;30m[0m[36m[0;1;36m[0m[1;30m[0m[36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m[1;30m[0m[36m[0;1;36m[0;36m[0;1;36m[0m[1;30m[0m[36m[0;1;36m[0m[1;30m[0m[36m[0;1;36m[0m[1;30m[0m[1m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m[1;30m[0m[36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m[1;36m────────────────────────────────────────────────────────────────────────────────[0m
                      [1;36m▄▄▄▄  ▄▄▄▄▄  ▄▄▄ ▄  ▄▄▄▄  ▄▄▄▄  ▄▄▄▄▄  [0;34m(C)opywright: 94''[0m
                      [1;36m█[0m     [1;36m█   █  █ █ █  █[0m     [1;36m█[0m     [1;36m█   █[0m     [34mCNC Productions[0m
                      [34m█[0m     [34m█   █  █ █ █  █[0m     [34m█▀▀▀  █▀▀▀▀▄[0m

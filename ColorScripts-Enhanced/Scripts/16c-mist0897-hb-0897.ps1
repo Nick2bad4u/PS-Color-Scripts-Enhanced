@@ -5,7 +5,7 @@
 # Source SHA-256: 8e8443d9ab851fc288bd5d4d8520dc4642477c9f448f02987d77e74c3a455429
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HB-0897.ANS by Handiboy (Mistigris); released in mist0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: August 1997 Logo Colly
 # SAUCE Author: Handiboy
 # SAUCE Group: Mistigris
@@ -23,8 +23,7 @@ Write-Host '
 [34m██[0;1;30;44m▒▒▓▓[0;1;30;40m█▄[0;34m▀██[0;1;34;44m▒▒[0;34m███[0;1;34;44m▀▀▀[0;34m█▌▀▀[0;1;30;44m▄▓▓▒▒░  [0;1;34;44m▐[0;1;34;47m▄[0;1;34;44m▌[0;34m█▀▀[0m       [1;33m# [0m1000 [1;33mof [0m1000        [34m▄ ▄[0;37;44m▄[0;1;34;44m▄[0;34m█▌[0;34;44m [0;1;34;44mhb![0;1;30;44m░▓[0;1;30;40m▌[0m
            [34m▀▀▀▀[0m                [34m▀▀▀▀[0m                                 [34;44m [0;1;34;44m▀▀[0;34m█▌[0m
 
-[34m [0;1;30m                                                       [0m
-
+[34m[0;1;30m[0m
 
                                       [34m░░░░░hb-mist    ▄▄▄▄[0m
                              [34m▄[0;36;44m▄▄▄[0;34;40m██▄  █[0;37;44m▄▄[0;36;44m▄▄[0;34;40m███████  ▀[0m      [34;40m█▄[0m

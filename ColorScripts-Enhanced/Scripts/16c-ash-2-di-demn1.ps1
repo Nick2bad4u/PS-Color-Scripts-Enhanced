@@ -5,7 +5,7 @@
 # Source SHA-256: b5d82b45080a7858079d5afb3c84d0f5df1825bcba32b6767e3af8ea3bbf7060
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DI-DEMN1.ANS by divine intervention (ash); released in ash-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: demonic abyss font
 # SAUCE Author: divine intervention
 # SAUCE Group: ash
@@ -23,7 +23,7 @@ Write-Host '
 [1;30m█[0;1;30;46m  i▐[0;1;30;40m███▀ [0;36m▄▄▄■[0;1;30m▀█▌[0;1;36m▐█[0;1;36;46m▓▒░[0;36m█▌[0;1;30m▐███▓▄▄▄▄▄▓███[0;1;30;46mi  [0;1;30;41m█[0m          [1;36m..d[0;36mem[0;1;30monic ab[0;36mys[0;1;36ms..[0m          [1;30m█[0m
 [1;30m█[0;1;30;46m  n▐[0;1;30;40m█▀[0;1;36;40m▄█[0;1;36;46m▓▒▒░di[0;36m▄[0;1;30m▐▌[0;1;36m█[0;1;36;46m▓▒░░[0;36m▌[0;1;30m■█████▀▀▀▀■███[0;1;30;46mo  [0;1;30;40m█   keep checking out ash!  to [0mjoin   [1;30m█[0m
 [1;30m█[0;1;30;46m  e▐[0;1;36;40m■▐█[0;1;36;46m▓▒▒░[0;36m▀▀[0;1;30m▄▄[0;36m▀■[0;1;36m▐█[0;1;36;46m▓▒░[0m [36m▀[0;1;30m███[0;1;36m■▐█[0;1;36;46m▓▒░[0;1;30;40m▐█▓█[0;1;30;46mn  [0;1;30;40m█   ''ash art call napalm dynasty at   █[0m
-[1;30;40m█[0;1;30;46m  i▐[0;1;30;40m▌[0;1;36;40m█[0;1;36;46m▓▒▒[0;36m▌[0;1;30m■██████■[0;1;36m█[0;1;36;46m▓▒░[0;1;30;40m▐▓████[0;1;36;40m■█[0;1;36;46m▓▒░[0;1;30;40m▐▓██[0;1;30;46m!  [0;1;30;40m█    [0m4i4.367.9o99[1;30m.. leave myself or   █[0m
+[1;30;40m█[0;1;30;46m   ▐[0;1;30;40m▌[0;1;36;40m█[0;1;36;46m▓▒▒[0;36m▌[0;1;30m■██████■[0;1;36m█[0;1;36;46m▓▒░[0;1;30;40m▐▓████[0;1;36;40m■█[0;1;36;46m▓▒░[0;1;30;40m▐▓██[0;1;30;46m   [0;1;30;40m█    [0m            [1;30m                     █[0m
 [1;30;41m█[0;1;30;46m  n▐[0;1;30;40m▌[0;1;36;40m▐█[0;1;36;46m▓▒▒[0;36m▄▄ [0;1;30m▀█[0;1;36m■[0;1;30m▀[0;36m■[0;1;36m▓█[0;1;36;46m▓[0;1;36;40m▌[0;1;30;40m██████▌[0;1;36;46m▓[0;1;36;40m█[0;1;36;46m▓[0;36m▌[0;1;30m██▀█[0;1;30;46ma  [0;1;30;40m█   broken machine (prez) e-mail an''  █[0m
 [1;30;40m█[0;1;30;46m  t▐[0;1;30;40m█▄[0;1;36;40m▀█[0;1;36;46m▓▒▒░  [0;36m▄▄▀[0;1;36m■[0;1;30m▄[0;1;36m▀[0;1;36;46m▓▒[0m [36m■▄[0;1;30m████▄[0;1;36m▀[0;1;36;46m▓░[0m [36m■▄■[0;1;30;46m▌  [0;1;30;40m█   some of yer art as well as your   █[0m
 [1;30;40m█[0;1;30;46m  e▐[0;1;30;40m███▄[0;36m■▀▀▀▀■[0;1;30m▄▄▄███▄■[0;36m▀▀■[0;1;30m██████▄■[0;36m▀▀■[0;1;30m█[0;1;30;46ms  [0;1;30;40m█   completed app.. ..([0mash.app[1;30m)..[0m     [1;30m█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 359d7dc5d1eedfcb53a48cd3d105f0cd93ca575947f7a5182571ff35b64f1c09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-BLNT3.ANS by Unknown Comic (blnt0494); released in blnt0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -26,8 +26,7 @@ Write-Host '
                          [30;41m▄▄▄▄▄[0m     [30;41m▄[0m  [30;41m▄               ▐[0m
                                          [30;41m▄▄▄      ▄▄[0;30;42m█[0;30;41m▄ ▀[0m
                                                         [30;41m▄[0m
-                                 [1m        [0m
-                              [1mP R E S E N T S[0m
+[1m[0m                              [1mP R E S E N T S[0m
 
                                      [1mA[0m
 

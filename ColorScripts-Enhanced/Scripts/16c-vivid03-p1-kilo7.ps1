@@ -5,7 +5,7 @@
 # Source SHA-256: 833e97f8908d6a1101570d4a47926a2aa24c38a82c6c80f57ec3b9068717d2f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-KILO7.ANS by Paranormal Intensity (ViViD); released in vivid03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: P1-KILO7
 # SAUCE Author: Paranormal Intensity
 # SAUCE Group: ViViD
@@ -33,6 +33,6 @@ Write-Host '
        [37m [0;36m ▒███▀[0;37m  [0;1;30m.p1[0m       [36m▀▓█[0;1;36;46m▀▀█[0;1;37;40m█[0;1;36;46m█▀[0;36m█▀[0;32m▐[0;1;32;42m▌[0m [36m▐▐▓██[0;1;36;46m▐▀[0;36m▌[0;37m [0;36m░█[0;1;36;46m▓▐██▓[0;36m▌[0;37m [0;36m▓█████[0;1;36;46m▒[0;36m█████[0;1;36;46m▓[0;36m▓███▌[0m
        [37m [0;36m █▌▀░[0m              [36m░▀[0;1;36;46m▓[0;36m▐█[0;1;36;46m▀[0;36m▌▒[0;37m  [0;1;32;42m▐█[0;32m▌[0;37m [0;36m▀██[0;1;36;46m▒[0;36m▓[0;1;36;46m░[0;36m▌[0;37m [0;36m▐███[0;1;36;46m▀▀[0;36m█▌[0;37m  [0;36m▀▀▀████▌████████▌[0m
          [36m▀[0m                    [36m▀▓▀[0m   [1;33m▐[0;1;32;42m█▓▌[0m  [36m░▀█▌█▌[0;37m  [0;36m░▐█[0;1;36;46m▒[0;36m██▒[0m     [36m▓[0;37m  [0;36m▀▀▀▀████[0;1;36;46m▓[0;36m█▌[0m
-[36m([0;1;32m6i3[0;36m)[0;1;32m822[0;36m-[0;1;32m0988[0m                       [1;32;42m▐▓█[0;1;37;40m█[0;1;33;40m▌[0m    [36m▀▓▌[0m    [36m░██[0;1;36;46m░[0;36m [0m               [36m▒▀▀[0m
+[36m [0;1;32m   [0;36m [0;1;32m   [0;36m [0;1;32m    [0m                       [1;32;42m▐▓█[0;1;37;40m█[0;1;33;40m▌[0m    [36m▀▓▌[0m    [36m░██[0;1;36;46m░[0;36m [0m               [36m▒▀▀[0m
                                     [1;33m▐[0;1;32;42m██[0;1;37;40m█[0;32m [0m             [36m▀█▌[0m
                                      [1;37m▀▀[0;32m [0m               [36m▓[0m'

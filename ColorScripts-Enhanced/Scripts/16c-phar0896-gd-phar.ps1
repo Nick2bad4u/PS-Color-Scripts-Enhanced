@@ -5,7 +5,7 @@
 # Source SHA-256: 09f1f5d1cbd59fc2a18df3e76b4aa286e7db8dbaea6ed6b7aa387f508a7e2fc4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GD!PHAR.ANS by Gideon (phar); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: anskee logo by our new member
 # SAUCE Author: Gideon
 # SAUCE Group: phar
@@ -32,7 +32,5 @@ Write-Host '
             [1;34m7$$P[0m    [1;36m·[0m [1;36m.[0m   [1;36ms[0;30;45m$[0;1;36;40m$Σ°"[0m  [1;36ms$$$$s,ssd[0;1;30mS[0;1;36m$$ⁿ$$$[0;1;30m$$[0;1;36ms[0m [1;36m²$[0;1;30m$[0;1;36m$$s,. .[0m
              [1;34m°,[0m       [1;36m,[0m                   [1;36m`"""` `²[0;1;30mⁿⁿ[0;1;36m²"[0m
 [1;30m;;;;;;;;;;;;;;;;;[0;1;34m''[0;1;30m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;[0m
-                                                                                
-[1m                                                           [0m [1m                    [0m
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[1m[0m[1m[0m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 [1;30m:::::::::::::::::::::::gide0n.phear.ascii.#4::::::::::::::::::::::::::::::::::::[0m'

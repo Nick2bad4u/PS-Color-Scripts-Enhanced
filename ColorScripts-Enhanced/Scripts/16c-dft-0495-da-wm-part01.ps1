@@ -5,7 +5,7 @@
 # Source SHA-256: e9758bac712ba6ade7337a8671ea273396d6536cbd92a2ab9e8076f170fabfd4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DA-WM.ANS by Death Adder (dft-0495); released in dft-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -41,7 +41,7 @@ Write-Host '
    [1;30;47m░[0m [1;36;40m█[0;1;36;46m▓[0m     [1;36;40m▀▐██[0m [1;36;40m██[0m     [1;36;40m▀[0;1;36;46m▓[0;1;36;40m██[0m                             [1;36;40m█[0;1;36;46m▓[0m     [1;36;40m▓█▌[0m [1;36;40m ▐█[0;1;36;46m▓[0m [1;30;47m░[0m▓ ░
    [1;30;47m░[0m [1;36;40m▐▓█[0m     [1;36;40m▐█▓ ▐[0;1;36;46m▓[0;1;36;40m▓[0m     [1;36;40m▐█▓[0m  [1;36;40mIf[0;1;30;40m [0;36myou[0;1;30m''d like to rea[0;36mch[0;1;30m [0;36mm[0;1;36me,[0m [1;36m▐▓▄    [0;1;36;46m▓[0;1;36;40m█▌[0m [1;36;40m ▓██[0m [1;30;47m▒[0m▒
    ▓▄ [1;36m■█[0;1;36;46m▓[0;1;36;40m██▄█▀█■  ▀█[0;1;36;46m▓[0;1;36;40m█▄▓█▀█■[0m  [1;36;40mYo[0;36mu[0;1;30m [0;36mca[0;1;30mn contact [0;36mme[0;1;30m [0;36ma[0;1;36mt:[0m      [1;36m▀[0;1;36;46m▓[0;1;36;40m▓█[0;1;36;46m▓[0;1;36;40m▄█▀ [0m [1;36;40m  [0;1;36;46m▓[0;1;36;40m■[0m [1;30;47m░[0m░
-   ▒ ▀▄ [1;36m▀▀▓▀  [0;1;36;46m▓[0m [1;36;40m [0m   [1;36;40m▀▀■▀  [0;1;36;46m▓[0m   [1;36;40mBB[0;36mS:[0;1;30m [0;36mR[0;1;30madiation-X 8o5-588[0;36m-17[0;1;36m39[0m [1;36m▀■▀▀[0m   [1;30m░[0m  [1;36m▓[0m █
+   ▒ ▀▄ [1;36m▀▀▓▀  [0;1;36;46m▓[0m [1;36;40m [0m   [1;36;40m▀▀■▀  [0;1;36;46m▓[0m   [1;36;40m  [0;36m  [0;1;30m [0;36m [0;1;30m                  [0;36m   [0;1;36m  [0m [1;36m▀■▀▀[0m   [1;30m░[0m  [1;36m▓[0m █
    ░  ▓▀▀▄▄▄▄    [1;30m░░░░░░░[0m          [1;30m [0m                          [1;30m░░░░░░[0m      ▀▄ ░
       ▒  ▄▀▀ [1;36m▄▄[0m  [1;30m░░▒▒▒▒░░[0m    [1;36;46m▓[0;1;36;40m▄▄[0m       [1;36;40m▄[0m   [1;30;40m░░░░░░░░░░░░░░░░░░[0m      [1;30;40m░[0m  [1;36;40m▄▄▄[0m  ▀▄
       ░  [1;30;47m░[0m [1;36;40m▓█[0;1;36;46m▓[0;1;36;40m▌[0m [1;30;40m░░▒▒▒▒░░[0m  [1;36;40m■████▓██■ ■██▓■[0m   [1;30;40m░▒▒▒▒▒▒▒▒▒▒▒▒░░[0m  [1;36;40m▄▄█▓█▄▄■██[0;1;36;46m▓[0;1;36;40m█▓█▄[0m [1;30;47m░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 54128391f0058425c928900d27cbd98d80a1081576348e9622c363cc0cb8d2cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US!EVD3.ANS by Timeless + Square (rare!ascii); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: evidence
 # SAUCE Author: timeless vs. square
 # SAUCE Group: rare!ascii
@@ -28,6 +28,4 @@ Write-Host '
      [1;35mÑ[0;35mÑ[0;37m [0;32m§§[0;1;32m§§§[0;32m§|[0m      [32m.s[0;1;32m§§§§[0;32m§[0;1;32m [0;32m:§[0;1;32m§§[0;32m§[0;1;32m§,  [0;1;30m::[0;1;32m  ,[0;32m§[0;1;32m§§[0;32m§[0;1;32m§§ [0;32mss[0;1;32mg§§§[0;32m|[0m      [32m.s[0;1;32m§[0;1;37m§§[0;1;32m§[0;32m§;[0;1;34m [0;1;35mÑ[0;35mÑ[0;37m     [0m
      [35mÑ[0;1;35mÑ[0;35m.[0;32m`[0;1;32m²[0;32m@[0;1;32mS[0;32m§[0;1;32m§$[0;32mSs[0;1;32m┐[0;32m┐sS[0;1;32m§§[0;32m§S@[0;1;32m²[0;32m`[0;35m..[0;1;32m`[0;32m²@[0;1;32m§[0;32m§[0;1;32m$[0;32mSs[0;1;32m┐[0;32m┐sS$§$S[0;1;32m7[0;32m²''[0;1;32m [0;32m§[0;1;32m§@S$§[0;32m$Ss[0;1;32m┐[0;32m┐[0;1;32ms[0;32mS[0;1;32m§§[0;32m§[0;1;32mS[0;32m@²^[0;35m.|[0;1;35mÑ[0;35mÑ[0m
      [35mÑ[0;1;35mÑÑS[0;35ms[0;1;35ms┐[0;35m┐┐┐[0;1;35m┐[0;35m...[0;1;35m.┐[0;35m┐┐┐[0;1;35m┐s[0;35msS[0;1;35mÑÑ[0;35mS[0;1;35ms[0;35ms[0;1;35m┐┐[0;35m┐┐┐.[0;1;35m.[0;35m...┐┐┐[0;1;35m┐s[0;35m.[0;1;34m [0;32m^^^[0;1;32m^[0;32m^^[0;1;34m [0;1;35m.[0;35m...[0;1;35m.┌[0;35m┌┌┌[0;1;35m┌s[0;35mS[0;1;35mÑ[0;35mÑ[0;1;35mÑ[0;35mÑÑ[0m
-[37m    [0;1;34m [0;1;35m [0;35m [0;1;35m [0;35m    [0;1;35m   [0;35m  [0;1;35m  [0;35m [0;1;35m    [0;35m  [0;1;35m [0;35m        [0;1;35m  [0;35m   [0;1;35m    [0;35m  [0;1;35m [0;35m      [0;1;35m [0;35m  [0;1;35m    [0;35m   [0;1;35m  [0;35m    [0;1;35m  [0;35m  [0;1;35m [0m
-     [35m [0;1;35m  [0;35m [0;1;35m [0;35m [0;1;34m [0;1;30m                                                        [0;1;34m [0;35m  [0;1;35m  [0;35m [0m
-     [35m::[0m                                                                 [1;35m:[0;35m;[0m'
+[37m[0;1;34m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0m[35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;34m[0;1;30m[0;1;34m[0;35m[0;1;35m[0;35m[0m     [35m::[0m                                                                 [1;35m:[0;35m;[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 68b58a38314b1d16c8bc97714d4165fd001453930ba63ac4a2e7c5b341adeb33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-blendpress.ans by the knight (fuel); released in blndr2019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Empress blender
 # SAUCE Author: the knight
 # SAUCE Group: fuel
@@ -28,28 +28,9 @@ Write-Host '
 [1;30m█▌[0;1;31m▄███████████████████▀[0m          [31m [0;1;33;41m▓[0;1;33;40m▌[0;1;33;41m▓[0;1;33;40m█[0m  [31m▓▓▄▄▄▓▓▓▓▓▓███████████████[0;37m [0;1;31m█[0;1;31;47m▓▓▓[0;1;31;40m█[0m ███████
 [1;30m▌[0;1;31m▐██████████████████▀[0m             [1;33m    [0m  [31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓████████████[0;37m [0;1;31m██[0;1;31;47m▓▓[0;1;31;40m▌[0m▐██[1;30;47m  [0m███
 
-                       [1;30m                          [0m          [1;30m [0m [1;30m      [0m [1;30m   [0m
-   [1;30m                                                               [0m
-   [1;30m                                    [0m [1;30m                         [0m [1;30m           [0m
-  [1;30m                                                                       [0m
-   [1;30m                       [0m
-
-  [1;30m                                                                         [0m
-  [1;30m                                                              [0m
-   [1;30m                    [0m       [1;30m                                             [0m
-   [1;30m                                                                [0m
-
-   [1;30m                                                                           [0m
-  [1;30m                                                                       [0m
-   [1;30m                                                        [0m
-   [1;30m                                            [0m           [1m [0;1;30m                  [0m
-   [1;30m                                   [0m      [1;30m                           [0m
-   [1;30m                                                                  [0m
-   [1;30m                                                                      [0m
-  [1;30m                                [0m
-
-   [1;30m                                                                         [0m
-   [1;30m                        [0m        [1;30m         [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m
 
 [1;30m-for·blender·2019---------------------------------story·&·art·by----tk·fuel-----[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8413f0324020c4f904385c10d6b1b3c093600166e719c7fe6f871efa4418ae80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-REG10.ANS by Fire 06/96 (Eerie & Dieznyik); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Regency
 # SAUCE Author: Fire 06/96
 # SAUCE Group: Eerie & Dieznyik
@@ -31,10 +31,7 @@ Write-Host '
 
 
 
-                              [1m                [0m
-
-
-                                                                    [31m░[0m
+[1m[0m                                                                    [31m░[0m
                                                                [31m░░[0m  [31m░▒[0m [31m░[0m
                                                                     [31m░[0m
 

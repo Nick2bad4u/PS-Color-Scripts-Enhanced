@@ -5,7 +5,7 @@
 # Source SHA-256: b8877af99176de697e4b624e5a3a00340178adcd4cbd78a97a90c5d3d4f1d21f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM1ACID.ANS by Tank (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 42-88
 # Columns: 1-80
 
@@ -52,7 +52,7 @@ Write-Host '
        [1;31m▀ ▄[0;1;31;41m▓▓▓▓▓▓▓▓▓▓▒▓▒▒▓▒▒▒▒▒▒▒░▒░░▒░░░░░░░░░░░░░░░░░░░░[0;1;30;41m░[0;1;31;41m░░░[0;1;30;41m░[0;1;31;41m░[0;1;30;41m░[0;1;31;41m░[0;1;30;41m░░▒▒▒[0;1;30;40m▄[0m
         [1;31;40m▐[0;1;31;41m▒[0;1;37;47m░[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30;47m░[0;1;30;41m▒▓[0m
       [31m▀▌▐[0;1;31;41m▒[0;1;37;47m▒[0m [1;30;40m─────[0m─[1;30m──[0m─[1;30m─[0m───[1m─[0m──[1m─[0m─[1m─── [0;36mLI[0;1;36mQU[0;1;37mID M[0;1;36mET[0;36mAL [0;1;37m───[0m─[1m─[0m──[1m─[0m───[1;30m─[0m─[1;30m──[0m─[1;30m──── [0;1;30;47m▒[0;1;30;41m▓[0;1;30;40m▌[0m
-         [1;31;41m▒[0;1;37;47m▓[0m [1;30;40m─[0m──[1m── [0;35m([0;1;35m713[0;35m)[0;1;35m495[0;35m-[0;1;35m2391[0m                  [1;31mS[0;31mys[0;1;31mO[0;31mp: [0;1;31mS[0;31mteel [0;1;37m──[0m──[1;30m─ [0;1;30;47m▓[0;1;30;41m▓[0;1;30;40m▌ [0;1;37;40mTANK[0m
+         [1;31;41m▒[0;1;37;47m▓[0m [1;30;40m─[0m──[1m── [0;35m [0;1;35m   [0;35m [0;1;35m   [0;35m [0;1;35m    [0m                  [1;31m [0;31m  [0;1;31m [0;31m   [0;1;31m [0;31m     [0;1;37m──[0m──[1;30m─ [0;1;30;47m▓[0;1;30;41m▓[0;1;30;40m▌ [0;1;37;40m    [0m
         [31m▀▐[0;1;37;47m█[0m [1;30;40m─[0m──[1m── [0;34mC[0;1;34melerity [0;34m1.[0;1;34m41[0m                    [1;31mC[0;31mo: [0;1;31mC[0;31mowboy [0;1;37m──[0m──[1;30m─ [0;1;30;47m█[0;1;30;41m▓[0m <[1mAC[0mi[1mD[0m>
          [31m▐[0;1;37m▌ [0;1;30m─[0m──[1m── [0;34m1[0;1;34m4[0;34m.[0;1;34m4 [0;34mU[0;1;34mSR [0;34mv.[0;1;34m32 [0;34mb[0;1;34mis[0m              [33mA[0;1;33mlliance [0;33mN[0;1;33mET [0;1;37m──[0m──[1;30m─ ▐▌  [0m''[1m92[0m
          [31m■[0m             [1;30m· [0;36m─ [0;1;36m─[0;1;37m─ [0;36mO[0;1;36mF[0;36mG Di[0;1;36mst[0;1;37mribu[0;1;36mti[0;36mon S[0;1;36mit[0;36me [0;1;37m─[0;1;36m─ [0;36m─ [0;1;30m·[0m           [1;30m■[0m

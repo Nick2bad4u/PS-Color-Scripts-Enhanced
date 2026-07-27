@@ -5,7 +5,7 @@
 # Source SHA-256: 98b7ba92780843fb41c4fd5841a98b2fae08092d755224aeda10158f8dff8168
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MI-CLUST.ANS by mongi (Opium Graphix); released in opx-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Prodigium stuff-cluster
 # SAUCE Author: mongi
 # SAUCE Group: Opium Graphix
@@ -16,14 +16,9 @@
 
 Write-Host '
       [1;36m,ad$$$$$$$$$$$$$Opx,[0m
-    [1;36m                       [0m   [1m                                         [0m
-   [1;36m    [0;36m           [0;1;36m   [0;36m   [0;1;36m    [0m  [1m                                  [0m
-   [1;36m   [0;36m        [0;1;36m [0;36m    [0;1;36m  [0;36m   [0;1;36m     [0m [1m                    [0m [1m                    [0m
-   [1;36m  [0m [36m   [0;1;36m  [0;36m   [0;1;36m [0;36m    [0;37m  [0;36m   [0;37m [0;1;36m    [0m [1m                                         [0m
-   [1;36m$$,[0;36m²$$$[0;37m [0;1;36m$$²[0;36m,$$$²[0;1;36mi[0m [36m$$''[0;1;36m,$$$ [0m [1mto flog my colleague..[0m
+[1;36m[0m[1m[0m[1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m[1m[0m[1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m[1m[0m[1m[0m[1;36m[0m[36m[0;1;36m[0;36m[0;1;36m[0;36m[0;37m[0;36m[0;37m[0;1;36m[0m[1m[0m   [1;36m$$,[0;36m²$$$[0;37m [0;1;36m$$²[0;36m,$$$²[0;1;36mi[0m [36m$$''[0;1;36m,$$$ [0m [1mto flog my colleague..[0m
    [1;36m''$$,[0;36m²$$b[0;37m [0;1;36m$[0m [36mⁿ$Y²[0;1;36md$.[0;36m²$b[0;37m [0;1;36m$$²[0m
-    [1;36m                       [0m   [1m                  [0m
-      [1;36m''²Y$$$$$$$$$$$$$$Yⁿ''[0m
+[1;36m[0m[1m[0m      [1;36m''²Y$$$$$$$$$$$$$$Yⁿ''[0m
 
 [1m-(prodigium_logo)---------------------------------------------------------------[0m
          [1;35m   ▄  [0m                                                 [1;35m▄██▄[0m

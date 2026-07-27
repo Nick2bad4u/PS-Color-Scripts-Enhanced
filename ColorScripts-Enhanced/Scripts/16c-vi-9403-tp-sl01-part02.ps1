@@ -5,7 +5,7 @@
 # Source SHA-256: a0f1cc90f681d9f0e8c152cfc6c632ba44c781513a2d589a4294bd43ad377144
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-SL01.ANS by Terminal Psychosis (vi-9403); released in vi-9403 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 47-78
 # Columns: 1-80
 
@@ -32,5 +32,4 @@ Write-Host '
                             ▀▀                  ▀▀▀▀▀▀
                   [1;30m-Tp[Vi][0m
 
-                          [1;30mT H E  S H A D O W L A N D S[0m
-               [1;30m6 o 9 - 2 5 6 - o 3 3 2 ∙ 6 o 9 - 5 8 9 - 1 3 1 7[0m'
+                          [1;30mT H E  S H A D O W L A N D S[0m[1;30m[0m'

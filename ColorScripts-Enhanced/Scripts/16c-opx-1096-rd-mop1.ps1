@@ -5,7 +5,7 @@
 # Source SHA-256: d1ad7897fbdbd1165788d83c41875b506632c6f3188b994ea678e50d550ac759
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-MOP1.ANS by raider (mOp); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mOp lOgO
 # SAUCE Author: raider
 # SAUCE Group: mOp
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                  [1;33m  [0m       [1;33m                 [0m [1;33m      [0m [1;33m  [0m
-
+[1;33m[0m[1;33m[0m[1;33m[0m[1;33m[0m
 
                         [33m▄▄▄[0;1;33m▄[0;30m                            [0;33m▄▄▄▄[0;1;33;43m▄▄▒▄[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m█▄▄▄▄[0;30m      [0m
       [30m     [0;33m▄[0;1;33m▄▄[0;30m         [0;33m▐[0;1;33;43m▐█▓▓[0;1;33;40m██▄[0;30m [0;30;41m█[0;30;40m   [0;36;40m .raider.[0;33;40m [0;30;40m       [0;33;40m▄██[0;1;33;43m▄[0;1;33;40m████[0;1;33;46m▓[0;1;33;40m█[0;1;33;43m▓▓▀[0;1;33;40m█████[0;1;33;46m▓▓[0;1;33;40m▄[0;30m  [0m

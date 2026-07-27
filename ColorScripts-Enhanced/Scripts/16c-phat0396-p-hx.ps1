@@ -5,7 +5,7 @@
 # Source SHA-256: 53f97334d9f9bb05d685885056b6199ba35f6d0daf030e98323b11e80aacd238
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P!_HX!.ANS by phos4! (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: House Experience
 # SAUCE Author: phos4!
 # SAUCE Group: READ THE INI FILE
@@ -15,8 +15,6 @@
 # Columns: 1-80
 
 Write-Host '
-                                                                      
-                                                                 
                               [1;34mh [0;1;37mO U S e[0m      [1m-[0m      [1;34mX [0;1;37mp E R i E N C E [0;1;34m![0m
                    ▄▄▄█▀ ▀
              ▄███ ████  ▄▄▄▄████ ████ ▄▄▄▄ ▄▄▄▄▄████▄  ▄▄▄▄▄▄▄▄▄▄ ▄

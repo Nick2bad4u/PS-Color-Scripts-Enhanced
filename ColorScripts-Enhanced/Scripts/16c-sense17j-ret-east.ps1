@@ -5,13 +5,12 @@
 # Source SHA-256: d518fd3f33bee2c6848d28c9dfe594fc01174b9a0717d8cefbf010399349bbbc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RET-EAST.ANS by Retribution (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
-[35m        [0m
-
+[35m[0m
 
 
 

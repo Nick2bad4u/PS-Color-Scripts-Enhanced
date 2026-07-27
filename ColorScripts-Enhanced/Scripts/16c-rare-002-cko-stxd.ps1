@@ -5,7 +5,7 @@
 # Source SHA-256: 3307c8a95dff0007c6c64af257fcb5deaed658e14afa40d79883572c85d687f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CKO-STXD.ANS by cuckoo (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: san-tx diz
 # SAUCE Author: cuckoo
 # SAUCE Group: rare!ascii
@@ -27,10 +27,7 @@ b.[31m`┘7[0;1;31m''[0m.sd[1ml[0;1;33mÑÑ[0;1;37mÑÑÑ[0mll [31m:[0;
  [1m [0m  [31m [0;37m   [0;1;37m     [0m     [31m [0;37m  [0;31m ┘[0;1;31m┘  [0m  [1m    [0m   [31m   ┘ [0;37m [0m
 [37m [0;1;37m [0m  [31m [0;37m ┘          [0;1;37m               [0m    [1;31m [0;31m [0m
 [37ml[0;1;37ml[0m''[31m .[0m   [37m [0m           [37m [0m
-[37m      [0;1;37m     [0m                    
-       [1m  [0m             
-:
-       [1m       [0m                   
-[1ml[0ml.             50rry          :)
+[37m[0;1;37m[0m[1m[0m:
+[1m[0m[1ml[0ml.             50rry          :)
 [1;33mll[0mlb┌,._
 [1m ┘ [0;1;33m [0;1;37m [0m [1m [0m   [1m [0m                 [1;30m   [0m  [1;30m      [0m'

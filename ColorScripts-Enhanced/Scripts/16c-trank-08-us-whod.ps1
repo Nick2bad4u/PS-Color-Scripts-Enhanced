@@ -5,7 +5,7 @@
 # Source SHA-256: cbc0dbb5755b431b688cccfe759ae9c8045db89aa2bcccda1e10fed1d41c1909
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-whod.ans by Trip + Cypher Hex (trank-08); released in trank-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -30,8 +30,7 @@ Write-Host '
 [36m `Y[0;1;36m$$[0;36mb,[0;31m`b[0;36m "Yb[0;37m        `.[0;1;30md$[0m$ⁿ[1;30mP[0m''. `"$$$[30;47m$[0;37;40mP , [0;1;30;40mYP[0m''   ;[1m''[0m      [31md$$$$b[0m   [36m$[0;1;36m$[0;36mP[0m
 [36m   "Y[0;1;36m$[0;36m$b [0;31m"b[0;36m ".[0;37m  "[0;1;37m, [0m    `[1;30mYP[0m'' `"`   `"'' "` `''   ;[1m''[0m     [31m,d$[0;1;31m$$$[0;31m$$[0;37m  [0;36m,[0;1;36mP[0m
 [36m     ""[0;1;36m$[0;36mb, [0;31m"b,[0;37m   [0;1;37m "[0m,     `   ,y[1myy$$YP$$$[0mⁿ     [1m`[0m      [31m$$[0;1;31m$$$[0;31m$P[0;37m  [0;36m."[0m
-[36m         [0;1;36m  [0;36m  [0;31m  [0;37m      [0;1;37m [0m        [1m         [0m [1m [0m           [31m  [0;1;31m   [0;31m  [0m
-[37m         [0;1;36m  [0m   [31m$$[0;37m      "[0;1;37m,[0m     ''  .,,,,,. ''           [31m$$[0;1;31m$$$[0;31m$P[0m
+[36m[0;1;36m[0;36m[0;31m[0;37m[0;1;37m[0m[1m[0m[1m[0m[31m[0;1;31m[0;31m[0m[37m         [0;1;36m  [0m   [31m$$[0;37m      "[0;1;37m,[0m     ''  .,,,,,. ''           [31m$$[0;1;31m$$$[0;31m$P[0m
 [37m              [0;31m$[0;1;31m$[0;31mb[0;37m       "[0;1;37m,[0m     ""ⁿⁿYP"`   [1;30m''[0m         [31mY$[0;1;31m$$$[0;31m$ [0m
 [37m             [0;31md$[0;1;31m$[0;31m$[0;37m         `[0m                          [31mY$[0;1;31m$$$[0;31mb [0m
 [37m          [0;31m.d$[0;1;31m$$$[0;31m$[0;37m            [0;1;30m`[0m   ∙[1m''`''[0m∙                [31m"Y$[0;1;31m$$[0;31mb,[0m
@@ -56,5 +55,4 @@ Write-Host '
 [1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m $[0;1;32m$[0;32m   $[0;1;32m$[0;32m   $[0;1;32m$[0;32m  $[0;1;32m$[0;32m   $[0;1;32m$[0;32m  $[0;1;32m$[0;32m   $[0;1;32m$[0;32m  $[0;1;32m$[0;32m  $[0;1;32m$[0;32m `$b[0;1;32m,[0;32m [0;1;30m [0m
 [1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m  ,$$[0;1;32mb[0;32m ,$$[0;1;32mb[0;32m ,$$[0;1;32mb[0;32m,$$[0;1;32mb.[0;32md$$[0;1;32mb[0;32md$$[0;1;32mb.[0;32m,$$''d$$[0;1;32mb[0;32m,$[0;1;32m$.[0;32m  `$$[0;1;32mb,[0m
 [1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;1;37m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m.[0;32m [0;1;30m [0;32m`ⁿ"  [0;1;30m.[0;32m`ⁿ''[0;1;30m.[0;32m `ⁿ" [0;1;30m.[0;32m"ⁿ` "ⁿ'' [0;1;32m,[0;32mⁿ"  $[0;1;32m$[0;32m `"`[0;1;30m.[0;32m "$$''  d$$''[0m
-[1;30m   [0;1;37m          [0;32m                                             [0;1;32m  [0;32m   [0;1;32m [0;32m [0;34m           [0;32m  [0m
-[1;37m             [0;32m                                           `$ⁿ"`"$"[0;1;32m`[0m'
+[1;30m[0;1;37m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;34m[0;32m[0m[1;37m             [0;32m                                           `$ⁿ"`"$"[0;1;32m`[0m'

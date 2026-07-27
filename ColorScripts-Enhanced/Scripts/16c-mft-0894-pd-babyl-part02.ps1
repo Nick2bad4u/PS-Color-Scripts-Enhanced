@@ -5,7 +5,7 @@
 # Source SHA-256: 91c6b86972434186d226949b0f8390e63eb6984c5a29fde2f932ebff60f5ee49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PD-BABYL.ANS by Paradox (Manifest Innovations); released in mft-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Babylon A.D.
 # SAUCE Author: Paradox
 # SAUCE Group: Manifest Innovations
@@ -57,10 +57,8 @@ Write-Host '
                      [1;47m▓▒▒░[0m▄       [1m+[0m1[1;30m.408.DiE.FE[0mD[1mS[0m
                      [1m██[0;1;47m▓▓▒▒[0m▄▄▄▄ ▄▄  ▄   ▄
 
-            [1m [0m [1;30m                                              [0m [1m [0m
-
+[1m[0m[1;30m[0m[1m[0m
                [1mB [0mA [1;30mB Y L O N[0m     [1;30mA . D .    I S[0m     [1;30mN O [0mW [1m.[0m
 
 ───────────────────[1;30m─[0m────[1;30m──[0m──[1;30m────[0m─[1;30m─────────────[0;34m─[0;1;30m─────[0;34m─[0;1;30m────[0;34m──[0;1;30m──[0;34m───[0;1;30m─[0;34m───────────────[0m
-[34m    [0;1;30m               [0m         [1;30m                                          [0m
-───────────────────[1;30m─[0m────[1;30m──[0m──[1;30m────[0m─[1;30m─────────────[0;34m─[0;1;30m─────[0;34m─[0;1;30m────[0;34m──[0;1;30m──[0;34m───[0;1;30m─[0;34m───────────────[0m'
+[34m[0;1;30m[0m[1;30m[0m───────────────────[1;30m─[0m────[1;30m──[0m──[1;30m────[0m─[1;30m─────────────[0;34m─[0;1;30m─────[0;34m─[0;1;30m────[0;34m──[0;1;30m──[0;34m───[0;1;30m─[0;34m───────────────[0m'

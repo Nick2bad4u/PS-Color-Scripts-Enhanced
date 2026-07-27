@@ -5,7 +5,7 @@
 # Source SHA-256: ea7619ac1df26f1332062a29d190db875d32b1bb69fa1871eaf07625368432da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-QUID2.ICE by Trip (iCE Advertisements); released in ice9702a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Quiddity
 # SAUCE Author: Trip
 # SAUCE Group: iCE Advertisements
@@ -35,5 +35,5 @@ Write-Host '
 [31;45m░[0;35;40m███[0;31;45m▒░[0;31;43m█[0;31;45m▓▒[0;31;43m█[0;1;33;43m░[0;31;43m█[0;31;45m▓▓[0;1;33;43m░[0;31;43m█[0;31;45m▓[0;31;43m█[0;1;33;43m░[0;31;43m██[0;31;45m▓[0;31;43m█[0;1;33;43m░[0;31;43m█[0;31;45m▓▓[0;31;43m█[0;31;45m▓▒▓▒░▒▓▒░▒░░[0;35;40m██▓▒░[0;1;33;40m [0;35m░[0;37m [0;1;30m█[0m [1;30m▌[0m  goes                    [1m░[0m
 [35m▓▓▓█[0;31;45m░[0;35;40m█[0;31;45m▓▒░▓[0;31;43m█[0;31;45m▓▒▒[0;31;43m█[0;31;45m▓▒▓[0;31;43m█[0;31;45m▓▓▒▓[0;31;43m█[0;31;45m▓▒▒▓▒░▒░[0;35;40m█[0;31;45m░▒░[0;35;40m█[0;31;45m░[0;35;40m██▓▓▒░[0;1;33;40m [0m [35m [0;37m ░ [0;1;30m▌[0m  here.              ░ [1m░[0m [1m░░[0m░
 [35m▓▒▓▓██[0;31;45m▒░[0;35;40m█[0;31;45m▒▓▒░░▓▒░▒▓▒▒░▒▓▒░░▒░[0;35;40m█[0;31;45m░[0;35;40m█▓█[0;31;45m░[0;35;40m█▓█▓▓▒▒░[0;1;33;40m  [0m [35m░[0;37m [0;1;30m█[0m [1;30m▌[0m  potato!@             [1m░░░▒░[0m
-[35m▒░▒▒▓▓[0;31;45m░[0;35;40m██[0;31;45m░▒░[0;35;40m██[0;31;45m▒░[0;35;40m█[0;31;45m░▒░░[0;35;40m█[0;31;45m░▒░[0;35;40m██[0;31;45m░[0;35;40m█▓█▓▒▓█▓▒▓▒▒░░[0;1;33;40m   [0m   [1;30m▓[0m [1;30m▄[0m  trip@ice.org      [1m ░ ░░▒▓▒[0m
+[35m▒░▒▒▓▓[0;31;45m░[0;35;40m██[0;31;45m░▒░[0;35;40m██[0;31;45m▒░[0;35;40m█[0;31;45m░▒░░[0;35;40m█[0;31;45m░▒░[0;35;40m██[0;31;45m░[0;35;40m█▓█▓▒▓█▓▒▓▒▒░░[0;1;33;40m   [0m   [1;30m▓[0m [1;30m▄[0m                    [1m ░ ░░▒▓▒[0m
 [35m░[0;37m [0;35m░░▒▒▓▓▓█[0;31;45m░[0;35;40m▓██[0;31;45m░[0;35;40m█▓█[0;31;45m░[0;35;40m▓█▓█[0;31;45m░[0;35;40m▓██▓▓▒▓▒░▒▓▒░▒░░[0m        [1;30;40m░[0m  [1;30m■▄[0m     [1;30m░[0m [1;30m▒[0m ░  ░░  [1m░[0m [1m░░░░▒▓█▓[0m'

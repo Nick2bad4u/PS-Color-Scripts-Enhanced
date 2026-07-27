@@ -5,7 +5,7 @@
 # Source SHA-256: aa7a2d28755d27ca729a4ae2638d64c6bf541e7bbf855c4556a0d2678a18c602
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-XCT.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -53,9 +53,6 @@ Write-Host '
                ▌
                         [1m┌────[0m─── [1;30mXc[0moth[1mal  [0mBB[1;30mS ─[0m───[1m───┐[0m
                         [1m│[0m                            [1m│[0m
-                           [1m  [0m     [1;30m   [0m [1m   [0m    [1;30m  [0m   [1m [0m
-                        │                            │
-                        ∙       [1;30m(51[0m2) [1m243[0m-00[1;30m49[0m       ∙
-                        [1;30m   [0;1;37m  [0m   [1;30m   [0m   [1m   [0m   [1;30m   [0m   [1m   [0;1;30m [0m
-                        ·                            ·
+[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m                        │                            │
+[1;30m[0m[1m[0m[1;30m[0m[1;30m[0;1;37m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0;1;30m[0m                        ·                            ·
                         [1m└────[0m───[1;30m───[0m───[1m───[0m───[1;30m───[0m───[1m───┘[0m          [1mB[0;1;36mj[0;36mo[0;1;34mr[0;34mn [0;1;33m∙ [0;1;31mATOM[0;1;33mi[0;1;31mC[0m'

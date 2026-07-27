@@ -5,7 +5,7 @@
 # Source SHA-256: 6fb502a0d050d8f837d61c5f5d09c5ec22872c51384d1a29755ddfd06ef559a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-MESS.ANS by Proctologist (Transmission); released in trans03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: i'm tired...
 # SAUCE Author: Proctologist
 # SAUCE Group: Transmission
@@ -40,8 +40,5 @@ Write-Host '
 [1;34;40m$[0;34m$$$$$$$$$$$b,[0;31m  [0;1;31m`[0;31msssssssssss°`  [0;1;30m,s$$$Pⁿ`[0;1;34m,sS[0;30;44m$[0;34;40m$$$$$$Ss, [0;1;31;40m`?[0;31m$$[0;30;41m$[0;31;40mPⁿ°[0;1;31;40m`[0;31m``[0;1;31m`[0;31m`[0;1;31m```°Y[0;31m$$$$$[0;30;41m$[0;31;40mPⁿ[0m
 
 [1;30;40m--------------[circumcise here]---------------------------------------<ouch!>--[0m
-[1;30m                                                                               [0m
-[1;30m                      [0m  [1;30m                                                 [0m  [1;30m    [0m
-[1;30m                         [0m  [1;30m                 [0m
-                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

@@ -5,14 +5,13 @@
 # Source SHA-256: 69c66765dffe935291cd68d33b39551b6d3a9952067e4e905e13f47ec54b3e48
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RUSH.ANS by Willie (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
 
-                           [1;36m [0;1;31m [0;1;33m [0;1;37m [0m [1;32m [0;1;36m [0;1;30m [0m [31m [0;1;31m [0;35m [0;1;35m [0;1;36m [0;1;34m [0m [1;33m [0;1;37m   [0;1;33m [0m
-                     ▄▄▄▄▄▄▄▄▄▄▄         ▄▄▄▄▄▄▄        ▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄
+[1;36m[0;1;31m[0;1;33m[0;1;37m[0m[1;32m[0;1;36m[0;1;30m[0m[31m[0;1;31m[0;35m[0;1;35m[0;1;36m[0;1;34m[0m[1;33m[0;1;37m[0;1;33m[0m                     ▄▄▄▄▄▄▄▄▄▄▄         ▄▄▄▄▄▄▄        ▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄
 ▀█[30;47m▄▄▄▄▄▄▄▄[0m▄[30;47m▄▄▄▄[0m▄▄▄    ▀▄[1m     [0m▄▀        ▄▀[1m   [0m▄▀  ▄▄▀▀▀▄    ▀▄[1m   [0m▀▄    ▀▄[1m   [0m▄▀
   ▀[30;47m▀[0;1;37m              [0m▀▀▄   █[1;37m    [0m█        ▄▀[1m   [0m█ ▄▀▀[1m      [0m▀▄    █[1;37m   [0m█     █[1;37m   [0m█
     █[1;37m    [0m▀▄[30;47m▄▄▄[0m▄[1m     [0m█[1;31;40m▀██[0;1;31;47m▄[0;1;37m  [0;1;31;40m▀[0;31m█[0;1;31;40m▀[0m [1;31;40m██▀▀[0;1;31m▀[0;1;31;40m█[0m [1;31;47m▀[0;1;31;40m█[0;1;31m█[0;1;31;40m▀[0;31;47m [0;1;31;47m▀[0;1;31;41m▄[0;1;31;40m█▀[0;1m  [0;1;31;40m████[0;1m   [0m▀▄  █[1;37m   [0m█     █[1;37m   [0m█

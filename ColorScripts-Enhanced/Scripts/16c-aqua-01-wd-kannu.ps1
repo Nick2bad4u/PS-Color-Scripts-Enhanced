@@ -5,7 +5,7 @@
 # Source SHA-256: 31c61e21fdf1184a42c570d9347fec1c5a031481c9e7ae938e6181a93490a839
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WD-KANNU.ANS by woodoo!!1 (aqua); released in aqua-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: wammalapsi
 # SAUCE Author: woodoo!!1
 # SAUCE Group: aqua
@@ -31,8 +31,7 @@ Write-Host '
 [1m   [0m      [1;32m:$$$$$$$$$$$$$$$$$$$$$$[0m
 [1m   [0m      [1;32ml$$$$$$$$$$$$$$$$$$$$$$[0m
 [1m   [0m      [1;32m:$[0;1;37;42m$[0;1;32;40m$$$$$$$$$$$[0;1;32;42m$$[0;1;32;40m$$$$$$$:[0m
-[1m   [0m       [1;32m [0;1;37m [0;1;32m                     [0m                                     
-[1m   [0m       [1;32ml[0;1;37m$$[0;1;32m$$$$$$$$$$$$$$$$$$$$[0m
+[1m[0m[1;32m[0;1;37m[0;1;32m[0m[1m   [0m       [1;32ml[0;1;37m$$[0;1;32m$$$$$$$$$$$$$$$$$$$$[0m
 [1m   [0m       [1;32m:$[0;1;37m$$$[0;1;32m$$$$$$$$$$$$$$$$$$:[0m
 [1m   [0m        [1;32ml[0;1;37m$$$$$$$$[0;1;37;42m$$[0;1;32;40m$$$$$$$$$$$l:[0m
 [1m   [0m       [1ml[0m [1;32m""""²²²²²²²╙╙╙╙╙444$$$$[0m [36m,[0m

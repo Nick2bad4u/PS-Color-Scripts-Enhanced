@@ -5,7 +5,7 @@
 # Source SHA-256: a0a51971b6810e0eefdfc76bec5ac564902cbceae6add24afcf3e49f6150c409
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MP-F451.ANS by Mephitopeles (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fahrenheit 451
 # SAUCE Author: Mephitopeles
 # SAUCE Group: Shiver
@@ -26,7 +26,7 @@ Write-Host '
          ▀[1;30m▀██████▀▀▀[0m         [1;30m▓ [0;1;31m▀[0m▄[1;47m▄▀  [0m▌[1;31m▐[0;1;31;41m▓[0;1;31;40m▌[0m▐[1;47m█ ▀[0m█▄▀[1;47m▄[0m█▄[31m▀ [0;1;30m▓ [0;1;35mH[0;35me[0;1;30my. If you''d like one [0;35mo[0;1;35mf[0m
 [1;35m  [0;35m▄   [0;37m▀▄[0;1;30m▄[0m               [1;30m▄▄▀  ▓ [0m▀ [1;47m▐▌  [0m▀▄[1;31m▀[0m▄▀[1;47m▐  [0m█[1m▄[0m▀▄[1;47m▀ ▄[0m [1;30;40m▓ [0;1;35;40mm[0;35my [0;1;30mansis, contact me [0;35mo[0;1;35mn[0m
 [1;35m ▄ [0;35m█▄  [0;37m▐[0;1;30;47m▐[0;1;30;40m███▄▄▄▄▄▄▄▄▄████▌   ▒ [0;1;31;41m▓[0;1;31;40m▄ [0;1;37;47m▌ ▄[0m [1;31;40m▄[0m▀[1;31m▄ [0;1;37;47m▄  [0m▌[1m▐[0;1;47m█▄▀[0m█▀ [1;30m▒ [0;1;35ms[0;35mt[0;1;30mate of euphori[0;35ma[0;1;35m,[0m
-[1;35m ▐[0;1;35;45m▌[0;35m██▌ [0;37m▐[0;1;30;47m▐[0;1;30;40m████████████████▌[0;1;35;40m▄  [0;1;30;40m▒ [0;31m▄[0;1;31m▀▌[0;1;37;47m▄▀▄[0m [1;31;41m▓▒[0;31m▌ [0;1;37;47m▄▀▄[0m▌[1m▐[0;1;47m██[0m▀ [31m▐ [0;1;30m▒ [0;1;35m7[0;35m1[0;1;30m3-580-5055, my BBS[0;35m. [0;1;35mI[0m
+[1;35m ▐[0;1;35;45m▌[0;35m██▌ [0;37m▐[0;1;30;47m▐[0;1;30;40m████████████████▌[0;1;35;40m▄  [0;1;30;40m▒ [0;31m▄[0;1;31m▀▌[0;1;37;47m▄▀▄[0m [1;31;41m▓▒[0;31m▌ [0;1;37;47m▄▀▄[0m▌[1m▐[0;1;47m██[0m▀ [31m▐ [0;1;30m▒ [0;1;35m [0;35m [0;1;30m                  [0;35m  [0;1;35m [0m
 [1;35m▄[0;1;35;45m▀ [0;35m█▀▄  [0;35;47m [0;1;30;47m██[0;1;30;40m██████████████ [0;35m▐[0;1;35;45m█[0m [1;30;40m░ [0;1;31;41m░[0;31m▌ [0;1;37;47m▄██[0m [1;31;41m░[0;31m▀[0;1;31m▄[0;31m▌[0;1;37;47m██▄[0m [1;37;40m█▀[0;31m▄ [0;1;31;41m▓[0;1;31;40m▄ [0;1;30;40m░ [0;1;35;40mt[0;35mr[0;1;30made ansis, for ansi[0;35ms[0;1;35m,[0m
 [35m██[0;1;35;45m▀[0;35m▀[0;1;35m▄ [0;1;35;45m█[0m [1;30;47m▌▐[0;1;30;40m███████████████ [0;1;30;45m [0;35m▀ [0;1;30m░ [0;31m▄▀ [0;1;37;47m██▓[0m [31m▄▀▄ [0;1;37;47m▓██[0m [1;37;40m█ [0;1;31;41m░[0;31m▌[0;1;31m▐[0;31m▐ [0;1;30m░ [0;1;35mr[0;35mi[0;1;30mps, vgas, loader[0;35ms[0;1;35m,[0m
 [35m█▀[0;1;35m▄[0;1;35;45m▀[0m [35m▄[0;1;35;45m▐[0;1;35;40m▌[0;1;30;40m▐[0;1;30;47m [0;1;30;40m██████████████▌ [0;1;35;40m▄▀ [0;1;30;40m▒ [0;1;31;41m▒[0;31m▌[0;1;37m▐[0;1;37;47m█▓▒[0;1;31;40m▐[0;1;31;41m▒[0;31m▌[0;1;31;41m░[0;31m▌[0;1;37;47m▒▓█[0;1;37;40m▌▐ [0;31m▄▀▄  [0;1;30m▒ [0;1;35ma[0;35ms[0;1;30mcii, affiliation[0;35ms[0;1;35m,[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 4a039e9088a5ca6bcb1866ea47079a6a8584a766e1e37d1b74b38c1c2f45c145
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: not-so-new-anymore.ans by clear2ooo (clear2ooo-ascii-year-lf); released in clear2ooo-ascii-year-lf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 137-186
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
       [36m█    █  █    █                                                            [0m
       [36m█  ███  █  ███                                                            [0m
       [36m█  ███  █  ███                                                            [0m
-       [36m████    ████                     [0;30;47mplease don''t call me                   [0m
+       [36m████    ████                     [0;30;47m                                       [0m
           [36m██████                 [0;30;47m======                                        [0m
          [36m█ █                            [0;30;47m                                       [0m
         [36m█ █                                                                     [0m

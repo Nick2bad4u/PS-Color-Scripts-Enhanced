@@ -5,7 +5,7 @@
 # Source SHA-256: c29ad13466cd59383ddc36394b024bf9af185a4577335667939eede442da9bb0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW_BD.ANS by black weasel (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: BD: "make your brain feels damaged"
 # SAUCE Author: black weasel
 # SAUCE Group: boil
@@ -39,14 +39,7 @@ Write-Host '
     [1;31m▄▄[0;31m▄  ▀[0;1;31;41m▀[0;1;31;47m▓▓[0;1;31;41m▄[0;31m▄[0;37m [0;31m▄[0;1;31;41m▄[0;1;31;47m▓▓▓[0;1;31;41m▀[0;31m█▀▐▓▓▓░░░[0;37m  [0;1;31m░[0;1;31;41m▓▓▓▀[0;31m▀▀[0m         [31m▐[0;1;31;47m▓▓█[0;31m▌ [0;1;31;47m▓▓[0;1;31;41m▄[0;31m▄[0;37m [0;34m▐[0m       [34m▀▀   [0m
     [1;31;47m▓▓▓[0;1;31;41m█▄[0;31m▄▐[0;1;31;41m▐▓▓[0;31m▓▐[0;1;31;47m▓[0;1;31;41m▀[0;1;31;40m▀[0;31m▀▀  ▄██[0;1;31m▒▒[0m      [1;31m░░░[0m             [1;31;41m▓▓▓[0;31m▓    ▀▌[0m   [36m([0;35mbw_[0;36m)[0m   [34m▀▌ [0m
        [31m     ░░░[0m                                   [1;31m░░░[0;31m░[0m
-[35m  [0;36m              [0m
-[36m        [0;35m       [0;36m         [0;35m        [0;36m       [0;35m          [0;36m        [0m
-[36m  [0;35m       [0;36m         [0;35m        [0;36m          [0;35m    [0;36m       [0m
-[36m  [0;35m         [0;36m       [0;35m          [0;36m     [0;35m       [0;36m     [0;35m           [0;36m           [0m
-[36m  [0;35m           [0;36m          [0;35m        [0;36m       [0;35m      [0;36m      [0;35m            [0;36m       [0;35m          [0m
-[35m [0;36m       [0;35m        [0;36m        [0;35m       [0;36m       [0;35m         [0;36m       [0;35m       [0m
-[35m  [0;36m                     [0;35m           [0;36m      [0;35m          [0;36m       [0m
-
+[35m[0;36m[0m[36m[0;35m[0;36m[0;35m[0;36m[0;35m[0;36m[0m[36m[0;35m[0;36m[0;35m[0;36m[0;35m[0;36m[0m[36m[0;35m[0;36m[0;35m[0;36m[0;35m[0;36m[0;35m[0;36m[0m[36m[0;35m[0;36m[0;35m[0;36m[0;35m[0;36m[0;35m[0;36m[0;35m[0m[35m[0;36m[0;35m[0;36m[0;35m[0;36m[0;35m[0;36m[0;35m[0m[35m[0;36m[0;35m[0;36m[0;35m[0;36m[0m
 [36m         ____                           __/\__           ____ ___        .[0m
 [36m  ______/  .__ ________       ______    \ ss /    ______/  _//__/ --/\__/----.[0m
 [36m  \    /_______\\     /_______\__  /_cLS/____\ __ \\   /  /___               |_[0m

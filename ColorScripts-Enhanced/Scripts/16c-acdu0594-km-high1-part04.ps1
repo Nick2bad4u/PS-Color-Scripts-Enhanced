@@ -5,7 +5,7 @@
 # Source SHA-256: 94767b6979ba270f4e3432a8ab8b6aed0eba5717684d362b4347d33ca812455a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KM-HIGH1.ANS by King Midas (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Higher Grounds
 # SAUCE Author: King Midas
 # SAUCE Group: ACiD Productions
@@ -36,10 +36,6 @@ Write-Host '
 
 [1;30;40m▄[0;36m▄[0;1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m▄[0;1;30m▄[0m
 
-                                [1;30m [0;1;37m              [0;1;30m [0m
-                                [1;30m1[0;1;37m1-305-927-7801[0;1;30m1[0m
-                     [1;30m [0;1;37m        [0m  [1m            [0m  [1m           [0;1;30m [0m
-[1;30m  [0;1;37m                 [0m  [1m           [0m  [1m             [0m  [1m            [0m  [1m               [0;1;30m [0m
-                      [1;30m [0;1;37m        [0m  [1m            [0m  [1m          [0;1;30m [0m
-
+[1;30m[0;1;37m[0;1;30m[0m                                [1;30m1[0;1;37m1-305-927-7801[0;1;30m1[0m
+[1;30m[0;1;37m[0m[1m[0m[1m[0;1;30m[0m[1;30m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0;1;30m[0m[1;30m[0;1;37m[0m[1m[0m[1m[0;1;30m[0m
 [1;30m▀[0;36m▀[0;1;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▀[0;1;30m▀[0m'

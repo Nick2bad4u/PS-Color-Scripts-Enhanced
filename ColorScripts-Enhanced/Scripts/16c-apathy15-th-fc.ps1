@@ -5,7 +5,7 @@
 # Source SHA-256: bcc112266a31ba606430cf49d1acbcedf1ba508dcaf3d0ae0ddb46178c6cc66d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-FC.ANS by Thrasher (apathy); released in apathy15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Free Coke
 # SAUCE Author: Thrasher
 # SAUCE Group: apathy
@@ -39,15 +39,8 @@ Write-Host '
     [1;31m [0;33m▀▀[0;1;31m▀[0;1;31;43m░[0;33m▄[0;1;31;43m▒▓[0;1;31;40m█▄░ ▀▀██████████[0;1;31;43m▓[0;1;31;40m▀[0;33m▀ [0;1;34m▄▄[0;1;34;46m▓[0;1;34;40m█[0;1;34;46m▄[0;1;34;40m▀▐▀      [0m          [36mit''s just[0m   [1;31m [0;31m█║║[0;30;41m│[0;31;40m│█[0;1;36;40m░[0;36m [0m
 [33;47mt[0;33;40mhr[0;30;43m!▓[0;1;31;40m  [0;33m▀▓▀▀[0;1;31m▀[0;1;31;43m▀▒▀[0;1;31;40m█▄▄[0m░[1;31m▀▀███[0;1;31;43m▓▓[0;1;31;40m▀[0;33m▀[0;37m [0;1;34m░▄█▀▀░                  [0m               [1;31m [0m [31m▀▀▀▀[0;1;31m░[0;31m░[0;1;30m░[0;36m [0m
 
-[1;34m                        [0m
+[1;34m[0m
+[1;34m[0m[1;34m[0m[1;34m[0m
+[1;34m[0;36m[0;1;34m[0m
 
-[1;34m                  [0m [1;34m                             [0m
-[1;34m                                                                [0m
-
-[1;34m                              [0;36m      [0;1;34m               [0m
-
-                                            
-
-                        
-                        
            ????!ize[0m'

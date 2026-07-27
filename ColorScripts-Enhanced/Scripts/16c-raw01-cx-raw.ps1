@@ -5,7 +5,7 @@
 # Source SHA-256: 93600877abbe88b264e98e7b81f1b806d4d51adf9a6a5ae8c9874047ec9a0826
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CX-RAW.ANS by cyntax (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: (guest) raw97
 # SAUCE Author: cyntax
 # SAUCE Date: 19970326
@@ -31,5 +31,4 @@ Write-Host '
                              [1m        [0m
 
 [33m--( [0;35mcommentz [0;33m)------------------------------------------------------------------[0m
-[36m                                                                                [0m
-[33m-----------------------------------------------------------------([0;35m nuff said[0;33m )--[0m'
+[36m[0m[33m-----------------------------------------------------------------([0;35m nuff said[0;33m )--[0m'

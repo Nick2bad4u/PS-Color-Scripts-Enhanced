@@ -5,7 +5,7 @@
 # Source SHA-256: 7ccb12e9e4ea330a111f024a2ddd9f2dfaefc4e9fb62e6ed65752fb8dd1cc563
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-FTR1.ICE by chromatik (.ice%prod!1995.); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: forgotten things remembered.
 # SAUCE Author: chromatik
 # SAUCE Group: .ice%prod!1995.
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m                                           [0m
-
+[1;30m[0m
                         [34m░[0m        [34m░[0m
              [34m░   ▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▒ ▄▄▄▄ ▄▄▄[0m
        [34m▄▄▄███▓▀▀▀▀▀▀▀▀▓████▄██████▄███▄ ▀█▓▀ ▀██████▄▄[0;1;34;44m▒[0;34m▄▄▄ ▄▄▄[0m

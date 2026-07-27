@@ -5,7 +5,7 @@
 # Source SHA-256: 4aa5028b6b6c6c201dc8b7547bae5a66efcf91d0a23a4b02c79412ae5a10d4f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-LFW.ANS by Nirvana (DVS); released in dvs-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Lost For Wordz
 # SAUCE Author: Nirvana
 # SAUCE Group: DVS
@@ -22,7 +22,7 @@ Write-Host '
 [1;30;40m▌[0;1;35;45m░[0;35m████▓▓[0;1;30mv[0;35m█[0;1;30mn[0;35m██████[0;1;35;45m▒[0;1;30;40mn[0;1;35;40m███[0;1;35;45m▓▓▓▓▓▒▒░░░░[0;35m██[0;1;30;45m░[0m [1;30;40mnir █ now do like last time and sit back, █[0m
 [1;30;40m▌[0;35m███▓▓▓[0;1;30;45m▒[0;1;30;40ma[0;35m█[0;1;30ma[0;35m▓▓▓▓▓██[0;1;30ma[0;1;35;45m▓▓▓▒▒▒▒▒░░░░[0;1;30;45m░[0;35m██[0;1;30;45m░░[0;1;30;40mnirv █ look at this dvs pak, and then go   █[0m
 [1;30;40m▌[0;35m█▓▓▓▓[0;1;30;45m▒▓[0;1;30;40mn[0;35m▓ ▓▓▓▓▓▓█ [0;1;35;45m▒▒▒░░░░░[0;35m█████[0;1;30;45m░░▒▒[0;1;30;40mirva █ out and kill your parents..umm i    █[0m
-[1;30;40m▌[0;35m▓▒▓[0;1;30;45m▒▒▓▓[0;1;30;40ma[0;1;30;45m▒[0;1;30;40mn[0;1;30;45m▒▒▒▒▒▒[0;35m▓[0;1;30mn[0;1;35;45m░░░[0;35m██████[0;1;30;45m░░░░▒▒▒▓[0;1;30;40mrvan █ mean call me and ask me for an[0m      [1;30;40m█[0m
+[1;30;40m▌[0;35m▓▒▓[0;1;30;45m▒▒▓▓[0;1;30;40m [0;1;30;45m▒[0;1;30;40m [0;1;30;45m▒▒▒▒▒▒[0;35m▓[0;1;30m [0;1;35;45m░░░[0;35m██████[0;1;30;45m░░░░▒▒▒▓[0;1;30;40m     █                               [0m      [1;30;40m█[0m
 [1;30;40m▌[0;35m▓░[0;1;30;45m▒▒▓▓[0;1;30;40m█ [0;1;30;45m▓[0;1;30;40mi[0;1;30;45m▓▓▓▓▓▓▒[0;1;30;40mi[0;35m███░[0;1;30;45m░░░░░▒▒▒▒▒▓▓[0;1;30;40m▓vana █ anzi...they''re free you know..."    █[0m
 [1;30;40m▌[0;35m▀░▀[0;1;30m▀▀▀▀ ▀▀▀▀▀▀▀▀  [0;35m░▀▀░▀▀▀▀▀▀[0;1;30m▀▀▀▀▀▀▒[0m     [1;30m█[0m            [1;30m-the voice in yer head-  █[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

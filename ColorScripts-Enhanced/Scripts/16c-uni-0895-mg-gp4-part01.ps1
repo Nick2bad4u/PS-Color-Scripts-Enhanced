@@ -5,7 +5,7 @@
 # Source SHA-256: 8fb38e023b3efe8ec4943cd37b4a197df29cafbda72fd60fa02f8c4d63459a9d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MG-GP4.ANS by Magnus (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Gargoyle's Peak
 # SAUCE Author: Magnus
 # SAUCE Group: Union
@@ -23,7 +23,7 @@ Write-Host '
 [1;31;45m▄[0m [1;30;40m·mg·mg[0;35m▐[0;1;31;45m░▒▓[0m [35m▐[0;1;31;45m░▒░[0m [35m▐[0;1;31;45m░[0;35m██▌▐[0;1;31;45m░░▒[0;35m▌  ▐[0;1;31;45m░░░[0;35m█ [0;1;30mm █    to request your own magnus ansi,    █[0m
 [1;30;45m▄[0m [1;30;40mmg·mg·[0;35m▐[0;1;31;45m▒░▒[0m [35m▐[0;35;45m [0;1;31;45m░[0;35m█ ▐███▌ ▀[0;35;45m [0;1;31;45m░[0;35m▌  ▐[0;1;31;45m░[0;35m██▌ [0;1;30mg █[0m      [1;30mcontact me on Harvest Moon:[0m       [1;30m█[0m
 [1;30;45m▄[0m [1;30;40mg·mg·m[0;35m▐[0;1;31;45m░ ░[0m [1;30;40m·   m[0m     [1;30;40mg·  [0;35m▀  ▐██▀ [0;1;30mg· █[0m                                        [1;30m█[0m
-[1;30;45m▀[0m       [35m▐[0;35;45m [0;1;31;45m░[0;35m█[0m                [35m▄▄▀▀[0m      [1;30m█[0m            [1;30m(216) 951-7059[0m              [1;30m█[0m
+[1;30;45m▀[0m       [35m▐[0;35;45m [0;1;31;45m░[0;35m█[0m                [35m▄▄▀▀[0m      [1;30m█[0m            [1;30m              [0m              [1;30m█[0m
 [1;30m▀▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀▀▀▀ [0;35m▀▀   [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m████████▀ [0;1;33m▄▓▒░ ░    ▀▀███████[0;1;33;43m▓▓[0;1;33;40m██[0;1;33;43m▓▓▒▒▓▓[0;1;33;40m██████████[0;1;33;43m▓▓[0;1;33;40m█▄▄   ▀██▀  [0;35m▀██[0;1;35;45m░░░[0;35m█[0;1;35;45m░[0;35m▀  ▀[0;1;35;45m░▒░░▒[0m
 [1;30;40m██████▀ [0;1;33;40m▄▓▓▒░[0m     [1;33;40m▀[0m      [1;33;40m▀▀▄██▀[0;1;33;43m▓▓▓[0;1;33;40m█[0;1;33;43m▓▓[0;1;33;40m██████████████[0;1;33;43m▓▓▓[0;1;33;40m██▄  ▀▄ ▀▄▄ [0;35m▀▄▀▀[0;1;35;45m░░[0;35m▄▄ ▄▀[0;1;35;45m░ ░[0m

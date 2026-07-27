@@ -5,7 +5,7 @@
 # Source SHA-256: 1dd8e1bf16152fcbdb9ee11298910eb0a7253cabc38a95a165de179342b67d8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-CHOCO.ANS by The Thrasher + Chronicc (PHAT STUDIOS '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: chocolate treat
 # SAUCE Author: phat twinz
 # SAUCE Group: PHAT STUDIOS '97
@@ -32,36 +32,19 @@ Write-Host '
    [1;30m▀▀▀[0;1;36m [0;1;30m▀[0;1;36m  [0;1;30m                              [0m   [1;30m                               [0;1;36m [0;1;30m▀[0;1;36m [0;1;30m▀▀[0m
 
 
-                 
-                  
 
 
 [1;30m-0<-------------------------------------------------------------------------->0-[0m
 
-     [1;30m                                                                          [0m
-[1;30m                                                             [0m [1;30m              [0m
-[1;30m                                                                           [0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m
 
-[1;30m          [0m [1;30m                                                                     [0m
-[1;30m                                                                            [0m
-           [1;30m               [0m
-
-[1;30m                                                                              [0m
-[1;30m                                                                               [0m
-[1;30m                  [0m
-
-
-[1;30m                                              [0m
-
+[1;30m[0m
 
 [1;30mtt:      [0m
-[1;30m                                                  [0m
-[1;30m                                                                 [0m
-[1;30m                                                   [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m
 
 [1;30mcc:[0m
-[1;30m                                                                              [0m
-[1;30m                                                  [0m
-
+[1;30m[0m[1;30m[0m
 [1;30m-0<-------------------------------------------------------------------------->0-[0m'

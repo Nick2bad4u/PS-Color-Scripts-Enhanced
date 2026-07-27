@@ -5,7 +5,7 @@
 # Source SHA-256: 82519c22ca297a7f7147292ed0498064f5f029348592ef1c1e09463d8c64ec43
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-VTHL2.ANS by Dark Horizon (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 34-65
 # Columns: 1-80
 
@@ -32,13 +32,7 @@ Write-Host '
               [1;34m/[0m     [1;34m:[0m     [1;34m\    /  \[0m     [1;34m\[0m     [1;34m\    \   \[0m
               [1;36m\_____|[0m      [1;36m\_______\___________\________\[0m
                     [1;36m:.______\[0m
-             [1;36m [0;1;34m       [0;1;36m    [0m
-             [1;36m91[0;1;34m6.623.[0;1;36m3726[0m
-             [1;36m   [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m       [0;1;34m      [0;1;36m       [0;1;34m     [0m
-             [1;36m     [0;1;34m     [0;1;36m       [0m
-             [1;36m     [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m       [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m    [0m
-[34m   [0m          [1;36m      [0;1;34m      [0;1;36m       [0;1;34m     [0;1;36m      [0;1;34m       [0;1;36m         [0m                  [34m   [0m
-[34m  [0;1;34m│[0m          [1;34m [0;1;36m      [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m       [0;1;34m      [0;1;36m     [0;1;34m      [0;1;36m       [0;1;34m  [0m      [1;34m│ [0;34m [0m
+[1;36m[0;1;34m[0;1;36m[0m[1;36m[0;1;34m[0;1;36m[0m[1;36m[0;1;34m[0;1;36m[0;1;34m[0;1;36m[0;1;34m[0;1;36m[0;1;34m[0m[1;36m[0;1;34m[0;1;36m[0m[1;36m[0;1;34m[0;1;36m[0;1;34m[0;1;36m[0;1;34m[0;1;36m[0;1;34m[0;1;36m[0m[34m[0m[1;36m[0;1;34m[0;1;36m[0;1;34m[0;1;36m[0;1;34m[0;1;36m[0m[34m[0m[34m  [0;1;34m│[0m          [1;34m [0;1;36m      [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m       [0;1;34m      [0;1;36m     [0;1;34m      [0;1;36m       [0;1;34m  [0m      [1;34m│ [0;34m [0m
 [34m  [0;1;36m│[0m          [1;34m  [0;1;36m      [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m      [0m                                [1;36m│ [0;34m [0m
 [34m└──[0;1;34m───────[0;1;36m───────────────────────────────────────────────────────────[0;1;34m───────[0;34m───┘[0m
 [34m  [0;1;36m└[0;1;34m────[0;34m──── ─  .[0m                                                 [34m. ─ ────[0;1;34m────[0;1;36m┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e52d69c2c5503e09c2b0204f29171abb7d92f4a0db3e55f75becbcf5918dcde5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-BIB.ANS by ANuBiS (FORCe); released in force-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: BaPTiSeD iN BLooD
 # SAUCE Author: ANuBiS
 # SAUCE Group: FORCe
@@ -15,9 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                  [35m     [0;37m           [0m [37m                                [0;31m [0;37m  [0m [37m         [0m
-[37m                          [0m [37m   [0m [37m   [0m [37m  [0m [37m    [0m [37m                                     [0m
-                                             [1;30m [0;33m       ▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄       [0m
+[35m[0;37m[0m[37m[0;31m[0;37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m                                             [1;30m [0;33m       ▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄       [0m
 [1;30m┌───────────────────────────────────────────┐[0m  [33m     ██████████████ ████████▓▓▒▒░[0m
 [1;30m│[0mGReeTZ To LoNe SeCToR, RiPMaX, BRaiN CHiLD [1;30m│[0;33m      ██████▀████████ ██████▀███▓▓▒[0m
 [1;30m│[0m    [32m▀▀█ ▀[0m   [37mNMe,[0m [37mTeMPLaR[0m [37meTC.[0m [32m▀[0;1;32;42m▒░[0;32m▀[0;31m [0;32m▀▀▀[0;1;32;42m▒[0;32m▀[0m [33m  [0;1;30m│[0;33m       ████████░█████ ███▀▄▄███████[0m

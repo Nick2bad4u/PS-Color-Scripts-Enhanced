@@ -5,7 +5,7 @@
 # Source SHA-256: 62defbd97fceb20bb73f746f795853acf088a00809c81ffa3036551114548fe6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-SAuNA.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
 # SAUCE Date: 20220524
@@ -35,7 +35,6 @@ Write-Host '
 [35mb    [0;1;31m`[0;31m"[0;1;31m.┌┐. .,  d$$$$$[0;31m$$P[0;1;34m  [0;32m,[0;1;32m$[0;32m.  [0;1;33m`┘[0;32m [0;1;33m4j[0;33mjP[0;1;33m   ,$ $$$$$$.   [0;1;36mY$$[0;1;34mP    [0;33m.d$[0;1;31m$$[0;31m.[0;1;35m`4$$A[0;35m┐,`[0;31mj[0;1;31m$$[0m
 [1;35m$[0;35m$\.   [0;1;31m`²[0;31m²''[0;1;31m($$[0;31m)[0;1;31m `4$[0;31mj$P┘''[0;34m .[0;1;34md[0;1;32m$$$[0;32mb.        [0;1;33m,d$$ ²''^` $$b[0;33m.  [0;1;36m`[0;1;34m` [0;33m.,¬$$$▒[0;1;31m▒$$[0;31mb.[0;1;35m`²[0;35m''`[0;31m.d[0;1;31m$$d[0m
 [1;35m$$$[0;35m$[0;1;35m$[0;35ms┐.    [0;31m`''        [0;34m.┌[0;1;34md$$[0;1;32m$$$$$$S#%%#S[0;32m$[0;1;33m$$$$┌s%#$$$$$[0;33m$$S#S$$$$$$$$[0;1;31m$$$$$$%[0;31m#$[0;1;31m$$$$$[0m
-[1;35m  [0;1;31m [0;1;32m [0;1;33m [0;1;36m [0;1;35m      [0;35m [0;34m  [0;1;34m            [0m [1;35m                         [0;33m             [0;1;31m  [0;31m [0;1;37m [0;1;31m [0;33m [0;1;33m [0;32m [0;36m [0;1;35m [0;1;34m [0;1;30m [0;1;37m [0;1;31m [0m
-[1;35m--------------------------------------------------------------------------------[0m
+[1;35m[0;1;31m[0;1;32m[0;1;33m[0;1;36m[0;1;35m[0;35m[0;34m[0;1;34m[0m[1;35m[0;33m[0;1;31m[0;31m[0;1;37m[0;1;31m[0;33m[0;1;33m[0;32m[0;36m[0;1;35m[0;1;34m[0;1;30m[0;1;37m[0;1;31m[0m[1;35m--------------------------------------------------------------------------------[0m
 [1;35m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m'

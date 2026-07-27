@@ -5,7 +5,7 @@
 # Source SHA-256: 670fc2dddb3862a7393f3f956454c420db43b2907930f1c447a7e614abc03d3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AI#00006.ANS by artistic implosion (omen); released in omen-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: istar
 # SAUCE Author: artistic implosion
 # SAUCE Group: omen
@@ -14,8 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;34m                                                                                [0m
-[1;37m--------------------------------------------------------------------------------[0m
+[1;34m[0m[1;37m--------------------------------------------------------------------------------[0m
 [1;34m½[0;36m½¼¼[0;1;36m¼[0m¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼[1;36m¼[0;36m¼¼½[0;1;34m½[0m
 [1;37m--------------------------------------------------------------------------------[0m
 [1;30;46m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;36m▀▀▀▀▀▀[0;1;30m▀  ▀▀▀[0;36m▀▀███████████████[0;1;33;46m░░[0;36m████[0;1;37;46m░░░░░░░░░░░░░░░░░░[0m

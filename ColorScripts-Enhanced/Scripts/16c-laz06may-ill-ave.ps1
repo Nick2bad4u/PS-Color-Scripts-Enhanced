@@ -5,7 +5,7 @@
 # Source SHA-256: 893141cab2194ac930d4717fc9a75ce625abb79268a89ccb7a723bd86bf400b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ILL-AVE.ANS by illogic (lAz/avenge.); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: avenge logo
 # SAUCE Author: illogic
 # SAUCE Group: lAz/avenge.
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                       [1m       [0m   [1m                 [0m  [1m    [0m  
-
+[1m[0m[1m[0m[1m[0m
                             [31m▄[0;37m▄[0;1;31;41m▓░[0;31m▀░░[0m
                          [31m▄[0;1;31;41m▄[0;1;31;47m▓▓▒[0;1;31;41m▀[0;31m▌[0m
                        [31m▄[0;1;31;41m▄█[0;1;31;47m██[0;1;31;41m█[0;1;31;47m▓[0;1;31;41m▌░░[0;31m▄▄[0m                [31m▐[0;1;31;41m▄██▓▄[0;1;31;40m▄▄[0;31m▄[0m

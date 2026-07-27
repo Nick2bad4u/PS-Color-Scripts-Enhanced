@@ -5,7 +5,7 @@
 # Source SHA-256: 0e74de9bd0c255515161468cc94a9809641375ae69fe07dbf87862cc7fb47888
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IK-UF02.ANS by Ill Communikation (CiA Productionz); released in drl-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Unseen Fate
 # SAUCE Author: Ill Communikation
 # SAUCE Group: CiA Productionz
@@ -37,8 +37,5 @@ Write-Host '
                        [1;30m▓▀▄▄[0;35m▓[0;1;30m▄▀[0m   [1;30m▀▄▄▄▄▀▄▄▀▓▄▄▄▄▀▄▄▀▀▄▄▄▄▀▄[0;35m▓[0;1;30m▓[0m
          [30mik[0m            [1;30m▓[0m   [1;30m▓[0m        [1;30m▓[0m     [1;30m▓[0m      [1;30m▓[0m  [1;30m▓[0m      [1;30m▒[0m
          [30mik[0m                         [1;30m▒[0m            [1;30m▒[0m  [1;30m▒[0m      [1;30m░[0m
-         [30m  [0m        [1;30m                                              [0m
-         [30m  [0m                        [1;30m                [0m
-[1;30m         [0;30mik[0;1;30m    [0m
-                       [1;30m                                  [0m
-[1;30m=========>8===========>8===========>8===========>8===========>8===========>8===[0m'
+[30m[0m[1;30m[0m[30m[0m[1;30m[0m[1;30m         [0;30mik[0;1;30m    [0m
+[1;30m[0m[1;30m=========>8===========>8===========>8===========>8===========>8===========>8===[0m'

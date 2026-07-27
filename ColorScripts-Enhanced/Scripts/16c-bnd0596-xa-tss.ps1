@@ -5,7 +5,7 @@
 # Source SHA-256: 187538a38789cbd034b4649aa185873c6b36af3cf7ed6ee19d006c07292651d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XA-TSS.ANS by xanthic acid (blind studios); released in bnd0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the sixth sphere
 # SAUCE Author: xanthic acid
 # SAUCE Group: blind studios
@@ -54,6 +54,4 @@ Write-Host '
                [32m_[0;37m  [0;32m_[0;37m [0;32m__[0;1;32m_/~\[0;1;33m__:[0;32mthe sixth s[0;1;33;43mp[0;32mhere[0;1;33m:__[0;1;32m/~\_[0;32m__[0;37m [0;32m_[0;37m  [0;32m_[0m
                        [1;32m        [0m
 [32m--------------------------------------------------------------------------------[0m
-[1;30m                                                             [0m
-                          
-[32m--------------------------------------------------------------------------------[0m'
+[1;30m[0m[32m--------------------------------------------------------------------------------[0m'

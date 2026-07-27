@@ -23,5 +23,4 @@ Write-Host @"
  1;96m $esc[1;96m  gYw  $esc[1;96m$esc[40m   gYw  $esc[0m$esc[1;96m$esc[41m   gYw  $esc[0m$esc[1;96m$esc[42m   gYw  $esc[0m$esc[1;96m$esc[43m   gYw  $esc[0m$esc[1;96m$esc[44m   gYw  $esc[0m$esc[1;96m$esc[45m   gYw  $esc[0m$esc[1;96m$esc[46m   gYw  $esc[0m$esc[1;96m$esc[47m   gYw  $esc[0m
    37m $esc[37m  gYw  $esc[37m$esc[40m   gYw  $esc[0m$esc[37m$esc[41m   gYw  $esc[0m$esc[37m$esc[42m   gYw  $esc[0m$esc[37m$esc[43m   gYw  $esc[0m$esc[37m$esc[44m   gYw  $esc[0m$esc[37m$esc[45m   gYw  $esc[0m$esc[37m$esc[46m   gYw  $esc[0m$esc[37m$esc[47m   gYw  $esc[0m
  1;97m $esc[1;97m  gYw  $esc[1;97m$esc[40m   gYw  $esc[0m$esc[1;97m$esc[41m   gYw  $esc[0m$esc[1;97m$esc[42m   gYw  $esc[0m$esc[1;97m$esc[43m   gYw  $esc[0m$esc[1;97m$esc[44m   gYw  $esc[0m$esc[1;97m$esc[45m   gYw  $esc[0m$esc[1;97m$esc[46m   gYw  $esc[0m$esc[1;97m$esc[47m   gYw  $esc[0m
-
 "@

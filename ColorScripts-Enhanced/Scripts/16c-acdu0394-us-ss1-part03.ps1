@@ -5,7 +5,7 @@
 # Source SHA-256: f250ba3ba05ba64d6ef5aaadd61c953a5e588cc62af72428dfde2e707ce257bc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SS1.ANS by Deeply Disturbed + Red Leader (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Suicidal Shrimp
 # SAUCE Author: Multiple Artists
 # SAUCE Group: ACiD Productions
@@ -20,12 +20,8 @@ Write-Host '
 [1;30;47m█▓▒░[0m████████[30;47mS · U · I · C · I · D · A · L     S · H · R · I · M · P[0m█████████[1;47m░▒▓[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀▀[1m▀[0m▀[1m▀[0m
 
-                              [36m [0;1;36m [0;1m           [0;1;36m [0;36m [0m
-                 [36m[[0;1;36m5[0;1m14] 768-3383 14.4, [514] 768-2967 14.[0;1;36m4[0;36mK[0m
-                       [36m [0;1;36m [0;1m                           [0;1;36m [0;36m [0m
+[36m[0;1;36m[0;1m[0;1;36m[0;36m[0m[36m[0;1;36m[0;1m[0;1;36m[0;36m[0m[36m[0;1;36m[0;1m[0;1;36m[0;36m[0m
 
-
-                                                      
 
               [36m [0;1;36m [0;1m                          ■                 [0;36m [0m
                [36m [0;1;36m [0;1m                   ■                     [0;1;36m [0;36m [0m
@@ -34,23 +30,17 @@ Write-Host '
                         [36m [0;1;36m [0;1m             ■           [0;1;36m [0;36m [0m
                            [36m [0;1;36m [0;1m         ■         [0;1;36m [0;36m [0m
 
-                                            
 
           [36m [0;1;36m [0;1m                                   ■                 [0;1;36m [0;36m [0m
                 [36m [0;1;36m [0;1m                  ■                    [0;1;36m [0;36m [0m
                 [36m [0;1;36m [0;1m      ■            ■          ■      [0;1;36m [0;36m [0m
                       [36m [0;1;36m [0;1m                     ■  [0;1;36m [0;36m [0m
 
-                                         
 
-                   [36m [0;1;36m [0;1m                                  [0;1;36m [0;36m [0m
-                     [36m [0;1;36m [0;1m                              [0;1;36m [0;36m [0m
+[36m[0;1;36m[0;1m[0;1;36m[0;36m[0m[36m[0;1;36m[0;1m[0;1;36m[0;36m[0m
+[36m[0;1;36m[0;1m[0;1;36m[0;36m[0m
 
-                       [36m [0;1;36m [0;1m                          [0;1;36m [0;36m [0m
-
-
-           [1m                                                       [0m
-
+[1m[0m
 [1;30m▄▄[0m▄[1;30m▄[0m▄▄[1m▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30;47m█▓▒░       [0;30;47m                                                                 [0;1;37;47m░▒▓[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀▀[1m▀[0m▀[1m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5428165f8f15098a457580eace2a3e34f259329bd1803373dbceb4a6c327658a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-FAIR4.ANS by rimgale (teklordz); released in tl-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fairground-4
 # SAUCE Author: rimgale
 # SAUCE Group: teklordz
@@ -51,7 +51,6 @@ Write-Host '
           [32m▄▓▌[0;1;32;42m▒▓[0m  [32m▐ ▐  [0;1;32;42m▓▒[0m    [1;31;43m░▒▓▓[0;33m▓▄   ▀[0;1;31m▀ [0;33m▄[0;1;31m▄[0;33m▀▄▀[0;1;31;43m░[0;33m▀▄[0;1;31;43m▄▒▓▓▓▓[0;1;31;40m█[0;1;31;43m▓[0;33m▌ [0;32m▓[0;1;32;42m░▒▒▓▓▓▓▓▒[0;32m▓▀▄▓[0;1;32;42m▒▒░░▒▒▓▓[0m
         [32m▀▀ [0;1;32;42m▒░▓▓▒[0;32m▄[0;1;32;42m░[0;32m▄▓  [0;1;32;42m▓[0;32m▓    [0;1;31;43m░▒▓▓▓[0;1;31;40m█[0;33m▀▄   [0;1;31m▀  ▀[0;33m▀▄▄[0;1;31;43m░▒▓▓▓▓▓▓[0;1;31;40m█[0;33m█ [0;32m▐[0;1;32;42m░▒▓▓▓▓▓▓▒[0;32m▓ ▓[0;1;32;42m░▒▒░░[0;32m█[0;1;32;42m░▒▒▓[0m
 [1;30;40m─■▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄[1m▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1m▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■─[0m
-                        
                                  f   a   i   r
                                                                  ▄ ▀▀▓█[1;47m░[0m▄▄
   ▄[1;47m▄▓▓[0m▄▄                      ▄▄▄▄    ▄▄  ▄▄   ▄▌    ▄▄[1;47m░░░[0m▄▄ ▀▓▄█▌     ▀▓[1;47m░░[0m▓▄

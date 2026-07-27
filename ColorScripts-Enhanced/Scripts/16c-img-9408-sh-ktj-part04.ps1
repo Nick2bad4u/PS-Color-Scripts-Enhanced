@@ -5,7 +5,7 @@
 # Source SHA-256: 93390bf59f93a6244ee14928b680d88142758df4ae5c6feb17865e9e94deefc4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-KTJ.ANS by Shred (img-9408); released in img-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 121-152
 # Columns: 1-80
 
@@ -32,8 +32,7 @@ Write-Host '
 [1;31;41m▒░[0m [31m█ [0;1;31;41m▒░[0m [31m█ [0;1;31;41m▒░[0m [31m█ [0;1;31;41m▒░[0m [31m█ [0;1;31;41m▒░[0m [31m█ [0;1;31;41m▒░[0;31m▀▄   [0;1;31;41m▒░[0m   [1;31;41m▒░[0m [31m█ [0;1;31;41m▒░[0m [31m█ [0;1;31;41m▒░[0m  [31m█  [0;1;31;41m▒[0m [1;31;41m▒░[0m   [1;31;41m▒░[0m [31m█ ▄▄ █ [0;1;31;41m▒░[0m [31m█ ▄▄ █[0m
 [1;31;41m▓▒[0m [31m█ [0;1;31;41m▓▒[0;31m▄█ [0;1;31;41m▓▒[0;31m▄█ [0;1;31;41m▓▒[0;31m▄█ [0;1;31;41m▓▒[0;31m▄█ [0;1;31;41m▓▒[0m [31m█   [0;1;31;41m▓▒[0m   [1;31;41m▓▒[0m [31m█ [0;1;31;41m▓▒[0m [31m█ [0;1;31;41m▓▒[0m  [31m█  [0;1;31;41m▓[0;1;31;40m▄[0;1;31;41m▓▒[0m   [1;31;41m▓▒[0;31m▄█ [0;1;31;41m▓▒[0;31m▄█ [0;1;31;41m▓▒[0;31m▄█ [0;1;31;41m▓▒[0;31m▄█[0m
 
-[1;31m[[0;31m7[0;1;30mo8]439.5769 --[0;31m----------------------------------------[0;1;30m-- Alternative txt''s o[0;31mn[0;1;31m:[0m
-[1;31mS[0;31my[0;1;30msops: Liquid Jesus, Lithium --[0;31m----------------------------------------[0;1;30m-- mus[0;31mi[0;1;31mc[0m
+[1;31m[0;31m[0;1;30m[0;31m[0;1;30m[0;31m[0;1;31m[0m[1;31mS[0;31my[0;1;30msops: Liquid Jesus, Lithium --[0;31m----------------------------------------[0;1;30m-- mus[0;31mi[0;1;31mc[0m
 [1;31mC[0;31mH[0;1;30mAiNeT --[0;31m-------------------------------------------------------------[0;1;30m-- lyri[0;31mc[0;1;31ms[0m
 [1;31mS[0;31mp[0;1;30marNet --[0;31m--------------------------------------------------------[0;1;30m-- alternati[0;31mv[0;1;31me[0m
 [1;31mS[0;31mu[0;1;30mb-SpaceNet --[0;31m---------------------------------------------------------[0;1;30m-- dru[0;31mg[0;1;31ms[0m

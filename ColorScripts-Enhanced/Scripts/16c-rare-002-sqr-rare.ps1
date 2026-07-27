@@ -5,7 +5,7 @@
 # Source SHA-256: dee3694c013cbd7a5de857a8a95678d92bdb9bd635cf8d96d3e3db2827bcd1b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SQR!RARE.ANS by square (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: rare!ascii promo
 # SAUCE Author: square
 # SAUCE Group: rare!ascii
@@ -19,7 +19,7 @@ Write-Host '
 
 
                          [1;30m      [0m
-    [35m.┌g[0;1;35m@SS@[0;35mg╥.[0m            [1;30m░ ░░▒[0m    [35m.┌g[0;1;35m@SS@[0;35mg╥. [0;37m  [0;1;30m([0m [1;30m([0m(  [1;30mhttp://surf.to/rare[0m  )[1;30m)[0m [1;30m)[0m
+    [35m ┌ [0;1;35m    [0;35m ╥ [0m            [1;30m░ ░░▒[0m    [35m ┌ [0;1;35m    [0;35m ╥  [0;37m  [0;1;30m [0m [1;30m [0m   [1;30m                   [0m   [1;30m [0m [1;30m [0m
 [35m  ┌S[0;1;35m$$$$$$$$$$[0;35mS┐[0m   [35m   ,gs,[0m    [1;30m░[0;35m  ┌S[0;1;35m$$$$$$$$$$[0;35mS┐[0m   [35m  [0m
 [35m l[0;1;35m$$$[0;35mP└ⁿⁿ┘T$[0;1;35m$$$[0;35m$i     $[0;1;35m$$$[0;35mb,  [0;1;30m [0;35m l[0;1;35m$$$[0;35mP└ⁿⁿ┘T$[0;1;35m$$$[0;35m$i    .┌[0;1;35mg%@%g[0;35m╥,_  [0m
 [35m $[0;1;35m$$[0;35m7[0m      [35m`$[0;1;35m$$$[0;35m&    ;[0;1;35m$$[0;35m$[0;1;35m$$[0;35m$,   $[0;1;35m$$[0;35m7[0m      [35m`$[0;1;35m$$$[0;35m&  ┌S[0;1;35m$[0;35m7└°"°┘7[0;1;35m$$[0;35mS┐ [0m    [1;30mrARE!ASCii[0m

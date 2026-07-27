@@ -5,7 +5,7 @@
 # Source SHA-256: d1ca825a045e13930b3a9a643ec13b592f334168052253b33e9a034d579eeb5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HOS-CFMN.ANS by Hos (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Chronic Farts Menu
 # SAUCE Author: Hos
 # SAUCE Group: AWE Lettering
@@ -15,8 +15,7 @@
 
 Write-Host '
 [34m─────────────────────────────────────────────  [0;1;37m▬  [0;34m──────────────────────────────[0m
-        [1;36m    [0;1;33m  [0;36m [0;1;36m    [0;36m   [0;1;36m              [0m                    [1;36m         [0;1;33m  [0;1;32m   [0m
-[34m──────────── [0;1;37m░▌ [0;34m────────────────────────────── [0;1;37m■ [0;34m───────────────────────────────[0m
+[1;36m[0;1;33m[0;36m[0;1;36m[0;36m[0;1;36m[0m[1;36m[0;1;33m[0;1;32m[0m[34m──────────── [0;1;37m░▌ [0;34m────────────────────────────── [0;1;37m■ [0;34m───────────────────────────────[0m
       [37m▄[0m     [37m▄[0;1;37m▄▌[0m              [1;37m▄[0m               [1;37m▄    [0;1;34;44m▀[0;34m▀[0m                         [34m▀[0;1;34;44m▀[0m
      ▀[1;47m▀[0;1;40m▀▀[0;1;47m ░▒▓▓[0;1;40m▄[0;1;47m▄[0;1;40m█▄[0;1;33;40m▄   [0;1;37;40m░▌  ▄[0m     [1;37;40m▀▄[0m        ▄[1m▄[0;1;47m▄[0;1;40m▌[0m        [1;40mA [0;1;36;40m·· [0;1;33;40mAuto Message Menu[0m
 [1;33;40m   [0m▀[1;47m▀[0;1;40m▀▀▀    [0m▀[1m▀[0;1;47m▀▓▓█[0;1;40m██▀▀▀▌[0m     [36m░[0;30;46m▓[0m   [37;40m▀[0;1;37;40m▀[0m▄[1m▄▄[0m▀[1m▀▀[0;1;47m▀[0;1;40m██▄▓░░[0m     [1;40mB [0;1;36;40m·· [0;1;33;40mBBS Listings[0m

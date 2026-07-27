@@ -5,7 +5,7 @@
 # Source SHA-256: cf4c307117e67078651dd974aae988bbd89afa73dcc222209a36d12a34aa2a91
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-CROW.ANS by Silver Blade (Paw); released in paw-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Crow'S nest
 # SAUCE Author: Silver Blade
 # SAUCE Group: Paw
@@ -58,4 +58,4 @@ Write-Host '
          [36m                 [0;1;30m [0;36m              [0;1;36m [0m                [36m▐▌[0m  [1;37m                [0m
 [36m                   [0;1;30m [0;36m    [0;1;36m [0;36m  [0;1;30m [0;36m          [0;1;30m [0;36m    [0;1;36m [0;36m      [0;1;36m [0m        [36m▀▄▄[0m  [1;37m             [0m
                             [1;30m [0;36m            [0;1;36m [0m                   [1;30m▄[0;36m▀[0;1;30m▄[0m [1;37m           [0m
-                        [1;37m  [0m  [1;30m[[0;36m2O6] 242 764[0;1;36m5[0m                   [1;30m▀■[0m [1;37mmofo i fo''got[0m'
+                        [1;37m  [0m  [1;30m [0;36m            [0;1;36m [0m                   [1;30m▀■[0m [1;37m             [0m'

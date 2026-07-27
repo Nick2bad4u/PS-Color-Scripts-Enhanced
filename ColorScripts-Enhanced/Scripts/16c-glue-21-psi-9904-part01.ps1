@@ -5,7 +5,7 @@
 # Source SHA-256: 54f34d00e5de634158f2543c9db1171df70c78ef356a5a5dab8f87f7bf0d8b80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PSI-9904.ANS by Psidream (Glue); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Logo Colly (April, 1999)
 # SAUCE Author: Psidream
 # SAUCE Group: Glue
@@ -17,8 +17,7 @@
 Write-Host '
 [1;30m------------------------------------------------------------------------------- [0m
 
- [1m        [0m                      [1m    [0m                 [1m     [0m                [1m    [0m 
-
+[1m[0m[1m[0m[1m[0m[1m[0m
 [1;30m-- [0;1;37mNPH[0;1;30m -- [0mfor Cleaner [1;30m--------------------------------------------------------- [0m
 
                                                          [31m░░░ [0m

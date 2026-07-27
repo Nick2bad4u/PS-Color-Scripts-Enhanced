@@ -5,13 +5,13 @@
 # Source SHA-256: fe30b320a142c49a792f2ccd1334863279ecdd848958560fce2ee7f9713b66ff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-BIO.ANS by Cable (chlk1094); released in chlk1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
 [1;34;44m█████▀█▄█▀█▄█▀█▄█▀█▄ ▀ ▄ ▀ ▄ ▀ ▄ ▀ [0;34m▀ ▀ ▄ ▀ ▄ ▀[0;34;44m [0;1;34;44m▀ ▄ ▀ ▄ ▀ ▄ ▀ ▀█▄█▀█▄█▀█▄█▀[0;1;34;40m████[0;1;34;44m█[0m
-[1;34;44m██[0m           [1;30;40mcable%flame@ds.gen.nj.us[0m            [1;37;40m▄▄▄[0m                     [1;37;40m▄▄▄ [0;1;34;44m██[0m
+[1;34;44m██[0m           [1;30;40m                        [0m            [1;37;40m▄▄▄[0m                     [1;37;40m▄▄▄ [0;1;34;44m██[0m
 [1;34;44m▀█[0m       ▄▀▀▀▀▀▀▀▄             ▄▀▀▀▄             [1m█[0m                         [1m█ [0;1;34;44m▀█[0m
 [1;34;44m█▀[0m      ▄▀ [1m█[0;1;47m▓▒░[0;1;40m▀ [0m█      ▄▀▀▀▀▀▀▀ [1;30;45m░[0m ▀▀▀▀▀▀▀▄      █  [1;30mIf you would like an   [0m█ [1;34;44m█▀[0m
 [1;34;44m▄ [0m     ▄▀ [1m█[0;1;47m▓▒[0;1;40m▀ [0m▄▀ ▄     █ [1m▀[0;1;47m▒▓█[0;1;40m▀ [0;1;30;45m░[0;35m▀[0;1;35;47m▓[0m [1;37;40m▀█[0;1;37;47m▓▒[0;1;37;40m▀ [0m█      █ [1;30mansi done by [0;1;37mCable[0;1;30m,drop [0m█ [1;34;44m▄ [0m
@@ -50,5 +50,4 @@ Write-Host '
 [1;30;41m█▓▒░                 ░░░░░░░░░░░   ░░ [0;31m▌[0;1;37;41m███████[0m                        [1;37;41m  [0;1;31;41m░░▒▒▓▓█[0m
 [1;31;40m [0;1;30;41m█▓▒░                                [0;31m▌[0;1;37;41m██████████[0m                     [1;37;41m       [0;1;31;41m░░▒[0m
 [1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-                                                                   
 [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

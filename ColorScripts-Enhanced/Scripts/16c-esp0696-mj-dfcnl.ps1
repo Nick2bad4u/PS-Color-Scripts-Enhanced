@@ -5,7 +5,7 @@
 # Source SHA-256: b63ec92303d46ecf79389c7085483bea6c5763c6fb03b2b6906b288a133d792b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ-DFCNL.ANS by majiCk (ins^frg^sphere^void); released in esp0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: defcon 1 logoff
 # SAUCE Author: majiCk
 # SAUCE Group: ins^frg^sphere^void
@@ -32,7 +32,7 @@ Write-Host '
 [37m [0m    [37m [0;1;31m▄█[0;1;31;41m██[0m          [1;33m│[0m             [1m   [0m [1m [0;1;33m [0;1;31m     [0;1;37m [0;1;31m    [0;1;37m [0;1;31m [0;31m [0;1;30m [0;1;37m [0;1;30m   [0m
     [1;31m▄█[0;1;31;41m▓▓▓▒[0m          [1;31m│[0m          [1m [0;1;33m [0;1;31m  [0;1;37m [0;1;31m   [0;1;37m [0;1;31m   [0;1;37m [0;1;31m    [0;1;37m [0;1;31m     [0;1;37m [0;1;31m    [0;31m [0;1;30m [0m
    [1;31m▀▀[0;1;31;41m▓▓▒▒░[0m          [31m│[0;37m [0m        [1;37m [0;1;33m [0;1;31m    [0m [1;31m [0m [1;31m [0;1;37m [0;1;31m             [0;1;37m [0;1;31m      [0;31m [0;1;30m [0m
-     [1;31;41m▒▒░░[0;31m▓[0m     [31m [0;37m [0m       [1;33m   [0m            [1m([0;1;33m2[0;1;31m16)[0;1;37m [0;1;31m338-98[0;31m2[0;1;30m7[0m                   [1m│[0m
+     [1;31;41m▒▒░░[0;31m▓[0m     [31m [0;37m [0m       [1;33m   [0m            [1m [0;1;33m [0;1;31m   [0;1;37m [0;1;31m      [0;31m [0;1;30m [0m                   [1m│[0m
      [31m▀▀[0;1;33m▄▄▄[0m     [31m [0m                                                        [1;33m│[0m
      [1;33;41m██▓▓▓[0m                       [1;31m [0m [31m      [0;1;31m  [0;31m        [0;1;31m [0;31m     [0;1;31m [0m              [1;31m│[0m
      [1;33;41m▓▓▓▒▒[0m                                                       [1m──[0;1;33m──[0;1;31m──[0;31m─┘[0m

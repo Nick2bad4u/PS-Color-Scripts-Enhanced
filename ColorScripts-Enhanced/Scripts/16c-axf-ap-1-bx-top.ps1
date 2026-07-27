@@ -5,7 +5,7 @@
 # Source SHA-256: 4b9faaf4752ff260ebe9d6177b65be200699b3bbb851c9bd73c684b732e613ff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-TOP.ANS by baxter (axial force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: top-uppers screen
 # SAUCE Author: baxter
 # SAUCE Group: axial force
@@ -26,8 +26,7 @@ Write-Host '
       [35m▐[0;1;35;45m▓▓▒ ░[0;35m▄▄▄▄█[0;1;35;45m░[0;35m▄▄▄▄[0;1;35;45m░▒[0;35m▄[0;37m▀[0;1;37;47m░ [0m▀[35m ██[0;1;35;45m░[0m                  [1;30m|[0m only once a day!         [1;30m| [0m
 [1;30m.------[0;35m▀[0;1;35;45m▀▒░░░░░   ░░░▒▒▓░[0;35m█▄▄███▀[0;1;30m-------------------''                          |[0m
 
-[1;30m  [0m                                                                            [1;30m [0m
-
+[1;30m[0m[1;30m[0m
 [1;30m`---------------------------------------------------------------------bx/axf--''[0m
 [1;30m [0m                        [32m  [0;37m                      [0m
 [37m--------------------------------------------------------------------------------[0m'

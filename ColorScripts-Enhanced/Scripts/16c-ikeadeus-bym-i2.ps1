@@ -5,7 +5,7 @@
 # Source SHA-256: 9cd36364df1306562ad4e20478f05320fc5d29ddecaa62d7d874bcfc762bc6e6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bym-i2.ans by superbym (ikeadeus); released in ikeadeus and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ullared
 # SAUCE Author: superbym
 # SAUCE Date: 20001217
@@ -15,8 +15,7 @@
 
 Write-Host '
 [1;30m................................................................................[0m
-[1;30m                [0m             
-[33m--------------------------------------------------------------------------------[0m
+[1;30m[0m[33m--------------------------------------------------------------------------------[0m
 [37m [0m                 [35m▄▀[0m
 [37m [0m             [35m▄▄█▀[0m              [35m▄▄▄▄[0;1;36m██▀[0;35m  ▀█[0;1;37;45m░░[0;35m▀  ▀[0m       [1;37;45m▒▒[0m          [35m▄[0;1;36m▄█▓[0m
       [35m▄▄▄▄▀▀▀▀▄[0;1;35;45m░[0;35m█[0m       [1;36m▄[0m        [1;37;45m░░[0;35m  [0;1;36m█[0m     [1;37;45m [0;35m█  ▄▀[0m      [35m▄[0;1;37;45m█[0;1;36;40m█[0m    [35m▀▀▀▀▄██ [0;1;36m█[0m

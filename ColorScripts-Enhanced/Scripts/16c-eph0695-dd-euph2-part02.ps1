@@ -5,7 +5,7 @@
 # Source SHA-256: 9237362c5755c159db6bc659160540aedae05f9b80e21807a32d7c0a50b98de4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-EUPH2.ANS by Dark Delusion (eph0695); released in eph0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 23-72
 # Columns: 1-80
 
@@ -55,7 +55,4 @@ Write-Host '
 
                      [1;37mD[0;1;30m [0;1;36mi[0;1;30m [0;36mG[0;1;30m i T A L      [0;1;37mD[0;1;30m [0;1;36mi[0;1;30m [0;36mS[0;1;30m T O R T i O N[0m
 
-                          [1;30m  [0m    [1m [0;1;36m [0;36m [0;1;30m        [0;36m [0;1;36m [0;1;37m [0m
-                [1;30m      [0;1;37m [0;1;36m [0;36m [0;1;30m           [0;36m [0;1;36m [0;1;37m [0;1;30m        [0;1;37m [0;1;36m [0;36m [0;1;30m         [0;36m [0;1;36m [0;1;37m [0m
-[1;30m   [0m                [1m [0;1;36m  [0;1;30m [0;36m [0;1;30m         [0m [1;30m                       [0;36m [0;1;36m [0;1;37m [0m
-                       [1;30m [0m          [1m9[0;1;36m6[0;36m0[0;1;30m0+ o[0;36mn[0;1;36ml[0;1;37my[0m'
+[1;30m[0m[1m[0;1;36m[0;36m[0;1;30m[0;36m[0;1;36m[0;1;37m[0m[1;30m[0;1;37m[0;1;36m[0;36m[0;1;30m[0;36m[0;1;36m[0;1;37m[0;1;30m[0;1;37m[0;1;36m[0;36m[0;1;30m[0;36m[0;1;36m[0;1;37m[0m[1;30m[0m[1m[0;1;36m[0;1;30m[0;36m[0;1;30m[0m[1;30m[0;36m[0;1;36m[0;1;37m[0m                       [1;30m [0m          [1m9[0;1;36m6[0;36m0[0;1;30m0+ o[0;36mn[0;1;36ml[0;1;37my[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8dbad84f9ea6f724c0cc780c844fe55d1d1327add9bebaa0f4af81ae372ee4a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: COL-DNK.ANS by colorblind (tOxic); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: doink!
 # SAUCE Author: colorblind
 # SAUCE Group: tOxic
@@ -37,5 +37,4 @@ Write-Host '
                      [1;30m  ░▌[0m [1;32;42m▒▒[0m  [1;32;42m▒▒[0m [1;32;42m▒▒[0m  [1;32;42m▒▒[0m [1;32;42m▒▒[0m [1;32;42m▒▒[0m  [1;32;42m▒▒[0m [1;32;42m▒▒[0;32m▀▀[0;1;32;42m▒[0;1;32;40m▄[0m [1;30m▐░[0m
                      [1;30m  ░▌[0m [1;32;42m▓▓[0m  [1;32;42m▓▓[0m [1;32;42m▓▓[0m  [1;32;42m▓▓[0m [1;32;42m▓▓[0m [1;32;42m▓▓[0m  [1;32;42m▓▓[0m [1;32;42m▓▓[0m  [1;32;42m▓▓[0;1;30;40m ▐░[0m
                           [1;32;47m▓[0;1;32;42m█[0;1;32;40m▄▄[0;1;32;47m▓▓[0m [1;32;47m▓[0;1;32;42m█[0;1;32;40m▄▄[0;1;32;42m█[0;1;32;40m▀[0m [1;32;47m▓[0;1;32;42m█[0m [1;32;47m▓▓[0m  [1;32;47m▓[0;1;32;42m█[0m [1;32;47m▓[0;1;32;42m█[0;32m [0;37m [0;1;32;42m█[0;1;32;47m▓[0m
-[1m    [0m                                                [32m [0;37m [0;1;32m▀▀[0m
- [1;30m [0m               [1;30m [0m  doink [1;30m...[0m +o cheeze([1;32mcia[0m) [1;30m...[0m 407-000-0000[0m'
+[1m    [0m                                                [32m [0;37m [0;1;32m▀▀[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;32m[0m[1;30m[0m[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ab317995def84cf7bdb0e55c08c4a8268a3d6dab8f8fdde0d2e3ebe35aac5555
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HW-SOV1.ANS by Heat Wave (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Spirits of Vengeance
 # SAUCE Author: Heat Wave
 # SAUCE Group: WBT/SHiVER
@@ -53,10 +53,7 @@ Write-Host '
 [30mheat wave[0;1;30m▓█[0;30m he[0;1;30m▀[0;30mt[0;1;30m▀▀▀▀▀▀▀▀▀▓[0;30ma[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀[0;30mt[0;1;30m▀▀▀[0;30mv[0;1;30m▀▀▀▀▀▀▓▀[0;30m w[0;1;30m▀▀▀▓[0;30m  h[0;1;30m▀▀▓▀[0;30mwav[0;1;30m█▓[0;30m  heat wav[0m
 [30m           [0;1;30m░░[0;30m   [0;1;37m        [0;30m [0;1;37m   [0;30m [0;1;30m [0;30m [0;1;37m      [0;30m [0;1;37m        [0;30m [0;1;37m  [0;30m [0;1;30m [0;30m [0;1;37m [0;30m [0;1;37m    [0;30m [0;1;37m    [0;30m   [0;1;30m░░[0;30m            [0m
 [30m         [0;1;30m▓[0;30m                   [0;1;37m [0;30m [0;1;37m     [0;30m [0;1;30m [0;30m [0;1;37m    [0;30m [0;1;37m [0;30m [0;1;37m    [0;30m                   [0;1;30m▓[0;30m          [0m
-[30m                [0;37m       [0;30m [0;1;37m [0;30m [0;37m         [0;30m [0;37m [0;1;37m      [0;30m [0;1;37m           [0;30m [0;1;37m      [0m [30m                 [0m
-[30mheat wave[0;1;30m▓█[0;30m he[0;1;30m▄▓▄▄[0;30mave[0;1;30m▓▄▄▄[0;30mea[0;1;30m▄▓▄▄▄▄▄▄[0;30m [0;1;30m▄▄▄[0;30mt[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄[0;30m [0;1;30m▓▄▄▄▄▄▄▄▄▄[0;30mt[0;1;30m▄[0;30mwav[0;1;30m█▓[0;30m  heat wav[0m
+[30m[0;37m[0;30m[0;1;37m[0;30m[0;37m[0;30m[0;37m[0;1;37m[0;30m[0;1;37m[0;30m[0;1;37m[0m[30m[0m[30mheat wave[0;1;30m▓█[0;30m he[0;1;30m▄▓▄▄[0;30mave[0;1;30m▓▄▄▄[0;30mea[0;1;30m▄▓▄▄▄▄▄▄[0;30m [0;1;30m▄▄▄[0;30mt[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄[0;30m [0;1;30m▓▄▄▄▄▄▄▄▄▄[0;30mt[0;1;30m▄[0;30mwav[0;1;30m█▓[0;30m  heat wav[0m
 [30m                             [0;1;30m▀▀[0;30m         [0;1;30m▓▓▀[0;30m             [0;1;30m▓▓▀▀[0;30m                    [0m
-[30m                                                                                [0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[1;30m   [0m  [30m [0;37m       [0;30m [0;37m    [0;30m [0;37m   [0;30m [0;37m     [0;30m [0;37m    [0;30m [0;37m     [0;30m [0;37m       [0;30m [0;37m    [0;30m [0;37m  [0;30m [0;37m    [0;30m [0;37m    [0;30m [0;37m  [0;30m [0;37m   [0;30m [0;37m   [0;1;30m   [0;30m [0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m'
+[30m[0m[1;30m────────────────────────────────────────────────────────────────────────────────[0m
+[1;30m[0m[30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;30m[0;37m[0;1;30m[0;30m[0m[1;30m────────────────────────────────────────────────────────────────────────────────[0m'

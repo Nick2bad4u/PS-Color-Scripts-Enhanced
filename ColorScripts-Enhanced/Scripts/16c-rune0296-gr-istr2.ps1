@@ -5,7 +5,7 @@
 # Source SHA-256: 37dc687677671ad4c79cbcf015f590341c8a5f70b15e4c31e7d928fe12ce8f4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-ISTR2.ANS by gunthar (rune); released in rune0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: istar
 # SAUCE Author: gunthar
 # SAUCE Group: rune
@@ -19,7 +19,7 @@ Write-Host '
 [1;30m░[0m      [1;30m░ [0;32m▄▀ [0;1;33m▄ [0;1;30m▐[0;1;30;47m▓[0;1;30;40m███▄▄ ░[0m                                   [1;30;40m▄▄[0;1;30;47m▓[0;1;30;40m████▌ [0;1;33;40m▀▓[0m      [1;30;40m░  ░[0m
 [1;30;40m▒░ ░    [0;32m■  [0;1;33m▀▓ [0;1;30;47m▓[0;1;30;40m█▄██▓▌  [0m··[1mrun by Gunthar of rUne studios[0m··  [1;30;47m▓[0;1;30;40m█▄▓██▓  [0;1;33;40m░  [0;1;30;40m▄░ ■   ▒[0m
 [1;30;40m░  ▒  ■ ▀ ▄  ▄█▌▐▓▀▒ ░   [0m··[1mrUneWhq[0m/[1msketchHq[0m/[1mtribalMem[0m··  [1;30m░ ▐█▌▐▓▀▒▄ ▄■[0m      [1;30m▀▄▓[0m
-[1;30m [0m▄[1;30m▄▓▀  ▒ ▄▄▀░▐▓ ▄░▀▓▄ ▒░[0m        +1[1;30m.[0m714[1;30m.[0m921[1;30m.[0m1603      [1;30m░ ░▒  █▀  █▓ ▄▓▄ ▄▀ ▄▄▓▓▄▓[0m
+[1;30m [0m▄[1;30m▄▓▀  ▒ ▄▄▀░▐▓ ▄░▀▓▄ ▒░[0m          [1;30m [0m   [1;30m [0m   [1;30m [0m          [1;30m░ ░▒  █▀  █▓ ▄▓▄ ▄▀ ▄▄▓▓▄▓[0m
 [1;30;47m▒▓▓█▓█[0;1;30;40m█▄▓▀ ▄▄▄▀█▓▓▓▄ ■▄▄[0m     [1;30;40m▄[0m          [1;30;40m░[0m     [1;30;40m▄[0m       [1;30;40m▄ ░▄[0;1;30;47m▓[0;1;30;40m▄▄█▓▄█▓▓▀▄▓██[0;1;30;47m▓▓[0;1;30;40m██▀ ▀[0m
 [1;30;47m▓████[0;1;30;40m█▓▀▄█▓▀▓▓▓▒▀▓▒▄▓▓[0;1;30;44m▓[0;1;30;40m▀▀▀▀ ▀▓▀▀  ▀   [0;1;37;40mt    [0;1;34;40m░ [0;1;30;40m▀▓▀▀ ■▀▀▀▓▓▒▀▀▀▀▀▄▓▓▀▒██████[0;1;30;47m▒[0;1;30;40m███ ▓[0m
 [1;30;47m▓[0;1;30;40m███▓▀▓▓▓▒▄▀  ░▀▀▄   ░▀▀■[0;1;34;40m░[0;1;37;40ms[0m         [1;34;40m░ ▄ [0;1;30;40m░  [0;1;34;40m░  [0;1;30;40m░   [0;1;37;40ma  [0;1;30;40m▀  ░  ▄▀▀ ░▄▀▀▀▓▓▓███[0;1;30;47m▓[0;1;30;40m██▀▓[0m

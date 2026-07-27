@@ -5,7 +5,7 @@
 # Source SHA-256: a3c0667d9b2eb8398ff12e0e63158a2d21aec4547799e8ebc8cdeb9c52307216
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CP-WASTE.ANS by Capn Pugwash (adfa1193); released in adfa1193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 30-53
 # Columns: 1-80
 
@@ -29,7 +29,7 @@ Write-Host '
 [1;37;47m█ [0;1;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;37;47m█[0m
 [1;37;47m█ [0;1;30;40m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;30;47m [0;1;37;47m█[0m
 [1;37;47m█ [0;1;30;40m█[0;30m█[0;35m███████████[0;35;45m               [0;1;35;45m· [0;1;30;45mT[0;32;45mh[0;1;32;45me [0;1;37;45mWasted L[0;1;32;45man[0;32;45md[0;1;30;45ms [0;1;35;45m·               [0;35m███████████ [0;1;30m█[0;1;30;47m [0;1;37;47m█[0m
-[1;37;47m█ [0;1;30;40m█[0;30m█[0;35m████[0;35;45m      [0;1;35;45m· [0;30;45mSysOp''s [0;1;35;45m· [0;30;45mThe UnderTaker, Fubar [0;1;35;45m· [0;30;45m+61-7-353-1621 [0;1;35;45m·       [0;35m███ [0;1;30m█[0;1;30;47m [0;1;37;47m█[0m
+[1;37;47m█ [0;1;30;40m█[0;30m█[0;35m████[0;35;45m      [0;1;35;45m  [0;30;45m        [0;1;35;45m  [0;30;45m                      [0;1;35;45m  [0;30;45m               [0;1;35;45m        [0;35m███ [0;1;30m█[0;1;30;47m [0;1;37;47m█[0m
 [1;37;47m█ [0;1;30;40m█[0;30m█[0;35m██[0;35;45m [0;1;35;45m  [0;30;45m                                 [0;1;35;45m  [0;30;45m     [0;1;35;45m  [0;30;45m               ┤  ├  [0;1;35;45m  [0;35m██ [0;1;30m█[0;1;30;47m [0;1;37;47m█[0m
 [1;37;47m█ [0;1;30;40m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;30;47m [0;1;37;47m█[0m
 [1;37;47m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

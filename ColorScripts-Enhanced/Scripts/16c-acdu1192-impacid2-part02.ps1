@@ -5,7 +5,7 @@
 # Source SHA-256: f2e750aa39aacde65fc6d8edb312b53ad7c1845e8bc5b9a053dcbbc873ceadff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IMPACID2.ANS by Sonic (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 29-54
 # Columns: 1-80
 
@@ -31,8 +31,7 @@ Write-Host '
            [1;33;40m█▀▀▀▀▀[0m                                   [1;33;40m▀▀▀▀▀[0m
 
        [35m [0;1;35m    [0;35m [0;1;30m [0;33m [0;1;33m       [0;33m [0;1;30m [0;33m [0;1;33m       [0;33m  [0;1;30m■ [0;35m [0;1;35m      [0;1;30m [0;33m [0;1;33m   [0;33m  [0;1;30m■ [0;35m  [0;1;35m    [0;35m  [0;1;30m■ [0;35m [0;1;35m      [0;35m [0m
-              [35mH[0;1;35mST Nod[0;35me[0;1;30m·[0;33m8[0;1;33m18[0;33m.[0;1;33m241[0;33m.[0;1;33m458[0;33m2 [0;1;30m■ [0;35mv[0;1;35m32 Nod[0;35me[0;1;30m·[0;33m8[0;1;33m18[0;33m.[0;1;33m241[0;33m.[0;1;33m564[0;33m3[0m
+              [35m [0;1;35m      [0;35m [0;1;30m [0;33m [0;1;33m  [0;33m [0;1;33m   [0;33m [0;1;33m   [0;33m  [0;1;30m■ [0;35m [0;1;35m      [0;35m [0;1;30m [0;33m [0;1;33m  [0;33m [0;1;33m   [0;33m [0;1;33m   [0;33m [0m
 [33m    [0;35m [0;1;35m   [0;35m  [0;1;30m■ [0;35m [0;1;35m                          [0;35m  [0;1;30m■ [0;35m [0;1;35m                           [0;35m [0m
 
-                               [35m [0;1;35m  [0;35m [0;1;30m [0;33m [0;1;33m   [0;33m [0;1;30m  [0m  [1m [0m [1;30m [0m
-[30m█[0m'
+[35m[0;1;35m[0;35m[0;1;30m[0;33m[0;1;33m[0;33m[0;1;30m[0m[1m[0m[1;30m[0m[30m█[0m'

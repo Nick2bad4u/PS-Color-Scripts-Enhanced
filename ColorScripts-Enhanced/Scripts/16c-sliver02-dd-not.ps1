@@ -5,7 +5,7 @@
 # Source SHA-256: 3e3f0a37e1e829b362eb4dd706aef698d2e22596cec9b2280a00f724871d161a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-NOT.ANS by dadrip (sliver); released in sliver02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: nOthing EMAG!
 # SAUCE Author: dadrip
 # SAUCE Group: sliver
@@ -15,9 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                      
                   me
-                        
                                      [1;31m▄▄[0;33m██    [0;37m             [0m
                            [1;33m▄███▀▄    [0;1;37m▄[0;1;31m▀█[0;33m██  [0;37m/i like it up[0m
                          [1;33m▄▀[0;1;37m▄ [0;1;31m█[0;1;33m█▀█    [0;1;37m▄▀[0;1;31m██[0;33m██  [0;37m           [0m

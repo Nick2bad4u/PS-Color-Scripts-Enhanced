@@ -5,7 +5,7 @@
 # Source SHA-256: 54a292316fee5ca46e5a1219ebe8b2b95dc3ec16014e98eced59d0df91268cd5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-ENT.ANS by Pariah (ACID(remorse1981)); released in rmrs-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Entrophy
 # SAUCE Author: Pariah
 # SAUCE Group: ACID(remorse1981)
@@ -19,8 +19,7 @@ Write-Host '
 
               [1;36m            [0m
    [34m  [0m        [1;36m                      [0m
-[1m        [0m  [1;36m         [0m       [1;36m                        [0m [1m          [0;1;36m        [0m [1m          [0m
-[33m                                     [0;1;36m            [0;33m                               [0m
+[1m[0m[1;36m[0m[1;36m[0m[1m[0;1;36m[0m[1m[0m[33m                                     [0;1;36m            [0;33m                               [0m
 [33m   [0m             [1;31m______[0;31m__[0;1;31m_________[0;31m__[0m     [1;36m      [0m        [31m`7ç[0;1;31myyy[0;31myy[0m              [33m    [0m
 [31m  [0;33m [0;1;31m   [0m  [31m_,[0;1;31m╥g#8ÑÑ$$$$$$$$$$$$$$$$$$[0;31m$[0;37m [0;31m_,[0;1;31mg@5Ñ$$Ñ5@g[0;31m,_[0;37m  [0;31m_[0;1;31m__[0;31m$[0;1;31m$$$$$[0;31m$____[0;1;31m   [0;31m__[0;1;31m     [0;31m_[0;1;31m [0;33m  [0m
 [33m    [0;1;31m  [0m [31mÇ$[0;1;31m$$$$$$$$$$$$$$$~~[0;31m""$[0;1;31m$$$$$$[0;31my[0;1;31m$$$$$$$$$$$$$$[0;31mb,`7[0;1;31m$$$$$$$$$$$[0;31m$[0;1;31m   $$ [0;31m  [0;1;31m  $ [0;33m  [0m

@@ -5,14 +5,13 @@
 # Source SHA-256: 05aab1ee8141e7e79f944ac2a8d0656badb6f63cd2e7b83d92c840e2d915b640
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-SPEED.ANS by Mortify (basic-05); released in basic-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
 Write-Host '
 
-          [33m            [0m
-
+[33m[0m
 [34m    [0m               [34m  [0;1;34m [0;34m ╦[0;1;34m        [0m               [34m    [0;1;34m      [0;34m [0;1;34m   [0m
       [34m          [0;1;34m [0;34m    [0;1;34m [0;34m ╩   [0;1;34m  [0;34m  [0;1;34m [0;1;37m [0;1;36m [0m [33m          [0;37m  [0;34m   [0;1;34m  [0;34m      ╩ [0;1;37m [0;1;36m [0;34m [0m
     [34m d[0;1;34m$$Pⁿ"``"ⁿ[0;34m$[0;1;34m$[0;34m$lll[0;1;34m$[0;34ml[0m       [34m:[0;1;34m$$[0;1;37ml[0;34m ┬g[0;1;34mggggg╦╦[0;34m$[0;1;34m$[0;1;37m$[0;1;36m;[0;34m l[0;1;34m$[0;34m$  [0;33m  [0;34m   l[0;1;34m$[0;1;37m$[0;34m;[0m

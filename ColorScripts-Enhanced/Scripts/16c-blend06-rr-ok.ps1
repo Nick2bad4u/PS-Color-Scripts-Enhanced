@@ -5,7 +5,7 @@
 # Source SHA-256: 55338929ff56637d57bc4b63ff52e1c073654cfaa1ed0a390c3e99391d07b1fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-OK.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: organized kaos
 # SAUCE Author: riddler
 # SAUCE Group: blend productions
@@ -25,7 +25,7 @@ Write-Host '
 [30;46m█[0;36;40m [0;1;37;40m█[0;1;36;46m█▀[0;36m█▀▄[0;37m      ░[0;1;37;47m▒█▄████[0;1;37;40m███[0;1;37;47m▄[0;1;37;40m█[0;1;37;47m▓ [0m░        [36m██[0;1;36;46m█[0;1;36;40m█[0;1;37;40m█[0;36m  [0m   [1;37mwant to have your own riddler[0m
 [30;46m░[0;36;40m▌▄▀████[0;30;46m░█[0;37;40m     ░[0;1;37;47m▒█[0;1;37;40m█▀▀▀▀[0;1;37;41m▓[0;1;37;40m██[0;1;37;47m▀[0m▀         [36m░█[0;1;36;46m▀█▀▓░[0;36m▄[0m   [1;37mansi[0m/[1mascii[0m?[1m send your mail to[0m
 [30;46m [0;36;40m▌███████[0;30;46m▓█[0;37;40m  [0;1;30;40m▄[0m   ▀[1;47m▀▄[0;1;40m▄▄[0;1;47m█▀[0;1;40m▀[0m▀ [1;30m▄▀[0m      [36m ▌██[0;1;36;46m░▌[0;36m██[0;1;36;46m [0;36m█▌[0m
-[36m██████████▌▄[0;37m  [0;1;30m▀[0m [36m  [0;37m ▀[0;1;37m▀[0m▀░▄[1m▄[0;1;47m▄[0m▌ [36m   [0;37m   [0;30;46m█░[0;36;40m████[0;1;36;46m▌[0;36m███▄[0m     [1;37mriddler[0m@[1mventure[0m.[1mfipnet[0m.[1mfi[0m
+[36m██████████▌▄[0;37m  [0;1;30m▀[0m [36m  [0;37m ▀[0;1;37m▀[0m▀░▄[1m▄[0;1;47m▄[0m▌ [36m   [0;37m   [0;30;46m█░[0;36;40m████[0;1;36;46m▌[0;36m███▄[0m     [1;37m       [0m [1m       [0m [1m      [0m [1m  [0m
 [36m█████████[0;1;36;46m█▄▄[0;36m▌[0;37m [0;36m  [0;37m [0;36m [0;37m ▐[0;1;37;47m▓[0;1;37;40m█▌███[0;1;37;47m▄[0;1;37;40m▄[0m▄  [36m  [0;37m [0;36m▐█[0;30;46m rr[0;36;40m████▀ [0;37;40m  [0;1;37;40m [0m
 [30;46m░░[0;36;40m██▀██[0;1;36;46m░▓█▀[0;36m▀[0;37m   ▄[0;1;37m▄▄[0;1;37;47m▄[0;1;37;40m██████████[0;30;47m░[0;37;40m▄▌[0;1;37;40m▄[0m▄ [36m▀▀████▀  ▄[0m   [1;37m [0m  [1m  [0m [1monly money[0m/[1mtrade[0m.
 [36m████▌ ▀█▀▀[0;37m ▄▐[0;1;37;47m▄[0;1;37;40m█████████████████████[0;1;37;47m▄[0;1;37;40m▄[0m▄ [36m▀▄[0;1;36;46m▄█░[0;36m█[0m

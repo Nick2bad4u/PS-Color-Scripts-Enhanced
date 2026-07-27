@@ -5,7 +5,7 @@
 # Source SHA-256: 3072d4b404472dc72ec6556270d39e0fff1cb2f18d915009e9c5f45208fb4e7a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BB-FLOP1.ANS by scribble (apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: flOp!
 # SAUCE Author: scribble
 # SAUCE Group: apathy
@@ -16,9 +16,7 @@
 
 Write-Host '
 
-[33m [0m                      [33m                                   [0m
-                           [33m        [0m
-        [31m▄▄▄▄▄█[0;1;31;41m▄▄▄▄▄▄▄[0;31m██▄▄▄[0m        [31m▄▄▄▄▄█[0;1;31;41m▄▄▄▄▄▄▄[0;31m██▄▄▄█▄[0m     [31m▄▄▓[0;1;31;41m ▄▄▄▄▄▄▄[0;31m█▓▄▄▄[0m
+[33m[0m[33m[0m[33m[0m        [31m▄▄▄▄▄█[0;1;31;41m▄▄▄▄▄▄▄[0;31m██▄▄▄[0m        [31m▄▄▄▄▄█[0;1;31;41m▄▄▄▄▄▄▄[0;31m██▄▄▄█▄[0m     [31m▄▄▓[0;1;31;41m ▄▄▄▄▄▄▄[0;31m█▓▄▄▄[0m
      [31m▐[0;1;31;41m▄▄▄[0;1;31;40m██████▀▀[0;1;31;41m▀[0;1;31;47m▄[0;1;31;45m██[0;1;31;40m█[0;1;31;47m▀▀[0;1;31;41m▀[0;31m██[0;1;31;41m▀[0;1;31;40m▄▄▄  [0;31m█[0;1;31;41m░▄[0;1;31;40m██[0;1;31;47m▄███[0;1;31;40m▀▀▀██[0;1;31;47m▀▀▀▀█[0;31m█▄[0;1;31;41m ▄▄▄▄▄▄[0;1;31;40m███▀▀▀███[0;1;31;47m▀▀ [0;1;31;41m▄[0;31m█[0m
      [31m▄[0;1;31;41m [0;1;31;40m███████[0;31m▌[0;1;31m   [0;1;31;41m [0;1;31;40m█▀▀█[0;1;33;47m░[0;1;31;47m▄[0;31m█[0;1;31m████[0;1;31;47m▄ [0;1;31;40m▀[0;1;31;41m ▓[0;1;31;40m██▀███     █▀▀█[0;1;31;47m▄ [0;1;31;40m█[0;31m█▐█[0;1;31m████[0;1;31;47m▄ [0;1;31;40m█    [0;31m▐[0;1;31m█▀▀█[0;1;31;47m▄█[0;1;31;41m [0;31m▌[0m
 [1;31m  [0;31m░[0;1;31m  [0;31m█[0;1;31;41m▀[0;1;31;40m███▀ ██[0;31m░ [0;1;31m  [0;31m▐[0;1;31;41m▐[0;1;31;40m██[0;1;31;41m▀[0;1;31;40m██▌[0;1;31;41m▐[0;1;31;40m█[0;1;31;41m▄ [0;1;31;40m██ [0;1;31;41m [0;1;31;40m█████▀█[0m     [1;31;41m [0;1;31;40m██▀█[0;1;31;47m▄[0;1;31;40m█[0;31m█[0;1;31m ▀█████[0;1;31;47m▀[0;1;31;40m█[0m    [31m█[0;1;31m████[0;1;31;47m▄[0;1;31;40m█[0;1;31;41m▌[0;31m▌[0m

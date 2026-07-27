@@ -5,7 +5,7 @@
 # Source SHA-256: 7992de3050280cc2892d145fb99c2ffb4e1c15e6b4b3dd81d66980dcc2375606
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 4T-MAIDN.ANS by mr.4tune (phat/sargahd/bpr); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: maiden logo
 # SAUCE Author: mr.4tune
 # SAUCE Group: phat/sargahd/bpr
@@ -34,7 +34,5 @@ Write-Host '
                                   [37m  ░[0;30;47m▓[0;1;30;40m       [0m        [1;30m [0m
 [1;30m;----[0m       [1;30m        [0m
                               [1;30m    [0m
-[1;30m                                                         [0m
-[1;30m                             [0m
-
+[1;30m[0m[1;30m[0m
 [1;30m            [0m  [1;30m     ► ► ►   [0m                   [0m'

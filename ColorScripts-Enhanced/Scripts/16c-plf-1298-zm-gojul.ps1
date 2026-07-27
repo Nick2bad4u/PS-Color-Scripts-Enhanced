@@ -5,7 +5,7 @@
 # Source SHA-256: 732ee1f138b7b280a046fcb9a71a78e9b8ebc710756c47a48209dd1333cbb696
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZM-GOJUL.ANS by zatchmo (poffelipoff); released in plf-1298 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: god jul
 # SAUCE Author: zatchmo
 # SAUCE Group: poffelipoff
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                          [1m                              [0m
-
+[1m[0m
          [35m██▀▀▀▀▀[0;37m [0;35m▀▀▀▀[0m   [35m▀▀[0m                           [1;35m░░[0;35m▀▀[0m   [35m▀▀▀▀[0;37m [0;35m▀▀▀▀▀██[0m
          [35m▓[0;30;45m░[0;37;40m [0;31;40m█[0;1;31;41m░░░░[0;31m███[0;1;31;41m▀[0;31m█[0;1;31;41m██[0;1;31;47m▄▓▓[0;1;31;41m█▀▀[0;31m██▀▀▀▀[0m     [1;35m░ [0m   [31m▀▀▀▀█[0;1;31;41m▀█[0;1;31;47m▓▓▄[0;1;31;41m██[0;31m█[0;1;31;41m▀[0;31m█████████[0;37m [0;35m▓[0;30;45m░[0m
          [35;40m▒[0;30;45m▒[0;37;40m [0;31;40m▓▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓▓▀▀▀[0m   [35;40m,.[0;37;40m [0;1;35;40m░[0m    [35m,.[0;37m  [0;35m.[0m       [31m ▀▀▀▓▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓▓▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;37;40m [0;35;40m▒[0;30;45m▒[0m

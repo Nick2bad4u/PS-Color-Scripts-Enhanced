@@ -5,7 +5,7 @@
 # Source SHA-256: d6841c410ddb3081b107137080e1bf58d3ee23a567abd99d2a88ea27c5ae0946
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPC!-BD.ANS by spice (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: go!#6: brain damage
 # SAUCE Author: spice
 # SAUCE Group: Phat Studios '97
@@ -40,5 +40,4 @@ Write-Host '
 ░[30;47m░[0;1;37;47m░▓████▄▄▄▄█████▀[0m▀[1;31m▄[0;1;31;41m░[0;31m█▀[0;37m  [0;36m░[0;37m [0;36m░[0;30;46m▓▒░[0;36;40m▓[0;1;36;46m░▓█[0;1;37;46m██[0;1;36;46m█▓░[0;36m█▄█[0;1;36;46m▀▀░░[0;36m▀[0;1;36m▄[0;36m▄[0;37m [0;1;36m▀[0;36m░[0;37m [0;36m▄[0;37m    [0m   [37m            [0;36m░░[0;37m [0;36m▄[0;1;36;46m▄▓[0m
 
 [1;30m▼▼[0m
-[1;30m                                                                              [0m
-[1;30m:([0m'
+[1;30m[0m[1;30m:([0m'

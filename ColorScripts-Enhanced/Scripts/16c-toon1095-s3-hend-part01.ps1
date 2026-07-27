@@ -5,7 +5,7 @@
 # Source SHA-256: 404ce75e5ad40fcb93e3a439cb1813cb13e9e8dc6f70a7ae7c3f497ee96294b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S3-HEND.ANS by shamanize (tOOn); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: henderix ad.
 # SAUCE Author: shamanize
 # SAUCE Group: tOOn
@@ -28,13 +28,8 @@ Write-Host '
       [1;34m▓[0;1;34;44m▓▒▓[0;1;34;40m█[0;1;34;44m▓[0m [1;34;44m▓▒▓[0;1;34;40m▓[0;1;34;44m▓▒[0m   [1;34;40m▓ ▀[0;1;34;44m▓▓[0;1;34;40m█[0;1;34;44m▓▒[0;1;34;40m▄▄▄▀ [0;1;34;44m▒░▒▓[0;1;34;40m▓[0;1;34;44m▓[0m  [1;34;44m▓[0m     [35m█▄▀[0;1;30;45m▒░[0;35m██[0;35;46m▓[0;35;40m▓▄▄ [0;1;37;40m▀▀ ▀▀[0;35m▄▄[0;1;30;45m░▒▒▓▓▓[0;1;30;40m▀[0;35m▄█[0m
               [1;34m▀▀▀▀▀▀▀▀[0m             [1;34m▀▀▀▀▀▀[0m      [1;30m▄[0;35m█[0;35;47m▓▓[0;35;40m▄  ▀[0;35;47m▓[0;35;40m▀[0;1;30;45m▒░[0;35m██▓▄▄[0;1;30;45m▒▒▓▓▓[0;1;30;40m▀▀▀  [0;35m▄[0;35;47m▓▓[0;35;40m█[0;1;30;40m▄[0m
       [1;30m                                          ▀▀[0;35m▀[0m          [35m▀[0;1;30m▀▀▀[0m          [35m▀[0;1;30m▀▀[0m
-      [1;30m                                                                   [0m
-      [1;30m                                                                      [0m
-      [1;30m                                                                   [0m
-      [1;30m                                                     [0m
-
-                                [1;30m         [0m
-[34m▓■▀ [0;1;30;45m░▒▓[0;1;30;40m█▀▓ ▓[0;1;30;45m▓▒░▒[0m [1;30m▓ ▀▀▀[0;1;30;45m▓▒░▒[0m [1;30;45m░▒▓[0;1;30;40m▓▄ ▄[0;1;30;45m▒▓[0;1;30;40m▓ ▀▀▀ ▀[0;1;30;45m▓[0;1;30;40m▀ ▀[0;1;30;45m▓▒░[0;1;30;40m▄ █[0;1;30;45m▓▒░[0m [1;30m▓[0;1;30;45m▓▒░[0m [1;30;47m▓[0;1;30;40m▓██[0;1;30;45m▓▒░[0;1;30;40m▀ [0;1;30;45m░▒▓[0;1;30;47m▓[0;1;30;40m▀▀ [0;34m▓■[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[34m▓■▀ [0;1;30;45m░▒▓[0;1;30;40m█▀▓ ▓[0;1;30;45m▓▒░▒[0m [1;30m▓ ▀▀▀[0;1;30;45m▓▒░▒[0m [1;30;45m░▒▓[0;1;30;40m▓▄ ▄[0;1;30;45m▒▓[0;1;30;40m▓ ▀▀▀ ▀[0;1;30;45m▓[0;1;30;40m▀ ▀[0;1;30;45m▓▒░[0;1;30;40m▄ █[0;1;30;45m▓▒░[0m [1;30m▓[0;1;30;45m▓▒░[0m [1;30;47m▓[0;1;30;40m▓██[0;1;30;45m▓▒░[0;1;30;40m▀ [0;1;30;45m░▒▓[0;1;30;47m▓[0;1;30;40m▀▀ [0;34m▓■[0m
 [31m■▄■ [0;1;30;45m▒▓[0;1;30;40m█[0;1;30;47m▓[0m   [1;30;47m▓[0;1;30;40m█[0;1;30;45m▓▒▓[0m [1;30;47m▓[0m    [1;30;40m▓[0;1;30;45m▓▒▓[0m [1;30;45m▒[0;1;30;40m▀ ▀ [0;1;30;47m▓[0m [1;30;45m▓[0;1;30;40m▀[0m     [34m█▄ ▄ ▄ [0;1;30m▀[0;1;30;45m▒[0m [1;30m▀▓█[0;1;30;45m▓▒[0m [1;30m▄▄▄▄    ▄▀ [0;31m▄■ [0;1;30;45m▒▓[0;1;30;40m█▓ [0;31m■▄▄■[0m
 [31m███ [0;1;30m▀▀▀▀▀[0;1;30;47m▓[0m [1;30m▀ ▀[0;1;30;45m▓[0;1;30;40m▀▀  ▀▀▀[0;1;30;47m▓[0;1;30;40m▀[0;1;30;45m▓[0;1;30;40m▀  [0;34m▄[0;1;34;44m░[0;34m▄    ▄[0;1;34;44m░[0m [34m█▀▀[0;1;34;44m░[0;34m█▓▓ [0;1;34;44m░[0;34m█▄   [0;1;30m▀ ▀[0;1;30;45m▓[0m [1;30m▀ ▀[0;1;30;45m▒[0m  [1;30m▄▀ [0;31m▄███ [0;1;30;45m▓[0;1;30;40m▀ ▀▀ [0;31m███[0m
 [31m███ [0;1;34;44m▒░[0;34m▄ [0;1;30m▀  [0;34m▄[0;1;34;44m░[0;34m▄ ▄ [0;1;34;44m░[0m [34m▄   ▄ ▄ ▓[0;1;34;44m░▒░[0m   [34m▓[0;1;34;44m░▒[0m [34m█  [0;1;34;44m▒░[0;34m█▓ [0;1;34;44m▒░[0;34m█▓  ▄[0;1;34;44m░[0;34m▄  ▄[0;1;34;44m░[0;34m▄  [0;1;30m▀  [0;31m▀▀▓▀▀  [0;34m▄[0;1;34;44m▒[0;34m▄ [0;31m████[0m

@@ -5,14 +5,12 @@
 # Source SHA-256: 8ddac221504aa46c68ab083a158d1e2d32004a22f9a64bd3542d62a7f27d1e29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-indy.ans by Metal Militia (mimic38); released in mimic38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-                          [1;30m     [0m                [1;30m                              [0m
-                 [1;30m     [0m [31m  [0;37m [0;1;30m     [0m                    [1;30m                         [0m
-           [1;30m    [0m  [1;30m   └└[0m [31m [0;1;31m [0;31m  [0;1;30m    [0m                  [1;30m                            [0m
+[1;30m[0m[1;30m[0m[1;30m[0m[31m[0;37m[0;1;30m[0m[1;30m[0m           [1;30m    [0m  [1;30m   └└[0m [31m [0;1;31m [0;31m  [0;1;30m    [0m                  [1;30m                            [0m
            [1;30ml;;;[0m   [31m___$[0;1;31m$$$$$[0;31mb.[0;1;30m''└[0;31m  [0m             [31m┌-,,__[0m
            [1;30mll[0m     [31m$[0;1;31m$$$$$$$[0;31m$$$$$$ [0m             [31m|[0m    [31m$$$l*┌,_[0m
 [31m,,,[0;1;31m,[0m       [1;30mll,,,┌\[0;1;31m ,d│\└''''[0m         [34m,[0;1;34m*8[0;34m88*.[0m    [31m [0m    [31m$$$$$$$│$b,[0m
@@ -32,5 +30,4 @@ Write-Host '
                           [1;31m''7$$b,[0;1;30ml[0m [34m$$Q$$[0;1;34m$$$[0;34m$$$$$│[0m            [1;31ml$$$[0;31m$/ [0;37m [0;1;30m7[0m
 [34m     [0;1;34m         [0;34m       [0m       [1;31m   [0m   [34m││││          [0m            [1;31m    [0;31m   [0m
 [37m [0;1;34m        [0;34m [0;1;34m         [0;34m    [0m                               [31m│[0;1;31m     [0;31m│[0;1;31m  [0;31m   [0m
-[37m [0;1;34m      [0;34m [0;1;34m         [0;34m    [0m                           [1;31m             [0;31m    [0;37m [0;1;30m        [0m
-                                                [1;31mÑÑÑÑÑÑ[0;31m²[0;1;31m╩╩╩[0;31m╩╩╩╩²''[0m'
+[37m[0;1;34m[0;34m[0;1;34m[0;34m[0m[1;31m[0;31m[0;37m[0;1;30m[0m                                                [1;31mÑÑÑÑÑÑ[0;31m²[0;1;31m╩╩╩[0;31m╩╩╩╩²''[0m'

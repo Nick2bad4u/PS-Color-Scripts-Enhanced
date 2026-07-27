@@ -5,7 +5,7 @@
 # Source SHA-256: 66087d2d6469d9aa37de7746902371424c192a1b36fbded763b2a9b1e17d51b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-CC.ANS by Superfly (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 44-86
 # Columns: 1-80
 
@@ -46,7 +46,7 @@ Write-Host '
 
                       [1;30;40m──[0m──[1m── [0;1;32mC[0;32mh[0;1;30mronic Control B[0;32mB[0;1;32mS [0;1;37m──[0m──[1;30m──[0m
 
-                          [1;30m──[0m──[1m── [0;1;32m8[0;32m1[0;1;30m5-398-90[0;32m3[0;1;32m0 [0;1;37m──[0m──[1;30m──[0m
+                          [1;30m──[0m──[1m── [0;1;32m [0;32m [0;1;30m        [0;32m [0;1;32m  [0;1;37m──[0m──[1;30m──[0m
 
          [1;30m──[0m──[1m── [0;1;32m [0;32m [0;1;32m   [0;1;30m        [0;32m [0;1;32m  [0;1;30m  [0;1;32m [0;32m [0;1;30m              [0;32m [0;1;32m  [0;1;30m  [0;1;32m [0;32m [0;1;30m       [0;32m [0;1;32m  [0;1;37m──[0m──[1;30m──[0m
 

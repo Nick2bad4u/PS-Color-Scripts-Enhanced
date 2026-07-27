@@ -5,7 +5,7 @@
 # Source SHA-256: 49f01f341a17027b3ba6ed53c5c63da242dc31d48b7a56f5c5ecdf7bb960db94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-LD.ICE by Stone The Crow (ice-9410); released in ice-9410 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 96-140
 # Columns: 1-80
 
@@ -49,7 +49,7 @@ Write-Host '
    [1;30;46m▓[0m [1;30;40m▓▄▄▄ ▀▀▀▀▀▀▀▀[0m                                            [1;30;40m▀▀▀▀▀▀▀▀ ▄▄▄▓[0m [1;30;46m▓[0m
    [1;30;40m▓▄▀▀[0m             [1m            [0m [1m [0;1;36m [0;1;37m [0m      [1m   [0m [1m [0;1;36m [0;1;37m [0m [1;37m  [0m [1m    [0m                [1;30m▀▀▄[0;36m▒[0m
    [1;30m▒▄▄▓[0m                                                                  [1;30m▓▄▄▓[0m
-    [1;30m▓[0m [1;30m▒[0m                 [36m6  1  2    6  3  6    4  6  1  6[0m                 [1;30m▒[0;36m [0;1;30m▒[0m
+    [1;30m▓[0m [1;30m▒[0m                 [36m                                [0m                 [1;30m▒[0;36m [0;1;30m▒[0m
     [1;30m▒[0m [1;30m░[0m                                                                  [1;30m [0m [1;30m▒[0m
     [1;30m▒[0m                                                                    [1;30m░[0m [1;30m░[0m
     [1;30m░[0m [1;30m [0m                                                                    [1;30m░[0m'

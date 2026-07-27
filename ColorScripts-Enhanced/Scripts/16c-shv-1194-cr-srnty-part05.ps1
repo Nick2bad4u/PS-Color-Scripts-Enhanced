@@ -5,7 +5,7 @@
 # Source SHA-256: c41726b028076bebb40e33ab1be7f110f0d4d8c4a5df72de0f60602381327214
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-SRNTY.ANS by Crimson Ryder (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Serenity
 # SAUCE Author: Crimson Ryder
 # SAUCE Group: Shiver
@@ -48,7 +48,7 @@ Write-Host '
             [31m█[0m          [1;30m                            [0m      [1;30m▒[0m
                         [1;30m       [0m [1;30m                      [0m   [1;30m░[0m
                     [33m░[0m                                                [31m [0m
-                    [33m░[0m    [1;30m  [ 2 o 4 ] 7 7 4 - 2 3 2 6[0m            [31m░[0m   [31m [0m         [1;30m░[0m
+                    [33m░[0m    [1;30m                           [0m            [31m░[0m   [31m [0m         [1;30m░[0m
           [1;30m░[0m         [33m▒[0m  [1;30m             ■                  [0;31m░[0;1;30m  [0m      [31m▒[0m   [31m [0m         [1;30m▒[0m
           [1;30m▒[0m         [33m▒[0m [1;30m  ■[0m [1;30mSHiVER  Central Canadian HQ[0m [1;30m■[0;31m▒[0;1;30m [0;33m░[0m      [31m▓[0m   [31m [0m         [1;30m▓[0m
           [1;30m▓[0m         [33m▓[0m   [1;30m                              [0m [31m▓[0m [33m▒[0m [33m     [0;31m█[0;33m           [0m  [1;30m█[0m

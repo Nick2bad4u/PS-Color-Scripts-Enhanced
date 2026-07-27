@@ -5,7 +5,7 @@
 # Source SHA-256: 329fceccf202ca2a6fdc9e6e5373d935ad03e7d77d330c735108257316006728
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FI-SS1.ANS by Forbidden Image (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Suicidal Shrimp
 # SAUCE Author: Forbidden Image
 # SAUCE Group: ACiD Productions
@@ -39,8 +39,4 @@ Write-Host '
                  [31m▓ ░ [0;1;31;41m░[0m  [31m░[0;1;31;41m░[0m [1;31;41m░░[0;31m▄ █▒   ▀▀▄  [0;31;41m [0;31;40m░ ▒░  ▓ [0;1;31;41m░[0m [31m▀[0;1;31;41m░[0m [31m▄▄▐[0;1;31;41m░[0;31m▌ ▒[0m
                  [31m▒   ▓    ▀▒░  ▓░   ▀[0;1;31;41m░[0;31m▀  ▓  ░   ▒ ▓  ░ ▐▀▀▀▓ ░[0m
                  [31m░   ▒[0m     [31m░   ▒[0m         [31m▒[0m      [31m░ ▒[0m        [31m▒[0m
-                     [31m░[0m         [31m░[0m         [31m░[0m        [31m░[0m        [31m░[0m
-
-  [31mN[0m   [31mO[0m   [31mD[0m   [31mE[0m    [31m1[0m  [31m:[0m  [31m5   [0m [31m1   [0m [31m4[0m   [31m-[0m   [31m7[0m    [31m6[0m    [31m8[0m   [31m-[0m   [31m3[0m    [31m3[0m    [31m8[0m    [31m3[0m
-
-  [31mN[0m  [31m O[0m  [31m D[0m  [31m E[0m [31m   2 [0m [31m:[0m  [31m5[0m    [31m1[0m    [31m4[0m   [31m-[0m   [31m7[0m    [31m6[0m    [31m8[0m   [31m-[0m   [31m2[0m    [31m9[0m    [31m6[0m    [31m7[0m'
+                     [31m░[0m         [31m░[0m         [31m░[0m        [31m░[0m        [31m░[0m'

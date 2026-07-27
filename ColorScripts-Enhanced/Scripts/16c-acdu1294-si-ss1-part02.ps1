@@ -5,7 +5,7 @@
 # Source SHA-256: 4c4a7c1d04d132154ea189d0bcaebe75fe4c2f42b65ea2116cbcae8bf3e083ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-SS1.ANS by Spirit of Illusion (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Suicidal Shrimp
 # SAUCE Author: Spirit of Illusion
 # SAUCE Group: ACiD Productions
@@ -62,6 +62,6 @@ Write-Host '
                                    [1;30m▒ ▀▀▀ ░ ▀████▄[0m▄ [1;30m▀█▀████▄[0m▓ [1;30m▀▒▀▀░ [0;30m█▀█ ▄[0m
 [30m  [0;37msys[0;1;30m: [0mred leader [1;30m[[0macid[1;30m][0m        [1;30m▀    ▀ ▀▀▒▀ ▐▄▄█▄▌[0m░ [1;30m▄ ▐█[0;1;30;47m▓[0;1;30;40m█▐[0;1;30;47m▌[0m▌[1;30m▀▀█   [0;30m▀ ▀ ▀[0m
        [37mdeeply disturbed [0;1;30m[[0macid[1;30m][0m     [1;30m▓    ▄▓▄▄████▀[0m■[1;30m▄▄▄▄████[0;1;30;47m▀[0m▒   [1;30m▀ ▒[0m
-[1;30m   [ [0m5 1 4 [1;30m] [0;1;37m7 6 8 [0m- [1m3 3 8 3[0m       [1;30m▀▀▀▒▀▀█[0;1;30;47m▓[0;1;30;40m██▀▀[0m▓▀[1;30m▄█▄▄▓█▀▀[0m░  [1;30m▄▄▄▓ █[0m
+[1;30m     [0m      [1;30m  [0;1;37m      [0m  [1m       [0m       [1;30m▀▀▀▒▀▀█[0;1;30;47m▓[0;1;30;40m██▀▀[0m▓▀[1;30m▄█▄▄▓█▀▀[0m░  [1;30m▄▄▄▓ █[0m
                                     [1;30m▀▀▀[0m            [1;30m▀■▄  ▀  ▄▓▄[0m
      [1;30m        [0m                [1;30m      [0m                  [1;30m            ▀   [0m         [1;30m [0m'

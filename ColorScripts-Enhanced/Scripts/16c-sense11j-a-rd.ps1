@@ -5,7 +5,7 @@
 # Source SHA-256: 9b5b2b0c3c24c6d07ae6abd9de18f4df5e7dd915073c763b60038ee23b628fdc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _A-RD.ANS by Absent Spinsister (sense11j); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Group: .
 # SAUCE Date: 20021203
 # SAUCE Dimensions: 80x17
@@ -18,8 +18,7 @@ Write-Host '
                       [36m\[0m                           [36m$[0;1;36m$[0;36m$[0;33m$[0;1;31m$$$QQ[0;33mQp,._[0m
     [33m [0m                                             [36m$[0;1;36m$[0;36m$[0;33m$[0;1;31m$[0;36m$''[0;1;31m''''''[0;33m└4$[0;1;31m$[0;33ml[0m
 [37m  [0;33m:[0;1;31m:[0;33m:[0m                                [36m____[0m         [36m$[0;1;36m$[0;36m$[0;33m$[0;1;31m$[0;33m$ [0m     [33m''''''[0m
-[37m  [0;33m [0;1;31m [0;33m [0m                          [36m    [0;1;36m               [0;36m [0;1;36m [0;36m [0;33m [0;1;31m [0;33m [0m
-[37m  [0;33m$[0;1;31m$[0;33mb[0;1;36m [0;36m [0m       [33mQp▬,._[0;37m [0;1;37m   [0;36m_.,gQ[0;1;36mQ$$$$$$$$$[0;36m$`''"[0;1;36m"""[0;36m""''`$[0;1;36m$[0;36m$[0;33m$[0;1;31m$[0;33m$:[0m     [1;30m░░[0m
+[37m[0;33m[0;1;31m[0;33m[0m[36m[0;1;36m[0;36m[0;1;36m[0;36m[0;33m[0;1;31m[0;33m[0m[37m  [0;33m$[0;1;31m$[0;33mb[0;1;36m [0;36m [0m       [33mQp▬,._[0;37m [0;1;37m   [0;36m_.,gQ[0;1;36mQ$$$$$$$$$[0;36m$`''"[0;1;36m"""[0;36m""''`$[0;1;36m$[0;36m$[0;33m$[0;1;31m$[0;33m$:[0m     [1;30m░░[0m
   [33m$[0;1;31m$$[0;33m$$[0m       [33m$[0;1;31m$$$$$$$$$$$$[0;36m$7┘''''4[0;1;36m$$[0;1;37m$$[0;1;36m$$[0;36m$ [0m         [36m$[0;1;36m$[0;36m$[0;33m$[0;1;31m$$[0;33ml[0m
 [37m  [0;33m$[0;1;31m$$$[0;33m$___[0m    [33m''[0;1;31m''[0;33m''[0;37m   [0;36m [0;33m''''4$[0;1;31m$$[0;36m$[0m    [36m:$[0;1;36m$$$$$[0;36m$ [0;1;36m  [0;36m [0;1;36m [0m     [36m$[0;1;36m$[0;36m$[0;33m$[0;1;31m$$[0;33mQp▬,[0;36m.[0m
 [37m  [0;33m$[0;1;31m$$$$$$[0;33m$[0m              [33m$[0;1;31m$$[0;36m$[0m     [36m`[0;1;36m''''''[0;36ml[0;1;36m$[0;36m$ [0m         [36m$[0;1;36m$[0;36m$[0;33m$[0;1;31m$$$$$[0;36mll[0m

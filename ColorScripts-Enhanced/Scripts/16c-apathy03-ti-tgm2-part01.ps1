@@ -5,7 +5,7 @@
 # Source SHA-256: e60d686f62f3e0bfd67b81e7335ad062de9671b7eb6704459dddd869d5222326
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-TGM2.ANS by Trip (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Global Market
 # SAUCE Author: Trip
 # SAUCE Date: 19951106
@@ -17,7 +17,7 @@ Write-Host '
 ▌ [1;30m░▒   ░  ▒▄[0m      ▄  [1;30m░  ▒░ [0m▀▀▀▀▀█ [============================================]
 ▌ [1;30m▒▀  [0m▄▄▄▄▄▄▄[1m▄▄[0;1;47m▀█[0m█▀    [1;30m▀[0m     [1;30m▒░ [0m█  Uhm. Spawn. Is cool. Jeah. Hi. if yOu want an
      [1;47m▄■ [0m█[1;47m░░[0m█[1;47m▀[0m██[47m [0;1;47m▐▌[0m  ▄███[1;47m■[0m▄ [1;30m░ ▓▒ [0m█  ansi doodled by little ol me, send me  e-mail
- [1;30m▓  [0m▐[1;47m▐█▄■[0m██████[1;47m■▀[0m▌  ▀[1;47m█▄■[0m█▀      ▀▀▀█  at thrust@primenet.com, make sure it  says
+ [1;30m▓  [0m▐[1;47m▐█▄■[0m██████[1;47m■▀[0m▌  ▀[1;47m█▄■[0m█▀      ▀▀▀█                                            
  [1;30m▒  [0m█▀   ▀█[1;47m▄■[0m████        ▄█  [1;30m░  ░  [0m█  its for trip.  I don''t  ask for money, but
  [1;30m░[0m        ▐[1;47m▌[0m███[1;47m░[0m█   ▄[1;47m░[0m██[1;47m▀█[0m▌ [1;30m░   ▒░ [0m█  paying  for my services guarentees an ansi
   [1;30m--- ░░ - [0;1;37;47m█[0m█[1;47m■▓■ [0m [1;30m- [0;1;37;47m▄■[0m██[1;47m▀ [0m [1;30m--- ▓ ░ [0m█  by me by the first of the next month. If u

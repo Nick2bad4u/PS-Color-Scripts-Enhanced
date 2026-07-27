@@ -5,7 +5,7 @@
 # Source SHA-256: 5a8077879fbd9a57d183d646b275ce576a1433998d6a0974e1d119d37553621e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-FLTH2.ANS by cheeze monkey (moonlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: filth #2
 # SAUCE Author: cheeze monkey
 # SAUCE Group: moonlight
@@ -18,8 +18,7 @@ Write-Host '
 
 
 
-                                 [1;35m [0;35m    [0;1;36m [0;1;35m [0;35m [0;1;36m [0;1;35m [0;35m    [0;1;36m [0m
-                  [1;33;44m░[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34;44m░[0m
+[1;35m[0;35m[0;1;36m[0;1;35m[0;35m[0;1;36m[0;1;35m[0;35m[0;1;36m[0m                  [1;33;44m░[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34;44m░[0m
              [1;33;40m░   ░[0;1;33;44m▒[0;1;33;40m░[0;1;36;47m▒▀[0;1;36;40m▀▀[0m▀[1;36m▀[0m██[1;35;47m░[0m██▀▀[1;36m▀[0m▀▀[1;36m▀[0m▀[47m [0;1;36;47m▀▀░▀[0;30;47m▄[0;37;40m▀[0;1;36;40m▀▀[0m████[1;36;47m▀[0m▀▀▀▀███[1;36;47m▀[0m██[1;32;47m░█[0m [1;34;44m▒[0m
                   [1;33;44m░[0m [1;36;47m▓░[0m [1;37;46m▓█[0;1;37;40m▄▄▄▄[0;1;32;40m▄[0;30;42m▀[0m [1;37;46m░▄[0m [1;37;46m ▄[0m ▓█ [1;32m▄[0;30;42m▀[0m [30;46m [0;1;37;46m▒[0;36m▄▄▄▄▄  [0;1;37;46m▓[0;1;37;40m█▄▄▄▄[0;32m▄▄ [0;32;47m [0;1;32;47m▓[0m [1;34;44m▒[0m
                   [1;34;44m [0m [1;36;47m▓▒[0;1;36;40m░[0;1;37;46m░[0;1;37;40m█ [0m▄▄ [1;42m▓[0;30;42m░▓[0;30;46m [0;1;37;46m▓[0m [1;37;46m░[0;1;37;40m█ [0m██ [1m█[0;30;42m░[0m [1;37;46m▒▓[0m ▄▄ [1;32m▄[0;32m▄ [0;1;37;46m▒▓[0m ▄▄ [1;42m▓ [0m [1;32;47m░▒[0m [1;34;44m▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: d726f1943559772bbc88874fe64307d065dc8ea37df992c8037d0f7cbfe8238d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ!-CLUS.ANS by dezeit (phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: clustah
 # SAUCE Author: dezeit
 # SAUCE Group: phobia
@@ -41,13 +41,9 @@ Write-Host '
                                 [34m [0;1;34m`$[0;34m$baaa$$$,[0;37m`$$[0;1;37m$$$[0m$ [34m$$[0;1;34m²[0m
                                          [1;34m`$[0;34m$,[0;37m $[0;1;37m$$[0m$$ [34m$''[0m
 [37m                  [0m                  [37m     [0;1;34m,d$[0;34m$[0;37m $[0;1;37m$$$[0m$ [34m$b,[0;37m    [0;1;34m,d$$$b,[0m
-      [1m                         [0m         [1;34m  [0;34m   [0;37m  [0;1;37m  [0m   [34m           [0;1;34m    [0m
-[1m                                [0m       [1;34m   [0;34m  [0;37m  [0;1;37m    [0m  [34m             [0;1;34m   [0m
-                                       [1;34md$[0;34m$$baa$$''[0;37m.sd$$$$$$$bs, [0;34m$$S$[0;1;34m$b,[0m
-[1m                                   [0m    [1;34m  [0;34m        [0;37m  [0;1;37m   [0m    [1m   [0m  [34m          [0m
-[37m                                         [0;34m`$$$$$,[0;37m.sasasasd$[0;1;37m$$$[0m$  d$$b [34m$$$$[0;1;34mb,[0m
-[1m                                       [0m    [34m    [0;37m  [0;1;37m   [0m      [1m   [0m    [1m [0m   [1;34m [0;34m     [0;1;34m   [0m
-                                           [34m$$$$[0;37m $$[0;1;37m$$$[0m$   $[1m$$[0m$$  $[1m$$[0m$ [1;34m$[0;34m$$²²`²$[0;1;34m$,[0m
+[1m[0m[1;34m[0;34m[0;37m[0;1;37m[0m[34m[0;1;34m[0m[1m[0m[1;34m[0;34m[0;37m[0;1;37m[0m[34m[0;1;34m[0m                                       [1;34md$[0;34m$$baa$$''[0;37m.sd$$$$$$$bs, [0;34m$$S$[0;1;34m$b,[0m
+[1m[0m[1;34m[0;34m[0;37m[0;1;37m[0m[1m[0m[34m[0m[37m                                         [0;34m`$$$$$,[0;37m.sasasasd$[0;1;37m$$$[0m$  d$$b [34m$$$$[0;1;34mb,[0m
+[1m[0m[34m[0;37m[0;1;37m[0m[1m[0m[1m[0m[1;34m[0;34m[0;1;34m[0m                                           [34m$$$$[0;37m $$[0;1;37m$$$[0m$   $[1m$$[0m$$  $[1m$$[0m$ [1;34m$[0;34m$$²²`²$[0;1;34m$,[0m
                                            [34m`$$$,[0;37m`"²$[0;1;37m$[0m$$$$$$$$''[34m,[0;37m $[0;1;37m$$[0m$ [1;34m$$[0m d$$b [34m$$[0m
 [37m                                            [0;1;34m`d[0;34m$$$$aaaaaaaaaaad$[0;37m $$[0;1;37m$[0m$ [1;34m$[0m ,$[1m$$[0m$ [34m$$[0m
 [37m                                             [0;1;34m`$[0;34m$$$[0;1;34m$²$[0;34m$$$$$$$$$$[0;37m $$[0;1;37m$$[0mb,,$[1m$$$[0m$ [34m$$[0m

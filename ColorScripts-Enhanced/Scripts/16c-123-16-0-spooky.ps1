@@ -5,7 +5,7 @@
 # Source SHA-256: 8df9c76597123fcf88310ad830ebf15f9b41e2cb667c52f572e5f85554efa5a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 0^SPOOKY.ANS by Abstrakt (123-16); released in 123-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -42,8 +42,7 @@ $$$$[34m$$$$jjj$$###[0m      [34m##[0;37m   [0;34m`$$$$$$$##[0;37m##[0;34
        [1;30m d$$_/$$$$$$$$$$$$$[0m          [1;30m4$$$$[0;1;33m$$$[0;1;31m$$$$$$$$$$[0;1;33m$$$[0;1;30m$$$$P[0m
        [1;30m4$$$$$$$$$S⌂*⌂S$$S#s.  [0m       [1;30m`4$$$$$[0;1;33m$$[0;1;31m$$$$$$$[0;1;33m$$[0;1;30m$$$$7`[0m
                                       [33m$$$$$$$$$$$$$$$$$$$$$$[0m
-[37m [0;30m                                 [0;37m  [0;33m   [0;37m [0;33m    [0;37m [0;33m   [0;37m  [0;33m   [0;37m [0;33m    [0;37m [0;33m   [0m
-                                  [33m   [0;37m  [0;33m$$$[0;37m   [0;33m$$$[0;37m   [0;33m$$$[0;37m  [0;33m$$$b[0;37m  [0;31m  .┌#$[0;1;31m$$$S[0;31ms.[0m
+[37m[0;30m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0m                                  [33m   [0;37m  [0;33m$$$[0;37m   [0;33m$$$[0;37m   [0;33m$$$[0;37m  [0;33m$$$b[0;37m  [0;31m  .┌#$[0;1;31m$$$S[0;31ms.[0m
                                                    [31m.▬┌⌐┐▬.[0m    [31m J$[0;1;31m$[0;31mP┘²²└[0;1;31m$$$[0;31mb[0m
                                          [31m._[0m       [31md$$[0;1;31m$$$$$[0;31m$┐  ;$[0;1;31m$$[0;31m\[0m    [31md[0;1;31m$$[0;31mP[0m
                   [37mfrom your[0m             [31m.$[0;1;31m$[0;31mb   [0;37m  [0;31m:$[0;1;31m$$[0;31m''[0;1;31m [0;31m`[0;1;31m$$$[0;31m$[0m         [31m.d$[0;1;31m$[0;31mP[0m

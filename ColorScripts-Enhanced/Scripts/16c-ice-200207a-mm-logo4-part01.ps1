@@ -5,7 +5,7 @@
 # Source SHA-256: e460ebe1c2a6b7d2f23bfea2cf0079f89b245edf0d04574e3eda6f1019da2f02
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mm-logo4.ice by Magnetic M (ice-200207a); released in ice-200207a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -34,7 +34,7 @@ Write-Host '
 [37m  [0;31m▐[0;1;31;41m▐[0;1;31;40m█▌[0m                [31m ▒▒▄[0;1;31m▄[0;1;31;41m▄[0;1;31;40m█[0;1;31;41m▀[0;1;31;40m▀[0;31m▀▀▀▀[0;37m [0;31m▀[0;1;31m▀▀▀▀[0;1;31;41m▀▓▓▓[0;31m▄[0m          [31m▄[0m             [37m░░░░[0m
 [37m   [0;31m▀[0;1;31m▀[0;1;31;41m▀[0;31m▄[0m            [1;31m  [0;31m ▄[0;1;31;41m▒▒[0;1;31;40m██▀[0m              [31m░░▀▀[0m        [31m▄[0;1;31;41m▄[0m
        [31m▀ [0m          [31m░░░[0;1;31;41m▓▓▓[0;1;31;40m█▌[0m
-                   [1;31m   [0;31m▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m██▄[0m            [1;30mwww.nyc2600.org[0m
+                   [1;31m   [0;31m▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m██▄[0m            [1;30m               [0m
                            [31m▀[0;1;31m▀▀[0;31m▄▄▄[0m
                                    [31m▀▀▀▀[0m
                   [31m▄[0;37m▄[0;37;41m▄▓▓[0;37;40m▄▄   [0;31;40m▄█▄[0;37;40m▄[0;37;41m▄▓[0;37;40m▄▄[0m     [31;40m▄[0;37;40m▄[0;37;41m▄▓▓▓[0;37;40m▄[0;31;40m▄ [0;37;40m  [0;31;40m▄█[0;37;40m▄[0;37;41m▄▓▓▓[0;37;40m▄[0;31;40m▄[0m

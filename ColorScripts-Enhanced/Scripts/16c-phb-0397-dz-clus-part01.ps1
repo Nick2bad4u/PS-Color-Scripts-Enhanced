@@ -5,7 +5,7 @@
 # Source SHA-256: d726f1943559772bbc88874fe64307d065dc8ea37df992c8037d0f7cbfe8238d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ!-CLUS.ANS by dezeit (phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: clustah
 # SAUCE Author: dezeit
 # SAUCE Group: phobia
@@ -16,8 +16,7 @@
 
 Write-Host '
 
-                   [1;5m         [0m                              
-                                                              [1m  [0m
+[1;5m[0m                                                              [1m  [0m
 
 
                [1;30md$[0;1;36m$[0;36m$$[0;1;30mP[0;1;36m²"[0;1;30m²G$[0;36m$b[0;1;36ms,[0m [1;36md[0;36m$$[0;1;30m$[0;1;36mb[0m            [1;30md[0;36m$$[0;1;30m$b[0m

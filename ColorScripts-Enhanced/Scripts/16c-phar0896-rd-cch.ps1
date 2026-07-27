@@ -5,7 +5,7 @@
 # Source SHA-256: 68c2aa3d7645c82aa70ad44a6b6fc75e60526e2a11301e60dc27dcef34967467
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD!CCH.ANS by RaBiD DoCToR (PHaR); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Criminalz Clan House
 # SAUCE Author: RaBiD DoCToR
 # SAUCE Group: PHaR
@@ -41,8 +41,5 @@ Write-Host '
 [36m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 
 [37m-----[CRIMINALZ CLAN HOUSE]-----------------------------------------------------[0m
-[37m                                                                                [0m
-[37m                                                                                [0m
-[37m                                                                 [0m
-[37m--------------------------------------------------------------------------------[0m
+[37m[0m[37m[0m[37m[0m[37m--------------------------------------------------------------------------------[0m
 [37m----------------------------------------------------------------------[EOF]-----[0m'

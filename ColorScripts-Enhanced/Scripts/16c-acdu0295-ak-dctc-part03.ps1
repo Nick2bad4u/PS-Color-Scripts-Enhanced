@@ -5,7 +5,7 @@
 # Source SHA-256: fd29343daeb30029f989665c48b8f359c3acb31a02ac51e5ed656ee420ef410b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-DCTC.ANS by Asian Knight + Vanquish (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Damage Control Trade Center
 # SAUCE Author: Asian Knight
 # SAUCE Group: ACiD Productions
@@ -43,8 +43,7 @@ Write-Host '
            [31m▌[0m              [1;30m                           [0m                        [31m▀[0m
            [31m▌[0m                   [1;30m                  [0m
            [31m▀[0m            [1;30m                               [0m
-                          [1;30m                            [0m
-
+[1;30m[0m
 
        [1;35m▒[0m                        [1;35m░[0m     [1;35m▒   ░    ▒[0m                [1;35m░[0m     [1;35m▒[0m
        [1;35m▓  ░[0m                     [35m▒  [0;1;35m░  [0;35m▓  ▄▒    ▓  [0;1;35m░[0m             [35m▒  [0;1;35m░  [0;35m▓[0m

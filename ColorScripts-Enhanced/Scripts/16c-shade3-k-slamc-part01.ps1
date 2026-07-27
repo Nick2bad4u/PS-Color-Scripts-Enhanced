@@ -5,7 +5,7 @@
 # Source SHA-256: af4660d346e621e24f0f2d8fc59ed88b0111cc54bc8d169d69c5f62a459a64d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K-SLAMC!.ANS by kelthar (shade); released in shade3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: slam city
 # SAUCE Author: kelthar
 # SAUCE Group: shade
@@ -37,7 +37,6 @@ Write-Host '
                  [1;30m▓▄▄▄▓[0m       [33m ▓[0;1;30;43m░[0;33m████▄██▌[0;37m [0;33m  [0;1;30m░░[0;33m   [0;1;30m▒[0;33m  [0;36m [0;1;30m▄[0;36m [0;33m [0m   [1;30m▒[0;34m   [0;37m  [0;1;30m░[0m
                         [1;30m [0m     [33m ▀▀▓▓█[0;1;30;43m░[0;33m▓▀         [0;1;30m░[0;33m   [0;1;30m▓▄▄▒▄▄▄▄ ▄▄  [0m
                                                        [1;30m░[0m        
-                                                               
 
 
 [31m▓█████████████████▓▄▌▄   ▄▓████████████████████████████████████████████████████▓[0m

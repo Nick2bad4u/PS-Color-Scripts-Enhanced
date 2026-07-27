@@ -5,7 +5,7 @@
 # Source SHA-256: 6cf6c64e55aea01a6e970c4b9d0a830e26065c3dc80ede584299bd1520bf6acc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KM-BAD1.ANS by King Midas (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Badlands
 # SAUCE Author: King Midas
 # SAUCE Group: ACiD Productions
@@ -53,12 +53,8 @@ Write-Host '
 [1;30;40m─[0m─────────────────────────────────────────────────────────────────────────────[1;30m─[0m
 [1;30m─[0m─[1m──[0m┬[1m─────────────────────────────────────────────────────────────────────[0m┬[1m──[0m─[1;30m─[0m
  [1;31m■[0m  [1;30m│[0m                                                                     [1;30m│ [0m [1;31m■[0m 
-[1;30m──┬─┘[0m                      (408) 268-4251 [16.8 D/S]                      [1;30m└─┬──[0m
+[1;30m──┬─┘[0m                                                                     [1;30m└─┬──[0m
 [1;30m──┘[0m                                                                         [1;30m└──[0m
-                                                     
-                                                                        
-                                     [1m              [0m                      
-                                                              
-[1;30m─[0m─[1m───────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m
+[1m[0m[1;30m─[0m─[1m───────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m
                  A N S [1mi  [0mb y  K [1mi [0mn g  M [1mi [0md a s  o f  A C [1mi [0mD
 [1;30m─[0m─[1m───────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m'

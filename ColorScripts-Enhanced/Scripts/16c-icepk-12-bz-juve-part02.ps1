@@ -5,7 +5,7 @@
 # Source SHA-256: f7028b5929e840c8f0523d046f0c09957a6723eeea0841a5a4f11276f5718e8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ-JUVE.ICE by Beez (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 34-65
 # Columns: 1-80
 
@@ -35,10 +35,6 @@ Write-Host '
 [33;40m █[0;30;43m▄▄█▀  ▀██▄█▀   ▀█   ██▄▄▄▄ ██  ██ ▀██▄█▀ ▀██▄█▀ ██  ▐▀ ██  ██ ▀██▄█▀   ██   [0m
 [30;40m [0;33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [33;40m   [0;37;40m            [0;1;37;40m [0m             [1m    [0m [1;30m    [0m   [1;30m       [0m [1;30m        [0;1;37m        [0m            
-    [1;30m       [0m [1;30m          [0;1;37m   [0m       [1;30m                [0;1;37m    [0m [1;30m              [0m    [1;30m      [0m
-[1;30m   [0m [1;30m        [0m [1;30m    [0m    [1;30m        [0m    [1;30m            [0;1;37m   [0m       [1;30m    [0m [1;30m        [0m [1;30m   [0m [1;30m    [0m
-[1;30m   [0m  [1;30m [0m [1;30m [0m    [1;30m        [0m [1;30m            [0;1;37m  [0m       [1;30m            [0m [1;30m    [0;1;37m  [0;1;30m [0m    [1;30m      [0m [1;30m    [0m
-[1;30m   [0m       [1;30m    [0m [1;30m   [0m [1;30m         [0m [1;30m      [0m [1;30m      [0;1;37m    [0m [1;30m    [0m [1;30m       [0m [1;30m              [0m [1;30m  [0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m
+[1;30m[0m[1;30m[0;1;37m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30m  i [0mC [1mE  A D V E R T I S E M E N [0mT [1;30mS  [0;31m──  [0;1;30mB [0mE [1mE Z  [ [0;1;30mi [0mC [1mE ] [0;31m──  [0;1;37m12 · 15 · 92[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

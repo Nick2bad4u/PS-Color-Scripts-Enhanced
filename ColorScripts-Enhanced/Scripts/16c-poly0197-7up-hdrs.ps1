@@ -5,7 +5,7 @@
 # Source SHA-256: 5520bd5ddb1ef577e999586b01abbe8c8742cbb5cac9401131e39621a37325f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 7UP_HDRS.ANS by unique phreak (polyester); released in poly0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: headars..
 # SAUCE Author: unique phreak
 # SAUCE Group: polyester
@@ -20,8 +20,7 @@ Write-Host '
 
 
 
-                      [1;30m        [0m [1m      [0m [1;33m      [0m 
-
+[1;30m[0m[1m[0m[1;33m[0m
 
 
 

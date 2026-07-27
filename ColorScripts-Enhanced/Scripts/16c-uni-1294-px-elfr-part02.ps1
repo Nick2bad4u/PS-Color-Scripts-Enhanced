@@ -5,7 +5,7 @@
 # Source SHA-256: 3fa8eb0739043f8752bab2c670ea52343cc0e8444f41108e0dc5399497220485
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PX-ELFR.ANS by Phoenix (Union); released in uni-1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Electronic Frontier
 # SAUCE Author: Phoenix
 # SAUCE Group: Union
@@ -59,7 +59,7 @@ Write-Host '
 [1;30;47m▌ [0;1;30;40m███[0m                                                                       [1;30;40m█[0;1;30;47m [0;1;30;40m█[0m
 [1;30;47m▌ [0;1;30;40m███    [0;1;37;40m [0m [1;30m         [0;1;37m [0m [1;30m                                  [0m                    [1;30m█[0;1;30;47m [0;1;30;40m█[0m
 [1;30;47m▌ ▐[0;1;30;40m██[0m                                                                      [1;30;40m▐[0;1;30;47m▌▐[0;1;30;40m█[0m
-[1;30;40m▐[0;1;30;47m  [0;1;30;40m██▌[0m         [1;30;40m+ 1 . 8 1 6 . 3 5 3 . 8 6 1 7[0m          [1;30;40m28.8 USR[0m             [1;30;40m█[0;1;30;47m [0;1;30;40m█▌[0m
+[1;30;40m▐[0;1;30;47m  [0;1;30;40m██▌[0m         [1;30;40m                             [0m          [1;30;40m        [0m             [1;30;40m█[0;1;30;47m [0;1;30;40m█▌[0m
 [1;30;40m █[0;1;30;47m  [0;1;30;40m██▄[0m                                                                   [1;30;40m█[0;1;30;47m [0;1;30;40m██[0m
 [1;30;40m  ▀[0;1;30;47m▄▄[0;1;30;40m█████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▀▄[0;1;30;40m█▀[0m
 [1;30;40m    ▀▀█████████████████████████████████████████████████████████████████▀▀▀[0m'

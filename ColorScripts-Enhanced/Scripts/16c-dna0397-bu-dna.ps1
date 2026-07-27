@@ -5,12 +5,12 @@
 # Source SHA-256: 7d03dcf5c6c8a0c0eddb6ac051b1e8c5f0871ef5fcb8956836bea1eda33968a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BU-DNA!.ANS by Buttman (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
 Write-Host '
-[1;30m──────--─-─-─-──-─-─--─------─-──-─-─-─-─-─[0m<[1mbuttcsf@hotmail.com[0m>[1;30m------─-─-─-──-[0m
+[1;30m──────  ─ ─ ─ ── ─ ─  ─      ─ ── ─ ─ ─ ─ ─[0m [1m                   [0m [1;30m      ─ ─ ─ ── [0m
                                                        [1m       [0m
                    [36m ▄[0;1;36m▄▄▄▄▄[0;36m▄[0m   [36m▄[0;1;36;46m▄█▄[0;1;36;40m▄▄▄[0;36m▄          [0m   [36m ▄[0;1;36;46m▄██████████▄[0;1;36;40m▄▄[0;36m▄ [0m
          [36m   ▄[0;1;36m▄▄[0;36m▄   █[0;1;36;46m██▀[0;1;36;40m▀▀▀[0;1;36;46m▀[0;36m█ ▐[0;1;36;46m▐█[0;36m█ ▀[0;1;36m▀▀▀▀▀[0;1;36;46m▀██▄[0;1;36;40m▄▄[0;36m▄ [0m   [36m▐[0;1;36;46m▐██▀[0;1;36;40m▀▀▀▀[0;36m▀  ▀[0;1;36m▀[0;1;36;46m▀█▌[0;36m▌[0m

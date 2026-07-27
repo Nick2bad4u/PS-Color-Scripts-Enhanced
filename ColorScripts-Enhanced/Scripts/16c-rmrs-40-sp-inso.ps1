@@ -5,20 +5,18 @@
 # Source SHA-256: fef53c11dd7e3849626e858ccbf69c0b1ccf4446e7ef2563199c1b9fbfe3b01b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-inso.ans by Spinsane (rmrs-40); released in rmrs-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
-[1m                 [0m
-[1m------------------------------------------------------(cut)[0m
+[1m[0m[1m------------------------------------------------------(cut)[0m
             [1m                          [0m
                 [1m [0m              [1;35m________[0;35m__[0;1;35m____[0m
               [1m [0m [1;35m__[0m [1;35m_[0m [1;35m___ [0m     [1;35m/[0;1;37m              [0;1;35m\[0m      [1;35m___[0m [1;35m_[0;1;37m [0;1;35m__[0m
              [1m [0m [1m [0;1;35m\\[0m [1;35m\\[0;35m___[0;1;35m\____/[0;1;37m/++[0m [1miNSOMNiA[0m [1m++\[0;35m\[0;1;35m____/_[0;35m__[0;1;35m//[0m [1;35m//[0m
        [1m [0m      [1;35m___\_//[0m                                  [35m\\_[0;1;35m/[0;35m___[0m
-[1;37m    [0m      [1m [0;1;35m   [0;1;37m    [0;1;35m [0;1;37m                                   [0m   [35m [0m   [35m   [0;37m       [0m
-    [37m|:::[0;1;37m   [0;1;35m_\[0;1;37m    [0;1;35m_[0;35m_\[0;1;37m                     [0;1;31m___[0m            [1;35m/[0;35m___[0;37m  [0;35m/_[0m    [1;30m'':[0m|
+[1;37m[0m[1m[0;1;35m[0;1;37m[0;1;35m[0;1;37m[0m[35m[0m[35m[0;37m[0m    [37m|:::[0;1;37m   [0;1;35m_\[0;1;37m    [0;1;35m_[0;35m_\[0;1;37m                     [0;1;31m___[0m            [1;35m/[0;35m___[0;37m  [0;35m/_[0m    [1;30m'':[0m|
   __|``[1m    [0;1;35m_\[0;1;37m [0;1;31m__\___[0;31m_[0;1;37m [0;1;31m_____[0;31m_[0;1;37m           [0;1;31m/_/[0;31m/_[0;1;31m_____[0;1;37m      [0;1;31m_____[0;1;37m  [0;35m/[0;1;35m_[0m     _|[1;30m_[0m
   \ | [1;35m-.___\\[0;1;37m [0;1;31m((__[0;31m_[0;1;31m_)[0;31m)[0;1;31m|[0;1;37m    [0;1;31m\[0;31m\[0;1;31m_________/__[0;31m_[0;1;37m      [0;1;31m\_____//\\[0;1;37m  [0;1;31m\[0;1;37m [0;1;35m//___.-[0m [1;30m|/[0m
    \|[1m [0;1;35m/[0;1;37m    [0;1;31m____/[0;1;37m     [0;31m/[0;1;31m|[0;1;37m   [0;1;31m\[0;1;37m [0;1;31m\[0;31m\_[0;1;37m      [0;1;31m_[0;1;37m   [0;1;31m\[0;31m\[0;1;37m      [0;31m\[0;1;31m_[0;1;37m    [0;1;31m__[0;31m_[0;1;31m\[0;1;37m  [0;31m\_[0;1;31msp81[0;1;37m [0;1;35m\[0m [1;30m:[0m

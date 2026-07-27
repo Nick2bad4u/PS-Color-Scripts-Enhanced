@@ -5,7 +5,7 @@
 # Source SHA-256: a8d95b493fa24ef5fc0ce963e3949eb507e76dd0b1cc313a0d018dab0c2d3c2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEATH.ANS by Death (death07); released in death07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
           [1moN[0m                    [33m▐[0;33;41m▓[0m      [1;30m▐░▓▒░▐[0;1m▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30m░░▓░[0m
                                [1;30m░[0;1;30;43m▌[0;33;41m▓[0;1;30m▒▒▒▒▓▓▓▓▓▒░░░░░▐[0;1m░▒░[0;1;30m░░░░░░▓▒▒▓▒█▒▓█▓▒█▓▒░░[0m
 [1;30m   Agad[0mez [1mOn-[0mLin[1;30me BBS[0m       [1;30m▐░▓█[0;1;30;43m▌[0;33;41m▓[0;1;30m█▓█▓▓▓▓▓▓▒▒▒▒░░[0;1m░▒▓▒░[0;1;30m░░░░▓▓▒█░▓█▓▓▒▓▓░░▒░▓▓▓░░[0m
-     [1;30m(3[0m05)[1m-45[0m4-3[1;30m459[0m        [1;30m▐░█▓▓▓[0;1;30;43m▌[0;33;41m▓[0;1;30m▒█▒░▒▓▒▒▓▒▒▒▒▒░░[0;1m░[0;1;30m░░▒▒▓▒▒▓█▓▓█▒░░▒█▓██░▒▒▒█▓▓░[0m
+     [1;30m  [0m   [1m   [0m   [1;30m   [0m        [1;30m▐░█▓▓▓[0;1;30;43m▌[0;33;41m▓[0;1;30m▒█▒░▒▓▒▒▓▒▒▒▒▒░░[0;1m░[0;1;30m░░▒▒▓▒▒▓█▓▓█▒░░▒█▓██░▒▒▒█▓▓░[0m
                          [1;30m▐░▓█▓▓▒▒[0;1;30;43m▌[0;33;41m▓[0;1;30m▓░▓░░░█▒█▓▓▒▒▒▒▒▒▒▒▒░░░░░█░█░░█▓░█▒▒▓░▒▒░▓░█▓[0m
                         [1;30m▐░██▓▓█░░[0;1;30;43m▌[0;33;41m▓[0;1;30m▒▒▓░▓░░▓▓░▓▓▒▒▒▒▒▒▒▒▒▒░░░░▓░█▓░░▓█░░▓▓█▒▒▓▓█▓[0m
                         [1;30m░▓█▓░▓▓▒▒[0;1;30;43m▌[0;33;41m▓[0;1;30m▒▓█▒▓▒█▒█▒▓▓▓▒▒▒▒▒▒▒▒▒▒▒░░▓▓█▒░█░▓▓░▒▒▒▓░░░██[0m

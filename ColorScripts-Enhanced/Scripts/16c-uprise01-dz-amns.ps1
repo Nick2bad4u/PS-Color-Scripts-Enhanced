@@ -5,7 +5,7 @@
 # Source SHA-256: 89bf71dfeb195486bff093199d213e3ea3dd1b57eaf5ed79009b55cde1da7658
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-AMNS.ANS by D-Zine (uprise01); released in uprise01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -35,5 +35,4 @@ Write-Host '
                             [31m█[0;1;31;41m▀■[0m
                              [31m▀[0m
 
-        [1m   [0;1;30m                                                                 [0;1;37m  [0m  
-:::::[1m::: [0;1;30mu want image ;) [0;1;37m:::[0m::::::::::::::::::::::::::::::::::::::::::::::::::::[0m'
+[1m[0;1;30m[0;1;37m[0m:::::[1m::: [0;1;30mu want image ;) [0;1;37m:::[0m::::::::::::::::::::::::::::::::::::::::::::::::::::[0m'

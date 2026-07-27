@@ -5,7 +5,7 @@
 # Source SHA-256: c65b797ab15e0aa424df623f461f2cf10b464938bbb7c25c3cbb6f99225071aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-BADL1.ANS by prisonernumberone (ACiD Productions); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The BadLands
 # SAUCE Author: prisonernumberone
 # SAUCE Group: ACiD Productions
@@ -55,5 +55,4 @@ Write-Host '
        [33m▀█▓█[0;33;41m▓[0;33;40m█[0;1;33;43m▄[0;33m█▓██▀▀[0m                 [1;30mmuscle-bound oaf of a person, aren''t you.[0m
           [33m▀▀▀▀▀[0m
 [1;30m▓▀▀▀▀▀▀▓▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▓[0m
-[1;30m    [0m         [36m [0;1;30m                             [0m [1;30m                  [0m
-[1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄ ▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m'
+[1;30m[0m[36m[0;1;30m[0m[1;30m[0m[1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄ ▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m'

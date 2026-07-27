@@ -5,7 +5,7 @@
 # Source SHA-256: 5b1dcf07ad824a971f25e5707803ba175fc0d020f137b62a38fcdb5f1e92e635
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REALMS.ANS by Magius (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 32-73
 # Columns: 1-80
 
@@ -42,5 +42,4 @@ Write-Host '
                           [1;33;43m▄▀[0;1;33;40m████▀[0m            [1;33;40m▀▀███[0;1;33;43m▀▄[0m
                            [1;33;40m▀███▄[0m              [1;33;40m▄▄██▀[0m
                               [1;33;40m▀▀████▄▄▄▄▄▄████▀▀[0m
-                                    [1;33;40m▀▀▀▀▀▀[0m
-                                 [36m7[0;1;36m0[0;1;37m3-569-2[0;1;36m9[0;36m7[0;1;34m8[0m'
+                                    [1;33;40m▀▀▀▀▀▀[0m[36m[0;1;36m[0;1;37m[0;1;36m[0;36m[0;1;34m[0m'

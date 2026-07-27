@@ -5,7 +5,7 @@
 # Source SHA-256: 3d4d08a240e1466a233711bc27edce3d646ec841b777f2651b40b5fba47fb498
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-COVEN.ANS by Superdave (CaNCeR Productions); released in cnc-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Coven
 # SAUCE Author: Superdave
 # SAUCE Group: CaNCeR Productions
@@ -18,7 +18,7 @@ Write-Host '
  [1;31m▀▀▀[0;1;31;41m█[0;1;31m█[0;1;31;41m▄▄▄▓[0;31m███[0;1;31;41m▒░[0;31m▄ [0;1;30m▀▀▀ [0;31m▄[0;1;31;41m▓░[0;31m▌ [0;1;30m▀▀▀▀ [0;31m██▄ ▄ [0;1;30m▀▀▀▀▀▀▀▀▀███▒██▓█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▓▒███░▄[0m
 [1;30m100%[0m     [1;30m▄  [0;31m▄██▓   ▄[0;1;31;41m▓▒[0;31m██▄▄▄▄▄▄▄ ▀[0;1;31;41m▒[0m  [1;31;41m░[0m          [1;30m█▓█▄▀▀[0m                     [1;30m█▓▒█▓[0m
 [1m_O/[0;1;30morigi ▀[0;31m▄███▀  ▄█[0;1;31;41m░[0;31m█▀ ▀[0;1;31m▀▀▀[0;31m▀[0;1;31m█[0;31m██▀ ▀[0;1;31;41m▓[0m [31m▀[0;1;31;41m▓[0;31m▄ [0;1;30mIf you want a SuperDave ansi call   █░█[0m
-[1;30m [0;1m>\[0;1;30monal [0;31m▄█[0;1;31m▓▒[0;31m▀  ▄█▀▀[0m        [31m▄██    ▀█  ▀ [0;1;30mmy bbs 206-932-4950, or contact   ▄░██▓[0m
+[1;30m [0;1m  [0;1;30m     [0;31m▄█[0;1;31m▓▒[0;31m▀  ▄█▀▀[0m        [31m▄██    ▀█  ▀ [0;1;30m                                  ▄░██▓[0m
 [1;30mansi  [0;1;31m▄[0;31m████[0;1;31m▓  [0;1;30m▄▄    [0;1;31m▀▓[0;31m▄   ▄█[0;1;31m▓[0;31m▀[0m          [1;30mme on irc as sd. φ SuperDave φ  █▒▓▀ ▀█[0m
 [1;30m    [0;31m▄[0;1;31m▓[0;31m██▀[0;1;30m▄[0;31m▀██▄ [0;1;30m▀█▓▄   [0;31m▀█▄[0;1;31m▓[0;31m█▀  [0;1;30m▄░██▓█▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m                [1;30m▄░█▓█▀ ▄▓▒[0m
 [1;30m  [0;31m▄▓▒█▀   [0;1;30m▀ [0;31m▀▓█▄ [0;1;30m▀▓  [0;31m▄▓██▀  [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

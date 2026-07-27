@@ -5,7 +5,7 @@
 # Source SHA-256: 148ca1a8e02e6bd69be0219e9b59aba0169a5a3426729de62cf0134ea9b5bca3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH-JOLT.ANS by chrom (air / vortex); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: jolt loggo
 # SAUCE Author: chrom
 # SAUCE Group: air / vortex
@@ -29,13 +29,4 @@ Write-Host '
 [1;34m [0;32myps.[0;1;34m`²$$$$$$$'' [0;32m$[0;1;32m$[0;32m'' l$S[0;1;32m$$$[0;32m$$l [0;1;34md$$$$$$$$$$$²²²'' [0;32ms [0;1;34m$$$$$. [0;32m²$[0;1;32ms [0;1;34m`$$²'' [0;32ms$ⁿ°''[0;1;34ms [0;32m$[0;1;32m$[0;32ml[0;1;34m`$$[0m
 [1;34m ,[0;32m`°ⁿ$s[0;1;34m`²²²$$ [0;1;32ms[0;32m$²[0;1;34m,$ [0;32m$$$[0;1;32m$$[0;32m$$$b [0;1;34m`²²²²²²'' [0;32msss[0;1;32ms$²[0;32m² [0;1;34m,d$$$$$$b  [0;1;32m$[0;32m$ [0;1;34m² [0;32ms²²'' [0;1;34m,$$$ [0;32m$[0;1;32m$[0;32m$ [0;1;34m$$[0m
 [1;34m $$$b,[0;32m`²²s[0;1;34m`²''[0;32m$[0;1;32m$ [0;1;34md$$,[0;32m²$$$[0;1;32m$$$$$$$[0;32mss$[0;1;32ms$[0;32m$²²[0;1;32m²² [0;1;34m,mmmd$$$$$$$$$b. [0;32m`²s²'' [0;1;34m,$$$$$$ [0;1;32ml[0;32m$b [0;1;34m$$[0m
-[1;34m [0;1;32m─────   [0;32m`²s²''  [0;1;32m────    [0;32m`~~~~~~~''[0m     [1;32m────────────────────[0m      [1;32m──────  [0;32ms²''  [0;1;32m──[0m
-
-
-
-
-
-
-
-
- [1;30m────([0m klipp då förfan[1;30m )─────────────────────────────────────────────────────── [0m'
+[1;34m [0;1;32m─────   [0;32m`²s²''  [0;1;32m────    [0;32m`~~~~~~~''[0m     [1;32m────────────────────[0m      [1;32m──────  [0;32ms²''  [0;1;32m──[0m'

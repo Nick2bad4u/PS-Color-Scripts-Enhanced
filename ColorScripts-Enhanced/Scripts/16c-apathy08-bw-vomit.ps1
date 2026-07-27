@@ -5,7 +5,7 @@
 # Source SHA-256: be85c89f5917132380a120f54ca8035c8eee36aaf86a8a5f60c5d082b5163ea1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW-VOMIT.ANS by Balls wILSON (Apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Vomitorium
 # SAUCE Author: Balls wILSON
 # SAUCE Group: Apathy
@@ -23,8 +23,7 @@ Write-Host '
     [34m███[0;37m [0;1;37m███▀▀▀[0;1;30m  [0m▀[1;47m▄[0;1;40m▀[0;1;30;40m [0;1;37;40m▀█▀[0;1;30;40m [0;34m ████[0m     [1;30mtime!@" wilson, baby!@ [0m
      [34m▀█▄ [0;1;37m▀[0m ▄▄[1;47m▄▄▄[0m▄[1;30m [0m▄[1;47m▄[0m▄ ▄[1;47m▄[0;1;40m▄[0;34m █▀[0m                [1;30mrough rough rough-> ,o>[0m [1;30m_o> _O)[0m
         [34m▀ [0m    [1;37m▀▀▀▀▀▀▀▀▀▀[0m [34m [0m    [1;30m                                               [0m
-[1;30m   [0m                            [1;30m                             [0m [1;30m               [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m
 ██▄▄▄▄▄▄▄▄▄▄▄[36m▀▀▀▀▀▀▀▀▀▀▀▀▀███████████████▀▀▀▀▀▀▀▀▀▀[0;37m  ▄▄▄▄▄▄▄█████████[0;1;37;47m░░░░▒▒▓▓▓██[0m
 ██████████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███████▀▀▀▀[1;47mremember when[0m█[1;47m-->[0m███[1;47m░░▒▓▓[0;1;37;47m█[0m
 ████████████████████████████████████████████▀▀[32m▄▄▄▄████▄[0;37m▀[0;1;37;47mstuff like this [0m█[1;47m░░░░▒▒[0;1;37;47m▓[0m

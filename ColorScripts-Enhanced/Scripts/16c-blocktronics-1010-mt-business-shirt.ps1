@@ -5,7 +5,7 @@
 # Source SHA-256: f0c7dffbd599a88645a2222cfa911635a89dc9e1535965375915bddc09cf1895
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mt-business shirt.ans by Misfit (blocktronics_1010); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20140403
 # SAUCE Dimensions: 81x47
 # SAUCE Font: IBM VGA
@@ -53,10 +53,5 @@ Write-Host '
 [1;40m██████[0;1;45m▌[0;35m█ [0;37m [0;35m░▓█[0;1;37;45m ▀█[0;1;37;40m██████████████████████▐█████████████████▌ [0;35m ░█[0;1;37m███▌ [0m█[1;47m██████████████[0m
 [1;40m██████[0;35m█▓  [0;37m [0;35m░▓██[0;1;37;45m▀[0;1;37;40m█[0;1;37;45m█[0;1;37;40m██████████████████▄[0;1;37;45m▓[0;1;37;40m▐█████████████████▓  [0;35m ░[0;1;37;45m █[0;1;37;40m██ [0m▐█[1;47m█▀▀████▄▄▀▀██[0m
 [1;40m   [0m [1m    [0m                                         [30m░░░[0m        [30m▒░[0m
-[37m [0;1;30m                                                                            [0m
-[1;30m                                 [0;1;35m                 [0;1;30m                         [0m
-[1;30m                                                                          [0m
-[1;30m                                                                                [0m
-[1;30m           [0m                             [1;30m                                       [0m
-
+[37m[0;1;30m[0m[1;30m[0;1;35m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
                                       [30m .[0m'

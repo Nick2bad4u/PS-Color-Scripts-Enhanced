@@ -5,7 +5,7 @@
 # Source SHA-256: 82fb0da344d6dd5d10aa99547408f6d9f2cfc5b11dc6cbbde3fdf506149c7660
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DRAGON.ANS by Death Knight (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -54,7 +54,7 @@ Write-Host '
 [1;31;40m▓[0;1;33;41m▒▒▓[0;1;31;40m▄[0m          [1;31;40m▀▀▀▒▒[0;31m▒▒▒[0;1;31m▒▓[0;1;33;41m░[0;1;31;40m▓▒▒▒▓█▓▒▓▒▓▓[0;1;33;41m░[0;1;31;40m▓▒▓▒▒▓▒▒▒▒▓[0;1;33;41m░[0;1;31;40m▓▒▒[0;31m▒[0;1;31m▒▒▒▓[0;31m▒[0;1;31m▒▓▒▒▓▓▓[0;1;33;41m░[0;1;31;40m▀▀[0m      [1;33;41m▓▒[0;1;31;40m▓▓[0m
 [1;31;40m▓▓[0;1;33;41m▒▒▒▓▓[0;1;31;40m▄▄▄    ▄▓▓▓▒[0;31m▒[0;1;31m▒▒▒▒▒▓[0;1;33;41m░[0;1;31;40m▓▒▓█[0m                  [1;31;40m▒▓[0;1;33;41m░[0;1;31;40m▒▒▒▒▒▓[0;31m▒[0;1;31m▒▒▒▀▀▀[0m          [1;33;41m▓▒[0;1;31;40m▓▓▒[0m
 [1;31;40m▓▓▓▓[0;1;33;41m▒▒▒▒▒▒[0;1;31;40m▓▓▓▓▒▒▒▓▓▒[0;31m▒[0;1;31m▒▓▒▒▒▓▒▒▒▓  [0;1;30mThe [0mOt[1mhe[0mr S[1;30mide  [0;1;31m▓▒▓▒▒[0;31m▒[0;1;31m▒▓[0;31m▒[0;1;31m▒▓▒▒▒▄[0m          [1;31m▄[0;1;33;41m▒[0;1;31;40m▓▓▒▒[0m
-[1;31;40m▒▒▒▓▓▓▓▓▓▓▓▒▒▓▒▒▓▓█▓▒[0;31m▒[0;1;31m▒▓▒▒▒▓[0;31m▒[0;1;31m▒▓   [0;1;30m215[0m-8[1m60[0m-6[1;30m562   [0;1;31m▒▒▒▒▒▒[0;31m▒[0;1;31m▒▒▓▒▒▒▓▒▓▓▄▄   ▄▄[0;1;33;41m▒[0;1;31;40m▓▓▓▒▒[0;31m▒[0m
+[1;31;40m▒▒▒▓▓▓▓▓▓▓▓▒▒▓▒▒▓▓█▓▒[0;31m▒[0;1;31m▒▓▒▒▒▓[0;31m▒[0;1;31m▒▓   [0;1;30m   [0m  [1m  [0m  [1;30m      [0;1;31m▒▒▒▒▒▒[0;31m▒[0;1;31m▒▒▓▒▒▒▓▒▓▓▄▄   ▄▄[0;1;33;41m▒[0;1;31;40m▓▓▓▒▒[0;31m▒[0m
 [31m [0;1;31m▒▒▒▓▒▒▒▒▓▒▒▓▒▓▓▓█▓▒▒▓▒▒▓▒[0;31m▒[0;1;31m▒▓[0;31m▒[0;1;31m▒    [0;1;30mTS[0mA[1mN S[0mi[1;30mte[0m     [1;31m▒▓▒▒▒[0;31m▒[0;1;31m░[0;31m▒[0;1;31m▓▒▒▓▓█▓▒▓▒▓▓▓▒▒▓▓▓▓▒▒[0;31m▒▒[0m
 [31m▒▒[0;1;31m▒▒▒▓▒▓▓█▓▒▒▓▓▓█▓▓▒▒▒▒▒▒▓▒▓▓▒[0;31m▒    [0;1;30mT[0mH[1mP Si[0mt[1;30me[0m      [1;31m▓▒▒▒▒▒[0;31m▒▒▒[0;1;31m▓▓▒▓▓█▓▓▒▒▒▒▒▓▒▒▓[0;31m▒[0;1;31m▒▒[0;31m▒▒[0m
 [31m▒▒▒[0;1;31m▒▒▒▒▓█▓▓▒▒▓▓█▓▓▒[0;31m▒[0;1;31m▒▒▒▓▒▓▒▓█▓▓[0m                  [1;31m▒▓▓▒▒[0;31m▒[0;1;31m░[0;31m▒[0;1;31m▓█▓▒▒▓▓█▓▓▒▓▒▒▒▓▒▒[0;31m▒[0;1;31m▒[0;31m▒▒▒[0m

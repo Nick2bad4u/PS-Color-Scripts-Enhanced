@@ -5,7 +5,7 @@
 # Source SHA-256: ad416105de2116465d7b50829bf4a1d9a062bfa014d6c930660a6b8a1762439f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NG-LOA1.ANS by Nosegos (Fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Library Of Alexandria
 # SAUCE Author: Nosegos
 # SAUCE Group: Fire
@@ -38,5 +38,4 @@ Write-Host '
 [1;30;40m--------------------------------------------------------------------------------[0m
 [1;30;40m                                                                                [0m
 [1;30;40m                                                                    [0m
-[1;30m                                      [0m
-[1;30m--------------------------------------------------------------------------------[0m'
+[1;30m[0m[1;30m--------------------------------------------------------------------------------[0m'

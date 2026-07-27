@@ -5,7 +5,7 @@
 # Source SHA-256: 0cc8f836a159afe3507a36b6a7c0ca8423f8471296c6694f3bff3c3620acc733
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 77-DOA1.ANS by 77 (yak); released in yak9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: doa
 # SAUCE Author: 77
 # SAUCE Group: yak
@@ -39,7 +39,7 @@ Write-Host '
 [33m███████████████████████████▀▀▀▀▀███████████████████████████[0;37m [0;35m [0;1;35;45m░░▀▀[0;1;35;40m▄▄▄[0;1;32;40m▀▀▀▀[0;1;32;42m▄▄▄▄▄   [0m
 [35m▄[0;33m▀███████████████████████[0;37m  [0;31m▄▄[0;1;31m▄[0m  [33m▄████████████████████████▀[0;35m ▄[0;1;35;45m        ▀▀▀▀[0;1;35;40m▄▄▄▄▄[0;1;32;40m▀▀▀[0m
 [1;35;45m  [0;35m▄▄[0;33m▀▀▀████████████████████▄▄▄██████████████████████▀▀▀[0;37m  [0;35m▄[0;1;35;45m                   ▀▀▓[0m
-[1;35;45m       [0;35m▄▄▄▄▄[0;33m▀▀▀▀▀▀▀▀▀█████████████████▀▀▀▀▀▀▀▀▀[0;35m   ▄▄▄▄▄[0;1;35;45m      [0;30;45m77@mbcc.com[0;1;35;45m        [0m
+[1;35;45m       [0;35m▄▄▄▄▄[0;33m▀▀▀▀▀▀▀▀▀█████████████████▀▀▀▀▀▀▀▀▀[0;35m   ▄▄▄▄▄[0;1;35;45m      [0;30;45m           [0;1;35;45m        [0m
 [1;35;45m               [0;35m▄▄▄▄[0;1;30m                     [0;35m▄▄▄▄▄█████[0;1;35;45m                              [0m
 [1;35;45m                   [0;35m████▄▄▄▄▄▄▄▄▄▄▄▄█████████████████████████████████████████████[0m
 

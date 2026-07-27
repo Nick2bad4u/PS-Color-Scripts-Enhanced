@@ -5,7 +5,7 @@
 # Source SHA-256: 66ce999ca4089ff749e50134b09bdfef83cea0e1a97a5cd9670be08c0dc61c48
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M!&.ANS by Mice (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: & (Ampersand)
 # SAUCE Author: Mice
 # SAUCE Group: Samsara
@@ -31,12 +31,10 @@ Write-Host '
      [35m`$[0;1;30m$[0m    [1;30m$$s"[0;35m  [0;37m [0;1;31m dTSS$$$$$$$$$$ d''   d$$$$$$$$$$$$$$$$$$$$$$$$STb"²TSS$$S, [0;31mS[0m
       [35m  [0;1;30m [0;35m [0;1;30m     [0m    [1;31m                                                         [0;1;31;41m░[0;1;31;40m  [0m
       [35m`$[0;1;30;45m▓[0;1;30;40m,$$$''[0m     [1;31m`ITS$$$$$$²""""²$$$$$$$$$$²""""²$$$$ST`TSS$$$$$$ST  lTS$$$$$[0m
-      [35m    [0;1;30m     [0m     [1;31m       [0m [1m      [0m  [1m       [0m  [1m       [0m [1;31m                          [0m
-      [35m  `$$[0;1;30m$$$$[0m    [1;31m,TS²,s[0m,[1m$$$''$$$''[0;1;47m░[0;1;40m$$$''$$$''$$$$''$$$''$$$[0m`[1;31msd  TSS$$$STi  lTS$$$$$[0m
+[35m[0;1;30m[0m[1;31m[0m[1m[0m[1m[0m[1m[0m[1;31m[0m      [35m  `$$[0;1;30m$$$$[0m    [1;31m,TS²,s[0m,[1m$$$''$$$''[0;1;47m░[0;1;40m$$$''$$$''$$$$''$$$''$$$[0m`[1;31msd  TSS$$$STi  lTS$$$$$[0m
       [35m      [0;1;30;45m░[0;1;30;40m  [0m    [1;31m      [0m  [1m   [0m [1m         [0m [1m            [0m  [1;31m                        [0m
       [35m     "²$[0;1;30m$b[0m   [1;31mlTS$$$$ss[0;1;37m²$"$$$$[0m"[1m$$$²$$$$[0m''[1m$$$[0;1;47m▓[0m"[1m$²[0m"[1;31msd$$$Sb TSS$$ST'',lTS$$$$$$[0m
-      [35m          [0;1;31m                                                               [0m
-                [1;31m "²ITSS$$$S²²²"""'',ssssssss,`"""²²²²lTSSS$$$$$$$ST",TS$$$$$$$$$[0m
+[35m[0;1;31m[0m                [1;31m "²ITSS$$$S²²²"""'',ssssssss,`"""²²²²lTSSS$$$$$$$ST",TS$$$$$$$$$[0m
     [1;33m&[0m [33m[[0;1;33mAMPERSAND[0;33m][0m   [1;31m"²iT²" ,sS$$$$$S"$$$$$$$STIs,_[0m   [1;31m"²iTS$$$$$$$$$$$$$$$$$$$²''[0m
                         [1;31m ,sS$$$$$STsS$$$$$$$$$$$$STTIs, "ITS$$$$$$$$$$$$$S²"[0m
     [33m+o[0;37m [0;1;33mm0gel[0m [33m&[0;37m [0;1;33m33rie[0m     [1;31m"S$$$$$ST'' ²$$$$$$$$$$$$$$$$STI"s$$$$$$$$$$S²²"[0m

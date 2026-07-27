@@ -5,7 +5,7 @@
 # Source SHA-256: 64495615e7fa9bb3a7780f830e7eb39e517ec1b162a6587913e9c0c50042c5c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-USEFL.ANS by trinity (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: take a look at it...
 # SAUCE Author: trinity
 # SAUCE Group: phat studios '97
@@ -36,8 +36,7 @@ Write-Host '
 
 
 [1;30m-[0;31m login ansi [0;1;30m-------------------------------------------------------------------[0m
-  [31m                    [0;37m   [0;1;30m [0;31m                                                      [0m
-
+[31m[0;37m[0;1;30m[0;31m[0m
 [31m                                                                  [0m
 [37m  [0;1;36;46m░[0;36m█[0;1;36;46m▄▄▄██▀[0;36m▀▀▀▀▓▓██████▓▓██████████████████████[0;1;34;46m░░[0;36m████[0;1;34;46m▄▄▄▄█ [0;36m████▄▌▓███[0;1;33;46m░▒░[0;36m██▌███[0m
 [37m  [0;1;36;46m▀▀████▌[0;36m█[0;37m [0;35m░░[0;37m [0;36m░░▓▓▓▓███████[0;1;33;46m░[0;36m███[0;1;36;46m▀▀▀▓▓░[0;36m███████[0;1;34;46m▄▄▓▓█████[0;1;34;47m██[0;1;34;46m██▌[0;36m██████████████████▀▄▄[0m

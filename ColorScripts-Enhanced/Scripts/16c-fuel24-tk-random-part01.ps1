@@ -5,7 +5,7 @@
 # Source SHA-256: 8bb1a097d83cec6ffffd9e958d6fdaf372c6c6824620c6696f4063dc09d99c86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-random.ans by The Knight (FUEL); released in fuel24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Random
 # SAUCE Author: The Knight
 # SAUCE Group: FUEL
@@ -19,8 +19,7 @@ Write-Host '
                           [37;40m  [0;1;30;40m                                                [0m   
 
 
-    [1;30m  [0m                [1;30m                      [0m
-________________________[1;30m_____[0m________   _     __[1;30m___[0m__   _
+[1;30m[0m[1;30m[0m________________________[1;30m_____[0m________   _     __[1;30m___[0m__   _
        [1;30m ░▒▄[0;34m [0;1;30;44m▓▒░░░░░░░░░░░  ░[0;34m████████[0;1;30;44m░░░░[0;34m████[0;1;30;44m░░[0;34m█▓▀▀[0;37m [0;1;30m▄[0m▄[1;47m▓[0;1;40m▀[0m ▀  [1;30;47m▀[0;47m█[0;1;30;40m▌[0m [1;30m▄██▄▀[0m
         [1;30m ▒█▓[0;34m [0;1;30;44m░░▒▒░░░░   [0;34m█████████████████▓▓▓██▀▀▀[0;1;30m▄[0;1;37;47m▄▄█▓[0;1;37;40m▌[0m   ▀[1;30;47m▐[0;1;30;40m▌▐█[0;1;30;47m▀ ▓[0;1;30;40m▄[0m     [1;30m░[0m
      [1;30m■[0m [1;30m [0m [1;30m▄▓▀[0;1;30;43m▓[0;1;30;40m▄[0;34m▀█▀[0;1;30;44m▀░ [0;34m██████████████▓▓▓███▀▀▀[0;1;30m▄▄[0m  ▄[1;47m▄██▓▓▓[0m▄    [1;30;47m▒[0m      [1;30m▀█▄[0m░░[1;30m ▓[0m
@@ -49,8 +48,7 @@ ________________________[1;30m_____[0m________   _     __[1;30m___[0m__   _
 
 
 
-                      [1;30m                      [0m
-_____________[1;30m_____[0m________[1;30m________[0m___   _     __[1;30m__[0m___   _
+[1;30m[0m_____________[1;30m_____[0m________[1;30m________[0m___   _     __[1;30m__[0m___   _
      [1;30m░[0m▀▀[1;36m▀▀[0;1;37m▀▀▀█[0;1;37;47m▓▒░[0m█[1;30;47m▓▓[0;1;34;40m▌ ▀▓▄  [0;36m█[0;1;33m▀▀[0;33m█ [0;1;33m▀▀▀[0;36m▀ █[0;37m█[0;1;37;47m▓▒[0;1;37;40m  [0;36m▀[0;37m▀[0;1;33m▀▀ [0;33m▀█▀[0;36m█▓    [0;1;30m░[0;1;35m▄▄[0;1;37m▓[0;1;30;47m▄[0;35m█▀ [0;1;30m▄▄▄▄[0m▄ [36m▀▄[0;1;30m░[0m
      [1;36;47m▄[0;1;36;40m█[0;1;37;47m▒▒░░[0m█▓▄▄▄░▀▀▀[1;30m▓[0;1;34m░  ▓[0m      [33m▀[0;1;33m▄[0;1;31m▀▀[0;1;33m▀▀▀[0;36m▐[0;1;33m▀[0m▓ [1;33m▀▀[0;1;31m▀█[0;1;33m▄[0;33m▄[0m     [37m░ [0;35m▐[0;1;35m▄[0;1;37m▓[0;1;30;47m▓▄[0;35m▓▀ [0;1;37m▄[0;1;37;47m▓[0;1;37;40m▀▀▀█[0;1;37;47m▓░[0m█ ▓[36m▄[0m
 [36m   [0;1;30m░[0;1;37m▐[0;1;36;47m▓[0;1;36;40m   [0m▀[1;30m█[0m▄[1;30m▄▀[0;1;37;47m░▄[0;1;30;47m░▓[0;1;34;40m▀▀   ░▒  [0;1;33;40m░░░░[0;33m▐▀  ▀[0;1;31m▀[0;33m▀▄ ▄ [0;1;31m▀▀[0;33m▀▀ [0;1;33m█ ░░░ [0m░ [35m▄[0;1;35m█[0;1;30;47m▓[0;35m█▀ [0;37m▄[0;1;37;47m▄▓[0;1;37;40m [0m▐█▄ [1m▐[0;1;47m▒░[0m▄░▓[1m█ [0;36m▀[0m

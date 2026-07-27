@@ -5,7 +5,7 @@
 # Source SHA-256: a43886e2755fdc343d4b0bf5fc48fcbe4516dbb588eaaf4d0e20bcaf6f936c97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JTE-PUPI.ANS by Jate (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -51,5 +51,4 @@ Write-Host '
       [31m░[0m      [31m░  [0;34m░[0m     [34m░░▒    [0;31m▀▀▀▀▀▀    [0;34m░░▒░[0m                [34m░ [0;31m▒▓ [0;34m▒▓▒ [0;31m▓█ [0;34m█▓▒░[0m
                                                              [31m░▒ [0;34m░▒░ [0;31m▒▓[0;34m▒▓█▓▒[0m
                                                               [31m░  [0;34m░  [0;31m░▒ [0;34m░▒▒[0m
-                             [1;37m [0;1;35m─ [0;35m [0;1;35m [0;1;37m  [0;1;35m [0;35m [0;1;35m [0;1;37m   [0;1;35m  [0;35m [0;1;35m [0;1;37m    [0m                   [31m░[0m
-                            [1;37m<[0;1;35m- [0;35m+[0;1;35m3[0;1;37m5[0;1;35m8 [0;35m- [0;1;35m46 [0;35m- [0;1;35m7[0;1;37m5425 ->[0m'
+                             [1;37m [0;1;35m─ [0;35m [0;1;35m [0;1;37m  [0;1;35m [0;35m [0;1;35m [0;1;37m   [0;1;35m  [0;35m [0;1;35m [0;1;37m    [0m                   [31m░[0m[1;37m[0;1;35m[0;35m[0;1;35m[0;1;37m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;1;37m[0m'

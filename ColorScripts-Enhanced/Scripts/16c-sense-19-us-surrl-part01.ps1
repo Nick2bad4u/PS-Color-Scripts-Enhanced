@@ -5,15 +5,13 @@
 # Source SHA-256: f1249d1189631c64ecebad920741ed7d48ac0e66feee8ec80d513149fc8aceef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-surrl.ans by Taintedx + Aesthetic (sense-19); released in sense-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
-                                                    [1;30m                           [0m
-                                                                             [1;30mmy.[0m
- [31m              [0;1;31m             [0;1;35m           [0m       
-                                                   [1;30;45m▀[0;35m██▄▄▄▄[0;37m  [0;1;35;45m▒▒[0;35m▌[0;37m  [0;35m░░[0;37m [0;1;30m▄[0;35m██[0;37m  [0;35m█[0;30;45m2[0;35;40m▌k4[0m
+[1;30m[0m                                                                             [1;30mmy.[0m
+[31m[0;1;31m[0;1;35m[0m                                                   [1;30;45m▀[0;35m██▄▄▄▄[0;37m  [0;1;35;45m▒▒[0;35m▌[0;37m  [0;35m░░[0;37m [0;1;30m▄[0;35m██[0;37m  [0;35m█[0;30;45m2[0;35;40m▌k4[0m
                          [35;40m▄▄▄▄▄▄▄▄▄▄▄▄[0m             [35;40m▀▀▀[0;37;40m   [0;35;40m██▌[0;37;40m [0;1;35;45m░░[0;35m▌▄▓▓[0;37m  [0;35m██▌[0;37m [0;35m▐██▌[0m
 [31m  ░░ ░░[0m        [1;30m▄[0;31m▄▄▄[0;35;41m░░░░░▓▓▓░[0;35;40m▓▓▓▓▓▓▓▓█████▄▄[0m     [31;40m   [0;35;40m ▄▄████[0;37;40m [0;35;40m▐███▀▀[0;37;40m  [0;35;40m▐██[0;37;40m  [0;35;40m███[0m
 [31;40m░░▓▓░▓▓░░[0;1;30;40m▄[0;31m▄▄[0;1;33;41m░░░░[0;31m████   [0;35;41m░░░░░[0;31;40m  ▐[0;35;41m▓▓▓▓▓▓▓▓▓▓[0;35;40m██▀▀▄████ [0;1;35;45m░░[0;35m█▀▀▀[0;1;35;45m░[0;35m▌▐█████▄▄▀█[0;1;35;45m░░░▒[0;35m▓▓░░[0;1;35;45m▓▓[0;35m▄[0m

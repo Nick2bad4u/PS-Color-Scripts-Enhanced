@@ -5,7 +5,7 @@
 # Source SHA-256: 96175b43be7fd944d86714d83b2fbd1f68518e86de51db6b55c6ca7ad8c3b257
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX-UHS.ANS by Apox (Apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: here comes the sun
 # SAUCE Author: Apox
 # SAUCE Group: Apathy
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
- [32m  [0;1;32m [0;1;33m      [0;1;32m [0m
-
+[32m[0;1;32m[0;1;33m[0;1;32m[0m
                                [1;32m░▒▓█[0;1;32;47m▓▓[0;1;32;40m██▀[0m
                          [32m▄[0;1;32m▄▄▄▄▄▄[0;32m█[0;1;32m█[0;1;32;47m▓▒▒▓[0;1;32;40m█[0m
               [1;32m [0;32m▐[0;1;32;42m▐[0;1;32;40m█████   [0;32m▐[0;1;32;42m▐[0;1;32;40m██[0;1;32;42m█[0;1;32;40m█▌[0;1;32;42m▌[0;1;32;40m██[0;1;32;47m▓▓[0;1;32;40m█▓            [0;32m▄[0;1;32m▄▄▄▄▄▄▄░     [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: bd3a34933de93812a908e6c7fb04cccf265e93123a55805953261f19f2f393e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tr-alien.ans by Terrato (serial03); released in serial03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -14,8 +14,7 @@ Write-Host '
 [32mƒƒƒƒƒƒƒƒƒƒƒT$$$$''[0;37m  [0;1;32m,gQ$QQgg,[0;32m`"²4$$$$$$$$$ƒƒƒ$$$ƒ$$$$$$$$$$ƒƒ$$$i[0;37m [0;32mƒ:[0m
 [32mƒƒƒƒƒƒƒƒƒƒƒi$$$''[0;37m [0;1;32m,$[0;32m$$$$$$$$[0;1;32m$$Qg,[0;32m`$$$$$$$$$i$$$i$$$$$$$$$$ƒƒƒƒ$$[0;1;32m$[0m [32mi[0m
 [32mƒƒƒƒƒƒƒƒƒƒ;i$i'',$$P"`"²4$$$$$$$[0;1;32m$,[0;32m`4$$$$$$$;$$;;$$$$$$$ƒƒƒƒƒƒƒƒ$[0;1;32m$,[0;32m:[0m
-[32m          [0;37m [0;32m       [0;31m  [0;1;31m  [0;31m  [0;37m [0;32m        [0;1;32m  [0;32m       [0;37m [0;32m  [0;37m [0;32m                  [0;1;32m  [0m
-[32miƒƒƒiƒƒƒii[0;37m [0;32m$$i$''[0;31m,$[0;1;31;41m$$[0;1;31;40m$[0;31m$$$$Qg,[0;32m`4$$$$$[0;1;32m$g,[0;32m`$$;[0;37m [0;32mi[0;37m [0;32m;$[0;1;32m.,gggggQQQQQQQ$$[0;32m$$[0;1;32m$,[0m
+[32m[0;37m[0;32m[0;31m[0;1;31m[0;31m[0;37m[0;32m[0;1;32m[0;32m[0;37m[0;32m[0;37m[0;32m[0;1;32m[0m[32miƒƒƒiƒƒƒii[0;37m [0;32m$$i$''[0;31m,$[0;1;31;41m$$[0;1;31;40m$[0;31m$$$$Qg,[0;32m`4$$$$$[0;1;32m$g,[0;32m`$$;[0;37m [0;32mi[0;37m [0;32m;$[0;1;32m.,gggggQQQQQQQ$$[0;32m$$[0;1;32m$,[0m
 [32miiiiƒƒiƒƒ;:$$;$[0;31m;$$[0;1;31m$[0;31m$$$$$$$$ƒƒ,[0;32m`4$$$$$$$$$[0;37m [0;32m:i[0;37m [0;32m$$$$$$$$$$$$$$$$$$$$$[0;1;32m$,[0m
 [32mi;iiiiii;[0;37m [0;32mi$$i$[0;31m;$$$$$P²4$$$ƒƒi;,[0;37m [0;32m`$$$$$P'';;,P"""4$$$$$$$$$$$$$$$$[0;1;32m$$$,[0m
 [32m;;;i;;ii[0;37m  [0;32m$$$T[0;1;32m$[0m [31m$$$$QQgQQ$$ƒƒƒi;;,[0;32m`$P"[0;37m  [0;32m"²*+-[0;37m [0;32m+²""`[0;31m∙+ ssssss+∙[0;32m_[0;1;32m`"+$P"[0m

@@ -5,14 +5,13 @@
 # Source SHA-256: 4c320f00b33128ee7adb98390a7eab105d081c195999f7fda0679094aa8b3d82
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cm-fcdog.ans by Computer Man (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
                               [1m.[0m [1m.-~```~-.[0m
-[1m                [0;1;35m           [0;1;37m  [0;1;30m [0;1;37m    [0m      [1m                            [0m
-[1m  _.._         [0;1;35m:[0;1;37m [0;1;35m.[0;1;37m   [0;1;30m_.,,._:`[0;1;37m   [0;1;30m,[0;1;35m_,[0;1;37m [0;1;35m- ,-.[0m [1m [0m
+[1m[0;1;35m[0;1;37m[0;1;30m[0;1;37m[0m[1m[0m[1m  _.._         [0;1;35m:[0;1;37m [0;1;35m.[0;1;37m   [0;1;30m_.,,._:`[0;1;37m   [0;1;30m,[0;1;35m_,[0;1;37m [0;1;35m- ,-.[0m [1m [0m
 [1m.`    `.[0;33m,_[0;1;37m     [0;1;35m`,`[0;1;30m.i888**7`[0;1;37m   [0;1;30m.└i[0;1;37m    [0m  [1;35m`,[0;1;37m [0;1;35m.[0m
 [1m`.   [0;33m _i88888888:[0;1;30m:88!`[0;1;37m  [0;1;30m,8┐.,┘┘:[0;1;35m:. _,,-`_.`[0m [1m . [0m
  [1m `~[0;33m!88888880888 [0;1;30mi88:[0;1;37m [0;1;30m.8┘`[0;1;37m [0;1;30m┌yy8`[0;1;37m     [0m    [1m [0;1;35m;[0;1;37m/`_.,, pink showercap[0m

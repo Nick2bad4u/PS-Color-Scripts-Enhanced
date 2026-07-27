@@ -5,7 +5,7 @@
 # Source SHA-256: caa6900fa3bc39e5d12aa7165ebc603d973718e7d2a8e724df8525208679b504
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-PM1.ANS by Lord Jazz (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Perpetual Motion
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -57,5 +57,4 @@ Write-Host '
 [1;30;40m▒ ▓ [0m                   [1;30m   [0;36m         [0;37m [0;36m    [0;37m [0;36m     [0;37m [0;36m     [0;37m  [0;1;30m  [0;36m            [0;37m [0;36m    [0;37m   [0;1;30m▒ ▓[0m
 [1;30m▓ ░ [0m           [1;30m   [0;36m    [0;37m [0;36m     [0;37m [0;36m    [0;37m [0;36m        [0;37m [0;36m       [0;37m [0;36m        [0;37m [0;36m        [0;37m [0;36m       [0;1;30m▓ ▒[0m
 [1;30m▓─░───░────────────────░─░──────────────────────────────────────────░───────░─▓[0m
-[1;30m                     [0;1;32m [0;32m   [0;1;30m                                                      [0m
-[1;30m──────░─────────────────────────────────────────────────────────────░──────────[0m'
+[1;30m[0;1;32m[0;32m[0;1;30m[0m[1;30m──────░─────────────────────────────────────────────────────────────░──────────[0m'

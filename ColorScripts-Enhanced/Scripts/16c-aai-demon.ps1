@@ -5,17 +5,13 @@
 # Source SHA-256: ccb348dc538b28435cb7b93d6eede0ac950b24a6df3729177bd9babc866442f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEMON.ANS by Smooth (aai); released in aai and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
 ===========================================================================
-                                    
 Date: 11-01-92 (12:17)             Number: 107
-                                               
-                                             
-                                                        
 ---------------------------------------------------------------------------
   [32m▄▄▀▀▄▄    [0;34m▀█▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓█▀    [0;32m▄▄▀▀▄▄[0m
 [1;32m▄▀[0m      [1;32m▀▄    [0;34m▀▀▀████████▀▀▀▀▀███████████████▀▀▀▀▀████████▀▀▀[0m  [34m  [0;1;32m▄▀[0m      [1;32m▀▄[0m
@@ -39,7 +35,7 @@ Date: 11-01-92 (12:17)             Number: 107
 [1;34m   │[0m                  [1;36m [0;36m      [0;1;36m   [0;36m     [0;1;36m   [0;36m    [0;1;36m [0;36m     [0m                    [34m│[0m
 [34m   │[0m      [1;36m [0;36m       [0;1;36m [0;36m  [0;1;36m [0;36m       [0;1;36m   [0;36m        [0;1;36m [0;36m      [0;1;36m   [0;36m        [0;1;36m [0;36m    [0m       [1;34m│[0m
 [1;34m   [0;34m│[0;37m■[0m      [1;36m [0;36m   [0;1;36m [0;36m    [0;1;36m [0;36m            [0;1;36m [0;36m    [0;1;36m   [0;36m    [0;1;36m [0;36m  [0;1;36m [0;36m       [0;1;36m [0;36m     [0m       [37m■[0;34m│[0m
-[34m   [0;1;34m└────[0;34m─[0;1;34m───[0;34m─[0;1;34m─[0;34m────────[0;1;34m─── [0;1;37m8[0m [1;36mo 8   6 2 4   2 8 1 [0;1;37m7 [0;1;34m──[0;34m─[0;1;34m─[0;34m─[0;1;34m─────[0;34m─────[0;1;34m───[0;34m─[0;1;34m─[0;34m┘[0m
+[34m   [0;1;34m└────[0;34m─[0;1;34m───[0;34m─[0;1;34m─[0;34m────────[0;1;34m─── [0;1;37m [0m [1;36m                    [0;1;37m  [0;1;34m──[0;34m─[0;1;34m─[0;34m─[0;1;34m─────[0;34m─────[0;1;34m───[0;34m─[0;1;34m─[0;34m┘[0m
 
 
 ---

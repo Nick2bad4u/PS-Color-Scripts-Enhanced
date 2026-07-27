@@ -5,7 +5,7 @@
 # Source SHA-256: 8ee40f9d342c01db814e16bd4ca9fd9430e6ee244b7e754e9847073313069d99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GV-MAS1.ANS by Groove (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Masacre Brutal #1
 # SAUCE Author: Groove
 # SAUCE Group: AMBUSH Productions
@@ -21,8 +21,7 @@ Write-Host '
 [1m$$$$ $[0;1;31m$[0;1;37m$ $$$$ ,sS[0;1;31m$[0;1;37m"$$$$$$$[0;1;31m$[0;1;37m$ """""· ,sS[0;1;31m$[0;1;37m"$$[0;1;37;47m░[0;1;37;40m$$$$[0;1;31;40m$[0;1;37;47m░[0;1;37;40m $$$$$$$$[0;1;31;40m$$[0;1;37;40m$ $$$$$$$$$ $$[0;1;37;47m░[0;1;37;40m$$$[0m
 [1m$$[0;1;31m$[0;1;37m$[0;1;32m [0;1;31m$$$[0;1;32m [0;1;31m$[0;1;37m$[0;1;31m$$[0;1;31;41m$[0;1;31;40m$[0;1;37;40m$$[0;1;31;40m$[0;1;32;40m [0;1;31;40m$$[0;1;37;40m$$[0;1;31;40m$[0;1;37;40m`"[0;1;31;40m""[0;1;37;40m"[0;1;31;40m$$S[0;1;37;40m#s,[0;1;31;40m$[0;1;31;41m$[0;1;31;40m$[0;1;37;40m$[0;1;31;40m$[0;1;32;40m [0;1;31;40m$$[0;1;37;47m▓[0;1;37;40m$[0;1;31;40m$$[0;1;37;40m$[0;1;31;40m$$[0mª[1;31m""""""$[0;1;37m$[0;1;31m$$[0;1;31;41m$[0;1;31;40m $[0;1;37;40m$[0;1;31;40m²[0;1;37;40m"[0;1;31;40m$$[0;1;37;40m$[0;1;31;41m$[0;1;31;40m$$[0;1;37;40m$$[0;1;37;47m░[0;1;37;40m$²''[0m
 [1m$$$[0;1;31m$[0;1;32m [0;1;31m$$$[0;1;32m [0;1;31m$$$[0;1;31;41m$[0;1;31;40m$$$[0;1;37;40m$[0;1;31;40m$[0;1;32;40m [0;1;31;40m$$$[0;1;31;41m$[0;1;31;40m$$$$$ $$$[0;1;31;41m$[0;1;31;40m$$[0;1;31;41m$[0;1;31;40m$$$$ $$$$$$$$$ ,s#S$$$$$[0;1;31;41m$[0;1;31;40m$  [0;1;37;40m·[0;1;31;40m  $$$$$ ss[0;1;37;47m▓[0;1;37;40mss,[0m
-[1m   [0;33m                                                             [0;1;37m [0;33m          [0;1;37m    [0m
-[1m$[0;1;31m$$$ $[0;1;31;41m$[0;1;31;40m$ $$$$`²$$$s$$$$$`²$$s$$$$²''²$$$$s$$[0;1;31;41m$[0;1;31;40m$[0;1;31;41m$[0;1;31;40m`²$$s$$[0;1;31;41m$[0;1;31;40m$²''$$$$$     `²$[0;1;31;41m$[0;1;31;40m$s$$$[0;1;37;40m$[0;1;31;40m²''[0m
+[1m[0;33m[0;1;37m[0;33m[0;1;37m[0m[1m$[0;1;31m$$$ $[0;1;31;41m$[0;1;31;40m$ $$$$`²$$$s$$$$$`²$$s$$$$²''²$$$$s$$[0;1;31;41m$[0;1;31;40m$[0;1;31;41m$[0;1;31;40m`²$$s$$[0;1;31;41m$[0;1;31;40m$²''$$$$$     `²$[0;1;31;41m$[0;1;31;40m$s$$$[0;1;37;40m$[0;1;31;40m²''[0m
 [1;31m  [0;35mm    a    s    a    c    r    e        b    r    u    t    a    l[0;37m  [0;1;31m$$S#[0;31m░[0;1;31m,[0m
 ª[35m [0;1;31m [0;1;37m·[0;1;31mS#ss,_ [0;1;37m·[0;1;31m   [0;1;37m·[0;1;31m ,s#S$$"$$S#s,gggggg gggggg$S#ss,_    [0;1;37m·[0;1;31m    """""$$Ss,$$$$[0;31m░[0;1;31m$  [0;1;37m·[0m
 [1;31m [0;1;37m·[0;1;31m $$$[0;31m$[0;1;31m$$$   [0;1;37m·[0;1;31m   $$[0;31m$[0;1;31m$$$ $$$$$$$$$[0;31m$[0;1;31m$$ $$$[0;31m$[0;1;31m$$$$$$$$$     [0mª[1;31m  ,s#S$"$$[0;1;33;41m$[0;1;31;40m$$$$$$[0;31m░$[0;37mª[0;1;31m [0;35m [0m

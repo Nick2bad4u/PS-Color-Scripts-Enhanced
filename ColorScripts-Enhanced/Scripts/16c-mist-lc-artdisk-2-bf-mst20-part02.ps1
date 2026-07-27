@@ -5,7 +5,7 @@
 # Source SHA-256: a33a29567ceee00fbb2fb78ba9d549be1c4b897396b2c15cf65521808073be36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-MST20.ANS by bryface (mistigris); released in mist-lc-artdisk-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mistigris 20th anniversary
 # SAUCE Author: bryface
 # SAUCE Group: mistigris
@@ -65,5 +65,4 @@ Write-Host '
 [37m    [0;31m ▀█[0;1;31;41m [0;31m█▌   [0m      [1;30mansi [0m                               [1mmistigris[0m     [1;30m░░▒▒░[0m
 [1;30m░[0m     [31m  ▀█▄[0m       [1;37m [0;1;30m          [0m                   [1m                [0m     [1;30m░░░░░[0m
 [1;30m░░[0m        [31m█[0m
-                                                  [1m              [0m
-[30m█[0m'
+[1m[0m[30m█[0m'

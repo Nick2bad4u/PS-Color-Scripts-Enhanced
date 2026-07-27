@@ -5,7 +5,7 @@
 # Source SHA-256: ed500ca6f3526a6807c3808b8bab99148fd649f56843e09e7b678d4048687322
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-WGMS.ANS by nitron (mistigris); released in mist0523 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: WarGames Poster
 # SAUCE Author: nitron
 # SAUCE Group: mistigris
@@ -51,11 +51,9 @@ Write-Host '
             [31m▀▀[0;1;31;41m░░░[0;31m██[0;1;30;41m░░▒[0;1;30;40m▀▀[0m    [31m░░[0;37m [0;1;31m▀[0;1;31;41m▓▒░[0;33m▀[0;37m        [0;1;30m▀[0;1;30;41m▒▓▓[0;1;30;40m▀[0m       [31m▀▀[0;1;31;41m░░░[0;31m██[0;1;30;41m░░▒[0;1;30;40m▀▀[0m
                 [31m▀▀▀[0;1;30m▀[0m         [31m░[0;37m   [0;33m▀[0;31m            [0;1;30m▀[0m             [31m▀▀▀[0;1;30m▀[0m
 
-                   [1m         [0m    [1m                 [0m   [1m           [0m
-                [1;30m░[0;31m▄[0;37m   [0;31m▄[0;37m  [0;31m▄▄▄   ▄▄▄    ▄▄▄▄[0;37m  [0;31m▄▄▄  ▄   ▄[0;37m  [0;31m▄▄▄▄[0;37m  [0;31m▄▄▄▄[0m
+[1m[0m[1m[0m[1m[0m                [1;30m░[0;31m▄[0;37m   [0;31m▄[0;37m  [0;31m▄▄▄   ▄▄▄    ▄▄▄▄[0;37m  [0;31m▄▄▄  ▄   ▄[0;37m  [0;31m▄▄▄▄[0;37m  [0;31m▄▄▄▄[0m
 [37m                 [0;31m█[0;37m   [0;31m█[0;1;30m [0;31m█[0;37m   [0;31m█[0;37m [0;31m▓[0;37m   [0;31m█[0;37m  [0;31m▓     ▓[0;37m   [0;31m█[0;37m [0;31m█▀▄▀█[0;37m [0;31m▓░[0;37m    [0;31m▓░[0m
 [37m                 [0;31m█[0;37m [0;31m▄[0;37m [0;31m▓[0;1;30m░[0;31m█▀▀▀▓[0;37m [0;31m▓▀█▀░ ░▓ ▀▀▄[0;37m [0;31m▓▀▀▀▓[0;37m [0;31m█[0;37m [0;31m▀░▓[0;37m [0;31m▓▀▀▀[0;37m   [0;31m▀▀▀▄[0m
 [37m                 [0;31m▓▀ ▀▓[0;1;30m [0;31m▓[0;1;30m   [0;31m▓[0;37m [0;31m▓[0;37m  [0;31m▀▄[0;37m  [0;31m▀▄▄▄▀ █[0;1;30m░[0m  [31m▓[0;37m [0;31m▓[0;37m   [0;31m▓[0;37m [0;31m▀▄▄▄▄[0;37m [0;31m▄▄▄▄▀[0m
 [37m                                                              [0;1;30mn1[0m
-                              [1m                     [0m
-[30m1[0m'
+[1m[0m[30m1[0m'

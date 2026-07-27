@@ -5,7 +5,7 @@
 # Source SHA-256: 01fc28a54185c63cebb7e8f4df09ce2a2012c3d140b21ae1dc80c9db9629e0ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-TRB.ICE by Bodycount (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 101-150
 # Columns: 1-80
 
@@ -48,13 +48,4 @@ Write-Host '
 [1;30;40m▀▀[0m [36m█[0;1;36;46m▓▌[0;36m▌[0;1;30m▀[0m░[1;30m▀▀[0;36m▐[0;1;30;46m▒▓[0;1;30;40m▌[0m [36m█[0;1;36;46m▓▌[0;36m▌[0;1;30m▀▀▀[0m [1;30;46m░▒▓[0;1;30;40m▌[0m [36m█[0;1;36;46m▓▌[0;36m▌[0;1;30m▀▀▀▀[0;36m [0;1;30;46m▒▓[0;1;30;40m▌▀▀[0m [36m▐[0;1;30;46m░[0;36m▄ [0;1;30m▀[0m [36m█[0;1;36;46m▓▌[0;36m▌[0;1;30m▀▀[0m░[1;30m▀[0m [1;30;46m▒▓[0;1;30;40m▌▀▀▀[0;36m▐[0;1;36;46m▐▓[0;36m█[0m [1;30m▀▀[0;36m▐[0;1;36;46m▓▌[0;36m█[0m [1;30m▀▀[0m
 [1;30m  [0m [36m█[0;1;36;46m░▓▄[0;36m▄[0;1;30m  [0;36m▐[0;1;30;46m▒▓[0;1;30;40m▀[0m  [36m█[0;1;36;46m░▓▄[0;36m▄[0;1;30m [0;36m▄[0;30;46m░[0;1;30;46m▒▓[0;1;30;40m▀[0m [36m █[0;1;36;46m░▓▄[0;36m▄[0m   [1;30m▐[0;1;30;46m▓█[0;36m  [0m  [1;30;46m░▒▓[0;1;30;40m▌[0m  [36m█[0;1;36;46m░▓▄[0;36m▄[0m   [1;30m▐[0;1;30;46m▓█[0;36m [0m  [36m▄[0;1;36;46m▄▓░[0;36m█[0m [36m [0m [36m▐[0;1;36;46m░▓▄[0;36m▌[0m
 [1;30m [0m [36m▐[0;30;46m░[0;36;40m█[0;1;36;46m░ [0;36m▀▀[0;1;30m [0;36m▀[0;1;30m▀[0m   [36m▐█▓[0;1;36;46m░[0;36m█▀▀[0m [36m▀[0;1;30m▀[0m   [36m▐[0;30;46m░[0;36;40m█[0;1;36;46m░[0;36m█▀▀[0m   [1;30m▀▀▀[0;36m ▄[0;30;46m░[0;1;30;46m▒▓[0;1;30;40m▀[0m  [36m▐[0;30;46m░[0;36;40m█[0;1;36;46m░[0;36m█▀▀ [0m [36m [0;1;30m▀▀▀[0m [36m▀▀█[0;1;36;46m░ [0;30;46m░[0;36;40m▌  █[0;30;46m░[0;1;36;46m░[0;36m█▀▀[0;37m [0m
-[1;30m [0m [36m▀▀[0m           [36m▀▀[0m           [36m▀▀ [0m         [36m▀  ▀[0;1;30m▀[0m    [36m▀▀  [0m [36m   [0m           [36m▀▀[0m [36m▀▀[0m  [36m  [0m
-[1;30m               [0m  [36m [0m            [1;37m [0m  [1m   [0m [1m     [0m [1m      [0m
-                 [36m [0m
-[1;30m     [0m            [36m [0m           [37m [0;1;37m       [0m [1m   [0m [1m     [0m [1m    [0m
-[1;30m   [0m              [36m [0m         [37m [0;1;37m         [0m [1m   [0m [1m     [0m [1m   [0m [1m  [0m
-[1;30m     [0m           [36m  [0m          [37m  [0;1;37m     [0m [1m            [0m [1m   [0m
-[1;30m   [0m             [36m [0m          [37m [0;1;37m       [0m [1m     [0m [1m         [0m [1m  [0m
-[1;30m [0m               [36m [0m        [37m [0;1;37m   [0m [1m    [0m [1m        [0m [1m   [0m [1m   [0m [1m    [0m
-[1;30m [0m               [36m [0m             [37m [0;1;37m       [0m [1m            [0m
-[1;30m  [0m                        [1;37m([0m5[1m19)[0m4[1m73-[0m4[1m328 ∙ ([0m5[1m19)[0m4[1m73-[0m9[1m378[0m'
+[1;30m [0m [36m▀▀[0m           [36m▀▀[0m           [36m▀▀ [0m         [36m▀  ▀[0;1;30m▀[0m    [36m▀▀  [0m [36m   [0m           [36m▀▀[0m [36m▀▀[0m  [36m  [0m'

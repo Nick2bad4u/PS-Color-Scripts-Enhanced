@@ -5,7 +5,7 @@
 # Source SHA-256: 8a42b80f00b7830ef1a4a0e6a8ff6a1479480324e6353ee56f38a5ca00ac722b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zO-JamesBodie.ANS by Enzo (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ANSi Legends: James Bodie
 # SAUCE Author: Enzo
 # SAUCE Group: blocktronics
@@ -18,7 +18,7 @@ Write-Host '
 [37;40m  [0;1;37;40m                [0m        [35m  [0;37m [0;1;37m              [0;1;35m   [0m                [1;30m   [0m [35m▌█[0;1;37;45m [0;35m█[0;1;37;45m [0;35m█[0;1;37;45m [0;35m█[0;1;37;45m  [0;35m▒[0m
 
                 [35m  [0m                                                [31m░░░░░░░░░░░[0m
-[35m [0;31m  █[0;1;31;41m▄▄[0;31m█████████████████████████████████████████████████████[0;30;41mBLOCKTRONICS.ORG  [0m
+[35m [0;31m  █[0;1;31;41m▄▄[0;31m█████████████████████████████████████████████████████[0;30;41m                  [0m
 [35m [0;37m  [0;31m█[0;1;31;41m▀▀[0;31m▄[0;37m██[0;1;35;45m██[0m [1;31;45m██[0m [31m██▄[0;1;31m██[0;1;35;45m█[0;1;35;40m▄[0m [31m▄[0;1;31m██[0;1;35;45m█[0;1;35;40m▄[0m ██ [1;35;45m██[0m [31m█[0;1;31m██[0;1;35;45m██[0;1;35;40m▒[0;31m▄[0;37m██[0;1;35;45m██[0m [31m▄[0;1;31m██[0;1;35;45m█[0;1;35;40m▄[0m [31m█[0;1;31m██[0;1;35;45m█[0;1;35;40m▄[0m [1;31m██[0m██ [31m▄[0;1;31m██[0;1;35;45m█[0;1;35;40m▄[0m [31m▄[0;1;31m██[0;1;35;45m▄[0;35m▄[0;31m██[0m
 [35m [0;31m░░██[0;37m [0;31m██[0;35m▄[0;1;35;45m [0;35m▀[0;37m [0;31m▀[0;31;45m▀[0;37;40m [0;31;40m█ ██[0;37;40m [0;1;35;45m [0;35m█[0;37m [0;31m██[0;37m [0;35m▀▀[0;37m [0;31m██[0;35m▄[0;1;35;45m [0;35m▀[0;37m  [0;35m▄[0;1;35;45m [0;35m█[0;37m  [0;31m██[0;35m▄[0;1;35;45m [0;35m▀[0;37m [0;31m██[0;37m [0;1;35;45m [0;35m█[0;37m [0;31m▄█[0;37m [0;1;35;45m [0;35m█[0;31m  [0;35m▄[0;1;35;45m [0;35m█[0;37m [0;31m██[0;37m [0;35m▀▀[0;37m [0;31m██[0;35m▄▀▀[0;31m██[0m
 [35m [0;31m  ██[0;1;31m▄[0;1;31;41m▄[0;31m█[0;35m▀[0;1;35;45m██[0m [35m█[0;1;35;45m▀[0m [31m▄[0;37m ██[0;35m▀[0;1;35;45m██[0m [1;31;41m██[0m ██ [1;31m██[0;35m▀[0;1;35;45m██[0m  [35m█[0;37m██ [0;1;31m▄[0;1;31;41m▄[0;31m█[0;35m▀[0;1;35;45m██[0m [1;31m██[0;35m▀[0;37m██ [0;1;31;41m▄▄[0m [1;35;45m██[0;31m██[0;35m█[0;1;35;45m██[0m [1;31;41m██[0m [1;35;45m██[0m [1;31m▄▄[0;35m▀[0;37m██[0;31m██[0m

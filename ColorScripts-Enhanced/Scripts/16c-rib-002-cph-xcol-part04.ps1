@@ -5,7 +5,7 @@
 # Source SHA-256: ed83d4c69010101772ac6957853a8c6626804ab3318d837bf50ee70ecec4a67f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-XCOL.ANS by Cyberpunch (rib-002); released in rib-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 149-194
 # Columns: 1-80
 
@@ -34,23 +34,18 @@ $[1m$[0m$[1;30m$$``ⁿ$$$$$[0m$$$$$[1;30m$ⁿ"^[0;1;37m   [0mⁿ$[1m$[0
 
 
 [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^[0m
-                              
 [1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m--[0m
 
 
 $$$♫$$$$$SS$$$$$$$$$$$[1;30mi[0m$$$#%p,._[1m  [0m_.,p%##S$$$$$$$$$$$$$$$$$☼$$$♫$$$p_[1m {Ph?! [0m_g$
-        [1;30m [0m            [1;30m  [0m                             [1;30m   [0m                        
-[1mdS$$Sb [0m$[1;30mi[0m$[1m dS$░$$ⁿ'' [0mⁿⁿ$$[1m dS$$$$$$$▓░$$ [0m$$[1m dS$$Sb╜'' [0mⁿⁿ$[1;30mi[0m≡[1m dS$$S$$$$$$dS$$Sb$$┤$▓[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1mdS$$Sb [0m$[1;30mi[0m$[1m dS$░$$ⁿ'' [0mⁿⁿ$$[1m dS$$$$$$$▓░$$ [0m$$[1m dS$$Sb╜'' [0mⁿⁿ$[1;30mi[0m≡[1m dS$$S$$$$$$dS$$Sb$$┤$▓[0m
 [1m$$$ll▌ [0m$[1;30mi[0m$[1m $lll;$ dSSp._ $$$l$$ dSSp._ [0mⁿ$[1m $ll░$$ dSSp._[0mⁿ[1m $$$l░$ⁿ""  ░li$⌠$ⁿ""[0m
 [1m       [0m [1;30m [0m [1m                                                          ├         [0m
-[1m       [0m [1;30m [0m [1m                                                                  [0m   
-[1m;;;i;; [0mⁿ''[1m.di;;;;;b.,d;;;;;; i;;b.,d;;i;;'' │;i;;;b.,d;;i;i;;;;;i [0m$ⁿ$[1m i;.;;;[0m $ⁿ"[1m [0m
+[1m[0m[1;30m[0m[1m[0m[1m;;;i;; [0mⁿ''[1m.di;;;;;b.,d;;;;;; i;;b.,d;;i;;'' │;i;;;b.,d;;i;i;;;;;i [0m$ⁿ$[1m i;.;;;[0m $ⁿ"[1m [0m
 [1m ; ; ;.;;.;;.; .;.; ;;.;;; ;;.;; ;.;;;;''[0ms[1m ;;.;; ;;.;..;;'';. ;.; [0m$[1m [0m$[1m ;.; .;[0m $ [1;30m$"[0m
 [1m   .       .     .     ''[0m_[1m`ⁿ.   .  ..ⁿ^ [0ms$s[1m`ⁿ  .  .   ⁿ^, ;    . [0m$[1m [0m$[1m .   ..[0m ░ [1;30m$ [0m
     [1;30m   [0m    ▒                            [1m [0m                                    [1;30m  [0m
-[1;30m                                                          [0m [1;30m                    [0m
-
+[1;30m[0m[1;30m[0m
 
 [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^[0m
-                               
 [1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m--[0m'

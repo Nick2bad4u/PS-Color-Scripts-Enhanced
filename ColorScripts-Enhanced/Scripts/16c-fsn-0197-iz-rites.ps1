@@ -5,7 +5,7 @@
 # Source SHA-256: 100ebc2d8a02d8601d5508c9ce71bdf5bd90c5145f991d68d473e801fc5b0a1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-RITES.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Diabolical Rites
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -16,8 +16,7 @@
 
 Write-Host '
 
-          [1m     [0;1;33m     [0;33m        [0m                   [37m     [0m
-
+[1m[0;1;33m[0;33m[0m[37m[0m
                        [1;33m           ▄▄▄[0m▄
            [1m █[0;1;33m███▄▄[0m▄[1m  [0;33m▀[0;1;33;43m▀[0;1;33;40m▄       [0;1;37;40m   [0;1;33;40m██[0;1;37;40m█████[0;1;37;47m▄[0;1;37;40m▄▄▄▄[0;1;37;47m▄[0;1;37;40m████[0;1;37;47m▄[0;1;33;40m▄▄▄[0;1;37;40m  [0;1;33;40m+i[0;1;37;40mze[0m
            [1m ▀▀▀██[0;1;33m██[0;1;37m█[0;1;37;47m▄[0m▄[33m▐[0;1;33m█▀[0;1;37m   [0;33m▄[0;1;33m▄[0;1;37m██  [0;1;33m█[0;1;37m█[0;1;37;47m█▀[0;1;37;40m▀▀▀[0;1;37;47m▀[0;1;37;40m██[0;1;37;47m██[0;1;37;40m██[0;1;37;47m▀[0;1;37;40m▀▀[0;1;37;47m▀[0;1;37;40m██[0;1;33;40m██[0;1;37;47m▄[0m▄

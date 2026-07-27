@@ -5,7 +5,7 @@
 # Source SHA-256: 0b65f9f6541cd03a68f8db7963aba2cbbf68aa34e2daa93039bafb760d73f39e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-MP.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -43,7 +43,7 @@ Write-Host '
         [34m▄[0;1;34;44m▀▀▀  ▀▀▀[0;1;34;40m██████[0;1;34;46m▄▄▄[0;36m▄[0m                  [1;37mMans[0mon''[1;30ms Pla[0mygr[1mound[0m       [1;30;43m░[0m
      [34m▄[0;34;44m              [0;1;34;44m▀[0;1;34;40m██████[0;1;34;46m▄[0;36m▄[0m
 [36m    [0;34m███[0;34;44m                 [0;1;34;44m▀[0;1;34;40m████[0;36m█[0m                 [1;37mSys[0mop [1;30m: [0mCo[1mwboy[0m
-[1m    [0;34m██[0;34;44m        [0;1;34;44m▄[0;1;34;40m▀   [0;34m▀[0;34;44m      [0;1;34;44m▀[0;1;34;40m██[0;36m█[0m                 [1;37m(51[0m6) [1;30m5[0m94-[1m0588[0m
+[1m    [0;34m██[0;34;44m        [0;1;34;44m▄[0;1;34;40m▀   [0;34m▀[0;34;44m      [0;1;34;44m▀[0;1;34;40m██[0;36m█[0m                 [1;37m   [0m   [1;30m [0m   [1m    [0m
 [1m    [0;34m██████████[0;1;34;44m█[0m     [34m████████[0;1;34m█[0;36m█[0m             [1;37mWWIV 4.[0m22 [1;30mM[0modd[1med 14.4k[0m
 [1m    [0;34m██████████[0;1;34;44m▀[0;1;34;40m▄▄▄▄[0;34m▄████████[0;1;34;44m▐[0;36m█[0m                [1;37mSAGA [0mW[1;30mWI[0mVNe[1mt HQ[0m
 [1m    [0;34m█████████████████████████[0;1;34;44m█[0m               [1;37;40mAMPro [0mD[1;30mis[0mt. [1mSite 42[0m

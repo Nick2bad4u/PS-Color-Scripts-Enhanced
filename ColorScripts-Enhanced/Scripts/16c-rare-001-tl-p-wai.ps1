@@ -5,7 +5,7 @@
 # Source SHA-256: 33547273cbcbb45f8629b60f035a3a6b727375ea4bd9f55eef80c9cf33324698
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TL@P-WAI.ANS by Timeless (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: pleas wait!
 # SAUCE Author: Timeless
 # SAUCE Group: rARE!ASCii
@@ -19,10 +19,8 @@ Write-Host '
                                                      [33m.[0m
                                                   [37m [0;33ms''[0m
                                                   [37m [0;33m`[0;1;33;43ms[0;1;33;40ms[0m
-   [1;30m            [0m                                     [33m  [0;1;33m [0;1;30m [0;1;33m [0m        [1;30m [0m           [1;30m [0m
- [1;30m       [0m                 [34m. [0m                       [33m.s[0;1;33;43mS[0;1;33;40m$$[0;1;33;47mS[0;34m [0;1;30m⌐SS[0;34m²²[0;1;30m╗[0;34m  [0;1;30m`s [0m        [1;30m$[0m
-                  [34m [0m      [34m       [0;1;37m  [0;1;34m    [0;34m      [0;1;30m   [0m    [33m [0;1;33m  [0;1;30m [0m  [1;30m   [0;34m   [0m   [1;30m    [0m    [1;30m  [0m
- [34m [0;1;30m|$[0;34m$$║╗[0m            [34m ...ss''[0m          [1;30m.[0m   [34m╗║$$[0;1;30m$|[0m   [34m$s..s$[0;37m [0;1;30m|$[0;1;34mSS[0;34m║╗[0m    [1;30m`$$$s.S$$ss[0m
+[1;30m[0m[33m[0;1;33m[0;1;30m[0;1;33m[0m[1;30m[0m[1;30m[0m [1;30m       [0m                 [34m. [0m                       [33m.s[0;1;33;43mS[0;1;33;40m$$[0;1;33;47mS[0;34m [0;1;30m⌐SS[0;34m²²[0;1;30m╗[0;34m  [0;1;30m`s [0m        [1;30m$[0m
+[34m[0m[34m[0;1;37m[0;1;34m[0;34m[0;1;30m[0m[33m[0;1;33m[0;1;30m[0m[1;30m[0;34m[0m[1;30m[0m[1;30m[0m [34m [0;1;30m|$[0;34m$$║╗[0m            [34m ...ss''[0m          [1;30m.[0m   [34m╗║$$[0;1;30m$|[0m   [34m$s..s$[0;37m [0;1;30m|$[0;1;34mSS[0;34m║╗[0m    [1;30m`$$$s.S$$ss[0m
  [34m [0;1;30m![0;34m$[0;1;34m$$[0;34m$%[0m         [34m [0;1;30m.[0;34m$$$[0;1;34m$[0;34m$S.sssssssssssssss$$[0;1;34m$$[0;34m$[0;1;30m![0m   [34m$[0;1;34m$$$$[0;34m$[0;37m [0;1;30m![0;34m$[0;1;34m$$[0;34m$%[0m      [1;30m`$$$$²''''''²[0m
  [34m [0;1;30m![0;34m$[0;1;34m$$[0;34m$#[0m          [1;30md[0;34mS[0;1;34mS[0;1;37;44m$[0;1;34;40m$[0;34m║²║[0;1;34m$[0;1;37;44m$[0;1;34;40mS[0;34mS[0;1;30md[0m      [1;30m s.[0;34m #$[0;1;34m$$[0;34m$[0;1;30m![0m   [34m$[0;1;34m$[0;1;37m$$[0;1;34m$[0;34m$[0;37m [0;1;30m![0;34m$[0;1;34m$$[0;1;30;44m$[0;34m#[0m      [1;30m.$$'' s[0;1;34mS[0;1;37;44m$[0;1;34;40m$[0;34ms[0m
 [37m [0;1;30mⁿ[0;1;34mⁿⁿ$$[0;34m$![0m     [1;30m.[0m    [1;30m:[0;34m$[0;1;34m$[0;1;34;44m$[0;1;34;40m$[0;34m| |[0;1;34m$[0;1;30;44m$[0;1;34;40m$[0;34m$[0;1;30m:[0;34m [0;1;30m.[0m     [1;30m$$[0;34m !$[0;1;34m$$ⁿⁿ[0;1;30mⁿ[0;34mⁿⁿⁿ[0;1;34mⁿⁿ$$[0;34m$[0;37m [0;1;30m:[0;34m$[0;1;37m$[0;1;34m$[0;34m$!s[0;1;30mss[0;34m  [0;1;30m.$$$[0;34m [0;1;30m:[0;34m$[0;1;34m$[0;1;34;44m$[0;1;34;40m$[0;34m|[0m
@@ -31,8 +29,7 @@ Write-Host '
 [37m [0;34m [0;1;30m;[0;34m$[0;1;34m#[0;1;37;44m$$[0;34m$ [0;1;30m$$''[0;1;37m::[0m    [34m$[0;1;34;44m$[0;1;34;40m$ss[0;34m$''$[0;37ms[0;1;34ms$[0;1;34;44m$[0;34m$[0m    [1;30m.S$$$[0;34m $[0;1;37;44m$$[0;1;34;40m#[0;34m$[0;1;30m;|S.[0;34m$[0;1;34m$$$[0;34m$[0;1;30m$[0m [1;30m;[0;34m$[0;1;34m#$[0;34m$$[0m    [1;30m  [0m    [34m$[0;1;34;44m$[0;1;34;40m$$$[0;34m![0m
 [37m [0;1;30m.[0;34m║$[0;1;34m$$$[0;34m$.[0;1;30m`$[0;34m [0;1;34m;;[0m   [1;30m.[0;34m$[0;1;34m$$[0;1;30;44m$[0;1;34;40m$[0;34m| |[0;1;34m$$$$[0;34m$[0;1;30m.[0;34m  [0;1;30m S²$$''[0;34m.$[0;1;34m$$$[0;34m$║[0m   [34m$[0;1;34m$$$$[0;1;30m![0m [34m║$[0;1;34m$$$[0;34m$.[0m   [1;30m  [0m   [1;30m.[0;34m$[0;1;34m$$$$[0;34m|[0m
 [1;30m..[0;34m`²$$[0;1;34m$$Ss,s||s.[0;34msS[0;1;30m#[0;1;34m╚[0;34m$S²'' ''²S$[0;1;34m╚[0;1;30m#[0;34mSs[0;1;34m.[0;1;30m.....[0;1;34msS$$[0;34m$$²[0;1;30m.. [0;34m `²SS[0;1;30m²''[0m [34m`²$$[0;1;34m$$Ss[0;1;30m.....s[0;34msS[0;1;30m#[0;1;34m╚[0;34m$S²''[0m
-[37m [0;1;30m        [0m         [1;30m   [0m       [1;30m   [0;34m  [0;1;30m               [0m   [1;30m   [0m                   [1;30m   [0;34m [0;1;30m [0m
- [1;30m`$$$$$$²², [0m                    [1;30m [0m  [1;30m,$$²''[0;34m [0;1;30m`$$. [0m                               [1;30m.[0m
+[37m[0;1;30m[0m[1;30m[0m[1;30m[0;34m[0;1;30m[0m[1;30m[0m[1;30m[0;34m[0;1;30m[0m [1;30m`$$$$$$²², [0m                    [1;30m [0m  [1;30m,$$²''[0;34m [0;1;30m`$$. [0m                               [1;30m.[0m
 [1;30m.$''[0;34m [0;1;30m`$$.[0m                           [1;30m$$[0m      [1;30m``s[0m [1;30m.[0m
  [1;30m [0m    [1;30m`$s[0m                        [1;30m.²[0m
         [1;30m`².[0m'

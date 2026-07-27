@@ -5,7 +5,7 @@
 # Source SHA-256: 342937402ed7943b39c44a746565ea871c3279a7fd7da5eb0b88a35cd028da8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-FES.ANS by Black Lightning (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Flat Earth Society
 # SAUCE Author: Black Lightning
 # SAUCE Group: Union
@@ -42,7 +42,7 @@ Write-Host '
 [36m [0;1;36mt[0;1;34mhe [0;1;36mf[0;1;34mlat [0;1;36me[0;1;34marth   [0m▄▄▄▄▄▄▄▄     ▄▄▄▄▄▄    ▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄ ▄▄▄ ▄▄
  [1;36ms[0;1;34mociety [0;1;36m![0;1;34m![0;1;36m![0;1;34m![0;1;36m![0;1;34m!  [0m▄   ▀▀█▀░  ▄██▀▀▀ ▀██▓ ▓▀▀   ▀█▌    ▀▓   ▀▀▀█▌ ▐█▀▀  ▀▓ ▓▀▓ █
  [1;36ms[0;1;34mop: [0;1;36mS[0;1;34med[0m        ▓▌          ▓       ▄     ▄▓   ▓ ▓▀  ░▀ ░    ▀     ▄▓   ░ ▒ ▓
- [1;36m7[0;1;34m18-[0;1;36m6[0;1;34m98-[0;1;36m7[0;1;34m865    [0m█▀▓░ ▀▓█▄     ▌     ▐▓ ░  █   ▀▀   ░    ▒▓▄▄▄     ▐██     ░ ░▒
+ [1;36m [0;1;34m   [0;1;36m [0;1;34m   [0;1;36m [0;1;34m       [0m█▀▓░ ▀▓█▄     ▌     ▐▓ ░  █   ▀▀   ░    ▒▓▄▄▄     ▐██     ░ ░▒
  [1;36mb[0;1;34miggest [0;1;36mt[0;1;34m-[0;1;36mf[0;1;34mile[0m        ▐█▀   ▀██▄   ▄█▀ ▒  ▓ ▄▄█▄   ▒ ▓  ▓         ▀█▓   ▓▄▄▄▄▄
  [1;36mb[0;1;34moard [0;1;36mi[0;1;34mn [0;1;36mt[0;1;34mhe[0m     ░▀▀  ▀  ▓   ▐██▓▀▀   ▄▓  ░   ▓ ░  ▓▄██ ▄   ▄▀    ▄ ░       ▓█
  [1;36me[0;1;34mast [0;1;36mc[0;1;34moast .!   [0m▀▓▄▄▄▄▄▒▓▌ ▄■▀▀  ▄▄█▓▀▀  ▄▄ ■ ▀▒▓███████▓ ▓██▓▒░ ▄▓▄▄ ▓██████▀[0m'

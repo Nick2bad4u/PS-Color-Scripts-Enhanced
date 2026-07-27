@@ -5,7 +5,7 @@
 # Source SHA-256: 66285a05398703fa0ed1108deff8e3346531428405f6aa661a80b3633337db29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TRS13.ANS by Cleaner + Sylvao (fdr-02); released in fdr-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 149-186
 # Columns: 1-80
 
@@ -44,6 +44,4 @@ Write-Host '
   [1;30m ▀ ▄ ▄▄ ▄ ▄▀ ▄  ▄▄ ▄█  [0m [1;30mCl!  ▀ ▄ ▄ ▄▄ ▄ ▀[0m       [1;30m▀ ▄ ▄▄  ▄▄ ▄ ▄▄▄ ▀ ▄▄ ▄ ▄▄ ▀[0m
 
 
-     [1;37m                          [0m            [1m [0m               [1m                [0m
-                  [36m [0;37m            [0m                            [37m                [0m
-[30m■ANSi■[0m'
+[1;37m[0m[1m[0m[1m[0m[36m[0;37m[0m[37m[0m[30m■ANSi■[0m'

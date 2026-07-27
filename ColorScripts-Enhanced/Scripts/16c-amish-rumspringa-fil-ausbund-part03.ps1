@@ -5,7 +5,7 @@
 # Source SHA-256: b53f3540c7959499e6f12cfae33627bf4291f7a9dd46f0a03215ebee8d8ff640
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-ausbund.ans by FiLTH (AMiSH); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: AUSBUND
 # SAUCE Author: FiLTH
 # SAUCE Group: AMiSH
@@ -47,20 +47,7 @@ Write-Host '
 
 [31m ═══════════════════════════════════════════════════ [0;1;37m A U S B U N D[0;31m ═══════════[0m
 
-[1;37m                                                                              [0m
-[1;37m                                                                        [0m
-[1;37m                                                                             [0m
-[1;37m                                                                          [0m
-
-[1;37m                                                                           [0m
-[1;37m                                                                       [0m
-[1;37m                    [0m
-
-[1;37m                                                                              [0m
-[1;37m                                                                         [0m
-[1;37m                                                                              [0m
-[1;37m                                                                              [0m
-[1;37m                                                                       [0m
-[1;37m             [0m
-
+[1;37m[0m[1;37m[0m[1;37m[0m[1;37m[0m
+[1;37m[0m[1;37m[0m[1;37m[0m
+[1;37m[0m[1;37m[0m[1;37m[0m[1;37m[0m[1;37m[0m[1;37m[0m
 [31m ══════════[0;37m [0;1;37mF [0;1;37;41mi[0;1;37;40m L T H Y [0;31m*[0;1;37m A M [0;1;37;41mi[0;1;37;40m S H[0;31m ═══════════════════════════════════════════[0m'

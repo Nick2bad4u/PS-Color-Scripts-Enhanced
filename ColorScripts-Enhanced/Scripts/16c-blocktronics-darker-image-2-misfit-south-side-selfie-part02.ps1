@@ -5,7 +5,7 @@
 # Source SHA-256: 9ae52cc300be71e092c6d116f0d6b55907d570eab2dc9f61d740a7d41ab1f2a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: misfit-south-side-selfie.ans by Misfit (blocktronics_darker_image_2); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20171206
 # SAUCE Dimensions: 80x61
 # SAUCE Font: IBM VGA
@@ -33,13 +33,8 @@ Write-Host '
 ▄▀▀▌[36m   [0;33m▓▓▓▓▓▓▓▓[0;1;31m▓█▌ [0;1;31;43m▒[0;33m█▓▓▓▓▓▓▓▓▓█[0;37m   [0;1;30m   [0m   [32m▀▄[0;1;37m▀███▀[0m       [1m▀███▀[0;32m▄▀[0m          [1;30m░[0m
 ▓▓▓▓▄▄[1m [0;36m [0;33m▓▓▓▓▓▓[0;1;31;43m░▒[0;1;31;40m█ [0;1;31;43m▒▒[0;33m▓▓▓▓▓▓▓▓▓▓[0;1;31;43m▒[0m           [32m▀▄▄[0;1;37m▀▀█▄   ▄█▀▀[0;32m▄▄▀[0m            [1;30m░[0m
 [1;30m-─----───---──────────-─-─────-──── ───  ─  [0m [32m▀▀▄▄▄▄▄▄▄▀▀[0;37m [0;1;30m- ──  ──---──────--──-─[0m
- [1;32m    [0;32m [0;1;30m                                                                        [0m
-
- [1;32m    [0;32m [0;1;30m                                                                         [0m
-
- [1;32m    [0;32m [0;1;30m                                                               [0m
-
- [1;32m          [0;32m  [0;1;30m                                             [0m [1;30m          [0m
-
- [1;32m    [0;32m  [0;1;30m                                                                      [0m
-                                                    [30m.....[0m'
+[1;32m[0;32m[0;1;30m[0m
+[1;32m[0;32m[0;1;30m[0m
+[1;32m[0;32m[0;1;30m[0m
+[1;32m[0;32m[0;1;30m[0m[1;30m[0m
+[1;32m[0;32m[0;1;30m[0m                                                    [30m.....[0m'

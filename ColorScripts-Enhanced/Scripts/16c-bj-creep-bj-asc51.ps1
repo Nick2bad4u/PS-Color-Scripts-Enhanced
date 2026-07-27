@@ -5,7 +5,7 @@
 # Source SHA-256: 8ca50ca206eb990307ace96c1a49aa0362fe53fab8b68a784bc1ac85fef40388
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc51.ans by Black Jack (Pln_Odly [12/12/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Bbs Advertisment (deadlock)
 # SAUCE Author: Black Jack
 # SAUCE Group: Pln_Odly [12/12/96]
@@ -26,14 +26,10 @@ Write-Host '
 [37m  [0;31m,d$[0;1;31m$[0;31m$l,_d[0;1;31m$[0;31m$;[0m     [34m_,[0;1;34md[0;34m$$[0m    [1;30m`l[0m   ,d  `ⁿ$$$l$$[1m:[0;32m$$$P''[0;37m,d$i$$[0;1;37m$$$$[0m$$b[1;30m `Yi[0m   [31m `d$$&$$$[0m
 [37m  [0;31m~"°ⁿ[0;1;31mY$[0;31mPⁿ°"~"[0m     [34m`Y$[0;1;34m$[0;34m$[0m     [37m$[0;1;30m, [0m  `,  ,d$$I$l[32m,$$''[0;37m,d$Il$$[0;1;37m$$Pⁿ°"[0m~   [1;30ml:[0m   [31m,d$$$$$''$[0m
       [31m  [0m             [34m`$$[0m     [1;30m`"l[0m   [1;30m,[0m  `Y$&$$:[32ml$''[0;37m,d&$Pⁿ[0;1;37m°"~`[0m        [1;30mi.[0m [31m.d$$$$$$ⁿ $[0m
-    [37m905-827-8633 [0;36m,m[0;1;34mPⁿY[0;34m$$[0;37mb,_  , [0m    [37mⁿ[0;1;30m,[0m  `Y$$$.[32m'' [0;37m,$$$P_,[0m            [1;30m''[0;31m,d$$$$ⁿ"~ ,$$[0m
-               [36m+[0m     [34m`Y$[0;37m`Y$b[0;1;37m,[0mYb,  b,_  ,d$$$$$$$$$Pⁿ''             [31m,[0;1;30md[0;31m$$[0;37m$[0;31m$$,m@S$$$[0m
+[37m[0;36m[0;1;34m[0;34m[0;37m[0m[37m[0;1;30m[0m[32m[0;37m[0m[1;30m[0;31m[0m               [36m+[0m     [34m`Y$[0;37m`Y$b[0;1;37m,[0mYb,  b,_  ,d$$$$$$$$$Pⁿ''             [31m,[0;1;30md[0;31m$$[0;37m$[0;31m$$,m@S$$$[0m
               [1;36mi[0m       [34ml$[0;37m lY[0;1;37m$$$[0m$b,_     `"ⁿ$$$$$$P''               [31m,d$$$$$$$$$$$$l[0m
    [1;37mdeadlock[0m   [1m;[0m    [34m,_,d[0;1;34m$[0m ⁿ"[1;32m,m[0;1;37m@[0;1;32mP[0;32mⁿ[0;37m,dm,[0m      [37m`Y$$P''[0m                [31m,[0;1;30md[0;31m$$[0;37m$[0;1;30m$[0;31m$P$$$[0;1;31m$[0;31m$$$i[0m
                [1;37m`[0m   [34m`ⁿ[0;1;34mY$[0;34m$[0;37m  [0;32m`Y[0;1;32mⁿ[0md[1mⁿ°$[0m$ⁿ~       `Y''                 [1;30m,d[0;31m$$$$$P''$$$$$P''.[0m
-[1;37m     [0m  [1m      [0m        [34m [0;1;34m [0;34m [0;37m     [0;1;37m  [0m [1m [0m                            [31m [0;1;30m   [0;31m               [0m
-[37m       Board[0m          [34ml$[0;37m   `Y$''  `l [0m          [37m  [0m             [1;30m,d$[0;31m$$$$$$$$$$$l,_ l[0m
+[1;37m[0m[1m[0m[34m[0;1;34m[0;34m[0;37m[0;1;37m[0m[1m[0m[31m[0;1;30m[0;31m[0m[37m       Board[0m          [34ml$[0;37m   `Y$''  `l [0m          [37m  [0m             [1;30m,d$[0;31m$$$$$$$$$$$l,_ l[0m
                       [34m:$[0m    [37m`i  [0m                           [31m [0;1;30m,d$$[0;31m$$$$l`Y$$$$i'' ,d[0m
-[37m      [0;1;37m   [0m              [34m [0m      [37m [0;1;30m   [0m                         [1;30m   [0;31m [0;1;30m [0;31m                [0m
-[37m           [0;1;37m        [0m   [34m  [0;37m         [0;1;30m     [0m                    [1;30m   [0;31m [0;1;30m [0;31m                 [0m
-                  [34m ._,[0;1;34md$[0m            [1;30m`ⁿYb,    ,[0m           [1;30m,d$[0;31m$$$$$$$: ,d$$$$l `Y$[0m'
+[37m[0;1;37m[0m[34m[0m[37m[0;1;30m[0m[1;30m[0;31m[0;1;30m[0;31m[0m[37m[0;1;37m[0m[34m[0;37m[0;1;30m[0m[1;30m[0;31m[0;1;30m[0;31m[0m                  [34m ._,[0;1;34md$[0m            [1;30m`ⁿYb,    ,[0m           [1;30m,d$[0;31m$$$$$$$: ,d$$$$l `Y$[0m'

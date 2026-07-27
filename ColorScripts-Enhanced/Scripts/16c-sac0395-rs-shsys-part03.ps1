@@ -5,7 +5,7 @@
 # Source SHA-256: e6e6c3d27a3e6d1fa9a8d3e17cba792842aa91124fbbd85bc6d239acce7af0f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-SHSYS.ANS by raiser; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: SHADOW SYSTEM 1ST.
 # SAUCE Author: RAiSER
 # SAUCE Group: SAC
@@ -51,14 +51,9 @@ Write-Host '
 [1;30;40m▒░░[0m   [1;30;40m  [0m    [1;37;40m            [0m     [1;30;40m·[0m [1;34;40mS[0;34mYS[0;1;30mOP:[0;34m [0;1;30mMR.MiXX[0;1;37m [0;1;30m·[0m [34m [0m             [1;37m  [0m        [1;30m░░░░░▒▓[0m
 [1;30m░░[0m [1;30m [0m [1;30m   [0m     [1;37m              [0;1;30m [0m [1;34m [0;34m  [0;1;30m     [0;34m [0;1;30m         [0m [1;30m [0m [1;37m               [0m          [1;30m░░░▒[0m
 [1;30m░[0;1;37m                   [0;1;30m   [0;1;37m [0m                                       [1;37m [0m             [1;30m░░[0m
-[1;30m  [0m [1;30m [0m   [1;30m [0m  [1;30m    [0m [1;37m [0;1;34m [0;1;30m [0;34m [0;1;30m      [0;1;37m [0;1;30m         [0;1;37m [0;1;30m                       [0;1;37m [0;1;30m [0;1;37m                 [0m
-[1;30m░[0m    [1;30m  [0m  [1;30m [0m [1;30m [0m [1;37m       [0m                                   [1;37m           [0m            [1;30m░[0m
-                         [1;30m [0m [1;34m [0;34m  [0;1;30m                   [0m [1;30m [0m
-
-[1;30m      [0m   [1;30m [0m [1;34m [0;34m  [0;1;30m                        [0m [1;30m                            [0m [1;30m [0m
-[1;30m    [0;1;34m [0;34m  [0;1;30m [0m [1;30m                      [0m [1;30m      [0m [1;30m                    [0m [1;30m                   [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;37m[0;1;34m[0;1;30m[0;34m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0m[1;30m░[0m    [1;30m  [0m  [1;30m [0m [1;30m [0m [1;37m       [0m                                   [1;37m           [0m            [1;30m░[0m
+[1;30m[0m[1;34m[0;34m[0;1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;34m[0;34m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0;1;34m[0;34m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
 
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀[1;30m▀[0m▀▀▀▀▀▀▀▀▀▀▀[1m▀▀[0m▀[1m▀▀▀▀▀▀▀ ▀▀[0m [1m▀[0m          [1m [0m              [1;30m [0m
-[1;30m  [0m [1;30m                  [0m [1m  [0m  [1;30m                                                  [0m [1;30m [0m
-                          [1m▄[0m [1m▄▄[0m [1m▄▄▄▄▄▄▄[0m▄[1m▄▄[0m▄▄▄▄▄▄▄▄▄▄▄[1;30m▄[0m▄▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'
+[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m                          [1m▄[0m [1m▄▄[0m [1m▄▄▄▄▄▄▄[0m▄[1m▄▄[0m▄▄▄▄▄▄▄▄▄▄▄[1;30m▄[0m▄▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

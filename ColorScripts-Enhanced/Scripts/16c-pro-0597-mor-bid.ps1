@@ -5,14 +5,13 @@
 # Source SHA-256: fc0a1f8f3216b193a15a12b0d41bb62923f9d46a55f9f501c1b49289f5c34bdf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MOR-BID.ANS by Otium Man (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
 [1;30m++[0;33m32[0;1;30m^[0;33m3[0;1;30m^[0;33m8888[0;1;30m^[0;33m203[0m         [33mWE HAD THIZ FILE BEFORE YOU ON[0m          [1;30m++[0;33m32[0;1;30m^[0;33m3[0;1;30m^[0;33m8888[0;1;30m^[0;33m203[0m
-          [1;34m            [0m        [1;34m                                       [0m
-      [1;34m                                     ▒            [0m     [1;34m           [0m
+[1;34m[0m[1;34m[0m      [1;34m                                     ▒            [0m     [1;34m           [0m
 [1;34m   ,s$ⁿ°[0m,sS$$$$$$$$$$$,[1;34m`ⁿⁿⁿⁿ'' [0m`$$$$$$$$$$S,[1;34m`[0m,sS$$$Ss,[1;34mⁿ$''[0;1;30m`$$$[0mⁿ`$$$$$Ss,.[1;34m`$a[0m
 [1;34m   $P [0;1;30m$$$$$ⁿ"$$$$$"ⁿ$P,[0ms$$$$$s, [1;30m¶$$$$ⁿ°ⁿ$$[0m$s[1;30m`$$√ⁿ°ⁿ$$[0ms[1;34m; [0m$SssS [1;30m$$$$$$$$$[0m$,[1;34m$s[0m
 [1;34m   $ [0;1;30m$$$$[0m$ [1;34m,a[0;1;30m`$$[0m$''[1;34mSa[0;1;30m`,$$$ⁿ°ⁿ$$[0m$,[1;30m`$$$[0m$,[1;34m`[0;1;30m,$$$[0mP[1;30m,$$[0ml[1;34m`l [0;1;30m$$[0m$[1;34m,''[0;1;30m$$$$[0m$ [1;30m$$[0m$[1;30m"`°ⁿ$$$[0m$ [1;34m$l[0m
@@ -24,8 +23,7 @@ Write-Host '
         [1;34m`$Sa[0;1;30m`[0m$ [1;34m$$  `$SsssS$''$a[0;1;30m`$$ⁿ[0m°[1;34m,$P[0;1;30m,$$$[0m$''[1;30ma$$$$$$$ⁿ[0m°[1;34m,$▒$sS$ssssssssS$ⁿ[0m
 [1;34m               ▒                     [0;1;30m    [0m  [1;34m             [0m     [1;34m         [0m
 [1;34m ,sS$ⁿ°°°ⁿ$a°ⁿⁿ°.,ww,.    .,w,  °ⁿ°$a[0;1;30m`ⁿⁿ[0m°[1;34mw,$$ⁿ"""""°''    .,w.,  .,ww,.[0m
-[1;34m   [0m        [1;34m                                                                    [0m
-[1;34m$''[0;1;30m$$$$$ⁿ"ⁿ$[0m$s[1;30m`[0m$ ,sS$$a[1;34m`ⁿ[0m.,sS▒$a,.[1;34m`$ⁿ''[0m.,sS$$,[1;34m`ⁿ$s$ⁿ°°°$$ⁿ°[0m,sS$$a[1;34m`ⁿ[0m,s$a[1;30m.[0m,swwws,.[1;34m¶[0m
+[1;34m[0m[1;34m[0m[1;34m$''[0;1;30m$$$$$ⁿ"ⁿ$[0m$s[1;30m`[0m$ ,sS$$a[1;34m`ⁿ[0m.,sS▒$a,.[1;34m`$ⁿ''[0m.,sS$$,[1;34m`ⁿ$s$ⁿ°°°$$ⁿ°[0m,sS$$a[1;34m`ⁿ[0m,s$a[1;30m.[0m,swwws,.[1;34m¶[0m
 [1;34m:[0;1;30m$$▒$$ [0;1;34mⁿ°[0;1;30m,$$[0m''[1;30m,[0m$ [1;30m$$$$$$[0m$,[1;30m$$$$$$$$[0m$,[1;34m''[0;1;30m,$$$$$$$[0m$[1;30m,[0ml[1;34m`$''[0;1;30m$$$[0m$[1;34m`[0;1;30m,$$$$ⁿⁿ$[0m$,[1;30m$$$$;$$$$$$$$[0m$[1;34m:[0m
 [1;34m;[0;1;30m$$$$l$Sl$ⁿ[0m''[1;30m,$[0m$ [1;30m$ⁿ°"°ⁿ$[0m''[1;30ml$ⁿ°"°ⁿ$$[0m$ [1;30m$$$$lⁿ[0m° [1;30m,s[0m$ [1;34m$ [0;1;30m$$$[0m$ [1;30m$$$[0m$ [1;34m°[0;1;30m,$$[0ml[1;30m$ⁿ°"[0;1;34m,[0;1;30m`°ⁿ¶$$$$[0mP[1;34m;[0m
 [1;34ml[0;1;30m`$$$$[0ma [1;34mss;[0;1;30m$$$[0m$ [1;30ml[0ms,.[1;34m`A [0;1;30ml$$[0m,.[1;34mⁿ[0m.,[1;30m$$[0m$ [1;30m$$$$$[0mSs,[1;30m$$[0m''[1;34ms$a[0;1;30m`$$[0m$ [1;30m$$$$$Sl$[0m$''[1;30ml[0mw,.[1;34m`$$''[0;1;30m,$$$[0mP[1;34m,S[0m

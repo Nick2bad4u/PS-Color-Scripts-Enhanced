@@ -5,7 +5,7 @@
 # Source SHA-256: 6ccdd7f476c89cf85e3525c45c526d1764ce20d8e97512d9ffa69f92af440e02
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-POO.ANS by Soul Seeker (blde0394); released in blde0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 42-71
 # Columns: 1-80
 
@@ -38,5 +38,5 @@ Write-Host '
 
                          ──══ [1;30mP[0mO[1mINT OF ORIG[0mI[1;30mN [0m══──
                              ──══ [1;30mP[0mC[1mBoa[0mr[1;30md [0m══──
-                          ──══ [1;30m9[0m0[1m8-494-51[0m0[1;30m1 [0m══──
+                          ──══ [1;30m [0m [1m        [0m [1;30m  [0m══──
                         ──══ [1;30mS[0my[1msOp: Archimed[0me[1;30ms [0m══──[0m'

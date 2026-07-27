@@ -5,7 +5,7 @@
 # Source SHA-256: 2a7d85bd7bef30c17dc6453f13f466814570e085a69e040d7064de4bd8ff8e05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-COD.ANS by Lord Jazz (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Castle of Darkness
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -17,7 +17,7 @@
 Write-Host '
 [1;30m│░[0;35m▀[0;1;35;45m▒░[0;35m██▀[0m            [1;37m" C [0ma s [1;30mt l e   O f   D a r k n [0me s [1ms "[0m         [1;30m░░[0;1;35;45m▓▓▒░[0;35m█[0;1;30m░░░ │[0m
 [1;30m|░░░[0;35m▀▀[0m     [35m▄▄▄[0m                                                 [35m■[0m     [1;30m░░[0;35m▀▀▀[0;1;30m░░░░[0;35m■[0;1;30m|[0m
-[1;30m·░░░░ [0;35m▄   ▀▀▀██▄[0m           [1;37m( [0m7 i [1;30m4 ) 2 8 2 . 7 [0m6 4 [1m4[0m                   [1;30m░░░░░[0;35m▄[0;1;30m░ |[0m
+[1;30m ░░░░ [0;35m▄   ▀▀▀██▄[0m           [1;37m  [0m    [1;30m              [0m    [1m [0m                   [1;30m░░░░░[0;35m▄[0;1;30m░  [0m
 [1;30m ░░░    [0;35m▄[0;1;35;45m▒▒░[0;35m█▄▀[0m                                                   [35m▄[0m      [1;30m░[0;35m▄    [0;1;30m·[0m
 [1;30m ░░    [0;35m█[0;1;35;45m▓▓▒░░[0;35m██[0m      [1;37mS[0mys[1;30mtem Operator [0m∞ [1;30mEar [CaNCeR Seni[0mor[1m][0m       [35m▀█▀[0m           [1;30m·[0m
 [1;30m ░[0m     [35m▀[0;1;35;45m▒▒░░[0;35m██▀[0m                                                      [35m▄▄[0m

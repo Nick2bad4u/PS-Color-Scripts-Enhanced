@@ -5,7 +5,7 @@
 # Source SHA-256: f3da3f2d9a5f2b6731fbf7127f406d8cf7714553683cc929f0bd1bd0a3b263c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KF-COL#1.ANS by Kid Frost (moi-0197); released in moi-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -31,6 +31,5 @@ Write-Host '
                      [31m▐[0m    [31m■▄▄[0m     [31m▄▓▀[0m
                             [31m▀▓▄▄▄▓▀[0m
 
-                [1;33m [0;31m       [0;1;33m [0;31m   [0;1;33m [0;31m    [0;1;33m [0;31m  [0;1;33m [0;31m   [0;1;33m [0;31m        [0;1;33m [0;31m  [0;1;33m [0;31m  [0;1;33m [0;31m  [0m
-
+[1;33m[0;31m[0;1;33m[0;31m[0;1;33m[0;31m[0;1;33m[0;31m[0;1;33m[0;31m[0;1;33m[0;31m[0;1;33m[0;31m[0;1;33m[0;31m[0;1;33m[0;31m[0m
 [37m--------------------------------------------------------------------------------[0m'

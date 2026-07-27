@@ -5,7 +5,7 @@
 # Source SHA-256: 615d7c3eed55efbb37211173a20379dc3e01137257e7834302030234d8e805e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ%NUCM2.ANS by IZE (FUSION); released in fsn-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: NUCLEAR NATION #2
 # SAUCE Author: IZE
 # SAUCE Group: FUSION
@@ -23,14 +23,5 @@ Write-Host '
       [1;31m   ███▄   ▄███▌███▄██▌ ███▄ ▐██▌██ ▄██▌██▄▐███▌███▄   ▄██▌ ███▄  [0;32mNATION[0;37m [0;32m [0m
      [1;31m     ▀▀▀▀ ▀▀▀▀▀  ▀▀▀▀▀[0;1;30miz![0;1;31m▀▀▀▀▀▀▀  ▀▀▀▀▀  ▀▀▀▀▀▀ ▀▀▀▀▀ ▀▀▀▀[0m   [1;31m▀▀▀▀[0m
    [1;30m▄▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄ [0m
-   [1;30m [0m [1;30m  [0;1;37m [0;1;30m  [0m                   [1;30m [0;1;37m [0;1;30m  [0m                  [1;30m [0;1;37m [0;1;30m  [0m                    
-     [1;30m  [0;1;37m [0;1;30m  [0m                   [1;30m [0;1;37m [0;1;30m [0m                   [1;30m [0;1;37m [0;1;30m  [0m                 
-     [1;30m  [0;1;37m [0;1;30m  [0m                   [1;30m [0;1;37m [0;1;30m [0m                   [1;30m [0;1;37m [0;1;30m  [0m                   
-      [1;30m [0;1;37m [0;1;30m  [0m                   [1;30m [0;1;37m [0;1;30m  [0m                  [1;30m [0;1;37m    [0;1;30m  [0m                
-      [1;30m [0;1;37m [0;1;30m  [0m                   [1;30m [0;1;37m [0;1;30m  [0m                  [1;30m [0;1;37m  [0;1;30m  [0m                
-      [1;30m [0;1;37m [0;1;30m  [0m                   [1;30m [0;1;37m [0;1;30m  [0m                  [1;30m [0;1;37m   [0;1;30m  [0m                 
-      [1;30m [0;1;37m [0;1;30m  [0m                   [1;30m [0;1;37m [0;1;30m  [0m                  [1;30m [0;1;37m      [0;1;30m  [0m              
-      [1;30m [0;1;37m [0;1;30m [0m                    [1;30m [0;1;37m [0;1;30m  [0m                  [1;30m [0;1;37m   [0;1;30m  [0m              
-      [1;30m [0;1;37m [0;1;30m  [0m                   [1;30m [0;1;37m [0;1;30m  [0m                  [1;30m [0;1;37m    [0;1;30m [0m                  
-      [1;30m[[0;1;37mV[0;1;30m] [0mView Your Stats    [1;30m[[0;1;37mO[0;1;30m] [0mOperator Page [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▀[0m
+[1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m      [1;30m[[0;1;37mV[0;1;30m] [0mView Your Stats    [1;30m[[0;1;37mO[0;1;30m] [0mOperator Page [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▀[0m
    [1;30m▀█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m [1;30mansi%by%ize%fusion''96![0m'

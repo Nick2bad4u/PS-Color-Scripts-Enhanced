@@ -5,7 +5,7 @@
 # Source SHA-256: 21e1f43cd71c90bf3df93dec8b814db296b0df05de0b8ea8fc7a48064b7cd842
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-dust.ans by abstrakt (blndr2022a); released in blndr2022a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: abstrakt
 # SAUCE Date: 20220123
 # SAUCE Dimensions: 80x101
@@ -33,14 +33,10 @@ Write-Host '
        [1m$l   $l 4$   $7 $l                              [0m`└4j$$$$$$$$$$$$$j[1;30m4┘`[0m
        $[1ml   [0m$[1ml  [0m4[1mb d7  [0m$[1m$⌂[0m                                 `''²└*⌂⌂⌂*┘[1;30m²[0m''[1;30m`[0m
        $[1ml[0m   $[1ml   [0m4[1mV7   [0m$[1ml           [0;1;30m.[0m
-           [1m [0m  [1m    [0m         
-                                               .              [1;30m.[0m
+[1m[0m[1m[0m                                               .              [1;30m.[0m
       [1;31m$$$$$$$$$$$$$$$$$$$$[0;31m$[0;1;31m                                             [0m.
-                           
                               .
               [1;30m.[0m                        [1;30m.[0m
                                                       [1;30m.[0m
 
-   [1m [0m                                                                       
-   [1m [0m                                                                        
-   :_[0m'
+[1m[0m[1m[0m   :_[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3fb46ed99a176f80d893c31417bc08a80f6ffbe13d897aa090fd9d7f60feaa48
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-TF2.ANS by Terminator2 (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Terra Firma
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -48,7 +48,7 @@ Write-Host '
 [36m   [0;31m▄■  ▀[0m                     [1;30m█▄[0m▌[1;30m▀■ [0;1m▐[0;1;47m▓[0;1m▀[0;1;47m▓▒░[0m▄[1m▐[0;1;47m▒░[0m▀▀▀▀▀[1;30m▄ ▄ ▐▀   ▐▀▀ [0m▄▄[1;30;47m░░░▒▒▓▓[0;1;30m▀▀  ▀[0;1;30;47m▓[0m
 [1;30;40m    [0mt [1;34me [0;1;30mr r a  ·  f i r [0;1;34mm [0ma   [1;30;47m▒[0m▀[1;30m▄   [0;1m▀[0m▀[1m▄[0m▄·▀▀    [1;30m▀· ▐▀▓▒  ▄   ▄[0;1;30;47m▒▒░░▒▒▒[0;1;30m▀▀ ▄ ▀█ ▀ ▄[0m
                                ▄ [1;30m▀▌    ▄▄[0;1;30;47m▓[0;1;30m▌ [0;1;30;47m▓[0m [1;30m▀▀▀    ░ ▀░▄▄[0;1;30;47m▓▓▓▓▒[0m▀▀[1;30m▄▄▀ ▄[0m       [1;30;47m▓[0m
-[1;30;40m    [0m7 [1;34m1 [0;1;30m4 · 9 6 3 · 4 8 [0;1;34m5 [0m1    ▀[1;30;47m░░[0m▄▄■   [1;30;47m▒[0;1;30m▌▀ ▄▄[0;1;30;47m▓▓[0;1;30m▄  ▄▄▄██▓▓▓██▓[0;1;30;47m▓[0;1;30m▄▀▀  ░▒▓░    ▄[0;1;30;47m▓[0m
+[1;30;40m    [0m  [1;34m  [0;1;30m                [0;1;34m  [0m     ▀[1;30;47m░░[0m▄▄■   [1;30;47m▒[0;1;30m▌▀ ▄▄[0;1;30;47m▓▓[0;1;30m▄  ▄▄▄██▓▓▓██▓[0;1;30;47m▓[0;1;30m▄▀▀  ░▒▓░    ▄[0;1;30;47m▓[0m
                                   ▀      [1;30m▀[0;1;30;47m▒[0m▄▄ [1;30m▀▄▄███▓▓▓▓▒▒▒▓▀▀▄[0m       [1;30m░    ▄[0;1;30;47m▓[0m [36m█[0m
 [36m    [0ms [1;34my [0;1;30ms o p s · s o m [0;1;34mm [0ms                [1;30m▄▄▓▓███▓▓▒▒▒▒░░░▄▀▀    ▀▄▄▌ ▄  ▄▀[0;36m▄██[0m
                                       [1;30m░  ░░▒▓███▓▓▒▒░░░·▄■  ░[0m     [1;30m▄▄■·▄·▀■ [0;36m████[0m

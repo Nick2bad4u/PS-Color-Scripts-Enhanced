@@ -5,7 +5,7 @@
 # Source SHA-256: 7c5d5159a54d4eae37554032c5d3a0daf3d6818fe9ab141005fd3016f18697da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SYL-EV20.ANS by Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 78-122
 # Columns: 1-80
 
@@ -53,5 +53,4 @@ Write-Host '
 [1;35m███[0;1;35;45m▓▓▒▒░░▒▒▓▓███[0;1;37;40m [0m█[1m█████▀[0m [1;35m▌[0m█[1m██████▄[0m [1;35m▀███[0;1;37m [0m█[1m███▀▀███▌[0;1;35m▐██▓▓█████[0;1;35;45m▓▓▒▒░░▒▒▓▓██████[0;1;35;40m█[0;1;35;45m█[0;1;35;40m█[0m
                 [1m [0m▄▄▄▄▄▄▄  ▄▄▄▄ [1m▀███▄[0m   [1m [0m█[1m█[0;1;45m▓[0;1;40m█  [0m▄▄▄▄                        [35m$yL[0m
 [35m█▓▓▒▒░░▒▒▓▓█████[0;1;37m [0m█[1m█████▀[0;35m ▌[0;37m█[0;1;37m███▄▄▄█[0;1;37;45m▓▓[0;1;37;40m█▄[0;35m▐▌[0;37m█[0;1;37m█[0;1;37;45m▓[0;1;37;40m█[0;1;37;47m▄▄▄[0;1;37;40m███▄[0m [35m▀██[0;1;37;45m░░▒▒░░[0;35m█████▓▓▒▒░░▒▒▓▓███[0m
-                 [37m█[0;1;37m█[0;1;37;45m▓[0;1;37;40m█[0m     █[1m███[0;1;45m▓▓▓▓▓█[0;1;40m█▀  [0m█[1m█[0;1;45m▓[0;1;40m█ [0m  ▐[1;47m▐[0;1;40m███[0m  [1;30mFiRE dReaM * since[0;1;37m [0;1;30m1996[0;1;37m [0;1;30m![0m
-[1;30m---------------------------------------------- *[0m [1;30mhttp://sylvao.untergrund.net[0m [1;30m*[0m'
+                 [37m█[0;1;37m█[0;1;37;45m▓[0;1;37;40m█[0m     █[1m███[0;1;45m▓▓▓▓▓█[0;1;40m█▀  [0m█[1m█[0;1;45m▓[0;1;40m█ [0m  ▐[1;47m▐[0;1;40m███[0m  [1;30mFiRE dReaM * since[0;1;37m [0;1;30m1996[0;1;37m [0;1;30m![0m[1;30m[0m[1;30m[0m[1;30m[0m'

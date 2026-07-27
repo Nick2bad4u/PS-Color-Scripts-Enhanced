@@ -5,7 +5,7 @@
 # Source SHA-256: d34b606042a4e7650c497b5efb4fc987c4fde8c955868470845bfd88f0c07c97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-TU2.ANS by Crime Lord (riot0194); released in riot0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 97-143
 # Columns: 1-80
 
@@ -37,21 +37,12 @@ Write-Host '
       [1;30;47m░░[0m [1;30;47m▒▒[0m [1;30;47m▓▓[0m ▄[1;30;47m░░[0m [1;30;47m▒░[0m▄   [1;30m▀▀    [0;1;47m░ [0m                                             [1;47m░ [0m
       [1;47m  [0m [1;30;47m▓▓[0;1;30m▌[0;1;30;47m▒▒░░[0m▀   ▀[1;30;47m░ [0;1;47m░▒▓[0;1m█    [0;1;47m  [0m██[47m           [0m▄  ▄ [1;30m8[0mi[1m8.FIN.DI[0mD[1;30m! [0m▀ ▀[47m             [0m
 
-[1;30m                                                   [0m
-
+[1;30m[0m
 [1m▀ [0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀ [1m▀[0m
-     [1;30m                                                                    [0m
-     [1;30m                                                                     [0m
-     [1;30m                                                                    [0m
-     [1;30m                                                                   [0m
-     [1;30m                                                [0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1m▄ [0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄ [1m▄[0m
 
-     [1;30m                    [0m
-[1m▄ [0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄ [1m▄[0m
-
-                                [1m [0m [1;30m    [0;1m [0m [1;30m    [0;1m [0m [1;30m  [0m
-                [1;30m                                                      [0m
-
+[1m[0m[1;30m[0;1m[0m[1;30m[0;1m[0m[1;30m[0m[1;30m[0m
          [1;30m────────────────── [0;1;30;47m▓██[0;1;30m▀▀▀▄ [0;1;30;47m▓[0;1;30m██ [0;1;30;47m▓██[0;1;30m▀▀█ ▀[0;1;30;47m▓[0;1;30m██▀ ([0;1mTM[0;1;30m) ──────────────────[0m
          [1mCopyright (c) 1993 [0;1;30;47m▒▓█[0m   [1;30m█ [0;1;30;47m▒▓[0;1;30m█ [0;1;30;47m▒▓█[0m  [1;30m█  [0;1;30;47m▒▓[0;1;30m█  [0;1mAll rights are reserved[0m
          [1;30m────────────────── [0;1;30;47m░▒▓[0;1;30m▀▀▀▄ [0;1;30;47m░▒▓[0m [1;30;47m░▒▓[0;1;30m▄▄█  [0;1;30;47m░▒▓[0m  [1;30m───────────────────────[0m

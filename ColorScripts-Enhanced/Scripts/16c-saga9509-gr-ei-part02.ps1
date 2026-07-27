@@ -5,7 +5,7 @@
 # Source SHA-256: 282a933de6e5dd8804a176a4664d5dd75c92403578c2bda54769e2a6f4fdfa13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-EI.ANS by Grifter (Saga); released in saga9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Evil Intentions
 # SAUCE Author: Grifter
 # SAUCE Group: Saga
@@ -44,5 +44,5 @@ Write-Host '
 [1;34;44m▒[0m [1;34;47m█[0;34m█[0;1;34;44m░[0;34m██ [0;1;34;44m█▒▐░ [0m [1;34;44m█[0;34m▓[0;1;34;44m░▒░[0m [1;34;44m█░▐▓[0;34m█  [0;1;34;44m█▓▀▌░[0m [1;34;44m█▓░[0;34m██ [0;1;34;44m█[0;34m█[0;1;34;44m░▒▐[0m [1;34;44m██[0;34m▄[0;1;34;44m▀▐[0m  [34m▄[0;1;34;44m▓▀▐[0m [34m▒▒ [0;1;34;44m█▒[0;34m▄▄[0;1;34;44m▒[0m [34m▄▓[0;1;34;44m▀▐▓[0m [1;34;44m█▓[0;34m█[0;1;34;44m░▐[0m [1;34;44m▓[0m
 [1;34;44m▓[0m [1;34;46m▓[0;34m▓[0;44m [0;1;34;44m░[0;34m▓ [0;1;34;44m█░ [0;34m▓█ [0;1;34;44m█[0;34m█[0;1;34;44m░[0;34m▓█ [0;1;34;46m▓[0;34m█▓[0;1;34;44m░▒[0m  [1;34;44m█░[0;34m█▓█ [0;1;34;44m█[0;34m▓█[0;1;34;44m░[0;34m█ [0;1;34;44m█[0;34m▓[0;1;34;44m ░[0;34m█ [0;1;34;44m█[0;34m█[0;1;34;44m▓░[0;34m▓ [0;1;34;44m█[0;34m▓[0;1;34;44m░[0;34m█[0;1;34;44m░[0m [34m▓▓ [0;1;34;46m▓[0;1;34;44m░[0;34m▓[0;1;34;44m░░[0m [1;34;44m█░[0;34m█[0;1;34;44m░ [0m [1;34;47m▓[0;34m█▓█[0;1;34;44m▒[0;1mn[0;1;34;44m█[0m
 [1;34;44m█[0m [1;34m▀▀▀[0;34m▀[0;1;34m▀ ▀▀▀[0;34m▀[0;1;34m▀ ▀▀[0;34m▀[0;1;34m▀[0;34m▀ [0;1;34m▀▀[0;34m▀[0;1;34m▀▀  ▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀[0;1;34m▀    ▀▀▀[0;34m▀[0;1;34m▀ ▀▀[0;34m▀[0;1;34m▀▀ ▀▀[0;34m▀[0;1;34m▀▀ [0;34m▀▀ [0;1;34m▀▀▀[0;34m▀[0;1;34m▀ ▀▀▀[0;34m▀[0;1;34m▀[0;34m▀[0;1;34m▀▀▀[0;34m▀▀[0;1ms[0;1;34;44m█[0m
-[1;34;44m█[0;34m█▓ ▓▄▄ ▓ Evil Intentions ▓▄sys:░Betrayer  Saga WHQ  408-251-6220 ▄█▄█▓█▄▓██▄▄[0;1;34;44m█[0m
+[1;34;44m█[0;34m█▓ ▓▄▄ ▓                 ▓▄    ░                                 ▄█▄█▓█▄▓██▄▄[0;1;34;44m█[0m
 [1;34;40m▀▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀▀▀[0;1;34m▀[0;34m▀▀▀▀▓▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▀[0;34m▀▓▀▀▀[0;1;34m▀[0;34m▀[0;1;34m▀▀▀▀[0m'

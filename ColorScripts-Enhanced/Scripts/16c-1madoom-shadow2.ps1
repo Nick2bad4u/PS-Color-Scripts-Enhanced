@@ -5,7 +5,7 @@
 # Source SHA-256: b1688e84b43ecff5d463cfd6e1777a7e3aa63087875e33ccec2b58edf74de81b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SHADOW2.ANS by Doomsday (ShadowByte); released in 1madoom and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: SDWB (ShadowByte) Graphitty
 # SAUCE Author: Doomsday
 # SAUCE Group: ShadowByte
@@ -39,4 +39,4 @@ Write-Host '
 [1;37;40m██▀   [0;1;34;40m▄███████[0;1;34;47m▀[0;1;37;40m█████████████████████████████████████████████████████████████████[0m
 [1;37;40m█    [0;1;34;40m▀▀██████[0;1;34;47m▀[0;1;37;40m██████████████████████████████████████████████████████████████████[0m
 [1;37;40m▄▄[0m      [1m▄▄▄███████████████████████████████[0;31mSkyNet BBS is the WHQ[0;1;37m█████████████████[0m
-[1;37m█████▄████████████████████████████████████[0;31mof Shadowbyte Call it at +43-3178-2471[0m'
+[1;37m█████▄████████████████████████████████████[0;31m                                      [0m'

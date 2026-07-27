@@ -5,7 +5,7 @@
 # Source SHA-256: adb38c9acb2bc9e6f64e4574e4b6e59dcfb6539f25ec0599c6ddd7f4695793eb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-JEZ.ANS by smooth (27inch); released in 27inch02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 24liner for JEZEBEL door game
 # SAUCE Author: smooth
 # SAUCE Group: 27inch
@@ -34,7 +34,7 @@ Write-Host '
 [1;30m▀[0;35m▄▄█▓ ▀▀[0;1;35;45m░[0;35m██ █[0;1;35;45m▒▓[0;35m▒   ▀▀█▄  █▀▄[0;1;35;45m░[0;35m▌ [0;1;30m▒▒[0;35m  █[0;1;35;45m▒[0;35m ▓[0;1;35;45m▓[0;35m  [0;1;36m [0;36m█[0;1;36m▀[0m      2.3beta[1;30m:[0mbuild.5[1;30m:[0mwin32     [36m░[0m
 [35m▀   ▒[0;37m    [0;35m█▓ █[0;1;35;45m░▒[0;35m▓ [0;1;30m▀▄▄[0;35m  ▀█[0;1;35;45m░░▓▀[0;35m▀ [0;1;30m░[0;35m   █[0;1;35;45m░[0;35m ▒[0;1;35;45m▒[0m    [1;36m [0;35m▄▄▀[0;37m    by dreammaster & zoob[0m
 [35m▀▓▄  ░ [0;1;30m▒[0;35m  ▓ ▐█[0;1;35;45m░[0;35m█▌ [0;1;30m▓▓[0;1;30;47m█[0;1;30;40m▓  [0;35m▀▀▀▀[0m     [35m█[0;1;35;45m░[0;35m  ░[0;1;35;45m░[0;35m▄▀  █[0;1;35;45m▒░[0m      [1;30m--──────────────---[0m
-[35m █[0;1;35;45m█[0;35m█   [0;1;30m░░[0;35m ░  █[0;1;30;45m▒░[0;35m█  [0;1;30m░[0;1;30;47m▓[0;1;30;40m░░░   [0;35m  ▀▀█▄▄▄ ░█▀   █[0;1;35;45m▓█[0;35m▓█[0;37m  [0;1;35mwww.dreamlandbbs.org/jezebel[0m
+[35m █[0;1;35;45m█[0;35m█   [0;1;30m░░[0;35m ░  █[0;1;30;45m▒░[0;35m█  [0;1;30m░[0;1;30;47m▓[0;1;30;40m░░░   [0;35m  ▀▀█▄▄▄ ░█▀   █[0;1;35;45m▓█[0;35m▓█[0;37m  [0;1;35m                            [0m
 [35m ▐[0;1;35;45m▓▒[0;35m▌ [0;1;30m░░[0;35m   ▄  ▀[0;1;30;45m▒░[0;35m█▄▄[0m        [35m▄▄▀  ▀▀▀[0;1;35;45m░░[0;35m▄▄   [0;1;35;45m░▓[0;35m▒▒▌ [0;36m░[0m                         [36m░[0m
 [37m [0;35m▐[0;1;35;45m▒░[0;35m█[0m     [35m▀▀[0;1;30;45m▒░[0;35m▄▄▄▄ ▀▀▀[0;1;35;45m▀▀[0;35m▀▀▀▀[0;37m  [0;1;37m▄▄[0m▄▄▄   [35m▀▀[0;1;35;45m░░[0;35m▄[0;1;35;45m░▒[0;35m█░█[0;37m [0;36m ░░[0m                    [36m░░   ▄[0m
 [37m  [0;35m█[0;1;35;45m░░[0;35m█▀▀▀▀▀▀▀▀[0;37m  ▄▄  ▄    [0;1;30;47m▀[0;1;37;47m▄▄[0m▀[1;30m▀▀[0;1;37m▀[0;1;37;47m░▒▓[0m█▄▄    [35m▀▀[0;1;35;45m░[0;35m███[0;37m [0;1;36;46m▄[0;36m▄   ░░[0m              [36m░   ▄▄[0;1;36;46m▄[0;36m▀[0m

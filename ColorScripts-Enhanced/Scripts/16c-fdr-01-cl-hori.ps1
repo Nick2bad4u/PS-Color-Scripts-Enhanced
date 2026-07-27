@@ -5,7 +5,7 @@
 # Source SHA-256: d881b97e68a928eaefea890d2ddc0220eca54bc9c91023f8975999221a66a30d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-HORI.ANS by Cleaner (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Horizon BBS
 # SAUCE Author: Cleaner
 # SAUCE Group: Fire Dream
@@ -37,5 +37,4 @@ Write-Host '
 
 [37m                  [0;1;37m ■  [0m      [1m  [0m   [1m [0m          [1m [0m    [1m ■  [0m    [1m   [0m   [1m [0m          [1m [0m   
 
-          [1m         [0m             
-[30m■ANSi■[0m'
+[1m[0m[30m■ANSi■[0m'

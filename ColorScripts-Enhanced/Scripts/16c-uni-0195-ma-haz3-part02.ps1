@@ -5,7 +5,7 @@
 # Source SHA-256: 2e6ab1988837c8bbb879898c4b65e2a25017cadc9c4a69204bdfadc25344428b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-HAZ3.ANS by Maestro (Maestro '95!); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hazardous Transport
 # SAUCE Author: Maestro
 # SAUCE Group: Maestro '95!
@@ -40,8 +40,8 @@ Write-Host '
 [1;36m   [0;36m░ ▐▒ [0;1;34m█ [0;36m░    ▐▒[0;1;34m▐▓    [0;36m░  ▐▒ [0;1;34m█  [0;36m░[0m       [1;36mF[0;36mo[0;37mur 28.8''s [0;1;37m-  [0mFour Node Ringdo[36mw[0;1;36mn[0m
 [1;36m  [0;36m░▒ ▐▓[0;32m░[0;1;34;47m▓[0m [1;34;40m▄▄▀▀ [0;36m▐▓[0;1;34m▐█[0;36m░   ▒  ▐▓[0;32m░[0;1;34;47m▓[0m          [1;36;40mF[0;36mi[0;37mve Gigabytes Of Pure Enjoyeme[0;36mn[0;1;36mt[0m
 [1;36m   [0;36m░  █▌[0;1;34m▐▌    [0;36m░ █[0;32m▒[0;1;34;47m█[0;1;34;40m▌  [0;36m░▒   [0;1;33;46m░[0;36m▌[0;1;34m▐▌[0m
-     [36m░[0;1;33;46m░[0;36m▌[0;1;34m▐▌   [0;36m░▒ [0;1;33;46m░[0;32m░[0;1;34m█▌   [0;36m░  ░[0;1;33;46m▒[0;36m▌[0;1;34m▐▌[0;36m░    [0;1;36mN[0;36mo[0;37mde [0;1;37m1 [0m612[1m-[0m432[1m-[0m0648 [36m| [0;37mNode [0;1;37m2 [0m612[1m-[0m432-08[36m0[0;1;36m4[0m
-[1;36m    [0;36m░▒▐▓[0;32m░[0;1;34m█    [0;36m░ ▐▌[0;1;34m▐▒[0m     [36m░▒▐▓[0;32m░[0;1;34m█[0m     [1;36mN[0;36mo[0;37mde [0;1;37m3 [0m612[1m-[0m431[1m-[0m3993 [36m| [0;37mNode [0;1;37m4 [0m612[1m-[0mPRI-VA[36mT[0;1;36mE[0m
+     [36m░[0;1;33;46m░[0;36m▌[0;1;34m▐▌   [0;36m░▒ [0;1;33;46m░[0;32m░[0;1;34m█▌   [0;36m░  ░[0;1;33;46m▒[0;36m▌[0;1;34m▐▌[0;36m░    [0;1;36m [0;36m [0;37m   [0;1;37m  [0m   [1m [0m   [1m [0m     [36m  [0;37m     [0;1;37m  [0m   [1m [0m      [36m [0;1;36m [0m
+[1;36m    [0;36m░▒▐▓[0;32m░[0;1;34m█    [0;36m░ ▐▌[0;1;34m▐▒[0m     [36m░▒▐▓[0;32m░[0;1;34m█[0m     [1;36m [0;36m [0;37m   [0;1;37m  [0m   [1m [0m   [1m [0m     [36m  [0;37m     [0;1;37m  [0m   [1m [0m      [36m [0;1;36m [0m
 [1;36m   [0;36m▀▀▄█▌[0;1;34m▐[0;1;34;47m▓[0m      [36m▐▌[0;1;34m▐▓    [0;36m▀▀▄█▌[0;1;34m▐[0;1;34;47m▓[0;1;34;40m▌[0m
 [1;34;40m   ▀▀▄▄[0;36m█ [0;1;34m█▌  [0;36m▀▀▄▄[0;1;37;46m░[0;32m░[0;1;34m█▌   ▀▀▄▄[0;36m▀[0;1;34m▄▓ ░[0m          [1;36mF[0;36mA[0;37mRTastic Ansi[0;1;37m: [0;1;36mM[0;36ma[0;37mestro''95[0m
 [37m    [0;36m░▒ [0;1;34m▀▀▄▓[0m      [36m▀▀▄▄[0;1;34m▀   [0;36m░▒ [0;1;34m▀▀[0;1;34;47m▓[0;1;34;40m▌[0m

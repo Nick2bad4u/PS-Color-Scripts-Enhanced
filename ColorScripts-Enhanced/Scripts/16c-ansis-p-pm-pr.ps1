@@ -5,7 +5,7 @@
 # Source SHA-256: d1bd4c763d5d287db2082a853ad17b318f76ae85124fef5a32d7b664411b4dc2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-PR.ANS by Paul Muaddib (ansis-p); released in ansis-p and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -37,5 +37,5 @@ Write-Host '
 [1;34;44m░[0;34m██[0;1;34;44m░[0m     [34m▐[0;1;34;44m▒[0;34m█[0;30;44m▀▀▀[0;34;40m▄  [0;1;34;44m▒░[0;34m█▌█[0;34;44m [0;1;34;44m░[0m  [34m▐[0;34;44m [0;1;34;44m░[0;34m▌ [0;1;34;44m░ [0;34m█▌  ▐[0;1;34;44m░[0;34m█▌   [0;1;34;44m░  [0;34m▌ ▐[0;1;34;44m▒[0;34m█[0;30;44m▀▀▀[0;34;40m▄  ▄▄▄▀▄█[0;1;34;44m░[0;34m▌[0m     [1;37mM[0mirror
 [34m██[0;1;34;44m░▒[0m      [1;34;44m░[0;34m██[0;1;34;44m░▒[0;34m▀  ▀[0;1;34;44m░[0;34m███[0;1;34;44m░▒[0m  [34m▐[0;34;44m [0;1;34;44m░[0;34m▌ [0;1;34;44m░[0;34m█[0;1;34;44m░[0m   [34m▐[0;1;34;44m░░[0;34m▌   [0;1;34;44m░ ░[0m   [1;34;44m░[0;34m██[0;1;34;44m░▒[0;34m▀ ▀[0;1;34;44m▒░[0;34m████[0;1;34;44m▒[0;34m▀    [0;1;37mI[0mmage[1;30m..[0m
 [34m▄▀▀▒[0m      [34m▓▀▀▀░    ▓▀▀▀▒▀  ▓▀▀▒ ▒▀▒   ▓▀▀▒   ▒▀▒   ▒▀▀▀▒   ▓▀▀▀▀▀▒  [0;1;36mANS[0;36mi: [0;1;36mP[0;36maul[0m
-[34m▓  ▒[0m     [34m▐  [0;1;36m┌[0;36m─[0;1;34m─[0;34m─ [0;1;37mS[0mys[1mO[0mp - [1mG[0mrand [1mH[0migh [1mB[0muddha [1;36m═[0;36m─ [0;1;37m916[0m.[1m444[0m.[1m7312[0;34m░─[0;1;34m─[0;36m─[0;1;36m┐   [0;34m░  [0;1;36mM[0;36muad''[0;1;36mD[0;36mib[0m
+[34m▓  ▒[0m     [34m▐  [0;1;36m┌[0;36m─[0;1;34m─[0;34m─ [0;1;37m [0m  [1m [0m    [1m [0m     [1m [0m    [1m [0m      [1;36m═[0;36m─ [0;1;37m   [0m [1m   [0m [1m    [0;34m░─[0;1;34m─[0;36m─[0;1;36m┐   [0;34m░  [0;1;36m [0;36m    [0;1;36m [0;36m  [0m
 [34m▒  ░[0m     [34m░  [0;1;36m└─[0;36m─[0;1;34m─[0;1;37mF[0morum ]I[ [1;36m═[0;36m─ [0;1;37mTHC N[0met [1;36m═[0;36m─ [0;1;37m14[0m.[1m4[0mk [1mD[0mual [1mS[0mtandard[1;34m─[0;36m─[0;1;36m─┘[0m        [1;37m[[0;36mi[0;1;36mCE[0;1;37m][0m'

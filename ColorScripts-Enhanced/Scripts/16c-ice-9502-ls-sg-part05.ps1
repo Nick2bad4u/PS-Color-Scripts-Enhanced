@@ -5,7 +5,7 @@
 # Source SHA-256: 981132214772c7f7c5d477a0fd6ecb40b4b33bf2846fd48f85543aa0671b6785
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS-SG.ICE by Lord Soth (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Shadowgate
 # SAUCE Author: Lord Soth
 # SAUCE Group: iCE
@@ -20,8 +20,8 @@ Write-Host '
 [36m██████▀[0m [32m■▀[0;36m▄████████▄[0;35m▀█▄[0;36m▀███▄[0;32m▀▀■[0;36m▀████▄▀[0;37m▄▄[0;1;37;47m▒[0m▄[32m▀▄■[0;37m▄ [0;36m█████▄[0;35m▀▀▄[0;36m▀██████▄██████████▄█▓▓▒[0m
 [36m████████▄██████████▄[0;35m▀[0;36m▄▄████████▄████[0m [1;37;47m▒░░[0m█[1;30;47m░▒[0m▄▀[36m▄█████████▄▄▄████████████████▓▓▒▒░[0m
 [36m███████████████████████████████████▌[0;37m▐[0;1;37;47m▒░[0m█[1;30;47m░▒▒[0m [36m█████████▓[0;1;33m [0;1;37mThe Shadowgate[0m         [1;33m [0m
-[36m████████████████████████████████████▄[0;37m▀▀[0;1;37;47m▒[0m█[1;30;47m░░▒[0m▄[36m▀███████▓[0m [1;37m815-622-9639  2400-14.4k[0m
-[36m███████████████████████████████████████▄▄[0;37m▀[0;1;37;47m░ [0;1;30;47m░▒[0m▄[36m▀▀████▒[0m [1;37m815-622-9637[0m  [1;37m2400-28.8k[0m
+[36m████████████████████████████████████▄[0;37m▀▀[0;1;37;47m▒[0m█[1;30;47m░░▒[0m▄[36m▀███████▓[0m [1;37m                        [0m
+[36m███████████████████████████████████████▄▄[0;37m▀[0;1;37;47m░ [0;1;30;47m░▒[0m▄[36m▀▀████▒[0m [1;37m            [0m  [1;37m          [0m
 [36m███████████████████████████████████████▀[0;37m▄[0;1;37;47m░ [0;1;30;47m░▒▒▒▒▒[0m▄[36m▀██▒[0m [1;37m12 CD''s online, 8 Gigs[0m [1;33m [0m
 [36m██████████████████████████████████████▌[0;37m▐[0;1;37;47m▒ [0;1;30;47m░▒▒▒▒▒▒▒[0m▌[36m▐█▒[0m [1;37mWildcat! 4.10 Beta Site[0;1;33m [0m
 [36m███████████████████▀▀▀▀▀▀██████████████▄[0;37m▀[0;1;37;47m░ [0;1;30;47m░▒▒[0m▀▀▀[36m▄▄██░[0m [1;37mOS/2 Support/Files/Info[0m

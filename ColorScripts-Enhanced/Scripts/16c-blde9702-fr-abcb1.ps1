@@ -5,7 +5,7 @@
 # Source SHA-256: bfdaa5b61e57f549826155bc2a9795ed42d75b3e1e294d441bdd8d95f51d75d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FR-ABCB1.ANS by fractal (blade productions); released in blde9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the abcb cafe
 # SAUCE Author: fractal
 # SAUCE Group: blade productions
@@ -14,8 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
- [1;30m [0;35m [0;1;35m [0;34m [0;1;34m       [0;34m [0;32m [0;1;32m [0;32m   [0;34m     [0m
-[33m   [0m                   [33m  [0m          [33m [0m        [30;43m▓[0;33;40m░[0m         [33;40m▄[0m
+[1;30m[0;35m[0;1;35m[0;34m[0;1;34m[0;34m[0;32m[0;1;32m[0;32m[0;34m[0m[33m   [0m                   [33m  [0m          [33m [0m        [30;43m▓[0;33;40m░[0m         [33;40m▄[0m
          [30;43m▓[0m      [35;40m▀ ▄[0;37;40m  [0;33;40m░[0m      [35;40m▄[0m      [33;40m▀[0;1;31;43m▀█▄[0;33m▄▄[0;1;31;43m▓░[0;33m▓[0;30;43m░▒[0;33;40m░[0;37;40m  [0;35;40m [0;33;40m░ [0;37;40m  [0;33;40m▐▐[0;1;31;43m░[0m     [35m▄[0m         [33m░[0m
         [33m██[0;30;43m░[0;33;40m▓░[0m   [32;40m▄[0;35;40m ▐█[0;37;40m [0;33;40m▓▀[0;37;40m [0;35;40m░[0;37;40m [0;33;40m▀[0;37;40m [0;35;40m ▀█[0;1;35;45m▄[0;35m▄▄   [0;33m▀▀[0;1;31;43m▀[0;33m█[0;1;31;43m░[0;33m▀▀▀▀[0;37m  [0;33m  [0;35m  ▄▄[0;37m  [0;33m▀▀[0;1;31;43m▀░[0;33m▀[0;37m [0;35m [0;1;35m▀█[0;1;35;45m▄[0;1;35;40m▄[0;35m▄  [0;33m░[0;35m [0;30;43m▓░[0;33;40m▓▄ [0;1;30;40m▄  [0m
    [1;30m▄[0;33m ▌▄[0;1;33;43m░[0;33m▀[0;35m ▄[0;1;35m▄[0;1;32m▄▄[0;1;32;42m▓[0;1;32;40m█[0;32m▌[0;35m▄█[0m    [35m▄░█[0;1;35m▄▄[0;35m▄[0;1;30m░░[0;35m▀[0;1;35;45m▀▓░[0;35m█▄▄[0m     [35m▀ ▄ ▄▄[0;1;32;45m   ▀▐▄[0;35m▄    ▄▄[0;1;30m░░ [0;35m▀[0;1;35;45m▀▀█▄[0;1;35;40m▄[0;35m▄[0m   [33m▀[0;1;31;43m░[0;33m▄[0;1;30m▀[0m

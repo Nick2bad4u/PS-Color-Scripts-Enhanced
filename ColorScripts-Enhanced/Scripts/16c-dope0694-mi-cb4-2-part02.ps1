@@ -5,7 +5,7 @@
 # Source SHA-256: 4e6792978759ed46fc40d6186b9063fe86feebdce3e7f28a86ebd866a7fdeb05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MI-CB4#2.ANS by Malicious Intent (dope0694); released in dope0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 32-54
 # Columns: 1-80
 
@@ -27,6 +27,5 @@ Write-Host '
                               [31m▌[0m        [31m▐[0m       [31m▐[0m
                            [31m▄██[0;1;31;41m▌ ▄ [0;31m▄▄▄▄█[0;1;31;41m▄[0;31m█▄▄▄▄▄▄[0;1;31;41m▐[0;31m▄▄[0m
 [1;30m▀ ▀▀ ▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀ ▀▀ ▀[0m
-                           [1;31m8 [0;31m1 [0;1;30m5 - 2 [0m8 2 [1;30m- 8 7 [0;31m3 [0;1;31m2[0m
-
+[1;31m[0;31m[0;1;30m[0m[1;30m[0;31m[0;1;31m[0m
                  [1;31mD [0;31mo [0;1;30mP E  W O R L D  [0mH E [1;30mA D Q U A R T E [0;31mR [0;1;31mS[0m'

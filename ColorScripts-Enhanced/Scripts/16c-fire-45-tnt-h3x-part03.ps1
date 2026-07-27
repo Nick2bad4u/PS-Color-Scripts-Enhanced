@@ -5,7 +5,7 @@
 # Source SHA-256: 2694521998294d5c5c6752a302e55946d826ea9e411de8a4b704eb1765594a2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-H3X.ANS by tainted (FiRE); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hexed
 # SAUCE Author: tainted
 # SAUCE Group: FiRE
@@ -64,5 +64,4 @@ Write-Host '
 [37m    [0;1;30m▀▀[0m   ░░       [1m░██▀[0m   [1m▄[0m ▀█▄     ▄█[1;30m░░  [0m▄▄▄▄░▀▀██▄        ▀  [1;30m▀░[0m   ▄ ▀▀
 [1;30m              [0m░░        [1m▀▀░[0m  ▀█▄ ▄█▀      ▀▀▀[1m    [0m▀█▌[1;30m░[0m [1mtainted[0;1;30m[[0mfire[1;30m][0m
                                ▀
-                  [1m            [0;1;30m [0;33m     [0;1;30m    [0;33m       [0;1;30m    [0m         
-                                                                               [30m░[0m'
+[1m[0;1;30m[0;33m[0;1;30m[0;33m[0;1;30m[0m                                                                               [30m░[0m'

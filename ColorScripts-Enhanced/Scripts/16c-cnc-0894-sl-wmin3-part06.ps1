@@ -5,7 +5,7 @@
 # Source SHA-256: a6404074e41ba6e23b5d671179f047d07b1740ccce7431772463cd1d856d2323
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-WMIN3.ANS by Sir Lancelot (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 248-287
 # Columns: 1-80
 
@@ -26,9 +26,4 @@ Write-Host '
                                   [1;37;47m▓[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m▀ [0;1;37;47m▒[0m [1;37;40m▀[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓[0m
                                    [1;37;40m▀[0;1;37;47m▒▓█▓█▓▒[0;1;37;40m▀[0m
                                     [1;37;47m░▒[0;1;37;40m▐[0;1;37;47m▒[0;1;37;40m▌[0;1;37;47m▒░[0m
-                                    ▐[1;47m░[0m▐[1;47m░[0m▌[1;47m░[0m▌
-
-
-
-
-                                [1mφ [0m209[1m.[0m575[1m.[0m4705 [1mφ[0m'
+                                    ▐[1;47m░[0m▐[1;47m░[0m▌[1;47m░[0m▌[0m'

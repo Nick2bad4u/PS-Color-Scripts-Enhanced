@@ -5,7 +5,7 @@
 # Source SHA-256: bd1ed9e6a94ac7cdaa3b89d77375a744285fb81da2ddae55986494abcc169272
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-FODA.ANS by minotaur (maiden^brazil); released in mdn-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: foda-se emag ( heheh )
 # SAUCE Author: minotaur
 # SAUCE Group: maiden^brazil
@@ -19,8 +19,7 @@ Write-Host '
 [1;34m░░░░░░░░░░░░░░░░░░░░░[0m [35mfoda-se emag! a primeira do rio ... [0;1;34m░░░░░░░░░░░░░░░░░░░░░░[0m
 [35m--------------------------------------------------------------------------------[0m
 
-                          [1;33m                         [0m
-
+[1;33m[0m
                     [1;36m▐▄▄▄▄ [0m         [1;31m    [0m     [1;31m    [0m
       [1;33m▄▄▒[0;33m ▄▄▄▄▄▄▄▄[0;37m  [0;1;36m▐[0m  [36m▀▀[0;1;36;46m▀[0;1;36;40m█▄[0m       [1;31m   [0m       [1;31m   [0m
       [1;33m▌[0m     [35m░[0;1;35;45m ▄▄ [0;33m▌▄▄▄▄▄[0;37m  [0;36m▐[0;1;36;46m▐█[0;36m▌[0m     [37m▐[0;1;37;47m██▌[0m [1;31m   [0m    [1;32;42m██[0;1;32;40m▀▀▀▀▀[0;32m▀▀▌[0m

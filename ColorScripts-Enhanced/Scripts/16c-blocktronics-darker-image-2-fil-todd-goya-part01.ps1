@@ -5,7 +5,7 @@
 # Source SHA-256: cc7f4af979bd53e1d7df77b0cbca5f8de4182a2540fa5070489518ceaff60ffd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-todd goya.ans by filthy mcfarlane (BROCK T. RONICS); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Malebolgia Devouring His Spawn
 # SAUCE Author: filthy mcfarlane
 # SAUCE Group: BROCK T. RONICS
@@ -42,11 +42,7 @@ Write-Host '
 
 
 
-     [33m   [0;30m    [0;33m                                                        [0m
-     [33m                                                                   [0m
-     [33m                                                                     [0m
-             [1;33m                                                     [0m
-
+[33m[0;30m[0;33m[0m[33m[0m[33m[0m[1;33m[0m
 
 
 

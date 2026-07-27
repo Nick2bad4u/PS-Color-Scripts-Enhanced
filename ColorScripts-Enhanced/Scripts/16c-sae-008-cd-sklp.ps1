@@ -5,7 +5,7 @@
 # Source SHA-256: f899b20222507a03c4a5288a626d29879edf156536203cca97fc046e676de5c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-SKLP.ANS by Cd_ (sae-008); released in sae-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -34,6 +34,5 @@ Write-Host '
 [1;36m▐▌▐▌▐▌▐▌▐▌▐▌▐▌▐▐▐▌▐▐▌▐▐▌ [cut ] ▌▐▌▐▌▐▌▌▐▌▐▌▐▌▐▌▌▐▌▐▌▐▌▐▌▐▌▐▐▌▐▌▐▌▐▌▐▌▌▐▌▌▐[0m
 
 
-[1;36m                                                 [0m
-
+[1;36m[0m
                                     [1;36mcD_[0m'

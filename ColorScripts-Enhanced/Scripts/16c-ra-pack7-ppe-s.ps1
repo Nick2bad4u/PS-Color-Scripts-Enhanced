@@ -5,7 +5,7 @@
 # Source SHA-256: 96d86ff16f95729aa1b6bb07197c03d905b799215d872d2b32a463f7eba8dd41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-S.ANS by Purplee (ra-pack7); released in ra-pack7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -13,8 +13,7 @@ Write-Host '
                                                               [36m┬[0m
                                                               [1;36m|[0m           [1;36m [0m
       [1;34m______________________________[0m                          [36mi[0m
-      [1;34m                              [0;34m   [0m   [1;33m [0m    [1m [0;1;33m [0m             [36m [0m
-      [1;34m                    ┴   ┴     [0m  [30;43m [0;1;37;40m [0m  [1;33m [0m    [1;33m  [0m [1;33m   [0;1;37m [0m       [1;36m  [0;36m [0m
+[1;34m[0;34m[0m[1;33m[0m[1m[0;1;33m[0m[36m[0m      [1;34m                    ┴   ┴     [0m  [30;43m [0;1;37;40m [0m  [1;33m [0m    [1;33m  [0m [1;33m   [0;1;37m [0m       [1;36m  [0;36m [0m
       [30;44mPPE[0;34;40mTTTTTTTTS┴[0;1;37;40m_[0m,aas%@&5[30;47m&[0;37;40mS@%y._[0;34;40m┴[0;37;40m  [0;1;33;40m`$.[0m [1;33m..,sSa.[0m [1;33m$$[0;30;43m$[0;1;33;40m''[0m      [1;36m.$[0;36m:$.[0m        [37m<- --- [0m
       [34mTTTTTTT''[0;1;37m,gsSS[0m$$$[30;47m$[0;37;40m$$$''~^~`$$$$.   [0;1;33;40m`^[0m [1;33m$$$[0;30;43m$$[0;1;33;40m$$[0m [1;33m".''[0m     [1;36m-<$[0;36m:::$>-[0m        [37m<-- -[0m
       [34mTTTTT[0;30;44mT[0;34;40mT[0;37;40m [0;1;37;40m$$$$[0m$ⁿⁿ┴┴┴ⁿ''     $$$$$.  [1;33m_.[0m [1;33m:$[0;30;43m$[0;1;33;40mⁿS$$.[0m [1;33m$$.[0m    [1;36m [0m [1;36m`[0;36m$:$''[0m       [37m<-- ---[0m
@@ -23,8 +22,7 @@ Write-Host '
       [34mIIIII:[0;1;30mY[0m [1m`[0m"ⁿ[30;47mÿ[0;37;40m$$$.  `~""ⁿ$$$$''[0;34;40m*I[0;37;40m [0;1;30;40m [0m   [1;33m,S[0;30;43m$[0;37;40m  [0;1;33;40m:$:[0m  [1;33m`ⁿ[0m      [1;30mY[0m                <---
       [34m  [0;30;44m [0;34;40m   [0;1;30;40m [0;34m    [0;37m                    [0m    [1;37m [0;1;33m  [0m   [1;33m [0m [1;30m           [0m       [1;36m [0m            
       [34m~~~~~~[0;1;30mG[0;34m~[0;1;37m_.[0m,y$$TTTiii    `$TTT$$            [1;30mG[0m                           <--
-              [1m  [0m                     [1;30m             [0m                              
-              [1m$[0m$ÿÿ┴┴┴ⁿ"^''     ,$[30;47m$[0;37;40m$$'' [0m
+[1m[0m[1;30m[0m              [1m$[0m$ÿÿ┴┴┴ⁿ"^''     ,$[30;47m$[0;37;40m$$'' [0m
          [1;30;40m    [0m $$           _,,i$$[1m$''[0m
               $$._,aS$$$$[30;47m$[0;37;40m$$$$ii[0;1;37;40m$''[0m            sTATS fOR :  ??
               `^~~"ⁿⁿ╧╧╩╧╧ⁿⁿ"~~^[1m''[0m             ????????? :  ??
@@ -36,5 +34,4 @@ Write-Host '
 
 
 ---------------------->
-                          
    FREE!!!!!!!!!!!!!!!!!!!!!!!!!!![0m'

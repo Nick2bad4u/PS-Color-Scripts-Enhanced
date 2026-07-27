@@ -5,7 +5,7 @@
 # Source SHA-256: 3c6200a0f8b34bae78235b584213b93a780284aa0d8cc168b31872e17358e316
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-S2TS2.ICE by Tempus Thales (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -56,7 +56,4 @@ Write-Host '
                                     [31m▀▀  [0;32m▄[0;1;32;42m▄[0;1;32;40m██▀   [0;32m▄[0;1;32m▄[0m
                                         [32m▀[0;1;32;42m▀[0;1;32;40m████████▀[0m
 
-       [1;37;40m                                  [0;1;30;40m [0m [1;30m  [0;1;37m              [0;1;30m [0m [1;30m  [0;1;37m           [0m
-     [1;37m                      [0;1;30m [0m [1;30m  [0;1;37m                          [0;1;30m [0m [1;30m  [0;1;37m                [0m
-          [1;37m                                    [0;1;30m [0m [1;30m  [0;1;37m          [0;1;30m [0m [1;30m  [0;1;37m       [0m
-        [1;37mUSR DS 14.4 [0;1;30m-[0m/[1;30m- [0;1;37m3o5.755.9o68 [0;1;30m-[0m/[1;30m- [0;1;37m3o5.755.93o8 [0;1;30m-[0m/[1;30m- [0;1;37mANS[0mi[1;30m·[0;1;33mTEMPUS[0;1;30m[[0mi[1mCE[0;1;30m][0m'
+       [1;37;40m                                  [0;1;30;40m [0m [1;30m  [0;1;37m              [0;1;30m [0m [1;30m  [0;1;37m           [0m[1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0m[1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0m[1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0;1;37m[0m[1;30m[0;1;33m[0;1;30m[0m[1m[0;1;30m[0m'

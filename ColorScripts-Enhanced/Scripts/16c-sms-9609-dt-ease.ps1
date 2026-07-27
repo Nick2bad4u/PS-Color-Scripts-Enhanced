@@ -5,7 +5,7 @@
 # Source SHA-256: 014f4853f38cdf8107d131421130047ef8bc928f22f11c425a5a7775cec9ceb4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-EASE.ANS by Defiant (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ease
 # SAUCE Author: Defiant
 # SAUCE Group: Samsara
@@ -59,7 +59,7 @@ Write-Host '
 [1;32;42m█▄[0;32m█   [0;35m▀ ▀▀▀[0m             [34m░░  [0;32m▀▀  [0;30;44m▒▒[0m  [35;40m█[0;33;40m░ [0;35;40m▄▀   ▄▄▓▓▄▀▀▀▀    [0;32;40m▄█▄▒▒█▀ ▀██  ▀██▀█[0;1;32;42m░░ ▄▓[0m
 [1;32;42m██▄[0;32m█▄▄[0m      [34m░ ▄  ▄▄▄█ [0;32m▀ [0;34m▓▓▄▄▄ ▄█[0;1;34;44m▄[0;30;44m░[0;34;40m█  [0;35;40m▀▀▀▀▀▀▀[0m     [1;30;40m░░  [0;32m▄ ▄▄▄██▓▓██▄█[0;1;33;42m░░[0;32m▌  ▀[0;32;42m [0;32;40m█[0;1;32;42m▄▄▄███[0m
 [1;32;42m▀[0;32m▀▀[0m                 [34m░[0m           [34m▀▓[0m                             [32m▀▀ ▀▀[0m     [32m█[0;1;32;42m▄█████[0m
-[32m▄   [0;1;36mease .. [0;36mopped by dislogic  of[0;34m░ [0;36mbleach .. 613/834/0292 ...... ...  .  [0;32m▐█[0;1;32;42m▀██▓[0;32m█[0m
+[32m▄   [0;1;36m        [0;36m                     [0;34m░ [0;36m                                      [0;32m▐█[0;1;32;42m▀██▓[0;32m█[0m
                                                                           [32m█[0;32;42m [0;1;32;42m▐██[0;32m▓[0m
 [32m                                                                        ▄█[0;1;32;42m░░▀[0;32m▀▀▒[0m
                                                                   [32m▄   ▀▀▀▀[0m     [32m░[0m'

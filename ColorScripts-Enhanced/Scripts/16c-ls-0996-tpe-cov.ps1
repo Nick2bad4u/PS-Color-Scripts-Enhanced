@@ -5,7 +5,7 @@
 # Source SHA-256: d07ebb0285ab216027722f843c8ab1db44268393cd9e68faeb0cdb37e0717b41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TPE-COV.ANS by the platinum eagle (leper society); released in ls-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: church of valhala
 # SAUCE Author: the platinum eagle
 # SAUCE Group: leper society
@@ -25,8 +25,7 @@ Write-Host '
          [1;37m`$²""[0;1;32m"[0;32m"''[0;37m [0m [1;32m$[0;1;37m²"''[0m  [1;37m`[0;32m"²$[0m [1;32m`$[0;1;37m²""[0;32m""²$[0m [1;37m$²"''[0m [1;37m$"[0;1;32m"$[0m [1;32m$$$[0;1;37m$$$$$[0m [1;32m$$[0;1;37m$$[0m [1;37m$$[0;1;32m$$[0m
           .                     [36m∙o∙f∙[0m    [37m [0m [1;37m,''[0m    [1;32m`$²[0;1;37m""""''[0m [1;32m$[0;1;37m²"''[0m   [1m`"²[0;1;32m$[0m
                                            [1m`[0m
-  [32m     [0;37m    [0m [32m     [0m [32m      [0m        [32m     [0m [32m      [0;37m [0;32m        [0;37m [0;32m      [0m
-    [32m$$$$[0m   [32m$$$$[0m  [32m$$$$$$$$[0;37m [0;32m,sS$[0m   [37m [0;32m$$$[0;37m [0;32m$$$$''[0m [32m$$$$$$$$$$[0m [32m$$$$$[0m     [32m,sS$Ss.[0m
+[32m[0;37m[0m[32m[0m[32m[0m[32m[0m[32m[0;37m[0;32m[0;37m[0;32m[0m    [32m$$$$[0m   [32m$$$$[0m  [32m$$$$$$$$[0;37m [0;32m,sS$[0m   [37m [0;32m$$$[0;37m [0;32m$$$$''[0m [32m$$$$$$$$$$[0m [32m$$$$$[0m     [32m,sS$Ss.[0m
      [32m$$$$[0m [32m$$$$[0m  [32m$$$[0;1;32m$"[0;32m"$$$ $$$$[0m   [32m$$$$÷$$$$[0m [32m$²"''[0;37m [0;32m.,$$$$[0m [32m$$$$[0m     [32m$$$$$$$$$[0m
       [32m$$$[0;1;32m$[0;32m$$$[0m   [32m$[0;1;32m$$$ss$[0;32m$$[0;37m [0;32m$$$$[0m   [32m$$[0;1;32m$$[0m [1;32m$$[0;32m$$[0m   [32m╓s$$[0;1;32m$$$[0;32m$$[0m [32m$$$$[0m    [37m [0;32m$$$"""$$$[0m
       [32m$$[0;1;32m$$$[0;32m$$[0m  [1;32m$$$$[0;1;37m$$[0;1;32m$$$[0;32m$[0m [32m$$$$[0m   [1;32m$ⁿ²"[0m [1;37m$[0;1;32m$$[0;32m$[0m  [32m$$[0;1;32m$$ⁿ²"$$[0;32m$[0m [32m$$[0;1;32m$$[0m     [32m²$$sss$$$[0m
@@ -35,5 +34,4 @@ Write-Host '
          [1;37m"[0m  [1;37m$²"''[0m    [1;37m$²"[0;1;32m''[0m [1;32m$$$$$$s[0;1;37m$$$[0;1;32m$$$[0m [1;37m"²$[0m   [1;32m$[0;1;37mⁿ²""""[0;1;32m''s$$$[0;1;37m$s$[0;1;32m$$$[0;32m$$[0m [1;32m$[0;1;37m$[0m [1;37m$[0;1;32m$$[0;32m$[0m
                   [1;37m,''[0m     [1;32m`$²""[0;1;37m""""""[0;1;32m''[0m    [1;37m`.[0m          [1;32m$[0;1;37m²"""""[0;1;32m"""[0;32m''[0;37m [0;1;32m²"[0;1;37m''[0m [1;37m$$[0;1;32m$$[0m
                   [1;37m`.[0m                     [1m.''[0m          [1m`.[0m      [33m¡[0;1;33mt[0;1;37mP[0;1;33me[0;33m![0m   [1;37m`²ⁿ[0;1;32m$[0m
-                    [1m''[0m   [33m9 o [0;1;33m8 6 [0;1;37m8 5 8 0 9 1[0m          [1m.''[0m
-                                                    [1m''[0m'
+[1m[0m[33m[0;1;33m[0;1;37m[0m[1m[0m                                                    [1m''[0m'

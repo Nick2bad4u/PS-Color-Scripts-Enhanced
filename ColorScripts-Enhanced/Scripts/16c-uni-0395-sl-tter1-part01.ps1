@@ -5,7 +5,7 @@
 # Source SHA-256: c8edbe25172f99fbf7b61510ddf3f09ab36f4f6749e17584909bb4f46cfdc0a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-TTER1.ANS by Surreal Logic (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -20,7 +20,7 @@ Write-Host '
 [1;36m▓[0m [1;34m█[0m [34m▀▓▄▄█[0;1;34;44m∙░[0;34m▌[0m [34m▐[0;1;34;44m ▒░[0;34m█▄[0m  [34m▒[0;1;34;44m▒▓[0;34m  ▐[0;1;34;44m▓▒[0;34m░▌[0;37m   [0;1;30m [0;1;34m░[0m     [1;30m▒[0m  I''ll do ansis for a small fee or  [1;30m▒[0m
 [1;36;46m░[0m [1;34;40m▓[0m   [1;34;44m ▓■▓▒[0;34m█[0m  [1;34;44m▐▓▒▒[0;34m▓▌[0m [34m▓[0;1;34;44m▓█[0;34m▌  [0;1;34;44m▐▓[0;34m▒▌ [0;37m   [0;1;34m▒[0m [1;36m░[0m   [1;30m▒[0m  a trade, so if you wanna contact  [1;30m▒[0m
   [1;34m▄[0m    [34m█[0;1;34;44m█▄▓■[0;34m▌▐[0;1;34;44m█▄▓▀[0;34m▀[0m [34m▐[0;1;34;44m▓▄▓▄[0;34m▄[0;1;34;44m■▀▀∙[0;34m▓▄[0;1;37m   [0;1;34m▓[0m [1;36;46m▒[0m   [1;30;40m▓[0m  me, or e-mail me at:              [1;30m▓[0m
-[1;36;46m░[0m [1;34;40m▀▀▀▒▀[0m [34m▀▀[0;1;34;44m▀▀■[0;34m█[0;1;34;44m▀[0;34m▀▀[0m [1;34m▀[0;34m▄[0;1;34;44m■▀[0;34m▓▀▀▀▀     [0;1;34m▀▀░▀[0m [1;36;46m░[0m   [1;30;40m▓[0m   [1msurreal.logic@global-link.com[0m    [1;30m▓[0m
+[1;36;46m░[0m [1;34;40m▀▀▀▒▀[0m [34m▀▀[0;1;34;44m▀▀■[0;34m█[0;1;34;44m▀[0;34m▀▀[0m [1;34m▀[0;34m▄[0;1;34;44m■▀[0;34m▓▀▀▀▀     [0;1;34m▀▀░▀[0m [1;36;46m░[0m   [1;30;40m▓[0m   [1m                             [0m    [1;30m▓[0m
 [1;36m▀▀[0m [1;36;46m▓[0;1;36;40m▀[0m [1;36;40m▀▀▀▀[0m     [1;36;40m▀▀▓▀[0m    [1;36;40m▓▀ ▀░▒▓▀▀[0m [1;36;40m▀▓[0m [1;36;40m▀▀[0;35m [0;36m  [0;1;30m▀▀█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▀▀[0m
 [35m░▒▄▄▄█░█████████▄▄▄███▄▄▄█▄▄▄▄▄█▀▄▄▄█▀[0;36m▄[0;1;30;46m░▒▓[0;1;30;40m▄▄▄[0m [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▓[0;37m [0m
 [35m▄░▒▓█▓▒██[0;1;35;45m░[0;35m██[0;1;35;45m░[0;35m▓███████▓[0;1;35;45m░[0;35m████[0;1;35;45m░[0;35m████░████▄[0;36m▀[0;1;30;46m░░▒▒▓[0;1;30;40m▀[0;35m▄███▓▒▓████[0;1;35;45m░▒[0;35m████░████▓██▒░███[0;1;35;45m░▒░[0;35m█[0;37m [0m

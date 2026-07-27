@@ -5,7 +5,7 @@
 # Source SHA-256: 168679eaab259eed266762e95c6ba8ac4b5e2bbd5b6587dc89c382ea4ed1d520
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HYDROGEN.ANS by The Malevolent Trickster (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 40-66
 # Columns: 1-80
 
@@ -27,8 +27,7 @@ Write-Host '
 [1;40m [0;1;30;40m░▒▓█    [0m [1m   [0m      [1m   [0m    [1m [0m     [1m [0m     [1m     [0m        [1m [0m [1m  [0m   [1m [0m    [1m [0m    [1m [0m [1;30m     █▓▒░[0m
 [1;30m ░▒▓█    [0m [1m   [0m  [1m  [0m   [1m [0m    [1m [0m      [1m [0m    [1m [0m    [1m [0m      [1m [0m   [1m [0m      [1m [0m       [1m [0m [1;30m     █▓▒░[0m
 [1;30m ░▒▓█[0m       [1;30m [0m [1m   [0m    [1m   [0m [1m    [0m [1m      [0m      [1m   [0m   [1m [0m      [1m [0m       [1m [0m [1;30m [0m         [1;30m█▓▒░[0m
-                 [1;30m·[0m∙[1m- [0;5;30m6[0;1m6[0;5;30m4 [0;1m1  3  -  5  2  3  -  7  6  7  1 -[0m∙[1;30m·[0m
-
+[1;30m[0m[1m[0;5;30m[0;1m[0;5;30m[0;1m[0m[1;30m[0m
             [1;33m▄▀▀▀▀▀▀▀▀▄ ▄▀▀▀▀▀▀▀▀▄▀▀▀▀▄   ▄▀▀▀▀▀▀▀▀▄▄▀▀▀▀▀▀▀▀▄▄▀▀▀▀▀▀▀▀▀▄[0m
 [1;30mThe[0m        [1;33m█ [0;1;35m▄[0;1;35;45m▓▒▒▒▒▒[0;35m▄ [0;1;33m▀ [0;1;35m▄[0;1;35;45m░░    [0;35m▄ [0;1;35m▄[0;1;35;45m▓░[0;35m▄ [0;1;33m█ ▐▌[0;1;35m▄[0;1;35;45m░░    [0;35m▄  [0;1;35m▄[0;1;35;45m▓▒▒▒░░[0;35m▄  [0;1;35m▄[0;1;35;45m▓▒░░░▒▒[0;1;35;40m▄ [0;1;33;40m█[0m
 [1;30;40mMalevolent [0;1;33;40m█ [0;1;35;45m▓▓▓▓[0;1;35;40m▀[0;1;35;45m░░▓▒[0m  [1;35;45m░░ █[0;1;35;40m▀[0;1;35;45m▒░ [0m [1;35;45m▓▒  [0m [1;33;40m█ █ [0;1;35;45m░░ █[0;1;35;40m▀[0;1;35;45m▒░ [0m [1;35;45m▒▒░░░░░░░ [0m [1;35;40m█[0;1;35;45m▓▒░░▒▒▒▒[0m [1;33;40m█[0m

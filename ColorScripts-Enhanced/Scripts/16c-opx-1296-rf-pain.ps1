@@ -5,7 +5,7 @@
 # Source SHA-256: d79c1fad125d8142d1296591f725eaac56d51f2fe15c14e4ea75f44fb5329447
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RF-PAIN!.ANS by Rimfire (Opium (knark)); released in opx-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Pain(t)ball
 # SAUCE Author: Rimfire
 # SAUCE Group: Opium (knark)
@@ -25,7 +25,6 @@ $$.  $$$$$:. ""  .$ . $$$:. $$$ . $$:. $$$$$$$$$:. $$$$( :.$$__.±$$$$$$$$$$$$$$
 $$___$$$$$___$$___$___$$$___$$$___$$___$$$$$$$$$ . $$$$$±..`²»S$"""$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___$$$$$$$$S±,_____$$$$$$$$$$$S''
 `S$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S`
-                                                                            
 [36m:i$$$$$$$$$7╜"~[0;1;30m  _.[0m.[1;30m...[0;1;37m.[0;1;30m..[0;1;37m._[0;1;30m [0;36m~"╙4$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S#╜"~ ~[0m
 [36m :i$$$$$$7''[0;1;30m  .sS[0m$[1;30m$[0m$[1;30m$[0m$[1;30m$$[0m$$[1m$[0;1;30m$[0;1;37m$$Ss.[0;1;30m [0;36m''$$$$$$$$$$$$$$$$$$$$$$$$$SSS7╜"~ ~ [0m
 [36m.$$$$$$7''[0;1;37m [0;1;30m.d$$$$$[0m$[1;30m$$$[0;1;37m$$[0;1;30m$[0m$$[1m$[0m$[1m$$[0m$[1m$b.[0;1;30m [0;36m''$$$$$$$$$$$$$7╜"~ ~[0m

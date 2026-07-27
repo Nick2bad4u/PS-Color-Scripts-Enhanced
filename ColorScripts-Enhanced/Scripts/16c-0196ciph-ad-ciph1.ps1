@@ -5,7 +5,7 @@
 # Source SHA-256: b6a0de1cf360f7804258975c12175f6b0ad1089adb4e5e42b0d8a2d4d6447e5f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AD_CIPH1.ANS by Adrenalin (CiPHER); released in 0196ciph and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cipher promo
 # SAUCE Author: Adrenalin
 # SAUCE Group: CiPHER
@@ -18,8 +18,7 @@ Write-Host '
                                                        [34m     [0m
 
 
-                            [1;30m                      [0m
-           [34m█[0;37m [0;34m▄███▓██▀▀▀▀█▀▀▀█▀▀▀▀▀▀█▀▀▀█▀▀█▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀██▓██▄[0;37m [0;34m█[0m
+[1;30m[0m           [34m█[0;37m [0;34m▄███▓██▀▀▀▀█▀▀▀█▀▀▀▀▀▀█▀▀▀█▀▀█▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀██▓██▄[0;37m [0;34m█[0m
              [34m████▒▌[0;1;37m▄█[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m▄▀[0;1;37;47m▓[0;1;37;40m█▄▀█[0;1;37;47m▓[0;1;37;40m███▄▀█[0;1;37;47m▓[0m [1m█[0;1;47m▓[0;1;40m▄▀[0;1;47m█▓███▓[0;1;40m▄▀[0;1;47m█▓███▓█[0;1;40m▄[0;34m▀▒███[0;37m [0;34m [0m
             [34m▐████░[0;1;37m▐[0;1;37;47m▓▒▓[0;1;37;40m▌[0;1;37;47m▓▒[0;1;37;40m▌[0;1;37;47m▓▒▓[0;1;37;40m▌[0;1;37;47m▓▒▓[0;1;37;40m▐[0;1;37;47m▓▒[0;1;37;40m▌[0;1;37;47m▓▒[0m [1;47m▓▒▓[0;1;40m▌[0;1;47m▓▒▓[0;1;40m▌[0;1;47m▓▒▓[0;1;40m▌[0;1;47m▓▒▓[0;1;40m▌[0;1;47m▓▒▒▓[0;1;40m▌[0;34m░███▌[0m
             [34m█████▌[0;1;37;47m▒░░▒[0m [1;47m▒░[0;1;40m▌[0;1;47m▒░[0;1;40m▀▄[0;1;47m▒▒[0;1;40m▌▐[0;1;47m▒▒[0;1;40m▌[0;1;47m▒░[0m [1;47m▒░▒[0;1;40m▌[0;1;47m▒░▒[0m [1;47m▒░▒[0;1;40m▌[0;1;47m▒░▒[0m [1;47m▒░░▒[0;1;40m▌[0;34m█████[0;32m   [0m

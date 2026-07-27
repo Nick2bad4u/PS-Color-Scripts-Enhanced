@@ -5,7 +5,7 @@
 # Source SHA-256: 9028578c5d1d58f5a456bef5fdc3adc12dba9812926d854bc2ea5391498e426f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-ANEMZ.ANS by Phantax (.;:Anemia:;.); released in ane-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Anemia Promotional
 # SAUCE Author: Phantax
 # SAUCE Group: .;:Anemia:;.
@@ -37,8 +37,7 @@ Write-Host '
                              [34m▀▀▄▄▄[0m      [34m▄▄▄█▀▀[0m
                                   [34m▀▀▄▄▓▀▀[0m
 
-                     [34m                                 [0m
-                    [1;34m▄▄[0m                                          [34m▄▄[0m
+[34m[0m                    [1;34m▄▄[0m                                          [34m▄▄[0m
             [34m▄▄ ▄▄ █ [0;1;34m█ █ [0;34m▄▄[0m                                  [1;34m▄▄  [0;34m█ █ █▀▄ ▄▄ ▄▄[0m
 [34m    ▄▄  █▀▄ █ █ █ █ [0;1;34m█▀█ [0;34m█ █ █▀▄ ▄▄ ▄▄[0m               [34m▄▄ ▄▄ █ [0;1;34m█ █ [0;34m█ █ █▀▀ █ █ █ █[0m
 [1;34m█▀▄ [0;34m█ █ █▀▀ █   █ █ [0;1;34m▀ ▀ [0;34m█ █ █▀▀ █ █ █ █[0m     [34m▄▄  █▀▄ █ █ █ █ [0;1;34m█▀█ [0;34m▀ ▀ █▄█ █   █ █[0m

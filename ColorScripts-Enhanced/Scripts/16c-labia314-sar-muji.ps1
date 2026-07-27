@@ -5,7 +5,7 @@
 # Source SHA-256: 8149f3a4146a2b834589e8438a5172355e4f9d7b87121af039703c2887596c98
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sar-muji.ans by Sargon (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -24,7 +24,6 @@ Write-Host '
 [35m    [0;34m╓[0;1;30m,.[0;34m_[0;35m         l$:.,╥%[0;31mS[0;35m$[0;31m [0;35m:[0;31m$l *╨╨²²""^^``[0m
 [35m    [0;34m╙T$[0;1;30m![0;35m      .╓ %y ╙²"^[0;31m`  [0;35m:[0;31m$l[0m
 [35m     ![0;34m$L[0;35m    .dP[0;34m''[0;35mj$!     [0;31m    "^[0m
-[35m       [0;34m [0;35m [0;34m  [0;35m  [0;34m [0;35m          [0;31m                                        [0;1;31m [0m
-[35m        `²[0;34m╨[0;35m*[0;34m*[0;35m╙²''[0m
+[35m[0;34m[0;35m[0;34m[0;35m[0;34m[0;35m[0;31m[0;1;31m[0m[35m        `²[0;34m╨[0;35m*[0;34m*[0;35m╙²''[0m
 [35m            [0;34m![0;35m$[0;34mb[0;35m,[0;34m._[0m
 [35m             `[0;34m╙*[0;35m8[0;34m''[0m'

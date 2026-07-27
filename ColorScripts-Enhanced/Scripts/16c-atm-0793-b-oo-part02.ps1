@@ -5,7 +5,7 @@
 # Source SHA-256: a1e7daaa5d35a46a47c359a0871e01720e4e00974ed03f00988feec3d924f08d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-OO.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -51,7 +51,7 @@ Write-Host '
        [32m▄██▄[0;1;30m▄[0;32m▄██▄██▄████▄[0m       [1;36mTh[0;36me Onl[0;1;34mine O[0;34masis[0m       [32m▄██▄[0;1;30m▄[0;32m▄██▄██▄████▄[0m
       [32m███▀[0;1;30;42m▒[0;32m██[0;32;42m [0;1;30;42m▒▓[0;32m█[0;1;30;42m▒▓[0;32m▀▀▀███[0m                            [32m███▀[0;1;30;42m▒[0;32m██[0;32;42m [0;1;30;42m▒▓[0;32m█[0;1;30;42m▒▓[0;32m▀▀▀███[0m
        [32m█ ███  [0;33m▐██▌[0;32m██▌  ███   [0;1;36mSyso[0;36mp  :  [0;1;34mRoad[0;34mrunne[0;1;30mr[0m     [32m█ ███  [0;33m▐██▌[0;32m██▌  ███[0m
-         [32m██    [0;33m██ [0;32m▐██▌  █▌[0m       [36m3o1.3[0;1;34m2o.54[0;34m18[0m           [32m██    [0;33m██ [0;32m▐██▌  █▌[0m
+         [32m██    [0;33m██ [0;32m▐██▌  █▌[0m       [36m     [0;1;34m     [0;34m  [0m           [32m██    [0;33m██ [0;32m▐██▌  █▌[0m
           [32m▀█  [0;33m▐[0;33;43m [0;1;30;43mB[0;33m▌ [0;32m██▌  ▐   [0;1;36mAlter[0;36mNet «[0;1;34m──» W[0;34meapon[0;1;30m-X[0m       [32m▀█  [0;33m▐[0;1;30;43m:)[0;33m▌ [0;32m██▌  ▐[0m
             [32m▀  [0;33m█[0;1;30;43mJ[0m [32m██▀[0m             [36m300 [0;1;34mmeg H[0;34mD[0m               [32m▀  [0;33m██ [0;32m██▀[0m
               [1;30m▐[0;33m█[0;1;30;43mO[0;33m▌[0;32m▀[0m         [1;36mCD-RO[0;36mM «∙» [0;1;34m20,0[0;34m00+ F[0;1;30miles[0m         [1;30m▐[0;1;30;43m:([0;33m▌[0;32m▀[0m

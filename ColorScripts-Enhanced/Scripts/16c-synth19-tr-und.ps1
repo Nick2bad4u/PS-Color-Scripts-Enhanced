@@ -5,15 +5,14 @@
 # Source SHA-256: 3d6461f886cbd1ef4999c95b1d3a2cf71e82ef86ae73592ce21d8282da18f796
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-UND.ANS by Trippah (synth19); released in synth19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
 
 
-       [30m                                                             [0m
-
+[30m[0m
 
 
 

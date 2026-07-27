@@ -5,7 +5,7 @@
 # Source SHA-256: 2312b1cc18ab547a48148792832f783f75d7de8c009eb046b1cf91cf6afc5f71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 53-FSN1.ANS by Senile (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -49,4 +49,4 @@ Write-Host '
 [37m  [0;1;34;44m░[0;34m▌▀▀▀▀[0;1;33;44m░[0m     [1;34;44m░[0;32m [0;1;37m [0;34m▌[0;1;37m  ▀▀▀▀▀▀▀▀▀ [0;34m▄▄▄▄▌[0;1;33;44m░[0;34m▀▀▀▀[0;1;34;44m░[0;1;37;40m ▀▀▀▀ [0;1;34;44m░[0;34m   [0;1;34;44m░[0;1;37;40m ▀▀▀▀ ▀▀▀▀░░ [0;1;33;44m░[0;34m▄▄▄█[0;37m [0;34m▀▀▌▄▄▐▀[0m
    [34m▀▌▐▀▀[0;1;34;44m░[0;34m▀[0;32m  [0;34m█▀▀▀▀▀██▀▀▌[0;1;37m [0;1;34;44m░░[0;34m▀▀▀[0;1;37m [0;34m▄█▄▄▌▄▄▄  [0;1;34;44m░[0;34m▀▀▀[0;1;34;44m░[0;34m▀▀[0;1;34;44m░[0;34m▀▀ ▀▀▀▌[0;1;34;44m▓░░[0;34m███▄▄▄▄█[0;32m [0;34m▄█[0;32m [0;34m▐█▀[0;37m [0;34m██▌[0m
    [34m▀▀▀[0m   [34m▀▀▌▀▀[0;37m  [0;34m▀▀▌[0;1;37m [0;34m▀▀█[0;1;37m [0;34m▀█▀[0;1;37m [0;34m▀▌[0;1;37m  [0;34m▀▀▌[0;1;37m [0;34m▀[0;1;37m  [0;34m█[0;1;34;44m░[0;34m▀▀[0;1;37m [0;34m▐▌[0;1;37m [0;34m▌▀▀▌▐▌▀[0m    [1;34;44m░[0;34m▄▄▄[0;1;37m [0;34m░[0m     [34m▀▀▀▀▀▀▀▀░[0m
-                     [34m▀▌[0m       [34m▀▀▀▀▀▀▀░░[0m   [34m▀▀▀▀[0m    [34m▀▀▀[0m    [34m▐▌[0m    [37msenile@iname.com[0m'
+                     [34m▀▌[0m       [34m▀▀▀▀▀▀▀░░[0m   [34m▀▀▀▀[0m    [34m▀▀▀[0m    [34m▐▌[0m    [37m                [0m'

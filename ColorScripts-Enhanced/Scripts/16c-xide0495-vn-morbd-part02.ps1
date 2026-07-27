@@ -5,7 +5,7 @@
 # Source SHA-256: 183993f6793a5035c19bb6b360e7aa20b266baa5374a5b060872cbb7217b94ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VN-MORBD.ANS by Venom (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 48-80
 # Columns: 1-80
 
@@ -26,18 +26,14 @@ Write-Host '
 
 
 
-                              [1;30m [0;1;37m      [0;1;30m [0;1;37m           [0m
-
-                                 [1;30m [0;1;37m      [0;1;30m [0;1;37m    [0m
-                              [1;30m [0;1;37m       [0;1;30m [0;1;37m         [0m
-                      [1;37m▄[0m▄▄▄[1;30m▄[0m       [1;30mI[0;1;37mmpact [0;1;30mN[0;1;37met[0m       [1;37m▄[0m▄▄▄[1;30m▄[0m
+[1;30m[0;1;37m[0;1;30m[0;1;37m[0m
+[1;30m[0;1;37m[0;1;30m[0;1;37m[0m[1;30m[0;1;37m[0;1;30m[0;1;37m[0m                      [1;37m▄[0m▄▄▄[1;30m▄[0m       [1;30mI[0;1;37mmpact [0;1;30mN[0;1;37met[0m       [1;37m▄[0m▄▄▄[1;30m▄[0m
                     [1;37m▄[0;1;37;47m▓▒░[0m█[1;30;47m░▒▓[0;1;30;40m▄[0m       [1;30;40mO[0;1;37;40mS-[0;1;30;40mN[0;1;37;40met[0m       [1;37;40m▄[0;1;37;47m▓▒░[0m█[1;30;47m░▒▓[0;1;30;40m▄[0m
                    [1;37;40m▐[0;1;37;47m▓[0;1;37;40m▄ [0m▀█▀ [1;30m▄[0;1;30;47m▓[0;1;30;40m▌[0m     [1;30;40mI[0;1;37;40mnfi [0;1;30;40mN[0;1;37;40met[0m     [1;37;40m▐[0;1;37;47m▓[0;1;37;40m▄ [0m▀█▀ [1;30m▄[0;1;30;47m▓[0;1;30;40m▌[0m
                     [1;37;40m▀[0;1;37;47m▓▒░[0m█[1;30;47m░▒▓[0;1;30;40m▀    9[0;1;37;40m6OO - [0;1;30;40m1[0;1;37;40m44OO    ▀[0;1;37;47m▓▒░[0m█[1;30;47m░▒▓[0;1;30;40m▀[0m
                       [1;37;40m▐[0m▌█▐[1;30m▌[0m       [1;30mA[0;1;37mrt- [0;1;30mW[0;1;37marez[0m       [1;37m▐[0m▌█▐[1;30m▌[0m
                        ▌█▐       [1;30mX[0;1;37miDE  [0;1;30mD[0;1;37mistro[0m       ▌█▐
-                            [1;30m [0;1;37m       [0;1;30m [0;1;37m      [0;1;30m [0;1;37m      [0m
-
+[1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0m
 
                                [1;36m█▀[0;36m▀▀[0;1;30m▀ ▀▀  ▀   ▀▄[0m
                                [36m█ [0;31m [0;1;31m [0;1;37m    [0;31m [0;1;31m [0;1;37m     [0;36m█[0m

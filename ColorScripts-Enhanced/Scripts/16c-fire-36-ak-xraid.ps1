@@ -5,7 +5,7 @@
 # Source SHA-256: 89586c3a023e3ac9f5e28f5dff982b014a8e5e3496b17656f156a3bbc2bb5b35
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-XRAID.ANS by abstrakt (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: made to raid
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -19,8 +19,7 @@ Write-Host '
                                       [1;37;40m.,▬┌┐▬,.[0m
        [32mj[0;1;32mb[0m                          [1m,4$j$S↕↕↕Sj$b.[0m
        [32mY$[0;1;32mb[0m                        d[1m$7`[0m        [1m`$$.[0m   [1;32m.[0m
-     [32m [0;1;32m  [0;32m [0;1;32m  [0m                  [32m [0;1;32m   [0m  [1m    [0m       [1;32m [0;1;37m     [0;32m [0;1;32m [0m
-     [32m4b[0;1;32m.[0;32m`4[0;1;32m$$.[0m                [32m$[0;1;32m$;  [0mY[1m$$.[0;1;32m  [0mraid[1m   $$P[0m [32m:$[0;1;32m$[0m
+[32m[0;1;32m[0;32m[0;1;32m[0m[32m[0;1;32m[0m[1m[0m[1;32m[0;1;37m[0;32m[0;1;32m[0m     [32m4b[0;1;32m.[0;32m`4[0;1;32m$$.[0m                [32m$[0;1;32m$;  [0mY[1m$$.[0;1;32m  [0mraid[1m   $$P[0m [32m:$[0;1;32m$[0m
       [32m4[0;1;32m$$[0;32m$$[0;1;32m$$,[0m              [32m:[0;1;32m$$l   [0m└Q[1m$┐,.__.,┌d$P[0m   [32ml[0;1;32m$b.[0m
        [32m`4[0;1;32m$$$[0;32m$[0;1;32m$$┐[0m            [32ml[0;1;32m$$$:    [0m`''└*Q[1m$$7*┘`[0m     [32m$[0;1;32m$$┐[0m
 [1;32m  [0m__     [32m`4[0;1;32m$$$$$$┐[0m          [32mI[0;1;32m$$$$.[0m        `4[1mb.    [0;32m/b.`$[0;1;32m$$$.[0m
@@ -38,5 +37,5 @@ Write-Host '
 [1;36m $[0m.  [32m└$[0;1;32m$$b$$$7'' [0;36m\[0;32m 4$[0;1;32m$$$$$┐_[0;32m`''└[0;1;32m┘''   [0;32m,▬[0;1;32m⌐\.[0;32m└$[0;1;32m$[0;1;33m$$[0;1;32mb[0;32m.└$[0;1;32m$[0;1;33m$[0;1;32mb[0;32m`$[0;1;32m$.[0;32m`$[0;1;32m$7`└↕SSS↕*┘`    [0m.┌[36m$[0;1;36m$[0m
  [36m$[0;1;36m$┐[0m. [32m`4$[0;1;32m$$$[0;1;33m$[0;1;32m$k [0;36m$[0;37mb [0;32m└$[0;1;32m$$$$$$$S%ss#$b [0;32mY$[0;1;32m$$.[0;32m`$[0;1;32m$$$$,[0;32m`4[0;1;32m│$b[0;32m`$[0;1;32m$.[0;32m`S[0;1;32m$[0;32m♂ o[0m       [37m.[0;36m,┌\[0;1;36m$$[0;36m$$[0m
 [37m [0;1;36m─-─[0m--[1;36m  [0;32m`└*[0;1;32mSQQP [0;1;36m─[0m-[1;36m-[0m [32m`4$$[0;1;32m$$$$$$$[0;1;33m$$[0;1;32m$$b [0;32m└j[0;1;32mS↕.[0;32m`┘[0;1;32m²"''^`[0;32m   [0;1;36m-[0m  -[1;36m-──--   [0;32m°   [0;37m──[0;1;36m─[0m-─[1;36m─-[0m─[1;36m--[0m
-[1;32m [0;1;30mabsfire[0m        [1;30m░░░[0m   [32m`¬j$[0;1;32m$$$[0;1;33m$$$[0;1;32m$j\²''[0m      [1;30m____  ░░░░[0m  [1;30mbbs.madetoraid.com:2323[0m
+[1;32m [0;1;30m       [0m        [1;30m░░░[0m   [32m    [0;1;32m   [0;1;33m   [0;1;32m     [0m      [1;30m      ░░░░[0m  [1;30m                       [0m
                          [32m`"²└┘²[0;1;32m''`[0m'

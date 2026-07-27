@@ -5,7 +5,7 @@
 # Source SHA-256: 1d2cbfde66e376300ba088cc6395ec7b221563f05cdaa3024a96d1d37c10d90e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GLUE2.ANS by Lord Jazz + Black Lightning (ACiD/Integrity); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Glue
 # SAUCE Author: Multiple Artists
 # SAUCE Group: ACiD/Integrity
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[33m  [0;1;33m   [0m             [33m                                           [0m
-
+[33m[0;1;33m[0m[33m[0m
                     [33m.■ [0;1;33m▄[0;1;33;43m▒▓[0;1;33;40m▀█▄▄▄▄[0;33m░ [0;1;33m▄[0;1;33;47m▓[0;1;33;43m█[0;1;33;40m▀▀[0;1;33;43m▒▓[0;1;33;40m▄[0;33m [0;1;33;43m█▓▓[0;1;33;40m▄▄[0;1;33;43m█▓▓▓[0;1;33;40m▀▄▄▄[0;33m ▀■[0m
                      [1;33m▓[0;1;33;43m▒░░[0;1;33;40m▌[0;33m [0;1;33;43m░▒▒[0;1;33;40m▓[0;33m [0;1;33;43m▒▒▒▓[0;1;33;40m▌[0;33m [0;1;33m▐[0;1;33;43m░[0;33m█[0;1;33;43m░[0;1;33;40m▌[0;1;33;43m▓▒▒[0;1;33;40m▓[0;33m [0;1;33;43m▓▒▒[0;33m▓  [0;1;33m▐[0;1;33;43m▓▓[0;1;33;40m▓[0;33m  .[0m
           [33m▄ ▄ ▄▄▓▄░ ▐[0;1;33;43m░░[0;33m██▀▀[0;1;33;43m░[0;33m█[0;1;33;43m░▒[0;33m▐[0;1;33;43m░░░[0;33m▓  ▀▀▀▀▓[0;1;33;43m▒░░[0;33m█ [0;1;33;43m░▒░[0;33m█ ░ [0;1;33;43m▓▒▒▒[0;33m▌  ▄▓▄▄ ▄ ▄[0m

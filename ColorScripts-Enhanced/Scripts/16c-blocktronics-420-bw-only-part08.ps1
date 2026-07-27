@@ -5,7 +5,7 @@
 # Source SHA-256: 461ad63d893c2b5a5e84d5c5daad7593490c846c13d06d32fa45c8500b20202f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw_Only.ans by binary walker (blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: binary walker
 # SAUCE Group: blocktronics
 # SAUCE Date: 20200416
@@ -46,9 +46,7 @@ Write-Host '
 [37m                    [0;32m██[0m
 
 
-[37m                         [0;35m     [0;1;33m [0;35m     [0;1;33m [0;35m   [0;1;33m [0;35m     [0m
-[37m                         [0;1;36m [0;36m       [0;1;36m [0;36m      [0;37m [0;1;36m [0;36m  [0m
-[37m                   [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+[37m[0;35m[0;1;33m[0;35m[0;1;33m[0;35m[0;1;33m[0;35m[0m[37m[0;1;36m[0;36m[0;1;36m[0;36m[0;37m[0;1;36m[0;36m[0m[37m                   [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
                [1;30m▄▓▓▀▀▀  ▄▓▓███▀▀███▓▒ [0;31m▀[0;1;31;41m▀█[0;1;31;40m [0;1;30;40m▄▄[0m
               [1;30m█▀ [0;31m▄▄█▀ [0;1;30m▓▓▀▀▀█ ▀▀▀▀██▓ [0;1;31;41m░[0;31m█[0;1;31;41m░[0;1;31;40m [0;1;30;40m░▓█▄[0m
               [1;30m▓ [0;1;37;41m░[0;1;31;41m░░[0;31m▌  ▄▄▄▄ [0;1;30m▐█▄ [0;31m▄▄▄▄  [0;1;31;41m▓▄[0;31m▄ [0;1;30m▒███▌ [0;1;30;47m░▄[0;1;30;40m▀[0;1;30;47m██[0;1;30;40m [0;1;30;47m░▄[0;1;30;40m▀▀[0m
@@ -59,5 +57,5 @@ Write-Host '
                  [1;31;41m░█▀[0;31m▀    [0;1;30m░▒▓██████████▀▀▀ ▀ [0;35m▄▄[0;1;30m▐[0;1;30;47m [0;1;30;40m█ ▄█[0;1;30;47m▀▀[0;1;30;40m▄▄▄ ▀█[0;1;30;47m▄ [0;1;30;40m▓ [0;35m▄▄▄▄[0m
 [37m                  [0;1;31;41m░[0;31m▌[0;37m           [0;1;30m▀▀▄▄  ▄  ▀ [0;35m▄█[0;1;35;45m▀[0;35m▓ [0;1;30m█[0;1;30;47m▀[0;1;30;40m█▀  ▐[0;1;30;47m▄░[0;1;30;40m▌▀▌▐▓█ [0;35m▄[0;1;37;45m▒[0;1;35;45m█▀[0;35m▓▒░[0m
 [37m                   [0;31m▀▄  [0;1;36m16[0;35mth [0;37mApril             [0;1;37m▄ [0;1;30m▀[0;1;30;47m▄▀▀[0;1;30;40m▄█[0;1;30;47m▄[0;1;30;40m█▄▀ █░█ [0;1;37;40m▄[0m
-                              [35min 201[0;1;36m8[0m [1;33ma[0;35m.D.    [0;1;37m▀▀  [0;1;30m▀▀▓▓ ▀ [0;1;37m▄ [0;1;30m▓ ▓ [0;35mblocktronics[0;31m.org[0m
+                              [35m      [0;1;36m [0m [1;33m [0;35m       [0;1;37m▀▀  [0;1;30m▀▀▓▓ ▀ [0;1;37m▄ [0;1;30m▓ ▓ [0;35m            [0;31m    [0m
 [37m                                                    [0;1;30m░░ [0;1;37m▀▀  [0;1;30m░ ░[0m'

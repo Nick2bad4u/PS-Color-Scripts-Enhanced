@@ -5,7 +5,7 @@
 # Source SHA-256: 897b15b425b091ec94b92b32d438a0053856fb6a763fd2abb4f37c76bbc57418
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DN-PHD2.ANS by Dragon (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Phantasmial Dillusions
 # SAUCE Author: Dragon
 # SAUCE Group: iDENTiTY
@@ -32,23 +32,8 @@ Write-Host '
 [1;32;40m▄▄▄▀▀▀▀▀▀▀▀▀▀▄▄▄▄▄▄▄▄▄▄▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀▀▀▀▀▀▀▀▀▀▄▄▄▄▄▄▄▄▄▄▀▀▀▀▀▀▀▀▀▀▀▄▄▄▄▄▄▄▄[0m
 
                              [1;30;40m  [0;32m [0;1;32m                  [0;1;30m [0m
-                                [1;30m  [0;32m [0;1;32m           [0;1;30m [0m
-                               [1;30m   [0;32m [0;1;32m             [0;1;30m [0m
-                                  [1;30m.H[0;32m/[0;1;32mP/A/V/C[0;1;30m.[0m
-                        [1;30m  [0;32m [0;1;30m  [0;1;32m   [0;1;30m  [0;1;32m      [0;1;30m  [0;1;32m            [0;1;30m [0m
-                             [1;30m  [0;32m [0;1;32m                 [0;1;30m [0m
-                                 [1;30m  [0;32m [0;1;32m        [0;1;30m [0m
-                            [1;30m  [0;32m [0;1;32m                    [0;1;30m [0m
-                              [1;30m  [0;32m [0;1;32m               [0m
-                               [1;30m [0;32m [0;1;32m             [0m
-                                        [1;32m   [0;1;30m      [0m
-                               [1;30m-/-V[0;32mi[0;1;32mSiON-X .99[0;32mc[0;1;30m-\-[0m
+[1;30m[0;32m[0;1;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;30m[0m                                  [1;30m.H[0;32m/[0;1;32mP/A/V/C[0;1;30m.[0m
+[1;30m[0;32m[0;1;30m[0;1;32m[0;1;30m[0;1;32m[0;1;30m[0;1;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0m[1;30m[0;32m[0;1;32m[0m[1;32m[0;1;30m[0m                               [1;30m-/-V[0;32mi[0;1;32mSiON-X .99[0;32mc[0;1;30m-\-[0m
 [1;30m················································································[0m
-[1;30m       [0m
-[1;30m                                               [0m
-[1;30m                                     [0m
-[1;30m                                      [0m
-[1;30m                               [0m
-[1;30m                                                                                [0m
-[1;30m:)[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m:)[0m
 [1;30m················································································[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7e4b239a249ac02471a58b4a9d27141780965d33097545c2a414442becb03432
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc64.ans by Black Jack (Odelay [01/19/97]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Isz Menu (Quackers)
 # SAUCE Author: Black Jack
 # SAUCE Group: Odelay [01/19/97]
@@ -15,11 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m          [0m                               [1;30m [0m  [34m [0;1;34m      [0;34m   [0m         [34m     [0m       [1;30m     [0m
-              [1;30m_, .[0;34m,[0;1;34mm@[0;34m$[0;1;34mP +[0;34m~"ⁿY$b,_.[0;1;37m [0m  [34m_,+''[0;37m  [0;34m''[0;1;34m~"[0;34mⁿ''  [0m                  [34m;[0m
+[1;30m[0m[1;30m[0m[34m[0;1;34m[0;34m[0m[34m[0m[1;30m[0m              [1;30m_, .[0;34m,[0;1;34mm@[0;34m$[0;1;34mP +[0;34m~"ⁿY$b,_.[0;1;37m [0m  [34m_,+''[0;37m  [0;34m''[0;1;34m~"[0;34mⁿ''  [0m                  [34m;[0m
          [1;37m [0;1;30m,m@$[0;34m$[0;1;34m$Pⁿ°"~[0;34m`  `[0;37m [0;34m `[0;37m  [0;1;30m [0;1;34m  [0m [34m,mP''[0;37m [0;34m [0;1;34m_, +[0;34m`[0m
-      [34m       [0;1;30m   [0m              [34m  [0m    [34m [0;1;34m     [0m        [34m     [0m                     [34m [0;1;34m   [0m
-   [34m,dP[0;1;34m''[0;1;30mmPⁿ''[0m             [1;30m  [0m [34m,dP[0;1;34m''[0m  [34m,m[0;1;34m$[0;34mP''[0m         [34m,+ [0m              [1;37m_.,_[0m  [1m,[0mm,[1m,m[0mb, [1;34m,d[0m
+[34m[0;1;30m[0m[34m[0m[34m[0;1;34m[0m[34m[0m[34m[0;1;34m[0m   [34m,dP[0;1;34m''[0;1;30mmPⁿ''[0m             [1;30m  [0m [34m,dP[0;1;34m''[0m  [34m,m[0;1;34m$[0;34mP''[0m         [34m,+ [0m              [1;37m_.,_[0m  [1m,[0mm,[1m,m[0mb, [1;34m,d[0m
  [34m,[0;1;30md[0;34m$[0;1;34mP''[0;1;30m''[0m                  [34m d[0;1;34m''[0m               [1m _.,[0m   [1m  ,m@SS@[0mm. [1m.d$$$$$$[0mb,[1mY$[0mb[1m`Y[0ml
 [34md[0;1;30m$[0;34m$[0;1;34mP[0;34m''[0m               [1;30m [0m  [1;30m [0m [34m'' [0m     [1;37m_.,[0m,._[1m ,d$$$$$$S@[0mm[1m.d$$$$$$$[0m$[1m,[0m:[1m$$$$$$$$[0m$[1m;Y[0m$b[1ml[0mPd.
 [34m$ⁿ[0;1;34mY$[0;34mb,[0;1;34m_[0;34m [0;1;34m_[0;1;30m,m._[0m       [1m_,[0m  [1m,m@P,d$$$$$$[0m$$.[1mY$$$$$$$$$[0m$[1mi$$$$$$$$[0m$[1ml[0mi[1m$$$$$$$[0m$$l[1m$[0mP''[1m,d[0m$l
@@ -34,8 +32,7 @@ Write-Host '
 [37mgg[0;1;37m$[0;1;36m$[0;1;37m$[0m      [1mm[0m$b, [1ml[0mP"~ .  [36m.[0;37m [0;36m ~""°ⁿ@m,_ _,m@S[0;1;36m$$[0;36m$S@mm,_  _,m@S$$[0;1;36m$P[0;36mⁿ"`:   .  .:il&P'' [0m
 [37m $$[0;1;37m$[0;1;36m$[0;1;37mb[0m,_ _ [1m`Yⁿ[0m''[1m,[0;36md[0;1;37m$[0mb,_[1m [0m      [36m..::[0;37m  [0;36mil:[0m      [36m~[0;1;36m" + ,[0;36m [0;1;36m_ [0;36m   _ ,+ⁿ''[0m      [36m.[0m
 [37m~"°ⁿ[0;1;37mY$$$[0mb,[1m _,m$Pⁿ[0m°"~      [36m,.[0;37m [0;36m _ [0m   [36mi.[0m
-     [1;36m [0;36m        [0;1;36m [0m [1m [0m                    [36m     [0m
-
+[1;36m[0;36m[0;1;36m[0m[1m[0m[36m[0m
 
 
 [1;36m--------------------------------------------------------------------------------[0m'

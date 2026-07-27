@@ -5,7 +5,7 @@
 # Source SHA-256: 28549b8481d782304c758e6f7b7e41544cfbf12a3af60d8bf0ab4e215c514cb9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LQ!RBLAR.ANS by Liquid (ra-pack5); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -32,7 +32,7 @@ Write-Host '
 [31m turn out TOO bad... [0;37m [0;31m [0;37m  [0;1;31m :$[0;31m$$[0;31;43m$[0;31;40m$$$$$$l[0;37;40m  [0;1;31;40m  :$[0;31m$$$$$$$$$$[0;1;31mb.[0m  [1;31m''ⁿSⁿ''`;$[0;31m$$l''[0;1;31m`ⁿSⁿ`[0m
 [31m ah well, requests:[0m   [31m [0m   [1;31ml[0;31m$$$$$[0;1;31m''?[0;31m$$$$;[0;37m [0;1;31m  l[0;31m$$$$$$$$$$$$S[0;1;31ms. [0m     [1;31m;$[0;31m$$:[0m
 [31m [0;1;31m bobby[0;1;37m_[0;1;31msaylor[0;1;37m@[0;1;31m  [0;31m      [0;37m [0;1;31m,sS[0;31m$$$$$;[0;1;31m $[0;31m$$$l [0;1;31m,sS[0;31m$$$$$$[0;1;31m:$[0;31m$$$$$$$;[0m     [1;31ml[0;31m$$$l[0m
-[37m [0;1;31mcmpd[0;1;37m.[0;1;31mm[0;1;37mi[0;1;31mndsync[0;1;37m.[0;1;31mcom[0m      [1;31md$[0;31m$$$$$$l[0;1;31m $[0;31m$$$;[0;1;31m d[0;31m$$$$$$$l[0;1;31m l[0;31m$$$$[0;31;43m$[0;31;40m$$l[0m   [1;31;40m,sS[0;31m$$[0;31;43m$[0;31;40m$; [0m
+[37m [0;1;31m    [0;1;37m [0;1;31m [0;1;37m [0;1;31m      [0;1;37m [0;1;31m   [0m      [1;31m  [0;31m       [0;1;31m  [0;31m    [0;1;31m  [0;31m        [0;1;31m  [0;31m    [0;31;43m [0;31;40m   [0m   [1;31;40m   [0;31m  [0;31;43m [0;31;40m   [0m
 [31;40m└                     ┘[0;37;40m [0;1;31;40m`"└[0;31mS$$$$:[0;1;31m l[0;31m$$l''[0;1;31m `"└S[0;31m$$$$:[0;1;31m `?[0;31m$$$$$P [0m   [1;31md$[0;31m$$$$$l [0m
                             [1;31m  [0;31m   [0;1;31m   [0;31m  [0m      [1;31m  [0;31m  [0;1;31m     [0;31m    [0m     [1;31m  └[0;31m     [0m
                               [1;34m [0;1;31m''  ''"[0m          [1;31m ''[0m   [1;31m  [0m'

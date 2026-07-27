@@ -5,7 +5,7 @@
 # Source SHA-256: be1a6bb055d57e5da733a8e48397c36405fb286e440fd901e7a42c211510786b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (M1)__BD.ANS by m01 (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: brain damage main
 # SAUCE Author: m01
 # SAUCE Group: Phat Studios '97
@@ -40,6 +40,4 @@ Write-Host '
 
 [1;30m─(schnürpsl),───────────-- ──────────── ─-────────────────────  -───────────────[0m
   [1;30m         [0m
- [1;30m                                                                      [0m
-[1;30m              [0m [1;30m                                                           [0m
- [1;30m                  [0m [1;30m┐┐[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m [1;30m                  [0m [1;30m┐┐[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2a19f7ecdf296042be10e1c87af053e255333982b0cabeae6b4b34cb03f5d4ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-MESSY.ANS by Proctologist (Transmission); released in trans04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: messy
 # SAUCE Author: Proctologist
 # SAUCE Group: Transmission
@@ -15,10 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m                                                                               [0m
-[1;30m                                           [0m
-[1;30m     [0;32m    [0;1;30m                                            [0m
-[1;30m--------------[circumcise here]---------------------------------------<ouch!>--[0m
+[1;30m[0m[1;30m[0m[1;30m[0;32m[0;1;30m[0m[1;30m--------------[circumcise here]---------------------------------------<ouch!>--[0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m
 
@@ -40,12 +37,6 @@ Write-Host '
 [37m  [0;31m.[0m   [1;31m,d[0;31m$$P''[0m             [1;31md[0;31m$$$[0;33mP[0m            [1;31m.[0;31m''[0;37m  [0;31mp[0;1;31mC[0m   [1;31m,$[0;31m,[0;1;33m`ⁿ[0;1;37m?[0;1;36m$[0;36m$$,[0m   [36m_,$[0;1;36m$P[0m [31mⁿ"[0;33m`[0m
 [37m   [0;31m`"ⁿⁿ"`[0m               [1;31m$[0;31m$$ⁿ[0;33m`[0;37m  [0;31m`.[0m         [1;31m`[0;31mq,_[0;37m [0;31m [0;1;31m ,$[0;31m$$$$g[0;37m  [0;1;36m`[0;36m"ⁿⁿⁿⁿⁿ[0;1;36mⁿ"`[0m
                         [1;31m`[0;31m?$,[0;37m [0;31m [0;37m  [0;1;31m,[0;31m [0m          [31m`ⁿ?$$$$$$$[0;33mP`[0m
-[37m   [0;1;37m [0;1;33m [0;1;37m [0;36m    [0;1;36m [0;36m     [0m          [31m     [0;1;31m [0m               [31m    [0;33m   [0m
-[37m   [0;1;37m [0;1;33m [0;1;37m [0;36m       [0;1;36m [0;36m    [0m   [1;37m [0;1;33m [0;1;37m [0;36m     [0;1;36m [0;36m   [0m         [1;37m [0;1;33m [0;1;37m [0;1;36m [0;36m    [0;1;36m [0;36m   [0m
-[37m   [0;1;37m [0;1;33m [0;1;37m [0;36m    [0;1;36m [0;36m       [0m   [1;37m [0;1;33m [0;1;37m [0;1;36m [0;36m     [0;1;36m [0;36m      [0m     [1;37m [0;1;33m [0;1;37m [0;36m      [0m
-[37m   [0;1;37m [0;1;33m [0;1;37m [0;36m     [0;1;36m [0;36m       [0;37m  [0;1;37m [0;1;33m [0;1;37m [0;36m    [0;1;36m [0;36m   [0;1;36m [0;36m      [0m   [1;31m [0;31m       [0;1;31m [0;31m     [0m
-[37m   [0;1;37m [0;1;33m [0;1;37m [0;36m        [0;1;36m [0;36m    [0;37m  [0;1;37m [0;1;33m [0;1;37m [0;36m    [0;1;36m [0;36m [0;1;36m [0;36m         [0;37m  [0;1;31m [0;31m       [0;1;31m [0;31m     [0m
-[1;30m--------------[circumcise here]---------------------------------------<ouch!>--[0m
-[1;30m                                                            [0m [1;30m [0m
-                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
+[37m[0;1;37m[0;1;33m[0;1;37m[0;36m[0;1;36m[0;36m[0m[31m[0;1;31m[0m[31m[0;33m[0m[37m[0;1;37m[0;1;33m[0;1;37m[0;36m[0;1;36m[0;36m[0m[1;37m[0;1;33m[0;1;37m[0;36m[0;1;36m[0;36m[0m[1;37m[0;1;33m[0;1;37m[0;1;36m[0;36m[0;1;36m[0;36m[0m[37m[0;1;37m[0;1;33m[0;1;37m[0;36m[0;1;36m[0;36m[0m[1;37m[0;1;33m[0;1;37m[0;1;36m[0;36m[0;1;36m[0;36m[0m[1;37m[0;1;33m[0;1;37m[0;36m[0m[37m[0;1;37m[0;1;33m[0;1;37m[0;36m[0;1;36m[0;36m[0;37m[0;1;37m[0;1;33m[0;1;37m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0m[1;31m[0;31m[0;1;31m[0;31m[0m[37m[0;1;37m[0;1;33m[0;1;37m[0;36m[0;1;36m[0;36m[0;37m[0;1;37m[0;1;33m[0;1;37m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;37m[0;1;31m[0;31m[0;1;31m[0;31m[0m[1;30m--------------[circumcise here]---------------------------------------<ouch!>--[0m
+[1;30m[0m[1;30m[0m                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: baf2a3e2dba85ffa6c8d2d503f2a43fea1ed4e3970a709f2d3e363ef097d3439
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CBS3#P&R.ANS by Rage + Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 70-105
 # Columns: 1-80
 
@@ -35,8 +35,7 @@ Write-Host '
 [1;30m [0;34m████[0m        [37m· [0;1;34;44m░▒▒[0m [34m████ [0;1;30m·[0;1;34;44m░▒▒[0m [34m████ [0;1;30m·   [0;34m████  [0;1;34;44m░▒▒[0m    [31mN[0;35mu[0;31mm[0;35mb[0;31me[0;35mr[0;31m: [0;1;34m+[0;1;37m3[0;1;34m5[0;1;37m8[0;1;34m-[0;1;37m([0;1;34m9[0;1;37m)[0;1;34m8[0;1;37m4[0;1;34m-[0;1;37m7[0;1;34m6[0;1;37m7[0;1;34m5[0;1;37m8[0;1;34m3[0m
 [1;34m [0;34m███[0;1;34;44m░[0m      [1;30;40m··· [0;1;34;44m▒▒▓[0m [34m████  [0;1;34;44m▒▒▓[0m [34m████ [0;37m·   [0;34m████  [0;1;34;44m▒▒▓[0m    [35mS[0;31mp[0;35me[0;31me[0;35md[0;31ms[0;35m: [0;1;37m2[0;1;34m4[0;1;37m0[0;1;34m0 - 1[0;1;37m4[0;1;34m4[0;1;37m0[0;1;34m0 b[0;1;37mp[0;1;34ms[0m
 [1;34m [0;34m██[0;1;34;44m░░▒▒▓▓[0m [34m██[0;1;34;44m░░▒▒▓▓[0m [34m███[0;1;34;44m░░▒▒▓[0m  [34m███[0;1;34;44m░░▒▒▓[0m [34m███[0;1;34;44m░[0m  [1;34;44m▒▓▓[0m      [31mO[0;35mp[0;31me[0;35mn[0;31m: [0;1;34m2[0;1;37m4[0;1;34mh[0m      ·     [1;30m·[0m
-                                         [1;30m          [0m [31m [0;35m [0;31m [0;35m [0;31m [0;35m  [0;1;37m [0;1;34m [0;1;37m [0;1;34m [0;1;37m [0;1;34m [0;1;37m [0m
-[1;37m [0;1;30;44m▓▓▒▒░░[0;34m██ [0;1;30;44m▓▓▒▒░░[0;1;34;44m░░[0m  [1;30;44m▓▓▒▒░░[0;34m███ [0;1;30;44m▓▓▒▒░░[0;34m██ [0;1;30;44m▓▓▒▒░░[0;34m██[0m
+[1;30m[0m[31m[0;35m[0;31m[0;35m[0;31m[0;35m[0;1;37m[0;1;34m[0;1;37m[0;1;34m[0;1;37m[0;1;34m[0;1;37m[0m[1;37m [0;1;30;44m▓▓▒▒░░[0;34m██ [0;1;30;44m▓▓▒▒░░[0;1;34;44m░░[0m  [1;30;44m▓▓▒▒░░[0;34m███ [0;1;30;44m▓▓▒▒░░[0;34m██ [0;1;30;44m▓▓▒▒░░[0;34m██[0m
 [1;37m·[0;1;30;44m▓▒▒░░[0;34m███ [0;1;30;44m▓▒▒░[0m  [1;34;44m░▒▒[0m [1;30;44m▓▒▒░░[0;34m████ [0;1;30;44m▓▒▒░[0m     [1;30;44m▓▒▒░[0m     [1;30;40m·[0m          [32mCD-Rom[0m            [1;37m·[0m
 [1;37m [0;1;30;44m▒▒░░[0;1;30;40m·[0m·   [1;30;44m▒▒░░[0m  [1;34;44m▒▒▓[0m [1;30;44m▒▒░░[0;1;30;40m· [0;34m███ [0;1;30;44m▒▒░░[0m  [1;37;40m· [0m·[1;30;44m▒▒░░[0m [1;30;40m··[0m·  [1mByteGarden [0;1;32mWorld Headquarters[0m
 [1;32m [0;1;30;44m▒░░[0;34m█  [0;1;30m·· [0;1;30;44m▒░░[0;1;34;44m░[0m  [1;34;44m▒▓▓[0m [1;30;44m▒░░[0;34m█  ██[0;1;34;44m░[0m [1;30;44m▒░░[0;34m█[0m     [1;30;44m▒░░[0;34m█[0m                   [1;30m·[0m

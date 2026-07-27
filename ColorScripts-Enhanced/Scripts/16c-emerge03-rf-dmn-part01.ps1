@@ -5,7 +5,7 @@
 # Source SHA-256: da8ab76da2c4b30c2b6562fbd8c1be997ef5bb4cc552d949973d579a35db80f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RF-DMN.ANS by reflexion (emerge); released in emerge03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: demonic
 # SAUCE Author: reflexion
 # SAUCE Group: emerge
@@ -23,7 +23,7 @@ Write-Host '
    [33m ▌[0;1;33m▐[0;1;33;47m█▓[0;1;33;40m▀[0;1;37;40m▄[0;1;37;47m█▓▓▒░[0m▄[1m▀[0;1;47m▓[0;1;40m▄[0m▐▀[1;33m▄[0;1;33;47m▓[0;1;33;40m▀[0;33m▄▀ [0m
    [33m ▌[0;1;33m▐[0;1;33;47m█[0;1;33;40m▌[0;1;37;40m▐[0;1;37;47m▓▒[0m▌▀[1;47m░[0m▀[1m▄[0;1;47m▓[0m▌[1;33m■▄█▀[0;33m▄▀[0;37m [0;1;30mhey all you art freaks.  if you want an ansee (i like[0m
    [33m ▌[0;1;33m▐[0;1;33;47m▓[0;1;33;40m▌[0m▐[1;47m▒░[0m█[1;33m▐▄[0;1;37m▐[0;1;37;47m▓▒░[0m [1;33m█[0;1;33;47m▓[0;1;33;40m▌[0;33m▐[0;37m [0;1;30mjibberish''s spelling:) for FREE you can just call my[0m
-   [33m▐[0;37m [0;1;33m█[0;1;33;47m▒[0;1;33;40m▄[0m▀[1;47m░░░[0m▌[1;33m▄[0m▀[1;47m░░░[0m▌[1;33m▐[0;1;33;47m▒[0m [33m▌[0;37m [0;1;30mboard, ionosphere at 9167229457.  or you could write[0m
+   [33m▐[0;37m [0;1;33m█[0;1;33;47m▒[0;1;33;40m▄[0m▀[1;47m░░░[0m▌[1;33m▄[0m▀[1;47m░░░[0m▌[1;33m▐[0;1;33;47m▒[0m [33m▌[0;37m [0;1;30m                                                    [0m
   [1;33m  [0;33m▀▄[0;1;33m▀██▄[0m▀▀[1;33m▄[0;1;33;47m▓█[0;1;33;40m▄[0m▀▀[1;33m▄[0;1;33;47m▓[0;1;33;40m▌[0;33m▐[0;37m  [0;1;30mme on lotu.  i will accept money sent to my po box, but[0m
   [1;33m    [0;33m▀▄[0;1;33m▀▀███[0;1;33;47m▒█[0;1;33;40m███▀▀[0;33m▄▀[0;37m [0;1;30mi do not require it, although i may not do everyone''s [0m
 [1m [0m [1;33m      [0;33m▀▀▄▄▄▄▄▄▄▄▀▀[0;37m  [0;1;30mrequests (I haven''t missed one yet!:) [0m

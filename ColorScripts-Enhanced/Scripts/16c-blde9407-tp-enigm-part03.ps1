@@ -5,22 +5,13 @@
 # Source SHA-256: e1c3fe6587f87d2f1fcc34b7d4230fc95035ad8075f99b4990cdb2f2882f8431
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-ENIGM.ANS by Technophreak (blde9407); released in blde9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 99-143
 # Columns: 1-80
 
 Write-Host '
 ▀■ [1;30mT[0mP''[1;30ms G[0mr[1me[0met[1;30mz: ■▀[0m
-[1;30m [0m  [1m                                   [0m
-[1;30m [0m  [1m                          [0m
-[1;30m [0m  [1m                       [0m
-[1;30m [0m  [1m                   [0m
-[1;30m [0m  [1m                                [0m
-[1;30m [0m  [1m                      [0m
-[1;30m [0m  [1m                                             [0m
-[1;30m [0m  [1m                             [0m
-[1;30m [0m   [1m                                  [0m
-
+[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m
 
 
       [1;30m▄▄[0;31m▄▄▄▄▄▄ [0;1;30m▄[0;31m▄▄▄    ▄▄▄▄ ▄▄▄  [0;1;30m▄▄[0;31m▄▄▄▄   ▄▄[0;1;30m▄[0;31m▄▄▄    ▄▄   ▄▄[0m       [1;30m▄[0;31m▄▄▄▄  [0;1;30m▄[0;31m▄▄[0m
@@ -39,17 +30,7 @@ Write-Host '
 
    [1mE[0m       N       [1mi[0m       G       M       A
    [1m[.4.0.8.]..4.8.4..2.0.5.8. / S[0mysOp [1m: [0mRyunosuke
-[1m  [0m           [1m [0m
-[1m    [0m                       [1m        [0m                  [1m   [0m                       
-   [1m [0m                     [1m   [0m                     [1m   [0m                    
-   [1m [0m                                    [1m   [0m                          
-   [1m [0m                      [1m   [0m                               [1m   [0m             
-   [1m [0m                                     [1m   [0m                                
-[1m  [0m       [1m [0m
-[1m    [0m                              [1m [0m        [1m     [0m                  [1m [0m          [1m [0m
-[1m    [0m               [1m [0m       [1m     [0m                      [1m [0m        [1m [0m
-[1m    [0m              [1m [0m          [1m [0m
-
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m
 
 [1;30m─ ──  ────────────────────[0m                                   [1;30m─────────────  ── ─[0m
 [31m  [0;35m [0;31m   [0;1;30m [0m  [1;30m [0m                                             [1;30m [0m [31m  [0;35m ┤[0;31m   [0;1;30m [0m           [31m    [0m

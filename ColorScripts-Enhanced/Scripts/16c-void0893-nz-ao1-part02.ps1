@@ -5,7 +5,7 @@
 # Source SHA-256: 7bf2e399ce61d0e7ea06c1d498880e0920855877835d095f9b9dd5a09a3afe6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-AO1.ANS by Nailz (void0893); released in void0893 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 27-52
 # Columns: 1-80
 
@@ -29,8 +29,4 @@ Write-Host '
 [1m·Os[0mmium Distribution S[1;30mite  [0m▄[1;30;47m░░░░░░[0m▄ [1;30;47m░░░░░░░[0m▄ [1;30;47m░░░░░░░[0m▄ [1;30;47m░░░░░░░[0m▄ ▄[1;30;47m░░░░░░░[0m [1;30;47m░░░░░░░[0m
  [1m·VO[0miD World Headquart[1;30mers  [0;1;30;47m▒▒▒[0m▀▀[1;30;47m▒▒▒[0m [1;30;47m▒▒▒▒[0m▄[1;30;47m▒▒▒[0m [1;30;47m▒▒▒[0m ▀[1;30;47m▒▒▒[0m [1;30;47m▒▒▒[0m ▀[1;30;47m▒▒▒[0m [1;30;47m▒▒▒[0m▀ ▄▄▄ [1;30;47m▒▒▒[0m▄▄
   [1m·Fr[0meedomNet HUB and [1;30mWHQ  [0;1;30;47m▓▓▓▓▓▓▓▓[0m [1;30;47m▓▓▓▓▓▓▓[0;1;30m▄ [0;1;30;47m▓▓▓▓▓▓▓▓[0m [1;30;47m▓▓▓[0m  [1;30;47m▓▓▓[0m [1;30;47m▓▓▓▓[0;1;30m▄▄[0;1;30;47m▓▓[0m [1;30;47m▓▓▓[0;1;30m▄▄▄▄[0m
-      [1m·Ci[0mSSd Member Bo[1;30mard   ▀[0;1;30;47m████[0;1;30m▀  [0;1;30;47m███[0m [1;30m▀███ [0;1;30;47m███[0m  [1;30;47m███[0m [1;30;47m███[0m  [1;30;47m███[0m  [1;30m▀█████▀ ███████[0m
-
-                  [1;30m    [0;1m  [0m                                [1m  [0;1;30m   [0m
-
-                 [1;30m6   [0;1m1   3   [0m.   7   2   9   .   4   [1m1   5   [0;1;30m3[0m'
+      [1m·Ci[0mSSd Member Bo[1;30mard   ▀[0;1;30;47m████[0;1;30m▀  [0;1;30;47m███[0m [1;30m▀███ [0;1;30;47m███[0m  [1;30;47m███[0m [1;30;47m███[0m  [1;30;47m███[0m  [1;30m▀█████▀ ███████[0m'

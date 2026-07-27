@@ -5,7 +5,7 @@
 # Source SHA-256: 2167a75b0f86489360f4464ec9dd611ca279675fc3f178c3b9d37c0527bd58d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ESS!21L4.ANS by Essence (REMORSE); released in rmrs-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rare!Ascii
 # SAUCE Author: Essence
 # SAUCE Group: REMORSE
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m         [0m                                                            [1;30m  [0m
-                                                                [1;36m_,[0;36m╓g%@@[0;37m%g╖,_[0m
+[1;30m[0m[1;30m[0m                                                                [1;36m_,[0;36m╓g%@@[0;37m%g╖,_[0m
                                                               [1;36m,[0;36md[0;37m§P╜"^[0;36m``^"╙7[0;37m§b,[0;1;30m_[0m
 [1;36m__[0;36m___[0;37m_[0;36m__[0;37m____[0;1;30m_[0;1;31m [0;1;36m_[0;36m_[0;37m____________[0;1;31m [0;1;36m_[0;36m__[0;37m [0;36m___[0;37m____[0;1;37m___[0m__[1;30m_[0;36m _[0;37m_________[0;1;33m__[0;1;37m__[0;36md[0;37m§P`[0;1;30m`[0m    [1;36m_[0;1;30m,[0m   [1;36m`[0;36m7[0;37m§b[0;1;30m,[0m
 [1;36m╨[0;36m┘§[0;37m§[0;1;33mP╨[0;33m╨[0;37m╨╨╨─┘┘[0;1;30m:[0;36m [0;1;36m┘[0;36m╨╨d[0;37m§│Y⌂╜ⁿ"`[0;1;30m`[0;1;31m  [0;1;36m└[0;36m┴[0;37m [0;1;30m`[0;36m└└┴┴[0;37m╨╨╨[0;1;37m╨╨[0m─[1m┘[0m┘[36m┘[0;37m┘┘╨╨[0;36md[0;37m§│Y⌂╜[0;33mⁿ[0;1;37m"`[0;36ml[0;37m§l[0;1;36m_[0;36m.,╖g%§[0;37mi[0;1;30m:[0m     [36ml[0;37m§i[0m
@@ -44,6 +43,5 @@ Write-Host '
 [1;30m┌╔╖╥╥╥──╥╥─--[0m [1;30m-[0m
 [1;30m║└┴┴┘─[0m [1;30m┘┘[0m [1;30m┘[0m
 [1;30m│[0m                                                                       
-[1;30m  [0m                                                     
-[1;30m|┐┬┬╦╦╥╥[0m [1;30m─┐[0m
+[1;30m[0m[1;30m|┐┬┬╦╦╥╥[0m [1;30m─┐[0m
 [1;30m╙╙╙└└──┴└─--[0m [1;30m-[0m'

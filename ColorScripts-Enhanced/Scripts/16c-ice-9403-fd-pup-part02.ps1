@@ -5,7 +5,7 @@
 # Source SHA-256: 0ffea9b89e222d55ff069b860db8d58e43ae51f181633c2667e9a0960de02e6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FD-PUP.ICE by Final Descendant (ice-9403); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 42-70
 # Columns: 1-80
 
@@ -21,16 +21,9 @@ Write-Host '
           [1;31;41m [0m               [1;31;41m░[0;31m▀[0m        [31m▀[0m            [31m▀▀[0m                    [1;31m▀███[0;1;31;41m▓▓[0m
 [1;31;40m    [0;1;30;40m▄▄[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄▄ [0;1;31m▀█▀[0m
 
-[1;31m    [0;1;30m  [0m  [1m                 [0m  [1;30m  [0m                   [1;30m  [0m  [1m                      [0m  [1;30m  [0m
-[1;30m      [0m  [1m                      [0m   [1;30m  [0m                  [1;30m  [0m  [1m                 [0m  [1;30m  [0m
-[1;30m      [0m  [1m                    [0m  [1;30m  [0m                            [1;30m  [0m  [1m          [0m  [1;30m  [0m
-[1;30m      [0m  [1m                                   [0m  [1;30m  [0m           [1;30m  [0m   [1m           [0m  [1;30m  [0m
-[1;30m      [0m  [1m                [0m  [1;30m  [0m                     [1;30m  [0m  [1m                     [0m  [1;30m  [0m
-[1;30m      [0m  [1m                                  [0m  [1;30m  [0m         [1;30m  [0m  [1m               [0m  [1;30m  [0m
-
+[1;31m[0;1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m
 [1;30m    ░▒▓█[0;1;30;44m▓▒░[0;34m████████████████████████████████████████████████████████████[0;1;30;44m░▒▓[0;1;30;40m█▓▒░[0m
 
 [1;30;40m    Fi[0mrs[1mt Node, Intel 14.4k v.3[0m2b[1;30mis [0;1;37m............................ [0;1;30m(4[0m07[1m)UP-S[0mOO[1;30mN![0m
-[1;30m      [0m  [1m                            [0m  [1;30m   [0;1;37m                        [0;1;30m  [0m  [1m     [0m  [1;30m  [0m
-
+[1;30m[0m[1m[0m[1;30m[0;1;37m[0;1;30m[0m[1m[0m[1;30m[0m
 [1;30m    ░▒▓█[0;1;30;44m▓▒░[0;34m████████████████████████████████████████████████████████████[0;1;30;44m░▒▓[0;1;30;40m█▓▒░[0m'

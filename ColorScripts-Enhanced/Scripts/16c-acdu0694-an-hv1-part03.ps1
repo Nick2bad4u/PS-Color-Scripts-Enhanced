@@ -5,7 +5,7 @@
 # Source SHA-256: 11cb4216db045f0876d0ad3453dfbd5487cb39f941469b93a4d685857945e45d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-HV1.ANS by Andrew Nice (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Harvest Moon
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -35,8 +35,8 @@ Write-Host '
                 [32;40m▐[0;1;30;42m░░     ░░░░░[0;32m▄[0;1;30m▄[0;32m▀▀■[0m               [1;30m▄[0;32m▄[0;1;30;42m░░░░░     ░░[0;32m▌[0m
                  [1;30;42m▒▒░░░░░▒▒▒▒▒[0;1;30;40m▀▀▀▀[0m              [1;30;40m▀▀▀▀[0;1;30;42m▒▒▒▒▒░░░░░▒▒[0m
                   [1;30;42m▓▒▒▒▒▒▓▓▓[0;1;30;40m▀[0m     [1;30;40m.Harvest Moon.[0m     [1;30;40m▀[0;1;30;42m▓▓▓▒▒▒▒▒▓[0m
-                   [1;30;42m▓▓▓▓▓▓[0;1;30;40m█[0m       [1;30;40m.216.951.7059.[0m       [1;30;40m██[0;1;30;42m▓▓▓▓▓[0m
-                    [1;30;40m▀[0;1;30;42m▓▓[0;1;30;40m██[0m       [1;30;40m.1.800.392.2889.[0m       [1;30;40m█[0;1;30;42m█▓▓[0;1;30;40m▀[0m
+                   [1;30;42m▓▓▓▓▓▓[0;1;30;40m█[0m       [1;30;40m              [0m       [1;30;40m██[0;1;30;42m▓▓▓▓▓[0m
+                    [1;30;40m▀[0;1;30;42m▓▓[0;1;30;40m██[0m       [1;30;40m                [0m       [1;30;40m█[0;1;30;42m█▓▓[0;1;30;40m▀[0m
                       [1;30;40m▀█                                █▀[0m
         [1;30;40m                                                              [0m
 [1;30;40m                                                                                [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b1c2adf78b1bd76b227a2fcca1b77ab3cdf2be47c4b43c16a0c93631f2ff1674
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-PREBL.ANS by Son of Sam (Shiver); released in shv-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Packaged Rebellion
 # SAUCE Author: Son of Sam
 # SAUCE Group: Shiver
@@ -53,7 +53,7 @@ Write-Host '
       [32m▀▀▀▀▀  ▀▀▀  ▀▀▀  ▀▀▀▀    ▀▀▀    ▀▀▀▀▀▀▀ ▀▀▀▀  ▀▀▀ ▀▀▀▀▀   ▀▀▀▀▀ [0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30m█[0m     ▄▄▄▄▄▄▄▄      [1;30m▐[0m         [1;37mP[0;1;31ma[0;31mck[0;1;30maged Rebel[0;31mli[0;1;31mo[0;1;37mn[0m       [1;30m▐[0m      ▄▄▄▄▄▄▄▄     [1;30m█[0m
-[1;30m█  [0m▄█[1;47m░░░░▒▒░░░░[0m█▄   [1;30m▐[0m           [1;37m[[0;1;31m9[0;31m16[0;1;30m-246-7[0;31m16[0;1;31m5[0;1;37m][0m         [1;30m▐   [0m▄█[1;47m░░░░▒▒░░░░[0m█▄  [1;30m█[0m
+[1;30m█  [0m▄█[1;47m░░░░▒▒░░░░[0m█▄   [1;30m▐[0m           [1;37m [0;1;31m [0;31m  [0;1;30m      [0;31m  [0;1;31m [0;1;37m [0m         [1;30m▐   [0m▄█[1;47m░░░░▒▒░░░░[0m█▄  [1;30m█[0m
 [1;30m [0m▄█[1;47m░░▒▒██████▒▒░░[0m█▄ [1;30m▐ [0;1;37mS[0;1;31my[0;31mso[0;1;30mp: Mass Delusion ;  ALiVE[0;31m W[0;1;31mH[0;1;37mQ[0;1;30m▐ [0m▄█[1;47m░░▒▒██████▒▒░░[0m█▄
 ▐█[1;47m░▒▓[0;1;40m▀[0;1;47m████████[0;1;40m▀[0;1;47m▓▒░[0m█▌[1;30m▐ [0;1;37mN[0;1;31ma[0;31mti[0;1;30mon,  Manifest, Shiver,  N[0;31mum[0;1;31mb[0;1;37m,[0;1;30m▐[0m▐█[1;47m░▒▓[0;1;40m▀[0;1;47m████████[0;1;40m▀[0;1;47m▓▒░[0m█▌
 █[1;47m░▒▓[0;1;40m▄  ▀[0;1;47m████[0;1;40m▀  ▄[0;1;47m▓▒░[0m█  [1mW[0;1;31mb[0;31mal[0;1;30mls, Iridium, Union, CIA, [0;31mSu[0;1;31mc[0;1;37mk [0m█[1;47m░▒▓[0;1;40m▄  ▀[0;1;47m████[0;1;40m▀  ▄[0;1;47m▓▒░[0m█

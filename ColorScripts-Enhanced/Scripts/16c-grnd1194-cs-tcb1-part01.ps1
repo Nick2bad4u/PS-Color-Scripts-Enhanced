@@ -5,13 +5,12 @@
 # Source SHA-256: 16e1a32d81995612de143611cc7215f9b0167f5d8aea9a38204b39009c558136
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CS-TCB1.ANS by Cryptic Stench (grnd1194); released in grnd1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
-[1;30m                      [0m
-          [33m▒▒▒▒▒[0m             [30m█▀▀█ █▀▀█ ▄░█▄  █░█▀▀▄[0m               [33m▒▒▒▒▒[0m
+[1;30m[0m          [33m▒▒▒▒▒[0m             [30m█▀▀█ █▀▀█ ▄░█▄  █░█▀▀▄[0m               [33m▒▒▒▒▒[0m
        [33m▒▒▒▒▒▒▒▒▒▒[0m           [30m█ ▄▄ █▀▀▄ ▄░█ █ █░█  █[0m             [33m▒▒▒▒▒▒▒▒▒▒[0m
       [33m▒▒▒▒▒▒▒▒▒▒▒▒[0m          [30m█▄▄█ █  █░█░█  ▀█░█▄▄▀[0m           [33m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
      [33m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m                                           [33m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

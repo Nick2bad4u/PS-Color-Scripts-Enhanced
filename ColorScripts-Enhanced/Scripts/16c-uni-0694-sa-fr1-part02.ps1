@@ -5,7 +5,7 @@
 # Source SHA-256: 04acb0ce12da2e86ce2fd77f719fb25f9cf416552c424c73d9933d8b2f668121
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-FR1.ANS by Stone Angel (UNiON); released in uni-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Flatlined Reality
 # SAUCE Author: Stone Angel
 # SAUCE Group: UNiON
@@ -36,13 +36,7 @@ Write-Host '
 
 [1m─[0m─[1;30m── ─   [0;1;37mR[0m         [1;37mE[0m         [1;37mA[0m         [1;37mL[0m         [1;37mI[0m         [1;37mT[0m         [1;37mY    [0;1;30m─ ──[0m─[1m─[0m
 
-                      [1m6  [0m1  [1;30m3  -  2  2  4  -  8  2  [0m7  [1m9[0m
-
-      [1m [0m [1;30m                                                          [0m
-      [1;37m [0m [1;30m                         [0m
-      [1;37m [0m [1;30m                                                                   [0m
-      [1;37m [0m [1;30m                                                                  [0m
-
-      [1;37m [0m [1;30m                                                        [0m
-
+[1m[0m[1;30m[0m[1m[0m
+[1m[0m[1;30m[0m[1;37m[0m[1;30m[0m[1;37m[0m[1;30m[0m[1;37m[0m[1;30m[0m
+[1;37m[0m[1;30m[0m
 [1;37m─[0m─[1;30m── ─   ──[0m     [1;30m──[0m        [1;37mAnsi by Stone Angel [0;1;30m[[0mUnion[1;30m][0m         [1;30m──    ──    ─ ──[0m─[1m─[0m'

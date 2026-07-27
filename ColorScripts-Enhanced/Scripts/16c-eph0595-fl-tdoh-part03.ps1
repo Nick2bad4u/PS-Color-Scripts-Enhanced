@@ -5,7 +5,7 @@
 # Source SHA-256: f9154b8094cf438e46019c8bf55bb307b51db42b1c07ffdd467e734f5a86a8ab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-TDOH.ANS by Fire Lord (eph0595); released in eph0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 97-126
 # Columns: 1-80
 
@@ -24,18 +24,11 @@ Write-Host '
            [31m▐[0;1;30;41m            [0;31m▀▐[0;1;30;41m  [0;31m█[0m  [31m █[0;1;30;41m ░[0;31m▄▄▄▄▄   [0;1;30;41m   [0;31m▌[0m [31m█[0;1;30;41m  [0;31m▌[0m
             [31m▀▀[0;1;30;41m       [0;31m▀▀[0m  [31m▀[0;1;30;41m [0;31m▀[0m   [31m [0m [31m▀[0;1;30;41m      [0;31m▀  ▀[0;1;30;41m [0;31m▀[0m  [31m▀[0;1;30;41m [0;31m▀[0m
 
-[1;30m [0;31m [0;1;31m               [0;1;30m [0;1;37m [0;1;31m [0;31m [0;1;30m   [0;31m [0;1;31m [0;1;37m [0;1;30m [0;1;37m [0;1;31m [0;31m  [0;1;31m [0;1;37m [0m
-[1;31m────────────────────────────────────────────────────────────────────────────────[0m
+[1;30m[0;31m[0;1;31m[0;1;30m[0;1;37m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1;37m[0;1;30m[0;1;37m[0;1;31m[0;31m[0;1;31m[0;1;37m[0m[1;31m────────────────────────────────────────────────────────────────────────────────[0m
 [1;31m                [0;1;30m·[0;1;31m [0;1;37mT[0;1;34m [0;1;31mh[0;31m e[0;1;31m    [0;31mD e p t h s    o f    H e [0;1;31ml[0;31m [0;1;37ml[0m [1;30m·[0m
         [1;30m     [0m
-[1;31m  [0m  [1;30m     [0;1;37m [0;1;31m [0;31m [0;1;30m                                                       [0;31m [0;1;31m [0;1;37m [0m
-[1;31m  [0m       [1;37m [0;1;31m [0;31m [0;1;30m                                                       [0;31m [0;1;31m [0;1;37m [0m
-[1;31m  [0m       [1;37m [0;1;31m [0;31m [0;1;30m                                                       [0;31m [0;1;31m [0;1;37m [0m
-[1;31m [0m [1;31m [0m      [1;37m [0;1;31m [0;31m [0;1;30m                                                       [0;31m [0;1;31m [0;1;37m [0m
-[1;31m  [0m       [1;37m·[0;1;31mL[0;31mA[0;1;30mB_NET ·00:000/00··0-5 day warez ONLY·519.658.0194·CALLN[0;31mO[0;1;31mW[0;1;37m·[0m
-
-[1;37m [0;1;31m [0;31m [0;1;30m                                                                    [0m
-
+[1;31m[0m[1;30m[0;1;37m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1;37m[0m[1;31m[0m[1;37m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1;37m[0m[1;31m[0m[1;37m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1;37m[0m[1;31m[0m[1;31m[0m[1;37m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1;37m[0m[1;31m[0m[1;37m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1;37m[0m
+[1;37m[0;1;31m[0;31m[0;1;30m[0m
 [1;31m────────────────────────────────────────────────────────────────────────────────[0m
 [1;37mF          [0;1;31mI[0;1;37m           [0;31mR[0;1;37m           [0;31mE[0;1;37m        [0;31m [0;1;37m  [0;31mL[0;1;37m          [0;31mO[0;1;37m          [0;1;31mR[0;1;37m         D[0m
 [1;31m────────────────────────────────────────────────────────────────────────────────[0m'

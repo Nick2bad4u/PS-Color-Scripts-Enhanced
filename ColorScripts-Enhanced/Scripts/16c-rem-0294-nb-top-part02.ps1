@@ -5,7 +5,7 @@
 # Source SHA-256: 6227692269f4f695a2adbd1f6be16403ed7f92ac1d38f81767a4e830899fe06d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NB-TOP.ANS by Night Breed (rem-0294); released in rem-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -24,8 +24,7 @@ Write-Host '
 [33m▒█[0;33;43m  [0;33;40m███████████[0;33;43m  [0;33;40m█[0;33;43m   [0;33;40m▒▓▓███████▓▒▓█▓▓▓▓▓▓▒▒▒[0m          [1;30;40m▀[0m▓██▒▓▄▀[31m▀▀[0;37m▄[0m
 [33m▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒[0m                 [37m▀▀▓██▓░▀[0m
 
-[1;30m                      [0m
-
+[1;30m[0m
             [36m▄▒[0m
            [36m█▓[0m
           [36m█▓[0m
@@ -45,7 +44,7 @@ Write-Host '
 [1;30m   [0;36m▄▄▄█▓▓▓    ▓█ █▓  █▓ ▀ █▓ ▀ ▀█▓ ▄▀▓█[0m
 [36m  ▀[0m     [36m▓▒    ▓█ █▓  █▓   █▓    █▓   ▓▓[0m       [36mT H E A T E R  O F  P A i N[0m
         [36m▒[0;1;30m▓   ▓[0;36m▒█ [0;1;30m▓[0;36m▒  [0;1;30m▓[0;36m▒   [0;1;30m▓[0;36m▒    [0;1;30m▓[0;36m▒   ▒[0;1;30m▓[0m
-        [1;30m▓▓  ▓▓[0;36m▀  [0;1;30m▓▓ [0;36m▄[0;1;30m▓▓   ▓▓    ▓▓   ▓▓[0m       707.552.3414  NUP: Breakme
+        [1;30m▓▓  ▓▓[0;36m▀  [0;1;30m▓▓ [0;36m▄[0;1;30m▓▓   ▓▓    ▓▓   ▓▓[0m                                 
         [1;30m▓▓ ▓[0;36m▀    [0;1;30m▓▓▓ ▓▓   ▓▓    ▓▓   ▓▓[0m
         [1;30m▓▓[0m       [1;30m▓▓  ▓▓   ▓▓    ▓▓   ▓▓[0m       [1;30mREM Inc. World Headquarters[0m
         [1;30m▓▓[0m       [35m▒[0;1;30m▓  [0;35m▒[0;1;30m▓   [0;35m▒[0;1;30m▓    [0;35m▒[0;1;30m▓   [0;35m▒[0;1;30m▓[0m       [1;30mSTC Static Message Network[0m

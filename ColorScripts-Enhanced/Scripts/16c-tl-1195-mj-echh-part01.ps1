@@ -5,7 +5,7 @@
 # Source SHA-256: a74f9b0e45927f9dee0075227b4cdcf5d964909e021a42dfe06d0e244a6732d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ-ECHH.ANS by Mojo (Teklordz); released in tl-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Brand Echh!
 # SAUCE Author: Mojo
 # SAUCE Group: Teklordz
@@ -23,7 +23,7 @@ Write-Host '
         [36m■    ▀■ ▄ [0;34m▄▄[0;34;44m  [0;34;40m▄▄   [0;1;34;40m▄████▄[0;34m▄▄[0m             [36m [0m [36mmojo of [0;1;36mteklordz[0;36m.          [0;37m [0m
          [36m▓■▄[0m     [1;34m▐[0;1;34;44m▄▓[0;1;34;40m██[0;1;34;44m▄░ [0;34m▄  [0;1;34m███[0;1;34;44m▓[0;1;34;40m██[0;1;34;44m ░ [0;34m▄[0m
     [36m■  ▄▄▐  ▀[0;1;36;46m░[0;36m▄▄  [0;1;34m▀▀██[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m▒░ [0m  [1;34;40m█████[0;1;34;44m▌░ [0;34m▀  ▄▄[0m  [34m░[0m     [36mif[0;1;34m [0;36myou want an ansi  from me[0m
-     [36m▀▄ ▀▀▓   ▀ [0;1;37m▄▄█▄  [0;1;34m▀███[0;1;34;44m▄ [0m  [1;34;44m▓[0;1;34;40m██[0;1;34;44m▓  [0;34m▀ [0;1;34m▄█[0;1;34;44m▄ [0;34m█▄[0m [36m    [0m [36mmail me at: mojo@infosoc.com[0m
+     [36m▀▄ ▀▀▓   ▀ [0;1;37m▄▄█▄  [0;1;34m▀███[0;1;34;44m▄ [0m  [1;34;44m▓[0;1;34;40m██[0;1;34;44m▓  [0;34m▀ [0;1;34m▄█[0;1;34;44m▄ [0;34m█▄[0m [36m    [0m [36m                            [0m
        [36m█▄[0m    [36m░[0;1;37m▄██████▄  [0;1;34m▀[0;1;34;44m▓█░ [0m  [1;34;40m██[0;1;34;44m ░[0m  [1;34;40m█[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m░ [0;34m██▀[0m [1;34m [0;36m  [0m [36msorry, trades only[0;37m [0;36m(or cash)[0m
      [36m░[0m  [36m█▓▄  [0;1;37m▐█▀  ▄▀███▄  [0;1;34m▀█[0;1;34;44m [0;34m▌ [0;1;34m▀[0;1;34;44m░ [0m  [1;34;44m▓[0;1;34;40m█[0;1;34;44m░▀[0;34m█▀  [0;1;37m▄▄[0m    [36mno more free-bee''s from  me.[0m
          [36m▀   [0;1;37m█ [0;31m░ [0;1;37m▐███▀███▄  [0;1;34m▀[0;1;34;44m▄[0;34m▄ ▀  [0;1;34m██[0;1;34;44m▀[0;34m█▀  [0;1;37m▄████▄[0m

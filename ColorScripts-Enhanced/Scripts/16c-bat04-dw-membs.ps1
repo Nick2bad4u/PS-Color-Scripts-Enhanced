@@ -5,7 +5,7 @@
 # Source SHA-256: 1ac9b066af660ff81106a679229428e62b7e378dfdc49ae066e8960195699e54
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DW-MEMBS.ANS by darkwing (bat); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: members
 # SAUCE Author: darkwing
 # SAUCE Group: bat
@@ -36,14 +36,10 @@ Write-Host '
 
 
 
-       [1;37m [0;1;34m     [0;1;37m           [0;1;34m              [0;1;37m [0;1;34m   [0m  [1m [0;1;34m       [0;1;37m         [0;1;34m          [0;1;37m [0m
-       [1m.[0;1;34mfreezer[0;1;37m.........[0;1;34mvga/ansi[0;1;37m.[0m           [1m.[0;1;34mjive[0;1;37m............[0;1;34mvga[0;1;37m.[0m
+[1;37m[0;1;34m[0;1;37m[0;1;34m[0;1;37m[0;1;34m[0m[1m[0;1;34m[0;1;37m[0;1;34m[0;1;37m[0m       [1m.[0;1;34mfreezer[0;1;37m.........[0;1;34mvga/ansi[0;1;37m.[0m           [1m.[0;1;34mjive[0;1;37m............[0;1;34mvga[0;1;37m.[0m
        [1m.[0;1;34martoo[0;1;37m...........[0;1;34mansi[0;1;37m.[0m               [1m.[0;1;34mdaemon[0;1;37m..........[0;1;34mvga[0;1;37m.[0m
-       [1m [0;1;34m           [0;1;37m     [0;1;34m    [0;1;37m [0m               [1m [0;1;34m     [0;1;37m           [0;1;34m     [0;1;37m [0m
-       [1m.[0;1;34mzout[0;1;37m............[0;1;34mansi[0;1;37m.[0m               [1m.[0;1;34msnigel[0;1;37m..........[0;1;34mmusic[0;1;37m.[0m
-       [1m [0;1;34m        [0;1;37m        [0;1;34m                [0;1;37m [0m   [1m [0;1;34m   [0;1;37m             [0;1;34m     [0;1;37m [0m
-       [1m [0;1;34m      [0;1;37m          [0;1;34m     [0;1;37m [0m
-[31m█[0m                                                                              [31m█[0m
+[1m[0;1;34m[0;1;37m[0;1;34m[0;1;37m[0m[1m[0;1;34m[0;1;37m[0;1;34m[0;1;37m[0m       [1m.[0;1;34mzout[0;1;37m............[0;1;34mansi[0;1;37m.[0m               [1m.[0;1;34msnigel[0;1;37m..........[0;1;34mmusic[0;1;37m.[0m
+[1m[0;1;34m[0;1;37m[0;1;34m[0;1;37m[0m[1m[0;1;34m[0;1;37m[0;1;34m[0;1;37m[0m[1m[0;1;34m[0;1;37m[0;1;34m[0;1;37m[0m[31m█[0m                                                                              [31m█[0m
 [31m██[0m                                                                            [31m██[0m
 [31m███▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███[0m
 [31m▀██████████████████████████████████████████████████████████████████████████████▀[0m'

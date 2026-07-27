@@ -5,7 +5,7 @@
 # Source SHA-256: 54d7f223f4a247b034dab26c9e0c72f12fdf73e4bab4ac20ab2739d570da4644
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-act2.ans by Warpus + The Silent Killer (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: activamusic
 # SAUCE Author: TSK & warpus
 # SAUCE Group: LAZARUS
@@ -20,7 +20,7 @@ Write-Host '
 [30m████████████████████[0;30;107m█████████████[0;30m███████████[0;30;106m█[0;30;45m███████████[0;30;106m██[0;30m██████████████████████[0m
 [37m                            [0;30;107m███[0;30m█[0;30;105m███████[0;30;45m██[0;30;103m██████[0;30;107m█[0;30m████[0;30;45m████[0;30;106m██[0;30m██████████████████████[0m
 [37m                         [0;30m████████████[0;1;35m ▄▓▓▓▄ [0;30m██[0m
-[37m                         [0;35mactivamusic[0;30m█[0;37m▐[0;1;33;105m [0;1;35m████▌[0;30m█[0;35mbandcamp.com[0m
+[37m                         [0;35m           [0;30m█[0;37m▐[0;1;33;105m [0;1;35m████▌[0;30m█[0;35m            [0m
 [37m                                    [0;30m█[0;37m [0;30;105m▄   ▄[0m [30;46m██[0m
 [37;40m                               [0;30;40m█[0;37;40m                            [0;30;40m▄▄▄▄[0m
 [37;40m                 [0;35;40m▄▄▄[0;30;40m▄▄▄  [0;37;40m▄[0;1;35;40m▄[0;1;35;45m▄▄[0;1;35;40m▓▓▓▓▓▓▓▓▓▓▓[0;1;35;45m▄▄[0;1;35;40m▄▄[0;30m▄▄▄▄[0;37m    [0;1;35;45m▄▄▄▄[0;30;105m▀[0;30m▄[0;1;35;45m▄▄▄▄[0;1;35;40m▄[0;30m░▄░▄[0m

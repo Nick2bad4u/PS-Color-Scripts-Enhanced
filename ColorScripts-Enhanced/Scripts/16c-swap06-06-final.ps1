@@ -5,14 +5,13 @@
 # Source SHA-256: 80b79d804c73977ec3a549202a55896d7b25282d25ccaba213e3cc78a6d3fb89
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 06-FINAL.ANS by Black Viper + Cheeze + Dieznyik + Flame + Nail + Widowmaker + Trahma (swap06); released in swap06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
 
-     [32m                       [0m   [37m      [0;36m       [0m
-                                          [37m [0;31m▄[0;1;31m▄▄▄▄▄[0;31m▄[0;37m           [0m
+[32m[0m[37m[0;36m[0m                                          [37m [0;31m▄[0;1;31m▄▄▄▄▄[0;31m▄[0;37m           [0m
                                [1;32m███▀▀[0;31m▄[0;1;31m▄▄[0;1;31;41m▄████[0;1;31;46m█▄[0;1;35;41m█[0;1;31;40m█[0;1;31;46m▀[0;1;31;40m███[0;1;31;41m█▄[0;31m▄▄▄[0;36m▀▀[0;1;32;46m░▓[0;1;32;40m█[0;36m▄[0;1;32m     ██▀▀▀  ▀█▄  [0m
            [1;32m▀▀▀██[0;1;32;46m░[0;1;32;40m█[0m     [1;32m▄▄▄▄[0;1;32;46m▒[0;1;32;40m▄[0;1;32;46m▓[0;1;32;40m██▀[0;31m▄[0;1;31;41m▄[0;1;31;46m▀█▄[0;1;31;41m█▀[0;31m█[0;1;31;41m ▀█████[0;1;31;46m▌▄█[0;1;31;41m█████[0;1;31;46m▓[0;1;31;41m▄▌[0;31m▄[0;36m▀[0;1;32;46m▀[0;1;32;40m█▀█[0;1;32;46m▓[0;1;32;40m▄▄██████ ███▌ [0m
 [1;32;40m ▄████▀▀▀   ██[0;1;32;46m▒▒▓░[0;1;32;40m▀[0;1;32;46m▓[0;1;32;40m▄▄▄▄▄▐[0;1;32;46m▒[0;1;32;40m▀[0;1;32;46m▓[0;1;32;40m█▀[0m [31m█[0;1;31;41m█[0;1;31;46m▌▐[0;1;31;41m██▌[0;31m█▀█▄[0;1;31;41m▐███[0;1;31;46m█▓[0;1;31;41m███▀ ▀▀▀█[0;1;31;46m█[0;1;31;41m▓░[0m [1;32;46m▀▓▓▓▒[0;1;32;40m████████████[0m

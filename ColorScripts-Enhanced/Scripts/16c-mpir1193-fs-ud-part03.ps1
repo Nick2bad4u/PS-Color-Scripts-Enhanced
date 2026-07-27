@@ -5,7 +5,7 @@
 # Source SHA-256: 985c9d95e0d14fad80032c82465b4280fce9defb2ed3c4141d11f936d0ead483
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-UD.ANS by Flick Of The Switch (mpir1193); released in mpir1193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 86-116
 # Columns: 1-80
 
@@ -25,8 +25,7 @@ Write-Host '
 [31m▀█████[0;1;30;41m░░░▒▓█[0;1;30;40m██▀   [0;31m██[0;1;30;41m░▒[0m [31m▀[0;31;41m [0;1;30;41m░ [0;31m█▄█[0;31;41m  [0;31;40m█▀ ██[0;1;30;41m░▒[0m [31m████████[0;1;30;41m░░[0m [31m██[0;1;30;41m░▒[0m [31m▀█[0;31;41m [0;1;30;41m░[0;31m█████[0;1;30;41m░[0;31m▀ [0;1;30;41m░[0;31m█[0;1;30;41m░▒[0m    [31m██[0;1;30;41m░▒[0m
   [31m▀▀███[0;31;41m [0;1;30;41m░░▒▓[0;1;30;40m▀[0m     [31m▀██[0;1;30;41m░[0m   [31m▀[0;31;41m  [0;31;40m███▀   ▀██[0;1;30;41m░[0m  [31m▀██████▀  ▀██[0;1;30;41m░[0m   [31m▀█████▀   ███[0;1;30;41m░[0m    [31m▀██[0;1;30;41m░[0m
 
-                          [1;30m [0m [1m  [0;1;30m [0m [1m    [0m [1;30m   [0m [1m     [0m [1;30m  [0;1;37m [0m [1;30m [0m
-
+[1;30m[0m[1m[0;1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0;1;37m[0m[1;30m[0m
              [1;30m┌[0;1;37m∙[0;34m─[0;35m─[0;1;35m─[0;1;37m·─[0;1;36m∙[0;36m■ [0;1;37mSysOps [0;1;30m∙ [0;1;33mCooz [0;1;30m∙ [0;1;33mKafka Kierkegaard [0;36m■[0;1;36m∙[0;1;37m─·[0;1;35m─[0;35m─[0;34m─[0;1;37m∙[0;1;30m┐[0m
              [1;37m∙[0m                                                   [1;37m∙[0m
              [1;30m├[0;1;37m∙[0;34m─[0;35m─[0;1;35m─[0;1;37m──·─[0;1;36m∙[0;36m■ [0;1;37mC[0;1;36me[0;36mleri[0;1;36mt[0;1;37my 1.42 [0;1;30m∙ [0;1;37m3.9 G[0;1;36mi[0;36mgabyt[0;1;36me[0;1;37ms [0;36m■[0;1;36m∙[0;1;37m─·──[0;1;35m─[0;35m─[0;34m─[0;1;37m∙[0;1;30m┤[0m
@@ -37,6 +36,6 @@ Write-Host '
              [1;37m∙[0m                                                   [1;37m∙[0m
              [1;30m├[0;1;37m∙[0;34m─[0;35m─[0;1;35m─[0;1;37m───────·─[0;1;36m∙[0;36m■ [0;1;37m2 1[0;1;32m6[0;32m.8[0;1;37mk B[0;1;32ma[0;32mud [0;1;37mN[0;1;32mo[0;32mdes [0;36m■[0;1;36m∙[0;1;37m─·────────[0;1;35m─[0;35m─[0;34m─[0;1;37m∙[0;1;30m┤[0m
              [1;37m∙[0m                                                   [1;37m∙[0m
-             [1;30m├[0;1;37m∙[0;34m─[0;35m─[0;1;35m─[0;1;37m──────────·─[0;1;36m∙[0;36m■ [0;1;37m4[0;1;36mo[0;36m8[0;1;37m.[0;1;30m458[0;1;37m.[0;1;30m2[0;36m3[0;1;36m5[0;1;37m7 [0;36m■[0;1;36m∙[0;1;37m─·───────────[0;1;35m─[0;35m─[0;34m─[0;1;37m∙[0;1;30m┤[0m
+             [1;30m├[0;1;37m [0;34m─[0;35m─[0;1;35m─[0;1;37m────────── ─[0;1;36m [0;36m■ [0;1;37m [0;1;36m [0;36m [0;1;37m [0;1;30m   [0;1;37m [0;1;30m [0;36m [0;1;36m [0;1;37m  [0;36m■[0;1;36m [0;1;37m─ ───────────[0;1;35m─[0;35m─[0;34m─[0;1;37m [0;1;30m┤[0m
              [1;37m∙[0m                                                   [1;37m∙[0m
-             [1;30m└[0;1;37m∙[0;34m─[0;35m─[0;1;35m─[0;1;37m──────────·─[0;1;36m∙[0;36m■ [0;1;37m4[0;1;36mo[0;36m8[0;1;37m.[0;1;30m457[0;1;37m.[0;1;30m8[0;36m1[0;1;36m2[0;1;37m5 [0;36m■[0;1;36m∙[0;1;37m─·───────────[0;1;35m─[0;35m─[0;34m─[0;1;37m∙[0;1;30m┘[0m'
+             [1;30m└[0;1;37m [0;34m─[0;35m─[0;1;35m─[0;1;37m────────── ─[0;1;36m [0;36m■ [0;1;37m [0;1;36m [0;36m [0;1;37m [0;1;30m   [0;1;37m [0;1;30m [0;36m [0;1;36m [0;1;37m  [0;36m■[0;1;36m [0;1;37m─ ───────────[0;1;35m─[0;35m─[0;34m─[0;1;37m [0;1;30m┘[0m'

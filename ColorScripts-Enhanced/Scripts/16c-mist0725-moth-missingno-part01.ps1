@@ -5,7 +5,7 @@
 # Source SHA-256: 98179b2570f89ee17de9489b7a26840fc5d05cb92c27b6136cb792d45cf9977b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MOTH-MISSINGNO.ANS by Moth (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the Secret of Missingno.
 # SAUCE Author: Moth
 # SAUCE Group: Mistigris
@@ -34,7 +34,7 @@ Write-Host '
 [36;40m███████████████████  [0;30;46m██[0;36;40m▀▀████████████████▀▀[0;30;46m█████[0;36;40m▀[0;30;46m [0;36;46m...Or, well, it COULD, but[0;36;40m████[0m
 [36;40m███████████████████ [0;31;40m▐█▄[0;36;40m [0;30;46m██[0;36;40m▀████████████▀[0;30;46m████[0;31;40m▄▄[0;1;31;40m [0;30;46m██ [0;36;40m█[0;36;46mthe website''s been down for[0;36;40m██[0m
 [36;40m███████████████████▌[0;31;40m▐[0;1;31;41m ▒[0;1;31;40m█▄[0;30;46m██[0;36;40m ▀▀▀▀▀▀▀▀▀█ [0;30;46m███[0;30;41m▀[0;1;31;41m ░▒[0;31m▌[0;36m [0;30;46m█[0;36;40m▐█[0;36;46ma good decade. You can still[0;36;40m█[0m
-[36;40m████████████████████ [0;1;31;41m░▓[0;1;31;40m█▀ [0;1;35;40m▄▄[0;1;35;47m▒░  ░▒▒▓[0;1;35;40m▄▄▄[0;30;46m█[0;36;40m [0;31;40m▀[0;1;31;41m ▒[0;1;31;40m██▌[0;36m [0;30;46m█[0;36;40m▐█[0;36;46mview it on archive.org if[0;36;40m████[0m
+[36;40m████████████████████ [0;1;31;41m░▓[0;1;31;40m█▀ [0;1;35;40m▄▄[0;1;35;47m▒░  ░▒▒▓[0;1;35;40m▄▄▄[0;30;46m█[0;36;40m [0;31;40m▀[0;1;31;41m ▒[0;1;31;40m██▌[0;36m [0;30;46m█[0;36;40m▐█[0;36;46m                         [0;36;40m████[0m
 [36;40m█████████████████████[0;1;31;40m ▀[0m▄[1;35;47m▒▓[0;1;35;40m█▀▀[0;1;35;47m▓▒░░▒▒▓▓▓[0;1;35;40m████▄▄[0;1;31;40m▀█[0;36m [0;30;46m█[0;36;40m ██[0;36;46myou''re curious, though. [0;36;40m█████[0m
 [36;40m█████████████████████▌[0;37;40m▐[0;1;35;47m░▓[0;1;35;40m█[0;36m [0;1;31;41m■░[0;36m [0;1;35;47m▓▓▓▓▓▓▓███[0;1;35;40m████[0;1;35;45m▒[0;30;46m███[0;36;40m████████████████████████████████[0m
 [36;40m██████████████████▀▀[0;30;46m ██[0;1;35;40m▀[0;30;45m`[0;1;35;45m▒[0;1;35;40m▄[0;36m  [0;1;35m▄█[0;1;35;45m▓ [0;1;35;40m▀[0;30;46m██[0;1;35;40m▀█[0;1;35;47m██[0;1;35;40m████[0;1;35;45m▒[0;35m█[0;30;46m█[0;36;40m██▀▀▀▀▀▀▀▀███████████████████████[0m

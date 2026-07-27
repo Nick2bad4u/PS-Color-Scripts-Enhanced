@@ -5,7 +5,7 @@
 # Source SHA-256: 04e56c02261181df8be3cc6b1905ab0aee6614f857bf96c99692bad6d1291693
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TC.ICE by Tempus Thales (ice-9407); released in ice-9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 114-151
 # Columns: 1-80
 
@@ -41,8 +41,7 @@ Write-Host '
 [31m [0;1;31m▄▄▄▄▄[0;1;31;41m▓▓▓▓▒▒▒▒▒░░░░░░░░░░░░░░░░[0;31m████▄▄▄▄▄█[0;1;31;41m░░░[0;31m█▄▄▄▄▄▄█[0;1;31;41m░░░[0;31m██▄▄▄▄▄█[0;1;31;41m░░[0;31m██▄▄▄▄▄▄[0;1;31;41m░░[0;31m█▓▒░[0m
 
 [31m ▌[0m                [1;31m              [0;31m                            [0m                  [31m▐[0m
-         [1;31m      [0;31m                                                        [0m
-[31m ▌[0m             [31m            [0;1;31m               [0;31m       [0;1;31m            [0;31m     [0m            [31m▐[0m
-[31m ▓ Node #1 : +613-769-6430  Node #2 : +613-769-6434  Node #3 : +613-TEL-UL8A  ▓[0m
+[1;31m[0;31m[0m[31m ▌[0m             [31m            [0;1;31m               [0;31m       [0;1;31m            [0;31m     [0m            [31m▐[0m
+[31m ▓                                                                            ▓[0m
 [31m █▄[0m                                                                          [31m▄█[0m
 [31m ▀█████▓█▓▓▓▒▒▒░░░ ░ [0;37mPicture by [0;1;37mfLiCk [0mand [1mSoul Rebel [0mof [1mi[0mCE! [31m░ ░░░▒▒▒▓▓▓█▓████▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4a7d621e17b398e5034e1872e3875f2b8902a12c646872584770858114b8d750
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RA-IMSIN.ANS by Raistlin (mgc-0194); released in mgc-0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -56,7 +56,4 @@ Write-Host '
 
                [31m   [0;1;31m [0m [1m     [0;31m [0;1;31m [0m [1m  [0;31m [0;1;31m [0m [1m      [0;31m [0;1;31m  [0;31m [0;1;31m [0m [1m      [0;31m─[0;1;31m─[0;1m─ [0;31m [0;1;31m [0m [1m   ─[0;1;31m─[0;31m─[0m
 [31m───[0;1;31m─[0;31m──[0;1;31m─[0;31m─[0;1;31m───[0m─[1;31m──[0m─[1;31m─[0m───[1m─[0m──[1m─[0m─[1m─────────────────────────────────[0m─[1m─[0m──[1m─[0m───[1;31m─[0m─[1;31m──[0m─[1;31m───[0;31m─[0;1;31m──[0;31m──[0;1;31m─[0;31m─[0m
-                        [31m [0;1;31m  [0;1m                          [0m  
-                      [31m [0;1;31m  [0;1m                              [0m  
-                       [31m [0;1;31m  [0;1m                            [0m  
-[31m───[0;1;31m─[0;31m──[0;1;31m─[0;31m─[0;1;31m───[0m─[1;31m──[0m─[1;31m─[0m───[1m─[0m──[1m─[0m─[1m─────────────────────────────────[0m─[1m─[0m──[1m─[0m───[1;31m─[0m─[1;31m──[0m─[1;31m───[0;31m─[0;1;31m──[0;31m──[0;1;31m─[0;31m─[0m'
+[31m[0;1;31m[0;1m[0m[31m[0;1;31m[0;1m[0m[31m[0;1;31m[0;1m[0m[31m───[0;1;31m─[0;31m──[0;1;31m─[0;31m─[0;1;31m───[0m─[1;31m──[0m─[1;31m─[0m───[1m─[0m──[1m─[0m─[1m─────────────────────────────────[0m─[1m─[0m──[1m─[0m───[1;31m─[0m─[1;31m──[0m─[1;31m───[0;31m─[0;1;31m──[0;31m──[0;1;31m─[0;31m─[0m'

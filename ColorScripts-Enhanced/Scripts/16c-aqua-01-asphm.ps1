@@ -5,7 +5,7 @@
 # Source SHA-256: 3411cfc02b58afdfc5bc606cdda3463039cc85f70a4bbb3322647374e01d72c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASPHM!.ANS by Asphynx + Mice (aqua-01); released in aqua-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: affils for you
 # SAUCE Author: mice ^ asphynx
 # SAUCE Date: 19970907
@@ -27,7 +27,6 @@ Write-Host '
 [1;37m     [0;35m:$[0;1;35myyy$[0;35m╧²"`                                              `"[0;1;35m²[0;35m╧ [0;32m<$$░'' m![0m
 [1;37m   [0;35m    [0;1;35m [0;1;35;45m [0;35m                                                         [0;32m    [0m
 [1;37m   [0;35m   l[0;1;35m$[0;1;35;45m$[0;35m([0m
-[1;37m   [0;35m     [0;1;35m [0;35m  [0;37m          [0;35m                      [0m
-[1;37m   [0;35m      [0;1;35m [0;1;35;45m [0;35m      [0;37m    [0;35m                                  [0m
+[1;37m[0;35m[0;1;35m[0;35m[0;37m[0;35m[0m[1;37m   [0;35m      [0;1;35m [0;1;35;45m [0;35m      [0;37m    [0;35m                                  [0m
 [1;37m   [0;35m      `"²$$$ii::[0m
 [1;37m   [0;35m             ::[0m'

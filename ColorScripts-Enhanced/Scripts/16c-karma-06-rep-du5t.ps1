@@ -5,13 +5,12 @@
 # Source SHA-256: 285275dfb5077bdadb4e862a00ef75185cec370f7f0b8795afceafc504611e70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REP-DU5T.ANS by Reptical (karma-06); released in karma-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
-[31m        [0;33m                   [0m
-              [33m.[0m          [33m,[0m       [33m. [0m
+[31m[0;33m[0m              [33m.[0m          [33m,[0m       [33m. [0m
          [33m,_ _.j,_''.db┐._.j,._[0;37m  [0;33m_.j,_,[0m
           [33m~^"4$$$$$$$$$$$$$$$P┘"~~"`[0;37m     [0;33m [0m
      [32m_.,┌d[0m   [33m,$P*┘²²²└*4$$$P`       `       ''     [0;37m  [0;33m. [0;37m [0;33m [0m

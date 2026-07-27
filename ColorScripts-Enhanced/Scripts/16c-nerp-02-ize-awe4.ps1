@@ -5,7 +5,7 @@
 # Source SHA-256: 2b1eedc8d561b802b31c5973aa1710a800a42a8976bda9f7c556815178eb0c54
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZE-AWE4.ANS by ize (fusion); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: awe promotional
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30m                              [0m
-
+[30m[0m
                                                  [37m ▄█[0;1;37;47m ▀▀█[0;1;37;40m▓[0;1;33;40m░[0;1;37;40m [0m   ize[30mizeizeizeizeize[0m
        [37m        ▄██████[0;1;37;47m▀▀▐[0;1;37;40m█▌[0m [34m [0;1;37m [0m                  ▄█[1;47m    ▐[0;1;40m▀[0m [1;30m ■[0m
              ▄███████████[1;47m▓[0;1;40m▌[0m [34m [0;1;34m [0;1;37m [0m               ▄█[1;30;47m   [0;1;37;47m [0m█[1m▀[0m [1;30m▄▀[0m     [34m▄▄▄▄▄▄[0m

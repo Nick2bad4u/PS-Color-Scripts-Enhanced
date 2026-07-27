@@ -5,7 +5,7 @@
 # Source SHA-256: 25a8cb7a6879065dfd7ea189d5444362be4f51b985b3a6224bd8e2fe80720a71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZB!EIGRL.ANS by Zubfatal (purg-31); released in purg-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -17,8 +17,7 @@ Write-Host '
 
 
 
-              [1m                          [0m  [1m                       [0m 
-
+[1m[0m[1m[0m
 
                            [31m`s.[0m
                           [31m.┌l²$$Ss┐.  .┌sS$$Ss²;[0m

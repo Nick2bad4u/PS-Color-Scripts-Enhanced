@@ -23,5 +23,4 @@ Write-Host @"
  1;96m $esc[1;96m$esc[40m  *  $esc[0m$esc[1;96m$esc[41m  *  $esc[0m$esc[1;96m$esc[42m  *  $esc[0m$esc[1;96m$esc[43m  *  $esc[0m$esc[1;96m$esc[44m  *  $esc[0m$esc[1;96m$esc[45m  *  $esc[0m$esc[1;96m$esc[46m  *  $esc[0m$esc[1;96m$esc[47m  *  $esc[0m
    37m $esc[37m$esc[40m  *  $esc[0m$esc[37m$esc[41m  *  $esc[0m$esc[37m$esc[42m  *  $esc[0m$esc[37m$esc[43m  *  $esc[0m$esc[37m$esc[44m  *  $esc[0m$esc[37m$esc[45m  *  $esc[0m$esc[37m$esc[46m  *  $esc[0m$esc[37m$esc[47m  *  $esc[0m
  1;97m $esc[1;97m$esc[40m  *  $esc[0m$esc[1;97m$esc[41m  *  $esc[0m$esc[1;97m$esc[42m  *  $esc[0m$esc[1;97m$esc[43m  *  $esc[0m$esc[1;97m$esc[44m  *  $esc[0m$esc[1;97m$esc[45m  *  $esc[0m$esc[1;97m$esc[46m  *  $esc[0m$esc[1;97m$esc[47m  *  $esc[0m
-
 "@

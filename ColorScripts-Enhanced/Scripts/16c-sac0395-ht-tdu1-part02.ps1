@@ -5,7 +5,7 @@
 # Source SHA-256: 2ae6676e0b02ddcd5fd5527ec45d4be128a8819afb06aed3cc359c4bfdebef36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-TDU1.ANS by hetero; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: THE DIGITAL UNDERGROUND
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -17,8 +17,7 @@
 Write-Host '
 [1;30m░░░░░░░░░░░[0m                          [36m░▒▒▒  [0;1;30m░░  ░░  [0;31m░░ ░  ░░░   [0;1;30m░░░░[0m     [36m▓▓    [0;1;30m░[0m
                                                  [1;30m░   [0;31m░░░░░░  [0;1;30m░░░ ░░░░[0m       [1;30m░░[0m
-                                            [1;30m                                   [0m
-[1;30m▄  ▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄▄[1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1m▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄▄▄▄▄▄▄[0m▄[1m▄▄[0m▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▄[0m▄▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄  ▄[0m
+[1;30m[0m[1;30m▄  ▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄▄[1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1m▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄▄▄▄▄▄▄[0m▄[1m▄▄[0m▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▄[0m▄▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄  ▄[0m
 
               [1;30m··  [0;36mD  [0;1;30m··  [0;36mI  [0;1;30m··  [0;1;36mG  [0;1;30m··  [0;1;36mI  [0;1;30m··  [0;1;36mT  [0;1;30m··  [0;36mA  [0;1;30m··  [0;36mL  [0;1;30m··[0m
                         [1;30m░[0m
@@ -39,9 +38,5 @@ Write-Host '
                        [36m            [0;1;36m    [0;1;37m [0;1;36m   [0;36m             [0m                [1;30m▒[0m
                           [36m          [0;1;36m      [0;36m           [0m                   [1;30m░[0m
 
-                       [1;37m       [0m         [1;30m   [0m       [1m     [0m
-                       [1m      [0m          [1;30m   [0m        [1m    [0m
-                        [1m   [0m           [1;30m     [0m         [1m  [0m
-                              [1m [0m     [1;30m        [0m     [1m [0m 
-
+[1;37m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m
 [1;30m▀  ▀▀▀▀▀▀[0m▀[1;30m▀▀[0m▀▀[1;30m▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀[0m▀▀[1m▀▀[0m▀[1m▀▀▀▀▀▀▀▀▀[0m▀[1m▀▀[0m▀▀[1m▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀[0m▀▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀▀  ▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4d4dc8457c1a8a675c3a135b3887a050fa6c82d79f535d2a9ebb300e991e8eda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FI-SOS.ANS by Future Imperfect ([FEAR]); released in fear1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Synagogue of Satan
 # SAUCE Author: Future Imperfect
 # SAUCE Group: [FEAR]
@@ -38,7 +38,7 @@ Write-Host '
 
       [31m░  ░▒▒█[0;31;41m [0;1;31;41m▒▒[0;1;33;41m▓▒[0;1;33;40m▌▄ [0mS [1;31mY N [0;31mA G O G U E   [0;37mO [0;1;31mF   [0mS [1;31mA T [0;31mA N  [0;1;33m█[0;1;33;41m▒▓[0;1;31;41m▓░░[0;31m▓▒▓ ░    ░[0m
 [31m    ░   ░ ░█▓[0;1;31;41m▒▓[0;1;33;41m▒[0;1;31;41m▓[0;1;33;41m▒[0;1;33;40m█ ■[0m  [1;33;40m·[0m                           [1;33;40m·[0m  [1;33;40m▄  ▄▐[0;1;33;41m▓[0;1;31;41m▓[0;1;33;41m▒[0;1;31;41m▒ ░[0;31m▓░▒ ░░[0m
-[31m ░    ░  ▒▓▒[0;1;31;41m░ ░▓▓[0;1;33;41m▓[0m [1;33;40m▄[0m [1;33;40m∙[0m   [ [31m5 i 9 [0;37m]   [0;31m7 4 5 [0;37m- [0;31m3 3 6 5    [0;1;33m■ █[0;1;33;41m▓[0;1;31;41m▓▒[0;1;33;41m░[0;1;31;41m▒[0;31m▓▒▓ ░   ░  ░   ░[0m
+[31m ░    ░  ▒▓▒[0;1;31;41m░ ░▓▓[0;1;33;41m▓[0m [1;33;40m▄[0m [1;33;40m [0m     [31m      [0;37m    [0;31m      [0;37m  [0;31m           [0;1;33m■ █[0;1;33;41m▓[0;1;31;41m▓▒[0;1;33;41m░[0;1;31;41m▒[0;31m▓▒▓ ░   ░  ░   ░[0m
 [31m    ░  ░░ ▒█▓[0;31;41m [0;1;31;41m▒▒[0;1;33;41m▒▒▓[0m   [1;33;40m■[0m                              [1;33;40m·[0m  [1;33;40m∙[0m [1;33;40m▐[0;1;33;41m▒▓[0;1;31;41m▓░  [0;31m▓▒░▒  ▒ ░[0m
 [31m   ░ ▒░ ▒░▓▒█[0;1;31;41m▒░▒[0;1;33;41m▓▒[0;1;33;40m█■[0m    [1;33;40m·[0m  [33mSysop [0;37m■  [0;1;31mN[0;31megative [0;1;31mC[0;31mreep    [0;1;33m■  ▀ [0;1;33;41m▒[0;1;31;41m▓[0;1;33;41m▒[0;1;31;41m▒ [0;31m▓▓░  ░    ░░ ░[0m
 [31m  ░    ░  ░▒▓[0;31;41m [0;1;31;41m░▓▓[0;1;33;41m▒[0;1;33;40m█  ■[0m     [33mCoSys''s [0;37m■ [0;1;31mFile [0m■ [1;31mN[0;31mecron[0m      [1;33m▄ [0;1;33;41m▓▒▒[0;1;31;41m▓▒░░[0;31m▒▒ ░▒░ ░   ░[0m
@@ -51,7 +51,5 @@ Write-Host '
       [31m░  ░▒▒▓[0;1;31;41m▒▓[0;1;33;41m▒[0;1;31;41m▓[0;1;33;41m▒▓[0m [1;33;40m■[0m   [1;33;40m·[0m       [1;31;40mNUP:  [0;33mXxXxXxX[0m          [1;33m▄  ▐[0;1;33;41m▓[0;1;31;41m▓▒▓░░[0;31m▓▒  ░[0m
 
 [1;30m──═[0m═[[1mF[0muture [1mI[0mmperfect]═[1;30m═────────────────────────────────────────────────────────[0m
-[1;30m                                                                          [0m
-[1;30m                      [0m
-[1;30m                 ■                                     [0m
+[1;30m[0m[1;30m[0m[1;30m                 ■                                     [0m
 [1;30m────────────────────────────────────────────────────────────────────═[0;31m═[[0;1;31mF[0;31mEAR]═[0;1;30m═──[0m'

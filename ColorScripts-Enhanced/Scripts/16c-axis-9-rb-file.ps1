@@ -5,15 +5,12 @@
 # Source SHA-256: a50f6654455481f9965eaf168ed238c353f488d9aa7895d4d6d9e7c82bd7ac04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RB-FILE.ANS by Rabi Li (axis-9); released in axis-9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
-[1m  [0m                                                                           
-                                                                            
-                 
-
+[1m[0m
   [33m░  [0;1;33m▄▄▄▄▄[0m             [1;33m▄▄[0m       [1;33m▄▄▄▄▄[0m       [1;33m▄▄▄▄    ▄▄▄▄▄    ▄▄▄▄▄    ■▄▄▄▄  ▄▓▄[0m
 [1;33m   ▄[0;1;33;43m███[0m [1;33;43m███[0;1;33;40m▄▄  [0;30;43m▀▀[0m   [1;33;40m▄▄[0;1;33;43m███[0;1;33;40m░    ▄███ ███▄  ▄▄▄▄▄███▄▄███ ███▄▄███ ███▄▄▄▄▄▄███▄ ▒[0m
 [1;33;40m  ▐█[0;1;33;43m███[0m [1;33;43m███[0;1;33;40m▀[0;30;43m▀[0;1;33;43m▄▄█▓▄[0;30;43m▀[0;1;33;40m▀[0;1;33;43m█████[0m [1;33;40m▄▄██████ ████▌▐████ ████████ ████████ ████████ ████▌░[0m

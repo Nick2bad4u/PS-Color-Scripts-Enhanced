@@ -5,7 +5,7 @@
 # Source SHA-256: 59a533affb4b7609c0580cd55f67f28a3236f79e3e84c6b3e89e96acbcb059b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-green.ans by Meatpod (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -30,7 +30,6 @@ Write-Host '
 [37m [0;1;37m [0m ```[1m [0m;[1m$$$$$$$[0m;[1m [0m```  [1m [0m    [1mo [0myour options          `[1m""[0m`,[1md$$[0m [32m|[0;37m  [0;1;32m$$$[0m [32m`[0;1;32m$$$$[0;32m┘`[0;37m,[0;1;32m [0;32m`[0;1;32m  [0m
 [1;30m       [0m `[1m└?$P┘[0m''            [1mo [0myour options             [1m $$$$[0m [32m|___[0;1;32m [0m  [32m;[0;1;32m$$$[0;32ml[0;1;32m [0m;[1m$[0;1;32m [0;32m___[0m
          [1;37m     [0m             [1mo [0myour options             [32m [0;37m`*[0;1;37m$$[0m__[32m ;$ [0;37m  [0;1;32m ?$$$[0;32m,.[0;37m`[0;1;32m $$$[0m
-  [1;30m              [0m                                        [32m   [0;1;37m  [0;32m     [0;37m [0;1;32m            [0m
- [1;30mdark tonight.. . [0m                                              [32m`└*┐,.[0;37m [0;1;32m [0;32m`^└┴[0;1;32m$$$[0m
+[1;30m[0m[32m[0;1;37m[0;32m[0;37m[0;1;32m[0m [1;30mdark tonight.. . [0m                                              [32m`└*┐,.[0;37m [0;1;32m [0;32m`^└┴[0;1;32m$$$[0m
            [1;30m      [0m                                                   [32m `._[0;37m [0;32m     [0;1;32m [0m
 [cut here]-8X-------------------------------------------------------------------[0m'

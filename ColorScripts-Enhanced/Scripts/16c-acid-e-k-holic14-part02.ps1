@@ -5,7 +5,7 @@
 # Source SHA-256: 508f21c09942a57b4a8330f3074ec7ffd5143439c54f2785b00da3c560a36d3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HOLIC14.ANS by The Malevolent Trickster (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 39-72
 # Columns: 1-80
 
@@ -41,6 +41,4 @@ Write-Host '
       [1;31;45m░░[0;1;35;45m░▒▓[0;1;35;40m▄    [0;35m▀[0;1;31;45m▒▒░░[0;35m▌  ▀[0;1;31;45m░[0;35m▀[0;1;35m▄[0;1;35;45m▓▒░[0;1;31;45m░░▒▒[0;35m▀  [0;1;31;45m░▒▒░░░░░[0;1;35;45m░░░[0;35m▀▀▀[0;1;35m▀▀  [0;1;31;45m░░[0;1;35;45m░▒▓[0;1;35;40m▄    [0;35m▀[0;1;31;45m▒░░ [0;1;35;45m░░▒[0;1;35;40m▀[0m
        [35m▀▀▀▀[0m       [35m▀▀▀[0m       [1;35m▀▀▀[0;35m▀▀▀[0m     [35m▀▀▀▀▀▀[0m            [35m▀▀[0;1;35m▀▀[0m       [35m▀▀▀▀▀[0m
 [35m [0;1;30m─ ── ─── ──── ───────────[0m───[1m──── B[0;1;33mB[0;1;35mS[0;35m-A-Ho[0;1;35ml[0;1;33mi[0;1;37mc ────[0m───[1;30m─────────── ──── ─── ── ─[0m
-                  [1;31m [0;1;37m [0;1;34m [0;1;33m [0;1;32m [0;32m   [0;37m [0;1;37m       [0m [1m [0m       [1;31m [0;1;33m [0;1;32m [0;1;34m  [0;1;35m    [0;35m  [0;1;35m [0;35m [0m
-          [1;36m [0;1;37m   [0;1;36m [0;36m [0;1;34m     [0;1;30m [0m [1m      [0;1;33m [0;1;35m      [0;1;36m [0;36m  [0;1;36m [0;36m   [0;32m [0;1;32m [0;1;33m    [0;1;37m     [0;1;33m [0;1;31m [0;31m [0;1;37m [0;1;33m [0;1;31m [0;31m [0;1;37m [0;1;33m [0;1;31m  [0m
-[1;31m [0;1;30m─ ── ─── ──── ───────────────────────────────────────────────── ──── ─── ── ─[0m'
+[1;31m[0;1;37m[0;1;34m[0;1;33m[0;1;32m[0;32m[0;37m[0;1;37m[0m[1m[0m[1;31m[0;1;33m[0;1;32m[0;1;34m[0;1;35m[0;35m[0;1;35m[0;35m[0m[1;36m[0;1;37m[0;1;36m[0;36m[0;1;34m[0;1;30m[0m[1m[0;1;33m[0;1;35m[0;1;36m[0;36m[0;1;36m[0;36m[0;32m[0;1;32m[0;1;33m[0;1;37m[0;1;33m[0;1;31m[0;31m[0;1;37m[0;1;33m[0;1;31m[0;31m[0;1;37m[0;1;33m[0;1;31m[0m[1;31m [0;1;30m─ ── ─── ──── ───────────────────────────────────────────────── ──── ─── ── ─[0m'

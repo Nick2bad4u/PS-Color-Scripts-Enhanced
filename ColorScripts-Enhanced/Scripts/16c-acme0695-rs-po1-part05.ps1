@@ -5,7 +5,7 @@
 # Source SHA-256: f73be9f7fe21cc92607ddd707cfd5a86956ee83e330919530402f90d1e4de1ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS!PO1.ANS by rusty! (acme!); released in acme0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: point omega!
 # SAUCE Author: rusty!
 # SAUCE Group: acme!
@@ -32,15 +32,4 @@ Write-Host '
 
 
 
-                          [31m [0;37m  [0;31m  [0;1;37m [0;1;31m [0;31m             [0;1;31m [0;1;37m [0m
-                        [1m  [0m [31m [0;1;37m [0;1;31m [0m [31m      [0;37m [0;31m          [0;37m [0;1;31m [0;1;37m [0m [1m  [0m
-                             [1m≡[0;1;31m≡[0;31m 96oo-144oo[0;37m [0;31mbaud[0;37m [0;1;31m≡[0;1;37m≡[0m
-                     [31m      [0m     [1;37m [0;1;31m [0;31m          [0;1;31m [0;1;37m [0;31m  [0m
-                              [1;37m [0;1;31m [0m [31m             [0;37m [0;1;31m [0;1;37m [0m
-                               [1m [0;1;31m [0m [31m           [0;37m [0;1;31m [0;1;37m [0m
-                            [1m [0;1;31m  [0;31m                 [0;37m [0;1;31m [0;1;37m [0m
-                          [1m [0;1;31m [0;31m          [0;37m [0;31m     [0;37m [0;1;31m [0;1;37m [0m
-                        [1m [0;1;31m [0m [31m                       [0;1;31m [0;1;37m [0m
-                         [1;31m [0m        [1m [0;1;31m [0m [31m               [0;37m [0;1;31m [0;1;37m [0m
-                             [31m [0;1;37m [0;1;31m [0;31m             [0;37m [0;1;31m [0;1;37m [0m
-                          [31m    [0;1;37m≡[0;1;31m≡[0m [31m2i5.536.6447[0;37m [0;1;31m≡[0;1;37m≡[0m'
+[31m[0;37m[0;31m[0;1;37m[0;1;31m[0;31m[0;1;31m[0;1;37m[0m[1m[0m[31m[0;1;37m[0;1;31m[0m[31m[0;37m[0;31m[0;37m[0;1;31m[0;1;37m[0m[1m[0m                             [1m≡[0;1;31m≡[0;31m 96oo-144oo[0;37m [0;31mbaud[0;37m [0;1;31m≡[0;1;37m≡[0m[31m[0m[1;37m[0;1;31m[0;31m[0;1;31m[0;1;37m[0;31m[0m[1;37m[0;1;31m[0m[31m[0;37m[0;1;31m[0;1;37m[0m[1m[0;1;31m[0m[31m[0;37m[0;1;31m[0;1;37m[0m[1m[0;1;31m[0;31m[0;37m[0;1;31m[0;1;37m[0m[1m[0;1;31m[0;31m[0;37m[0;31m[0;37m[0;1;31m[0;1;37m[0m[1m[0;1;31m[0m[31m[0;1;31m[0;1;37m[0m[1;31m[0m[1m[0;1;31m[0m[31m[0;37m[0;1;31m[0;1;37m[0m[31m[0;1;37m[0;1;31m[0;31m[0;37m[0;1;31m[0;1;37m[0m[31m[0;1;37m[0;1;31m[0m[31m[0;37m[0;1;31m[0;1;37m[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8f71c74698aa27adafca50501c49dea5f4f961af012d07e4cd5d356ebbfec7ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ!STATE.ANS by ize (fusion); released in fsn-1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: stateofart
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -56,11 +56,7 @@ Write-Host '
               [1;30m               [0m▀▄[1;30m [0m▀█▄█▀[1;30m [0m▀[1;31;47m▒[0;1;31;40m▄[0;1;31;47m█[0;1;31;40m▀[0;1;30;40m [0m▀█[1;30m [0m█▀[1;30m [0m▄▀
 [1;30m               [0m                ▀■▄▄▄■▀[1;31m■▄▄▄■▀[0m■[1;31m▄[0m▄▄■▀
                [1;30m  [0m
-                              [1;31m    [0m [1;31m [0m   [1;31m [0m    [1;31m       [0m
-                             [1;31m    [0m [1;31m [0m    [1;31m [0m [1;31m [0m    [1;31m [0m [1;31m    [0m
-                             [1;31m      [0m   [1;31m [0m   [1;31m [0m   [1;31m [0m [1;31m    [0m           [1;30m [0m
-                                [1;31m    [0m [1;31m [0m     [1;31m [0m [1;31m    [0m         [1;30m            [0m
-                       [1;30m    [0m                             [1;30m [0m  [1;30m [0m
+[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;30m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;30m[0m                       [1;30m    [0m                             [1;30m [0m  [1;30m [0m
                        [1;30m.▬■▄ [0m                          [1;30m▄■▬.[0m
                        [1;30m    ▌           ▬             ▐    [0m
                        [1;30m.▬■▀[0m                          [1;30m ▀■▬.[0m'

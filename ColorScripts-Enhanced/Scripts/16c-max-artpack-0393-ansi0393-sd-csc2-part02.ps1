@@ -5,7 +5,7 @@
 # Source SHA-256: 6cf457f96be18e58dd4f891036a9e2bf02c160431b56baf0db8f0f96d6cec985
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-CSC2.ANS by Snow Dog (max_artpack_0393-ansi0393); released in max_artpack_0393-ansi0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 31-52
 # Columns: 1-80
 
@@ -23,11 +23,8 @@ Write-Host '
 [1;37m ████████████████▄[0m     [1;37m█████████▄[0m     [1;37m▄▄███████████████▄[0m     [1;37m█████████████████[0m
 [1;37m ███████████████████▄▄████████████▄▄██████████████████████▄▄██████████████████[0m
 [1;37m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                          [1;37m [0m    [1m [0m    [1m [0m             [1m    [0m
-[1m [0;1;30m·[0;32m-[0;1;32m=[0;1;37m■    C [0;1;30mO N S P I R A C Y   O F   [0;1;37mS [0;1;30mI L E N C E   [0;1;37mC [0;1;30mR E W   [0;32m1 [0;1;32m9 [0;1;36m9 [0;36m3    [0;1;37m■[0;1;32m=[0;32m-[0;1;30m·[0m
+[1;37m[0m[1m[0m[1m[0m[1m[0m[1m [0;1;30m·[0;32m-[0;1;32m=[0;1;37m■    C [0;1;30mO N S P I R A C Y   O F   [0;1;37mS [0;1;30mI L E N C E   [0;1;37mC [0;1;30mR E W   [0;32m1 [0;1;32m9 [0;1;36m9 [0;36m3    [0;1;37m■[0;1;32m=[0;32m-[0;1;30m·[0m
 
-[1;30m  [0;34m [0;1;30m        [0;34m [0;1;30m    [0;34m   [0;1;30m          [0;34m [0;1;30m        [0;34m [0;1;30m    [0;34m [0;1;30m           [0;34m [0;1;30m  [0;34m [0;1;30m   [0;34m [0;1;30m     [0;34m [0;1;30m  [0;34m [0;1;30m     [0m
-[1;30m  [0;1;34m [0;1;30m       [0;1;34m [0;1;30m   [0;1;34m [0;1;30m      [0;1;34m [0;1;30m   [0;1;34m [0;1;30m          [0;1;34m [0;1;30m   [0;1;34m [0;1;30m   [0;1;34m [0;1;30m      [0;1;34m [0;1;30m    [0;1;34m [0;1;30m      [0;1;34m [0;1;30m  [0;1;34m [0;1;30m   [0;1;34m [0;1;30m      [0m
-                         [1;30m┌┐┌┐┌┐┬┬┬ ┬┐┌┐┌┐   ┬┬┐┌┐┬ ┬[0m
+[1;30m[0;34m[0;1;30m[0;34m[0;1;30m[0;34m[0;1;30m[0;34m[0;1;30m[0;34m[0;1;30m[0;34m[0;1;30m[0;34m[0;1;30m[0;34m[0;1;30m[0;34m[0;1;30m[0;34m[0;1;30m[0;34m[0;1;30m[0m[1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0m                         [1;30m┌┐┌┐┌┐┬┬┬ ┬┐┌┐┌┐   ┬┬┐┌┐┬ ┬[0m
              [1;30m░▒▓█[0;1;30;47m▓▒░ [0;1;37;47m░▒▓[0;1;37;40m█└┐│││││││ │││││┬ ■ │││├┤ X ''93█[0;1;37;47m▓▒░ [0;1;30;47m░▒▓█[0;1;30;40m▓▒░[0m
                          [1;30;40m└┘┴┴└┘└┴┘ ┴┘└┘└┘   ┴┴┴┴┴┴ ┴[0m'

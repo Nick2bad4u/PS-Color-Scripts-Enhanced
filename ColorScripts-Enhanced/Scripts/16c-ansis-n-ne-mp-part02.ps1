@@ -5,7 +5,7 @@
 # Source SHA-256: 9385dc477e298adaf28d09a0e6f65c9cb69ced8de2fd346e5c424eec1ac6c2d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NE-MP.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 44-66
 # Columns: 1-80
 
@@ -25,10 +25,4 @@ Write-Host '
                [34m▀█[0m             [34m▀█    ███    ▀▀▀▀▀▀▀▀▀ ███[0m
                                                      [34m█▀[0m
 
-                          [36m [0;1;36m   [0;36m [0;1;36m         [0;36m [0;1;36m      [0m
-                      [36m [0;1;36m   [0;36m [0;1;36m   [0;36m [0;1;36m   [0;36m [0;1;36m   [0;36m [0;1;36m        [0;36m [0;1;36m   [0m
-                      [36m [0;1;36m   [0;36m [0;1;36m   [0;36m [0;1;36m  [0;36m [0;1;36m     ╪ [0;36m [0;1;36m     [0;36m [0;1;36m   [0m
-                           [36m [0;1;36m        [0;36m [0;1;36m      [0;36m [0;1;36m  [0m
-                             [36m [0;1;36m   [0;36m [0;1;36m    [0;36m [0;1;36m     [0m
-                             [36m [0;1;36m      [0;36m [0;1;36m       [0m
-                              [1;36m([0;36m5[0;1;36m03)[0;36m2[0;1;36m88-[0;36m2[0;1;36m538[0m'
+[36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m[36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m                      [36m [0;1;36m   [0;36m [0;1;36m   [0;36m [0;1;36m  [0;36m [0;1;36m     ╪ [0;36m [0;1;36m     [0;36m [0;1;36m   [0m[36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m[36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m[36m[0;1;36m[0;36m[0;1;36m[0m[1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m'

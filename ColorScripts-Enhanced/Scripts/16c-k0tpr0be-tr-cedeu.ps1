@@ -5,7 +5,7 @@
 # Source SHA-256: 1cd4d85445937846a8919faf8f3a0e2496d8b1489f7380fffbb06fd42b856a6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-CEDEU.ANS by trate (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: drink the light in colors
 # SAUCE Author: trate
 # SAUCE Group: fbk
@@ -44,22 +44,8 @@ theory:                           [1;30m▄▄▄▄▄▄▄▄█[0m [32m �
 all these non                       [1;30m▀▀▀▀▀▀▀▀▀[0m                 [1;30m│[0m
                                                               [1;30m│[0m
                                                               [1;30m└ [0m          
-                                                                          
-                                                                             
-                                                                            
-                                                                             
- [1;30m                                     [0m                                         
-                                                                         
-                                                                           
-                    
-              
-              
-             
-
+[1;30m[0m
 blaaa...
 
-[1;35m                        [0m
-            
-
-                      
+[1;35m[0m
                ^-- coden[0m'

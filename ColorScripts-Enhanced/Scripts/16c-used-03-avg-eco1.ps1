@@ -5,7 +5,7 @@
 # Source SHA-256: 1891aae12a7b07ab39bcb89ec6ce89d80d24c234e53ccd0f6aa748940b2140e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-ECO1.ANS by avenging angel (the used coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: yo momo
 # SAUCE Author: avenging angel
 # SAUCE Group: the used coalition
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-   [1m    [0m
-           [1m  [0m
+[1m[0m           [1m  [0m
            [1m [0m
              [1m   [0m
 ░      ▄[1m▄▄▄[0m▄[1m  [0m░[30;47m▓[0;1;37;40m [0m [1;30m  [0m   [1m    [0m   ▄[1m▄▄▄[0m▄                                 ▄[1m▄▄▄▄[0m▄    ░

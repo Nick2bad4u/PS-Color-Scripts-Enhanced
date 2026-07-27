@@ -5,7 +5,7 @@
 # Source SHA-256: 16f94a9ca64b8ae4c67b3ec797fa87ff60c0f84b962ead77e4b8c2f09e309d16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NF-DEEP.ANS by necro (RBBS / FIRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Deep deep v2
 # SAUCE Author: necro
 # SAUCE Group: RBBS / FIRE
@@ -43,14 +43,4 @@ Write-Host '
                                  [1;33m▄▄[0;33m  [0;1;33;43m▓[0;1;33;40m▄[0;33m▄▄[0;1;30;46m▓[0;33m  [0;36m▄[0;1;30m▄[0m
                               [1m▌[0;33m    [0;1;33m▀▄[0;33m [0;1;33;43m▓[0;33m▄[0;1;30;46m▓[0;33m [0;1;30m▄▀[0;33m    [0;1;33m▐[0m
                              [1;33m▄[0;1;33;43m▓[0;1;33;40m▄[0;33m [0;1;37m▄[0;1;33m▄▄[0;33m▄[0;1;33m▀▄▄[0;33m▄[0;1;30m▀▄▄▄[0;33m▄ [0;1;33m▄[0;36;43m▒[0;1;30;40m▄[0m
-                            [1m▀[0;33m▀[0;1;30;46m▓[0;33m▀▀▀[0;1;30m▀▀▀▀▐▐▌▀▀▀▀▀▀▀[0;1;30;46m▓[0;1;30;40m▀▀[0m
-
-
-
-
-
-
-
-
-
-[1;30;40m------------------------------------------------------------------necro-2024----[0m'
+                            [1m▀[0;33m▀[0;1;30;46m▓[0;33m▀▀▀[0;1;30m▀▀▀▀▐▐▌▀▀▀▀▀▀▀[0;1;30;46m▓[0;1;30;40m▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1c58f7778e4faf22655b3281722c91a8e3ecface69e1803c8fcd9d0a5f1e0b8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-RE.ANS by Phorce Phed (ls-0394); released in ls-0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 47-96
 # Columns: 1-80
 
@@ -49,14 +49,6 @@ Write-Host '
 
                                   [1;31m6i[0;31m6·384·22[0;35mi7[0m
 
-                                [1;31m  [0;31m            [0;35m  [0m
-                               [1;31m  [0;31m              [0;35m  [0m
-                      [1;31m  [0;31m                                [0;35m  [0m
-                                [1;31m  [0;31m              [0m
-                                  [1;31m  [0;31m        [0;35m  [0m
-                                  [1;31m  [0;31m       [0;35m  [0m
-                                    [1;31m  [0;31m    [0;35m  [0m
-                                    [1;31m   [0;31m   [0;35m  [0m
-
+[1;31m[0;31m[0;35m[0m[1;31m[0;31m[0;35m[0m[1;31m[0;31m[0;35m[0m[1;31m[0;31m[0m[1;31m[0;31m[0;35m[0m[1;31m[0;31m[0;35m[0m[1;31m[0;31m[0;35m[0m[1;31m[0;31m[0;35m[0m
 
                     [34m [0;1;34m [0;34m  [0;1;37m [0m [1;30m       [0m [1m  [0;34m [0;1;37m└[0;32m [0;1;32m [0;32m [0;1;37m   [0;32m [0;1;32m   [0;32m [0;1;37m [0;34m     [0;1;34m   [0;34m  [0m'

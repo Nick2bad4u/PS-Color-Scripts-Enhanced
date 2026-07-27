@@ -5,7 +5,7 @@
 # Source SHA-256: 12aae178ee061d58b30da1a4e22dd36fb38aa73cf240e5802b9db3aab2c8bddd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: $H-APLYR.ANS by Shinigami (.%.AXss.%. -97); released in axss-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: New user Ansi thingy...
 # SAUCE Author: Shinigami
 # SAUCE Group: .%.AXss.%. -97
@@ -40,12 +40,7 @@ Write-Host '
 [1;30m▀[0m     [1;30m▓[0m     [1;30m▀[0m       [1;30m■[0m      [1;30m▀[0m       [1;30m▓▒░[0m         [1;30m▀▀[0m      [1;30m█[0m       [1;30m█▓[0m     [1;30m■[0m    [1;30m▀[0m  [1;30m█[0m
 
 [1;30m─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-[0m
-  [1;34m [0;1;32m   [0;1;34m   [0;1;32m                      [0m         [1;34m [0;1;32m [0;1;34m   [0;1;32m              [0m              [1;34m [0;1;32m   [0;1;5;32m [0m
-[1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
+[1;34m[0;1;32m[0;1;34m[0;1;32m[0m[1;34m[0;1;32m[0;1;34m[0;1;32m[0m[1;34m[0;1;32m[0;1;5;32m[0m[1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
 
-  [1;32m                                                                     [0m
-  [1;32m                              [0m
-  [1;32m                                  [0m
-
-  [1;32m                               [0m
-                                                            [1;32m$ h í ∩ í Ç /┤ m ì[0m'
+[1;32m[0m[1;32m[0m[1;32m[0m
+[1;32m[0m                                                            [1;32m$ h í ∩ í Ç /┤ m ì[0m'

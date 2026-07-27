@@ -5,14 +5,12 @@
 # Source SHA-256: 434327fd0764c2a2b033ca5bfcee55746a69453f4ecd9272df6fdcdce2a78d30
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FILEM.ANS by Amroth (am-sgore); released in am-sgore and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
- [31m [0;1;30m [0;1;37m          [0m                                                    [31m [0;1;30m [0;1;37m            [0m
- [31m [0;1;30m [0;1;37m         [0m                                                     [31m [0;1;30m [0;1;37m           [0m
- [31m [0;1;30m [0;1;37m       [0m                           [31m▀▄    ▀[0m                    [37m [0;31m [0;1;30m [0;1;37m          [0m
+[31m[0;1;30m[0;1;37m[0m[31m[0;1;30m[0;1;37m[0m[31m[0;1;30m[0;1;37m[0m[31m[0;1;30m[0;1;37m[0m [31m [0;1;30m [0;1;37m       [0m                           [31m▀▄    ▀[0m                    [37m [0;31m [0;1;30m [0;1;37m          [0m
 ([31mE[0;1;30m)[0;1;37mdit Uploads[0m                  [31m▄▄██▀▀ ▄▄   ▒▒[0m                  [37m([0;31mU[0;1;30m)[0;1;37mpload File[0m
 ([31mG[0;1;30m)[0;1;37moodbye[0m                    [1;30m▄[0;31m▀[0;1;30m▓▓▓ [0;31m▀▄██▌▀▀▀█▄▓▓  [0;1;30m▒▒[0m             ([31mV[0;1;30m)[0;1;37miew Archive[0m
 ([31mI[0;1;30m)[0;1;37mGenerate Listing[0m         [1;30m███▀ [0;31m▄ [0;1;31;41m▒▒[0;31m▀ ▒    █▀  [0;1;30m▄▄ █[0m            ([31mX[0;1;30m)[0;1;37mRequest List[0m

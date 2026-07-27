@@ -5,7 +5,7 @@
 # Source SHA-256: 5b71e34f15d2f0ae94293f1b8ce3aaef66d766176e50dc29b3ab2d16abc20f4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sm-raidersinc.ans by Smooth (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Raider's Inc BBS
 # SAUCE Author: Smooth
 # SAUCE Group: Fuel
@@ -18,7 +18,7 @@
 Write-Host '
   [47m█   [0;40m▀[0;47m      [0;31;47mRaider''s Inc BBS[0;37;47m  [0;30;47m▀[0;37;47m  [0;37;40m▄[0;1;30;47m▒▒░░[0;47m              [0;32;47m▒▓▓▄▄▄[0;37;47m               [0;33;47m▓▓▓[0;37;47m [0m
  █▀[47m [0;40m▀▀▀ ▀▀▀[0;47m [0;30;47m Sysop: cr1mson <phenom>[0;37;47m              [0;32;47m▀▀██▀▀[0;37;47m               [0;33;47m▒▒▓▓[0;37;47m  [0;37;40m▀[0m
-     [37;40m▄▄▄[0;37;47m     [0;30;47mtelnet: vintagebbsing.com [0;37;47m                              [0;33;47m▒▒▒▓▓▓▓██[0;37;47m█[0m
+     [37;40m▄▄▄[0;37;47m     [0;30;47m                          [0;37;47m                              [0;33;47m▒▒▒▓▓▓▓██[0;37;47m█[0m
   ░▒[47m         [0;30;47mport: 23[0;37;47m              [0;30;47m▄▄▄[0;37;47m          [0;31;47m▒░░[0;37;47m      [0;31;47m▄▓▒░[0;37;47m        [0;33;47m░[0;37;47m [0;33;47m░[0;37;47m [0;33;47m░[0;37;47m [0;33;47m██▀[0;37;47m█[0m
   ▒▓[47m     [0;33;47m░░░░░[0;37;47m  [0;33;47m░[0;37;47m            [0;30;47m▒▄█▒[0;37;47m  [0;30;47m▀▀[0;37;47m [0;30;47m▒▀█▄[0;37;47m     [0;31;47m▄█▓▒▒[0;37;47m   [0;31;47m▄▄███[0;37;47m        [0;33;47m░░░[0;37;47m [0;33;47m░[0;37;47m     [0;1;30;40m▀[0m
   ▓[47m      [0;33;47m▄▄██▓▓░░[0;37;47m            [0;30;47m▀▀[0;37;47m       [0;30;47m░▒[0;37;47m  [0;30;47m▄▄[0;37;47m  [0;31;47m▀▀███▄[0;37;47m [0;31;47m▄██▀▀[0;37;47m               [0;30;47m▀▀[0m

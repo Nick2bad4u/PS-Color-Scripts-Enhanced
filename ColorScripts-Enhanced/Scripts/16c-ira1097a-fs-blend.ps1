@@ -5,7 +5,7 @@
 # Source SHA-256: 03c90d66807eca0e8b16ef4238ddba408b434ac36e1367e04a50dedd1d779ecc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-BLEND.ANS by Flying Squirrel (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Virtual Blender.
 # SAUCE Author: Flying Squirrel
 # SAUCE Group: Irato
@@ -35,6 +35,5 @@ Write-Host '
  ▄ [1;30m░▒[0m    [1;30m ---+|---[0m [1;30m·[0m · [1m·[0;1;30m v i r t u a l [0;1;37m·[0;1;30m b l e n d e r[0m [1m·[0m · [1;30m·[0m [1;30m|----+[0m  [1;30m [0m  [1;30m▄░▄[0m   ▄
          [1;30m  [0m                                                           [1;30m [0m  [1;30m▀[0m   [1;30m [0m
 [1;30m █[0;1;37m [0m           [1;30m         [0m [1;30m                       [0m [1;30m                 [0m  [1;30m          [0m [1;30m█[0m
-[1;30m [0m      [1;30m                    [0m [1;30m          [0m [1;30m       [0m [1;30m    [0m [1;30m         [0m [1;30m           [0m
- ▀ [1;30m [0m          [1;30m                [0m [1;30m         [0m   [1;30m        [0m [1;30m            [0m              ▀
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m ▀ [1;30m [0m          [1;30m                [0m [1;30m         [0m   [1;30m        [0m [1;30m            [0m              ▀
 [1;30m [0;1;37m▄[0;1;30m ! [0m▄ [1;30m ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄  [0m▄ [1;30m  [0;1;37m▄▄▄[0;1;30m  [0m ▄[1;30m  ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄[0m  ▄   [1m▄[0m'

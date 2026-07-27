@@ -5,7 +5,7 @@
 # Source SHA-256: 2f119d50b66985e40b9158a5ef3df7e3f52bbbfd7482e9d1bc542b92fb09f1b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EL-SLIME.ANS by elendeil (RCA); released in rca-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sublime
 # SAUCE Author: elendeil
 # SAUCE Group: RCA
@@ -18,8 +18,7 @@ Write-Host '
 
 
 [1;30m───────────────────────────────────────────────── ▓ ───────────[0m [1;30m▓[0m [1;30m──────────────[0m
-[33m      [0;1;30m                                                                          [0m
-[1;30m───────────────────────────────┐[0m [1;30m│││[0m [1;30m┌───────────[0m [1;30m▓[0m [1;30m───────────[0m [1;30m▓[0m [1;30m──────────────[0m
+[33m[0;1;30m[0m[1;30m───────────────────────────────┐[0m [1;30m│││[0m [1;30m┌───────────[0m [1;30m▓[0m [1;30m───────────[0m [1;30m▓[0m [1;30m──────────────[0m
 [1;30mrca.▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m        [1;30m▄▄▄▄▄▄▄▄▄▄▄█[0m           [1;30m  █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30m█████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;33m███[0;37m [0;33m███[0;37m [0;1;30m███▀▀▀▀▀▀███[0m [33m███▀███▀██▄[0;1;30m ████████████████[0m
 [1;30m██████████████▀[0m [33m▄▄████[0;37m [0;33m▀▀▀███[0;37m [0;1;30m [0;1;30;43m░ [0;33m█[0;37m [0;33m███▄▄▄▄[0;37m [0;33m▀██[0;1;30;43m░[0m [1;30m▀▀▀[0m [33m██[0;1;30;43m░[0;33m ███[0;37m [0;33m███[0;37m [0;1;30m████████████████[0m
@@ -33,5 +32,4 @@ Write-Host '
 [1;30m███████████████████████████████████████████▄▄▄▄▄▄▄▄[0m [1;33m▀▀▀▀▀▀▀▀▀[0m [1;32m▀[0m [1;30m████████████████[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m su b l i me [1;30m█▀▀▀▀▀▀▀▀▀▀[0;33m [0;1;30mrca.[0m
 [1;30m────────────[0m [1;30mquickie [0;33msublime[0;1;30m logo by elendil·rca! ▓[0m [1;30m───────────[0m [1;30m▓[0m [1;30m──────────────[0m
-[1;30m                                                             [0;33m       [0;1;30m            [0m
-[1;30m─────────────────────────────────────────────────[0m [1;30m▓ ─────────── ▓[0m [1;30m──────────────[0m'
+[1;30m[0;33m[0;1;30m[0m[1;30m─────────────────────────────────────────────────[0m [1;30m▓ ─────────── ▓[0m [1;30m──────────────[0m'

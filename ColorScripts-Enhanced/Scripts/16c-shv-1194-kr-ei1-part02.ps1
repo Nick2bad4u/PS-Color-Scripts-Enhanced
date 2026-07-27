@@ -5,7 +5,7 @@
 # Source SHA-256: 1cbe6c819daad6bc90204706737bf07a2b7212bd27c1ce88fa6cad4d31956ed8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KR-EI1.ANS by KillRaven (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Evil Intentions
 # SAUCE Author: KillRaven
 # SAUCE Group: Shiver
@@ -27,7 +27,7 @@ Write-Host '
  █[1;47m▒[0m█   █[1;47m▒[0m█ ▐[1;47m▒[0m█    █[1;47m▒[0m█     █[1;47m▒[0m█▄ ▄  █[1;47m▒[0m█ ▐[1;47m▒[0m█    █[1;47m▒[0m█     █[1;47m▒[0m█  █[1;47m▒[0m▌ ▐[1;47m▒[0m█  █[1;47m▒[0m█ ▐[1;47m▒[0m█  ▀█[1;47m▒[0m▌
  █[1;47m▓[0m█▀  █[1;47m▓[0m█ ▐[1;47m▓[0m█▀   █[1;47m▓[0m█▀   ▀█[1;47m▓[0m█▄▄█▀ █[1;47m▓[0m█ ▐[1;47m▓[0m█▀   █[1;47m▓[0m█▀    █[1;47m▓[0m█▀ ▀[1;47m▓[0m█▄█[1;47m▓[0m▀  █[1;47m▓[0m█ ▐[1;47m▓[0m█▀  █[1;47m▓[0m▀
 ▀▀ [1;30m── [0m▀▀ [1;30m─ [0m▀ [1;30m─── [0m▀▀ [1;30m──── [0m▀▀ [1;30m─ [0m▀  ▀▀ [1;30m─ [0m▀ [1;30m─── [0m▀▀ [1;30m──── [0m▀▀ [1;30m────── [0m▀ [1;30m─ [0m▀▀ [1;30m─ [0m▀ [1;30m── [0m▀▀ [1;30m─[0m
-[1;30m░ [0;1;37me   v   i   l[0m       [1;37mi   n   t   e   n   t   i   o   n   s   [0;1;30m■   [0m408[1;30m.[0m251[1;30m.[0m6220 [1;30m░[0m
+[1;30m░ [0;1;37m             [0m       [1;37m                                        [0;1;30m■   [0m   [1;30m [0m   [1;30m [0m     [1;30m░[0m
 [1;30m░ ┌---[0m                                                                    [1;30m--─┐ ░[0m
 [1;30m░    [0m     [1;30m  [0m         [1;30m■ [0m  [1;30m [0m [1;30m  [0m            [1;30m  [0m        [1;30m  [0m             [1;30m  [0m         [1;30m  ░[0m
 [1;30m░  [0m                [1;30m■ [0m            [1;30m■ [0m              [1;30m■ [0m            [1;30m■ [0m              [1;30m░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: cdc07afef5dbeabbe06e87c2a093dd2970e52680555b0547ca14a74fc2683f51
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-DEBRI.ANS by Proctosomething (SeNSE); released in sense10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Debris
 # SAUCE Author: Proctosomething
 # SAUCE Group: SeNSE
@@ -40,6 +40,5 @@ Write-Host '
 [37m [0;1;35m∙.[0m                                                                [1;35m_.*╜ⁿ[0;35m"^`[0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30m                    [0m
-                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
+[1;30m[0m                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

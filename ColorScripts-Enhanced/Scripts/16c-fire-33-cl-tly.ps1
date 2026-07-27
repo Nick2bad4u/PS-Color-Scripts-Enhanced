@@ -5,7 +5,7 @@
 # Source SHA-256: 57b8946763639cc0e0925d0ccb9ed19009fb43a2c1a36d19ae298e6419c54f52
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-TLY.ANS by cLEANEr (fIRe); released in fire-33 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: tRILOXY^LOGo
 # SAUCE Author: cLEANEr
 # SAUCE Group: fIRe
@@ -39,4 +39,4 @@ Write-Host '
                     [32m![0;1;32;42m$[0;32mt┘~[0m                       [32m [0m   [32m [0;37m  [0;1;37m~[0;32m°└t[0;1;32;42m$[0;1;32;40m$$$$[0;32m$l[0m
                     [1;37m└[0;32m~[0m                                   [32m [0;37m  [0;32m~°[0;1;37m└[0;32mt[0;1;37;42m$[0;32m![0m
                                                                  [32m~[0m
-[1;30m─[0m∙[1;30m-[0m─[36m[[0;1;37mt[0mRILOX[1mY[0;36m^[0;1;37mL[0mOG[1mo[0;36m][0;1;30m─[0m─[1;30m∙[0m─[36m[[0;1;37mm[0mY[36m^[0;1;37me[0mMAI[1mL[0;36m:^[0;1;37mc[0mLEANE[1mR[0;36m@[0;1;37mC[0mHE[1mZ[0;36m.[0;1;37mC[0mO[1mm[0;36m][0;37m∙─[0;1;30m-─[0;36m[[0;1;37m1[0m5[36m/[0;37m0[0;1;37m3[0;36m/[0;37m9[0;1;37m8[0;36m][0;1;30m─[0m∙[1;30m─[0m─[36m[[0;1;37m2[0m0[36m:[0;37m2[0;1;37m2[0;36m][0;37m─[0;1;30m─[0m∙[1;30m-[0m'
+[1;30m─[0m [1;30m [0m─[36m [0;1;37m [0m     [1m [0;36m [0;1;37m [0m  [1m [0;36m [0;1;30m─[0m─[1;30m [0m─[36m [0;1;37m [0m [36m [0;1;37m [0m   [1m [0;36m  [0;1;37m [0m     [1m [0;36m [0;1;37m [0m  [1m [0;36m [0;1;37m [0m [1m [0;36m [0;37m ─[0;1;30m ─[0;36m [0;1;37m [0m [36m [0;37m [0;1;37m [0;36m [0;37m [0;1;37m [0;36m [0;1;30m─[0m [1;30m─[0m─[36m [0;1;37m [0m [36m [0;37m [0;1;37m [0;36m [0;37m─[0;1;30m─[0m [1;30m [0m'

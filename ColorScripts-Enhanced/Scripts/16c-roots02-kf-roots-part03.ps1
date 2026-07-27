@@ -5,7 +5,7 @@
 # Source SHA-256: 48d9da7079c5fbcef2146532ec4f7081513f3e6f944e9f97d4eb10fd4a03483b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: kf-roots.ans by Kid Frost (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 91-132
 # Columns: 1-80
 
@@ -37,8 +37,7 @@ Write-Host '
                  [1;30m▐▓▀[0m       [1;30m▐█▌[0m                      [1;30m▀▓░░[0m          [1;30m▐█▀[0m
                  [1;30m▀[0m          [1;30m▀█▄[0m     o[1;30m+ [0mT[1;30mheReaper[0m      [1;30m▀■[0m         [1;30m■▀[0m
                               [1;30m▀▀■[0m
-                         [1;30m                                  [0m
-
+[1;30m[0m
 
 [1;30m·─[0m [1;30m─[0m─── ──[1;30m─[0m─[1;30m──[0m──────[1m─────[0m [1m──[0m [1m────[0m [1m──────[0m  [1m───[0m [1m─[0m [1m───────────[0m───────[1;30m──[0m────[1;30m─[0m── ─[1;30m──·[0m
 

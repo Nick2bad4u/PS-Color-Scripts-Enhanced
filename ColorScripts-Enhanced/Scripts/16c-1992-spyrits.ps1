@@ -5,7 +5,7 @@
 # Source SHA-256: 3aadc9f2267bb6ac6d1daaa41b770b6754d82e78e5a7ee3f437450880aa69883
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPYRITS.ANS by Manufacturer (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -55,4 +55,4 @@ Write-Host '
 
 [1;37m   S p y r i t '' s   C r [0my p [1;30mt[0m       [1;30mR a z o r  1 9 [0;35m1 1  C [0;1;35mo u r i e r  H Q[0m
 [1;37mS y s O p ■ B l a c [0mk  S [1;30mp y r i t[0m             [1;36mi [0;1;34mC [0;34mE  [0;35mW o r [0;1;35ml d  H Q[0m
-[1;35m    [0;1;37m[ 8 o [0m2 ]  8 7 9 ■ 1 1 3 6      i N [1;30mS A N I [0;35mT Y  M a g a z i n [0;1;35me  H o m e[0m'
+[1;35m    [0;1;37m      [0m           ■                  [1;30m        [0;35m                   [0;1;35m          [0m'

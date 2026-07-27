@@ -5,7 +5,7 @@
 # Source SHA-256: 70c04a4d36cdd9754e16b1dc14ddbf427a1d19ba171ad19b608480eba1ca8768
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-RMRS2.ANS by Anxiety + The Upright Man (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Remorse
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Remorse Productions
@@ -30,11 +30,9 @@ Write-Host '
 [1;31m [0;33m:[0;1;31mÑ#p┌,..__..,┐[0;33m#''[0;1;31m $ÑÑÑÑÑÑÑÑÑÑ[0;33m$[0;1;31m Ñ#y┐[0;33m▬[0;1;31m,,[0;33m.[0;1;31m,[0;33m▬┐gg[0;1;31mÇÑ[0;1;37m  [0;35m [0;1;35m.[0;35m  [0;1;34m `Ñ[0;34mÑÑÑ[0;1;34m7`[0;34m  [0;1;34m [0;34m,┐p┌,   `Y     Ñ[0m
 [1;31m [0;33m [0;1;31m              ┘ [0;33m└ [0;1;31m       [0;33m [0;1;31m ┘   ┘            [0;33m [0;1;37m [0;35m    [0;1;34m   [0;34m    [0;37m [0;34m [0;1;34m [0;34m                 [0m
 [33m  [0;1;31m          ┘ [0;33m ┐  [0;1;31m ┌   [0;1;31;43m▓▓[0;1;31;40m    [0;33m  [0;1;31m [0;33m┌ [0;1;31m ┘          [0;33m [0;1;31m [0;35m  [0;1;35m [0;35m [0;1;34m   [0;34m    [0;37m [0;34m                   [0m
-[33m [0;1;31m            [0;33m [0;1;31m                             [0;33m [0;1;31m  [0;33m [0;1;31m [0;35m  [0;1;35m [0;35m [0;1;34m   [0;34m   [0;1;34m [0m [1;34m  [0;34m                 [0m
-[33m [0;1;31m           [0;33m  [0;1;31m            [0;33m [0;1;31m                   [0;33m   [0;35m   [0;1;34m   [0;34m   [0;1;34m [0m [1;34m  [0;34m ┘   ┘           [0m
+[33m[0;1;31m[0;33m[0;1;31m[0;33m[0;1;31m[0;33m[0;1;31m[0;35m[0;1;35m[0;35m[0;1;34m[0;34m[0;1;34m[0m[1;34m[0;34m[0m[33m [0;1;31m           [0;33m  [0;1;31m            [0;33m [0;1;31m                   [0;33m   [0;35m   [0;1;34m   [0;34m   [0;1;34m [0m [1;34m  [0;34m ┘   ┘           [0m
 [33m [0;1;31m           [0;33m┘ [0;1;31m  ┤               [0;33m├  ┘[0;1;31m           [0;33m  [0;35m   [0;1;34m   [0;34m   [0;1;34m [0;34m [0;1;34m  [0;34m         ┐       [0m
 [33m [0;1;31m            ┐   [0;33m  ┘  [0;1;31m      ╚     ┐            [0;33m  [0;35m [0;1;35m [0;35m [0;34m   [0;1;34m [0;34m         ⌐┐          ═ [0m
 [33m [0;1;31m    [0;33m  [0;1;31m               [0;33m [0;1;31m  [0;33m [0;1;31m   ┐                 [0;33m  [0;1;37m   [0;34m   [0;1;34m [0;34m      [0;1;34m┘[0;34m      [0m     [34m [0m
 [33m [0;1;31m                                              [0;33m  [0;1;37m   [0;34m   [0;1;34m └  [0m [1m [0;36m             [0m
-[1;31m                                               [0;33m  [0;1;37m   [0;34m   [0;1;34m  [0m
-[1;31m                     [0;33m [0;1;31m [0;33m    [0;1;31m          [0;1;31;43m▓▓▓[0;1;31;40m        [0;33m [0;1;37m [0;34m              [0;1;36m       [0m'
+[1;31m[0;33m[0;1;37m[0;34m[0;1;34m[0m[1;31m                     [0;33m [0;1;31m [0;33m    [0;1;31m          [0;1;31;43m▓▓▓[0;1;31;40m        [0;33m [0;1;37m [0;34m              [0;1;36m       [0m'

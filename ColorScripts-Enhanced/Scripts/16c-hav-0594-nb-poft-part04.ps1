@@ -5,7 +5,7 @@
 # Source SHA-256: 0269f304c468cc9434f6ea131b02719d4f08ebf827a31a961ffc9649248f531f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NB-POFT.ANS by Night Breed (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 145-191
 # Columns: 1-80
 
@@ -50,5 +50,5 @@ Write-Host '
             [1;30m [0m    [1;37m│  [0;1;30m [0;32m [0;1;32m─[0;1;37m■[0m [1;30m  [0;32m  [0;1;32m  [0;1;37m                    [0;1;30m [0;1;36m [0;36m  [0;1;30m   [0;1;37m■[0;1;36m─[0;36m [0;1;30m [0;1;37m │[0m
             [1;30m [0m    [1;37m│  [0m  [1;30m  [0;32m [0;1;32m─[0;1;37m■[0;1;30m    [0;32m [0;1;32m  [0;1;30m [0;1;37m             [0;1;30m [0;1;36m■[0;1;30m [0;36m [0;1;30m   [0;1;37m■[0;1;36m─[0;36m [0;1;30m  [0m   [1;37m│[0m
                  [1m│  [0m    [1;30m [0;32m [0;1;32m─[0;1;37m■[0m [1;30m  [0;32m  [0;1;32m  [0;1;30m  [0;1;37m          [0;1;30m [0;1;36m■[0;1;30m [0;36m  [0;1;30m   [0;1;37m■[0;1;36m─[0;36m [0;1;30m [0m    [1;37m│[0m
-       [31m   [0m       [1;37m│  [0m     [1;30m·[0;32m∙[0;1;32m─[0;1;37m■[0m [1;30m7o[0;32m8∙[0;1;32m51[0;1;37m3∙4741 ■[0;1;30m [0;1;37mCa[0;1;36mll[0;1;30m [0;36mN[0;1;30mow [0;1;37m■[0;1;36m─[0;36m∙[0;1;30m·[0m     [1;37m│[0m
+       [31m   [0m       [1;37m│  [0m     [1;30m [0;32m [0;1;32m─[0;1;37m■[0m [1;30m  [0;32m  [0;1;32m  [0;1;37m       ■[0;1;30m [0;1;37m  [0;1;36m  [0;1;30m [0;36m [0;1;30m   [0;1;37m■[0;1;36m─[0;36m [0;1;30m [0m     [1;37m│[0m
        [31m   [0m       [1;37m■─────────────────────────────────────────────■[0m'

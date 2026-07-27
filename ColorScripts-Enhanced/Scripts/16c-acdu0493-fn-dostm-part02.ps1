@@ -5,7 +5,7 @@
 # Source SHA-256: 36465acbe5bd5da8ce4827298f37b4f8b2d9291de949c58324e04a932df48fdc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FN-DOSTM.ANS by Fusion (acdu0493); released in acdu0493 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 35-64
 # Columns: 1-80
 
@@ -36,7 +36,7 @@ Write-Host '
 [36m┌┐──[0;1;30m─ ──  ─   ─  ── ────────────────────────────────────────────────[0;36m─[0;1;30m──[0;36m──[0;1;30m─[0;36m───[0;1;36m┬[0;36m─[0m
 [36m└[0;1;36m┼[0;36m───[0;1;30m─[0;36m──[0;1;30m──[0;36m─[0;1;30m──────────────────────────────────────────────────────────────────┐[0m
 [36m││[0m                           [1;36m [0;36m    [0;1;36m [0;36m    [0;1;36m [0;36m  [0;1;36m [0;36m   [0;1;36m [0;36m   [0m                           [36m│[0;1;30m [0m
-[1;30m:│[0m            [36m215-396-0177 /[0;1;30m/ [0;36m9600-14400 /[0;1;30m/ [0;36m530 Megs /[0;1;30m/ [0;36mH/P/A/V/C[0m            [1;30m│:[0m
+[1;30m │[0m            [36m              [0;1;30m  [0;36m            [0;1;30m  [0;36m          [0;1;30m  [0;36m         [0m            [1;30m│ [0m
 [1;30m [0;36m│                    [0;1;30m  [0;36m                                                     ││[0m
 [36m [0;1;30m└──────────────────────────────────────────────────────────────────[0;36m─[0;1;30m──[0;36m──[0;1;30m─[0;36m───[0;1;36m┼[0;1;30m┐[0m
 [36m─[0;1;36m┴[0;36m───[0;1;30m─[0;36m──[0;1;30m──[0;36m─[0;1;30m──────────────────────────────────────────────── ──  ─   ─  ── ─[0;36m──[0;1;30m└┘[0m'

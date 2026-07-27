@@ -5,7 +5,7 @@
 # Source SHA-256: 20657ec18785653230074a20ecd7e7a1154cb160646802aac2954c94bf32922c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-DIMX.ICE by Stone The Crow (ice-9411); released in ice-9411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 94-136
 # Columns: 1-80
 
@@ -48,7 +48,7 @@ Write-Host '
            [31m▀[0;1;31;41m▒[0;31m▀[0m  [31m▄▀[0;1;31;41m░[0;31m█▄▀[0m [31m▀[0m       [1;37mD i m e n s i o n[0m       [31m▀[0m [31m▀▄[0;1;31;41m░[0;31m█▀▄[0m  [31m▀[0;1;31;41m▒[0;31m▀[0m
               [31m▄▓▄█▀▌[0m                   [1;37mX[0m                   [31m▐▀█▄█▄[0m
              [1;31;41m▓[0;31m█[0;1;31;41m [0;31m█▌[0m    [31m▄[0m      [1;37mS[0my[1mso[0mp: A[1mrg[0mo[1mn[0;1;30m([0mPu[1mr[0ms[1mui[0mt[1;30m)[0m      [31m▄[0m    [31m▐█[0;1;31;41m▀■[0;31m▓[0m
-           [31m █[0;1;31;41m▒[0;31m█[0;1;31;41m▐▄[0;31m█▄▄▀[0m        [37m8 [0;1;37m0[0m [1;30m5[0m  4 [1m9[0m [1;30m9[0m  6 [1m8[0m [1;30m6[0m 5        [31m▀▄▄[0;1;31;41m▓[0;31m███▒█ [0m
+           [31m █[0;1;31;41m▒[0;31m█[0;1;31;41m▐▄[0;31m█▄▄▀[0m        [37m  [0;1;37m [0m [1;30m [0m    [1m [0m [1;30m [0m    [1m [0m [1;30m [0m          [31m▀▄▄[0;1;31;41m▓[0;31m███▒█ [0m
            [31m▀█[0;1;31;41m░[0;31m▀█[0;1;31;41m▀▄[0;31m█[0m       [37mPu[0;1;30mr[0ms[1;30mui[0mt[1;30m [0m [1;30mW[0morl[1md[0m [1;30mHe[0mad[1;30mq[0;1;37mu[0ma[1;30mr[0mt[1;30me[0mrs       [31m█[0;1;31;41m▒[0;31m██▀[0;1;30;41m [0;31m█▀[0m
              [31m▀▄[0m [31m▀█[0m                                           [1;31;41m░[0;31m▀[0m [31m▄▀[0m
                [31m■ [0m                                             [31m ■[0m'

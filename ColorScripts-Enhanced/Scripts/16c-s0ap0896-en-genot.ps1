@@ -5,7 +5,7 @@
 # Source SHA-256: 4e90d0b47c89c8c9b197d9eca9ffd8fb3ef04ace34f30443a28b5f2d771753e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-GENOT.ANS by Endless Nameless (s0ap); released in s0ap0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Genotia
 # SAUCE Author: Endless Nameless
 # SAUCE Group: s0ap
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[32m                      [0m
-     [1;30m   [0;32m  [0;36m $[0;32m&[0;1;32m#s,.__  _  _ [0;32m [0m   [32m   [0;37m                            [0;33m [0;1;30m.[0m
+[32m[0m     [1;30m   [0;32m  [0;36m $[0;32m&[0;1;32m#s,.__  _  _ [0;32m [0m   [32m   [0;37m                            [0;33m [0;1;30m.[0m
     [1;30m░$  [0;32m [0;1;30m$[0;36m $$[0;30;42m$$[0;1;32;40m$$P²" `    [0;32m       [0;37m               [0;33m      [0;37m       [0;33m [0;1;30m$[0m
     [1;30m░$░ [0;32m [0;36m$$$[0;32m$$²`.,sP²`  ``''[0;1;32m²÷[0;1;33ms[0;1;32m  [0;1;33m.[0;1;32m [0m        [31m     [0;37m [0;35m,[0;33m `   [0;37m       [0;33m [0;1;30m`[0m
     [1;30m░$░$[0;32m [0;36m $[0;32m$[0;36m''[0;32m.,$$P`[0;37m [0;1;30m,s[0m#$$[1m$s,.[0m [1;33m`[0m           [31m_.,s`[0;37m [0;35m$[0;33m,._  [0;37m       [0;33m .   [0;1;30m__[0m  [1;30m_[0m

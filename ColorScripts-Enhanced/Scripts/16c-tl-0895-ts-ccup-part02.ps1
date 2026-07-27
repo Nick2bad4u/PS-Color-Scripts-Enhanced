@@ -5,7 +5,7 @@
 # Source SHA-256: ac3972bd84c7f87c4ee65d9bee68b8f188a75db2ac870632dcc293597bf70e31
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-CCUP.ANS by ts (Teklordz); released in tl-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the Country Cupboard
 # SAUCE Author: ts
 # SAUCE Group: Teklordz
@@ -40,6 +40,5 @@ Write-Host '
 [1;30;47m▒[0m [1m▀████▄▄███[0m [1m▀████▄▄██▀ ▀████▄▄▄▄▄▄█████[0m  [1m███[0m [1m▀████▄▄███[0m [1m█████[0m [1;30m▄[0m  [1m ▀█▄▄▄▄▄▄██▀[0m [1;30m▄[0m
 [1;30;47m░[0m▄[1;30m        [0m  [1;30m▄[0m       [1m  [0;1;30m▄[0;1;37mc   u   p   b   o[0;1;30m▄[0;1;37m  a[0m [1;30m▄[0m [1mr[0m   [1md[0m    [1;30m [0m     [1;30m▄██▄[0m           [1;30m▄[0;1;30;47m▓▒[0m
 ▀[1;30;47m░▒▒▓[0;1;30;40m█[0;1;30;47m▓▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m██████[0;1;30;47m▓[0;1;30;40m██████████████[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓[0;1;30;40m███[0;1;30;47m▓[0;1;30;40m██████[0;1;30;47m▓▓▒▒▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m████[0;1;30;47m▓▓▓[0;1;30;40m███[0;1;30;47m▓[0;1;30;40m████[0;1;30;47m▓▒▒▓▓[0;1;30;40m██[0;1;30;47m▓▓▒[0m▀
-                         [1;30m                         [0m
-[1;30m░[0m     [1m [0m   [1m [0m       [1m [0m          [1m [0m      [1m [0m   [1m [0m            [1m [0m       [1m [0m        [1m [0m        [1;30m░[0m
-[1;30m▓▄[0m                        8 o 8 . 4 8 8 . o 6 1 7                             [1;30m▄▓[0m'
+[1;30m[0m[1;30m░[0m     [1m [0m   [1m [0m       [1m [0m          [1m [0m      [1m [0m   [1m [0m            [1m [0m       [1m [0m        [1m [0m        [1;30m░[0m
+[1;30m▓▄[0m                                                                            [1;30m▄▓[0m'

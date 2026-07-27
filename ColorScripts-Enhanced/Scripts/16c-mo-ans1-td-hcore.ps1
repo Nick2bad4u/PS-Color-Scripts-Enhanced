@@ -5,13 +5,12 @@
 # Source SHA-256: 798a59481edd745679832c534cd6fffe641e14d85dd7bf7372333f11ceae1183
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TD^HCORE.ANS by The Dr (mo-ans1); released in mo-ans1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
-                 [31m                                   [0m
-
+[31m[0m
                           [1;33m▄▄▄▄██████[0;1;33;41m▓▓[0;1;33m▄▄▄▓██▄[0m
                        [1;33m▄███[0;1;33;41m▀▓▓▓[0;1;33m▀▀▀▀▀▀▀▀▀███[0;1;33;41m▓▓[0;1;33m▌[0m
                      [1;33m▄[0;1;33;41m▓▓█[0;1;33m█[0;1;33;41m▒▓[0;31m▌[0;1;31m▄▄█████████▄[0;1;33m▀[0;1;33;41m▓▓[0;1;33m▀[0m

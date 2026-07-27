@@ -5,7 +5,7 @@
 # Source SHA-256: c17da442ed27c955e894abb0cef86f9847f86bd904641955fb129a6c26e60e6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 16_ADIOS.ANS by Dieznyik (Klexikal); released in k-sztuka and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: Dieznyik
 # SAUCE Group: Klexikal
 # SAUCE Date: 19990415
@@ -14,8 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;31m               [0m                                                      [1;31m           [0m
-
+[1;31m[0m[1;31m[0m
 [30;43m        [0;33;40m███████[0;34;43m║[0;1;34;43m║[0;36;43m║║[0;1;34;43m║[0;34;43m║[0;33;40m█████████[0;31;43m ║[0;33;40m██████████[0;36;43m░░▀▀▀██[0;1;36;46m▀▀▓▓█[0;1;36;47m▄▐[0;1;36;46m█▌▀███[0;1;36;47m▀[0;1;36;46m█▄ [0;36;43m██▄[0;33;40m█████████[0;31;43m░░[0m
 [33;40m███████████████[0;34;43m║[0;1;34;43m║[0;36;43m║║[0;1;34;43m║[0;34;43m║[0;33;40m█[0;30;43m [0;33;40m████████[0;31;43m║[0;33;40m███████[0;36;43m     [0;33;40m█████[0;36;43m▀███[0;1;36;46m▀████[0;36;43m██[0;1;36;46m▀█[0;1;36;47m▌░[0;1;36;46m█▌[0;36;43m███▌[0;33;40m██████████[0m
 [33;40m███████████████[0;34;43m║[0;1;34;43m║[0;36;43m║║[0;1;34;43m║[0;34;43m║[0;30;43m        [0;33;40m██[0;31;43m║[0;33;40m███████████[0;36;43m   [0;33;40m█████[0;36;43m▀██[0;1;36;46m▐██▌[0;36;43m███[0;1;36;46m▐█[0;1;36;47m▓[0;1;36;46m█▌[0;36;43m█[0;1;36;46m░░[0;36;43m█░[0;33;40m█████████[0m

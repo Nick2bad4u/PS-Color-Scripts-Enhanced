@@ -5,7 +5,7 @@
 # Source SHA-256: db112f2bbe35a49cf1419c00a85feeb6bebabc2220c21a95ed3ce15b1657f3cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-SOME.ANS by Maeve Wolf (REV.SM!); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Somewhere Else
 # SAUCE Author: Maeve Wolf
 # SAUCE Group: REV.SM!
@@ -52,12 +52,9 @@ Write-Host '
        [1;30m▀▀▀▀▀▓ ▀▀▓ [0m▀▀ [1;30m▄▄▒ [0m█████  █████[1;30m▒[0m█████▄■[1;30m▓▄▄▄ [0m█████     [1;30m▓ [0m█████▄■ [1;30m▄▄▄█▀[0m
                 [1;30m▀▀▀▀▀▀ ▓▄▄▄▄▄▄▄▓▄▄▄▄▄▓▄▄▄▄▄▄▄█  █▓▄▄▄▄▄▄█▀■▄█▄▄▄▄▄▄▄▄█▀[0m
               S   O   M   E   W   H  [1;30m▒[0mE   R   E      E   L   S   E
-[1;30m                                                                             [0m
-+  [1m∙  [0m6  [1m∙  [0m1  [1m∙  [0m-  [1m∙  [0m7  [1m∙  [0m-  [1m∙  [0m3  [1m∙  [0m3  [1m∙  [0m4  [1m∙  [0m8  [1m∙  [0m6  [1m∙  [0m8  [1m∙  [0m8  [1m∙  [0m9
-               [1;30m                                            [0m
-[1;30m--CutHere8<---------------------------------------------------------------------[0m
-       [1;30m                                                                 [0m
-[1;30m                                                        ■         ■           ■[0m
+[1;30m[0m+  [1m∙  [0m6  [1m∙  [0m1  [1m∙  [0m-  [1m∙  [0m7  [1m∙  [0m-  [1m∙  [0m3  [1m∙  [0m3  [1m∙  [0m4  [1m∙  [0m8  [1m∙  [0m6  [1m∙  [0m8  [1m∙  [0m8  [1m∙  [0m9
+[1;30m[0m[1;30m--CutHere8<---------------------------------------------------------------------[0m
+[1;30m[0m[1;30m                                                        ■         ■           ■[0m
 [1;30m       ■     ■    ■          ■                                         ■     ■[0m
                              [1;30m■      ■   ■       ■[0m
                     [1;30m■                                           ■[0m'

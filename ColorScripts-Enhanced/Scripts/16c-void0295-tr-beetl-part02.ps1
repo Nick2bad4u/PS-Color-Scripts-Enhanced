@@ -5,7 +5,7 @@
 # Source SHA-256: 6c508c1e26e9e630e7c8378d5c9075e7ce8233922ea2c6c33c7ad59b5d5f4b3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-BEETL.ANS by Turtle (Void); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Harvest Moon
 # SAUCE Author: Turtle
 # SAUCE Group: Void
@@ -50,9 +50,6 @@ Write-Host '
 [1;30m  [0m               [32m▀▀ [0m   [32m▀▀ ▀▀[0m      [32m▀▀▀▀▀[0m       [32m▀▀▀▀▀[0m      [32m▀▀ ▀▀[0m
 [1;30m [0;32m─[0m    [32m─[0m   [32m─[0m  [32m─[0m [32m─[0m [32m──────────────────────────────────────────────[0m [32m─[0m [32m─[0m  [32m─[0m   [32m─[0m    [32m─[0m
 
-[32m                 [0m [32m                                           [0m
-
+[32m[0m[32m[0m
  [1;30m─[0m   [1;30m ─[0m [1;30m  ─  ─ ───────[0;32m─[0;1;30m──[0;32m─[0;1;30m─[0;32m───[0;1;32m┤[0;1;30m55% Original Ansi By: Turtle[0;1;32m├[0;32m───[0;1;30m─[0;32m─[0;1;30m──[0;32m─[0;1;30m───────────[0m
-[1;30m  [0m [1;32m       [0;1;30m                                                                    [0m
-  [1;30m              [0;32m               [0;1;30m                          [0;32m               [0;1;30m       [0m
- [1;30m────────[0;32m─[0;1;30m──[0;32m─[0;1;30m─[0;32m───[0;1;32m┤[0;1;30mA VoiD ProductioN AnsI[0;1;32m├[0;32m───[0;1;30m─[0;32m─[0;1;30m──[0;32m─[0;1;30m──────────────── ─  ─  [0m [1;30m─ [0m   [1;30m─[0m'
+[1;30m[0m[1;32m[0;1;30m[0m[1;30m[0;32m[0;1;30m[0;32m[0;1;30m[0m [1;30m────────[0;32m─[0;1;30m──[0;32m─[0;1;30m─[0;32m───[0;1;32m┤[0;1;30mA VoiD ProductioN AnsI[0;1;32m├[0;32m───[0;1;30m─[0;32m─[0;1;30m──[0;32m─[0;1;30m──────────────── ─  ─  [0m [1;30m─ [0m   [1;30m─[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9213ec3a216b36715a1a83f21caaff7fae180e8b4fc835ee20cb081d9d88958b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-ABYSS.ANS by Enigma (myst9504); released in myst9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -39,7 +39,7 @@ Write-Host '
 [30;46m▒▒▒▒▓▓▓▓▓▓[0;36;40m▌[0;1;30;43m░░▒[0;36m▐[0;30;46m▓▓▓▓▓▓▓▓▓▓▓[0m
 [30;46m▒▒▓▓▓▓▓▓▓▓[0m [1;30;43m▒▒▒[0m [30;46m▓▓▓▓[0m              [1;37;40mt [0;1;36;40ma [0;36mk [0;37me [0;1;30mn  f r o m  w i z a r d(tm)  # 2 2[0m
 [30;46m▒▓▓▓▓▓[0m     [1;30;43m▓▓▓[0m
-[30;46m▓▓▓▓[0m       [1;30;43m▓[0;1;30;40m██   [0;1;30;43m░[0m [33m▀  [0;1;30;43m░[0;33m▀▀ ▀ ▀▀  ▀▀  ▀[0m           [1;30m6i[0;33m3[0;1;30m/966.[0;33miio[0;1;30m4[0m
+[30;46m▓▓▓▓[0m       [1;30;43m▓[0;1;30;40m██   [0;1;30;43m░[0m [33m▀  [0;1;30;43m░[0;33m▀▀ ▀ ▀▀  ▀▀  ▀[0m           [1;30m  [0;33m [0;1;30m     [0;33m   [0;1;30m [0m
 [30;46m▓▓[0m         [1;30;40m███   [0;1;30;43m▒[0;33m▄[0;1;30;43m░[0;33m▄▄[0;1;30;43m▒[0;33m▄▄▄[0m                    [1;30mMYST[0;33mi[0;1;30mC/D[0;33mi[0;1;30mSTR[0;33mo[0;1;30m.S[0;33mi[0;1;30mTE[0m
            [1;30m███   [0;1;30;43m▓[0m [1;30;43m▒[0m  [1;30;43m▓[0;1;30;40m▄▄▄▄▄▄ ▄ ▄▄ ▄▄[0m         [1;30;40mL[0;33mo[0;1;30mTS^[0;33mo[0;1;30m_F[0;33mi[0;1;30mLES onl[0;33mi[0;1;30mne[0m
 [1;30m  ▄▄  ▄ ▄▄█████▄ ▄ ▄▄ ▄▄▄▄▄[0m                 [1;30ms[0;33mo[0;1;30mme nets[0;33m, [0;1;30mm[0;33mo[0;1;30mre c[0;33mo[0;1;30mm[0;33mi[0;1;30mng[0m

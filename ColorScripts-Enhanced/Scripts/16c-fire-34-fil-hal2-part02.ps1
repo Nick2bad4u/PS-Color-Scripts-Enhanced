@@ -5,7 +5,7 @@
 # Source SHA-256: 86b443dd4787b89a58e1d9925e8a700ad8f4458cee51676e5aa112d56e27c3bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-HAL2.ANS by filth (BLOCKTRONiCS); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: regency '95
 # SAUCE Author: filth
 # SAUCE Group: BLOCKTRONiCS
@@ -49,12 +49,7 @@ Write-Host '
 [1;33;40m█[0;1;33;41m▄[0;1;33;40m███[0;1;33;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33;40m███[0;1;33;41m▄[0;1;33;40m█[0m
 [33m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
-            [31m                                 [0;1;33m       [0;31m  [0;1;33m             [0m
-             [31m                             [0;1;33m             [0;31m [0;33m          [0m
-                  [1;33m         [0;33m   [0;1;33m [0;31m [0;1;33m                             [0m
-                          [31m  [0;1;33m         [0;31m    [0;1;33m     [0;31m  [0;1;33m    [0m
+[31m[0;1;33m[0;31m[0;1;33m[0m[31m[0;1;33m[0;31m[0;33m[0m[1;33m[0;33m[0;1;33m[0;31m[0;1;33m[0m[31m[0;1;33m[0;31m[0;1;33m[0;31m[0;1;33m[0m
 
-
-                [33m                        [0;1;33m          [0;31m [0;1;33m    [0;33m        [0m
-
+[33m[0;1;33m[0;31m[0;1;33m[0;33m[0m
                                      [1;30m▀[0m▀[1m▀[0;1;33m▀[0;33m▀[0;31m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0223b745dd6cd8037ecf942e6cc63b027d57bdfcf9484e4d61dec5b1d3a7fbf9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ESS!EDML.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Evidence Write Msg
 # SAUCE Author: Essence
 # SAUCE Group: rARE!ASCii
@@ -28,6 +28,5 @@ $$[1m$$[0m$$ [1;30m:[0;36m$S$b,[0m     [1;30m,[0;36md$[0;1;36m$$[0;1;37
 [1;30m`[0m   [1;30m`  `` _[0;36m,._[0;1;30m_ _[0m   [1;30m`[0;36m`^"ⁿ╚*$[0;1;30m;[0m l[1m$$$$$$$$$$$$$$$$$$$SSIIll [0;36mAttach?[0;1;37m [0;1;32mN[0m      :$$[1m$$$$$[0m
       [1;30m_,[0;36md$[0;1;36m$$$[0;1;32m$S[0;1;37mI[0;1;32mL[0;36mli::[0;1;30m : -"''`[0m ,d$$$[1m$$[0m$$[1m$$$$$[0m$[1m$$$$$SSIIli;:: :[0m             `²┴YY╩ⁿ
         [1;30m,[0;36m$$$╝''"''''[0;1;30m```[0m    [1;36m`[0;36m`[0;37m  ``````[0;1;37m```````[0m```[1m`````[0m`[1m`````[0m`
-       [1;30m [0;36m  [0;1;30m        [0m
-       [1;30m`[0;36ml[0;1;30m''[0m
+[1;30m[0;36m[0;1;30m[0m       [1;30m`[0;36ml[0;1;30m''[0m
         [1;30m`[0m'

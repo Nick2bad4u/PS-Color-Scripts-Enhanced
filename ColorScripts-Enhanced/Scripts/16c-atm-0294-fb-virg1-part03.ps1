@@ -5,7 +5,7 @@
 # Source SHA-256: d5831141bca51ac1adcff4b20186635643cf03a59e2fb9fdce7f7667073af034
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-VIRG1.ANS by Frost Byte (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 58-107
 # Columns: 1-80
 
@@ -55,7 +55,7 @@ Write-Host '
                             [1m│[0m                      [1m│[0m
                           [1m│ │     [0;1;35m [0;35m    [0;1;30m  [0;1;37m [0;1;35m [0;35m   [0;1;30m     [0;1;37m│ │[0m
                         [1;37m│ │ [0m│                      │ [1m│ │[0m
-                      [1m│ │ [0m│ [1;30m└── ─·[0;1;37m5[0;1;35m0[0;35m3[0;1;30m-[0;1;37m5[0;1;35m9[0;35m1[0;1;30m-[0;1;37m0[0;1;35m6[0;35m16[0;1;30m·─ ──┘ [0m│ [1m│ │[0m
+                      [1m│ │ [0m│ [1;30m└── ─ [0;1;37m [0;1;35m [0;35m [0;1;30m [0;1;37m [0;1;35m [0;35m [0;1;30m [0;1;37m [0;1;35m [0;35m  [0;1;30m ─ ──┘ [0m│ [1m│ │[0m
                     [1m│ │ [0m│ [1;30m└─·[0;1;37mR[0;1;36mu[0;1;34mn[0;34mning Renegade 01[0;1;34m-[0;1;36m0[0;1;37m2[0;1;30m·─┘ [0m│ [1m│ │[0m
                     [1m│ [0m│ [1;30m└ ─── ── ─·[0;1;37m9[0;1;36m6[0;1;34m0[0;34m0-14[0;1;34m.[0;1;36m4[0;1;37mk[0;1;30m·─ ── ─── ┘ [0m│ [1m│[0m
                     │ [1;30m└──── ─── ── ─·[0;1;37mC[0;1;36mD[0;1;34m-R[0;1;36mO[0;1;37mM[0;1;30m·─ ── ─── ────┘ [0m│

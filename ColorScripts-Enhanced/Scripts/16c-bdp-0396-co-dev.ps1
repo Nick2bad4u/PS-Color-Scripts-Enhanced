@@ -5,7 +5,7 @@
 # Source SHA-256: e75a0038795341588aad280645d6742b49669bfd16991a3eaa793d431a896c6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-DEV.ANS by Coeffey (BdP); released in bdp-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: devious
 # SAUCE Author: Coeffey
 # SAUCE Group: BdP
@@ -26,8 +26,7 @@ Write-Host '
       [1;30m [0m  [1;30m████▄▄▄▄▓█████▄▄▄▄▓██▄▄▄▄▓█████▄██▄▄▄▄▓██████████████▄▄▄▄▄▄███[0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 
-[1;30m                [0m                [1m                [0m                [1;30m               [0m
-[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
+[1;30m[0m[1m[0m[1;30m[0m[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
       [1;30m [0m  [1;30m████▀▀▀▀▓█████▀▀▀▀▓██▀▀▀▀▓█████▀██▀▀▀▀▓██████████████▀▀▀▀▀▀███[0m
       [1;30m [0m  [1;30m█[0m  [30;42m▀▀[0;32;47m▓▒[0;30;47m▀[0;37;40m [0;1;30;40m▀▓▀[0m [30;42m▀▀[0;32;47m▓▒[0;37;40m [0;1;30;40m▀▌[0;30;42m▀[0;32;47m▓▒▓[0;30;47m▀[0;37;40m [0;1;30;40m▀▓[0m [30;42m▀▀░[0;37;40m [0;30;42m▀▀[0;32;47m▓▒[0;30;47m▀[0;37;40m [0;1;30;40m▀▓█▀ [0;30;42m▀▀▀▀[0;1;30;40m ▀▀[0m [30;42m▀▀[0;32;47m▓▒░░[0;30;42m▀[0;37;40m [0;1;30;40m▀▓[0m
       [1;30m [0m  [1;30m█[0m [30;42m [0;32;47m▓▒░[0;37;40m  [0;30;42m▄▀[0;37;40m  [0;30;42m [0;32;47m▓▒░[0;37;40m [0;30;42m▄[0;37;40m  [0;32;47m▓▒░[0;37;40m  [0;30;42m▄▀[0;1;30;40m [0m [32;47m▓▒░[0;37;40m [0;32;47m▓▒░[0;37;40m  [0;30;42m▄▀[0;1;30;40m [0m [30;42m▀[0;32;47m▓▒[0;37;40m  [0;30;42m▄[0;32;47m▓[0;30;42m▀[0;37;40m [0;32;47m▓▒░░[0;37;40m [0;30;42m▄[0;32;47m▒░░[0;37;40m [0;1;30;40m▓[0m

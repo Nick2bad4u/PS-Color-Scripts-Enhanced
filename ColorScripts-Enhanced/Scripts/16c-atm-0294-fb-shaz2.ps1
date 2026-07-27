@@ -5,7 +5,7 @@
 # Source SHA-256: fc0548025d9513775f6c84c526d24e8b88220162e25561d4e62f64c632b1b461
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-SHAZ2.ANS by Frost Byte (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -30,7 +30,7 @@ Write-Host '
 [1m █[0;1;41m████▀ ▀██[0;1;40m██[0m       [1;40m████[0;1;41m▀ ▀[0;1;40m█████[0m
 [1;40m  ▀█[0;1;41m██▌ [0;1;31;41m▄ [0;1;37;41m▀█[0;1;37;40m█▌[0m     [1;37;40m▐██[0;1;37;41m▀ [0;1;31;41m▄ [0;1;37;41m▐[0;1;37;40m███▀[0m          [1;30;40m┌───[0m─[1m>[0m                    [1m<[0m─[1;30m───┐[0m
 [1;30m    [0;1;37m██[0;1;37;41m█▄ ▄██[0;1;37;40m█[0m       [1;37;40m██[0;1;37;41m█▄ ▄[0;1;37;40m███[0m            [1;30;40m│[0m          [1;33;40mS[0;1;32;40mh[0;32maza[0;1;30mm [0;1;33mB[0;1;32mB[0;32mS[0m          [1;30m│[0m
-     [1;37m▀▀█[0;1;37;41m██[0;1;37;40m█▀ [0;1;31;40m▄▄[0;1;31;41m▓▓▒[0;1;31;40m▄▄ [0;1;37;40m▀████▀▀[0m             [1;30;40m├──[0m─[1m>    [0;1;33m1[0;32m-[0;1;33m5[0;1;32m1[0;32m7-[0;1;33m2[0;1;32m6[0;32m3-[0;1;33m6[0;1;32m3[0;32m1[0;1;30m3    [0;1;37m<[0m─[1;30m──┤[0m
+     [1;37m▀▀█[0;1;37;41m██[0;1;37;40m█▀ [0;1;31;40m▄▄[0;1;31;41m▓▓▒[0;1;31;40m▄▄ [0;1;37;40m▀████▀▀[0m             [1;30;40m├──[0m─[1m     [0;1;33m [0;32m [0;1;33m [0;1;32m [0;32m  [0;1;33m [0;1;32m [0;32m  [0;1;33m [0;1;32m [0;32m [0;1;30m     [0;1;37m [0m─[1;30m──┤[0m
             [1;31;41m▓▓▒░▒▒▒▓▓[0m                    [1;30;40m│[0m            [1;33;40m6 C[0;1;32;40mD[0;32m''[0;1;30ms[0m            [1;30m│[0m
             [31m▐[0;1;31;41m▒▒▒▒░▒▒[0;31m▌[0m                    [1;30m├─[0m─[1m>   [0;1;33mF[0;1;32mi[0;32mdoNe[0;1;30mt [0;1;33m1[0;32m:[0;1;33m2[0;1;32m4[0;32m7[0;1;30m0[0;32m/[0;1;33m1[0;1;32m5    [0;1;37m<[0m─[1;30m─┤[0m
 [1;30m [0;31m▄███▄▄[0m      [31m█[0;1;31;41m▒▒░░░[0;31m█[0m     [31m▄▄███▄[0m          [1;30m│[0m                              [1;30m│[0m

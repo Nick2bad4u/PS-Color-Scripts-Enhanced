@@ -5,7 +5,7 @@
 # Source SHA-256: fae23bc6f5902e4ef0e7a8b43313e963aeeef13439e11de137f8870e8c2b24fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-NOTB2.ANS by Smooth (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Number of The Beast
 # SAUCE Author: Smooth
 # SAUCE Group: TekLordZ
@@ -22,8 +22,8 @@ Write-Host '
 [35m█[0;1;35;45m░▒[0;35m██▀▀[0m [35m░[0;31m  [0;35m██[0;1;35;45m▓▒[0;35m██ [0m  [35m▓[0m  [35m██[0;1;35;45m▓▒[0;35m█[0m [31m▀█[0m [31m░[0m [1;31m KickAss ANSi Foh my HoMie Lazarus of NOTB.[0m
 [35m█▀▀[0m  [31m     [0;35m ▐[0;1;35;45m ▒░░[0;35m█▌[0m  [35m▒[0m  [35m██[0;1;35;45m▒░[0;35m█▌[0m [31m▀[0m    [1;31mIf You would like to get a kewl ANSi done[0m
 [35m▓▄[0m    [31m■▀▓▀[0;35m  █[0;1;35;45m░░[0;35m██▀[0m  [35m░[0m   [35m█[0;1;35;45m░[0;35m▓██[0m      [1;31mby me, you can contact me on my board...[0m
- [35m▀▀█▄▄▄▄[0m     [35m▀▓▀[0m  [31m▄ [0;35m [0m   [35m▐███▀[0m      [1;31mDungeon 2 @ 8o8.674.1673 - nup.phunkified[0m
-[35m░[0m      [35m▀▀▀▀▓▄[0m   [31m▄██▓▀[0m    [35m██▀[0m      [1;31mor email me on Internet at smooth@pixi.com[0m
+ [35m▀▀█▄▄▄▄[0m     [35m▀▓▀[0m  [31m▄ [0;35m [0m   [35m▐███▀[0m      [1;31m                                         [0m
+[35m░[0m      [35m▀▀▀▀▓▄[0m   [31m▄██▓▀[0m    [35m██▀[0m      [1;31m                                          [0m
 [35m▒[0m            [31m ▄▄▓▀[0m [31m▒[0m    [35m▄▀[0m
 [35m▓█[0m        [35m░[0m [31m█▀▀[0m    [31m░[0m   [35m■[0m           [31m▄▄■[0m                  [31m░[0m
 [1;35;45m░░[0;35m▄[0m       [35m░[0m [31m▓[0;35m [0m                   [31m▄█[0;1;31;41m▒░[0;31m▀[0m                  [31m▒[0m   [31m▄▀[0m           [31m░[0m

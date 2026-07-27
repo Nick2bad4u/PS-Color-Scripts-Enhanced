@@ -5,7 +5,7 @@
 # Source SHA-256: d7d5951c6c8a6d32f5974dcdaa5f71aaaf886924b22cbeb8a4bda548949fe851
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!-PNA1.ANS by cardiac (magma); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: paranoia/2 font #1
 # SAUCE Author: cardiac
 # SAUCE Group: magma
@@ -20,9 +20,7 @@ Write-Host '
 
 
 
-                                                   [35m      [0m
-         [1;35m      [0;35m   [0;1;35m          [0;35m [0;1;35m [0m                    [35m [0m
-                                       [1;35m▄▄▄▄▄▄▄▄▄ [0m
+[35m[0m[1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0m[35m[0m                                       [1;35m▄▄▄▄▄▄▄▄▄ [0m
      [32m  [0;1;37m [0;35m▀▀█[0;1;35;45m▄▄▄▄▄▄▄[0;35m█▀█[0;1;35;45m▄▄▄░[0;35m█▄▄[0;37m [0m         [1;35m██[0;35m█████[0;1;35m██ [0m [1m [0;35m▄█[0;1;35;45m▄▄▄▄▄▄ [0;35m▀█[0;1;35;45m▄▄▄▄▄▄[0;35m▄▄[0m
      [1;37m [0;32m   [0;1;37m [0;1;35;45m▐█[0;1;35;47m▓▓[0;1;35;45m▓▒██▌[0;1;37;40m [0;35m█[0;1;35;45m▓█[0;1;35;47m▓[0;1;35;45m█▓▒░░[0m        [1;35m█[0;1;35;45m▓[0;35m█[0;1;35;45m▒░░[0;35m█[0;1;35m██ [0m  [35m▐[0;1;35;45m░▒▓██[0;1;35;47m▓[0;1;35;45m█▓[0;35m█[0;1;37m [0;35m█[0;1;35;45m▐███[0;1;35;47m▒▓[0;1;35;45m█[0;35m█▌[0m
      [1;37m [0;35m  [0;32m [0;1;37m [0;1;35;45m░▒▓█████[0;35m█[0;1;37m [0;35m█[0;1;35;45m███████[0;35m█▌[0m      [1;35m██[0;35m█████[0;1;35m██ [0m   [1m [0;35m▀▀▀▀▀▀▀▀[0;37m [0;1;37m [0;35m█[0;1;35;45m░▒▓cd!▓▒[0;35m▌[0m

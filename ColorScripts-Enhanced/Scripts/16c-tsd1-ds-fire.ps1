@@ -5,7 +5,7 @@
 # Source SHA-256: ce93f7d0d12bd81a1e5202d3e07141a81f2e6a077d4f8da5a46f8e17b48447a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-FIRE.ANS by Dr Suess (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -21,12 +21,10 @@ Write-Host '
     [36m▓▓▓█[0m      [36m▓▓▓█[0m      [36m▓▓██  ▓▓▓█  ██  ▓▓██  ██[0m     [36m▓▓██[0m      [1;37mD[0mr. [1mS[0muess
     [36m░▓▓▓[0m      [36m░▓▓▓████  ░▓▓█  ░▓▓▓▓███  ░▓▓█  ▓█[0m     [36m░▓▓█[0m
 [36m    ░░▓▓[0m      [36m░░░▓▓▓▓▓  ░░▓▓  ░░░▓▓▓▓█  ░░▓▓  ░▓[0m     [36m░░▓▓[0m      [1;37mB[0murning [1mR[0mage
-                                                               [1m [0m      
-                       [1mB[0m          [1mB[0m          [1mS[0m
+[1m[0m                       [1mB[0m          [1mB[0m          [1mS[0m
 
                                                                           [31m█[0m
-     [1;30m [0m [1m [0m [1;30m  [0;1;37m [0m      [1;30m [0m [1m  [0m [1;30m  [0;1;37m [0m     [1m [0m        [1;30m [0m [1;30m  [0;1;37m [0m   [1m [0m    
-                                                                            [31m█[0m
+[1;30m[0m[1m[0m[1;30m[0;1;37m[0m[1;30m[0m[1m[0m[1;30m[0;1;37m[0m[1m[0m[1;30m[0m[1;30m[0;1;37m[0m[1m[0m                                                                            [31m█[0m
                                                                           [31m██[0m
 [31m  █[0m                  [31m [0;1;31m        [0;31m [0;1;31m   [0;31m [0;1;31m           [0;31m [0;1;31m  [0;31m [0;1;31m   [0;31m [0;1;31m [0m                  [31m█▒█[0m
      [31m█[0m                                                                [31m█ █▒█  █[0m

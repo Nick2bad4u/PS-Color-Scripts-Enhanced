@@ -5,7 +5,7 @@
 # Source SHA-256: ea5f1944112a5037433cb030e51aabd8ece70838057b610c53322801d5bff146
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OG-TBR.ANS by Ogre (Union); released in uni-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Black River
 # SAUCE Author: Ogre
 # SAUCE Group: Union
@@ -54,8 +54,7 @@ Write-Host '
       [31m███▀[0;34m [0;37m     [0m            [31mThe Black River[0m      [37m              [0;34m [0;31m▀███[0m
       [31m██[0;34m [0;37m                [0m [31m                 [0m [31m [0m  [31m  [0;37m                [0;34m [0;31m██[0m
       [31m█[0;34m [0;37m               [0m   [31m                    [0m [37m [0;31m  [0;37m                [0;34m [0;31m█[0m
- [31m    [0m                         [31m514-922-4022[0m
-
+[31m[0m[31m[0m
 [1;30m  ▄▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄ [0m
  [1;30m▄[0m     [1;30m▒[0m                                                                     [1;30m▄[0m
  [1;30m▀[0m     [1;30m░   [0m                                                                  [1;30m▀[0m

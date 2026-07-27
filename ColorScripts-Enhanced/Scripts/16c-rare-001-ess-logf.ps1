@@ -5,7 +5,7 @@
 # Source SHA-256: 5870387737c476e9a17bc9ac196a4241dfce550ba3056658ec01b4cf1d5b8d97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ESS!LOGF.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Legend Logoff
 # SAUCE Author: Essence
 # SAUCE Group: rARE!ASCii
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m       [0m  [1;30m [0;33m    [0;1;33m   [0;33m  [0m                        [37m    [0;33m [0m              [1;37m          [0m [1m       [0m
-    ;$$; [33miIS[0;1;33m$$[0;1;37m$$[0;1;33mSl;[0;33m;[0;1;30m:     [0m               [33m     [0;37m  [0;33m [0m
+[1m[0m[1;30m[0;33m[0;1;33m[0;33m[0m[37m[0;33m[0m[1;37m[0m[1m[0m    ;$$; [33miIS[0;1;33m$$[0;1;37m$$[0;1;33mSl;[0;33m;[0;1;30m:     [0m               [33m     [0;37m  [0;33m [0m
     [1;30m;[0ml$l[1;30m;[0;33m;iI[0;1;33m$$╝²''[0m__[1;30m_[0m         __[1;30m_[0m   [33m.[0;1;33ma[0;1;37mg[0;1;33m,[0;33m._[0;37m  [0;1;30m_[0m_[1;30m_[0m     [1;30m_[0m__[1;30m_[0m        [1;30m_[0m_,,_[1;30m_[0m [33m`╚$[0;1;33m$[0;1;37mg[0;33m.[0m
      [37m;$$; [0;33ml[0;1;33m$╝''[0m.g$ª"╝$$;   .g$╝"º$y.[33ml[0;1;33m$[0;1;37m$[0;1;33ml[0;33m;[0;37m.g$²"╝$y.g$ª""²╚$b,[0;1;30m;[0m,g$╝º""²╚$b,[33m;$[0;1;33m$$[0;33ml[0;1;30m;[0m
      [1;30m;[0ml$l[1;30m;[0;33m`''[0;1;30m''[0m ╚$; [1;30m``[0ml$l[1;30m;[0m [1;30m;[0ml$l[1;30m;[0m [1;30m`[0m:$$;[33m`[0;1;33m$[0;33m''[0;37m;$$;[0;1;30m''[0m [1;30m;[0ml$$$$.[1;30m;[0m  [1;30m`[0m`$$,$$;[1;30m;''`[0m [1;30m`[0m;$$;[1;30m;[0;33m;[0;1;33m$l[0;33m;[0;1;30m::[0m

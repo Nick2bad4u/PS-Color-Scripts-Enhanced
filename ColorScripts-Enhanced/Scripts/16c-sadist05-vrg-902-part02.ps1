@@ -5,7 +5,7 @@
 # Source SHA-256: c137fc30c47978cdfe0a263e3f8a0ad6134540438daed7e7a4de38ebe0119b97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VRG-902.ANS by vaRgr (Sadist); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sexxi boi
 # SAUCE Author: vaRgr
 # SAUCE Group: Sadist
@@ -43,8 +43,7 @@ Write-Host '
 
 
 
-  [1;30m     [0m [1;30m        [0m
-
+[1;30m[0m[1;30m[0m
 
                     [30m█[0m
                      [30m█[0m

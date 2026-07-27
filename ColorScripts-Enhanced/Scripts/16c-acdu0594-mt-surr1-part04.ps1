@@ -5,7 +5,7 @@
 # Source SHA-256: 281b6d2aab3e30ccb25ed1c89278790d7cb31973ea9bc4dbf58e11182307c816
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-SURR1.ANS by Megatron (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Surrealistic Underground
 # SAUCE Author: Megatron
 # SAUCE Group: ACiD Productions
@@ -37,14 +37,8 @@ Write-Host '
 ───────────────────────────────────────────────────────────────────────────────
                 [1mS [0mu [1;30mr r e a l i s t i c  [0;1mU [0mn [1;30md e r g r o u n d[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m                                                                               [0m
-[1;30m                                                                               [0m
-[1;30m                                                                               [0m
-[1;30m                                                                               [0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m                                                                               [0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m
-                      [1m                 [0m                                        
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m───────────────────────────────────────────────────────────────────────────────[0m
+[1;30m[0m[1;30m───────────────────────────────────────────────────────────────────────────────[0m
+[1m[0m
 
    [1;30mM[0m     [1;30mE[0m     [1;30mG[0m     [1;30mA[0m     [1;30mT[0m     [1;30mR[0m     [1;30mO[0m     [1;30mN[0m     [1;30m∙[0m     [1;30mA[0m     [1;30mC[0m     [1;30mi[0m     [1;30mD[0m'

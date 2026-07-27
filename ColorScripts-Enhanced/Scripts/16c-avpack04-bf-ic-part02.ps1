@@ -5,7 +5,7 @@
 # Source SHA-256: ce634c2b0e7187d6376ba8532e54562785527e69db2a948e835120ceb7c28595
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-IC.ANS by Bad Foundation (avpack04); released in avpack04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -49,7 +49,7 @@ Write-Host '
 [34m░[0m             [1;35m▐[0;1;35;45m░ [0;35m▀  [0;1;35;45m░[0;35m▌    ▐[0;1;35;45m░[0;35m█  ▄[0;1;35;45m░░▒▒░[0;35m▌ ▀[0;1;35;45m▒░░[0;35m▄▄██ [0;1;35;45m░[0;35m▌    ▐[0;1;35;45m░[0;35m█▀▀[0;1;35;45m▒▒░░[0;35m▄▄█▀[0m            [34m░[0m
 [34m░[0m              [35m▀    ▀[0m      [35m▀  ▀▀▀▀▀▀[0m     [35m▀▀▀▀ ▀ ▀[0m      [35m▀[0m     [35m▀▀▀▀[0m              [34m░[0m
                                                 [1;35m▄███▄[0m
-[34m░    [0;1;37m#1[0;35m: [0;1;37m+[0m6[1;34m-[0;34m1[0;1;37m3[0m-[1;34m8[0;34m9[0;1;37m9[0m-[1;34m2[0;34m3[0;1;37m8[0m2  [1m#2: C[0mo[1;34mm[0;34mi[0;1;37mn[0mg [1mS[0mo[1;34mo[0;34mn[0m       [1;35m█[0;1;35;45m▓▒▒░░[0;35m█    [0;1;37m2[0m8[1;34m.[0;34m8[0m                 [34m░[0m
+[34m░    [0;1;37m  [0;35m  [0;1;37m [0m [1;34m [0;34m [0;1;37m [0m [1;34m [0;34m [0;1;37m [0m [1;34m [0;34m [0;1;37m [0m   [1m     [0m [1;34m [0;34m [0;1;37m [0m  [1m [0m [1;34m [0;34m [0m       [1;35m█[0;1;35;45m▓▒▒░░[0;35m█    [0;1;37m [0m [1;34m [0;34m [0m                 [34m░[0m
 [34m░[0m                                 [1;35m▄▄▄▄▄▄▄▄▄▄   ▀[0;1;35;45m▓▒░░[0;35m█▀[0m                         [34m░[0m
 [34m▒[0m                               [1;35m▄▀▀▀▀▀███████▄   [0;35m▀▀▀[0m           [1;35m▄▄[0m              [34m▒[0m
 [34m▒    [0;1;35m▄██▄▄  ▄███▄▄[0m     [1;35m▄██▄▄  ▄▀ ▄██▄▄ ████████▄▄███▄    ▄██▄  ▐[0;1;35;45m▓[0;1;35;40m▌    ▄▄[0m       [34m▒[0m

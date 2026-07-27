@@ -5,7 +5,7 @@
 # Source SHA-256: c660fc70eb80f3bdce06be9361f79401426e68024a43ef37c5a83a7e713a0048
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-EAS2.ANS by Defiant (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ease
 # SAUCE Author: Defiant
 # Lines: 1-48
@@ -58,5 +58,5 @@ Write-Host '
 [32m█[0;1;33;42m█▀[0;32m▀▀▀▀▀▀█████[0;30;42m░░░[0;32;40m▄▄▄▄█[0;1;32;42m░░[0;32m█▄ [0;34m▄ [0;32m▀▀[0;1;32;42m░░░[0;32m███▀▀▀███▀  █ [0;34m▐[0;1;34;44m▐██[0;34m█▌ [0;32m▐[0;30;42m░░[0;32;40m█████▄▄  ▄█[0;1;33;42m██▀[0;32m▀ [0;34m▄████[0m
 [34m░▄▄▄█[0;1;34;44m░[0;34m██▄▄▄▄ [0;32m▀▀▀▀███████▀▀ [0;34m█[0;1;34;44m▄[0;34m█▄▄▄▄▄▄▄▄[0;1;34;44m▄[0;34m▄▄▄▄▄[0;1;34;44m▄[0;34m▄▄▄[0;1;34;44m░▄███[0;34m█▄ [0;32m▀▀█████▀▀▀▀▀[0;1;33m▀[0;32m▀ [0;34m▄▄███▓██[0m
 [34m   ▀▀▀▀▓▓[0;1;34;44m░[0;34m████[0;1;34;44m▄[0;34m█▄▄▄▄▄▄▄▄▄[0;1;34;44m▄ [0;34m█[0;1;33;44mopped by dislogic (root)[0;1;34;44m▀██▄▄[0;34m▄▄▄▄▄▄▄[0;1;34;44m░░░░[0;34m██[0;1;34;44m░[0;34m██▀▀▀▒[0m
-       [34m░░   ▀▀▀▀▀▀█[0;1;34;44m▀▀▀▀▀▀▀▀░[0;1;33;44m6 1 3 - 8 3 4 - 0 2 9 2[0;33;44m░ [0;1;34;44m▐▀▀▀▀▀[0;34m▓▓▀▀▀▀▀▀▀[0m        [34m░[0m
+       [34m░░   ▀▀▀▀▀▀█[0;1;34;44m▀▀▀▀▀▀▀▀░[0;1;33;44m                       [0;33;44m░ [0;1;34;44m▐▀▀▀▀▀[0;34m▓▓▀▀▀▀▀▀▀[0m        [34m░[0m
                            [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ░[0m'

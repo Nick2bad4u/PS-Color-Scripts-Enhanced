@@ -5,7 +5,7 @@
 # Source SHA-256: fa5ae19519a6bcabb460cc098eef0fb8c73352765faa039c9e8ac2196e657a24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DM-NZ_2.ANS by Darkman (img-9408); released in img-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -43,7 +43,7 @@ Write-Host '
    [1;30m▀[0m                  [1;30m░░▀[0m               [1;30m░░▀[0m       [1;30m░░▀[0m             [1;30m▄▄▄[0;1;30;44m▓▓▒▒░   [0;1;34;44m▓▒░[0m
 [1;30m▀[0m                  [1;30m▄  ▀[0m              [1;30m▄  ▀[0m      [1;30m▄  ▀[0m            [1;30m▄[0;1;30;44m▓▓▒▒░░  [0;1;34;44m░░▒▒▓▓  [0m
                                                                [1;30m▀[0;1;30;44m▒▒░░ [0;1;34;44m░░▒▒▓▓█▓░  [0m
-                                           [1;30m2i7.795.3318[0m         [34m▀[0;1;34;44m░▒▒▓▓▓██▀▀▒░   [0m
+                                           [1;30m            [0m         [34m▀[0;1;34;44m░▒▒▓▓▓██▀▀▒░   [0m
                                            [1;30m28.8k UsR[0m         [1;30m▄[0;1;30;44m▓▓▓▓▒[0;1;34;44m▀▀██▀▀[0;1;30;44m▒▒▒[0;1;34;44m▓▒░ [0m
                                            [1;30mGiG w/ RoM    ▄[0;1;30;44m▓[0;1;34;44m░▒▄[0;1;30;44m▒▓▓▒▒░░▒░▒▒▓▒ [0;1;34m█[0;1;34;44m▓▒░[0m
                                            [1;30mMorE![0m         [1;30m▐[0;1;30;44m▓▓▒░[0;1;34;44m▒▓▄[0;1;30;44m▒░▒▓░░▒▓▓▒░[0;1;34;44m▐▓▒░[0m

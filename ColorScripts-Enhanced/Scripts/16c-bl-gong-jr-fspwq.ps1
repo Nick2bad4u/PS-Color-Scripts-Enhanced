@@ -5,7 +5,7 @@
 # Source SHA-256: 872e83fa78e14cf42d307b934ee528dc336c558b17a6b49e08266812e64ad30e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSPWQ.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FS password questionaire.
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -29,15 +29,4 @@ Write-Host '
 [33m▒ [0;37m [0;33m ░▀ [0;1;30m▐█[0;1;30;47m▓[0;1;30;40m░▀▀▀░▀▀██▄[0m                        [33m  [0m                [1;30m   [0m             [1;30m░░[0m
 [33m▀▌[0m    [1;30m▀▀▓███▐███▀░██▌▀[0m                                          [1;30m░░[0m
  [33m░░[0m     [1;30m▐▓█▌[0m [1;30m▓██▌███[0m                          [33m    [0m
-[33m [0m       [1;30m▀▀▀▀[0m  [1;30m▀▀▀▀▀[0m
-[33m [0m
-
-[37m [0;33m   [0m
-
-
-
-
-
-
-
-[1;30m--------░░----░--------------------------------------------------▒▒----------░▒-[0m'
+[33m [0m       [1;30m▀▀▀▀[0m  [1;30m▀▀▀▀▀[0m'

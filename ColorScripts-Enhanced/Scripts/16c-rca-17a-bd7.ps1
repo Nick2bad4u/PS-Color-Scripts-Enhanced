@@ -5,13 +5,12 @@
 # Source SHA-256: bb2c62d0c8e5c6e6fe833df5951150db7d78a99c6e0fd08f6b6151500b700f9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BD7.ANS by Blue Devil + Green Demon (rca-17a); released in rca-17a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
-[34m                                                                               [0m
-[34ma candle to light my dark [0;1;32m  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34mpath but it only illuminates my[0m
+[34m[0m[34ma candle to light my dark [0;1;32m  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34mpath but it only illuminates my[0m
 [34mdarkness to a extent[0;37m [0;34mI[0;32m▄▄[0;1;32;42m░▒[0;1;32;40m▓█▀▀▀[0;34mBlue Devil''s[0m   [1;32m▀▀▀▀▀▀▀▄▄▄▄[0;34msee the chaos that is [0m
 [34m                  [0;37m  [0;32m▄[0;1;32;42m░▒▓[0;1;32;40m▀▀[0m  [34m                      [0m     [1;32m▀▀▓██▄[0;34m                   [0m
 [34m                    [0;1;32;42m░▒[0;1;32;40m▓▌[0m         [34m       [0m                  [1;32m▓█[0;1;32;42m▒[0;32m▌[0;34m                  [0m

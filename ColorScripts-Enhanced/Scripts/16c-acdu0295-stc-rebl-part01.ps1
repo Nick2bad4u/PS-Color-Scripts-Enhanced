@@ -5,7 +5,7 @@
 # Source SHA-256: 60a94fe335721f03d0e1bf0db43879d2c4e6f79be9b27c47551d0162ef7ceb56
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-REBL.ANS by Stone The Crow (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rebellion
 # SAUCE Author: Stone The Crow
 # SAUCE Group: ACiD Productions
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m          [0m       [1m                                             [0m [1m   [0m
-
+[1m[0m[1m[0m[1m[0m
 [1;31m█▄▀ ▄█  ▄[0;1;31;45m█[0;1;31;40m    ▄[0;1;31;45m█[0;1;31;40m  █▀██▄[0;1;31;45m█[0;1;31;40m▄ ▀▄  █▄▄▀  [0;1;31;45m█[0;1;31;40m ▄▄[0;1;31;45m█[0;1;31;40m▀  ▄ [0;1;31;45m█[0;1;31;40m  ■▀   ▒ ▄[0;1;31;45m█[0;1;31;40m  ▒ [0;1;31;45m█[0;1;31;40m   ▄▒[0;1;31;45m█[0;1;31;40m▄  ▄▓[0;1;31;45m█[0;1;31;40m  ▄░[0m
 [1;31;45m████[0;1;31;40m [0;1;31;45m█[0;1;31;40m ▓[0;1;31;45m█[0;1;31;40m [0;1;31;41m░[0;1;31;40m  [0;1;31;45m████[0;1;31;40m  [0;1;31;45m█[0;1;31;40m▄█[0;1;31;45m█[0;1;31;40m█[0;1;31;45m█[0;1;31;40m▒[0;1;31;45m█[0;1;31;40m▄▓██[0;1;31;45m█[0;1;31;40m █[0;1;31;41m░[0;1;31;40m▄ [0;1;31;45m█[0;1;31;40m▀  [0;1;31;45m█[0;1;31;40m [0;1;31;45m███[0;1;31;40m▀  ▄ █ [0;1;31;45m█[0;1;31;40m▓[0;1;31;41m░[0;1;31;45m█[0;1;31;40m ▒[0;1;31;45m█[0;1;31;40m▓[0;1;31;45m█[0;1;31;40m▐ ▒[0;1;31;45m██[0;1;31;40m▓[0;1;31;45m███[0;1;31;40m▒█▀▄▄[0;1;31;45m██[0;1;31;40m▒[0m
 [1;31;45m████[0;1;31;40m▌[0;1;31;45m█[0;1;31;40m▒[0;1;31;45m███[0;1;31;41m▒[0;1;31;40m [0;1;31;45m█████[0;1;31;40m [0;1;31;45m███[0;1;31;40m [0;1;31;45m█[0;1;31;40m█[0;1;31;45m█[0;1;31;40m▓[0;1;31;45m██[0;1;31;40m██[0;1;31;45m██[0;1;31;40m▐[0;1;31;45m█[0;1;31;41m▒[0;1;31;45m█[0;1;31;40m▌[0;1;31;45m█[0;1;31;40m▄▐[0;1;31;45m█[0;1;31;40m ▒[0;1;31;45m████[0;1;31;40m░▐[0;1;31;45m█[0;1;31;40m▐[0;1;31;45m█[0;1;31;40m▒[0;1;31;45m██[0;1;31;41m▒[0;1;31;45m██[0;1;31;40m▓[0;1;31;45m███[0;1;31;40m [0;1;31;45m█[0;1;31;40m▓[0;1;31;45m██████[0;1;31;40m▓[0;1;31;45m██████[0;1;31;40m▓[0m

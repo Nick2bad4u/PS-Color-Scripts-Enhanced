@@ -5,7 +5,7 @@
 # Source SHA-256: 4ecc581eba7efa527bb97e2e43c0595e25741824fe78df75d58ecf01382d25c8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WI-SC.ANS by Wizard (moi-1096); released in moi-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -24,6 +24,4 @@ Write-Host '
                         ▓ [36m▄▄▄▄▄▄▄▄▄▓  ▓  ▓▄▄▄▓  ▓ [0;1;30m▒[0m
                         █ [36m█[0m           [36m█[0m         [36m█ [0;1;30m▓[0m
                         [1;30m█ [0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;30m█[0m
-                        [1;30m▀▀▀▀▀▀▀▀▀[0;1;36mS[0;36mT[0;1;30moNE Co[0;36mL[0;1;36mD[0;1;30m▀▀▀▀▀▀▀[0m
-                                   [1;30m  [0;36m  [0;1;36m    [0;1;30m                  [0m
-                              [1;30m([0;1;36m2[0;36mo[0;1;36m9[0;1;30m) [0;1;36m6[0;36m6[0;1;30m7-o9[0;36m8[0;1;36m1[0m'
+                        [1;30m▀▀▀▀▀▀▀▀▀[0;1;36mS[0;36mT[0;1;30moNE Co[0;36mL[0;1;36mD[0;1;30m▀▀▀▀▀▀▀[0m[1;30m[0;36m[0;1;36m[0;1;30m[0m[1;30m[0;1;36m[0;36m[0;1;36m[0;1;30m[0;1;36m[0;36m[0;1;30m[0;36m[0;1;36m[0m'

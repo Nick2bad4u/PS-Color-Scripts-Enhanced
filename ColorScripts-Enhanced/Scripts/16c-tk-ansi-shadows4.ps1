@@ -5,7 +5,7 @@
 # Source SHA-256: 39d858c6a7d7ca76e5cf73b7bc056b7d91ec5ec3aba43bdebf68d7ee1f25986c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SHADOWS4.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Shadows BBS Ad
 # SAUCE Author: Tank
 # SAUCE Group: NeXX
@@ -19,7 +19,7 @@ Write-Host '
  [1;32m│Sy[0;1;33msO[0;1;31mp:[0;1;35mSh[0;1;36mad[0;1;34mow[0;1;32mal[0;1;33mke[0;1;31mr[0m   [1;36m│[0m                      [34m┌──┬[0;1;34m────[0;36m────[0;1;36m────[0;1;37m───[0;1;36m────[0;36m────[0;1;34m───┬[0;34m──┐[0m
  [1;32m│C[0;1;33mo-[0;1;31mSy[0;1;35msO[0;1;36mp:[0;1;34mTa[0;1;32mnk[0;1;33m-T[0;1;31mom[0;1;35mca[0;1;36mt│[0m                      [34m└──[0;1;34m┐[0m [1;34m│_[0;36m_│[0m [36m┌[0;1;36m──┐[0m  [1;37m__[0m  [1;36m┌─[0;36m─┐[0m [36m│[0m  [1;34m│[0m [34m└──┐[0m
  [1;32m│[0;1;33mRu[0;1;31mnn[0;1;35min[0;1;36mg:[0;1;34mEm[0;1;32mul[0;1;33mex[0;1;31m\2[0m    [1;34m│[0m                      [34m└─[0;1;34m─┘[0m [1;34m│[0m  [36m│[0m [1;36m│──[0;1;37m│[0m [1;37m│[0m  [1;36m\[0m [1;36m│[0m  [36m│[0m [1;34m\/\/[0m [34m└──┘[0m
- [1;33m│N[0;1;31mum[0;1;35mbe[0;1;36mr:[0;1;34m(7[0;1;32m13[0;1;33m)5[0;1;31m83[0;1;35m-9[0;1;36m31[0;1;34m0│[0m          [1;36m░░░░░░░░░[0m             [1;36m┴[0m  [1;37m┴[0m [1;37m│[0;1;36m__/[0m [1;36m└[0;36m──┘[0m
+ [1;33m│ [0;1;31m  [0;1;35m  [0;1;36m  [0;1;34m  [0;1;32m  [0;1;33m  [0;1;31m  [0;1;35m  [0;1;36m  [0;1;34m │[0m          [1;36m░░░░░░░░░[0m             [1;36m┴[0m  [1;37m┴[0m [1;37m│[0;1;36m   [0m [1;36m└[0;36m──┘[0m
  [1;33m└[0;1;31m──[0;1;35m──[0;1;36m──[0;1;34m──[0;1;32m──[0;1;33m──[0;1;31m──[0;1;35m──[0;1;36m──[0;1;34m──┘[0m         [1;36m░░▒▒▒▒▒▒▒░░[0m
 [1;36m░░░░░░░░░░░░░░░[0;34m░░░░░░░░░░░░░[0;1;36m░░░░░▒▒▓▓▓▓▓▒▒░░░░░[0;34m░░░░░░░░░░░░░[0;1;36m░░░░░░░░░░░░░░░░░░░░[0m
 [1;36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;34m░░░░░░░░░[0;1;36m░░▒▒▒▒▒▒▓▓███▓▓▒▒▒▒▒▒▒▒[0;34m░░░░░░░░░[0;1;36m░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

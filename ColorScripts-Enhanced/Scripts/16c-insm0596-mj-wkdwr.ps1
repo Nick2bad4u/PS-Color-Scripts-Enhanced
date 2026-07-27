@@ -5,7 +5,7 @@
 # Source SHA-256: 84167fa1a69450cfb4506c2fc2f0b9235ad959c02c76193fa67861f70ce2dfc9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ!WKDWR.ANS by Majick (CAP/iNSOMNiA/VOiD); released in insm0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Weekend Warriors
 # SAUCE Author: Majick
 # SAUCE Group: CAP/iNSOMNiA/VOiD
@@ -35,5 +35,4 @@ Write-Host '
      [36;40m▀▀▀▀▀▀[0;37;40m▀▀[0m      [36;40m▀▀▀▀ [0;37;40m▀▀▀▀ [0;36;40m▀▀▀▀[0m     [36;40m▀▀▀▀[0m     [36;40m▀▀▀[0;37;40m▀  [0;36;40m▀▀▀▀[0;37;40m▀▀▀  [0;36;40m▀▀▀[0;37;40m▀[0m     [36;40m▀▀▀▀[0;37;40m▀▀[0m
                              [36;40m  [0;1;30;40m [0m [1m      [0;1;30m [0m [1m    [0;1;30m [0m [1m   [0;36m [0m
 [1;30m------------------------------[0;1;37m8[0m<[1;30m--[0;1;37m( [0msnippit here [1m)[0;1;30m------------------------------[0m
-       [1;30m [0;1;37m       [0;1;30m [0;1;37m        [0m      [1m   [0m        [1m   [0m          [1m [0m              [1m   [0m      [1m  [0m
-[1;30m--------------------------------------------------------------------------------[0m'
+[1;30m[0;1;37m[0;1;30m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;30m--------------------------------------------------------------------------------[0m'

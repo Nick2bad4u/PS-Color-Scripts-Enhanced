@@ -5,19 +5,13 @@
 # Source SHA-256: 59acf17ef10e162baf262eb923f953f8f9f67ddb7759de9853424adadc5aa74b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LE-BLEND.ANS by Leonardo (b2k-002); released in b2k-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
-                
-                             
-                                                
-                                                                    
 
-          
 
-                     
 
 
 [1;36m████████████████████████████████████████████████████████████████████████████████[0m

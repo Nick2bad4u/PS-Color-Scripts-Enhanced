@@ -5,7 +5,7 @@
 # Source SHA-256: aff594644a67fa9569f7e9ebe9e8e5046c110f26358cd528fc2d9197e0ecd617
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: alpha_king-acid-underworld01.ans by Alpha King (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Violate
 # SAUCE Author: Alpha King
 # SAUCE Group: Blocktronics
@@ -55,8 +55,7 @@ Write-Host '
 
              [32;40m   [0;37;40m u    [0;1;32;40mn[0m    d    e    [1;32mr[0m    w    [1;32m0[0m    r    [1;32ml[0m    d
 
-                [1;33m [0m     [32m      [0;37m              [0;32m            [0m
-
+[1;33m[0m[32m[0;37m[0;32m[0m
 
 
 

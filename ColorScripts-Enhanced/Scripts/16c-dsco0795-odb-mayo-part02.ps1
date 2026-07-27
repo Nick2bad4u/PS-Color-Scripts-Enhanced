@@ -5,7 +5,7 @@
 # Source SHA-256: 43634e74661b674463e1957e579f7dff336e2072ff1427bfdbdfa0b1a445d9c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ODB-MAYO.ANS by Ol' Dirty Bastard (READ THE INI FILE); released in dsco0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mayo
 # SAUCE Author: Ol' Dirty Bastard
 # SAUCE Group: READ THE INI FILE
@@ -56,6 +56,6 @@ Write-Host '
 [1;34;40m    [0;1;34;46m░[0;1;34;41m [0;35;41m▓[0;1;31;41m▓[0m [1;34;42m░[0;36;45m█[0;36;42m [0;36;44m▒[0;33;41m█[0;1;36;46m▓[0m [1;34;42m░[0;36;45m█[0;36;42m [0;36;44m▒[0;33;41m█[0;1;36;46m▓[0m [1;34;42m░[0;36;45m█[0;36;42m [0;36;44m▒[0;33;41m█[0;1;36;46m▓[0m [1;34;42m░[0;36;45m█[0;36;42m [0;36;44m▒[0;33;41m█[0;1;36;46m▓[0m [1;34;42m░[0;36;45m█[0;36;42m [0;36;44m▒[0;33;41m█[0;1;36;46m▓[0;32m▄▄▄▄▄▄▄▄[0;1;34;42m░[0;36;45m█[0;36;42m [0;36;44m▒[0;33;41m█[0;1;36;46m▓[0m [1;34;42m░[0;36;45m█[0;36;42m [0;36;44m▒[0;33;41m█[0;1;36;46m▓[0m [1;34;42m░[0;36;45m█[0;36;42m [0;36;44m▒[0;33;41m█[0;1;36;46m▓[0m [1;31;41m▓[0;35;41m▓ [0;1;34;46m░[0m
 [1;34;40m    [0;1;34;46m [0;1;36;41m░[0;35;41m█[0;1;31;41m█[0m                                                                [1;31;41m█[0;35;41m█[0;1;36;41m░[0;1;36;46m [0m
 [1;36;40m    [0;36;41m▓[0;1;36;41m▒[0;35;43m▒[0;1;31;43m░[0m       [1;30;40mm[0m           [1;30;40ma[0m           [1;30;40m-[0m            [1;30;40my[0m           [1;30;40mo[0m       [1;31;43m░[0;35;43m▒[0;1;36;41m▒[0;36;41m▓[0m
-[36;40m    [0;31;40m▀[0;36;40m▀[0;33;40m▀▀▀[0m        [1;30;40m6   0   4    -   2   4   1   -   0   3   6   4[0m        [33m▀▀▀[0;36m▀[0;31m▀[0m
+[36;40m    [0;31;40m▀[0;36;40m▀[0;33;40m▀▀▀[0m        [1;30;40m                                              [0m        [33m▀▀▀[0;36m▀[0;31m▀[0m
                                                             [30m▀▀▀▀▄▄▄▄▄▄▄▄[0m
                    [1;30m                                           [0m           [30m▀▀▀▀[0m'

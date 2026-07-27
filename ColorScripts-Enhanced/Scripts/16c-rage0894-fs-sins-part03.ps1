@@ -5,7 +5,7 @@
 # Source SHA-256: e8a2ac898ce0784b470fa7c78a9336d5007b6ef0984be7300ab3703799e5af77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-SINS.ANS by Fistandantilus (READ THE INI FILE); released in rage0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Immortal Sins (tm)
 # SAUCE Author: Fistandantilus
 # SAUCE Group: READ THE INI FILE
@@ -36,13 +36,9 @@ Write-Host '
 [1m [0;35m▀ ▄ ▄▀ ▄ ▀ ▀ ▄▀▄██▀██▄█████[0;1;35;45m▀[0;35m█[0;1;35;45m▄▀█▄█▄▄[0;35m█[0;1;35;45m▀▄█[0;35m█[0;1;35;45m▄▄▀[0;35m█[0;1;35;45m▄██▀▄▀[0;35m█[0;1;35;45m▀[0;35m█▀████▄█▀██▄▀ ▀▄█▀ ▄ ▀▄ ▀[0m
 [1;30m▄  ▄ ▄  ▄ ▄ ▄▄▄ ▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄ ▄▄▄ ▄ ▄  ▄ ▄  ▄[0m
 
-                      [1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [35m [0;1;35m  [0;1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m  [0;1m [0m [1;30m   [0;35m [0;1;35m [0m
-
+[1m[0m[1;30m[0;35m[0;1;35m[0;1m[0m[35m[0;1;35m[0;1m[0m[1;30m[0;35m[0;1;35m[0;1m[0m[1;30m[0;35m[0;1;35m[0;1m[0m[1;30m[0;35m[0;1;35m[0m
      [1;30m─[0m─[1m─  [0m [1;30m [0;35m [0;1;35m  [0;1;30m  [0;1m [0m [1;30m  [0;35m [0;1;35m  [0;1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m [0m
-                 [1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m [0m
-                 [1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [1;30m   [0;35m [0;1;35m [0m
-                 [1m [0m [1;30m [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m [0m
-
+[1m[0m[1;30m[0;35m[0;1;35m[0;1m[0m[1;30m[0;35m[0;1;35m[0m[1m[0m[1;30m[0;35m[0;1;35m[0;1m[0m[1;30m[0;35m[0;1;35m[0m[1m[0m[1;30m[0;35m[0;1;35m[0;1m[0m[1;30m[0;35m[0;1;35m[0m
      [1;30m─[0m─[1m─  [0m [1;30m  [0;1m [0m [1;30m        [0;35m [0;1;35m  [0;1m [0m [35m [0;1;35m [0m            [1m [0m [35m [0;1;35m  [0;1;30m  [0;1m [0m [1;30m          [0;35m [0;1;35m [0;1;30m [0;1m [0m [35m [0;1;35m [0;1;30m  [0;1m [0m [35m [0;1;30m  [0;1m [0m [35m [0;1;35m [0;1;30m [0m
      [1;30m─[0m─[1m─  [0m [1;30m  [0;1m [0m [1;30m  [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m [0m
      [1;30m─[0m─[1m─  [0m [1;30m  [0;35m [0;1;35m  [0;1m [0m [1;30m        [0;35m [0;1;35m  [0;1m [0m [35m [0;1;35m [0m

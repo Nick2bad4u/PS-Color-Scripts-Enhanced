@@ -5,7 +5,7 @@
 # Source SHA-256: 4a5c89c7e80af93b067672432e9881583a178363799d021c7cdb7f7e928396a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-UCTY.ANS by Technophreak (blde9404); released in blde9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 60-106
 # Columns: 1-80
 
@@ -36,23 +36,11 @@ Write-Host '
            [1;37mt    h    e[0m      [1;37mu    n    d    e    r    c    i    t    y[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
 
-                       [35m [0;1;35m [0;1;30m                         [0;1;35m [0;35m [0m
-
-          [35m2    [0;1;35mO    [0;1;30m9    [0;1;37m·    [0;1;30m6    8    3    [0;1;37m·    [0;1;30m3    6    [0;1;35m7    [0;35m3[0m
-
-               [35m [0;1;35m [0;1;30m                                          [0;1;35m [0;35m [0m
-                     [35m [0;1;35m [0;1;30m                             [0;1;35m [0;35m [0m
-
+[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m
+[35m[0;1;35m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;30m[0;1;35m[0;35m[0m
+[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m
                          [35m [0;1;35m [0m ┤                   [1;35m [0;35m [0m
-                          [35m [0;1;35m [0;1;30m                   [0;1;35m [0;35m [0m
-                           [35m [0;1;35m [0;1;30m                [0;1;35m [0;35m [0m
-                              [35m [0;1;35m [0;1;30m           [0;1;35m [0;35m [0m
-                           [35m [0;1;35m [0;1;30m                 [0;1;35m [0;35m [0m
-                      [35m [0;1;35m [0;1;30m                            [0;1;35m [0;35m [0m
-
-                              [35m [0;1;35m [0;1;30m          [0;1;35m [0;35m [0m
-                              [35m [0;1;35m [0;1;30m           [0;1;35m [0;35m [0m
-                       [35m [0;1;35m  [0;1;30m                         [0;1;35m [0;35m [0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
+[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m
+[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m[35m[0;1;35m[0;1;30m[0;1;35m[0;35m[0m[1;30m────────────────────────────────────────────────────────────────────────────────[0m
 [1;30m [0;1;37m                           ┤                                                  [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

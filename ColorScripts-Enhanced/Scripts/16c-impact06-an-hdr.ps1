@@ -5,7 +5,7 @@
 # Source SHA-256: 779c57e649727e930b88d6944b0389ef2ae59a414f780a40c90595251713951f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN!HDR.ANS by aneurysm (impact); released in impact06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: eyez
 # SAUCE Author: aneurysm
 # SAUCE Group: impact
@@ -25,8 +25,7 @@ Write-Host '
  [1;34m$"''y''$,[0;1;36m$$$$s,[0;36m$[0;37m [0;1;37m`"²$___$²"''[0;36myy[0;1;36m$$$$[0;36m$$$$$$$[0;1;36m$[0;36m7.[0;37m  [0;36m`yy[0;1;37m`"^²yyyS$^"''[0;36m.,s4$$[0;1;36m`s$$$$[0;1;34m,$''y`"$[0m
  [1;36my$$$[0m [1;34m''[0;1;36my$$$$''[0;36m,$,$yyyyyy[0;1;36m$$$$$$$$$$$[0;36m$$$$$[0;1;36m$$$[0;36m7.`$y$$[0;1;36m$$[0;36myyyyyy[0;1;36m$$[0;36m$$$$$$$,[0;1;36m`$$$$y[0;1;34m''[0m [1;36m,sS$[0m
  [1;36m`$"''y$$$$$''[0m [36m$[0;1;30m [0;36m$$$$$$$$$[0;1;36m$$$$[0;36my$$$[0;1;36m$[0;36m$$$$$$$[0;1;36m$$$$$[0;36my$$$$$$$$$$$$$$$$$$$[0;1;30m [0;36m$[0;37m [0;1;36m`$$$$$y`"74[0m
-[36m   [0;32m                       [0;36m [0;32m  [0;1;32m   [0;32m  [0;1;32m   [0;32m  [0;1;32m  [0;32m  [0;1;32m   [0;32m  [0;1;32m [0m
-[33m.,a@&2$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$R&@a,.[0m
+[36m[0;32m[0;36m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0m[33m.,a@&2$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$R&@a,.[0m
 [33m$S÷²"²÷S$$$S÷²"²÷S$$$S÷²"²÷S$$$S÷²"²÷S$$$S÷²"²÷S$$$S÷²"²÷S$$$S÷²"²÷S$$$S÷²"²÷S$$[0m
 [1;30m,sS$^$Ss.[0;33m8[0;1;30m,sS$^$Ss.[0;33m8[0;1;30m,sS$^$Ss.[0;33m8[0;1;30m,sS$[0;33m8[0;1;30m$Ss.[0;33m8[0;1;30m,sS$^$Ss.[0;33m8[0;1;30m,sS$[0;33m8[0;1;30m$Ss.[0;33m8[0;1;30m,sS$^$Ss.[0;33m8[0;1;30m,sS$$$$Ss.[0m
 [1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;1;30m$[0;32mii[0;1;30m$[0;33m8[0;32m$[0;33m8[0;1;30m$[0;32mi[0;1;30m$[0m

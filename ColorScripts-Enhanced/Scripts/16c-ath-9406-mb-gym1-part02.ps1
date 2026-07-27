@@ -5,7 +5,7 @@
 # Source SHA-256: 2412be4e0a0e3c13e54375f4ca7ac9064dc5f6ee0b312f26fa274d2841ba3942
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-GYM1.ANS by Mabus (ath-9406); released in ath-9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 39-70
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
          [1;33;43m▒▒▒▒▒▒▒▒[0m   [1;33;43m▒▒▒▒▒▒▒▒[0m               [34m░▒▓ [0;1;30mA[0;34ml[0;1;30ml B[0;34mau[0;1;30md S[0;34muppor[0;1;30mt [0;34m▓▒░[0m
           [1;33;43m▒▒▒▒▒▒▒▒[0m   [1;33;43m▒▒▒▒▒▒▒[0m               [34m░▒▓ [0;1;30mG[0;34mig[0;1;30ms T[0;34mo [0;1;30mD[0;34mownloa[0;1;30md [0;34m▓▒░[0m
            [1;33;43m▒▒▒▒▒▒▒[0m   [1;33;43m▒▒▒▒▒▒[0m                [34m░▒▓[0m                  [34m▓▒░[0m
-           [1;33;43m▒▒▒▒▒▒▒[0m  [1;33;43m▒▒▒▒▒▒▒[0m                [34m░▒▓  [0;1;34m(215) 699.8796  [0;34m▓▒░[0m
+           [1;33;43m▒▒▒▒▒▒▒[0m  [1;33;43m▒▒▒▒▒▒▒[0m                [34m░▒▓  [0;1;34m                [0;34m▓▒░[0m
           [1;33;43m▒▒▒▒▒▒▒[0m   [1;33;43m▒▒▒▒▒▒[0m                 [34m░▒▓  [0;1;34m(XXX) NODE.TWO  [0;34m▓▒░[0m
           [1;33;43m▒▒▒▒▒▒[0m   [1;33;43m▒▒▒▒▒▒▒[0m                 [34m░▒▓[0m                  [34m▓▒░[0m
          [1;33;43m▒▒▒▒▒▒▒[0m   [1;33;43m▒▒▒▒▒▒[0m
@@ -40,5 +40,4 @@ Write-Host '
       [1;33;43m▒▒▒▒▒▒[0m   [1;33;43m▒▒▒▒▒▒[0m
      [1;33;43m▒▒▒▒▒▒[0m    [1;33;43m▒▒▒▒▒▒[0m
 [1;30m· ·─ ─ ─ ──[0;34m─ [0;1;30m─[0;34m────[0;1;34m───[0;34m─[0;1;34m───[0;36m─[0;1;34m─[0;36m─────[0;1;36m─[0;36m─[0;1;36m──[0;1m───────[0;1;36m────[0;36m─[0;1;36m─[0;36m─[0;1;36m─[0;36m────[0;1;34m───[0;34m──[0;1;34m──[0;34m── [0;1;30m─── ─ ─ ─ ·  ·[0m
-                    [1;32m  [0;32m     [0;1;32m [0;32m   [0;1;32m    [0;32m   [0;1;32m [0;32m   [0;1;32m [0;32m    [0;1;32m [0;32m     [0;1;32m [0;32m    [0;1;32m  [0m
-[1;32m [0;1;30m· ·── ── ─[0;34m──[0;1;30m─[0;34m───[0;1;34m─[0;34m─[0;1;34m─[0;34m─[0;1;34m───[0;36m──[0;1;34m─[0;36m───[0;1;36m──[0;36m─[0;1;36m───[0;1m─[0;1;36m─[0;1m──────[0;1;36m───[0;36m──[0;1;36m──[0;36m─[0;1;34m─[0;36m─[0;1;34m─[0;36m─[0;1;34m────[0;34m──[0;1;34m─[0;34m──[0;1;30m── ── ──· ··[0m'
+[1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0m[1;32m [0;1;30m· ·── ── ─[0;34m──[0;1;30m─[0;34m───[0;1;34m─[0;34m─[0;1;34m─[0;34m─[0;1;34m───[0;36m──[0;1;34m─[0;36m───[0;1;36m──[0;36m─[0;1;36m───[0;1m─[0;1;36m─[0;1m──────[0;1;36m───[0;36m──[0;1;36m──[0;36m─[0;1;34m─[0;36m─[0;1;34m─[0;36m─[0;1;34m────[0;34m──[0;1;34m─[0;34m──[0;1;30m── ── ──· ··[0m'

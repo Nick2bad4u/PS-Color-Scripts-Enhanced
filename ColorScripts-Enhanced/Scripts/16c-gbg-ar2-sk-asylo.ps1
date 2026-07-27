@@ -5,7 +5,7 @@
 # Source SHA-256: ddc1839cebe3a8ea822f121d314a2e9d9c8c0891f49edc9ee4c17bd396b59af9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-ASYLO.ANS by Sike (tRASH - gARBAGE!); released in gbg-ar2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: aSYLUM anskii login!
 # SAUCE Author: Sike
 # SAUCE Group: tRASH - gARBAGE!
@@ -42,22 +42,16 @@ Write-Host '
 [37m  [0;33m`S$$$$$$$$$$$$[0;37m [0;33m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37m [0;33m$$$$$$$$$$$$S''[0m
    [33m`S$$$$$$$$$$$[0;37m [0;33m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37m [0;33m$$$$$$$$$$$S''[0m
     [33m$$$$$$$$$$$i[0;37m [0;33m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37m [0;33mi$$$$$$$$$$$[0m
-[37m [0;1;36m                                                                         [0m
-[1;34md$$$$$$$$$$$$$$$[0;1;30ms[0;1;34m$$$$t [0;1;36m`S$$''[0;1;34m d$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;30ms[0;1;34m$$$$$$$$$$$$$$$b[0m
+[37m[0;1;36m[0m[1;34md$$$$$$$$$$$$$$$[0;1;30ms[0;1;34m$$$$t [0;1;36m`S$$''[0;1;34m d$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;30ms[0;1;34m$$$$$$$$$$$$$$$b[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$$$t [0;1;36m`$ [0;1;30md[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$$$$$t [0;1;36m''[0;1;34m.$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
  [1;34m`²S$$$$S²''"`²S$$$$S²''"`²S$$$$S²''"`S$$$$S²''"`²S$$$$S²''"`S$$$$S²''"`S$$$$S²''[0m
 
-[1;36m    [0m        [1;36m                                                 [0m
-
+[1;36m[0m[1;36m[0m
 [36m [0;1;34mthe[0m   [1;36m.s$$$$Ss.[0m [1;36m.s$$$$Ss.[0m [1;36m.s$[0;36m [0;1;36m$$Ss.[0m [1;36m.s$[0m       [1;36m.s$[0m [1;36m$$Ss.[0m [1;36m.s$-s-$$Ss.[0m
 [36m   [0m    [1;36m$$$[0m [1;36m$$$$$[0m [1;36m$$$[0m [1;36m$$$$$[0m [1;36m$$$[0m [1;36m$$$$$[0m [1;36m$$$[0m       [1;36m$$$[0m [1;36m$$$$$[0m [1;36m$$$[0m [1;36m$[0m [1;36m$$$$$[0m
 [36m  [0;37m [0;36m [0m   [1;36m$²$[0m [1;36m$²"²$[0m [1;36m`"²s.sss.[0m [1;36m`"²s$²"²$[0m [1;36m$²$[0m       [1;36m$²$[0m [1;36m$²"²$[0m [1;36m$²$[0m [1;36m$ $²"²$[0m
-[36m  [0;37m  [0;36m [0;37m  [0;1;34m         [0m     [1;34m     [0m     [1;34m     [0m [1;34m   [0m       [1;34m   [0m [1;34m     [0m [1;34m   [0m [1;34m [0m [1;34m     [0m
-[36m  [0m   [36m [0;37m [0;1;34m$$$[0m [1;34m$$$$$[0m [1;34m$Ss[0m [1;34m$$$$$[0m [1;34m$Ss[0m [1;34m$$$$$[0m [1;34m$$$[0m [1;34m$$$Ss[0m [1;34m$$$[0m [1;34m$$$$$[0m [1;34m$$$[0m   [1;34m$$$$$[0m
+[36m[0;37m[0;36m[0;37m[0;1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[36m  [0m   [36m [0;37m [0;1;34m$$$[0m [1;34m$$$$$[0m [1;34m$Ss[0m [1;34m$$$$$[0m [1;34m$Ss[0m [1;34m$$$$$[0m [1;34m$$$[0m [1;34m$$$Ss[0m [1;34m$$$[0m [1;34m$$$$$[0m [1;34m$$$[0m   [1;34m$$$$$[0m
 [36m  [0m    [36m [0;1;34m$$$[0m [1;34m$$$$$[0m [1;34m$$$[0m [1;34m$$$$$[0m [1;34m$$$[0m [1;34m$$$$$[0m [1;34m$$$[0m [1;34m$$$$$[0m [1;34m$$$[0m [1;34m$$$$$[0m [1;34m$$$[0m   [1;34m$$$$$[0m
-[36m   [0;37m  [0;36m [0;37m [0;1;34m$$$[0m [1;34m$$²"''[0m [1;34m$$$_$$²"''[0m [1;34m$$$_$$²"''[0m [1;34m$$$_$$²"''[0m [1;34m$$$_$$²"''[0m [1;34m$$$[0m   [1;34m$$²"''[0m
-
-
-[1;36m     [0m     [1;36m+ 3 2 - 5 9 - 3 3 3 3 3 5[0m [1;36m   + 3 2 - 5 9 - 3 2 4 0 9 4[0m'
+[36m   [0;37m  [0;36m [0;37m [0;1;34m$$$[0m [1;34m$$²"''[0m [1;34m$$$_$$²"''[0m [1;34m$$$_$$²"''[0m [1;34m$$$_$$²"''[0m [1;34m$$$_$$²"''[0m [1;34m$$$[0m   [1;34m$$²"''[0m'

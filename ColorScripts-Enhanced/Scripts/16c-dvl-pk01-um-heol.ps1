@@ -5,7 +5,7 @@
 # Source SHA-256: f16989a48bbf6f447d0ddd5e3d79cdf80bb86da3795df56d0ec15d4b69b30641
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UM-HEOL.ANS by uM! (dVL_fRC); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hS!oLDCHooL!
 # SAUCE Author: uM!
 # SAUCE Group: dVL_fRC
@@ -23,8 +23,7 @@ Write-Host '
      |             [36m/____[0;32m___[0;36m_[0;32m\[0;37m [0;36m_____/[0m      [36m/__[0;32m____[0;36m___|[0;32m___[0;36m__[0;32m|[0m          [1;30m|[0m
      [1;30m|[0m                                                               |
      [1;30m|[0m                                                               [1;30m|[0m
-    [1;30m  [0m [1;30m  [0m         [1m [0m    [1m [0m      [1m [0m     [1m [0m       [1m [0m     [1m [0m       [1m [0m       [1;30m  [0m  [1;30m [0m 
-     |                                                               [1;30m|[0m
+[1;30m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m[1;30m[0m     |                                                               [1;30m|[0m
 [36m     [0;37m|[0m                [32m__[0;36m____[0;37m   [0;32m___[0;36m____  [0;37m [0;32m___[0;36m__[0;37m [0;36m__[0m          [36m__[0;32m___ [0;37m    |[0m
 [36m     [0;37m|    [0;36m____[0;32m___[0;37m   [0;36m/[0;32m''[0m     [36m/[0;37m  [0;36m/ [0;1;37me    [0;36m/ [0;37m [0;32m/    [0;36m/ [0;37m [0;36m/[0;37m [0;32m_____[0;36m__[0;37m [0;36m/[0;37m [0;36m__[0;37m  [0;32m\    [0;37m|[0m
 [36m     [0;1;30m|[0m__[1;30m_[0;36m_\ ____[0;32m|[0;36m_./[0;37m  [0;32m// [0;36m_/__/  // _/__[0;32m/[0;37m [0;36m//[0;37m [0;36m/[0;37m [0;36m/_[0;37m [0;36m/[0;37m [0;1;37me [0m   [36m/|[0;37m  [0;36m\/[0;37m [0;32m_/ [0;37m<-[0;1;30m-''[0m

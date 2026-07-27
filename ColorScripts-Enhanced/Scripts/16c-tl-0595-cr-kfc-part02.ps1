@@ -5,7 +5,7 @@
 # Source SHA-256: faa42448a694186a8f9439f02941207a12cf3cea0022e37585a6ffd82348c171
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-KFC.ANS by Christopher Robin (TekLordZ); released in tl-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Kfc
 # SAUCE Author: Christopher Robin
 # SAUCE Group: TekLordZ
@@ -41,10 +41,8 @@ Write-Host '
 [31m          [0;37m [0;1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;35m [0;31m              [0m
 [31m          [0;1;31m [0;1;30m [0m [1;31mK[0;1;30m [0;31mE[0;1;30m N T U C K Y    F R I E D [0m  [1;30m    C H I C K [0;31mE[0;1;30m [0;1;31mN[0m
 [1;30m          [0m
-                    [1;30m                                    [0m
-[31m_______________________________________________________________________________ [0m
-[1;30m                                                                              [0m
-[31m------------------------------------------------------------------------------- [0m
+[1;30m[0m[31m_______________________________________________________________________________ [0m
+[1;30m[0m[31m------------------------------------------------------------------------------- [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
 [34m█[0;37m [0;1;37;47m▒▓█[0;1;37;40m▀[0;1;37;47m█[0m [1;47m▒▓█[0;1;40m▀[0;1;47m█[0m [34m█[0;37m [0;1;37m                                            [0m
 [34m█[0;37m [0;1;37;47m░▒▓[0;1;37;40m▄▄[0m [1;47m░▒▓[0m [34m▄▄█[0;37m [0;1;37m             [0;1;34m [0;1;37m          [0;1;34m [0;1;37m       [0;1;34m  [0;1;37m           [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 146b93fd1d42581119a913b5b9f934254d65df81a7a0211074355aca745bf974
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TPCACID1.ANS by Blade Runner (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 37-63
 # Columns: 1-80
 
@@ -25,9 +25,7 @@ Write-Host '
 [1;30;47m▀ [0;1;37;47m▀▀▀▀▀▀[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀ [0;1;37;47m▀▀▀▀▀▀[0m▀              [1;30m▄██[0;1;30;47m▀ [0;1;37;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀    [35m│[0m
 [1;30m████▀ ▄███[0;1;30;47m████[0;1;30;40m▀[0m                [1;30;40m▄███████████████████▀[0m
 
-[31m [0;1;31m   [0;31m [0;1;31m  [0;1;37m  [0;1;36m  [0;1;34m [0;36m  [0;1;34m [0;1;36m  [0;1;37m  [0m
-          [31m [0;1;31m  [0;31m [0;1;31m [0;31m [0m        [37m [0;1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m   [1;30m    [0;1;37m [0m    [1;30m       [0m 
-
+[31m[0;1;31m[0;31m[0;1;31m[0;1;37m[0;1;36m[0;1;34m[0;36m[0;1;34m[0;1;36m[0;1;37m[0m[31m[0;1;31m[0;31m[0;1;31m[0;31m[0m[37m[0;1;30m[0;1;37m[0m[1;30m[0;1;37m[0m[1;30m[0;1;37m[0m[1;30m[0m
                       ╓── [1;30m    [0;1;36m  [0;36m [0;1;34m [0;34m [0;1;32m  [0;1;31m    [0;31m      [0;1;30m   [0m ──╖
 [1m▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄▄ ▄[1;30m▄ ▄ [0m║                              ║ [1;30m▄ ▄[0m▄ ▄▄▄▄▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1m▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀ ▀[1;30m▀ ▀ ║ [0;1;31mCe[0;31mleri[0;1;31mty[0;1;30m·[0;1;34m1[0;1;30m.[0;34m4[0;37mo[0;1;30m··[0;1;34m3[0mo[1;30mo·[0;1;32mMeg[0;32maby[0;1;32mtes [0;1;30m║ ▀ ▀[0m▀ ▀▀▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀[0m
@@ -35,4 +33,4 @@ Write-Host '
 [1m▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀ ▀[1;30m▀ ▀ ║  [0mo[1;30m-[0m5[1;30m·D[0ma[1;30my·W[0mare[1;30mz··[0;1;34m9[0;34m6[0;37mo[0;1;30mo[0;1;34m+[0;1;30m·O[0mnly[1;30m!  ║ ▀ ▀[0m▀ ▀▀▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1m▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄▄ ▄[1;30m▄ ▄ ║    [0;1;35mN[0;35mo[0;1;30m·[0;1;35mR[0;35mati[0;1;35mo[0;1;30m·[0;1;35mf[0;35mo[0;1;35mr[0;1;30m·[0;1;35mLD[0;1;30m·[0;1;35mU[0;35mser[0;1;35ms[0m     [1;30m║ ▄ ▄[0m▄ ▄▄▄▄▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1m▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀ ▀[1;30m▀ ▀ [0m║                              ║ [1;30m▀ ▀[0m▀ ▀▀▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                      ╙───·[1;30m· · [0m[[1;32m3[0mo[32m5[0;37m][0;1;30m.[0;34m2[0;1;34m3[0;1;36m3[0;1;30m.[0;34m5[0;1;34m5[0;1;36m9[0mo [1;30m· ·[0m· ──╜[0m'
+                      ╙─── [1;30m    [0m [1;32m [0m [32m [0;37m [0;1;30m [0;34m [0;1;34m [0;1;36m [0;1;30m [0;34m [0;1;34m [0;1;36m [0m  [1;30m   [0m  ──╜[0m'

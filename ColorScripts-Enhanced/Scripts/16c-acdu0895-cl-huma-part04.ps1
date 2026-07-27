@@ -5,7 +5,7 @@
 # Source SHA-256: 7453ec7b541c944604ad8b8cb905863ae0bccd0abb38ab960b1304aece08bd79
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-HUMA.ANS by Crime Lord (ACiD Productions); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Huma
 # SAUCE Author: Crime Lord
 # SAUCE Group: ACiD Productions
@@ -41,7 +41,7 @@ Write-Host '
 [1;30m███▓█████████████████████████▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓███████▓▓█████████▓████████████[0m
 [1;30m██████████████████▓▀▀▀                                ▀▀▀▀▓████████████████████[0m
 [1;30m████████████████▓▀  [0m                  Huma                  [1;30m▀▓█████████████████[0m
-[1;30m███████████████▓ [0m  [1;30m [0m    SysOp - Lord Jazz . 619/485/6741      [1;30m▓████████████████[0m
+[1;30m███████████████▓ [0m  [1;30m [0m                                          [1;30m▓████████████████[0m
 [1;30m█████████████▓▒ [0m   [1;30m [0m     ACiD Member Board . Bleach WHQ        [1;30m▒▓██████████████[0m
 [1;30m▓██▓████████▓▒[0m     [1;30m [0m Runnin da d0pest, pHaTest Obv/2 around     [1;30m▒▓████████████▓[0m
 [1;30m▀▒▓███████▓▒░[0m      [1;30m [0m                                             [1;30m░▒▓█████████▓▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5fdb413e2b25af6c460b0d5de26e89c2d8a70af8fc031bb7413b78c872349a36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-PALAC.ANS by Mendator (Stile prod.); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Palace of Darkness
 # SAUCE Author: Mendator
 # SAUCE Group: Stile prod.
@@ -26,12 +26,8 @@ Write-Host '
         [1;30m▀■▄■▀[0m       [1;30m▐▌[0m [1;30m▐▌[0m          [1;30mof [0;35mDarkness[0m
                      [1;30m▀■▀[0m
 
-                        [1;35m [0;35m    [0;1;30m [0;1;37m [0;1;35m [0;35m    [0;1;30m [0;1;35m [0;35m  [0;1;30m [0;1;35m [0;35m  [0;1;30m [0;1;35m [0;35m   [0;1;30m [0;1;35m [0;35m     [0;37m [0m                [1;37m     [0m
-                     [1;35m [0;35m       [0;1;30m [0;1;37m [0;1;35m [0;35m        [0;1;30m [0;1;35m [0;35m  [0;1;37m [0;1;30m [0;1;37m [0;1;35m [0;35m   [0;1;30m [0;1;35m [0;35m  [0;1;37m [0m               [1m     [0m
-                    [1;35m [0;35m        [0;1;30m [0;1;37m [0;1;35m [0;35m    [0;1;35m [0;35m    [0;1;30m [0;1;35m [0;35m   [0;1;37m [0;1;30m [0;1;37m [0;1;35m [0;35m     [0;1;30m [0;1;35m [0;35m  [0m
-                                   [1;37m                                           [0m
-                        [1;35m [0;35m          [0;1;35m [0;35m          [0;1;30m [0;1;35m [0;35m      [0;32m [0;1;35m [0;35m [0;32m [0m             [32m       [0m
-
+[1;35m[0;35m[0;1;30m[0;1;37m[0;1;35m[0;35m[0;1;30m[0;1;35m[0;35m[0;1;30m[0;1;35m[0;35m[0;1;30m[0;1;35m[0;35m[0;1;30m[0;1;35m[0;35m[0;37m[0m[1;37m[0m[1;35m[0;35m[0;1;30m[0;1;37m[0;1;35m[0;35m[0;1;30m[0;1;35m[0;35m[0;1;37m[0;1;30m[0;1;37m[0;1;35m[0;35m[0;1;30m[0;1;35m[0;35m[0;1;37m[0m[1m[0m[1;35m[0;35m[0;1;30m[0;1;37m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;30m[0;1;35m[0;35m[0;1;37m[0;1;30m[0;1;37m[0;1;35m[0;35m[0;1;30m[0;1;35m[0;35m[0m                                   [1;37m                                           [0m
+[1;35m[0;35m[0;1;35m[0;35m[0;1;30m[0;1;35m[0;35m[0;32m[0;1;35m[0;35m[0;32m[0m[32m[0m
                     [37m   [0;1;30m■[0m [1;36mN[0;36mode[0;1;36m [0;36m#[0;1;36m1[0m [1;30m■[0m [1;30m+[0;1;36m4[0;36m6[0;1;30m-[0;1;36m1[0;36m1[0;1;30m-[0;1;36m1[0;36m22953[0;1;37m [0m [1;30m■[0;1;37m [0;1;36m2[0;36m8[0;1;30mk[0;1;36m8[0m [1;30m■[0m
-                       [1;30m■[0m [1;36mN[0;36mode[0;1;36m [0;36m#[0;1;36m2[0m [1;30m■[0m [1;30m+[0;1;36m4[0;36m6[0;1;30m-[0;1;36m1[0;36m1[0;1;30m-[0;1;36m1[0;36m6[0;1;30m/[0;1;36m1[0;1;30m-[0;1;36m9[0;36m6[0;1;37m [0;1;30m■[0;1;37m [0;1;36m2[0;36m8[0;1;30mk[0;1;36m8[0m [1;30m■[0m
+                       [1;30m■[0m [1;36m [0;36m   [0;1;36m [0;36m [0;1;36m [0m [1;30m■[0m [1;30m [0;1;36m [0;36m [0;1;30m [0;1;36m [0;36m [0;1;30m [0;1;36m [0;36m [0;1;30m [0;1;36m [0;1;30m [0;1;36m [0;36m [0;1;37m [0;1;30m■[0;1;37m [0;1;36m [0;36m [0;1;30m [0;1;36m [0m [1;30m■[0m
                        [1;30m■[0m [1;36mN[0;36mode[0;1;36m [0;36m#[0;1;36m3[0m [1;30m■[0m [1;30m+[0;1;36m4[0;36m6[0;1;30m-[0;1;36m1[0;36m1[0;1;30m-[0;1;36mS[0;36mOON[0;1;30m![0m [1m [0m [1;30m■[0;1;37m [0;1;36m2[0;36m8[0;1;30mk[0;1;36m8[0m [1;30m■[0;1;37m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b12cf6707b5e875997582dd2f2c67c34178327fd7ea482ad0de833a46a5990c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZB!COL30.ANS by Zubfatal (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 132-178
 # Columns: 1-80
 
@@ -34,10 +34,7 @@ Write-Host '
 [1;30m | .[0;1;37m`4s┐,..,s7._[0;1;30m`[0;1;37m_.s7''4s._[0;1;30m`[0;1;37m_.s7''$s._[0;1;30m`[0;1;37m_.s7''4s┐.7.┌s7''  [0;1;30m|[0m     [1m@DLFILES@ [0mfiles [1;30m| |[0m
 [1;30m | $i┐,._   _.,┌ [0m, [1;30m┐,._    _.,┐i[0m                      [1;30m`---------------------'' |[0m
 [1;30m       ┘    [0m   ┐   ┐   [1;30m    └      [0m                                            [1;30m [0m
-[1;30m      [0m                       [1;30m     [0;1;37m          [0m            [1m         [0m             [1;30m [0m
-[1;30m     [0m                         [1;30m    [0;1;37m         [0m                                   [1;30m [0m
-[1;30m      [0m    [1m      [0m   [1m  [0m         [1;30m    [0m                [1m      [0m [1m         [0m            [1;30m [0m
-[1;30m | i: [0mi:  [1ml''    [0m:  [1ml''[0m      :l [1;30ml''[0m                                              [1;30m|[0m
+[1;30m[0m[1;30m[0;1;37m[0m[1m[0m[1;30m[0m[1;30m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1;30m | i: [0mi:  [1ml''    [0m:  [1ml''[0m      :l [1;30ml''[0m                                              [1;30m|[0m
 [1;30m | li [0ml.  [1m`[0m     :  [1m`[0m       .l [1;30mi -+------------ [0;1;37mi∙~"²b [0;1;30m----------------------- |[0m
 [1;30m | $l [0m:i.       `.        .i: [1;30m$. |  [0;1;37m.d²"~∙∙∙~"²l [0;1;30m:: [0;1;37ml  .d²"~∙~"²bid²"~∙~"²b.  [0;1;30m|[0m
 [1;30m | $$. [0m`4s._ _.s''`4s._ _.s7'' [1;30m,$: |  [0;1;37ml''[0;1;30m.:''[0;1;37m.i [0;1;30m:.[0;1;37m"┘ [0;1;30m:: [0;1;37m└"~i''[0;1;30m.: [0;1;37ml [0;1;30m:.[0;1;37m`l''[0;1;30m.: [0;1;37ml [0;1;30m:.[0;1;37m`l  [0;1;30m|[0m

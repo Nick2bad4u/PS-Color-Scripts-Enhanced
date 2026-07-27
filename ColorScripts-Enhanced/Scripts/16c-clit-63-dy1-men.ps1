@@ -5,7 +5,7 @@
 # Source SHA-256: 3ab0bf140f2f13561fe785821e187f445f0fbceb2e97011e92897cb8de235eb1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dy1-men.ans by Discyple (clit-63); released in clit-63 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -24,8 +24,7 @@ Write-Host '
      [35m$$$b.[0m     [37m`  `"²┘⌂[0;1;37mY│$$$$$$s%#S$$$$''  .d$[0m''
      [35m$$$$$b,  ,[0m          [37m`^"²└*┘`└[0;1;37m$$$$'' ,d$$[0m''
      [35m$$$$$$$b┐.b┐,[0m         [33m, [0;35m._  [0;37m``^"└*[0;1;37md$$$[0m''  [35m,[0m     [1;30mIT''S A PICTURE OF A BIRD[0m
-     [35m                      [0;1;31m  [0;1;35m [0;1;33m [0m              [35m  [0m     [1;30m                        [0m
-     [35m$$$$$$$$$$$$$$$[0;1;35m$$$[0;35m$   [0;1;31m$ [0;1;33m│l[0m          `  [35m,$$[0m     [1;30m... IMAGINE THAT.[0m
+[35m[0;1;31m[0;1;35m[0;1;33m[0m[35m[0m[1;30m[0m     [35m$$$$$$$$$$$$$$$[0;1;35m$$$[0;35m$   [0;1;31m$ [0;1;33m│l[0m          `  [35m,$$[0m     [1;30m... IMAGINE THAT.[0m
      [35m$$$$$$$$$$$$$$$[0;1;35m$$$[0;35m$   [0;1;33m$ ║$    [0;35m$b┐.    ,$$$[0m
      [35m$$$$$$$$$$$$$$$$$│''   [0;1;33m$ l$    [0;35ml[0;1;35m$$[0;35m$$b┐d$$$$[0m
      [35m$$$$$$$$$$$$S⌂*┘`  [0;33m`  [0;1;33m` $$    [0;35m`└*⌂⌂*┘` $$$[0m

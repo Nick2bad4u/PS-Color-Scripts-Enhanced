@@ -5,7 +5,7 @@
 # Source SHA-256: 75e5f420554fe638d9a2116f6647a2e1d261526ce83bf7aa24cb5f987a9f6028
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-NETW.ANS by Clorox Cowboy (cran1094); released in cran1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 47-91
 # Columns: 1-80
 
@@ -32,7 +32,7 @@ Write-Host '
 [30;42m▓▓▓▓▓▓▓███▒▒▒░░░░░         ░░░░░░░░░░██▓▓▓▒░░░░    █░░░[0;32;40m░[0;30;47m▒[0;1;30;40m▓░[0;30;42m░░░░░░░░░░▓[0;32;40m░[0;30;42m░[0;1;36;40m┼┼[0;1;30;47m▓[0;1;30;40m▓░[0;1;36;40m┼┼[0;1;30;47m▓[0m
 [30;42m▓▓▓▓▓▓▓▓▓███▒▒▒▒░░░░░░      ░░░░░░░░██▓▓▒▒▒░░░░░   █░░[0;32;40m░[0;30;47m▒[0;1;30;40m▓░[0;30;42m░░░░░░░░░░░░▓▓[0;32;40m▓▓[0;1;30;47m▓[0;1;30;40m▓░[0;1;36;40m┼┼┼[0m
                 [30;42m░░░░░░░░░░░░░░░░░░[0m  [30;42m▓▓▒▒▒░░░░░    [0m [30;42m░░░▓[0;30;47m▒[0;1;30;40m▓░[0;30;42m░░░░░░░░░░░░░▓░░[0;30;47m▒[0;1;30;40m▓▒[0m
-[1;31;40m∞ [0;35m4o[0;1;35m7.264.49[0;35m66 [0;1;31m∞[0m          [30;42m░░░░░░░[0m [30;42m▓▓▒▒▒░░░░░░░   [0m [30;42m░░░▓[0;30;47m▒[0;1;30;40m▓░[0;30;42m░░░░░░░░░░░░░░▓░░[0;30;47m▒[0;1;30;40m▓▒[0m
+[1;31;40m  [0;35m  [0;1;35m        [0;35m   [0;1;31m [0m          [30;42m░░░░░░░[0m [30;42m▓▓▒▒▒░░░░░░░   [0m [30;42m░░░▓[0;30;47m▒[0;1;30;40m▓░[0;30;42m░░░░░░░░░░░░░░▓░░[0;30;47m▒[0;1;30;40m▓▒[0m
 [1;31;40m∞ [0;35mSy[0;1;35mGod : CLoRoX CoWB[0;35moY [0;1;31m∞[0m   [30;42m░░░[0m [30;42m█▓▒▒▒░░░░░░░░   [0m [30;42m░░░▓[0;30;47m▒[0;1;30;40m▓░[0;30;42m░░░░░░░░░░░░░░░░▓░[0;30;47m▒[0;1;30;40m▓[0m▄[1m▀▀[0m
 [1;31m∞ [0;35moP[0;1;35meN 24/7 [0;1;31m∞ [0;1;35m24oo-14.4 [0;1;31m∞ [0;1;35m5oo+ Me[0;35mGz [0;1;31m∞[0m  [30;42m░░░░░   [0m [30;42m░░░▓[0;30;47m▒[0;1;30;40m▓░[0;30;42m░░░░░░░░░░░░░░░░░[0;37;40m█▀▀▀[0m
 [1;31;40m  [0;35m  [0;1;35m          [0;1;31m  [0;1;35m                [0;1;31m  [0;1;35m                     [0;35m   [0;1;31m  [0m▄[1m▀▀▀▀▀▀[0m▄  ▄▀

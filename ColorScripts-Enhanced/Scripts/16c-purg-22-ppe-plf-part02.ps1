@@ -5,7 +5,7 @@
 # Source SHA-256: 59f55c64172b30d1d9c2d41733c336479dcfc8cb7604b361366cf8b59db30147
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-PLF.ANS by Purplee (purg-22); released in purg-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 43-80
 # Columns: 1-80
 
@@ -39,7 +39,5 @@ Write-Host '
    = ======= == :$[1m$$$$$$$$$$$$S#*└`  ''┘*#S$$$$$$$$Q$$$$$[0m$  =[1m [0m=====  == === =
                 :$[1m$$$P└└`     [0m                     [1m''*$$[0m$$.
                  [1m$$$$[0m                               [1m $[0m$$$:
-                [1m     [0m       [1m                 [0m            
-                 [1mIIII[0m       [1m        [0m                 ::::
-                 [1m    [0m
-                 [1m::::[0m'
+[1m[0m[1m[0m                 [1mIIII[0m       [1m        [0m                 ::::
+[1m[0m                 [1m::::[0m'

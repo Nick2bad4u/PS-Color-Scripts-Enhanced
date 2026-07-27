@@ -5,7 +5,7 @@
 # Source SHA-256: 8a01e091eb5dfc893bc2ff458df62bb5ce3fa1dd1f65ed74d96e42356cd34db4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TOL.ANS by Dyingsoul + Inclusive (uprise06); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: tol
 # SAUCE Author: dyingsoul/inclusive
 # SAUCE Group: .
@@ -16,8 +16,7 @@
 
 Write-Host '
 
-[1m  [0m                    [1m         [0m             [1m          [0m
-
+[1m[0m[1m[0m[1m[0m
                  [34m▄[0;34;47m▓▓[0;34;40m█▄▄[0m         [34;40m▄▄[0;34;47m▓▓[0;34;40m█▄▄[0m
               [1;37;40m░░[0m [34m▀[0;37m [0;34m▀▀▀▀██▄▄[0m   [34m▄███▀▀▀▀▀▀▀▄[0m     [34m▄██▄[0;37m [0;34m░░ [0;37m [0;34m  [0m   [34m▄[0;34;43m▓[0;34;40m▄[0m
    [33;40m        [0;34;40m [0;31;40m▄[0;1;31;40m▄[0;1;31;41m▄[0;1;31;47m▓▓[0;1;31;40m█████[0;31m▌[0;1;31m▄▄▄[0;31m▄[0;34m░[0;30;44m▓[0;34;47m▓▓[0;34;40m▀[0;37;40m [0;31;40m▄[0;1;31;40m▄[0;1;31;41m▄[0;1;31;47m▓[0;1;31;40m██[0;1;31;47m█[0;1;31;40m█▄[0;31m▄[0;34m░[0;30;44m▓[0;34;40m▄█[0;34;43m▓▓[0;34;40m▀▀[0;1;31;40m ▓▓[0;33m  [0;34m▄[0;34;43m▓▓[0;34;40m▄[0;33;40m  [0;34;40m▀[0;33;40m  [0m

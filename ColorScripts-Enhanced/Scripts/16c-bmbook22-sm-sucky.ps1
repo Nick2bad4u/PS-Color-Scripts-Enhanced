@@ -5,7 +5,7 @@
 # Source SHA-256: 754fb1d41ce418a08b317ff6296cdd9cb95b6bf54178f85981aa7a779df2585f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-SUCKY.ANS by smoke (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: board logos
 # SAUCE Author: smoke
 # SAUCE Group: black maiden
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                                           [1;30m     [0m
- [1;30m░[0;1;30;46m█[0;1;30;40m▄[0m      [1;30m▄[0m                                [1;30;46m▌[0;36m▄[0;1;30m▄[0m
+[1;30m[0m [1;30m░[0;1;30;46m█[0;1;30;40m▄[0m      [1;30m▄[0m                                [1;30;46m▌[0;36m▄[0;1;30m▄[0m
   [1;30;46m█[0;1;37;46m░░[0;1;30;46m▀[0;1;30;40m▄[0m   [36m▐[0;1;30m▄[0m   [1;30m▄[0m [1;30;46m▀[0;1;37;40m▄[0;1;30;40m▄[0m [1;30;46m█[0;1;30;40m▄[0m                    [1;30;46m▌[0;36m██[0;1;36m▒▒[0;1;30;46m▀[0;36m▄[0;1;30m▄[0m   [1;30m▄[0m [1;30;46m▀[0;36m▄[0;1;30m▄[0m           [1;30m▄[0m
 [1;30m--▐[0;36;44m█[0;1;37;46m░▓░[0;1;30;46m▀[0;1;30;40m▄[0m [36m▐[0;1;36m▒[0m  [1;30m▌[0;36m██[0;1;36;46m░▓[0;36m█[0;1;30;46m▀[0;1;37;46m▄[0;36m█[0;1;30m▄[0m [33m▄[0;1;31m▄[0m [1;30m▄[0;1;30;46m▀[0;1;30;47m▀[0;1;30;40m▄[0m [33m▄[0;1;30m▄[0m [1;30;46m▀[0;36m██[0;1;30;46m▀[0;36m▄[0;1;30m▄[0m [1;30m▀[0;1;30;46m▌[0;36m████[0;1;37;46m░░[0;1;30;46m▀[0;1;30;40m▄▌[0;36m█[0;1;37;46m░▒▓░[0;1;30;40m█[0m  [1;30m▄[0;36m▄▄[0;1;37m▄[0;1;30;47m▀[0;36m█[0;1;37;46m░░[0;1;30;40m▌[0m [1;30m──────--[0m
 [33m░▌[0;37m [0;1;30;46m▌[0;1;37;46m░▒▒░[0;36m█[0;1;30m▄[0;36m▐[0;1;37;46m░[0;1;30;46m▀[0;1;30;40m▄▀[0;1;30;46m▄ [0;1;36;46m [0;36m▀[0;1;30;46m▄[0;36m▀[0;1;37;46m▒░[0;36m█[0;1;30;46m▀[0m [33m▀[0;37m [0;1;30m▌[0;1;37;46m░▓[0;1;30;40m▌█[0;36m▄[0;1;37;46m░░░[0;36m███[0;1;37;46m░░[0;1;30;46m▀[0;1;30;40m▄[0;1;30;46m▌[0;36m█[0;37m [0;1;30m▄[0;1;30;46m▄[0;36m▀[0;1;37;46m▒▓░[0;36m█[0;1;30;46m▄[0;36m█[0;1;37;46m░[0;36m▀████[0;1;37;46m [0;36m████[0;1;37;46m░▓▒[0m [1;30m▄[0m  [1;30m▄▄[0m

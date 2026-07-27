@@ -5,7 +5,7 @@
 # Source SHA-256: 1cbf9c5e04be435af439e73abec9b94339644c12f203718b95b438e9f67ec568
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ID-LAUGH.ANS by Iodine + Cthulu (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Lan's Laughter
 # SAUCE Author: iodine
 # SAUCE Group: Legend
@@ -35,11 +35,8 @@ Write-Host '
 [1;30m█▌[0m         [1m [0m      [1m                                                   [0m
 [1;30m ▀▄[0m      [1m   [0m
 [34m [0;1;30m   ▀[0m [1m [0m  [1m [0m [1m [0m      [1m                                           [0m
-[1m           [0;1;31m    [0;1;37m [0m  [1m                                                 [0m       [33m [0;1;37m     [0m
-[1;31m                 [0m                                                  [1m             [0m
-[1;31m                 [0m [1m                                          [0m       [1m             [0m
-[1;31m                 [0m [1m                                                [0m [1m           [0m
-[1;31m              [0;1;37m  [0m                                                    [1m   [0m
+[1m[0;1;31m[0;1;37m[0m[1m[0m[33m[0;1;37m[0m[1;31m                 [0m                                                  [1m             [0m
+[1;31m[0m[1m[0m[1m[0m[1;31m[0m[1m[0m[1m[0m[1;31m              [0;1;37m  [0m                                                    [1m   [0m
 [1;30m█▄▄[0;1;37m    [0;1;31m    [0;1;37m     [0m  [1m                                             [0m
 [1;30;47m▓▓[0;1;30;40m███▄▄▄[0;1;37;40m   [0m       [1m                                                [0m
 [1;30m▐[0;1;30;47m▓▓█▓[0;1;30;40m███▀██▄▄▄[0m

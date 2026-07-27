@@ -5,7 +5,7 @@
 # Source SHA-256: cc56420dc373a2bbd1b6809377ef0b0eda04e491c7ec50f773ccd8e41e0b7523
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UZ-STB.ANS by univerz (titC y oPiUM); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: stillborn
 # SAUCE Author: univerz
 # SAUCE Group: titC y oPiUM
@@ -17,7 +17,7 @@
 Write-Host '
   [1;30m▀██[0;1;30;47m▓[0;1;30;40m█▀▓[0;1;30;47m▓▄[0;1;30;40m██▀▀░▀[0m [1;31m░[0m   [1;30m▀[0m [1;30m▀▀█[0;1;30;47m▓[0;1;30;40m▓███[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m█[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▀▄▀▀▀[0m                           [1;31m▄[0m  [1;31m▄[0m [1;31m▄▄▓▄░[0m
     [1;30m░▀▀██▓▀[0;1;30;47m▓[0m     [1;31m░[0;1;31;47m▓[0;1;31;40m▄▄ ░[0m     [1;30m▀▀▀█[0;1;30;47m▓[0;1;30;40m██▀▀ [0m [1;30m-[0m [1;30manzee by univerz in da nine6!.. .[0m   [1;31m▀[0;1;31;47m▓[0m
-   [34m▄▄▄▄▄[0m   [1;30m░[0m  [1;31m░▄[0;1;31;47m▀▓[0;1;31;40m█▄█[0;1;31;47m▓[0;1;31;40m▀▄[0m [1;31m▄░[0m        [1;30m░[0m [1;30m▄▄▄[0;1;30;47m▓[0;1;30;40m░▄[0m  [1;30m▄[0m        [1;30m- univerz@hotmail.com.. .[0m
+   [34m▄▄▄▄▄[0m   [1;30m░[0m  [1;31m░▄[0;1;31;47m▀▓[0;1;31;40m█▄█[0;1;31;47m▓[0;1;31;40m▀▄[0m [1;31m▄░[0m        [1;30m░[0m [1;30m▄▄▄[0;1;30;47m▓[0;1;30;40m░▄[0m  [1;30m▄[0m        [1;30m                         [0m
    [34m█▀[0;30;44m░[0;34;40m█▄[0;37;40m  [0;1;31;40m▄░[0;1;30;40m [0;1;31;40m▀▀▀▀▓▀ [0;1;30;40m▄▄▄▄▄▄[0m [1;31m▀░■[0m    [1;30m▄▓▀▀░▀[0m  [1;30m [0;34m░[0m   [34m░[0;37m  [0;1;30m▀[0m  [1;31m▄[0m              [1;30m▄▄▄▓[0;1;30;47m▀[0;1;30;40m█▀█▄▄[0m
        [34m▀▀■▄[0;37m [0;1;30m▀▀▀█▄[0m [1;30m█▀▀[0m [34m▄▄░[0;1;30m▀▀▀█▄▄[0m [1;30m▄[0m    [30;44m░[0;34;40m▄▄▄[0;1;34;44m ▄░ [0;34m▄▄░░[0;37m [0;1;30m▀█[0m [1;31m▐[0;1;31;47m▓[0;1;31;40m█▀[0m [1;31m▀[0m  [30;44m▓[0m    [1;30;40m▀▀[0;1;30;47m▓[0;1;30;40m▀▀ ▀▀▀█[0;1;30;47m▓[0;1;30;40m██▀[0m
    [1;30;47m▓[0;1;30;40m▀▀▀▀[0m [34m▄▄[0;30;44m░ [0;34;40m▄[0;37;40m  [0;1;30;40m▀█[0;1;30;47m▓[0m [34m▀[0;1;34;44m ▄░▄ [0;30;44m░[0;34;40m▄▄[0;37;40m [0;34;40m░▄▄▄[0;1;34;44m  ░▄▄ ▄▓███▄▄  [0;34m▄[0;37m [0;1;30m▐▌[0m  [1;31m▀▓[0m [34m░[0;37m [0;34m░[0;30;44m▓[0;34;40m███[0;30;44m░[0;34;40m▀[0;37;40m  [0;1;31;40m▄[0;1;31;47m▓[0;1;31;40m▄[0m [1;31m▓[0m   [1;30m▀[0m [1;31;47m▓[0m

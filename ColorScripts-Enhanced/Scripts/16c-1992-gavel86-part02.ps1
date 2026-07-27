@@ -5,7 +5,7 @@
 # Source SHA-256: c180ddbcff665e21cc0d498143d8f9a5b3828f514d78d0e210f5a1258cae2ed5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GAVEL86.ANS by Vito (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 27-51
 # Columns: 1-80
 
@@ -28,7 +28,7 @@ Write-Host '
 [1;35;40m█[0;1;35;45m▄[0;1;35;40m█▀ [0;1;37;40m────[0;1;32;40m─────[0;32m──────────[0;30;42m█▀[0m [30;42m▄    ▀▀  ▄█▄  ▀▀   ▄█▀▀█[0;32;40m────[0;1;32;40mD[0;32mragon''s─[0;1;32mN[0;32mest[0;1;32m─B[0;32mBS[0;1;37m─── [0;1;35m▀██[0m
 [1;35m█▀ [0;1;37m────[0;1;32m─────[0;32m───────── [0;30;42m▀    █[0;30;47m▀[0m [30;42m▄▄▄▄▄█████▄▄▄▄▄[0m [1;37;40m▄ [0;1;37;42m    [0;30;42m▀[0m [32;40m──[0;1;32;40mS[0;32mysop─[0;1;32m:[0;32m─[0;1;32mC[0;32mhromatic[0;1;37m──── [0;1;35m▀[0m
 [1;37m────[0;1;32m─────[0;32m────────── [0;30;42m▀      [0m [30;47m [0;1;37;40m███[0;1;37;41m██[0;1;37;40m▀    [0;30;47m▄ [0;1;37;47m▀[0;1;37;40m████▀ [0;1;37;42m      [0;30;42m▀[0m [32;40m──────────[0;1;32;40mD[0;32mragon[0;1;32m───[0;1;37m────[0m
-[1;37m────[0;1;32m─────[0;32m───────── [0;32;42m        [0;30;42m▀[0m [30;47m [0;1;37;41m███[0;1;37;40m▀   [0;30;41m█[0m  [30;47m▄  [0;1;37;47m▀[0;1;37;40m█ [0;30;42m▀         [0m [32;40m──[0;1;32;40m(6[0;32m19) [0;1;32m4[0;32m49[0;1;32m-7[0;32m052[0;1;32m──[0;1;37m────[0m
+[1;37m────[0;1;32m─────[0;32m───────── [0;32;42m        [0;30;42m▀[0m [30;47m [0;1;37;41m███[0;1;37;40m▀   [0;30;41m█[0m  [30;47m▄  [0;1;37;47m▀[0;1;37;40m█ [0;30;42m▀         [0m [32;40m──[0;1;32;40m  [0;32m    [0;1;32m [0;32m  [0;1;32m  [0;32m   [0;1;32m──[0;1;37m────[0m
 [1;37m────[0;1;32m─────[0;32m──────── [0;32;42m        [0;30;42m▄█▀[0m [30;47m [0;1;37;41m█[0;1;37;40m▀[0m        [30;47m▄  [0m [30;42m▀█▄         [0m  [32;40m──[0;1;32;40mW[0;32mWIV─[0;1;32m4[0;32m.20e─[0;1;32mM[0;32modded[0;1;37m─[0m
 [1;37m────[0;1;32m─────[0;32m─────── [0;32;42m        [0;30;42m▄[0m [30;42m [0m [30;42m [0m [1;37;47m▐[0m [30;41m██▀ █ ▀[0m  [30;47m [0m [30;42m [0m [30;42m █▄         [0m [32;40m──[0;1;32;40m3[0;32m00─[0;1;37m-[0;32m─[0;1;32m9[0;32m600[0;1;32mb[0;32mps[0;1;32m─[0;1;37m────[0m
 [1;37m────[0;1;32m─────[0;32m────── [0;32;42m        [0;30;42m▄[0m [30;42m [0m [30;42m [0m     [30;41m▄▄▄█▄▄▄█[0m   [30;42m [0m [30;42m █▄         [0m  [32;40m─────────[0;1;32;40m─────[0;1;37;40m────[0m

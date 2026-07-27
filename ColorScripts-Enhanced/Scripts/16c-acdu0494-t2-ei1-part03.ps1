@@ -5,7 +5,7 @@
 # Source SHA-256: 4199b7f5f269dd1c8097628ad0acbb6f7e79d5c233a725bb761e9f7023b8c122
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-EI1.ANS by Terminator2 (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Evil Intention
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -42,15 +42,8 @@ Write-Host '
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 
 [1;30m    ──── System Info ────[0m     [1;30m── Staff Dudes ──[0m     [1;30m──── Affils. ────[0m
-[1;30m                           [0m       [1;30m         [0m          [1;30m               [0m
-[1;30m                           [0m       [1;30m         [0m        [1;30m                   [0m
-[1;30m                           [0m     [1;30m             [0m         [1;30m             [0m
-[1;30m                           [0m       [1;30m         [0m          [1;30m               [0m
-[1;30m                           [0m                          [1;30m               [0m
-                                                    [1;30m                 [0m
-                           [1;30m──── Network Stats ────[0m
-                              [1;30m                [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m                           [1;30m──── Network Stats ────[0m
+[1;30m[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30m A · N · S · i  .  T · E · R · M · I · N · A · T · O · R · 2  .  A · C · i · D[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

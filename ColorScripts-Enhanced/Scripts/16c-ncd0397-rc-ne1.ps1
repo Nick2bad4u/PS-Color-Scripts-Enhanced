@@ -5,7 +5,7 @@
 # Source SHA-256: 268efb39ba811ab8553cef7438c6c37aa8201ec34b877a7e42d49fb530e76836
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RC-NE1.ANS by Reflect (ncd0397); released in ncd0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -14,8 +14,7 @@ Write-Host '
                                                     [1;33m\  [0;1;34m0[0;34mo  [0;1;33m/[0m
 [1;30m.s[0;36mQ$$Ss[0;1;36m.[0m                                            [1;33m/_[0;1;31m`-[0;31m-''[0;1;33m_\[0m
 [1;30m$  [0;36m$   $[0;1;36m$[0m                                              [1;33m\/[0m
-[1;30m   [0;36m     [0;1;36m [0;1;30m  [0;36m     [0;1;36m  [0;1;30m  [0;36m     [0;1;36m  [0;1;30m  [0;36m     [0;1;36m  [0;1;30m  [0;36m     [0;1;36m   [0;1;30m  [0;36m      [0;1;30m  [0;1;36m  [0;1;30m  [0;36m     [0;1;36m  [0m
-[1;30m$[0m..[36m$   $[0;1;36m$[0;1;30m$[0m..[36m$[0m     [1;30m$[0m..[36m$ $  [0;1;36m$[0;1;30m$[0m..[36m$$S²[0;1;36mS$[0;1;30m$[0m..[36m$ $  [0;1;36m$ [0;1;30m$[0m..[36m$    [0;1;30m$[0m..[1;36m$[0;1;30m$[0m..[36m$[0m
+[1;30m[0;36m[0;1;36m[0;1;30m[0;36m[0;1;36m[0;1;30m[0;36m[0;1;36m[0;1;30m[0;36m[0;1;36m[0;1;30m[0;36m[0;1;36m[0;1;30m[0;36m[0;1;30m[0;1;36m[0;1;30m[0;36m[0;1;36m[0m[1;30m$[0m..[36m$   $[0;1;36m$[0;1;30m$[0m..[36m$[0m     [1;30m$[0m..[36m$ $  [0;1;36m$[0;1;30m$[0m..[36m$$S²[0;1;36mS$[0;1;30m$[0m..[36m$ $  [0;1;36m$ [0;1;30m$[0m..[36m$    [0;1;30m$[0m..[1;36m$[0;1;30m$[0m..[36m$[0m
 [1;30m$[0;36m∙∙$   $[0;1;36m$[0;1;30m$[0;36m∙∙$$$Ss[0;1;36m.[0;1;30m$[0;36m∙∙$ $  [0;1;36m$[0;1;30m$[0;36m∙∙$[0m     [1;30m$[0;36m∙∙$ $  [0;1;36m$[0;1;30m$$[0;36m∙∙$$   [0;1;30m$[0;36m∙∙[0;1;36m$[0;1;30m$[0;36m∙∙$[0m
 [1;30m$ii[0;36m$   $[0;1;36m$[0;1;30m$ii[0;36m$    [0;1;36m$[0;1;30m$ii[0;36m$ $  [0;1;36m$[0;1;30m$ii[0;36m$[0m     [1;30m$ii[0;36m$ $  [0;1;36m$ [0;1;30m$ii[0;36m$   [0;1;36m∙[0;1;30m$ii[0;1;36m$[0;1;30m$ii[0;36m$[0m
 [1;30m²S[0;36mS²   $[0;1;36m$[0;1;30m`²[0;36mS$$$S[0;1;36m²''[0;1;30m`²[0;36mS$$$S[0;1;36m²''[0;1;30m²S[0;36mS²[0m     [1;30m`²[0;36mS$$$S[0;1;36m²'' [0;1;30m`²[0;36mS$$S²[0;1;36m''[0;1;30m²S[0;1;36mS²[0;1;30m`²[0;36mS$$$S[0;1;36m²''[0m
@@ -34,5 +33,4 @@ Write-Host '
                                                [1;30m`²[0;1;36ms$[0m
                                                   [1;36m''[0m
 [31m-8<--8<--8<--8<--8<--8<--8<--8<--8<--8<--8<--8<--8<--8<--8<--8<--8<--8<-8<--8<--[0m
-[31m   [0;36m                         [0;31m    [0;36m                 [0;31m    [0;36m                          [0;31m [0m
-[31m--------------------------------------------------------------------------------[0m'
+[31m[0;36m[0;31m[0;36m[0;31m[0;36m[0;31m[0m[31m--------------------------------------------------------------------------------[0m'

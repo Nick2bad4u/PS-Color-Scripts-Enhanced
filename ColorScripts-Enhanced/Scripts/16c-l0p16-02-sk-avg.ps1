@@ -5,7 +5,7 @@
 # Source SHA-256: 47808c5c49cbe9de266881a19094bfb5b2ef5c6f0aacfcc5cd276c74a41a15ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!AVG.ANS by sIMONkING (thelo0p^lure); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: aVG ansi logo
 # SAUCE Author: sIMONkING
 # SAUCE Group: thelo0p^lure
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                            [33m                          [0m
-           [1;30m░░░░░░░░░░[0m                                           [32m░░░░░[0m
+[33m[0m           [1;30m░░░░░░░░░░[0m                                           [32m░░░░░[0m
           [1;30m░[0;33;42m░    ░░░░░░░░░                ░░░░░░    ░░░░░░░░░░░░     ░[0m
           [1;30;40m░[0;33;42m▒░░░░▒▒[0;32;40m▀▀[0m    [32;40m▀[0;33;42m░░░░░░░░░░░░░░░░░▒▒▒▒░░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░░░░▒[0;32;40m░[0m
           [1;30;40m░[0;33;42m▓▒▒▒▒[0;32;40m▀[0m    [1;30;40m░░[0m   [32m▀[0;33;42m▒[0;32;40m▀[0m     [32;40m▀[0;33;42m░▒▒▒▒▒▒▓▓▓▓▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▓[0;32;40m░[0m
@@ -36,9 +35,6 @@ Write-Host '
                      [1;30m▀[0m  [1;30m▀[0m                                         [1;30m▀[0m
 
 [1;30m<<-------------------------------------------------------------------<cuthere>--[0m
-[1;30m    [0m [1;30m                                                                    [0m
-     [1;30m                                                                   [0m
-[1;30m                                                    [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
      [1;30m                                ■      ■         ■        ■     ■       ■[0m
      [1;30m           ■         ■         ■                 [0m'

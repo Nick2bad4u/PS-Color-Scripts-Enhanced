@@ -5,7 +5,7 @@
 # Source SHA-256: eef155fbf6be5d0bbb411ecc49a2ec2b18f560028746aaf7937d223bea076c49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMI-ROC!.ANS by Samauri (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ROC for thought
 # SAUCE Author: Samauri
 # SAUCE Group: ROC
@@ -22,7 +22,7 @@ Write-Host '
  [36m▄▀[0;1;30m▄▄▄▄▄▄▄[0;36m▀▓▀[0;1;30m▄▄▓▄[0;36m▀▀▀▀▀▀▀▀[0;37m  [0;1;33m▀[0;31m█▐[0;1;33m▀[0;1;30m..[0mR[1mo[0mC[1;30m..[0;36m█[0;37m [0;1;37mWell, another month has gone by... Oh[0m  [1;30m█[0m
 [36m█[0;37m [0;1;30m████[0m [1;30m████[0m [1;30m█████▀███▀███▄[0m [1;30m█[0;1;30;41m▄▄[0;1;30;47m█[0;1;30;40m█ [0m9[1m5[0m![1;30m [0m [36m█[0;37m [0;1;37mwelly.  If you want to request an ansi[0;1;30m █[0m
 [36m▓[0;37m [0;1;30m████[0m [1;30m████[0m [1;30m█████[0m [1;30m███[0m [1;30m████[0m [1;30m█[0;1;30;47m███[0;1;30;40m█[0m [36m█▀▀▀▀▀[0;37m [0;1;37mdone by me, then email me at:      [0m    [1;30m▓[0m
-[36m█[0;37m [0;1;30m████▄▄▄▄ [0m [1;30m█████[0m [1;30m███[0m [1;30m████[0m [1;30m█[0;1;30;47m███[0;1;30;40m█[0m [36m█[0;37m [0;1;37mbkawamur@whitman.gmu.edu or samurai@apo.com[0;1;30m █[0m
+[36m█[0;37m [0;1;30m████▄▄▄▄ [0m [1;30m█████[0m [1;30m███[0m [1;30m████[0m [1;30m█[0;1;30;47m███[0;1;30;40m█[0m [36m█[0;37m [0;1;37m                                           [0;1;30m █[0m
 [36m▓[0;37m [0;1;30m▄▄▄▄[0m [1;30m████[0m [1;30m█████ ███[0m [1;30m████[0m [1;30m█[0;1;30;47m████[0m [36m▓[0;37m [0;1;37mOr, you can email me on any local bbs that[0;1;30m [0m [1;30m█[0m
 [36m█[0;37m [0;1;30m████[0m [1;30m████[0m [1;30m█████ ▀▀▀[0m [1;30m████ █[0;1;30;47m████[0m [36m█[0;37m [0;1;37mI call.  Greetz: Ackman..where are you?@#&,[0m [1;30m█[0m
 [36m█[0;37m [0;1;30m████[0m [1;30m████ [0;36m▄▄▄▄▄▄▓▀▀▄▄▄▄▄[0;37m [0;1;30m█[0;1;30;47m████[0m [36m█[0;37m [0;1;37mLogger Bill..is your bbs still up?, and hmm[0m [1;30m▓[0m

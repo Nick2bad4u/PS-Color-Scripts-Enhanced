@@ -5,7 +5,7 @@
 # Source SHA-256: 18111dbb1777ebbe9a6c8cf49df85026a52e864cc9b446dedac783b290f882d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PG-GZERO.ANS by Plague (ACiD Productions); released in acdu1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ground Zero
 # SAUCE Author: Plague
 # SAUCE Group: ACiD Productions
@@ -46,6 +46,6 @@ Write-Host '
 [30m              [0;37m [0;1;30m▀[0;30m        [0;37m  [0;1;30m  [0m     [33m▓[0;1;31;43m▒[0;1;33;43m░▀▓[0;33m██████[0;1;33;43m ▓[0;1;31;43m▒[0;1;33;43m▓[0;33m▀▀▀███[0;1;30;43m░[0;33m███[0;37m [0;1;30m [0;30molive, in a weird   [0m
 [1;30m    [0m [1;30mG  R  O  U  N  D[0m            [33m░[0;31m [0;33m██[0;1;33;43m░▄▓ [0;33m███[0;1;33;43m▀[0;33m▀▄▄[0;1;30m▀[0;33m ████[0;1;30;43m░░[0;1;31;43m░[0;33m▀[0;37m  [0;30mtwisted sorta way...[0m
      [1;30mZ  E  E  R  O  W [0m  [1;30m  [0m [1;30m  [0m       [33m▀[0;1;31;43m░[0;33m█[0;1;33;43m▀▀▄▄ [0;33m██████[0;1;30;43m░  ▒▒[0;33m▀ [0;37m  [0;30mor maybe that`s[0m
-[30m  [0;1;30m   +972-6-441 336     [0;30m [0;1;30m [0;30m [0;1;30m [0m        [30m  [0;1;30m [0;33m▀░▀███[0;1;31;43m░[0;33m█▓█[0;1;30;43m░▓[0;33m▀▀ [0m    [1;30m▓▄[0m [30mjust me. ..[0m
+[30m  [0;1;30m                      [0;30m [0;1;30m [0;30m [0;1;30m [0m        [30m  [0;1;30m [0;33m▀░▀███[0;1;31;43m░[0;33m█▓█[0;1;30;43m░▓[0;33m▀▀ [0m    [1;30m▓▄[0m [30m           [0m
 [1;30m                                          [0;31m  [0;33m▄▀▀[0;31m [0;33m░[0;31m     [0;37m  [0;1;30m▀▓█[0m
   [1;30m                             [0m     [30m          [0m           [1;30m░[0m [30m    [0m'

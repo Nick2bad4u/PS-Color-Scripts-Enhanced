@@ -5,7 +5,7 @@
 # Source SHA-256: 8bc1e4f2136a5259d683ee363b38b8b99af6074c058411e0884ef992a8c242ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WZ-QUADR.ICE by Wiz (ice-0993); released in ice-0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -52,7 +52,7 @@ Write-Host '
 [1;30m  [0;34m____________ ______________________ ___ ░░░░░░[0m      [1;30m▄▀[0m▐[1;30m▌[0m
 [34m------------[0m        [34m── ───────────────    ▒▒▒▒▒▒    [0;1;30m▄▀   [0;1;30;47m█[0m  [34m____________────────[0m
 [34m__[0m      [34;44m         [0m [34;40m--------  [0;1;37;40mQUADRILLION ..[0;1;37;44m[Q].. [0m                        [34m--------[0m
-[34m--------█[0;34;44m [0;1;37;44m++45-43[0;1;37;40m71-1424 ∞ +[0;1;37;44m+45-4371[0;1;37;40m-Couri[0;1;37;44mers ∞ [0;1;37;40mZyxel/v.32bis[0m
+[34m        █[0;34;44m [0;1;37;44m       [0;1;37;40m           [0;1;37;44m        [0;1;37;40m      [0;1;37;44m      [0;1;37;40m             [0m
 [1;37;40m        [0;1;37;44m         [0;1;37;40m           [0;1;37;44m        [0;1;37;40m      [0;1;37;44m      [0;1;37;40m                            [0;34m    [0m
 [34m  _____ ██████[0;34;44m   [0m  [34;40m─────[0;1;37;40mImpa[0;1;37;44mct Net ∞[0m [1;37;40mVeloc[0;1;37;44mity Ne[0;1;37;40mt  [0;34m████████------_______________[0m
         [34m██[0;34;44m    [0;1;37;44m   [0;1;37;40m           [0;1;37;44m        [0m [1;37;40m              [0;1;37;44m        [0;1;37;40m  [0m

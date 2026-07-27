@@ -5,13 +5,12 @@
 # Source SHA-256: bc94ed28380f6414ed021519b31a1ff4e9fb3276480082534c033d74cc5998b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-htfp.ans by Nightrain + Cd_ (rmrs-44); released in rmrs-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-[1;30m                      [0m                                         [1m       [0m
-[1;30m----------------------------------------[0;1;37m√[0;1;30m---------------------------------------[0m
+[1;30m[0m[1m[0m[1;30m----------------------------------------[0;1;37m√[0;1;30m---------------------------------------[0m
 [31m▄[0;1;37;41m [0;30;41m-[0;1;37;41m [0;30;41mh1t3ch f1r3pl4c3[0;31;40m█[0;30;41m---[0;1;37;41m   ______     ______     .    [0;33;41m___[0;1;37;41m  [0;31m▄[0;1;37;41m     ______[0;31m███[0;30;41m░[0;1;37;41m   . [0m
 [1;37;41m [0;30;41m:[0;1;37;41m    [0;31m██████████████[0;1;37;41m___▄___|[0;1;33;41m░[0;1;37;41m   |____ |   [0;1;33;41m░[0;1;37;41m|[0;30;41m [0;1;37;41m____▄__________)\__ |[0;1;33;41m░[0;1;37;41m   |_______[0;31m██[0m
 [1;37;41m  [0;30;41m                 [0;31;40m█[0;1;37;41m\__  [0;1;33;41m∙[0;1;37;41m |  [0;30;41m░[0;1;37;41m |____[0;30;41m [0;1;37;41m|    |____   ____/ [0;30;41m>[0;1;37;41m_  [0;1;33;41m--[0;1;37;41m \|   [0;1;31;41m [0;1;37;41m|  [0;1;31;41m_[0;1;37;41m __/[0;31m██[0m

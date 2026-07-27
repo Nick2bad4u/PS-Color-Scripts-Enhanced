@@ -5,7 +5,7 @@
 # Source SHA-256: 6b5867daa9339bd369fdc5bd4d8665fc0964cbbd57ff97326ac9afa0743b5695
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-AW.ANS by the silent killer (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: alien workshop
 # SAUCE Author: the silent killer
 # SAUCE Group: odium
@@ -32,5 +32,4 @@ Write-Host '
    [1;30;42m▓[0;1;30;40m▓[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄[0;1;30;42m▓[0;1;30;40m▒██▄▄▄▄▄█░▄▄▄▄██▀▓█▄▄▄▒█▄▄▄▄██▄▄▄▄▄█▓█▓███▄▄▄[0;1;30;42m▓[0;1;30;40m██▄▄▄▄▄█▒▄▄▄[0;1;30;42m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█▀[0m
     [1;30m▀▀[0;1;30;47m▓▓▒░[0;1;30;40m██▓████████[0;1;30;47m▓[0;1;30;40m████▓▄ ▄▓███▓██████▓▓▀███[0;1;30;47m▓[0;1;30;40m███████[0;1;30;47m█▓█[0;1;30;40m████▓[0;1;30;47m▀[0;1;30;40m██▓[0;1;30;47m░▒▓▓[0;1;30;40m▀▀[0m
           ▀▀▀▀▀▀▀▀▀[1;30;47m▒▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▓[0m▀▀▀▀▀▀▀[1;30m   [0m
-                                                             [32m   [0;1;32m [0;33m     [0;1;32m [0m
-                  [33m [0;37m [0;33ma[0;37m  [0;33ml[0;37m  [0;33mi[0;37m  [0;33me[0;37m  [0;33mn[0;37m  [0;32mw[0;37m  [0;32mo[0;37m  [0;32mr[0;37m  [0;32mk[0;37m  [0;32ms[0;37m  [0;32mh[0;37m  [0;32mo[0;37m  [0;32mp[0;37m  [0;33m![0m'
+[32m[0;1;32m[0;33m[0;1;32m[0m                  [33m [0;37m [0;33ma[0;37m  [0;33ml[0;37m  [0;33mi[0;37m  [0;33me[0;37m  [0;33mn[0;37m  [0;32mw[0;37m  [0;32mo[0;37m  [0;32mr[0;37m  [0;32mk[0;37m  [0;32ms[0;37m  [0;32mh[0;37m  [0;32mo[0;37m  [0;32mp[0;37m  [0;33m![0m'

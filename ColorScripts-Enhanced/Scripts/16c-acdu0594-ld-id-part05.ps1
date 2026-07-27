@@ -5,7 +5,7 @@
 # Source SHA-256: 5169c3a4b2e2eabd8ba5015e4384e7172dd3189189e504fc863c2aedd94f94b4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-ID.ANS by Lord Jazz (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Infinite Despair
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -39,8 +39,7 @@ Write-Host '
 ▄                                                       [1;30m▀[0m                    ▄
 [1;30m▀[0m                     [1;32mI [0;32mn [0;37mf [0;1;30mi n i t e   D e s p a i r[0m                        [1;30m▀[0m
 [1;30m▀[0m                                                                            [1;30m▀[0m
-                          [1;32m7 [0;32mi [0;37m4 . [0;1;30m8 3 1 . 1 9 8 1[0m
-
+[1;32m[0;32m[0;37m[0;1;30m[0m
             [1;32mS [0;32my [0;37ms [0;1;30mt e m   O p e r a t o r   ■   F r a c t u r e[0m
 
 [1;30m [0;1;32mS [0;32my [0;37ms t [0;1;30me m   R e m o t e s   ■   R e a p e r   W i l d W o o d  [ [0;1;32mi [0;32mC [0;37mE [0;1;30m][0m

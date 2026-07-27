@@ -5,7 +5,7 @@
 # Source SHA-256: f3af9fd802224accd8a59c1fd3d806ecab74299394e3151aa7e5c446fdddf636
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-SOE.ANS by Bad Karma (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: State of Euphoria
 # SAUCE Author: Bad Karma
 # SAUCE Group: ACiD Productions
@@ -51,17 +51,9 @@ Write-Host '
 ▀                                                       ▀▀█▌     ■▀
                                                            ▀■
                           7 1 3 ∙ 5 8 0 ∙ 5 0 5 5
-                                                     
 
-                                                     
-                                                  
-                                                
-                                            
 
-                                          
-                                            
 
 
 [1;30m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
-                         [1;30m        [0m   [1m [0m [1;30m  [0;1;37m [0m [1;30m        [0m [1;30m  [0m
-               [1;30m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m'
+[1;30m[0m[1m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;30m[0m               [1;30m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m'

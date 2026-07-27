@@ -5,7 +5,7 @@
 # Source SHA-256: fbfff307fa96fe0ea4582fa37df50575c88026c17fd9f1e24cfc1864759c4842
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-PI03.ANS by Superbym (plf); released in plf-25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Piranha's Message Stats
 # SAUCE Author: Superbym
 # SAUCE Group: plf
@@ -16,8 +16,7 @@
 
 Write-Host '
 ──────[1;37m─────────[0m────────────────────────────────────────────────────────────────
-           [1;36m [0m                                         [1;30m        [0m                 [1;30m [0m
-[34m───[0;37m───────────────────────────────────────────────────────────────[0;1;37m──────[0m────[33m───[0m
+[1;36m[0m[1;30m[0m[1;30m[0m[34m───[0;37m───────────────────────────────────────────────────────────────[0;1;37m──────[0m────[33m───[0m
 [34m░▒▒▓▓█████[0;37;44m░░░▒▒▓▓▓▓[0;37;40m█████████████[0;1;37;47m [0m██████[1;37;47m░░░░▒▒▒▓▓▓█████████████▓▓▒▒░░[0;1;30;47m▄▄[0;1;30;40m▀▀   [0;30;47m████[0m
 [34;40m▓▓█████[0;37;44m░░░░▒▒▓▓▓▓[0;37;40m▀▀ [0;33;40m▄▄[0;37;40m▀▀▀█████████[0;1;37;47m░░░░▒▒▒▒▓▓▓[0;1;37;40m██████▀▀▀▀▀▀██[0;1;37;47m█████▓▓[0;1;37;40m▄ [0;30;47m███████████[0m
 [34;40m███[0;37;44m░░░░░░░▒▒[0;1;30;47m▄[0m▀[1;30m▀[0m     [33m█████▄▄▄[0;37m▀▀▀██[0;1;37;47m░░░▒▒▒▓▓▓[0;1;37;40m████▀▀[0;1;33;40m▄▄▄[0;1;33;43m▄█[0;1;33;40m██[0;1;33;43m█▄[0;1;33;40m▄▄▄[0;1;37;40m▀▀[0;1;37;47m████▓▓[0;1;37;40m▄[0;30;47m█[0;1;30;40m   [0;30;47m██████[0m
@@ -34,7 +33,7 @@ Write-Host '
 [37m # post/call ratio :[0;1;37m2050[0m            [33m░[0;1;33;43m░[0;1;31;40m▌[0;33m▄[0;1;31m░[0;1;33;43m░[0m [33m▓████▄▄[0;1;37m▀[0m [1;37;47m▀▓▓[0;1;37;40m▀▀▀[0m▀[32m▄▄[0;34m [0;37m   [0;32m░░[0m    [33m▒[0;1;30m░[0m
     message editor :[1;37mFull[0m           [33m ░[0;1;33;43m [0;33m▌▓▌▀[0;37m [0;33m▀▀▀▀▀▀[0;37m   [0;32m▄[0;1;32m▄▄▓▓▄[0m  [1;32m▀███▓▓[0;1;32;42m▄[0;1;32;40m▄▄[0;32m▄[0;37m [0;33m▓░[0m
 [1;30m░░[0m  message reader :[1;37mLightbar[0m               [1;34m [0;1;32m░▒▓▓█▀[0m   [32m▀[0;1;32;42m▀▓[0;1;32;46m▓▓[0;1;32;42m█[0m   [1;32m████████[0;32m▌[0;33m▓░[0m
-[1;30m▒░[0m           email :[1;37mhawkhubbard@hotmail.com [0m          [32m░▐[0;1;32;42m█[0;1;32;46m▓[0;1;32;40m█▌[0m  [1;32m▐███████▌[0;33m▓░[0m
+[1;30m▒░[0m                  [1;37m                        [0m          [32m░▐[0;1;32;42m█[0;1;32;46m▓[0;1;32;40m█▌[0m  [1;32m▐███████▌[0;33m▓░[0m
 [1;30m▓▒[0m  LB email index :[1;37mOff[0m        [1;30m  [0m       [1;30m ▄▄░░ ▄  [0m       [32m▀▀[0;1;32m▀[0m    [1;32m████▓▓█▌[0;33m░[0;1;30m░[0m
 [1;30m▓▓[0m      quote mode :[1;37mStandard[0m [1;30m░▓▄▄ █[0;1;30;46m▓[0;1;30;40m▄▐▓▓▓ ▀▀▀▄▄▄██[0;1;30;47m█[0;1;30;46m▓▓[0;1;30;47m███▀▀▀▀▀[0m█[1;30;47m▀▀▀▀▀[0;1;30;40m▄▄▄[0m [1;30;47m█[0;1;30;40mbym[0m
 [1;30;40m█▓[0m                            [1;30m███▌▀▀▀▄▄▄▄████[0;1;30;47m▀▀ ▄▄▄███▀▀[0;1;37;47m░░░░░░░[0;1;33;47m [0m█[1;37;47m░░[0;1;30;47m▄▓[0;1;30;40m▓[0m [1;30m░[0m
@@ -60,7 +59,7 @@ Write-Host '
  # post/call ratio :[1;37m2050[0m             [1;34;44m░[0;1;34;40m▌[0;33m▄[0;1;34m░[0;1;34;47m▓[0m [1;30m█[0;1;30;47m▒▒▓[0;1;30;40m▓▄▄[0;1;37;40m▀[0m [1;37;47m▀▓▓[0;1;37;40m▀▀▀[0m▀[34m▄▄ [0;37m   [0;34m░░[0m    [1;34m▒[0;1;30m░[0m
     message editor :[1;37mFull[0m             [1;34;44m [0;1;34;40m▌[0;33m▓▌[0;1;34m▀[0m [1;30m▀▀▀▀▀▀[0m   [34m▄[0;1;34m▄▄[0;1;34;47m▓▓[0;1;34;40m▄[0m  [1;34m▀███▓▓[0;1;34;44m▄[0;1;34;40m▄▄[0;34m▄[0;37m [0;1;34m▓░[0m
 [1;30m░░[0m  message reader :[1;37mLightbar[0m               [1;34m ░▓[0;1;34;47m▓▄[0;1;34;40m█▀[0m   [34m▀[0;1;34;44m▀▓[0;1;34;47m▓▓[0;1;34;40m█[0m   [1;34m█[0;1;34;47m▓▒░░▒▓[0;1;34;40m█[0;34m▌[0;1;34m▒░[0m
-[1;30m▒░[0m           email :[1;37mhawkhubbard@hotmail.com [0m          [34m░▐[0;1;34m█[0;1;34;47m▓[0;1;34;40m█▌[0m  [1;34m▐█[0;1;34;47m▓▓▓▓▓▓[0;1;34;40m▌▓░[0m
+[1;30m▒░[0m                  [1;37m                        [0m          [34m░▐[0;1;34m█[0;1;34;47m▓[0;1;34;40m█▌[0m  [1;34m▐█[0;1;34;47m▓▓▓▓▓▓[0;1;34;40m▌▓░[0m
 [1;30;40m▓▒[0m  LB email index :[1;37mOff[0m        [1;30m  [0m       [1;30m ▄▄░░ ▄  [0m       [34m▀▀[0;1;34m▀[0m    [1;34m███████▌░[0;1;30m░[0m
 [1;30m▓▓[0m      quote mode :[1;37mStandard[0m [1;30m░▓▄▄ ██▄▐▓▓▓ ▀▀▀▄▄▄██[0;1;30;47m██████▀▀▀▀▀[0m█[1;30;47m▀▀▀▀▀[0;1;30;40m▄▄▄[0m [1;30;47m█[0;1;30;40mbym[0m
 [1;30;40m█▓[0m                            [1;30m███▌▀▀▀▄▄▄▄████[0;1;30;47m▀▀ ▄▄▄███▀▀[0m▓▓▓▓▓▓████[1;30;47m▄▄▓[0;1;30;40m▓[0m [1;30m░[0m

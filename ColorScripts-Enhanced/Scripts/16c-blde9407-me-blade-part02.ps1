@@ -5,7 +5,7 @@
 # Source SHA-256: 6b027c6fadb147251c04be019c1a7ad2cb5432b029522a0615a23f5faccf337a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ME-BLADE.ANS by Mephitopeles (blde9407); released in blde9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 34-78
 # Columns: 1-80
 
@@ -53,4 +53,4 @@ Write-Host '
 [1;37m███████ [0;1;30m█ [0;1;37m██████████████████████████ ▐[0m████▌▐████[1m▌ [0;1;30m│ \/ │+_)   BL/┤DE Productions[0m
 [1;37m███████ [0;1;30m█ [0;1;37m██████████████████████████ ▐[0m████▌▐████[1m▌ [0;1;30m| \/ |(   If you''d like a ansi[0m
 [1;37m███████ [0;1;30m█ [0;1;37m██████████████████████████ ▐[0m████▌▐████[1m▌ [0;1;30m;_;;_;_) from me contact me on[0m
-[1;37m███████ [0;1;30m█ [0;1;37m██████████████████████████ ▐[0m████▌▐████[1m▌ [0;1;30mmy BBS, SOE, 713-580-5055.lata[0m'
+[1;37m███████ [0;1;30m█ [0;1;37m██████████████████████████ ▐[0m████▌▐████[1m▌ [0;1;30m                              [0m'

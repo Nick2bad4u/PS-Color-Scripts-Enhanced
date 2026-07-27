@@ -5,7 +5,7 @@
 # Source SHA-256: 0a59e791a51e113baa6e8ed414f69071fa319c67a51b41b5136b5331ba1fe815
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DEC.ANS by The Night Angel + Makaveli The Don (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Decadence
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m                                                    [0m [1m              [0m
-[1;30m-──--──────────-────────-────-───────--───-──────--───-───────--────-───────-───[0m
+[1m[0m[1m[0m[1;30m-──--──────────-────────-────-───────--───-──────--───-───────--────-───────-───[0m
 [1;30m░░    [0m░▒▓█[1;47md[0m█[1;30;47m▀[0m▄[1;30m▄▄▌[0m     [1m░▄▄[0m▄     ░▒▓█[1;47me[0m█[1;30;47m▀[0m▄[1;30m▄█▓░[0m           ░▒▓█[1;47mc[0m█[1;30;47m▀[0m▄[1;30m▄▄░[0m           [1;30m░ ░░[0m
 [1;30m-─ [0;33m■ [0;1;30m────-── [0;1;33m▄▄▄[0;1;37m▄[0;1;33m▄[0;1;37m▄▄▄▄ ▄[0;1;37;47m███▄[0m▄ [1;30m─-────-─ [0;1;33m▄▄▄[0;1;37m▄[0m▄ [1;30m─-─ [0;33m■ ▄ [0;1;30m──-── [0;1;33m▄▄▄▄[0;1;37m▄▄[0;1;33m▄▄[0m▄ [1;30m── [0;33m▄[0;1;33;43m▄[0;33m█▄ [0;1;30m─-─[0m
 [33m▄█▀[0m     [1;37m▄▄█[0;1;33m█▀▀███[0;1;33;43m▓[0;1;37;40m█[0;1;33;40m█[0;1;37;40m█[0;1;37;47m█████▓▀[0;1;37;40m▀[0m▀ ▄[1m▄ ▀█[0;1;33m█[0;1;37m█[0;1;33;43m▓[0;1;33;40m█████[0;1;37;40m█[0;1;37;47m█▄[0;1;37;40m▄[0m▄ [33m▀▓▀ [0;1;37m▄▄██[0;1;33m▀▀████[0;1;33;43m█▓[0;1;37;40m███[0;1;37;47m▄[0m▄  [33m▀▀ ▄▄▄[0m

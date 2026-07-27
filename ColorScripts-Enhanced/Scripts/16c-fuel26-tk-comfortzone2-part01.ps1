@@ -5,7 +5,7 @@
 # Source SHA-256: b3d0cbde0c10f3c0cf9ff88a4fa403faa76f2fdcf6145f0230d2647c6549a60b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-comfortzone2.ans by the knight (fuel); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Comfortzone #2
 # SAUCE Author: the knight
 # SAUCE Group: fuel
@@ -18,8 +18,7 @@
 Write-Host '
 [1;37;40m ··· F  U  E  L  -  N  O  T    T  H  E    C  O  M  F  O  R  T  Z  O  N  E[0m [1m····[0m
 
-                                                      [37m [0;34m                       [0m
-
+[37m[0;34m[0m
 
 
 

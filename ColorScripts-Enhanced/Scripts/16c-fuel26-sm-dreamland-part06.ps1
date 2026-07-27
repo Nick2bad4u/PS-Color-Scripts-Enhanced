@@ -5,7 +5,7 @@
 # Source SHA-256: e8d02df94afc7236685c8e2fb4f2d8873ee0865db86e21bb1d182cb28d0ab6fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sm-dreamland.ans by Smooth + Sudden Death (FUEL); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dreamland
 # SAUCE Author: smooth
 # SAUCE Group: FUEL
@@ -55,7 +55,7 @@ Write-Host '
 [37m [0;32m█[0;1;32m██[0;32m█[0;37m   [0;1;32m▀▀▄▄[0;32m▄[0m                     [35m ▀[0;1;35;45m▒▀[0;35m▀[0m     [35m▀[0m                  [32m▀▀▓▀[0;37m ▓█[0;33;47m▓[0;37;40m▒  [0;32;40m███[0m
 [37;40m [0;32;40m▀▀[0;1;32;40m█[0;32m▀█▄[0;37m    [0;32m▀██▀[0;37m   [0;32m▄▄[0m      [32m▄▀▀[0m                    [32m▀▀▄[0m        [32m  [0;37m [0;32m ▄▀[0;37m  [0;33;47m▒▓[0;37;40m▀  [0;32;40m█▓▓▄█[0m
 [37;40m [0;32;40m▀▄███[0;37;40m [0;32;40m█▄[0m     [32;40m▀▀▀[0;37;40m  [0;32;40m██[0;37;40m  [0;32;40m▀[0;37;40m [0;32;40m▄▀[0m                        [32;40m█[0;37;40m    [0;32;40m ▄▄▄▀▀▀[0m       [32;40m▄▄█▀[0;1;32;40m██[0;32m▀▄[0m
-[37m    [0;32m██[0;1;32m██[0;32m██▄▄▄▄[0m       [32m▀[0;37m   [0;32m█[0;37m  [0;1;37mdreamland.darktech.org[0m  [32m█[0;37m [0;32m▀█[0;37m [0;32m▀[0m      [32m▄█[0;37m [0;32m███▀▀▄[0;1;32m██[0;32m█▀[0m
+[37m    [0;32m██[0;1;32m██[0;32m██▄▄▄▄[0m       [32m▀[0;37m   [0;32m█[0;37m  [0;1;37m                      [0m  [32m█[0;37m [0;32m▀█[0;37m [0;32m▀[0m      [32m▄█[0;37m [0;32m███▀▀▄[0;1;32m██[0;32m█▀[0m
 [32;42m▓[0;33;47m░[0;37;40m▄  [0;32;40m▀▀█████▄▄▀██▄▄▄[0m     [32;40m█ [0m                         [32;40m█[0m      [32;40m▄▄▄▄▀▀██▓▄██▀▄▄▀[0;37;40m  ▄[0m
 [33;47m█▓░[0;37;40m▀ ▄▄[0m     [32;40m▀▀▀[0;37;40m    [0;32;40m▀▀▀▀[0;37;40m  [0;32;40m █ [0m                       [32;40m█[0;37;40m  [0;32;40m ▄▄█▄▄▄▀▀▀▀▀▀██▀▀▀[0;37;40m   ▄[0;1;37;47m▒[0;33;47m▒[0m
 ▀    ▀▀  ▀                 [32m▀▀[0m                    [32m▀▀[0m                    [1;37m▀[0m    [1m▀▀[0m'

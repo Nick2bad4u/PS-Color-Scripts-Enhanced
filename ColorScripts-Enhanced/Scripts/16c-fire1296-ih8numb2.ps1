@@ -5,7 +5,7 @@
 # Source SHA-256: 829bc2b6776ba44054a9e5439191fa74a078358dafe5cb2cb5320bc28bd62d4b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IH8NUMB2.ANS by oned (fire1296); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: I Hate Numb.
 # SAUCE Author: oned
 # SAUCE Date: 19961210
@@ -18,8 +18,8 @@ Write-Host '
   [1m▄▄ ▄▄─▄▄ ▄▄─▄▄ ▄▄ ▄▄ ▄▄─▄▄─▄▄ ▄▄─▄▄[0m      [1;30m▄▀█[0;1;30;47m▓▓[0;1;30;40m█▀▄[0m░░[1;30m▀[0;1;30;46m▓▓▓▓[0;1;30;47m█[0;1;30;40m▄▄▀▀▌ ▄▄▄▄[0m
 [1;30m░[0m░[1m██ ▄█─█▄ ██ ██ ██ ██ ██ ██ ██ ██─█▄[0m░░[1;30m░░░▐ █[0;1;30;47m▓[0;1;30;40m▀▌ [0;1;30;46m▓[0;1;30;40m█▐█▐[0m░░[1;30m██▌▄▀[0;1;30;47m▓[0;1;30;40m▄░█▌▄▄▀██▄░░░[0m
   [1m▀▀[0m [1m▀▀─▀▀ ▀▀[0m [1m▀▀[0m [1m▀▀─▀▀ ▀▀[0m [1m▀▀[0m [1m▀▀[0m [1m▀▀─▀▀[0m      [1;30m▐▀ ▐ ▐▀ ▀▌▀▀█▌[0m░[1;30m█▐▌ [0;1;30;47m▓[0;1;30;40m▌ ▀[0m░[1;30m▀█[0;1;30;47m▓▓▓[0;1;30;40m▌[0m
-  [1;30mmailto://ih8numb@cyberspace.org or[0m            [1;30m░ [0;33m█[0;31;43m░[0;33;40m▌▄▌▄ [0;1;30;40m▀▀[0;1;30;46m▓[0;1;30;40m█▀▀▓  ▐▌▐[0m░[1;30m▀▌▓[0m
-  [1;30mhttp://members.tripod.com/~ih8numb[0m [1;30m [0m           [33m▐▄ ▀[0;1;31;41m▓▓[0;1;31;40m▀▀[0;33m▀[0;1;31m▄[0;33m▄▄▀▌ [0;1;30m▐▄▀ [0m░[1;30m▌▐ ▐▌[0m
+  [1;30m                                  [0m            [1;30m░ [0;33m█[0;31;43m░[0;33;40m▌▄▌▄ [0;1;30;40m▀▀[0;1;30;46m▓[0;1;30;40m█▀▀▓  ▐▌▐[0m░[1;30m▀▌▓[0m
+  [1;30m                                  [0m [1;30m [0m           [33m▐▄ ▀[0;1;31;41m▓▓[0;1;31;40m▀▀[0;33m▀[0;1;31m▄[0;33m▄▄▀▌ [0;1;30m▐▄▀ [0m░[1;30m▌▐ ▐▌[0m
                                      [1m [0m            [1;31;43m░▓[0;1;31;41m█[0;1;31;40m███▄▄▄[0;1;31;41m▓[0;31m▌[0;33m▀[0m     [1;30m▀  ▀[0m
                                      [1;30m█▐▄▄[0m       [1;31m▄▄ ▀▀▄█[0;1;31;47m▓▓[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0m
                                      [1;30m▀[0m░[1;30m▄▄▀▀▄▄  [0;1;31;43m█▓░[0;33m█▀▐▄▄[0;36m▄ [0;33m▄[0;1;31m░ [0;33m▄▄▄[0m

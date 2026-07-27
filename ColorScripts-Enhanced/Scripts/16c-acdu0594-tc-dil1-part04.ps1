@@ -5,7 +5,7 @@
 # Source SHA-256: f566d99422f903021e65caa33a82de2e13bc9eb66e2db7de41cce0d3ac071bde
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TC-DIL1.ANS by The Clone (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Digital Illusions
 # SAUCE Author: The Clone
 # SAUCE Group: ACiD Productions
@@ -33,9 +33,7 @@ Write-Host '
 [1;30m▐▌[0;33m▐██ [0;1;30m█ [0;1;47m▓▓▒▒░░░░[0m█[1;47m░[0m███████████████████[1;30;47m░[0m█[1;30;47m░[0m▀▀ [1;30m▄▄▄  ▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀▀ [0;1;30m▄▄▄▀[0m
 [1;30m █ [0;33m▀▌[0;1;30m▐▌ [0;1;47m▓[0;1m▀▀[0m▀▀▀▀▀▀▀▀ [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m  ▀▄▄█▄▄▄▄▀▀▀▀▀▀▀▀▀▀[0m
-           [1m [0m [1;30m                                                     [0m [1m [0m
-      [1m [0m [1;30m                                [0m [1m  [0m
-
+[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m
    [1m▀[0;1;36m▀[0;1;36;46m▓▒░[0;36m▀▀▀▓[0;1;36;46m░▒[0;36m▄ [0;1;37m▀[0;1;36m▀[0;1;36;46m▓▒░[0;36m▀▀ [0;1;37m▄[0;1;36;46m▒░[0;36m▀▀▀▓[0;1;36;46m░▒[0;36m▄ [0;1;37m▀[0;1;36m▀[0;1;36;46m▓▒░[0;36m▀▀ [0;1;37m▀[0;36m▀[0;1;36m▀[0;1;36;46m▓▒░[0;36m▀▀▀ [0;1;37m▄[0;1;36;46m▒░[0;36m▓▀▓[0;1;36;46m░▒[0;36m▄   [0;1;36m▀[0;1;36;46m▓▒░[0;36m▀[0m
 [36m    [0;34m░[0;1;36;46m▒[0;36m▄▓█  █▓▄[0;1;36;46m▒[0;34m░ ░[0;1;36;46m▒[0;36m▄▓█ [0;34m░[0;1;36;46m▒[0;36m▄▓█ [0;1;37m▄[0;1;36m▄[0;36m▄▄▄▄ [0;34m░[0;1;36;46m▒[0;36m▄▓█    [0;34m░[0;1;36;46m▒[0;36m▄▓█  [0;34m░[0;1;36;46m▒░[0;36m▓█ █▓[0;1;36;46m░▒[0;34m░  ░[0;1;36;46m▒[0;36m▄▓█[0m
 [36m    [0;34m▓[0;1;36;46m░[0m [36m░▓  ▓░ [0;1;36;46m░[0;34m▓ ▓[0;1;36;46m░[0m [36m░▓ [0;34m▓[0;1;36;46m░[0m [36m░▓  ▓░ [0;1;36;46m░[0;36;44m▓[0m [34;40m▓[0;1;36;46m░[0m [36m░▓    [0;34m▓[0;1;36;46m░[0m [36m░▓  [0;34m▓[0;1;36;46m░[0;36m▓░▓ ▓░▓[0;1;36;46m░[0;34m▓  ▓[0;1;36;46m░[0m [36m░▓[0m
@@ -55,7 +53,4 @@ Write-Host '
 [34m [0;1;30mD    I    G    I    T    A    L  ·  I    L    L    U    S    I    O    N    S[0m
 
 
-                               [1;36m [0;36m [0;1;30m             [0;36m [0;1;36m [0m
-                [1;36m [0;36m┤[0;1;30m  │                                         [0;36m [0;1;36m [0m
-                        [1;36m [0;36m [0;1;30m                            [0;36m [0;1;36m [0m
-                                 [1;36m([0;36m2[0;1;30m19) 672.81[0;36m3[0;1;36m7[0m'
+[1;36m[0;36m[0;1;30m[0;36m[0;1;36m[0m                [1;36m [0;36m┤[0;1;30m  │                                         [0;36m [0;1;36m [0m[1;36m[0;36m[0;1;30m[0;36m[0;1;36m[0m[1;36m[0;36m[0;1;30m[0;36m[0;1;36m[0m'

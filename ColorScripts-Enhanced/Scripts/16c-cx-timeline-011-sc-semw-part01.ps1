@@ -5,7 +5,7 @@
 # Source SHA-256: 27dd81d7ac750ed04bccb374de4ec757d155c9ca99ca58a181ec479a1271603c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: [011] SC-SEMW.ans by Skarecrow (Visions of Reality); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Seminole Wind
 # SAUCE Author: Skarecrow
 # SAUCE Group: Visions of Reality
@@ -21,22 +21,19 @@ Write-Host '
 [34m│[0;1;37m               [0;1;34m [0;1;37m                                                   [0;1;34m [0;1;37m  [0m █▄▀▄█ [34m│[0m
 [1;34m│[0m [1m       [0;1;34m [0m [1;34m [0;1;37m    [0;1;34m [0;1;37m [0m [1m   [0m [1m   [0m [1m   [0m [1m    [0m [1m     [0m [1m  [0;1;34m [0m [1m    [0;1;34m [0m [1m      [0;1;34m [0m [1m     [0;1;34m    [0m   ▄▀█▀▄ [1;30m│[0m
 [1;34m└────────────────────────────────────────────────────────────────────────[0;34m──[0;1;30m──[0m
-     [1;34m  [0m [1;34m     [0m [1;34m    [0m [1;34m [0m [1;34m    [0m [1;34m     [0m [1;34m           [0m [1;34m    [0m [1;34m  [0m [1;34m  [0m [1;34m       [0m [1;34m [0m [1;34m         [0m
-
+[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m
  [1;30m▄▄█████████████████████████████████████████████████████████████████████████▄▄[0m
 [1;30m▐████████████████████████████████████▀▀[0;1;33m▄▄▄▄▄▄▄▄▄[0;1;30m▀▀████████████████████████████▌[0m
 [1;30m█████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;33m▄██[0;1;33;43m▓▓▓▓▓▓▓▓▓[0;1;33;40m██▄[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████[0m
 [1;30;40m█▀[0m  [36mi[0;1;37mf[0m [1myou[0m [1mwant[0m [1man[0m [1mans[0;36mi[0;37m [0;1;37mfrom[0m [1mme,[0m  [1;33m▄[0;1;33;43m▓▓[0;1;33;40m▀[0;1;31;40m▄▄▄[0;1;33;40m▀[0;1;33;43m▒▒▒[0;1;33;40m▀[0;1;31;40m▄▄▄[0;1;33;40m▀[0;1;33;43m▓[0;1;33;40m█▄[0m     [1ma[0m  [1m|<-\/4G[0;36mi[0;1;37m|\|4\_[0m  [1;30m▀█[0m
 [1;30m▌■[0m  [1m    [0m [1m   [0m [1m    [0m [36m [0;1;37m [0m [1m     [0m [1m [0;36m [0;1;37m  [0m  [1;33m▐█▀[0;1;31m▄[0;1;31;45m▓[0;1;31;40m▀[0m  [1;31m▀[0;33m▄[0;1;33;43m░[0;33m▌[0;1;31;45m▒▓[0;1;31;40m▀▀▀▄[0;1;33;40m▀█▌[0m    [1m├   [0;36m [0;37m [0;1;37m  [0m [1m   [0m [1m    [0m  [1;30m■▐[0m
 [1;30m■·[0m  [1myou??[0;36m:)[0;37m [0;1;37mmy[0m [36mi[0;1;37m-net[0m [1maddressss[0m   [1;33m██[0;1;33;43m▓[0;1;33;40m▄[0;1;31;40m▀[0;1;31;45m▒▒░[0;35m▄[0;33m▀[0;1;33;43m [0;1;31;40m▐[0;1;31;45m▒[0;35m▌[0;1;33;43m▒▒▓[0m [1;33;43m▓[0;1;33;40m██[0m      [32mSkarecrow[0;37m [0;1;37mof:[0m    [1;30m·■[0m
-[1;30m▌■[0m  [36mi[0;1;37ms:[0m [1mpswanson[0;36m@[0;1;37mnetcom[0;36m.[0;1;37mcom[0m      [1;33m▐█[0;1;33;43m▓[0;1;33;40m▀[0;35m▄[0;37m  [0;35m▄[0;1;31;45m░[0;35m▀[0;33m▄▌[0;35m█[0;1;31;45m░[0;35m▄▄▄▀[0;1;33m▄█▌[0m          [35m[[0;32mVOR[0;35m][0m        [1;30m■▐[0m
+[1;30m▌■[0m  [36m [0;1;37m  [0m [1m        [0;36m [0;1;37m      [0;36m [0;1;37m   [0m      [1;33m▐█[0;1;33;43m▓[0;1;33;40m▀[0;35m▄[0;37m  [0;35m▄[0;1;31;45m░[0;35m▀[0;33m▄▌[0;35m█[0;1;31;45m░[0;35m▄▄▄▀[0;1;33m▄█▌[0m          [35m [0;32m   [0;35m [0m        [1;30m■▐[0m
 [1;30m█▄[0m  [1mma[0;36mi[0;1;37ml[0m [1mme[0m [1myo[0m [1mrequests[0;36m...[0m        [1;33m▀█[0;1;33;43m▓[0;1;33;40m▄[0;35m▀▀▀[0;1;33m▄[0;1;33;43m▒▒▒[0;1;33;40m▄[0;35m▀▀▀[0;1;33m▄[0;1;33;43m▓▓[0;1;33;40m▀[0m       [1;34mAngry[0m [1;34magain...[0m   [1;30m▄█[0m
 [1;30m█████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33m▀[0;1;33;43m▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▀[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█████[0m
 [1;30;40m▐████████████████████████████████████▄▄[0;1;33;40m▀▀▀▀▀▀▀▀▀[0;1;30;40m▄▄████████████████████████████▌[0m
  [1;30m▀▀█████████████████████████████████████████████████████████████████████████▀▀[0m
-    [1;34m        [0m [1;34m  [0m [1;34m      [0m [1;34m [0m [1;34m     [0m [1;34m  [0m [1;34m       [0m  [1;34m        [0m [1;34m  [0m [1;34m    [0m [1;34m      [0m [1;34m  [0m [1;34m      [0m
-        [1;34m       [0m [1;34m [0m [1;34m      [0m [1;34m         [0m [1;34m     [0m [1;34m      [0m [1;34m     [0m [1;34m      [0m [1;34m     [0m [1;34m       [0m
-
+[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m
 
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: ac5973988000371579fa25654a903e40bb576390b9cb2141c89017f270ebf027
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-SOAS.ANS by Mage (Integrity); released in int-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shades of a Shade
 # SAUCE Author: Mage
 # SAUCE Group: Integrity
@@ -55,5 +55,4 @@ Write-Host '
 [1;30m▌▀▒▓▄▄[0;34m▀▀▀[0;1;34m▀[0;32m▄ [0;1;30;47m▓▒░[0m▀[1;30m▄[0;32m▀[0;1;30m▄▓▒░▀█▄▄[0;34m▀▀▀[0;1;34m▀[0;1;30m▄▄█▀██▄[0;34m▀ ■[0;1;30m▐▄▄▄[0;34m▀▀▀[0;1;30m▄▀[0;31m▄[0;1;31;41m░░[0;31m▄▀▀█[0;1;31;41m░[0;31m▄▄▄[0;1;30m▀▀▀▄▄[0;34m▀▀▀[0;1;34m▀[0;32m ▄[0;1;32;42m▄▓▒░[0;32m▄▀▄█[0m
 [1;30m▀  ▀▀ ▀▀[0;32m ▀  [0;1;30m▀  ▀▀▀▀ ▀     ▀▀▀▀▀  ▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀ [0;31m▀[0;1;31;41m░[0;31m█▓▀[0;34m  [0;31m▀[0;1;31;41m░░[0;1;30;41m░[0;31m▀█▄▄[0;1;30m▀▀▀▀ [0;32m  [0;1;32m▀[0;32m ▀▀▀▀[0;1;30m [0m
                                                     [31m▀[0m       [31m▀▀[0;1;30;41m░░[0;31m█▀[0;1;30;41m░[0;31m█▄▄[0;1;30;41m░▒░[0;31m█▄▀ [0;1;30m [0m
-                               [31mShades of a Shade[0m                [31m▀▀▀▄[0;1;30;41m░░[0;31m█▀▀ [0m
-        [34m  [0m             [31m [0m         [34m([0;31m604[0;34m)[0;31m540[0;34m-[0;31m7968[0m                      [31m [0m'
+                               [31mShades of a Shade[0m                [31m▀▀▀▄[0;1;30;41m░░[0;31m█▀▀ [0m[34m[0m[31m[0m[34m[0;31m[0;34m[0;31m[0;34m[0;31m[0m[31m[0m'

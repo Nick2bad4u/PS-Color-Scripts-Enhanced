@@ -5,7 +5,7 @@
 # Source SHA-256: 57bb5471b9ded8500582705373dd62ed555c234efbc5fca42fb676c22fb44228
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!REVIV.ANS by sIMONkING,dARKlight (thelo0p); released in bafh-pack5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: gUEST fOR rEVIVAL
 # SAUCE Author: sIMONkING,dARKlight
 # SAUCE Group: thelo0p
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
- [1;30m                     [0m
-    [1;30m ansi: sIMONkING/thelo0p[0m       [1m ██[0;1;47m▄[0;1;40m▄▄[0m▄ [1m███[0;1;47m▀[0m▌[1m█[0;1;47m▄[0m▄ [1m██[0;1;47m [0;1;40m▐█[0;1;47m▌[0m [1m██[0m▌ [1m█[0;1;47m▌[0m▌  [1;31m█[0;1;37m█[0;1;37;47m▌[0m▌  [1m▐█[0;1;47m [0m
+[1;30m[0m    [1;30m ansi: sIMONkING/thelo0p[0m       [1m ██[0;1;47m▄[0;1;40m▄▄[0m▄ [1m███[0;1;47m▀[0m▌[1m█[0;1;47m▄[0m▄ [1m██[0;1;47m [0;1;40m▐█[0;1;47m▌[0m [1m██[0m▌ [1m█[0;1;47m▌[0m▌  [1;31m█[0;1;37m█[0;1;37;47m▌[0m▌  [1m▐█[0;1;47m [0m
  [1;30m▄[0;30;47m▀▀[0;1;37;40m█▄▄[0m                             [1;31m█[0;1;37;47m▌[0;1;37;40m ▀█[0;1;37;47m [0m [1m█[0;1;47m▄[0;1;40m▄[0m▄[1m ▐█[0;1;47m▄[0;1;40m▄█[0;1;47m▌[0m▌[1m▐[0;1;31m█[0;1;37;47m▌[0m [1;31m█[0;1;37m█[0m█[1m▐█[0;1;47m [0m  [1m████[0;1;47m [0m  [1m▐[0;1;31m█[0;1;37;47m▌[0m
 [1;30m▐[0;1;30;47m▌[0m▀[30;47m▀[0;1;37;40m▀[0m██[1;47m▀[0;30;47m▀[0;37;40m                   [0m        [1;37;40m████[0;1;37;47m▌[0m▌ [1;31m█[0;1;37;47m▀[0;1;37;40m▀[0m▀  [1;31m█[0;1;37m███[0m█ [1m▐█[0;1;47m [0m [1m▐███[0;1;47m▌[0m▌ [1m▐█[0;1;47m▄[0;1;40m▄██[0;1;47m [0m [1m▐█[0;1;47m▌[0;1;30;40m▌[0m
   [1;30m▀[0m ▄█████▀[1m▄██     [0m                 [1m█[0;1;47m [0;1;40m ██[0;1;47m [0m [1m███[0;1;47m▀ [0m [1m▐██[0;1;47m▌[0m▌ [1m▐[0;1;47m▀ [0m  [1m██[0;1;47m▀ [0m  [1m██[0;1;47m▀[0;1;40m▀▀█[0;1;47m▌[0m▌[1m▐███[0;1;47m▀[0m▌
@@ -41,10 +40,5 @@ Write-Host '
 [37m                   [0;1;30m█[0m█▀▀[30;47m▄[0;37;40m▀ [0;30;47m▄▄[0;37;40m   [0;1;30;40m▄[0m▀       [1;30m▀[0;30;47m▄[0;37;40m    [0;1;30;40m▀▌[0m [1;30m▀[0m         [33m▀▀▌[0;37m      [0;33m▀▌[0;37m   [0;33m▌[0m
 [37m                                                                          [0m
 [1;30m------------------------------------------------------------------------[cut]--[0m
-[1;30m                                                                            [0m
-[1;30m                                                                            [0m
-[1;30m                                                                         [0m
-[1;30m                    [0m
-
-[1;30m      [0m
-[1;30msK! off :)[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30msK! off :)[0m'

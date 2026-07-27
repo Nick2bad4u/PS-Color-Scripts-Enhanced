@@ -5,7 +5,7 @@
 # Source SHA-256: 8c0376be18dcc2e33eba6bd3c8706b257c87565bc7d17379429a1f0cf7d8eed6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QR-HRVST.ANS by Quasar (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -24,12 +24,7 @@ Write-Host '
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
         [1;30m▄  ▀ ▄█ [0m           [1m ┤[0;1;33m [0;1;32m [0;32m  [0m          [1m [0;1;33m [0;1;31m  [0;31m   [0;1m [0;1;33m [0;1;31m [0;31m  [0;1m   [0;1;33m  [0;1;31m  [0;31m    [0;1;30m█▄ ▀  ▄[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-                                                         
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-                                                                             
-                                                                            
-                                                                            
-                                                     
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30;45m▒▒▒░░░░░░░░░▒▒▒░░▒▒▒▓▓▒▒▒░░░[0;30;45m▄▄▄▄▄▀[0;1;31;45m░▒▒░░[0;1;30;45m░░░▒▒▒▓▓▓███▓▓▓[0;30;45m▀▄▄▄▄[0;1;30;45m░▒▓▓▓▒▒░░░░░░░░░░[0;1;31;45m░░░[0m
 [1;30;45m▓▓▓▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓[0;1;30m▀▀▀[0;30;45m▀▀▀▀▀[0;1;31;45m░░░▒[0;1;31m▀▀[0;1;31;45m▒▓▓▒▒░░[0;1;30;45m░░▒▒▒▓▓▓████▓▓▓▓▒▒[0;30;45m▀▀[0;1;30m▀▀▀[0;1;30;45m▓▓▒▒▒▒▒▒▒▒▒▒░░░[0m

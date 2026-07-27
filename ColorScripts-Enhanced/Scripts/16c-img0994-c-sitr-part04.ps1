@@ -5,7 +5,7 @@
 # Source SHA-256: 2d38908e19d4b8640f6eac906f2347c2e97cb0f2b841809695cd686befde0d51
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: C-SITR.ANS by Captin (READ THE INI FILE); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shadows in the Rain
 # SAUCE Author: Captin
 # SAUCE Group: READ THE INI FILE
@@ -43,11 +43,9 @@ Write-Host '
 [35m    ▒░ [0;1;35;45m░░        ░░░░░░░░░ [0;35m▀   ▒░ [0;1;35m▀[0;1;35;45m▓▓▒░░░[0;35m█[0m     [35m▒░ [0;1;35m▀[0;1;35;45m▓▓▒░░░[0;35m█  [0;1;35m▀[0;1;35;45m▓▓▒░░░[0;35m█ [0;1;35m▀[0;1;35;45m▓▓▒░░░[0;35m█▌[0m
      [35m▒░░░ ▀▀▀▀█████[0;1;35;45m▒▒▒▒▒▒[0;35m▀[0m      [35m▒▒░ [0;1;35m▀▀[0;1;35;45m▒░░ [0m      [35m▒▒░ [0;1;35m▀▀[0;1;35;45m▒░░ [0m [35m▒░ [0;1;35m▀▀[0;1;35;45m▒░░ [0;35m▒░ [0;1;35m▀▀[0;1;35;45m▒░░ [0;35m█[0m
                                    [35m▒░░ [0;1;35m▀▀[0;1;35;45m▄[0m         [35m▒░░ [0;1;35m▀▀[0;1;35;45m▄[0m   [35m▒░░ [0;1;35m▀▀[0;1;35;45m▄[0m  [35m▒░░ [0;1;35m▀▀[0;1;35;45m▄[0;35m█[0m
-[35m     [0m       [1;35m [0;35m     [0;1;35m [0m       [35m [0m        [35m  [0m        [35m [0m     [1;35m [0;35m [0;1;35m [0m      [35m [0m      [1;35m [0;35m  [0;1;35m [0m     [35m [0m
-                          [1;35m▄[0;35m▄■·[0m                        [35m·■▄[0;1;35m▄[0m
-                          [35m▌ [0;1;35mNo[0;35mde 1  708.305.3491 [144[0;1;35m00] [0;35m▐[0m
-                          [35m│ [0;1;35mNo[0;35mde 2  708.305.7854 [0;1;35m[[0;35m288[0;1;35m00] [0;35m│[0m
-                             [1;35m  [0;35m                    [0;1;35m  [0m
-                          [35m│[0m       [1;35m    [0;35m         [0;1;35m  [0m        [35m│[0m
+[35m[0m[1;35m[0;35m[0;1;35m[0m[35m[0m[35m[0m[35m[0m[1;35m[0;35m[0;1;35m[0m[35m[0m[1;35m[0;35m[0;1;35m[0m[35m[0m                          [1;35m▄[0;35m▄■·[0m                        [35m·■▄[0;1;35m▄[0m
+                          [35m▌ [0;1;35m  [0;35m                       [0;1;35m    [0;35m▐[0m
+                          [35m│ [0;1;35m  [0;35m                   [0;1;35m [0;35m   [0;1;35m    [0;35m│[0m
+[1;35m[0;35m[0;1;35m[0m                          [35m│[0m       [1;35m    [0;35m         [0;1;35m  [0m        [35m│[0m
                           [35m▌[0m         [1;35m  [0;35m         [0;1;35m  [0m        [35m▌[0m
                           [1;35m▀[0;35m▀■·[0m                       [35m·■▄▄[0;1;35m▌[0m'

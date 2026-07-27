@@ -5,7 +5,7 @@
 # Source SHA-256: fba8aa45d592c44f746c333ff4f74f67915c115afa2aa5a25a130d80faf14885
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS!-TRB.ANS by luke skywalker (rile); released in rile0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the rebel base
 # SAUCE Author: luke skywalker
 # SAUCE Group: rile
@@ -20,7 +20,7 @@ Write-Host '
                                  [1;31m,+[0m                [31m.[0m
                                 [31m"[0m                   [1;31m"[0m
                                [1;31m°[0m                     [1;31m.[0m
-         [36mthe rebel base![0m      [31m"[0;1;30m.,gg#Q$[0;1;30;41m▓[0m              [31m,  [0;36m(718) 967-5422[0m
+         [36m               [0m      [31m [0;1;30m       [0;1;30;41m▓[0m              [31m   [0;36m              [0m
        [36m--------------- [0;1;30m.,,,g[0;31m,[0;1;31m$[0;1;30m$$^ⁿ$$$$$ [0;36m--------- [0;1;30m.Ss[0;31m. [0;36m------- (ls) -----[0m
                      [1;30m$$$$ⁿ^$[0;31m$g[0;1;30m$$$ QⁿⁿSS[0m           [1;30m$$$[0;1;31mS[0;1;30ms...[0m
                      [1;30m$ⁿⁿ$  $$$$$$  $S@s,.,ggi#Q$$ [0;1;30;41m▒[0;1;30;40m$$S"''[0m
@@ -31,8 +31,7 @@ Write-Host '
                            [1;30;40m$$$$$$    ,$$$$,,[0m      [1;30;40m$$$[0;1;31;40m$[0;31m''   [0;1;30mo$$$$[0m
                           [1;30m,$$$$$,,  ,sY#$$ⁿ°''''[0m     [1;30m`@[0;1;31m''[0;1;30m$$gg$$@$''[0m
        [36m---------------- [0;1;30m,sY#$$gⁿ°'' [0;36m---------------- [0;1;31m" [0;36m-------------------[0m
-         [36m                   [0;1;30m [0;31m  [0;1;30m [0m                   [1;31m     [0;36m              [0m
-                             [31m"[0;1;31m$[0m                   [1;31m,[0m
+[36m[0;1;30m[0;31m[0;1;30m[0m[1;31m[0;36m[0m                             [31m"[0;1;31m$[0m                   [1;31m,[0m
                                [1;31ma[0m                [31ma[0;1;31m''[0m
                                 [31m"[0;1;31m.[0m            [31m."[0m
                                   [1;31m`.[0m        [1;31m.''[0m

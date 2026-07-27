@@ -5,7 +5,7 @@
 # Source SHA-256: f67b1a25edbd7555a30ab009794c54f1e87c9b5f6d6ec3bfd183fc6be9c81383
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-LOTU.ANS by Die Hard (bkn-1094); released in bkn-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -45,6 +45,4 @@ Write-Host '
      [1;30;40m█[0;1;30;47m                  [0;1;30;40m█ [0;1;30;47m           [0;1;30;40m█[0m     [1;30;40m█[0;1;30;47m      [0;1;30;40m█[0m     [1;30;40m█[0;1;30;47m               [0;1;30;40m█[0m
      [1;30;40m█[0;1;30;47m                  [0;1;30;40m█ [0;1;30;47m          ▄[0;1;30;40m▀[0m     [1;30;40m█[0;1;30;47m      [0;1;30;40m█[0m     [1;30;40m▀[0;1;30;47m▄             ▄[0;1;30;40m▀[0m
      [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀[0m       [1;30;40m▀▀▀▀▀▀▀▀[0m       [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-     [1;30;40mL  O  R  D[0m      [1;30;40mO  F[0m      [1;30;40mT  H  E[0m       [1;30;40mU  N  D  E  R  W  O  R  L  D[0m
-
-                   [31m(  [0;1;31m9  0  [0;1;37m8  )  3  0  3  -  0  [0;1;31m8  0  [0;31m1[0m'
+     [1;30;40mL  O  R  D[0m      [1;30;40mO  F[0m      [1;30;40mT  H  E[0m       [1;30;40mU  N  D  E  R  W  O  R  L  D[0m'

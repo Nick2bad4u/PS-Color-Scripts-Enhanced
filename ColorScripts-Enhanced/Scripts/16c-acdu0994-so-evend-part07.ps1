@@ -5,7 +5,7 @@
 # Source SHA-256: 8c3dbcebf9641a4a4cc1fba688617bb5b885501cd23fa3978805f49f168fc7b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-EVEND.ANS by Somms (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Evolution's End
 # SAUCE Author: Somms
 # SAUCE Group: ACiD Productions
@@ -47,7 +47,7 @@ Write-Host '
        [34m░[0;1;34;47m▓█[0;34m░ [0;1;34m▒▓▌▐[0;1;34;47m▓[0;1;34;40m▌   [0m
        [34m▒[0;1;34;47m█[0;1;34;44m▓[0;1;34;40m▄ ░▀▄[0;1;34;44m▓[0;1;34;40m▀[0m        [1;37;40m-[0m [1;37;40mE  V  O  L  U  T  I  O  N '' S    E  N  D[0m [1;37;40m-[0m
        [34m▓[0;1;34;44m▓▒[0;34m▌ [0;1;34m■▀▄[0;34m▒░ ░[0m
-     [34m░ ▐[0;1;34;44m▒[0;34m▌▀[0;1;34m▐▄[0;1;34;44m█▓[0;34m░[0m          [1;37m9[0m   [1;37m1[0m   [1;37m9[0m  [1;37m-[0m  [1;37m9[0m   [1;37m2[0m   [1;37m9[0m  [1;37m-[0m  [1;37m7[0m   [1;37m9[0m   [1;37m7[0m   [1;37m0[0m
+     [34m░ ▐[0;1;34;44m▒[0;34m▌▀[0;1;34m▐▄[0;1;34;44m█▓[0;34m░[0m          [1;37m [0m   [1;37m [0m   [1;37m [0m  [1;37m [0m  [1;37m [0m   [1;37m [0m   [1;37m [0m  [1;37m [0m  [1;37m [0m   [1;37m [0m   [1;37m [0m   [1;37m [0m
 [34m░  ░▒▓▄[0;34;44m [0;1;34;44m░░[0;34m▄▄ [0;1;34;44m▓▒[0;34m▄[0m
 [34m    ░▐[0;1;30;44m░░ [0;34m▀[0;1;34m▄▄[0;1;34;44m▓▒░[0;34m▌[0m       [1;37m                                                 [0m
       [34m▀[0;1;30;44m░[0;34m▌[0;1;37m▄▄▄▄[0;34m▀▀[0;1;34;44m░[0;34m▄[0m        [1;37m                                             [0m

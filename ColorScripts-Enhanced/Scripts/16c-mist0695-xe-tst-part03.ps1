@@ -5,7 +5,7 @@
 # Source SHA-256: e9385afd8336c328eeabc3dc82bdfd6ba70260753a5d42e08846cda6697f5804
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XE-TST.ANS by Xeryrus (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Screaming Tomato
 # SAUCE Author: Xeryrus
 # SAUCE Group: MiSTiGRiS
@@ -39,7 +39,7 @@ Write-Host '
 [33;40m▄▀[0;31;40m█▓█░[0;33;40m▓[0;31;40m▒█▒░█▓[0;33;40m▒[0m [31;40m▓[0m [31;40m█[0m [31;40m▓█▒█▄[0m [1;33;40mT[0;32mhe[0;31m.[0;1;33mS[0;32mcreaming[0;31m.[0;1;33mT[0;32momato[0;1;33m [0;31m▒█▀▄▒█[0;33;41m▓[0m  [31;40m▄▒[0m [31;40m▒[0m [31;40m░▓[0;33;40m░[0m  [31;40m▄▓[0;33;41m░[0;31;40m▒[0m [31;40m▒[0m [31;40m▒[0m [33;40m▓[0;31;40m██[0;33;40m▄▄[0;31;40m [0m
 [31;40m█▓██▀▒█▓▄▓▄[0;33;40m▀[0;31;40m█[0;33;40m▓[0;31;40m▄█▀[0m [31;40m██▐▓▀[0m  [1;33;40mD[0;32medicated[0;31m.[0;32mto[0;31m.[0;32mthe[0;31m.[0;1;33mA[0;32mrts[0;31m░[0m  [31m▀▓█▄█▓█░[0m [31m▀█▒█[0;33m░[0;31m█░▀▒▓▓█▓█░█[0;33m▓[0;31m▄[0m [31m▐█ [0m
 [31m██▓▓█▓██▀▄█▓██[0m [31m▄▄▀▓[0m [31m▄[0m [1;33mM[0;32mistigris[0;31m.[0;1;33mW[0;32morld[0;31m.[0;1;33mH[0;32meadquarters[0m  [31m▓▀█░[0;33;41m░[0;31;40m█[0;33;41m░[0;31;40m█[0;33;41m▓[0;31;40m▐█▀▒█░▓ ▀██[0;33;40m▀▄[0;31;40m▀█[0m [31;40m█▀ [0m
-[31;40m█[0;33;40m▄[0;31;40m████▀ [0;33;40m▓[0;31;40m░█▒▀█▐▓█▓█▀▒▓[0m [31;40m░[0m     [37;40m [0;32;40m6o4[0;31;40m.[0;32;40m43o[0;31;40m.[0;32;40m88o5[0m    [31;40m▒[0m  [31;40m▄░█[0;33;40m▓[0;31;40m▀▄▒█▓▀▄▄[0m [31;40m██▓█▄▀██▓█▓▓███▀▄ [0m
+[31;40m█[0;33;40m▄[0;31;40m████▀ [0;33;40m▓[0;31;40m░█▒▀█▐▓█▓█▀▒▓[0m [31;40m░[0m     [37;40m [0;32;40m   [0;31;40m [0;32;40m   [0;31;40m [0;32;40m    [0m    [31;40m▒[0m  [31;40m▄░█[0;33;40m▓[0;31;40m▀▄▒█▓▀▄▄[0m [31;40m██▓█▄▀██▓█▓▓███▀▄ [0m
 [33;40m▀▓[0;31;40m█░█▓█▓[0;33;40m▓[0;31;40m▒▀░█[0;33;40m▓[0;31;40m█▒[0;33;40m▓[0;31;40m▀[0m [31;40m▓░▒[0m [31;40m▒[0;1;33;40mB[0;32migge Tomato[0;31m.[0;1;33mN[0;32mitnatsnoc[0m [31m▓█▒▓[0;33m▒[0;31m███▓█[0m [31m▀█▄░██▄▓▄[0;33m░[0;31m█▒▀██▓█[0m [31m██ [0m
  [33m▒[0m [31m▒[0m [31m▒[0m [31m▒[0;33m▒[0;31m▓[0m   [33m▒[0;31m▓░[0;33m▒[0;31m▒[0m [31m▓[0m [31m░[0m [31m▓[0m     [1;33mT[0;32momato[0;31m.[0;1;33mC[0;32mthulu[0m      [31m▒▄▓▒[0;33m░[0m [31m▀[0m [31m▓[0m [31m█[0m [31m▓[0m [31m▒▓█░▒█[0;33m▒[0;31m▓░█[0;33;41m░[0;31;40m██▄[0m
  [33;40m░[0m   [31;40m░[0m [31;40m░[0;33;40m░[0m  [31;40m░[0m [33;40m░[0;31;40m▒[0m [33;40m░[0;31;40m░[0m [31;40m▒[0m [31;40m░[0m                   [32;40m [0m      [31;40m░[0m  [31;40m░[0m    [31;40m▒[0m  [31;40m▄▒[0m [31;40m▓[0m [31;40m▄▒░[0m [33;40m▓[0;31;40m▒[0m  [33;41m▒[0m

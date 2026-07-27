@@ -5,7 +5,7 @@
 # Source SHA-256: ab3463d630e4b2c088f383c9f3dfcb9e9bdbb18ee9c7ca14f6d3a3b66953695b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MRFS.ANS by Mr Wrong + Flying Squirrel (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: irato promotional
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Irato
@@ -42,12 +42,7 @@ Write-Host '
 [37m [0;34m▒▒[0m       [34m▓[0m   [34m░[0m   [34m▓[0;37m  [0;34m▒       [0;37m [0;34m▒░[0m     [34m▒[0m      [34m░[0m    [34m▓▒[0m    [34m░[0;37m [0;34m▒[0;37m [0;34m░[0m   [34m▒[0m   [34m░[0;37m  [0;34m▓[0m    [34m▒▓░[0m
 [1;30m-[0;34m░[0;1;30m-[0m+[1;30m-----[0m+[34m▒[0;1;30m----[0m+[1;30m--[0;34m▒[0;1;30m--[0;34m░[0;1;30m-----[0m+[1;30m--[0;34m░[0;1;30m--[0m+[1;30m---[0;34m░[0;1;30m-[0m+[1;30m-----[0m+[1;30m---[0;34m▒░[0;37m+[0;1;30m-----[0;34m░[0;1;30m-----[0;34m░[0;1;30m-----[0m+[34m▒[0;1;30m----[0;34m░▒[0;1;30m--[0m
           [34m░[0m       [34m░[0m                              [34m░[0m                    [34m░[0m     [34m░[0m
-[37m                                                   [0;1;30m [0m       [1;30m [0m              [36m  [0m
-[37m         [0;1;30m [0m                                            [1;30m  [0m
-
-[1;30m [0m               [1m  [0m [1m     [0m 
-[1;30m [0m                     [1m               [0m 
-
-[1;30m  [0m    [1;30m [0m                        [1;30m [0m
-
+[37m[0;1;30m[0m[1;30m[0m[36m[0m[37m[0;1;30m[0m[1;30m[0m
+[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m
 [1;30m---[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m---[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 882aa17eeb538b480fb7ff5b2a4391ca815bdb2187c257c82b9f728e2c8f2a60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BT-TD1.ANS by Black Tyde (iNFECTiOUS); released in inf-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Tranquil Destruction
 # SAUCE Author: Black Tyde
 # SAUCE Group: iNFECTiOUS
@@ -35,7 +35,7 @@ Write-Host '
 [31m██▓▄■[0;1;30m■▀█▄■▀▄▐█████▓▓▒▓▒▓███▌   [0;31m▄▄█▓■█▀▄██▓[0m             [1;30mLumber Bob[0m
 [31m▒▀█▄[0;1;30m▀▓▀▄▀▓▄ ▄███████▓█▓███▓▌[0;31m▄███▀▓▄█▀▄████[0m            [1;30m  SlaveNet[0m
 [31m█▓█▀[0;1;30m▄■▀▓▄ ▒█▓████▓████▓████▓[0m [31m█▓▄███▀▓███▓█▌[0m
-[31m▄▀█▄[0;1;30m▀█▓▒■▀▄■▀▒▓██▌▒▓██▀▒▓█▀[0;31m▄██████▄████▓▒█ [0m           [31m6o3.472.4814 [0m
+[31m▄▀█▄[0;1;30m▀█▓▒■▀▄■▀▒▓██▌▒▓██▀▒▓█▀[0;31m▄██████▄████▓▒█ [0m           [31m             [0m
 [31m█▓▀[0;1;30m▄█▄ ▀█▄▄▀ ▄▓█▀▄▓██▀▄▓█▀[0;31m▄████▀█████▐██▓▌ [0m
 [1;30m▄▄█▀ ▀█▄▄[0m  [1;30m▀■[0m   [1;30m▀▀▀▀[0m [31m▓▄▄▄█▌▐ ██▓████▌█▓▀█  [0m
 [1;30m■▀▓▀▀▄█▄ ▀▀■▀▀▀▓▀▀■▀▀▄▄▄▄[0;31m▀█ ███████▀▄▀▄▓▌   [0m'

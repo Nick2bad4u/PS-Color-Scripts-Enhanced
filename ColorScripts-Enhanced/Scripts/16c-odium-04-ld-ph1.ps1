@@ -5,7 +5,7 @@
 # Source SHA-256: 1a4825ed7cea7989752429d299da9b318ddcffb3c4eeeb4c9565680fc2e0f66a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-PH1.ANS by lordjazz (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: pharce (logo1)
 # SAUCE Author: lordjazz
 # SAUCE Group: odium
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[34m               [0m
-
+[34m[0m
                [1;33m▄▄▄[0m
 [1;33m  ▄▄▄▄   [0;34mp  [0;1;33m▀▀[0;1;33;43m░▒▒[0;1;33;40m▄▄    [0;34mh    [0;1;33m▄▄▄[0m     [34m4    [0;1;33m▄▄▄▄   [0;34mr[0m     [1;33m▄▄▄▄   [0;34mc[0m     [1;33m▄▄▄▄   [0;34m3[0m
 [1;33m▀[0;1;33;43m░▒▒░[0;1;33;40m▀[0;1;37;40m█[0;1;33;40m█▄▄▄   [0;33m█[0;1;33;43m░░░[0;1;33;40m▀[0;1;33;43m▀▀[0;1;37;40m▄[0;1;33;40m▄▄    ▀▀▀[0;1;33;43m███[0;1;33;40m▄▄▄  ▀[0;1;33;43m█[0;1;37;40m█[0;1;33;43m█[0;1;33;40m▀▀[0;1;33;43m██[0;1;33;40m▄▄▄  ▀[0;1;33;43m█[0;1;37;40m█[0;1;33;43m██[0;1;33;40m▀[0;1;33;43m▓▓[0;1;33;40m▄▄▄   [0;1;33;43m▒▓▓▒[0;1;33;40m▀██▄▄▄[0m

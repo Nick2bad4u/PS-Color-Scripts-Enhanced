@@ -5,7 +5,7 @@
 # Source SHA-256: e3aa9dd5b85a62a3f9ce026e55fd52696b64e3537c0d9e545b0a181a5f158a3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-SOT.ANS by Soul Seeker (blde9406); released in blde9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 72-108
 # Columns: 1-80
 
@@ -35,11 +35,7 @@ Write-Host '
 
                            [1;37m9 [0;1;31m0 [0;31m8 [0;1;30m- [0;31mT M P [0;1;30m- [0;31mD O [0;1;31mW [0;1;37mN[0m
 
-                       [1;37m [0;1;31m [0;31m         [0;1;31m [0;1;30m [0;1;37m [0;1;30m  [0;1;37m [0;1;31m [0;31m          [0;1;31m [0;1;30m [0;1;37m [0m
-                   [1;37m [0;1;31m [0;31m                 [0;1;30m [0;31m [0;1;30m [0;31m    [0;1;30m [0;31m          [0;1;31m [0;1;37m [0m
-                     [1;37m [0;1;31m [0;31m         [0;1;30m [0;31m  [0;1;31m [0;1;37m  [0;1;30m  [0;1;37m  [0;1;31m [0;31m  [0;1;30m  [0;31m   [0;1;30m [0;31m  [0;1;31m [0;1;37m [0m
-                                [1;37m [0;1;30m [0;1;31m  [0;31m      [0;1;31m [0;1;37m [0;1;30m [0m
-
+[1;37m[0;1;31m[0;31m[0;1;31m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;31m[0;31m[0;1;31m[0;1;30m[0;1;37m[0m[1;37m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;30m[0;31m[0;1;30m[0;31m[0;1;31m[0;1;37m[0m[1;37m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1;37m[0;1;30m[0;1;37m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;30m[0;31m[0;1;31m[0;1;37m[0m[1;37m[0;1;30m[0;1;31m[0;31m[0;1;31m[0;1;37m[0;1;30m[0m
             [1;37m [0;1;31m [0;31m ┤[0;1;31m [0;1;37m   [0;1;31m [0;31m        [0;1;31m [0;1;37m  [0;1;30m  [0;1;37m [0;1;31m [0;31m         [0;1;31m [0;1;37m  [0;1;30m  [0;1;37m [0;1;31m [0;31m            [0;1;31m [0;1;37m [0m
 
                         [31m      [0;1;30m  [0;1;37m [0;1;31m [0;31m          [0;1;31m [0;1;37m  [0;1;30m [0;1;37m [0;1;31m [0;31m ┤[0;1;31m [0;1;37m [0;1;30m [0m

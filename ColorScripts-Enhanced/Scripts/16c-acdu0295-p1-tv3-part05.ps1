@@ -5,7 +5,7 @@
 # Source SHA-256: 537bfd67d80c7d5c16197cedc1170ee4a680761a4136a433b0f33db850e839e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-TV3.ANS by prisonernumberone (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Terminal Velocity
 # SAUCE Author: prisonernumberone
 # SAUCE Group: ACiD Productions
@@ -41,8 +41,7 @@ Write-Host '
                    [1;37m                                        [0m                  [31m▐[0;37m [0m
                                 [31m█[0m                                            [31m▐[0;37m [0m
                                 [31m▐[0m                                            [31m▐[0;37m [0m
-                               [1;30m                 [0m
-                            [31m■ ▄ ▐[0m
+[1;30m[0m                            [31m■ ▄ ▐[0m
                            [31m▄ [0;1;30m       [0;31m■[0;1;30m             [0m                           [31m▌[0;37m [0m
                           [31m■  ▀▄■█▄■   ▀[0m
                           [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

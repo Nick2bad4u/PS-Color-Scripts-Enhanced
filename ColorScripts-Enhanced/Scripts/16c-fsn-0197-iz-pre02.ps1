@@ -5,7 +5,7 @@
 # Source SHA-256: cf5830b242b4bb4d86816dc92990d0933ea5e229f79982a53750ca57af0768c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-PRE02.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: prevail
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -29,12 +29,10 @@ Write-Host '
   [36m [0;37m      [0;1;33m$$[0;1;31m$[0m                [1;33m$[0;1;31;43m$[0;1;33;40m$[0m     [36m [0m      [1;31m$[0;1;33m$[0;33ml[0;1;33m $[0;1;31m$[0;1;33m$[0m
          [1m$[0;1;33m$l[0m                [1;33m$$[0;1;31ml[0m            [1;33m$$[0;1;31m$[0;1;33m $$$s,[0m
          [1m`²[0;1;33m²[0m [1;31m      [0m         [1m`²[0;1;33m²[0m            [1m$[0;1;33m$l `²²²²²²²'''''' [0;1;37m''[0;1;33m  ''   [0;1;37m''[0m
-                                          [1;33m [0;1;37m  [0;1;33m  [0;33m  [0;1;31m   [0;1;35m  [0m
+[1;33m[0;1;37m[0;1;33m[0;33m[0;1;31m[0;1;35m[0m
 
 
-
-[1;33m     [0m               [1;33m                                    [0m
-
+[1;33m[0m[1;33m[0m
                         [30;43m█[0m
                        [30;43m██[0m
                        [30;43m██[0m'

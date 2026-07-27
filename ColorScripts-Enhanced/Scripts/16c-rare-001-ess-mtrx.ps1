@@ -5,7 +5,7 @@
 # Source SHA-256: 1dc4b2e19c8f65f052f07d7c6743e02dc83f885ae9df488a0c134c463dec4ffc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ESS!MTRX.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Legend Logon
 # SAUCE Author: Essence
 # SAUCE Group: rARE!ASCii
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m       [0m                                            [1m     [0m      [1m          [0m [1m       [0m
-[32m$ [0;1;32m [0;32mS[0;1;32m$$$"[0;32m"S[0;1;32m$[0;32m$ [0;1;32m [0;32mS[0;1;32m$$$[0;32m""S$[0;37m :lSb,"   ═-  ,,._[0;32m`²╚$$[0;1;32m$$[0;1;33m$[0;1;37m$[0;1;32m$[0;32m$$[0;1;30mi[0m  [1;30m,[0;32m:ilIIS$SS$#%g,_,g%╝╚%g,[0m
+[1m[0m[1m[0m[1m[0m[1m[0m[32m$ [0;1;32m [0;32mS[0;1;32m$$$"[0;32m"S[0;1;32m$[0;32m$ [0;1;32m [0;32mS[0;1;32m$$$[0;32m""S$[0;37m :lSb,"   ═-  ,,._[0;32m`²╚$$[0;1;32m$$[0;1;33m$[0;1;37m$[0;1;32m$[0;32m$$[0;1;30mi[0m  [1;30m,[0;32m:ilIIS$SS$#%g,_,g%╝╚%g,[0m
 [32m$:[0;1;32m [0;32my[0;1;32mgg$[0;32m:[0;1;32m [0;32mI[0;1;32m$[0;32m$:[0;1;32m [0;32mI[0;1;32m$$[0;1;33m$[0;32m: I[0;1;33m$[0m iS$$li:: ∙    ` ╚$$b,[32m`$[0;1;32m$$$$$[0;32mi[0;1;30m:[0m  [1;30mi[0;32m$$$[0;1;32m$$$$$$$$$$$$[0;32m$l[0;1;32m :: [0;32m;$$[0m
 [32m$l[0;1;32m [0;32ml[0;1;32m$[0;1;33m$[0;1;32m$[0;32mi[0;1;32m [0;32ml[0;1;32m$$[0;32ml[0;1;32m [0;32ml[0;1;32m$[0;1;33m$[0;1;37m$[0;32mi l[0;1;32m$[0m l$$╝'';: ·    ·   `╚$$:[32m`"[0;1;32m"[0;32m""[0;1;32m"[0;32m"[0;1;30m;[0m  [1;30m:[0;32m$[0;1;32m$$$$$$$[0;1;33m$$[0;1;37m$[0;1;32m$[0;32mS[0;1;32m$$$[0;32m$%g┐g$[0;1;32m$[0;32m$[0m
 [32m$I[0;1;32m [0;32mi[0;1;32m$[0;1;37m$[0;1;33m$[0;32mI[0;1;32m [0;32mi[0;1;32m$$[0;32mI[0;1;32m [0;32mi[0;1;32m$[0;1;33m$[0;1;37m$[0;32mI i$[0;37m·I$$#%╦╦┐,  .[0m       [37m`[0;33mM[0;1;37mM[0;1;30m:[0;33mMM[0;1;37ml[0;1;33mi[0;1;30md[0;33mM[0;1;37mM[0;1;33m''[0;1;30m,[0;33mg[0;1;37m,[0;1;33m_[0;32m^╚$[0;1;32m$$$$$$$[0;32ml[0;1;32m$$$$[0;32m$$`$[0;1;32m$[0;1;33m$[0;32m$[0m

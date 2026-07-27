@@ -5,7 +5,7 @@
 # Source SHA-256: 49016ab4101eebae33ff6caa4169ca382209eb16cb117b6b3023e18e781a277b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UM-DVL.ANS by uM! (dVL_fRC); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dVLlOGO!
 # SAUCE Author: uM!
 # SAUCE Group: dVL_fRC
@@ -16,8 +16,7 @@
 
 Write-Host '
              [35m                [0m
-[35m   [0;1;37m     [0;35m         [0;1;37m     [0;35m          [0;1;37m           [0;35m         [0;1;37m   [0;35m                [0;1;37m  [0;35m       [0m
-[35m.$%[0;1;37m$$[0;35m$ⁿ[0;1;31m.@$[0;31m$$$@a.[0;35m$#E[0;1;37mWER[0;35mR!²[0;1;31m.a.[0;35m$QEWE[0;1;37mDSFSF$%&[0;35m$%$"[0;1;31m.a@$$$[0m [35m$[0;1;37m$[0;35m$[0;37m [0;31m$$$$[0;37m [0;1;31ma@$$[0;31m@[0;1;31m.[0m [1;31m$$s[0m [1m!$[0;35m$$[0;37m    [0m
+[35m[0;1;37m[0;35m[0;1;37m[0;35m[0;1;37m[0;35m[0;1;37m[0;35m[0;1;37m[0;35m[0m[35m.$%[0;1;37m$$[0;35m$ⁿ[0;1;31m.@$[0;31m$$$@a.[0;35m$#E[0;1;37mWER[0;35mR!²[0;1;31m.a.[0;35m$QEWE[0;1;37mDSFSF$%&[0;35m$%$"[0;1;31m.a@$$$[0m [35m$[0;1;37m$[0;35m$[0;37m [0;31m$$$$[0;37m [0;1;31ma@$$[0;31m@[0;1;31m.[0m [1;31m$$s[0m [1m!$[0;35m$$[0;37m    [0m
 [35ma$[0;1;37m#%[0;35m²[0;1;31m.d$$$²[0;31mⁿS$$$a[0;37m [0;35m$[0;1;37m!@#[0;35mⁿ[0;37m [0;1;31m$$$$[0m [35m$|@###[0;1;37mD%$&%&[0;35m%&$[0;37m [0;1;31m$$$$$''[0;35m$[0;37m [0;35m$[0;37m [0;31md$$$''[0;1;31md$$$[0;31m$[0;1;31m$$s`$$s[0m [1m$[0;35m!#a.[0;37m  [0m
 [35m$@[0;1;37m![0;35m$[0;37m [0;1;31m$$$$''[0;35m$$[0;37m [0;31mS$$$b[0;37m [0;35m$[0;1;37m%[0;35mⁿ[0;37m [0;1;31m$$$$$[0;31m.[0;35m$EWRWER[0;1;37m&&&&4$[0;35mD$[0;37m [0;1;31m$$$$$[0m [35m$ⁿ[0;31m.s$$$∩[0;1;31ma$$$$[0;31m$$[0;1;31m$$[0m [1;31m$$$$s[0m [35m$@$a[0;37m [0m
 [35m$$Q$[0;37m [0;1;31m$$$$$[0m [35m$$[0;37m [0;31mS$$$a[0;37m [0;35m$[0;37m [0;1;31m$$$$$''[0;31m$[0;37m [0;35m$@#%&AS[0;1;37mASDd[0;35mDS$[0;37m [0;1;31m$$$$a[0m  [31ma$$$$''[0;1;31m$$$$''s$[0;31m$$[0;1;31m$[0m [35m [0;1;31m`$[0;31m$[0;1;31m$s[0m [35m$·$[0;37m [0m
@@ -28,6 +27,5 @@ Write-Host '
 [35m$CH$[0;37m [0;31m$$$$a[0;37m [0;35m$[0;37m [0;31m$$$$$''$$$''$$$$$b.[0;35m²$$$SDEWR[0;1;37m#[0;35m$$$$[0;37m [0;1;31m$$$s[0m [35m$$ [0;1;31m`[0;31m$[0;1;31m$$$s[0m [35m$[0;37m [0;1;31m$$[0;31m$[0;1;31m$[0m [35m$[0;37m [0;1;31ma$$$[0;31m$$$''[0;35ms$ [0m
 [35m`%H$[0;37m [0;31m$$$$$.[0;35m [0;31md$$$$∩$$$''$$[0;1;31m$$$$$$[0;31mSsa[0;35m ⁿ$$ⁿⁿⁿⁿⁿ$$[0;37m [0;1;31m$$$$b[0m [35m$$[0;37m [0;1;31mS$$$$[0m  [1;31ms$$$$[0m [1;31ma$$[0;31m$$$$$''[0;35m$T$[0;37m [0m
 [35m @!$a[0;31m`²$$$$$$$²''d$$ⁿ''[0;1;31md$$$$$$[0;31m$$$$ⁿ''[0;35m$[0;31m.[0;1;31ms$$$[0;31m$Sa.[0;35m [0;1;31m²$$$$b[0m [35m$ [0;1;31m''S$$$b[0m [1;31m$$$$''s$$[0;31m$$$²''[0;35m $F$''[0;37m [0m
-[35m                                  [0;1;37m [0;31m  [0;1;31m    [0;31m [0;35m         [0;1;37m    [0;35m                      [0;37m   [0m
-       [37m                 [0m          [35m             [0m
+[35m[0;1;37m[0;31m[0;1;31m[0;31m[0;35m[0;1;37m[0;35m[0;37m[0m       [37m                 [0m          [35m             [0m
 [37m---------------------------------------------[cut-me]---------------------------[0m'

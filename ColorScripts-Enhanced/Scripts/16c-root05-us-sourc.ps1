@@ -5,7 +5,7 @@
 # Source SHA-256: ac4a98d89ed75f7c4b754449ee6b50698aafec046774dea032cc706e864a2f9f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SOURC.ANS by Static Addiction + Burnout-Root (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Source
 # SAUCE Author: s4/bo
 # SAUCE Group: Root
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[31m                                                         [0;1;30m          [0m [1;30m       [0m [1;30m    [0m
-[31m,$$$$$$$$$$$''[0;34m,d$$$$$ⁿⁿ$$$$$$b [0;31m$$$$$$$$$$ⁿⁿ$$$$$$$$$$$$$@b,._ [0;1;30m ugly part:[0m
+[31m[0;1;30m[0m[1;30m[0m[1;30m[0m[31m,$$$$$$$$$$$''[0;34m,d$$$$$ⁿⁿ$$$$$$b [0;31m$$$$$$$$$$ⁿⁿ$$$$$$$$$$$$$@b,._ [0;1;30m ugly part:[0m
 [31m$$$$ⁿ$$$[0;1;31;41m$[0;31m$$''[0;34m,$[0;1;34m$$$$[0;34m$'' ,$[0;1;34m$$$$[0;34m$''[0;31m,$$[0;1;31;41m$[0;31m$$$$$$$uu$$$$$$$$$$$[0;1;31;41m$[0;31m$$$$$$$,[0;37m [0;1;30mstatic addiction[0m
 [31m$$$$u$$$$$''[0;34m,$[0;1;34m$$$$[0;34m$'' ,$[0;1;34m$$$$[0;34m$''[0;31m,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$,[0;1;30m [0m [1;30mboth of [r00t][0m
 [1;31;41m$[0;31m$$$$$$$$''[0;34m,$[0;1;34m$$$$[0;34m$'' ,$[0;1;34m$$$$[0;34m$''[0;31m,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;31;41m$[0;31m$$$$$,[0;37m [0;1;30m [0;30mduke is gay[0;37m  [0;31m,[0m

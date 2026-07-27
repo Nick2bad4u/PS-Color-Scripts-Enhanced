@@ -5,7 +5,7 @@
 # Source SHA-256: 52f7a63229c7928e4e656550bb38a08bc44da8377c36b12e4fcd02e6c9700a7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-SPD.ANS by Technophreak (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 99-139
 # Columns: 1-80
 
@@ -27,25 +27,9 @@ Write-Host '
        [34m▄▄█████[0;1;34;44m░░░░░░▒▓[0;1;34;40m▀▀[0;34m▄[0;1;34;44m░░░░░░[0;34m██▌[0m         [1;31;41m▓▓▓▒░░░░[0;31m▀  [0;1;31m▀[0;1;31;41m▓▒░[0;31m█[0;1;31;41m░[0;31m█▀▀[0;34m▄▄[0;1;34;44m░▒░░░░░▒░░▒[0;34m▀▀[0m
 [34m    ▄▀▀▀▀▀▀▀▀▀▀▀▀▀   ▄▀▀▀▀▀▀▀▀▀▀▀▄[0m          [1;31m▀▀[0;31m▀▀[0m     [34m▄▀ [0;1;31m▀[0;31m▀▀  [0;34m▀▀▀▀▀▀▀▀▀▀▀[0m
 
-                                    [1m  [0m      [1m [0m      [1m [0m [1m [0m  
+[1m[0m[1m[0m[1m[0m[1m[0m
 
-
-[1m [0m          [1m [0m    [1m [0m   [1m [0m       
-[1m [0m      [1m [0m     [1m [0m  [1m [0m   [1m [0m     
-[1m [0m        [1m [0m       [1m [0m   [1m [0m     [1m [0m     
-[1m [0m   [1m [0m    [1m [0m        [1m [0m   [1m [0m     
-[1m [0m       [1m [0m      [1m [0m     
-[1m [0m    [1m [0m          [1m [0m   [1m [0m                                        [1m  [0m      [1m [0m
-[1m [0m     [1m [0m      [1m [0m    [1m [0m                                   [1m [0m                     [1m [0m
-[1m [0m      [1m   [0m   [1m [0m  [1m [0m      [1m   [0m                               [1m [0m               [1m [0m
-[1m [0m      [1m [0m        [1m [0m    [1m [0m   [1m [0m         [1m [0m    
-[1m [0m    [1m [0m     [1m [0m   [1m [0m     [1m [0m   [1m [0m     
-[1m [0m    [1m [0m      [1m [0m         [1m [0m   [1m [0m          [1m [0m    
-[1m [0m   [1m [0m     [1m [0m  [1m [0m        [1m [0m     [1m [0m   [1m [0m    [1m [0m    
-[1m [0m   [1m [0m          [1m [0m       [1m [0m  [1m [0m   [1m [0m    [1m [0m    [1m [0m    
-[1m [0m      [1m [0m  [1m [0m  [1m [0m        [1m [0m   [1m [0m   [1m [0m    [1m [0m   [1m [0m     
-
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m
 
 [31m─  ── ───────────────────────────────────────────────────────────────────[0;1;31m─ ──  ─[0m
-[1;31m [0m   [1m  [0m [1m [0m     [1m [0m     [1m [0m            [1m [0m [1m [0m   [1m  [0m                            [1m [0m      [1m [0m  [1m [0m
-[1;31m─  ── ─[0;31m──────────────────────────────────────────────────────────────────[0;1;31m─ ──  ─[0m'
+[1;31m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;31m─  ── ─[0;31m──────────────────────────────────────────────────────────────────[0;1;31m─ ──  ─[0m'

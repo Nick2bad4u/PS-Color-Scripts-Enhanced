@@ -5,7 +5,7 @@
 # Source SHA-256: b6b8b6697706bc90adbb6e71a75e4d36384a72ec0a91e17499e8c6064c2446b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KUR1#RAG.ANS by Rage (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -55,5 +55,5 @@ Write-Host '
                      [1;32;42m▐[0;32m███████████▌████[0m     [32m████▌ [0;32;42m  [0;32;40m██[0;32;42m [0;32;40m████[0m
                      [1;32;42m▐[0;32m████    ████▐████   ████[0;1;32;42m▌[0;32m▌[0;32;42m  [0;32;40m███[0;32;42m  [0;32;40m████ - +3[0;1;32;40m5[0;1;37;40m8[0;32m-9[0;1;32m8[0;1;37m6[0;32m-61400[0;1;32m6[0;1;37m1 [0;32m-[0m
 [32m - N[0;1;32mo [0;32mrati[0;1;32mo[0;1;37ms [0;32m![0;1;32m! [0;32m-    [0;1;32;42m▐[0;32m██████████[0;1;32;42m▐[0;32m█▌██████████[0;32;42m [0;1;32;42m▌[0;32m▌[0;32;42m  [0;32;40m███ [0;32;42m   [0;32;40m███[0m
-                     [32;42m [0;32;40m██████[0;1;32;42m▄▄▄▄█ [0;32m▌███████[0;1;32;42m▄▄▄█ [0;32m▌[0;1;32;42m▄▄▌[0;32m█   [0;32;42m  [0;1;32;42m▄▄▌[0;32m▌    - CA[0;1;32mL[0;1;37mL [0;32mN[0;1;32mO[0;1;37mW [0;32m![0;1;32m! [0;32m-[0m
+                     [32;42m [0;32;40m██████[0;1;32;42m▄▄▄▄█ [0;32m▌███████[0;1;32;42m▄▄▄█ [0;32m▌[0;1;32;42m▄▄▌[0;32m█   [0;32;42m  [0;1;32;42m▄▄▌[0;32m▌        [0;1;32m [0;1;37m  [0;32m [0;1;32m [0;1;37m  [0;32m [0;1;32m  [0;32m [0m
                       [32m▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀[0m     [32m▀▀▀▀[0m'

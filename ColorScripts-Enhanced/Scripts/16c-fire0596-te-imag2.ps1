@@ -5,7 +5,7 @@
 # Source SHA-256: c788ae45fe76d258e318a4e7fff243c88e8cd91840eb197a02470ef9e0c18397
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-IMAG2.ANS by The Extremist (fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Imagcola
 # SAUCE Author: The Extremist
 # SAUCE Group: fire
@@ -26,7 +26,7 @@ Write-Host '
 [1;30;40m  ██[0;1;30;47m▓▓▓[0;1;30;40m██  ██[0;1;30;47m▓▓▓[0;1;30;40m██[0m           [1;30;40m██[0;1;30;47m▓▓▓[0;1;30;40m██  ██[0;1;30;47m▓▓[0;1;30;40m██    ██[0;1;30;47m▓▓▓█[0;1;30;40m█  ██[0;1;30;47m▓▓▓[0;1;30;40m██   ██[0;1;30;47m▓▓▓[0;1;30;40m██[0m
 [1;30;40m ██[0;1;30;47m▓▓▓[0;1;30;40m██  ██[0;1;30;47m▓▓▓█[0;1;30;40m█[0m           [1;30;40m██[0;1;30;47m▓▓▓[0;1;30;40m██  ██[0;1;30;47m▓▓[0;1;30;40m██▄▄▄▄██[0;1;30;47m▓▓▓[0;1;30;40m██  ██[0;1;30;47m▓▓▓[0;1;30;40m██▄▄▄██[0;1;30;47m▓▓▓[0;1;30;40m██[0m
             [1;30;40m▀▀▀[0m               [1;30;40m▀▀▀[0m      [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [1;30;40m▀▀▀▀▀▀▀▀██[0;1;30;47m▓▓▓[0;1;30;40m██[0m
-      [1;30;40m▄▄▄▄▄▄■▀[0m      [1;37;40mimagcola..  er imagina - 418.832.9266[0m       [1;30;40m██[0;1;30;47m▓▓▓[0;1;30;40m██[0m
+      [1;30;40m▄▄▄▄▄▄■▀[0m      [1;37;40m                                     [0m       [1;30;40m██[0;1;30;47m▓▓▓[0;1;30;40m██[0m
 [1;30;40m    ██[0;1;30;47m▓▓▓[0;1;30;40m██[0m      [1;37;40msysops : balrog/k0sm1c ++ white wizard[0m        [1;30;40m██[0;1;30;47m▓▓▓[0;1;30;40m██[0m
 [1;30;40m   ██[0;1;30;47m▓▓▓[0;1;30;40m██    [0;1;37;40m                                    [0m           [1;30;40m▄██[0;1;30;47m▓▓▓[0;1;30;40m█▀[0m
      [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

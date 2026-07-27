@@ -5,7 +5,7 @@
 # Source SHA-256: 705983ea97835e01e31e79f2ed443ba5e4810616b25277df4ae3a839a5bcd072
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VOID1.ANS by Black Spyrit (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -53,5 +53,5 @@ Write-Host '
                   [1;30m▓ [0;1;30;47m█▓▒░░░░▒▓█[0m  [1;30;47m▓▒░░░░░░▒▓[0m  [1;30;47m▓▒▒▓[0m  [1;30;47m▓▒░░░░░▒▓█[0m [1;30;40m▓  [0;1;37;40m[[0mi[1;30mCE][0m
                   [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
 
-               [1;34m┌── [0;1;30mSys[0;31mop: [0;1;31mTh[0;1;33me Grim Reaper ∙■∙ [313][0;1;31m/98[0;31m1/3[0;1;30m573 [0;1;34m──┐[0m
+               [1;34m┌── [0;1;30m   [0;31m    [0;1;31m  [0;1;33m               ■       [0;1;31m   [0;31m   [0;1;30m    [0;1;34m──┐[0m
                [34m└── [0;1;30m   [0;31m   [0;1;31m   [0;1;33m            ■          [0;1;31m   [0;31m   [0;1;30m    [0;34m──┘[0m'

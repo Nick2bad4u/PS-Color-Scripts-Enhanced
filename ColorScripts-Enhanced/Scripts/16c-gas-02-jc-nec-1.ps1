@@ -5,7 +5,7 @@
 # Source SHA-256: 00dcc550deda489962482a1b2157999ea62c342a956c5de323a36aed7b80fd10
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JC-NEC#1.ANS by juice (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: necrospire
 # SAUCE Author: juice
 # SAUCE Group: gas
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;34m       [0m
-[1;34mda brain.. [0;34m▄▀  ▌[0m        [1;30m░[0m                          [1;30m░[0m       [1;30m░[0m
+[1;34m[0m[1;34mda brain.. [0;34m▄▀  ▌[0m        [1;30m░[0m                          [1;30m░[0m       [1;30m░[0m
        [34m▄ ▄▐ ▄▀▀▄▄▀[0m     [1;30m░▒░[0m          [1;30m░[0m                     [1;30m░▒░[0m               [1;30m░[0m
       [34m▄▄[0;1;34;44m░[0;34m▐▐▀▓▀▀[0;1;34;44m░[0;34m▄[0m       [1;30m░    [0;1;30;47mn[0;30;47m▄ [0;37;40m▄▄▄  ▄[0;30;47m▄[0;1;30;47me[0m▀▀▀  ▄[30;47m▄ [0;37;40m▀▀▀  [0;37;47m [0;30;47m▄ [0;37;40m▄▄▄  ▄[0;30;47m▄ [0;37;40m▀[0;37;47m [0;30;47m▄[0;37;40m▄[0m
 [37;40m [0;1;30;40m░[0m     [34m▄▓▀[0;1;34;44m░[0;34m▀[0;1;37m▄█[0;1;37;47m▄[0m▄ [34m▌[0m           [37m█[0;30;47m▓ [0m [37;40m▄[0;30;47m▄ [0;37;40m▀▄[0;30;47m▓ [0;37;40m▀▀▀▀ [0;37;47m [0;30;47m▓ [0m [37;40m▄[0;30;47m▄ [0;37;40m▀▄[0;30;47m▓ [0m [37;40m▄[0;30;47m▄ [0;37;40m▀▄[0;30;47m▓ [0m [37;40m▄[0;30;47m▓[0;1;30;47mo[0m▀   [1;30m░[0m
@@ -41,7 +40,7 @@ Write-Host '
 [1;30m░▒░   [0;1;30;47m▓[0;1;30;40m███▀████   ░[0m       [1;37;40m▀[0m▀
  [1;30m░   █████▐████▌ ░▒░    ░▒░    sysgod [0mjuice [1;30m° co-gods [0mmagma[1;30m+[0mmadman     [1;30m░[0m
 [1;30m    ▐█████▐█████  ░[0m      [1;30m░[0m                                            [1;30m░▒░[0m
-[1;30m   ▐▀▀▀▀▓█▐▓▀▀▀▀▌[0m           [1;30m░[0m        [1;30m.o_ [0;1;37m+61-755-466-998 [0;1;30m_o.[0m           [1;30m░[0m
+[1;30m   ▐▀▀▀▀▓█▐▓▀▀▀▀▌[0m           [1;30m░[0m        [1;30m    [0;1;37m                [0;1;30m   [0m           [1;30m░[0m
 [1;30m   [0;34m▄[0;1;34;44m░[0;1;37;44m▄  [0;1;30;40m▐█▐▌[0;1;34;44m░[0;34m█[0;1;37;44m▄ [0;34m▄   [0;1;30m░[0m            [1;30m░[0m
 [1;30m  [0;1;37m▓█[0;1;37;44m▄ ▀[0;34m█▌[0;1;30m▀j[0;34m▐█[0;1;37;44m▀ ▄[0;1;37;40m█▓[0m              [1;30;40m░▒░[0m                         [1;30;40m░[0m
 [1;30;40m  [0m▄[1m▀█[0;1;47m▓[0;34m▀[0;37m▄   [0;1;30mc[0m▄[34m▀[0;1;37;47m▓[0;1;37;40m█▀[0m▄               [1;30m░  e[0mn[1mt[0me[1;30mr[0m

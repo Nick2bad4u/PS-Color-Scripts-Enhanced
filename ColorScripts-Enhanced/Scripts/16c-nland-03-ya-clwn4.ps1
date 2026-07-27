@@ -5,7 +5,7 @@
 # Source SHA-256: 56ef8f2d87507ad7d6c1db4789f3d452a43b18a153b0e29503ab12b268489c31
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YA-CLWN4.ANS by Yasop (NeveRLanD); released in nland-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Clown BBS
 # SAUCE Author: Yasop
 # SAUCE Group: NeveRLanD
@@ -32,5 +32,5 @@ Write-Host '
 [1;30m  [0;1;30;42m▓[0m                [1;30;42m▒░[0;32m▌    [0;1;30;42m▓[0m     [32m▀▀[0m         [1;33m0 [0;1;32mTo [0;1;33m7[0m                  [1;30;42m▓[0m      [1;30;42m▓[0m
 [1;30m  ▀[0m                [1;30;42m▒░[0m          [1;33;42m░▒[0m          [1;33mh[0;1;32mO[0;32mU[0;1;32mR[0;1;33mS[0m       [1;33m/┤[0;1;32mN[0;32mSi B[0;1;32my[0;1;33m:[0m          [1;30;42m▓[0m
                    [1;30m▐[0;1;30;42m▒░[0;30;42m▀[0m      [32;40m▄██[0;1;33;42m░[0m                     [1;33m¥[0;1;32m/┤[0;32mS0P :[0;1;32m*[0;1;33m)[0m        [30m┘ [0;1;30m▐[0m
-                    [1;30;42m▒▒[0;32m▀██▄▄▄██▀▀    [0;1;33m+[0;1;32m5[0;32m4-1-799-02[0;1;32m7[0;1;33m7[0m                      [30m┘ [0;1;30m▐[0m
+                    [1;30;42m▒▒[0;32m▀██▄▄▄██▀▀    [0;1;33m [0;1;32m [0;32m          [0;1;32m [0;1;33m [0m                      [30m┘ [0;1;30m▐[0m
                     [1;30;42m▓[0m     [32m▀▀[0m'

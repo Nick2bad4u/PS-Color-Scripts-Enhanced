@@ -5,7 +5,7 @@
 # Source SHA-256: a85ef446f05497ecffe0c6ba45219d34c6250fca2faaa355bd18edf890f6b05b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-WIZRM.ANS by Dark Horizon (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
 [1;37m███████┌[0;34m──────────────────[0;1;37m┐██████████ [0;1;35;45m░▒▓▓░▒[0;35m█████████████████████████████████ [0;1;37m█[0m
 [1;37m███████[0;34m│ Wiza[0;1;34mrd[0;1;37ms Rea[0;1;34mlm [0;34mBBS│[0;1;37m██████████ [0;1;35;45m▒░▒▓▓[0;35m██████████████████████████████████ [0;1;37m█[0m
 [1;37m███████[0;34m│ Syso[0;1;34mp: [0;1;37mMagi[0;1;34mc [0;34mMan │[0;1;37m██████████ [0;1;35;45m░▒▓░▒░[0;35m█████████████████████████████████ [0;1;37m█[0m
-[1;37m███████[0;34m│  (81[0;1;34m3) [0;1;37m942-[0;1;34m91[0;34m25  │[0;1;37m█████████▀ [0;1;34m▄▄▄▄▄▄▄ [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;34m▄▄▄▄▄▄▄▄ [0;1;37m▐[0m
+[1;37m███████[0;34m│     [0;1;34m   [0;1;37m    [0;1;34m  [0;34m    │[0;1;37m█████████▀ [0;1;34m▄▄▄▄▄▄▄ [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;34m▄▄▄▄▄▄▄▄ [0;1;37m▐[0m
 [1;37m███████[0;34m│ Info[0;1;34mTe[0;1;37ml 28.[0;1;34m8.[0;34mVFC │[0;1;37m█████████ [0;1;34m█████████████████████████████████████████[0;1;37m▐[0m
 [1;37m███████[0;34m│   Ma[0;1;34mny [0;1;37mA Do[0;1;34mor[0;34ms   │[0;1;37m█████████ [0;1;34m█████████████████████████████████████████[0;1;37m▐[0m
 [1;37m███████[0;34m│[0m     [1;34mAn[0;1;37msi By[0;1;34m:[0m     [34m│[0;1;37m█████████ [0;35m▄▄▄▄▄▄ [0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;35m▄▄▄▄▄▄▄▄[0;1;37m▐[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b67b61fbd75f172a6d8ab3fcd49e46a344fb76829a199ebb2e3dc833ef31ab1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-PRA1.ANS by Black Lightning + Chromatik (Spastic); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Prayer
 # SAUCE Author: Black Lightning
 # SAUCE Group: Spastic
@@ -55,5 +55,5 @@ Write-Host '
        [31m▄    [0;33m░   [0;1;30m▀ ░▀  [0;33m▄[0;1;31;43m▒[0;33m▓▄▄ [0;31m▀  ▀ ▒[0m       [31m■  ▀ ▒[0m     [31m░ [0;1;30m▀ [0;1;33m▀ [0;1;30m▄▄▀▀ ■ [0;31m▄▄▄  ▀[0;1;31;41m▒[0;31m▀ ▄[0m
                     [33m▀ ■ ▀▀▀[0;1;31;43m▒[0;33m▓▄   [0;31m░[0m            [31m░[0m       [1;30m▀ ░▀[0m             [31m▒    ■[0m
        [31m▀ ▄[0m               [33m░    ▀[0m                     [31m░[0m                  [31m░[0m
-        [31m▀▓▀   [0;33m. [0;1;33mp r a y e r [0;33m. [0;1;33m9 o 8 [0;33m. [0;1;33m3 9 o [0;33m. [0;1;33m1 4 8 o [0;33m. [0;37ms [0;1;30m: [0;1;37mc k [0;36m. [0;1;37mb l a h ![0m
+        [31m▀▓▀   [0;33m  [0;1;33m            [0;33m  [0;1;33m      [0;33m  [0;1;33m      [0;33m  [0;1;33m        [0;33m  [0;37m  [0;1;30m  [0;1;37m    [0;36m  [0;1;37m         [0m
             [33m░[0m'

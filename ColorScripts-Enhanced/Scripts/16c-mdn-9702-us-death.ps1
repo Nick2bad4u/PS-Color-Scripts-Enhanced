@@ -5,7 +5,7 @@
 # Source SHA-256: c3e7e3dcf7c9297e0ebc0efaaa3cf0b330bf06b34fadfefe4488310d17cd52ec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DEATH.ANS by Soulphuree + Rorshack (Maiden Brazil); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: virTual dea.. ..l ..o ..g ..o ..!
 # SAUCE Author: p8 + rs = pr8s
 # SAUCE Group: Maiden Brazil
@@ -18,10 +18,8 @@ Write-Host '
           [33mⁿs    s    ⁿs[0m
 [37m          [0;33ms''   `s    s''[0m
 [37m          [0;33m`ⁿs  s''  sⁿ''[0m
-[37m           [0;33m         [0m
-[37m            [0;1;37m.s$[0;1;33m$$$Ss[0;33m.[0m
-[37m            [0;1;37m [0;1;33m       [0;33m [0;37m                [0m
-[37m            [0;1;37m`[0;1;33m~ⁿSsS[0;33mⁿ~''[0m
+[37m[0;33m[0m[37m            [0;1;37m.s$[0;1;33m$$$Ss[0;33m.[0m
+[37m[0;1;37m[0;1;33m[0;33m[0;37m[0m[37m            [0;1;37m`[0;1;33m~ⁿSsS[0;33mⁿ~''[0m
 [37m   [0;1;36m   [0m       [1m$S[0;1;36ms[0;36ms[0;1;36ms[0;36mS$              [0;37m [0;1;37m$$[0;1;36m$$$[0;36m$[0;1;36m$[0m                    [1mⁿⁿ[0;1;36m$$$$$[0m
 [1;36m  [0;1;37m$$[0;1;36m$$[0;36m$[0;1;36m$[0;36m$[0;37m    [0;1;36mⁿ[0;36mⁿⁿⁿⁿ$$ [0;1;37m$$[0;1;36m$$[0;36m$$$$$$$$s. [0;1;36mⁿ$[0;1;30m$$$[0;36m$ [0;1;37mⁿⁿ[0;1;36mⁿ$$$[0;36m$ [0;1;37mⁿⁿⁿ[0;1;36mⁿ[0;1;37mⁿ[0;1;36mⁿⁿⁿ[0;1;37m$[0;1;36m$$[0;36mS[0;1;36ms[0;36m.[0;1;36mⁿⁿ$[0;36m$[0m
 [37m  [0;1;37m$[0;1;30m░$$$$[0;36m$[0;37m [0;1;37m$[0;1;36m$[0;36m$[0;1;36m$[0;36m$$$[0;37m [0;1;36m$[0;36m$[0;37m [0;1;37mⁿ[0;1;36mⁿ[0;36mⁿⁿ[0;1;36mⁿ[0;36mⁿⁿⁿ$[0;1;30m$$$$[0;36m$b [0;1;36m$[0;1;30m$$$[0;36m$$$$ [0;1;36m$[0;1;30m$$[0;36m$ [0;1;37m$[0;1;36m$$$[0;36m$$$ [0;1;37m$[0;1;30m$$$$[0;36m$b [0;1;36m$[0;36m$[0m

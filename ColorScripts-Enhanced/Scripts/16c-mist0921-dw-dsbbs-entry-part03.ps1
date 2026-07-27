@@ -5,7 +5,7 @@
 # Source SHA-256: 1eed96cbe50d4ff8ee2fc1737fbd1b6ca89e2f6614e7e3214673904cf4a271d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DW-DSBBS_ENTRY.ANS by DW, Cthulu, LDA (Mistigris); released in mist0921 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dark Systems BBS
 # SAUCE Author: DW, Cthulu, LDA
 # SAUCE Group: Mistigris
@@ -33,7 +33,7 @@ Write-Host '
              ▄▄▄▄▄▄[1;30m                  [0m▄▄▄
 [1;30m::::::::::::::[0m██[1;30m:[0m▀██[1;30m::[0m▄▄▄▄[1;30m:::[0m▄▄[1;30m:[0m▄▄▄[1;30m:::[0m██[1;30m::[0m▄▄[1;30m:::::::::::::::::::::::::::::::::::[0m
 [1;30m::::::::::::::[0m██[1;30m::[0m██[1;30m::[0m▄▄▄██[1;30m:::[0m██▀[1;30m:[0m██[1;30m::[0m██▄█▀[1;30m::::::[0;1;33m [0;1;30mB[0my [1;33m·[0;1;37mDW[0;1;33m·[0m [31mDark Systems BBS[0;1;33m [0;1;30m::::[0m
-             ▄██▄█▀[1;30m  [0m▀█▄▄▀█▄ ▄██▄    ▄██ ▀█▄     [1;30mT[0me[1mln[0me[1;30mt[0m [1;33m·[0;1;30m [0;34mbbs.dsbbs.ca:23[0m
+             ▄██▄█▀[1;30m  [0m▀█▄▄▀█▄ ▄██▄    ▄██ ▀█▄     [1;30m [0m [1m  [0m [1;30m [0m [1;33m [0;1;30m [0;34m               [0m
 
 [1;30m             [0m▄█▀▀█▄[1;30m                    [0m▄█
 [1;30m:::::::::::::[0m▀██▄[1;30m::::[0m██[1;30m::[0m██[1;30m::[0m▄█▀▀▀▀[1;30m:::[0m▀██▀▀[1;30m::[0m▄█▀▀█▄[1;30m::[0m██▄▄██▄[1;30m::[0m▄█▀▀▀▀[1;30m:::::::::::[0m

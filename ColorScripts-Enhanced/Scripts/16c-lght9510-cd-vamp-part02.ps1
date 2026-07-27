@@ -5,7 +5,7 @@
 # Source SHA-256: 47052e66278e89d9640adaa09271b8505b2c421012d49666f47b41b97e470014
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-VAMP.ANS by Code (lght9510); released in lght9510 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 33-64
 # Columns: 1-80
 
@@ -39,6 +39,6 @@ Write-Host '
 [1;30m    [0;1;35m▀[0m         [1;35;45m▓[0;1;35;40m▄[0;1;35;45m▓[0;1;35;40m▀▀[0;35m▀▄[0m     [1;35;45m▓[0m    [35m▄[0;1;35m▀[0m        [1;35m▄▄▄   ▌[0m     [1;30mL[0;35moc[0;1;35mal Messa[0;35mge[0;1;30ms ■[0m        [1;30m▒[0;1;30;41m [0m
 [35m▐[0;1;35m▀▀[0;35m▀[0;1;35;45m▓[0;1;35;40m▀[0;35m▄▄▄[0;1;35m▌  ▐▀[0m       [1;35;45m▒[0m    [1;35m▀▄ [0;1;35;45m▓[0;35m▀    [0;1;35m■   [0;1;35;45m▓▒[0m   [1;35;45m▒[0;1;35;40m▄[0;1;35;45m▒[0;35m▌    [0;1;30m■ [[0;35mSk[0;1;35mand[0;35mal[0;1;30m] [0;35mW[0;1;35mH[0;1;30mQ ■[0m        [1;30m▒▒[0m
 [1;30m   [0;35m▐[0;1;35;45m▓[0;1;35;40m▌[0m      [1;35m▌[0m        [1;35m▐[0;35m▌[0m     [1;35;45m▒▒[0m     [1;35m▐  [0;1;35;45m▓[0;35m▌[0m     [1;35;45m▒[0;35m▀    [0;1;30m■ D[0;35me[0;1;35mnv[0;35me[0;1;30mr, C[0;35mo[0;1;35mlora[0;35md[0;1;30mo ■[0m       [1;30m▒[0m
-[1;30m    [0;1;35;45m▒[0;35m▌[0m      [1;35m▐[0;1;35;45m▒[0m       [35m▐    [0;1;35m▄▄[0;35m▀▐[0;1;35;45m░[0m   [1;35m■[0;1;35;45m▓[0m  [35m█[0m      [1;35;45m░[0;35m█[0m     [1;30m■ (3[0;35mo3)[0;1;35m9i4.[0;35mo95[0;1;30m7 ■[0m         [1;30m▒[0m
+[1;30m    [0;1;35;45m▒[0;35m▌[0m      [1;35m▐[0;1;35;45m▒[0m       [35m▐    [0;1;35m▄▄[0;35m▀▐[0;1;35;45m░[0m   [1;35m■[0;1;35;45m▓[0m  [35m█[0m      [1;35;45m░[0;35m█[0m     [1;30m■   [0;35m   [0;1;35m    [0;35m   [0;1;30m  ■[0m         [1;30m▒[0m
 [1;30m    [0;1;35;45m░[0;35m▄    [0;1;35;45m░[0m   [1;35m▀[0;1;35;45m░[0;35m▄  [0;1;35;45m░[0;35m▀   [0;1;35m▄[0;1;35;45m░[0m    [35m▀▄▄ [0;1;35m▐[0;1;35;45m▒[0m [1;35m▐[0;1;35;45m░[0m       [1;35;45m░[0m     [1;30m■ N[0;35mU[0;1;35mP[0;1;30m: [0;35mL[0;1;35micci[0;35mon[0;1;30me ■[0m
      [35m▐[0;1;35m▄[0;1;35;45m░[0;1;35;40m▀[0;35m▀▀■[0m     [35m▀▀    [0;1;35m▀[0m          [1;35;45m░[0;35m▄ [0;1;35m▐[0;35m▄[0m       [35m▄[0m'

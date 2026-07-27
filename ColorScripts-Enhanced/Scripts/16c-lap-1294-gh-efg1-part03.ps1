@@ -5,7 +5,7 @@
 # Source SHA-256: c758f3358fa25d4b3b7c6ee2ccd97be5733a9738fa0d457fb2efdb4284a4ef4e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GH-EFG1.ANS by Ghent (Lapse); released in lap-1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Especially for Gamers
 # SAUCE Author: Ghent
 # SAUCE Group: Lapse
@@ -34,10 +34,7 @@ Write-Host '
 
 [36m [0m  [36m [0;34m [0;1;31m [0;34m▀ [0m [34m▄[0m [34m▀▄ ▀▄▀▄[0;1;36;44m E [0;36;44ms p e c i a l l [0;1;30;44my[0;1;36;44m   F [0;36;44mo[0;1;36;44m [0;1;30;44mr[0;1;36;44m [0;36;44m [0;1;36;44m G [0;36;44ma m e r[0;1;36;44m [0;1;30;44ms[0;1;36;44m [0;34m▄▀▄▀[0m [34m▄▀[0m [34m▄[0m  [34m▀[0m
       [1;31m     [0m
- [36m [0m     [1;31m   [0m              [1;30m([0;36m801[0;1;30m)[0;36m298[0;1;30m-[0;36m5254[0m [1;30m·[0m [36m14[0;1;30m.[0;36m4[0;1;30m HST M[0;36modem [0m
-                            [1;30m [0;36m  [0;1;30m [0;36m [0;1;30m   [0;36m     [0;1;30m  [0;36m       [0m
-                         [1;30m  [0;36m [0;1;30m [0;36m  [0;1;30m [0;36m [0;1;30m   [0;36m     [0;1;30m [0;36m  [0;1;30m  [0;36m      [0m
-
+[36m[0m[1;31m[0m[1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0;36m[0m[1;30m[0m[36m[0;1;30m[0;36m[0;1;30m[0;36m[0m[1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0;36m[0m[1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0;36m[0m
 
 
 

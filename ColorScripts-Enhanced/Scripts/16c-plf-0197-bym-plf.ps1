@@ -5,7 +5,7 @@
 # Source SHA-256: 20a47f9c59536c77335acba5d79707796541454be6d5926fa9da98a5d059b754
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%PLF.ANS by big yellow man (gummiboll.art); released in plf_0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sun and water
 # SAUCE Author: big yellow man
 # SAUCE Group: gummiboll.art
@@ -46,15 +46,7 @@ Write-Host '
       [30;44m▓▓▓▓▓[0m                     [1;34;40m [0m
 
 
-              [1;34m  [0m    [1;34m                                           [0m
-               [1;34m                                             [0m
-  [30;43m█[0m            [1;34;40m                                               [0m
-               [1;34m                                              [0m
-              [1;34m                                             [0m
-              [1;34m                                                [0m
-              [1;34m                                                     [0m
-
-               [1;34m                                                  [0m
-              [1;34m                                           [0m
-
+[1;34m[0m[1;34m[0m[1;34m[0m  [30;43m█[0m            [1;34;40m                                               [0m
+[1;34m[0m[1;34m[0m[1;34m[0m[1;34m[0m
+[1;34m[0m[1;34m[0m
                                              [1m   [0m     [1m(bymm1s''97)[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 6234ea78f854b8e454d70b76bfc721951a0dd5fc38028c06b06411a26c85e934
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANSI25.ANS by George Ramos (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
                     [1;35;40m███[0;35;41m▄[0;1;35;41m██ [0;1;35;44m [0;36;44m█▀███[0;37;40m█████[0;33;45m▀[0;1;35;40m██[0;35;42m▄[0;1;35;40m██[0;1;35;42m▄[0;1;35;44m▄ [0;36;47m█▄  [0;1;30;41m██▄▀ [0;41m▄████[0;40m▀[0m
 [1;31;40mMORNING STAR BBS [0;1;31;45m [0;1;35;45m▄▀ ▀▄▄█[0;1;35;42m▀  [0;1;35;44m [0;36;44m▀███[0;36;47m▄█[0;1;32;47m█[0;36;47m█[0;1;35;42m▄▄[0;1;35;45m▄ [0;33;45m██ [0;1;35;45m▀█[0;1;35;44m [0;36;44m██[0;37;44m██[0;1;30;44m██[0;1;30;41m [0;41m▄█▀[0;36;47m▄ [0;37;40m▀[0m
                 [1;32;40m▄[0;32m▄[0;35;42m▀█[0;33;42m██[0;35;43m▄█[0;1;35;45m▀▀█[0;1;33;45m██[0;1;33;44m▄[0;44m▄███[0;1;32;42m▀█▄[0;35;42m▀[0;1;35;45m▀  [0;33;45m▀[0;1;35;45m▄▀[0;1;35;44m▄ [0;36;47m██  [0;1;30;47m███▄[0;36;41m▄▄[0;36;47m▀[0;37;40m▀[0m
-[1;33;40m(707) 263-6612 [0;32m▀▀█[0;32;45m [0;1;35;45m▄ ▄█[0;1;35;42m▄▄[0;1;33;47m█████▄██[0;32;43m██▀▀[0;1;35;42m▀[0;1;35;45m▀███[0;35;42m▀ [0;1;32;42m█[0;36;47m█▀ [0;1;30;47m▄█[0;1;30;44m▀▀[0;36;47m▀▀[0;37;40m▀[0m
+[1;33;40m               [0;32m▀▀█[0;32;45m [0;1;35;45m▄ ▄█[0;1;35;42m▄▄[0;1;33;47m█████▄██[0;32;43m██▀▀[0;1;35;42m▀[0;1;35;45m▀███[0;35;42m▀ [0;1;32;42m█[0;36;47m█▀ [0;1;30;47m▄█[0;1;30;44m▀▀[0;36;47m▀▀[0;37;40m▀[0m
                   [37;45m  [0;1;35;45m█▄▀ █[0;1;33;45m▄██[0;1;33;43m▄  ███[0;32;45m▀[0;33;45m██▀ [0;1;35;45m▄█[0;1;35;44m▄[0;36;44m▄[0;36;42m▄[0;1;32;42m▀▀[0;42m█[0;1;30;46m▀[0;1;30;44m▀ [0;44m▀[0;40m▀[0m
                  [32;40m▄[0;35;42m▀[0;1;35;42m▀██[0;1;35;41m [0;1;31;41m▀[0;1;35;41m▀[0;1;31;41m██[0;1;33;42m████▀▀[0;32;45m▀[0;1;35;45m▄▄ ▀█[0;45m▄▄▄██[0;36;47m▄▀[0;36;44m▀▄[0;37;44m█ [0m
                [1;32;40m▄█[0;1;32;42m▀ [0m [31m▄[0;1;35;41m▀ [0;1;35;43m   [0;31;43m▀[0;1;31;41m▀██▀[0;1;31;42m [0;1;32;42m▄[0;1;32;45m [0;1;35;45m▀[0;35;44m▀ ▀[0;35;47m▀[0;36;47m▄[0;32;47m█[0;1;32;46m█▄[0;46m▀▀▄▄▀█▄[0;34;40m▄[0m

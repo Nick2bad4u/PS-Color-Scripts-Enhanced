@@ -5,7 +5,7 @@
 # Source SHA-256: 57ff70a4ccbaa8dcea6d929224f10ad25832c10fa338de81ad8d0fe6d27fe9a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-RGNCY.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 49-98
 # Columns: 1-80
 
@@ -41,13 +41,13 @@ Write-Host '
          ▐[1;30;47m░▒[0m▀ ▐[1;30;47m▒▒[0m   [1;30;47m▓▓▓▓▓[0;1;30;40m▀  ▀[0;1;30;47m▓▓▓[0;1;30;40m▀  [0;1;30;47m▓▓▓▓▓[0;1;30;40m▀ [0;1;30;47m▓▓[0m [1;30;40m▐[0;1;30;47m▓▓▓[0m  [1;30;40m▀[0;1;30;47m▓▓▓[0;1;30;40m▀[0m        [1;30;47m░▒[0m▌
          ▐[1;30;47m▒▒[0m   [1;30;47m▒▒[0m▌                                              [1;30;47m▒▒[0m▌
           [1;30;47m▒▒[0m   ▐[1;30;47m▒▓[0m                                              [1;30;47m▒▒[0m
-          [1;30;47m▓▒[0m              [1;30;40m4 [0;36m0 4 [0;1;36m- 6 6 8 - 0 [0;36m4 1 [0;1;30m2[0m               [1;30;47m▒▒[0m
+          [1;30;47m▓▒[0m              [1;30;40m  [0;36m    [0;1;36m            [0;36m    [0;1;30m [0m               [1;30;47m▒▒[0m
           [1;30;40m▐[0;1;30;47m▒[0m            [31m▄[0;1;31;41m▓▒[0;31m▄   ▄[0;1;31;41m▒▓▒░[0;31m▄[0;1;31;41m▒[0;31m▄▄[0m                        [1;30;47m▒[0;1;30;40m▌[0m
            [1;30;47m▓[0;1;30;40m▌[0m           [31;47m▐[0;1;31;41m▒░[0;31;47m▐[0;37;40m███[0;31;47m▌█[0;1;31;41m░[0;31;47m▄▌█[0;1;31;41m▒▓▒[0;31;47m▌[0;37;40m██████████[0m            [1;30;40m▐[0;1;30;47m▓[0m
             [1;30;47m▓[0m           [31;47m▐■[0;31;40m▐■   ▌▐▀ ▐ ▀▌ ▌[0m        [37;40m██[0m            [1;30;47m▓[0m
              [1;30;40m█[0m          [31;47m■▀[0m     [31;40m▀   ▀[0m             [37;40m██[0m           [1;30;40m█[0m
               [1;30;40m▀[0m         ██[1;30m─ t[0;31mH[0;35mE REGENCY[0m          [37m██[0m          [1;30m▀[0m
-                        ▓█[31m─[0;1;30m─ 4[0;31m0[0;35m4-668-0412[0m        [37m▓█[0m
+                        ▓█[31m─[0;1;30m─  [0;31m [0;35m          [0m        [37m▓█[0m
                         [37m█▓[0;35m─[0;31m─[0;1;30m─ F[0;31mi[0;35mRE USHQ ...[0m      [37m█▓[0m
                         [37m▓▓[0;35m──[0;31m─[0;1;30m─ E[0;31mN[0;35mtROPY DiStRO... [0;37m▓▓[0m
                         [37m▓▒[0;35m───[0;31m─[0;1;30m─ F[0;31mF[0;35mi WHQ.....[0m     [37m▓▒[0m

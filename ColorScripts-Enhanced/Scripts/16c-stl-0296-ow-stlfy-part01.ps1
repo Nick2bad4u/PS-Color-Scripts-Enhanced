@@ -5,7 +5,7 @@
 # Source SHA-256: 95d9c271d32ba186f49fecc199e5b55d0072ebc014c7101eace6b8103e78047b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OW-STLFY.ANS by oWyn (stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: stultify
 # SAUCE Author: oWyn
 # SAUCE Group: stile
@@ -17,11 +17,10 @@
 Write-Host '
 
 
-[1m [0;30m                  [0m
+[1m[0;30m[0m
 
 
-
-                      [1;35m▄▄   [0;1;34m▄▄[0m          [1;30mfr5seda@stud.hks.se[0m           [31m▄▄▄▄▄▀▀▀▀▀[0m
+                      [1;35m▄▄   [0;1;34m▄▄[0m          [1;30m                   [0m           [31m▄▄▄▄▄▀▀▀▀▀[0m
 [31m [0;37m▄▀▀▀▄▄[0m         [1;35m▄▄▄▀▀▀[0;35m▄▄[0;1;35m▀▄[0;1;34m▀[0;34m▄▄[0;1;34m▀▀▀▀▀▄▄▄▄▄    oWyn[0;1;31m(stile)  ▄▄▄▀▀▀▀▄ [0;31m▄▀▀▀[0;1;31m▄▄▄[0;31m▄▄[0;1;31;41m▒[0;1;31;40m█[0;1;31;41m▓▒▒[0m
 [1m [0m▄[1;47m░▒▓[0;1;40m▄[0m▄▀▀▀▄▄ [1;35m▄▄▀[0;35m▄▄▄▒▓[0;1;34;45m    [0;35m [0;34m▀▒▓[0;31;44m   [0;34;40m▓▒▄▄▄▄▄[0;1;34;40m▀▀▀▀▄▄▄▄▄     [0;1;31;40m▄▀▀[0;31m▄▄▄▓█[0;36;41m [0;31;40m▓▒  [0;1;31;41m▓[0;1;31;40m██████████[0;1;31;41m▓▒[0m
 [1m [0;1;47m░▒▓[0;1;40m████[0;1;47m▓▒[0;1;40m▄▄[0m▀ [35m▄▓[0;1;34;45m   [0;35m▓[0;1;34;45m     [0;35m▓  [0;34m▒▓[0;31;44m  [0;34;40m▓[0;31;44m        [0;34;40m▓▒▄▄▄▄▄[0;1;34;40m▀▀▀▀▄ [0;31m▄▓[0;36;41m       [0;31;40m▓▒  ▀[0;1;31;41m▒▓[0;1;31;40m█████[0;1;31;41m▓[0;1;31;40m██[0;1;31;41m▒[0m

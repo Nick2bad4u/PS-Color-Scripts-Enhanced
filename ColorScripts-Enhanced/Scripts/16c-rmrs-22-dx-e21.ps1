@@ -5,7 +5,7 @@
 # Source SHA-256: a0ed9a827a525d53e70c0d3517fc74cfd07f446d53c2a42f66ee20df0561fa87
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX-E21.ANS by Drax (REMORSE); released in rmrs-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Element 21
 # SAUCE Author: Drax
 # SAUCE Group: REMORSE
@@ -16,8 +16,7 @@
 
 Write-Host '
 
-[1m      [0;1;33m                           [0;1;37m         [0;1;33m                         [0;1;37m     [0m
-[1m      [0;1;33m__,,g$[0;1;33;43m$$$[0;1;33;40m$#,.              [0;1;37;40m         [0;1;33;40m              .,#$[0;1;33;43m$$$[0;1;33;40m$g,,__[0m
+[1m[0;1;33m[0;1;37m[0;1;33m[0;1;37m[0m[1m      [0;1;33m__,,g$[0;1;33;43m$$$[0;1;33;40m$#,.              [0;1;37;40m         [0;1;33;40m              .,#$[0;1;33;43m$$$[0;1;33;40m$g,,__[0m
 [1;33;40m       ''ⁿ$$$$[0;1;33;43m$$$$$$[0;1;33;40m$$#ggg,,,,,.._[0;1;37;40m         [0;1;33;40m_..,,,mgg##$$$[0;1;33;43m$$$$$$$$[0;1;33;40m$*ⁿ''[0m
 [1;33;40m      ,*ⁿ`````''┴┴┴┴ⁿ∩''''''_..---                     ''''''''''ⁿⁿⁿⁿ$$*''[0m
 [1;33;40m    *`[0;1;37;40m [0;1;33;40m.[0;1;37;40m   [0;1;33;40m .[0;1;37;40m   [0;1;35;40m`$#┬..[0;1;33;40m``--...__.,,ggg***ⁿⁿⁿⁿⁿ````    ''''''''''[0;1;37;40m [0;1;33;40m.`[0m
@@ -36,5 +35,4 @@ Write-Host '
 [1;37;40mElement 21      [0;1;33;40m''  ''''  [0;1;37;40m            [0;1;35;40m_.,*ⁿ` [0;1;33;40m_,4$$$$$$#g,,..__[0;1;37;40m        +n serial2n[0m
 
 [1m-----------------------------[0m
-[1m                                                                          [0m
-[1mtoo. h0h0![0m'
+[1m[0m[1mtoo. h0h0![0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3542ad8b73531a8b30ed54982054938b94481106dae62719e035cbc0979250f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WI-SCUM.ANS by Widowmaker (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Scum
 # SAUCE Author: Widowmaker
 # SAUCE Group: AWE Lettering
@@ -17,8 +17,7 @@
 Write-Host '
 
 
-           [1m   [0m               [37m     [0m
-                                   [30;42m▓▓[0;32;40m░[0m                 [30;42m▓▓[0;32;40m░[0m
+[1m[0m[37m[0m                                   [30;42m▓▓[0;32;40m░[0m                 [30;42m▓▓[0;32;40m░[0m
              [1;32;40m░░░░░[0m    [1;32m░░░░░░░[0;32m ▄▄▄▄▄▓[0;30;42m░░[0;32;40m▀▀█[0;1;32;42m▄▄▄▄▄[0;32m█▀[0m    [32m▀▀▀▓[0;30;42m░░[0;32;40m▄▄▄[0m
          [32;40m▄▄▄▄[0;1;32;40m▓▓▓▓▓[0;32m▀▀▀▀[0;1;32m▓▓▓▓▓▓▓[0;1;32;42m▄▀▀[0;32m▀[0m      [32m▐[0;1;32;42m▐[0;1;32;47m▓▓[0;1;32;42m██▌[0;32m▌[0m          [32m▀[0;1;32;42m▀██▄▄[0;32m▄[0m
       [32m▄[0;1;32;42m▄▄███▀[0;32m▀[0m       [32m▐[0;1;32;42m▐█[0;1;37;40m██[0;1;32;42m█▌[0;32m▌▀ [0m     [32m▄▄▄[0;1;32;42m▄█▀▀▀█▄[0;32m▄▄▄ [0m        [32m▐[0;1;32;42m▐███▌[0;32m▌[0m

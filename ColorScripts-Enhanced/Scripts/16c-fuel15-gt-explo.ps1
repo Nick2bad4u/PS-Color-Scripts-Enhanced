@@ -5,7 +5,7 @@
 # Source SHA-256: cc4863373dc3a226eaa80e5d97b586f1e6a1a5e2470e137350b2c2f665543e6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GT-EXPLO.ANS by graphital (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: explode                (ansimation)
 # SAUCE Author: graphital
 # SAUCE Group: fuel productions
@@ -32,10 +32,7 @@ Write-Host '
                        [31m▄[0m   [36m░░[0m [1;36m▀[0;36m▀■[0m   e[1mxplosion..[0m    [1;31m▀▄[0m      [1;31m▀▀[0m [31m▄[0m
                               [1;31m▄[0m  +[1m972[0m.[1m9.[0m9[1m56750[0m3       [31m▄[0m  [31m░░[0m      [31m■[0m
 
-  [1m   [0m  [1m    [0m  [1m [0m   [1m [0m [1m    [0m  [1m  [0m  [1m         [0m  [1m [0m  [1m        [0m  [1m     [0m  [1m   [0m  [1m   [0m  [1m   [0m  [1m   [0m
-  [1m    [0m    [1m    [0m  [1m      [0m  [1m       [0m  [1m   [0m  [1m       [0m  [1m        [0m  [1m  [0m  [1m  [0m  [1m    [0m  [1m     [0m
-  [1m      [0m  [1m [0m  [1m      [0m  [1m   [0m  [1m   [0m  [1m   [0m  [1m        [0m  [1m       [0m  [1m   [0m  [1m     [0m  [1m    [0m [1m  [0m
-
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m
                   [1;30m░░[0m                                         [1m    [0m  [1m   [0m
 
 [31m▀[0m'

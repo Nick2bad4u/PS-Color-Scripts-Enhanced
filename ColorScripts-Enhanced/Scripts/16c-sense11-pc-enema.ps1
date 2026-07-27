@@ -5,7 +5,7 @@
 # Source SHA-256: 0a3e6cd3bd8b26531a5c67fed9411fa4acfb1268be4f68baf44fd1d286b4efa5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-ENEMA.ANS by Proctologist (SeNSE); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cow dung
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNSE
@@ -40,8 +40,5 @@ Write-Host '
 [35m$l[0;37m [0;1;30m$$$b[0m [35m?s╖,_[0;1;30m`"ⁿⁿⁿ`[0;35mj$''[0;1;30m,$$$$$$$$[0m [35m?$,_[0;1;30m`ⁿ╜?Ss▬▬▬s#$$$$,[0;35m`╜?g,._[0;1;30m`"ⁿⁿⁿⁿ"`[0;35m_.d$''[0;1;30m,$$$l [0;31mp[0;1;31mC[0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30m                                                                             [0m
-[1;30m                                                                             [0m
-[1;30m         [0m
-                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
+[1;30m[0m[1;30m[0m[1;30m[0m                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

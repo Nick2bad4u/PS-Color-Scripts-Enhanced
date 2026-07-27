@@ -5,7 +5,7 @@
 # Source SHA-256: 8dad49b714e1dd5959615994ceeb8eddc2914c00e77acd93b0e7cf845b9a3196
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-SON.ANS by S.a.n. Man (RiGOR); released in rgr-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Swamps of Nyissa
 # SAUCE Author: S.a.n. Man
 # SAUCE Group: RiGOR
@@ -43,22 +43,11 @@ Write-Host '
     [1;30m     [0m s[1;30m   W   A   M   P   S    [0mo[1;30m   F    [0mn[1;30m   Y   S   S   I   A [0m
 
 
-                                 [1;30m         [0m 
-                               [1;30m             [0m 
-                               [1;30m             [0m 
-                            [1;30m                   [0m 
-                                [1;30m           [0m 
-                               [1;30m              [0m 
-[1;30m                               [0m 5[1;30m16-SoN-1212[0m
-                                                       [1;30m            [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m                               [0m 5[1;30m16-SoN-1212[0m
+[1;30m[0m
 
 
 [1;30m----[0m
 [1;30m  [0m
-[1;30m                                                                             [0m
-[1;30m                                                                          [0m
-[1;30m                              [0;31m     [0;1;30m                [0;31m  [0;1;30m              [0m
-
-[1;30m                     [0;31m                                      [0m
-                       [1;30m      [0m   ...Peace...[0m'
+[1;30m[0m[1;30m[0m[1;30m[0;31m[0;1;30m[0;31m[0;1;30m[0m
+[1;30m[0;31m[0m                       [1;30m      [0m   ...Peace...[0m'

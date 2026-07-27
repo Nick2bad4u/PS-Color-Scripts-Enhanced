@@ -5,7 +5,7 @@
 # Source SHA-256: 5949404be01672e20c187c468b0996437e830876898a964826921ee81f843ee0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-PLN.ANS by Pariah (REMORSE); released in rmrs-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Planets
 # SAUCE Author: Pariah
 # SAUCE Group: REMORSE
@@ -29,8 +29,7 @@ Write-Host '
                   [31m  ░░[0;37m  [0;31m;$[0;1;31m$$$$$$$$$$$$$$[0;31m,[0;37m [0;1;31mI$[0m   [31m)[0;1;31m$$$$$$$$$[0;31m$;[0;37m [0m
                          [31m`7[0;1;31m$$$$$$$$$$$$$$5$$%55$$$$$$$$$[0;31mP''[0;37m [0;31m  [0m           [37m        [0m
 [37m                   [0;32m___[0;1;32m__[0m   [31m`ⁿ[0;1;31m7$$$$$$$$$$$$$$$$$$$$$$$P[0;31mⁿ''[0m   [37m         [0m     [37m       [0m
-[34m   [0;1;34m            [0;34m   [0;32m   [0;1;32m    [0;32m   [0;1;32m    [0;32m  [0;37m  [0;34m   [0;1;34m       [0;34m  [0;37m [0;32m   [0;1;32m      [0;32m  [0;1;32m  [0;32m  [0;37m [0;34m   [0;1;34m         [0;34m   [0m
-[34m$[0;1;34m$$$$$$$$$$$$$$$$[0;34m$h[0;37m [0;32m$[0;1;32m$$$$[0;32m''[0;34m,,[0;32m`7[0;1;32m$$$[0;32m$h[0;37m [0;34m`$[0;1;34m$$[0;1;36m$$[0;1;34m$$$[0;34m$''[0;37m [0;32md$[0;1;32m$[0;1;36m$$[0;1;32m$[0;32mP"`[0;1;32m"[0;32m7[0;1;32m$$$$[0;32m$[0;37m [0;34m$$[0;1;34m$$$$$$$$$$$$[0;34m$[0m
+[34m[0;1;34m[0;34m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;37m[0;34m[0;1;34m[0;34m[0;37m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;37m[0;34m[0;1;34m[0;34m[0m[34m$[0;1;34m$$$$$$$$$$$$$$$$[0;34m$h[0;37m [0;32m$[0;1;32m$$$$[0;32m''[0;34m,,[0;32m`7[0;1;32m$$$[0;32m$h[0;37m [0;34m`$[0;1;34m$$[0;1;36m$$[0;1;34m$$$[0;34m$''[0;37m [0;32md$[0;1;32m$[0;1;36m$$[0;1;32m$[0;32mP"`[0;1;32m"[0;32m7[0;1;32m$$$$[0;32m$[0;37m [0;34m$$[0;1;34m$$$$$$$$$$$$[0;34m$[0m
 [34m$[0;1;34m$$$$$$$$$$$$$$$$$[0;34m$[0;37m [0;1;32m$$$$$[0m [1;34m$$[0;34mh[0;37m [0;1;32m$$$$[0;32m$;[0;37m [0;34m$[0;1;34m$$$$$P[0;34m╩╩[0;37m [0;32m;$[0;1;32m$$$$[0;32m''[0;34m,d[0;1;34m$[0;34mh[0;37m [0;1;32m$$$$$[0m [34m$[0;1;34m$$$$$$$$$$$$$[0;34m$[0m
 [34m$[0;1;34m$$$$$$$$[0;34m$"[0;1;34m$$$$$$$$[0m [1;32m$[0;1;36m$$[0;1;32m$$[0m [1;34m$$$[0m [32mI[0;1;32m$$$$[0;32m$[0;37m [0;1;34m$[0m [36mgy[0;1;36myyyy[0;36myy[0;37m [0;36myy[0;37m  [0;36my[0;37m [0;34m$[0;1;34m$$$[0m [32mI[0;1;32m$$$$[0m [34m$[0;1;34m$$$$$$$$$$$$$[0;34m$[0m
 [34m$[0;1;34m$$$$$$$$[0;34my[0;1;34m [0;34my[0;1;34my$$y$$$[0m [1;32m$$$$$[0m [34m╩[0;1;34mⁿ[0;34m''[0;32m,[0;1;32m$[0;1;32;46m▓▓▓▓[0;32m$[0;37m [0;1;34m$[0m [36m$[0;1;36m$$[0;36m''[0;34m,[0;1;34mgy[0m [32mgyy55[0;1;32my[0m [1;34m$$[0;1;37m$$[0m [32ml[0;1;32m$$$$[0m [34m$[0;1;34m$$$$[0;1;34;47m▓▓▓[0;1;34;40m$$$$$$[0;34m$[0m

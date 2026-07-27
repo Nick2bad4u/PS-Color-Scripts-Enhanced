@@ -5,7 +5,7 @@
 # Source SHA-256: 48e14a4a70a7291b4b571066dbb45add8065993c2955e6dc6a6cf90f7a01344f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-IS1.ANS by The Night Angel (AWE Lettering); released in awe-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Illegal Soda
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -21,7 +21,7 @@ Write-Host '
 [1;37m██▀[0m▀  [1;30m▀[0m▀[1;47m▀[0;1;40m███[0;1;46m▀[0;1;40m▀▀▀[0;1;47m▀[0;1;40m███▀ [0;33m▀ [0;1;31m░[0;1;31;43m▀[0;33m█[0;1;37;43millegal soda[0;33m██▀██▄ [0;1;30m───-- - ──-─-─ ▓░ ─ [0;34m▄░[0;30;44m▓[0m  [1;30;40m─-─ [0;34m▄▄▀ [0;1;30m─[0m
 [1;37m▄██▓░  [0;1;36m▄[0;1;37;46m█[0;1;37;40m█[0;1;36;40m▀  [0;36m▄[0;1;36m▄  [0;1;30m▀[0;1;37m█[0;1;36m█▄[0;1;36;47m█[0;1;36;46m▄[0;36m▄ [0;33m█▀██▀▀█▄[0;1;30;43m▀[0;33m█████▀▀█[0;1;31;43m▀[0;33m███[0m            [34m░[0;30;44m▓[0m [1;30;40m▀ [0;34m▄[0;1;34;44m▄█▀[0;34m▀▀█▄[0;1;34m▄[0;1;34;44m▄[0;1;34;46m▀[0;1;34;44m█▄[0;1;34;40m▄[0;34m▄[0m
 [1;37m▀█▀   [0;36m▀[0;1;37m▀▀▓  [0;36m▀[0;1;36;46m▀[0;1;36;40m██▀▄██[0;1;36;47m▓█[0;1;36;46m▀[0;36m▀[0;1;36m▄   [0;33m▀▓[0m     [33m▀[0;1;30m▀[0m     [33m▀▀▀[0m                [1;30m░ [0;1;34;44m▀[0;1;34;46m▄[0;1;34;44m██▄[0;34m█▀  ▀[0;1;34m█[0;1;34;44m█▀[0;34m▀ ▀[0m
-[34m [0;1;36m▐▄[0;1;36;46m▄[0m    [36m▄[0m     [1;30m▀[0;36m▀[0;1;36m▀[0;1;36;46m▀█████[0;1;36;40m▓[0;1;36;46m▓[0;36m▄▄░  [0;33m░ [0;37mcall these boards.. .[0;1;30m. .    ░▓  [0;31m▄ [0;34m▀[0;1;34;44m▀▓[0;34m▄   ▀[0;1;34m▀[0;34m█[0;34;44m [0;34;40m▄[0;1;34;44m▄[0;34m▄[0m
+[34m [0;1;36m▐▄[0;1;36;46m▄[0m    [36m▄[0m     [1;30m▀[0;36m▀[0;1;36m▀[0;1;36;46m▀█████[0;1;36;40m▓[0;1;36;46m▓[0;36m▄▄░  [0;33m░ [0;37m                     [0;1;30m       ░▓  [0;31m▄ [0;34m▀[0;1;34;44m▀▓[0;34m▄   ▀[0;1;34m▀[0;34m█[0;34;44m [0;34;40m▄[0;1;34;44m▄[0;34m▄[0m
 [1;36m▐▄█▀[0;36m▀  [0;1;36m░▓█[0;1;36;46m▄[0;1;36;40m▄[0;36m▄[0m      [36m▀[0;1;36;46m▀[0;36m▀[0;1;36;46m▓[0;1;36;40m▒[0;1;36;46m░[0;36m▀[0m                                   [1;30m▓ [0;31m▀[0;1;31;41m▀[0;31m▀ [0;34m█▀█[0;1;34;44m▀[0;34m▀    [0;34;44m [0;1;34;44m▓▀[0;34m▀[0m
 [1;36m▀██[0;1;36;46m▄[0m [1;33;40m░  [0;1;36;40m▓ [0;36m▀[0;1;36m▀▀[0;1;36;46m▀[0;36m█▄[0m     [36m▄[0;1;36;46m░[0;1;36;40m░[0;36m█▌░  [0;1;30m░ [0m∙ [1millegal soda[0m, 000-000-0000  [1;30m█   [0;31m▄▄ [0;34m▀▀█[0;1;34;44m░[0;34m▄▄▄[0;34;44m [0;1;34;44m░ [0;34m▀[0m
 [1;36m▐▓▌▀ [0;1;33m▓▄ [0;1;36m░ [0;36m░[0;30;46m░[0;36;40m██[0;34;46m░[0;36;44m▓[0;36;40m█ [0;1;33;40m░ [0;36m░▓█▀█▄▓░ [0;1;30m▓ [0m∙ [1millegal soda[0m, 000-000-0000  [31m▄▄▄▀[0;1;31;41m▀[0;31m█▄▓ [0;1;34;44m░▓█▄▄ ▄[0;1;34;40m▓▓[0;34m▄[0m

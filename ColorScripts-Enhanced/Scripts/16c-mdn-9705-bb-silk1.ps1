@@ -5,7 +5,7 @@
 # Source SHA-256: 6c9f8f380420def16b72611887326bc4791bc55a0ce58043ecda9a524bb21f1d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BB-SILK1.ANS by Bugs Bunny! =) (Maiden Brazil!); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Silk LogO!
 # SAUCE Author: Bugs Bunny! =)
 # SAUCE Group: Maiden Brazil!
@@ -19,8 +19,7 @@ Write-Host '
                             [33m.#[0;1;33m$$$ⁿ$%.[0m
                    [1;35m.,[0;35m,,.    [0;33m$[0;1;33m$$ $ $[0;1;33;43m$[0;1;33;40m$   [0;1;35;40m,xx[0m           [1;35m,x[0m
                 [1;35m,x$$[0;1;35;45m$[0;35m$$$$x, [0;33m`ⁿ[0;1;33;43m$[0;1;33;40mx$$$ⁿ'' [0;1;35;40m,$½[0;35m$[0m          [1;35m,$$$[0m
-     [1;35m         [0;1;37m [0;1;35m  [0;35m             [0;1;35m    [0;35m   [0;1;35m [0;35m       [0;1;35m        [0;35m     [0;1;35m                   [0m
-              [1;35md$[0;1;35;45m$[0;35m$$$   $$$$$P [0;1;35m$$$[0;35m$$$ [0;1;35m$[0;1;35;45m$[0;35m$$$ [0;1;35mS[0m       [1;35m$[0;1;35;45m$[0;35m$$¼   [0;1;35m½$[0;35m$$$[0;1;35m$''[0m
+[1;35m[0;1;37m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0m              [1;35md$[0;1;35;45m$[0;35m$$$   $$$$$P [0;1;35m$$$[0;35m$$$ [0;1;35m$[0;1;35;45m$[0;35m$$$ [0;1;35mS[0m       [1;35m$[0;1;35;45m$[0;35m$$¼   [0;1;35m½$[0;35m$$$[0;1;35m$''[0m
               [1;35m$$[0;35m$¼$$  ²²ⁿⁿⁿ''  [0;1;35m$$[0;35m¼$$$ [0;1;35m$[0;35m$$½$   [0;1;35mI L[0;35m   [0;1;35m$[0;35m$²$$  [0;1;35mx$[0;35m$$$''[0m
      [1;35m[[0;35mBb?![0;1;35m][0;35m    [0;1;35mⁿ$$[0;35m$$$xxxx,.   [0;1;35m$$[0;35m²½$$ [0;1;35m$[0;35m$$[0;30;45m$[0;35;40m$[0m      [1;35;40mK [0;35m [0;1;35m$[0;35m$a²$[0;1;35mx$[0;1;35;45m$[0;35m$$''[0m
      [1;35m[[0;35mMaiden[0;1;35m][0;35m    [0;1;35m`ⁿⁿⁿⁿ$$[0;35m$$$#x [0;1;35m$[0;1;35;45m$[0;35ma$$$ [0;1;35m$[0;35m$$$$  $x.  [0;1;35m![0;35m [0;1;35m$[0;35m$$a$$$[0;1;35m$[0;35m$x.[0m

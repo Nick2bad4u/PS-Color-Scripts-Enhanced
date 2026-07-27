@@ -5,7 +5,7 @@
 # Source SHA-256: be41074f2a8a768688e09cb3d4a0db9eda9eb74051162aaec55e85d7fb04d274
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-RDLH.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -54,7 +54,7 @@ Write-Host '
 [1;36;40m   [0m∙               [1;30m░▀[0m          [1;30m▀█[0;1;30;47m▄[0m▄▄  [1;30m▓[0;1;30;47m▌[0m  [1;30;40m▄▄██▀[0;31m▀ ▀█▀▀█[0;31;41m [0;1;31;41m▄[0;31m▀[0;31;41m [0;1;31;41m▓[0;1;31;40m█[0m         [1;37;40m│[0m
                                  [1;30;40m▀▀[0;1;30;47m█▄[0;1;30;40m██████▀[0m▀     [31m■   [0;1;31;41m■[0m   [1;31;41m▓[0;1;31;40m█▀[0m        [1;37;40m│[0m     [1;37;40m∙[0m
       [1;30;40mRitual D[0me Lo Ha[1mbitual[0m         [1;30m▒▓▓██[0;1;30;47m▓[0m            [31m▌   [0;1;31;41m▒[0m     ∙    │
-          [1;30m(202)[0m966.48[1m75[0m       [1m∙[0m     [1;30m▒▓███[0;1;30;47m▓[0m       [1;37;40m∙    [0;1;31;40m▌ [0m∙ [1;31;41m▒[0m
+          [1;30m     [0m      [1m  [0m       [1m [0m     [1;30m▒▓███[0;1;30;47m▓[0m       [1;37;40m     [0;1;31;40m▌ [0m  [1;31;41m▒[0m
      [1;30;40mSysop  :  [0mPerry N[1mavarro[0m        [1;30m▒▓██[0;1;30;47m▓▒[0m   ·        [1;31m▄   [0;1;31;41m░[0m    [1;30;40m▄[0m▄[1m▄▄[0;31m▄▄[0;1;31m▄▄    [0m∙
      [1;30mRemotes:  H[0meadbang[1mer[0m           [1;30m▓▓█[0;1;30;47m▓▓▒[0m            [31m▌   [0;1;31m▌[0m     [1;30;47m▌[0;1;37;47m▐[0m   [31m▄[0;1;31m▀[0m
       ·      ∙ [1;30mS[0mupa Pim[1mp[0m      [1m∙[0m     [1;30m▓█[0;1;30;47m▓▓▒▒[0m    ∙           [1;31m▌[0m     [1;30;47m▌[0;1;37;47m▐[0m  [31m▀[0;1;31m▄▄[0m      [1;37m∙[0m

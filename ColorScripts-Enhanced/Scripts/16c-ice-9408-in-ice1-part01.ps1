@@ -5,7 +5,7 @@
 # Source SHA-256: 25e52b44f9f80c98087223e8dbc3b7923bf740c7bc106b0c5bd64f49916bb343
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-ICE1.ICE by Incubus (ice-9408); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -44,5 +44,4 @@ Write-Host '
 [30mchicks[0m      [34m▄▀▀[0;1;30;44m░  ░[0;30;44m▄    [0;1;34;44m░[0;34m▄[0;30;44m▄█[0m   [30madmit it..[0m                             [30mWEED[0m
 [30mrule![0m       [34m▀▀▄▄▄▀▀▀▄▄▄▀▀[0;1m▄[0;30;44m▄[0m                                           [30macid[0m
              ▄▄▄  [34m▀▀▀[0m▄▄[1;47m░▒▓[0;1m▀[0m                                           [30mWEED[0m
-[30m                                                                               [0m
-     [1m▄▄▄▄▄[0m'
+[30m[0m     [1m▄▄▄▄▄[0m'

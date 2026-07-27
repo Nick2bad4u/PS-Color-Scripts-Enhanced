@@ -5,7 +5,7 @@
 # Source SHA-256: f648a5581ed23fa88a8c22192d0605754111aaac596fbd1720059796eba1286d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-MDMX.ANS by Storm Hawk (ace-r3); released in ace-r3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -43,6 +43,4 @@ Write-Host '
 [32m░[0m [32m▓░▒█▒░▒▒[0m [32m░[0m [32m░▓▒░▓░░▓[0m [32m░▒░█░▓░[0m [32m░▒░▓░█▒░▓[0m [32m░▒░▓▒░▓▒░[0m [32m░▒░▓░▒▓░[0m [32m░▒▓░░█░▒░[0m [32m░▓▒░▒░▒░[0m [32m░[0m
   [32m▒[0m [32m░▓░[0m [32m░░[0m    [32m▒░[0m [32m▒[0m  [32m▒[0m  [32m░[0m [32m▓[0m [32m▒[0m   [32m░[0m [32m▒[0m [32m▓░[0m [32m▒[0m  [32m░[0m [32m▒░[0m [32m▒░[0m   [32m░[0m [32m▒[0m [32m░▒[0m   [32m░▒[0m  [32m▓[0m [32m░[0m   [32m▒░[0m [32m░[0m [32m░[0m
   [32m░[0m  [32m▒[0m        [32m░[0m  [32m░[0m  [32m░[0m    [32m▒[0m [32m░[0m     [32m░[0m [32m▒[0m  [32m░[0m    [32m░[0m  [32m░[0m      [32m░[0m  [32m░[0m    [32m░[0m  [32m▒[0m     [32m░[0m
-     [32m░[0m                   [32m░[0m         [32m░[0m                            [32m░[0m
-
-  [31m♦[0;1;31m♦[0;1;33m♦[0;1;37m♦[0m [1;37m+[0;1;33m3[0;1;31m58-0-225916[0;31m1[0m [1;35m♦[0m [1;37mD[0;1;33mi[0;1;31mAN[0;31mA[0m [1;35m♦[0m [1;37mV[0;1;33m3[0;1;31m2Bis/V42Bi[0;31ms[0m [1;37m([0;1;33m2[0;1;31m4oo-144ooBps[0;31m)[0m [1;35m♦[0m [1;37m2[0;1;33m4[0;1;31mH/Da[0;31my[0m [1;37m♦[0;1;33m♦[0;1;31m♦[0;31m♦[0m'
+     [32m░[0m                   [32m░[0m         [32m░[0m                            [32m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4f17ee3c75acbe6252176cc85155c8394a6e5d5e2a0bfd752ecbcb91c93c164a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-BM.ANS by nail (the legion); released in legion07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: black maiden
 # SAUCE Author: nail
 # SAUCE Group: the legion
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                           [31m [0m       [1;30m            [0m
- [1;30m  [0m            [1;30m  [0m  [30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░░[0;1;30;40m░░[0m                                   [1;30mblack maiden promo[0m
+[31m[0m[1;30m[0m [1;30m  [0m            [1;30m  [0m  [30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░░[0;1;30;40m░░[0m                                   [1;30mblack maiden promo[0m
                    ▓[30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▒[0;1;30;40m▓▓[0m                   ▐█[1;47m██[0;1;40m▄▄[0m▄
                    [1;30;47m░░[0m██[1;30;47m▀▀[0m▄[1m▄▄▄▄▄[0m▄             [1;30;47m░[0;1;33;47m██[0;1;37;47m███[0m█  [31m░[0;30;41m▓[0;31;40m░[0m           [31;40m░[0;30;41m▓[0m
      [1;30;40m       ▄[0m▄▄[1;30;47m▀[0m▒[30;47m▒[0;1;30;40m [0;1;30;47m▓▓[0m█[1;30;47m▄▄▄▄[0;1;37;47m░░░▀▀▀██▄[0;1;37;40m▄[0m▄   [31m░[0;30;41m▓[0;31;40m░[0;37;40m ▐█[0;1;33;47m██▌[0;1;37;47m▓█▌[0m▌[31m▐[0;30;41m░░[0;31;40m▓[0m      [30;47m▓[0;1;37;40m░░[0m

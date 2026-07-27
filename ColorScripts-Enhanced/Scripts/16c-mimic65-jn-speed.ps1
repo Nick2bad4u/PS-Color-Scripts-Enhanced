@@ -5,7 +5,7 @@
 # Source SHA-256: 804c9ff9b10f62edf0e1d33cb90ee4601a06fc9f00280349d814414e9b6ea264
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: jn-speed.ans by Jashiin (Mimic Productions); released in mimic65 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: Jashiin
 # SAUCE Group: Mimic Productions
 # SAUCE Date: 20031027
@@ -40,5 +40,4 @@ Y[1;37m$$$$$$j. └² "^ ``` ^":$$$$$$$$$$$$$$$$j[0m/[36m\[0;1;36m/[0;1;35m
 
 
 
-[37m             [0m
-[37m26.10.03.[0m'
+[37m[0m[37m26.10.03.[0m'

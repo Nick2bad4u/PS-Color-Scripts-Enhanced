@@ -5,7 +5,7 @@
 # Source SHA-256: de3b72b59ca8347f2753ab72873310311dfbd88447c1e89f1614cf4c01356917
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-EE2.ANS by Eerie (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Evileye
 # SAUCE Author: Eerie
 # SAUCE Group: Samsara
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[36m                                                                               [0m
-
+[36m[0m
 
 
 [30;44m░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░[0m

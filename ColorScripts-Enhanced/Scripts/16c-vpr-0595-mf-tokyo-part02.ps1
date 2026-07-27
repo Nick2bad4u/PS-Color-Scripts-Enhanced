@@ -5,7 +5,7 @@
 # Source SHA-256: ea37eb060893ac2add648611634d3b4e877b4e420f51df3ec7fa465bea1643b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-TOKYO.ANS by Morbid Fixation (Vapor); released in vpr-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Tokyo Underground
 # SAUCE Author: Morbid Fixation
 # SAUCE Group: Vapor
@@ -45,7 +45,4 @@ Write-Host '
                              [1m [0;1;30mU[0;1;37m [0mN[1m D E R G R O U [0mN[1m [0;1;30mD[0m
 [1;30m [0m
 [1;30m················································································[0m
-                     [1;30m                                       [0m
-[1;30m                                     [0m
-[1;30m                                                                 [0m
-[1;30m················································································[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m················································································[0m'

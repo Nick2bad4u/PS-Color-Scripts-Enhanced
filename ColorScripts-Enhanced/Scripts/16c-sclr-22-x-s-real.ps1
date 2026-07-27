@@ -5,7 +5,7 @@
 # Source SHA-256: a0dff3af722f473fa9bfdcb0af13031b82a17d15b5220c0b40ebb9cba2c5f63d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: X&S-REAL.ANS by Xkeys + Sketch Rimanez (secular); released in sclr-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: real artist
 # SAUCE Author: xkeys&sketch
 # SAUCE Group: secular
@@ -41,8 +41,7 @@ Write-Host '
 
 
 
-                              [36m     [0;37m [0;33m    [0;36m       [0;37m  [0m
-
+[36m[0;37m[0;33m[0;36m[0;37m[0m
 
 
 
@@ -60,6 +59,4 @@ Write-Host '
                                  [33m.»«Γ«¼π.τΓ«[0m
                                  [33mΓ∩úá.¬.....[0m
                                  [33m..ß«º¿ñá¡¿ε[0m
-                                 [33m           [0m
-                                 [33m           [0m
-                                 [33m...........[0m'
+[33m[0m[33m[0m                                 [33m...........[0m'

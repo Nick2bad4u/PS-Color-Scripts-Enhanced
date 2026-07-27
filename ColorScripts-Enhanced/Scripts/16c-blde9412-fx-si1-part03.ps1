@@ -5,7 +5,7 @@
 # Source SHA-256: 30af179923facc4ceb596f99199e1f0a6327ad976f6d4b0bb89d383ca56da576
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-SI1.ANS by Facsimile (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shattered Images
 # SAUCE Author: Facsimile
 # SAUCE Group: Blade Productions
@@ -62,6 +62,6 @@ Write-Host '
  [1;37;47m░░[0m███▀▀▀▀▀▀▀▀▓▀ ▀▀▀▀▀[1;47m░[0m▀  S H A T T E R E D   I M A G E S :
 ▓▀██[1;47m░[0m██▄▄▄▄▄▄    ▀█████▀▓  sysop BLACK SCORPION / MOZ remote PREZTOR cosys. CAR
    ▀▀▀▀▀▀▀▀███     ████    fileops THE JESTER / GUY  1.2 gigabytes online
-▄[1;47m░[0m▄▄▄▄▄▄▄▓▄██▀ ▄▄████[1;47m░[0m██▄▄ DRiFT Dist. 0-3day warez/consoles [818] 572-3656/9821
+▄[1;47m░[0m▄▄▄▄▄▄▄▓▄██▀ ▄▄████[1;47m░[0m██▄▄                                                      
                          ▓
 [1;30m a n s i   b y   [0mf a c s i m i l e [1;30m [ s e m i - b l a d e   a f f i l i a t e ][0m'

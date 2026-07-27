@@ -5,7 +5,7 @@
 # Source SHA-256: 22896b8423534d5b386bab521bc5ddde59fbc21f4dd4989949c98a76f22babf6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ICE.ANS by Black Viper + The Night Angel + Fluor (fire0696); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: iCE Promotional
 # SAUCE Author: Multiple Artists
 # SAUCE Date: 19960607
@@ -14,7 +14,6 @@
 # Columns: 1-80
 
 Write-Host '
-                                                            
 
                       [36m ▄▄▄  [0m            [30m                               [0m
                     [36m▄█▀ ▀[0;1;36;46m▀[0;36m▀█▄░    [0;1;36m [0;36m [0;1;36m [0m        [36m        [0m              [30mFIRE. [0m

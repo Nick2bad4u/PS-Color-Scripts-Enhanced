@@ -5,7 +5,7 @@
 # Source SHA-256: bb5d0972286fd737ceeabc2f9f5bb65f454e598b355b5b7138b290e50294c485
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-FLTH1.ANS by cheeze mOnkey (mewnlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: filth!#(trippy ansi)
 # SAUCE Author: cheeze mOnkey
 # SAUCE Group: mewnlight
@@ -15,15 +15,14 @@
 # Columns: 1-80
 
 Write-Host '
-                               [1;33m [0;33m               [0m
-                       [1;35m░[0m                            [1;35m░[0m
+[1;33m[0;33m[0m                       [1;35m░[0m                            [1;35m░[0m
                       [1;35m▀▓▀▀   ▀ [0;1;35;42m▀▀ ▀▓[0m  [1;35m▄■ ▀  ▀[0;1;35;42m▀ ▀▀ ▀▀▓▀▓[0m
                          [1;46m█▀▀▀ ▀[0;1;33;42m▄   [0;1;35;42m▐[0m [1;35m▐▌[0m      [1;35;42m   [0;1;32;42m▄     [0;1;35;42m█[0m  [1;33m░[0m
                          [1;46m▓    [0;1;32;46m█[0;1;33;42m█ [0;1;35;42m▄■▀[0m  [1;35m▓[0m      [1;30;42m░  [0;1;32;46m▓[0;1;32;42m█ [0;1;30;42m░░ [0;1;35;42m█[0;1;35;40m░░   ░[0m
            [1m░░[0m      [1m░   ░░[0;1;46m▒ [0;1;35;46m░  [0;1;32;46m█[0;1;33;42m█[0;1;35;42m▐▌  [0;1;37;45m▀▀[0;1;35;45m▐▌[0;1;37;45m▀▀▀▓█[0;1;30;42m▒  [0;1;32;46m▓[0;1;32;42m█    [0;1;35;42m▓[0m
 [1;35m  [0;1;30m__  _    ___[0m           [1;46m░[0;1;35;46m░▒░ [0;1;32;46m█[0;1;33;42m█ [0;1;35;42m▀■▄[0;1;35;45m ▓▀    [0;1;37;45m░▐[0;1;37;42m   [0;1;32;42m██    [0;1;35;42m▒[0m       [1;32mxx..[0;1;34mfILTH![0;1;32m..xx[0m
 [1;32m [0;1;37mi [0mwalked into the r[30;47mo[0;37;40mom  [0;1;37;46m░ [0;1;35;46m░ [0;30;46mf[0;1;32;46m▓[0;1;33;42m█ ▄▄ [0;1;35;45m▄▄    ▄▄[0;1;37;45m▐[0;1;30;42m░  [0;1;32;42m██[0;1;36;42mcm! [0;1;35;42m░[0m      [32mxx..[0;34m+o:nihil[0;32m..xx[0m
-[32m [0;37mof r[0;1;33me[0mality, [1mm[0my eyes can [46m  [0;1;32;46m▓█▀█[0;1;33;42m█[0;30;42mi[0;1;33;42m▓█ [0;1;35;46m▓[0;1;35;45m█ ██ ██▄[0;1;32;42m▄  ██▀▓█  [0m  [1;33m░ xx..[0;33m606-224-8439[0;1;33m..xx[0m
+[32m [0;37m    [0;1;33m [0m       [1m [0m           [46m  [0;1;32;46m▓█▀█[0;1;33;42m█[0;30;42m [0;1;33;42m▓█ [0;1;35;46m▓[0;1;35;45m█ ██ ██▄[0;1;32;42m▄  ██▀▓█  [0m  [1;33m░     [0;33m            [0;1;33m    [0m
 [1;33m [0mhear, [1mm[0my hands can see,  [47m [0;1;30;47m██ █[0;1;33;42m█ ██ [0;1;35;45m██[0;30;45ml[0;1;35;47m▒[0;1;35;45m█ ▓█[0;1;35;46m [0;1;37;46m▄▄ █[0;1;30;41m█ ██ [0;1;33;41m▀[0;1;32;41m░[0;1;33;41m▀▓[0;1;33;40m░░   ░[0m
 [1;33m [0;1;37ma[0mnd the girl in the      [47m [0;1;30;47m██ ██ ██ [0;1;35;45m██[0;35;47m▒[0;1;35;47m░▒[0;1;35;45m ██[0;30;46mt[0;1;37;41m▓[0;1;37;46m█ █[0;1;30;41m█ ██ [0;1;32;41m░▒░[0;1;33;41m▒[0m
 [1;33m [0mcorner s[1;34;46ma[0mys to me..      [47m [0;1;30;47m██ ██ ██ [0;1;35;45m██ [0;1;35;47m▒[0;1;35;45m█ ██[0;1;35;46m [0;1;37;41m▒▓[0;1;37;46m █[0;1;30;41m█[0;30;41mh[0;1;30;41m██  [0;1;32;41m░ [0;1;33;41m░[0m

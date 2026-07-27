@@ -5,7 +5,7 @@
 # Source SHA-256: e283cca6d8957ec7005dac0c18bf7fb7923e5937eb3233e28ac40559b70f1a68
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-PHUD.ANS by grim (icon); released in icon0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: pHuDGe Qwik-Pik
 # SAUCE Author: grim
 # SAUCE Group: icon
@@ -47,13 +47,7 @@ Write-Host '
     [34m██[0;1;34;44m  ▓[0m [1;36m     [0m [34m██[0;1;34;44m ▄▓[0m [34m██[0;1;34;44m  ▓[0m [34m██[0;1;34;44m  ▓[0m [34m██[0;1;34;44m  ▓[0m [34m██[0;1;34;44m  ▓[0m [34m██[0;1;34;44m ▄▓[0m [34m██[0;1;34;44m ▄▓[0m [34m █[0;1;34;44m  ▓[0m [34m██[0;1;34;44m  ▓[0m [34m██[0;1;34;44m  ▓[0m
     [34m█[0;1;34;44m  █[0;1;34;40m▀[0m [1;36m     [0m [34m█[0;1;34;44m  ▓[0;1;34;40m▀[0m [34m█[0;1;34;44m  █[0;1;34;40m▀[0m [34m█[0;1;34;44m  █[0;1;34;40m▀[0;34m▄█[0;1;34;44m  █[0;1;34;40m▀[0m [34m█[0;1;34;44m  █[0;1;34;40m▀[0;34m▄█[0;1;34;44m  ▓[0;1;34;40m▀[0m [34m█[0;1;34;44m  ▓[0;34m█▄█[0;1;34;44m  █[0;1;34;40m▀[0m [34m█[0;1;34;44m  █[0;1;34;40m▀[0;34m▄█[0;1;34;44m  █[0;1;34;40m▀[0m
 
-[1;30m             [0m           [1m [0m      [1m [0m        [1m [0m       [1m [0m     [1m [0m
-[1;30m----------------------------------[clipper!]------------------------------------[0m
-[1;30m                                                                           [0m
-         [1;30m                              [0m
-[1;30m----------------------------------[snipper!]------------------------------------[0m
-[1;30m                                                                             [0m
-[1;30m                                                                           [0m
-[1;30m                                                                   [0m
-[1;30m----------------------------------[clapper!]------------------------------------[0m
+[1;30m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;30m----------------------------------[clipper!]------------------------------------[0m
+[1;30m[0m[1;30m[0m[1;30m----------------------------------[snipper!]------------------------------------[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m----------------------------------[clapper!]------------------------------------[0m
                                    [1;30m<click!>[0m'

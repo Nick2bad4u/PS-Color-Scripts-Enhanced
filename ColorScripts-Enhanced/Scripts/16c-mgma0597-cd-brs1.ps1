@@ -5,7 +5,7 @@
 # Source SHA-256: 1192c44d9d43aa1b7085751e380fc10e6316bccf325b62fe0a6bc8340cdd564a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!-BRS1.ANS by cardiac (magma); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: broken remnants of society ad #1
 # SAUCE Author: cardiac
 # SAUCE Group: magma
@@ -28,8 +28,4 @@ Write-Host '
        [1;35m  [0;1;31;41m▓█[0;1;31;40m█[0;31m▌[0;37m  [0;31m [0;37m [0;31m▐[0;1;31;41m███[0;31m█▀▀[0;1;31;41m▐█▓[0;31m█[0m      [31m▀▀▀[0;37m [0;35m [0;31m▐[0;1;31;41m▐██[0;31m█[0;35m      [0;31m█[0;1;31;41m▒▓▒[0;31m▄█[0;1;31;41m▒▓▒[0;31m▌[0m      [31m█[0;1;31;41m▒▒[0;31m█[0m
        [1;35m  [0;1;31;41m▐[0;1;31;40m█[0;1;31;41m▌[0;31m▌[0m     [1;31;41m▐▓░░[0;30;45m█[0;1;35;40m [0;1;31;41m▐██[0;31m▌[0;37m  [0;1;31mrealms[0m   [1;35m [0;1;31;41m░██[0;31m▌[0m      [31m▐[0;1;31;41m▓▓[0;31m█[0;37m [0;1;35m [0;1;31;41m░█▌[0m       [31m▐[0;1;31;41m▓▓[0;31m█[0m
        [1;35m  [0;31m█[0;1;31;41m▓▓░[0;31m▄▄██▀▀▀[0;37m  [0;35m [0;37m [0;1;31;41m░▓▓▒[0m  [1;31m      [0m  [35m  [0;1;31;41mcd![0;31m▓▄▄▄▄▄█▀▀▀[0;37m [0;1;31m  [0m [31m▀▀█▄▄▄▄▄█▀▀▀[0m
-     [35m   [0;1;35m [0;31m▐█▀▀▀[0m   [35m      [0;1;35m [0;31m▐▓▀▀[0m   [1;31m      [0m [35m [0;37m [0;35m [0;31m▀▀▀▀▀ [0;35m    [0;1;31mof   [0;35m  [0m
-       [35m                                               [0;37m [0;35m    [0m
-                           [31m      [0;1;31m        [0;31m  [0;1;31m        [0m
-
-                             [1;31m   77o[0;31m-[0;1;31m972[0;31m-[0;1;31m4817[0m'
+     [35m   [0;1;35m [0;31m▐█▀▀▀[0m   [35m      [0;1;35m [0;31m▐▓▀▀[0m   [1;31m      [0m [35m [0;37m [0;35m [0;31m▀▀▀▀▀ [0;35m    [0;1;31mof   [0;35m  [0m'

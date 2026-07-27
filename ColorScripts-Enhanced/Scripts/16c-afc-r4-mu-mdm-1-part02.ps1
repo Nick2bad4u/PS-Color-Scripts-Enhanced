@@ -5,7 +5,7 @@
 # Source SHA-256: 4006623c3a9276491a3142f07d6bc902fc6a98f0c7393936238f4ed0c6debf5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MU-MDM#1.ANS by Mule (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 35-68
 # Columns: 1-80
 
@@ -40,7 +40,7 @@ Write-Host '
                       [31;40m▐ ▀ ▌ ▐▄▌ ▀▄▀ ▐▌ ▐ ▀ ▌ ▐   ▐ ▐▄▄▄[0m
                       [31;40m█   ▐ ▌ ▐ █ █ █  █   ▐  ▀▄▄▀ ▄▄▄▌[0m
 
-        [1;30;40m►[0m► [1;31m+358-0-2259161 [0m◄[1;30m◄ ►[0m► [1;31mV32bis/V42bis [0m◄[1;30m◄ ►[0m► [1;31mSysOp: Hussein [0m◄[1;30m◄[0m
+        [1;30;40m►[0m► [1;31m               [0m◄[1;30m◄ ►[0m► [1;31m              [0m◄[1;30m◄ ►[0m► [1;31m               [0m◄[1;30m◄[0m
          [1;30m►[0m► [1;31mMaximus/2 [0m◄[1;30m◄ ►[0m► [1;31mLots of OS/2 stuff [0m◄[1;30m◄ ►[0m► [1;31mAFC Dist Site [0m◄[1;30m◄[0m
 
                                             [31m◄                        ►[0m'

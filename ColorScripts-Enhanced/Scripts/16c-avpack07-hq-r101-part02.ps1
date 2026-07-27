@@ -5,7 +5,7 @@
 # Source SHA-256: f376e7653163ba5f320e1788f0d3c3d01bfc741fea569fbeaa7662347066bb0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-R101.ANS by Harlequin (Apocalyptic Visions); released in avpack07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: RooM 101
 # SAUCE Author: Harlequin
 # SAUCE Group: Apocalyptic Visions
@@ -39,10 +39,7 @@ Write-Host '
                   [35m▀▀▄▄▄▄[0;31m▀▀▀▀█████▌[0;35m▐██▓▓▓▓▓▓▓▓▓▓▓▌[0;31m▐██▀▀▀[0;35m▄▄▄▄▀▀[0m      [30msome black[0m
                  [31m       [0;35m▀▀▀▀▄▄▄▄▄▄▄▄▄▄▀▀▀▀▀▀▀▀▀▄▄▄▄▄▀▀▀  [0m          [30mon black   [0m
                                     [35m  ▀▀▀▀▀▀▀▀▀   [0m                 [30mansi in your[0m
-                                                                   [30m         [0m
-                                                                   [30m             [0m
-                                                                   [30m         [0m
-          [1;30m [0m [1;30;41m░[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;1;30;41m█[0;30minteresting[0m
+[30m[0m[30m[0m[30m[0m          [1;30m [0m [1;30;41m░[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;1;30;41m█[0;30minteresting[0m
          [1;30m [0m  [1;30;41m░[0m [1;30m█▓▒░[0;31m███[0;37m [0;1;30m▄[0;1;30;41m▒░ [0;31m▄[0;37m [0;1;30m░▒▒▒░[0m [31m▄▄▄▄[0;37m [0;1;30m░▒▒▒▒▒▒▒░[0m [31m▄██[0;37m [0;31m▄██▄ ▄██[0;37m [0;1;30m░▒▓█[0m [1;30;41m▓[0m
         [1;30m [0m   [1;30;41m▒[0m [1;30m▓▒░[0;31m▐███[0;37m [0;1;30m▀▀[0;1;30;41m▓▒░[0;31m█[0;37m [0;1;30m░░░▄[0;1;30;41m▓▒[0;31m▀▀[0;1;30;41m░[0;31m█▄[0;1;30m░░░░░░░░░[0m [1;30;41m░[0;31m█[0;37m [0;1;30;41m░[0;31m█ █ [0;37m [0;1;30;41m░[0;31m█[0;37m [0;1;30m░▒▓█[0m [1;30;41m▓[0m
            [1;30m [0;1;30;41m▒[0m [1;30m▓▒░[0;1;30;41m▒░[0;31m██[0;37m [0;1;30m░░[0m [31m▀▀▄[0;1;30;41m░[0;31m███▄[0;1;30m▀[0;1;30;41m▓[0;31m▄▄██▀▄[0;1;30;41m░[0;31m█▄[0;1;30;41m░░[0;31m▄[0;37m [0;1;30m░[0m [1;30;41m▒░[0m [1;30;41m▒░[0m [31m█ [0;37m [0;1;30;41m▒░[0m [1;30m░▒▓█[0m [1;30;41m▒[0m
@@ -54,7 +51,4 @@ Write-Host '
 
   [1m┌[0m───[1m [0m [1;30m                                                  [0m [1;30m           [0m [1m [0m───[1m┐[0m
 [1;30m  [0m      [1m [0m [1;30m                                                        [0m  [1m [0m      │
-       [1m [0m [1;30m                                                            [0m [1m [0m     
-           [1m [0m [1;30m                                                     [0m [1m [0m        
-      [1;30m               [0;1;37m   [0m   [1;30m                      [0m   [1m   [0m                     
-  ·   [1;30m              [0;1;37mS[0mi[1;30mngle 28.8k node +.61.(0)8.294.27[0m7[1m4[0m                   .[0m'
+[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0;1;37m[0m[1;30m[0m[1m[0m  ·   [1;30m              [0;1;37mS[0mi[1;30mngle 28.8k node +.61.(0)8.294.27[0m7[1m4[0m                   .[0m'

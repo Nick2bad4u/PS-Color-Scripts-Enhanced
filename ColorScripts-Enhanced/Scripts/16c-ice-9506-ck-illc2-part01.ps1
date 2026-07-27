@@ -5,7 +5,7 @@
 # Source SHA-256: a2015a57bc251d17219cb1d267c763f652b95589ae2820cdde2e3e56b45aed3c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-ILLC2.ICE by chromatik (.ice%prod!1995.); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: .x.illcomm@.$.
 # SAUCE Author: chromatik
 # SAUCE Group: .ice%prod!1995.
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m                                       [0m
-
+[1;30m[0m
 
 
                    ▄▄▄

@@ -5,17 +5,15 @@
 # Source SHA-256: d373a41f5cc2912c34dca0c4e0b2bb201bcf05b08c7dc2b55db92e6282272b35
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2005 - 22 - XXX - Roadrunner.ans by Avenging Angel + Enzo + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
 
 
-                 [1;30m [0m   [1;35m               [0;1;30m [0;1;35m      [0;1;30m [0;1;35m                [0m
-
-                             [1;30m [0m   [1;30m               [0m
-                                                                    [1m▀  ▄[0m
+[1;30m[0m[1;35m[0;1;30m[0;1;35m[0;1;30m[0;1;35m[0m
+[1;30m[0m[1;30m[0m                                                                    [1m▀  ▄[0m
                                     [1;30m([0;1;35mV-UNIT[0;1;30m)[0m                            [1m█▄[0m
   [1m    ▒████▄   [0m                                                       [1m▄███[0m
 [1m██████████▄▄   [0m               [1;30m [0m                                    [1m▄▄█████[0m

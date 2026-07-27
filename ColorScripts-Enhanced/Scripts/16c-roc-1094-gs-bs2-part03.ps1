@@ -5,7 +5,7 @@
 # Source SHA-256: 32add932f96e220bd495906e152bd1180e5d6a0e56b8f9ba6fa00627ef239d74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GS-BS2.ANS by Godsung (ROC); released in roc-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Bloodstorm II
 # SAUCE Author: Godsung
 # SAUCE Group: ROC
@@ -52,8 +52,7 @@ Write-Host '
       [1;37m██████████████████████████████████████████████████████████████████████[0m
        [1;37m█████████████████████████████████  █████████████████████████████████[0m
 
-[31m[[0m     [1;31m3[0m     [1;31m0[0m     [1;31m1[0m     [31m-[0m     [1;31m2[0m     [1;31m9[0m     [1;31m2[0m     [31m-[0m      [1;31m4[0m     [1;31m1[0m     [1;31m2[0m     [1;31m4[0m
-[1;30m▄▄▄▄▄[0m▄▄▄▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄[1;30m▄▄▄▄▄[0m
+[31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;30m▄▄▄▄▄[0m▄▄▄▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄[1;30m▄▄▄▄▄[0m
 [1;30m█    [0m [1m        [0m [1;30m     [0m [1m      [0m [1;30m     [0m  [1m [0m [1;30m     [0m [1m            [0m [1;30m     [0m [1m          [0m [1;30m    █[0m
 [1;30m ▀▀▀▀[0m▄ [1;30m   [0m [1m                           [0m [1;30m     [0m [1m                       [0m [1;30m    █▀▀▀[0m
       ▀▀▀▀[1m▀▀▀▀▀▀█ [0;1;30mΩ V[0mO[1mR Member Boa[0mr[1;30md Ω R[0mO[1mC Ditribution Si[0mt[1;30me Ω  [0;1;37m█▀▀▀▀[0m▀▀▀▀▀
@@ -63,5 +62,5 @@ Write-Host '
 [34m▀▀▀▀▀[0;1;34m▀▀▀▀▀[0;1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▀▀▀▀▀[0;34m▀▀▀▀▀[0m
                 [34m█ [0;1;34m▀▀[0;1;37m▄ ▄▀▀▀▄ ▄[0;1;34m▀▀[0;34m▀[0m     [34mA[0;1;34mN[0;1;37mSI By Godsu[0;1;34mn[0;34mg[0m
                 [34m█ [0;1;34m▄▄[0;1;37m▀ █   █ █[0m        [34mR[0;1;34mO[0;1;37mC Presisde[0;1;34mn[0;34mt[0m
-                [34m█   [0;1;37m█ ▀▄▄▄▀ ▀[0;1;34m▄▄[0;34m▄[0m     [34mg[0;1;34mo[0;1;37mdsung@arcanum.clark.n[0;1;34me[0;34mt[0m
+                [34m█   [0;1;37m█ ▀▄▄▄▀ ▀[0;1;34m▄▄[0;34m▄[0m     [34m [0;1;34m [0;1;37m                     [0;1;34m [0;34m [0m
 [34m▄▄▄▄▄[0;1;34m▄▄▄▄▄[0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;34m▄▄▄▄▄[0;34m▄▄▄▄▄[0m'

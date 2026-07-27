@@ -5,7 +5,7 @@
 # Source SHA-256: b9710be8f3ab1867c206e9605a22d225bcc50e1357f998826ae5dbafeee11a29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NN-BIPRD.ANS by neo negro (blade); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: biproducts
 # SAUCE Author: neo negro
 # SAUCE Group: blade
@@ -35,7 +35,7 @@ Write-Host '
 [35m  nn░▀▀▀[0;1;33m▀[0;35m▄▒░[0;1;33m▄[0;1;33;47m▒[0;1;33m▄[0;35m▀▓▄▒▓█[0;35;45m  [0;1;33;45m░░▐▌[0m  +o [1mneo negro[0m/[1;36mblade[0m+[1;36mjuice[0m+[1;36mwicked[0m
 [1;36m [0;35m░▄▄▓[0;35;45m  [0;1;33;45m▄  [0;35m▓░[0;1;33m▀[0;1;33;47m▓[0;1;33m▀[0;35m▄▓▀▀▒[0;35;45m  [0;35m▓[0;35;45m [0;35m▀[0;1;33m▀[0;35m░  [0mrunning [1moblivion[0m/[1m2 [0mwith [1m540 [0mof megs pure [1mart[0m/[1mhpa[0m
 [35m░▒▓[0;35;45m  [0;1;33;45m░░▐▌░[0;35m░▄▓░▓▀[0;35;45m   [0;35m▒▄▄░[0m      blade member, wicked member, juice hq, lots distro
- [35m░▀▓[0;35;45m  [0;35m▓[0;1;33;45m▀[0;35m░▄▓[0;35;45m [0;35m▓ █[0;35;45m [0;35m▄▀[0;35;45m [0;35m▓[0;35;45m  [0;1;33;45m░▄[0;35m▄░   [0m(  4  0  8  )    3  7  2    -    7  7  1  2
+ [35m░▀▓[0;35;45m  [0;35m▓[0;1;33;45m▀[0;35m░▄▓[0;35;45m [0;35m▓ █[0;35;45m [0;35m▄▀[0;35;45m [0;35m▓[0;35;45m  [0;1;33;45m░▄[0;35m▄░   [0m                                           
    [35m░▀▀░▄▓[0;35;45m  [0;1;33;45m░[0;35m░░▓[0;35;45m  [0;1;33;45m░[0;35m▄▀▓[0;1;33;45m░▒▓▌[0;35m▌[0m
      [35m▄▓[0;35;45m  [0;1;33;45m░▐▌[0;35m░▓[0;35;45m  [0;1;33;45m░▐▌[0;35m▌░▀▓[0;1;33;45m▀[0;35m▀░[0m
      [35m░▀[0;35;45m [0;1;33;45m░ [0;1;33m▀[0;35m░ ░▀▓[0;35;45m [0;1;33;45m▀[0;35m▀░  ░[0m

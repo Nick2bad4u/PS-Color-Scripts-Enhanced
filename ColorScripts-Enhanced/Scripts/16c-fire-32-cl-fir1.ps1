@@ -5,7 +5,7 @@
 # Source SHA-256: ff2b2f5571862a69c9584222b27ff83c526d09b1680d3760f32d8373819b9346
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-FIR1.ANS by cLEANEr (fIRe); released in fire-32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fIRE^LOGo
 # SAUCE Author: cLEANEr
 # SAUCE Group: fIRe
@@ -50,4 +50,4 @@ Write-Host '
                       [31;40m`[0m                                [31;40m`$[0;33;41m$[0;31;40m$''[0m
                                                         [31;40m`$''[0m
                                                          [31;40m`[0m
-[1;30;40m-[0m--[1;30m-[0;36m[[0;1;30mf[0mIR[1;30mE[0;36m^[0;1;30mL[0mOG[1;30mo[0;36m][0;1;30m-[0m--[1;30m-[0;36m[[0;1;30mc[0mONTAC[1;30mT[0;36m^[0;1;30mm[0mE[36m^[0;1;30ma[0mT[36m^[0;1;30mc[0mLEANE[1;30mR[0;36m@[0;1;30mc[0mHE[1;30mZ[0;36m.[0;1;30mc[0mO[1;30mM[0;36m][0;1;30m-[0m--[1;30m-[0;36m[[0;1;30m2[0m0[36m/[0;37m0[0;1;30m2[0;36m/[0;37m9[0;1;30m8[0;36m][0;1;30m-[0m--[1;30m-[0;36m[[0;1;30m1[0m6[36m:[0;37m3[0;1;30m2[0;36m][0;1;30m-[0m--[1;30m-[0m'
+[1;30;40m [0m  [1;30m [0;36m [0;1;30m [0m  [1;30m [0;36m [0;1;30m [0m  [1;30m [0;36m [0;1;30m [0m  [1;30m [0;36m [0;1;30m [0m     [1;30m [0;36m [0;1;30m [0m [36m [0;1;30m [0m [36m [0;1;30m [0m     [1;30m [0;36m [0;1;30m [0m  [1;30m [0;36m [0;1;30m [0m [1;30m [0;36m [0;1;30m [0m  [1;30m [0;36m [0;1;30m [0m [36m [0;37m [0;1;30m [0;36m [0;37m [0;1;30m [0;36m [0;1;30m [0m  [1;30m [0;36m [0;1;30m [0m [36m [0;37m [0;1;30m [0;36m [0;1;30m [0m  [1;30m [0m'

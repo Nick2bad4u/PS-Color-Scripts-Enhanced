@@ -5,7 +5,7 @@
 # Source SHA-256: 1982fc30d25223700ab9413a7642355de5cdf4b16b89872506ad39ecbe1022bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-HELS.ANS by mortal comeback (rune); released in rune0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: helsinki ad
 # SAUCE Author: mortal comeback
 # SAUCE Group: rune
@@ -50,8 +50,7 @@ Write-Host '
 [32m   [0;1;37m█[0;1;33;43m▓▓▓[0;1;37;40m█  █[0;1;33;43m▓▓▓[0;1;37;40m█   [0;32m▒▓█[0;1;33;42m░▒[0;1;37;40m█  [0;32m░░░░░▒▒▒▒▓▓▓███[0;1;33;42m▒░▒▒▒▒░░[0;32m▓███▓▓▒▒▒▒░░░░[0m     [32m░▒▓█[0;1;33;42m░▒[0;1;37;47m▓[0;32m▐[0;1;33;42m░[0;32m▓▒░[0m
 [32m   [0;1;37m█[0;1;33m███[0;1;37m█  █[0;1;33m███[0;1;37m█   [0;32m▒▓█▓[0;1;33;42m░[0;1;37;47m▓[0m [32m░░  ░░░▒▒▒▒▓▓▓▓███[0;1;33;42m░░░[0;32m▓[0;32;42m█[0;32;40m███▓▓▓▒▒▒░░░░[0m        [32;40m░▒▓█▓[0;1;37;47m▓[0;32m▐▓▒░[0;37m [0m
 [1;37m▄▄██████████████▄▄ [0;32m▓█▓[0;1;33;42m░[0;1;37;40m▓ [0;32m░[0m     [32m░░░░▒▒▒▓▓▓▓██████▓▓▒▒▒▒▒░░░░[0;1;30mmC[rune][0m  [32m░░▓██▓[0;1;37;47m▓[0;32m▐░[0m
-[32m                 [0m
-
+[32m[0m
      [31mE[0;1;31mN[0;1;37mT[0;1;31mE[0;31mR...[0m
 
 

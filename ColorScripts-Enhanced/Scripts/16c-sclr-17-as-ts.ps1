@@ -5,7 +5,7 @@
 # Source SHA-256: c68d7619b16f82142cbb3529ebd0a8df3ddc5f95741293b5305c2eb9722becb5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-TS.ANS by Asd (sclr-17); released in sclr-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -31,6 +31,5 @@ Write-Host '
 [37m [0;34m.[0;37m   [0;34mHello ppl''s[0m     [34m```""²²─\$[0;1;34m$[0;34m$`[0m
 [30m [0m      [34m [0m      [34m [0;37m   [0;34m.┌[0;37m ☺☺☺[0;34m└///[0;1;34m$$[0;34m$\`[0m       [34m.[0;1;34mh[0;34meandle[0;37m  [0;1;34m:[0m
    [34m`[0m     [34m.[0m     [34m`[0m     [37m☺☺☺ [0;34m````[0m
-                     [37m   [0m                [34m [0;1;34m [0;34m       [0;37m [0;1;34m [0m
-                     ☺☺☺
+[37m[0m[34m[0;1;34m[0;34m[0;37m[0;1;34m[0m                     ☺☺☺
                      ☺☺☺[0m'

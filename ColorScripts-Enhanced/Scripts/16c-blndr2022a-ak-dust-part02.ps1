@@ -5,7 +5,7 @@
 # Source SHA-256: 21e1f43cd71c90bf3df93dec8b814db296b0df05de0b8ea8fc7a48064b7cd842
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-dust.ans by abstrakt (blndr2022a); released in blndr2022a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: abstrakt
 # SAUCE Date: 20220123
 # SAUCE Dimensions: 80x101
@@ -19,8 +19,7 @@ Write-Host '
                                             ,$$$$$$$$$$[1m$$b.`4$b[0m
                                            ,$$$$$$$$$$$$$$$[1mb.Y$:[0m
                                               └     ⌂       [1m    [0m
-                 [1m                      [0m             [1;30m [0m        [1m  [0m 
-                  [1m                         [0m       [1;30m       [0m    [1m [0m  [1m      ┐ [0m
+[1m[0m[1;30m[0m[1m[0m                  [1m                         [0m       [1;30m       [0m    [1m [0m  [1m      ┐ [0m
 °∙.x°∙                            OVER \[1m_   [0m4$.           l$$$`,j$$$j/[1m`.d$/[0m
 .°Φ∙☼.o°∙                                    [1;30m`[0m4b.        ,$$P[1;30m''[0;1;37m,.[0m`^"² [1;30m.[0md┘` [1m$[0m
 x ∙.°Φ∙..°∙                              .s[1mSb[0;1;30m. `[0m┘4#s¬¬sjP*[1;30m┘`[0m.d$[1m$$b[0m.  <$ [1;5;31m0[0m [1m$[0m

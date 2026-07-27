@@ -5,7 +5,7 @@
 # Source SHA-256: f30b2779394ad94fb7b69f70891601cd2f0795427488f58cc804e650afee8171
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GV-MASA1.ANS by gROOVE ({msk%tod%lpl%rep%sc}); released in mskp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mASAKRE #1
 # SAUCE Author: gROOVE
 # SAUCE Group: {msk%tod%lpl%rep%sc}
@@ -21,8 +21,7 @@ Write-Host '
 [35m                      .  °      ,s%S$$$$$$$S%s.  °[0m
 [35m                            ,sS$$$$$ .$$$$ .$$$$Ss, .    .[0m
 [35m                  °    .   d$$$$$$$$$$$$$$ss$$$$$$$b[0m
-[1;30m                                                                                [0m
-[1;36m,sS$^$%s%^$Ss.[0;1;30m:[0;1;36m,sS$^$S%s.[0;1;30m:[0;1;36m.%@S$$S&@%s[0;1;30m:[0;1;36m,sS$^$S%s.[0;1;30m:[0;1;36m,sS$ sSs.[0;1;30m:[0;1;36m,sS$^$S%s.[0;1;30m:[0;1;36m.s$^$S&%s[0m
+[1;30m[0m[1;36m,sS$^$%s%^$Ss.[0;1;30m:[0;1;36m,sS$^$S%s.[0;1;30m:[0;1;36m.%@S$$S&@%s[0;1;30m:[0;1;36m,sS$^$S%s.[0;1;30m:[0;1;36m,sS$ sSs.[0;1;30m:[0;1;36m,sS$^$S%s.[0;1;30m:[0;1;36m.s$^$S&%s[0m
 [1;36m$$$$ $[0;36m░[0;1;36m$$ $$$$[0;1;30mª[0;1;36m$$$$ $$$$$[0;1;30mª[0;35m [0;1;36m$$$$ `$$$$[0;1;30m.[0;1;36m$$$$ $$$$$[0;1;30m.[0;1;36m$$$$ $$$$[0;1;30m.[0;1;36m$$$$ $$$$$[0;1;30m.[0;1;36m$$$s$$$$$[0m
 [1;36m$[0;36m$½[0;1;36m$ $[0;36m$[0;1;36m$$ $[0;36m$[0;1;36m$$[0;1;30m.[0;1;36m$[0;36m$[0;1;36m$$[0;36m$[0;1;36m$$[0;36m$[0;1;36m$$ `"$$[0;36m$[0;1;36m&%s,. [0;1;30mª[0;1;36m$$[0;36m░[0;1;36m$$$[0;36m$[0;1;36m$[0;36m¼[0;1;36m$ $$[0;36m$[0;1;36m$$[0;36m$[0;1;36m$$''[0;1;30mª[0;1;36m$$$$[0;36m$[0;1;36m$$[0;36m░[0;1;36m$''[0;1;30mª[0;1;36m$$[0;36m$[0;1;36m$²²[0;36m²[0;1;36m²²[0m
 [1;36m$[0;36m$$$ $$[0;1;36m$[0;36m$ $$$[0;1;36m$[0;1;30m [0;36m$$$[0;1;36m$[0;36m $$$$[0;1;36m$[0;1;30m.[0;36m.,ggg"$[0;1;36m$[0;36m$$$ $[0;1;36m$[0;36m¼$ $$[0;1;36m$[0;36m$$[0;1;30mª[0;36m$░$$ $$[0;1;36m$[0;36mb $$$[0;1;36m$[0;36m $$$[0;1;36m$[0;36mb $[0;1;36m$[0;36m$ ggg%S[0m

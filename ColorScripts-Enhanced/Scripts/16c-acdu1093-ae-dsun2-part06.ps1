@@ -5,7 +5,7 @@
 # Source SHA-256: 699c574331fd11ff9a616268a4d0738c4c3ccb019b0125d47f2de39ef8611f6e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AE-DSUN2.ANS by Alter Ego (acdu1093); released in acdu1093 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 228-276
 # Columns: 1-80
 
@@ -31,7 +31,6 @@ Write-Host '
 
 [1;30;40m────────────────────────────────────────────────────────────────────────────────[0m
 
-                                                                    
                                                                        
                                                                    
 
@@ -58,4 +57,4 @@ Write-Host '
 [33m  [0;1;37mC[0me[1;31mle[0;31mrity [0;1;30mBeta Sit[0;31me[0;1;31m.   [0;1;33;43m░[0;33m█  ▓▒  █[0;1;33;43m░[0m [33m██[0m      [33m█[0;1;33;43m░[0m [33m██[0m     [33m▄██ [0;1;33;43m░[0;33m█[0m         [33m░▒[0m      [33m██[0m
 [33m  [0;1;37mB[0mr[1;31mee[0;31mding [0;1;30mGround f[0;31mo[0;1;31mr   [0;33m██  ▒░  ██ [0;1;33;43m░[0;33m█[0m      [33m██ [0;1;33;43m░[0;33m█ ▄███▀▀  ██[0m         [33m▒▓[0m      [33m██[0m
 [33m  [0;1;37mi[0mC[1;31mE[0;1;30m.[0m                  [33m██  ░  ▄██ [0;1;33;43m▒░[0m     [33m▄██ [0;1;33;43m▒░[0m [33m█[0;33;43m [0;33;40m▄[0m     [33;40m██▄[0m        [33;40m▀▀[0m     [33;40m▄[0;33;43m [0;33;40m█[0m
-[33;40m  [0;1;37;40m9[0m1[1;31m4[0;1;30m/[0;31m227[0;1;30m/5938 -???[0;31m?[0;1;31m.   [0;33m██ ░▒▓█▀▀  [0;1;33;43m▓▒[0m [33m░▒▓█▀▀  [0;1;33;43m▓▒[0m  [33m▀▀[0;33;43m [0;33;40m▓▒░  ▀▀████▓▒░ [0;1;33;43m▓▒▒░░ [0;33m█▀▀[0m'
+[33;40m  [0;1;37;40m [0m [1;31m [0;1;30m [0;31m   [0;1;30m          [0;31m [0;1;31m    [0;33m██ ░▒▓█▀▀  [0;1;33;43m▓▒[0m [33m░▒▓█▀▀  [0;1;33;43m▓▒[0m  [33m▀▀[0;33;43m [0;33;40m▓▒░  ▀▀████▓▒░ [0;1;33;43m▓▒▒░░ [0;33m█▀▀[0m'

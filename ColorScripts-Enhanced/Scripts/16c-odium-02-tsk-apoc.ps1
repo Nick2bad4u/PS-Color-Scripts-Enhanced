@@ -5,7 +5,7 @@
 # Source SHA-256: 31abc8dd604a5a6c1fc4fb7b562aaf20be4c452765cac6fa3b71dd389d4fda09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-APOC.ANS by the silent killer (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: apocolypse
 # SAUCE Author: the silent killer
 # SAUCE Group: odium
@@ -30,8 +30,4 @@ Write-Host '
 ▐[1;30;47m▒▓[0;1;30;40m███▓█████[0;1;30;47m▓▓[0;1;30;40m▓█▓▒░[0m [1;31;43m▒[0;1;31;41m███[0;1;31;40m█[0;1;31;41m█[0m [1;30m░▒▓█[0;1;30;47m▓▒▓[0;1;30;40m█▓▒▀▒▓████▓███████[0;1;30;47m▓▓[0;1;30;40m███▓▓▒▀ ▀▒▀▓[0;1;30;47m▓[0;1;30;40m▓██████▓█[0;1;30;47m▓▒[0m▌
   ▀▀[1;30;47m▒▓[0;1;30;40m█[0;1;30;47m▓▒░▀▀▀[0;1;30;40m██[0;1;30;47m▀[0;1;30;40m█▓▒[0m [1;31;43m░▓[0;1;31;41m████[0m [1;30m▒▓█▓█[0;1;30;47m▓[0;1;30;40m███▓▒▓█[0;1;30;47m▓[0;1;30;40m███████[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m████████▓▒▄░▓▓█▓███[0;1;30;47m░▒▒▓▀▒[0m▀▀[1;30m [0m
          ▀▀▀▀▀▀▀[1;30;47m▒▓▀[0m▄▄▄▄▄▄▄▄[1;30m▓████[0;1;30;47m▀▀▀░▒░▀▀▀▀▀▀░▀▀░▒▓▒░▀▀▀▀▀░▀▀▀▀▀▀▀▀▒[0m▀▀▀▀▀▀[1;30m Tsk[0m
-                                                                        [1;30m       [0m
-                         [31m       [0;1;31m   [0;31m          [0;37m [0;1;31m  [0m
-                               [1;31m  [0m [31m            [0;37m [0;1;31m  [0m
-                             [1;31m  [0;31m                  [0;1;31m  [0m
-                              [1;31m°·.·[0m    [1;31m·..·[0m    [1;31m·.·°[0m'
+[1;30m[0m[31m[0;1;31m[0;31m[0;37m[0;1;31m[0m[1;31m[0m[31m[0;37m[0;1;31m[0m[1;31m[0;31m[0;1;31m[0m                              [1;31m°·.·[0m    [1;31m·..·[0m    [1;31m·.·°[0m'

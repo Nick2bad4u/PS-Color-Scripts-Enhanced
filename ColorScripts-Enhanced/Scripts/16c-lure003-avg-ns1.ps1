@@ -5,7 +5,7 @@
 # Source SHA-256: 9c010042297ec3f30db50154939af3e60d7cb819e6e32a9ca488c91f872374d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-NS1.ANS by avenging angel (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ansichrist(ns) dedication
 # SAUCE Author: avenging angel
 # SAUCE Group: lure
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m   [0m [1m    [0m 
-
+[1;30m[0m[1m[0m
          [1;31;43m▀[0;1;31;47m▄▒▒[0;1;31;43m█▄[0;33;42m█▄▄▄▄[0;1;32;42m▀██▄[0;33;42m▀▀[0;1;31;43m▀█▄[0;33;42m▄[0;1;32;42m  [0;1;32;40m▄▄▄▄▄[0;32m▄[0;37m [0;1;30m▀▀[0;32m▀▀[0;1;32;42m▀▒[0;32;47m▀[0;1;37;47m    [0;32;47m [0;1;37;47m  [0m█[1;47m▄██████  [0m█[1;47m▄▄[0;1;40m▓▓▓▓[0m
         [1;30m [0;33m▄▄▄▄[0;1;30m▄[0m  [33m▀▀▀▀[0;1;31;43m▀█▄[0;33;42m▄▄[0;1;32;42m ▄ [0;33;42m▀[0;1;31;43m [0;33;42m█▄[0;1;32;42m ▀▀██████▄[0;32m▄▄▀[0;32;47m█▄▄█▀[0;1;37;47m▄   ▀▀▀▀▀[0;1;37;40m▀[0m▀▄[1;47m▄██▀▀  [0m
          [33m▀[0;1;31;43m█[0;1;37;40m▒▒▓▓[0;1;31;47m▀[0;1;31;43m█▄[0;33m▄▄▄[0;1;30m▄[0m [33m▀▓[0;1;31;43m▄[0;32;43m▀[0;1;32;42m [0;1;32;40m▒▒[0m  [1;30m▀[0;32m▀[0;1;32m▀▀▀▀[0;1;32;42m▓▀▀ [0;32;47m█[0;1;32;42m▄████[0;32;47m▄█[0;37;40m▀▀▀[0;31;47m▄[0;1;31;40m▄▄▄▄[0;31m▄ [0;33m▄[0;1;37;47m██▀[0m██[1;47m▄██[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: d8b7515b57330fca1053dfc0840535b4f072b340821aa53e9ac52658b3492f6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARX_FACE.ANS by ARX (SPIN); released in spin-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: ARX
 # SAUCE Group: SPIN
 # SAUCE Date: 19980719
@@ -39,7 +39,4 @@ Write-Host '
 
 [37m- - ----- - ---------------------------------]swap Id here[------------- -  -- -[0m
 
-[37m                                                                       [0m
-[37m                                                                     [0m
-[37m                         [0m
-                                     [37m% ArX % ART % 98;23.19 %[0m'
+[37m[0m[37m[0m[37m[0m                                     [37m% ArX % ART % 98;23.19 %[0m'

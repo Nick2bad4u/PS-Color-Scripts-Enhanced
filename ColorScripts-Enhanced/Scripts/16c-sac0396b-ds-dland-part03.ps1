@@ -5,7 +5,7 @@
 # Source SHA-256: fad70154901066681f586de06a5f78fc9f89b1242be7f51247d4d310e67cef70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-DLAND.ANS by dark star; released in sac0396b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Darklands Login 2
 # SAUCE Author: Dark Star
 # SAUCE Group: SAC
@@ -50,18 +50,9 @@ Write-Host '
 [34m              [0;1;37m     [0;34m    [0;31mD[0;34m [0;1;30m·[0;34m [0;37mA[0;34m [0;1;30m·[0;34m [0;1;37mR[0;34m [0;1;30m·[0;1;37m K [0;1;30m·[0;1;37m L [0;1;30m·[0;1;37m A [0;1;30m·[0;1;37m N [0;1;30m·[0;1;37m [0mD[1m [0;1;30m·[0;1;37m [0;31mS[0;37m [0;1;37m [0m
 [31m─ ─────────[0;37m─[0;31m──[0;37m──[0;31m─[0;37m──────────────[0;1;37m─[0m──[1m──[0m─[1m─────[0m─[1m──[0m──[1m─[0m──────────────[31m─[0;37m──[0;31m──[0;37m─[0;31m────────  ─[0m
 
-                       [1;37m    [0m   [31m  [0;37m  [0;1;37m           [0m  [31m  [0;37m   [0m
-                  [37m   [0;31m   [0;37m   [0;1;37m                         [0m   [31m   [0;37m   [0m
-
-                     [1;37m  [0m [1m  [0;31m [0;1;37m [0m  [1m                   [0m   [31m [0;37m   [0m
-
-                             [1;37m [0m [1m  [0;31m [0;37m  [0;1;37m      [0m   [31m [0;37m   [0;1;37m [0m
-                             [1m [0m [31m  [0;37m  [0;1;37m         [0m [31m   [0;37m   [0m
-                         [31m [0;37m   [0;1;37m [0m [31m  [0;37m  [0;1;37m         [0m [31m   [0;37m   [0m
-                          [1;37m [0m  [1m [0m [31m  [0;37m  [0;1;37m         [0m  [31m  [0;37m   [0m
-                          [31m  [0;37m  [0;1;37m [0;31m  [0;37m  [0;1;37m        [0m   [31m  [0;37m   [0m
-                           [37m  [0;1;37m [0;31m  [0;37m   [0;1;37m         [0m   [31m  [0;37m   [0m
-
+[1;37m[0m[31m[0;37m[0;1;37m[0m[31m[0;37m[0m[37m[0;31m[0;37m[0;1;37m[0m[31m[0;37m[0m
+[1;37m[0m[1m[0;31m[0;1;37m[0m[1m[0m[31m[0;37m[0m
+[1;37m[0m[1m[0;31m[0;37m[0;1;37m[0m[31m[0;37m[0;1;37m[0m[1m[0m[31m[0;37m[0;1;37m[0m[31m[0;37m[0m[31m[0;37m[0;1;37m[0m[31m[0;37m[0;1;37m[0m[31m[0;37m[0m[1;37m[0m[1m[0m[31m[0;37m[0;1;37m[0m[31m[0;37m[0m[31m[0;37m[0;1;37m[0;31m[0;37m[0;1;37m[0m[31m[0;37m[0m[37m[0;1;37m[0;31m[0;37m[0;1;37m[0m[31m[0;37m[0m
                        [37m   [0;31m ┤ [0;37m  [0;1;37m      ┤      ┤   [0m  [31m┤  [0;37m   [0m
 
 [31m▄[0;1;30m  [0;31m▄▄▄▄▄▄▄▄[0;37m▄[0;31m▄▄[0;37m▄▄[0;31m▄[0;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄▄▄[0m▄[1m▄▄[0m▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[31m▄[0;37m▄▄[0;31m▄▄[0;37m▄[0;31m▄▄▄▄▄▄▄▄[0;1;30m  [0;31m▄[0;1;30m [0m'

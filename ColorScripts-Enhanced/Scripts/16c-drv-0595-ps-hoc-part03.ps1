@@ -5,7 +5,7 @@
 # Source SHA-256: 00275ed0cfd8863ad07c91f5141d44f5ff550a1c1e15b26638406f0aea99fce6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PS-HOC.ANS by Psionide (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The House of Cain
 # SAUCE Author: Psionide
 # SAUCE Group: Driven
@@ -35,7 +35,7 @@ Write-Host '
 [31;40m                      [0m
 [1;37;40m█▀▀▀▀[0m▀[1m▀[0m▀▀[1m▀[0m▀▀▀▀[1;30m▀[0m▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀[0;31m▀[0;1;30m▀[0;31m▀▀[0;1;30m▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31m▀[0;31m▀▀[0;1;31m▀[0;31m▀[0;1;31m▀[0;31m▀[0;1;31m▀▀▀▀▀▀[0;1;37m▀[0;1;31m▀▀[0;1;37m▀[0;1;31m▀[0;1;37m▀▀▀▀█[0m
 [1;47m█[0;1;30;40m [0m                                                                            [1;37;40m█[0m
-[1;47m▄[0m                        [1;40m6[0m  1  9 . [1m6[0m  3  0 . [1m9[0m  6  2  6                       [1;47m▄[0m
+[1;47m▄[0m                        [1;40m [0m         [1m [0m         [1m [0m                                [1;47m▄[0m
 [1;47m [0m                                                                             [1;47m [0m
 [1;47m▀[0m                             [1;31;40m [0;31m      [0;1;31m [0;31m      [0;1;31m [0;31m   [0m                              [1;37;47m▀[0m
 [1;47m [0m                                                                             [1;47m [0m
@@ -46,5 +46,4 @@ Write-Host '
 
 [1;30m▀[0m [1;30m▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀[0m [1;30m▀ [0m
         [1;33mA[0;33m N S I  [0;1;33mA[0;33m N D  [0;1;33mF[0;33m O N T  [0;1;33mB[0;33m Y  [0;1;33mP[0;33m S I O N I D E  [0;1;33mO[0;33m F [0;37m [0;1;33mD[0m [33mR[0m [33mI[0m [33mV[0m [33mE[0m [33mN[0m
-        [37m                                                               [0m
-[1;30m▄[0m [1;30m▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄[0m'
+[37m[0m[1;30m▄[0m [1;30m▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄[0m'

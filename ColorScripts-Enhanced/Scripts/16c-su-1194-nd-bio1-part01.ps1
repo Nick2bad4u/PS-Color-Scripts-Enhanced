@@ -5,7 +5,7 @@
 # Source SHA-256: 813004f8e13dc04bd346dd9f4b6310df821e8482c96655f285057f261cfdd8bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ND-BIO1.ANS by Nuclear Dreamer (SUiCiDE); released in su-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: BioHazard ANSi
 # SAUCE Author: Nuclear Dreamer
 # SAUCE Group: SUiCiDE
@@ -20,10 +20,7 @@ Write-Host '
 [1;33;47m▒[0m [1;33;47m▒[0m [1;33;47m▒[0m [1;33;47m▒[0m [1;33;47m▒[0m [1;33;47m▒[0m  [1;33;47m▒[0m  [1;33;47m▒[0;1;33;40m▀ [0;1;33;47m▒[0;1;33;40m▀[0;1;33;47m▒[0m [1;33;47m▒[0;1;33;40m▄▀[0m      [1;30;40m1[0;1;31;40mo[0;1;33;40mo[0;1;37;40m% pure a[0;1;33;40mn[0;1;31;40ms[0;1;30;40mi[0m      [1;33;47m▒[0m  [1;33;47m▓[0m [1;33;47m▒[0;1;33;40m▄▀ [0;1;33;47m▒[0;1;33;40m▀ [0;1;33;47m▒[0;1;33;40m▀[0;1;33;47m▒[0m [1;33;47m▒[0m   [1;33;47m▒[0m [1;33;47m▒[0;1;33;40m▀ [0;1;33;47m▒[0;1;33;40m▄▀[0m
 [1;33;47m░[0m [1;33;47m▓[0;1;33;40m▄[0;1;33;47m░[0m [1;33;47m▓[0;1;33;40m▄[0;1;33;47m░[0m [1;33;47m▓[0;1;33;40m▄ [0;1;33;47m░[0;1;33;40m▄ [0;1;33;47m▓[0;1;33;40m▄ [0;1;33;47m░[0m [1;33;47m▓[0m [1;33;47m░[0m [1;33;47m▓[0m       [1;30;40m1[0;1;31;40mo[0;1;33;40mo[0;1;37;40m% pur[0;1;33;40me [0;1;31;40mN[0;1;30;40mD[0m       [1;33;47m░[0;1;33;40m▄▄▀ [0;1;33;47m▓[0m [1;33;47m░[0m [1;33;47m▓[0;1;33;40m▄ [0;1;33;47m░[0m [1;33;47m▓[0m [1;33;47m░[0m   [1;33;47m▓[0m [1;33;47m▒[0;1;33;40m▄ [0;1;33;47m▓[0;1;33;40m [0;1;33;47m░[0m
 [1;37;40m─[0;1;31;40m──[0;31m──────────────────────────────────────────────────────────────────────────[0;1;31m──[0;1;37m─[0m
-[1;37m  [0m      [1;30m [0m  [1m [0m         [1m [0m      [1m [0m           [1m  [0m      [1m [0m [1;30m [0m                           [1m [0m
-[1m     [0m   [1;30m [0m  [1m [0m         [1m [0m      [1m [0m [1;30m [0m       [1;30m [0m         [1m [0m [1;30m [0m                        [1m [0m
-[1m    [0m    [1;30m  [0m [1m [0m                 [1m [0m [1;30m [0m       [1;30m [0m [1m [0m       [1m [0m [1;30m [0m                         [1m [0m
-
+[1;37m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m
 
 
 

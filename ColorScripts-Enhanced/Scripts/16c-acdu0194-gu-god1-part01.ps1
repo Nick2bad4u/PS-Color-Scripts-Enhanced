@@ -5,7 +5,7 @@
 # Source SHA-256: 80797e4791ebabf554b487f8c9f66d8ec715fc60666a22f45a742245cc51db9a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GU-GOD1.ANS by Guile (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -42,14 +42,7 @@ Write-Host '
 [1;30m──────────────┬─────────────────────────────────────────────────────┬──────────[0m
 [1;30m [0m             [1;30m│ [0m      ■                                             [1;30m│ [0m        
 [1;30m──────────────┴─────────────────────────────────────────────────────┴──────────[0m
-[1;30m                                                                        [0m
-[1;30m                                         [0m
-[1;30m                                                                          [0m
-[1;30m                                                                           [0m
-[1;30m                                                                       [0m
-[1;30m [619].[0m
-[1;30m                                                                          [0m
-[1;30m                                                                         [0m
-[1;30m 619.[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m [619].[0m
+[1;30m[0m[1;30m[0m[1;30m 619.[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30m [0mA N S I   :   G U I L E   ■   1 9 9 3   [1mA [0;1;36mC [0;1;34mi [0;34mD   [0mP R O D U C T I O N S (tm)[0m'

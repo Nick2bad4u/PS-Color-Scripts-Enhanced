@@ -5,7 +5,7 @@
 # Source SHA-256: e44a8697a230743ad21657fca4b707b05646b3fc3785e98ebfb9eed7e93baf4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AZ-COD1.ANS by Azrael (Spastic Studios); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Chamber Of Dreams
 # SAUCE Author: Azrael
 # SAUCE Group: Spastic Studios
@@ -43,7 +43,7 @@ Write-Host '
                 [1;30;40m▓   ▒[0m               [1;30;40m░[0m               [1;30;40m▒[0m      [1;30;40m░ ▒[0m
                     [1;30;40m▓  ░[0m       [1;37;40mChamb[0;1;30;40m▒[0;1;37;40mr of Dreams [0;1;30;40m░  ▓[0m      [1;30;40m▒ ▓[0m
                  [1;30;40m░[0m     [1;30;40m▒  [0;1;37;40m  [0;1;30;40m░[0;1;37;40m       [0;1;30;40m▓[0;1;37;40m            [0;1;30;40m▒[0;1;37;40m      [0;1;30;40m░  ▓[0m
-                 [1;30;40m▒[0m     [1;30;40m▓    ▒    [0;1;37;40m615.443.7336[0;1;30;40m░   ▓[0m      [1;30;40m▒[0m
+                 [1;30;40m▒[0m     [1;30;40m▓    ▒    [0;1;37;40m            [0;1;30;40m░   ▓[0m      [1;30;40m▒[0m
                  [1;30;40m▓[0m          [1;30;40m▓[0m       [1;30;40m▒[0m        [1;30;40m▒[0m          [1;30;40m▓[0m
                                     [1;30;40m▓[0m        [1;30;40m▓[0m
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

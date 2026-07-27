@@ -5,7 +5,7 @@
 # Source SHA-256: 8d9c74b644b0b7d8b963a35ba0f8dfc503fca15c3b2cee424a3c1ef6e8ceb7d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RDL-LG13.ANS by Radical (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ansi logos pack 13
 # SAUCE Author: Radical
 # SAUCE Group: Fuel Productions
@@ -26,10 +26,7 @@ Write-Host '
 [1;30;40m██[0;1;30;47m▓[0;1;30;40m█ ▐██[0m [1;30m▀██[0;1;30;47m▓[0;1;30;40m██▄██[0;1;30;47m▓▓[0;1;30;40m▀ ▀██[0;1;30;47m▓[0;1;30;40m██▄██[0;1;30;47m▓▓[0;1;30;40m▀ ▀██[0;1;30;47m▓[0;1;30;40m█ ▀██[0;1;30;47m▓[0;1;30;40m██▄██[0;1;30;47m▓▓[0;1;30;40m▀ ▀██[0;1;30;47m▓[0;1;30;40m██▄██[0;1;30;47m▓▓[0;1;30;40m▀ ▀██[0;1;30;47m▓[0;1;30;40m██▄██[0;1;30;47m▓▓[0;1;30;40m▀ [0m
 [1;30;40m▄▄▄▄▄▓██▓▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▓▄▄▓▄▄▄▄▄▄▓▄█▄▄▄▄▓▄▄▄▄▄▄▄▄[0m
                 [1m [0m    [1;30m▀[0m
-                                                  [1;30m  [0m
-                                         [1;30m  [0m   [1;30m [0m               [1;30m [0m   [1;30m [0m         [1;30m [0m
-                              [1;30m [0m       [1;30m  [0m                         [1;30m  [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
         [1;30m▄▄[0;1;30;47m▓[0;1;30;40m██▓▄[0m                      [1;30m   [0m [1;30m ▄    ▄▄[0m                      [1m▄[0;1;46m█[0;1;40m▄[0;1;30;40m [0m
     [1;30m▄▄[0;1;30;47m▓[0;1;30;40m█▀▀[0m  [1;30m██▌[0m     [1;30m▄▄[0;1;30;47m▓[0;1;30;40m█▓█▄[0m [1;30m [0;1;37m▄[0;1;37;46m█[0;1;37;40m▄[0m     [1;30m  ▄▓█▌[0m     [1;30m▐█▓▄[0m                 ▄[1;47m▄[0;1;46m████[0m [1m    [0m
 [1;30m▄▓██▀▀▀[0m   [1;30m ▐██[0m  [1;30m▄▄██▀▀[0m [1m [0;1;30m██▌[0m [1;46m████[0;1;47m▄[0m▄   [1;30m▓███▀[0m   [1;30m    █[0;1;30;47m▓[0;1;30;40m█▌[0m [1;30m [0m            ▄[1;47m▄[0;1;40m█▀ [0m [1m█[0;1;33m█[0;1;33;47m▌[0m

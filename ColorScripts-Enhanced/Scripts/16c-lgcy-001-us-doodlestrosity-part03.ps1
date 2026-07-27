@@ -5,7 +5,7 @@
 # Source SHA-256: b702b4cbfbca4fc42ad1482bf726be55e96613cb9e35ed1ce75c79d6bb943b4e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-doodlestrosity.ans by Warpus + Mx (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Doodlestrosity
 # SAUCE Author: warpus & mx
 # SAUCE Group: Legacy Krew
@@ -57,9 +57,7 @@ Write-Host '
 
 
 
-       [1;32m                                                                [0m
+[1;32m[0m
 
-
-       [1;30m                                        [0m [1;30m      [0m
-
+[1;30m[0m[1;30m[0m
                              [30;44m█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 71c206064a9832914f0340ba3e0d12f34c5547578ca74c869b3375583f2eeb3c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US!GUM.ANS by Cat-Dog + Rage (hazmat); released in cia61-b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: gumfuck
 # SAUCE Author: multiple mooks
 # SAUCE Group: hazmat
@@ -49,6 +49,4 @@ ll   [1m$$$$[0m$[1m [0;1;36m$[0;36m$$$$[0;1;37m $$$$[0m$[1m  $$$$[0m$[
            [1m.,┌sS$$S╩ⁿ[0m''     [1;36mgum[0;36mfuck[0m                              [37m.┌yt$$$$$$$$$$$$[0m
                                                                 [37m│$⌐²"^`````^"²¬$[0m
                                                                [37m.`[0m              [37m [0m
-                                                             [1;30m              [0m
-                                                             [1;30m            [0m
-───(cut mmkoy?)─────────────────────────────────────────────────────────────────[0m'
+[1;30m[0m[1;30m[0m───(cut mmkoy?)─────────────────────────────────────────────────────────────────[0m'

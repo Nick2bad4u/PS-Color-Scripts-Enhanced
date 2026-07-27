@@ -5,7 +5,7 @@
 # Source SHA-256: 2fd6b46d2d1a1487f92dc48693ad65cf4957ce7a5373015a64cfd316860efbda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-NSC.ANS by CLeaNeR! (.%[nitrophusion]%.); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: NSC... aNSi LoGo
 # SAUCE Author: CLeaNeR!
 # SAUCE Group: .%[nitrophusion]%.
@@ -36,4 +36,4 @@ Write-Host '
 [1;34;40m   [0;1;30;40m▄▄▀▀ [0;1;31;40m▄▄█[0;1;31;41m▓██▓[0;1;31;40m██▀ [0;1;30;40m▓   ▐▌[0;31m▌[0;1;30m▀▓ [0;31m▌[0;1;30m▐▓▄[0m     [1;30m▓ [0;31m▀▀██▓████▀ [0;1;30m█▀ [0;31m▄▓▄▄▄▄▄ [0;1;30m▀▀▄ [0;34m▐[0;1;34;44m▒▓[0m        [1;34;40m▄▌[0m
 [1;34;40m  [0;1;30;40m▓ [0;1;31;40m▄▄[0;1;31;41m▓[0;1;31;40m██[0;1;31;41m▓█[0;1;31;40m███▀▀ [0;1;30;40m▄▀   ▄▀ [0;31m▄▓▄▄▄▄▄ [0;1;30m▀▀▄   ▀▀▄▄▄▄▄▄▄▄▄▀▄ [0;31m▀▀██▓████▀ [0;1;30m▓  [0;1;34;44m▓[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m▄   ▄▄[0;1;34;44m▓[0;1;34;40m█[0m
 [1;34;40m  [0;1;30;40m▀▄▄ [0;1;31;40m▀▀▀▀▀ [0;1;30;40m▄▄▄▀▀[0m     [1;30;40m▓ [0;31m▀▀██▓████▀ [0;1;30m▓[0m                [1;30m▀▀▄▄▄▄▄▄▄▄▄▀    [0;1;34m▀▀█▓██[0;1;34;44m▓[0;1;34;40m▀▀[0m
-     [1;30;40m▀▀▀▀▀▀▀[0;1;37;40mc[0mL[1;30mEAN[0mE[1mR[0;36m/[0;1;37mn[0mP[1mH[0;1;30m▀▀▄▄▄▄▄▄▄▄▄▀ -[0;36m[[0;37mc[0;1;30mAL[0mL[36m^[0;1;30mmY[0;36m^[0;37mb[0;1;30mOAR[0mD[36m^[0;1;30mdA[0;36m^[0;37mp[0;1;30mROPHEC[0mY[36m^+[0;1;30m33[0;36m-[0;37m5[0;36m-[0;1;30m628[0m7[1;30m221[0m2[36m][0;1;30m-[0m'
+     [1;30;40m▀▀▀▀▀▀▀[0;1;37;40m [0m [1;30m   [0m [1m [0;36m [0;1;37m [0m [1m [0;1;30m▀▀▄▄▄▄▄▄▄▄▄▀  [0;36m [0;37m [0;1;30m  [0m [36m [0;1;30m  [0;36m [0;37m [0;1;30m   [0m [36m [0;1;30m  [0;36m [0;37m [0;1;30m      [0m [36m  [0;1;30m  [0;36m [0;37m [0;36m [0;1;30m   [0m [1;30m   [0m [36m [0;1;30m [0m'

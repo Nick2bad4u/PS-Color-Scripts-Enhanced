@@ -5,7 +5,7 @@
 # Source SHA-256: 79772eb0325a97e60964afe70ba7c9758f06d3b25ced936c7dbb1ce688113faa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GASNFO01.ANS by Juice Gas + Tribal (gas-01); released in gas-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -20,11 +20,7 @@ Write-Host '
                  [37m░[0;31m░[0;1;30m▀█[0;1;30;47m▄█[0;31m░[0;1;30m██[0;1;30;47m▄█[0;31m│[0;1;30m▀█[0;1;30;47m▄█[0;1;30;40m▄██[0;1;30;47m▄█[0;31m│[0;1;30m▀█[0;1;30;47m▄█[0;1;30;40m▄█▄██[0;1;30;47m▄█[0;31m│[0;1;30m██[0;1;30;47m▄█[0;1;30;40m▄██[0;1;30;47m▄█[0;31m░ ░[0m      [37m·[0m     [1;37m·[0m
           ·            [1;30mjc▀▀▀▀[0;31m░▄▄▄▄[0;1;30m▀▀▀[0;31m▄[0;1;31;41m·─[0;31m▄▄▄▄▄▄[0;1;30m▀▀▀[0;31m▄▀─    [0;1;30m▀▀▀[0m
                                                                          [1;30m·[0m
-[1;30m    [0m        [1m    [0;1;30m    [0m   [1;30m  [0m                                                      
-                                          [1;30m  [0m                 [1;30m     [0;1;37m [0m
-[1;37m  [0;1;30m [0m                                      [1;30m [0m                  
-                             [1;30m [0m                      [1;30m  [0m      
- [34m░ ░░ ░░░ ░ ░░ ░░░  [0;37mrun by tribal [0;1;30m([0mdats me[1;30m!) [0mwhom is greatly  [34m░░ ░░░ ░░░ ░░░ ░░[0m
+[1;30m[0m[1m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0;1;37m[0m[1;37m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m [34m░ ░░ ░░░ ░ ░░ ░░░  [0;37mrun by tribal [0;1;30m([0mdats me[1;30m!) [0mwhom is greatly  [34m░░ ░░░ ░░░ ░░░ ░░[0m
 [34m░░ ░░░░░░ ░░░░░ ░░░ [0;37mbacked up  by the  immense  support from [0;34m░░░ ░ ░░░░░░░░░ ░░░[0m
 [34m░░░░░░░ ░░░░░░░░░░░ [0;37mjuice[0;1;30m. [0mgas is interested in the  quality [34m░░░░░░░░░░░ ░░░░░░░[0m
 [34m░▒░░░▒░░░░░░▒░░░░▒░ [0;37mof work and definitely not the quantity[0;1;30m. [0;34m░▒░░░░░░░░▒░░░░░░▒░[0m
@@ -40,7 +36,7 @@ Write-Host '
 [34;44m [0;1;34;44m▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓ [0m please contact  myself  on the following[34m░[0;34;44m [0;1;34;44m▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓[0;34m█[0m
 [34m█[0;1;34;44m█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█ [0;34m░[0;37memail address[0;1;30m.[0m                         [34m▄▓[0;34;44m [0;1;34;44m█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█[0;34m█[0m
 [34;44m [0;1;34;47m▓[0;1;34;44m███▓█████▓████▓█ [0;34m▓▄[0m                                    [34m▓[0;34;44m   [0;1;34;44m▓██▓███████████▓█[0;1;34;47m▓[0;1;34;44m [0m
-[1;34;44m▐█████████████████▓  [0;34m▓ [0;1;36mtribal [0;1;30m(founder)   [0;36mgas@ion.com.au [0;36;44m [0;1;34;44m▓████████████████████▌[0m
+[1;34;44m▐█████████████████▓  [0;34m▓ [0;1;36m       [0;1;30m            [0;36m               [0;36;44m [0;1;34;44m▓████████████████████▌[0m
 [1;34;44m▐███████████████████▓ [0;34m▄[0m                                 [34m▄[0;34;44m [0;1;34;44m█████████████████████▌[0m
 [34m█[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m████████████████[0;1;34;47m▓[0;1;34;44m█▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓█[0;1;34;47m▓[0;1;34;44m█████████████████[0;1;34;47m▓[0;1;34;44m█[0;34m█[0m
 [34m▓[0;34;44m [0;1;34;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;34m▓[0m'

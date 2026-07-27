@@ -5,7 +5,7 @@
 # Source SHA-256: b4f9f1f9506a5272c50cf475c9f994220cc7718c943bc34e2b3ec729887f2b36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-URANS.ANS by Proctologist (Treason); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: anal probe me
 # SAUCE Author: Proctologist
 # SAUCE Group: Treason
@@ -31,15 +31,11 @@ P"`[1m_[0m.[1m,╖[0mg[1mgg[0m [1mg[0m [1;32mi[0m$[1;32m$$$[0m$[1;3
 [37m$$$$$$S*╜ⁿ°"^```         `?$$$Pⁿ"`   `^"ⁿ╙$''    `"ⁿ$Pⁿ"^`            `ⁿP`^"°ⁿ╜?$[0m
 [37mP"^`[0m                       [37m$''[0m             [37m''[0m      [37m  l[0m   [37m  [0m              [37m`. [0;31mp[0;1;31mC[0m [1;34m.[0m l
 b,[1;34m`∙.[0m                      `∙                       `~                      [1;34mj[0;34m''[0;37m,$[0m
-[37m     [0;1;34m [0m     [1;32m [0m [32m           [0m       [37m [0;1;32m [0m [32m        [0m           [37m [0;1;32m [0m [32m         [0m         [1;34m [0;34m  [0;37m   [0m
-[37m     [0;34m [0m    [37m [0;1;32m [0m [32m         [0m         [37m [0;1;32m [0m [32m           [0m        [37m [0;1;32m [0m [32m         [0m        [1;34m [0;34m   [0;37m   [0m
-[37m     [0;1;34m [0m     [1;32m [0m [32m         [0m         [37m [0;1;32m [0m [32m       [0;37m [0;32m    [0m       [37m [0;1;32m [0m [32m      [0m             [1;34m [0;34m   [0;37m [0m
-[37m$P'' [0;34mj''[0m    [37m [0m           [37m [0m                                        [37m, [0;34m [0m        [1;34m''[0m .,d$
+[37m[0;1;34m[0m[1;32m[0m[32m[0m[37m[0;1;32m[0m[32m[0m[37m[0;1;32m[0m[32m[0m[1;34m[0;34m[0;37m[0m[37m[0;34m[0m[37m[0;1;32m[0m[32m[0m[37m[0;1;32m[0m[32m[0m[37m[0;1;32m[0m[32m[0m[1;34m[0;34m[0;37m[0m[37m[0;1;34m[0m[1;32m[0m[32m[0m[37m[0;1;32m[0m[32m[0;37m[0;32m[0m[37m[0;1;32m[0m[32m[0m[1;34m[0;34m[0;37m[0m[37m$P'' [0;34mj''[0m    [37m [0m           [37m [0m                                        [37m, [0;34m [0m        [1;34m''[0m .,d$
 '' [34m∙''"+_[0;37m  ,~"$b, +g,._     , [0m                       [37m,[0m        [37m ,d, [0;34m [0m         [37m''  `$[0m
 [37m$$S#g,_    ,$$$L `?$$$P'',d$b,_[0m   [37m_.,╖g#S$$$Sg, +.,d$b,_[0m   [37m`^"?d$$#g╖,._[0;34m [0m       [37m$[0m
 [37m^^"ⁿ╜?$S##$$$$$$b,_`^`    `?$$$$$$$$$$$$$$$$$$b,._ `Pⁿ"^` _,╖$$$$$$$$$$$S#g╖,,d$[0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30m                                                  [0m
-                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
+[1;30m[0m                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

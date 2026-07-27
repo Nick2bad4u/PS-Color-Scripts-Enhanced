@@ -5,7 +5,7 @@
 # Source SHA-256: a55d8415e473f4f7763a7e95eebf0c34404abf5a7d44bb6b765d43560737c915
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AOH-SHRM.ANS by Angel Of Hell (emic0496); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -22,8 +22,7 @@ $$$ [1m$$$$$$$$s $$$$s$$$$ $$$$s$$$  $$$$ [0;36m$ [0;1m$$$$ $$$$ [0;36m$ [0
 $$$ [1msosn $$$$ $$$$ $$$$ $$$$`$$$$ $$$$ [0;36m$ [0;1m$$$$ $$$$ [0;36m$ [0;1m$$$$ $$$  [0ms$ [1m$$$ .sonz.[0m''$$$
 $$$ [1m$$$$ $$$$ $$$$ $$$$ $$$$ $$$$ $$$$   $$$$ $$$$   $$$$ $$$  [0m$$ [1m$$$ $$$$$$ [0m$$$
 $$$.[1m`$$$$$$$''[0m.[1m`$$$[0m.[1m$$$''[0m.[1m`$$$ $$$$ $$$$   $$$$ $$$$   $$$$ `$$  [0m$$ [1m$$''[0m.[1m`²ª²°''[0m,$$$
-                             [1;30m     [0;1m                        [0;1;30m     [0m                 
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$ [1;30m$$$$ [0;1m$$$$   $$$$ $$$$   $$$$ [0;1;30m$$$$ [0m$$$$$$$$$$$$$$$$$
+[1;30m[0;1m[0;1;30m[0m$$$$$$$$$$$$$$$$$$$$$$$$$$$$ [1;30m$$$$ [0;1m$$$$   $$$$ $$$$   $$$$ [0;1;30m$$$$ [0m$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$ [1;30m$$$$ [0;1m`$$$$$$$$$'' `$$$$$$$$$'' [0;1;30m$$$$ [0m$$$$$$$$$$$$$$$$$
 $$`º²ª²°²ºª°º²ºª²º°²ººª²º''$$ [1;30m$$$b [0;1;31m.somnosvc. [0;1;33m$ [0m.[1;31mcvsomnos, [0;1;30md$$$ [0m$$$$$$$$$$$$$$$$$
 $$ [1;30m$ª²²º°²²ª²º²°²ª²²°ª²°$ [0m$$ [1;30m$$$$ [0;1;31m$$$$$$$$$$ [0;1;33m$ [0;1;31m$$$$$$$$$$ [0;1;30m$$$$ [0m$$$$$$$$$$$$$$$$$

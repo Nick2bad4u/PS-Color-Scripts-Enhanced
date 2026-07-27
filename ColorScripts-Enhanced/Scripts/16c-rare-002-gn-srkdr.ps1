@@ -5,7 +5,7 @@
 # Source SHA-256: e58883b7e6556eb4865ae1b27f75ffb3016913ed4b891ccb4bf832a7a8616fa4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GN-SRKDR.ANS by genick (rare!ascii - guest); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: doors
 # SAUCE Author: genick
 # SAUCE Group: rare!ascii - guest
@@ -30,8 +30,7 @@ Write-Host '
       [1;35m`$$[0;35m$[0;1;35m$[0;35mL[0;1;35m,[0;35m_[0;37m    [0;1;35m_,d[0;35m$[0;1;37m$[0;1;35;45m$[0;1;35;40m$[0;35mL,_[0;37m    [0;35m_[0;1;35m,d[0;1;35;45m$[0;35m$[0;1;37m$[0;1;35m$[0;35mL,_[0;37m    [0;35m_,d[0;1;35m$[0;35m:,_$[0;1;35m$$[0;1;35;45m$$[0;35m$$[0;1;35m$[0;35mL,_[0;37m    [0;35m_,d[0;1;35m$$$''[0m
    gn[1;47mk[0m![1;35m `[0;35m²╩[0;1;35m╩[0;35m╩[0;1;37m╩[0;1;35m╩[0;35m╩╩[0;1;35m╩╩[0;35m╩╩[0;1;35m╩[0;35m╩[0;1;35m╩[0;35m╩[0;1;35m╩╩╩╩[0;35m╩╩[0;1;35m╩[0;1;37m╩╩[0;1;35m╩╩╩╩╩[0;35m╩╩[0;1;35m╩╩╩╩╩[0;35m╩╩[0;1;37m╩[0;1;35m╩╩╩╩[0;35m╩[0;1;35m╩╩╩[0;35m╩[0;1;37m╩[0;1;35m╩[0;35m╩╩[0;1;35m╩[0;35m╩[0;1;35m╩╩╩[0;35m╩╩[0;1;35m╩╩²''    [0m
                 [1;30m;;[0;36ml$[0;1;36mO[0;36mQ[0;1;30ml:[0m
-                [36m  [0;1;36m   [0;36m [0;1;30m [0;36m  [0;37m [0;36m [0m    [1;30m  [0;1;37m            [0;1;30m     [0m            [1;30m  [0m
-                [36m  [0;1;36m$[0;36mI[0;1;36mI[0;36m$$  [0m      [1;30m--[0m option ...[35m [0;1;30m<< >>[0m ... opt1on [1;30m--[0m
+[36m[0;1;36m[0;36m[0;1;30m[0;36m[0;37m[0;36m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0m                [36m  [0;1;36m$[0;36mI[0;1;36mI[0;36m$$  [0m      [1;30m--[0m option ...[35m [0;1;30m<< >>[0m ... opt1on [1;30m--[0m
     [34m         [0;37m [0;36m `[0;1;36mT§[0;36m§§[0;1;36m§§[0;36m§§[0;1;30mP''[0m     [1;30m--[0m op7ion ...[35m [0;1;30m<< >>[0m ... option [1;30m--[0m
                 [36m [0;1;36m`7[0;1;33m§[0;1;37m§[0;36m§[0;1;30m7''[0m    [35m [0;37m           [0;35m       [0m
                    [1;36m`7[0;36m''[0m     [37m       [0m'

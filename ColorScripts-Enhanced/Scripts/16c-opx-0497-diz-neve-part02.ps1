@@ -5,7 +5,7 @@
 # Source SHA-256: 33ce06a6bcf604d34d739686428f42b09f4f8bc7c0d7f52849ea58c4c7986601
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DIZ-NEVE.ANS by Dizzy (opium); released in opx-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: Dizzy
 # SAUCE Group: opium
 # SAUCE Date: 19961213
@@ -53,6 +53,5 @@ Write-Host '
        [31m [0m                                                  [31m▀[0m        [31m [0m
                                                                       [31m  [0m
 [1;30m [0m                  [31m▀▀▀ [0m   [31m▀[0m     [31m░[0m       [31m▀[0m      [31m▀▀▀[0;37m [0;31m▀▀ ▀▀▀▀▀▀▀▀▀[0;37m [0;31m▀[0;37m  [0;31m▀▀▀[0m         [31m▀[0m
-                    [37m [0;1;37m    [0m [1m    [0m [1m   [0m [1m    [0m [1m    [0m [1m  [0m [1m     [0m [1m   [0m [1m   [0m
-
+[37m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m
 [1m------%[cut here]%--------------------------------------------------------------[0m'

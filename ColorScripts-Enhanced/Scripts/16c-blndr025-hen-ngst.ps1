@@ -5,7 +5,7 @@
 # Source SHA-256: d37b2090bdd6c514adb328cccd6adbd4d73d47eb7df38ff1cabc1c5301c65d74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HEN-NGST.ANS by hennifer (lazarus); released in blndr025 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: blender25
 # SAUCE Author: hennifer
 # SAUCE Group: lazarus
@@ -37,19 +37,8 @@ Write-Host '
    [1;30;40m         [0;1;37;40m [0;1;30;40m────►[0;1;37;40m  [0;30;47m▒▒▒▒▒▒[0;1;37;40m  [0m          [36m                                         [0m
    [1;30msucks, but[0m       [30;47m▓▓▓▓▓▓[0;37;40m  [0m          [1;37;40mcavemen[0;36m.  [0m
    [1;30m           [0m      ░░                [36m                           [0m
-   [1;30m        [0m                           [36m             [0m
-                                      [36m                                   [0m
-                        [37m░░[0m
-                                      [36m     [0;1;37m          [0;36m                  [0m
-                                      [36m                          [0m
-                                      [36m                         [0m
-                                      [36m                                    [0m
-[37m [0;1;30m                                   [0m  [36m                               [0m
-[1;30m-------------------------------------[0m
-                                      [36m                                       [0m
-[1;30m                                    [0m  [36m                           [0m
-[1;30m                                  [0m
-[1;30m                                [0m      [36m              [0m
-
+[1;30m[0m[36m[0m[36m[0m                        [37m░░[0m
+[36m[0;1;37m[0;36m[0m[36m[0m[36m[0m[36m[0m[37m[0;1;30m[0m[36m[0m[1;30m-------------------------------------[0m
+[36m[0m[1;30m[0m[36m[0m[1;30m[0m[1;30m[0m[36m[0m
 
 [37m [0m        [1;33mLAZARUS[0m - [1mWHERE ANGST IS 3L33T, B4YB33!$%!@$!!!!!!!!!!!!!@@@[0m'

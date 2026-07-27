@@ -5,7 +5,7 @@
 # Source SHA-256: f8149a67ed8fa49450ca5488ff200a67ff0f16a82a0457e4fcc8748096179c3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-INF1.ANS by Phatal (READ THE INI FILE); released in sfc0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Infinity Magazine
 # SAUCE Author: Phatal
 # SAUCE Group: READ THE INI FILE
@@ -22,7 +22,7 @@ Write-Host '
 [31m [0;1;30m▀▀▀▀▀▀▀▀▀[0;31m▄▄[0;1;31;41m░▒▒░[0;31m▄ ▄  [0;1;30m▀ [0;31m▄█[0;1;31;41m░▒▒░[0;31m▄ [0;1;30m▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
 [1;30m [0;31m▄[0;1;31;41m░▒[0;31m▄▄▄▄▀█[0;1;31;41m░░▒▓▓▒░[0;31m█    ██[0;1;31;41m░▒▓▓▓▒[0;31m▌[0m               [1;30mI do ansi for free/cheap....[0m
 [1;30m  [0;31m▀▀[0m     [31m▀██[0;1;31;41m░▓▓▒░[0;31m█ ▀   ▀█[0;1;31;41m░▒▓▒[0;31m█[0m     [31m▄▄▄[0m        [1;30mYou can contact me on Projekt[0m
-[1;30m █[0m      [31m▀ ▀█[0;1;31;41m░▒░░[0;31m█▀    ▄▀ ▀[0;1;31;41m░░░[0;31m▌ ▀▀█[0;1;31;41m▒▒▓▒[0;31m█ ▀▀ ▀  [0;1;30mInsanity (8o5.834.51o5), Terra  ▀[0m
+[1;30m █[0m      [31m▀ ▀█[0;1;31;41m░▒░░[0;31m█▀    ▄▀ ▀[0;1;31;41m░░░[0;31m▌ ▀▀█[0;1;31;41m▒▒▓▒[0;31m█ ▀▀ ▀  [0;1;30m                                ▀[0m
 [1;30m   [0;31m▄[0;1;31;41m░▓▒[0;31m▄   ▐[0;1;31;41m░▒░[0;31m▀ ▀█[0;1;31;41m░[0;31m▄[0m     [31m▐[0;1;31;41m▒░[0m    [31m▐█[0;1;31;41m▒▒[0;31m█[0m        [1;30mFirma, or Eternal Insanity...   ▄[0m
 [1;30m ▀  [0;31m▀▀▀▄   ▐[0;1;31;41m░▒[0;31m▌▀   ▀█[0;1;31;41m░▒░[0;31m▄ ▐[0;1;31;41m▓[0;31m█    █[0;1;31;41m░░░[0;31m▌ [0;1;30m(tm)   This is my uhh, 2nd or 3rd Pic.[0m
      [1;30m███▓▒░[0;31m▐[0;1;31;41m░░[0;31m▌[0;1;30m░▒███▄[0;1;31;41m░▒▓░[0;31m█▐[0;1;31;41m▓░[0m [1;30;40m░░[0;31m▐█[0;1;31;41m░░[0;31m█[0;1;30m░▒▓███   Kind of sorry, but hey, at[0m

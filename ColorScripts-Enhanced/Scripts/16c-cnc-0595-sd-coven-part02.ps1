@@ -5,7 +5,7 @@
 # Source SHA-256: 3d4d08a240e1466a233711bc27edce3d646ec841b777f2651b40b5fba47fb498
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-COVEN.ANS by Superdave (CaNCeR Productions); released in cnc-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Coven
 # SAUCE Author: Superdave
 # SAUCE Group: CaNCeR Productions
@@ -52,9 +52,6 @@ Write-Host '
 
 
                                T h [1me   [0mC o v e [1mn[0m
-                            3 6 0 . 2 9 7 . 4 0 4 9
-                                   [1m [0m           [1m [0m         
-                                   [1m [0m           [1m [0m
-       [1;31m▄▓▄[0m                         [1m [0m           [1m [0m                      [1;31m▄█▓█  [0m▄
+[1m[0m[1m[0m[1m[0m[1m[0m       [1;31m▄▓▄[0m                         [1m [0m           [1m [0m                      [1;31m▄█▓█  [0m▄
     ▒▄[1;31m▀▀█▀[0m                                                             [1;31m▀▀ [0m▄▓█
     ▀█▓█▄     [1;30m                                                         [0m▄▒██▀[0m'

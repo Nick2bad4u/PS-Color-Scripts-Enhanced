@@ -5,7 +5,7 @@
 # Source SHA-256: 0071fafe254cf09878682e621aee8ea00bcfa077cb2c4f14fd642f57cc77a2ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K-FLUPH.ANS by kyp (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fluph
 # SAUCE Author: kyp
 # SAUCE Group: mean scheme
@@ -41,8 +41,4 @@ Write-Host '
 
 
 -·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·
-                                                                                
-                                                                            
-                                                                           
-                                                                                
 ·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-·-[0m'

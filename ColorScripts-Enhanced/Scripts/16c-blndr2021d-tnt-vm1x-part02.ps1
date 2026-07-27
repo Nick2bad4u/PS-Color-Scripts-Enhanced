@@ -5,7 +5,7 @@
 # Source SHA-256: baf9b6512fbddc1f523af68392544b147b6f7d9fcc2110e9265fffbed657161c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt-vm1x.ans by tainted (blocktronics); released in blndr2021d and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dirty, classy, bloody glassy!
 # SAUCE Author: tainted
 # SAUCE Group: blocktronics
@@ -54,13 +54,10 @@ Write-Host '
 [37m                          [0;31m█[0;37m  [0;31m▀▀█[0;37m [0;31m▀▀█[0;37m [0;31m█[0;37m [0;31m█[0;37m [0;31m█▀[0;37m   [0;31m▄█▄█▄[0;37m  [0;31m█[0m
 [37m                         [0;31m▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▀[0;37m   [0;31m▀[0;37m [0;31m▀[0;37m  [0;31m▀▀▀[0m
 
-[37m                                    [0;31m     [0;37m [0;31m  [0m
-
-[37m                          [0;1;30m     [0m [1;30m      [0m [1;30m [0m [1;30m      [0m [1;30m      [0m
-
+[37m[0;31m[0;37m[0;31m[0m
+[37m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
 
                  [1;31m         [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m   [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m░░[0m
 
 
-                             [1;30m       [0m              
-[1;30m--------------------------------------------------------------------------------[0m'
+[1;30m[0m[1;30m--------------------------------------------------------------------------------[0m'

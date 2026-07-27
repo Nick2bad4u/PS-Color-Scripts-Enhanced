@@ -5,7 +5,7 @@
 # Source SHA-256: cd7634f32049a228ae5665244925d22388b57216bb962dd80da2fd81f1d0a5da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AY-GSHFT.ANS by Asylum (Shiver); released in shv-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Graveyard Shift
 # SAUCE Author: Asylum
 # SAUCE Group: Shiver
@@ -19,7 +19,7 @@ Write-Host '
  [1;30m███▀ [0m▄███▀█[1;47m▓[0m█▄ [1;30m▀[0m ▄██[1;30m █ [0;1;37;47m▓[0m█▄ [1;30m▀[0;1;30;47m▓▓▒░░[0m█ [1;30m█▀[0m [1;30mif you would like to purchase an ansi[0m [1;30m▀█[0m
  [1;30m███[0m [1;37;47m▓[0m███ [1;30m▄[0m [1;37;47m▒[0m███ [1;47m▓[0m███ [1;30m█[0m [1;37;47m▒[0m███ [1;30;47m▓▓▒░░[0m█ [1;30m█  from me, you can reach me on #ansi or[0m [1;30m █[0m
  [1;30m███[0m [1;37;47m▒[0m███ [1;30m█[0m [1;37;47m░[0m██[1;30;47m [0m [1;37;47m▒[0m███ [1;30m█[0m [1;37;47m░[0m██[1;30;47m░[0m [1;30;40m█[0;1;30;47m▓▒▒░[0m█ [1;30m█[0m [1;30m   through internet email at my box,    █[0m
- [1;30m███[0m [1;37;47m░[0m███ [1;30m▀[0m ████  [1;47m░[0m██▄[1;30m [0m▄███ [1;30m▄██[0;1;30;47m▓▒░ [0m [1;30;40m█[0m [1;30;40m       ·[0m [1;30;40masylum@cyberspace.org[0m [1;30;40m·      [0m  [1;30;40m█[0m
+ [1;30m███[0m [1;37;47m░[0m███ [1;30m▀[0m ████  [1;47m░[0m██▄[1;30m [0m▄███ [1;30m▄██[0;1;30;47m▓▒░ [0m [1;30;40m█[0m [1;30;40m        [0m [1;30;40m                     [0m [1;30;40m       [0m  [1;30;40m█[0m
  [1;30m███ [0m███[1;30;47m░[0m ▀▀█▀▄[1;30;47m░[0m [1;30;40m▄ [0m▀▀[1;47m [0m▀▄[1;30;47m░[0m▀ [1;30m ██[0;1;30;47m▓▒▒░[0m█ [1;30m█[0m [1;30m·- -── ───────────────────────── ─-─ -·[0m [1;30m█[0m
  [1;30m███[0m [1;37;47m░[0m██[1;30;47m▒[0;1;30;40m █ [0m███[1;30;47m▒[0m [1;30;40m███[0m [1;37;47m░[0m██[1;30;47m▒[0;1;30;40m [0m [1;30;40m██[0;1;30;47m▓▓▒░░[0m█ [1;30m█  greetings to : tron, liquid vision, [0m [1;30m  █[0m
  [1;30m██▀ [0m███[1;30;47m▓[0;1;30;40m █[0m ███[1;30;47m▓[0m [1;30;40m██▀[0m ███[1;30;47m▓[0m  [1;30;40m██[0;1;30;47m▓▒▒░░[0m█ [1;30m█  polymer, hyped, pro and cia ansi crews █ [0m

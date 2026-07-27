@@ -5,7 +5,7 @@
 # Source SHA-256: 78b5d7faaa7412a71c1b8c9e1533bdf787c0783a48d86264848d5a2fbe5934d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RLWI-COR.ANS by Red Lightning + White Insanity (WBT); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Corrosion
 # SAUCE Author: Wi & RL
 # SAUCE Group: WBT
@@ -57,7 +57,7 @@ Write-Host '
          [1;37m▀█[0;1;37;47m▓[0;1;37;40m█▀   ▀[0;1;37;47m▓█▒[0m▀  [1m▀▄  ▀▄ [0;1;30m░░ ▒ [0;1;37m▀[0;1;37;47m▓▒[0;1;37;40m▀  ▀[0;1;37;47m▓[0;1;37;40m▄[0;1;37;47m▓[0;1;37;40m▀ [0;1;30;40m░[0;1;37;40m▀▄ [0;1;30;40m░░[0;1;37;40m▀█[0;1;37;47m▓[0;1;37;40m█▀   ▐  ▐[0;1;37;47m▓[0;1;37;40m▀[0m
               [1;37;40m [0m
 [1;30;40m [0m [1;37;40m [0m   [1;30;40m  [0m        [1;30;40m▓[0m T[1mhe Corrosio[0mn [1;30m▀[0m  [1;30m▀[0m  [1;30m▀[0m  [1;30m▀▓▀▀▀▀▒▀▀▀▀▓▀▀▀▀▀█[0m
- [1;30m [0m   [1;30m [0m  [1;30m [0m       [1;30m█[0m 6[1m04-465-8677 Opens Jan 25t[0mh[1m [0m [1;30m░[0m    [1;30m▒[0m     [1;30m█[0m
+ [1;30m [0m   [1;30m [0m  [1;30m [0m       [1;30m█[0m  [1m                         [0m [1m [0m [1;30m░[0m    [1;30m▒[0m     [1;30m█[0m
 [1;37m [0m [1;30m [0m [1;30m [0m  [1;37m [0m [1;30m [0m      [1;30m█[0m  [1m                       [0m          [1;30m░[0m     [1;30m█[0m
 [1;37m   [0;1;30m  [0;1;37m [0m    [1;30m [0m   [1;37m [0m [1;30m█[0;1;37m [0m [1m                      [0m [1m         [0m       [1;30m█[0m
   [1;30m [0m  [1;30m [0m     [1;30m [0m    [1;30m█[0m  [1m                                         [0m 

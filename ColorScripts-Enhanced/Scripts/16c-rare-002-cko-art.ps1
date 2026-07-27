@@ -5,7 +5,7 @@
 # Source SHA-256: ee0f779d030144e264abf49cf05dcb689766ed648aff5c1dbc0c0d9c5ff56dd4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CKO-ART.ANS by cuckoo (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: art menu?
 # SAUCE Author: cuckoo
 # SAUCE Group: rare!ascii
@@ -27,13 +27,10 @@ Write-Host '
    [36m                              `^²┘*ÑÑ[0;1;36m☻[0;36mÑb [0;37m      [0;1;30m  [0;1;35m [0m
    [36m               _,┐y%@S$$S@%y┐,_    lÑ[0;1;36m☻[0;36mÑl[0m   [1;35m                [0m
    [36m           ,┐@ÑÑ7*┘²°"^^^"°²┘*7Ñb,lÑ[0;1;36m☻[0;36mÑl[0m    [1;35m                [0m [36m,┌┌,[0m
-   [36m                                   [0;1;36m [0;36m   [0;1;30m    [0m                [36m  [0;1;36m [0;36m  [0m
-   [37m       [0;35m  [0;37m [0;36m [0;1;36m [0;36m   [0;1;30m [0;35m      [0;37m      [0;36m [0m   [36m  [0;1;36m [0;36m  [0m                     [36m  [0;1;36m [0;36m    [0m
-   [37m       [0;1;30m [0;35m [0;37m [0;36m  [0;1;36m [0;36m  [0;1;30m  ┘  [0;35m [0;1;30m [0;35m [0;37m     [0;36m           [0;37m           [0;1;30m      [0;36m   [0;1;36m [0;36m  [0;1;30m     [0m
+[36m[0;1;36m[0;36m[0;1;30m[0m[36m[0;1;36m[0;36m[0m[37m[0;35m[0;37m[0;36m[0;1;36m[0;36m[0;1;30m[0;35m[0;37m[0;36m[0m[36m[0;1;36m[0;36m[0m[36m[0;1;36m[0;36m[0m   [37m       [0;1;30m [0;35m [0;37m [0;36m  [0;1;36m [0;36m  [0;1;30m  ┘  [0;35m [0;1;30m [0;35m [0;37m     [0;36m           [0;37m           [0;1;30m      [0;36m   [0;1;36m [0;36m  [0;1;30m     [0m
      [1;30m : ::[0;35mlSb,[0;36m`*Ñ[0;1;36mÑ[0;36mÑ@y┐,.___.,▬┐y@Ñ☻Ñ┘'' _,┐y%@S$$S@%y┐,_    lÑ[0;1;36m☻[0;36mÑl    [0;37m           [0m
    [37m       [0;1;30ml[0;35mS$$b┌,[0;36m`²┘*7ÑÑÑÑÑÑÑÑ7*┘²`,┐@ÑÑ7*┘²°"^^^"°²┘*7Ñb,lÑ[0;1;36m☻[0;36mÑl  [0;37m    [0;1;30m [0m
 [1;30msss...s.. l[0;35mS[0;1;30m$[0;35m$$$$S@[0;1;35m%[0;35my[0;1;35myyyy[0m [1;30m..ss.. [0;36m dÑÑ7''[0;1;30m....sss.s.......[0;36m`7ÑÑ[0;1;36m☻[0;36mÑl[0;1;30m ss....ss..s..sss.[0m
-[1;30m             [0;35m [0;1;30m [0;35m         [0;1;35m [0m [1;30m       [0;36m  [0;1;36m [0;36m   [0;1;30m                [0;36m   [0;1;36m [0;36m   [0;1;30m                  [0m
-[1;30m                                  [0;36m  [0;1;36m [0;36m  [0;1;30m ┘            ┘ [0;36m  [0;1;36m [0;36m  [0;37m [0;1;30m     [0;1;37m       [0;1;30m       [0m
+[1;30m[0;35m[0;1;30m[0;35m[0;1;35m[0m[1;30m[0;36m[0;1;36m[0;36m[0;1;30m[0;36m[0;1;36m[0;36m[0;1;30m[0m[1;30m                                  [0;36m  [0;1;36m [0;36m  [0;1;30m ┘            ┘ [0;36m  [0;1;36m [0;36m  [0;37m [0;1;30m     [0;1;37m       [0;1;30m       [0m
 [1;30m                                   [0;36m   [0;1;36m [0;36m   ┐       ▬┐   [0;1;36m [0;36m ┘ [0;1;30m                     [0m
 [1;30m                                    ▬ [0;36m  ┘            ┘  [0;1;30m                        [0m'

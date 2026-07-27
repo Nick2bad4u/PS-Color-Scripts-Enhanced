@@ -5,7 +5,7 @@
 # Source SHA-256: 1fea062cddc36055ab7a91175ca4a6d891dd4737b05f07e5a3bffbd8313d494d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EDRMACD1.ANS by Marshal Law (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -56,7 +56,4 @@ Write-Host '
 [1;30m   [0m▀▀██[1;30;47m▀[0;1;30;40m▄[0m                           ▀▀██[1;30;47m▀[0;1;30;40m▄  [0m▀▀▀[1;30m▀ [0m▀▀[1;30m▀   [0m▀▀[1;30m▀  [0m▀█[1;30;47m▀[0;1;30;40m▄  [0m▀[1;30;47m▀[0m▄[1;30m▄ [0m▀▀▀[1;30m▀[0m
 [1;37m┌──[0;1;31m───────────────────────────────────────────────────────[0;1;37mM[0;1;31marshal [0;1;37mL[0;1;31maw <[0;1;37mAC[0;1;31mi[0;1;37mD[0;1;31m>──┐[0m
 [1;37m|[0m                        [1;33mE L E C T R I C   D R E A M S[0m                        [1;31m|[0m
-[1;31m [0m                            [1;37m     [0m            [1m [0m                               [1;31m [0m
-[31m [0m                              [1;37m [0m  [1m [0m   [1m [0m   [1m [0m                                   [1;31m [0m
-            [1;33m6    1    2    -    4    4    7    -    3    1    3    6[0m
-[31m·[0m                                                                             [1;31m·[0m'
+[1;31m[0m[1;37m[0m[1m[0m[1;31m[0m[31m[0m[1;37m[0m[1m[0m[1m[0m[1m[0m[1;31m[0m[1;33m[0m[31m·[0m                                                                             [1;31m·[0m'

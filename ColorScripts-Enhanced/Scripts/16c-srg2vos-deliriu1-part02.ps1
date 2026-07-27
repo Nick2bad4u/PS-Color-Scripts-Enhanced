@@ -5,7 +5,7 @@
 # Source SHA-256: db2f6c5d3cf18d19334e8014024e36164631fd5d8b9844c17aa4b61783cd75a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DELIRIU1.ANS by delirium (fbk.sargahd^vos); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mobser
 # SAUCE Author: delirium
 # SAUCE Group: fbk.sargahd^vos
@@ -33,8 +33,6 @@ Write-Host '
 [35md3?[0m   [35m∙[0m          [35m!''$aa,,...  ,!²  `²²''  ,g$$$    _.,aa$$,_    _,d$$,g@$''  $ga a [0m
 [35m                [0m   [35m`,,   `    ''        ''[0m   [35m`² ''[0m       [35m`!`  `    [0m    [35m``'',  `''[0m
 [1;32m             [0m              [35m  [0m     [35m               [0m   [35m   .[0m       [35m∙[0m           [35m     [0m
-        [1;34m [0m                     [1;35m [0;35m         [0;1;35m [0;35m        [0;1;35m [0m
-                  [35m [0;1;35m [0;35m                                        [0;1;35m [0m
-
+[1;34m[0m[1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0m[35m[0;1;35m[0;35m[0;1;35m[0m
 
 [1;30m8<------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d14973bdc2f3b7d1a8f30391e477f700a070f3b91ef68716f3f37fd1f11fb52a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-HW.ICE by Tempus Thales (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-97
 # Columns: 1-80
 
@@ -50,7 +50,7 @@ Write-Host '
 [34m▄▄▄▄ [0;1;37m████ ▄█   █████ [0;34m▄▄ [0;1;37m███ [0;34m▄ [0;1;37m███ [0;34m▄▄ [0;1;37m▐████▌ [0;34m▄ [0;1;37m██[0m     [1;37m▄██▌ [0;34m▄ [0;1;37m███    ▄████ [0;34m▄▄▄▄▄▄[0m
      [1;37m█████▀ ▀▄███▀▀    ▄███  ▄███    ██████  ▄███▄▄████▀    ███▄▄▄███▀▀[0m
                                    [1;37m▄██████▌[0m
-[1;30m┌─── H[0ma[1mrdWired [0;1;31m- [0;1;37m4o4[0;1;31m.[0;1;37m452[0;1;31m.[0;1;37m7[0m38[1;30m7    [0;1;37m▀▀▀▀▀▀▀▀▀   [0;1;30mAbstract mental image: TT ───────┐[0m
+[1;30m┌───  [0m [1m        [0;1;31m  [0;1;37m   [0;1;31m [0;1;37m   [0;1;31m [0;1;37m [0m  [1;30m     [0;1;37m▀▀▀▀▀▀▀▀▀   [0;1;30m                          ───────┐[0m
 [1;30m│     [0m [1m    [0;1;31m  [0;1;37m                     [0m  [1;30m  [0m        [1;30m                       [0m         [1;30m│[0m
 [1;30m│[0m                                                                             [1;30m│[0m
 [1;30m│    [0m  [1m                 [0;1;31m  [0;1;37m                         [0;1;31m  [0;1;37m                   [0m  [1;30m    │[0m

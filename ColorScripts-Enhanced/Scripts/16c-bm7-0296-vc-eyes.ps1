@@ -5,7 +5,7 @@
 # Source SHA-256: 043e75d776076ca52c0f44afc45cfe03147b3bb0114d0688e9ccd05c95d13b8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC-EYES.ANS by VOiCE (BLACK MAiDEN); released in bm7-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Eye of BlackMaiden
 # SAUCE Author: VOiCE
 # SAUCE Group: BLACK MAiDEN
@@ -37,8 +37,4 @@ Write-Host '
 vc!bm_
 
 [1;30m-[0m½[1;30m----------------------------------------------------------------------------[0m¼[1;30m-[0m
-[1;30m              [0m
-[1;30m                                                                     [0m
-[1;30m                                                                          [0m
-[1;30m                [0m
-[33m-[0;1;31m¼[0;33m----------------------------------------------------------------------------[0;1;31m½[0;33m-[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[33m-[0;1;31m¼[0;33m----------------------------------------------------------------------------[0;1;31m½[0;33m-[0m'

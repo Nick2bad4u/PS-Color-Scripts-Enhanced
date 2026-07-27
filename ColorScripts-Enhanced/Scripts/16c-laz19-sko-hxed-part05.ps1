@@ -5,7 +5,7 @@
 # Source SHA-256: 87d4b752174de7f2ef25fc4ff7f5b46575e639a58c05e9f605162e4fefc3c11d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKO-HXED.ANS by Surak Khoteth (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hexed BBS Promo
 # SAUCE Author: Surak Khoteth
 # SAUCE Group: Lazarus
@@ -40,10 +40,8 @@ Write-Host '
                  [1;30m▀▀▀[0m                                    [1;30m▀  ▀▀▀▓▓▀[0m
                  [1;30m▀▓▓▓▓▓▓[0m░░[1;30m▓[0m░[1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▓▓[0m
 
-                                     [1m   [0m    
-
-                                  [1m   [0m        [1m [0m   [1m [0m     
-
+[1m[0m
+[1m[0m[1m[0m[1m[0m
 ───[1;30m─[0m─[1;30m──  [0m──    [1;30m──── ────── ───────────────────────[0m─[1;30m─── ── ─ ─ ─── ──────  ─────[0m
                         [1mA N S i:  [0mS U R A K   K H [1m0 [0mT [1m3 [0mT H
                     ([1mc[0m) L [1m4 [0mZ [1m░░  [0mM C M X C V [1mi - [0mM M X X [1mi [0mV

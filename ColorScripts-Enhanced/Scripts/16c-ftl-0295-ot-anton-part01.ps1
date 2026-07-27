@@ -5,7 +5,7 @@
 # Source SHA-256: 50922c0e70a6d01060fd0f9b630ad6e25630d6bf5aa529ad65e24af7e91ef8f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OT-ANTON.ANS by Omot (ftl-0295); released in ftl-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -25,7 +25,7 @@ Write-Host '
 [36;40m█▓███▄ ███████████████████▓█ █░██████████████ ▄▓███▄ █▄█▄▄█▀▀ ▄█ dreadno''t  ███[0m
 [36;40m██████▄ ▀███████▓███████▀█▀▄█▄▄██████████▓███ █▀▀█▀█▄▄▄▄▄▄▄▄██▀█ maharet[0m [36;40m   █▓█[0m
 [36;40m█▓██████▄ ▀▀▄██▀▒██▄█▄▄▀▀ ▄▄▄▄ ▀▀▀▀▄▄▀███▒██ ▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▓█[0m
-[36;40m█▒█████████▄▄ ▀▀▀▀▀ ▄▄▄▄█████████▓▄▄ ▀▀▄█░▄▀ █▓ in''r-to0b: 614/777/4879     █▒█[0m
+[36;40m█▒█████████▄▄ ▀▀▀▀▀ ▄▄▄▄█████████▓▄▄ ▀▀▄█░▄▀ █▓                             █▒█[0m
 [36;40m█░███████████████████████████████▒████▄ ▀▄▀ ██▒ nup: foundation  <omot>     █░█[0m
 [36;40m█▄▄█▄████▄█████████████▄█████████░██████[0m   [36;40m███░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄█[0m
 [36;40m-------------------------------------------------------------------------------[0m

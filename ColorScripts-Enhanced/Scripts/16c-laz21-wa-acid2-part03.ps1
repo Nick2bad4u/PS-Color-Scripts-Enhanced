@@ -5,7 +5,7 @@
 # Source SHA-256: cf7606b63357979cd36f8fa983ddbb64ebacb50b0efaa78303be12eef74f97e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-acid2.ans by warpus (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Echsen fC<r Acid
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -51,9 +51,7 @@ Write-Host '
 [1;30m              [0;1;33m▲[0m [1m [0m [1;36m [0m [1;32m [0;33m  [0;36m            [0;37m    [0;1;30m                               [0m
 
 
-                            [1;30m   [0m  [1;30m             [0m [1;30m  [0m 
+[1;30m[0m[1;30m[0m[1;30m[0m
 
 
-
-                    [1;30m                                            [0m
-                                      [30;47m█[0m'
+[1;30m[0m                                      [30;47m█[0m'

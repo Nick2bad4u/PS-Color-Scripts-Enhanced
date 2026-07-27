@@ -5,7 +5,7 @@
 # Source SHA-256: 236c21a555c70fb41f4347fc92dd027ca58c333d9cf9b8dead28b83eb12fde6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PF-TFACE.ANS by Pfezzyo (Stile); released in stl-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Face Of Pfezzyo
 # SAUCE Author: Pfezzyo
 # SAUCE Group: Stile
@@ -50,16 +50,7 @@ Write-Host '
 ████████████████████████[30;47mSTiLE - THE CREATiVE TEAM 1994![0;37;40m█████████████████████████[0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30;40m  [0m [1m  [0m [1;30m       [0m [31m      [0m                [1;30m [0m  [1m     [0m  [1;30m  [0m [1;30m      [0m [31m      [0;37m [0;31m  [0m
-                                                       [37m [0;31m       [0;37m [0;31m     [0m
-[31m [0;1;30m [0m [1m    [0m [1;30m     [0m [31m     [0;37m [0;31m    [0m                               [37m [0;31m      [0;37m [0;31m    [0m
-                                                       [37m [0;31m         [0m
-[31m [0;1;30m [0m [1m [0m [1;30m        [0m [31m   [0;37m [0;31m      [0;37m [0;31m    [0m                          [37m [0;31m         [0m
-
-[31m [0;1;30m [0m [1m  [0m [1;30m       [0m [31m        [0;37m [0;31m    [0;37m [0;31m  [0m      [1;30m [0m [1m   [0m [1;30m   [0m [1m   [0m [1;30m     [0m [31m     [0;37m [0;31m       [0;37m [0;31m  [0;37m [0;31m   [0m
-             [37m [0;31m   [0;37m [0;31m        [0;37m [0;31m  [0m                           [37m [0;31m    [0;37m [0;31m   [0;37m [0;31m   [0m
-             [37m [0;31m   [0;37m [0;31m     [0;37m [0;31m      [0;37m [0;31m  [0m                      [37m [0;31m    [0;37m [0;31m       [0;37m [0;31m  [0;37m [0;31m   [0m
-             [37m [0;31m    [0;37m [0;31m   [0m                                  [37m [0;31m    [0;37m [0;31m   [0;37m [0;31m   [0m
-             [37m [0;31m    [0;37m [0;31m  [0;37m [0;31m      [0m
-[1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+[37m[0;31m[0;37m[0;31m[0m[31m[0;1;30m[0m[1m[0m[1;30m[0m[31m[0;37m[0;31m[0m[37m[0;31m[0;37m[0;31m[0m[37m[0;31m[0m[31m[0;1;30m[0m[1m[0m[1;30m[0m[31m[0;37m[0;31m[0;37m[0;31m[0m[37m[0;31m[0m
+[31m[0;1;30m[0m[1m[0m[1;30m[0m[31m[0;37m[0;31m[0;37m[0;31m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[31m[0;37m[0;31m[0;37m[0;31m[0;37m[0;31m[0m[37m[0;31m[0;37m[0;31m[0;37m[0;31m[0m[37m[0;31m[0;37m[0;31m[0;37m[0;31m[0m[37m[0;31m[0;37m[0;31m[0;37m[0;31m[0;37m[0;31m[0m[37m[0;31m[0;37m[0;31m[0;37m[0;31m[0;37m[0;31m[0m[37m[0;31m[0;37m[0;31m[0m[37m[0;31m[0;37m[0;31m[0;37m[0;31m[0m[37m[0;31m[0;37m[0;31m[0;37m[0;31m[0m[1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 ███████[30;47m                                                                [0;37;40m████████[0;37;47m [0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

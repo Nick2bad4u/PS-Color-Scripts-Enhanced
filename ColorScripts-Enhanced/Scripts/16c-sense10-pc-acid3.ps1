@@ -5,7 +5,7 @@
 # Source SHA-256: fe59896642993aa5eea0aa83c3d945fbe8c1634955e5286a459da92304ec73d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-ACID3.ANS by Proctothingy (SeNSE); released in sense10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: poot!
 # SAUCE Author: Proctothingy
 # SAUCE Group: SeNSE
@@ -40,7 +40,5 @@ Write-Host '
 [1;35m╙╜ⁿ°`[0;1;31m_.[0m                                                              [1;31m.[0m [35md$$$$$[0;30;45m$[0;1;35;40m$$[0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30m                                                                           [0m
-[1;30m                             [0m
-                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
+[1;30m[0m[1;30m[0m                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

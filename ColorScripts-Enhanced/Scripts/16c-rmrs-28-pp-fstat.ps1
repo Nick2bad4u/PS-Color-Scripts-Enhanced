@@ -5,7 +5,7 @@
 # Source SHA-256: 141c7ad0a817513f8cdb2ab7beb705062aaa49c47cd12734053bf9585d733c86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pp-fstat.ans by Pixel Pusher (Remorse Ascii); released in rmrs-28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: BBS Stat Screen
 # SAUCE Author: Pixel Pusher
 # SAUCE Group: Remorse Ascii
@@ -36,13 +36,10 @@ Write-Host '
   [1;30m|S$[0;34m`SS"[0;31m,sS$$S"''[0;1;37m,sss$"""[0;31m,sS$$ⁿ"[0;1;37m,sss$S"""[0m
   [1;30m;$$[0m [31m,`"''[0;37m,ss[0;1;37mss$""[0m [31m,s$ⁿⁿ""[0;1;37m,s$$"""''[0m      [1m   [0m   [1m-/-  [0;1;30mStats[0;1;37m  -/-[0m
   [1;30m    [0m░  [31m           [0;1;37m        [0m
-  [1;30m     [0;31m   [0;1;37m           [0m   [1m  [0m   [1;30m           [0;1;37m [0m
-   [1;30m|$S; [0m`[1m"[0m                [1m  [0m   [1;30m     Date[0;1;37m:[0m
+[1;30m[0;31m[0;1;37m[0m[1m[0m[1;30m[0;1;37m[0m   [1;30m|$S; [0m`[1m"[0m                [1m  [0m   [1;30m     Date[0;1;37m:[0m
    [1;30m:$$'' [0m                   [1m  [0;1;30m       Time[0;1;37m:[0m
    [1;30m.$|  [0m                   [1m  [0m   [1;30m Top D/L[0;1;37m:[0m
-    [1;30m    [0m                [1m [0m  [1m  [0m   [1;30m        [0;1;37m [0m
-    [1;30m    [0m                   [1m  [0m   [1;30m        [0;1;37m [0m
-    [1;30m|:  [0m
+[1;30m[0m[1m[0m[1m[0m[1;30m[0;1;37m[0m[1;30m[0m[1m[0m[1;30m[0;1;37m[0m    [1;30m|:  [0m
     [1;30m:.  [0m
     [1;30m.[0m [1;30m [0m
 

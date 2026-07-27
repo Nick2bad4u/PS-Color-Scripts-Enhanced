@@ -5,7 +5,7 @@
 # Source SHA-256: 7938517ba61d7bcbf0f6a2391d344198dc077ce3b854d8c55bc173f50408b89d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-FILES.ANS by eEK, dA mINDfUCK!! (RioT); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 'leet filemenu?
 # SAUCE Author: eEK, dA mINDfUCK!!
 # SAUCE Group: RioT
@@ -16,13 +16,9 @@
 
 Write-Host '
 
-                              [1;33m          [0m
-                       [1;30m     [0;1;33m              [0;1;30m                [0m
-                      [1;30m     [0;33m [0;1;33m    [0;31m [0;1;33m    [0;31m■ [0;1;33m     [0;1;37m [0;1;36m  [0;36m [0;1;37m [0;1;36m  [0;36m  [0;1;37m [0;1;36m  [0;1;30m   [0m
+[1;33m[0m[1;30m[0;1;33m[0;1;30m[0m                      [1;30m     [0;33m [0;1;33m    [0;31m [0;1;33m    [0;31m■ [0;1;33m     [0;1;37m [0;1;36m  [0;36m [0;1;37m [0;1;36m  [0;36m  [0;1;37m [0;1;36m  [0;1;30m   [0m
                       [1;30m`$''  [0;33mⁿ$[0;1;33m$$$$$$$$$$$$$ⁿ [0;1;37md[0;1;36mA [0;1;37mh[0;1;36mAUS![0;36m!   [0;1;30m`$''[0m
-                       [1;30m     [0;33m   [0;1;33m   [0;1;37m     [0;1;33m   [0;1;30m                [0m
-                              [33m      [0;1;33m    [0m
-
+[1;30m[0;33m[0;1;33m[0;1;37m[0;1;33m[0;1;30m[0m[33m[0;1;33m[0m
                                          [36m.sS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Ss.[0m
                                          [36m$$$$$$$$$$Sⁿ"""ⁿS$$$$$$$$$$$$$$$$$$$$$[0m
 [36m [0;32mi[0;1;32mi[0;32mn[0;1;32mn[0;32ms[0;1;32ms[0;32mi[0;1;32mi[0;32mt[0;1;32mt[0;32mo[0;1;32mo[0;32ml[0;1;32ml[0m                          [36m$$$$$$$$$''[0;1;30m.sS$$ [0;36m$$$$$$$$$$$$$$$$ⁿ""ⁿ$$[0m

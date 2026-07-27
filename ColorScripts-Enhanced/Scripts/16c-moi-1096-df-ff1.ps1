@@ -5,7 +5,7 @@
 # Source SHA-256: 526f7009917bba19271c7f4834d226f44d70ce41845ff6a22ff2d70abf3d231c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DF-FF1.ANS by Dark Force (moi-1096); released in moi-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -46,8 +46,4 @@ Write-Host '
 
                               [1;35mf    ì    n    a    l[0m
 
-                      [1;35mf[0m     [1;35ma[0m     [1;35mn[0m     [1;35mt[0m     [1;35ma[0m     [1;35ms[0m      [1;35my[0m
-
-             [1;34m                                                       [0m
-
-                     [1;34m2   o   9    4   9   2   0   7   7   6[0m'
+                      [1;35mf[0m     [1;35ma[0m     [1;35mn[0m     [1;35mt[0m     [1;35ma[0m     [1;35ms[0m      [1;35my[0m'

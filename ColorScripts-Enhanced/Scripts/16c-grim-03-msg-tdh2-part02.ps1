@@ -5,7 +5,7 @@
 # Source SHA-256: b3787e843df75fcefa07b9c0f7f6a2b904260fde79a32622a9c014fa9627369c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MSG-TDH2.ANS by Manslaughter (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -53,7 +53,7 @@ Write-Host '
 
 
                          [31m┌────[0;1;33m─────[0;1;37m────────────[0;1;33m────[0;31m───┐[0m
-                         [31m│[0;1;33mTHE [0;31mDAR[0;1;37mK HA[0;1;33mLF   [0;1;37m5[0;31m10-[0;1;33m658[0;31m-274[0;1;37m6[0;31m│[0m
+                         [31m│[0;1;33m    [0;31m   [0;1;37m    [0;1;33m     [0;1;37m [0;31m   [0;1;33m   [0;31m    [0;1;37m [0;31m│[0m
                          [1;33m│    [0;31m     [0;1;37m   [0;1;33m   [0;1;37m   [0;31m   [0;1;33m       │[0m
                          [1;37m│[0m      [31m   [0;1;37m     [0;1;33m  [0;1;37m   [0;31m   [0m      [1;37m│[0m
                          [1;33m│       [0;31m   [0;1;37m    [0;1;33m   [0;1;37m   [0;31m   [0;1;33m     │[0m

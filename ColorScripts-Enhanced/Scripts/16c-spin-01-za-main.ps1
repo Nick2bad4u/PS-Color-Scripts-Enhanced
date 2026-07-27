@@ -5,7 +5,7 @@
 # Source SHA-256: de3aea287675497332970793d788e3844381818b2e2dd2288792a5b1d6e90b83
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (ZA)MAIN.ANS by ZALZA (SPIN); released in spin-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: ZALZA
 # SAUCE Group: SPIN
 # SAUCE Date: 19980719
@@ -25,16 +25,13 @@ Write-Host '
 [1;30m  .i:I:I¼$$¼½öp±=-[0m       ~                     ~        ~       [1;30m-=±pöS½$[[0;1;32mza[0;1;30m]i½.[0m
 [1;30mi~°^''[0m                        [1;30;47ma[0m .  c .  i .  d   [1;30m░[0m        [31m__[0;32m~^ -÷¬i¼[0;1;32mp[0;32m=-  ^~[0;31m__   [0;1;30m░[0m
 [1;30m^[0m     [1;30m░░[0m                                             [31m_.s[0;1;31mi[0;31m|$io,._ [0;32m^~ [0;31m_.,oi$|[0;1;31mi[0;31ms._[0m
-[1;30m [0m                                                  [1;30m  [0;31m    [0;1;37m [0m [1;30m [0;31m    [0;1;30m    [0;31m    [0;1;30m [0m [1m [0;31m    [0m
-[31m  [0;1;30m [0m [1;30m  [0;36;47m [0;36;40m         [0m        [1;30;40m [0m [1;30m  [0;36m        [0m              [1;30m     [0;31m      [0;1;30m          [0;31m     [0;1;30m   [0m
+[1;30m[0m[1;30m[0;31m[0;1;37m[0m[1;30m[0;31m[0;1;30m[0;31m[0;1;30m[0m[1m[0;31m[0m[31m  [0;1;30m [0m [1;30m  [0;36;47m [0;36;40m         [0m        [1;30;40m [0m [1;30m  [0;36m        [0m              [1;30m     [0;31m      [0;1;30m          [0;31m     [0;1;30m   [0m
 [1;30m   [0m [1;30m  [0;36m          [0m        [1;30m [0m [1;30m  [0;36m       [0m                 [1;30m  ▓                      ▓ [0m
 [1;30m   [0m [1;30m  [0;36m      [0m            [1;30m [0m [1;30m  [0;36m  [0;36;47m [0;36;40m    [0m             [1;30;40m                               [0m
 [1;30m   [0m [1;30m  [0;36m        [0m          [1;30m [0m [1;30m  [0;36m            [0m        [1;30m░[0m        [33m   [0;1;30m              [0;33m [0m
                                                       [33m.s$|$io,._    _.,oi$|$s. [0;1;30m.[0m
-[1;30m   [0m [1;30m  [0;36m          [0m        [1;30m [0m [1;30m  [0;36m           [0m              [33m    [0;31m  [0;37m   [0m       [37m   [0;31m  [0;33m    [0m
-[1;30m   [0m [1;30m  [0;36m         [0m         [1;30m [0m [1;30m  [0;36m          [0m     [1;30m░░[0m        [33m  [0;1;30m [0m   [1m [0m           [1m [0m   [1;30m  [0;33m [0m
+[1;30m[0m[1;30m[0;36m[0m[1;30m[0m[1;30m[0;36m[0m[33m[0;31m[0;37m[0m[37m[0;31m[0;33m[0m[1;30m   [0m [1;30m  [0;36m         [0m         [1;30m [0m [1;30m  [0;36m          [0m     [1;30m░░[0m        [33m  [0;1;30m [0m   [1m [0m           [1m [0m   [1;30m  [0;33m [0m
 [33m  [0;1;30m [0m [1;30m  [0;36m   [0;36;47m [0;36;40m         [0m     [1;30;40m [0m [1;30m  [0;36m          [0m               [33m  [0;1;30m [0m                   [1;30m  [0;33m  [0;1;30m [0m
-[1;30m   [0m [1;30m  [0;36m             [0m     [1;30m [0m [1;30m  [0;36m           [0m         [1;30m     [0;33m  [0;1;30m    [0;1;37m [0m     [31m     [0;37m [0;1;37m    [0;1;30m  [0;33m [0m
-[1;30m   [0m [1;30m  [0;36m        [0m          [1;30m [0m [1;30m  [0;36;47m [0;36;40m             [0m         [1;30;40m  [0;33m    [0;31m  [0;37m   [0;31m       [0;37m   [0;31m  [0;33m    [0m
+[1;30m[0m[1;30m[0;36m[0m[1;30m[0m[1;30m[0;36m[0m[1;30m[0;33m[0;1;30m[0;1;37m[0m[31m[0;37m[0;1;37m[0;1;30m[0;33m[0m[1;30m   [0m [1;30m  [0;36m        [0m          [1;30m [0m [1;30m  [0;36;47m [0;36;40m             [0m         [1;30;40m  [0;33m    [0;31m  [0;37m   [0;31m       [0;37m   [0;31m  [0;33m    [0m
 [1;30mi_[0m  [1;30m [0m                     [1;30m_[0m                    [1;30m_i  ░ [0;33m`°ⁿS|$iÅ■*[0;31m^~ ~^[0;33m*■Åi$|Sⁿ°'' [0;1;30m░[0m
                                                    [1;30m~[0m     [33m^~[0m             [33m~^[0m     [1;30m^[0m'

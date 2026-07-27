@@ -5,7 +5,7 @@
 # Source SHA-256: 65e1672affdd7647b15f3e8a3ed7a32d3e9898496bf36f9612c2f671b7f12e8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KX-ANGEL.ANS by Kxmode (rmrs-08); released in rmrs-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 97-145
 # Columns: 1-80
 
@@ -51,8 +51,7 @@ Write-Host '
 [34m!!!!!!~~!<!!![0;1;34m!~~~~~~~~~ :~[0;34m~[0;1;34m                ``~~~~[0;33m [0;1;33me[0;33m$$$$$$$$$8$$[0;1;33mX$[0;33m$$$$$$$$$$$$M[0m
 [34m!!!!<!~~<<[0;1;34m!!!~~~~~~<~~~:~''~[0;34m~~~~~:[0;1;34m             ~  [0;1;33m.[0;33m#$$$$$$$$5$$$M[0;1;33mM[0;33m$$R$$$$$$$$BM[0m
 [34m!!![0;1;30m:~~~~~~~~~~~~~~~~~~~~~` ~    ~~~[0m:[34m<:   [0;1;34m  [0;1;37m      [0;1;33me[0;33m$$$$$$$$$$$$$B![0;1;33m$[0;33m$B$$$$$$$$$@[0m
-[34m   [0;1;30m [0;1;37m   [0m     [1m   [0m                 [1m   [0m [34m     [0;1;34m  [0;1;37m [0;33m    [0;1;33m [0;33m                [0;1;33m  [0;33m           [0m
-[34m~~~[0;1;30m:[0;1;37m    [0m  father forgive me  [1m      [0m:[34m~~~~>[0;1;34m  [0;1;37m [0;33m   [0;1;33m<[0;33m$$$$$$$$$$$$$$$MX![0;1;33m$[0;33m$$$$$$$$$$M[0m
+[34m[0;1;30m[0;1;37m[0m[1m[0m[1m[0m[34m[0;1;34m[0;1;37m[0;33m[0;1;33m[0;33m[0;1;33m[0;33m[0m[34m~~~[0;1;30m:[0;1;37m    [0m  father forgive me  [1m      [0m:[34m~~~~>[0;1;34m  [0;1;37m [0;33m   [0;1;33m<[0;33m$$$$$$$$$$$$$$$MX![0;1;33m$[0;33m$$$$$$$$$$M[0m
 [34m~~~[0;1;30m:[0;1;37m    [0mfor i am about to sin[1m.     [0m:[1;34m~~~[0;34m~: ::[0;33m  [0;1;33m:[0;33m@$$8$$$$$9R$$$$RM!![0;1;33m$$[0;33mM$$$$$$$MM[0m
 [34m~~~[0;1;30m:[0;1;37m    [0m               [1m            [0m:[1;34m~[0;34m~~~ ` ~[0;33m [0;1;33m~[0;33mW$$$$$$$$$$9$$$$MM!!![0;1;33m$[0;33mX$$$$$$$8M[0m
 [34m~~~[0;1;30m:[0;1;37m    [0m love and strength[1m.        [0m:[34m ~ :[0;1;34m''  [0m [33m [0;1;33m)[0;33m$R@$$$$$$R$$$$$$MM!!![0;1;33mR[0;33mK$$$$$$$MX[0m

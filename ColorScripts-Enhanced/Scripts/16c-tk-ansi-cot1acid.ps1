@@ -5,7 +5,7 @@
 # Source SHA-256: 8a60edc22ae1fa6514243332dc39e79a4c1f2996103d861b159724d8303c1654
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: COT1ACID.ANS by Tank (ACiD Productions); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Chamber of Torture BBS Ad
 # SAUCE Author: Tank
 # SAUCE Group: ACiD Productions
@@ -18,7 +18,7 @@
 Write-Host '
            [1m▄▄▄[0;1;47m▓▓▓▓[0;1;40m▄▄▄[0m     [1;40m▀[0;1;47m▄[0;1;30;47m▀▄▀[0;1;30;40m▄▀▄▀▓▓▒▒░░ ░  ░    ░    ░  ░ ░░▒▒▓▓▀▄▀▄[0;1;30;47m▀▄▀[0;1;37;47m▄[0;1;37;40m▀[0m
 [1;37;40m T[0mHE... [1m▄[0;1;47m▀▀░▒▒▒▒▒▓▓▓▓▓▓[0;1;40m▄    ▀[0;1;47m▄[0;1;30;47m▀▄▀[0;1;30;40m▄▀[0;1;30;47m▓[0;1;30;40m▒[0;1;33;40mS[0;1;32;40mys[0;32mOp: [0;1;33mC[0;1;32mam[0;32mber [0;1;32m<ACiD> [0;1;33mM[0;1;32mem[0;32mber[0;1;30m▒[0;1;30;47m▓[0;1;30;40m▀▄[0;1;30;47m▀▄▀[0;1;37;47m▄[0;1;37;40m▀[0m
-      [1;37;40m▄[0;1;37;47m▀[0m████[1;47m░░░░▒▒▒▒▓▓▓▓▓[0;1;40m▄    ▀[0;1;47m▄[0;1;30;47m▀▄▀▒[0;1;30;40m░[0;1;33;40mN[0;1;32;40mum[0;32mber: ([0;1;35m2[0;35m1[0;1;35m6[0;32m)[0;1;35m8[0;35m3[0;1;35m1[0;32m-[0;1;35m6[0;35m58[0;1;35m4[0m      [1;30m░[0;1;30;47m▒▀▄▀[0;1;37;47m▄[0;1;37;40m▀[0m
+      [1;37;40m▄[0;1;37;47m▀[0m████[1;47m░░░░▒▒▒▒▓▓▓▓▓[0;1;40m▄    ▀[0;1;47m▄[0;1;30;47m▀▄▀▒[0;1;30;40m░[0;1;33;40m [0;1;32;40m  [0;32m      [0;1;35m [0;35m [0;1;35m [0;32m [0;1;35m [0;35m [0;1;35m [0;32m [0;1;35m [0;35m  [0;1;35m [0m      [1;30m░[0;1;30;47m▒▀▄▀[0;1;37;47m▄[0;1;37;40m▀[0m
      [1;37;40m█[0;1;30;47m░░░░░░[0m████[1;47m░░░▒▒▒▒▓▓▓[0m      [1;40m▀[0;1;47m▄[0;1;30;47m▀[0;1;37;47m░[0;1;30;40m░[0;1;33;40mR[0;1;32;40munn[0;32ming: <[0;1;33mU[0;1;32mndec[0;32mided> & <[0;1;33mN[0;1;32mE[0;32mT>[0;1;37;47m░[0;1;30;47m▀[0;1;37;47m▄[0;1;37;40m▀[0m
      [1;37;47m▓▄[0;1;30;47m▒▒▒▒▒░░░[0m███[1;47m░░░░▒▒▒▒[0m        [1;40m▀[0;1;47m▒[0m [1;33;40mx[0;1;32;40mx[0;32mx [0;1;33mM[0;1;32meg[0;32ms/[0;1;33mM[0;1;32mod[0;32mem [0;1;33mS[0;1;32mpe[0;32med/[0;1;33mS[0;1;32mit[0;32mes  [0;1;37;47m▒[0;1;37;40m▀[0m
      [1;37;40m▐[0;1;37;47m▓▄[0;1;30;47m▓▓▓[0m▀[1;30m▀▀    [0m▀▀▀[1;47m░░▒▒▒▀[0;1;40m▄[0m        [1;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

@@ -5,13 +5,12 @@
 # Source SHA-256: 8cdba5bc24f6e01ee840d1189a75d9664e04c32bdef5ac59574348a18b1ed0ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ko-thurs.ans by Konami (mimic42); released in mimic42 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-[1;30m       [0m    [31m  [0;1;31m  [0;31m   [0;1;31m  [0;31m  [0m     [34m               [0m       [34m [0m          [1;30m   [0m  [1;30m         [0m   
-        [31m,d `$[0;1;31mll[0;31m` $[0;1;31ml[0;31m$7`b[0m   [34mll`  l[0m                  [34m`- /[0m        [1;30ml[0ml[1;30m `7$7` $$  `7[0m
+[1;30m[0m[31m[0;1;31m[0;31m[0;1;31m[0;31m[0m[34m[0m[34m[0m[1;30m[0m[1;30m[0m        [31m,d `$[0;1;31mll[0;31m` $[0;1;31ml[0;31m$7`b[0m   [34mll`  l[0m                  [34m`- /[0m        [1;30ml[0ml[1;30m `7$7` $$  `7[0m
        [31md[0;1;31m$$[0;31mb $$$$$$7`,d$[0;1;31ml[0;34m ;;[0m    [34m`[0m                     [34m ` [0m      [1;30m;[0ml[1;30m$$⌐,   $$[0m    [1;30m`[0m
 [31m [0;34m;[0m    [31ml$$[0;1;31mll[0;31m$7`  $$ l$$[0;1;31m$[0;31m$$$$$Ss⌐,  ;;⌐⌐,,. [0;1;30m:s⌐,[0m    [31m [0;37mb[0m           [1;30m$ `$[0m;[1;30m7 ;$l [0;1;33mblack[0m
 [31m [0;34m ``[0;31m \s⌐,$$7  .;d$$ss$$$$$$$ \$$; l$$$$$$ll$$[0;1;30m$b [0;31m   [0;37m"²[0m         [1;30m $$$$7  $$  [0;1;33mthurs[0m

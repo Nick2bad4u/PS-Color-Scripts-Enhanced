@@ -5,7 +5,7 @@
 # Source SHA-256: 6d389e8d6662a404e5b3eb11a756ded90c824a9b3cf76a0998ef60b0a8c96ee9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-RAGE.ANS by mea culpa (punc productions); released in punc0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: chaotic rage
 # SAUCE Author: mea culpa
 # SAUCE Group: punc productions
@@ -32,7 +32,6 @@ Write-Host '
     [1;30m`ⁿY$$$$$''[0m   [1;31m`Y[0;1;35m$$''[0;1;30m.$$$$$$bs.[0m   [1;35m    [0;1;31m*d[0;1;35m$ⁿ''[0m [1;30m.d$.[0;1;35mⁿ''[0;1;30ms.[0;1;35m`"''[0;1;30m.s$$''[0m [1;30m`s[0;1;31m`"ⁿ[0;1;35mⁿⁿⁿ"''[0;1;30m.&$''[0m
       [1;30m `$$P[0m          [1;30m$$$$$$$$P''[0m        [1;30mmC![0m  [1;30m$$$$$$$$$$$$$P''[0m   [1;30m`Y$SSSS$$$$''[0m
         [1;30m`T [0m          [1;30m`$$$$$$$b  [0m            [1;30m`Y$$$$$$$$Pⁿ''[0m       [1;30m`"ⁿY$$$P''[0m
-         [1;30m [0m            [1;30m         [0m [1;30m  [0m            [1;30m        [0m         [1;30m [0m   [1;30m    [0m
-         [1;30m:[0m                  [1;30m`ⁿⁿⁿ''[0m               [1;30m`$    [0m         [1;30m`ⁿ*ⁿ"''[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m         [1;30m:[0m                  [1;30m`ⁿⁿⁿ''[0m               [1;30m`$    [0m         [1;30m`ⁿ*ⁿ"''[0m
                                                  [1;30m:[0m
                                                  [1;30mi[0m'

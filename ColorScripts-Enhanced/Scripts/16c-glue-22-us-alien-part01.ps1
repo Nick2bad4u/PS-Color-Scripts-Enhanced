@@ -5,7 +5,7 @@
 # Source SHA-256: 2d58ff63b6375c9164873bdf038f20b802c49562f6e8adbb43114fb6b761e0ee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ALIEN.ANS by Big Yellow Man + Enzo (PFL & GLUE); released in glue-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Alien Funky House
 # SAUCE Author: Multiple Artists
 # SAUCE Group: PFL & GLUE
@@ -22,15 +22,7 @@ Write-Host '
 
 
 
-                             [1;30m                     [0m
-
-
-
-
-
-
-
-            [1;33m░[0m
+[1;30m[0m            [1;33m░[0m
   [1;33m░[0m    [1;33m░░[0m [1;33m░[0m [1;33m▒[0m                [32m░░[0m                                           [1;33m░[0m
  [1;33m░▒░ ░░▒▒░▒░▓[0;1;33;43m▀[0;33m▀[0;37m [0;32m░▓▓▄[0m        [32m▐▓▓▄[0m             [32m░░░░░░[0m                      [1;33m ▒░░ [0m [1;33m░[0m
 [1;33m░▒▓▒░▓▓▓▓▒▓▒[0;1;33;43m▀[0m [32m ▓▓[0;1;32;42m ░░░ [0;32m▄[0m    [32m▄█[0;1;32;42m▒▒▒▒▒[0;32m▄▄▄▄▄[0m    [32m░░▓▓▓[0;1;32;42m░▒▓█[0;1;32;47m▀▀▀[0;1;32;42m█▄[0;1;32;40m▄▄[0;32m▄▄▄ [0m           [1;33m▓▒▒░░▒[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b03fe493ba5ff0fb4da8232af14a0dbdb17880b6c2ad662ff57687b2b7235289
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-SP02.ANS by Cleaner (spleen01); released in spleen01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -55,5 +55,4 @@ Write-Host '
 [35m  [0m     [1;32m`[0m [34m████████████████►[0;30;44m►[0;34;40m► [0;30;44m►[0;34;40m► [0;30;44m►[0;34;40m►   [0;30;44m►[0;34;40m►[0;37;40m [0;1;32;40mAscii by Cleaner[0;32m([0;1;32mSpleen[0;32m)[0;1;32m [0;32m-[0;1;32m Februray 2006[0m
        [1;32m:.... ...[0;32m. ..  . [0;1;32m   [0m
 
-[1;30m         [0m [1;30m      [0m [1;30m [0m [1;30m               [0m               [1;30m    [0m   [1;30m       [0m [1;30m          [0m [1;30m   [0m
-                                  [30m■ A S C i i ■[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m                                  [30m■ A S C i i ■[0m'

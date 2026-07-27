@@ -5,7 +5,7 @@
 # Source SHA-256: bf97c388f7446ce17517f5e90499c9d0487e293eb627e85efecfd1a78e44f242
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MQ-LOGO1.ANS by Moleql (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo stack
 # SAUCE Author: Moleql
 # SAUCE Group: Root
@@ -39,25 +39,6 @@ Write-Host '
 [1;30;40m───---─────-───----───-────────---──-─-───────────────-──--[ endofcolly ]-──-─--[0m
 
 
-[1;30m                                   [0m      [1;30m                                       [0m
-[1;30m                                                                               [0m
-[1;30m                                                                   [0m       [1;30m [0m
-[1;30m                             [0m     [1;30m                                              [0m
-[1;30m                                                                             [0m
-[1;30m                                                                             [0m
-[1;30m        [0m  [1;30m              [0m
-
-[1;30m                      [0m
-[1;30m                                       [0m
-[1;30m                                                            [0m
-[1;30m        [0m  [1;30m [0m [1;30m                                                  [0m
-[1;30m         [0m [1;30m [0m [1;30m                    [0m
-[1;30m      [0m    [1;30m [0m [1;30m                                                                  [0m
-[1;30m         [0m [1;30m [0m [1;30m                      [0m
-[1;30m    [0m     [1;30m  [0m [1;30m                                          [0m
-[1;30m       [0m   [1;30m [0m [1;30m                            [0m
-[1;30m                                                                               [0m
-[1;30m                                                      [0m
-[1;5;31m■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■[0m
-[1;5;31m  [0m                                                                             
-[1;5;31m■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;5;31m■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■[0m
+[1;5;31m[0m[1;5;31m■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■[0m'

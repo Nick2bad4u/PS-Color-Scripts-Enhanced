@@ -5,7 +5,7 @@
 # Source SHA-256: 737c57ad0c43f06bc1980cd638256f7c48bde9e118a0c39ab9566acc9cd0a641
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-TJG.ANS by noize (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the jilted generation
 # SAUCE Author: noize
 # SAUCE Group: black maiden
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m      [0m                     [1m                      [0m
-
+[1m[0m[1m[0m
       [1m▄▄▐██[0;33m▐▄▄▄▄▄[0;1;31m▄▄▄▓█[0m [1m▀▐█████▌█████████▄▄▐███████[0;1;47m▀▀▀▀[0;1;40m▀▀▀▀[0m▀▀    ▀▀[1m▀▀[0m▐[1m████[0m▓[1;30m░[0m
      [1m▓[0;1;47m▀[0;1;40m████[0;33m▐[0;1;33;43m██████▌▀▄[0;1;31;40m█[0;31m▓░[0;1;37m▐███[0;1;37;47m▀▀[0;1;37;40m▌[0m▀▀▀[1m▀▀▀▀▐███▐████▌[0m▀▀[33m [0;37m [0;33m▄▄▄█[0;1;33;43m▄▄▄▄▄▄▄▄▄▄ [0;33m [0;37m▐[0;1;37m█▌▄[0;1;30m▄[0m
      [1m░[0m ▀▀▐[1;47m▀[0;33m▐[0;1;33;43m██[0;1;37;40m██[0;1;33;43m██▌[0;33m▐[0;1;33;43m█[0;1;31;40m▌[0;31m▓[0;1;37m ▐██[0;33m ▄▄[0;1;33m▄▄[0;33m▐[0;1;33;43m▄▄[0;1;33;40m██░[0;33m [0;1;37m███▐███[0;33m  ▄█[0;1;33;43m▄▄▐██████[0;1;37;40m██[0;1;33;43m▌▀▀▀██[0;33m [0;1;30m▓[0;1;37m████[0;1;30m▓[0m

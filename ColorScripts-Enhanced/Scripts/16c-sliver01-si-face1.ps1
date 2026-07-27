@@ -5,7 +5,7 @@
 # Source SHA-256: d72fb5117c7d47dbdea68965b530956f1a0ce99c678c4c90c471031f56e6aa23
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-FACE1.ANS by sadistic intent (sliver); released in sliver01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: a face?
 # SAUCE Author: sadistic intent
 # SAUCE Group: sliver
@@ -24,7 +24,7 @@ Write-Host '
 [1;34;44m▓▓█[0;30;43m░[0;37;43m  [0;30;43m░░[0;1;33;43m░[0;30;44m░[0;30;41m▓▒░░░[0;34;41m [0;30;41m██░ ▒░▒▓▓[0;1;34;44m     [0;30;44m░▒[0;30;41m▓▒░[0;30;43m▒▓▒[0;30;41m ██[0;30;44m░[0;30;43m░░[0;1;33;43m░[0;30;41m▓[0;34;41m█[0;30;44m░[0;30;43m░[0;37;43m [0;1;33;43m░[0;30;44m░[0m     [37;40mC[0;1;30;40mo[0m·S[1;30mysOps[0m: T[1;30moxix[0m
 [1;34;44m▓█▓[0;30;43m░░░░[0;1;33;43m░[0;30;44m░[0;30;41m▓▒░░[0;34;41m [0;30;41m░░░  ░▒▓▓▒[0;1;34;44m     [0;30;44m▓▒░░[0;30;43m▓▀▓[0;30;41m░░▒░[0;30;44m░[0;30;43m░░[0;1;33;43m░[0;30;41m▓[0;34;41m██[0;30;44m░[0;30;43m░░[0;30;44m░░[0m                [37;40mD[0;1;30;40memolisher[0m
 [1;34;44m█▒▓▓[0;30;43m░░░[0;1;33;43m░[0;30;44m░[0;1;34;44m░▒[0;30;41m░░░░▒▒▒▓▓▓▓[0;1;34;44m     [0;30;44m░[0;1;34;44m [0;30;44m▓▒░░[0;1;34;44m  [0;30;41m░▒▒▓▓[0;30;44m░[0;30;43m▒░[0;30;41m▓[0;34;41m██[0;1;34;44m░[0;30;44m░[0;30;43m▒░[0;30;44m░[0m
-[1;34;44m█▓▓▒[0;1;33;43m░[0;30;43m░░▒[0;1;33;43m░[0;30;44m░[0;1;34;44m░░░▒▒▒           [0;30;44m░░░▓▒░[0;1;34;44m [0;30;44m░[0;1;34;44m    [0;30;44m░[0;30;43m▒░▒[0;1;34;44m  ░[0;30;44m░[0;30;43m▓░[0;30;44m░▒[0m       [37;40m(4[0;1;30;40m03[0m)[1;30m [0m4[1;30m59[0m-0[1;30m058[0m
+[1;34;44m█▓▓▒[0;1;33;43m░[0;30;43m░░▒[0;1;33;43m░[0;30;44m░[0;1;34;44m░░░▒▒▒           [0;30;44m░░░▓▒░[0;1;34;44m [0;30;44m░[0;1;34;44m    [0;30;44m░[0;30;43m▒░▒[0;1;34;44m  ░[0;30;44m░[0;30;43m▓░[0;30;44m░▒[0m       [37;40m  [0;1;30;40m  [0m [1;30m [0m [1;30m  [0m  [1;30m   [0m
 [1;30m [0;1;34;44m▒░▒▒[0;1;33;43m░[0;30;43m▒░▒[0;1;33;43m░[0;30;44m░[0;1;34;44m▒▒▒              [0;30;44m░░▓░░░[0;1;34;44m     [0;30;44m░[0;30;43m░▓[0;1;34;44m    [0;30;44m░[0;30;43m▓[0;30;44m░▒▓[0m
 [1;30;40m [0;1;34;44m▓▒▒░░[0;1;33;43m░[0;30;43m▒░░[0;30;44m░[0;1;34;44m▒▒░               [0;30;44m░▒▓▒░░[0;1;34;44m    [0;30;44m░[0;30;43m▒▓[0;1;34;44m   [0;30;44m░░▒▒▓▓[0m
 [37;40m [0;1;34;44m▒▒░░░░[0;1;33;43m░░[0;30;43m▓▒[0;30;44m░[0;1;34;44m░░░░            [0;30;44m░▒▒▓▒░░[0;1;34;44m [0;30;44m░░░[0;30;43m▒▓[0;1;34;44m   [0;30;44m░░▒▒▓[0m        [1;31;41m█[0m           [1;31;41m█[0m

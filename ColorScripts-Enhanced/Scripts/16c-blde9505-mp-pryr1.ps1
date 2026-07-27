@@ -5,7 +5,7 @@
 # Source SHA-256: ec26cb5871a82f1ebbfd8d81ea161b80afeb539da10687127586eec9d144ee40
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MP-PRYR1.ANS by mephitopeles (blade productions); released in blde9505 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: prayer!
 # SAUCE Author: mephitopeles
 # SAUCE Group: blade productions
@@ -55,4 +55,4 @@ Write-Host '
 [1;30;47m▓[0m [33m▓ [0;1;33;43m▓[0m [1;30;43m░[0;33m▐▌[0;1;37m▐[0;1;33;43m▓[0;1;33;40m▌[0;33m▐▌ [0;1;30;43m▒[0m [33m█▄▄▄▄█  ▓[0;1;33m▀[0;1;33;43m▓▒[0;1;30;43m░[0m [1;33;43m▓[0m [43m░[0;33;40m▌[0;1;33;40m▐[0;1;33;43m▓[0;1;37;40m▌[0;33m▐▌ █ [0;1;33;43m▒[0m [33m█    ▄▓  [0;1;33;43m▓[0m [1;30;43m░[0m [33m█▄▄▄▄▓ [0;1;37m`[0;1;33mp[0;1;36mr[0;36ma[0;33my[0;1;30mer!    ▄▓[0m
 [1;30m▄ [0;33m█ [0;1;33m█ [0;33m█▀▄▄[0;1;30m▄[0;33m▄▀[0;1;33m▄ [0;1;30;43m░[0m [33m▄ [0;1;33m▄ [0;33m▄ █ ▒   [0;33;47m▒[0m [1;33;43m█[0m [43m▒[0;33;40m▀▄▄▄█[0;1;30;43m▀[0;33m▄█ [0;1;33;43m▓[0m [33;47m▓[0m  [1;30;43m▀[0;33m▀▀▀[0;1;30;43m▒[0m [1;33;40m█ [0;33m█[0m        [1;30mansi mp∙blde █[0m
 [1;30m▓ [0;33m█ [0;1;37m▀ [0;1;30;43m░[0m [1;30;40m▄▄ [0;33m▄ [0;1;37m▀ [0;1;37;43m [0m [1;30;43m░[0m [1;37;40m▀ [0;30;43m░[0m [33;40m█ ░[0;37;40m░▓[0;37;43m▄[0;33;47m▓[0m [1;37;40m▀ [0;33;47m▓[0m  [33;40m▄[0;1;33;40m▄[0;33m▄  [0;1;30;43m▀[0m [1;37;40m▀ [0;33m▓  [0;1;33;43m░[0m [1;37;40m▀ [0;1;30;43m▓[0m [1;37;40m▀ [0;1;30;43m░[0m [1;30;40m▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;30;47m▓[0;1;30;40m▄▄▓[0m
-[1;30;40m  [0;33m▀[0;1;30m▀[0;33m▀▀▀    ▀[0;37m▀[0;1;30m▀[0;33m▀▀ ▀▀▀[0;1;30m▀[0;33m▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;33m▀  ▀▀▀▀ ▀▀▀▀▀[0;1;30m▀[0;33m▀▀[0;1;30m▀[0;33m▀[0;1;30m▀▀▀[0;33m▀▀▀  [0;1;30m908-390-1480[0m'
+[1;30;40m  [0;33m▀[0;1;30m▀[0;33m▀▀▀    ▀[0;37m▀[0;1;30m▀[0;33m▀▀ ▀▀▀[0;1;30m▀[0;33m▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;33m▀  ▀▀▀▀ ▀▀▀▀▀[0;1;30m▀[0;33m▀▀[0;1;30m▀[0;33m▀[0;1;30m▀▀▀[0;33m▀▀▀  [0;1;30m            [0m'

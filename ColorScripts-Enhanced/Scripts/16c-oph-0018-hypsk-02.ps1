@@ -5,7 +5,7 @@
 # Source SHA-256: 839c74aad94bbf63510fa45ac3c2d5d3a68a1bbaf1f6f3ef3d57129bc7d270fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HYPSK-02.ANS by hypocrite sickness (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 00                _[       \[]
 # SAUCE Author: hypocrite sickness
 # SAUCE Date: 19960917
@@ -51,7 +51,5 @@ Write-Host '
                 [36;40m█[0;30;46m░[0;36;40m██[0;37;40m  [0;1;30;40m░▒▓▓▒░[0m [36m█[0;30;46m░[0;36;40m██[0;30;46m░[0;36;40m█[0;1;36;46m░[0;1;30;40m ▒▒▒▒ [0m  [1;30m▄▓▒▒▒ [0;36m██[0;1;36;46m░[0m
                 [1;36;46m░[0;36m███▀[0;1;30m▄██▓█▀[0;36m▄██[0;30;46m░[0;36;40m███[0;1;36;46m░░[0;1;36;40m▄[0;1;30;40m▀▓▒▓▓▄▄▄▓▒▓▓[0;36m ▄[0;1;36;46m░▒[0m
                 [1;36;46m▓░░░[0;36m█▄▄▄▄▄[0;1;36;46m░░░[0;36m███[0;1;36;46m░░▒▓▒░[0;36m▄▄▄▄▄▄▄▄▄▄▄[0;1;36;46m░░▓▓[0m
-[1;34m   [0m                    [1;34m                  [0m
-[1;30m--------------------------------------------------------------------------------[0m
-                [1;30m                                           [0m
-[1;30m--------------------------------------------------------------------------------[0m'
+[1;34m[0m[1;34m[0m[1;30m--------------------------------------------------------------------------------[0m
+[1;30m[0m[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 782afec5dd99392b0361cc8d89caf6d31d9aaa500b0628365a450b478d3cf923
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-EUPH1.ANS by Diamond Traveller (MiSTiGRiS); released in mist1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Euphoria
 # SAUCE Author: Diamond Traveller
 # SAUCE Group: MiSTiGRiS
@@ -47,5 +47,4 @@ Write-Host '
 [37m           [0;1;30m|[0m      [1;30m▓[0m [1;30m▀[0m                                        [1;30m [0m [1;30m▒[0m      [1;30m|[0m
           [1;30m-+--[0;36m    [0;1;30m▒[0;36m              [0;37m                            [0;36m  [0;1;30m░[0;36m    [0;1;30m--+-[0m
                   [1;30m░[0m           [36m  [0;37m [0;1;30m.t h e   e n d.[0m [1;30m [0m             [1;30m░[0m
-[1;30m      [0m  [1;30m                                                                   [0m
-[1;30m---------------------------->8-------------------------------------------------[0m'
+[1;30m[0m[1;30m[0m[1;30m---------------------------->8-------------------------------------------------[0m'

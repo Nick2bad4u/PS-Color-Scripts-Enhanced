@@ -5,7 +5,7 @@
 # Source SHA-256: ecb0725f1ffbc5324433ec2cda82b22f7cbc2ab2c4c1da9baa020d3e4b7304b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SPF.ANS by Black Weasel + Subsonic (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: spoof - "real strangers".
 # SAUCE Author: subsonic+bw_
 # SAUCE Group: Phat Studios '97
@@ -15,9 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                     [1m           [0m                     
-                     [1m              [0m                                     
-
+[1m[0m[1m[0m
 
  [1;35m▐▄▄▄▄▄▄▄▄[0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35m▄▄▄▄▄▄▄▄▄▄[0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35m▄▄[0;35m▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [37m [0;1;37;47m░[0;1;35;47m░▓[0;1;35;45m▀▀[0;35m█████▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35;45m ▀▀▀▀▀▀▌[0;35m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▐[0;1;35;45m▀▌[0;35m▀▌█▀▀▀▀▀▀[0m                 [32m [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 805acbf97ddb4964baff0c5c43adc156eb4113947b45e04eb3447bc2d51d359d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CJY-HLDFST.ANS by consolejockey (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hold Fast
 # SAUCE Author: consolejockey
 # SAUCE Group: Mistigris
@@ -18,7 +18,7 @@
 Write-Host '
                         [33m─┐┌───┐[0;37m     [0;33m·.[0m
 [37m      [0;30m░[0;37m [0;30m▓[0;37m  [0;1;37m▄[0;1;37;46m▓[0m [33m│[0;37m  [0;30m░[0;37m  [0;30m►[0;37m [0;1;36m▄[0;1;36;46m▒░[0;33;46m└┘[0;1;36;46m▒░[0;36m▌[0;33m└─┐[0;37m [0;1;36m▄[0;1;37m▀▄[0m [33m└┐[0;37m  [0;36m▄[0;1;37m■[0m [33m│[0m
-[37m  [0;30m░[0;37m [0;30m░[0;37m  [0;30m▒[0;37m [0;1;36m▄▀[0;1;36;46m▓[0;1;37;46m▓[0m [33m│[0;30m░▒[0;37m  [0;30m░[0;37m [0;1;36m▄[0;1;36;46m▒[0;1;36;40m▀[0m [33m/[0;37m  [0;36m▀[0;1;36;46m▒[0;1;36;40m▄[0m [33m└┐[0;1;36m▌[0m [1;46m▓▓[0m  [1;36m▄[0;36m▀[0;37m [0;36m▐[0;37m [0;33m└┐[0;37m     [0;1;37m.■[0m [1;33mholdfastbbs.ca[0m [1m■[0m [1m·[0m
+[37m  [0;30m░[0;37m [0;30m░[0;37m  [0;30m▒[0;37m [0;1;36m▄▀[0;1;36;46m▓[0;1;37;46m▓[0m [33m│[0;30m░▒[0;37m  [0;30m░[0;37m [0;1;36m▄[0;1;36;46m▒[0;1;36;40m▀[0m [33m [0;37m  [0;36m▀[0;1;36;46m▒[0;1;36;40m▄[0m [33m└┐[0;1;36m▌[0m [1;46m▓▓[0m  [1;36m▄[0;36m▀[0;37m [0;36m▐[0;37m [0;33m└┐[0;37m     [0;1;37m ■[0m [1;33m              [0m [1m■[0m [1m [0m
         [1;36m▐[0m [33m│[0;1;36;46m▓[0;1;37;46m▓[0m [33m│[0;37m   [0;30m░[0;37m  [0;1;37;46m░[0;1;36;40m▌[0m [33m│[0;37m    [0;1;36m▐[0;1;36;46m▓[0;1;37;46m▓[0m [36m▄[0;1;36m▌[0;36m▐[0;1;37;46m▒▓[0;1;37;40m▌[0m [1;36;46m▓[0m [33m│[0;37m [0;36m▐[0;37m [0;33m│[0m
 [37m        [0;1;36m▌[0;33m┌┘[0;1;36;46m▒[0;1;37;46m▓[0m [33m│[0;37m     [0;36m▐[0;1;36;46m▒[0;1;36;40m▌[0m [33m│[0;37m     [0;1;36;46m▒[0;1;37;46m▓[0;36m■▀[0;37m [0;1;37;46m░░▒[0;1;37;40m▌[0m [1;36;46m▒[0;36m▄[0;37m [0;33m·[0;37m [0;1;37m▌[0;33m└┐[0;37m             [0;1;37m·■[0m [1mEST. [0;1;33m2022[0m [1m■░[0m
         [36m▌[0;33m└┐[0;1;36;46m▒[0;1;37;46m▒[0m [33m└──┐┌.[0;36m▐[0;1;36;46m■[0m [33m┌┘[0;37m    [0;1;36m▌[0;1;36;46m░[0;1;37;46m▓[0m [33m│[0;36m▐[0;1;37;46m░[0;1;36;46m▓[0;1;36;40m▌[0m [33m┌[0;37m [0;36m▀▀▄▄[0;1;37;46m▓[0m [33m└───┐[0m

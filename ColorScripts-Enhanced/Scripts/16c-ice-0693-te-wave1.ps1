@@ -5,14 +5,12 @@
 # Source SHA-256: 61047ab019d486cf34207d4641c9a7c45e270779caf5e50c9ba0b78a690d5a68
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-WAVE1.ICE by Tech (ice-0693); released in ice-0693 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
-                 [1;36m [0;36m        [0;1;36m [0;36m       [0;1;36m [0m
-                     [1;36m [0;36m   [0;1;36m    [0;36m        [0;1;36m   [0m
-
+[1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m[1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0m
                        [1;30m█▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
 [35m░░░░░░░░░░░░░░░░░░░░░░ [0;1;30m█ [0;1;34m█   █ ▀▀▀█ █  █ █▀▀█ █▀▀█ [0;1;30m█ [0;35m░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
                        [1;30m█ [0;1;34m▓ █ ▓ ▄▄ ▓ ▓  ▓ ▓  ▒ ▒    [0;1;30m█[0m
@@ -25,7 +23,7 @@ Write-Host '
 [33m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ [0;1;30m█ [0;1;32m░ [0;1;30m▀▀ [0;1;32m░[0m     [1;32m░   ░ ░ ░ ░ ░ ░ ░ ░ [0;1;30m█ [0;33m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [33m░░░░░░░░░░░░░░░░░░░░░░ [0;1;30m█ [0;32m█▄▄█ ▀▀▀ ▀▀▀ ▀▀▀ █ ▀ ▀▀▀ ▀▀▀ █ [0;1;30m█ [0;33m░░░░░░░░░░░░░░░░░░░░░[0m
                        [1;30m█▄▄▄▄▄▄█▀▀▀▀▀▀▀▀▀█ [0;32m▀ [0;1;30m█▀▀▀▀▀▀▀█▄▄▄█[0m
-                                        [1;30m▀▀▀▀▀[0;1;34m305[0;34m-[0;1;34m755[0;34m-[0;1;34m0127[0m
+                                        [1;30m▀▀▀▀▀[0;1;34m   [0;34m [0;1;34m   [0;34m [0;1;34m    [0m
 
         [1;37m▄▄[0m█▄                                                        [1m▄[0;1;47m▀[0;1;40m▄▄[0m
      [1;40m▄███[0;1;47m▀  [0m█▄                                                    [1m▄███[0;1;47m▄▀[0;1;40m██▄[0m

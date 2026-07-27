@@ -5,7 +5,7 @@
 # Source SHA-256: e233a5296a42d392b0bb2b32ecafe5c147ededb2b844ded85086f832f2768a3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DY-SB.ANS by Dynosaw (Shiver); released in shv-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shattered Beliefs
 # SAUCE Author: Dynosaw
 # SAUCE Group: Shiver
@@ -28,7 +28,7 @@ Write-Host '
   [34m█[0m    [34m   [0m [34m [0;31m   [0m   [31m  [0;1;30m▀[0m                          [1;30m ▀[0m                [1;30m▀[0m           [1;34m▄[0m
  [1;34m█[0;31m     [0;34m    [0;31m   [0m [1;31mS[0;31m  [0;1;31mH[0;1;30m  [0;1;31mA[0;1;30m  [0;1;31mT[0;1;30m  [0;1;31mT[0;1;30m [0;1;31m E[0;1;30m  [0;1;31mR[0;1;30m  [0;1;31mE[0;1;30m [0;31m [0;1;31mD[0;1;30m [0;31m  [0;37m·[0;31m  [0;1;30m [0;1;31mB[0;1;30m [0;34m [0;1;31mE[0;1;30m  [0;1;31mL[0;1;30m  [0;1;31mI[0;1;30m  [0;1;31mE[0;1;30m  [0;1;31mF[0;1;30m  [0;1;31mS[0m [31m       [0m  [34m█[0m
  [1;34m█[0m     [34m      [0;31m   [0m      [1;30m ▄[0m                         [34m█[0m               [1;30;44m▀[0m     [1;34;40m▄▄[0m  [1;30;40m▀[0m
-  [1;34;40m█[0m   [34m   [0;1;34m▄[0;34m▄▀▀[0;1;34m▀[0;34m▄▄[0;1;30m [0m   [1;30m    [0;34m▀[0;1;30m       [0m  [1;30m([0;31m310[0;1;30m)[0;31m541[0;1;30m-[0;31m9779[0m   [34m▀[0;1;30m▄[0m            [34m█[0m    [34m▄▀[0m  [1;34m▀▄[0m
+  [1;34;40m█[0m   [34m   [0;1;34m▄[0;34m▄▀▀[0;1;34m▀[0;34m▄▄[0;1;30m [0m   [1;30m    [0;34m▀[0;1;30m       [0m  [1;30m [0;31m   [0;1;30m [0;31m   [0;1;30m [0;31m    [0m   [34m▀[0;1;30m▄[0m            [34m█[0m    [34m▄▀[0m  [1;34m▀▄[0m
  [1;30m [0;34m [0;1;34m▀[0;34m▄▄[0;1;34m▄[0;34m▀▀   [0m [31m  [0m [34m▀▄[0;1;30m [0m  [1;30m700[0;1;37m [0;31mm[0;1;30mbs [0;31mo[0;1;30mnline[0;1;37m [0m·[1m [0;31mn[0;1;30mUV [0;31ms[0;1;30mtrictly [0;31me[0;1;30mnforced[0m    [34m█[0m     [34m▀[0;1;34m▄[0;34m▄[0;1;30m▀[0m  [1;34m█[0m
         [1;37m [0m    [1;30m    ▀[0;34m [0;1;30m        [0;1;36m  [0;1;34m [0;1;36m   [0;1;30m [0;31m [0;1;30m       [0;31m [0;1;30m           [0m        [1;30;44m▄[0;34m [0m            [34m█[0m
  [37m     [0;31m [0;1;30m    [0;1;37m [0;31m [0;1;30m    [0m [1;30m [0;31m [0;1;30m  [0;1;37m [0;31m [0;1;30m     [0;31m [0;1;30m      [0;31m [0;1;30m      [0;31m [0;1;30m  [0m [1;30m [0;31m [0;1;30m     [0;1;37m [0;31m [0;1;30m    [0m [1m [0;31m [0;1;30m       [0;31m [0;1;30m   [0m  [1;34m█[0m

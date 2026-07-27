@@ -5,7 +5,7 @@
 # Source SHA-256: b50686dd7d722b29b221e018e59e5a47254e8dd032e62877d4468be085b40822
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EV-GINFO.ANS by Evilive ([Quad-P]); released in quad0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ganja Magazine
 # SAUCE Author: Evilive
 # SAUCE Group: [Quad-P]
@@ -23,15 +23,8 @@ Write-Host '
 [32m `-------[0;1;35m/   [0;35m/[0m       [1;35m/  \[0m        [1;35m/[0m     [35m/    [0;1;35m/    /[0m     [1;35m/  \[0m         [35m/[0;32m---evl--''[0m
       [31m<> [0;1;35m\[0;35m__________/[0;1;35m\[0;35m__________/[0;1;35m\[0;35m____/____/[0;1;35m\[0;35m_________/[0;1;35m\[0;35m___________/ [0;31m<>[0m
        [32m-===========================================================-[0m
-[32m   [0;36m             [0;35m  [0;37m                                        [0;35m [0;36m             [0m
-                [32m----===================================----[0m
-       [37m                                                             [0m
-       [31m-[0;36m====[0;31m([0;36m/[0;31m)[0;32m==============================================[0;31m([0;36m\[0;31m)[0;36m===[0;31m-[0m
+[32m[0;36m[0;35m[0;37m[0;35m[0;36m[0m                [32m----===================================----[0m
+[37m[0m       [31m-[0;36m====[0;31m([0;36m/[0;31m)[0;32m==============================================[0;31m([0;36m\[0;31m)[0;36m===[0;31m-[0m
 
-           [37m       [0m         [37m            [0m      [37m      [0m          [37m     [0m
-        [37m             [0m       [37m                                          [0m
-          [37m         [0m       [37m                           [0m         [37m    [0m
-      [37m                  [0m     [37m        [0m       [37m        [0m       [37m          [0m
-             [37m   [0m         [37m                           [0m        [37m       [0m
-
+[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m
        [32m-===========================================================-[0m'

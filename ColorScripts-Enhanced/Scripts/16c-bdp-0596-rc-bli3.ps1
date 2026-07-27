@@ -5,7 +5,7 @@
 # Source SHA-256: ed8b7162ddf7dfb1bc34220f33471e8524a07e5cf9e3505be231905e25123403
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RC(BLI3).ANS by 1\2[[[2[__[_21001 (.boogiE%Woogie.); released in bdp-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: .blister(logo). .
 # SAUCE Author: 1\2[[[2[__[_21001
 # SAUCE Group: .boogiE%Woogie.
@@ -16,8 +16,7 @@
 Write-Host '
 
                                [1;32m░[0m
-  [1;33m  [0;33m       [0;1;33m  [0m [1;33m [0m
-        ··▀■ [32m ░[0m             [32m░[0;1;32m▄▄ [0m  [1m░[0m                           [32m░[0m          [1;37m░[0m
+[1;33m[0;33m[0;1;33m[0m[1;33m[0m        ··▀■ [32m ░[0m             [32m░[0;1;32m▄▄ [0m  [1m░[0m                           [32m░[0m          [1;37m░[0m
   [1;47m▓▀▓[0;1;40m▀▀▀[0m     [32m▄[0;1;32;42m▓[0;32m▄[0;37m  [0;1;37;47m▓▀█[0m       [32m▀▓[0;1;32;42m▓[0;32m▀[0;1;37;47m▓▀▓[0;1;37;40m▀▀▀[0m    [1;47m█▀▓[0;1;40m▄▄▄[0m    [1;47m▓▀▓[0m  [32m▄▄[0;1;32;42m░[0;32m▀▀▓▄▄[0m   [1;37;47m▓▀▓[0;1;37;40m▀▀▓▄▄[0m
  ░[1;47m▒[0;1;30;47m░[0;1;37;47m░[0;32m  ▄▄▓▀▀▓▄[0;1;32;42m▀[0m   [1;47m░[0m█[1;47m▒[0m  [1m▄▄[0;1;47m▓█[0m [1;47m█[0;1;40m▄▄[0m [1m▀▀▀▀▀▀[0;1;47m▓▀▓[0;1;40m▀[0;1;47m▓[0m█[1;47m▒[0m [1m ▄▄[0;1;47m▓▓[0;1;40m▀[0;1;47m▒ [0;32m ▄▀  ▌  ▐[0;1;32m░▓[0;32m▀▄[0;37m▄[0;1;37;47m▒[0m█[1;47m▒[0m   [1;47m▓▀▓[0m▄
   [1;47m░[0m█[32m ▄▓ [0m    [32m░  ▓▄[0;37m▄█[0;1;30;47m░[0;1;37;47m░[0m   [1;47m▓[0m█[1;47m▒[0;1;40m▀[0;1;47m▓[0m█[1;47m░[0;1;40m▀[0;1;47m▓█[0;1;40m▄▄[0m  █[1;30;47m░[0;1;37;47m░[0m▀██[1;47m░[0m  [1m [0;1;47m▓[0m█[1;47m░[0;1;40m▀[0;1;47m░[0;1;40m▓[0;32m▐▌[0m   [32m▌  ▐ [0;1;32m▐[0;32m ▐▌[0;37m▐█[0;1;37;47m░[0m   ▐[1;30;47m░[0;1;37;47m░[0m▌

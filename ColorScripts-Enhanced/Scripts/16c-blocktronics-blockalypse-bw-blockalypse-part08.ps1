@@ -5,7 +5,7 @@
 # Source SHA-256: 4892399de5ed643aa4e6b900c597815eb9d4006faf421ff09f0210322b467b05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw_blockalypse.ans by Binary Walker (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20140121
 # SAUCE Dimensions: 80x355
 # SAUCE Font: IBM VGA
@@ -49,7 +49,7 @@ Write-Host '
          [1;30m    [0;1;31;41m░█▀[0;31m▀    [0;1;30m░▒▓██████████▀▀▀ ▀ [0;35m▄▄[0;1;30m▐[0;1;30;47m [0;1;30;40m█ ▄█[0;1;30;47m▀▀[0;1;30;40m▄▄▄ ▀█[0;1;30;47m▄ [0;1;30;40m▓ [0;35m▄▄▄▄[0m
               [1;31;41m░[0;31m▌[0m           [1;30m▀▀▄▄  ▄  ▀ [0;35m▄█[0;1;35;45m▀[0;35m▓ [0;1;30m█[0;1;30;47m▀[0;1;30;40m█▀  ▐[0;1;30;47m▄░[0;1;30;40m▌▀▌▐▓█ [0;35m▄[0;1;37;45m▒[0;1;35;45m█▀[0;35m▓▒░[0m
                [31m▀▄  [0;35m 7th Febuary[0m           [1;37m▄ [0;1;30m▀[0;1;30;47m▄▀▀[0;1;30;40m▄█[0;1;30;47m▄[0;1;30;40m█▄▀ █░█ [0;1;37;40m▄[0m
-                          [35min 2014 [0;1;33ma[0;35m.D.    [0;1;37m▀▀  [0;1;30m▀▀▓▓ ▀ [0;1;37m▄ [0;1;30m▓ ▓ [0;35mblocktronics[0;31m.org[0m
+                          [35m        [0;1;33m [0;35m       [0;1;37m▀▀  [0;1;30m▀▀▓▓ ▀ [0;1;37m▄ [0;1;30m▓ ▓ [0;35m            [0;31m    [0m
 [37m   [0;1;30m░▒[0m                                           [1;30m░░ [0;1;37m▀▀  [0;1;30m░ ░[0m
   [1;30m▄▓▓▄[0m
    ▒[1;47m▄[0;1;30;40m.  _______________________[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 6c29f23909a58427a9017a4377270e3c4e874742af1d745c98ce9b1380e7cf83
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NO-UMAIN.ANS by noches (remorse); released in rmrs-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: utopia main
 # SAUCE Author: noches
 # SAUCE Group: remorse
@@ -25,8 +25,7 @@ Write-Host '
 [1m$$$$$$$$$$[0;36m*[0;1;37m┐[0m,[1m   [0m`[1m$, $$$$$$$$$$[0m/[1m   [0m ,┐[1m#$$$$$$$$$i[0m  [1mu t o p i a    [0m [1m/┘''`[0;1;30m  [0;1;37mb b s[0m
 [1m$$$[0m7*┘''''''ⁿ[36m┘[0;37m*4[0;1;37m$$┐[0m,[1m [0m`[1m$$$$$$$$$[0m` ,┐[36m#*┘ⁿ[0;37m''''''┘*[0;36m?[0;1;37m$$$$[0m$[1m:[0m  [1m  [0m                        [33m  [0;1;37m [0;33m [0m
 [1;37m$[0m/`[1m            [0m`''ⁿ[1m /$$$$$$$/ ⁿ''`   [0;1;30m,[0;1;37m       [0m`[1m┘[0m/      [1m        command [0m
-[1m    [0;1;30m [0;1;37m          [0;1;30m [0;1;37m                 [0;1;30m [0;1;37m             [0m             [1m       [0m
-,[1m  [0;1;30mi[0;1;37m      : [0;1;30m:[0;1;37m;;     $$$$$$$       [0;1;30m:[0;1;37m: [0;1;30m:[0;1;37m;;;[0m                   [1mcommand[0m
+[1m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0m[1m[0m,[1m  [0;1;30mi[0;1;37m      : [0;1;30m:[0;1;37m;;     $$$$$$$       [0;1;30m:[0;1;37m: [0;1;30m:[0;1;37m;;;[0m                   [1mcommand[0m
 [1m$$┐[0m,.[1m        [0m.,┐d[1m$$ $$$$$$[0m$[1m [0;36m`[0;37m$b┐,.[0m                          [1;37mcommand[0m
 [1m$$$$$$[0m*[1m/*[0m@[36m@[0;1;37mS$$$$$$$ $$$$$$$$$$$$$$$$$[0;36mS@@*/[0;1;37m*[0m`,,      [30m        [0;1;37mcommand[0m
 $$[1m$$$$$$$$[0;36m$[0;1;37m$$$$$$$$:$$$$$$$$$$$$$$$$$$$$$$$$$$[0m        [34;44m      [0;1;37;44mcommand[0;1;5;37;44m_[0;34;44m     [0m

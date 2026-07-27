@@ -5,7 +5,7 @@
 # Source SHA-256: abdd52a844247c6a0f95124261505874c73c5b56bf357cca4d6ccdfe2837131b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XE-FREAK.ANS by Xeryrus (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Freak Show
 # SAUCE Author: Xeryrus
 # SAUCE Group: MiSTiGRiS
@@ -57,5 +57,4 @@ Write-Host '
 [1;30;40m    [0m▀ ▀█[1;33;47m▀[0m█▀    ▀▀▀▀▀███[1;36;47m░[0;1;30;47m▒▄[0m███[1;30;47m░[0m████▀▄▄█▀▀▓█▒▓▄[1;30;47m▄░   [0m███▀▀    ▀▀▀▀█[1;30;47m▄▒▄[0;1;30;40m█▄[0m
           [1;37;40ms[0m.[1mk[0milthrash  ▀▒▀▀▀▀▀    ▄[1;36;47m░[0m█ ▄░▄ █[1;30;47m▒▓[0;1;30;40m▀▀ ▀▄   [0;1;37;40mc[0mustomized    [1;30m▀[0m
           [1;37m [0m  [1m [0m       [1m [0m             ▀ ■ ▀ ▀[1;30;47m░[0m        [1;37;40m [0m        [1m [0m    
-                   [1m  [0m            [1m [0m    [1m [0m    [1m [0m    [1m [0m   [1m [0m
-                [1;33mx [0;33me r y r u s    [0;1;33mm [0;33mi s t i g r i s  [0;1;33m1 [0;33m9 9 5[0;1;33m![0m'
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m                [1;33mx [0;33me r y r u s    [0;1;33mm [0;33mi s t i g r i s  [0;1;33m1 [0;33m9 9 5[0;1;33m![0m'

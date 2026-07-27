@@ -5,7 +5,7 @@
 # Source SHA-256: acd94b1a10f39bbc51262054890b7f1b237a230c826d2134dcb42eb2ad287df6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FF-CB4.ANS by flava flav (gas); released in gas-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cb4
 # SAUCE Author: flava flav
 # SAUCE Group: gas
@@ -34,7 +34,7 @@ Write-Host '
 [1;30m██[0m      [31m▀[0;1;31m▄    [0;1;37m▀▀▀▀[0m              [1m▀▀▀▀▀[0m                         [1;30;41m [0;1;31;41m■[0m   [1;31m▄[0;31m▀[0m       [1;30m██▒[0;1;37mf[0m
 [1;30m████    [0;1;31;41m▐[0;1;33;41m▄[0;1;31;40m▌[0m     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    [1;34;41m [0;31m▌  [0;1;31m▐[0;1;33;41m▄[0;1;31;41m▐[0m    [1;30;47m [0;1;30;40m█████[0;1;37;40ml[0m
 [1;30;40m███▓    [0;1;37;40m▄[0;1;37;47m▓[0;1;37;40m█[0m       [1;34mcell block 4[0m      [1msys-god = [0;1;34mflavaflav[0m      [31m▐[0;31;41m [0m   [1;37;40m█[0;1;37;47m▓[0;1;37;40m▄    [0;1;30;47m [0;1;30;40m█████[0;1;37;40ma[0m
-[1;30;40m█ [0m▄[1;30;47m▒[0;1;30;40m█▓   [0;1;37;47m▒▓[0;1;37;40m▌[0m             node one [1;30m+617-5574-4197[0m                 [1m▐[0;1;47m▓▒[0m     [1;30;47m▓[0;1;30;40m████▒[0;1;37;40mv[0m
+[1;30;40m█ [0m▄[1;30;47m▒[0;1;30;40m█▓   [0;1;37;47m▒▓[0;1;37;40m▌[0m                      [1;30m              [0m                 [1m▐[0;1;47m▓▒[0m     [1;30;47m▓[0;1;30;40m████▒[0;1;37;40m [0m
 [1;30;40m▓ [0;1;30;47m▓[0;1;30;40m▀█▓   [0;1;37;40m▐[0;1;37;47m▓█[0m                running iniquity                     [1;47m█▓[0;1;40m▌    [0;1;30;40m▀█████▒[0;1;37;40ma[0m
 [1;30;40m▀[0m▄▄[1;30;47m▄[0;1;30;40m▄▄    [0;1;37;47m▒▓[0;1;37;40m▌[0m      N.U.P. [1;34m:[0;1;30miamalamer[0m     S.P. [1;34m:[0;1;30mgasgoesoff[0m       [1m▐[0;1;47m▓▒[0m   ▄[1;30;47m▄[0m▄[1;30m▄▄▀▀█░[0;1;37mf[0m
 [1;30;47m▒[0;1;30;40m█████▓    [0;1;37;40m▀[0m              gas queensland distro                  [1m▀    [0;1;30m██████▓  [0;1;37ml[0m

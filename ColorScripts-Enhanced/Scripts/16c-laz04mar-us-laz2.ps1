@@ -5,7 +5,7 @@
 # Source SHA-256: 3f4f09476cf3f1b0d0bfc8ebcee37c049af98cf2daa8ef2ef16bffd9ea16daaa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LAZ2.ANS by Hennifer + Iceage (lazarus); released in laz04mar and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: i'm so so so so sorry
 # SAUCE Author: iceage + hennifer
 # SAUCE Group: lazarus
@@ -15,9 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m        [0m                                                                [1;30m        [0m
-                    [1;33m                                       [0m
-[1;30m      [0m  [1;30m [0m [1;36m███[0;1;36;46m▓▓▓▒▒[0m [1;30m           [0;30;46m▓[0;36;40m▄▄▄▄▄▄▄▄[0m               [1;30;40m       [0;36m▐[0;1;36;46m░░▒▒▒[0m
+[1;30m[0m[1;30m[0m[1;33m[0m[1;30m      [0m  [1;30m [0m [1;36m███[0;1;36;46m▓▓▓▒▒[0m [1;30m           [0;30;46m▓[0;36;40m▄▄▄▄▄▄▄▄[0m               [1;30;40m       [0;36m▐[0;1;36;46m░░▒▒▒[0m
 [1;36m█████▌[0m  [1;30m [0;1;36m▐[0;1;36;46m▓▓▒▒░░[0;36m█[0;37;46m░░░░░░░▒▒▒▒▒▓▓▓▓[0;37;40m██████▌ ▐████[0;37;46m▓▓▓▓▒▒[0;36;40m▄[0;37;40m [0;37;46m░░░  [0;36;40m▌[0;1;30;40m [0;36m▐[0;37;46m   [0;1;36;46m░░[0;30;46m▓[0;36;40m▄▄[0;1;36;46m▒▓▓▓██[0;1;36;40m▄▄[0;1;30;40m [0m
 [1;36;46m▓▓▒▒▒[0;36m▌[0;37m   [0;1;36;46m░░[0;36m███[0;37;46m░░░░▒▒▓▓▓▓██[0;37;40m██████████████░▐████[0;1;36;47m [0m██[1;36;47m [0m█[46m▓▓▓▓▒▒▒░[0;36;40m▌[0;1;30;40m [0;36m▐[0;37;46m     [0;36;40m▐███[0;1;36;46m░░▒▒▓▓███[0m
 [1;36;46m░░░  [0;36m▌[0;37m  [0;36m▐███[0;37;46m░░░▒▓▓▓[0;30;46m▓[0;1;30;40m  [0m ▄████[1;36;47m   [0;1;37;47m  [0;1;36;47m [0m█[1;36;47m [0m████▌▐█[1;36;47m  [0;1;37;47m [0m█ ████[1;36;47m   [0;46m██▓▓[0;40m▌ [0;36;40m▐[0;37;46m▒▒░░░ [0;36;40m█████[0;37;40m [0;36;40m█[0;1;36;46m░░▒▒▓[0m

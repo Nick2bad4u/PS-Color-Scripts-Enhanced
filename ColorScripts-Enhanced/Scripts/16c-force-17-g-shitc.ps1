@@ -5,7 +5,7 @@
 # Source SHA-256: e5e2a7c217acd5d3d36d060b600814f12bdfdab99cb6a867e0a858d5f2257889
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: G-SHITC.ANS by geigalow 10+3. (f o r c e); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: maerlowgowcolliey
 # SAUCE Author: geigalow 10+3.
 # SAUCE Group: f o r c e
@@ -18,8 +18,7 @@ Write-Host '
 [1;34;44mdum greets[0;34m▐▌▐░[0;30;44m▓[0m
 
 [1;30;47m [0;1;30;40m                                                                              [0m
-[1;30m                                                                  [0m
-
+[1;30m[0m
 [1;34;44m          [0;34m▐▌▐░[0;30;44m▓[0m
               [1;30;40m [0m
                       [30;44m▓[0;34;40m▓▓▄▄[0;37;40m [0;1;34;40m▄[0;34m▄▄░[0;30;44m▓[0m        [34;40m   [0;37;40m [0;31;40m▄[0;1;31;40m▄▄[0m [34m░[0;30;44m▓[0;34;40m▄▌[0;37;40m [0;1;34;40m▄[0;34m▄▄▄▓░[0;37m [0;1;31m [0m [33m▓▓▄▄▄▄██▓▒░ ░░[0m

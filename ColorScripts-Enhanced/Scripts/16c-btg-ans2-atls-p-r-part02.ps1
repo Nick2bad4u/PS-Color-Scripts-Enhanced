@@ -5,7 +5,7 @@
 # Source SHA-256: 116590d3afc919e243af16aaf9a076684470efd8a684d381002c6ec609892ad0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ATLS#P&R.ANS by Rage + Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 31-62
 # Columns: 1-80
 
@@ -39,4 +39,4 @@ Write-Host '
        [1;37;40m▐[0;31m█▓[0;1;30m▌ [0;1;37m▐[0;31m██[0;1;30m▌  [0;1;37m▐[0;31m█▓▒[0;1;30m▌ [0;1;37m▐[0;31m█▓▒░░   [0;1;37;41m▌[0;31m█▓[0;1;30m▌ [0;1;37m▐[0;31m██[0;1;30m▌[0;1;37m▐[0;31m██[0;1;30m▌  [0;1;37;41m▌[0;31m█[0;1;30m▌ [0;1;37m▐[0;31m█▓▒[0;1;30m▌ [0;1;37m▐[0;31m█▓▒[0;1;30m▌  ▀[0;1;30;41m▄[0;31m▒▓█[0;1;30;41m▄[0;1;30;40m▌[0m
         [1;30;40m▀▀   ▀▀   ▀▀▀▀▀  ▀▀▀▀▀▀▀▀ ▀▀   ▀▀ ▀▀▀   ▀▀  ▀▀▀▀▀  ▀▀▀[0m     [1;30;40m▀▀▀[0m
 
-           [1;37;40m+358[0;1;36;40m-(9)[0;36m81-8177311 [0;1;31m♦ [0;1;37mOpe[0;1;36mn 2[0;36m4h/day [0;1;31m♦ [0;1;37mV.[0;1;36m32[0;36mbis [0;1;31m♦ [0;1;37mPcB[0;1;36moar[0;36md 15.1[0m'
+           [1;37;40m    [0;1;36;40m    [0;36m           [0;1;31m  [0;1;37m   [0;1;36m   [0;36m       [0;1;31m  [0;1;37m  [0;1;36m  [0;36m    [0;1;31m  [0;1;37m   [0;1;36m   [0;36m      [0m'

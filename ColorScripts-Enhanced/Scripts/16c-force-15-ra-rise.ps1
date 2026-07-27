@@ -5,7 +5,7 @@
 # Source SHA-256: 9e49f850584dfabe95d3e10df9667b0fca83b1fe6b9468364db121f9f8adb507
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RA-RISE.ANS by Rage (READ THE INI FILE); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rise
 # SAUCE Author: Rage
 # SAUCE Group: READ THE INI FILE
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-           [32m [0m       [32m [0m                                        [1;30m   [0m  [1m      [0m  [1;30m   [0m
-      ▀▄▄▄▓   [34m [0;37m [0;34m [0;37m [0;32m [0;37m░[0;32m [0;37m [0m     [1;33;43m░░[0m     ▀▄▄▄▓   [34m [0;37m [0m          [37m▀▄▄▄▓   [0m
+[32m[0m[32m[0m[1;30m[0m[1m[0m[1;30m[0m      ▀▄▄▄▓   [34m [0;37m [0;34m [0;37m [0;32m [0;37m░[0;32m [0;37m [0m     [1;33;43m░░[0m     ▀▄▄▄▓   [34m [0;37m [0m          [37m▀▄▄▄▓   [0m
      [37m   [0;1;37;47m░▄[0m█[1;47m░▒[0m▄▄▄▄[1;47m▄▄▓▄[0m▄  [1m  [0m          [1;47m░▄[0m█[1;47m░▒[0m▄   ▄▄▄▄▓▄  [1;33;43m░[0m  [1;47m░▄[0m█[1;47m░▒[0m▄▄▀▀▀▄▄▄▄
         ▐▓[1;47m░▄[0m▌    ▄[1;47m█▀[0m▀  [1;33;43m░[0m ▄▓▀▀▀■▄ [1;33;43m░░[0m ▐▓[1;47m░▄[0m▌ ▀▀▀ [1m▄[0;1;47m▓▄▄▓[0m▀▀   ▐▓[1;47m░▄[0m▌     ▄[1;47m▄▒▄░[0m▀
          [1;47m▒▓█[0m▓ ▄[1m▄[0;1;47m▄▓▓[0m▄ [1;33;43m░▒[0;1;33;40m▌[0;1;37;40m▐[0m▌  [1m░░[0m ▐[1m▌[0;1;33m▐[0;1;33;43m▒░[0m [1;47m▒▓█[0m▓ [1;33;43m░▓[0;1;33;40m [0m▐[1;47m░▓█▓[0m▌ [1;33m [0;1;33;43m░[0m   [1;47m▒▓█[0m▓    ▐[1;47m░▓▓█[0m▌

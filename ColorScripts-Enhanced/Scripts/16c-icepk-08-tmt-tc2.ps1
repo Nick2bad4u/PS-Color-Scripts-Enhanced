@@ -5,7 +5,7 @@
 # Source SHA-256: 1706241b5e0c3da7e73c6daa861f49cba5c484187ea989cd0821d01578e3f5f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TMT-TC2.ICE by The Malevolent Trickster (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -32,7 +32,7 @@ Write-Host '
 [33m [0;37m█[0;1;37;47m███[0m█ █[1;47m▓▓░[0m [1;47m ██▀[0m█          [1;30m[iCE][0;30;41m██[0;31;40m▄[0;1;31;41m▄▄▄▄[0;31m▓[0;1;31;41m▀██████▄[0;31m▄▀▀▄[0;1;31;41m▄█▄▄███▒░ [0;30;41m█[0m   [33;40m▀▀▀███▀▀[0m
 [33;40m [0;37;40m█[0;1;37;47m████▄█▓▓░[0m █[1;30;47m▄[0m▀               [30;41m███[0;31;40m▄[0;1;31;41m▄█████▄▄[0;31m▓[0;1;31;41m▀██▀▓▒░[0;31m▀[0;1;31;41m███████▓▒░[0;31m▌[0m
 [31m [0;37m█[0;1;37;47m██████▀▀[0;1;30;47m▄[0m   [31m▄▄▄█[0m      [31m█▄[0m     [30;41m█[0;31;40m▄[0;1;31;41m▄▄▀████████▄[0;31m▓▀[0;1;31;41m▒▒[0;31m▀[0;1;31m▄[0;1;31;41m██████▓▒░[0;31m█  [0;1;33mT[0;1;37mH[0mE [1;33mC[0;1;37mR[0mUSADES
-  ▀[1;47m▀▀[0;1;30;47m▄[0m▀▀  [31m▄▄█[0;1;31;41m▄██▒[0;31m█▄   [0;1;31m▄[0;31m█████▄  █[0;1;31;41m████▄▄▀████▀██▒[0;31m▄[0;30;41m█[0;1;31;41m███████▓▒▒░[0;31m▌  [0;1;33m4[0;1;37m1[0m6.[1;33m7[0;1;37m3[0m3.[1;33m9[0;1;37m8[0m80
+  ▀[1;47m▀▀[0;1;30;47m▄[0m▀▀  [31m▄▄█[0;1;31;41m▄██▒[0;31m█▄   [0;1;31m▄[0;31m█████▄  █[0;1;31;41m████▄▄▀████▀██▒[0;31m▄[0;30;41m█[0;1;31;41m███████▓▒▒░[0;31m▌  [0;1;33m [0;1;37m [0m  [1;33m [0;1;37m [0m  [1;33m [0;1;37m [0m  
             [31m▀█[0;1;31;41m▀▓▒░[0;31m██▄██▓▓▓▒▀▀ [0;33m▄█[0;31m▀[0;1;31;41m▀█████▄▄▀▄▓▒▒░[0;31m▀[0;1;31;41m████████▓▒░[0;31m█    [0;1;37mI[0;1;33mNC [0m- [1;33mi[0;1;37mCE[0m,
               [31m▀█[0;1;31;41m▒░░[0;31m██▓▓▒▓ [0;33m▄███[0;1;30m█▓▒░[0;31m▀[0;1;31;41m▀▀▀▄█▓▒[0;31m▄▀▓▓▄[0;1;31;41m████████▓▓░░[0;31m▀   A[0;1;31mPEX[0m, [1;31mM[0;31miRAGE[0m
            [31m▄▄[0;1;31;41m▀░░░[0;31m█[0;1;31;41m░░[0;31m██▓▄  [0;33m▀██[0;1;30m█▓▓▒▒░░▒[0;31m▀[0;1;30;41m▄[0;1;31;41m▀▒░[0;31m▀▒[0;1;31;41m▒▓▄▀██████▓▓▒░[0;31m▀    [0;1;37mA[0mpo[1;30mcalypse[0m

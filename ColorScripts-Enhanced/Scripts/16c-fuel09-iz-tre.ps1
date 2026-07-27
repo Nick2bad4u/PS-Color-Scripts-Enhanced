@@ -5,7 +5,7 @@
 # Source SHA-256: faa66ce707fa50ee3b661db5063954e12d4f64d1731430ea9867235530bae901
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-TRE.ANS by ize (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: tre
 # SAUCE Author: ize
 # SAUCE Group: fuel
@@ -17,8 +17,7 @@
 Write-Host '
 
 
-                                                              [1;33m   [0m [1;33m      [0m
-                  [32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;1;32;40m [0;1;31;43m [0;1;31;40m██[0;1;31;47m██[0;1;31;40m█████▀▀▀[0;1;32;40m ▄▄▄[0;1;36;40m▄[0;1;32;40m [0;33m▀[0;1;31m▀▀[0;1;31;43m▀[0;1;31;40m████[0;1;31;47m███[0;1;31;40m████[0;1;31;47m█[0;1;31;40m██▄[0;1;35;40m▄[0m
+[1;33m[0m[1;33m[0m                  [32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;1;32;40m [0;1;31;43m [0;1;31;40m██[0;1;31;47m██[0;1;31;40m█████▀▀▀[0;1;32;40m ▄▄▄[0;1;36;40m▄[0;1;32;40m [0;33m▀[0;1;31m▀▀[0;1;31;43m▀[0;1;31;40m████[0;1;31;47m███[0;1;31;40m████[0;1;31;47m█[0;1;31;40m██▄[0;1;35;40m▄[0m
                   [32m▒▒▒▒▒[0;1;32m [0;1;31;43m [0;1;31;40m██[0;1;31;47m▓▓[0;1;31;40m██▀[0;1;32;40m [0;1;36;40m▄[0;1;32;40m▄██████████▄[0;1;37;40m▄[0;1;32;40m [0;33m▀[0;1;31m▀▀▀▀[0;1;31;43m▀[0;1;31;40m█[0;1;31;47m█[0;1;31;40m███[0;1;31;47m▓▓[0;1;31;40m███[0m
                   [30;42m░[0;32;40m▓[0;30;42m░[0;32;40m▓[0;30;42m░[0;1;32;40m [0;1;31;43m [0;1;31;40m█████▌[0;1;32;40m [0;1;36;40m█[0;1;32;40m████[0;1;32;42m▀[0;32m▀▀▀[0;1;32;42m▀[0;1;32;40m██████[0;1;33;40m▄[0;1;32;40m █[0;1;36;40m█[0;1;32;40m▄▄▄[0;1;36;40m▄[0;1;32;40m [0;33m▀[0;1;31m▀▀[0;1;31;43m▀[0;1;31;40m███[0;1;35;40m▌[0m
                   [30;42m     [0;37;40m [0;1;31;43m [0;1;31;40m█████[0;1;32;40m [0;1;36;40m▐█[0;1;32;40m███[0;1;32;42m [0;1;32;40m [0;33m▄[0;1;31;43m▄[0;1;31;40m▄▄[0;1;32;40m [0;32m▀[0;1;32;42m▀[0;1;32;40m████[0;1;36;40m▌[0;1;32;40m▐████████▄[0;1;37;40m▄[0;1;32;40m [0;33m▐[0;1;31;43m▐[0;1;31;40m█[0m

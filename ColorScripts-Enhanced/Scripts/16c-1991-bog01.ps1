@@ -5,7 +5,7 @@
 # Source SHA-256: 6d7c1bfd481b563ccf380328c99b7fa9a41c5f70e75c0ad4b772938bc5570d5c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BOG01.ANS by Black Spyrit (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -28,5 +28,5 @@ Write-Host '
          [32m▐   [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m         [34m▀▀▀▀▀▀▀▀▀[0m         [34m▀▀▀▀▀▀▀▀▀[0m       [32m▌[0;1;30m▐[0m
          [1;30m▐[0m                                                           [1;30m▌[0m
                [1;34m┌[0;34m── [0;1;37mT[0;1;36mh[0;36me [0;1;37mB[0;1;36mO[0;36mG [0;1;34m─[0;34m─- [0;1;37mS[0;1;36my[0;36msop: [0;1;37mS[0;1;36mi[0;36mcko [0;1;34m─[0;34m─- [0;1;37mU[0;1;36mS[0;36mR [0;1;37mD[0;1;36mU[0;36mAL [0;1;37mv[0;1;36m3[0;36m2 [0;1;34m─[0;34m─┐[0m
-               [1;34m├[0;34m── [0;1;37m1[0;1;36m+ [0;1;37mG[0;1;36mi[0;36mgs [0;1;34m─[0;34m─- [0;1;37m2 N[0;1;36mo[0;36mdes [0;1;34m─[0;34m─- [0;1;37m3[0;1;36m1[0;36m2-[0;1;37m2[0;1;36m2[0;36m5-[0;1;37m9[0;1;36m7[0;36m11.[0;1;37m9[0;1;36m1[0;36m74 [0;1;34m─[0;34m─┤[0m
+               [1;34m├[0;34m── [0;1;37m [0;1;36m  [0;1;37m [0;1;36m [0;36m   [0;1;34m─[0;34m─  [0;1;37m   [0;1;36m [0;36m    [0;1;34m─[0;34m─  [0;1;37m [0;1;36m [0;36m  [0;1;37m [0;1;36m [0;36m  [0;1;37m [0;1;36m [0;36m   [0;1;37m [0;1;36m [0;36m   [0;1;34m─[0;34m─┤[0m
                [1;34m└[0;34m── [0;1;37m [0;1;36m [0;36m       [0;1;37m [0;1;36m  [0;1;37m [0;1;36m [0;36m          [0;1;34m─[0;34m─  [0;1;37m [0;1;36m [0;36m    [0;1;37m [0;1;36m [0;36m  [0;1;37m [0;1;36m [0;36m  [0;1;34m─[0;34m─┘[0m'

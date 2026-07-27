@@ -5,15 +5,12 @@
 # Source SHA-256: 78ebbb646287d17a6ec8b6e1f9df2ec222ebf4ed9cdc95761dc3f9523b4382e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-CC02.ANS by Shred (img0994); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
-                               [1;30m          [0m
-                                 [1;30m                                  [0m
-                                 [1;30m                                          [0m
-                    [31m▄[0;1;31;41m▀[0;31m▄[0m          [1;30m                                               [0m
+[1;30m[0m[1;30m[0m[1;30m[0m                    [31m▄[0;1;31;41m▀[0;31m▄[0m          [1;30m                                               [0m
                    [31m▀ [0;31;41m [0m [31;40m▀[0m         [1;30;40m                                       [0m
 [1;30;40m   [0;1;34;46m▄[0;1;34;44m▀               [0m [1;34;41m [0m [1;34;44m   ▀[0;1;34;46m▄[0m     [1;30;40m                                  [0m
 [1;30;40m   [0;34m██[0m                [34;41m [0m    [34;44m  [0m

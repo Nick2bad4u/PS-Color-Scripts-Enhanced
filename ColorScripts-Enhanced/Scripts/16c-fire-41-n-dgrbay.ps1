@@ -5,7 +5,7 @@
 # Source SHA-256: 8d1bd13d52e7315ad58d9202a656d8c3b0dd97399fc551aa14224fc12ea9c018
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-DGRBAY.ANS by nail (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: danger bay
 # SAUCE Author: nail
 # SAUCE Group: fire
@@ -37,5 +37,5 @@ Write-Host '
 [37m [0;30;46m▓[0;36;40m░[0;37;40m [0;36;40m░░░[0;30;46m▓[0m      [36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░░░[0;30;46m▓[0;36;40m░░[0;37;40m [0;35;40m ▀[0;1;35;45m▀[0;1;35;47m▄[0;1;35;45m▀[0;35m▀n!   ▀▄▄▄█[0;37m   [0;35m▀▀▀▀[0;37m    [0;35m▐[0;1;35;47m▓[0;1;35;45m▌[0;35m  ▄[0;1;35;45m░■[0;35m▌ [0;1;35;45m░▌[0;35m▀[0;1;35;45m▀▄[0;35m  [0;1;35;45m▀[0;1;35;47m▓[0;1;35;45m▄[0;35m▄[0;1;35;45m▄▀[0m
                            [35m▄▄▄▀ [0m                    [35m [0;1;35;45m▓░[0;35m███[0;1;35;45m▀[0;35m█▄▐[0;1;35;45m▐[0;35m▌ ▀[0;1;35;45m▀▄[0;35m  [0;1;35;45m░▓▄▀[0m
                                 [1;35m [0m                   [35m [0;1;35;45m░▐[0;35m▌  ▀█[0;1;35;45m▄[0;35m██[0;1;35m▄[0;1;35;45m▄[0;35m██[0;1;35;45m▀▄[0;35m  [0;1;35;45m░█[0m
- [1;35mdangerbaybbs[0;35m.dyndns.org:1337 [0m      [35m+o [0;1;35mnight rider[0m  [1;35m [0;35m▐[0;1;35;45m░░[0;35m  ▄[0;1;35;45m▄▀▄▀[0;35m▀   ▀[0;1;35;45m▓▄[0;35m [0;1;35;45m░█[0m
+ [1;35m            [0;35m                 [0m      [35m   [0;1;35m           [0m  [1;35m [0;35m▐[0;1;35;45m░░[0;35m  ▄[0;1;35;45m▄▀▄▀[0;35m▀   ▀[0;1;35;45m▓▄[0;35m [0;1;35;45m░█[0m
                                                      [35m▐[0;1;35;45m▓▓██▀[0;35m▀[0;1;35;45m▓▓[0m      [35m▀▀ [0;1;35;45m▓▓[0m'

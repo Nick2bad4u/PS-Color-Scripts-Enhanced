@@ -5,7 +5,7 @@
 # Source SHA-256: 17ed0c27123d06e380ce4c4160cc244884d08605cec7afa3c6899b9559e75cad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MP-SANIT.ANS by Morpheus + Hannibal Lecter (acdu0793); released in acdu0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-72
 # Columns: 1-80
 
@@ -23,7 +23,7 @@ Write-Host '
 [1;37;40m [0;36m▀▀▀▀▀[0;1;37m▀[0;36m▀▀[0;1;37m▀[0;36m▀[0;1;37m▀▀▀ ▀[0m      [1;37m▀▀  [0;36m▄[0;1;37;46m▒▒[0;1;37;40m▀  [0;36m▀▀   ▀[0m        [36m▀[0;1;37m▀[0;36m▀[0;1;37m▀▀   ▀[0;1;37;46m▒▒[0;36m▄▀ [0;1;37m▀ ▀    ▀[0;36m▀[0m     [36m▀[0;1;37m▀[0m
                            [36m▀[0m                            [36m▀[0m
 
-[36m [0;1;37m┌[0m─[1;30m─ [0mT H E  S A N I T A R I U M [1;30m- [0m408[1;30m-[0m944[1;30m-[0m9269 ─[1;30m──────────────────────────────┐[0m
+[36m [0;1;37m┌[0m─[1;30m─ [0m                           [1;30m  [0m   [1;30m [0m   [1;30m [0m     ─[1;30m──────────────────────────────┐[0m
 [1;30m [0;1;37m├[0m─[1;30m─ [0mSysOp[1;30m: [0mDoctor Death [1;30m[[0mVEN[1;30m] § [0mCoSysOp[1;30m: [0mMidnight Shadow ─[1;30m───────────────────┤[0m
 [1;30m [0;1;37m├[0m─[1;30m─ [0mLatest Version Of ViSiON[1;30m/[0m2 [1;30m§ [0mConsole Discussion ─[1;30m────────────────────────┤[0m
 [1;30m [0;1;37m├[0m─[1;30m─ [0mVEN[1;30m/[0mLancelot [1;30m][ [0mMember Board [1;30m§ [0mTrue Zero Day Wares ─[1;30m─────────────────────┤[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 117bf964a7ba3d34f07cab48087a444f144328dc80ca87764570eec488f97274
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DNEST.ANS by Nemesulku (n__pack2); released in n__pack2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -57,6 +57,6 @@ Write-Host '
 
                [36m▄▄▄▄▄▄▄[0m                     [1;30m[[0;1;36m programming[0;1;30m ][0;1;36m [0m
 
-               [36m───────[0m           [1;30m[[0;1;37m [0;1;36mfin-(o)17-4651563 [0;36m/[0;1;37m [0;1;36m24h partyline[0;1;37m [0;1;30m][0;1;37m [0m
+               [36m───────[0m           [1;30m [0;1;37m [0;1;36m                  [0;36m [0;1;37m [0;1;36m             [0;1;37m [0;1;30m [0;1;37m [0m
 
 [1;30m::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[[0;36m8o[0;1;30m%[0;36m5o[0;1;30m]::[0m'

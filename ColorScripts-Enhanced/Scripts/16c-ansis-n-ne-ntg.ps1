@@ -5,7 +5,7 @@
 # Source SHA-256: 6d7974680e05c1654709961dacf605e2c6024a9f8781a54584b0adde505827ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NE-NTG.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
                                                [1m▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1m┌─[0m──[1;30m──[0m                              [1;30m──[0m──[1m─┐    ▐[0;1;41m▌           ▀▀▀▀[0m  [31m▄[0;1;37;41m▀▀▀▀[0;1;37;40m▄▄▄▄▄▄▄▄[0m
 |       T[1mh[0;1;30me [0mN[1mevad[0;1;30ma [0mT[1mestin[0;1;30mg [0mG[1mround[0;1;30ms[0m       |    [1m▐[0;1;41m▌ [0;1;31;41m░░░░░░░░░░░░[0;31m▀ ▄[0;1;31;41m░░░░░        [0;1;37;41m▐[0;1;37;40m▌[0m
-[1;30;40m:[0m      3[1m13-348-282[0;1;30m9 [0;1;37m╪ [0mV[1miSiON-[0;1;30mX [0mA[1mlph[0;1;30ma[0m     [1;30m:    [0;1;37;44m█[0;1;37;41m  [0;1;31;41m░░░░▒▒▒▒▒▒[0;31m▀ ▄█[0;1;31;41m▒▒▒▒░░░░░░░░░ [0;1;37;41m▐[0;1;37;40m▌[0m
+[1;30;40m [0m       [1m          [0;1;30m  [0;1;37m╪ [0m [1m      [0;1;30m  [0m [1m   [0;1;30m [0m     [1;30m     [0;1;37;44m█[0;1;37;41m  [0;1;31;41m░░░░▒▒▒▒▒▒[0;31m▀ ▄█[0;1;31;41m▒▒▒▒░░░░░░░░░ [0;1;37;41m▐[0;1;37;40m▌[0m
 [1;30;40m·[0m        F[1melon[0;1;30my[0mN[1mE[0;1;30mT [0mH[1mu[0;1;30mb [0;1;37m╪ [0m1[1m20[0;1;30m0 [0mM[1meg[0;1;30ms[0m       [1;30m·    [0;1;37;44m█[0;1;37;41m  [0;1;31;41m░░▒▒[0;1;31;40m▓▓▓[0;1;31;41m▓▓▓▒[0;31m▄ ▀[0;1;31;41m▓▓▒▒▒▒[0;1;31;40m▓▓▓[0;1;31;41m▒▒░░ [0;1;37;41m▐[0;1;37;40m▌[0m
                                               [1;37;44m█[0;1;37;41m  [0;1;31;41m░░▒▒[0;1;31;40m▓▓[0;1;31;41m▓▓▓▒▒░▓[0m [31m▀█[0;1;31;41m▓▓▒▒[0;1;31;40m▓▓▓[0;1;31;41m▒▒░░ [0;1;37;40m█[0m
 [1;30;40m·[0m            i[1mC[0;1;30mE [0mS[1mitescussion[0;1;30ms[0m           [1;30m·   [0;1;37m▐[0;1;37;41m▌ [0;1;31;41m░░▒▒[0;1;31;40m▓▓[0;1;31;41m▓▓▓█▒▒░▓[0;31m█▄ ▀[0;1;31;41m▓░▒[0;1;31;40m▓▓▓[0;1;31;41m▒▒░░ [0;1;37;40m█[0m

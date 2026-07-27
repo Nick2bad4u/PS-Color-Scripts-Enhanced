@@ -5,24 +5,12 @@
 # Source SHA-256: efe60ee958f90609ae80498c42e498078d0ffbefc1e566f27f130ba7519fe262
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-CRYPT.ANS by The Guardian (ensigm); released in ensigm and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 42-82
 # Columns: 1-80
 
 Write-Host '
-[1;30m                [0;32m        [0;1;32m        [0;1;37m                [0;1;32m        [0;32m         [0;1;30m            [0m
-[1;30m                [0;32m        [0;1;32m        [0;1;37m                [0;1;32m        [0;32m        [0;1;30m                [0m
-[1;30m                [0;32m        [0;1;32m         [0;1;37m               [0;1;32m        [0;32m        [0;1;30m           [0m
-[1;30m                [0;32m        [0;1;32m        [0;1;37m                [0;1;32m        [0;32m        [0;1;30m                [0m
-[1;30m                [0;32m        [0;1;32m        [0;1;37m                [0;1;32m         [0;32m        [0;1;30m          [0m
-[1;30m                [0;32m        [0;1;32m         [0;1;37m               [0;1;32m        [0;32m        [0;1;30m              [0m
-[1;30m                 [0;32m       [0;1;32m         [0;1;37m               [0;1;32m         [0;32m       [0;1;30m               [0m
-[1;30m                [0;32m         [0;1;32m       [0;1;37m                 [0;1;32m        [0;32m       [0;1;30m               [0m
-[1;30m                [0;32m        [0;1;32m        [0;1;37m                 [0;1;32m       [0;32m         [0;1;30m              [0m
-[1;30m                 [0;32m       [0;1;32m        [0;1;37m                [0;1;32m        [0;32m        [0;1;30m              [0m
-[1;30m                [0;32m        [0;1;32m        [0;1;37m                [0;1;32m        [0;32m        [0;1;30m              [0m
-               [1;30m [0;32m        [0;1;32m        [0;1;37m                 [0;1;32m       [0;32m        [0;1;30m [0m
-[1;31;41m▓[0m  [1;30;40m             [0;32m        [0;1;32m        [0;1;37m                 [0;1;32m       [0;32m        [0;1;30m            [0m   [1;31;41m░[0m
+[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;31;41m▓[0m  [1;30;40m             [0;32m        [0;1;32m        [0;1;37m                 [0;1;32m       [0;32m        [0;1;30m            [0m   [1;31;41m░[0m
 [1;31;41m▓[0m  [1;30;40m              [0;32m        [0;1;32m       [0;1;37m                [0;1;32m         [0;32m       [0;1;30m            [0m   [1;31;41m░[0m
 [1;31;41m█[0m                             [1;32;40m  [0;1;37;40m                [0;1;32;40m [0m                              [1;31;41m▒[0m
 [1;31;41m█[0m              [1;31;41m░[0m          [1;31;41m█[0m                             [1;31;41m▓[0m        [1;31;41m█[0m             [1;31;41m▒[0m

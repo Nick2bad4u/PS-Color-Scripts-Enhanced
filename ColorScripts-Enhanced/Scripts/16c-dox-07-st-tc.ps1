@@ -5,7 +5,7 @@
 # Source SHA-256: 378e9891f50648511491a435c45a2fd20de96dac50a7ff10ff0b49ed8bc274af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-TC.ANS by soul trader (dox); released in dox_07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the core!...
 # SAUCE Author: soul trader
 # SAUCE Group: dox
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [31m                                                                          [0m
-
+[31m[0m
                 [31m▄▄▄▄▄▄▄▄▄[0;30;41m░[0;31;40m▓▀▀▀▀▀▀▀▀▀██  [0m   [31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
       [31m▄▄▄▄▄▄▄▄▄ ██▀▀▀▀▀▀▀▀▀[0;1;33m ███████ [0;30;41m░[0;31;40m▓███████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██[0m
     [31m  ██▀▀▀▀▀▀▀▀▀▀[0;1;33m [0;33m█[0;1;33m███████[0;1;33;43m▀[0;1;33;40m███████  [0;33m▄[0;1;33m▄▄▄▄▄▄▄▄███████▀▀[0;1;33;43m▀[0;1;33;40m███[0;1;33;47m████[0;1;33;40m [0;31m██░[0;30;41m▓[0m

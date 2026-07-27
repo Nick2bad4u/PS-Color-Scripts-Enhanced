@@ -5,7 +5,7 @@
 # Source SHA-256: e92fbc961a0c6320a4e2a53cd063b6b54009e68e887970ba4470c3956fa672eb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BE-PR1.ANS by Beastie (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Packaged Rebellion
 # SAUCE Author: Beastie
 # SAUCE Group: ACiD Productions
@@ -57,6 +57,5 @@ Write-Host '
           [34m▐[0;1;34;44m▒▓[0;34m▌[0m         [34m▄[0m           [34m▀[0m                     [1;31m▀▀▀[0;1;31;41m█[0m
            [34m▀▀[0m         [34m▐[0;1;34;44m▒[0;34m▌[0m
 [1;30m▀ ▀▀ ▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;34m▀ [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀ ▀▀ ▀[0m
-             [1;30m                 [0m  [1;30m                   [0m  [1;30m                [0m 
-           [1;30m·· [0mA  L  i  V  E [1;30m·· [0mW o r l d [1;30m·· [0mH e a d Q u a r t e r s [1;30m··[0m
+[1;30m[0m[1;30m[0m[1;30m[0m           [1;30m·· [0mA  L  i  V  E [1;30m·· [0mW o r l d [1;30m·· [0mH e a d Q u a r t e r s [1;30m··[0m
 [1;30m▄ ▄▄ ▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄ ▄▄ ▄[0m'

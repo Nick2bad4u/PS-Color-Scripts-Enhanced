@@ -5,7 +5,7 @@
 # Source SHA-256: a53bdfc12965b560d82d6d416360230b5ab19650dea5f12f24d89b8b9b057fbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bs-spknt.ans by burps (fuel); released in fuel23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: spooknet
 # SAUCE Author: burps
 # SAUCE Group: fuel
@@ -30,8 +30,7 @@ Write-Host '
 [1;30m  ▓▓▓▓▌   [0ma PHATstar production  [1;30m▐▓▓▓▓▌ [0;1;37;47m▌▒▒[0;1;37;40m [0m▐[1;47m▒▒[0m▌ [1;47m▒▒▒[0m▀▀▀▀  [1;47m▒▒▒[0;1;40m  [0;1;47m▒▒[0;1;31;40m [0;1;30;40m▐▓▓▓▓▓▓▓▓▓▓[0m
 [1;30;40m  ▀▀▀▀[0m                           [1;30m▀▀▀▀▀ [0m▐█[1;47m░[0m▌ [1;47m░░░[0;1;40m   [0m▀▀[1;47m░░░[0m▌   ▀▀█[1;47m░░[0m▌ [1;30m▀▀▀▀▀▀▀▀▀▀▀[0m
 
-[1;30m    [0;31m                                                                       [0m
-[31m  [0;1;30m▄[0m                                                                         [1;30m▄[0m
+[1;30m[0;31m[0m[31m  [0;1;30m▄[0m                                                                         [1;30m▄[0m
 [1;30m  █▓ ▄[0m                                                                   [1;30m▄ ▓█[0m
 [1;30m  █▓ █  [0m                                                                 [1;30m█ ▓█[0m
 [1;30m  █▓ █  [0m                                                                 [1;30m█ ▓█[0m

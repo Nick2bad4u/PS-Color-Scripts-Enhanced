@@ -5,7 +5,7 @@
 # Source SHA-256: 1723ea6e62638e4dc62618e334933871242cf3d525af63a630581c2ed6907a54
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RO-SNDB1.ANS by Finn Maccool (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -44,7 +44,7 @@ Write-Host '
 [1;32;42m▄  [0m █[47m [0;1;47m▀[0;1;40m██  [0;1;32;40m▄██████[0;1;32;42m▄  [0m ███[1m██ [0;1;30m▀ [0;34m█[0;34;44m [0;1;36;44m│ [0;1;31;44mDareDevil[0m ▀█▄[1m█▀ [0;34m▄█████[0;34;44m  [0;34;40m▄ [0;1;35;40m▀▀  [0;34m▀  [0;1;35m▀████▄ [0;34m▀▀▀▀▀▀[0m
 [1;32;42m▀  [0;32m▄ [0;37m██[0;1;37m███ [0;1;32m███████[0;1;32;42m▀  [0;32m▄ [0;37m██[0;1;37m███ [0;34m██[0;34;44m [0;1;36;40m│[0m           [34m▄▄▄▄▄██████[0;34;44m      [0;34;40m█ [0;1;30;47m▀▀▀[0;1;30;40m▀ [0;1;35;40m█████ [0;1;30;47m▀▀▀▀▀▀[0m
 [1;30;42m  [0m [1;30;40m▄ [0m██[1;47m▀[0;1;40m██ [0;1;32;40m▀█████[0;1;32;42m▀  [0m [1;30;40m▄ [0m██[1m███ [0;34m▀█[0;34;44m [0;1;36;44m│[0;34m█[0;1;37;44mPublic Domain/SB Music Files[0m ▀▀ [1;35m▄████▀ [0m▄[34;47mARRIER[0m
-[34;42m [0m [1;30;40m▄█▄ [0m██[1m███ [0;1;32m████[0;1;32;42m▀  [0m [1;30;40m▄█▄ [0m██[1m███ [0;34m█[0;34;44m [0;1;36;44m│[0;34m█[0;1;37;44mCall Now! 1.718.979.6629    [0m [1;35;40m▀▀▀▀▀ [0;1;37;40m▄▄▄[0;1;37;47m▄▄▄▄▄▄▄▄[0m
+[34;42m [0m [1;30;40m▄█▄ [0m██[1m███ [0;1;32m████[0;1;32;42m▀  [0m [1;30;40m▄█▄ [0m██[1m███ [0;34m█[0;34;44m [0;1;36;44m│[0;34m█[0;1;37;44m                            [0m [1;35;40m▀▀▀▀▀ [0;1;37;40m▄▄▄[0;1;37;47m▄▄▄▄▄▄▄▄[0m
  [1;30;40m▄███ [0m██[47m [0;1;40m██ [0;1;32;40m▀█[0;1;32;42m▀▀  [0m [1;30;40m▄███ [0m███[1m██ [0;34m▀[0;34;44m [0;1;36;44m│ [0;1;33;44mThe Sound Barrier BBS offers yet  [0;34m▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30m▄████▄ [0m██[47m [0;1;40m██ [0;1;42m [0;1;32;40m▀▀▀ [0;1;30;40m▄████▄ [0m██[47m [0;1;40m██ [0;34m█[0;1;36;44m└ [0;1;33;44manother reason to[0;34m█[0;1;33;44mbuckle[0;34m█[0;1;33;44myour seat belt.      [0m
 [1;30;40m██▀▀ [0m▄▄██[1;47m█[0;1;40m██▄▄ [0;1;30;40m▀▀███▀▀ [0m▄▄█[1;47m▄[0;1;40m███▄▄ [0;34m▀[0;1;36;44mGet ready to be blown away!      [0;34m▀▀ [0;1;33m▄ [0;34m▀▀██████[0m

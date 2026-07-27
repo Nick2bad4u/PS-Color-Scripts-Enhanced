@@ -5,7 +5,7 @@
 # Source SHA-256: 9bd34596a14562d7a94b5778572cf1de8204649ee7c44f68df0ac77b0230566d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VL-INSAN.ANS by Valiant (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 93-136
 # Columns: 1-80
 
@@ -52,5 +52,4 @@ Write-Host '
  │[1m██████████████▀ [0m│[1m██████████████▀ [0m│[1m█████████████   [0m█       [1;30mA[0mNS[1mi [0;1;30mD[0mon[1me [0;1;30mB[0my[1m:[0m
                                                     █         [1;30m [0m [1m   [0m [1;30m┼[0m
 [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-      [1;30m [0m  [1m   [0;1;30m [0m  [1m  [0;1;30m [0m  [1m  [0;1;30m [0m [1m  [0;1;30m [0m   [1;30m [0m [1m [0;1;30m  [0;1m  [0m
-[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▄▄▄▄▄▄▄▄▄  ▄  ▄[0m'
+[1;30m[0m[1m[0;1;30m[0m[1m[0;1;30m[0m[1m[0;1;30m[0m[1m[0;1;30m[0m[1;30m[0m[1m[0;1;30m[0;1m[0m[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▄▄▄▄▄▄▄▄▄  ▄  ▄[0m'

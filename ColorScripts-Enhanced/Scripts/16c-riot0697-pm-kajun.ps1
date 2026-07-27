@@ -5,7 +5,7 @@
 # Source SHA-256: 6b4481ef8e191f567161b13db5058303f5283a997d3dd3dd8751b8309aae1f39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-KAJUN.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -24,8 +24,7 @@ Write-Host '
 [1;33m$$$[0;1;35m ²°"²°"[0;35m²°"²°,[0;37m [0;1;33m$[0m [1;35m²''[0m [1;33m..$$$$$$$$$$$$$$$$..$$$$$$[0m [1;35m`, o$[0;35m$[0;37m [0;1;33m$$$$$$$$$$$$$$$$$$[0;1;33;44m$[0;1;33;40m$$$$$[0m
 [1;33;40m$$$$$$$$$$$$$$$.$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m [1;35m.,o[0;1;35;45m$[0;35m$[0;37m [0;1;33m$$$$$$$$$$$$$$$$$$$$$$$$[0m
                                                  [1;35mo$[0;35m$$,.[0m
-                       [31m         [0m               [1;35m  [0;35m   [0m
-                                             [1;35mo$[0;35m$$²,[0m
+[31m[0m[1;35m[0;35m[0m                                             [1;35mo$[0;35m$$²,[0m
                                             [1;35m$[0;1;35;45m$[0;35m$²''[0m
                                         [35m    [0m
 

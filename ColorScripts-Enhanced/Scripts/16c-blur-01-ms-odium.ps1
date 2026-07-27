@@ -5,7 +5,7 @@
 # Source SHA-256: 52928e9e4d4196d3456c62f5467531da36dca403d6609f00abea7878451bdcac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MS-ODIUM.ANS by mR.sAndMaN (Blur...); released in blur-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Oh-dee-yummm! promo!
 # SAUCE Author: mR.sAndMaN
 # SAUCE Group: Blur...
@@ -59,6 +59,4 @@ Write-Host '
 
 
                                           [31m   [0m
-                            [1;31m                      [0m
-                               [1;31m                [0m
-                                    [1;31m 1996[0m'
+[1;31m[0m[1;31m[0m                                    [1;31m 1996[0m'

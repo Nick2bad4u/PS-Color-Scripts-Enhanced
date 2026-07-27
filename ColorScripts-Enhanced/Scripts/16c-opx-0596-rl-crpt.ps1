@@ -5,7 +5,7 @@
 # Source SHA-256: 142e7b2f12ca5b539f0a3a7d077189b552a650a37ceb60f4bc68d16a08dab34a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL!-CRPT.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Corrupt System
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -32,8 +32,7 @@ Write-Host '
  [1;35m ▀[0;35m [0;37m███▄[0;1;35m [0;35m█[0;1;35m██[0;1;35;45m▓[0;1;35;40m█ [0m█▀▀ [35m▄[0;1;35;45m▄[0;1;35;40m██▀[0;35m [0;1;35;45m▄[0;1;35;40m█▀▀[0;1;34;40m [0m▄[1;35m █▄[0m ▀█▄ [35m█[0;1;35m████ [0m▄[1;35m [0;35m▀[0;1;35m▀[0;35m▄[0;1;35m▄[0;35m ▄[0;1;35m▄▀▀▀[0;35m [0;1;35m▄██[0;35m [0;37m▄▄▄▄▄▄▄▄▄▄██▓███▀[0m
 [37m [0;1;35m█ [0m▀██▀ [35m▄[0;1;35;45m▄[0;1;35;40m██▀▀[0;35m▄[0;1;35m▄▄[0;1;35;45m▄▄[0;1;35;40m▀▀ [0m▄▄▄▄▄▄██▓▄ [35m▀[0;1;35m▀[0;35m▄[0;1;35m▄[0;35m ▄[0;1;35m▄▀▀▀[0;35m [0;37m ▓██▄ ▄▄▄ ▄ [0;35m▄[0;1;35;45m▄[0;1;35;40m███▄ [0m███▀███▓██████▀▄
 [33m▄[0;1;33m [0;1;35m▀ ▄▄▄[0;1;35;45m▄[0;1;35;40m█▀▀[0;1;34;40m [0;33m▓▄[0;1;35m [0;35m█[0;1;35m█▀[0;1;34m [0;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[37m     [0;35m [0;1;35m  [0m  [1;35m     [0;35m  [0;1;35m    [0m                                          [1;30m                [0m
-           [1m                  [0;1;30mA F F I L I A T E S[0m
+[37m[0;35m[0;1;35m[0m[1;35m[0;35m[0;1;35m[0m[1;30m[0m           [1m                  [0;1;30mA F F I L I A T E S[0m
            [1m [0m O P I U M   G F X [1m [0m [33mW O R L D H E A D Q U A R T E R  [0;37m  [0m
            [1;37m [0m I N F L U E N C E  [33mD I S T R I B U T I O N  S I T E  [0;37m  [0m
            [37m                                                         [0m
@@ -46,8 +45,7 @@ Write-Host '
            [37m    [0;33m  U S R  C O U R I E R  V . 3 4   3 3 6 0 0    [0;37m      [0m
 
              [1;30mT H E   P H O N E N U M B E R   T O   T H E  B B S [0m
-[33m [0m                    [33m+ 4 6 - ( 0 ) 2 2 5  -  2 0 0 0 5[0m
-
+[33m[0m[33m[0m
 
 
                  [37mA N S I   B Y :  R A W L O C K  -  O P I U M [0m'

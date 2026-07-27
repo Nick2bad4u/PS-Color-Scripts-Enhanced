@@ -5,7 +5,7 @@
 # Source SHA-256: f1060b5734cd6ff6954447b64b37d3bfb737718cbffd3b92db29755bcc0456ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FN-TKEEP.ANS by Fusion (acdu0693); released in acdu0693 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -42,9 +42,9 @@ Write-Host '
 [1;30m    ▒ ▒░   [0;31m▀▀[0;1;33;41m▓[0;1;33m█[0;1m▌ [0;1;30;47m▓▒[0m      [1;30;47m▓▒[0m      [1;30;47m█▓[0m [31m▄[0;1;30;41m░ [0;31m▀ [0;1;33;41m▒[0;1m▀   [0;1;47m▒░[0m         [1;31mT[0;31mh[0;1;30me [0;1;31mK[0;31mee[0;1;30mp[0m          [1;30m░░[0m
 [1;30m    ░ ▓▒[0m     [1;33m█▀  [0;1;30;47m▒░[0m      [1;30;47m▒░[0m   [1m▄▌ [0;1;30;47m▓▄[0;1;30;41m▒░[0;31m▀[0;1;30m▒[0;31m■▀[0m     [1;47m░ [0m                           [1;30m░▒[0m
       [1;30m█▓    [0;1;33m▀  [0;1;30m▀▀▀▀▀▀▀[0;1;30;41m█▓▒░ [0;1;33;41m░▒▓[0;1;33m█[0;1m█[0;1;30m▄▓[0;1;30;47m▀[0;1;30m▀  ░ [0;1;33m▄[0;1m▌    [0;1;47m [0;1;30;47m░[0m       [1;31mR[0;31munnin[0;1;30mg [0;1;31mV[0;31mBB[0;1;30mS[0m        [1;30m▒▒[0m
-      [1;30;47m▓█[0m         [1;30m▒░   ▒  ▒░[0;31m▀▀[0;1;33;41m▓[0;1;33m█[0;1m▌ [0;1;30;47m▓▓[0m [31m▀[0;1;33;41m░▒▓[0;1;33m█[0;1m█    [0;1;30;47m░▒[0m   [1;31m2[0;31m0[0;1;30m3[0;31m-[0;1;31m3[0;31m4[0;1;30m8[0;31m-[0;1;31m0[0;31m77[0;1;30m6 [0;1;31m(n[0;31mod[0;1;30me  [0;31m1[0;1;30m)  ▒▓[0m
+      [1;30;47m▓█[0m         [1;30m▒░   ▒  ▒░[0;31m▀▀[0;1;33;41m▓[0;1;33m█[0;1m▌ [0;1;30;47m▓▓[0m [31m▀[0;1;33;41m░▒▓[0;1;33m█[0;1m█    [0;1;30;47m░▒[0m   [1;31m [0;31m [0;1;30m [0;31m [0;1;31m [0;31m [0;1;30m [0;31m [0;1;31m [0;31m  [0;1;30m  [0;1;31m  [0;31m  [0;1;30m   [0;31m [0;1;30m   ▒▓[0m
       [1;30;47m░▒[0m         [1;30m▓▒   ░  ▓▒  [0;1;33m█▀  [0;1;30;47m▒▒ [0m    [1;33m▀▌    [0;1;30;47m▒▓[0m                [1;31m(v[0;31m.32bi[0;1;30ms)  ▓▓[0m
-      [1;30;47m ░[0m         [1;30m█▓[0m      [1;30m█▓ [0;1;33m▀    [0m▀[1;30;47m▒░ [0m▄▄   [1m▄▌  [0;1;30;47m▓[0;1;30m█   [0;1;31m2[0;31m0[0;1;30m3[0;31m-[0;1;31m3[0;31m4[0;1;30m8[0;31m-[0;1;31m5[0;31m72[0;1;30m6 [0;1;31m(n[0;31mod[0;1;30me [0;31m2[0;1;30m)   ▓█[0m
+      [1;30;47m ░[0m         [1;30m█▓[0m      [1;30m█▓ [0;1;33m▀    [0m▀[1;30;47m▒░ [0m▄▄   [1m▄▌  [0;1;30;47m▓[0;1;30m█   [0;1;31m [0;31m [0;1;30m [0;31m [0;1;31m [0;31m [0;1;30m [0;31m [0;1;31m [0;31m  [0;1;30m  [0;1;31m  [0;31m  [0;1;30m  [0;31m [0;1;30m    ▓█[0m
      ▐[1;47m░ [0m        [1;30m▐[0;1;30;47m▓[0;1;30m█[0m     [1;30m▐[0;1;30;47m▓[0;1;30m█[0m        ▀▀[1;47m ░ ░▒▓[0;1m█  [0;1;30m██[0m               [1;31m(H[0;31mS[0;1;30mT[0;31m/[0;1;31mD[0;31mua[0;1;30ml)  ██[0m
      ▀[1;47m▒[0;1m▀[0m        [1;30m▀[0;1;30;47m▒[0;1;30m▀[0m     [1;30m▀[0;1;30;47m▒[0;1;30m▀[0m             ▀[1;47m▓[0;1m█▌  [0;1;30m██[0m         [1;31m2[0;31m00[0;1;30m+ [0;1;31mM[0;31meg[0;1;30ms[0m         [1;30m██[0m
         [1m▐[0m           [1m▐[0m          [1m▐[0m         [1m█▀   [0;1;30m██[0m                           [1;30m██[0m

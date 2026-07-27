@@ -5,7 +5,7 @@
 # Source SHA-256: c442a11d2f2a2e96d037455ac64a9966ed8fdbf9e12b73ab1638929e3c8e09a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPS-FROG.ANS by Sir Psycho Sexy (CaNCeR Productions); released in cnc-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Frogstar
 # SAUCE Author: Sir Psycho Sexy
 # SAUCE Group: CaNCeR Productions
@@ -46,7 +46,7 @@ Write-Host '
            [35;45m [0m                                                        [35;45m [0m
            [1;35;45m░[0m                     [1;37;40m [0;1;35;40m [0;35m        [0;1;35m [0;1;37m [0m                       [1;35;45m░[0m
            [1;35;45m▒[0m       [1;37;40m [0;1;35;40m [0;35m  [0;1;30m                                  [0;35m [0;1;35m [0;1;37m [0m        [1;35;45m▒[0m
-           [1;35;45m▒[0m            [1;37;40mN[0;1;35;40mO[0;35mD[0;1;30me 1: 6o9-926-o963 28.8K V[0;35m.[0;1;35mF[0;1;37mC[0m             [1;35;45m▒[0m
+           [1;35;45m▒[0m            [1;37;40m [0;1;35;40m [0;35m [0;1;30m                         [0;35m [0;1;35m [0;1;37m [0m             [1;35;45m▒[0m
            [1;35;45m▓[0m          [1;37;40m [0;1;35;40m [0;35m [0;1;30m                             [0;35m [0;1;35m [0;1;37m [0m           [1;35;45m▓[0m
            [1;35;45m▓[0m          [1;37;40m [0;1;35;40m [0;35m [0;1;30m                              [0;35m [0;1;35m [0;1;37m [0m          [1;35;45m▓[0m
            [1;35;45m█[0m      [1;37;40m [0;1;35;40m [0;35m [0;1;30m                                      [0;35m [0;1;35m [0;1;37m [0m      [1;35;45m█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b225714f8d081c5a0b428185010025b8c52837925e646a8a67864447337df01d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-IDENT.ANS by Living Death (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: iDENTiTY LOGO
 # SAUCE Author: Living Death
 # SAUCE Group: iDENTiTY
@@ -40,7 +40,6 @@ Write-Host '
              [1;34;46m░░[0m  [1;34;46m░░[0m   [1;34;46m▒[0m [1;34;46m░░[0m    [1;34;46m░░[0m [1;34;46m░[0m [1;34;46m░[0m   [1;34;46m░░[0m   [1;34;46m░░[0m   [1;34;46m░░[0m    [36m▐[0;1;34;46m▒[0m
              [1;34;46m░░[0m  [1;34;46m░░[0m  [36m▄[0;1;34;46m░[0m [1;34;46m░░[0m    [1;34;46m░░[0m [1;34;46m░[0;36m▄[0;1;34;46m░[0m   [1;34;46m░░[0m   [1;34;46m░░[0m   [1;34;46m░░[0m    [36m▐[0;1;34;46m░[0m
              [1;34;46m░░[0m  [1;34;46m░░░░[0;36m▀  [0;1;34;46m░░░░░[0m [1;34;46m░░[0m [36m▀[0;1;34;46m░░[0m   [1;34;46m░░[0m   [1;34;46m░░[0m   [1;34;46m░░[0m    [36m▐[0;1;34;46m░[0m         [1;37;40mLi[0;1;32;40mvi[0;32mng D[0;1;32mea[0;1;37mth[0m
-                                                                  [32m [0;1;32m [0;1;37m        [0;1;32m [0;32m [0m
-
+[32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0m
 [1;34;46m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

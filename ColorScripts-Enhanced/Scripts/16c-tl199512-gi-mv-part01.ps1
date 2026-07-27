@@ -5,7 +5,7 @@
 # Source SHA-256: 456769aa5b57bb9841f910116656484062c31952948ebe9c42daafe7c38d41c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GI-MV.ANS by Gigantor (TekLordZ); released in tl199512 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Malvolence
 # SAUCE Author: Gigantor
 # SAUCE Group: TekLordZ
@@ -20,8 +20,7 @@ Write-Host '
 
 
 
-                                  [34m        [0m                 [1;37m    [0m
-                      [1;30mgi![0m [34m,ssiil$$$$$$$$$$$$lllis.[0m       [1;37m  ,$s [0m
+[34m[0m[1;37m[0m                      [1;30mgi![0m [34m,ssiil$$$$$$$$$$$$lllis.[0m       [1;37m  ,$s [0m
     [1;37m ,s.[0m              [34m,sil$$$$$$$$$$$$$$$$$$$$$$$$$s.[0;1;37m    ,i$$sS, [0m
     [1;37ml$$$a.[0m        [34m ,si$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$s.[0;1;37ms$$$$$$²"[0m
     [1;37mss.`²$a.[0m    [34m ,i$$$$$$$$$$$$$$$$$$$²""""""""²$$$$$$$s.[0;1;37m$$$$s$$²[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 7bd278e38340a266cdb4190366a720883f6ac1cddfa0a27f6891ba73414edd6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-MAKE.ANS by catch22 (glue); released in glue-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: make smake
 # SAUCE Author: catch22
 # SAUCE Group: glue
@@ -15,9 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m                               [0m
-[1;30m                               [0m
-
+[1;30m[0m[1;30m[0m
 
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 7c0fcdbf008d2413cd06ac1f84e730c24600e1cb9b7f94513e0fd261122c89e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WB-ON.ANS by Warblade (cnc-0694); released in cnc-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -51,12 +51,7 @@ Write-Host '
                 [1;31;41m▒[0m [1;31;41m▒▒[0m             [31mS[0;1;31m: [0;1;37mREPTiLE [FA┼[0;1;31mE[0;31m][0m           [1;31;41m▒▒[0m [1;31;41m▒[0m
                [30;41m▀▀▀[0;1;31;41m▒▒[0;30;41m▀[0m     [31;40mE[0;1;31;40m. [0;1;37;40mNORMUS JOHNSON [CaNCeR\FA┼[0;1;31;40mE[0;31m]   [0;30;41m▀[0;1;31;41m▒▒[0;30;41m▀▀▀[0m
                             [31;40m [0;1;31;40m [0;1;37;40m                      ┼[0;1;31;40m [0;31m [0m
-                              [31m [0;1;31m [0;1;37m                   [0;1;31m [0;31m [0m
-                                 [31m [0;1;31m [0;1;37m            [0;1;31m [0;31m [0m
-                                  [31m [0;1;31m [0;1;37m┼         [0;1;31m [0;31m [0m
-                                    [31m [0;1;31m [0;1;37m      [0;1;31m [0;31m [0m
-                                  [31m [0;1;31m [0;1;37m         [0;1;31m [0;31m [0m
-                                    [31m [0;1;31m [0;1;37m     [0;1;31m [0;31m [0m
-               [30;41m▄▄▄[0;1;31;41m▒▒[0;30;41m▄[0m          [31;40mQ[0;1;31;40mU[0;1;37;40mALITY MEMBERS ON[0;1;31;40mL[0;31mY[0m         [30;41m▄[0;1;31;41m▒▒[0;30;41m▄▄▄[0m
+[31m[0;1;31m[0;1;37m[0;1;31m[0;31m[0m[31m[0;1;31m[0;1;37m[0;1;31m[0;31m[0m                                  [31m [0;1;31m [0;1;37m┼         [0;1;31m [0;31m [0m
+[31m[0;1;31m[0;1;37m[0;1;31m[0;31m[0m[31m[0;1;31m[0;1;37m[0;1;31m[0;31m[0m[31m[0;1;31m[0;1;37m[0;1;31m[0;31m[0m               [30;41m▄▄▄[0;1;31;41m▒▒[0;30;41m▄[0m          [31;40mQ[0;1;31;40mU[0;1;37;40mALITY MEMBERS ON[0;1;31;40mL[0;31mY[0m         [30;41m▄[0;1;31;41m▒▒[0;30;41m▄▄▄[0m
                 [1;31;41m▒[0m [1;31;41m▒▒[0m              [31m0[0;1;31m-[0;1;37m7 DAY WAR[0;1;31mE[0;31mZ[0m              [1;31;41m▒▒[0m [1;31;41m▒[0m
                 [30;41m▄▄▄▄▄[0m                                       [30;41m▄▄▄▄▄[0m'

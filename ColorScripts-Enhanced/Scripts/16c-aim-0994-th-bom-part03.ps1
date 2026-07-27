@@ -5,7 +5,7 @@
 # Source SHA-256: 85f01c60dbbaaa565b4b65d867a4f8b53b22a3a9e59780e40086e815973bb016
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-BOM.ANS by Threshold (aim-0994); released in aim-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 98-143
 # Columns: 1-80
 
@@ -48,10 +48,8 @@ Write-Host '
 
                [34m   [0m     [34mB[0;37m  [0;1;34mU[0m  [1;34mR[0m  N  [1mO  U  T   [0m M  [1;34mO[0m  [1;34mD[0m  [34mE[0m
 
-                        [37m [0m       [34m [0;1;34m  [0m [1m [0m [1m    [0m [1;34m  [0;34m [0m
-
-                           [34m [0;1;34m  [0m [1m                 [0m [1;34m  [0;34m [0m
-
+[37m[0m[34m[0;1;34m[0m[1m[0m[1m[0m[1;34m[0;34m[0m
+[34m[0;1;34m[0m[1m[0m[1;34m[0;34m[0m
                               [37m  [0m  [34m2[0;1;34m8[0m.[1m8[0m [1mVF[0mA[1;34mS[0;34mT[0m
 
 [1;30m ─ ──  ───   ─────────────────────────────────────────────────────   ───  ──  ─ [0m

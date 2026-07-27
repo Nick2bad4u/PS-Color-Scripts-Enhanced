@@ -5,7 +5,7 @@
 # Source SHA-256: bdc9c05855f297c9e0241bf07ace80bcd21f1a52b099a9f0c1110286305fbd21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SHIVER-2.ANS by Shattered Link (Shiver Productions); released in axelgear and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shiver Piece Number Two
 # SAUCE Author: Shattered Link
 # SAUCE Group: Shiver Productions
@@ -50,5 +50,4 @@ Write-Host '
                [1;30m░[0m                 [1;30m░[0m                [1;30m▒[0m
 [1;31m▄[0;31m▄▄ [0;1;37ma   [0;1;30m▓   [0mr  [1;30m▒    [0mm  [1;30m░    [0ma    [1;30m▒  [0mg       g [1;30m░   ▀ [0me   [1;30m░   [0md  [1;30m▓    [0mo  [1;30m▓   [0;1;37mn [0;31m▄▄[0;1;31m▄[0m
 [1;30m▄ [0;31m▓ [0;1;30m▄▄▄▄█▄ ▄▄▄▄▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄▄  ▄▄▄▄▄▄▄█▄▄ ▄▄▄ █▄▄▄▄ [0;31m▓ [0;1;30m▄[0m
-[1;30m  [0;31m▒[0m                                                                          [31m▒[0m
-                          [31m· [0;1;30m6 1 9 . 7 8 8 . 2 6 8 6 [0;31m·[0m'
+[1;30m  [0;31m▒[0m                                                                          [31m▒[0m[31m[0;1;30m[0;31m[0m'

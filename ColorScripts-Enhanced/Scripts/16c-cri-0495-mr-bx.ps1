@@ -5,7 +5,7 @@
 # Source SHA-256: 0e43856c94644f2929570708d8746b6c354a7cc1dfe6348e8105a326cb07ccdf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-BX.ANS by Mr. Omerta (CRiSiS); released in cri-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: BoardX ad 'gain.. unreleased.
 # SAUCE Author: Mr. Omerta
 # SAUCE Group: CRiSiS
@@ -60,8 +60,7 @@ Write-Host '
 [1m▄[0;1;47m▓▒░ [0;1;30;47m░▒▓█[0;1;30;40m▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▓█[0;1;30;47m▓▒░ [0;1;37;47m░▒▓[0;1;37;40m▄[0m
 
 [1;37;40m  [0m [1;30m                         [0m [1m [0m         [1m   [0m [1;30m                            [0m [1m [0m
-[1m  [0m [1;30m                             [0m [1m [0m      [1m [0m  [1;30m                                [0m [1m   [0m
-[1m  [0m [1;30m                              [0m [1m  [0m                   [1m■[0m [1;30m             [0m [1m■[0m
+[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0m[1m  [0m [1;30m                              [0m [1m  [0m                   [1m■[0m [1;30m             [0m [1m■[0m
 [1m  [0m [1;30m        [0m       [1;30m■          [0m [1m■[0m
 
 [1m─[0m─[1;30m───────────[0m·[1mB[0mo[1;30maRD-X B[0mB[1mS[0m·[1;30m──────────────[0m·l[1;30mogon [0ms[1;30mcreen [0mb[1;30my [0mM[1;30mr.O [0;1;37m[[0mC[1;30mRiSi[0mS[1m][0m·[1;30m──────[0m─[1m─[0m'

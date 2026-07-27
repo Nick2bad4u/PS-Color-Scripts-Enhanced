@@ -5,7 +5,7 @@
 # Source SHA-256: 3553a6307ff367aba074aac29f696876e643cbaf09be7ed268023615284353b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKL-HRX2.ANS by spike (oOps!ascii); released in oops_a05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: headers for ba
 # SAUCE Author: spike
 # SAUCE Group: oOps!ascii
@@ -46,7 +46,6 @@ Write-Host '
 [34;40m      [0;37;40m              [0;36;40m        [0;37;40m [0;31;40m╓[0;36;40m       [0;37;40m              [0;34;40m                            [0m
 [34;40m-- ------- ------------------------ - -------------------- --------- ------- --[0m
 [34;40m|[0;1;37;40m                                                  [0;34m                           |[0m
-[34m [0;1;37m [0;34m [0;1;37m [0;36m   [0;34m [0;1;37m [0m                  [1m   [0;34m [0;1;37m [0;36m   [0;34m [0;1;37m [0m                 [34m                         [0m
-[34m|[0;1;37m                                                  [0;34m                           |[0m
+[34m[0;1;37m[0;34m[0;1;37m[0;36m[0;34m[0;1;37m[0m[1m[0;34m[0;1;37m[0;36m[0;34m[0;1;37m[0m[34m[0m[34m|[0;1;37m                                                  [0;34m                           |[0m
 [34m|______________________________[0;33m  [0;37m                          [0;33m        [0;34m __________|[0m
 [34m                              //___________________________________([0m'

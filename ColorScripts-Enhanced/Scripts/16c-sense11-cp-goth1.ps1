@@ -5,7 +5,7 @@
 # Source SHA-256: 44ce82a2116484537b22f68d2adc198320337de46d344b74f8378f2bfc926641
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CP-GOTH1.ANS by cyber phreak (sense); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: goth
 # SAUCE Author: cyber phreak
 # SAUCE Group: sense
@@ -40,9 +40,5 @@ Write-Host '
     [1;47m▓░[0m▄█▄▄[1;30;47m░[0;1;37;47m█▓▓▓██▄▄[0;1;30;47m░[0m▄▄[1;30m▄[0m   [32m▀▀[0;1;32;42m░[0;1;33;42m░[0;32m▀[0;37m  [0;1;30m▄[0;1;30;47m▓░[0m  cp! [1;30m█[0;1;37;47m▀█▓[0;1;30;47m░[0;1;30;40m█[0m     [36m▀▀[0;37m █[0;1;37;47m░▓▓█▀[0m█▀▀▀▀▀  [1;30m▄▄▄[0;1;30;47m▓▒[0m
 
 [1;30m--------------------------------------------------------------------------------[0m
-                                                                         
-[1;30m [0m                                                        
-
-                                                                                
-                                                   [1;30m          [0m                  
-[1;30m--------------------------------------------------------------------------------[0m'
+[1;30m[0m
+[1;30m[0m[1;30m--------------------------------------------------------------------------------[0m'

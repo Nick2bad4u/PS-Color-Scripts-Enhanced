@@ -5,7 +5,7 @@
 # Source SHA-256: 1fa9cb31cd7035c7c7d99c6779dcf785f1dd2286709718f6ff78ec63857ddeae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-FRCE.ANS by savage (fire graphics); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: force ansi
 # SAUCE Author: savage
 # SAUCE Group: fire graphics
@@ -16,8 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m   [0m  [1m    [0m 
-                                     [35m·[0m
+[1;30m[0m[1m[0m                                     [35m·[0m
 [37m   [0;1;30m·[0m [1;30m░░░       ·░░░[0m             [31m▀[0;37;41m [0;37;40m   [0;35;40m■[0;37;40m                            [0;1;30;40m░░░░░░░░[0m
 [1m [0;1;30m■[0m▄▄[1;30;47m▀▀▀▀[0m▄    [1;30m▄[0m▄[1;30;47m▀▀▀[0m▄[1;30m■[0m      [31m▄▄[0;1;31m▄▄[0;33;41m▄[0;37;41m [0;31;40m     [0;35;40m▀[0;37;40m    [0;33;40m▄ [0;1;30;40m·■▄[0m    [1;30m▄▄[0m░░░         ▄[1m▄[0m▄[1m▄[0;1;30;47m▀▀▀▀▀▀▀[0m▄▄[1;30m■[0m
 [1;30;46m▀[0;1;36;40m▓▓▓▓[0;1;37;40m▓[0;1;37;47m▄█▄[0;30;47m■[0;1;30;47m▀[0;1;30;40m▄[0;1;30;47m▀[0;1;37;47m░[0;1;37;40m▓▓[0;1;37;47m▓▓[0;1;37;40m█[0;1;37;47m▌[0;1;30;40m·[0m▄[1;47m▄▄[0;1;40m■[0;1;30;40m▄▄[0;31m▀[0;1;31;47m▀█[0;31m▀[0;1;37m·[0;1;30m▄▄[0;35m ▄[0;35;47m▀■[0;35;40m▀·[0;1;30;40m [0;1;33;43m▄█[0;1;37;47m■[0;1;30;40m■▐[0;1;30;46m▓[0m [1;30m▄[0;1;30;47m▀[0;1;37;47m▄▄▄■[0;1;30;47m▐[0;1;30;40m·[0;1;34;40m   [0;1;30;40m▐[0;1;30;47m▌[0;1;37;47m▀▌[0m▐[1;47m▄■▐▌▐█ [0;1;40m▓▓▓▓▓▓▓▓[0;1;30;47m▀[0m

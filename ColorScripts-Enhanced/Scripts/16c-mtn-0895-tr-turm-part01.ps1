@@ -5,7 +5,7 @@
 # Source SHA-256: 9440aeae6f66a01cab159433ea819021c760e5e38c6bd47eab295f88fa82eb54
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-TURM.ANS by Tripe (Motion); released in mtn-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Turmoil Ansi Promo
 # SAUCE Author: Tripe
 # SAUCE Group: Motion
@@ -19,7 +19,7 @@ Write-Host '
        [30;47m█▀▀▀ [0;1;30;47m░▒▒▓▓▒▒░░  [0;30;47m▄▄[0m         [1;30;40mANSi by [0mTR[1mI[0mPE [1;30m[[0mMOT[1mI[0mON[1;30m][0m
 [1;30m    ▄▄[0;1;30;47m▒░░░   ░▒▒▓▓[0;1;30;40m▀▀▀[0;30;47m██[0;1;37;47m▒░[0;30;47m▀[0m                                                    [1;30;40m░[0m
 [1;30;40m  ▄[0;1;30;47m██▓▓▒▒░░ [0;30;47m▄ [0;1;30;47m░░▒[0;1;30;40m▌   [0;1;37;40m▄[0;1;37;47m▓▓▒[0;30;47m▄[0m    [1;30;40m░   Even though i suck at ansi, i take requests ▒[0m
-[1;30;40m ▀  ▀▀[0;1;30;47m█▓▒[0;30;47m▄[0m   [30;47m▌  [0;1;30;47m░[0;30;47m▐[0m [1;37;40m▀▀▀▀[0m       [1;30;40m▒ at: [0mTRIPE[1;30m@[0mNOVASYS[1;30m.[0mCOM                         [1;30m▓[0m
+[1;30;40m ▀  ▀▀[0;1;30;47m█▓▒[0;30;47m▄[0m   [30;47m▌  [0;1;30;47m░[0;30;47m▐[0m [1;37;40m▀▀▀▀[0m       [1;30;40m▒     [0m     [1;30m [0m       [1;30m [0m                            [1;30m▓[0m
       [30;47m█[0;1;30;40m▀▄    [0;1;37;47m▒░  [0m [30;47m▄▄  ▀▀[0m      [1;30;40m▓   Ansis caust 3 b00bs or a chewed up carpet,  ▀▄[0m
 [1;30;40m  ░[0m        [1;37;40m▄[0;1;37;47m▓▓▒░[0;30;47m▐[0m    [1;37;47m░░░ [0;30;47m▀[0m    [1;30;40m█░  for each line.[0m                               [1;30;40m▒[0m
 [1;30;40m░ ▒   [0;1;37;40m▄▄▄[0;1;37;47m█████▓▒[0m     [1;37;40m▐[0;1;37;47m▒▒░  [0m [1;30;40m░▀■[0m      [1;30;40m▒[0m         [1;30;40m▒   ▒  ▒    ▒[0m     [1;30;40m▓[0m             [1;30;40m▓[0m

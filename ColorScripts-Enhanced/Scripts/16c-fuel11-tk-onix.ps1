@@ -5,7 +5,7 @@
 # Source SHA-256: 8b1e34ee712aa0e432dd95ff0e0e3f474ca319f17fef381e77c4781a176df43e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-ONIX.ANS by The Knight (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Onix
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel
@@ -31,7 +31,4 @@ Write-Host '
              [35m       [0m   [35m  [0;1;32;45m [0;1;33;45m▀[0;1;33;40m▀[0;1;33;45m▀[0;1;31;45m░[0;1;33;45m░[0;35m░ ▀[0;30;45m░[0;1;33;45m░▓▀▀▀[0;35m░      ░▓[0;1;33;45m█▓▄░[0;35m░  █[0;1;31;45m░[0;30;45m░[0;1;33;45m░▄▄█[0;35m░[0m
                          [35m        [0m               [35m▀▀▀▀▀   ▀▀[0;30;45m▒[0;35;40m▀▀▀▀  [0m
 [37;40m-░ + ▀ -- --── ─────═══─══ ░══════─────────- - + --───── ──░ ▄ ---- - - ░ ▀──[0;1;37;40m▀[0m ─
-                                                                           
-                                                                        
-                                                                         
 -░ + ▀ -- --── ─────═══─══ ░══════─────────- - + --───── ──░ ▄ ---- - - ░ ▀-── ─[0m'

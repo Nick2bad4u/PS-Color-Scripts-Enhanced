@@ -5,7 +5,7 @@
 # Source SHA-256: 3065b416372ed85d8d82de7c7f2391857b8c884bca094b83a4d2cd4c35a06250
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QT-TUB.ANS by Q TaK (LiGHT); released in lght9405 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Timeless Universe BBS
 # SAUCE Author: Q TaK
 # SAUCE Group: LiGHT
@@ -56,7 +56,7 @@ Write-Host '
 [34m  [0;1;31m█[0;1;31;41m█▓▓▓▒▒▒░░░[0;1;30;41m░[0m          [1;30;40mfrom the[0m     [1;30;41m▓▓▓[0;1;30;44m▓▓▓[0m [1;34;44m█▓▓▓▒▒[0;34m▀[0;1;34;44m░░░[0;1;30;44m░[0m    [1;30;40mS[0;34my[0;1;34ms[0mO[1mp - Sar[0mq[1;31mu[0;31mi[0;1;30mn[0m
         [1;31;41m▒░░░[0;1;30;41m░░[0m  [1;31;40m█[0;1;31;41m███▓▓[0m  [1;30;40mpages of[0m     [1;30;41m▓▓[0;1;30;44m▓▓▓▒[0m [1;34;44m▓▓▓▒[0;34m▌  ▐[0;1;34;44m░[0;1;30;44m░░░[0m   [1;30;40mC[0;34mo[0;1;34mS[0my[1msOp - Q [0;1;31mT[0;31ma[0;1;30mK[0m
         [1;31;41m░░░[0;1;30;41m░░░[0m  [1;31;40m█[0;1;31;41m██▓▓▓[0m  [1;30;40mStupid #1    [0;1;30;41m▓[0;1;30;44m▓▓▓▒▒[0m [1;34;44m▓▓▒▒▒[0;34m▄▄[0;1;34;44m░[0;1;30;44m░░░▒[0m
-        [1;31;41m░░[0;1;30;41m░░░▒[0m  [1;31;41m██▓▓▓▒[0m               [1;30;44m▓▓▓▒▒░[0m [1;34;44m▓▒▒▒░░░[0;1;30;44m░░░[0;34m▀[0m      [1;30m3[0;34m0[0;1;34m3[0m/[1m444[0m.[1;31m4[0;31m4[0;1;30m4[0m
+        [1;31;41m░░[0;1;30;41m░░░▒[0m  [1;31;41m██▓▓▓▒[0m               [1;30;44m▓▓▓▒▒░[0m [1;34;44m▓▒▒▒░░░[0;1;30;44m░░░[0;34m▀[0m      [1;30m [0;34m [0;1;34m [0m [1m   [0m [1;31m [0;31m [0;1;30m [0m
         [1;31;41m░[0;1;30;41m░░░▒▒[0m  [1;31;41m█▓▓▓▒▒[0m               [1;30;44m▓▓▒▒░░[0m [1;34;44m▒▒▒░░░[0;1;30;44m░░░▒▒[0m
         [1;30;41m░░░▒▒▒[0m  [1;31;41m▓▓▓▒▒▒[0m               [1;30;44m▓▒▒░░░[0m [1;34;44m▒▒░░[0;34m▌ ▀[0;1;30;44m░▒▒▒▓[0m   [1;30;40m2 [0;1;34;40mN[0mo[1mde Ring[0md[1;31mo[0;31mw[0;1;30mn[0m
         [1;30;41m░░▒▒▒[0m   [1;31;41m▓▓▒▒▒░░[0m             [1;30;44m▓▒▒░░░[0;1;34;44m░[0m [1;34;44m▒░░░[0m  [34m▄[0;1;30;44m▒▒▒▓▓[0m     [1;30;40m1[0;34m.[0;1;34m3 [0;1;37mGig [0;1;31mH[0;31mD[0;1;30m![0m

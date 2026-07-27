@@ -5,7 +5,7 @@
 # Source SHA-256: e91795a1b3f0603207f75e2ff3f178293b5fc4dcd912998b2b2387e77559132b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STI-UTOP.ANS by Stimpy (Shaolin's Finest); released in shao0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Digital Utopia
 # SAUCE Author: Stimpy
 # SAUCE Group: Shaolin's Finest
@@ -15,14 +15,12 @@
 # Columns: 1-80
 
 Write-Host '
-                 [34m   [0m           [34m   [0m            [34m  [0m       [34m   [0m
-           [34mcS$ⁿⁿⁿ$[0;1;34m$[0;34m$ $$$ $$$ⁿⁿⁿ$[0;1;34m$[0;34m$ $$$ $$ⁿ$$$ⁿ$$ $$$ⁿⁿⁿ$[0;1;34m$[0;34m$ $$$[0m
+[34m[0m[34m[0m[34m[0m[34m[0m           [34mcS$ⁿⁿⁿ$[0;1;34m$[0;34m$ $$$ $$$ⁿⁿⁿ$[0;1;34m$[0;34m$ $$$ $$ⁿ$$$ⁿ$$ $$$ⁿⁿⁿ$[0;1;34m$[0;34m$ $$$[0m
            [34m$[0;1;34m$[0;34m$ [0;1;30m. [0;34m$[0;1;34m$[0;34m$ ccc $[0;1;34m$[0;34m$ [0;1;30m. [0;34m$$$ ccc $$ $[0;1;34m$[0;34m$ $$ $[0;1;34m$[0;34m$ [0;1;30m. [0;34m$[0;1;34m$[0;34m$ $[0;1;34m$[0;34m$ [0;1;30msTi[0m
            [34m$[0;1;34m$[0;34m$ [0;1;30m: [0;34m$[0;1;34m$[0;34m$ $[0;1;34m$[0;34m$ $[0;1;34m$[0;34m$ ccccc $[0;1;34m$[0;34m$ ⁿⁿ $[0;1;34m$[0;34m$ [0;32mcc [0;34m$[0;1;34m$[0;34m$ccc$[0;1;34m$[0;34m$ $[0;1;34m$[0;34m$ [0;1;30m. [0;34mccc[0m
 [32m$$$$$$$$$$ [0;34m$[0;1;34m$[0;34m$ [0;1;30m; [0;34m$[0;1;34m$[0;34m$ $[0;1;34m$[0;34m$ $[0;1;34m$[0;34m$ [0;1;30m; [0;34m$[0;1;34m$[0;34m$ $[0;1;34m$[0;34m$ [0;32m$$ [0;34m$[0;1;34m$[0;34m$ [0;32m$$ [0;34m$[0;1;34m$[0;34m$ [0;32mc [0;34m$[0;1;34m$[0;34m$ $[0;1;34m$[0;34m$ [0;1;30m: [0;34m$[0;1;34m$[0;34m$ [0;32m$$$$$$$$$$[0m
 [32m$[0;1;32m$$$$$$$$[0;32m$ [0;34m$[0;1;34m$[0;34m$ccc$$$ $$$ $[0;1;34m$[0;34m$ccc$$$ $$$ [0;32m$$ [0;34m$$$ [0;32m$$ [0;34m$[0;1;34m$[0;34m$ [0;32m$ [0;34m$$$ $[0;1;34m$[0;34m$ccc$$$ [0;32m$[0;1;32m$$$$$$$$[0;32m$[0m
-[32m [0;1;32m        [0;32m  [0;34m    [0;32m          [0;34m    [0;32m                    [0;34m    [0;32m      [0;34m    [0;32m       [0;1;32m      [0;1;37m [0;1;32m [0;32m [0m
-[32m$[0;1;32m$$[0;32m$$$$$$$$$$ⁿⁿⁿⁿ$$$$$$$$$$ⁿⁿⁿ$$$$$$$$$ⁿⁿⁿⁿ$$$$$$$$$ⁿⁿⁿⁿ$$$$$$$$$$$$$$ⁿⁿⁿⁿ$[0;1;32m$[0;1;37m$[0;1;32m$[0;32m$[0m
+[32m[0;1;32m[0;32m[0;34m[0;32m[0;34m[0;32m[0;34m[0;32m[0;34m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0m[32m$[0;1;32m$$[0;32m$$$$$$$$$$ⁿⁿⁿⁿ$$$$$$$$$$ⁿⁿⁿ$$$$$$$$$ⁿⁿⁿⁿ$$$$$$$$$ⁿⁿⁿⁿ$$$$$$$$$$$$$$ⁿⁿⁿⁿ$[0;1;32m$[0;1;37m$[0;1;32m$[0;32m$[0m
 [32m$[0;1;32m$$[0;32m$   [0;1;30mc  [0;32m$[0;1;32m$[0;32m$    $[0m      [1;30mc[0m     [32m$  [0;1;30mc[0m         [32m$  [0;1;30mc[0m         [32m$  [0;1;30mc [0;32m$  [0;1;30mc[0m         [32m$[0;1;32m$[0;1;37m$[0;1;32m$[0;32m$[0m
 [32m$[0;1;32m$$[0;32m$$  [0;1;30m$ [0;32m$$[0;1;32m$[0;32m$    $   $  [0;1;30m$ [0;32m$   $  [0;1;30m$ [0;32m$$$$    $  [0;1;30m$ [0;32m$$$$    $  [0;1;30m$ [0;32m$  [0;1;30m$ [0;32m$$$$    $[0;1;32m$[0;1;37m$[0;1;32m$[0;32m$[0m
 [32m$[0;1;32m$$$[0;32m$  [0;1;30mi [0;32m$[0;1;32m$$[0;32m$  [0;1;30m. [0;32m$   $  [0;1;30mi [0;32m$ [0;1;30m. [0;32m$  [0;1;30mi [0;32m$[0;1;32m$$[0;32m$  [0;1;30m. [0;32m$  [0;1;30mi [0;32m$[0;1;32m$$[0;32m$  [0;1;30m. [0;32m$  [0;1;30mi [0;32m$  [0;1;30mi [0;32m$$$$  [0;1;30m. [0;32m$[0;1;32m$[0;1;37m$[0;1;32m$[0;32m$[0m

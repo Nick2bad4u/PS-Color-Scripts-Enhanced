@@ -5,7 +5,7 @@
 # Source SHA-256: 51addfdb7a737e5829d166ebebb3d632013990f01d1393afbae6af0c27cf4759
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LO-DSUN1.ICE by Leonardo (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dark Sun World
 # SAUCE Author: Leonardo
 # SAUCE Group: iCE
@@ -44,5 +44,4 @@ Write-Host '
 [1;32;40m▀ ▀▀[0m                [1;32;40m░ ▀▀▄▄▄▀▓ [0;1;30;40m▄▀[0;32m▐[0;33;42m▒░[0;33;40m▌ [0;33;42m▒[0;33;40m▄[0;32;40m▌[0;1;30;40m▐[0;32m▐[0;33;42m▒[0;33;40m▄[0;32;40m▀  [0;33;40m▀  [0;32;40m█[0;33;42m░░[0;32;40m▄ [0;1;30;40m▀▄[0;1;32;40m▀▓▀▀▓▄▄▄[0m
                             [1;32;40m░   ▄[0;32m▀[0;33;42m░░░░[0;32;40m▀ [0;1;30;40m▓ [0;33;42m░░[0m [1;30;40m▀▓▄ [0;1;32;40m▀▄▄[0;32m▀▀▀ [0;1;30m▓ [0;1;32m░[0m
                                  [1;32m▓▄▄▄▄▀ [0;1;30m░ [0;1;32m▄▄▓ [0;1;30m▓[0m     [1;32m▀▓▀ [0;1;30m░[0m
-                                 [1;32m░[0m          [1;32m░ [0;1;30m░[0m
-[1;37mD a r k   S u n   W o r l d[0m        [1;37mA l t e r   E g o[0m      [1;37m1 9 1 4 2 2 7 5 9 3[0m [1;37m8[0m'
+                                 [1;32m░[0m          [1;32m░ [0;1;30m░[0m[1;37m[0m[1;37m[0m[1;37m[0m[1;37m[0m'

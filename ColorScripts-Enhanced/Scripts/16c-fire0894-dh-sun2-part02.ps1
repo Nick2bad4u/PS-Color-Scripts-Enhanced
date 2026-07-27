@@ -5,7 +5,7 @@
 # Source SHA-256: 1abbb2fa973c931952dd020529bbe88ef2ceddb50152160010cf9a4795408168
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-SUN2.ANS by Donut Hole (fire0894); released in fire0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -47,7 +47,7 @@ Write-Host '
 [32m   [0;1;32m▀▀▀▄▄[0;32m▄  [0;1;33m▄[0m               [1;33m▄[0m      [1;33m▄[0;1;33;47m▀[0;1;33m▄[0m                               [32m▒[0m
      [1;33m▀   [0;32m▀▀▄▄[0m       [32m▄▄▄▄▀▀▀▄▄▀▀▀▄▄ [0;1;33m▀[0m                                [32m▓[0m
         [1;33m▄[0;1;33;47m▀[0;1;33m▄ ▄[0;32m▀▀ [0;1;33m▀[0;32m▄▀▀[0;1;33m▄[0m          [1;33m▀  [0;32m▀▀▀▄[0m                         [32m▄▀▀▀ █ ▄▄[0;1;33m▀[0m
-         [1;33m▀    ▄ [0;32m█  ▄▄[0m      [1;32mFly[0;1;33mi[0;1;32mng Donuts (404)578-8558[0m      [1;33m▀[0;32m▄▀ [0;1;33m▀   [0;32m█   ▀ ▄[0m
+         [1;33m▀    ▄ [0;32m█  ▄▄[0m      [1;32m   [0;1;33m [0;1;32m                       [0m      [1;33m▀[0;32m▄▀ [0;1;33m▀   [0;32m█   ▀ ▄[0m
                [32m█    [0;1;33m▄[0;32m▀▄[0m                 [32m▀▀▄[0m                 [32m▐▌    [0;1;33m▄ [0;32m█    [0;1;33m▀ [0;32m▀▄[0;1;33m▀[0m
                [32m█[0m       [32m▀▄[0;1;33m▀   [0;1;32mSysOp : Donut Hole[F[0;1;33mi[0;1;32mRE][0m       [32m█[0m      [32m█[0m        [32m▐▌[0m
           [1;33m▀[0;32m▄▀▄ █[0m     [1;32mCoSysOp : Ktulu[REL[0;1;33mi[0;1;32mC] [0;36m▀▄ [0;1;32mFLooD[REL[0;1;33mi[0;1;32mC][0;32m▐▌[0;1;33m▀    [0;32m▐▌[0m       [1;33m▀ [0;32m▓[0m

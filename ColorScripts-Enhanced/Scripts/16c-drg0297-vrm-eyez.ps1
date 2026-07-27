@@ -5,7 +5,7 @@
 # Source SHA-256: 47ed78ce053f66f226c251fb37b8ec053c2c914dc754ea163639d78498444dc2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VRM!EYEZ.ANS by vEWRmINH (?SiDD); released in drg0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: eyEz anD a PhoREHeAD
 # SAUCE Author: vEWRmINH
 # SAUCE Group: ?SiDD
@@ -15,10 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30m                                                                          [0m    [30m [0m
-[30m                                                                          [0m    [30m [0m
-[30m                                                                          [0m    [30m [0m
-[30m                                [0;1;31m▄▄▄▄▄▄▄▄▄[0;30m                                 [0m    [30m [0m
+[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m                                [0;1;31m▄▄▄▄▄▄▄▄▄[0;30m                                 [0m    [30m [0m
 [30m                      [0;37m▄[0;1;37m▄▄▄[0;30m  [0;33m▀[0;1;31m▀[0;1;31;43m▀▓▓▓[0;1;31;40m███████████▄[0;30m                            [0m    [30m [0m
 [30m                [0;37m▄[0;1;37;47m▓▄▄[0;1;37;40m██████████▄▄[0;33m▀▀[0;1;31;43m▒▓▓▓▓[0;1;31;40m█[0;1;31;43m▓▀[0;1;31;40m▀▀[0;1;31;43m▓[0;1;31;40m▀[0;33m▀[0;37m▄[0;1;37m▄▄▄[0;30m                       [0m    [30m [0m
 [30m            [0;37m▄[0;1;37m▄[0;1;37;47m▄[0;1;37;40m████████████████[0;1;37;47m▓[0;1;37;40m██▄▄[0;33m▀[0;1;31;43m▒▒[0;33m▀[0;30m [0;37m▄[0;1;37m▄[0;1;37;47m▄▄[0;1;37;40m████████[0;1;37;47m▓▓[0;1;37;40m▄▄[0;30m                 [0m    [30m [0m

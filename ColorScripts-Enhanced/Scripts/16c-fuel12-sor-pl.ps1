@@ -5,7 +5,7 @@
 # Source SHA-256: c52b3d0c85c1330413ba946ca17772ee4fe3c3443b169e418264df2fad7fa8a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-PL.ANS by Spirit of Rage (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Plantes
 # SAUCE Author: Spirit of Rage
 # SAUCE Group: Fuel Productions
@@ -40,11 +40,6 @@ Write-Host '
 
 [1;30m─░─ ─              ── ──    ────  ──── ──░──── ── ── ───  ── ─── ─── ─── ───░───[0m
 
- [1;30m                                                                              [0m
- [1;30m                                                                            [0m
- [1;30m                                                                            [0m
- [1;30m                               [0m
-
-[1;30m                                   [0m                   [1;30m                     [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m
 [1;30m─ ─                 ─── ── ─ ─ ──░──── ───── ──  ───── ────  ── ──░── ── ── ─── [0m'

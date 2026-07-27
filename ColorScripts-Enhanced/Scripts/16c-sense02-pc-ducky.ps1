@@ -5,7 +5,7 @@
 # Source SHA-256: 277f1e4b11b39bdf0fe3ee44134350bf2e7eb8f33d6e65b4830062b37f9cdd14
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-DUCKY.ANS by Proctologist (SeNsE); released in sense02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The ultimate cleaner
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNsE
@@ -16,13 +16,10 @@
 
 Write-Host '
 [1m [0m
-[1;30m                    [0m                         [36m [0;1;36m       [0;36m [0m
-[1;30m                          [0m             [31m   [0;1;36m [0;36m [0m           [36m [0;1;36m [0m
-                                     [31m`[0;1;31;41m$[0;31m$[0;1;31m$[0;31mb[0m                [1;36m*[0m
+[1;30m[0m[36m[0;1;36m[0;36m[0m[1;30m[0m[31m[0;1;36m[0;36m[0m[36m[0;1;36m[0m                                     [31m`[0;1;31;41m$[0;31m$[0;1;31m$[0;31mb[0m                [1;36m*[0m
                                    [31m,$[0;1;31mbd`[0;31mY''[0m                  [1;36ms[0m
 [1;30m                            [0m     [1m [0;31m  ╙ [0;1;31;41m [0;31m [0m                     [36m [0m
-[1;30m                           [0m      [1m      [0m                       [1;36m [0m
-[1;30mcleaner...[0m                     l$[1m$$$▓$$$$$$$$$$$$Ss,[0m           [1;36ms[0m
+[1;30m[0m[1m[0m[1;36m[0m[1;30mcleaner...[0m                     l$[1m$$$▓$$$$$$$$$$$$Ss,[0m           [1;36ms[0m
                            [31mp[0;1;31mC[0m   Y$$$[1;47m$[0m$$[1;47m$$$[0;1;40m$$$$$[0;1;47m$[0;1;40m$[0;1;47m▓[0;1;40m$$$[0m
                                  `"""""""""""$$[1m$$$[0;1;47m$[0;1;40m$$[0m           [1;36ml[0m
                           [1m,sSⁿ"[0m"[1m"""""""""""[0m"""[1m"""ⁿS$$[0m
@@ -36,18 +33,11 @@ Write-Host '
                           [1m  [0;1;36m  [0m [1m   [0m  [1m [0;1;31m [0;31m [0;1;31m  [0;31m  [0;1;37m [0m [1m     [0;30;46m █[0;1;37;40m [0m
                           [1m$ [0;1;36;46m$[0m [1ml:[0;1;31;41m$[0;31mⁿb[0;37m:[0;31m$[0;1;37m:[0;31m$[0;1;37m:[0;1;31m$[0;31mⁿⁿ[0;37m:[0;1;31m$[0;31m▬ⁿ[0;37m:[0;1;37ml [0;36mⁿ [0;37m$[0m
                           [1;37m$ [0;1;36mⁿ [0ml[1m:[0;1;31m$[0;31msP[0;1;37m:[0;1;31;41m$[0;1;31;40ms[0;31m$[0;37m:[0;31m$s[0;1;31ms[0;1;37m:[0;1;31;41m$[0;31m°[0;1;31ms[0;1;37m:l [0;1;36mg [0;1;37m$[0m
-                            [1;34m [0;36m [0;37m [0;1;37m [0m [1m  [0m [1m    [0m [1m      [0m [1m  [0;1;36m  [0;1;37m [0m
-                          [1m▒ [0;1;34m [0;1;34;44m [0;36m  [0;1;36m    [0;36m   [0;1;36m    [0;36m   [0;1;36m      [0;1;37m [0m  [1;30m  [0m
+[1;34m[0;36m[0;37m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0;1;36m[0;1;37m[0m                          [1m▒ [0;1;34m [0;1;34;44m [0;36m  [0;1;36m    [0;36m   [0;1;36m    [0;36m   [0;1;36m      [0;1;37m [0m  [1;30m  [0m
                           `$ [1;34m`,[0;1;34;46m$[0;30;46mS[0;36;40mY [0;1;34;40md[0;36m$[0;1;34m$ [0;1;36;46m$[0;36m$b [0;1;34m$[0;36m$b [0;1;36mY[0;1;36;46m$[0;1;36;40m$[0;30;46m$█[0;1;37;40m$[0m
                            [1m`$ [0;1;34m`$Y [0;34md[0;1;34;44m$[0;30;44m$[0;34;40ml [0;1;34;40m$[0;1;34;46m$[0;36m$[0;1;34m,`[0;1;34;44m$$[0;1;34;40mb Y$[0;1;34;46m$[0m [1m▒[0m
                                [1;34m [0;34m      [0;1;34m      [0;34m [0;30;44m [0;34;40m   [0;1;34;40m   [0;1;37;40m [0m
-                             [1m [0m [1m [0m [1m   [0m [1m    [0m [1m       [0m [1m   [0;1;30m   [0m
-[1m [0m
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0;1;30m[0m[1m [0m
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>--[0m
-[1;30m                                                                         [0m
-[1;30m                                                                        [0m
-[1;30m                                                                              [0m
-[1;30m                                                      [0m
-[1;30m                           [0m
-                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

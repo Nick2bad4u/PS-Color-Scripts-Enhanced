@@ -5,7 +5,7 @@
 # Source SHA-256: 1af322b87fc50f418d2663c835786fa5c29b51c74d1cc3e85e066115b7e2f4f1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HS-VIO-X.ANS by HellSpawn (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Violator-X
 # SAUCE Author: HellSpawn
 # SAUCE Group: Lapse
@@ -52,7 +52,4 @@ Write-Host '
 [1;32;42m▒░░[0;32m████▀▀▀▀▀▀▀ ▀▀  ▀[0m                                               [32m▀ ▀▀▀▀▀███[0;1;32;42m░░▒[0m
 [1;32;42m░[0;32m▀▀[0m                                                                          [32m▀▀[0;1;32;42m░[0m
                                 [1;30;40m [0;32m  [0;1;30m     [0;32m   [0;1;30m [0m
-                              [1;30m·[0;32m(3o4[0;1;30m)489-3i[0;32m48[0;1;30m·[0m
-                          [1;30m [0;1;32m  [0;32m      [0;1;30m         [0;32m        [0;1;30m [0m
-                       [1;30m [0;1;32m     [0;32m  [0;1;30m               [0;32m       [0;1;32m [0;1;30m [0m
-                                [1;30m·[0;32m3.[0;1;30m5 GiG''[0;32ms.[0;1;30m·[0m'
+[1;30m[0;32m[0;1;30m[0;32m[0;1;30m[0m[1;30m[0;1;32m[0;32m[0;1;30m[0;32m[0;1;30m[0m[1;30m[0;1;32m[0;32m[0;1;30m[0;32m[0;1;32m[0;1;30m[0m                                [1;30m·[0;32m3.[0;1;30m5 GiG''[0;32ms.[0;1;30m·[0m'

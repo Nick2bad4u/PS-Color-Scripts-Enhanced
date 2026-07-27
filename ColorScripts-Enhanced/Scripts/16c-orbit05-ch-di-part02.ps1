@@ -5,7 +5,7 @@
 # Source SHA-256: 606a4e5eea962c57b9beb237b14b71d8ea05fa020d33f7512b92f12cdb37c949
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH-DI.ANS by Chaos (orbit05); released in orbit05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 48-96
 # Columns: 1-80
 
@@ -43,7 +43,7 @@ Write-Host '
               [1;31;41m░[0m                    [1;30;47m░▒▓█[0;1;30;40m▐▓▒░[0m                             [1;31;41m░[0;1;30;40m▀▀[0m
                                    [1;30;47m░▒▓█[0;1;30;40m▐▓▒░[0m                             [1;31;41m░[0m
               [31m■[0m             [1;30m[ [0;1;35mS [0;35mi [0;1;30mn g l e  N o [0;35md [0;1;35me [0;1;30m][0m
-              [31m·[0m              [1;35m3 [0;35m1 [0;1;30m3 . 8 8 4. 5 5 [0;35m5 [0;1;35m9[0m                     [31m■[0m
+              [31m [0m              [1;35m  [0;35m  [0;1;30m               [0;35m  [0;1;35m [0m                     [31m■[0m
                                  [1;30m[ [0;1;35mS [0;35my [0;1;30ms [0;35mo [0;1;35mp [0;1;30m][0m                          [31m·[0m
               [31m·[0m                  [1;35mT [0;35mo [0;1;30mu r i [0;35ma [0;1;35mn[0m                          [31m·[0m
               [31m·[0m                    [1;30m[ [0;35mCo''s [0;1;30m][0m

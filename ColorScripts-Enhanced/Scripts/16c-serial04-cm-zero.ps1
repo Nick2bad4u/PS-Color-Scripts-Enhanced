@@ -5,15 +5,14 @@
 # Source SHA-256: ed901d093b1b8b1937075ec80689da91a0a9da6b88a51e11f4b8d32420845910
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cm-zero.ans by Computer Man (serial04); released in serial04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
 [1m                              [0;1;34m_.+.[0m
 [1m                        [0;1;34m_[0;1;37m [0m.[1m [0;1;34m+`[0m
-[1m                [0;1;34m [0;1;37m    [0;1;34m   [0;1;37m  [0m [1m                       [0m
-[1m                   [0;1;34m.`[0;1;37m    [0m.$[1m "°ⁿ╙$$$$$$$$$$P╜ⁿ"`[0m
+[1m[0;1;34m[0;1;37m[0;1;34m[0;1;37m[0m[1m[0m[1m                   [0;1;34m.`[0;1;37m    [0m.$[1m "°ⁿ╙$$$$$$$$$$P╜ⁿ"`[0m
 [1m              [0;1;34m.[0;1;37m    [0;1;34m`.[0;1;37m   [0m:i[30;47m$[0;1;37;40mπy╖,._`╜$$P╜"`[0m   [35m ph[0;30;45me[0;35;40mar me[0;36;40m.[0m
 [1;37;40m               [0;1;34;40m.[0;1;37;40m     [0m_╓$$$$$[1;30;47m$[0;1;37;40m$$[0;1;37;47m$[0;1;37;40mi: :[0mi       [36meyum ga[0;30;46mw[0;36;40mth[0;35;40m. [0m
 [1;37;40m               [0;33m.╓yπS$[0;33;47m$[0;37;40m$$[0;30;47m$[0;37;40m$$$$$[0;1;37;40mi╜`   [0;30;47m$[0;32;40m.[0m         [35;40m/[0m

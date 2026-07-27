@@ -5,7 +5,7 @@
 # Source SHA-256: 054ce23224df7d7d865f4c6439c56e9a8084978a4a5e1a63795b8d031c1eaf1a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-GT1.ANS by pixel_pusher (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: goOd tImes, temporary layoffz.
 # SAUCE Author: pixel_pusher
 # SAUCE Group: anger
@@ -41,8 +41,4 @@ Write-Host '
 [1;32;42m▒▓▒░░[0;32m▄[0;1;32m [0;32m▄[0;1;30m      [0m [1;32m░▄[0m  [32m▄■[0;37m [0;1;30m fate[0m [1;36;46m▒▒░▒▓[0;1;36;40m▄[0m [36m [0;1;36;46m░░▒▓[0;36m▄░▄  ▄░ [0;1;30m1996 dst[0m       [32m▄▀▀[0;1;32;42m▒░ [0;32m▄[0;1;32;42m░ [0;32m▄[0;1;32;42m▒▓[0;32m▄▀[0;1;30m [0;32m▄[0;1;32;42m▒[0m
 [32m▀[0;1;32;42m▒░[0;32m█▀[0;1;32;42m▒▓▒░[0;32m▄▀■[0;1;30m [0;32m▀▄[0;1;32;42m▒▓▒░[0;32m▄▄▄▄▄░ ▄[0;37m [0;36m ▀▀[0;1;36;46m░▒[0;36m▄▄[0;1;36;46m▒░[0;36m▀ ▀[0;1;36;46m░▒▓[0;36m▄[0;1;36;46m░[0;36m█▀▄▄■[0;1;30mpp$ [0m  [32m■▀▄▄[0;1;32;42m░[0;32m▄▄▄[0;1;32;42m░▒▓▒░  ░▒░▒▒░ [0;32m▀[0;1;32;42m░[0m
 [1;30;40m|-[0;32m▀[0;1;30m----------------------------------------------------------------------------|[0m
-[1;30m|≡≡Node 1 - (403)426-0796≡≡≡≡≡≡USR Dual Standard≡≡≡≡≡≡Node 1 - 12/24/96/16,8≡≡≡|[0m
-[1;30m|≡≡Node 2 - (403)429-3442≡≡≡≡≡≡USR Dual Standard≡≡≡≡≡≡Node 2 - 12/24/96/14,4≡≡≡|[0m
-[1;30m|≡≡Node 3 - (403)PRI-VATE≡≡≡≡≡≡USR Dual Standard≡≡≡≡≡≡Node 3 - 12/24/96/16,8≡≡≡|[0m
-[1;30m                                                                                [0m
-[1;30m`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~''[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~''[0m'

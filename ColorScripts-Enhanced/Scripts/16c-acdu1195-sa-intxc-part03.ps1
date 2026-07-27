@@ -5,7 +5,7 @@
 # Source SHA-256: 8b1f49d670b0d1c869744d9026f4c409b8ca8e4f5d63344d25f38110bcb5bef5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-INTXC.ANS by Soul Assassin (ACiD Productions); released in acdu1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Intoxica
 # SAUCE Author: Soul Assassin
 # SAUCE Group: ACiD Productions
@@ -38,15 +38,5 @@ Write-Host '
  [1;46m█[0m                      [1m [0;1;46m▓█████[0;1;40m██▀[0m          [1m ▀█[0;1;46m████[0;1;40m▀[0m                        [1m █[0m
                          [1m ▀████▀[0m             [1m  ▀[0;1;46m██[0;1;40m▀   [0m
                           [1m  ▀[0m                  [1m  ▀[0m
-                     [1m                                     [0m
-
-                                [1mI N T O[0;31m X[0;1;37m I C A[0m
-
-                     [1;36m                                      [0m
-                     [1;36m                                      [0m
-                     [1;36m                                 [0m
-
-                  [36m    [0m   [36m                             [0m
-                               [36m [0;37m [0;36m           [0m
-
-                    [36m      [0;37m [0;36mCall now! (606) 266-6720[0m'
+[1m[0m
+                                [1mI N T O[0;31m X[0;1;37m I C A[0m'

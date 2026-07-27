@@ -5,7 +5,7 @@
 # Source SHA-256: e7a590b37ffca3af24851f30e1b206ec35c5cc03ea6a5f642f02cf1ceea23dea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BG-WUD1.ANS by BeRGuS (MASAKRE PRODUCTiONS); released in mskp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: WaKe UP DeaD BBS #1
 # SAUCE Author: BeRGuS
 # SAUCE Group: MASAKRE PRODUCTiONS
@@ -28,7 +28,7 @@ Write-Host '
 
 
 [32m   [[0;33mÆ∩[0;31mSi [0;33mß¥[0m       [31m▀[0;33;41m░░░░░▒▒[0;31;40m▄    ▄[0;33;41m░░▒▒▓[0m     [31;40m▄[0;33;41m░[0;31;40m▄    ▀[0;33;41m░░░░░▒▒[0;31;40m▄[0m     [31;40mTLD [0;33;40m22 τφ 0[0;31;40m6 hS[0m
-[31;40m    [0;33;40mßΣ[0;31;40mΓGµ[0;33;40mS[0;32;40m][0m        [31;40m▐[0;33;41m░░░▒▒▓▓[0;31;40m▌  ▐[0;33;41m░░▒[0;31;40m▀▀▐    ▐[0;33;41m░░▒[0;31;40m▌    ▐[0;33;41m░░░▒▒▓▓[0;31;40m▌    +54-1[0;33;40m-293-[0;31;40m0252[0m
+[31;40m    [0;33;40m  [0;31;40m   [0;33;40m [0;32;40m [0m        [31;40m▐[0;33;41m░░░▒▒▓▓[0;31;40m▌  ▐[0;33;41m░░▒[0;31;40m▀▀▐    ▐[0;33;41m░░▒[0;31;40m▌    ▐[0;33;41m░░░▒▒▓▓[0;31;40m▌         [0;33;40m     [0;31;40m    [0m
                    [31;40m▐[0;33;41m░░▒[0;31;40m▀▀[0;33;41m▓▓▓[0m  [33;41m░░▒[0;31;40m▐   ▌   [0;33;41m░░▒▒▓[0m    [31;40m▐[0;33;41m░░▒[0;31;40m▀▀[0;33;41m▓▓▓[0m     [31;40mSysOp[0;33;40m: B[0;31;40meRGuS[0m
                     [33;41m░░▒[0m  [31;40m▌[0;33;41m▓▓[0;31;40m▌▐[0;33;41m░▒▒[0;31;40m▄▄  ▌  ▐[0;33;41m░▒▒▒▓[0;33;40m▌    [0;33;41m░░▒[0m  [31;40m▌[0;33;41m▓▓[0;31;40m▌[0m
                     [33;41m░░▒[0m   [33;41m▓▓[0;31;40m▌▐[0;33;41m░░▒[0;31;40m▀▀▌    [0;33;41m░░▒[0m [33;41m▒▓▓[0m    [33;41m░░▒[0m   [33;41m▓▓[0;31;40m▌[0m                   [32;40m▐[0m

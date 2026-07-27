@@ -5,7 +5,7 @@
 # Source SHA-256: 9059cde21ad3f9ba2fe81ed17658f4798184e32538984d9cbcbe70612f2564fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-BT.ANS by pariah (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: black thursday
 # SAUCE Author: pariah
 # SAUCE Group: project/301
@@ -17,8 +17,7 @@
 Write-Host '
                     [1m [0m
      [32m,g[0;1;32m%@3333@%[0;32mg,[0;1;32m  [0m
-  [1m [0m [32m [0;1;32m [0;32m   [0;1;32m        [0;32m [0;1;32m [0m      [1m              [0;1;33m          [0m    [35m [0m    [1;33m              [0;1;37m [0m
-   [32ml[0;1;32m$$[0;32m,[0;1;32m  [0;32m`7[0;1;32m$WW$[0;32mP''[0;1;32m [0;32m,[0m        [33m,[0m                 [37m [0;33mgg[0;1;33my@3[0;33m5''[0m        [1;33m                  [0m
+[1m[0m[32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0m[1m[0;1;33m[0m[35m[0m[1;33m[0;1;37m[0m   [32ml[0;1;32m$$[0;32m,[0;1;32m  [0;32m`7[0;1;32m$WW$[0;32mP''[0;1;32m [0;32m,[0m        [33m,[0m                 [37m [0;33mgg[0;1;33my@3[0;33m5''[0m        [1;33m                  [0m
    [32m$[0;1;32m@$$$3@ggy$gg@3[0;32m$[0m       [33mx[0m                   [33m$[0;1;33m$$$$$ [0m
    [32m$$[0;1;32m$[0;30;42m░░[0;1;32;40m$$$$$$$$$$[0;32m$[0m        [1;33m`33@g[0;33mgy[0m           [37m [0;1;33m$$$$$$ [0m      [35m,[0;1;34m [0m   [1m                [0m
   [1m [0m [32m`7[0;1;32m$$$$$$$''`$$$[0;32m$[0m         [1;33m$$$$$[0;33ml,[0m          [33m [0;1;33m7$$$$$ggy%@3$[0;33m [0m    [1;37m                [0m
@@ -33,8 +32,7 @@ Write-Host '
      [34ml[0;1;34m$[0;1;37m$$[0;1;34m$$$$$$$[0;1;34;44m░░[0;34m$l[0;1;37m [0m$[1m$[0;1;36m$$[0;1;37m$[0m$ [1;36m$[0;36mW"WW[0;1;36m$[0m [1m$$$$$$[0m$''[34m,[0;1;34m$$$$[0;34m$[0;37m [0;1;34m$$[0;34m,[0;37m`[0;1;37m$$$$$$$$$[0m$$[1m [0;36mI[0;1;36m$[0;1;37mWW[0;1;36m$$[0m [1m$$$[0mI$
  [1m    [0m [34m`[0;1;34m7$$$$$$$$$[0;34mP''[0;37m,@[0;1;37m$$$$$[0m$[1m [0;1;36m$[0;36mg[0;1;36m [0;36mgW[0;1;36m$[0m [1m$$$$[0mP'' [34m,[0;1;34m$$$$[0;34mP'',[0;1;34m$$$[0;34m,[0;37m`ⁿ[0;1;37m7$$$$P[0mⁿ''[36m_,[0;1;36m$$$$$[0;36ml[0;37m [0;1;37m$$$[0m$$
   [1m   [0m  [1;30m,[0;34m`[0;1;34mⁿ7$$$P[0;34mⁿ''[0;1;30m.[0m $[1m$$$$$$[0m$ [36m$[0;1;36m$$$$ggggg[0;1;34;46m░▓[0;36;44m3[0;1;34;40m$$$Pⁿ[0;34m'',@$gg[0;1;34m$$$3@%ggg[0;1;34;46m▓░3[0;1;36;40m$$$$$[0;36mP''[0;1;37m,@$$$[0m$$
-  [1m   [0m  [1;30m [0;33m    [0;37m [0;33m     [0;37m   [0;1;37m     [0m  [36m   [0;1;36m   [0m  [1m                                        [0m  
-  [1m   [0m  [33m$$$$$[0;37m [0;33m$$[0;30;43m░░[0;33;40m$[0;37;40m   `ⁿ7[0;1;37;40m$$[0m$gggggggg$[1m$$$$[0m"WW[1m$$$$$$$$$$$$$[0m,`$[1m$$$$$$[0;1;36m$$[0;1;37m$$$$$$$$[0mP''[1m [0m
+[1m[0m[1;30m[0;33m[0;37m[0;33m[0;37m[0;1;37m[0m[36m[0;1;36m[0m[1m[0m  [1m   [0m  [33m$$$$$[0;37m [0;33m$$[0;30;43m░░[0;33;40m$[0;37;40m   `ⁿ7[0;1;37;40m$$[0m$gggggggg$[1m$$$$[0m"WW[1m$$$$$$$$$$$$$[0m,`$[1m$$$$$$[0;1;36m$$[0;1;37m$$$$$$$$[0mP''[1m [0m
        [33m$$$$$[0;37m [0;33m$$[0;37;43m░░[0;33;40m$[0m      [37;40m`ⁿ7[0;1;37;40m$$$$$$$$$$$$[0mg[1m [0mgg[1m$$$$$$$$$$$$$$[0m,`7[1m$$$$[0;1;36mWWW[0;1;37m$$$$$[0mPⁿ''
       .[1;30mg@@g[0m. .[1;30mg@@g[0m.        `ⁿ[1m7W$$$$$$$$$$$$$$$$$[0;1;36m$$$[0;1;37m$$$$$$$[0m,`7[1m$$$$$$$WP[0mⁿ''[1m       [0m
      ;[1;30m$$$$$$[0m;`[1;30m$$$$$[0ml [1m                                  [0;1;33m                         [0m'

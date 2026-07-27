@@ -5,7 +5,7 @@
 # Source SHA-256: aee702e20121e2c057832836823b62603ef356fdf0b3eea41f6102d4f30428c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-TERM.ANS by raider (opium graphix); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: terminat.lgo  ;)
 # SAUCE Author: raider
 # SAUCE Group: opium graphix
@@ -41,14 +41,6 @@ Write-Host '
 
 [1;31;40m--────-─-────----───-─-─----─--────-─---─---────-─-─--(chop, chop)-────-─-──----[0m
 
-                     [1;31m                                             [0m
-                  [1;31m                                                    [0m
-
-                       [1;31m                                                    [0m
-[1;31m                                                                           [0m
-                       [1;31m                                                 [0m
-                          [1;31m                                                [0m
-                             [1;31m                                              [0m
-                      [1;31m               [0m   [1;31m                                 [0m
-
+[1;31m[0m[1;31m[0m
+[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m[1;31m[0m
 [1;31m----──-─-────---────-────---─-─-────---─---─-────--─----─-─-───----────-─-────--[0m'

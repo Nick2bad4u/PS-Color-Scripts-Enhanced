@@ -5,12 +5,11 @@
 # Source SHA-256: a7a2ff2b18300f4b8d518c32663b312bad702e729dd7da5415588b1d9181ff34
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TLA.ANS by Xypher Matryx (dark0497); released in dark0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-                    
                 [31m▄▄▄[0m              [1;31m▄▄[0;1;31;41m▒ [0;31m▀ [0;1;31m▄[0;1;31;41m▒[0;31m▄[0m                     [31m▄▄■▀▀▄▄▄[0m
       [31m▄■▀▄   ▄▀▀ ▄■▀  [0;1;31m▄[0;1;31;41m▓▒[0;31m▀[0;1;31;41m▒█▒[0;31m▄ ▀[0;1;31;41m▒█[0;1;31;40m█[0;1;31;41m▓[0m [1;31;40m▐██[0;1;31;41m▓[0m       [31m▄[0;1;31m▄[0;1;31;41m▒[0;1;31;40m█▀▀▄[0;1;31;41m▓[0;1;31;40m▄  ▄▄[0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▒[0m       [31m▀▀▄[0m
      [31m▐▌ ▀  ▄▀[0;1;31m▄▄[0;1;31;41m▓▒ [0m  [1;31;40m▐[0;1;31;47m█[0;1;31;41m▓█[0;1;31;40m▌ ▐█[0;1;31;41m▓▒[0;31m▌[0;1;31m▐[0;1;31;41m▓[0;1;31;40m█[0;1;31;47m▒[0;1;31;40m▌ █[0;1;31;47m▒[0;1;31;40m██■▀[0;1;31;47m▒[0;1;31;40m▄▄ [0;31m▐[0;1;31;41m▒[0;1;31;40m█[0;1;31;41m▓[0;1;31;40m▌  ▐██[0;1;31;41m▒[0;31m▌[0;1;31m▐█[0;1;31;41m█[0;1;31;40m█▌[0m      [31m▄▀ ▐▌[0m

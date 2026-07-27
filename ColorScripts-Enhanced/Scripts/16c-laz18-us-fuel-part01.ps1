@@ -5,7 +5,7 @@
 # Source SHA-256: 3210e5fc1f70e757063f06b1212380ccbd63d10a333e6a77321fdd757507a499
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FUEL.ans by Filth + Warpus + The Knight (LAZ - R - US); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FOR UNLiMiNATED ELECTR0NiC L0UDNESS
 # SAUCE Author: filth knight warpus
 # SAUCE Group: LAZ - R - US
@@ -16,8 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-                          [1;30m       [0m [1;30m   [0m [1;30m           [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m
     [31m▄██████████████████████████████████████████████████████████████████████▄[0m
 [37m    [0;31m█[0;1;37;41mthe[0;31m█[0;1;37;41mknight[0;31m████████████████████[0;1;37;41mthe[0;31m█[0;1;37;41mwarpus[0;31m█████████████████████[0;1;37;41mthe[0;31m█[0;1;37;41mfilth[0;31m█[0m
 [37m    [0;31m████████████████████████████████████████████████████████████████████████[0m

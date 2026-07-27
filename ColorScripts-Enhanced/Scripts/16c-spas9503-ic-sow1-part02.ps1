@@ -5,7 +5,7 @@
 # Source SHA-256: 11dd61142a87ded80b4a9fd43667a97b9f697a4dd0c22569b02172e4a8d4cea0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-SOW1.ANS by Impact (Spastic Studios); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sowhatchawant!
 # SAUCE Author: Impact
 # SAUCE Group: Spastic Studios
@@ -30,8 +30,6 @@ Write-Host '
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;37;40m                                                                                [0m
 [1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-                                                                                
-                                                                                
 [1;30m<------------------------------------------------------------------------------>[0m
      [1m  [0;30;47m          [0m [37;40m                                                              [0m
 [37;40m     [0;1;37;40m  [0m                                                                         

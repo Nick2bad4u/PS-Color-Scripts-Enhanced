@@ -5,7 +5,7 @@
 # Source SHA-256: 36ffecbfa2ce63cc5875d36be8d493cc74cb2f445fdaedbb3186d623e5706021
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SLURG.ANS by Ceelow + Teflon (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: slurge font
 # SAUCE Author: tef+ceelow
 # SAUCE Group: roots
@@ -49,6 +49,5 @@ Write-Host '
                                                                          [30;45m▓[0m
 [37;40m [0;1;34;40mm[0;31mI[0;1;32mR[0;1;33mC[0m                                                                    [30;45m█[0m
 [37;40m   [0;1;32;40m               [0m
-[31m                       [0m
-
+[31m[0m
 [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

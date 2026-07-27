@@ -5,7 +5,7 @@
 # Source SHA-256: af35de9944e952f78972097b3aea1ce7df60b08129c71f956d5ad106d6747d3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEVIL.ANS by Death Knight (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -44,7 +44,7 @@ Write-Host '
                         [1;37m▐ ▐▓▓▒[0;1;30m▒▒░░░░    ░░░░▒[0;1;37m▓▓▒▌[0;1;30m▓[0;1;37m▐[0;1;36m▌[0m
                          [1;37m▌ ▓▒▌[0;1;30m▒▒░░[0m        [1;30m░░▒[0;1;37m▐▓▒[0;1;30m▓▓[0;1;36m█[0m
 [1;36m    [0;36m   [0;1;36m [0;36m    [0;1;36m [0;36m            [0;1;37m▐[0;1;30m▓[0;1;37m▐▒[0;1;30m▓▒░░[0m          [1;30m░▒▓[0;1;37m▓▌[0;1;30m▓[0;1;37m▐[0;1;36m▌[0m           [1;36m [0;36m    [0;1;36m [0;36m        [0m
-      [1;31m612[0;31m/[0;1;31m636[0;31m-[0;1;31m4616[0m        [1;37m▌[0;1;30m▓[0;1;37m▌[0;1;30m▓▒░░[0m           [1;30m░▒[0;1;37m▐[0;1;30m▓▓[0;1;36m█[0m            [1;36mANSI D[0;36mesigners[0m
+      [1;31m   [0;31m [0;1;31m   [0;31m [0;1;31m    [0m        [1;37m▌[0;1;30m▓[0;1;37m▌[0;1;30m▓▒░░[0m           [1;30m░▒[0;1;37m▐[0;1;30m▓▓[0;1;36m█[0m            [1;36m      [0;36m        [0m
      [1;32mUSR[0;32mobotics [0;1;32mHST[0m       [1;37m▐[0;1;30m▓▓▒▒░░[0m          [1;30m░░▒▓▓[0;1;37m▐[0;1;36m▌[0m                [1;36m[[0;1;34mD[0;34me[0;1;34mAD[0;1;36m][0m
      [1;35mP[0;35maragon v[0;1;35m1[0;35m.[0;1;35m00[0m        [1;37m▐[0;1;30m▓▒▒▒░░░░░    ░░░░▒▒▓▓[0;1;37m▐[0;1;36m▌[0m              [1;31mP[0;31mresidents:[0m
 [31m  [0;1;36mF[0;36mree [0;1;36mF[0;36miles [0;1;36mF[0;36mor [0;1;36mLD[0;36mers    [0;1;37m▌[0;1;30m▓▒▒▒ [0;1;37m▌[0;1;30m▒░░░▒░░░░[0;1;37m▐[0;1;30m▒▒▒▒▓▓[0;1;36m█[0m          [1;31mT[0;31mhe [0;1;31mA[0;31mlmighty [0;1;31mF[0;31matts[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: bdc691d0abd8d81865efdf76c80b60a0ee4c1680c00433c2b6f45da14a803a67
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-SNS00.ANS by transient (sense); released in sense-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: alien dna manipulation
 # SAUCE Author: transient
 # SAUCE Group: sense
@@ -59,9 +59,4 @@ Write-Host '
 [1;30m        [0;1;37m [0;1;30m   [0m    [1;30m    [0;1;37m [0;1;30m     [0;1;37m [0;1;30m      [0;1;37m [0;1;30m    [0;1;37m [0;1;30m         [0;1;37m [0m [1;30m▐██[0;1;30;47m▓░▒░▓[0;1;30;40m█▌[0m [1;30m      [0;1;37m  [0;1;30m  [0;1;37m [0;1;30m      [0;1;37m  [0m
 [1;37m-[0m-[1;30m------------------------------------------------[0m [1;30m███[0;1;30;47m▓▓[0;1;30;40m███[0m [1;30m------------------[0m-[1m-[0m
 [1;30m--[0m                                                  [1;30m▀▀▀▀▀[0m
-[1;30m                                 [0m
-[1;30m                                [0m
-     [1;30m                          [0m
-     [1;30m                                  [0m
-     [1;30m      [0m
-[1;30m--[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m--[0m'

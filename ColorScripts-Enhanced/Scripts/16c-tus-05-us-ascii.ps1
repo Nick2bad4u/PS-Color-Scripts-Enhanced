@@ -5,7 +5,7 @@
 # Source SHA-256: ede8be85ac068c681553c6d9d36a5067b4ed5e2ac1913313ff7d6b927a96bfc7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ASCII.ANS by Prizm + Discyple (tus-05); released in tus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
@@ -31,14 +31,12 @@ Write-Host '
 [36m $$b┐.[0;35m`[0;1;35m└$$b[0;35m┐.[0;1;36m`"²└**┘''[0;36md$j/`[0m   [1;30m  [0;35m.[0;1;35md$$$$b[0;35m.[0;1;36m  `4$$$$$$$$$j⌂┘` [0;35m.┌s#SS#%s┐_[0;1;36m`^[0;36m.d[0;1;36m$$[0;36m7''[0;1;36m [0;36m [0m
 [36m  `└*⌂$ [0;1;35m$$$$[0;35m$__[0;1;35mS#[0;35m%%[0;1;36m [0;36m└*/[0;1;36m  [0;1;35m.[0;35mdz___$[0;1;35m$$$$$$$[0;1;36m    `└*⌂⌂*┘²`[0m   [35m.d$[0;1;35m$$$[0;35m$[0;1;37m$$[0;32m.[0;35m$7''[0;36m.d$$7''[0;1;36m [0;36m.  [0m
         [35m`└*⌂*$$[0;1;35m$$$[0;35m$    .d[0;1;35m$$$$$[0;35m$$$[0;36m [0;1;35m$$$[0;35m$[0;1;36m  [0;35m.[0m           [35m .└┘''[0;36m$b.[0;35m`[0;1;36m [0;1;32m$$$b[0;32m.[0;1;36m  [0;36m\$$[0;1;36m  [0;36md$  [0m
-[1;30masciiscene.org[0;35m┌┐$$$$$$$$$$$$$$$$$$$.[0;37m [0;35m$[0;1;35m$$[0;35m$b.[0m         [36m.d$$b[0;1;32m$$$b[0;36m.[0;1;32m$$[0;32m`[0;1;32m4$b[0;36m.[0;37m [0;36m$$[0;37m  [0;36m$$  [0m
+[1;30m              [0;35m┌┐                    [0;37m [0;35m [0;1;35m  [0;35m   [0m         [36m     [0;1;32m    [0;36m [0;1;32m  [0;32m [0;1;32m   [0;36m [0;37m [0;36m  [0;37m  [0;36m    [0m
               [35m└┘[0m        [35m`└*⌂⌂*┘''[0;37m [0;35m`└┘[0;37m  [0;35m`└*┘''[0m      [36m.[0;37m [0;36m└┘''``[0;1;32m''$$`4$$$[0m  [32m`[0;1;32m4$[0;36mb$$[0;37m  [0;36m$$   [0m
                                                               [36m$$[0m   [36m `$$$[0;37m  [0;36m$$    [0m
 
 
-      [1;37m                                                [0m
-[1m   [0;1;36m [0m  [1m                        [0m
-   [1;36m;[0m                    [1;36m ;[0m
+[1;37m[0m[1m[0;1;36m[0m[1m[0m   [1;36m;[0m                    [1;36m ;[0m
 [1;36m...;..[0m$$                 [1;36m;[0m
   $[1;36m;[0m    $$$              [1;36m;[0m
   $[1;36m;[0m      $$$       [1;36m.....;.....[0m

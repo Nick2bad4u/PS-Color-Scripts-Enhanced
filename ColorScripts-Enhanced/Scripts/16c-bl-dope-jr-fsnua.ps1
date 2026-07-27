@@ -5,7 +5,7 @@
 # Source SHA-256: 1b4bfca39e8c5b5445ab2e8dd802f21aa38015801615dfe4d92f244d46b67b77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSNUA.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fika ! (c)
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -27,17 +27,4 @@ Write-Host '
 [1;30;40m [0m        [33m    [0m         [33m▀▀▀░[0;1;37;43m██[0;1;33;43m█[0;33m▌[0;31m [0;33m ░ ░░▒[0;1;37;43m██[0;1;33;43m█[0;33m▌ ▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;31m▄[0;33m ▀▀▀▀▀▀░▀ [0;37;41m▐[0;1;31;41m▌[0;31m [0m
                          [33m▀▀▀▀░[0m    [33m  ▀▀▀▀ [0;31m▀█[0;1;31;41m■░░[0;31m▄▒▓░▄▄▄  ▄  █[0;37;41m▄[0;31;40m░░▄▄▄▄█[0;1;31;41m▓░[0;31m░[0;37m [0;31m░░[0;37m [0;31m░[0m
            [1;30mnup:[0m [1;30mmullamulla ...........[0m        [31m▀▀▀▀▀[0;37;41m▀[0;1;31;41m▀░[0;31m████[0;1;31;41m▒[0;41m▀▀[0;1;31;41m▀ [0;31m▀▀▀▀[0;30;41mj[0;1;31;40mr    [0m
-          [1;30mname:[0m [1;30mFika ! ...............[0m                          [31m░░[0m
-                  [1;30m    [0m
-                 [1;30m    [0m
-
-
-
-
-
-
-
-
-
-
-[1;30m--------░░-░------------------▒----------------------------------------------░▓▓[0m'
+          [1;30mname:[0m [1;30mFika ! ...............[0m                          [31m░░[0m'

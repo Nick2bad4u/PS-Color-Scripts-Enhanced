@@ -5,7 +5,7 @@
 # Source SHA-256: 1b8ef98aa520795616c3921790de40d9f580c051a01291c300f16f76f190e496
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GEM.ANS by Tainted + Aesthetic (fire); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: gemenon
 # SAUCE Author: tainted/aesthetic
 # SAUCE Group: fire
@@ -35,8 +35,7 @@ Write-Host '
 [37m   [0;36m▀▄[0;1;36m▀[0;1;37m▀▀[0;1;36m▀[0;36m▄▀[0m                         [35m▄▄▄[0m                 [35m▄░[0m
      [36m▀▀▀[0m                              [1;35m▀[0;35m▀▀▀[0;37m  [0;35m░░░▄▄▄[0m
                                               [35m▀▀▀[0m
-      [30m                                       [0;37m  [0;30m                          [0m
-                              [1;30m                    ░░ [0;30m         [0m
+[30m[0;37m[0;30m[0m                              [1;30m                    ░░ [0;30m         [0m
 
        [37ma n s i  b y  [0;1;37mt[0m [1ma[0m [1mi[0m [1mn[0m [1mt[0m [1me[0m [1md[0m  a n d  [1ma[0m [1me[0m [1ms[0m [1mt[0m [1mh[0m [1me[0m [1mt[0m [1mi[0m [1mc[0m  [ [1mf[0m [1mi[0m [1mr[0m [1me[0m ]
 

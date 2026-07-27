@@ -5,7 +5,7 @@
 # Source SHA-256: 1da5f82dac2e223a30abd0081c6ad65bfb870c74f21a1edf1a1d2d814611beb9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX-ALC3.ANS by Apox (Apathy Studios); released in apathy15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Logo colly #3
 # SAUCE Author: Apox
 # SAUCE Group: Apathy Studios
@@ -48,8 +48,5 @@ Write-Host '
 
 [1;30m--──░──────--───────── -───────[0m [1;30m──[0m [1;30m───── ──-----───────--──────[0m [1;30m░░[0m [1;30m--───────∙[0m [1;30m-[0m
 
-[1;30m                                                                                [0m
-[1;30m                                                                     [0m
-[1;30m                                                                           [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m
 [1;30m--[0m'

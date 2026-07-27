@@ -5,7 +5,7 @@
 # Source SHA-256: 6f3b2563824ad8155ffb38db5e8e87c8bbf5982574533943f5160a13dbe3065a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS#DWAR.ANS by the saint (ecl-pak7); released in ecl-pak7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dwar entry
 # SAUCE Author: the saint
 # SAUCE Group: -
@@ -17,8 +17,7 @@
 Write-Host '
                                       [1;30m___[0m
                                      [1;30m$''[0;1;34mΘ[0;1;30m''$[0m
-                                     [1;30m     [0m
-                              [1m [0m   sS[1;30m$[0m┐.__.s$s.[1m [0m_
+[1;30m[0m                              [1m [0m   sS[1;30m$[0m┐.__.s$s.[1m [0m_
                               [1ms$$.[0m`²[1;30mS$$$$$[0m$$l''[1m [0ms[1m$[0m
                    [34m;[0;1;34m;;;;[0;34m;[0;37m     [0;1;37m²²$[0m$$s,[1;30m``^[0m^^``,s$[1m$$[0m
                             [33m.s$[0;1;31ms,[0;1;37m''$[0m$[1;30m$$$$$$$[0m$$[1m$$$[0m

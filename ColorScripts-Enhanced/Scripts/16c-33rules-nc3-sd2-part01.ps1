@@ -5,7 +5,7 @@
 # Source SHA-256: aac052e924703f6c24b72ac5bf596e6df0a6589aca8a5a64487ebd3a8361aa9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NC3-SD2.ANS by Eerie + Neurotic (Neurotic/Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Snake's Domain [j]
 # SAUCE Author: Fire 10/95
 # SAUCE Group: Neurotic/Eerie
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m                                                                          [0m
-
+[1m[0m
 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [34m█[0;30;44m▄▄░[0;34;40m████████[0;30;44m■░▄[0;34;40m█████████████████████████[0;30;44m▄█ ▀[0;34;40m██████[0;30;44m▄▀▀ ▄  ▓▄[0;34;40m████████████████████[0m
 [34;40m█[0;30;44m ▓▀[0;34;40m██████████[0;30;44m░▓[0;34;40m██████▓█████████████████[0;30;44m░▓[0;34;40m███████[0;30;44m▓░   ▓  ░[0;34;40m██████[0;30;44m▄[0;34;40m██████████████[0m

@@ -5,17 +5,14 @@
 # Source SHA-256: d10091071ba05fca11ff9ed89e69c50a9f72a87f5718ea6656e45c8efc33d680
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zs-elem.ans by Zerostar (sys2_01); released in sys2_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
                                        [1;30m.┐y┌.[0m
-         [1;30m [0m          [1;30m [0m        [1;30m    [0;36m  [0;1;30m     [0;36m [0;1;36m [0;36m [0;1;30m [0m
-         [1;30m  [0m         [1;30m [0m        [1;30m   [0;36m [0;1;36m   [0;36m [0;1;30m    [0;36m  [0;1;30m [0m
-                    [1;30m [0m           [1;30m`²┘*[0;36mÿÿ[0;1;30mb._;ÿÿb.[0m
- [1;36m                         [0m      [1;30m   [0;36m   [0;1;30m    [0;36m [0;1;36m   [0;36m [0;1;30m     [0;1;36m  [0m [1;36m [0m    [1;36m [0m    [1;36m [0m    [1;36m [0m    [1;36m     [0m
-                  [1;30m [0m [1;30m [0m      [1;30m     [0;36m  [0;1;36m  [0;36m  [0;1;30m    ┘[0;36m  [0;1;30m    [0m
+[1;30m[0m[1;30m[0m[1;30m[0;36m[0;1;30m[0;36m[0;1;36m[0;36m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0;36m[0;1;36m[0;36m[0;1;30m[0;36m[0;1;30m[0m                    [1;30m [0m           [1;30m`²┘*[0;36mÿÿ[0;1;30mb._;ÿÿb.[0m
+[1;36m[0m[1;30m[0;36m[0;1;30m[0;36m[0;1;36m[0;36m[0;1;30m[0;1;36m[0m[1;36m[0m[1;36m[0m[1;36m[0m[1;36m[0m[1;36m[0m                  [1;30m [0m [1;30m [0m      [1;30m     [0;36m  [0;1;36m  [0;36m  [0;1;30m    ┘[0;36m  [0;1;30m    [0m
                     [1;30m [0m          [1;30m`┘*[0;36m//[0;1;30m*┘` .┐[0;36mq[0;1;30m@[0m
                                  [1;30m.,[0;36m▬┌\[0;1;30m*┘[0;36m²''`[0m
 [1;30m   [0m                              [1;30m*┘[0;36m²[0;1;30m''^``.`[0m
@@ -38,6 +35,5 @@ Write-Host '
 [1;34m       [0;34m        [0;1;34m     [0;34m   [0;1;34m        [0;34m    ┘    ┐  [0;1;34m  [0;34m   [0;1;34m  [0;36m  [0;1;34m  [0;34m  ┘   [0;1;34m       [0;34m   [0;1;34m      [0;34m    [0m
 [34m\\\\\*┘²''`[0m    [34m`²┘*└²`  `┘[0;1;34m┘┘[0;34m┘²''`[0m      [34m. *┘²''^````''²ÿ[0;1;34mÿÿÿÿÿ[0;34mÿ%p┌▬``````` ÿ[0;1;34mÿÿ[0;34m7''^`````[0m
                                    [34m [0m              [34m [0;1;34m [0;34m   ┘  [0;1;34m   [0;34m [0m       [34m [0;1;34m  [0;34m     [0m
-                                                  [34m   [0m      [34m   [0m       [34m   [0m
-                                                 [34m;lll[0m                [34m;;;[0m
+[34m[0m[34m[0m[34m[0m                                                 [34m;lll[0m                [34m;;;[0m
                                                   [34m;;[0m'

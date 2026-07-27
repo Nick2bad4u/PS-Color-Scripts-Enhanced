@@ -5,7 +5,7 @@
 # Source SHA-256: 1f944c399f22c9855ec4ed3ecca34fc1625a2cfff1eeb4d989b27498a83a2488
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-SKY.ICE by Soul Blazer (iCE); released in ice-9405 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: but ACiD is the gayest
 # SAUCE Author: Soul Blazer
 # SAUCE Group: iCE
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m                                            [0m
-[35m▄▄▄▄▄  [0;34m▀ ░▒▀▀▀[0;1;34;44m░▒[0;1;34;40m▀▀[0;34m▄▀▄ [0;1;34m▄▄▀▀ ▄[0;35m▀███████████████████████████ [0;34m▒▀▀▀▀▓ [0;1;34;44m▓[0m [34m▀▒ [0;1;34;44m▒░ [0m [35m█[0;35;45m      [0m
+[1;30m[0m[35m▄▄▄▄▄  [0;34m▀ ░▒▀▀▀[0;1;34;44m░▒[0;1;34;40m▀▀[0;34m▄▀▄ [0;1;34m▄▄▀▀ ▄[0;35m▀███████████████████████████ [0;34m▒▀▀▀▀▓ [0;1;34;44m▓[0m [34m▀▒ [0;1;34;44m▒░ [0m [35m█[0;35;45m      [0m
 [35;40m████████▄▄▄▄ [0;34;40m▓[0;34;44m [0m [34;40m▓░ ▓[0;34;44m [0;1;34;44m░[0m [1;34;44m▒░[0m [34m▒[0;1;34m▄[0;1;34;44m▓[0m [35m███████████████████████████▄███ [0;34m░▒ [0;1;34;44m▒[0;1;34;40m▄▄█[0;1;34;44m▓▒[0;34m▀▄[0;35m▀[0;35;45m      [0m
 [35;40m███████████▄[0;34;40m▀▄▄▓▀▒▄▄▀▄▓▄▀[0;1;34;44m░▒[0;1;34;40m▀[0;35m▄[0;35;45m                               [0;35;40m▀▀ [0;34;40m▒▓ [0;1;34;40m▀▀[0;34m▀▀▄▒ [0;35m█[0;35;45m      [0m
 [35;40m███████████▄[0;34;40m▀ [0;37;40m▄▄▄▄▄▄ [0;34;40m▀░ [0;35;40m█▄▄[0;35;45m                                [0m [34;40m░▀▀▀  ▀▀▀▀▀ ▀[0;35;40m▄[0;35;45m      [0m

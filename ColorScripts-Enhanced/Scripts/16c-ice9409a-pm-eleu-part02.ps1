@@ -5,7 +5,7 @@
 # Source SHA-256: 3dde9cec54ac72692293d299945b936f772d3e8a2936bb0f2bb25f1f9d710e17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-ELEU.ICE by Psyberman + Animal (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 44-89
 # Columns: 1-80
 
@@ -45,11 +45,9 @@ Write-Host '
 [1;30m▒▓▓ [0;1;31;41m▓▒▒[0m [1;30m▒▓▓ [0;1;31;41m▓▒▒[0m [1;30m▒▓▓ [0;1;31;41m▓▒▒[0m [1;30m▒▓▓ [0;1;31;41m▓[0m [1;30m▓▓▒ ▒▓▓ [0;1;31;41m▒░[0m [1;30m▒▓▓ [0;1;31;41m░[0m [1;30m▓▓▒ ▒▓▓ [0;1;31;41m▓▒▒[0m [1;30m▓▓▒  ▓██ ▒▓▓ ▒▓▓  ▓▓▒[0m
 [1;30m░▒▒▄▄▄▄▄ ▒▒▄▄▄▄ ░▒▒▄▄▄▄▄▄▄▄▄▄▄▒▒░ ░▒▒ [0;1;31;41m▓▒[0m [1;30m░▒▒ [0;1;31;41m▒[0m [1;30m▒▒░ ░▒▒▄▄▄▄▄▄ ░  ▒▓▓ ░▒▒ ░▒▒  ▒▒░[0m
 
-                                              
 
-                                                  
 
- [1;30m▀[0m                               .606-223-1853.                                [1;30m▄[0m
+ [1;30m▀[0m                                                                             [1;30m▄[0m
 
 [1;30m ▓[0m                                                                             [1;30m▓[0m
 [1;30m █▓[0m                [1;30m                   [0;1m [0;1;36m [0;1;34m [0;1;30m                [0;1m [0;1;36m [0;1;34m [0;1;30m [0m                 [1;30m██[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 6b3b37023a69fa3396070e116f5c377fabf5d6738f6f1e7513ce15c8419af809
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RA-RIKOS.ANS by Reanimator (jasper05); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -15,7 +15,7 @@ Write-Host '
                             [1;30m░[0m   [35m▀[0;37m  [0;30;45m▓▓▓[0;1;37;40m ░[0m        [1m█[0;36m▌[0m
             [1;30m▄[0;35m▄[0;1;35;45m░[0;35m▀[0;1;30m▀[0m [35m▀[0;1;37;45m░▓[0;1;35;40m▄[0m       [35m▄[0;1;35;45m▄[0m    [1;45m▓▓[0;35m▌[0;37m  [0;1;37m█▄[0m     [1m█[0;1;36m█[0m
           [1;30m▀▀[0;1;35;45m▓▓[0;35m▌[0;1;35m [0m  [1;35m [0;35m▄[0;1;35;45m▐[0;1;35;40m▓░░[0m   [35m▄[0;1;35m█[0;1;35;45m▓▓[0;1;35;40m▄[0;35m▄▄[0;1;35;45m░░[0;35m▀ [0;37m [0;36m ▐[0;1;37m██▄[0m  [1m█[0;1;36m█[0;36m▌[0;37m  [0;1;30m▀[0;35m▀[0;1;37;45m▒▒▒[0;35m▀▀[0;1;35m▀[0;1;37;45m▒▒[0;35m▄[0m
-     [31m▄▄[0;1;31m▄▄[0;1;37;41m░[0;1;37;40m▄▄[0;1;35;40m▐░[0;35m█[0;37m   [0;35m▐[0;1;35m█[0;1;35;45m█▒▒[0;1;35;40m▓▓█[0;35m▀[0;37m [0;1;35;45m▒▒▒[0m  [35m▀█▄[0m     [1;36m█▀[0m       [35m▀▀[0;1;35;45m▓[0;1;35;47m▓▓[0;35m▌[0;37m   [0;1;35m▐██[0;1;35;45m░[0;1;30;40m░[0m rikOs.org
+     [31m▄▄[0;1;31m▄▄[0;1;37;41m░[0;1;37;40m▄▄[0;1;35;40m▐░[0;35m█[0;37m   [0;35m▐[0;1;35m█[0;1;35;45m█▒▒[0;1;35;40m▓▓█[0;35m▀[0;37m [0;1;35;45m▒▒▒[0m  [35m▀█▄[0m     [1;36m█▀[0m       [35m▀▀[0;1;35;45m▓[0;1;35;47m▓▓[0;35m▌[0;37m   [0;1;35m▐██[0;1;35;45m░[0;1;30;40m░[0m          
         [31m▀[0;30;41m░[0;1;31;41m▓[0;1;31;40m▀[0m ▒         [1;35m██[0;1;35;45m▓[0;36m░░[0;1;35;45m░░░[0m   [35m▐[0;1;35;45m▒░[0;30;45m▒▓[0;1;33;40m   [0;33m▄[0;1;30;43m░░[0;1;33;43m░░[0;33m▒[0;1;30m▄▄[0;1;33m [0;1;30m [0m  [35m▀[0;1;35m▀[0;1;35;47m▓[0;35m▄▄[0;37m    [0;1;36m▄▄▄[0;36m▄[0;1;30m▄▄[0m
 [1m▀[0m [1;36m▀█ [0m       [1;30m▄[0m▄▄[30;46m█▓▓▓▓▓[0;36;40m░[0;37;40m [0;35;40m▀▀[0;37;40m   [0;1;30;40m▀▀▀[0m [30;46m▓[0;37;40m   [0;1;37;40m▄[0m  [1;33m   [0;33m▄[0;1;33;43m▓▒▒[0;33m▄[0;1;33m  [0;33m▀[0;1;37;43m░[0m  [1;30m▄[0m    [1;35m▀[0;1;35;47m▒▒[0m▄ ░[1;36m▀[0;1;36;46m▓▓░[0;1;30;46m░▓[0;1;30;40m▄[0m
    [1;30;46m░[0;36m▀▀▀[0;1;36m█[0;36m▀[0;1;36;46m▒[0;36m▌[0;1;30m▐[0;1;37;47m░░[0m  [1;30m▀[0;36m▀[0;1;36;46m░[0;36m▀[0;1;36;46m▓█[0m [1;47m░░▒▓[0;30;47m░[0;37;40m▄[0;1;37;47m░░[0m [30;46m▓[0;37;40m ▄[0;1;37;47m░▒▓[0m [1;33m  [0;33m▐[0;1;37;43m▓▓▓▓[0;1;33;43m▓[0;33m▌[0;1;33m   [0;1;30m▄[0;1;37;47m▒▒▓[0m▀▀[1;30m▀[0m [36m [0;1;35;47m▒░[0;1;37;47m▓[0m▀  [1;36m▀[0;36m▀▀[0;31m [0;1;30m▀[0m

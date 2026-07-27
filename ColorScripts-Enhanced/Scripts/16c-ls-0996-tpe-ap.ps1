@@ -5,7 +5,7 @@
 # Source SHA-256: bd48a33380e8273cbc58156e81f7bae94386fa341793fb4f61110b1b52af2291
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TPE-AP.ANS by the platinum eagle (leper society); released in ls-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: acid plegm (with a crappy m)
 # SAUCE Author: the platinum eagle
 # SAUCE Group: leper society
@@ -33,11 +33,6 @@ Write-Host '
        [1;33m"$$[0;1;36m$$$[0m [1;36m$$[0;36m$[0m  [36m$$$$ $[0;1;36m$$[0;36m$[0m [36m$[0m [36m,S$$[0;37m [0;36m"²²[0;37m [0;36m`"²[0;1;36m$$[0;36m$$[0m     [1;36m,$[0;36m$$[0;1;36m$$[0;1;33m$$[0m
          [1;33m$$$$[0m [1;36m$$$[0m  [36m$$$$[0m [1;36m$$$$[0m [1;36m$[0m [36m$[0;1;36m$[0;36m$$[0;37m [0;1;36m,S$[0m [1;36m,sS$$$"[0;1;33m,[0;1;36msss$$$$$[0;1;33m$$$$[0m
           [1;33m$$$[0m [1;36m`[0;36m"''[0m  [1;36m$²"''[0m [1;36m$$$$[0m [1;36m$$$$$$ $$$[0m [1;36m²²²²"[0;1;33m,sS$$$$$$$$$$$$[0m
-           [1;33m             [0m [1;36m   [0m [1;33m [0m [1;36m        [0;1;33m                     [0m
-
+[1;33m[0m[1;36m[0m[1;33m[0m[1;36m[0;1;33m[0m
 ──────-- --──────────────────────--────────────────────--  --───────────────────
-[1m                                                                               [0m
-[1m                                                                              [0m
-[1m                                                                             [0m
-[1m                                                                  [0m
-[1m!?        t                p   e?![0m'
+[1m[0m[1m[0m[1m[0m[1m[0m[1m!?        t                p   e?![0m'

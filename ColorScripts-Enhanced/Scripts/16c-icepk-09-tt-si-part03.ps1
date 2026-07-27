@@ -5,7 +5,7 @@
 # Source SHA-256: 703f32c73652b5143335f5dcaa82a8bc757ae00841075d33c7f3b73f7e3be9e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-SI.ICE by Tempus Thales (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 74-123
 # Columns: 1-80
 
@@ -49,7 +49,7 @@ Write-Host '
  \ [1m█[0;1;47m▓▒░[0m███[47m   [0;1;30;47m█[0m [1;37;40m█[0;1;37;47m▓▒░ [0;1;30;40m█[0m     [1;37;40m█[0;1;37;47m▓▒░ [0;1;30;40m█ [0;1;37;47m█▓▒░ [0;1;30;40m█   [0;1;37;40m█[0;1;37;47m▓▒░ [0;1;30;40m█ [0;1;37;40m█[0;1;37;47m▓▒░ [0;1;30;40m█ [0;1;37;40m█[0;1;37;47m▓▒░[0m██[47m    [0;1;30;40m█  [0;1;37;40m█[0;1;37;47m▓▒░ [0;1;30;40m█ [0m/
 ── ▀[1;30m▀▀▀▀▀▀▀▀▀▀ [0m▀[1;30m▀▀▀▀▀[0m     ▀[1;30m▀▀▀▀▀ [0m▀[1;30m▀▀▀▀▀   [0m▀[1;30m▀▀▀▀▀ [0m▀[1;30m▀▀▀▀▀ [0m▀[1;30m▀▀▀▀▀▀▀▀▀▀  [0m▀[1;30m▀▀▀▀▀ [0m──
 
-       [1;30m···─[0m┤[1;35mS[0;35mudden [0;1;35mI[0;35mmpact[0;37m>[0m                             [37m<[0;1;30m[[0;35m8o5[0;1;30m][0;35m493[0;1;30m-[0;35m1287[0;37m├[0;1;30m─···[0m
+       [1;30m   ─[0m┤[1;35m [0;35m      [0;1;35m [0;35m     [0;37m [0m                             [37m [0;1;30m [0;35m   [0;1;30m [0;35m   [0;1;30m [0;35m    [0;37m├[0;1;30m─   [0m
                                 [1;35m [0;35m        [0;1;35m [0;35m     [0;37m├[0;1;30m─   [0m
        [1;30m   ─[0m┤[35m [0;1;35m [0;35m     [0;1;35m [0;35m       [0;1;35m [0;35m              [0;1;35m [0;35m      [0;1;35m [0;35m       [0;1;35m [0;35m           [0;37m [0m
 [37m   [0;1;35m [0;35m                                                                       [0;37m├[0;1;30m─  [0m

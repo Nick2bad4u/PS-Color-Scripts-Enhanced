@@ -5,7 +5,7 @@
 # Source SHA-256: 63d42a8be8e9e7d12c4cbcfc67e06770a7d4c3bde1ae8b22607c39567cbf2f04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pt-hlgn.ans by Produkt (mimic32); released in mimic32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -31,6 +31,5 @@ Write-Host '
 [35m ,   ,  ,▬┌d[0;1;35mS[0;35m7[0m      [35m4[0;1;35mS[0;35mb┐db┐▬┌s%%s┐.  [0;36m   l$$[0;1;36m$$$[0;36mb┐▬.[0m
 [35m         [0;1;35m    [0;35m         [0;1;35m     [0;35m ┘└ [0;1;35m  [0;35m │ ┐ [0;36m    ┘   [0;1;36m    [0;36m├     [0;37m              [0m
 [35m ^   ^  ^^''4[0;1;35mSS[0;35mb┐▬▬┌d$$7''^lSb┐┌d[0;1;35mSS[0;35m7''```[0m      [36m`4$[0;1;36m$$$$$[0;36ml[0m
-            [35m  [0;1;35m      [0;35m        [0;1;35m    [0;35m     [0m         [36m [0;1;36m     [0;36m [0m
-             [35m`''┘**└''`  l/  `''└└''`    [0m         [36ml[0;1;36m$$$$$[0;36m$[0m
+[35m[0;1;35m[0;35m[0;1;35m[0;35m[0m[36m[0;1;36m[0;36m[0m             [35m`''┘**└''`  l/  `''└└''`    [0m         [36ml[0;1;36m$$$$$[0;36m$[0m
                        [35m``[0m                     [36m```````[0m'

@@ -5,13 +5,12 @@
 # Source SHA-256: cf93ee237a0313b091878e1ce0beff5e483325ec7e3ab0611f730e25e4b31276
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TD^ROCK.ANS by The Dr (moco0001); released in moco0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
 Write-Host '
-              [1;30m                                          [0m
-                             [33m▄▄[0m
+[1;30m[0m                             [33m▄▄[0m
                            [33m■▀  ▀▀▄  ▄■▀■▄[0m
                        [33m▄▀▀▄▄▀▀■▄ ▐▌▐▌  ▄▄▀▀▄▄[0m
                       [33m▐▌▀▀▄▄▀▀▀ ▀▀■▀▄■▀   ▀■▐▌[0m

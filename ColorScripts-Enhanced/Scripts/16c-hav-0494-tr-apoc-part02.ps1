@@ -5,7 +5,7 @@
 # Source SHA-256: 2e910056a441c3c7ec4f9c783a5dc584de269574c9f6e22656936dec82c9c8fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-APOC.ANS by The Replicant (hav-0494); released in hav-0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -44,7 +44,7 @@ Write-Host '
          [1;30m╔═════════[0;31m▀[0;1;30m═[0;31m▀▀▀▀▀█▄▄[0;1;30m═══[0;31m▀[0m═════════╗
   [1;30m║[0m      [1;30m║ A P O C A L [0mY P S E[31m▀   [0m2 0 [1m0 0 ║[0m
 [1;30m══╬══════╩═════════════[0m══════════════[1m═════╩══════════ ═ ═   ─  . · ·[0m
-[1m  [0;1;30m║   °   [ 7 0 8 ] 6 [0m7 6 - 9 8 5 5
+[1m  [0;1;30m║                   [0m             
   [1;30m║[0m
 [1;30m  ║   °   R u n n i [0mn g  V i s i [1mo n - X[0m
 

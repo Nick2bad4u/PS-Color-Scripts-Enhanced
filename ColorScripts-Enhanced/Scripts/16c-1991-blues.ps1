@@ -5,7 +5,7 @@
 # Source SHA-256: bd6ea95e8217f0e6ca6c292671683b01345803f0422aac217d4e3d23199e7ae8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLUES.ANS by Scott Graphix (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -34,7 +34,4 @@ Write-Host '
 
 
 
-[30m                                                          [0m
-[30m                                                               [0m
-[30m                                                                  [0m
-[30m<B-2.P4B-A8B-.P4>F2.P4FE8F.P4<B-2.P4B-A8B-.P1P1P1P1P1P1P1P1P1P1P1P1[0m'
+[30m[0m[30m[0m[30m[0m[30m<B-2.P4B-A8B-.P4>F2.P4FE8F.P4<B-2.P4B-A8B-.P1P1P1P1P1P1P1P1P1P1P1P1[0m'

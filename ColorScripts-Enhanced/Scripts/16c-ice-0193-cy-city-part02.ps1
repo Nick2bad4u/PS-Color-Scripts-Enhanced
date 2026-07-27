@@ -5,7 +5,7 @@
 # Source SHA-256: 16feba8f08b60f781ab479fe1ec0efe9a17e72f95a4671a09109c2928925c0d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CY-CITY.ICE by Cyclonus (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-80
 # Columns: 1-80
 
@@ -35,7 +35,4 @@ Write-Host '
                             [34m▀[0m     [34m▀[0m     [34m▀[0m                       [34m▀[0m       [34m▀[0m
 
 [1;30m┌╒═══════════════════════════════════════════════════════════════════════════╕┐[0m
-[1;37m [0;1;36m   [0;1;34m  [0;34m   [0;1;30m  [0;1;34m  [0;1;36m  [0;1;37m     [0;1;36m  [0;1;37m   [0;1;30m  [0;1;37m   [0;1;36m  [0;1;34m    [0;34m    [0;1;34m   [0;1;36m    [0;1;30m  [0;1;37m  [0;1;36m   [0;1;37m        [0;1;36m   [0;1;30m  [0;1;34m  [0;34m   [0;1;34m   [0;1;36m   [0;1;37m [0m
-[1;36m  [0;1;37m     [0;1;36m    [0;1;34m [0;34m  [0;1;34m  [0;1;30m  [0;1;34m  [0;1;36m    [0;1;37m     [0;1;30m  [0;1;37m    [0;1;36m  [0;1;37m   [0;1;30m   [0;1;37m   [0;1;36m [0;1;34m [0;34m  [0;1;34m [0;1;36m [0;1;37m   [0;1;30m  [0;1;37m      [0;1;36m  [0;1;37m  [0;1;30m  [0;1;37m   [0;1;36m   [0;1;34m [0;34m [0;1;34m [0;1;36m [0m
-[1;37m  [0;1;36m     [0;1;37m    [0;1;36m   [0;1;34m   [0;1;30m  [0;34m  [0;1;34m  [0;1;36m  [0;1;37m       [0;1;36m  [0;1;30m  [0;1;37m   [0;1;36m   [0;1;37m      [0;1;36m  [0;1;34m  [0;34m  [0;1;34m  [0;1;36m   [0;1;30m   [0;1;37m  [0;1;36m    [0;1;37m        [0;1;36m   [0m
-[1;30m└╘═══════════════════════════════════════════════════════════════════════════╛┘[0m'
+[1;37m[0;1;36m[0;1;34m[0;34m[0;1;30m[0;1;34m[0;1;36m[0;1;37m[0;1;36m[0;1;37m[0;1;30m[0;1;37m[0;1;36m[0;1;34m[0;34m[0;1;34m[0;1;36m[0;1;30m[0;1;37m[0;1;36m[0;1;37m[0;1;36m[0;1;30m[0;1;34m[0;34m[0;1;34m[0;1;36m[0;1;37m[0m[1;36m[0;1;37m[0;1;36m[0;1;34m[0;34m[0;1;34m[0;1;30m[0;1;34m[0;1;36m[0;1;37m[0;1;30m[0;1;37m[0;1;36m[0;1;37m[0;1;30m[0;1;37m[0;1;36m[0;1;34m[0;34m[0;1;34m[0;1;36m[0;1;37m[0;1;30m[0;1;37m[0;1;36m[0;1;37m[0;1;30m[0;1;37m[0;1;36m[0;1;34m[0;34m[0;1;34m[0;1;36m[0m[1;37m[0;1;36m[0;1;37m[0;1;36m[0;1;34m[0;1;30m[0;34m[0;1;34m[0;1;36m[0;1;37m[0;1;36m[0;1;30m[0;1;37m[0;1;36m[0;1;37m[0;1;36m[0;1;34m[0;34m[0;1;34m[0;1;36m[0;1;30m[0;1;37m[0;1;36m[0;1;37m[0;1;36m[0m[1;30m└╘═══════════════════════════════════════════════════════════════════════════╛┘[0m'

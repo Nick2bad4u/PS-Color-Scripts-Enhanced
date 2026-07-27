@@ -5,7 +5,7 @@
 # Source SHA-256: 4ed9777c40ece384036744f26c673cf27e66ea23cd6dc89e270ce47ab34c86c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZI-TD.ANS by Zippo (eph0795); released in eph0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -49,14 +49,9 @@ Write-Host '
 
 [1;37;40m    [0;1;30;40m [0m                    [1;30;40m───[0m [1;37;40mt[0m h [1;30me   d r e a m i [0mn [1mg [0;1;30m───[0m
 
-                    [1;30m┌──────────∙· [0;1;37m7[0mo5.72i.o32[1m4 [0;1;30m·∙──────────┐[0m
-                    [1;30m [0m        [1;37m [0m                    [1m [0m        [1;30m [0m
-                    [1;30m [0m      [1;37m [0m               [1m  [0m       [1m [0m      [1;30m [0m
-                    [1;30m [0m     [1;37m [0m     [1m [0m         [1m [0m          [1m [0m     [1;30m [0m
-                    [1;30m [0m       [1;37m [0m                [1m [0m     [1m [0m       [1;30m [0m
-                    [1;30m└─────∙· [0;1;37ms[0mysop: zippo [1;30m[[0meph[1m/[0mk0de[1;30m] ·∙────┘[0m
+                    [1;30m┌──────────   [0;1;37m [0m          [1m  [0;1;30m  ──────────┐[0m
+[1;30m[0m[1;37m[0m[1m[0m[1;30m[0m[1;30m[0m[1;37m[0m[1m[0m[1m[0m[1;30m[0m[1;30m[0m[1;37m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m[1;30m[0m[1;37m[0m[1m[0m[1m[0m[1;30m[0m                    [1;30m└─────∙· [0;1;37ms[0mysop: zippo [1;30m[[0meph[1m/[0mk0de[1;30m] ·∙────┘[0m
 
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m [0;1;37m [0m   [1m [0m [1m [0m    [1m [0m [1m [0m       [1;30m [0;1;37m [0m [1m [0m  [1m [0m    [1m [0m   [1m [0m [1m [0m   [1;30m [0;1;37m [0m      [1m [0m    [1m [0m [1m [0m  [1m [0m       [1;30m [0;1;37m [0m      [1;30m [0m
-[1;30m────────────────────── one hundred lines on the dot. ──────────────────────────[0m'
+[1;30m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;30m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;30m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0m[1;30m[0;1;37m[0m[1;30m[0m[1;30m────────────────────── one hundred lines on the dot. ──────────────────────────[0m'

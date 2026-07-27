@@ -5,7 +5,7 @@
 # Source SHA-256: 504882605147d1652d9d4d52462b574e67149898a2b409b29b06aa44cfbb88ab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MS-LI3O3.ANS by MrSPLiF (ELP); released in elp-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Lost iN ThreeHundredThree Logon
 # SAUCE Author: MrSPLiF
 # SAUCE Group: ELP
@@ -14,8 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m                [0m
-
+[1;30m[0m
 
                         [32m [0;37m [0;32m+o: ramirez![0;37m [0;32m [0;1;30m░░ [0m      [1;30m░░[0m
                        [1;30m░░[0m      [1;30m▄▄▄▄░▄▄[0;32m [0;1;37m▄▄▄[0;1;32m▄[0;32m [0;1;30m▄▄[0;32m [0;1;30m░░▓▓░░[0m

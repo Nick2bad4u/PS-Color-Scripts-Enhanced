@@ -5,7 +5,7 @@
 # Source SHA-256: 0618cc0f2a8f1c011f7041cf50fa3eba2d17da228e7788dc8d2096b6b0f74b99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-WTF.ANS by Zerovision + Catch 22 (glue); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: jibberish
 # SAUCE Author: zerovision&catch22
 # SAUCE Group: glue
@@ -58,6 +58,5 @@ Write-Host '
    [31m█  ▌[0m     [31m▐[0;1;31;41m▓▓░[0;31m ▓[0;1;31;41m▒▓[0;1;31;40m▄▄[0;1;31;41m▄[0;1;31;47m▄▓[0;1;31;41m█▀[0;31m▀  ▓[0;1;31;41m▓█▄[0;31m▀   ▓█▐░[0m    [31m ▒▒▒ █[0;1;31;41m░[0;31m░   ▀[0m      [1;31m█[0;1;31;47m▓▓[0;1;31;40m▌[0m     [1;31;41m█[0;31m  [0;1;31m▓[0m
 [37m [0;1;30m22[0;31m█▄▄▌[0m     [31m▐[0;1;31;41m▒▒░[0;31m ▓[0;1;31;41m▓██▀[0;1;31;40m▀▀[0;31m▀[0m     [31m░[0;1;31;41m██▄[0;31m▄   ▓█▐░[0m         [31m█[0;1;31;41m░[0;31m░    [0m      [1;31m█[0;1;31;47m▒░[0;1;31;40m▌[0m     [1;31;41m█[0;1;31;40m▄▄█[0m
                                                    [31m  [0m
-                      [31m                                     [0m
-
+[31m[0m
 [1;30m------[0m'

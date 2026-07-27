@@ -5,7 +5,7 @@
 # Source SHA-256: 77aff52289926c0b22f224b009eca1f603ae02453b90534a98ade7bfa064be36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-FB.ANS by Soul Seeker (blde9404); released in blde9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 122-151
 # Columns: 1-80
 
@@ -31,11 +31,7 @@ Write-Host '
 
                       [33;40mF [0;37;40m· R · E · E  ■  [0;1;33;40mB [0m· E · E · R
                                [33m4[0;37m04∙[0;1;33m3[0m51∙[1m4[0m529
-                               [33m [0;37m   [0;1;33m [0m       
-     [33m [0;37m     [0;1;33m [0m      [1m [0m                              [33m [0;37m     ─  [0;1;33m [0m        [1m [0m     
-     [33m [0;37m         [0;1;33m [0m     [1m [0m                           [33m [0;37m        [0;1;33m [0m      [1m [0m      
-     [33m [0;37m          [0;1;33m [0m             [1m [0m                  [33m [0;37m    [0;1;33m [0m       [1m [0m        
-
+[33m[0;37m[0;1;33m[0m     [33m [0;37m     [0;1;33m [0m      [1m [0m                              [33m [0;37m     ─  [0;1;33m [0m        [1m [0m     
+[33m[0;37m[0;1;33m[0m[1m[0m[33m[0;37m[0;1;33m[0m[1m[0m[33m[0;37m[0;1;33m[0m[1m[0m[33m[0;37m[0;1;33m[0m[1m[0m
  [1;30m──────────────────────────────────────────────────────────────────────────────[0m
-                                                              
  [1;30m──────────────────────────────────────────────────────────────────────────────[0m'

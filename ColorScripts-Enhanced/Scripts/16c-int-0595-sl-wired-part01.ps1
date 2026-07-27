@@ -5,7 +5,7 @@
 # Source SHA-256: 0997c9055b15cdef0b4e6f575fae82d9c8cc56b59d354a2a107e385a328a5c34
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-WIRED.ANS by Surreal Logic (Integrity); released in int-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Wired
 # SAUCE Author: Surreal Logic
 # SAUCE Group: Integrity
@@ -27,7 +27,7 @@ Write-Host '
 [1;34m [0;34m▀███████████▄[0m [37m▀[0;1;30;47m░▒▒▓▓[0;1;30;40m▄[0m▀[1;30;47m░▒▓[0;1;30;40m▄[0;34m ▄[0;37m ▀█[0;1;30;47m░░▒▓[0m [34m███[0m [1;30m▒[0m  only ;), so if you wanna contact  [1;30m▒[0m
 ▀▄ [34m▀▀█████████▀[0;37m ▐[0;1;30;47m░░▒▓▓▓[0m [1;30;47m░▒▓[0;1;30;40m▄[0m [34m█▌[0;37m▐[0;1;30;47m░▒▒▓[0m [34m███[0m [1;30m░[0m  me, find meeee on [1mbeyond[0m,[1m v0tb![0m,[1m  [0;1;30m░[0m
 [34m▄[0m [1;30;47m░[0m█▄▄[1;34m [0;34m▀▀▀▀[0;37m ▄▄▄█[0;1;30;47m░░░▒▒▓▓[0;1;30;40m▌[0m▐[1;30;47m░▒▓[0;1;30;40m▄[0m [1;30;40m▄[0;1;30;47m░▒▒▓[0;1;30;40m▌[0;34m▐███[0m [1;30m▒[0m  or [1meye[0m-[1mare[0m-[1msea[0m, or e-mail me at:  [1;30m▒[0m
-[34m█▌[0;37m▐█[0;1;30;47m░░▒▒▒▒[0m▀▀▀▀▀[1;30;47m░░▒▒▒▓▓[0;1;30;40m▀[0m ▀█[1;30;47m░░▓[0;1;30;40m▄[0;1;30;47m░▒▒▓▓[0;1;30;40m▌[0;34m▐███[0m [1;30m▓[0m         [1mdbouton@direct.ca[0m          [1;30m▓[0m
+[34m█▌[0;37m▐█[0;1;30;47m░░▒▒▒▒[0m▀▀▀▀▀[1;30;47m░░▒▒▒▓▓[0;1;30;40m▀[0m ▀█[1;30;47m░░▓[0;1;30;40m▄[0;1;30;47m░▒▒▓▓[0;1;30;40m▌[0;34m▐███[0m [1;30m▓[0m         [1m                 [0m          [1;30m▓[0m
 [34m██[0m [1;30;47m░▒▒▓[0;1;30;40m▀[0m [34m▄▄███▄▄[0m [1;30m▀▀[0m [1;30msL![0m▄[1;30;47m ░░▒▒▒▒▒▓▓▓▓[0;1;30;40m▄[0;34m ▀█[0m [1;30m▀█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▀[0m
 [34m██▌[0;37m▐[0;1;30;47m▓[0;1;30;40m▀[0;34m ▄████████████▀ [0;37m█[0;1;30;47m░░░▒▒▓▓[0;1;30;40m▀▀▀▀[0m [34m▄[0;37m [0;1;30m▀[0m [34m▀█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0m
 [34m███[0m [1;30m▌[0;34m▐██████████████[0;37m [0;1;30;47m░░▒▓[0;1;30;40m▀▀[0m [34m▄▄▄████████████████████████▀▀▀█████████████████▀▀▀█[0;37m [0m

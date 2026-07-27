@@ -5,7 +5,7 @@
 # Source SHA-256: 9e8fe98d4189f3e979e51bcaa4ce406ced10ee19110842cd83397f1f8ce360cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-NOTB1.ANS by Smooth (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Number of The Beast
 # SAUCE Author: Smooth
 # SAUCE Group: ACiD Productions
@@ -18,7 +18,7 @@ Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;1;30m▀▀[0;34m▀[0;1;30m▀[0;34m█▀▀▀▀[0;1;30m▀[0;34m▀▀▀▀▀▀██▓▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;34m▀▀▀▀▀[0;1;30m▀[0;34m▀▀▀[0;1;30m▀▀[0;34m▀[0;1;30m▀▀▀▀[0;34m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
 [34m░  [0;1;37m▄▄[0;36m▄▄▄▄▄▄▄[0;32m▄▄▄ [0;34m█ [0;36m▄▄[0;1;36m▄[0;36m▄▄▄▄▄[0;1;36m▄[0;1;37m▄ [0;34m▀█  [0;1;34mIf you would like to request an ANSi or RiP  [0;1;30m▓[0m
 [34m░ [0;36m█[0;1;36;46m░▄▀[0;36m██[0;32;46m░░▒▓█[0;32;40m▀ [0;34;40m▄█ [0;1;36;46m▓▀[0;1;34;46m▓[0;36m▀[0;1;36;46m▒▀[0;1;34;46m▓[0m [1;36;46m▒ [0;1;34;46m░[0m [34m█  [0;1;34mdone by me.  You can contact me on FEDnet or [0;1;30m▒[0m
-[1;34m░▒▓███▄▄▄▄▄▄[0;36m▄[0;1;34m▄▄[0;36m▄  [0;1;34;46m███[0m [1;34;46m███[0m [1;34;46m██[0;1;34;40m█▓▒  call me on my LD VMB @ 8o8.637.4460 Box#227  [0;1;30;40m░[0m
+[1;34m░▒▓███▄▄▄▄▄▄[0;36m▄[0;1;34m▄▄[0;36m▄  [0;1;34;46m███[0m [1;34;46m███[0m [1;34;46m██[0;1;34;40m█▓▒                                               [0;1;30;40m░[0m
 [34m░▄ [0;36m▀▀▀[0;1;34m▀▀▀▀▀▀▀▀█[0;1;34;46m█[0;36m█ [0;32;46m▓[0;1;34;46m▀[0;36m█ [0;32;46m▓[0;1;34;46m▀[0;36m█ [0;32;46m▒[0;1;34;46m█▓[0m [34m▓[0m
 [34m░  [0;32m▄[0;32;46m█▓▒░[0;1;34;46m░▒▓█████░[0m [32;46m▒▓[0;32;40m█ [0;32;46m▒▓[0;32;40m█ [0;32;46m▓▓[0;1;34;46m▀[0m [34m▓  [0;1;34mSorry, I''m not ELiTE enuf for a 1-800 VMB ;( [0;1;30m░[0m
 [34m░ [0;32m▀[0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;32m▀██ ▀██ ▀[0;32;46m█▓[0m [34;40m▒[0m                              [1;34;40mFile:SM-NOTB1.ANS[0m

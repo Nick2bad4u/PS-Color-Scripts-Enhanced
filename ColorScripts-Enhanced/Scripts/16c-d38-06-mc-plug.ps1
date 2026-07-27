@@ -5,7 +5,7 @@
 # Source SHA-256: c118c9c9b6f6752f8db83cb52c3c4912c9d38a65baeef648c4abbc5e256dbc72
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!PLUG!.ANS by Madcap (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: I YAM WOLVERINE!!
 # SAUCE Author: Madcap
 # SAUCE Group: D38
@@ -15,9 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;35m                                                     [0m
-[34m                                       [0m
-[34m [0;1;35mwell.. steps 1 & 2 & urm.. 4 & 5 & 6, 7,8,9,10,11,12,13,14,15,16,17 AND 18[0m
+[1;35m[0m[34m[0m[34m [0;1;35mwell.. steps 1 & 2 & urm.. 4 & 5 & 6, 7,8,9,10,11,12,13,14,15,16,17 AND 18[0m
 [1;37m   [0;35m┌ [0;1;30m       [0;35m  ─[0;31m─ [0;36m─[0;1;34m─┐ [0;1;35m                                              [0m
 [1;37m|3|[0;35m|   [0m=[1m=   [0;1;34m░░    ▄[0;1;35m│ [0;34m▐▄░░░░░[0m
 [1;37m`~''[0;1;35m│  [0;31m██▄░  [0;1;34m░░  ▄██[0;1;35m| [0;34m▐█████████████████████▓▌║▐▒░[0m                   [34m░    ▒▒▒▒[0m

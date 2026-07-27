@@ -5,7 +5,7 @@
 # Source SHA-256: 573877439c060e96d3bf42d7b9a67ee0a293689de5fe563116d17dd9792db34e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: smm-fool.ans by SEL MAR MUPERFAR (F 0 0 L); released in fool27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: NO ENERGY LEFT FOR U
 # SAUCE Author: SEL MAR MUPERFAR
 # SAUCE Group: F 0 0 L
@@ -18,9 +18,7 @@
 Write-Host '
 [37;40m  [0;1;36;40m                                                                          [0m
 [1;36;40m         [0m [1;31m                             [0m [1;36m                                   [0m
-[1;36m                                                                              [0m
-[1;36m                                [0m        [1;36m                                      [0m
-  [36m█[0;1;32;46mIAMSFM[0;36m█████████████████████████████████████████████████████████[0;1;32;46mTHISISF00L[0;36m██[0m
+[1;36m[0m[1;36m[0m[1;36m[0m  [36m█[0;1;32;46mIAMSFM[0;36m█████████████████████████████████████████████████████████[0;1;32;46mTHISISF00L[0;36m██[0m
 [37m  [0;36m█[0;1;32;46m  [0;36m█████████████████████████████████████████████████████████████████████████[0m
 [37m  [0;36m██████████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████████████████████████████[0m
 [37m  [0;36m██████████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████████████████████████████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: fd1319911a879a277a9eb9090e585035e9e2f3394135420d6a7611171970bdb6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SHAITAN2.ANS by shaitan (fbk.sargahd); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: session
 # SAUCE Author: shaitan
 # SAUCE Group: fbk.sargahd
@@ -15,16 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-       [31m                                                            [0m
-       [31m                                                                     [0m
-       [31m                                                                  [0m
-       [31m                                  [0m
-       [31m                                                                [0m
-       [31m                                                                  [0m
-[31m [0m      [31m                                                               [0m
-[31m [0m      [31m                                                                     [0m
-[31m                [0m    [31m            [0m                         [31m                      [0m
-
+[31m[0m[31m[0m[31m[0m[31m[0m[31m[0m[31m[0m[31m[0m[31m[0m[31m[0m[31m[0m[31m[0m[31m[0m[31m[0m
 
 
 

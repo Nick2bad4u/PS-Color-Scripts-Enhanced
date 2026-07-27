@@ -5,7 +5,7 @@
 # Source SHA-256: 7c58cb236cefe2eca19c570138f9c846eef54300cb9b6f72928d02072b524c63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-LEECH.ANS by Impact (Spastic Studios); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: LeechWorld, Inc.
 # SAUCE Author: Impact
 # SAUCE Group: Spastic Studios
@@ -23,28 +23,10 @@ im!▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄�
 [1;30m█ [0m██   ▀  █     █     █      █   ██   █▒█   ▀ ▀   █      █   █▌  █   ▀  █   ▀ ▐█
 [1;30m█ [0m▀█▓██████▒████████▓████████▀█████▒██████▓███████▄██████▓███▒█████████████████▀
 [1;30m▀█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-                             [1;37m [0m  [1;30m               [0m [1m [0m
-                               [1;30m                [0m
-                              [1;30m                  [0m
-                                [1;30m+410-574-7457[0m
-                         [1;30m                            [0m
-                     [1;30m                                      [0m
-                   [1;30m                                           [0m
+[1;37m[0m[1;30m[0m[1m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m
 
-[1;30m                                                                                [0m
-
-
-[1;30m       [0m
-[1;30m                                                                                [0m
-[1;30m                            [0m
-[1;30m                                                                               [0m
-[1;30m                                                                           [0m
-[1;30m                                                                             [0m
-[1;30m                                      [0m
-[1;30m                                                                              [0m
-[1;30m                             [0m
-[1;30m                                                                           [0m
-[1;30m              [0m░[1;30m                   [0m░[1;30m                                         [0m░
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m              [0m░[1;30m                   [0m░[1;30m                                         [0m░
 [1;30m              [0m▒[1;30m                   [0m▒[1;30m                    [0m     ░               ▒
  ▓▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▓▄▄▄▄▄▒▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄
 ▒[5;31mc    [0;1;5;31ma    [0;5;33ml  [0m▀▄ [1;5;33ml[0m     [1;5;32ml[0m     [5;32me    [0m▀[1;5;36me   [0m▄ [5;36mc[0m     [1;5;34mh[0m     [5;34mw[0m     [1;5;35mo[0m     [5;35mr[0m     [1;5;37ml    [0m▀[1;5;30md[0;1;30m![0m▓

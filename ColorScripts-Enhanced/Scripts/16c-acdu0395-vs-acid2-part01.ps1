@@ -5,7 +5,7 @@
 # Source SHA-256: f5ff77a1ea7e83c8d4eb0f1e34deb89d734b606ec4dea71f034ecf9f3baf0225
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VS-ACID2.ANS by Vision (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: "Making the competition scream..."
 # SAUCE Author: Vision
 # SAUCE Group: ACiD Productions
@@ -23,9 +23,7 @@ Write-Host '
 
 
 
-             [30m                                                       [0m
-         [30m                                                                [0m
-
+[30m[0m[30m[0m
                                   [33m▄▄▄▄▄▄▄▄[0m
                        [33m▄▄▄▄▄██[0;1;31;43m░░░░░[0;33m██[0;1;31;43m░░░[0;33m██▀▀███▄▄▄▄▄[0m
                  [33m▄▄▄██[0;1;31;43m░░░░░░▒▒[0;33m█[0;1;31;43m░▒░░░░[0;33m███▀▄▀▀▀▀█[0;1;31;43m░░░░░░[0;33m███▄▄▄▄[0m

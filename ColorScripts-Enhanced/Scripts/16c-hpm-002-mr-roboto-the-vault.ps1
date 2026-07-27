@@ -5,7 +5,7 @@
 # Source SHA-256: 792874f7f2f21261c4bcec8588bd11335e9df2c6eb890ce330f7d60c510e815c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Mr_Roboto-The_Vault.ans by Mr.R0b070 (HPM); released in hpm-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Vault
 # SAUCE Author: Mr.R0b070
 # SAUCE Group: HPM
@@ -17,8 +17,7 @@
 
 Write-Host '
                           [1;30m··─[0m [1;30m────────────────────────··[0m
-                                [1m                   [0m
-                              [1;30m----------------------[0m
+[1m[0m                              [1;30m----------------------[0m
                          [31m░[0m
 
 [37m     [0;31m░░░[0;37m     [0;31m░░░[0;37m           [0;31m■                            ▄▄▄▄[0;37m      [0;31m■[0;37m       [0;1;31m░░[0m

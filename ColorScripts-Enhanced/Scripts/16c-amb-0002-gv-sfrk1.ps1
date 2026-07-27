@@ -5,7 +5,7 @@
 # Source SHA-256: b4b9ea0d0baeef0cf92c31965c2ba1bbd415cfdb40713237c22eb717a5934078
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GV-SFRK1.ANS by Groove (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Soul Freak #1
 # SAUCE Author: Groove
 # SAUCE Group: AMBUSH Productions
@@ -30,8 +30,7 @@ Write-Host '
 [34m      ____     [0;37m                                               [0;34m     ____[0m
 [34m  ,[0;1;34msS$$$$[0;34m$$Ss, [0;37m«   »»»   »   »  ╓ [0;35msOULFREAK![0;37m ╖   «  «   «     [0;34m ,sS$$$$[0;1;34m$$Ss,[0m
 [34m d$$ [0;1;34m $$  $[0;34m$$$b[0;37m---------- ----------           - --       - --[0;34md$$$$ [0;1;34m $$  $[0;34m$b[0m
-[34m     [0;1;34m       [0;34m   [0;1;30m            [0;36m                             [0;37m      [0;34m     [0;1;34m     [0;34m    [0m
-[34m `²$$$[0;1;34m$$$$$$$²[0;34m''[0;1;30m          [0m [33m [0;36mrULED bY gROOVE & nERViOZ    [0;37m      [0;34m`²$[0;1;34m$$$$$[0;34m$$$$²''[0m
+[34m[0;1;34m[0;34m[0;1;30m[0;36m[0;37m[0;34m[0;1;34m[0;34m[0m[34m `²$$$[0;1;34m$$$$$$$²[0;34m''[0;1;30m          [0m [33m [0;36mrULED bY gROOVE & nERViOZ    [0;37m      [0;34m`²$[0;1;34m$$$$$[0;34m$$$$²''[0m
 [34m    "²$ [0;1;34m`$²"    [0;1;30m          [0;33m [0;36m+ 5 4 1 - I T S - F U N K    [0;37m      [0;34m  [0;1;34m "²$''[0;34m $²"[0m
 [34m      `$$'' [0;37m_[0;34m   [0;37m       ------------- -          --------   -   [0;34m  [0;37m_[0;34m  `$$''[0m
 [34m       ""      [0;37m                                               [0;34m      ""[0m'

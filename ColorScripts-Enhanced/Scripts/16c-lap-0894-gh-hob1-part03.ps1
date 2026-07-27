@@ -5,7 +5,7 @@
 # Source SHA-256: e86ae79ba5743214327780d856884a0b46a2b76495e10905f055e62498dca8bc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GH-HOB1.ANS by Ghent (Lapse); released in lap-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: House of Bones
 # SAUCE Author: Ghent
 # SAUCE Group: Lapse
@@ -51,11 +51,5 @@ Write-Host '
 
                              [1;30;40m─[0m─[1m─ [0;1;30mH[0mou[1mse of Bo[0mne[1;30ms [0;1;37m─[0m─[1;30m─[0m
 
-                    [1;30m                                        [0m
-                        [1;30m                                 [0m
-                        [1;30m                                [0m
-                   [1;30m                                          [0m
-                      [1;30m                                    [0m
-                         [1;30m                              [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
                              [1;30m─[0m─[1m──────────────────[0m─[1;30m─[0m'

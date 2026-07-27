@@ -5,7 +5,7 @@
 # Source SHA-256: c9ad9a464a80c1da0a1204a568a9680bf68e3174544b8ad0e84f7bf557ac3c87
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: F3-TOS.ANS by f3leet (apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the ol' school
 # SAUCE Author: f3leet
 # SAUCE Group: apathy
@@ -41,6 +41,5 @@ Write-Host '
 
 [1m-+--[0m---[1m-[0m-[1m-[0;1;30m-[0m-[1m--[0m-[1;30m---[0m-[1;30m---[0m -[1;30m-- -- - - -     -  [0;1;37mcut on dotted line [0m
 
-        [1;34m                                                                      [0m
-
+[1;34m[0m
                   [1m enil dettod no tuc[0;1;30m   -    - - - -- --[0m- [1;30m---[0m-[1;30m---[0m-[1m--[0m-[1;30m-[0;1;37m-[0m-[1m-[0m---[1m--+[0m'

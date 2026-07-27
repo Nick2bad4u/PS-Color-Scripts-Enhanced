@@ -5,12 +5,11 @@
 # Source SHA-256: 0817082eb36775cccc63fe75c6d7e7dbeaa5f5333b0000481fb082702e3d3fda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH!PGYY.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
-                                                        
          [1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;47m▀[0m
          [1;40m█ [0;1;34;40m▄[0;1;34;44m███▓▓▒▒░░               [0;34m▀▀▀▀▀▀[0;34;44m                [0;1;34;44m░░▒▒▓▓███[0;1;34;40m▄ [0;1;34;47m [0m
          [1;37;40m█ [0;1;34;44m██▓▓▒▒░░          [0;34m▀▀▀ [0;33m▄▄▄▄[0;33;42m▀▀▀[0;33;40m█▄▄▄  [0;34;40m▀▀▀[0;34;44m           [0;1;34;44m░░▒▒▓▓██[0m [1;34;47m [0m

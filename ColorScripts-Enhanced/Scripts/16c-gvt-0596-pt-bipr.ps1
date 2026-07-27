@@ -5,7 +5,7 @@
 # Source SHA-256: 1f01a20c0443138df326e4279a2aa9f7343a01ef13c32b3e24a01cdb95301bd1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-BIPR.ANS by pitt (gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bi products
 # SAUCE Author: pitt
 # SAUCE Group: gravity
@@ -48,9 +48,5 @@ Write-Host '
       [34m▀[0;1;34;44m▀▀▀[0;34m█▄█▀  ▄[0;1;30;44m░[0;1;34;44m▀▀▀▀[0;34m█▄[0m       [34m█[0;1;34m█[0;1;34;44m▓▒░[0;1;30;40m░░░[0m         [34m▀[0m                        [34;44m [0;1;34;44m▀[0;34m▀▀[0m
                               [34m▀▀[0;1;34;44m▀▀▓[0;34m█[0m
                                   [34m▀▀[0m
-                              [37m           [0m
-                          [37m                     [0m
-                             [37m               [0m
-
-            [37m                                                   [0m
-[37m--[snip-snip]-------------------------------------------------------------------[0m'
+[37m[0m[37m[0m[37m[0m
+[37m[0m[37m--[snip-snip]-------------------------------------------------------------------[0m'

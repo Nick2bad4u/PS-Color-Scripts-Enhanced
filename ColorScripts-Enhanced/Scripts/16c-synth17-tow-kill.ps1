@@ -5,7 +5,7 @@
 # Source SHA-256: e3c284313d73b36adf9b64c19d67fcca2a9680758dcd3c105c7b6d03f4815fa0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TOW-KILL.ANS by Towser (Synthetic Org!); released in synth17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Killer BBS
 # SAUCE Author: Towser
 # SAUCE Group: Synthetic Org!
@@ -28,16 +28,8 @@ Write-Host '
  [1;30m$$$$$$$S#s╖,$,[0m`╙#S$ [1;30m$S#s╖,$S#s╥╥╥╥╥╥╥╥╥y╥╥╥╥╥╥╥╥╥g$$,[0m`╙#S$ [1;30m$S#s╖,$,[0m`╙#S$ [1;30m$$$$$[0m
  [1;30m$TOW[SF^SC]$$$$S#s╖,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S#s╖,$$$$$$$$$S#s╖,$$$$$[0m
 
- --------------------- Killer -- BBS -- +613-9853-1207 ------------------------
 
 ─────────[1;30m[[0;1;32mC[0;36mut[0;1;32m![0;1;30m][0m─────────────────────────────────────────────────────────────────
 
-[36m                                             [0m
-[36m           [0;1;36m          [0;36m                      [0m                [1;30m   [0m [1;32m [0;1;30m  [0;1;32m [0;1;36m [0;1;32m [0;1;30m  [0;1;32m [0;1;36m [0;1;32m [0;1;30m [0m [1;30m   [0m
-[36m                                             [0m              [1;30m [0m [36m    [0;37m [0;36m  [0;37m [0;36m   [0;37m [0;36m     [0;1;30m [0m
-[36m                              [0;1;36m  [0;36m [0;1;36m    [0;36m      [0m                [1;30m [0m [36m   [0;37m [0;36m   [0;37m [0;36m        [0;37m [0;1;30m [0m
-[36m                              [0m                             [1;30m [0;36m                  [0;1;30m [0m
-                                                           [1;30m [0m [36m         [0;37m  [0;1;30m [0m [1m  [0m  [1;30m [0m
-[36m       [0m                                  [36m  [0;1;30m [0m [1m  [0m [1;30m [0;36m  [0m        [1;30m   [0m [1;32m [0;1;30m         [0;1;32m [0;1;36m [0m [1;30m   [0m
-
+[36m[0m[36m[0;1;36m[0;36m[0m[1;30m[0m[1;32m[0;1;30m[0;1;32m[0;1;36m[0;1;32m[0;1;30m[0;1;32m[0;1;36m[0;1;32m[0;1;30m[0m[1;30m[0m[36m[0m[1;30m[0m[36m[0;37m[0;36m[0;37m[0;36m[0;37m[0;36m[0;1;30m[0m[36m[0;1;36m[0;36m[0;1;36m[0;36m[0m[1;30m[0m[36m[0;37m[0;36m[0;37m[0;36m[0;37m[0;1;30m[0m[36m[0m[1;30m[0;36m[0;1;30m[0m[1;30m[0m[36m[0;37m[0;1;30m[0m[1m[0m[1;30m[0m[36m[0m[36m[0;1;30m[0m[1m[0m[1;30m[0;36m[0m[1;30m[0m[1;32m[0;1;30m[0;1;32m[0;1;36m[0m[1;30m[0m
 ─────────[1;30m[[0;1;32mE[0;36mO[0;1;32mF[0;36m.. 27 [0;1;32mL[0;36miNE[0;1;32mS[0;1;30m][0m───────────────────────────────────────────────────────[0m'

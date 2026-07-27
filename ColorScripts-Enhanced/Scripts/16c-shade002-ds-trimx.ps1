@@ -5,7 +5,7 @@
 # Source SHA-256: d74f67b804a3b70cc162bc3ef603814feaa7871c676cf848c1788c039225f6c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-TRIMX.ANS by DfuSe (shade); released in shade002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the roswell incident matrix
 # SAUCE Author: DfuSe
 # SAUCE Group: shade
@@ -39,6 +39,5 @@ Write-Host '
  [1;32m [0;1;30m▐[0;1;30;47m▒▒[0m░[31m [0;1;30m [0m░[1;30;47m▒▒▒[0m [1;30;47m▒▒▒[0;1;30;40m░ [0;32m░[0;1;32;42m▒▒[0;1;32;40m▀[0;33m [0;1;30m [0;1;30;47m▒▒▒[0;1;30;40m░[0m [1;32m ▄█▀▀▐▄▄[0;1;32;42m▓[0;1;32;40m▄ [0;32m [0;37m     ▀▌██▓██████▀▀░[0;1;30;47m▓▓[0m [1;32m [0;1;32;42m▒▒▒▓▓▓[0;1;32;40m█▄▄█▀▀█[0;1;32;42m█[0;1;32;40m▌ [0m
 [1;32;40m░░[0m [1;30m▀[0;1;30;47m▓▓[0;1;30;40m▄▄[0;1;30;47m▓▓▓[0;1;30;40m▀ █[0;1;30;47m▓▓[0;1;30;40m░ [0;32m░[0;1;32;42m▓[0;1;32;40m▄[0;32m▄[0;30;42m▓[0;1;30;40m [0;1;30;47m▓▓▒[0;1;30;40m░[0m  [1;32m [0;32m▀[0;1;32;42m▄█[0;1;32;40m▓[0;1;32;42m▓▒▒▒[0;32m▄▌░░[0;37m     ▀▀████[0;1;30;47m░░░▒[0m▄[1;30;47m▓▓[0;1;30;40m▀ [0;32m▐[0;1;32;42m░░▒▒▒▓▓█[0;1;37;40m██[0;1;32;40m█▄▄ ▀ [0m
 [1;32;40m▓▓▄ [0m  [1;30m▀▀▀░░[0m  [1;30m▀▀▀[0m  [32m░[0;1;32m░░░[0;33m [0;37m [0;1;30m▀▀▀[0m [1;32m [0;32m░░[0;30;42m▓[0;1;32;40m▄[0;1;32;42m▓▓▒░[0;32m▀▀▀▓[0;30;42m░[0;32;40m░░ [0;37;40m       ▀▀▀▀▀▀[0;1;30;40m▀[0m [32m░[0;30;42m▓[0;32;40m▄[0;30;42mdS[0;1;32;42m░░[0;32m▀[0;1;32m▀▀▀[0;1;37m▓▓[0;1;32m▀░░   [0m
-[1;32m   [0m [1;32m       [0m [1;32m        [0m
-
+[1;32m[0m[1;32m[0m[1;32m[0m
 --------------------------------------------------------------------------------[0m'

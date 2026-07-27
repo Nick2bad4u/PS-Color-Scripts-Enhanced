@@ -5,7 +5,7 @@
 # Source SHA-256: 75480df3883ba75aa90a16183cc0d9014a57ea1dbef3acb313efc957358908f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TVDONTHUFF.ANS by tv.TELEKOVISION (7B"); released in blndr2023b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: tv.BLENDER.4-23-23
 # SAUCE Author: tv.TELEKOVISION
 # SAUCE Group: 7B"
@@ -19,15 +19,8 @@
 Write-Host '
 [1;31m        [0m                   [1m          [0m [1;30m [0m    [1m      [0m [1;35m          [0;35m [0;1;34m                 ▀▀[0m
                               [1;34m       [0;35m          [0;1;35m         [0;1;31;41m [0;1;35;40m   [0;35m   [0;37m       [0;1;34m [0m  [1;34m     [0m [1;34m▀[0m
-                                  [1m      [0m  [35m     [0;1;35m     [0m [1m     [0m  [1;35m       [0;35m  [0;37m  [0;1;37m      [0m  
-                                    [1;34m         [0;35m   [0;1;31;41m  [0;1;35;40m [0;1;34;40m [0m     [1;35m               [0;1;34m        [0m
-                                       [1;34m       [0m  [1m      [0m  [1;35m  [0;1;34m [0;1;35m            [0;1;34m   [0;1;35m [0;35m   [0;1;34m [0m
-                                            [1m             [0m  [1;34m     [0;1;35m              [0;1;34m [0m
-                                              [1;34m        [0;35m  [0;1;34m [0;35m    [0;37m  [0;1;37m    [0m     [1;35m  [0;35m   [0;1;34m   [0m
-                                                  [1;34m        [0;35m      [0;1;34m   [0;1;37m     [0m [35m   [0;1;34m [0m [1;34m [0m
-                                                       [1m   [0m [1;34m  [0;35m      [0;1;34m  [0;35m      [0;1;35m [0;1;34m  [0m
-                                                        [1;34m       [0;1;35m  [0;35m      [0;1;35m   [0;1;34m      [0m
-                                            [1;34m [0m               [1;34m     [0;1;35m    [0;35m  [0;1;35m   [0;1;34m  ▄▄▄▄[0m
+[1m[0m[35m[0;1;35m[0m[1m[0m[1;35m[0;35m[0;37m[0;1;37m[0m                                    [1;34m         [0;35m   [0;1;31;41m  [0;1;35;40m [0;1;34;40m [0m     [1;35m               [0;1;34m        [0m
+[1;34m[0m[1m[0m[1;35m[0;1;34m[0;1;35m[0;1;34m[0;1;35m[0;35m[0;1;34m[0m[1m[0m[1;34m[0;1;35m[0;1;34m[0m[1;34m[0;35m[0;1;34m[0;35m[0;37m[0;1;37m[0m[1;35m[0;35m[0;1;34m[0m[1;34m[0;35m[0;1;34m[0;1;37m[0m[35m[0;1;34m[0m[1;34m[0m[1m[0m[1;34m[0;35m[0;1;34m[0;35m[0;1;35m[0;1;34m[0m[1;34m[0;1;35m[0;35m[0;1;35m[0;1;34m[0m                                            [1;34m [0m               [1;34m     [0;1;35m    [0;35m  [0;1;35m   [0;1;34m  ▄▄▄▄[0m
                                                                [1;34m          [0m      [1;34m▀[0m
                                                            [1;34m▄[0;34m▄▄▄[0;1;34m▄[0m [1;34m▄▀[0m  D[1mON''T H[0mUFF[1;34m▄[0m
                                                                     [1m      [0m   [1;34m▄[0;34m▄▄[0m

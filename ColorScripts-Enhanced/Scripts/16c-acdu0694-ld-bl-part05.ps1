@@ -5,7 +5,7 @@
 # Source SHA-256: 2b718054a7530fa14a3c0eaa565978c2040761039a2e66a3df86e52613b7c053
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-BL.ANS by Lord Jazz (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The BadLands
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -29,7 +29,7 @@ Write-Host '
 [1;30;40m [0;1;30;47m▄[0m [1;31;41m▓▓▒▒▒▒░▒░░░ ░ ░[0;31m▄▄▄ ▄[0m                                 [31m▄▄▄▄▄█[0;31;41m [0;1;31;41m░░░▒▒▒▒▒▓▒▓▓█[0m [1;30;47m▄[0m
 [1;30;40m [0;1;30;47m▄[0m [1;31;41m█▓▓▒▒▒▒▒▒░░░░░ ░ [0;1;30;41mld[0;31m▓▒░   T [0;1;31mh [0me   [1;30mB a d L [0ma n [1;31md [0;31ms   ░▒▓███[0;1;31;41m░ ░░▒░▒▒▒▒▓▒▓▓██[0m [1;30;47m▄[0m
 [1;30;40m [0;1;30;47m [0m [1;31;41m██▓▓▓▒▒░░▒░▒░░░░ ░  [0;31m▓▒░[0m                           [31m░▒▓███[0;1;31;41m░░░░░░▒▒▒▓▒▒▓▓█▓█[0m █
- [1m█▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄ ▄▄▄ ▄▄ ▄  [0;31m4 [0;1;31m0 [0m8 . [1;30m2 6 8 . 4 2 5 1  ▄ ▄▄ ▄▄▄ ▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄[1m▄█[0m
+ [1m█▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄ ▄▄▄ ▄▄ ▄  [0;31m  [0;1;31m  [0m    [1;30m                 ▄ ▄▄ ▄▄▄ ▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄[1m▄█[0m
 [1m [0;1;30m▄ ▄▄▄▄▄ ▄▄▄ ▄[0m                                                 [1;30m▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄[0m
 [1;30m ▄▓▓█[0;1;30;47m▓▒░▒[0;1;30;40m▄▀▄▀■ [0;31mS[0;1;31my[0ms[1;30mOp: S o u l t a k e r   < C H A O S / U i D > ▄▀▓▓█▓▀▄█[0;1;30;47m▓▓▓▒░[0m
 [1;30;40m ▓▓[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓▒░▒▓[0;1;30;40m▌ ▄[0m     [31mC[0;1;31mo[0mS[1;30mysOp :   M i d n i g h t   S h a d o w  ░▒ ▄▄ ▀■▒▒▓▓█[0;1;30;47m▓▓▒[0m

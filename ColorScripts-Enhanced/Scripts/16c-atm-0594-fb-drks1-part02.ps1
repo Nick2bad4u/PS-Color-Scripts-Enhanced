@@ -5,7 +5,7 @@
 # Source SHA-256: a9e83641dad0d07eadb12ed37f804be1ad5617fbd332840ea2c48dd7202376b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-DRKS1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 36-71
 # Columns: 1-80
 
@@ -41,8 +41,5 @@ Write-Host '
          [1;37m█[0;1;37;47m▀▀▀▀[0m█[1;30m█    [0;1;37m█[0m█[1;30m█    [0;1;37m█[0;1;37;47m▀▀▀▀[0m█[1;30m█    [0;1;37m█[0m█[1;30m█    [0;1;37m█[0m█[1;47m▀▀▀▀[0;1;30;40m█ [0;1;37;40m█[0m█[1;30m█   [0;1;37m█[0m█[1;30m█ [0;1;37m█[0;1;37;47m▀▀▀▀[0m█[1;30m█[0m
          [1;30m▀▀▀▀▀▀▀    ▀▀▀    ▀▀▀▀▀▀▀    ▀▀▀    ▀▀▀▀▀▀▀ ▀▀▀   ▀▀▀ ▀▀▀▀▀▀▀[0m
 
-                                 [1;37m1-703-378-5729[0m
-
-                    [1;37m [0m [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m  [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m   [1;30m  [0;1;37m   [0;1;36m  [0;36m  [0;1;37m [0;1;36m       [0;36m [0m
-                            [1;30m                       [0m
-                           [1;30m─[0;33m───[0;1;33m──[0;1;37m> A[0;1;33mT[0;1;31mO[0;31mMi[0;1;30mC [0;31mWHQ [0;1;37m<[0;1;33m──[0;33m───[0;1;30m─[0m'
+[1;37m[0m
+[1;37m[0m[1;30m[0;1;37m[0m[1;30m[0;1;37m[0m[1;30m[0;1;37m[0m[1;30m[0;1;37m[0m[1;30m[0;1;37m[0;1;36m[0;36m[0;1;37m[0;1;36m[0;36m[0m[1;30m[0m                           [1;30m─[0;33m───[0;1;33m──[0;1;37m> A[0;1;33mT[0;1;31mO[0;31mMi[0;1;30mC [0;31mWHQ [0;1;37m<[0;1;33m──[0;33m───[0;1;30m─[0m'

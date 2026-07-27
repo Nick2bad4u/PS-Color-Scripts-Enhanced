@@ -5,7 +5,7 @@
 # Source SHA-256: 18bc009f919a48e9f34d380233a580b521cf9339b54dede277c7279d7d0442a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PD_ECO.ANS by PoSeidon (OSF); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 1st contribution
 # SAUCE Author: PoSeidon
 # SAUCE Group: OSF
@@ -41,8 +41,5 @@ Write-Host '
 
 
 [1;30m             ↑                                                                 [0m
-[1;30m                                                                           [0m
-[1;30m                                                                           [0m
-[1;30m                                                [0m [1;30m                          [0m
-[1;30m                   [0;1;37m                ↔        ↔      ↔         ↔          [0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m                   [0;1;37m                ↔        ↔      ↔         ↔          [0m
                     [1m          ↔          ↔          ↔   ↔     ↔         [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: cab40760a26e10bd72d245bb515560ab481c7575be6d393b92a6881f6bd65e4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-LOGN2.ANS by Proctologist (Transmission); released in trans03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: zoot!
 # SAUCE Author: Proctologist
 # SAUCE Group: Transmission
@@ -34,14 +34,7 @@ Write-Host '
                               [31mp[0;1;31mC[0m  [32m,d[0;1;30m$$$$$$$$$$$$P''[0m [32m`b[0;1;32m,[0;32m [0m
                             [1;32m`∙[0;32m..[0;1;32m+[0;32m°[0;1;30m   `^^^^^^^^` [0m   [32m.[0;1;32m''[0;32m [0;1;32m`[0;32m∙ [0;1;32m·[0m [1;32m''[0m
                                [30;41m▓▒░   logon    ░[0;37;40m  [0;1;32;40m·[0m
-                                     [33m     [0m
-                                     [33m     [0m
-                                  [33m           [0m
-[37m [0;1;30m [0m                                   [33m      [0m
-
+[33m[0m[33m[0m[33m[0m[37m[0;1;30m[0m[33m[0m
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>--[0m
-[1;30m                                                                                [0m
-[1;30m                                                                             [0m
-[1;30m                                    [0m
-                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
+[1;30m[0m[1;30m[0m[1;30m[0m                                 [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

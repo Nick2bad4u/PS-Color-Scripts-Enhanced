@@ -5,7 +5,7 @@
 # Source SHA-256: 11243176d3bbfc6b82363a67d1c90978c8c69331b561f4e21ab55698f6f5c6d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-ML-1.ANS by Mithrandir (quad-p); released in quad1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: modemland 306-652-4359
 # SAUCE Author: Mithrandir
 # SAUCE Group: quad-p
@@ -32,5 +32,5 @@ Write-Host '
       [1;30m ▀■▄[0m [1;30m▄▀[0m       [1;30m░[0m     [36mmodemland[0m   [1;30m▓[0m  [1;30m▓[0m [1;30m▀▄▄[0m     [1;30m▄▄▀▀[0m       [1;30m░[0m [1;30m▀▄▄[0m [1;30m▒[0m [1;30m▄[0m [1;30m▀▀[0m
                     [1;30m░[0m                 [1;30m▒[0m  [1;30m▒[0m    [1;30m▀░▀▀▀[0m               [1;30m ▀░▀[0m
                         [1;30m░[0m             [1;30m░[0m  [1;30m░[0m                    [1;30m░[0m     [1;30m░[0m
-                                         [1;30m░[0m   [36m(306) 652-4359[0m
+                                         [1;30m░[0m   [36m              [0m
                                       [1;30m░[0m                             [1;30m░[0m'

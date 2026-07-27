@@ -5,7 +5,7 @@
 # Source SHA-256: 8b5cc81afc3841fd0dfd78d9d0cab6967d8f0afad1ecd9ceca16cac2fea9c064
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-1999.ANS by Zeus Ii + Chronix (Avenge); released in avenge12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Avenge 1999
 # SAUCE Author: Zeus II
 # SAUCE Group: Avenge
@@ -15,10 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [31m                                                                             [0m
-             [31m                                               [0m
-                           [31m  [0;37m [0;31m                     [0m
-
+[31m[0m[31m[0m[31m[0;37m[0;31m[0m
 
 
 

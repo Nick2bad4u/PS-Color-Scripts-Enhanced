@@ -5,7 +5,7 @@
 # Source SHA-256: 60b3b6fb40f927e469a391018328ad49ebaf942843898ebd557c1b7fb326ccf6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KN!RZAP.ANS by Kenetic <KN!> (Ecolove (guest)); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Raf-Zap
 # SAUCE Author: Kenetic <KN!>
 # SAUCE Group: Ecolove (guest)
@@ -34,11 +34,6 @@ Write-Host '
    [36m,d[0;1;34m$[0;34m$$$$P╝²°°ⁿ╚*TS$[0;36m$[0;1;34mb[0;36m▬[0;1;34m,_`╚[0;34mT$$Sy╖▬[0;1;34m▬╓[0;34my[0;1;34mS[0;34m$[0;1;34m$P[0;34m╝$$$[0;1;34m,[0;34m `$$l[0;1;34m$[0;36mb,[0;34m          [0;36m,d[0;1;34m$$[0;34mP [0;1;30m  [0m
    [36m`"²[0;1;34mⁿ[0;36m°[0;1;34m`[0;34m          `°²╚*T$Ss, [0;1;34m`[0;34m^°²╨╨²°^`   `[0;1;34m°[0;34m╩[0;1;34mⁿ'',[0;34m$$:╚T[0;1;34m$[0;36m$[0;1;34mS%[0;34mg[0;1;34m╥[0;34m╥s%[0;1;34mS[0;34m$[0;1;34m$P[0;34m╝'' [0;1;30m    [0m
                    [34m                 [0m           [1;34md[0;34m$[0;1;34m$[0;34m&[0m    [1;34m`[0;34m^[0;1;34m°²[0;34m╨╨²°^`   [0m
-                          [34m       [0m              [36m [0;1;34m [0;34m    [0;37m [0;1;30m         [0m [34m   [0m
-[37m.[0m                                              [36m`°[0;1;34m"`[0m
+[34m[0m[36m[0;1;34m[0;34m[0;37m[0;1;30m[0m[34m[0m[37m.[0m                                              [36m`°[0;1;34m"`[0m
 |--- --  -     -
-  [1;30m                              [0m
-  [1;30m                                                                           [0m
-  [1;30m                   [0m
-  [1;30m                                                                       [0m
-·[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m·[0m'

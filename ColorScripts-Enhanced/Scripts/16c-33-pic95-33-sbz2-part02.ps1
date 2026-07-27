@@ -5,7 +5,7 @@
 # Source SHA-256: 212be47093c797ce7f1fbf44e7c6ec62fcaed91678dfbca3c36f077fca632d2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-SBZ2.ANS by Eerie (Integrity); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sushi Bar Z
 # SAUCE Author: Eerie
 # SAUCE Group: Integrity
@@ -56,7 +56,7 @@ Write-Host '
             ▄█[1m██[0m     ▄▄[1m▄[0;1;47m▄[0;1;40m███████████████████▄▄[0m     ▄[1m▄▄[0;1;47m▄▓[0;1;40m▀ [0m░
           ▄[47m [0;1;47m▄[0;1;40m██  [0m▄▄█[1;47m▄▄[0;1;40m███████▀▀▀[0m      ▀▓[1m▀▀[0;1;47m▀▀[0;1;40m████████▀▀[0m
       ░ ▄██[1;47m▓[0;1;40m██[0m██[1;47m▄▄[0;1;40m█████[0;1;47m▓[0;1;40m▀▀[0m             ░
-    ░ ▓██[1;47m▄[0;1;40m███[0;1;47m▄[0;1;40m████████▀[0m░ sbz. call it. dunno the affils, but like who cares.
+    ░ ▓██[1;47m▄[0;1;40m███[0;1;47m▄[0;1;40m████████▀[0m░                                                    
    ░▒▓██[1m██████████▀▀[0m     this is for asylum cuz he''s so cool.
     ▀▓█[1m█████▀▀▀[0m                                                        
      ░                                                                         [0m'

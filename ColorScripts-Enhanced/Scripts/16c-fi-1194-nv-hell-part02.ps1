@@ -5,7 +5,7 @@
 # Source SHA-256: 7a3991ab264c7f0888d7ec12c345c8f291bed02b812835d52b819ed932906232
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-HELL.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -45,7 +45,7 @@ Write-Host '
         [1;31;41m▒▓▓░[0m      [1;31;41m▒▓▓░[0m    [1;31;41m▒▓▓░▓▒ █▓▓▓[0m     [1;31;41m▒▓▓░▓▒ █▓▓▓[0m     [1;31;41m▒▓▓░▓▒ █▓▓▓[0m
         [1;31;41m█▓▒█[0m      [1;31;41m█▓▒█[0m    [1;31;41m█▓▒██▓▒█▓█▒[0m     [1;31;41m█▓▒██▓▒█▓█▒[0m     [1;31;41m█▓▒██▓▒█▓█▒[0m
 
-                          [1;30;40m9 [0;32m1 6 [0;1;32m- 6 2 3 - 3 [0;32m7 2 [0;1;30m6[0m
+                          [1;30;40m  [0;32m    [0;1;32m            [0;32m    [0;1;30m [0m
                              [32m▄▄[0m       [32m▄▓▒▓▒▓▄[0m
                       [1;30m██████[0;32m█[0;1;30m████████[0;32m█[0;1;30m█████████████[0m
                       [1;30m██   [0;32m▐▒ ░▌    ▓    ▒[0m     [32m▒ [0;1;30m██[0m

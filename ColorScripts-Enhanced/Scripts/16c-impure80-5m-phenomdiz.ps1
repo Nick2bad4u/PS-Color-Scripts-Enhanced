@@ -5,7 +5,7 @@
 # Source SHA-256: e8daf16c7e514bf91141e9a707bc4ca273e514f57d0514ff4c965a5fbf3d97d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5m-phenomdiz.ans by Smooth (iMPURE); released in impure80 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Phenom Production 2021 diz
 # SAUCE Author: Smooth
 # SAUCE Group: iMPURE
@@ -25,16 +25,11 @@ Write-Host '
   [1;33m:[0m        [1;33m··[0m [32mp r o [0;1;32md[0;32m [0;1;37mu c[0;1;32m t[0;32m [0;1;32mi[0;32m o n s[0;37m [0;1;33m··[0m      [1;33m:[0m    :        ·· p r o d u c t i o n s ··      :
   [1;33m╠[0;1;31m═[0;31m══ ─[0;1;30m-─────[0;31m  [0;1;30m──[0;31m  [0;1;30m────────────────---[0;31m─[0;1;30m-[0;31m══[0;1;31m═[0;1;33m╣[0m    ╠═══ ─-─────  ──  ────────────────---─-═══╣
   [1;31m│[0m [1;32m        [0m [36m [0;37m [0;1;37m              [0m               [1;31m│[0m    │                                         │
-  [31m [0;37m [0;1;32m   [0m [36m [0;37m                                   [0;31m [0;37m                                               [0m
-[37m    [0;1;32m            [0m [36m                                  [0;37m              [0m
-[37m  [0;31m [0;37m [0;1;32m       [0;36m                                 [0;31m [0;37m                                               [0m
-  [1;31m│[0m [1;32mreleased[0m [36m:[0;1;37m 00/00/00                     [0;1;31m│[0m    │ released : 00/00/00                     │
+[31m[0;37m[0;1;32m[0m[36m[0;37m[0;31m[0;37m[0m[37m[0;1;32m[0m[36m[0;37m[0m[37m[0;31m[0;37m[0;1;32m[0;36m[0;31m[0;37m[0m  [1;31m│[0m [1;32mreleased[0m [36m:[0;1;37m 00/00/00                     [0;1;31m│[0m    │ released : 00/00/00                     │
   [1;33m├[0;1;31m-[0;31m-[0;1;30m-[0;31m─[0;1;30m---------------------------------[0;31m─[0;1;30m-[0;31m-[0;1;31m-[0;1;33m┤[0m    ├---─---------------------------------─---┤
   [1;31m│[0m [1;32mdesc[0;36m:[0;37m                                   [0;1;31m│[0m    │ desc:                                   │
   [31m:[0;37m                                         [0;31m:[0;37m    :                                         :[0m
 [37m  [0;31m.[0;37m                                         [0;31m.[0;37m    .                                         .[0m
 [37m  [0;1;31m:[0m                                         [1;31m:[0m    :                                         :
   [1;33m╠[0;1;31m═[0;31m═──[0;1;30m-[0;31m─[0;1;30m-─────────────────────────---[0;31m─[0;1;30m-[0;31m──═[0;1;31m═[0;1;33m╣[0m    ╠══──-─-─────────────────────────---─-──══╣
-  [1;33m [0;1;31m [0;36m [0;37m [0;36m [0;37m [0;1;32m   [0m [36m   [0;37m [0;1;32m     [0m [36m   [0;37m [0;1;32m   [0m               [1;33m [0m                                               
-  [1;33m [0;1;31m [0;36m   [0;37m [0;1;32m     [0;36m     [0;1;32m   [0m                    [1;33m  [0m [1;33m [0m                                               
-  [1;33m╚[0;1;31m═[0;31m═─[0;1;30m-[0;31m─[0;1;30m-────────────────────----------[0;31m─[0;1;30m─[0;31m─═[0;1;31m═[0;1;33m╝[0m    ╚══─-─-────────────────────----------───══╝[0m'
+[1;33m[0;1;31m[0;36m[0;37m[0;36m[0;37m[0;1;32m[0m[36m[0;37m[0;1;32m[0m[36m[0;37m[0;1;32m[0m[1;33m[0m[1;33m[0;1;31m[0;36m[0;37m[0;1;32m[0;36m[0;1;32m[0m[1;33m[0m[1;33m[0m  [1;33m╚[0;1;31m═[0;31m═─[0;1;30m-[0;31m─[0;1;30m-────────────────────----------[0;31m─[0;1;30m─[0;31m─═[0;1;31m═[0;1;33m╝[0m    ╚══─-─-────────────────────----------───══╝[0m'

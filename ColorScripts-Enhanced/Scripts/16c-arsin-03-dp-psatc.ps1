@@ -5,7 +5,7 @@
 # Source SHA-256: 987a3fefb845e15c4988dac2cc2506db94b8ef4fd4783b4fcb120beac051825d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DP!PSATC.ANS by Dead Piranha (arsin-03); released in arsin-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -46,7 +46,7 @@ Write-Host '
 [31m ░░[0;37m║[0m       [37m▄▄▄▄▄▄[0m                                  [1;30m║[0;31m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [31m   [0;1;30m║    [0m▄[47m [0;1;30;47m░▒▓▒░░░[0m▌          [1;31m▄▄▄▄[0m              ▄▀[1;47m░[0m  [1;30;40m║[0m
 [1;30;40m   ║   [0;31m▐[0;31;47m▓▒[0;1;30;47m▒░  __[0;1;37;47m_[0m█[1;30;43m▓▒░░▒░░░░[0;1;31;40m▐[0;1;31;41m▌▓▐▌[0;1;31;40m▌[0;1;30;43m░░░░░▒░░░░░░[0;33;47m▒[0;37;40m▌ [0;1;37;47m▒[0m  [1;30;40m║  [0;1;31;40mT[0;31mhe [0;1;31mC[0;31monnection [0;1;31mB[0;31mBS[0m
-[31m   [0;1;30m║    [0;31m▀[0;31;47m▓  [0;1;37;47m░~ ░[0;36;47mφ[0;37;40m▌[0m         [1;31;40m▀[0;1;31;41m▒▄▄[0;1;31;40m▀[0m              ▀▄[1;47m░[0m  [1;30;40m║  [0;1;36;40m([0;36m209) [0;1;36m5[0;36m49-[0;1;36m7[0;36m980[0m
+[31m   [0;1;30m║    [0;31m▀[0;31;47m▓  [0;1;37;47m░  ░[0;36;47m [0;37;40m▌[0m         [1;31;40m▀[0;1;31;41m▒▄▄[0;1;31;40m▀[0m              ▀▄[1;47m░[0m  [1;30;40m║  [0;1;36;40m [0;36m     [0;1;36m [0;36m   [0;1;36m [0;36m   [0m
 [36m   [0;1;30m║[0m     [31m▌▀[0;31;47m▒[0;37;40m▀▀▀▀▀[0m          [34;40m▐▓▒▓▌[0m                   [1;30;40m║  [0;1;31;40mS[0;31mysOp: [0;1;31mT[0;31mhe [0;1;31mK[0;31marate [0;1;31mK[0;31mid[0m
 [31m   [0;1;30m║[0m      [31m■[0m                [34m░▒▓▒░[0m                   [1;30m║  xXxXxXxXxXxXxXxXxXxXxXx[0m
 [1;30m   ║ [0;35m                [0m       [34m░▒░░ [0;1;37m               [0;1;35m   [0;1;30m║  [0;1;31m [0;31m     [0;1;31m [0;31m        [0;1;31m [0;31m    [0;1;31m [0;31m  [0m

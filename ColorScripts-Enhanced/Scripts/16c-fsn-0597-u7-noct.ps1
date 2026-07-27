@@ -5,7 +5,7 @@
 # Source SHA-256: 8376e8a3d4a236407d78cb23976e3c98693ab220b860e56e234462f191ae4e17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: U7%NOCT_.ANS by _undertaker (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: nocturnal desire
 # SAUCE Author: _undertaker
 # SAUCE Group: fusion
@@ -43,7 +43,4 @@ Write-Host '
 
 ░░
 
-[1m             [0m
-                              
-                                                 
---[0m'
+[1m[0m--[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 824b916b080c9f7e96389c145d10d28f0f99cc472484909c199218c16f5f0aef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: !-1335.ANS by flame (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: : INTRO :
 # SAUCE Author: flame
 # SAUCE Group: RILE
@@ -15,11 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-[30m                       [0m
-                                                                       [1;30m■[0m
+[30m[0m                                                                       [1;30m■[0m
                  ·
-[33m                                                   [0;35m    [0;33m           [0;1;35m         [0;33m   [0m
-[31m [0m                                 [31m [0m
+[33m[0;35m[0;33m[0;1;35m[0;33m[0m[31m [0m                                 [31m [0m
 [31m       [0;37m·[0;31m              [0m            [31m   [0;34m▄▄▄▄▄[0;31m▄▄[0;1;33;44m▄▄[0;1;33;40m▄[0;1;37;40m▄▄[0;1;33;40m▄▄▄▄[0;1;37;40m▄[0;1;33;40m▄[0;31m▄▄▄[0;34m▄▄▄▄█▄[0;37m [0;31m         [0m
     [31m              [0m       [34m▄[0;31m▄▄▄▄[0;34;41m▀▀[0;37;41m▄[0;34;41m░[0;31;40m██[0;1;33;40m▒▒[0;1;33;41m░[0;31;43m▀[0;1;37;41m▄[0;1;33;41m███[0;1;37;41m██████[0;1;33;44m█[0;1;33;40m█[0;1;37;40m██[0;1;33;40m█[0;1;37;40m██[0;1;33;40m██[0;1;33;44m▄▄[0;41m▓▄░[0;31;40m██▌ ▄▄▄[0;1;31;40m▄[0;31m░[0m
              [31m [0;34m░▄▄[0;31m▄▄▄ ▀▀▀██▄[0;33m▄[0;36m▄▄[0;31m▄▄▄[0;33m▄[0;1;33;43m▄▄▓█████[0;1;37;40m███████[0;1;33;40m█[0;1;33;44m▀[0;1;33;40m█[0;1;37;40m██████[0;1;33;43m██[0;1;33;47m▓▒▓[0;1;33;43m██▀[0;33;41m▀[0;31;40m█[0;33;41m░[0;31;40m█[0;32;41m░[0;31;40m█████▌▄▄[0;1;30;40m▄[0m

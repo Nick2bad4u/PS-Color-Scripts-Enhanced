@@ -5,7 +5,7 @@
 # Source SHA-256: e09c7f244db8b8f5fc02dd6cc536ccb0e80378d15146cce2ee61e0eecdfd855f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-ACID6.ANS by Black Spyrit + Colorblind 802 (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -45,7 +45,7 @@ Write-Host '
 [32m▓▒░  ████[0m                           [32m▀▀▀[0m             [32m▀▀[0m             [32m▀▀[0m      [32m░▒▒▒[0m
 [32m▒░    ▀▀   [0;34m▄▄███▀▀▀▀▀▀▄▄[0m      [1;37m█[0;1;37;47m▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;30;47m▀[0;1;30;40m▄[0;1;37;47m▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▄[0m   [32m░░[0m
 [32m░[0m        [34m▄█▓▓▒░[0m     [1;34m▄▄▄ [0;34m█▄    [0;1;37;47m▓[0m██[1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▓[0m██ [31m█▄  [0;32m░[0m
-[32m▒[0m       [34m▓█▓▒░[0m      [1;34;44m▓[0;1;34;40m██[0;1;34;44m█▓[0;34m▓██  [0;1;30m▄[0m▀██[1;30m█   [0;1;34mSPYRIT''S CRYPT [0;34m∙ [0;1;34m802-879-1136    [0;1;30;47m▒[0m██ [31m█[0;1;31;41m░[0;31m█[0m
+[32m▒[0m       [34m▓█▓▒░[0m      [1;34;44m▓[0;1;34;40m██[0;1;34;44m█▓[0;34m▓██  [0;1;30m▄[0m▀██[1;30m█   [0;1;34m               [0;34m  [0;1;34m                [0;1;30;47m▒[0m██ [31m█[0;1;31;41m░[0;31m█[0m
 [32m▓░    [0;1;30m▄[0;32m▄▄██[0;1;32;42m░░▒[0;32m▀[0;31m▄▄▄[0;1;30m▄ [0;1;34m▀▀▀[0;34m▒▓▓█▓ [0;1;30m█[0;1;31;41m▒[0;31m▄[0;37m▀[0;1;30;47m▓[0m   [1;34;40mSysop[0;34m: [0;1;34mBlack Spyrit [0;34m∙ [0;1;34mSector9    [0;1;34;47m [0m█▀ [31m█[0;1;31;41m▒░[0;1;30;40m▓[0;1;30;42m▒[0m
 [32m▓▓▒▄[0;1;30;42m▀[0;32m████[0;1;30;42m▒  [0;32m█▄[0;31m▀[0;1;31;41m▒░[0;1;30;41m▄[0;31m▀[0;1;30m▀[0;34m░▒▒▓▓▓█▀[0;32m▄▄[0;31m▀[0;1;31;41m░[0m [1;30;47m▒[0m      [1;34;40mRAZOR 1911 Member Board[0m       [1;37;47m░[0m▌[32m▐[0;32;42m [0;32;40m▄▄▄██[0m
 [1;30;42m░▒░[0;32m████[0;1;30;42m░░▓[0;1;30;40m▀[0;32m▀▀[0;1;30m▀▀[0;34m▒▒▒▒▒▒▓▓▓▀[0;1;30m▄[0;32m▄█[0;1;32;42m░░ [0m [1;30;47m░▒[0m    [1;34;40mACiD Productions [0;34m∙ [0;1;34mInsanity[0m     [1;37;47m▒[0m█ [1;30;42m▒░[0;32m█[0;32;42m  [0;1;30;42m░[0m

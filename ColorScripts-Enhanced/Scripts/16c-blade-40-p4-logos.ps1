@@ -5,7 +5,7 @@
 # Source SHA-256: 72b9a36191a6c27356d60599080c4f1908297ef28289424f976762d4f86d9519
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P4-LOGOS.ANS by pandora (blade productions); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo colly #01
 # SAUCE Author: pandora
 # SAUCE Group: blade productions
@@ -15,14 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-                                                                              
-                                                                         
-                                             
-
-                                                              
 
 
-                                                                         
+
 
 
 [36m▐[0;1;36;46m░░[0;32m▀[0;37m [0;1;37m▄▄▄▄▄██[0;1;37;47m█▀[0;1;37;40m▀▀▀[0m▀ [1m▀▀▀▀▀▀▀▀███▀▀██▀▀▀▀█[0;1;47m▄[0;1;40m▄▄▄▄[0m▄[1m▀▀▀▀[0;1;47m███████[0;1;40m█▀▀▀███▄▄▄[0m▄▄       [32m░░░[0m

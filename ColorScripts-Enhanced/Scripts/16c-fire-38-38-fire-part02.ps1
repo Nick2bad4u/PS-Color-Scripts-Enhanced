@@ -5,7 +5,7 @@
 # Source SHA-256: 6cbe71fbc9752750037097d322aea863c3783e1aebda9313b37bc7aa4be14841
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: #38_FIRE.ANS by abstrakt (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fire #38 members
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -17,8 +17,7 @@
 
 Write-Host '
            [32m┌[0;1;32m  [0;32m  [0;1;32m   [0;32m [0;1;32m   [0;32m  [0;1;32m ┐  [0;32m [0m
-         [37m  [0;32m  [0;1;32m [0;32m [0;37m [0;32m [0;1;32m [0;32m [0;37m [0;32m [0;1;32m [0;32m [0;37m [0;32m [0;1;32m [0;32m [0;37m [0;32m [0;1;32m [0m                     [33m   [0m          [33m    [0;1;30m [0m
-         [32m,┌[0;1;32m$$~`^"''²²db²²''"^`$[0;32m$┐,[0m                  [33m`$$$$$##SSS$$$$$$[0;1;30m$''[0m
+[37m[0;32m[0;1;32m[0;32m[0;37m[0;32m[0;1;32m[0;32m[0;37m[0;32m[0;1;32m[0;32m[0;37m[0;32m[0;1;32m[0;32m[0;37m[0;32m[0;1;32m[0m[33m[0m[33m[0;1;30m[0m         [32m,┌[0;1;32m$$~`^"''²²db²²''"^`$[0;32m$┐,[0m                  [33m`$$$$$##SSS$$$$$$[0;1;30m$''[0m
          [32m$[0;1;32m$$$   [0;1;31mo[0;32m  j[0;1;32ml[0;32m$   [0;1;31mo[0;32m  [0;1;32m$$[0;32m$;[0m                   [33ml$$$$$$$$$$$$$$$[0;1;30m''[0m
          [32m`└$[0;1;32m$$[0;32m┐,.┌[0;1;32md''l$[0;32m: [0;1;32m┐.[0;32m┌[0;1;32m$$$[0;32m`[0m                    [33m:$└$$$$$$$$j7┘$l[0m
            [32m$[0;1;32m$$$[0;32m$$[0;1;32m$''[0;32m([0;1;32m$$)[0;32m [0;1;32m$[0;32m$$[0;1;32m$$[0;32m$[0m                      [33m$.`└[0;1;30m/[0;33m$$$┘''[0;1;31m  [0;1;30m,[0;33m$l[0m

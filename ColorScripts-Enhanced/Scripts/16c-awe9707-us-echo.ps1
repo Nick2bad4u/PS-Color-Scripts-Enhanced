@@ -5,7 +5,7 @@
 # Source SHA-256: 2ee01d60145819039b71ab86532795ece4570eca95e631a533dff63ff458e3e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ECHO.ANS by Massm + Ark Anjel (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Echo
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -47,6 +47,5 @@ Write-Host '
                                 [1;30m▀[0m░[30;47m▓[0;1;30;40m▄[0m [33m▐▀[0;36m [0;1;30m ▄█▌▀[0m
                                   [1;30m▀[0m    [1;30m▄[0m [1;30m ▀[0m
                                     [1;30m▬[0m                             [36m   [0m
-                   [1;30m [0m [1m    [0m      [1;30m  [0m              [1m    [0m      [1;30m [0m
-
+[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m
            [1;30m [0m             [1m      [0m   [1m    [0;1;30m── [0m            [1m   [0m    [1m    [0;1;30m  [0m'

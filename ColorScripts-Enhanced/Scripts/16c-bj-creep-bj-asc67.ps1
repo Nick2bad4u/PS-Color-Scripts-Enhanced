@@ -5,7 +5,7 @@
 # Source SHA-256: d708fb974b1b3da9f9daf3f264205dc62bb9b30c3afb18e1ff5dd3500f11e990
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc67.ans by Black Jack (Cia/Echo [01/26/97]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Promotional (The Deep)
 # SAUCE Author: Black Jack
 # SAUCE Group: Cia/Echo [01/26/97]
@@ -15,7 +15,6 @@
 # Columns: 1-80
 
 Write-Host '
-                                                                               
 
 
 
@@ -62,5 +61,4 @@ Write-Host '
   [36m│[0m                      [37m,d$$$&l$$$$[0;1;30mP"~[0m                                  d$&l$i[1;30m;[0m
 [36m  ┼              [0m        [37m   [0;1;37m [0m     [1;30m  [0m                                          [1;30m  [0m
   [36m|[0m                      [37m`Y$&li:[0;1;30mi"~[0m                                    d&$li[1;30m:.[0m
-  [36m [0m                       [37m    [0;1;30m [0m                                       [1;30m [0m   [1;30m  [0m    
-  [36m.[0m                         [37mi[0;1;30m;[0m'
+[36m[0m[37m[0;1;30m[0m[1;30m[0m[1;30m[0m  [36m.[0m                         [37mi[0;1;30m;[0m'

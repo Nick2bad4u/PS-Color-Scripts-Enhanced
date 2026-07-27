@@ -5,7 +5,7 @@
 # Source SHA-256: 1f9b23bfdeaae6da28d7ae5e39c456bee8371bb01ec8e5407d57454470187862
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS-GOD.ICE by Lord Soth + Hell Raiser (ice-9401); released in ice-9401 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 91-129
 # Columns: 1-80
 
@@ -37,6 +37,4 @@ Write-Host '
      [34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;34m▄▄[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;34m▄▄▄[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;34m▄▄████ [0;1;37m█[0m
                     [1;30m▄[0m            [1;30m▄[0m                [1;30m▄[0m       [1;30m▄ ▄[0m     [1;30m▄[0m▄▄▄▄[1m▄▄▄█[0m
 
-[1;30m▀  ▄ ▀▄██  [0;1;31mG  a  t  e  s[0m           [1;31mo  f[0m         [1;31mD  e  s  t  i  n  y  [0;1;30m██▄▀ ▄ ▀ ▀[0m
-
-                                [31m7[0;1;31m03[0m-9[1m38[0m-8[1;31m14[0;31m9[0m'
+[1;30m▀  ▄ ▀▄██  [0;1;31mG  a  t  e  s[0m           [1;31mo  f[0m         [1;31mD  e  s  t  i  n  y  [0;1;30m██▄▀ ▄ ▀ ▀[0m'

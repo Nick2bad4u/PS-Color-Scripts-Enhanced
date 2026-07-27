@@ -5,7 +5,7 @@
 # Source SHA-256: 459f2afb3e2d376a8d88e7aada607520975f6838e454c0ed5bbaab4615b6e370
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-B4N3.ANS by tainted (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: absinthe 2
 # SAUCE Author: tainted
 # SAUCE Group: FiRE
@@ -37,7 +37,6 @@ Write-Host '
           [1;30m▄[0m       [1;30m░[0m             [32m░[0m                   [1;30m░░[0m      [1;30m░░[0;1;37m   [0;1;30m▀▀[0m
              [1;30m░░[0m                                                    [32m   [0;1;30m [0;1;32m    [0;1;30m [0m
 
-                              [1;32m   [0;32m    [0;1;30m             [0m
-
+[1;32m[0;32m[0;1;30m[0m
                                         [1;30m░░[0m
                                                                                [30m░[0m'

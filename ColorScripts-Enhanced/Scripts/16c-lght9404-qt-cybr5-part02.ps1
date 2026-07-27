@@ -5,7 +5,7 @@
 # Source SHA-256: 15f8ab7debed4e0a015dc92b8115a48028a50a292edae8a208f4794f91f3bf37
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QT-CYBR5.ANS by Q Tak (lght9404); released in lght9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 44-87
 # Columns: 1-80
 
@@ -39,17 +39,4 @@ Write-Host '
           [31;40m▀▀[0;31;41m              [0;30;41m▄▄                          ▀▀                [0;31;40m▀▀[0m
               [31;40m▀▀▀▀[0;31;41m               [0;30;41m▀▀▀          ▄▄  ▀▀             [0;31;40m█▀▀▀[0m
                        [31;40m▀▀▀▀▀▀▀█[0;31;41m         [0;30;41m▀▀▀               [0;31;40m▀▀▀▀▀[0m
-                                    [30;41m██[0;31;40m▀▀▀[0;30;41m▄▄▄▄▄▄▄[0;31;40m▀▀[0;30;41m███[0m       [1;37;40mQ [0;1;36;40mT[0;1;34;40ma[0;34mK [0;1;30m([0;1;37mL[0;1;33mi[0;1;37mGHT[0;1;30m)[0m
-                               [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m          [0;1;33m [0;1;37m    [0;1;31m [0;31m [0;1;30m [0m
-
-                             [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                  [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
-                            [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                     [0;1;31m [0;31m [0;1;30m [0m
-
-                              [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
-
-                              [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
-                              [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
-                               [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m              [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
-                              [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
-
-                                    [1;30m3[0;31mo[0;1;31m3[0;1;33m.[0;1;37m779.[0;1;33m5[0;1;31m8[0;31m0[0;1;30m7[0m'
+                                    [30;41m██[0;31;40m▀▀▀[0;30;41m▄▄▄▄▄▄▄[0;31;40m▀▀[0;30;41m███[0m       [1;37;40mQ [0;1;36;40mT[0;1;34;40ma[0;34mK [0;1;30m([0;1;37mL[0;1;33mi[0;1;37mGHT[0;1;30m)[0m'

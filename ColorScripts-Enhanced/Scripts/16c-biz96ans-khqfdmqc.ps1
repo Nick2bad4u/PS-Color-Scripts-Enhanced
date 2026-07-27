@@ -5,7 +5,7 @@
 # Source SHA-256: bd8f0b07b8ab1c9617e0e39b97bd6adbc2120a87cc42ff59b4977ddc96b3eeef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KHQFDMQC.ANS by Tk (biz96ans); released in biz96ans and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -30,7 +30,7 @@ Write-Host '
 [1;30;47m   [0m▀ [1;30m░░[0m [1;30;47m▒[0;1;30;40m▀[0m [1;30m░[0m  ▀[1;30;47m    [0m█▌░▒[1;30m▀[0m  [1;30m███▀▀[0;36m▄▄[0;1;36;46m▒[0;36m▄[0;1;30m▀■▄▓█▄■▀[0;36m▄█▓▄[0;1;30m▀▓██▄■[0;36m ▄▀[0;1;30m▄██▌[0;36m▐▌[0;1;30m▐█▄ ██▓▌[0;36m▓█▄[0;1;30m▀■▄▄▀█▄[0m
 [1;30;47m  [0m▀[1m [0;1;30m▒▒▒░▀[0m  [1;30m▒▒▒░[0m▐█▀▀▀▄█▀ [1;30m▀▀█[0m  [1;47m▄[0;36m██[0;1;36;46m ░░ [0;36m▓▄▄▄▄███▀███▄▄▄▄▄█▓▄▄▄▄▄▄█▄▄▄▄▄▄▄▄██[0;1;36;46m░[0;36m▀[0;1;36;46m [0;36m▄▄▄▄█[0m
 [37m  [0;1;30m▄█▓▓▒▒ [0m [1;30m▀▓▓▄ [0m▄▄[1;30;47m▀[0m▀▀ [32m▀[0;37m [0;32m▀▀▀[0;1;30;42m▄[0;1;32;40m▀[0;1;37;40m▀[0;1;37;47m█[0;1;37;40m▀[0;1;32;40m▀[0;1;30;42m▄[0;32m▀▀▀[0;37m [0;32m▀▓[0;37m [0;32m▀[0;37m [0;32m▀[0m
-[37m  [0;1;30m▀▀▀[0m [1;30m      ▀▀▀[0m           [1;30m▀▄▄[0;1;32;47m▄[0;1;30;40m▄▄▀[0m  [1;30m [[0mNode [1m1[0;1;30m][0m [1;30m[[0;1;37m++41[0;1;30m-[0;1;37m22[0;1;30m-[0;1;37m9600621 [0mUSR V.34+ 33k6[1;30m][0m
-4 GB HD! [1;30mφ [0mQIC-80 [1;30mφ [0mDAT 4 GB [32m█[0m      [1;30m[[0mNode [1m2[0;1;30m][0m [1;30m[[0;1;37m++41[0;1;30m-[0;1;37m22[0;1;30m-[0;1;37m9600622 [0mUSR V.34+ 33k6[1;30m][0m
+[37m  [0;1;30m▀▀▀[0m [1;30m      ▀▀▀[0m           [1;30m▀▄▄[0;1;32;47m▄[0;1;30;40m▄▄▀[0m  [1;30m  [0m     [1m [0;1;30m [0m [1;30m [0;1;37m    [0;1;30m [0;1;37m  [0;1;30m [0;1;37m        [0m              [1;30m [0m
+         [1;30m  [0m       [1;30m  [0m         [32m█[0m      [1;30m [0m     [1m [0;1;30m [0m [1;30m [0;1;37m    [0;1;30m [0;1;37m  [0;1;30m [0;1;37m        [0m              [1;30m [0m
               [1;30m [0m              [32m▓[0m      [1;30m [0m     [1m [0;1;30m [0m [1;30m [0;1;37m    [0;1;30m [0;1;37m  [0;1;30m [0;1;37m        [0m              [1;30m [0m
                              [32m▄[0m'

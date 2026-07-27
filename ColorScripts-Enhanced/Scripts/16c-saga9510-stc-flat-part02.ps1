@@ -5,7 +5,7 @@
 # Source SHA-256: 8289468bf5021f06cf0e2f883b114c412241050dd9d7ea626e094719ca12f16f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-FLAT.ANS by Stone The Crow + Catbones (Saga); released in saga9510 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Flatline
 # SAUCE Author: Stone The Crow
 # SAUCE Group: Saga
@@ -48,11 +48,8 @@ Write-Host '
 [40m▒█[0;47m█[0;40m [0;47m█[0;1;30;47m█▀[0;30;47m▀[0;1;30;40m▄[0;30;47m▀[0;1;30;40m▄▄▄▄▄[0;30;47m▀▀▀[0;1;30;40m▄[0m▄[30;47m▀▀[0;1;30;47m██[0m▒[1;30;47m▄[0;30;47m▀[0;37;40m▄[0;1;30;40m▄[0;30;47m▀[0;1;30;47m█[0;47m█[0;1;30;47m▄█[0;1;30;40m▄▄[0;30;47m▀[0;37;40m▄[0;1;30;40m█[0;1;37;47m▀[0m▓[47m█[0;40m ▓[0;47m██[0;1;30;47m█▀[0;1;30;40m▄[0;30;47m▀▀▀[0;37;40m▓[0;37;47m█[0;1;30;47m▀[0;30;47m▀[0;1;30;47m▀[0;30;47m▀[0;1;30;47m▀[0;1;30;40m▄▄[0m▄[1;30m▄▄▄▄▄█▄▄▄[0;1;30;47m▀[0;1;37;47m▀[0;1;30;47m█[0;47m█[0;1;30;47m▀[0;47m██[0;40m▒[0m
 [40m  ▀ ▀[0;31;47me[0;1;31;47ml[0;1;37;47mite[0;1;30;47m▄[0;1;37;47mfont[0;1;30;47m▄[0;1;34;47mb[0;34;47my[0;37;40m▓[0;1;37;47mCa[0;1;33;47mt[0;33;47mBo[0;1;37;40mn[0;1;37;47me[0;1;30;47ms[0;1;37;47m/Flatli[0m▒[1;47me[0m [1;30;47m▀[0;47m█[0;1;30;47m▄[0m▒[47m█[0;40m ▒[0;47m█[0;40m ▓[0;47m█[0;40m▒[0;47m██[0;40m▒▒[0;47m█[0;40m [0;1;30;47m▄[0m▀[1;30;47m▀[0;1;37;40m▄[0;1;30;47m▄[0m▀[47m█[0;40m ▀[0;47m█[0;40m▀[0;1;30;47m▄[0;47m█[0;40m [0;47m█████[0;40m▀▀▀  [0m
                                                                 [1;30;40m [0;35m       [0;37m [0;1;30m [0m
- [1m      [0m        [1;30m  [0m [1;30m   [0m [1;30m [0m [1;30m                                                       [0m
- [1;30m                    [0m [1;30m                              [0m
-
-[1;30m                                                                          [0m
-
+[1m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m
 [1;30m  [0;31m▄[0;1;30m [0;31m▀[0;1;30m [0;31m [0;1;30m [0;1;37m                  [0;1;30m  [0;31m [0;1;30m [0;31m▀[0;1;30m [0;31m▄[0;1;30m  [0m [1;30m       [0;31m   [0;1;33m [0;31m [0;1;33m [0;31m [0;1;33m [0;31m [0;1;33m [0;31m [0;1;33m [0;31m [0;1;33m  [0;31m [0;1;33m [0;31m [0;1;33m [0;31m [0;1;33m [0;31m [0;1;33m [0;31m [0;1;33m [0;31m [0;1;33m [0;31m [0;1;33m [0m
 [1;30m [0;31m■[0;1;30m [0;31m░[0;1;30m      [0;31m   [0;1;37;41m [0;33;41m■▄[0;1;37;41m [0;33;41m▓[0;1;37;41m  [0;31m▓▒[0m   [1;30m      [0;31m░[0;1;30m [0;31m■[0;1;30m [0m [1;30mheader by [0;1;34ma[0;31m [0;1;34mp[0;31m [0;1;34mo[0;31m [0;1;34mc[0;31m [0;1;34ma[0;31m [0;1;34ml[0;31m [0;1;34my[0;31m [0;1;34mp[0;31m [0;1;34ms[0;31m [0;1;34me[0;31m [0;1;34m [0;31m [0;1;34mX[0m
 [31m▐[0;1;30m  [0;31m▒▄[0;1;31m▄[0;1;31;41m▒[0;1;31;40m▀[0;31m▀▀   ▄ ▀█[0;33;41m▒[0;1;37;41m   [0;31m▓[0m   [31m▀▀[0;1;31m▀[0;1;31;41m▒[0;1;31;40m▄[0;31m▄▒[0;1;30m  [0;31m▌[0;37m [0;1;30mfont by[0;31m  [0;37m [0;34mC a t b o n e s[0m   [37m  [0m

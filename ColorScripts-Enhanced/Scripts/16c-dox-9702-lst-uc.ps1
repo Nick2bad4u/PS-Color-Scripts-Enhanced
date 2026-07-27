@@ -5,7 +5,7 @@
 # Source SHA-256: 4d3aad6394b5bc62b44c18966bb6d806085b511c99d753606bd6c517b2311385
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LST-UC.ANS by soul trader (dox product); released in dox_9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: urban kaos 703-256-7893
 # SAUCE Author: soul trader
 # SAUCE Group: dox product
@@ -19,8 +19,7 @@ Write-Host '
 
 
 
-                    [36m [0;1;32m   [0;36m     [0;1;32m [0;36m         [0;1;32m [0;36m  [0;1;32m [0;36m     [0;1;32m [0;36m    [0;1;32m [0;36m [0m
-
+[36m[0;1;32m[0;36m[0;1;32m[0;36m[0;1;32m[0;36m[0;1;32m[0;36m[0;1;32m[0;36m[0;1;32m[0;36m[0m
            [36;47m ▄▄▄[0;36;40m█[0;36;47m▄▄▄▄ [0m     [36;47m░▄[0;36;40m█[0;36;47m▄▄▄[0;36;40m█[0;36;47m▄▄ [0m [36;47m░▄▄[0;36;40m█[0;36;47m▄▄▄▄▄░[0;37;40m▀▀▀▀▀[0;37;47m [0;36;47m▄▄▄[0;36;40m█[0;36;47m▄▄░[0;37;40m▄[0m
            [36;47m░█[0;36;40m█[0;36;47m███[0;36;40m███[0;36;47m░[0m     [36;47m▒[0;36;40m████████[0;36;47m░[0m [36;47m▒[0;36;40m████████[0;36;47m▒[0m     [36;47m░[0;36;40m███████[0;36;47m▌[0;37;40m▌[0m
            [36;47m▒[0;36;40m██[0;36;46m     [0;36;40m█[0;36;47m▒[0m     [36;47m▓[0;36;40m██[0;36;47m▀░▀[0;36;40m███[0;36;47m▒[0m [36;47m▓[0;36;40m██[0;1;32;46mp!op [0;36m█[0;36;47m▓[0m     [36;47m▒[0;36;40m█[0;1;32;46mlst!@[0;36m██[0;36;47m▒[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 1c2284fa3b58c8fe9951c6033794127274c8a89077becd4228ae2e9c8a6bb540
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FI-HG.ANS by Future Imperfect ([FEAR]); released in fear1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Heaven's Gate
 # SAUCE Author: Future Imperfect
 # SAUCE Group: [FEAR]
@@ -46,7 +46,6 @@ Write-Host '
                    [33m▀▀▀▀[0m                                 [33m▀▀▀▀[0m
 
 [1;30m──═[0m═[[1mF[0muture [1mI[0mmperfect]═[1;30m═────────────────────────────────────────────────────────[0m
-  [1;30m                                                                             [0m
-[1;30m       ■                   [0m
+[1;30m[0m[1;30m       ■                   [0m
 [1;30m           ■                                                   [0m
 [1;30m────────────────────────────────────────────────────────────────────═[0;31m═[[0;1;31mF[0;31mEAR]═[0;1;30m═──[0m'

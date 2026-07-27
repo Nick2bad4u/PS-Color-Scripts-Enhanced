@@ -5,7 +5,7 @@
 # Source SHA-256: ce7df4be9e18b82831ead812ab73659a17cc36dfd641f3c385c9cf7e515d043b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-MANG.ANS by Dizzy (sadist02); released in sadist02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 95-142
 # Columns: 1-80
 
@@ -46,9 +46,5 @@ Write-Host '
                                                             [31m▐▓▀[0m
         [1;30m                                             [0m        [31m▒[0m
         [1;30m                                                  [0m   [31m░[0m
-        [1;30m                                                     [0m
-        [1;30m                                                     [0m
-        [1;30m                                                   [0m
-        [1;30m                                                           [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
         [1;30m- [0mDizzy 1999[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a8dd8bdf0e9b91c8d6b78230e3eb2d4672a90b20754a95e1296b60a2bb561e74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: E0-BREED.ANS by Enzo (Glue Pop, Time2rock); released in glue-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Breed Hirez
 # SAUCE Author: Enzo
 # SAUCE Group: Glue Pop, Time2rock
@@ -31,8 +31,7 @@ Write-Host '
      ▀[1;47m▀[0m▄[1;47m█[0m [1;47m▌[0m [1;47m▀[0m [1;47m▀[0m▄[1;47m█[0;1;40m▀[0m▀
       ▄ [1;47m▐[0m ▀[31m [0;37m ▀▀ ▀▄  [0m                      [31m [0m     [1;30m                           [0m [1;30m   [0m
       ▀▀  [1;30m           [0m                     [31m ▐[0m      [1;30m                           [0m
-  [34m  [0;37m [0;1;30m                 [0m                        [1;30m             [0;1;37m [0;1;30m [0m  [1;30m [0m
-                                          [31m ▐ [0m
+[34m[0;37m[0;1;30m[0m[1;30m[0;1;37m[0;1;30m[0m[1;30m[0m                                          [31m ▐ [0m
                            [31m▄[0m              [31m▄[0;1;37;41m [0;31m [0m
             [31m [0m          [31m▄[0m   [31m▌[0m        [31m   ▄[0;37m  [0;31m █  [0m          [31m [0m
            [31m   [0m         [31m ▄█ [0;1;31;41m [0;31m▄▄[0m       [31m▄▓▄[0;37m  [0;31m▄█▓▓▄[0m       [31m█▄ [0m         [31m▀  [0m

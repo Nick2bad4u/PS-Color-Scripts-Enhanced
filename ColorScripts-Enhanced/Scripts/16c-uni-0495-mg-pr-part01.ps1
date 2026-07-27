@@ -5,7 +5,7 @@
 # Source SHA-256: 207ac5a0887ae7d64a54518c2df2808cb2082c1f86cafc6869dc7c1bb56289ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MG-PR.ANS by Magnus (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Packaged Rebellion
 # SAUCE Author: Magnus
 # SAUCE Group: READ THE INI FILE
@@ -23,7 +23,7 @@ Write-Host '
 [1;31;45m▄[0m [1;30;40m·mg·mg[0;35m▐[0;1;31;45m░▒▓[0m [35m▐[0;1;31;45m░▒░[0m [35m▐[0;1;31;45m░[0;35m██▌▐[0;1;31;45m░░▒[0;35m▌  ▐[0;1;31;45m░░░[0;35m█ [0;1;30mm █    to request your own magnus ansi,    █[0m
 [1;30;45m▄[0m [1;30;40mmg·mg·[0;35m▐[0;1;31;45m▒░▒[0m [35m▐[0;35;45m [0;1;31;45m░[0;35m█ ▐███▌ ▀[0;35;45m [0;1;31;45m░[0;35m▌  ▐[0;1;31;45m░[0;35m██▌ [0;1;30mg █[0m      [1;30mcontact me on Harvest Moon:[0m       [1;30m█[0m
 [1;30;45m▄[0m [1;30;40mg·mg·m[0;35m▐[0;1;31;45m░ ░[0m [1;30;40m·   m[0m     [1;30;40mg·  [0;35m▀  ▐██▀ [0;1;30mg· █[0m                                        [1;30m█[0m
-[1;30;45m▀[0m       [35m▐[0;35;45m [0;1;31;45m░[0;35m█[0m                [35m▄▄▀▀[0m      [1;30m█[0m            [1;30m(216) 951-7059[0m              [1;30m█[0m
+[1;30;45m▀[0m       [35m▐[0;35;45m [0;1;31;45m░[0;35m█[0m                [35m▄▄▀▀[0m      [1;30m█[0m            [1;30m              [0m              [1;30m█[0m
 [1;30m▀▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀▀▀▀ [0;35m▀▀   [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
               [1;30m░░░[0m     [1;30m░  ▄█[0;1;30;47m▓[0;1;30;40m██▀▀▀▀    [0;32m░   [0;31m▐▓█[0;1;31;41m░[0;31m▄   [0;32m░[0m         [32m░░▒▓▓▒░▒▓█▌ [0;31m▀▀▒▓█[0;1;31;41m░[0;31m██[0m
           [1;30m░   [0m▄▄ ▀ [1;30m░░ ▄▄▀▀▀    [0;32m░░░ ░░    [0;31m▄█[0;1;31;41m░░[0;31m▓▌ [0;32m░░ ░ ░  ░  ░▒▒▒▒▓▓▒▒▓▓█  [0;31m░▒▀▄█▀[0;1;31;41m░[0m

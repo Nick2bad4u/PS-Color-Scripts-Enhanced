@@ -5,7 +5,7 @@
 # Source SHA-256: 679ade18cf1d22dc424de659dd370ac697fa21cdf7aee89ec0501eddd005d6db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-PRAYR.ANS by Smooth (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Prayer
 # SAUCE Author: Smooth
 # SAUCE Group: ACiD Productions
@@ -43,7 +43,7 @@ Write-Host '
 [1;36;40m▀█▄▄[0;1;36;46m█▓[0;1;32;46m▒[0;1;36;46m██[0;1;36;40m█▄█[0m        [1;36;40m▀█▄▄[0;1;36;46m█▓[0;1;32;46m▓[0;1;36;46m██[0;1;36;40m█▄█[0m    [1;36;40m▀█[0m       [35m▀▀▀▄▄▄▄▀▀[0m   [1;36m▀█▄▄[0;1;36;46m█▓[0;1;32;46m▓[0;1;36;46m██[0;1;36;40m█▄█[0m    [1;36;40m▀█[0m
 
 [35m█▄[0;1;37m [0;35m▒[0;1;37m [0;1;30m▄[0;1;37;47m▄[0m█▀ ▄[1;47m■[0m▀ [1ms[0m y s o p   -   c h r o m a t i k  .  b l a h [1m![0m ▀[1;47m■[0m▄ ▀[1;47m▄[0m█[1;30m▄[0;1;37m [0;35m▒[0;1;37m [0;35m▄█[0m
-[35m███▓ [0m [37m▀[0m  [37m█[0;1;37m█[0;1;37;47m▒[0m  [1;37;40mn [0mi n e - z e r o - e i g h t - 3 9 o - 1 4 8[1m o[0m  [1;47m▒[0;1;40m█[0m█ ▀  [35m ▓███[0m
+[35m███▓ [0m [37m▀[0m  [37m█[0;1;37m█[0;1;37;47m▒[0m  [1;37;40m  [0m                                           [1m  [0m  [1;47m▒[0;1;40m█[0m█ ▀  [35m ▓███[0m
 [1;35;45m ░░[0;35m██▄▄▒[0m  [37m▀[0;1;30;47m▄[0;1;30;40m▀[0m   [35m░[0m                                        [35m░[0m    [1;30m▀[0;1;30;47m▄[0m▀  [35m▒▄▄██[0;1;35;45m░░ [0m
 [35m█[0;1;35;45m▒▓▓▄[0;35m██▓██▄▄▄█[0m  [35m▒▄[0m                                      [1;35;45m░[0;35m▒▄[0m  [35m█▄▄▄██▓██[0;1;35;45m▄▓▓▒ [0m
 [35m██[0;1;35;45m▀▀██ [0;35m███████ █▓[0;1;35;45m▓[0;35m▄[0m  [35m▄[0m [37m▄▄▄[0;1;30m▄[0m  [1;30macid productions[0m  [1;30m▄[0m▄▄▄ [35m▄[0m  [35m▄[0;1;35;45m▓[0;35m▓██[0m [35m███████[0;1;35;45m ██▀▀[0;35m██[0m

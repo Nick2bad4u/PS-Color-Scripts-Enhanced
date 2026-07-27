@@ -5,13 +5,12 @@
 # Source SHA-256: da5990277bde44b485dcd09341ff47beb2dea44750b522178dde18bde0dc1868
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SIEZ.ANS by Drax + Kresile (wax-01); released in wax-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
 Write-Host '
-[35m  [0;37m [0;1;37m [0m         [1m [0m    [1m [0m   
-[35m     [0;37m [0;1;37m [0m      [1m [0m       [1;35m          ┌┌┐┐   [0m
+[35m[0;37m[0;1;37m[0m[1m[0m[1m[0m[35m     [0;37m [0;1;37m [0m      [1m [0m       [1;35m          ┌┌┐┐   [0m
 [35m                  [0;1;35m_.,,┌┌┌┌@@P''[0;32m .┌┐.[0;1;35m`7@@┐┐┐,,.[0;35m  _.┌┐._      .,┌S@┐. [0;1;35m.,, [0;32m .┌┌.[0;1;35m .,[0m
 [35m [0;1;35m     _.,,,┌┌6[0;1;35;45m6[0;1;35;40mP'' `''²└66[0;1;35;45m666[0;1;35;40m6: [0;32m:S[0;1;32;42m$$[0;32mS:[0;35m [0;1;35m:6[0;1;35;45m66[0;1;35;40m6P''[0;35m.┌S[0;30;45m$[0;35;40mP┘└7[0;30;45m$[0;35;40m#┐.,@$[0;30;45m$$[0;35;40mP''7[0;30;45m$[0;35;40m$b[0;1;35;40m ` [0;32m.d$[0;1;32;42m$$[0;32mS:[0;1;35m ;.[0m
 [35m [0;1;35m  .dP²''²┘7[0;1;35;45m66[0;1;35;40mP''[0;35m.┌@SS@┐.[0;1;35m`76[0;1;35;45m66[0;1;35;40m6P[0;35m [0;32m`''''`[0;1;35m.d6[0;1;35;45m66[0;1;35;40m6P''[0;35m┌[0;30;45m$[0;35;40m$P''[0;1;35;40m┌┐[0;35m `7$$$$P²''[0;1;35m.s''[0;35m:S$$S [0;32m''[0;1;35m [0;32m`''''²`[0;1;35m.[0;1;35;45m66[0;1;35;40m:[0m

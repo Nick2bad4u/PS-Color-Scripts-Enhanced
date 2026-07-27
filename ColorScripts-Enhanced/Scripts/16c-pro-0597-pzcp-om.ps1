@@ -5,14 +5,13 @@
 # Source SHA-256: 73fe7dd5388f27b472a507e36c94a50b89fde00c4258e31eae0f5a5fe8359b61
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PZCP!OM.ANS by Otium Man (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
 Write-Host '
 
-                       [34m          [0m                [34m          [0m
-          [34ms$ⁿⁿⁿⁿⁿⁿⁿⁿ$ $ [0;1;35m$$$$[0;35m$$a[0;34m`$$[0m          [34m,s$$$''[0;1;35m,ss[0;35mS$P [0;34m$$[0m
+[34m[0m[34m[0m          [34ms$ⁿⁿⁿⁿⁿⁿⁿⁿ$ $ [0;1;35m$$$$[0;35m$$a[0;34m`$$[0m          [34m,s$$$''[0;1;35m,ss[0;35mS$P [0;34m$$[0m
 [34m    s$ⁿ°°$ⁿ''[0;1;35m$$[0;35m$$$$$$[0;34m`$ [0;1;35m$$$$$$$$[0;35m$ [0;34m$[0m       [34m,s$ⁿ°[0;1;35m,sS$$$$$[0;35m$ [0;34m$$[0m
 [34m   $P[0;1;35m,sS[0;35m$a[0;1;35m$$$$$$$$$[0;35m$$ [0;1;35m$$$$ⁿ°°ⁿ$[0;35m$[0;1;34;44m░[0;34m$    s$$ⁿ°[0;1;35m,sS$$$$$$$[0;35m$ [0;34m$$[0m
 [34m   $ [0;1;35m$$$$$$$$$ⁿ"°ⁿ$$[0;35m$$ [0;1;35m$$[0;35ml[0;34m`$$[0;1;35m,$[0;35m$ [0;34m$  s$ⁿ[0;1;35m,sS$$$$$$$$$$[0;35m$[0;34m,$ⁿⁿⁿⁿⁿ$$$[0m
@@ -26,6 +25,4 @@ Write-Host '
           [34m$a[0;1;35m`$$$$[0;35m$$[0;1;35m`°[0;35mⁿ [0;34m$ⁿ[0;1;35m,$$$$[0;35mP[0;34m,$''[0m          [34m$P [0;1;35m$s,`°ⁿ$[0;35m$ [0;34m$$ [0;1;35m$[0;1;35;45m▒[0;35m$ [0;1;35m$$[0;35ma.[0;34m`ⁿⁿⁿ°[0;1;35m,$$[0;35m''[0;34m,$[0m
            [34m$a[0;1;35m`$$$$[0;35m$$[0;34m`$$$a[0;1;35m`°ⁿ$[0;35m°[0;34m,$''[0m           [34m$ [0;1;35m$$[0;1;35;45m▒[0;1;35;40m$[0;35m$ [0;34m$a[0;1;35m`[0;35m° [0;34m$ [0;1;35m$$[0;35m$ [0;1;35m`$$$[0;35mSssS[0;1;35m$$[0;35m$''[0;34m,$$[0m
             [1;34;44m▒[0;34ma[0;1;35m`$$[0;1;35;45m░[0;1;35;40m$$[0;35m$sa.[0;34m`$$$s$''[0m             [34ma[0;1;35m`$$$S[0;35mⁿ[0;34m,$`$$$$a[0;1;35m`$[0;35m$ [0;34m$a[0;1;35m`°ⁿ$$$ⁿ[0;35m°[0;34m,sS''[0m
-             [34m  [0;1;35m       [0;35m [0;34m  [0m                   [34m        [0m      [34m  [0;1;35m [0;35m  [0;34m            [0m
-              [34m  [0;1;35m     [0;34m   [0m        [1;35m  [0;35m        [0;1;35m [0m                [34m  [0;35m [0;34m               [0m
-              [34m$ⁿ[0;1;35m,$''[0;34m,$$''[0m                                     [34m`$$''[0m'
+[34m[0;1;35m[0;35m[0;34m[0m[34m[0m[34m[0;1;35m[0;35m[0;34m[0m[34m[0;1;35m[0;34m[0m[1;35m[0;35m[0;1;35m[0m[34m[0;35m[0;34m[0m              [34m$ⁿ[0;1;35m,$''[0;34m,$$''[0m                                     [34m`$$''[0m'

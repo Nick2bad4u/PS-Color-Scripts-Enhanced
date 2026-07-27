@@ -5,13 +5,12 @@
 # Source SHA-256: 8837663bba9f500d42aea31fb505736e2e4577c304873d62b4fdc7b75962bd4e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REP!FLSH.ANS by Reptical (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
 Write-Host '
-[34m    [0;35m       [0;34m [0m           [1;34m         [0;35m [0;1;34m     [0;35m [0;1;34m [0m
-[1;34m`   [0m     [35m.[0;1;34m  [0m             [31m//[0;1;34m [0;33m_.[0;1;31m,┌[0;1;34m        [0m                                   [31m//[0;1;34m  [0m
+[34m[0;35m[0;34m[0m[1;34m[0;35m[0;1;34m[0;35m[0;1;34m[0m[1;34m`   [0m     [35m.[0;1;34m  [0m             [31m//[0;1;34m [0;33m_.[0;1;31m,┌[0;1;34m        [0m                                   [31m//[0;1;34m  [0m
 [1;34m.               [0;34m∙[0;1;34m  [0;35m_.,▬┌[0;1;34m*@b.[0;33m`[0;1;31m4[0m$l[1;31m [0;1;34m    [0;35m [0;1;34m    [0;34m,[0;35m_[0;1;34m__  [0;33m,d[0;1;31mb.[0;1;34m  _.,[0;35m▬┬▬,._            [0;1;34m_[0;35m.,┌[0m
 [1;34ml      [0;35m_[0;1;34m           [0;35m~ⁿ*[0;1;34m$$$$$$b.[0;33m`[0;1;31m:[0;1;34m     .     [0;35m`4[0;1;34m$b.[0;33m`[0;1;31m4P`[0;1;34m.d$$$$$$$$$$b%[0;35m*┐▬▬┌*[0;1;34m%@$$$P[0;35m┘[0m
 [1;34m$    [0;35m  l[0;1;34m$$S@g┐.        [0;35m"4[0;1;34m$$$$$k      lb.     [0;35m`4[0;1;34m$b.,d$$7*┘ⁿ"[0;35m^`~`[0;1;34m^"ⁿ└*4$$$$7┘ⁿ` [0;33m,[0m

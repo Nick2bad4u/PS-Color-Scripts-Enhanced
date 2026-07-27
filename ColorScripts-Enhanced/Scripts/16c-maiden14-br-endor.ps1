@@ -5,7 +5,7 @@
 # Source SHA-256: 9fb6316ab67923876302384500bee5f491938f0c32e8cc3fd25cac202d7b6984
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BR-ENDOR.ANS by beerfull (maiden); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Endor logo
 # SAUCE Author: beerfull
 # SAUCE Group: maiden
@@ -33,15 +33,7 @@ Write-Host '
 [36;40m██████████▀▀▀▀▀▀▀▀▀▀▀[0;30;46m▓▓[0m      [1;30;40m+o guga[0m              [1;32m░░░[0m     [32m▀▀▀▀▀▀▀▀▀▀████[0;30;42m▓▓[0m
 
 
-[1;30;40m─<beerfull@hotmail.com>-─-─-──--─-─-─-─-─-─-─--─-─-─-----─-──--─--────────-──-─-[0m
+[1;30;40m─                       ─ ─ ──  ─ ─ ─ ─ ─ ─ ─  ─ ─ ─     ─ ──  ─  ──────── ── ─ [0m
 
-[1;35m [0;35m     [0;1;35m  [0;1;30m                       [0m
-[1;35m [0;35m        [0;1;35m [0m [1;30m                                      [0m
-[1;35m [0;35m     [0;1;35m [0m [1;30m                                                [0m
-[1;35m [0;35m        [0;1;35m  [0;1;30m                                             [0m
-[1;35m [0;35m     [0;1;35m [0m [1;30m                                                      [0m
-[1;35m [0;35m        [0;1;35m [0;1;30m             [0m
-[1;35m [0;35m     [0;1;35m [0m [1;30m     [0m
-[1;35m [0;35m        [0;1;35m [0;1;30m      [0m
-
-[1;30m─-──--─-─-─-─-─-─-─--─-──-─-──--─-─-─-─-─-─-─--─-─-─----─<beerfull@hotmail.com>-[0m'
+[1;35m[0;35m[0;1;35m[0;1;30m[0m[1;35m[0;35m[0;1;35m[0m[1;30m[0m[1;35m[0;35m[0;1;35m[0m[1;30m[0m[1;35m[0;35m[0;1;35m[0;1;30m[0m[1;35m[0;35m[0;1;35m[0m[1;30m[0m[1;35m[0;35m[0;1;35m[0;1;30m[0m[1;35m[0;35m[0;1;35m[0m[1;30m[0m[1;35m[0;35m[0;1;35m[0;1;30m[0m
+[1;30m─ ──  ─ ─ ─ ─ ─ ─ ─  ─ ── ─ ──  ─ ─ ─ ─ ─ ─ ─  ─ ─ ─    ─                       [0m'

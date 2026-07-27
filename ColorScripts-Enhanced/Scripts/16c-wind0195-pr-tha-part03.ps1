@@ -5,7 +5,7 @@
 # Source SHA-256: c47b23cee36ff2dfedbddcf7bbe4ef4754936cceff8a5f33cdf1bb0162402630
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR-THA.ANS by Pr0phet (WiND `95); released in wind0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Heretic Asylum
 # SAUCE Author: Pr0phet
 # SAUCE Group: WiND `95
@@ -42,17 +42,10 @@ Write-Host '
                     [1;30m░[0m              [1;30m░[0m                 [1;30m▒[0m
                                                      [1;30m░[0m
 
-                            [1;30m        [0m  [1;30m    [0m  [1;30m        [0m  
-                               40[1;30m4 · [0m94[1;30m7 · [0m25[1;30m00[0m
-                              [1;30m      [0m  [1;30m [0m        [1;30m   [0m
-
-                     [1;30m    [0m  [1;30m    [0m  [1;30m        [0m  [1;30m       [0m  [1;30m     [0m  [1;30m [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m                               40[1;30m4 · [0m94[1;30m7 · [0m25[1;30m00[0m
+[1;30m[0m[1;30m[0m[1;30m[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
 
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-  [1;30m                          [0m  [1;30m                                            [0m  [1;30m    [0m
-[1;30m                                                                    [0m  [1;30m          [0m
-[1;30m                              [0m  [1;30m                             [0m  [1;30m                 [0m
-[1;30m                     [0m  [1;30m                                           [0m  [1;30m           [0m 
-[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌[0m■[31m<┐W/┤R[0;37m■[0;1;30m▐▀▀[0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌[0m■[31m<┐W/┤R[0;37m■[0;1;30m▐▀▀[0m
 P R I N C E  O[1m [0mF  W i N D  [1mP [0mr o d u c t i o n s   [1m1 [0m9 9 5   [1mφ[0m      [1;30m▌05[0;31m│[0;1;30m20[0;31m│[0;1;30m94▐[0m'

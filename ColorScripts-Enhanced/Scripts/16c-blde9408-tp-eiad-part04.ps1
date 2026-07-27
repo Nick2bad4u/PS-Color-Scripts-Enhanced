@@ -5,7 +5,7 @@
 # Source SHA-256: 6f7781fdc3ef28f1ed246d2af5131818f114ccf3855f51ae81caf154a0fd1c2b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-EIAD.ANS by Technophreak (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 115-152
 # Columns: 1-80
 
@@ -32,6 +32,4 @@ Write-Host '
          [36mE·T·E·R·N·A·L[0m       [36m▀   I·N·S·A·N·I·T·Y[0m
 
 
- [1m            [0m 
-   [1m [0m              [1m [0m          [1m [0m          [1m [0m                                   
-   [1m [0m            [1m [0m      [1m [0m          [1m   ┤   [0m                      [0m'
+[1m[0m[1m[0m[1m[0m[1m[0m[1m[0m   [1m [0m            [1m [0m      [1m [0m          [1m   ┤   [0m                      [0m'

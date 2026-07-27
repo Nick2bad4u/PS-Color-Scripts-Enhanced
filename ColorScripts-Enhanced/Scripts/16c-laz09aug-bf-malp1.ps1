@@ -5,7 +5,7 @@
 # Source SHA-256: 39848d81a42d97a01021930a6c34b288ee8c3ea226fc180a2b4b9cc3797aa7b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-MALP1.ANS by Boba Fett (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Malpractice
 # SAUCE Author: Boba Fett
 # SAUCE Group: lazarus
@@ -36,14 +36,6 @@ Write-Host '
                  [1;32m [0m   [1;32m▐▌[0m                                         [1;33m▐[0m  [1;31m▀[0;31m▀▀[0m
                  [37m  [0;1;32m■[0m [1;32m▀[0m                                           [1;33m▀[0m [1;33m■[0m
 [1;30m--------------------------------------------------------------------------------[0m
-                                                                                
-                                                                            
-                        
 
-                                                           [1m         [0;1;32m  [0;1;37m   [0;1;32m [0;1;37m   [0;1;32m [0m
-                                                                              
-
-                                                                                
-                                                                                
-                                 
+[1m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0m
 [1;30m--------------------------------------------------------------------------------[0m'

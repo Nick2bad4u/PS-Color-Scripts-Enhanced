@@ -5,7 +5,7 @@
 # Source SHA-256: ade21c9fbf947383b78789ff64f4bc41090569ce76689ba6d1204d81957bcca4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-NTG.ICE by Stiletto (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 35-82
 # Columns: 1-80
 
@@ -49,11 +49,7 @@ Write-Host '
           [1;30;40m▒[0;1;37;47m░[0m▄▄▄[1;47m░[0m  [1;30;40m▒[0;1;37;47m░[0m    [1;37;47m░[0m  [1;30;40m▒[0;1;37;47m░[0m▄▄▄▄[1;47m░[0m  [1;30;40m▒[0;1;37;47m░[0m▄▄▄ [1;47m░[0m  [1;30;40m▒[0;1;37;47m░[0m    [1;37;47m░[0m  [1;30;40m▒[0;1;37;47m░[0m▄▄▄▄[1;47m░[0m  [1;30;40m▒[0m▄▄▄▄[1;47m░[0m
           [1;30;40m░[0m       [1;30;40m░[0m        [1;30;40m░[0m        [1;30;40m░[0m        [1;30;40m░[0m        [1;30;40m░[0m        [1;30;40m░[0m
 
-        [1;30m                                                                [0m 
-
+[1;30m[0m
                [1;32mT[0;1;30m∙[0;1;32mH[0;1;30m∙[0;1;32mE   N[0;1;30m∙[0;1;32mE[0;1;30m∙[0;1;32mV[0;1;30m∙[0;1;32mA[0;1;30m∙[0;1;32mD[0;1;30m∙[0;1;32mA   T[0;1;30m∙[0;1;32mE[0;1;30m∙[0;1;32mS[0;1;30m∙[0;1;32mT[0;1;30m∙[0;1;32mI[0;1;30m∙[0;1;32mN[0;1;30m∙[0;1;32mG   G[0;1;30m∙[0;1;32mR[0;1;30m∙[0;1;32mO[0;1;30m∙[0;1;32mU[0;1;30m∙[0;1;32mN[0;1;30m∙[0;1;32mD[0;1;30m∙[0;1;32mS[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;32m     [0;32m  [0;1;37m          [0;32m  [0;1;32m     [0;32m  [0;1;37m         [0;1;30m [0m [1m  [0;1;30m  [0;32m   [0;1;32m   [0;32m  [0;1;37m   [0;32m [0;1;37m     [0;32m  [0;1;37m [0;32m [0;1;37m  [0m               
-           [1;32m  [0;32m [0;1;32m [0;32m  [0;37m              [0;32m  [0;37m  [0;32m [0;37m      [0;32m  [0;1;37m [0m [1m [0m [1m  [0;32m [0;1;37m  [0m                          
-[1m      [0m    [1;32m   [0;32m [0;1;32m    [0;32m  [0;1;32m    [0m             [32m  [0;1;32m    [0m            [32m  [0;1;32m    [0m                 [1m [0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m'
+[1;32m[0;32m[0;1;37m[0;32m[0;1;32m[0;32m[0;1;37m[0;1;30m[0m[1m[0;1;30m[0;32m[0;1;32m[0;32m[0;1;37m[0;32m[0;1;37m[0;32m[0;1;37m[0;32m[0;1;37m[0m[1;32m[0;32m[0;1;32m[0;32m[0;37m[0;32m[0;37m[0;32m[0;37m[0;32m[0;1;37m[0m[1m[0m[1m[0;32m[0;1;37m[0m[1m[0m[1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0m[32m[0;1;32m[0m[32m[0;1;32m[0m[1m[0m[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

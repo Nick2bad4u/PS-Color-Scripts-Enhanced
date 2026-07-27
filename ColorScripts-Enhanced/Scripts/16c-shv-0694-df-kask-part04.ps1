@@ -5,7 +5,7 @@
 # Source SHA-256: c3b29b8707cd16facb2ea14e7b00e3a1bf9054e6add551bcb8bfe6aeaa70e73b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DF-KASK.ANS by Darkfire (shv-0694); released in shv-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 128-168
 # Columns: 1-80
 
@@ -41,7 +41,7 @@ Write-Host '
 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m│[0m                                             [1;30m│[0;34m▄  ▄ ▀▄█▄▄▀ ▀  ▄▄▄[0m
 [1;30m───────────────┼────[0;1;37mC  [0;1;32mL  [0;32mO  [0;1;30mS  E  D    K  A  S  [0;32mK  [0;1;32mI  [0;1;37mT[0;1;30m─────┼──────────────────[0m
                [1;30m│[0m                                             [1;30m│[0m
-       [1;37m█[0m       [1;30m│   [0;1;37m6  [0m1  3   [1;30m-   7  4  6   -   5  [0m4  8  [1m6    [0;1;30m│[0m        [1;37m█[0m
+       [1;37m█[0m       [1;30m│   [0;1;37m   [0m       [1;30m                     [0m      [1m     [0;1;30m│[0m        [1;37m█[0m
       [1;37;47m██[0;1;37;40m█[0m      [1;30;40m│[0m                                             [1;30;40m│[0m       [1;37;40m█[0;1;37;47m█[0;1;37;40m█[0m
      [1;37;47m ░▓██[0m     [1;30;40m│[0m       [1;37;40m⌂ [0;1;34;40mSys[0;34mOp : [0;1;30mAUDiO MiX [S[0;34mHIV[0;1;34mER] [0;1;37m⌂[0m        [1;30m│[0m      [1;37m█[0;1;37;47m█▓▒░[0m
 [1;37;40m    [0;1;30;47m▒░ [0;1;37;47m░▒▓█[0m    [1;30;40m│[0m      [1;37;40m⌂ [0;1;34;40mCoS[0;34mys : [0;1;30mWyvern [DST co[0;34muri[0;1;34mer] [0;1;37m⌂[0m       [1;30m│[0m     [1;37m█[0;1;37;47m█▓▒░ [0;1;30;47m░[0m

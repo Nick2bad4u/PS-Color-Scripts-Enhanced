@@ -5,7 +5,7 @@
 # Source SHA-256: 785637958fa13006d8f624ffd179802da7a81f7efa2fe64977ceaa934d0d8247
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_HEAD2.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: brOmsgrOve
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -27,17 +27,4 @@ Write-Host '
          [31m░░[0m    [31m▄[0;1;30m ░▒[0;1;30;47m▄▄[0;1;30;40m▓▄ [0m
               [31m░[0;31;43m▓[0;31;40m▄▄▄[0;1;30;40m ░▒▄▄▄[0m
                 [31m▀▒[0;31;43m▓[0;31;40m░[0;1;30;40m  ▀[0;1;30;47m▄▄[0;1;30;40m▓▓▄ [0m
-                  [31m░░░[0m         [1;30m░░[0m
-
-
-
-
-
-
-
-
-
-
-
-
-[1;30m-----------░░---░------------------------------------------[shnip]--------------[0m'
+                  [31m░░░[0m         [1;30m░░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 852b3e11fc979424931a1f0bfc56b9379515071f97bbaa082519c67988b35b3e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PREV1.ANS by Mr Wrong + Spear (the used coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Prevail
 # SAUCE Author: spear/mrwrong
 # SAUCE Group: the used coalition
@@ -16,9 +16,7 @@
 
 Write-Host '
 
-                [1;30m                                              [0m
-       [33m [0m       [1;30m                                                     [0m
-      [33m [0;37m [0;33m▀[0m             [1;30m [0;33m▄[0;1;30m         ░                      [0m
+[1;30m[0m[33m[0m[1;30m[0m      [33m [0;37m [0;33m▀[0m             [1;30m [0;33m▄[0;1;30m         ░                      [0m
  [1;30m▄[0;33m [0m     [33m ▀▄▄  ▄[0;37m [0;33m▀[0m        [33m  [0m         [1;30m [0m        [34m▀[0m
    [1;30m▀▄▄[0m  [1;34m░[0m  [33m▀[0;1;33;43m░▄[0;33m▌[0m        [1;34m░[0;33m▀        [0;1;30m░[0;33m [0;1;30m  [0m [1;30m    [0;34m▄▄▀[0;37m    [0m        [1;30m  [0;33m [0m
     [1;30m▐[0;1;30;47m▄[0;1;30;40m▀▀[0;1;34;40m▒[0m [33m▄▄ ▀▓▄[0m     [1;30m░[0m [1;34m▒[0;33m ▀▄▄ ░ [0;1;30m  ▒    [0;1;34m▄[0m▄[1;34;47m▓▓[0;1;34;44m▓▒░[0;34m▒░[0;1;30m▄[0;34m░[0;1;30m [0m [33m▄▄[0;37m [0;33m▀▀[0;37m  [0;33m  [0m
@@ -52,6 +50,4 @@ Write-Host '
                [33m ▄▄[0;37m [0;33m▀▀[0m   [1;30m▀[0m ░     [33m  [0m            [33m▀[0;37m    [0;33m▀▀ ▀▀▄▄[0;37m  [0;1;33m░[0m [33m░[0;37m [0;33m▀[0;37m [0;33m▄[0;1;30m▀▀▄▄[0m
                        [1;30m▀[0m                       [33m▀[0m          [33m▀[0m             [1;30m▀▀[0m
                                                            [33m▀[0m
-     [1;30m                                                     [0m
-     [1;30m                                                        [0m
-                     [1;30m--------------- - -[uSed] [0m'
+[1;30m[0m[1;30m[0m                     [1;30m--------------- - -[uSed] [0m'

@@ -5,15 +5,15 @@
 # Source SHA-256: b90ba710acbdbdf82893ba033101554f1caeb8f8957b9bfd82c516b63b71e0b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Q.ANS by Mako (elp-0297); released in elp-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
 [1;30mC A L L   N [0;35m▄▄[0;1;32;45m▄▄▄▄▄[0;32;45m▄[0;1;32;45m▄[0;32;45m▄▄[0;35;40m▄▄ [0;1;30;40mN O W . C A L L   N O W . C A L L   N O W . C A L L :[0m
         [35m▄[0;32m▄[0;32;45m▄[0;1;32;42m▀▀░░░ ░ ░ ░ [0;32m██▓[0;35;42m▀[0;35;40m▄[0m
-      [35;40m▄[0;32;45m▄[0;1;32;42m▀░░░    ░[0;32m█[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m██▓[0;35;42m▀[0;35;40m▄[0m       [37;40m2 NoDES RiNGDoWN[0;1;30;40m: +[0m1[1;30m-[0m234[1;30m-[0m56[1;30m-[0m788  [35m▄[0;1;35;45m░▒[0m
-     [35m▄[0;1;32;42m▌░░  [0;32m▓[0;32;45m▀▀[0;35;40m▀▀▀▀▀▀▀[0;32;45m▀▀[0;1;32;42m░ ░[0;32m█[0;1;32;42m░[0;32m█▓[0;35;42m▀[0;35;40m▄[0m                       [1;30;40m+[0m1[1;30m-[0m234[1;30m-[0m56[1;30m-[0m789  [1;35;45m░▒[0m
+      [35;40m▄[0;32;45m▄[0;1;32;42m▀░░░    ░[0;32m█[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m██▓[0;35;42m▀[0;35;40m▄[0m       [37;40m                [0;1;30;40m   [0m [1;30m [0m   [1;30m [0m  [1;30m [0m     [35m▄[0;1;35;45m░▒[0m
+     [35m▄[0;1;32;42m▌░░  [0;32m▓[0;32;45m▀▀[0;35;40m▀▀▀▀▀▀▀[0;32;45m▀▀[0;1;32;42m░ ░[0;32m█[0;1;32;42m░[0;32m█▓[0;35;42m▀[0;35;40m▄[0m                       [1;30;40m [0m [1;30m [0m   [1;30m [0m  [1;30m [0m     [1;35;45m░▒[0m
 [1;35;40m    [0;35m█[0;1;32;42m▌░░ [0;32m▓[0;32;45m▀[0;35;40m▀   [0;37;40mG[0;1;30;40mAME[0mS   [35m█[0;35;42m [0;1;32;42m░░ ░ [0;32m▓[0;35;42m▐[0;35;40m▌[0m               [37;40mSYS0P[0;1;30;40m: <[0mal kaholic[1;30m>   [0;1;35;45m░▒[0m
 [1;35;40m   [0;35m█[0;1;32;42m▌░ ░ [0;32;45m▀[0;35;40m▌[0m      [1;30;40m·[0m      [35m█[0;1;32;42m▌▒░▒░[0;32m█[0;32;42m [0;35;40m█[0m                  [37;40mC0[0;1;30;40m: <[0mjim nasium[1;30m>   [0;1;35;45m░▒[0m  [35m▐[0;1;35;45m▒[0;35m▌[0m
 [35m   █[0;1;32;42m▌░░ [0;32m▓[0;35m█[0m     [37mD[0;1;30mEMO[0mS    [35m▐[0;1;32;45m▐[0;1;32;42m▒▒░▒░ [0;35m█[0m                                     [1;35;45m░▒[0m

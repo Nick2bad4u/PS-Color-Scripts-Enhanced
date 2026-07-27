@@ -5,7 +5,7 @@
 # Source SHA-256: 0ceaee19ca5cad44834004a9ed6ba582bc3537e90bb4220afab4958365125979
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mrb - TheVault.ans by Mr.R0b070 (HPM); released in hpm-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Vault
 # SAUCE Author: Mr.R0b070
 # SAUCE Group: HPM
@@ -17,10 +17,7 @@
 
 Write-Host '
 
-[31m               [0;37m                                [0;31m                                [0m
-[37m  [0;31m                         [0;37m               [0;31m                                     [0m
-[37m  [0;31m         [0;37m [0;31m                  [0;37m                              [0;31m              [0;37m [0;31m    [0m
-
+[31m[0;37m[0;31m[0m[37m[0;31m[0;37m[0;31m[0m[37m[0;31m[0;37m[0;31m[0;37m[0;31m[0;37m[0;31m[0m
 
 
 

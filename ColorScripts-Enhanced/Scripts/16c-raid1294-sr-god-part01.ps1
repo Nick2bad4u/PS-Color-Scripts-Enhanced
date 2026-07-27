@@ -5,7 +5,7 @@
 # Source SHA-256: b34d1bb2ecde0d7c7af5bc151963832c21c1a419131513808f4fedb308422842
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-GOD.ANS by Silver Reaper (RAiD); released in raid1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Twilight of The Gods
 # SAUCE Author: Silver Reaper
 # SAUCE Group: RAiD
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                [1;30m [0m [1;30m                                             [0m 
-                                    [35m▄█▄  [0;32m▄▄▄▄[0;36m▄▄▄[0m      [1;36m░[0m
+[1;30m[0m[1;30m[0m                                    [35m▄█▄  [0;32m▄▄▄▄[0;36m▄▄▄[0m      [1;36m░[0m
                        [36m░   ▄▄▄[0;32m▄[0;32;46m▒▓▓█[0;32;40m▄▄[0;36;40m▄▄ [0;32;40m▀[0;32;46m█▓▓▒▒░░  [0;1;36;46m░▒[0;1;36;40m▄ ▒[0m
                        [36m▒▄[0;36;46m  [0;32;46m░░▒▒▓▓██▓▓▒▒░░[0;36;40m▄▄[0;32;40m▀[0;32;46m▓▒▒░░  [0;1;36;46m░░▒[0;1;36;40m▓[0m
                       [36m▄▓[0;36;46m  [0;32;46m░░▒▒▓▓██▓▓▒▒░░  [0;1;36;46m░[0;36m▀[0;32m▄[0;32;46m▓▒▒░░  [0;1;36;46m░░▒[0;1;36;40m▌[0m

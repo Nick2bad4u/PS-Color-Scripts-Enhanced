@@ -5,7 +5,7 @@
 # Source SHA-256: da3a087083ca182af7bd95acaa6ea1255d6abda684937949c0852f601a3f7fec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-Z2XUL.ANS by Alla Xul + Zeus Ii (epic/bhood); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: epic girl
 # SAUCE Author: alla xul/zeusII
 # SAUCE Group: epic/bhood
@@ -35,7 +35,6 @@ Write-Host '
               [1;30malla xul[0m               [1;36m▐▀▐▌[0m   ▀ ▀      ░░░▀▀▓▓▓ ▌       [1;30m▒▒▒[0m   [1;36m▐[0m
                                       [36m [0;1;36m▐[0m                    ▀             [1;30m▄[0m
                                        [1;36m▌[0m
-                                                            
                                       [1;36m▐[0m
                                            [33m▄[0;37m [0;33m▄▄▄▄[0m
                                 [1;33m [0;33m▄▄[0;1;33m▄▄[0;1;33;43m▄▄▄[0;1;33;40m█████████████[0;1;33;43m▄▄▄[0;1;33;40m▄▄[0;33m▄[0m

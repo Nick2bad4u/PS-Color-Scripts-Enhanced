@@ -5,7 +5,7 @@
 # Source SHA-256: c3fa1c0e661c86f903bc07b0870df75f6c8e148837e3e4265f9161fe3f371f48
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-UC!.ANS by Phobiuh + Ize (fusion & ???????); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: uc
 # SAUCE Author: Multiple Artists
 # SAUCE Group: fusion & ???????
@@ -16,8 +16,7 @@
 
 Write-Host '
 [36m  [0m                        [31m▐[0m
-[37m   [0;1;30m                 [0m
-   [1;30m                       [0;31m▐[0m    [37m [0;1;37m [0m▄               [1m   [0m
+[37m[0;1;30m[0m   [1;30m                       [0;31m▐[0m    [37m [0;1;37m [0m▄               [1m   [0m
                           [31m▐[0;1;37m    [0m▄[1;47m▄[0;1;40m██▄  [0m    [1m  [0m▄[1m▄▄[0;1;47m▄[0;1;40m███████▄▄▄[0m      [31m▌[0m
         [31m [0m     [1;37m       [0m▄[1m   [0;31m █[0;1;37m [0m▄[1;47m▄[0;1;40m████████▄  [0m▄[1;47m▄[0;1;40m█████████████████▄ [0m [31m [0m
              [1;37m [0m▄[1m▄   [0m▄[1;47m▄[0;1;40m█[0;1;47m▄[0m▄[1m [0;31m░█[0;1;37m [0;1;37;47m [0;1;37;40m███████████[0m▐[1;47m▐[0;1;40m█████[0;1;46m▓▓[0;1;40m▀ [0;1;46m▓[0;1;40m█████████▌[0m [31m ▌[0m

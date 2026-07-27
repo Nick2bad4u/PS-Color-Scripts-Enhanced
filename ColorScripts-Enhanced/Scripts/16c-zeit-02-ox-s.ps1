@@ -5,17 +5,12 @@
 # Source SHA-256: e08a56e2fd9620adc92eddf817baa6398ea5e45bb15e547bb0b9bb1a7e991a3c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ox-s&.ans by 0xel (zeit_02); released in zeit_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-                                                                          
-                                                                          
-                                   [1m  [0;35m           [0;1;37m  [0m                        
-                               [1m [0;1;35m   [0;1;37m               [0;35m [0;1;37m  [0m                     
-                              [1;35m   [0;1;37m [0;1;36m                  [0;35m [0;1;37m  [0m                   
-ZZZZZ2il:∙''[1;35m _.,,▬▬┐┐┌┌▬▬,,._.dP[0;1;37m   [0;1;36m  ,y↕┘²"^"²┘↕y,   [0;1;37m [0;35m:[0;1;37m [0m:iil2ZZZZZZZZZZZZZZ
+[1m[0;35m[0;1;37m[0m[1m[0;1;35m[0;1;37m[0;35m[0;1;37m[0m[1;35m[0;1;37m[0;1;36m[0;35m[0;1;37m[0mZZZZZ2il:∙''[1;35m _.,,▬▬┐┐┌┌▬▬,,._.dP[0;1;37m   [0;1;36m  ,y↕┘²"^"²┘↕y,   [0;1;37m [0;35m:[0;1;37m [0m:iil2ZZZZZZZZZZZZZZ
         [1;35m   │ ↕  ┘┘    ┘┘  ↕↕   [0;1;37m   [0;1;36m                  [0;35m [0;1;37m [0m                    
 ZZ2li:'' [1;35mj│7 [0;31m [0;1;31m.┐┐yy%%%%ss┌┌▬. [0;1;37m     [0;1;36m`²/│#┌.        J: [0;1;37m    [0;36m..................[0m
 [37mZ2lli'' [0;1;37m [0;1;35m''/│#┐.[0;31m [0;1;31m''┘S│$$$$$$$$$:[0;1;37m     [0;1;36m    ''²/│#┌.  ,↕''  [0;1;37m    [0;36m:[0m

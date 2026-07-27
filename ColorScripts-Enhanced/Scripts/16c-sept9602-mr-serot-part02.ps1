@@ -5,7 +5,7 @@
 # Source SHA-256: 624a78a3c28ae84e46c1682ebed238fe941e2875c86aa937262bf342a19ea353
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-SEROT.ANS by Magnetic Rage (SEPTiC); released in sept9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Serotonin
 # SAUCE Author: Magnetic Rage
 # SAUCE Group: SEPTiC
@@ -50,11 +50,9 @@ Write-Host '
      [31m   [0;1;31m▒[0;31m  [0m    [1;30m  [0m     [31m     [0;36m  [0;31m   [0;1;30m [0;31m   [0;1;30m [0;31m    [0;1;30m [0;36m [0;1;30m  [0;31m       [0;1;30m [0;31m  [0;36m [0;31m [0m
         [1;31m▒[0m
        [1;30m [0;1;31m░[0;1;30m         [0m       [33m    [0;1;30m [0;33m  [0;1;30m [0;33m             [0;1;30m [0;33m [0;1;31m      [0;33m [0m
-[33m      [0;1;31m [0;1;30m  [0;33m           [0;1;30m [0;33m    [0;1;30m [0;33m   [0;1;30m [0;1;33m     [0;33m   [0;1;30m [0;33m  [0;1;30m [0;33m       [0;1;30m [0;33m        [0;1;30m [0;33m        [0;1;30m [0;33m           [0;1;30m [0m
-
+[33m[0;1;31m[0;1;30m[0;33m[0;1;30m[0;33m[0;1;30m[0;33m[0;1;30m[0;1;33m[0;33m[0;1;30m[0;33m[0;1;30m[0;33m[0;1;30m[0;33m[0;1;30m[0;33m[0;1;30m[0;33m[0;1;30m[0m
 [1;30m        [0;31m░[0;1;30m  [0m      [1;30m                                               [0m
-        [31m [0m   [31m [0;37m   [0;31m  [0;1;30m                                            [0m
-        [1;30m [0m
+[31m[0m[31m[0;37m[0;31m[0;1;30m[0m        [1;30m [0m
         [1;30m [0m
         [1;30m [0m
         [1;30m░[0m'

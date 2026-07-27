@@ -5,7 +5,7 @@
 # Source SHA-256: 02c0cf5d1cefaf006b4ad901c842e1f5da69712e9624711ee05a7b16eed1af3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-DI!.ANS by Fire Lord (eph0595); released in eph0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 96-124
 # Columns: 1-80
 
@@ -30,11 +30,7 @@ Write-Host '
                                                               [34m   [0m
 
 [1;30m▀▀[0m▀[1;30m▀[0m▀▀[1m▀[0m▀[1m▀▀[0m [1m▀[0m [1m▀[0m                                                    [1m▄[0m [1m▄[0m [1m▄▄[0m▄[1m▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄[0m
-               [1;30m               [0;1;37m [0;1;30m   [0m  [1m          [0m  [1;30m  [0m
-[1;30m▀▀[0m▀[1;30m▀[0m▀▀[1m▀[0m▀[1m▀▀[0m [1m▀[0m [1m▀[0m                                                    [1m▄[0m [1m▄[0m [1m▄▄[0m▄[1m▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄[0m
+[1;30m[0;1;37m[0;1;30m[0m[1m[0m[1;30m[0m[1;30m▀▀[0m▀[1;30m▀[0m▀▀[1m▀[0m▀[1m▀▀[0m [1m▀[0m [1m▀[0m                                                    [1m▄[0m [1m▄[0m [1m▄▄[0m▄[1m▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄[0m
 
-[1;37m  [0;1;30m                                                                            [0m
-  [1;30m                                                                            [0m
-[1;30m                                                                              [0m
-
+[1;37m[0;1;30m[0m[1;30m[0m[1;30m[0m
 [1;30m                        [0;1;37mF[0;1;30m [0;1;31mi[0;1;30m [0;31mr[0;1;30m e [0;31m [0;1;30m L o r d [0m [1;30m [0;1;37m[[0;1;30m [0;1;31mF[0;1;30m [0;31mE[0;1;30m A R ][0m'

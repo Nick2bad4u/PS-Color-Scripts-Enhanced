@@ -5,7 +5,7 @@
 # Source SHA-256: 5e3f493ebaabb4beb3a103f1029068a6974f0e636c9bb0657c7023c1c458ef84
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DN!-INQ4.ANS by dreadnought (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Inquest Header for wOe
 # SAUCE Author: dreadnought
 # SAUCE Group: phat studios '97
@@ -52,8 +52,6 @@ Write-Host '
 [1meof[0;1;30m─[0mwoe-0197.nws-[1;30m─────────────────────────────────────────────────────────────-[0m
 └─ [1;34m   [0;1;32m [0m                           
 
-       [1;30m [0m  [1;30m [0m   [1;30m [0m       [1;30m [0m     
-[1m           [0;32m [0;1;30m [0m [1;30m            [0m   [1;30m [0m             [1;30m [0m
-[1;30m [0m [1;30m            [0;36m▐[0;30;46m [0;36;40m▌[0;37;40m           [0;1;30;40m   [0m                      [1;30m  [0m                      [1;30m [0m
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1m[0;32m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m [0m [1;30m            [0;36m▐[0;30;46m [0;36;40m▌[0;37;40m           [0;1;30;40m   [0m                      [1;30m  [0m                      [1;30m [0m
 -[1;30m─────────────────────────────────────────────────────────────────────────────-[0m
 <CUT>--------------------------------------------------------------------------[0m'

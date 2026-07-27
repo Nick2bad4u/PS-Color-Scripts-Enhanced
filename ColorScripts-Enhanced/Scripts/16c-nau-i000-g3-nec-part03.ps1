@@ -5,15 +5,12 @@
 # Source SHA-256: a01508af000688c1e503430019c217bf491fb38ab7f6d7a2775c6b90f0ca259c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: G3-NEC.ANS by Genocyber (nau-i000); released in nau-i000 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 101-126
 # Columns: 1-80
 
 Write-Host '
-[1;30m                                                                            [0m
-           [1;30m                                                                [0m
-           [1;30m                                                                 [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m
                             [1;30m░[0m                 [1;30m░[0m
      [1;30m░[0m  [36m▄[0;37m [0;36m▀[0;37m [0;36m■[0m           [36m   [0;37m [0;36m [0m   [36m [0;37m [0;36m ▄[0m        [36m▄[0;1;36m▄[0;1;30m▒[0m [36m▄[0m    [1;30m░[0m  [36m▀[0m          [1;30m░[0m [36m▄▄[0;37m [0;36m▄[0m   [1;30m░[0m [36m▄▀[0m
 [36m■[0;1;36m▀[0;36m ▄ [0;1;30m▒[0m [36m▄[0m   [1;30m░[0m  [1;36m▄[0m   [36m [0;1;30m░[0;36m [0;37m [0;36m▄▄[0;37m [0;36m▀[0;1;36m▀[0m [36m▀[0;37m [0;36m■[0;37m  [0;1;30m░[0m   [1;36m▀[0;36m▄[0;37m  [0;36m▀[0;37m [0;36m▀[0m   [1;30m░[0m  [36m▀[0;37m [0;36m■[0m    [1;36m▀[0;36m▄[0m     [36m▄[0;37m [0;36m▀[0;1;36m▀[0m      [36m■[0;37m  [0;1;36m▄[0m

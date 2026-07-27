@@ -5,7 +5,7 @@
 # Source SHA-256: 3286e4c42a0a8a268b609db2bdb7ede8e046bad3ebbde0f74cc1ef8247f069d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: &COVER15.ANS by -------------------- (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: welcome to black maiden's book 15
 # SAUCE Author: --------------------
 # SAUCE Group: black maiden
@@ -20,8 +20,7 @@ Write-Host '
 
                   [1;30m(blue?)[0m
 
-                                 [1;30m           [0m
-
+[1;30m[0m
 
 
                                       [1;32m░░░[0m           ▄[1m▄[0m▄[1;30m [0m ▀[1m▀[0m▀

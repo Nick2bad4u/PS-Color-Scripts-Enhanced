@@ -5,7 +5,7 @@
 # Source SHA-256: 365f3f9c238d76efc1920b90840d0f4e8d6d6f84a9a7ba3fd3182fc7bcaf8b31
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-MTRX.ANS by Mr.Wrong (Glue!); released in glue-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: I love big brother
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Glue!
@@ -37,5 +37,4 @@ Write-Host '
 [37m  [0;1;31;43m░[0;33m▀[0;1;31;43m▀▀[0;1;31;47m▓▓[0;1;31;43m█[0;1;31;47m▓[0;1;31;43m█▄▄▄▄▄[0;33m▄[0;1;31;43m░░▄▄[0;33m▀▀[0;1;31;43m░[0;33m▄▄[0;1;31;43m░░░░[0;33m▀     ░ ▀[0;1;31m▀[0;1;31;43m▀▀[0;33m▀▀░[0m   [33m  ▄▓▄▀[0;1;31;43m░░░[0;33m▄▄[0;1;31;43m░[0;33m▀▀[0;1;31;43m▀█▀▀▄[0;33m▄[0;1;31;43m░▒▓▀▓[0;1;31;47m█▓▓▓[0;33m█[0m
 [37m  [0;1;31;43m ▒[0;33m▀[0;1;31m░[0;1;31;43m▒▓████▀▀[0;33m▀▀█▄▄[0;1;31;43m▄▄▄▄█▓▓▒▒▒▒░[0;33m▄ ░▄▄░░░░░░░ ▄░  ▄▓▄[0;1;31;43m░░░▒▒▒▓▓▓▄▄█▄[0;33m▄▄[0;1;31;43m▄░[0;33m▀▀▀▄[0;1;31;43m░▓███▌[0m
  [33m░▓▀▄[0;1;31;43m░░[0;33m▀▀[0;1;31;43m▀▀[0;33m▄▄ ▄[0;1;31;43m▄[0;1;31;47m▓▓▓[0;1;31;43m█[0;1;31;47m▓▓[0;1;31;43m█[0;1;31;47m▓[0;1;31;43m█▓▓▓▓▓▓[0;33m▀▄[0;1;31;43m░░░░[0;33m▄[0;1;31;43m░[0;33m▄▄▄[0;1;31;43m░[0;33m▄▀▄ ▀[0;1;31;43m ░░▒▒▒▓▓▓█████[0;1;31;47m▓[0;1;31;43m█[0;1;31;47m▓▓[0;1;31;43m█▓░[0;33m▄▀[0;1;31;43m▀[0;33m▄▀▀[0;1;31;43m▓▓[0;33m▀[0m
-                                                               [33m  [0;1;31m [0;33m     [0;1;31m  [0;33m    [0;1;31m [0m
-   [33m [0;37m  [0;33mp u t[0m           [33my o u r  [0m        [33m░[0;37m [0;33m▓[0;1;31;43m s t u f f [0;33m░[0m         [33mh e r e[0;37m  [0;33m [0m'
+[33m[0;1;31m[0;33m[0;1;31m[0;33m[0;1;31m[0m   [33m [0;37m  [0;33mp u t[0m           [33my o u r  [0m        [33m░[0;37m [0;33m▓[0;1;31;43m s t u f f [0;33m░[0m         [33mh e r e[0;37m  [0;33m [0m'

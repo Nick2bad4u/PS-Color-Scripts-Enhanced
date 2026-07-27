@@ -5,7 +5,7 @@
 # Source SHA-256: 81b531baf3d209d0d9f0b2438fb5eb6b05eafefe80551f1beb61655b15a51fd1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM3ACID.ANS by Tank (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 48-89
 # Columns: 1-80
 
@@ -47,6 +47,6 @@ Write-Host '
 
           [1;47m░[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30;47m░[0m
           [1;37;47m▒[0m [1;30;40m─────[0m─[1;30m──[0m─[1;30m─[0m───[1m─[0m──[1m─[0m─[1m─── [0;1;36mLIQUID METAL [0;1;37m───[0m─[1m─[0m──[1m─[0m───[1;30m─[0m─[1;30m──[0m─[1;30m──── [0;1;30;47m▒[0m
-          [1;37;47m▓[0m [1;30;40m─[0m──[1m── [0;35m[[0;1;35m713[0;35m][0;1;35m495[0;35m-[0;1;35m2391[0m                  [1;31mS[0;31mys[0;1;31mO[0;31mp: [0;1;31mS[0;31mteel [0;1;37m──[0m──[1;30m─ [0;1;30;47m▓[0m   [1;37;40mTANK[0m
+          [1;37;47m▓[0m [1;30;40m─[0m──[1m── [0;35m [0;1;35m   [0;35m [0;1;35m   [0;35m [0;1;35m    [0m                  [1;31m [0;31m  [0;1;31m [0;31m   [0;1;31m [0;31m     [0;1;37m──[0m──[1;30m─ [0;1;30;47m▓[0m   [1;37;40m    [0m
           [1;37;47m█[0m [1;30;40m─[0m──[1m── [0;1;34mC[0;34melerity [0;1;34m1[0;34m.[0;1;34m4[0;34m1[0m                [1;31mR[0;31memote: [0;1;31mC[0;31mowboy [0;1;37m──[0m──[1;30m─ [0;1;30;47m█[0m  <[1mAC[0mi[1mD[0m>
           [1m▌ [0;1;30m─[0m──[1m── [0;1;34m1[0;34m4[0;1;34m.[0;34m4 [0;1;34mU[0;34mSR [0;1;34mv[0;34m.[0;1;34m3[0;34m2 [0;1;34mb[0;34mis[0m              [1;33mA[0mlliance [1;33mN[0mET [1m──[0m──[1;30m─ ▐   [0m''[1m92[0m'

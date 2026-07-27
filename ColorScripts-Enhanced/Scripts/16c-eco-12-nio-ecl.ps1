@@ -5,7 +5,7 @@
 # Source SHA-256: 2a50c4ff579b6cfbc916948ccf48fb3723907a70ef0f926f3c63b90963df6b49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: nio-ecl.ans by Niobium (eco-12); released in eco-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -13,8 +13,7 @@ Write-Host '
                                           [35m;[0m
                                          [35m,l.[0m
                           [1;35m [0;35m_[0;1;35m [0;35m_[0;1;35m [0;35m.[0;1;35m [0;35m.,[0;1;35m,┌[0;35m┌┌⌐g%[0;1;35m$$[0;35m.[0m
-      [35m    [0;1;35m  [0;35m      [0;1;35m [0;35m  [0;1;35m [0;35m   [0;1;35m                    [0;35m  [0;1;35m        [0m
-       [1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;35m%┐▬[0;1;35m,[0;35m.._[0;1;35m  [0;35m_[0m
+[35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0m       [1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;35m%┐▬[0;1;35m,[0;35m.._[0;1;35m  [0;35m_[0m
        [35m$[0;1;35m$[0;35m55[0;1;35m$$$$$$[0;35m55[0;1;35m$$$$[0;30;45m$$$[0;1;35;40m$$$$$$$$$$[0;1;31;45m▒▒▒▓░$[0;1;37;40m$[0;1;35;40m$$$$$$│[0;35m\└²[0;1;35m` [0;35m`[0m   [1;35m`[0m   [35m`[0m
        [35ml[0;1;35m$$[0;35m55[0;1;35m$$$$$$$$$$[0;30;45m$$$$$░░[0;35;40m` [0;1;35;40m`[0;35m''"ⁿ└└[0;1;35m*[0;35m$[0;1;35m│$$$$$[0;35m│\┘`[0m
    [1;35m    [0;35ml[0;1;35m$$$$$[0;1;37m$[0;1;32m$[0;1;31;45m$[0;1;35;40m$$$$$$$[0;30;45m$$$░░[0;35;40m$[0;1;35;40m   [0;1;31;40m     [0;1;35;40m  [0;35m`²[0;1;35m└[0;35m*┘²`[0;1;35m      [0m

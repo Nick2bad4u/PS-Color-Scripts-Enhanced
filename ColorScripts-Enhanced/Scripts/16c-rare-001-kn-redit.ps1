@@ -5,7 +5,7 @@
 # Source SHA-256: af93fbfce686c165b5b73ef3a4cdcd41d183d74c9eba3561d9215e39dd39ab37
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KN!REDIT.ANS by Kenetic (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Raf - User editor
 # SAUCE Author: Kenetic
 # SAUCE Group: rARE!ASCii
@@ -24,11 +24,7 @@ Write-Host '
 [34m∙·[0;37m [0;34m [0;36maddress[0;1;36m2[0;36m  [0;1;37m([0;1;30m..................................................[0;1;37m)[0m
 [34m:∙[0;37m [0;34m [0;36maddress[0;1;36m3[0;36m  [0;1;37m([0;1;30m..................................................[0;1;37m)[0m
 [34m|:[0;37m [0;34m [0m
-[34m  [0;37m [0;34m [0;36m   [0;1;36m [0;36m      [0;37m [0;1;37m [0;1;30m [0;1;37m [0;1;36m     [0;36m               [0;1;36m [0;36m    [0;1;37m [0;1;30m [0;1;37m [0m     [1;36m [0;36m            [0;1;37m [0;1;30m        [0;1;37m [0m
-[34m  [0;37m [0;34m [0;36m     [0;1;36m [0;36m    [0;37m [0;1;37m [0;1;30m [0;1;37m [0m     [36m               [0;1;36m [0;36m    [0;1;37m [0;1;30m [0;1;37m [0m     [36m  [0;1;36m [0;36m          [0;1;37m [0;1;30m       [0;1;37m [0m
-[1;34m [0;34m [0;37m [0;34m [0;36m  [0;1;36m [0;36m       [0;37m [0;1;37m [0;1;30m [0;1;37m [0m     [1;36m [0;36m          [0m         [1;37m [0;1;30m [0;1;37m [0m     [1;36m [0;36m            [0;1;37m [0;1;30m     [0;1;37m [0m
-[1;34m [0;34m [0;37m [0;34m [0;1;36m [0;36m         [0;37m [0;1;37m [0;1;30m [0;1;37m [0m     [1;36m [0;36m          [0m         [1;37m [0;1;30m [0;1;37m [0m
-[36m$[0;1;34m$,[0;34m [0m
+[34m[0;37m[0;34m[0;36m[0;1;36m[0;36m[0;37m[0;1;37m[0;1;30m[0;1;37m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;37m[0;1;30m[0;1;37m[0m[1;36m[0;36m[0;1;37m[0;1;30m[0;1;37m[0m[34m[0;37m[0;34m[0;36m[0;1;36m[0;36m[0;37m[0;1;37m[0;1;30m[0;1;37m[0m[36m[0;1;36m[0;36m[0;1;37m[0;1;30m[0;1;37m[0m[36m[0;1;36m[0;36m[0;1;37m[0;1;30m[0;1;37m[0m[1;34m[0;34m[0;37m[0;34m[0;36m[0;1;36m[0;36m[0;37m[0;1;37m[0;1;30m[0;1;37m[0m[1;36m[0;36m[0m[1;37m[0;1;30m[0;1;37m[0m[1;36m[0;36m[0;1;37m[0;1;30m[0;1;37m[0m[1;34m[0;34m[0;37m[0;34m[0;1;36m[0;36m[0;37m[0;1;37m[0;1;30m[0;1;37m[0m[1;36m[0;36m[0m[1;37m[0;1;30m[0;1;37m[0m[36m$[0;1;34m$,[0;34m [0m
 [36m  [0;1;34m  [0;34m [0;1;34m [0;34m                   [0;1;34m   [0;36m [0;1;34m  [0;34m [0;1;34m [0;34m        [0;1;34m     [0;34m [0;1;34m [0;34m      [0;1;34m   [0;34m┐ [0;37m [0;1;36m [0;36m  [0;1;37m [0;1;36m [0;36m   [0;1;37m [0;1;36m [0;36m     [0;37m  [0;36m [0;37m [0m
 [36m$[0;1;34m$$[0;34m$$$$$$$$[0;1;34m$$[0;34m$[0;1;34m$$$[0;34m$[0;1;34m$$[0;34m$[0;1;34m$[0;34m$$[0;1;34m$$[0;36mP''[0;34m ,╥[0;1;34myy[0;36m╥[0;1;34m,[0;34m `T$$[0;1;34m$,[0;34m [0;36m`$[0;1;34m$²[0;34m°^°ⁿ  [0;1;34mP╝[0;36m°$[0;1;34m$[0;34m [0;37m [0;1;30mcode[0m: [1;30mpope-x[0m
 [1;34m$[0;34m$$$b$P╝²°"^[0;1;34m``[0;34m`[0;1;34m^[0;36m"[0;1;34m°[0;36m²╚T[0;1;34m$$[0;34m$$[0;1;34mS[0;34m  l$$$[0;1;34m$$[0;36m$l[0;34m  $$$$[0;1;34m,[0;34m [0;36m`[0;1;34m$[0;34m*,.,*   [0;1;34m,[0;36md[0;1;34m$[0;34m$ [0;37m [0;1;30mdesign[0m: [1;30mkenetic[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 521d84387fad138446d5226a7bd00706824ba0692f7483e4d8d1e0685a649e0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: R@STULT.ANS by rumble (pds); released in pds-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Stultify Logotype
 # SAUCE Author: rumble
 # SAUCE Group: pds
@@ -31,6 +31,4 @@ Write-Host '
                                                                          [36m▀█▄[0;1;32;46m█[0;1;32;40m█▄[0m
                                                                            [36m▄[0;1;32m▀[0m
 [1;30m-------------------------------------------- -[0m
-[1;33m                                                                       [0m
-[1;33m                                                               [0m
-[1;30m---------------------------------------------- -[0m'
+[1;33m[0m[1;33m[0m[1;30m---------------------------------------------- -[0m'

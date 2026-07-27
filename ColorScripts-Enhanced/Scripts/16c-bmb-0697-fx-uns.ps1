@@ -5,7 +5,7 @@
 # Source SHA-256: fcbddcf813f1ad0d53b98d0c90eff114ef5af831b53d5c12464dadf1072fd1b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-UNS.ANS by Flux (Psychic Release); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: unsane.. what the hell
 # SAUCE Author: Flux
 # SAUCE Group: Psychic Release
@@ -25,6 +25,5 @@ Write-Host '
 [1;36m [0;36m▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;1;36m [0;36m▀▀▀▀▀[0;1;36m  [0;36m▀▀▀▀▀[0;1;36m [0;36m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m [0;36m▀▀▀▀▀[0;1;36m  [0;36m▀▀▀▀▀[0;1;36m [0;36m▀▀▀▀▀[0;1;36m  [0;36m▀▀▀▀▀[0;1;36m [0;36m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m [0m
       [1mU            N            S            A            N            E[0m
 
-                              [1m  [0m                
-
+[1m[0m
 --[0m'

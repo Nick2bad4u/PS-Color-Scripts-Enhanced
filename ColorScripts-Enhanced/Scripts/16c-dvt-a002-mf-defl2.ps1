@@ -5,7 +5,7 @@
 # Source SHA-256: 1afd636eb1e5ef277a7bbc970bd93769c2759acff5030521452b9dc08ab2e625
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-DEFL2.ANS by Mangafan (dvt-a002); released in dvt-a002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -44,19 +44,8 @@ Write-Host '
       [1;33;42m▓▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m   [1;33;42m▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓[0m
        [1;33;42m▓▓▓▓▓▓▓▓[0m                                    [1;33;42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [32m================================================================================[0m
-[1;33m                                                                               [0m
-
-  [1;33m                                                                              [0m
-  [1;33m                                                 [0m [1;33m                         [0m
-  [1;33m                                                                           [0m
-  [1;33m                                                                             [0m
-  [1;33m                         [0m [1;33m                                                   [0m
-  [1;33m                                                                          [0m
-  [1;33m                                                                      [0m
-[32m================================================================================[0m
+[1;33m[0m
+[1;33m[0m[1;33m[0m[1;33m[0m[1;33m[0m[1;33m[0m[1;33m[0m[1;33m[0m[1;33m[0m[1;33m[0m[32m================================================================================[0m
                                                        [37m [0;1;33m/\/\ /┤ ∩ Ç /┤ ƒ /┤ ∩[0m
-                           [1;33m                         [0m
-
-                                [1;33m             [0m
-                               [1;33m               [0m
-                           [1;33mTel: +41(0)22-348-5521[0;1;34m [0m'
+[1;33m[0m
+[1;33m[0m[1;33m[0m                           [1;33mTel: +41(0)22-348-5521[0;1;34m [0m'

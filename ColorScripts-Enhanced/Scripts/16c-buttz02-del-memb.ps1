@@ -5,7 +5,7 @@
 # Source SHA-256: 0c8ac478c35984d8ca23ececa952f79aacec5bb2a5e26cdd7f360abdbfc49009
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEL_MEMB.ANS by delicious (buttraiderz (guest)); released in buttz02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: memberlisting
 # SAUCE Author: delicious
 # SAUCE Group: buttraiderz (guest)
@@ -15,11 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                     [30m                           [0m
-                                                             [30m                   [0m
-                                                            [30m                    [0m
-                                                         [30m                       [0m
-
+[30m[0m[30m[0m[30m[0m[30m[0m
 
 
 
@@ -55,5 +51,4 @@ Write-Host '
 [34m░[0;30;44m▓░[0;34;40m▓[0;30;44m░[0;34;40m▓█[0;1;34;44m░▓[0;1;34;47m▀[0;1;34;44m▄[0;34m▄▄[0;1;34m▀▀[0;34m▄[0;1;34m [0;1;34;44m ▀[0;1;34;40m█[0;1;34;44m▄[0;1;34;40m▄▄[0;34m▄▀▄[0;1;34m▄▄[0;34m▄▄▀[0;1;34m▄[0;1;34;44m▄[0;1;34;47m▓[0;1;34;44m▀[0;34m▀▄▄▀▀[0;1;34m▀[0;1;34;44m▀▀[0;1;34;40m▓[0;1;34;47m█[0;1;34;44m▀[0;34m▀▀▐[0;1;34m██[0;1;34;44m▓[0;34m [0;1;34;44m░▓[0;1;34;40m▌[0;34m▐[0;1;34;44m▀▀[0;1;34;47m▓[0;1;34;40m [0;34m▌[0;1;34m▐[0;1;34;44m▀▀▀▀[0;34m█[0;1;34;44m▐[0;1;34;40m▄[0;34m▄[0;1;34m [0;34m▄[0;1;34;44m▄▓[0;1;34;40m█[0;1;34;44m▒[0;34m [0;1;34;44m░▄[0m
 [30mi appologize for   [0;34m▀[0;1;34m▀▀[0;34m▀[0;1;34m [0;34m [0;1;34m▄[0;34m▄[0;37m  [0;34mo[0;1;34mne[0;34m l[0;1;34move[0;34m -[0;1;34m-[0;34m- b[0;1;34muttz[0m  [1;34;44m [0;1;34;40m█▓[0;1;34;44m▄[0;1;34;40m▄[0;34m▄▄[0m            [34m▀[0;1;34m▀[0;1;34;44m▀[0;1;34;40m█▓▓[0;1;34;44m▀[0;34m▀[0;37m   [0;1;34m▀[0m
 [30mthe rushed, crappy [0;37m  [0;34m▄▬[0;37m [0;34m▀▀[0m                         [34m▀[0;1;34m▀▀▀[0;34m▀[0m
-[30m                        [0m                                      [1;30m  [0m         [1;30m [0m    [1;30m  [0m
-[34m  [0m                                                           [34m [0;37m [0;30m   [0;34m [0;30m          ┘[0m'
+[30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[34m  [0m                                                           [34m [0;37m [0;30m   [0;34m [0;30m          ┘[0m'

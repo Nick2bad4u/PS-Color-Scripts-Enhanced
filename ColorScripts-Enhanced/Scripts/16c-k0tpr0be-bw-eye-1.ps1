@@ -5,7 +5,7 @@
 # Source SHA-256: 320a27a5c53d81d8844a93d78f4cf63836eb71695864cd8aed50821eec49b999
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW-EYE!1.ANS by bonewood (sargahd); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: eye!
 # SAUCE Author: bonewood
 # SAUCE Group: sargahd
@@ -42,7 +42,4 @@ Write-Host '
 [36m▌   [0;1;30;44m░[0;34;46m▓▓▒▒░[0;1;37;46m [0;34;46m░[0;1;37;46m░  [0;1;30;46m░[0;1;37;46m  [0;35;46m░[0;1;37;46m   [0;34;46m░[0;1;37;46m  ░▒▓[0m [1;46m▓[0;1;40m▓ [0;36m▐[0;1;37;46m░[0m     [1;46m ░▓[0;1;40m██[0;1;47m▓[0;1;46m▓▓▒▒░[0;35;46m░[0;1;37;46m [0;35;46m▒[0;34;45m░[0;1;30;45m░[0;34;45m ░[0;1;30;45m░[0;34;45m [0;35;40m▌▐[0;1;30;45m░[0;34;45m    ░   [0;1;30;45m░[0;34;45m   [0;35;46m▓▒░[0;1;37;46m░[0m
 
 [1;30m-----[0m
-[1;30m                                                                    [0m
-[1;30m                                                                            [0m
-[1;30m                                                                     [0m
-[1;30m---[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m---[0m'

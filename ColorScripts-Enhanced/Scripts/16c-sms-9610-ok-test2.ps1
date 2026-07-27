@@ -5,7 +5,7 @@
 # Source SHA-256: b1acacec5e67dc5e09c7ea0f637c81e4c0f49b3aee263c18e0ebdf7c4e5b1bab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OK-TEST2.ANS by Outkast (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Testament
 # SAUCE Author: Outkast
 # SAUCE Group: Samsara
@@ -40,6 +40,4 @@ Write-Host '
 
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-                                                                             
-                                                       
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

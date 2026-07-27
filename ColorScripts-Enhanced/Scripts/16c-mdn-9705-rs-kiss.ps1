@@ -5,7 +5,7 @@
 # Source SHA-256: 599baf349314be20f8dd8e873c2c852f792a0b42a40edcaaf9c7da3b6c7ea394
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-KISS.ANS by rorshack (Maiden/Kiss/Echo); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: kiss
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden/Kiss/Echo
@@ -37,8 +37,7 @@ Write-Host '
 
 
 
-                                                            [1;30m       [0m
-
+[1;30m[0m
 
                              [1;35m▄▄▄▄▄[0m
                         [1m▄[0;1;35m▄███▀▀▀▀▀███▄▄[0m   [1mrs [0;1;33m([0;1;37mkiss[0;1;33m/[0;1;37mmaiden[0;1;33m/[0;1;37mecho[0;1;33m)[0m

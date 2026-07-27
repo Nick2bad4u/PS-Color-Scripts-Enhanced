@@ -5,7 +5,7 @@
 # Source SHA-256: 24c85d790e492c7e5aee65944408290540a0efae60114e47db219eeb82c1581e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GD-ELF.ANS by Eris (ali-0594); released in ali-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 62-105
 # Columns: 1-80
 
@@ -45,7 +45,7 @@ Write-Host '
                    [1;35m│[0m                [1;37m [0;1;35m  [0;1;30m  [0;35m [0;1;35m [0;1;37m [0m                [1;35m│[0m
                    [1;35m│[0m               [1;37m [0;1;35m  [0;1;30m     [0;35m [0;1;35m [0;1;37m [0m              [1;35m│[0m
                    [1;35m│[0m            [1;37m [0;1;35m [0;35m [0;1;30m          [0;35m [0;1;35m [0;1;37m [0m            [1;35m│[0m
-                   [1;35m└──┼─[0m          [1;37m3[0;1;35m1[0;35m4[0;1;30m.272.3[0;35m4[0;1;35m2[0;1;37m6[0m          [1;35m─┼──┘[0m
+                   [1;35m└──┼─[0m          [1;37m [0;1;35m [0;35m [0;1;30m      [0;35m [0;1;35m [0;1;37m [0m          [1;35m─┼──┘[0m
                    [1;30m┌[0;35m─[0;1;35m─┼──┼─[0m                          [1;35m─┼──┼─[0;35m─[0;1;30m┐[0m
                    [35m│  │  [0;1;35m│[0m                            [1;35m│  [0;35m│  │[0m
                    [1;35m└[0;35m──[0;1;30m┘  [0;1;35m└─[0;35m──[0;1;30m────────[0;35m──[0;1;35m───[0;35m──[0;1;30m───────[0;35m──[0;1;35m─┘  [0;1;30m└[0;35m──[0;1;35m┘[0m

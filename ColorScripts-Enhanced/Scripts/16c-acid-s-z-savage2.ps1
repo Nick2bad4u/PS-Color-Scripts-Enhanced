@@ -5,7 +5,7 @@
 # Source SHA-256: 5384e6f112b078b3574798d1f37854a78a0f3cbe5f5a6ef368dec6d691d48327
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SAVAGE2.ANS by Grimm (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -17,7 +17,7 @@ Write-Host '
 [1;31m█[0m     [1;31m▄█[0m [1;31;40m█[0;1;31m▀[0;1;31;40m▄[0m  [1;31m█▄[0m          [33m▓▄▒▓█▓█▄▀▀[0m [33m▀▀▀▓▄▄▄▓▀▀▀▀▀▀▀▀▀█▄▄▀▄[0m [33m█▐▐▓█▓▄▀█▓▓▒▒▒░░░░[0m
 [1;31;41m▀[0m    [31m▄[0;1;31;40m▀[0;1;31;41m▀[0m [1;31;41m▀[0m  [1;31;41m▀[0m [1;31;41m▀[0m [1;31m▀[0;31m▄[0m      [33m▄▓█▀▀▓▄▀[0m  [32m░░░░░░[0;1;30m▄[0;32m░░[0;1;30m▄▀[0;32m▒░░▒▒░░▒▒▓▓[0;33m█▄▀▄[0m [33m█▐▄▄▀▓▄▓▓▒▒▒░░░[0m
 [31m▀▀▀[0m [31m▀▀▀▀[0m [31m▀[0m  [31m▀[0m [31m▀▀▀▀[0m     [33m▄▒▀▄▀▀[0;32m░▒[0;1;31;42m▄[0;42m▄▄[0;32;40m▄▄▀▀[0;30;42m░[0;32;40m▓▓▄▀▓▀▄▓▒▓▀▀▄▄[0;37;42m▄▄[0;1;31;42m▄[0;42m [0;33;40m▀▄▀▌▌▀▓▀▓[0m [33;40m▓▓▒▒▒░░[0m  [33;40m▄▄██[0m
-  [1;31m[[0;31m514[0;1;31m][0;31m663[0;1;31m.[0;31m8387[0m      [33;40m▄█▀▓▀[0;32;40m░░░▒▓[0;31;42m▀[0;1;31;47m▄ [0m█▄[32m▀▀▄▀[0;30;42m░[0;32;40m▓▄▀▄▓[0;30;42m░[0;32;40m▀▄▀▀[0;37;40m▄██[0;1;31;47m▄[0;31;42m▀[0;1;32;42m░[0;32m▌[0m [33m█▐[0m [33m▓▀▓▄▀▓▒▒░░▄▄█████▓[0m
+  [1;31m [0;31m   [0;1;31m [0;31m   [0;1;31m [0;31m    [0m      [33;40m▄█▀▓▀[0;32;40m░░░▒▓[0;31;42m▀[0;1;31;47m▄ [0m█▄[32m▀▀▄▀[0;30;42m░[0;32;40m▓▄▀▄▓[0;30;42m░[0;32;40m▀▄▀▀[0;37;40m▄██[0;1;31;47m▄[0;31;42m▀[0;1;32;42m░[0;32m▌[0m [33m█▐[0m [33m▓▀▓▄▀▓▒▒░░▄▄█████▓[0m
                    [33m▄▓▒▓▀[0m [32m░░░[0;30;42m▒░▒░[0;31;42m▀[0;1;31;41m▀[0;1;31;47m▄[0;42m█[0;40m█▄▄[0;42m▄[0;32;40m▄▀[0;1;30;40m▄▀▄[0;32m▀▄[0;32;47m▀[0;37;40m▄▄█[0;37;42m█[0;1;31;47m▄[0;1;31;41m▀[0;31;42m▀[0;1;32;42m░░▒[0m [33m▐▌▌██▓▓▒▒░▄█████▓▓▀▀[0m
 [31m24[0;1;31moo[0;32m·[0;31m96[0;1;31moo[0;32m·[0;31m14[0;32m.[0;31m4[0;1;31mk[0m  [33m▄█▒▀[0;1;30m░[0m    [32m░▒[0;30;42m▒▒▒░▒░[0;31;42m▀[0;1;31;42m▀[0;42m▀[0;32;40m▀▀▀██▄▓▄██▀▀▀[0;37;42m▀[0;1;31;42m▀[0;31;42m▀[0;1;32;42m░░░▒▒[0m [33m█▐▐▓▓▓▒░▄███▓▀▀[0m [32mANS[0;1;32mi[0;1;30m:[0m
    [1;31mv[0;32m.[0;31m42[0m [1;31mbis[0m    [33m▄▓▓▀[0;1;30m░░[0m       [32m▀▒[0;30;42m▒▒▒▒░▒░░[0;32;40m▄[0m  [32;40m▀█[0;30;42m░[0;32;40m█▀[0m  [32;40m▄[0;1;32;42m▄░░░░░▒▒[0;1;30;40m▄[0;33m█▄▌▓▓▒▒▄██▓▀[0;1;32mG[0;32mrimm[0;1;30m·[0;1;32mAC[0;32mi[0;1;32mD[0m

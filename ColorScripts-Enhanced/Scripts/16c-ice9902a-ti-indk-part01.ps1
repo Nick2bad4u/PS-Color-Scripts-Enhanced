@@ -5,7 +5,7 @@
 # Source SHA-256: f081cf4e4a0eaa840d1227c3e4d69dfeffc75fb375ab27922167ffabb33d9ded
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-INDK.ICE by Trip (iCE Advertisements); released in ice9902a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Infinite Darkness
 # SAUCE Author: Trip
 # SAUCE Group: iCE Advertisements
@@ -13,14 +13,12 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m                                                [0m
+[1;30m[0m
 
 
 
 
-
-                                    [1m    [0m [1m   [0m 
-                                      [31m▄▄▄▄▄[0m
+[1m[0m[1m[0m                                      [31m▄▄▄▄▄[0m
                                  [31m▄▄▀▀▀▄[0;1;31m▄▄▄[0;31m▄▀▀▀▄▄[0m
                                [31m▄▀▄[0;1;31m▄[0;1;31;41m▄███▀█████▄[0;1;31;40m▄[0;31m▄▀▄[0m
                               [31m█ ▀[0;1;31;41m▀▀█▀█▄[0;31m▄▀[0;1;31;41m▀██████[0;31m█[0;37m [0;31m█[0m
@@ -30,8 +28,7 @@ Write-Host '
                                [31m▀▄[0;37m [0;31m▀[0;1;31m▀▀▀▀[0;31m▀[0;1;30m ▄▄█[0;31m▐[0;1;31;41m■[0;1;31;40m▀[0;31m▀▄▀[0m
                                  [31m▀▀▄▄▄[0;1;30m▀▀▀▀▀[0;31m▄▄▄▀▀[0m
                                       [31m▀▀▀▀▀[0m
-                                  [1;37m            [0m
-
+[1;37m[0m
 
 
                                                          [1;30m ░■▄      [0m

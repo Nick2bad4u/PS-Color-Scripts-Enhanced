@@ -5,7 +5,7 @@
 # Source SHA-256: 7fe82449b84b9b85470e3e276f8b863fdd74afa2e72ddc1672873030ae04b88e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GV-LTM1.ANS by groove (lithium); released in ltm-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lithium logo #2
 # SAUCE Author: groove
 # SAUCE Group: lithium
@@ -14,8 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                               [1;33m              [0m
-                                                             [1;33m,d$$$$$   $$   $s,[0m
+[1;33m[0m                                                             [1;33m,d$$$$$   $$   $s,[0m
                                                              [1;33m$$$$$$$   $$   $$$[0m
    [1m [0;1;33m,$$[0m$s,      [1;33m ,$$[0m$s,     [1m [0;1;33m d$$[0m$$²                         [1;33m"""""²""""²╜«««$$$[0m
    [1m,[0;1;33m$$$[0m$[1;33;47m$[0m$[1m,[0;1;33m$$$[0ms,[1m,[0;1;33m$$$[0m$[1;33;47m$[0m$     [1m,[0;1;33m$[0;1;33;47m$[0;1;33;40m$[0m$$'' ░      [1;33m,$$$[0ms,[1ms[0;1;33m%#S$ [0m  ,s%#[1mS[0;1;33m$$"$[0ms$"$$S#[1m%s[0;1;33m,""[0m

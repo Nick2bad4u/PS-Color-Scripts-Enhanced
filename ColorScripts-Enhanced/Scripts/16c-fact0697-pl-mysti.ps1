@@ -5,7 +5,7 @@
 # Source SHA-256: 3d89728117f0a6ef2bd4499eebbb214f356028ea4819594c12d416768c495e0c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-MYSTI.ANS by Pussylover (fACt!); released in fact0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the mystic!
 # SAUCE Author: Pussylover
 # SAUCE Group: fACt!
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m          [0;1;36m       [0m
-
+[1;30m[0;1;36m[0m
 [1;36m [0m■ ▀      [1;30m▀  ■[0m              [1;30;47m▓[0;1;30;40m▄[0m                                      ■
 ▓  ▄[1;36;47m░[0m [1;30m▄[0;1;30;47m▓[0;1;30;40m▄    ▄▓▀██  ▄▄ ▄▓▀██ ██▀  [0;1;36;40mpUSSYlOVEr [0mfor [1;36mfACt! [0mart studio      ▀      ■
 [1;36;47m▄[0m█ ▀[1;36;47m▓[0m▄ [1;30m▀[0m     [1;30m██  ▄[0;1;30;47m▓[0;1;30;40m▀██ ██    ██ ▓▄ [0mnumber seven - june ninteen [1;36m''97[0m      ▓▄▄  ▄
@@ -52,5 +51,4 @@ Write-Host '
 [31m   [0;37m▀[0m       [37m▀   [0;31m                [0m     [37m▀█▄[0m        [37m██[0;1;36;47m█▓[0m█▌ [31m                          [0m
      [37m■   [0;1;36;47m▓[0m     [31m                       [0m         [37m▀██▀   [0;31m                   [0m
                [31m                             [0m     [1;36;47m▓[0m  ▄ [31m             [0m
-               [31m           [0m                            [31m        [0m
-               [31m                        [0m               [31m            [0;5;36m▄[0m'
+[31m[0m[31m[0m               [31m                        [0m               [31m            [0;5;36m▄[0m'

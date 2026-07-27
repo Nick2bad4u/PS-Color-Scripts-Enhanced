@@ -5,7 +5,7 @@
 # Source SHA-256: 0b1e64b85101eae50362d484e23dfdc6696def7ae345f7fde8eea5de76d32a60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KO-DARK.ANS by kingpin_o (guest) (brhood02); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dark eternity
 # SAUCE Author: kingpin_o (guest)
 # SAUCE Date: 19981229
@@ -22,7 +22,7 @@ Write-Host '
 [1;30m████▓█▓█▓▓ ▀█[0m [1;30m [0m [1;30m░[0m  [1;30m [0m [1;30m█▀ [0m  [1;30mcool artists around here. Also i want 2 greet the TRX[0m
 [1;30m███▓██▓███▓ ▀█▄▌▄ ▐▄█▀  [0m [1;30mgroup and also Prankish and Lord Zoran of Sgi.[0m
 [1;30m██▓███▓▓▓▓█▓░ ▀██▓█▀ [0m   [1;30m───────────────────────────────────────────────────■─── [0m
-[1;30m█▓████▓▓▓████▓▒[0m [1;30m▀▀[0m [1;30m▄[0m        [1;30mKiNGPiN Octopu$ 1997. [2:5020/505.11@fidonet.org][0m
+[1;30m█▓████▓▓▓████▓▒[0m [1;30m▀▀[0m [1;30m▄[0m        [1;30m                                                 [0m
 [1;30m█▓████▓████████▓▓▄███▓▒▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m
 [1;30m▓▓████▓██▓▀▀▀▀▀▀▀▀▀▀▀▓ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m
 [1;30m▓█░██▓▓██[0m            [1;30m■■[0m     [1;33m▀[0;1;33;47m▓[0;1;33;40m█████████████████[0;1;33;41m▄▄▀▀▀▓[0;1;33;40m███████[0;1;33;47m▓▓[0;1;33;40m███████[0;1;33;41m▓▀▀▀▄▄[0;1;33;40m████[0m

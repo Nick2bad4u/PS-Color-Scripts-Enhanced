@@ -5,7 +5,7 @@
 # Source SHA-256: e303d7900029eb38843d499e65c919a65057990661830224dded5add66cf992f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DL-DIVID.ANS by Dalamar (Eden); released in eden0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Divide Overflow
 # SAUCE Author: Dalamar
 # SAUCE Group: Eden
@@ -41,8 +41,7 @@ Write-Host '
 [36m▀ ▀[0m                                                                           [36m▀[0;37m [0m
 [1;37;47m█[0;1;37;40m███[0;1;37;47m██▀▄ █▀ ▄  ▀[0;1;30;47m ▀ ▄█▀█▄▀██[0;1;30;40m▀[0m [1;30;40m▄[0m [1;30;40m▀[0m    [1;30;40m▄[0m     [1;30;40m▀█[0m  [1;30;40m▄[0m   [1;30;40m▀█▄[0;1;30;47m▀▄█▀▀▄█ ▀▄ ▀ [0;1;37;47m▄▄▀ █▄▀██▄▄███[0m
 
-     [36m                      [0;1;30m                        [0;36m                             [0m
-[36m                                                       [0m
+[36m[0;1;30m[0;36m[0m[36m                                                       [0m
 
 
 

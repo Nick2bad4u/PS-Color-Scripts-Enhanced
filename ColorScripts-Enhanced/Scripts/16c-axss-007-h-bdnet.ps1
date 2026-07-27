@@ -5,7 +5,7 @@
 # Source SHA-256: cd7b0847a15e278ea7b7c3540f4012b452d3583790b83a353513cab74fc7cd9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: $H-BDNET.ANS by Shinigami (.%.AXss.%. -97); released in axss-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Internet ppe Ansi for BD
 # SAUCE Author: Shinigami
 # SAUCE Group: .%.AXss.%. -97
@@ -48,7 +48,4 @@ Write-Host '
   [30;44m [0;1;32;40m   [0;34m  [0;30;44m [0;1;32;40m                         [0m      [30;44m [0;1;32;40m [0;34m  [0;30;44m [0;1;32;40m              [0m              [30;44m [0;1;32;40m   [0;1;5;32;40m [0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
 
-  [1;32m                                                                       [0m
-  [1;32m                               [0m
-  [1;32m                          [0m
-                                                            [1;32m$ h í ∩ í Ç /┤ m ì[0m'
+[1;32m[0m[1;32m[0m[1;32m[0m                                                            [1;32m$ h í ∩ í Ç /┤ m ì[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f1f5b0b6f00583e00b7235d173d4a3826e1c3cc15b9785fd11560e1cc3473cde
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NG-GOD1.ANS by Nosegos (fayher?); released in fire0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: gardens of death
 # SAUCE Author: Nosegos
 # SAUCE Group: fayher?
@@ -40,10 +40,4 @@ Write-Host '
     [1;30m▐▌[0m [1;30m■▄[0m [1;30m▄■▀█ █[0m [1;30m▐▌ █ ▐▌█■[0m  [1;30m█ ▀█[0m [1;30m▀▀█ [0m   [1;30m▐▌[0m  [1;30m ▐▌█■[0m     [1;30m█[0m [1;30m▐▌█■[0m  [1;30m▄■▀█[0m [1;30m █[0m [1;30m▐▌█▀▄[0m
      [1;30m▀■▄▌ ▀■▄█ █▀■▄[0m [1;30m█■▀ █▄■[0m [1;30m█[0m [1;30m █[0m [1;30m█▄█ [0m   [1;30m ▀■▄■▀[0m [1;30m█[0m      [1;30m█■▀[0m [1;30m█▄■[0m [1;30m▀■▄█[0m [1;30m █▄▀[0m [1;30m█[0m [1;30m▐▌[0m
 [1;30m-------[all 100% original ansi by nosegos]--------------------------------------[0m
-[1;30m                                                                                [0m
-[1;30m                                                                              [0m
-[1;30m                                                                                [0m
-[1;30m                                                                              [0m
-[1;30m                                                                             [0m
-[1;30m                                                   [0m
-[1;30m--------------------------------------------------------------------------------[0m'
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m--------------------------------------------------------------------------------[0m'

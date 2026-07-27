@@ -5,7 +5,7 @@
 # Source SHA-256: 1da1149fed649589bc6a3a17891d6290f67e68060c5e7f544cd113fa15b2cc27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DN!-CO02.ANS by dreadnought (pHaT studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Logo Colly II - 2/97 -
 # SAUCE Author: dreadnought
 # SAUCE Group: pHaT studios '97
@@ -49,11 +49,6 @@ Write-Host '
                                                             [1;30m▀▀████▀▀▀██▀▀      [0m
 -[1;30m────────────────────────────────────────────────────────────────────────────-[0m-
 
-[1m [0m                                                                              
-              [1m                          [0m             [1m         [0m     [1m   [0m       
-              
-
-                                                                              
-                    
+[1m[0m[1m[0m[1m[0m[1m[0m
 
 [1m%eof[0m-[1mdn!-co02.ans[0m -[1;30m──────────────────────────────────────────────────────────-[0m-[0m'

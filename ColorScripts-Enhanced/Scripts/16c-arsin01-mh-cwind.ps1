@@ -5,7 +5,7 @@
 # Source SHA-256: e03c214bfad995df48d687e82dfd9b850acf5658b251470bb345e69196e3e6bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH!CWIND.ANS by Maddog Hoek (arsin01); released in arsin01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -52,5 +52,5 @@ Write-Host '
 [1;30mo[0;34m██▄[0;35m▀▄▄▀[0;34m▄▄▄ [0;35m▄▀[0;34m▄▄[0;35m▀▄▄▐▌[0;34m▄▄ [0;35m▄▀[0;34m▄▄[0;35m▀▄▄▐▌▐▌▄▄▀[0;34m▄██▌[0;35m▐▌[0;1;32m▐▌[0;35m▐▌▐▌█▐▌[0;1;32m▐▌[0;35m▐▌▐▌[0;1;32m▐▌[0;35m▐▌▐▌[0;1;32m▐▌[0;35m▐▌[0;34m▐██▌[0;1;32m▐▌▄ [0;34m██[0m
 [1;30mn[0;34m████▄▄█████▄████▄▄▄▄███▄███▀[0;35m▄▄▀[0;34m▄▄[0;35m▀▄▄[0;34m▀████▄[0;35m▀▄▄▀▄▀ █ [0;34m▄ [0;35m▄▀[0;34m▄▄[0;35m▀▄▄▀[0;34m▄▄[0;35m▀▄▄▀[0;34m▄████▄[0;1;32m▀▐▌[0;34m▐█[0m
 [1;30ms[0;34m▐███████████████████████████▄▄████▄▄███████▄▄█▄██▄███▄████▄▄████▄▄██████▄[0;1;32m▀▀[0;34m▄█▌[0m
-[34m  ▀███████[0;1;34;44mC [0;1;36;44mh [0;36;44ma [0;1;34;44mn g [0;36;44me [0;1;34;44mw [0;36;44mi [0;1;34;44mn [0;1;36;44md [0;1;34;44ms   [0;1;36;44mB [0;36;44mB [0;1;34;44mS   [0;1;36;44m■   [0;36;44m( [0;1;34;44m8 [0;1;36;44m1 [0;1;34;44m8 [0;36;44m) [0;1;34;44m9 6 [0;1;36;44m3 [0;36;44m- [0;1;34;44m3 [0;1;36;44m0 [0;36;44m7 [0;1;34;44m3[0;34m██████▀[0m
+[34m  ▀███████[0;1;34;44m  [0;1;36;44m  [0;36;44m  [0;1;34;44m    [0;36;44m  [0;1;34;44m  [0;36;44m  [0;1;34;44m  [0;1;36;44m  [0;1;34;44m    [0;1;36;44m  [0;36;44m  [0;1;34;44m    [0;1;36;44m■   [0;36;44m  [0;1;34;44m  [0;1;36;44m  [0;1;34;44m  [0;36;44m  [0;1;34;44m    [0;1;36;44m  [0;36;44m  [0;1;34;44m  [0;1;36;44m  [0;36;44m  [0;1;34;44m [0;34m██████▀[0m
      [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

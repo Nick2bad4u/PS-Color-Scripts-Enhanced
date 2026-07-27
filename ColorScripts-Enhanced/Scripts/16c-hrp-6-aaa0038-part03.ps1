@@ -5,7 +5,7 @@
 # Source SHA-256: 5dedbe343ea92c3db7fbd92289a10d72860767e243e2f2b2017afd550116b1e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AAA0038.ANS by Xanadu (hrp-6); released in hrp-6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 69-112
 # Columns: 1-80
 
@@ -53,4 +53,4 @@ Write-Host '
          [31m▄[0;1;31;41m▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄[0;31m▄[0m
           [31m▀[0;1;31;41m▀[0;31m▀   ▀[0;1;31;41m▀[0;31m▀   ▀[0;1;31;41m▀[0;31m▀   ▀[0;1;31;41m▀[0;31m▀   ▀[0;1;31;41m▀[0;31m▀   ▀[0;1;31;41m▀[0;31m▀   ▀[0;1;31;41m▀[0;31m▀   ▀[0;1;31;41m▀[0;31m▀   ▀[0;1;31;41m▀[0;31m▀   ▀[0;1;31;41m▀[0;31m▀   ▀[0;1;31;41m▀[0;31m▀[0m
 
-         [1;30m9    [0;31mO    [0;1;31m8[0m     ■    [1;31m3[0m     [31m2[0m     [1;30m2[0m     [31m■[0m     [1;31m2[0m     7     [1;31m3[0m     [31m7[0m'
+         [1;30m     [0;31m     [0;1;31m [0m     ■    [1;31m [0m     [31m [0m     [1;30m [0m     [31m■[0m     [1;31m [0m           [1;31m [0m     [31m [0m'

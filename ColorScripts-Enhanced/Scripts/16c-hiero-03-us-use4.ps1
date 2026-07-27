@@ -5,7 +5,7 @@
 # Source SHA-256: 3a79b6a565f0d9a764b15b7be47a361c7480494e6c12e3330d5ea72788b7d619
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-USE4.ANS by Avenging Angel + Dissonance (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Used
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Hieroglyphics
@@ -39,17 +39,7 @@ Write-Host '
                      [1m▀▀▀▀[0m▀[1m▄▄▄▄[0m▄   [1m [0;1;30m░░░░░░ [0mt[1mhe[0m u[1msed[0m c[1moalition[0;1;30m ░░░░░░░░[0m
                                      [1;30m         [0m
 
-                [1;30m                                                  [0m
-                [1;30m                                                [0m
-                [1;30m                                                   [0m
-                [1;30m                                                  [0m
-                [1;30m                                                    [0m
-                [1;30m                                                    [0m
-                [1;30m                                                      [0m
-                [1;30m                                                    [0m
-                [1;30m                                                      [0m
-                [1;30m                      [0m
-
+[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m
 
 
                [1;30mR E S T    I N    P E A C E    U S E D    2 0 0 0  ! ! [0m'

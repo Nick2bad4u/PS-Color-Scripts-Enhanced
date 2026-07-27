@@ -5,7 +5,7 @@
 # Source SHA-256: d85f77550fd266ea699fde50f21b05f39e14f701e274c898608bfa5f0063c563
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-CL.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 37-80
 # Columns: 1-80
 
@@ -47,10 +47,5 @@ Write-Host '
                            [1;30;40m▐[0m           [1;30;40m█[0m                               [1;30;40m█[0m
 [1;30;40m ──[0;35m──[0;1;35m──────────────────────────────────[0;1;30m▌[0;1;35m───────────────────── ─────────[0;1;30m▐[0;1;35m──── ──[0m
 
-                              [35m                   [0m
-[35m                         [0m          [35m        [0m        [35m                         [0m
-[35m                            [0m        [35m     [0m          [35m                          [0m
-[35m                         [0m       [35m             [0m       [35m                        [0m
-                                 [35m            [0m
-
+[35m[0m[35m[0m[35m[0m[35m[0m[35m[0m[35m[0m[35m[0m[35m[0m[35m[0m[35m[0m[35m[0m
 [35m [0;1;30m──[0;35m──[0;1;35m────────[0;1;30m    [0;30m┬[0;1;30m            [0;30m┬[0;1;30m    [0;30m┬[0;1;30m          [0;30m┬[0;1;30m  [0;30m┬[0;1;30m      [0;30m┬[0;1;30m      [0;30m┬[0;1;30m  [0;30m┬[0;1;37m [0;1;36m [0;1;34m [0;1;35m─ ──── ──[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 094aa07475ef87da3f38e3aa79839de2fad289c0ea381d90a99dad84e11128cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _PH-PUNK.ANS by photek (sodapop//cia); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: blackmaiden1999
 # SAUCE Author: photek
 # SAUCE Group: sodapop//cia
@@ -20,7 +20,6 @@ Write-Host '
 
 
 
-                                                                      
 
                      [31m▄▄▄▄▄▄▄▄▄████████████████▀▀▀▀▄▄▄▄▄▄▄▄▄[0m    [31m▒▒[0m      [31m▒▒[0m
 [37m   [0;31m░[0m     [31m▄▄▄▓▄██████▄▄▄▀▀█████████▒███████▀█▄▄█████████████████▓▓█▄▄▄▄▄[0m

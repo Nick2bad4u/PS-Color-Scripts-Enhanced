@@ -5,7 +5,7 @@
 # Source SHA-256: 1c7de6b6cf6d492dcda0278639e6d258576a0ce27cf7e8bf69cdc06c190db9f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TM-FRST.ANS by Tyme (TekLordZ); released in tl-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Terminal Frost
 # SAUCE Author: Tyme
 # SAUCE Group: TekLordZ
@@ -47,6 +47,6 @@ Write-Host '
 [1;36;40m▓[0m                                                            [1;30;40m                  [0;1;36;40m▒[0m
 [1;36;40m▒[0m                         [1m    [0m   [1m   [0m        [1m [0m [1m   [0m   [1m     [0m              [1;30m        [0;1;36m░[0m
 [1;36m░[0m
-                                [1;31m─[0;31m┘[0;1;30m8o8.487.6812[0;31m└[0;1;31m─[0m
+                                [1;31m─[0;31m┘[0;1;30m            [0;31m└[0;1;31m─[0m
                [1;31m─[0;31m┘[0;37m [0;1;37m        [0m [1m      [0m [1m     [0;31m┴ [0;37m [0;1;37m       [0m [1m   [0m [1m    [0m [1m   [0;31m└[0;1;31m─[0m
                            [1;31m─[0;31m┘[0;37mB[0;1;37mlack [0mN[1met [0;31m┴ [0;37mi[0;1;37mFX [0mN[1met[0;31m└[0;1;31m─[0m'

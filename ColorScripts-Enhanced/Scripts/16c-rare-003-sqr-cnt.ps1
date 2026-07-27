@@ -5,7 +5,7 @@
 # Source SHA-256: 8efee9e8ce9ba41a8f26df5f949502e348b8ccfa2ea1ab424d11105c133bfc91
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SQR!CNT.ANS by square (rare!ascii); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: count
 # SAUCE Author: square
 # SAUCE Group: rare!ascii
@@ -15,8 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                              [35m                   [0;1;35m  [0;35m               [0;31m [0;35m [0;31m        [0;1;30m [0m
-                                   [35m:::||ll$$$$i[0;1;35m|[0;35m$$$$$$$$7`[0m    [31m: ⁿ┘l7$[0;1;31mll[0;31m$|;[0m
+[35m[0;1;35m[0;35m[0;31m[0;35m[0;31m[0;1;30m[0m                                   [35m:::||ll$$$$i[0;1;35m|[0;35m$$$$$$$$7`[0m    [31m: ⁿ┘l7$[0;1;31mll[0;31m$|;[0m
                                      [35m:::|l$l$i$$ⁿ┘7$7┴┴7[0m     [31m:|lg   l[0;1;31ml$l[0;31m$l[0m
    [1;30m                       [0m       [35m   [0m   [35m           ┬┬   [0;1;30m [0m     [31m        [0;1;31m  [0;31m   [0;37m  [0;35m  [0m
      [37m            [0m                      [35m:|:|l$$$7┴┴7lll[0;1;30ml|::    [0;31m7$'',d$[0;1;31ml[0;31m$$$7''[0;37m [0;35mi|[0;1;35m|[0m

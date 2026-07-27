@@ -5,7 +5,7 @@
 # Source SHA-256: 07f466674572f1d33cd793112b5f2c38a87586957cf806b57f0c264c9fbf3895
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-TT.ANS by watOr (toon); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: toons town
 # SAUCE Author: watOr
 # SAUCE Group: toon
@@ -52,7 +52,4 @@ Write-Host '
 [35m-----------------------------[0;1;35m [0m▀[1;35m▀▀[0m [1;35;47m▓[0;1;35;40m███[0;1;35;45m▌[0m [1;35;45m▐[0;1;35;40m███[0;1;35;47m▓[0m [1;35;40m▀▀[0m▀[1;35m [0;35m------------------------------[0m
 [35m░░░[0m [35m░[0m  [35m░░[0m  [35m░░░░[0m [35m░░[0m [35m░░[0m [35m░ ░░░  ░ ░░[0;1;35m [0;1;35;45m░▀▌▀░[0m [1;35;45m░▀▌▀░[0;1;35;40m [0;35m░░ ░ ░░░  ░[0m [35m░░[0m  [35m░[0m  [35m░░░░[0m  [35m░░░░ wO░ [0m
 [35m---------------------------------[0;1;35m [0;1;35;45m     [0m [1;35;45m     [0;1;35;40m [0;35m----------------------------------[0m
-                                [35mT[0;1;35m [0;1;35;45m     [0m [1;35;45m     [0;1;35;40m [0;35mT[0m
-
-
-[35m [0m                           [35m9 O 5 . 4 7 5 . 2 9 8 7[0m'
+                                [35mT[0;1;35m [0;1;35;45m     [0m [1;35;45m     [0;1;35;40m [0;35mT[0m'

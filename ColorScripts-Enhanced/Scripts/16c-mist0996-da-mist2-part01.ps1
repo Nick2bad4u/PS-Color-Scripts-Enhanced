@@ -5,7 +5,7 @@
 # Source SHA-256: 3b7f29b645b10096cbe5e9441aa3bb3fc2048995e1b0604b960e293fe8988e8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DA-MIST2.ANS by dash (MiSTiGRiS); released in mist0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: untitled
 # SAUCE Author: dash
 # SAUCE Group: MiSTiGRiS
@@ -18,9 +18,7 @@ Write-Host '
 
 
 
- [1;30m                                                                            [0m
-[1;30m                                               [0;30m                [0m
-                                       [1;37m░[0m           [1m░[0m
+[1;30m[0m[1;30m[0;30m[0m                                       [1;37m░[0m           [1m░[0m
                                        [1m▐▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▐███████▌▄▄    ▄[0m
 [30mdash productions[0m       [37m░  ░[0;30;47m▓[0;37;40m░[0;30;47m▒[0;37;40m▒[0;30;47m░[0;37;40m▓[0;30;47m░[0;1;37;40m▓▓▓▓██████████████████████████████████▄██▌ ▄██[0m
                           ░  ░░[30;47m▓[0;1;37;40m░░▀▀▀[0;1;37;47m▀[0;1;37;40m██████████████████████████████████████ ███[0m

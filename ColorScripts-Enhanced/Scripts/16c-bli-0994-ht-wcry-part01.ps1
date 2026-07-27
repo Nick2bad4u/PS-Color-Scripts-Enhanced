@@ -5,7 +5,7 @@
 # Source SHA-256: 15838a5c790e00b7080a46731a3d2be9c796d46df4a7652d758369d7d4c10c64
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-WCRY.ANS by Hunter (BLitZ); released in bli-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: War Cry
 # SAUCE Author: Hunter
 # SAUCE Group: BLitZ
@@ -16,14 +16,7 @@
 
 Write-Host '
 
-                                                              [34m                  [0m
-                                                               [34m                 [0m
-                                                           [34m                     [0m
-                                                         [34m                       [0m
-                                                    [34m                            [0m
-                                                           [34m                     [0m
-                                                                [34m                [0m
-
+[34m[0m[34m[0m[34m[0m[34m[0m[34m[0m[34m[0m[34m[0m
 [1;36m▀██████████████▄[0m       [1;30m▐[0;1;36m████[0;1;37m▌[0m                                [1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;36m ▐▌██████████████[0m      [1;30m▐[0;1;36m▌███[0;1;37m▌[0m             [1;36m▄▄[0m                [1;30m▐[0;1;36m███████████████[0;1;37m▌[0m
 [1;32m─[0;1;30m▐[0;1;36m▌████[0;1;37m▌[0;1;36m    ▀████[0;1;37m▌[0;1;32m─────[0;1;30m▐[0;1;36m▌███[0;1;37m▌[0;1;32m───────────[0;1;30m▐[0;1;36m████[0;1;37m▌[0;1;32m────────────────────────[0;1;30m▐[0;1;36m████[0;1;37m▌[0;1;32m────[0m

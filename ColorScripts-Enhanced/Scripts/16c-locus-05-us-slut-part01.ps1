@@ -5,13 +5,12 @@
 # Source SHA-256: b7f42ce70bd936dbfc3f12bd3e97cad9a7cb055cc479c8790c13a200eb3635b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SLUT.ANS by Avenging Angel + Immortality (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
-[30m                                                                                [0m
-[37m                [0;36m [0;37m    [0;36m■[0;37m              [0;36m■[0;37m                       [0;36m▄[0;37m      [0;36m▄[0;37m [0;36m ■[0;37m         [0m
+[30m[0m[37m                [0;36m [0;37m    [0;36m■[0;37m              [0;36m■[0;37m                       [0;36m▄[0;37m      [0;36m▄[0;37m [0;36m ■[0;37m         [0m
 [37m            [0;36m [0;37m   [0;36m▄ ▀[0;37m                    [0;36m▀ ▄[0;37m           [0;1;36m░░[0m     [36m▄[0;37m [0;36m ▄▄▀ [0;37m          [0;36m  [0;37m [0m
 [37m           [0;36m   ▄[0;1;36;46m▄[0;36m▌[0;37m            [0;36m      [0;37m  [0;1;36m ░░[0m [36m▐[0;1;36;46m▄[0;1;36;40m▄[0;36m▄[0;37m        [0;1;36m▓▓[0m   [36m▄[0;1;36m▄█[0;1;36;46m█▀[0;36m▀    [0;37m            [0m
 [37m           [0;36m ▄[0;1;36;46m▄██▄[0;36m▄[0;37m        [0;36m     [0;37m      [0;1;36m ▓▓[0;36m▄[0;1;36;46m▄███▄[0;36m▄[0;37m     [0;36m▄[0;1;36m██▄[0;1;36;46m▄██[0;1;37;40m██[0;1;36;46m█[0;36m▌[0;37m                 [0m

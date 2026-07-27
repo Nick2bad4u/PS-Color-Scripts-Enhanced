@@ -5,7 +5,7 @@
 # Source SHA-256: 5d7a4627b3283646596b36d2146a28e56bfbbd30a7eb7ee5b3e9bcd70a8e4809
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-TREG3.ANS by Eerie (Spastic Studios); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Regency
 # SAUCE Author: Eerie
 # SAUCE Group: Spastic Studios
@@ -54,9 +54,5 @@ Write-Host '
                  [1;30mu n d e r g r o w n   m e m b e r [0m░ [1;30mb o a r d[0m
         [1;30me e r i e - w a n n a b e s   r g   m o d   c l u b   w h q   =)[0m
 
-       [31m                                                                 [0m
-        [31m                                                               [0m
-                       [31m                                 [0m
-                [31m                                               [0m
-
+[31m[0m[31m[0m[31m[0m[31m[0m
                                       [1;37m-20-[0m'

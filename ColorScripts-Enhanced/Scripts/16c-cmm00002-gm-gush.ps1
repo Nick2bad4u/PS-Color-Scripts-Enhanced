@@ -5,13 +5,12 @@
 # Source SHA-256: 423eb1657efd4f43253383cacde274a071324ecbd47025b0bd6b2fd2e9e71fd1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GM-GUSH.ANS by Sargon (cmm00002); released in cmm00002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
- [36m                                                               [0;37m [0;1;33m [0m [1;33m [0m     [1m     [0m 
-
+[36m[0;37m[0;1;33m[0m[1;33m[0m[1m[0m
 [1;30m [0m [1;33m [0;1;30m   _,g\QQQ$$$$$$$$''''''''''''''''''''''$$$$$7`[0;31m [0;37m$$$$$$$[0;1;37m$$$$$$$$$$$$$$$$$$$$$$$Q[0m/[1mg[0m,_
 [1;30m [0m [1;30m .\$$$│$$Q$$$$$$$$$[0;33m [0;37mPALESTINE[0;33m [0;1;30m$$$7`[0;31m.\[0;32m [0;37m$$[0;1;37m$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m│[1m$$$$$$[0m/.
 [1;30m [0m [1;30mj$$$$$$$$$$$$$$$$$$yyyyyyyyyyy$7`[0;31m.d$$[0;37m $$$$$$$$$$$$$$[0;1;37m$$$$$$$$$$$$$$$$$$$$$$$$[0mL
@@ -35,9 +34,7 @@ Write-Host '
  [1;32m [0;32mY$[0;1;32m$$$[0;32m│[0;1;32m$$$$[0m                 [1;32m   [0;32ml$$b.[0;31m`/[0;37m [0;1;37m.`┘*┘'',$$$$$$$$$$$$$$ [0mISRAEL[1m $$[0m│[1m$$$[0m$$Y
  [1;30m [0;1;32m [0;32m''┘/Q[0;1;32m$$$$$   [0;1;33mlook out! [0;1;5;33m↑↑[0m    [1;30m [0;32ml$[0;1;32m$$$[0;32mb.[0;1;37m [0m$$[1m$$$$$$$$$$$$$$$$$$$yyyyyyyy$$$[0m$Q\└`
 
-[34m [0;1;30m [0m              [1;34m         [0;1;30m  [0m        [36m        [0m         [1;30m [0m  [1;30m [0m [1;34m     [0m                [34m [0m
-[34m [0m                                [1;31m      [0;1;37m      [0m                                 [34m [0m
-                                        [1;33m                         [0m
+[34m[0;1;30m[0m[1;34m[0;1;30m[0m[36m[0m[1;30m[0m[1;30m[0m[1;34m[0m[34m[0m[34m[0m[1;31m[0;1;37m[0m[34m[0m                                        [1;33m                         [0m
 
 [1m      [0;30;47m                   [0;1;37;40m   [0;1;33;40m [0;31m  [0m
 [1;30m{[0m'

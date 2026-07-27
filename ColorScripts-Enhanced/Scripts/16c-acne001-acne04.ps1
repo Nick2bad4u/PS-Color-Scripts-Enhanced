@@ -5,7 +5,7 @@
 # Source SHA-256: bb2ec719f7d7ba0d726ae65cf4b3b08fab4484adb0084bfa9cb75071b5e4ae7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ACNE04.ANS by Nomad X + Holybone (aCNE ANSi ArT); released in acne001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: RaVeNPoRT BbS
 # SAUCE Author: NoMaD X- + HOLYBONe
 # SAUCE Group: aCNE ANSi ArT
@@ -37,4 +37,4 @@ Write-Host '
     [1;30m█████████[0;1;30;47m███[0;1;30;43m▓▒░░░ [0;31m█▄ [0;33m▌[0m        [31m▓[0;37m  [0;31m▀[0m          [31mu[0;1;31mn[0;31m B[0;1;31mo[0;31mard D[0;1;31mi[0;31mstinto...[0m
    [1;30m▐██████████[0;1;30;47m███[0;1;30;43m▓▒▒░░    [0;33m▄[0m       [31m▒[0m
 [1;30m   ██████████[0;1;30;47m█████[0;1;30;43m▓▓▓▓▓▒▒[0;33m▀[0m        [31m░[0m      [31mR [0;1;31mA[0;31m [0;1;37mV E N P O R T   V V S   E S T A[0;31m [0;1;31mR[0;31m A[0m
-[1;30m  ▐██████████[0;1;30;47m█████████[0;1;30;40m█▄[0;31m  [0m        [31m█[0m           [1;31m         [0;31m5[0;1;31m41-5[0;31m4[0;1;31m4-927[0;31m6[0m'
+[1;30m  ▐██████████[0;1;30;47m█████████[0;1;30;40m█▄[0;31m  [0m        [31m█[0m           [1;31m         [0;31m [0;1;31m    [0;31m [0;1;31m     [0;31m [0m'

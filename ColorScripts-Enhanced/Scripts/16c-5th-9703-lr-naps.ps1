@@ -5,7 +5,7 @@
 # Source SHA-256: 328616f14f37db2240bb3dc282c3ecf5d10c2f5bd908c09c3bcdf12646050284
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LR!-NAPS.ANS by late riser ((the 5th..)); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: NAPS logo
 # SAUCE Author: late riser
 # SAUCE Group: (the 5th..)
@@ -34,6 +34,5 @@ Write-Host '
                                 [1;32m▀[0;1;32;42m▄░[0;32m████[0;1;32;42m▒[0;32m██[0;1;32;42m▄[0;1;32;40m▀[0m                      [1m■[0m
                                   [1;32m▀▀[0;1;32;42m░[0;32m██[0;1;32;42m▓[0;1;32;40m▀▀[0m
                                      [1;32m▀▀[0m
-[1m [0;1;32m    [0;1;37m [0;1;32m              [0m  [1m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m  [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0;1;37m [0;1;32m [0m
-
+[1m[0;1;32m[0;1;37m[0;1;32m[0m[1m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0;1;37m[0;1;32m[0m
 -------------------------------------------------------[ Late Riser ]-----------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 75af12c428d7d2a464793a0bfbb9b1186b9e3b9ff3f4b1e0dc19b241dcf4563c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-theCentre.ans by Enzo + Avenging Angel + Jeepee (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -15,16 +15,12 @@ Write-Host '
 
 
 
-                              [1;35m   [0;32m [0;1;33m [0;32m      [0;1;33m [0;32m       [0m
-
-                                  [32m [0;37m  [0;32m         [0m
-
-         [35m [0;37m   [0;35m        [0;1;35m   [0;35m [0m     [35m     [0;1;35m       [0;35m         [0;37m  [0;32m [0;37m  [0;35m      [0;1;35m        [0;35m [0m
-
+[1;35m[0;32m[0;1;33m[0;32m[0;1;33m[0;32m[0m
+[32m[0;37m[0;32m[0m
+[35m[0;37m[0;35m[0;1;35m[0;35m[0m[35m[0;1;35m[0;35m[0;37m[0;32m[0;37m[0;35m[0;1;35m[0;35m[0m
                                         [32min[0m
 
-                  [1;35m   [0m [1;35m [0m            [35m [0;1;35m          [0;35m [0m
-
+[1;35m[0m[1;35m[0m[35m[0;1;35m[0;35m[0m
 
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 4e4e1060a527ddf532f16a44f2e0b8cd9a0d5335cde95503936ab1c2502f96c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5m-phenomdiz.ans by Smooth (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Phenom Diz
 # SAUCE Author: Smooth
 # SAUCE Group: Legacy Krew
@@ -21,12 +21,8 @@ Write-Host '
  $$"""" $$""$e $"//  $$""s  $$""$$ $$sssss   [1;31m [0;36m$$"[0;1;36m""" $$"[0;36m"$e [0;1;37m$[0;1;36m"//[0;36m  [0;1;37m$[0;1;36m$"[0;36m"s [0;1;36m [0;1;37m$[0;1;36m$"[0;36m"$$ [0;1;37m$[0;1;36m$ss[0;36mss[0;32ms[0m
 [37m $$[0m     [37m$$  $$ $SSSS $$  $$ $$$$$$ $$ $$ $$  [0;1;32m [0;32m$[0;1;32m$[0m     [1;32m$$  $$ $SSSS $$  $$ $$$$$$ $$ $$ $[0;32m$[0m
 [37m $" ··------------------------------··--···  [0;31m [0;32m$[0;1;32m" [0;1;31m··---------------[0;33m-[0;1;31m----[0;33m-[0;1;31m---[0;33m----[0;1;31m-[0;33m-··[0;1;30m--···[0m
-                                             [1;31m [0;32m [0;1;30m  [0m [1m            [0m
-`-----------------------------------··--·5m  [1;31m`--------------------------[0;33m-[0;1;31m-[0;33m--[0;1;30m-[0;33m-[0;1;31m--[0;33m-··-[0;1;30m-·5m[0m
-                                                      [1;30m [0m [1m    [0;36m [0;1;36m      [0;36m [0m
-[37m                   [0m                           [37m        [0;1;30m [0;1;37m         [0m
-                                                      [1;30m [0m [1m       [0m
- ··--------------------------------------··   [1;31m··----------------------[0;33m-[0;1;31m---[0;33m---[0;1;31m---[0;1;30m-[0;33m--[0;1;30m---··[0m
+[1;31m[0;32m[0;1;30m[0m[1m[0m`-----------------------------------··--·5m  [1;31m`--------------------------[0;33m-[0;1;31m-[0;33m--[0;1;30m-[0;33m-[0;1;31m--[0;33m-··-[0;1;30m-·5m[0m
+[1;30m[0m[1m[0;36m[0;1;36m[0;36m[0m[37m[0m[37m[0;1;30m[0;1;37m[0m[1;30m[0m[1m[0m ··--------------------------------------··   [1;31m··----------------------[0;33m-[0;1;31m---[0;33m---[0;1;31m---[0;1;30m-[0;33m--[0;1;30m---··[0m
 
 
 
@@ -34,7 +30,5 @@ Write-Host '
 
 
 
-                                                  [1;30m   [0;1;37m [0m [1;36m [0;36m  [0;1;32m                  [0m [36m [0;1;36m [0;1;37m [0m [1;30m   [0m
- ··--------------------------------------··   [1;31m··--------------------[0;33m-[0;1;31m---[0;33m---[0;1;31m---[0;33m---[0;1;30m-[0;33m--[0;1;30m--··[0m
-                                              [1;30m   [0m       [1;30m   [0m [1;33m                         [0m
- ··--------------------------------------··  [1;31m ··-----------------[0;33m-[0;1;31m---[0;33m--[0;1;31m-----[0;33m--[0;1;31m--[0;33m--[0;1;30m-[0;33m---[0;1;30m··[0m'
+[1;30m[0;1;37m[0m[1;36m[0;36m[0;1;32m[0m[36m[0;1;36m[0;1;37m[0m[1;30m[0m ··--------------------------------------··   [1;31m··--------------------[0;33m-[0;1;31m---[0;33m---[0;1;31m---[0;33m---[0;1;30m-[0;33m--[0;1;30m--··[0m
+[1;30m[0m[1;30m[0m[1;33m[0m ··--------------------------------------··  [1;31m ··-----------------[0;33m-[0;1;31m---[0;33m--[0;1;31m-----[0;33m--[0;1;31m--[0;33m--[0;1;30m-[0;33m---[0;1;30m··[0m'

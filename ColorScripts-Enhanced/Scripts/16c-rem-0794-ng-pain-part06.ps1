@@ -5,7 +5,7 @@
 # Source SHA-256: 274c91581a68050512f449f7d5e8464cb3a9b301f95b1be0f3d779f1ffe0de36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NG-PAIN.ANS by Yuehwoungdade + Ng (rem-0794); released in rem-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 240-286
 # Columns: 1-80
 
@@ -50,10 +50,8 @@ Write-Host '
         [1;35;40mCONTROL[0m      [1;35;45m▒▓[0;1;35;41m█[0m        [1;35;45m▒▓[0m    [1;35;45m▒▓[0m  [1;35;45m▒▓[0;1;35;41m██[0m  [1;35;45m▒▓[0;1;35;40m█    [0;1;35;45m▒▓[0;1;35;40m█  Local by [0;35mi[0;1;35mnv[0;35mi[0;1;35mte[0m
 [1;35m  BOOMER [0;1;30m: [0;1;35mTHE BASS  [0;1;35;45m░▒▓[0;1;35;41m█[0m       [1;35;45m░▒▓[0m   [1;35;45m░▒▓[0m [1;35;45m░▒▓[0;1;35;41m██[0m [1;35;45m░▒▓[0;1;35;41m█[0m   [1;35;45m░▒▓[0;1;35;41m█[0m             [1;35;40mONLY[0m
              [1;35;40mP[0;35mi[0;1;35mG[0m
-                          [1;30m· [0;1;35m7 o 7 [0;1;30m· [0;1;35m5 5 2 [0;1;30m· [0;1;35m3 4 1 4 [0;1;30m·[0m
-
-                                                    [1;30m                       [0m
-
+[1;30m[0;1;35m[0;1;30m[0;1;35m[0;1;30m[0;1;35m[0;1;30m[0m
+[1;30m[0m
 [1;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30;47m [0;47m██[0;1;30;47m           [0;47m█[0;1;30;47m                                                        [0;47m█[0;1;30;47m [0;47m███████[0m
 [1;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

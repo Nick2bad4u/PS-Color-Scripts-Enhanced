@@ -5,7 +5,7 @@
 # Source SHA-256: 944fee8b0f021c2054816fff99adc5cd7b38716d2fde2bb8be2099d1dee14ec5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-ALL1.ANS by Chromatik (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: All Hallow's Eve
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -39,8 +39,7 @@ Write-Host '
                     [1;30m▐█[0;1;30;46m█[0;1;30;41m▓[0;1;30;40m█▓▄ ▓██▐█[0;1;30;46m█[0;1;30;41m▓[0;1;30;40m█▓█[0;1;30;41m▓[0;1;30;40m▄[0m  [1;30;40m█[0;1;30;41m▓[0;1;30;40m███▄▄▓█[0;1;30;41m▓[0;1;30;46m█[0;1;30;40m█▌▓█[0m   [1;30;40m▄▓[0;1;30;41m▓[0;1;30;40m▄[0m
                    [1;30m▄▓█▄█▀▀[0m   [1;30m▀▄▓█▄[0;1;30;41m█[0;1;30;40m▀▀[0m  [1;30;40m▀[0;1;30;46m█[0;1;30;40m▓▀▀[0m  [1;30;40m▀▀ ▀▀█▄█▓▄▀▄▄█▓▀[0;1;30;41m▓[0m
 
-[1;30m  [0m                   [1;30m                                        [0m
-                     [1;30m                                        [0m [1;30m▓[0m
+[1;30m[0m[1;30m[0m                     [1;30m                                        [0m [1;30m▓[0m
                                                               [1;30m▒[0m
                                                             [1;30m▀▄▓▄▀[0m
                                                               [1;30m▀ [0m'

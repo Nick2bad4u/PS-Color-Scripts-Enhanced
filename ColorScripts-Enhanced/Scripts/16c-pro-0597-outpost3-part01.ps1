@@ -5,7 +5,7 @@
 # Source SHA-256: 91a400967355dddc0fd9a9b2977882bf272088929026df393ce6435c39126166
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OUTPOST3.ANS by Necrophidius (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -22,7 +22,7 @@ Write-Host '
 [1;30m ▀▄[0;35m▄▄▄[0;1;35m▄▄▄[0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35m▄[0;35m▄[0;1;30m▄ [0;31mOU[0;1;31mTP[0;1;37mOST AN[0;1;31mZI [0;31m1 [0;1;30m▄[0;35m▄[0;1;35m▄[0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35m▄▄▄[0;35m▄▄▄[0;1;30m▄▀[0m
 
 
-               [1;30m█▓▒░ [0;32m[[0;1;32mO[0;1;37mu[0;1;32mTP[0;1;37mo[0;1;32mST R[0;1;37mu[0;1;32mL[0;1;37me[0;1;32mZ [0;32m- [0;1;32mC[0;1;37ma[0;1;32mLL [0;32m: +[0;1;32m32[0;32m-[0;1;32m3[0;32m/[0;1;32m887[0;32m.[0;1;32m26[0;32m.[0;1;32m28[0;32m] [0;1;30m░▒▓█[0m
+               [1;30m█▓▒░ [0;32m [0;1;32m [0;1;37m [0;1;32m  [0;1;37m [0;1;32m    [0;1;37m [0;1;32m [0;1;37m [0;1;32m  [0;32m  [0;1;32m [0;1;37m [0;1;32m   [0;32m   [0;1;32m  [0;32m [0;1;32m [0;32m [0;1;32m   [0;32m [0;1;32m  [0;32m [0;1;32m  [0;32m  [0;1;30m░▒▓█[0m
                [1;30m▓▒░[0m                  [35m░ ░▒▓█▓▒[0m                  [1;30m░▒▓[0m
                [1;30m▒░[0m           [35m░ ░▒▓█▓▒[0m        [35m░ ░▒▓█▓▒[0m           [1;30m░▒[0m
                [1;30m░    [0;35m░ ░▒▓█▓▒[0m        [1;33m░▒▓██▓▒░[0m        [35m░ ░▒▓█▓▒    [0;1;30m░[0m

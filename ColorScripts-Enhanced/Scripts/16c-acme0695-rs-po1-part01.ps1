@@ -5,7 +5,7 @@
 # Source SHA-256: f73be9f7fe21cc92607ddd707cfd5a86956ee83e330919530402f90d1e4de1ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS!PO1.ANS by rusty! (acme!); released in acme0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: point omega!
 # SAUCE Author: rusty!
 # SAUCE Group: acme!
@@ -26,9 +26,9 @@ Write-Host '
        [31m▄▀[0;1;37m▄▀[0m▄▀[1;30m▄▀[0;1;34m▄▄[0;1;34;44m▓▓▓▓▓▓▒▒▒▒░░       [0m [1;30m█[0m █ [1m█[0;1;47m   [0;31;47m/┤CmE ''95 Boards:     [0;1;37;47m  [0;1;37;40m█ [0;31m█[0;1;37m [0m
        [31m▀▄[0;1;37m▀▄[0m▀▄[1;30m▀▄[0;1;34m▀[0;1;34;44m▓▓▓▓[0;1;34;40m▀▀▀▀[0;1;34;44m▒[0;34m▀▀[0m      [34m▀[0;1;34;44m   [0m [1;30m█[0m █ [1m█[0;1;47m [0;31;47m ----------------- [0;1;37;47m [0;31;47m    [0;1;37;47m [0;1;37;40m█[0m [31m█[0m
          [31m▀▄[0;1;37m▀▄[0m▀▄[1;30m▀▄[0;1;34m▀[0;1;34;44m▓[0;1;34;40m▀[0m [1;34;44m  [0;1;34;40m   [0m         [1;34;44m  [0;34m▌[0;37m [0;1;30m█[0m █ [1m█[0;31;47mPOiNT OMeGa 2i5.536.xxxx[0;1;37;47m [0;1;37;40m█[0m [31m█[0m
-           [31m▀▄[0;1;37m▀▄[0m▀▄[1;30m▀▄ [0;34m▐[0;1;34;44m   [0;1;34;40m [0m        [34m▄[0;1;34;44m   [0m [1;30m█[0m █ [1m█[0;1;47m [0;31;47mUnderground 2i5.538.9368[0;1;37;47m [0;1;37;40m█[0m [31m█[0m
-             [31m█[0;37m [0;1;37m█[0m █ [1;30m█[0m [1;34;44m░░░░[0;34m▄▄[0;1;34m  [0;34m▄▄[0;1;34;44m░░░░░[0m [1;30m█[0m █ [1m█[0;1;47m  [0;31;47mFire on Ice 2i5.529.79o8[0;1;37;47m [0;1;37;40m█[0m [31m█[0m
-            [31m█[0;37m [0;1;37m█[0m █ [1;30m█[0m [1;34;44m░░░░░░░░░[0;34m▀[0;1;34;44m░░░░░[0;1;34;40m [0;1;30;40m█[0m █ [1m█[0;1;47m [0;31;47mRadioactivity 2i5.453.7548[0;1;37;47m [0;1;37;40m█[0m [31m█[0m
+           [31m▀▄[0;1;37m▀▄[0m▀▄[1;30m▀▄ [0;34m▐[0;1;34;44m   [0;1;34;40m [0m        [34m▄[0;1;34;44m   [0m [1;30m█[0m █ [1m█[0;1;47m [0;31;47m                        [0;1;37;47m [0;1;37;40m█[0m [31m█[0m
+             [31m█[0;37m [0;1;37m█[0m █ [1;30m█[0m [1;34;44m░░░░[0;34m▄▄[0;1;34m  [0;34m▄▄[0;1;34;44m░░░░░[0m [1;30m█[0m █ [1m█[0;1;47m  [0;31;47m                        [0;1;37;47m [0;1;37;40m█[0m [31m█[0m
+            [31m█[0;37m [0;1;37m█[0m █ [1;30m█[0m [1;34;44m░░░░░░░░░[0;34m▀[0;1;34;44m░░░░░[0;1;34;40m [0;1;30;40m█[0m █ [1m█[0;1;47m [0;31;47m                          [0;1;37;47m [0;1;37;40m█[0m [31m█[0m
            [31m█ [0;1;37m█[0m █ [1;30m█[0m [1;34;44m▒▒▒▒▒▒▒▒▒[0m [1;30m█[0m [1;34;44m░░░░░[0m [1;30m█[0m █ [1m█[0;1;47m  [0;31;47m---------------------- [0;1;37;47m  [0;1;37;40m█[0m [31m█[0m
           [31m█[0;37m [0;1;37m█[0m █ [1;30m█[0m [1;34;44m▒▒▒▒▓▓▓▓▓[0m [1;30m█[0m [1;30m▌[0;1;34;44m▒▒▒▒▒▒[0m [1;30m█[0m █ [1m█[0;31;47m  /┤CmE - Go''ng strong   [0;1;37;47m [0;1;37;40m█[0m [31m█[0m
           [31m▀▄[0;1;37m▀▄[0m▀▄[1;30m▀▄[0;1;34m▀[0;1;34;44m▓▓▓▓▓▓▓[0m [1;30m█[0m [1;30m█[0;1;34m▐[0;1;34;44m▒▒▒▒▒▒▒[0m [1;30m█[0m █ [1m█[0;1;47m [0;31;47m for 6 f''ing months! [0;1;37;47m  [0;1;37;40m█[0m [31m█[0m

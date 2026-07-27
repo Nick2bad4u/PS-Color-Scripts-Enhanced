@@ -5,7 +5,7 @@
 # Source SHA-256: a528507095d9f54b4dc3f96fb3a989e788ae46bd7e44b0a156aaff77be956937
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WK-ACIDC.ANS by Weeping Killer (fORCe); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Acidic
 # SAUCE Author: Weeping Killer
 # SAUCE Group: fORCe
@@ -28,5 +28,5 @@ Write-Host '
             [1;30m [0m [1;30m▀[0;1;30;47m▄[0m▄ ▄■ [1;30m ▄▄[0;32m [0;1;33m▀▀[0;1;33;42m▓██▓▓▌[0m  [32m  [0;37m▐▓  ░  ▄▄   ▐▄ [0;1;30m [0;1;33m▀▀▀[0;1;30m ▄▄[0m ▀[32m [0;1;33m▀█[0;1;33;47m██[0;1;33;40m██[0;1;33;42m▓[0;1;33;40m█[0;1;33;42m▀[0;32m▀ [0m
                [1;30m  ▄ ▄▄█▓[0;1;30;47m▄░[0m▄[1;30m [0m  [1;33m▀▀▀[0;32m  [0;37m▓▄[0;1;30;47m░[0m▀ ■▄ [32m [0;37m▄▄▓▄▄[0;1;30;47m░[0m▀ [1;30m [0m▄[1;30m  [0m▄[1;30;47m░▄█[0;1;30;40m▓▓█▄[0m [1;30m▄[0m [1;33m▀▀▀[0m
             ■▀[1;30m▀[0m  [1;30m    [0m [1;30m ▀▀[0;32m  [0;37m [0;1;30m▀[0m▀▀[1;30m ▀[0m     [1;30m▀[0m           [1;30m▀[0m▀[1;30m ▀ [0;32m [0;1;30m▀▀  [0;32m    [0;37m   [0;1;30m▀[0m▀■
-               [1;30m   ░░[0m [1;30m░[0m   [1;33mACIDIC[0m [1;33m/[0m [1;33mPhone  +61 7[0m [1;33m3807 3076[0m [1;30m ░░      [0m
+               [1;30m   ░░[0m [1;30m░[0m   [1;33m      [0m [1;33m [0m [1;33m            [0m [1;33m         [0m [1;30m ░░      [0m
                                       [1;30m░░[0m [1;30m [0m'

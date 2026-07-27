@@ -5,7 +5,7 @@
 # Source SHA-256: 362e9368b09f8bae0a40b452858851719422090531d59c540d9c8d1dfb9eca0d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MI-SS.ANS by Ministry (img0994); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 30-62
 # Columns: 1-80
 
@@ -37,8 +37,5 @@ Write-Host '
                   [1;37m█[0m█████████████████████████████████████████[1;30m█[0m
                   ▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
-                               [32m [0;1;32m [0;1;37m              [0m [1;30m [0m
-                               [1;30m    [0m    [32m [0;1;32m [0;1;37m      [0m [1;30m [0m
-                               [1;37m [0m [1;30m   [0m   [1;30m    [0m  [1;30m  [0m [1m [0m
-
+[32m[0;1;32m[0;1;37m[0m[1;30m[0m[1;30m[0m[32m[0;1;32m[0;1;37m[0m[1;30m[0m[1;37m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1m[0m
                                [1;36m [0;36m┤[0;1;30m              [0;36m [0;1;36m [0m'

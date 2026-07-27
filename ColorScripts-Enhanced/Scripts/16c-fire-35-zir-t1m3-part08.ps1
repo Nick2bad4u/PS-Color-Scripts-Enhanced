@@ -5,7 +5,7 @@
 # Source SHA-256: 3780bf89687e0a3e7ab757646f4413a492901fb18048a06adb64e48b0cd94c0b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-T1M3.ANS by zir (FiRE); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: gaping maw of time
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -52,9 +52,8 @@ Write-Host '
 [36m  [0;37m░[0;1;30m░░░░░░[0m       [1;30m,░░░;;,[0m        [1;30m  ░░░   ;;;%%%;;;;;;░░░[0m  [36m  [0m     [1;30m▀▀▐█████████▀▀░░[0m
                                  [1;30m▓▓▓[0m
 [1;30m ---------------------------- [0;36m   [0;37m▓▓█[0;36m    [0;37m [0;1;30m-----------------...------------...---[0m
-[1;30m [0;1;31m503[0;36m.[0;37melitebbs[0;36m.[0;37mcom[0;36m.[0;37mcom[0;1;30m ░░░    ░░░ [0m░░░[1;30m  [0m   [1;30m░░░░   ░░░░░░░░░░   ░░░░░░░░░░ ░░░.[0;1;36m░░░[0m
+[1;30m [0;1;31m   [0;36m [0;37m        [0;36m [0;37m   [0;36m [0;37m   [0;1;30m ░░░    ░░░ [0m░░░[1;30m  [0m   [1;30m░░░░   ░░░░░░░░░░   ░░░░░░░░░░ ░░░ [0;1;36m░░░[0m
 [1;30m [0m░░░ [1;34m░░░░[0;1;30m ░░░░ ░░░░░░ ░░░░░░ ░░░ [0m░░░     [1;30m░░░░   ░░░░░░░░░░ [0mss[1;30m░░░[0m;;;ssSs[1;30m ░░░.[0;1;36m░░░[0m
-[1;30m [0mz[1mir[0;1;33m![0;1;31mf[0;31mire[0;1;31m.[0;36m2022[0;1;30m;[0mportlandfuckingoregon.[36mus[0;1;30m  ░░░░ ░░░░░░░░░░░░ [0m;;[1;30m░░░[0m;;;s$[1;30m$$  ░░ [0;1;36m▒▒▒[0m
+[1;30m [0m [1m  [0;1;33m [0;1;31m [0;31m   [0;1;31m [0;36m    [0;1;30m [0m                      [36m  [0;1;30m  ░░░░ ░░░░░░░░░░░░ [0m  [1;30m░░░[0m     [1;30m    ░░ [0;1;36m▒▒▒[0m
 [1;30m -------------------------------[0m ░░░ [1;30m------------------------------.S$S -------[0m
- [36m                                              [0m                     [1;30m   [0m
-                                                                    [1;30m...[0m    [1;30m[[0meof[1;30m][0m'
+[36m[0m[1;30m[0m                                                                    [1;30m...[0m    [1;30m[[0meof[1;30m][0m'

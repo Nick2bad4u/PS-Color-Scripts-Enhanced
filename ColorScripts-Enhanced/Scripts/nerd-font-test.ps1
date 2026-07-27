@@ -73,5 +73,4 @@ $esc[38;2;200;150;255m   Special Symbols:$esc[0m
 
 $esc[38;2;255;255;100m   Cool Gradient Demo:$esc[0m
     $esc[38;2;255;0;0m$esc[0m $esc[38;2;255;50;0m$esc[0m $esc[38;2;255;100;0m$esc[0m $esc[38;2;255;150;0m$esc[0m $esc[38;2;255;200;0m$esc[0m $esc[38;2;255;255;0m$esc[0m $esc[38;2;200;255;0m$esc[0m $esc[38;2;150;255;0m$esc[0m $esc[38;2;100;255;0m$esc[0m $esc[38;2;50;255;0m$esc[0m $esc[38;2;0;255;0m$esc[0m $esc[38;2;0;255;50m$esc[0m $esc[38;2;0;255;100m$esc[0m $esc[38;2;0;255;150m$esc[0m $esc[38;2;0;255;200m$esc[0m $esc[38;2;0;255;255m$esc[0m
-
 "@

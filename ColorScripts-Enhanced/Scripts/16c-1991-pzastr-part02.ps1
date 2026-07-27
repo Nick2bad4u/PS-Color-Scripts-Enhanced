@@ -5,7 +5,7 @@
 # Source SHA-256: 1b942f23368cbe961cc668a27ff778bdc5ec54e083bf70360eb69b467e323df4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PZASTR.ANS by Pizza (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 33-62
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
 [1;30;40m  [0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀    [0m▀[1;30m▀▀▀▀▀    [0m▀[1;30m▀▀▀▀▀  [0m▀[1;30m▀▀▀▀▀[0m▀[1;30m▀▀▀▀▀[0m▀[1;30m▀▀▀▀▀  [0m▀[1;30m▀▀▀▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;37m┌─────────[0m─[1m──[0m──[1m───[0m──[1m─[0m────[1;30m─[0m──[1;30m───[0m─[1;30m─────────────────+·· -  ·  ·[0m
 [1;37m│ [0;1;30m┌─────+-·· ·[0m
-│ [1;30m│[0m                   S [1mT R i K E [0m!  [1;30m-   [0m+7-[1mo95-952-6[0m57o
+│ [1;30m│[0m                     [1m          [0m   [1;30m    [0m   [1m         [0m   
 [1m│ [0;1;30m│[0m
 │ [1;30m│[0m             C [1mO N T R O L L E [0mD   [1mB Y    [0mS [1mT E E [0mL   R [1m/┤ [0mT
 │ [1;30m:[0m

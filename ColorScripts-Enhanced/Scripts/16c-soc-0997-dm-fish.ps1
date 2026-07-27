@@ -5,7 +5,7 @@
 # Source SHA-256: 7d0bf39dfc19bbb595b93a61ff36a36d63ccfcdc5233b19bf711795a396a2156
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DM!FISH.ANS by dangermouse (society); released in soc-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fishes Garden
 # SAUCE Author: dangermouse
 # SAUCE Group: society
@@ -25,9 +25,7 @@ Write-Host '
                                        ▄ ▀▀
                                        ▓[1;30;47m▒[0m
 
-                                  [1m             [0m
-                                    [1m        [0m
-
+[1m[0m[1m[0m
                                                           [1;33m░░[0m
 
 [30;46m▓▓▓▓▓▓▓▓▓▓▓[0m    [30;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m                          [30;46m▓▓▓▓▓▓▓▓[0m

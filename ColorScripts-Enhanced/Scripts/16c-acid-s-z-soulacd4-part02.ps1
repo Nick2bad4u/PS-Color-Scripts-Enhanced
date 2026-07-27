@@ -5,7 +5,7 @@
 # Source SHA-256: f52bd0402d12822add7f52eb6ac74e1371dd4a3a24c4bc84c74e603531987b2c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOULACD4.ANS by Jed (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 34-63
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
           [34m▄▄[0;1;34;44m▄▀▀▀[0;34m▀▀ [0;33m▄████████▄▄▄ [0;34m▀▀▀ [0;33m▄██████████▄ [0;34m▄█▀ [0;33m▄▄█████████████████▌[0m
          [33m▄▄▄▄▄▄▄▄███████████████████████████████▄▄▄▄██████████████████▀[0m
         [33m▐█████████████████████████████████████████████████████████████▄[0m
-         [33m▀███████████[0;33;43m           [0;1;30;43m([0;43m818[0;1;30;43m) [0;1;37;43m285[0;43m/[0;1;43mO394  [0;33m███████████████████████▌[0m
+         [33m▀███████████[0;33;43m           [0;1;30;43m [0;43m   [0;1;30;43m  [0;1;37;43m   [0;43m [0;1;43m      [0;33m███████████████████████▌[0m
             [33m▀███████████████████[0;1;34;43mRunning Paragon[0;33m███████████████████████▀[0m
              [33m▐███████████████[0;1;33;43mRescue Raider West HQ   [0;33m████████████████▌[0m
               [33m▀█████████████[0;33;43m [0;1;31;43mThe FiRM Distribution    [0;33m███████████████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: cff2019108a7c755efc52a667ba127034f6db76dc412c0ed3dce76d85f4e2e78
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-HM.ANS by Lord Jazz (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Harvest Moon
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -15,14 +15,12 @@
 # Columns: 1-80
 
 Write-Host '
-                                  [1;37m2[0;1;36mi[0;36m6.[0;1;30m951.7059[0m
-
+[1;37m[0;1;36m[0;36m[0;1;30m[0m
                  [1;37m▀▀▀█ █ █[0m      [1;37m█▀▀▄ █▀▀▀ █  ▀▀▀█ █▀▀▄ █▀▀▀ █▀▀▄[0m
                  █▀▀  █ █▀▀█   ▀▀▀█  ▀▀█ █     █ █  █  ▀▀█ ▀▀▀█
                  [1;30m▀▀▀▀ ▀  ▀▀▀ ▀    ▀ ▀▀▀▀ ▀ ▀   ▀  ▀▀▀ ▀▀▀▀    ▀[0m
 
-                                 [1;37m1[0;1;36m.8[0;36mo[0;1;30mo.392.2889[0m
-
+[1;37m[0;1;36m[0;36m[0;1;30m[0m
            [1;37m█   █▀▀█ █▀▀▄ █▀▀▄   ▀▀▀█ █▀▀▄ ▀▀▀█   ▀▀▀█ █▀▀█ █▀▀█ █▀▀▄[0m
            █   ▄▀▀▄ █  █ █  █   ▀▀▀▄ ▀▀▀█ █▀▀    █▀▀  ▄▀▀▄ ▄▀▀▄ ▀▀▀█
            [1;30m▀ ▀ ▀▀▀▀  ▀▀▀  ▀▀▀ ▀ ▀▀▀▀    ▀ ▀▀▀▀ ▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀    ▀[0m
@@ -46,14 +44,9 @@ Write-Host '
 [1;37m█[0m                                 [1;30m  [0;1;37m [0;1;36m [0;36m [0;1;30m        [0m                               [1;37m█[0m
 [1;37m█▄▄▄▄▄[0m▄[1m▄▄[0m▄[1m▄[0m▄[1m▄[0m▄▄▄[1;30m▄[0m▄[1;30m▄[0m▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄▄[1;30m▄[0m▄[1m▄[0m▄▄[1m▄▄[0m▄[1m▄[0m▄[1m▄▄▄▄▄▄▄█[0m
 
-              [1m [0;1;36m [0;36m [0;1;30m                                                 [0m
-              [1;37m [0;1;36m [0;36m   [0;1;30m                                               [0m
-[1;37m▄▄▄▄▄▄[0m▄[1m▄▄[0m▄▄[1m▄[0m▄[1m▄[0m▄▄[1m▄[0m▄▄▄[1;30m▄[0m▄[1;30m▄[0m▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄[1;30m▄[0m▄▄▄▄▄[1m▄[0m▄[1m▄▄[0m▄[1m▄▄▄▄▄▄[0m
+[1m[0;1;36m[0;36m[0;1;30m[0m[1;37m[0;1;36m[0;36m[0;1;30m[0m[1;37m▄▄▄▄▄▄[0m▄[1m▄▄[0m▄▄[1m▄[0m▄[1m▄[0m▄▄[1m▄[0m▄▄▄[1;30m▄[0m▄[1;30m▄[0m▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄[1;30m▄[0m▄▄▄▄▄[1m▄[0m▄[1m▄▄[0m▄[1m▄▄▄▄▄▄[0m
 
-         [1m [0;1;36m [0;36m [0;1;30m                                                           [0m
-          [1;37m [0;1;36m  [0;36m  [0;1;30m                                                       [0m
-                                [1;37m [0;1;36m  [0;36m  [0;1;30m           [0m
-[1;37m▄▄▄▄▄▄▄▄[0m▄[1m▄▄[0m▄[1m▄[0m▄[1m▄[0m▄[1m▄[0m▄▄▄[1;30m▄[0m▄▄[1;30m▄[0m▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄[1;30m▄[0m▄▄[1m▄[0m▄▄▄[1m▄[0m▄[1m▄▄▄▄▄▄▄▄[0m
+[1m[0;1;36m[0;36m[0;1;30m[0m[1;37m[0;1;36m[0;36m[0;1;30m[0m[1;37m[0;1;36m[0;36m[0;1;30m[0m[1;37m▄▄▄▄▄▄▄▄[0m▄[1m▄▄[0m▄[1m▄[0m▄[1m▄[0m▄[1m▄[0m▄▄▄[1;30m▄[0m▄▄[1;30m▄[0m▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄[1;30m▄[0m▄▄[1m▄[0m▄▄▄[1m▄[0m▄[1m▄▄▄▄▄▄▄▄[0m
 
                          [1;30mL o r d  J a z z  < A C i D >[0m
                                                       [1;36m▄█▌  ▄▄█▀▀ ▀▀ ▄[0m

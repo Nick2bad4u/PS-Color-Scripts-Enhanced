@@ -5,7 +5,7 @@
 # Source SHA-256: bddeba387723d8da6a2e6c048a40ee64e14b743186833f49579e027ad7b2535b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-THA01.ANS by Terminal Psychosis (vi-9403); released in vi-9403 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 40-61
 # Columns: 1-80
 
@@ -24,5 +24,4 @@ Write-Host '
                   [1;30m▐[0;1;30;45m██[0;1;30;40m▌[0m               [1;30;45m██▓▒[0;35m▌   ▐[0;1;30;45m▒▓██[0m     [1;30;40m▐[0;1;30;45m█▓[0;35m▌[0m      [1;30m▄[0;1;30;45m▓▒▒░░[0;35m▌[0m
                   [1;30m▐[0;1;30;45m███[0;1;30;40m▀[0m             [1;30;40m▐[0;1;30;45m███▓[0;1;30;40m▌   ▐[0;1;30;45m▓███[0;1;30;40m▌    [0;1;30;45m███[0;1;30;40m▌[0m       [1;30;40m▀[0;1;30;45m▓▒▒░░[0m
                   [35m▐[0;1;30;45m█[0;1;30;40m▀[0m              [1;30;40m▄[0;1;30;45m█████▓[0;1;30;40m▄ ▄[0;1;30;45m▓█████[0;1;30;40m▄  ▐[0;1;30;45m███[0;1;30;40m▌[0m         [1;30;40m▀[0;1;30;45m▒▒░[0;35m▌[0m
-                   [1;37mT  [0;1;35mH  [0;35mE   [0;1;30mH  E  R  E  T  I  C   A  S  Y  [0;35mL  [0;1;35mU  [0;1;37mM   [0;35m█▀[0m
-                               [1;30m4 o 4 . 9 4 7 . 2 5 o o[0m'
+                   [1;37mT  [0;1;35mH  [0;35mE   [0;1;30mH  E  R  E  T  I  C   A  S  Y  [0;35mL  [0;1;35mU  [0;1;37mM   [0;35m█▀[0m[1;30m[0m'
