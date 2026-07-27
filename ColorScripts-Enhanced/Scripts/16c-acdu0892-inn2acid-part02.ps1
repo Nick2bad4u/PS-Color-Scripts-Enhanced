@@ -5,7 +5,7 @@
 # Source SHA-256: c826fb7bf6751d9157dc2fdcd196833c129437b484680f86a6d208ee26129814
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: INN2ACID.ANS by Tank (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 49-95
 # Columns: 1-80
 
@@ -49,7 +49,7 @@ Write-Host '
 
 
 [36m [0;1;33m███[0;1;33;42m▓▓▒▓▒▒░▒░░[0;1;32;42m▓[0;1;33;42m░[0;1;32;42m▓▓▒▓▒▒░▒░░[0;32;46m▓[0;1;32;42m░[0;32;46m▓▓▒▓▒▒░▒░░[0;1;30;46m░[0;32;46m░[0;1;30;46m░░▒░▒▒▓▒▓▓[0;1;30;40m▓▒░ [0;1;37;40mI[0mn[1;30mn [0;1;37mO[0mf [1mT[0mh[1;30me [0;1;37mL[0mas[1;30mt [0;1;37mH[0mom[1;30me[0m
-[1;30m [0;1;33m██[0;1;33;42m▓▓▒▓▒▒░▒░░[0;1;32;42m▓[0;1;33;42m░[0;1;32;42m▓▓▒▓▒▒░▒░░[0;32;46m▓[0;1;32;42m░[0;32;46m▓▓▒▓▒▒░▒░░[0;1;30;46m░[0;32;46m░[0;1;30;46m░░▒░▒▒▓▒▓▓[0;1;30;40m▓▒░ [0;31m([0;1;31m705[0;31m) [0;1;31m522 [0;31m- [0;1;31m6774[0m
+[1;30m [0;1;33m██[0;1;33;42m▓▓▒▓▒▒░▒░░[0;1;32;42m▓[0;1;33;42m░[0;1;32;42m▓▓▒▓▒▒░▒░░[0;32;46m▓[0;1;32;42m░[0;32;46m▓▓▒▓▒▒░▒░░[0;1;30;46m░[0;32;46m░[0;1;30;46m░░▒░▒▒▓▒▓▓[0;1;30;40m▓▒░ [0;31m [0;1;31m   [0;31m  [0;1;31m    [0;31m  [0;1;31m    [0m
 [1;31m [0;1;33m█[0;1;33;42m▓▓[0;1;33;40m▒[0;1;33;42m▓▒▒[0;1;33;40m░[0;1;33;42m▒░░[0;1;32;40m▓[0;1;33;42m░[0;1;32;42m▓▓[0;1;32;40m▒[0;1;32;42m▓▒▒[0;1;32;40m░[0;1;32;42m▒░░[0;32m▓[0;1;32;42m░[0;32;46m▓▓[0;32;40m▒[0;32;46m▓▒▒[0;32;40m░[0;32;46m▒░░[0;36;40m▓[0;32;46m░[0;1;30;46m░░[0;36m▒[0;1;30;46m░▒▒[0;36m░[0;1;30;46m▒▓▓[0;1;30;40m▓▒░ [0;1;37;40mC[0melerit[1;30my [0;1;37mN[0me[1;30mt[0m
 [1;30m [0;1;33;42m▓▓[0;1;33;40m▒[0;1;33;42m▓[0;1;33;40m▒[0;1;33;42m▒[0;1;33;40m░[0;1;33;42m▒[0;1;33;40m░[0;1;33;42m░[0;1;32;40m▓[0;1;33;42m░[0;1;32;40m▓[0;1;32;42m▓[0;1;32;40m▒[0;1;32;42m▓[0;1;32;40m▒[0;1;32;42m▒[0;1;32;40m░[0;1;32;42m▒[0;1;32;40m░[0;1;32;42m░[0;32m▓[0;1;32;42m░[0;32m▓[0;32;46m▓[0;32;40m▒[0;32;46m▓[0;32;40m▒[0;32;46m▒[0;32;40m░[0;32;46m▒[0;32;40m░[0;32;46m░[0;36;40m▓[0;32;46m░[0;36;40m▓[0;1;30;46m░[0;36m▒[0;1;30;46m░[0;36m▒[0;1;30;46m▒[0;36m░[0;1;30;46m▒[0;36m░[0;1;30;46m▓[0;1;30;40m▓▒░ [0;1;37;40mI[0mN[1;30mC [0;1;37mD[0mistributio[1;30mn[0m
 [1;30m [0;1;33;42m▓[0;1;33;40m▒[0;1;33;42m▓[0;1;33;40m▒[0;1;33;42m▒[0;1;33;40m░[0;1;33;42m▒[0;1;33;40m░[0;1;33;42m░[0;1;32;40m▓[0;1;33;42m░[0;1;32;40m▓[0;1;32;42m▓[0;1;32;40m▒[0;1;32;42m▓[0;1;32;40m▒[0;1;32;42m▒[0;1;32;40m░[0;1;32;42m▒[0;1;32;40m░[0;1;32;42m░[0;32m▓[0;1;32;42m░[0;32m▓[0;32;46m▓[0;32;40m▒[0;32;46m▓[0;32;40m▒[0;32;46m▒[0;32;40m░[0;32;46m▒[0;32;40m░[0;32;46m░[0;36;40m▓[0;32;46m░[0;36;40m▓[0;1;30;46m░[0;36m▒[0;1;30;46m░[0;36m▒[0;1;30;46m▒[0;36m░[0;1;30;46m▒[0;36m░[0;1;30;46m▓[0;1;30;40m▓▒░ [0;1;37;40mT[0mR[1;30mS [0;1;37mD[0mistributio[1;30mn[0m

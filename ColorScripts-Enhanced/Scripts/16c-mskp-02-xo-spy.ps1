@@ -5,7 +5,7 @@
 # Source SHA-256: d56847798b34b1a3e9ca96dec474d779419dc85c4ca5af62f022482341e01d5a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XO-SPY.ANS by Xose (MASAKRE PRODUCTiONS); released in mskp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Spy!
 # SAUCE Author: Xose
 # SAUCE Group: MASAKRE PRODUCTiONS
@@ -28,7 +28,7 @@ Write-Host '
 [1;30mTRAIN OF[0m     [1m█  [0;1;30m█[0;1;31;43m▒▓▓▓[0;1;30;43m▀▀[0;1;30m█[0m           [1m▓█ [0;1;30m█[0;1;31;43m▓▓[0;1;30m█[0m           [1m▓█ [0;1;30m█[0;1;30;43m▀▀[0;1;31;43m▓▓▓▓[0;1;30m█[0m
 [1;30mCONSEQUENCES  [0;1m▌ [0;1;30m█[0;1;31;43m▓▓▓▓▓▓[0;1;30m█[0m             [1;30m▐[0;1;30;43m▌[0;1;31;43m▓▓[0;1;30;43m▐[0;1;30m▌[0m             [1;30m█[0;1;31;43m▓▓▓▓▓▓[0;1;30m█[0m
 [1;30mBBS. 23-07 HS[0;1m█  [0;1;30m▀[0;1;30;43m▄[0;1;31;43m▓▓▓▓▓[0;1;30;43m▀[0;1;30m▄[0m            [1;30m█[0;1;31;43m▓▓▓▓[0;1;30m█[0m            [1;30m▄[0;1;30;43m▀[0;1;31;43m▓▓▓▓▓[0;1;30;43m▄[0;1;30m▀[0m
-[1;30m+54-1-6521523[0;1m█▄   [0;1;30m█[0;1;31;43m▓▓▓▓▓▓[0;1;30;43m▀[0;1;30m▄▄▄▄▄▄▄▄▄▄[0;1;30;43m▀[0;1;30m█[0;1;31;43m▓▓▓▓[0;1;30m█[0;1;30;43m▀[0;1;30m▄▄▄▄▄▄▄▄▄▄[0;1;30;43m▀[0;1;31;43m▓▓▓▓▓▓[0;1;30m█[0m
+[1;30m             [0;1m█▄   [0;1;30m█[0;1;31;43m▓▓▓▓▓▓[0;1;30;43m▀[0;1;30m▄▄▄▄▄▄▄▄▄▄[0;1;30;43m▀[0;1;30m█[0;1;31;43m▓▓▓▓[0;1;30m█[0;1;30;43m▀[0;1;30m▄▄▄▄▄▄▄▄▄▄[0;1;30;43m▀[0;1;31;43m▓▓▓▓▓▓[0;1;30m█[0m
 [1m▀▄▄▄▄▄▄▄▄▄▄▄▀  ▀▄  [0;1;30m█[0;1;31;43m▓▓▓▓▓▓▓▓▓▓▓▓▒░[0;1;30;43m░▓▄▀[0;1;31;43m▓▓▓▓[0;1;30;43m▀▄[0;1;31;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30m█[0m
                 [1;30m█▄▄▄█[0;1;31;43m▓▓▓▓▓▓▓▓▓▓▓▓▓░[0;1;30;43m░▓▄[0;1;31;43m▓▓▓▓[0;1;30;43m▄▀[0;1;31;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30m█▄▄▄█[0m
                  [1;30m█▓▓▓█▄[0;1;30;43m▄▄▄▄[0;1;31;43m▓▓▓▓▓▓▓▓░[0;1;30;43m░▓▀▀▀▀[0;1;31;43m▓▓▓▓▓▓▓▓▓▓[0;1;30;43m▄▄▄▄▄▄[0;1;30m█▓▓▓█[0m

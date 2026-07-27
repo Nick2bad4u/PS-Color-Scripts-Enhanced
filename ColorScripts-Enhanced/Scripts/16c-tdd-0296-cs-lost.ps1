@@ -5,7 +5,7 @@
 # Source SHA-256: 64070a0c44bd8171a2270f8db1f9af316ea202f74e53fd5fd2949ef22c73cff6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CS-LOST.ANS by casper (the dirty dozen); released in tdd-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the lost colony
 # SAUCE Author: casper
 # SAUCE Group: the dirty dozen
@@ -38,5 +38,5 @@ Write-Host '
 [1;46mfOUR·33.6k·nOD[0;1;33;46mE[0;1;37;46mS·rINGdOWN![0;36m██████████▓ [0;1;31;43m▒▒▒▓▓▓▓█▓▓█▓█████[0;1;31;40m██████████████████████[0;1;31;43m▓▓▓[0m
 [1;37;46m4.9·gIGS·sTORAG[0;1;33;46mE[0;1;37;46m![0;36m██[0;36;46m [0;1;36;46m░      [0;36m██████████▓ [0;1;31;43m▒▒▓▓▓▓▓▓███▒[0;1;31;40m████████████████████████[0;1;31;43m██▓▓[0m
 [1;46m@dR. pIRACY         [0;1;36;46m░    ■       [0;36m█████▓ [0;1;31;43m▒▓▒▓▓▓██▓███[0;1;31;40m████████████████████▀▀▀▀[0;1;31;43m▓[0;1;31;40m▀ ▀[0m
-[1;37;46m610·522·48[0;1;33;46m3[0;1;37;46m9![0;36m████[0;36;46m   [0;1;36;46m▒ ▄▄▀  [0;36m████████████▓ [0;1;31;43m▒▒▓▓▓▓▓▓▓███[0;1;31;40m███████▀▀▀▀▀[0;36m▄▄▄▄▄▄▄████████[0m
+[1;37;46m          [0;1;33;46m [0;1;37;46m  [0;36m████[0;36;46m   [0;1;36;46m▒ ▄▄▀  [0;36m████████████▓ [0;1;31;43m▒▒▓▓▓▓▓▓▓███[0;1;31;40m███████▀▀▀▀▀[0;36m▄▄▄▄▄▄▄████████[0m
 [36;46m                  [0;1;36;46m▀▀▓▀   [0;36m███████████████▓ [0;1;31;43m▒▒▓▓▓▓[0;1;31;40m▀▀▀▀▀▀[0;36m▄▄▄▄▄▄███████████[0m'

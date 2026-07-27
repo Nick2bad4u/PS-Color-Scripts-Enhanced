@@ -5,7 +5,7 @@
 # Source SHA-256: 1de1740ff1a63df783153faa26e0ba5344b4c8d060690536fcdd411b285d4aca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-SIH.ANS by Cardiac Arrest (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Souls in Hell
 # SAUCE Author: Cardiac Arrest
 # SAUCE Group: Union
@@ -16,7 +16,7 @@
 
 Write-Host '
                              [35m░  [0;1;30m█▀▄█▄[0m             [1;30m▒░[0m
-[1;30m   703[0m:[1;30m658[0m.[1;30m9597[0m,[1;30m2222[0m,[1;30m22[0m,[1;30m22   [0;35m▒░[0;1;30m▐▄[0;1;30;47m▀[0;1;30;40m█▀  ░[0m           [1;30;40m░[0m
+[1;30m      [0m [1;30m   [0m [1;30m    [0m [1;30m    [0m [1;30m  [0m [1;30m     [0;35m▒░[0;1;30m▐▄[0;1;30;47m▀[0;1;30;40m█▀  ░[0m           [1;30;40m░[0m
 [1;30;40m Sys[0m: [1;35mL[0;35mo[0;1;30mrd [0;1;35mS[0;35mc[0;1;30marlet [0m/ [1;33mR[0;33ma[0;1;30mlgoth [0;35m▒░ [0;1;30m█▀▄█ ░▒[0m                   [1;30m▀▄[0m          [1;30m▐▄[0m
 [1;30m [0;1;35mI[0;35mn[0;1;30msane [0;1;35mU[0;35mS[0;1;30mHQ[0m...[1;33mV[0;33mo[0;1;30mr [0;1;33mM[0;33me[0;1;30mmber[0m... [35m▒░ [0;1;30m▄[0;1;30;47m▀[0;1;30;40m██ ▒▓[0m                [1;33;40m▄   [0;1;30;40m▐█▄[0m       [1;30;40m▀█[0;1;30;47m▄[0;1;30;40m█▄[0m
 [1;31;40m▐ [0;1;35;40mB[0;35mr[0;1;30meed [0;1;35mS[0;35mi[0;1;30mte[0m...[1;33mN[0;33mp[0;1;30mi [0;1;33mS[0;33mi[0;1;30mte[0m... [31m▐ [0;35m▓▒ [0;1;30m█[0;1;37;47m▒[0;1;30;40m██ ▓█[0m               [1;33;43m▓▒░[0;33m▀▄[0;1;30m▀██[0m      [1;30m▄█▄ ▀██▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: f65f2b39bac942897d69e84c4850b4afe2d62796178876aee48385f8dae5b4c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MER-TIC.ANS by Mercer (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -51,7 +51,7 @@ Write-Host '
      [1;33m■[0m        [1;33m■    [0;31m█[0;1;31;41m░▒▓[0;1;31;40m████  [0;32m▌  [0;1;33m■    ■■   ■ [0;1;37m│ [0;32m- [0;1;32mDW[0;1;33m/C[0mδX[1m/C[0mTC       [1m│[0m        [1;33m■[0m
                    [31m▐[0;1;31;41m░▒▓[0;1;31;40m███   [0;32m▌[0m              [1;37m│   [0;1;32mDi[0;1;33mST[0m. [1mSi[0mTE       [1m│[0m
 [1;34m███████████████████ [0;31m█[0;1;31;41m░▒▓[0;1;31;40m█▌[0;1;34;40m▐██ ██████████████[0;1;37;40m│ [0;32m- [0;1;32mAN[0;1;33mD [0mTH[1mE [0mNU[1;33mMB[0;1;32mER[0;32m.. [0;1;37m│[0;1;34m██████████████[0m
-[1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;34;40m▌[0;31m▐[0;1;31;41m░▒▓[0;1;31;40m██▌[0;1;34;40m▐[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37;40m│   [0;1;32;40m+3[0;1;33;40m58[0m-0[1m-8[0mo3[1;33m81[0;1;32m48   [0;1;37m│[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
+[1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;34;40m▌[0;31m▐[0;1;31;41m░▒▓[0;1;31;40m██▌[0;1;34;40m▐[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37;40m│   [0;1;32;40m  [0;1;33;40m  [0m  [1m  [0m  [1;33m  [0;1;32m     [0;1;37m│[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;34;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;34m▌[0;31m▐[0;1;31;41m░▒▓[0;1;31;40m███ [0;1;34;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m│ [32m──[0;1;32m──[0;1;33m──[0m──[1m──[0m──[1;33m──[0;1;32m──[0;32m── [0;37m│[0;1;34;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [1;34;44m░░░░░░░░░░░░░░░░░░[0;34m▌[0;31m▐[0;1;31;41m░▒▓[0;1;31;40m███▌[0;34m▐[0;1;34;44m░░░░░░░░░░░░░░░░[0m│ [32mTH[0;1;32miS [0;1;33mW[0mAC[1mKY[0m-C[1;33mRA[0;1;32mPP[0;32mY  [0;37m│[0;1;34;44m░░░░░░░░░░░░░░[0m
 [34m██████████████████▌[0;31m▐[0;1;31;41m░▒▓[0;1;31;40m████ [0;34m████████████████[0;1;30m│ [0;32mAN[0;1;32mSi [0;1;33mB[0mY [1mME[0mRC[1;33mER[0;1;32m''9[0;32m3  [0;1;30m│[0;34m██████████████[0m

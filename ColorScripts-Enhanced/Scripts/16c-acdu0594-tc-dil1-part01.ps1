@@ -5,7 +5,7 @@
 # Source SHA-256: f566d99422f903021e65caa33a82de2e13bc9eb66e2db7de41cce0d3ac071bde
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TC-DIL1.ANS by The Clone (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Digital Illusions
 # SAUCE Author: The Clone
 # SAUCE Group: ACiD Productions
@@ -20,7 +20,7 @@ Write-Host '
 [1;30m [0;1;47m░▒▓[0;1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀[0;1;30m·[0;34m/[0;1m▄▄[0;1;47m▓▒[0;1m▄Pr[0mo[1;34md[0;34muc[0;1;30m│  [0;1;34mΓC  [0;1;30m[[0;34m/[0;1;34m┤[0mC[1mi[0m>[1;30m·[0;1mPr[0mo[1;34md[0;34muc[0;1;34mt[0mi[1mons [0m([1;34mt[0;34mm[0;1;34m)[0;1;30m·[0mε[1mON[0;1;30m]   │[0m
 [1m▐[0;1;47m▒▓█▓▓▓▒░ [0;1;30;47m░▒▓█[0;1;30m▓▒░░ ░░  [0m▄▀[5;30mU[0;1m▄[0;1;47m▓▒░[0;1;30;47m░▓█[0;1;30m▓[0;1m▀▄r[0mo[1;34md[0;34mu[0;1;30m│[0m      [1;30m[[0;34mF[0;1;34mo[0mu[1mndat[0mi[1;34mo[0;34mn[0;1;30m·[0;34mP[0;1;34me[0mn[1mguin Mont[0mh[1;34ml[0;34my[0;1;30m]   │[0m
 [1;30m│[0;1m▀[0;1;47m█▓▓▓▒░ [0;1;30;47m░▒▓█[0;1;30m▓▒░░ ░  [0m▄▀[1ms▄[0;1;47m█▓▒░[0;1;30;47m░▒▓[0;1;30m▓▒░ [0;1m▀▄▀[0;1;34md[0;1;30m├─────────────────────────────────────┤[0m
-[1;30m│[0;1ms [0m([1m▀[0;1;47m▒▓ [0;1;30;47m░▒▓ [0m▀▀▀▄ [1;30m░ [0m▄▀i[1mon[0;1;47m██▓▒░█[0;1m▀▀▄[0;1;30m░ [0;1m▄▀Pr[0mo[1;30m│[0;34mF[0;1;34mo[0mr [1mA Cloning ANSi Contact The Cl[0mo[1;34mn[0;34me [0;1;30m│[0m
+[1;30m│[0;1m  [0m [1m▀[0;1;47m▒▓ [0;1;30;47m░▒▓ [0m▀▀▀▄ [1;30m░ [0m▄▀ [1m  [0;1;47m██▓▒░█[0;1m▀▀▄[0;1;30m░ [0;1m▄▀  [0m [1;30m│[0;34m [0;1;34m [0m  [1m                             [0m [1;34m [0;34m  [0;1;30m│[0m
 [1;30m│[0;1mns [0m([1m▐[0;1;47m▒[0;1;30;47m░▒▓[0;1;30m█[0;1;30;47m░[0;1mi[0m>[1;30m·[0m▐▌▄▀[34muc[0;1;34mt[0mi[1mo[0;1;47m█▓▒░ █[0;1;34m)[0;1;30m·[0;1m▐▄▀i[0m>[1;30m·[0;1mPr[0;1;30m│   [0;34mo[0;1;34mn [0mV[1maliantNET, StormWatchN[0mE[1;34mT[0;34m,[0m     [1;30m│[0m
 [1;30m│[0;1mons [0m([1;47m░[0;1;30;47m▒▓[0;1;30m▓[0;1;34;44m▓[0;1;30;47m▒[0mC[1mi[0m>▄▀[1mr[0mo[1;34md[0;34muc[0;1;34mt[0mi[1;47m█▒░ [0;1;30;47m░[0;1;47m▓[0;34mm[0;1m▄▀[0;34m/[0;1;34m┤[0mC[1mi[0m>[1;30m·[0;1mP[0;1;30m│ [0;34mI[0;1;34mn[0mt[1mrusionNET, or on Beyond Vis[0mi[1;34mo[0;34mn   [0;1;30m│[0m
 [1;30m│[0mi[1mons [0;1;47m [0;1;30;47m▓[0;1;30m▒[0;1;34;44m▓▒[0;1;30;47m▒[0;1;34m┤[0mC[1mi[0m>[1;30m·[0;1mPr[0mo[1;34md[0;34muc[0;1;34mt[0;1;47m█░ [0;1;30;47m░▒[0;1;47m▒[0;1;34mt[0;34mm[0;1;34m)[0;1;30m·[0;34m/[0;1;34m┤[0mC[1mi[0m>[1;30m·│[0m                                     [1;30m│[0m

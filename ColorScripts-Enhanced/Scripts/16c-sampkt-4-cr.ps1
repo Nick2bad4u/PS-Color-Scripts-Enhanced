@@ -5,7 +5,7 @@
 # Source SHA-256: ad3cded9800dd099b2d2ac1a80313d2b558be0f7dc09b3403e023ccf54082474
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR.ANS by Vega (sampkt_4); released in sampkt_4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -51,7 +51,7 @@ Write-Host '
                         [33m░░░▒▒▒▒▒▒▒▒░░░ [0;1;37m█[0;1;37;47m░▒▒░░[0m [1;37;40m█[0;1;37;47m░▒░[0m▀ ▄███▀▀    [31mCrime Ring BBS[0m
                          [33m░░░▒▒▒▓▓▒▒▒░░░ [0;1;37m█[0;1;37;47m░▒▒░░[0m [1;37;40m▀[0m▀ ▄███▀     ─────────────────
                           [33m░░░▒▒▒▓▓▒▒▒░░░ [0;1;37m█[0;1;37;47m░▒▒░[0m▀ ▄███▀     [1m■ SysOp: [0mItay Aharony
-                           [33m░░░▒▒▒▓▓▒▒▒░░░ [0;1;37m█[0;1;37;47m░[0m▀ ▄███▀     [1m■ Number: [0m04-737574
+                           [33m░░░▒▒▒▓▓▒▒▒░░░ [0;1;37m█[0;1;37;47m░[0m▀ ▄███▀     [1m■         [0m         
                             [33m░░░▒▒▒▓▓▒▒▒░░░  [0;37m▄████[0m     [1;37m■ Open [0m24 Hours
   [31m·[0m                          [33m░░░▒▒▒▓▓▒▒▒░░░ [0;37m▐███    [0;1;37m■ Hard Disk: [0m500 MB
                               [33m░░░▒▒▒▒▒▒▒▒░░░ [0;37m██   [0;1;37m■ Modem: [0m14.4K V32bis V42bis

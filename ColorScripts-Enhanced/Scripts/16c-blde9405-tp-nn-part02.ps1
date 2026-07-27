@@ -5,7 +5,7 @@
 # Source SHA-256: 127da18a5ed64b4890f64e3fafb6bae44fe00cd71aad01252d72bee1964d9355
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-NN.ANS by Technophreak (blde9405); released in blde9405 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 44-86
 # Columns: 1-80
 
@@ -45,8 +45,8 @@ Write-Host '
                     [35m▄▄▄▄▄▄[0m
       [31m▄▄▄▄▄▄▄▄▄▄▄▄[0;35m▀▀▀█████[0;31;45m░░[0;35;40m▄[0m       [31;40mI[0;1;30;40mf you would like to purchase a similiar[0m
 [1;30;40m  [0;31m▄████████████████[0;35;41m░░[0;31;40m▄[0;35;40m▀▀████[0;31;45m░░[0m      [31;40mA[0;1;30;40mNSi, you can contact me on Eternal In-[0m
-[1;30;40m [0;31m▐█████▀▀▀ ██[0;35;41m░[0m [31;40m▀▀███[0;35;41m░░[0;31;40m▌  [0;35;40m███[0;31;45m░░[0m      [31;40mS[0;1;30;40manity <908>224-8780 or The ShadowLands[0m
-[1;30;40m  [0;31m▀▀[0m       [31m▐█[0;35;41m░[0;31;40m▌ [0;35;40m█▄▄[0;31;40m▀▀▀[0;35;40m▄▄██[0;31;45m░░[0;35;40m▀[0m       [31;40m<[0;1;30;40m609>256-0332.  Prices are negotiable,[0m
+[1;30;40m [0;31m▐█████▀▀▀ ██[0;35;41m░[0m [31;40m▀▀███[0;35;41m░░[0;31;40m▌  [0;35;40m███[0;31;45m░░[0m      [31;40m [0;1;30;40m                                      [0m
+[1;30;40m  [0;31m▀▀[0m       [31m▐█[0;35;41m░[0;31;40m▌ [0;35;40m█▄▄[0;31;40m▀▀▀[0;35;40m▄▄██[0;31;45m░░[0;35;40m▀[0m       [31;40m [0;1;30;40m                                     [0m
            [31m███[0;35;41m░[0m [35;40m▐██[0;31;45m░░[0;35;40m▀▀▀[0m            [31;40mr[0;1;30;40manging from 5-20$.  If you would like[0m
           [31m▄██[0;35;41m░░[0;31;40m▌[0;35;40m▐█[0;31;45m░░[0;35;40m▌[0m               [31;40mt[0;1;30;40mo become a [0;31mBL/.DE [0;1;30maffiliate, D/L the[0m
          [31m█████[0;35;41m░[0m [35;40m███[0;31;45m░░[0m               [31;40ma[0;1;30;40mpp on the [0;31mBL/.DE [0;1;30mBBS nearest you.[0m

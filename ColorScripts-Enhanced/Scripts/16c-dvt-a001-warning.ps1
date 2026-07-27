@@ -5,7 +5,7 @@
 # Source SHA-256: 251f39b2a2e9af92b05d88f40cd69d0004fb05357f6c1e1620cd5e3396155230
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WARNING.ANS by nail (dvt-a001); released in dvt-a001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo cluster 08/96
 # SAUCE Author: nail
 # SAUCE Date: 19960806
@@ -34,6 +34,6 @@ Write-Host '
                [31m▌ [0;1;30m   [0;31m▐▀[0;1;31;41m▀■▓[0;1;31;40m▄[0;1;31;41m▄▓▀■▄█▀▓[0;1;31;40m▄[0;1;31;41m▄■▀[0;1;31;40m▀[0;1;31;41m▓[0;1;30;40m [0;31m▐[0;1;31;41m▒[0;1;30;40m [0;31m▐  ▐[0;1;30;41m▓■[0;31m▌▄[0;1;31;41m▄■▓[0;1;31;40m▄[0;1;30;40m  [0;1;31;41m▀▓[0;31m▐[0m
                [1;31;41m▓[0;31m  ▒[0m   [31m▓▀█▀[0;1;31;41m▀▒[0;31m█▀[0;1;31;41m░[0;31m▀[0;1;31m▄[0;1;31;41m▒[0;1;31;40m▀[0;31m▀▌[0m     [1;31;41m░[0;1;30;40m [0;1;31;41m░[0;31m▄ [0;1;30m [0;31m▓▀[0;1;31;41m▓▀[0;31m▌[0;1;30m [0;31m▀[0;1;31m▓[0;31m▀■▐[0;1;31m▌[0;31m▐[0m    [31m▐[0m
                [1;31;41m▀■[0;1;31;40m▄[0;31m▓▄[0m    [31m▌  ▀▌ ▐[0;1;31m▐▀[0m    [1;31m▄[0;31m▄■  ▌  ▓▀■  ▀▌▌▄[0m    [31m▐[0;1;30m  [0;31m░[0m   [31m▐[0m
-               [31m▐[0;1;31;41m░[0;31m▀▓[0;1;31m▀▀■[0;31m▄▄[0m          [31m■[0;1;31m▀▀[0;31m▀▓[0;37m [0;31m+41-22-9600621▀[0;1;31;41m░[0;1;31;40m▄[0;31m▄[0m   [31m▒ ▄■▀[0m
-                [31m▀▌▒[0m    [31m▓▀■[0;37m [0;31mop''d  by[0;37m   [0;31m▒[0;37m [0;31m+41-22-9600622[0;37m  [0;31m▓[0;1;31m▀▀[0;31m■▄▓[0;1;31;41m░[0;31m▀[0m
-                  [31m░[0m        [31msynoptic[0;37m   [0;31m░[0;37m [0;31m+41-22-9600623[0m'
+               [31m▐[0;1;31;41m░[0;31m▀▓[0;1;31m▀▀■[0;31m▄▄[0m          [31m■[0;1;31m▀▀[0;31m▀▓[0;37m [0;31m              ▀[0;1;31;41m░[0;1;31;40m▄[0;31m▄[0m   [31m▒ ▄■▀[0m
+                [31m▀▌▒[0m    [31m▓▀■[0;37m [0;31m        [0;37m   [0;31m▒[0;37m [0;31m              [0;37m  [0;31m▓[0;1;31m▀▀[0;31m■▄▓[0;1;31;41m░[0;31m▀[0m
+                  [31m░[0m        [31m        [0;37m   [0;31m░[0;37m [0;31m              [0m'

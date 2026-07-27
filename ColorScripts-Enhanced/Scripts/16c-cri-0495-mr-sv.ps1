@@ -5,7 +5,7 @@
 # Source SHA-256: 3a972c87899631783172876750ea3f688256cbeba6a75fe5f4e3d5965eb62c9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-SV.ANS by Mr. Omerta (CRiSiS); released in cri-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Spiritual Void - unreleased.
 # SAUCE Author: Mr. Omerta
 # SAUCE Group: CRiSiS
@@ -18,7 +18,7 @@ Write-Host '
 [1m[[0mC[1;30mRiSi[0mS[1m][0m         [1;36;46m█▓▒░ ░▒▓█[0;1;36;40m▀[0m                       [1;36;40m▄[0;1;36;46m█▓▒░ ░▒▓█[0;1;36;40m▀[0m
              [1;36;40m·  [0;1;36;46m█▓▒░ ░▒▓█[0m                      [1;36;40m▄[0;1;36;46m▓▒░  ░░▒▓[0;1;36;40m▀[0m
                [1;36;46m█▓▒░ ░▒▓█[0m  [1;37;40mS[0mp[1;30miritual Vo[0mi[1md    [0;1;36m▄[0;1;36;46m▓▒░ ░░▒▓█[0;1;36;40m▀▀[0m
-               [1;36;46m█▓▒░ ░▒▓█[0m  [1;37;40m3[0m1[1;30m4·349·15[0m6[1m6    [0;1;36m▄[0;1;36;46m▓▒▒░ ░▒▓[0;1;36;40m▀▀[0m
+               [1;36;46m█▓▒░ ░▒▓█[0m  [1;37;40m [0m [1;30m        [0m [1m     [0;1;36m▄[0;1;36;46m▓▒▒░ ░▒▓[0;1;36;40m▀▀[0m
               [1;36;46m█▓▒░ ░▒▓█[0m   [1;36;40m·[0m            [1;36;40m▄[0;1;36;46m▓▒░  ░▒▓[0;1;36;40m▀▀[0m      [1;36;40m·[0m
              [1;36;46m█▓▒░ ░▒▓█[0m        [1;36;40m·[0m      [1;36;40m▄[0;1;36;46m▓▒░ ░▒▒▓[0;1;36;40m▀[0m
        [1;36;40m·[0m     [1;36;40m▐[0;1;36;46m█▓▒▒ ▒▒▓█[0m   [1;36;40m■[0m       [1;36;40m▄[0;1;36;46m▓▒▒░ ░▒▓▓[0;1;36;40m▀   [0;1;37;40mS[0mt[1;30maf[0mf[1m:[0m

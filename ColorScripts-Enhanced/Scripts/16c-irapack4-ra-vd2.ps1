@@ -5,7 +5,7 @@
 # Source SHA-256: fdeea56dfa34fb375423b6b0a6f5f99d6b367fc03ee5133beb01088a86c11fc8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RA-VD2.ANS by Raptor 709 (irapack4); released in irapack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -29,6 +29,6 @@ Write-Host '
                         [1;37;47m▒▒▓▓████▓[0;1;37;41m   [0;31m▀■ █▀[0;31;41m   [0;31;40m▓█▀ █[0m
 [31;40m  [0;1;30;40mVooDoo/Sysops:Thoraz   [0;1;37;40m▀▀▀[0;1;37;47m███▓▓[0;31m▀▐▌   █    █   █[0m
 [31m  [0;1;30mCrash/Cos:Raptor &[0m              [31m▐▌ · █    █  ▐█▌[0m
-[31m  [0;1;30mPender. 364 5743[0m                [31m▐[0m            [31m█[0;1;37;41m▒[0;31m█[0m
+[31m  [0;1;30m                [0m                [31m▐[0m            [31m█[0;1;37;41m▒[0;31m█[0m
                                   [31m▐    █    █ ▐█[0;1;37;41m▀░[0;31m▌[0m
                                       [31m▐[0;1;37;41m▄[0;31m▌[0m      [31m▀▀▀[0m'

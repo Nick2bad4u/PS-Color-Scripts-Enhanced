@@ -5,7 +5,7 @@
 # Source SHA-256: c1f00eb2411096b1595d25ecb41613c291c5296a6ba220a8e36c0a7f60f5aec1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH!GOI.ANS by Maddog Hoek (moi-1296); released in moi-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -29,5 +29,5 @@ Write-Host '
 [36;40m [0;1;37;47m▀▀▄██████▓▌[0m▌▀ ▀▀▐[1;47m▐▓████████[0m▌[32m▐[0;36;42m░[0;32;40m▌▀▀▀ ▐[0;36;42m░[0;32;40m▌▐[0;1;32;42m░[0;32m▌ ▐[0;36;42m░[0;32;40m▌  ▀[0;1;32;42m░[0;32m▄▐[0;1;32;42m░[0;32m▌ ▐[0;36;42m░[0;32;40m▌  [0;36;42m▒░[0m  [32;40m▀[0;1;32;42m░[0;32m▄▐[0;36;42m░[0;32;40m▌  ▄▄  [0;36;42m░[0;32;40m█[0m
 [32;40m [0;1;37;47m▓██████▓▀▀[0m▀      ▀[1;47m▀▀███▒▀▀[0m▀  [32m▀[0;1;32;42m░[0;32m▄   ▀▀ ▐[0;1;32;42m▒[0;32m▌▄[0;1;32;42m░[0;32m▀ [0;37m▐[0;1;37;47m▐[0;1;37;40m▄▄ [0;32m▀▀  ▀▀▀ ▐[0;36;42m░[0;32;40m▌ [0;1;37;40m▄▄[0m▄▄ [32m▀[0;1;32;42m░[0;32m▄▐[0;1;32;42m░[0;32m▌ ▐█▌[0m
 [32m [0;37m▀[0;1;37;47m▀▀▀▀[0m▀▀▀            ▀▀▀▀               [32m▀▀[0m     [37m▀[0;1;37;47m▀▀▓██▀[0m▀  ▐ [32m▀▀ [0;1;37m▄[0;1;37;47m█▓▌[0m▌▀▄[1m▄ [0;32m▐[0;1;32;42m▒[0;32m▌▄[0;1;32;42m░[0;32m▀ [0;1;37m▄[0m
-           [1;37mG[0;1;33ma[0;33mt[0;1;30meway [0;1;37mo[0;1;33mf [0;1;37mI[0;1;33mn[0;33ms[0;1;30manity [0m■ [1m2[0;1;33m0[0;33m9[0;37m·[0;1;37m6[0;1;33m3[0;33m4[0;37m·[0;1;37m5[0;1;33m1[0;33m3[0;1;30m3[0m     ▀▀▀     ▀[1;47m▀▀██▒▀[0m▀[1;30mmh[0m▀[1;47m▀[0;1;40m▄ [0;32m▀▀  [0;1;37m▄[0;1;37;47m▓[0m█
+           [1;37m [0;1;33m [0;33m [0;1;30m     [0;1;37m [0;1;33m  [0;1;37m [0;1;33m [0;33m [0;1;30m      [0m■ [1m [0;1;33m [0;33m [0;37m [0;1;37m [0;1;33m [0;33m [0;37m [0;1;37m [0;1;33m [0;33m [0;1;30m [0m     ▀▀▀     ▀[1;47m▀▀██▒▀[0m▀[1;30m  [0m▀[1;47m▀[0;1;40m▄ [0;32m▀▀  [0;1;37m▄[0;1;37;47m▓[0m█
        [1mm[0;1;33mO[0;33mi[0;1;30mst [0;1;37mM[0;1;33mB [0m■ [1mR[0;1;33mu[0;33mn[0;1;30mning [0;1;37mR[0;1;33me[0;33mn[0;1;30megade [0m■ [1mS[0m''[1;33mO[0;33mp[0;37m: [0;1;37mW[0;1;33mi[0;33mz[0;1;30mard[0m            ▀▀▀[1;30mRSN■mO[0m▀▀[1;47m▀▀▀▀▀[0m▀[0m'

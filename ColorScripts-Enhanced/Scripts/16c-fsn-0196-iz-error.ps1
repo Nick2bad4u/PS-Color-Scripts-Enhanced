@@ -5,7 +5,7 @@
 # Source SHA-256: cfc1d90223bc2271a79531fd68d1031014d3703393193fbbf14153ea33919f53
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ!ERROR.ANS by ize (fusion); released in fsn-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: system error
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -32,8 +32,8 @@ Write-Host '
 [1;30m■▄  [0;32m█ [0;1;30m░[0m     [1;30m▀▄    [0;32m▄▓▄[0;1;30m░ ░  ▓  ▀▀▄▄▓■[0m         [32m░[0;1;30m░   [0;32m■   ▄▀ [0;1;30m░[0m        [1;30m░  [0;32m■▄ [0;1;30m▒▀■▄░[0m
 [1;30m    [0;32m▓■▄ ▀■   [0;1;30m▒■▄ ░ [0;32m▒ ▄■   [0;1;30m▒  [0me [1;30m· [0mr [1;30m· [0mr [1;30m· [0mo [1;30m· [0mr  [1;30m░[0;32m▐▀■▄█■[0m         [1;30m▄▓▀  [0;32m▀[0;1;30m░[0;1;33;42m▒[0;32m▄■ ■  ■▀[0m
 [32m ■▄▌[0;1;30m░  [0;32m■▀    [0;1;30m░[0m     [32m░[0m     [1;30m■[0m                       [32m■▀█■  [0;1;30m░    ░[0m           [1;30m░[0;32m▀[0;1;33;42m░[0;32m▄█▄■▄[0m
-[32m■    ▀■[0m           [1;30m░  ▀■  ▐  ▓ +46(o)303-49242  ▌   ░[0m      [1;30m▀▀▄[0m             [1;30m░[0;32m▀ ▄■[0m
-[32m  [0;1;30m░[0m     [32m■   [0;1;30m░[0m          [1;30m░    ▀ +46(o)303-49742 ▀■[0m        [1;30m░   ▓■░  ▀▀▄ ░▀▀▄[0m     [32m■▀[0m
+[32m■    ▀■[0m           [1;30m░  ▀■  ▐  ▓                  ▌   ░[0m      [1;30m▀▀▄[0m             [1;30m░[0;32m▀ ▄■[0m
+[32m  [0;1;30m░[0m     [32m■   [0;1;30m░[0m          [1;30m░    ▀                 ▀■[0m        [1;30m░   ▓■░  ▀▀▄ ░▀▀▄[0m     [32m■▀[0m
 [32m    [0;1;30m░[0m         [1;30m░    ▓▀■[0m           [1;30m░[0m               [1;30m░   ░[0m
            [1;30m░  ▄▀▄■[0m       [1;30m▓▀■    ▄■[0m     [1;30m░  ■▀▓  ▄[0m        [1;30m▄▄[0m        [1;30m░[0m      [1;30m■▓[0m
 [1;30m░    ▀▄[0m         [1;30m▓[0m      [1;30m░[0m       [1;30m▓    [0;32m▀▓ ▄■  [0;1;30m░    ■▄  ░  ▓■  ░  ▀▀▓▄    ■▄[0m

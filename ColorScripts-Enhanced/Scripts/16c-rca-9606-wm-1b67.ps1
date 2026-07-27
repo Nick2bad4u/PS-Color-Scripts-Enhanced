@@ -5,7 +5,7 @@
 # Source SHA-256: ecc7cea93e18fab0d4d265590ceeca4fcc704b5e4f2fb3e75f5b6dbf165dae97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WM-1B67.ANS by Watermelon (R.C.A.); released in rca-9606 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Site 1B67
 # SAUCE Author: Watermelon
 # SAUCE Group: R.C.A.
@@ -38,5 +38,5 @@ Write-Host '
 [34m║[0m       [34m░░▒▒▓  [0m      [31m░▒▓▄[0m      [31m▄▓▓▒░[0;1;30m█████▄[0m                [1;30m▄██████[0m [34m░░▒▓▓█[0m       [34m║[0m
 [34m║[0m       [34m░░▒▒▓  [0m     [31m░▒▓▓▓▓▓▄▄▓▓▓▒▒░[0;37m [0;1;30m▀▀█████▄▄  [0m [1;30mSix[0m  [1;30m  ▄▄█████▀▀[0m   [34m░░▒▓██[0m      [34m║[0m
 [34m║[0m     [34m▄▒▒░░▒▒▓  [0m   [31m░▒▒▒▒▒▒▒▒▒▒▒▒░░[0m      [1;30m▀▀█████▄▄[0m [1;30m ▄▄█████▀▀▀[0m      [34m░░▒▓▓█[0m    [32mw[0;31mM[0;34m║[0m
-[34m║[0;37m  [0;34m░░░▒▒░▓░▒▒▓█▄[0;37m [0;31m ░░░░░░░░░░░░░░▀[0;37m [0;1;30m599-0972[0m [1;30m▀▀▀████████▀▀▀[0m [1;30mSysop:Doc[0m [34m░░▒▓██[0;37m [0;34mR[0;32mc[0;31mA [0;34m║[0m
+[34m║[0;37m  [0;34m░░░▒▒░▓░▒▒▓█▄[0;37m [0;31m ░░░░░░░░░░░░░░▀[0;37m [0;1;30m        [0m [1;30m▀▀▀████████▀▀▀[0m [1;30m         [0m [34m░░▒▓██[0;37m [0;34m [0;32m [0;31m  [0;34m║[0m
 [34m╙───────────────────────────────────────────────────────────────────────────''96╜[0m'

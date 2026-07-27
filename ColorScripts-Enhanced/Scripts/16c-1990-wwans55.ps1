@@ -5,7 +5,7 @@
 # Source SHA-256: f24a216e046c79d18c30b3f8097caaf8a778a7f2fe7cda76920a1bb06df28527
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WWANS55.ANS by George Ramos (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -17,7 +17,7 @@ Write-Host '
 [1;36m  [0;1;35mGeorge Ramos[0m            ▀[1;47m▀[0;1;43m [0;1;31;43m▄█[0;1;31;44m▀██▀█[0;1;31;43m▄ [0;1;37;47m▄[0m▄     [33m▀█[0;1;31;43m▀██[0;1;31;41m▀▀██[0;1;31;43m▀ [0;33m▀[0m          [1;36mRBBS[0m
                           [1;36;47m [0;1;37;47m█[0;1;37;43m▄[0;1;31;41m███▀▀███[0;1;37;43m▄[0;1;37;47m▀[0m▀     [43m    [0;1;31;43m▀▀▀▀    [0m
                   [33m▄▄[0m       [37m▀[0;1;37;47m▀▀[0;1;31;47m▀████▀[0;1;37;47m▀ [0m      [34m▄▄[0;33;44m▀▀██[0;37;43m▄[0;33;44m███▀▀[0;34;40m▄▄[0m         [1;36;40m(707)[0m
-                  [34m██[0;34;43m▄[0;34;40m▄[0;33;40m▄   [0;37;40m▄[0;1;37;47m▄▀██▄[0;1;31;47m▀[0;1;37;47m▄███▀▄[0m▄   [44m      [0;40m█[0;44m██       [0m      [1;36;40m263-6612[0m
+                  [34m██[0;34;43m▄[0;34;40m▄[0;33;40m▄   [0;37;40m▄[0;1;37;47m▄▀██▄[0;1;31;47m▀[0;1;37;47m▄███▀▄[0m▄   [44m      [0;40m█[0;44m██       [0m      [1;36;40m        [0m
                   [1;36;44m [0;1;33;44m▄▀ ▄[0;33;44m▀[0;33;40m▄[0;33;47m▄[0;1;37;47m███▄▀▄███▀▄███▄[0m▄[44m     [0;34;47m██   [0;34;40m████████[0m
                   [34;44m [0;1;33;44m▄   ▀ [0;31;44m█[0;1;37;43m▄▀▀██[0;1;37;47m▄█▀▄▀▀▄▀██ [0;1;37;44m    [0;1;34;44m▄ [0;34;47m█   [0;34;44m    [0;1;34;44m▄   [0;34m▄[0m
                   [34;44m  [0;1;33;44m▄ ▄▀ [0;1;33;41m [0;1;37;41m█ █[0;33;41m▀[0;1;37;43m▀[0;1;31;47m▄▄[0;1;37;47m▄▄█████▀[0;44m▀    [0;1;34;44m█  [0;44m███  [0;1;34;44m▄▀     [0m

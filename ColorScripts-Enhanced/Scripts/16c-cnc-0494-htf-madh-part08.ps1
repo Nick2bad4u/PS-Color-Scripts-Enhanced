@@ -5,7 +5,7 @@
 # Source SHA-256: af43c2273175fc231c3382d7d4d0b7c551575dd573387241b363326c64b71361
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HTF-MADH.ANS by Hanzo The Fiend (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 335-384
 # Columns: 1-80
 
@@ -47,7 +47,7 @@ Write-Host '
      [5;31m░▒ ▓██[0;1;5;31m█[0;1;5;33m█[0;5;31m██▒  ░[0m          [5;31m░  ▒▓███[0;1;5;31m█[0;5;31m███▓░  ░[0m             [5;31m░▒ ▓██[0;1;5;31m█[0;1;5;33m█[0;5;31m██▒  ░[0m
      [5;31m▒▓▓██[0;1;5;31m█[0;1;5;33m█[0;1;5;31m█[0;5;31m█▓░ ▒[0m            [5;31m░▒░▒▓█[0;1;5;31m█[0;1;5;33m█[0;1;5;31m█[0;5;31m█▓░ ▒░[0m              [5;31m▒▓▓██[0;1;5;31m█[0;1;5;33m█[0;1;5;31m█[0;5;31m█▓░ ▒[0m
       [5;31m▓███[0;1;5;33m█[0;1;5;31m█[0;5;31m██▒ ▓▒[0m            [1mT[0;1;35mh[0;35me Face Of Sat[0;1;35ma[0;1;37mn[0m             [5;31m▓███[0;1;5;33m█[0;1;5;31m█[0;5;31m██▒ ▓▒[0m
-      [5;31m▒▓█[0;1;5;31m██[0;1;5;33m█[0;1;5;31m█[0;5;31m██▓▒[0m              [1m([0;1;35m7[0;35m140 638-40[0;1;35m6[0;1;37m8[0m               [5;31m▒▓█[0;1;5;31m██[0;1;5;33m█[0;1;5;31m█[0;5;31m██▓▒[0m
+      [5;31m▒▓█[0;1;5;31m██[0;1;5;33m█[0;1;5;31m█[0;5;31m██▓▒[0m              [1m [0;1;35m [0;35m          [0;1;35m [0;1;37m [0m               [5;31m▒▓█[0;1;5;31m██[0;1;5;33m█[0;1;5;31m█[0;5;31m██▓▒[0m
      [5;31m░ ▓██[0;1;5;31m█[0;1;5;33m█[0;1;5;31m██[0;5;31m█▓  ░[0m            [1m0[0;1;35m-[0;35m14 Day War[0;1;35me[0;1;37mz[0m              [5;31m░ ▓██[0;1;5;31m█[0;1;5;33m█[0;1;5;31m██[0;5;31m█▓  ░[0m
      [5;31m▒▒ ▓██[0;1;5;31m█[0;1;5;33m█[0;5;31m█[0;1;5;31m█[0;5;31m▓ ▒[0m             [1m [0;1;35m [0;35m          [0;1;35m [0;1;37m [0m              [5;31m▒▒ ▓██[0;1;5;31m█[0;1;5;33m█[0;5;31m█[0;1;5;31m█[0;5;31m▓ ▒[0m
       [5;31m▓▓██[0;1;5;31m█[0;1;5;33m██[0;1;5;31m█[0;5;31m██▓░[0m            [1mP[0;1;35me[0;35mNiSNET Node [0;1;35m@[0;1;37m1[0m              [5;31m▓▓██[0;1;5;31m█[0;1;5;33m██[0;1;5;31m█[0;5;31m██▓░[0m

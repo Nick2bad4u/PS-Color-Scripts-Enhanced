@@ -5,7 +5,7 @@
 # Source SHA-256: 0c2d178d0582c7cdbe49cc66cd9662343b85550965c22a3d034fd79dd3573aad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MER-PART.ANS by Mercer (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -50,7 +50,7 @@ Write-Host '
                                              [35m░▒▓█[0;1;35;45m░▒▓[0;1;35m█[0;1;35;45m▒░▒▓[0;1;35m██[0;1;35;45m▓▒░[0m
 [1m -[0;1;36m=[0;36m≡[0m         [1m22[0;1;36m-07[0m         [36m≡[0;1;36m=[0;1m-[0m               [35m░▒▓█[0;1;35;45m░▒▓[0;1;35m██[0;1;35;45m▒▓[0;1;35m███[0;1;35;45m▓▒░[0m
                                              [35m░▒▓█[0;1;35;45m░▒▓[0;1;35m███████[0;1;35;45m▓▒░[0m
-[1m -[0;1;36m=[0;36m≡    [0;1;36m+358[0;1m-4[0;1;36m1-2[0;36m42828[0m     [36m≡[0;1;36m=[0;1m-[0m            [32m▄▄▄▄[0;35m▒▓█[0;1;35;45m░▒▒▓[0;1;35m████[0;1;35;45m▓▓▒░[0;35m▌ [0;32m▄▄▄▄[0m
+[1m  [0;1;36m [0;36m     [0;1;36m    [0;1m  [0;1;36m   [0;36m     [0m     [36m [0;1;36m [0;1m [0m            [32m▄▄▄▄[0;35m▒▓█[0;1;35;45m░▒▒▓[0;1;35m████[0;1;35;45m▓▓▒░[0;35m▌ [0;32m▄▄▄▄[0m
                                      [32m░░░▒▒▓▓██[0;1;32;42m░▒▓▓[0;1;35;45m▒▒▓[0;1;35m███[0;1;35;45m▓▓▓[0;1;32;42m▓▓▒░  [0;32m▓▓▒▒░░░[0m
 [32m [0;1m-[0;1;36m=[0;36m≡[0m      [1mSys[0;1;36mOp: [0;36mUde[0m       [36m≡[0;1;36m=[0;1m-[0m       [32m░▒▒▓▓██[0;1;32;42m░░▒▓██████[0;1;35m▀[0;1;32m██████[0;1;32;42m▓▒░░  [0;32m▓▓▒▒░[0m
                                     [32m░▒▓▓██[0;1;32;42m░░▒▒▓███████[0m [1;32m███████[0;1;32;42m▓▒▒░░[0;32m██▓▓▒░[0m

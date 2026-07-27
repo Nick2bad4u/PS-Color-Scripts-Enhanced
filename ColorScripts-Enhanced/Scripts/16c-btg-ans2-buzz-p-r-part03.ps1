@@ -5,7 +5,7 @@
 # Source SHA-256: b56ea3df808fe03c82d2c45ef9aca3fb0c4c8d2ded6771e9424effa657d2cfff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BUZZ#P&R.ANS by Rage + Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 94-116
 # Columns: 1-80
 
@@ -15,7 +15,7 @@ Write-Host '
 [1;30;40m   ▐ [0;1;30;44m [0;1;34;44m░░░░░░░ [0;1;34;40m▐[0;1;34;44m░░░░  [0;1;30;40m▐ ▌[0;1;30;44m   [0;1;34;44m░░░░   [0;34m▐[0;1;34;44m░░░░░░░ [0;34m▐[0;1;34;44m░░░░░░░ [0m [1;30;40m▌[0m
 [1;30;40m   ▌[0;1;30;44m [0;1;34;44m░░▒▒▒▒▒░░[0;34m▌[0;1;34m▐[0;1;34;44m▒▒░░ [0;1;30;40m▐ ▐ [0;1;30;44m [0;1;34;44m░░▒▒░░  [0;1;34;40m▐[0;1;34;44m▒▒▒▒▒▒▒░ [0;1;34;40m▐[0;1;34;44m▒▒▒▒▒░░ [0;1;30;40m▐[0m
 [1;30;40m  ▐ [0;1;30;44m [0;1;34;44m░▒▒▒▒▒▒▒░ [0;1;34;40m▐[0;1;34;44m▓▓▒░ [0;1;30;40m▐  ▌[0;1;30;44m [0;1;34;44m░▒▓█▒░ [0;34m▐[0;1;34;44m░░▒▓▓█▓▒░ [0;1;34;40m▐[0;1;34;44m▒▓▓█▒▒░ [0;1;30;40m▐[0m
-[1;30;40m  ▌[0;1;30;44m [0;1;34;44m░▒▒▒▓▓▓▒▒▒░[0;34m▌[0;1;34m▐[0;1;34;44m▓▒░ [0;1;30;40m▐  ▌[0;1;30;44m [0;1;34;44m░▒▓▓▒░ [0;34m▐[0;34;44m  [0;1;34;44m░▒█▓▒░ [0m [1;34;44m ░▒█▓▒░ [0m [1;30;40m█   [0;1;37;40m+3[0;1;36;40m58[0;36m-(9)83-42[0;1;36m56[0;1;37m21[0m
+[1;30;40m  ▌[0;1;30;44m [0;1;34;44m░▒▒▒▓▓▓▒▒▒░[0;34m▌[0;1;34m▐[0;1;34;44m▓▒░ [0;1;30;40m▐  ▌[0;1;30;44m [0;1;34;44m░▒▓▓▒░ [0;34m▐[0;34;44m  [0;1;34;44m░▒█▓▒░ [0m [1;34;44m ░▒█▓▒░ [0m [1;30;40m█   [0;1;37;40m  [0;1;36;40m  [0;36m         [0;1;36m  [0;1;37m  [0m
 [1;37m  [0;1;30m▌[0;1;30;44m [0;1;34;44m░▒▒▓███▓▒▒░ [0;1;34;40m▐[0;1;34;44m▒░ [0m [1;30;40m▌  ▐ [0;1;30;44m [0;1;34;44m░▒▓▒░ [0m [1;30;40m▄ [0;1;30;44m [0;1;34;44m░▒▒░ [0m [1;30;40m█ [0;1;30;44m [0;1;34;44m░▒▒░ [0m [1;30;40m█    [0;1;37;40mV.[0;1;36;40m32[0;36mBiS / V.4[0;1;36m2B[0;1;37miS[0m
 [1;37m [0;1;30m▐ [0;1;30;44m [0;1;34;44m░▒▓█[0m [1;30;40m▄ [0;1;34;44m█▓▒▒░[0;34m▌[0;1;34m▐[0;1;34;44m░ [0;1;30;40m▐    ▌[0;1;30;44m [0;1;34;44m░▒▓▒░ [0;1;30;40m▐ [0;1;30;44m [0;1;34;44m░▒▒░ [0m [1;30;40m█ [0;1;30;44m [0;1;34;44m░▒▒░ [0m [1;30;40m█[0m       [1;37;40mOp[0;1;36;40meN [0;36m24H[0;1;36m/D[0;1;37may[0m
 [1;37m [0;1;30m▌[0;1;30;44m [0;1;34;44m░▒▒▓█[0m [1;30;40m▀ [0;1;34;44m█▓▒▒░ [0;1;34;40m▐[0;1;34;44m░ [0m [1;30;40m▌   ▌[0;1;30;44m [0;1;34;44m░▒▓▒░ [0m [1;34;44m ░▒▒░ [0m [1;30;40m█ [0;1;30;44m [0;1;34;44m░▒▒░ [0m [1;30;40m█   [0;1;37;40mCHa[0;1;36;40moS W[0;36moRLD HeaDQu[0;1;36maRT[0;1;37meRs[0m

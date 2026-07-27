@@ -5,7 +5,7 @@
 # Source SHA-256: ee5f26daaf696edfca21161ea3bc8a2d789d4a9cf595333ff9bbce7640f02f4d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FLAMES.ANS by Storm Hawk (ace-r2); released in ace-r2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 36-74
 # Columns: 1-80
 
@@ -36,7 +36,7 @@ Write-Host '
 [31m  ▀▀▀[0m     [31m▀▀▀▀▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀   ▀▀▀ ▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀[0m
 [31m [0;1;31m12oo - 144oo Bps[0m       [31m▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄[0m       [31m▄▄▄ ▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄[0m     [31m▄▄▄[0m
 [31m [0;1;31mOpen: 22:oo-o6:oo[0m     [31m█[0;1;31;41m▄[0;1;31;40m█████[0;1;31;41m▄[0;31;45m█[0;1;31;41m▄[0;1;31;40m█████[0;1;31;41m▄[0;31m█[0m     [31m█[0;1;31;41m▄[0;1;31;40m██[0;31m█[0;1;31m██[0;1;31;41m▄[0;31;45m█[0;1;31;41m▄[0;1;31;40m█████[0;1;31;41m▄[0;31m█[0;1;31;41m▄[0;1;31;40m██[0;31m█   █[0;1;31;41m▄[0;1;31;40m██[0;31m█[0m
-[31m [0;1;31m(941) 244071[0m          [31m█[0;1;31m███[0;31m█[0;1;31m███[0;31;45m█[0;1;31;40m███[0;31m█▀▀▀[0m      [31m█[0;1;31m███[0;31m█[0;1;31m███[0;31;45m█[0;1;31;40m███[0;31m█▀▀▀█[0;1;31m███[0;31m█   █[0;1;31m███[0;31m█[0m
+[31m [0;1;31m            [0m          [31m█[0;1;31m███[0;31m█[0;1;31m███[0;31;45m█[0;1;31;40m███[0;31m█▀▀▀[0m      [31m█[0;1;31m███[0;31m█[0;1;31m███[0;31;45m█[0;1;31;40m███[0;31m█▀▀▀█[0;1;31m███[0;31m█   █[0;1;31m███[0;31m█[0m
                        [31m█[0;1;31m███[0;31m█[0;1;31m███[0;31;45m█[0;1;31;40m███[0;31m█▄▄▄[0m      [31m█[0;1;31m███[0;31m█[0;1;31m███[0;31;45m█[0;1;31;40m███[0;31m█▄▄▄█[0;1;31m███[0;31m█   █[0;1;31m███[0;31m█[0m
 [31m [0;1;31mA.C.E. WHQ[0m            [31m█[0;1;31m███[0;31m█[0;1;31m███[0;31;45m█[0;1;31;40m██████[0;1;31;41m▀[0;31m█[0m     [31m█[0;1;31m███████[0;31;45m█[0;1;31;40m██████[0;1;31;41m▀[0;31m█[0;1;31m███[0;31m█   █[0;1;31m███[0;31m█[0m
 [31m [0;1;31mExtreme Member Board  [0;31m█[0;1;31m███[0;31m█[0;1;31m███[0;31;45m█[0;1;31;40m███[0;31m█▀▀▀[0m      [31m█[0;1;31m███[0;31m█[0;1;31m███[0;31;45m█[0;1;31;40m███[0;31m█▀▀▀█[0;1;31m███[0;31m█   █[0;1;31m███[0;31m█[0m

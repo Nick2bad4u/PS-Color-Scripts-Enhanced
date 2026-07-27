@@ -5,7 +5,7 @@
 # Source SHA-256: f25e426275c66843b5d25981ea4e07266d77723762818fb6eadf7e4e8b0a595c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD!KAOZ.ANS by sad (black pyramid! inc.); released in bpi0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: kaoz logo
 # SAUCE Author: sad
 # SAUCE Group: black pyramid! inc.
@@ -33,5 +33,4 @@ Write-Host '
 [37m [0;34m■▀▀▀█[0;1;34;44m▀▀[0;34m█▄[0m   [34m█[0;1;34;46m▒▓[0;1;34;44m█▌[0;34m▌[0m   [34m▀▀▀▀█[0;1;34;44m▀▀[0;34m█▄▄[0;37m [0;34m▐[0;1;34;44m▐[0;1;34;40m███[0;1;34;44m▌[0;34m▌[0;37m  [0;34m■▀▀▀[0;1;34;44m ▀▀[0;34m█▄▄[0;37m [0;34m▐[0;1;34;44m▐[0;1;34;40m███[0;1;34;44m▌[0;34m▌[0;37m [0;34m■▀▀▀[0;1;34;44m ▀▀[0;34m█▄▄[0;37m [0;34m▐[0;1;34;44m▐[0;1;34;47m▓[0;1;34;40m██[0;1;34;44m▌[0;34m▌[0m
            [37m [0;34m▄█[0;1;34;44m▀[0;34m▀▀▀▀▀ [0m           [34m▀▀▀▀[0;1;34;44m ▀▀[0;34m█▄[0m           [34m▀▀▀▀[0;1;34;44m ▀▀[0;34m█▄ [0m       [1;30msd[0;34m▀▀▀▀[0;1;34;44m ▀▀[0;34m█[0m
                    [33m░[0m                                                 [33m░[0m
-                   [33m░[0m
-                          [35m.o. kaoz +49.2421.931494 .o.[0m'
+                   [33m░[0m[35m[0m'

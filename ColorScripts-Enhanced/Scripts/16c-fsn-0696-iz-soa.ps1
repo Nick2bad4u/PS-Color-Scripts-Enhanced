@@ -5,7 +5,7 @@
 # Source SHA-256: 44ab9b6e391430bf5af0af2d4060a39634564e1be3bd5a3134c3bcae2b2a9632
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ%SOA.ANS by ize (fusion); released in fsn-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: state of art!
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -36,5 +36,5 @@ Write-Host '
         [32m [0m               [32m [0;37m [0;32m  ▄[0m      [32m  [0;1;32m  [0;1;33m [0;1;32m [0;1;33m  [0;1;32m  [0;32m  [0m                        [32m▐▌[0m
       [32m▐▌ [0m                       [32m   [0;1;32m    [0;1;33m     [0;1;32m   [0;32m   [0;37m  [0;1;32m [0m   [32m [0;1;33m▀[0m            [1;32m▄[0;32m▀[0m
 [37m [0m      [32m▀[0;1;32m▄[0m            [32m [0;37m [0;32m [0;1;32m▄[0m        [32mcia[0;1;32m mem[0;1;33mber[0;1;32mboa[0;32mrd![0;37m  [0;1;32m [0m        [1m▀[0m   [1;33m▄[0;32m  [0;1;32m▀[0m
-        [32m  [0;1;33m ▄[0m        [1;33m▄[0m             [32m+46[0;1;32m.3[0;1;33m04.6[0;1;32m77[0;32m613[0m
+        [32m  [0;1;33m ▄[0m        [1;33m▄[0m             [32m   [0;1;32m  [0;1;33m    [0;1;32m  [0;32m   [0m
              [32m [0;37m [0;1;37m▀[0m [32m [0m                [1;32m             [0m'

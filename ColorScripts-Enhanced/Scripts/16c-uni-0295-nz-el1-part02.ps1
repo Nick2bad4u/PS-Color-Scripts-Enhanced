@@ -5,7 +5,7 @@
 # Source SHA-256: 59bc5cbb0a7a146d68560d03179ea2b5e8213d20bb752f35d24afdd605b494a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-EL1.ANS by Nailz (Union); released in uni-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Eleutheria
 # SAUCE Author: Nailz
 # SAUCE Group: Union
@@ -47,6 +47,4 @@ Write-Host '
 [31m░ [0;1;37m██   ██[0;36m▀[0;1;37m█▄▄▄ █[0;1;37;46m█[0;36m▄[0;1;37m▄█   ██ ██   ██ [0;31m░ [0;36m▀[0;1;37m▀▀█[0m     [1;37m██   ██ ██   ██[0;36m▀[0;1;37m▀█   ██ ██ ██ [0;31m▓ [0;1;37m██[0m
 [1;37m  ▐█▌ ▐█▌ ▐█▌ ▐█▌ ▐█▌ ▐█▌ ▐█▌ ▐█▌[0m     [1;37m██[0m     [1;37m██  ▐█▌ ▐█▌ ▐█▌ ██   ██[0;36m▄[0;1;37m██ ██ [0;31m▒ [0;1;37m█▄▄[0m
 [1;37m   ▀█ █▀   ▀█ █▀   ▀█ █▀[0;31m▄▓ [0;1;37m▀█ █▀[0m      [1;37m██[0m     [1;37m██  █▀[0;31m■▓▄[0;1;37m▀█ █▀  ██   ██ ▄█ ██ [0;31m░ [0;1;37m██[0m
-     [1;37m▀[0m       [1;37m▀[0m       [1;37m▀   [0;31m░   [0;1;37m▀[0m        [1;37m▀[0m      [1;37m▀  ▀   [0;31m░   [0;1;37m▀    ▀[0m     [1;37m▀ ▀  ▀[0m     [1;37m▀[0m
-
-                         [36mE[0;1;37mleutheria [0;31m+ [0;36m6[0;1;37m06 - 223 - 1853[0m'
+     [1;37m▀[0m       [1;37m▀[0m       [1;37m▀   [0;31m░   [0;1;37m▀[0m        [1;37m▀[0m      [1;37m▀  ▀   [0;31m░   [0;1;37m▀    ▀[0m     [1;37m▀ ▀  ▀[0m     [1;37m▀[0m'

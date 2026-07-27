@@ -5,7 +5,7 @@
 # Source SHA-256: 93ee480cfc05919727829601a9f7cbc426e623fccf4596c6d17358cbe7558413
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-GOLD1.ANS by Blind Enemy (Back to Basix); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: GOLDEN iMAGE - LOGiN #1
 # SAUCE Author: Blind Enemy
 # SAUCE Group: Back to Basix
@@ -40,7 +40,7 @@ Write-Host '
 [1;30m▐▒▓▌ iNTROS[0;36m [0;1;30m░░[0m [36m▄▒▓▀[0;37m  [0;1;30m█[0m ▒    [1;30;47m▓[0m [1;30m░Sys: Brian /LD[0m   [1;30m ▄ [0m ░[1;30mbl [0m [1;30m░[0m [1;30m▄█▀▓▒▒▀[0m  [1;30mGRAFiX[0m [36m ▌[0m
 [37m [0;1;30m░██ BOOZE[0m [1;30m▒▀[0m [36m▐▓█▀[0m     [1;30m▄[0m    [1;30mCoSys: Pit Bull /LD[0m   [1;30m▓▄ ▄▄▀■[0m [1;30m▐█▀[0m      [1;30mMUZZAX[0m  [36m█[0m
 [37m  [0;1;30m▀▓▄HpAV[0m [1;30m░[0m  [1;30m▌[0m [36m■▀[0;1;30m [0m  [1;30m▄▓▀ [0m       [1;30m                   [0m [1;30m ▀▀▀▓ [0m [1;30m▄█ [0;36m■▄[0m   [1;30mDEMOS[0m [36m■[0;37m [0;36m█▓█[0m
-   [1;30m██▓▓▄[0m   [36m▐[0;37m [0;1;30m▀▄▄▀[0m  [1;30m▓▓[0m [36m▄▌■[0;1;30mNode 1: ÷49-(o)6o39-45756 28k8[0m [1;30m▄██ [0;36m▌▓██[0;37m [0;1;30m■▄▄▀[0m [36m ▐▄▌▒░▌[0m
-    [1;30m▀▀▓█▓▄[0m [36m█[0;37m  [0;1;30m▓[0m   [1;30m▒█▄[0m  [36m▀ [0;1;30mNode 2: ÷49-(o)6039-45775[0m [1;30m28k8[0m [1;30m▄▀[0m [36m▀▄▒▓[0;37m  [0;1;30m▓█[0m [36m▀▄█▓▓▒█▀[0m
-       [1;30m▀▀▀▌[0;36m▀▓▄ ▄▒▄[0;37m [0;1;30m▀▀██[0m [36m [0;1;30mNode 3: ÷49-(o)6o39-45795[0m [1;30m19k2[0m [36m▄▄▄▓▀▀[0;37m [0;1;30m■▀[0m  [36m█▄[0;37m [0;36m▀▀▀▀[0m
+   [1;30m██▓▓▄[0m   [36m▐[0;37m [0;1;30m▀▄▄▀[0m  [1;30m▓▓[0m [36m▄▌■[0;1;30m                              [0m [1;30m▄██ [0;36m▌▓██[0;37m [0;1;30m■▄▄▀[0m [36m ▐▄▌▒░▌[0m
+    [1;30m▀▀▓█▓▄[0m [36m█[0;37m  [0;1;30m▓[0m   [1;30m▒█▄[0m  [36m▀ [0;1;30m                         [0m [1;30m    [0m [1;30m▄▀[0m [36m▀▄▒▓[0;37m  [0;1;30m▓█[0m [36m▀▄█▓▓▒█▀[0m
+       [1;30m▀▀▀▌[0;36m▀▓▄ ▄▒▄[0;37m [0;1;30m▀▀██[0m [36m [0;1;30m                         [0m [1;30m    [0m [36m▄▄▄▓▀▀[0;37m [0;1;30m■▀[0m  [36m█▄[0;37m [0;36m▀▀▀▀[0m
             [36m▀▀█▓▀[0;37m [0;1;30mbl[0m   [1;30m▀■[0m                             [36m▄▀█▀ [0m   [36m▀[0;37m [0;36m▌▄▀▀[0m'

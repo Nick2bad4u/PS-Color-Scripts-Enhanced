@@ -5,7 +5,7 @@
 # Source SHA-256: d12f33b92fc33323dc6a7e0d329d2014aca2c25e627f9efb74bd279b9db41fdd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-GS.ANS by Tripe (mOtion); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Graveyard Shift
 # SAUCE Author: Tripe
 # SAUCE Group: mOtion
@@ -43,7 +43,7 @@ Write-Host '
 [1;30m▄▀▀▀▀▓▀ ▀■▄▀▄ ▀▀▒▀▀▀▓▀ ▀▄▄▓▀▀▀▀▀■▀▀ ▀■▀▀▀▒▀▀▄▄▓▀▀▓▄ ▀▓▀■▀ ▀▓■▀▀▀▓▀▀▀▀ ▀▀▓▄ ■▀▀▀▄[0m
 [1;30m▒G[0;1;37m   [0;1;30m▒[0mR[1m     A   [0;1;30m░[0;1;37m V [0;1;30m [0;1;37m   E [0;1;30m░[0;1;37m   Y     A    [0;1;30m░[0;1;37mR   [0;1;30m [0;1;37m D    [0;1;30m▒░[0;1;37m S [0;1;30m░[0;1;37m   H [0;1;30m░[0;1;37m   I     [0mF[1m   [0;1;30mT▓[0m
 [1;30m▓[0m                   [1;30m░[0m                                                          [1;30m▒[0m
-[1;30m ▄[0m           [1;30m▒[0m     [1;30m ▒[0m      [1;30m▄[0m  [1;30m[[0m803[1;30m][0m732[1;30m[[0m1181[1;30m][0m                                 [1;30m░[0m [1;30m░[0m
+[1;30m ▄[0m           [1;30m▒[0m     [1;30m ▒[0m      [1;30m▄[0m  [1;30m [0m   [1;30m [0m   [1;30m [0m    [1;30m [0m                                 [1;30m░[0m [1;30m░[0m
  [1;30m▄▀▀▓▄ ▀▄▓■▄▀▓▀▀ ■▀▀▓▀▀▀▄▐▓ ▄[0m [1;30m░N[0mUP[1;30m: S[0mO[1mULS OF CHA[0mO[1;30mS[0m [1;30m■ AC[0mi[1;30mD ■ U[0mN[1mi[0mO[1;30mN ■ A[0mF[1mFi[0mL[1;30mS[0m   [1;30m▒[0m
 [1;30m▓[0m  [1;31m ▄▄▄ [0m            [1;30m▒[0m        [1;30m▀▒R[0mU[1mNNING A USR 2[0m8.[1;30m8[0m [1;30m■[0m [1;30m1[0m4[1m.4[0;1;30m▄[0;1;37m+ ON[0mL[1;30mY[0m [1;30m■ T[0mO[1mP ELI[0mT[1;30mE[0m  [1;30m▓ [0m
 [1;30m▒[0m  [1;31;41m█▓▒░[0;31m█[0;37m [0;1;30mANSi by tripe[[0mMOTiON[1;30m]▓▄▄■▄▄▓▀ ▄▓▒ ▄▄▄▄▄■▓▄ ▄▓▄▐▄▄   ▄▓▄■ ▀▓▄▄▄■▄ ▀▀▄▀[0m

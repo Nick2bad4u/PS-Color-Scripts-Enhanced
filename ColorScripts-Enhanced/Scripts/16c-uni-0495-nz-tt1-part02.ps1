@@ -5,7 +5,7 @@
 # Source SHA-256: 89f600ed884257c507e56fb21fcea5fa199ff0750352a27e55a07bbfffa6a81e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-TT1.ANS by Nailz (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Termite Terrace
 # SAUCE Author: Nailz
 # SAUCE Group: READ THE INI FILE
@@ -52,7 +52,7 @@ Write-Host '
 [36m▐▌ ▌ [0;1;37m▀[0;1;34m▀[0;1;34;44m▓[0m    [36m▐▌[0m                       [1;36;46m░[0;36m▄▄   ▄▀[0m                 [34m▀[0;1;34m▀[0;1;37;44m▄[0m       [36m▐▌[0m     [36m▐[0m
 [36m ▀▄▌[0m       [36m▄▀[0m                        [36;46m [0m  [36;40m▀▀▀[0m                              [36;40m▀▄    ▐[0m
 [36;40m   ▀▀▄▄▄▄▀▀▓[0m       [37;40mT  e  r  m  i  t  [0;30;46me[0m    [37;40mT  e  r  r  a  c  e[0m              [36;40m▀[0;1;36;46m░[0;36m▄▄▄[0m
-[36m   ▌[0m       [36m▒[0m         [37mOps/ [0;1;37mToon Goon [0m.[1;46mi[0;1;40mCE  [0;1;31;40m■  [0;1;37;40m214[0m/ [1m288 [0m.[1m3211[0m                 [36m█  ▐[0m
+[36m   ▌[0m       [36m▒[0m         [37m     [0;1;37m          [0m [1;46m [0;1;40m    [0;1;31;40m■  [0;1;37;40m   [0m  [1m    [0m [1m    [0m                 [36m█  ▐[0m
 [36m   ▌[0m       [36m░[0m                         [36m▓[0m                                      [36m▓  ▐[0m
 [36m   ▌[0m                                 [36m▒[0m                                      [36m▒  ▐[0m
 [36m   ▌[0m                                 [36m░[0m                                      [36m░  ▐[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: adc77351ab55e5728cb6c3c6d8a3a222d68db486fa661ba95dd6198916ae1e35
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MOR1#PAZ.ANS by Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -37,7 +37,7 @@ Write-Host '
 [1;34;40m██████[0;33m▐██▐██████▄▄▄███▐████▄▄▄███▐███▌[0;1;34m████[0;1;34;44m▌[0;34m████████[0;31m██[0;34m█[0;31m██[0;31;44m [0;31;40m██[0;34;40m█[0;31;40m██[0;31;44m [0;31;40m██[0;31;44m [0;31;40m██[0;31;44m           [0m
 [1;34;40m██████[0;33m▐██ ██████▄█████▐█████▐████████▌[0;1;34m█████[0;34m████████[0;31m████[0;34m█[0;34;44m [0;31;40m████[0;34;40m█[0;34;44m  [0;31;40m███[0;31;44m            [0m
 [1;34;40m██████▌[0;33m███▐████  ▀▀███▄█████▄█▀▀  ▐██[0;1;34m▐████[0;1;34;44m█▌[0;34m███████████████████████████████████[0m
-[1;34m██████▌[0;33m███ ████▌[0m       [33m██▌[0m        [33m███[0;1;34m▐█████[0;34;44m█[0;34;40m███████████████████[0;1;37;44m+[0;1;33;44m3[0;1;32;44m58-81-31155[0;1;33;44m3[0;1;37;44m5[0;34m█[0m
+[1;34m██████▌[0;33m███ ████▌[0m       [33m██▌[0m        [33m███[0;1;34m▐█████[0;34;44m█[0;34;40m███████████████████[0;1;37;44m [0;1;33;44m [0;1;32;44m           [0;1;33;44m [0;1;37;44m [0;34m█[0m
 [1;34m███████[0;33m▐███ ████  ▄▄   ▀▀▀ ▐█▌  ▄███▌[0;1;34m████[0;1;34;44m█▌[0;34m████████████████████[0;34;44m   [0;1;37;44mO[0;1;33;44mp[0;1;32;44men 24h/d[0;1;33;44ma[0;1;37;44my[0;34m█[0m
 [1;34m███████▌[0;33m████ ████▄███[0m      [33m▐██▄██▌██[0;1;34m▐█████[0;1;34;44m▌[0;34m████████████████[0;1;37;44mS[0;1;33;44mp[0;1;32;44meeds 1.2k - 14.[0;1;33;44m4[0;1;37;44mk[0;34m█[0m
 [1;34m████████ [0;33m████ ███▌█████▀█████▐███▌█ [0;1;34m██████[0;34;44m▌[0;34;40m████████████████[0;34;44m [0;1;37;44mS[0;1;33;44mo[0;1;32;44mftware: SuperB[0;1;33;44mB[0;1;37;44mS[0;34m█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 01c62a140fde21d74bea8425aede352a22aaae3d067ede6aadbcee8d8c6de4a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AM-AOD.ANS by Anonymous Man (ato-0294); released in ato-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 27-57
 # Columns: 1-80
 
@@ -16,11 +16,11 @@ Write-Host '
      [1;30;40m▄▀ ░▒▓▓[0;1;30;47m░░▒▒░░[0;1;37;47m▒▒▒▒▒▓▓▓▓▓▓▓▓▓██[0;1;37;40m▄[0m
      [1;30;40m▄▄▄▀▀▀▀▄▄▄[0;1;30;47m▒▒░░[0;1;37;47m▒▒▒▒▒▒▄▄▄████▄▄█[0m            [1;5;37;40mUNREGiSTERED[0m
 [1;5;37;40m  [0;1;30m▄▀▀ ▄▄▄▄▄▓▓▓▓▀▀▄[0;1;30;47m░░░[0;1;37;47m▒▄███[0;1;37;40m██[0;1;37;47m▀▀▀▀▀▀█▀▀[0;1;37;40m▄[0m
-[1;37;40m [0;1;30;40m█ ▄[0;1;30;41m▀▀[0;31;47m█████[0;1;30;41m▀▀[0;1;30;40m▄▄▓[0;1;30;47m░▒▒░░[0;1;37;40m██[0;1;37;47m▓▓▓[0m█[31;47m▄▄█████▄▄[0;1;37;47m▓▓[0;1;37;40m█  For registration info call MORDENTSHiRE[0m
+[1;37;40m [0;1;30;40m█ ▄[0;1;30;41m▀▀[0;31;47m█████[0;1;30;41m▀▀[0;1;30;40m▄▄▓[0;1;30;47m░▒▒░░[0;1;37;40m██[0;1;37;47m▓▓▓[0m█[31;47m▄▄█████▄▄[0;1;37;47m▓▓[0;1;37;40m█                                         [0m
 [1;30;40m█   [0;1;30;41m█[0;31;47m█[0;1;31;41m▐[0;1;31;40m█████[0;1;31;41m▄▄[0;31;47m█[0;1;30;41m▀▀[0;1;30;40m▄[0;1;30;47m▒▒░[0;1;37;47m█[0m█[31;47m▄▄█[0;1;31;41m▄▄█████▌[0;31;47m█[0;37;40m█[0;1;37;47m▒▓▓[0;1;37;40m█[0m
 [1;30;40m█    [0;1;30;41m█ [0;1;31;41m██[0;1;33;40m█████[0;1;31;40m█[0;1;31;41m▌[0;31;47m█[0;1;30;41m▄█[0;1;30;47m░░[0m█[31;47m▀█[0;1;31;41m▐█[0;1;33;40m█████[0;1;31;41m██[0;31;47m█[0;37;40m█[0;1;37;47m▒▒▓▓[0;1;37;40m█ [0mSySoP: [1mISHAMAEL[0m
 [1;30m█    ▀[0;1;30;41m▄[0;31;47m██[0;1;31;41m███[0;1;33;40m█[0;1;37;40m█[0;1;33;40m█[0;1;31;41m▌[0;1;30;41m▄█[0;1;30;47m▒▒░░[0m█[31;47m▀[0;1;31;41m▐[0;1;33;40m█[0;1;37;40m█[0;1;33;40m█[0;1;31;41m███[0;31;47m██▀[0;37;40m█[0;1;37;47m▒▒▓▓[0;1;37;40m█[0m
-[1;37;40m [0;1;30;40m█[0m     [1;30;40m▀▀[0;1;30;41m▄▄▄[0;1;31;41m▀▀▀[0;31;47m█[0;1;30;40m█[0;1;30;47m░░▒▒░░[0m█[31;47m█[0;1;31;41m▀▀▀[0;31;47m▀▀▀[0;37;40m██[0;1;37;47m▒▒▓▓▓[0;1;37;40m█  [0mPHONE: [1m459-0688  [0m14.4k
+[1;37;40m [0;1;30;40m█[0m     [1;30;40m▀▀[0;1;30;41m▄▄▄[0;1;31;41m▀▀▀[0;31;47m█[0;1;30;40m█[0;1;30;47m░░▒▒░░[0m█[31;47m█[0;1;31;41m▀▀▀[0;31;47m▀▀▀[0;37;40m██[0;1;37;47m▒▒▓▓▓[0;1;37;40m█  [0m       [1m          [0m     
   [1;30m▀▄[0m        [1;30m▀▀▀▀▓[0;1;30;47m░░░▒▒░░[0m████[1;47m▒▒▓▓▓▓▓▓▄[0;1;40m▀[0m          [1;40m453-6585  [0m16.8k
     [1;30m▀▀▄▄▄   ░▒▓[0;1;30;47m░░[0m█[31;47m▄[0;37;40m█[0;31;47m▄▄[0;37;40m█[0;1;30;47m░░░[0;1;37;47m░▒▒▓▓▄▄▄[0;1;37;40m▀▀[0m
 [1;37;40m   [0;1;30;40m▄▀[0m      [1;30;40m░▒▓[0;1;30;47m░░[0m█[31;47m▄[0;1;31;41m▄▄██▌[0;1;31;47m [0;1;30;47m░░[0;1;37;47m░░▒▒▓▓▓▓▓▀[0;1;37;40m▄[0m          [1;37;40mHOME OF AoD[0m

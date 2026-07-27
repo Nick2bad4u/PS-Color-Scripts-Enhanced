@@ -5,7 +5,7 @@
 # Source SHA-256: c0951aa0253256746a042aa15fa867aae5b72a5aa80ef1e2ce9169ca52f1a5d7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-ACID3.ANS by Mysterio (acdu1092); released in acdu1092 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 145-194
 # Columns: 1-80
 
@@ -52,7 +52,7 @@ Write-Host '
 [1;30;40m▒▓[0;1;30;43m███▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░░[0;33m▄▄▄▄▄[0m                  [33m▄▄▄▄█[0;33;43m [0;1;30;43m░░░░░░░▒▒▒▒▒▒▓▓▓▓▓█████[0;1;30;40m▓▓▒[0m
 [1;30;40m░▒▓[0;1;30;43m████▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░[0;33m█████████████████████████[0;1;30;43m░░░░░░░▒▒▒▒▒▓▓▓▓▓▓▓█████[0;1;30;40m▓▓▒▒[0m
 [1;30;40m▒▓[0;1;30;43m███▓▓▓▓▒▒▒▒▒▒▒▒░░░░░░░      [0;30;43m· SPYRIT''S CRYPT ·  [0;33;40m██[0;33;43m  [0;1;30;43m░░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓████[0;1;30;40m▓▒[0m
-[1;30;40m▓[0;1;30;43m███▓▓▓▒▒▒▒▒▒░░░░░░░░░    [0;30;43m802·879·1136 ■ iNSANITY WHQ  [0;1;30;43m░░░░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓███[0;1;30;40m▓[0m
+[1;30;40m▓[0;1;30;43m███▓▓▓▒▒▒▒▒▒░░░░░░░░░    [0;30;43m             ■               [0;1;30;43m░░░░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓███[0;1;30;40m▓[0m
 [1;30;43m██▓▓▓▒▒▒▒▒▒░░░░░░░   [0;30;43mRAZOR 1911 Member Site ■ ACiD Member Site [0;1;30;43m░░░░░▒▒▒▒▒▓▓▓▓▓██[0m
 [1;30;43m█▓▓▒▒▒▒▒░░░░░░░░   [0;30;43mMercury [802] Member Site ■ Running PCExpress  [0;1;30;43m░░░░░▒▒▒▒▒▓▓▓█[0m
 [1;30;43m▓▓▒▒▒░░░░░░░░   [0;30;43mSysop: Black Spyrit [Razor 1911/ACiD/iNSANITY Pres]   [0;1;30;43m░░░░▒▒▒▒▓▓[0m

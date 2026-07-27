@@ -5,7 +5,7 @@
 # Source SHA-256: da94889991e935489a21ec17c1875fa08ed63b8a1c79b59f7160be1afd97e776
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BADLACD1.ANS by Cerebrus (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 49-96
 # Columns: 1-80
 
@@ -46,7 +46,7 @@ Write-Host '
          [31m▀▄▄█▀▀▀  ██  ██ ██▄█▀[0m     [31m█████▄ ██  ██ ██  ██ ██▄█▀[0m     [31m▀████▀[0m
          [1;30;47m▀[0;1;30;40m▄ [0;1;37;40m▄[0m
          [1;37;47m  [0;1;30;40m▌[0;1;37;40m█  [0;1;30;40m│·[0mT[1mhe[0;1;30m·[0mB[1madLands[0;1;30m·············································│[0m
-         [1;30;47m ▐[0;1;37;40m▐█  [0m│[1;30m·[0m[[1m408[0m][1;30m·[0;1;37m268[0;1;30m·[0;1;37m4251[0;1;30m··[0mN[1mUP:[0;1;30m·[0;1;37mJOSHIMUTT[0;1;30m···························[0m│
+         [1;30;47m ▐[0;1;37;40m▐█  [0m│[1;30m [0m [1m   [0m [1;30m [0;1;37m   [0;1;30m [0;1;37m    [0;1;30m  [0m [1m   [0;1;30m [0;1;37m         [0;1;30m                           [0m│
          [47m [0;1;30;40m▌[0;1;37;40m█▌  │[0;1;30;40m·[0mS[1mysOp:[0;1;30m·[0mS[1moultaker[0;1;30m·········································[0;1;37m│[0m
          [1;37;47m [0;1;30;40m▄[0;1;37;40m▀   │[0;1;30;40m [0m [1m         [0;1;30m [0m [1m       [0;1;30m [0m [1m       [0;1;30m  [0m [1m    [0;1;30m  [0m [1m  [0;1;30m [0m [1m   [0;1;30m [0m [1m     [0;1;30m     [0;1;37m│[0m
          ▀     [1m│[0;1;30m [0m [1m  [0;1;30m [0;1;37m■[0;1;30m [0m [1m    [0;1;30m [0;1;37m■[0;1;30m [0m [1m     [0;1;30m [0;1;37m■[0;1;30m [0m [1m   [0m [1m [0;1;30m [0;1;37m■[0;1;30m [0m [1m  [0;1;30m [0;1;37m■[0;1;30m [0m [1m     [0;1;30m [0;1;37m■[0;1;30m [0m [1m  [0;1;30m [0;1;37m     [0;1;30m [0;1;37m│[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 0ee6c67467f5b3bcb12b84cf1d77dd3c6ec13bc729fe8cd6f6e340d21ce88f4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-CLOUD.ANS by pharcyde (stiLe!); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cloudcity
 # SAUCE Author: pharcyde
 # SAUCE Group: stiLe!
@@ -49,5 +49,5 @@ Write-Host '
 [1;30m▄█[0;34m ▄▄[0;1;34;44m░▒[0;34m▄■▀▀[0;1;30m▒[0;34m▄▄[0;1;34;44m░▒[0;34m▄[0;37m [0;34m▀▀▀▀▀ [0;1;30m▄[0;34m ▀▀▀[0;1;30m▄▄█▄[0;34m▀▀[0;1;34;44m▒[0;34m▄▄[0;1;34;44m░▒[0;34m▄▄[0;1;34;44m░▒░[0;34m▄■▀▀[0;1;34m  [0;1;34;44m░▒[0;34m■ ▐[0;1;34;44m░[0;34m▄[0;1;34m [0;34m█[0;1;34;44m░[0;1;34;40m ▐▌  [0m [34m▀▀▀■▄ [0;1;30m░[0m
  [1;30m▀[0;1;30;47m▓[0;1;30;40m▄[0;34m▀▀▀[0;37m [0;1;30m▄▀█▓▄[0;34m▀▀▀[0;37m [0;1;30m▄[0;1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀  ▀▀[0;1;30;47m▓[0;1;30;40m▄▄[0;34m▀▀▀[0;1;30m▄[0;34m  ▀▀[0;37m [0;1;30m▄█▓▄[0;34m▀▀ [0;1;30m▄█▄[0;34m ▀▀▀  [0;1;34m▀[0;1;34;44m▒[0;1;34;40m▄[0;34m▄[0;1;34m [0;34m  ▄[0;1;34;44m░[0;34m▀ [0;1;30m▒[0m
    [1;30m▀▀▀▀▀▓ [0m [1;30m▀▀▀▀▀▀▀▀[0m [1;30m[[0mcloudcity[1m![0;1;30m][0m     [1;30m▀▀▀▓▄▄[0;1;30;47m▓[0;1;30;40m▀▀▀[0m [1;30m▒▀▀▀▀▀▓▀▀▀▀▀▀▓▄ [0;34m▀▀[0;1;34;44m░ [0;34m█▀ [0;1;30m▄▄▓▀▓[0m
-        [1;30m▒[0m num +358-o-34o2721 . sop distance of o[1;30m░[0mrange[1;30m▒[0m      [1;30m▒▀▀▀▓▄▄▄▄[0;1;30;47m▓[0;1;30;40m▀[0m   [1;30m▒[0m
+        [1;30m▒[0m                                       [1;30m░[0m     [1;30m▒[0m      [1;30m▒▀▀▀▓▄▄▄▄[0;1;30;47m▓[0;1;30;40m▀[0m   [1;30m▒[0m
         [1;30m░[0m                                                    [1;30m░[0m             [1;30m░[0m'

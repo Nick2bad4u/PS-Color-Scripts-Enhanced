@@ -5,7 +5,7 @@
 # Source SHA-256: dfe986aa82a9993744a36de27c2853c4b91fe728fbe8785d2bf565a1dd796dc4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-ICEDE.ANS by Mr.Byte (Chaos Energy Groop); released in ceg-009a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Where cold is reality...
 # SAUCE Author: Mr.Byte
 # SAUCE Group: Chaos Energy Groop
@@ -59,7 +59,7 @@ Write-Host '
           [1;30m▐[0m  [1;30m▄▄▄▄▄[0m▀▀[1m▀[0m      [1;30m▀[0m▀▀[1m▀[0m  [1;30m▐▄▀▀▀▌[0m   [1;30m▌[0m  ▐ [1;33;43m▌[0;1;33;40m▌[0;1;30;40m▐[0m   ▀[1;30m▀▀[0m   [1;30m▐[0m    [1m▐[0m  [1;30m▐▄▄▄[0m▐ █[1;47m▄█▓▓██[0m
    [1m■[0m       [1;30m▀▀[0m          [1;36m·[0m        [1m■[0m         ▀▀[1m▀▀[0;1;33m █▄[0;1;30m▀▀▀▀▀▄▄▄▄▄▌▀▀[0m▀▀[1m▀[0m █▄▄▄▄▄▄[1;47m▐█▓▓███[0m
          [1m■[0m    [1;30m∙iCEd∙EaRtH∙BBS∙[0m        [1;36m·[0m       [1;33m▐[0;1;33;43m▐[0;1;33;40m▌[0m      [1m▄▄▄[0m▄▄█████████████[1;47m█▓▓███[0;1;40m█[0m
-   [1;30mSYSoP: [0mMR.BYtE     [1;30mPHoNE: [0m+7∙(8i2)∙559-2o42[1;33m▐[0;1;33;43m▐[0;1;33;40m▌[0m  [1m■[0m   [1m▐[0;1;47m▓█[0m██████████████[1;47m▐█▓▓████[0m
+   [1;30m       [0m            [1;30m       [0m                 [1;33m▐[0;1;33;43m▐[0;1;33;40m▌[0m  [1m■[0m   [1m▐[0;1;47m▓█[0m██████████████[1;47m▐█▓▓████[0m
    [1;30mCoSYSoP: [0mMoNARCH   [1;30mWoRK tiME: [0m23-o7        [1;33m▐[0;1;33;43m▌[0;1;33;40m█[0m      [1m██[0;1;47m▌[0m███[1;47m▄██▄[0m███████[1;47m█▓▓█████[0m
 [1;36;40m·[0m  [1;30mPLaCE: [0mSt.PEtERSBURG,∙RUSSia  [1;30mDiStRo: [0mCEG,∙SaWat∙PPE[1m██[0m███[1;47m▐▓██▌[0m██████[1;47m▐████████[0m
    [1;30mRUNNiNG oN: [0mPCBoaRd∙v15.3             JUSt-X,∙UBG  [1m███[0m███[1m█████[0m██████[1m█████████[0m'

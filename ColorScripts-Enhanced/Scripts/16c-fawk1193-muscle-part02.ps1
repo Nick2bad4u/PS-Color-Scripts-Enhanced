@@ -5,7 +5,7 @@
 # Source SHA-256: 07885fe19b646bf4a4cc95113d5e0df118702e5bda14201241af1f3766ed05b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MUSCLE.ANS by Marly Man (fawk1193); released in fawk1193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 34-65
 # Columns: 1-80
 
@@ -32,7 +32,7 @@ Write-Host '
                 [1;33;40m▐[0;1;30;40m▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌[0;1;33;40m▌[0m
                [1;33;40m▄▐[0;1;30;40m▐[0;1;32;40m▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌[0;1;30;40m▌[0;1;33;40m▌▄[0m
              [1;33;40m▄▀[0;1;30;40m▄[0;1;33;40m▐[0;1;30;40m▐[0;1;32;40m▐[0m               [1;33;40mMusc[0;1;32;40ml[0;1;30;40me  [0;1;32;40mB[0;1;33;40meach[0m              [1;32;40m▌[0;1;30;40m▌[0;1;33;40m▌[0;1;30;40m▄[0;1;33;40m▀▄[0m
-           [1;33;40m▄▀[0;1;30;40m▄▀[0;1;32;40m▄[0;1;33;40m▐[0;1;30;40m▐[0;1;32;40m▐[0m              [1;33;40m203[0;1;32;40m..[0;1;30;40m968[0;1;32;40m..[0;1;37;40m.[0;1;33;40m9266[0m             [1;32;40m▌[0;1;30;40m▌[0;1;33;40m▌[0;1;32;40m▄[0;1;30;40m▀▄[0;1;33;40m▀▄[0m
+           [1;33;40m▄▀[0;1;30;40m▄▀[0;1;32;40m▄[0;1;33;40m▐[0;1;30;40m▐[0;1;32;40m▐[0m              [1;33;40m   [0;1;32;40m  [0;1;30;40m   [0;1;32;40m  [0;1;37;40m [0;1;33;40m    [0m             [1;32;40m▌[0;1;30;40m▌[0;1;33;40m▌[0;1;32;40m▄[0;1;30;40m▀▄[0;1;33;40m▀▄[0m
          [1;33;40m▄▀[0;1;30;40m▄▀[0;1;32;40m▄▀ [0;1;33;40m▐[0;1;30;40m▐[0;1;32;40m▐[0m        [1;33;40mSWat - [0;1;32;40mFai[0;1;30;40mrligh[0;1;32;40mt - [0;1;33;40mDsT Sites[0m      [1;32;40m▌[0;1;30;40m▌[0;1;33;40m▌ [0;1;32;40m▀▄[0;1;30;40m▀▄[0;1;33;40m▀▄[0m
        [1;33;40m▄▀[0;1;30;40m▄▀[0;1;32;40m▄▀   [0;1;33;40m▐[0;1;30;40m▐[0;1;32;40m▐[0m        [1;33;40mZeroN[0;1;32;40met -  [0;1;30;40mNwgNe[0;1;32;40mt - [0;1;33;40mPDT Site[0m      [1;32;40m▌[0;1;30;40m▌[0;1;33;40m▌   [0;1;32;40m▀▄[0;1;30;40m▀▄[0;1;33;40m▀▄[0m
         [1;33;40m▀▄[0;1;30;40m▀▄[0;1;32;40m▀▄  [0;1;33;40m▐[0;1;30;40m▐[0;1;32;40m▐[0m     [1;33;40m0-12hr [0;1;32;40mWare[0;1;30;40mz - 650 M[0;1;32;40megs - [0;1;33;40m16.8 USR   [0;1;32;40m▌[0;1;30;40m▌[0;1;33;40m▌  [0;1;32;40m▄▀[0;1;30;40m▄▀[0;1;33;40m▄▀[0m

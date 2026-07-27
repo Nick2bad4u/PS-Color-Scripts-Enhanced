@@ -5,7 +5,7 @@
 # Source SHA-256: c838b74019c3294c03ac8ca13badaa4ff26e8dda1396e9a7aa2596980854be02
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 09-SHOCK.ICE by Fluor (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-16
 # Columns: 1-80
 
@@ -22,7 +22,7 @@ Write-Host '
 [34m▄[0;1;34m▄▄▄[0;1;34;44m▄████▀[0;34m▀▌ ▀[0;1;34;44m▀██████[0;1;34;40m▄▄▄▄[0;34m▄▌ ▀[0;1;34;44m▀[0;1;34;46m▓▓[0;1;34;44m███▄[0;34m▄[0m
 [34m ▐[0;1;34;44m▐██[0;1;34;47m▓▓[0;1;34;44m█▌[0;34m▌ ▀  ▐[0;1;34;44m▐[0;1;34;40m████[0;1;34;44m████ [0;34m    ▐[0;1;34;44m▐█████▌[0;34m▌[0m   [1;34m networks[0m [34m: [0;37mjade[0;1;37m,[0;34m [0;37mmalice[0;34m [0;1;37m&[0m black[1m.[0m
 [34m  ▀[0;1;34;44m▀███[0;1;34;40m▀[0;1;34;44m█ [0;34m    ▐[0;1;34;44m▐[0;1;34;40m████[0;1;34;44m▓███▌[0;34m▌   ▐[0;1;34;44m▐█████▌[0;34m▌[0m
-[34m    ▀[0;1;34;44m▀████▄[0;34m▄ ▄[0;1;34;44m▄█████▄▀███▄[0;34m▄ ▄[0;1;34;44m▄██[0;1;34;47m▀ ▀[0;1;34;44m█▀[0;34m▀[0m              [37m1[0;1;34m([0m514[1;34m)[0m435[1;34m-[0m7044
+[34m    ▀[0;1;34;44m▀████▄[0;34m▄ ▄[0;1;34;44m▄█████▄▀███▄[0;34m▄ ▄[0;1;34;44m▄██[0;1;34;47m▀ ▀[0;1;34;44m█▀[0;34m▀[0m              [37m [0;1;34m [0m   [1;34m [0m   [1;34m [0m    
       [34m▀[0;1;34m▀[0;1;34;44m▀█████████▀[0;1;34;40m▀[0;34m▀ ▀[0;1;34;44m▀███████[0;1;34;47m▓▓▄[0;1;34;44m▀[0;34m▀[0m
            [34m▀[0;1;34m▀▀▐▀[0;34m▀[0m        [34m▀[0;1;34m▀▀▀▐▀▀[0;34m▀  [0;1;34m([0;1;37;44m1CE[0;1;34;40m)[0m─[1m►[0;1;34mfluor[0m
               [1;34m  [0m             [1;34m▀[0m'

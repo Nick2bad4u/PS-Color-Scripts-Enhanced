@@ -5,7 +5,7 @@
 # Source SHA-256: 0fea8eadf45a7e2dac9fd4c7a6bccac937a83ed50393b9e0404f22cd621e94d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LC-TCB.ANS by Luc (aim-0994); released in aim-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-88
 # Columns: 1-80
 
@@ -39,5 +39,4 @@ Write-Host '
                    [1;32;40m▀[0;1;32;42m▄[0;32m▄▄[0;1;34m▀▀▀[0;32m▄[0;1;32;42m▄[0;1;32;40m▀    ▀[0;1;32;42m▄▄[0;32m▄▄▄[0;1;34m▀▀▀▀[0;32m▄▄[0;1;32;42m▄[0;1;32;40m▀ ▀[0;1;32;42m▄[0;32m▄▄[0;1;34m▀▀▀▀▀[0;32m▄▄▄▄[0;1;32;42m▄▄[0;1;32;40m▀[0m
                      [1;32;40m▀▀[0;1;32;42m▄▄▄[0;1;32;40m▀[0m         [1;32;40m▀▀▀[0;1;32;42m▄▄▄▄[0;1;32;40m▀▀[0m     [1;32;40m▀▀[0;1;32;42m▄▄▄▄▄[0;1;32;40m▀▀▀▀[0m
 
-                               [1;32;40m [0;32m   [0;1;30m      [0;32m  [0;1;32m [0m
-                              [1;32m([0;32m31[0;1;30m0)  822·2[0;32m73[0;1;32m7[0m'
+                               [1;32;40m [0;32m   [0;1;30m      [0;32m  [0;1;32m [0m[1;32m[0;32m[0;1;30m[0;32m[0;1;32m[0m'

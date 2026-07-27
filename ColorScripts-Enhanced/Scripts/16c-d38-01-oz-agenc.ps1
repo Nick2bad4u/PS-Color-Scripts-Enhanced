@@ -5,7 +5,7 @@
 # Source SHA-256: 00fecba3efc7f38e2a76486fa1203adeca1b27b1cf0bdd4f1c9c894ca4992b4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OZ-AGENC.ANS by ooze (dEPARMENT^38); released in d38-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the agency
 # SAUCE Author: ooze
 # SAUCE Group: dEPARMENT^38
@@ -32,6 +32,6 @@ Write-Host '
 [37;40m [0;1;32;42m░░[0m  [1;34m▀▀▀▀▀[0;34m▀▀▀▀[0m   [1;34m▀▀▀▀▀[0;34m▀▀▀▀[0m   [1;34m▀▀▀▀▀[0;34m▀▀▀▀[0m   [1;34m▀▀▀▀[0m [34m▀▀▀▀[0m   [1;34m▀▀▀▀▀[0;34m▀▀▀▀[0m   [1;34m▀▀▀▀▀[0;34m▀▀▀▀[0;37m [0;33m▄██▄[0m
 [37m [0;1;32;42m▒▒▓▓███▓▓▒▒░░          ░░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓███████[0m  [33m▄[0;35;43m▓▒░[0;33;40m███████[0;35;43m░[0;33;40m█▄[0;37;40m [0;33;40m█[0;35;43m░[0;33;40m███[0;35;43m░░[0;33;40m█[0;35;43m░░[0;33;40m▌[0m
                                                      [33;40m▐[0;35;43m▓[0;35;40m█[0;35;43m▓▒░[0;33;40m█████████▌▐███[0;35;43m░▒▒▓▒[0;33;40m██[0m
-[37;40m  [0;1;37;40mtHE^aGENCY[0m [1m¡ 410-7468 ¡ oP:bLIND^SNIPER[0m [1m! d∙38^WHQ[0m  [35;43m▒▓▒░░[0;33;40m█[0;35;43m░[0;33;40m███████[0;37;40m [0;33;40m███[0;35;43m░▒▓█▄▓▒[0;33;40m▌[0m
+[37;40m  [0;1;37;40m          [0m [1m                            [0m [1m          [0m  [35;43m▒▓▒░░[0;33;40m█[0;35;43m░[0;33;40m███████[0;37;40m [0;33;40m███[0;35;43m░▒▓█▄▓▒[0;33;40m▌[0m
                                                        [33;40m▀▀[0;35;43m░[0;33;40m███[0;35;43m░[0;33;40m███▀▀[0;37;40m [0;33;40m▄█[0;35;43m░[0;33;40m█[0;35;43m░▒▓▀▓[0;33;40m█▀[0m
                                                         [33;40m   ▀▀▀▀    [0;37;40m  [0;33;40m▀▀[0;35;43m░[0;33;40m█[0;35;43m░▒[0;33;40m▀▀[0m'

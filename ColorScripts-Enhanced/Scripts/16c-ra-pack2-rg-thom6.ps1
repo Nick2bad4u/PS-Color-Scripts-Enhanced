@@ -5,7 +5,7 @@
 # Source SHA-256: 19fcd89b42fe73d9d8d903d56e1b9a426fa703ecad4e50b1e62bb28237cb9891
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-THOM6.ANS by Rage (Rebel Art); released in ra-pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The House of Madness #6
 # SAUCE Author: Rage
 # SAUCE Group: Rebel Art
@@ -34,5 +34,4 @@ Write-Host '
 [1;30m    [0;1;37m▄[0;1;37;44m▀[0;1;34;44m░░[0;1;37;47m▀[0;1;37;40m▄▄[0m▄[1m▄[0m▄▄▄[1m▄[0m▄▄▄▄[1;30m▄[0m▄[1;30m▄▄[0m▄[1;30m▄▄▄ ▄▄ ▄[0m             [1;30m▄ ▄▄ ▄▄▄[0m▄[1;30m▄▄[0m▄[1;30m▄[0m▄▄▄▄▄[1m▄[0m▄▄▄[1m▄[0m▄[1m▄▄[0;1;47m▀[0;1;34;44m░[0;1;37;44m ▀[0;1;37;40m▄[0m
 [1;30m  [0;1;37m▄[0;1;37;44m▀[0;1;34;44m░░▒▒▓▓[0;1;34;40m███[0;1;34;44m▓▓▒▒░░  [0;34m▓▓▒▒░░[0;1;30m─[0m─[1m─[0;1;30mThe H[0mo[1mu[0ms[1;30me O[0mf[1;30m Ma[0md[1mn[0me[1;30mss[0;1;37m─[0m─[1;30m─ [0;34m░░▒▒▓▓[0;1;34;44m  ░░▒▒▓▓[0;1;34;40m███[0;1;34;44m▓▓▒▒[0;1;37;44m   ▀[0;1;37;40m▄[0m
 [1;37;40m▄[0;1;37;44m▀[0;1;34;44m░░▒▒▓▓[0;1;34;40m███[0;1;34;44m▓▓▒▒░░  [0;34m▓▓▒▒░░[0m         [1;30m    Γ[0mÆ[1mG[0;1;30mε [0m   [1;30m [0m         [34m░░▒▒▓▓[0;1;34;44m  ░░▒▒▓▓[0;1;34;40m███[0;1;34;44m▓▓▒▒░[0;34m█[0;1;37m█[0m
-▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀ ▀▀ ▀  ▀    ▀[0m   [1m[[0;1;34mΓ[0;34mε[0;1;34mB[0;34mε£ [0;1;34m/┤[0;34mΓ╪[0;1;37m]  [0;1;30m▀    ▀  ▀ ▀▀ ▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                                                                       [34m2[0;1;34m8[0;34m4-9[0;1;34m1[0;34m2[0;1;34m3[0m'
+▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀ ▀▀ ▀  ▀    ▀[0m   [1m[[0;1;34mΓ[0;34mε[0;1;34mB[0;34mε£ [0;1;34m/┤[0;34mΓ╪[0;1;37m]  [0;1;30m▀    ▀  ▀ ▀▀ ▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m[34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0m'

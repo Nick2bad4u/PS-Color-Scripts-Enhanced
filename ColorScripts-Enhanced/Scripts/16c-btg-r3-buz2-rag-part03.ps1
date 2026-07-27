@@ -5,7 +5,7 @@
 # Source SHA-256: ff8526999f7e8521466703f3f41bb8c6c923024cb02d829d36e4be855bd2c577
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BUZ2#RAG.ANS by Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 101-127
 # Columns: 1-80
 
@@ -32,7 +32,7 @@ Write-Host '
         [1;30;40m█[0;1;37;47m▀▀▀▀▀▀▀[0;1;30;40m█[0m       [1;30;40m█[0;1;37;47m▀▀▀▀▀▀▀▀▀▀[0;1;30;40m█[0m      [1;30;40m█[0;1;37;47m▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m█[0m     [1;30;40m█[0;1;37;47m▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m█[0m
 [30m▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼[0m
 [30m▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼[0m
-[30m▼▼▼▼▼▼▼▼▼▼▼[0;1;32m◄[0;1;37m► [0;34mBuz[0;1;34mz [0;1;32m◄[0;1;37m► [0;34m+35[0;1;34m8 [0;34m- (9)8[0;1;34m3 [0;34m- 42562[0;1;34m1 [0;1;32m◄[0;1;37m► [0;34mv.32Bi[0;1;34ms [0;34m/ v.42Bi[0;1;34ms [0;1;32m◄[0;1;37m►[0;30m▼▼▼▼▼▼▼▼▼▼▼▼▼[0m
+[30m▼▼▼▼▼▼▼▼▼▼▼[0;1;32m◄[0;1;37m► [0;34m   [0;1;34m  [0;1;32m◄[0;1;37m► [0;34m   [0;1;34m  [0;34m      [0;1;34m  [0;34m       [0;1;34m  [0;1;32m◄[0;1;37m► [0;34m      [0;1;34m  [0;34m        [0;1;34m  [0;1;32m◄[0;1;37m►[0;30m▼▼▼▼▼▼▼▼▼▼▼▼▼[0m
 [30m▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼[0m
 [30m▼▼▼▼▼▼▼▼▼▼▼ [0;1;32m◄[0;1;37m► [0;34mCHA0[0;1;34mS [0;34mWorl[0;1;34md [0;34mHeadquater[0;1;34ms [0;1;32m◄[0;1;37m► [0;34mAns[0;1;34mi: [0;34mRag[0;1;34me[0;34m/Bytegarde[0;1;34mn [0;1;32m◄[0;1;37m► [0;30m▼▼▼▼▼▼▼▼▼▼▼▼▼[0m
 [30m▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼[0m'

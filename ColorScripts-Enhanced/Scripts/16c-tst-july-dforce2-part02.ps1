@@ -5,7 +5,7 @@
 # Source SHA-256: 13d1aba0af0384eee66a2b68ae115b83b3c630e79b7b0ff13a41470675401a91
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DFORCE2.ANS by Senator (tst-july); released in tst-july and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 41-75
 # Columns: 1-80
 
@@ -41,7 +41,7 @@ Write-Host '
        [36m  ■                ■  [0m                      [36m  ■                ■  [0m
         [36m  ■                       ■        ■                       ■  [0m
                            [36m  ■                  ■  [0m
-                     [36m·∙■ CαLL ∩Θw: +49-(0)6221-12831 ■∙·[0m
+                     [36m  ■                             ■  [0m
                        [36m  ■                         ■  [0m
         [36m  ■                                                           ■  [0m
 [31m──────────────────────────────────────└───────└───────└───────└───────└───────└─[0m'

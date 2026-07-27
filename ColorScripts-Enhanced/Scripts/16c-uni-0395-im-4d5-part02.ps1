@@ -5,7 +5,7 @@
 # Source SHA-256: ae92e9c1ad60220ce50da21c61b82aa5737d122ff37652ac469d1dfcc45d0508
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-4D5.ANS by Imodium + Nailz (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 49-63
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [1;37;47m▀░[0m▀██████▄ ▄[1;47m▀[0m▀██████▄ [1;47m▀░[0m [1;47m▀░[0m████▄ [1;47m▀░[0m▀[47m  [0;40m████▄[0m
 [40m██ [0;1;30;47m░[0m██████▌██ ███████▌[47m [0;40m█ ███████▌██ ███████▌[0m
 [40m██ [0;1;30;47m▓▄[0m███[1;30;47m░[0m████ ██████████ ██████████ ████████         [1mfour degrees [0m([1m4°[0m)
-█[1;30;47m▐[0m       ▀ ██ ██████[1;30;47m▐ [0m█[1;30;47m░[0m ██████[1;30;47m▐ [0m██ ████[1;30;47m▀[0m██[1;30;47m▐[0m           [1;37;40m7O8[0m/ [1m437[0m.[1m65O4[0m
+█[1;30;47m▐[0m       ▀ ██ ██████[1;30;47m▐ [0m█[1;30;47m░[0m ██████[1;30;47m▐ [0m██ ████[1;30;47m▀[0m██[1;30;47m▐[0m           [1;37;40m   [0m  [1m   [0m [1m    [0m
 [1;30;47m▀▐[0m         █[1;30;47m░[0m █████[1;30;47m▀▐[0;1;30;40m▌[0;1;30;47m■▒[0m ███[1;30;47m■[0m█[1;30;47m░▐[0;1;30;40m▌[0;1;30;47m ░[0m ██████[1;30;47m▀▒[0m      u[1mNION Central Drop Site[0m
 [1;30;47m▓█[0;1;30;40m▀   ▄    [0m▀[1;30m▓▄[0m██[1;30;47m■▄▄[0m░[1;30m▀ ▀[0;1;30;47m▓[0;1;30;40m▄[0m██[47m [0;1;30;47m▄▄[0m░[1;30m▀ [0;1;30;47m▄▓[0m▀███[1;30;47m▄▓▄[0m░[1;30m▄[0m                 [1;30m▄[0m
 [1;30m   [0;1;37;47m▀░[0m▀[1;47m▀░[0m████▄ [1;47m▀░[0m▀[47m  [0;40m████▄ [0;1;47m▀░[0m▀██████▄ [1;47m▀░[0m▀██████▄ [1;47m▀░[0m▀██████▄ [1;47m▀░[0m▀██████▄ ▄[1;47m▀[0m▀[1;47m░[0m█████▄

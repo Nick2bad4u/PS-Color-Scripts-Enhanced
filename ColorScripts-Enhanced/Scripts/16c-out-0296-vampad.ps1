@@ -5,7 +5,7 @@
 # Source SHA-256: 468fce60511fa71b21a53b2f541dbc8115189c5914c310204d41a9635979cb9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VAMPAD.ANS by Sandy Chidester (out-0296); released in out-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -32,6 +32,6 @@ Write-Host '
        [34m░  ░  [0;1;30m░▒▓████▒▄  [0m▀[1;47m▓[0;1;30;47m░[0;1;37;40m▀[0;1;37;47m░[0;1;37;40m▌[0;1;37;47m░[0;1;37;40m▄[0;1;37;47m▒▒▓▓[0;1;37;40m██▄▄│▀  [0;1;30;40m▄▀ █▓▓▓▒░[0;31m·[0;1;30m││[0;1;37mChildren[0;1;30m│[0;1;37mof[0;1;30m│[0;1;37mDarkness[0;1;30m│[0m││[1;31m│[0m
      [34m░░  ░   [0;1;30m░░▒▓▓███▄▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀▀▄██▓▓▒▒▀[0;1;31m·[0;1;30m│[0;1;37mDoorGame[0m│[1mby[0;1;30m│[0;1;37mMike Fenton[0m│[1;31m·[0m
       [34m░░░  ░   [0;1;30m░▒▒▓▓▓██▒▄▄▄▀▀██▀▀▀▀▀▀▀▀▀▀ ▄▄███▓▓░▒▀ [0;1;31m│[0m│[1;30m│[0m│[1mThe[0;1;30m│[0;1;37mAbysmal[0;1;30m│[0;1;37mTrench[0;1;30m│[0m│││[31m·[0m
-        [34m░░  ░    [0;1;30m░▒▒▓▓▓█▒▓▓▓▓█████████████▀███▓▒▒▀   [0;1;31m·[0;1;30m│[0m│[1;30m│[0m│[1;30m│[0;1;37m(807)[0m│[1m683-8210[0;1;30m││[0m│││[1;30m│[0;31m│[0m
+        [34m░░  ░    [0;1;30m░▒▒▓▓▓█▒▓▓▓▓█████████████▀███▓▒▒▀   [0;1;31m [0;1;30m│[0m│[1;30m│[0m│[1;30m│[0;1;37m     [0m│[1m        [0;1;30m││[0m│││[1;30m│[0;31m│[0m
          [34m░░░[0m       [1;30m░░▒▓▓██████▄▄▄▄▄▄▄▄▄▄▄▄▄▀▒▒░▀[0m      [1;30m││[0m│││[1;30m││││││[0m││[1;30m│││[0m││[1;30m││││[0m│[1;30m││[0m
                      [1;30m░░▒▓▓▓▓▓▓████████████▓▒░[0m        [1;31m└ ·─[0;31m── ─[0;1;31m─── ·────[0;31m─  ──·─  ┘[0m'

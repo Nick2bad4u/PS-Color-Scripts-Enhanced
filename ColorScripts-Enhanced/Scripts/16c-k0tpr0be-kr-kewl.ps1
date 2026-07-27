@@ -5,7 +5,7 @@
 # Source SHA-256: 32a831b8617496a8eb7c8f819bae7d2a50a0130adc3f111a5fc1d39c233a0bb4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KR-KEWL.ANS by krash (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: eyhoe system
 # SAUCE Author: krash
 # SAUCE Group: fbk
@@ -47,9 +47,9 @@ Write-Host '
 [37m   [0;34m▀■▓▓█▀[0;37m [0;34m█[0;1;34;44m░[0;34m██▀██[0;1;34;44m▄[0;34m█░[0;1;34;44m░▒[0m  [34m █ [0;37m [0;33m█▄[0;1;30;43m▄▀▒▓[0;33m████████[0;37m [0;31;43m▐[0;31;40m█[0;33;40m▄▄▀[0;1;31;40m [0;33m██[0;1;30;43m█[0;33m██▄▀[0;37m  [0;34m■▄▀█▓▀▄[0m      [37m.kR[0m
 [34m▄▄▄▄[0m      [34m▀[0;1;34;44m▀▄█[0;34m████▒[0;1;34;44m▒▒[0m   [34m▀█▀[0;37m  [0;33m▀▀▀▀▀█[0;1;30;43m▀[0;33m█[0;1;30;43m░▒[0;33m█▄▄[0;31m▄[0;1;31;41m░[0;31m█[0;1;30;43m░▒[0;33m███[0;1;30;43m▓[0;33m█▀▀[0;37m  [0;34m▄[0;1;34;44m▌[0m [1;34;44m░[0;34m▓█[0;37m [0;34m▄██▀[0;37m  [0;34m▄[0;1;34;44m▄[0;34m▄[0;37m  [0;34m▀[0;37m  [0;34m ▐[0;37m [0m
 [34m█▓▓[0;1;34;44m▀[0;34m█▄[0;37m  [0;34m▄[0;37m   [0;34m▀▀▀▄▄▀▄[0m    [34m▄[0m                  [33m▀[0;31m▀▌[0;33m▀▀▀▀[0;37m [0;1;30;43m▓█[0m   [34m▄█[0;1;34;44m▄[0;34m▒[0;1;34;44m▓▒[0;34m▓█▄█▄■[0;37m [0;34m▀██▀[0;37m  [0;34m▄█▓[0;1;34;44m▀▐[0m
-[34m▒▀░[0;37m [0;36m½[0;37m [0;36meYHOE^sYStEM ½[0;37m   +49.3o.765o3326   [0;31m▄■[0;1;37;41m▄[0;31m▀▌▄[0;37m [0;1;30m<-19.2k[0m  [36m½ aFFiLZ:[0;37m [0;36miNX!,[0;37m    [0;34m▀░░▌[0m
-[34m▀▄[0;37m [0;34m [0;37m  [0;1;30m~tHE bETTER~[0m [36m½[0;37m   +49.3o.765o3327 [0;34m░[0;31m▀[0;1;37;41m▀▄[0;31m░▒▄█[0;37m [0;1;30m<-28.8k[0m  [36m½[0;37m pHAT, h-XPERiENCE,  [0;1;34m█[0m
-[34m▒[0;1;34m▌[0m      [1;30m~cHOiZE~[0m [34m░[0;37m [0;36m½[0;1;30m   [0m+49.3o.765o3328 [34m▒[0;37m  [0;31m▀▀■▀ [0;37m [0;1;30m<-64.0k[0m  [36m½[0;37m boMB2o, cUbiC^tEAM[0;34m █▄[0m
+[34m▒▀░[0;37m [0;36m [0;37m [0;36m              [0;37m                     [0;31m▄■[0;1;37;41m▄[0;31m▀▌▄[0;37m [0;1;30m       [0m  [36m         [0;37m [0;36m     [0;37m    [0;34m▀░░▌[0m
+[34m▀▄[0;37m [0;34m [0;37m  [0;1;30m            [0m [36m [0;37m                   [0;34m░[0;31m▀[0;1;37;41m▀▄[0;31m░▒▄█[0;37m [0;1;30m       [0m  [36m [0;37m                     [0;1;34m█[0m
+[34m▒[0;1;34m▌[0m      [1;30m        [0m [34m░[0;37m [0;36m [0;1;30m   [0m                [34m▒[0;37m  [0;31m▀▀■▀ [0;37m [0;1;30m       [0m  [36m [0;37m                   [0;34m █▄[0m
 [34m▀▓[0;1;34m█[0m [34m▄▄[0;1;34m▀[0m [34m▄▄▄[0;1;30m [0m [34m▒▄▄▄▒▒[0;1;34m▌[0;34m▄[0;1;34m▄▄[0;34m▄▄[0;1;34m▄[0;34m▄▄[0;37m [0;34m▄▄[0;37m [0;34m▀█[0;37m [0;1;34m▄[0m [34m▄▄█▄▄[0;1;34m▄[0;34m▄▄▄▄▄▄▄[0;37m [0;34m▄▄▄▄▄▄▄▄[0;1;34m▄▄▄▄▄[0;34m▄▄[0;1;34m▄▄[0;34m▄▓▄▄[0;1;34m▒[0;34m▄ ▄▄▄▒▌[0m
              [34m▓[0m                         [34m▒[0m                             [34m▒[0m        [34m█[0;37m [0m
              [34m█[0m                                                       [34m▓[0m       [34m   [0m'

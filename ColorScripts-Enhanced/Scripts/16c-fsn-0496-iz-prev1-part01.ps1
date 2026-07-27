@@ -5,7 +5,7 @@
 # Source SHA-256: 9fab4c78a79acca36220f027484818f504d3c563e6174721a1181ef536af74a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ%PREV1.ANS by ize (fusion); released in fsn-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: prevail pictur!
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -17,7 +17,7 @@
 Write-Host '
 [1;34m█▄[0m
 [1;34m███▄▄[0m                                       [32m     [0;1;30m                    [0m [1;30m   [0m
-[1;34m███████▄▄▄▄ [0m                            [32m ▄ [0;37m [0;32m▀  ▄[0;1;30m  prevail +46.304.678236[0m
+[1;34m███████▄▄▄▄ [0m                            [32m ▄ [0;37m [0;32m▀  ▄[0;1;30m                        [0m
 [1;34m██████████████▄▄▄▄▄[0m                     [32;47m▓[0;32;40m▌    [0;37;40m  [0;32;40m  [0;37;40m [0;1;30;40mand gimme a mezz !!![0m
 [1;34m██████████████████████▄▄▄▄[0m             [32m  ▀  [0m   [1;32m■▄▄▄[0;32m▄[0;37m [0;32m   [0;1;32m▄[0;1;32;42m█[0;1;32;40m▀▀[0;1;32;42m▄[0;1;32;40m▄[0;32m▄[0;37m [0;32m [0;1;30m½½½½½½½[0m [1;30m [0m
 [1;34m█████████████████████████████▄▄▄▄[0m       [32m   ▀  ▄[0;37m [0;1;32m▐[0;1;32;42m███▄[0;32m▄[0;1;32m █[0;1;32;47m▓▓[0;1;32;40m▌[0m  [1;32m██[0;1;32;42m▄[0;1;32;40m [0;1;30;40m        [0m

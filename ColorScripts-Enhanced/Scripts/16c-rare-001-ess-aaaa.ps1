@@ -5,7 +5,7 @@
 # Source SHA-256: 08ef2be2b213209220a850697cfe25540bd2b8d88a80710dbfa0a077fae05de2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ESS!AAAA.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Essence's Stats
 # SAUCE Author: Essence
 # SAUCE Group: rARE!ASCii
@@ -26,5 +26,4 @@ Write-Host '
 [34m  [0;37m [0;32m [0;1;32m [0;1;33m [0;1;37m [0;1;32m [0;32m   [0;1;32m [0;32m [0;1;30m [0;32m [0;1;32m [0;32m [0;1;30m [0;32m   [0;1;33m [0;1;32m           [0;1;37m [0;1;33m [0;32m  [0;1;30m  [0;32m  [0;1;32m ▒      [0;1;33m  [0;1;37m [0;1;32m [0;32m   [0;37m [0;34m [0;37m  [0;1;37m       [0m      [1;30m [0m    
 [1;34mI[0;34m$[0;37m [0;32m╝²ⁿ""[0;1;32m^[0;1;30m^[0;32m~~[0;1;32m`[0;32m`[0;1;30m`[0;32m`^[0;1;30m"²╩[0;32m╩[0;1;32m╝²ⁿ""^^[0;32m~[0;1;32m~``[0;32m``^"²[0;1;30m╩[0;32m┴╝²ⁿ[0;1;32m""^[0;32m^~[0;1;32m~``[0;32m``^[0;1;32m"[0;32m²╩[0m              [37mMusician[0m
 [1;34m   ┬[0;34m               ┬┬┬               [0;37m  [0;34m [0m                    [1;37m          [0m          
-[1m$[0;1;34m$$╝ⁿ[0;34m²""[0;1;34m^^[0;34m~~``[0;1;34m`[0;34m`^"²╩╩╝ⁿ²""^^~~```[0;37m  [0;34m``[0m      [34m`[0m               [37m+31(0)299-672220  v34[0m
-                                                           [37m+31(0)299-672282 iSDN[0m'
+[1m$[0;1;34m$$╝ⁿ[0;34m²""[0;1;34m^^[0;34m~~``[0;1;34m`[0;34m`^"²╩╩╝ⁿ²""^^~~```[0;37m  [0;34m``[0m      [34m`[0m               [37m+31(0)299-672220  v34[0m[37m[0m'

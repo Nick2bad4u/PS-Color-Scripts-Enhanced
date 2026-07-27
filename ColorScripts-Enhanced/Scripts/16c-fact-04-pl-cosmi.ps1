@@ -5,7 +5,7 @@
 # Source SHA-256: 867d636c9353a6f2f94def09746b10c11baab6f7ea1e9d4801fb38f92a089798
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-COSMI.ANS by PU$$Yl0VEr (fACt!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: %cOSMiC hORROR% ^!^
 # SAUCE Author: PU$$Yl0VEr
 # SAUCE Group: fACt!
@@ -25,7 +25,7 @@ Write-Host '
           [34m▌[0;1;34;44m▌▐[0;34m▄[0;1;34m▀▄[0;1;34;47m [0m▓[47m [0;1;34;47m▄[0;1;34;44m▓▒▀[0;1;34;47m ▐[0;1;34;44m▌[0;1;34;47m [0;1;34;44m█▒[0;1;34;47m▌     [0m▓[1;34;47m▄[0;1;34;40m▀   [0;34m■▄ [0;1;30mhis board, da cosmic horror ! │[0m
           [34m▌  ▀▄ [0;1;34m▀[0;1;34;47m▄ ▐█[0;1;34;44m▓[0;1;34;47m▌  [0;1;34;44m▄[0;1;34;47m▌[0;1;34;44m▓[0;1;34;47m█    ■▀▄▀▀[0;1;34;40m▄   [0;1;34;44m▌[0;34m▌▄[0m                             [1;30m│[0m
           [34m▌[0m       [1;34;47m█ [0;1;34;44m▒[0;1;34;47m█■▄[0;1;34;44m▒[0;1;34;47m▀ ▀[0;1;34;44m▒[0;1;34;47m▌    [0;1;34;44m▒▐[0;1;34;47m   ▀[0;1;34;40m▄  [0;34m▀▀▄ [0;1;30m4 [0;36mr[0;1;30mEQUEStS [0;36mo[0;1;30mR [0;36ma[0;1;30mPPlYS, [0;36mc[0;1;30mAll:│[0m
-          [34m▀[0m       [1;34;47m█ [0;1;34;44m▄▓[0;1;34;47m      ▀[0;1;34;44m▀[0;1;34;47m  ▐[0;1;34;44m▓[0;1;34;47m▀  [0m▓▒[1;34;47m▄▄[0;1;34;40m▀ [0;1;34;44m▄[0;34m█▌ [0;36mf[0;1;30mACt! [0;36mW[0;1;30mHQ - [0;36m+[0;1;30m49.[0;36m6[0;1;30m196.[0;36m7[0;1;30m58029[0;36m║[0m
+          [34m▀[0m       [1;34;47m█ [0;1;34;44m▄▓[0;1;34;47m      ▀[0;1;34;44m▀[0;1;34;47m  ▐[0;1;34;44m▓[0;1;34;47m▀  [0m▓▒[1;34;47m▄▄[0;1;34;40m▀ [0;1;34;44m▄[0;34m█▌ [0;36m [0;1;30m     [0;36m [0;1;30m     [0;36m [0;1;30m   [0;36m [0;1;30m    [0;36m [0;1;30m     [0;36m║[0m
             [34m▄█  [0;1;34m▄▄[0;1;34;47m▀▐█[0;1;34;44m▀[0;1;34;47m  [0m▓▒[47m    [0;1;34;47m▀■▀ ▄ [0m▒[47m [0;1;34;47m█[0m  [34m▄█[0;1;34;44m▀[0;34m▀ [0;1;30m─   ─  ─ ────────[0;36m───[0;1;30m──────[0;36m══╝[0m
            [34m▐[0;1;34;44m▒[0m [1;34m▄[0;1;34;47m▀   ▐[0;1;34;44m▌[0;1;34;47m▌▄    ▄[0;1;34;40m▀▀▄ [0;1;34;47m▄[0;1;34;40m▀ ▀[0;1;34;47m▄[0;1;34;40m▀   [0;34m▄[0;1;34;44m▄[0m [34m▀ [0;1;30m.96..PU$$YlOVA..pRODUCtiON..[0m
            [1;34;44m▄▀[0;34m▌[0;1;34;47m█▄ [0m▓[47m  [0;1;34;47m▀█▌  ▄[0;1;34;40m▀    ▀  [0;34m■▄▄▄█▄[0;1;34;44m▒▌[0;34m█▌[0m

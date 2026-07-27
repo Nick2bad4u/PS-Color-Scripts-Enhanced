@@ -5,7 +5,7 @@
 # Source SHA-256: 018374967e14995f867c45712dc67865dfb6887cb721a0f121f42e855aa4abe5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XO-PHNT1.ANS by Xose (MaSaKrE); released in mskp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Phantom's BBS (Part 1)
 # SAUCE Author: Xose
 # SAUCE Group: MaSaKrE
@@ -37,4 +37,4 @@ Write-Host '
 [1;33ms  [0;32m▲├────── Viernes, Sábados y Domingos de 0 a 7 Horas ──────┤▲   [0;35m▀███████▄[0m
 [1;33mK [0;32m◄├┼──────────────── Juegos, GIFs XXX y Más ────────────────┼┤►[0m         [35m▀██[0m
 [35m  [0;32m◄├┼─────────── Sede de Distribución de MaZaLiSt ───────────┼┤► [0;35m██▄[0m     [35m▄██[0m
-[35m   [0;32m▼├───────── a 28.800 BPS  /  Teléfono : 362-7441 ─────────┤▼   [0;35m▀███████▀[0m'
+[35m   [0;32m▼├─────────                                      ─────────┤▼   [0;35m▀███████▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4fc1c7b6674570cd739892b6eaddfd697c8e8fabd8f0f580caec6a0d7a1631f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PN-PX1.ICE by Pnakotic (iCE); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Project X
 # SAUCE Author: Pnakotic
 # SAUCE Group: iCE
@@ -55,7 +55,7 @@ Write-Host '
    [35m░[0m                                                                       [35m [0m
 [35m [0m  [35m▒[0m          [37m [0;1;37m    [0m [1m   [0m [1m   [0m [1m [0m [1m      [0m [1m [0m [1m     [0m  [1m   [0m─[1m─[0m─[1m [0m [1m      [0m [1m    [0m          [35m [0m [31m█[0;1;31;41m░[0m
 [35m [0m  [35m▓[0m [37m [0;1;37m          [0m [1m  [0m [1m      [0m [1m     [0m  [1m       [0m [1m   [0m [1m      [0m [1m         [0m [1m     [0m  [1m    [0m [35m░[0m [1;31m  [0m
-[35m▐[0m  [35m█░[0m                    [37ms[0;1;37mpiritual [0ml[1mink: [0m+9[1m72[0m 3 9[1m676357[0m                   [35m ▒[0m  [35m [0;37m [0m
+[35m▐[0m  [35m█░[0m                    [37m [0;1;37m         [0m [1m     [0m  [1m  [0m    [1m      [0m                   [35m ▒[0m  [35m [0;37m [0m
 [35m▐ ▄[0;1;35;45m░[0;35m▓ [0m                                                              [35m░[0m  [35m■ [0m [35m▄▓ ▀ [0;37m [0m
 [1;35;45m ■▀▒░[0;35m▌ ░[0m              [37ma[0;1;37mnsi [0mb[1my [0mP[1mnakotic [0mo[1mf [0mi[1mCE [0m─[1m─[0m─[1m [0m1[1m0[0m 0[1m2[0m 9[1m4[0m        [35m■ ▒[0m   [35m▄[0;1;35;45m▄░■[0;35m█▄▄[0;37m [0m
 [35m▓▄[0;1;35;45m  ░■[0;35m▄▓▄[0m   [35m▄[0m       [1;37mi[0;1;36mC[0;36mE[0;1;37m [0m─[1m [0me[1mxploring [0mt[1mhe [0ml[1mimits [0mo[1mf [0mc[1mreativity[0m       [35m▄▓▌ ▐[0;1;35;45m▒░[0;35m█▀▓█▐ [0m'

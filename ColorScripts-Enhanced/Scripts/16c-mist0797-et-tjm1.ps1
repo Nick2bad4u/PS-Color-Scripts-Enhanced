@@ -5,7 +5,7 @@
 # Source SHA-256: 5d1c70ec5b7a18dc9b85025bc3d72d08adae34ffd52f071267d4e5265825c92b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ET-TJM1.ANS by Etana (MiSTiGRiS); released in mist0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Jade Monkey
 # SAUCE Author: Etana
 # SAUCE Group: MiSTiGRiS
@@ -57,7 +57,7 @@ Write-Host '
      [32m█████▓▄  [0;36m▓▓█[0m          [32m▄▄▄▄▄▄██████▄▄▄▄▄ ▀▀█[0m      [1;32mthe[0m
       [32m▀████████▄▄▄██████████████████▓▓▓▓██████▄[0m         [32mJade [0;1;32mMonkey[0m
         [32m▀███████████████████▓▓▓▓▓▓▀▀▀▀▀▓▓▓██████▄[0m
-          [32m▀███████████▓▓▀▀▀▀   [0;36m████▓[0m     [1;30meT[0;32m▀██████[0m     [36m·[0;1;32m6[0;32m0[0;1;32m4[0;36m·[0;1;32m73[0;32m0[0;36m·[0;1;32m2467[0;36m·[0m
+          [32m▀███████████▓▓▀▀▀▀   [0;36m████▓[0m     [1;30m  [0;32m▀██████[0m     [36m [0;1;32m [0;32m [0;1;32m [0;36m [0;1;32m  [0;32m [0;36m [0;1;32m    [0;36m [0m
              [36m▄▄▄▄[0m              [36m█████[0m         [32m█████[0m
              [36m▓███[0m              [36m█████[0m         [32m▀███▀[0m
              [36m▒▓▓█[0m              [36m██▓░░[0m                 [36m··[0;1;36mAccept no Imitations[0;36m·[0m

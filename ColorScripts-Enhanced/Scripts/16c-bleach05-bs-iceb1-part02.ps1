@@ -5,7 +5,7 @@
 # Source SHA-256: a27a83a8c6df81bc85bbdb2b5f0e1d396dae69b43ae9819d8f99a06ea1670bab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-ICEB1.ANS by burps (bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the ice box
 # SAUCE Author: burps
 # SAUCE Group: bleach
@@ -54,8 +54,8 @@ Write-Host '
 [36;40m ███░█[0;1;36;46m░[0;1;30;40m             # [0;1;35;40mb[0;35moomer''s [0;1;35mb[0;35mbs [0;1;35mu[0;35mtils/pfed/boomlab [0;1;35ms[0;35mhq [0;1;30m#              [0;1;30;46m░[0;36m██▓██[0;36;40m [0m
 [36;40m ███▓█[0;1;36;46m░[0;1;30;40m         # [0;1;35;40mi[0;35mmpactnet [0;1;30m(152:600/0)  [0;1;35mo[0;35msnnet [0;1;30m(141:6045/105) #         [0;36m██████[0;36;40m [0m
 [36;40m █████[0;1;36;46m░[0;1;30;40m                     # [0;1;35;40mf[0;35midonet [0;1;30m(2:205/261) #                      [0;1;30;46m░[0;36m█████[0;36;40m [0m
-[36;40m █[0;1;36;46m░[0;36m███[0;1;36;46m░[0;36m▌          [0;1;30m# node #1 [0;1;35m+[0;35m46-26-614646 [0;1;30m(28k8 v.fastclass) #          [0;36m▐[0;1;30;46m░[0;36m███[0;1;36;46m░[0;36m█[0;36;40m [0m
-[36;40m █[0;1;36;46m▒[0;36m████▌          [0;1;30m# node #2 [0;1;35m+[0;35m46-26-615535 [0;1;30m(temporary closed) #          [0;36m▐████[0;1;36;46m▒[0;36m█[0;36;40m [0m
+[36;40m █[0;1;36;46m░[0;36m███[0;1;36;46m░[0;36m▌          [0;1;30m          [0;1;35m [0;35m             [0;1;30m                              [0;36m▐[0;1;30;46m░[0;36m███[0;1;36;46m░[0;36m█[0;36;40m [0m
+[36;40m █[0;1;36;46m▒[0;36m████▌          [0;1;30m          [0;1;35m [0;35m             [0;1;30m                              [0;36m▐████[0;1;36;46m▒[0;36m█[0;36;40m [0m
 [36;40m █[0;1;36;46m▓[0;36m█████▄▄▓▄▄▄▄■▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▓▄▄▄[0;1;36;46m░[0;36m▄[0;1;36;46m░[0;36m▄▄▄▄▄█████[0;1;36;46m▓[0;36m█[0;36;40m [0m
 [36;40m █[0;1;36;46m█[0;36m██████████████████[0;1;36;46m░[0;36m██████████████████[0;1;36;46m▄[0;36m████[0;1;36;46m░[0;36m███████████████████████████████[0;1;36;46m█[0;36m█[0;36;40m [0m
 [36;40m ▀█[0;1;36;46m▀[0;36m███████▓███████▀█████████▓▀█████████[0;1;36;46m▓[0;36m█████████████▓▀█████████▀██████████[0;1;36;46m▀[0;36m█▀[0;36;40m [0m

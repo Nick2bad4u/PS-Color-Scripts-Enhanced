@@ -5,7 +5,7 @@
 # Source SHA-256: 029a95f3ff63981f6ca0ff13ee669de9496f038ba2851566e2f2835c5c034f58
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SW-DARKW.ANS by Sidewinder (puKe); released in puke1-95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Darkwinds
 # SAUCE Author: Sidewinder
 # SAUCE Group: puKe
@@ -42,7 +42,7 @@ Write-Host '
 [31m  ▄  ▄▐█[0;1;31;41m▐[0;1;31;40m█[0;1;37;40m▐█[0;1;37;47m▓▒░[0;1;30;47m▌[0;1;37;47m░▒▓[0;1;37;40m█[0;1;31;40m▐█[0;31m█▌[0m
 [31m ▀[0;1;31;41m▀[0;31m▀   █[0;1;31;41m▐[0;1;31;40m█▌[0;1;37;40m██[0;1;37;47m▒░[0;1;30;47m▐[0;1;37;47m░▒▓[0;1;37;40m█▌[0;1;31;40m█[0;1;31;41m▌[0;31m█[0m                      [1;30m─[0;31m+[0;1;30m─ [0;31mD[0;1;30mARK[0;31mW[0;1;30mINDS ─[0;31m+[0;1;30m─[0m
      [31m▀ ██[0;1;31m█▌[0;1;37m█[0;1;37;47m▓▒░[0;1;30;47m▐[0;1;37;47m░▓▓[0;1;37;40m█▌[0;1;31;40m█[0;1;31;41m▌[0;31m██▄▄ ▄[0m
-      [31m▄██[0;1;31m██[0;1;37m▐█[0;1;37;47m▓▒░[0;1;30;47m▌[0;1;37;47m░▒▓[0;1;37;40m█[0;31m▀[0;1;31m▀[0;31m▀█▀ [0;33m▒▄▄▄█▄▄   [0;1;30m─[0;31m+[0;1;30m─ [0;31mN[0;1;30mODE [0;31m# 1 : +[0;1;30m46-([0;31m0[0;1;30m)18-343514 ─[0;31m+[0;1;30m─[0m
+      [31m▄██[0;1;31m██[0;1;37m▐█[0;1;37;47m▓▒░[0;1;30;47m▌[0;1;37;47m░▒▓[0;1;37;40m█[0;31m▀[0;1;31m▀[0;31m▀█▀ [0;33m▒▄▄▄█▄▄   [0;1;30m─[0;31m [0;1;30m─ [0;31m [0;1;30m    [0;31m       [0;1;30m    [0;31m [0;1;30m           ─[0;31m [0;1;30m─[0m
 [1;30m   [0;31m▀ ▀██▀█▀[0;1;37m██[0;1;37;47m▓▒░[0;1;30;47m▌[0;1;37;47m░▓▓[0;1;37;40m██[0;33m▒▄▄█▀▀ ▌███▐[0m      [1;30m─[0;31m+[0;1;30m─ 28.800 V.34 MULTITECH ─[0;31m+[0;1;30m─[0m
 [1;30m   [0;33m▄▒  ▄▄▄▒[0;37;43m▀[0;33;40m██▀████▀▀▀ [0;37;40m▄▄▄▄[0;31;40mSW [0;33;40m▌██[0m
 [33;40m▄▄███▀▀[0;37;40m▄[0;33;40m▐[0;37;40m▄[0;33;40m░▒▀ [0;37;40m▓▄▄▄ [0;1;30;40m▀[0m▀████████   [33m█[0m                [31mT[0;1;30mHE [0;31mS[0;1;30mTAFF:[0m

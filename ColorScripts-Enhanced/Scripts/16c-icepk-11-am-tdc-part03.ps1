@@ -5,7 +5,7 @@
 # Source SHA-256: 8fea3f9a18e096f35a15e4e0d60552061d32313589c8d5c0855612614461c4d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AM-TDC.ICE by Amroth (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 101-150
 # Columns: 1-80
 
@@ -44,8 +44,7 @@ Write-Host '
 [32m    ░▒[0m                                                     [32m░[0m
      [32m░[0m                  [37mT H E  D A R K  C R U S A D E[0m
      [32m░[0m                  [1;30m▀ ▀ ▀  ▀ ▀ ▀ ▀  ▀ ▀ ▀ ▀ ▀ ▀ ▀[0m
-                              [[1m7O8[0m] [1m394 [0m- [1m13O1[0m
-                 ▄[1;30m▄[0m                                      ▄[1;30m▄[0m
+[1m[0m[1m[0m[1m[0m                 ▄[1;30m▄[0m                                      ▄[1;30m▄[0m
                 [1;30m▌[0m■[1;30m■   [0;1;37m [0;1;33m [0;1;31m  [0;31m   [0;1;30m                  [0;31m   [0;1;31m  [0;1;33m [0;1;37m    [0m■[1;30m■▐[0m
                 [1;30m▓[0m▐[1;30m▌[0m           [1;37mM[0;1;33mA[0;1;31mLi[0;31mCe [0;1;30mDis[0;31mt. [0;1;31mSi[0;1;33mt[0;1;37me[0m          ▐[1;30m▌▓[0m
                 [1;30m▓[0m▐[1;30m▌[0m             [1;37mP[0;1;33ml[0;1;31mat[0;31min[0;1;30mu[0;31mm [0;1;31mN[0;1;33me[0;1;37mt[0m             ▐[1;30m▌▓[0m

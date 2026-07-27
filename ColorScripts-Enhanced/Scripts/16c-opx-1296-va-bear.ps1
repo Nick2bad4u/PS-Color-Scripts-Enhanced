@@ -5,7 +5,7 @@
 # Source SHA-256: 72a403bf5c16a4950d6aad4ea72444d925dff1583b740f15ad2b31d19079d558
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VA-BEAR!.ANS by vain (opium.graphics); released in opx-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fluke the puke bear!
 # SAUCE Author: vain
 # SAUCE Group: opium.graphics
@@ -43,4 +43,4 @@ Write-Host '
         [37;40m                                                         [0m
         [37;40m                                                                [0m
 
-        [37;40mthe number is : +46-278-611311...[0m'
+        [37;40m                                 [0m'

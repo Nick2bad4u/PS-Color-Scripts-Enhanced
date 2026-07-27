@@ -5,7 +5,7 @@
 # Source SHA-256: 9e1acbfbd649df2d06919dcdb9ab9f8b7abc59b948c45b8415d93ff4952c86ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-MH.ANS by TechnoPhreaK (Blade Productions); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mass Hysteria
 # SAUCE Author: TechnoPhreaK
 # SAUCE Group: Blade Productions
@@ -55,7 +55,7 @@ Write-Host '
                                 [1;30;40m▄▀[0;1;30;47m▓[0m
 ▀  ▀▀ ▀▀▀▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▐▌ [0;1;30;47m▓[0m [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀ ▀▀  ▀
 [36m-[0;1;34mM[0;1;33mass[0;1;30m·[0;33mHysteria[0;1;30m·················█·▐▌·············································[0m
-[36m-[0;1;34m[[0;1;33m203[0;33m][0;1;30m·[0;33m859[0;1;30m·[0;33m1669[0;1;30m·················▀▀··············································[0m
+[36m [0;1;34m [0;1;33m   [0;33m [0;1;30m [0;33m   [0;1;30m [0;33m    [0;1;30m                 ▀▀                                              [0m
 [1;30m················································································[0m
 [36m-[0;1;34mF[0;1;33m/┤T[0;1;30m·[0;33mMember[0;1;30m·[0;33mBoard[0;1;30m······························································[0m
 [36m-[0;1;34mW[0;1;33miND[0;1;30m·[0;33mDistro[0;1;30m····································································[0m

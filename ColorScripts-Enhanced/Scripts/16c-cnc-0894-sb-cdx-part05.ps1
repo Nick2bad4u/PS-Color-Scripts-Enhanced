@@ -5,7 +5,7 @@
 # Source SHA-256: 5a8d5d88d5b1255cb23f0887da4ef5bcca3e294fffe0ade5c8172fe1c28f1044
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-CDX.ANS by Surfer Boy (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 198-236
 # Columns: 1-80
 
@@ -40,8 +40,8 @@ Write-Host '
          [1;30m█[0m                               [1;30m   [0m [1;30m      [0m                  [1;30m█[0m
          [1;30m█[0m                              0[1;30m-3 [0mA[1;30mMIGA[0m                    [1;30m█[0m
          [1;30m█[0m                                                           [1;30m█[0m
-         [1;30m█[0m                       N[1;30mODE [0m1[1;30m: (714) 5[0;1;37m3[0m37[1;30m- 6[0m24[1;30m4[0m            [1;30m█[0m
-         [1;30m█[0m                       N[1;30mODE [0m2[1;30m: (714) 5[0m37 [1;30m- [0m7[1;30m0[0m6[1;30m2[0m            [1;30m█[0m
+         [1;30m█[0m                        [1;30m    [0m [1;30m         [0;1;37m [0m  [1;30m   [0m  [1;30m [0m            [1;30m█[0m
+         [1;30m█[0m                        [1;30m    [0m [1;30m         [0m   [1;30m  [0m [1;30m [0m [1;30m [0m            [1;30m█[0m
          [1;30m█[0m                                                           [1;30m█[0m
          [1;30m█[0m                   [1;37m────NO FUCKING LAMERS───[0m                [1;30m█[0m
          [1;30m█[0m                                                           [1;30m█[0m

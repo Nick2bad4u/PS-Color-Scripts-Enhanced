@@ -5,7 +5,7 @@
 # Source SHA-256: 2ada1ce78ba82cfae09a336080a9dd3affbd7669ae9432eb278100a042a888da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-SCITY.ANS by Tank (acdu0393); released in acdu0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -38,6 +38,4 @@ Write-Host '
             [1;30m▀▄▄▄▄▄▄▄▄▄▄▄▄▄▀   ▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀   ▀▄▄▄▄▄▄▄▄▀[0m
 
 
-[1;30m [0;32m· ■ ▄ ▀▄▄▀[0;32;42m  [0;1;32;42m· ■ ▀ ▄▀▀▄[0;1;32;40m██▐│ [0;1;33;40mS I N   C I T Y   B B S [0;1;32;40m│▌██[0;1;32;42m▀▄▄▀ ▄ ■ ·  [0;32m▄▀▀▄ ▀ ■ ·[0m
-
-           [1;31mN0DE#1([0;31m203[0;1;31m)[0;31m754[0;1;31m-[0;31m9049 [0;1;31mN0DE#2([0;31m203[0;1;31m)[0;31mITS[0;1;31m-[0;31mPRIV [0;1;31mN0DE#3([0;31m203[0;1;31m)[0;31mSIN[0;1;31m-[0;31mCITY[0m'
+[1;30m [0;32m· ■ ▄ ▀▄▄▀[0;32;42m  [0;1;32;42m· ■ ▀ ▄▀▀▄[0;1;32;40m██▐│ [0;1;33;40mS I N   C I T Y   B B S [0;1;32;40m│▌██[0;1;32;42m▀▄▄▀ ▄ ■ ·  [0;32m▄▀▀▄ ▀ ■ ·[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7be74a0b04de3196c2093b650a1853b27f3d1735595b06eb1cc4fdb4ca5670ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-TT.ANS by Stone The Crow (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Termite Terrace
 # SAUCE Author: Stone The Crow
 # SAUCE Group: ACiD Productions
@@ -40,7 +40,7 @@ Write-Host '
  [31m▓[0m [1;37;47m▀[0m▀ [31m▄[0m  [31m▀[0m     [1;30ma n s i  b y  s t o n e  t h e  c r o w . a c i d[0m      [31m▀[0m  [31m▄[0m [37m▀[0;1;37;47m▀[0m [31m▓[0;37m [0m
  [31m█[0m [31m▄▀[0m                               [1;30m              [0m                         [31m▀▄[0m [31m█[0;37m [0m
  [31m██[0m [1;33m [0;1;31m  [0m   [1;30m [0m [1;33m [0;1;31m  [0;31m    [0;35m [0;31m       [0m          [1;30m             [0m                           [31m██[0;37m [0m
- [31m▓▌[0m [1;33mN[0;1;31mum[0;31mber[0;1;30m:[0m [1;33m1[0;1;30m∙[0;1;31m21[0;31m4[0;1;30m∙[0;31m288[0;1;30m∙[0;31m3211[0m                                             [31m▄[0m     [31m▐▓[0;37m [0m
+ [31m▓▌[0m [1;33m [0;1;31m  [0;31m   [0;1;30m [0m [1;33m [0;1;30m [0;1;31m  [0;31m [0;1;30m [0;31m   [0;1;30m [0;31m    [0m                                             [31m▄[0m     [31m▐▓[0;37m [0m
  [31m▒▀[0m [1;33m [0;1;31m  [0;31m   [0;1;30m [0m [1;33m [0;1;31m  [0;31m   [0;37m [0;1;30m [0;1;37m     [0;1;30m [0m  [1;33m [0;1;31m  [0;31m      [0;37m [0;1;30m [0;1;37m   [0;1;30m [0m                              [31m▀[0m    [31m▒[0;37m [0m
     [1;33m [0;1;31m  [0;31m   [0;1;30m [0m [1;33m [0;1;31m  [0;31m               [0;37m  [0;1;33m [0;1;31m  [0;31m       [0;35m [0;31m    [0;35m [0;31m    [0;37m  [0;1;33m [0;1;31m  [0;31m                [0;37m [0m [31m█[0m [31m [0m
  [31m░[0m  [37m  [0;31m▄[0;37m     [0;1;33m [0;1;31m  [0;31m  [0;35m [0;31m     [0;37m  [0;1;33m [0;1;31m  [0;31m  [0;35m [0;31m    [0;37m  [0;1;37m [0;1;31m [0;31m [0;35m [0;31m      [0;35m [0;31m   [0;37m  [0;1;33m [0;1;31m  [0;31m      [0;35m [0;31m    [0;37m  [0m    [31m▄[0m  [31m█[0m [31m░[0;37m [0m
