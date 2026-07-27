@@ -189,7 +189,12 @@ test("passthrough preserves sequential ANSI colors, line endings, and apostrophe
         0,
         conversion.error?.message || conversion.stderr || conversion.stdout
     );
-    assert.match(fs.readFileSync(outputPath, "utf8"), /  ''  `/u);
+    const generatedSource = fs.readFileSync(outputPath, "utf8");
+    assert.match(generatedSource, /  ''  `/u);
+    assert.match(
+        generatedSource,
+        /^# Source Conversion Mode: Passthrough$/mu
+    );
 
     const expected = payload.replace(/\r\n/g, "\n");
     runPowerShell(outputPath).forEach((stdout) =>
@@ -244,6 +249,10 @@ test("PowerShell converter emits safe PS5.1-compatible scripts", () => {
                 0xbb,
                 0xbf,
             ]
+        );
+        assert.match(
+            fs.readFileSync(outputPath, "utf8"),
+            /^# Source Conversion Mode: TerminalEmulation$/mu
         );
         runPowerShell(outputPath).forEach((stdout) =>
             assert.equal(stdout, `\n${payload}\n`)

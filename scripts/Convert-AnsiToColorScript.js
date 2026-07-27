@@ -1663,6 +1663,7 @@ function getValidSauceDate(value) {
  * @param {string} sourceEncoding
  * @param {SauceRecord | null} sauce
  * @param {Partial<SourceProvenance>} [provenance]
+ * @param {"Passthrough" | "TerminalEmulation" | null} [conversionMode]
  *
  * @returns {string}
  */
@@ -1670,7 +1671,8 @@ function buildSourceMetadataHeader(
     sourceName,
     sourceEncoding,
     sauce,
-    provenance = {}
+    provenance = {},
+    conversionMode = null
 ) {
     const lines = [
         `# Converted from: ${sanitizePowerShellComment(sourceName)}`,
@@ -1683,6 +1685,7 @@ function buildSourceMetadataHeader(
         ["License", provenance.license],
         ["Attribution", provenance.attribution],
         ["Modification", provenance.modification],
+        ["Conversion Mode", conversionMode],
     ];
     for (const [label, value] of sourceMetadata) {
         if (value) {
@@ -2155,7 +2158,8 @@ function main(argv = process.argv.slice(2)) {
             path.basename(ansiFile),
             options.encoding,
             sauce,
-            options.sourceProvenance
+            options.sourceProvenance,
+            options.passthrough ? "Passthrough" : "TerminalEmulation"
         );
 
         const outputDir = path.dirname(outputFile);
