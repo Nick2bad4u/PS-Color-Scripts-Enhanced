@@ -6,6 +6,7 @@ const test = require("node:test");
 const {
     assertSafeScriptName,
     getQuotedProperty,
+    parseArguments,
     removeAnalysisExceptions,
     removeProvenanceEntries,
     removeScriptMetadataLines,
@@ -23,6 +24,21 @@ test("assertSafeScriptName rejects paths and unsafe names", () => {
     assert.doesNotThrow(() => assertSafeScriptName(NAME));
     assert.throws(() => assertSafeScriptName("../escape"));
     assert.throws(() => assertSafeScriptName("Name With Spaces"));
+});
+
+test("parseArguments accepts an explicit checkpoint disposition", () => {
+    const options = parseArguments([
+        "--names-file=temp/removals.json",
+        "--checkpoint-disposition=rejected-duplicate-render",
+        "--write",
+    ]);
+
+    assert.equal(
+        options.checkpointDisposition,
+        "rejected-duplicate-render"
+    );
+    assert.equal(options.write, true);
+    assert.match(options.namesPath, /temp[\\/]removals\.json$/u);
 });
 
 test("removeProvenanceEntries removes exactly one complete block", () => {
@@ -154,4 +170,78 @@ test("updateCheckpoint rejects the final source as rejected-quality", () => {
         5
     );
     assert.equal(result.sixteenColors.years[0].importedWorkCount, 0);
+});
+
+test("updateCheckpoint records a selected duplicate-render disposition", () => {
+    const checkpoint = {
+        sixteenColors: {
+            acceptedSources: [
+                { archiveYear: 2024, sourceSha256: SOURCE_HASH },
+            ],
+            totals: {
+                acceptedSourceCount: 1,
+                dispositionTotals: {
+                    accepted: 1,
+                    "rejected-duplicate-render": 0,
+                },
+                emittedScriptCount: 1,
+                importedWorkCount: 1,
+            },
+            years: [
+                {
+                    dispositionTotals: {
+                        accepted: 1,
+                    },
+                    emittedScriptCount: 1,
+                    importedWorkCount: 1,
+                    year: 2024,
+                },
+            ],
+        },
+    };
+
+    const result = updateCheckpoint(
+        checkpoint,
+        new Map([[NAME, PROVENANCE_BLOCK]]),
+        "",
+        "rejected-duplicate-render"
+    );
+
+    assert.equal(
+        result.sixteenColors.totals.dispositionTotals[
+            "rejected-duplicate-render"
+        ],
+        1
+    );
+    assert.equal(
+        result.sixteenColors.years[0].dispositionTotals[
+            "rejected-duplicate-render"
+        ],
+        1
+    );
+});
+
+test("updateCheckpoint rejects unsupported dispositions", () => {
+    const checkpoint = {
+        sixteenColors: {
+            acceptedSources: [],
+            totals: {
+                dispositionTotals: {
+                    accepted: 0,
+                },
+            },
+            years: [],
+        },
+    };
+
+    assert.throws(
+        () =>
+            updateCheckpoint(
+                checkpoint,
+                new Map(),
+                "",
+                "rejected-unknown"
+            ),
+        /unsupported/u
+    );
 });

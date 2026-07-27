@@ -414,8 +414,8 @@ Describe 'Curated ANSI artwork provenance' {
         $script:Checkpoint.SixteenColors.Totals.ApiUnreturnedPackCount | Should -Be 8
         $script:Checkpoint.SixteenColors.Totals.PackCount | Should -Be 5479
         $script:Checkpoint.SixteenColors.Totals.CandidateCount | Should -Be 64929
-        $script:Checkpoint.SixteenColors.Totals.ImportedWorkCount | Should -Be 15244
-        $script:Checkpoint.SixteenColors.Totals.EmittedScriptCount | Should -Be 21794
+        $script:Checkpoint.SixteenColors.Totals.ImportedWorkCount | Should -Be 15104
+        $script:Checkpoint.SixteenColors.Totals.EmittedScriptCount | Should -Be 21570
         (
             $script:Checkpoint.SixteenColors.Totals.ApiReportedPackTotal -
             $script:Checkpoint.SixteenColors.Totals.ApiEnumeratedPackCount

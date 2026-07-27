@@ -171,12 +171,14 @@ function removeAnalysisExceptions(document, names) {
  * @param {object} checkpoint
  * @param {Map<string, string>} removedProvenanceBlocks
  * @param {string} remainingProvenance
+ * @param {string} [rejectedDisposition="rejected-quality"]
  * @returns {object}
  */
 function updateCheckpoint(
     checkpoint,
     removedProvenanceBlocks,
-    remainingProvenance
+    remainingProvenance,
+    rejectedDisposition = "rejected-quality"
 ) {
     const acceptedSources = checkpoint?.sixteenColors?.acceptedSources;
     const years = checkpoint?.sixteenColors?.years;
@@ -188,6 +190,20 @@ function updateCheckpoint(
         typeof totals !== "object"
     ) {
         throw new Error("ANSI archive checkpoint is malformed.");
+    }
+    if (
+        !rejectedDisposition.startsWith("rejected-") ||
+        !Object.hasOwn(
+            totals.dispositionTotals,
+            rejectedDisposition
+        ) ||
+        !Number.isInteger(
+            totals.dispositionTotals[rejectedDisposition]
+        )
+    ) {
+        throw new Error(
+            `Checkpoint disposition is unsupported: ${rejectedDisposition}`
+        );
     }
 
     const scriptDecrementsByYear = new Map();
@@ -233,8 +249,10 @@ function updateCheckpoint(
         fullyRemovedHashes.size;
     updated.sixteenColors.totals.dispositionTotals.accepted -=
         fullyRemovedHashes.size;
-    updated.sixteenColors.totals.dispositionTotals["rejected-quality"] +=
-        fullyRemovedHashes.size;
+    updated.sixteenColors.totals.dispositionTotals[rejectedDisposition] =
+        (updated.sixteenColors.totals.dispositionTotals[
+            rejectedDisposition
+        ] || 0) + fullyRemovedHashes.size;
     updated.sixteenColors.acceptedSources =
         updated.sixteenColors.acceptedSources.filter(
             (source) => !fullyRemovedHashes.has(source.sourceSha256)
@@ -255,9 +273,20 @@ function updateCheckpoint(
         const yearRecord = updated.sixteenColors.years.find(
             (entry) => entry.year === year
         );
+        const currentDispositionCount =
+            yearRecord.dispositionTotals?.[rejectedDisposition];
+        if (
+            currentDispositionCount != null &&
+            !Number.isInteger(currentDispositionCount)
+        ) {
+            throw new Error(
+                `Checkpoint year ${year} has an invalid ${rejectedDisposition} disposition.`
+            );
+        }
         yearRecord.importedWorkCount -= decrement;
         yearRecord.dispositionTotals.accepted -= decrement;
-        yearRecord.dispositionTotals["rejected-quality"] += decrement;
+        yearRecord.dispositionTotals[rejectedDisposition] =
+            (currentDispositionCount || 0) + decrement;
     }
     return updated;
 }
@@ -276,6 +305,7 @@ function writeFileAtomic(filePath, content) {
 /**
  * @param {string[]} arguments_
  * @returns {{
+ *     checkpointDisposition: string;
  *     namesPath: string | null;
  *     reportPath: string;
  *     write: boolean;
@@ -289,6 +319,7 @@ function parseArguments(arguments_) {
         "report.after-text.json"
     );
     let namesPath = null;
+    let checkpointDisposition = "rejected-quality";
     let write = false;
 
     for (const argument of arguments_) {
@@ -304,6 +335,10 @@ function parseArguments(arguments_) {
                 REPOSITORY_ROOT,
                 argument.slice("--names-file=".length)
             );
+        } else if (argument.startsWith("--checkpoint-disposition=")) {
+            checkpointDisposition = argument.slice(
+                "--checkpoint-disposition=".length
+            );
         } else if (argument === "--help") {
             console.log(`Usage: node scripts/Prune-ColorScripts.js [options]
 
@@ -311,6 +346,8 @@ Options:
   --report=<path>  Content-audit report containing all-blank scripts
   --names-file=<path>
                    JSON manifest with scripts selected for removal
+  --checkpoint-disposition=<rejected-*>
+                   Disposition assigned to fully removed archive sources
   --write          Apply the validated deletions and registry updates
   --help           Show this help`);
             process.exit(0);
@@ -318,7 +355,7 @@ Options:
             throw new Error(`Unknown option: ${argument}`);
         }
     }
-    return { namesPath, reportPath, write };
+    return { checkpointDisposition, namesPath, reportPath, write };
 }
 
 /**
@@ -402,7 +439,8 @@ function main(arguments_ = process.argv.slice(2)) {
     const updatedCheckpoint = updateCheckpoint(
         checkpoint,
         provenanceResult.removedBlocks,
-        provenanceResult.source
+        provenanceResult.source,
+        options.checkpointDisposition
     );
 
     console.log(`Validated scripts selected for removal: ${names.length}`);

@@ -1,96 +1,175 @@
 {
-  "schemaVersion": 1,
-  "auditDate": "2026-07-27",
-  "baseline": {
-    "ref": "origin/main",
-    "commit": "661bad139913e67f110ff871ab1226b52dac580d"
-  },
-  "checkpointCommit": "7a63e6107434739ed6ac914f87f4ba81de3d37aa",
-  "scope": {
-    "initialAddedScripts": 21968,
-    "removedScripts": 207,
-    "remainingAddedScripts": 21761,
-    "finalGalleryScripts": 24914
-  },
-  "contentCleanup": {
-    "initialTextCandidateRows": 31626,
-    "initialPolicyRows": 1013,
-    "initialRowsBlankedAfterOverlapDeduplication": 32051,
-    "expandedPolicyRows": 265,
-    "totalRowsBlanked": 32316,
-    "initialTrailingRows": 5152,
-    "trailingRowsExposedByInitialTextCleanup": 17765,
-    "trailingRowsExposedByExpandedPolicyCleanup": 20,
-    "totalTrailingRowsRemoved": 22937
-  },
-  "policyReview": {
-    "expandedCategoryRowCounts": {
-      "hate": 1,
-      "profanity": 219,
-      "sexual": 46,
-      "slur": 1,
-      "violence": 0
+    "archiveState": {
+        "accepted16colorsSources": 15104,
+        "emitted16colorsScripts": 21570,
+        "rejectedDuplicateRenderSources": 371,
+        "rejectedQualitySources": 13992,
+        "reviewedAnalysisExceptions": 459
     },
-    "matching": "Exact normalized words and phrases plus exact punctuation-obfuscated tokens; arbitrary spaced-letter substrings, phone-number masking, and ambiguous surnames are excluded to avoid false positives."
-  },
-  "removals": {
-    "allBlankScripts": 10,
-    "lowQualityScripts": 146,
-    "incompleteSourceScripts": 51,
-    "incompleteSourceWorks": [
-      "16colors:33rules/33-GLO.ANS",
-      "16colors:amish-0717/filth - camp.ans",
-      "16colors:blocktronics-6710/nu-acidunder.ans",
-      "16colors:blocktronics_baud_dudes/nu+sdn-xibalba.ans",
-      "16colors:blocktronics_blockalypse/2mz0avgrm- blackflag.ans",
-      "16colors:crime/dreams.ans",
-      "16colors:crime/goodbye lulu.ans",
-      "16colors:crime/ill go down swinging.ans",
-      "16colors:impure79/sp-mircart.ans",
-      "16colors:laz17/LAZ17NFO.ans",
-      "16colors:mist0221/US-BACK_TO_THE_BBS.ANS",
-      "16colors:mist1014/wz-clockmaker.ans"
+    "auditDate": "2026-07-27",
+    "baseline": {
+        "ref": "origin/main",
+        "commit": "661bad139913e67f110ff871ab1226b52dac580d"
+    },
+    "contentCleanup": {
+        "initialTextCandidateRows": 31626,
+        "initialPolicyRows": 1013,
+        "initialRowsBlankedAfterOverlapDeduplication": 32051,
+        "expandedPolicyRows": 265,
+        "totalRowsBlanked": 32316,
+        "initialTrailingRows": 5152,
+        "trailingRowsExposedByInitialTextCleanup": 17765,
+        "trailingRowsExposedByExpandedPolicyCleanup": 20,
+        "sourceFidelityRowsRestored": 34,
+        "totalTrailingRowsRemoved": 22903
+    },
+    "curationHistory": {
+        "initialContentCurationCommit": "7a63e6107434739ed6ac914f87f4ba81de3d37aa",
+        "followupCheckpointCommit": "b7916f45e84e907356a9325037fda86ed1ad13ff"
+    },
+    "finalAudit": {
+        "failedFiles": 0,
+        "filesWithPolicyRows": 0,
+        "filesWithTextRows": 0,
+        "filesWithTrailingBlankRows": 0,
+        "policyRows": 0,
+        "textRows": 0,
+        "trailingBlankRows": 0
+    },
+    "finalFreshContentOrIntegrityFindings": {
+        "analysis-error": 0,
+        "blank-part": 0,
+        "derivative-attribution-review": 0,
+        "embedded-dos-eof": 0,
+        "low-cell-variety": 0,
+        "low-color-variety": 0,
+        "missing-source-coordinates": 0,
+        "mostly-plain-ascii": 0,
+        "source-row-gap-or-overlap": 0,
+        "sparse-cell-density": 0,
+        "suspicious-character-decoding": 0,
+        "very-small-output": 0
+    },
+    "notes": [
+        "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
+        "Seventeen whole works whose retained output became identical after text curation were removed as rejected-duplicate-render; the retained and removed source IDs are recorded above.",
+        "Residual structural findings are retained as review queues; they do not indicate written text, policy terms, trailing blank output, malformed provenance, or decoding damage.",
+        "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
+        "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
-    "reason": "When a text-only or low-quality part was removed, every surviving sibling from the same accepted source was also removed if retaining it would omit source rows. The source disposition was changed from accepted to rejected-quality."
-  },
-  "archiveState": {
-    "accepted16colorsSources": 15121,
-    "emitted16colorsScripts": 21587,
-    "rejectedQualitySources": 13992,
-    "reviewedAnalysisExceptions": 459
-  },
-  "finalAudit": {
-    "failedFiles": 0,
-    "filesWithPolicyRows": 0,
-    "filesWithTextRows": 0,
-    "filesWithTrailingBlankRows": 0,
-    "policyRows": 0,
-    "textRows": 0,
-    "trailingBlankRows": 0
-  },
-  "finalFreshContentOrIntegrityFindings": {
-    "analysis-error": 0,
-    "blank-part": 0,
-    "derivative-attribution-review": 0,
-    "embedded-dos-eof": 0,
-    "low-cell-variety": 0,
-    "low-color-variety": 0,
-    "missing-source-coordinates": 0,
-    "mostly-plain-ascii": 0,
-    "source-row-gap-or-overlap": 0,
-    "sparse-cell-density": 0,
-    "suspicious-character-decoding": 0,
-    "very-small-output": 0
-  },
-  "residualStructuralReviewSignals": {
-    "continuous-split-review": 2072,
-    "dense-split-boundary": 16,
-    "leading-blank-run": 1980,
-    "tiny-tail-part": 42
-  },
-  "notes": [
-    "Residual structural findings are retained as review queues; they do not indicate written text, policy terms, trailing blank output, malformed provenance, or decoding damage.",
-    "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
-    "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
-  ]
+    "policyReview": {
+        "expandedCategoryRowCounts": {
+            "hate": 1,
+            "profanity": 219,
+            "sexual": 46,
+            "slur": 1,
+            "violence": 0
+        },
+        "matching": "Exact normalized words and phrases plus exact punctuation-obfuscated tokens; arbitrary spaced-letter substrings, phone-number masking, and ambiguous surnames are excluded to avoid false positives."
+    },
+    "removals": {
+        "allBlankScripts": 10,
+        "lowQualityScripts": 146,
+        "incompleteSourceScripts": 51,
+        "postCurationDuplicateScripts": 17,
+        "incompleteSourceWorks": [
+            "16colors:33rules/33-GLO.ANS",
+            "16colors:amish-0717/filth - camp.ans",
+            "16colors:blocktronics-6710/nu-acidunder.ans",
+            "16colors:blocktronics_baud_dudes/nu+sdn-xibalba.ans",
+            "16colors:blocktronics_blockalypse/2mz0avgrm- blackflag.ans",
+            "16colors:crime/dreams.ans",
+            "16colors:crime/goodbye lulu.ans",
+            "16colors:crime/ill go down swinging.ans",
+            "16colors:impure79/sp-mircart.ans",
+            "16colors:laz17/LAZ17NFO.ans",
+            "16colors:mist0221/US-BACK_TO_THE_BBS.ANS",
+            "16colors:mist1014/wz-clockmaker.ans"
+        ],
+        "postCurationDuplicateWorks": [
+            {
+                "removed": "16colors:arc-15/SOB-ALIE.ANS",
+                "retained": "16colors:glue-27/SOB-ALIE.ANS"
+            },
+            {
+                "removed": "16colors:ecl-08/FU-CF7.ANS",
+                "retained": "16colors:awe9611/FU-CF3.ANS"
+            },
+            {
+                "removed": "16colors:elloco/NLAND4.ANS",
+                "retained": "16colors:nland-05/EL-NL3.ANS"
+            },
+            {
+                "removed": "16colors:glue-01/WA-GLUE1.ANS",
+                "retained": "16colors:awe9708/WA-GLUE1.ANS"
+            },
+            {
+                "removed": "16colors:glue-17/US-CARNA.ANS",
+                "retained": "16colors:awe-20/US-CARN1.ANS"
+            },
+            {
+                "removed": "16colors:glue-17/US-DARK.ANS",
+                "retained": "16colors:pst-06/R&C-DARK.ANS"
+            },
+            {
+                "removed": "16colors:ice9609a/US-FC1.ICE",
+                "retained": "16colors:awe9610/US-FC1.ANS"
+            },
+            {
+                "removed": "16colors:ice9705a/US-CRYPT.ICE",
+                "retained": "16colors:fire0697/US-CRY3.ANS"
+            },
+            {
+                "removed": "16colors:ira-007a/MR-MTRX.ANS",
+                "retained": "16colors:glue-13/MR-MTRX.ANS"
+            },
+            {
+                "removed": "16colors:k-zxica/DIE-WL1.ANS",
+                "retained": "16colors:zxica/WAPCHUNK.ANS"
+            },
+            {
+                "removed": "16colors:laz04mar/HEN-BERM.ANS",
+                "retained": "16colors:blndr012/US-MEWDA.ANS"
+            },
+            {
+                "removed": "16colors:laz05apr/US-COMET.ANS",
+                "retained": "16colors:blndr018/US-COMET.ANS"
+            },
+            {
+                "removed": "16colors:moi-1296/MH!PGYY.ANS",
+                "retained": "16colors:arsin02/MH!PGYY.ANS"
+            },
+            {
+                "removed": "16colors:oasis-02/TSK-TRIP.ANS",
+                "retained": "16colors:fire0596/TSK-TRIP.ANS"
+            },
+            {
+                "removed": "16colors:out-1198/OUT-AD.ANS",
+                "retained": "16colors:out-0398/OUT-AD.ANS"
+            },
+            {
+                "removed": "16colors:rile_001/FV-EXILE.ANS",
+                "retained": "16colors:fever1yr/25L00021.ANS"
+            },
+            {
+                "removed": "16colors:soc-0997/US-GLUE9.ANS",
+                "retained": "16colors:glue-02/US-GLUE9.ANS"
+            }
+        ],
+        "reason": "When a text-only or low-quality part was removed, every surviving sibling from the same accepted source was also removed if retaining it would omit source rows. After text curation, whole works with identical retained output were deduplicated by preferring the earliest dated or archive-year source, then a stable lexicographic source ID when chronology was tied or unavailable."
+    },
+    "residualStructuralReviewSignals": {
+        "continuous-split-review": 2072,
+        "dense-split-boundary": 16,
+        "leading-blank-run": 1980,
+        "tiny-tail-part": 42
+    },
+    "schemaVersion": 1,
+    "scope": {
+        "initialAddedScripts": 21968,
+        "removedScripts": 224,
+        "remainingAddedScripts": 21744,
+        "finalGalleryScripts": 24897,
+        "sourceFidelityLockedScripts": 21
+    }
 }

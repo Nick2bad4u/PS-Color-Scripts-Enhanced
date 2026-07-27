@@ -41,7 +41,7 @@ A cross-platform PowerShell module for discovering and displaying ANSI colorscri
 
 ## ✨ Features
 
-- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->24914+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->24897+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
 - ⚡ **Selective Caching** — Reuses output for the 15 computational renderers listed in `CachePolicy.psd1`; deterministic bundled scripts render in-process
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
@@ -261,7 +261,7 @@ Project-authored code is provided under the [Unlicense](LICENSE). Third-party AN
 
 ### Artwork Sources and Provenance
 
-New curated imports are mapped in [ArtworkProvenance.psd1](ColorScripts-Enhanced/ArtworkProvenance.psd1), with preserved evidence under [ThirdPartyNotices](ColorScripts-Enhanced/ThirdPartyNotices/), compact [archive](ColorScripts-Enhanced/AnsiArchiveCurationCheckpoint.json) and [content-curation](ColorScripts-Enhanced/AnsiContentCurationCheckpoint.json) checkpoints, and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The exhaustive 1990-2026 16colors review is complete: 64,929 `.ANS` or `.ICE` candidates across 5,479 enumerated packs yielded 15,121 retained works and 21,587 scripts after post-import content and quality curation. Historical archive-recovery entries retain exact source evidence without inventing metadata that 16colors does not provide.
+New curated imports are mapped in [ArtworkProvenance.psd1](ColorScripts-Enhanced/ArtworkProvenance.psd1), with preserved evidence under [ThirdPartyNotices](ColorScripts-Enhanced/ThirdPartyNotices/), compact [archive](ColorScripts-Enhanced/AnsiArchiveCurationCheckpoint.json) and [content-curation](ColorScripts-Enhanced/AnsiContentCurationCheckpoint.json) checkpoints, and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The exhaustive 1990-2026 16colors review is complete: 64,929 `.ANS` or `.ICE` candidates across 5,479 enumerated packs yielded 15,104 retained works and 21,570 scripts after post-import content, quality, source-continuity, and duplicate-render curation. Historical archive-recovery entries retain exact source evidence without inventing metadata that 16colors does not provide.
 
 ---
 

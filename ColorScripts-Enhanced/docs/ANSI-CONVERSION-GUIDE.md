@@ -58,7 +58,7 @@ Use passthrough only when the decoded source already contains its final sequenti
 .\Convert-AnsiToColorScript-Advanced.ps1 -AnsiFile "plant.ansi" -Encoding utf8 -Passthrough
 ```
 
-Passthrough preserves the decoded source byte-for-byte inside one safe PowerShell literal and emits it with `Write-Host -NoNewline`. This retains exact color transitions, CRLF geometry, and trailing line endings. Artwork containing cursor positioning, erase commands, overstrikes, or terminal-width wrapping must use terminal emulation instead.
+Passthrough preserves the decoded source byte-for-byte inside one safe PowerShell literal and emits it with `Write-Host -NoNewline`. This retains exact color transitions, CRLF geometry, and trailing line endings. Generated scripts carry `# Source Conversion Mode: Passthrough`; content-curation tooling treats that marker as a source-fidelity lock and will not rewrite the payload. Artwork containing cursor positioning, erase commands, overstrikes, or terminal-width wrapping must use terminal emulation instead.
 
 ## How It Works
 
@@ -259,7 +259,7 @@ The collection now contains curated subsets from these sources. See [Artwork Sou
 | [Asciiville](https://github.com/doctorfree/Asciiville)                         | 946 files reviewed                 | MIT for the imported project wordmark | 1 byte-preserved nine-color wordmark imported; image-derived and restricted galleries excluded.                           |
 | [Durdraw](https://github.com/durdraw/durdraw)                                  | 16 examples reviewed               | BSD-3-Clause                          | 1 native 80-by-32 ANSI stream imported; `.dur` animations require a frame-aware parser.                                   |
 | [Roy/SAC ANSI gallery](https://www.roysac.com/roy_ansishow.html), official downloads, and 16colors | 62 download archives plus live 16colors Roy inventory reviewed | FAL-1.3 for each converted Roy file | 126 unique Roy-authored works represented by 153 scripts; 2 `.BIN` files are outside the supported `.ANS`/`.ICE` scope. |
-| [16colors](https://16colo.rs/)                                              | 5,479 enumerated packs and 64,929 `.ANS` or `.ICE` candidates reviewed for 1990-2026 | Project-specific artist/rightsholder permission with attribution | 15,121 retained works emitted as 21,587 scripts after content and quality curation; every archive year has a checked-in inventory fingerprint and disposition total. |
+| [16colors](https://16colo.rs/)                                              | 5,479 enumerated packs and 64,929 `.ANS` or `.ICE` candidates reviewed for 1990-2026 | Project-specific artist/rightsholder permission with attribution | 15,104 retained works emitted as 21,570 scripts after content, quality, source-continuity, and duplicate-render curation; every archive year has a checked-in inventory fingerprint and disposition total. |
 | [HyFetch](https://github.com/hykilpikonna/hyfetch)                             | Many distro logos                  | MIT                                   | Uses application-specific templates/placeholders, so it needs a purpose-built importer rather than raw `.ANS` conversion. |
 
 ## After Conversion
