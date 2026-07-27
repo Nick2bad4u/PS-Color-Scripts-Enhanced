@@ -21,8 +21,8 @@ title: Show-ColorScript
 
 ```
 Show-ColorScript [-Random] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### Help
@@ -37,8 +37,8 @@ Show-ColorScript [-h] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### List
@@ -53,8 +53,8 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string[]>]
- [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-Quiet]
- [-NoAnsiOutput] [-ValidateCache]
+ [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-ShowInfo]
+ [-Quiet] [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ## ALIASES
@@ -276,15 +276,23 @@ if (Test-Path $scriptPath) {
 Show-ColorScript -IncludePokemon
 ```
 
-`Pokemon` カテゴリのスクリプトを含むランダムなカラースクリプトを表示します。ランダム選択にポケモンのアートを含めたい場合に便利です。
+非推奨の互換性スイッチを示します。ポケモンと色違いポケモンのスクリプトはすでに通常の選択対象であるため、1 リリースの間、何も行わないサイレント スイッチです。
 
 ### EXAMPLE 22
 
 ```powershell
-Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+Show-ColorScript -Random -ExcludeCategory Pokemon,ShinyPokemon
 ```
 
-`Pokemon` と `Gaming` カテゴリの両方を除外して、ランダムなカラースクリプトを表示します。 `-Category` または `-Tag` と組み合わせて、選択をさらに絞り込みます。
+両方のポケモン カテゴリを除外して、ランダムなカラースクリプトを表示します。`-Category` または `-Tag` と組み合わせて、選択をさらに絞り込みます。
+
+### EXAMPLE 23
+
+```powershell
+Show-ColorScript -Random -ShowInfo
+```
+
+ランダムなカラースクリプトを表示し、そのスクリプト名と完全なパスを情報ストリームに書き込みます。識別行を抑制するには `-Quiet` を使用します。
 
 ## PARAMETERS
 
@@ -332,7 +340,7 @@ HelpMessage: ''
 
 ### -ExcludeCategory
 
-選択が行われる前に、1 つ以上のカテゴリからスクリプトを除外します。たとえば、`-ExcludeCategory Pokemon` を使用してすべての Pokémon スクリプトを回避するか、`-ExcludeCategory Pokemon,Gaming` などの複数のカテゴリを指定します。すべてのモード (ランダム、名前付き、リスト、すべて) で動作し、`-Category` および `-Tag` フィルターと組み合わせます。
+選択が行われる前に、1 つ以上のカテゴリからスクリプトを除外します。たとえば、`-ExcludeCategory Pokemon,ShinyPokemon` を使用してすべてのポケモン スクリプトを除外するか、任意のカテゴリの組み合わせを指定します。すべてのモード (ランダム、名前付き、リスト、すべて) で動作し、`-Category` および `-Tag` フィルターと組み合わせます。
 
 ```yaml
 Type: System.String[]
@@ -375,7 +383,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-ポケモンのカラースクリプトを選択範囲に含めるオプトイン フラグ。省略した場合、ポケモンスクリプトは自動的に除外されます (デフォルト)。注: これは古い `-ExcludePokemon` パラメータを置き換えるもので、リファクタリングのセマンティクスが反転されているため、オプトアウトするのではなく、オプトインしてポケモン スクリプトを表示するようになります。
+非推奨の互換性スイッチ。ポケモンと色違いポケモンのカラースクリプトはすでに通常の選択対象であるため、1 リリースの間、何も行わないサイレント スイッチとして受け付けられます。除外するには `-ExcludeCategory Pokemon,ShinyPokemon` を使用します。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -581,6 +589,39 @@ Aliases:
 - AsString
 ParameterSets:
 - Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ShowInfo
+
+選択した各カラースクリプトの描画後に、スクリプト名と完全なパスを含む簡潔な 1 行を情報ストリームに書き込みます。`-Quiet` はこの行を抑制します。`-ReturnText` の出力には含まれず、`-PassThru` は引き続き構造化メタデータを返します。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Random
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Named
   Position: Named
   IsRequired: false
   ValueFromPipeline: false

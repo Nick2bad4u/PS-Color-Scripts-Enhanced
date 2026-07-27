@@ -46,9 +46,9 @@ A cross-platform PowerShell module for discovering and displaying ANSI colorscri
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
 - **Rich Metadata** — Filter the catalog by name, category, and tag or export it as structured data
-- 🐾 **Thousands of Pokémon ColorScripts** — Pokémon and shiny-Pokémon collections are available by explicit opt-in
+- 🐾 **Thousands of Pokémon ColorScripts** — Pokémon and shiny-Pokémon collections participate in normal selection
 
-  Pokémon art is filtered by default to keep routine inventory and random selection lean. Opt in with `-IncludePokemon` on relevant commands.
+  To opt out, use `-ExcludeCategory Pokemon,ShinyPokemon` with `Show-ColorScript`.
 - 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
 - 🧩 **Easy to Use** — Simple commands with tab completion
 - 🗄️ **Platform-Aware Cache** — Query `(Get-ColorScriptConfiguration).Cache.EffectivePath` for the user-scoped location
@@ -82,6 +82,9 @@ scs                          # shorthand alias
 Show-ColorScript -Name "mandelbrot-zoom"
 scs pikachu
 
+# Show the selected script name and full path after rendering
+Show-ColorScript -ShowInfo
+
 # List all available colorscripts
 Show-ColorScript -List
 Get-ColorScriptList
@@ -90,8 +93,8 @@ Get-ColorScriptList
 Get-ColorScriptList -Category Patterns
 Get-ColorScriptList -Tag Recommended
 
-# Include Pokémon scripts (opt-in)
-Show-ColorScript -IncludePokemon
+# Exclude Pokémon scripts when desired
+Show-ColorScript -ExcludeCategory Pokemon,ShinyPokemon
 ```
 
 ## ⚡ Boost Performance with Caching
@@ -124,15 +127,15 @@ notepad $PROFILE
 Import-Module ColorScripts-Enhanced
 Show-ColorScript
 
-# Option 3: Always include Pokémon art
-Add-ColorScriptProfile -IncludePokemon -SkipPokemonPrompt
+# Option 3: Import the module without startup art
+Add-ColorScriptProfile -SkipStartupScript
 ```
 
-Pokémon are opt-in by default:
+Pokémon participate by default:
 
-- The module filters Pokémon colorscripts by default to keep startup lean.
-- Opt in with `-IncludePokemon` on `Show-ColorScript`, `New-ColorScriptCache`, or `Add-ColorScriptProfile`.
-- Direct Pokémon names always work (e.g., `Show-ColorScript -Name Pikachu`) even without `-IncludePokemon`.
+- Random, list, all-script, cache, and profile-startup behavior use the normal script and cache policies without a Pokémon-specific filter.
+- Opt out of Pokémon display selection with `Show-ColorScript -ExcludeCategory Pokemon,ShinyPokemon`.
+- `-IncludePokemon`, `-SkipPokemonPrompt`, and `-PokemonPromptResponse` remain silent, deprecated no-op compatibility parameters for one release. New managed profiles never prompt about Pokémon or emit `-IncludePokemon`.
 
 **Create a custom alias:**
 

@@ -20,8 +20,8 @@ BASIC USAGE
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Pokemon-themed scripts are excluded from random selection by default. Use
-    -IncludePokemon to opt in. A directly requested Pokemon script still works.
+    Pokemon and shiny-Pokemon scripts participate in random selection by
+    default. Use -ExcludeCategory Pokemon,ShinyPokemon to opt out.
 
 COMMANDS
     Show-ColorScript

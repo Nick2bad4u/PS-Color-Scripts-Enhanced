@@ -54,91 +54,98 @@ function Get-ColorScriptCachePolicyRecord {
     return $records.ToArray()
 }
 
+function Get-ColorScriptInventoryDirectoryStamp {
+    $currentStamp = $null
+    try {
+        $currentStamp = & $script:DirectoryGetLastWriteTimeUtcDelegate $script:ScriptsPath
+        if ($currentStamp -eq [datetime]::MinValue) {
+            $currentStamp = $null
+        }
+    }
+    catch {
+        $currentStamp = $null
+    }
+
+    return $currentStamp
+}
+
+function Get-ColorScriptFileInventory {
+    param(
+        [Parameter(Mandatory)]
+        [AllowNull()]
+        [AllowEmptyString()]
+        [string]$Path
+    )
+
+    try {
+        if ([string]::IsNullOrWhiteSpace($Path)) {
+            return @()
+        }
+
+        if (-not (Test-Path -LiteralPath $Path -PathType Container)) {
+            return @()
+        }
+
+        $files = New-Object 'System.Collections.Generic.List[System.IO.FileInfo]'
+        foreach ($filePath in [System.IO.Directory]::EnumerateFiles($Path, '*.ps1', [System.IO.SearchOption]::TopDirectoryOnly)) {
+            if (-not [string]::IsNullOrWhiteSpace($filePath)) {
+                $null = $files.Add([System.IO.FileInfo]$filePath)
+            }
+        }
+
+        return $files.ToArray()
+    }
+    catch {
+        try {
+            return @(Get-ChildItem -LiteralPath $Path -Filter '*.ps1' -File -ErrorAction Stop)
+        }
+        catch {
+            return @()
+        }
+    }
+}
+
+function Update-ColorScriptInventory {
+    $currentStamp = Get-ColorScriptInventoryDirectoryStamp
+    $shouldRefresh = -not $script:ScriptInventoryInitialized
+
+    if (-not $shouldRefresh -and $null -ne $script:ScriptInventoryStamp) {
+        if ($currentStamp -ne $script:ScriptInventoryStamp) {
+            $shouldRefresh = $true
+        }
+    }
+    elseif (-not $shouldRefresh -and $null -eq $script:ScriptInventoryStamp -and $currentStamp) {
+        $shouldRefresh = $true
+    }
+
+    if (-not $shouldRefresh) {
+        return
+    }
+
+    $script:ScriptInventory = @(Get-ColorScriptFileInventory -Path $script:ScriptsPath)
+    $script:ScriptInventoryRecords = $null
+    $script:ScriptInventoryStamp = $currentStamp
+    $script:ScriptInventoryInitialized = $true
+}
+
 function Get-ColorScriptInventory {
     param(
         [switch]$Raw
     )
 
-    $null = $Raw
-
+    $rawRequested = $Raw.IsPresent
     $result = Invoke-ModuleSynchronized $script:InventorySyncRoot {
-        $getScriptFiles = {
-            param(
-                [Parameter(Mandatory)]
-                [string]$Path
-            )
+        Update-ColorScriptInventory
 
-            try {
-                if ([string]::IsNullOrWhiteSpace($Path)) {
-                    return @()
-                }
-
-                if (-not (Test-Path -LiteralPath $Path -PathType Container)) {
-                    return @()
-                }
-
-                $files = New-Object 'System.Collections.Generic.List[System.IO.FileInfo]'
-                foreach ($filePath in [System.IO.Directory]::EnumerateFiles($Path, '*.ps1', [System.IO.SearchOption]::TopDirectoryOnly)) {
-                    if (-not [string]::IsNullOrWhiteSpace($filePath)) {
-                        $null = $files.Add([System.IO.FileInfo]$filePath)
-                    }
-                }
-
-                return $files.ToArray()
-            }
-            catch {
-                try {
-                    return @(Get-ChildItem -LiteralPath $Path -Filter '*.ps1' -File -ErrorAction Stop)
-                }
-                catch {
-                    return @()
-                }
-            }
-        }
-
-        $currentStamp = $null
-        try {
-            $currentStamp = & $script:DirectoryGetLastWriteTimeUtcDelegate $script:ScriptsPath
-            if ($currentStamp -eq [datetime]::MinValue) {
-                $currentStamp = $null
-            }
-        }
-        catch {
-            $currentStamp = $null
-        }
-
-        $shouldRefresh = -not $script:ScriptInventoryInitialized
-        if (-not $shouldRefresh -and $null -ne $script:ScriptInventoryStamp) {
-            if ($currentStamp -ne $script:ScriptInventoryStamp) {
-                $shouldRefresh = $true
-            }
-        }
-        elseif (-not $shouldRefresh -and $null -eq $script:ScriptInventoryStamp -and $currentStamp) {
-            $shouldRefresh = $true
-        }
-
-        $scriptFiles = $null
-
-        if ($shouldRefresh) {
-            if (-not $scriptFiles) {
-                $scriptFiles = & $getScriptFiles $script:ScriptsPath
-            }
-
-            $script:ScriptInventory = @($scriptFiles)
-            $script:ScriptInventoryRecords = @(
-                foreach ($file in $scriptFiles) {
-                    New-ColorScriptInventoryRecord -File $file
-                }
-            )
-            $script:ScriptInventoryStamp = $currentStamp
-            $script:ScriptInventoryInitialized = $true
-        }
-
-        if (-not $script:ScriptInventory) {
+        if ($null -eq $script:ScriptInventory) {
             $script:ScriptInventory = @()
         }
 
-        if (-not $script:ScriptInventoryRecords) {
+        if ($rawRequested) {
+            return $script:ScriptInventory
+        }
+
+        if ($null -eq $script:ScriptInventoryRecords) {
             $script:ScriptInventoryRecords = @(
                 foreach ($file in $script:ScriptInventory) {
                     New-ColorScriptInventoryRecord -File $file
@@ -146,11 +153,22 @@ function Get-ColorScriptInventory {
             )
         }
 
-        if ($Raw) {
-            return $script:ScriptInventory
+        return $script:ScriptInventoryRecords
+    }
+
+    return $result
+}
+
+function Get-RandomColorScriptInventoryRecord {
+    $result = Invoke-ModuleSynchronized $script:InventorySyncRoot {
+        Update-ColorScriptInventory
+
+        if ($null -eq $script:ScriptInventory -or $script:ScriptInventory.Count -eq 0) {
+            return $null
         }
 
-        return $script:ScriptInventoryRecords
+        $index = Get-Random -Minimum 0 -Maximum $script:ScriptInventory.Count
+        return New-ColorScriptInventoryRecord -File $script:ScriptInventory[$index]
     }
 
     return $result

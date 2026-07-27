@@ -21,8 +21,8 @@ Muestra un script de colores con almacenamiento en caché selectivo para renderi
 
 ```
 Show-ColorScript [-Random] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### Help
@@ -37,8 +37,8 @@ Show-ColorScript [-h] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### List
@@ -53,8 +53,8 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string[]>]
- [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-Quiet]
- [-NoAnsiOutput] [-ValidateCache]
+ [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-ShowInfo]
+ [-Quiet] [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ## ALIASES
@@ -274,15 +274,23 @@ Demuestra cómo ejecutar un script de colores específico como parte de una tare
 Show-ColorScript -IncludePokemon
 ```
 
-Muestra un script de colores aleatorio que incluye scripts en la categoría `Pokemon`. Útil cuando quieres incluir arte Pokémon en tu selección aleatoria.
+Demuestra el modificador de compatibilidad obsoleto. Es un modificador silencioso sin efecto durante una versión porque los scripts de Pokémon y Pokémon variocolor ya participan en la selección normal.
 
 ### EXAMPLE 22
 
 ```powershell
-Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+Show-ColorScript -Random -ExcludeCategory Pokemon,ShinyPokemon
 ```
 
-Muestra un script de colores aleatorio y excluye las categorías `Pokemon` y `Gaming`. Combínelo con `-Category` o `-Tag` para refinar aún más la selección.
+Muestra un script de colores aleatorio y excluye ambas categorías de Pokémon. Combínelo con `-Category` o `-Tag` para refinar aún más la selección.
+
+### EXAMPLE 23
+
+```powershell
+Show-ColorScript -Random -ShowInfo
+```
+
+Muestra un script de colores aleatorio y, a continuación, escribe su nombre y ruta completa en el flujo de información. Use `-Quiet` para suprimir la línea de identificación.
 
 ## PARAMETERS
 
@@ -330,7 +338,7 @@ HelpMessage: ''
 
 ### -ExcludeCategory
 
-Excluya scripts de una o más categorías antes de que se produzca la selección. Por ejemplo, use `-ExcludeCategory Pokemon` para evitar todos los Pokémon scripts o especifique varias categorías, como `-ExcludeCategory Pokemon,Gaming`. Funciona en todos los modos (Aleatorio, Con nombre, Lista, Todos) y se combina con los filtros `-Category` y `-Tag`.
+Excluya scripts de una o más categorías antes de que se produzca la selección. Por ejemplo, use `-ExcludeCategory Pokemon,ShinyPokemon` para evitar todos los scripts de Pokémon o especifique cualquier otra combinación de categorías. Funciona en todos los modos (Aleatorio, Con nombre, Lista, Todos) y se combina con los filtros `-Category` y `-Tag`.
 
 ```yaml
 Type: System.String[]
@@ -373,7 +381,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Marca de suscripción para incluir Pokémon scripts de colores en la selección. Cuando se omite, los Pokémon scripts se filtran automáticamente (predeterminado). Nota: esto reemplaza el antiguo parámetro `-ExcludePokemon`: la semántica invertida de refactorización, por lo que ahora puedes optar por mostrar Pokémon scripts en lugar de optar por no participar.
+Modificador de compatibilidad obsoleto. Se acepta silenciosamente sin efecto durante una versión porque los scripts de colores de Pokémon y Pokémon variocolor ya participan en la selección normal. Use `-ExcludeCategory Pokemon,ShinyPokemon` para excluirlos.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -579,6 +587,39 @@ Aliases:
 - AsString
 ParameterSets:
 - Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ShowInfo
+
+Después de renderizar cada script de colores seleccionado, escribe una línea concisa en el flujo de información con el nombre del script y su ruta completa. `-Quiet` suprime esta línea. `-ReturnText` no la incluye y `-PassThru` continúa devolviendo metadatos estructurados.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Random
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Named
   Position: Named
   IsRequired: false
   ValueFromPipeline: false

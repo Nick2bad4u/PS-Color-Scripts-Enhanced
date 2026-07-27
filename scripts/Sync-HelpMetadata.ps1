@@ -39,51 +39,61 @@ $parameterTranslations = @{
     'en-US' = @{
         h            = 'Displays detailed help for this command without performing the operation.'
         Quiet        = 'Suppresses informational messages while preserving command output and errors.'
+        ShowInfo     = 'After each selected colorscript is rendered, writes one concise information-stream line containing its script name and full path. Quiet suppresses this line. ReturnText does not include it, and PassThru continues to return structured metadata.'
         NoAnsiOutput = 'Disables ANSI styling in informational messages and rendered output for plain-text environments.'
     }
     de      = @{
         h            = 'Zeigt die ausführliche Hilfe für diesen Befehl an, ohne den Vorgang auszuführen.'
         Quiet        = 'Unterdrückt Informationsmeldungen, ohne Befehlsausgaben und Fehler zu unterdrücken.'
+        ShowInfo     = 'Schreibt nach dem Rendern jedes ausgewählten Farbskripts eine kompakte Zeile in den Informationsdatenstrom, die den Skriptnamen und den vollständigen Pfad enthält. Quiet unterdrückt diese Zeile. ReturnText enthält sie nicht, und PassThru gibt weiterhin strukturierte Metadaten zurück.'
         NoAnsiOutput = 'Deaktiviert ANSI-Formatierung in Informationsmeldungen und gerenderter Ausgabe für reine Textumgebungen.'
     }
     es      = @{
         h            = 'Muestra la ayuda detallada de este comando sin realizar la operación.'
         Quiet        = 'Suprime los mensajes informativos sin ocultar la salida del comando ni los errores.'
+        ShowInfo     = 'Después de renderizar cada script de colores seleccionado, escribe una línea concisa en el flujo de información con el nombre del script y su ruta completa. Quiet suprime esta línea. ReturnText no la incluye y PassThru continúa devolviendo metadatos estructurados.'
         NoAnsiOutput = 'Desactiva el formato ANSI en los mensajes informativos y la salida renderizada para entornos de texto sin formato.'
     }
     fr      = @{
         h            = "Affiche l'aide détaillée de cette commande sans effectuer l'opération."
         Quiet        = "Supprime les messages d'information sans masquer la sortie de la commande ni les erreurs."
+        ShowInfo     = "Après le rendu de chaque script de couleurs sélectionné, écrit dans le flux d'informations une ligne concise contenant le nom du script et son chemin complet. Quiet supprime cette ligne. ReturnText ne l'inclut pas et PassThru continue de renvoyer des métadonnées structurées."
         NoAnsiOutput = "Désactive la mise en forme ANSI dans les messages d'information et la sortie rendue pour les environnements en texte brut."
     }
     it      = @{
         h            = "Visualizza la guida dettagliata del comando senza eseguire l'operazione."
         Quiet        = "Nasconde i messaggi informativi senza sopprimere l'output del comando o gli errori."
+        ShowInfo     = "Dopo il rendering di ogni colorscript selezionato, scrive nel flusso di informazioni una riga concisa contenente il nome dello script e il percorso completo. Quiet nasconde questa riga. ReturnText non la include e PassThru continua a restituire metadati strutturati."
         NoAnsiOutput = "Disabilita la formattazione ANSI nei messaggi informativi e nell'output renderizzato per gli ambienti di solo testo."
     }
     ja      = @{
         h            = '操作を実行せずに、このコマンドの詳細なヘルプを表示します。'
         Quiet        = 'コマンドの出力やエラーを維持したまま、情報メッセージを抑制します。'
+        ShowInfo     = '選択した各カラースクリプトの描画後に、スクリプト名と完全なパスを含む簡潔な 1 行を情報ストリームに書き込みます。Quiet はこの行を抑制します。ReturnText の出力には含まれず、PassThru は引き続き構造化メタデータを返します。'
         NoAnsiOutput = 'プレーンテキスト環境向けに、情報メッセージと描画出力の ANSI 装飾を無効にします。'
     }
     nl      = @{
         h            = 'Toont gedetailleerde hulp voor deze opdracht zonder de bewerking uit te voeren.'
         Quiet        = 'Onderdrukt informatieve berichten zonder opdrachtuitvoer en fouten te verbergen.'
+        ShowInfo     = 'Schrijft na het renderen van elk geselecteerd colorscript één beknopte regel naar de informatiestroom met de scriptnaam en het volledige pad. Quiet onderdrukt deze regel. ReturnText bevat deze niet en PassThru blijft gestructureerde metagegevens retourneren.'
         NoAnsiOutput = 'Schakelt ANSI-opmaak uit in informatieve berichten en gerenderde uitvoer voor platte-tekstomgevingen.'
     }
     pt      = @{
         h            = 'Exibe a ajuda detalhada deste comando sem executar a operação.'
         Quiet        = 'Suprime mensagens informativas sem ocultar a saída do comando nem os erros.'
+        ShowInfo     = 'Depois de renderizar cada colorscript selecionado, escreve no fluxo de informações uma linha concisa com o nome do script e o caminho completo. Quiet suprime essa linha. ReturnText não a inclui e PassThru continua a retornar metadados estruturados.'
         NoAnsiOutput = 'Desativa a formatação ANSI nas mensagens informativas e na saída renderizada para ambientes de texto simples.'
     }
     ru      = @{
         h            = 'Показывает подробную справку по команде, не выполняя операцию.'
         Quiet        = 'Подавляет информационные сообщения, сохраняя вывод команды и ошибки.'
+        ShowInfo     = 'После отображения каждого выбранного цветового сценария записывает в информационный поток одну краткую строку с именем сценария и полным путем. Quiet подавляет эту строку. ReturnText не включает ее, а PassThru по-прежнему возвращает структурированные метаданные.'
         NoAnsiOutput = 'Отключает оформление ANSI в информационных сообщениях и отображаемом выводе для текстовых сред.'
     }
     'zh-CN' = @{
         h            = '显示此命令的详细帮助，而不执行操作。'
         Quiet        = '禁止显示信息性消息，但保留命令输出和错误。'
+        ShowInfo     = '渲染每个选定的颜色脚本后，向信息流写入一行简洁内容，其中包含脚本名称和完整路径。Quiet 会禁止显示此行。ReturnText 的输出不包含此行，PassThru 则继续返回结构化元数据。'
         NoAnsiOutput = '为纯文本环境禁用信息性消息和渲染输出中的 ANSI 样式。'
     }
 }
@@ -96,7 +106,7 @@ $parameterFallbacks = @{
         AutoShow             = 'Controls whether the managed profile block displays a colorscript after importing the module.'
         DefaultStartupScript = 'Specifies the colorscript name written to the managed profile block for startup display.'
         Force                = 'Updates the managed profile block without removing unrelated profile content.'
-        IncludePokemon       = 'Allows Pokemon-themed scripts when the managed profile block displays a random colorscript.'
+        IncludePokemon       = 'Deprecated compatibility switch. Accepted as a silent no-op for one release because Pokemon-themed scripts already participate normally.'
         ProfilePath          = 'Specifies the PowerShell profile file to update. The Path alias is also accepted.'
         SkipStartupScript    = 'Adds the module import but omits the startup Show-ColorScript invocation.'
     }

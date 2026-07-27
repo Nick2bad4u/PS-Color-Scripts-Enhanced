@@ -314,7 +314,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Broadens eligible selection to evaluate Pokémon scripts. It does not override `CachePolicy.psd1`; only Pokémon names listed in `CacheablePokemonScripts` can be cached, and that list is currently empty.
+Deprecated compatibility switch. It is accepted as a silent no-op for one release because Pokémon scripts follow the same `CachePolicy.psd1` rules as every other script.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

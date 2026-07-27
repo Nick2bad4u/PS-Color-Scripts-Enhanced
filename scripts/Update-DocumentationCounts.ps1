@@ -18,7 +18,7 @@
 
 .PARAMETER CacheCount
     Optional explicit count of policy-selected cacheable renderers. When omitted, the script reads
-    CachePolicy.psd1 and counts the unique names in CacheableScripts and CacheablePokemonScripts.
+    CachePolicy.psd1 and counts the unique names in CacheableScripts.
 
 .PARAMETER DynamicCount
     Optional explicit count of intentionally dynamic renderers. When omitted, the script reads
@@ -119,8 +119,7 @@ if (-not $PSBoundParameters.ContainsKey('CacheCount')) {
     }
 
     $cachePolicy = Import-PowerShellDataFile -LiteralPath $cachePolicyPath -ErrorAction Stop
-    $policyNames = @($cachePolicy.CacheableScripts) + @($cachePolicy.CacheablePokemonScripts)
-    $cacheNames = @($policyNames | Where-Object {
+    $cacheNames = @(@($cachePolicy.CacheableScripts) | Where-Object {
             $_ -is [string] -and -not [string]::IsNullOrWhiteSpace($_)
         })
     $cacheNames = @($cacheNames | Sort-Object -Unique)

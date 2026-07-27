@@ -21,8 +21,8 @@ title: Show-ColorScript
 
 ```
 Show-ColorScript [-Random] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### Help
@@ -37,8 +37,8 @@ Show-ColorScript [-h] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### List
@@ -53,8 +53,8 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string[]>]
- [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-Quiet]
- [-NoAnsiOutput] [-ValidateCache]
+ [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-ShowInfo]
+ [-Quiet] [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ## ALIASES
@@ -276,15 +276,23 @@ if (Test-Path $scriptPath) {
 Show-ColorScript -IncludePokemon
 ```
 
-显示随机颜色脚本，包括 `Pokemon` 类别中的脚本。当您希望将神奇宝贝艺术包含在随机选择中时很有用。
+演示已弃用的兼容性开关。由于神奇宝贝和异色神奇宝贝脚本已正常参与选择，因此该开关在一个版本中静默且无操作。
 
 ### EXAMPLE 22
 
 ```powershell
-Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+Show-ColorScript -Random -ExcludeCategory Pokemon,ShinyPokemon
 ```
 
-显示随机颜色脚本，同时排除 `Pokemon` 和 `Gaming` 类别。与 `-Category` 或 `-Tag` 结合以进一步细化选择。
+显示随机颜色脚本，同时排除两个神奇宝贝类别。与 `-Category` 或 `-Tag` 结合以进一步细化选择。
+
+### EXAMPLE 23
+
+```powershell
+Show-ColorScript -Random -ShowInfo
+```
+
+显示随机颜色脚本，然后将其脚本名称和完整路径写入信息流。使用 `-Quiet` 可禁止显示标识行。
 
 ## PARAMETERS
 
@@ -332,7 +340,7 @@ HelpMessage: ''
 
 ### -ExcludeCategory
 
-在进行选择之前，从一个或多个类别中排除脚本。例如，使用 `-ExcludeCategory Pokemon` 来避免所有神奇宝贝脚本，或指定多个类别，例如 `-ExcludeCategory Pokemon,Gaming`。适用于所有模式（随机、命名、列表、全部），并与 `-Category` 和 `-Tag` 过滤器结合使用。
+在进行选择之前，从一个或多个类别中排除脚本。例如，使用 `-ExcludeCategory Pokemon,ShinyPokemon` 排除所有神奇宝贝脚本，或指定任何其他类别组合。适用于所有模式（随机、命名、列表、全部），并与 `-Category` 和 `-Tag` 过滤器结合使用。
 
 ```yaml
 Type: System.String[]
@@ -375,7 +383,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-选择加入标记以在选择中包含神奇宝贝彩色脚本。省略时，神奇宝贝脚本会自动过滤掉（默认）。注意：这取代了旧的 `-ExcludePokemon` 参数 - 重构反向语义，因此您现在选择显示 Pokémon 脚本而不是选择退出。
+已弃用的兼容性开关。由于神奇宝贝和异色神奇宝贝颜色脚本已正常参与选择，因此在一个版本中作为无操作静默开关接受。使用 `-ExcludeCategory Pokemon,ShinyPokemon` 可将其排除。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -581,6 +589,39 @@ Aliases:
 - AsString
 ParameterSets:
 - Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ShowInfo
+
+渲染每个选定的颜色脚本后，向信息流写入一行简洁内容，其中包含脚本名称和完整路径。`-Quiet` 会禁止显示此行。`-ReturnText` 的输出不包含此行，`-PassThru` 则继续返回结构化元数据。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Random
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Named
   Position: Named
   IsRequired: false
   ValueFromPipeline: false

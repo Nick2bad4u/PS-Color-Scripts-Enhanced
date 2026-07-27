@@ -89,7 +89,6 @@ Describe 'Selective colorscript output caching' {
         It 'fails closed when the cache policy uses scalar strings instead of collections' {
             $result = InModuleScope ColorScripts-Enhanced {
                 $script:CacheableScriptNameSet = $null
-                $script:CacheablePokemonScriptNameSet = $null
                 $script:CachePolicyLastWriteTime = $null
 
                 try {
@@ -100,20 +99,46 @@ Describe 'Selective colorscript output caching' {
                         }
                     }
 
-                    [pscustomobject]@{
-                        Cacheable = (Get-ColorScriptCacheableNameSet).Count
-                        Pokemon   = (Get-ColorScriptCacheablePokemonNameSet).Count
-                    }
+                    (Get-ColorScriptCacheableNameSet).Count
                 }
                 finally {
                     $script:CacheableScriptNameSet = $null
-                    $script:CacheablePokemonScriptNameSet = $null
                     $script:CachePolicyLastWriteTime = $null
                 }
             }
 
-            $result.Cacheable | Should -Be 0
-            $result.Pokemon | Should -Be 0
+            $result | Should -Be 0
+        }
+
+        It 'ignores the deprecated Pokemon policy field' {
+            $result = InModuleScope ColorScripts-Enhanced {
+                $script:CacheableScriptNameSet = $null
+                $script:CachePolicyLastWriteTime = $null
+
+                try {
+                    Mock -CommandName Import-PowerShellDataFile -ModuleName ColorScripts-Enhanced -MockWith {
+                        @{
+                            CacheableScripts        = @('perlin-clouds')
+                            CacheablePokemonScripts = @('pokemon')
+                        }
+                    }
+
+                    $names = Get-ColorScriptCacheableNameSet
+                    [pscustomobject]@{
+                        Count          = $names.Count
+                        IncludesNormal = $names.Contains('perlin-clouds')
+                        IncludesLegacy = $names.Contains('pokemon')
+                    }
+                }
+                finally {
+                    $script:CacheableScriptNameSet = $null
+                    $script:CachePolicyLastWriteTime = $null
+                }
+            }
+
+            $result.Count | Should -Be 1
+            $result.IncludesNormal | Should -BeTrue
+            $result.IncludesLegacy | Should -BeFalse
         }
     }
 

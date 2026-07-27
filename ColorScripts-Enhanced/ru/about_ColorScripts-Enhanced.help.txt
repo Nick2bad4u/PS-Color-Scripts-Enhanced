@@ -26,8 +26,8 @@
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Скрипты Pokemon по умолчанию исключены из случайного выбора. Добавьте
-    -IncludePokemon, чтобы включить их. Прямо указанное имя всегда работает.
+    Скрипты Pokemon и ShinyPokemon по умолчанию участвуют в случайном выборе.
+    Для исключения используйте -ExcludeCategory Pokemon,ShinyPokemon.
 
 КОМАНДЫ
     Show-ColorScript

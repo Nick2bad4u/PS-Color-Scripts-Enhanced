@@ -21,8 +21,8 @@ Toont een colorscript met selectieve caching voor dure renderers.
 
 ```
 Show-ColorScript [-Random] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### Help
@@ -37,8 +37,8 @@ Show-ColorScript [-h] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### List
@@ -53,8 +53,8 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string[]>]
- [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-Quiet]
- [-NoAnsiOutput] [-ValidateCache]
+ [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-ShowInfo]
+ [-Quiet] [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ## ALIASES
@@ -274,15 +274,23 @@ Demonstreert het gebruik van een specifieke colorscript als onderdeel van geplan
 Show-ColorScript -IncludePokemon
 ```
 
-Geeft een willekeurige colorscript weer, inclusief scripts in de categorie `Pokemon`. Handig als je Pokémon-kunst in je willekeurige selectie wilt opnemen.
+Toont de verouderde compatibiliteitsschakelaar. Deze is één release stil en zonder effect omdat Pokémon- en shiny-Pokémon-scripts al normaal aan de selectie deelnemen.
 
 ### EXAMPLE 22
 
 ```powershell
-Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+Show-ColorScript -Random -ExcludeCategory Pokemon,ShinyPokemon
 ```
 
-Geeft een willekeurige colorscript weer, maar sluit zowel de categorieën `Pokemon` als `Gaming` uit. Combineer met `-Category` of `-Tag` om de selectie verder te verfijnen.
+Geeft een willekeurige colorscript weer, maar sluit beide Pokémon-categorieën uit. Combineer met `-Category` of `-Tag` om de selectie verder te verfijnen.
+
+### EXAMPLE 23
+
+```powershell
+Show-ColorScript -Random -ShowInfo
+```
+
+Geeft een willekeurig colorscript weer en schrijft vervolgens de scriptnaam en het volledige pad naar de informatiestroom. Gebruik `-Quiet` om de identificatieregel te onderdrukken.
 
 ## PARAMETERS
 
@@ -330,7 +338,7 @@ HelpMessage: ''
 
 ### -ExcludeCategory
 
-Sluit scripts uit een of meer categorieën uit voordat selectie plaatsvindt. Gebruik bijvoorbeeld `-ExcludeCategory Pokemon` om alle Pokémon-scripts te vermijden, of geef meerdere categorieën op, zoals `-ExcludeCategory Pokemon,Gaming`. Werkt in alle modi (willekeurig, benoemd, lijst, alles) en combineert met `-Category`- en `-Tag`-filters.
+Sluit scripts uit een of meer categorieën uit voordat selectie plaatsvindt. Gebruik bijvoorbeeld `-ExcludeCategory Pokemon,ShinyPokemon` om alle Pokémon-scripts te vermijden, of geef een andere combinatie van categorieën op. Werkt in alle modi (willekeurig, benoemd, lijst, alles) en combineert met `-Category`- en `-Tag`-filters.
 
 ```yaml
 Type: System.String[]
@@ -373,7 +381,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Opt-in vlag om Pokémon colorscripts in de selectie op te nemen. Als je dit weglaat, worden Pokémon-scripts automatisch uitgefilterd (standaard). Let op: dit vervangt de oudere parameter `-ExcludePokemon` – de omgekeerde semantiek wordt gerefactoreerd, zodat je je nu kunt aanmelden voor het weergeven van Pokémon-scripts in plaats van je af te melden.
+Verouderde compatibiliteitsschakelaar. Deze wordt één release stilzwijgend zonder effect geaccepteerd omdat Pokémon- en shiny-Pokémon-colorscripts al normaal aan de selectie deelnemen. Gebruik `-ExcludeCategory Pokemon,ShinyPokemon` om ze uit te sluiten.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -579,6 +587,39 @@ Aliases:
 - AsString
 ParameterSets:
 - Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ShowInfo
+
+Schrijft na het renderen van elk geselecteerd colorscript één beknopte regel naar de informatiestroom met de scriptnaam en het volledige pad. `-Quiet` onderdrukt deze regel. `-ReturnText` bevat deze niet en `-PassThru` blijft gestructureerde metagegevens retourneren.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Random
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Named
   Position: Named
   IsRequired: false
   ValueFromPipeline: false

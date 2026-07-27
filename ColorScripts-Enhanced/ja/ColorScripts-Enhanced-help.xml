@@ -16,7 +16,7 @@
 
 既存のマネージド ブロックまたは従来の ColorScripts-Enhanced ブロックは、複製されるのではなく置き換えられます。プロファイルがすでに管理ブロックの外にモジュールをインポートしている場合、`-Force` が指定されない限り、コマンドはモジュールを変更しないままにします。 `-Force` では、無関係なプロファイル コンテンツを保持しながら、認識されたモジュール コンテンツを置き換えることができます。
 
-生成された起動動作は、明示的なパラメーターと永続的な構成から解決されます。 `-AutoShow` は表示を明示的に有効にし、`-DefaultStartupScript` は名前付きスクリプトを選択します。ポケモンの追加は直接指定することも、対話型プロンプトとその文書化されたオーバーライドを通じて解決することもできます。 `-SkipCacheBuild` が使用されない限り、コマンドはプロファイルの更新後にポリシーで選択されたキャッシュ エントリを事前にウォームアップできます。</maml:para>
+生成された起動動作は、明示的なパラメーターと永続的な構成から解決されます。`-AutoShow` は表示を明示的に有効にし、`-DefaultStartupScript` は名前付きスクリプトを選択します。ポケモン スクリプトは通常どおり対象となり、新しい管理対象プロファイルはポケモンについて尋ねたり `-IncludePokemon` を出力したりしません。`-SkipCacheBuild` が使用されない限り、コマンドはプロファイルの更新後にポリシーで選択されたキャッシュ エントリを事前にウォームアップできます。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -160,7 +160,7 @@
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>`-IncludePokemon` を生成される `Show-ColorScript` 呼び出しに追加し、ポケモンのカラースクリプトが存在する場合に起動時の候補へ含めます。`-SkipStartupScript` を使用した場合は無視されます。</maml:para>
+          <maml:para>非推奨の互換性スイッチ。ポケモンのカラースクリプトはすでに通常どおり対象となるため、1 リリースの間、何も行わないサイレント スイッチとして受け付けられます。生成されたプロファイルはこのスイッチを出力しません。</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -169,9 +169,7 @@
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="2" aliases="none">
         <maml:name>PokemonPromptResponse</maml:name>
         <maml:description>
-          <maml:para>ポケモンを含めるプロンプトに事前に答えてください。 Y/はいまたはN/いいえを受け入れます。環境変数も尊重します
-`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` とグローバル変数
-`$Global:ColorScriptsEnhancedPokemonPromptResponse`。</maml:para>
+          <maml:para>非推奨の互換性パラメーター。プロファイル生成でポケモンについて尋ねなくなったため、1 リリースの間、何も行わないサイレント パラメーターとして受け付けられます。</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="true">System.String</command:parameterValue>
         <dev:type>
@@ -204,7 +202,7 @@
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>SkipPokemonPrompt</maml:name>
         <maml:description>
-          <maml:para>起動時にポケモンのカラースクリプトを含めるかどうかを尋ねる対話型プロンプトをスキップします。</maml:para>
+          <maml:para>非推奨の互換性スイッチ。プロファイル生成でポケモンについて尋ねなくなったため、1 リリースの間、何も行わないサイレント スイッチとして受け付けられます。</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -250,7 +248,7 @@
 - **Path** (文字列): 選択したプロファイル ファイルへのフル パス
 - **Changed** (ブール値): プロファイルが実際に変更されたかどうか
 - **Message** (文字列): 操作結果を説明するステータス メッセージ
-- **IncludePokemon** (ブール値): 起動時にポケモンを含める選択肢
+- **IncludePokemon** (ブール値): 常に `$true`。結果オブジェクトの互換性のために一時的に保持
 - **CacheBuilt** (ブール値): オプションのキャッシュのウォームアップが完了したかどうか</maml:para>
         </maml:description>
       </command:returnValue>
@@ -372,11 +370,11 @@ Add-ColorScriptProfile -Path ".\my-profile.ps1"</dev:code>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
         <maml:introduction>
-          <maml:para>スタートアップアートを表示するときにポケモンスクリプトを自動的にスキップします。</maml:para>
+          <maml:para>既存の自動化呼び出しで非推奨の互換性スイッチを使用します。</maml:para>
         </maml:introduction>
         <dev:code>Add-ColorScriptProfile -IncludePokemon</dev:code>
         <dev:remarks>
-          <maml:para>これにより、`Show-ColorScript -IncludePokemon` (保護用の try/catch ブロックでラップされたもの) がプロファイルに追加されるため、起動アートにポケモン スクリプトが含まれる可能性があります。</maml:para>
+          <maml:para>このスイッチは、1 リリースの互換性のために何も行わないサイレント スイッチとして受け付けられます。ポケモン スクリプトはすでに通常どおり対象となり、生成されたプロファイルは単に `Show-ColorScript` を呼び出します。</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -2528,7 +2526,7 @@ if ("Retro" -in $categories) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>ポケモンのスクリプトを評価する対象となる選択肢を広げます。 `CachePolicy.psd1` はオーバーライドされません。 `CacheablePokemonScripts` にリストされているポケモン名のみをキャッシュできます。そのリストは現在空です。</maml:para>
+          <maml:para>非推奨の互換性スイッチ。ポケモン スクリプトは他のすべてのスクリプトと同じ `CachePolicy.psd1` の規則に従うため、1 リリースの間、何も行わないサイレント スイッチとして受け付けられます。</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3322,6 +3320,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
           </dev:type>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>Quiet</maml:name>
           <maml:description />
           <dev:type>
@@ -3476,6 +3481,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>ReturnText</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
           <maml:description />
           <dev:type>
             <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3648,6 +3660,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
           </dev:type>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>Quiet</maml:name>
           <maml:description />
           <dev:type>
@@ -3693,7 +3712,7 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>ExcludeCategory</maml:name>
         <maml:description>
-          <maml:para>選択が行われる前に、1 つ以上のカテゴリからスクリプトを除外します。たとえば、`-ExcludeCategory Pokemon` を使用してすべての Pokémon スクリプトを回避するか、`-ExcludeCategory Pokemon,Gaming` などの複数のカテゴリを指定します。すべてのモード (ランダム、名前付き、リスト、すべて) で動作し、`-Category` および `-Tag` フィルターと組み合わせます。</maml:para>
+          <maml:para>選択が行われる前に、1 つ以上のカテゴリからスクリプトを除外します。たとえば、`-ExcludeCategory Pokemon,ShinyPokemon` を使用してすべてのポケモン スクリプトを除外するか、任意のカテゴリの組み合わせを指定します。すべてのモード (ランダム、名前付き、リスト、すべて) で動作し、`-Category` および `-Tag` フィルターと組み合わせます。</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="true">System.String[]</command:parameterValue>
         <dev:type>
@@ -3712,7 +3731,7 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>ポケモンのカラースクリプトを選択範囲に含めるオプトイン フラグ。省略した場合、ポケモンスクリプトは自動的に除外されます (デフォルト)。注: これは古い `-ExcludePokemon` パラメータを置き換えるもので、リファクタリングのセマンティクスが反転されているため、オプトアウトするのではなく、オプトインしてポケモン スクリプトを表示するようになります。</maml:para>
+          <maml:para>非推奨の互換性スイッチ。ポケモンと色違いポケモンのカラースクリプトはすでに通常の選択対象であるため、1 リリースの間、何も行わないサイレント スイッチとして受け付けられます。除外するには `-ExcludeCategory Pokemon,ShinyPokemon` を使用します。</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3795,6 +3814,15 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
         <maml:name>ReturnText</maml:name>
         <maml:description>
           <maml:para>レンダリングされたカラースクリプトを、コンソール ホストに直接書き込むのではなく、PowerShell パイプラインに文字列として出力します。これにより、出力を変数に取り込んだり、ファイルにリダイレクトしたり、他のコマンドにパイプしたりすることができます。出力にはすべての ANSI エスケープ シーケンスが保持されるため、後で互換性のある端末に書き込むときに適切な色で表示されます。</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>ShowInfo</maml:name>
+        <maml:description>
+          <maml:para>選択した各カラースクリプトの描画後に、スクリプト名と完全なパスを含む簡潔な 1 行を情報ストリームに書き込みます。`-Quiet` はこの行を抑制します。`-ReturnText` の出力には含まれず、`-PassThru` は引き続き構造化メタデータを返します。</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -4071,15 +4099,23 @@ if (Test-Path $scriptPath) {
         <maml:introduction></maml:introduction>
         <dev:code>Show-ColorScript -IncludePokemon</dev:code>
         <dev:remarks>
-          <maml:para>`Pokemon` カテゴリのスクリプトを含むランダムなカラースクリプトを表示します。ランダム選択にポケモンのアートを含めたい場合に便利です。</maml:para>
+          <maml:para>非推奨の互換性スイッチを示します。ポケモンと色違いポケモンのスクリプトはすでに通常の選択対象であるため、1 リリースの間、何も行わないサイレント スイッチです。</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 22 ---------</maml:title>
         <maml:introduction></maml:introduction>
-        <dev:code>Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming</dev:code>
+        <dev:code>Show-ColorScript -Random -ExcludeCategory Pokemon,ShinyPokemon</dev:code>
         <dev:remarks>
-          <maml:para>`Pokemon` と `Gaming` カテゴリの両方を除外して、ランダムなカラースクリプトを表示します。 `-Category` または `-Tag` と組み合わせて、選択をさらに絞り込みます。</maml:para>
+          <maml:para>両方のポケモン カテゴリを除外して、ランダムなカラースクリプトを表示します。`-Category` または `-Tag` と組み合わせて、選択をさらに絞り込みます。</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 23 ---------</maml:title>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Random -ShowInfo</dev:code>
+        <dev:remarks>
+          <maml:para>ランダムなカラースクリプトを表示し、そのスクリプト名と完全なパスを情報ストリームに書き込みます。識別行を抑制するには `-Quiet` を使用します。</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>

@@ -1,6 +1,6 @@
 @{
-    # Pokémon colorscripts are static today, so none require output caching. Keep this separate
-    # from the full metadata catalog so cache builds can apply their default exclusion cheaply.
+    # Deprecated compatibility field. It is intentionally empty and ignored; put every script
+    # selected for output caching in CacheableScripts regardless of category.
     CacheablePokemonScripts = @()
 
     # Output caching is opt-in. Deterministic renderers are flattened at build time, so only

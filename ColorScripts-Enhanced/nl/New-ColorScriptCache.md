@@ -314,7 +314,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Verbreedt de in aanmerking komende selectie om Pokémon-scripts te evalueren. Het heeft geen voorrang op `CachePolicy.psd1`; alleen Pokémon-namen uit `CacheablePokemonScripts` kunnen in de cache worden opgeslagen, en die lijst is momenteel leeg.
+Verouderde compatibiliteitsschakelaar. Deze wordt één release stilzwijgend zonder effect geaccepteerd omdat Pokémon-scripts dezelfde regels in `CachePolicy.psd1` volgen als alle andere scripts.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

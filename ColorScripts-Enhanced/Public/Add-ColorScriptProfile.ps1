@@ -33,6 +33,10 @@
         return
     }
 
+    # Retained for command-line compatibility. Pokémon scripts are always eligible now,
+    # so these switches no longer affect generated profile blocks.
+    $null = $IncludePokemon, $SkipPokemonPrompt, $PokemonPromptResponse
+
     $remoteInfo = $null
     try {
         $remoteInfo = Get-Variable -Name PSSenderInfo -Scope Global -ValueOnly -ErrorAction Stop
@@ -43,9 +47,11 @@
 
     if ($remoteInfo) {
         return [pscustomobject]@{
-            Path    = $null
-            Changed = $false
-            Message = $script:Messages.ProfileUpdatesNotSupportedInRemote
+            Path           = $null
+            Changed        = $false
+            Message        = $script:Messages.ProfileUpdatesNotSupportedInRemote
+            IncludePokemon = $true
+            CacheBuilt     = $false
         }
     }
 
@@ -197,109 +203,8 @@
         }
     }
 
-    $explicitPokemonResponse = $null
-    if ($PSBoundParameters.ContainsKey('PokemonPromptResponse') -and $PokemonPromptResponse) {
-        switch ($PokemonPromptResponse.ToLowerInvariant()) {
-            'y' { $explicitPokemonResponse = $true }
-            'yes' { $explicitPokemonResponse = $true }
-            'n' { $explicitPokemonResponse = $false }
-            'no' { $explicitPokemonResponse = $false }
-        }
-    }
-
-    if ($null -eq $explicitPokemonResponse) {
-        $envPromptResponse = [Environment]::GetEnvironmentVariable('COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE')
-        if (-not [string]::IsNullOrWhiteSpace($envPromptResponse)) {
-            switch ($envPromptResponse.ToLowerInvariant()) {
-                'y' { $explicitPokemonResponse = $true }
-                'yes' { $explicitPokemonResponse = $true }
-                'n' { $explicitPokemonResponse = $false }
-                'no' { $explicitPokemonResponse = $false }
-            }
-        }
-    }
-
-    if ($null -eq $explicitPokemonResponse) {
-        try {
-            $globalPrompt = Get-Variable -Name ColorScriptsEnhancedPokemonPromptResponse -Scope Global -ValueOnly -ErrorAction Stop
-            if (-not [string]::IsNullOrWhiteSpace([string]$globalPrompt)) {
-                switch ([string]$globalPrompt.ToLowerInvariant()) {
-                    'y' { $explicitPokemonResponse = $true }
-                    'yes' { $explicitPokemonResponse = $true }
-                    'n' { $explicitPokemonResponse = $false }
-                    'no' { $explicitPokemonResponse = $false }
-                }
-            }
-        }
-        catch {
-            Write-Verbose 'Global Pokemon prompt response override not defined.'
-        }
-    }
-
-    if ($null -eq $explicitPokemonResponse -and $PSBoundParameters.ContainsKey('Confirm') -and ($PSBoundParameters['Confirm'] -eq $false)) {
-        $explicitPokemonResponse = $false
-    }
-
-    $includePokemonChoice = if ($PSBoundParameters.ContainsKey('IncludePokemon')) {
-        $IncludePokemon.IsPresent
-    }
-    elseif ($null -ne $explicitPokemonResponse) {
-        $explicitPokemonResponse
-    }
-    else {
-        $false
-    }
-
-    # If the user explicitly passed -IncludePokemon, force opt-in regardless of config defaults.
-    if ($IncludePokemon.IsPresent) {
-        $includePokemonChoice = $true
-    }
-
-    $promptedForPokemon = $false
+    $includePokemonChoice = $true
     $cacheBuilt = $false
-
-    if ($profileAutoShow) {
-        $hasExplicitProfilePath = (
-            $PSBoundParameters.ContainsKey('ProfilePath') -or
-            $PSBoundParameters.ContainsKey('Path') -or
-            (-not [string]::IsNullOrWhiteSpace($ProfilePath))
-        )
-
-        $shouldPromptForPokemon = (
-            -not $SkipPokemonPrompt.IsPresent -and
-            -not $PSBoundParameters.ContainsKey('IncludePokemon') -and
-            ($null -eq $explicitPokemonResponse) -and
-            -not $hasExplicitProfilePath
-        )
-
-        if ($shouldPromptForPokemon) {
-            $shouldPromptForPokemon = $true
-            try {
-                $shouldPromptForPokemon = -not [Console]::IsInputRedirected
-            }
-            catch {
-                $shouldPromptForPokemon = $false
-            }
-
-            if ($shouldPromptForPokemon) {
-                $prompt = 'Include Pokémon colorscripts on startup? (y/N)'
-                $response = Read-Host -Prompt $prompt
-                $promptedForPokemon = $true
-                if ($response -match '^(?i)y(?:es)?$') {
-                    $includePokemonChoice = $true
-                }
-                else {
-                    $includePokemonChoice = $false
-                }
-            }
-        }
-        elseif ($null -ne $explicitPokemonResponse -and -not $IncludePokemon.IsPresent) {
-            $includePokemonChoice = $explicitPokemonResponse
-        }
-    }
-    else {
-        $includePokemonChoice = $false
-    }
 
     $skipCacheBuildRequested = $SkipCacheBuild.IsPresent
     if (-not $skipCacheBuildRequested) {
@@ -372,10 +277,6 @@
         }
     }
 
-    if (-not $profileAutoShow -and $IncludePokemon) {
-        Write-Verbose 'IncludePokemon was specified but AutoShow is disabled. The switch has no effect.'
-    }
-
     $snippetLines = [System.Collections.Generic.List[string]]::new()
     [void]$snippetLines.Add('# BEGIN ColorScripts-Enhanced managed block')
     [void]$snippetLines.Add("# Added by ColorScripts-Enhanced on $timestamp")
@@ -388,10 +289,6 @@
         }
         else {
             $showCommand = 'Show-ColorScript'
-        }
-
-        if ($includePokemonChoice) {
-            $showCommand += ' -IncludePokemon'
         }
 
         [void]$snippetLines.Add('try {')
@@ -497,12 +394,7 @@
         if ($profileAutoShow -and -not $skipCacheBuildRequested) {
             if ($PSCmdlet.ShouldProcess('ColorScripts cache', 'Build Colorscript cache for startup snippet')) {
                 try {
-                    $cacheParams = @{ }
-                    if ($includePokemonChoice) {
-                        $cacheParams.IncludePokemon = $true
-                    }
-
-                    ColorScripts-Enhanced\New-ColorScriptCache -All @cacheParams | Out-Null
+                    ColorScripts-Enhanced\New-ColorScriptCache -All | Out-Null
                     $cacheBuilt = $true
                 }
                 catch {

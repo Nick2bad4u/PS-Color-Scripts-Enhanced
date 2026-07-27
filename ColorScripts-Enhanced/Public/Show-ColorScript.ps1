@@ -45,12 +45,15 @@
     .PARAMETER ExcludeCategory
         Exclude scripts from one or more categories. Use this to filter out large collections like Pokemon scripts.
     .PARAMETER IncludePokemon
-        Opt-in flag to include Pokemon colorscripts in the random selection.
-        When omitted, Pokemon scripts are filtered out automatically.
+        Deprecated compatibility switch. Accepted as a silent no-op for one release because
+        Pokemon and ShinyPokemon colorscripts already participate in normal selection.
     .PARAMETER PassThru
         Return the selected script metadata in addition to rendering output.
     .PARAMETER ReturnText
         Emit the rendered colorscript as pipeline output instead of writing directly to the console.
+    .PARAMETER ShowInfo
+        Display the selected script name and full path after each rendered colorscript.
+        The information line does not alter ReturnText or PassThru pipeline output.
     .PARAMETER Quiet
         Suppress informational messaging emitted to the information stream while still rendering script output.
     .PARAMETER NoAnsiOutput
@@ -95,11 +98,16 @@
 
     .EXAMPLE
         Show-ColorScript -IncludePokemon
-        Displays a random colorscript including Pokemon scripts.
+        Demonstrates the deprecated compatibility switch. It has no effect because Pokemon scripts
+        already participate in normal selection.
 
     .EXAMPLE
-        Show-ColorScript -ExcludeCategory Pokemon,Gaming
-        Displays a random colorscript. By default Pokémon scripts are excluded; use -IncludePokemon to include them.
+        Show-ColorScript -ExcludeCategory Pokemon,ShinyPokemon
+        Displays a random colorscript while explicitly excluding both Pokemon categories.
+
+    .EXAMPLE
+        scs -ShowInfo
+        Displays a random colorscript followed by its script name and full path.
     #>
     [OutputType([pscustomobject], ParameterSetName = 'List')]
     [OutputType([pscustomobject], ParameterSetName = 'Named')]
@@ -327,6 +335,11 @@
         [Alias('AsString')]
         [switch]$ReturnText,
 
+        [Parameter(ParameterSetName = 'Named')]
+        [Parameter(ParameterSetName = 'Random')]
+        [Parameter(ParameterSetName = 'All')]
+        [switch]$ShowInfo,
+
         [Parameter()]
         [switch]$Quiet,
 
@@ -350,35 +363,7 @@
     $quietRequested = [bool]$Quiet
     $noAnsiRequested = [bool]$NoAnsiOutput
     $preferConsoleOutput = -not $noAnsiRequested
-
-    $filterPokemon = -not $IncludePokemon
-
-    # If Category explicitly includes Pokémon identifiers, do not filter them
-    if ($filterPokemon -and $PSBoundParameters.ContainsKey('Category') -and $Category -and $Category.Count -gt 0) {
-        $normalizedCategories = $Category | Where-Object { $_ } | ForEach-Object { ([string]$_).Trim().ToLowerInvariant().Replace(' ', '') }
-        $pokemonIdentifiers = @('pokemon', 'shinypokemon', 'pokemonshiny')
-        if ($normalizedCategories | Where-Object { $pokemonIdentifiers -contains $_ }) {
-            $filterPokemon = $false
-            $pokemonNameSet = $null
-        }
-    }
-
-    $pokemonNameSet = $null
-    # If a specific name is provided, never filter Pokémon out—explicit names must win.
-    if ($PSBoundParameters.ContainsKey('Name') -and $Name) {
-        $filterPokemon = $false
-        $pokemonNameSet = $null
-    }
-    elseif ($filterPokemon) {
-        $pokemonNameSet = Get-PokemonScriptNameSet
-        if (-not ($pokemonNameSet -and $pokemonNameSet.Count -gt 0)) {
-            $pokemonNameSet = $null
-        }
-    }
-
-    if (-not $filterPokemon) {
-        $pokemonNameSet = $null
-    }
+    $null = $IncludePokemon
 
     # Normalize excluded categories
     $effectiveExcludeCategories = @()
@@ -410,10 +395,6 @@
                         ForEach-Object { $_.ToLowerInvariant() }
                         -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
                     }
-                }
-
-                if ($pokemonNameSet -and $pokemonNameSet.Count -gt 0) {
-                    $listRecords = $listRecords | Where-Object { -not $pokemonNameSet.Contains([string]$_.Name) }
                 }
 
                 if (-not $listRecords -or $listRecords.Count -eq 0) {
@@ -455,10 +436,6 @@
                                 ForEach-Object { $_.ToLowerInvariant() }
                                 -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
                             }
-                        }
-
-                        if ($pokemonNameSet -and $pokemonNameSet.Count -gt 0) {
-                            $allScripts = $allScripts | Where-Object { -not $pokemonNameSet.Contains([string]$_.Name) }
                         }
 
                         if (-not $allScripts -or $allScripts.Count -eq 0) {
@@ -545,6 +522,17 @@
                                 } -Arguments @($renderedOutput, $noAnsiRequested)
                             }
 
+                            if ($ShowInfo) {
+                                $selectionInfoParameters = @{
+                                    Name          = $script.Name
+                                    Path          = $script.Path
+                                    Quiet         = $quietRequested
+                                    NoAnsiOutput  = $noAnsiRequested
+                                    PreferConsole = $preferConsoleOutput
+                                }
+                                Write-ColorScriptSelectionInfo @selectionInfoParameters
+                            }
+
                             if ($WaitForInput -and $currentIndex -lt $totalCount) {
                                 Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
                                 $promptMessage = New-ColorScriptAnsiText -Text $script:Messages.PressSpacebarForNext -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
@@ -581,9 +569,16 @@
                         $PassThru.IsPresent -or
                         ($excludeCategorySet.Count -gt 0)
                     )
+                    $useRandom = $Random -or $PSCmdlet.ParameterSetName -eq 'Random'
 
                     $records = @()
-                    if ($needsMetadata) {
+                    if ($useRandom -and -not $needsMetadata -and -not $Name) {
+                        $randomRecord = Get-RandomColorScriptInventoryRecord
+                        if ($randomRecord) {
+                            $records = @($randomRecord)
+                        }
+                    }
+                    elseif ($needsMetadata) {
                         $records = @(Get-ColorScriptEntry -Category $Category -Tag $Tag)
                     }
                     elseif ($Name -and -not [System.Management.Automation.WildcardPattern]::ContainsWildcardCharacters($Name)) {
@@ -603,16 +598,6 @@
 
                     if (-not $records -or $records.Count -eq 0) {
                         Write-Warning ($script:Messages.NoColorscriptsFoundInScriptsPath -f $script:ScriptsPath)
-                        return
-                    }
-
-                    # Apply Pokémon exclusion when needed
-                    if ($pokemonNameSet -and $pokemonNameSet.Count -gt 0) {
-                        $records = $records | Where-Object { -not $pokemonNameSet.Contains([string]$_.Name) }
-                    }
-
-                    if (-not $records -or $records.Count -eq 0) {
-                        Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
                         return
                     }
 
@@ -642,17 +627,6 @@
                                     return
                                 }
                             }
-
-                            if ($pokemonNameSet -and $pokemonNameSet.Count -gt 0) {
-                                $records = $records | Where-Object { -not $pokemonNameSet.Contains([string]$_.Name) }
-
-                                if (-not $records -or $records.Count -eq 0) {
-                                    Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
-                                    return
-                                }
-                            }
-
-                            $useRandom = $Random -or $PSCmdlet.ParameterSetName -eq 'Random'
 
                             $selection = $null
 
@@ -744,6 +718,17 @@
 
                                 Write-RenderedText -Text $text -NoAnsiOutput:$noAnsiOutput
                             } -Arguments @($renderedOutput, $shouldEmitText, $noAnsiRequested)
+
+                            if ($ShowInfo) {
+                                $selectionInfoParameters = @{
+                                    Name          = $selection.Name
+                                    Path          = $selection.Path
+                                    Quiet         = $quietRequested
+                                    NoAnsiOutput  = $noAnsiRequested
+                                    PreferConsole = $preferConsoleOutput
+                                }
+                                Write-ColorScriptSelectionInfo @selectionInfoParameters
+                            }
 
                             if ($PassThru) {
                                 return $selection

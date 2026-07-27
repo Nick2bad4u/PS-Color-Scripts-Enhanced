@@ -16,7 +16,7 @@
 
 Существующие управляемые или устаревшие блоки ColorScripts-Enhanced заменяются, а не дублируются. Если профиль уже импортирует модуль за пределы управляемого блока, команда оставляет его неизменным, если не указано `-Force`. `-Force` позволяет заменять распознанное содержимое модуля, сохраняя несвязанное содержимое профиля.
 
-Сгенерированное поведение при запуске решается на основе явных параметров и сохраненной конфигурации. `-AutoShow` явно включает отображение, `-DefaultStartupScript` выбирает именованный сценарий, а включение покемонов может быть задано напрямую или разрешено с помощью интерактивной подсказки и ее документированных переопределений. Если не используется `-SkipCacheBuild`, команда может предварительно разогревать записи кэша, выбранные политикой, после обновления профиля.</maml:para>
+Сгенерированное поведение при запуске определяется явными параметрами и сохраненной конфигурацией. `-AutoShow` явно включает отображение, а `-DefaultStartupScript` выбирает именованный сценарий. Сценарии Pokémon участвуют на общих основаниях; новые управляемые профили не задают вопросов о Pokémon и не добавляют `-IncludePokemon`. Если не используется `-SkipCacheBuild`, команда может предварительно разогревать записи кэша, выбранные политикой, после обновления профиля.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -160,7 +160,7 @@
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>Добавьте `-IncludePokemon` к сгенерированному вызову `Show-ColorScript`, чтобы цветовые сценарии Pokémon включались при запуске, если они есть. Игнорируется при использовании `-SkipStartupScript`.</maml:para>
+          <maml:para>Устаревший параметр совместимости. В течение одного выпуска он принимается без сообщений и не выполняет действий; цветовые сценарии Pokémon уже участвуют на общих основаниях, а созданные профили не добавляют этот параметр.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -169,9 +169,7 @@
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="2" aliases="none">
         <maml:name>PokemonPromptResponse</maml:name>
         <maml:description>
-          <maml:para>Предварительно ответьте на запрос о включении покемонов. Принимает Да/Да или Нет/Нет. Также учитывается переменная среды
-`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` и глобальная переменная
-`$Global:ColorScriptsEnhancedPokemonPromptResponse`.</maml:para>
+          <maml:para>Устаревший параметр совместимости. В течение одного выпуска он принимается без сообщений и не выполняет действий, поскольку при создании профиля больше не задаются вопросы о Pokémon.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="true">System.String</command:parameterValue>
         <dev:type>
@@ -204,7 +202,7 @@
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>SkipPokemonPrompt</maml:name>
         <maml:description>
-          <maml:para>Пропустите интерактивный запрос, в котором спрашивается, включать ли цветовые сценарии Pokémon при запуске.</maml:para>
+          <maml:para>Устаревший параметр совместимости. В течение одного выпуска он принимается без сообщений и не выполняет действий, поскольку при создании профиля больше не задаются вопросы о Pokémon.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -250,7 +248,7 @@
 - **Path** (строка): полный путь к выбранному файлу профиля.
 - **Changed** (bool): был ли профиль действительно изменен.
 - **Message** (строка): сообщение о состоянии, описывающее результат операции.
-- **IncludePokemon** (bool): выбор включения покемонов при запуске.
+- **IncludePokemon** (bool): всегда `$true`; временно сохранено для совместимости объекта результата
 - **CacheBuilt** (bool): завершен ли дополнительный прогрев кэша.</maml:para>
         </maml:description>
       </command:returnValue>
@@ -372,11 +370,11 @@ Add-ColorScriptProfile -Path ".\my-profile.ps1"</dev:code>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
         <maml:introduction>
-          <maml:para>Автоматически пропускать скрипты Pokémon при показе заставки:</maml:para>
+          <maml:para>Использование устаревшего параметра совместимости в существующем вызове автоматизации:</maml:para>
         </maml:introduction>
         <dev:code>Add-ColorScriptProfile -IncludePokemon</dev:code>
         <dev:remarks>
-          <maml:para>При этом к профилю добавляется `Show-ColorScript -IncludePokemon` (обёрнутый защитным блоком try/catch), поэтому изображение при запуске может включать сценарии Pokémon.</maml:para>
+          <maml:para>Параметр принимается без сообщений и не выполняет действий в течение одного выпуска совместимости. Сценарии Pokémon уже участвуют на общих основаниях, а созданный профиль вызывает обычную команду `Show-ColorScript`.</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -2528,7 +2526,7 @@ if ("Retro" -in $categories) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>Расширяет выбор подходящих вариантов для оценки сценариев покемонов. Он не отменяет `CachePolicy.psd1`; только имена покемонов, перечисленные в `CacheablePokemonScripts`, могут быть кэшированы, и этот список в настоящее время пуст.</maml:para>
+          <maml:para>Устаревший параметр совместимости. В течение одного выпуска он принимается без сообщений и не выполняет действий, поскольку сценарии Pokémon следуют тем же правилам `CachePolicy.psd1`, что и все остальные сценарии.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3322,6 +3320,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
           </dev:type>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>Quiet</maml:name>
           <maml:description />
           <dev:type>
@@ -3476,6 +3481,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>ReturnText</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
           <maml:description />
           <dev:type>
             <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3648,6 +3660,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
           </dev:type>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>Quiet</maml:name>
           <maml:description />
           <dev:type>
@@ -3693,7 +3712,7 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>ExcludeCategory</maml:name>
         <maml:description>
-          <maml:para>Прежде чем произойдет выбор, исключите сценарии из одной или нескольких категорий. Например, используйте `-ExcludeCategory Pokemon`, чтобы избежать всех сценариев Pokémon, или укажите несколько категорий, например `-ExcludeCategory Pokemon,Gaming`. Работает во всех режимах (Случайный, По имени, Список, Все) и сочетается с фильтрами `-Category` и `-Tag`.</maml:para>
+          <maml:para>Прежде чем произойдет выбор, исключите сценарии из одной или нескольких категорий. Например, используйте `-ExcludeCategory Pokemon,ShinyPokemon`, чтобы исключить все сценарии Pokémon, или укажите любое другое сочетание категорий. Работает во всех режимах (Случайный, По имени, Список, Все) и сочетается с фильтрами `-Category` и `-Tag`.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="true">System.String[]</command:parameterValue>
         <dev:type>
@@ -3712,7 +3731,7 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>Включает цветовые сценарии Pokémon в выбор. Если параметр не указан, скрипты Pokémon автоматически отфильтровываются (поведение по умолчанию). Примечание: этот параметр заменяет прежний `-ExcludePokemon`; семантика инвертирована, поэтому теперь вы явно разрешаете показывать скрипты Pokémon, а не исключаете их.</maml:para>
+          <maml:para>Устаревший параметр совместимости. В течение одного выпуска он принимается без сообщений и не выполняет действий, поскольку цветовые сценарии Pokémon и ShinyPokemon уже участвуют в обычном выборе. Для исключения используйте `-ExcludeCategory Pokemon,ShinyPokemon`.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3795,6 +3814,15 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
         <maml:name>ReturnText</maml:name>
         <maml:description>
           <maml:para>Отправьте обработанный цветовой сценарий в виде строки в конвейер PowerShell вместо записи непосредственно на хост консоли. Это позволяет записывать выходные данные в переменную, перенаправлять их в файл или передавать по конвейеру другим командам. В выводе сохраняются все escape-последовательности ANSI, поэтому при последующей записи на совместимый терминал он будет отображаться с правильными цветами.</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>ShowInfo</maml:name>
+        <maml:description>
+          <maml:para>После отображения каждого выбранного цветового сценария записывает в информационный поток одну краткую строку с именем сценария и полным путем. `-Quiet` подавляет эту строку. `-ReturnText` не включает ее, а `-PassThru` по-прежнему возвращает структурированные метаданные.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -4071,15 +4099,23 @@ if (Test-Path $scriptPath) {
         <maml:introduction></maml:introduction>
         <dev:code>Show-ColorScript -IncludePokemon</dev:code>
         <dev:remarks>
-          <maml:para>Отображает случайный цветовой сценарий, включая сценарии из категории `Pokemon`. Полезно, если вы хотите, чтобы изображения покемонов были включены в ваш случайный выбор.</maml:para>
+          <maml:para>Демонстрирует устаревший параметр совместимости. В течение одного выпуска он принимается без сообщений и не выполняет действий, поскольку сценарии Pokémon и ShinyPokemon уже участвуют в обычном выборе.</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 22 ---------</maml:title>
         <maml:introduction></maml:introduction>
-        <dev:code>Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming</dev:code>
+        <dev:code>Show-ColorScript -Random -ExcludeCategory Pokemon,ShinyPokemon</dev:code>
         <dev:remarks>
-          <maml:para>Отображает случайный цветовой сценарий, исключая категории `Pokemon` и `Gaming`. Объедините с `-Category` или `-Tag`, чтобы уточнить выбор.</maml:para>
+          <maml:para>Отображает случайный цветовой сценарий, исключая обе категории Pokémon. Объедините с `-Category` или `-Tag`, чтобы уточнить выбор.</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 23 ---------</maml:title>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Random -ShowInfo</dev:code>
+        <dev:remarks>
+          <maml:para>Отображает случайный цветовой сценарий, а затем записывает его имя и полный путь в информационный поток. Используйте `-Quiet`, чтобы подавить строку идентификации.</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>

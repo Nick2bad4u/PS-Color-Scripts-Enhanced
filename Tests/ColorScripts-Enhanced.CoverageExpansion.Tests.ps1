@@ -1603,6 +1603,17 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                     [pscustomobject]@{ Name = 'alpha-two'; Path = 'C:\scripts\alpha-two.ps1' }
                 )
             }
+            Mock -CommandName Get-RandomColorScriptInventoryRecord -ModuleName ColorScripts-Enhanced -MockWith {
+                [pscustomobject]@{
+                    Name        = 'alpha-one'
+                    Path        = 'C:\scripts\alpha-one.ps1'
+                    Category    = $null
+                    Categories  = @()
+                    Tags        = @()
+                    Description = $null
+                    Metadata    = $null
+                }
+            }
             Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
                 @(
                     [pscustomobject]@{
@@ -1677,6 +1688,20 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                 }
 
                 $script:RenderedTextCalls += $callRecord
+            }
+        }
+
+        It 'exposes ShowInfo only in rendering parameter sets' {
+            $parameterSets = (Get-Command -Name Show-ColorScript -ErrorAction Stop).ParameterSets
+
+            foreach ($parameterSetName in @('Named', 'Random', 'All')) {
+                $parameterSet = $parameterSets | Where-Object Name -EQ $parameterSetName
+                $parameterSet.Parameters.Name | Should -Contain 'ShowInfo'
+            }
+
+            foreach ($parameterSetName in @('List', 'Help')) {
+                $parameterSet = $parameterSets | Where-Object Name -EQ $parameterSetName
+                $parameterSet.Parameters.Name | Should -Not -Contain 'ShowInfo'
             }
         }
 
@@ -1869,12 +1894,52 @@ Describe 'ColorScripts-Enhanced extended coverage' {
             $output | Should -Be 'pipeline output'
         }
 
+        It 'shows the selected script name and full path after rendering' {
+            Show-ColorScript -Name 'alpha-one' -ShowInfo
+
+            $script:InfoMessages | Should -Contain '[alpha-one] C:\scripts\alpha-one.ps1'
+        }
+
+        It 'keeps ReturnText output clean when showing selection information' {
+            Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith {
+                @{ Available = $true; Content = 'pipeline output' }
+            }
+
+            $output = Show-ColorScript -Name 'alpha-one' -ReturnText -ShowInfo
+
+            $output | Should -Be 'pipeline output'
+            $script:InfoMessages | Should -Contain '[alpha-one] C:\scripts\alpha-one.ps1'
+        }
+
+        It 'keeps PassThru output structured when showing selection information' {
+            $result = Show-ColorScript -Name 'alpha-one' -PassThru -ShowInfo
+
+            $result.Name | Should -Be 'alpha-one'
+            $result.Path | Should -Be 'C:\scripts\alpha-one.ps1'
+            $script:InfoMessages | Should -Contain '[alpha-one] C:\scripts\alpha-one.ps1'
+        }
+
+        It 'suppresses selection information when Quiet is requested' {
+            Show-ColorScript -Name 'alpha-one' -ShowInfo -Quiet
+
+            $script:InfoMessages | Should -BeNullOrEmpty
+        }
+
         It 'cycles through all scripts without waiting for input' {
             Show-ColorScript -All
 
             Should-Invoke -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -Times 1
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'built output'
             $script:SleepLog.Count | Should -BeGreaterThan 0
+        }
+
+        It 'shows selection information for every script in All mode' {
+            Show-ColorScript -All -ShowInfo
+
+            $selectionInfo = @($script:InfoMessages | Where-Object { $_ -match '^\[alpha-' })
+            $selectionInfo | Should -HaveCount 2
+            $selectionInfo | Should -Contain '[alpha-one] C:\scripts\alpha-one.ps1'
+            $selectionInfo | Should -Contain '[alpha-two] C:\scripts\alpha-two.ps1'
         }
 
         It 'clears the host before each script when cycling all' {
@@ -2039,6 +2104,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
 
         It 'warns when no scripts are available' {
             Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith { @() }
+            Mock -CommandName Get-RandomColorScriptInventoryRecord -ModuleName ColorScripts-Enhanced -MockWith { $null }
 
             Show-ColorScript
 

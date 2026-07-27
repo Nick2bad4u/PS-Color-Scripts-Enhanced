@@ -314,7 +314,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-扩大了评估神奇宝贝脚本的资格选择范围。它不会覆盖 `CachePolicy.psd1`；只能缓存 `CacheablePokemonScripts` 中列出的神奇宝贝名称，并且该列表当前为空。
+已弃用的兼容性开关。由于神奇宝贝脚本与其他所有脚本遵循相同的 `CachePolicy.psd1` 规则，因此在一个版本中作为无操作静默开关接受。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

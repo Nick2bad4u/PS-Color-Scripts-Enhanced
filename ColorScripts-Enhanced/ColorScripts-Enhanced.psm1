@@ -15,7 +15,6 @@ $script:Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($false)
 $script:CacheDir = $null
 $script:CacheInitialized = $false
 $script:CacheableScriptNameSet = $null
-$script:CacheablePokemonScriptNameSet = $null
 $script:CachePolicyLastWriteTime = $null
 $script:DynamicColorScriptNameSet = $null
 $script:DynamicRenderPolicyLastWriteTime = $null
@@ -54,9 +53,6 @@ else {
     $script:IsMacOS = [bool](Get-Variable -Name IsMacOS -ValueOnly -ErrorAction SilentlyContinue)
 }
 $script:PowerShellMajorVersion = $PSVersionTable.PSVersion.Major
-$script:PokemonNameSetCache = $null
-$script:PokemonNameSetCacheStamp = $null
-
 $traceSetting = $env:COLOR_SCRIPTS_ENHANCED_TRACE
 $script:ModuleTraceEnabled = $false
 $script:ModuleTraceUseVerbose = $false

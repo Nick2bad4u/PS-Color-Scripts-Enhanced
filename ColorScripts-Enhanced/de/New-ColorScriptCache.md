@@ -314,7 +314,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Erweitert die Auswahl zur Bewertung von Pokémon-Skripten. `CachePolicy.psd1` wird dadurch nicht überschrieben. Es können nur in `CacheablePokemonScripts` aufgeführte Pokémon-Namen zwischengespeichert werden, und diese Liste ist derzeit leer.
+Veralteter Kompatibilitätsschalter. Er wird für eine Version stillschweigend ohne Wirkung akzeptiert, da Pokémon-Skripte denselben Regeln in `CachePolicy.psd1` wie alle anderen Skripte folgen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

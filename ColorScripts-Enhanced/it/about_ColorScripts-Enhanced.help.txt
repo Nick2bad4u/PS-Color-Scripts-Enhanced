@@ -21,9 +21,8 @@ UTILIZZO DI BASE
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Gli script Pokémon sono esclusi per impostazione predefinita dalla selezione
-    casuale. Usa -IncludePokemon per includerli. Un nome richiesto direttamente
-    continua a funzionare.
+    Gli script Pokémon e Pokémon cromatici partecipano per impostazione
+    predefinita alla selezione casuale. Usa -ExcludeCategory Pokemon,ShinyPokemon per escluderli.
 
 COMANDI
     Show-ColorScript

@@ -104,3 +104,33 @@ function Write-ColorScriptInformation {
     $informationAction = if ($wroteToConsole) { 'SilentlyContinue' } else { 'Continue' }
     Write-Information -MessageData $sanitizedOutput -InformationAction $informationAction -Tags 'ColorScripts'
 }
+
+function Write-ColorScriptSelectionInfo {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Name,
+
+        [Parameter(Mandatory)]
+        [string]$Path,
+
+        [switch]$Quiet,
+
+        [switch]$NoAnsiOutput,
+
+        [switch]$PreferConsole
+    )
+
+    if ($Quiet) {
+        return
+    }
+
+    $nameSegment = New-ColorScriptAnsiText -Text ("[{0}]" -f $Name) -Color 'Cyan' -NoAnsiOutput:$NoAnsiOutput
+    $pathSegment = New-ColorScriptAnsiText -Text $Path -Color 'DarkGray' -NoAnsiOutput:$NoAnsiOutput
+
+    $writeParameters = @{
+        Message        = "{0} {1}" -f $nameSegment, $pathSegment
+        NoAnsiOutput   = $NoAnsiOutput
+        PreferConsole  = $PreferConsole
+    }
+    Write-ColorScriptInformation @writeParameters
+}

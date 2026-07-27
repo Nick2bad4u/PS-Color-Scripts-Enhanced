@@ -24,10 +24,10 @@ Describe 'Update-DocumentationCounts' {
         $content | Should -Not -Match '<!-- COLOR_CACHE_TOTAL -->3156'
     }
 
-    It 'derives the default cache count from both policy lists' {
+    It 'derives the default cache count from the active policy list' {
         $policy = Import-PowerShellDataFile -LiteralPath $script:CachePolicyPath
         $expectedCacheCount = @(
-            @($policy.CacheableScripts) + @($policy.CacheablePokemonScripts) |
+            @($policy.CacheableScripts) |
                 Where-Object { $_ -is [string] -and -not [string]::IsNullOrWhiteSpace($_) } |
                     Sort-Object -Unique
         ).Count

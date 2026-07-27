@@ -24,8 +24,8 @@
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Pokemon 関連スクリプトは、既定でランダム選択から除外されます。-IncludePokemon
-    で含められます。名前を直接指定した場合は常に利用できます。
+    Pokemon および ShinyPokemon 関連スクリプトは、既定でランダム選択の
+    対象です。除外するには -ExcludeCategory Pokemon,ShinyPokemon を使用します。
 
 コマンド
     Show-ColorScript

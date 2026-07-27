@@ -21,8 +21,8 @@ Affiche un script de couleurs avec mise en cache sélective pour les moteurs de 
 
 ```
 Show-ColorScript [-Random] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### Help
@@ -37,8 +37,8 @@ Show-ColorScript [-h] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### List
@@ -53,8 +53,8 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string[]>]
- [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-Quiet]
- [-NoAnsiOutput] [-ValidateCache]
+ [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-ShowInfo]
+ [-Quiet] [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ## ALIASES
@@ -274,15 +274,23 @@ Montre l’exécution d’un script de couleurs spécifique dans le cadre d’un
 Show-ColorScript -IncludePokemon
 ```
 
-Affiche un script de couleurs aléatoire comprenant des scripts dans la catégorie `Pokemon`. Utile lorsque vous souhaitez que l'art Pokémon soit inclus dans votre sélection aléatoire.
+Présente le commutateur de compatibilité obsolète. Il reste silencieux et sans effet pendant une version, car les scripts Pokémon et Pokémon chromatiques participent déjà à la sélection normale.
 
 ### EXAMPLE 22
 
 ```powershell
-Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+Show-ColorScript -Random -ExcludeCategory Pokemon,ShinyPokemon
 ```
 
-Affiche un script de couleurs aléatoire tout en excluant les catégories `Pokemon` et `Gaming`. Combinez-le avec `-Category` ou `-Tag` pour affiner davantage la sélection.
+Affiche un script de couleurs aléatoire tout en excluant les deux catégories Pokémon. Combinez-le avec `-Category` ou `-Tag` pour affiner davantage la sélection.
+
+### EXAMPLE 23
+
+```powershell
+Show-ColorScript -Random -ShowInfo
+```
+
+Affiche un script de couleurs aléatoire, puis écrit son nom de script et son chemin complet dans le flux d’informations. Utilisez `-Quiet` pour supprimer la ligne d’identification.
 
 ## PARAMETERS
 
@@ -330,7 +338,7 @@ HelpMessage: ''
 
 ### -ExcludeCategory
 
-Excluez les scripts d’une ou plusieurs catégories avant que la sélection ne soit effectuée. Par exemple, utilisez `-ExcludeCategory Pokemon` pour éviter tous les scripts Pokémon, ou spécifiez plusieurs catégories telles que `-ExcludeCategory Pokemon,Gaming`. Fonctionne dans tous les modes (Aléatoire, Nommé, Liste, Tous) et se combine avec les filtres `-Category` et `-Tag`.
+Excluez les scripts d’une ou plusieurs catégories avant que la sélection ne soit effectuée. Par exemple, utilisez `-ExcludeCategory Pokemon,ShinyPokemon` pour éviter tous les scripts Pokémon, ou spécifiez toute autre combinaison de catégories. Fonctionne dans tous les modes (Aléatoire, Nommé, Liste, Tous) et se combine avec les filtres `-Category` et `-Tag`.
 
 ```yaml
 Type: System.String[]
@@ -373,7 +381,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Indicateur d'inscription pour inclure Pokémon scripts de couleurs dans la sélection. Lorsqu'ils sont omis, les scripts Pokémon sont automatiquement filtrés (par défaut). Remarque : cela remplace l'ancien paramètre `-ExcludePokemon` – le refactor a inversé la sémantique, vous pouvez donc désormais choisir d'afficher les scripts Pokémon au lieu de vous désinscrire.
+Commutateur de compatibilité obsolète. Il est accepté silencieusement sans effet pendant une version, car les scripts de couleurs Pokémon et Pokémon chromatiques participent déjà à la sélection normale. Utilisez `-ExcludeCategory Pokemon,ShinyPokemon` pour les exclure.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -579,6 +587,39 @@ Aliases:
 - AsString
 ParameterSets:
 - Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ShowInfo
+
+Après le rendu de chaque script de couleurs sélectionné, écrit dans le flux d’informations une ligne concise contenant le nom du script et son chemin complet. `-Quiet` supprime cette ligne. `-ReturnText` ne l’inclut pas et `-PassThru` continue de renvoyer des métadonnées structurées.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Random
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Named
   Position: Named
   IsRequired: false
   ValueFromPipeline: false

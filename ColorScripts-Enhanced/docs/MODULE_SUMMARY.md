@@ -21,7 +21,7 @@ The manifest and policy data files are the authoritative sources for version and
 
 | Command | Purpose |
 | ------- | ------- |
-| `Show-ColorScript` | Display a random or named colorscript, list names, and optionally bypass or validate cache state. |
+| `Show-ColorScript` | Display a random or named colorscript, list names, optionally identify rendered scripts, and bypass or validate cache state. |
 | `Get-ColorScriptList` | Query scripts by name, category, or tag. |
 | `New-ColorScriptCache` | Build output caches only for renderers selected by `CachePolicy.psd1`. |
 | `Clear-ColorScriptCache` | Remove named cache entries or all module cache data. |
@@ -46,14 +46,17 @@ Show-ColorScript
 # Display a named script.
 Show-ColorScript -Name bars
 
+# Display a script and then identify its name and full path.
+Show-ColorScript -ShowInfo
+
 # Browse the catalog.
 Get-ColorScriptList -Category Patterns
 
-# Opt in to Pokemon-themed scripts during random selection.
-Show-ColorScript -IncludePokemon
+# Opt out of Pokemon-themed scripts during random selection.
+Show-ColorScript -ExcludeCategory Pokemon,ShinyPokemon
 ```
 
-Pokémon-themed scripts are excluded from random selection by default. A directly requested Pokémon script name still works without `-IncludePokemon`.
+Pokémon-themed scripts participate in random selection by default. `-IncludePokemon` remains a silent, deprecated no-op for one compatibility release.
 
 ## Selective Cache Model
 

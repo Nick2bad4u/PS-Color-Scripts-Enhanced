@@ -112,24 +112,9 @@ function New-ColorScriptCache {
         $quietRequested = $Quiet.IsPresent
         $noAnsiRequested = $NoAnsiOutput.IsPresent
         $preferConsoleOutput = -not $noAnsiRequested
-        $pokemonNameSet = $null
-        $filterPokemon = -not $IncludePokemon
-
-        # If the user explicitly specified categories that include Pokemon, treat that as an
-        # implicit opt-in to Pokémon scripts so users can request them directly with
-        # -Category Pokemon or -Category ShinyPokemon without -IncludePokemon.
-        if ($PSBoundParameters.ContainsKey('Category') -and $Category -and $Category.Count -gt 0 -and $filterPokemon) {
-            $normalizedCategories = $Category | Where-Object { $_ } | ForEach-Object { ([string]$_).Trim().ToLowerInvariant().Replace(' ', '') }
-            $pokemonIdentifiers = @('pokemon', 'shinypokemon', 'pokemonshiny')
-            if ($normalizedCategories | Where-Object { $pokemonIdentifiers -contains $_ }) {
-                $filterPokemon = $false
-            }
-        }
-
-        # Explicit names always win over the default Pokémon exclusion.
-        if ($filterPokemon -and $PSBoundParameters.ContainsKey('Name') -and $Name) {
-            $filterPokemon = $false
-        }
+        # Retained for command-line compatibility. Pokémon scripts now follow the same
+        # selection and cache-policy rules as every other colorscript.
+        $null = $IncludePokemon
 
         if ($h) {
             Show-ColorScriptHelp -CommandName 'New-ColorScriptCache'
@@ -172,13 +157,6 @@ function New-ColorScriptCache {
         if ($PSBoundParameters.ContainsKey('Name') -and $Name) {
             foreach ($value in $Name) {
                 & $addName $value
-            }
-        }
-
-        if ($filterPokemon) {
-            $pokemonNameSet = Get-ColorScriptCacheablePokemonNameSet
-            if (-not ($pokemonNameSet -and $pokemonNameSet.Count -gt 0)) {
-                $pokemonNameSet = $null
             }
         }
     }
@@ -311,14 +289,6 @@ function New-ColorScriptCache {
         }
 
         $candidateRecords = @($candidateRecords | Where-Object { $_ })
-
-        if ($filterPokemon -and $pokemonNameSet -and $pokemonNameSet.Count -gt 0) {
-            $candidateRecords = $candidateRecords | Where-Object {
-                $name = $_.Name
-                if (-not $name) { return $true }
-                -not $pokemonNameSet.Contains([string]$name)
-            }
-        }
 
         if (-not $candidateRecords -or $candidateRecords.Count -eq 0) {
             Write-Warning $script:Messages.NoScriptsSelectedForCacheBuild

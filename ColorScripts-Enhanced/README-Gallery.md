@@ -13,9 +13,9 @@ Discover and display ANSI colorscripts in PowerShell. Deterministic bundled scri
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
 - **Rich Metadata** — Filter by name, category, and tag or export structured catalog data
-- 🐾 **Thousands of Pokémon ColorScripts** — Pokémon and shiny-Pokémon collections are available by explicit opt-in
+- 🐾 **Thousands of Pokémon ColorScripts** — Pokémon and shiny-Pokémon collections participate in normal selection
 
-  Pokémon art is filtered by default to keep routine inventory and random selection lean. Opt in with `-IncludePokemon` on relevant commands.
+  To opt out, use `-ExcludeCategory Pokemon,ShinyPokemon` with `Show-ColorScript`.
 - 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
 - 🗄️ **Platform-Aware Storage** — Query or configure the effective cache path
 - 🔄 **Auto-Update** — Cache invalidates automatically when scripts change
@@ -27,10 +27,10 @@ Install-Module ColorScripts-Enhanced -Scope CurrentUser
 
 Import-Module ColorScripts-Enhanced
 Show-ColorScript # Shows a random colorscript
-scs -IncludePokemon # Alias: scs with Pokémon art
+scs -ExcludeCategory Pokemon,ShinyPokemon # Alias: exclude Pokémon art
 
 Add-ColorScriptProfile
-Add-ColorScriptProfile -IncludePokemon -SkipPokemonPrompt
+Add-ColorScriptProfile -SkipStartupScript
 ```
 
 ## Basic Usage
@@ -47,7 +47,7 @@ Get-ColorScriptList -Category Geometric
 
 New-ColorScriptCache
 
-Show-ColorScript -IncludePokemon
+Show-ColorScript -ExcludeCategory Pokemon,ShinyPokemon
 
 Clear-ColorScriptCache -All
 ```

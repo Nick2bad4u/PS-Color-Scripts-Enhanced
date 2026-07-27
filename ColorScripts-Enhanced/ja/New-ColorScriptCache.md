@@ -314,7 +314,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-ポケモンのスクリプトを評価する対象となる選択肢を広げます。 `CachePolicy.psd1` はオーバーライドされません。 `CacheablePokemonScripts` にリストされているポケモン名のみをキャッシュできます。そのリストは現在空です。
+非推奨の互換性スイッチ。ポケモン スクリプトは他のすべてのスクリプトと同じ `CachePolicy.psd1` の規則に従うため、1 リリースの間、何も行わないサイレント スイッチとして受け付けられます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

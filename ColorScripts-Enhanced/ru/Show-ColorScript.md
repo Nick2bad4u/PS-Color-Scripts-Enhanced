@@ -21,8 +21,8 @@ title: Show-ColorScript
 
 ```
 Show-ColorScript [-Random] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### Help
@@ -37,8 +37,8 @@ Show-ColorScript [-h] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
- [-ValidateCache]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-ShowInfo] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ### List
@@ -53,8 +53,8 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```
 Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string[]>]
- [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-Quiet]
- [-NoAnsiOutput] [-ValidateCache]
+ [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-ShowInfo]
+ [-Quiet] [-NoAnsiOutput] [-ValidateCache]
 ```
 
 ## ALIASES
@@ -276,15 +276,23 @@ if (Test-Path $scriptPath) {
 Show-ColorScript -IncludePokemon
 ```
 
-Отображает случайный цветовой сценарий, включая сценарии из категории `Pokemon`. Полезно, если вы хотите, чтобы изображения покемонов были включены в ваш случайный выбор.
+Демонстрирует устаревший параметр совместимости. В течение одного выпуска он принимается без сообщений и не выполняет действий, поскольку сценарии Pokémon и ShinyPokemon уже участвуют в обычном выборе.
 
 ### EXAMPLE 22
 
 ```powershell
-Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+Show-ColorScript -Random -ExcludeCategory Pokemon,ShinyPokemon
 ```
 
-Отображает случайный цветовой сценарий, исключая категории `Pokemon` и `Gaming`. Объедините с `-Category` или `-Tag`, чтобы уточнить выбор.
+Отображает случайный цветовой сценарий, исключая обе категории Pokémon. Объедините с `-Category` или `-Tag`, чтобы уточнить выбор.
+
+### EXAMPLE 23
+
+```powershell
+Show-ColorScript -Random -ShowInfo
+```
+
+Отображает случайный цветовой сценарий, а затем записывает его имя и полный путь в информационный поток. Используйте `-Quiet`, чтобы подавить строку идентификации.
 
 ## PARAMETERS
 
@@ -332,7 +340,7 @@ HelpMessage: ''
 
 ### -ExcludeCategory
 
-Прежде чем произойдет выбор, исключите сценарии из одной или нескольких категорий. Например, используйте `-ExcludeCategory Pokemon`, чтобы избежать всех сценариев Pokémon, или укажите несколько категорий, например `-ExcludeCategory Pokemon,Gaming`. Работает во всех режимах (Случайный, По имени, Список, Все) и сочетается с фильтрами `-Category` и `-Tag`.
+Прежде чем произойдет выбор, исключите сценарии из одной или нескольких категорий. Например, используйте `-ExcludeCategory Pokemon,ShinyPokemon`, чтобы исключить все сценарии Pokémon, или укажите любое другое сочетание категорий. Работает во всех режимах (Случайный, По имени, Список, Все) и сочетается с фильтрами `-Category` и `-Tag`.
 
 ```yaml
 Type: System.String[]
@@ -375,7 +383,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Включает цветовые сценарии Pokémon в выбор. Если параметр не указан, скрипты Pokémon автоматически отфильтровываются (поведение по умолчанию). Примечание: этот параметр заменяет прежний `-ExcludePokemon`; семантика инвертирована, поэтому теперь вы явно разрешаете показывать скрипты Pokémon, а не исключаете их.
+Устаревший параметр совместимости. В течение одного выпуска он принимается без сообщений и не выполняет действий, поскольку цветовые сценарии Pokémon и ShinyPokemon уже участвуют в обычном выборе. Для исключения используйте `-ExcludeCategory Pokemon,ShinyPokemon`.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -581,6 +589,39 @@ Aliases:
 - AsString
 ParameterSets:
 - Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ShowInfo
+
+После отображения каждого выбранного цветового сценария записывает в информационный поток одну краткую строку с именем сценария и полным путем. `-Quiet` подавляет эту строку. `-ReturnText` не включает ее, а `-PassThru` по-прежнему возвращает структурированные метаданные.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Random
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Named
   Position: Named
   IsRequired: false
   ValueFromPipeline: false

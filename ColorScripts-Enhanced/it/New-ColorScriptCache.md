@@ -314,7 +314,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Amplia la selezione idonea per valutare gli script Pokémon. Non sovrascrive `CachePolicy.psd1`; solo i nomi dei Pokémon elencati in `CacheablePokemonScripts` possono essere memorizzati nella cache e l'elenco è attualmente vuoto.
+Opzione di compatibilità deprecata. Viene accettata silenziosamente senza effetto per una versione perché gli script Pokémon seguono le stesse regole di `CachePolicy.psd1` di tutti gli altri script.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

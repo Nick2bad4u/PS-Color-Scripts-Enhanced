@@ -29,20 +29,23 @@ Every command also accepts `-h` (alias `-help`) for its concise module help.
 ## Display and Discover
 
 ```powershell
-# Random non-Pokémon script.
+# Random script from the full collection, including Pokémon.
 Show-ColorScript
 
-# Exact name. Explicit names may select Pokémon without -IncludePokemon.
+# Exact name.
 Show-ColorScript -Name hearts
 
 # Random selection with filters. Multiple values match any requested value.
 Show-ColorScript -Category Geometric,Nature -Tag Recommended
 
-# Include Pokémon in random/list/all selection.
-Show-ColorScript -IncludePokemon
+# Exclude Pokémon and shiny-Pokémon scripts.
+Show-ColorScript -ExcludeCategory Pokemon,ShinyPokemon
 
 # Browse sequentially. -NoClear preserves earlier output.
 Show-ColorScript -All -WaitForInput -NoClear
+
+# Print the selected script name and full path after rendering.
+Show-ColorScript -ShowInfo
 
 # Get rendered text instead of writing it to the host.
 $text = Show-ColorScript -Name bars -ReturnText
@@ -50,6 +53,10 @@ $text = Show-ColorScript -Name bars -ReturnText
 # Return selection metadata in Named or Random mode.
 $result = Show-ColorScript -Name bars -PassThru
 ```
+
+`-ShowInfo` writes its identification line to PowerShell's information stream.
+`-Quiet` suppresses that line, `-ReturnText` remains clean rendered text, and
+`-PassThru` continues to return structured metadata.
 
 `Show-ColorScript -List` writes a compact name/category view. Use `Get-ColorScriptList` for reusable inventory objects:
 
@@ -79,9 +86,6 @@ New-ColorScriptCache -Category Mathematical
 # PowerShell 7+ parallel execution. -Threads is an alias.
 New-ColorScriptCache -All -Parallel -ThrottleLimit 4
 
-# Include policy-selected Pokémon entries.
-New-ColorScriptCache -All -IncludePokemon
-
 # Clear by name, category, or tag.
 Clear-ColorScriptCache -Name Galaxy
 Clear-ColorScriptCache -Category Mathematical
@@ -93,7 +97,7 @@ Clear-ColorScriptCache -All -WhatIf
 Clear-ColorScriptCache -All -DryRun -PassThru
 ```
 
-`-All` selects all applicable records after filters; it does not mean that every static script requires a cache. Both cache commands exclude Pokémon by default unless an explicit name or Pokémon category is requested, or `-IncludePokemon` is supplied.
+`-All` selects all applicable records after filters; it does not mean that every static script requires a cache. Pokémon entries follow the same cache policy as every other script.
 
 Use the platform-correct effective cache path instead of constructing an AppData path:
 
@@ -144,12 +148,11 @@ Add-ColorScriptProfile `
     -DefaultStartupScript bars `
     -AutoShow
 
-# Noninteractive Pokémon/cache decisions.
-Add-ColorScriptProfile `
-    -IncludePokemon `
-    -SkipPokemonPrompt `
-    -SkipCacheBuild
+# Skip the optional cache warm-up.
+Add-ColorScriptProfile -SkipCacheBuild
 ```
+
+New managed profile blocks never prompt about Pokémon and never emit `-IncludePokemon`.
 
 `-ProfilePath` has the alias `-Path`. When omitted, the command uses `$PROFILE.CurrentUserAllHosts` when available and otherwise the first defined profile path. `-Force` replaces the module's managed or legacy block while preserving unrelated profile content; it does not deliberately append duplicates.
 
@@ -199,9 +202,10 @@ The generated file is UTF-8 without BOM. `-Force` overwrites an existing target,
 ### `Show-ColorScript`
 
 - Selection: `-Name`, `-Random`, `-List`, or `-All`
-- Filters: `-Category`, `-Tag`, `-ExcludeCategory`, `-IncludePokemon`
+- Filters: `-Category`, `-Tag`, `-ExcludeCategory`
+- Compatibility: `-IncludePokemon` is a silent, deprecated no-op for one release
 - All-mode controls: `-WaitForInput`, `-NoClear`
-- Rendering/output: `-NoCache`, `-PassThru`, `-ReturnText` (alias `-AsString`), `-Quiet`, `-NoAnsiOutput` (alias `-NoColor`), `-ValidateCache`
+- Rendering/output: `-NoCache`, `-PassThru`, `-ReturnText` (alias `-AsString`), `-ShowInfo`, `-Quiet`, `-NoAnsiOutput` (alias `-NoColor`), `-ValidateCache`
 
 ### `Get-ColorScriptList`
 
@@ -212,7 +216,8 @@ The command always emits inventory records. Without `-AsObject`, it also writes 
 
 ### `New-ColorScriptCache`
 
-- Selection: `-Name`, `-All`, `-Category`, `-Tag`, `-IncludePokemon`
+- Selection: `-Name`, `-All`, `-Category`, `-Tag`
+- Compatibility: `-IncludePokemon` is a silent, deprecated no-op for one release
 - Execution: `-Force`, `-Parallel`, `-ThrottleLimit` (alias `-Threads`)
 - Output: `-PassThru`, `-Quiet`, `-NoAnsiOutput` (alias `-NoColor`)
 - Safety: `-WhatIf`, `-Confirm`
@@ -230,7 +235,8 @@ With `-PassThru`, records contain `Name`, `CacheFile`, `Status`, and `Message`.
 ### `Add-ColorScriptProfile`
 
 - Target/startup: `-ProfilePath`, `-DefaultStartupScript`, `-AutoShow`, `-SkipStartupScript`
-- Pokémon/cache prompts: `-IncludePokemon`, `-SkipPokemonPrompt`, `-PokemonPromptResponse Y|N`, `-SkipCacheBuild`
+- Cache warm-up: `-SkipCacheBuild`
+- Compatibility: `-IncludePokemon`, `-SkipPokemonPrompt`, and `-PokemonPromptResponse Y|N` are silent, deprecated no-ops for one release
 - Update/safety: `-Force`, `-WhatIf`, `-Confirm`
 
 ### Configuration and authoring commands

@@ -37,7 +37,7 @@ Wenn `-ProfilePath` weggelassen wird, bevorzugt der Befehl `$PROFILE.CurrentUser
 
 Vorhandene verwaltete oder ältere ColorScripts-Enhanced-Blöcke werden ersetzt statt dupliziert. Wenn das Profil das Modul bereits außerhalb eines verwalteten Blocks importiert, lässt der Befehl es unverändert, es sei denn, `-Force` wird angegeben. `-Force` ermöglicht das Ersetzen erkannter Modulinhalte unter Beibehaltung nicht verwandter Profilinhalte.
 
-Das generierte Startverhalten wird anhand expliziter Parameter und der beibehaltenen Konfiguration aufgelöst. `-AutoShow` aktiviert explizit die Anzeige, `-DefaultStartupScript` wählt ein benanntes Skript aus und die Pokémon-Einbindung kann direkt bereitgestellt oder über die interaktive Eingabeaufforderung und ihre dokumentierten Überschreibungen gelöst werden. Sofern `-SkipCacheBuild` nicht verwendet wird, kann der Befehl nach der Aktualisierung des Profils durch Richtlinien ausgewählte Cache-Einträge vorwärmen.
+Das generierte Startverhalten wird anhand expliziter Parameter und der beibehaltenen Konfiguration aufgelöst. `-AutoShow` aktiviert explizit die Anzeige und `-DefaultStartupScript` wählt ein benanntes Skript aus. Pokémon-Skripte nehmen normal teil; neue verwaltete Profile fragen nicht nach Pokémon und geben `-IncludePokemon` nicht aus. Sofern `-SkipCacheBuild` nicht verwendet wird, kann der Befehl nach der Aktualisierung des Profils durch Richtlinien ausgewählte Cache-Einträge vorwärmen.
 
 ## EXAMPLES
 
@@ -145,13 +145,13 @@ Add-ColorScriptProfile -SkipStartupScript
 
 ### EXAMPLE 11
 
-Pokémon-Skripte beim Anzeigen von Startbildern automatisch überspringen:
+Verwenden Sie den veralteten Kompatibilitätsschalter in einem vorhandenen Automatisierungsaufruf:
 
 ```powershell
 Add-ColorScriptProfile -IncludePokemon
 ```
 
-Dadurch wird `Show-ColorScript -IncludePokemon` (umhüllt in ein schützendes try/catch) an das Profil angehängt, sodass das Startbild möglicherweise Pokémon-Skripte enthält.
+Der Schalter wird für eine Kompatibilitätsversion stillschweigend ohne Wirkung akzeptiert. Pokémon-Skripte nehmen bereits normal teil, und das generierte Profil ruft einfach `Show-ColorScript` auf.
 
 ## PARAMETERS
 
@@ -264,7 +264,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Fügen Sie `-IncludePokemon` zum generierten `Show-ColorScript`-Aufruf hinzu, sodass Pokémon Farbskripte beim Start einbezogen werden, sofern vorhanden. Wird ignoriert, wenn `-SkipStartupScript` verwendet wird.
+Veralteter Kompatibilitätsschalter. Er wird für eine Version stillschweigend ohne Wirkung akzeptiert; Pokémon-Farbskripte nehmen bereits normal teil, und generierte Profile geben diesen Schalter nicht aus.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -285,9 +285,7 @@ HelpMessage: ''
 
 ### -PokemonPromptResponse
 
-Beantworten Sie vorab die Aufforderung zur Aufnahme von Pokémon. Akzeptiert Ja/Ja oder N/Nein. Berücksichtigt auch die Umgebungsvariable
-`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` und die globale Variable
-`$Global:ColorScriptsEnhancedPokemonPromptResponse`.
+Veralteter Kompatibilitätsparameter. Er wird für eine Version stillschweigend ohne Wirkung akzeptiert, da die Profilerstellung nicht mehr nach Pokémon fragt.
 
 ```yaml
 Type: System.String
@@ -355,7 +353,7 @@ HelpMessage: ''
 
 ### -SkipPokemonPrompt
 
-Überspringen Sie die interaktive Eingabeaufforderung, die beim Start fragt, ob Pokémon Farbskripte einbezogen werden soll.
+Veralteter Kompatibilitätsschalter. Er wird für eine Version stillschweigend ohne Wirkung akzeptiert, da die Profilerstellung nicht mehr nach Pokémon fragt.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -438,7 +436,7 @@ Gibt ein benutzerdefiniertes Objekt mit den folgenden Eigenschaften zurück:
 - **Path** (string): Der vollständige Pfad zur ausgewählten Profildatei
 - **Changed** (bool): Ob das Profil tatsächlich geändert wurde
 - **Message** (string): Eine Statusmeldung, die das Operationsergebnis beschreibt
-- **IncludePokemon** (bool): Die Startup-Wahl für die Pokémon-Inklusion
+- **IncludePokemon** (bool): Immer `$true`; vorübergehend für die Kompatibilität des Ergebnisobjekts beibehalten
 - **CacheBuilt** (bool): Ob die optionale Cache-Aufwärmphase abgeschlossen ist
 
 ## NOTES

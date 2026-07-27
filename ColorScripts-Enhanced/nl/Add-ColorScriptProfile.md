@@ -37,7 +37,7 @@ Wanneer `-ProfilePath` wordt weggelaten, geeft de opdracht de voorkeur aan `$PRO
 
 Bestaande beheerde of verouderde ColorScripts-Enhanced-blokken worden vervangen in plaats van gedupliceerd. Als het profiel de module al buiten een beheerd blok importeert, laat de opdracht deze ongewijzigd, tenzij `-Force` wordt opgegeven. `-Force` maakt het vervangen van herkende module-inhoud mogelijk, terwijl niet-gerelateerde profielinhoud behouden blijft.
 
-Het gegenereerde opstartgedrag wordt opgelost op basis van expliciete parameters en aanhoudende configuratie. `-AutoShow` maakt weergave expliciet mogelijk, `-DefaultStartupScript` selecteert een benoemd script en de opname van Pokémon kan direct worden geleverd of opgelost via de interactieve prompt en de gedocumenteerde overschrijvingen. Tenzij `-SkipCacheBuild` wordt gebruikt, kan de opdracht door beleid geselecteerde cache-items vooraf opwarmen nadat het profiel is bijgewerkt.
+Het gegenereerde opstartgedrag wordt opgelost op basis van expliciete parameters en aanhoudende configuratie. `-AutoShow` maakt weergave expliciet mogelijk en `-DefaultStartupScript` selecteert een benoemd script. Pokémon-scripts doen normaal mee; nieuwe beheerde profielen vragen nooit naar Pokémon en geven `-IncludePokemon` niet uit. Tenzij `-SkipCacheBuild` wordt gebruikt, kan de opdracht door beleid geselecteerde cache-items vooraf opwarmen nadat het profiel is bijgewerkt.
 
 ## EXAMPLES
 
@@ -145,13 +145,13 @@ Add-ColorScriptProfile -SkipStartupScript
 
 ### EXAMPLE 11
 
-Automatisch Pokémon-scripts overslaan bij het tonen van opstartkunst:
+Gebruik de verouderde compatibiliteitsschakelaar in een bestaande automatiseringsoproep:
 
 ```powershell
 Add-ColorScriptProfile -IncludePokemon
 ```
 
-Hiermee wordt `Show-ColorScript -IncludePokemon` (verpakt in een beschermende try/catch) aan het profiel toegevoegd, zodat de lanceerkunst Pokémon-scripts kan bevatten.
+De schakelaar wordt één compatibiliteitsrelease stilzwijgend zonder effect geaccepteerd. Pokémon-scripts doen al normaal mee en het gegenereerde profiel roept gewoon `Show-ColorScript` aan.
 
 ## PARAMETERS
 
@@ -264,7 +264,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Voeg `-IncludePokemon` toe aan de gegenereerde `Show-ColorScript`-oproep, zodat Pokémon colorscripts bij het opstarten wordt opgenomen, indien aanwezig. Genegeerd wanneer `-SkipStartupScript` wordt gebruikt.
+Verouderde compatibiliteitsschakelaar. Deze wordt één release stilzwijgend zonder effect geaccepteerd; Pokémon-colorscripts doen al normaal mee en gegenereerde profielen geven deze schakelaar nooit uit.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -285,9 +285,7 @@ HelpMessage: ''
 
 ### -PokemonPromptResponse
 
-Beantwoord vooraf de vraag om Pokémon op te nemen. Accepteert J/Ja of N/Nee. Houdt ook rekening met de omgevingsvariabele
-`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` en de globale variabele
-`$Global:ColorScriptsEnhancedPokemonPromptResponse`.
+Verouderde compatibiliteitsparameter. Deze wordt één release stilzwijgend zonder effect geaccepteerd omdat profielgeneratie niet langer naar Pokémon vraagt.
 
 ```yaml
 Type: System.String
@@ -355,7 +353,7 @@ HelpMessage: ''
 
 ### -SkipPokemonPrompt
 
-Sla de interactieve prompt over die vraagt of Pokémon colorscripts bij het opstarten moet worden toegevoegd.
+Verouderde compatibiliteitsschakelaar. Deze wordt één release stilzwijgend zonder effect geaccepteerd omdat profielgeneratie niet langer naar Pokémon vraagt.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -438,7 +436,7 @@ Retourneert een aangepast object met de volgende eigenschappen:
 - **Path** (string): het volledige pad naar het geselecteerde profielbestand
 - **Changed** (bool): Of het profiel daadwerkelijk is gewijzigd
 - **Message** (string): een statusbericht dat het resultaat van de bewerking beschrijft
-- **IncludePokemon** (bool): de keuze voor startup-Pokémon-opname
+- **IncludePokemon** (bool): altijd `$true`; tijdelijk behouden voor compatibiliteit van het resultaatobject
 - **CacheBuilt** (bool): of de optionele cache-opwarming is voltooid
 
 ## NOTES

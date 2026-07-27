@@ -25,8 +25,6 @@ function Get-ColorScriptCacheableNameSet {
     }
 
     $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
-    $pokemonNameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
-
     if ($policyLastWriteTime) {
         try {
             $policy = Import-PowerShellDataFile -LiteralPath $policyPath -ErrorAction Stop
@@ -40,17 +38,6 @@ function Get-ColorScriptCacheableNameSet {
                     }
                 }
             }
-
-            if ($policy -is [hashtable] -and
-                $policy.CacheablePokemonScripts -isnot [string] -and
-                $policy.CacheablePokemonScripts -is [System.Collections.IEnumerable]) {
-                foreach ($scriptName in $policy.CacheablePokemonScripts) {
-                    $name = [string]$scriptName
-                    if (-not [string]::IsNullOrWhiteSpace($name) -and $nameSet.Contains($name)) {
-                        $null = $pokemonNameSet.Add($name)
-                    }
-                }
-            }
         }
         catch {
             # A missing or invalid policy must never broaden caching. The normal non-cache rendering
@@ -60,23 +47,9 @@ function Get-ColorScriptCacheableNameSet {
     }
 
     $script:CacheableScriptNameSet = $nameSet
-    $script:CacheablePokemonScriptNameSet = $pokemonNameSet
     $script:CachePolicyLastWriteTime = $policyLastWriteTime
 
     Write-Output -NoEnumerate -InputObject $script:CacheableScriptNameSet
-}
-
-function Get-ColorScriptCacheablePokemonNameSet {
-    [CmdletBinding()]
-    [OutputType([System.Collections.Generic.HashSet[string]])]
-    param()
-
-    $null = Get-ColorScriptCacheableNameSet
-    if (-not $script:CacheablePokemonScriptNameSet) {
-        $script:CacheablePokemonScriptNameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
-    }
-
-    Write-Output -NoEnumerate -InputObject $script:CacheablePokemonScriptNameSet
 }
 
 function Test-ColorScriptRequiresCache {

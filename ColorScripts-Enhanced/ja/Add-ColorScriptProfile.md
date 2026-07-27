@@ -37,7 +37,7 @@ Add-ColorScriptProfile [[-ProfilePath] <string>] [[-DefaultStartupScript] <strin
 
 既存のマネージド ブロックまたは従来の ColorScripts-Enhanced ブロックは、複製されるのではなく置き換えられます。プロファイルがすでに管理ブロックの外にモジュールをインポートしている場合、`-Force` が指定されない限り、コマンドはモジュールを変更しないままにします。 `-Force` では、無関係なプロファイル コンテンツを保持しながら、認識されたモジュール コンテンツを置き換えることができます。
 
-生成された起動動作は、明示的なパラメーターと永続的な構成から解決されます。 `-AutoShow` は表示を明示的に有効にし、`-DefaultStartupScript` は名前付きスクリプトを選択します。ポケモンの追加は直接指定することも、対話型プロンプトとその文書化されたオーバーライドを通じて解決することもできます。 `-SkipCacheBuild` が使用されない限り、コマンドはプロファイルの更新後にポリシーで選択されたキャッシュ エントリを事前にウォームアップできます。
+生成された起動動作は、明示的なパラメーターと永続的な構成から解決されます。`-AutoShow` は表示を明示的に有効にし、`-DefaultStartupScript` は名前付きスクリプトを選択します。ポケモン スクリプトは通常どおり対象となり、新しい管理対象プロファイルはポケモンについて尋ねたり `-IncludePokemon` を出力したりしません。`-SkipCacheBuild` が使用されない限り、コマンドはプロファイルの更新後にポリシーで選択されたキャッシュ エントリを事前にウォームアップできます。
 
 ## EXAMPLES
 
@@ -145,13 +145,13 @@ Add-ColorScriptProfile -SkipStartupScript
 
 ### EXAMPLE 11
 
-スタートアップアートを表示するときにポケモンスクリプトを自動的にスキップします。
+既存の自動化呼び出しで非推奨の互換性スイッチを使用します。
 
 ```powershell
 Add-ColorScriptProfile -IncludePokemon
 ```
 
-これにより、`Show-ColorScript -IncludePokemon` (保護用の try/catch ブロックでラップされたもの) がプロファイルに追加されるため、起動アートにポケモン スクリプトが含まれる可能性があります。
+このスイッチは、1 リリースの互換性のために何も行わないサイレント スイッチとして受け付けられます。ポケモン スクリプトはすでに通常どおり対象となり、生成されたプロファイルは単に `Show-ColorScript` を呼び出します。
 
 ## PARAMETERS
 
@@ -264,7 +264,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-`-IncludePokemon` を生成される `Show-ColorScript` 呼び出しに追加し、ポケモンのカラースクリプトが存在する場合に起動時の候補へ含めます。`-SkipStartupScript` を使用した場合は無視されます。
+非推奨の互換性スイッチ。ポケモンのカラースクリプトはすでに通常どおり対象となるため、1 リリースの間、何も行わないサイレント スイッチとして受け付けられます。生成されたプロファイルはこのスイッチを出力しません。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -285,9 +285,7 @@ HelpMessage: ''
 
 ### -PokemonPromptResponse
 
-ポケモンを含めるプロンプトに事前に答えてください。 Y/はいまたはN/いいえを受け入れます。環境変数も尊重します
-`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` とグローバル変数
-`$Global:ColorScriptsEnhancedPokemonPromptResponse`。
+非推奨の互換性パラメーター。プロファイル生成でポケモンについて尋ねなくなったため、1 リリースの間、何も行わないサイレント パラメーターとして受け付けられます。
 
 ```yaml
 Type: System.String
@@ -355,7 +353,7 @@ HelpMessage: ''
 
 ### -SkipPokemonPrompt
 
-起動時にポケモンのカラースクリプトを含めるかどうかを尋ねる対話型プロンプトをスキップします。
+非推奨の互換性スイッチ。プロファイル生成でポケモンについて尋ねなくなったため、1 リリースの間、何も行わないサイレント スイッチとして受け付けられます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -438,7 +436,7 @@ HelpMessage: ''
 - **Path** (文字列): 選択したプロファイル ファイルへのフル パス
 - **Changed** (ブール値): プロファイルが実際に変更されたかどうか
 - **Message** (文字列): 操作結果を説明するステータス メッセージ
-- **IncludePokemon** (ブール値): 起動時にポケモンを含める選択肢
+- **IncludePokemon** (ブール値): 常に `$true`。結果オブジェクトの互換性のために一時的に保持
 - **CacheBuilt** (ブール値): オプションのキャッシュのウォームアップが完了したかどうか
 
 ## NOTES

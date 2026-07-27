@@ -1,6 +1,4 @@
-$PSDefaultParameterValues['Add-ColorScriptProfile:SkipPokemonPrompt'] = $true
 $PSDefaultParameterValues['Add-ColorScriptProfile:SkipCacheBuild'] = $true
-$PSDefaultParameterValues['Add-ColorScriptProfile:PokemonPromptResponse'] = 'N'
 Describe 'ColorScripts-Enhanced additional coverage' {
     $script:SkipCoverageSensitiveTests = [bool]$env:CSENHANCED_COVERAGE_MODE
     BeforeAll {

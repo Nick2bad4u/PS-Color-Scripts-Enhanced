@@ -716,17 +716,19 @@ Describe 'Add-ColorScriptProfile Function' {
         }
     }
 
-    It 'Should honor IncludePokemon switch and wrap startup in try/catch' {
+    It 'Should accept legacy Pokemon switches as no-ops and wrap startup in try/catch' {
         $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ('ColorScriptsProfileExclude_' + [guid]::NewGuid() + '.ps1')
         if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
 
         try {
-            Add-ColorScriptProfile -Path $tempProfile -IncludePokemon -SkipPokemonPrompt -SkipCacheBuild | Out-Null
+            $result = Add-ColorScriptProfile -Path $tempProfile -IncludePokemon -SkipPokemonPrompt -PokemonPromptResponse N -SkipCacheBuild
 
             $content = Get-Content $tempProfile -Raw
             $content | Should -Match 'try\s*\{'
-            $content | Should -Match 'Show-ColorScript.*-IncludePokemon'
+            $content | Should -Match 'Show-ColorScript'
+            $content | Should -Not -Match 'IncludePokemon'
             $content | Should -Match 'catch\s*\{'
+            $result.IncludePokemon | Should -BeTrue
         }
         finally {
             if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }

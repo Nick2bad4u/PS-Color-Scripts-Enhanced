@@ -16,7 +16,7 @@
 
 现有的托管或旧版 ColorScripts-Enhanced 块将被替换而不是重复。如果配置文件已导入托管块外部的模块，则该命令将使其保持不变，除非指定 `-Force`。 `-Force` 允许替换已识别的模块内容，同时保留不相关的配置文件内容。
 
-生成的启动行为是通过显式参数和持久配置解析的。 `-AutoShow` 明确启用显示，`-DefaultStartupScript` 选择命名脚本，并且可以直接提供神奇宝贝包含或通过交互式提示及其记录的覆盖来解决。除非使用 `-SkipCacheBuild`，否则该命令可以在更新配置文件后预热策略选择的缓存条目。</maml:para>
+生成的启动行为是通过显式参数和持久配置解析的。`-AutoShow` 明确启用显示，`-DefaultStartupScript` 选择命名脚本。神奇宝贝脚本正常参与；新的托管配置文件不会询问神奇宝贝，也不会输出 `-IncludePokemon`。除非使用 `-SkipCacheBuild`，否则该命令可以在更新配置文件后预热策略选择的缓存条目。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -160,7 +160,7 @@
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>将 `-IncludePokemon` 添加到生成的 `Show-ColorScript` 调用中，以便在启动时包含 Pokémon 颜色脚本（如果存在）。使用 `-SkipStartupScript` 时被忽略。</maml:para>
+          <maml:para>已弃用的兼容性开关。在一个版本中作为无操作静默开关接受；神奇宝贝颜色脚本已正常参与，生成的配置文件不会输出此开关。</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -169,9 +169,7 @@
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="2" aliases="none">
         <maml:name>PokemonPromptResponse</maml:name>
         <maml:description>
-          <maml:para>预先回答神奇宝贝包含提示。接受 Y/是或 N/否。还尊重环境变量
-`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` 和全局变量
-`$Global:ColorScriptsEnhancedPokemonPromptResponse`。</maml:para>
+          <maml:para>已弃用的兼容性参数。由于配置文件生成不再询问神奇宝贝，因此在一个版本中作为无操作静默参数接受。</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="true">System.String</command:parameterValue>
         <dev:type>
@@ -204,7 +202,7 @@
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>SkipPokemonPrompt</maml:name>
         <maml:description>
-          <maml:para>跳过启动时询问是否包含 Pokémon 颜色脚本的交互式提示。</maml:para>
+          <maml:para>已弃用的兼容性开关。由于配置文件生成不再询问神奇宝贝，因此在一个版本中作为无操作静默开关接受。</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -250,7 +248,7 @@
 - **Path**（字符串）：所选配置文件的完整路径
 - **Changed** (bool)：配置文件是否实际被修改
 - **Message**（字符串）：描述操作结果的状态消息
-- **IncludePokemon** (bool)：启动 Pokémon 包含选项
+- **IncludePokemon** (bool)：始终为 `$true`；暂时保留以兼容结果对象
 - **CacheBuilt** (bool): 可选的缓存预热是否完成</maml:para>
         </maml:description>
       </command:returnValue>
@@ -372,11 +370,11 @@ Add-ColorScriptProfile -Path ".\my-profile.ps1"</dev:code>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
         <maml:introduction>
-          <maml:para>显示启动艺术时自动跳过神奇宝贝脚本：</maml:para>
+          <maml:para>在现有自动化调用中使用已弃用的兼容性开关：</maml:para>
         </maml:introduction>
         <dev:code>Add-ColorScriptProfile -IncludePokemon</dev:code>
         <dev:remarks>
-          <maml:para>这会将 `Show-ColorScript -IncludePokemon` （包装在保护性的 try/catch 中）附加到配置文件中，因此启动艺术可能包括 Pokémon 脚本。</maml:para>
+          <maml:para>此开关在一个兼容版本中作为无操作静默开关接受。神奇宝贝脚本已正常参与，生成的配置文件只调用 `Show-ColorScript`。</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -2528,7 +2526,7 @@ if ("Retro" -in $categories) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>扩大了评估神奇宝贝脚本的资格选择范围。它不会覆盖 `CachePolicy.psd1`；只能缓存 `CacheablePokemonScripts` 中列出的神奇宝贝名称，并且该列表当前为空。</maml:para>
+          <maml:para>已弃用的兼容性开关。由于神奇宝贝脚本与其他所有脚本遵循相同的 `CachePolicy.psd1` 规则，因此在一个版本中作为无操作静默开关接受。</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3322,6 +3320,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
           </dev:type>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>Quiet</maml:name>
           <maml:description />
           <dev:type>
@@ -3476,6 +3481,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>ReturnText</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
           <maml:description />
           <dev:type>
             <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3648,6 +3660,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
           </dev:type>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>Quiet</maml:name>
           <maml:description />
           <dev:type>
@@ -3693,7 +3712,7 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>ExcludeCategory</maml:name>
         <maml:description>
-          <maml:para>在进行选择之前，从一个或多个类别中排除脚本。例如，使用 `-ExcludeCategory Pokemon` 来避免所有神奇宝贝脚本，或指定多个类别，例如 `-ExcludeCategory Pokemon,Gaming`。适用于所有模式（随机、命名、列表、全部），并与 `-Category` 和 `-Tag` 过滤器结合使用。</maml:para>
+          <maml:para>在进行选择之前，从一个或多个类别中排除脚本。例如，使用 `-ExcludeCategory Pokemon,ShinyPokemon` 排除所有神奇宝贝脚本，或指定任何其他类别组合。适用于所有模式（随机、命名、列表、全部），并与 `-Category` 和 `-Tag` 过滤器结合使用。</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="true">System.String[]</command:parameterValue>
         <dev:type>
@@ -3712,7 +3731,7 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>选择加入标记以在选择中包含神奇宝贝彩色脚本。省略时，神奇宝贝脚本会自动过滤掉（默认）。注意：这取代了旧的 `-ExcludePokemon` 参数 - 重构反向语义，因此您现在选择显示 Pokémon 脚本而不是选择退出。</maml:para>
+          <maml:para>已弃用的兼容性开关。由于神奇宝贝和异色神奇宝贝颜色脚本已正常参与选择，因此在一个版本中作为无操作静默开关接受。使用 `-ExcludeCategory Pokemon,ShinyPokemon` 可将其排除。</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3795,6 +3814,15 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
         <maml:name>ReturnText</maml:name>
         <maml:description>
           <maml:para>将渲染的颜色脚本作为字符串发送到 PowerShell 管道，而不是直接写入控制台主机。这允许将输出捕获在变量中、重定向到文件或通过管道传输到其他命令。输出保留所有 ANSI 转义序列，因此当稍后写入兼容终端时，它将以正确的颜色显示。</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>ShowInfo</maml:name>
+        <maml:description>
+          <maml:para>渲染每个选定的颜色脚本后，向信息流写入一行简洁内容，其中包含脚本名称和完整路径。`-Quiet` 会禁止显示此行。`-ReturnText` 的输出不包含此行，`-PassThru` 则继续返回结构化元数据。</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -4071,15 +4099,23 @@ if (Test-Path $scriptPath) {
         <maml:introduction></maml:introduction>
         <dev:code>Show-ColorScript -IncludePokemon</dev:code>
         <dev:remarks>
-          <maml:para>显示随机颜色脚本，包括 `Pokemon` 类别中的脚本。当您希望将神奇宝贝艺术包含在随机选择中时很有用。</maml:para>
+          <maml:para>演示已弃用的兼容性开关。由于神奇宝贝和异色神奇宝贝脚本已正常参与选择，因此该开关在一个版本中静默且无操作。</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 22 ---------</maml:title>
         <maml:introduction></maml:introduction>
-        <dev:code>Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming</dev:code>
+        <dev:code>Show-ColorScript -Random -ExcludeCategory Pokemon,ShinyPokemon</dev:code>
         <dev:remarks>
-          <maml:para>显示随机颜色脚本，同时排除 `Pokemon` 和 `Gaming` 类别。与 `-Category` 或 `-Tag` 结合以进一步细化选择。</maml:para>
+          <maml:para>显示随机颜色脚本，同时排除两个神奇宝贝类别。与 `-Category` 或 `-Tag` 结合以进一步细化选择。</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 23 ---------</maml:title>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Random -ShowInfo</dev:code>
+        <dev:remarks>
+          <maml:para>显示随机颜色脚本，然后将其脚本名称和完整路径写入信息流。使用 `-Quiet` 可禁止显示标识行。</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>

@@ -21,8 +21,8 @@ USO BÁSICO
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Scripts de Pokémon são excluídos da seleção aleatória por padrão. Use
-    -IncludePokemon para incluí-los. Um nome solicitado diretamente continua funcionando.
+    Scripts de Pokémon e Pokémon brilhantes participam da seleção aleatória
+    por padrão. Use -ExcludeCategory Pokemon,ShinyPokemon para excluí-los.
 
 COMANDOS
     Show-ColorScript

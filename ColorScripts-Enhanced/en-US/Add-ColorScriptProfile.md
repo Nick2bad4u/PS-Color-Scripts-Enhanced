@@ -37,7 +37,7 @@ When `-ProfilePath` is omitted, the command prefers `$PROFILE.CurrentUserAllHost
 
 Existing managed or legacy ColorScripts-Enhanced blocks are replaced instead of duplicated. If the profile already imports the module outside a managed block, the command leaves it unchanged unless `-Force` is specified. `-Force` permits replacing recognized module content while preserving unrelated profile content.
 
-The generated startup behavior is resolved from explicit parameters and persisted configuration. `-AutoShow` explicitly enables display, `-DefaultStartupScript` selects a named script, and Pokémon inclusion can be supplied directly or resolved through the interactive prompt and its documented overrides. Unless `-SkipCacheBuild` is used, the command can pre-warm policy-selected cache entries after updating the profile.
+The generated startup behavior is resolved from explicit parameters and persisted configuration. `-AutoShow` explicitly enables display and `-DefaultStartupScript` selects a named script. Pokémon scripts participate normally; new managed profiles never prompt about them or emit `-IncludePokemon`. Unless `-SkipCacheBuild` is used, the command can pre-warm policy-selected cache entries after updating the profile.
 
 ## EXAMPLES
 
@@ -145,13 +145,13 @@ Add-ColorScriptProfile -SkipStartupScript
 
 ### EXAMPLE 11
 
-Automatically skip Pokémon scripts when showing startup art:
+Use the deprecated compatibility switch with an existing automation call:
 
 ```powershell
 Add-ColorScriptProfile -IncludePokemon
 ```
 
-This appends `Show-ColorScript -IncludePokemon` (wrapped in a protective try/catch) to the profile so launch art may include Pokémon scripts.
+The switch is accepted as a silent no-op for one compatibility release. Pokémon scripts already participate normally, and the generated profile calls plain `Show-ColorScript`.
 
 ## PARAMETERS
 
@@ -264,7 +264,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Add `-IncludePokemon` to the generated `Show-ColorScript` call so that Pokémon colorscripts are included on startup when present. Ignored when `-SkipStartupScript` is used.
+Deprecated compatibility switch. It is accepted as a silent no-op for one release; Pokémon colorscripts already participate normally, and generated profiles never emit this switch.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -285,9 +285,7 @@ HelpMessage: ''
 
 ### -PokemonPromptResponse
 
-Pre-answer the Pokémon inclusion prompt. Accepts Y/Yes or N/No. Also honors the environment variable
-`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` and the global variable
-`$Global:ColorScriptsEnhancedPokemonPromptResponse`.
+Deprecated compatibility parameter. It is accepted as a silent no-op for one release because profile generation no longer prompts about Pokémon.
 
 ```yaml
 Type: System.String
@@ -355,7 +353,7 @@ HelpMessage: ''
 
 ### -SkipPokemonPrompt
 
-Skip the interactive prompt that asks whether to include Pokémon colorscripts on startup.
+Deprecated compatibility switch. It is accepted as a silent no-op for one release because profile generation no longer prompts about Pokémon.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -438,7 +436,7 @@ Returns a custom object with the following properties:
 - **Path** (string): The full path to the selected profile file
 - **Changed** (bool): Whether the profile was actually modified
 - **Message** (string): A status message describing the operation result
-- **IncludePokemon** (bool): The startup Pokémon-inclusion choice
+- **IncludePokemon** (bool): Always `$true`; retained temporarily for result-object compatibility
 - **CacheBuilt** (bool): Whether the optional cache warm-up completed
 
 ## NOTES

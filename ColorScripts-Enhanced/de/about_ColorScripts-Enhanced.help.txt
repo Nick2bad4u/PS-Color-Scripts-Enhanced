@@ -21,9 +21,8 @@ GRUNDLEGENDE VERWENDUNG
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Pokemon-Skripte sind bei der Zufallsauswahl standardmaessig ausgeschlossen.
-    Mit -IncludePokemon werden sie einbezogen. Ein direkt angeforderter Name
-    funktioniert weiterhin.
+    Pokemon- und Shiny-Pokemon-Skripte nehmen standardmaessig an der
+    Zufallsauswahl teil. Mit -ExcludeCategory Pokemon,ShinyPokemon werden sie ausgeschlossen.
 
 BEFEHLE
     Show-ColorScript

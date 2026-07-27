@@ -16,7 +16,7 @@ Wanneer `-ProfilePath` wordt weggelaten, geeft de opdracht de voorkeur aan `$PRO
 
 Bestaande beheerde of verouderde ColorScripts-Enhanced-blokken worden vervangen in plaats van gedupliceerd. Als het profiel de module al buiten een beheerd blok importeert, laat de opdracht deze ongewijzigd, tenzij `-Force` wordt opgegeven. `-Force` maakt het vervangen van herkende module-inhoud mogelijk, terwijl niet-gerelateerde profielinhoud behouden blijft.
 
-Het gegenereerde opstartgedrag wordt opgelost op basis van expliciete parameters en aanhoudende configuratie. `-AutoShow` maakt weergave expliciet mogelijk, `-DefaultStartupScript` selecteert een benoemd script en de opname van Pokémon kan direct worden geleverd of opgelost via de interactieve prompt en de gedocumenteerde overschrijvingen. Tenzij `-SkipCacheBuild` wordt gebruikt, kan de opdracht door beleid geselecteerde cache-items vooraf opwarmen nadat het profiel is bijgewerkt.</maml:para>
+Het gegenereerde opstartgedrag wordt opgelost op basis van expliciete parameters en aanhoudende configuratie. `-AutoShow` maakt weergave expliciet mogelijk en `-DefaultStartupScript` selecteert een benoemd script. Pokémon-scripts doen normaal mee; nieuwe beheerde profielen vragen nooit naar Pokémon en geven `-IncludePokemon` niet uit. Tenzij `-SkipCacheBuild` wordt gebruikt, kan de opdracht door beleid geselecteerde cache-items vooraf opwarmen nadat het profiel is bijgewerkt.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -160,7 +160,7 @@ Het gegenereerde opstartgedrag wordt opgelost op basis van expliciete parameters
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>Voeg `-IncludePokemon` toe aan de gegenereerde `Show-ColorScript`-oproep, zodat Pokémon colorscripts bij het opstarten wordt opgenomen, indien aanwezig. Genegeerd wanneer `-SkipStartupScript` wordt gebruikt.</maml:para>
+          <maml:para>Verouderde compatibiliteitsschakelaar. Deze wordt één release stilzwijgend zonder effect geaccepteerd; Pokémon-colorscripts doen al normaal mee en gegenereerde profielen geven deze schakelaar nooit uit.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -169,9 +169,7 @@ Het gegenereerde opstartgedrag wordt opgelost op basis van expliciete parameters
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="2" aliases="none">
         <maml:name>PokemonPromptResponse</maml:name>
         <maml:description>
-          <maml:para>Beantwoord vooraf de vraag om Pokémon op te nemen. Accepteert J/Ja of N/Nee. Houdt ook rekening met de omgevingsvariabele
-`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` en de globale variabele
-`$Global:ColorScriptsEnhancedPokemonPromptResponse`.</maml:para>
+          <maml:para>Verouderde compatibiliteitsparameter. Deze wordt één release stilzwijgend zonder effect geaccepteerd omdat profielgeneratie niet langer naar Pokémon vraagt.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="true">System.String</command:parameterValue>
         <dev:type>
@@ -204,7 +202,7 @@ omgevingsvariabele `COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` en de globale varia
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>SkipPokemonPrompt</maml:name>
         <maml:description>
-          <maml:para>Sla de interactieve prompt over die vraagt of Pokémon colorscripts bij het opstarten moet worden toegevoegd.</maml:para>
+          <maml:para>Verouderde compatibiliteitsschakelaar. Deze wordt één release stilzwijgend zonder effect geaccepteerd omdat profielgeneratie niet langer naar Pokémon vraagt.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -250,7 +248,7 @@ omgevingsvariabele `COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` en de globale varia
 - **Path** (string): het volledige pad naar het geselecteerde profielbestand
 - **Changed** (bool): Of het profiel daadwerkelijk is gewijzigd
 - **Message** (string): een statusbericht dat het resultaat van de bewerking beschrijft
-- **IncludePokemon** (bool): de keuze voor startup-Pokémon-opname
+- **IncludePokemon** (bool): altijd `$true`; tijdelijk behouden voor compatibiliteit van het resultaatobject
 - **CacheBuilt** (bool): of de optionele cache-opwarming is voltooid</maml:para>
         </maml:description>
       </command:returnValue>
@@ -372,11 +370,11 @@ Add-ColorScriptProfile -Path ".\my-profile.ps1"</dev:code>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
         <maml:introduction>
-          <maml:para>Automatisch Pokémon-scripts overslaan bij het tonen van opstartkunst:</maml:para>
+          <maml:para>Gebruik de verouderde compatibiliteitsschakelaar in een bestaande automatiseringsoproep:</maml:para>
         </maml:introduction>
         <dev:code>Add-ColorScriptProfile -IncludePokemon</dev:code>
         <dev:remarks>
-          <maml:para>Hiermee wordt `Show-ColorScript -IncludePokemon` (verpakt in een beschermende try/catch) aan het profiel toegevoegd, zodat de lanceerkunst Pokémon-scripts kan bevatten.</maml:para>
+          <maml:para>De schakelaar wordt één compatibiliteitsrelease stilzwijgend zonder effect geaccepteerd. Pokémon-scripts doen al normaal mee en het gegenereerde profiel roept gewoon `Show-ColorScript` aan.</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -2528,7 +2526,7 @@ Voor snellere reconstructies op multi-coresystemen gebruikt u de `-Parallel`-swi
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>Verbreedt de in aanmerking komende selectie om Pokémon-scripts te evalueren. Het heeft geen voorrang op `CachePolicy.psd1`; alleen Pokémon-namen uit `CacheablePokemonScripts` kunnen in de cache worden opgeslagen, en die lijst is momenteel leeg.</maml:para>
+          <maml:para>Verouderde compatibiliteitsschakelaar. Deze wordt één release stilzwijgend zonder effect geaccepteerd omdat Pokémon-scripts dezelfde regels in `CachePolicy.psd1` volgen als alle andere scripts.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3320,6 +3318,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
           </dev:type>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>Quiet</maml:name>
           <maml:description />
           <dev:type>
@@ -3474,6 +3479,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>ReturnText</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
           <maml:description />
           <dev:type>
             <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3646,6 +3658,13 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
           </dev:type>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>ShowInfo</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>Quiet</maml:name>
           <maml:description />
           <dev:type>
@@ -3691,7 +3710,7 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>ExcludeCategory</maml:name>
         <maml:description>
-          <maml:para>Sluit scripts uit een of meer categorieën uit voordat selectie plaatsvindt. Gebruik bijvoorbeeld `-ExcludeCategory Pokemon` om alle Pokémon-scripts te vermijden, of geef meerdere categorieën op, zoals `-ExcludeCategory Pokemon,Gaming`. Werkt in alle modi (willekeurig, benoemd, lijst, alles) en combineert met `-Category`- en `-Tag`-filters.</maml:para>
+          <maml:para>Sluit scripts uit een of meer categorieën uit voordat selectie plaatsvindt. Gebruik bijvoorbeeld `-ExcludeCategory Pokemon,ShinyPokemon` om alle Pokémon-scripts te vermijden, of geef een andere combinatie van categorieën op. Werkt in alle modi (willekeurig, benoemd, lijst, alles) en combineert met `-Category`- en `-Tag`-filters.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="true">System.String[]</command:parameterValue>
         <dev:type>
@@ -3710,7 +3729,7 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>Opt-in vlag om Pokémon colorscripts in de selectie op te nemen. Als je dit weglaat, worden Pokémon-scripts automatisch uitgefilterd (standaard). Let op: dit vervangt de oudere parameter `-ExcludePokemon` – de omgekeerde semantiek wordt gerefactoreerd, zodat je je nu kunt aanmelden voor het weergeven van Pokémon-scripts in plaats van je af te melden.</maml:para>
+          <maml:para>Verouderde compatibiliteitsschakelaar. Deze wordt één release stilzwijgend zonder effect geaccepteerd omdat Pokémon- en shiny-Pokémon-colorscripts al normaal aan de selectie deelnemen. Gebruik `-ExcludeCategory Pokemon,ShinyPokemon` om ze uit te sluiten.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -3793,6 +3812,15 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
         <maml:name>ReturnText</maml:name>
         <maml:description>
           <maml:para>Zend de gerenderde colorscript uit als een string naar de PowerShell-pijplijn in plaats van rechtstreeks naar de consolehost te schrijven. Hierdoor kan de uitvoer worden vastgelegd in een variabele, worden omgeleid naar een bestand of worden doorgesluisd naar andere opdrachten. De uitvoer behoudt alle ANSI-escape-reeksen, zodat deze met de juiste kleuren wordt weergegeven wanneer deze later naar een compatibele terminal wordt geschreven.</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>ShowInfo</maml:name>
+        <maml:description>
+          <maml:para>Schrijft na het renderen van elk geselecteerd colorscript één beknopte regel naar de informatiestroom met de scriptnaam en het volledige pad. `-Quiet` onderdrukt deze regel. `-ReturnText` bevat deze niet en `-PassThru` blijft gestructureerde metagegevens retourneren.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>System.Management.Automation.SwitchParameter</maml:name>
@@ -4069,15 +4097,23 @@ if (Test-Path $scriptPath) {
         <maml:introduction></maml:introduction>
         <dev:code>Show-ColorScript -IncludePokemon</dev:code>
         <dev:remarks>
-          <maml:para>Geeft een willekeurige colorscript weer, inclusief scripts in de categorie `Pokemon`. Handig als je Pokémon-kunst in je willekeurige selectie wilt opnemen.</maml:para>
+          <maml:para>Toont de verouderde compatibiliteitsschakelaar. Deze is één release stil en zonder effect omdat Pokémon- en shiny-Pokémon-scripts al normaal aan de selectie deelnemen.</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 22 ---------</maml:title>
         <maml:introduction></maml:introduction>
-        <dev:code>Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming</dev:code>
+        <dev:code>Show-ColorScript -Random -ExcludeCategory Pokemon,ShinyPokemon</dev:code>
         <dev:remarks>
-          <maml:para>Geeft een willekeurige colorscript weer, maar sluit zowel de categorieën `Pokemon` als `Gaming` uit. Combineer met `-Category` of `-Tag` om de selectie verder te verfijnen.</maml:para>
+          <maml:para>Geeft een willekeurige colorscript weer, maar sluit beide Pokémon-categorieën uit. Combineer met `-Category` of `-Tag` om de selectie verder te verfijnen.</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 23 ---------</maml:title>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Random -ShowInfo</dev:code>
+        <dev:remarks>
+          <maml:para>Geeft een willekeurig colorscript weer en schrijft vervolgens de scriptnaam en het volledige pad naar de informatiestroom. Gebruik `-Quiet` om de identificatieregel te onderdrukken.</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>

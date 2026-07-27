@@ -21,9 +21,8 @@ BASISGEBRUIK
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Pokémon-scripts worden standaard uitgesloten van willekeurige selectie.
-    Gebruik -IncludePokemon om ze toe te voegen. Een rechtstreeks opgevraagde
-    Pokémon-naam blijft werken.
+    Pokémon- en shiny-Pokémon-scripts doen standaard mee aan willekeurige
+    selectie. Gebruik -ExcludeCategory Pokemon,ShinyPokemon om ze uit te sluiten.
 
 OPDRACHTEN
     Show-ColorScript

@@ -20,8 +20,8 @@
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    默认随机选择不包含 Pokemon 脚本。使用 -IncludePokemon 可包含它们。直接指定
-    Pokemon 脚本名时仍可正常使用。
+    默认随机选择包括 Pokemon 和 ShinyPokemon 脚本。使用
+    -ExcludeCategory Pokemon,ShinyPokemon 可将其排除。
 
 命令
     Show-ColorScript

@@ -37,7 +37,7 @@ Add-ColorScriptProfile [[-ProfilePath] <string>] [[-DefaultStartupScript] <strin
 
 现有的托管或旧版 ColorScripts-Enhanced 块将被替换而不是重复。如果配置文件已导入托管块外部的模块，则该命令将使其保持不变，除非指定 `-Force`。 `-Force` 允许替换已识别的模块内容，同时保留不相关的配置文件内容。
 
-生成的启动行为是通过显式参数和持久配置解析的。 `-AutoShow` 明确启用显示，`-DefaultStartupScript` 选择命名脚本，并且可以直接提供神奇宝贝包含或通过交互式提示及其记录的覆盖来解决。除非使用 `-SkipCacheBuild`，否则该命令可以在更新配置文件后预热策略选择的缓存条目。
+生成的启动行为是通过显式参数和持久配置解析的。`-AutoShow` 明确启用显示，`-DefaultStartupScript` 选择命名脚本。神奇宝贝脚本正常参与；新的托管配置文件不会询问神奇宝贝，也不会输出 `-IncludePokemon`。除非使用 `-SkipCacheBuild`，否则该命令可以在更新配置文件后预热策略选择的缓存条目。
 
 ## EXAMPLES
 
@@ -145,13 +145,13 @@ Add-ColorScriptProfile -SkipStartupScript
 
 ### EXAMPLE 11
 
-显示启动艺术时自动跳过神奇宝贝脚本：
+在现有自动化调用中使用已弃用的兼容性开关：
 
 ```powershell
 Add-ColorScriptProfile -IncludePokemon
 ```
 
-这会将 `Show-ColorScript -IncludePokemon` （包装在保护性的 try/catch 中）附加到配置文件中，因此启动艺术可能包括 Pokémon 脚本。
+此开关在一个兼容版本中作为无操作静默开关接受。神奇宝贝脚本已正常参与，生成的配置文件只调用 `Show-ColorScript`。
 
 ## PARAMETERS
 
@@ -264,7 +264,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-将 `-IncludePokemon` 添加到生成的 `Show-ColorScript` 调用中，以便在启动时包含 Pokémon 颜色脚本（如果存在）。使用 `-SkipStartupScript` 时被忽略。
+已弃用的兼容性开关。在一个版本中作为无操作静默开关接受；神奇宝贝颜色脚本已正常参与，生成的配置文件不会输出此开关。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -285,9 +285,7 @@ HelpMessage: ''
 
 ### -PokemonPromptResponse
 
-预先回答神奇宝贝包含提示。接受 Y/是或 N/否。还尊重环境变量
-`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` 和全局变量
-`$Global:ColorScriptsEnhancedPokemonPromptResponse`。
+已弃用的兼容性参数。由于配置文件生成不再询问神奇宝贝，因此在一个版本中作为无操作静默参数接受。
 
 ```yaml
 Type: System.String
@@ -355,7 +353,7 @@ HelpMessage: ''
 
 ### -SkipPokemonPrompt
 
-跳过启动时询问是否包含 Pokémon 颜色脚本的交互式提示。
+已弃用的兼容性开关。由于配置文件生成不再询问神奇宝贝，因此在一个版本中作为无操作静默开关接受。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -438,7 +436,7 @@ HelpMessage: ''
 - **Path**（字符串）：所选配置文件的完整路径
 - **Changed** (bool)：配置文件是否实际被修改
 - **Message**（字符串）：描述操作结果的状态消息
-- **IncludePokemon** (bool)：启动 Pokémon 包含选项
+- **IncludePokemon** (bool)：始终为 `$true`；暂时保留以兼容结果对象
 - **CacheBuilt** (bool): 可选的缓存预热是否完成
 
 ## NOTES
