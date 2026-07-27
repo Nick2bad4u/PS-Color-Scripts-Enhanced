@@ -12,6 +12,7 @@ const {
     documentCuration,
     extractPowerShellPayload,
     findPolicyTerms,
+    isSourceFidelityLocked,
     parseArguments,
     removeFlaggedText,
     removeTrailingBlankRows,
@@ -38,8 +39,16 @@ test("findPolicyTerms detects plain and separator-obfuscated terms", () => {
     assert.deepEqual(findPolicyTerms("this is shit").terms, ["shit"]);
     assert.deepEqual(findPolicyTerms("f.u.c.k").terms, ["fuck"]);
     assert.deepEqual(findPolicyTerms("damn n.a.z.i naked"), {
-        categories: ["hate", "profanity", "sexual"],
-        terms: ["damn", "naked", "nazi"],
+        categories: [
+            "hate",
+            "profanity",
+            "sexual",
+        ],
+        terms: [
+            "damn",
+            "naked",
+            "nazi",
+        ],
     });
     assert.deepEqual(findPolicyTerms("a grape illustration").terms, []);
     assert.deepEqual(findPolicyTerms("g r a p e").terms, []);
@@ -62,8 +71,7 @@ test("extractPowerShellPayload decodes apostrophes in safe literals", () => {
 });
 
 test("auditSource counts trailing rendered-blank rows including ANSI spaces", () => {
-    const source =
-        "Write-Host '\nART\n\u001b[41m   \u001b[0m\n\u001b[0m\n'";
+    const source = "Write-Host '\nART\n\u001b[41m   \u001b[0m\n\u001b[0m\n'";
     const audit = auditSource(source);
 
     assert.equal(audit.trailingBlankRows, 3);
@@ -74,10 +82,7 @@ test("blankTextRow preserves ANSI controls, geometry, and art glyphs", () => {
     const input = "\u001b[31m░ Hello, world! ▓\u001b[0m";
     const output = blankTextRow(input);
 
-    assert.equal(
-        output,
-        "\u001b[31m░               ▓\u001b[0m"
-    );
+    assert.equal(output, "\u001b[31m░               ▓\u001b[0m");
     assert.equal(
         stripAnsiControls(output).length,
         stripAnsiControls(input).length
@@ -113,6 +118,27 @@ test("documentCuration replaces only an existing modification notice", () => {
     assert.match(documented, /removes trailing rendered-blank rows/u);
     assert.doesNotMatch(documented, /old claim/u);
     assert.equal(undocumented, "Write-Host 'ART'");
+});
+
+test("source-fidelity locks are explicit and exact", () => {
+    assert.equal(
+        isSourceFidelityLocked(
+            "# Source Conversion Mode: Passthrough\nWrite-Host 'ART'"
+        ),
+        true
+    );
+    assert.equal(
+        isSourceFidelityLocked(
+            "# Source Conversion Mode: TerminalEmulation\nWrite-Host 'ART'"
+        ),
+        false
+    );
+    assert.equal(
+        isSourceFidelityLocked(
+            "# Source Modification: preserved byte-for-byte\nWrite-Host 'ART'"
+        ),
+        false
+    );
 });
 
 test("removeTrailingBlankRows preserves layout and moves a final reset", () => {
@@ -179,12 +205,7 @@ test("content curation checkpoint matches the retained gallery state", () => {
     );
     const scriptCount = fs
         .readdirSync(
-            path.resolve(
-                __dirname,
-                "..",
-                "ColorScripts-Enhanced",
-                "Scripts"
-            ),
+            path.resolve(__dirname, "..", "ColorScripts-Enhanced", "Scripts"),
             { withFileTypes: true }
         )
         .filter(
@@ -207,13 +228,23 @@ test("content curation checkpoint matches the retained gallery state", () => {
         checkpoint.archiveState.emitted16colorsScripts,
         archiveCheckpoint.sixteenColors.totals.emittedScriptCount
     );
+    assert.equal(checkpoint.scope.sourceFidelityLockedScripts, 21);
     assert.equal(checkpoint.removals.incompleteSourceWorks.length, 12);
+    assert.equal(checkpoint.removals.postCurationDuplicateScripts, 17);
+    assert.equal(checkpoint.removals.postCurationDuplicateWorks.length, 17);
+    assert.equal(
+        checkpoint.removals.allBlankScripts +
+            checkpoint.removals.lowQualityScripts +
+            checkpoint.removals.incompleteSourceScripts +
+            checkpoint.removals.postCurationDuplicateScripts,
+        checkpoint.scope.removedScripts
+    );
     assert.ok(
         Object.values(checkpoint.finalAudit).every((count) => count === 0)
     );
     assert.ok(
-        Object.values(
-            checkpoint.finalFreshContentOrIntegrityFindings
-        ).every((count) => count === 0)
+        Object.values(checkpoint.finalFreshContentOrIntegrityFindings).every(
+            (count) => count === 0
+        )
     );
 });

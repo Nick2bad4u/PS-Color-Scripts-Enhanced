@@ -5,6 +5,9 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const { spawnSync } = require("node:child_process");
+const {
+    convertAnsiToPs1,
+} = require("./Convert-AnsiToColorScript.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
 const DEFAULT_SCRIPTS_DIRECTORY = path.join(
@@ -24,8 +27,20 @@ const ART_GLYPH_SINGLE_PATTERN =
     /^[\u2190-\u21FF\u2300-\u23FF\u2500-\u259F\u25A0-\u25FF\u2800-\u28FF]$/u;
 const NONSPACE_PATTERN = /\S/gu;
 const RESET_SEQUENCE = "\u001b[0m";
+const CONTACT_CONTEXT_PATTERN =
+    /\b(?:bbs|board|call|contact|data|dial|fax|host|line|node|number|nup|pager|phone|sysop|tel|telephone|vmb|voice)\b/iu;
+const CONTACT_FALSE_POSITIVE_CONTEXT_PATTERN =
+    /\b(?:anniversary|baud|birthday|bps|date|kbps|open|version|v\d{2}(?:bis)?)\b/iu;
+const EMAIL_PATTERN =
+    /[\p{L}\p{N}._%+-]+@[\p{L}\p{N}.-]+\.[\p{L}]{2,}/giu;
+const NETWORK_ENDPOINT_PATTERN =
+    /\b(?:(?:https?|ftp|telnet):\/\/|www\.)[^\s]+|\b(?:bbs|telnet)\.[\p{L}\p{N}.-]+\.[\p{L}]{2,}\b/giu;
+const PHONE_CANDIDATE_PATTERN =
+    /(?<![\p{L}\p{N}])(?:\+|00|011)?[\dOoIiLl([][\dOoIiLl\s()[\]./·■-]{5,}[\dOoIiLl)](?![\p{L}\p{N}])/giu;
+const SOURCE_FIDELITY_LOCK_PATTERN =
+    /^# Source Conversion Mode:\s*Passthrough\s*$/imu;
 const CURATION_MODIFICATION_NOTICE =
-    "# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.";
+    "# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.";
 
 const POLICY_TERMS = Object.freeze({
     hate: Object.freeze([
@@ -145,6 +160,8 @@ const POLICY_MATCHERS = Object.freeze(
  * @property {number} letterCount
  * @property {number} letterRatio
  * @property {number} nonspaceCount
+ * @property {string[]} contactCategories
+ * @property {string[]} contactValues
  * @property {string[]} policyCategories
  * @property {string[]} policyTerms
  * @property {boolean} textOnlyCandidate
@@ -171,6 +188,193 @@ function stripAnsiControls(value) {
  */
 function countMatches(value, pattern) {
     return [...value.matchAll(pattern)].length;
+}
+
+/**
+ * @param {unknown} cell
+ * @returns {boolean}
+ */
+function isVisibleTerminalCell(cell) {
+    if (!cell || typeof cell !== "object") return false;
+    const value =
+        /**
+         * @type {{
+         *     char?: string;
+         *     attrs?: {
+         *         bg?: unknown;
+         *         hidden?: boolean;
+         *         inverse?: boolean;
+         *     };
+         * }}
+         */ (cell);
+    const attributes = value.attrs || {};
+    return (
+        Boolean(attributes.inverse) ||
+        Boolean(attributes.bg) ||
+        (!attributes.hidden && Boolean(value.char) && value.char !== " ")
+    );
+}
+
+/**
+ * Render logical rows through the same terminal emulator used by the converter.
+ * This is deliberately more expensive than stripping escape sequences: a row
+ * of spaces with a background color is visible artwork, not a blank row.
+ *
+ * @param {string[]} rows
+ * @returns {boolean[]}
+ */
+function getRenderedBlankRows(rows) {
+    if (rows.length === 0) return [];
+    const { terminal } = convertAnsiToPs1(rows.join("\r\n"), {
+        autoWrap: false,
+        columns: 2048,
+        stripSpaceBackground: false,
+    });
+    return rows.map((unusedRow, rowIndex) => {
+        const row = terminal.rows.get(rowIndex);
+        if (!row) return true;
+        return ![...row.cells.values()].some(isVisibleTerminalCell);
+    });
+}
+
+/**
+ * @param {boolean[]} blankRows
+ * @returns {{
+ *     count: number;
+ *     endRow: number;
+ *     kind: "internal" | "leading" | "trailing";
+ *     startRow: number;
+ * }[]}
+ */
+function findBlankRuns(blankRows) {
+    const runs = [];
+    let runStart = null;
+    for (let index = 0; index <= blankRows.length; index += 1) {
+        if (blankRows[index] && runStart === null) {
+            runStart = index;
+        }
+        if (!blankRows[index] && runStart !== null) {
+            runs.push({
+                count: index - runStart,
+                endRow: index,
+                kind:
+                    runStart === 0
+                        ? "leading"
+                        : index === blankRows.length
+                          ? "trailing"
+                          : "internal",
+                startRow: runStart + 1,
+            });
+            runStart = null;
+        }
+    }
+    return runs;
+}
+
+/**
+ * @param {string} value
+ * @returns {string}
+ */
+function normalizePhoneDigits(value) {
+    return value
+        .replace(/[Oo]/gu, "0")
+        .replace(/[IiLl]/gu, "1")
+        .replace(/\D/gu, "");
+}
+
+/**
+ * @param {string} candidate
+ * @param {string} visible
+ * @returns {boolean}
+ */
+function isHighConfidencePhone(candidate, visible) {
+    const digits = normalizePhoneDigits(candidate);
+    if (digits.length < 7 || digits.length > 16) return false;
+    const counts = new Map();
+    for (const digit of digits) {
+        counts.set(digit, (counts.get(digit) || 0) + 1);
+    }
+    if (Math.max(...counts.values()) / digits.length >= 0.75) {
+        return false;
+    }
+
+    const hasContactContext = CONTACT_CONTEXT_PATTERN.test(visible);
+    if (
+        CONTACT_FALSE_POSITIVE_CONTEXT_PATTERN.test(visible) &&
+        !hasContactContext
+    ) {
+        return false;
+    }
+    if (
+        /\b(?:19|20)\d{2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{1,2}\b/u.test(
+            candidate
+        ) ||
+        /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*(?:19|20)\d{2}\b/u.test(
+            candidate
+        )
+    ) {
+        return false;
+    }
+
+    const normalizedShape = candidate
+        .replace(/[Oo]/gu, "0")
+        .replace(/[IiLl]/gu, "1")
+        .trim();
+    const groups = normalizedShape.split(/\D+/gu).filter(Boolean);
+    const hasInternationalPrefix = /^(?:\+|00|011)/u.test(normalizedShape);
+    const hasParenthesizedAreaCode = /\(\s*\d{2,4}\s*\)/u.test(
+        normalizedShape
+    );
+    const hasConventionalGroups =
+        groups.length >= 2 &&
+        groups.at(-1).length === 4 &&
+        (groups.some((group) => group.length === 3) ||
+            groups.filter((group) => group.length === 1).length >= 7);
+
+    return (
+        hasContactContext ||
+        hasInternationalPrefix ||
+        hasParenthesizedAreaCode ||
+        hasConventionalGroups
+    );
+}
+
+/**
+ * @param {string} visible
+ * @returns {{ categories: string[]; values: string[] }}
+ */
+function findContactDetails(visible) {
+    const categories = new Set();
+    const values = new Set();
+    for (const match of visible.matchAll(EMAIL_PATTERN)) {
+        categories.add("email");
+        values.add(match[0]);
+    }
+    for (const match of visible.matchAll(NETWORK_ENDPOINT_PATTERN)) {
+        categories.add("network-endpoint");
+        values.add(match[0]);
+    }
+    for (const match of visible.matchAll(PHONE_CANDIDATE_PATTERN)) {
+        if (!isHighConfidencePhone(match[0], visible)) continue;
+        categories.add("phone");
+        values.add(match[0].trim());
+    }
+    return {
+        categories: [...categories].sort(),
+        values: [...values].sort(),
+    };
+}
+
+/**
+ * Passthrough scripts promise that the PowerShell literal is byte-identical to
+ * the decoded source stream. Content curation must not rewrite their payload,
+ * trailing line endings, or provenance claim.
+ *
+ * @param {string} source
+ * @returns {boolean}
+ */
+function isSourceFidelityLocked(source) {
+    return SOURCE_FIDELITY_LOCK_PATTERN.test(source);
 }
 
 /**
@@ -246,9 +450,12 @@ function analyzeRow(rawRow) {
             letterRatio >= 0.45 &&
             artGlyphRatio <= 0.25);
     const policy = findPolicyTerms(visible);
+    const contact = findContactDetails(visible);
 
     return {
         artGlyphCount,
+        contactCategories: contact.categories,
+        contactValues: contact.values,
         digitCount,
         highConfidenceTextOnly,
         letterCount,
@@ -319,6 +526,152 @@ function extractPowerShellPayload(source) {
  */
 function serializePayload(value, kind) {
     return kind === "literal" ? value.replaceAll("'", "''") : value;
+}
+
+/**
+ * @param {string} source
+ * @param {PowerShellPayload} payload
+ * @param {string[]} rows
+ * @returns {string}
+ */
+function replacePayloadRows(source, payload, rows) {
+    const lineEnding = source.includes("\r\n") ? "\r\n" : "\n";
+    const serialized = serializePayload(rows.join(lineEnding), payload.kind);
+    return (
+        source.slice(0, payload.contentStart) +
+        serialized +
+        source.slice(payload.contentEnd)
+    );
+}
+
+/**
+ * Remove logical rows while carrying their terminal controls forward. Generated
+ * archival payloads contain SGR controls; discarding a reset or style change
+ * together with a blank row can recolor the following artwork.
+ *
+ * @param {string[]} rows
+ * @param {Set<number>} indexes Zero-based row indexes.
+ * @returns {string[]}
+ */
+function removeRowsPreservingControls(rows, indexes) {
+    const kept = [];
+    let pendingControls = "";
+    for (const [index, originalRow] of rows.entries()) {
+        if (indexes.has(index)) {
+            pendingControls += [...originalRow.matchAll(ANSI_CONTROL_PATTERN)]
+                .map((match) => match[0])
+                .join("");
+            continue;
+        }
+        const row = pendingControls + originalRow;
+        pendingControls = "";
+        kept.push(row);
+    }
+    if (pendingControls && kept.length > 0) {
+        kept[kept.length - 1] += pendingControls;
+    }
+    return kept;
+}
+
+/**
+ * Apply exact, human-reviewed payload-row redactions. Evidence text is checked
+ * before any write so stale row numbers fail closed.
+ *
+ * @param {string} source
+ * @param {{ row: number; text: string }[]} evidence
+ * @returns {{
+ *     blankedRows: number;
+ *     changed: boolean;
+ *     source: string;
+ * }}
+ */
+function applyReviewedRows(source, evidence) {
+    const payload = extractPowerShellPayload(source);
+    const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
+    const rowIndexes = new Set();
+
+    for (const item of evidence) {
+        if (
+            !item ||
+            !Number.isInteger(item.row) ||
+            item.row < 1 ||
+            item.row > rows.length ||
+            typeof item.text !== "string"
+        ) {
+            throw new RangeError("Reviewed row evidence is malformed.");
+        }
+        const rowIndex = item.row - 1;
+        const visible = stripAnsiControls(rows[rowIndex]);
+        if (visible.trim() !== item.text.trim()) {
+            throw new Error(
+                `Reviewed row ${item.row} is stale: rendered text no longer matches.`
+            );
+        }
+        rowIndexes.add(rowIndex);
+    }
+
+    if (rowIndexes.size === 0) {
+        return { blankedRows: 0, changed: false, source };
+    }
+    const updatedRows = rows.map((row, index) =>
+        rowIndexes.has(index) ? blankTextRow(row) : row
+    );
+    const updatedSource = documentCuration(
+        replacePayloadRows(source, payload, updatedRows)
+    );
+    return {
+        blankedRows: rowIndexes.size,
+        changed: updatedSource !== source,
+        source: updatedSource,
+    };
+}
+
+/**
+ * Delete rows that are blank now but rendered visible in the pre-curation
+ * baseline. This repairs blank holes introduced by row-level redaction without
+ * collapsing source-authored negative space.
+ *
+ * @param {string} source
+ * @param {string} baselineSource
+ * @returns {{
+ *     changed: boolean;
+ *     removedRows: number;
+ *     source: string;
+ * }}
+ */
+function compactBlankRowsIntroducedSince(source, baselineSource) {
+    const payload = extractPowerShellPayload(source);
+    const baselinePayload = extractPowerShellPayload(baselineSource);
+    const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
+    const baselineRows = baselinePayload.value
+        .replace(/\r\n?/gu, "\n")
+        .split("\n");
+    const currentBlankRows = getRenderedBlankRows(rows);
+    const baselineBlankRows = getRenderedBlankRows(baselineRows);
+    const indexes = new Set();
+
+    for (
+        let index = 0;
+        index < rows.length && index < baselineRows.length;
+        index += 1
+    ) {
+        if (currentBlankRows[index] && !baselineBlankRows[index]) {
+            indexes.add(index);
+        }
+    }
+    if (indexes.size === 0) {
+        return { changed: false, removedRows: 0, source };
+    }
+
+    const compactedRows = removeRowsPreservingControls(rows, indexes);
+    const updatedSource = documentCuration(
+        replacePayloadRows(source, payload, compactedRows)
+    );
+    return {
+        changed: updatedSource !== source,
+        removedRows: indexes.size,
+        source: updatedSource,
+    };
 }
 
 /**
@@ -441,14 +794,11 @@ function documentCuration(source) {
  */
 function removeTrailingBlankRows(source) {
     const payload = extractPowerShellPayload(source);
-    const lineEnding = source.includes("\r\n") ? "\r\n" : "\n";
     const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
+    const blankRows = getRenderedBlankRows(rows);
     let lastContentIndex = rows.length - 1;
 
-    while (
-        lastContentIndex >= 0 &&
-        stripAnsiControls(rows[lastContentIndex]).trim().length === 0
-    ) {
+    while (lastContentIndex >= 0 && blankRows[lastContentIndex]) {
         lastContentIndex -= 1;
     }
 
@@ -469,20 +819,19 @@ function removeTrailingBlankRows(source) {
         keptRows[keptRows.length - 1] += RESET_SEQUENCE;
     }
 
-    const serialized = serializePayload(keptRows.join(lineEnding), payload.kind);
     return {
         changed: true,
         removedRows,
-        source:
-            source.slice(0, payload.contentStart) +
-            serialized +
-            source.slice(payload.contentEnd),
+        source: replacePayloadRows(source, payload, keptRows),
     };
 }
 
 /**
  * @param {string} source
  * @returns {{
+ *     contactRows: object[];
+ *     internalBlankRuns: object[];
+ *     leadingBlankRows: number;
  *     rowCount: number;
  *     policyRows: object[];
  *     textRows: object[];
@@ -493,17 +842,18 @@ function auditSource(source) {
     const payload = extractPowerShellPayload(source);
     const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
     const analyses = rows.map((row) => analyzeRow(row));
-    let trailingBlankRows = 0;
-
-    for (let index = analyses.length - 1; index >= 0; index -= 1) {
-        if (analyses[index].visible.trim().length > 0) {
-            break;
-        }
-        trailingBlankRows += 1;
-    }
+    const blankRuns = findBlankRuns(getRenderedBlankRows(rows));
+    const leadingBlankRows =
+        blankRuns.find((run) => run.kind === "leading")?.count || 0;
+    const trailingBlankRows =
+        blankRuns.find((run) => run.kind === "trailing")?.count || 0;
+    const internalBlankRuns = blankRuns.filter(
+        (run) => run.kind === "internal"
+    );
 
     const textRows = [];
     const policyRows = [];
+    const contactRows = [];
     for (const [index, analysis] of analyses.entries()) {
         const reportRow = {
             artGlyphCount: analysis.artGlyphCount,
@@ -524,9 +874,19 @@ function auditSource(source) {
                 terms: analysis.policyTerms,
             });
         }
+        if (analysis.contactValues.length > 0) {
+            contactRows.push({
+                ...reportRow,
+                categories: analysis.contactCategories,
+                values: analysis.contactValues,
+            });
+        }
     }
 
     return {
+        contactRows,
+        internalBlankRuns,
+        leadingBlankRows,
         policyRows,
         rowCount: rows.length,
         textRows,
@@ -702,6 +1062,7 @@ function main(arguments_ = process.argv.slice(2)) {
     let blankedTextRows = 0;
     let documentedFiles = 0;
     let removedTrailingRows = 0;
+    let skippedSourceFidelityFiles = 0;
 
     for (const file of files) {
         try {
@@ -712,6 +1073,10 @@ function main(arguments_ = process.argv.slice(2)) {
                 );
             }
             let source = fs.readFileSync(file, "utf8");
+            if (isSourceFidelityLocked(source)) {
+                skippedSourceFidelityFiles += 1;
+                continue;
+            }
             const audit = auditSource(source);
             if (
                 options.fixText &&
@@ -759,6 +1124,9 @@ function main(arguments_ = process.argv.slice(2)) {
                     ? auditSource(source)
                     : postTextAudit;
             if (
+                finalAudit.contactRows.length > 0 ||
+                finalAudit.internalBlankRuns.some((run) => run.count >= 3) ||
+                finalAudit.leadingBlankRows >= 3 ||
                 finalAudit.trailingBlankRows > 0 ||
                 finalAudit.textRows.length > 0 ||
                 finalAudit.policyRows.length > 0
@@ -792,7 +1160,20 @@ function main(arguments_ = process.argv.slice(2)) {
         summary: {
             failedFiles: failures.length,
             blankedTextRows,
+            contactRows: records.reduce(
+                (total, record) => total + record.contactRows.length,
+                0
+            ),
             documentedFiles,
+            filesWithContactRows: records.filter(
+                (record) => record.contactRows.length > 0
+            ).length,
+            filesWithInternalBlankRuns: records.filter((record) =>
+                record.internalBlankRuns.some((run) => run.count >= 3)
+            ).length,
+            filesWithLeadingBlankRows: records.filter(
+                (record) => record.leadingBlankRows >= 3
+            ).length,
             filesWithPolicyRows: records.filter(
                 (record) => record.policyRows.length > 0
             ).length,
@@ -803,11 +1184,28 @@ function main(arguments_ = process.argv.slice(2)) {
                 (record) => record.trailingBlankRows > 0
             ).length,
             fixedFiles,
+            internalBlankRuns: records.reduce(
+                (total, record) =>
+                    total +
+                    record.internalBlankRuns.filter(
+                        (run) => run.count >= 3
+                    ).length,
+                0
+            ),
+            leadingBlankRows: records.reduce(
+                (total, record) =>
+                    total +
+                    (record.leadingBlankRows >= 3
+                        ? record.leadingBlankRows
+                        : 0),
+                0
+            ),
             policyRows: records.reduce(
                 (total, record) => total + record.policyRows.length,
                 0
             ),
             removedTrailingRows,
+            skippedSourceFidelityFiles,
             textFixedFiles,
             textRows: records.reduce(
                 (total, record) => total + record.textRows.length,
@@ -841,14 +1239,22 @@ if (require.main === module) {
 
 module.exports = {
     analyzeRow,
+    applyReviewedRows,
     auditSource,
     blankTextRow,
+    compactBlankRowsIntroducedSince,
     documentCuration,
     extractPowerShellPayload,
+    findBlankRuns,
+    findContactDetails,
     findPolicyTerms,
     getAddedFiles,
+    getRenderedBlankRows,
     getWorkingTreeFiles,
+    isSourceFidelityLocked,
+    isHighConfidencePhone,
     parseArguments,
+    removeRowsPreservingControls,
     removeFlaggedText,
     removeTrailingBlankRows,
     serializePayload,

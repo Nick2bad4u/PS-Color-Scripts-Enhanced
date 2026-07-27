@@ -1,0 +1,371 @@
+#!/usr/bin/env node
+"use strict";
+// @ts-check
+
+const fs = require("node:fs");
+const path = require("node:path");
+const {
+    applyReviewedRows,
+    compactBlankRowsIntroducedSince,
+    documentCuration,
+    extractPowerShellPayload,
+    isSourceFidelityLocked,
+    removeTrailingBlankRows,
+    stripAnsiControls,
+} = require("./Audit-ColorScriptContent.js");
+
+const REPOSITORY_ROOT = path.resolve(__dirname, "..");
+const DEFAULT_SCRIPTS_DIRECTORY = path.join(
+    REPOSITORY_ROOT,
+    "ColorScripts-Enhanced",
+    "Scripts"
+);
+const MAX_SOURCE_BYTES = 16 * 1024 * 1024;
+
+/**
+ * @param {string} fileName
+ * @returns {void}
+ */
+function assertSafeFileName(fileName) {
+    if (
+        path.basename(fileName) !== fileName ||
+        !/^[\w().!+&[\]#%@,' -]+\.ps1$/iu.test(fileName)
+    ) {
+        throw new Error(`Unsafe reviewed script filename: ${fileName}`);
+    }
+}
+
+/**
+ * @param {string} targetPath
+ * @param {string} content
+ * @returns {void}
+ */
+function writeFileAtomic(targetPath, content) {
+    const temporaryPath = `${targetPath}.${process.pid}.tmp`;
+    fs.writeFileSync(temporaryPath, content, "utf8");
+    fs.renameSync(temporaryPath, targetPath);
+}
+
+/**
+ * @param {string} filePath
+ * @returns {string}
+ */
+function readBoundedSource(filePath) {
+    const stat = fs.statSync(filePath);
+    if (stat.size > MAX_SOURCE_BYTES) {
+        throw new RangeError(
+            `${filePath}: source exceeds the ${MAX_SOURCE_BYTES}-byte limit.`
+        );
+    }
+    return fs.readFileSync(filePath, "utf8");
+}
+
+/**
+ * @param {string} source
+ * @param {string} baselineSource
+ * @returns {boolean}
+ */
+function mayContainNewBlankRows(source, baselineSource) {
+    const currentRows = extractPowerShellPayload(source).value
+        .replace(/\r\n?/gu, "\n")
+        .split("\n");
+    const baselineRows = extractPowerShellPayload(baselineSource).value
+        .replace(/\r\n?/gu, "\n")
+        .split("\n");
+    const limit = Math.min(currentRows.length, baselineRows.length);
+    for (let index = 0; index < limit; index += 1) {
+        if (
+            stripAnsiControls(currentRows[index]).trim().length === 0 &&
+            stripAnsiControls(baselineRows[index]).trim().length > 0
+        ) {
+            return true;
+        }
+    }
+    return false;
+}
+
+/**
+ * @param {string} reviewPath
+ * @returns {Map<string, { row: number; text: string }[]>}
+ */
+function loadReview(reviewPath) {
+    const document = JSON.parse(fs.readFileSync(reviewPath, "utf8"));
+    if (!Array.isArray(document.candidates)) {
+        throw new Error("Reviewed content report lacks a candidates array.");
+    }
+    const result = new Map();
+    for (const candidate of document.candidates) {
+        if (
+            !candidate ||
+            typeof candidate.file !== "string" ||
+            !Array.isArray(candidate.evidence)
+        ) {
+            throw new Error("Reviewed content candidate is malformed.");
+        }
+        assertSafeFileName(candidate.file);
+        if (result.has(candidate.file)) {
+            throw new Error(
+                `Reviewed content report repeats ${candidate.file}.`
+            );
+        }
+        const rows = new Map();
+        for (const evidence of candidate.evidence) {
+            if (
+                !evidence ||
+                !Number.isInteger(evidence.row) ||
+                typeof evidence.text !== "string"
+            ) {
+                throw new Error(
+                    `${candidate.file}: reviewed row evidence is malformed.`
+                );
+            }
+            const existing = rows.get(evidence.row);
+            if (existing != null && existing !== evidence.text) {
+                throw new Error(
+                    `${candidate.file}: row ${evidence.row} has conflicting evidence.`
+                );
+            }
+            rows.set(evidence.row, evidence.text);
+        }
+        result.set(
+            candidate.file,
+            [...rows]
+                .sort(([left], [right]) => left - right)
+                .map(([row, text]) => ({ row, text }))
+        );
+    }
+    return result;
+}
+
+/**
+ * @param {string[]} arguments_
+ * @returns {{
+ *     baselineDirectory: string | null;
+ *     output: string;
+ *     reviewPath: string | null;
+ *     scriptsDirectory: string;
+ *     write: boolean;
+ * }}
+ */
+function parseArguments(arguments_) {
+    const options = {
+        baselineDirectory: null,
+        output: path.join(
+            REPOSITORY_ROOT,
+            "temp",
+            "ansi-content-audit",
+            "content-review-application.json"
+        ),
+        reviewPath: null,
+        scriptsDirectory: DEFAULT_SCRIPTS_DIRECTORY,
+        write: false,
+    };
+    for (const argument of arguments_) {
+        if (argument === "--write") {
+            options.write = true;
+        } else if (argument.startsWith("--baseline-dir=")) {
+            options.baselineDirectory = path.resolve(
+                REPOSITORY_ROOT,
+                argument.slice("--baseline-dir=".length)
+            );
+        } else if (argument.startsWith("--review=")) {
+            options.reviewPath = path.resolve(
+                REPOSITORY_ROOT,
+                argument.slice("--review=".length)
+            );
+        } else if (argument.startsWith("--scripts-dir=")) {
+            options.scriptsDirectory = path.resolve(
+                REPOSITORY_ROOT,
+                argument.slice("--scripts-dir=".length)
+            );
+        } else if (argument.startsWith("--output=")) {
+            options.output = path.resolve(
+                REPOSITORY_ROOT,
+                argument.slice("--output=".length)
+            );
+        } else if (argument === "--help") {
+            console.log(`Usage: node scripts/Apply-ColorScriptContentReview.js [options]
+
+Options:
+  --review=<path>        Reviewed row-evidence report to apply
+  --baseline-dir=<path>  Pre-curation Scripts directory for blank-hole repair
+  --scripts-dir=<path>   Target Scripts directory
+  --output=<path>        JSON application report
+  --write                Apply validated changes (default is a dry run)
+  --help                 Show this help`);
+            process.exit(0);
+        } else {
+            throw new Error(`Unknown option: ${argument}`);
+        }
+    }
+    if (!options.reviewPath && !options.baselineDirectory) {
+        throw new Error(
+            "Provide --review, --baseline-dir, or both."
+        );
+    }
+    return options;
+}
+
+/**
+ * @param {string[]} arguments_
+ * @returns {void}
+ */
+function main(arguments_ = process.argv.slice(2)) {
+    const options = parseArguments(arguments_);
+    const review = options.reviewPath
+        ? loadReview(options.reviewPath)
+        : new Map();
+    const files = new Set(review.keys());
+    if (options.baselineDirectory) {
+        for (const entry of fs.readdirSync(options.scriptsDirectory, {
+            withFileTypes: true,
+        })) {
+            if (
+                entry.isFile() &&
+                entry.name.toLocaleLowerCase("en-US").endsWith(".ps1") &&
+                fs.existsSync(
+                    path.join(options.baselineDirectory, entry.name)
+                )
+            ) {
+                files.add(entry.name);
+            }
+        }
+    }
+
+    const records = [];
+    const failures = [];
+    let blankedRows = 0;
+    let compactedRows = 0;
+    let reviewedFiles = 0;
+    let trailingRows = 0;
+    for (const fileName of [...files].sort((left, right) =>
+        left.localeCompare(right, "en-US")
+    )) {
+        assertSafeFileName(fileName);
+        const filePath = path.join(options.scriptsDirectory, fileName);
+        if (!fs.existsSync(filePath)) {
+            throw new Error(`${fileName}: reviewed target is missing.`);
+        }
+        const originalSource = readBoundedSource(filePath);
+        if (isSourceFidelityLocked(originalSource)) {
+            if (review.has(fileName)) {
+                throw new Error(
+                    `${fileName}: source-fidelity-locked payload cannot be curated.`
+                );
+            }
+            continue;
+        }
+        let source = originalSource;
+        let fileBlankedRows = 0;
+        let fileCompactedRows = 0;
+        let fileTrailingRows = 0;
+
+        const evidence = review.get(fileName);
+        if (evidence) {
+            let result;
+            try {
+                result = applyReviewedRows(source, evidence);
+            } catch (error) {
+                const message =
+                    error instanceof Error ? error.message : String(error);
+                throw new Error(`${fileName}: ${message}`, {
+                    cause: error,
+                });
+            }
+            source = result.source;
+            fileBlankedRows += result.blankedRows;
+            reviewedFiles += 1;
+        }
+
+        if (options.baselineDirectory) {
+            const baselinePath = path.join(
+                options.baselineDirectory,
+                fileName
+            );
+            if (fs.existsSync(baselinePath)) {
+                const baselineSource = readBoundedSource(baselinePath);
+                try {
+                    if (mayContainNewBlankRows(source, baselineSource)) {
+                        const result = compactBlankRowsIntroducedSince(
+                            source,
+                            baselineSource
+                        );
+                        source = result.source;
+                        fileCompactedRows += result.removedRows;
+                    }
+                } catch (error) {
+                    failures.push({
+                        error:
+                            error instanceof Error
+                                ? error.message
+                                : String(error),
+                        file: fileName,
+                        operation: "compact-baseline",
+                    });
+                }
+            }
+        }
+
+        try {
+            const trailingResult = removeTrailingBlankRows(source);
+            source = documentCuration(trailingResult.source);
+            fileTrailingRows += trailingResult.removedRows;
+        } catch (error) {
+            failures.push({
+                error:
+                    error instanceof Error ? error.message : String(error),
+                file: fileName,
+                operation: "trim-trailing",
+            });
+        }
+
+        if (source !== originalSource) {
+            if (options.write) {
+                writeFileAtomic(filePath, source);
+            }
+            blankedRows += fileBlankedRows;
+            compactedRows += fileCompactedRows;
+            trailingRows += fileTrailingRows;
+            records.push({
+                blankedRows: fileBlankedRows,
+                compactedRows: fileCompactedRows,
+                file: fileName,
+                trailingRows: fileTrailingRows,
+            });
+        }
+    }
+
+    const report = {
+        failures,
+        generatedAt: new Date().toISOString(),
+        records,
+        summary: {
+            blankedRows,
+            changedFiles: records.length,
+            compactedRows,
+            failures: failures.length,
+            reviewedFiles,
+            trailingRows,
+            write: options.write,
+        },
+    };
+    fs.mkdirSync(path.dirname(options.output), { recursive: true });
+    writeFileAtomic(
+        options.output,
+        `${JSON.stringify(report, null, 2)}\n`
+    );
+    console.log(JSON.stringify(report.summary, null, 2));
+    console.log(`Report: ${options.output}`);
+}
+
+if (require.main === module) {
+    main();
+}
+
+module.exports = {
+    assertSafeFileName,
+    loadReview,
+    main,
+    mayContainNewBlankRows,
+    parseArguments,
+};
