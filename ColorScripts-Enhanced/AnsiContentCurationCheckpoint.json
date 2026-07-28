@@ -7,7 +7,7 @@
         "rejectedQualitySources": 13992,
         "reviewedAnalysisExceptions": 427
     },
-    "auditDate": "2026-07-27",
+    "auditDate": "2026-07-28",
     "baseline": {
         "ref": "origin/main",
         "commit": "661bad139913e67f110ff871ab1226b52dac580d"
@@ -66,14 +66,21 @@
         "suspicious-character-decoding": 0,
         "very-small-output": 0
     },
+    "geometryRetentionReview": {
+        "ledger": "AnsiGeometryRetentionReviewLedger.json",
+        "scriptsRetained": 21,
+        "extremeLeadingBlankRun": 10,
+        "orphanedTailAfterBlankRun": 11,
+        "disposition": "retain-authentic-composition"
+    },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
         "Seventeen whole works whose retained output became identical after text curation were removed as rejected-duplicate-render; the retained-at-deduplication and removed source IDs are recorded below, including two retained copies later removed under the adult-content policy.",
         "The 56 remaining render or static-extraction failures are audited through a conservative authored-source fallback; none contains literal contact data outside provenance comments.",
-        "A separate bounded full-corpus contact scan found and removed 96 detector misses across 94 files. Its 44 remaining candidates exactly match the hash-locked false-positive review set.",
+        "A separate bounded full-corpus contact scan found and removed 96 detector misses across 94 files. The 96 removals are hash-locked; its 44 remaining candidates were reviewed as false positives and are retained as an aggregate checkpoint count.",
         "Twenty-one adult works represented by 46 scripts were removed after official-tag and preview review. Nine adult-tagged but general-audience-safe works represented by 13 scripts have explicit retained-after-review decisions.",
         "Twenty-six reviewed split families represented by 134 scripts were rebalanced without reflowing retained source cells. The hash-locked plan discarded 69 generated presentation rows, removed 544 excessive source-authored leading blank rows, and rejected blank or severely imbalanced outputs.",
-        "Residual structural findings are retained as review queues; they do not indicate written text, policy terms, trailing blank output, malformed provenance, or decoding damage.",
+        "The 21 residual severe geometry signals are explicit, hash-locked retention decisions: 10 source-authored leading negative-space compositions and 11 structural, semantic, or repeated-motif tails. The retention verifier scans the full gallery and fails on drift or any unreviewed severe signal.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],

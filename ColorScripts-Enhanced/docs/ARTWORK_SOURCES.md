@@ -75,7 +75,7 @@ The native `indyz-kali.utf8.ans` example contains 2,481 SGR sequences across exa
 - Permission evidence: [maintainer attestation](../../ColorScripts-Enhanced/ThirdPartyNotices/16colors-discord-permission.txt)
 - Compact audit checkpoint: [AnsiArchiveCurationCheckpoint.json](../AnsiArchiveCurationCheckpoint.json)
 - Content-curation checkpoint: [AnsiContentCurationCheckpoint.json](../AnsiContentCurationCheckpoint.json)
-- Hash-only review evidence: [content](../AnsiContentReviewLedger.json), [contact follow-up](../AnsiContactFollowupReviewLedger.json), [independent contact-prompt follow-up](../AnsiContactShadowReviewLedger.json), [blank geometry](../AnsiBlankGeometryReviewLedger.json), and [high-confidence geometry actions](../AnsiGeometryReviewManifest.json)
+- Hash-locked review evidence: [content](../AnsiContentReviewLedger.json), [contact follow-up](../AnsiContactFollowupReviewLedger.json), [independent contact-prompt follow-up](../AnsiContactShadowReviewLedger.json), [blank-geometry removals](../AnsiBlankGeometryReviewLedger.json), [high-confidence geometry actions](../AnsiGeometryReviewManifest.json), and [authentic-composition geometry retentions](../AnsiGeometryRetentionReviewLedger.json)
 - Adult-policy decisions: [removed works](../AnsiPolicyRemovalManifest.json) and [adult-tagged works retained after preview review](../AnsiPolicyRetentionReviewLedger.json)
 - Accepted source formats: `.ANS` and `.ICE`
 - Current named import: [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, represented by six contiguous scripts
