@@ -5,7 +5,7 @@
 # Source SHA-256: 3bdcfe3ac93c108cdeacfcaf78df66c284de1afe3749319767e890a4a07cc973
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IF-AH.ANS by infernal.flames (FiNiSH of GODz); released in fog03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ambient.hauze
 # SAUCE Author: infernal.flames
 # SAUCE Group: FiNiSH of GODz
@@ -17,17 +17,17 @@
 Write-Host '
 [1;30m▓█▀[0m [1mIF-AH.ANS[0m [1;30m▀▀░█[0m [1;30m---->------------------------------------ and here ----------[0m
 [1;30m░▒▓▓█████████▀[0;1;37m■[0;1;30m███[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m
-[1;30m▒▓█▀████▀▀▀▒▌[0;1;37;47m█[0;1;37;40m▌[0;1;30;40m▐█▓[0m  [1mYoo [0;1;30m [0;1;37mmanz! greetz tooo[0m  [1mAbbOt.dERViSh[0m  [1mPOWERbYTE  [0;1;30m [0;1;37mZOPhOd [0;1;30m  [0m
-[1;30m▓█ █▄█▀[0;1;37m▄[0m▀█[1;47m░[0m▄[1;47m▒▓[0m [1;30m▒█▓[0m  [1mlORd.JACKSOM   MiCKY.ZOMbiE   dARK.hORSE   RObiN   lUPTiN[0m [1;30m [0m
+[1;30m▒▓█▀████▀▀▀▒▌[0;1;37;47m█[0;1;37;40m▌[0;1;30;40m▐█▓[0m  [1m    [0;1;30m [0;1;37m                 [0m  [1m             [0m  [1m           [0;1;30m [0;1;37m       [0;1;30m  [0m
+[1;30m▓█ █▄█▀[0;1;37m▄[0m▀█[1;47m░[0m▄[1;47m▒▓[0m [1;30m▒█▓[0m  [1m                                                         [0m [1;30m [0m
 [1;30m██▌█▀[0m▄[1;47m▒▓[0;1;40m▌[0m■▀█[1;47m░[0m▌[1;30m▓██▒[0m  ---
 [1;30m█▓█▀[0m▄[1;47m░[0m▀ [1m▄[0;1;47m▒[0m  ▀█ [1;30m▓█▒[0m                                                              
 [1;30m███[0m [1;47m░[0m █ [1;47m█[0;1;40m▌[0m▄█ ▀▌[1;30m▒█▒[0m                                                              
-[1;30m▓███▄[0m▐█▌[1;47m▓░[0m ▀▌[1;30m▄░██▒[0m  in your deepest fear ... listen fools, a  dream  i  send, if
-[1;30m███▀[0m █[1;47m░[0m▌[1;47m▒[0m██▄▄ [1;30m▀██▓[0m  you make the madness end,  else  i shall a nighmare call, to
-[1;30m█▀[0;1;37m■[0m▄[1;47m░░▒[0m▌[1;47m░[0m█▀  ▀■[1;30m▐█▓[0m  do harm within you all ...[1;30m  [0mgreetz to Edlund ...
-[1;30m█▓▄[0m ▀[1;47m▒▓[0;1;40m▌[0m█▌[F[1mOG][0;1;30m▄█▓[0m  ---
+[1;30m▓███▄[0m▐█▌[1;47m▓░[0m ▀▌[1;30m▄░██▒[0m                                                              
+[1;30m███▀[0m █[1;47m░[0m▌[1;47m▒[0m██▄▄ [1;30m▀██▓[0m                                                              
+[1;30m█▀[0;1;37m■[0m▄[1;47m░░▒[0m▌[1;47m░[0m█▀  ▀■[1;30m▐█▓[0m                            [1;30m  [0m                    
+[1;30m█▓▄[0m ▀[1;47m▒▓[0;1;40m▌[0m█▌  [1m   [0;1;30m▄█▓[0m     
 [1;30m███▓▄[0m [1m█[0m █ [1;30m▄██▒███▓[0m  [1;30m                                                        [0m
-[1;30m█████▓[0;1;37m▐[0m ▐ [1;30m▓██▓███▓[0m  [1;30m3 or more nodes[0m [1;30monly ...[0m
+[1;30m█████▓[0;1;37m▐[0m ▐ [1;30m▓██▓███▓[0m  [1;30m               [0m [1;30m        [0m
 [1;30m██████▐ [0m▐[1;30m▐███▐██▓▒[0m  [1;30m---[0m
 [1;30m█▌███░[0;1;37m▐[0m [1;30m▄██▀█ █▓▒░ [0m [1;30m                                       [0m [1;30m     [0m [1;30m [0;31m           [0m
 [1;30m█▓█▌██[0;1;37m■[0;1;30m███▓█▄█▓▒░ [0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

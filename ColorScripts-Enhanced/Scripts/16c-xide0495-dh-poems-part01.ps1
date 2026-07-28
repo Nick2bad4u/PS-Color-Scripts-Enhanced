@@ -5,7 +5,7 @@
 # Source SHA-256: 5eacbc6fddf70b9362a3f2a85bef1446f5d5e94da08d774a3d2f48b4515857e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-POEMS.ANS by Dark Horizon (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
 [34m X[0;1;37mi[0;34mDE X[0;1;37mi[0;34mDE X[0;1;37mi[0;34mDE[0;1;34;44m░░░░▒▒░[0;1;34;40m▌[0;1;34;44m▒▒▒▒▒▒░[0;34mX[0;1;37mi[0;1;34;44m░▒▒▒░[0;34mE [0;1;34;44m░▓▒▓▓▒▒▒[0;1;34;40m▀[0;34mE [0;1;34;44m░▒▒▒▒▒░░▓[0;1;34;40m▀ [0;34mX[0;1;37mi[0;34mDE X[0;1;37mi[0;34mDE X[0;1;37mi[0;34mDE X[0;1;37mi[0;34mD[0;37m [0m
 [1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m--[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;34;44m░▒░░░░▓[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;37m [0m
 [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;34;44m▒░▒▓▓░▒[0m [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1m█[0;47mhy all you fagit kis[0;1;47m█[0m [1;34;40m▀▀▀▀▀▀▀ [0;1;37;47m█[0;47mst kiddin....                                  [0;40m [0m
+[1m█[0;47m                    [0;1;47m█[0m [1;34;40m▀▀▀▀▀▀▀ [0;1;37;47m█[0;47m                                               [0;40m [0m
 [1;40m█[0;47m                    [0;1;47m▀▀▀▀▀▀▀▀▀▀▀[0;47m                                               [0;40m [0m
 [1;40m█[0;47m██████████████████████████████████████████████████████████████████████████████[0;40m [0m
 [1;40m█[0;47m██████████████████████████████████████████████████████████████████████████████[0;40m [0m
@@ -48,7 +48,7 @@ Write-Host '
 [1;37;40m█[0;47m██████████████████████████████████████████████████████████████████████████████[0;40m [0m
 [1;40m█[0;47m██████████████████████████████████████████████████████████████████████████████[0;40m [0m
 [1;40m█[0;47m██████[0;30;47m                                                                        [0;37;40m [0m
-[1;37;40m█[0;47m██████[0;30;47mmy ANSi''s is un-cool. If you do I might have to hurt you..[0;37;47m███    ██████[0;37;40m█ [0m
+[1;37;40m█[0;47m██████[0;30;47m                                                          [0;37;47m███    ██████[0;37;40m█ [0m
 [1;37;40m█[0;47m███████████[0;40m█[0;47m██████████████████████████████████████████████████████████████████[0;40m [0m
 [1;40m█[0;47m███████████[0;40m█[0;47m██████████████████████████████████████████████████████████████████[0;40m [0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

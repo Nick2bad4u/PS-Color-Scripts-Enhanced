@@ -5,7 +5,7 @@
 # Source SHA-256: 29cf0bea139a000fda64d4999c3dffc78fb1f05ce0a20a4bd6956acb5ad5a8b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FN-PS.ANS by fender (creed); released in crd-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Primordial Soup Piccy
 # SAUCE Author: fender
 # SAUCE Group: creed
@@ -32,16 +32,16 @@ Write-Host '
 [1;37;47m░▀▀[0;1;37;40m███████[0;1;37;47m▀▀░▒▀▀[0;1;37;40m▄▀▀▀▀█████████▀▀[0;1;37;47m▀░░▀▀ [0;1;37;40m███▄▄▄██████[0;1;37;47m░▓▒░░[0;1;37;40m▀▀[0;1;37;47m▓▒▀▀░[0;1;37;40m▀[0m [34m▄██████████████[0m
 [37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;47m░▒░▒░[0m▄▄▄▄▄▄▄▄▄[1;47m ░ [0m▀▀  ▀▀▀[1m▀▀▀▀▀▀[0;1;47m▀▀▒▒[0m▀ [34m▄▄▄▄▄▄▄▄▄▄▄████████████████[0;1;34m [0m
 [34m███████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███████████▄▄▄▄▄▄████████████████████████████[0m
-[34m███[0;34;44msociety is a hole it makes me lie to my friends[0;34;40m█████████████████████████████[0m
+[34m███[0;34;44m                                               [0;34;40m█████████████████████████████[0m
 [34;40m███[0;34;44m                                                    [0;34;40m████████████████████████[0m
-[34;40m███[0;34;44mon the beautiful beat of black feet - [0;34;40m██████████████████████████████[0;34;44m     [0;34;40m███[0m
-[34;40m███[0;34;44msociety is a hole it beats my friends big heads[0;34;40m█████████████████████[0;34;44m     [0;34;40m███[0m
+[34;40m███[0;34;44m                                      [0;34;40m██████████████████████████████[0;34;44m     [0;34;40m███[0m
+[34;40m███[0;34;44m                                               [0;34;40m█████████████████████[0;34;44m     [0;34;40m███[0m
 [34;40m███[0;34;44m                                                                         [0;34;40m███[0m
-[34;40m███[0;34;44m- you got big hair and everybody is scared - society is[0;34;40m█▀▀▀[0;1;37;40m▄▄▄[0;34m ▀▀▀▀█[0;34;44m     [0;34;40m███[0m
-[34;40m███[0;34;44ma hole it makes me lie to my friends the assault of [0;34;40m█▀▀▀ [0;1;37;47m███[0;1;37;46m▀[0;1;37;40m██[0;1;37;46m▀[0;1;37;40m██▄[0;1;34;40m [0;34m▀[0;34;44m    [0;34;40m███[0m
-[34;40m███[0;34;44mholy noise - there''s a slap in my face my friends are[0;1;34;40m [0;1;37;40m██[0;1;37;47m█▓[0;1;37;40m█▀███[0;1;37;47m█[0;1;37;40m▀[0;1;37;47m█[0;1;37;40m█[0;1;37;47m▓[0;1;34;40m [0;34m▀██████[0m
-[34m███[0;34;44mgirls wrapped in boys - we''re living in pieces i want[0;34;40m▄▄[0;1;34;40m [0;1;37;40m█[0;1;37;47m▀[0;1;37;40m█[0;1;37;47m▀[0;1;37;40m▄▄▄▄██[0;1;37;47m▀▒▀[0;1;34;40m [0;1;34;44mBRiG![0;34m█[0;1;34m [0m
-[34m███[0;34;44mto live in peace - society is a hole[0;34;40m███████████████████▄▄ [0;37;40m▀▀[0;1;37;47m▒░[0;1;37;40m▀[0;1;37;47m░▒░[0m▀[34m ▄▄██████[0m
+[34;40m███[0;34;44m                                                       [0;34;40m█▀▀▀[0;1;37;40m▄▄▄[0;34m ▀▀▀▀█[0;34;44m     [0;34;40m███[0m
+[34;40m███[0;34;44m                                                    [0;34;40m█▀▀▀ [0;1;37;47m███[0;1;37;46m▀[0;1;37;40m██[0;1;37;46m▀[0;1;37;40m██▄[0;1;34;40m [0;34m▀[0;34;44m    [0;34;40m███[0m
+[34;40m███[0;34;44m                                                     [0;1;34;40m [0;1;37;40m██[0;1;37;47m█▓[0;1;37;40m█▀███[0;1;37;47m█[0;1;37;40m▀[0;1;37;47m█[0;1;37;40m█[0;1;37;47m▓[0;1;34;40m [0;34m▀██████[0m
+[34m███[0;34;44m                                                     [0;34;40m▄▄[0;1;34;40m [0;1;37;40m█[0;1;37;47m▀[0;1;37;40m█[0;1;37;47m▀[0;1;37;40m▄▄▄▄██[0;1;37;47m▀▒▀[0;1;34;40m [0;1;34;44m     [0;34m█[0;1;34m [0m
+[34m███[0;34;44m                                    [0;34;40m███████████████████▄▄ [0;37;40m▀▀[0;1;37;47m▒░[0;1;37;40m▀[0;1;37;47m░▒░[0m▀[34m ▄▄██████[0m
 [34m██████████████████████████████████████████████████████████████▄▄▄▄▄▄▄▄██████[0;34;44mfn[0;34;40m█[0;1;34;40m [0m
 [34m▀▀▀▀▀▀▀▀▀▀████████████████████████[0;34;44m-sonic youth[0;34;40m█████████████▀▀▀▀████████████▀▀▀▀[0;1;30;40m [0m
 [1;30;47m ░▒▓[0m [1;47m██▓▒[0m▄[1;30m [0;34m▀███████████████████████████████████████████████[0;37m [0;1;37;47m█▓[0;1;36;40m [0;34m████████████ [0;1;30;47m  ░[0m

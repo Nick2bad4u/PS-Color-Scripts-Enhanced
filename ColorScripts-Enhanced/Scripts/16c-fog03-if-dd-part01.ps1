@@ -5,7 +5,7 @@
 # Source SHA-256: da19320052456c1bb9cfe3d3d4265c136f8d58c7e5580c457a4cfe5f0fbcd28e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IF-DD.ANS by infernal.flames (fog03); released in fog03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: DREAM DEMENSION
 # SAUCE Author: infernal.flames
 # SAUCE Date: 19951015
@@ -16,17 +16,17 @@
 Write-Host '
 [1;30m▓█▀[0m IF-DD.ANS [1;30m▀▀░█[0m [1;30m---->------------------------------------ and here ----------[0m
 [1;30m░▒▓▓█████████▀[0;1;37m■[0;1;30m███[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m
-[1;30m▒▓█▀████▀▀▀▒▌[0;1;37;47m█[0;1;37;40m▌[0;1;30;40m▐█▓[0m  [1mYoo [0;1;30m [0;1;37mmanz! greet tooo[0;1;30m  [0;1;37mPOWERbYTE  [0;1;30m [0;1;37mZOPhOd   AbbOt.dERViSh [0;1;30m  [0m
-[1;30m▓█ █▄█▀[0;1;37m▄[0m▀█[1;47m░[0m▄[1;47m▒▓[0m [1;30m▒█▓[0m  [1mlORd.JACKSOM   MiCKY.ZOMbiE   dARK.hORSE   RObiN   lUPTiN[0m [1;30m [0m
+[1;30m▒▓█▀████▀▀▀▒▌[0;1;37;47m█[0;1;37;40m▌[0;1;30;40m▐█▓[0m  [1m    [0;1;30m [0;1;37m                [0;1;30m  [0;1;37m           [0;1;30m [0;1;37m                       [0;1;30m  [0m
+[1;30m▓█ █▄█▀[0;1;37m▄[0m▀█[1;47m░[0m▄[1;47m▒▓[0m [1;30m▒█▓[0m  [1m                                                         [0m [1;30m [0m
 [1;30m██▌█▀[0m▄[1;47m▒▓[0;1;40m▌[0m■▀█[1;47m░[0m▌[1;30m▓██▒[0m  ---
 [1;30m█▓█▀[0m▄[1;47m░[0m▀ [1m▄[0;1;47m▒[0m  ▀█ [1;30m▓█▒[0m                                                            
 [1;30m███[0m [1;47m░[0m █ [1;47m█[0;1;40m▌[0m▄█ ▀▌[1;30m▒█▒[0m                                                            
-[1;30m▓███▄[0m▐█▌[1;47m▓░[0m ▀▌[1;30m▄░██▒[0m  not dwells,  not hate nor lies,  but if i look  beyond all
-[1;30m███▀[0m █[1;47m░[0m▌[1;47m▒[0m██▄▄ [1;30m▀██▓[0m  this, i reckon something i would  surely miss,  becouse in [1;30m [0m
-[1;30m█▀[0;1;37m■[0m▄[1;47m░░▒[0m▌[1;47m░[0m█▀  ▀■[1;30m▐█▓[0m  my dream i rule my life ...[1;30m  [0mgreet to Edlund ...
-[1;30m█▓▄[0m ▀[1;47m▒▓[0;1;40m▌[0m█▌[F[1mOG][0;1;30m▄█▓[0m  ---
+[1;30m▓███▄[0m▐█▌[1;47m▓░[0m ▀▌[1;30m▄░██▒[0m                                                            
+[1;30m███▀[0m █[1;47m░[0m▌[1;47m▒[0m██▄▄ [1;30m▀██▓[0m                                                             [1;30m [0m
+[1;30m█▀[0;1;37m■[0m▄[1;47m░░▒[0m▌[1;47m░[0m█▀  ▀■[1;30m▐█▓[0m                             [1;30m  [0m                   
+[1;30m█▓▄[0m ▀[1;47m▒▓[0;1;40m▌[0m█▌  [1m   [0;1;30m▄█▓[0m     
 [1;30m███▓▄[0m [1m█[0m █ [1;30m▄██▒███▓[0m  [1;30m                                                        [0m
-[1;30m█████▓[0;1;37m▐[0m ▐ [1;30m▓██▓███▓[0m  [1;30m3 or more nodes[0m [1;30monly ...[0m
+[1;30m█████▓[0;1;37m▐[0m ▐ [1;30m▓██▓███▓[0m  [1;30m               [0m [1;30m        [0m
 [1;30m██████▐ [0m▐[1;30m▐███▐██▓▒[0m  [1;30m---[0m
 [1;30m█▌███░[0;1;37m▐[0m [1;30m▄██▀█ █▓▒░ [0m [1;30m                                       [0m [1;30m     [0m [1;30m [0;31m           [0m
 [1;30m█▓█▌██[0;1;37m■[0;1;30m███▓█▄█▓▒░ [0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

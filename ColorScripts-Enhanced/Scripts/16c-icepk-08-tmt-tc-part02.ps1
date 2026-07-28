@@ -5,7 +5,7 @@
 # Source SHA-256: d8ce8afd3195f835c362bcbe16a37a6e79c353a177902d972142c4650ad74393
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TMT-TC.ICE by The Malevolent Trickster (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 47-85
 # Columns: 1-80
 
@@ -48,4 +48,4 @@ Write-Host '
 
 [31m┌ ── [0;1;31m     [0;1;37m           [0m         [1;30m    [0;31m  [0;1;31m    [0;31m   [0;1;30m     [0m            [1m         [0;1;31m    [0;31m─── ┐[0m
 [31m│ [0;1;37m       [0m           [1;30m        [0;31m   [0;1;31m             [0;31m   [0;1;30m          [0m           [1m         [0;31m│[0m
-[31m└ ──-[0;1;31m---- ───── [0;1;37mOver [0m1000 [1;30mAnsi[0;31ms O[0;1;31mnline - Sy[0;31msO[0;1;30mp: The [0mUnfor[1mgiven [0;1;31m───── ----[0;31m─── ┘[0m'
+[31m└ ── [0;1;31m     ───── [0;1;37m     [0m     [1;30m    [0;31m   [0;1;31m          [0;31m  [0;1;30m       [0m     [1m      [0;1;31m─────     [0;31m─── ┘[0m'

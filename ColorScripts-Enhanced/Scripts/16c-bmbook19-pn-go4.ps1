@@ -5,7 +5,7 @@
 # Source SHA-256: faa363210cf2dc58e00fbab1aa18a7338cb5469be990840345205dc3cb2dd318
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pn-go4.ans by pandur (blackmaiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: siffe
 # SAUCE Author: pandur
 # SAUCE Group: blackmaiden
@@ -44,11 +44,11 @@ Write-Host '
 [31m                  [0m
 [1;30m  ┌── [0m [1;34m▄[0;1;34;44m▄[0;1;34;40m█[0;1;34;44m▀[0;1;34;40m█[0;1;34;44m▄[0;1;34;40m▄▄[0m  [1;30m──  [0m                                                      [1;30m     [0m
 [1;30m  │ [0m [34m▄[0;1;34m██[0;1;34;46m░▓[0;1;34;40m███[0;1;34;46m░[0;36m█[0;1;36;46m░[0;1;36;40m▄▄[0m [1;30m   [0m                                                       
-[1;30m  [0m [34m▄[0;1;34m██[0;1;34;44m▀[0;1;34;40m█[0;1;34;46m▒▒[0;1;34;40m█[0;1;34;44m▄[0;1;34;40m██[0;1;34;46m▓ [0;1;36;46m▓[0;1;36;40m██▄[0m    artists in germany...
-  [1;34;44m▄▓▓▓[0;1;34;40m██[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀[0;37m [0;1;30m▄▄[0m  [1;36m▀▀▓▓[0;36m▄[0m   [37msorry thats all for this pack...[0m
-[1;34m ▒▒[0;1;34;44m▓▀[0;1;34;40m▀[0m   [1;30m▀▄[0m [1;30m▄▀[0m [1;30m▄▄█[0m░[1;30m▄[0;36m▀█▌[0;37m  im writing a new ansidraw for linux/dos(...)[0m
-[34m▐█[0;1;34;44m▒[0m  [1;30m▄[0m   [36m▄▄▄▄[0;37m  [0;1;30m▄[0m [1;30m▀[0m▒▒[1;30m▌[0;36m▐█[0;37m  which will be released under gpl the name will be[0m
-[34m▐█[0;37m     [0;36m▀[0;1;32;46m░░░░[0;1;36;40m██▒[0m [1;30m▀█▄▀[0;36m▄[0;1;36m▒[0;36m▌[0;37m ddraw or gdraw... and its a black maiden/gilden product[0m
+[1;30m  [0m [34m▄[0;1;34m██[0;1;34;44m▀[0;1;34;40m█[0;1;34;46m▒▒[0;1;34;40m█[0;1;34;44m▄[0;1;34;40m██[0;1;34;46m▓ [0;1;36;46m▓[0;1;36;40m██▄[0m                         
+  [1;34;44m▄▓▓▓[0;1;34;40m██[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀[0;37m [0;1;30m▄▄[0m  [1;36m▀▀▓▓[0;36m▄[0m   [37m                                [0m
+[1;34m ▒▒[0;1;34;44m▓▀[0;1;34;40m▀[0m   [1;30m▀▄[0m [1;30m▄▀[0m [1;30m▄▄█[0m░[1;30m▄[0;36m▀█▌[0;37m                                              [0m
+[34m▐█[0;1;34;44m▒[0m  [1;30m▄[0m   [36m▄▄▄▄[0;37m  [0;1;30m▄[0m [1;30m▀[0m▒▒[1;30m▌[0;36m▐█[0;37m                                                   [0m
+[34m▐█[0;37m     [0;36m▀[0;1;32;46m░░░░[0;1;36;40m██▒[0m [1;30m▀█▄▀[0;36m▄[0;1;36m▒[0;36m▌[0;37m                                                        [0m
 [37m [0;34m▀▄[0;37m [0;1;30m▀▀█▄[0;36m▐[0;1;32;46m▓▓▓[0;1;36;40m███[0m [1;30m▀[0m [36m▄[0;1;36m▒[0;36m▀ [0;37m [0m
 [1;30m [0m  [34m▀[0;1;34m▓▓▄[0;36m▄[0;32m▄[0;1;32m██████[0m [32m▀[0;36m▀[0;37m   [0;1;30m [0m                                                         
 [1;30m  │ [0m    ▐[1m████[0;1;32m██[0m▌  [1;30m   [0m                                    

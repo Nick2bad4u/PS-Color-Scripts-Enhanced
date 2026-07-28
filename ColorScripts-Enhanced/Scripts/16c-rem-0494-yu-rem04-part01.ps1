@@ -5,17 +5,17 @@
 # Source SHA-256: fbb7b9a6cf512b19124318eeeca477e334cc59e7b4822d4335e1447bd86accc1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YU-REM04.ANS by Yuehwougdade (rem-0494); released in rem-0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
-   [1;30mThis is YueHwoungDaDe here to present another   [0m██[1;47m█[0m ▀▀▀█[1;47m█[0m ███▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▄[0m
-[1;30mone of his amazing ORIGINAL masterpieces. Of[0m       ██[1;47m▓[0m    █[1;47m▓[0m ██[1;47m█[0m      ██[1;47m█[0m █[1;47m█[0m ▄[1;47m▀[0m▄
-[1;30mcourse, shouts go out to Musashi and Night Breed,  ░[0m█[1;47m▒[0m ▄▄▄█[1;47m▒[0m [1;30;40m░[0m█[1;47m▓[0m▀▀▀▀  [1;30m░[0m█[1;47m▓[0m [1;30;40m░[0;1;37;47m▓[0m [1;30;40m░[0m█[1;47m█[0m
-[1;30;40mThanks guys,for helping me get on the right track. ▒[0m█[1;47m░[0m  ▄▄▄  [1;30m▒[0m█[1;47m▒[0m      [1;30;40m▒[0m█[1;47m▒[0m [1;30;40m▒[0;1;37;47m▒[0m [1;30;40m▒[0m█[1;47m▓[0m
+   [1;30m                                                [0m██[1;47m█[0m ▀▀▀█[1;47m█[0m ███▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▄[0m
+[1;30m                                            [0m       ██[1;47m▓[0m    █[1;47m▓[0m ██[1;47m█[0m      ██[1;47m█[0m █[1;47m█[0m ▄[1;47m▀[0m▄
+[1;30m                                                   ░[0m█[1;47m▒[0m ▄▄▄█[1;47m▒[0m [1;30;40m░[0m█[1;47m▓[0m▀▀▀▀  [1;30m░[0m█[1;47m▓[0m [1;30;40m░[0;1;37;47m▓[0m [1;30;40m░[0m█[1;47m█[0m
+[1;30;40m                                                   ▒[0m█[1;47m░[0m  ▄▄▄  [1;30m▒[0m█[1;47m▒[0m      [1;30;40m▒[0m█[1;47m▒[0m [1;30;40m▒[0;1;37;47m▒[0m [1;30;40m▒[0m█[1;47m▓[0m
 [1;30;40m                                                   ▓[0m██  [1;30m▓[0m█[1;47m█[0m  [1;30;40m▓[0m█[1;47m░[0m      [1;30m▓[0m█[1;47m░[0m [1;30;40m▓[0;1;37;47m░[0m [1;30;40m▓[0m█[1;47m▒[0m
-[1;30;40mwho kicked me off their boards. Fucking idiots. (c)█[0;1;30;47m [0m█  [1;30m█[0m█[1;47m▒[0m  [1;30;40m█[0m██▄▄▄▄▄ [1;30m█[0;1;30;47m [0m█ [1;30m█[0m█ [1;30m█[0m█[1;47m░[0m
+[1;30;40m                                                   █[0;1;30;47m [0m█  [1;30m█[0m█[1;47m▒[0m  [1;30;40m█[0m██▄▄▄▄▄ [1;30m█[0;1;30;47m [0m█ [1;30m█[0m█ [1;30m█[0m█[1;47m░[0m
 [1;40m─────[0;1;34;40m──────────[0;34m─────────── [0;1;30m∙ · YU - REM04.ANS  · · [0;34m──────────────[0;1;34m───────────[0;1;37m────[0m
 
                                   ▄ ▓▒░ ███▓▄

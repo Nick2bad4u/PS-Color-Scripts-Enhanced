@@ -5,7 +5,7 @@
 # Source SHA-256: 53313aa517b04233451af73ace7b1566b7633ea42f90b6f8e95a7dc8ebe750c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zv-evol.ans by Zerovision (tnt-008); released in tnt-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 118-155
 # Columns: 1-80
 
@@ -40,10 +40,10 @@ Write-Host '
 
 
  █[1;30;47m▄█[0;1;30;40m▀▀▀▀▀█▌▐[0;1;30;47m▓[0;1;30;40m▄█████▄[0m
- [1;30;47m░[0;31m [0;1;31m▄▄[0;1;31;47m▓░[0m▄▄[1;31m▄▄▄[0m▄[1;31m▄▄[0;31m▄ [0;1;30m██▌[0m Thanks Tainted for helping make the font taintedesque
+ [1;30;47m░[0;31m [0;1;31m▄▄[0;1;31;47m▓░[0m▄▄[1;31m▄▄▄[0m▄[1;31m▄▄[0;31m▄ [0;1;30m██▌[0m                                                      
  [1;30;47m░[0;1;30;40m▄[0;31m [0;1;31m▀ [0;1;31;47m▓[0;1;31;40m▌[0;1;30;40m [0;1;31;40m░▄[0;1;31;41m▓▀[0;31m▀ [0;37m▄[0;1;31m▄[0;31m▄[0;1;30m░█[0m                                                    
- [1;30;47m▒[0;1;30;40m█▌▒[0;31m [0;1;31m▐[0;1;31;41m▓[0;31m▄[0;1;31;41m▀ [0;31m▀ [0;37m▄[0;1;31;47m▒[0;1;31;41m▀[0;31m▀ [0;1;30m▄[0;1;30;47m▒[0m taintedriffic!
+ [1;30;47m▒[0;1;30;40m█▌▒[0;31m [0;1;31m▐[0;1;31;41m▓[0;31m▄[0;1;31;41m▀ [0;31m▀ [0;37m▄[0;1;31;47m▒[0;1;31;41m▀[0;31m▀ [0;1;30m▄[0;1;30;47m▒[0m               
  [1;30;47m▓[0;1;30;40m█▌░[0;31m [0;1;31m▄[0;1;31;41m▐▌[0;31m▀ [0;1;31m▄[0;1;31;41m▓▀[0;31m▀ [0;1;30m░▓█[0;1;30;47m▓[0m
- [1;30m█▀[0;31m [0;1;31m▄[0;1;31;41m▀[0;31m▀█[0;1;31;41m▓[0;1;31;40m▄[0;1;31;41m▀░[0;31m▀  [0;1;30m  ▀▀▀[0m      This is for Grymmjack and Evolv3.
+ [1;30m█▀[0;31m [0;1;31m▄[0;1;31;41m▀[0;31m▀█[0;1;31;41m▓[0;1;31;40m▄[0;1;31;41m▀░[0;31m▀  [0;1;30m  ▀▀▀[0m                                       
  [31m [0;1;31m▄[0;1;31;41m▀[0;31m█▄▄█[0;1;31;41m▀░[0;31;45m▓▓[0;1;31;41m ▀▀▀▀▀[0;31m▌[0;1;31;41m▀[0;31m [0;1;31;41m▀[0m [31m■[0m
 [37m [0;1;30m▄▄▄▄▄░[0;31m▐[0;31;45m█[0;31;40m▀ [0;1;30;40m▄▄▄▄▄▄▄▄▄[0m'

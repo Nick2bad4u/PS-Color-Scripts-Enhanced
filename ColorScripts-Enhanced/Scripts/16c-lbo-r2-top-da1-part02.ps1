@@ -5,7 +5,7 @@
 # Source SHA-256: 36fcead60d4cbfb926dd61696f6e0df301fe2ca397c017d04cdfdeca0cf0153a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TOP-DA1.ANS by Torlock Pop (lbo-r2); released in lbo-r2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 49-98
 # Columns: 1-80
 
@@ -52,11 +52,11 @@ Write-Host '
 
 [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [31m█  [0;1;37m▄▄▄▄▄▄▄[0m                                                            [1;37m▄▄▄▄▄▄▄  [0;31m█[0m
-[31m [0;37m▄[0;1;37;47m▄[0;1;37;40m████████▄[0m         [1;37;40m■ OUTLaWS PC EUROPeAN HeADQUARTERS ■[0m           ▄[1;47m▄[0;1;40m████████▄[0m
-▐[1;47m▐[0;1;40m██████████   ■ ALPHa BEGiAN HeADQUARTeRS ■ POLiCE DiSTRO SiTE ■  [0m▐[1;47m▐[0;1;40m██████████[0m
-▐▌ ▀[1m▀███▀▀ ▐▌[0m           [1m■ SiZE-UpS: FeLiX ■ AKiRA ■[0m                ▐▌ ▀[1m▀███▀▀ ▐▌[0m
-[1m [0m█  ▄[1m▄▀[0m▄[1m▄  █    ■ COSySoPS: GaNdaLF ■ MOeBiUS ■ HaWS ■ FReeZER ■    [0m█  ▄[1m▄▀[0m▄[1m▄  █[0m
+[31m [0;37m▄[0;1;37;47m▄[0;1;37;40m████████▄[0m         [1;37;40m■                                  ■[0m           ▄[1;47m▄[0;1;40m████████▄[0m
+▐[1;47m▐[0;1;40m██████████   ■                           ■                    ■  [0m▐[1;47m▐[0;1;40m██████████[0m
+▐▌ ▀[1m▀███▀▀ ▐▌[0m           [1m■                 ■       ■[0m                ▐▌ ▀[1m▀███▀▀ ▐▌[0m
+[1m [0m█  ▄[1m▄▀[0m▄[1m▄  █    ■                   ■         ■      ■         ■    [0m█  ▄[1m▄▀[0m▄[1m▄  █[0m
 [1m [0m▀█▀▄ [1m▄▄▀█▀[0m                                                         ▀█▀▄ [1m▄▄▀█▀[0m
-[1m   ▀[0m▐▐[1m▐▐▀[0m     [1m■ 1.2 NaSTY GiGA ONLiNE ■ USR 16.8 ■ NuP ENFoRCEd ■[0m     [1m▀[0m▐▐[1m▐▐▀[0m
+[1m   ▀[0m▐▐[1m▐▐▀[0m     [1m■                       ■          ■              ■[0m     [1m▀[0m▐▐[1m▐▐▀[0m
 [31m█   [0;1;37m▀[0m▀▀[1m▀[0m                                                               [1m▀[0m▀▀[1m▀    [0;31m█[0m
 [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

@@ -5,23 +5,23 @@
 # Source SHA-256: 2fde800ac0b8bc49201c6b3c797cdab5939227ed64c240992597af155b3d34d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-WZGRN.ANS by Schizo (allnc-01); released in allnc-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
 [1;30m┌─────────────────────────────────────────────────┬────────────────────────────┐[0m
-[1;30m│ [0m▀[1;47m▀▀▄▄▀▄█▄▀██▀██▄██▀███[0;1;40m▀ ▀[0;1;47m▀[0;1;40m██[0;1;47m▀[0;1;40m█[0;1;47m▄[0;1;40m██[0;1;47m▀▄[0;1;40m█[0;1;47m▀[0;1;40m██[0;1;47m▄▀[0m█[1;47m▀▄ ▀[0m▀ [1;30m│ Greets go out to a newbie  │[0m
-[1;30m│   [0;1;37m▀[0;1;37;47m ▄▀▀ [0;1;37;40m▀[0m▀[1m▀[0m▀[1m▀▀[0m▀[1;47m█▄██▄[0;1;40m▀[0m     [1;40m▀██[0;1;47m▀[0;1;40m██▀▀[0m▀[1m▀▀▀[0m▀[1m█[0;1;47m▀▄█[0m█▀   [1;30m│ group to our area code.    │[0m
-[1;30m│[0m     ▀█[1;47m▄▀[0m█▄   [1m▄[0;1;47m████[0;1;40m▀[0m         [1;40m▀████▄   [0m▄[1;47m▀▄█▄[0;1;40m▀[0m     [1;30;40m│ Welcome PRO and good luck  │[0m
+[1;30m│ [0m▀[1;47m▀▀▄▄▀▄█▄▀██▀██▄██▀███[0;1;40m▀ ▀[0;1;47m▀[0;1;40m██[0;1;47m▀[0;1;40m█[0;1;47m▄[0;1;40m██[0;1;47m▀▄[0;1;40m█[0;1;47m▀[0;1;40m██[0;1;47m▄▀[0m█[1;47m▀▄ ▀[0m▀ [1;30m│                            │[0m
+[1;30m│   [0;1;37m▀[0;1;37;47m ▄▀▀ [0;1;37;40m▀[0m▀[1m▀[0m▀[1m▀▀[0m▀[1;47m█▄██▄[0;1;40m▀[0m     [1;40m▀██[0;1;47m▀[0;1;40m██▀▀[0m▀[1m▀▀▀[0m▀[1m█[0;1;47m▀▄█[0m█▀   [1;30m│                            │[0m
+[1;30m│[0m     ▀█[1;47m▄▀[0m█▄   [1m▄[0;1;47m████[0;1;40m▀[0m         [1;40m▀████▄   [0m▄[1;47m▀▄█▄[0;1;40m▀[0m     [1;30;40m│                            │[0m
 [1;30;40m│[0m       ▀█[47m [0;1;47m▀[0m█[1;30m▄  [0;1;37m▀[0;1;37;47m█[0;1;37;40m▀   S[0mchi[1mz[0mo[1;30m''   [0;1;37m▀█▀  ▄[0;1;37;47m▀ ▀ [0m▀       [1;30m│ goes out to you.  Now do   │[0m
 [1;30m│[0m         ▀█[1;30;47m▄[0m██▄        for        ▄[47m  [0;1;47m▄ [0m▀         [1;30m│ you guys think you could   │[0m
 [1;30m│[0m        [1;30m▄  [0m▀[1;30;47m▄[0m█[1;30;47m▀[0m█▄    [1;30m[[0;1;37mS[0mO[1mN[0mi[1mC[0;1;30m]    [0m▄[47m [0;1;30;47m▀  [0m▀  [1;30m▄[0m        [1;30m│ stop with the attitude.    │[0m
-[1;30m│[0m      [1;30m▄███▄  [0m▀█[1;30;47m▀[0m█[1;30;47m▄[0m▄           [1;30m▄[0;1;30;47m  ▀ [0m▀  [1;30m▄███▄[0m      [1;30m│ You guys are worse than    │[0m
-[1;30m│    ▄█[0;1;30;47m█▀[0;1;30;40m█▀[0m     [1;30;40m▀[0;1;30;47m▄▀▀▄[0m▄       [1;30m▄[0;1;30;47m ▄▀ [0;1;30;40m▀[0m     [1;30;40m▀████▄    │ PUNK ever was.  Greets[0m     [1;30;40m│[0m
-[1;30;40m│  ▄[0;1;30;47m█▀██▀█▄██▀█▄█▀▄█▀▄▀[0;1;30;40m▄   ▄[0;1;30;47m ▀▀▄▄▀[0;1;30;40m█[0;1;30;47m▄▀[0;1;30;40m██[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m█▄  │ also go out to LV and AB.  │[0m
-[1;30;40m│ ▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀[0m▀▀▀[1;30m▀[0m▀[1;30m▀▀▀ ▀▀▀[0m▀[1;30m▀[0m▀▀[1;30m▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀▀▀▀[0m▀[1;30m▀▀▀▀▀ │ Good luck guys in the new  │[0m
-[1;30m├─────────────────────────────────────────────────┤ groups.  Hey, I don''t[0m      [1;30m│[0m
+[1;30m│[0m      [1;30m▄███▄  [0m▀█[1;30;47m▀[0m█[1;30;47m▄[0m▄           [1;30m▄[0;1;30;47m  ▀ [0m▀  [1;30m▄███▄[0m      [1;30m│                            │[0m
+[1;30m│    ▄█[0;1;30;47m█▀[0;1;30;40m█▀[0m     [1;30;40m▀[0;1;30;47m▄▀▀▄[0m▄       [1;30m▄[0;1;30;47m ▄▀ [0;1;30;40m▀[0m     [1;30;40m▀████▄    │                       [0m     [1;30;40m│[0m
+[1;30;40m│  ▄[0;1;30;47m█▀██▀█▄██▀█▄█▀▄█▀▄▀[0;1;30;40m▄   ▄[0;1;30;47m ▀▀▄▄▀[0;1;30;40m█[0;1;30;47m▄▀[0;1;30;40m██[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m█▄  │                            │[0m
+[1;30;40m│ ▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀[0m▀▀▀[1;30m▀[0m▀[1;30m▀▀▀ ▀▀▀[0m▀[1;30m▀[0m▀▀[1;30m▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀▀▀▀[0m▀[1;30m▀▀▀▀▀ │                            │[0m
+[1;30m├─────────────────────────────────────────────────┤                      [0m      [1;30m│[0m
 [1;30m│                                                 │                            │[0m
 [1;30m│                                                 │                            │[0m
 [1;30m└─────────────────────────────────────────────────┴────────────────────────────┘[0m

@@ -1,0 +1,3706 @@
+{
+    "schemaVersion": 1,
+    "reviewedAt": "2026-07-28",
+    "normalization": "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
+    "policy": "Readable essays, greetings, board advertisements, affiliation lists, release commentary, and other non-structural prose were blanked while preserving ANSI controls, backgrounds, line art, shading, and repeated text used as structural texture.",
+    "summary": {
+        "candidateFiles": 77,
+        "evidenceRows": 614,
+        "categoryRows": {
+            "bbs-promotion": 174,
+            "commentary": 219,
+            "mixed-prose": 98,
+            "commentary+prose-heavy": 45,
+            "prose-heavy": 63,
+            "commentary+mixed-prose": 15
+        }
+    },
+    "candidates": [
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "6e17cb76f7fcc6383eaedd4fae06f418578d2b122e28fe8035655bd31725d795"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "eb97c3bfb5e1dba63336f16f11dd0ea5fabe894de2b2835ae9c0c88370e93c4e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "eee774a87206e9ed7b8143cb69a4839c1397596dc05fca0cdb94386e8123287f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "2e49e86aeb5e2f96c1e0c4ed4df5e04f04d55f8a8b87cdbd8d1bf872b56924b4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "4e6e4a68403d9a7f05260a56ac552488bcda8f33be75568770955cd68a4c095a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "7e5ed11a3525fc1f5aa6736aa7388fdeca2d51844d45ffbd907681e0051e4af5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "4dc1bffd0b8a0a778160d06459828d1abbe63848223b552183c5ec6553d8cab5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "e8a091456fd2f1208246876ee6e05c8732dfb7654751bca817dea290cefc3773"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "5124f3d83377bce150189e75443f23ca83da1b0f2c5d87a63efa0642a5f2b00a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "c074c9d674adb0d74a4e20e04d37b0f6b6edbdac1531b29198b18529b223f6e4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "cb77236e77bbcc26570bfcd9bd040cd26329575ce7e5ea3d93bc382d6f5627c8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "67c9aa386f8bd2b7fa7e6492f66e8ff3f441da14def5d6cc412beca8809d6e49"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 37,
+                    "sha256": "399a736b883e95686e68ef55837c17ba2d59e3e2b071d2bba997bcceb59d6bb8"
+                }
+            ],
+            "file": "16c-33rules-33-d2-part03.ps1",
+            "rationale": "Phone, operator, HQ, outpost, distribution, and network list."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "8a78231a8270cd757c746bca2bf68cb76626a89c1978886a417a2f0e9ecb29b7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 41,
+                    "sha256": "0836857c0ee6f0aaf2e98364bb60829afe427d698380c80e788562091b00da3e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 42,
+                    "sha256": "a1cb4db253b9e6f932059f9f428f02d171572355dc368dabc0e187dd6bcb920a"
+                }
+            ],
+            "file": "16c-acdu0194-gu-god1-part06.ps1",
+            "rationale": "Member-board affiliation, warez inventory, and caller-policy copy."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "d2f9ee2a90541b555054091f096d8c36e2736e8eacf4c7381f16b55673480af1"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 41,
+                    "sha256": "6c2f584ad404b0be12de526bc3d424919a1b2ea7a251cb5e721e5032c0700600"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 44,
+                    "sha256": "9aa57845cc712edce7c6040f44c5bf322a53fd3523f2b5dd227fd9b631ef3eed"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 45,
+                    "sha256": "2b48d6ad736286319fcc725c9c96a34fe46a2a73f0168c3e3e746d3b4f3c59a0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 46,
+                    "sha256": "2ab27bf28180d61cb001276a61471e3c81317b5094c2e8918dbb1b2d786e65f1"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 47,
+                    "sha256": "199bead5a8ba53e2bb5b3696305a8f4f02cd6e54987832a97b37f3219f251a94"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 48,
+                    "sha256": "38b60ece9aac76a25689da5c7b17508f0aa11f96439c11a7d18c18d60a22372d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 49,
+                    "sha256": "a0616daa172cf049dbe12f13f9b30280fa18b0e5333efd5a14d8d0c030ff6073"
+                }
+            ],
+            "file": "16c-acdu0294-im-amber-part06.ps1",
+            "rationale": "HQ, distribution, member-board, modem, and network advertising."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "a116db93fbf652b44ee194e5ce20b4a96f92a7de9b1553f4886fe5dc667eb550"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "bdc9a10dc34e1f1db05f42a1e0ec7b290828b4a3c50f944eacfb29bc9b0aeaa2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "e9cc2e287bfbe7b40cd951715bd54b67616cae247a9da451c913b317e5330d03"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "c0d1a1b69b1b7f7fb2931ae809a9007e4151ce3623223104a99388b5e7104f3c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "5b700d29c7e0e5a5f1a3dcdaad68c29d2591d663c67b355e2eed7a308c22f0c7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "0c5df71120d193f72fdef52f5c191d83128e04bea624ac77726a7cb18ae4d522"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "8860a7e435551e67460e2863e26592551e7574ded4e41eaa039cb6542ed7766b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "d7d2188614494cc2592f8bb27a4de634b1d2652d41e52e05cea45935c93e0f67"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "8c19d658ebf2b8ead5122a159b9395ab95dd39536638fd5811ea21f5463aeb83"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "86c49f1139a47deaff113f37edc471277d9def03cacfb5992370b3cd46a774dd"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "3c63cff96f52522925134bc15a23237d559d0a768cbaf9c44e7944f002604a69"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "02a692a335f85daf9b93c3e3b4be7cde2b194062ce8c2b0755aaa079a47ac863"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "2067b58e50092bbd142fe01708e5d3199721ce2fb122da9e535f3c9bfd87aec5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "2205bec396f7999c4a7f29bff0a4ec5b9a22b8f59fe64f19a1cdfd2ca93822ca"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "41bb77db7d4b0811efc1a44946f49e4f98449e94fb601681e4162618d463cb33"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "b85c1ce9ea7d38d9c9373cf8a4476ffcf578bdcc0b8e4dacad0cf917ab3a8818"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "11b5ae24a21d8ff74de8e94919903dac73bb00de8a8835d3800f79b76b91fb02"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "4636b4b9be7f7c09e4da30abcc8990fed9b655a165ccb5aaa88081fd97511416"
+                }
+            ],
+            "file": "16c-acdu0394-so-bc1-part04.ps1",
+            "rationale": "Greetings, request and contact prose, unauthorized-use notice, and completion date."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "19fa9e1844ca817ea62b61b29392548e2075f5cb7d85f3e306942dc1904df15d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "622cf86b1d96ff518e43536889c6b9c2c6de27867c851c0459562fde56f0d214"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "ed6b770fcb31a57e9c559eb09f9949fb50ecc0f4fa5b52741242e9161b3d5ccf"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "18c3d9405032d0b08af88442853efd69dc18b8e2b6517fd1887d29e801114475"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "be871adb7244bea57c3bdd9e2359b3ac9034458544db83e7dbfe69d83abbfdf7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "6611e51c63e3cda8d912ecd3d83b7a53a8317ad18932c8753084d0e67ad87e0e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 37,
+                    "sha256": "2c3d834cc0ee9e81cd9a7b37d837f60a1d299b6bdac7db805d4f15362190a3d6"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 38,
+                    "sha256": "2d3274acf624662437b16a6043af49dc6d2b9e74c0041426e19e2e10fb824577"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 39,
+                    "sha256": "6b1257aaa2222fdbb1ccf208a610c44c287109ee5d9880f24f586969a8cbf545"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "a67a873c9bf49a4f4450df3a0b89cbb04dcbebaee7c29f93a552bb675a1f3eda"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 41,
+                    "sha256": "9a45d5e6599c2f3a07e6cd1edbb09394e7f41c08dc7854d782ec6fe7a3845c66"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 42,
+                    "sha256": "8e436867da65d3c32effb4c41ec952e6ad78c0fc15201d0bbbd61a3d3b191fad"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 43,
+                    "sha256": "06bd92f71ed6b321c2c53d710aa179eb3d930f49bd5899ea29af02ff825d7bce"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 44,
+                    "sha256": "4f1a74570d4fc0d88d686264760a58675e9c8afc337cd4cc19711d514a1e8ec3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 45,
+                    "sha256": "26485a6a057edc5451f11b51520b5339bb402cdad769ea6247a118744d6eaafd"
+                }
+            ],
+            "file": "16c-acdu0494-t2-teh2-part02.ps1",
+            "rationale": "System operators, member-board, distribution, HQ, outpost, and network information."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "baf438bc10f704135f12b057ef4d222dc1ab5e864ae78f37935f23c5657cfbdc"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "bd1c27a5db76cece85138a93fd4d49d777662e4f686740af12637db1c4725da3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "a64dff8b7a02a8be0f1126c90a91fa64815af39d77a6a24b7325db5ffe84072e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "a0dbc35a13c947f01ebb7fc1496c0ed2f554324bba4210b596a335f5558d9b48"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "563e7ea637191d1a45bb0bd390885cb1b4362706c85c7760d1260e63e9d7938e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "a67f7de9a33e91a5d67cbad4d0ca9e7a5789d6a5b0251bd38bc6b32d9acd8eba"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "0382fe1014aa9896dc683b1473a67cf00572a9bfff8d2f8cd4987ef94fbf74f7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "27fe7eaca6dced378a602a70f24ef45e14af3cb8c13ea27a0bf9b72ab3f24e8b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "9f92324cc94caedd27424292fe3e24dbfcee6440921d3e252c77ae1338af9d7d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "56bcf156c731ce0ec6fef4b4a5addc1e26f4626c6b17aeafa84ef7fbb25472d3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "852fb7efe8f42716c99e479c48d9d4c560f7b5563a738c48f6e7a3a7c4c6399f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "0d4e194ae8971fafdf7b6be0e2a0fe85630093fe15f72a24ed0099df7a070da4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "ba895736c43cc4eb69f216094fc30a4457796614af6a87b6b77bfbef16f397a8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "dc16636b4f9390958a3947d03808ba5b0db03b45e6cf3ef1d4d87010a04bc0c1"
+                }
+            ],
+            "file": "16c-acdu0694-ld-bl-part05.ps1",
+            "rationale": "Operator roster, system specifications, access policy, affiliations, distribution sites, and HQ list."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "38bec9360f465423bb430b74f2550f398abcbc434f938de353f68bb30400ff4a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "7d05dcba8300b242776d10e5c1152a331187d95fbd655387d8d50cea8ae79635"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "36d1305dfd66623fd15ef5221efe2b4a346f05ee8ca33ee1fd1f0f78dd47dd1c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "80e41df1ec91db6fd7df4fcbe832bd885c78779c13f05251578fe323e04a146a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "9bc89f8f37b9eb447cd5dd860f181207f29f2e171a32ce67851a47a2a58940bf"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "9fd839491782a733c608f03d9ff761c8581991f690cca9854ed7ff230b533284"
+                }
+            ],
+            "file": "16c-acdu0793-mp-sanit-part02.ps1",
+            "rationale": "Sysop, software, member-board, warez, modem, network, and storage advertising."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "5535af9fb21f577a1de71fe87e2a520dcbfbf925c869cb75a510acb02f35a632"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "3989e43440b7e5faee7f3728479c05f11ef4eb3d8586a20802ad0537f8b42658"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "a7b8da779e914063c0c06862a0d1a3799bdccc1646f6bfaec5237e142929747b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "0a519defb704cf5c7cc3b5bcd258a21d8275d326d49aad58b73bea4d1fe2b197"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "3bee32dfcdaa2e9cfac411d2661268983293e9a4a0a6d5e35fddfdf0a936d172"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "9959a862206c9657dc5e8c00128f95fbba436de9863d232ff8967f204f7efd68"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "8031d4b998aa30cca45d667aac540a18b843f2394df13912833780e1b55facad"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "a2e59f1b791af004c719ea46a28ea8162b087e48a864d008f5f38816fa522ce6"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "c0120f8f4de43f2f35af58d6a4f0c8258ab5839acd8157625e166bc68f35f808"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "ed74af422981c894b9a3d43339be55d7fb95bff606520c71bfa26a6da4bac988"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "d43e03c9e835045dc7381860800f9f62911b7b54f550a1a5acd3bf80f55f2789"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "4de2ffe6bab7b3de3197dedd456ee547d99f81ca7767f74fff6068dd1f4228e1"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "0eeef7ea94013dd5b9daf6c0ea00e035a46303019c1dd002bdefce649bd59cce"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "99d67091dc65dde8dd46a6b3f60a939bc07a8b87c237028fcbe588d245ffdc8f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "d2688a31e880112b919e4eb5e81dc325a0ca758075c5da2899d02e2e97a6664f"
+                }
+            ],
+            "file": "16c-acdu0794-us-twz-part01.ps1",
+            "rationale": "Request prose, greetings, and conversational notes."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "5483c0ce36010bf3f30d48d7cd924159bde98923a10a203a505792e2f38591df"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "5ddb73f6f7de0eb9c1cc25254a70a234e447eea3b4bf2e0a4d687de6e7e8d45d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "90a73ab5fcf7d130df9b13975ccc596de3062b3d21e9b87b001c0f9dd765d1c9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "d97f57434ce6869b40be60c0f377f20444388f230947957f5553e032800e26d5"
+                }
+            ],
+            "file": "16c-acdu1292-sc-acid7-part03.ps1",
+            "rationale": "Quoted horror prose beside the artwork."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 39,
+                    "sha256": "f9d09ceb0c8bab869befebeb28d5bcdaa069c71f6aa6c87499634708bf47a004"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "34f533f6400a1d6de51f363d029634629be5bd1cf74d8d1b25efc8d21d44dee9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 41,
+                    "sha256": "5c6a37e09755f851a4c6a03c1e19414620b1cfc126533a6ba792cdad238ec30e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 42,
+                    "sha256": "d1c54e20476e5455d1d114ca4460c0317036f3e6c245d5d00c6997e210ee716b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 43,
+                    "sha256": "ef1f2f5217c2a30e9eb24bfaf8303ec9e8611e11b5f0308e521eed5a12df8c24"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 44,
+                    "sha256": "6161b75fb21be82834f16a56de6a7b0eb69dc93dc0aba03508b31c4c25241762"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 46,
+                    "sha256": "d4d82bcaabd2f7caf5241a89f5160d7db01735f95b7933838e4b23313bbe8dd9"
+                }
+            ],
+            "file": "16c-acdu1294-kz-tag1-part05.ps1",
+            "rationale": "HQ, network, node, system, and sysop promotional block."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "98d8e1a40284bdd954926726918c12ea87d9021040c5c4c6b8ae33d48a7ace95"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "9f3fae837363cecdf206a0cf48c436821710735d8e19234b7293d0a7afcea148"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "2bdc6f9781ea137fe39afd707792cc2d8e22ea7f4d3f2d3dce5687bd72629464"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "bda3e91ffdd77d7aa69161f57db1c8854bfe7a7350703bb9671f46400a3ca579"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "a5616c2e8742484b4be0ce709319d06fa6e7c85b28bcec555dc762996f4fdbe8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "50becfc300c2473ea539942e3ceb3a49809871ccd0c403d6522e03afb18e415c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "5ab916c4443c2bb3d23d82c06fb423549e520d9366f70a2b3cf60db6de831e67"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "408cf5b7e627d80d224090dbdc94e513766b8eb344292dd0f67f9bb688041f4c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "8f7b39cbda32b9d2b093908829342ada0021bb3297aa65d8e736f16db12236e0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "ed242f6155e21149d9f3ed48667c43ca6101c51df0eb1cc52bfb0fc0d763935d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "b08a0481fb9bcd8daa18d867aaf1649ae92d7816523df2425a308aaac43d1b80"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "3cfe557650d64042f90732fdad7fb292fecd3276a514e2110fb44264ed141c23"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "ed89753bc2513a7effd03f100776ec0421c0366e21a0524a0d7cab604b8f05c0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 37,
+                    "sha256": "9d35193b8e9217ef303b5813df6fdcc73adb87f3dd714ee9b8a6e0d7e53e0345"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 38,
+                    "sha256": "c74ca62365fae77245b0de55d4546c23dfee823219ec909e211b0b3fc1872856"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 39,
+                    "sha256": "d379655bcb42e2535e74a92c665fdd62dc718c0c1429fcdf4d64cee6c0928f1d"
+                }
+            ],
+            "file": "16c-acdu1295-us-trom2-part01.ps1",
+            "rationale": "Release history and conversational note."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "b36adb751a89a139fd876d5e540e889638305ffe778412d8049017e33986c40f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "1d4679f826e4490312659a3c57f7e3d199564ba50d5a65c8efd45696955ce63e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "81776c3e2ca3d976952fdd191594f0cb131468257b0b3923471a33eae2e48ef3"
+                }
+            ],
+            "file": "16c-acid-s-z-soulacd3.ps1",
+            "rationale": "Repeated distribution, node, and sysop identity labels."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 3,
+                    "sha256": "46b70955b3a5a7f42a23c716d83eb5294e6c9afb01badc7fd06260d189059e27"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "bc5db05508bd34829e39b744487efc5302c071dc17beb0f8afae5e26d4f957b2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "87ba4c67744e0255fda06c50da59ae255b161c1930d514bbbd9d416d7bf3a439"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "16ab1840439647317571041a57581ceb5141a4f34bec442bfcb96ee263a19cfb"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "bfe2d9461647ab9beeaeb3bc26d0fc0086171ffda7c0ee8749fd844faf40901b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "1b7fb013cb8651c39ccc3d7953b8445279af4aff901302c00bd41bcc58c0600b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "1f1834a746db227b511f055f50c0d64a5aaabd7cbebb2948d7aa58af678021f9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "7302f69afab7a012a2301948633385fa7db64a9cc6eed1a02302cc343fc407ff"
+                }
+            ],
+            "file": "16c-allnc-01-sz-wzgrn-part01.ps1",
+            "rationale": "Greeting and admonition prose."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "ee71d466aac6b60f197d0c6dbd05eef7c8ef3666c8e3b62ffad6b19d4b6611dd"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "7cc273380f0474c7eac2f7ffa31278e6219a807dca452e9829af4b45ed2221db"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "63dde25ebd2d6c6c5e90fd881a9d73ecd4e79e980934577508ce356f2ad0f842"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "57f7c973c6deca3411ed6893225d9dd6ab7d71443a650bfd9a499b3b4d4eec04"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "d537c4133aa7884a709e66f6450f5667cd4e037582ea403779f75073ae7e8ab5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "180e1051215d3cff1ba475e12c9af29a3519fef93ecd1067261a36fd03788753"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "3dfc9ae3f18f23be747b22780614558e88781da4b0ea944af6ff797af09aa6da"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "a938d6baf2ecbf9e582515b85a03f875957f1cc58633304392e013ac1cb44e94"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "c76c6046d8bebb4119c3a663a57bd5fc6c0b778075f4f3d9c2235ab02c087678"
+                }
+            ],
+            "file": "16c-amish-rumspringa-misfit-billy-penn-part02.ps1",
+            "rationale": "Two descriptive prose blocks inside framed panels."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "f2de14df118c7860fa2709a2dca5114b03484a91297eff7b17b493a94138498b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "a0c64aaf77531c9031679cebfe1226158ee43627a318561de9116a05fd52237c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "736d4155c34ed0535cfdc1e64b3769201a5d8f2c151127bba17a3d615900b7eb"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "6cace9b911ddeb5ab543234219d9243edc0814f33922a0ac18a8b0e34beb6851"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "717bbf98ea406deee0d2b19766b0131117cb9b9042b9d9dc9fc64655b15074c2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "7ec74cea8c346c1b77961bb8b9e92d0c8e104464e98c24048e6d8fd61d49e556"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "277148e6d865a4f0e2b11420de178f7856eb7389f5ac0da585189b6267bd993c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "9ef842ce47a80b3e9d4957e9d6868443151d5bcd40ea7c398355b7ccd35210cf"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "490cc4f9b418e126631b6ec950c6a3c1519a24097f20d800ece051eeab30ff89"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "451d244b4041aefaec3ef91cc11c05742c5ac8ccfe83672a122476e7dcd9fee1"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "b2c87158327196c872d35a1ef28595db39bd79ddf8fd4facca679492f856fae6"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "1548dab1d36bd55d9544d78dfca171303356ff30548df1b2f2d24b64a481a5d7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "ed3802810d9853e83186d6c2d40ae46f80dba64c5b2cb4e57070740faf45859a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "bea72b655937fae6ff90d95a5ee8b567b438e49ceec6ebd44cd9bd7b867905d3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "c2321dc11bdf7864bd2142e94bcfbaa332dcdae09b46956562d6317086e97d5b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "f72e4f406e3c6fde6a19a9570eb8ccc635e1e1a3c855931832a1c83e7a1844c9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "74512b2e729af160635fbbace033fbba1a3ada99010fdab1df81ac3f278d6ab3"
+                }
+            ],
+            "file": "16c-apathy06-mt-m33p2.ps1",
+            "rationale": "Artist commentary, thanks, greetings, and member roll."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "da7ae00ddd28d7d9a43981ec051493f2b6f638f8e37a69086674bc72b4a4f90f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "fbf23ddbeadc8ace08c829d847a11a69158ef7889c0fe0f4b856ae454bd6abd6"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "554baed222f3517e67e0703d347b6733171d8b81260bfa3efd3980c8ca480541"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "97a18254a4f3a4cc0b43a3965fa071b24fc0c0d33c28dcb4f875f6e3667a9788"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "c27372bfac94a4072086355bb6d1a5c37138a5b3e8af2a67e688fca7581285f4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "41a994b030f6c9d61f60c003457489113c433d83999af57b6548de23b36c00fe"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "97b7a07bc2e4db81422ba777e3cf65cf1064d69dd12d88ace627f929155fc09c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "6426ecec07f3a36de41298f07077f20f8bd99bbf92d228d7afa8c65ce1876f4f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "8bbee41995154e2ebf5494408a227b2451374b9a87e8d57faff693c7b57ce50a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "ba195c099d6d2f3d739f0246f46c9e14abbfaf9238595258858a1659fc622bad"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "9117bf5a6475a51b38609f202476552dd447688983a60c9e6e64fe1def58f529"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "bb65e9992a4b314aa44d975521cba0f53587408a40cd79368295056ae03a18a9"
+                }
+            ],
+            "file": "16c-apathy09-ts-ennn0.ps1",
+            "rationale": "Personal commentary and greetings."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary+prose-heavy",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 2,
+                    "sha256": "c7fa4860f7a08cb2e2337d128cf37f2fe4f6062903c3055a808dd2b3f53fc28e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "21b536e88dbec3d40a753d981946dad89702f5f323a8f7ee3cfdad120c908fd8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "0cf1207f86fe16ba43de4b172412d717b750669e82ec0a38f089a9c50e0de567"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "b564b3bc65a70183a319abe6cb2d452f48f1da45a71bca4b5c884e73b6f4a636"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "34059b604c7937130ab65dd64df1e8c097d82bc7fc6c28a5c727aa4b030df740"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "9ee3076c03ecb5bb6afe74577b1b9d80aa9b75d44f0f351b815e12e984d7af79"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "acf5b8e104add7a14d99ef82066bd2dee45b32eae1d03d6d80286ebde3aadeb3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "a52e7586d88276e1df952a5c9543097c6851044b5e36b05132df8cb7fb3f4929"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "fbd67a9ae58423fa5b9708904073debb12b74b3747ea9376c7d16f13dfd7cb65"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "53ce3d90e3eef872b7f9276811f03db3f89336b9039b2e7b80a7d1199318e7ab"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "c0b3fc2c6404d2daf5725d7fc6e7d36bf6130181f581637705bbaa1bd6736a3c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "7aaaaa657b9d30ffcc133261076fb2c628b97bc310ae483e19c85eb2e425b8b3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "297ecfba78a5b8ccef3e7a2e7945790e1e61422ab0dcdf12eab4b7fdf6e32e3a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "4ae07dc1d0fbd02d1f21c61f51507e25b4cba8761f2b756ca058b46c951088c1"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "d55cf4a10686816dea90392626a3602ba9bb624e1ecf6a951620f2f5535a2804"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "197c83bc967b26d2cde95b782f4f65426c92b64963348de4fb6dc171fd49d938"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "b213557a07948958a98796066a018423fa9b8dbcc9302d7c288b7c1688647b51"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "0283125a44561fc6b3905ba73a8ea2d0441bcf7af2483ecd9fb79a0ba5d57e62"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "c3ad1a97b68695ee0ae5be75327a5c355b35b387effba1d172ffec5b0a12d50e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "c8ab3bbe43ea546fccd4b294216caab587a317edc3a6bba13fe47b834a46a61b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "541d50687780c7aec832609ceeca30092a302fe24dfb456fda8ab21fa3d28542"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "c135487d6106bb5dd4418f9ef65465764248aa80dd833d0e78193649282666ac"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "1843f0d5aba435a5366e3d4ab30ce35220e321ff58ddb420424c234ac95e1861"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "fe7029d63cc76bb34eca03a0395b9762847e78736190ae2db398f1ce76fdb360"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "920317e10ca026b966f7db8d2aa3feeba4bca9de61a34fecb394153c2da8f176"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "2eba05b1b48e1e8b74cfe9d13d9cb53dd8216f8e9ca7245cb208c41e5f433e8e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "a303a93a941cf71b35ca7d1227c8c4048273bae15a2f90c1a341147483762015"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 37,
+                    "sha256": "a34e3d9b9001191eba7d733952b5e2a2370853420f98c4870622a1ac80140fed"
+                }
+            ],
+            "file": "16c-awe-13-tna-wise.ps1",
+            "rationale": "Long scene and release essay plus closing note. Remove the essay, headings, closing note, and visible signatures while preserving its ANSI frame and illustration."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 44,
+                    "sha256": "f41eb0ffdf56c6f0abb772e5f3a4e2006a6b7a9614dd13f8450eabd442354e8a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 45,
+                    "sha256": "d01a09f2947cfa15b3918dc65dae964e38d3f827580248799c6412a742317966"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 46,
+                    "sha256": "2cd56c6da4fe8be9790f3f625c9f1d547b2bc81fff708543fcbe2354a82030ff"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 47,
+                    "sha256": "eb181db83ada5d0fff21db14e3405942cc463ef3f321a7b29a7eda193a055c35"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 48,
+                    "sha256": "bcbe6e94b494fe961a8ad82a84744a100e7b8436b4dff45bfd611e96e27a2f30"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 49,
+                    "sha256": "8f6ef24b987d313b8a2d986e92b3d35a995f49d654882792c5fdec89ba7538e6"
+                }
+            ],
+            "file": "16c-blde9410-tp-mh-part02.ps1",
+            "rationale": "Member-board, distribution, sysop, and system-description footer."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "aa402efab1a3008f7b8c5edeb1a21e36647b2bbfd16b684b67b1ea4510e54224"
+                }
+            ],
+            "file": "16c-blde9411-ck-dif1-part04.ps1",
+            "rationale": "Standalone greeting sentence."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "2254df9bdaad678a6cd10395c2b7b2e88efc0ea99452a147212e4a19f9639139"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "ff9768fef8390fdc86c1f798230d82f2dd332d159d982fec0e7f4e41acb4f363"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "29db5e58efc45bcbf3ffc2597de119705e69ab2f36df6710ee0b84aef6066639"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "fa0b3178dd28dfa9fd31b397ea448f6bf3422ba4e1bb50e28fe59a61b5168799"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "f2cdac4bd1e52f45c4ca193c2ded1a2a0f9acf4f2dd9e1ae95346aac24d60562"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "6a64f0c95042ece228956063f0ef45b17172f0464347020626a60f4bec47dcc2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "f2dfaf160d31887e8565145366861c59d3ad7efca88243c89e306336974a9e11"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "f72b583368273b0e6946c31d3ea0d8864e457e60ae1ede1dfbb563c62462ae13"
+                }
+            ],
+            "file": "16c-blocktronics-awaken-bw-acidprod-part01.ps1",
+            "rationale": "Dedication, quote, and release date."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "5c52f25a893b8928b66b042f35751dcb0e13d55a7b5ab59b05f9a67dbe8128fc"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "15dd5beb2f308bfef39251946adf404c2a35cfabfa1027dab742db4da4fded05"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "587987370d6db6b37f2eb8f6a7edb746d13128ac1427d3c9d5bd987e1acad28e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "a87afed3b77828dde7ce8b1bf3f7332325c39f0b42458f2f0ac5e10b341d8e6c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "50faeeaea2be44c3a3dec1863788f2109c45437c82da04f094c5aed6d78a3a22"
+                }
+            ],
+            "file": "16c-blocktronics-blockalypse-bw-blockalypse-part01.ps1",
+            "rationale": "Welcome and download prose plus release date."
+        },
+        {
+            "action": "blank-text",
+            "category": "prose-heavy",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 2,
+                    "sha256": "5ea84cf967518b21d15fc32fc3a66ef507567d1e77da3dbc18e8a7bc31230afc"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 3,
+                    "sha256": "b7d79448c72801bc3ad72b23d8043313704e2534876023846b627e5d22e0fc46"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "03ab9d1c0210b9fd2e077bf3bc2f685ac077940f4f32ef9eda2b4e9afb7a31f3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "81b9b777749e0c6b518580fd0b2e9d051ef0d0a585463cf1d2d8bfaabdbc710d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "b5e85814ccda404068100f37fc25b5dfb3569221c2d8a8a49d1fc2275892dfba"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "c75c4015c402606dd9ec0b3c497c3edc141dedcf58429eb6a95fb05b905ce6f9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "9cfca499ce288940081537234cfe2f636136842d770ba7bc4266431ce2cf5644"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "6f4655e1ac2499d3c6ebd446fad15eac9f525d61d8104568f88ffff037037a70"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "26076ecdf3b67f425001b7250b9cf287671319dc67df4668db267ef849e94042"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "3128bbcd9f1bb0c4f80dcc3f48b5f63581d8cf2bcb8a5989c350bc08a54fd1d0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "413aef3b121c7ad1d75f07594a67e0782bbd580f89ec1b0312bd6a3a86e18565"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "d92c3f12a5cfba6b8180c2534d5630bd7dc976ec3a0c2f6c34954d2d4e39ea4e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "73588b9c134ffd6917d3956f0e7212249c0651100c11351e81c7652ed7e04428"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "7fabab264ae95b5d0fc01311a882001eec57ce5163810118f70649fd09c02b7e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "aca0d15553ff1c846cce636fa2a5ed1f3f848eb75f448bc7f452da5409c9276e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "5bc699e22dd7148e1cc20d43f815cbf70ed8fd42442eda324cff09ae7032470d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "71bd3ce0bafb8360697e341ca891480e9e6759ec3f31b7853214794953b5f063"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "fd5646f6bd9710e29a12947109292fb99769fb8154c3c39773e9c0707c3f469e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "1a7ecc52979e38541e70b8bb089d865de26bf3eb01d175eb2843278f2bda004f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 37,
+                    "sha256": "9f95d1c1d357a066c70c1b3e5da3806b9265a9a72db70d6fda085979df835861"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 38,
+                    "sha256": "1074657926467c39a04940b316fa08204e2c1064336b49faa6ed320df23c3cca"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 39,
+                    "sha256": "67636c388b60cc9c7f14376e968bb4b530adae47f355e6070d48093a1ff807a3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "1b9a73c8614971256bd28c5f3f0393de3938a91cd270901a6d338269d460cfee"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 41,
+                    "sha256": "c45b15aca9b5348706597f498a42bf25ca1195af4a34d16e2f9853cc19ee50cb"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 42,
+                    "sha256": "a8204d9ac872fc35894992424ede07347dab6b94bdc54ef83ef1f259e132d7d6"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 49,
+                    "sha256": "d198a01fe83ef6a3278c2bb1afc6721c05425f3b4afc700345e4fa41094dea8f"
+                }
+            ],
+            "file": "16c-blocktronics-resvolution-blocktronics-res-v-olution-part04.ps1",
+            "rationale": "Remove the release essay, headings, signatures, and closing slogan while preserving the surrounding ANSI composition."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary+prose-heavy",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 2,
+                    "sha256": "a303fcc7bc7b3d8d7d4ba82114e2688225bd07eb32652daa35a5b9b14c6d36c9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 3,
+                    "sha256": "65965332d1c951f06e18e5f9bf30ecffd1da32d727ea6866bd3c6541f5603155"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "82972b2386aab3f30a49a1a16f132a596ec23dee7a14249e30ecbfd1331120ed"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "9a71f6e6dd789586c75abbc7fa8bb108b281832da037ee29d5a4a2f0ac05008b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "48d55ed73ca15a37b4548f7be7b560d62f42c22ae63a173c35cc59fcedd1fd4f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "95a84569d80ba23a1bc9a0348ff320d11e84dbe0fef8c6e7481d98ec9dfa7435"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "e1f495f6d7c467e3ee329f24d9b148c5adcee8e56f6329013c700622146604f2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "c2fa20f1c59a03a45fc697f33fab07b1e56ffdd97f4e93856a4b2a9df24e6426"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "03899619153b6382c153f7b4a638138242878c2f34219120ae442f669627812a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "be7943d5c77ac803b5f11c3def8902b927a788f7e6ee1d52665f7eb6a2a08c6b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "b29adca0d329a51e0a0611cca4bbba1dc92b721f001a182169f26d799e687d61"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "65739259188bd72fd2a5f2f86c9eac64728f31906b2343e6292d78a401a7a618"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "908640b6433884467dad7093aa09831a224ab414cafefa45ef699e1812111d94"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "0cc6234bc5bffda3c351a8f47dfc881db281ec08ac965be620c11e5a559ab0d5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 37,
+                    "sha256": "631d9f95c24e85d62ff12df3dd49dfac8510a9d420b9cd901655873e9d77dae5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 38,
+                    "sha256": "0dea5f2dc531e8ac08afcae7a17baddd71b644ea4492d83a110ec32bb9d9af61"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "60d474cf34698c00e9eee60db9f4af633942c757fe38f5ab07a8478cd6e2721b"
+                }
+            ],
+            "file": "16c-blocktronics-resvolution-blocktronics-res-v-olution-part05.ps1",
+            "rationale": "Pack commentary, dedication, and personal aside. Remove the release commentary, credits, contact headings, and social-site labels while retaining all frame and shading cells."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 37,
+                    "sha256": "f789c81034c8e4e097e95ec5572980f80dc5604da77271da3fdb3140a1556ce2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 38,
+                    "sha256": "b5f249f8ac5f8dffe7943248340119d675fec4b6790e48e4b8b3fe8927aeb838"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 39,
+                    "sha256": "611673d02e1406ebdf09bc8dc5d319f4861decec69c2c47466635c003381c8f2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "5de5a9cf7c54b5ea1ea7ef20de8521eed58b17722aef40af735f0984742f8ddf"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 41,
+                    "sha256": "08198d5181581af25d7a388086291573c6ee1bf6d83c1fff7c75ef7c7c5f2ffb"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 42,
+                    "sha256": "8ea8ba11c9c4ab2368cf2034aa2df173f64087002afac2bebcc6e97589b3d2c2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 43,
+                    "sha256": "572025b299556ce7c43fc7de515c96d7bc7d6e13c17633e7522ca6187e4363ee"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 44,
+                    "sha256": "783ddf0e026c266c3e3a5b0a57e832e9cb89be3ef70a2af2ac166e4413999b85"
+                }
+            ],
+            "file": "16c-blocktronics-there-will-be-blocks-x0-vz-mutant-part02.ps1",
+            "rationale": "Release and tribute prose."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "f585a23b381243349bd25f6ee54b20e57ac8c70fbe5ddfac66701a396c4b343e"
+                }
+            ],
+            "file": "16c-blocktronicsonice-wa-ice.ps1",
+            "rationale": "Standalone release commentary."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "a5809239fa13fbadda48dd3ab8e62a6c00155f93025e7666b0b8eceb625532dd"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "a982f652f93de0138374ae7e12304240fa7e141ed91932dbf2b7f05439d3b21d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "fa6b33b69b021b9b436d86fa2d1dd54a8f3b51991e00de8f5a854600eef82fe6"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "f07db2b6190db4071926ab5ca773b5ba9732ad7d128228353018c11ea3fad18f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "03dbe9f8f73f9b722f4cfec0806f1cb8638d93e8a98e3a203f2417d7fabbf592"
+                }
+            ],
+            "file": "16c-bmbook19-pn-go4.ps1",
+            "rationale": "Release and tool-development notes."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 3,
+                    "sha256": "3b691010cca1b8b8aa413963cc0799ffab0a958412eb391c673f78738a0541d9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "ee57419b9a024c706a13aa698508e0443b01c06a98b8abdd971ce077e1743d6a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "077dcf7e82c430d7191019b22cd5bca9c97e97e7170bb001ead8882b04ebce67"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "975d93d8fe18f0aa5dad52a87fabf9ec48c6b5feb3f6b5952f282562a7cc5490"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "c47a77b94619e59ee84a41461ffeaecff8a5c9b6e650fea32b6a345e0b664cc8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "18944556a83422b81b97d48f0fd738a5b19a7d48a11ba0a9d976868b407cfadd"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "2b16ad89e0e87e7232ce7b1b35c2a93654bca6d3f09accef70705e16dab273ac"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "8203287ae34d24dc40657834779222be0afb4ca5b3441484a208255280528f1a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "dffcb58050ec3cff81dfc4b236cba6a1fde67abd5f157fd851b02acf634deb29"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "483485058acf0a5fe440d3918c6e6e3e9273e44a55c2ae7cc0d09a82cbf0800c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "0d8eae14583c53996fa00b835e1443d159181a9feba0b748b6182c1f96be5e02"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "9a44a75f15d2c579060a601b668e85a0fd7abcc596ae15f7a2c66ce8d317f508"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "b688203b5f7f7956fa39cb2be624bf72d617582d98b2760058d66281d863a6ee"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "4185cf365904f7e2c98e739d6c74a92fbd53afeb64759c0fe97b2dd40b131420"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "8e1243743c22aa3eb5086cf1d938dfec314e43eb077767c4b29a116f4515ae40"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "116e158e1f972f0ee9efd21c58337560ed486a3e82df542364b100e59ea01727"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "746ea77603d550f45c9b4530fb01c3421dfd59955aa7da78dcd4633aaeeb3bcf"
+                }
+            ],
+            "file": "16c-bmbook19-shn-snow.ps1",
+            "rationale": "Dedication, greetings, and holiday message."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "02c13fcecbd9b2205ccb3f13795dafa15f55a226583a45ed011c5d85f5fe1fa9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "27e22dcb144366fcff8657da492a4058934dc807289ac783b07d74aaaf45df0d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "2269d2eca26fee626910b0d29fb1689dcf807341c86ba60e0810a7989dfdc3ab"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "8bae30500bc6a576a6c985c34c2548d1881e6567ecb162e510e76f83b586e63b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "9ef4f5248199e51d75a39ca374820b2f8da0564c3caec10f9c548fd308756895"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "21e9ed5ba1f808c4268452d9dde3c9ac1c14251834674741ad182b7b07a7362a"
+                }
+            ],
+            "file": "16c-cnc-0395-en-cod-part01.ps1",
+            "rationale": "Greetings and commentary."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "8ca95ac0d3377cd8834ffa897265839d2b9a6b1c045b1fbcc906d32ae81785ad"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "4a8e0569eb5fdbef952fcf053ead6449af1f1fd70cd1530d1d1a5c3ace129f55"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "c968eebc34a938aaa9cf8d624e5753fa544d5dc8f1161e9b86fe91af87368d22"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "81c90fdbf2f47f4734d1f5277dfd8068c6f4f4bece880ae8153045e2df75f85f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "895051524254b6fc244879882d334528133a31920ed5eaf9c98bc945867b1b11"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "363e04570343795ddb4c230a1cbc0a8f721f1fc20a069698971d50d70969dccf"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "bacc81f25289911fdc4ae2c031f784824df014cb65bc3485aa20a622c4c7181c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "61f53ca73d734ff40c631d0b269f82a660864569500d1d0a770259b75505c1a5"
+                }
+            ],
+            "file": "16c-crd-0995-fn-ps-part01.ps1",
+            "rationale": "Standalone lyric and prose panel."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "5949acec4a931711ce7901c2796b38c5ab3f1e959dd679085180fa2c6813d261"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "c086ab2eb4dad0a7227890ea962b4a49633a2954a2e64e6812248572f05026a0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "c7e770f8d7af2228e8afa3135daed3f1b4dbb08ca0527046501a0c1f0cea6bb2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "fd7f8a4768e706e548685a8b4158256388e14c95313ac654540a2e08f9924b49"
+                }
+            ],
+            "file": "16c-dead-sm-id1-part02.ps1",
+            "rationale": "Sysop and network and HQ affiliation block."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "f678031408e0c571689a15e95113bfcf89bbce6add770c5fd33a27afb9f6ce5d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "b376077824b2655b53adde1e2b0a543eb223145724d406b993aef4d06f2aee2e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "32f3d4c76fed1e1d180f30a908b6d25292f00d258f40eb40a133c06c3f79e0b8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "3b6a2f6ff03fcb184741876b0c5b0a24644ec3a8c192f20da4847fceafd24030"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "14f201cfbf62bced0cb04a6f0fe9f859328a42df1214be4274f7dccb5e69f38c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "8fcf254f72d3a4022cf731cc2be18401bbf6f99d43d5c4ac6b2f836842fad2c7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "818ef1d7065d89b29b9fc16bd8ef61b3d018dbcf6bd27a633468ff3d52a69ab4"
+                }
+            ],
+            "file": "16c-dox-9703-wr-si2.ps1",
+            "rationale": "BBS hours, speeds, ratios, distribution, sysop, programming, and file inventory."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "15082631d39714a5e90e75a7f783ecdfaba9448098e51d5460cc7758e0f9409f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 41,
+                    "sha256": "ea470e75d3e96ccf95b4ffbbc718727961d493dd21d6622c403448a19ff3871d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 42,
+                    "sha256": "bb3b180e1d2e2597a1d6634b7f3509d47cdc382fc31b2f1f7018ed6a5cbb045e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 43,
+                    "sha256": "f3b0825cbc2837e06e0d5514eb79767caf2716c7725047512535f4964645883b"
+                }
+            ],
+            "file": "16c-eden0395-ssap-pr1-part03.ps1",
+            "rationale": "Four-line narrative prose threaded around the illustration."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "a717ecf840062bc257d2ed637b8ae88d7f63dcb5bdb4e46036431b06c6a11257"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "3a420ec4e7f7d5bfadd736acffe5fe6d4e98bba071dcce3172879a2c7bc7cd5a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "b107cf0aec0d87589a0ba4e02fdb5060808a69119ec8de77691e0509542c0d60"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "4a393d006fd0f1f49f4ce3d75e80aa1b378c6f74443c2971e081ec96b7d5f39a"
+                }
+            ],
+            "file": "16c-ensigm-tg-crypt-part04.ps1",
+            "rationale": "Sysop, access, software, distribution, and file-inventory advertising."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 3,
+                    "sha256": "ec13d7cd33683e9a0e0f8eec67f6e5da7d4a304960491f5b90768ed447374015"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "f3e5346dba53ff149414f5a1a4a575bb74688344f7778298e6900d4545c2efb3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "c290f88b33ae07f3112ef2fdcfb2442f83e91948a1f93fe1287f66b56384a5f2"
+                }
+            ],
+            "file": "16c-escape01-jz-trn-part01.ps1",
+            "rationale": "Request, greeting, and thanks header."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "722841986c4c46be25e8c27e1ba8b5495b8a2e4ee9a2b8180c525029b070abc8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "09ad5c95bce5a8c66e49b143c855ed816fc9181b7c7f18e785c7588a92d3d700"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "65bcfdc7b27d91e72233a577c5b9c37ea4c217890d5ee1412f548523ca05fc31"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "e1cbab3dce72397f65d9e67db8c4947e5f1b28470d08cf26856781388d74ebe7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "b769399351096682b5bc88a6b8d4a9cad3dc8a6fd7b73f1337e8ddc7460be0f4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "71cbfa0b8d8d4cc02d9a8471f8d29ce4d206b08173a01e86c1e677eeb829bc3f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "ab15387fc77e3d64bf54c0827d47d75e6ea7ac2001e10e607b92605765ef568e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "d2dbba794f29f3c71b268fdc445fa2e4539244fc548b0d71864556791a8c7e78"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "3861b5be2a43bb69291cdf4b57b410ae692c779306c196fbf6eb02cec08a559c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "7ecbe5a6bb8d5563f9d29a5074e521740c4ae3a2434e4583c3c02b611033c198"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "e7009e56a89016c93920d0449763b617408560e8cc530c87753c235a3aa2a100"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "51a38351a7b21718a96ff29543dbed386c7a2a1a738d553e3ed497d6aacc75bd"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "61da675e4d8c859f3700ed5e7671c1355c59e56944ff35cdc391ebb8556459c3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "d021c278ca55de9b51d5af561ecfb4820eca7d0673c0ceb01de65b1839bff419"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "ad688dc85be921f08f4a7559582b852b591346674082a3fc4f7d69ca9301ffb7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "763c7e67c5f76a296298dcdc108b0342a3b67f7d466b05edb7a0d7ed5523be12"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "37abb3856554793b6e51ac0073d799ea34a5ad3ae8577079a857617a285cccc0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "d3c58988caf301796d1fde2b929ec1cc4be5d996b51e0fc58eaa035a3d677430"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "71d913d6eccff5e3cd68cb4eef1a19dea3fd5529208131f411ebcbe7e2c58d70"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "aaeabe4528978727debe2199f46aa45c28ce478a0946473e8d16ebf00a8f015b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "edf1539272477a1901282238e8d80167c4b20dd30affec6007daad41254147c4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "ea0a998c31334c47a6bfe00c3ee6ad125ff9fd2202ff45a320fd8c2a93e861ce"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "52dfb0e3a0e9f78809bb29e4ab72db84d1bb7d8123891dc63029feed8a66c558"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "30b58f829f9395f509b35a22f834e11ff1d433b66f4955955f161a304be0806a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "971ef8e5b896d5a05f1a4b5e25f5c127d9c13344fd6586f000a20832a5681e96"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "9ee38c5c07079f02b9f3bdcfaf21da3a0968048a8d6e6e4998e673c9258ec110"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "568bdbbb2230349d0073a3ec9b971198f474cf3c362534e48cacd8eec110ae21"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "324ae61f793050f23a6dad4751c65558e7471c5260696f5d10a7d7fcfeb41952"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "16b6f12d1d94126294e6fdf47d81a08a15d741bdf67379a7c1e02c167373270b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 37,
+                    "sha256": "8a7ab94ad68c5978ec27bbd490c212d0390129f47c23716daf0a9b0aab389cb2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 38,
+                    "sha256": "32eb7356cec3cad82a34522025758fdbb1a1f741e3e944103770111a4a2ca5fc"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 39,
+                    "sha256": "daac2997e4a1dab1ba7887ccac889a8955e70207c05d864ef6db75fd459cbad4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "c5dce7124734937b488d48a373aa626279e1b91ddb87664a9dd0fbd4df27c0ec"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 41,
+                    "sha256": "9216958de6f2f396e7b3227cc8bf74f439ef0523e93680c9ae7ba9e41cbebe58"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 42,
+                    "sha256": "3c879f94cead0754b6ab2f8e7a1690ccaf05a80f3c3e9cb261f9c223a044f456"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 43,
+                    "sha256": "02e7c43ad86a12e3808e6416624c4b3f913c503e3335ec463142ecb5c1be316b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 44,
+                    "sha256": "0af8139075152230151785d69f0d42b464f1e51a64a680908c15a3c2ad52d545"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 45,
+                    "sha256": "a825d66298804bad9327901dac08164ad0ebfd6f1e482f971352e89fa00853c5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 46,
+                    "sha256": "41371123fc668d8ea4eacb37ff02d6d24d56631cf87e7a93bf30efe10d00b383"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 47,
+                    "sha256": "56d272ac382a79df9d73a974a036f45cede9bf4c5e5ae4e1b54c51c28dc82034"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 48,
+                    "sha256": "1c2606cc48b9043a892eb94ba38a05113c027ad5d549c8940d53f5173cbafada"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 49,
+                    "sha256": "7b7889aeb74b601154175f661da08ded05ab3c4f0f9a6ca2c6efe56e5f17e9c4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 50,
+                    "sha256": "caf7fb4246e101da042e944195ad5cc92bedb7e14cb259b2169d1c32f8287c07"
+                }
+            ],
+            "file": "16c-fire-36-zir-st-part01.ps1",
+            "rationale": "Continuous poem and prose overlay around the central illustration."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 43,
+                    "sha256": "291fbff5b8779cfa316fae364d5cddd612e9cffb3706185ebcc251c03ed92941"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 45,
+                    "sha256": "eff52bfd5049a73be8fc90ef4487d894fe7242c415d9e384990e475427bddb96"
+                }
+            ],
+            "file": "16c-fire0994-ep-fire-part03.ps1",
+            "rationale": "Artist recruitment and joining instruction."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary+mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "63725491b54588c3135751b13fc30b279b4e512651af8658bc7a963f2c03b3ad"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "7865bd705cbab97b72ebed3cd04d55068aa8a1c53296eba23f31d74382763911"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "8426f0cf233cd9c84703dec508f586e481208a2267de46a2aa4c4df8cd10ea57"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "e9073ce7fac4e89ba3b7750ae820b1c5f51957e37e78fcb0e19bb105713f73c9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "c05bf26a320760d430bc4f16b16cd16e7ac5196773574db2692d7cedd113e8f4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "53e0767c1c873b9332ff59402c89cf7869522a0c7b06382cc98bb6a713ede7f8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "eb53c0fd3ee54c6ea07e2a39fbc9d15abd8113f32c1654dcee4bf243dac32975"
+                }
+            ],
+            "file": "16c-fog03-if-ah-part01.ps1",
+            "rationale": "Greeting list, verse, prose, and node note. Two rows of poem text around the illustration."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary+mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "b56546b2eaed3e1d1ca62b0d30676d4fe79f63d18ab9a755350f5f15ac928444"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "7865bd705cbab97b72ebed3cd04d55068aa8a1c53296eba23f31d74382763911"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "66be712a141efa05214eb5c900a2aaa181acc84330357fa10575e6f42261a724"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "68d82aa67b29faf5efdcb4f5371a2155311edbc27a7fcfd762f286040098742b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "5f8ef66125d7ab21a4b859374d9c80c58837e1b9ca9f1214317df928775771c3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "53e0767c1c873b9332ff59402c89cf7869522a0c7b06382cc98bb6a713ede7f8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "eb53c0fd3ee54c6ea07e2a39fbc9d15abd8113f32c1654dcee4bf243dac32975"
+                }
+            ],
+            "file": "16c-fog03-if-dd-part01.ps1",
+            "rationale": "Greeting list, verse, prose, and node note. Two rows of poem text around the illustration."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "35783a5b259e10bb97828279860bccb233046922daf7423421e84ab4b62441ac"
+                }
+            ],
+            "file": "16c-fos-0396-jz-ildzn-part01.ps1",
+            "rationale": "Standalone anti-ripping and BBS editorial sentence."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "0d8b3282c35414996c3e6bbce80db69802bafb11a373e60c587c2546125861b8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "3a5f41d691d7a8e10f197cae9878802abebf45fde0f3839d3aa6bd0f8beaa6fd"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "a302f292cc5f0d5c0952332fc5157fb0259da97f5328aa9fd0806fd0c2f4db80"
+                }
+            ],
+            "file": "16c-fsn-0496-iz-prev1-part02.ps1",
+            "rationale": "HQ, distribution, SHQ, and system-feature advertising."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "bf08881f906c66e97c803a8fcc3aabaf7aa970dbd9a8e832874f281c62161d4d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "a43cfda80d0abdf4ab06aa9263eafb00da610ca62d29a8af34460c1c6c439efa"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "e3b2ddc5ee2b92cb9479099dc56c318523c85712bd57bf2e8429d034577b74ad"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "6ec6ebb69cd2eda9f9c68a79363b9ca12e4400ab6933bfd430451379b18d37dc"
+                }
+            ],
+            "file": "16c-glue-19-smp-y.ps1",
+            "rationale": "Dedication prose."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 3,
+                    "sha256": "53208fa7144aca984b43615d01371c49d03a56f980b20c8c6231efb25215d009"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "ddaff56131ddd74ba59b9b0267e5ff40fc0324bb87b44cddc71fcc7495239e08"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "3afa97f42132c699ed2698bb2780fe351ca458e827f694c99b50c5af638d4afc"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "c900f211f3729676162d8830eee7d4e1e70dda8dc66b843f127613c1fe0c9ee5"
+                }
+            ],
+            "file": "16c-glue-20-22-envy-part01.ps1",
+            "rationale": "Prose and quotation beside the illustration."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "75dfb44a37f2cdb92eb04b44eacfa3ac6b160525b1c1ed9ca95b899394a2c6fb"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "90fc88510754d59ac7d1cccd3fae9b075cc9a5532ac87bc209586ccfc088f297"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "c6a48b0395d0c97268c568b0836e14420460a686a2a4ca5e1c5bf358bf0caf4e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "43aab4318b955d4b6b089253129faec0b92341c9612febd6876776bada6b7e2e"
+                }
+            ],
+            "file": "16c-glue-26-pg-nd-part03.ps1",
+            "rationale": "Four short narrative rows inside a framed area."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "a95e1045f3371d262b945fe1d1808e9d13f412efa9c34070ec55635c4625163f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "3d23c44fd4919589335f1e402d31a0bf3f39c2daac243461b77be438e887fc52"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "c4251bd726737a31ace738bdfded6585d75c09d9e8cea415fdbcdd7385dbed15"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "50ea97f94fb00c47994276a8366185dab3d2e14c9f0471687d0540366802819c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "4c3bf5cdf74a18263c6d45ef22a20a3584ddd2a45d6e7dfae731f2a742567a03"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "1d3e8b4151510333ece27273301e8e87763f6ce2c2e76f6fa13ba657015df38f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "816d648789ef6208dfc67f1e62d58e6dc7d76b69317c946957e4df1ada1995f1"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "6fc3a2cd633da15e020f6a7f3735ca54328129032c2236f3285fda418eb1b4f2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "875b3b6f129e890ae48723df9b30efe4ccc2d69441146e71441e3cb14dd54726"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "62c839e0fc038ee2275283f6f4b3e7ce36de8c7e71dfb636475236fac8e13fb0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "bd012fd801793e7b1c76fcca4ef44daf34cf1960481ea8ac56b1bae7dd29e00d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "d0a94f2770e2f7c81ed19451a52f8c7f1c28d05ccaa79df5a7a6feb00723acff"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "b326638b5432aca73f35949cede0a231cea55dfe2451741d71c4bb3228fa562d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "59d6e1511627290e418d0309b7f0947b05502301251daf6c0cb9b2c09fd4db96"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "940ab867e20a737df37e3c785c8ada08792ac3ae0bcae8592a0ffca34ed5bf1d"
+                }
+            ],
+            "file": "16c-glue-26-zv-glu99-part04.ps1",
+            "rationale": "Dedication, thanks, group commentary, and greetings."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "7e5515ef4168e61588965438173613adb5336d44985408457ebcef4da000e261"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "76475460aaaa8fdaf1b1b5969cadb9bd3791201f28a5f93628c95fdbeba3a318"
+                }
+            ],
+            "file": "16c-haze-002-nt-hum-part01.ps1",
+            "rationale": "Scene commentary and dedication."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 2,
+                    "sha256": "c9b282969bab954f7403f168d786f78ba55960d0384bd6abc499a62810e9884a"
+                }
+            ],
+            "file": "16c-hr09-94-sd-pin-part01.ps1",
+            "rationale": "Standalone dedication sentence inside a line-art border."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "8eb630e9cf36cd02fc02dcad7da214d8272e2a3a48cd4e6c985c81c083a71890"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "2b1d4ce84d0661a500e22c776d577f3ea3dc51df15729b9c50a158dd1da3b04a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "b556b2bcf9ee869844b11eb66999e55f8ef166cd827482dbe35495a8b30da4d9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "df06587fd4be6e2ef6901305a1a92f49669435d572a1457c8d7b8d32c8fd80c5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "baedf3216f2b3ae683e32477c586964e10457badf465807de1e3802263ccd23c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "dc9a796535e642d8c50f09e92962e8c16473ee43fd2cee00e9a1da6f3a6eec99"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "594a72ea1add68682be5dd38f0eb79747f6ec694e625b0887787bbf566c80f08"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 37,
+                    "sha256": "8a9c398ff4915de45e958044525f8cc90c9973a88bda6079f6f07906febe8747"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 38,
+                    "sha256": "3e82df2ce361389f5a8f9982c9076b88601bb48f1f86eb7c942e0c29be7d240a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "a78479c3a8c89b1adc25bd68c9f503a84ea744a94792216015e30b615af7a39c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 41,
+                    "sha256": "0f6dfacb39096b0ef1d9c761028b5c26bb3fb37032b93983262bf32a5c19fffc"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 42,
+                    "sha256": "5bf89a5d96543e4b410ae56d4ce6efb55a91619480806ea1ba4ea7eb53872c6e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 43,
+                    "sha256": "e20abdcd176a8cf73dfdf235dc7b07f85c1672cab22fdd9e4a35fe75f07488eb"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 44,
+                    "sha256": "66568d6dcb82e34551b0539802ac0e0030a7474941d41c2bf9ac5c698f9114c0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 45,
+                    "sha256": "02853baebf1bde72ce70ad43cfbcccea916d2ecc877ff3b533eff29598e80482"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 46,
+                    "sha256": "91e050bfb6a45c23243c6fa4b4685d2d9b7ba5effcfcf82b0a7da5015c059482"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 47,
+                    "sha256": "36b1f2d518b1bf37d3f295ab60e2915afd51a1e1e6056d2b6f05986e60015e57"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 48,
+                    "sha256": "5d684b25c75ddb794321fbb0460dbcaa483f09cbefcf82670f21777fb138cda8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 49,
+                    "sha256": "912291dbabef172a701cf4ff4c488b0bb045e0079b175bd0ac572941cc1d713a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 50,
+                    "sha256": "211c88c05402eb39e9732bca8e322ca14da05567909b535f80e74931727a4234"
+                }
+            ],
+            "file": "16c-ice-9403-tsu-soh1-part02.ps1",
+            "rationale": "HQ, distribution, and member-board affiliation list."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 42,
+                    "sha256": "0d9f02cfe2755a23d48e5185eee6e35ab25258427aa913738cbdb1a4b0efa04b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 45,
+                    "sha256": "e83ed4b3638d2a3c744fef923c95a886b0adaf8535ee33f226f238de28b20a3b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 48,
+                    "sha256": "0f536f06d577982ffc2e460fb68be75ec36453b8c6fddebede27b4679dc95707"
+                }
+            ],
+            "file": "16c-ice-9406-km-skel-part05.ps1",
+            "rationale": "Residual conversational prose fragments."
+        },
+        {
+            "action": "blank-text",
+            "category": "prose-heavy",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 2,
+                    "sha256": "115c90e0c63107d8aded329162295d2a0f86901a463935923e2c33e498036f76"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "65b219894f13d56a23eb6e8437d58e246e877c6bb1aff03660ec3790819cc6e8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "1a32f9627ffa74d152d90911d89b39c631f0c38115b2c938b9fcacc7b393fc2a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "d9f39cada6ddb52d4ad2b0120eae942a63f6bf3dd3ecddb0680e285ae2d80490"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "83793e99de4bd736bbee495c8cb0ea0a2ff5e00969812002160b81c4560b00e9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "b8610d99ecd2c6a62504d6435a46d415337f9ad57e4c3503d82a3a985244cda7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "9ac3604e7967430c14e7485f4d4546e83a07bd30470dd793586f33b3c842fefa"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "88f9387e11ea26327c37a5a4bc1a89287dffe2bb038ed837f040415dfaa4b44c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "38348698646cb1c96770bea808e2dff500a39dcaf5ff8495882bd645ccb45840"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "aa0340e4986a2da62015939b8048be6d4719f9d5018b8919ea96dddfebc6cb09"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "d77bd9d7dab6a86cb2fc79652955ca9e3efac0d3fe429d1a9ff8e9d8d1d77604"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "666c99e71ecb5f00600de7eae208e857ce968f9028a92de9c038655408e8b31e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "d9b68aa79ae1a24ef98cfaaa3cf21bb2278f3538cfc82a4e6e960ab4c8318e38"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "2a19a0b806f2e0b3695821efb0ce6d9746d3a558ee1900ce65d72b2eba9bf444"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "2861577bf62e16ff465c5f1bbf8f6023ddd00f4bfbed8de188e5c01f81373467"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "b5a1c33c93df4e98f1bcfdd74cb5a6baf522976372c3b0601fbc2bb53cb84486"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "f7d6cc3f28c2000022255f2e6a062381e2590035c2f3f1611e4780cb7cd0fa7d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "62c2bb35f420cdcb2fe5588dd7c97c14f222a0d52fdafb4619d60ced54c0cab0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "8dde068dda5aeed3e8a99c20339a8467930bcb5a7d03d8e6149e7ad324ab6ec2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "137e8a24eba156e36010efe2714a72a2d5662ea6ef7bab3dcf4a520717b18f18"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "90a770fa89c69dd9c573bc0e3067c7eb9148eb90cb81d52cdeccce0c37a5e56b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "dbf56c1f6ea813956c56cd6a3d89de11f5175ef897c5409b3021d67650acce84"
+                }
+            ],
+            "file": "16c-ice-9506-bz-nacho-part01.ps1",
+            "rationale": "Remove the two-column board and artist commentary while preserving the central ANSI illustration."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "82b40961514e9bc5bee65ec4040aadb786648f32c0d624707d90978933bb9145"
+                }
+            ],
+            "file": "16c-icepk-08-tmt-tc-part02.ps1",
+            "rationale": "Inventory and sysop BBS advertising footer."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "5b93c7b3bfbd8564913f33244b2f8451e864b9e2bfdbf84bdbfe4b2600021ebd"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "952f2dfbb2f1883696963fee09b1089c13887dc27b055444629e6a4929fe2b55"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "c8c87bc7afe24b160cd9abd66efb3a1f5858fac3b2f2804461bc266684e9358f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "f73735750201f5312a3f81cef4afcd241e3db023c234a76eea4ef1dcb41f344e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "fbceda2de31d0a42122caf9d8143d58bb68371775f3fc2bcfcd81af922c68ed0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "0a8d008bd2520ba8d10da1024b2789a66ed2511bb0d7c3d6909fdcfb13de79e5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "191b09c1d547a84468ee42a6df40c9d29697a70f5dc0e39b722dac77dfc58479"
+                }
+            ],
+            "file": "16c-ins1295a-lry-sw02-part02.ps1",
+            "rationale": "HQ, member, and distribution-site affiliation block."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary+mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 46,
+                    "sha256": "9db49157c92630c171b258b814d367fa97612e604a87725455961174f6d98011"
+                }
+            ],
+            "file": "16c-laz20-wa-lazboa-part06.ps1",
+            "rationale": "Standalone greeting sentence on a solid field. Standalone greeting sentence."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 44,
+                    "sha256": "4311e0f6c6c0d9a395277ad1ce206ca4a6408f48f8c4348c6a5f0fe35ae1d3f4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 45,
+                    "sha256": "b007259d7940883880b854e1ab7d54bb27107ecd11cfce94ec835dd7478f0aec"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 46,
+                    "sha256": "ca49a2f2278401dd716feaa7b7608ff992b62afb7fc8fa64a4b4ceed67938753"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 47,
+                    "sha256": "2c2a163c89e9811475aabeb47d5815d9028a43e6260ee23028166db74b4f0c5d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 49,
+                    "sha256": "525a5318c09530cb1400f9af8cd75d42de519885e078064b963387c6b9c26ee5"
+                }
+            ],
+            "file": "16c-lbo-r2-top-da1-part02.ps1",
+            "rationale": "HQ, distribution, operator roster, storage, modem, and access-policy block."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "4170865165fc76f4c1c65665a1e17d77a54c8c364ebe8e05a7166262c62464b6"
+                }
+            ],
+            "file": "16c-legend02-id-laugh-part03.ps1",
+            "rationale": "Standalone narrative sentence."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 49,
+                    "sha256": "d3247908adeee2a1d02ab75f731075f3f513a6a33e880320ae6186fd60d9e8fa"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 50,
+                    "sha256": "648f1d6939992eee9e9ba4a45b6f5ad084ae4c59f72d9a36b1217785e58f210a"
+                }
+            ],
+            "file": "16c-lght9406-pr-td-part02.ps1",
+            "rationale": "Member-board and distribution-site affiliation footer."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "c96d55ce60279e77827357a2acc505d7f3f8e08f8757a898c41eb7ceb965546e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "b12868fc3422e4ba61c260f640478d5964948fcd661c4dd7640c367b621856ea"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "cb5744c3202ae4f9e3102995551602e4d030186eeb7a04d6f6ed3c0dcf1fa475"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "5d48fc2aacc2e390ea2061c939be61b1aea72f929e40d633633cac2c142d98f8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "bfa9338ab6a29d54e8891f53455980836463a78ae82270d30f04bdc1fd960d29"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "ac13434cb77cc983440b35b002d9e082791b8a419cd2fe215b8d9238d3a0d25b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "5ef563f843f228996498457b09a3e6a31dd761b194644ab5f337ed6502dc590e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "91b9ba78ee623570d98ea9d0aa9ddac15b565936ed3999e921c1327cd286d282"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "3bd2e8206de912e790945fedb52995cb6c6f152bd2c34119e3ac711d0f627a05"
+                }
+            ],
+            "file": "16c-mft-0894-zh-pcyd-part03.ps1",
+            "rationale": "Operator roster, warez, message, support, HQ, and member-board information."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 38,
+                    "sha256": "fa60d22fff0d51b47c8f611b21b2d83c418ade1de8e85c91df4108bd051d7258"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 39,
+                    "sha256": "c078363711eb5f12945af6583a5de5f242bd7cf7ce257f3755027c9f54497581"
+                }
+            ],
+            "file": "16c-mist0226-picrotoxin-bbb-part02.ps1",
+            "rationale": "Two-line solicitation prose threaded through solid background cells."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "81724e56717a815a23e068400575a2cd9136c3dee79e3f55a50a2cd3efa54b01"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "23f8d35ab6d86c3dcfad61221f669bc58350a3b42a44ab455e0473cc812a3258"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "5aa082761660cd667fa4f0638402cb6b41baa79e81ac2e9a265899bceff4033d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "68dab03342e08090a58e7b6bc3882bc591344732f72b5f366211d678265c46cf"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "9f0bc1445e837723454d0bf52b5041da01f7435f3d675fa08ef0d89be152380e"
+                }
+            ],
+            "file": "16c-mist0395-dt-abys-part03.ps1",
+            "rationale": "Member-board, HQ, home-board, and distribution affiliation list."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "4e3a4d8acaeb12ae3873c6b0df01f54d9aeca9c6e792d9e9bf86b514670c1b81"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "a6e085fd26390893243b4f9f64ec988e521176905276057152f101b19eb2e8f5"
+                }
+            ],
+            "file": "16c-nph1097-sw-joker.ps1",
+            "rationale": "Dedication prose."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "6f29a5a3f1077d96d5c76396491056771ae5e737cffe64ca923829fc2313cd8b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "784b1861f8816b033894d3caca2ec33c9ef28521133a0a0794ff6f6cbc59bd41"
+                }
+            ],
+            "file": "16c-odium-03-ce-pee.ps1",
+            "rationale": "Narrative sentence embedded in a framed panel."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "ea799f721e8a89c697b54327944f9ac9ad7d21de01f785b5d7202410c23e1b30"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "7d4661647c67ebdfadb7a03386827e23155ec14b5a025755aea71bc52b7dea84"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "24b0fd3da46741d244bcefd0e60f465132059209e592f7de1d1433a9c022f18a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "af64e035255417fb3033108bdb9f8bb149d1b05908c5a83b6628a88f9ceadb74"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "38c6c719fed4a90f1d60240da129d05e3701413f34f4298cfc3ec004d1f66394"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "1e0362a08a3642644abc6b0d5e48c4bc62da2d0fbbef3388552c60d65e716f65"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "03805c1b79528b55f51012f680a4f436e701d87681885921766765e990438349"
+                }
+            ],
+            "file": "16c-plf-0697-l8er0n.ps1",
+            "rationale": "Pack thanks and release prose."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "2ce679c0c45e7691658e80198bb8fd66541f85491f45ba9a9b11c33f481b7a3d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "fbcc17b929c7476ff4fc7c6c599308372d117882e5e5eaf5bdd3a4604fda649a"
+                }
+            ],
+            "file": "16c-purg-29a-tr-rpr01-part01.ps1",
+            "rationale": "Release commentary."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 2,
+                    "sha256": "d1db921a71f36f0df1afe0a729960f2f2b5c04a6a5ea0bee9a1f8f3b0ac9b7ff"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "cfe34d2658708e6483d036727a9cff3a5b2abc2ce54afa8f4c3de20d19c4f155"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "96e5a462d51ad06defb4375c126e92fae63d34bf751ec10e9af405aba8c989b2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "7b4c042f38ac746fa4d0b5f890fa9e7dda19aea22de77abe64f99496401108fe"
+                }
+            ],
+            "file": "16c-rca-17a-bd7.ps1",
+            "rationale": "Poem text around the illustration while retaining the mixed title row."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "63e6a54875ae7a0102fa13dc621dbf7993ec5e94c8ea4fc75ea670ceeeb65d3c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "fcfeefaa3868bde85dd63ee25f339ba1138e2b0a7ab50457adb2c52d4d1ffcd8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "d948bb4eb6244f2d732e577ea78396c8da08a2f379bf40979ca0c1d0dd44c004"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "313b335e00b50dae4692ac2982a59fe8097468b079056d5ce62ac3d51a4db428"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "96e27227b0e1ef4e0494ddb34d347b5bdc5c55ca57840369b9036883e07ba5fc"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "13dbb85ded6ea08eeef6dd58a768988dec57f7e9d730ecdc001a3f07477c0e96"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "08c2071d92c5aa9c2c1fa06823c7f26810a206023fb24da2647cae7c0f32ee75"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "be0c7decfa0d22a608ab0464baa469654acfe9c0536307a8604323435b7e4fb5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "4a85d3f2f17f3a39664382b242f720e4b6f4de507c9843d323dffe56a1d715b7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "342aec046e59801e50001e6e6d4974ab007b21cd7a0a7c29990d9efc4b290ff9"
+                }
+            ],
+            "file": "16c-rca-18a-bd-1.ps1",
+            "rationale": "Ten-line seasonal prose block beside the illustration."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 2,
+                    "sha256": "410362fabbf927eac3d04d470145b351f7d1f34b07d4a59ac54cca2d4b393705"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 3,
+                    "sha256": "6a5d70c1a64e5da11cf39ff1557c33808cb17dcc2a0f0aced61b90a9e9e9e4a3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "d57ada1492f2f6ddbc44584053700e50b81161dda951f01d0bcc14443275c213"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "c2108afa8f5afd221371bbf110a629c3b831b52a141ff0024a8abe91402bd3f3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "b3223ae743c878bb345c9af011fe804f566de015d255610efd647bb758eff398"
+                }
+            ],
+            "file": "16c-rem-0494-yu-rem04-part01.ps1",
+            "rationale": "Introduction, shouts, thanks, and hostile aside."
+        },
+        {
+            "action": "blank-text",
+            "category": "prose-heavy",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 3,
+                    "sha256": "8e61bb555d33b6d5222c3953012e0facaf087e74ebfc36d4074358af16781e4e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 4,
+                    "sha256": "d777b6ce8241e00b0d6666855cbea17b30d4301430fa03e0707ba8f401801d62"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "e0e37c3702d4db02fdccb6ce95ad5b67eb4149d6ea1d35ac4a7a16ee8bf3862e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "1788d986a98c945d8e52936ec932ef1f0b7ceea65941c07094e4e232ef77702b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "06cef90a6e81c7092b8c7077c527f33b47ee1e0798794b74d342f87d9dc0fbea"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "eda25779737cdf05003505814ecc8c5e0621c030d1c848420ad7853e1dd8bd04"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "be89d70dfc0960daab40ac270cab52bdf0d216cd8197366520cb27b06cf7ee63"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "8514f9140582d88aadc85a739b967e9e7fb1d8a0827a78f7bda0c70d7bd5f079"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "597cb8d8830754ac9bc1bb0b97f862e7cee088de26bcfb2951e353c1d031749b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "b85e0636b6ebf16e72b9d2a87437b69d50a21af89a0a8fcfa346649477cfe921"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "d03400cbf5f4cb9f2cbc14a3e088ce20f5ff393dea2db430c2d2e498f3980190"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "84e3015927b975e4919548fae890d027ebeb861fa9b4c1b54d6088f888d451d3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "8c3b7e1e99f87423c909c6fa30cc281274cea402c46a2f150aaf1b0ae17b293b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "8f21e8e6e047852e608adfeda9103bf3c5b0cb0e00aad63f494346e6f7c6ffce"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "b956a14ef4255cdfd24ca0a8e60a5e196c3b09f70b4973c1a387f6048e1e236b"
+                }
+            ],
+            "file": "16c-rv-awxpk-rv-bbs-part02.ps1",
+            "rationale": "Remove the contact paragraph, greeting list, and visible signature while retaining the right-side ANSI art."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "8596a00eb99b0b5b2ae38538a4044b05ed6d36ec34a63d6aa2fd1d12b49b0ff4"
+                }
+            ],
+            "file": "16c-spas9506-iv-hole2-part01.ps1",
+            "rationale": "Personal BBS and IRC contact sentence."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "6dd46db8be37b5a2b466001d04cd9c40a410398171fe0d65b7b5f3fe57925e08"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "4c90edbad6acc33c9accee1095f080f41043401907d2f4bbfc7100e6345be186"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "ff5918759dc3bf2d21db3395bfd202baea43cb843d64ae055abe0c669f7faba2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "edd12b7a43afb76d0db6c689ee4cda10c5a1391336e7bee2a8698afef464ebb9"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "bef1353b01884fd6a32a17fee14cb32641309a53d5b596b14150e91d7ac62f2b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "9c539ef30cf07f6a80a8129f18002fcc8df8253cbb2bd0ff015cadb3ac4a17d8"
+                }
+            ],
+            "file": "16c-spas9508-sd-dc1-part01.ps1",
+            "rationale": "Commentary, greetings, and advertisement request."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "82d69f9e973dfb4be5778ca0d635f0ad82819f594d060213e0fad773c6e45e75"
+                }
+            ],
+            "file": "16c-std-0803-txt-dist.ps1",
+            "rationale": "Standalone distribution-site slogan."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 28,
+                    "sha256": "a867e0de011c32c06eae76d50cd116fb1886108a206ca4c9d19c0667d343565c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "dae4c1644e2e7add717c9b98f4125c59e8d5e7e4b4509924986154c3d3282cc5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "23a012cb6c265e5f9a406038a1edd94950a206580d9ebfb3387b076e0adbadc2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 31,
+                    "sha256": "5bb37ad766287f1abb27501e27de0a58ff68a5737472a93e33e9a76d2bca2141"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "fda52cea33557dc0d5c924edd556940bd658cb8bb61b796144c7184c5b2f4b1d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "f288870b2546d04d9f847aa9fe5f41db9b91af5faef75d19cab22eee5ba48190"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "07994ea357537e69398b6a0a4ce0b94a6055ec92d420845d9c7061695179474b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "7a4a2bbdae12b82e0c162dee9852885a5412e9cf7118f88f97a472d9d5fb8ad4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "009ac0b40a2cba7cae7daf10741f9f114fb7deb7f76d0e157f7b3467dc8418c1"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 37,
+                    "sha256": "d620f944c87b1592bdf05815a69722f5436603f5745df6b2765550ae6726e2cb"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 38,
+                    "sha256": "b330b653ae8c899f670aaa3686a52eb3667906a0e6683a94d22bbe8d96a01121"
+                }
+            ],
+            "file": "16c-stn-0694-hsp-eots.ps1",
+            "rationale": "Member-board, HQ, network, distribution, recruitment, warez, software, sysop, and modem information."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "8a2ec72e8b16c383715fc7372d146ce3de0440b6fb16cd692507465215a0071a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "9232e76e3a2b14c443cb0981c0abe17424e190432419cef90451d2c188a4a1f2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "9eb0f7801696dd7d7a717dfa95486598d4b9ba3ef1cf540189306eebcd0fd066"
+                }
+            ],
+            "file": "16c-tnt-008-zv-evol-part04.ps1",
+            "rationale": "Thank-you, commentary, and dedication sentences."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "e2558fbbda6dd780c0093f037694aa30631b69e0cd3079361689cd4ba637438b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "bd782e8612a8b7b727da84287ecb0a6f2ff76371d7c6423b6c3268211bcf1b03"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "e7d49833d5c0a00b6dd9c93905580b26704aa9c8c440be81998ba2bd972fff06"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "2dd244bfccb56ef0f4bd832b7044b9ba261a3fb95222c13a7682f4b9ea651be7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "142ebdb7696d58c29e5001bc33b78b9ccaaf3cdef59effbbf31565b4b959cd5d"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "2bc516c4cf8896803b380f4ca561b7f304b40f5ce4d0f1fbf2cb860728244538"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "512ec07d1ddb31b80529a156e9f2fade48d37f04d69e27aaea6a662bf35eb56a"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "a42644974d9b4e5708b08c16a8f2e383a01519431197f1664c1832f6a648c73b"
+                }
+            ],
+            "file": "16c-toon0795-wo-eoe-part01.ps1",
+            "rationale": "Release, greetings, request, and contact prose."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "f89c582266275dfde7283c871da78b6d155e2213e6c6c4fa7b2a140735bf3068"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "d5d3f60838e328f4a0108c51eb78c9aaf9de350d9215cd60754feaacfebc0765"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "52db563c48d6a6d15ee723dc33b989c7f1c7c89cb8bc1055c6fa153389dbe584"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "4342bbad4045eb3bf535c15d16d1a63fc7e98c25347fb21062ea5e500cc0e6e2"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "0ede7c0fa71d9ead0da5fda8a25146b689de73c25b19214522bb31c3df4dbc2b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "2dc89e796ec205323cd5da9aaf856cc2ba4e483c4b34cb2e59b08e13588ad647"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "8a68400365fefd96c5535a6d86ad0a857b7a47317f4df929bce4e69b2da9bccf"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "d10c1e9c854dc4276d6eecb8fd6c3623c249fe4a9b084a8f9c72ce76fb351335"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "a4d83beaaed3526952a1c2a6a6805cb800ebbb145fb9cbd31036b1c9c7b7641b"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "1ea415bf996ebe13e5a6c61165546693450f9980e075374adb363bf3c29c4b82"
+                }
+            ],
+            "file": "16c-toon0795-wo-eoe2-part01.ps1",
+            "rationale": "Recruitment, greetings, request, and contact prose."
+        },
+        {
+            "action": "blank-text",
+            "category": "commentary",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "4828858641f90060b203a3fc064ae740c5c5c12c4ff94764560ca905a7ca90ca"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "24f12ace2bd2cb32112b091d9751c46a443d194113cc703cd67c0d50fe5bf054"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "d0a54318de6135fad011db11d916ad8f6126d10e09ad14de8b042db2795d3669"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 8,
+                    "sha256": "0ff80e99ff28b90d16edbbf949d87f5810fcebbf9d7d6e7147f6c0e85845dfd5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 9,
+                    "sha256": "d4e682dbdf1570aa7a5f3a2bed87faa6a5c8f83534ef14c9b97adbf69e2e8dff"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "6b36c7e979af2dc6635f5b930470ac4f20dad03f7bbb0a96dc83d731b347643f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "4138f439c1c16f454fe08ba405968338a220d864c96956aa101362850ecbf781"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "c18109ce79801268775e4db08ef6099ba3222cf389c81e47ec4b62854c910f11"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "9d50c4b2d720e2639f13dd1cebd10a05f8ea6d43ec642b1f8b35b872db5d3174"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "7c25db35d97b5556b82cc5b71f8c4bd793df038da06e5c908a5cdb846e450de7"
+                }
+            ],
+            "file": "16c-toon0795-wo-ep-part01.ps1",
+            "rationale": "Release note, recruitment, request prose, and greetings."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "c9075f8d8742fa45d8c6d57a043db8b4bdd4dbe649e905c6f908cada50439f13"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 30,
+                    "sha256": "ed51db3375c140942ff1c8c472377d58ba20c8c4dbeb8b4ad4b56338b8dfa7a4"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 32,
+                    "sha256": "167db0e0234dba01f2625c64e2b82b50a5a2c2aeff503714a32df5c322b1a6e5"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "0c0b69ef35cb814d3987a8b95f1a47e920542eff942c4d924aa3f1667793e796"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "da583436476592f5d8538d31e967e4efe5541fc029e9846588a3ef2872401860"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "ddaed1336555768f374b3acae0c4febc933905d0e6dff43f931423eb76ca2a1f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 36,
+                    "sha256": "eec088f5c16bcae6cdc820eab8d30b1afca7ea54f83079aa41bef6df0d630033"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 38,
+                    "sha256": "6abd5ebef861eb20d139ce76de5cc44d409925cc73cfbeb3b63a336b7bc0d31c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 39,
+                    "sha256": "701e45fef26b41c1e089c67248e7d895898f7ec31ae243ee4cb02e084e559159"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "2e9d2d88614e212d42b30438ca49b202fd5334e3a2d698c1a6cdf9cc36e29fd2"
+                }
+            ],
+            "file": "16c-void0295-bt-nl-part03.ps1",
+            "rationale": "Sysop, affiliate, member-board, distribution-site, and network panel."
+        },
+        {
+            "action": "blank-text",
+            "category": "bbs-promotion",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "3d8063f5ac31942257fd1b3d18c90b443ad1b634411202a1f8f2a9ad77957841"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "0ebade205bd858943ad4ea27fbb140f412c76ad9351a1a4c9ee4a134bfb53349"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "25dfdae12c161495cdceaaf20f5c1c51c4342f308a2834c5aa3c5c8c007236c7"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "0e56429741f9d9c3d94d5c397fb70d947a99c299bc7595817dbf69731fc4e3a6"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "16bcc2737ebbecf6aa001778c76e016c3b81a39180238215ce864d9637806c74"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "4fbb94699d4a510800adbb8f2afc4ebc498dbb72158b4c9725f15a2d80700d69"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "c953d8629f77382558a2b6ffd02a2aaebf30ba1c40377f67126336e58c601bad"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "c15ded51e77f917968b58248489e531aee96c668075c86d1a1f03170d3c7ac9d"
+                }
+            ],
+            "file": "16c-void0893-nz-ao1-part02.ps1",
+            "rationale": "Sysop and cosysop roster plus HQ, distribution, network, and member-board affiliations."
+        },
+        {
+            "action": "blank-text",
+            "category": "mixed-prose",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 27,
+                    "sha256": "5c10e2970b06d5cf603d766d61c1ec92b8acde9810e12f765abc8111faf0cbfd"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 40,
+                    "sha256": "a9d651d8dbddb1a51a03fca298f6a75a7136384d32d0264539243f7d775331e8"
+                }
+            ],
+            "file": "16c-xide0495-dh-poems-part01.ps1",
+            "rationale": "Isolated offensive and threatening prose on solid fields."
+        }
+    ]
+}

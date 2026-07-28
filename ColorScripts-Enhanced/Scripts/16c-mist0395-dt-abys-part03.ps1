@@ -5,7 +5,7 @@
 # Source SHA-256: 98199eece198a7b32bd8aa3c8e1fb38df6d44e33b926da548c2b1fb03e1a462d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-ABYS.ANS by Diamond Traveller (Mistigris); released in mist0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Abyssimal Dissimulation
 # SAUCE Author: Diamond Traveller
 # SAUCE Group: Mistigris
@@ -43,12 +43,12 @@ Write-Host '
             [31m▐▓▓[0;1;31;41m▄[0;31m█▌                                                ▐[0;1;30;41m░ [0;1;31;41m█[0;31m▓[0;37m        [0m
 [37m           [0;31m▓[0;1;30;41m░[0;1;31;41m▀▓[0;31m▓                                                 ▀[0;1;30;41m▒░[0;1;31;41m▓▄[0;31m▌[0;37m        [0m
 [37m          [0;31m▐[0;1;30;41m▓▒[0;31m█[0;1;31;41m▒[0m [31m                                                  ▓[0;31;41m [0;1;31;41m▒▓■[0;31m▀▀  ▀[0;37m   [0m
-[37m           [0;1;30;41m▓▒[0;31m██[0;1;31;41m▄[0;31m▄▄ -!- Creators of Intense Art member board -!-▄[0;1;31;41m▄■▀[0;1;30;41m░[0;31m█[0;1;31;41m▒[0;31m▀[0;37m        [0m
-[37m            [0;31m▀[0;1;30;41m▓▄░[0;1;31;41m▓▀▓■[0;31m▄[0;37m      [0;31m-!- Mistigris member board -!-    ▄[0;1;31;41m▄▓▀▀[0;31m█[0;1;30;41m░▒[0;31m▀[0;37m         [0m
-[37m               [0;31m▀▀[0;1;30;41m░[0;31m██[0;1;31;41m▓[0;31m▓ -!- Southern HQ of Rebellion E-Mag -!-▓[0;1;31;41m▓▒ [0;1;30;41m░[0;31m▀[0;37m            [0m
+[37m           [0;1;30;41m▓▒[0;31m██[0;1;31;41m▄[0;31m▄▄                                             ▄[0;1;31;41m▄■▀[0;1;30;41m░[0;31m█[0;1;31;41m▒[0;31m▀[0;37m        [0m
+[37m            [0;31m▀[0;1;30;41m▓▄░[0;1;31;41m▓▀▓■[0;31m▄[0;37m      [0;31m                                  ▄[0;1;31;41m▄▓▀▀[0;31m█[0;1;30;41m░▒[0;31m▀[0;37m         [0m
+[37m               [0;31m▀▀[0;1;30;41m░[0;31m██[0;1;31;41m▓[0;31m▓                                       ▓[0;1;31;41m▓▒ [0;1;30;41m░[0;31m▀[0;37m            [0m
 [37m                  [0;31m▓█[0;1;31;41m▄▄■[0m [31m                                    ▐▓[0;1;30;41m░[0;31m█[0;1;30;41m░[0m
-             [31m▄▄[0;1;31;41m■▀░[0;31m██[0;1;31;41m░▀[0;31m█   -!- Home Of SlayTanic:TFD -!-   [0;1;30m▓▒░[0;1;30;41m░[0;31m██[0;1;31;41m■[0;31m▄▄▄▄[0;37m          [0m
-[37m            [0;31m▐▓[0;1;30;41m▒[0;31m▀▓[0;1;31;41m▀[0;31m▀▀▀▀    -!- Distro of Untouchables -!-[0;37m      [0;31m▀▀▀▀▓█[0;1;31;41m▓▄[0;31m▌[0;37m        [0m
+             [31m▄▄[0;1;31;41m■▀░[0;31m██[0;1;31;41m░▀[0;31m█                                   [0;1;30m▓▒░[0;1;30;41m░[0;31m██[0;1;31;41m■[0;31m▄▄▄▄[0;37m          [0m
+[37m            [0;31m▐▓[0;1;30;41m▒[0;31m▀▓[0;1;31;41m▀[0;31m▀▀▀▀                                  [0;37m      [0;31m▀▀▀▀▓█[0;1;31;41m▓▄[0;31m▌[0;37m        [0m
 [37m            [0;31m▀[0;1;30;41m▓[0;31m                                                      ▀▓▀[0;37m        [0m
 [37m              [0;31m▀▄■[0;37m                  [0;31m▄■ ▄▄▄ ■▄[0;37m                      [0;31m■▄▀[0;37m          [0m
 [37m                                  [0;31m▓▄▄█[0;1;31;41m░[0;31m▀[0;1;31;41m▓▀[0;31m▄▄▀[0;37m                                  [0m

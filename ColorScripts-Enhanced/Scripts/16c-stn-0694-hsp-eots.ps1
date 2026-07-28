@@ -5,7 +5,7 @@
 # Source SHA-256: 530e6a2f84454a4c5c7c3801c81da5408dd9de53f599dcc399fddb316f4182be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HSP-EOTS.ANS by Hellspawn (stn-0694); released in stn-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -36,17 +36,17 @@ Write-Host '
 [34m▓▒░░░  [0;33m▒▓█▓▓▒▒▒░░░░░  ░▒░░▒░  ░  ░░▒▓▓▒░    [0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [34m█▓▒░░░ [0;33m░▓█▓▒▒▒░▒░ ░  ░░▒▒▒▒░░   ▒░░ ▒▒░░    [0;34m█[0m
 [34m█▓▒░░░ [0;33m░▒▓▓▒░░░░ ░ ░░░░▓▒▒▓░░░ ▓▒░ ░ ░ ░    [0;34m█[0m
-[34m█▓▒▒░░  [0;33m▒▓▒░░░  ░░  ▒▒░▓▓▓▓░▒▒ ░░   ░░░    [0;34m▓   [0;1;37mViOLATiON Member Board φ SCP WHQ[0m
-[34m█▓▒▒▒░░ [0;33m▒▒▒░░ ░  ░░ ▓▒ ▓▓▓▓ ▒▓ ░    ░░░    [0;34m▓[0;1;37mCyberCrime International Net 615 Hub[0m
-[34m█▓▒▒▒▒░ [0;33m░▒▒░░░    ░░░▒ ▀▓▓▀ ▀░░ ░  ░▒▒░[0m     [34m▒   [0;1;37mViOLATiONET World Headquarters[0m
-[34m█▓▓▒▒▒░  [0;33m░▒░░[0m      [33m░░[0m          [33m░    ░░[0m      [34m▒   [0;1;37mSTöñëD Productions Distro Site[0m
-[34m▓▓▒▒▒▒░░ [0;33m░▒▒░░    ░░    ▒░[0m           [33m░[0m     [34m░[0m     [1;37mAll Quality Users Welcomed[0m
-[34m▓▓▒▒▒▒░░  [0;33m░▒▒░░   ░░░   ░  ░    ░    ░[0m     [34m░[0m          [1;37mLimited Locals[0m
-[34m▓▒▒▒▒▒▒░░ [0;33m░▒▒▒░░ ░░░░░░[0m         [33m░[0m          [34m░[0m         [1;37m0 - 30 Day Warez[0m
-[34m▓▒▒▒▒▒░░   [0;33m░▒░░░░░░░░░░░░[0m     [33m░░ ░  ░[0m      [34m░   [0;1;37mRunning Oblivion/2 Registered[0m
-[34m▒▒▒░░▒░░   [0;33m░▒░░  ░   [0;37m▄▄██████▄[0m      [33m░[0m       [34m░[0;1;37mSysOp: Storm  Remote Sys: Luke Cage[0m
-[34m▒░░░░░▒░    [0;33m░▒░    [0;37m▄██[0;1;30;47m░░░░░░░░[0m█▄    [33m░   [0;34m░  ░[0m           [1;37m9600+ Only[0m
-[34m░░░   ░░   ░ [0;33m░▒▒░░  ░[0;37m▀▀▀▀▀▀▀▀▀[0m     [33m░[0m                 [1;37m[615] PRi-VATE[0m
+[34m█▓▒▒░░  [0;33m▒▓▒░░░  ░░  ▒▒░▓▓▓▓░▒▒ ░░   ░░░    [0;34m▓   [0;1;37m                                [0m
+[34m█▓▒▒▒░░ [0;33m▒▒▒░░ ░  ░░ ▓▒ ▓▓▓▓ ▒▓ ░    ░░░    [0;34m▓[0;1;37m                                    [0m
+[34m█▓▒▒▒▒░ [0;33m░▒▒░░░    ░░░▒ ▀▓▓▀ ▀░░ ░  ░▒▒░[0m     [34m▒   [0;1;37m                              [0m
+[34m█▓▓▒▒▒░  [0;33m░▒░░[0m      [33m░░[0m          [33m░    ░░[0m      [34m▒   [0;1;37m                              [0m
+[34m▓▓▒▒▒▒░░ [0;33m░▒▒░░    ░░    ▒░[0m           [33m░[0m     [34m░[0m     [1;37m                          [0m
+[34m▓▓▒▒▒▒░░  [0;33m░▒▒░░   ░░░   ░  ░    ░    ░[0m     [34m░[0m          [1;37m              [0m
+[34m▓▒▒▒▒▒▒░░ [0;33m░▒▒▒░░ ░░░░░░[0m         [33m░[0m          [34m░[0m         [1;37m                [0m
+[34m▓▒▒▒▒▒░░   [0;33m░▒░░░░░░░░░░░░[0m     [33m░░ ░  ░[0m      [34m░   [0;1;37m                             [0m
+[34m▒▒▒░░▒░░   [0;33m░▒░░  ░   [0;37m▄▄██████▄[0m      [33m░[0m       [34m░[0;1;37m                                   [0m
+[34m▒░░░░░▒░    [0;33m░▒░    [0;37m▄██[0;1;30;47m░░░░░░░░[0m█▄    [33m░   [0;34m░  ░[0m           [1;37m          [0m
+[34m░░░   ░░   ░ [0;33m░▒▒░░  ░[0;37m▀▀▀▀▀▀▀▀▀[0m     [33m░[0m                 [1;37m              [0m
 [34m░░[0m     [34m░░ ░░  [0;33m░░▒▒░░░░▒▒▒▒▒▒▒▒░░  ░[0m       [34m░[0m
 [34m  ░[0m     [34m░░░[0m     [33m░░▒░░░░░▒▒▒░░░░ ░░[0m
 [33m   [0;34m░    ░▒░[0m      [33m░░▒▒░░░░░░░░░░░[0m        [34m░ ░[0m

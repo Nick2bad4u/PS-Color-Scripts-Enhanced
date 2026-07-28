@@ -5,7 +5,7 @@
 # Source SHA-256: cc9348db41f418cf6b6ba77bdcaff084aebd14cf1ff2e458725282dc654b8c5c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-COD.ANS by Entreri (CaNCeR Productions); released in cnc-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Castle Of Darkness
 # SAUCE Author: Entreri
 # SAUCE Group: CaNCeR Productions
@@ -21,12 +21,12 @@ Write-Host '
 [1;34m  [0;1;30m█ [0;1;34m▀[0;1;34;47m██▓█[0;1;34;40m▀▀▀█ [0;1;30;40m█ [0;1;34;40m▀[0;1;34;47m██▓█[0;1;34;40m▀▀▀[0;1;34;47m█[0m [1;30;40m█    [0;1;34;40m█[0m                 [1;34;40m█[0m
 [1;34;40m  [0;1;30;40m▀█ [0;1;34;47m▓███[0m [1;30;40m█▄▄▄██ [0;1;34;47m██▓▓[0m [1;30;40m█ [0;1;34;47m█[0m [1;30;40m█    [0;1;34;40m█ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;34;40m   [0;1;30;40m█ [0;1;34;47m▓▓▓█[0m [1;30;40m▀▀████ [0;1;34;47m█▓▒▓[0m [1;30;40m█ [0;1;34;47m▓[0m [1;30;40m█    [0;1;34;40m█[0m
-[1;34;40m   [0;1;30;40m█ [0;1;34;47m█▓▓█[0m▄[1;34;47m▒[0m [1;30;40m████ [0;1;34;47m▒▒▒▓[0m [1;30;40m█ [0;1;34;47m▓[0m [1;30;40m█    [0;1;34;40m█   Greets go out to all of you ansi artists out[0m
-[1;34;40m   [0;1;30;40m█ [0;1;34;47m▒▒▒▒[0m ▀ [1;30m████ [0;1;34;47m▒░▒▒[0m [1;30;40m█ [0;1;34;47m▒[0m [1;30;40m█    [0;1;34;40m█   there! Never let ansi die.[0m
-[1;34;40m   [0;1;30;40m█ [0;1;34;47m▒▒░▒[0m [1;30;40m██████ [0;1;34;47m░░░▒[0m [1;30;40m█ [0;1;34;47m▒[0m [1;30;40m█    [0;1;34;40m█   And to the L.A. County library system for not[0m
-[1;34;40m   [0;1;30;40m█ [0;1;34;47m░░░░[0m [1;30;40m█▀▀▀██ [0;1;34;47m░[0m██[1;34;47m░[0m [1;30;40m█ [0;1;34;47m░[0m [1;30;40m█▄   [0;1;34;40m█   having a single pic of a waterfall.[0m
-[1;34;40m  [0;1;30;40m█ [0m▄[47m    [0;40m▄▄▄█ [0;1;30;40m█ [0m▄████▄ ▄█▄ [1;30m█   [0;1;34m█   And finally all of the ego-maniacs of the[0m
-[1;34m  [0;1;30m█▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄█   [0;1;34m█   world. A big F-you to all of ya.[0m
+[1;34;40m   [0;1;30;40m█ [0;1;34;47m█▓▓█[0m▄[1;34;47m▒[0m [1;30;40m████ [0;1;34;47m▒▒▒▓[0m [1;30;40m█ [0;1;34;47m▓[0m [1;30;40m█    [0;1;34;40m█                                               [0m
+[1;34;40m   [0;1;30;40m█ [0;1;34;47m▒▒▒▒[0m ▀ [1;30m████ [0;1;34;47m▒░▒▒[0m [1;30;40m█ [0;1;34;47m▒[0m [1;30;40m█    [0;1;34;40m█                             [0m
+[1;34;40m   [0;1;30;40m█ [0;1;34;47m▒▒░▒[0m [1;30;40m██████ [0;1;34;47m░░░▒[0m [1;30;40m█ [0;1;34;47m▒[0m [1;30;40m█    [0;1;34;40m█                                                [0m
+[1;34;40m   [0;1;30;40m█ [0;1;34;47m░░░░[0m [1;30;40m█▀▀▀██ [0;1;34;47m░[0m██[1;34;47m░[0m [1;30;40m█ [0;1;34;47m░[0m [1;30;40m█▄   [0;1;34;40m█                                      [0m
+[1;34;40m  [0;1;30;40m█ [0m▄[47m    [0;40m▄▄▄█ [0;1;30;40m█ [0m▄████▄ ▄█▄ [1;30m█   [0;1;34m█                                            [0m
+[1;34m  [0;1;30m█▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄█   [0;1;34m█                                   [0m
                                [1;34m█[0m
 [1;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 

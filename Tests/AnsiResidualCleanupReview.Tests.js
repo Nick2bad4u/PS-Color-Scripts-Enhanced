@@ -5,6 +5,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 const test = require("node:test");
 const {
+    analyzeRow,
     auditAuthoredSourceContacts,
     extractPowerShellPayload,
     findContactDetails,
@@ -27,6 +28,10 @@ const SCRIPTS_DIRECTORY = path.join(MODULE_ROOT, "Scripts");
 const CONTENT_LEDGER_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualContentReviewLedger.json"
+);
+const MIXED_TEXT_LEDGER_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger.json"
 );
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
@@ -115,6 +120,68 @@ test("residual content review is hash-only and fully applied", () => {
             );
         }
     }
+});
+
+test("mixed text review is hash-only and fully applied", () => {
+    const ledger = JSON.parse(
+        fs.readFileSync(MIXED_TEXT_LEDGER_PATH, "utf8")
+    );
+
+    assert.equal(ledger.schemaVersion, 1);
+    assert.deepEqual(ledger.summary, {
+        candidateFiles: 77,
+        evidenceRows: 614,
+        categoryRows: {
+            "bbs-promotion": 174,
+            commentary: 219,
+            "mixed-prose": 98,
+            "commentary+prose-heavy": 45,
+            "prose-heavy": 63,
+            "commentary+mixed-prose": 15,
+        },
+    });
+    assert.equal(new Set(ledger.candidates.map(({ file }) => file)).size, 77);
+    assert.equal(
+        ledger.candidates.reduce(
+            (total, candidate) => total + candidate.evidence.length,
+            0
+        ),
+        614
+    );
+
+    const missingRows = [];
+    for (const candidate of ledger.candidates) {
+        assert.ok(!Object.hasOwn(candidate, "text"));
+        const { rows } = readPayloadRows(candidate.file);
+        for (const evidence of candidate.evidence) {
+            assert.ok(!Object.hasOwn(evidence, "text"));
+            assert.match(evidence.sha256, /^[a-f\d]{64}$/u);
+            const currentRow = rows[evidence.row - 1];
+            if (currentRow === undefined) {
+                missingRows.push({
+                    file: candidate.file,
+                    row: evidence.row,
+                });
+                continue;
+            }
+            assert.notEqual(
+                getReviewEvidenceHash(stripAnsiControls(currentRow)),
+                evidence.sha256,
+                `${candidate.file}: row ${evidence.row} was not redacted`
+            );
+            assert.equal(
+                analyzeRow(currentRow).letterCount,
+                0,
+                `${candidate.file}: row ${evidence.row} still contains letters`
+            );
+        }
+    }
+    assert.deepEqual(missingRows, [
+        {
+            file: "16c-rv-awxpk-rv-bbs-part02.ps1",
+            row: 27,
+        },
+    ]);
 });
 
 test("residual geometry review preserves one blank row and every visible row", () => {

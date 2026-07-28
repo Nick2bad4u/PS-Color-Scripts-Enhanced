@@ -5,7 +5,7 @@
 # Source SHA-256: 4892399de5ed643aa4e6b900c597815eb9d4006faf421ff09f0210322b467b05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw_blockalypse.ans by Binary Walker (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20140121
 # SAUCE Dimensions: 80x355
 # SAUCE Font: IBM VGA
@@ -17,13 +17,13 @@ Write-Host '
 [35m███[0;36;45m█[0;1;33;46m▀[0;36;45m█[0;35;40m▐[0;36;45m██[0;36;40m▄[0;35;40m█[0;36;45m█[0;1;33;46m▀[0;36;45m█[0;35;40m▐[0;36;45m██[0;36;40m▄[0;35;40m█[0;36;45m██▀▄[0;35;40m█[0;36;45m██[0;36;40m [0;35;40m█[0;36;45m██▀▄[0;35;40m█[0;36;45m█[0;1;33;46m▀[0;36;45m█[0;35;40m▐[0;36;45m██[0;35;40m▐[0;36;45m▀██[0;35;40m▐[0;36;45m██[0;35;40m▐[0;36;45m██[0;36;40m▄[0;35;40m█[0;36;45m▀[0;36;40m▀[0;36;45m▄▄[0;35;40m▀█  █ [0;1;30;40m▒[0;35m█[0;1;30m░[0;1;36m [0;35m█  ▀ [0;1;30m░[0;35m █ [0;1;30m▒[0;35m█  ██[0m
 [35m███▒▄▄█▄▄▄█▄▄▄█▄▄▄█▄▄█▄█▄▄██▄▄█▄█▄▄▄█▄▄█▒▄▄█▄▄█▄▄▄[0;36;45m ██[0;36;40m██[0;35;40m▒█▀▀▀  █[0;1;30;40m▒[0;1;36;40m [0;35m█  █▌[0;1;30m▒[0;35m █ [0;1;30m▀▀▓[0m
 [35m███████████████████████████████████████████████████▄▄▄▄██  █▀▀█[0;1;30m▒[0;35m █  █▌[0;1;30m▓[0;35m ████[0;1;30m░[0;1;36m [0;35m██[0m
-[35m█████[0;1;35;45mWelcome Stranger !  [0;35m████████████████████████████████▄▄▄▄▄█▄▄▄▄▄█▄▄▄▄███▄▄██[0m
-[35m█████[0;1;35;45mThank You for downloading the latest Artpack[0;35m███████████████████████████████[0m
-[35m█████[0;1;35;45mof[0;35m█[0;1;35;45myour favorite ANSI Group , i hope you enjoy the Show ![0;35m██████████████████[0m
+[35m█████[0;1;35;45m                    [0;35m████████████████████████████████▄▄▄▄▄█▄▄▄▄▄█▄▄▄▄███▄▄██[0m
+[35m█████[0;1;35;45m                                            [0;35m███████████████████████████████[0m
+[35m█████[0;1;35;45m  [0;35m█[0;1;35;45m                                                      [0;35m██████████████████[0m
 [35m███████████████████████████████████████████████████████████████████████████████▐[0m
-[35m█▀▀████████████████████████[0m      [35m███████[0;1;35;45mTake a seat and have a beer.[0;35m██   ██████[0m
+[35m█▀▀████████████████████████[0m      [35m███████[0;1;35;45m                            [0;35m██   ██████[0m
       [35m████████████████████[0m          [35m▀▀████████[0;1;35;45mcheers [0;35m█[0;1;35;45m-bw!^67[0;35m████████▌    ▓██▀[0m
-      [35m██████   ██████████   [0;36m   [0;1;36m  [0;36m    [0;35m  ▀▀▀▀███████████[0;1;35;45mfeb.07.2014[0;35m████[0m      [35m▒[0m
+      [35m██████   ██████████   [0;36m   [0;1;36m  [0;36m    [0;35m  ▀▀▀▀███████████[0;1;35;45m           [0;35m████[0m      [35m▒[0m
 [37m    [0;36m    [0m       [36m  [0;35m▓█████▀    [0;36m [0m                      [35m▀▀▀▀████████▀▀▀▀[0m
                   [35m░▓▓░[0m          [1;36m    [0m                    [35m░░░░░[0m
 [35m█████████[0m

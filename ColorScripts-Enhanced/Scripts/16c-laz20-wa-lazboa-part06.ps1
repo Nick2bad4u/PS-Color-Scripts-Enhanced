@@ -5,7 +5,7 @@
 # Source SHA-256: 4f2cbc0f005e517c3e441ace3fd3de1ce9a16c200da1e06715876dfe47c722bc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-lazboa.ans by warpus (LAZARUS); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Lazboa
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -60,7 +60,7 @@ Write-Host '
 [36;40m█████[0;34;46m+o[0;36;40m█[0;30;46mAntónio[0;36;40m█[0;30;46mAlçada[0;36;40m███████[0;34;46m0[0;36;40m█[0;30;46mday[0;36;40m█[0;30;46mbaked[0;36;40m█[0;30;46mwarez[0;36;40m██████[0;34;46m1337[0;36;40m█[0;30;46mdegree[0;36;40m█[0;30;46mproof[0;36;40m█[0;30;46movens[0;36;40m█████[0m
 [36;40m████████████████████████████████████████████████████████████████████████████████[0m
 [36;40m████████████████████████████████████████████████████████████████████████████████[0m
-[36;40m███████[0;1;36;46mGreetz[0;36;44m█[0;1;36;46mto[0;5;36;46m█[0;1;36;46mmy[0;36;44m█[0;1;36;46mpastry[0;5;36;46m█[0;1;36;46mbitches[0;36;44m█[0;1;36;46mand[0;36;44m█[0;1;36;46mall[0;5;36;46m█[0;1;36;46mthe[0;36;44m█[0;1;36;46myeast[0;5;36;46m█[0;1;36;46mcoast[0;36;44m█[0;1;36;46mglaze[0;36;44m█[0;1;36;46mbiscuits[0;36m███████[0m
+[36;40m███████[0;1;36;46m      [0;36;44m█[0;1;36;46m  [0;5;36;46m█[0;1;36;46m  [0;36;44m█[0;1;36;46m      [0;5;36;46m█[0;1;36;46m       [0;36;44m█[0;1;36;46m   [0;36;44m█[0;1;36;46m   [0;5;36;46m█[0;1;36;46m   [0;36;44m█[0;1;36;46m     [0;5;36;46m█[0;1;36;46m     [0;36;44m█[0;1;36;46m     [0;36;44m█[0;1;36;46m        [0;36m███████[0m
 [36m████████████████████████████████████████████████████████████████████████████████[0m
 [1;36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [5;30m███[0;1;30m    [0;5;30m█[0;1;30m                                                                    [0;5;30m████[0m'
