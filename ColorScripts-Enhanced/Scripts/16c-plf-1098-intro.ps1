@@ -5,7 +5,7 @@
 # Source SHA-256: 2ef3a90585d5e22be98ff5fe9c8f7ca96bd021eb41cd113fea590d0ed0f9fbe4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: %#!INTRO.ANS by plf CREW (poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: pack15 - contributors
 # SAUCE Author: plf CREW
 # SAUCE Group: poffelipoff
@@ -36,6 +36,6 @@ Write-Host '
 [1;30m▄▄▀[0m   [33m██▌▄████[0;30;47m█[0;33;40m▄[0;30;47m█[0;32;40m▀▀[0;33;40m▄▄[0;30;47m█[0;33;40m█[0;37;43m░░[0;33;40m█[0;37;43m▀[0;33;40m██[0;30;47m█[0;32;40m▀[0;30;47m█[0;33;40m▄[0;30;47m█[0;33;40m███▀▀▀ ▀▀▀▀[0;1;30;40m▀[0;33m   [0;34m▄▄[0;1;34m▄▄▄▄▀▀[0m [1;34m▀▌[0m  [33mnightstalker[0m
    [31m▀[0;33m▀▀▀▀  [0;31m▀▀[0;33m▀▀████▄▄███████████▀▀▀▀   [0;31m██[0;33m█▀█▀  [0;34m▄▄[0;1;34m█[0;1;34;47m▓▀[0;1;34;40m▀▀[0;34m▀[0;37m  [0;34m██▀[0;1;34m▌[0m  [33mpestilence[0m
 [1;30m░▀██▀▀[0m [1;30m▄[0;31m▄▄[0;33m▄[0;37m [0;33m▄▄▄▄▄██▀▀▀▀[0;1;30m▀[0;33m   [0;1;30m▀▀▀[0;33m▀▀▀[0;31m▀[0;33m  [0;31m▀▀▀[0;33m    [0;34m▄▄[0;1;34m▄██▀▀▓▓▄[0m [1;34m▀[0;34m▀[0m   [1;34m▌[0m  [33mzatchmo[0m      [33m    [0m
-    [1;30m▄▌[0m   [1;30m▀▀[0m [1;30m ▀[0;31m▀▀[0;37m [0;33m███▀▀[0;37m [0;33m▀[0;1;30m▀[0m [33m▀[0;1;30m▀▀[0m                  [1;34m▀▀██▄▄██▀ ░▓▌[0m [1;33mspecial greets to[0m
+    [1;30m▄▌[0m   [1;30m▀▀[0m [1;30m ▀[0;31m▀▀[0;37m [0;33m███▀▀[0;37m [0;33m▀[0;1;30m▀[0m [33m▀[0;1;30m▀▀[0m                  [1;34m▀▀██▄▄██▀ ░▓▌[0m [1;33m                 [0m
  [1;30m▀▀[0m   [1;30m▀▀[0m       [1;30m▀[0;33m▀▀[0;1;30m▀[0m                              [1;34m██▀▀▄██▀ [0m [1;34m▀ [0m [33mbizzarro[0m
 [32m                                               [0m     [1;34m▀▀[0m        [33m      [0m'

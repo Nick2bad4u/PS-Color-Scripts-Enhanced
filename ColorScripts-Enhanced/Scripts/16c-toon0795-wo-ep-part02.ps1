@@ -5,7 +5,7 @@
 # Source SHA-256: 652b2e97471946e46d38309632da83800adbda6a6063d9d215d5ac9643a4a5e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-EP.ANS by Wat0r (toon0795); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 20-60
 # Columns: 1-80
 
@@ -38,7 +38,7 @@ Write-Host '
  █ ███████████████████████████████████████████[1;30m █▀█▄██▀█[0m █████████████████████ █
  █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▀█▓▀█▀[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
 
-                      [1;30m [0m  [1;30m [0;33m█[0;1;31;43m▄▄[0;33m█[0m [33m▀▀█▀[0;1;31;43m▄[0;33m█[0m [33m █[0;1;31;43m▄▄[0;33m█[0m [33m▀▀█[0;1;31;43m▄▄[0;33m█[0;1;30m [0m     anutha original by watOr
+                      [1;30m [0m  [1;30m [0;33m█[0;1;31;43m▄▄[0;33m█[0m [33m▀▀█▀[0;1;31;43m▄[0;33m█[0m [33m █[0;1;31;43m▄▄[0;33m█[0m [33m▀▀█[0;1;31;43m▄▄[0;33m█[0;1;30m [0m                             
                       [1;30m [0m  [1;30m [0;1;31;43m [0;1;31;40m▄[0;1;31;43m▓[0;33m█[0m [1;30m [0;33m █[0;1;31;43m▀▀[0;33m█[0m [33m █[0;1;31m▄[0;1;31;43m▓ [0m [1;30;40m [0;33m █[0;1;31;47m▓[0;1;31;40m▀[0;33m█[0m
                       [1;30m [0m  [1;30m [0;33m█[0;1;31m█[0;1;31;43m█[0;33m█[0m  [33m    [0m  [33m █[0;1;31;43m██[0;33m█[0m [1;30m [0;33m [0;1;31;43m ██[0;33m█[0m
          [37m              [0m  [1;30m [0;33m█[0;1;31;41m▓[0;1;31;43m█[0;33m█[0m [33m▀[0m [1;30m [0m    [33m [0;1;31;43m [0;1;31;40m█[0;1;31;43m█ [0m [33m▀▀▀▀▀▀[0m

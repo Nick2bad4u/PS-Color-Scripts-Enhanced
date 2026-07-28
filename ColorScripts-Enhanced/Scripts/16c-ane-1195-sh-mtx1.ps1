@@ -5,7 +5,7 @@
 # Source SHA-256: b94c7a0fd33b1e7b37d8ff9dccab0d68f809cf4b10677ab23f41b682ca8acb3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-MTX1.ANS by Shatters (ane-1195); released in ane-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Zero Hour Matrix #1
 # SAUCE Author: Shatters
 # SAUCE Date: 19951030
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m▓██[0;1;30;47m▒[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█▓[0m [1;30;40m█████████▓▀ansi by shatters [0;1;34;40m [0m      ▄▄▄▓[1;47m░░[0m▀▀▀▀▀ ▀           ▀▓█▄[1;34m [0;1;30m100%[0;33m   [0m
+[1;30m▓██[0;1;30;47m▒[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█▓[0m [1;30;40m█████████▓▀                 [0;1;34;40m [0m      ▄▄▄▓[1;47m░░[0m▀▀▀▀▀ ▀           ▀▓█▄[1;34m [0;1;30m    [0;33m   [0m
 [1;30m█[0;1;30;47m▓▒░▓[0;1;30;40m██ ▓█████▓▀▀[0m [32m░▄      ▓▄▄▄░░  [0;1;34m  [0m   [1;34m [0m ▄▓[1;47m░[0m▀▀             [1;30m     [0m     ▐██▓[1;30m orgnl![0m
 [1;30m██[0;1;30;47m▓▓▒[0;1;30;40m██░█▓███▀[0m [32m ▄█▓   [0;1;34m [0;32m ▀▀▀▀▀▓▓[0;1;33;42m░░[0;32m▄▄▄[0;1;34m  [0m ▄█▀          [1;30m       [0m     [1;30m  [0m   ░█[1;47m░[0m█▌[1;34m [0;1;30m▀▄▄▄▓[0m
 [1;30m▓█[0;1;30;47m▓[0;1;30;40m█▀▀ ░ ▀▀ [0m  [32m █[0;1;33;42m░[0;32m▓░[0m  [33mlike put%[0;1;34m [0;32m▀▀█[0;1;33;42m░░[0;32m▓▄[0;37m▐▓░[0m [37m   [0m     [37m     [0m    [37m ▄▄[0m      [37m ▐█[0;1;37;47m░[0m█▓ [1;34m [0;1;30m▀▓[0;1;30;47m▓[0;1;30;40m█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 33b4544f5f7bb5c413dedc68030286fc5a4cead10e6269f2996ba22b4f4e8070
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-JAS.ANS by Tainted + Aesthetic (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: jasper
 # SAUCE Author: tainted/aesthetic
 # SAUCE Group: fire
@@ -54,7 +54,7 @@ Write-Host '
  ▐[1;47m▒[0;1;40m▄██[0;1;47m▀[0m ▀[1;47m▀█[0;1;40m▀[0m▄[1m▒▓▓[0;1;47m█[0;1;40m▀▀▌[0m▄[1;30m▄▀[0m         [1;47m█[0m [1;47m▒[0m■▀[1;47m▄██[0;1;40m▌[0m ▐  [1;30m [0m     ▀[1m▀[0m▀      [1m░[0m   [1;30;47m▒[0m [1;47m▀█▀[0m▀ [1;47m▀██[0m▄[1;47m▄[0m▌
 ░ [1;47m▀[0;1;40m██[0m▀▄▀▄ ▀▀  ▄[1m▄██▀▌[0m            [1;47m▒[0m ▌  [1;47m█[0;1;40m▓▓▌[0m▌[1m▐[0m [1;30m▐[0m         ▄[1;47m▄[0m▄        ▀▄▀ [1;30m▄[0m▀▄▀[1;47m▀▓▒[0m
  ▓ ▀▄▀▄[1m▒▒▓▓█[0;1;47m▒[0m▄   [1m▓[0m [1m▌[0m             ▀  ▄▀[1m▒▒█[0m ▐ ▐          ▀       ▄[1;47m▄[0;1;30;47m▀[0;1;30;40m▄[0m▀[1;30m▄▀[0m  ▀▄[1;47m▒[0m
-[1;47m▓▓[0;1;40m█[0;1;47m▄[0m▄  ▀[1m▀▀[0m▀[1;30m▀▀[0m    [1m▐[0m [1m▌[0m [1mtainted[0m[[1;30mfire[0m]    [1m░░█[0m ▐[1;30m▌[0m▐  [1maesthetic[0m[[1;30mfire[0m]  ▀▀        [1;47m░[0m▄▒
+[1;47m▓▓[0;1;40m█[0;1;47m▄[0m▄  ▀[1m▀▀[0m▀[1;30m▀▀[0m    [1m▐[0m [1m▌[0m [1m       [0m [1;30m    [0m     [1m░░█[0m ▐[1;30m▌[0m▐  [1m         [0m [1;30m    [0m   ▀▀        [1;47m░[0m▄▒
 █[1;47m▄█▄[0m▀            [1m▐[0m [1m▌[0m                 ▀▄ [1;30;47m▄[0m  ▀[1;30m▀[0m                      ▄▀[1;30m▄[0m     ▓
                  ▐ ▌                  ░[1;30;47m▄[0m                            [1;30m▀[0m
                   ▀

@@ -5,7 +5,7 @@
 # Source SHA-256: 221aa37fc99435b8e1b70fcd9b86fdb409ee9148eb799bc2d34b66089bc241b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RH-TLED1.ans by rash (mistigris); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the living end
 # SAUCE Author: rash
 # SAUCE Group: mistigris
@@ -27,7 +27,7 @@ Write-Host '
 [31m█████████████[0;37m [0;32m░ ░░[0;33m [0;32m▐[0;1;32;42m█[0;32m█▐[0;1;32;42m███▌[0;32m▐[0;1;32;42m█▓▓▒▒░░[0;32m███[0;37m [0;31m▄▄▄▄[0;37m [0;1;33;42m ░██▓░[0m [1;31;41m▒▒[0m [1;33;42m░▒[0;1;33;40m██[0;1;33;42m▒[0m [1;31;41m▒▓▓▒▒░░[0;31m█████████████[0m
 [31m███████[0;37;41m░[0;31;47m▓[0;31;40m████[0m     [32;40m▄[0;1;32;42m▄█[0;32m█▐[0;1;32;42m▀▀▀▌[0;32m▐[0;1;32;42m█[0;1;37;40m██[0;32m█ [0;1;32;42m    [0;32m█▄▄▄▄▄▄█[0;1;33;42m ░░░ [0m [1;31;41m░░[0m [32m█[0;1;33;42m░▒▒░[0m [1;31;41m▓█[0;1;31;47m▓[0;1;31;41m▓▓▒▒░░░[0;31m██████████[0m
 [31m██[0;1;31;41m░░░[0;31m████████ [0;1;30m [0m [32m▐[0;1;32;42m▀▀▀▀[0;32m█▐ [0;37m  [0;32m▀▐████ [0;1;32;42m  [0;32m██▄▐[0;1;32;42m ▀▀ ▀[0;32m██████[0;37m [0;1;31;41m [0;31m█[0;37m [0;32m██[0;1;33;42m░░[0;32m█[0;37m [0;1;31;41m▒▓▓▒▒░░[0;31m█████████████[0m
-[31m██████████[0;1;31;47m▓▓[0;1;31;41m█[0;31m█▓▒░[0;37m   [0;32m░[0;30;42m▓[0;37;40m [0;31;40m▄[0;1;31;41m▄[0;31m█[0m                      [1;30m- hULLO!@ Hope you like this one[0m
+[31m██████████[0;1;31;47m▓▓[0;1;31;41m█[0;31m█▓▒░[0;37m   [0;32m░[0;30;42m▓[0;37;40m [0;31;40m▄[0;1;31;41m▄[0;31m█[0m                      [1;30m                                [0m
           ░[30;47m▓[0;1;31;40m░[0;31m░[0;30;41m▓[0m                                                 [1;30;40m    -[0m [1;30mFOR LORD Q[0m
 ░[30;47m▓[0m                                [1;33;40m░░░░░░[0m    [1;33m░░░[0m                              [33m░[0;30;43m▓[0m
 [43m░[0;33;47m▓[0;1;33;43m  ░░░░▒▒▒▒▓▓▓▓[0;1;33;40m████████████████████████[0;1;33;44m███████████████████[0;1;33;40m█████████[0;1;33;43m▓▓▓▒▒▒░░░[0;30;43m░[0;33;40m▓[0;1;33;43m [0m

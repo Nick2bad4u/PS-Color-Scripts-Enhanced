@@ -5,7 +5,7 @@
 # Source SHA-256: 842aa41137882bf4a56dfc361973e370a6eb9f9c0b3a378e778a05a171295a24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DHLO.ANS by Velodrome + Sinister X (sense imagery); released in sense13j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dark haven logoff
 # SAUCE Author: velo (touched by sn)
 # SAUCE Group: sense imagery
@@ -38,4 +38,4 @@ Write-Host '
 [1;37;47m▒▒▒▒[0m▌▒▒ ▐[1;47m▓███░[0;30;47m█[0m      [1;30;40m▄▄▓▓▀▀[0;31m▄▄█[0;1;31;41m░░░[0;31m█▄[0;37m [0;30;47m█[0;35;40m▀▀▀█[0;1;35;45m▀[0;35m█[0;1;35;45m░▓█▓░[0;1;30;45m▄[0;35m▀▀[0;1;30m▀[0;30;47m█[0;37;40m [0;31;40m▄▄[0;1;31;41m░▒▒[0;31m▀   ▄▄[0;30;41mlog[0;1;31;41mo[0;31m [0;1;31;41mff ?░▒░[0;31m█[0m
 [1;37;47m░░░░[0m ▓▓ [1;47m░▓██▓[0m█▌[30;47m█[0;37;40m [0;31;40m  [0;1;30;40m▓▓▀▀[0;31m   ▀▀██[0;1;31;41m░░▓▓▓▄▄[0;31m▄▄[0m     [35m▀▀▀[0m    [31m▄▄[0;1;31;41m░░░[0;31m▀▀  ▄▄█[0;30;41m([0;1;37;41my[0;30;41m)es,[0;31;40m █[0;30;41mlater![0;1;31;41m░[0;31m█[0m
 [1;37;47mSn [0m▌ [1;30m█▌[0m▐[1;47m▒▓▒▒░[0m▀ [1;30m▄▒░[0m            [31m▀▀▀█[0;1;31;41m▀▀▀▓▓▒░[0;31m▄▄[0m     [31m▄█[0;1;31;41m░░░[0;31m▀▀   ▄█[0;1;31;41m░▒░[0;30;41m([0;1;37;41mn[0;30;41m)o,[0;31;40m█▌█[0;30;41mback![0;1;31;41m░░░[0;31m█[0m
-[1;37;47mVld[0m▌[1;30m▐█[0m [1;47m░▒░[0m▀ [1;30m▄██▀[0m [31m  [0;37m█▄[0m   [1;30m      [0m      [31m▀▀▀[0;1;31;41m░░░░[0;31m█▄▄███▀▀[0m     [31m▄██[0;1;31;41m░░░░[0;30;41m([0;1;37;41mc[0;30;41m)omm[0;31;40m▌█[0;30;41ment sysop[0m'
+[1;37;47m   [0m▌[1;30m▐█[0m [1;47m░▒░[0m▀ [1;30m▄██▀[0m [31m  [0;37m█▄[0m   [1;30m      [0m      [31m▀▀▀[0;1;31;41m░░░░[0;31m█▄▄███▀▀[0m     [31m▄██[0;1;31;41m░░░░[0;30;41m [0;1;37;41m [0;30;41m    [0;31;40m▌█[0;30;41m         [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: bd78dbe0fd97b40ba8863408fb635f7ed33761a61cd9e4291ab9e29e56ba7cd9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JXL-HOMY.ANS by Jaraxel + Anubis (FORCe); released in force-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FORCe PRoMo
 # SAUCE Author: JaRaXeL
 # SAUCE Group: FORCe
@@ -39,11 +39,11 @@ Write-Host '
                      [1;33m▄[0m
                  [1;33m▄▄██[0m                                          
                [1;33m▄███[0;1;37m█[0;1;33m█[0m                                                   
-              [1;33;43m▓▓[0;1;33;40m███▀██[0m                             SYSOP ANUBIS REMOTE BLADE
+              [1;33;43m▓▓[0;1;33;40m███▀██[0m                                                      
              [1;33;43m▒[0;1;33;40m▀▀██▄█▄▀█[0m        [1;33;40m▄[0m
 [1;33;40m    ▄[0m       [1;33;43m░[0;1;33;40m▄██▄██▀▀▀▀█▄▄▄▄██▀[0m
      [1;33;43m▓[0;1;33;40m▄▄▄  [0;33m█[0;1;37m▄█▄ [0;1;33m▀▌ [0;1;37m▄▀█▄ [0;1;33m█[0;1;37m██[0;1;33m█▀[0m
-      [1;33m▀[0;1;33;43m▒░[0m [33m█[0;1;37m▄▀ ▀█[0;1;33m▐▌[0;1;37m█   █ [0;1;33m██▀[0m                             IF YA WANT A COOL! ANSI
+      [1;33m▀[0;1;33;43m▒░[0m [33m█[0;1;37m▄▀ ▀█[0;1;33m▐▌[0;1;37m█   █ [0;1;33m██▀[0m                                                    
        [33m▀█ [0;1;33;43m░[0;1;37;40m█▄ ▄█[0;1;33;40m▐█[0;1;37;40m▀█▄█▀[0;1;33;40m▐▀ [0;1;30;40m▄[0m                    [1;37;40m▄▄▄[0m      LIKE THIS 1 CONTAKT ME
          [33m▄[0;1;33;43m░▓[0;1;37;40m▀█▀[0;1;33;40m▄███▄▄▄▄█ [0;1;30;40m▀██▄[0m     [1;37;40m▄▄[0m        [1;37;40m▄██████[0m     ON DA TEMPLE BBS, DS][,
      [1m▄   [0;1;43m [0;1;33;43m░▒▓[0;1;33;40m▄█████▀█[0;1;37;40m██[0;1;33;40m█▌  [0;1;30;40m▀██▄  [0;1;37;40m████[0m     [1;37;40m▄███████▀[0m     MINDFLUX, OR BLOODNET.

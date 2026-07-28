@@ -5,7 +5,7 @@
 # Source SHA-256: 3873ed713161067fe36a65126396d57968b1764bb617baad407ad36433f9d317
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-bloxxi.ans by filth (bL0CKYtRONiCS); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Spade Magazine
 # SAUCE Author: filth
 # SAUCE Group: bL0CKYtRONiCS
@@ -20,8 +20,8 @@ Write-Host '
 
                                                                    [33m ▄▄[0m
                                                                 [33m░▄█▓██[0m
-[1;35m  [0m                        [1;35mtoo much horror business[0m           [33m░░▄▓▓▓██[0m
-[1;35m  [0m                        [1;35m   driving late at night.[0m          [33m▄█▓█▓██▌[0m
+[1;35m  [0m                        [1;35m                        [0m           [33m░░▄▓▓▓██[0m
+[1;35m  [0m                        [1;35m                         [0m          [33m▄█▓█▓██▌[0m
 [1;35m  [0m                                       [1;35m- misfits[0;1;33m [0m       [33m░▄▓▓███▓██[0m
                                                          [33m▄█▓▓▓███[0;1;33;43m░[0;33m█[0m
 [37m  [0m                                                      [33m▄▓▓▓█▓█[0;1;33;43m░░[0;33m▀[0m

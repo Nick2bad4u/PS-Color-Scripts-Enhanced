@@ -5,7 +5,7 @@
 # Source SHA-256: 5d5c397a874070da46b1109920ac148260db8fc03a2f5009d25d202e73ba8640
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-OI3.ANS by Pyx (Bamboosh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Optical Illusion login
 # SAUCE Author: Pyx
 # SAUCE Group: Bamboosh
@@ -26,7 +26,7 @@ Write-Host '
 [32m▒▓▓████[0;1;32;42m░░[0;32m████▓▓[0;37m  [0;32m▓█[0;1;32;42m░░▒░[0;32m███▓▀▀  [0m   [32m░▒░[0;37m [0;32m░▀██▄▄▀██[0;1;32;42m░░▒▒[0;1;32;40m▀░[0m [1;30m░▒▓▓███▓░░████▓▓▓██▓▓▓▒░[0m
 [32m░▒▒▒▓█████▓█▀[0;37m  [0;32m░▓████▓▓▀▀[0m    [32m░▄▄▓█▓█[0;1;32;42m░[0;32m▄ [0;37m [0;32m▒▓▀████▓▓[0;1;32m▀[0m  [1;30m▄▄█████▀▀▀██████████████▓▄[0m
 [32m ░░░▒▒▓▓▓▀[0m   [32m░░██▀▀[0m    [32m░▒░[0;37m  [0;32m░▀██▀▀[0m   [32m▀▀[0;1;32;42m░[0;32m▄ [0;37m [0;32m░▀▀[0m    [1;30m▀▀    ▀▀▀▀▀▀    ▀▀▀▀▀ ▀██████[0m
-    [32m░[0;37m  [0;32m▒▒ ░▄▄▒▓▀[0;37m  [0;32m░▄▓█[0;1;32;42m░▒[0;32m▓▄▒[0;37m  [0;32m ░▒▓▄▄[0;37m [0;32m▄[0;1;32;42m░[0;32m▄▄▓▒[0m   [37mWelcome to Optical Illusion [0;1;30m▐███▀▄[0m
+    [32m░[0;37m  [0;32m▒▒ ░▄▄▒▓▀[0;37m  [0;32m░▄▓█[0;1;32;42m░▒[0;32m▓▄▒[0;37m  [0;32m ░▒▓▄▄[0;37m [0;32m▄[0;1;32;42m░[0;32m▄▄▓▒[0m   [37m                            [0;1;30m▐███▀▄[0m
           [32m▀░[0m    [32m▄███[0;1;32;42m░▒▒▒▓▓▓▒[0;32m▄    ░▀▀▀▀▀░░[0m     [1;30m [0m   [1;30m    [0m        [34m▄▄▄[0m   [1;30m▄▄  ▄████▀ [0m
           [32m   ▀▀▀▀▀▀▓██[0;1;32;42m░░▒▒[0;32m█▓▓▀▀░[0m    [32m░[0m    [32m▒▐▌[0;37m [0;1;30m░▒▓██▄▄▄██▄░▒▒[0m [1;30m░[0m [34m▀[0;1;34;44m▀▓▄▄[0;34m▄▄[0;37m [0;1;30m▒███▓▓██  [0m
  [32m▄▄▄█▄▀░[0m   [32m ░▄█▓▀▄▄▄▒▒▄     [0;37m  [0;32m▒▒░[0;37m [0;32m▄▄▓▒[0;37m [0;32m░▓[0;1;32;42m░[0;32m▀[0;37m [0;1;30m ▒▒█▀[0m [34m▄▄[0;1;30m ▀▀▄▓▓▓▒▒[0m   [34m▀[0;1;34;44m▀▒[0;34m▀[0;37m [0;1;30m▄████████▌[0m

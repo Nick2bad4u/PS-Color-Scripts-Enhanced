@@ -5,7 +5,7 @@
 # Source SHA-256: 3d417ffe886fc8f41cbeea4d31e5fc4b0227fc9c104fcb8822b3fa7954ae4737
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-IF.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: insest family
 # SAUCE Author: riddler
 # SAUCE Group: blend productions
@@ -19,7 +19,7 @@ Write-Host '
                                            [35m          [0;32m▐[0;1;32;42m░▒▄▄[0;32m▄▄[0;1;30m [0m [35m  [0;37m [0;32m▄[0;37m [0;35m   [0;30;42m█[0;32;40m▄[0;37;40m    [0;1;30;40m  [0m
  [1;32m  [0;32mi[0;1;32m  [0;32mn[0;1;32m  [0;32ms[0;1;32m  [0;32me[0;1;32m  [0;32ms[0;1;32m  [0;32mt[0;1;32m   [0;32mf[0;1;32m  [0;32ma[0;1;32m  [0;32mm[0;1;32m  [0;32mi[0;1;32m  [0;32ml[0;1;32m  [0;32my[0m    [1;32m [0m [35m▓██▀▀[0;32m ▄▄▄▐[0;37m [0;32m▐[0;1;32;42m▓▓▓▒[0;32m▐[0;37m [0;30;42m█[0;32;40m▄[0;30;42m [0;32;40m [0;37;40m [0;32;40m▄[0;37;40m [0;35;40m█▌[0;32;40m▐█▌▄[0;37;40m [0;35;40m▀██[0m
                                             [35;40m▀▀[0;37;40m [0;32;40m▄[0;1;32;42m▄▄▓░[0;32m█▐█▄█[0;1;32;42m░░░[0;32m█▌▐█▄▀▀[0;37m  [0;32m▄▄[0;1;32;42m▄▄▄▀[0;30;42m▓[0;37;40m [0;35;40m▐█[0m
-[35;40m   whatever you want goes here[0;1;30;40m.[0m [35m      [0m      [1;30m [0;30;42m▓░[0;1;32;42m▀[0;32m▀▀[0;1;32m▐[0;32m██▄████[0;1;32;42m [0;32m██▓ ██████[0;1;32;42m░▒▓▀[0;32m█▀▌[0;35m▐██[0m
+[35;40m                              [0;1;30;40m [0m [35m      [0m      [1;30m [0;30;42m▓░[0;1;32;42m▀[0;32m▀▀[0;1;32m▐[0;32m██▄████[0;1;32;42m [0;32m██▓ ██████[0;1;32;42m░▒▓▀[0;32m█▀▌[0;35m▐██[0m
                                             [35m▄[0;37m [0;32m▀[0;37m  [0;30;42m▓░█[0;37;40m [0;32;40m▀██[0;30;42m░[0;32;40m▀▀▀ [0;1;31;40m▄▄▄▄[0;32m ▀▐████▄▄[0;37m [0;32m▌[0;35m▓██[0m
                                             [35m███▓░[0;37m [0;32m▐▄██▀ [0;1;31m▄▄[0;1;31;43m▓[0;1;31;40m█████[0;1;31;43m▓▓[0;1;31;40m▄▄[0m [32m▀█████▌▄[0;1;30m [0;35m▀[0m
                                           [1;30m ░[0;35m███▌[0;37m [0;32m▀▐[0;37m [0;33m▄[0;1;31m▄▄██[0;33m▀[0;1;31m▀▀[0;1;31;43m▀[0;1;31;40m██████[0;1;31;43m▀[0;1;31;40m█▌[0;32m▐▀▀▀███▌[0m

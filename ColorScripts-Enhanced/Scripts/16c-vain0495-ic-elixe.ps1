@@ -5,7 +5,7 @@
 # Source SHA-256: 8846a21d5f9d862ae1c4426558754443296e0ce97d3c912660f6448c6101e74e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-ELIXE.ANS by iNNER CHAOS (READ THE INI FILE); released in vain0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dumb Elixer Ad
 # SAUCE Author: iNNER CHAOS
 # SAUCE Group: READ THE INI FILE
@@ -20,7 +20,7 @@ Write-Host '
 [1;30m█[0m ·   [1;30m█▀█▀█▀█▀█▀█▀█▀█[0m     ·         ·[1;30m·[0m        ·             ▐█[1;47mIs that a fact.[0m█
 [1;30m█[0m  [1;30m·[0m [1;37m [0;1;30m█▀█▀▀▀▀▀▀▀█▀█▀▀[0m▄[1;47m           [0m▄▄▄▄▄▄▄▄▄▄▄    [1;30m·[0m   [1;30m·[0m   ·   ■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 [1;30m█[0m     [1;30m▀▀▀[0;33m▄▓█▓█■▓■▀▄[0;1;30m▀[0m▐[1;47m You have been a thorn [0m█     ·     [1;30m▄■▓███▓█▄▄[0m    [1;30m·[0m  ·  [1;30m·[0m
-[1;30m█[0m [1;30m▐▀█▀▀[0;33m▄▀▀[0;1;31m [0m  [1;31m [0m [1;31m▄▄▌[0m [33m▌[0;37m█[0;1;37;47m in my side for far too [0m█     ·   ▄█[1m▐▄[0;1;47m▓[0;1;40m▀[0m▄[1;30;47m░▒▓[0m [1;30;40m■[0m ·     [1;30m·[0m
+[1;30m█[0m [1;30m▐▀█▀▀[0;33m▄▀▀[0;1;31m [0m  [1;31m [0m [1;31m▄▄▌[0m [33m▌[0;37m█[0;1;37;47m                        [0m█         ▄█[1m▐▄[0;1;47m▓[0;1;40m▀[0m▄[1;30;47m░▒▓[0m [1;30;40m■[0m       [1;30m [0m
 [1;30m█[0m [1;30m▐▀█▀[0;1;31m▐■[0;1;31;43m▓[0;1;31;40m▄[0;1;37;40m▀[0;1;37;41m▓▒[0;1;37;40m▄[0;1;37;41m▓[0;1;31;40m▐[0;1;31;43m▓[0;1;31;40m▌[0m  █[1;47m long, Sin!            [0m▀    [1;30m·[0m    ▐[1;30;47m░[0m▌█[30;47m▀[0;37;40m▄███[0;1;30;47m░▒[0m [1;30;40m█[0m
 [1;30;40m█[0m [1;30;40m▐▀█▀▄[0;1;31;40m▀[0;1;31;43m▒▓[0;1;31;40m█▄▄▄ █[0;1;31;43m▓▒[0m ▄[1;47m   [0m▀▀▀▀▀▀▀▀▀▀     [1;30m·[0m                ▀▄█▀▀▄█[1;30;47m ░[0m▀ [1;30m█[0m  [1;30m█▀█▀█▀█▀█[0m
 [1;30m█[0m [1;30m▐▀█▀█ [0;33m▀[0;1;31;43m▒▓[0;1;37;40m■■[0;1;31;40m▀█▄▄[0m       [1;30m  [0m                     ·        [34m ▄[0;37m▀▀▀▀▀[0;34m▄[0m  [1;30m▐▌[0m [1;30m█▀█▀█▀█▀█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: fc325339c5a69fe817dc7d72229afec9ff625bc4de8e70357aac26c517f40c3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LOCURA.ANS by Darkman-Circe (wld-art1); released in wld-art1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -42,7 +42,7 @@ Write-Host '
 
 
 
-[34m         [0;1;37m──[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m───┤ [0;32mL[0;1;32mo[0;1;33mcu[0;1;32mr[0;32ma! - A[0;1;32mNS[0;1;37mi[0;32m b[0;1;32my[0;32m [0;1;37m:[0;32m [0;33md[0;1;33mA[0;1;37mrKM[0;1;33ma[0;33mN [0;37m [0;1;30m├─────[0m─[1;30m──[0m─[1;30m──[0m─[1m─[0m─[1m──[0m
+[34m         [0;1;37m──[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m───┤ [0;32m [0;1;32m [0;1;33m  [0;1;32m [0;32m      [0;1;32m  [0;1;37m [0;32m  [0;1;32m [0;32m [0;1;37m [0;32m [0;33m [0;1;33m [0;1;37m   [0;1;33m [0;33m  [0;37m [0;1;30m├─────[0m─[1;30m──[0m─[1;30m──[0m─[1m─[0m─[1m──[0m
 
                                                                  [1;32;42m▓█[0m
                                                                 [1;32;42m▓█[0m

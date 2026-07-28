@@ -5,7 +5,7 @@
 # Source SHA-256: 1fbfed54a7d0f86112f3ca036a87eaf0a77a6dc82131c326964d2bbfc0ca9a8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-OPTNS.ANS by Tee_are (Purg Productions); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: PURGdraw Option
 # SAUCE Author: Tee_are
 # SAUCE Group: Purg Productions
@@ -29,7 +29,7 @@ Write-Host '
 [1;31;41m▒[0;31m▌[0;37m ▄[0;30;47m░[0;37;40m█[0;30;47m░█[0;37;40m [0;1;30;47m▒░░░[0;30;47m■[0;1;30;47m░░[0m███ [1;30m▀[0;1;30;47m▒▒[0m█[1;30;47m░░[0;30;47m █[0;1;30;47m░▒░░[0m██[30;47m■[0;37;40m█▄███[0;1;30;47m▒[0m██[1;30;47m░▒▓█[0m                        [1mPURG[0mdraw
 [1;31;41m▓[0;34m [0;37m [0;30;47m░[0;37;40m█▀  ▐[0;1;30;47m░[0;30;47m■▀[0;1;30;47m░[0;30;47m·■[0;37;40m▀███▌░▐[0;1;30;47m░[0m██▓░·[30;47m▌[0;1;30;47m░[0;30;47m·[0;1;30;47m░[0m██[30;47m [0;37;40m█[0;1;37;47m░░[0m▀[30;47m [0;1;30;47m░[0m█[30;47m·[0;37;40m█[0;1;30;47m░▒▒▓[0m
 [1;31;41m█[0;1;31;40m▌[0m▐▀   ■▀  ▀▀▀[1;30;47m░░[0m▄▀▀ ▒ [1;30;47m░[0m██▌■[30;47m█░[0;37;40m█[0;30;47m ■[0;37;40m█[0;1;37;47m░[0m▀ ▄▄[1;47m░░[0m▀▀▀▀▀[1;30;47m░▓[0;1;30;40m▌[0m        pretty options.
-[1;31;41m▓[0m ▌[33m [0;37m [0;33m▄▄[0;37m          ▀■▓■·▐█▓▒░[0;30;47m█░░[0;37;40m█[0;1;37;47m░[0m▀          [33m▄▄[0;37m [0;1;30m▐[0m         see the pretty options.
+[1;31;41m▓[0m ▌[33m [0;37m [0;33m▄▄[0;37m          ▀■▓■ ▐█▓▒░[0;30;47m█░░[0;37;40m█[0;1;37;47m░[0m▀          [33m▄▄[0;37m [0;1;30m▐[0m                                
 [1;31;41m▒[0;31m▌[0;37m▐   [0;33m▀▒▄[0;1;37m▀▀[0;33m▄[0;30;43m░[0;33;40m▀▀[0;37;40m   ▄ ·■▄██▀ ■▀     [0;33;40m ▀▀[0;1;30;43m░[0;33m▄[0;1;37m▀▀[0;33m▄▒▀[0;37m            good options.           [0m
 [1;31;41m░[0;30;41m■[0;37;40m ▀▄    [0;33;40m▀▀[0;37;40m     ▄ ▀▄▌[0;1;30;40m■[0m ▀[1;30m■░░▐[0m   ▀■▄▄    [33m▀▀[0;37m               good little options.    [0m
 [30;41m [0;31;40m▌[0;37;40m▐■▀[0;30;47m░[0;37;40m▄▄▄   ▄▄■▀  ▄[0;30;47m■[0;37;40m ▌[0;1;30;40m▀▓▌[0m  [1;30m▌[0m       ▀▀▀■     [1m▄▄█[0m                           

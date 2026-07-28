@@ -5,7 +5,7 @@
 # Source SHA-256: c4009a2959383778d1164d1465074a89bfc76aa7d7c0396c9cd23ace62066594
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MQ-MENU1.ANS by Moleql (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: de menuset
 # SAUCE Author: Moleql
 # SAUCE Group: Root
@@ -31,10 +31,10 @@ Write-Host '
 [1;30;47m░▒[0;1;30;40m▄[0m [1m [0;1;33m▀▀[0m [1;30m▄▓▓█▄[0m [1mmoleql[0m.root.production[31m▀▒░▄▄▀[0;37m  [0;1;30;47m▓[0m [31m▐▒▒[0;37m [0;31m▄▀[0;37m [0;1;30m▄▄▄ ▄▄▄▀▄▄[0m  [1m [0;1;33m▀▀[0m [1;30m▄▓▀▄▒▓▄[0m [1;30m▄▓▐[0m
 [1;30m▐[0;1;30;47m▒▓[0;1;30;40m▓░▓█▀▄▓█▓███[0;1;30;47m▓[0;1;30;40m▄[0m [1;30m▄[0m                   [31m▀[0;37m  [0;1;30m▄▄[0;1;30;47m▓[0;1;30;40m█▓▄[0;31m▀░░▀[0;37m [0;1;30m██▒ ░▒█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▓█[0;1;30;47m▒░▒[0;1;30;40m▄▀▀▄▄▀█▓▓▓▄▓▌[0m
 [1;30;40m▄▀[0m [1;30m▄[0m [1;30m▀ ▌▀▀▒ ▀ ▄[0m       [1;30m▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀■▀▀▄▄▄[0;1;30;47m▓▓[0;1;30;40m██▄▀▄▄█▀▓▓▒░▓█▀▓▓[0;1;30;47m▓▓[0;1;30;40m▓[0;1;30;47m▒▒▓▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▓▒▒███▓█▌[0m
-[1;30;40m.■▐▌ ░[0m [1mMenu[0;1;30m   ▐▌■·[0m [1mG[0moodbye - logoff       [1;30m▀▀▀[0;1;30;47m▓[0;1;30;40m▓██▄▀▀▀▐█▓▀[0m   [1;30m▀▒▒▌▀[0m   [1;30m▀▀▓█▓█▀▄▒▓▀[0m
+[1;30;40m ■▐▌ ░[0m [1m    [0;1;30m   ▐▌■ [0m [1m [0m                      [1;30m▀▀▀[0;1;30;47m▓[0;1;30;40m▓██▄▀▀▀▐█▓▀[0m   [1;30m▀▒▒▌▀[0m   [1;30m▀▀▓█▓█▀▄▒▓▀[0m
  [1;30m▄▓▀[0m [1;30m▀▀ ▀▀▀▀[0m [1;30m■▀[0m                               [1;30m▀▓█■[0m   [1;30m█▀[0m       [1;30m▀[0m          [1;30m▀█▒▀▓▄■[0m
 [1;30m▐▒[0m [1;30m░[0m [1m                                     [0m     [1;30m▐▌[0m   [1;30m▀▄[0m                [1m [0m    [1;30m▀[0m  [1;30m▒▌[0m
-[1;30m▒▌░ [0m                   [1;30mcommands go in here...[0m  [1;30m▀[0m                           [1;30m▐[0m  [1;30m▐▓[0m
+[1;30m▒▌░ [0m                   [1;30m                      [0m  [1;30m▀[0m                           [1;30m▐[0m  [1;30m▐▓[0m
 [1;30m▓[0m [1;30m░[0m                                              [1;30m░[0m                             [1;30m▓[0m
 [1;30m▓▌[0m [1;30m [0m                                            [1;30m▐▒[0m                     [1;30m▐[0m      [1;30m▐▒[0m
 [1;30m▐[0;1;30;47m▒[0;1;30;40m▄■░[0m                    [1;30m▓▄[0m                   [1;30m▄▓█▓▄▄[0m                  [1;30m▄▌▓▄[0m   [1;30m▄▓▌[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 8a6042fd0938a8acb72d7707eec9c5c87d977fc0a515d1ce18b178a6dd80b8c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZ-CORE1.ANS by _rzicus (avenge); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: core e-mag!
 # SAUCE Author: _rzicus
 # SAUCE Group: avenge
@@ -36,7 +36,7 @@ Write-Host '
 [36m▓[0;37m   <commands here>  [0;34m▀[0;1;34;44m▀[0;1;34;40m█[0;1;34;44m▄[0;34m▄[0;37m       [0;1;37;47m▓▒[0;1;30;47m▐[0;1;30;40m▀[0;1;37;40m░▒▒▓▀[0m ▄▄▄[1;30m▄[0m    ▀[1;30;47m▒░▒▓[0;1;30;40m▌[0m     [30;47m▓▓[0;1;30;40m▄[0m [1;30m████▄[0m     [1;30m▀[0;1;30;46m▓▓▒[0m
 [1;36;46m▓[0m   <commands here>     [34m▀[0;1;34m▀[0;34m█[0;37m   ▄[0;1;30m▌[0m [1m▐[0;1;47m▓[0m█[1;30m▌[0m    [1;47m▓▓▒░[0m█[1;30;47m▄[0m█[1;30;47m▀[0m▄▄[1;30m▄▐[0;1;30;47m▒▓█[0m       ▒▒[1;30m▌[0m  [1;30m█[0m█[1;30m█▄[0m     [1;30m▀█[0;1;30;46m▓[0m
 [36m▓[0m   [37m         [0m      [37m       [0;34m▐▌[0;37m [0;1;37m▐▓▒[0;1;30m▄[0m [1m▐[0;1;47m▓[0;1;30;47m▀[0;1;30;40m▄[0m [1m▄[0;1;47m▓▓░░[0;1;30;47m▄[0;1;30;40m▀[0m   [1;30m▄▄[0;1;30;47m▓[0m▒▒[1;30m▀[0m [1;30m▐[0m  [1;30m▄[0m   [1;30m▀▀[0m▐[1;30;47m▓[0;1;30;40m▄███[0;1;30;47m▀[0;1;30;40m█[0m [1;30m [0m    [1;30m▀[0m
-[36m▓[0m   [37mthis ansi is for      [0;34m▀[0;37m   [0;1;37m▀[0;1;37;47m▓[0;1;37;40m▓▒[0m [1m▀[0;1;47m█▓[0;1;40m▓[0;1;47m▓▒▒░[0;1;30;47m▐[0;1;30;40m▌[0m [1;30m▄[0;1;30;47m▓[0;30;47m▒▓▓[0;1;30;40m▀▀[0m  ▄[1;30m█[0m ▐[1;30;47m▓▓[0;1;30;40m▄[0m   ▐[1;30;47m░▓▓[0;1;30;40m█[0;1;30;47m▌[0m█[1;30m█▓░ [0m [1;30m▄▄▄[0m
+[36m▓[0m   [37m                      [0;34m▀[0;37m   [0;1;37m▀[0;1;37;47m▓[0;1;37;40m▓▒[0m [1m▀[0;1;47m█▓[0;1;40m▓[0;1;47m▓▒▒░[0;1;30;47m▐[0;1;30;40m▌[0m [1;30m▄[0;1;30;47m▓[0;30;47m▒▓▓[0;1;30;40m▀▀[0m  ▄[1;30m█[0m ▐[1;30;47m▓▓[0;1;30;40m▄[0m   ▐[1;30;47m░▓▓[0;1;30;40m█[0;1;30;47m▌[0m█[1;30m█▓░ [0m [1;30m▄▄▄[0m
 [36m▓[0m   [37msyndrome''s core     [0;34m▀[0;37m      [0;1;37m▄▓▒[0;1;30m▌[0m   [1m▀[0m▀▀▀▀[1;30m▀▀▀▀▀▀[0m     ▐[1;30;47m░[0;1;30;40m█[0m ▐[1;30;47m▒▓▓[0;1;30;40m▌[0m  ██[1;30;47m▒▒▓[0;1;30;40m████▓[0m ▒▒[1;30;47m▓▓[0m
 [36m▓[0m   [37memag...                  [0;1;37m▄[0;1;37;47m▓[0;1;37;40m▓▒[0;1;30;40m▀[0m [1m▄▄[0;1;47m▓▒[0;1;30;47m▄[0;1;30;40m▀[0m          [30;47m▓▓[0;37;40m ▐[0;1;30;47m▒▒[0;1;30;40m▌[0m▐[1;30;47m░▒▒[0m░  ██[1;30;47m░░▓▓▓[0;1;30;40m███▌[0m [1;30m▐█[0;1;30;47m█[0m
 [1;36;46m▼[0m                   [1;30m   _rz  [0;1;37m▐[0;1;37;47m▓[0;1;37;40m▓▒[0;1;30;40m▌[0m [1m▐[0;1;47m▓▒▒[0;1;30;47m▀[0m▄▄▄[1;30m▄[0m▄[1;30m▄▄[0m  ▄▄[30;47m░▒▓[0;37;40m [0;1;30;47m░▓▓[0;1;30;40m█[0m ▀█▓▒░ ████[1;30;47m░▒▒▓▓[0;1;30;40m██▄▄█[0;1;30;47m█[0m'

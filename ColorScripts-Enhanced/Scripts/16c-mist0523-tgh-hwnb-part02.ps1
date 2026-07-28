@@ -5,7 +5,7 @@
 # Source SHA-256: f29ed365e0d9477854d325fde80f42a5d89cc97d953aa66239e7ed2ea926e2a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TGH-HWNB.ANS by The Green Herring (N/A); released in mist0523 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Humanity Will Never Be Replaced
 # SAUCE Author: The Green Herring
 # SAUCE Group: N/A
@@ -40,5 +40,5 @@ Write-Host '
 [31m░ ▓░█▓█▓█▓███▓██████████████▓█▓█▓█▓█▓█▓██▓█▓█▓█▓█▓█▓██████████████████▓█▒█▓█▒▓ ░[0m
 [37m  [0;31m░ ▓▒█▒█▒█▓█▓███████████▓█▓▒▓░▒[0;37m [0;31m▒ ▒[0;37m [0;31m░[0;37m [0;31m▒▒[0;37m [0;31m▒[0;37m [0;31m░ ▒[0;37m [0;31m▓▒▓▒▓█▓███▓███████▓█▓█▒▓▒▓▒▓ ▒[0m
 [37m    [0;31m▒░▓▒▓░█▒█▒█▓█▓█▓█▒█▓█▒▓▒░▒[0;37m                    [0;31m░▒░▓▒█▓█▒█▓█▓█▓█▒█▒█░▓░▒ ▒[0;37m [0;31m░[0m
-[30mTGH![0;37m  [0;31m░░▒ ▒░▓ ▓░▒░▒░▒░▓▒▒ ▒[0;37m [0;31m░[0;37m  [0;32mαThe[0;37m [0;1;32mGre[0;1;37men H[0;1;32merr[0;32ming[0;37m  [0;31m░[0;37m [0;31m▒ ▒▒▓░▒░▒░▒░▓ ▓░▒ ▒░░[0;37m [0;31m░[0;30mTGH![0m
+[30m    [0;37m  [0;31m░░▒ ▒░▓ ▓░▒░▒░▒░▓▒▒ ▒[0;37m [0;31m░[0;37m  [0;32m    [0;37m [0;1;32m   [0;1;37m    [0;1;32m   [0;32m   [0;37m  [0;31m░[0;37m [0;31m▒ ▒▒▓░▒░▒░▒░▓ ▓░▒ ▒░░[0;37m [0;31m░[0;30m    [0m
 [30m2023[0;37m   [0;31m░  ░ ░ ░ ▒ ▒ ▒ ▒[0;37m [0;31m░[0;37m [0;31m░[0;37m           [0;1;37m2023           [0;31m░[0;37m [0;31m░[0;37m [0;31m▒ ▒ ▒ ▒ ░ ░ ░  ░[0;37m   [0;30m2023[0m'

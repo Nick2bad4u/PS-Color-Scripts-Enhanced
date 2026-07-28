@@ -5,7 +5,7 @@
 # Source SHA-256: db7a6484d86f2ba7a743202f53d707eb553c68f9e7fa6ad28ed9b4f8c115e419
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NEWS0396.ANS by Tarot (flavor); released in flvr0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the march newsfile
 # SAUCE Group: flavor
 # SAUCE Date: 19960314
@@ -45,7 +45,7 @@ Write-Host '
 [36m    [0;1;32;46m░[0;36m▀  ▀█ [0;37m                                                        [0m
    [36m▐▌[0m    [36m▐▌[0;37m                [0;1;33m    [0m                      
    [36m▐[0m     [36m [0;1;32;46m░[0;36m▄[0m
-   [1;32;46m░[0m      [36m▐[0;1;32;46m░[0;36m▀ ▀▀[0;1;32;46m░[0;36m▀░▀ ░[0m               [37m    - tarot, the 14th of march[0m
+   [1;32;46m░[0m      [36m▐[0;1;32;46m░[0;36m▀ ▀▀[0;1;32;46m░[0;36m▀░▀ ░[0m               [37m                              [0m
    [36m▐▌[0m     [36m▐▌[0m    [36m          [0m
     [1;32;46m░[0;36m▄[0m    [1;32;46m░[0m      [36m     [0m
      [36m▀[0;1;32;46m░[0;36m▄ ▀[0m         [36m [0m   [36m              [0m'

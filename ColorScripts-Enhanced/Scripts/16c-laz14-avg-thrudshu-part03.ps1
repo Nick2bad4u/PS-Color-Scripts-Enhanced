@@ -5,7 +5,7 @@
 # Source SHA-256: 6ac7fbfb5b2e2417aa65f666c3c8ea538c787e7124f108e2dc3d5dd5455ceccb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-thrudshu.ans by avg (Lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: avg
 # SAUCE Group: Lazarus
 # SAUCE Date: 20211213
@@ -51,7 +51,7 @@ Write-Host '
 [1;34m███[0;1;34;45m▓▓▓▓▓[0;1;34;40m███████████████████████████████[0;1;34;44m   ▄[0;1;34;40m███████████[0;1;34;46m▀[0;36;47m█[0;1;34;40m▒[0m    [1;34m████████████[0;1;34;47m▀[0;1;34;40m██████[0m
 [1;34;47m      ▀▀▀▀▀▀▀▓▓▓▓▓▓[0;1;34;40m████████████[0;1;34;47m▀[0;1;34;40m███████[0;34m▀[0;1;34m ███████████[0;1;34;46m▀[0;36;47m███[0;1;34;44m [0m    [1;34m████████ ▀[0;1;34;47m ▀[0;1;34;40m███████[0m
 [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▀▀▀▀▀▀▀▀▀▀[0;1;34;47m ▀[0;1;34;40m██████▀[0;34m█▀[0;1;34m █████████[0;1;34;47m▀ [0;36;47m░░░░[0;1;34;44m [0m    [1;34m████████   ▀███████[0m
-a[1;34mvg_[0m [1;34mWho threw[0m the s[1;34mhoe[0m.[1;34m    [0;34m▀█[0;1;34m▀████▀     ██████[0;1;34;46m█[0;1;34;47m▀[0;35;47m   [0;36;47m░░░░[0;1;34;44m [0m    [1;34;44m ▀[0;1;34;47m ▀[0;1;34;40m████   [0;34m▀█[0;1;34m▀█[0;34m ▀▀[0;1;34m▀[0m
+ [1;34m   [0m [1;34m         [0m      [1;34m   [0m [1;34m    [0;34m▀█[0;1;34m▀████▀     ██████[0;1;34;46m█[0;1;34;47m▀[0;35;47m   [0;36;47m░░░░[0;1;34;44m [0m    [1;34;44m ▀[0;1;34;47m ▀[0;1;34;40m████   [0;34m▀█[0;1;34m▀█[0;34m ▀▀[0;1;34m▀[0m
                                [1;34m██▀[0;34m█▀[0;37m     [0;1;34m████[0;1;34;47m▀[0;1;34;40m▀[0m ░░░░░░░░        [1;34m▀████[0m
                                [1;34m▀[0m         [1;34m██[0;1;34;47m▀[0;1;34;40m▀[0m                     [1;34m▀██[0m
                                          [1;34;47m▀[0;1;34;40m▀[0m                         [1;34m▀[0m'

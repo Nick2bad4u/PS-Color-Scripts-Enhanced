@@ -5,7 +5,7 @@
 # Source SHA-256: 82ac4e8fa721afe1603021815821395811436cfa2a2a0bef6fb2ddae1f28d1df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EC-CG!.ANS by eclipse (idle); released in idle-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cyber gateway
 # SAUCE Author: eclipse
 # SAUCE Group: idle
@@ -30,9 +30,9 @@ Write-Host '
 [31m▐[0;1;31;41m░▒▒▓[0;1;31;40m▄[0;31m▄[0;1;32m [0m▀[1m▀▀[0;1;47m▀[0;1;40m████▄▄▄[0;1;47m▄[0;1;40m███████▀[0m                     [31m▄[0m           [1;31m▐[0;1;31;43m▓██[0;1;31;40m██████▄▄██[0;1;31;43m▓▒[0m
 [31m [0;1;31;41m░░▒▒[0;31m▀[0;1;31m      [0m                                     [31m▐[0;37m   [0;33m [0m        [1;31m▀██████████▀[0m [1;31;43m▓[0;1;31;40m▌[0m
 [31m [0;1;31;41m░░▒[0m   [1mx[0m command     [1mx[0m command     [1mx[0m command     [1;31;41m░[0m [33m  [0;37m [0;33m [0m      [1;31m ▀▄▄▄▄▄▄▄▄▄▄▄[0;1;31;43m▓[0;1;31;40m▀[0m
-[31m ▐[0;1;31;41m░[0;31m▌[0m   [1;37mx[0m command     [1mx[0m command     [1mx[0m command    [31m▐[0;1;31;41m▒[0;31m▌[0;37m [0;33m  [0;37m  [0m         [1;31m▀▀▀▀█▀▀▀[0m
+[31m ▐[0;1;31;41m░[0;31m▌[0m   [1;37m [0m             [1m [0m             [1m [0m            [31m▐[0;1;31;41m▒[0;31m▌[0;37m [0;33m  [0;37m  [0m         [1;31m▀▀▀▀█▀▀▀[0m
   [1;31;41m░[0m    [1m [0m             [1m [0m             [1m [0m             [31m▀[0m   [1;37m  [0;1;31m▄▄▄█  [0m     [1m  [0;31m▄[0;1;31;41m▓[0;31m▄[0;37m  [0;1;30m   [0m
-  [31m▐[0m    [1;37mx[0m command     [1mx[0m command     [1mx[0m command          [1m  [0m [1;31m▀▀▀▀▀[0;31m██▄▄██[0;34;41m  [0;31;40m███▄[0m
+  [31m▐[0m    [1;37m [0m             [1m [0m             [1m [0m                  [1m  [0m [1;31m▀▀▀▀▀[0;31m██▄▄██[0;34;41m  [0;31;40m███▄[0m
 [37;40m  [0;31;40m▐[0m    [1;37;40m [0m             [1m [0m             [1m [0m             [1m [0m             [1m [0;31m▀█[0;34;41m [0;30;41m     [0;31;44m█[0;31;40m██[0m
 [37;40m  [0;1;31;41m░[0m    [1m [0m             [1m [0m             [1m [0m             [1m [0m             [1m [0;1;31m [0;31m▐[0;1;37;41m [0;30;41m    [0;31;40m█▀██[0m
 [37;40m [0;31;40m▐[0;1;31;41m▓[0;31m▌[0m   [1;37m [0m             [1m [0m             [1m [0m             [1m [0m               [31m █[0;1;37;41m [0;31m████[0;37m  [0;1;31m█[0m

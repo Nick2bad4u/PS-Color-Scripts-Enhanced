@@ -5,7 +5,7 @@
 # Source SHA-256: 2e9589389ca0080e99029c3c4163d09b2c738d6e5d379f58a9391842ce7aea24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-FC1.ANS by chEEZEY (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: free c0ke
 # SAUCE Author: chEEZEY
 # SAUCE Group: eclipse
@@ -37,6 +37,6 @@ Write-Host '
 [1;30;40m███[0;1;30;47m▄▄[0;1;30;40m███[0;1;30;47m▓▓[0;1;30;40m▀▀  [0m      [1;30m          [0m      [1;30m  ▀[0m       [1;30m█[0m  [1;33m██[0;1;37;47m██[0m [1;30m [0;1;30;47m█[0;1;30;40m▄▄[0m      [1;30m▄▄█▓▓█████[0;1;30;47m▄▄▄███[0m
 [1;30;40m▓██[0m            apply      check      chat           [1;30m   [0;1;30;47m▓[0m           [1;30m▀▀▀▀▀▀[0;1;30;47m▓▓[0;1;30;40m█████[0m
 [1;30;40m▐██▌[0m login                                    leave  [1;30m▐██▌[0m free coke ..        [1;30m▀▀[0m
-[1;30m [0;1;30;47m▓▓[0;1;30;40m█[0m      [1;30m▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▀█[0;1;30;40m█████████[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄[0m          [1;30;47m▀[0;1;37;47m▄[0;1;30;47m [0m from the minds of tna,
+[1;30m [0;1;30;47m▓▓[0;1;30;40m█[0m      [1;30m▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▀█[0;1;30;40m█████████[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄[0m          [1;30;47m▀[0;1;37;47m▄[0;1;30;47m [0m                       
  [1;30m▐█████████▓▀▀▀▀▀▀▀▀▀▀ [0m       [1;30m ▀▀▀▀▀▀▀▀▀▀▀█[0;1;30;47m▓▓[0;1;30;40m█████████[0;1;30;47m▄▄[0;1;30;40m█[0m fluor, and grindstone
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ace8bbbd6c1904ba4325b339b309fcc68451f68d5019952b3e57baac552f9f8b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: virus-pic.ans by clear2ooo (clear2ooo-ascii-year-lf); released in clear2ooo-ascii-year-lf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: virus-pic
 # SAUCE Author: clear2ooo
 # SAUCE Date: 20250206
@@ -21,7 +21,7 @@ Write-Host '
             █[32m▓▓▓▓▓█             █▓▓▓▓▓█[0m
            █[32m▓▓▓▓▓▓█  [0;31m█████████  █[0;32m▓▓▓▓▓▓█[0m
            █[32m▓▓▓▓▓▓█ [0;31m█▓▓▓▓▓▓▓▓▓█ █[0;32m▓▓▓▓▓▓█[0m
-          █[32m▓▓▓▓▓▓▓█[0;31m█▓▓█▓▓▓▓▓█▓▓██[0;32m▓▓▓▓▓▓▓█               [0;30;47mit is not hard for me[0m
+          █[32m▓▓▓▓▓▓▓█[0;31m█▓▓█▓▓▓▓▓█▓▓██[0;32m▓▓▓▓▓▓▓█               [0;30;47m                     [0m
           █[32m▓▓▓▓▓▓▓█[0;31m█▓█▓█▓▓▓█▓█▓██[0;32m▓▓▓▓▓▓▓█[0m
          █[32m▓▓▓▓▓▓▓▓█[0;31m█▓█▓█▓▓▓█▓█▓██[0;32m▓▓▓▓▓▓▓▓█[0m
          █[32m▓▓▓▓▓▓▓▓█[0;31m█▓▓█▓▓▓▓▓█▓▓██[0;32m▓▓▓▓▓▓▓▓█              [0;30;47m at all. no it really[0m

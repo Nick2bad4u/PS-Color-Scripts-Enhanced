@@ -5,7 +5,7 @@
 # Source SHA-256: c69421dd61bc03643eb9a36fe1d4f88ed8744869ee5c29ea6ec02c063141e37c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SE-STATS.ANS by Side Effect (adfa0993); released in adfa0993 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -43,8 +43,8 @@ Write-Host '
 [35m░░░[0m                           [1;33;47m▒░[0m█[35;47mMain Level : [0;1;33;47m%UL                    ▒░[0m       [35m░[0m
 [35m▒░░░[0m                          [1;33;47m▒░[0m█[35;47mFile Level : [0;1;33;47m%FL                    ▒░[0m       [35m░[0m
 [35m▒▒░░░[0m                         [1;33;47m▒░[0m█[35;47mFile Points: [0;1;33;47m%FP[0m████[47m       [0;40m█████████[0;1;33;47m▒░[0m
-[35m▓▒▒░░░[0m                        [1;33m▀[0;1;33;47m  [0;35;47mUploads    : [0;1;33;47m%UK[0;35;47mk [0;1;33;47min %UP files     [0m█[1;33;47m▒░[0m
-[35m▓▓▒▒▒░░░[0m                      [1;33;47m▒░ [0;35;47mDownloads  : [0;1;33;47m%DK[0;35;47mk [0;1;33;47min %DN files     [0m█[1;33;47m▒░[0m
+[35m▓▒▒░░░[0m                        [1;33m▀[0;1;33;47m  [0;35;47m             [0;1;33;47m   [0;35;47m  [0;1;33;47m                 [0m█[1;33;47m▒░[0m
+[35m▓▓▒▒▒░░░[0m                      [1;33;47m▒░ [0;35;47m             [0;1;33;47m   [0;35;47m  [0;1;33;47m                 [0m█[1;33;47m▒░[0m
 [35m█▓▓▓▒▒▒░░[0m                     [1;33;47m▒░ [0;35;47mPosts      : [0;1;33;47m%PS[0m█[47m                  [0;40m█[0;1;33;47m▒░[0m
 [1;33;45m [0;35m█▓▓▓▒▒▒░░░[0m                   [1;33;47m▒░ [0;35;47mCalls      : [0;1;33;47m%CS[0m█[47m                   [0;1;33;47m▒░[0m       [35m░[0m
 [35;45m  [0;35;40m▓▓▓▓▒▒▒░░░[0m                 [1;33;47m▒░  [0;35;47mPCR        : [0;1;33;47m%PC[0m█[47m                  [0;1;33;47m▒░[0m       [35m░░[0m

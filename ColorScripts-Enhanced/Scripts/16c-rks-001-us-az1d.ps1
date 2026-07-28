@@ -5,7 +5,7 @@
 # Source SHA-256: 30dc3214da3dd619a5278387a0685e02f8741204e8614edc416bee5ff1017c40
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-AZ1D.ANS by Ruckus + The Rza (rks-001); released in rks-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -31,6 +31,6 @@ Write-Host '
          [1;30m▀[0;1;30;47m█[0;1;30;40m▄  [0;36m▀▀▀[0;36;46m [0;1;36;46m▀▓█▀ [0m [1;30m█    ▀▀▀█▄▄▄ [0;1;37m▀▀[0m▀▀[1;47m▄[0m█[1;34;47m░▄▒▄▄[0;1;34;40m█ [0;1;34;44m  ▀[0;34m█[0;1;34;44m▒▓[0;32;44m░[0;34;40m▄▄[0;32;40m▄[0;1;32;40m▄[0;1;33;40m▄  [0;1;30;40m▀▀▀▀▀[0m
            [1;30m▀▀▀▀[0;1;30;47m█[0;1;30;40m▄▄▄▄▄▄▄▄█[0m          [1;30m▀▀▀▀█▄▄▄▄▄ [0;1;34m▄[0;36m▄[0;34m▄▄██[0;1;34;44m▀[0;34m█[0;1;34;44m░▒[0;34m████[0;1;32;44m▄[0;1;32;40m▀[0m
      [34m▄[0m                         [34m▄▓[0m              [1;34m▀[0;1;34;46m▄[0;36;44m▄[0;34;40m█████[0;1;34;44m░ [0;34m█[0;1;32;44m▄[0;1;32;40m▀[0m
-[1;32m  [0;34m░▒▓[0;1;34;44mAZiDaDVO font by RKS & RZA <AZiD>[0;34m▓░[0m         [1;34m▀[0;1;34;46m▄[0;36;44m▒[0;34;40m█[0;36;44m░ [0;34;40m█[0;32;44m░[0;32;40m▀[0m
+[1;32m  [0;34m░▒▓[0;1;34;44m                                 [0;34m▓░[0m         [1;34m▀[0;1;34;46m▄[0;36;44m▒[0;34;40m█[0;36;44m░ [0;34;40m█[0;32;44m░[0;32;40m▀[0m
      [34;40m▀[0m                                             [1;34;40m▀[0;1;34;46m▄[0;36;44m▒[0;34;40m█[0;32;40m▀[0m
                                                      [1;34;40m▀[0m'

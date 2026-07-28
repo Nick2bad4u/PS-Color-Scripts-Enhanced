@@ -5,7 +5,7 @@
 # Source SHA-256: 4b46ca4834ef92bc39906e06ddad1014086193d06da8ba7fdb96f5ed8a16d237
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-TO1.ANS by sinful! (rune!); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: total ad!
 # SAUCE Author: sinful!
 # SAUCE Group: rune!
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;47m█▀▀▀▀▀ ▀▀▀[0;1;40m▀▀[0m▀▀[1m▀[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▀▀▀▀▀█[0;1;30;47m▒░[0m██████████[1;30;47m▀ [0m█[1;30;47m▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀[0;1;30;40m▓[0m
-[1;47m▀[0m█[1;47m ░░[0;1;40m▀▀[0m [1;30m▄▄▄█████▓████████████▓████████████████▄▄▄[0m [1;30m▀▀[0;1;30;47m░░░[0m██[30;47mTotal! Konfig. Menu[0;37;40m█[0;1;30;47m░▀[0m
+[1;47m▀[0m█[1;47m ░░[0;1;40m▀▀[0m [1;30m▄▄▄█████▓████████████▓████████████████▄▄▄[0m [1;30m▀▀[0;1;30;47m░░░[0m██[30;47m                   [0;37;40m█[0;1;30;47m░▀[0m
 [1;47m▀░░[0;1;40m▀[0;1;30;40m▄▄███████████████████████▀███████[0;1;30;47m▄▄▀[0;1;30;40m███████████▄▄[0m [1;30m▀[0;1;30;47m░░[0m█████████████████████[1;30;47m▀[0m
 [1;47m░[0;1;40m▀[0;1;30;40m▄███████[0;1;30;43m▓[0;1;30;40m███████████████▓█▄░▄█████████[0;1;30;47m▄▄░▒▀▀[0;1;30;40m████████▄[0m [1;30;47m░░[0m████████████████████[1;30;47m [0m
 [1;47m░[0;1;30;40m▐███[0;1;30;43m▓[0;1;30;40m███[0;1;30;43m▓▒▓[0;1;30;40m█████████▓███▓▓▓████████████████[0;1;30;47m▄▄▄[0;1;30;40m█████[0;1;30;47m▓[0;1;30;40m██▌▐[0;1;30;47m░░[0m███████████████████▌
@@ -38,6 +38,6 @@ Write-Host '
 [1;47m   ░[0;1;40m▄▄[0m [1;32m▀[0;1;32;42m░[0;32m████▀[0;1;34m▄▄[0;34m▄▄▄▄▄▄▄▄▄[0;1;33m ▄▄▄[0m▄[1;33m▄ [0;34m▄▄▄▄▄▄▄▄▄[0;1;30m▄▄[0;32m▀████[0;37;42m░▒▓[0;37;40m▀ [0;1;30;40m▄[0;1;30;47m░░[0m████████████▄▄████████[1;30;47m [0m
 ████[1;47m░░░[0;1;40m▄[0m [1;34m▄▄▄▄[0;1;34;44m▓[0;1;34;40m▀[0;34m▀▀█▀██████[0;1;33m ▀▀▀▀[0m▀[1;33m [0;34m████▀█▀▀▀▀[0;1;30m▀▓▄▄▄[0;32m▀▀[0;37;42m░[0;37;40m [0;1;30;40m▄[0;1;30;47m░░[0m████████████████████████[1;30;47m▐[0m
 [1;47m▀[0m██[1;47m  ░[0;1;40m▀[0;1;34;40m▄▀▀▀▀[0;34m ▄▄███████[0;1;34;44m░[0;34m██████████████████▄▄ [0;1;30m▀▀▀▀▓[0m [1;30m▄[0;1;30;47m░░[0m█████████████████████████[1;30;47m▀[0m
-[1;47m▄[0m█[1;47m  ░[0;1;40m▌[0;1;34;40m▐▄[0;1;34;44m▒░[0;34m███████████[0;1;34;44m░▒░[0;34m██████████[0;1;30;44m░[0;34m█████▀████[0;1;30;44m░▒▓[0;1;30;40m▄▌▐[0;1;30;47m░[0;30;47mansi: sinful<rune>[0;37;40m████████[0;1;30;47m▄[0m
+[1;47m▄[0m█[1;47m  ░[0;1;40m▌[0;1;34;40m▐▄[0;1;34;44m▒░[0;34m███████████[0;1;34;44m░▒░[0;34m██████████[0;1;30;44m░[0;34m█████▀████[0;1;30;44m░▒▓[0;1;30;40m▄▌▐[0;1;30;47m░[0;30;47m                  [0;37;40m████████[0;1;30;47m▄[0m
 [1;47m█▄▄▄▄ [0;1;40m▄[0;1;34;40m▀[0;1;34;44m▓▒░[0;34m██████████[0;1;34;44m ░ [0;34m████ ████[0;1;30;44m░▒░[0;34m███▄ ▄███[0;1;30;44m░▒[0;1;30;40m▓▀▄[0;1;30;47m░[0;30;47m          [0;37;40m█[0;1;30;47m▄[0m██[1;30;47m▄▄▄[0m███[1;30;47m▄▄▄▄[0m█[1;30;47m▄▄█[0m
 [1m----[kut-me]--------------------------------------------------------------------[0m'

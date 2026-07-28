@@ -5,7 +5,7 @@
 # Source SHA-256: c870cf6a589432a57bd6f1026d4000e115f4e9b473477ef9d4060ebe5baed7f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOFIGHTS.ANS by Noel Gamboa (noel_gamboa); released in noel_gamboa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Read My Lips: No More Fights
 # SAUCE Author: Noel Gamboa
 # SAUCE Date: 20190423
@@ -35,4 +35,4 @@ Write-Host '
 [31;40m████████▀▀   [0;37;40m▀█████▄[0;33;40m▀█▄▀█ ████████████ ▀[0;31;40m▄███████[0;31;47m ▄▄██ █ █▄ █ ▄▄ ███ ███▄▄▄ ████[0m
 [31;40m████▀▀[0m         [37;40m▀█████▄▄[0;33;40m▀ ▀▄▀██████████ [0;37;40m█   [0;31;40m▀▀▀██[0;31;47m▄████▄█▄▄▄▄█▄██▄███▄███▄▄▄▄████[0m
 [31;40m█▀[0m               [37;40m▀████████ [0;34;40m▄[0;33;40m▀▀▀▀▀▀▀▀▀[0;37;40m▄▀[0m          [31;40m▀▀▀███████████████████████████[0m
-[31;40mAnsi by Noel Gamboa[0;37;40m▀████▀▄[0;34;40m▀████▀[0;37;40m▄▀██▀[0m                [31;40m▀█████████████████████████[0m'
+[31;40m                   [0;37;40m▀████▀▄[0;34;40m▀████▀[0;37;40m▄▀██▀[0m                [31;40m▀█████████████████████████[0m'

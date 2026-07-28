@@ -5,7 +5,7 @@
 # Source SHA-256: 97ecaa44e0edd798fd17d35c71dc041c95cbcb37b8af787707d11f425f5ec44e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-ANOXI.ANS by .,s$(minotaur)$s,. (.,s$(AXF)$s,.); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: anoxia group logo
 # SAUCE Author: .,s$(minotaur)$s,.
 # SAUCE Group: .,s$(AXF)$s,.
@@ -44,4 +44,4 @@ Write-Host '
 
 
                   [1;33m      [0m
-[1m─────────[0m─────[1;30m─────────[0;1;37mA[0mNOXi[1;30mA[0;1;37m M[0mEMBE[1;30mR[0;1;37m / H[0mQ[1;30ms[0;1;37m / D[0miST[1;30ms[0;1;37m L[0miS[1;30mT────────[0m───────────[1m──────[0m'
+[1m─────────[0m─────[1;30m─────────[0;1;37m [0m    [1;30m [0;1;37m  [0m    [1;30m [0;1;37m    [0m [1;30m [0;1;37m    [0m   [1;30m [0;1;37m  [0m  [1;30m ────────[0m───────────[1m──────[0m'

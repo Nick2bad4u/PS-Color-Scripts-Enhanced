@@ -5,7 +5,7 @@
 # Source SHA-256: 1b646a49baa9d0c637bc0ec44e9621940397015c654f7bbb7e58c1726354f9f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WIZARD.ANS by Blackmore (death07); released in death07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -15,10 +15,10 @@ Write-Host '
                                          [1;34m██[0;1;36m██[0;1;37m██[0;1;36m██[0;1;34m██[0m
                                           [1;34m██[0;1;36m██[0;1;37m██[0;1;36m██[0;1;34m██[0m
                                          [1;34m██[0;1;36m██[0;1;37m██[0;1;36m██[0;1;34m█[0m
-[1;34m  [0;34mW[0;1;34men[0;34mn i[0;1;34ms[0;34mt d[0;1;34ma[0;34ms N[0;1;34mu[0;36mn[0;1;36mstr[0;36mu[0;1;34mc[0;34mk[0m                  [1;34m██[0;1;36m██[0;1;37m██[0;1;36m█[0;1;34m█[0m
+[1;34m  [0;34m [0;1;34m  [0;34m   [0;1;34m [0;34m   [0;1;34m [0;34m   [0;1;34m [0;36m [0;1;36m   [0;36m [0;1;34m [0;34m [0m                  [1;34m██[0;1;36m██[0;1;37m██[0;1;36m█[0;1;34m█[0m
 [1;34m   [0;34mg[0;1;34mi[0;34mt u[0;1;34mn[0;34md S[0;1;34ml[0;36mo[0;1;36mtermey[0;36me[0;1;34mr[0;34m?    [0;35m▄[0;1;35;45m▒[0;1;35;40m█▄[0m         [1;34;40m███[0;1;36;40m██[0;1;37;40m██[0;1;36;40m██[0;1;34;40m████[0m
-[1;34;40m  [0;34mJ[0;1;34ma[0;34m! B[0;1;34me[0;36mi[0;1;36mherh[0;36mu[0;1;34mn[0;34md d[0;1;34ma[0;34ms o[0;1;34mde[0;34mr [0;1;30;45m▒░[0;35m▀[0;1;35;45m░▐[0;1;35;40m▌[0m        [1;34;40m██[0;1;36;40m██[0;1;36;46m█[0;1;37;40m██[0;1;36;46m██[0;1;36;40m██[0;1;34;40m██[0m
-[1;34;40m [0;34md[0;1;34mi[0;34me F[0;1;34ml[0;36mi[0;1;36mpperwa[0;36ml[0;1;34md[0;34mt g[0;1;34me[0;36mr[0;1;36msp[0;36mu[0;1;34mt[0;34m![0;35m▐▌▐[0;1;35;45m░▐[0;1;35;40m▌[0m       [1;34;40m███[0;1;36;46m██[0;1;37;44m███[0;1;37;47m█[0;1;37;44m█[0;1;36;46m██[0;1;34;40m███[0m
+[1;34;40m  [0;34m [0;1;34m [0;34m   [0;1;34m [0;36m [0;1;36m    [0;36m [0;1;34m [0;34m   [0;1;34m [0;34m   [0;1;34m  [0;34m  [0;1;30;45m▒░[0;35m▀[0;1;35;45m░▐[0;1;35;40m▌[0m        [1;34;40m██[0;1;36;40m██[0;1;36;46m█[0;1;37;40m██[0;1;36;46m██[0;1;36;40m██[0;1;34;40m██[0m
+[1;34;40m [0;34m [0;1;34m [0;34m   [0;1;34m [0;36m [0;1;36m      [0;36m [0;1;34m [0;34m   [0;1;34m [0;36m [0;1;36m  [0;36m [0;1;34m [0;34m [0;35m▐▌▐[0;1;35;45m░▐[0;1;35;40m▌[0m       [1;34;40m███[0;1;36;46m██[0;1;37;44m███[0;1;37;47m█[0;1;37;44m█[0;1;36;46m██[0;1;34;40m███[0m
                            [35m▌██[0;1;35;45m▒█[0m       [1;34;40m██[0;1;36;46m█[0;1;36;40m█[0;1;37;44m█[0;1;37;47m█[0;1;33;40m▒▓[0;1;37;47m█[0;1;37;44m█[0;1;37;47m█[0;1;36;40m█[0;1;36;46m█[0;1;34;40m██ [0;1;30;40m╔══[0;32m══[0;1;32m══[0;1;36m═[0;1;32m══[0;32m══[0;1;30m══╗[0m
                            [35m▐[0;1;30;45m░[0;35m█[0;1;35;45m▒█[0m       [1;34;40m██[0;1;36;40m██[0;1;37;47m█[0;1;33;40m▒▓[0;1;33;47m▒▓[0;1;37;44m██[0;1;36;40m██[0;1;34;40m██ [0;1;30;40m║[0m     [31mT[0;1;31mH[0;31mE[0m     [1;30m║[0m
                           [35m▄[0;1;30;45m▒░[0;35m█[0;1;35;45m░▐[0;1;35;40m▌[0m      [1;34;40m██[0;1;36;40m█[0;1;36;46m█[0;1;37;44m█[0;1;37;47m█[0;1;33;40m▒▓[0;1;37;44m██[0;1;37;47m█[0;1;36;46m██[0;1;34;40m██ [0;1;30;40m║ [0;31mW [0;1;31mI [0mZ A [1;31mR [0;31mD [0;1;30m║[0m

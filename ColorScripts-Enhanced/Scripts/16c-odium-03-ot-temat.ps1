@@ -5,7 +5,7 @@
 # Source SHA-256: f63ed254a6bbd51ef6643bdbfe323430bc390e4b9db779219b05d163a1861e3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OT-TEMAT.ANS by Otter (Odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Tokyo Eye Matrix
 # SAUCE Author: Otter
 # SAUCE Group: Odium
@@ -40,4 +40,4 @@ Write-Host '
      [1;34mhere![0m                                 [1m▄▄[0;1;47m▄■[0m▄[1;31m▀[0;1;37m▄█[0;1;37;47m▄░[0;1;31;40m■[0;1;37;40m▄[0;1;37;47m▄[0m▄[1;31m▐▀█▀▌▀██▀▄   [0;30mThis was[0m
                                      [1;37m▄▄▄██████[0;1;37;47m█ [0m▌[1m▐██[0;1;47m▌[0m▌[1m▐[0;1;47m▓▌[0m▌■▄ ▄█▄[1;31m■   [0;30mdone by[0m
                                   [1;37m▄[0;1;37;47m▓[0;1;37;40m███████████[0;1;37;47m▌░[0m [1;47m▓[0;1;40m██[0m█ [1m██[0;1;47m░[0m [1;47m▌[0m▌▐[1;47m░[0m█▌ [1;31m▀■ [0;30motter[0m
-[37m─[ You might wanna cut this out... ]────────────────────────────────────────────[0m'
+[37m─                                   ────────────────────────────────────────────[0m'

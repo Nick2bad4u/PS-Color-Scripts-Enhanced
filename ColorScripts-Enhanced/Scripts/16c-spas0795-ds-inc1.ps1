@@ -5,7 +5,7 @@
 # Source SHA-256: af08197af1a3ce973fa9f75066278f507653289283fab1f2b24c0c2065f6bde3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-INC1.ANS by Devine Styler (Spastic Productions); released in spas0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Incredible Invention
 # SAUCE Author: Devine Styler
 # SAUCE Group: Spastic Productions
@@ -25,7 +25,7 @@ Write-Host '
 [1;31;40m▓█▄█ [0;1;37;40m▐█████████████████████[0;1;37;47m█ [0m█▌  ▄▄[47m [0;1;47m▄▄▄[0;1;40m▄▄ [0;1;31;40m▀[0;1;31;43m▄▄[0;1;31;47m▓[0;1;31;40m███▄ [0;34m-----------------------------[0m
 [1;31m████ [0;1;37m▐█████████████████████[0;1;37;47m█[0m██▌ ██[1;47m▄[0;1;40m██▀▀▀██ [0;1;31;40m███████▌ [0;1;30;40mstats go here pope. hope[0m
 [1;31;40m████▌ [0;1;37;40m█████████████████████[0;1;37;47m▌[0m██▀ ██[1;47m▀[0;1;40m█▄[0;1;34;40m░▀ [0;1;37;40m██ [0;1;31;40m███████▌ [0;1;30;40myou like it .. enjoy, and[0m
-[1;31;47m▓[0;1;31;40m███[0;1;31;47m▓[0m [1;37;40m▐███████████████████[0;1;37;47m▀[0m██▌   ▀▀█[1;47m▀▀[0;1;40m█▀▀ [0;1;31;40m▄██████▀  [0;1;30;40mthanks for the favor..[0m
+[1;31;47m▓[0;1;31;40m███[0;1;31;47m▓[0m [1;37;40m▐███████████████████[0;1;37;47m▀[0m██▌   ▀▀█[1;47m▀▀[0;1;40m█▀▀ [0;1;31;40m▄██████▀  [0;1;30;40m                      [0m
 [1;31;40m█████▄ [0m▀[1;47m▀▀[0;1;40m███████████[0;1;47m▀▀▀[0m████▀ [1;31m▄[0;1;31;43m▄▄░[0;33m▄▄   [0;1;31m▄[0;1;31;47m▓[0;1;31;40m████[0;33m▄[0;1;31m▀▀[0m
 [1;31m█[0;1;31;43m▀▀░[0;1;31;40m▀[0;1;31;43m▀[0;1;31;40m█▄ [0m▀▀▀[1;47m░▀▀▀[0m███████▀▀▀ [1;31m▄▄██████[0;1;31;43m▄▄░[0;33m▄ [0;1;31m▀█████[0;1;31;43m▄[0;33m▄[0m
 [33m▀▀ ▄[0;33;43m [0;1;31;40m██████▄▄▄▄▄▄▄▄▄▄▄▄▄█ [0;1;31;47m▓[0;1;31;40m██████████[0;1;31;43m▌ [0;33m▌ [0;1;31m▐█████[0;1;31;43m▄░[0m

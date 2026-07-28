@@ -5,7 +5,7 @@
 # Source SHA-256: dc08adb966b99fdca836df142c7b3ed34794a1b7c689f7d51336499932e568fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-VOTB.ANS by Eerie (Spastic Studios); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Valley of the Buffalos
 # SAUCE Author: Eerie
 # SAUCE Group: Spastic Studios
@@ -26,7 +26,7 @@ Write-Host '
 [1;34;44m░[0;34m██▓▌░  ■ [0;1;31;43m▒[0;33m▌▀[0;1;31;43m░[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m▒[0;33m▄[0;36m▀[0;1;37;46m░▀▀[0;36m▀[0;1;37;46m░▀▀░[0;36m▀[0;33m▄[0;1;31;43m▒[0;1;31;47m▓[0;1;31;43m▓[0;33m▌■▀[0m       [32m████[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m██  [0;1;37m▀■  [0;32m░  ▀ [0;1;37m▓  ■▀   [0;32m▄■ [0;1;37m▄  [0;32m██[0;1;32;42m░[0m
 [34m████▀▓▄▓   [0;33m▀■▐[0;1;31;43m▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m▒[0m [33m▄[0;1;31;43m▒▄[0;1;31;40m▄[0;33m▄▄[0;1;31m▄[0;1;31;43m▄[0;1;31;47m▒░▓[0;1;31;43m▓[0;33m▌[0;32m■░[0m       [32m██[0;1;32;42m░[0;32m█[0;1;32;42m░▒░░[0;32m██▄▌░▄▄▀ [0;1;37m▓▄■   [0;32m▄██▓▀ [0;1;37m■[0;32m░ ▄▓[0;1;32;42m░░▒[0m
 [34m██[0;1;34m▒[0;34m████▄▌  ▓  [0;33m▀[0;1;31;43m▓[0;1;31;47m▒▓[0;33m▌ [0;1;31m▀[0;1;31;47m▓▒▀[0;1;31;40m▀[0;33m▄[0;1;31;43m▓[0;1;31;40m█[0;1;31;47m▓▒[0;1;31;43m░[0;33m▀ [0;32m▀▄▌ ░  ▄▓▓███[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m█████████▓▄▄▄▄█████▀▄░▄▓█████[0;1;32;42m░[0m
-[34m▀███████▓▀■ ▀■  [0;33m▀▀▀■▄▄▄▄▓[0;1;31;43m░▀[0;33m▀▀▀ [0;32m■▀▀░ ▓ ■▀█████[0;1;32;42m░▒░[0;32m███[0;32;42m [0;1;37;42mvalley of the buffaloes[0;32m████[0m
+[34m▀███████▓▀■ ▀■  [0;33m▀▀▀■▄▄▄▄▓[0;1;31;43m░▀[0;33m▀▀▀ [0;32m■▀▀░ ▓ ■▀█████[0;1;32;42m░▒░[0;32m███[0;32;42m [0;1;37;42m                       [0;32m████[0m
 [32m█▄░[0;34m▀▀▀[0;32m▄▄▄■ [0;34m▄▄[0;1;34;44m░▄▄░░[0m [1;31;43m░▄[0;33m▄ [0;34m▄▄▄[0;1;34m░[0;1;34;44m ░░▄▄░░[0;34m▄▄▄ [0;32m▀▀▀█████[0;1;32;42m░[0;32m████████████████████████████████[0m
 [32m████░███▌ [0;1;34;44m░[0;1;34;40m██[0;1;34;47m▓▓[0;1;34;40m█[0;1;34;44m▓[0;34m▌[0;33m▐[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m░[0m [34m▓[0;1;34m▓██████[0;1;34;47m▓[0;1;34;40m████[0;1;34;44m▄▄░[0;34m▄▄▄  [0;32m▀▀▀▓█████▀████▓▀ [0;33m▄▄▄░[0;32m▀█▀[0;1;30m■[0;32m█████▀██[0;1;32;42m▒░[0m
 [32m▀█▀[0;1;37m■[0;1;37;47m▒[0;1;37;40m▄[0;32m▀▌ [0;1;34;44m░[0;1;34;40m█[0;1;34;47m▓[0;1;34;40m████[0;1;34;44m▓[0;34m▌[0;33m▐[0;1;31;43m▓[0;1;31;47m▓[0;1;31;43m░[0m [33m▄▄[0;34m▀[0;1;34m████[0;1;34;47m▓▓[0;1;34;40m█[0;1;34;47m▓▓[0;1;34;44m▀[0;1;34;40m███[0;1;34;47m▓[0;1;34;40m██[0;1;34;44m▓▄░[0;34m▄▄▄ [0;32m▀▀ [0;1;37m▄[0;1;37;43m▓[0;1;37;40m▄[0;32m▀█▀▌[0;33m░[0;1;33;43m░[0;33m▀▓[0;1;30m■▄▌[0;33m▄▒[0;32m▀█████[0;1;33m■[0;32m▄███[0m

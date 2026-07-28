@@ -5,7 +5,7 @@
 # Source SHA-256: 74c5dfa6209cd9bb9e522542db40484296ccddab5a5f3c36a9d8a0935c85c91b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAY-BOWY.ANS by maytag man (echo); released in soc-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: tribute to bowie
 # SAUCE Author: maytag man
 # SAUCE Group: echo
@@ -38,7 +38,7 @@ Write-Host '
   [36m█▄▄▄▄▄▄▄[0;1;36m▒▒[0;36m▀▀▀▀[0m      [1;37m  [0m▐▄[1m▐█████[0;1;47m████[0;1;40m█████████████████[0;1;47m▌[0;1;40m  [0;1;32;40m█▐[0;1;37;40m [0;1;32;40m█[0;1;37;40m [0;1;32;40m▌█[0;1;37;40m [0;1;32;40m▌▌█[0;1;37;40m [0;1;32;40m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m
                        [1m [0m▀[1;47m░░▀[0;1;40m▀▀▀[0m▀[1m    [0m▀[1m▀▀▀[0;1;47m▀[0;1;40m██████████[0;1;42m▓▓[0m▌[1m  [0;1;32m█▐[0;1;37m [0;1;32m█[0;1;37m [0;1;32m▌█[0;1;37m [0;1;32m▌▌█[0;1;37m [0;1;32m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m
                           [1m [0m          ▄[1m▄▄▄[0;1;47m▄[0;1;40m██████████[0;1;47m▀[0;1;40m   [0;1;32;40m█▐[0;1;37;40m [0;1;32;40m█[0;1;37;40m [0;1;32;40m▌█[0;1;37;40m [0;1;32;40m▌▌█[0;1;37;40m [0;1;32;40m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m
-  [1midlike to dedicat[0m [1me[0m   [1m  [0m▄[1m▄▄▄▄▄[0;1;47m▄[0;1;40m█████[0;1;47m█[0;1;40m███████████[0;1;47m▀[0m▀[1m    [0;1;32m█▐[0;1;37m [0;1;32m█[0;1;37m [0;1;32m▌█[0;1;37m [0;1;32m▌▌█[0;1;37m [0;1;32m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m
+  [1m                 [0m [1m [0m   [1m  [0m▄[1m▄▄▄▄▄[0;1;47m▄[0;1;40m█████[0;1;47m█[0;1;40m███████████[0;1;47m▀[0m▀[1m    [0;1;32m█▐[0;1;37m [0;1;32m█[0;1;37m [0;1;32m▌█[0;1;37m [0;1;32m▌▌█[0;1;37m [0;1;32m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m
   [1mthis an sito wat Or[0m   [1m░▒[0;1;47m░░[0;1;40m██████████████████[0;1;47m▀[0;1;40m▀[0m▀[1m   [0m    [1;32m█▐[0;1;37m [0;1;32m█[0;1;37m [0;1;32m▌█[0;1;37m [0;1;32m▌▌█[0;1;37m [0;1;32m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m
   [1man dthe restof echo[0m     [1m [0m▀▀[1m▒[0;1;47m▀▀[0;1;40m██████████[0;1;47m▀[0;1;40m▀[0m▀[1m  [0m         [1;32m█▐[0;1;37m [0;1;32m█[0;1;37m [0;1;32m▌█[0;1;37m [0;1;32m▌▌█[0;1;37m [0;1;32m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m
                        [1m  [0;1;30m▄[0;1;37m▒▒[0m▄▄▄[1m▒▒▒[0;1;47m▀[0;1;40m▀▀▀▀[0m▌                [1;32m█▐[0;1;37m [0;1;32m█[0;1;37m [0;1;32m▌█[0;1;37m [0;1;32m▌▌█[0;1;37m [0;1;32m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m

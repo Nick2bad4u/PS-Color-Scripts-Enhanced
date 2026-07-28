@@ -5,7 +5,7 @@
 # Source SHA-256: ca2d325caf6a912aa3cb188c6c90b2ee95358e2f8b0f251e716d6ab06cdf85a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!L001.ANS by sIMONkING (thelo0p); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: introduction #16
 # SAUCE Author: sIMONkING
 # SAUCE Group: thelo0p
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;33m░░░░░░░░░░░░░░░░░░░░░░░░░░ [0;1;37mt[0;1;33mhe [0;1;37ml[0;1;33mo0p [0;1;37m#[0;1;33m16 - [0;1;37mi[0;1;33mntroduction[0m [1;33m░░░░░░░░░░░░░░░░░░░░░░░░░[0m
+[1;33m░░░░░░░░░░░░░░░░░░░░░░░░░░ [0;1;37m [0;1;33m   [0;1;37m [0;1;33m    [0;1;37m [0;1;33m     [0;1;37m [0;1;33m           [0m [1;33m░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 ───[1m─────────[0m ─[1m───────── [0m─[1m─────────[0m ─[1m─────────────────────[0m ─[1m────────[0m ─[1m────────[0m───
 [1;47m [0m▀[1m▀▀▀▀[0;1;47m▀█████[0;1;40m▌[0m▀[1m▀▀▀[0;1;47m▀[0;1;40m█████▌[0m▀[1m▀▀▀▀▀[0;1;47m▀[0;1;40m███▌[0m▀[1m▀▀▀[0;1;47m▀[0;1;40m█████▀▀▀▀▀▀▀▀▀▀▀▀▌[0m▀[1m▀▀▀▀▀▀▀▀▌[0m▀[1m▀▀▀▀▀▀▀▀▀[0m▀█
 ▀[34m █[0;1;34;44m▄[0;34m█ [0;37m▀[0;1;37;47m▀[0;1;37;40m████▌[0;1;34;44m▄▄[0;34m█ [0;37m█[0;1;37m█████▌[0;34m█[0;1;34;44m▄[0;34m█▀▀ [0;37m█[0;1;37m███▌[0;34m█[0;1;34;44m▄▌[0;34m [0;37m█[0;1;37m█████▌[0;34m▄[0;1;34;44m▄▄[0;34m▀█[0;1;34;44m▄▄▄▄[0;34m█▄▄[0;1;34;44m ▄[0;34m▀██[0;1;34;44m▄▄▄▄[0;34m▄█[0;1;34;44m▄▄[0;34m▀█[0;1;34;44m▄[0;44m▄[0;1;34;44m▄▄[0;34m█▄[0;37m [0m

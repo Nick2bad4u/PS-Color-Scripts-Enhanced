@@ -5,7 +5,7 @@
 # Source SHA-256: 78395289b1c0438480f0933fc958ca338277a9e76c07b5d82ede37bac71f4904
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-MUSPT.ANS by hetero; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Musicport
 # SAUCE Author: Hetero
 # SAUCE Group: Lkcc~Sac~Dns~Rzr1911
@@ -34,6 +34,6 @@ Write-Host '
 [1;36;40m [0;36m██[0;36;46m                           [0;36;40m███▓ [0;35;40m▀ [0;36;40m▄ [0;35;40m▀▀[0;1;35;45m▓▓▒░░░[0;35m▀▀█▀[0;1;35;45m░[0;35m▌[0;36m▄ [0;35m▀██▀ ▀[0;1;35;45m░░[0;35m▀  ▀▀█[0;1;35;45m░░[0;35m▌ [0;36m█[0;37;46mSAC[0;36;40m█[0;1;36;46m▒[0m
 [1;36;40m [0;36m█[0;1;37;46m·[0;36m█[0;1;37;46mDECAY[0;36m█[0;35;46mEHQ[0;36;40m█[0;1;37;46m·[0;36m█[0;1;37;46mRP [0;35;46mEHQ [0;1;37;46m·[0;36m█[0;1;37;46mLP [0;35;46mGHQ [0;1;37;46m· [0;36m██████▓ [0;1;35m▀ [0;36m▄▄▄▄▄▄▄ [0;35m▀▄[0;36m▀ [0;35m▄ [0;36m▄▓ [0;35m▀▌ [0;36m██▀ [0;35m█▀█ [0;36m██████[0;1;36;46m▓[0m
 [1;36;40m [0;36m█[0;36;46m                                  [0;36;40m████▓ [0;1;35;40m▀ [0;36m████████▄ [0;35m▀▄▄ [0;36m▀▀▀ [0;35m■[0;36m▀ [0;35m▄▄▀  ▄ [0;36m██████[0;1;36;46m█[0m
-[1;36;40m [0;1;36;46m░[0;1;37;46m·[0;36m█[0;1;37;46mTNK! [0;35;46mSITE[0;36;40m█[0;1;37;46m·[0;36m█[0;1;37;46mBLUE[0;36m█[0;1;37;46mSONIC [0;35;46mSITE [0;1;37;46m·[0;36m█[0;36;46m [0;36;40m███████████████████▄▄ [0;35;40m▀▀▀▄▄[0;1;35;45m▒[0;35m▀▀ [0;36m▄▄█▄ ▄██████[0;1;36;46m█[0m
+[1;36;40m [0;1;36;46m░[0;1;37;46m [0;36m█[0;1;37;46m     [0;35;46m    [0;36;40m█[0;1;37;46m [0;36m█[0;1;37;46m    [0;36m█[0;1;37;46m      [0;35;46m     [0;1;37;46m [0;36m█[0;36;46m [0;36;40m███████████████████▄▄ [0;35;40m▀▀▀▄▄[0;1;35;45m▒[0;35m▀▀ [0;36m▄▄█▄ ▄██████[0;1;36;46m█[0m
 [1;36;40m [0;1;36;46m▒                                     [0;36m███████████████████▓▄ [0;35m▀[0;1;37m■ [0;36m██████████████[0;1;36;46m█[0m
 [1;36;40m [0;1;36;46m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ff0e1af78e294677b57cb83d0322e8f2fa8b90b38a45e8d1c5aadf1ca0911ae4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-BADL.ANS by cool 't (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the badlands
 # SAUCE Author: cool 't
 # SAUCE Group: READ THE INI FILE
@@ -17,9 +17,9 @@
 Write-Host '
 [37;40m [0;30;44m░░░░░░░▀[0;32;40m▀[0;1;32;42m░▒▒░[0;32;42m [0;30;42m█[0;32;40m▓ [0;1;30;40m▄[0;31m▄[0;34m [0;1;37;47m░[0m▌[34m▒░[0;37m [0;1;31m▄[0m▄[32m▀[0;1;32;42m░░░░▒▒░[0;30;42m▄▀ [0;1;32;42m░[0;32m▀[0;30;44m▀░░░░░░▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [37;40m [0;30;44m░░░░░░░░▀[0;32;40m▀[0;32;42m [0;1;32;42m░[0;30;42m■ [0;32;40m▓▒▄[0;37;40m▀[0;1;31;40m▌[0;34m■[0;37m▀[0;34m▄▓▒[0;31m▐▀[0;34m▄▄[0;1;30m▀▀[0;32m▀[0;32;42m [0;1;32;42m░░[0;30;42m▄▓▌[0;1;32;42m░[0m [30;44m░░░░░░░░░░░░░  ░░░░░░░░ ░░░░░░░░░░░░░░[0m
-[37;40m [0;30;44m░░░░░░░░░░▀[0;32;40m▀[0;1;32;42m░[0;30;42m▀[0;1;32;42m░[0;30;42m▀▄[0;32;40m▄[0;37;40m▀[0;1;31;47m▓[0;31m▌[0;34m▀▓▓▄▓▀[0;1;31m▄[0;1;31;47m▓▓▒[0m▄[32m▀[0;1;32;42m░[0;32;42m [0;30;42m▀[0;32;40m█▀[0;30;44m▀░░░░░░ ░░ [0;1;37;44mDo you know where you are[0;44m??[0;30;44m░[0m
+[37;40m [0;30;44m░░░░░░░░░░▀[0;32;40m▀[0;1;32;42m░[0;30;42m▀[0;1;32;42m░[0;30;42m▀▄[0;32;40m▄[0;37;40m▀[0;1;31;47m▓[0;31m▌[0;34m▀▓▓▄▓▀[0;1;31m▄[0;1;31;47m▓▓▒[0m▄[32m▀[0;1;32;42m░[0;32;42m [0;30;42m▀[0;32;40m█▀[0;30;44m▀░░░░░░ ░░ [0;1;37;44m                         [0;44m  [0;30;44m░[0m
 [37;40m [0;30;44m░░░░░░░░░░░░▀[0;32;40m▀[0;32;42m [0;30;42m▌▀▄[0;32;40m▓ [0;1;31;47m▓[0;31m▀[0;30;44m▀[0;34;40m▀[0;31;40m▄▄█[0;37;41m░[0;1;31;47m▓[0;1;31;40m▀▀[0;30;44m▀▀▀[0;32;40m▀▀[0;30;44m▀░░░░░░      ░░░░░░░ ░░░  ░░░░     ░░ ░░░[0m
-[37;40m [0;30;44m░░░░░░░░░░░░░░[0;37;40m [0;1;32;42m░░[0;30;42m▀▄[0;32;40m▓[0;31;40m█▄[0;34;40m▀[0;31;40m█▀▀▀[0;34;40m▄▄[0;30;44m░░░░░░░░      ░░[0;1;37;44mYou[0;44m''[0;1;44mre in The BadLands[0;44m...[0;30;44m░      [0m
+[37;40m [0;30;44m░░░░░░░░░░░░░░[0;37;40m [0;1;32;42m░░[0;30;42m▀▄[0;32;40m▓[0;31;40m█▄[0;34;40m▀[0;31;40m█▀▀▀[0;34;40m▄▄[0;30;44m░░░░░░░░      ░░[0;1;37;44m   [0;44m [0;1;44m                  [0;44m   [0;30;44m░      [0m
 [37;40m [0;30;44m░░░░░░░░░░░░░░░▀[0;32;40m▀[0;1;32;42m░[0;30;42m▀[0;31;40m▐[0;1;31;41m░[0;31m▀[0;34m■[0;31m█▌[0;30;44m░░░░░       ░░░░░░                              ░░░░[0m
 [37;40m [0;30;44m░░░░░░░░░░░░░░░░░▀[0;32;40m▀[0;31;40m█▌[0;30;44m░░[0;31;40m▐[0;1;31;41m░[0;30;44m▌    ░░░░░░░ [0;37;44m...[0;1;37;44mand you[0;44m''[0;1;44mre gonna[0;44m''[0;1;44m DIE[0;44m!!![0;1;44m    [0;30;44m        [0m
 [37;40m [0;30;44m░░░░░░░░░░░░░░░░░░[0;31;40m▐[0;1;31;41m░[0;30;44m▌▐[0;31;40m▄[0;31;41m [0;31;40m▌[0;30;44m░░░░░             [0;1;34;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;30;44m      [0m

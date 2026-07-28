@@ -5,7 +5,7 @@
 # Source SHA-256: 1986bc90637603832f7df250f16339a585a317b11f0b44a5db4016ae3dc84de0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-UKF1.ANS by Frost Byte (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 48-80
 # Columns: 1-80
 
@@ -36,7 +36,7 @@ Write-Host '
                     [1;30;47m▌[0;1;37;47m██[0;1;30;47m▐[0m     [1;30;47m▌[0;1;37;47m██[0;1;30;47m▐[0m [1;30;47m▌[0;1;37;47m██████[0;1;30;47m▐[0m [1;30;47m▌[0;1;37;47m███████[0;1;30;47m▐[0m [1;30;47m▌[0;1;37;47m██████[0;1;30;47m▐[0m
                     [1;30;40m▀▀▀▀[0m     [1;30;40m▀▀▀▀ ▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀[0m
              [1;30;40m▄█▄[0m                                               [1;30;40m▄█▄[0m
-            [1;30;40m██▀[0m                [1;37;40mS[0;1;31;40my[0;31msOp[0;1;30m: [0;1;37mD[0;1;31mo[0;31mc [0;1;37mA[0;1;31mn[0;31march[0;1;30my[0m               [1;30m▀██[0m
+            [1;30;40m██▀[0m                [1;37;40m [0;1;31;40m [0;31m   [0;1;30m  [0;1;37m [0;1;31m [0;31m  [0;1;37m [0;1;31m [0;31m    [0;1;30m [0m               [1;30m▀██[0m
            [1;30m▐█▌[0m                [1;37m [0;1;31m [0;31m  [0;1;30m  [0;1;37m [0;1;31m [0;31m  [0;1;37m [0;1;31m [0;31m  [0;1;37m [0;1;31m [0;31m    [0m               [1;30m▐█▌[0m
             [1;30m▀    [0;1;37m [0;1;31m [0;31m [0;1;30m  [0;1;37m [0;1;31m [0;31m   [0;1;30m [0;31m  [0;1;37m [0;1;31m [0;31m  [0;1;37m [0;1;31m [0;31m [0;1;30m [0;31m  [0;1;37m [0;1;31m [0;31m   [0;1;30m  [0;1;37m [0;1;31m [0;31m     [0;1;37m [0;1;31m [0;31m   [0;1;30m [0;31m      [0;1;30m▀[0m
             [1;30m▄[0m              [1;37m [0;1;31m [0;31m  [0;1;37m [0;1;31m [0;31m  [0;1;30m  [0;1;37m [0;1;31m [0;31m  [0;1;30m  [0;1;37m [0;1;31m [0;31m  [0;1;37m [0;1;31m [0;31m [0;1;30m [0;31m [0m              [1;30m▄[0m

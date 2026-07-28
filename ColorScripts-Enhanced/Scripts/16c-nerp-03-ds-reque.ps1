@@ -5,7 +5,7 @@
 # Source SHA-256: 3413f450e2a77c66fed61e6b936dd9519c7b3d3ead9c1d5e3aacc9da6ae7759a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-REQUE.ANS by dfuse (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: req screen
 # SAUCE Author: dfuse
 # SAUCE Group: nerp
@@ -20,7 +20,7 @@ Write-Host '
 [1;47m   [0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████████[1m██[0;1;47m▌[0m [1;31m██[0;30;41m▓[0;1;31;40m█[0;1;31;47m   [0;1;31;40m████████ [0m     [31m       [0m
 [1;37;47m [0;1;37;40m▒▒[0m  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30;47m▀▀[0m██████████████████████[1m▓▓[0;1;47m▌[0m [1;31m██[0;30;41m░[0;1;31;40m█[0;1;31;47m▓▓▓[0;1;31;43m█████[0;1;31;40m███ [0;30;46m▓▓▓▓[0;37;40m [0;1;31;40m░░░  [0m
 [1;47m [0;1;40m▓▓[0m  █[30;47m 1 [0;37;40m█[0;30;47men cyan bobhund t-shirt           [0;37;40m█[0;1;37;40m▒▒[0m█ [1;31m▓▓▓██▌ ▄▄[0;1;31;43m▄█[0;1;31;40m████ [0;1;36;40m▒▒▒▒[0;1;31;40m ▓▓▓    [0m
-█[1;47m██[0m  █[30;47m 2  att vinna ngt i bingolotto       [0;37;40m█████ [0;1;31;40m▒▒▒[0;33m█▄▄▄[0;1;31;43m▀▀▀[0;1;31;40m█[0;1;31;41m▀▀[0;1;31;40m▀▀ [0;36;47m███[0;1;36;40m▒[0;1;31;40m █████ [0m
+█[1;47m██[0m  █[30;47m                                     [0;37;40m█████ [0;1;31;40m▒▒▒[0;33m█▄▄▄[0;1;31;43m▀▀▀[0;1;31;40m█[0;1;31;41m▀▀[0;1;31;40m▀▀ [0;36;47m███[0;1;36;40m▒[0;1;31;40m █████ [0m
 █[1;47m██[0m  █[30;47m 3 [0;37;40m█[0;30;47mtestdrive 2 till amiga           [0;37;40m█████ [0;33;40m    [0;1;31;40m  [0;33m▀▀[0;1;31;43m  [0;1;31;40m█[0;1;31;41m▄[0m [1;31m   [0;36m▀▀[0;37m [0;31m▄▄▄▄[0;1;31m▓▓▓ [0m
 [30;47m░[0;1;37;47m██[0m  █[30;47m 4 [0;37;40m█[0;30;47men minicall EJ STULEN, 100:-     [0;37;40m█████   [0;33;40m▄▄▄ [0;1;31;40m  ▒▒█[0;1;31;41m█[0;1;31;40m░░[0;31m█[0;1;31;41m▄▄[0;1;31;40m███▄▄ ▒▒▒[0;31m██▄[0;1;31m  [0m
 [30;47m▓[0;1;37;47m██[0m  █[30;47m 5 [0;37;40m█[0;30;47men frisedel till lumpen          [0;37;40m█████   [0;33;40m█▐███[0;1;31;40m ▓▓██▒▒▒███████ [0;31m██▀[0;1;31m  [0;31m█[0;1;31m  [0m

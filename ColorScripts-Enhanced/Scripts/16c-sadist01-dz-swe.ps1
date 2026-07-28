@@ -5,7 +5,7 @@
 # Source SHA-256: 49710f139fbda6a4af81b499592cb2a93121c36ae88691548b5af67f7fca2c88
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-SWE.ANS by dizzy (sadist); released in sadist01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sweart
 # SAUCE Author: dizzy
 # SAUCE Group: sadist
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-▐▌  █▄▄  [34m░░[0m    [34m▄▄[0;1;34;44m▄▄▄▄[0;34m▄▄[0;37m [0;34m░[0m     [34m▄▄[0;1;34;44m▄▄▄▄▄▄▄[0;34m▄▄[0m        [1;37m made by Dizzy/EFnet, #sweart[0m
+▐▌  █▄▄  [34m░░[0m    [34m▄▄[0;1;34;44m▄▄▄▄[0;34m▄▄[0;37m [0;34m░[0m     [34m▄▄[0;1;34;44m▄▄▄▄▄▄▄[0;34m▄▄[0m        [1;37m                             [0m
 ▄█[1;47m▄▄▓[0m█▓░     [34m▄[0;1;34;44m▄[0;1;37;44m░[0;1;34;44m██[0;1;34;47m▓▓[0;1;34;44m███▄[0;34m▓░░[0;37m [0;34m▄[0;1;34;44m▄[0;1;34;40m▓▓[0;1;37;44m░░[0;1;34;44m█[0;1;34;47m▓▓▓[0;1;34;44m█[0;1;34;40m▀▀[0;1;34;44m▄[0;34m▄[0m   [37m░░ [0;34m▄▄▄▄▄[0m        [1;37m [0m
   █[1;47m██▀[0m█▀▀░░ [34m▐[0;1;34;44m▐[0;1;37;44m█░[0;1;34;44m█[0;1;34;47m▓▓▓▓[0;1;34;44m█[0;1;34;47m▓▓[0;1;34;44m▌[0;34m▌[0;37m [0;34m▐[0;1;34;44m▄[0m ░[30;47m▓[0;37;40m [0;1;34;40m▓[0;1;34;44m█[0;1;34;47m▓▓[0;1;34;44m█[0;1;34;40m▓[0m ▌[1;34m░[0;1;34;44m█[0;34m█[0;37m [0;34m▄▄[0;1;34;44m█[0m  [1;44m░██░[0;1;34;44m▄▄▄[0;34m▄[0;37m [0;34m░[0m        [1;37m1 9 9 8 [0m
  ▄▄█▀  █   [34m░▓█[0;1;37;44m░[0;1;34;40m▓▓▓▓▓▓▓▓ [0m▄▄▄▄▄▄[30;47m░[0;37;40m▓ [0;34;40m▐[0;1;34;44m█[0;1;34;40m▓▓[0m ▄[1;47m▄▄[0m▄▄ [34m▀[0;1;34m▀▓░[0m ░░ [1;34m░▓[0;1;34;47m▓[0;1;34;40m▀▀▓[0;1;34;44m▄[0;34m▓░░[0;37m  [0;34m▄▄▄▄[0m

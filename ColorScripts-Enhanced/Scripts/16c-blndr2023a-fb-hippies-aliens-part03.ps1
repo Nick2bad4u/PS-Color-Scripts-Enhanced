@@ -5,7 +5,7 @@
 # Source SHA-256: 8124012849f54478760fcc5cf5cd1b22e45eac312d32956446105145ccbb06a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-HIPPIES-ALIENS.ANS by fOnebOne (anemia); released in blndr2023a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: blender23a
 # SAUCE Author: fOnebOne
 # SAUCE Group: anemia
@@ -35,7 +35,7 @@ Write-Host '
 [32m███▄[0;37m [0;1;30;43m▓▓▓▓▓[0;1;30;40m██████[0;1;30;44m▄[0m▄             [34m▀▀▀▀[0;37m  ▄[0;1;37;47m▒▒▒▒▒▒[0m█████████████████ ▀▄          ██
 [32m▓[0;1;33;42m▒[0;32m▓█▄▄[0;37m ▀▀[0;37;43m▓[0;1;30;43m▓▓▓▓▓▓[0;1;30;47m▀[0m█                 ▄[1;47m▒▒▒▒[0m█████████████████████▄ ▀▄      ▄▄██
 [32m▓▓▓▓▓▓[0;30;42m░[0;32;40m█▄ [0;37;40m▀▀▀▀▀▀▀[0;32;40m ▄███▄▄▄▄         [0;1;37;47m▒▒[0m█████▀▀▀▀█████████▀▀▀▀███▓▓ ▀▀▀▀▀▀   █
-[1;36;42mfirst ansi in [0;1;37;42m24[0;1;36;42m years![0;30;42m▓▓[0;32;40m         [0;1;37;47m▒▒[0m████▀      ███████      ███▓▓▓▓       ▓██▄▄
+[1;36;42m              [0;1;37;42m  [0;1;36;42m       [0;30;42m▓▓[0;32;40m         [0;1;37;47m▒▒[0m████▀      ███████      ███▓▓▓▓       ▓██▄▄
 [30;42m░[0;1;33;42mblender23a[0;32m█▀▀▀▀▀▀▀▀▀▀▀   [0;1;32;41mYUM[0m     [1;47m▒[0m████        ██████        ████▓▓▓      █   ▀▀
 [32m▓██████▀▀▀ [0;37m▄▄[0;1;37;47m▒▒▒▒▒▒▒▒▒[0m▄     [1;36;41mYUM[0m   ▀[36;47m░[0;37;40m████▄▄▄▄▄▄████████▄     ▄████▓█▓      █[0m
 [30;42m▒[0;1;33;42m▒▒[0m   ▄▄▓▓[1;47m▒[0m▓▓▓█▓▓▓▓▓▓▓[1;47m▒▒▒[0m▄    [1;32;41mYUM[0m  [36;47m ░[0;37;40m████████████████████████████▓▓▓      █[0m

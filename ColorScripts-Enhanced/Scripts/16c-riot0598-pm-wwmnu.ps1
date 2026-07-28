@@ -5,7 +5,7 @@
 # Source SHA-256: 1be2f32c99202bce1e1dea1e1f1f570e8243850cca45df1691fa0b09634393aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-WWMNU.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
 [32m [0;1;32;42m▐[0;32m  █[0;1;32;42m▒▄[0;32m▌▓▀▀▀▀░[0;30;42m▓[0;32;40m▀ ▄  ▄■ [0;33;40m  [0;32;40m▐[0;1;32;42m▄[0;1;37;40m█[0;1;32;40m█[0;32m█▀ ▐[0;1;32;42m▀[0;32m▀  ▐[0;1;32;42m▌[0m    [1;36mx[0;32m [0;37mxxxxxxxx[0m    [1;36mx[0;32m [0;37mxxxxxxxx[0m
 [32m ▌[0m   [32m▀▀ [0m      [37m▀[0;32m▌[0m        [32m▓▀▀[0;1;32;42m▀▐▓▄[0;32m▌█▓[0m   [1;32;42m▐[0;32m▌[0m    [1;36mx[0;32m [0;37mxxxxxxxx[0m    [1;36mx[0;32m [0;37mxxxxxxxx[0m
       [32m▄[0;1;32;42m▄[0;32m▄[0m    [36m          [0m      [32m▀[0;1;32;42m▀[0;1;32;40m [0;32m▌[0m   [32m▐[0;1;37;47m▓[0;32m▌[0m    [1;36m [0;32m [0;37m        [0m    [1;36m [0;32m [0;37m        [0m
-      [32m▀[0;1;32;42m▓▄▌[0m        [1;36mMain Menu [0m [32m ▌[0;1;32m [0;32m▌  ▐[0;1;32;42m▓▀[0m     [1;36mx[0m xxxxxxxx                [32m▄▄▄▄▄▄▄▄[0m
+      [32m▀[0;1;32;42m▓▄▌[0m        [1;36m          [0m [32m ▌[0;1;32m [0;32m▌  ▐[0;1;32;42m▓▀[0m     [1;36m [0m                         [32m▄▄▄▄▄▄▄▄[0m
      [1;32;42m░░[0;32m▀▀▌[0m                          [32m▀▌    ▄[0m                [1;32m  [0;32m ▌  ▄[0;1;32m▄▄[0;1;32;42m▓[0;32m██[0;1;32;42m▀▀▀▓▀[0;32m█▌[0m
                                      [32m▄ ▓▄[0;1;32;42m░▓▄▌[0;32m░[0;30;42m▓[0;32;40m▄[0;1;32;42m░▒[0;1;32;40m▌[0;32m▐▄▄▄▄▄▐███▄▓▀▀▀█[0;1;32;42m▀[0;32m█▀▀[0;1;32m [0;32m [0;1;32;42m░░[0;32m▀[0;1;32m [0m
                                       [32m▀[0;1;32;42m░[0;32m▄▄ [0;1;32;42m▐[0;32m▀▀█[0;1;32;42m▀▀▓█▄[0;30;42m [0;32;40m▓█[0;37;40m [0;32;40m▀▀▀▀▌[0;37;40m¡pm![0;32;40m  [0;1;32;40m [0;32m▀▌[0m

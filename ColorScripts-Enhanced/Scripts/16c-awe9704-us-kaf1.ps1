@@ -5,7 +5,7 @@
 # Source SHA-256: 22ecca7ebb1581831877e7e1a09488d02ed7b661967eab2db78a970b68e373b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-KAF1.ANS by Massm + Discyple (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Kafkaesk
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -47,7 +47,7 @@ Write-Host '
                            [1;47m░░ [0m▌[1m [0;31m▄[0;1;31;41m▄[0;31m████▌[0;37m [0;1;30m▐[0;1;30;47m▒▒▓[0m▒[1;30;47m█[0;1;30;40m██[0;1;37;40m  [0;1;31;41m░░[0;31m███▓▄▄[0;37m ░[0;30;47m▓[0;37;40m░[0m
                             [37;40m███▄[0;1;37;40m [0;31m▀▀██▀[0;37m [0;1;30m▄[0;1;30;47m█▓[0m▒[1;30m███▀▀▀[0;1;37m [0;31m▄███▀[0m
                              [37m▀▀[0;1;30;47m░░▓[0;1;30;40m▄▄▄▄▐██▀[0;1;37;40m [0;1;30;40m▀[0;1;37;40m  [0;31m▄██▀▀[0;1;33;41m  [0;1;33;40m [0m
-                            [31m░[0;30;41m▓[0;37;40m   [0;1;30;40m▀▀▀▀▀[0;1;37;40m   [0;31m▄[0;1;33;41m░[0;31m███▀▀██▓[0;1;33m  [0mdiscyple[1m([0mawe[1m)[0m [1m/[0m massm[1m([0mice[1m)[0m
+                            [31m░[0;30;41m▓[0;37;40m   [0;1;30;40m▀▀▀▀▀[0;1;37;40m   [0;31m▄[0;1;33;41m░[0;31m███▀▀██▓[0;1;33m  [0m        [1m [0m   [1m [0m [1m [0m      [1m [0m   [1m [0m
                                           [31m▀▀▀ [0m     [1;33m  [0m
                                        [31m▄█▄[0m
                                         [31m▀[0m

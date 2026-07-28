@@ -5,7 +5,7 @@
 # Source SHA-256: 8500128d25014ab2922949ef3308e426e0f16b6e0f55c7f418e3a5a57c7c3b4b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: INVA1.ANS by Lemming (ace-r2); released in ace-r2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -43,11 +43,11 @@ Write-Host '
 [33;40m▓▓▓▓▒▒▒▓▓▓▓▒▒▒▒▒▓▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒░░░░▒▒▒▒▒▒▒▒[0m
 [33;40m▒▒▒▒░░░▒▒▒▒░░░░░▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░ ░░░░░░ ░░[0m
 [33;40m░░░░░░ ░░░░  ░  ░ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  ░[0m      [33;40m░[0m
-[33;40m░ ░    ░  ░[0m            [33;40m░[0m         [33;40m░[0m      [33;40m░[0m            [34;40mA[0;1;34;40mN[0;36mS[0;1;36mi[0;1;37m: [0;34mL[0;1;34mE[0;36mM[0;1;36mM[0;1;37miNG [0;34m/ A[0;1;34mC[0;36mE[0;1;36m''[0;1;37m92[0m
+[33;40m░ ░    ░  ░[0m            [33;40m░[0m         [33;40m░[0m      [33;40m░[0m            [34;40m [0;1;34;40m [0;36m [0;1;36m [0;1;37m  [0;34m [0;1;34m [0;36m [0;1;36m [0;1;37m    [0;34m   [0;1;34m [0;36m [0;1;36m [0;1;37m  [0m
 [1;30m▄▀▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▀▀▀▄▄▀▀▄    ▄▀▀▀▄▄▀▀▀▀▄[0m
-[1;30m▌[0;1;30;45m   [0;1;30;40m▐▌[0;1;30;45m  [0m [1;30;40m▌[0;1;30;45m  [0;1;30;40m▐▌[0;1;30;45m  [0m [1;30;40m▌[0;1;30;45m  [0;1;30;40m▐▌[0;1;30;45m     [0;1;30;40m▐▌[0;1;30;45m  [0;1;30;40m▐    ▌[0;1;30;45m   [0;1;30;40m▐▌[0;1;30;45m    [0m [1;30;40m█ [0;31mNOTE FoR PEoPLE WHo DoN''T KNoW[0m
+[1;30m▌[0;1;30;45m   [0;1;30;40m▐▌[0;1;30;45m  [0m [1;30;40m▌[0;1;30;45m  [0;1;30;40m▐▌[0;1;30;45m  [0m [1;30;40m▌[0;1;30;45m  [0;1;30;40m▐▌[0;1;30;45m     [0;1;30;40m▐▌[0;1;30;45m  [0;1;30;40m▐    ▌[0;1;30;45m   [0;1;30;40m▐▌[0;1;30;45m    [0m [1;30;40m█ [0;31m                              [0m
 [37m▐[0;1;30m───▌[0;30;47m▐[0;31;45m█▄ [0m [31;45m  [0;1;30;40m▐▌[0;31;45m██▄[0m [31;45m  [0;1;30;40m▐▌[0;31;45m██[0;1;30;40m■[0;1;30;45m  [0;1;30;40m▐▌[0;1;30;45m [0;31;45m▄[0;37;40m▐    [0;1;30;40m█──[0m─█[1;30m▌[0;1;30;45m  [0m [1;30;45m  [0;1;30;40m▐ [0;31mABoUT ANSiS: [0;1;37mTHiS EXCELLENT AN-[0m
-▌[31;45m█▄█[0;37;40m▐[0;30;47m▐[0;31;45m██[0m [31;45m▄ ▄[0;1;30;40m▐[0;1;30;47m▀[0;30m█[0;31;45m███▄[0m [37;40m▌[0;30;47m▐[0;31;45m████▄[0;37;40m▐▌[0;31;45m██[0m [37;40m▀▀▄ ▌[0;31;45m▄██[0;37;40m▐▌[0;31;45m█▄[0m [31;45m▄█[0;37;40m▐ [0;1;37;40mSi WAS DRAWN WiTH THEDRAW, oNLY[0m
+▌[31;45m█▄█[0;37;40m▐[0;30;47m▐[0;31;45m██[0m [31;45m▄ ▄[0;1;30;40m▐[0;1;30;47m▀[0;30m█[0;31;45m███▄[0m [37;40m▌[0;30;47m▐[0;31;45m████▄[0;37;40m▐▌[0;31;45m██[0m [37;40m▀▀▄ ▌[0;31;45m▄██[0;37;40m▐▌[0;31;45m█▄[0m [31;45m▄█[0;37;40m▐ [0;1;37;40m                               [0m
 ▌[31;45m███[0;37;40m▐[0;30;47m▐[0;31;45m██[0;37;40m▐ [0;31;45m██[0;37;40m▐ █ [0;31;45m██[0m [37;40m█ [0;30;47m▐[0;31;45m██[0m [31;45m██[0;37;40m▐▌[0;31;45m█████[0;37;40m▐ ▌[0;31;45m███[0;37;40m▐▌[0;31;45m████[0;30;40m█[0;37;40m█ [0;1;37;40mLAMERS USE GIF2ANSi!!![0m
 ▐▄▄▄▌▀▄▄▀▀▄▄▀  ▀▄▄▀  [30;47m▄[0;37;40m▄▄▀▄▄▀▀▄▄▄▄▄▀ ▀▄▄▄▀▀▄▄▄▄▀[0m
 [1;30;40m▄▀▀▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄ ▄▀▀▀▄▄▀▀▀▀▄ ▄▀▀▀▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▀▀▄▄▀▀▄▄▀▀▄▄▀▀▀▀▀▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 74b4d6db581bf8727724417d43f03abe7707134b69bd24bbb8a24e8ebbfd40b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-gav.ans by Warpus + The Knight (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Gay American Vampire
 # SAUCE Author: Warpus + The Knight
 # SAUCE Group: Lazarus
@@ -22,7 +22,7 @@ Write-Host '
 [31m████████████████████████████████████████████████████████████████████████████████[0m
 [31m████████████████████████████████████████████████████████████████████████████████[0m
 [31m████████████████████████████████████████████████████████████████████████████████[0m
-[31m████[0;30;41m  [0;31;40m█[0;31;47m█[0;31;107m█[0;30;41m [0;1;37;41m_[0;41m_[0;31;40m█[0;30;41m ==[0;31;40m█[0;30;41m::[0;31;40m██████[0;1;37;41mGay American Vampire[0;31m██[0;1;35;41m(he/his)[0;1;37;41m [0;31m████[0;30;41m::[0;31;40m█[0;30;41m== [0;31;40m█[0;37;41m_[0;1;37;41m_[0;31;47m█[0;31;40m████████[0;30;41m [0;31;40m█[0m
+[31m████[0;30;41m  [0;31;40m█[0;31;47m█[0;31;107m█[0;30;41m [0;1;37;41m [0;41m [0;31;40m█[0;30;41m   [0;31;40m█[0;30;41m  [0;31;40m██████[0;1;37;41m                    [0;31m██[0;1;35;41m        [0;1;37;41m [0;31m████[0;30;41m  [0;31;40m█[0;30;41m   [0;31;40m█[0;37;41m [0;1;37;41m [0;31;47m█[0;31;40m████████[0;30;41m [0;31;40m█[0m
 [31;40m████████████████████████████████████████████████████████████████████████████████[0m
 [31;40m████████████████████████████████████████████████████████████████████████████████[0m
 [31;40m████████████████████████████████████████████████████████████████████████████████[0m

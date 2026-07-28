@@ -5,7 +5,7 @@
 # Source SHA-256: ffcc8d63cbfc1ba6222f440c5e1ed83eb3bf6167aae2e425eb0729da0390fbc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DP!INFX.ANS by despair (dzg9601); released in dzg9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: inf-x network
 # SAUCE Author: despair
 # SAUCE Date: 19960122
@@ -31,6 +31,6 @@ Write-Host '
             [40m▀[0m          [1;30;40m▄▄[0m  [1;30;47m▓[0;1;30;40m▄[0m     [1;30m▀[0m   [1m▀▀[0m    [1;30m▄▄▄[0m          [1m▀▀[0m     [46m▓▒▒▒▒░[0;36;40m▄[0m
      [1;30;40m█[0m      [1;30m▄[0m  [1;30m▄[0;1;30;47m▓[0;1;30;40m▀▀▄▄[0;1;30;47m▒▓[0;1;30;40m▀[0m    [1;30m▀█▄[0;1;30;47m▓▒[0;1;30;40m▀[0m     [1;30m ▄▄[0;1;30;47m▓[0;1;30;40m▀▀[0m [1;30m▀▀[0m  [1;30m▀▀[0;1;30;47m▓▒[0;1;30;40m▄▄[0m       [46m▓▓▒▒░░░░  [0;36;40m▄▄▄ [0m
      [1;30;40m█[0m      [1;30m ▀▀[0m     [1;30m▀[0m     inf / x  network          [1;30m▀[0m  [1;30m▀▀[0m     [46m▒▒░░░░[0;36;40m█[0;1;32;46m░░░▒▒[0;36m▀▀▀▀▀[0m
-     [1;30m▀█▄▄▄[0m  [1;30m▄[0m  ▐[1;47mAPPLY[0m▌[1;30m-[0m [1;30mnodelist[0m [1;30m-[0m [1;30minfo - quit[0m  [1;30m▄[0m     [1;30m▄[0m  [1;30m▄▄[0m [36m▄[0;37;46m▒░░   [0;36;40m▀▀▀[0;37;40m  [0;1;30;40m [0m     [1;30m [0m
+     [1;30m▀█▄▄▄[0m  [1;30m▄[0m  ▐[1;47m     [0m▌[1;30m [0m [1;30m        [0m [1;30m [0m [1;30m           [0m  [1;30m▄[0m     [1;30m▄[0m  [1;30m▄▄[0m [36m▄[0;37;46m▒░░   [0;36;40m▀▀▀[0;37;40m  [0;1;30;40m [0m     [1;30m [0m
                                                           [36m▄[0;37;46m░ [0;36;40m▀▀▀[0;37;40m [0;1;30;40m  [0m [1;30m [0m  [1;30m       [0m
                                                          [36m▓▀[0m   [1;30m [0m [1;30m  [0m'

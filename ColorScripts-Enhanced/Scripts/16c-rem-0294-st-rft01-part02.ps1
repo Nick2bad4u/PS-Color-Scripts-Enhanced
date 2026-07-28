@@ -5,7 +5,7 @@
 # Source SHA-256: 0317dd5f3c7916b64dd56c7378b7561183bccf83f79887bcaf252bc5e8c5d355
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-RFT01.ANS by Stony (rem-0294); released in rem-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 40-65
 # Columns: 1-80
 
@@ -33,5 +33,5 @@ Write-Host '
 [32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30m·   [0;32m▄ [0;1;30m·[0m                                                                    [1;30m▄ ·[0m
 [1;30m·■  [0;1;30;42m░[0m [1;30;40m■·[0m                                                                 [1;30;40m▄ [0;1;30;42m▓[0m [1;30;40m·[0m
-[1;30;40m ■▄ [0;1;30;42m░[0;1;30;40m··[0m                         [1;30;40mAnsi by Stony[0m                          [1;30;40m▀▐■ [0;1;30;42m▓[0m [1;30;40m■[0m
+[1;30;40m ■▄ [0;1;30;42m░[0;1;30;40m  [0m                         [1;30;40m             [0m                          [1;30;40m▀▐■ [0;1;30;42m▓[0m [1;30;40m■[0m
 [1;30;40m   ▄■▄▀[0m                      [1;30;40m                   [0m                         [1;30;40m  ■■ [0m'

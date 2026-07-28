@@ -5,7 +5,7 @@
 # Source SHA-256: c6e8f6d4ed579840fd2fde4a057ca1d445ce8a1f8b9c8dfdd08cdc6f749f6211
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NVZ-HDKL.ANS by nvz (rmtz); released in rmtz-4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: headkill
 # SAUCE Author: nvz
 # SAUCE Group: rmtz
@@ -32,8 +32,8 @@ Write-Host '
 [37m  ▓[0;1;31m▀[0;1;31;43m▓█▓▄ [0;30;43m▀[0;33;40m███████████[0;1;30;43m░▒▓[0;1;30;40m▀[0m              [34m [0m            [31m  [0m                 [31m▒[0m
 [37m  ▐[0;31;47m░[0;37;40m▄ [0;1;31;40m▀▀[0;1;31;43m▓▄▄▄[0;33m████[0;1;30;43m░▒▄▄[0;1;30;40m▀▀[0m▄▄                [34m [0m
    [37m▓[0;31;47m░[0;37;40m▌[0m    [37;40m▄▐[0;31;47m░[0;37;41m█[0;31;47m░[0;37;40m▐▀    ▐[0;31;47m░[0;37;40m▓▌[0m
-   [37;40m▐█▓  ▄[0;31;47m░[0;37;40m▓▐▓[0;31;47m▒[0;37;41m█[0;37;40m  [0m     [37;40m██▓[0m              [31;40mif i can catch your head[0m
-   [37;40m▐[0;31;47m░[0;37;40m▀▄[0;31;47m░[0;37;40m▓▓ ▐▓█[0;31;47m░[0;37;40m [0m      [37;40m▓[0;31;47m░[0;37;40m█[0m              [31;40myou can be sure that you[0m
+   [37;40m▐█▓  ▄[0;31;47m░[0;37;40m▓▐▓[0;31;47m▒[0;37;41m█[0;37;40m  [0m     [37;40m██▓[0m              [31;40m                        [0m
+   [37;40m▐[0;31;47m░[0;37;40m▀▄[0;31;47m░[0;37;40m▓▓ ▐▓█[0;31;47m░[0;37;40m [0m      [37;40m▓[0;31;47m░[0;37;40m█[0m              [31;40m                        [0m
    [37;40m▀▄▓█▓▀  ▐▓[0;31;47m░[0;37;40m▓ [0m     [37;40m ▐█[0;31;47m░[0;37;40m▌[0m             [31;40m     will be dead[0m
    [37;40m▓[0;31;47m░[0;37;40m█[0;31;47m░[0;37;40m▀[0m   [37;40m▓█[0;31;47m░░[0;37;40m▓[0m      [37;40m▐██▌[0m                [34;40m  [0m
 [37;40m  ▓█▒▓ ▓[0m   [37;40m▓[0;31;47m▒[0;37;40m██▌[0m       [37;40m█[0;31;47m░[0;37;40m▓[0m                [34;40m  [0m

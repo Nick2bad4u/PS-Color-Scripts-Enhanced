@@ -5,7 +5,7 @@
 # Source SHA-256: 4beb4d0899020067393c67f7c23993f901e5776b5d4e1f7c0bad3fc6186c7e1c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MARCIANO.ANS by Psylocke (C.L.S); released in cls-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Scum Team, Under Society... (((???
 # SAUCE Author: Psylocke
 # SAUCE Group: C.L.S
@@ -36,4 +36,4 @@ Write-Host '
                   [1;32m░▒▓[0;1;32;47m███[0;1;32;40m█████████████████[0;1;32;47m████[0;1;32;40m▓▒░[0m
                     [1;32m░▒▒▓▓███[0;1;32;47m█[0;1;32;41m███[0;1;32;40m██[0;1;32;41m██[0;1;32;47m█████[0;1;32;40m▓▓▒▒░[0m
                        [1;32m░░▒▒▓▓███[0;1;32;47m█████[0;1;32;40m▓▓▒▒░░[0m
-                          [1;32m░░▒▒▒▓▓▓▓▒▒▒░░[0m                Ansi por PSY£OCKE[0m'
+                          [1;32m░░▒▒▒▓▓▓▓▒▒▒░░[0m                                 [0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: 1e3d6eca83f12783213f8a3298a3c83dec20ab6f0173bc660bc431c7571989be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: U3-GFCE.ANS by Unseen Fate (tnt-005); released in tnt-005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
-[30;42m▓[0;32;40m░[0;37;40m [0;1;37;40m▄▄▄[0;37;40m  [0;31;40m▄▓▄▄▄[0;37;40m    [0;32;40m▄[0;37;40m          [0;32;40m▄▄[0;37;40m   [0;32;40m█[0;1;32;42m▀[0;37;40m                [0;1;32;42m▀[0;32;40m█▀ [0;37;40m1oo%_orisinal ansi    [0;32;40m▐▄[0;37;40m [0m
+[30;42m▓[0;32;40m░[0;37;40m [0;1;37;40m▄▄▄[0;37;40m  [0;31;40m▄▓▄▄▄[0;37;40m    [0;32;40m▄[0;37;40m          [0;32;40m▄▄[0;37;40m   [0;32;40m█[0;1;32;42m▀[0;37;40m                [0;1;32;42m▀[0;32;40m█▀ [0;37;40m                      [0;32;40m▐▄[0;37;40m [0m
 [32;40m▓▓[0;37;40m [0;31;40m▄[0;37;40m ▀[0;1;37;47m▀[0;1;36;40m▄[0;37;40m [0;31;40m█▀▀[0;37;40m  [0;32;40m▓█ ▐█[0;1;32;42m▄▄[0;32;40m███▄▄▄▄ ▀█▄▄█  ▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄  ▄[0;1;32;40m▄▄▄[0;32;40m▄▄▄▄▄▄▄▄▄██▄▄███████[0m
 [30;42m [0;32;40m█[0;37;40m [0;31;40m██▄[0;37;40m [0;1;37;47m█[0;37;40m [0;1;31;40m█[0;37;40m [0;1;37;47m▀[0;31;40m▐[0;32;40m ██▄▄█[0;1;32;42m▀▀▀[0;32;40m███████████████████████████████▄▄█████████████  ██████████[0m
 [30;42m  [0;37;40m [0;1;37;40m▄▄[0;1;36;40m▄[0;37;40m [0;1;37;47m▐[0;37;40m █ ▀[0;31;40m▐[0;32;40m ██[0;30;42m    [0;32;40m█[0;30;42m              [0;32;40m█[0;30;42m                                         [0;32;40m███[0m

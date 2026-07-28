@@ -5,7 +5,7 @@
 # Source SHA-256: b5d13cee249355d0b4cb5930b3c5c92ceb60a966c13027db71c99b120ad54041
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-FRUK.ANS by blind guy (department 38); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fruk-tang clan aint nutin ta f' wit
 # SAUCE Author: blind guy
 # SAUCE Group: department 38
@@ -35,5 +35,5 @@ Write-Host '
 [1;33;43m░░░░░░░  ░░░░░░░░░░░░░░░▓█[0;1;33;42m▓▓[0;1;33;40m████████[0;1;37;40m██[0;1;33;40m██▄▄▄▄▄▄▄[0;1;33;43m▓░░░░░░[0;33m▄▄▄[0m    [33m▐[0;1;33;43m░░░░░░░░░░░░░[0;33m▌[0m
 [33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;33m▐█████████████████████▌[0;33m████████████▄▄█████████████[0;30;43m░▓[0m
 [1;30;40m [0m                        [1;33m▐[0;1;33;43m▓▓▓▓[0;1;33;40m████[0;1;33;43m▓▓▓▓▓▓▓▓▓▓▓█▓[0;1;33;40m▌[0;33m░[0;30;43m▓[0;33;40m░░[0;30;43m▓[0;33;40m░░░░[0;30;43m▓[0;33;40m░░░░░[0;30;43m▓▓▓[0;33;40m░░░░░░[0;30;43m▓[0;33;40m  ░[0;30;43m▓[0m
-[37;40mfor that lame guy NOAH#@![0;33;40m▐[0;1;33;43m░░░░░░░░░░░░░░░░░░░░░[0;33m▌[0m
+[37;40m                         [0;33;40m▐[0;1;33;43m░░░░░░░░░░░░░░░░░░░░░[0;33m▌[0m
 [37mi really hate him,...[0m    [1;30m▐▀[0;33m▀▀▀▀▀▀▀[0;1;30m▀▀[0m'

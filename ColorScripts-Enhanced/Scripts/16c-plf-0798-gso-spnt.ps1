@@ -5,7 +5,7 @@
 # Source SHA-256: 53928a49df4c5d79fa3454cfbb9d1d094edae50ecfe0dd4f94b3b1d7866b3310
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GSO-SPNT.ANS by gso (plf); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: spantobi1910
 # SAUCE Author: gso
 # SAUCE Group: plf
@@ -16,7 +16,7 @@
 
 Write-Host '
                         [1;30m▄[0m
-   [1;31mvälkommen[0m till    [1;30m▄[0;32m▄[0;1;32;42m░[0;32m▓░[0;30;42m▓[0m                 [1;30;40m▄▄▄▄[0m               gso[1mplf[0m     [1;47m▄░░[0m
+   [1;31m         [0m         [1;30m▄[0;32m▄[0;1;32;42m░[0;32m▓░[0;30;42m▓[0m                 [1;30;40m▄▄▄▄[0m                  [1m   [0m     [1;47m▄░░[0m
    [35mspantobi[0m   [32m  [0;1;30m▄▄[0;32m▄▐[0;1;32;42m▄▓▓[0;1;32;40m▀[0;32m▀[0m     [32m▄▄▄▄▄[0;1;32m▄▄[0;1;32;42m▄▄▄▄▄▄▄▄▄[0;32m█[0;1;30m▀[0m           [32m░[0;30;42m▓[0m          [37;40m [0;34;40m▌[0;32;40m [0;1;37;47m░[0;30;47ms[0;37;47m [0m
          [32;40m [0;1;30;40m▄▄[0;32m▄[0;1;32m▄[0;1;32;42m▄▄▄[0;1;37;40m█▀[0;1;32;42m▀█[0;32m▄[0;1;32m▄▄[0;1;32;42m▄▄▄▄[0;1;32;40m█[0;1;32;42m██▓ ░▓█[0;1;37;40m██[0;1;32;46m▓▓▓[0;1;32;42m▀▀▀▀[0;1;32;40m▒▒[0;32m ░[0m             [32m ░[0;30;42m▓[0m       [34;40m▌[0;32;40m [0;1;37;47m░[0;30;47mp[0;37;47m [0m
        [32;40m▄[0;1;32;42m▄▓▓[0;1;30;40m▀[0;32m▀▀[0;1;32;42m [0;1;37;40m▄[0;1;32;42m▄█████[0;1;33;40m██[0;1;37;40m██[0;1;32;42m▐[0;1;32;40m▓▓▓▀[0;32m▌▀▀▀▀▀▀▀ [0;35m▄▄[0;37m [0;1;30m▀[0;32m▐[0;37m  [0;32m ░[0m               [32m▓░[0m      [34m▌[0;32m [0;37;47m [0;30;47ma[0;37;47m [0m

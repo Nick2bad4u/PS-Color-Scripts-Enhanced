@@ -5,7 +5,7 @@
 # Source SHA-256: 669dfa8095d97f73d844fa8b54f9bce8007117d497c3721c0a4a4fe1cb47ed76
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-MENU.ANS by Sudden Death (acepak03); released in acepak03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -17,7 +17,7 @@ Write-Host '
       [30;47m▀[0;1;47m▄[0;1m█[0;1;43m▀[0;1;30;43m▀[0m       [1;47m▀▀[0m▀[1;47m▄[0;1m▀█▀█[0;1;30m█│[0;1m│[0m                                               [1;30m│[0;1m█[0m
      █[1m█[0;1;43m▀[0;33m█[0;1;33m▀[0m      [30;47m▀[0;1;30m▄ [0m▀█[30;47m▀[0;1m█▄█ [0;1;30m█│[0m│                                               [1;30m│[0;1m█[0m
 [1m [0;30;47m▀[0m  [1;47m▄[0;1;43m▀[0;1;33;43m▄[0;1;33m▀[0m     [1m▄[0;1;47m▀[0m▀[30;47m▀[0;1m█[0m▀[30;47m▀[0;1m▄▄    [0;1;30m█│[0m│[1m│[0m                                              [1;30m│[0;1m█[0m
-▀[1m▄▀▄ [0;1;33m▀[0m      [1m▄[0;1;47m▀[0m▀[30;47m▀[0m█[1m▀[0;1;47m▀[0;1m▄█[0m█[1;47m▀[0;1m█  [0;1;30m█││[0m│       [1;30mINPUT MENU COMMANDS HERE[0m               [1;30m│[0;1m█[0m
+▀[1m▄▀▄ [0;1;33m▀[0m      [1m▄[0;1;47m▀[0m▀[30;47m▀[0m█[1m▀[0;1;47m▀[0;1m▄█[0m█[1;47m▀[0;1m█  [0;1;30m█││[0m│       [1;30m                        [0m               [1;30m│[0;1m█[0m
 ▀[30;47m▀[0;1m▀[0;30;47m▀[0;1;47m▀[0;1m▄▄▄  ▄[0;1;47m▀[0m█ ▀█▀█[1m▄▄▄██▀█ [0;1;30m█││[0m│                                              [1;30m│[0;1m█[0m
 [1;30m█    [0m▀▀▀ [1;47m▀[0;30;47m▀[0m▀ █ ▀█[30;47m▀[0;1m▄▄███▀▀ [0;1;30m█│││[0m                                              [1;30m│[0;1m█[0m
           [1;30m▄▄▀ [0m▀[30;47m▀[0;1m▄▄▄██▄▀▀[0m▀[30;47m▀[0;1m▄[0;1;30m│││[0m                                              [1;30m│[0;1m█[0m

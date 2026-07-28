@@ -5,7 +5,7 @@
 # Source SHA-256: 055f8e414f865e48bdf52a6c1fcdea6d4feb82dd187088f8b07bc5f650b7a15c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SRD-DOPE.ANS by sordid (woe); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: DOPe-O-MAGic;.
 # SAUCE Author: sordid
 # SAUCE Group: woe
@@ -30,7 +30,7 @@ Write-Host '
 [1;30m█[0;36m [0;1;36;46m ▓▓▓██[0m █   [1m▐[0m █ [1;36m█ [0;1;32m█████▀██[0;1;32;42m▓▓▓▓[0;1;32;40m██[0m [1;32m▀███[0;1;32;42m▓[0;1;32;40m ███[0;1;32;42m▓▓▓[0m [1;32m███[0;1;32;42m▓[0m [1;32m███[0;1;32;42m▓▓[0;1;32;40m██[0m [1;32;42m▓▓[0;1;32;40m█▄██████[0m [1;31m███[0m
 [1;30m█▄[0;36m █[0;1;36;46m▓▓██[0m █[1;31m▄▄▄▄▄[0m█ [1;36m█ [0;1;32m███[0;1;32;42m▓▓[0m [1;32m███[0;1;32;42m▓[0;1;32;40m█████[0m [1;32m███[0;1;32;42m▓[0;1;32;40m ████[0;1;32;42m▓▓[0m [1;32m███[0;1;32;42m▓[0m [1;32m██[0;1;32;42m▓▓▓▓[0;1;32;40m█[0m [1;32;42m▓▓▓[0m [1;32m▄▄▄▄▄ [0m [1;31m▀▀[0m
  [1;30m█[0m [36m█[0;1;36;46m▓▓▓[0;1;36;40m█[0m [1;30;47m░[0;1;30;41m░░[0;31m██[0;1;30;41m░[0m█ [1;36m█ [0;1;32m█████▄█████████[0m [1;32m████▄███[0;1;32;42m██[0;1;32;40m▀[0m [1;32m████▄██[0;1;32;42m▓▓[0;1;32;40m██[0m [1;32m▄███▄██████[0m
- [1;30m█[0m [36m█[0;1;36;46m▓▓█[0;1;36;40m█[0m █[31m██[0;1;30;41m░░[0;31m█[0;37m█ [0;1;36m█▄▄▄[0;36m▄[0;37m [0;1;30m▄[0m  [1;32miS NOT A LiFESTYLE..[0m [1;32m████[0m [1;32miT KiLLS YA 4 SURE[0m   [35m███[0;1;35m█[0m
+ [1;30m█[0m [36m█[0;1;36;46m▓▓█[0;1;36;40m█[0m █[31m██[0;1;30;41m░░[0;31m█[0;37m█ [0;1;36m█▄▄▄[0;36m▄[0;37m [0;1;30m▄[0m  [1;32m                    [0m [1;32m████[0m [1;32m                  [0m   [35m███[0;1;35m█[0m
  [1;30m█▄[0m [1;36;46m ▓▓[0;1;36;40m█▄[0m ▀[31;47m▀▀▀[0;37;40m▀ [0;1;36;40m▄█[0;1;36;46m█▓▓[0;36m█ [0;1;30m█[0m                                               [35m████[0;1;35m█[0m
   [1;30m█[0m [36m█[0;1;36;46m▓██[0;1;36;40m██▄▄▄▄▄███[0;1;36;46m██▓[0;36m█ [0;1;30m█[0m [35m█[0;1;35;45mSORDiD[0;45m[w0E][0;35;40m████████[0;1;35;45m▀[0;35m▄▄▄▄▄▄▄▄▄██████████████████[0;1;35m█[0m
   [1;30m█▄[0m [36m▀▀[0;1;36;46m▀▀▀▀▀▀▀▀▀▀▀[0;36m▀▀▀ [0;1;30m▄█[0m                  [35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35m▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 48d59db0f693e4c957d877e27a8136433ba0e5648665fcbd94a865b3ae41579b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-FLUP2.ANS by Rile 05/97 (Broken) (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fluph
 # SAUCE Author: Rile 05/97 (Broken)
 # SAUCE Group: Eerie
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                      [31m███████████[0;31;41m     [0;30;41m"hi, wanna be my friend?"[0m
+                                      [31m███████████[0;31;41m     [0;30;41m                         [0m
      [34;40m▄[0m     [34;40m░░░[0m                        [31;40m▀████████████████████████████████████████[0m
       [34;40m▓▓░░░   ░░░[0m                      [31;40m▐███████████████████████████████████████[0m
        [34;40m░░░[0m        [34;40m░ [0;33;40m▄[0m     [33;40m█▄▄ ▀█▄▄[0m     [31;40m▐███████████████████████████████████████[0m

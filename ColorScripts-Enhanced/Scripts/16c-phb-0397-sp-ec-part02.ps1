@@ -5,7 +5,7 @@
 # Source SHA-256: a95b0669ffcde99d0ac5b098b3fb1f82909e2af4065503d3698a95749e518490
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-EC.ANS by splash (phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: xmas jack
 # SAUCE Author: splash
 # SAUCE Group: phobia
@@ -42,4 +42,4 @@ Write-Host '
     [37m▐[0;37;41m▒▓[0;37;40m▀[0;31;40m▀▀[0m   [31;40m▀▀█[0;37;41m ░[0;31;40m█[0;37;40m [0;37;41m░▒░░[0;31;40m▌▐[0;1;31;41m▓▒[0;1;33;41m░▓[0;31m▌[0;37m  [0;1;35m▐[0;31;45m▓[0;35;40m▌[0;37;40m  [0;31;40m▐[0;1;33;41m░[0;1;37;41m░[0;31m [0;1;37m█[0;31;43m▓[0;31;40m▌▐[0;31;43m▓[0;31;40m█[0;1;37;41m░[0;31m▄ [0;37m [0;31m█[0;1;37;41m░[0;31m▌[0;37m [0;31m▐[0;1;33;41m░[0;1;37;41m░[0;31m [0;1;37m█[0;31;43m▓[0;31;40m▌[0m
     [37;40m▀[0m           [31;40m▐█ [0;37;40m  [0;31;40m▀▀▀▌[0;37;40m [0;31;40m▀▀▀[0;1;33;40m▀[0;31m▌[0;37m  [0;1;35m▀▀[0;35m▌[0;37m  [0;31m▐▀▀[0;37m [0;1;37m▀[0;31m▀▌[0;37m [0;31m▀▀▀▀▌[0;37m [0;31m▀▀▌[0;37m [0;31m▐▀▀[0;37m [0;1;37m▀[0;31m▀▌[0m
 [34m── ──  ───────┐[0;37m [0;31m▀[0m                                             [34m┌──────────────[0;37m  [0;34m─[0m
-              [34m└────────── I─have─the─law─on─my─side ──────────┘ [0m'
+              [34m└──────────  ─    ─   ─   ─  ─  ─     ──────────┘ [0m'

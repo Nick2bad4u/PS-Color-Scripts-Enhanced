@@ -5,7 +5,7 @@
 # Source SHA-256: 22d060dee46f832c30ceb7caa5692ca4ae7964178a20ea26e27360564d23343a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANS-0056.ANS by Bill Gaynor (ansis); released in ansis and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -15,7 +15,7 @@ Write-Host '
 [37;40m  [0;30;46m           [0;31;46m█[0;37;41mThe[0;31;46m██[0;31;41m [0;31;47m [0;37;41m▄▄[0;37;47m [0;37;41m▄ [0;37;47m [0;37;41m [0;37;47m [0;37;41m  ▄▄       [0;37;47m [0;37;41m   [0;37;47m [0;37;41m   [0;37;47m [0;37;41m [0;37;47m [0;37;41m▄▄▄[0;37;47m [0;37;41m [0;31;46m██[0;37;41mBBS[0;31;46m█              [0;37;40m    [0m
 [37;40m  [0;31;46m           ▀▀▀▀▀▀[0;30;41m▄[0;1;37;47m█[0;1;37;41m▄▄▄[0;1;37;47m█[0;30;41m▄[0;1;37;47m█[0;30;41m▄[0;1;37;47m█[0;1;37;41m▄▄▄[0;1;37;47m█[0;30;41m▄▄▄▄▄▄▄[0;1;37;47m█[0;30;41m▄▄▄[0;1;37;47m█[0;1;37;41m▄▄▄[0;1;37;47m█[0;30;41m▄[0;1;37;47m█[0;30;41m▄▄▄▄▄[0;31;46m▀▀▀▀▀▀              [0;37;40m    [0m
 [37;40m  [0;31;46m                 [0;36;40m▄▄▄▄▄▄▄▄▄[0;30;44m█[0;36;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;44m█[0;36;40m▄▄▄▄▄▄▄▄▄[0;36;46m                    [0;37;40m    [0m
-[37;40m  [0;36;46m                  [0;1;30;46m▐[0;1;5;34;44m██[0;5;34;46m▄ [0;34;46m [0;30;46m█[0;30;44m█[0;1;36;40mSysOp:[0;30;44m██[0;1;36;40mBill[0;30;44m█[0;1;36;40mGaynor[0;30;44m██[0;30;46m     [0;1;30;46m▐[0;1;5;34;44m██[0;5;34;46m▄ [0;34;46m                 [0;37;40m    [0m
+[37;40m  [0;36;46m                  [0;1;30;46m▐[0;1;5;34;44m██[0;5;34;46m▄ [0;34;46m [0;30;46m█[0;30;44m█[0;1;36;40m      [0;30;44m██[0;1;36;40m    [0;30;44m█[0;1;36;40m      [0;30;44m██[0;30;46m     [0;1;30;46m▐[0;1;5;34;44m██[0;5;34;46m▄ [0;34;46m                 [0;37;40m    [0m
 [37;40m  [0;34;46m                  [0;1;30;46m▐ [0;5;36;44m▄▄[0;5;34;46m██[0;34;46m                            [0;1;30;46m▐ [0;5;36;44m▄▄[0;5;34;46m██[0;34;46m                [0;37;40m    [0m
 [37;40m  [0;34;46m                  [0;1;30;46m▐                                 ▐                     [0;37;40m    [0m
 [37;40m  [0;1;30;46m                 [0;1;31;46m▄[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;40m█[0;1;37;41m█[0;1;31;46m▄                    [0;37;40m    [0m

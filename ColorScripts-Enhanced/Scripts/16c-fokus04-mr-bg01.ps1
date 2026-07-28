@@ -5,7 +5,7 @@
 # Source SHA-256: 2d084a28886400485e8de49fc2779261421d619d23e3f48b4653357eaf915ebf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-BG01.ANS by Mr.Wrong (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Borgasm #1
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Fokus fonting
@@ -41,6 +41,6 @@ Write-Host '
                 [1;30;47m▒[0m       [1;30m█[0m     [1;30m▀▀▄[0m [35m▀[0;37m [0;1;30;47m▓[0m [1;30m▀▄[0;34m [0;1;30m▄▀█[0m   [1;30m▀[0;1;30;47m▄[0;1;30;40m█▀[0;34m▄[0;1;34;44m▄█[0;1;34;47m▓▓█▓▀[0;1;34;44m█[0;1;34;47m▄▄[0;1;34;44m▀[0;1;34;40m▀[0;34m▀[0;1;34m▒[0;35m▄[0;1;35;45m▄░[0;35m▄[0;37m [0;35m  [0m
                [37m░[0m        [1;30;47m▓[0m        [1;30m█[0m  [1;30m█[0m  [1;30m█▀[0;34m  [0;1;30m█[0;34m      [0;1;30m▄▄[0;34m▀[0;1;34m▀[0;1;30;44m▄[0;1;30;40m▄▄[0;1;30;44m▄[0;1;34;40m▀[0;34m▀[0;35m▄▄[0;1;35m▄[0;1;35;45m░[0;35m█[0;1;34m░[0;34m [0;35m▀▀[0m
       [35m-[0;37m [0;1;35mB[0;35m o r g a s m[0;37m [0;35m-[0;37m [0;1;30;47m▒[0m         [1;30;47m▓[0m [1;30;47m▓[0m      [1;30;47m▓[0;34m     [0;1;30m▀[0;1;30;47m▄▓[0;1;30;40m▀[0m   [1;30m▀▀▀▄▄[0;35m▀▀█▌[0;34m  [0m
-     [35m issue number #one[0;37m [0;1;30;47m░[0m  [1;30m█[0m     [1;30m▄▀[0m [1;30;47m▒[0m      [1;30m▀▄▄▀[0m     [34m [0;1;30mMr[0;35m.[0;1;30mWrong▀[0m [35m ▀[0;34m░[0;35m▄[0m
+     [35m                  [0;37m [0;1;30;47m░[0m  [1;30m█[0m     [1;30m▄▀[0m [1;30;47m▒[0m      [1;30m▀▄▄▀[0m     [34m [0;1;30m  [0;35m [0;1;30m     ▀[0m [35m ▀[0;34m░[0;35m▄[0m
                         [37m░  [0;1;30m▀▄▄▄▀▀[0m   [1;30;47m░[0m                 [35m([0;1;30mFokus[0;35m)[0;34m [0;1;30m▀[0m
                                     ░[0m'

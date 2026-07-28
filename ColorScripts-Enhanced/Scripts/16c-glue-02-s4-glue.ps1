@@ -5,7 +5,7 @@
 # Source SHA-256: 350f9a6c408ce9f07ac609cb681c3cfa2e800adfc93e9a51c292854a31292dae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S4-GLUE.ANS by Static4 (glue-02); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -23,7 +23,7 @@ Write-Host '
 [1;36m▐[0;1;36;46m██▓▓▒▒▒▒[0;36m [0;1;36;46m▒▒░░░[0;36m██[0;1;36;46m░[0;36m▀▀[0;1;36m▐[0;1;36;46m██▓▓▒░[0;36m█[0;30;46m░[0;36;40m [0;1;36;46m░░░░[0;36m████▀▀[0;1;36m▐[0;1;36;46m▓▓▓▓▓▓▒[0;1;36;40m▌[0;36m [0;1;36;46m▒▒░░░░▒▓[0;1;36;40m▀▀[0;36m▐[0;1;36;46m░░░▒▒▒▒▒[0;36m ▐[0;1;36;46m░░░░░▒▓[0;1;36;40m▀[0;36m [0m
 [1;36m▀▀▀▀[0;1;36;46m▒░░░░[0;36m▄[0;1;36;46m░[0;36m▀▀▀▀   [0;34m  [0;1;36m▀▀▀▀[0;1;36;46m█▓▒░[0;36m█▄█▀▀▀▀   [0;34m  [0;1;36m▀▀▀▀[0;1;36;46m▒▒▒░░[0;36m▄[0;1;36;46m░[0;36m▀▀▀▀   [0;34m [0;36m ▀▀▀▀[0;1;36;46m░░░░░[0;36m▄█▀▀▀▀   [0;34m▄▄[0m
 [34m▄▄▄▄[0m      [34m ▄▄▄▄[0;1;34;44m  [0;30;44m ░░[0;34;40m▄▄▄▄[0m       [34;40m▄▄▄▄███[0;1;34;44m░░[0;34m▄▄▄▄[0m       [34m▄▄▄▄███[0;30;44m░░[0;34;40m▄▄▄▄[0m       [34;40m▄▄▄▄████[0;30;44m░[0m
-[30;44m░░[0;34;40m█████████████████████████[0;1;34;44ms4(root)[0;34m██[0;1;34;44m   [0;34m███████[0;1;34;44m    [0;30;44mthis is a guest for[0;34;40m██[0;30;44m░[0;34;40m███████[0m
+[30;44m░░[0;34;40m█████████████████████████[0;1;34;44m        [0;34m██[0;1;34;44m   [0;34m███████[0;1;34;44m    [0;30;44m                   [0;34;40m██[0;30;44m░[0;34;40m███████[0m
 [37;40m [0;34;40m█ ▀▀▀▀▀▀▀▀▀▀█[0;30;44m░░░░░░░[0;34;40m▓██████[0;1;34;44m  [0;34m████████[0;30;44m░░[0;34;40m██████[0;1;34;44m ░░░  [0;34m██[0;30;44mgueloo!#[0;34;40m███████▀▀▀█▀▀[0;30;44m░░░░[0;34;40m▓[0m
 [37;40m [0;34;40m▐▌[0m      [34;40m░[0;30;44m▓[0;37;40m [0;34;40m▐▌[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░░░[0m         [34;40m █ [0m   [34;40m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m       [34;40m▐▌[0;37;40m  [0;34;40m▐▌[0;37;40m  [0;34;40m░░░[0;30;44m▓[0;34;40m░[0m
 [37;40m  [0;34;40m▀▄▄   [0;37;40m [0;34;40m▄▄▄▀[0;37;40m [0;34;40m     [0m             [34;40m▐▌░[0;30;44m▓[0;34;40m▐▌[0m                              [34;40m▀▄▄▀[0m   [34;40m     [0m

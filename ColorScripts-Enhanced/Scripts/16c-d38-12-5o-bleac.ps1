@@ -5,7 +5,7 @@
 # Source SHA-256: 012e002e50bf7e2c6368c7df780efdea50f110f310b6f5d8642f35e9fee585a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5O-BLEAC.ANS by Ooze (d38-12); released in d38-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -20,7 +20,7 @@ Write-Host '
 [32m  ▓▓██[0;1;32m▌[0;32m█████████████[0;1;32;42m░[0;32m█████████████▄▄   [0;1;37m [0;34m [0;1;37m░[0;1;37;44m██[0;1;34;40m█[0;1;34;44m▓▒░[0m   [34m ▌  [0;1;34m▀[0;1;34;44m▓[0;1;34;40m▌[0;34m█[0;1;34;44m░▓▓[0;1;34;40m██[0;34m▌[0;1;34m█▄▄[0;34m▄▄[0m
 [32m ██████████████████████████████████[0;1;32;42m░▒[0;1;32;40m██[0m   [34m [0;1;34m███[0;1;34;44m▒░[0m         [34m▌  ▀[0;1;34m▀▌█████▀▓[0;1;34;44m▓▒[0;34m▄[0m
 [32m  ██████████████████████████████████[0;1;32;42m▒▓[0;1;32;40m█[0m    [1;34;40m████[0;1;34;44m░[0m             [35;44m░[0;1;34;40m▌█[0;1;37;40m███▄░[0;1;34;40m▄[0;1;34;44m▓▓▒░[0m
-[32m  ██████[0;1;33;42mcoder[0;32m████[0;1;33;42martist[0;32m█████[0;1;33;42mother[0;32m████[0;1;32;42m░▓[0m     [1;34;40m███[0;1;34;44m▓▒[0m              [34m▐[0;1;34m█[0;1;37m██[0;1;34m███[0;1;34;44m▓[0;34m▌[0;1;34;44m░[0m
+[32m  ██████[0;1;33;42m     [0;32m████[0;1;33;42m      [0;32m█████[0;1;33;42m     [0;32m████[0;1;32;42m░▓[0m     [1;34;40m███[0;1;34;44m▓▒[0m              [34m▐[0;1;34m█[0;1;37m██[0;1;34m███[0;1;34;44m▓[0;34m▌[0;1;34;44m░[0m
    [32m ████[0;1;37;42mdistro[0;32m███[0;1;33;42mmusician[0;32m███[0;1;33;42mexit[0;32m█████[0;1;32;42m░▓[0;1;32;40m██▌[0;32m [0;34m [0;1;34m███[0;1;34;44m▓▒[0m              [34m▐[0;1;34m████[0;1;34;44m▓▓░[0;34m▌▀[0m
    [32m  ████████████████████████████████[0;1;32;42m░▒▓[0;1;32;40m█▌[0;32m [0;34m [0;1;34;44m▓[0;1;34;40m███[0;1;34;44m░[0m              [1;34;44m░▓▓▓[0;1;34;40m█[0;1;34;44m▓▒░[0m
    [32m███████████████████████████████████[0;1;32;42m░▓▓[0;1;32;40m▌[0;32m [0;34m [0;1;34;44m▓[0;1;34;40m▌██[0;1;34;44m░[0m            [34m▄[0;1;34;44m░░[0;34m▀▀[0;1;34;44m░░[0;34m█▀[0m

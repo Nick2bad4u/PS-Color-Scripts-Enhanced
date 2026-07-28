@@ -5,7 +5,7 @@
 # Source SHA-256: 6e42514c472aec6752facf1809c33bbe7b223e3267e9faeb6e8cc6f6ef2b8826
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!ALIEN.ANS by sIMONkING (tHElo0p); released in l0p07_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: aLIEN foR eSIDE
 # SAUCE Author: sIMONkING
 # SAUCE Group: tHElo0p
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1mi belive ;)[0m                  [1;30;43m▄[0;33m███▄[0;1;30;43m▄[0;33m█[0;1;31;43m███[0;1;31;47m    [0;1;31;43m████████[0;1;31;47m██[0;1;31;43m████▄▄[0;33m█████[0;1;30;43m▄[0;33m▀[0;1;30m▀[0;33m▄[0;1;30;43m░▐[0;1;30;40m▌[0m  [1;30m▄[0m▄████
-[1mansi special for[0m           [1;30;43m▓░[0;33m█▄[0;1;30m▀[0;33m▀[0;1;30;43m▄░░[0;1;31;43m ▀▀██[0;1;31;47m▀▄▄[0;1;31;43m████████▀▀[0;33m█[0;1;30;43m▄▄▄[0;33m███[0;1;30;43m▄[0;1;30;40m▀[0m [33m▄▄[0;1;30;43m░░▄[0;1;30;40m▀▄▄[0;1;30;47m▀[0m██[1;30;47m▀[0;1;30;40m█▀[0m
+[1m                [0m           [1;30;43m▓░[0;33m█▄[0;1;30m▀[0;33m▀[0;1;30;43m▄░░[0;1;31;43m ▀▀██[0;1;31;47m▀▄▄[0;1;31;43m████████▀▀[0;33m█[0;1;30;43m▄▄▄[0;33m███[0;1;30;43m▄[0;1;30;40m▀[0m [33m▄▄[0;1;30;43m░░▄[0;1;30;40m▀▄▄[0;1;30;47m▀[0m██[1;30;47m▀[0;1;30;40m█▀[0m
 [1me-side/ex.dominio[0m           [1;30m▀[0;33m▀▀[0;1;30;43m▄[0;33m██▄▀[0;1;30;43m▄▄░░[0;33m██[0;1;31;43m▀██████▀[0;33m██[0;1;30;43m▓▓▓▀[0;33m█▀▀[0;1;30;43m▄[0;33m██▄█[0;1;30;43m░░▄[0;1;30;40m▀▄█[0;1;30;47m▌▄ ▄[0;1;30;40m█▀[0m
                   [1m▄[0;1;36;46m▀[0;1;36;40m▀[0;36m■[0m        [1;36m■▄[0;36m▄[0;37m [0;1;30m▀[0m     [1;30m▀[0;33m▀[0;1;30;43m▄[0;33m███[0;1;31;43m▀▀▌[0;33m█[0;1;30;43m▒▒[0;33m▀▀[0m      [1;30m▀[0;1;30;43m▄[0;33m█[0;1;30;43m░▄[0;1;30;40m▀▄█[0;1;30;47m▓▓[0;1;30;40m████▌[0m  [1m▄■[0m
 [1m"alien"[0m          [1;36;46m▐▌[0;36m▌[0m           [1;36m▐█[0;36m█[0m      [1;37m▄[0m  [1;30m▀[0;1;30;43m▌[0;33m████[0;1;30;43m░░[0;33m▌[0;37m  [0;1;37m▄[0m     [1;30m▄[0;1;30;43m▌[0;1;31;43m▄[0;1;30;40m▌[0m [1;30m██[0;1;30;47m███[0;1;30;40m█[0;1;30;47m▓▓▓[0;1;30;40m▄[0m

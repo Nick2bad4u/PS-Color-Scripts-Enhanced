@@ -5,7 +5,7 @@
 # Source SHA-256: ca859ddc49773359fe0126b003a0b7712e70ca671a1afecac67f82cc5f077584
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GN-L8R.ANS by Genocide (Pyro); released in pyro02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: A generous donation to the Public!
 # SAUCE Author: Genocide
 # SAUCE Group: Pyro
@@ -18,7 +18,7 @@ Write-Host '
               [1;34m▄▄▄▄░  ▐▌░▀■[0;1;33m░ [0;1;34m▄▄[0;1;34;46m▓▒░[0;36m▀▀▀   [0;1;34m▀▀▀[0;1;34;46m██[0;1;34;44m▓[0;1;34;40m▄▄▓[0m      [1;32m▄■[0m        [1mP Y R O[0m
 [1m   [0;34m░▄▄[0m      [1;34m■▀[0;36m░[0;1;34m░ ░▀▀▄░▀▄░ ▄[0;1;34;45m▓[0;1;34;40m▀▀   [0;1;31;40m▄▄▄[0;1;31;47m▓▓█[0;1;31;40m▄▄▄   [0;1;34;40m▀▀[0;1;34;47m▓[0;1;34;40m▄[0;1;34;46m▓[0;1;34;40m░[0;36m░ [0;1;32m▐▌  [0;32m"[0;1;32mWe[0;32m''[0;1;32mre gonna stick it[0m
 [1;32m [0;34m■▄▀░▓▀▄░    [0;1;34m▄[0;1;34;46m▓[0;1;34;45m▓[0;1;34;40m▄ [0;1;33;40m░ [0;1;34;40m▐▌▐▌▄█▀ [0;35m▄▄[0;1;31;45m░▒▓▓[0;1;31;40m▀▀▀▀▀▀▀[0;1;31;45m▓▒▒░[0;35m▄▄ [0;1;34m▀█[0;1;34;46m▓[0;36m▒[0;1;34m░ [0;1;32m▀ [0;1;33m░  [0;1;32mto ya face[0;32m"[0m
-[32m    [0;34m▐▌░▐▌  [0;1;34m▄[0;1;34;44m▓[0;1;34;40m▀  ▀█▄ ░▀▄[0;1;34;45m▓[0;1;34;40m▀ [0;35m▄▀▀[0m     [1;34m▄▄▄▄▄▄▄[0m     [35m▀▀▄ [0;1;34m▀[0;36m▒[0;1;34;46m▓▒[0;1;34;40m░ [0;1;33;40m▒[0m     [1;32mGenocide presents[0m
+[32m    [0;34m▐▌░▐▌  [0;1;34m▄[0;1;34;44m▓[0;1;34;40m▀  ▀█▄ ░▀▄[0;1;34;45m▓[0;1;34;40m▀ [0;35m▄▀▀[0m     [1;34m▄▄▄▄▄▄▄[0m     [35m▀▀▄ [0;1;34m▀[0;36m▒[0;1;34;46m▓▒[0;1;34;40m░ [0;1;33;40m▒[0m     [1;32m                 [0m
 [1;32m   [0;34m▄▀   ▀▄[0;1;34;44m▒[0;1;34;40m▀ [0;1;32;40m▄[0;1;32;47m▓▓[0;1;32;40m▄ [0;1;34;40m▀█▄▐█▌ [0;35m▐▌ [0;37m▄[0;1;34;47m░▒▓[0;1;34;40m██▓[0;36m▒[0;1;34;46m▓[0;1;34;40m▀▀▓[0;1;34;46m▓[0;1;34;47m▓[0;1;34;40m█[0;1;34;44m▓▒░[0;34m▄▄ [0;35m▀▄ [0;1;34m▀█▓░ [0;1;33m▓ ▄▀▀▄ [0;1;32ma ansi donated[0m
 [1;32m  [0;34m▐▌  [0;1;33m▄■[0;34m▐[0;1;34;44m░[0;1;34;40m▌ [0;1;32;40m▐[0;1;32;47m▓█[0;1;32;40m▀▐[0;1;32;46m▓[0m [1;34m▐██[0;1;34;47m▓[0m  [35m█  [0;1;34;47m▒▓[0;1;34;40m▒░  ▒[0;36m░[0;1;34;46m▒[0;1;34;40m░ [0;1;34;46m░▒░[0m [36m▓ [0;1;34m░[0;34m▀[0;1;34;44m░[0;34m▌ [0;35m▐▌ [0;1;34m▐█▒  [0;1;33m▀▄  ▐▌[0;1;32mto the public[0m
 [1;32m   [0;34m▀■[0;1;33m▐▌▄[0;1;34m░[0;1;34;44m▒▓[0m  [1;32m▀   [0;1;32;46m▒[0m  [1;34;44m▓[0;1;34;40m██  [0;1;30;45m░[0;35m▌ [0;37m▐[0;1;34;47m▒[0m▒[1;34m▒░   [0;1;34;46m░[0m [1;34m░░[0;1;34;46m░[0m [36m▒[0;1;34;46m░[0;1;34;40m░ ░[0;34m▐[0;1;34;44m▒[0m  [1;31;45m░[0m  [1;34;45m▓[0;1;34;40m█▓▒░[0;1;33;40m▐▌  ▀■[0;1;32;40mof OZ[0;32m. [0;1;32mUse it[0m

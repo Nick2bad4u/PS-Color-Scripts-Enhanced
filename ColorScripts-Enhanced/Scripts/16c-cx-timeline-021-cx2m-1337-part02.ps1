@@ -5,7 +5,7 @@
 # Source SHA-256: 1301b9c96a954860ec041a2e0b0caa7471582a7f5628522983978b59d7438759
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: [021] cx2m-1337.ans by Cyonx (cx-timeline); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20140129
 # SAUCE Dimensions: 80x70
 # SAUCE Font: IBM VGA
@@ -42,7 +42,7 @@ Write-Host '
                [1;30m│   ╒══[0;31m═[0;1;30m══════════[0;31m═[0;1;30m══════╛╘════════════════[0;31m▒▒[0;1;30m══╕   │[0m
                [31m╘[0;1;30m═══╡   [0;31m╒[0;1;30m════[0;31m═══[0;1;30m══════[0;31m═[0;1;30m══[0;31m════[0;1;30m═════[0;31m═══[0;1;30m═══[0;31m═[0;1;30m══╕   ╞[0;31m══[0;1;30m═╛[0m
                    [1;30m│   [0;31m│[0m        [35m [0;37m [0;36m  [0;1;37m [0;36m    [0;1;37m [0;36m   [0;1;37m [0;36m  [0;37m [0;35m [0m        [31m│   │[0m
-                   [1;30m╘[0;31m══[0;1;30m═╡ [0;35m2[0;37m0[0;36m14''s Premiere PabloDraw Serv[0;37me[0;35mr [0;1;30m╞═[0;31m══╛[0m
+                   [1;30m╘[0;31m══[0;1;30m═╡ [0;35m [0;37m [0;36m                            [0;37m [0;35m  [0;1;30m╞═[0;31m══╛[0m
                        [31m│[0m        [35m [0;37m [0;36m      [0;1;37m  [0;36m   [0;1;37m [0;36m  [0;37m [0;35m [0m        [1;30m│[0m
                        [1;30m╘═══[0;31m══[0;1;30m═══[0;31m╕ [0;35mS[0;37my[0;36msOp[0;1;37m: [0;36mRaDM[0;37ma[0;35mN [0;1;30m╒══[0;31m═══[0;1;30m═[0;31m═[0;1;30m══[0;31m╛[0m
                                 [1;30m╘═[0;31m══[0;1;30m═[0;31m═[0;1;30m═══════[0;31m═[0;1;30m══╛[0m'

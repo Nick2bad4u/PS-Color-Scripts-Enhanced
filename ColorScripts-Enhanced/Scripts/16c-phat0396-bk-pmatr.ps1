@@ -5,7 +5,7 @@
 # Source SHA-256: 80628376c10d20aa750019da9d8126d7627a6e9c8e8a186107e3a460b51d487f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-PMATR.ANS by blackknight (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: prototype Login Matrix
 # SAUCE Author: blackknight
 # SAUCE Group: READ THE INI FILE
@@ -33,7 +33,7 @@ Write-Host '
 [1;34m████████████ [0;33m▐██▀█▌[0;1;34m▐███████████████████ [0m▄[1;47m▄[0m▄                                ▄[1;47m▄[0m▄
 [1;34m████████▀▀▀ [0;33m▄▓▀██▀▀■ [0;1;34m██████████████████▄ [0m█     [1mprototype login matrix.[0m      █
 [1;34m▀▀▀▀▀▀ [0;1;32m▄▄[0;1;32;42m▓[0;1;32;40m▌[0;33m■▀ [0;32m▄ [0;33m▀ [0;1;32;42m░[0;32m▄▄ [0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;32m▄▄▄ [0m█                                  █ [1;32;42m▀[0m
-[1;32;42m▓█▀▓[0;1;32;40m▀▄[0;1;32;42m▓▀[0;32m███[0;1;32;42m░[0;32m█████████[0;1;32;42m░[0;32m▄[0;1;32m▀[0;1;32;42m▀░▀▀░░[0;1;33;42m▄[0;1;32;42m░░░▀░▀▀░[0;32m▀ [0;37m█  [0;1;37mdon''t rip it, that''d be pooor.  [0m█ [32m▀[0m
+[1;32;42m▓█▀▓[0;1;32;40m▀▄[0;1;32;42m▓▀[0;32m███[0;1;32;42m░[0;32m█████████[0;1;32;42m░[0;32m▄[0;1;32m▀[0;1;32;42m▀░▀▀░░[0;1;33;42m▄[0;1;32;42m░░░▀░▀▀░[0;32m▀ [0;37m█  [0;1;37m                                [0m█ [32m▀[0m
 [1;32;42m░[0;32m███[0;1;32;42m░░[0;32m█████████████████[0;1;32;42m░[0;32m▀[0;32;42m [0;32;40m█[0;1;33;42m▄[0;32m█[0;1;33;42m▀▓▀[0;32m█[0;1;33;42m▄[0;32m███[0;1;33;42m▄[0;32m█ [0;37m▀[0;1;37;47m▀[0m▀                                ▀[1;47m▀[0m▀
 [32m███[0;32;42m [0;32;40m███████████████████████[0;32;42m [0;1;33;42m▄[0;32m██[0;1;33;42m▄[0;32m████████ [0;37m▀[0;1;37;47m░[0m▄[1;47m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;47m▄[0m▄[1;47m░[0m▀ [32m█[0m
 [32m███████████████████████[0;1;33;42m▄[0;32m███[0;1;33;42m▀▓▀[0;32m█[0;32;42m [0;32;40m███[0;1;33;42m▀[0;32m█████▄▄ [0;37m▀ [0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;37m▀ [0;32m▄▄██[0m

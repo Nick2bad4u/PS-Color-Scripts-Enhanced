@@ -5,7 +5,7 @@
 # Source SHA-256: 30762d5edfb9abcd5d6a2c3bb8855276702d7e42215c39be4a4d5ffc5829962a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: c-wa-monkeypatrol.ans by warpus (BLENDER); released in blndr2020 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: monkey patrol
 # SAUCE Author: warpus
 # SAUCE Group: BLENDER
@@ -24,7 +24,7 @@ Write-Host '
 [37;40m████████████████████████████████████████████████████████████████████████████████[0m
 [37;40m██████████████████████████████[0;1;37;47mmonkeys[0m█[1;47mtravelling[0m████████████████████████████████
 ████████████████████████████████████████████████████████████████████████████████
-██████████████████████████████[1;47mthrough[0m█[1;47mdifferent[0m█[1;47mrealities[0m███████████████████████
+██████████████████████████████[1;47m       [0m█[1;47m         [0m█[1;47m         [0m███████████████████████
 ████████████████████████████████████████████████████████████████████████████████
 ██████████████████████████████[1;47m        [0m█[1;47m  [0m█[1;47m   [0m███████████████████████████████████
 ████████████████████████████████████████████████████████████████████████████████

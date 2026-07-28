@@ -5,7 +5,7 @@
 # Source SHA-256: 2fc4218aad185d76accb972604c4700bffda5804d8e5126c3c0623cd458c4f8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM!ED.ANS by blIndman (READ THE INI FILE); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ethereal Dreams
 # SAUCE Author: blIndman
 # SAUCE Group: READ THE INI FILE
@@ -26,7 +26,7 @@ Write-Host '
                           [1;30m      [0;1;31m▀[0;1;31;43m▓▒░░[0;33m▄▀[0;1;31;43m▒▓[0;1;31;40m▀[0;1;30;40m▒[0;1;31;43m█▓▒[0;33m▀[0;1;31m▄[0;1;31;43m▓░[0;33m▄[0;1;30m ▓[0m [1;30m  ▒[0m
                           [1;30m░ ░ ▄▄▄▄▄▄▄[0m [1;30m▄[0m [1;30m▄▄▓▄▄▓▀[0;1;31m▀▀▀[0;33m▀[0;1;30m▀█[0m [1;30m▄▄▓ ▒ ▓[0m
                           [1;30m▒[0m [1;30m▒ [0;34m▄▄▄▄▄[0;37m [0;1;30m▓▄▄▄▓ [0;34m▄▄▄▄▄■[0;1;37;44m [0;1;36;44m▄[0;1;37;44m [0;1;30;40m ▓▄▄▄▄▄▓ █[0m
-                        [1;30m  ▓[0m [1;30m▓[0m [1;34;44m [0;1;36;44m▄▄[0;1;37;44m [0;1;34;44m░[0;34m■▄▄▄▄▄[0;37m [0;1;37;44m  [0;1;34;44m░[0;1;37;44m  [0;1;30;40m [0;1;37;44m [0;1;36;44m▄[0;1;37;44m [0;34m■▄▄▄▄▄[0;1;30m ▒[0m [1;30m█[0m  [1mblInd[0;1;30m greets[0m [1;30mto[0m
+                        [1;30m  ▓[0m [1;30m▓[0m [1;34;44m [0;1;36;44m▄▄[0;1;37;44m [0;1;34;44m░[0;34m■▄▄▄▄▄[0;37m [0;1;37;44m  [0;1;34;44m░[0;1;37;44m  [0;1;30;40m [0;1;37;44m [0;1;36;44m▄[0;1;37;44m [0;34m■▄▄▄▄▄[0;1;30m ▒[0m [1;30m█[0m  [1m     [0;1;30m       [0m [1;30m  [0m
                       [1;31m▄▄■▀[0;1;30m▓[0m [1;30m█ [0;1;34;44m [0;1;36;44m█[0;1;34;44m░[0;1;37;44m [0;1;34;44m [0m [1;44m [0;1;36;44m▄[0;1;37;44m [0;1;36;44m▄[0;1;37;44m [0;1;30;40m [0;1;37;44m [0;1;36;44m▀[0;1;37;44m  [0;1;30;44m░[0;1;30;40m [0;1;37;44m [0;1;36;44m█[0;1;37;44m [0m [1;44m [0;1;36;44m▄[0;1;34;44m▒[0;1;36;44m▄[0;1;37;44m [0m [1;30m░[0m [1;30m█[0m  cyko[1;30m/[0msabotage[1;30m/[0m
                     [33m▄[0;1;31;43m░▒[0;1;30;43m▀[0;1;30;40m▀▄ [0m [1;30m█[0m [1;34;44m [0;1;36;44m█[0;1;34;44m░  [0m [1;44m [0;1;34;44m░[0;1;37;44m [0;1;36;44m█[0;1;37;44m [0m [1;44m [0;1;36;44m█[0;1;34;44m░[0;1;37;44m  [0m [1;44m [0;1;34;44m▒[0;1;37;44m [0m [1;44m [0;1;36;44m█[0;1;34;44m░[0;1;36;44m [0;1;37;44m [0m [1;30m▒[0m [1;30m█[0m  proze[1;30m/[0mstain[1;30m/[0m
                     [1;30m▄[0;1;30;43m▀[0;33m▀[0;37m [0;1;37m [0;1;30m▀ [0m [1;30m█[0m [1;34;44m [0;1;36;44m█[0;1;34;44m   [0m [1;44m   [0;1;36;44m█[0;1;37;44m [0m [1;44m [0;1;36;44m█[0;1;34;44m░[0;1;37;44m [0;1;30;44m░[0m [1;44m [0;1;34;44m░[0;1;30;44m░[0m [1;44m [0;1;36;44m█[0;1;34;44m░[0;1;37;44m  [0;1;30;40m ▓ █[0m  scorp[1;30m/[0mstimpy[1;30m/[0m

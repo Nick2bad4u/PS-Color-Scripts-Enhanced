@@ -5,7 +5,7 @@
 # Source SHA-256: 3e9201109495dd4874ce4b72cdd798c254a4dc9850b4482638eded905a42b692
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LOGO1.ANS by Kestrel + Wetworks + Putrid Carcass (Mistigris); released in mist0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Group Logo Colly. Woo!
 # SAUCE Author: KS / PC / WW
 # SAUCE Group: Mistigris
@@ -31,10 +31,10 @@ Write-Host '
 [1;35m.[0m          [1;30m░    [0;1;35m.[0m      [34m░[0m             [34m░  [0;1;30m░[0m       [1;37m███████▌[0;34m████▄▄▄▄▄▄███[0m
                                            [1;35m.[0m     [1;37m████▀[0;34m▄█[0;1;34;44m░[0;34m█████████████[0;1;37m▐[0;1;30m▄██[0m
        [1;37m-+- [0mY[1mum[0;1;30m![0mN[1met [0mM[1message [0mN[1metwork -+-[0m            [1m▀▀[0;1;34;44m▓▒░[0;34m█████████████▀[0;1;37m▄▄█[0;1;30m▓[0;1;37m▄[0m
-[1;35m  [0;35m.[0m                [37mW[0;1;37mide variety of echo topics[0m      [1;34;44m▓▒▒░[0;34m██████████▀[0;1;37m▄██▀▄█[0;1;37;47m▓[0m▌
-           [1;5;30m│[0m       including a F[1mree [0mS[1mpeech echo[0;1;30m,    [0;1;37m▄[0;34m▀█[0;1;34;44m▒░[0;34m█▀▀▀▀▀[0;1;37m▄▄▄▄██████[0;1;37;47m▓▒[0m
+[1;35m  [0;35m [0m                [37m [0;1;37m                          [0m      [1;34;44m▓▒▒░[0;34m██████████▀[0;1;37m▄██▀▄█[0;1;37;47m▓[0m▌
+           [1;5;30m│[0m                    [1m    [0m [1m          [0;1;30m     [0;1;37m▄[0;34m▀█[0;1;34;44m▒░[0;34m█▀▀▀▀▀[0;1;37m▄▄▄▄██████[0;1;37;47m▓▒[0m
            [5m│[0m       J[1mapanese [0mA[1mnimation[0;1;30m, [0mS[1mports[0;1;30m,[0m       [1;37m██▄▄▄██████████████[0;1;37;47m▓▒[0m▌   [35m.[0;37m [0m
-     [1;5;30m-·[0m──[1m─[0;1;33m─┼─[0;1;37m─[0m─[1;30m──[0m     G[1meneral [0mC[1mhat echos and much[0m     [1m███████████▄ ▄███[0;1;47m▓▒[0m▀
+     [1;5;30m  [0m──[1m─[0;1;33m─┼─[0;1;37m─[0m─[1;30m──[0m      [1m       [0m [1m                  [0m     [1m███████████▄ ▄███[0;1;47m▓▒[0m▀
            [5m│ [0;1;35m.[0m                               [1;37mmore[0;1;30m![0m     [1;37m███████████▌███[0;1;37;47m▓▒[0m▌[1m<p[0mC[1m·k[0mS[1m>[0m
 [1;35m.[0m          [1;5;30m│[0m                [35m.[0m         [35m.[0m             [1;35m.[0m        [35m.[0m        [1;35m.[0m
 

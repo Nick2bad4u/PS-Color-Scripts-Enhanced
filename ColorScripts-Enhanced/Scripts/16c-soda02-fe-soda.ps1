@@ -5,7 +5,7 @@
 # Source SHA-256: dd4ad8a9cf5f0d48587613a110072282222f4e52c068ba83a3a7039fac979088
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FE-SODA.ANS by funk-e (sodapop family); released in soda02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sodapop
 # SAUCE Author: funk-e
 # SAUCE Group: sodapop family
@@ -31,7 +31,7 @@ Write-Host '
 [34m [0;1;34;44m████████[0;34m█[0;1;34;44m▀███▀[0;34m███████▀▀▀[0m   [34m▀▀████████████████████████████████████████████[0m
 [34m [0;1;34;44m███▀██▀ [0;34m██████████▀[0m            [34m▀█████████████████████████████████████████[0m
 [34m [0;1;34;44m████████▄██▄[0;34m██████[0m               [34m▀▀██████████████████████████████████████[0m
-[34m [0;1;34;44m▀███▀[0;34m███[0;1;34;44m▀██▀[0;34m██████ [0m                 [34m▀██████[0;1;37;44msodapop makes me feel like [0;34m███[0m
+[34m [0;1;34;44m▀███▀[0;34m███[0;1;34;44m▀██▀[0;34m██████ [0m                 [34m▀██████[0;1;37;44m                           [0;34m███[0m
 [34m █[0;1;34;44m [0;34m██[0;1;34;44m▄█▄[0;34m███████████▌[0m                  [34m▐█████[0;1;37;44m      dancing tango[0;34m███████████[0m
 [34m █████[0;1;34;44m▀[0;34m████████████▌[0m                 [34m▄████████████████████████████████████[0m
 [34m █████[0;1;34;44m▄[0;34m█████████████[0m      [34m   [0m       [34m██████████████████████████████████████[0m

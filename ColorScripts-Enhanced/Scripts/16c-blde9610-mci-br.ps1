@@ -5,7 +5,7 @@
 # Source SHA-256: fe61c47e3c4015d115f2e68a29d98ec95fa3f31ca03cdafdc344ba3be6cd3363
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MCI-BR.ANS by mindcrime (blade productions); released in blde9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: breath e'zine
 # SAUCE Author: mindcrime
 # SAUCE Group: blade productions
@@ -33,5 +33,5 @@ Write-Host '
 [31m─   [0;1;37;45m░[0m    [1;30;40mb[0;1;35;40m░░░░░[0m       [1;37;43m░[0m    [1;30;40me[0;1;33;40m░░░░░[0m                 [1;37;41m░[0m   [1;30;40mh[0;1;31;40m░░░░░[0m      [1;37;45m░[0m    [1;30;40me[0;1;35;40m░░░░░ [0;31m─[0m
           [35m░░░░░[0m             [33m░░░░░[0m                      [31m░░░░░[0m            [35m░░░░░[0m
 [35m  [0;1;31m┐[0;31m─ [0;1;31m─   ─[0m                                                           [1;31m─   ─ [0;31m─[0;1;31m┌[0m
-[31m└[0;1;31m─┼─[0;31m────[0;1;31m─────────->─ [0;1;32m..[0;1;35mkick back[0;1;32m... [0;1;35mrelax[0;1;32m.. [0;1;35mjust breathe[0;1;32m.. [0;1;31m─<──────────[0;31m────[0;1;31m─┼─[0;31m┘[0m
+[31m└[0;1;31m─┼─[0;31m────[0;1;31m─────────  ─ [0;1;32m  [0;1;35m         [0;1;32m    [0;1;35m     [0;1;32m   [0;1;35m            [0;1;32m   [0;1;31m─ ──────────[0;31m────[0;1;31m─┼─[0;31m┘[0m
 [31m  | ─  ─[0m      [31m-[0m                                                 [31m-[0m      [31m─  ─ |[0m'

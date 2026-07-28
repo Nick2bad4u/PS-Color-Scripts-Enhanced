@@ -5,7 +5,7 @@
 # Source SHA-256: 1be1dc8d409eef33691d064aa4d8497bfdfebbfebf26994675fe0284a237743c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MESSAGE.ANS by Tank (ACiD Productions); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Electric Commune BBS Msg Center
 # SAUCE Author: Tank
 # SAUCE Group: ACiD Productions
@@ -29,7 +29,7 @@ Write-Host '
                     [34m▀[0;1;34;44m▀[0;1;34;46m▄[0;1;36;46m▀[0;1;36;40m▄[0m  [1;37m[[0mK[1;30m][0m [1;35mK[0;35mi[0;31ml[0;1;31ml[0m [1;35mM[0;35mes[0;31msa[0;1;31mg[0;1;33me[0m       [1;36;40m▄[0;1;36;46m▀[0;1;34;46m▄[0;1;34;44m▀[0;34m▀[0m
                    [34m▄[0;1;34;44m▄[0;1;34;46m▀[0;1;36;46m▄[0;1;36;40m▀[0m   [1;37m[[0mM[1;30m][0m [1;35mR[0;35me[0;31mp[0;1;31ml[0;1;33my[0m [1;35mT[0;35mo[0m [1;35mM[0;35mes[0;31msa[0;1;31mg[0;1;33me[0m    [1;36;40m▀[0;1;36;46m▄[0;1;34;46m▀[0;1;34;44m▄[0;34m▄[0m
                   [34m▀[0;1;34;44m▀[0;1;34;46m▄[0;1;36;46m▀[0;1;36;40m▄[0m    [1;37m[[0mA[1;30m][0m [1;35mA[0;35mr[0;31me[0;1;31ma[0m [1;35mC[0;35mha[0;31mn[0;1;31mg[0;1;33me[0m           [1;36;40m▀[0;1;36;46m▄[0;1;34;46m▀[0;1;34;44m▄[0;34m▄[0m
-                   [34m▄[0;1;34;44m▄[0;1;34;46m▀[0;1;36;46m▄[0;1;36;40m▀[0m   [1;37m[[0mF[1;30m][0m [1;35mF[0;35me[0;31me[0;1;31md[0m [1;35mB[0;35ma[0;31mc[0;1;31mk[0m [1;35mT[0;35mo[0m [1;35mS[0;35my[0;31ms[0;1;31mo[0;1;33mp[0m   [1;36;40m▄[0;1;36;46m▀[0;1;34;46m▄[0;1;34;44m▀[0;34m▀[0m
+                   [34m▄[0;1;34;44m▄[0;1;34;46m▀[0;1;36;46m▄[0;1;36;40m▀[0m   [1;37m [0m [1;30m [0m [1;35m [0;35m [0;31m [0;1;31m [0m [1;35m [0;35m [0;31m [0;1;31m [0m [1;35m [0;35m [0m [1;35m [0;35m [0;31m [0;1;31m [0;1;33m [0m   [1;36;40m▄[0;1;36;46m▀[0;1;34;46m▄[0;1;34;44m▀[0;34m▀[0m
                     [34m▀[0;1;34;44m▀[0;1;34;46m▄[0;1;36;46m▀[0;1;36;40m▄[0m  [1;37m[[0mQ[1;30m][0m [1;35mQ[0;35mu[0;31mi[0;1;31mt[0m [1;35mT[0;35mo[0m [1;35mM[0;35ma[0;31mi[0;1;31mn[0m [1;35mM[0;35me[0;31mn[0;1;31mu[0;1;33me[0m    [1;36;40m▀[0;1;36;46m▄[0;1;34;46m▀[0;1;34;44m▄[0;34m▄[0m
                      [34m▄[0;1;34;44m▄[0;1;34;46m▀[0;1;36;46m▄[0;1;36;40m▀[0m [1;37m[[0mG[1;30m][0m [1;35mG[0;35mo[0;31mo[0;1;31md[0m [1;35mB[0;35my[0;31me[0m         [1;36;40m▄[0m   [1;36;40m▄[0;1;36;46m▀[0;1;34;46m▄[0;1;34;44m▀[0;34m▀[0m
                     [34m▀[0;1;34;44m▀[0;1;34;46m▄[0;1;36;46m▀[0;1;36;40m▄[0m   [1;36;40m▄[0m   [1;36;40m▄[0m     [1;36;40m▄[0m [1;36;40m▄[0;1;36;46m▀[0;1;36;40m▄[0m   [1;36;40m▄[0;1;36;46m▀[0;1;34;46m▄[0;1;36;46m▀[0;1;36;40m▄[0;1;36;46m▀[0;1;34;46m▄[0;1;34;44m▀[0;34m▀[0m

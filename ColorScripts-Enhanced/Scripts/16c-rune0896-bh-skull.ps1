@@ -5,7 +5,7 @@
 # Source SHA-256: 6db9636e014f677cd93846b8c2eba582ed585a366676a94d943f3447fa946474
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BH-SKULL.ANS by blackehawke (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: skull island menu set
 # SAUCE Author: blackehawke
 # SAUCE Group: rune
@@ -24,7 +24,7 @@ Write-Host '
 [1;33;40m▐▌ ▄■▀ [0;32m▄[0;32;43m▓▓▓█[0;32;40m▄ ░    ░ [0;32;43m▓▒▓[0;32;40m░ [0;1;30;40m░ [0;32m░▀[0;32;43m▓█[0;32;40m▄[0;32;43m▓[0;32;40m▄▓[0;32;43m▓[0;32;40m▀ [0;1;30;47m▒░  ░    [0;1;37;47ms[0;1;30;47mK[0;30;47mULL          [0;1;37;47mi[0;1;30;47mS[0;30;47mLAND      [0;1;30;47m░▒▓█[0;1;30;40m▌[0m
 [1;30;40m [0;1;33;40m▀▐▌ [0;32m■▀  ▀▀▄▀[0;32;43m▓[0;32;40m▄[0;32;43m█[0;32;40m▄▄[0;32;43m█[0;32;40m▄[0;32;43m▓▓[0;32;40m▀░ [0;1;30;40m░   [0;32m░▄[0;32;43m▓[0;32;40m▓▀▀ [0;37;40m▄▄[0;1;30;47m░░  ░                                 ░▒▓[0;1;30;40m▀[0m
 [1;30;40m▓ [0;1;33;40m▀ [0;1;37;40m▄▄▄[0;1;37;47m░ [0m▄▄▄[32m▀░ ▀▀[0;32;43m▓[0;32;40m▀[0;32;43m▓█[0;32;40m▄░   ░▄[0;32;43m▓█[0;32;40m▀ [0;1;30;40m▄▄[0;1;30;47m▒░░   [0;33;47m([0;1;37;47mc[0;33;47m)[0;1;30;47mo[0;30;47mmmand                          [0;1;30;47m░▒[0;1;30;40m▀▓▄[0m
-[1;30;40m [0;1;37;40m▄[0;1;37;47m█▓▒▒░     [0;1;30;47m░▒[0;1;30;40m▄ ■▄ [0;32m░▀[0;32;43m▓██[0;32;40m▄[0;32;43m▓█[0;32;40m▀▀ [0;1;30;40m▄[0;1;30;47m▓▒░░          [0;30;47mdo whatever ya want for      [0;1;30;47m░[0;30;47m■[0;37;40m▄[0;1;30;47m░▐[0;1;30;40m▌[0m
+[1;30;40m [0;1;37;40m▄[0;1;37;47m█▓▒▒░     [0;1;30;47m░▒[0;1;30;40m▄ ■▄ [0;32m░▀[0;32;43m▓██[0;32;40m▄[0;32;43m▓█[0;32;40m▀▀ [0;1;30;40m▄[0;1;30;47m▓▒░░          [0;30;47m                             [0;1;30;47m░[0;30;47m■[0;37;40m▄[0;1;30;47m░▐[0;1;30;40m▌[0m
 [1;37;47m█▓▒▒░░     [0;1;30;47m░ ░▒▓[0m [1;30;40m▓ [0;32m■▄[0;32;43m█▓[0;32;40m▀▀▀░ [0;1;30;47m██▓▒░            [0;30;47mthese options. -bh             [0;1;30;47m░ ░█[0m
 [1;37;40m▐[0;1;37;47m▒▒░      [0;1;30;47m░ ░▒▓[0;1;30;40m▌▐[0;1;30;47m█▓[0;1;30;40m▄▄▄  ▐▄▄▄[0;1;30;47m█▓▒░                                           [0;30;47m■ [0;1;30;47m░▐[0;1;30;40m▌[0m
 [1;30;40m [0;1;37;40m▀▄  [0m▄▀ ▀▄   [1;30m▄▀ [0;1;30;47m█▓█▓▓██[0;1;30;40m▄░▀[0;1;30;47m██▓▒▒░░        [0;30;47m░                                  [0;37;40m▄[0;1;30;40m▀▀[0m

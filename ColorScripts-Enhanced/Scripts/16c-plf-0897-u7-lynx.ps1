@@ -5,7 +5,7 @@
 # Source SHA-256: f0ea26744dbcc8d56aa788b689e1c796bc8c1c0c81b9811dcec782d4fc3103c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: U7-LYNX.ANS by undertaker (poffelipoff); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lYNX bABY!@@
 # SAUCE Author: undertaker
 # SAUCE Group: poffelipoff
@@ -18,11 +18,11 @@ Write-Host '
       [1;33mL y n x [0m        [1;30m  [0;1;37m█████████▄▄▄█▀▀█[0;1;37;47m▓▓[0;1;37;40m█[0;1;37;47m▒▒░░  [0;1;30;47m▀▀[0;1;30;40m██[0;1;37;40m░[0m        [1;33mL y n x [0m
 [1m─────────────────────[0m [1;30m █[0;1;37;47m▒[0;1;37;40m████████████████▄████████[0;1;37;47m█  [0;1;37;40m░[0m  [1m─────────────────────[0m
                        [1;30m█[0;1;37;47m ▀▀▀▀[0;1;37;40m██[0m█▀▀[1m███████████[0;1;47m███[0;1;40m████[0m█[1;30m░[0;1;33m [0;1;30m  [0m
-    [1ma[0mffils [1mh[0mere         ▄▄[1;30m   ▄[0;1;33m▄▄▄▄▄[0;1;30m▄[0;1;37m▀▀[0;1;37;47m▀[0;1;37;40m████████████[0;1;37;47m▓[0m█[1;30m▒[0;1;33m [0;1;30m [0m   [1mc[0mommands [1mh[0mere
-    [1ma[0mffils [1mh[0mere         [1;30;47m░░[0;1;30;40m [0m░[1;33;47m ▄▄[0;1;33;40m██████▄ [0;1;37;40m█[0;1;37;41m███[0;1;37;40m ███████[0;1;37;47m▓[0m█[1;30m▒[0;1;33m [0m    [1mc[0mommands [1mh[0mere
-    [1ma[0mffils [1mh[0mere       [1;30m  [0;1;30;47m▒▒[0;1;30;40m [0m░[1;33;47m▐[0;1;33;40m████████[0;1;33;47m▌[0;1;33;40m [0;1;37;40m██▄▄ ▄██████[0;1;37;47m▒[0m█[1;30m▓[0;1;33m [0m    [1mc[0mommands [1mh[0mere
-    [1ma[0mffils [1mh[0mere       [1;30m░█[0;1;30;47m▓▓[0;1;30;40m▄▄[0;1;33;40m ▄███[0;1;33;47m▓▓[0;1;33;40m█[0;1;33;47m█▌[0;1;33;40m [0;1;37;47m ▀▀▀[0;1;37;40m ███████[0;1;37;47m▒ [0;1;30;40m▓[0;1;33;40m [0m    [1mc[0mommands [1mh[0mere
-    [1ma[0mffils [1mh[0mere       [1;30m░█████▄[0m [1;33m▀▀█▀██[0;1;33;47m▀ [0;1;33;40m  ▄▄ [0;1;37;40m ░██████[0;1;37;47m░ [0;1;30;40m█[0;1;33;40m  [0m   [1mc[0mommands [1mh[0mere
+    [1m [0m      [1m [0m            ▄▄[1;30m   ▄[0;1;33m▄▄▄▄▄[0;1;30m▄[0;1;37m▀▀[0;1;37;47m▀[0;1;37;40m████████████[0;1;37;47m▓[0m█[1;30m▒[0;1;33m [0;1;30m [0m   [1m [0m        [1m [0m   
+    [1m [0m      [1m [0m            [1;30;47m░░[0;1;30;40m [0m░[1;33;47m ▄▄[0;1;33;40m██████▄ [0;1;37;40m█[0;1;37;41m███[0;1;37;40m ███████[0;1;37;47m▓[0m█[1;30m▒[0;1;33m [0m    [1m [0m        [1m [0m   
+    [1m [0m      [1m [0m          [1;30m  [0;1;30;47m▒▒[0;1;30;40m [0m░[1;33;47m▐[0;1;33;40m████████[0;1;33;47m▌[0;1;33;40m [0;1;37;40m██▄▄ ▄██████[0;1;37;47m▒[0m█[1;30m▓[0;1;33m [0m    [1m [0m        [1m [0m   
+    [1m [0m      [1m [0m          [1;30m░█[0;1;30;47m▓▓[0;1;30;40m▄▄[0;1;33;40m ▄███[0;1;33;47m▓▓[0;1;33;40m█[0;1;33;47m█▌[0;1;33;40m [0;1;37;47m ▀▀▀[0;1;37;40m ███████[0;1;37;47m▒ [0;1;30;40m▓[0;1;33;40m [0m    [1m [0m        [1m [0m   
+    [1m [0m      [1m [0m          [1;30m░█████▄[0m [1;33m▀▀█▀██[0;1;33;47m▀ [0;1;33;40m  ▄▄ [0;1;37;40m ░██████[0;1;37;47m░ [0;1;30;40m█[0;1;33;40m  [0m   [1m [0m        [1m [0m   
                        [1;30m██████▌[0m▐[1;47m▄█[0;1;33;47m██▌[0;1;30;40m▀▀[0m [1;33;47m▐[0;1;33;40m█[0;1;33;47m█ [0;1;33;40m [0m▀▀[1m▀██[0;1;47m▀▀  [0;1;30;40m█[0;1;33;40m  [0m
                        [1;30m██████▌[0m▐[1m█[0;1;47m█[0;1;33;40m███[0m░[1;33m   ▀[0;1;33;47m▀[0;1;33;40m [0;1;33;47m▄▄▄[0m██ [1;33m▄▄ [0m▀[1;30m▀[0m  [1;33m ▄▄▀[0m [1;31m▄[0m    [1;33m▄ [0m  [31m [0;1;31m▄[0m [1;33m▀▄▄▄[0m
                        [1;30m██████▌[0m▐[1;33;47m▀▀▀█[0;1;33;40m█[0m░   [1;33;47m ▄[0;1;33;40m████[0m▌█▐[1;33m█[0;1;33;47m█▄▄[0;1;33;40m░[0m  [1;33;43m▐█[0;1;33;40m [0m [31m▀[0;1;33m [0;33m▄[0;1;33m▄███▌[0;1;33;43m▓▄[0;33m▄[0;37m [0;31m▀[0;37m [0;1;33m ▄█[0m

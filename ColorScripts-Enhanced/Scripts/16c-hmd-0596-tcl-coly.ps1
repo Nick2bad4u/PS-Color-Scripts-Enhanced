@@ -5,7 +5,7 @@
 # Source SHA-256: c2bf0c7c1af9a7c7b6f07cdba5dec2bbad3f13212434f31d2e1a48a39772ed2c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TCL-COLY.ANS by tical (hUMID); released in hmd-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bp, rare soma
 # SAUCE Author: tical
 # SAUCE Group: hUMID
@@ -34,7 +34,7 @@ Write-Host '
         [1;30m▀███▄   [0;1;37m▀▀▀▀▀▀▀▀  [0;1;30m▄▄ [0;1;37m▀▀▀▀▀▀▀▀ [0;1;30m▄ [0;1;37m▀▀▀▀ [0;1;30m▄▄ [0;1;37m█[0;1;36m█[0;1;37m█▌   ▀▀▀▀▀▀▀▀ [0;1;30m▄▄▄███▀[0m
           [1;30m▀▀███▄▄▄▄▄▄▄▄▄██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄ [0;1;37m▀▀▀▀ [0;1;30m▓▀▀▀▀▀▀▀▀▀█▀[0m
              [1;30m█ [0m▄▄▄▄▄▄▄▄▄▄▄▄[47m██████████████████[0;40m▄▄▄▄[0;47m████[0;40m▄▄▄[0;47m███████[0;40m [0;1;30;40m█[0m
-             [1;30;47m▓▓░[0;47m██[0;1;33;47mbirdhouse projeks[0;47m█████████████[0;1;47m- tcl[0;36;47m([0;1;36;47mhumid[0;36;47m)[0;37;47m█[0;1;30;47m░░▓[0;1;30;40m█[0m
+             [1;30;47m▓▓░[0;47m██[0;1;33;47m                 [0;47m█████████████[0;1;47m     [0;36;47m [0;1;36;47m     [0;36;47m [0;37;47m█[0;1;30;47m░░▓[0;1;30;40m█[0m
              [1;30m█▄▄ [0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [1;30m▄▄█[0m
                [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 

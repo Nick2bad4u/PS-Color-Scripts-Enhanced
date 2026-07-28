@@ -5,7 +5,7 @@
 # Source SHA-256: 0210325375c846820c56c2963ce319b34a7f6101f11e0812ff13d14df98b3f55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-21GB.ANS by Zeus II (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Goodbye for ITC 2.1
 # SAUCE Author: Zeus II
 # SAUCE Group: Opium
@@ -38,7 +38,7 @@ Write-Host '
  [34m▐[0;30;44m░▒[0;34;40m▀▀ ▀▀[0;30;44m░░[0;34;40m▀▄▀[0;30;44m░░[0;34;40m▄ [0;30;44m░░[0;33;40m▀[0;30;43m░[0;33;40m▄[0;30;43m░[0;33;40m▀▀█▄██▄▀▐███▀▀▀▄[0;1;31;43m▒[0;33m▄[0;34m▀▓▓[0;37m [0;34m▓█ ▓▀█[0;33m■▄▄[0;37m ▀██████████████████████[0;1;30;47m░[0m
  [34m▄▀[0;33m▄[0;1;30;43m▒░[0;33m███▄[0;34m▀[0;30;44m░[0;34;40m ▀[0;37;40m [0;30;44m░[0;34;40m▀█▄ [0;30;44m░[0;33;40m [0;30;43m░░[0;33;40m██▄▄▄████▄▄▄█▀▀[0;1;31;43m░░░[0;33m▌[0;34m▐▓▌▐▓▒▄█▌▌[0;1;30;43m▒▒▒[0;33m▄[0;37m █[0;1;37;47m [0m█[30;47mG[0;37;40m█[0;30;47mO[0;37;40m█[0;30;47mO[0;37;40m█[0;30;47mD[0;37;40m█[0;30;47mB[0;37;40m█[0;30;47mY[0;37;40m█[0;30;47mE[0;37;40m█[0;30;47m![0;37;40m███[0;1;30;47m░[0m
   [1;30;43m▒▒░[0;33m██████[0;34m▐[0;30;44m░[0;34;40m░▄██ ░█ [0;30;44m░[0;33;40m ███████████▄▄▄█████[0;37;40m [0;34;40m██░██ ██[0;37;40m [0;34;40m█[0;33;40m▐[0;1;30;43m▒▒▒[0m █████████████████████[1;30;47m░[0m
- [1;30;43m▒▒░[0;33m███[0;1;31;43m░░[0;33m█▌[0;34m█[0;30;44m░[0;34;40m▓███▓█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;37m [0;33m████████████████[0;1;31;43m░░[0m [34m██▓██[0;1;34;44m░[0;34m██▄▐[0;33m▐[0;1;30;43m░░▒[0;33m▌[0;37m▐[0;30;47mcall back some day. [0;1;30;47m░[0m
+ [1;30;43m▒▒░[0;33m███[0;1;31;43m░░[0;33m█▌[0;34m█[0;30;44m░[0;34;40m▓███▓█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;37m [0;33m████████████████[0;1;31;43m░░[0m [34m██▓██[0;1;34;44m░[0;34m██▄▐[0;33m▐[0;1;30;43m░░▒[0;33m▌[0;37m▐[0;30;47m                    [0;1;30;47m░[0m
 [33m▐[0;1;30;43m░░[0;33m███[0;1;31;43m░░[0;33m██▌[0;34m█████[0;1;34;44m░░░░░░[0;34m█▌[0;33m▐[0;1;31;43m░░░░[0;33m████▀████[0;1;31;43m░░░▒[0;33m▌[0;34m▐▓██[0;1;34;44m░▒▒▒[0;34m██▄[0;33m▀[0;1;30;43m░░[0;33m▌[0;37m▐[0;1;37;47m [0m█[30;47m [0;37;40m████████████[0;1;37;47m [0m████[1;30;47m▒[0m
 [1;30;43m░░[0;33m████[0;1;31;43m░░[0;33m██▌[0;34m█▀████[0;1;34;44m░▒▒▒▒▒[0;34m██[0;37m [0;33m▀[0;1;31;43m▒▒▒░[0;33m███▄▀ ██[0;1;31;43m▒▒▒[0;33m▌[0;34m▐███[0;1;34;44m░▒▓▓▓  [0;34m█[0;37m [0;1;30;43m░[0;33m▌[0;37m▐████████████████████[0;1;30;47m▒[0m
 [1;30;43m░[0;33m████[0;1;31;43m░░[0;33m███[0;34m ▀▄█[0;1;34;44m ░░▒▓▓▓▓▓▒[0;34m███[0;37m [0;1;31;43m▓▓▓▒░░[0;33m██ ██[0;1;31;43m░▒▒[0m [34m███[0;1;34;44m░▒▓▓▓▓▓[0;34m███[0;33m▀▌[0;37m▐▄███████████████████[0;1;30;47m▒[0m

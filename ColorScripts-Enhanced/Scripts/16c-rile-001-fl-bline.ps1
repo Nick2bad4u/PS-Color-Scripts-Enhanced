@@ -5,7 +5,7 @@
 # Source SHA-256: 604b84c917217f95602f84b89f6536e50541a82696576b94f482b096df339358
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-BLINE.ANS by flame (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bloodline, +o vade
 # SAUCE Author: flame
 # SAUCE Group: rile
@@ -36,7 +36,7 @@ Write-Host '
 [37m  [0;1;31;41m▐▌[0;31m▌[0;35m▐███▄█[0;31m▀[0;1;31m▒[0;31m█[0;1;31;41m░░[0;31m▄▄░▀[0;1;31;41m░▀[0;1;31;40m▒[0;1;31;41m▄[0;31;47m▒[0;1;31;41m▀[0;31m██▌▄[0;35m  [0;37m [0;1;31;41m▄█[0;1;31;40m▀[0;31m [0m       [31m   [0m   [31m▀[0;37m [0;31m░▒▓▓▓[0;1;31m▒▒[0;31m█▄▄▄▄▄▄▄[0;30;41m▓[0;31;40m░[0m
 [37;40m  [0;31;40m▀[0;35;40m ▄[0;1;31;45m▄▄█[0;1;31;47m█▀[0;1;31;45m█▄[0;35m█[0;31m▀█████▄█▀[0;1;31;47m▓[0;31;47m▓[0;1;31;41m░[0;31m▄▄░[0;35m [0;31m▀▀[0;35m [0;37m [0;1;31m▒[0;31m▌  ░[0m      [31m   [0m       [31m░[0;30;41m▓▓[0;31;40m░░░░▀▀▀[0m
 [37;40m  [0;35;40m█[0;1;31;40m▄[0;1;31;45m█[0;1;31;47m▀ ▀[0;1;35;47m [0;1;31;47m▓▀▓[0;1;31;45m█▄[0;35m▌[0;31m▄[0;35;41m▀[0;31;40m█████[0;1;31;40m▐[0;1;31;41m▌▐▀▀[0;31m██▓▄[0;35m  [0m   [31m           [0m
-[37m [0;35m▐[0;1;31;45m▐█[0;1;31;47m▌▄▌[0;1;34;47m [0;1;31;47m▀ ▄▀▀[0;1;31;45m█▌[0;1;31;40m▒[0;31m█▄████[0;35m [0;1;31;41m▀[0;1;35;41m [0;1;31;41m▐▀▀[0;1;35;41m [0;31m█▓[0;37m  [0;31m░[0m          [35m     [0;37m [0;35mbloodline[0;1;31m..[0;35m pumped by vade79[0;1;31m.[0m
+[37m [0;35m▐[0;1;31;45m▐█[0;1;31;47m▌▄▌[0;1;34;47m [0;1;31;47m▀ ▄▀▀[0;1;31;45m█▌[0;1;31;40m▒[0;31m█▄████[0;35m [0;1;31;41m▀[0;1;35;41m [0;1;31;41m▐▀▀[0;1;35;41m [0;31m█▓[0;37m  [0;31m░[0m          [35m     [0;37m [0;35m         [0;1;31m  [0;35m                 [0;1;31m [0m
  [35m▄[0;1;31;45m██[0;1;31;47m▓[0;1;31;45m█[0;1;31;47m░▄ ▐▌▄[0;1;31;45m███[0;35;41m░[0;31;45m█[0;31;40m█▌███▄▒[0;1;35;41m  [0;1;31;41m▐[0;1;31;47m▀[0;1;31;41m▒[0;31m██[0;37m  [0;31m░[0m
 [37m [0;1;35;45m [0;1;31;45m███[0;1;31;47m█▐[0;1;31;45m█[0;1;31;47m ▓▓[0;1;31;45m███▀[0;35;41m▄▄[0;31;40m█[0;35;41m█[0;31;41mflam[0;31;40m▄▌▐▀███▒[0m
 [31;40m  [0;35;40m▀[0;1;31;45m▀[0;1;31;40m▓[0;1;31;45m███[0;1;31;47m▐[0;1;31;41m█[0;1;37;41m░░[0;1;31;40m▀[0;35m█[0;35;41m▀▐▌[0;31;40m█[0;35;41m█[0;31;40m█▀▐████▄█▄▄[0;35;40m [0m   [32;40m [0m

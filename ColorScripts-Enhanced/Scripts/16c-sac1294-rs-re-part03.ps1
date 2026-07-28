@@ -5,7 +5,7 @@
 # Source SHA-256: 2b98aff72b59899345798a3c106d68046ce3afab9db6a05dda1dff319b493834
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-RE.ANS by raiser; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: RAVERS END logon
 # SAUCE Author: RAISER
 # SAUCE Group: READ THE INI FILE
@@ -42,7 +42,7 @@ Write-Host '
 [1;30m▒▒░░░▒░[0m [1;30m░░[0m [1;30m░[0m [1;30m░[0m [1;30m░░[0m [1;30m▒[0m [1;30m░░[0m [1;30m▒░░[0m [1;30m░[0m [1;30m▒▒[0m   [1;30m░░[0m  [1;30m░░░[0m  [1;30m░[0m     [1;30m░▒░[0m [1;30m░░[0m [1;30m░░▒░░[0m    [1;30m░ ░░░░░[0m [1;30m░[0m [1;30m░░▒▓[0m
 [1;30m░░░ ░ ░[0m [1;30m░░░░░░░░░▒▒▒░░▒░▒░░░░[0m [1;30m░▒░░[0m [1;30m░[0m [1;30m░░░░░▒[0m [1;30m░[0m [1;30m░░░▒▒▒░░[0m [1;30m░[0m [1;30m▒▒▒░░[0m [1;30m░[0m [1;30m░░░░░░[0m [1;30m░░░[0m [1;30m░░▒[0m
 [1;30m ░░ ░░░░░░░[0m [1;30m░[0m [1;30m░░░░▒░░░░░░▒░░[0m [1;30m░[0m [1;30m░░[0m [1;30m░[0m [1;30m░░░░▒░[0m  [1;30m░░░░░░░[0m [1;30m░[0m  [1;30m░░  ░[0m [1;30m░░░[0m [1;30m░░ ░░░░░░░[0m [1;30m░░░[0m
- [1;30m ░   ░ ░[0m  [1;30m░[0m [1;30m░░[0m [1;30m░[0m [1;30m  ░[0m [1;30m░░░ ANSI BY RAiSER OF ·SAC·[0m [1;30m;-) ░[0m [1;30m░[0m   [1;30m░░[0m [1;30m░[0m [1;30m░░[0m [1;30m░░[0m [1;30m [0m     [1;30m░[0m
+ [1;30m ░   ░ ░[0m  [1;30m░[0m [1;30m░░[0m [1;30m░[0m [1;30m  ░[0m [1;30m░░░                        [0m [1;30m    ░[0m [1;30m░[0m   [1;30m░░[0m [1;30m░[0m [1;30m░░[0m [1;30m░░[0m [1;30m [0m     [1;30m░[0m
  [1;30m  [0m    [1;30m░[0m [1;30m░▒ ░ [0m [1;30m       ░[0m [1;30m░░[0m  [1;30m░[0m [1;30m░[0m [1;30m  ░░[0m   [1;30m░░[0m   [1;30m░[0m [1;30m░░[0m [1;30m░░[0m      [1;30m░[0m      [1;30m░[0m  [1;30m░[0m  [1;30m [0m       [1;30m░[0m
 [1;33m▀▀▀▀▀[0;32m▀[0;1;33m▀[0;32m▀▀▀▀▀▀▀[0;1;30m▀[0;32m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;32m▀[0;1;30m▀[0;32m▀▀▀▀▀▀▀[0;1;33m▀[0;32m▀[0;1;33m▀▀▀▀▀[0m
 [32m▀▄▄[0;1;30;42m▒░[0;32m▄█▀[0m                                                          [32m▄▄[0m    [32m▀[0;1;30;42m░[0;32m▀▄▄ [0;37m [0m

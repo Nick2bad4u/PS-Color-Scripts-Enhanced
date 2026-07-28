@@ -5,7 +5,7 @@
 # Source SHA-256: beea3af60e462d029397cdca464e48acebacbf62b56e46e64b5f2b771f72253e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DSUN1.ANS by Aphex Twin + Dr Tongue (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dark Sun World
 # SAUCE Author: Multiple Artists
 # SAUCE Group: ACiD Productions
@@ -24,7 +24,7 @@ Write-Host '
                   [1;33;43m▒░░[0;33m█[0;33;43m [0;1;33;43m░[0m    [33m░   ░   [0;37m█    ▀▄ ▀    [0;33m░  [0;1;33;43m░  ░░▒[0m  [33m░[0m
                  [1;33;43m▓▒▒░░░[0;33m██▄[0m           [37m▀▄▄▄▄ ▀▄[0m     [33m▄[0;33;43m  [0;1;33;43m░░░▒▒▓[0m [1;30;40m▀[0m
                 [1;33;43m██▓▓▒[0;1;33;40m▀[0;33m▀▀[0m                            [33m▀▀[0;1;33m▀[0;1;33;43m▒▓▓██[0m▀   ▀
-               [1;33m▐[0;1;33;43m██[0;1;33;40m▀[0m      aphex twin  and  dr. tongue     [1;33m▀[0;1;33;43m█[0;1;33;47m▀[0;1;37;47m▓[0m▄▀
+               [1;33m▐[0;1;33;43m██[0;1;33;40m▀[0m                                      [1;33m▀[0;1;33;43m█[0;1;33;47m▀[0;1;37;47m▓[0m▄▀
                [1;33m▀[0m           [1;37m[Gothic][0m       [1;37m<ACiD>    [0;1;30m▀  [0m▀ ▀ [1m▀▀[0;1;47m▀[0m [1;40m▀ [0m▀   [1;30m▀[0m
                                                           [1;30m▀ [0;1;37;47m▓[0m  ▄
                                                             [1;47m▒[0m   ▀

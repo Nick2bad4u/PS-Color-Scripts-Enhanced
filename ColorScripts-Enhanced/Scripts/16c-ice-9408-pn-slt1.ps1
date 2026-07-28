@@ -5,7 +5,7 @@
 # Source SHA-256: 0e1bbcf06dbfafd4b1c3dd94188ddd3a19465d48d91c5666838ad10a7b16481b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PN-SLT1.ICE by Pnakotic (iCE); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Straylight Couriers
 # SAUCE Author: Pnakotic
 # SAUCE Group: iCE
@@ -57,4 +57,4 @@ Write-Host '
 [37m█[0;1;37;47m░[0m██▌[34m▌[0;37m▓▒▒░[0;1;30m▌ [0;34m██[0;1;34;44m░░▓░[0;34m▐█ ▐▀ ▒  ■[0m                [34m▓[0m      [34m░[0m     [34m▄[0;36m▀▓▒▐[0m         [36m▌▒▓▀[0;34m▄[0m
 [37m█[0;1;37;47m░[0m██ [1;34;44m■[0;34m▄[0;1;30m▀▀[0;34m▄▄█[0;1;34;44m░[0;34m▀[0;1;34;44m■▀[0;34m▀▒[0;34;44m  [0;1;34;44m░[0;34m▄ ░▓ ▄[0m                 [34m▒[0m            [34m▐  [0;36m▀▄▌[0m       [36m▐▄▀[0;34m░▓▌[0m
 [37m█▀▀▄[0;34m▐[0;1;34;44m▓░[0;34m██▓██[0;34;44m [0;34;40m█▄▄▓[0;34;44m  [0;34;40m██[0;1;34;44m▒■░[0;34m█[0m                   [34m░[0m                 [36m▀[0m       [36m▀   [0;34m░▌[0m
-[37m▄█▀[0;34m▄[0;1;34;44m▒░  [0;34m██▄[0;1;34;44m░░[0;34m█████▓▄▀█[0;1;34;44m▓▄■[0;34m▌[0;1;37mStraylight Couriers[0;1;36m.[0;36m.[0m           [36m.[0;1;36m.[0;1;37m08 16 94 [0m── [1mPN [0;34m▌[0;1;37mi[0;1;36mC[0;36mE[0;37m [0m'
+[37m▄█▀[0;34m▄[0;1;34;44m▒░  [0;34m██▄[0;1;34;44m░░[0;34m█████▓▄▀█[0;1;34;44m▓▄■[0;34m▌[0;1;37m                   [0;1;36m [0;36m [0m           [36m [0;1;36m [0;1;37m         [0m── [1m   [0;34m▌[0;1;37m [0;1;36m [0;36m [0;37m [0m'

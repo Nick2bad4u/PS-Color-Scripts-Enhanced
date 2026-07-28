@@ -5,7 +5,7 @@
 # Source SHA-256: 61f60eb3133c131711e68b78dab45000191ca707a96e6fc94b9a71d659cd933c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VLD-POIS.ANS by Velodrome (sense10j); released in sense10j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-16
 # Columns: 1-80
 
@@ -23,6 +23,6 @@ Write-Host '
 [37m [0;33m▀[0;37m  [0;33m ▄  ▀[0m      [32m▀[0;1;32;42m▒░[0;32m▀▀     [0;33m░▒░[0;32m   [0m        [32m▀ [0;1;32;42m▒▓[0;32m▌ [0;37m   [0;1;32;42m█▓░[0;32m [0m       [32m [0m                [32m▄[0;37m [0;33m▀[0m
                [32m [0;1;32m█[0;1;32;42m▒[0;1;32;40m [0;32m            [0m          [32m▐[0;1;32;42m▒░[0;32m▄   [0;1;32m▐[0;1;32;42m█▒[0;32m▌[0;37m  [0;1;32mP[0;32m O I [0;1;33mS[0;32mO N[0;33m![0m           [32m▀[0m
                 [1;32m [0;32m            [0m             [32m▀[0;1;32;42m░░░[0;32m█[0;1;32m▄▄[0;1;32;42m▓▒░[0m                     [32m▄[0;37m [0;32m▀[0;37m [0;32m [0m
-                [1;32m  [0m [33msure beats toxic waste..[0;37m  [0;32m▀▀▀▀▀▀[0;1;32;42m░[0;32m▌[0m       [32m [0m   [32m [0m   [32m▄[0;37m  [0;32m▀[0m   [1;32mV[0;32mld[0;33m![0m
+                [1;32m  [0m [33m                        [0;37m  [0;32m▀▀▀▀▀▀[0;1;32;42m░[0;32m▌[0m       [32m [0m   [32m [0m   [32m▄[0;37m  [0;32m▀[0m   [1;32m [0;32m  [0;33m [0m
                 [1;32m  [0m        [32m  [0m                        [32m▌[0m    [32m▄▄▄    ▀▀  [0m
                 [1;32m [0m                                   [32m▀[0m'

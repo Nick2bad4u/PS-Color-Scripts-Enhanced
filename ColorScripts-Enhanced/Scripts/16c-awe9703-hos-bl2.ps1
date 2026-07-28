@@ -5,7 +5,7 @@
 # Source SHA-256: d31ee2585fcb9fe5ad839589ee77ec01ca73fe2c6054cfb10bb1883f8ca91cef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HOS-BL2.ANS by Hos (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Bloodline
 # SAUCE Author: Hos
 # SAUCE Group: AWE Lettering
@@ -18,7 +18,7 @@ Write-Host '
 
                              [1m░[0m
        [34m▀ ■▄  [0;1;37m░[0m               [1;37m░[0m
-hos([1mawe[0m)  [34m▐█▄[0;1;37;44m░[0m  [1;37;40m▄▄▐████▄▄▄   ▒    [0;34m░[0m       [1;37m░▌ [0mVade79''s [1mBloodline[0m
+    [1m   [0m   [34m▐█▄[0;1;37;44m░[0m  [1;37;40m▄▄▐████▄▄▄   ▒    [0;34m░[0m       [1;37m░▌ [0m         [1m         [0m
          [34m▄███[0;1;37;44m░[0m [1;37;40m▐█████ ░▀▀[0;1;37;44m▓[0;1;37;40m██▄▓▌   [0;34m░   [0;1;37m▐[0;1;37;44m▓[0;1;37;40m▄▄▄▌[0m                                [34m░[0m
 [1;37m░  [0;34m▄ ▄▄██████[0;1;37;44m░[0m [1;37;40m▀▀[0;1;37;44m▓[0;1;37;40m██[0;1;33;40m█ [0;1;37;44m░░[0;34m▄▄ [0;1;37m▀█▀▌[0m▄[1;30m▬ [0;34m▒[0;1;37m░░ [0;1;33m▀▀[0;1;37m▀█▀[0;1;37;44m▓[0m [1;34;40m░░░░░[0m              [1;34;40m░░░[0m         [34m░[0m
 [1;37;44m░[0;34m█▄▄▄▄▄██▄██[0;1;34;44m░░░[0m [1;37;40m█▄▄[0;1;33;40m▀█ [0;34m█▀ [0;1;37m▄[0;1;37;44m▓[0;1;37;40m███[0;1;37;47m▌[0m▌ [34m█▓[0;1;37;44m░░[0m  [1;37;40m███▀█ [0;1;34;44m░░░░░[0;34m░░    [0;1;37m░░░░░░░░[0;1;34;44m░░░[0;34m▄▄▄▄[0m     [34m░  [0;1;34;44m█[0m

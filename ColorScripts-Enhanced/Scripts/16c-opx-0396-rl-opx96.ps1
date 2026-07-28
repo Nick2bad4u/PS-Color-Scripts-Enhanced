@@ -5,7 +5,7 @@
 # Source SHA-256: f5c77247b6d11f4580788f9720b649beff7c0296ad4bb36d2f499c39b3482cfb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-OPX96.ANS by Rawlock (Opium); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Opium Gfx 1996
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -33,7 +33,7 @@ Write-Host '
 [1;31m█████████▀▄█[0;1;31;47m█▓██[0;1;31;40m███[0;1;31;43m▄[0;33m▄[0;37m [0;33m▀[0;1;31m███[0m [1;31m█[0;33m▌▄[0;1;31m▄█[0m [1;31m████[0;33m▀[0;37m [0;1;34;44m░█[0;1;34;40m███████[0;1;34;44m▓[0;1;34;40m▀[0m [1;34m  [0m rick[1;30m...........[0;34mrk  [0;1;34m  ▀█▓█[0m
 [1;31m█████████▄▀████████[0;1;31;43m▀[0;33m▀[0;37m [0;33m▄[0;1;31m████▄▄███████[0;1;31;43m░[0;33m [0;1;34;44m░▓[0;1;34;40m███████▀[0;34m▀[0;1;34m [0m [1;34m  [0m inm[1;30m............[0;34mim  [0;1;34m  [0;1;34;44m▓[0;1;34;40m███[0m
 [1;31m███████[0;1;31;43m▓[0;1;31;40m███▄▄[0;33m ▀▀▀▀[0;37m [0;33m▄[0;1;31m▄▄████▄████[0;1;31;43m▓[0;1;31;40m████[0;33m█[0;37m [0;1;34;44m░▓[0;1;34;40m█████▀▄▄█[0;1;34;44m▓[0m [1;34m  [0m          [1;34m [0m         [1;34m  [0;34m▀[0;1;34m███[0m
-[1;31m████▄▄▀▀▀█▄▄▄███████▀▀████[0m [1;31m█▀██████[0;1;31;43m▓[0;33m [0;34m▄[0;1;34;44m░▓[0;1;34;40m██████████[0;34m▄[0;1;34m  [0;1;30m  ansi by rawlock[0;1;34m   [0;34m▄[0;1;34m█▄ ██[0m
+[1;31m████▄▄▀▀▀█▄▄▄███████▀▀████[0m [1;31m█▀██████[0;1;31;43m▓[0;33m [0;34m▄[0;1;34;44m░▓[0;1;34;40m██████████[0;34m▄[0;1;34m  [0;1;30m                 [0;1;34m   [0;34m▄[0;1;34m█▄ ██[0m
 [1;31;43m▓[0;1;31;40m███[0m [1;31m▄[0;1;31;43m▀[0;1;31;40m▀▀▀[0;33m▀[0;1;37m [0m▄[1m▄[0m▄[1m▄▄▄[0;33m ▀[0;1;31m▀▀[0;1;31;43m▀[0;1;31;40m▄█[0;1;31;43m▀[0;1;31;40m▀[0;33m▀[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m███[0;1;31;43m▓[0;33m▀[0;37m [0;1;34;44m░▓[0;1;34;40m██████████[0;1;34;44m▓▓[0;1;34;40m                    [0;34m▄[0;1;34;44m▄[0;1;34;40m████▄█[0m
 [1;31m████▄▀▄[0;33m▄[0;1;37m [0m▀[1m▀▀[0m▀   [1m ▀▀▀[0m▀ [33m ▀▀[0;1;31m [0;33m▄[0;1;31m▄█████[0;1;31;43m▓[0;33m▀[0;37m [0;1;34;44m░▓[0;1;34;40m███████████▀ [0;34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;40m████▄[0;34m▄[0;1;34m [0;1;34;44m▄▓[0;1;34;40m████[0;1;34;44m▄[0;1;34;40m [0;34m▄[0;1;34m▄██████▄█[0m
 [1;31;43m▓[0;1;31;40m██████▀█[0;1;31;43m▄[0;1;31;40m▄▄▄[0;33m▄[0;37m ▀[0;1;37m▀▀▀[0m▀ [33m▄[0;1;31m▄▄▄█▀█████[0;1;31;43m▓[0;33m▀[0;1;31m [0;34m█[0;1;34;44m▒█[0;1;34;40m█████████▀▄▄██████████▄▄▀████▀▄██████████[0m

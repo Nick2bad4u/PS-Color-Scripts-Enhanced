@@ -5,7 +5,7 @@
 # Source SHA-256: 80175656fc41838d9332c888507cf118489018c3f147c8445a34449b677a039c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OS-NEWUS.ANS by Offset (rmrs-51); released in rmrs-51 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -29,11 +29,11 @@ Write-Host '
 [1;30m ▄▄█████▄▄        ▐[0;1;30;43m▒[0;1;33;43m ░░[0;1;30;43m ░▒▒▓[0;1;30;40m  [0;31m▀▄▓ [0;1;30m [0;1;30;43m▓[0;1;30;40m▌▐[0;1;30;47m▒░░[0;1;37;47m░[0;1;30;47m▄[0;1;30;40m▀ [0;31m [0;1;30m [0m
 [1;30m█[0;1;30;47m▓[0;1;30;40m▓█[0;1;30;47m▓▓▓[0;1;30;40m█[0;1;30;47m▓▓[0;1;30;40m█      [0m [1;30m ▀[0;33m▀[0;1;30;43m▄ ░▒▓▓[0;1;30;40m    [0;31m▓ [0;1;30m   █ [0;1;30;47m▓▒▄[0;1;30;40m▀[0;33m   [0;31m [0;36m░[0;37m [0;36m<[0;1;30m·····························[0;36m>[0m
 [1;30;47m▓▒▓[0;1;30;40m▄▀[0;1;30;47m▒▒▓[0;1;30;40m ▀             ▀▀▀     [0;31m▒[0;1;30m      ▀▀  [0m   [36m░▒[0m
-[1;30m▀▀  [0m▄[1;30;47m░░▒░[0m▄▄▓[1;30m                                  [0;36m░[0m    [36m[[0;1;37mENTER[0;36m][0;1;30m [0mto create account
+[1;30m▀▀  [0m▄[1;30;47m░░▒░[0m▄▄▓[1;30m                                  [0;36m░[0m    [36m [0;1;37m     [0;36m [0;1;30m [0m                 
 [1;30;47m▒[0;1;37;47m░[0m▄[1;30;47m▒[0m▀[1;30;47m░[0;1;30;40m [0m▄▀[1;30;47m▒▄[0;1;30;40m▀                                   [0m      [36m[[0;1;37m![0;36m][0;1;30m [0mabandon[36m/[0;37mdisconnect[0m
 [1;30m▀[0;1;30;47m▄▄[0;1;30;40m▐[0;1;37;47m░▒[0;1;30;47m▄[0;1;37;47m░[0;1;30;47m▄░[0;1;30;40m▌  [0m  [1;30m                            [0m [1;30m   [0m               [36m[[0;1;30m [0;36m][0m
 [1;30m☺FST▀[0;1;30;47m▄[0;1;30;40m [0;1;30;47m▄[0;1;30;40m ▀   [0m                            [1;30m      [0m
              [1;30m   [0m
 [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;36m ░░░░ [0;1;30m░░░░[0m
 [1;30m░░ o[0m       [36mf[0m       [36mf[0m       [1;36ms[0;1;30m [0m     [1m e[0m       [1mt[0m       [1;36ma[0m       [36mc[0m       [36mi[0m       [1;30md[0m [1;30m░░[0m
-[1;30m░░░░[0;36m ░░░░ [0;1;30m░░░░░░░►[0m [1;30m2003 ACiD/REMORSE PRODUCTION[0m [1;30m![0m [1;30mWE_WILL.SUE[0m [1;30m◄░░░░░░░░░░░░░░░░[0m'
+[1;30m░░░░[0;36m ░░░░ [0;1;30m░░░░░░░►[0m [1;30m                            [0m [1;30m [0m [1;30m           [0m [1;30m◄░░░░░░░░░░░░░░░░[0m'

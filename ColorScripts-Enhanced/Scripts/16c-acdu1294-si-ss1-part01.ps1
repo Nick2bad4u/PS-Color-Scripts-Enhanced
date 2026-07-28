@@ -5,7 +5,7 @@
 # Source SHA-256: 4c4a7c1d04d132154ea189d0bcaebe75fe4c2f42b65ea2116cbcae8bf3e083ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-SS1.ANS by Spirit of Illusion (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Suicidal Shrimp
 # SAUCE Author: Spirit of Illusion
 # SAUCE Group: ACiD Productions
@@ -21,8 +21,8 @@ Write-Host '
 [1;30m██▀▀▀▀▀ ▄▄[0;1;30;47m█[0;1;30;40m█▀█▄▄  ▄▄ ▀▀▀▀▀██████ ▄[0;1;30;47m▒[0m [1;30;40m██ [0;1;37;40m██▀█ [0;1;30;40m▄▄█▓▀▀ ■▄ █████████████████████████[0m
 [1;30;40m██ █▀ ▄███▀▒  ▀▄■▐███▒ ▀█ ████▀ ▐[0;1;30;47m▀ [0m▌[1;30m▐█[0;1;30;47m▓[0;1;30;40m▄[0;1;37;40m▀▀[0;1;30;40m▄▒▒▄▀ ▄▄▄■ ▄█████████████████████████[0m
 [1;30;40m██ ▌ ▐[0;1;30;47m▓[0;1;30;40m██▌▓  ▄    ▀▀■▄  ▐ ███ ▄█ [0;1;30;47m▄▓▀[0;1;30;40m▄▀██▓▓▀▀▀▀▀▀▀ ▄▄▓▓███▓▓▓▓██████████████████[0m
-[1;30;40m██ ▌  ▀███▄▄█▄▄ ■▀▄█▌ ▀ ▐ ██▌▐[0;1;30;47m ▄▒[0;1;37;40m▄[0;1;30;40m▀[0;1;30;47m███[0m▄[1;30m▀ [0m▄▄ [1;30m▀████▒▀ no no no mr. shrimpy poo ▀[0;1;30;47m▀[0m
-[1;30;40m██ ▌ ■▄ ▀▀█▀ ▀██▄▒[0;1;30;47m▓[0;1;30;40m█▀■  ▐ ██ ▄▀[0;1;30;47m▓▄[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m▄▄[0m▀▀▀▀▀ ▀■[1;30m▀██▓▌  don''t jump!  its going to [0m▐
+[1;30;40m██ ▌  ▀███▄▄█▄▄ ■▀▄█▌ ▀ ▐ ██▌▐[0;1;30;47m ▄▒[0;1;37;40m▄[0;1;30;40m▀[0;1;30;47m███[0m▄[1;30m▀ [0m▄▄ [1;30m▀████▒▀                          ▀[0;1;30;47m▀[0m
+[1;30;40m██ ▌ ■▄ ▀▀█▀ ▀██▄▒[0;1;30;47m▓[0;1;30;40m█▀■  ▐ ██ ▄▀[0;1;30;47m▓▄[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m▄▄[0m▀▀▀▀▀ ▀■[1;30m▀██▓▌                            [0m▐
 [1;30m██ █▄ ▄█▄█▌   ▐[0;1;30;47m▓[0;1;30;40m█▌██▒  ▄█ █▌▐[0;1;30;47m▀ [0;1;30;40m▄ [0m▀▀[1;30;47m▒[0m▀▀█▀■ [1;30m▀▀██████▄ be alright ...[0m           ▄[1;30;47m▄[0m
 [1;30;40m██▄▄▄▄ ▀████▄▄██▀▓██▓ ▄▄▄▄██ ▀[0;1;30;47m▒▄[0;1;30;40m▀ ▐▄ [0m▀ [36m▄■▀▀■ ▄▄▄ [0;1;30m▀█▒[0;1;30;47m▄▄▄▄ [0m   ▄[1;47m▀[0;1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;40m██[0m
 [1;30;40m███████▄▄ ▀▀▀▀  ▀ ▀ ▄▄███████ [0;36m■▄[0;1;37;46m░[0m [1;30;40m▀[0;36m▄▄▓▀ ▄▄[0;1;37;46m░[0;36m▀▀▀ ■▀■[0;1;30m▀████▀ [0m▄▄[1;30;47m▄[0;1;30;40m███████████████████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b22c41f4020609b1ab9ae54b3409a4f00da17be2d560a44f21ed7f62b0cf73a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-TTH.ANS by Tempus Hellfire (Oasis); released in oasis-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Thirteenth Halo
 # SAUCE Author: Tempus Hellfire
 # SAUCE Group: Oasis
@@ -36,5 +36,5 @@ Write-Host '
 [1;47m▓▓██▄[0m██▌[1;30m█[0m▐[1;47m ▄[0;1;40m█[0;1;47m▓▓▓▓█▄[0m█▄[33m▀█[0;36;43m      [0;33;40m▄▄▄▄▀▀█[0;1;31;43m░░[0;33m██[0;1;31;43m░[0;33m█▀[0m       [1;30m▄[0;1;30;47m▒░[0m▀[36mo[0;37mb[0;1;30mv/2 [0m [1;30m▀[0m▀█[1;30;47m░[0m [1;30m.[0;36mt[0;37mh[0;1;30mirteenth.[0m
 [1;47m▒▓▓███[0m██ █[1;47m▐[0;1;40m█[0;1;47m▓▓▒▒░▒▓█▄[0m█▄[33m▀[0;36;43m     [0;33;40m█▌▀▀████[0;1;31;43m░░[0;33m█▀[0m        [1;30m▐[0;1;30;47m▓[0;1;30;40m▀ [0;36m2[0;37m8[0;1;30m.8      [0m▐[1;30;47m░[0m▌     [36mh[0;37ma[0;1;30mlo.[0m
 [1;47m▓▓██▀[0m██▌[1;30m█[0m▐[1;47m ▀[0;1;40m█[0;1;47m▓▒░▒▒▓▓▓█▄[0m█ [33m▀▀▀▀▀ ▀▀ ▀▀▀▀▀[0m           [1;30m▀■ [0;36ma[0;37ml[0;1;30ml [0;36ma[0;37ms[0;1;30mcii[0m▄[1;30;47m░[0m▀
-[1;47m▀▀▀[0m███▀[1;30m▄█▄[0m▀[1;47m  ▀▀▀▀▀▀▀▀▀▀[0m▌▐█[1;47m▀▓▓▓▒▓▓██▀[0m█▀    [36ms[0;37my[0;1;30msop: [0;36mn[0;37me[0;1;30mochronyk [0m■▀
+[1;47m▀▀▀[0m███▀[1;30m▄█▄[0m▀[1;47m  ▀▀▀▀▀▀▀▀▀▀[0m▌▐█[1;47m▀▓▓▓▒▓▓██▀[0m█▀    [36m [0;37m [0;1;30m     [0;36m [0;37m [0;1;30m         [0m■▀
 ▀▀▀▀▀[1;30m ▀▀▀▀▀[0m ▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀            [1;30m            [0m'

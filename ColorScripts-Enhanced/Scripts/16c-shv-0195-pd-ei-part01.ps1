@@ -5,7 +5,7 @@
 # Source SHA-256: 145b57bdbd88ea67f72a3a06b503795ed171f7a86b164cf0d796cc9ed017818b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PD-EI.ANS by Paradox (Shiver); released in shv-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Evil Intentions
 # SAUCE Author: Paradox
 # SAUCE Group: Shiver
@@ -19,7 +19,7 @@ Write-Host '
 [1;30m ▒  ░[0m      [36m▀▄▀▀ [0;1;36m▒ [0;36m▀ [0;1;30m░[0m           [1;30m▒ ░[0m      [1;30m░   ▒   ░    ░    ▒[0m      [1;30m░[0m      [1;30m░  ▒[0m
 [1;30m▄▓▄▄▒▄▄░▄▄ [0;36m▄  [0;1;30m▄▄[0;1;36m▓[0;1;30m▄░▄▒▄▄░▄▄  ▄░▄▄▓▄▒  ▄░▄▄▒▄▄▄▓▄▄▄▒▄░▄▄▒▄▄▄▄▓▄▄░▄▄▄▒▄▄▄░▄▄▒▄▄▓▄▄[0m
 [1;30m▓ ░█░▒█ [0;36m▄  ▄ [0;1;36m▄[0;36m▄[0;1;36m▄█▄[0;1;30;46m▀[0;1;36;40m▄[0;1;30;46m▀▀[0m [1;30;40m▐▓[0;1;30;46m▀[0;1;30;40m█ ▐█▌ █[0;1;30;46m▓[0;1;30;40m██  █▀▀▄░▒█▄▓▄▀▀▀░   pARADOX gREETZ:▒ ▀ ▀▀▀▄▓[0m
-[1;30;40m░█▄[0;36m░[0;1;30m█▀▓▄▄▓▄ [0;36m▄ ▄[0;1;30m▐[0;1;36m▓[0;1;30;46m░▒[0;1;30;40m▒░▌[0;31m▒[0;1;30m▐▓█▓ ▐▓▌[0;31m░[0;1;30m█[0;1;30;46m▒[0;1;36;40m░[0;1;30;46m█[0;1;30;40m▌[0;36m▄  ▄ [0;1;30m█▀[0;36m░[0;1;30m▀█ Gambit, Binary Beast, Betrayer█[0m
+[1;30;40m░█▄[0;36m░[0;1;30m█▀▓▄▄▓▄ [0;36m▄ ▄[0;1;30m▐[0;1;36m▓[0;1;30;46m░▒[0;1;30;40m▒░▌[0;31m▒[0;1;30m▐▓█▓ ▐▓▌[0;31m░[0;1;30m█[0;1;30;46m▒[0;1;36;40m░[0;1;30;46m█[0;1;30;40m▌[0;36m▄  ▄ [0;1;30m█▀[0;36m░[0;1;30m▀█                               █[0m
 [1;30m▄░▒█ ░[0;36m░[0;1;30m▒▀█  [0;36m▄▀▄ [0;1;36m▒[0;1;30;46m▒▓[0;1;30;40m▒▒▌[0;31m░[0;1;30m▄█▓▒ ▐▓▌[0;31m▒[0;1;30m▐[0;1;30;46m░[0;1;36;40m▒[0;1;30;46m▓[0;1;30;40m▌ [0;36m▄▀ [0;1;30m▄▀▓▄▓▌    & each person that made    ▐[0m
 [1;30m░▀█ ▀▀▄▄█▄ [0;36m▀   [0;1;30m▐[0;1;36m░[0;1;30;46m▓[0;1;30;40m▒▓▓▌▀▀▀▀ ▄█▒▌[0;31m░ [0;31;46m [0;1;36;40m▓[0;1;30;46m▒[0;1;30;40m▌[0;36m▀ █  [0;1;30m▀▄█[0;36m░[0;1;30m█▀    Manifest the succsess   ▄ █[0m
 [1;30m▄▀ ▀▄▓▄░▒▓▀█▀  ▐[0;1;30;46m▓█[0;1;30;40m▒▓█▌ [0;31m░ [0;1;30m▐▓[0;1;30;46m▀[0;1;30;40m▓░[0;36m▄ ▄[0;1;36m▄█▄[0;36m▄ ▄▄  ▄ [0;1;30m▓▀░▀▄▄▄  ░ ▄ that it was.  ▄  ▄▄▄▀░[0m

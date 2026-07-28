@@ -5,7 +5,7 @@
 # Source SHA-256: 2dbbc39a993bc848c855b42c48c4b40546379e8cc47cdd58035f2c14a42a94b4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UNTOLD.ANS by Npg (d-x-dnpg); released in d-x-dnpg and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -22,7 +22,7 @@ Write-Host '
 [1;32;47m [0;1;32;42m▒[0;1;32;47m     [0;1;30;47m░▒▓█[0;1;30;40m▓▒[0;1;32;42m░░░[0m    [1;37;40mTh[0;1;31;40me[0m                                     [1;30;40m░░░░░░░▒▓▓[0;1;30;47m█▓▒░░ [0;1;32;42m▒░[0;1;32;47m  [0m
 [1;32;47m  [0;1;32;42m▒[0;1;32;47m    [0;1;30;47m░▒▒▓█[0;1;30;40m▓▒░[0m     [1;37;40mUn[0;1;31;40mtold [0;31mSe[0;1;31mcr[0;1;37met[0m             [1;33m▀▀   ▀▀[0;30;41m████[0m        [1;30;40m░▒▓[0;1;30;47m██▓▒▒░░  [0;1;32;42m░[0;1;32;47m  [0m
 [1;32;47m [0;1;32;42m▓[0;1;32;47m      [0;1;30;47m░░▒▓[0;1;30;40m█▓▒░    [0;1;37;40mOf[0m                                          [1;30;40m░▒▓[0;1;30;47m█▓▓▒░░░    [0;1;32;42m▒[0;1;32;47m [0m
-[1;32;47m         [0;1;30;47m░▒▓█[0;1;30;40m▓▒░░   [0;1;37;40mTh[0;1;31;40me Un[0;31mdergr[0;1;31mound D[0;1;37mark[0m                       [1;30m░▒▓[0;1;30;47m█▓▒▒▒░       [0;1;32;42m░[0m
+[1;32;47m         [0;1;30;47m░▒▓█[0;1;30;40m▓▒░░   [0;1;37;40m  [0;1;31;40m    [0;31m     [0;1;31m      [0;1;37m   [0m                       [1;30m░▒▓[0;1;30;47m█▓▒▒▒░       [0;1;32;42m░[0m
 [33;42m▓▒▓[0;33;47m     [0;1;30;47m░▒▒▓█[0;1;30;40m▓▒░░░░░░░[0;1;37;40mKi[0;1;31;40mn[0;31mgd[0;1;31mo[0;1;37mm[0;1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▓[0;1;30;47m█▓▒░░░       [0;33;42m▓▒[0m
 [33;42m▓▒▓[0;33;47m██  [0;1;30;47m░▒▒▓█[0;1;30;40m▓▒▒▒▒▒▒▒▒░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓[0;1;30;47m█▓▒░░     [0;33;42m▒▒▓▓▓[0m
 [33;42m▓▓▒▒▓▓[0;33;47m [0;1;30;47m░░▒▒▓█[0;1;30;40m▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;47m███▓▒░░     [0;33;42m▓▓▓▒▓▒[0m

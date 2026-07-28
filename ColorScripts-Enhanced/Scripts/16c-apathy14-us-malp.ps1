@@ -5,7 +5,7 @@
 # Source SHA-256: 4ecb1af44678daaa411cc52b153056cc6bfe338237cea65aceb13c8229d05ca5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-MALP.ANS by Misfit + Trip (Apathy Studios); released in apathy14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Malpractice matrix
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Apathy Studios
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mansi by misfit[0m [1;30m                  [0m                [1;30m▀███▓▒▓▒▓█▀▀▀[0m  [1;30m▀▀[0m [1;30m░░[0m  [1;30m░[0m     [1;30m░░[0m
+[1;30m              [0m [1;30m                  [0m                [1;30m▀███▓▒▓▒▓█▀▀▀[0m  [1;30m▀▀[0m [1;30m░░[0m  [1;30m░[0m     [1;30m░░[0m
 [1;30mshade by trip   [0m                                   [1;30m███▓█▓█[0m
 [1;30m            [0m    [33m▄[0;37m [0;33m■[0;37m                               [0;1;30m■[0m [1;30m▀████[0m
           [33m▄▄██[0;37m   [0;33m▄▌[0;37m [0;33m■[0;37m      [0;33m▄▄[0;37m        [0;33m▀▄▄[0;37m        [0m    [1;30m▐█▄█▌ ────────---──-───────-[0m

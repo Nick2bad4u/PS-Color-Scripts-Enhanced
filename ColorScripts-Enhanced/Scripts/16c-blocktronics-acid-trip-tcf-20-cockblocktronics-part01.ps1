@@ -5,7 +5,7 @@
 # Source SHA-256: 982da27a1fc25458c2705b1b743eb5f8d41a94306fa128b3f618ea7be686d76b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tcf - 20 - cockblocktronics.ANS by The Creep Fever (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cockblocktronics
 # SAUCE Author: The Creep Fever
 # SAUCE Group: blocktronics
@@ -57,7 +57,7 @@ tcf
 [35m▀[0;1;33;45m▀██▀[0;1;36;40m░[0;1;33;45m▀██▀[0;35m▀▀[0;1;33;45m█[0;1;37;40m██[0;1;33;45m▀[0;35m▌[0;1;33;45m▀▀[0;1;33;40m [0;1;33;45m▐█[0;35m▀[0;1;33;45m█[0;1;37;40m██[0;1;33;45m▀[0;35m▌▀[0;1;33;45m██▀[0;35m▀[0;1;33;45m▀██▀[0;35m▀▀▀[0;1;33;45m▀███[0;35m▌[0;1;33;45m█▓[0;1;36;40m░[0;1;33;45m▒▒[0;1;36;40m·[0;35m▀[0;1;33;45m▀▒[0;35m▐[0;1;33;45m█[0;35m▌ ▀[0;1;33;45m▀███[0;35m▀[0;1;33;45m▀[0;1;36;40m▒[0;1;33;40m [0;1;33;45m█[0;35m▌▀▀[0;1;36m▒[0;1;33;45m██████▀[0;35m▀[0m
 [36m [0;1;36m▄▄▄▄▒░░░[0m [1;36m▄▄[0m    [1;36m▄[0m     [1;36m▄▄▄[0m [1;36m▄▄[0m  [1;36m▄[0m   [1;36m▄[0m  [1;36m▄▒▒▄[0m [1;36m▄▄▄▄[0m [1;36m▒▄▄[0m [1;36m■▄▄▄▄[0m [1;36m▀░▒▒▒▒▒▓▓▓█▄▄▀▓▄▄▄▄▄▄[0;36m▒[0;1;35m▓[0m
 [1;35m░[0;36m▓[0;1;36m▀▀[0;1;36;41m▄[0;1;36;40m▓▒[0;31m▄▄[0;1;36;41m▀[0;1;36;40m▄▄▄[0;31m▄▄[0;1;36;41m▀▀[0;1;36;40m▒[0;31m▄▄[0;1;36m▄  [0;31m▄▄[0;37m  [0;31m▄[0;37m      [0;31m░░[0;37m  [0;31m░░░[0;37m [0;31m░░[0;37m [0;31m░░[0;37m [0;31m░░[0;37m [0;31m░░[0;37m [0;31m░░░░░[0;37m [0;31m░░[0;1;36m░░▒▒▒▒▓▄▓▀[0;36m▒▒▒▒▒▓▒[0;1;35m█[0m
-[1;35m█[0;36m▀▄[0;1;36m▄▄▄[0;36m░░[0;1;36m tcf[0;1;30mtheres no love in [0;31mfear[0;37m  [0;36m░░░░░[0;1;36m░[0;36m░░░[0;37m [0;36m░░░[0;37m  [0;36m░░░[0;37m [0;36m▒▒▒▓▓▓▄▄▄▒▒  ▒  ▒▒▒  ▒▀[0;1;35m▄▀[0m
+[1;35m█[0;36m▀▄[0;1;36m▄▄▄[0;36m░░[0;1;36m    [0;1;30m                  [0;31m    [0;37m  [0;36m░░░░░[0;1;36m░[0;36m░░░[0;37m [0;36m░░░[0;37m  [0;36m░░░[0;37m [0;36m▒▒▒▓▓▓▄▄▄▒▒  ▒  ▒▒▒  ▒▀[0;1;35m▄▀[0m
 [1;35m  ▀▀[0m [1;35m▀▀[0m  [1;35m▀▀[0m  [1;35m▀[0m                            [1;35m▀▀[0m   [1;35m▀▀[0m   [1;35m▀▀[0m    [1;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
 tcf[0m'

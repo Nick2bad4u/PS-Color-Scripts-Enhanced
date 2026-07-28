@@ -5,7 +5,7 @@
 # Source SHA-256: 86310fb52535303250289628d2af34a0498a9255dddeb9ec2e7a98c9e3ac6e3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KT-MYST2.ANS by kaethe; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mystery Logon
 # SAUCE Author: Kaethe
 # SAUCE Group: READ THE INI FILE
@@ -29,7 +29,7 @@ Write-Host '
                  [36m▒▓█▓▒█[0;1;33;46m██████ [0m   [36m▒▓█▓▒  ▒▓█▓▒    ▀▀▀▀▀▒▓█▓▒▀▀▀▀▀[0m      [1;32m█▓[0;32m▓█▀[0m
                  [36m▀▀▀▀▀▀▀▀▀▀▀▀▀   ▒▓█▓▒  ▒▓█▓▒[0m         [36m▒▓█▓▒[0m       [1;32m█▄ [0;32m▐ ▒█[0m
 [32m  [0;1;37m░▒▓█▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄     [36m▒▓█▓▒  ▒▓█▓▒[0m         [36m▒▓█▓▒[0m      [1;32m██▓▌ [0;32m█▓  [0;1;32m▓█[0m
-[1;32m  [0;1;37m▒▓█│ [0;1;30mYou[0mr Sy[1msOp i[0ms: Du[1;30msty [0m▀▄   [36m▀▀▀▀▀  ▀▀▀▀▀[0m         [36m▒▓█▓▒[0m     [1;32m▀█▓█ [0;32m▀▓[0;1;32m█▓██[0m
+[1;32m  [0;1;37m▒▓█│ [0;1;30m   [0m    [1m     [0m     [1;30m    [0m▀▄   [36m▀▀▀▀▀  ▀▀▀▀▀[0m         [36m▒▓█▓▒[0m     [1;32m▀█▓█ [0;32m▀▓[0;1;32m█▓██[0m
 [1;32m  [0;1;37m▓█│[0;1;30m····[0m····[1m········[0m····[1;30m···· [0m▀▄            [31m▐▄[0m       [31m▌[0;36m▒▓█▓▒[0m       [1;32m▓▌[0;32m▒█▀[0;1;32m█▓█[0m
 [1;32m  [0;1;37m█│ [0;1;30mCosy[0msOp''s [1mare: [0mLion [1;30m& Sky│█[0m        [31m▐▄   █▓█  █▓█ [0;36m▀▀▀▀▀[0m       [32m▄▄▒[0m
 [32m  [0;37m▀▄ [0;1;30m····[0m····[1m········[0m····[1;30m····│█▓[0m        [31m▄█▓█ ▌[0;1;33;41m▄[0;31m███▓▀[0m      [32m▐▄[0m     [32m▒▓▀[0m

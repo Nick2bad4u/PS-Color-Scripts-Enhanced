@@ -5,7 +5,7 @@
 # Source SHA-256: f1ba8d7cba56f0d313b5c85615803dd080b60e95bbc208acfae6d0d03796e554
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IV-COP.ANS by Inner Vision (Shiver); released in shv-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Chapel of Pain
 # SAUCE Author: Inner Vision
 # SAUCE Group: Shiver
@@ -28,7 +28,7 @@ Write-Host '
      [31;40m▀[0;31;47m▓[0;31;40m▌[0m         [31;40m▒[0m [1;30;40m░░[0m          [1;30;40m·.[0m [1;30;40m..[0m  [1;30;40m.[0m  [1;30;40m.[0m [1;30;40m ..[0m [1;30;40m.·[0;31m [0m [31m▄ ▀[0;31;47m█▓▓[0;31;40m▌ [0m   [1;37;40m [0m  ▐[1m  [0m       ▐
     [31m▄[0m  [31m▀[0m         [31m░[0m             [1;30m  Chapel Of Pain  [0m  [31m  ▄[0m [31m▓[0;31;47m▓[0;31;40m▀[0m [31;40m▄[0m  [1;37;40m  [0m▄[1;47m░[0m        ▄[1;47m [0m
  [31m▀[0m  [31m▓[0m   [31m▀[0m                      [1;30m·∙[0m [1;30m∙∙[0m  [1;30m∙[0m  [1;30m∙[0m  [1;30m∙∙[0m [1;30m∙·[0m  [31m  [0m [31m ▒▄[0m    [1;37m [0m▄[1;47m  ░[0m      ▄[1;47m  ░[0m
-    [31m▒[0m                            [1;30mSysop: Onslaught[0m [31m   [0m  [31m░[0m    [37m▄[0;1;37;47m   ░▒[0m    ▄[1;47m░ ░░ [0m
+    [31m▒[0m                            [1;30m                [0m [31m   [0m  [31m░[0m    [37m▄[0;1;37;47m   ░▒[0m    ▄[1;47m░ ░░ [0m
                                [1;30;40mCoSysop: Lord Valgamon[0m   [1;37;40m [0m▄▄[1;47m ░ ░▒░▒[0m ▄▄[1;47m ░░░▒░░[0m ▄[1;47m ░[0m
                                                            ▀▀▓[1;47m▒░▒▒[0m  [1;40m [0m▀▀▓[1;47m▒░▒▒[0m  [1;47m░▒[0m
 [1;30;40mtg border☻                   [0m                       [33m [0m       [1;36m [0m▐[1;47m▒▒▒▒[0m     ▐[1;47m▒▒▒▒[0m  [1;47m▒▓[0m

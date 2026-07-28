@@ -5,7 +5,7 @@
 # Source SHA-256: 1ec727dc97cfcb768191acc9896e5cde7cd048ec739433a08fd41ff1c8e7745b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-UF.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Urine Fumes LOGOFF menu
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
@@ -35,7 +35,7 @@ Write-Host '
       [34m▐[0;1;34;44m▀█▌[0;34m▌[0;37m  [0;32m ▀███▌[0;37m  [0;30;42m▓[0;32;40m▄█[0;1;32;42m░░░░[0;32m▀▀[0m    [34m▄█[0;1;34;44m░▒▓█[0;34m█[0m   [32m▀[0;1;37;42m▀[0;1;36;42m▓▓▓[0;32m▄ [0;37m [0;36m [0;1;30m▀[0;1;30;41m█▓▓[0;1;30;40m▄[0m      [34m▀[0m
        [34m▀█[0;1;34;44m▀▄[0;34m▄[0m     [32m▀█▄▄[0;30;42m░[0;32;40m██▀▀[0m   [34;40m▄▄▄███▀▀█[0;1;34;44m░▓█▄[0;34m▄[0m   [32m▀[0;1;36;42m░░░[0;32m█▄[0m   [1;30;41m█░▓[0;1;30;40m█[0m
          [34m▀██[0;1;34;44m ▄[0;34m▄▄[0m    [32m▀█▀[0m   [34m▄████▀▀[0m     [34m▀█[0;1;34;44m▓██▄[0;34m▄[0m   [32m█[0;1;36;42m░░[0;30;42m░[0;32;40m▌[0;37;40m  [0;1;30;40m▐[0;1;30;41m▌░▓[0;1;30;40m▌[0m     [32m.log-off[0m
-            [34m▀▀[0;1;34;44m▀▀▓░[0;34m▄▄[0m   [34m▄█[0;1;34;44m░░░[0;34m▀[0m   [32mShrimp[0;37m [0;34m▐[0;1;34;44m▓▓▓[0;34m▀[0m   [32m▄[0;30;42m  [0;32;40m▀▀[0;37;40m  [0;1;30;40m▄[0;1;30;41m▀▄█[0;1;30;40m▀[0m    [30m [0;37m [0;32m.page sysop[0m
+            [34m▀▀[0;1;34;44m▀▀▓░[0;34m▄▄[0m   [34m▄█[0;1;34;44m░░░[0;34m▀[0m   [32m      [0;37m [0;34m▐[0;1;34;44m▓▓▓[0;34m▀[0m   [32m▄[0;30;42m  [0;32;40m▀▀[0;37;40m  [0;1;30;40m▄[0;1;30;41m▀▄█[0;1;30;40m▀[0m    [30m [0;37m [0;32m           [0m
                 [34m▀▀███▄███▀[0m      [32m([0;1;36mFLG[0;32m)[0;37m  [0;34m█[0;1;34;44m░[0;34m▀[0m   [32m▄▀▀[0m   [1;30m▄▄[0;1;30;41m▓[0;1;30;40m▀▀[0m        [32m>>[0;1;32;42mGO BACK[0m
                     [34m▀█▀[0m               [34m▐█[0m         [1;30m▄▀▀[0m
                                        [34m▀▄[0m      [1;30m▄[0m

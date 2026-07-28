@@ -5,7 +5,7 @@
 # Source SHA-256: 0b61fc93617f01e136192d0b1b2d1ba48e178bb63137a1f65b9eb4bfc96b4b82
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M-REARTH.ANS by milkmang (the legion); released in legion03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ray earth
 # SAUCE Author: milkmang
 # SAUCE Group: the legion
@@ -35,7 +35,7 @@ Write-Host '
         [34m  [0;37m  [0;33m [0;1;31m [0;1;31;43m▐[0;1;31;40m█████[0;1;31;43m▄[0;1;31;40m▄[0;33m▄▄[0m     [37m   [0m              [36m [0;37m [0;35m [0;37m [0;1;35mRay Earth[0m
        [34m   [0;37m  [0;36m [0;33m▐[0;1;31;43m █[0;1;31;40m██████████▓▓▒ [0m                [36m [0;37m [0;35m ──────────────────────────────[0m
          [34m [0;37m  [0;33m▄[0;1;31;43m░[0;30;43m░[0;1;31;43m▐██[0;1;31;40m███████████[0;1;31;43m▄[0;1;31;40m▄[0;33m▄[0m              [36m [0m   [1;35moped from Hawaii[0m
-[1;31m░░░░░░░[0;33m▄[0;1;31m▄▄▄[0;1;31;43m▄▄█[0;33m▄▀[0;1;31;43m▀█[0;1;31;40m█[0;1;31;43m▐█[0;1;31;40m██████████[0;1;31;43m▒[0;1;31;40m▒[0;1;31;43m▄[0;1;31;40m▄▄▄[0;33m▄▄▄[0;1;31m  [0m    [36m [0m   [1;35mTollfree tial-up and telnet[0m
+[1;31m░░░░░░░[0;33m▄[0;1;31m▄▄▄[0;1;31;43m▄▄█[0;33m▄▀[0;1;31;43m▀█[0;1;31;40m█[0;1;31;43m▐█[0;1;31;40m██████████[0;1;31;43m▒[0;1;31;40m▒[0;1;31;43m▄[0;1;31;40m▄▄▄[0;33m▄▄▄[0;1;31m  [0m    [36m [0m   [1;35m                           [0m
 [33m█[0;1;31;43m ▄[0;1;31;40m███████████[0;1;31;43m█[0;33m▄[0;1;31m [0;33m▀[0;1;31;43m▀▐█[0;1;31;40m████████[0;1;31;43m█▓[0;33m▌[0;1;31m▓███████[0;1;31;43m▄▄ [0;30;43m░[0;33;40m▓[0;30;43m▓[0m    [1;35;40mobv2 board, [0m
 [33m█[0;1;31;43m█[0;1;31;40m█████████████[0;1;31;43m▌[0;33m▄[0;1;31m  [0;33m▀[0;1;31m▀[0;1;31;43m▀█[0;1;31;40m████[0;1;31;43m██▀[0;33m▀[0;1;31m [0;1;31;43m▒[0;1;31;40m█████████[0;1;31;43m▓▓░[0;33m▓[0m
 [1;31;43m▐[0;1;31;40m████████████▓▓[0;1;31;43m▓ [0;33m▄[0;1;31m      [0;33m▀▀[0;1;31m▀[0;33m▀[0;1;31m   [0;33m▐[0;1;31;43m▓[0;1;31;40m████████████[0;1;31;43m [0m    [1;35mohh, btw!# kYOMANGO OWNS IT!#[0m'

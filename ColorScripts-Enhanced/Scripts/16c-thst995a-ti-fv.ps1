@@ -5,7 +5,7 @@
 # Source SHA-256: 340ca4b0168359416394fd7aa1fa30212b91ed918b4aaffef936e799f35e94f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-FV.ANS by TRiP (THRuSt); released in thst995a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: thrustvu opening screen
 # SAUCE Author: TRiP
 # SAUCE Group: THRuSt
@@ -17,8 +17,8 @@
 Write-Host '
       ▄█[1;47m░[0m████[1;47m░░▒▒▓▓▓▒▓░▒▒▓▓▓▓█▓▓█▓▓▓█▓▓▒[0m▄
      ▄███[1;47m░[0m██[1;47m░░▒▒▓▓█▓▒▓▒▒▓█▓▓▓▓██▓▒▓▓▒▓▒▒▒░ [0m
-    ▐█[1;47m▄▓▄[0m█[1;47m░[0m█[1;47m░░▒▒▓▓█▓▒▒▓▒▓▓▓██▓▓▓▒▓▒░░░░░ ░░[0m█▄          [1mThis will be the opening[0m
-   ▄█[1;47m▓█▓▓▓[0m██[1;47m░░▒▒▓▓▓▓▒▓░▒▓▓█▓▓▒▒░░░░[0m█[1;47m░[0m█[1;47m░░░░[0m▀█[1;47m░[0m█▄      [1mscreen for thrustview.[0m
+    ▐█[1;47m▄▓▄[0m█[1;47m░[0m█[1;47m░░▒▒▓▓█▓▒▒▓▒▓▓▓██▓▓▓▒▓▒░░░░░ ░░[0m█▄          [1m                        [0m
+   ▄█[1;47m▓█▓▓▓[0m██[1;47m░░▒▒▓▓▓▓▒▓░▒▓▓█▓▓▒▒░░░░[0m█[1;47m░[0m█[1;47m░░░░[0m▀█[1;47m░[0m█▄      [1m                      [0m
   ▄[1;47m▒▒▓▒▓▓▓█[0m██[1;47m░░▒▒▒░▒░▒░▒░▒▒▓▒[0m█[1;47m░░[0m██[1;47m░░░▒░░[0m   ▄ ▀▀▄
  ▐█[1;47m░▒▒▒▓▓▒▓▓[0m████▀[31m ▄[0;1;31m▄[0;1;31;41m▓█▓[0;1;31;40m▄[0;31m▄[0;37m ▀██[0;1;37;47m░[0m█▓▀▀[1;47m [0m▀▀    ▐▀ ▀▌
  █[1;47m░░▒░▒▒░▒▓▓▓[0m██[31m ▄▀░▄[0;1;31;41m▒▓░▒[0;31m▄▒▄[0;37m ▀▀    ░     ▌▀▌  █▄[0m

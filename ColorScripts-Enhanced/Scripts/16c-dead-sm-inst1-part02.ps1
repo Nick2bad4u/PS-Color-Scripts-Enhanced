@@ -5,7 +5,7 @@
 # Source SHA-256: 07724ea392904b21ec1dd131e2f19e7f9987f6a7a1af3f760570a12f270acdd4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-INST1.ANS by Soundmaster (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 32-69
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
 [1;32;42m       [0;1;33;42m         [0;1;32;42m [0;1;33;42m         [0;1;32;42m [0;1;33;42m         [0;1;32;42m [0;1;33;42m        [0;1;32;42m [0;1;33;42m         [0;1;32;42m [0;1;33;42m  [0;1;32;42m [0;1;33;42m            [0;1;32;42m [0;1;33;42m        [0m
 [30;42m░     [0;1;33;42m          └[0;1;32;42m [0;1;33;42m          [0;1;32;42m [0;1;33;42m┘         [0;1;32;42m [0;1;33;42m                   [0;1;32;42m [0;1;33;42m          [0;1;32;42m [0;1;33;42m        [0;30;42m░[0m
 [30;42m▒                                                                              ▒[0m
-[30;42m▓▒░             ░░ ░     ░░░   [0;1;32;42mA[0;1;33;42mNSi: [0;1;32;42mS[0;1;33;42mOUNDMASTER [0;1;32;42m[[0;1;33;42mD[0;1;32;42me[0;1;33;42mAD[0;1;32;42m]   [0;30;42m░░░     ░░      ░░  ░▓[0m
+[30;42m▓▒░             ░░ ░     ░░░   [0;1;32;42m [0;1;33;42m     [0;1;32;42m [0;1;33;42m           [0;1;32;42m [0;1;33;42m [0;1;32;42m [0;1;33;42m  [0;1;32;42m    [0;30;42m░░░     ░░      ░░  ░▓[0m
  [30;42m▓▒░   ░░      ░▒▒░▒░   ░▒▒▒▒░      ░░▒▒▒░    ░▒▒░       ░▒▒▒░   ░▒▒░    ░▒▒░░▒▓[0m
   [30;42m▓▒░ ░▒▒░░   ░▒▓▓▒▓▒░ ░▒▓▓▓▓▒░   ░░▒▒▓▓▓▒░  ░▒▓▓▒░   ░ ░▒▓▓▓▒░ ░▒▓▓▒░  ░▒▓▓▒░▒[0m
    [30;42m▓▒░▒▓▓▒▒░ ░▒▓[0m  [30;42m▓[0m [30;42m▓▒░░▒▓[0m   [30;42m▓▒░ ░▒▒▓▓[0m   [30;42m▓▒░░▒▓[0m  [30;42m▓▒░░▒▒▒▓▓[0m   [30;42m▓▒░▒▓[0m [30;42m▓▒░ ░▒▓[0m [30;42m▓▒▒▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 7376c3c3e0cdcec045588869609ff9587eb7254e028723e20bcf37dab4f6a398
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-RGE.ANS by Blind Sniper (Department 38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rage thangx0rz
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
@@ -28,7 +28,7 @@ Write-Host '
 [1;33m█    [0;1;36m███[0;36m▀▀  ▌███████[0;36;45m▒[0;36;40m███[0;36;45m▒▒▒[0;36;40m█████▐[0;1;36;46m░░░[0;36;45m▒[0;36;40m██▄ [0;35;40m▒    ▀██[0;36;45m░▒▒[0;36;40m▄▄[0m     [36;40m▄▄██▌   [0;1;33;43m▄▄[0;1;33;40m██████▀▀███[0m
 [1;33;40m█    [0;1;36;40m▀[0m      [1;36m▌█[0;1;36;46m█░[0;36m████▀[0;1;36m██▀▀▀[0m       [1;36m▀██[0;36m▀▀[0m            [36m▀▀[0;1;36;46m░░░[0;36m███[0;1;36m▐█[0;1;36;46m▒[0m     [1;33;43m▓[0;1;33;40m███▐ ███ ░▓██[0m
 [1;33;40m█[0;1;33;43m▄[0;1;33;40m▄▄▄▄██ ▌  [0;1;36;40m██▀▀▀[0m                                     [1;36m▀▀█████▌   [0;1;33m▐█████████ ░▓██[0m
-[1;33m██▓ █[0m        [1;36m▀▀ ▄  [0;35m░[0;30;45m▓[0m        [37;40mbumrushing the scene[0m         [1;36;40m░▀▀[0;1;37;40m▀▀  [0;1;33;40m▀▀▀▐███████████[0m
+[1;33m██▓ █[0m        [1;36m▀▀ ▄  [0;35m░[0;30;45m▓[0m        [37;40m                    [0m         [1;36;40m░▀▀[0;1;37;40m▀▀  [0;1;33;40m▀▀▀▐███████████[0m
 [1;33;40m▐██▄██[0m             [1m██[0m          oldschool style!                     [1;33m▀▀▀▀▀▀█████▓[0m
 [1;33m  [0;33m▀[0;1;33m▀▀[0;1;33;43m▀▀▀[0;1;33;40m██▄▄▄[0m            [1m▀[0m                                          [1;33m▄▄▄▄█[0;1;33;43m▀▀[0;1;33;40m▀▀[0;33m▀[0m
 [1;33m▀[0m          [33m▀▀[0;1;33m▀▀▀▀[0m                                              [1;33m▀▀▀▀▀▀[0;33m▀[0m         [1;33m░[0m'

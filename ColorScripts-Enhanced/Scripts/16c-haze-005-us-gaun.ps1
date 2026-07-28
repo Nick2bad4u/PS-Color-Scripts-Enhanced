@@ -5,7 +5,7 @@
 # Source SHA-256: 92c8eb0bfef496bd1d52afedfa01ab3a2be8babbba0960e283c8b6da1e4e9b58
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GAUN.ANS by Aventari + Huma (haze); released in haze_005 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the gauntlet
 # SAUCE Author: aventari/huma
 # SAUCE Group: haze
@@ -47,7 +47,7 @@ Write-Host '
              [1;32;42m▒▓▒░[0;32m████[0;1;32;42m▀█[0m         [1;32;42m▄[0;32m███▄[0;1;32;42m▀▀[0;32m█[0;1;32;42m▄[0;32m▄    [0;1;30m▀  ▄▄    ▄  ▄▄▄▄▄▄▄▄▄[0m     [34m▀▀▀▀▀▀▀▀[0m
               [1;32m▀▀[0;32m▀[0;1;32m▀▀[0;32m▀▀[0;1;32m▀[0m          [32m▀[0;1;32;42m▀█▄[0;32m█[0;1;32;42m▄░▒▓▓[0m                  [1;30;40m▀▀   ▀▀▀▀█▀▀████████[0m
                                       [32m▀[0;1;32m▀▀[0m
-               [1;30myou suckas cant fade this[0m            [31m■   [0;36m▄▄█[0;31;46m░[0;36;40m████▄▄▄ [0;1;31;40m▄[0m
+               [1;30m                         [0m            [31m■   [0;36m▄▄█[0;31;46m░[0;36;40m████▄▄▄ [0;1;31;40m▄[0m
                                                      [31m▀▀[0;36m▄▄[0;31;46m▓▒░[0;36;40m█[0;31;46m░[0;36;40m██▄▄▄[0;1;31;40m▀███▄▄[0;1;30;40m▄██▄▄[0m
                                                      [31m▄█▀▀[0;36m▄[0;31;46m▓[0;36;40m█[0;31;46m░[0;36;40m█[0;31;46m░[0;36;40m▄███▀[0;1;31;40m▄████[0;1;30;40m▀█[0;1;30;41m▓█[0;1;30;40m█[0m
                                      [33m▄▄▄▄▄▄[0m         [31m▀[0m       [36m▀▀▀[0m            [1;30;41m░▓[0;1;30;40m██[0m

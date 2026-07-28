@@ -5,7 +5,7 @@
 # Source SHA-256: 6b8a87cb6e9fbf0dc34a7b47b6752084cbfac24d045a1ba2792a43dd5802f284
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STI-INF.ANS by Stimpy (Shaolin's Finest); released in sf-pak12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Inflicted
 # SAUCE Author: Stimpy
 # SAUCE Group: Shaolin's Finest
@@ -29,10 +29,10 @@ Write-Host '
 [31;40m▒░[0m          [1;30;40m░░[0m               [1;30;40m░░[0m               [1;30;40m░░[0m            [1;30;40m░░[0m               [30;41m▓[0;31;40m▒[0m
 [30;41m▓[0m                                                                           [31;40m░[0;30;41m▒[0;31;40m▓[0m
 [31;40m  [0;1;37;40m [0m         [1m [0m            [41m [0;1;31;41m                            [0m  [1;37;40m      [0m     [1m [0m       [30;41m▓▒[0;31;40m▒▓[0m
-[30;41m▓[0m                         [31;40msong number #2 - by whoever[0m               [30;41m▓[0m   [31;40m░ [0;30;41m▓[0;31;40m░[0;30;41m▒[0;31;40m▓█[0m
+[30;41m▓[0m                         [31;40m                           [0m               [30;41m▓[0m   [31;40m░ [0;30;41m▓[0;31;40m░[0;30;41m▒[0;31;40m▓█[0m
 [30;41m▒[0;31;40m░  ░[0m                     [31;40m                           [0m                      [30;41m▓▒[0;31;40m▓█[0m
-[30;41m░[0;31;40m▒░[0m           [30;41m▓[0m           [31;40msong number #4 - by whoever[0m                     [30;41m▓▒░[0;31;40m██[0m
-[31;40m█▓[0;30;41m▒[0;31;40m░[0m                      [31;40msong number #5 - by whoever[0m            [31;40m░[0m       [30;41m▓▒[0;31;40m▓█[0;1;30;41m░░[0m
+[30;41m░[0;31;40m▒░[0m           [30;41m▓[0m           [31;40m                           [0m                     [30;41m▓▒░[0;31;40m██[0m
+[31;40m█▓[0;30;41m▒[0;31;40m░[0m                      [31;40m                           [0m            [31;40m░[0m       [30;41m▓▒[0;31;40m▓█[0;1;30;41m░░[0m
 [1;30;41m░░[0;31m▓[0;30;41m▒[0;31;40m░[0;30;41m▓▓[0;31;40m░[0m     [31;40m░[0;30;41m▓[0;31;40m░ ░  ░[0m     [31;40msong number #6 - by whoever[0m                   [31;40m░▒[0;30;41m░[0;31;40m█[0;1;30;41m░▒▒[0m
 [1;30;41m▒▒░[0;30;41m░░[0;31;40m▒[0;30;41m▒[0;31;40m▒[0;30;41m▓▓[0;31;40m░░[0;30;41m▓▒▒[0;31;40m▒░▒░[0;30;41m▓[0;31;40m▒░[0;30;41m▓[0m   [31;40msong number #7 - by whoever[0m            [31;40m░[0;30;41m▓▓[0m  [31;40m░[0;30;41m▓[0;31;40m▒▓█[0;1;30;41m░▒▓▓[0m
 [1;30;41m▓▓▒░[0;31m█▓[0;30;41m░[0;31;40m▓▒▒[0;30;41m▒▒[0;31;40m▒▓[0;30;41m░░[0;31;40m▒▓[0;30;41m▒[0;31;40m▒▓▒[0;30;41m▒[0;31;40m░░[0m                                     [31;40m░[0;30;41m▓[0;31;40m░▒[0;30;41m▒▒[0;31;40m░[0;30;41m▓[0;31;40m▒▓▓█[0;1;30;41m░▒▓[0;1;30;40m██[0m

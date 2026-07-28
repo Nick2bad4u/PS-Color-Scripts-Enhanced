@@ -5,7 +5,7 @@
 # Source SHA-256: 501fd1f55485ec49831477bc2762e65ac06e897ba5826f7c22b5e9b14d2f93bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KI-40MIN.ANS by Kiwi (blde9607); released in blde9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 19960724
 # SAUCE Dimensions: 80x44
 # Lines: 1-44
@@ -47,7 +47,7 @@ Write-Host '
                     [1;36m█[0;1;36;47m█▓▓▓▒▒░░  [0m▓▓▓▒░░              ░▒▀▄[1m▄▄[0m
                     [1;36m██[0;1;36;47m▓▒▒░░░░░  [0m▓▓▒▒░░ ░░      ▄▄ ▄ █[1m▓██▀▀[0m
                     [1;36m█▌[0m▄▀█▀▄▄[41m ▀[0;40m██▀ [0;1;30;40m▄▄▄[0m  ▄ ▄  █[1;47m░░[0m▐[1;47m▒[0m▐[1m▓▓[0m [1m▀▀[0m
- [1;36mThis ansi isn''t for▐▄[0;1;36;47m▓░[0m ███[41m▌█ ▄[0;1;30;47m░▒▒▓[0;1;30;40m█▀[0;1;30;47m▒░[0m▐[1;47m░░[0m█ ▀▀▀▀
+ [1;36m                   ▐▄[0;1;36;47m▓░[0m ███[41m▌█ ▄[0;1;30;47m░▒▒▓[0;1;30;40m█▀[0;1;30;47m▒░[0m▐[1;47m░░[0m█ ▀▀▀▀
  [1;36mAnybody. infact, i[0m  [1;36m▀▀[0m   ▀▀[31m██▀[0;37m [0;1;30m▀[0;1;30;41m▀▀[0;31m█▀■▀▀▀▓▓[0m
 [37m [0;1;36mdid it in 40 minutes[0m       [31m▐▌▄■▀▀█▌[0m     [31m▒ [0m
 [37m [0;1;36m                           [0;31m▐▀[0m    [31m▐▌[0m     [31m [0m

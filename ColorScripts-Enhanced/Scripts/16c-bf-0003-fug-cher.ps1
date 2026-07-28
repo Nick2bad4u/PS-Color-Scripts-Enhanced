@@ -5,7 +5,7 @@
 # Source SHA-256: dbe6f57a9386ab3f162acc574aa753de78ab417106c44cf543e6513ec4340c45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FUG-CHER.ANS by fugitivo (x/fusion); released in bf-0003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: chernovil pager
 # SAUCE Author: fugitivo
 # SAUCE Group: x/fusion
@@ -32,7 +32,7 @@ Write-Host '
 [31m█[0;1;31;41m▐█[0;31m█▌ [0;34m▄▄[0;1;34;44m▄[0;34m█▄ [0;31m▀▀▀▌[0;34m▀█[0;1;34;44m░▄[0;34m██▀▀▀[0;1;34m▀▀[0;34m▀▐▀[0;1;34m▀[0;34m▀▀[0;1;34;44m▒[0;34m▀▀[0;1;34m▀▀[0;1;34;44m▓[0;34m▀▀▀[0;1;34m▀▐▀▀■▀▀[0;34m▀▀■▀▀▀▀▀▀▀▀▀[0;1;34;44m▀[0;34m█▄█[0;1;34;44m▄▄[0;34m▄▄[0;1;34;47m▓[0;1;34;44m▓[0m [31m▌▀▀▀ [0;34m▌[0;31m █[0m
 [31m▐█[0;1;31;41m▒▄[0;31m█  [0;34m▀█[0;1;34;44m█▄▒░[0;1;34;47m▒▓[0;34m▄▄[0;37m [0;34m▀[0;1;34;44m▐[0;34m█ [0;1;34mr[0;1;30meason[0;1;34m:[0;34m..................................[0;37m [0;34m█[0;1;34;44m▌[0;34m▀▀[0;37m  [0;34m▀▄▄▄█[0;1;34;44m▄[0;34m█▀[0;37m [0;31m▌[0m
 [37m [0;31m█[0;1;31;41m▐█▄[0;31m█[0;37m  [0;34m▐█[0;1;34;44m▀[0;34m█[0;1;34;47m░[0m      [34m█[0;1;34;44m▒[0;34m█▄▄▄▄[0;1;34m▌■▄▄▄[0;34m▄▄▄▄■▄▄▄▄▄▌▄[0;1;34m▄▄[0;34m▄▄▄[0;1;34m■▄▄[0;34m▄▄▄▄[0;1;34m■▄▄▄[0;34m▄▄[0;1;34m▄[0;34m▄█[0;1;34;44m▀[0;34m█[0m        [34m▀▀▀▄▄[0m
-[37m [0;31m █[0;1;31;41m▀▓▄[0;31m█[0;37m [0;31m [0;34m▀█[0m          [31m    [0;37m [0;31m [0m   [1;32mignition secuence started[0;31m    [0m      [31m [0m     [31m▓[0m
+[37m [0;31m █[0;1;31;41m▀▓▄[0;31m█[0;37m [0;31m [0;34m▀█[0m          [31m    [0;37m [0;31m [0m   [1;32m                         [0;31m    [0m      [31m [0m     [31m▓[0m
 [37m  [0;31m █[0;1;31;41m █▓[0;31m█▄ [0m        [34m                      [0;37m [0;32m10[0;34m        [0;31m [0;34m              [0;31m  ▀██▓█▄[0m
 [31m    █[0;1;31;41m ▀▓▄▄[0;31m█████[0;1;31;41m▄[0;31m▒█[0;1;31;41m▄▄▄▄[0;31m██▓███▒███[0;1;31;41m▄▄[0;31m█[0;1;31;41m▄▄[0;31m▓[0;1;31;41m▄▄▄▄▄[0;31m█▒█[0;1;31;41m▄▄▄▄▄[0;31m██[0;1;31;41m▄[0;31m█▒[0;1;31;41m▄▄▄▄▄[0;31m██[0;1;31;41m▄▄▄[0;31m█▓███▒██▌[0m
    [31m  ▀█[0;1;31;41m [0;31m████████▒██▒██████▓█▒█▓██████▒████▓█░█▓███████▒▒████▓████▓▓███▓██▀  [0m

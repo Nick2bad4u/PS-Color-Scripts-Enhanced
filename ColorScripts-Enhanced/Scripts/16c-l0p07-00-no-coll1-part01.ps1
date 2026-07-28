@@ -5,7 +5,7 @@
 # Source SHA-256: fc9d9de31986449a3c2b4de2441b0564d27206823fec8e336635f830ddba8fb9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NO!COLL1.ANS by noches (thelo0p); released in l0p07_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo colly
 # SAUCE Author: noches
 # SAUCE Group: thelo0p
@@ -22,7 +22,7 @@ Write-Host '
     [1m   [0;1;32m █[0;1;32;42m▓▓▓[0;1;37;40m [0;1;36;40m▒▒[0;1;37;40m [0;1;36;40m  [0;1;36;46m░▒▓[0;1;36;40m██[0;1;36;46m▄[0;36m▄[0;1;30m▀■[0;1;37m [0;1;32m▀▀[0;36m░░░░  [0;1;37m [0;1;32m▀▀[0;36m ▄[0;1;36m▄▄▄[0;1;30m▄▀[0m
    [1;32m  [0;32m▄[0;1;32m▄[0;1;32;42m▄▀[0;1;32;40m▀[0;1;30;42m▄[0;1;30;40m▄[0;1;30;46m▀[0;1;36;46m▄▓[0;1;36;40m▀▀[0;1;37;40m▀[0;1;36;40m▀[0;1;36;46m▓[0;1;36;40m█████[0;1;36;46m░[0;1;30;40m▄[0;1;36;46m░░░▒▒▒▒[0;36m▄[0;1;36;46m▄[0;1;36;40m██[0;1;36;46m▒▒[0;1;36;40m█[0;1;37;40m██[0;1;36;40m█[0;1;36;46m▓░[0m          noches/thelo0p
     [1;32m [0;32m▀[0;1;30m▀[0;36m▄[0;1;36;46m▄▄▓▓[0;1;36;40m██[0;1;36;46m▒[0;1;37;40m   [0;1;30;40m▄[0;1;36;40m██████[0;1;36;46m▓░▒▒▒▓▓▓▓[0;1;36;40m█[0;1;36;46m▀[0;1;36;40m▀[0;1;30;46m▄[0;1;30;40m [0;36m░[0;1;36;47m█[0;1;36;40m████[0;1;36;46m▓[0m
-[36m░  ░[0;1;36;46m ▒▓[0;1;36;40m█[0;1;37;40m██[0;1;36;40m████[0;1;36;46m░[0;1;37;40m  [0;1;30;40m▄[0;1;36;46m▄██[0;1;36;40m████[0;1;36;46m▀[0;36m▌[0;1;36;46m▓▓▓[0;1;36;40m████[0;36m▌[0;1;30m ▀[0;32m▄░[0;36m░[0;1;36;47m▓▓[0;1;36;40m███[0;1;36;46m▌[0;1;30;40m▐[0m         [1;30mansi kolekcja numero[0m
+[36m░  ░[0;1;36;46m ▒▓[0;1;36;40m█[0;1;37;40m██[0;1;36;40m████[0;1;36;46m░[0;1;37;40m  [0;1;30;40m▄[0;1;36;46m▄██[0;1;36;40m████[0;1;36;46m▀[0;36m▌[0;1;36;46m▓▓▓[0;1;36;40m████[0;36m▌[0;1;30m ▀[0;32m▄░[0;36m░[0;1;36;47m▓▓[0;1;36;40m███[0;1;36;46m▌[0;1;30;40m▐[0m         [1;30m                    [0m
     [1;32m██[0;36m▀[0;1;36;46m▀[0;1;36;40m██████[0;1;36;46m [0;1;37;40m [0;1;30;40m▄[0;1;36;46m▄██████▀[0;1;30;40m▀[0;36m▌[0;1;36m███████[0;1;37m [0;1;32;42m▄▄[0;1;32;40m█[0;1;32;42m [0;1;32;40m [0;1;36;47m█[0;1;36;40m████[0;1;36;46m▌[0;1;30;40m▐[0;32m ░▄▄   [0;37m  [0;1;30muno.[0m
     [1m  [0;32m▀[0;1;36m▐[0;1;36;47m▒[0;1;36;40m█████[0;1;36;46m [0;1;30;40m▄[0;1;36;46m▄[0;1;36;40m████[0;1;36;46m▓▓[0;1;36;40m▀[0;1;30;40m▀[0;32m▄[0;36m▌[0;1;36;47m███▓▓▓▓[0;1;37;40m [0;32m░▀▀█[0;1;30m [0;1;36;47m███▓▓▓[0;1;30;40m▐[0;32m░▀[0;1;32;42m ▀[0;32m▀  [0m
 [37m [0;32m▄[0;37m  [0;1;32m░░░[0;1;37m [0;1;36;47m▓▓▓▓[0;1;36;40m██████[0;1;36;46m▓▒░[0;1;30;40m▀[0;36m░[0;1;32m▄[0;1;32;42m▄▓[0;36m▌[0;1;36;47m▓▓▓▒▒▒▒[0m■[1;32m [0;36m [0;1;32m [0;32m░[0;36m▐[0;1;36;47m▓▓▓▒▒▒[0;1;30;40m▐[0;1;32;40m▓▓▓[0;32m▐ [0;1;32m▀[0m   [1;30munseen nah ipc[0m

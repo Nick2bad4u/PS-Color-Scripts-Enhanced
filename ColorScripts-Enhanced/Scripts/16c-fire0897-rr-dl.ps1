@@ -5,7 +5,7 @@
 # Source SHA-256: 23a14e53d6bd95f94f491192109b94dedbba6d2a457a17f6efc36a3631134422
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-DL.ANS by riddler (fire); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dl
 # SAUCE Author: riddler
 # SAUCE Group: fire
@@ -28,7 +28,7 @@ Write-Host '
 [37;40m  [0;1;30;40m▀[0;1;30;47m█▓▒▒▒░░▒▓▓[0m▒[34m [0;30;44m▄█[0;34;40m■[0;37;40m  [0;30;44m▓░[0;1;34;40m▄[0m  [1;30;47m▄[0;1;30;40m▀[0;1;30;47m▓▀[0m█[1;47m▀[0m▀█▄▄█▀ ░[30;47m░[0;37;40m█[0;1;30;47m░░░░[0m█[1;30;47m░[0;30;47m░░[0;37;40m [0;1;30;40m▀ [0m but i think it was  [34m   ▀[0m
 [1;30m░▓▓[0;1;30;47m▀[0;1;30;40m█▀▀[0;1;30;47m▓▓▓▓███[0m  [1;30m▀▄▄▌[0m  [34m▀[0;37m [0;1;30m░[0;1;30;47m▓▀░▄▄▓▓▒▒░[0m▌ ░[30;47m░[0;1;30;47m░░▒▒▒▒░░░[0m▓[1;30m░[0m    something cool [1;30m=)[0m   [34m░░  [0m
 [37m [0;1;30m░▀▀[0;1;30;47m▄[0;1;30;40m█▄▓░▀▀[0;30;47m▓[0;1;30;47m▓▓[0;1;30;40m█▄▄▌[0m [1;30m▀▀▓░▄▄▓█[0;1;30;47m█[0;1;30;40m▀█▀▀▓░▀▀▄[0m [1;30m█[0;1;30;47m▓▓▓▓▓[0;1;30;40m▀[0;1;30;47m▓▓[0;1;30;40m▓░[0m                        [34m [0;30;44m░░[0;34;40m░[0m
-[37;40m  [0;34;40m░[0;1;30;40m ▌  ▀▓░ ▄▄[0m [1;30m▀▓▓[0;1;30;47m▓██[0;1;30;40m▄▄▓▀▀[0;1;30;47m▄▓▀[0;1;30;40m▓▓█[0;30;47m▓▓[0;1;30;40m▓▓░[0m [1;30m▀[0m [1;30m▀█[0;30;47m▓▓[0;1;30;47m▓▓▒[0;1;30;40m▄[0m  [1;30m▄▌[0m  my first ansi after  [1;34;44m░ [0;30;44m░[0m
+[37;40m  [0;34;40m░[0;1;30;40m ▌  ▀▓░ ▄▄[0m [1;30m▀▓▓[0;1;30;47m▓██[0;1;30;40m▄▄▓▀▀[0;1;30;47m▄▓▀[0;1;30;40m▓▓█[0;30;47m▓▓[0;1;30;40m▓▓░[0m [1;30m▀[0m [1;30m▀█[0;30;47m▓▓[0;1;30;47m▓▓▒[0;1;30;40m▄[0m  [1;30m▄▌[0m                       [1;34;44m░ [0;30;44m░[0m
 [37;40m  [0;30;44m▒[0;34;40m▄[0;1;34;40m▄[0m [34m  [0;37m    [0;1;30m▓░[0m    [1;30m▀[0;1;30;47m▄░▓[0;1;30;40m▓░[0m   [1;30m▀▀▄█▀▀[0;1;30;47m▓░▀[0;1;30;40m▄[0m  [1;30m░▓▓[0;1;30;47m█[0;1;30;40m█▀▀[0;1;30;47m▄▓[0;1;30;40m▄▓▓▄[0m   one month break[1;30m.[0m  [34m░▓█[0;1;34;44m░[0;34m [0m
 [37m [0;34m▄[0;1;34;47m▀▓[0;34m▀ [0;37m    [0;34m▄[0m     [37m   [0;1;30m▐[0;1;30;47m▓[0;1;30;40m▀[0m [34m   [0m    [1;30m▐▀[0m [1;30m░░▀[0;1;30;47m▄░[0m▄  [1;30m▀▀▓░░[0m [1;30m ▀▀▄[0m                 [34m▄░░[0m   [34m▀[0;1;34;44m▄[0;1;34;47m▀[0;34m▄[0m
 [37m [0;34m ▀[0;1;34m▀[0;1;34;44m▀█▓[0;1;34;47m▓▓[0;1;34;40m▀[0;1;34;47m▀[0;1;34;44m▄[0;1;34;40m▄[0;34m▄█▓░░[0;37m [0;1;30m▀[0m [1;34m▄[0;1;34;47m▀[0;1;34;44m░[0;34m▓▓▒░░      [0;37m [0;1;37m ░░[0m▀ [34m [0;37m [0;1;30m▌ [0m  [1;34mrr[0;34m [0;37m  [0;34m░░▒[0;30;44m░░░[0;34;40m█[0;1;34;44m░░▓[0;1;34;47m▀[0;1;34;44m▄[0;34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;47m▀ [0;1;34;40m▓[0;34m▓[0;1;34;47m▓▓▄[0;1;34;44m▀[0;1;34;40m▀[0;34m▀   [0m

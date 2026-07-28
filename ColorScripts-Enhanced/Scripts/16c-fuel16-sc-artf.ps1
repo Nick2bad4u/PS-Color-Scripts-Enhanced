@@ -5,7 +5,7 @@
 # Source SHA-256: c7b420d23a006c370cad86a4720613bde1f377c67b16fb6ed9265fad27573b27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-ARTF.ANS by scound (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: artflow
 # SAUCE Author: scound
 # SAUCE Group: fuel
@@ -33,8 +33,8 @@ Write-Host '
 [1;34;44m▀[0;34m▀  ▄[0;1;34;44m▐█[0;34m▌ ▐[0;1;34;44m▐█[0;34m██[0;1;34;44m░░[0;34m██[0;1;31;44m ▀[0;34m▄▄▄█[0;1;31;44m░[0;34m▄░[0;1;31m▀▀░[0;34m░[0;1;31m▄[0;34m▄[0;1;31;44m░[0;34m███▄[0;1;31m▄[0;34m▄[0;1;31;44m  ░[0;34m██[0;1;31;44martflOw?!░↑[0;34m█[0;1;31;44m↓[0;34m████████[0;1;31;44m░[0;34m▄[0;1;31m▄[0;34m▄[0;1;31;44m░[0;34m█▀▄▄███▄ [0m
 [34m▄▄█[0;1;34;44m░▄█▌ [0;34m  ▐[0;1;34;44m▀▓[0;34m█████[0;1;34;44m [0;34m███████████████████████[0;1;31;44m [0;34m██[0;1;31;44m [0;34m████████████▀▀▄█████[0;1;34;44m▄[0;34m███▀██[0;1;34;44m░▄▄██░[0;34m▌[0m
 [1;34;44m▄▄███▀  [0;34m█▄▄▀▀████[0;30;42m[[0;1;37;42mCOMMAND STUPH[0;30;42m][0;34;40m█████[0;1;31;44m[[0;1;37;44mcommand stuph[0;1;31;44m][0;34m█████░ ██[0;1;34;44m▄▄█▀[0;34m███▌░██[0;1;34;44m█████▌ [0;34m█[0m
-[1;34;44m▀▀▀      [0;34m█████▄██[0;1;31;44m[[0;1;37;44mcommand stuph[0;1;31;44m][0;34m█████[0;1;31;44m[[0;1;37;44mcommand stuph[0;1;31;44m][0;34m████▌ ▐██[0;1;34;44m██▌▄░[0;34m█▌ ▐[0;1;34;44m░███████[0;34m██[0m
-[34m ░▀▀▀████████████[0;1;31;44m[[0;1;37;44mcommand stuph[0;1;31;44m][0;34m█████[0;1;31;44m[[0;1;37;44mcommand stuph[0;1;31;44m][0;34m████░  ▀██[0;1;34;44m▀▀█▌[0;34m█[0m   [34m██[0;1;34;44m█▀▀▀░░[0;34m█▌[0m
+[1;34;44m▀▀▀      [0;34m█████▄██[0;1;31;44m [0;1;37;44m             [0;1;31;44m [0;34m█████[0;1;31;44m [0;1;37;44m             [0;1;31;44m [0;34m████▌ ▐██[0;1;34;44m██▌▄░[0;34m█▌ ▐[0;1;34;44m░███████[0;34m██[0m
+[34m ░▀▀▀████████████[0;1;31;44m [0;1;37;44m             [0;1;31;44m [0;34m█████[0;1;31;44m [0;1;37;44m             [0;1;31;44m [0;34m████░  ▀██[0;1;34;44m▀▀█▌[0;34m█[0m   [34m██[0;1;34;44m█▀▀▀░░[0;34m█▌[0m
       [34m░░▀▀[0;34;44m████[0;34;40m█████████████████████████████████████████▌[0m     [34;40m░▀▀█[0;1;34;44m▀[0;34m█▌[0m   [34m▀▀████▀▀[0m
 [34m            ▀▀▀████████████[0;1;31;44m[[0;1;37;44mcommand stuph[0;1;31;44m][0;34m████████████▀░[0m         [34m░▀█▄░[0m
 [1;34mscound[0;34m([0;1;34mfuel[0;34m)     ░▀▀▀▀▀▀█████████████████████▀▀▀▀▀[0m                  [34m░▀▀ ▄[0m'

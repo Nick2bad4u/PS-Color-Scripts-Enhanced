@@ -5,13 +5,13 @@
 # Source SHA-256: 263f42aaf052e4d0e2e21027d25b54e1d33222e7a915a0a5299186d064f30eff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-SS.ANS by Smooth (tl199411); released in tl199411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 48-97
 # Columns: 1-80
 
 Write-Host '
      [1;30;47m▓[0m    [1;30;40m▄[0m [1;30;40m▀[0m         [1;30;40m▓[0m      [1;30;40m▒[0m       [1;30;40m▓[0m
-    [1;30;40m▓[0m [1;30;40m▄[0m  [1;30;40m▀[0m   [1;30;40m▒[0m  [1;30;40m▄▀[0m     [1;30;40m▀[0m     [1;30;40m░[0m            [1;30;40m [0;1;37;40mD[0me[1;30mepstah: Hope this iz [0m
+    [1;30;40m▓[0m [1;30;40m▄[0m  [1;30;40m▀[0m   [1;30;40m▒[0m  [1;30;40m▄▀[0m     [1;30;40m▀[0m     [1;30;40m░[0m            [1;30;40m [0;1;37;40m [0m [1;30m                     [0m
    [1;30m░[0m   [1;30m▓[0m   [1;30m  ▄▀[0m          [1;30m▀[0m           [1;30m▀[0m  [1;30m [0;1;37m [0m [1;30m                          [0m
  [1;30m▄[0m      [1;30m░[0m [1;30m▓▀[0m   [1;30;47m▓[0m          [1;30;40m▒[0m             [1;37;40m [0m [1;30m                            [0m
 [1;30m▓[0m    [1;30m▄▀[0m  [1;30m▓[0m      [1;30m▀■[0m         [1;30;47m▓[0;1;30;40m▀▄[0m

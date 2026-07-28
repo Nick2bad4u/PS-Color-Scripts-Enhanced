@@ -5,7 +5,7 @@
 # Source SHA-256: 07d198d4819510c31210993466ab292bdace13796caea2d51b40b763521a4709
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-HOARD.ICE by BodyCount (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hoard Magazine
 # SAUCE Author: BodyCount
 # SAUCE Group: iCE
@@ -45,7 +45,7 @@ Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀[0m  [1;33m░[0m [1;30m▀▀[0m    [1;33m▀[0;34m▀[0m [1;33m▒▀▀[0m   [1;33m░░▓[0m [34m [0;1;33m▀▀[0m  [1;33m▀▀▀▓[0m   [1;30m▀[0m    [34m▀[0m [1;30m▀▀▀[0m [1;33m░[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
                                 [1;33m░[0m         [1;33m░[0m
 [1;37m [0m    [1;37m [0m▀[1m▀▀[0;1;47m▀[0;1;40m█▄▄[0m        █[1m█▓░[0m     [1m        [0m                        [1m [0m     ▄[1m▄█▓░   [0m
-           ▀[1;47m▀[0;1;40m██▄[0m     █[1m██[0m   W[1melcome [0mT[1mo [0mH[1moard [0mI[1mssue 1[0m           [1m [0m     █[1m██▌ [0m
+           ▀[1;47m▀[0;1;40m██▄[0m     █[1m██[0m    [1m       [0m [1m  [0m [1m     [0m [1m      [0m           [1m [0m     █[1m██▌ [0m
             [1;37m [0m█[1m██▌[0m    █[1m██[0m  [1m       [0m   [1m [0;1;30m   [0m          ▄[1m▄[0m▀[1m▀[0;1;47m▀[0;1;40m█▄[0m    [1;40m [0m     [1;40m [0m█[1m██ [0m
              ▐[1;47m▐[0;1;40m██[0m    █[1m██[0m  [1m   [0m  [1m [0m       [1m [0m▄[1m▄▄[0m     ▄[1;47m▄[0;1;40m█▌[0m   [1;47m [0;1;40m██ [0m [1;40m [0m       █[1m██ [0m
               █[1m██[0m [1m   [0m█[1m██[0m ▄[1m▄▄▄[0m [1m  [0m    [1m [0m▄[1;47m▄[0;1;40m█▀▀▀▓█▄▄[0;1;47m▄[0;1;40m███[0m    ▐[1;47m▐[0;1;40m█▌ [0m   ▄[1m▄▄▄[0m [1;47m [0;1;40m██[0m [1;40m  [0m

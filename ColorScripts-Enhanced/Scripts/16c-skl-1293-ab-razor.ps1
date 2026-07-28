@@ -5,7 +5,7 @@
 # Source SHA-256: a9f579dcc185a3840dc5324749116054289e98a911d54dba3cc3348b962b42fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-RAZOR.ANS by Abomination (skl-1293); released in skl-1293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -45,4 +45,4 @@ Write-Host '
                                                     [31m██[0;31;47m█▄[0m██████████████████
                                                [31m▄▀▀▄  ▀███[0;31;47m▄ [0m█████████████▀  [31m▄▀▀[0m
                                                     [31m▀▄  ▀▀█[0;31;47m█▄▄▄[0m█████▀▀
-  [34m.\[0;1;34mb[0;36mo[0;1;36mm[0mi[1mnation [0;1;30m[[0;1mSKiLL[0;1;30m/[0miCE [1mTrial[0;1;30m]   [0;31m▄   ▄ ▄▄ ▄▄▄▄▄▄▄██████████[0;31;47m█[0;31m████████████▄▄▄▄▄▄[0m'
+  [34m  [0;1;34m [0;36m [0;1;36m [0m [1m       [0;1;30m [0;1m     [0;1;30m [0m    [1m     [0;1;30m    [0;31m▄   ▄ ▄▄ ▄▄▄▄▄▄▄██████████[0;31;47m█[0;31m████████████▄▄▄▄▄▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8c3edb22cdaae9783fae88afacc9f40e213da5a903d7c572e5e064d31f21d832
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZNYK-10.ANS by dieznyik (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: _[\2 012[[___ _[\ _[[2\\\[2_  ]
 # SAUCE Author: dieznyik
 # SAUCE Date: 19960917
@@ -36,5 +36,5 @@ Write-Host '
   [35m▀[0;37m  [0;1;35m░░░[0m [35m░[0;30;45m▓[0;37;40m [0;35;40m  [0m    [32;40m▀[0;30;42m░[0;32;40m▓[0m    [36;40m░[0m     [1;35;40m░[0m [35m░[0;30;45m▓[0;37;40m [0;35;40m░[0;30;45m░[0;35;42m░[0;1;32;42m▓[0;1;32;47m▓[0;1;32;42m▓▌[0;35m░[0;32m█[0;1;32;46m█▓[0;1;32;47m▓[0;32m█[0;30;45m░[0;35;40m░[0m     [35;40m▀▀░[0;30;45m▓[0m     [1;35;40m░░░[0m  [35m▀[0;30;45m▓[0;37;40m [0;35;40m▐[0;30;45m░[0;35;40m▀[0m   [1;35;40m░[0m
                     [32m░[0m                [30;45m▒[0;32;40m█[0;1;32;42m█▓░█▄[0;1;32;46m▓[0;1;32;47m▓[0;1;32;42m▓[0;30;42m░[0;37;40m [0;35;40m░[0m                       [30;45m▓▓[0;37;40m [0;36;40md13[0m
                       [30;42m▓[0m              [35;40m░[0;32;40m▐[0;1;32;42m▐▀[0;32m█[0;1;32;42m░▓█▓[0;30;42m░[0;32;40m░[0m   [32;40m░[0;30;42m▓[0m                          [30;45m▓[0m
-[37;40mlike rabbits in a hole..[0m              [32;40m ▀[0;30;42m░[0;1;32;42m▐[0;1;37;42m▒[0;1;32;42m█▀[0;32m▀[0m
+[37;40m                        [0m              [32;40m ▀[0;30;42m░[0;1;32;42m▐[0;1;37;42m▒[0;1;32;42m█▀[0;32m▀[0m
                                         [30;42m▓[0m'

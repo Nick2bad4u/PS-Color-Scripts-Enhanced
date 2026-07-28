@@ -5,7 +5,7 @@
 # Source SHA-256: b396f95427b73d78c2a2ce252eb85f9d5330cad68c814c51dfa71111aa667dc6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DDN.ANS by Misfit + Trip (Apathy Studios); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Daydream Nation
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Apathy Studios
@@ -38,5 +38,5 @@ Write-Host '
 [1;31;41m▓▐▄[0;1;31;40m▄[0;31m▄▄▄▀▀▀▀██[0;1;31;41m▀░[0;31m████[0;1;30m▓░[0m  [31m░▄[0;1;31;41m░[0;30;41m░[0;31;40m▒░[0;37;40m    [0;31;40m░░[0;37;40m    [0;31;40m░[0m    [1;30;40m  ░█▌                       ▒[0;1;30;47m▓[0;1;30;40m▌[0m
 [1;31;41m▓▓▓░▒░[0;31m█[0;1;31;41m░░[0;31m██▄▄▄▄▀▀▀[0;1;30m▀[0m   [1;31m▄[0;1;31;41m▓▒░[0;31m▒░▒░[0;37m        [0;31m░[0m        [1;30m█▀ here, or whatever..[0m   [1;30m▓█▌[0m
 [1;31;41m░░░[0;31m█[0;1;31;41m░[0;31m█████▄█▀██[0;1;30;41m░▒▓[0;1;30;40m▄[0m  [1;31m▐[0;1;31;47m▓[0;1;31;41m▓░[0;31m█▓▒░[0;37m             [0m     [1;30;47m▓[0;1;30;40m▌ lalalalalalalalalala  ▐[0m▒[1;30m▌[0m
-[31m▒▓▓██▓█[0;1;31;41m░░ [0;31m█[0;1;30;41m░[0;31m▌▐▓█[0;1;30;41m░▒[0;1;30;40m▒░[0m  [1;31m▀[0;31m▀▀▓▒░[0;37m [0;1;30m ansi by mt & ti  ▀─────-───────[[0mnation[1;30m]──▀▐▀ [0m
+[31m▒▓▓██▓█[0;1;31;41m░░ [0;31m█[0;1;30;41m░[0;31m▌▐▓█[0;1;30;41m░▒[0;1;30;40m▒░[0m  [1;31m▀[0;31m▀▀▓▒░[0;37m [0;1;30m                  ▀───── ─────── [0m      [1;30m ──▀▐▀ [0m
 [1;30m------ (ut-cay ere-hay) --------------------------------------------------------[0m'

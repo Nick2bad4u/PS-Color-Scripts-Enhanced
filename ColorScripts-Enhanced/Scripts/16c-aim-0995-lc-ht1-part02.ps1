@@ -5,7 +5,7 @@
 # Source SHA-256: d44deb7dda7f9b7abbaaf947f1a447caf3a89857018e748bc0d7234009cb0936
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LC-HT1.ANS by Luc (.o AiM o.); released in aim-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: High Times BBs ansii
 # SAUCE Author: Luc
 # SAUCE Group: .o AiM o.
@@ -51,7 +51,7 @@ Write-Host '
 [1;30;40m▄▄▄[0m [33m▀[0;1;30;43m▄[0;33m█████▄██[0;37m [0;33m [0;1;30m▄▄▄ [0;33m  [0;1;30m▄▄▄▄▄▓▄▄▄[0m [1;30m▄[0m     [1;30m▄[0m  [1;30m▄▄[0m  [1;30m▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄[0m [1;30m▄▄▄▄▄[0m
   [1;30m▄[0;33m [0;37m [0;1;30;43m▓▀[0;33m█▄█▀ ▀█ ▄▄▄▄▄▓ [0;1;30m    [0;33m [0;1;30m▀[0;33m           [0m                   [1;30m▀[0m         [1;30m▀[0m
 [1;30m  █ [0;34m [0;1;30;43m▒ [0;33m███▓▄██[0;37m [0;1;30;43m▄[0;33m▄ ▄██[0;37m [0;1;30;43m▄ [0;33m██▓█▀█▀[0;1;30;43m▄[0;33m████▄[0;37m [0m     [33m  [0;37m [0;33m-[0;37m [0;33mHiGH TiMeS - w00ped by Shroom -[0m
-[37m  [0;1;30m█ [0;33m [0;1;30;43m░ [0;33m█████▄█[0;37m [0;1;30;43m▓▀[0;33m█▀██[0;37m [0;1;30;43m▓▀[0;33m██████[0;37m [0;1;30;43m▓▀[0;33m██[0;1;33;43m░[0;33m█[0m        [33m     - Teklordz Member Board -[0m
+[37m  [0;1;30m█ [0;33m [0;1;30;43m░ [0;33m█████▄█[0;37m [0;1;30;43m▓▀[0;33m█▀██[0;37m [0;1;30;43m▓▀[0;33m██████[0;37m [0;1;30;43m▓▀[0;33m██[0;1;33;43m░[0;33m█[0m        [33m                              [0m
 [37m [0;1;30m▀█ [0;33m [0;1;30;43m░ [0;33m███████▄[0;1;30;43m▒[0;33m█████[0;37m [0;1;30;43m▒ [0;33m██████[0;37m [0;1;30;43m▒[0;33m██[0;1;33;43m ▓[0;33m█[0m       [33m         - AiM Distro Cite -[0m
 [37m  [0;1;30m█[0;33m  [0;1;30;43m░ [0;33m█████[0;1;33;43m░[0;33m█▓[0;1;30;43m░[0;33m███[0;1;33;43m░[0;33m█[0;37m [0;1;30;43m▒ [0;33m████[0;1;33;43m░[0;33m█[0;37m [0;1;30;43m░[0;33m█[0;1;33;43m■▀▀[0;33m█[0m       [33m  - Thats all Know - Huhu - Huhu -[0m
 [37m  [0;1;30m▀[0;33m  [0;1;30;43m   [0;33m████[0;1;33;43m [0;33m█▀██████[0;37m [0;1;30;43m░ [0;33m████[0;1;33;43m [0;33m█[0;37m [0;33m      [0;1;30m▄[0m       [33m      - I duno ''da numbah -[0m    [1;30m▄[0m

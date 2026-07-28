@@ -5,7 +5,7 @@
 # Source SHA-256: a9ffc5184691c6c1e4761bbfbca9dff8f3cb84f4e8831ddb71cdd9a8cdcc5807
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-fuel30.ans by Warpus + Quip (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fuel #30
 # SAUCE Author: Warpus & Quip
 # SAUCE Group: Fuel
@@ -55,7 +55,7 @@ Write-Host '
 [37m  [0;1;30m█[0m▓▓█ ▐█▌[1;30m▒██████▒██▀█▌[0;30;47m█[0;1;32;40m▀[0;1;32;47m███[0;1;32;40m█▄▄[0m▄▄▄[1;32;47m███▀▀[0m██▀▀▀▀               [30m█[0m
 [37m  [0;1;30;47m▀[0m██████▌[1;30m▒██████░█▄▄[0;30;47m█[0;1;30;40m▀░░[0m [1;32m▀▀████[0;1;32;47m▀[0m▀▀▀ [30;47m█[0m                     [30;40m█[0m
 [37;40m ▀[0;1;30;40m█[0m ▀█[1;47m░░░[0m▌[1;30m▒██████[0m [1;30m█▓▓[0m [30;47m█[0;37;40m [0;1;30;40m [0;30m [0;30;47m████[0m       [30;47m█[0m                     [30;40m█[0m
-[37;40m  [0;1;30;40m▓[0m ▐█[1;47m░░░[0m▌[1;30m▒░░░░░░ ░░░ IG: @fuelwtf / @smetnoc / @quipansi[0m  [30m█[0m
+[37;40m  [0;1;30;40m▓[0m ▐█[1;47m░░░[0m▌[1;30m▒░░░░░░ ░░░                                    [0m  [30m█[0m
 [37m  [0;1;30m▒ [0m ▓▓▓▓▌[1;30m▒[0m
   [1;30m░[0m   ▒▒▒▌[1;30m░[0m  Fuel #30!
        ░░▌[1;30m░[0m

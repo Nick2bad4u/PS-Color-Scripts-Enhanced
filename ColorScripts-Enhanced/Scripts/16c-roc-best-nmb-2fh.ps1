@@ -5,7 +5,7 @@
 # Source SHA-256: 767bcf79f2a3c132488cfdc4284f54ae75747af681b7db8778de4c98f1b61b92
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NMB-2FH.ANS by Ninja-Man Bob (Rulers Of Chaos); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Too Fucking Hostile
 # SAUCE Author: Ninja-Man Bob
 # SAUCE Group: Rulers Of Chaos
@@ -36,6 +36,6 @@ Write-Host '
  [1;30m [0;1;30;47m█▓██[0;1;30;40m█▌▀▀▀▓[0m [1;30;40m [0;1;30;47m▓[0;1;30;40m███▐█░▐█[0;1;30;47m▒[0;1;30;40m█▌▀▀█[0;1;30;47m▓▒[0;1;30;40m▄[0m  [1;30;40m██▌[0m   [1;30;40m█[0;1;30;47m█[0;1;30;41m▓[0;1;30;40m▌▐[0;1;30;47m▒█[0;1;30;40m█▌░[0m  [31m▀▀ ▄▄[0;1;31;41m░[0;31m██[0;1;31;41m░▒░[0;31m█▄▀▀▀▀ ░ ░[0m  [31m [0m
   [1;30;47m▓▒██[0;1;30;40m█▌░[0m  [1;30;40m▒[0m  [1;30;40m████▐█▒▄[0;1;30;47m▒░▓[0;1;30;40m ▄░▀█[0;1;30;47m▓[0;1;30;40m▀ ▐[0;1;30;47m▓[0;1;30;40m█  [0m  [1;30;47m█▓█[0;1;30;40m▌▐[0;1;30;47m░▒▓[0m [1;30;40m▒▄[0;1;30;47m▓[0;1;30;41m▓[0;1;30;40m▄[0;31m▐▀                [0m
  [1;30m▐[0;1;30;47m▒░██[0;1;30;40m██▒[0m  [1;30;40m  ▄[0;1;30;47m▓[0;1;30;40m██▌▀[0;1;30;47m▓[0;1;30;40m██▀▀▒ [0;1;30;47m▓[0;1;30;40m█▄▄▄■ ▐[0;1;30;47m▒▓[0;1;30;40m▌░■ [0;1;30;47m█▒▓[0;1;30;40m █[0;1;30;47m▒▓[0;1;30;40m█[0m [1;30;40m▐[0;1;30;47m▓▒[0;1;30;40m▐▀[0;31m·[0;1;30m■░[0;31m [0;1;37ms[0mysop[1;30m zealot[0m
-[1;30m [0;1;30;47m▓░ ▒█▓[0;1;30;40m██[0m  [1;30;40m▀▀█[0;1;30;47m▒▓[0;1;30;40m▀▒ [0m     [1;30;40m░[0m  [1;30;40m▀▀▒ [0m  [1;30;40m ▀▀▀[0m  [1;30;40m▀█[0;1;30;47m░[0;1;30;40m▀ █[0;1;30;47m▓█[0;1;30;40m█▄ ▀[0;1;30;47m▓[0;1;30;40m▄▄▀[0m [1;37;40mroc[0;1;30;40m [0mm[1;30member board[0m
+[1;30m [0;1;30;47m▓░ ▒█▓[0;1;30;40m██[0m  [1;30;40m▀▀█[0;1;30;47m▒▓[0;1;30;40m▀▒ [0m     [1;30;40m░[0m  [1;30;40m▀▀▒ [0m  [1;30;40m ▀▀▀[0m  [1;30;40m▀█[0;1;30;47m░[0;1;30;40m▀ █[0;1;30;47m▓█[0;1;30;40m█▄ ▀[0;1;30;47m▓[0;1;30;40m▄▄▀[0m [1;37;40m   [0;1;30;40m [0m [1;30m           [0m
 [1;30m ▀[0;1;30;47m▒▒█[0;1;30;40m██████▄▄▄▄▄▄■[0m [1;30;40m running [0m [1;30;40m░[0m [1;30;40mshockwave▓[0m [1;30;40m ░▒▀▀▀[0;1;30;47m▓[0;1;30;40m█▄▄▄ [0m    [1;37;40m7[0m03[1;30m [0mT[1;30mRY 2CALL[0m
    [1;30m▀▀▀▀▀▀▀▀▀▓▀▀[0m  [1;30m [0m                      [1;30m▒[0m   [1;30m░ [0m      [1;30m▒ [0m'

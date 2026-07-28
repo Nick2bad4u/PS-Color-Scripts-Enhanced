@@ -5,7 +5,7 @@
 # Source SHA-256: 38cdf07bf56f671f1ae7811cda01a746fd65c963f06f21e65ae35186af30504d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-FCOKE.ANS by Colourless (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Free Coke
 # SAUCE Author: Colourless
 # SAUCE Group: awe lettering
@@ -22,7 +22,7 @@ Write-Host '
      [31m▐▌  ▀[0;1;31;41m░[0;31m▄▄▄[0;1;31;41m░░▄▐▓[0;1;31;40m███████[0;1;31;41m▄[0;1;31;40m▄▄[0;31m▄[0;37m▀▀▀▀[0;37;47m  [0;35;47m░░[0;30;47m░[0;37;40m▒[0;30;47m▓[0m          [31;40mfree coke[0m
       [35;41m░[0;31;40m░  ▐██[0;1;31;41m▄▄▓██▄▌▀▀▀▀░[0;1;31;40m█████[0;1;31;41m▄▄▄[0;31m▄▄[0m
      [31m▐▌  ▄[0;1;31;41m░░[0;31m█▀▀▀▀  [0;37m▄▄▄▄ [0;31m▀▀▀▀[0;1;31;41m▀▀▀[0;1;31;40m███[0;1;31;41m▓▄▄[0;31m▄▄ [0;35m░[0m
-     [31m▀▀[0;35;41m░[0;31;40m▀▀  ▄▌▄ [0;37;40m▀[0;37;47m      [0;37;40m▌▄[0;37;47m [0;30;47m░[0;37;40m▄▄  [0;31;40m▀[0;1;31;41m▀[0;1;31;40m█████[0;1;31;41m▌▄[0;31m▄[0m        [31mthe night angel [0;1;31mtna [0;31mawe[0m
+     [31m▀▀[0;35;41m░[0;31;40m▀▀  ▄▌▄ [0;37;40m▀[0;37;47m      [0;37;40m▌▄[0;37;47m [0;30;47m░[0;37;40m▄▄  [0;31;40m▀[0;1;31;41m▀[0;1;31;40m█████[0;1;31;41m▌▄[0;31m▄[0m        [31m                [0;1;31m    [0;31m   [0m
      [35m░░ [0;31m▄ ▀▐[0;1;31;41m▐▄[0;1;31;40m░[0;31m▄▌[0;37m▐[0;37;47m    [0;1;37;47m░░  [0m▀  [31m▄[0;1;31;41m▄▄[0;1;31;40m████████[0;1;31;41m▓[0;31m▓░[0m      [31mfluor [0;1;31m09 [0;31mawe[0m
        [31m▐▌ ▄[0;1;31;41m▄[0;1;31;40m█[0;1;31;41m▓▄░ [0;31m▄▄[0;37m▀▐[0;31;47m░[0;1;37;41m▓[0;1;37;47m▓░[0m   [31m▐[0;1;31;41m▐[0;1;31;40m███████████[0;1;31;41m▌[0;31m▌[0m      [31mblack viper [0;1;31mbv [0;31mice[0m
         [31m▀▄  [0;1;31m▀▀▀▀[0;31m▌▄▄▄ [0;37m▐[0;1;37;47m░░[0m▌   [31m░[0;30;41m░[0;1;31;41m▓[0;1;31;40m███████[0;1;31;41m▓[0;1;31;40m▀▀[0;31m▀[0m
@@ -32,7 +32,7 @@ Write-Host '
        [31m░[0;31;47m░[0;37;40m▌ [0;31;40m█[0;1;31;41m▓[0;31m██▄▄  ▐[0;1;31;41m▐█▌[0;31m▌ [0;37m▐[0;37;47m      [0;1;37;40m░[0m▄ [31m▀[0;37mcl ▄[0m
        [31m░[0;37m▀░[0;31m▐[0;1;31;41m▐█▄░[0;31m█▌[0;37m░▄[0;31m▀[0;1;31;41m▀▓[0;31m▀ [0;37m▄[0;37;47m         [0;37;40m▌ ▄[0;37;47m  [0;37;40m▌[0m
          [31;40m▀█[0;1;31;40m█▀▀▀[0;30;41m░[0;31;40m▀ [0;37;40m▐[0;30;47m░[0;37;40m▄▄[0;37;47m            [0;37;40m▄[0;37;47m    [0m
-       [1;31;40m▀ ▄ [0m▄[1;47m▄[0;1;40m█▌▄ [0;1;31;40m▄ [0m▀[47m [0;40m▄[0;47m   [0;1;47mfree coke    [0;31;47m░[0;31;40m▒[0;30;41m▓[0;37;40m [0;35;40m░[0m        [31;40mto be in da 514[0m
+       [1;31;40m▀ ▄ [0m▄[1;47m▄[0;1;40m█▌▄ [0;1;31;40m▄ [0m▀[47m [0;40m▄[0;47m   [0;1;47m             [0;31;47m░[0;31;40m▒[0;30;41m▓[0;37;40m [0;35;40m░[0m        [31;40m               [0m
         [35;40m░[0;1;31;40m▐▌[0m▐[1;47m▐[0;1;40m██▌[0;1;31;40m▐▌ [0m▐[35;47m░    [0;30;47mtna 09 bv  [0;1;37;47m░░ [0m
         [1;31m▄▀[0m▄[1;47m▄▓[0;1;40m██[0;1;41m▓[0m [1;31m▀  [0m▀[47m    [0;30;47mawe roots  [0;1;37;47m▒▒ [0;31m░[0m
      [1;31m▀▀[0m▀▀[1m▀▀██████▄ [0;1;31m▀ [0m▐▀[47m          [0;1;47m░▄▄▓▓ [0;31m░[0m         [31mby colourless [0;1;31mcl [0;31mawe[0m

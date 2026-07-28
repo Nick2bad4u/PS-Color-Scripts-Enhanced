@@ -5,7 +5,7 @@
 # Source SHA-256: 7ce58a48d2acd559ff39f10e202bafa38e855d261a7e564691eac594a5f459f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HS-INF6.ANS by Hellspawn (stn-0694); released in stn-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -50,5 +50,5 @@ Write-Host '
 [34m█▓▓█▓▓▓█▓█▓▓█   [0;31m█████████ ▄█▌ [0;35m░▒█████████▓▓▒░  [0;31m▄ [0;35m▀ [0;33m▒[0m
 [34m█▓███▓██▓█▓ [0;31m▄▄▀▀ ▄██▄█████████▄▄[0;35m▀▀▀▀▀▀▀▀▀▀▀[0;31m▄▄████ [0;33m░[0m
 [34m███████████▄▄   [0;31m███████████████████████████▀▀▄▄▀▀[0m
-[34m███████▀▀▀ [0;31m▄▄ ██████▄████▀▄▄▄█████████▀██▀▄██▄██[0m          ANSI[1;30m: [0mHellspawn[1;30m/[0mSTONED
+[34m███████▀▀▀ [0;31m▄▄ ██████▄████▀▄▄▄█████████▀██▀▄██▄██[0m              [1;30m  [0m         [1;30m [0m      
 [34m▀▀▀▀▀▀▀ [0;31m▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀[0m           [1;30m──────────────────────[0m'

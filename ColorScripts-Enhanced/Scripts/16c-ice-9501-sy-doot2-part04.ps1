@@ -5,7 +5,7 @@
 # Source SHA-256: 30e77d19371403bb20600b4eddfe45a9d1efe7ec62cf5e8edd42fd7cfe8639ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SY-DOOT2.ICE by Shaggy (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 139-188
 # Columns: 1-80
 
@@ -49,7 +49,7 @@ Write-Host '
 [1;33m      [0;35m  [0m [1;30m▄▓▀[0;35m▄█[0;37;45m▓▓[0;35;40m█▓[0m   [1;33;40m▐█[0;1;37;40m█[0;1;33;40m▄[0;1;30;40m▀░[0m [1;33;40m▐█[0;1;37;40m█[0;1;33;40m▄[0;1;30;40m [0m▀[1;33;47m░░[0m▀▄[1;33;47m░░░░[0m▓  [35m    ▄▄▄[0;37;45m▒▒▓▒[0;35;40m▀▀░▄▄▄[0;37;45m▒▒▓▒[0;35;40m▀▀░▄▄▄[0;37;45m▒▒▓▒[0;35;40m▀▀░[0m
  [1;33;40m     [0;35m [0;1;30m■▀[0;35m▄▄[0;37;45m▒▓▓[0;35;40m█▓▀[0m     [1;33;40m▀[0;1;33;47m▓█▓▓[0;1;33;40m▄▄▀[0;1;33;47m▓█▓▓[0;1;33;40m▄▄[0;1;33;47m▒▒▒[0m█▓▀░   [35m▄██[0;37;45m░░▒[0;35;40m▀▀[0m  [35;40m▄██[0;37;45m░░▒[0;35;40m▀▀[0m  [35;40m▄██[0;37;45m░░▒[0;35;40m▀▀[0m    [35;40m [0m
 [35;40m    ▄▄▄[0;37;45m▒▒▒▒[0;35;40m▀▀ [0;1;30;40m [0m  [33mN[0;1;33mN[0m.i[1;35mC[0;35mE[0m [1;33m▀▀[0;1;33;47m▓▓▓▓[0;1;33;40m▄▀▀[0;1;33;47m▓▓▓▓[0m▀▀      [35m▐██▀[0;1;30m▄░[0m    [35m▐██▀[0;1;30m▄░[0m    [35m▐██▀[0;1;30m▄░[0m
- [35m▄██[0;37;45m░░▒[0;35;40m▀▀[0m   [37;40mit says ''DOOTM'' or something[0m  [37;40m  [0m [35;40m░▓▌[0;1;30;40m▓▌[0m     [35m░▓▌[0;1;30m▓▌[0m     [35m░▓▌[0;1;30m▓▌[0m
+ [35m▄██[0;37;45m░░▒[0;35;40m▀▀[0m   [37;40m                            [0m  [37;40m  [0m [35;40m░▓▌[0;1;30;40m▓▌[0m     [35m░▓▌[0;1;30m▓▌[0m     [35m░▓▌[0;1;30m▓▌[0m
 [35m▐██▀[0;1;30m▄░[0m                                        [35m░▀■[0;1;30m▀■[0m     [35m░▀■[0;1;30m▀■[0m     [35m░▀■[0;1;30m▀■[0m
 [35m░▓▌[0;1;30m▓▌[0m                          [1;30m           [0m                                    [35m [0m
  [35m░▀■[0;1;30m▀■[0m D  r  a  g  g  e  d    o  u  t    o  f    t  h  e    M  o  u  r  g  u  e

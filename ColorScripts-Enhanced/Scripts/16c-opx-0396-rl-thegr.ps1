@@ -5,7 +5,7 @@
 # Source SHA-256: fb710f03370a06f4566e4fb48e0f7d28dd79677f65daab060ec5f522aeb059e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-THEGR.ANS by Rawlock (Opium); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Grinches Realm
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mt h e           [0m                                   [1;30m▓▀▀▀▀▀▀▓[0m [1;30mansi by rawlock![0m
+[1;30m                [0m                                   [1;30m▓▀▀▀▀▀▀▓[0m [1;30m                [0m
  [1;30m▄▄▄▄▓▀▀▀▀▀▀▀▀▀▀▀▓▄▄▄▄▓▀▀▀▀▀▀▀▀▀▀▀▓▄▄▄▄▓▀▀▀▀▀▀▓▄▄▄▄▓[0m [36m█[0;1;33;46m░▄░[0m [1;30m█▄▄▄▄▓▀▀▀▀▀▀▓▄▄▄▄[0m
 [1;30m▀[0;1;36m [0m [36m▄▄▄▄[0;1;33;46m░▄▄░[0m [1;33;46m░▄▄░[0;36m▄▄▄▄[0;37m [0;1;30m▀▀[0;1;37m [0;1;33m█[0;1;33;46m▄▄░[0m [1;33m█[0;1;33;46m▄▄░[0;36m▄▄▄▄[0;37m [0;1;30m▀▀[0m [1;33;46m▓▄▄░[0;36m▄▄▄▄[0;37m [0;1;30m▀▀[0m [1;33;46m░██░[0;36m▄▄▄▄[0;37m [0;1;30m▀▀[0m [1;33m█[0;1;33;46m▄▄░[0;36m▄▄▄▄[0;37m [0;1;30m▀▀▓▄[0m
 [36m▄[0;1;33;46m░▄▄[0;36m█▀[0;37m [0;1;33;46m▒[0;1;33;40m██[0;1;33;46m▒[0m [1;33;46m▒[0;1;33;40m██[0;1;33;46m▒[0m [36m▀[0;1;33;46m░▓▄░[0;36m▄[0;1;37m [0;1;33m███[0;1;33;46m▒[0m [1;33m███[0;1;33;46m▒[0m [36m▀[0;1;33;46m░▄▄░[0;36m▄[0;37m [0;1;33m███[0;1;33;46m▒[0m [36m▀[0;1;33;46m░▄▄░[0;36m▄[0;37m [0;1;33;46m▒[0;1;33;40m██[0;1;33;46m▒[0m [36m▀[0;1;33;46m▓▄▄░[0;36m▄[0;37m [0;1;33m███[0;1;33;46m▒[0m [36m▀[0;1;33;46m░▒▄░[0;36m▄[0;37m [0;1;30m█[0m

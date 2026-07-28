@@ -5,7 +5,7 @@
 # Source SHA-256: 55cdf8760b0a70bd4ae60c28c68b8b3d0c9d7fd9c77eb5a6b33c7461592904f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-SELFPORTRAIT.ANS by Mavenmob (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Perfect Me Is The Imperfect Me
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
@@ -51,7 +51,7 @@ Write-Host '
 [30m││││││││││││││││││││││││││││││││▌[0;1;35m█[0;36m█[0;1;36m██[0;30m▌▌[0;1;35m██▌[0;1;37m▌[0;30m▌[0;1;35m▌[0;30m▌[0;35m██▄[0;1;35m▄[0;30m│││││[0;1;36m                      [0;30m│││[0m
 [30m│││││││││││││││││││││││││││││││││[0;1;35m││[0m▄[36m▄[0;1;35m▄[0;36m██[0;1;36m█[0;1;35m▌[0;35m█[0;1;35m█▌[0;35m██▄[0;30m││││││[0;1;36m                   [0;30m│││││││[0m
 [30m│││││││││││││││││││││││││││││││││││[0;1;35m││▀│█[0;35m██[0;30m│[0;35m███│[0;37m▀[0;30m││││││[0;1;36m [0;1;30mthe perfect me  [0;30m│││││││││[0m
-[30m│││││││││││││││││││││││││││││││││││││[0;35m▀▀[0;30m│││[0;37m│[0;1;35m█[0;35m█[0;30m││││││││││[0;1;30mis the imperfect me [0;30m│││││[0m
+[30m│││││││││││││││││││││││││││││││││││││[0;35m▀▀[0;30m│││[0;37m│[0;1;35m█[0;35m█[0;30m││││││││││[0;1;30m                    [0;30m│││││[0m
 [30m│││││││││││││││││││││││││││││││││││││││[0;35m▀[0;30m││[0;37m│[0;35m█[0;30m│[0;37m│[0;30m││││││││││││[0;1;30m [0;30m│││││││││││││││││││││[0m
 [30m││││││││││││││││││││││││││││││││││││││││││[0;37m│[0;30m│││││││││││││││││││││││││││││││││││││[0m
 [30m││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││[0m

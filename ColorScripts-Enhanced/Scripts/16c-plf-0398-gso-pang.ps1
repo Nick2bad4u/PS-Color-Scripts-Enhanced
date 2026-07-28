@@ -5,7 +5,7 @@
 # Source SHA-256: c71639fedb87f59b9fefe0f2a132e45b891c3021eb4bd04c36f5bc3066e35e0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GSO-PANG.ANS by gasol (plf); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dlofwerasdf paGN!
 # SAUCE Author: gasol
 # SAUCE Group: plf
@@ -28,7 +28,7 @@ Write-Host '
                       [1;30m▀[0;1;30;43m░▄[0;33m█▌░▓▓[0;1;33;43m░░░░[0;33m█ [0;1;30m▓[0;33m██[0;1;33;43m░░░[0;33m█ █[0;1;33;43m ░░░░░░ [0;33m▄[0;37m  [0;33m░[0m
                   [37m [0;1;30m▄[0m░    [1;30m▀[0;33m   [0;1;30m▀[0;33m▀▀[0;1;30m▀▀[0;33m  [0;37m [0;1;30m▀▀[0;33m▀▀[0;37m [0;33m▄ ▀▀[0;1;30;43m▓[0;1;33;43m [0;1;30;43m░▄▄[0;33m▀▀[0m          [37m>> här får  du ;[0m
                 [1;30m▄[0m▄[1;47m▄█▄[0;1;30;40m▄[0m        [1;30m▄[0m  ░[30;47m▓[0;37;40m [0;1;30;40m▄[0;43m▄[0;1;33;43m▄[0;1;37;40m██[0;1;33;43m█▌[0;33m▌[0m                 [37mvilken jävla cp SOL[0m
-       [1;30m▄[0;1;37;47m▄[0;1;30;40m▄[0m  [1;30m▄[0m▄[1;30;47m▀[0;1;37;47m░░▓▓▓▓▓[0;1;30;47m▀[0;1;30;40m▄[0m  [1;30m▄▐[0m▄[1;47m▄█▄[0;1;30;40m▄[0m   [1;30m▐[0;43m▀[0;1;33;40m▀[0;1;33;43m▓▓▒░[0;1;30;40m▌[0m          det blev en atomsvamp ist.
+       [1;30m▄[0;1;37;47m▄[0;1;30;40m▄[0m  [1;30m▄[0m▄[1;30;47m▀[0;1;37;47m░░▓▓▓▓▓[0;1;30;47m▀[0;1;30;40m▄[0m  [1;30m▄▐[0m▄[1;47m▄█▄[0;1;30;40m▄[0m   [1;30m▐[0;43m▀[0;1;33;40m▀[0;1;33;43m▓▓▒░[0;1;30;40m▌[0m                                    
      [1;30m▄[0;1;37;47m▄▓▓▓▄[0;1;30;40m▄[0m ▀[1;47m░░▒▒░░░▒▒[0m█[1;30;47m▀[0;1;30;40m▄[0m ▀[1;47m▀▓░[0m▓▓▒[1;30m▄[0m [33m▐[0;1;33;43m░[0;33m▐[0;1;33;43m░▒░░[0;33m▀[0m   [37m░[0;30;47m▓[0m
 [37;40m   [0;1;30;40m▄[0;1;30;47m▀[0;1;37;47m▀▒▒░░▀░[0;1;30;47m▀[0;1;30;40m▄[0m█▌▀▀▀▀▀▀▀[1;47m░░[0m█[1;30;47m▀[0;1;30;40m▄[0m ▀░▒▒▒░[1;30m▀[0;33m▐▓▐[0;1;37;43m░[0;1;33;43m░[0;33m▐[0;1;37;43m░[0;33m▌[0m               [32m▄▄▄▄▄[0;1;33;46m░░░░░░░░░[0;32m▄▄▄▄[0m
 [1;30m░[0m [1;30m▀[0m▀▓▓▀▀▀▀███▀▀ [32m░[0;30;42m▓░[0;32;40m▓[0;30;42m░[0;32;40m▓▄▄▄▄▄▄[0;37;40m  [0;1;30;40m░░░░[0m [33m▄[0;1;37;43m░[0;33m▌▐▌[0;1;37;43m░[0;33m▐[0;1;33;43m░░[0;33m▄[0m    [32m▀▀▀[0;1;32;42m ▄▄▄▄▄▄███[0;1;33;46m████████[0;1;32;41m███[0;1;32;46m▄███[0;1;32;42m▄▄[0;32m▌[0m

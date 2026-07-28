@@ -5,7 +5,7 @@
 # Source SHA-256: 512facbc71ad0126d15d1b1879462a9fa4a5b3c37b79487af3d6ec01743de952
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-TTK2.ICE by Tetanus (ice9703a); released in ice9703a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -25,7 +25,7 @@ Write-Host '
 [1;34;44m▒▒░░[0;34m▀ [0;32m▄[0;1;32;42m▒▒▒▒░░[0;32m█▓ [0;1;33;43m░[0m [32m▓ ▀▀▀▀  [0;1;31;41m░[0;31m▌ [0;32m░░░ [0;1;32;42m░[0;32m█▓▓▓▒▒▒░ [0;33m█ [0;32m▓▓▒▐▌[0;1;32;42m▒░[0;32m█ [0;34m▀█████▓▓▓▓▒▒▒▒▒▄ [0;31m▀[0;1;31;41m▀░[0m [34m▓ [0;1;31;41m░[0;31m█[0m
 [1;34;44m░░░[0;34m▄ [0;32m▀[0;1;32;42m░░░░░[0;32m█▓▓ [0;33m█ [0;32m▒▒░░░   ▄[0;31m▐[0;1;31;41m▒[0;1;31;40m▌ [0;32m░ [0;1;32;42m░[0;32m█▓▓▒▒▒░░░ [0;33m▐▌[0;32m▐▓▓█ [0;1;32;42m▓▒░[0;32m█ [0;34m▀▓███████▓▓▓▓▓▓▓▓▄▄▓▌[0;31m▐[0;1;31;41m▀▒[0;31m▌[0m
 [1;34;44m░[0;34m█▀██▄ [0;32m██▀▄██ [0;33m█ [0;32m▓▌▄  ▄▌ ▀▀ [0;1;31m▀[0;1;31;41m▓[0;1;31;40m▄ [0;32m▐█▓▓▒▒░░░  ░ [0;33m▓ [0;32m█▓▌[0;1;32m▐[0;1;32;42m▓▓▒░[0;32m▌  [0;34m▓▓███████████▓▓▓▓██▄▄[0;31m▀[0;34m▄[0m
-[34m▀█████▄ [0;32m███▓▌[0;33m▐▓  [0;32m▄▓░ [0;1;32m▄▄█[0;1;32;42m▓▓[0;32m▄ [0;1;31m▀  [0;32m█▓▓▒▒░░   ░░▒ [0;33m▒ [0;32m█▌[0;1;32m▐[0;1;32;42m▓▒▒░[0;32m█ [0;34m▐▄[0;1;34;44m░[0;30;44mansi by tetanus [ice][0m
+[34m▀█████▄ [0;32m███▓▌[0;33m▐▓  [0;32m▄▓░ [0;1;32m▄▄█[0;1;32;42m▓▓[0;32m▄ [0;1;31m▀  [0;32m█▓▓▒▒░░   ░░▒ [0;33m▒ [0;32m█▌[0;1;32m▐[0;1;32;42m▓▒▒░[0;32m█ [0;34m▐▄[0;1;34;44m░[0;30;44m                     [0m
 [34;40m██[0;1;34;44m░░[0;34m███▌ [0;32m█▓▓▒[0;33m▐ [0;32m▄▌ [0;1;32m▄██[0;1;32;42m▓[0;1;32;40m▄▀▀[0;1;32;42m▒▒░░[0;32m▌▐▓▒▒░░    ░░▒▒▓ [0;33m░ [0;32m█ [0;1;32;42m▒░░[0;32m█▓░ [0;1;34;44m▒▒░░[0;34m████████[0;1;34;44m░░░░ [0;34m█████[0;1;34;44m░[0m
 [1;34;44m░░░░░░[0;34m██ [0;32m▐▓▒ ▄ ▀[0;1;32m▄█[0;1;32;42m▓▓▓▓▒▒░[0;32m▄[0;1;32;42m░[0;32m█▄ ▓▓░░[0m     [32m░░▒▒▓▓█▄[0;33m░  [0;32m▀[0;1;32;42m░[0;32m█▓▓▌ [0;34m▐[0;1;34;44m░░[0;34m███[0;1;34;44m░░░░[0;34m██████████[0;1;34;44m░░░[0m
 [1;34;44m░▒▒▒▒░░[0;34m█▌ [0;32m▒░▐▀ [0;1;32m█[0;1;32;42m▓[0;1;32;40m▄▄▀▀[0;1;32;42m▒░░░░░░[0m [32m██▓▓░░[0m     [32m░░▒▓██▀▀▄[0;33m▀ [0;32m▀▀[0;32;42m [0;1;32;42m░[0m [34m▐▄██[0;1;34;44m░░░▒▒▒░░░░[0;34m███▄[0;1;34;44m░░░░▒▒[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: c69ed222c76f662f4273b2c84ffb852d29dbf0d35d5aac6df1cf0e010a34e9f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-CIZB4.ANS by The ExtremisT (FIRE!/Mistigris); released in ira9801a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: City iz Burning Matrix
 # SAUCE Author: The ExtremisT
 # SAUCE Group: FIRE!/Mistigris
@@ -32,7 +32,7 @@ Write-Host '
      [1;31;43m▓░▌[0;1;31;40m▓▓██████████████████ ████████[0;1;31;43m▓▒[0m
 [31m░▒▓▌ [0;1;31m█[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▐[0;1;31;40m▓▓██████████████████ ██████[0;1;31;43m█[0;1;31;40m▓[0;33m▌    [0;31m░░░░░░░░ [0;1;31mq[0;33muick  [0;1;31ml[0;33mogins [0;31m░░░░░░░░[0m
 [31m▒▓▓█▄ [0;1;31m▀ [0;1;31;43m▐[0;1;31;40m▓▓▓██████████████▀██▌▐███[0;1;31;43m██▓[0;1;31;40m▓[0m
-[31m▓██████ [0;33m▓[0;1;31;43m▓[0;1;31;40m▓▓▓▓███████████▄██▄▄██[0;1;31;43m██[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m▓▒[0m     [34m█[0;34;44m [0;30;44mS[0;1;30;44mc[0;44ma[0;1;44mn new files and messa[0;44mg[0;1;30;44me[0;30;44ms [0;34;40m█[0m
+[31m▓██████ [0;33m▓[0;1;31;43m▓[0;1;31;40m▓▓▓▓███████████▄██▄▄██[0;1;31;43m██[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m▓▒[0m     [34m█[0;34;44m [0;30;44m [0;1;30;44m [0;44m [0;1;44m                     [0;44m [0;1;30;44m [0;30;44m  [0;34;40m█[0m
 [31;40m▀▓▓████▌[0;33;40m▒[0;1;31;43m░▒[0;1;31;40m▓▓▓▓▓▓▓██████▓▓▓▓▀▀███▓▓▓▒[0m             [31mS[0;1;31mc[0ma[1mn new messa[0mg[1;31me[0;31ms[0m
         [33m░[0;1;31;43m░▒▓[0;1;31;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌▐[0;1;31;47m▓▓[0m [1;31;40m▓▒▓▓▒[0m               [31mS[0;1;31mc[0ma[1mn new fi[0ml[1;31me[0;31ms[0m
 [31m▒▓▓▓▓▓▓ [0;33m▐[0;1;31;43m░░▒[0;1;31;40m▒▒▓▓▓▓▓▓▓▓▓[0;1;31;43m▄[0;1;31;40m▄▄▐██[0;1;37;40m▄ [0;1;31;47m▓▓[0;1;31;40m▌▒[0m                 [31mD[0;1;31mo[0mw[1mnload [0mQ[1;31mW[0;31mk[0m

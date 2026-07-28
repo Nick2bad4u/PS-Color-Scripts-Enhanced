@@ -5,7 +5,7 @@
 # Source SHA-256: 27eb706d231d5befcc08980c492150610f8df848cce83ae226a0589f21c5358e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CY-CELT1.ANS by Cybernary (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: celtic designs #01
 # SAUCE Author: Cybernary
 # SAUCE Group: fire
@@ -18,7 +18,7 @@ Write-Host '
                                       [1;30m [0m
        h  t  t  p  :  /  /  w  w  w  .  c  e  l  t  i  c  .  n  e  t
       [33m░[0m                             [33m  [0;1;30m░[0;33m [0m           [33m      [0m
-      [33m░[0;37m [0;33m▀[0m   [33mansibycybernary(union) [0m   [33m▄▄[0;37m [0;33m■[0;37m  [0;33m▀▀▄[0m    [33m  ▄▓█▄▄▀▀[0;37m [0;33m■▄[0m    [33m■[0;37m [0;33m▄▓[0;37m  [0;33m░[0m
+      [33m░[0;37m [0;33m▀[0m   [33m                       [0m   [33m▄▄[0;37m [0;33m■[0;37m  [0;33m▀▀▄[0m    [33m  ▄▓█▄▄▀▀[0;37m [0;33m■▄[0m    [33m■[0;37m [0;33m▄▓[0;37m  [0;33m░[0m
     [33m░░░[0;37m  [0;33m■[0;37m [0;33m▀▄▄[0;37m [0;33m▄▄▀▀▄▄[0m    [33m▄▄▀▀▄▓  █▄▓▄▀   [0m    [33m▄▄▀▀▄▄ ▀██▄▀[0m   [33m▄▄▀▀▄▓▀[0m    [33m▀[0;37m [0;33m░░░[0m
        [37m▀ ▄[0;33m  ▄██▄ ▄█▓██▄██▄ ▄██▒█ █▀██ [0;1;30m░[0m   [33m▄██▄ ▄██▓▓▀▄ ▄▓▄▓█▄ ▄█▓▒▌ [0;37m▄▀[0;33m  [0;37m■[0m
 [1;30m░▒▓[0m░░░░▒▓██▄[33m ████ █▓▓█ █▓▓█ ▓▒░  ▓█▓▓ ░[0;32ml[0;33m   █▀██ █▀█▓ ████ ██▓▓ ▓▒░ [0;37m▀█▓█▓▒░░░[0;1;30m▓▒░[0m

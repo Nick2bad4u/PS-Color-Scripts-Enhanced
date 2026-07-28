@@ -1438,17 +1438,7 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-fire0897-rr-dl",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-mtx-05a-mb-jterm",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-shv-0695-st-union",
             "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
         },
         {
@@ -1473,11 +1463,6 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-lap-1094-gh-chaos",
-            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-lap-1294-gh-efg1",
             "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
         },
@@ -1490,16 +1475,6 @@
             "issueType": "derivative-attribution-review",
             "family": "16c-oph-0018-blion-06",
             "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-vpr0695-vz-lomat",
-            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-acdu0594-km-tasb1",
-            "reason": "Reviewed attributed non-art reuse: the footer explicitly credits operational BBS statistics to CC-TASB.iCE; the copied statistics are not the illustration or central composition, and the source credit is preserved verbatim."
         },
         {
             "issueType": "tiny-tail-part",

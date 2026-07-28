@@ -5,12 +5,12 @@
 # Source SHA-256: 532194fe4f180780fb54751157b56710cdb011d1619bb833b4b1003aee438ef3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-RACT.ICE by Sparr (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
-  █[47m  [0;40m█[0;1;30;40m▌[0mMemory check - testing ready▀[1;30;47m░▒▓[0;1;30;40m▄[0m        [1;37;40m▐[0m████
+  █[47m  [0;40m█[0;1;30;40m▌[0m                            ▀[1;30;47m░▒▓[0;1;30;40m▄[0m        [1;37;40m▐[0m████
   █[47m  [0;40m█[0;1;30;40m▌[0m                              ▀[1;30;47m░▒▓[0;1;30;40m▄[0m      [1;37;40m▐[0m████                   [1;31mR[0;31mR[0;1;30mR[0m
 [1;30m  [0m█[47m  [0;40m█[0;1;30;40m▌[0m                                ▀[1;30;47m░▒▓[0;1;30;40m▄    [0;1;37;40m▐[0m████
   █[47m  [0;40m█[0;1;30;40m▌[0m                                  ▀[1;30;47m░▒▓[0;1;30;40m▄  [0;1;37;40m▐[0m████                [1;31mZ[0;31mZ[0;1;30mZ[0m

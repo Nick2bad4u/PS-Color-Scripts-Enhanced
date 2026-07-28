@@ -5,7 +5,7 @@
 # Source SHA-256: 64d261dcbcee12debdab7e31d4efb97db43618d5852e7851a7cb3e431358821a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-PRNHA.ANS by Pharcyde (Fusion); released in fsn-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Piranha logo
 # SAUCE Author: Pharcyde
 # SAUCE Group: Fusion
@@ -35,5 +35,5 @@ Write-Host '
             [34m ▄█[0;1;34;44m     ·      op - captain hood  [0;34m█████▌[0m
            [34m ████[0;1;34;44macid florida outpost[0;34m█[0;1;34;44m         [0;34m█████[0m
            [34m▐██████████[0;1;34;44macidic team pcb hq   [0;34m██████▀[0m
-            [34m▀▀██[0;1;34;44mfusion united states hq[0;34m███[0;1;34;44m·[0;34m██▀▀[0m
+            [34m▀▀██[0;1;34;44m                       [0;34m███[0;1;34;44m [0;34m██▀▀[0m
                 [34m▀▀▀▀▀████[0;1;34;44m·[0;34m██[0;1;34;44m  [0;34m████████▀▀▀[0m'

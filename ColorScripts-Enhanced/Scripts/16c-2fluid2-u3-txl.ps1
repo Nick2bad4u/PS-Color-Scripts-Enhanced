@@ -5,7 +5,7 @@
 # Source SHA-256: f4d41f5b27655c5cda13114200c2dd4809347b53f23af476336b37a1f13bcfee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: U3-TXL.ANS by Unseen Fate (2fluid2); released in 2fluid2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -50,9 +50,9 @@ Write-Host '
 [1;30m▀[0m                              [31m▀▀[0;1;31;41m▓▓▄[0;31m▄▄[0;37m [0;1;30m▀▀▀[0m [31m▄▄[0;1;31;41m▄▄▓[0;31m▀[0;37m  __________ [0;1;30m▀[0;32m▀▀▓[0;1;32;42m▀▀▀[0;1;30;42m▄[0;32m▀[0;1;30m▀[0m
                                    [31m▀▀[0;1;31;41m▀▄[0;31m█▄▄[0;1;31;41m▄▓▀[0;31m▀[0m   [37m              [0m
                                       [31m▄[0;1;31;41m▄▓[0;31m█▀[0m       [37m+o acy/bAFH[0m
-      [37mfully modded ansiconfig[0m      [31m▄▄[0;1;31;41m▄▀[0;31m▀▀█[0;1;31;41m▀▄[0;31m▄[0m
+      [37m                       [0m      [31m▄▄[0;1;31;41m▄▀[0;31m▀▀█[0;1;31;41m▀▄[0;31m▄[0m
                                  [31m▄[0;1;31;41m▄▀▀[0;31m▀[0m     [31m▀[0;1;31;41m▀▓▄[0;31m▄[0m
-   [37mxxhdd  xxx whq  xxx dist[0m    [31m▄[0;1;31;41m▄▓[0;31m█▀[0m         [31m▀█[0;1;31;41m▀[0;31m█▄[0m
+   [37m                        [0m    [31m▄[0;1;31;41m▄▓[0;31m█▀[0m         [31m▀█[0;1;31;41m▀[0;31m█▄[0m
                               [31m▓[0;1;31;41m▓▀[0;31m▀[0m              [31m▀[0m
      [37m                          [0;31m▀[0m                 [31m▄[0;1;31;41m▄[0;31m▓▄[0m
                                                    [31m▀[0;37m  [0;1;31m▄[0m'

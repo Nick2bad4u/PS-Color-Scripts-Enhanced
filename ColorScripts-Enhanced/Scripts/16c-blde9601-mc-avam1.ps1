@@ -5,7 +5,7 @@
 # Source SHA-256: 6d6cb2976b9a3b7ca441de025bed0f5c884abe879fafc98ae981111eaaf4e737
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-AVAM1.ANS by mindcrime (blade productions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: avalon menu action!
 # SAUCE Author: mindcrime
 # SAUCE Group: blade productions
@@ -28,8 +28,8 @@ Write-Host '
 [1;30m    [0;36m▀▀▀ ▀[0m           [36m▀▀▀ ▀[0m           [36m▀▀▀ ▀[0m        [1;30m▀[0m     [36m▀▀ ▀▀▀   ▀▀▀▀▀▀▀   [0;1;30m▀ ▀▓▀[0m
 [1;30m▒!%@-─ [0mavalon!main [1;30m-──-─----─---──-─----─-──--─-─-─---──--─--─---─--─---──--@%!▒[0m
 [1;30m░  ▄▀[0m                                                                      [1;30m▀▄  ░[0m
-[1;30m░ ▐▓  [0mt[1;30m) [0;36mtransfer menu[0m                                                      [1;30m▓▌ ░[0m
-[1;30m░  ▓▌ [0mb[1;30m) [0;36mboard listing[0m                                                     [1;30m▐▓  ░[0m
+[1;30m░ ▐▓  [0m [1;30m  [0;36m             [0m                                                      [1;30m▓▌ ░[0m
+[1;30m░  ▓▌ [0m [1;30m  [0;36m             [0m                                                     [1;30m▐▓  ░[0m
 [1;30m▒░░▒▓ [0me[1;30m) [0;36metcetera...[0m                                                       [1;30m▓▒░░▒[0m
 [1;30m   ▓▌[0m                                                                      [1;30m▐▓[0m
 [1;30m░ ▐▓[0m                                                                        [1;30m▓▌ ░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 305dc32779d08f20d8768d1e00ae5495a792545770725f6b5ef45902530c2425
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TC-TEH1.ANS by The Clone (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Eleventh Hour
 # SAUCE Author: The Clone
 # SAUCE Group: ACiD Productions
@@ -26,8 +26,8 @@ Write-Host '
                  [1;47m [0;1;30;47m▓[0;1;30m▒[0;1;34;44m▓▒[0;1;30;47m▒[0m            [1;47m█░ [0;1;30;47m░▒[0;1;47m▒[0m
                  [1;47m [0;1;30m░[0;1;34;44m▓▒░[0;1;30;47m▓[0m            [1;47m▓ [0;1;30;47m░▒▓[0;1;47m░[0m
                  [1;30;47m░[0;1;34;44m▓▒░ [0;1;30;47m▓[0m            [1;47m▒[0;1;30;47m░▒▓█ [0m
-                 [1;30;47m░[0;1;34;44m▒░ [0;34m▓[0;1;30;47m▓[0m            [1;47m░[0;1;30;47m▒▓[0;1;30m▓[0;1;34;44m▓[0;1;30;47m░[0m [1;34mΓC [0;1;30m[[0;34m/[0;1;34m┤[0mC[1mi[0m>[1;30m·[0;1mPr[0mo[1;34md[0;34muc[0;1;34mt[0mi[1mons [0m([1;34mt[0;34mm[0;1;34m)[0;1;30m·[0mε[1mON[0;1;30m][0m
-                 [1;30;47m▒[0;1;34;44m░ [0;34m▓▒[0;1;30;47m█[0m            [1;30;47m ▓[0;1;30m▒[0;1;34;44m▓▒[0;1;30;47m▒[0m    [1;30m[[0;34mF[0;1;34mo[0mu[1mndat[0mi[1;34mo[0;34mn[0;1;30m·[0;34mP[0;1;34me[0mn[1mguin Mont[0mh[1;34ml[0;34my[0;1;30m][0m
+                 [1;30;47m░[0;1;34;44m▒░ [0;34m▓[0;1;30;47m▓[0m            [1;47m░[0;1;30;47m▒▓[0;1;30m▓[0;1;34;44m▓[0;1;30;47m░[0m [1;34m   [0;1;30m [0;34m [0;1;34m┤[0m [1m [0m [1;30m [0;1m  [0m [1;34m [0;34m  [0;1;34m [0m [1m    [0m [1;34m [0;34m [0;1;34m [0;1;30m [0m [1m  [0;1;30m [0m
+                 [1;30;47m▒[0;1;34;44m░ [0;34m▓▒[0;1;30;47m█[0m            [1;30;47m ▓[0;1;30m▒[0;1;34;44m▓▒[0;1;30;47m▒[0m    [1;30m [0;34m [0;1;34m [0m [1m    [0m [1;34m [0;34m [0;1;30m [0;34m [0;1;34m [0m [1m         [0m [1;34m [0;34m [0;1;30m [0m
                  [1;30;47m▒[0;1;30;44m [0;34m▓▒░[0;1;30m▐▌▀▄[0m         [1;30;47m░[0;1;30m░[0;1;34;44m▓▒░[0;1;30;47m▓[0m    [1;30m▄▄▄[0m
                  [1;30;47m▓[0;34m▓▒░  [0;1;30m█▀[0m          [1;30;47m▒[0;1;34;44m▓▒░ [0;1;30;44m▐[0;1;30m▌  ▀ █ ▀▄[0m
                  [1;30m█[0;34m▒░ [0;1;30m▄▀[0m            [1;30;47m▓[0;1;34;44m▒░ [0;34m▓▒[0;1;30m▀▄▄▀▀   ▐▌[0m

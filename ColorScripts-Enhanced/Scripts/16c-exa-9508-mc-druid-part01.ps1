@@ -5,7 +5,7 @@
 # Source SHA-256: 3c9c1190994e7b800ac40eec9a27a7b6be75cbf167a0b03eee40a7a4451f1b6c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-DRUID.ANS by Mercury (exa-9508); released in exa-9508 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -21,7 +21,7 @@ Write-Host '
                         [31m▒▒▒[0;1;33;41m░░░[0;31m  [0;1;33m░▓█▓░  ░▓█▓░   [0;1;33;41m░░░[0;31m▓▒░░     THe THiNG THaT[0m
                        [31m░░░▒[0;1;33;41m░░░[0m                  [1;33;41m░░[0;31m▒▒▒▒░░   SHoULd NoT Be -[0m
                        [31m▒▒░[0;1;33;41m░░░░░[0m                 [1;33;41m░░░[0;31m▒▒░░[0m
-                       [31m░▓░[0;1;33;41m░░[0;31m [0;1;33;41m░[0m                  [1;33;41m░░░[0;31m▒▒░   Deep in the dungeons[0m
+                       [31m░▓░[0;1;33;41m░░[0;31m [0;1;33;41m░[0m                  [1;33;41m░░░[0;31m▒▒░                       [0m
                        [31m░▒[0;1;33;41m░░░░[0m                  [1;33;41m░░░░░[0;31m░▒░   there lies a power[0m
                     [31m░░▒▒[0;1;33;41m░░░[0m                   [1;33;41m░░░░░░[0;31m▒▒▒░░   so great, that[0m
                  [31m░░░▒▒▒[0;1;33;41m░░░░░░[0m                  [1;33;41m░░░░░░░░[0;31m▒░░░   your wildest[0m

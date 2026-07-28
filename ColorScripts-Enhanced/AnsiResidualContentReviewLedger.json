@@ -12,7 +12,7 @@
         "removedScripts": 27,
         "removedWorks": 8,
         "retainedFiles": 3,
-        "retainedRows": 12
+        "retainedRows": 11
     },
     "candidates": [
         {
@@ -1360,10 +1360,6 @@
             "action": "retain",
             "category": "interface-panel",
             "evidence": [
-                {
-                    "row": 18,
-                    "sha256": "c8d98694af22cbef5def1cade8188838dc7c097e019aa618cb4b05b4b2248dd4"
-                },
                 {
                     "row": 19,
                     "sha256": "a37b91e34f25889fc2ed3ae9a8bb04e26f78a6ecf3b67ae42cb93c28e21c776f"

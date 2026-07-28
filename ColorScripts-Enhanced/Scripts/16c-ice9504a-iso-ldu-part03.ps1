@@ -5,7 +5,7 @@
 # Source SHA-256: d8f8362e70c794de362f863c3d43073147ebf4951712950776083d6aba18dc9a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ISO-LDU.ICE by isosceles (ice 95); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sq2's deep umbra
 # SAUCE Author: isosceles
 # SAUCE Group: ice 95
@@ -44,5 +44,5 @@ Write-Host '
 [1;37;47m▄[0;1;37;40m███████████[0m █[1;47m█▀[0m██ ██[1;47m█░[0m█ █[1;47m▓[0m█   ██[1;47m■▓[0m█ █[1;47m█[0m█ ██[1;47m▀[0m█▀ ██ ██[1;47m▀[0m█ ██ ██[1;47m█▒ [0m [1;47m▓▄[0;1;40m█▀▀▀[0m    ▄ [1m [0m ▀▀
 [1m█[0;1;47m▄  ▀▒▀▄[0;1;40m▀██[0;1;47m▄[0m ▀███[1;47m■[0m ██[1;47m▀[0m██ ███   █████ █[1;47m█[0m█▀▄▄▄▄ ▀██    ▄[1;47m▓[0m██ ██[1;47m█░ [0m
   [1m▀▀▀▀[0m     [1m▀[0m     ▀▀▀▀▀ █  ▀      ▀ ▄▄█[1;47m█[0m█ ███[1;47m▄[0m█ ██    █[1;47m▀▄[0m█ ██[1;47m▀ [0m█
-[1;30m100% origional phont.. heh.. uh   [0m  ▀▀▀▀▀██[1;47m▀▀[0m█ ██        ▀▀▀▀ ▀
+[1;30m                                  [0m  ▀▀▀▀▀██[1;47m▀▀[0m█ ██        ▀▀▀▀ ▀
 [1;30m                                            [0;1;37m [0;1;30m   [0m▀     [1;30m     [0m              [0m'

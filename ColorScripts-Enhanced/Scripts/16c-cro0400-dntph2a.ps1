@@ -5,7 +5,7 @@
 # Source SHA-256: 83fedbabfb79ccc82ccefbe3b68397ba4dd0ed3aa8ef4f60e29f7f0545583e1a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DNTPH2A.ANS by Dennison (cro0400); released in cro0400 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -27,5 +27,5 @@ Write-Host '
   [30;42m▌[0;1;33;42m▓▓[0;30;42m▐███   ▐[0;1;33;42m▓▓ [0m  [30;42m▌  ▐[0;1;33;42m▓  [0m   [1;33;42m   [0;30;42m▐[0;1;33;42m▓▓▒[0;30;42m▐██▌[0;1;33;42m▓▒ [0m [1;33;42m▓▓▒[0m   [1;33;42m▒ [0;30;42m▄█[0;1;33;42m▓▓ [0m   [30;42m▌  ▐▌[0;1;33;42m▓ [0m   [30;42m▌[0;1;33;42m▓ [0;30;42m▐[0m
    [30;42m▄[0;1;33;42m▓▓[0;30;42m▀▀▀  ▄██▄[0;1;33;42m▓[0;30;42m▀▀▀  ▐[0;1;33;42m▓▒ [0;30;42m▀▀  ▄▄█[0;1;33;42m▓▓▓[0;30;42m▐██[0;1;33;42m▓▓▓▒[0m [30;42m▄[0;1;33;42m▓▓▒  [0;30;42m▄▄███▄[0;1;33;42m▓▓▒  [0;30;42m▄▄█[0;1;33;42m▓▓▒[0m   [30;42m▌[0;1;33;42m▓▓[0;30;42m▐[0m
   [1;37;40m───────[0;1;36;40m── [0;1;33;42m▓[0;30;42m▀█[0;1;36;40m───[0;30;42m▌  █[0;1;33;42m▓▒ [0m [1;36;40m───[0;36m────────────[0;1;34m─────────[0;34m────────────────·· ·  ·[0m
-           [30;42m▌[0;1;33;42m▓▒[0;30;42m▀██▀▀ ▄█[0;1;33;42m▓▓▒[0m  [1;37;40ma[0;1;36;40mF[0;36mFiLS: [0;1;37md[0;1;36mE[0;36mViANCE [0;1;37mi[0;1;36mS[0;36mO . [0;1;37mf[0;1;36mA[0;36mSTLANE [0;1;37mi[0;1;36mS[0;36mO[0m
+           [30;42m▌[0;1;33;42m▓▒[0;30;42m▀██▀▀ ▄█[0;1;33;42m▓▓▒[0m  [1;37;40m [0;1;36;40m [0;36m      [0;1;37m [0;1;36m [0;36m       [0;1;37m [0;1;36m [0;36m    [0;1;37m [0;1;36m [0;36m       [0;1;37m [0;1;36m [0;36m [0m
             [32m▀▀▀▀▀▀▀   ▀▀▀[0m'

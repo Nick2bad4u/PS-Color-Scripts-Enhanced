@@ -5,7 +5,7 @@
 # Source SHA-256: d1df21cc24606db39346c1f8bca2b3a2a148978f9e26a4298d64225616aca565
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DIS-EAS2.ANS by Dislogic (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ease
 # SAUCE Author: Dislogic
 # Lines: 1-20
@@ -17,7 +17,7 @@ Write-Host '
 [34;40m ▄[0;1;34;44m░░[0;34m▀  ▀██▄  ▄[0;1;34;44m░░[0;34m▀  ▀██▄  ▄[0;30;44m░[0;34;40m▓▀  ▀██▄  ▄██▀  ▀██▄[0m
 [34;40m▐█[0;34;44m [0;34;40m▌    ▐[0;30;44m▄[0;34;40m██▐██▌    ▐██▌▐[0;34;44m  [0;34;40m▌    ▐██▌▐██▌    ▐██▌[0;30;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [30;44m░[0;34;40m▓█[0;30;44m███████▀[0;34;40m█▐██[0m      [34;40m████[0;34;44m  [0;30;44m████████[0m [30;44m [0;34;40m██[0m      [34;40m█[0;30;44m░[0;34;40m▓[0m
-[30;44m░[0;34;40m▓█[0m      [34;40m██████▀▀▀▀▀▀███ ▀▀▀▀▀▀▀▀██████[0m      [34;40m███  [0;37;40mfor my board [0;1;37;40mease [0m,.
+[30;44m░[0;34;40m▓█[0m      [34;40m██████▀▀▀▀▀▀███ ▀▀▀▀▀▀▀▀██████[0m      [34;40m███  [0;37;40m             [0;1;37;40m     [0m  
 [34m███[0m      [34m██████[0m      [34m██████[0m      [34m██████[0m      [34m███[0m
 [34m███[0m      [34m██████[0m      [34m██████[0m      [34m██████[0m      [34m███[0m
 [34m█[0;30;44m░[0;34;40m█[0m      [34;40m██[0;30;44m░░[0;34;40m██[0m      [34;40m██[0;30;44m░░[0;34;40m██[0m      [34;40m██[0;30;44m░░[0;34;40m██[0m      [34;40m█[0;30;44m░[0;34;40m█[0m         [37;40m"commands here"[0m

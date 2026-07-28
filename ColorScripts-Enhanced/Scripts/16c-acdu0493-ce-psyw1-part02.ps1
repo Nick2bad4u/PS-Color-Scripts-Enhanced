@@ -5,7 +5,7 @@
 # Source SHA-256: 736265b97b235ef5d673ca703c2c5885ae5f725bcfc2cea272a9fadeccd529ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CE-PSYW1.ANS by Cerebrus (acdu0493); released in acdu0493 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 46-84
 # Columns: 1-80
 
@@ -47,5 +47,5 @@ Write-Host '
 [1;30m──────────────[0;31m▌[0;1;30m───[0;31m▌[0;1;30m────[0;31m▌[0;1;30m───[0;31m▐██▄▄▀▀[0;1;30m───[0;31m▀█▄[0;1;30m───[0;31m▌[0;1;30m─────────[0;31m██▄▄▀▀[0;1;30m───────────────────[0m
 [1;30m──────────────────────────────────────────────────────────────────────────────[0m
 [1;30m──────────────────────────────────────────────────────────────────────────────[0m
-[1;30m────────────────────[0m─[1m─ [0;1;36mC[0;36me[0;1;34mr[0;34me[0;1;30mbr[0mu[1ms [0;1;30mo[0mf [35m<[0;37m/┤C[0;1;31mi[0mD[35m> [0;1;37mP[0mr[1;30moductio[0mn[1ms [0;1;30m''93 [0;1;37m─[0m─[1;30m─────────────────[0m
+[1;30m────────────────────[0m─[1m─ [0;1;36m [0;36m [0;1;34m [0;34m [0;1;30m  [0m [1m  [0;1;30m [0m  [35m [0;37m ┤ [0;1;31m [0m [35m  [0;1;37m [0m [1;30m       [0m [1m  [0;1;30m    [0;1;37m─[0m─[1;30m─────────────────[0m
 [1;30m──────────────────────────────────────────────────────────────────────────────[0m'

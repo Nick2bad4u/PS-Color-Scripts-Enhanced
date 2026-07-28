@@ -5,7 +5,7 @@
 # Source SHA-256: 349fdd48118e8b211c7265deb0c25f3aa42ce045c5915cfa9523f4da4b8cfe2f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TWHELLO3.ANS by Warpus (tw-roth); released in tw-roth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-68
 # Columns: 1-80
 
@@ -26,5 +26,5 @@ Write-Host '
 [1;30m    [0;35m█▀[0;30;45m◄[0;37;40m [0;35;40m█[0;37;40m [0;35;40m▀▀█[0;37;40m [0;35;40m█►    █[0;37;40m [0;35;40m█[0;37;40m [0;35;40m█►[0;37;40m     [0;35;40m█[0;37;40m  [0;35;40m█▀█[0;37;40m [0;35;40m█►    █▀█[0;37;40m [0;35;40m█[0;37;40m [0;35;40m█►[0;37;40m  [0;35;40m█▀[0;30;45m◄[0;37;40m [0;35;40m█▀█[0;37;40m [0;35;40m█▀[0;30;45m◄[0;37;40m [0;35;40m█[0;37;40m   [0;35;40m█▀█[0;37;40m [0;35;40m▀▀█[0m
 [1;30;40m    [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀▀▀[0;37m [0;35m▀▀▀[0;37m   [0;35m▀▀▀[0;37m [0;35m▀[0;37m      [0;35m▀[0;37m  [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀▀▀[0;37m   [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀▀▀[0;37m [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀▀▀[0;37m [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀▀▀[0m
 
-[37m   [0;1;30m\───────────────────[ illustrated by nitron and warpus ]──────────────────/[0m [30m1[0m
+[37m   [0;1;30m ───────────────────                                    ────────────────── [0m [30m [0m
 [30m1[0m'

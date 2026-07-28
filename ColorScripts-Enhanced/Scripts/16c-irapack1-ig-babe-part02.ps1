@@ -5,7 +5,7 @@
 # Source SHA-256: be09a7c42093e9efbf972024342083e215e66a035147d71847453eb86b2746ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IG-BABE.ANS by Iguana (irapack1); released in irapack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 42-79
 # Columns: 1-80
 
@@ -40,7 +40,7 @@ Write-Host '
                   [34m▄▄▄▄▄▄  [0;1;34m▄▄▄▄[0m       [1;34m▄▄▄▄▄▄  [0;34m▄[0m      [34m▄[0m
                 [34m▄▀[0m      [34m▀▄[0;1;34m▌   ▀▄   ▄▀[0m      [1;34m▀▄[0;34m▌▀▄[0m     [34m▌[0m
                [34m▐[0m          [1;34m▌[0m     [1;34m▌[0;1;36m▄[0;1;34m▐[0m          [1;34m▌ [0;34m▀▄    ▌[0m       [34mC[0;1;34ma[0;1;37mLL WHeN TH[0;1;34mi[0;34mS[0m
-               [34m▐[0m          [1;34m▌   ▄▀  ▐[0m          [1;34m▌  [0;34m▀▄   ▌[0m      [34mB[0;1;34mO[0;1;37maRD GOeS uP a[0;1;34mN[0;34mD[0m
+               [34m▐[0m          [1;34m▌   ▄▀  ▐[0m          [1;34m▌  [0;34m▀▄   ▌[0m      [34m [0;1;34m [0;1;37m             [0;1;34m [0;34m [0m
 [1;30m[[0;34m¡[0;1;34mG[0;1;37mUa[0;1;34m∩[0;34mα[0;1;30m∙[0;31mi[0;1;31mR[0;1;37ma[0;1;30m]   [0;34m▐[0m          [1;34m▌  ▀▄  [0;1;36m█[0;1;34m▐[0m          [1;34m▌   [0;34m▀▄  ▌[0m      [34mB[0;1;34me [0;1;37mSTuNNeD....[0;1;34m.[0;34m.[0m
                [34m▐[0m          [1;34m▌   ▀▄ [0;1;36m█[0;1;34m▐[0m          [1;34m▌    [0;34m▀▄ ▌[0m
                 [34m▀▄[0m      [34m▄▀[0m     [1;34m▀▄[0;1;36m█ [0;1;34m▀▄[0m      [1;34m▄▀[0m      [34m▀▄▌[0m

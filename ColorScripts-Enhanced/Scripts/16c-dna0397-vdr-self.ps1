@@ -5,7 +5,7 @@
 # Source SHA-256: a99f3266db6134c66106bbf0dbc6ddba0b9241da8234fcea824853fbf400fe77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VDR-SELF.ANS by Vader-Sweden (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -29,4 +29,4 @@ Write-Host '
           [1;31;43m▓[0;1;31;40m████[0;1;31;43m▓[0;1;37;40m ▄▄▄▄▄▄▄▄▄[0m [1;31;43m▓[0;1;31;40m██[0;1;31;43m▓[0m          [1;30m▄[0m    [1;30m▀■[0m  [1;30m▄[0m   [1;30m█[0m  [1;30m■[0m  [1;30m■▄[0m   [1;30m▄[0m
           [1;31;43m▓[0;1;31;40m███[0;1;31;43m▓[0;1;37;40m [0;1;37;47m▓[0;1;37;40m████[0;1;37;47m▓[0;1;37;40m████[0;1;37;47m▓[0m [1;31;43m▓[0;33m█[0m              [1;35m V[0m  [1;35ma[0m  [1;35md[0m  [1;35me[0m  [1;35mr [0m
           [1;31m [0;1;31;43m▓[0;1;31;40m███[0;1;31;43m▓[0;1;31;40m▄[0m [1m▀▀[0;1;47m▓[0;1;40m██[0;1;47m▓[0;1;40m▀▀[0;1;31;40m▄▄[0;33m█▀[0m
-          [1;31m  ▀[0;1;31;43m▓[0;1;31;40m████[0;1;31;43m▓[0;1;31;40m▄▄▄▄▄▄█[0;1;31;43m▓[0;33m█▀[0;1;31m [0m            [1;30mno... it''s not a self portrait =)[0m'
+          [1;31m  ▀[0;1;31;43m▓[0;1;31;40m████[0;1;31;43m▓[0;1;31;40m▄▄▄▄▄▄█[0;1;31;43m▓[0;33m█▀[0;1;31m [0m            [1;30m                                 [0m'

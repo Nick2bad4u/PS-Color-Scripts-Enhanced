@@ -5,7 +5,7 @@
 # Source SHA-256: 58c2256de2e0556e0ea1e11dca794879b96efd7551865c7a858f481b03615cef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-HI!!!.ANS by ize (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hi!! for illogic
 # SAUCE Author: ize
 # SAUCE Group: nh!
@@ -19,7 +19,7 @@ Write-Host '
       [31m      ▀▀▀████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31;41m █[0m██[1;31;41m███████▀▀▀▀ [0;31m████████████████░ [0m
       [34m [0;36;44m ▄▄▄ [0;34;40m   [0;31;40m▐[0;1;31;41m░░[0;31m█▌ [0;34;46m▓[0;36;44m▄▄▄[0;34;40m█   ░█[0;1;36;44m▄▄[0;36;44m▄[0;34;40m█  [0;31;40m ▐[0;1;31;41m▐█████░[0;31m██████[0;1;31;41mPLANETS 1523!   [0;31m██░[0m
       [34m░[0;34;46m▓[0;36;44m█[0;1;36;46m█▌[0;36;44m▌[0;34;40m   [0;31;40m▐█[0;1;31;41m░[0;31m█▌ [0;34;46m▓[0;1;36;46m▀▀█[0;36;44m▌[0;34;40m  ░[0;30;44m▓[0;34;46m▓[0;36;44m▓[0;34;46m░[0;36;44m▓▌[0;34;40m  [0;31;40m ▐[0;1;31;41m▐███░[0;31m█[0;1;31;41m  [0;31m██████████[0;1;31;41m          [0;31m███[0m
-      [31m [0;34m▐[0;34;46m░[0;36;44m▓[0;1;36;46m▀[0;36;44m█[0;34;40m▌  [0;31;40m░████ [0;34;40m▐[0;34;46m░[0;36;44m▓[0;1;36;46m [0;36;44m█[0;34;40m▌   ▐[0;34;46m▓[0;36;44m▒[0;34;46m▒░[0;34;40m▌ [0;31;40m  █[0;1;31;41m██░ [0;31m█[0;1;31;41mHI! welcome to planets![0;31m██[0m
+      [31m [0;34m▐[0;34;46m░[0;36;44m▓[0;1;36;46m▀[0;36;44m█[0;34;40m▌  [0;31;40m░████ [0;34;40m▐[0;34;46m░[0;36;44m▓[0;1;36;46m [0;36;44m█[0;34;40m▌   ▐[0;34;46m▓[0;36;44m▒[0;34;46m▒░[0;34;40m▌ [0;31;40m  █[0;1;31;41m██░ [0;31m█[0;1;31;41m                       [0;31m██[0m
       [31m [0;34m▐[0;34;46m▒[0;36;44m▒[0;34;46m░[0;36;44m▓[0;34;40m▌  [0;31;40m ▀▀[0;34;40m ▄▄▄[0;36;44m▒[0;34;46m▒░[0;36;44m▓[0;34;40m▌   ▐█[0;36;44m░[0;34;46m▓[0;36;44m░[0;34;40m▌ [0;31;40m  █[0;1;31;41m▐█░[0;31m██[0;1;31;41mblablalbalblalbalblblbl [0;31m█[0m
       [31m [0;34m░[0;36;44m░[0;34;46m▓[0;36;44m▒[0;34;46m▒▓[0;34;40m▄▄▄[0;30;44m░░[0;34;47m██▓▓[0;36;44m░[0;34;46m▓▒▒[0;36;44m░[0;34;40m          [0;31;40m  ▐█[0;1;31;41m▓[0;31m███[0;1;31;41mIdunno if you wanted a   [0m
       [31m [0;34m░█[0;34;47m▓[0;36;44m░[0;34;46m▓[0;34;47m████[0;34;40m▀▀▀  ░█[0;34;47m▓[0;36;44m░[0;34;46m▓[0;36;44m [0;34;40m   ░[0;34;47m▌░▒▓[0;34;40m█ [0;31;40m  ▐█[0;1;31;41m░[0;31m██[0;1;31;41mlittle box like this     [0;31m█[0m

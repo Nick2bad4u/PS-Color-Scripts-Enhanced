@@ -5,7 +5,7 @@
 # Source SHA-256: a36a659fe9cf8e91d5697db27fceece8bae00896e9bcd2a12b6aa8bc79ecb3ec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-DOH.ANS by sirdeath (vapor); released in vpr0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: sirdeath
 # SAUCE Group: vapor
 # SAUCE Date: 19950507
@@ -15,7 +15,7 @@
 
 Write-Host '
 ░ ▀▓▄▌▀▓■[1;30m▄▀▀▓▄ [0m▀ [1;30m■▄ [0m▀▀▓▄▄▓▀▀■ ▀▀▓■▀▀▀■▀▀ [31m▄ ▄ [0;37m▓▀▀■▀ [0;1;30msd;Sir Death [0m▀▓ [31m▄ ▀ ▀ ▄ [0;37m▓▀▀■▀[0m
-[37m▒[0m       [1;30m▐▓   ▐▓   ▐▌[0m       [31m▄ ▄[0m       [31m▄ ▀[0m     [31m▀  [0;1;30mfor ansi, mail me [0;31m■[0m        [31m▄   [0;37m■[0m
+[37m▒[0m       [1;30m▐▓   ▐▓   ▐▌[0m       [31m▄ ▄[0m       [31m▄ ▀[0m     [31m▀  [0;1;30m                  [0;31m■[0m        [31m▄   [0;37m■[0m
 [37m▓[0m        [1;30m▀▄ ■▀ ▄▀▀▄▓   [0;31m▄ ▀[0m     [31m▀    ▄[0m        [31m▄▓▄ [0;1;30mon erebus, tsn,[0m           [31m▄   [0;37m▄[0m
 [37m▀   [0;1;30m▄▓▀▀▄ ▐▌  ▐▓   █  [0;31m■[0m         [31m▀    ▄[0m        [31m▀  [0;1;30mdoh, & in #ansi[0m          [31m▄    [0;37m▓[0m
 [37m▓  [0;1;30m■[0m     [1;30m■▀    ▀■  ■[0m           [31m▄▓▄    ■[0m         [37m▄▄▄▄▄▓▄▄■▄▄▄▓[0m          [31m▄▓▄[0m     [37m▒[0m

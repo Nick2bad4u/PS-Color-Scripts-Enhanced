@@ -5,7 +5,7 @@
 # Source SHA-256: 297350a3bfed40416919c060e6a5cea343d42171d85a42de58eb19403d7192b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OM-TPC9.ANS by Omega Red (Shiver); released in shv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Players Club
 # SAUCE Author: Omega Red
 # SAUCE Group: Shiver
@@ -31,7 +31,7 @@ Write-Host '
 [1;34m■[0;1;37m¡ [0;1;34mt[0;1;37m [0;1;36mH[0;1;37m e   [0;1;34mp[0;1;37m L a [0;1;36mY[0;1;37m a Z   [0;1;34mc[0;1;37m [0;1;36mL[0;1;37m u B [0;1;36m![0;34m▀▓▌██[0;1;34;44m▓[0;1;34;40m████████[0;1;34;44m▄░[0;34m█▌[0;1;34m [0;1;37m  [0;1;30m ░[0m
 [1;37m                                  [0;1;34m  [0;34m▀■▀█[0;1;34;44m▀▓█[0;1;34;40m███████[0;34m█▄[0;1;34m [0;1;37m  [0;1;30m  ░░[0m
 [1m  [0;1;34mh[0;1;37meaD guY: B[0;35ma[0;1;37mcdaFuCuP          [0;1;30m░[0;1;37m      [0;34m▄█[0;1;34;44m ▀[0;34m▓[0;1;34;44m▀▓[0;1;34;40m███[0;1;34;44m▄▓▄[0;34m█▓▄ [0;1;34m    [0;34m■▄[0m
-[1;37m  [0;1;34mt[0;1;37mHe ResT: pLaYboY [0;1;30m■[0;1;37m cOolhaND [0;1;34m■[0;1;37m       [0;34m▐▓▀[0;1;34;44m█▄▄▄▄[0;1;34;40m██████[0;1;34;44m▄[0;34m█▓▄[0;1;34m   [0;1;37m  [0;34m▀▄[0m
+[1;37m  [0;1;34m [0;1;37m                 [0;1;30m■[0;1;37m          [0;1;34m■[0;1;37m       [0;34m▐▓▀[0;1;34;44m█▄▄▄▄[0;1;34;40m██████[0;1;34;44m▄[0;34m█▓▄[0;1;34m   [0;1;37m  [0;34m▀▄[0m
 [1;37m  [0;1;34m [0;1;37m         oPtiMuS pRimE            [0;1;30m░[0;1;37m [0;1;34m [0;34m▀[0;1;34;44m ▄▄█▓▓[0;1;34;40m████[0;1;34;44m▓██▀[0;34m████▄▄[0;1;37m [0;1;34m  [0;34m▀[0;1;34m▄[0m
 [1;37m  [0;1;34m3[0;1;37m 28.8 v[0;35m.[0;1;37m34 n[0;33mO[0;1;37mdEs [0;1;34m■[0;1;37m 0-2 daYs         [0;34m▄█[0;1;34;44m▄▄[0;1;34;40m████[0;1;34;44m▄▄[0;34m▓[0;1;34;44m▀▀[0;1;34;40m██[0;1;34;44m▓▀ ░ [0;34m▓▌[0;1;37m [0;1;34m    [0;34m▀[0;1;34m▄[0m
 [1;37m  [0;1;34mc[0;1;37mANcER disTrO [0;1;30m■[0;1;37m ymCA disTrO   ▄[0m▄■[1;34m [0;1;37m  [0;34m▐█[0;1;34;44m▀[0;34m▓[0;1;34m██[0;1;34;44m▀▓[0;1;34;40m█████[0;1;34;44m▄▄[0;34m▓[0;1;34;44m ■  ░[0;34m█[0;1;34m [0;1;37m [0;1;34m      ▀▄[0m

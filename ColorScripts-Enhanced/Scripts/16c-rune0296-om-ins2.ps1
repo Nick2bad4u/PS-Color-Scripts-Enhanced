@@ -5,7 +5,7 @@
 # Source SHA-256: 9ec1422af3502541952d69539a8d10d7269028093cda79dcf40fe3a38ec15af7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OM-INS2.ANS by omega red (rune); released in rune0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: insanity
 # SAUCE Author: omega red
 # SAUCE Group: rune
@@ -15,7 +15,7 @@
 
 Write-Host '
 ███████▌          [1;30m   [0m            [31m██▄▄                ▄▄▄▓███████████████████████[0m
-[30;47mYou have[0;37;40m  [0;1;30;40momega[0;31mr[0;37me[0;1;37md[0;1;30m<aim.rune>[0m     [31m█████▓▀▄▄▄▄    ▄▄█████████████████████████████▌[0m
+[30;47m        [0;37;40m  [0;1;30;40m     [0;31m [0;37m [0;1;37m [0;1;30m          [0m     [31m█████▓▀▄▄▄▄    ▄▄█████████████████████████████▌[0m
 [30;47mreached[0;37;40m█▌         [0;1;30;40m    [0m    [31m     ▄ ▐█ ██▌▐██████████████████▀▀▀▀▀▀▀▀  ░▄▄▄▄██████▄[0m
 [30;47mthe gates[0;37;40m         [0;1;30;40m     [0m   [31m  [0m   [31m▐█▄█▌ ███████▀▀▀▀▀▀▀       [0;1;31m   [0;31m    ▄████████▀▀▀   [0m
 [30;47mof iNSANi[0;37;40m▌TY ...  [0;1;30;40m     [0m     ░   [31m▀███  ▀▀▀      [0;1;31m  [0;31m░▄[0;1;31m▄▄[0;1;31;41m█[0;1;31;40m██▀▀[0;31m▀    ▄█████████▀▀     [0m

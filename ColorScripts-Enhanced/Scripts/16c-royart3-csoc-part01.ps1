@@ -5,7 +5,7 @@
 # Source SHA-256: fd43962d57220186d8ba8f3b25dd900489960a3ec5a5ed98e5b72e104d9622e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CSOC.ANS by Roy (royart3); released in royart3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -43,7 +43,7 @@ Write-Host '
                           [1;30m▀▀▀▄▄▄▄[0m        [1;31m▀[0m       [1;30m░▒  ▄██████▀▀▀ ▄▄▄████▀[0m
                                  [1;30m▀▀▀▄▄▄▄[0m        [1;30m░  ▀ ▄▄▄▄▄▄▄▄████████▀[0m
                                         [1;30m▀▀▀▀▄▄▄▄▄▀▀▀▀▀▀▄██▓▓▓▓▓▓████▀[0m
-       [1mTHi[0mS BOARD iS C[1;30mLOSED[0m                           [1;30m▀ ░░▒▒▒▒▒▓▓███[0m
+       [1m   [0m            [1;30m     [0m                           [1;30m▀ ░░▒▒▒▒▒▓▓███[0m
        [1mNO N[0mEW US[1;30mERS[0m                                    [1;30m░ ░░░░░▒▒▓██[0m
        [1mONL[0mY PERSONAL F[1;30mRIENDS[0m                              [1;30m░ ░░▒▒██[0m
        [1m     [0m                     [1;30m           [0m            [1;30m░  ░ ░▒██[0m

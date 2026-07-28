@@ -5,7 +5,7 @@
 # Source SHA-256: 3a26822ac39a00402fb333a82a435594795d4049f8d1b0356ee82f0ecb9869ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-ALLEY.ANS by flame (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dark alley
 # SAUCE Author: flame
 # SAUCE Group: RILE
@@ -29,7 +29,7 @@ Write-Host '
 [1;30m█[0;1;30;47m▓▀[0;1;30;40m▄░[0;36m░[0;30;46m░[0;36;40m▓[0;1;36;40m▒[0;36m▄[0;1;36m▄▄▓▀[0;36m▀▀[0;30;44m▓▓▓█[0m         [1;36;46m██[0;1;36;40m▓[0;30;44m▓[0;33;40m░[0;36;41m▓[0;1;36;46m▄[0;36;41m▄░[0;30;44m▓▓[0;33;40m [0;31;40m░[0;36;40m▀[0;1;36;40m▀▀[0;36m░[0;30;44m▓[0;36;40m▐[0;1;36;44m▒[0;1;36;46m▀[0;36m▓▒[0;33m [0;1;30m ▄[0;1;30;47m▀▒▒▓[0;1;30;40m▀▄[0;33m [0;35m▐[0;33m [0;1;30m▒[0m░[1;30;47m▓▓▓░[0;1;37;47m▄[0;1;30;47m▀[0;1;37;47m░[0m▒[1;30m▓[0;35m█[0;1;31;45m▀[0;35m▌[0;1;30m [0;30;47m▓[0m
 [37;40m [0;1;30;40m█[0m▒[1;30;47m▓[0;1;37;47m▄[0;1;37;40m▄[0;1;30;40m▄[0;36m      [0;1;30m▄[0;1;30;47m▀[0m░[1;30m▄[0;36m▀▀▀▀▀▀▀▀▀▀[0;1;36m▀▀▀▀[0;1;32m▀[0m        [1;30m           ▄[0;30;47m▓[0;1;30;47m▓[0;1;37;47m█▄[0;1;37;40m▒[0;1;30;47m░[0;1;30;40m▀▒[0;33m  [0;35m░[0;33m [0;1;30m▓[0;1;30;47m▓▓░[0m▓▓[1;47m█▌[0;1;40m▒[0;1;30;47m░▀[0m▄[1;30m▄[0;30;47m▓▓▓[0m
 [37;40m  [0;1;30;40m ▀[0m▀[1m▀▀▓[0;1;47m▄[0;1;30;47m▀▓[0;1;30;40m▄[0;1;30;47m▀[0;1;37;47m▄█[0;1;30;47m▄[0;1;30;40m▀           [0m                         [1;30m▀[0;1;30;47m▄░▒▓[0;1;30;40m█▒[0m [1;30m▄▄█[0m░[1;30;47m▀[0;1;37;47m▄▒[0;1;30;47m░░[0;1;37;47m░▄█[0;1;37;40m▓[0;30;47m░[0;37;40m▓[0;1;30;47m▓▓[0;1;30;40m▀ [0m
-    [30;47m██▓[0;37;40m░[0;30;47m▓█[0;37;40m ░[0;1;30;47m▓[0;1;37;40m▒[0;1;30;47m░[0;1;30;40m▌[0m      [36mdark alley.  for marquis [0m       [1;30m▐█[0;1;30;47m▓[0;1;30;40m▀ ▄[0;1;30;47m▀[0m▒▒░[30;47m▓▓[0;37;40m░[0;1;30;47m▀ [0;1;37;47m▀[0;1;30;47m▄▄[0;1;37;40m▀▀[0;1;30;40m▀▀▀[0m [1;30m.£[0m
+    [30;47m██▓[0;37;40m░[0;30;47m▓█[0;37;40m ░[0;1;30;47m▓[0;1;37;40m▒[0;1;30;47m░[0;1;30;40m▌[0m      [36m                         [0m       [1;30m▐█[0;1;30;47m▓[0;1;30;40m▀ ▄[0;1;30;47m▀[0m▒▒░[30;47m▓▓[0;37;40m░[0;1;30;47m▀ [0;1;37;47m▀[0;1;30;47m▄▄[0;1;37;40m▀▀[0;1;30;40m▀▀▀[0m [1;30m  [0m
             [1;30m▀[0;1;30;47m▓▓[0m▒[1;30m▄[0m                         [36mde sade.[0m    [1;30m▀█▌[0m [1;30m█[0m░[1;30m▀░░[0m       [1;30m         [0m
                [1;30m▀▀▀▒[0m  [1;30m▄▄[0m                            [1;30m ▄█▌ [0m [1;30m▐█▌[0m
                                                           [1;30m▒[0m

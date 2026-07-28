@@ -5,7 +5,7 @@
 # Source SHA-256: 20da2e098fe61f6272726bb157ddd44278e1ff09a432de20a74cb06d8f376793
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TO-MF.ICE by Tornado (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 42-67
 # Columns: 1-80
 
@@ -30,7 +30,7 @@ Write-Host '
 [1;30m   ▄▀[0;1;34m▄█████  [0;1;30m▄▄▀[0;1;34m▄▀[0;1;30m▄  [0;1;34m▀[0;1;30m▄▄▀[0;1;34m▄▀[0;1;30m▄▀▐▌[0;1;34m▀[0;1;30m▄▄▀▀ ▄▄ [0;1;34m██▌[0;1;30m▐▌   ▀▀[0m
 [1;30m  ▀▄  [0;34m▄▄▄▄ [0;1;30m█▀ ▄ [0;34m▄[0;1;30m▐▌▄▄▄▄▄ [0;34m▄[0;1;30m▀▀▄ ▀▀   ▀▀ ▐▌[0;34m▄▄▄ [0;1;30m█[0m
 [1;30m    ▀▀▄▄[0;34m▀▀ [0;1;30m█  █ [0;34m▌[0;1;30m▀▀  ▄▀  ▄▄▄ [0;34m▀█▄[0;1;30m▀▀▄   ▐▌[0;34m▐██ [0;1;30m█[0m            [34mM[0;1;30manifes[0;34mT[0m
-        [1;30m▀▀▄█ ▐▌[0;34m▐▌[0;1;30m▄▄▀▀  ▄    ▀▀▄▄[0;34m▀█▄[0;1;30m▀▄ █ [0;34m███ [0;1;30m█  [0;34mI[0;1;30mllustrator North East Abod[0;34mE[0m
+        [1;30m▀▀▄█ ▐▌[0;34m▐▌[0;1;30m▄▄▀▀  ▄    ▀▀▄▄[0;34m▀█▄[0;1;30m▀▄ █ [0;34m███ [0;1;30m█  [0;34m [0;1;30m                          [0;34m [0m
              [1;30m▐▌[0;34m▐[0;1;30m▐▌  ▄▀▀[0;34m▄[0;1;30m▀▄[0m     [1;30m▄▀[0;34m▄█▀[0;1;30m▄▀▄[0;34m▀███▌[0;1;30m▐▌[0m
              [1;30m█ [0;34m█ [0;1;30m█▀▀[0;34m▄████ [0;1;30m▀▄  ▀[0;34m▄█▀[0;1;30m▄▀  █ [0;34m▀██▌[0;1;30m▐▌   [0;34mT[0;1;30mornado<iCE/Illustrator[0;34m>[0m
              [1;30m█ [0;34m▀▀ ▀▀[0;1;30m▄▄▄▄▄▀▀▀▀ [0;34m█▀[0;1;30m▄▀[0m     [1;30m▀▀▄▄[0;34m▀ [0;1;30m█[0m

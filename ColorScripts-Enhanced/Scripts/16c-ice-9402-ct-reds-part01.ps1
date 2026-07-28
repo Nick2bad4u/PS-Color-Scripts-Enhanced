@@ -5,13 +5,13 @@
 # Source SHA-256: 9a625025acb08ca53e0d528bd94ec803d4706ede3589fbb8309fd1e828bbac93
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-REDS.ICE by Cephalon Tsurphr (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
 [1;30mTo [0mN[1;30mò [0mC[1;30marríer...[0m               [1;30m▄▄▄▄▄[0m
-[1;30m"[0mYou can''t be something     [1;30m▄▄██████████▄▄[0m
+[1;30m [0m                           [1;30m▄▄██████████▄▄[0m
 [1;30m [0myou''re not[1;30m..Be yourself ▄▄███████████▄▄▄▄▀▀▄▄▄[0m
 [1;30m by yourself....stay ▄▄███▀█▄▀▀  ▀██████▄▀█▄▄▄███▄▄[0m
 [1;30m away from me..."  ▄▀ ▄▀▀ ▀   ▄▄██▀▀▀▀███▀▀▄▄▄▄▀▀████▄[0m

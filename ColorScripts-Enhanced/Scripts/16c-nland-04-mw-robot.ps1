@@ -5,7 +5,7 @@
 # Source SHA-256: f7d1739a263e3cd0946fe0dfb07f8df789e16fee289385eb876e1d85255ed761
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-ROBOT.ANS by MoonWalkeR (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: RoboT
 # SAUCE Author: MoonWalkeR
 # SAUCE Group: NeveRLanD People
@@ -28,7 +28,7 @@ Write-Host '
                   [34m▀[0;1;34;44m▀[0;1;34;46m▓[0;34m█[0;1;36;46m [0;34m█[0;34;46m▀▀▀▀▀▀▀[0;34;40m▄▄▄▄▄[0;1;34;44m▄▓▌▓ [0;34m▄▄▄▄▄[0;1;34;44m▄▄▄▄▄▄[0;34m█[0;1;30;44m▄█[0;34m█[0;1;30;44m▓▀[0;34m▀[0m
                     [34m▀█[0;1;36;46m [0;34;46m▀▀▀▀▀▀▀▄▄▄▄ [0;34;40m█[0;1;34;44m▒▓▌▓░[0;34m█[0;1;34;44m█▀▀▀▀▄▄[0;34;44m████[0;1;30;44m▓█[0;34m█▀[0m
                      [34m█[0;1;34;46m░░░░░░░░░  [0;34m█[0;1;34;46m░[0;34m█[0;1;34;44m▒▓▌▓░[0;34m█[0;1;34;44m█[0;34m█[0;1;34;46m▒▓[0;1;34;44m█▓▒░[0;1;30;44m ░▒▓█[0;34m█[0m
-[37m [0;34maN[0;1;34mSi[0;34m [0;1;36mBy Moon[0;36mWa[0;1;34mlk[0;34meR[0;37m  [0;34m█[0;1;34;46m░░▒▒▒▒▒▒░░ [0;34m█[0;1;34;46m▒[0;34m█[0;1;34;44m▒▓▌▓░[0;34m█[0;1;34;44m▓[0;34m█[0;1;34;46m▒▓[0;1;34;44m█▓▒░[0;1;30;44m ░▒▓█[0;34m█[0m
+[37m [0;34m  [0;1;34m  [0;34m [0;1;36m       [0;36m  [0;1;34m  [0;34m  [0;37m  [0;34m█[0;1;34;46m░░▒▒▒▒▒▒░░ [0;34m█[0;1;34;46m▒[0;34m█[0;1;34;44m▒▓▌▓░[0;34m█[0;1;34;44m▓[0;34m█[0;1;34;46m▒▓[0;1;34;44m█▓▒░[0;1;30;44m ░▒▓█[0;34m█[0m
                      [34m█[0;34;46m▄▄▄▄▄▄▄▄▄▄▄[0;34;40m█[0;1;34;46m░[0;34m█[0;1;34;44m▀▀[0;34m█[0;1;34;44m▀▀[0;34m█[0;1;34;44m█[0;34m█[0;1;34;44m▀▀▀▀     [0;1;30;44m▀▀[0;34m█[0m
                  [34m▄▄[0;1;34;44m▄▄[0;1;30;44m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;34;44m▄▄[0;34m▄▄[0m
              [34m▄▄[0;34;46m▀▀▄▄▀▀[0;1;34;44m▀▀▄▄[0;1;30;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;34;44m▄▄▀▀[0;34;46m██[0;1;34;44m▀▀▄▄[0;34m▄▄[0m

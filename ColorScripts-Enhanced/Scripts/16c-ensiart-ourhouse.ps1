@@ -5,7 +5,7 @@
 # Source SHA-256: 82061724d767208d8fd97f896cff55de81441935664abf54d868290bd9d82f49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OURHOUSE.ANS by Joseph Crum (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -28,7 +28,7 @@ Write-Host '
 [1;34;46m▓▓▓▓▓▓▓▓[0;33;46m▀[0;1;33;43m░░░░░[0;1;33;42m        [0;1;30;47m▓▓▓[0;1;30;42m            [0;1;33;43m░░░░[0;1;33;42m          [0;1;33;43m░░░░░░░░░░░[0;30;42m▒▒▒▓░░░[0;1;33;43m░░░[0m
 [1;34;46m▓▓▓▓▓▓▓▓▓▓[0;33;46m▀[0;1;33;43m░░░░░░[0;1;33;42m                     [0;1;33;43m░░░░░░░░░░░░░░░░░░░░░░░░[0;30;42m▒▒▒▓░░░[0;1;33;43m░░░[0m
 [32;46m▄[0;1;34;46m▓▓▓▓▓▓▓▓▓▓▓[0;33;46m▀[0;1;33;43m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;33;42m                       [0;30;43m▒[0;30;42m      [0m
-[32;46m██▄[0;1;34;46m▓▓▓▓▓▓▓▓▓▓▓[0;33;46m▀[0;1;33;43m░░░[0;33;42m▄                   [0;1;33;43m░░░░[0;1;33;42m [0;30;42mSysOp: Mark Haynes    [0;30;43m▒[0;30;42m    [0;1;32;42mJC[0m
+[32;46m██▄[0;1;34;46m▓▓▓▓▓▓▓▓▓▓▓[0;33;46m▀[0;1;33;43m░░░[0;33;42m▄                   [0;1;33;43m░░░░[0;1;33;42m [0;30;42m                      [0;30;43m▒[0;30;42m    [0;1;32;42m  [0m
 [32;46m████▄[0;1;34;46m▓▓▓▓▓▓▓▓▓▓▓[0;33;46m▀[0;1;33;43m░░░[0;33;42m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33;43m░░░░░░░[0;33;42m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [32;46m██████▄[0;1;34;46m▓▓▓▓▓▓▓▓▓▓▓[0;33;46m▀[0;1;33;43m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [32;46m████████▄[0;1;34;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

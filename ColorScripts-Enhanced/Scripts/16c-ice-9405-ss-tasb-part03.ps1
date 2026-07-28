@@ -5,7 +5,7 @@
 # Source SHA-256: 1cb9ac3d5ec4c87c1f8c899afb59d4b03cdd82a88766adea9a74849995cdf6b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-TASB.ICE by Spaceman Spiff (iCE); released in ice-9405 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Tempus is gay
 # SAUCE Author: Spaceman Spiff
 # SAUCE Group: iCE
@@ -45,10 +45,10 @@ Write-Host '
 [1;30;47m▒▓[0;1;37;47m▒░[0m [1;30;40m▒ ▓  ▒ [0;1;30;47m█▓[0;1;37;47m▓▒[0m  [1;30;47m░ [0;1;37;47m▓█[0m [1;30;40m░ [0;1;30;47m░ [0;1;37;47m▓█▓▒░ [0m█ [1;30m▄ [0;1;30;47m▒▓ [0;1;37;47m░[0m     [1;30;40m▀[0m          CEPHAL[1m0[0mN TSURPHUR
 [1;30;47m░▒[0;1;37;47m░ [0m [1;30;40m░ ▒  ▓ [0;1;30;47m▓▒[0;1;37;47m▒░[0m  [1;37;47m  ██[0m   [1;30;47m▒░[0;1;37;47m██[0m ▀▀▀▀ [1;30m█ [0;1;30;47m░▒[0;1;37;47m░ [0m [1;37;47m▒░ ░[0m▄      C[1m0. [0mSPACEMAN SP[1mi[0mFF
 [47m [0;1;30;47m░  [0m   [1;30;40m░  ▒ [0;1;30;47m▒░[0;1;37;47m░ [0m  [1;37;47m  █▓[0m [1;30;40m▀ [0;1;30;47m▓▒[0;1;37;47m▓█[0m      [1;30;40m▓ [0;1;30;47m ░[0;1;37;47m▒░[0m [1;37;47m░  ▒░[0m
-[1;37;47m   ░[0m [1;30;40m░ ▄  ░ [0;1;30;47m░   [0m  [1;30;47m░ [0;1;37;47m▓▒[0m [1;30;40m█ [0;1;30;47m█▓[0;1;37;47m▓▓[0m      [1;30;40m▒ [0;1;30;47m  [0;1;37;47m▓▒[0m  [1;37;47m  ▓▒[0m  *[1mi[0mCE Eastern HeadQuarters
+[1;37;47m   ░[0m [1;30;40m░ ▄  ░ [0;1;30;47m░   [0m  [1;30;47m░ [0;1;37;47m▓▒[0m [1;30;40m█ [0;1;30;47m█▓[0;1;37;47m▓▓[0m      [1;30;40m▒ [0;1;30;47m  [0;1;37;47m▓▒[0m  [1;37;47m  ▓▒[0m   [1m [0m                       
 [1;30;47m░ [0;1;37;47m░▒[0m [1;30;40m▒ █    [0;1;30;47m  [0;1;37;47m░ [0m  [1;30;47m▒░[0;1;37;47m▒░[0m [1;30;40m▓ █[0;1;30;47m▓[0;1;37;47m▒░▒░ ░[0m▄ [1;30m░ [0;1;30;47m  [0;1;37;47m█▓[0m  [1;30;47m░ [0;1;37;47m█▓[0m   VGANS[1mi [0mWorld HeadQuarters
 [1;30;47m▒░[0;1;37;47m▒▓[0m [1;30;40m▓ ▓ ░  [0;1;30;47m░ [0;1;37;47m▒░[0m  [1;30;47m▓▒[0;1;37;47m░ [0m [1;30;40m▒ ▀[0;1;30;47m▒[0;1;37;47m░ ░  ▒░[0m   [1;30;47m░ [0;1;37;47m██[0m  [1;30;47m▒░[0;1;37;47m▓█[0m
-[1;30;47m▓▒[0;1;37;47m▓█[0m [1;30;40m█ ▒    [0;1;30;47m▒░[0;1;37;47m▓▒[0m  [1;30;47m█▓  [0m [1;30;40m░ ▄    [0m█[47m [0;1;47m▓▒[0m   [1;30;47m▒░[0;1;37;47m██[0m  [1;30;47m▓▒[0;1;37;47m▒▓[0m Lots of other Stats & a couple
+[1;30;47m▓▒[0;1;37;47m▓█[0m [1;30;40m█ ▒    [0;1;30;47m▒░[0;1;37;47m▓▒[0m  [1;30;47m█▓  [0m [1;30;40m░ ▄    [0m█[47m [0;1;47m▓▒[0m   [1;30;47m▒░[0;1;37;47m██[0m  [1;30;47m▓▒[0;1;37;47m▒▓[0m                               
 [1;30;47m█▓[0;1;37;47m██[0m [1;30;40m▄ ░  ░ [0;1;30;47m▓▒[0;1;37;47m█▓[0m  [1;30;47m██  [0m   [1;30;40m▒ ░  [0;1;30;47m  [0;1;37;47m▓▒[0m [1;30;40m░ [0;1;30;47m▓▒[0;1;37;47m▓█[0m  [1;30;47m█▓ [0;1;37;47m░[0m of Nets....[1m:)[0m
 [1;30;47m██[0;1;37;47m▓█[0m      [1;30;40m▒ [0;1;30;47m█▓[0;1;37;47m██[0m  [1;30;47m█▓[0;1;37;47m░ [0m [1;30;40m░ ░ ▓  [0;1;30;47m░ [0;1;37;47m█▓[0m [1;30;40m▒ [0;1;30;47m█▓[0;1;37;47m▒▓[0m  [1;30;47m█▓[0;1;37;47m░ [0m
 [1;30;47m▓█[0;1;37;47m▒▓[0m [1;30;40m░ ░  ▓ [0;1;30;47m▓▒[0;1;37;47m█▓[0m  [1;30;47m▓▒[0;1;37;47m▒░[0m [1;30;40m▒   ▀  [0;1;30;47m▒░[0;1;37;47m▓█[0m [1;30;40m▓ [0;1;30;47m██[0;1;37;47m░▒[0m  [1;30;47m▓▒[0;1;37;47m▒░[0m Support[1mi[0mng H/P/A & Ans[1mi[0m

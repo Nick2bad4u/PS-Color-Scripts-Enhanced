@@ -5,7 +5,7 @@
 # Source SHA-256: cb87309485ef8f11a6e26e2899d127c22431cc3c3e9ad85a7bbd1465592a06ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PHB-NDC.ANS by Phobic (Bamboosh); released in bmb-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: NorwegianDemoConnection [ans] logo
 # SAUCE Author: Phobic
 # SAUCE Group: Bamboosh
@@ -26,6 +26,6 @@ Write-Host '
       ▐[34m█[0;1;34;44m▓█▀▒[0;34m█[0;37m [0;35m▀▀█[0;1;35;45m░[0;35m█▄[0;1;30m▀[0m [34m▌[0;35m▀[0;1;35;45m░ [0;35m▓▄[0;1;30m▐ [0;35m▀▀[0;1;35;45m░[0;35m██▄[0;1;35;45m░[0;35m▀▀[0;1;30m▄▄▄▀[0;1;31m [0;1;30m▒[0;34m▐[0;1;34;44m░[0;34m█▄[0;1;31m [0;35m▀░▀███▄█[0;1;35;45m░[0;35m█▀[0;1;35m▒[0;1;30m ▄[0;34m▐[0;1;34;44m░ ▒[0;34m██▓[0;1;30;44m▐[0;1;30;40m [0m
       [1;30m▐[0;34m██[0;1;34;44m░▒▀░[0;34m██▒▄▄[0;1;30m ▀▀[0;34m░[0;1;34;44m ▓[0;34m▄▄▄[0;1;30m ▀░[0;34m▐▄▄▄ [0;1;35m░[0m [1;34;44m░[0;34m▄▄▄▄▌[0;1;30m░[0;34m ▐[0;1;34;44m▓▒[0;34m██[0;1;34;44m▓[0;34m▄▄▄▄▄[0;1;30m ░  [0;1;35m░[0;1;30m ▀[0;34m ▄█[0;1;34;44m▓[0;34m██▓▒[0;1;30m▒[0m
        [1;30m▀▓[0;34m██[0;1;34;44m▀▒░[0;34m▓[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m██[0;1;34;44m▒[0;34m████[0;1;34;44m▒[0;34m██▄▄▄███▌▄▄██[0;1;34;44m░▀[0;34m█▄▄▄[0;1;34;44m░[0;34m██[0;1;34;44m░[0;34m█[0;1;34;44m [0;34m██[0;1;34;44m░[0;34m█[0;1;34;44m▒[0;34m▌ [0;1;34;44m░ [0;34m▄▄█[0;1;34;44m▒[0;34m█[0;1;34;44m▀ [0;34m█[0;1;30;44m▄▄[0;1;30;40m░[0m
-        [1;30m░▀▀[0;1;30;44m▄▄▄▄[0;1;30;40m░[0;1;30;44m▄[0;34m█[0;1;34;44m▒▓ [0;34m██[0;1;34;44m░ [0;34m█[0;1;35;44mnorwegian demo connection[0;34m█[0;1;30m░[0;34m█[0;1;34;44m░[0;34m███[0;1;30;44m▄▄▄▄[0;1;34;44m░[0;1;30;44m▄[0;1;30;40m▀▀▒▒[0m  [1;30m ░[0m
+        [1;30m░▀▀[0;1;30;44m▄▄▄▄[0;1;30;40m░[0;1;30;44m▄[0;34m█[0;1;34;44m▒▓ [0;34m██[0;1;34;44m░ [0;34m█[0;1;35;44m                         [0;34m█[0;1;30m░[0;34m█[0;1;34;44m░[0;34m███[0;1;30;44m▄▄▄▄[0;1;34;44m░[0;1;30;44m▄[0;1;30;40m▀▀▒▒[0m  [1;30m ░[0m
          [1;30m░[0m       [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░▀▀▀▀▀▀▀▀▀▀▀▀▒▓▀▀▀ ▀▀▀▀[0;1;35mphobic[0;35m^[0;1;35;45mBMB[0m
                                                  [1;30m░ [0m'

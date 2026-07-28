@@ -5,7 +5,7 @@
 # Source SHA-256: f95f08a633026641720b5cf85b93a2aa6584a1581697ff465357ad366c7a4340
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-FD.ANS by nOah? (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fd main! ;)
 # SAUCE Author: nOah?
 # SAUCE Group: poffelipoff
@@ -27,12 +27,12 @@ Write-Host '
    [1;30m▐██[0;1;30;47m▒▒▓▓[0;1;30;40m██████████▀▄[0;1;30;47m█[0;1;30;40m████▓▓░░[0m     [1;30m███████▓▓░░[0m        [31md[0;1;31md[0;31mdr[0;1;31mr[0;31mre[0;1;31me[0;31mea[0;1;31ma[0;31mam[0;1;31mm[0;31mms[0;1;31ms[0;31ms[0m
    [1;30m▐██[0;1;30;47m▓▓[0;1;30;40m███████████▌▐█[0;1;30;47m▓▓[0;1;30;40m█████[0m        [1;30m▀█████░░[0m
    [1;30m███████████████▓▓░▀███████[0m       [1;30m▀████▄[0m
-   [1;30m▐█████████████▀▄██▀██████▌[0m        [1;30m█▓▓▒▒░░  [0m/[1;30m command[0m   / [1;30mcommand[0m   / [1;30mcommand[0m
-    [1;30m▐███████████▌▐█▀  ▀▀███▀[0m       [1;30m██▓▒▒░░[0m    /[1;30m command[0m   / [1;30mcommand[0m   / [1;30mcommand[0m
-     [1;30m▀███████████▄▄ ▄█▄[0m         [1;30m  ██▓▒░░[0m      /[1;30m command[0m   / [1;30mcommand[0m   / [1;30mcommand[0m
-       [1;30m▀▀██████████▐███▄   ▄[0;1;30;47m█[0;1;30;40m▄▄[0m    [1;30m▀▒▒░░[0m      /[1;30m command[0m   / [1;30mcommand[0m   / [1;30mcommand[0m
-           [1;30m▀▀███████████████████▄[0m   [1;30m░░[0m        /[1;30m command[0m   / [1;30mcommand[0m   / [1;30mcommand[0m
-               [1;30m▀██▀▀▀  ▀▀▀█▀▀    ▀▄▄ ▄ [0m       /[1;30m command[0m   / [1;30mcommand[0m   / [1;30mcommand[0m
+   [1;30m▐█████████████▀▄██▀██████▌[0m        [1;30m█▓▓▒▒░░  [0m [1;30m        [0m     [1;30m       [0m     [1;30m       [0m
+    [1;30m▐███████████▌▐█▀  ▀▀███▀[0m       [1;30m██▓▒▒░░[0m     [1;30m        [0m     [1;30m       [0m     [1;30m       [0m
+     [1;30m▀███████████▄▄ ▄█▄[0m         [1;30m  ██▓▒░░[0m       [1;30m        [0m     [1;30m       [0m     [1;30m       [0m
+       [1;30m▀▀██████████▐███▄   ▄[0;1;30;47m█[0;1;30;40m▄▄[0m    [1;30m▀▒▒░░[0m       [1;30m        [0m     [1;30m       [0m     [1;30m       [0m
+           [1;30m▀▀███████████████████▄[0m   [1;30m░░[0m         [1;30m        [0m     [1;30m       [0m     [1;30m       [0m
+               [1;30m▀██▀▀▀  ▀▀▀█▀▀    ▀▄▄ ▄ [0m        [1;30m        [0m     [1;30m       [0m     [1;30m       [0m
     [1;30m      [0m         [1;30m▄▄██▄ [0m     [1;30m ▄▄[0m   [1;30m [0m          [1;30m        [0m     [1;30m       [0m     [1;30m       [0m
-                 [1;30m████▄████▄▄██████▀▀[0m          /[1;30m command[0m   / [1;30mcommand[0m   / [1;30mcommand[0m
+                 [1;30m████▄████▄▄██████▀▀[0m           [1;30m        [0m     [1;30m       [0m     [1;30m       [0m
                 [1;30m▀▀[0m    [1;30m▀▀▀███▓▓▒░░[0m'

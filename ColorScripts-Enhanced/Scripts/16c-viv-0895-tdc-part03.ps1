@@ -5,7 +5,7 @@
 # Source SHA-256: 291916c7038f44e90318e61064c2da6faa2dea2fecb63ece1531b8fbad2dd2aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TDC.ANS by Grifter 805 (viv-0895); released in viv-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 72-114
 # Columns: 1-80
 
@@ -46,7 +46,7 @@ Write-Host '
 [1;30m   ──────[0;34m──[0;1;30m─[0;34m──[0;1;34m─[0;34m──[0;1;34m─────[0;36m────[0;1;36m─ [0;1;37m805-TRY-FIND [0;1;36m─[0;36m────[0;1;34m──────[0;34m───[0;1;34m─[0;34m────[0;1;30m─[0;34m─[0;1;30m─────[0m
 [1;30m   ──────[0;34m──[0;1;30m─[0;34m──[0;1;34m─[0;34m──[0;1;34m─────[0;36m────[0;1;36m─ [0;1;37mSysGod: Odie [0;1;36m─[0;36m────[0;1;34m──────[0;34m────[0;1;34m─[0;34m────[0;1;30m─[0;34m──[0;1;30m─────[0m
 [1;30m  ──────[0;34m──[0;1;30m─[0;34m────[0;1;34m─[0;34m─[0;1;34m────[0;36m──[0;1;37mCo-Gods: Psyber, Primaxxx[0;36m──[0;1;34m──[0;34m──[0;1;34m─[0;34m───[0;1;30m─[0;34m──[0;1;30m──────────[0m
-[1;30m    ───[0;34m──[0;1;30m─[0;34m───[0;1;34m─[0;34m─[0;1;34m─────[0;36m───[0;1;36m─ [0;1;37mPursuit Member Board [0;1;36m─[0;36m───[0;1;34m────[0;34m─[0;1;34m─[0;34m────[0;1;30m─[0;34m──[0;1;30m─────[0m
+[1;30m    ───[0;34m──[0;1;30m─[0;34m───[0;1;34m─[0;34m─[0;1;34m─────[0;36m───[0;1;36m─ [0;1;37m                     [0;1;36m─[0;36m───[0;1;34m────[0;34m─[0;1;34m─[0;34m────[0;1;30m─[0;34m──[0;1;30m─────[0m
 [1;30m   ─────[0;34m─[0;1;30m─[0;34m──[0;1;34m─[0;34m─[0;1;34m───[0;36m─[0;1;34m─[0;36m────[0;1;36m─────[0;1;37m──Vivid WHQ──[0;1;36m────[0;36m────[0;1;34m─[0;36m─[0;1;34m────[0;34m─[0;1;34m─[0;34m───[0;1;30m─[0;34m─[0;1;30m──────[0m
 [1;30m   ───[0;34m─[0;1;30m─[0;34m──[0;1;34m─[0;34m─[0;1;34m────[0;36m─[0;1;34m─[0;36m────[0;1;36m──── [0;1;37m880 Megs Online! [0;1;36m────[0;36m────[0;1;34m─[0;36m─[0;1;34m────[0;34m─[0;1;34m─[0;34m────[0;1;30m───────[0m
 [1;30m    ───[0;34m─[0;1;30m─[0;34m───[0;1;34m─[0;34m─[0;1;34m───[0;36m─[0;1;34m─[0;36m───[0;1;36m─ [0;1;37mElite Software Galore [0;1;36m─[0;36m───[0;1;34m─[0;36m─[0;1;34m───[0;34m─[0;1;34m─[0;34m────[0;1;30m─[0;34m─[0;1;30m─────[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 34a658cf1a016add1626343f4c200573b1b6ddc8a9eddfc2feac9b8dbc30c2cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-UNS9.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: loginscreen 4 my board
 # SAUCE Author: riddler
 # SAUCE Group: blend productions
@@ -20,13 +20,13 @@ Write-Host '
 [34m       [0;1;34m  [0m [34m▄[0;37m  [0;34m▀▄▀▄▐[0;30;44m▓[0;37;40m [0;34;40m▀[0;37;40m [0;34;40m ▀▄▀[0;30;44m▓[0;34;40m▄▄[0;37;40m [0;34;40m▀[0m   [1;34;40m [0m
 [34m      [0;1;34m [0m [34m▀▄▄[0;30;44m▓[0;34;40m▀▄[0;37;40m  [0;1;30;40m░[0;31m▄[0;1;31m▄████▄▄ [0;34m▀[0;1;30m [0m [34m▄▄▀[0;37m  [0;1;34m  [0m
 [34m     [0;1;34m [0m [34m▀[0;37m [0;34m▄[0;30;44m░[0;34;40m▀▄[0;37;40m [0;31;40m▄[0;1;31;41m▒▓[0;1;31;40m████████[0;1;31;41m▓▓[0;1;31;40m▄[0;34m▀[0;37m [0;30;44m░▓[0m   [1;34;40m [0m       [33m  [0;1;34m [0m   [1;30m  [0m
-[34m     [0;37m [0;34m▀▄▄[0;30;44m█[0;1;31;40m [0;34m▀ [0;1;31m▐█[0;1;31;43m█[0;1;31;40m▄ [0;33m▄[0;1;31m▄[0;1;31;43m█[0;1;31;40m▄▐[0;1;31;43m▄[0;1;31;40m▄▄▄█▌[0;34m▀[0;37m [0;34m▄[0;30;44m░▓[0;37;40m [0;1;34;40m [0m       [1m  [0;33m [0;1;34m [0;1;30m [0;1;34m  [0mthe[1m unsane [0mscientist   [1;30m [0m
+[34m     [0;37m [0;34m▀▄▄[0;30;44m█[0;1;31;40m [0;34m▀ [0;1;31m▐█[0;1;31;43m█[0;1;31;40m▄ [0;33m▄[0;1;31m▄[0;1;31;43m█[0;1;31;40m▄▐[0;1;31;43m▄[0;1;31;40m▄▄▄█▌[0;34m▀[0;37m [0;34m▄[0;30;44m░▓[0;37;40m [0;1;34;40m [0m       [1m  [0;33m [0;1;34m [0;1;30m [0;1;34m  [0m   [1m        [0m            [1;30m [0m
 [34m       [0;37m [0;30;44m▓[0;34;40m▀▀[0;1;31;40m [0;33m▄[0;1;31m█[0;1;31;43m█[0;30;43m▀█[0;1;34;40m  [0;1;31;40m [0;33m▀[0;1;31m██[0;30;43m▄[0;1;34;40m  [0;30;43m█▄[0;1;31;40m█▄[0;34m▀ [0m   [1;34m [0m       [33m  [0;37m  [0;1;30m [0;1;37m   [0;1;30m [0m                    [1;30m [0m
 [34m         [0;1;34m [0;34m [0;33m▐[0;1;31;43m▒▓[0;1;31;40m███[0;1;31;43m▓[0;1;31;40m▄███[0;1;31;43m▓[0;1;31;40m▐█▄[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m▓▓[0;1;30;40m▒░[0;1;34;40m    [0m       [33m   [0;37m   handle[0;1;30m:[0m
 injustice[1;30m.[0m  [33m▀[0;1;31;43m▀▓[0;33m▄▀[0;1;31m▀▀██▄▄█████[0;1;31;43m▀[0;33m▀[0;1;30m ▄[0;1;34m  [0m             password[1;30m:[0m
 [1;30m  [0;30;43m█[0;1;30;40m░░ [0;30;43m███[0;33;40m [0;1;30;40m▀■  [0;33m▀[0;1;31;43m▒░[0;33m▄[0;31m░[0;37m [0;31m    [0;33m▄[0;1;31;43m▓▀[0;33m▀ [0;1;30m ▀[0;33m            ▄  [0;37m location[0;1;30m:[0m
 [30;43m░░[0;33;40m███████████[0;30;43m░[0;1;30;40m▄[0m [33m▀[0;1;31;43m░▄[0;1;31;40m▄[0;33m▄[0;1;31m [0;33m▄[0;1;31;43m▄░[0;33m▀[0;1;30m [0;33m▄██████████▀█[0;1;30;43m▄[0;33m▀▀[0;1;30;43m [0;33m▀ [0m
-[33m███████████████[0;1;30;43m▀[0;1;30;40m▄░[0;33m▀[0;1;31m▀[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▀[0;33m▀[0;1;30m░[0;30;43m▓░[0;33;40m██████████████████[0;37;40m  he ain[0;1;30;40m''[0mt crazy[1;30m,[0m just different[1;30m.[0m
+[33m███████████████[0;1;30;43m▀[0;1;30;40m▄░[0;33m▀[0;1;31m▀[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▀[0;33m▀[0;1;30m░[0;30;43m▓░[0;33;40m██████████████████[0;37;40m        [0;1;30;40m [0m       [1;30m [0m               [1;30m [0m
 [33m██████████████[0;30;43m░▓█[0;33;40m▐[0;1;31;43m░[0;1;31;40m▄▄▄▄[0;33m▄[0;1;31m [0;33m▀███████████████████ [0m
 [1;30;43m░[0;33m██▀███████▀▀[0;37m ▄[0;1;37m▄[0m▄ [33m▀[0;1;31;43m▒▓░[0;33m▀[0;37m ▄▄[0;1;30m▄ [0;33m▀▀██████████████[0;37;43m▄[0;37;40m▄▄▄ [0;30;47m▓░[0;37;40m▄▄▄  ▄▄▄  [0;33;40m [0;37;40m ▄▄▄  ▄▄▄▄ [0;33;40m      [0m
 [33;40m▄▄█▄▄████▀ [0;37;40m▄[0;1;37;47m▄[0;1;37;40m████[0;1;37;47m▄[0m▄[1m [0;33m▀[0;1;37m [0m▄[1;47m▄[0;1;40m████[0;1;47m▄[0m▄ [33m▀███████████[0;33;47m█[0;37;43m▄[0;1;37;47m█▀[0m▀  ▀[1;47m▀▄[0m▄ [30;47m▓░[0;1;37;47m░▓▄[0m▄ [33m [0;37m [0;1;37;47m░[0m█▄[30;47m░[0;1;37;47m▀ [0m▄▄▄▄▄▄▄▄

@@ -5,7 +5,7 @@
 # Source SHA-256: 7a66b473bb9cb1d144d6f1201dff488851e6a21d464d69ba8a596aeb996b6193
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zzzzzzzz.ans by Avenger + Leo (blackmaiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: with a small tear in your eye..
 # SAUCE Author: avenger.leo
 # SAUCE Group: blackmaiden
@@ -47,4 +47,4 @@ Write-Host '
                    [1;30m▀[0m▀[1;30;47m▄[0;1;37;47m▀█[0;1;30;40m▀[0;1;37;40m▄[0m▄[1;30m [0m▀[1m▀[0;1;47m▀[0;1;40m▄▄[0;1;30;47m▀[0;1;37;47m▄[0;1;30;47m▀[0;1;30;40m▄ [0;1;30;47m▀[0;1;37;40m▓▓▓▓[0;1;30;47m▄[0m▀▀[1;30m█▄ ▄[0;1;30;47m▀[0;1;37;47m▄[0;1;30;47m▀[0;1;30;40m ▓▓[0m▀[1;30m▀[0m
                         [1;30m▀[0m▀[1;30m▄[0m▀▀[1;30m ▄[0;1;30;47m▀[0;1;37;47m▄[0m ▀[1m▀[0;1;47m▀███▄[0;1;30;47m▀[0;1;37;40m▄[0;1;30;47m▀▓[0;1;37;40m▀▀[0;1;30;40m▄[0;1;37;47m▄▄▄[0;1;30;40m▄▀▀[0m       [1;30m_black maiden[0m
                             [1;30m▀[0m  [1;30m ▀[0m▀[1;30m▄[0;1;30;47m▀[0;1;37;47m▄████[0;1;37;40m███▓▓▓[0;1;30;40m▄▀▀[0m
-[1;30msee you next book, mates.[0m           [1;30m▀[0m▀[1;30;47m▄[0;1;37;47m▀▀[0m [1;30m▀[0;1;37m▀▀[0;1;30m▀[0m'
+[1;30m                         [0m           [1;30m▀[0m▀[1;30;47m▄[0;1;37;47m▀▀[0m [1;30m▀[0;1;37m▀▀[0;1;30m▀[0m'

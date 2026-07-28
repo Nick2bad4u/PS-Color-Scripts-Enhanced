@@ -5,7 +5,7 @@
 # Source SHA-256: 8b2e66edbebac0529bfbc1d1fa1f2d9b948e3b48cf0d0f6c6f64bd65eb3d0373
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-MTRX.ANS by lord dralacle (ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: lord dralacle
 # SAUCE Group: ecolove
 # SAUCE Date: 19990609
@@ -63,4 +63,4 @@ Write-Host '
 [37;40m [0;1;35;40m▀[0;1;35;47m▄[0;1;35;40m███[0;1;35;45m▀[0;35m▀[0m             [30m█████████[0;34m ▄█████[0;1;34;44m░[0;34m████████████████[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m▓▀[0;30;40m██[0;37;40m  [0;34;40m░░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;37;40m [0;30;44m▓▓[0m       [34;40m [0m
 [37;40m [0;36;40m [0;37;40m  [0;1;35;40m▀[0;1;35;45m▌[0;35m▌[0;37m     [0;1;37mohmygod emag[0;30m█████[0;34m ▐████████████████████[0;30;44m░[0;34;40m▓▓[0;30;44m░[0;34;40m▓▀[0;30;40m████[0m             [1;30;40mld![0m [34m [0m
 [37m [0;36m  [0;37m  [0;1;35;45m░[0;35m▌[0;37m   [0m           [30m█████[0;34m    ▐█████████████████[0;30;44m░[0;34;40m▓▓[0;30;44m░[0;34;40m▀[0;30;44m░[0;34;40m ▓[0;30;40m█████[0m        [1;30;40mecolove;[0m
-[36m  [0;37m  [0;1;35m▀[0;1;35;45m▒[0m               [30m██████[0;34m    ▀█▓█[0;30;44m░░[0;34;40m▓[0;30;44m░[0;34;40m█▓▓[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m█[0;30;44m░░[0;34;40m▓█[0;30;44m░[0;34;40m▓▓▓▓▄▄  [0;37;40m [0;1;30;40mfor the love of art[0m'
+[36m  [0;37m  [0;1;35m▀[0;1;35;45m▒[0m               [30m██████[0;34m    ▀█▓█[0;30;44m░░[0;34;40m▓[0;30;44m░[0;34;40m█▓▓[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m█[0;30;44m░░[0;34;40m▓█[0;30;44m░[0;34;40m▓▓▓▓▄▄  [0;37;40m [0;1;30;40m                   [0m'

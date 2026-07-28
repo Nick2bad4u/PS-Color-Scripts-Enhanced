@@ -5,7 +5,7 @@
 # Source SHA-256: 06c76e1c21a189ac5ddc5e58d943a8f398531b3200eb02e9396da30efb9d916b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: qp-block.ans by Psidream (Fuel); released in fuel29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Block Mirror
 # SAUCE Author: Psidream
 # SAUCE Group: Fuel
@@ -42,7 +42,7 @@ Write-Host '
  [1;30m█[0;1;30;47m▓▓▓▓▓▓[0;1;30;40m█░[0m    [33m    [0;1;37m█████████████[0;1;37;47m▓▓[0m               [1m█████████████▓▓[0m       [1;30m░██[0;1;30;47m ░█  [0;1;30;40m█[0m
  [1;30m█▄▄▄▄▄▄█░[0m    [33m    [0;1;37m▓▓███████[0;1;37;47m██▒▒  [0m               [1;47m▒[0;1;40m██████████▓▓▓▓[0m       [1;30m░██[0;1;30;47m█████[0;1;30;40m█[0m
  [1;30m█▄▄▄▄▄▄█░[0m                                                            [1;30m░██▀█▀█▀█[0m
-[1;30m █▄▄▄▄▄▄█░[0m       [1m[[0m [1mYou''re fucked[0m [1m][0m             [1m [0m [1mYou''re fucked[0m [1m [0;1;33m [0m     [1;30m░██▀█▀█▀█[0m
+[1;30m █▄▄▄▄▄▄█░[0m       [1m [0m [1m             [0m [1m [0m             [1m [0m [1m             [0m [1m [0;1;33m [0m     [1;30m░██▀█▀█▀█[0m
 [1;30m ▌ [0m                                                                   [1;30m░██▀█▀█▀█[0m
 [1;30m ▌[0;1;37m ██████▄  ██[0m [1;30m ░░░[0m  [1m████████ ████████ ██ [0;1;30m░[0;1;37m  █▓[0m   [1;30m░░░░░░░░░░░░░░░░░░░░░██▀█▀█▀█[0m
 [1;30m ▌ [0;1;37m██  ▀███ [0;1;37;47m▓[0;1;37;40m█[0m [1;30m▒██▀ [0m [1m▀▀ [0;1;30m▄  [0;1;37m██ ██[0;1;30m ▄▄[0;1;37m ██[0m [1m██[0m [1;30m [0;1;37m▄██▀[0m [1;30m░░▒▒▓▓█████████████████████████[0m

@@ -5,13 +5,13 @@
 # Source SHA-256: 8224d52a67bd00dd3d1ae32154c300f1d997ea3d0665a6725ff3bd0f51d13588
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-WEB1.ANS by Arlequin (circe02); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
 Write-Host '
 [1;33m  [0m                         [1;33m▄[0m ░░          [1m              [0m
-   Art By Arlequin        [1;33m▐▓[0m  [1;33m▄[0m [1m▄[0m▄ [32m▀[0m                  [32m   [0;1;37m▄▄[0m▄▄[32m▄[0;37m   [0;1;37m▀[0m▄
+                          [1;33m▐▓[0m  [1;33m▄[0m [1m▄[0m▄ [32m▀[0m                  [32m   [0;1;37m▄▄[0m▄▄[32m▄[0;37m   [0;1;37m▀[0m▄
            [1;33m▄[0m    [1;33m▄[0m     [1;33m▄[0m     [1;33m▐▌[0m [32m▄▐[0;37;42m▓[0;32;40m▌[0m    [32;40m▀[0;37;40m [0;32;40m▄[0;37;40m▄[0;32;40m [0m     [32;40m  ▄[0;37;40m▄[0;1;37;40m▄▄[0;32m ▀[0;37m░░ ▀[0;32m▐[0;37;42m▓▓▒▒[0;37;40m ▓[0;1;37;40m [0m
             [1;33m▀█▄[0m [1;33m▐[0;1;33;43m▀[0;1;33;40m▌[0m [1;33m▐[0;1;33;43m▓[0;1;33;40m▌[0m      [1;33m▄[0m [32m▀█▄[0m     [32m▐[0;37;42m▓▓[0;32;40m▌[0;37;40m░░[0m    [32;40m█[0;37;42m▓▓[0;37;40m▀▀[0;32;40m▀[0m       [32;40m█[0;37;42m▒▒[0;1;32;42m▐[0;32m▌▐[0;37m  [0;1;37m▄▄[0m▄▄░░
          [1;33m▄[0m   [1;33m▐[0;1;33;43m▓[0;1;33;40m▌[0m [1;33m█[0;1;33;43m▓[0;1;33;40m▌[0m [1;33;43m██[0m    [32m█▄[0;37m [0;32m▄▐█▓[0m     [32m█[0;1;32;42m  [0m [1;30m   [0m   [32m▐██[0;1;32;42m░░[0m        [32m█[0;1;32;42m░░▄[0;32m▌▐[0;37m ▀[0;32m▀ [0;37m▀▓[0;37;42m▓▓[0;1;32;42m▄[0;32m▌[0m

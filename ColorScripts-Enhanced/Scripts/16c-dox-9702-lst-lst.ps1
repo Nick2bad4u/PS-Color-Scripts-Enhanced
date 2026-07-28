@@ -5,7 +5,7 @@
 # Source SHA-256: 1c94ed8ee7fe719fec9591713ffa719c892214a73e44f9b3f91042ec725f774f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LST-LST.ANS by soul trader (d0x!product); released in dox_9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hehe its lst!
 # SAUCE Author: soul trader
 # SAUCE Group: d0x!product
@@ -17,7 +17,7 @@
 
 Write-Host '
 
-        [32mhey mOmie[0m       [1;32m▄▄[0;1;32;42m▓▀[0;32m▀ [0;1;32m▀[0;1;32;42m▓▄[0;1;32;40m▄[0;32m▄[0m         [32mdox.prOduct[0m      [1;32m▄[0;1;32;42m▓[0;32m█   nin97![0m
+        [32m         [0m       [1;32m▄▄[0;1;32;42m▓▀[0;32m▀ [0;1;32m▀[0;1;32;42m▓▄[0;1;32;40m▄[0;32m▄[0m         [32m           [0m      [1;32m▄[0;1;32;42m▓[0;32m█         [0m
 [32m  [0;1;32m▄▄▄▄[0;32m▄[0m              [1;32m▄███[0;1;32;42m▀[0;32m▀[0m     [1;32m▀[0;1;32;42m▓[0;1;32;40m██[0;1;32;42m▄[0;32m▄ [0;1;32m▄[0;1;32;42m▓[0;32m█[0m             [1;32m▄▄▄████[0;1;32;42m▀[0;1;32;40m▀[0;32m▀[0m
 [32m [0;1;32m▀█[0;1;32;42m▓[0;1;32;40m▀▀▀[0;32m▀   [0;1;32m▀▀[0;32m▀    [0;1;32m▄[0;1;32;42m▓[0;1;32;40m███[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;42m▄[0;1;32;40m▄[0;32m▄   [0;1;32m▀▀▀▀▀▀▀▀▀▀▀▀[0;32m▀[0m     [1;32m▀[0;32m▀ [0;1;32m▀▀▀▀▀▀▀▀[0;1;32;42m▓ [0m [1;32;40m▄[0;32m▄[0m
 [32m   [0;1;32m▀ [0;34m█████████▄  [0;1;32m▀▀▀▀▀▀▀▀▀▀ [0;34m▄█████████▀▀[0;1;30;44m░[0;34m████████▄ ██████[0;34;44m   [0;34;40m▄ [0;1;32;40m▄▄[0;1;32;42m▓[0;1;32;40m██[0;1;32;42m▄[0;1;32;40m▄[0;32m▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 90383a19f56bfe3caf4e9e0fc65aedf4aa1984c3a68408bfaebe3ebaa7d4a044
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ROY-INS.ANS by ROY (READ THE INI FILE); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Insanity
 # SAUCE Author: ROY
 # SAUCE Group: READ THE INI FILE
@@ -31,6 +31,6 @@ Write-Host '
 [1;30m█ [0;33m▀[0;35m▀[0;33m▀[0;35m▀▀ [0;33m▀[0;35m▀[0;33m▀[0;35m▀▀ [0;33m▀▀▀[0;31m▀▀▀▀ [0;1;30m▄▄████ [0;33m▀[0;35m▀[0;33m▀[0;35m▀▀ [0;1;31m▀[0;35m▀▀▀▀ [0;33m▀[0;35m▀[0;33m▀[0;35m▀▀ [0;33m▀▀[0;35m▀▀ [0;33m▀[0;35m▀[0;33m▀[0;35m▀▀ [0;1;30m█ [0;33m▀[0;35m▀▀▀▀ [0;1;30m█ [0;1;31m▀[0;33m▀▀[0;35m▀[0;33m▀[0;35m▀▀ [0;1;30m▄██[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m░ ···  [0m· [1m─ [0m─[1;30m────────[0m─ 386/33 [1;30m-[0m/\[1;30m- [0mPCE V[1m1[0m.[1m13 [0;1;30m-[0m/\[1;30m- [0;1mCRC [0mGHQ ─[1;30m─────────[0m─ [1m─ [0m·  [1;30m··· ░[0m
-[1;30m▒ ·····  [0m· [1m─ [0m─[1;30m────────[0m─ [1mSYSOP[0m: BUSY BEE [1;30m-[0m/\[1;30m- [0;1mCO: [0mCOAST ─[1;30m─────────[0m─ [1m─ [0m·  [1;30m····· ▒[0m
-[1;30m▓ ·······  [0m· [1m─ [0m─[1;30m──────────[0m─ ANS[1mi [0;1;30mby [0mROY[1;30m/TRSi[0m-[1;30mFAiTH [0m─[1;30m───────────[0m─ [1m─ [0m·  [1;30m······· ▓[0m
+[1;30m▒        [0m  [1m─ [0m─[1;30m────────[0m─ [1m     [0m           [1;30m [0m  [1;30m  [0;1m    [0m      ─[1;30m─────────[0m─ [1m─ [0m   [1;30m      ▒[0m
+[1;30m▓          [0m  [1m─ [0m─[1;30m──────────[0m─    [1m  [0;1;30m   [0m   [1;30m     [0m [1;30m      [0m─[1;30m───────────[0m─ [1m─ [0m   [1;30m        ▓[0m
 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

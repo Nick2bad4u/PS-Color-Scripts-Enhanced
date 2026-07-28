@@ -5,7 +5,7 @@
 # Source SHA-256: 9608969aa021790b34347af3db84fb765fdb3046c8cb0d2ead4ab42a65a59973
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-coma1.ice by Fluor + The Night Angel + The Extremist + Mr Wrong (The Used Coalition); released in ice-200102a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Coma demoparty ansi compo
 # SAUCE Author: Multiple Artists
 # SAUCE Group: The Used Coalition
@@ -35,6 +35,6 @@ Write-Host '
 [33m  ▀▀▄    ▄▀   ░░  [0;31m▀▀   [0;36m▄[0;1;30;46m▀[0;1;36;46m▄[0;36m▀▀[0;1;30m▀▀  [0;36m▄▄█[0;1;36;46m░  [0;36m███[0;1;30;46m▀[0;36m▄[0;1;30;46m▀▀[0;36m██[0;1;36;46m▄▄▀▀ ▄▄[0;36m▄[0;1;30m▄[0;36m░ [0;31m▀█▄  [0;33m▀▀▀ ▄▓▀[0m     [33m▓▀▀[0m
      [33m■[0m                   [36m▀[0;1;30;46m▄[0;1;36;46m▀[0;36m▄▓▓▓▓█[0;1;36;46m▄▓▓[0;1;36;40m▄[0;36m▄█▀▀██[0;36;46m   [0;36;40m████▀▀[0;1;30;40m▀[0m       [31m▀▀   [0;33m▀[0m       [33m░[0m
 [34m░[0m     [33m░[0m                     [36m▀▄ ▀▀[0;1;36m▀▀[0;1;36;46m▀████▄▄[0;36m▄ ▀▓▓▓▓▓▓▓▄▌ ░[0m                       [34m░[0m
-[34m▓▄  The Extremist[0m            [36m▐[0m        [36m▀[0;1;36m▀[0;36m▄▀▀   ▄▄[0;1;36;46m▀[0;1;36;40m▀[0;36m▀[0;1;36;46m▄[0;1;36;40m▄[0;36m▄ ░[0m            [34mMr.Wrong  ▄▓[0m
+[34m▓▄               [0m            [36m▐[0m        [36m▀[0;1;36m▀[0;36m▄▀▀   ▄▄[0;1;36;46m▀[0;1;36;40m▀[0;36m▀[0;1;36;46m▄[0;1;36;40m▄[0;36m▄ ░[0m            [34m          ▄▓[0m
                                         [36m▐[0;1;36;46m▀[0m        [36m▀▀▄[0;1;36;46m▀▀[0;36m▓[0;1;30m▄[0m
                                       [36m▄ ▀[0m              [36m▀▀▄[0m'

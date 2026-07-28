@@ -5,7 +5,7 @@
 # Source SHA-256: ac9c54b0161e7e25081696b7c171813afff904b6882f2fb2393817cfb6654279
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KI-PARL.ANS by KirinECHO (blndr016); released in blndr016 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ Write-Host '
 [1;33;43m ░[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m███████████[0;1;33;43m█▓[0m      [1;47m░[0;1;40m▓▄[0m [1;33;43m▓▓▓[0;1;33;40m██[0;1;33;43m▒[0;1;33;40m███[0;1;33;43m▓▒▒▓▓░[0;33m▄[0;37m  [0;32m▀▀██[0;1;32;42m░[0;32m██[0;1;32;42m▀▀▀█░[0;32m▀▀█[0;37m [0;33m█▓[0;37m [0;32m▀▀▄▄▄██████████[0m
 [1;33;43m░▓[0;1;33;40m███████[0;1;33;43m▒[0;1;33;40m███████[0m ░      [1m▌[0m [1;33;43m▓[0;1;33;40m██[0;1;33;43m▓[0;1;33;40m█████[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓▓[0;1;33;40m██[0;1;33;43m▓░ [0;33m▄[0;37m  [0;32m▀▀▀▀▀ █████▄[0;37m [0;33m▀[0;37m [0;1;32;42m█▓▓░[0;32m███[0;1;32;42m▀▓░[0;32m███▀▀[0;37m [0m
 [1;33m██████[0;1;33;43m▓[0;1;33;40m███████[0;1;33;43m▓[0;1;33;40m███▄[0m      [1;33m▄[0;1;33;43m▓[0;1;33;40m████[0;1;33;43m▓[0;1;33;40m████[0;1;33;43m▓[0;1;33;40m███[0;1;33;43m▓[0;1;33;40m██[0;1;33;43m▓▓░ ░▒░[0;33m█▄▄▄[0m    [32m▀▄▄▄███▀▀▀[0m
-[1;33m▀▀███████████[0;1;33;43m▓[0;1;33;40m████████[0;1;33;43m▓▒▒▓[0;1;33;40m█████[0;1;33;43m▓▓[0;1;33;40m████[0;1;33;43m▓[0;1;33;40m▀▀▀▀[0;1;33;43m▓[0;1;33;40m▀[0m [1;30mkirinECHO[0m   [1;30mGoat on Bowling Ball[0m'
+[1;33m▀▀███████████[0;1;33;43m▓[0;1;33;40m████████[0;1;33;43m▓▒▒▓[0;1;33;40m█████[0;1;33;43m▓▓[0;1;33;40m████[0;1;33;43m▓[0;1;33;40m▀▀▀▀[0;1;33;43m▓[0;1;33;40m▀[0m [1;30m         [0m   [1;30m                    [0m'

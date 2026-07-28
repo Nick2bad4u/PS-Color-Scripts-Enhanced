@@ -5,7 +5,7 @@
 # Source SHA-256: efceeb234f745dbe4a91973280bca0a0e82e4b75466d37678b85de9533dc50ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-ID.ANS by Precious Metal (riot0198); released in riot0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -22,7 +22,7 @@ Write-Host '
       [1;30m▀▀▀▀[0m [33m███▀[0;37m [0;33m▀▀▀▀▀[0;37m [0;1;30m▐████[0;1;30;41m▓▒[0;31m████▄[0;37m [0;1;30m▄▄[0;33m▀▀[0;1;37;43m!pm¡[0;33m█▀▌▀[0;37m [0;31m▌[0m
             [33m▀▀██████▀[0;37m [0;1;30m▐████████[0;1;30;41m▓▒[0;31m█▌▌[0;37m  [0;1;30m [0m [33m▀▀▀[0m
                       [1;30m▐███████████[0;31m▌[0m
-                      [1;30m▐▓▓█████████[0;31m▌[0;37m  [0;1;30mInn of the Last Dragon[0m
+                      [1;30m▐▓▓█████████[0;31m▌[0;37m  [0;1;30m                      [0m
                       [1;30m▐██████████[0;1;30;41m▓[0;31m▌[0;37m  [0;1;30mRenegade v5-11[0m [1;30m28.8 24/7[0m
                       [1;30m███████████[0;1;30;41m▓[0;31m█[0;37m  [0;1;30m      619-XXX-XXXX[0m
                       [1;30m▐██████████[0;1;30;41m▓[0;31m█[0m        [1;30mwhatever u want[0m

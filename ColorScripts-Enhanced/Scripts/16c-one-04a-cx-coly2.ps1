@@ -5,7 +5,7 @@
 # Source SHA-256: a309cca3536cb8a2e1f160b99a8c1c7a808aed9a8957f01e85b953d955be6336
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CX-COLY2.ANS by Cyrix (One); released in one-04a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Logo Collection #2
 # SAUCE Author: Cyrix
 # SAUCE Group: One
@@ -16,9 +16,9 @@
 
 Write-Host '
 [1;35;45m██▄[0;35m▄[0;37m [0;35mcx[0;33m▄[0;1;33m▄▄▄▄▄▄[0;1;37m▄▄[0;1;33m▄▄  [0;33m▄[0;1;33m▄▄▄  [0;33m▄[0;1;33m▄▄▄▄▄▄ [0;33m▄[0;1;33m▄▄▄[0;33m▄[0;1;33m▄▄▄  [0;33m▄[0;1;33m▄▄▄▄▄[0;1;37m▄[0;1;33m   cyrix[0;1;37mone[0m [33m-- [0;35mcould i have[0m
-[1;35;45m███[0;1;35;40m█[0;35m█ [0;33m█[0;1;33m███ [0;33m█[0;1;33;45m▓[0;1;33;40m██[0;33m▀[0;1;33;43m▀[0;1;33;45m▓[0;1;33;40m█[0;1;33;43m▄[0;1;33;40m██▀  [0;33m█[0;1;33m██[0;1;33;45m▓[0;1;33;40m [0;33m█[0;1;33m███[0;33m█[0;1;33m██[0;1;33;42m█▓[0;1;33;43m▀[0;1;33;40m███[0;1;33;43m▄[0;1;33;40m██[0;1;33;46m▓[0;1;33;40m [0;33m█[0;1;33m███  [0;35mpicked uglier colors for [0m
+[1;35;45m███[0;1;35;40m█[0;35m█ [0;33m█[0;1;33m███ [0;33m█[0;1;33;45m▓[0;1;33;40m██[0;33m▀[0;1;33;43m▀[0;1;33;45m▓[0;1;33;40m█[0;1;33;43m▄[0;1;33;40m██▀  [0;33m█[0;1;33m██[0;1;33;45m▓[0;1;33;40m [0;33m█[0;1;33m███[0;33m█[0;1;33m██[0;1;33;42m█▓[0;1;33;43m▀[0;1;33;40m███[0;1;33;43m▄[0;1;33;40m██[0;1;33;46m▓[0;1;33;40m [0;33m█[0;1;33m███  [0;35m                         [0m
 [1;35;45m███[0;1;35;40m█[0;35m█[0;37m [0;33m█[0;1;33m███ [0;33m▄[0;1;33m▄▄▄ [0;33m▄[0;1;33;43m▄[0;1;33;40m██[0;1;33;42m▓[0;1;33;40m▄[0m   [33m█[0;1;33m███ [0;33m█[0;1;33m███[0;1;37;43m▄[0;1;33;40m███ [0;33m█[0;1;33m██▀[0;33m▀[0;1;33;43m▀[0;1;33;40m██▀▀▀▀▀  [0;35mthat header? this here''s[0m
-[1;35;45m███[0;1;35;40m█[0;35m█[0;37m [0;33m█[0;1;33;42m▓[0;1;33;40m██▄[0;1;33;43m▄[0;1;33;40m█[0;1;33;43m█▓▄[0;1;33;40m██▀[0;33m▀[0;1;33;43m▀[0;1;33;40m██▄ [0;33m▀[0;1;33;43m▀[0;1;33;40m██▄[0;1;33;43m▄[0;1;33;40m█[0;1;33;42m█▓[0;1;37;43m▄█[0;1;33;40m██ [0;33m█[0;1;33m█[0;1;33;46m▓[0;1;33;40m█[0;1;33;43m▄[0;1;37;40m██[0;1;33;40m█▄[0;1;33;43m▄[0;1;33;40m██[0;1;33;42m▓[0;1;33;40m  [0;35mmy  colly for  pack # 4.[0m
+[1;35;45m███[0;1;35;40m█[0;35m█[0;37m [0;33m█[0;1;33;42m▓[0;1;33;40m██▄[0;1;33;43m▄[0;1;33;40m█[0;1;33;43m█▓▄[0;1;33;40m██▀[0;33m▀[0;1;33;43m▀[0;1;33;40m██▄ [0;33m▀[0;1;33;43m▀[0;1;33;40m██▄[0;1;33;43m▄[0;1;33;40m█[0;1;33;42m█▓[0;1;37;43m▄█[0;1;33;40m██ [0;33m█[0;1;33m█[0;1;33;46m▓[0;1;33;40m█[0;1;33;43m▄[0;1;37;40m██[0;1;33;40m█▄[0;1;33;43m▄[0;1;33;40m██[0;1;33;42m▓[0;1;33;40m  [0;35m                        [0m
 [1;30m-----/////-----/////-----/////-----/////-----/////-----/////-----/////-----/////[0m
  == [1mcx-scene.ans[0m == [1mrequest[0m == [1mmAce[0m ===========================================
 [1;30m/////-----/////-----/////-----/////-----/////-----/////-----/////-----/////-----[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 440c970ad31c9d75d8a1e5fedf83ea1d9932e7c5cafdd34478012d030c23954e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-AIA.ANS by sammael (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: auggies in ansi
 # SAUCE Author: sammael
 # SAUCE Group: rile
@@ -35,7 +35,7 @@ Write-Host '
 [1;35;45m▒▒▒▒▒▒▒▒▒▒▒▒[0;30;45m▄[0;35;40m [0;1;30;40m▄[0;1;30;47m▒▒[0;1;30;40m▄[0;34m [0;30;44m▓▒░[0;1;34;44m░▒▓███████████▓▓▓▒[0m  [1;34m▄[0m       [1m█[0;1;36m▌[0m          [36m░[0m
 [1;35;45m▓▓▓▓▓▓▓▓[0;1;35;40m▀[0m [1;30m▄▄▄[0;1;30;47m▓▓▓▓▓[0;30;47m▓[0;1;30;40m▄[0;30;44m█▄▄[0;1;34;44m░[0;1;34;40m▒[0;1;34;44m███[0;1;37;44m██[0;1;34;44m██████[0;1;34;40m▓▓▓▓[0;34m [0;37m [0m
 [1;35;45m▀███▓▌[0;35m▌[0;36m [0;1;30m■▀▀▀▀▀██████▓[0;30;47m▓[0;37;40m  [0;1;37;44m░░░░▓▓░░░░░░[0;1;34;40m░░▀ [0m
-[1;35;45m██████▄[0;35m▄▄▄[0;36m [0;30;47m▓▓[0;36;40m  [0;1;30;40m [0m▄[1;30m▄▄███▀▀[0m  [1;30m▄[0;1;35m [0;1;37m░░[0;1;35m     [0m▄[1;30m▄▄▄▄█[0m     auggies in ansi... =P
+[1;35;45m██████▄[0;35m▄▄▄[0;36m [0;30;47m▓▓[0;36;40m  [0;1;30;40m [0m▄[1;30m▄▄███▀▀[0m  [1;30m▄[0;1;35m [0;1;37m░░[0;1;35m     [0m▄[1;30m▄▄▄▄█[0m                          
 [1;35;45m████[0;30;45m▄[0;1;35;45m████▄▄[0;1;35;47m▓▓[0;1;35;45m▄[0;35m▄▄▄▄▄▄▄▄▄[0;37m [0;1;30m▀▀▀ [0m [1m▀[0;30mt[0;37m▀[0;1;30m▀▀▀[0;1;30;47m▓▓[0;1;30;40m▀▀▀[0m          put stuff here.
 [1;35;45m█████████████████████░▄▄▄▄▄▄▒▄▄▄▄▄ [0;35m▄▄[0;1;35m [0m
 [1;35;45m░[0;35m███[0;1;35;45m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m██████[0;1;35;45m▀▀▀▀▀[0;35m████████[0;1;35m [0m'

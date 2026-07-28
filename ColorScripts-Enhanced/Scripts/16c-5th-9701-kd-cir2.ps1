@@ -5,7 +5,7 @@
 # Source SHA-256: 794d98eefb583b10aab0b35c62faaca991c1b9c7a1dd280e75c16559df058469
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KD-CIR2.ANS by KLeaR DiSToRTioN ([Chaos InC. Rhyme]); released in 5th-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cir
 # SAUCE Author: KLeaR DiSToRTioN
 # SAUCE Group: [Chaos InC. Rhyme]
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m▐[0;1;33m█[0;1;36m█[0;1;32m█[0;1;35m█[0;1;31m█[0;1;34m█[0m [1;47m▓[0;1;40m▀▀ ♦ [0;1;47m░[0m▀[1;47m░[0;1;40m [0;1;47m▓[0;1;40m▀[0;1;47m▒[0;1;40m [0;1;47m▓[0;1;40m▀[0;1;47m▒[0m [1;30m░▒▓[0m▒▓█[1m▌[0m      ,`[1;30m''.[0m  [1;30mAN[0mS[1mi·pr[0mo[1;30mdu[0mc[1med[0m·[1mb[0my·   [1;30m,.[0m   [1;37m,`''▐[0m█▓▒[1;30m▓▒░[0m
+[1m▐[0;1;33m█[0;1;36m█[0;1;32m█[0;1;35m█[0;1;31m█[0;1;34m█[0m [1;47m▓[0;1;40m▀▀   [0;1;47m░[0m▀[1;47m░[0;1;40m [0;1;47m▓[0;1;40m▀[0;1;47m▒[0;1;40m [0;1;47m▓[0;1;40m▀[0;1;47m▒[0m [1;30m░▒▓[0m▒▓█[1m▌[0m        [1;30m  [0m  [1;30m  [0m [1m    [0m [1;30m  [0m [1m  [0m [1m [0m     [1;30m  [0m   [1;37m   ▐[0m█▓▒[1;30m▓▒░[0m
 [1;37m▐[0;1;33m█[0;1;36m█[0;1;32m█[0;1;35m█[0;1;31m█[0;1;34m█[0m [1;47m░[0;1;40m▄▄ [0;1;47m░[0;1;40m [0;1;47m▓[0;1;40m   ▀▀[0;1;47m░[0;1;40m   [0;1;47m░[0m [1;30m░▒▓[0m▒▓█[1m▌.,∙''`[0m''  [1;30m  [0m`,[1;30m║<[0m¿ε[1mÆΓ·D↑§[0mτσΓτ[1;30m¡0ⁿ[0m ''`[1;30m  `[0m,`   [1m▐[0m█▓▒[1;30m▓▒░[0m
 [1;37m───────-─────────-─────-────────────────-─────────────-───────────────────-─────[0m
               [1;30m▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▒░[0m

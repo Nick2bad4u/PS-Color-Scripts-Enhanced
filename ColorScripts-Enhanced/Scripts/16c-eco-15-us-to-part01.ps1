@@ -5,7 +5,7 @@
 # Source SHA-256: fe8256f4edc3b4e68bce899bd3e6a3dc0a8fcd2bbc5f356ef77bfd8f88e4c0ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TO.ANS by Snowball + Lemonizer (E c o l o v e); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Black and White dancing together!
 # SAUCE Author: Snowball Lemonizer
 # SAUCE Group: E c o l o v e
@@ -37,10 +37,10 @@ Write-Host '
 [32m [0m            [1;30m▐[0;1;37;47m▐█[0;1;32;40m███[0m
 [32m [0m     [36m▄▄▄[0m    [1;37m ▀██▀▀[0m                    [1;30mRepresenting E c[0m [1;30mo[0m [1;30mL o v e[0m
     [36m░[0;30;46m▓[0;36;40m███▄[0;36;41m███[0;1;36;46m▄███▀▀[0;1;37;46m [0;36m██▓░[0;30;46m▓[0m              [1;30;40m     [0m
-    [36m░[0;30;46m▓[0;36;40m█▀█[0;36;41m█[0;37;46m▀▀[0;1;36;46m▀[0;1;33;40m██[0;1;36;46m█▄[0;36m████████[0m              [1;30mWham .. Lemonizah & Snowball are [0m
+    [36m░[0;30;46m▓[0;36;40m█▀█[0;36;41m█[0;37;46m▀▀[0;1;36;46m▀[0;1;33;40m██[0;1;36;46m█▄[0;36m████████[0m              [1;30m                                 [0m
         [36m█████[0;1;36;46m ▀███▄▄[0;36m██▌▀▀[0;1;37m  [0;32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0m      [1;30;40mkickin'' here at TakeOver ''99[0m
      [1;30m▄[0;31m▄[0;37m  [0;33m▄▄[0;37m [0;1;30m▄[0m▄[1;47m▄█▀[0m▀ [1;30m▄[0;33m▄▄▄█[0;1;30m▌[0;1;30;47m▌[0;1;37;40m█[0;1;32;40m███[0;1;32;41m██[0m
-   [1;30m▄[0;33m█[0;1;33;43m█▌[0;33m▐█[0;1;33;43m▀░[0m ▐[1;47m██▀[0m▀ [33m█[0;1;33;43m██▓░[0;33m█[0;1;37m [0;1;37;47m▄█[0;1;32;40m█████[0;1;37;40m [0;1;30;40m▄[0m     [1;30mAnsi is art people ...       [0m
+   [1;30m▄[0;33m█[0;1;33;43m█▌[0;33m▐█[0;1;33;43m▀░[0m ▐[1;47m██▀[0m▀ [33m█[0;1;33;43m██▓░[0;33m█[0;1;37m [0;1;37;47m▄█[0;1;32;40m█████[0;1;37;40m [0;1;30;40m▄[0m     [1;30m                             [0m
    [31m▐[0;1;33;43m▐█[0;1;37;40m██[0;33m [0;1;30m▄[0m▄[1m▄█[0;1;47m███[0m▌[33m▀▀▀[0;1;33;43m▀▀ [0;31m▐[0;1;30m▄[0;1;37m ▄███▄ [0;33m▄▌[0m
     [33m▐▀[0;1;33;43m▀[0;33m█[0;37m [0;1;30m█[0m█[1;47m▐████▄▄▄[0;1;30;40m▌[0m▄▄▄▄[33m [0;37m [0;1;37;47m▐██[0;1;37;40m▀▀ [0;1;33;43m░[0;33m▌[0;1;30m▄[0;1;33;43m▄[0;33m▄[0m
       [1;30m▌[0m    [1;47m▐[0;1;32;40m███[0m▀▀▀[1;30;47m▄▄[0m█[1;47m▀██▄[0m▌[1;47m▐█[0;1;40m██ [0;1;33;43m░█[0;1;37;40m██[0;1;33;43m██[0;33m▌[0m

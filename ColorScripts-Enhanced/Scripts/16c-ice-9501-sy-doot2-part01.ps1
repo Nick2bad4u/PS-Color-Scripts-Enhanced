@@ -5,7 +5,7 @@
 # Source SHA-256: 30e77d19371403bb20600b4eddfe45a9d1efe7ec62cf5e8edd42fd7cfe8639ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SY-DOOT2.ICE by Shaggy (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
                                       [33m▄▄████▄▄[0m
                                      [33m████▀▄██▀▌[0m         [1;30m░[0m
                                     [33m▐█▀█▌[0;1;31m▐▄[0;33m▀[0;1;31m▄█[0m
-                                     [33m█▌[0;1;31m▄▄█▄█▄▌ [0;30mHey Scoob!  Want a Scooby-Snack[0;37m [0m
+                                     [33m█▌[0;1;31m▄▄█▄█▄▌ [0;30m                               [0;37m [0m
                                       [33m▀ [0;1;31m█▄▀▀█ [0;30m          [0;1;30m░[0;30m                      [0m
                                         [31m▄[0;1;31m▀▀▀[0m            [1;30m▒[0m          [30mkind buds?!?[0m
                                    [32m▄▄▄▀[0;1;31m▄[0;1;31;41m▓▒[0m [32m▄▄▄[0m          [1;37;47m░[0m

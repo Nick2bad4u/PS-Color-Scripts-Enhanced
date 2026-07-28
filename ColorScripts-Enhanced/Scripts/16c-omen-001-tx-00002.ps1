@@ -5,7 +5,7 @@
 # Source SHA-256: 8ff1d24de69e09d4740b1946c4ae1eb27840424dff1cb96c694eb6aca89cb346
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TX#00002.ANS by toons xilion (omen); released in omen-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ding
 # SAUCE Author: toons xilion
 # SAUCE Group: omen
@@ -24,7 +24,7 @@ Write-Host '
             [32m▀[0;37m▐[0;37;47m [0;1;37;47m▀░▓█[0;1;37;40m████[0;31m▄[0;37m▀▀[0;31m▄▀[0;37m▐[0;37;43m▀▀   [0;33;40m▄[0;1;33;40m▄▄[0m      [1;36m░ ░▓[0;1;36;46m▓▓[0;1;36;40m░[0;36m░░▓[0;1;36m█▓░[0;36m▐[0;1;36;46m▐[0;1;36;40m▓░[0;36m░░▓[0;1;36m█▌[0;36m░░▓[0;1;36m▓░░ [0;36m▀[0;1;36m▀▀▀█▓░░[0m
       [36m▄▄▄▄    [0;37m▀[0;37;47m  [0;1;37;47m▀▒▓[0;1;37;40m▀▀[0;1;31;40m▄[0;1;31;41m░[0;31m▀[0;37m█▄[0;33m▄[0;37;43m▀       [0;1;33;43m▐[0;1;33;40m█▄[0m        [1;36m▀▀▄▄▄[0;36m█[0;1;36m▀▀  [0;36m▀[0;1;36m▀▀  [0;36m▀[0;1;36m██  ▀▀▀▀▄▄▄▄▀▀▀[0m
 [36m▄▄▄█████████▄▄▄  [0;37m▀[0;1;37m▀[0;33m▄[0;1;31m▀▀ [0m▄█[43m▓░ [0;33;40m█████▓▀█[0;1;33;43m░▓[0;1;33;40m▌[0m                  t  h  r  e  e
-[36m█████▄▓[0;1;36;46m▄▄[0;36m████▀████▄ [0;37;43m▓[0;37;40m▀   [0;33;40m▀▀▀▀[0;37;40m▀▀[0;37;43m ▄░[0;33;40m██[0;1;33;43m■[0;1;33;40m▀[0m         [1;36m"[0;1;32m. ..[0;1;33ma revival of the finest[0;1;32m.. .[0;1;36m"[0m
+[36m█████▄▓[0;1;36;46m▄▄[0;36m████▀████▄ [0;37;43m▓[0;37;40m▀   [0;33;40m▀▀▀▀[0;37;40m▀▀[0;37;43m ▄░[0;33;40m██[0;1;33;43m■[0;1;33;40m▀[0m         [1;36m [0;1;32m    [0;1;33m                       [0;1;32m    [0;1;36m [0m
 [36m█████[0;1;36;46m▀████▓░[0;36m▀ ▀████▄ [0;37;43m░[0;33;40m▄   [0;31;40m▀▀▄▄▄■ [0;37;43m▓░[0;33;40m▀[0m
 [36;40m█[0;1;36;46m▄ [0;36m██[0;36;46m [0;1;36;46m░░▀▀░[0;36m██▄▓███▀ [0;1;37m▄  [0;33m▀▓▓▄▄    ▄▄ [0;1;37m▀▄[0m                     sop`d+[1mlagger[0m
 [1;36;46m▌[0;36m██[0;1;36;46m░░░▒▓▓[0;36m▀▀▀▀▀ [0;37m▄▄[0;1;37m▄▄[0;1;37;47m▓[0;1;37;40m▌   ▀[0;1;37;47m▓░[0;1;30;40m░[0;33m▀▀▀▀[0;1;37m▄   [0;1;37;47m▓█▀▀[0;1;37;40m▄▄▄▄[0m▄▄▄                #[1m???-????[0m

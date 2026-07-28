@@ -5,13 +5,13 @@
 # Source SHA-256: 04e56c02261181df8be3cc6b1905ab0aee6614f857bf96c99692bad6d1291693
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TC.ICE by Tempus Thales (ice-9407); released in ice-9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
                                  [31m▄▄    ▄▄▄[0m            [31m▓[0m
-[31m [0;30mHi, My name is Shaggy and    [0;31m▄▀▀[0;1;31;41m▒░[0;31m▀  ▀▀[0;1;31;41m▒░[0;31m▀▄[0m       [31m▒▓▓█▓▒ ▓[0m
+[31m [0;30m                             [0;31m▄▀▀[0;1;31;41m▒░[0;31m▀  ▀▀[0;1;31;41m▒░[0;31m▀▄[0m       [31m▒▓▓█▓▒ ▓[0m
 [31m [0;30mi''m an ANSi-o-   [0;31m▄▄  [0;1;37m■   [0;31m▄▄[0;1;31;41m░▒▓[0;31m▄▄  ░ ░  [0;1;37m■   [0;31m█▄▄   ▓▓▒█▒▒   ▄▄▀[0m
 [31m [0;30mholic.  BLAH!  [0;31m▐[0;1;31;41m░▒░[0;31m▀ [0;1;37;46m▓[0m [31m▄▀▀▀▀▀▀▀█[0;1;31;41m░▒▓[0;31m▓▒░ [0;1;37;46m▓[0m [31m██▓[0;1;31;41m▒▓[0m  [31m██▒█▄▄▄█▀[0;1;31;41m░░[0;31m▄▄▄▀▀[0;1;31;41m░[0;31m▄▄[0m
       [31m▄[0;1;31;41m░[0;31m█▄▄▄    [0;1;31;41m▒▒[0;31m▀[0;1;30m▄▀ [0;1;37m▄▄▄████[0;1;37;46m▓▓▓[0;1;37;40m▄▄▄[0;31m▀▀[0;1;31;41m░[0;31m▄ [0;1;37;46m▓▓[0m [31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m██▄▀▀▀[0;1;37m▄▄▄▄[0;1;37;46m█[0;1;37;40m▄[0;31m▀[0;1;31;41m░[0m     [1;31;41m░▒▓[0;31m▄[0m

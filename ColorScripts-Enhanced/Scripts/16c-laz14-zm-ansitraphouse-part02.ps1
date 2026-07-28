@@ -5,7 +5,7 @@
 # Source SHA-256: 4ab97caa605b7e6dfd4894f2b62ed970971e0825d06d372fb502310b7bc5cfe6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZM-ANSiTRaPHouSE.ans by Zeromous (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ZM-ANSiTRaPHouSE
 # SAUCE Author: Zeromous
 # SAUCE Group: LAZARUS
@@ -38,7 +38,7 @@ Write-Host '
 [34m█████▄██████▄██████▄▄▄███▄██[0;1;35m▐▓[0m [34m████[0;1;33;44m░▒[0;1;35;40m▐▓[0m [1;33;44m▓▓[0;1;33;40m███[0;34;105m▌[0;1;35m▓[0m [1;33m██████████[0;34m██████████████████████[0m
 [34m██████████████[0;1;33;44m·[0;34m██████████████▄▄█[0;1;33;44m░▒▓▓▓▓[0;1;33;40m▄▄[0;1;33;44m█████[0;1;33;40m▄▄▄[0;1;33;44m██████████[0;1;33;40m█[0;1;33;44m█[0;34m████████████████████[0m
 [34m█[0;37;44mwhat [0;1;37;44mkeeps[0;44m [0;1;44myou[0;44m coming[0;34;40m███████[0;1;33;44m░▒▓▓▓█████████████████████████████[0;34m█████████████████[0m
-[34m█[0;1;33;44mback[0;44m to [0;36;44m#[0;1;36;44mansi[0;44m [0;1;44myearly[0;44m?[0;34;40m█████[0;1;33;44m░▒▓▓███████████████████[0;1;33;43m█[0;1;33;44m████[0;33;103m█████[0;1;33;44m█[0;1;33;43m▓▓[0;1;33;44m██[0;34m███████████████[0m
+[34m█[0;1;33;44m    [0;44m    [0;36;44m [0;1;36;44m    [0;44m [0;1;44m      [0;44m [0;34;40m█████[0;1;33;44m░▒▓▓███████████████████[0;1;33;43m█[0;1;33;44m████[0;33;103m█████[0;1;33;44m█[0;1;33;43m▓▓[0;1;33;44m██[0;34m███████████████[0m
 [34m█[0;37;44mA [0;1;37;44mmecca[0;44m of similar[0;34;40m███[0;37;44m [0;34;40m██[0;1;33;44m░▒▓▓█████████[0;33;103m▄▄▄▄▄▄▄▄▄[0;1;33;44m████[0;1;33;43m█[0;1;33;44m██[0;33;103m█[0;1;33;44m█████[0;33;103m█[0;1;33;44m██[0;1;33;43m▓▓[0;1;33;44m██[0;34m█████████████[0m
 [34m█[0;1;37;44msouls[0;44m driven by a[0;34;40m██████[0;1;33;44m░▒▓▓████████[0;33;103m▒▒░░░░░░[0;1;33;44m███[0;33;103m░░[0;1;33;44m██████[0;33;103m█████[0;1;33;44m█████[0;1;33;43m▓▓[0;1;33;44m█[0;34m████████████[0m
 [34m█[0;37;44mprimal [0;1;37;44murge[0;44m to   [0;34;40m█[0;1;33;44m·[0;34m███[0;1;33;44m░▒▓▓███████[0;33;103m▒▒░░░░[0;1;33;44m█████████[0;33;103m░▒[0;1;33;44m████████████████[0;1;33;43m▓[0;1;33;44m█[0;34m███████████[0m

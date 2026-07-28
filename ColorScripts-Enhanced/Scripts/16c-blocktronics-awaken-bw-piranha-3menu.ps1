@@ -5,7 +5,7 @@
 # Source SHA-256: 6fe2ed2bfc37db8aed3d88f42ca63ff1b09eb63892d631687aa5cedb9ea5b7b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw_piranha_3menu.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -30,6 +30,6 @@ Write-Host '
 [35m [0;1;37;41m▒▓█[0;1;31;41m█▄▄▄▄▄▄[0;31m█▄[0;1;31m▄▄[0;31m▄▄[0;1;31;41m▄█[0;1;37;41m█[0;1;31;41m█▄▄▄[0;31m▄▄▄█▄[0;1;31;41m▄█▄█[0;1;37;41m▒▒▄ [0;31m█▄[0;1;31m▄▄▄▄[0;1;31;41m▄██▄▄▄[0;31m▄▄▄▄▄▄▄▄▄█[0;1;31;41m▄[0;1;37;41m▒▒[0;1;31;41m▄[0;31m▄▄[0;1;31m▄▄[0m  [33m▀▀▀▀▀[0;37m  [0;31m▄▄[0m
 [37m [0;1;31;41m▒▓[0;31m▀ [0m                  [31m▓█[0;37m    [0;35m    [0m              [31m▓█[0m              [31m▓█ ▀[0;1;31m▀▀▀▀[0;31m▀▀▀▀█[0;1;31;41m░▓[0m
  [1;31;41m▒[0;31m▌[0;37m  [0;1;30m [0;1;37m [0;1;30m [0;1;33m            [0m   [31m▒▓[0;37m  [0;1;30m [0;1;37m [0;1;30m [0;1;33m         [0m        [31m▒▓[0;37m  [0;1;30m [0;1;37m [0;1;30m [0;1;33m   [0m      [31m▒▓[0;37m [0;1;37m [0m         [31m▓[0;1;31;41m░[0m
- [1;31;41m░[0;31m█[0;37m  [0;1;30m([0;1;37mB[0;1;30m)[0;1;33mw!   [0m          [31m░▒[0;37m  [0;1;30m([0;1;37mD[0;1;30m)[0;1;33meeply Disturbed[0m  [31m░▒[0;37m  [0;1;30m([0;1;37mF[0;1;30m)[0;1;33mever[0m     [31m░▒[0m           [31m▒▓[0m
+ [1;31;41m░[0;31m█[0;37m  [0;1;30m [0;1;37m [0;1;30m [0;1;33m     [0m          [31m░▒[0;37m  [0;1;30m [0;1;37m [0;1;30m [0;1;33m               [0m  [31m░▒[0;37m  [0;1;30m [0;1;37m [0;1;30m [0;1;33m    [0m     [31m░▒[0m           [31m▒▓[0m
 [37m  [0;31m▀▀[0m                   [31m ░[0m                      [31m ░[0m              [31m ░[0m           [31m░▒[0m
 [1;37m                 [0m  [1m                 [0m  [1m                 [0m  [1m                 [0m   [31m░[0m'

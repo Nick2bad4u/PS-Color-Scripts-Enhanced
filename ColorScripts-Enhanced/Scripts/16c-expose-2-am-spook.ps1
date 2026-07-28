@@ -5,7 +5,7 @@
 # Source SHA-256: a2d96e411cbedbaa8785b8f5fc3a2467c782c500bc3d4b944f51180e8bbde728
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AM%SPOOK.ANS by Dirt Bag + Agent Mulder (xpo"97); released in expose-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: x-connetion
 # SAUCE Author: agent mulder
 # SAUCE Group: xpo"97
@@ -24,7 +24,7 @@ Write-Host '
           [1;34m    ▄▀▀ ▄▄▄▄▄▄[0;1;34;44m▒▓[0;1;34;40m████████[0;1;34;44m▓▒[0;1;34;40m▄▄[0m                [1;30m▀[0m
          [1;30m ▄▓[0m▄[1;34m ▄▄[0;1;34;44m▓[0;1;34;40m██[0;1;34;46m█▓[0;1;34;40m███▀▀▀▀██[0;1;34;46m░▄▄▀▀[0;1;34;40m██[0;1;34;44m▓[0;1;34;40m▄ [0;34m ▒░[0m
           [1;30m ▀▀[0m■[1;34m ▀██[0;1;34;46m▓░█[0;1;34;40m█▀[0m [1;30m▐█[0;1;30;47m▄[0m▄[1;30m [0;1;34m██[0;1;34;46m▒[0;1;34;47m██[0;1;34;46m░ [0;1;34;40m██[0;1;34;44m▒[0;1;34;40m▐  [0m
-          [1;34m  ▄█[0;1;34;46m▒[0;1;34;40m▄▐██[0;1;34;46m▓[0;1;34;40m████▄▄ [0;1;30;40m▀▄[0;1;34;40m ████[0;1;34;47m█[0;1;34;46m▒[0;1;34;47m█[0;1;34;40m█▀ ▄██▄[0m  [34m  [0;37m  [0;1;30myeah! this ansi! was[0m
+          [1;34m  ▄█[0;1;34;46m▒[0;1;34;40m▄▐██[0;1;34;46m▓[0;1;34;40m████▄▄ [0;1;30;40m▀▄[0;1;34;40m ████[0;1;34;47m█[0;1;34;46m▒[0;1;34;47m█[0;1;34;40m█▀ ▄██▄[0m  [34m  [0;37m  [0;1;30m                    [0m
             [1;34;46m▓[0;1;34;40m█▀▀▀████▀▀▀▀██▄[0;1;30;40m ▌[0;1;34;40m▐████[0;1;34;46m▓[0;1;34;40m█▀[0m [1;34m█████[0m      [1;30mma[0;30;45md[0;1;30;40me by agent mulder [0m
             [1;34m▐[0;1;34;44m▓[0;1;34;40m [0;36m▀▄[0;37m [0;1;34m▀▀[0;1;34;44m▓[0;1;34;40m█[0m [1;34;46m░[0;36m▄[0;37m [0;1;34m▀▀▌[0;1;30m [0;1;34m█[0;1;34;46m▓▒[0;1;34;40m██▀[0m [1;34m▄█▌▄█[0;1;34;44m▀[0;1;34;40m  [0m     [1;30mlogo was made by db![0m
     [1;30m▄▄[0m       [1;34;44m▒[0;1;34;40m█[0m [1;34;46m▓▒░[0m [1;34m▀█▄[0m [1;34;46m▒▒▓[0;1;34;40m▄ ▀██[0;1;34;46m▓[0;1;34;43m█[0;1;34;40m█[0;34m▐[0;1;34m█[0;1;34;44m▀[0;1;34;40m▀▐█[0;1;34;44m▄[0;1;34;46m▒[0m [34m  [0m

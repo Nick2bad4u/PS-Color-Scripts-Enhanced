@@ -5,7 +5,7 @@
 # Source SHA-256: c89d3beaad124fecc7e8a876bef01a9e7c87338b61be503a8a7304414ada962f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LUM-GIRL.ANS by Luminator + Funk-E (sodapop); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: blender2k #2
 # SAUCE Author: funk-e/lum
 # SAUCE Group: sodapop
@@ -16,7 +16,7 @@
 
 Write-Host '
 [31m█▓█[0;1;31;41m                   [0;31m█   ▀▀▀▀▀[0;30;41md[0;31;40m [0;30;41m▀  o [0;31;40m▌▐[0;30;41mo[0;31;40m█ █[0;30;41mp[0;31;40m▀ ▄[0;30;41m [0;31;40m ██[0;30;41mN:o 1[0;1;31;41m [0;30;41msoftdrink[0;1;31;41m [0;30;41min...[0;1;31;41m      ▓[0m
-[31m███[0;1;31;41m    ░░   [0;31m▄▄▄▀▀▀▀▀▀[0;1;31;41m [0;31m████▀▀█▌   ▒███▀▌▐█▀▄▀▄███▄ ██[0;30;41m..hmm least penguins like[0;1;31;41m [0;30;41mit[0m
+[31m███[0;1;31;41m    ░░   [0;31m▄▄▄▀▀▀▀▀▀[0;1;31;41m [0;31m████▀▀█▌   ▒███▀▌▐█▀▄▀▄███▄ ██[0;30;41m                         [0;1;31;41m [0;30;41m  [0m
 [1;31;41m   [0;31m███████████████▄▄▄▄▄▄[0;1;31;41m [0;31m██▄▄▄▄██▄██▄████████████████████▀▀█████████████████████[0m
 [31m▀[0;1;31;41m  [0;31m█████[0;30;41m  [0;31;40m████████ ▀█ █▀▄▄▀█ ███ ███ █ ▀█ ██▀▄▄▄█▀▄▄▀█ ▀█ █▀▄▄▄███[0;30;41m  [0;31;40m███████████▌[0m
 [31;40m  ▀▀▀▀████████████ █▄ █▄▀▀▄█▄▀▄▀▄███ █ █▄ ██▄▀▀▀█ ▄▄ █ █▄ █▄▄▄▀████████████▀▀▀[0m
@@ -43,7 +43,7 @@ Write-Host '
    [31;40m▄▄▀▀[0;37;40m  [0;31;40m▄▄▄████▄▀[0;1;31;41m░[0m  [31m▀█[0;1;31;41m▀▀▀█[0;31m▌[0;37m [0;31m▄█▄ ▀▀██▄[0;37m  [0;31m▄▄▀▀[0;37m [0;31m▄████▀[0;37m [0;31m▄▄▄████▄▄▄▄▄▄▀▀▀▀██▀▄▄▄▀▀▀[0;37m [0;31m▀[0m
     [31m▄▄▄█████████▀▄▀[0m    [31m▄▄[0;1;31m▀[0;31m▀[0;37m [0;31m▄██████▄▄ ▄▄▄▄▄████████████████████████████████████▀[0m
 [37m▄ [0;31m▀▀██████████▀▄▄▄▄██████████████████████████████████████████████████████████▀[0;37m [0;1;30m▄[0m
-██▄▄   [31m▀▀████▄█████████[0;30;41mE227 , steroids and some attitute[0;31;40m████████████████▀▀▀[0;37;40m  [0;1;30;40m▄[0;1;30;47m██[0m
+██▄▄   [31m▀▀████▄█████████[0;30;41m                                 [0;31;40m████████████████▀▀▀[0;37;40m  [0;1;30;40m▄[0;1;30;47m██[0m
 █[1;47m░░░[0m██▄▄▄▄    [31m▀▀▀▀█████████████████████████████████████████████▀▀▀▀▀▀[0m   [37m▄[0;1;30m▄▄[0;1;30;47m███[0;1;30;40m█▀[0m
  ▀▀█[1;47m▒▒▒▒▒▒▒▒▒[0m█▄▄▄▄▄▄                                           ▄▄▄▄▄[1;30;47m░░▒▒▓▓█[0;1;30;40m▀▀[0m [31m  [0m
 [31m   [0m     [37m▀▀▀▀▀[0;1;37;47m▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓[0;1;37;40m███████████████████[0;1;37;47m▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░[0m█▀[1;30m▀▀[0m    [31m     [0m

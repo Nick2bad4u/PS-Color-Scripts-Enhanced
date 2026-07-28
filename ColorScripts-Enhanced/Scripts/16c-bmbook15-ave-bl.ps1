@@ -5,7 +5,7 @@
 # Source SHA-256: 93b8933ec8943fa02e8cfb6b4f269974d196588696306e2d63f5160876899cb6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-BL.ANS by avenger (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bloodline
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -18,7 +18,7 @@ Write-Host '
 [30;41m▓▓[0;37;40m░[0;30;47m▓[0;37;40m [0;1;30;40m░░[0m  [30;41m▓[0;1;37;40m░░░[0;30;41m▓▓[0m   [31;40m░[0;1;37;40m░░[0;31m░  [0;30;41m▓▓▓[0m    [33;40m░░░▓▓█[0;37;43m▀[0;33;40m▀▀[0m   [33;40m▀▀[0;30;43m░[0;33;40m▓[0;30;43m▓[0;33;40m░░[0m    [30;43m▓[0m      [30;43m▓▓▓[0m   [33;40m░[0;30;43m▓[0;33;40m░[0;30;43m░[0;33;40m▓▓█[0;1;32;41m░[0;1;33;43m▄[0;33m▄▄[0m
 [1;31;41m█[0;1;31;47m▀▓▓[0;1;31;41m▄[0;41m░[0;31;47m▓[0;31;40m██[0;1;31;41m▀[0;1;31;47m▄  [0;1;31;41m█▀[0;31m███[0;1;31;41m█[0;1;31;47m ▄[0;1;31;41m▌[0;31m██[0;1;31;41m▀██▄[0;1;31;40m▄▄[0;31m▄[0m        [33m [0;31m ░[0m                                  [33m▀[0;1;33;43m▀░[0m
 [1;31;41m▀█[0;1;31;47m  ▀▓▓[0;1;31;41m▄▄[0;31m██[0;1;31;47m▄[0;1;31;41m▌[0m    [31m░░▓[0;30;41m░[0;31;40m▓██[0;1;31;41m▄▄[0;1;31;40m▄▄[0;31m█[0;1;31m▀[0;1;31;41m▀█▄[0;31m▄[0m     [33m.[0;31m ▓░[0m                                  [33m██[0m
-[31m██[0;1;31;41m▀[0;1;31;47m▄ ▄[0;1;31;40m▀▀[0m                 [31m▀[0;1;31m▀▀▀[0;1;31;41m░▄[0;31m▄█[0;1;31;41m░▄[0;31m▄[0m     [31m█▌[0m          [31min the line of blood[0m    [33m██[0m
+[31m██[0;1;31;41m▀[0;1;31;47m▄ ▄[0;1;31;40m▀▀[0m                 [31m▀[0;1;31m▀▀▀[0;1;31;41m░▄[0;31m▄█[0;1;31;41m░▄[0;31m▄[0m     [31m█▌[0m          [31m                    [0m    [33m██[0m
 [37;41m▄▄[0;31;40m█▀[0;1;31;40m░░[0m  [1;33m▄▄█████▄▄[0m              [31m▀[0;1;31;41m▀[0;41m░[0;31;40m█▄[0;1;31;41m▄[0;31m░[0;37m [0;33m.[0;31m [0;1;31;41m░▄[0;31m▄[0m                                 [1;33;43m░[0;33m█[0m
 [37;41m▀[0;31;40m█[0m   [1;33;40m▄█[0;1;37;40m███[0;1;33;40m████████▄[0m             [31m▐[0;37;41m▐▄[0;31;40m█[0;1;31;41m▀[0;31m▌[0m   [31m██▄[0;1;31;41m▄[0;31m▀▄[0;1;31m▄▄[0;31m▄ [0;37m░[0;30;47m▓[0m     [1;31;40msysop [0;1;35;40mvade79[0m       [1;33;43m░[0;33m█[0m
     [1;33m▐[0;1;37m███████[0;1;33m██░████▌[0m      [31m▄▄[0;1;31m▄▄[0;31m▄[0;37;41m░[0;31;47m▓[0;37;41m▀[0;31;40m█▀▀ [0;37;40m [0;33;40m.[0;31;40m █[0;1;31;41m░░▀[0;31m█[0;1;31;41m█[0;1;31;47m   ░▓▓[0;30;47m▓▓[0m                      [33;40m█▓[0m

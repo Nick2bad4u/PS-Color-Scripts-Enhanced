@@ -5,7 +5,7 @@
 # Source SHA-256: 8ce823a7f346f9a0a24fb3b24e5f1b40bff2fe1c36da9be1c9b2772813c0bc21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-TFUG.ICE by Toon Goon (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 47-93
 # Columns: 1-80
 
@@ -52,5 +52,5 @@ Write-Host '
 [31m▓██████████████░▓███▄[0m        [31m▄   ▄████▄[0m           [31m▄██▄[0m        [31m▄█████████████████[0m
 [31m▒▓██▓██████████▓███████▄▄▄   █   ████████▄▄▄▄▄▄▄████████▄▄▄   ██████████████████[0m
 [31m░  ▀░▀▀▓███████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;41m▄[0;31m██████████████████████▓[0m
-       [31m▒ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   [0;1mThe Forgotten UnderGround   [0;1;30m▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀█▀▀▀▀▒[0m
+       [31m▒ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   [0;1m                            [0;1;30m▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀█▀▀▀▀▒[0m
 [31m ■▀    ░  [0;1m                                                                [0;31m░[0m'

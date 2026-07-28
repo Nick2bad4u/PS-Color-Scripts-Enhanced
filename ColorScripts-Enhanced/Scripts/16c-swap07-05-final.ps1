@@ -5,7 +5,7 @@
 # Source SHA-256: 915544e50b703df3afece8cbbcd7209b8371b3b028988bf36258718d2a6316e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 05-FINAL.ANS by Black Viper + Mel Farr Suppastar + Stone The Crow + Corinthian + Nail + Illusion X + Epoxy + Pzyko (swap07); released in swap07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
 [36m███████[0;30;46mbird[0;36;40m█████████▀[0;37;40m █[0;30;47m   [0;37;40m█ [0;36;40m▀[0m   [37;40m  [0;32;40m      ▐███[0;1;32;42m  ▄█▀▀▀▀█[0;32m███▌  [0m     [1;30m░░[0m  [1;31m▀[0;1;31;43m▒[0;1;31;41m▄[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m██▓▄[0m
 [36m███████████████████▀[0;37m █[0;30;47m     [0;37;40m█[0m    [37;40m  [0;32;40m       ▀█████▀▀  ▀▀▀██▌  [0m    [1;30;40m░[0m [1;30m░░[0m   [1;31m▀▀[0;1;31;43m▒[0;1;31;41m▄▄[0;1;31;47m▓[0;1;31;41m▀[0;1;31;40m█▓▄[0m
 [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m █[0;30;47m h3llo █[0m     [32;40m         ▀▀▀▀███████▀■   [0m    [1;30;40m░[0m    [1;30m░[0m    [1;31m▀▓█████[0m
- DRAW IT FOR PULSE  [30;47m  3ye am  [0m    [31;40m [0;32;40m [0;31;40m▄█▄[0;32;40m                    [0m    [1;30;40m░░[0m   [1;30m░░[0m    [1;31m ▀▀▒▓█[0m
+                    [30;47m          [0m    [31;40m [0;32;40m [0;31;40m▄█▄[0;32;40m                    [0m    [1;30;40m░░[0m   [1;30m░░[0m    [1;31m ▀▀▒▓█[0m
 [36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m  █[0;30;47m the      [0;37;40m█[0m   [31;40m ▐████▄▄[0m               [31;40m▄▄[0m    [1;30;40m░░[0m [1;30m░[0m          [1;31m▄[0;1;31;43m▒[0;1;31;40m▄[0m
 [36m████████████████▀[0;37m █[0;30;47m dreaded,   ▀█[0;37;40m [0;31;40m ████[0;1;31;41m▄[0;31m████▄▄▄▄[0m    [31m▄▄██▀███[0m   [1;30m░░[0m [1;30m░░[0m      [33m▄[0;37m [0;1;31;43m▒[0;1;31;40m███[0m
 [36m███████████████▀[0;37m █[0;30;47m  longnose of  ▀[0;31;40m ▐█[0;1;31;41m▄[0;31m██▀[0;1;31;41m▀█▄▄▄▄[0;31m████████[0;1;31;41m [0;31m░[0;1;31;41m [0;31m█[0;1;31;41m▀[0;31m█[0m   [1;30m░░░░░[0m    [33m▐▌[0;1;31m▐[0;1;31;43m▒▓[0;1;31;40m██[0m

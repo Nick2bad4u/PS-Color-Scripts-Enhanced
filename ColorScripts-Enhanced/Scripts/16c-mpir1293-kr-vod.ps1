@@ -5,7 +5,7 @@
 # Source SHA-256: 44e44fcf15eefc92e92710d968fe3718e7e221b13248860bdc4e3bb9faed7a32
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KR-VOD.ANS by Killraven (mpir1293); released in mpir1293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -52,7 +52,7 @@ Write-Host '
 [33m▓▓▒▒ [0;1;30;41m▓[0;1;30;40m────────────────────────────────────────────────────────────────────[0;1;30;41m▓[0m [33m▓▓▒▓[0m
 [33m▓▒▓▒ [0;1;30;41m▒[0m  [32m   [0;1;32m  [0;1;30m  [0;32m [0;1;32m [0;32m       [0;1;32m [0;32m  [0m               [1;32m  [0;32m      [0;1;30m  [0;32m [0;1;32m [0;32m [0;1;32m  [0;32m [0;1;32m [0;32m      [0;1;32m   [0;32m   [0;1;32m   [0;1;30;41m▒[0m [33m▒▒▓▓[0m
 [33m▒▒░░ [0;1;30;41m░[0m  [32m1[0;1;30m.[0;1;32m2 [0;32mgi[0;1;32mgs On[0;32mline[0m                   [1;32m0[0;1;30m-[0;32m7 [0;1;32mda[0;32my ware[0;1;32ms[0m                   [1;30;41m░[0m [33m▒▓▒▒[0m
-[33m░▒░  [0;31m▓  [0;1;32mEMP[0;32mi[0;1;32mRE W[0;32mes[0;1;32mt C[0;32moa[0;1;32mst HQ[0m              [1;32mP[0;32mPV[0;1;32mnet[0m                          [31m▓ [0;33m▒░▒░[0m
+[33m░▒░  [0;31m▓  [0;1;32m   [0;32m [0;1;32m    [0;32m  [0;1;32m   [0;32m  [0;1;32m     [0m              [1;32m [0;32m  [0;1;32m   [0m                          [31m▓ [0;33m▒░▒░[0m
 [33m▒░░░ [0;31m▒  [0;1;32m   [0;32m     [0;1;32m   [0;32m        [0;1;32m [0;1;30m [0;32m   [0;1;30m [0;1;32m  [0;32m [0m      [1;30m        [0;1;31m [0;31m   [0;1;31m [0;31m     [0;1;30m [0;35m   [0;1;35m [0;35m  [0;1;30m [0m      [31m▒  [0;33m░░░[0m
 [33m░░   [0;31m░[0m                                                                    [31m░ [0;33m░ ░░[0m
 [33m░ ░[0m     [30m                                                               [0m        [33m░[0m

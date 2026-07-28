@@ -5,7 +5,7 @@
 # Source SHA-256: 03ee630e70e171d846a863f3f67ddab65384266e4bf5f939308634643cf73d04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FLAT.ICE by Trip + Kadaver (ice9611a); released in ice9611a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
 [31m█▀▒▓▒[0;30;41m█▌[0;31;40m▄▄▄[0;30;41m▀[0;31;40m▄▄  ▀▀▀[0;30;41m█[0;31;40m ▀▀▀▀[0;37;41m▒[0;31;40m ▒ [0;1;30;40m▐[0;1;30;43m▒[0;33m░ [0;1;30m▀[0m▀▀▀[1m░[0;1;30m▀▀[0m [1;30m▀[0;1;31m   [0;33m▄[0;1;31m▄▄▓▀[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓▓▒▒▒▒░░[0;33m█▀ █[0;1;31;43m▒▒[0;33m [0;1;30m▀[0;31m ▀▀[0;1;30m▄▄[0;36m▒[0;33m [0;37m [0;31m█████[0m
 [31m█ █▀[0;30;41m▄[0;31;40m [0;1;31;40mflatSCAN[0;31m ▀▀▌[0;1;31mlogIN[0;31m [0;37;41m░[0;31;40m ▓▓ [0;33;40m▀▓ [0;31;40m▀[0;1;31;41m▒[0;31m▄▄[0;33m [0;37m  [0;33m▄[0;1;31m▄[0;1;31;43m▄[0;1;31;47m▓█[0;1;31;40m██[0;1;31;43m▓▓▓▒▓▒▒░░░░[0;33m▀▀ ▄[0;1;31;43m▄█▓▓[0;33m▌ [0;1;30m▀[0;1;30;46m▀▀[0;36m▀▀[0;1;30m [0;31m▄██████[0m
 [31m█ [0;30;41m [0;31;40m              [0m     [31;40m  [0;37;41m░[0;31;40m ██▓[0;33;40m ▀[0;1;30;43m▒░[0;33m▄[0;1;31m▄▄▄[0;1;31;43m▄[0;1;31;40m███[0;1;31;43m▓▓▓▓▓▒▒░░[0;33m█▀▀▀▀  ▄[0;1;31;43m▄▓▒▓▒░░░[0m [31m█▄▄▄█████████[0m
-[31m█ ▓  [0;1;31mansi by trip and[0m [31m  █ ▓██▓[0;33m ▀[0;1;30;43m░[0;1;31;43m▒▓█▓█▓▓▒░░[0;33m█▀▀▀▀[0m      [33m ▄[0;1;31;43m░[0;1;31;40m█[0;1;31;43m▓▒░ [0;33m▀▒█[0;1;31;43m░[0;33m [0;31m  ▀▀█████████[0m
+[31m█ ▓  [0;1;31m                [0m [31m  █ ▓██▓[0;33m ▀[0;1;30;43m░[0;1;31;43m▒▓█▓█▓▓▒░░[0;33m█▀▀▀▀[0m      [33m ▄[0;1;31;43m░[0;1;31;40m█[0;1;31;43m▓▒░ [0;33m▀▒█[0;1;31;43m░[0;33m [0;31m  ▀▀█████████[0m
 [31m█░[0;30;41m [0;31;40m  [0m                 [31;40m  [0;37;41m░[0;31;40m █████▄▄ [0;33;40m▀[0;1;31;40m▀▀▀[0;33m▀▀▀        [0m    [33m░▓[0;1;31;43m░▒[0;33m▀█▓▀ ░▓[0;1;31;43m░▒[0;33m▌ [0;1;30m▀ ▄[0m [31m████████[0m
 [31m▓ ▓  [0;1;31mkadaver of ([0;1;31;41miC[0;1;31;40me)[0m [31m  █ ███████████▄▄ [0;33m     [0m      [33m░[0;37m [0;33m▒[0;1;31;43m░[0;33m▀▒▄██▀  ▀ [0;1;30m▄▄▄▄[0;1;30;46m▒░[0m [31m▓███████[0m
 [31m█░▓         [0m          [31m  █ ██████████▓▀▀ [0;33m   [0m        [33m░▒▀ ░░▀[0;37m  [0;1;30m▄▄▄[0;1;30;46m▓[0;1;30;40m▀▀[0;1;30;46m▓▒▓▒[0;1;30;40m▌[0m [31m▒███████[0m
