@@ -4,7 +4,7 @@ ColorScripts-Enhanced is a mature module and a large, curated ANSI-art collectio
 
 ## Current Baseline
 
-- <!-- COLOR_SCRIPT_COUNT -->24897<!-- /COLOR_SCRIPT_COUNT --> bundled colorscripts with metadata-backed discovery
+- <!-- COLOR_SCRIPT_COUNT -->24851<!-- /COLOR_SCRIPT_COUNT --> bundled colorscripts with metadata-backed discovery
 - 10 public commands and three aliases
 - Windows PowerShell 5.1 and PowerShell 7+ support on Windows, macOS, and Linux
 - Static extraction for deterministic bundled art
@@ -14,6 +14,7 @@ ColorScripts-Enhanced is a mature module and a large, curated ANSI-art collectio
 - 10 runtime-message and external-help cultures
 - ANSI conversion, splitting, duplicate detection, corpus validation, and release automation
 - Resumable 16colors and Roy archive inventory with rendered-cell deduplication and interactive visual review
+- Hash-locked content, contact, geometry, and adult-policy review ledgers for the retained gallery
 
 ## Active Maintenance Priorities
 
@@ -73,4 +74,4 @@ Useful starting points:
 
 ---
 
-_Last reviewed: July 26, 2026_
+_Last reviewed: July 27, 2026_
