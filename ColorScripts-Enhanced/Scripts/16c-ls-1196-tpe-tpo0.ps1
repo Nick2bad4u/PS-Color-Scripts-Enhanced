@@ -5,7 +5,7 @@
 # Source SHA-256: a798a200e9517a3f104e1f554afb0216657421a41c39bbe6e07d3ef61c113472
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TPE-TPO0.ANS by the platinum eagle (leper society); released in ls-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: tpo 0
 # SAUCE Author: the platinum eagle
 # SAUCE Group: leper society
@@ -31,5 +31,5 @@ Write-Host '
   [33m.[0m       [33m"$$n,[0m [32m$ i $  [0;33ms [0m  [32m$b"$$[0m [33m$$b[0m [32m$[0;32;42m$[0;32;40m$[0m [33;40m$$$f [0;35;40mo[0m [32;40m"T$$ [0;1;32;40m$[0m  [35m+[0;1;31;41m0[0;35m tp[0;1;35;45me[0m [1;32;42m/[0;35m ac[0;1;35;45mi[0;35md r[0;1;32;42me[0;35mflu[0;1;35;45mx[0m
    [33m.[0m       [33m$$$[0;37;42m$[0;33;40m [0;32;40m$$$[0;35;42mT[0;32;40m"  [0;33;40m$b[0m   [32;40m"$[0;34;45m$[0;32;40m$[0m [33;40m"$$$[0m [32;40m$$b.[0m [33;40m"² [0m   [32;40m,f f$[0m
      [32;40m     [0m   [33;40m [0m [32;40m     [0;31;44m [0;32;40m [0;1;32;40m  [0;33m     [0m [32m [0m     [33m   [0;32m     [0m [32m [0;1;32;42m [0;32m       [0m  [35m  [0;1;35;45m [0;35m  [0;1;32;42m [0;35m  [0;1;35;45m [0;35m   [0;1;35;45m [0;35m    [0;1;35;45m [0;35m [0m
-             [32m,44[0;1;32;42m$[0;32mssd$$[0;1;32;42m$[0;1;32;40m$$[0;32m [0;33m"$"[0m [1;32;42m$[0m [33m²²""""""[0m             [35mb[0;1;35;45mo[0;35mard i[0;1;35;45mn[0;35m t[0;1;31;41mh[0;35me n[0;1;35;45mi[0;35mne''[0;1;32;42m0[0;35m''[0;1;35;45ma[0;35mte..[0m
+             [32m   [0;1;32;42m [0;32m     [0;1;32;42m [0;1;32;40m  [0;32m [0;33m   [0m [1;32;42m [0m [33m        [0m             [35m [0;1;35;45m [0;35m     [0;1;35;45m [0;35m  [0;1;31;41m [0;35m   [0;1;35;45m [0;35m   [0;1;32;42m [0;35m [0;1;35;45m [0;35m    [0m
              [32m`""²²²²[0;1;32m²²$"''[0;32m b.,d[0m'

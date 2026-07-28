@@ -5,7 +5,7 @@
 # Source SHA-256: 8c0cd1a7be35d940cc5d0a4ae5187930a3d5fbbbe4d2c4fb9984d8fcc704da93
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SQT-GOBL.ANS by Squirt (SiCk); released in sick-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Self Portrait
 # SAUCE Author: Squirt
 # SAUCE Group: SiCk
@@ -19,11 +19,11 @@ Write-Host '
 [1;30m ▄■▀[0;1;32m▄[0;36m  [0;30msq[0;36m [0;1;34m [0;1;32m ▄▀[0;32m▄■[0;1;32m▀▄[0m [36m   [0;1;32m▄▀▄[0m  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [1;30m▀■▄[0m
 [1;30m█[0m [1;32m▄▀[0;32m▄[0;1;32m▀▀▄▀▀▀▀[0;32m▄█[0;1;32;42m░▒▓[0;32m▄[0;1;32m▀▄▀▀[0;32m▄█▄[0;1;32m▀▄[0m █[1;47mFile:[0;1;30;47m SQT-GOBLN.ANS[0m█████████████████▄[1;30m █[0m
 [1;30m█[0m [1;32m▄[0;32m■███▄■[0;1;32m▒▒▓[0;32m████[0;1;32;42m░▒▓[0;32m▄████▀[0;1;32m▄▀[0m █[1;47mComments:[0m█[1;30;47mWell, This is only my 3rd[0m██▄ [1;30m█[0m
-[1;30m█[0m [1;32m▀▄[0;32m▀████████████[0;1;32;42m░▓▓[0;32m███▀[0;1;32m▄▀[0m █[1;30;47m ansi for SiCk [Sigh] Hopefully i''ll   [0m [1;30m█[0m
+[1;30m█[0m [1;32m▀▄[0;32m▀████████████[0;1;32;42m░▓▓[0;32m███▀[0;1;32m▄▀[0m █[1;30;47m                                       [0m [1;30m█[0m
 [1;30m█[0m   [1;32m▀▄▄[0;32m▀▀███████[0;1;32;42m░▒▒▓[0;32m██[0;37m [0;1;32m█[0m  ▀█[1;30;47m get some more work out soon, anyway [0m██ [1;30m█[0m
 [1;30m█[0m    [1;30msq[0;1;32m▀░[0m [32m█████[0;1;32;42m░░░▓[0;32m████▄[0;1;32m▀▀▄[0m ▀[1;30;47mthis is just a guy that was on muh   [0m█ [1;30m█[0m
 [1;30m█[0m     [1;32m▄▀[0;32m▄████[0;1;32;42m░░▓[0;32m█▀▀███████▄[0;1;32m▀▄[0m [1;30;47mskate board.. so i drew him =).. This[0m [1;30m█[0m
-[1;30m█[0m    [1;32m▀[0;32m■███[0;1;32m░[0;32m▀[0;1;32m▄▄▄▄▄▀▀▄▄[0;32m▀[0;1;32m▒[0;32m▀[0;1;32m▒[0;32m▀[0;1;32m▄▀[0m ▄[1;30;47main''t to good.. but i''ll get better[0m▀ [1;30m▄▀Hopefully.[0m
+[1;30m█[0m    [1;32m▀[0;32m■███[0;1;32m░[0;32m▀[0;1;32m▄▄▄▄▄▀▀▄▄[0;32m▀[0;1;32m▒[0;32m▀[0;1;32m▒[0;32m▀[0;1;32m▄▀[0m ▄[1;30;47m                                   [0m▀ [1;30m▄▀          [0m
 [1;30m ▀■▄▄[0;1;32m▀▄[0;32m▀▀[0;1;32m▄▄▀[0;1;30m▄▄▄▄▄▄▄▄▄[0;1;32m▀▄▀▄▀[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■▀[0m
   [1;34m     [0;1;32m▀▀[0;1;34m  [0m  [1;34m   [0m
 

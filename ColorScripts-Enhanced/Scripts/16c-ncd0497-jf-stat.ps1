@@ -5,7 +5,7 @@
 # Source SHA-256: 222dfdf934205cf275e5014c03017fa5bbd80951aa0bd7830c9e3b62a4eab796
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JF-STAT.ANS by Jellyfish (ncd0497); released in ncd0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -25,7 +25,7 @@ Write-Host '
 [36m██████████▌[0;33m█ [0;1;30m▀█████▀ [0;33m█ █  [0;1;30m▄▄▄▄▄  [0;33m█ █ [0;1;30m█ [0;33m█ █ [0;1;30m█ [0;33m█ █  [0;1;30m▄▄▄▄▄  [0;33m█ █ [0;1;30m▀█████▀ [0;33m█[0;36m▐████████[0m
 [36m██████████▌[0;33m▀█▄▄▄▄▄▄▄█▀ ▀█▄▄▄▄▄▄▄█▀ █▄▄▄█ █▄▄▄█ ▀█▄▄▄▄▄▄▄█▀ ▀█▄▄▄▄▄▄▄█▀[0;36m▐████████[0m
 [36m████████▀▀▀[0m                                                          [36m ▀▀▀██████[0m
-[36m█████▀[0m   [1;30mfiles uploaded:[0;36m [0m        [37m [0;1;30mansi turned on:[0m                          [36m▀███[0m
+[36m█████▀[0m   [1;30m               [0;36m [0m        [37m [0;1;30m               [0m                          [36m▀███[0m
 [36m███▀[0m   [1;30m                 [0m          [33m  [0;1;30m             [0m         [33m    [0m         [37m      [0;36m▀█[0m
 [36m██▀[0m        [1;30m             [0m          [33m    [0;37m [0;1;30m          [0m             [33m        [0m   [37m     [0;36m▐[0m
 [36m█▌[0m      [1;30m                [0m                [1;30m         [0m

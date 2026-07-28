@@ -5,7 +5,7 @@
 # Source SHA-256: c2a87a6fc85cd271b2ce6b2c5e6fae286011256d4e817d950c6658215bc1bae4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN!CHAT.ANS by Snowball (Ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Chat box for Wind Of Insanity
 # SAUCE Author: Snowball
 # SAUCE Group: Ecolove
@@ -31,7 +31,7 @@ Write-Host '
 [31m███[0;33;41m░▒▓▓█[0;33;40m▀[0;37;40m  [0;1;31;43m░▓[0m        [31m▄▄[0;33;41m█▓▓[0m
 [31;40m████[0;33;41m░[0;33;40m▀[0;37;40m  [0;34;40m▄█[0;37;40m [0;1;31;40m▀[0;1;31;43m▒[0m [34m▀▀█▄[0;37m [0;35m▄[0;37m  [0;31m▀█[0;33;41m▒▒[0;31;40m    [0m   [1;31;40mThis one was requested by [0;31mSepulcrum[0m
 [31m█▀[0;37m  [0;35m▄▄█[0;37m [0;34m▀[0;1;34;44m░░[0;34m▄▄▄▄[0;1;34;44m░░[0;34m▀[0;37m [0;1;35;45m  [0;35m▌[0;1;35m▄[0m [33;41m░░[0m       [1;31;40mI made this one under a lot of pressure, [0m
-[31m█[0;37m [0;1;35m▐▄[0m [1;35;45m░░ [0;35m▄[0;37m  [0;34m▀▀▀▀[0;37m  [0;35m▄█[0;1;35;45m▐▌[0m [1;35m█▄[0m [31m▐[0m       [1;31mbecause[0m [31mSepulcrum[0;1;31m doesn''t like the Chat Box[0m
+[31m█[0;37m [0;1;35m▐▄[0m [1;35;45m░░ [0;35m▄[0;37m  [0;34m▀▀▀▀[0;37m  [0;35m▄█[0;1;35;45m▐▌[0m [1;35m█▄[0m [31m▐[0m       [1;31m       [0m [31m         [0;1;31m                          [0m
 [31m▌[0;37m [0;1;35;45m▓▓[0;1;35;40m▌[0m [1;35;45m █▄▄▄ [0;35m██[0;1;35;45m■[0;35m██[0;1;35;45m▄▄█▌[0m [1;35;45m▓▓[0;1;35;40m▌[0m        [1;31mat the Monkey Bar....... wich i made 8)[0m
 [31m▌[0;37m [0;1;35m▐██[0m [35m▐█[0;1;35;45m▀▓▓██▄▄█▓▓▓▒░[0;35m▌[0;1;35m▐█▌[0m        [1;31mBut he said he thought this one was[0m
 [33;41m▓[0;31;40m▄[0;37;40m [0;1;35;40m▀█[0m [1;35;45m░░▀▀▀▀██████▀[0;35m██[0;37m [0;1;35m█▀[0m         [31mVeeeeeeeeeeeeeeeeeeet[0;1;31m..........[0m

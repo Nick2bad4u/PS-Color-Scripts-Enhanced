@@ -5,7 +5,7 @@
 # Source SHA-256: d2143dced93d5117b2287cbe778228f4b2ae53c81e1d7ae1bffe4324f5f36331
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!-MNU2.ANS by cardiac (magma); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: broken remnants of society menu #1
 # SAUCE Author: cardiac
 # SAUCE Group: magma
@@ -33,4 +33,4 @@ Write-Host '
 [1;31;41m ▒ [0;31m [0m                     [31m [0m                              [31m [0m                   [31m █[0;1;31;41m▒ [0m
 [1;31;41m ░ [0;31m ▐█▌▌        [0m     [31m  ▐█▌▌   [0m    [31m    [0;1;31m   [0;31m▐█▌▌   [0m       [31m     ▐█▌▌[0m           [31m  █[0;1;31;41m░ [0m
 [31m [0;1;31;41m  [0;31m▄▄▄▄▄▄▄▄[0;1;31m▄▄[0m                                                     [1;31m▄▄[0;31m▄▄▄▄▄▄▄▄▄[0;1;31;41m  [0;31m [0m
-[31m   ▀▀▀███████[0;1;31;41m  ansi d00dled by cardiac of magma productions 1997 [0;31m█████████▀▀▀   [0m'
+[31m   ▀▀▀███████[0;1;31;41m                                                    [0;31m█████████▀▀▀   [0m'

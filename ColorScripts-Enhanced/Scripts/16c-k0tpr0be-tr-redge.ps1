@@ -5,7 +5,7 @@
 # Source SHA-256: 19f0ad1807718140a9830c0101a8f657143f7bf9d574b6693df4c76b7ad05e5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-REDGE.ANS by trate (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: razor's edge login
 # SAUCE Author: trate
 # SAUCE Group: fbk
@@ -50,7 +50,7 @@ Write-Host '
 [1;30mtr#[0;1;32;42m░[0;32m█[0;1;32m [0;33m▄[0;1;31;43m░[0;33m▀[0;1;31m▀▀[0;1;37m [0;1;37;47m▓[0;1;37;40m███[0;1;31;40m▀[0m [34m  ████▌[0;35m▐▌[0;37m [0;34m▐███████████[0;35m [0;1;35m▀▀▀[0;35m▀▀[0;37m [0;34m███▀ █▄[0;1;36m▀█[0;1;37m█[0;34m [0;1;30mbut his pcb isn''t [0m
 [1;30mfbk[0;1;32;42m░[0;32m█[0;37m  ▄[0;1;37;47m▄▄[0;1;37;40m█[0m [1;47m▓[0;1;40m▀██[0m [1;34;44m▓▀[0;34m▓[0;34;42m▓[0;34;40m█[0;30;44m   [0;34;40m▄[0;35;40m▀■[0;34;40m ▀██[0;30;44m               [0;34;40m██▄  █▓▀[0;1;36;40m▄[0;1;36;46m▓[0m [1;30mstable. he already[0m
   [1;31m [0;32m▀▀[0;33m▄[0;37m [0;1;37;47m▓[0;1;37;40m█▀█[0m [1;47m▓[0;1;40m██[0;1;47m▓[0m [1;34;44m▓[0;34m███████████▄███████████████████▓▓▄▓ [0;1;36m██[0;1;36;46m▓[0m [1;30mgot two[0m [1;30mother matrizen[0m
-   [33m▄▀▄[0;1;31;43m░[0;1;37;40m▀▀▀▀[0m [1m▀▀▀▀[0m [1;34;44m░[0;34m█[0;30;44m   razor''s edge login matrix  [0;34;40m█[0;30;44m [0;34;40m█▓▄[0;32;40m [0;1;36;40m█[0;1;36;46m▓[0m [1;30m- so he won''t use mine[0m
+   [33m▄▀▄[0;1;31;43m░[0;1;37;40m▀▀▀▀[0m [1m▀▀▀▀[0m [1;34;44m░[0;34m█[0;30;44m                              [0;34;40m█[0;30;44m [0;34;40m█▓▄[0;32;40m [0;1;36;40m█[0;1;36;46m▓[0m [1;30m                      [0m
  [33m░▐▌[0;1;31;43m░▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█ [0;34m     ▓████████████████████▓████████████████[0;1;34;44m░[0;34m▌[0;1;36m▐▐[0m    [1;30m                 [0m
    [33m▀[0;1;31;43m░[0;1;31;40m▀▓[0;1;31;43m▓▓[0;1;31;40m▀▀▀▀[0;1;31;43m▓[0m [34m█████████████████▀████████████████████▀[0;32m [0;1;36m█[0;1;37m█[0m      [1;30mrather dirty![0m
    [32m▓▄[0;1;31m [0;33m▀[0;1;31m▀[0;33m▓▄[0m   [1;31;43m▓[0m [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄█████████▀▀▀ ▀▀▀▀▀▀▀▀[0;37m  [0;32m [0;1;36m█[0;1;36;46m▓[0m      [1;30m(of course!)[0m

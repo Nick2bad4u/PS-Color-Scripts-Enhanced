@@ -5,7 +5,7 @@
 # Source SHA-256: 5a17d4c8bb57587e443244df735e1322cf9cfb8da3147d7efafd13bbae808f55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TRAUMA.ANS by metal defender (rap/riot/root/koi/fl); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: trauma
 # SAUCE Author: metal defender
 # SAUCE Group: rap/riot/root/koi/fl
@@ -47,7 +47,7 @@ Write-Host '
                         [35;40m▀▀▀[0;35;41m▄[0;31;40m████████[0;30;41mabnormal, fireblood, soing, prcmetal, tur-[0;31;40m█[0;35;41m▒[0m
                             [35;41m█[0;31;40m██[0;35;41m▒▒[0;31;40m██[0;30;41m                                         [0;35;41m▒[0;31;40m▄▀█[0m
                             [35;40m▐[0;35;41m▌[0;31;40m█████[0;30;41m                                          [0;31;40m█▌▐[0m
-                             [35;41m█[0;31;40m█[0;35;41m▒▒[0;31;40m██[0;30;41mall dewdz from rap/riot/root/koi/flux/[0;35;41m▒▒▒[0;31;40m███[0m
+                             [35;41m█[0;31;40m█[0;35;41m▒▒[0;31;40m██[0;30;41m                                      [0;35;41m▒▒▒[0;31;40m███[0m
                              [35;41m█[0;31;40m██[0;35;41m [0;31;40m█[0;35;41m▒▒▒[0;30;41malliace...                    [0;31;40m█[0;35;41m▒▒[0;31;40m███████[0;35;41m▒▒[0m
                             [35;40m▐█[0;35;41m▄[0;31;40m████████[0;35;41m▒▒[0;31;40m████[0;35;41m▒▒▒▒[0;31;40m█[0;30;41mttyl, metal defender![0;35;41m▄▄▄▄[0;35;40m▀▀▀[0m
                                [35;40m▀▀▀▀▀▀▀▀[0;35;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;35;40m▀▀▀▀▀▀▀▀▀▀▀[0m'

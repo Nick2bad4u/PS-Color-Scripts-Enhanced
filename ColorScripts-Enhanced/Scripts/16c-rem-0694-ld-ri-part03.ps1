@@ -5,7 +5,7 @@
 # Source SHA-256: 0c84161bc025f4e9b995efea4a439abb93622ee080775763ec4a06224b1a9a94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-RI.ANS by Lord Darkness (rem-0694); released in rem-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 85-130
 # Columns: 1-80
 
@@ -30,8 +30,8 @@ Write-Host '
 [36;40m████████████████████████████████████████████████████████████████████████████████[0m
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30;47m                                                                                [0m
-[1;30;47m  ANSi By Lord Darkness [0m█[47m [0;40m██████[0;47m [0;40m██████████████████████████████████████████████[0;47m [0m
-[47m [0;40m█[0;1;30;47mThis ANSi iS 100% UnRipable, RiP At YouR OwN RiSk...[0m██████████████████████████
+[1;30;47m                        [0m█[47m [0;40m██████[0;47m [0;40m██████████████████████████████████████████████[0;47m [0m
+[47m [0;40m█[0;1;30;47m                                                    [0m██████████████████████████
 [1;30;47m·[0m██████████████████████████████████████████████████████████████████████████████[1;30;47m·[0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 

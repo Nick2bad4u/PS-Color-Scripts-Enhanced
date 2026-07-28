@@ -5,7 +5,7 @@
 # Source SHA-256: 641f05e309095012b3050b5286ef7be42e0a7a7e1aba29a7e9830de8e2ada296
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-DOOMS.ANS by Eerie (ACiD Productions); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Doomsday
 # SAUCE Author: Eerie
 # SAUCE Group: ACiD Productions
@@ -28,7 +28,7 @@ Write-Host '
 [1;47m░░▓█  ▒▓█▀  ■▀░▐▓[0;1;40m██[0;1;47m▀▌[0m ▄[1;47m▄[0;1;40m█[0;1;47m▀▓░[0;1;40m░[0;1;47m▐▓[0;1;40m██[0;1;47m▀▌[0m ▄[1m▄▄[0m▄[1m▄[0m▄ [1;47m▐▓[0;1;40m█[0;1;41m▓[0;1;47m▀▓░[0m [1;47m▐▓[0;1;41m▓[0;1;40m█[0;1;47m▀▌[0m ▄[1;47m▄[0;1;40m█[0;1;47m▀[0;1;46m▓[0;1;47m░[0m▐[1;47m▀▓[0;1;40m█[0;1;47m ░ ▒   ▓░▀ [0m
 [1;47m░[0m█[1;47m▓█[0m██[1;47m░▀█[0m███[47m    [0;40m█[0;1;47m▀▀▓▀[0m█[1;47m▀▀[0m███████[1;47m▀▀▓[0m██[1;47m▀▀[0m███████[1;47m▀▀▓▀[0m████[1;47m▀▀▓▀[0m██[1;47m▀[0m██████[1;47m▒[0;1;40m█[0m█[47m [0;40m█[0;1;47m░[0m███[1;47m▓[0m██▌
 ▓█[1;47m▒▀[0m████[1;47m▓[0m███████▓████▓████[1;47mACiD presents an Eerie ansi[0m██████████▓██[1;47m░[0;1;40m▐[0m███████[1;47m▒[0m███
-▐█[1;47m░[0m█████[1;47m▒[0m███▓[1;30;47m"we[0;1;30;40ml[0;1;30;47ml i''m a frenchie and i have 2 megs f[0;1;30;40mr[0;1;30;47mee on my [0;1;30;40mh[0;1;30;47md"[0m█████████[1;47m░[0m███
+▐█[1;47m░[0m█████[1;47m▒[0m███▓[1;30;47m   [0;1;30;40m [0;1;30;47m                                    [0;1;30;40m [0;1;30;47m         [0;1;30;40m [0;1;30;47m  [0m█████████[1;47m░[0m███
 [1;30;47m░[0m███████[1;47m░[0m███▒███░█████░█████████▀▀▀█▀▀███████▀██████▓▌██▐███▒██░███▐██████████[1;30;47m░[0m
 [1;30;47m▒[0m██████▄▀▓██░▓█▀ ██▓▀▀ ▀▓▀░▄▄▄███▓███[1;47m░░[0m█[1;47m░░░[0m█[1;47m░░[0m███▄▄█▄▓▀▀ ▀░█░██▄▀[1;30;47m▓▄[0m▐[1;30;47m▓[0m███████[1;30;47m░[0m█[1;30;47m▒[0m
 [1;30;47m▓[0m██████[1;30;47m▒[0m▓▒▐[1;30;47m▒[0m ▓■▀  [33m▄▄▄[0;37;43m░▒▓[0;37;40m██[0;1;37;40m▒[0m██████[1;47m░░░▒░▒░▒[0;1;40m▓[0;1;47m▒▒▒▒░▒░░[0m███[43m▓▓[0;40m█[0;43m▓▓[0;40m▄[0;33;40m▄▄ [0;37;40m▀▀ [0;1;30;40m██░[0;1;30;47m▓▄░[0m████[1;30;47m▄▒[0m█[1;30;47m▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: e84afca8d669d936f0817dca1a6e76a2182e4aa223f00f98b0a09ab072c1b050
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 43-SMAIN.ANS by Aesthetic (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -30,7 +30,7 @@ Write-Host '
 [1;36;40m  [0;33m▓▓░[0;1;36m [0;33m░██[0;1;33;43mt[0;30;43mransfers[0;33;40m██▓░[0;36;40m▀[0;1;36;40m [0;33m▓█[0;1;33;43mu[0;30;43msers[0;37;43m  [0;33;40m▓░▓░[0;1;36;40m [0;1;36;46m [0;36m▀▓[0;1;36m [0;33m░░▓░░▓▓██░[0;36m▀[0;33m▓▓███[0;31m █[0;35;41m░░[0;31;40m█▓▓[0;35;41m░▓[0;31;40m▓█▓▓[0;35;41m▓▓░░[0;31;40m▓[0;35;41m▓▓█[0;35;40m▒[0m
 [1;36;40m  [0;33m██▓█▓██[0;1;33;43mm[0;30;43messages    [0;33;40m▓░░██[0;1;33;43mo[0;30;43mneline[0;33;40m█▓█▓░░[0;1;36;40m [0;36m░[0;1;36m [0;33m▓▓█▓▓████▓▓███[0;37;43m░░[0;31;40m [0;35;41m░▓▓░░▓▓█▓░▓▓██▓▓████[0;35;40m▓[0m
 [37;40m  [0;33;40m███████[0;1;33;43md[0;30;43moor.games[0;33;40m██[0;30;43m [0;33;40m▓▓██[0;1;33;43mw[0;30;43mhos.on[0;33;40m████▓▓░░░██[0;1;33;43my[0;30;43mour stats[0;33;40m████[0;31;40m [0;35;41m░██▓▓[0;35;40m█[0;1;35;45m░░[0;35m█[0;35;41m▓[0;35;40m█[0;30;45m  [0;35;40m███[0;35;41m█[0;35;40m██[0;35;41m█[0;35;40m█[0m
-[37;40m  [0;33;40m█[0;1;37;43m░░[0;30;43m  [0;33;40m██[0;1;33;43ml[0;30;43mast callers[0;33;40m██▓██[0;1;33;43mc[0;30;43mhat with op[0;33;40m█▓▓███[0;1;33;43mk[0;30;43monfig.user[0;33;40m██▓[0;31;40m░█[0;35;41m██[0;35;40m██[0;1;35;45m [0;1;30;45m [0;30;45m    aesthetic[0;35;40m█[0m
+[37;40m  [0;33;40m█[0;1;37;43m░░[0;30;43m  [0;33;40m██[0;1;33;43m [0;30;43m           [0;33;40m██▓██[0;1;33;43m [0;30;43m           [0;33;40m█▓▓███[0;1;33;43m [0;30;43m          [0;33;40m██▓[0;31;40m░█[0;35;41m██[0;35;40m██[0;1;35;45m [0;1;30;45m [0;30;45m             [0;35;40m█[0m
 [37;40m  [0;33;40m▄█████[0;30;43m [0;1;33;43mb[0;30;43mbs.listing [0;33;40m█████[0;1;33;43mx[0;30;43mchat multi[0;33;40m███████[0;1;33;43mv[0;30;43moting[0;33;40m██▓▓░▓▓░[0;31;40m░█[0;35;41m▓▓[0;35;40m██[0;35;41m▓[0;35;40m█[0;35;41m████[0;30;45m         [0;35;40m█[0m
 [37;40m  [0;33;40m▄▄█▄███[0;1;33;43m               [0;33m████████████████████████████░░[0;37m [0;31m░░▓▓█[0;35;41m░░▓▓░▓▓█▓██▓██████[0;1;35;45m░░[0m
   [33m  ▄▄▄█▄█████▓▓█████████▓▓████████[0;1;33;43mg[0;30;43moodbye[0;33;40m██[0;1;37;43m░░[0;33m██▓█▓▓░░[0;31m░▓▓█████[0;35;41m░░ ░░▓░▓▓░▓▓██▓██[0;35;40m▓[0m

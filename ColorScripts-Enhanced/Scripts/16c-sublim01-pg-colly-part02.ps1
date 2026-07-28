@@ -5,7 +5,7 @@
 # Source SHA-256: da71ef82606b1932ebfdadf58288fec93eb21c30e786e43e166598e85b97a0da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PG%COLLY.ANS by Polygon (Sublime); released in sublim01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Logo Colly
 # SAUCE Author: Polygon
 # SAUCE Group: Sublime
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[tribe]-[for:tribal]----------------------- -- --  way to heaven  -- -----  ---
+                                                                               
              [1;35m#s┌[0;35m,[0m                       [35m²  '' ,[0m
 [37m [0m    [1;35m  [0m      [1;35m$$$[0;35m`[0m                     [35m`[0;34m,[0;1;34m\┘²²[0;36m [0;1;35m [0;35m%[0;1;35m  %%  $$$$$$$$$$$$%┌[0;35m._[0m
      [1;35m S%s┌[0;35m,.[0;1;35m_$$$[0m   [35m''[0;1;35m┘T$$$$$$$$$$$$$$\[0;35m`[0;1;35m [0;35m,[0;1;35m $$$$$$$$%┌.[0m      [1;35ml$$[0;35m;[0;1;35m [0;35m`[0;1;35m"┘/$$k[0;35m.[0m
@@ -30,7 +30,7 @@ Write-Host '
    [1;34m$$$$$$$$T┘[0;34m²²[0;1;34m┘T$$k[0;1;35m ?$$$$$? [0m     [35m`  ,  ²[0m   [1;34mj$$T┘²┘$$\┘[0;34m"~[0;36m [0;34m`[0;36m [0;34m/[0m
    [34m`[0;1;34m┘┘/$$T[0;34m`[0m      [34m;[0;1;34m$$k[0;1;35m [0;35m`[0;1;35mT$T[0;35m`[0m                [34m;[0;1;34m$$$[0;34m;[0m   [34m;[0;1;34mT[0m         [34m² ,[0m
                        [1;35m [0;35m`[0m                   [34m`[0;1;34m/$$/┌┌d[0m
-[37m[polyester]-[for:rippa]-------------------- -- --  way to heaven  -- -----  ---[0m
+[37m                                                                               [0m
                                                          [1;35m┌[0;35m,.[0;1;35m_ [0m
                                                          [35m`[0;1;35m²┘*T[0m
                                                         [1;35m┌[0;35m,.[0;1;35m_[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 4d432a43e09ecf217603b2b33a72b40a5db7dcad4c0f1d6e875da87d2eb00785
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-UG.ANS by Prisoner#1 (Fire); released in p1-art and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Undergrown Logo 1
 # SAUCE Author: Prisoner#1
 # SAUCE Group: Fire
@@ -22,7 +22,7 @@ Write-Host '
                              [1;31m▐[0;1;31;41m▓[0;1;31;40m▌ [0;1;30;40mP1 [0;1;32;40m█    [0;32m▐▌[0;31m█[0;1;31;41m▓▒[0m
                     [1;32;40m■▄▄[0m       [1;31;40m▀[0m     [1;32;42m▓[0;1;32;40m    [0;32m█ [0;31m▐[0;1;31;41m░[0;31m▌[0m
       [1;31m█[0;1;31;41m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;32;41m▀[0;1;32;42m▓▒▓[0;1;32;40m▄▄[0;1;31;40m▀▀▀▀▀▀▀▀[0;1;32;40m▐▌[0;1;31;40m▀▀[0;32m▐▌[0;1;31m▀ [0;31m▀ [0;1;31m▀▀[0;1;32m▄▄▄▄[0;1;31;41m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
-      [1;31;41m▓ [0;30;41mA mag for small[0;32;41m▒[0;1;32;41m▀▀▀ ▀■[0;1;32;40m▄▄  [0muNDERGROWn [1;32;41m▀▀▀[0;1;32;40m▄█[0;1;32;42m▓███[0;1;32;41m▄ [0;30;41mcoded[0;1;31;41m∙ [0;30;41mproduced[0;1;31;41m∙ ▓[0m
+      [1;31;41m▓ [0;30;41m               [0;32;41m▒[0;1;32;41m▀▀▀ ▀■[0;1;32;40m▄▄  [0m           [1;32;41m▀▀▀[0;1;32;40m▄█[0;1;32;42m▓███[0;1;32;41m▄ [0;30;41m     [0;1;31;41m  [0;30;41m        [0;1;31;41m  ▓[0m
       [1;31;41m▒ [0;30;41mgroups[0;1;31;41m∙ [0;30;41mmental problems[0;1;31;41m∙[0;1;32;41m▀▀█[0;1;32;40m▄ ▐[0;1;32;42m▒[0;32m▀[0;1;32m▄█[0;1;32;41m▀     [0;32;41m▓[0;1;32;41m▀▀▀█[0;1;32;42m▓██[0;1;32;41m [0;30;41mwritten[0;1;31;41m∙ [0;30;41mpuked[0;1;31;41m∙ ▒[0m
       [1;31;41m░ [0;30;41m                  [0;1;31;41m  [0;30;41m       [0;1;32;41m▀[0;1;32;42m▓[0;1;32;40m▌[0;1;32;42m░[0;1;32;40m▐[0;1;32;42m▓[0;32;41m▒ [0;30;41m        [0;1;31;41m [0;32;41m▓   [0;1;32;41m▀ [0;30;41m               [0;1;31;41m░[0m
       [1;31;41m  [0;30;41m       [0;1;31;41m  [0;30;41m            [0;1;31;41m [0;32;41m▒[0;30;41m     [0;1;32;41m▐[0;1;32;40m▌[0;1;32;42m▓[0;1;32;40m▐[0;1;32;41m▌[0;32;41m░[0;30;41m          [0;32;41m▒[0;30;41m                   [0;31;41m██[0m

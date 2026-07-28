@@ -5,7 +5,7 @@
 # Source SHA-256: 8f2572680b8d789ab15ee3bfad85aa1693d31a1bbbb8f60b82e8bbe6edee1219
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TB!DND.ANS by Tribe (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Drunk and Disorderly
 # SAUCE Author: Tribe
 # SAUCE Group: MiSTiGRiS
@@ -60,7 +60,7 @@ Write-Host '
 [1;33;40m ■▀   ■▄▀   ▀▄▄■ ▀▄■  [0;1;30;40m▀█[0;1;30;47m▒[0;1;30;40m███▓▓██████▓███▓█[0;1;30;47m▓[0;1;30;40m██▓█▓▀▄▓█▀▄ [0;1;33;40m■▀    █■▄ ▀▄■  [0;1;33;43m▄[0m  [1;33;40m■▄▀   ▀[0m
                        [1;30;40m▓▄▀█▀▓▄▄▀▀▄██[0;1;30;47m▓[0;1;30;40m▓█▄██[0;1;30;47m▓[0;1;30;40m██▀▀▄▄█▀▓■[0m         [1;33;40m▀[0m
 [1;33;40m [0;1;37;40m                    [0m      [1;30;40m▓▀████[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▒[0;1;30;40m▓██████▄█▀▓ [0;33m■[0m     [1;37m        [0;1;30m             [0m
-[1;30m  [0;1;37mI think I''ve had a[0m      [33m■▄▐ [0;1;30m■▀██▓██▓▀▄▄▓▄▀▄■  [0;33m▄▐[0m     [1;37mSysOp:  [0;1;30min, cause I got[0m
+[1;30m  [0;1;37m                  [0m      [33m■▄▐ [0;1;30m■▀██▓██▓▀▄▄▓▄▀▄■  [0;33m▄▐[0m     [1;37m        [0;1;30m               [0m
 [1;30m  [0;1;37mLITTLE too much..."[0m     [33m▀[0;1;30;43m▒▓[0;33m▄ [0;1;30m▀ [0;34m▄ [0;1;30m▓▀▀▀▀▄■[0;34m▄    [0;33m▀[0;1;30;43m▒▓[0;33m▄    [0;1;37mCo''s:   [0;1;30mno idea![0m
                            [1;30;43m▒[0;33m█  [0;34m▀[0;1;30;44m▒▒[0;34m▄▄▄█[0;1;30;44m▓▒[0;34m▄▄[0;1;30;44m░░[0;34m▀   [0;1;30;43m▒░[0m             [1;30;40mDis''anseeee was[0m
                            [1;30;43m░░[0m   [34m▐[0;1;30;44m░▀▒▓▄[0;34m▀█[0;1;30;44m▒▒░[0;34m▌    [0;33m█[0;1;30;43m░[0m     [1;37;40mAffils: [0;1;30;40mmade for D''N''D[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e193b34a4686b8d0be82744db886f102b8f5baf776c2f15c06a737e39a23c2f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NN-BLADE.ANS by neo negro (blade); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: blade?!
 # SAUCE Author: neo negro
 # SAUCE Group: blade
@@ -21,7 +21,7 @@ Write-Host '
                                  [1;47m██[0;1m▄[0m            [32m▀[0;1;30;42m▒░[0;32m▀▀▀▀▀▀▀[0;30;42m [0;1;33;42m░[0;1;33m▀[0m
                                   [1m▀[0;1;47m▓▓[0;1m▄[0m           [31m▄▄[0;30;41m [0;1;30;41m· [0;1;33;41m░▀▀▓[0;1;33m▄▄[0m
 [1;33m [0moh no! evil strawberry man         [1m▀[0;1;47m▒▒[0m▄        [1;30;41m ░[0;31m▄▀▀[0;30;41m   [0;31m▀▀[0;1;33m▄[0;1;33;41m▓█[0m
- has found a new, two-sided serrated  ▀[1;47m░░[0;33m▄▀[0;31m▄[0;1;33m▄  [0;1;30;41m▓[0;31m▓[0;1;30;41m░[0;1;36;41m░ [0;1;35;41m▀[0;31m▄[0;1;30;41m [0;1;35;41m▀[0;31m▄[0;30;41m [0;1;33;41m░▐▓█[0m - "aha! nothing
+                                      ▀[1;47m░░[0;33m▄▀[0;31m▄[0;1;33m▄  [0;1;30;41m▓[0;31m▓[0;1;30;41m░[0;1;36;41m░ [0;1;35;41m▀[0;31m▄[0;1;30;41m [0;1;35;41m▀[0;31m▄[0;30;41m [0;1;33;41m░▐▓█[0m                
          ...                           [33m▄▀[0;31m▄[0;30;41m▄[0;31m▄[0;1;33;41m░▀[0;1;33m▄ [0;1;30;41m▓[0;31m▓[0;1;30;41m░[0;30;41m░[0;1;30;41m░  [0;1;31;41m▄[0;31m▀[0;1;31m▀[0;31m▄[0;1;33;41m░█[0m can stop me now!"
   [1;33m▀▀█[0;1;36;47m██[0;1;36m▄▄▄[0m                 [1;33m▄▄███▀█▄▄[0m        [31m▀▀[0;1;33;41m░▀[0;31m▄[0;1;30m▀[0;1;30;41m▓[0;31m▓▄    ▄[0;1;31;41m▄[0;31m▀▄▄▄[0;1;33m▄[0m
      [1;36;47m██▓▓[0;1;36m▌    [0;1;33m░    ░  ░ ░░█[0;1;43m██[0;1;33m█ █ ███[0;1;33;43m▌[0m          [31m▀   [0;1;30m▀[0;1;30;41m▓[0;31m▓▄▄[0;1;31;41m▄[0;31m▀    ▀▀[0;1;33m▀▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 3b26f77c8a34ea1ff390f81f71a40823cc0a63a75534841465d9441d58f347e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AP-SUS.ANS by Appel (ATB); released in atb-1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Suske... the rockin dewd
 # SAUCE Author: Appel
 # SAUCE Group: ATB
@@ -28,7 +28,7 @@ Write-Host '
      [31m█████████████████▀[0m                  [37mThis "ansi" is made for the SUSKE &[0m
    [31m  ▐██▌ ▀███████▀▀[0;1;30m▄▄██▄[0m                 WISKE theme pack from ATB!
       [31m███[0m   [31m▀█▀▀[0;1;30m▄▄████████▄[0m
-      [1;31m▄██▄[0m    [1;30m██████▄▀██████▄[0m             if you can find use for this ansi,
+      [1;31m▄██▄[0m    [1;30m██████▄▀██████▄[0m                                               
        [1;31m▀█▀[0m     [1;30m▀██████▄▀██████▄[0m          please use it, so we can make fun of U
                  [1;30m▀██████▄▀██████[0;33m▄██▄[0m
                    [1;30m▀██████▄▀██▀[0;33m▄██▀[0m

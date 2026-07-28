@@ -5,7 +5,7 @@
 # Source SHA-256: 86a409dd7956a93b21d1569e2997c0e13dad1c90c9d19a1b1edc74f8aaa65eaa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-FIRE1.ANS by clorox cowboy (fire); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fire promo...
 # SAUCE Author: clorox cowboy
 # SAUCE Group: fire
@@ -50,4 +50,4 @@ Write-Host '
 [1;30mokokok... sorry i havent done anythin[0;1;37m█[0;1;37;47m▓▄[0;1;37;40m███▌ ███████▌ ▐█▌ ▐██████▌ ▐███████  ██[0m
 [1;30mg[0m [1;30mlately, ive just been caught up in[0m [1;47m▀[0;1;40m█████▌ ▐██████▌ ▐█▌ ▐███████▄ ██████▌ ▐██[0m
 [1;30mlife and everything else... this pict[0;36m [0;1;37m▀▀▀▀▀[0m [36m▄▄[0;1;37m▀▀▀▀▀▀▀[0;36m▄▄[0;1;37m▀[0m [36m▄▄[0;1;37m▀▀▀▀▀▀▀▀ [0;36m▄▄[0;1;37m▀▀▀ [0;36m▄[0;1;37m ▀▀▀[0m
-[1;30mwas supposed to be part of a ''407 project''[0m [36m▀▀▀[0m      [36m▀▀▀[0;37m [0;36m▀▀▀[0m           [36m▀[0;1;30m [0;36m▀▀[0m'
+[1;30m                                          [0m [36m▀▀▀[0m      [36m▀▀▀[0;37m [0;36m▀▀▀[0m           [36m▀[0;1;30m [0;36m▀▀[0m'

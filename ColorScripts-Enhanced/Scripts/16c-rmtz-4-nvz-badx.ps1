@@ -5,7 +5,7 @@
 # Source SHA-256: 0b305c50688add2cf013da39c7f78919fcc72d52ba08251bff4c33fd540e9173
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NVZ-BADX.ANS by nvz (rmtz); released in rmtz-4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bad xmas
 # SAUCE Author: nvz
 # SAUCE Group: rmtz
@@ -24,7 +24,7 @@ Write-Host '
     [31m▓███▌█[0;1;37;41m▒▓[0;1;37;40m██[0;1;37;43m▀[0;33m█[0;1;37;43m▄▄[0;1;37;40m█[0;1;37;43m▄[0;33m█▓[0m    [37m▓[0;1;37m [0m ░[1m [0m█   ▐  ▓▄▄■▒   ▒  █    ▓     ░  ▀▓▒■▀▄■ ▄■  ▓▄
     [31m███▓[0;37m [0;1;37m█[0;1;37;43m▀▀[0;33m█[0;1;37;43m▄[0;33m█[0;1;37;43m▐[0;1;37;40m█████[0;33m█▌[0;37m  ▀ ▀▒  ▓[0m             [37m░[0m   [37m▐    ▐[0m              [37m ▓▄▄▄▄▀[0m
     [31m▐[0;1;37;41m░ [0;31m▌[0;37m [0;33m███[0;1;37m███[0;1;37;43m▐[0;1;37;40m█▓ ▀█[0;1;37;43m▌[0;33m▓▄[0m       [37m▌[0m      [37m [0m
-    [1;37m▄[0;1;37;41m▓░▓[0;33m▐▓█[0;1;37;43m▐[0;1;37;40m█▄█[0;1;37;43m▌█[0;1;37;40m█▓▐██[0;33m█[0;1;37;43m▄ [0;33m▄[0m       [1;37mh[0;31me [0;1;37mm[0;31must [0;1;37md[0;31mie [0;1;37mc[0;31mause [0;1;37mh[0;31me [0;1;37mb[0;31mrought [0;1;37mn[0;31mo [0;1;37mp[0;31mresents[0m
+    [1;37m▄[0;1;37;41m▓░▓[0;33m▐▓█[0;1;37;43m▐[0;1;37;40m█▄█[0;1;37;43m▌█[0;1;37;40m█▓▐██[0;33m█[0;1;37;43m▄ [0;33m▄[0m       [1;37m [0;31m  [0;1;37m [0;31m    [0;1;37m [0;31m   [0;1;37m [0;31m     [0;1;37m [0;31m  [0;1;37m [0;31m       [0;1;37m [0;31m  [0;1;37m [0;31m       [0m
    [1;37m███[0;1;37;41m▒[0;1;37;40m█[0;1;37;43m▌[0;33m███[0;1;37;43m▀[0;1;37;40m█[0;1;37;43m▀[0;33m█[0;1;37;43m▀[0;1;37;40m███[0;1;37;43m▀[0;33m██[0;1;37;43m▄[0;1;37;40m▐[0;1;37;43m▄[0;33m▓▄[0m
     [1;37m▀▀█[0;1;37;43m▀[0;33m██[0;1;37;43m▄▀[0;33m███▓█▓███[0;1;37;43m▄[0;1;37;40m██▌██[0;1;37;43m▄[0;33m▌[0m
       [33m▐▓[0;1;37;43m▄[0;1;37;40m█▐██▓██▓███▓████▐██[0;33m▓[0m

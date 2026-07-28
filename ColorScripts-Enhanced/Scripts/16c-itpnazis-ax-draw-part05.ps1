@@ -5,7 +5,7 @@
 # Source SHA-256: 34213223e929a96aa90398ac8bdfba8eb6038bb3108342e8a33f2e0cacd442a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX_DRAW.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 191-236
 # Columns: 1-80
 
@@ -25,7 +25,7 @@ Write-Host '
  screen columns [1;30m.................[0m  [31m80[0m                [1;30m▌▄■[0m
                                                     [1;30m▐▀[0;1;37m [0m     [1;30m▄▄[0m░▒▒[1;37m░░░░[0m░[1;30m▒▒▄▄[0m
  allcolate xms if avalabile [1;30m.....[0m  [31mYES[0m           [1;37m   [0m     [1;30m▄[0m▒▒▒▒▒▓▓▓▓▓▒▒▒[1;37m░░[0m░░[1;30m▄[0m
- number of xms pages to alcolate[31m [0;37m  [0;31mYES[0m                 [34m [0;1;37m▒[0m▓▓[1;30;47m▒[0m█[1;37m▓▓[0m██[1;37;47m▒ ░[0m▓▓[1;37m▓▓▓[0m▒▒░[1;30m▌[0m
+                                [31m [0;37m  [0;31m   [0m                 [34m [0;1;37m▒[0m▓▓[1;30;47m▒[0m█[1;37m▓▓[0m██[1;37;47m▒ ░[0m▓▓[1;37m▓▓▓[0m▒▒░[1;30m▌[0m
                                                   ■    ▓▓▓█[1;37;47m▀[0;1;37;40m▓▓▒█▓▌▓▓▓[0m█[1;37m▓▓[0;5;47m▒[0;1;30;47m▄[0m▓▒▒
  Function key set [1;30m...............[0m  [31m06[0m              [1;37m▀▄[0m ▐[1;30;47m▄[0m [1;30;47m▄▄[0m▄[1;37m▄[0;1;37;47m▓▓[0;1;37;40m▐[0;1;37;47m▓[0;1;37;40m▐[0;1;37;47m▓[0;1;37;40m▀[0;1;37;47m▓▓▓[0;1;37;40m▀[0;1;30;47m▀[0m█▓▓▒[1;30m▌[0m▄■
                                                 [1;37m [0m■■▄[1;37;47m▄▀[0;1;37;40m▓[0;1;37;47m▄[0;1;37;40m█[0;1;37;47m▄[0m▓▓▓[1;37m██▌▌▀[0m [1;37m▓█▀[0m▄█[5;47m▀▀[0;1;37m▓▓▓[0m▀

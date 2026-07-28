@@ -5,7 +5,7 @@
 # Source SHA-256: 8ee8b50cab2199a32ea2d478a2d899ab43ce9e580834d1688a7fdbd3c822ab7f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2STONED-SATAN.ANS by 2Stoned (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Receive thy new Possessor
 # SAUCE Author: 2Stoned
 # SAUCE Group: Mistigris
@@ -37,12 +37,12 @@ Write-Host '
 [37m [0;1;30m█[0;1;30;47m▀[0m██[30;47mchang''d by Place or Time.[0;37;40m█[0;30;47mThe mind is[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀▀[0;1;30;40m█[0m  [1;30m▀▀██[0m████[1;30;47m▄[0m███[1;30;47m▀[0m████▀[1;30m▄▄██▄[0m       [30m█[0m
 [37m [0;1;30;47m▀[0m█[30;47mits own place, and in it self[0;37;40m█[0;30;47mcan make[0;1;30;47m▀[0m█[1;30;47m▄[0;1;30;40m███[0m [1;30m█[0m [1;30m▀██[0m█[1;30;47m▄[0m███████[1;30;47m▄[0m█[1;30;47m▀[0m▄██[1;30;47m▄[0;1;30;40m█▄▀█[0m      [30m█[0m
 [37m █[0;30;47m                                   [0;37;40m█[0;30;47m    [0;37;40m█[0;1;30;47m▀[0;1;30;40m█████▄[0m [1;30m▄█[0m█[1;30;47m▀▀[0m████[1;30m█[0;1;30;47m▀[0m████[1;30;47m▀[0m█▄█[1;30m███▄[0m     [30m█[0m
-[37m █[0;30;47mmatter where, if I be still the same,[0;37;40m█[0;30;47mand[0;37;40m█[0;1;30;40m█[0;1;30;47m▀▀[0;1;30;40m███[0m [1;30m█[0m▀███████████████[1;30m█[0m [1;30m████▄[0m    [30m█[0m
+[37m █[0;30;47m                                     [0;37;40m█[0;30;47m   [0;37;40m█[0;1;30;40m█[0;1;30;47m▀▀[0;1;30;40m███[0m [1;30m█[0m▀███████████████[1;30m█[0m [1;30m████▄[0m    [30m█[0m
 [37m █[0;30;47mwhat I should be, all but less then he[0;37;40m████[0;1;30;47m▄▄[0;1;30;40m███[0m  [1;30m█[0m █████████████[1;30;47m▄[0;1;30;40m████████[0m    [30m█[0m
-[37m █[0;30;47mwhom thunder hath made greater? Here at least[0;1;30;40m█[0m   [1;30m▀█[0m████████████[1;30m███████████▄▄[0m [30m█[0m
-[37m █[0;30;47mwe shall be free; th'' Almighty hath not built[0;1;30;40m█[0m    [1;30m▀█[0m████████████[1;30m███████▄▄▄[0m [1;30m▀[0m [30m█[0m
-[37m █[0;30;47mhere for his envy, will not drive us hence:[0;1;30;47m▄▄[0;1;30;40m█[0m     [1;30m█[0;1;30;47m▄[0m█[1;30;47m▄[0m████████[1;30;47m▄[0;1;30;40m████████████▄[0;30m█[0m
-[37m █[0;30;47mHere we may reign secure, and in my choyce[0;1;30;47m▄▀[0;1;30;40m██[0m     [1;30m▀█[0m▀██████[1;30;47m▄[0m█[1;30m█████▀███▀▀▀███[0;30m█[0m
+[37m █[0;30;47m                                             [0;1;30;40m█[0m   [1;30m▀█[0m████████████[1;30m███████████▄▄[0m [30m█[0m
+[37m █[0;30;47m                                             [0;1;30;40m█[0m    [1;30m▀█[0m████████████[1;30m███████▄▄▄[0m [1;30m▀[0m [30m█[0m
+[37m █[0;30;47m                                           [0;1;30;47m▄▄[0;1;30;40m█[0m     [1;30m█[0;1;30;47m▄[0m█[1;30;47m▄[0m████████[1;30;47m▄[0;1;30;40m████████████▄[0;30m█[0m
+[37m █[0;30;47m                                          [0;1;30;47m▄▀[0;1;30;40m██[0m     [1;30m▀█[0m▀██████[1;30;47m▄[0m█[1;30m█████▀███▀▀▀███[0;30m█[0m
 [37m █[0;30;47m                                          [0;1;30;47m▄[0m█[1;30m██[0m      [1;30m██[0;1;30;47m▄[0m███[1;30m█[0m█▄[1;30;47m▄▀[0;1;30;40m▄█▄▄████▄▄████[0;30m█[0m
 [37m █████████████████████████████████████████[0;1;30;47m▀[0m█[1;30;47m▄[0;1;30;40m███[0m       [1;30m███[0;1;30;47m▄[0m██[1;30;47m▀▄[0m█[1;30;47m▄[0;1;30;40m██▄██████████[0m [30m█[0m
 [37m  ▀[0;1;30;47m▄[0m██[30;47m                        [0;37;40m█████████████[0;1;30;47m▄[0;1;30;40m███[0m        [1;30m█████[0;1;30;47m▄▄[0;1;30;40m██▄▀█████████████[0;30m█[0m

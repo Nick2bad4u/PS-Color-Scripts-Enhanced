@@ -5,7 +5,7 @@
 # Source SHA-256: 61fc4658f93d629755f8e2d4174ff268563361c0fa0ec0d7aea27370e69d63d7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2m-ea.ans by 2much4u (RioT Productions); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Elite Alliance
 # SAUCE Author: 2much4u
 # SAUCE Group: RioT Productions
@@ -23,7 +23,7 @@ Write-Host '
    [34;46m█[0;37;44m░[0;34;40m▄[0m    [1;30;40m■[0m [34m██[0;37;44m■[0;37;40m [0;1;30;40m■[0m [34m█[0m   [1;30m■[0;34m▐█[0;37m  [0;1;30m▓[0m [34m▄▄[0;1;30;44m▓[0;34m▄▄[0m   [1;30mTelnetable![0m
  [1;30;47m▓[0m [34m██▀[0m    [1;30m▌[0m [34m█[0;37;44m░[0;34;40m█[0;37;40m [0;1;30;40m▌[0;34m▐█▌[0;37m [0;1;30m■[0m [34m██▌[0;1;30m■ [0;44m [0;34;40m▀[0;37;40m   [0;34;40m▀█[0;37;40m  [0;1;30;40mSoP: ImascO[0m
  [1;30m▌▌[0;34m▐[0;34;46m█[0m   [34;40m▄[0;37;40m [0;1;30;47m▓[0m [34m▐[0;37;44m [0;34;40m▌[0;37;40m  [0;34;40m█[0;37;44m [0;34;40m█[0;37;40m [0;1;30;47m▓[0m [34m▐█[0;37m [0;1;30m█[0m [44m░ [0;34;40m▀▀▀▀[0m   [1;30;40mCoOp: Teklord[0m
- [1;30m▄▀[0m [34m██▄██[0;37m [0;1;30m▀▌[0;34m▐█▌[0;37m [0;1;30m▒[0;34m▐█▌[0;37m [0;1;30m▐▄[0m [34m█▌[0;1;30m▐■[0;34m▐[0;37;44m [0;37;40m    [0;34;40m▄[0;37;40m  [0;1;30;40m#: for oh three for wun sevun wunwun[0m [1;30mto six[0m
+ [1;30m▄▀[0m [34m██▄██[0;37m [0;1;30m▀▌[0;34m▐█▌[0;37m [0;1;30m▒[0;34m▐█▌[0;37m [0;1;30m▐▄[0m [34m█▌[0;1;30m▐■[0;34m▐[0;37;44m [0;37;40m    [0;34;40m▄[0;37;40m  [0;1;30;40m                                    [0m [1;30m      [0m
   [1;30m▀■[0m [34m▀█▀[0m   [1;30m▄[0m [34m█[0;37m  [0;1;30m▌[0m [34m█[0m   [1;30m▐[0m [34m█[0;37m  [0;1;30m▄[0m [34m▀█▄▄█▀[0m
    [1;30m▀▄░[0m          [1;30m■▄[0m    [1;30m▀[0m     [1;30m▀[0m
 

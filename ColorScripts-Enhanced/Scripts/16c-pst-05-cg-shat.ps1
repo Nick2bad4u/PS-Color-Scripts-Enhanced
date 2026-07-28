@@ -5,7 +5,7 @@
 # Source SHA-256: 64fc74085b9b76646f1f758ef1381dea8d14deaf6a113fcddd28e31d3d672e2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-SHAT.ANS by cryogenic (awe); released in pst-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: shatter
 # SAUCE Author: cryogenic
 # SAUCE Group: awe
@@ -30,9 +30,9 @@ Write-Host '
 [36m▄[0;37m  [0;36m▄[0;37m [0;1;31m  [0;31m [0;1;30m▀[0;31m▀▀[0;1;31m▒▒[0;31m█▄▄▄ [0;1;30m▀[0m [31m▄██[0;35;41m░░[0;1;33;41m  [0;31m▀[0;1;31;41m▀░[0;31m▄▄ ███[0;35;41m░░[0;31;40m░  [0;36;40m▓▓[0m   [32;40m  [0m    [32;40m░░[0m
 [1;36;46m▀[0;36m▀[0;31m   [0;1;33m░░[0;31m [0m   [1;31m░░[0;31m▀█[0;35;41m░░[0;31;40m██▄[0;35;41m░░[0;31;40m█[0;35;41m▓▓[0;31;40m██ ▓▓▀▀[0;1;31;41m▀░[0;35;41m░[0;31;40m█[0;35;41m▓▓[0;31;40m▓ [0;37;40m [0;36;40m░░[0m
 [36;40m▌[0;37;40m [0;35;40m▐▄[0;31;40m [0;1;33;40m▓▓░░[0m     [31m▐[0;35;41m▓▓[0;31;40m█[0;35;41m▀█▓▓░[0;1;35;45m░▄[0;35;41m▄░[0;31;40m ░░[0m   [31;40m▀[0;35;41m▓▄[0;1;35;45m▄▓[0;35;41m▀[0;31;40m [0m
-[37;40m [0;35;40m▄[0;1;33;45m▄█[0;35m▌[0;1;37m█[0;1;33;45m█[0;1;33;40m▓▓[0m [31m [0m   [35m▐[0;35;41m██▄[0;1;35;45m▄▓░[0;35;41m▄▄[0;1;35;45m▓█▄[0;35m▌[0;37m [0;31m░░[0m   [35m░[0;35;41m█[0;1;35;45m▀░░[0;35m▌[0m    [37mthis is just an ansi for my good[0;1;37m [0m
+[37;40m [0;35;40m▄[0;1;33;45m▄█[0;35m▌[0;1;37m█[0;1;33;45m█[0;1;33;40m▓▓[0m [31m [0m   [35m▐[0;35;41m██▄[0;1;35;45m▄▓░[0;35;41m▄▄[0;1;35;45m▓█▄[0;35m▌[0;37m [0;31m░░[0m   [35m░[0;35;41m█[0;1;35;45m▀░░[0;35m▌[0m    [37m                                [0;1;37m [0m
 [35m▐[0;1;33;45m▀▓▓▀██▀[0;35m▀[0m    [31m [0;35m▐[0;35;41m█[0;1;35;45m▀ ░░[0;35m▓[0;35;41m█[0;1;35;45m░▓▓▀[0;35m▌[0m   [34m  [0;37m [0;30;45m░[0;1;35;40m▒▒[0;35;41m██[0;35;46m▓[0;35;40m▄[0m   [37;40mbuddy[0;1;37;40m [0mchronix[1m [0mguesting in polyester,
-[31m [0;35m▀[0;1;33;45m░░[0;35m█[0;1;33;45m▓▓[0;35m▓[0m   [35m▄[0;37m [0;31m [0;35m▐[0;35;46m▓[0;35;41m████[0;35;40m░[0;1;30;40m▀[0;35;41m█[0;1;35;45m░░[0;35;41m██[0;35;40m▄[0;37;40m  [0;34;40m░[0;37;40m  [0;35;46m▀▓▓[0;35;41m█[0;35;46m▓░▀[0;35;40m▌[0;37;40m  the best art group in victoria, and[0m
+[31m [0;35m▀[0;1;33;45m░░[0;35m█[0;1;33;45m▓▓[0;35m▓[0m   [35m▄[0;37m [0;31m [0;35m▐[0;35;46m▓[0;35;41m████[0;35;40m░[0;1;30;40m▀[0;35;41m█[0;1;35;45m░░[0;35;41m██[0;35;40m▄[0;37;40m  [0;34;40m░[0;37;40m  [0;35;46m▀▓▓[0;35;41m█[0;35;46m▓░▀[0;35;40m▌[0;37;40m                                     [0m
 [37;40m  [0;35;40m▐██[0;1;33;45m░░[0;35m░[0m     [35m▀[0;35;41m█[0;35;46m▄[0;35;41m█[0;35;46m█[0;35;41m██[0;37;40m [0;35;40m▄[0;35;46m▀[0;35;41m██[0;1;34;45m░▓▀[0;35m▌[0;37m [0;34m░[0;37m  [0;35;46m▄░▄█[0;35;40m█[0;35;46m▄[0;35;40m▀[0;31;40m [0;37;40m  one of the best in the country..[0m
 [35;40m▐▄█[0;35;46m██[0;35;40m██▄[0;37;40m [0;34;40m░░░░[0;31;40m [0;35;40m▐██[0;1;35;40m▒▒▒[0;35m▐[0;35;46m░▐[0;35;40m███[0;1;34;45m░[0;35m▀[0;37m [0;34m▄▓▄[0;37m [0;35m▀[0;30;45m░[0;35;40m██[0;1;34;45m ░[0;35m▄[0m
 [35m▐[0;1;36;46m▄[0;35;46m▀[0;35;40m█[0;1;35;40m▒▒▒[0;35m█▌[0;37m  [0;31m  [0;35m▄█[0;35;46m▀██[0;35;40m███[0;35;46m▓[0;35;40m████▓[0;37;40m [0;1;34;44m░▓▀▓[0;34m█[0;31m [0;35m░▀[0;1;33;45m░░[0;35m█[0;1;35m▒[0;30;45m░[0;35;40m░[0m   [37;40mcryogenic[0;1;37;40mawe[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 981132214772c7f7c5d477a0fd6ecb40b4b33bf2846fd48f85543aa0671b6785
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS-SG.ICE by Lord Soth (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Shadowgate
 # SAUCE Author: Lord Soth
 # SAUCE Group: iCE
@@ -15,11 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-[36;46mHi Publius![0;36;40m████████████▀[0;1;37;40m▄▄[0;36m▀▀▀▀█[0;36;46mI know I can''t do fonts.  So sue me. :)[0;36;40m█████████[0m
-[36;40m████▀▀▀███████████████▀[0m [1;37;40m▐[0;1;37;47m▓▒░[0;1;30;47m░▒[0;1;30;40m▄[0;36m▀█[0;36;46mHi everyone, I just wanted to congratulate   [0;30;46m [0m
-[36;40m██▀[0;37;40m▄[0;1;30;47m░[0m▀[1;47m░[0m▄▄[36m▀████▀▀[0;37m▄[0;1;37m▄▄[0m▄▄▄[1;30;47m▒▒[0;1;30;40m▌[0;1;37;40m▐[0;1;37;47m▓▒░[0;1;30;47m░▒[0;1;30;40m▌[0;36m▐[0;36;46meveryone in iCE and thank them for all their [0;30;46m [0m
-[36;40m▀▌[0;37;40m▐[0;1;30;47m░[0m▀[1m▄[0;1;47m▓▒▒░[0m [36m█▀[0;1;30m▄[0;1;30;47m░[0m█[1;47m░▒▒░[0m█[1;30;47m░░▒▒[0;1;30;40m▌[0;1;37;40m▐[0;1;37;47m▓▒░[0;1;30;47m░▒[0m [36m█[0;36;46mhard work again this month.  Now you can see[0;30;46m [0m
-[1;30;40m▀▄[0;1;30;47m▓▒[0m▐[1;47m▒▓█▓[0;1;40m▌[0;36m▐▌[0;1;30m▐[0;1;30;47m▓▒░[0m█[1;47m░▒▒░[0m██[1;30;47m░░▒[0m [1m▀▀[0m▀[1;30m▄▄▌[0;36m▐[0;36;46mone of the things I''ve been working on all[0;30;46m   [0m
+[36;46m           [0;36;40m████████████▀[0;1;37;40m▄▄[0;36m▀▀▀▀█[0;36;46m                                       [0;36;40m█████████[0m
+[36;40m████▀▀▀███████████████▀[0m [1;37;40m▐[0;1;37;47m▓▒░[0;1;30;47m░▒[0;1;30;40m▄[0;36m▀█[0;36;46m                                             [0;30;46m [0m
+[36;40m██▀[0;37;40m▄[0;1;30;47m░[0m▀[1;47m░[0m▄▄[36m▀████▀▀[0;37m▄[0;1;37m▄▄[0m▄▄▄[1;30;47m▒▒[0;1;30;40m▌[0;1;37;40m▐[0;1;37;47m▓▒░[0;1;30;47m░▒[0;1;30;40m▌[0;36m▐[0;36;46m                                             [0;30;46m [0m
+[36;40m▀▌[0;37;40m▐[0;1;30;47m░[0m▀[1m▄[0;1;47m▓▒▒░[0m [36m█▀[0;1;30m▄[0;1;30;47m░[0m█[1;47m░▒▒░[0m█[1;30;47m░░▒▒[0;1;30;40m▌[0;1;37;40m▐[0;1;37;47m▓▒░[0;1;30;47m░▒[0m [36m█[0;36;46m                                            [0;30;46m [0m
+[1;30;40m▀▄[0;1;30;47m▓▒[0m▐[1;47m▒▓█▓[0;1;40m▌[0;36m▐▌[0;1;30m▐[0;1;30;47m▓▒░[0m█[1;47m░▒▒░[0m██[1;30;47m░░▒[0m [1m▀▀[0m▀[1;30m▄▄▌[0;36m▐[0;36;46m                                          [0;30;46m   [0m
 [36;40m█▄[0;1;30;40m▀[0m [1;30;47m░ [0;1;37;47m░▒[0m [36m███[0m [1;30;47m▓▒░[0m█[1;47m░▒▓▒░░ [0m█[1;30;47m░▒▓▓[0;1;30;40m▀▀▀[0;36m▄█[0;36;46mmonth while on IRC :)[0;36;40m████████████████████████[0m
 [30;46m  [0;36;40m▌[0;1;30;40m▐[0;1;30;47m▒░[0m▀[36m▄[0;30;46m    [0;36;40m [0;1;30;47m█▓▒░[0m▀▀[1m▀▀[0;1;30m▄▄▄▄[0m▄▄[36m  ▀▀[0;30;46m                            [0;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [30;46m  [0;36;40m [0;1;30;47m▓[0;1;30;40m▀[0;36m▄[0;30;46m      [0;36;40m▄[0;1;30;40m▀█▄▄[0;1;30;47m▓▓▓▒▒▒▒░░░[0m█[1;30;47m░▒▒[0;1;30;40m▄[0;36m▀▀▀▀[0;30;46m          [0;36;40m███▀▀▀▀[0;1;30;40m▄▄▄▄▄▄[0;1;30;47m▒▒▒▒▒░░░░░░    ░░░░▒[0m

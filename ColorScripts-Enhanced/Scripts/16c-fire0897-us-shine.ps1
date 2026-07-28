@@ -5,7 +5,7 @@
 # Source SHA-256: 30a983cc6794f7bf4f257cb6e9ac6b67d43100bb326a91935b4f93a312b52a8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SHINE.ANS by The 4th Disciple + Mr4tune (fuel); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the end
 # SAUCE Author: multiple artists
 # SAUCE Group: fuel
@@ -20,7 +20,7 @@ Write-Host '
 
      [34m  [0m                          [34m░[0m
 [1;36;44m░░[0;34m█▄▄██▄   [0m                     [34m░▒[0m
-[34m▓▓▓█▌▀▀[0;37m [0;34m▄▓▓▄[0;37m [0;34m▀▀[0m       [34m▀▀[0m        [34m▒▓[0;37m  [0;1;30mthe [0;36m4[0;1;30mth disciple >> fuel[0m   [1;30mmr[0;36m4[0;1;30mtune >> fire ░[0m
+[34m▓▓▓█▌▀▀[0;37m [0;34m▄▓▓▄[0;37m [0;34m▀▀[0m       [34m▀▀[0m        [34m▒▓[0;37m  [0;1;30m    [0;36m [0;1;30m                   [0m   [1;30m  [0;36m [0;1;30m             ░[0m
 [1;35m▄▄▄▄▄▄[0;35m▄[0;37m  [0;35m▄▄[0;1;35m▄▄▄[0;35m▄░░[0;30;45m▓[0;35;40m▄▄[0;1;35;40m▄▄▄[0;35m▄[0;37m [0;35m▄[0;1;35m▄▄▄[0;35m▄[0;37m  [0;34m▓█[0;37m  [0;35m▄▄[0;37m  [0;35m▄[0;1;35m▄▄▄[0;35m▄▄[0;1;35m▄[0;35m▄[0m   [35m▄[0;1;35m▄▄▄[0;35m▄▄▄[0m   [35m▄▄[0;1;35m▄▄▄[0;35m▄▄▄▄[0;37m  [0;35m▄▄▄[0;1;35m▄▄▄[0;35m▄▄[0m
 [35m▀▀▀[0;37m  [0;35m▀[0;1;35m▀▀▀▀[0;35m▀[0;37m  [0;35m▀▀[0;1;35m▀▀▀▀[0;35m▀[0;37m  [0;35m▀▀▀[0;1;35m▀▀▀[0;35m▀▀[0;37m [0;34m░██[0;37m  [0;35m▀▀▀▀▀▀[0;37m [0;1;30m [0m  [35m▀▀[0;1;35m▀▀▀[0;35m▀▀[0;37m  [0;35m▀▀[0;1;35m▀▀▀[0;35m▀▀▀▀[0m   [35m▀▀[0;1;35m▀▀▀[0;35m▀▀▀[0;37m  [0;35m▀▀[0;1;35m▀[0m
 [34m [0;37m [0;34m░▄▀█[0;1;36;44m░░[0;34m▄█▀█[0;1;36;44m░[0;34m▄ [0;37m [0;34m▀▀[0;37m [0;1;30m  [0;34m░░░[0;1;30m  [0;33m▀▀[0;37m  [0;34m▄▀[0;1;36;44m░░[0;34m▀ [0;37m [0;1;37m░[0;1;37;47m▄█▄[0;1;37;40m▄[0;1;37;47m▓▓[0;1;30;47m▀[0m▄[1m▄▄▄[0;1;30;47m▀[0;1;37;47m▄░[0m▓░[1;30m░[0m [1m [0;1;30m▀[0m▄[1m▄▄▄[0m▄[1;30m▀▌░[0m░▓[1;47m░░[0;1;30;47m▀[0;1;37;40m▄▄▄▄[0;1;30;47m▀▀[0m█[1;30;47m▀[0;1;30;40m█[0m
@@ -50,7 +50,7 @@ Write-Host '
   [35m▄▄[0;1;35m▄[0;35m▄[0;37m  [0;1;30m██[0m   [35m▄▄[0;1;35m▄▄▄[0;35m▄▄▄[0;37m  [0;35m▄▄▄▄[0;1;35m▄▄▄▄[0;35m▄▄▄▄▄░░[0;30;45m▓[0;35;40m▄▄▄[0;1;35;40m▄▄▄▄▄[0;35m▄▄▄▄▄[0;1;35m▄▄▄▄[0;35m▄▄▄▄▄▄[0;1;35m▄▄▄[0;35m▄[0;1;35m▄▄▄▄[0;35m▄▄[0;1;35m▄▄▄[0;35m▄[0;1;35m▄▄▄[0;35m▄[0m
 [35m▀[0;1;35m▀▀▀[0;35m▀[0m   [1;30m▓█[0m  [35m▀[0;1;35m▀[0;35m▀[0;37m  [0;35m▀▀▀[0;1;35m▀▀▀▀[0;35m▀[0;1;35m▀[0;35m▀[0;37m  [0;35m▀▀▀[0;1;35m▀[0;35m▀[0;1;35m▀▀▀▀[0;35m▀[0;1;35m▀▀▀[0;35m▀▀▀[0m    [35m▀[0;1;35m▀▀▀[0;35m▀▀▀▀[0;37m  [0;35m▀[0;1;35m▀▀[0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀[0;1;35m▀[0m [35m▀[0;37m [0;35m▀[0;37m [0;35m▀[0;37m [0;35m▀▀[0;1;35m▀▀[0;35m▀[0m
 [1;30m  ▀▀[0m    [1;30m▒▓[0m [31m [0m                                          [37m  [0;1;30m  [0m        [1;30m▀▀[0m  [1;30m  ▄▄ ▐███[0;1;30;47m▓[0m
-        [1;30m░▒[0m  [1;30m [0m          [31mu are not supposed to get the sense[0m           [1;30m░░▀██▀▀▀█▓▓[0m
+        [1;30m░▒[0m  [1;30m [0m          [31m                                   [0m           [1;30m░░▀██▀▀▀█▓▓[0m
          [1;30m░[0m
  [31m█[0;37m [0;31m█[0;37m  [0;31m█ [0m   [31m▓▌[0m          [31m░[0m      [31m░[0m    [31m▄▄[0m   [31m [0m       [31m▐▌[0m       [31m▐[0m        [31m░▄▄▄[0m   [1;30m   [0;31m ▄ ▄[0m
 [37m [0;31m▐[0;37m [0;31m▐[0;37m  [0;31m█░[0m   [31m▐█[0m          [31m▐[0;1;33;41m░[0;31m [0m   [31m▐▌▄▀▀[0m      [31m▐█▄[0m     [31m█▓[0m     [31m ░██▄[0m       [31m▄█[0m   [31m▀▀▄[0;37m [0;31m ▐ ▐[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 68e4800ce027bb68ffa9ae2519561f1ccf08da6b2cb54b6fd58ad5dee55e6bed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-PHUN.ANS by Cool C (max_artpack_0393-ansi0393); released in max_artpack_0393-ansi0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -56,5 +56,5 @@ Write-Host '
            [34;40m▒░░▒    ▀[0;1;34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;34m▀[0;1;34m▀ [0;34m▀[0;1;34m▀▀[0m      [34m███[0;34;44m [0m
                                                  [1;33;40m┌─[0;1;31;40m─[0;31m──[0m             [31m──[0;1;31m─[0;1;33m─┐  [0;1;33;44m [0;34m██[0;34;44m [0m
  [32;40m   [0;1;32;40m■ [0;1;31;40m [0;31m                                    [0m      [1;33m│[0;1;33;47m [0;34;47m                    [0;1;33;40m│   [0;34m██[0;34;44m [0m
-  [32;40m····[0;1;32;40m■ [0;31mwill have to do some VGA to make up for  [0;1;33m└─[0;1;31m─[0;31m──[0m             [31m──[0;1;31m─[0;1;33m─┘   [0;34m██[0m
+  [32;40m    [0;1;32;40m■ [0;31m                                         [0;1;33m└─[0;1;31m─[0;31m──[0m             [31m──[0;1;31m─[0;1;33m─┘   [0;34m██[0m
      [32m   [0;1;32m■ [0;31m                      [0;1;31m [0m'

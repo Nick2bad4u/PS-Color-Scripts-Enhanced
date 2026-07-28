@@ -59,9 +59,8 @@ Write-Host '
      [1;34;40m▀█▀▀[0m              [1;34;40m▄▀▀[0m                               [1;34;40m█[0m          [1;30;40m  [0;1;34;40m▀▀▀▀[0m
 
 
- [1;37;47m░░[0m███▀▀▀▀▀▀▀▀▓▀ ▀▀▀▀▀[1;47m░[0m▀  S H A T T E R E D   I M A G E S :
-▓▀██[1;47m░[0m██▄▄▄▄▄▄    ▀█████▀▓  sysop BLACK SCORPION / MOZ remote PREZTOR cosys. CAR
-   ▀▀▀▀▀▀▀▀███     ████    fileops THE JESTER / GUY  1.2 gigabytes online
+ [1;37;47m░░[0m███▀▀▀▀▀▀▀▀▓▀ ▀▀▀▀▀[1;47m░[0m▀                                   
+▓▀██[1;47m░[0m██▄▄▄▄▄▄    ▀█████▀▓                                                      
+   ▀▀▀▀▀▀▀▀███     ████                                                  
 ▄[1;47m░[0m▄▄▄▄▄▄▄▓▄██▀ ▄▄████[1;47m░[0m██▄▄                                                      
-                         ▓
-[1;30m a n s i   b y   [0mf a c s i m i l e [1;30m [ s e m i - b l a d e   a f f i l i a t e ][0m'
+                         ▓[0m'

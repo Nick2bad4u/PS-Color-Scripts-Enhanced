@@ -5,7 +5,7 @@
 # Source SHA-256: 19db9d8f833c89fbf0740dd1709bc20051c0aa7ef3788ac5c85481760fe0ba27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-DRUID.ANS by Superfly (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -42,8 +42,8 @@ Write-Host '
                              [1;30m▐░▐ [0;36m▐[0;1;36m█[0m      [1;36;46m▐[0m [1;30;40m▐  ░▌[0;1;37;40m╔[0;1;32;40m───────[0;1;37;40m──────[0;1;30;40m═φ═[0;1;37;40m──────[0;1;32;40m──────[0;1;37;40m╗[0m
                              [1;30;40m▐░   [0;1;36;46m▐[0;1;36;40m▌    [0;36m▐[0;1;36m▌ [0;1;30m▐ ░░▌[0;1;32m│ [0;31mDrv[0;1;31mid i[0;1;37mnc..[0m                [1;32m│[0m
           [1;37m╔[0;1;32m───────────────[0;1;37m╗  [0;1;30m▐░░  [0;36m▐[0;1;36m█    [0;1;36;46m▐[0m   [1;30;40m░░░▌[0;1;37;40m│[0;31mThe [0;1;31mlar[0;1;37mgest,most diab[0;1;31moli[0;31mcal [0;1;37m│[0m
-          [1;32m│ [0;31mNOT [0;1;37mavailable [0;1;32m│  [0;1;30m▐░░░  [0;1;36;46m▐[0;1;36;40m▌  [0;36m▐[0;1;36m▌  [0;1;30m░░░░▌φ[0;31mcol[0;1;31mlec[0;1;37mtion of hack-[0;1;31mhap[0;31mpy,   [0;1;30mφ[0m
-          [1;32m│ [0;1;37mat newsstands.[0;1;32m│  [0;1;30m▐░░░░ [0;36m▐[0;1;36m█  [0;1;36;46m▐[0m  [1;30;40m░░░░░▌[0;1;37;40m│[0;31mphr[0;1;31meak[0;1;37ming,anarchistic,[0;1;31mpir[0;31mate[0;1;37m│[0m
+          [1;32m│ [0;31m    [0;1;37m          [0;1;32m│  [0;1;30m▐░░░  [0;1;36;46m▐[0;1;36;40m▌  [0;36m▐[0;1;36m▌  [0;1;30m░░░░▌ [0;31m   [0;1;31m   [0;1;37m             [0;1;31m   [0;31m      [0;1;30m [0m
+          [1;32m│ [0;1;37m              [0;1;32m│  [0;1;30m▐░░░░ [0;36m▐[0;1;36m█  [0;1;36;46m▐[0m  [1;30;40m░░░░░▌[0;1;37;40m│[0;31m   [0;1;31m   [0;1;37m                [0;1;31m   [0;31m   [0;1;37m│[0m
           [1;37m╚[0;1;32m───────────────[0;1;37m╝  [0;1;30m▐░░░░░░[0;1;36;46m▐[0;1;36;40m▌[0;36m▐[0;1;36m▌[0;1;30m░░░░░░░▌[0;1;32m│[0;31mart[0;1;31mist[0;1;37ms ever asse[0;1;31mmbl[0;31med![0m     [1;32m│[0m
                              [1;30m▐▌░░░░░[0;36m▐[0;1;36m█[0;1;36;46m▐[0;1;30;40m░░░░░░░▐ [0;1;37;40m╚[0;1;32;40m───────[0;1;37;40m──────[0;1;30;40m═φ═[0;1;37;40m──────[0;1;32;40m──────[0;1;37;40m╝[0m
                               [1;30;40m█▒░░░░░[0;1;36;46m▐[0;1;36;40m▌[0;1;30;40m▒░░░░░▒▐[0m

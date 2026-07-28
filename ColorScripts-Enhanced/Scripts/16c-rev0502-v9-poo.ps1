@@ -5,7 +5,7 @@
 # Source SHA-256: e000dd4f633d6fc79d1eed73025edf2021abd31f83e1c2ef7b83ff36740d0258
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V9-POO.ANS by vade79 (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: poo
 # SAUCE Author: vade79
 # SAUCE Group: revival
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m [0mansi[1m: vade79[[0;1;36mr[0;36me[0;1;30mvival[0;1;37m][0m     [1m  [0;1;30m▄[0;36m▄ [0;1;30m▄[0;36m ▄▄[0;1;33m▄▄▄▄▄▄▄▄[0;36m▄   [0;1;30m▄[0;36m▄    [0;1;33m▄[0;36m▄[0;1;30m▄[0m        poo[1m: trip[[0;1;36mi[0;36mC[0;1;30mE[0;1;37m][0m
+[1m [0m    [1m         [0;1;36m [0;36m [0;1;30m     [0;1;37m [0m     [1m  [0;1;30m▄[0;36m▄ [0;1;30m▄[0;36m ▄▄[0;1;33m▄▄▄▄▄▄▄▄[0;36m▄   [0;1;30m▄[0;36m▄    [0;1;33m▄[0;36m▄[0;1;30m▄[0m           [1m       [0;1;36m [0;36m [0;1;30m [0;1;37m [0m
  [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m    [1;30m▄[0;36m▄▄[0;1;33m▄▄[0;1;33;46m▄▄[0;1;33;40m▀▀▀▀▀[0;36m ▀ ▀[0;1;33m▀▀▀▀▀▀▀▀[0;36m▀ [0;34m▄[0;1;33;44m░[0;34m▀▄[0;36m  ░  [0;1;33m▀▀▀▀▀▀▀[0;1;33;46m▀█▄[0;1;33;40m▄▄[0;36m▄[0;1;30m▄[0m  [1;30m▄▄▄▄▄▄▄▄▄[0m
 [1;30m▀▄▓▓▄▄▄█▄▄  [0;36m ▄▄ ▀▀[0;1;33m▀▀[0m   [1;30m▄[0;32m▄[0;37m [0;34m▄[0;1;34;44m▄[0;34m▀▄░[0;1;30m▐[0;1;36;46m▄[0;36m   [0;1;30m▐[0;30;42m▓[0;1;32;40m░░░░░ [0;34m▐[0;1;34;44m▄[0;34m░[0;36m [0;34m▐▌[0;1;30m▐[0;36m▓ [0;1;30m▐[0;1;32m░░░░░[0;32m░[0;30;42m▓[0;1;30;40m░░[0;36m  ▀[0;1;33m▀▀[0;1;33;46m▄[0;1;33;40m▄[0;36m▄[0;37m  [0;1;30m▄█▄▄█▄▀[0m
  [1;30m [0m       [35m [0;36m▄[0;1;36;46m▬[0;36m▀[0;35m  [0;36m▄▄[0;1;36m▄[0;1;36;46m▄▄██▄[0;1;36;40m▄[0;36m▄▄[0;35m [0;34m▀░[0;30;44m░[0;34;40m▓[0;36;40m▐[0;1;36;46m▓▄[0;36m▄ [0;1;30m▐[0;1;32;42m▐[0;1;32;40m▓▓▓▓▓[0;32m▌[0;36m [0;1;34;44m▀[0;34m█░[0;36m [0;34m▐[0;1;30m▐[0;36m█ [0;32m▐[0;1;32m▒▓▓▓▓▓▒[0;32m▓▓[0;1;32m░░░[0;30;42m▓[0;1;30;40m░ [0;36m [0;1;33m▀[0;36m█▄[0m

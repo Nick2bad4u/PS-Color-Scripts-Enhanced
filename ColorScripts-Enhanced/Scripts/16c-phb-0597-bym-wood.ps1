@@ -5,7 +5,7 @@
 # Source SHA-256: 7accaf9ff49622df43bfacd7cbfef21eb8a09ecd52cc5a8d3820e3e88a5d6ac2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%WOOD.ANS by big y3llow man (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: plf hitsquad in the woods
 # SAUCE Author: big y3llow man
 # SAUCE Group: pHOBIA@!
@@ -23,7 +23,7 @@ Write-Host '
 [1;30;40m [0;30;47m██[0;1;30;40m▄▄██[0;32m████████████[0;1;30;42m [0;32m█[0;1;30;42m░░[0;32m█[0;1;30;42m▐[0;1;30;40m█[0;30;47m█[0m                                    [33;40m░░▓█▐████▓▀█████[0m
 [30;47m█[0;32;40m [0;1;30;40m▐[0;1;30;42m▀▀[0;32m██[0;1;30;42m  [0;32m███████████[0;1;30m█[0;32m███[0;1;30;42m▄█[0;1;30;40m▌[0m       [1;30mhere we sit in a branchy[0m [1;30mrow,[0m  [33m░[0;30;43m░░[0;33;40m██████▄▐██▀[0m
 [30;47m█[0;32;40m [0;1;30;42m▌[0;32m███[0;1;30;42m░░[0;32m██████[0;1;30;42m░░[0;32m███[0;1;30;42m▐[0;1;30;40m▌[0;32m▀[0;1;30m▀██▀[0;30;47m█[0;37;40m [0;1;30;40mthinking of beautiful things we know[0m  [33m░▓██▓████▌█▌ [0m
-[30;47m█[0;1;30;40m█[0;1;30;42m▌[0;32m███[0;1;30;42m▄[0;1;30;40m█[0;1;30;42m▓▄▄▄▌[0;32m█████[0;1;30;42m▀▀[0;1;30;40m█[0;32m▄[0;1;30m▄▄[0;30;47m███[0;37;40m [0;1;30;40mdreaming of deeds that we mean[0m [1;30mto[0m [1;30mdo[0;33m░▒[0;1;33;43m░░[0;33m██▓██[0;1;33;43m░░[0;33m███▄[0m
+[30;47m█[0;1;30;40m█[0;1;30;42m▌[0;32m███[0;1;30;42m▄[0;1;30;40m█[0;1;30;42m▓▄▄▄▌[0;32m█████[0;1;30;42m▀▀[0;1;30;40m█[0;32m▄[0;1;30m▄▄[0;30;47m███[0;37;40m [0;1;30;40m                              [0m [1;30m  [0m [1;30m  [0;33m░▒[0;1;33;43m░░[0;33m██▓██[0;1;33;43m░░[0;33m███▄[0m
 [30;47m█[0;1;30;40m█[0;1;30;42m▄▄[0;32m█[0;1;30;42m▄[0;32m█[0;1;30m██▀▀▀▀██[0;1;30;42m▄▄[0;32m████[0;1;30;42m░░[0;32m█[0;1;30;42m▀[0;32m▌[0;30;47m█[0m   [1;30;40mall complete, in a minuit ot two...[0;33m▐░▒█▓▓███████[0;30;43m░[0m
 [32;40m [0;30;47m█[0;1;30;40m▀▀██[0;32m██[0;1;30;42m▀[0;1;30;40m█[0;30;47m██████[0;1;30;40m▀▀█[0;1;30;42m▄▄▄[0;32m█[0;1;30;42m [0;32m█[0;1;30;42m▐[0;30;47m█[0;1;30;40m [0m [1;30msomething noble grand and good,[0m      [33m░▒▓▐████████[0;30;43m░[0m
 [30;47m█[0;1;30;40m▄█[0;1;30;42m▀▀[0;32m██[0;1;30;42m▄▄█[0;30;47m████[0;1;33;40m▄▄▄[0;30;47m████[0;1;30;40m▀██[0;32m▀[0;30;47m█[0;33;40m▄[0;1;30;40m▌[0m   [1;30mwon by merely wishing we could[0m    [33m░[0;30;43m▓[0;33;40m▒▓▌██▌████▓[0;30;43m▒[0m

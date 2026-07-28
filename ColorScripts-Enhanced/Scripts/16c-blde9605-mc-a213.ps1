@@ -5,7 +5,7 @@
 # Source SHA-256: 9bc3dc928489d01c6985b1576428eb8f3dc688ec819eecb93e05b03d67d81231
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-A213.ANS by mindcrime (blade productions); released in blde9605 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: apartment 213
 # SAUCE Author: mindcrime
 # SAUCE Group: blade productions
@@ -16,7 +16,7 @@
 
 Write-Host '
  [33m▄▄▄▄▄▄▄▄██[0;1;31;43m░░[0;33m██[0;1;31;43m░[0;33m██████▄[0m                 [37m▄▄▄█[0;1;37;47m░[0m█[1;47m░░[0m█[30;47m▀▀▀[0m                          [1;30;40m░[0m
-[33m█[0;1;31;43m░[0;33m▀▀▀▀▀▀▀ [0;34m▄▄▄▄▄▄▄▄▄▄ [0;33m█[0;1;31;43m░[0m [1;30;40m░[0m              [1;30;47m  [0;30;47mmr. dahmer?[0;1;37;47m░[0m   [1;30;40mansi by mindcrime of  ░[0m
+[33m█[0;1;31;43m░[0;33m▀▀▀▀▀▀▀ [0;34m▄▄▄▄▄▄▄▄▄▄ [0;33m█[0;1;31;43m░[0m [1;30;40m░[0m              [1;30;47m  [0;30;47m           [0;1;37;47m░[0m   [1;30;40m                      ░[0m
 [33m█[0;1;31;43m░[0m [1;34;44m▐▄▄▄▄▄▄▄ [0;1;34;40m███[0;1;34;44m [0;1;34;40m█[0;1;34;44m▒▒░[0m [33m█[0;1;31;43m░[0m [1;30;40m░   ▄▀▀ [0;1;34;40m░ [0;1;30;40m▀▀  [0m▐[1;47m░ [0;30;47myou home?[0;1;37;47m░▒▓[0m▌ [1;30mblade productions 1996 ░[0m
 [33m██ [0;1;34;44m▐███████░███▀█▓▒▌[0m [33m██[0m      [37m▐▀[0;1;37;47m▒[0m [1;37;40m▀[0;1;37;47m▓[0;1;31;40m▐[0;1;31;43m▓[0;1;31;40m▄ [0m▀▀████[1;47m░[0m█▀▀▀▀▀
 [33m██ [0;1;34;44m▐██▓████░███████▌[0m [33m█[0;1;31;43m░[0m    [33m▀▐▄[0;37m▀[0;1;37m▀ ▀ [0;1;31m▄[0;1;31;43m▓[0m   ▀

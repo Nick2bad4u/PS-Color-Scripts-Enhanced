@@ -5,7 +5,7 @@
 # Source SHA-256: f77b17e57f377d09af739e723ab93a203a323fc768762774d268b6b42a95bd04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PND!.ANS by -------------------- (Black Maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: pandur
 # SAUCE Author: --------------------
 # SAUCE Group: Black Maiden
@@ -26,5 +26,5 @@ Write-Host '
 [1;34;44m▐█▌[0;34m [0m   [31m█[0m   [31m█[0m      [1;30m                                                           [0m
 [34m█[0;1;34;44m▀[0;34m▀[0;37m  [0;31m▄ ▀▀[0;1;31;41m▄█▄[0;31m▄[0m     [1;30m                                                             [0m
 [34m█▌[0;37m  [0;31m▐█[0;1;31;41m░[0;1;31;40m▓[0;1;31;41m██[0;1;31;47m▓▓▓[0;31m▌▌[0m   [1;30m                                                         [0m
-[34m██▄[0m   [31m▀▀[0;1;31;41m░▀[0;1;31;40m█[0;41m▄[0;40m▄[0;31;40m▄[0m    [1;30;40meuropeans artists in the near future.[0m
+[34m██▄[0m   [31m▀▀[0;1;31;41m░▀[0;1;31;40m█[0;41m▄[0;40m▄[0;31;40m▄[0m    [1;30;40m                                     [0m
 [34m█▄[0;37m  [0;31m▀▀▀█[0;1;31;41m ▀[0;1;31;40m▀[0;31m▀[0m'

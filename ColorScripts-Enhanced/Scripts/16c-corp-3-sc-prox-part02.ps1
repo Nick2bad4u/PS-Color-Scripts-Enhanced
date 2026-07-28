@@ -5,7 +5,7 @@
 # Source SHA-256: a18fdbe67511764be20de2b7004589379b52ca9182eb717aaf290dee20b81a4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-PROX.ANS by Sliver Cut (corp-3); released in corp-3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 36-69
 # Columns: 1-80
 
@@ -42,4 +42,4 @@ Write-Host '
           [31m▒[0m            [1;31m [0;31m                                [0;1;31m [0m          [31m▒[0m
           [31m▓[0m         [1;31m [0;31m                                    [0;1;31m [0m         [31m▓[0m
           [31m█[0m                                                        [31m█[0m
-          [31m█▄▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0;31m▄[0;1;31m▄▄ansi b[0;31my sliver cut CORP PROD[0;1;31mU[0;31mCTi[0;1;31mO[0;31mN[0;1;31mS 1994▄▄[0;31m▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0;31m█[0m'
+          [31m█▄▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0;31m▄[0;1;31m▄▄      [0;31m                      [0;1;31m [0;31m   [0;1;31m [0;31m [0;1;31m      ▄▄[0;31m▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0;31m█[0m'

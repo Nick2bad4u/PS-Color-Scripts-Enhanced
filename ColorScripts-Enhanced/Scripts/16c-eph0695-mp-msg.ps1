@@ -5,7 +5,7 @@
 # Source SHA-256: 374af9559b2573838d330d9dd812cbfd3b70cbc21a342012101a53e10bff1ec7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MP-MSG.ANS by Mystic Plague (eph0695); released in eph0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -19,17 +19,17 @@ Write-Host '
 [1;31m▐█[0;1;30m▐[0;1;30;47m▒▒▒▒[0m [34m▓▓▓▓▒▒▒ [0;37m  [0;34m░▒▒[0;37m [0;1;30;47m▓▓▒▒▒▒[0;1;30;40m▌ [0m              [1;30;40m░[0m          [1;30;40m░[0m               ░
 [1;31m▐▌[0;1;30;47m▒▓▓▒▒[0m [34m█▀▀▓▓▓▒▒[0;37m [0;34m ▒▒▒[0;37m [0;1;30;47m▒▒▒▒▒░[0;1;30;40m▌[0m
 [1;31;40m▐[0;1;30;40m▐[0;1;30;47m▓▓▒░░[0;1;30;40m▌[0;34m▐[0;1;34;44m  [0;34m▄▀▓▓▒ ░▒▒▒▌[0;1;30m▀▀[0;1;30;47m▒░░░[0;1;30;40m▌[0m
-[1;31;40m▐[0;1;30;40m▐[0;1;30;47m▓▒[0;1;30;40m▀[0m▄█▄[1;34;44m▓▓▒░ [0;34m█▓▒ ░▒▓▄[0;37m [0;1;37;47m░░[0m▄█[1;30;47m░░[0;1;30;40m▌[0m   A [1;30mStick it all here[0m  N [1;30mAt least for a menu[0m
- [1;30;47m▓▒[0m▄▀▀▌▐[1;34;47m▓[0;1;34;40m▄▄[0;30;44m■[0;1;34;44m▒░[0;34m▓▒░▄[0;1;34;44m░▒▒[0m [1;47m░[0m▀▀[1;47m░[0m▄█    B [1;30mRight in this spot[0m O [1;30mBut the command colors[0m
+[1;31;40m▐[0;1;30;40m▐[0;1;30;47m▓▒[0;1;30;40m▀[0m▄█▄[1;34;44m▓▓▒░ [0;34m█▓▒ ░▒▓▄[0;37m [0;1;37;47m░░[0m▄█[1;30;47m░░[0;1;30;40m▌[0m     [1;30m                 [0m    [1;30m                   [0m
+ [1;30;47m▓▒[0m▄▀▀▌▐[1;34;47m▓[0;1;34;40m▄▄[0;30;44m■[0;1;34;44m▒░[0;34m▓▒░▄[0;1;34;44m░▒▒[0m [1;47m░[0m▀▀[1;47m░[0m▄█      [1;30m                  [0m   [1;30m                      [0m
  [1;30;47m▓▒▒[0;1;30;40m▀[0m▄  ▀[1;34;47m▒▓▓[0;1;34;44m▓[0;1;34;40m▐[0;1;34;44m [0;34m▓▓[0;1;34;44m░▒▓[0;1;34;40m▌[0m   ▐[1;30;47m ░░[0m    C [1;30mThis is where they[0m P   [1;30mcould probably be[0m
  [1;30;47m▓▓▓▒[0;1;30;40m▄[0;30;47m■[0;37;40m▄[0;1;30;40m [0m▄▀[1;34;47m▓█[0m [34m▀░[0;1;34;44m░▒▓[0;1;34;40m▀[0;1;30;40m ▄▀[0m▄[1;47m░░[0m█[1;30;47m░[0m    D   [1;30mAll go...[0m        Q   [1;30mbetter... oh well[0m
  ▐[1;30;47m▓▒▒▒▒▒[0m▌[1;34m▄[0;1;34;47m▓[0;1;34;40m▄[0;34m▄▄[0;37m  [0;34m░▄▄[0;30;44m■[0;1;30;40m▐▄[0;1;30;47m▓▒░░░[0m▌    E [1;30mAll the message[0m    R [1;30mPic from cover of[0m
-  ▀▀[1;30;47m▒▒░▒[0m▌[1;34m▐[0;1;34;44m█▓░ [0;34m [0;37m [0;34m▒▓▓▌[0;1;30m▐[0;1;30;47m▓▓▓▓[0;1;30;40m▀MP[0m    F   [1;30mmenu commands[0m    S   [1;30mComic Shop News for[0m
+  ▀▀[1;30;47m▒▒░▒[0m▌[1;34m▐[0;1;34;44m█▓░ [0;34m [0;37m [0;34m▒▓▓▌[0;1;30m▐[0;1;30;47m▓▓▓▓[0;1;30;40m▀  [0m        [1;30m             [0m        [1;30m                   [0m
    [1;37;47m░[0m▄▀[1;30;47m▒░░[0m [1;34;44m▒░ [0;34m▓ [0;37m [0;34m░▒▓[0;37m [0;1;30;47m▒▒▒[0m▀▄[1;30;47m▒[0m      G [1;30mNice colors though[0m T   [1;30m02/07/93[0m [1;30m- old![0m
    ▐[1;47m░░[0m█[1;30;47m▒░[0m▌[1;34;44m [0;34m▓▓▒[0;37m  [0;34m░▒▒[0;37m▐[0;1;30;47m░░▒▒▒[0m▌      H [1;30mI think they''re [0m   U [1;30mI hate single screen[0m
     [1;37;47m░░[0m█[1;30;47m░░░[0;34m▐▓▒ [0;37m  [0;34m ▒▌[0;1;30;47m░[0m█▐[1;30;47m░░▒[0m       I   [1;30mpretty nice[0m      V   [1;30mansis though[0m
      [1;37;47m░[0m██[30;47m.[0;1;30;47m░[0m▌[34m▒░[0;37m   [0;34m ░[0;37m▐[0;1;30;47m░[0m▌[1;30;47m░[0m█[1;30;47m░[0m        J [1;30mDidn''t take long[0m   W [1;30mNot enough detail[0m
       ▀██▄[1;47m░[0;34m [0;37m [0;34m░░[0;37m  [0;34m [0;37m█[0;1;30;47m░[0m [1;30;47m░[0m▀         K   [1;30mto do.  [0m         X [1;30mWell I think this is[0m
-        ▀[1;47m░░[0m▌[34m▒▓▓▒[0;37m ▐[0;1;30;47m░[0m▄▀           L [1;30mAbout 30 min total[0m Y   [1;30menough babbling for[0m
+        ▀[1;47m░░[0m▌[34m▒▓▓▒[0;37m ▐[0;1;30;47m░[0m▄▀             [1;30m                  [0m     [1;30m                   [0m
           ▀█[1;34;44m░░[0;34m░[0;37m [0;34m▄[0;37m█▀[0;1;30m [0m            M [1;30mPretty good    [0m    Z   [1;30mnow... l8a[0m
 [1;30m [0m            [34m▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: da558b2bfa22813da3fcdf95454b67f3066de91177f3ccb1dff73f201f0b2481
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-MEL2.ANS by Dyingsoul (kbsart03); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 19990907
 # SAUCE Dimensions: 80x193
 # Lines: 50-98
@@ -48,7 +48,7 @@ Write-Host '
                  [1;31m [0;1;31;43m░[0;33m█▄▀[0;1;31;43m░░▒▒▓▓▓[0;1;31;40m█[0;1;31;47m█████[0;1;31;40m██████████████[0;1;31;43m█████▓▓▓▒░░░[0;33m██▀[0;1;30min flames[0m
                  [1;31m [0;1;31;43m░░░[0;33m█▄▀[0;1;31;43m░░▒▒▓▓[0;1;31;40m█[0;1;31;47m██[0;1;31;40m██[0;1;31;43m█[0;1;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31;43m▀▓▓▓▒▒░░[0;33m██▀[0;1;30meyes full of curse[0m
 [1;30mif thou wouldst[0m  [1;31m [0;1;31;43m▒▒▒░░[0;33m█▄▀[0;1;31;43m░░▒▒▓▓█[0;1;31;40m███[0;1;31;43m█[0;31m  ▐[0;1;37;41m░[0;31m▀█[0;1;31;41m▄▄▄▄ [0;31m█▀  [0;1;31;43m ▓▒░░░[0;33m█▀[0;1;30ms, for her killers[0m [1;30m [0m
-[1;30mdrink of my life..[0;1;31;43m▓▓▒▒░░░[0;33m█▄▀[0;1;31;43m▓▓▓████[0;1;31;40m██[0;1;31;43m█[0;31m  █[0;1;31;41m░▓███▄[0;31m▄[0;1;37;41m░[0;31m▄  [0;33m▐[0;1;31;43m░░░[0;33m█▀[0;1;30mby choice fell to thei[0m
+[1;30m                  [0;1;31;43m▓▓▒▒░░░[0;33m█▄▀[0;1;31;43m▓▓▓████[0;1;31;40m██[0;1;31;43m█[0;31m  █[0;1;31;41m░▓███▄[0;31m▄[0;1;37;41m░[0;31m▄  [0;33m▐[0;1;31;43m░░░[0;33m█▀[0;1;30m                      [0m
                  [1;31m █[0;1;31;43m▓▓▓▒▒░░░[0;33m█▄[0;1;31m▀[0;1;31;43m▓▓██████[0;1;31;40m█▄▄[0;31m▀▀▀▀[0;1;31;41m▀▓░ [0;31m▀ [0;33m▄███▀[0;1;30mr over her visions, and[0m
            [34m▄▄[0;35;44m ░░[0;1;30;40m [0;1;31;40m▐██[0;1;31;43m▓▓▓▒▒▒▒░░[0;33m█▄[0;1;31m▀[0;1;31;43m█████▓▓▓▓▒▒▒░[0;33m▄▄▄▄▄[0;1;31;43m [0;33m██▀[0;1;30mvoice.[0m [1;30m"I am dusk come to[0m
          [34m▄[0;1;34;44m░░[0;34m█[0;1;34;44m░░[0;34m█[0;1;31m ▐████[0;1;31;43m▓▓▓▒▒▒░░[0;33m█▄[0;1;31m ▀[0;1;31;43m█████▓▓▓▓▒▒▒▒▒░ [0;33m█▀[0;1;30mranvish the night."[0m

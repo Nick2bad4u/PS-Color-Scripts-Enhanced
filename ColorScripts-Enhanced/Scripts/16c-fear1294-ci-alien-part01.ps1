@@ -5,7 +5,7 @@
 # Source SHA-256: cf44bc39c3338c3d819740738758f0998c26017cd0a6d32019d88aeb4c878cd6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CI-ALIEN.ANS by Criminally Insane (fear1294); released in fear1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -16,7 +16,7 @@ Write-Host '
 [1;30m│[0;32mAR [0;1;32m██▀▀ [0;32mFEA[0;1;32m██▀▀[0;32mAR F[0;1;32m██[0;32mR [0;1;32m▀██[0;32mR[0;1;32m██[0;32mEA[0;1;32m▀██[0;32mEAR FEAR FEAR F[0;1;30m│ [0;1;32mA[0;32mrt[0;1;30mist [0;1;32m: C[0;32mri[0;1;30mminally Ins[0;32man[0;1;32mE [0;1;30m│[0m
 [1;30m│[0;32mR F[0;1;32m██▄██▀[0;32mAR[0;1;32m██▄██▀[0;32mFE[0;1;32m██ ▄▄██ ██[0;32mA[0;1;32m▄▄██[0;32mAR [0;1;30m┌───────────┴────────────────────────────┤[0m
 [1;30m│ [0;32mFE[0;1;32m▓█▀▀[0;32mEAR [0;1;32m▓█▀▀ [0;32mFEA[0;1;32m▓███▀█▓[0;32mF[0;1;32m▓████▓[0;32mAR F[0;1;30m│ [0;1;32mG[0;32mre[0;1;30mets [0;1;32m:[0m                               [1;30m│[0m
-[1;30m│[0;32mFEA[0;1;32m▓▒[0;32mFEAR F[0;1;32m▓▒[0;32mR[0;1;32m▄▄▄▄[0;32mR[0;1;32m▓▒[0;32mEAR[0;1;32m▒▓[0;32mE[0;1;32m▓▒ [0;32mF[0;1;32m▒▓[0;32mR FE[0;1;30m│ [0;1;32m■ C[0;32myn[0;1;30mical Serv[0;32man[0;1;32mT - [0;1;30mWe Gonna Go Bowling│[0m
+[1;30m│[0;32m   [0;1;32m▓▒[0;32m      [0;1;32m▓▒[0;32m [0;1;32m▄▄▄▄[0;32m [0;1;32m▓▒[0;32m   [0;1;32m▒▓[0;32m [0;1;32m▓▒ [0;32m [0;1;32m▒▓[0;32m    [0;1;30m│ [0;1;32m■  [0;32m  [0;1;30m         [0;32m  [0;1;32m    [0;1;30m                   │[0m
 [1;30m│[0;32mEAR[0;1;32m▒░[0;32mEAR FE[0;1;32m▒░▒▓█▀[0;32mR [0;1;32m▒░[0;32mAR [0;1;32m░▒[0;32mA[0;1;32m▒░[0;32mFE[0;1;32m░▒ [0;32mFEA[0;1;30m│[0m                     [1;30mSometime?[0m          [1;30m│[0m
 [1;30m│[0;32m   [0;1;32m░[0;32m       [0;1;32m░ [0;32m      [0;1;32m░[0;32m     [0;1;32m░[0;32m [0;1;32m░[0;32m    [0;1;32m░[0;32m    [0;1;30m│ [0;1;32m■  [0;32m  [0;1;30m         [0;32m  [0;1;32m    [0;1;30m                   │[0m
 [1;30m│[0;32m                                     [0;1;30m│ [0;1;32m■  [0;32m  [0;1;30m        [0;32m  [0;1;32m    [0;1;30m                    │[0m

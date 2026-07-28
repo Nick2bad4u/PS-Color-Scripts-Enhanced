@@ -5,7 +5,7 @@
 # Source SHA-256: e69ac9e473ffb55a1ef7da1c5e91b0854c74634f1c93d77cef0cde8f54b90694
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AY-MIST1.ANS by Asylum (ACiD Productions); released in acdu0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mist
 # SAUCE Author: Asylum
 # SAUCE Group: ACiD Productions
@@ -49,7 +49,7 @@ Write-Host '
 
 [1;30m░────────[0m ░ [1;30m──[0m [36m▄[0;1;36m▄[0m [1;30m────────────────────────────────────────────────────────────░ [0m
    [1;34m▀▀▀▀[0;1;34;47m▓[0;1;37;40m▄[0m [1;47m░[0;1;34;47m░[0m▀▀ [1;34;46m▒░[0m  [1;30m                                                       [0m
-  [36m▄[0;1;34;46m▓[0;1;34;40m▀▀▀[0;1;34;47m▒[0;1;37;47m▒[0m [1;47m▒[0;1;34;47m▒[0;1;34;40m▄▄▄[0;1;34;46m▓[0;36m▀[0m             [1;30mboa. cashnig. drd. cavalier. jazz. toongoon.[0m
+  [36m▄[0;1;34;46m▓[0;1;34;40m▀▀▀[0;1;34;47m▒[0;1;37;47m▒[0m [1;47m▒[0;1;34;47m▒[0;1;34;40m▄▄▄[0;1;34;46m▓[0;36m▀[0m             [1;30m                                            [0m
 [34m▄[0;37m [0;1;34;46m░▒[0m ▄▄[1;34;47m░[0;1;37;47m░[0m [1m▀[0;1;34;47m▓[0;1;34;40m▄▄▄▄[0m [34m▄▄[0;37m  [0;1;30m        [0m [1;30m                                            [0m
 [1;30m░ [0;1;36m▀[0;36m▀[0;1;30m ─────────────────────────────────────────────────────────────────────────░ [0m
 [1;30m   o n e   h u n d r e d   p e r c e n t   o r i g i n a l   a c i d   a r t[0m'

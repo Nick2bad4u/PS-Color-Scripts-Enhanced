@@ -5,7 +5,7 @@
 # Source SHA-256: 2482cee6a9eb15162521ba4f46ba5b26495bacb84344a09e35be1f42deac0bc9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NN-ATOMK.ANS by neo negro (blade); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: atomik garden
 # SAUCE Author: neo negro
 # SAUCE Group: blade
@@ -36,6 +36,6 @@ Write-Host '
 [1;35;45m░▓███[0;1;35;40m▌[0;1;30;40m▐[0;1;30;47m█▓▓▒▀▀[0m░  [34m░░░▄▄[0;1;34;44m▄▓▄[0;34m▄▄░ ░[0;1;34;44m ▓▀▀░[0;34m▌[0;1;30m▀[0;1;30;43m▓[0;1;30;40m▄▄[0;1;30;43m▓[0;1;30;40m▀░▀[0;1;30;43m█▓[0;1;30;40m▄    ▀[0;1;30;43m█▓[0;1;30;40m▄▄[0;1;30;43m▓█[0;1;30;40m▄▀[0;1;30;43m█▓[0;1;30;40m▄▄[0;1;30;43m▓[0;1;30;40m▀░[0;1;30;43m▓▓[0m  [1;30m▄[0;1;30;43m▓[0;1;30;40m▀░[0m
 [1;35;45m▐[0;1;35;40m▓▓[0;1;35;45m█[0;1;35;40m▀░[0;1;30;47m▓▀░░   [0;1;33;47m▐[0;1;33;40m░ [0;34m▀▀▀▀▀▓[0;1;34;44m░▀▓▄░[0;34m▄[0;1;34;44m░[0;34m▓█▓▀▀▀░   [0;1;30m░    ░[0m       [1;30m░  ▀▀   ░[0m     [1;30m░░   ░[0m
 [1;35m▀░░[0;1;30m░▄[0;1;30;47m█▌░    [0;1;33;47m░██[0;1;33;40m░[0m     [34m░░░▀▀▀▀▀░░░ [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░[0m
-[1;30m  ▀▀▀▀[0m▀[1;33;47m  ░▄▒▓███[0;1;33;40m▄▄░░  [0;1;30;40m▐▌[0;1;37;40mthe[0;1;30;40m░[0;1;37;40matomik garden[0m.[1;30m [0mland[1;30m░[0mof [1;31mshrooms[0m, [1;31msinflowers[0m,[1;30m░[0mand [1;30m▐▌[0m
-       ░░  [1;33m░▀▀▀▓▓▀▀▀▀[0;1;30m░▓░[0;1;33msons[0m.[1;30m░[0myour host on[1;30m░[0mthis trip is the[1;30m░[0mone/only [1mlago[0;1;34mcia [0;1;30m▓░[0m
+[1;30m  ▀▀▀▀[0m▀[1;33;47m  ░▄▒▓███[0;1;33;40m▄▄░░  [0;1;30;40m▐▌[0;1;37;40m   [0;1;30;40m░[0;1;37;40m             [0m [1;30m [0m    [1;30m░[0m   [1;31m       [0m  [1;31m          [0m [1;30m░[0m    [1;30m▐▌[0m
+       ░░  [1;33m░▀▀▀▓▓▀▀▀▀[0;1;30m░▓░[0;1;33m    [0m [1;30m░[0m            [1;30m░[0m                [1;30m░[0m         [1m    [0;1;34m    [0;1;30m▓░[0m
                [1;33m░░   [0;1;30m░▀▀▀▀▀▀▀▀▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▀▀▀▀▀▀▀▀▀▀▀▀░[0m'

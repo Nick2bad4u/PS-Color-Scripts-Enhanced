@@ -5,7 +5,7 @@
 # Source SHA-256: 6011e1c491fd702ce91dc7d9e5d4808f616193959bf462b4e64931608285a764
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SHAITAN4.ANS by shaitan (fbk.sargahd); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: haci3nda
 # SAUCE Author: shaitan
 # SAUCE Group: fbk.sargahd
@@ -20,7 +20,7 @@ Write-Host '
 [37m  [0;34m [0m     [31m░▐[0;1;33;41m▓[0;1;33;40m▌▌ [0m
   [1;30m┌────[0m [31m▓[0;1;33;41m░░▓[0;31m [0;1;30m──[0;1;33m░[0;1;30m────┤▌▌[0;31ma shaitan ^fbk[0;37m [0;31mproduction[0;1;30m▐▐├────[0m [1;30m─[0m [1;30m─[0m
   [1;30m│[0m [1;30m▀▓[0;1;30;41m▓▀[0;31m█[0;1;33;41m■▄▀■▀▀▓[0;1;33;40m▀[0m [1;33m░[0m should be a 23-liner for tricycle''s
-  [1;30m│░[0m [1;30m░▀[0;1;30;41m▓░[0;31m███[0;1;33;41m▒▄[0;31m▀[0m    [37mhacienda, but i felt like doing something[0m
+  [1;30m│░[0m [1;30m░▀[0;1;30;41m▓░[0;31m███[0;1;33;41m▒▄[0;31m▀[0m    [37m                                         [0m
 [37m  [0;1;30m│░[0m  [1;33m [0;1;30m▐[0;1;30;41m■▄[0;31m▓▓[0;1;33;41m░▐[0m [1;30m░[0m  greater.. enjoy..    [1;30m░░[0m  [1;30m▓░[0m
   [1;30m└─░─[0;31m [0;1;30;41m▓▓[0;1;30;40m▀[0m [31m▀[0;1;33;41m░░[0;1;33;40m▌[0;1;30;40m▓───────────░░░─────────────────────────────[0m [1;30m──[0m [1;30m─[0m
   [34m [0m   [1;30m▐▀▓[0m    [1;33m▀▌[0m

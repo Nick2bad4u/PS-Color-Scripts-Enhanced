@@ -5,7 +5,7 @@
 # Source SHA-256: 10d624435479afba12582334600d332075022d3c7420d35cf778ba6254dde075
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-flamesauna.ans by The Knight (Fuel); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Flame Sauna
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel
@@ -41,5 +41,4 @@ Write-Host '
  [1;30m░░ [0;1;34m▄▀█▄▄▄▄▀▀[0;31m▀▀▀▀▓▀▀[0;1;30m  ▄  [0;35m▀▀[0;35;41m▄█[0;1;30;40m▌[0;31m■ [0;1;30m░░▓▓█[0;1;37;47m▀▀[0;1;30;40m██[0m▄▀▀[1;30m░░░▀▓[0;35m [0;37m [0;1;30m░░░[0;1;34m▄ [0m▄▄ [1;30m░░░   ▀▀█[0;35m▄[0;1;30m [0;35m███▀▀▀[0;1;34m [0;1;30m░░[0m
    [1;30m  [0;1;34m▀▀▄[0m▄[1;34m▄[0;1;30m▄▄▄[0m     [1;30m▄▄    [0m   [1;30m ▀[0;1;34m▀▄▄▄▄█▀[0;1;30m▄ ▀ ▄▄▄▄   [0;1;34m  ▄▄▄[0m     [1;34m▀█▄▄ ▀▀  [0m [35m [0;1;30m    ▀[0;1;34m▀▄▄[0;34m▄▄[0m
 [37m    [0;1;30m  [0m       [1;30m▀▀▀▀▀▀[0m       [1;30m [0m  [1;34m  ▄▄▄▀▀  [0m  [1;34m    ▀▀▀▀▀▀[0m                [1;34m▄▄▄▄[0;34m▄▄[0;1;30m▀▀[0m
-                                                    [1;34m  ▀▀[0;1;30m    ▀▀▀▀▀▀[0m
-[1;30m·····································[0m  [1;30minspired by flame and fluor - somewhat ·[0m'
+                                                    [1;34m  ▀▀[0;1;30m    ▀▀▀▀▀▀[0m'

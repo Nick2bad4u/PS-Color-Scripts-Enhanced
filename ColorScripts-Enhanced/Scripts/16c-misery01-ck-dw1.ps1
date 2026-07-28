@@ -5,7 +5,7 @@
 # Source SHA-256: cf61aca664318c5b8b27571d39b5be6038d9ea9d519ea708670661c5b5e52db9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-DW1.ANS by Cronic Killah (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dark World.
 # SAUCE Author: Cronic Killah
 # SAUCE Group: Misery Productions.
@@ -27,11 +27,11 @@ Write-Host '
   [1;31;43m▐[0;1;31;40m██████▌[0m█[1;47m▓[0;1;40m█▌[0;1;34;44m▓░[0;1;34;40m▌[0;1;37;40m▐███[0;1;31;40m█[0m█[1;47m▓[0;1;40m█▌[0;1;34;44m▓░[0;1;34;40m▌[0;1;37;40m▐██[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█████[0m   [1;37;40mdOnt[0m [1;37;40mmutaphukkin[0m [1;37;40muse[0m [1;37;40mthis![0m [1;37;40mdisplay[0m
  [33m▐[0;1;31m███[0;1;31;43m██[0;1;31;40m███▌[0;1;37;47m▐[0;1;37;40m██[0m [1;34;40m▀[0m [1;37;40m███▌[0;1;31;40m█[0m▐[1;47m▐[0;1;40m██[0m [1;34;40m▀[0m [1;37;40m██▌[0;1;31;40m████████[0m          [1;37;40monly[0m [1;37;40mfoo.......=)[0m
   [1;31;43m [0;1;31;44m█[0;1;31;43m████[0;1;31;40m███▌[0;1;37;40m▀██▄██▀▀[0;1;31;40m▐█▌[0;1;37;40m▀▀██▄██▀[0;1;31;40m▐██[0;1;31;43m▓[0;1;31;40m████▀[0m
-   [1;31;43m [0;1;31;40m█[0;1;31;43m▓█[0;1;31;42m██[0;1;31;40m████▄▄▄▄▄[0;1;31;43m██[0;1;31;40m▀▄[0;1;31;42m██[0;1;31;40m▄▄▄▄▄██████████[0m  [35mn[0;1;35mO[0;35mthing[0m [35mdistro[0m  [1;35mφ[0m  [35mmisery[0m [35mmember[0m [35mboard[0m
+   [1;31;43m [0;1;31;40m█[0;1;31;43m▓█[0;1;31;42m██[0;1;31;40m████▄▄▄▄▄[0;1;31;43m██[0;1;31;40m▀▄[0;1;31;42m██[0;1;31;40m▄▄▄▄▄██████████[0m  [35m [0;1;35m [0;35m     [0m [35m      [0m  [1;35m [0m  [35m      [0m [35m      [0m [35m     [0m
    [33m▀[0;1;31m█████[0;1;31;43m▓[0;1;31;40m███[0;1;31;43m███████[0m [1;31;40m█[0;1;31;43m██[0;1;31;42m███████████████[0m   [35mfree[0m [35minternet[0m [35me-mail[0m [1;35mφ[0m  [35mdeep[0m [35mnet[0m [35mwhq[0m
     [33m▀[0;1;31m██[0;1;31;43m██[0;1;31;42m██[0;1;31;43m▓[0;1;31;42m███[0;1;31;40m██████▄▄▄▄█████████████▀[0m
      [33m▀[0;1;31;43m▀[0;1;31;40m██[0;1;31;43m███[0;1;31;40m██████████████████[0;1;31;43m▓[0;1;31;40m█[0;1;31;42m████[0;1;31;40m▀[0m
        [33m▀[0;1;31;43m▀[0;1;31;40m███████▄▀▀▀▀▀▀▀▀▀▄███████▀[0m
-         [33m▀[0;1;31m▀██████████████████[0;1;31;43m▓[0;1;31;40m██▀[0m [1;31;40mt[0;1;30;40mha[0m [1;31;40md[0;1;30;40markwOrld[0m [1;31;40m/[0;1;30;40mtwo[0;1;31;40mO[0;1;30;40m!?#%[0m [33mb[0;1;30mulletin[0m [33mb[0;1;30moard[0m [33ms[0;1;30mystem[0m
+         [33m▀[0;1;31m▀██████████████████[0;1;31;43m▓[0;1;31;40m██▀[0m [1;31;40m [0;1;30;40m  [0m [1;31;40m [0;1;30;40m        [0m [1;31;40m [0;1;30;40m   [0;1;31;40m [0;1;30;40m    [0m [33m [0;1;30m       [0m [33m [0;1;30m    [0m [33m [0;1;30m     [0m
   [33mck[0;1;31mφ[0;33mmisery▀[0;1;31m▀█[0;1;31;43m███[0;1;31;42m█[0;1;31;43m▓[0;1;31;42m███[0;1;31;43m▓[0;1;31;42m██████[0;1;31;40m▀▀[0m   [1;31;40m─[0;33m──[0m [33m──[0;1;31m───[0;33m─[0;1;31m─[0;33m───[0m [33m──[0m [33m──[0;1;31m───[0;33m────[0;1;31m─[0;33m─[0m [33m──[0;1;31m─[0;33m─[0;1;31m─[0;33m─[0;1;31m──[0;33m─[0m [33m─[0;1;31m──[0;33m─[0;1;31m─[0m
                [1;31m▀▀█[0;1;31;43m██[0;1;31;42m██████[0;1;31;40m▀▀[0m'

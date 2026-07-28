@@ -5,7 +5,7 @@
 # Source SHA-256: 691738ff0875a95355ad72826a07d746c0dacfdd3c926ced5eae20c7480ff939
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-DD2.ANS by Delirium Tremens (Lapse); released in lap-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Renegade Stat Screen
 # SAUCE Author: Delirium Tremens
 # SAUCE Group: Lapse
@@ -60,8 +60,8 @@ Write-Host '
  [1;30;47m            ░░░▒▒▓▓▓██[0;1;30;40m▓▓▒▒░░[0m
  [1;30;47m░░░░░░░░░░░░▒▒▒▓▓███[0;1;30;40m█▓▒▒░░[0m            [1;30;40mAverage[0m [1;30;40m#[0m [1;30;40mof[0m [1;37;40mP[0mo[1;30msts[0m [1;37mP[0me[1;30mr[0m [1;37mC[0ma[1;30mll[0m [1;30m-[0m [36m%PC[0m
  [1;30;47m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓█▓█[0;1;30;40m██▒▒░░[0m
- [1;30;47m█▓█▓█▓█▓█▓█▓█▓[0;1;30;40m███▓▓▒░░[0m       [1;30;40mYou[0m [1;30;40mare[0m [1;30;40mconnected[0m [1;30;40mto[0m [1;37;40mN[0mo[1;30mde[0m [36m%ND[0m [1;30mat[0m [36m%BD[0m   [1;37mB[0ma[1;30mud[0m
+ [1;30;47m█▓█▓█▓█▓█▓█▓█▓[0;1;30;40m███▓▓▒░░[0m       [1;30;40m   [0m [1;30;40m   [0m [1;30;40m         [0m [1;30;40m  [0m [1;37;40m [0m [1;30m  [0m [36m   [0m [1;30m  [0m [36m   [0m   [1;37m [0m [1;30m  [0m
  [1;30m█▓██▓██▓▓█▓███▓▓▓▓▒░[0m                         [1;37mT[0mi[1;30mme[0m [1;37mR[0me[1;30mmaining[0m [1;30m-[0m [36m%ML[0m
  [1;30m▒▓▒▓▒▓▓▓▓▓▓▓▓▓▒▒░░[0m
- [1;30m░▒░▒░▒░▒░░▒░▒░░░[0m           [1;30mThis[0m [1;30mis[0m [1;30ma[0m [1;31mD[0;31me[0;1;30mlirium[0m [1;31mT[0;31mr[0;1;30memens[0m [1;30m[[0;31mL[0;1;30mapse][0m [1;30mProduction[0m
+ [1;30m░▒░▒░▒░▒░░▒░▒░░░[0m           [1;30m    [0m [1;30m  [0m [1;30m [0m [1;31m [0;31m [0;1;30m      [0m [1;31m [0;31m [0;1;30m     [0m [1;30m [0;31m [0;1;30m     [0m [1;30m          [0m
  [1;30m░░░░░░░░░░░░░[0m'

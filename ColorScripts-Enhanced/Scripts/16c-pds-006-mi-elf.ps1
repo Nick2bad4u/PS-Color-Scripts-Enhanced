@@ -5,7 +5,7 @@
 # Source SHA-256: bf739ae8aae0f0ab4afaf48c632c4bba6df9934eda68f68215819b5f19a45dd5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MI-ELF!.ANS by MONGi (^STL^PDS^); released in pds-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: au contraire d'orc de mg...
 # SAUCE Author: MONGi
 # SAUCE Group: ^STL^PDS^
@@ -16,10 +16,10 @@
 
 Write-Host '
               ▄▄▄▄▄
-   ▄█▀▀▀█▄█▀▀▀▀ [32m▄[0;37m ▀█ [0;1;37mi know this one SUX, but i made it just to mess[0m
-   █ [32m▄█▄ [0;37m▀ [0;32m▄█▄[0;37m [0;32m▀▓▀[0;37m █ [0;1;37mwith magician''s orc-pics..=)[0m
-   █ [1;32;42m░░░░[0;1;32;40m▄[0;1;32;42m░░░░[0m [1;32m▄[0;32m█[0;1;32m▄[0m █ [1myou know..orcs..elfs..hehe..[0m
-   █ [1;32;42m▒▒▒[0m [1;32m▀[0m [1;32;42m▒▒▒[0m [1;32;42m▒▒▒[0m █ [1mthe colours really suck in this pic..[0m
+   ▄█▀▀▀█▄█▀▀▀▀ [32m▄[0;37m ▀█ [0;1;37m                                               [0m
+   █ [32m▄█▄ [0;37m▀ [0;32m▄█▄[0;37m [0;32m▀▓▀[0;37m █ [0;1;37m                            [0m
+   █ [1;32;42m░░░░[0;1;32;40m▄[0;1;32;42m░░░░[0m [1;32m▄[0;32m█[0;1;32m▄[0m █ [1m                            [0m
+   █ [1;32;42m▒▒▒[0m [1;32m▀[0m [1;32;42m▒▒▒[0m [1;32;42m▒▒▒[0m █ [1m                                     [0m
    █ [1;32;42m▓▓▓[0m █ [1;32;42m▓▓▓[0m [1;32;42m▓▓▓[0m █ [1m                                          [0m
    █▄ [1;32m▀[0m ▄█▄ [1;32m▀[0m ▄ [1;32m▀[0m ▄█ [1monly for fun guys....[0m
     ▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀

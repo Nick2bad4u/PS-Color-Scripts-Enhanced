@@ -5,7 +5,7 @@
 # Source SHA-256: ee9087cee2c119e53572b2ec052b4487fbb98a85842a6775cd396dfb66ee61f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GDR-ICB.ANS by Gravedancer (basic-05); released in basic-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -58,5 +58,5 @@ $$$$$$$$$$$$$$$$$$$$i [1m;$$$$F,b[0m [1m`7b[0;34m`7b[0;1;37m`²7$$$Q[0;1;3
 $$$$$$$$$$$$$i$$$$$ii [1mi$$$$$$$b[0;1;34m [0;1;37m`7$baad$$$$$b[0;1;34m [0;1;37m$$$$b%ad$$$$F²"~[0m,d$$$$$b ii$$$$$$$
 $$$$$$$$$$$$$i$$$$ii''[1m,;$$$$$$$F[0;1;34m  [0;1;37m,7F²"~[0;1;34m_.,aa[0;34mii[0;1;37m``''''²²²`~[0m_.,ad$$$$$$$ii;;ii$$$$$$$
 $$$$$$$Fd$$$iii$$$$b [1m²''d$$$F²''[0;1;34m,sba%d$[0;34miiiii;;[0;1;34m$$$$i [0m$$$$$$$$$$$$$$$$$$$$$$$ii$$$ii
-ii$$$$F d$$$$$$$$$$$$b,.[1m`''²[0m,  [1;34mi''`[0;1;37m..no[0;1;34m [0;1;37mnot[0;1;34m [0;1;37mthe[0;1;34m [0;1;37mgroup..[0;1;34m [0;1;37mthe[0;1;34m [0;1;37mboard.[0m`Q$$$$$$$$$$$$$i
+                        [1m   [0m   [1;34m   [0;1;37m    [0;1;34m [0;1;37m   [0;1;34m [0;1;37m   [0;1;34m [0;1;37m       [0;1;34m [0;1;37m   [0;1;34m [0;1;37m      [0m                
 F²''"~` `             ~"''''7, [1micebreaker[0;1;34m   [0;1;37m+o[0;1;34m [0;1;37mcatharsis[0;1;34m  [0m_..,,aas%F²''"~`````~"''²7Q[0m'

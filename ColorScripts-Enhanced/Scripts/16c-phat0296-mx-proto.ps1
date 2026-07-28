@@ -5,7 +5,7 @@
 # Source SHA-256: 15049472f44e2560581cf18b134738c518e039e89e54977d8710005e3dc5bf82
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MX-PROTO.ANS by Matrix (READ THE INI FILE); released in phat0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Prototype Logo
 # SAUCE Author: Matrix
 # SAUCE Group: READ THE INI FILE
@@ -28,6 +28,6 @@ Write-Host '
 [1;30;40m   art[0;1;33;40mx[0;1;30;40mphun[0;1;33;40mx[0;1;30;40mdemoz   ░▓█ [0;1;33;43m░[0;1;30;43m▒[0m [1;30;40m▓█▓ [0;1;33;43m▒[0;1;30;43m░[0m [1;30;40m▓█▒▀ [0;1;33;43m░[0;1;30;43m▒[0;1;30;40m░ [0;1;33;43m▓[0;33m█[0;1;30m░▀▒█▀ [0;1;33;43m▐░[0;1;30;43m▒[0m [1;33;43m▐░[0;1;30;43m░[0;33m▀▀▀▀▀[0;1;30m▀[0;33m▀▀▀ [0;1;30m█▒░[0m
 [1;30m   babez[0;1;33mx[0;1;30mxtc[0;1;33m...[0m      [1;30m░▒ [0;1;33;43m░[0;1;30;43m░[0m [1;30;40m▀ ▄ [0;33m▀█░ [0;1;30m▀ ▄▓[0;1;33;43m░[0;1;30;43m▒[0;1;30;40m░ [0;1;33;43m▒[0;1;30;43m░▓[0;1;30;40m▄▀▀ [0;1;33;43m▀ [0;33m▀ [0;1;30m▄ [0;1;30;43m [0;1;33;43m░[0;1;30;43m▓[0;1;30;40m▄ ▀▀▀▀ [0;33m▄ [0;1;30m▓░[0m
                       [1;30m░  [0;33m▀▀[0;1;30m▀▀ ░░ [0;33m▒▀▀▀  █[0;1;30;43m▓[0;1;30;40m░ [0;1;33;43m░[0;1;30;43m▒[0m [33m▀▀▀[0;1;30m▀[0m        [33m▀▀▀▀▀[0;1;30m▀▀   ░[0m
-[1;30m   sysop: blackknight[0m      [33m░[0;1;33m▄▄[0;33m▄▄▄▄▄▄▄[0;1;30m▄■[0;33m▀[0;1;30m░▒ [0;1;33;43m░[0;1;30;43m▓[0m [1;30;40m█▀▀▀▀ ▀ ░░░░  matrix^phat[0m
+[1;30m                     [0m      [33m░[0;1;33m▄▄[0;33m▄▄▄▄▄▄▄[0;1;30m▄■[0;33m▀[0;1;30m░▒ [0;1;33;43m░[0;1;30;43m▓[0m [1;30;40m█▀▀▀▀ ▀ ░░░░             [0m
 [1;30;40m   cosys: dr. no[0m         [1;37;40m▄[0;1;33;43m▓▒[0;33m█[0;1;30;43m▄[0;33m▀▀[0;1;30m▀[0m        [1;30m▓▄▄▄▄█[0m
                           [33m▀[0;1;30m■[0m'

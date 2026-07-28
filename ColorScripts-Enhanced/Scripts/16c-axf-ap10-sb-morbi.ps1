@@ -5,7 +5,7 @@
 # Source SHA-256: f233274a31d42f1121b6896a5e6e476427850433614705fb05f2f86e30936240
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-MORBI.ANS by snowblind (axf); released in axf-ap10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: morbied illusions
 # SAUCE Author: snowblind
 # SAUCE Group: axf
@@ -24,7 +24,7 @@ Write-Host '
 [1;33;43m▓[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m▌[0m▐[1m████████████████▀[0;1;47m▓[0;1;40m████████[0;1;47m▓[0;1;33;40m [0;1;33;43m░░[0;33m█[0;37m ███████████████████████████████████████[0;1;30;47m   ▓[0m
 [1;33;43m▒▓▓▒[0;35m [0;1;37;47m▓[0;1;37;40m█████████████████▄███████▌[0;33m▐[0;1;33;43m ░░[0;33m▌[0;37m▐██[0;1;32;47m. m o r b i e d  i l l u s i o n s .[0m█[1;30;47m ░▓[0m
 [1;33;43m▒▒▓▒[0;33m▌[0;1;37m▐█████████████████[0;1;37;47m▓[0;1;37;40m██████▀[0m [33m▀█[0;1;33;43m  [0;33m█[0;37m █████[0;1;30;47m  [0m████████████████████████████████[1;30;47m ▒░[0m
-[33m▐[0;1;33;43m░▒▒░[0;1;37;40m █████████████████▀████[0;1;37;47m▓[0;1;37;40m▀ [0;1;31;40m█▄[0m [33m▀▀[0;37m ▐[0;1;30;47m  [0m█[1;30;47m put[0m█[1;30;47msome info about ya board here[0m█████
+[33m▐[0;1;33;43m░▒▒░[0;1;37;40m █████████████████▀████[0;1;37;47m▓[0;1;37;40m▀ [0;1;31;40m█▄[0m [33m▀▀[0;37m ▐[0;1;30;47m  [0m█[1;30;47m    [0m█[1;30;47m                             [0m█████
 [1;33m [0;33m█[0;1;33;43m░░[0;33m█▄[0;1;33m [0m▀[1;47m▓[0;1;40m████████████[0;1;47m▓[0;1;40m [0;33m▄[0;1;31m▄▄▄[0;33m [0;1;31m▄▄██[0;1;31;47m▓[0;1;31;40m█[0m ██████[1;30;47m [0m█████████████████████████████████████[1;30;47m░[0m
 [1;33;40m [0;33m▀██▀█▀[0;37m [0;33m▄[0;37m [0;1;37m▀▀▀[0;1;37;47m▓[0;1;37;40m███▀▀▀ [0;1;31;40m▄▄[0;33m ▀▀[0;1;31m▀[0;33m [0;1;31m███[0;1;31;47m██[0;1;31;40m█▌[0m▐██████████████████[1;30;47mand here[0m██████████████[1;32;47m░[0;1;30;47m ▒█[0m
 [1;30;47m░[0m▄▄▄▄▄[1;31m [0;33m▐[0;1;31;43m░[0;1;31;40m███▄▄▄▄▄▄█████████████████[0m ████████████████████████████████████████[1;30;47m  ░▓[0m

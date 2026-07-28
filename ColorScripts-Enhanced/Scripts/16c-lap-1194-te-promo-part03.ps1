@@ -5,7 +5,7 @@
 # Source SHA-256: 32c93551708159808163314363fc845dbad7c193436a86cbc70db6ab454e980b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-PROMO.ANS by T/4E (Lapse); released in lap-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Lapse Promotional 11/94
 # SAUCE Author: T/4E
 # SAUCE Group: Lapse
@@ -51,7 +51,7 @@ Write-Host '
 [37;40m   [0m [1;30;40m┌──────────────────────────────────────────────────────────────────────┐[0m
     [1;30;40m│[0m                                                                      [1;30m│[0m
     [1;30m│[0m                                                                      [1;30m│[0m
-    [1;30m├──────────────────┐[0m ANSi: T/┤E [te/lapse] Lapse Productions 1994      [1;30m│[0m
+    [1;30m├──────────────────┐[0m         ┤                                         [1;30m│[0m
     [1;30m│[0m Personal Greetz: [1;30m├───────────────────────────────────────────────────┤[0m
     [1;30m├──────────────────┘[0m                                                   [1;30m│[0m
     [1;30m│[0m                                                                      [1;30m│[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: c076eea1649ddb9b6ff1dc3f4a355fdb9e99e4c609b4516bc5495eb411ed0b70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-ART.ANS by Maeve Wolf (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Artifacts
 # SAUCE Author: Maeve Wolf
 # SAUCE Group: Vapor
@@ -21,7 +21,7 @@ Write-Host '
 [1;30m][ ■ Jud ■[0m           [1;34;44m░▒▓[0m     [1;36;46m█[0;1;36m█[0;1;36;47m▒[0m [1;36m█ [0;1;36;47m░[0;1;36m██ ██[0;1;36;47m▒[0m [1;36m▄ [0;1;36;47m▒[0;1;36m██[0m     [1;34;44m▓▒░[0m
                      [1;34;44m░░[0;34m▀▄    [0;1;36m██[0;1;36;47m▓[0m   [1;36;47m▒[0;1;36m██ ██[0;1;36;47m░[0m [1;36m█ [0;1;36;47m░[0;1;36m██    [0;34m▄▀[0;1;34;44m░░[0m
                       [34m▀▄[0m     [1;36m██[0;1;36;47m▓[0m [1;30m░ [0;1;36;47m▓[0;1;36m██ ▀██▄█ [0;1;36;47m░[0;1;36m█[0;1;36;46m▓[0m     [34m▄▀[0m
-[34m [0;1;30m1oo% oRIGINAL aNSi bY:  [0;34m▀■  [0;1;36m▀▀▀ [0;1;30m▒ [0;1;36m▀▀[0;1;36;46m▓[0m     [1;36m▀▀▀▀▀  [0;34m■▀  [0;1;30m-Maeve Wolf- [iCON/SMASH!][0m
+[34m [0;1;30m                        [0;34m▀■  [0;1;36m▀▀▀ [0;1;30m▒ [0;1;36m▀▀[0;1;36;46m▓[0m     [1;36m▀▀▀▀▀  [0;34m■▀  [0;1;30m                          [0m
 [1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▓[0;1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;36;46m▓           ░   ░   [0;36m▒[0;1;36;46m       ░   [0;36m█[0;1;30;46m▀[0;36m█▒[0;1;36;46m [0;36m▀[0;1;36;46m       [0;1;32;46m░ [0;1;36;46m░   ░▒ ░    [0;36m▓▀[0;1;30m░[0;36m█[0;1;36;46m    ░[0;36m█[0;1;36;46m [0;36m█████[0;1;36;46m  [0;36m▓▓[0;1;36;46m [0m
 [1;36;46m▒ [0;1;31;46m▄   [0;1;36;46m░[0;36m▀[0;1;36;46m  ░ ▒░  ░  [0;36m▓[0;1;30m░[0;1;36;46m  ░  ░     ░▒ [0;36m▓[0;1;30m▒░[0;36m▀[0;1;36;46m░     [0;1;32;46m▒    [0;1;36;46m░▒▓[0;36m▀▀[0;1;30m░   ▒░[0;36m■▀▀▀▓▀[0;1;30m░▓[0;1;36;46m [0;36m░[0;1;36;46m [0;36m█[0;1;36;46m  ░ [0;36m▓[0;1;36;46m  [0m

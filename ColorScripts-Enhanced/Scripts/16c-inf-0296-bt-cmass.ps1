@@ -5,7 +5,7 @@
 # Source SHA-256: f7dd8367ed70d6448bf63a1aaa62b71f971b8c39c0ae6305617aa952898b2782
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BT-CMASS.ANS by Black Tyde (iNFeCtiOuS); released in inf-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Critical Mass
 # SAUCE Author: Black Tyde
 # SAUCE Group: iNFeCtiOuS
@@ -35,7 +35,7 @@ Write-Host '
 [1;30m  [0m  [32m [0;1;30m [0m  [32m ▐██▄▄▄[0;1;37m▀▀▀▀[0m■[32m▄█▌█[0m                [1;30mG[0;34mr[0;1;34meat Files, blah blah, and bla[0;34mh[0;1;30m.[0m   [1;34m [0m [1;30m [0m
 [1;30m [0m     [32m  [0;1;32m▄[0m [32m█[0;30;42m■[0;32;40m▀▀▀███████▀[0m                [34;40m [0m        [1;30;40m1[0;34mo[0;1;34mo% Origion[0;34ma[0;1;30ml[0;1;34m          [0;34m   [0;1;34m  [0m [1;30m▀[0m
 [32m▄[0;37m [0;32m▀▄▄[0;1;32;42m░▒▓[0;32m █ ▀▀██▄▄▄[0;30;42m■[0;32;40m▀▀[0;1;30;40m      [0m       [1;30m▀[0m
-[32m▄▀▄▄▀▀[0;1;32;42m▒[0m [32m███▄     ▄▄█[0;37m [0;1;30m      [0m            [1;30mG[0;34mr[0;1;34meetz to Manic Depression and TM[0;34mi[0;1;30mB[0m    [1;30m▄[0m
+[32m▄▀▄▄▀▀[0;1;32;42m▒[0m [32m███▄     ▄▄█[0;37m [0;1;30m      [0m            [1;30m [0;34m [0;1;34m                               [0;34m [0;1;30m [0m    [1;30m▄[0m
 [32m██▄▄▀▀▄ ▀███▌  ▄███▀▄[0;1;32;42m▓[0m [1;30m     [0m                                                  [1;30m▄[0m
 [1;32;42m░░░[0;32m███▄▄ [0;37m [0;32m▀██[0;37m [0;32m████▀ [0;1;32;42m░▒▒[0m [1;30m    [0m          [1;30m    [0m                                  [1;30m▄██▄[0m
 [1;32;42m▒▒░░░░░[0;32m███▄▄ ▀▀▀ ▄▄▀▀[0;1;32;42m░░▒[0;32m▄[0;1;30m  [0m                                     [1;30m▀[0m       [1;30m▀[0m  [1;30m▀▀██▀[0m'

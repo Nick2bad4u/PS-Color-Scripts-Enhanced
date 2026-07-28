@@ -5,7 +5,7 @@
 # Source SHA-256: ff45ecafebec0a7a4316856fcbf5d7cb5fefbd334e8f576a0becefd5b36cbb9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FI-MD.ANS by Forbidden Image (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Moral Decay
 # SAUCE Author: Forbidden Image
 # SAUCE Group: ACiD Productions
@@ -59,7 +59,7 @@ Write-Host '
 [1;30m▐██▌[0m        [1;30m█ [0;1;31;41m░[0m [1;30;40m█[0m             [1;37;40mFast Files, Invite Only[0m      [31m▄▀   ▐  [0;1;31;41m░[0;1;30;40m▐ [0;31m▄[0m      [1;30m██[0m
 [1;30m▐███[0m        [1;30m▐█ ███[0m       [31m▄▄   [0;1;37mSysop: Corrupt[0m                      [31m█[0;1;31;41m░[0;31m█▀[0m      [1;30m▐██[0m
 [1;30m▐████[0m       [1;30m█ [0;31m█ [0;1;30m█▀▀[0m     [31m▀[0m                                [31m▄[0m       [31m▀█[0;1;31;41m▄[0m    [1;31;40m█  [0;1;30;40m▄██[0m
-[1;30;40m███▀▀▀▄[0m     [1;30;40m██ ▀   [0;1;37;40mthis ansi is dedicated to Stephanie Seymour[0m     [1;31;41m▐█[0m [1;31;40m▄▀[0;1;30;40m▄▄██▀[0m
+[1;30;40m███▀▀▀▄[0m     [1;30;40m██ ▀   [0;1;37;40m                                           [0m     [1;31;41m▐█[0m [1;31;40m▄▀[0;1;30;40m▄▄██▀[0m
 [1;30;40m█▀[0m         [1;30;40m▐▀ [0;31m▀    [0;1;37m                                               [0;1;31;41m░▒█[0;1;31;40m▀ [0;1;30;40m▀▀▀[0m
               [31m■[0m            [30mSinned Soul :)[0m                 [31m▄█▄  ▄▄[0;1;31;41m▄▄▀[0;31m▄  [0;1;31m▄[0m
                  [31m▀  ▀▀  ▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀[0;1;31m▀[0;31m▀▀▀▀▀▀[0;1;31m▀▀[0;31m▀▀▀▀▀[0;1;31m▀▀▀▀▀[0;31m▀▀[0;1;31m▀▀[0;31m▀▀    ▀▀[0m'

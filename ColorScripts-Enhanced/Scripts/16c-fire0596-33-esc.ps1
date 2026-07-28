@@ -5,7 +5,7 @@
 # Source SHA-256: 6fda7c4d4d56c803610587bf42adb563470432f5819e8bd8eee9dd4c07cc7621
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-ESC.ANS by Eerie-Kun (Fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Escape
 # SAUCE Author: Eerie-Kun
 # SAUCE Group: Fire
@@ -22,7 +22,7 @@ Write-Host '
       [1;31m░    ▄▄▄[0;31m░[0m
 [31m   [0;1;31m▄▄▄▓▄ █[0;1;31;47m▓[0;1;31;41m▓[0;1;31;47m▄[0;1;31;41m▀[0;31m▓░ ░[0m
 [31m    [0;1;31;47m▓[0;1;31;41m▀▌░[0;31m▀ █[0;1;31;41m░[0;31m▀▀[0;1;31m▄▄[0;31m░░  ░ ▄[0m
-[1;31;47m▀▓[0;1;31;41m█[0;1;31;40m▄[0;31m▄▀▀▐░░░ [0;1;31m█[0;1;31;47m▀[0;1;31;41m▀▓[0;31m█ [0;1;31m▄▄[0;31m▄ ▐ ▄▓▄ [0;1;34m"do you wanna be with me?  i''ve nothing to give"[0m
+[1;31;47m▀▓[0;1;31;41m█[0;1;31;40m▄[0;31m▄▀▀▐░░░ [0;1;31m█[0;1;31;47m▀[0;1;31;41m▀▓[0;31m█ [0;1;31m▄▄[0;31m▄ ▐ ▄▓▄ [0;1;34m                                                [0m
 [1;31;47m▓[0;1;31;40m█[0;1;31;41m▓[0;31m█▀[0;1;31m▌[0;31m░[0;1;31m▐[0;1;31;47m▓[0;1;31;40m▄▄▄[0;31m▄[0;1;31;41m▐ ░[0;31m▀▀[0;1;31;41m░[0;31m▓▀ ▐▄░▀[0m                                               [1;31m░[0m
 [1;31m█[0;31m█[0;1;31;41m░[0;31m▄[0;1;31m█[0;1;31;41m▓░[0;1;31;40m█[0;1;31;41m▓[0;1;31;40m▓[0;1;31;41m░▀[0;31m█░░ [0;34m░  [0;31m░  ▀[0;1;31;41m░[0;31m▓░░  [0;31;47m [0;30;47mescape [0m    [37;40m▄▄▄▄▄▄░   now up in the 418   [0;1;31;40m█[0;1;31;47m▄[0;1;31;40m▓[0;31m▄░  [0;34m░[0m
 [31m▐[0;1;31;41m░[0;31m▀░▀▀▀ ▀▀▀▀ ░ [0;34m▄[0;1;34;44m░[0;34m▄   ▄   [0;31m░[0m              [37m▐[0;1;37;47m▄▓[0m▌ [1m░[0m▀▓[1;47m▄[0m▄                      [31m▀▀ ░ [0;34m▄▓[0m

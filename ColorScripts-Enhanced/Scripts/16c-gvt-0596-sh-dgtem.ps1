@@ -5,7 +5,7 @@
 # Source SHA-256: f5a3363f6532022bfb13ec81beafc63d361c5ad515ec85679f992833e6a95cd9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-DGTEM.ANS by Shatters (Gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Digital Empire Menu Templay
 # SAUCE Author: Shatters
 # SAUCE Group: Gravity
@@ -29,7 +29,7 @@ Write-Host '
 [31;40m▒░[0m   [31;40m░████[0;1;31;41m     [0;41m░[0;31;47m▓[0;31;40m███▄[0m      [31;40mm[0;1;30;40m. msg menu[0m
 [31m█▓[0;37m [0;31msh▐██[0;1;31;41m     ▒░[0;31m█████▓█▄[0m    [31mf[0;1;30m. file menu[0m
 [1;31;41m▄[0;31m██▄▄████[0;1;31;41m░░  ░ [0;31m▀▀  ░░▀█▌[0m   [1;30mor whatever[0m
-[1;31;41m▒▓▄▄[0;31m█[0;1;31;41m░[0;31m█[0;1;31;41m [0;31m██[0;1;31;41m ▄▄▓[0;31m [0m       [31m░▓[0m   [1;30mthis is a menu template for digital empire[0m
+[1;31;41m▒▓▄▄[0;31m█[0;1;31;41m░[0;31m█[0;1;31;41m [0;31m██[0;1;31;41m ▄▄▓[0;31m [0m       [31m░▓[0m   [1;30m                                          [0m
 [31m [0;1;31m▀█[0;1;31;41m▓▒▒░▄▄▓██▓[0;31m [0;37m  [0;31m░░[0m    [31m▀[0m    [1;30mand digital empire _only_.[0m
 [31m    [0;1;31m▀▀██[0;1;31;47m▓▓[0;1;31;41m███[0;1;31;40m▌░[0m                  [31m- shatters, gravity[0;37m [0;31mproductions ''96[0m
 [31m░░ [0m   [31m░▓[0;1;31;41m▀▀░▒▓[0;1;31;40m▓░▒[0m

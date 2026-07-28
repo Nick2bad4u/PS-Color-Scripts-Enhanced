@@ -5,7 +5,7 @@
 # Source SHA-256: 76c47171171f9c928b4dfb647c821719b32758473eff025b34d1185bf24b2d0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-DIST.ANS by Splatt (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Distortion
 # SAUCE Author: Splatt
 # SAUCE Group: AWE Lettering
@@ -27,7 +27,7 @@ Write-Host '
 [37m [0;31m▐▄ [0;1;31;41m▐▄[0;31m▄▄ [0;37m [0;31m [0m                      [34m▀▀▀▀[0m    [31m  [0;37m▐[0;1;34m▀[0;34m▀[0m           [34m▀▀▀[0;37m░[0;30;47m▓[0m       [31;40m▀▀▀▀▀[0;37;40m [0;34;40m ▄▄ [0m
 [37;40m [0;31;40m▐[0;1;31;41m▓▄▄[0;1;31;47m▓▓[0;31m▌[0m    [1;30m+[0;1;31mdistortion[0m                                              [34m  ▄[0;30;44m░[0;34;40m▓▌▐[0;1;34;44m▒[0;34;47m▓[0m
 [37;40m [0;31;40m▐[0;1;31;41m▓[0;1;31;47m▓▓[0;1;31;41m▓▓[0;31m▌░[0m                                                            [34m  ▐[0;1;34;44m████[0;1;34;47m▓[0;34;47m▓[0;37;40m░[0m
-[37;40m [0;34;40m [0;1;31;41m░[0;31m▀[0;1;31;41m░▒▒[0;31m▌░[0m    [1;30mTHIS IS A MENU FOR DISTORTION, RUN BY MY HOMEBOY[0m        [34m  ▐[0;1;34;44m▓▓[0;1;34;47m▓▓▒[0;34;47m▒[0;37;40m░[0m
+[37;40m [0;34;40m [0;1;31;41m░[0;31m▀[0;1;31;41m░▒▒[0;31m▌░[0m    [1;30m                                                [0m        [34m  ▐[0;1;34;44m▓▓[0;1;34;47m▓▓▒[0;34;47m▒[0;37;40m░[0m
 [37;40m  [0;31;40m▓▀[0;1;33;41m░[0;1;31;41m░░[0;31m▌[0m     [1;30mFILTH! .. SORRY IS ITS KINDA WEIRD YO, [0m [1;30mIM KINDA[0m         [34m ▐[0;1;34;44m▒[0;34m▀[0;1;34;44m▓▓[0;1;34;47m▓[0;34m▌[0m
 [37m [0;31m░[0;30;41m▒[0;34;40m [0;31;40m▄[0;30;41m░[0;31;40m▓▌[0m     [1;30;40mRUSTY .. :([0m                               [1;30m.. ST![0m          [34m▓[0;1;34;44m░[0;34m▀[0;1;34;44m▒▒▒[0;34m▌[0m
 [37m [0;31m░[0;30;41m▓[0;34;40m  [0m                                                                  [34;40m   ▀▀▀▀[0m

@@ -5,19 +5,19 @@
 # Source SHA-256: 747dd6b31e66a22ebabdb55c11e7373a1f48ce1cc598b9bb925c46ec2eee9e50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-ESP3.ANS by Rabid Doctor (esp0496); released in esp0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
             ▄███▄
 [1;31m█▀▀▀▀▀▀▀▀▀▀[0m▐█▀ ███ [1;31m█▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄[0m
-[1;31m█[0m   ▄█████▄ ▀  ▐██▌[1;31m█[0m [1;30m So here it is.. ANSi from the third ESP pack [0;1;31m▀[0m
-[1;31m█[0m  ▄███▌███▌   ▄██▌[1;31m█[0m [1;30mand still going and going and going and going[0m [1;31m█[0m
+[1;31m█[0m   ▄█████▄ ▀  ▐██▌[1;31m█[0m [1;30m                                              [0;1;31m▀[0m
+[1;31m█[0m  ▄███▌███▌   ▄██▌[1;31m█[0m [1;30m                                             [0m [1;31m█[0m
 [1;31m█[0m  ▓██▀  ▀▀▄██████▌[1;31m█▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀[0m
 [1;31m█[0m  ▒▓█▄  ▄███▀ ██▓▌[1;31m█[0m
 [1;31m█[0m   ▒▓█  ███▀  █▓▒ [1;31m█▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄   ▄▄▄ ▄▄▄▄▄▄▄▄ ▄▄▄▄[0m
-[1;31m█[0m   ░▒▓▄ ███▄  ▓▒░ [1;31m█ [0;1;30m Disses to: Energizer and Duracell - I hate all  of [0;1;31m▀[0m
+[1;31m█[0m   ░▒▓▄ ███▄  ▓▒░ [1;31m█ [0;1;30m                                                    [0;1;31m▀[0m
 [1;31m█[0m    ░▒▒  ██▓ ▒▒░  [1;31m█[0m [1;30m                                                    [0;1;31m█[0m
 [1;31m█[0m    ░░░   ▓▒░░░   [1;31m█[0m [1;30m                                                   [0m [1;31m▄[0m
 [1;31m█[0m                  [1;31m█▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀[0m

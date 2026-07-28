@@ -5,7 +5,7 @@
 # Source SHA-256: 719e2e93e8c54ffa7d261b4c2ff0b93d9564a3891fcd1a866581f66dc65b9fbf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-TMAIN.ANS by trate (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: toxic trip main menu
 # SAUCE Author: trate
 # SAUCE Group: fbk
@@ -25,7 +25,7 @@ Write-Host '
 [1;30mtr#[0;1;32;42m░[0;32m█[0;1;32m [0;33m▄[0;1;31;43m░[0;33m▀[0;1;31m▀▀[0;1;37m [0;1;37;47m▓[0;1;37;40m███[0;1;31;40m▀[0m [34m  ████▌[0;35m▐▌[0;37m [0;34m▐███████████[0;35m [0;1;35m▀▀▀[0;35m▀▀[0;37m [0;34m███▀ █▄[0;1;36m▀█[0;1;37m█[0;34m [0;37m [0;1;30micky looking nerftin[0m
 [1;30mfbk[0;1;32;42m░[0;32m█[0;37m  ▄[0;1;37;47m▄▄[0;1;37;40m█[0m [1;47m▓[0;1;40m▀██[0m [1;34;44m▓▀[0;34m▓[0;34;42m▓[0;34;40m█[0;30;44m   [0;34;40m▄[0;35;40m▀■[0;34;40m ▀██[0;30;44m               [0;34;40m██▄  █▓▀[0;1;36;40m▄[0;1;36;46m▓[0m  [1;30mfonts using shivered[0m
   [1;31m [0;32m▀▀[0;33m▄[0;37m [0;1;37;47m▓[0;1;37;40m█▀█[0m [1;47m▓[0;1;40m██[0;1;47m▓[0m [1;34;44m▓[0;34m███████████▄███████████████████▓▓▄▓ [0;1;36m██[0;1;36;46m▓[0m  [1;30moutlines and brigth[0m
-   [33m▄▀▄[0;1;31;43m░[0;1;37;40m▀▀▀▀[0m [1m▀▀▀▀[0m [1;34;44m░[0;34m█[0;30;44m toxic trip mainmenu for kraut[0;34;40m█[0;30;44m [0;34;40m█▓▄[0;32;40m [0;1;36;40m█[0;1;36;46m▓[0m  [1;30mshining color con-[0m
+   [33m▄▀▄[0;1;31;43m░[0;1;37;40m▀▀▀▀[0m [1m▀▀▀▀[0m [1;34;44m░[0;34m█[0;30;44m                              [0;34;40m█[0;30;44m [0;34;40m█▓▄[0;32;40m [0;1;36;40m█[0;1;36;46m▓[0m  [1;30m                  [0m
  [33m░▐▌[0;1;31;43m░▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█ [0;34m     ▓████████████████████▓████████████████[0;1;34;44m░[0;34m▌[0;1;36m▐▐[0m  [1;30mtrasts to create an[0m
    [33m▀[0;1;31;43m░[0;1;31;40m▀▓[0;1;31;43m▓▓[0;1;31;40m▀▀▀▀[0;1;31;43m▓[0m [34m█████████████████▀████████████████████▀[0;32m [0;1;36m█[0;1;37m█[0m  [1;30mwide open/happy at-[0m
    [32m▓▄[0;1;31m [0;33m▀[0;1;31m▀[0;33m▓▄[0m   [1;31;43m▓[0m [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄█████████▀▀▀ ▀▀▀▀▀▀▀▀[0;37m  [0;32m [0;1;36m█[0;1;36;46m▓[0m  [1;30mmosphere.[0m
@@ -41,7 +41,7 @@ Write-Host '
 [37;44m▀[0;34;40m▓ [0;1;34;40m [0;32m▀▀▓▄[0;1;32;42m░▀▀[0;32m▌▀▓[0;1;32;42m░[0;32m▀▀▄▓[0;1;32;42m▒[0;1;32;40m▄ [0;34m  [0;32m▀▀▀[0;1;32m▀ [0;32m▀▀▀[0;1;32m    [0;32m▀▀▓▄[0;1;32;42m░[0;1;32;40m▓[0;1;32;42m▀[0;32m▌▀▀▀[0;1;32m  [0;32m▀▀▀▀▄[0;1;32;42m░░[0;32m▀▀[0;1;32m▀▀▀[0m [1;30m [0m [34m▄[0;37m  [0;1;31m ███[0;1;31;43m▒[0;1;31;40m▀█[0;1;31;43m▒[0;33m▌[0;1;31m [0;34m▄[0;37;44m░[0;34;40m█[0m
 [34;40m▓▀▀▀[0;35;40m [0;34;40m  [0;1;32;40m [0;32m▀▀▀[0;1;32m [0;34m [0;37m  [0;34m  [0m    [34m [0;37mlets do da triPP [0;1;32m [0;32m▀▀▀[0;1;32m [0m mr. lover^lover..[1;30m [0m  [1;31m▀▄▄[0m [1;31m▀▀█[0;1;31;43m▓▀[0;33m▀[0;37m [0;34m▀▀▀▓[0m
 [34m█[0;1;30m [0;34m [0;1;32m [0;34m                   [0m                     [37m                    [0;37;44m░[0;37;40m   [0;1;31;40m▀▀▓▓▄[0;33m▄▀[0;37m [0;34m▀▀▓█[0m
-[34m▄[0;37m [0;1;32m [0m [1;32mj [0;32mjoin conference[0m      [1;32mr[0m [32mread msg[0m       [1;32mulby[0;32m ulby strings[0;37m   [0;37;44m▄[0;34;40m▄▄▄[0;37;40m  [0;1;31;40m▄▀█[0;33m▀[0;34m ▄▄▄▄▀[0m
+[34m▄[0;37m [0;1;32m [0m [1;32m  [0;32m               [0m      [1;32m [0m [32m        [0m       [1;32m    [0;32m             [0;37m   [0;37;44m▄[0;34;40m▄▄▄[0;37;40m  [0;1;31;40m▄▀█[0;33m▀[0;34m ▄▄▄▄▀[0m
 [37;44m▄[0m   [1;32;40m [0m [32m         [0m            [1;32m [0m [32m         [0m      [1;32m [0;32m               [0m    [30m     [0;1;31m▐▌[0m [1;31m▐▌[0;30m     [0;34m▓[0m
 [37;44m░[0m   [1;32;40m  [0;32m            [0m         [1;32m [0m [32m        [0m       [1;32m [0;32m                [0m   [37m     [0;1;31m▀ [0m  [1;31m▀[0;34m   [0;37m  [0;34m▀[0m
 [34m█[0m   [1;32m  [0;32m             [0m        [1;32m  [0;32m           [0m    [1;32m [0m [32m           [0m     [1;32m    [0;32m       [0;37m      [0;1;32;44m░[0m

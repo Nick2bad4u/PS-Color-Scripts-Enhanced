@@ -5,7 +5,7 @@
 # Source SHA-256: 9fbe3f51363eb61a3bbe501d05689cfe5ebc9787b23cc0f7489b32986e3892b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-acidunderworld.ans by Smooth + The Knight (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ACiD Underworld
 # SAUCE Author: tk and smooth
 # SAUCE Group: Fuel
@@ -24,7 +24,7 @@ Write-Host '
 [1;31m    [0;31m▄█[0m     [31m▀[0;1;31m [0;31m [0;1;30m░[0;1;31m [0m                                                [31m [0;1;30m░[0;31m [0;1;31m [0;31m▀[0m     [31m█▄[0m
 [31m   ▒ ▀▀▄▓▀▄  [0;1;31m  [0;31m [0m                                                [1;31m   [0;31m  ▄▀▓▄▀▀ ▒[0m
 [31m [0;1;30m░[0;31m▄▄▄▄[0;1;31m▄▄  [0;31m▄[0;1;31;41m▄[0;31m ▄[0;1;31m [0;31m [0;1;30m    [0m                                        [1;30m    [0;1;31m  [0;31m▄ [0;1;31;41m▄[0;31m▄[0;1;31m  ▄▄[0;31m▄▄▄▄[0;1;30m░[0m
-[1;30m [0;31m▀   ▀▀█[0;1;31;41m▀▀[0;31m▀▀▀▀█[0;1;30m░[0m     [1mEnter the chasm of the [0;1;31mACiD Underworld [0;1;30m    ░[0;31m█▀▀▀▀[0;1;31;41m▀▀[0;31m█▀▀   ▀[0m
+[1;30m [0;31m▀   ▀▀█[0;1;31;41m▀▀[0;31m▀▀▀▀█[0;1;30m░[0m     [1m                       [0;1;31m                [0;1;30m    ░[0;31m█▀▀▀▀[0;1;31;41m▀▀[0;31m█▀▀   ▀[0m
           [31m▄▄▄▀[0;1;31m  [0;1;30m    [0;1;37m                   [0;1;33m       [0;1;37m              [0m [1;30m   [0;1;31m  [0;31m▀▄▄▄[0m
          [31m▓ [0m                         [1;37m   [0;31m      [0;1;37m   [0m                     [31m ▓[0m
            [31m▀ [0;1;31m   [0;31m░▄▄[0m                                          [31m▄▄░[0;1;31m   [0;31m ▀[0m

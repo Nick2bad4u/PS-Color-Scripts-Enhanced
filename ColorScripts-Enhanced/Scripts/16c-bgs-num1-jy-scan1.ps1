@@ -5,7 +5,7 @@
 # Source SHA-256: bc09519e29a9ebeece5a4d499c7e05697f398fe0b4b5d6e7b9e8632bc74de194
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JY_SCAN1.ANS by Joy (bgs_num1); released in bgs_num1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -28,7 +28,7 @@ Write-Host '
 [33;47m▓[0;33;40m▒[0;37;40m▐█[0;1;30;47m░[0m▄ ▄█████████████████████ [1;35m░[0m  [35m░▓[0;37m ▄███[0;1;30;47m░[0m████[1;30;47m░[0m█ [35m░[0;37m █[0;1;30;47m░[0m [35m▓[0;37m [0;1;30;47m░[0m██████████[1;30;47m░[0m [35m▒[0;37m █[0;1;30;47m░[0m█████[1;30;47m▐[0;33;47m▓[0;33;40m▒[0m
 [33;47m▒[0;33;40m▓[0;37;40m▐██[0;1;37;47mInput[0m█[1;47mFile:[0m█[30;47mFILENAME.EXT[0;37;40m▄▄▐▄ [0;35;40m▒[0;37;40m ███████████▄ ▄██▄▄▄████████████▄ ▄███████[0;1;30;47m▐[0;33;47m▒[0;33;40m▓[0m
 [33;47m░[0;33;40m█[0;37;40m▐█[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mArchive[0;37;40m█[0;35;47mdate[0;37;40m██████ [0;35;40m░[0;37;40m ██████[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mScanning for viruses[0;37;40m████[0;1;30;47m▐[0;33;47m░[0;33;40m█[0m
-[37;40m█[0;33;47m▓[0;37;40m▐█[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mDepacking archive[0;37;40m█▄ ▄███[0;1;30;47m░[0m██[30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mAdding some more adverts[0;1;30;47m▐[0m█[33;47m▓[0m
+[37;40m█[0;33;47m▓[0;37;40m▐█[0;30;47m [0;37;40m████████[0;30;47m [0;1;33;47m [0;35;47m                 [0;37;40m█▄ ▄███[0;1;30;47m░[0m██[30;47m [0;37;40m████████[0;30;47m [0;1;33;47m [0;35;47m                        [0;1;30;47m▐[0m█[33;47m▓[0m
 [1;33;47m░[0;33;47m▒[0;37;40m▐█[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mEmptying the garbagecan[0;37;40m█[0;33;47m░[0;37;40m██[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mRemoving work directory[0;37;40m█[0;1;30;47m▐[0;1;33;47m░[0;33;47m▒[0m
-[1;33;47m▒[0;33;47m░[0;37;40m▐█[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mAddirg our bbs-adverts[0;37;40m██[0;1;37;47m░[0;33;47m░[0;37;40m█[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mGrabbing FILE_ID.DIZ[0;37;40m████[0;1;30;47m▐[0;1;33;47m▒[0;33;47m░[0m
+[1;33;47m▒[0;33;47m░[0;37;40m▐█[0;30;47m [0;37;40m████████[0;30;47m [0;1;33;47m [0;35;47m                      [0;37;40m██[0;1;37;47m░[0;33;47m░[0;37;40m█[0;30;47m [0;37;40m████████[0;30;47m [0;1;33;47m [0;35;47m                    [0;37;40m████[0;1;30;47m▐[0;1;33;47m▒[0;33;47m░[0m
 [1;33;47m█░[0;30;47m▌[0;1;33;47m▄[0;1;37;47m▄[0;1;33;47m▒[0;1;37;47m▄▄▄▄▄▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒▄▓[0;1;37;40m▀▒[0;1;37;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33;47m▄[0;1;37;47m▓[0;1;33;47m▄▄[0;1;30;47m▐[0;1;33;47m▓[0m▓[0m'

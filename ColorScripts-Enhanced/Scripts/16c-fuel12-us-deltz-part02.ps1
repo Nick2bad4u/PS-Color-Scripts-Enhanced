@@ -5,7 +5,7 @@
 # Source SHA-256: a82de06286bc0a6800b7d5868888bfb06404dc4eb1ee459090b5f260ae5fd0e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DELTZ.ANS by The Knight + Pinky + Napalm Death (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Delta z
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Fuel Productions
@@ -44,5 +44,5 @@ Write-Host '
 [1;30;47m▒[0m▀[1;30;47m [0;1;30;40m█▀[0m  [1;30m [0m                                                              [1;30m [0m   [1;30m▀█[0;1;30;47m [0m▀[1;30;47m▒[0m
 ▒[1;30;47m▓░▒[0;1;30;40m▓▒░[0m     [1;30m   [0m    first ansi by Pinky since Spastic in 1995    [1;30m   [0m     [1;30m░▒▓[0;1;30;47m▒░▓[0m▒
 ░[1;30m▀[0;1;30;47m▓[0;1;30;40m▓█▓▄░   [0m                                                         [1;30m  ░ ▄▓█▓[0;1;30;47m▓[0;1;30;40m▀[0m░
-  [1;30m░░▀▀█▓▄[0m       all logo shapes and touchups by The Knight(fuel)      [1;30m▓▄█▀▀░░[0m
+  [1;30m░░▀▀█▓▄[0m                                                             [1;30m▓▄█▀▀░░[0m
        [1;30m ▀▀▀█▄▄▄▄[0m                                               [1;30m▄▄▄▄█▀▀ ▀[0m'

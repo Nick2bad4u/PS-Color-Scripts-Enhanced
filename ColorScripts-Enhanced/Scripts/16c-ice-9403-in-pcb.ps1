@@ -5,7 +5,7 @@
 # Source SHA-256: f1053a001884001cc9d8128b57cefb29a8d72766e4938d18062aceb903d757e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-PCB.ICE by Incubus (ice-9403); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
             [1;33mM [0;1;32mA [0;32mI [0;1;30mN   M [0;32mE [0;1;32mN [0;1;33mU[0m                       [32m▄▀▀[0;1;32m▄[0;32m▄[0;1;32m▀[0;32m▀▀▀▄▄▐[0;1;32;42m░[0;32m▐[0;1;32;42m▒░[0;32m▄[0;1;32;42m▒[0;32m▀▄▄▀[0;1;32m▀[0;32m▀[0;1;32m▄[0m
                                                      [1;32m▄[0;32m▀  ▄▀▀▀  ▀  [0;1m▄▄▄[0;32m▀▀▄▄[0;1;32;42m▒[0;32m▀▄[0;1;32m▐[0;32m▌[0m
 [1mM[0message[1;30ms[0m                [1mM[0miscellaneou[1;30ms[0m               [1;32m▐[0;32m▌  [0;1;32m▐[0;32m▌  [0;1m▄[0;1;47m▓[0;1m▀▄█████[0;1;47m▓▓[0m▄ [1;32;42m░[0;1;32m▄ [0;32m▄[0m
-[1;30m[[0;1;36mC[0;1;30m][0;1;34mommen[0;34mt [0;1;34mt[0;34mo [0;1;34mSyso[0;34mp[0m      [1;30m[[0;1;36mCHAT[0;1;30m][0;1;34mw[0;34m/ [0;1;34mOthe[0;34mr [0;1;34mNode[0;34ms[0m        [1;32m▄    ▀ [0;1m█▀[0m▌[1m████████[0;1;47m▓▓▒[0m [1;32m▐[0;1;32;42m░[0m
+[1;30m [0;1;36m [0;1;30m [0;1;34m     [0;34m  [0;1;34m [0;34m  [0;1;34m    [0;34m [0m      [1;30m [0;1;36m    [0;1;30m [0;1;34m [0;34m  [0;1;34m    [0;34m  [0;1;34m    [0;34m [0m        [1;32m▄    ▀ [0;1m█▀[0m▌[1m████████[0;1;47m▓▓▒[0m [1;32m▐[0;1;32;42m░[0m
 [1;30m[[0;1;36mE[0;1;30m][0;1;34mnte[0;34mr [0;1;34mMessag[0;34me[0m         [1;30m[[0;1;36mG[0;1;30m][0;1;34moodby[0;34me[0m                           [1m▀[0m▄[1m███▀[0;1;34;44m░[0;34m▄[0;1m█[0;1;47m▓▓▒░[0m [1;32m▀ [0;1;32;42m░[0;32m▄[0m
 [1;30m[[0;1;36mQ[0;1;30m][0;1;34muicksca[0;34mn [0;1;34mMai[0;34ml[0m        [1;30m[[0;1;36mHELP[0;1;30m] [[0;1;34mcommand[0;1;30m][0m                 [33m▄[0;1;31;43m░░[0;33m█▄▄[0;1m▀██▄[0;1;47m▓▓▓▒[0m▀ [32m▄[0;1;32m▀[0;32m▀[0;1;32m▄[0m
 [1;30m[[0;1;36mR[0;1;30m][0;1;34mea[0;34md [0;1;34mMessage[0;34ms[0m         [1;30m[[0;1;36mI[0;1;30m][0;1;34mnitia[0;34ml [0;1;34mWelcom[0;34me[0m               [33m▐[0;1;31;43m▒░ [0;33m████▄▄[0;1m▀[0m▀▀ [33m▄▄█▄[0;32m▀▄ [0;1;32;42m░[0m
@@ -31,7 +31,7 @@ Write-Host '
                         [1;34mE[0;1;30m[[0;1;36mX[0;1;30m][0;1;34mper[0;34mt [0;1;34mMod[0;34me [0;1;34mToggl[0;34me [0;1;30m▀▄▄▀[0m             [1;36;46m▒░░   [0;36m▀█[0;36;46m [0;1;30;46m░░[0m
 [1mI[0mnformatio[1;30mn[0m             [1;30m[[0;1;36mP[0;1;30m][0;1;34mag[0;34me [0;1;34mLengt[0;34mh[0m                        [1;36m▐[0;1;36;46m░░ [0;36m█▄▄▀▀[0;1;30;46m░░▒[0;36m▌[0m
 [1;30m[[0;1;36mB[0;1;30m][0;1;34mulletin[0;34ms[0m             [1;34mColo[0;34mr [0;1;30m[[0;1;36mM[0;1;30m][0;1;34mod[0;34me[0m                         [1;36;46m▒[0;1;36m▀[0;1;34m▄[0;34m▄▄[0;1;34m▄▄[0;1;34;44m░ [0;34m▄▄[0;36m▀▀▄[0;34m▀[0;1;34;44m░[0;34m█▄[0m
-[1;30m[[0;1;36mNEWS[0;1;30m] [0;1;34mAbou[0;34mt [0;1;34mth[0;34me [0;1;34mBoar[0;34md  [0;1;30m[[0;1;36mV[0;1;30m][0;1;34mie[0;34mw [0;1;34mStat[0;34ms[0m                [1mi[0mNCUBU[1;30mS   [0;1;34m▐▄[0;1;34;44m▒░░░  [0;1;30;44m░░[0;34m▄▐[0;1;34m▐[0;1;34;44m░[0;34m█▀[0;1;30m▌[0m
+[1;30m [0;1;36m    [0;1;30m  [0;1;34m    [0;34m  [0;1;34m  [0;34m  [0;1;34m    [0;34m   [0;1;30m [0;1;36m [0;1;30m [0;1;34m  [0;34m  [0;1;34m    [0;34m [0m                [1m [0m     [1;30m    [0;1;34m▐▄[0;1;34;44m▒░░░  [0;1;30;44m░░[0;34m▄▐[0;1;34m▐[0;1;34;44m░[0;34m█▀[0;1;30m▌[0m
 [1;30m[[0;1;36mUSER[0;1;30m] [0;1;34mLis[0;34mt [0;1;34mUser[0;34ms[0m       [1;30m[[0;1;36mW[0;1;30m][0;1;34mrit[0;34me [0;1;34mYou[0;34mr [0;1;34mInf[0;34mo[0m             [1mi[0mC[1;30mE    [0;1;34m▄[0;34m▀[0;1;34m▀▄[0;1;34;44m░░   [0;1;30;44m░ ░▒[0;34m▄[0;1;34m▀[0m▄[1;47m░[0;1;30m▌[0m
 [1;30m[[0;1;36mS[0;1;30m][0;1;34mcrip[0;34mt [0;1;34mQuestion[0;34ms[0m      [1;30m[[0;1;36mT[0;1;30m][0;1;34mransfe[0;34mr [0;1;34mProtoco[0;34ml[0m              [1m▄[0;1;47m▒░░[0m▄[34m▀[0;1;34m▀▀[0;1;34;44m░[0;34m▄[0;1;34m▄▄[0;34m▀▀[0;1;30;44m░[0;34m▀[0;1;34m▄▀[0m▄[1;47m▒░[0;1;30;47m░[0m
                                                           [1m▀[0m▀▀▀▀▀[1;30m▀[0m▀[1;30m▀▀ [0;1;34m▀▀[0;34m▀▀ [0;1;30m▀▀[0m▀▀[0m'

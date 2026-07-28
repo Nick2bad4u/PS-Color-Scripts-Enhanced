@@ -5,7 +5,7 @@
 # Source SHA-256: 2ac23db5c5bc3989cc5ad9f46e22150bde234a1b200bdf5c9e5cb57355d42d7c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-FACE.ANS by Image (skl-0194); released in skl-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -58,5 +58,5 @@ Write-Host '
 
 
 [1m─────────[0;1;31m──────────[0;31m──────────[0;1;30m─────────────────────[0;31m──────────[0;1;31m──────────[0;1;37m──────────[0m
-[1;37m A[0;1;36mn[0;1;34ms[0;34mi [0;1;37mB[0;1;36my [0;1;37mi[0;1;36mM[0;1;34mA[0;34mGE [0;1;37m[[0;1;36mS[0;1;34mKi[0;34mLL]  [0;31m─────[0;1;31m──────[0;1;37m────────[0;1;31m─────[0;31m───── [0;1;37mT[0;1;36mh[0;1;34mer[0;34mes [0;1;37mP[0;1;36ml[0;1;34men[0;34mty [0;1;37mM[0;1;36mo[0;1;34mr[0;34me [0;1;37mi[0;1;36mn [0;1;37m''[0;1;36m9[0;1;34m4[0m
+[1;37m  [0;1;36m [0;1;34m [0;34m  [0;1;37m [0;1;36m  [0;1;37m [0;1;36m [0;1;34m [0;34m   [0;1;37m [0;1;36m [0;1;34m  [0;34m     [0;31m─────[0;1;31m──────[0;1;37m────────[0;1;31m─────[0;31m───── [0;1;37m [0;1;36m [0;1;34m  [0;34m   [0;1;37m [0;1;36m [0;1;34m  [0;34m   [0;1;37m [0;1;36m [0;1;34m [0;34m  [0;1;37m [0;1;36m  [0;1;37m [0;1;36m [0;1;34m [0m
 [1;37m─────────[0;1;31m──────────[0;31m──────────[0;1;30m─────────────────────[0;31m──────────[0;1;31m──────────[0;1;37m──────────[0m'

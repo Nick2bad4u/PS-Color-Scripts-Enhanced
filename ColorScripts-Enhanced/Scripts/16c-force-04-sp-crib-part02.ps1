@@ -5,7 +5,7 @@
 # Source SHA-256: 2beb2a3c0e8647812a339b2f4716cbe4821406844194e162ebf7e0b528c684e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-CRIB.ANS by Spoonman (fORCE); released in force-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Da Crib
 # SAUCE Author: Spoonman
 # SAUCE Group: fORCE
@@ -58,7 +58,7 @@ Write-Host '
                 [34m▀█▄[0m      [36m               [0;1;36m            [0;36m     [0m          [34m▓█▀[0m
                   [34m▓▄  [0;36m                                          [0;34m▀▄▌▐[0m
                  [34m▐▓▄█  [0;36m                                         [0;34m█▓█▓[0m
-                   [34m▀▀▓▄  [0;36mansee cos the board is startin up! [0;34m▄ ▄▓▀▄█▀[0m
+                   [34m▀▀▓▄  [0;36m                                   [0;34m▄ ▄▓▀▄█▀[0m
                       [34m▀▄   [0;36m                                [0;34m▄▄█▀▀[0m
                          [34m▄   [0;36m                            [0;34m▄█▀▄[0m
                            [34m■   [0;36m                       [0;34m▄ ▀▀[0m

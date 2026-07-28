@@ -5,13 +5,13 @@
 # Source SHA-256: d9d0c6a9c3a7581429f4332e4f2555c3de84df64b1f0e33c436acb21a2cc5738
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WELCOME.ANS by Tom Bradford (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
          [1m▄▄▄▄▄▄▄▄▄▄[0m             [1m▄▄[0m
-         [1m█[0m███████[1;30;47m▄[0;1;30;40m▀[0m             [1;37;40m█[0;1;37;47m ▀[0;1;30;40m▄[0m  [1;37;40mHome[0m [1;37;40mOf[0m [1;33;40mBoston[0m [1;33;40mBBS[0m [1;37;40m1.0a[0m [1;37;40mBy[0m [1;33;40mTom[0m [1;33;40mBradford[0m
+         [1m█[0m███████[1;30;47m▄[0;1;30;40m▀[0m             [1;37;40m█[0;1;37;47m ▀[0;1;30;40m▄[0m  [1;37;40m    [0m [1;37;40m  [0m [1;33;40m      [0m [1;33;40m   [0m [1;37;40m    [0m [1;37;40m  [0m [1;33;40m   [0m [1;33;40m        [0m
  [34m───────[0m [1;37m▀[0;1;30m▀▀▀▀▀▀▀[0m [34m─────────────[0m [1;37m█[0;1;37;47m  [0;1;30;40m█[0m [34m────────────────────────────────────[0m
   [1;34m──────[0m [1;37m▄▄▄▄▄▄▄▄[0m [1;37m▄▄[0m [1;34m──[0m [1;37m▄▄▄▄[0m [1;37m▄▄▄█[0;1;37;47m  [0;1;30;40m█[0;1;37;40m▄▄▄▄[0m [1;37;40m▄▄[0m [1;34;40m──[0m [1;37;40m▄▄▄▄[0m [1;37;40m▄▄▄▄▄▄[0m [1;34;40m──[0m [1;37;40m▄▄▄▄▄▄[0m [1;34;40m─────[0m
    [36m─────[0m [1;37m█[0m█████[1;30;47m▄[0;1;30;40m▀[0m [1;37;40m█[0;1;37;47m ▀[0;1;30;40m▄[0m  [1;37;40m█[0;1;37;47m  [0;1;30;47m█[0m [1;37;40m█[0;1;37;47m        [0;1;30;47m▄[0;1;30;40m▀[0m [1;37;40m█[0;1;37;47m ▀[0;1;30;40m▄[0m  [1;37;40m█[0;1;37;47m  [0;1;30;40m█[0m [1;37;40m█[0;1;37;47m     ▀[0;1;37;40m▄[0m  [1;37;40m█[0;1;37;47m     ▀[0;1;37;40m▄[0m [36m────[0m

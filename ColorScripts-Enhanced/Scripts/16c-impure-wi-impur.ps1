@@ -5,7 +5,7 @@
 # Source SHA-256: 6b4b2f2a89e189637ddcf108f1b18c654ee8ff520a4dd6f7624ddbbbb1ce382a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WI-IMPUR.ANS by White Insanity (impure); released in impure and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-15
 # Columns: 1-80
 
@@ -22,4 +22,4 @@ Write-Host '
      [1;34m   [0m    █[1;47m▐██▌[0m▌ █[1;47m███▌[0m [1;47m▀▀▀▀██████[0m█  [1;47m ▐██▌[0m▌    ▐[1;47m████▀[0m▌█[1;47m█▄[0m█▄▄▄▄▄███▀
         [1;30m░▒▓▓[0m██[1;47m▀▀▀█[0m █[1;47m ▀▀█[0m [1;33m▄▄▄▄[0;33m▄[0;37m [0;1;37;47m▀▀▀██[0m  ▐█[1;47m▀██▄[0m▄  ▄[1;47m▄███▀[0m▀ █[1;47m▐██▀[0m█▀▀▀▀[1;30m [0;1;34m▄▄▄▄▄▓▒░[0m  [1;34m░[0m
                  ▀▀▀▀     [1;33m▀▀▀[0;1;33;43m▄[0;1;33;40m▄▄▄▄▄▄▄[0;1;33;43m▄[0;33m▄[0;37m ▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀[0;1;30m▓▓▒░  [0m
-        i m p u r e                 [1;33m▀▀▀▀▀▀▀▀▀▀[0;33m▀[0;37m (so what if it''s a shitty ansi[0m'
+                                    [1;33m▀▀▀▀▀▀▀▀▀▀[0;33m▀[0;37m                               [0m'

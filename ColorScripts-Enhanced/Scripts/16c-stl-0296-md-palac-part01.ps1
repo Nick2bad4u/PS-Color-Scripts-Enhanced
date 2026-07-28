@@ -5,7 +5,7 @@
 # Source SHA-256: 5fdb413e2b25af6c460b0d5de26e89c2d8a70af8fc031bb7413b78c872349a36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-PALAC.ANS by Mendator (Stile prod.); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Palace of Darkness
 # SAUCE Author: Mendator
 # SAUCE Group: Stile prod.
@@ -16,9 +16,9 @@
 
 Write-Host '
 [35m [0;1;30m■▀▀▀▀▀▀ ▀▀▀▀▀▀▀▓▀▀▀▀■▀▀▀▀▀▀▀■▀▀▀▀▀■▀▀▀ ▀▀▀▀▀▀ ▀▀▀ ▀▀▀▀■▀▀▀■▀▀▓▀▀▀▀▓▀▓▀▀▀▀▀▀▀▀■[0m
-[35m [0;1;30m█[0m   [35m▄█▀█▀█▄[0;1;30m▀▄ [0;35m [0;1;30m░[0;35m   ▐[0;1;30;45m■▄[0;35m▄[0;1;30m▀▄[0;35m [0;1;30m [0;35m [0;1;30m█[0m    [1;30mThis ansi was made by [0;36mMendator[0;1;30m of [0;36mStile[0;1;30m![0m    [1;30m█[0m
+[35m [0;1;30m█[0m   [35m▄█▀█▀█▄[0;1;30m▀▄ [0;35m [0;1;30m░[0;35m   ▐[0;1;30;45m■▄[0;35m▄[0;1;30m▀▄[0;35m [0;1;30m [0;35m [0;1;30m█[0m    [1;30m                      [0;36m        [0;1;30m    [0;36m     [0;1;30m [0m    [1;30m█[0m
 [35m [0;1;30m▓[0;35m  ▐[0;1;30;45m▓▓[0;35m▌[0;1;30m▌[0;1;30;45m▐▓■[0;35m▌[0;1;30m▐▌[0;35m  ▄▄▄▄█[0;1;30;45m▓█[0;35m▌[0;1;30m▐▌ [0;35m [0;1;30m▓[0m                                                [1;30m▓[0m
-[35m [0;1;30m [0;35m  [0;1;30;45m▐█▓▌[0;35m▐[0;1;30;45m█▓█▌[0;35m [0;1;30m▓[0;35m █[0;1;30;45m██▌[0;35m▐[0;1;30;45m▐█▓▌[0;1;30;40m ▓ [0;35m [0;1;30m▄[0m [1;30mGreets must go to: [0;1;35mH[0;35mOSTiLE[0;1;30m,[0m [1;35mH[0;35mOSTiLE[0;1;30m,[0m [1;35mH[0;35mOSTiLE[0m
+[35m [0;1;30m [0;35m  [0;1;30;45m▐█▓▌[0;35m▐[0;1;30;45m█▓█▌[0;35m [0;1;30m▓[0;35m █[0;1;30;45m██▌[0;35m▐[0;1;30;45m▐█▓▌[0;1;30;40m ▓ [0;35m [0;1;30m▄[0m [1;30m                   [0;1;35m [0;35m      [0;1;30m [0m [1;35m [0;35m      [0;1;30m [0m [1;35m [0;35m      [0m
 [35m [0;1;30m▓[0;35m ▐[0;1;30;45m■▀█■[0;35m▌█[0;1;30;45m■█▓[0;35m▌[0;1;30m▓[0;35m▐[0;1;30;45m█■█▓[0;35m▌[0;1;30;45m■▓█■[0;35m▌[0;1;30m▐▌[0;35m [0;1;30m▓[0m                    [1;35mH[0;35mOSTiLE[0;1;30m,[0m [1;35mH[0;35mOSTiLE[0;1;30m,[0m [1;35mH[0;35mOSTiLE[0;1;35m![0m  [1;30m▓[0m
  [1;30m█[0;35m ▀▀▀▀▀▀ ▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀ [0;1;30m▀[0m [1;30m█[0m              [1;30m([0;36mhappy now hostile?[0;1;30m)[0m              [1;30m█[0m
 [1;30m ■▄▓▄▄▄▄■▄▄▄ ▄▄ ▄▄▄▄▄■▄▄▄▄▄▄▄■▄▄▄▄▄▄▓▄ ▄▄▄▄▄■■▄▄▄▄■▄▄▓▄▄■▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▓▄▄▄▄▄■[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 88b890ae7606c79c19e507c8ad907004dd0ab698a64f07ff1b1627056c6dd0c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-MCITY.ANS by cocox (opium); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: moose city logo... again..
 # SAUCE Author: cocox
 # SAUCE Group: opium
@@ -35,5 +35,5 @@ Write-Host '
 [1;30m ▄▀[0;32m▄▄  [0;33m▐▌   [0;1;30m▀▀▀▄  [0;33m▀▀▀[0;1;31;43m░▒▒▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m██▀▀▀  [0;1;30;40m▓▀  ▓ ▓▐▌ [0;31m▀█▄▄█▀▀ [0;1;30m░[0;31m▀▀ [0;1;30m▓▄▄▄▄▄▄▀▓▀▀▀▀   ▄▀ ▒▀[0;30m   [0m
 [1;30m ▒ [0;32m▀▓█▓▄[0;33m█ [0;32m▄▄█▓▄ [0;1;30m▒▀▀▀▒  [0;33m▄▄▄[0;1;31m▄▄  [0;1;30m▀▀▀▀  ▀     ▀▀       ▀▀▀▀▀            ▀▀▀▀    ▀▄[0;30m  [0m
 [1;30m  ▀▄▄ [0;32m▀ [0;33m█[0;32m▀▓█▀▀ [0;1;30m▄▓ ▄  ▓ [0;1;31;43m░░▒▓[0;1;31;40m█ [0;1;32;40m▄█[0;1;32;47m▀▀▀[0m█[1;47m [0;1;32;47m▓▀▀▀▀▀▀ ▀▀▓▀▀▒▀▀[0m█[1;32;47m▀▓▀▀▀[0m█[1;32;47m▓[0m█[1;32;47m▀▀▀[0m██[1;32;47m▒▀[0m██[1;32;47m▀[0m█████▄ [1;30m█[0;30m [0m
-[1;30m ▄   ▀▌[0;33m▐▌ [0;1;30m▄▄▄▀▀   ▓ ▄▄▄▄▄▄   [0;1;32;47m▓[0m██[1;47mwelcome to the stile whq!  -  moose city[0m████[1;34;47m▓[0;1;33;40m [0;1;30;40m▓[0;30m [0m
+[1;30m ▄   ▀▌[0;33m▐▌ [0;1;30m▄▄▄▀▀   ▓ ▄▄▄▄▄▄   [0;1;32;47m▓[0m██[1;47m                                        [0m████[1;34;47m▓[0;1;33;40m [0;1;30;40m▓[0;30m [0m
 [1;30m  ▓  ░ [0;33m█ [0;1;30m▓   ▄▄▄▒▀ ▄▄▄▄▄  ▓▄ [0m▀██[1;34;47m▄[0m█[1;34;47m▄▄▄[0m██[1;34;47m▄▄▓▄▄[0m█[1;34;47m▄▓▄▄▄▄[0m█[1;34;47m▄▄▄▒▄▄▄▄▄▓▄▄▄▄▄▄▄[0m█[1;34;47m▄▄▄▓▄█[0;1;34;40m▀[0;30m   [0m'

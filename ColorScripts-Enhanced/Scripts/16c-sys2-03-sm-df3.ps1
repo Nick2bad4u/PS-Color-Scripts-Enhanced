@@ -5,7 +5,7 @@
 # Source SHA-256: 2d1f967e26b558af714195b0b2266aef9aed95efd322e1e75e784aa9e4d0d935
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-DF3.ANS by Smoke (sys2_03); released in sys2_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -32,5 +32,5 @@ Write-Host '
     [35m▄[0;1;35;45m▄██[0;1;35;47m▓▓[0;1;35;45m█▄[0;1;35;40m▄▄▄▄[0;35m▄[0;1;35;45m▄█[0;1;35;47m▓[0;35;47m▀[0;35;40m▄[0m      [1;30;40m▀█████▀[0m                 OK
   [35m▄[0;1;35m▄█[0;1;35;45m▄█▀██████[0;1;35;40m████[0;1;33;47m▓▓[0;1;35;45m██▄[0;35m▄[0m     [1;30m▓█▀▓▄[0m
 [35m░[0;1;35;45m░▓█[0;1;35;47m▓▓█[0;1;35;45m██▄█▀█▀▀████████▀[0;35m▀[0m     [1;30m▀▀▀[0m
-[35m▓[0;1;35;45m░▓█████████▄[0;1;35;40m▄[0;35m▄▀[0;1;35m▀▀▀[0;1;35;45m▀███▓[0;35m▄[0m           [1;30m..[0m [1;30m::[[0;1;37mdownfall[0m bulletin board system soft[1;30m]::[0m
+[35m▓[0;1;35;45m░▓█████████▄[0;1;35;40m▄[0;35m▄▀[0;1;35m▀▀▀[0;1;35;45m▀███▓[0;35m▄[0m           [1;30m  [0m [1;30m   [0;1;37m        [0m                           [1;30m   [0m
 [35m░░░[0;1;30m░░[0m'

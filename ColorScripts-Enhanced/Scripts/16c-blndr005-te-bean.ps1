@@ -5,7 +5,7 @@
 # Source SHA-256: ad4d7d5e0d8595d70b7ecaa3185a82875fa143ba207eac7667cad307b3a0c1a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-BEAN.ANS by The Extremist (blndr005); released in blndr005 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -47,4 +47,4 @@ Write-Host '
              [34m▄▄▄▄▄▄██████[0;34;44m     [0;1;34;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;34m██[0m
 [34m███████████████████████████████████████████████████████████████████████████████[0m
 [34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-[34mthe extremist ░░░░░░░░░░░░ the mighty wonderland bean ░░░░░░░░░░░░░░░ mistigris[0m'
+[34m              ░░░░░░░░░░░░                            ░░░░░░░░░░░░░░░          [0m'

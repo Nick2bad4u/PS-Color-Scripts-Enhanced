@@ -5,7 +5,7 @@
 # Source SHA-256: 9b01c2801982583dabfc0d5a1689b88f02654f9dc1135210f5b1356a2bd447e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-MEKKA.ANS by blackknight (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mekka'96 promotional
 # SAUCE Author: blackknight
 # SAUCE Group: READ THE INI FILE
@@ -30,7 +30,7 @@ Write-Host '
 [1;30;40m [0;1;30;47m▒[0m      [36mM[0;37mEkkA''96[0m                                    [37m░▒▓[0;1;37;47m▒▒[0m▌  ░░  ▐[1;47m▒▒▒▒[0m ▄[1;47m▒▒▒▒▒▒[0m▄
  [1;30;47m░[0m   ·∙──────────∙·           be part of it[36m![0m           [1;37;47m░░░[0m▄    ▄[1;47m░░░░░░[0m▀    ▀[1;47m░░░[0m
 [1;40m [0m█    organized by                                      ▀[1;30;47m░░░░░░[0m▀ █[1;30;47m░░░[0m▌  ░░  ▐[1;30;47m░░[0m
-[1;30;40m [0m█     - [1mamable [0m-       contact any [1mAMABLE [0mmember if       [1;30m▄    ▐[0;1;30;47m▒▒▒▒▒[0;1;30;40m▄    ▄[0;1;30;47m▒▒▒[0m
+[1;30;40m [0m█       [1m       [0m                    [1m       [0m                [1;30m▄    ▐[0;1;30;47m▒▒▒▒▒[0;1;30;40m▄    ▄[0;1;30;47m▒▒▒[0m
 [1;30;40m [0m█   ·∙──────────∙·      you want to register [36mNOW[0;37m![0m       [37m░[0;1;30;47m▓[0;1;30;40m▌    [0;1;30;47m▓▓[0;1;30;40m▀ ▀[0;1;30;47m▓▓▓▓▓▓▓[0;1;30;40m▀▀[0m
 [1;30;40m [0m█     29th - 31st                                         [1;30m▀ ■ ▀[0m              █
  █                                   [1m            [0m                             █

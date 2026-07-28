@@ -5,7 +5,7 @@
 # Source SHA-256: 1a802d6da9230425b0f3f8a8b8c99ba81600befc64ce9921673ada6198220bda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-AVG.ANS by Cryogenic (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: For Ivan
 # SAUCE Author: Cryogenic
 # SAUCE Group: Hieroglyphics
@@ -40,7 +40,7 @@ Write-Host '
                   [34m▐▒[0;37m [0;34m▓▓▀▀▄██▄[0m       [34m      [0;37m  [0;33m░▌[0;37m [0;34m▐[0;1;34m▓▓[0;1;34;44m░[0;34m█▄▄[0m   [37m [0;33m▀▀[0;30;43m░[0;33;40m▓█[0;33;41m▄[0;33;40m▄▄[0;31;40m▄[0;30;43m▓[0;33;40m░[0;30;43m▓[0;37;40m  [0;31;40m▌[0;37;40m [0;33;40m▒[0;37;40m  [0;34;40m███[0m
                   [34;40m▐░[0m      [34;40m▀▀[0m         [34;40m      [0m     [1;34;40m▒▒[0;34m████[0;1;34;44m░▄[0;34m▄▄[0m     [33m▀▀▀▓[0;1;31;43m  [0;30;43m░[0;33;40m▄▄▌[0;37;40m [0;33;40m▓[0;37;40m  [0;34;40m▓▓▓[0m
                                               [34;40m  ▓▀▀▄███▀▀[0m   [34;40m▀[0;1;34;40m▒[0;1;34;44m▄[0;1;34;40m▄[0;34m▄[0m   [37m [0;33m▀▀[0;1;31;43m░▄[0;33m▄█[0;37m  [0;34m▒▒▒[0m
-     [37mok, this is just a little something to[0m       [34m█▀▀[0m   [34m░[0;37m [0;34m▄██[0;1;34;44m░▀[0;1;34;40m▒[0;1;34;44m▄[0;1;34;47m▀▓[0;1;34;44m▄[0;34m▄▄ [0;37m  [0;33m▀█[0;37m  [0;34m░░░[0m
-   [37msay thanks to avenging angel for all the      [0;34m▬[0m         [34m ▀▀▀██[0;1;34;44m▀▀░▄[0;1;34;47m▀[0;1;37;44m░[0;1;34;44m▓[0;34m▌[0;37m [0;33m▐[0m
-   [37msupport over the years.. keep up the good[0m        [34m░░░░░░[0m   [34m▄███▄▀▀▀▀[0m    [37m [0m
+     [37m                                      [0m       [34m█▀▀[0m   [34m░[0;37m [0;34m▄██[0;1;34;44m░▀[0;1;34;40m▒[0;1;34;44m▄[0;1;34;47m▀▓[0;1;34;44m▄[0;34m▄▄ [0;37m  [0;33m▀█[0;37m  [0;34m░░░[0m
+   [37m                                              [0;34m▬[0m         [34m ▀▀▀██[0;1;34;44m▀▀░▄[0;1;34;47m▀[0;1;37;44m░[0;1;34;44m▓[0;34m▌[0;37m [0;33m▐[0m
+   [37m                                         [0m        [34m░░░░░░[0m   [34m▄███▄▀▀▀▀[0m    [37m [0m
    [37m          [0m                                                 [34m ▀▀[0m         [33m▐[0m'

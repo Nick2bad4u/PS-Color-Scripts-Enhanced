@@ -5,7 +5,7 @@
 # Source SHA-256: ab2ccc01a2573b7adf1509d9fab47670990b35afafcfdf0c84130c208fff0aa4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: misfit-valentine.ans by Misfit (blocktronics-420); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20180213
 # SAUCE Dimensions: 80x253
 # SAUCE Font: IBM VGA
@@ -36,7 +36,7 @@ Write-Host '
     [1;30m [0m   [1;30m    ▀▄█▓▓░░░[0m          [1;30m▄[0;1;30;47m▓▓[0;1;30;40m▀ [0m          [36m■[0;37m [0;36m▌[0;37m    [0;1;30m [0m              [35m■[0;37m [0;35m▄[0;1;30m ▀██▄[0m
           [1;30m  ▌█▓░░░[0m           [1;30m██▀[0m   [35m▀[0m           [36m▌[0;37m   [0;31m♥♥♥[0m                [35m▀▄[0;37m [0;1;30m▀██[0m
          [1;30m  ▄▓▒▒░░[0m           [1;30m██[0m  [35m▄▀[0m             [36m▌[0m                       [35m▐▓░[0;37m [0;1;30m██[0m
-         [1;30m  ▌█▓▓░░[0m          [1;30m▐█▌[0m [35m▓▌[0;37m [0m     [1;30mansi by [0;36m▌[0;1;30m [0mmisfit[1;30m/[0mblocktronics[1;30m   [0m [35m▒░[0;37m [0;1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0m
+         [1;30m  ▌█▓▓░░[0m          [1;30m▐█▌[0m [35m▓▌[0;37m [0m     [1;30m        [0;36m▌[0;1;30m [0m      [1;30m [0m            [1;30m   [0m [35m▒░[0;37m [0;1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0m
          [1;30m   ░█▓░░[0m           [1;30m██[0m [35m▒░[0m              [36m▌[0m                       [35m░░[0;37m  [0;1;30;47m▒▒[0m
          [1;30m     ▓▓░░[0m           [1;30m█▓▄[0;35m░░[0m             [36m▌[0;37m [0;31m  ♥♥♥  [0m        [1;30m  [0m   [35m ░░[0;37m [0;1;30m▄[0;1;30;47m▒░[0m
 [1;30m▄▀[0m           [1;30m  █▓▓░[0m          [1;30m░▒█▓▄[0m [35m░░[0m          [36m▌[0m                  [35m░░ [0;37m [0;1;30m░▄[0;1;30;47m▓▒[0m▀

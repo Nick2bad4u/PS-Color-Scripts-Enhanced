@@ -5,7 +5,7 @@
 # Source SHA-256: 9b0f803b7c698c8e2f88a7e6ef92a2516b6585523b7fabc45b561b3c8c5c1b65
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-SPSMA.ANS by Morbid Fixation (utd-0495); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Its a joke!!
 # SAUCE Author: Morbid Fixation
 # SAUCE Font: views in ug. =) ?[0m?
@@ -15,13 +15,13 @@
 Write-Host '
                       [1;30;40m■[0m      [1;30;40m▄[0m                                         [1;30;40m▄  ■[0m
 [1;30;40m    ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄█▄▄▄[0m
-[1;30m  ▄▄██▀▀▀▀▀▀█▀▀▀▀▓▀ ▄▄▄ ▀▀▀▀██ Welp this is like kinda phunky. It is a spoof █▄[0m
-[1;30m    ██▄  ▄[0;1;30;47m░[0m [1;30;40m■ [0;1;30;47m▒[0m▄  [1;30m▄█[0;1;30;47m▓▒░░ [0m▄▄ [1;30m▀█ ansee staring Eerie as Spasticman and The   ▄ █■[0m
+[1;30m  ▄▄██▀▀▀▀▀▀█▀▀▀▀▓▀ ▄▄▄ ▀▀▀▀██                                               █▄[0m
+[1;30m    ██▄  ▄[0;1;30;47m░[0m [1;30;40m■ [0;1;30;47m▒[0m▄  [1;30m▄█[0;1;30;47m▓▒░░ [0m▄▄ [1;30m▀█                                             ▄ █■[0m
 [1;30m    ██  █[0;1;30;47m▓▒[0m▀▄▀[1;30;47m▒░[0m▌ [1;30m▐[0;1;30;47m▓▒░[0m▀[1;30;47m░   [0m▀ [1;30m█ Wizard as Twiz. This is 100% me. so you can   █[0m
-[1;30m  ■▄██ ▐[0;1;30;47m▓▒[0m▌[1;30mTek▐[0;1;30;47m▓▒[0m  [1;30;40m█[0;1;30;47m▓▒[0m▌ ▄▀  [1;30m██▀■flame me and only me for this if yer pissed. █[0m
+[1;30m  ■▄██ ▐[0;1;30;47m▓▒[0m▌[1;30m   ▐[0;1;30;47m▓▒[0m  [1;30;40m█[0;1;30;47m▓▒[0m▌ ▄▀  [1;30m██▀■                                             █[0m
 [1;30m    ██ [0;1;30;47m█▓▒░[0m   [1;30;40m█[0;1;30;47m▓▒[0m▌ [1;30m▐[0;1;30;47m▓▒░[0m■▄▄▀ [1;30m██ ················Greetos·····················▄▄█[0m
-[1;30m    █▀▐[0;1;30;47m█▓▒░[0m▌ [1;30m▐[0;1;30;47m█▓▒░[0m [1;30;47m█▓▓░[0m▌▀ [1;30m■▄██ Acid Phix. Desire. Smooth. The Wizard. Eerie  █[0m
-[1;30m    ▄▄[0;1;30;47m█▓▒░░ [0m▄[1;30m▀[0;1;30;47m█▓▒░ [0m▄▄[1;30m▀[0;1;30;47m░ [0m▄▄[1;30mmf██ Mad Bomber. and the teklordz homies =)    ▄   █▄[0m
+[1;30m    █▀▐[0;1;30;47m█▓▒░[0m▌ [1;30m▐[0;1;30;47m█▓▒░[0m [1;30;47m█▓▓░[0m▌▀ [1;30m■▄██                                               █[0m
+[1;30m    ▄▄[0;1;30;47m█▓▒░░ [0m▄[1;30m▀[0;1;30;47m█▓▒░ [0m▄▄[1;30m▀[0;1;30;47m░ [0m▄▄[1;30m  ██                                           ▄   █▄[0m
 [1;30m   ▀[0;1;30;47m██▓▒░░   [0m▀[1;30m▄[0;1;30;47m█▓▒░  [0m▀▄[1;30;47m░  [0m▀ [1;30m▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀[0m
         ▀▀▀  [1;30m▀▀▀▀▀   [0m▀▀                 [1;30m▀[0m       [1;30m▀[0m            [1;30m■[0m
 

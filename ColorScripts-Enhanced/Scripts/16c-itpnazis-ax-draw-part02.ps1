@@ -5,13 +5,13 @@
 # Source SHA-256: 34213223e929a96aa90398ac8bdfba8eb6038bb3108342e8a33f2e0cacd442a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX_DRAW.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 49-92
 # Columns: 1-80
 
 Write-Host '
 [30;46m▒[0;1;30;46m▓[0;1;36;46m▄▄[0;1;36;40m▐█[0;36;41m▀[0;1;30;46m▒[0;36m▒░[0;30m  you are not  [0;37m   [0;1;30m▒▒▒▒ [0m [30mkeep in mind that king [0m    [30;46m▓▓▓▓[0m      [1;30;40m▄[0;1;34;40m▄▄[0;35m▄▐▓[0;31m▓[0m
-[36m░▒[0;1;36;46m▐█[0;1;37;46m█▓[0;36m▒░  [0;30msupposed to see[0;37m [0;1;30m▄[0;1;37m▄▐▓[0;1;37;45m▄▄[0;1;37;40m▄[0m  [30mdiamond rules and so[0m    [1;30m▄[0;1;37m▄▐▓[0;1;37;45m▄▄[0;1;37;40m▄■■[0;1;34;40m■■▀▀▀[0;1;34;45m▒▒[0;1;37;45m▄░[0;35m▌[0m
+[36m░▒[0;1;36;46m▐█[0;1;37;46m█▓[0;36m▒░  [0;30m               [0;37m [0;1;30m▄[0;1;37m▄▐▓[0;1;37;45m▄▄[0;1;37;40m▄[0m  [30m                    [0m    [1;30m▄[0;1;37m▄▐▓[0;1;37;45m▄▄[0;1;37;40m▄■■[0;1;34;40m■■▀▀▀[0;1;34;45m▒▒[0;1;37;45m▄░[0;35m▌[0m
 [30;46m██[0;1;36;40m▀[0;1;37;46m██[0;1;37;40m▀[0;1;30;40m▀[0;36m  [0;30mthis human but  [0;37m  [0;1;30m▐[0;1;37m▓███[0;1;37;46m▄▄[0;1;37;40m▄▄▄ [0m [30mdoes ITP //alla xul[0;37m  [0;1;30m▐[0;1;37m▓███[0;1;30m▒[0m      [31m▀[0;35m▀[0;1;37;45m▐[0;1;37;46m▓[0;35m█[0m
 [1;37m  [0;1;30m▐[0;1;37;46m▓[0;1;37;40m██[0;34m▄[0;1;30m▄▄▄[0m                  [1;37m▐[0;1;37;45m▄[0;1;37;40m██▀▀   [0m  [34m▄▄[0;1;37m▄▄[0m        [30;46m▓▓▓▓▓▓▓▓▓[0;37;40m [0;1;37;40m▐[0;1;37;45m▄[0;1;37;40m█[0;1;37;46m▌[0;1;30;40m▌▄▄  [0m  [1;37m  [0;1;37;45m█[0;1;37;46m▌[0;35m▌[0m
 [1;37m▓▓[0;1;30m▐[0;1;37;46m▓[0;1;37;40m██░[0;1;37;44m▓▓[0;1;37;40m██▓▓▓▓▓▓▓▓▓▓▒▒░░▒▒[0;1;30;40m▐[0;1;37;40m▓██▌▓▓▓▒▒▒▄[0;1;37;44m▓██[0;1;37;40m█▌▒▒▒▒▒░░▒▒▒▒▒▒▓▒▒[0;1;30;40m▐[0;1;37;40m▓██[0;1;37;45m▌[0;1;30;40m█[0;1;37;40m▓▓▓█▓[0;1;37;45m███[0;1;37;44m█[0;1;37;41m▒[0;31m▌[0m

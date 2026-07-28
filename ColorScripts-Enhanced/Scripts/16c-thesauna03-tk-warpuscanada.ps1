@@ -5,7 +5,7 @@
 # Source SHA-256: 2d4bcfa3b0d57ae6d1425d5d5d58a6912efc95a9b1c5faffbbae57126c2a6ffe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-warpuscanada.ans by the knight (sauna); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: warpus for prezi
 # SAUCE Author: the knight
 # SAUCE Group: sauna
@@ -37,5 +37,5 @@ Write-Host '
 [1;37;44m  [0;34m▓▓[0;37m [0;1;37;44m▄██████▀[0;1;37;40m▀[0m    [1;44m▀███████▌ [0;34m▓░ █████████████████████████████████████████████████[0m
 [34m▓▓▌[0;37m [0;1;37;44m▐████▀▀[0m    [1;44m▄[0m    [1;44m▀█████▌ [0;34m▓▒ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;37;44m [0m  [1;44m███▀[0m     [1;44m▄▄███▄[0m    [1;44m▀███▌ ███████[0;1;47m█[0;1;44m███████████████████████████████████████████[0m
- [1;44m▄█▀[0m    [1;44m ▄█████████▄[0m    [1;44m▀█▌ █[0;1;47mthis message is endorsed by those who endorse    [0;1;44m█[0m
+ [1;44m▄█▀[0m    [1;44m ▄█████████▄[0m    [1;44m▀█▌ █[0;1;47m                                                 [0;1;44m█[0m
 [1;44m [0;34m▄▄▄▄▄▄[0;1;37;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m   [1m▀[0;1;44m▌ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

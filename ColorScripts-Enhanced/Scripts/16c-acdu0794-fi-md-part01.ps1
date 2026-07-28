@@ -5,7 +5,7 @@
 # Source SHA-256: ff45ecafebec0a7a4316856fcbf5d7cb5fefbd334e8f576a0becefd5b36cbb9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FI-MD.ANS by Forbidden Image (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Moral Decay
 # SAUCE Author: Forbidden Image
 # SAUCE Group: ACiD Productions
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-   [36m░    [0;30mAll hidden comments by   [0;1;33m▄▄▄▄▄███████▄▄▄▄▄[0m           [36m░  [0;30mGet the new[0m
+   [36m░    [0;30m                         [0;1;33m▄▄▄▄▄███████▄▄▄▄▄[0m           [36m░  [0;30m           [0m
 [30m    [0;36m░   [0;30mSinned Soul <ACiD>[0;1;33m▄▄▄█████████████████████████▄▄▄[0m     [36m░  [0;30mSTP!  or DIE![0m
      [36m░[0m               [1;33m▄▄█████████████████████████████████████▄▄ [0;36m░[0m
       [36m▒[0m            [1;33m▄[0;1;33;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▄[0m        [36m░[0m

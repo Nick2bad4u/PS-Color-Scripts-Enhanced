@@ -5,7 +5,7 @@
 # Source SHA-256: 49a3ac3bcf442fe9b1bd3cb79da0a861986c08d26554893f2dace34e3eb85041
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SG-MDCYA.ANS by Sonofagun (Stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: See Ya!
 # SAUCE Author: Sonofagun
 # SAUCE Group: Stile
@@ -44,7 +44,7 @@ Write-Host '
  [1;30mbut now I added[0m   [1;30m█[0;1;32m [0;1;30m░░▒▓[0;33m  [0;1;37;47m░[0;33m [0;1;30m░░[0;1;32m [0;1;35m▄[0;1;35;45m▒[0;35m▀[0;1;32m  [0;1;30m▄[0;1;30;47m▓▒▒▓[0;1;35;40m▐▌[0;1;32;40m [0;1;30;40m░▒▓▒░[0;1;32;40m [0;1;37;47m░[0;1;32;40m [0;1;30;40m░▒▓▒░ █[0m   [1;30msome weed :)[0m
  [1;30maround for ages,[0m   [1;30m█[0;1;32m [0;1;30m░░▒▓[0;33m [0;37m▐▌[0;1;30m░[0;1;32m [0;1;35m▐[0;1;35;45m▓[0;1;32;40m [0;1;30;40m░▒[0;1;32;40m [0m▐[1;30;47m░░▒[0;1;31;40m [0;1;35;40m█[0;1;35;45m█[0;1;32;40m [0;1;30;40m░▒▒░ [0m▐▌[1;32m [0;1;30m░▒░[0;1;32m  [0;1;30m█[0m [1;30m [0m [1;30mme chillin'' with[0m
  [1;30mI''ve had it lying[0m   [1;30m▀▄[0;1;32m [0;1;30m░▒▓[0;1;32m [0m▐[1;32m  [0;1;35m▐[0;1;35;45m▓[0;1;35;40m▌[0;1;32;40m [0;1;30;40m░▒[0;1;32;40m [0;1;30;47m▒▒▓[0;1;35;40m▐[0;1;35;45m▓██[0;1;32;40m [0;1;30;40m░▒░[0;1;32;40m [0m▌[1;32m [0;1;30m░░ [0;1;32m [0;1;30m▄▀[0m  [1;30m a self portrait of[0m
- [1;30mof my first ansis, [0m   [1;30m▀▄▄[0;1;32m [0;1;30m [0m ▌[1;30m░[0;1;32m [0;1;35;45m▓▒[0;1;35;40m▄[0;1;32;40m  [0;1;30;40m░▐▀[0;35m▄[0;1;35;45m▒▓▓██[0;1;32;40m [0;1;30;40m░[0;1;32;40m [0m▐[1;32m [0;1;30m [0;1;32m [0;1;30m▄▄▀[0m    [1;30mthe baseball cap is[0m
+ [1;30m                   [0m   [1;30m▀▄▄[0;1;32m [0;1;30m [0m ▌[1;30m░[0;1;32m [0;1;35;45m▓▒[0;1;35;40m▄[0;1;32;40m  [0;1;30;40m░▐▀[0;35m▄[0;1;35;45m▒▓▓██[0;1;32;40m [0;1;30;40m░[0;1;32;40m [0m▐[1;32m [0;1;30m [0;1;32m [0;1;30m▄▄▀[0m    [1;30m                   [0m
  [1;30mThis is actually one   [0m  [1;30m▀▀▄▄▄[0;1;32m  [0;1;35m▀[0;1;35;45m▓▒░[0;35m▄▄█[0;1;35;45m░▒▓[0;1;35;40m▀[0;1;32;40m  [0;1;35;40m▀[0;1;32;40m [0;1;30;40m▄▄▄▀▀[0m  [1;30m [0m [1;30mbtw: the loser wearing[0m
                                [1;30m▀▀▀ ▄[0;35m▀▀▀▀▀[0;1;30m▄▄▄▀▀▀▀[0m
                                   [1;30m     [0;1;30;47m▓[0;1;30;40m        [0m

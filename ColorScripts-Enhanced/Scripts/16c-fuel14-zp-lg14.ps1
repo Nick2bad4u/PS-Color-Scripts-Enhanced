@@ -5,7 +5,7 @@
 # Source SHA-256: af360855c478e95048164ff58e64f13dcd7b6657670cc8b0ba659f6289a5331e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZP-LG14.ANS by zippy (fuel); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo for fuel 14
 # SAUCE Author: zippy
 # SAUCE Group: fuel
@@ -36,5 +36,5 @@ Write-Host '
 
 
 [37;40m  [0;1;30;40m▄[0m
-[1;30m▀▀█▀▀▀▀▀▀"zp.  i guess you dont fit in with the uNF crowd"-nd[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
+[1;30m▀▀█▀▀▀▀▀▀                                                    [0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
   [1;30m█[0m'

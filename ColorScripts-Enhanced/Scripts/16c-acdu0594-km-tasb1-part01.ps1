@@ -5,7 +5,7 @@
 # Source SHA-256: 3ece7c3c528a87e19b3961937ef68049cef022954c2a37c660a15a1e5519b51b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KM-TASB1.ANS by King Midas (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Armageddon Support BBS
 # SAUCE Author: King Midas
 # SAUCE Group: ACiD Productions
@@ -27,7 +27,7 @@ Write-Host '
 [30mREL [0;1;33m▐[0;1;33;43m▓▓▓[0m  [1;30;40m▄█▀[0;1;33;40m▄▀[0;1;30;40m▄█▀ ▀█▄[0;1;33;40m▀  [0;1;30;40m▀   [0;1;33;43m▓▓▓[0;1;33;40m▌   [0;1;30;40m└ [0mKM-TASB1.ANS [1;30m┘ [0mSize:35K [1;30m┘ [0mT A S B [1;30m┘[0m
 [1;30m─── [0;1;33m███▌   [0;1;30m▀█▄█▀[0m     [1;30m▀█[0m      [1;33m▐███ [0;1;30m─────────────────────────────────────────────[0m
 [30miC![0;1;33m▐███▄▄▄▀[0;1;30m▄▄▀ [0mPicture[30mm [0;1;30m▄▄[0;1;33m▀▄▄▄███▌ [0mGreets:
-   [1;33m█████▀[0;1;30m▄█▀  [0mmixed and[30mt [0;1;30m▀█▄[0;1;33m▀█████ [0mSK: You''re losing it man, two wins in a row
+   [1;33m█████▀[0;1;30m▄█▀  [0m         [30m  [0;1;30m▀█▄[0;1;33m▀█████ [0m                                           
   [1;33m▐███▀[0;1;30m▄█▀  [0mmatched from   [1;30m▀█▄[0;1;33m▀███▌ [0mXerobe: Here you go dude... Enjoy!
   [1;33m██▀[0;1;30m▄█▀ [0m                    [1;30m▀█▄[0;1;33m▀██  [0m                                      
 [1;30m▄[0;1;33m▐▀[0;1;30m▄█▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀█▄[0;1;33m▀▌[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: a8adbf3b5171f7285668777a5ebd4b4783235d3510774f3c7511ddff1c2daaee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-MYLOVEGOODBYE.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hello My Love
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30;47m██[0;1;32;40mtree[0;1;37;40m time [0mdeath [1;31mroots[0;33m [0;1;35msky[0;30;47m█[0;37;40mhello, my love. and my love, goodbye[0;30;47m████████████████[0m
+[30;47m██[0;1;32;40m    [0;1;37;40m      [0m      [1;31m     [0;33m [0;1;35m   [0;30;47m█[0;37;40m                                    [0;30;47m████████████████[0m
 [30;47m██[0;1;37;40m██[0;1;37;102m▌▌[0;32;107m█[0;1;32;107m████[0;1;37;102m▌▌[0;1;32;43m▓▓[0;32;107m▌▌▌▌▌▌▌▌▌[0;1;32;43m▓▓▓[0;1;37;102m▌▌▌[0;1;32;107m▄[0;1m████[0;1;32;107m▄[0;1;37;102m▌▌▌▌▌▌▌▌▌▌[0;32;107m││[0;1;32;107m│││││[0;32;107m│[0;1;32;107m│││[0;1;37;102m▌▌▌▌▌[0;1m████████████[0;1;33;107m▒▒▒[0;1m█[0;30;47m██[0m
 [30;47m██[0;32;107m█████[0;1;37;102m▌▌[0;1m█[0;1;32;107m██[0;32;107m█[0;32m█[0;32;102m▀[0;32;43m▀[0;33;40m█[0;1;37;40m█[0;1;32;43m▓[0;1;32;107m█[0;1;36;102m▄[0;1;36;42m▄[0;32;107m█[0;32;43m▄[0;32;107m▄▀▀[0;32;102m▀[0;32;107m▌▌▌▌▌▌▌▌▌▌[0;1m████[0;32;107m▌▌▌▌▌▌▌▌▌▌▌[0;1;37;102m▌▌[0;1m█████[0;1;33;107m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30;47m██[0m
 [30;47m██[0;1;32;43m▓[0;1;32;107m▄[0;33;107m▄[0;1;32;43m▓[0;1;32;107m▄▄▄▄[0;1;42m▀[0;32;107m▄[0;32;43m▀[0;33;107m▄[0;33m█[0;33;43m▀[0;1;37;40m███[0;1;37;102m▌[0;32;43m▄▄[0;1;32;42m▄[0;1;32;107m█████[0;1;32;43m▓▓[0;1;37;102m▌[0;1;32;107m████[0;1;37;102m▌▌▌▌[0;1;32;107m▄▄▄▄▄││││││││││││[0;32;107m│││││││││││││││[0;1;35;107m▒▒▒[0;1;33;107m▒[0;1;35;107m▒▒▒[0;30;47m██[0m

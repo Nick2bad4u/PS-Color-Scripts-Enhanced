@@ -5,7 +5,7 @@
 # Source SHA-256: fb1543cf1367b762e224c95ddc09b6a6abd8a37047a32cd775747d3401ffbe70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-INFER.ANS by Rimgale (Shiver); released in shv-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Inferno
 # SAUCE Author: Rimgale
 # SAUCE Group: Shiver
@@ -44,7 +44,7 @@ Write-Host '
 [1;37m▓█▓[0;1;30m▐▓▌[0;1;37m▐▀[0m■▀▀ [1;30m▄▌[0;1;37m▀▓▄[0m▀▀▀■[1m▄[0m▀▀▓▄■[1m▄[0m▀■▀▀[1m▄▓▀▄▓▀▄▄ [0m▀▀[1m▄██▓▄▄■ [0;1;30m▄▄■▀▀■[0;1;37m▓▀[0;1;30m▄▄▄■[0;1;37m▀▌[0;31m▐▄■▄[0;1;31;41m░░[0;31m▌▄■[0;1;37m▄▓▀▓██[0m
 [1;37m▐██▄[0;1;30m▀▓▄▄▓▄▄▓▀▀▓▄■[0;1;37m▀▓▀▀▀▓▀▄▄▓▄▓▀▓▄▓▄▀▄▀▓▀[0;1;30m■▀▀▓▄▄[0;1;37m▀▀[0;1;30m▄▄▓▀▀ ▀▓██▄▓▀[0;1;37m▄▄▓▀[0;31m■▄▀[0;1;31;41m░[0;31m▐[0;1;31m▐[0;1;31;41m▒░[0;31m▌[0;1;37m▐▓▄▀▓██[0m
 [1;37m ▀▓█▓▄▄[0;1;30m▀▀▀[0;1;37m▄▄▓█▄▄██▌ r[0mu[1;30mnning [0;1;37mt[0mw[1;30mo [0;1;37mf[0ma[1;30mst [0;1;37mn[0mo[1;30mdez ▀▀▀▀[0m        [1;30m▀▀▀ [0;1;37m▀▀▀▓▌[0;1;30m▐▄[0;31m▀[0;1;31;41m▓[0;1;31;40m■▀▀[0;31m▀[0;1;30m▄▌[0;1;37m▄▓▀▓██[0m
-[1;37m    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀  t[0mh[1;30me [0;1;37ms[0mt[1;30maff [0;1;37mi[0ms [1mD[0mi[1;30mzzy [0;1;37mD[0mo[1;30mc, [0;1;37mD[0me[1;30msign, [0;1;37mN[0mi[1;30mke [0;1;37mH[0mu[1;30mnter [0;1;37m▄[0;1;30m▀[0;1;30;47m▓[0m▄▄▓[1;30;47m░▒▓[0m [1;37;40m▓█▓██▓[0m
+[1;37m    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀   [0m [1;30m  [0;1;37m [0m [1;30m    [0;1;37m [0m  [1m [0m [1;30m    [0;1;37m [0m [1;30m   [0;1;37m [0m [1;30m      [0;1;37m [0m [1;30m   [0;1;37m [0m [1;30m     [0;1;37m▄[0;1;30m▀[0;1;30;47m▓[0m▄▄▓[1;30;47m░▒▓[0m [1;37;40m▓█▓██▓[0m
 [1;37;40m▓██▓▄▀▄▓▀▄▀▓▓▄▀▓▄■▄ T[0mg[1;30ma [0;1;37mM[0me[1;30mmber [0;1;37mB[0mo[1;30mard[0m       [1;37m■▄▓█▓▄▄▀▓▄▀▓▄▀▓▄▓▀▓▄█▓▌[0;1;30m▐[0;1;30;47m▓░░▒▓[0;1;30;40m▌[0;1;37;40m▐█████▌[0m
 [1;37;40m█▓▀▓▄▀▓▄▓▀▓▄▀▓▀▓▄▀▓ o [0;1;30;40m- 3 [0;1;37;40md[0ma[1;30mys [0;1;37ml[0mi[1;30mmited [0;1;37mw[0ma[1;30mrez [0;1;37m▀▓▄▓▀▓▄▓▀▄▓▀■▄▓▀▓█▓▀[0;1;30m▄[0;1;30;47m▓░[0m█[1;30;47m░░▒▓[0;1;30;40m▄[0;1;37;40m▀██▓▀[0m
 [1;30;40m─  ─ ───[0m─[1;30m──[0m─[1;30m─[0m─────────────────────────────────────[1;30m─[0m──[1;30m─[0m─[1;30m── ── ─ [0;1;37m▀▓▄[0;1;30m▀▓[0;1;30;47m▓▒░[0;1;30;40m▓▀[0;1;37;40m▄▓▀ [0;1;30;40m─[0m──

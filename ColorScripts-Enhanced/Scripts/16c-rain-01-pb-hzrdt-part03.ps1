@@ -5,7 +5,7 @@
 # Source SHA-256: be100b7815e012c64562514f4ffb6bdad11db1d712279a71258e64b3c6bbff03
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PB-HZRDT.ANS by Point Blank (rain-01); released in rain-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 80-126
 # Columns: 1-80
 
@@ -51,7 +51,7 @@ Write-Host '
 
 [1;37m▄▄▄▄▄[0m▄▄[1m▄[0m▄[1m▄[0m▄▄▄[1;30m▄[0m▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄▄▄[0m  [1;30m▄[0m  [1;30m▄▄[0m   [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄[1;30m▄▄[0m▄▄[1m▄[0m▄▄▄[1m▄[0m▄[1m▄▄▄▄▄[0m
 
-   [1;30m▄▀▀▀▀▄[0m [1;30m▄▀▀▀▀▄[0m         [1;30m  [0m   [1;30m░[0m  Hazardous Transport [1;30m↔[0m Sysop: FiREWALKER [1;30m↔[0m
+   [1;30m▄▀▀▀▀▄[0m [1;30m▄▀▀▀▀▄[0m         [1;30m  [0m   [1;30m░[0m                      [1;30m↔[0m                   [1;30m↔[0m
    [1;30m█[0m  [1;30m▄▄▀ █[0m  [1;30m▄▄▀ [[0mRAiN[1;30m][0m   [1;30m [0m   [1;30m▒[0m  ViSiON-X .99D [1;30m↔[0m i486DX-33 [1;30m↔[0m 20 meg o'' ram [1;30m↔[0m
    [1;30m▓[0m [1;30m▀  [0m  [1;30m▓[0m [1;30m▀▄ [0m               [1;30m▓[0m              [1;30m↔[0m                     [1;30m↔[0m        
    [1;30m▒[0m      [1;30m▒[0m  [1;30m ▀▄[0m [1;30m [0m [1;30m [0m          [1;30m█[0m                   [1;30m↔[0m                        

@@ -5,7 +5,7 @@
 # Source SHA-256: 4ac41dc9006a6b72419415a8413cdfb2fb60e5161ad610d313b59ac340004197
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NC-CORE.ANS by Necrolyte (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Core Dump
 # SAUCE Author: Necrolyte
 # Lines: 1-19
@@ -27,6 +27,6 @@ Write-Host '
 [30;40m   [0;35;40m▓▓▓▄▄▄[0;30;45m▒▒[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▒▒[0;35;40m▄▄░░▄▄▄[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▓▄   ▄▄[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▄▄▄░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░▄░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m▄▄▄▄▄▄[0;30;45m░[0m
      [35;40m██[0;1;35;45m░░▒▒[0;35m████[0;30;45m░[0;35;40m▀▀▀▀▀▀▀▀▀▀▀█[0;37;45m░░[0;35;40m█[0;37;45m░[0;35;40m███[0;1;35;45m░▒[0;35m▌[0m     [35m▀▀[0m     [35m▀▀▀▀▀[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▓██[0;37;45m░[0;30;45m░[0;35;40m▓▀▀▀  ▀ ▄▄[0m
 [35;40m  ▀ ▀▀▀██[0;30;45m░[0;35;40m░[0m                  [35;40m▀▀▀▀[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▀▀▀ ▀ ░[0;30;45m▓[0m [35;40m▒ ▓█▄█▓▄  ▄▄▄▄▒▒    ▄▄▄[0;30;45m░[0;35;40m█[0;1;35;45m░▒[0;35m▀▀▀▀▀[0m
-               [35m░   ░[0;30;45m▓[0;35;40m░  ░ [0;1;30;40mawesomly[0;35m░[0;1;30mshitty font by[0;35m▒[0;1;30mnecrolyte[0;35m░[0;30;45m▓[0;1;30;40mhumid> [0;35m▀▀▀   ▀[0m
+               [35m░   ░[0;30;45m▓[0;35;40m░  ░ [0;1;30;40m        [0;35m░[0;1;30m              [0;35m▒[0;1;30m         [0;35m░[0;30;45m▓[0;1;30;40m       [0;35m▀▀▀   ▀[0m
                                   [35m░[0m
       [1;33m> d[0m     [1;33mu[0m                 [1;33mm[0m                          [35m░[0;30;45m▓[0m           [1;33;40mp[0m'

@@ -563,11 +563,12 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.finalAudit.failedFiles, 56);
     assert.equal(checkpoint.finalAudit.functionalContactExceptions, 1);
     assert.equal(checkpoint.finalAudit.sourceFidelityLockedScripts, 21);
+    assert.equal(checkpoint.archiveState.reviewedAnalysisExceptions, 422);
     assert.equal(checkpoint.removals.adultContentWorks, 21);
     assert.equal(checkpoint.policyReview.adultTaggedWorksRetained, 9);
     assert.equal(checkpoint.policyReview.adultTaggedScriptsRetained, 13);
-    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 34574);
-    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23760);
+    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 36203);
+    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23783);
     assert.equal(
         checkpoint.contentCleanup.highConfidenceGeometryRowsRemoved,
         767
@@ -576,10 +577,22 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.contentCleanup.residualContentRowsRemoved, 6);
     assert.equal(checkpoint.contentCleanup.residualGeometryRowsRemoved, 77);
     assert.equal(checkpoint.contentCleanup.contactOrPromotionalRowsBlanked, 646);
-    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 614);
+    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 2243);
     assert.equal(
         checkpoint.contentCleanup.residualMixedTextTrailingRowsRemoved,
-        1
+        24
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass2FilesRedacted,
+        755
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass2RowsBlanked,
+        1629
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass2TrailingRowsRemoved,
+        23
     );
     assert.equal(checkpoint.removals.residualAdvertisementWorks, 8);
     assert.equal(checkpoint.removals.residualAdvertisementScripts, 27);

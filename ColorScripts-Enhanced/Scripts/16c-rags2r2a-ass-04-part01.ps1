@@ -5,7 +5,7 @@
 # Source SHA-256: b71ecad27b29a5302dc09ea68c3fd5a5410386f03ec7759900bee0f8fe307cbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASS-04.ANS by ASS (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: "Soul Assassin .. rAG nUMBAH fOUR?"
 # SAUCE Author: ASS
 # SAUCE Group: .rAGS 2 rICHES.
@@ -18,7 +18,7 @@ Write-Host '
       [1m▄▄▄██████████████▄▄[0m
     [1m██▀▀▀[0m  ▄██▀ ▀██▄   [1m▀▀█[0m         [1;47m▓▓▓▓▓▓▓▓▓▓███[0;1;40m██████▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m  [1m▄▄ [0m [1m▄[0m [1m▄[0m
     [1m▀▀███▄[0;1;47m▄▄▄[0;1;40m▄▄▄▄▄[0;1;47m▄▄▄[0;1;40m▄[0m             [1;47m▒[0;1;40mHi everybody, I''m proud to present you [0m
-       ▄█[1;47m▀▀[0;1;40m▀▀▀▀▀▀▀▀▀[0;1;47m▀▀▀[0;1;40m██▄[0m         [1;47m░[0mmy[1m [0mfirst ansi with more then 100 lines
+       ▄█[1;47m▀▀[0;1;40m▀▀▀▀▀▀▀▀▀[0;1;47m▀▀▀[0;1;40m██▄[0m         [1;47m░[0m  [1m [0m                                   
    [1m █▄[0;1;47m▄[0m██▀[1m [0m          ▀█[1;47m▄[0;1;40m██[0m         [1;47m░░░░░░░░░░         [0;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄██▄▄██▄[0;37;40m [0;30;47m▄[0m
    [37;40m▄█[0;1;37;47m▀▀[0;1;37;40m████████████████[0;1;37;47m▀▀[0m█▄                            Soul Assassin/SAD
 

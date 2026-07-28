@@ -5,7 +5,7 @@
 # Source SHA-256: f515bcb9b3d3c6ed36bae35e3719bfcd92fb33fd9114498f73172f18939ea6f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-ST.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: suicidal tendencies
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -17,8 +17,8 @@
 # Columns: 1-80
 
 Write-Host '
- [30;46min all th[0;36;40m▀▀▀▀█▄▄   ▄▄[0;30;46me[0;36;40m▌[0;30;46mwrong places[0;36;40m▓▐▓▀▀   [0;1;30;40m▄▄▄▄[0m    [36m▀█[0;30;46mb[0;36;40m▐[0;30;46mut the onl[0;36;40m▐[0;30;46my thing that[0m
- [30;46mseems[0;36;40m█▀[0m        [36;40m▀[0;30;46mto cha[0;36;40m▌[0;30;46mnge are the l[0;36;40m▐  [0;1;30;40m▄███▀▀▀▀▀█▄▒[0m [36m▀▓▐[0;30;46mooks on th[0;36;40m▐[0;30;46meir faces..[0;36;40m█[0m
+ [30;46m         [0;36;40m▀▀▀▀█▄▄   ▄▄[0;30;46m [0;36;40m▌[0;30;46m            [0;36;40m▓▐▓▀▀   [0;1;30;40m▄▄▄▄[0m    [36m▀█[0;30;46m [0;36;40m▐[0;30;46m          [0;36;40m▐[0;30;46m            [0m
+ [30;46m     [0;36;40m█▀[0m        [36;40m▀[0;30;46m      [0;36;40m▌[0;30;46m             [0;36;40m▐  [0;1;30;40m▄███▀▀▀▀▀█▄▒[0m [36m▀▓▐[0;30;46m          [0;36;40m▐[0;30;46m           [0;36;40m█[0m
 [37;40m [0;30;46m░░[0;36;40m█▓▒[0m            [36;40m▀████▌[0;30;46mdoesn''t anyon[0;36;40m [0;1;30;40m▐▓█▀▀▀▀▀▀▀▀▄▄▄[0m   [36m▐[0;30;46m░seems li[0;36;40m▀▀   ▀▀[0;30;46mke noon[0m
  [36m██▌░    [0;33m▄█▓▄▓░    [0;36m░▓██▌[0;30;46mcares at all[0;36;40m▌[0;37;40m [0;1;30;40m█[0m             [1;30m▀▓[0m [36m▐[0;30;46m■seems [0;36;40m▀   [0;33;40m▄▄▄▄[0;37;40m   [0;36;40m▀[0;30;46m■[0;36;40m█[0;30;46mon[0m
  [30;46m23[0m     [1;31;43m░▒▓░░[0;33m██▌    [0;36m░▓▓▌[0;30;46me cares at a[0;36;40m▌[0;37;40m    [0;33;40m▄█[0;37;43m░░░[0;33;40m█▄▄    [0;1;30;40m▐[0m [36m▐[0;30;46mll see[0;36;40m▌   [0;1;31;43m░▒▓[0;1;31;40m███[0;1;31;43m▓[0;33m▄[0;37m  [0;36m▄[0;30;46mms[0m

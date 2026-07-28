@@ -5,7 +5,7 @@
 # Source SHA-256: 214d72bb65a0998b4a36e920b0ef951123283951052cea88aa6b0943cdfa4306
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM-KBS.ANS by Lichmistress (kbsart03); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -33,5 +33,4 @@ Write-Host '
 [35m [0;36m▐██▀[0;35m [0;36m██[0;35m   [0;36m▀[0;37m  [0;1;36m▄[0m [1;30m▐[0;35m   [0;1;36;46m▓▒[0m    [1;36m▀[0;35m [0;1;36m▄[0;36m [0;35m   [0;1;36m▌[0;35m  [0;1;36m█▄[0m    [36m▄[0;1;36m▄▀▌[0;36m [0;35m  [0;1;36m▀[0;1;36;46m▓▓[0;36m▌[0;37m [0;1;30mkibosh  [0m  [36m▐[0;1;36;46m▒[0;36m▄[0m    [1;36m▓▓▓[0;35m [0;1;30;45m▓[0;1;30;40m█▀[0m
 [35m [0;36m█▄[0m    [36m▀[0m     [1;36;46m▓▒[0m [36m   ▀[0;1;36;46m▒[0;36m▀▄▀[0;35m   [0;1;36;46m▓▒[0;36m▌▄▀[0;35m   [0;1;36;46m▒▓[0;35m [0;1;36m▀[0;36m▄[0;35m [0;1;36m▓▓[0;36m▀[0m    [36m▀▀▄▀[0;1;36;46m▒[0m  [1;30m III  [0;36m ▐[0;35m  [0;1;36;46m░░[0;36m▀▄[0m    [36m▀[0;35m [0;1;30m▀▄█[0m
 [35m [0;36m██▀▄[0;35m  [0;36m [0;35m [0;36m■[0;37m [0;1;36m  [0;1;36;46m▒[0;36m▌▄[0;1;36m▀[0;36m [0;1;36m   [0;1;36;46m░[0;36m█[0m    [36m▐▀█[0m    [36m▐▀▄[0;35m  [0;36m▐[0;35m  [0;36m▀▌[0m       [36m▀[0;35m [0;36m▀▄[0;35m [0;36m [0m     [1;36m▀[0;35m   [0;36m▀▌[0m    [36m▀[0;35m  [0;36m■[0m
-      [36m▀[0m       [36m▀[0m       [36m▀[0;35m   [0;36m▄▀[0;35m  [0;36m▀[0;35m   [0;36m▀▀[0m       [36m▀ [0m             [1;36m▀[0;36m▌[0m
-[36m----------[0;37m [0;1;36mkibosh[0;36m [0;1;36mlogo[0;36m --------- [0;1;36mlichmistress[0;36m ----------------------- [0;1;36mgen&kbs[0;36m --[0m'
+      [36m▀[0m       [36m▀[0m       [36m▀[0;35m   [0;36m▄▀[0;35m  [0;36m▀[0;35m   [0;36m▀▀[0m       [36m▀ [0m             [1;36m▀[0;36m▌[0m'

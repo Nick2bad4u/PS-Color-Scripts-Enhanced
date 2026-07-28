@@ -5,7 +5,7 @@
 # Source SHA-256: 869b72ec002605742c565f32758cc3a06469fa15453f362b860e082412842a70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-VAPOR.ANS by psYchoholic (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Vapor Promo Ansi
 # SAUCE Author: psYchoholic
 # SAUCE Group: Vapor
@@ -25,7 +25,7 @@ Write-Host '
 [37m [0;1;30m   ▓▒░░ [0;1;33;43m▒░░░░[0m [33m▐██[0;1;33;43m░░[0;30;43m▐[0;1;30;40mh[0;30;43m▌[0;1;33;43m░[0;30;43m   ▐[0;37;40m [0;30;43m▄ [0;1;33;43m░░▒[0;1;30;40m ░░▒▓   [0m   [33mevil e: make me an 800!![0m
 [37m [0;1;30m   ▐▓▒░░[0;30;43m▌[0;1;33;43m░[0;30;43m   [0;33;40m█▀▀▀▀[0;37;40m  [0;1;30;40mo[0;30;43m▌    ▐[0;37;40m  [0;30;43m█▄▄▄[0;1;30;40m ▀▀▀[0m   [1;30m [0m   [33mprofessa booty: did you have fun[0m
 [37m [0;1;30m   ▐▓▒░░[0;30;43m▌    ▐[0m      [1;30;40mh[0;30;43m▌    ▐[0m   [30;43m▀▀ [0;1;30;40m ▄▄▄[0m   [1;30m [0m                   [33mat camp? =)[0m
-[37m [0;1;30m   ▓▒░░ [0;30;43m    [0;1;33;43m░[0m       [1;30mo[0;30;43m▌    [0;33;40m▌[0;37;40m [0;1;33;43m░[0;30;43m    [0;1;30;40m ░░▒▓   [0m   [33mprism: thanks for the advice for [0m
+[37m [0;1;30m   ▓▒░░ [0;30;43m    [0;1;33;43m░[0m       [1;30m [0;30;43m▌    [0;33;40m▌[0;37;40m [0;1;33;43m░[0;30;43m    [0;1;30;40m ░░▒▓   [0m   [33m                                 [0m
 [37m [0;1;30m   ▓▒░░ [0;30;43m  [0;1;33;43m░░░[0m [1;30m     [0m [1;30ml[0;33m▐[0;1;33;43m░░░░[0;33m▌[0;37m [0;1;33;43m░░░[0;30;43m  [0;1;30;40m ░░▒▓   [0m          [33mthe top[0;37m [0;33mof this ansi[0m
 [37m [0;1;30m   ▓▒░░ [0;1;33;43m░░░░░[0;30;43m▐[0;1;30;40m░[0m     [1;30mi[0;1;33;43m▒▒▒▒▒░[0;36m [0;33m▐[0;1;33;43m░░░░[0;1;30;40m ░░▒▓   [0m   [33mg.b.k. & j.r.k.: my neighbors who[0m
 [37m [0;1;30m  ▐▓▒░░[0;30;43m▌[0;1;33;43m░░░░▒▒▓▓[0m    [1;30mc[0;1;33;43m▓▓▓▓▓▓▒[0;33m▄[0;1;33;43m▒▒▒░[0;33m▌[0;1;30m░░▒▓▌  [0m                    [33mhelped me out [0m

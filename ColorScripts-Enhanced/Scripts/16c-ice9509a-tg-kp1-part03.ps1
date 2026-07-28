@@ -5,7 +5,7 @@
 # Source SHA-256: 91b97c28198cd106b9970668e36fbb21d16558070a34356429a3196e57cb21e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-KP1.ICE by TooN GooN (iCE); released in ice9509a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Kerplunk
 # SAUCE Author: TooN GooN
 # SAUCE Group: iCE
@@ -22,8 +22,8 @@ Write-Host '
                                                  [34m▄██ ▄▄[0;1;34;44m▄███▄[0;34m█▀█▄█▀[0;1;34m▀[0;34m▀[0;37m [0;34m▄[0;1;34m▄▄▄[0;36m▄[0;1;34;46m▀█▄▄[0;1;34;40m█[0;34m░[0m
                     [34m▄▄[0;31m [0m       [34m░[0m               [34m▄▄[0;37m  [0;34m▀▀██▀▀[0;1;34m▀[0;34m▀[0;37m [0;31m   [0;34m▄▄██[0;1;34;44m▄[0;1;34;40m▄▄▄[0;1;34;44m▄[0;1;34;40m█[0;1;34;46m▀███[0;1;34;40m██[0;1;34;44m▀[0;34m [0m
                          [34m▀▀▀[0;37m  [0;34m░[0;37m [0;34m▄▄▄▄▄▄▄▄▄▄[0;37m  [0;34m▀▀▀▀▀[0m       [31m  [0;34m▄██▄███[0;1;34m████████████[0;1;34;44m▀[0;34m [0m
-[30msorry[0;1;30m [0;30mfri,[0;1;30m [0;30mfor[0;1;30m [0;30mthe[0;1;30m [0;30mlittle[0;1;30m [0;30mansi..[0;1;30m [0;30mbut[0;1;30m [0;30mi just[0;1;30m [0;30mhaven''t[0m      [34m███████[0;1;34m██[0;1;34;46m▀▒[0;1;34;40m████████[0;1;34;44m▀[0;34m [0;37m [0;34m░[0m
-[30mbeen[0;1;30m [0;30min[0;1;30m [0;30ma[0;1;30m [0;30mdrawing[0;1;30m [0;30mmood[0;1;30m [0;30min[0;1;30m [0;30ma[0;1;30m [0;30mlong[0;1;30m [0;30mtime.[0;1;30m [0;30mi[0;1;30m [0;30mhope[0m           [34m▄[0;1;34;44m█[0;34m██████[0;1;34;44m▀█[0;1;34;46m▄[0;1;34;44m██████████▄[0;1;34;40m▄[0;1;34;44m▓[0m
+[30m     [0;1;30m [0;30m    [0;1;30m [0;30m   [0;1;30m [0;30m   [0;1;30m [0;30m      [0;1;30m [0;30m      [0;1;30m [0;30m   [0;1;30m [0;30m      [0;1;30m [0;30m       [0m      [34m███████[0;1;34m██[0;1;34;46m▀▒[0;1;34;40m████████[0;1;34;44m▀[0;34m [0;37m [0;34m░[0m
+[30m    [0;1;30m [0;30m  [0;1;30m [0;30m [0;1;30m [0;30m       [0;1;30m [0;30m    [0;1;30m [0;30m  [0;1;30m [0;30m [0;1;30m [0;30m    [0;1;30m [0;30m     [0;1;30m [0;30m [0;1;30m [0;30m    [0m           [34m▄[0;1;34;44m█[0;34m██████[0;1;34;44m▀█[0;1;34;46m▄[0;1;34;44m██████████▄[0;1;34;40m▄[0;1;34;44m▓[0m
 [30myou[0;1;30m [0;30mlike[0;1;30m [0;30mit[0;1;30m [0;30manyways..[0;1;30m [0;30m:)[0m                      [31m [0;37m [0;34m▀[0;37m [0;34m▄▄[0m   [34m▄████████[0;1;34;44m▄█[0;1;34;40m▀▀[0;34m▀[0;1;34m▀[0;1;34;44m▀████████▀[0m
                                                  [34m▄[0;1;34;44m▄[0;34m██▄█████▀▀[0;31m   [0;1;34m▄[0;1;34;44m█▀[0;1;34;40m▀▀▀▀▀▀[0;34m▀[0m     [34m░[0m
                                     [34m▀█▄[0m         [34m▄███████▀▀▀▀[0;31m [0m

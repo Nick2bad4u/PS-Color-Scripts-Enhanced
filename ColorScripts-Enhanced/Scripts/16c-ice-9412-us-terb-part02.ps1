@@ -5,7 +5,7 @@
 # Source SHA-256: 42611bc92a63b6dc9fdaf4716b140ab57cbe385daa3b5ed011d1ef79e53bef0b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TERB.ICE by Lord Soth + Stone The Crow (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 36-70
 # Columns: 1-80
 
@@ -20,7 +20,7 @@ Write-Host '
 [1;30m  [0m                                [33m░░░▒▒▓▓▓▓▓[0;1;33;43m  ░░░░░░▒▒▓▓▓█[0;1;33;40m████▀ [0m    [1;33;41m▒[0;31m█▐██▓[0;30;41mstc[0;31;40m█[0;1;33;41m▒[0m
                                                                     [1;33;41m▓[0;31;41m█[0;31;40m██[0m [31;40m▀▌███[0;1;33;41m▓[0m
                                                                     [1;33m█[0;31m▌██[0m  [31m▌[0;37m [0;31m█[0;37m [0;1;33m▀[0m
-[1;30m   [0m   [1;30m▄▄▄▄▄▄   [0m    [1;30mPic by Lord Soth.  Font by Stone the Crow.▄▄▄▄▒▒░[0m [31m▌[0;37m [0;31m█[0;37m [0;31m  [0;1;30m▄▄▄░[0m
+[1;30m   [0m   [1;30m▄▄▄▄▄▄   [0m    [1;30m                                          ▄▄▄▄▒▒░[0m [31m▌[0;37m [0;31m█[0;37m [0;31m  [0;1;30m▄▄▄░[0m
      [1;30m░▒▄▄▄░░▒▒▓▓██████▄▄▄▄▄▄▄▄▄▄[0m             [1;30m▄▄▄▄▄▄▄▄▄█████████▓▒░▄▒░[0m [1;30m▄▄[0;1;30;47m▓[0;1;30;40m█▓▓▒▒░[0m
      [1;30m░▒▓▓███▄▄░▒▓▓██████████████████[0;1;30;47m█[0;1;30;40m█████████████████████████▓▒░▐▓█[0;1;30;47m▓▒░▒▓[0;1;30;40m█▓▓▒▒░[0m
 [1;30m▄▄[0m    [1;30m░▒▓▓██▓▒▓▄░▒▓██████████████████████████████████████████▓▒░[0m [1;30m▓█[0;1;30;47m▓▒░▒▓█[0;1;30;40m▓▓▒▒░[0;1;33;40m░[0m

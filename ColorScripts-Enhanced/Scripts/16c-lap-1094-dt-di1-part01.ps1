@@ -5,7 +5,7 @@
 # Source SHA-256: 34b51ec35a4de6ff51675879f9c52b69dcbe38d61f7b515367b8b8970505f1bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-DI1.ANS by Delirium Tremens (Lapse); released in lap-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Deadly Intoxication
 # SAUCE Author: Delirium Tremens
 # SAUCE Group: Lapse
@@ -16,8 +16,8 @@
 
 Write-Host '
 
-[1m    [0;1;30m░[0;1;36;46m▓█[0;1;36;47m▓▒[0;1;36;40m▄ [0;1;30;40m░[0;1;36;46m░▒▓[0;1;36;47m█▓▒░ [0m  [1;30;40mThis is a Delirium Tremens [Lapse] Production.[0m
-[1;30;40m    ░░[0;1;36;46m▓█[0;1;36;40m▀[0;1;36;47m▓▒[0;1;30;40m░[0;36m▀[0;1;30m░░[0;1;36;46m▓[0;1;36;47m█[0;1;30;40m░░[0m▀  [1;30mLapse is a group of artists, coders, and musicians[0m
+[1m    [0;1;30m░[0;1;36;46m▓█[0;1;36;47m▓▒[0;1;36;40m▄ [0;1;30;40m░[0;1;36;46m░▒▓[0;1;36;47m█▓▒░ [0m  [1;30;40m                                              [0m
+[1;30;40m    ░░[0;1;36;46m▓█[0;1;36;40m▀[0;1;36;47m▓▒[0;1;30;40m░[0;36m▀[0;1;30m░░[0;1;36;46m▓[0;1;36;47m█[0;1;30;40m░░[0m▀  [1;30m                                                  [0m
      [1;30m░[0;1;36;46m▒▓[0;1;30;40m░[0;1;36;40m▐[0;1;36;47m▓[0;1;36;40m▌  [0;1;30;40m░[0;1;36;46m▒▓[0m     [1;30;40m                                              [0m
      [1;30;40m░[0;1;36;46m░▒[0m [1;30;40m░[0;1;36;46m█[0;1;36;47m▓[0m  [1;30;40m░[0;1;36;46m░▒[0m     [1;30;40m                                         [0m
      [1;30;40m░[0;1;30;46m [0;1;36;46m░[0m [1;30;40m░[0;1;36;46m▓█[0m  [1;30;40m░[0;1;30;46m [0;1;36;46m░[0m     [1;30;40m                                             [0m

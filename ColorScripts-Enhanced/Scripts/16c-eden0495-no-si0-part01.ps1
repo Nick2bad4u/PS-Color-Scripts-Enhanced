@@ -5,7 +5,7 @@
 # Source SHA-256: 9cf9ba87be3e5d87a2e64d28ad9206de75e4dd622e8509608be429824673e8fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NO-SI0.ANS by Nosferatu (EDEN); released in eden0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Spectral Illusion
 # SAUCE Author: Nosferatu
 # SAUCE Group: EDEN
@@ -22,13 +22,13 @@ Write-Host '
 ─[1;30m─ [0;36m▓ [0;1;30m─[0m─[1;30m─ [0;36m▄ [0;1;30m─[0m──[1;30m─[0;36m▐▌▀[0;1;37m▐[0;1;37;46m▒░ [0;36m▐▌[0;1;37m▐[0;1;37;46m▒░[0;36m▌[0;1;30m─[0m─────────── ───  ──   ─    ·
  [36m▄▐▌ ▄▀▀▀▐▌▄▄▄▄▀[0;1;37m■▄[0;1;37;46m▓▒░[0;36m▀▀  [0;1;37;46m▓▒[0;36m▌[0;1;37m▀[0;1;37;46m▓▒░ [0;36m▓▒░[0m                                    [36m░▒▓█[0;1;37;46m░▒▓[0m
 [36m▐▌▀ ▐▌    ▀   [0;37m▄▄[0;1;37m▀▀▀[0;36m▄   ░  [0;1;37;46m▓▒[0m [1;37;40m▐▄[0m       NO-SI0.ANS ─ nosferatu.eden ''95        [36m▄█[0m
- [36m▀▄▄▀█▄[0m         [36m▄[0;36;46m  [0;1;37;46m░[0;36m▌ ▄▒   [0;1;37;46m▓[0;1;37;40m▌ [0;1;37;46m■[0;36m▀ [0;37mspectral illusions ad #0 for agent orange  [0;36m▀[0;1;37;46m■[0;36m█[0m
-    [36m▐▌▌▀▀[0m       [1;37;46m■ ░▒[0m  [36m▐▓▄   [0;1;37;46m▓[0m [1;37;40m▐[0;36m█▄[0;37mif you feel real bored, drop me a line on [0;36m▄██[0;1;37;46m▄[0m
+ [36m▀▄▄▀█▄[0m         [36m▄[0;36;46m  [0;1;37;46m░[0;36m▌ ▄▒   [0;1;37;46m▓[0;1;37;40m▌ [0;1;37;46m■[0;36m▀ [0;37m                                           [0;36m▀[0;1;37;46m■[0;36m█[0m
+    [36m▐▌▌▀▀[0m       [1;37;46m■ ░▒[0m  [36m▐▓▄   [0;1;37;46m▓[0m [1;37;40m▐[0;36m█▄[0;37m                                          [0;36m▄██[0;1;37;46m▄[0m
 ░ [36m▄▄▀▐▌    [0;1;37m░    [0;36m▐[0;1;37;46m░▒[0;36m▌  [0;1;37;46m■▄[0;36m▌   [0;1;37m▐ ▀[0;36m█▓▒░  [0;37mmy board, dor ( dôr ) with none o''  [0;36m░▒▓███[0m
 [37m░[0m     [36m▀    [0;1;37m▒[0m     [1;37;46m▒▓[0m  [36m▀ ▀    [0;1;37m▐ ▐[0;36m▌▄    [0;37m                                      [0;36m▄▐[0;1;37;46m▀█[0m
 ▒░     [1m░   ▓    ▐[0;1;46m▓[0;1;40m▌[0m         ▌[1m▄[0;1;46m▓░[0;36m▓▒░  [0;37mmidnight sorrow''s oh so wonderful   [0;36m░▒▓██[0;1;37;46m▄[0m
-▓▒░   [1m▄▒▌ ▄[0;1;47m▀[0;1;40m▌  [0m▄ [1m█[0;1;46m▓[0;1;40m▐▄▄[0m     █ [1m▐[0;1;46m▓▒[0m  network, infinet.  find me in any of the  [1;46m■▀▀[0m
-█▓▒░  [1m▐▓█▄▐[0;1;47m▐[0;1;40m█▄▓[0m▌▀ [1m▀█[0m▀▀█▄▄▀▀ [1m▄▀[0;36m▀[0;1;37;46m░[0;36m▒░  [0;37msci-fi, movie/tv, or artwork bases.   [0;36m░▒█▀▀[0m
+▓▒░   [1m▄▒▌ ▄[0;1;47m▀[0;1;40m▌  [0m▄ [1m█[0;1;46m▓[0;1;40m▐▄▄[0m     █ [1m▐[0;1;46m▓▒[0m                                            [1;46m■▀▀[0m
+█▓▒░  [1m▐▓█▄▐[0;1;47m▐[0;1;40m█▄▓[0m▌▀ [1m▀█[0m▀▀█▄▄▀▀ [1m▄▀[0;36m▀[0;1;37;46m░[0;36m▒░  [0;37m                                      [0;36m░▒█▀▀[0m
 [37m██▀▄─[0;1;30m─ [0;1;37m█▀▐▓▀  ▒ [0;1;30m─[0m────[1;30m─ [0m▀■ [1;30m─[0m───────────────────────── ───  ──   ─   ·
 [1;30m              [0;1;37m░[0;1;30m                                                                [0m
            ·    ─   ──  ─── ───────────────────────────────────────────────────

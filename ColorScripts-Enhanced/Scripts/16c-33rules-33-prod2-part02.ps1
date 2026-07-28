@@ -43,7 +43,7 @@ Write-Host '
 
 [1;30m[0;30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m                 [30m▄[0m
 [30m   ▄▄▄▄▄▄[0m     [30m▄▀▀░  [0;1;34m                                        [0m
-[1;34m [0;30m▄█████▀▀██  ▀▄    [0;1;34mjust check it and you will understand why[0m        [30m█[0m
+[1;34m [0;30m▄█████▀▀██  ▀▄    [0;1;34m                                         [0m        [30m█[0m
 [30m░███  █▄▄▄▀▀ ░▐▌[0m                                                [30m█░ █[0m
 [30m░███▄▓████▀░█ ░█ PPPPP░  RRR[0m       [30mOOO    DDD   ░I    GGGGGG I  █ ██[0m
 [30m░███▓ ▀▀▀  ▀  ▐█ PP   P R░ RRR   OO ░ OO  D  DDD II  G  ░    II  █   eruca[0m

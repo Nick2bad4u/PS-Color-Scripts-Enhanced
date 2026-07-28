@@ -5,7 +5,7 @@
 # Source SHA-256: 03e1eb2a769bf6f4358eadd4f8fa6e389aac7cbf87418ca5ebd3d64869b4c623
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CE-DMNA.ANS by celestian (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dmna screen
 # SAUCE Author: celestian
 # SAUCE Group: odium
@@ -33,7 +33,7 @@ Write-Host '
 [1;36;46m▒[0;36m▀ [0;33m▀▀■ ▐[0;1;31;43m▒▓[0;1;31;40m█ [0m■ [33m▄▄[0;1;31;43m▒▒▓▓[0;33m▄[0;1;31m▄▄[0;1;31;43m▓[0;1;31;40m▌[0;1;30;40m░ [0;33m▀[0m                [36mthis is the main menu screen[0m
 [36m▌▄ ▀   [0;33m▀[0;1;31;43m▓▓[0;1;31;40m▌ ▄[0;1;31;47m▓[0;1;31;43m▓▓▓▓▒▒░░[0;1;31;40m▀▀[0;1;30;40m░█[0;1;30;47m▓[0m [1;30;40m░[0m               [36mfor the demolition app gen![0m
 [36m▄[0;1;36;46m▒[0;36m▀▀ [0;1;34;44m▒[0;34m▄  [0;1;31m▀■▐[0;1;31;43m▒▒░[0;1;31;40m▀[0;33m▀▀ce![0;1;37m▄▄[0m▄ [1;30m▓[0m
-[1;36;46m░[0;36m▀ [0;34m▌▀[0;1;34;44m░[0;1;34;46m▓[0;1;34;40m▄ [0m▐  [1;31m▀  [0m▄[1;47m▒[0;1;40m▓ ▀[0;1;47m▓▒░[0m▌ [1m▄ [0;1;30;47m▓[0m              ansi by: celestian(ce!) of Odium!
+[1;36;46m░[0;36m▀ [0;34m▌▀[0;1;34;44m░[0;1;34;46m▓[0;1;34;40m▄ [0m▐  [1;31m▀  [0m▄[1;47m▒[0;1;40m▓ ▀[0;1;47m▓▒░[0m▌ [1m▄ [0;1;30;47m▓[0m                                               
 [36m▌ [0;1;34;44m░▒[0;1;34;40m▄ ▀ [0;1;37;40m▄[0;1;37;47m▒░[0m▄ ▄[1;47m░▒▓[0;1;40m▀▀  ▓[0m▀ [1m▀▌[0;1;30m░  [0;1;30;47m▒[0m
 [1;30;40m [0;34m▀[0;1;34;44m▒[0;1;34;46m▓[0;1;34;40m▀ [0;1;30;40m─────-────────────────-──────────────────────-──────────────────-────────[0m
 [1;34;44m░[0m [1;34;40m▀[0;1;34;44m▓[0m [1;30;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

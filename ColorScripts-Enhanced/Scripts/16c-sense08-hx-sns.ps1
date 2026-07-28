@@ -5,7 +5,7 @@
 # Source SHA-256: 6ad7843fed20273853800ab9a7f6789d2d0853cc935e7c03d5b987865609f9a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HX-SNS.ANS by HeXD (Sense); released in sense08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Da Beeg Ess...
 # SAUCE Author: HeXD
 # SAUCE Group: Sense
@@ -27,12 +27,12 @@ Write-Host '
 [1;36;40m█▐██[0m [30;42m▀ ▀[0;1;31;40m▐████████[0;1;31;41m▓▒░[0;30;41m▀▀▀[0;37;40m [0;30;42m▄▄[0;37;40m  [0;30;42m▀  ▄[0;37;40m [0;30;42m▌  ▄[0;30;46m▌▐[0;36;40m█[0;37;40m [0;36;40m                                     [0m
 [32;40m█[0;37;40m [0;1;36;40m▀[0m [30;42m▀  ▐[0;30;46m▀[0;1;31;40m▀██████[0;1;31;41m▓[0;1;31;40m██[0;1;31;41m▓▒░[0;30;41m [0;1;31;41m░[0;30;41m [0;1;31;41m░[0;30;41m ▀▀▀▀[0;37;40m  [0;30;42m▄  ▐[0;30;46m▌▐[0;36;40m█[0m
 [32;40m█[0;30;42m▌▀    ▀[0;30;46m█▄▀[0;37;40m [0;1;31;40m▀▀▀▀█[0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▓▒░[0;30;41m  [0;1;31;41m░[0;30;41m [0;1;31;41m░[0;30;41m    ▀[0;30;42m▌  [0;30;46m▌▐[0;36;40m█[0;37;40m [0;36;40mI would like to take this Moment to[0m
-[32;40m█[0;37;40m [0;30;42m▄[0;1;30;40m▄▄[0;30;42m▄[0;1;32;42m▀[0;30;42m [0;1;32;42m▄[0;30;42m▀[0;37;40m [0;30;46m▄[0;1;32;40m▐██[0;30;46m▌[0;37;40m [0;1;32;40m▄▄[0m [1;31m▀▀▀[0;1;31;41m▓▒░[0;30;41m  [0;1;31;41m░[0;30;41m     ▐[0;30;42m▄ [0;30;46m▌▐[0;36;40m█[0;37;40m [0;36;40mThank everyone that has helped me with[0m
+[32;40m█[0;37;40m [0;30;42m▄[0;1;30;40m▄▄[0;30;42m▄[0;1;32;42m▀[0;30;42m [0;1;32;42m▄[0;30;42m▀[0;37;40m [0;30;46m▄[0;1;32;40m▐██[0;30;46m▌[0;37;40m [0;1;32;40m▄▄[0m [1;31m▀▀▀[0;1;31;41m▓▒░[0;30;41m  [0;1;31;41m░[0;30;41m     ▐[0;30;42m▄ [0;30;46m▌▐[0;36;40m█[0;37;40m [0;36;40m                                      [0m
 [1;30;40m█▐███▌[0m  [30;42m▄[0;1;32;42m▀▄[0;1;32;40m▄██▌[0;30;46m▌▐[0;1;32;40m▐██▌[0;30;46m ▀▀[0;37;40m [0;30;41m▄▄[0;1;31;41m░[0;30;41m       [0;30;42m▌▐[0;1;30;46m▄[0;30;46m▐[0;36;40m█[0;37;40m [0;36;40mThe Scene.. [0m
 [1;30;40m█▐██[0m [30;41m▀  ▀[0;37;40m [0;30;42m▌[0;1;32;40m███[0m [30;46m [0;37;40m [0;1;32;40m██[0;1;32;42m█[0;30;46m▌  ▄▄[0;37;40m [0;30;41m▌        [0;30;42m▌[0;30;46m▌[0;1;30;46m█[0;30;46m▐[0;36;40m█[0;37;40m [0;36;40mScrye> thanks man.. at first i know I[0m
 [1;30;40m█▐█▌[0;30;41m▌    ▐[0;1;32;40m███▌[0;30;46m▌▐[0;1;32;40m▀▀▀[0m [30;41m▀▀▀▀          ▐[0;1;30;40m▄[0;30;46m [0;1;30;46m▐[0;1;30;40m▌█[0m [1;30mSucked, But you let me in Sense anyways[0m
-[1;30m█▐█[0m [30;41m      ▀[0;37;40m [0;1;32;40m▀[0m  [30;41m▀▀                ▄[0;37;40m [0;1;30;40m█[0;1;30;46m▌█[0;30;46m▐[0;36;40m█[0;37;40m [0;36;40mrw> if it wernt for you. I wouldnt have[0m
-[1;30;40m█  ▌[0;30;41m▌                          ▄[0;30;47m█[0;1;30;40m▄██[0;1;30;46m██[0;30;46m▐[0;36;40m█[0;37;40m [0;36;40mGone to RCA in the first place. Thanx:)[0m
+[1;30m█▐█[0m [30;41m      ▀[0;37;40m [0;1;32;40m▀[0m  [30;41m▀▀                ▄[0;37;40m [0;1;30;40m█[0;1;30;46m▌█[0;30;46m▐[0;36;40m█[0;37;40m [0;36;40m                                       [0m
+[1;30;40m█  ▌[0;30;41m▌                          ▄[0;30;47m█[0;1;30;40m▄██[0;1;30;46m██[0;30;46m▐[0;36;40m█[0;37;40m [0;36;40m                                       [0m
 [1;30;40m█    [0;30;41m▄                       ▄[0;37;40m [0;1;30;40m▄████   █[0m [1;30m                                     [0m
 [1;30m█  ▀█▄▄[0;30;47m█[0;30;41m▄▄▄             ▄▄▄[0;37;40m [0;1;32;40m▄[0m [1;30m▀████░ ░ █[0m [1;30mDay 1, i dont think P0T would have gone[0m
 [1;30m█  ░▀███[0;1;32m▐█▄▄▄▄[0;30;46m█[0;1;30;40m▄[0;30;46m█[0;30;41m▄▄▄[0;30;47m█[0;1;30;40m▄▄▄[0m [1;32m▀████▄[0m [1;30m██hx░  █[0m [1;30manywhere without at least 1 persons [0m

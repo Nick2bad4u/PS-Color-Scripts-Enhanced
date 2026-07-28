@@ -5,7 +5,7 @@
 # Source SHA-256: 0b2f31e26344704cf98ad5200d2f9093e90b14af364c9fd1405a9f95b9ffae01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-DUNG2.ANS by Smooth (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dungeon II
 # SAUCE Author: Smooth
 # SAUCE Group: ACiD Productions
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;30m ▀▀▓█▄█▀▀▀▀▀ ▀▀▀▀▀█[0m [31m▄▄[0m [1;30m▀██▓▄██▀▀▀█▓▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀██▓▀▀[0m
- [1;30m▀▓[0m [1;30m▀█▀[0m [31m█[0;31;45m▀▀[0;35;40m▀▀████[0m [1;30;40m█▄[0m [31m▄▀[0;35m▄[0m [1;30m▀█▀[0m [35m▄▄█[0m [1;30m█[0m  [1;30m▓[0m [1;37mA[0mnutha [1mc[0mool [1mA[0mNSi [1mb[0my [1mS[0mmooth [1mo[0mf [1mA[0mCiD  [1;30m▒█▄▓[0m
+ [1;30m▀▓[0m [1;30m▀█▀[0m [31m█[0;31;45m▀▀[0;35;40m▀▀████[0m [1;30;40m█▄[0m [31m▄▀[0;35m▄[0m [1;30m▀█▀[0m [35m▄▄█[0m [1;30m█[0m  [1;30m▓[0m [1;37m [0m      [1m [0m    [1m [0m    [1m [0m  [1m [0m      [1m [0m  [1m [0m     [1;30m▒█▄▓[0m
 [1;30m ▄[0m  [1;30m███[0m [31;45m░▀[0;35;40m█[0m [35;40m▀▀▀▀▀[0;1;30;40m░▓█[0m [31;45m█▄[0;35;40m▄▀▄[0m [35;40m▄▀███[0;1;30;40m░██[0m          [1;37;40mA[0mNSi [1mP[0mroductions [1m1[0m994         [1;30m█▀[0m [1;30m▄[0m
 [1;30m▓█[0m      [35m▀▀▀▀▀▀[0;1;31;45m▀▓[0;35;41m▓[0;1;30;40m░[0m  [35m [0;1;31;45m▀▓[0;35;41m▓[0m  [35;40m▀[0m [35;40m [0;1;31;45m▀▓[0;35;41m▓[0;1;30;40m░[0m [1;30;40m▀▀▀[0m [1;30;40m▀[0m  [1;30;40mFreefall taken from GEN 13 #4  ▀[0m [1;30;40m▀▀[0m  [1;30;40m█[0m
 [1;30m▐▓█[0m [1;37m███[0;35m █[0;1;31;45m░[0;35m█ [0;1;37m█[0m [35;41m░[0;1;31;45m▒[0;35;41m▒[0;37;40m █[0;1;37;40m█[0m [35;41m░[0;1;31;45m▒[0;35;41m▒[0;37;40m █[0;1;37;40m██[0m [35;41m░[0;1;31;45m▒[0;35;41m▒[0;37;40m █[0;1;37;40m██████████████████████████████████████████[0m [1;30;40m█▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 9f7f4fc8fb5c0ae45ec16bc4bdfdfca69485ac36b384a7c87c39fc48bcb16425
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AE-TF1.ANS by Alter Ego (ACiD Productions); released in acdu1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Terra Firma
 # SAUCE Author: Alter Ego
 # SAUCE Group: ACiD Productions
@@ -58,6 +58,6 @@ Write-Host '
          [37mI see her body beneath the   [0;1;33m▀[0;1;33;43m█▓▓[0;33m▀[0;1;33m▐[0;1;33;43m▓▒░[0;33m█▒[0;1;33m▀█[0;1;33;43m▓▓▒▒░[0;33m▀▄▓█▓▒▓▒░░░░ ░[0m
      [1;30m│ [0mice. Traveling past me in a      [1;33m▀▀ ▐[0;1;33;43m▓▒░ [0;33m▓▒▄▌██▄▄▓▓▒▒▒░░░  ░[0m
        [37mcorpse''s mock backstroke, through    [0;1;33m█[0;1;33;43m▓▒░[0;33m█▓█▓▓█▓▓▒▒░░░ ░[0m
-       [37mthe currents of blood that mimick[0m     [1;33m█[0;1;33;43m▓▒░[0;33m█▓▒▒▓▒▒░░ ░[0m
+       [37m                                 [0m     [1;33m█[0;1;33;43m▓▒░[0;33m█▓▒▒▓▒▒░░ ░[0m
        [37mmy movements.  I reach out to her,[0m     [1;33m▀[0;1;33;43m▓▒[0;33m▓▒░░▒░ ░[0m
        [37m                                  [0m            [33m░[0m'

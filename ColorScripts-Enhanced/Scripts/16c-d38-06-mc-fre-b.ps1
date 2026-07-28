@@ -5,7 +5,7 @@
 # Source SHA-256: deafefbe7defddc3274134f1d21e490ff25ab07d196da98926f3d22fdb83b4fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!FRE-B.ANS by Madcap (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FR3381333!!@#!@
 # SAUCE Author: Madcap
 # SAUCE Group: D38
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;32mWow! look!    [0;1;37mWhoa!  [0;1;31mand hey can anyone tell me  [0;34m▐████▀▀████████████████[0;30;44mMC!*:o)[0m
+[1;32m              [0;1;37m       [0;1;31m                            [0;34m▐████▀▀████████████████[0;30;44m       [0m
 [1;32;40mits an[0m                 [1;31;40mhow many fingers a[0m        [34m▓██▀ [0m▐ [34m░███████████████[0;30;44mD38[0;34m█▓▀▀[0m
 [1;32maskii[0m       [1;37mPh3456r![0m      [1;31mmouse actually[0m       [34m▄███▓ [0;1;30m▌[0m█▓ [34m▒█████████████████░ [0m▄▀
 [1;32mwater[0m                          [1;31mhas?[0m          [34m▄█████▌[0;1;30m▐▌[0m██▒ [34m░██████████████▀ [0m▄█▒

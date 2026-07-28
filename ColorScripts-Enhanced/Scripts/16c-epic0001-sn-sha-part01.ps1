@@ -5,7 +5,7 @@
 # Source SHA-256: cb4b4932c8def6ef4a583497bf4c456ae7d46c91394fe6bf1d3a3d707ad0c69b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-SHA.ANS by Snowball (Ecolove); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shaolin Style
 # SAUCE Author: Snowball
 # SAUCE Group: Ecolove
@@ -17,9 +17,9 @@
 Write-Host '
                   [34m ▄▄▄░░[0m
                 [34m▄█[0;1;34;44m▄▄▀[0;34m█▀▀▄▄[0m   [34m▄[0;1;30m▄▄▄[0m  [31mBaby i like it raw       [0m
-                [34m▐[0;1;34;44m▐▓▌░░[0;34m▄▄[0;37m  [0;34m▀▀▀[0;37m  [0;1;30m▀[0;1;30;44m▓[0;1;30;40m▌[0m [31mBringin'' you the shaolin tiger style [0;1;37m  [0m
+                [34m▐[0;1;34;44m▐▓▌░░[0;34m▄▄[0;37m  [0;34m▀▀▀[0;37m  [0;1;30m▀[0;1;30;44m▓[0;1;30;40m▌[0m [31m                                     [0;1;37m  [0m
              [34m ░░▒▓[0;1;34;44m▀█▄ [0;34m▓▓[0;1;34;44m   [0;34m▄[0;1;30m▄▄▄█▀[0m [1;30m [0;31mlike no one did before [0;1;37m                [0m [1m    [0m
-               [34m▄▄▄ ▀▀▀▀[0;1;34;44m  [0;1;30;44m░░▒▓[0;1;30;40m█▀[0m    [31mEpic is here to show ansi in it''s [0;1;37m [0m [1m     [0m
+               [34m▄▄▄ ▀▀▀▀[0;1;34;44m  [0;1;30;44m░░▒▓[0;1;30;40m█▀[0m    [31m                                  [0;1;37m [0m [1m     [0m
             [34m░░▓▌▀█▀█▓▓▄▄▄[0;1;30m▄▄[0m [1;30m▀▀[0m   [1m  [0;31mpurest form ...[0;1;37m [0m                   [1;30mw0rd![0m
 [1;36m░░[0m     [33m  [0;1;30m▄[0;1;30;43m▀░[0m   [34m▀▀▀▀▀▀██[0;1;30;44m░▒▓[0;1;30;40m▀▀[0;1;30;44m▓[0;1;30;40m▌[0m    [1;32m▄▄▄▄▄▄▄[0m                  [1;30m   [0m
 [1;36m▒▒▄▄▄[0m [33m [0;1;30m▄[0;1;30;43m▀░[0;33m▀[0;37m   ▄[0;1;37;47m▄▀[0;1;37;40m▀▀▀▄▄▄[0m [1;30m▀▀▀▀▀[0m [34m    [0;1;32;42m▒▓▓[0;1;32;40m█▀▀▀[0m                  [34m░░[0m        [34m░░[0m       [1;36m░[0m

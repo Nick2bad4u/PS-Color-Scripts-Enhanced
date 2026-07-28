@@ -5,7 +5,7 @@
 # Source SHA-256: e1de7ad55ca6d8421e11528e2b823def4d08a6cbd6687e53935bbc8b32d46036
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AD-DMN1.ANS by Advocate (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
        [1;30m ▀[0;1;30;42m▓▒ ░[0;1;30;40m▌[0m        [1;30m"... I have seen the horrors[0m [1;30mthat lie[0m        [1;30m▐[0;1;30;42m░ ▒▓[0;1;30;40m▀[0m    [1;30m░[0m
   [1;30m░[0m      [1;30m▐[0;1;30;42m▓░▓[0;1;30;40m░░[0m        [1;30mbeneath the earth. I have felt the[0m         [1;30m░░[0;1;30;42m▓░▓[0;1;30;40m▌[0m [1;30m▄███[0;1;30;45m▓[0;35m▄[0;34m [0m
 [34m ▄[0;1;30;44m▓[0;1;30;40m███▄[0m   [1;30;43m▓[0;1;30;42m▓[0;1;30;40m▌[0m          [1;30micy breath of darkness upon my skin,[0m         [1;30m▐[0;1;30;42m▓[0;1;30;43m▓[0m [1;30m▐███[0;1;30;45m▓▒░[0;35m▌[0m
-[34m▐[0;1;30;44m░▒▓███[0;1;30;40m▌[0m   [1;30m█[0m           [1;30mand have been gripped by the skeletal[0m         [1;30m█[0m   [1;30m▀[0;1;30;45m▓▓▒░[0;35m▀[0;37m [0m
+[34m▐[0;1;30;44m░▒▓███[0;1;30;40m▌[0m   [1;30m█[0m           [1;30m                                     [0m         [1;30m█[0m   [1;30m▀[0;1;30;45m▓▓▒░[0;35m▀[0;37m [0m
 [37m [0;34m▀[0;1;30;44m░▒▓▓[0;1;30;40m▀[0m [1;30m▐[0m  [1;30m▐[0m           [1;30mtalons of death itself. What prayer[0m           [1;30m▌[0m  [1;30m▌[0;34m   [0;35m░░[0;37m  [0m
 [37m  [0;34m░░   [0;37m [0;1;30m█[0m              [1;30m                                   [0m              [1;30m█[0m
        [1;30m▐[0;1;30;43m▓[0m              [1;30m                   [0m                              [1;30;43m▓[0;1;30;40m▌[0m

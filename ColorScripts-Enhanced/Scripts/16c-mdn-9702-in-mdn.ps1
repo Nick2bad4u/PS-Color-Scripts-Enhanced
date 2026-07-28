@@ -5,7 +5,7 @@
 # Source SHA-256: 86838c5044ae185f90cd32951518e1fe42661011f6b2486d129e74007244cdcd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-MDN.ANS by insert (phat productions'97); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: maiden productions
 # SAUCE Author: insert
 # SAUCE Group: phat productions'97
@@ -30,7 +30,7 @@ Write-Host '
 [37m [0;35m█[0;1;34;45m█████▌[0;35m█[0m       [37m [0;35m█[0;1;34;45m█▀▀[0;35m█[0m       [1;34;45m▐█░[0;35m▐[0;1;34;45m▐███▌[0;35m▌[0;37m [0;1;34;45m░[0m        [1;34;45m▐██▀[0;35m▌▄▄▄▄▄▄▄[0;1;34;45m▐█▌[0;35m▌█[0;1;34;45m░░[0;35m█[0m    [35m▀▀▀▀▀[0;32m░[0m
 [37m [0;35m▀█[0;1;34;45m▀▀▀▀▀▀■[0;35m█[0m    [35m ▀▀▀▀▒[0;1;34m▄[0;35m  [0m    [35m▀▀▀[0;37m [0;35m▀▀▀▀▀▀[0;37m  [0;35m▀▀▀▀▀▀▀▀▀▀▀▀[0m        [35m▀[0;1;34m▀▀[0;35m▀[0m         [32m▐██[0;36;42miN[0;32;40m░[0m
                    [35;40m▀▀▀▀[0m                                                 [32;40m ▄████[0;1;32;42m▐[0m
- [36;42m░[0;32;40m█[0;37;40m  [0;31;40m-[0;1;31;40m»artfront is the official m[0;1;37;41ma[0;1;31;40miden finland[0;31m░[0;1;31msanctuary[0m   [32m▄▄▄▄▄▄▄▄▄▄▄█████[0;1;32;42m░▓▄[0m
+ [36;42m░[0;32;40m█[0;37;40m  [0;31;40m [0;1;31;40m                           [0;1;37;41m [0;1;31;40m            [0;31m░[0;1;31m         [0m   [32m▄▄▄▄▄▄▄▄▄▄▄█████[0;1;32;42m░▓▄[0m
  [36;42m░[0;32;40m█[0m                                                        [32;40m▐[0;1;32;42m░░[0;30;42m [0;32;40m█▌[0;1;32;40m▀▀▀▀▀▀▀▀▀▀▀[0m
  [30;42m.∙[0;32;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▓▄▄▄▄█[0;30;42m.[0;32;40m█[0;30;42m∙ [0;1;32;40m▌[0m   [32m█[0m      [1;32m▐[0m
 [32m▀▐█[0;37m [0;1;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀[0m    [32m▐▌[0;37m  [0;32m▀█[0m

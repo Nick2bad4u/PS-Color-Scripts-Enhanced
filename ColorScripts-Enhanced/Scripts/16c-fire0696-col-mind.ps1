@@ -5,7 +5,7 @@
 # Source SHA-256: 597e0cef59a58fc6b2b744ebe6b15200f50120d4e0f9a8d500102be0a8c13f20
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: COL-MIND.ANS by colorblind (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mindphuck
 # SAUCE Author: colorblind
 # SAUCE Group: fire
@@ -23,7 +23,7 @@ Write-Host '
      [1;32m███[0;1;32;42m [0;32m█[0;37m [0;1;37m█████[0m█ [1;47m▄▄[0m▄[1;32m▀[0;1;32;42m▄[0;32m█[0;37m [0;1;30m [0;1;32mlogon[0m                                      [1;30m░[0m   [1;30m░[0m░[1;30m ░[0m░░[1m░[0m
    [1;32m ▐██[0;1;32;42m▌░[0;32m▌[0;1;37m▐█████[0;1;37;47m▌[0m▌[1m▐[0;1;47m▓▌[0m▌[32m▐[0;1;32;42m░[0;32m▌[0;37m [0;1;32mapply[0m                                                ░
  [1;32m   ▐██[0;1;32;42m▌[0;32m█▌[0;1;37m▐███ █[0;1;37;47m▌[0m▌[1m▐█▀[0m█[1;32m [0;1;32;42m [0;32m▌[0;37m [0;1;32mcheck  [0m                                              [1;30m░[0m
-[1;32m    ███[0;1;32;42m▌[0;32m█▌[0;1;37m▐███▄█[0;1;37;47m▌[0m▌[1m▐[0;1;47m█▌[0m▌[32m▐█[0;37m  [0;1;32mget out of this fucking stupid retarded matrix[0m    [1;30m░[0m [1;30m░[0m░
+[1;32m    ███[0;1;32;42m▌[0;32m█▌[0;1;37m▐███▄█[0;1;37;47m▌[0m▌[1m▐[0;1;47m█▌[0m▌[32m▐█[0;37m  [0;1;32m                                              [0m    [1;30m░[0m [1;30m░[0m░
    [1;32m █[0;1;32;42m▓[0;1;32;40m██[0;1;32;42m [0;32m█[0;1;32m [0;1;37m█████[0m█[1m █[0;1;47m▀[0m▀[32m▄[0;1;32;42m [0;32m█[0;37m [0;1;30m-------------------------------------------------------[0m
     [1;32m████[0;1;32;42m▌ [0;32m▌[0;1;37m▐███[0;1;37;47m▌[0m▌[1;32m▐▄▄[0;1;32;42m▌[0;32m██▌[0m                                       [37m colorblind([0;1;37mfire[0m)
     [1;32m██[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;42m▄ [0;32m▄[0;1;37m▀█[0;1;37;47m▀[0m▀[1;32m▄██[0;1;32;42m▀[0;32m▀▀[0;1;32;42m░[0;1;32;40m▄▄█[0;1;32;42m▄▄▄  [0;32m▄▄[0m

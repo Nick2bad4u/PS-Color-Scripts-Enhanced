@@ -5,7 +5,7 @@
 # Source SHA-256: 39d9888f0d17e4cc0ddcd791f4993eb7e8fd08f81feee2d70d85ed44c25d92f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-DTP01.ANS by Mr.Wrong (Mistigris); released in ira9807 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dystopia
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Mistigris
@@ -35,6 +35,6 @@ Write-Host '
     [1;30m   [0m      [35m▄[0;37m [0;35m▀[0;37m   [0;35m▐▌▐[0;1;35;45m░▓[0;1;35;40m███[0;1;35;45m▓░[0;35m▄[0;34m [0;37m [0;33m▀▄[0;1;31m [0;1;31;43m░▓[0;1;31;40m█[0;1;31;47m▄▀[0;1;31;43m▄[0;33m▄[0;35m▀[0;1;35;45m▀▄[0;35m▄[0;1;35m▄[0;35m▀[0;37m [0;35m░[0;1;35;45m░▓█▌[0;35m▌[0;34m  [0;1;34m▀[0;34m▄░[0;35m▀▄▀[0;1;35;45m▀▓░[0;35m▌[0;37m [0;34m▐[0;1;34;44m░[0;1;34;40m░[0;34m▓ ░[0m
      [1;30m  [0m          [34m▀[0;1;34m▄[0m [35m▀[0;37m [0;35m▀[0;1;35;45m▀[0;1;35;47m▓[0;1;35;40m█[0;1;35;45m▓░ [0;35m▀[0;35;43m▓[0;35;40m▄[0;1;31;40m░[0;33m▐▌▐[0;1;31;43m▐[0;1;31;47m▓█▌▐[0;1;31;43m▌[0;33m▌[0;35m▐[0;1;35m▓[0;35m▀[0;37m [0;34m▄░[0;37m [0;35m▐[0;1;35;45m▄▀[0;35m▀[0;37m [0;34m   ▐[0;1;34;44m░[0;34m░[0;35m▐▌▐[0;1;35;45m░[0;35m▀[0;37m [0;34m▄[0;1;34m▀[0;34m▀[0m
 [37m    [0;1;30m        [0m [34m░[0;37m [0;1;34m░[0;34m▓░[0;1;34m [0m  [34m▄[0;1;34m [0m [35m▀[0;1;35;45m▀[0;1;35;40m█[0;1;35;45m▓░[0;35;43m▓░[0;33;40m▀[0;1;31;43m░[0;33m▀▄[0;1;31;43m▄[0;1;31;40m█[0;1;31;47m▀[0;1;31;40m█[0;1;31;47m▄[0;1;31;43m▀[0;33m▀[0;35m▄▀[0;37m  [0;34m▀[0;37m [0;35m▄[0;37m [0;35m▀[0;37m [0;34m [0;37m [0;34m  ▄ ▀░[0;37m [0;35m▀▄▀[0;37m [0;34m [0;1;30m         [0m
- Mr.Wrong / Mistigris[1;30m [0;34m▄[0;1;34m░[0;34m▄[0;37m [0;35m▀[0;1;35;45m░[0;1;35;40m▄[0;33m▀[0;1;31;45m░▓[0;1;31;43m▓▄█[0;1;31;40m██[0;1;31;43m▀▀[0;33m▀[0;1;34m [0m   - [1mD[0my[35ms[0;1;37mT[0mo[1mP[0mi[35ma[0;37m -[0m    [35m▀[0;37m+o; Decax Unkel ben[0m
+                     [1;30m [0;34m▄[0;1;34m░[0;34m▄[0;37m [0;35m▀[0;1;35;45m░[0;1;35;40m▄[0;33m▀[0;1;31;45m░▓[0;1;31;43m▓▄█[0;1;31;40m██[0;1;31;43m▀▀[0;33m▀[0;1;34m [0m     [1m [0m [35m [0;1;37m [0m [1m [0m [35m [0;37m  [0m    [35m▀[0;37m                   [0m
                     [34m░[0;1;34m░[0;34m▐[0;1;34;47m▀▓[0;1;34;44m░[0;1;34;40m░[0;35m▐[0;1;35m▓[0;35m▀[0;1;35;45m▀[0;1;31;43m▀▀▀[0;33m▀▀▀[0;37m [0;1;34m    [0m
                    [34m▄[0;1;34m [0;34m [0;1;34m▀ [0;34m▀[0;35m▄[0;37m [0;35m▀[0;1;35m░[0m [1;31m [0;33m   [0;37m [0;1;34m     [0m'

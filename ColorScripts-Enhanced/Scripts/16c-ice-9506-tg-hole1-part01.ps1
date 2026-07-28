@@ -5,7 +5,7 @@
 # Source SHA-256: 2bfba497691bf0372edbf8654a889be1ce92c89362f5747e893b37e2b876e6b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-HOLE1.ICE by Toon Goon + Number 28 (iCE); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hole
 # SAUCE Author: TooN GooN
 # SAUCE Group: iCE
@@ -36,7 +36,7 @@ Write-Host '
 [31m███[0;1;31;41m■ [0;31m███▀▀▀▀[0m            [31m▀▀▀▀▀▀▀▀[0;1;31;41m [0;31m███████████[0;1;31;41m░[0;31m███████[0;1;31;41m▀▀[0;31m█[0;1;31;41m ▀▀██████▀▀[0;31m██[0;1;31;41m▄[0;1;31;47m▀▀[0;1;31;41m███▄[0;31m█████[0m
 [31m█[0;1;31;41m▄[0;31m███▀[0m                                [31m▀▀▀▀██[0;1;31;41m [0;31m████████████[0;1;31;41m [0;31m██████████[0;1;31;41m ▀▀▀▀▀[0;31m██████[0m
 [1;31;41m▄▄[0;31m██▌    [0;30mits[0;37m [0;30mnot[0;37m [0;30mmuch[0;37m [0;30mbut[0;37m [0;30mazraelansi, blow    [0;31m▀▀▀████[0;1;31;41m▀[0;31m██[0;1;31;41m▄▄[0;31m████████████████[0;1;31;41m▄██▄[0;31m██[0m
-[1;31;41m█[0;31m███  [0;30mmseemed[0;37m [0;30mto[0;37m [0;30mlike[0;37m [0;30mit[0;37m [0;30msome.f ansi lately and[0m     [31m▀▀▀██████▀▀[0;37m▄[0;1;37m▄▄▄[0;31m▀▀██████[0;1;31;41m▀▀[0;31m███[0m
+[1;31;41m█[0;31m███  [0;30m       [0;37m [0;30m  [0;37m [0;30m    [0;37m [0;30m  [0;37m [0;30m                      [0m     [31m▀▀▀██████▀▀[0;37m▄[0;1;37m▄▄▄[0;31m▀▀██████[0;1;31;41m▀▀[0;31m███[0m
 [1;31;41m▓[0;31m███  [0;30mso[0;37m [0;30mhe[0;37m ▄[0;1;37m▄▄▄▄[0;30mt[0;37m▄[0;1;37m▄▄[0m [30mhrmm... you  [0;37m▄████▄▄[0m               [31m▀█▀[0;37m▄[0;1;37;47m▄[0;1;37;40m███████▄[0;31m▀██████[0;1;31;41m▄█[0;31m█[0m
 [1;31;41m░[0;31m██▌  [0;30mdo li[0;1;37;47m [0;1;37;40m██[0;1;37;47m [0;1;37;40m███[0;1;37;47m [0;1;37;40m██[0;30mu''ve got[0m     [37m███████[0;1;37;47m  [0m                [1;47m [0;1;40m███████████ [0;31m████████[0m
 [1;31;41m░[0;31m██▌  [0;30mtaste. [0;37m▄[0;1;37;47m▄[0;1;37;40m█▀[0;30mo[0;1;37;47m [0;1;37;40m██[0;30momething... [0;37m██████[0;1;37;47m ▄▄▄ [0m              [1;47m [0;1;40m█████████████ [0;31m████[0;1;31;41m▀[0;31m█[0;1;31;41m░[0m

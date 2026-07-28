@@ -5,7 +5,7 @@
 # Source SHA-256: ffa8df1fc88a3ee2c47a987dabacf2a4ea1d777de7e8ee4855d20772276ccec8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-HUMA5.ANS by Shattered Link (Bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Huma
 # SAUCE Author: Shattered Link
 # SAUCE Group: Bleach
@@ -28,7 +28,7 @@ Write-Host '
 [1;31;47m     [0m [32m▀▀▀[0m     [32m▀▀▀   [0;30;47m▀[0;37;40m [0;32;40m▀[0;1;32;40m▀[0;32m▀ [0;30;47m▀▀▀▀▀▀[0;37;40m [0;32;40m▀▀▀ [0;30;47m▀▀▀▀[0;1;37;47m▄▓▀▌        ░░[0;30;47m▐[0;37;40m [0;1;33;43m▓[0;1;33;40m▀[0m     ▄▌ [1;31;47m█[0;1;31;40m▌▀▀▀▀▀▀ [0m▄ [1;31;43m▓▓[0m
 [1;31;47m     [0;1;30;47m4    8[0m▄    [1;30m5 [0m▄[47m   [0;1;30;47m6    [0m█[1;30;47m7     4   [0;1;37;47m■ [0;1;30;47m1[0;1;37;47m▀■ ▀          [0m [1;33m▐▀  [0;30;47m▀▀▐[0;37;40m █[0;30;47m▀[0;37;40m■ [0;1;31;43m▓[0;1;31;40m▌ [0m▀[1;47m░[0;1;40m▄[0;1;47m▒░[0m▀ [1;31;43m▓[0;1;31;40m▌[0m
 [1;31;47m [0;1;37;47m▀            [0m▄  ▄█[47m       [0;30;47m▄[0;37;40m [0;30;47m▄                         [0;1;37;47m░[0;30;47m▐[0;37;40m [0;1;33;40m▌ [0;30;47m▄  [0;37;40m▄██▀  [0;1;31;40m▐▄ [0m▀▀[1;47m▓[0;1;40m▀ [0;1;31;40m▄█▀[0m
-[1;47m░▐▄  [0;1;30;47msysOp^lOrdjazz^acid[0;30;47m▄[0;37;40m [0;1;30;40m▄▀▄ [0;30;47m▄[0;1;30;47maffils^illness           [0m [1;33m▀▄ [0;30;47m▌[0;37;40m▀   ▄[0;1;37;40m▄[0m▄ [1;31m▀[0;1;31;43m▓▓[0;1;31;40m▄▄▄[0;1;31;43m▓[0;1;31;40m▀ [0;32m▄▌[0m
+[1;47m░▐▄  [0;1;30;47m                   [0;30;47m▄[0;37;40m [0;1;30;40m▄▀▄ [0;30;47m▄[0;1;30;47m                         [0m [1;33m▀▄ [0;30;47m▌[0;37;40m▀   ▄[0;1;37;40m▄[0m▄ [1;31m▀[0;1;31;43m▓▓[0;1;31;40m▄▄▄[0;1;31;43m▓[0;1;31;40m▀ [0;32m▄▌[0m
 [1;37;47m░░▓▓  [0;1;30;47mbleach^tide%emag[0;30;47m▄[0;37;40m [0;1;30;40m▄▀ [0;31m▄ [0;1;30m▀▄ [0;30;47m▄[0;1;30;47mstats^ansi              [0;30;47m▀[0;37;40m [0;1;33;40m■ [0;30;47m▄[0;37;40m  ▀ ▀[0;1;37;40m■  [0;32m▄ [0;1;31m▀▀   [0;1;32m▀[0;1;32;42m▓[0;32m■[0m
 [37m▐[0;1;37;47m░ ▀▌  [0;1;30;47mobliviOn^twoO[0;30;47m▄[0;37;40m [0;1;30;40m▄▀ [0;1;31;40m▄▀ [0;1;30;40m▄▀▄█ [0;30;47m▄[0;1;30;47msiq^mOds             [0;1;37;47m▄   [0;30;47m▀[0;37;40m  [0;30;42m▀[0;1;32;42m░[0;32m███[0;32;42m  [0;30;42m▀[0;37;40m [0;30;42m▀▀    ▀[0m
 [37;40m [0;30;47m [0;1;37;47m░     [0;1;30;47mansi^bleach[0m [1;30m▄▀ [0;31m▄[0;1;31m▀ [0;1;30m▄▀▄█▀▐█ [0;30;47m▄[0;1;30;47mand^sk             [0;1;37;47m▓▀▀ [0;30;47m▄[0;37;40m [0;30;42m▀[0;1;32;42m░  ▀ [0;30;42m■  [0;32;40m▄[0;32;42m  [0;1;32;42m▀■░░[0;30;42m▄▄[0;37;40m [0;30;47m [0m

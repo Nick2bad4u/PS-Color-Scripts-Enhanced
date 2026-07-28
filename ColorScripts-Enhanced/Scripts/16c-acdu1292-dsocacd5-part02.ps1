@@ -5,7 +5,7 @@
 # Source SHA-256: f70224c5ef17bdd0eadb4e32397507ceac00613f8e828f1c7e79dc3227360ac0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DSOCACD5.ANS by Alter Ego (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 44-90
 # Columns: 1-80
 
@@ -29,9 +29,9 @@ Write-Host '
                 [32m░░[0m        [32m░▒░[0m         [32m░▒▒░░[0m           [1;30m▄[0;1;37m▄▄[0;1;37;47m▓▒░░       [0;1;32;42m▓▒[0;1;37;42m▄[0;42m▄[0;1;30;42m░▒▓[0m░▓[42m▄[0;1;30;42m▒[0m
                                              [32m░░░▒▒░ [0;1;30m▄[0;1;37m▄[0;1;37;47m▓▓▒░     ░░░ [0;32;47m▐[0;1;32;42m▓[0;1;37;47m▓▒░[0;42m▌[0;1;30;42m▒[0m▓[1;30;47m░ [0;1;32;47m▄[0;1;32;42m▒[0m
       [1;30;40mLook into the face of death.[0m                [1;32;40m▄[0;32m▄[0;1;37;47m▒▒░░    ░░▒░   [0;1;30;47m░[0;1;37;47m▓▒[0;1;30;47m░▒[0;42m▄[0;1;30;47m░░ [0;32;47m▐[0;1;32;42m▒[0;42m▄[0m
- [1;30;40mIt has seen your kind many times. It preys   [0;1;32;40m▄[0;32m▄[0;1;32;42m▒░ [0;1;30;47m░░ [0;1;37;47m░   ░░▒░   [0;1;30;47m░▒[0;1;37;47m▐▒[0;1;30;47m░[0m█[47m [0;1;30;47m░   [0;1;37;47m▄▒░[0m
-[1;30;40mon your people, because it knows you are    [0;1;32;40m▄[0;1;32;42m▒░  [0;1;30;42m░[0;42m▐[0;1;30;47m▒▒░ [0;1;37;47m░░░░▒░   [0;1;30;47m░▒[0;1;37;47m▄▓[0m█[47m [0;1;30;47m░░  [0;1;37;47m▄▒░  [0m
-[1;30;40mweak and helpless.  To live here is to    [0;1;37;40m▄[0;1;32;42m▒░  [0;1;30;42m▄░░[0;42m▀[0;1;30;47m░▒▒░░  [0;1;37;47m░░▒░░ [0;1;30;47m░[0;1;37;47m▀  [0;1;30;47m░░  [0;1;37;47m▀▀   [0;1;30;47m░░[0m
+ [1;30;40m                                             [0;1;32;40m▄[0;32m▄[0;1;32;42m▒░ [0;1;30;47m░░ [0;1;37;47m░   ░░▒░   [0;1;30;47m░▒[0;1;37;47m▐▒[0;1;30;47m░[0m█[47m [0;1;30;47m░   [0;1;37;47m▄▒░[0m
+[1;30;40m                                            [0;1;32;40m▄[0;1;32;42m▒░  [0;1;30;42m░[0;42m▐[0;1;30;47m▒▒░ [0;1;37;47m░░░░▒░   [0;1;30;47m░▒[0;1;37;47m▄▓[0m█[47m [0;1;30;47m░░  [0;1;37;47m▄▒░  [0m
+[1;30;40m                                          [0;1;37;40m▄[0;1;32;42m▒░  [0;1;30;42m▄░░[0;42m▀[0;1;30;47m░▒▒░░  [0;1;37;47m░░▒░░ [0;1;30;47m░[0;1;37;47m▀  [0;1;30;47m░░  [0;1;37;47m▀▀   [0;1;30;47m░░[0m
 [1;30;40mdie here.  Welcome..    ..to[0m           [1;37;40m▄[0;1;37;47m▓▒[0;1;32;42m▒░  [0;1;30;42m░░▒▒[0;1;30;40m▀[0m▐[1;30;47m░[0m▀[1;30m▀▀▀[0;1;30;47m▄▄  ▄        ▄▄▄▄▄░░  [0m
     [33m▄■[0m                    [33m▄[0m          [1;37m▄[0;1;37;47m▓▒[0;1;30;47m░▒▓[0;32m▀[0;1;30;42m░▒[0;32m▀[0;1;30m▀  [0m▄[1;30;47m░[0;1;30;40m▒░░    ▒[0;1;30;47m▒▓ ▓▄▄▄[0;1;30;40m▀▀▀ÆÉ░░▒▓[0;1;30;47m▄■ [0m
    [33m▀▄▄▄    T H E[0m         [33m▄[0;1;30;43m░[0;33m▌ ▄▀■    [0;1;37m▐[0;1;37;47m▒░[0;1;30;47m░[0;1;30;40m▀[0m        [1;30;47m░▒[0;1;30;40m▓░[0m     [1;30;40m▄[0;1;30;47m▓░[0;1;37;47m░[0;1;30;47m▓[0;1;30;40m▓▒░[0m        [1;30;40m░▒[0;1;30;47m▓▒░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 525573f52b88ddfa6d2b076bc5a881c214c4e2231419f3545834b4cd781db45e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-1NVS.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: THE iNViSiBLES
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -22,7 +22,7 @@ Write-Host '
         [37mthe body is inside the soul[0;36m.[0m                 [1;30m▓█▀▀▀[0m▀[36m [0;1;34m▄█[0;1;34;46m█[0;1;34;40m▀[0;36m  [0;1;36;46m░░[0;35m▐[0;1;31;45m░░[0;36m [0;1;35;45m░▄▄[0;35m▌[0;36m [0;1;30;47m▄[0;1;30;40m▒[0m
         do you understand?[36m"[0m                          [1;30m░▀[0m [34m▒▌[0;1;34m▌████[0;1;34;46m▓▒[0;36m▐██[0;35m▐██[0;36m [0;30;45m■[0;1;35;45m▀░[0;35m█►[0;1;30m█░[0m
     [1;36m░░░[0m                                          [1;36m░░░[0;36m    [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;35m [0;34;45m░░░[0;35;40m▀[0;36;40m [0;1;30;40m▀[0m
-  [36m▄[0;1;36m■[0;36m████[0;30;46mlook[0;1;36;46m.[0;30;46m we[0;1;36;46m.[0;30;46m are[0;1;36;46m.[0;30;46m you[0;1;36;46m.[0;30;46m try to remember[0;1;36;46m.[0;36m█████[0;1;36;46m░░░░░░[0;36m▌[0;30;47m░ >>>>> zir!!![0;1;30;40m▓[0;36m [0;1;35m░░░[0m [1;36m░░░[0m
+  [36m▄[0;1;36m■[0;36m████[0;30;46m    [0;1;36;46m [0;30;46m   [0;1;36;46m [0;30;46m    [0;1;36;46m [0;30;46m    [0;1;36;46m [0;30;46m                [0;1;36;46m [0;36m█████[0;1;36;46m░░░░░░[0;36m▌[0;30;47m░             [0;1;30;40m▓[0;36m [0;1;35m░░░[0m [1;36m░░░[0m
  [1;34m█[0;36m██[0;36;47m▓▓▓▒▒░░[0;37;40m███████████████████[0;1;36;47m░░░░░[0m██████████████[1;36;47m░░░░░░[0m███████████████[30;47m░░▓▓▓░[0;1;36;47m░[0;1;36;46m░░[0m
  [1;34m█[0;36;47m▓▓▒[0;1;37;47m▓▓▓░░░[0m█[1;47m░[0m█████[1;47m░░[0;1;31;40m▀[0;1;31;47m▓[0;1;31;45m▀[0;1;31;40m█▄█[0m▒[1;31;45m▓[0;1;31;40m▀[0m▐[1;36;47m░░░░░[0m█████████████████████████████████████[30;47m░░░[0;37;40m█[0;1;36;47m░[0;1;36;46m░░[0m
  [1;34m█[0;36m█[0;36;47m▓░[0;1;37;47m▒▒▒[0m████████████▌[1;31m█[0m░[1;31m█ █[0m▓[1;31m█▀[0m▐██████████████████████████████████████████████[1;36;47m [0;36m██[0m

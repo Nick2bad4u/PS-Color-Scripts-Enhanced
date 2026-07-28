@@ -5,7 +5,7 @@
 # Source SHA-256: cfb6a6d41270be63aa38683cda0c84fbd1872d306ff04eefd551c2eb0cc46885
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw-birdprey.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 200-249
 # Columns: 1-80
 
@@ -40,7 +40,7 @@ Write-Host '
 [34m [0;36m ██[0;1;36;46m░░[0;1;36;40m▌[0;1;31;40m▓[0;1;37;40m▄[0;1;30;40m▄[0;1;36;40m▐[0;1;36;46m██▓▓▓▌[0;36m█[0;1;36m▌[0;35m░[0;37m [0;1;37;46m▒▓▓▓[0m  [32m▐█▀[0;1;32;42m▀█[0;32m▌ ▐[0;1;32;42m▓▒▒░[0;32m▌[0;31m▐▌▄[0;1;31;41m░[0;31m▄▄[0;37m [0;36m█░█▄█▀▀█[0;37m [0;36m▀▀▀█▄▄▄▄█▄▀▀[0m
 [34m [0;36m █[0;1;36;46m░▓▓▒[0;1;36;40m▄▄[0;1;36;46m▄▀█▓▓█▀[0;36m▀█ [0;35m▓░[0;37m ▀[0;1;37m▓▓[0m   [32m▄[0;1;32;42m▄▀[0;32m▀█[0;37m  [0;32m▄▀▀▄[0;37m [0;31m█▀[0;1;31;41m▀█[0;31m▄▀[0;37m [0;36m▀▀▀[0;1;36;46m░░[0;36m▀▀[0m
 [34m [0;36m   ▀▀[0;1;36;46m▀█▓▓██[0;36m▀▄▀▄▀ [0;35m░█▓░[0;37m ▐[0;1;37m▓[0m   [31;42m▓▄▒░[0;32;40m▄▄[0;1;32;42m▄▓▓▀[0;32m▌[0;31m▐[0;1;31;41m▓▄▀[0;31m▀▀[0m
-[34m [0m      [36m▀▀[0;1;36;46m▀▀[0;36m█▀[0;1;36m▀[0;36m [0;35m▄▄▓▓▓█▓▄[0;37m [0;1;37m▓[0m   [31m▀[0;31;42m▓[0;32;40m▀[0;31;42m▓░[0;1;32;42m▀▀[0;32m▀▀[0;37m [0;31m▄▀[0;1;31;41m▄[0;31m▀▄[0;37m  L[0;1;30mast [0;35mA[0;1;31mN[0;1;35mS[0;1;37mi[0m M[1;30mother[0mf[1;30muckers [0mo[1;30mn [0mE[1;30marth ![0m
+[34m [0m      [36m▀▀[0;1;36;46m▀▀[0;36m█▀[0;1;36m▀[0;36m [0;35m▄▄▓▓▓█▓▄[0;37m [0;1;37m▓[0m   [31m▀[0;31;42m▓[0;32;40m▀[0;31;42m▓░[0;1;32;42m▀▀[0;32m▀▀[0;37m [0;31m▄▀[0;1;31;41m▄[0;31m▀▄[0;37m   [0;1;30m    [0;35m [0;1;31m [0;1;35m [0;1;37m [0m  [1;30m     [0m [1;30m       [0m [1;30m  [0m [1;30m      [0m
       [1;30m░▄[0m     [35m▀▀[0;1;35;45m▀█[0;1;35;40m▄▄[0;35m▄▄[0;37m   [0;1;37m▓[0m  [31m▄▀█[0;1;31;41m░[0;31m▀ ▄[0;37m [0;31m▄▓▀[0;1;31;41m▀[0;31m▀▀▄[0m
          [1;30m▀[0;36m [0;1;30m░▓[0;1;37m▄[0m▄[1;35m▄▄[0;35m▄▄[0;1;35m▄▄▀[0;35m▀[0m      [31m▐▄▀▄▓[0;37m [0;31m▓[0;37m [0;31m▄▀[0;37m  [0;1;37m▄[0;36m [0;1;37m▀▀[0;36m [0;1;37m▀▀▀[0;36m [0;1;37m▀[0;1;36m▀[0;36m [0;1;36m▀[0;36m [0;1;36m▀▀▀▀▀[0;36m▀▀ [0;1;36m▀▀[0;36m▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀[0m
             [1;35m [0m▀▀▄▄[36m  [0;37m    [0;36mb[0;1;36mw[0m![31m [0;37m  [0;1;31;41m░[0;31m▌[0;37m  [0;31m▒[0;37m  [0;31m▄[0;37m  [0;1;37;47m▀[0m▄  █  █[1;47m▀█[0m [1;47m█[0m▀ █▄▀▀█▀[1;30;47m░[0m▀[1;47m▀[0m █[1;47m▀█[0m [1;47m█[0m▄ █ [1;47m▀[0m [1;47m█[0m▀ [1;47m▀[0m▀▀
@@ -57,6 +57,6 @@ Write-Host '
 [1;30m█▀▀▀[0m [35mb[0;1;35mw[0;1;31m![0;1;30m▐[0;1;30;47m [0;1;30;40m▌▐[0;1;30;47m [0;1;37;47m▒▓[0;1;37;40m█▌[0m [1;30m█[0m
 [1;30m█[0m [1;31m▒▓█▀▀[0;1;30m▄[0;1;30;47m▒▒[0m [1;30m▀▀[0;1;30;47m░[0;1;37;47m▒▓[0m  [1;30m█[0m [1;30m [0m         A[1;30m R O U N D   [0mT[1;30m H E  [0mP[1;30m L A N E T[0m [1m![0m
 [1;30m█[0m [1;31m▓█ [0;1;30m▄[0;1;30;47m▒▒[0m▄[1m▄[0m [1;31m▀[0;1;30m▄[0;1;30;47m▒▒[0m▌[1;31m▐[0m [1;30m▓[0m
-[1;30m█[0m [1;31m█▌[0;1;30m▐[0;1;30;47m▓▓[0;1;30;40m▌[0;1;31;40m▄[0;1;37;47m▐[0;1;37;40m█[0m [1;30m▐[0;1;30;47m▓▓[0;1;30;40m [0;1;31;40m▓[0m [1;30m▒[0m          [1m*[0ms[1;30mpecial [0mg[1;30mreetings [0mf[1;30mlying [0mo[1;30mut [0mt[1;30mo [0;1;37m*[0m
+[1;30m█[0m [1;31m█▌[0;1;30m▐[0;1;30;47m▓▓[0;1;30;40m▌[0;1;31;40m▄[0;1;37;47m▐[0;1;37;40m█[0m [1;30m▐[0;1;30;47m▓▓[0;1;30;40m [0;1;31;40m▓[0m [1;30m▒[0m          [1m [0m [1;30m       [0m [1;30m         [0m [1;30m      [0m [1;30m   [0m [1;30m  [0;1;37m [0m
 [1;30m▓[0m [1;31m▀▀[0m [1;30m▀▀▀[0m▀[1m▀[0m [1;30m ▀▀▀[0m [1;31m▀[0m [1;30m░[0m
 [1;30m░[0m [36m  [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;36m [0;36m    [0;37m [0;1;30m▄[0m   [1;30m            [0m [1;30m     [0m [1;30m         [0m [1;30m        [0m [1;30m    [0m [1;30m      [0m [1;30m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 906592fc9c86b4b8318a89b1ebf665db7d97ed219d2d558e0f1bd451c15ac208
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZO-TLNAV.ANS by Zork (era-1095); released in era-1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -17,7 +17,7 @@ Write-Host '
 [1;30m│k▄▄█████████████▌zork│&$$$$$$$$$$[0m [1;30m$$$$$&&&&&&&&&$$$$$$$$$$$$$$$$$$$$$$[0m [1;30m$$[0m [1;30m$$&│[0m
 [1;32m│[0;1;30mr▀████▀▀▀▀[0m [1;30m▄▄████[0m [1;30mzor[0;1;32m│[0;1;30m$[0mAzure Blade:Keep up the good work![1;30m$$$$$$$$$$$$$$$$$$$$[0;1;32m│[0m
  [1;30m       ▄▄▄█████▀▄██▄ [0;32m│[0;1;30m [0m                          [1;30m [0m                           [32m│[0;34m [0m
-[32m│[0;1;30mzork ██████▀▀ ▄█▌▀██▌[0m [1;30m$[0mGrifter:The Spawn ansi rules![1;30m$$$$$$$[0m [1;30m$$$$[0m  [1;30m$$$$$$$[0m [1;30m$$$[0;32m│[0;1;30m [0m
+[32m│[0;1;30m     ██████▀▀ ▄█▌▀██▌[0m [1;30m [0m                             [1;30m       [0m [1;30m    [0m  [1;30m       [0m [1;30m   [0;32m│[0;1;30m [0m
 [1;32m│[0;1;30m   ▐████▀[0m    [1;30m▐██▄███ [0m [1;30m [0m                                 [1;30m  [0m [1;30m       [0m  [1;30m     [0m [1;30m   [0m
  [1;30m   ███▀▄  [0m   [1;30m████▀▀▄ [0;1;32m│[0;1;30m [0m                                                      [1;32m│[0m
 [1;30m│ork▀█▄▓▄█▄ ▄█▄▀▀▄██▀[0m [1;30m│&$$$$$$$$$$$$$$$[0m [1;30m$$$$$$&&&&&&&&&$$$$$$$$$$$$$$$$$$$$$$&│[0m

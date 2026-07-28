@@ -5,7 +5,7 @@
 # Source SHA-256: 6e42af8cad2e61135cd7d6858df28370e7f83908450843439c268552c5fd46d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-TDI.ANS by Asian Knight (ACiD Productions); released in acdu0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Darker Image
 # SAUCE Author: Asian Knight
 # SAUCE Group: ACiD Productions
@@ -20,10 +20,10 @@ Write-Host '
 [1;30m▓   [0m▀█▄▓██▄▒[1;30m▐▄█▓▌   [0m█▄  ░[1;35m▄[0;1;35;45m░[0;35m▓ [0;1;30;47m▓[0m  [1;30;47m▓[0m [1;35;40mSysop: Blood Scream   [0;1;30;40m█    [0;1;35;40mDarker Image[0m     [1;30;40m▓[0m
 [1;30;40m▒[0;35m▄[0;1;35;45m░[0;1;35;40m▀ [0m▐▓██▄█▓▄[1;30m▀██▓▄ [0m▄██▀▄▒ [35m▀■ [0;1;30;47m▒[0m  [1;30;47m▒[0m [1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▒[0m
 [1;30;40m░ [0;35m▓▀[0;37m▄█▀█▀████▓▄[0;1;30m▀█ ▀[0m▄████▓▄   [1;30;47m░[0m  [1;30;47m░[0m                                             [1;30;40m░[0m
-[1;30;40m  [0;35m▒[0;1;30m▀▄[0m▀▀[1;30m▄█▄ [0m▀█▀[1;30m▄[0m▀▄▀████▀   ▀  █▄▄█   Chris: [1;30mDoes the AcidPack really come out[0m
+[1;30;40m  [0;35m▒[0;1;30m▀▄[0m▀▀[1;30m▄█▄ [0m▀█▀[1;30m▄[0m▀▄▀████▀   ▀  █▄▄█          [1;30m                                 [0m
 [1;30m░ [0;35m░[0;1;30m▀▓████  ▀▄███▄ ▄[0m▀[1;30m▄▄▀    ▄ [0;1;30;47m░[0m  [1;30;47m░[0m   [1;30;40mEVERY month? =) [0mCasey: [1;30mGet off your lazy  ░[0m
 [1;30m▒ ▄ ▐█▀█▓▄▀ ████▓▀ ▀▓██▓▄▄▀  [0;1;30;47m▒[0m  [1;30;47m▒[0m   [1;30;40m        [0m     [1;30m                     [0m        [1;30m▒[0m
-[1;30m▓  ▀███▓▀  ▀█▓█▀▒   ██▓█▀    [0;1;30;47m▓[0m  [1;30;47m▓[0m   [1;30;40mKeep working on your ansi... it''ll rock!  ▓[0m
+[1;30m▓  ▀███▓▀  ▀█▓█▀▒   ██▓█▀    [0;1;30;47m▓[0m  [1;30;47m▓[0m   [1;30;40m                                          ▓[0m
 [1;30;40m█    ▀▀[0m      [1;30;40m▀  ░  ▀▀ ▀[0m      [1;30;40m█  █[0m                                             [1;30;40m█[0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 

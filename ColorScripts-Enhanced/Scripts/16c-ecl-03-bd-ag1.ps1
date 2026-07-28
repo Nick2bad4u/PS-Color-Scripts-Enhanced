@@ -5,7 +5,7 @@
 # Source SHA-256: ecbc23f70edf8133ced0b5762242313fe0dac34ba495d115f020366890763d72
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BD-AG1.ANS by bold (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: atomic garden
 # SAUCE Author: bold
 # SAUCE Group: eclipse
@@ -32,5 +32,5 @@ Write-Host '
 [1;33m▐[0;1;37m█▌[0m     [1;33m▀▄▀ [0;32m [0;37m [0;1;33m ▐█▌[0;1;36m ▄▄▄ ▀▀[0;1;36;42m▓▒[0;1;36;40m▄[0m    [1m▀[0;1;36;46m▀▀[0;1;37;40m ▀▀[0m▀[1m▀[0;1;36m▀      [0m   [1m▀▀[0;1;36;46m▀[0m▀[1m▀▀[0;1;36m  [0m▀[1m▀▀[0;1;36m▀  [0m▀[1m▀[0;1;36m▀   [0m░[30;47m▓[0;1;37;40m▀▀[0;1;36;46m▀[0m
 [32m [0;1;33m██[0;1;37m░[0m        [1;33m  [0;32m [0;1;33m██[0;32m [0;1;37m▐█[0;1;36m█▌[0m   [1;36m▐[0;1;36;42m▓[0;1;36;40m█[0;1;36;46m▌[0;36m▓░[0;30;46m▓[0;1;36;40m [0;36m░[0;30;46m▓[0m                   [37;40m░[0;30;47m▓[0m                  [36;40m░[0;30;46m▓[0m
 [32;40m  [0;1;33;40m▀█▄▄[0m    [1;33m  [0;32m [0;1;33m▄█▀[0;32m  [0;37m▀[0;1;37m▀██▄▄▄██▀[0m
-    [1;33m▀▀██▄▄▄█▀▀[0m       ▀▀      [1mThe time has come to call: [0;1;33mATOMIC GARDEN[0m
+    [1;33m▀▀██▄▄▄█▀▀[0m       ▀▀      [1m                           [0;1;33m             [0m
         [1;33m  [0m           ░[30;47m▓[0m      [37;40m                                          [0m'

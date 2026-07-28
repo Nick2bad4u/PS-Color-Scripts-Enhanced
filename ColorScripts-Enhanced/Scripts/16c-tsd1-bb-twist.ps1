@@ -5,7 +5,7 @@
 # Source SHA-256: bdfd5fbd2745ae64b29a6eabcf1e78b1786352d0a2b1dead11fe1c9bb3b2fd1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BB-TWIST.ANS by Blue Beetle (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -33,7 +33,7 @@ Write-Host '
 [1;30;40m  [0;1;37;40m╙ [0m▀▀  [1;30m▀▀▀ [0;35m▀▀    [0;1;35m▀ [0;1;31m▀▀[0;31m▀ ▀▀   [0;35m▀[0;1;35m▀   ▀ [0;35m▀▀    [0;1;30m▀ [0;1;37m╜[0m      [1;37;47m░▒░░    [0m███[47m         [0;40m█[0;30;47m░░[0;1;30;47m▓█[0;1;30;40m█[0m
                                                    ██████████[47m      [0;1;30;47m░░░  [0m█[1;30;47m░▒▓[0;1;30;40m█[0m
 [1;30;40m  [0;1;37;40m╓ [0;1;31;40mC[0;31mC[0;35mi  [0;1;31mP[0;31mO[0;35mSSEnet  [0;1;31m9[0;31m6[0;35m00+  [0;1;31mU[0;31mn[0;35mlimited[0m     [1;31mU[0;31mA[0;35mC [0;1;37m╖[0m     ▐█[47m [0;1;47m░░░▒▒       [0;1;30;47m░░▒▒▒▒░[0m█[1;30;47m░[0;30;47m░[0;1;30;47m▓█[0;1;30;40m▌[0m
-[1;30;40m  [0m║ [1;31mN[0;31mo [0;1;31mR[0;31ma[0;35mtio [0;1;31mf[0;31mo[0;35mr [0;1;31mL[0;31mD [0;1;31mU[0;31ms[0;35mers  [0;1;31mQ[0;31mu[0;35mick [0;1;31mD[0;31mi[0;35mst. [0;1;31mS[0;31mi[0;35mte [0;37m║[0m      [37m██████[0;1;37;47m░░[0m██[1;47m░[0m████[1;30;47m▓▓ [0m██[1;30;47m░[0m█[1;30;47m░[0m██[1;30m█[0m
+[1;30;40m  [0m║ [1;31m [0;31m  [0;1;31m [0;31m [0;35m    [0;1;31m [0;31m [0;35m  [0;1;31m [0;31m  [0;1;31m [0;31m [0;35m     [0;1;31m [0;31m [0;35m    [0;1;31m [0;31m [0;35m    [0;1;31m [0;31m [0;35m   [0;37m║[0m      [37m██████[0;1;37;47m░░[0m██[1;47m░[0m████[1;30;47m▓▓ [0m██[1;30;47m░[0m█[1;30;47m░[0m██[1;30m█[0m
 [1;30m  [0m║ [1;31m0[0;31m-[0;35m3 [0;1;31mD[0;31ma[0;35my [0;1;31mW[0;31ma[0;35mrez   [0;1;31mI[0;31mN[0;35mC   [0;1;31mA[0;31mT[0;35meC [0;1;31mD[0;31mi[0;35mstro [0;1;31mS[0;31mi[0;35mte. [0;37m║[0m      [37m▐[0;37;47m [0;1;30;47m▄▄[0;1;37;47m▄▄  ░▒▒[0m██[47m [0;1;47m▄▄[0;1;30;47m▄█[0;1;37;47m▐[0;1;37;40m█[0;1;37;47m▄ [0;1;30;47m░▒▓[0;1;30;40m▌[0m
 [1;30;40m  [0;1;37;40m╙ [0;1;31;40mN[0;31mU[0;35mP: [0;1;31mT[0;31mW[0;35miSTEDMiNDS   [0;1;31mA[0;35m/[0;31mC[0;35m/H/P/T/V [0;1;31mS[0;31mu[0;35mpport [0;1;37m╜[0m      █[1;47m█▄▄[0;1;40m███[0m██████[1;47m█[0;1;40m██[0;1;47m▄▄[0;1;40m██[0;1;41m▀[0;31;47m▌[0;1;30;47m░▓[0;1;30;40m█[0m
                                                   ▐██[1;47m▀[0;1;40m██[0;1;47m▀[0m██████[30;47m░[0;37;40m█[0;1;37;47m▀[0;1;37;40m███[0;1;37;41m▀[0;1;31;41m░░[0;31;47m▌[0;1;30;47m▓[0;1;30;40m█▌[0m

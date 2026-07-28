@@ -5,7 +5,7 @@
 # Source SHA-256: dd60fa789a2b00090c14cf58dccf78a9abb1802d65038dfccc16dffaa95722ab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-ELEVATOR.ANS by Mavenmob (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Elevator Down
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
@@ -50,9 +50,9 @@ Write-Host '
 [1m███[0m  ▒▒▒▒▒▒▒▒[1;30m▓▓█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓[0m▓▓▒▒▒▒▒▒▒▒  [1m████[0m
 [1m███[0m  ▒▒▒▒▒▒▒▒[1;30m█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m▓▒▒▒▒▒▒▒▒  [1m████[0m
 [1m███[0m   [30m████████████████████████████████████████████████████████████████████[0;37m  [0;1;37m████[0m
-[1;37m███[0m   [30m░[0;1;32m> Welcome to[0;1;37m Freedom From The Need To Be Free.[0;30m░░░░░░░░░░░░░░░░░░[0;37m     [0;1;37m████[0m
+[1;37m███[0m   [30m░[0;1;32m            [0;1;37m                                  [0;30m░░░░░░░░░░░░░░░░░░[0;37m     [0;1;37m████[0m
 [1;37m███[0m   [30m░[0;1;32m> We will explore this area later on.[0;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;37m     [0;1;37m████[0m
-[1;37m███[0m   [30m█[0;1;32m> [0;1;32;44mWe should continue on our q[0;1;30;40mw[0;1;32;44mu[0;1;30;40ma[0;1;32;44me[0;1;30;40ms[0;1;32;44ms[0;1;30;40mt[0;1;32;44mt[0;1;30;40me[0;34m▌ [0;1;30mo[0;34m▌[0;30m█[0;1;30mf[0;34m▌[0;30m█[0;34m│[0;30m█[0;1;30ml i[0;34m│[0;30m█[0;1;30mf[0;30m████[0;1;30me    .[0m     [1m████[0m
+[1;37m███[0m   [30m█[0;1;32m  [0;1;32;44m                           [0;1;30;40m [0;1;32;44m [0;1;30;40m [0;1;32;44m [0;1;30;40m [0;1;32;44m [0;1;30;40m [0;1;32;44m [0;1;30;40m [0;34m▌ [0;1;30m [0;34m▌[0;30m█[0;1;30m [0;34m▌[0;30m█[0;34m│[0;30m█[0;1;30m   [0;34m│[0;30m█[0;1;30m [0;30m████[0;1;30m      [0m     [1m████[0m
 [1m███[0m  [30m█████████████████████████████████████████████████████████████████████[0;37m  [0;1;37m████[0m
 [1;37m████████████████████████████████████████████████████████████████████████████████[0m
 [1;37m████████████████████████████████████████████████████████████████████████████████[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ddbafd84556fad0ca8f43310c1d03f4537093cbe83e4ad6c34c1d060e20a2ffe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CU-DOOD.ICE by Cold and Ugly (iCE); released in ice9607a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Doodle Emag, Issue 3
 # SAUCE Author: Cold and Ugly
 # SAUCE Group: iCE
@@ -39,4 +39,4 @@ Write-Host '
       [36m▄▀[0m                [34m  [0;37m  [0;36m [0;1;36;46m▒[0m  ▓[1;47m▀▀▀[0m██▀▀▀▀          [36m▀[0;1;30m [0;36m▄[0;37m [0;36m▄██▌ [0m            [34m     [0m
    [36m▀[0m                        [36m▐[0;1;36;46m▓[0;36m▌[0;37m  [0;31m    [0m                  [36m▀[0;30;46miCE [0;36;40m▄[0m           [34;40m  [0m
                              [36;40m▀[0m   [1;37;40mOMAHA STYLEE![0m          [36m ▀▌ [0;37m [0;36m▀[0;37m [0;36m▄[0m       [34m  [0;1;30m [0m
-- [1mDoodle Emag Issue 3 [0m─────────────────── [1m Cold and Ugly[0m / [1miCE Advertisements [0m-[0m'
+  [1m                    [0m─────────────────── [1m              [0m   [1m                   [0m [0m'

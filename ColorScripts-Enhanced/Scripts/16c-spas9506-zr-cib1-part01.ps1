@@ -5,7 +5,7 @@
 # Source SHA-256: f6a9ac502beca74da08ba8999af7168064795888bb081cbb81b1b35b4209f06f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZR-CIB1.ANS by zOltaR (spastik!); released in spas9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cItyee iZ bUr/\/inG ?!???
 # SAUCE Author: zOltaR
 # SAUCE Group: spastik!
@@ -17,8 +17,8 @@
 Write-Host '
 [1;30m▄█▓[0;1;30;47m▀[0;1;30;40m▄▄    ▄▄▀█▓▄[0m                                                [1;30;40m(j0!) [0;33m▄■▓▄█▄▄[0m
 [1;30m▀ ▀▀▓▄█  ▐[0;1;30;47m▀[0;1;30;40m▓▀▀▐▓▀ ── ──────────────────────────────────── ───────── [0;33m▄▓█▀▓▌▀█[0;1;33;43m░[0;33m▀▄[0;37m [0m
-     [1;30m▀[0;1;30;47m▓[0;1;30;40m▌ [0;1;30;47m█▓[0m . [1;30m▀[0m.. zolta[1;33mR [0m(also known as zozo) of spasti[1;33mC [0mstudios .. [33m▐█▌[0;1;31m█▄[0;33m▀[0;1;31m▐▄[0;33m▀[0;1;33;43m░[0;33m▌[0;37m [0m
-[33m [0;1;30m▄[0;1;30;47m▓[0;1;30;40m▀ ▀▀  ▀▌ [0mgr[1;33mE[0mets to te, s7, chk, y[1;33m0[0m, dit, cyt, jay & spasti[1;33mC [0mguys .[33m▀▄[0;1;31m▐[0;1;31;44m▄[0;1;31;40m█[0;1;31;44m▄[0;1;31;40m▓▌[0;33m▀[0m
+     [1;30m▀[0;1;30;47m▓[0;1;30;40m▌ [0;1;30;47m█▓[0m   [1;30m▀[0m        [1;33m  [0m                              [1;33m  [0m           [33m▐█▌[0;1;31m█▄[0;33m▀[0;1;31m▐▄[0;33m▀[0;1;33;43m░[0;33m▌[0;37m [0m
+[33m [0;1;30m▄[0;1;30;47m▓[0;1;30;40m▀ ▀▀  ▀▌ [0m  [1;33m [0m                     [1;33m [0m                        [1;33m  [0m      [33m▀▄[0;1;31m▐[0;1;31;44m▄[0;1;31;40m█[0;1;31;44m▄[0;1;31;40m▓▌[0;33m▀[0m
 [33m [0;1;30m▐▌▄[0;1;30;47m▓[0m▄▄▄▄[1;30;47m▒[0m [1;30;40m─── ─ ──────────────────────────────────────────────────── ─ [0;1;31;40m▀▄▓▀[0m
 [1;31;40m   [0m▀[1;30m▀▀[0m▓▀ ▀       [36m░[0m
                  [36m░[0m                              [36m▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: d1f3c0765c84984dbcf3d2d21c1ecf8e5ae7d8fd22cce32be22ea01dad621eee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZNYK-08.ANS by dieznyik (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ^[1 ^[[\ [2_  [ [[[[[]
 # SAUCE Author: dieznyik
 # SAUCE Date: 19960917
@@ -38,4 +38,4 @@ Write-Host '
                                   [33m [0;30;43m▓▓░░░[0;33;47m▓▓[0;33;40m█[0;1;37;43m░░[0;33m█[0m
                                      [30;43m▓▓▓[0;33;40m▀▀▀▀▀ [0m
 
-[30;46m▓▓█▓▒░░[0;36;40m█[0;1;37;46m◄◄◄[0;1;31;46m [0;1;36;46mease into a nice lil trip[0;36m█[0;1;36;46m*[0;36m█[0;1;36;46mdislogic is your host, baby[0;36m█[0;1;37;46m►►►[0;36m█[0;30;46m░[0;36;40m█[0;30;46m░▒▓▓█▓[0m'
+[30;46m▓▓█▓▒░░[0;36;40m█[0;1;37;46m◄◄◄[0;1;31;46m [0;1;36;46m                         [0;36m█[0;1;36;46m [0;36m█[0;1;36;46m                           [0;36m█[0;1;37;46m►►►[0;36m█[0;30;46m░[0;36;40m█[0;30;46m░▒▓▓█▓[0m'

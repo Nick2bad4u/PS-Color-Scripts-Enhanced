@@ -5,12 +5,12 @@
 # Source SHA-256: 9fedbb2821abe3d321f932a31371341be9a5105e552ae46d376dbe1db48e222e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-GROX.ANS by Trip (thst0895); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
-    [31m█▄  ▄▀▄  ▄█    TRiP!THRuSt. If ya want a ansi from me, just  █▄  ▄▀▄  ▄█[0m
+    [31m█▄  ▄▀▄  ▄█                                                  █▄  ▄▀▄  ▄█[0m
 [31m   █ ▐▌▐▌▄  ▐▌ █  gimme a holler on irc, as _TRiP_. That or[0m     [31m█ ▐▌▐▌▄  ▐▌ █[0m
 [31m   ▐▌ ▀▄▀▄▀▄▀ ▐▌  mail me on any decent 6o2 board. Umm, yeah.   ▐▌ ▀▄▀▄▀▄▀ ▐▌[0m
 [31m    ▀▄  ▀▀▀  ▄▀[0m                                                  [31m▀▄  ▀▀▀  ▄▀[0m

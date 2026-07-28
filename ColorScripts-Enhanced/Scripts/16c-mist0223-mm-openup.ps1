@@ -5,7 +5,7 @@
 # Source SHA-256: c37c6a3df45eb067c2006006943ea5f9f9a00fd3184a7ca80e0092049d23f117
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-OPENUP.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Open Up
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
@@ -51,7 +51,7 @@ Write-Host '
 [1;30m█ [0m████[1;47m░[0m████████[1;30m█▀[0m▄[32m▀   ▄[0;1;30m███████████████▀▀▀▀███████████████[0;32m▄   ▀[0;37m▄[0;1;30m▀█[0m████████[1;47m░[0m████[1;30m █[0m
 [1;30m████[0m██[1;47m░[0m████████[1;30m█[0;32m   [0;1;30m▄[0;32m▀[0;1;30m▀▄█[0;1;32m█[0m█[1;36;42m▓[0m█[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;32m//[0;1;30mzzzzzzz█[0m█[1;36;42m▓[0m█[1;32m█[0;1;30m█▄▀[0;32m▀[0;1;30m▄   █[0m████████[1;47m░[0m██[1;30m████[0m
 ██[1;30m██[0m██[1;47m░[0m████████[1;30m█[0m▄▄▀[1;36;45m▀▀▀▀▀▀[0;1;35;40m██[0;1;36;45m▀[0;1;35;40m█[0;32m OPEN UP MAKE ROOM FOR ME [0;1;35m████████[0m▄[1;30m█[0m████████[1;47m░[0m██[1;30m██[0m██
-[1;36;42m▓[0m██[1;30m██[0m▀█████████▀█[1;30m  [0;1;35m██[0;1;37;45mwhat? your mom buy you a ''puter for xmas?[0;1;35;40m█[0m█▀█████████▀[1;30m██[0m██[1;36;42m▓[0m
+[1;36;42m▓[0m██[1;30m██[0m▀█████████▀█[1;30m  [0;1;35m██[0;1;37;45m                                         [0;1;35;40m█[0m█▀█████████▀[1;30m██[0m██[1;36;42m▓[0m
 [1;36;42m▓▓▓[0m██ ▀████████▄  [1;36;42m▓[0;1;35;40m█[0;1;36;45m▄[0;1;35;40m████████████████████████████████[0;1;36;45m▄[0;1;35;40m██[0;1;36;45m▄[0;1;35;40m██[0;1;36;45m▄▄▄[0;1;35;40m█[0m ▄████████▀ ██[1;36;42m▓▓▓[0m
 [1;30;40m█[0;1;36;42m▓▓▓[0m██▄▀██████[1;30m██[0m ▄[1;36;42m▓[0m█[30;45m▀█▀▀▀[0;37;40m██[0;1;30;40m██[0m███████[1m███[0;1;47m░░[0;1;40m███[0m███████[1;30m██[0m████████[1;36;42m▓[0m▄ [1;30m██[0m██████▀▄██[1;36;42m▓▓▓[0;1;30;40m█[0m
 [1;30;40m▀████[0m██ ███[1m██[0m█[1;30m█▀[0m [1;36;42m▓[0m████████[1;30m▀▄█[0;1;36;42m▓▓[0m██████████████████[1;36;42m▓▓[0;1;30;40m█▄▀[0m████████[1;36;42m▓[0m [1;30m▀█[0m█[1m██[0m███ ██[1;30m████▀[0m

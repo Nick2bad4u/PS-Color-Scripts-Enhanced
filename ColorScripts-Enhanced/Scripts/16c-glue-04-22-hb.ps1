@@ -5,7 +5,7 @@
 # Source SHA-256: c7ecf09e953c246dcc17e5e44ba06dfe7c2da3f0ce09278989efebf8be02972c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-HB.ANS by catch22 (glue); released in glue-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hellbound
 # SAUCE Author: catch22
 # SAUCE Group: glue
@@ -32,10 +32,10 @@ Write-Host '
                                           [1;31m▐[0;1;31;47m░▒▓[0;1;31;43m▓░[0;33m█▀█[0;1;31;43m▀█▓░[0;33m▄▀[0;1;31;43m░▒▓▓███[0;1;31;47m▓▒▒▓[0;1;31;43m█▄[0;33m▄ ▀[0;1;31;43m░░[0;33m▌ [0;1;31;43m▐▓░[0m
                                           [1;31;47m█▒▓[0;1;31;43m█▓▒[0;33m▄[0;1;31;43m▄▓[0;33m▄▀▀▀▀▀▀█[0;1;31;43m░▒▓███[0;33m▀[0;1;31;43m▀[0;1;31;47m▓▄▀[0;1;31;43m█▄[0;33m▄  ▄[0;1;31;43m▄█[0;33m▄▀[0m
 [37m [0;1;36mhey dark shadow, i finally got this done[0m  [1;31m▀[0;1;31;47m█[0;1;31;43m▓▒[0m  [33m▀▀[0;37m [0;1;30m▄[0;1;30;47m██▓▓[0;1;30;40m▄▄▄▄▄[0m [33m▀▀▀ ▀[0;1;31;43m▀▀[0;1;31;47m▒▓[0;1;31;43m█▄▄█▓▒░[0;33m█[0m
-[37m [0;1;36mfor you.  so you can use it as a matrix,[0m     [1;30m▄▄[0;1;30;47m█[0m▓[30;47m░[0;37;40m▓▄[0;30;47m░[0;37;40m▓[0;1;30;47m░░▒▒[0m█[1m▒[0;30;47m░░[0;37;40m▓[0;30;47m░[0;37;40m▓[0;1;30;40m▀▄▄▄▄[0m [33m▀▀[0;1;31m▀[0;1;31;43m▀█▓▒░[0m
+[37m [0;1;36m                                        [0m     [1;30m▄▄[0;1;30;47m█[0m▓[30;47m░[0;37;40m▓▄[0;30;47m░[0;37;40m▓[0;1;30;47m░░▒▒[0m█[1m▒[0;30;47m░░[0;37;40m▓[0;30;47m░[0;37;40m▓[0;1;30;40m▀▄▄▄▄[0m [33m▀▀[0;1;31m▀[0;1;31;43m▀█▓▒░[0m
  [1;36m                                        [0m    [1;30m▐[0;1;30;47m▓▓▒░░[0;1;37;47m░[0m██[1m▒[0;1;47m░▒[0m█[1;30;47m░[0m▀█[1m▒[0;1;47m░░[0m█[1;30;47m░░[0m▄█[1;30;47m░░▒▒▓[0;1;30;40m▄▄[0m [33m▀[0;1;31;43m░░[0m
  [1;36mdoesn''t matter to me =)  oh  yeah, sorry[0m    [1m▒▒[0m█[1;30;47m░ [0;1;37;47m░▒[0m▌█[1;47m░▒▓[0m▐[1m▒░[0m ▐[1;47m▒▒░░[0m█████[1;30;47m░░░[0;30;47m░░[0;1;30;47m▓[0;1;30;40m▄[0m [33m▀[0m
-[37m [0;1;36mbout the lameness of the  font, but  you[0m   ▐[1;30;47m░░[0m▌█[1;47m░▒▓[0m▌▀▀▀▀[1m ▄▄▌[0m [1;47m░░[0m██████[1;47m░░[0m██[1;30;47m░░[0;30;47m░[0;1;30;47m▓[0;1;30;40m█[0m
- [1;36mknow the story on my fonts.  blah, byeE![0m   ▀▀▀[1m ▄▄[0m       [1m▀▀▀[0m  ▐███[1;47m░[0;1;40m▄[0m▀[1;47m░▒▒░[0m███[1;30;47m░[0;30;47m░[0;1;30;47m▓[0;1;30;40m▌[0m
+[37m [0;1;36m                                        [0m   ▐[1;30;47m░░[0m▌█[1;47m░▒▓[0m▌▀▀▀▀[1m ▄▄▌[0m [1;47m░░[0m██████[1;47m░░[0m██[1;30;47m░░[0;30;47m░[0;1;30;47m▓[0;1;30;40m█[0m
+ [1;36m                                        [0m   ▀▀▀[1m ▄▄[0m       [1m▀▀▀[0m  ▐███[1;47m░[0;1;40m▄[0m▀[1;47m░▒▒░[0m███[1;30;47m░[0;30;47m░[0;1;30;47m▓[0;1;30;40m▌[0m
                                                [1m▀▀▀[0m            [1m░[0m██[1;47m░▒▓[0;1;40m▌[0m▐[1;47m▒▓▓▒░[0m██[1;30;47m░[0;30;47m░[0;1;30;47m▓[0m
                                                   [1;31;43m░[0;33m▌[0m         [37m [0;1;37m░▒[0;1;37;47m░▒▓██[0m ▐[1;47m▓██▓▒░[0;1;40m▒[0;30;47m░░[0m'

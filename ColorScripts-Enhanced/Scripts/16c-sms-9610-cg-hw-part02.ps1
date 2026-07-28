@@ -5,7 +5,7 @@
 # Source SHA-256: 3ca77f2be8429e7233dc76bb9a4f6faf4a939ca2f926f45256c75f1c405e7722
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-HW.ANS by Coug + Eerie + Crayon (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hot Worms
 # SAUCE Author: Coug
 # SAUCE Group: Samsara
@@ -53,5 +53,5 @@ Write-Host '
 ███[1;30;47m▄[0m▀▀████▐█[1;47m░░ [0m [1;47m▐[0;1;40m███[0;1;47m▌ [0;1;40m███[0m█  ▐[1;47m▓▓[0m [1m▐██[0;1;47m [0m ██▌█[1;47m░░[0m▐██[33;47m░░[0;37;40m █[0;1;37;47m░░ [0m████ [1;47m░▓▓[0;1;40m█[0m█[47m  [0;40m [0;1;47m░░[0m██▐█████▐[1;47m▓▓[0m
 ███   [44m▓▓[0;40m██ ▀█[0;1;47m▓▓▄[0;1;40m██[0;1;47m▀[0;1;40m▀ [0;1;47m ███[0m█  ▐[1m██▌▐██[0m▌ ████[47m  [0;40m ▀███████▀ ███▐[0;1;47m▓[0;1;40m███[0m███ ████▐[43m▀▓▓[0;40m███[0;1;47m░░[0m
                              [1m██▌███[0m▌                     ▐[1m███[0m█    ▐███  [43m░░▓[0;40m███▀[0m
-[1;40mhot w[0;1;44mo[0;1;40mrms!@  [0;36mops: sammael    [0;1;37m██████[0m▌    [1;30mansi by [0;1;31mcoug[0m     ▐[1m███[0m█     ▀▀▀
+[1;40m     [0;1;44m [0;1;40m       [0;36m                [0;1;37m██████[0m▌    [1;30m        [0;1;31m    [0m     ▐[1m███[0m█     ▀▀▀
                               [1m████[0m▀[1m░    [0;1;30mfont by eerie    [0m▀[1m▀▀▀[0m▀  [1;30msamsara baby!@[0m'

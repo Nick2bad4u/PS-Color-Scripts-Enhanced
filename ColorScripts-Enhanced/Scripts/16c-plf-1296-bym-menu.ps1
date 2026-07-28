@@ -5,7 +5,7 @@
 # Source SHA-256: a20f317d30ff290a32d7474f1e7295c2c48a908eda295d44cb77d6d7bfbe9153
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%MENU.ANS by big yellow man (gummiboll.art); released in plf_1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: a yellow man menu
 # SAUCE Author: big yellow man
 # SAUCE Group: gummiboll.art
@@ -27,7 +27,7 @@ Write-Host '
 [33m█[0;30;47m█[0;1;33;40m▀[0;1;33;43m▒[0;1;33;40m█[0;1;33;43m█[0;1;33;40m██[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓▒▓[0;1;33;40m████▀[0;33m▐█[0;1;33m█[0;30;47m█[0;1;33;40m▀██[0;31m▒[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m█[0;30;47m█[0;1;33;40m▌[0;1;30;43m▓▓▓[0;1;30;40m ▐[0;1;30;43m▓▓[0;1;30;40m [0;1;30;43m▓▓▓[0;1;30;40m ▐[0;1;30;43m▓▓[0;1;30;40m [0;1;30;43m▓▓▓[0;1;30;40m [0;1;30;43m▓▓▓[0;1;30;40m ▐[0;1;30;43m▓▓[0;1;30;40m [0;1;30;43m▓▓▓[0;1;30;40m ▐[0;1;30;43m▓▓[0;1;30;40m [0;1;30;43m▓▓▓[0;1;30;40m ▐[0;1;30;43m▓▓[0m
 [33m▐[0;1;33m▌▄████████[0;1;33;43m▓[0;1;33;40m████▌[0;33m▐[0;1;33;43m░▐[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m▄▐[0;1;33;47m▓[0;31m░[0;1;33;43m▓▓▓[0;1;33;40m██▐█▌[0;1;30;40m ▀▀▀[0;1;30;43m▓▓[0;1;30;40m▌  ▀▀▀▀▀▓▀ ▀▀ ▀▀▀ ▀▀   ▀▓▀▀▀   ▀▀▀▓▀   [0m
  [33m▀[0;1;33m▐[0;1;33;43m▓▓[0;1;33;40m█████[0;1;33;43m▓[0;1;33;40m█████[0;33m ███[0;1;33;43m▀[0;1;33;40m██[0;30;47m█[0;1;33;40m███[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m█[0;30;47m█[0;1;33;40m▀[0;1;30;40m░▀▓█▄█▀                                       [0m
-  [33m▐[0;1;33m██▌▄█[0;1;33;43m▓▓[0;1;33;40m████[0;1;33;43m██▀[0;33m▄[0;1;33;43m░[0;33m▀▀▀[0;1;33m▄██[0;1;33;47m▓[0;1;33;43m░[0;33m█[0;1;33m▌█[0;1;33;43m▓[0;33m [0;1;30m░░[0;33m   [0m    [1;30mansi for wu-tang''s online games menu[0m
+  [33m▐[0;1;33m██▌▄█[0;1;33;43m▓▓[0;1;33;40m████[0;1;33;43m██▀[0;33m▄[0;1;33;43m░[0;33m▀▀▀[0;1;33m▄██[0;1;33;47m▓[0;1;33;43m░[0;33m█[0;1;33m▌█[0;1;33;43m▓[0;33m [0;1;30m░░[0;33m   [0m    [1;30m                                    [0m
  [30;47m█[0;1;33;43m ░▓[0;1;33;40m██[0;1;33;43m▓[0;1;33;40m████▀[0;33m▀▀▀▀▀▀▀▀▀[0;1;33m▀▀▀▀█[0;1;33;43m░ [0;1;33;40m▐█▌[0;33m     [0m    [1;30mhotkeys should go in this area...[0m
 [33m  ▐█[0;1;33;43m░[0;1;33;40m▐[0;1;33;43m▓▓[0;1;33;40m█▄▄▄██[0;30;47m█[0;1;37;40m▀▀▀▀ ▀▀▀[0;30;47m▄█[0;1;33;40m█▄▄[0;33m█[0;1;33m▐█[0;33m  [0;1;30m░░[0;33m [0m
 [33m  [0;30;47m█[0;33;40m██[0;1;33;43m░▒▓[0;1;33;40m██[0;1;33;43m▒[0;1;33;40m██████[0;1;33;43m▀▀▀[0;33m██[0;1;33;43m▀▒[0;1;33;40m███[0;1;33;43m░[0;1;33;40m▄█[0;30;47m█[0;1;30;40m░[0;33m     [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: bf696334c9ddd8918247f674a716020d253329d072153665cfb6d705d7cd46a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GBICE.ANS by Grindstone + The Night Angel (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Brain Damaged
 # SAUCE Author: Gstone / TNAngel
 # SAUCE Group: awe lettering
@@ -17,7 +17,7 @@
 Write-Host '
  ───-─────-─────────────-──────────────────-──────-──────────────-──────────-+
   GOODBYE  [36mi[0;37mC E .  [0;1;37m.[0m   we[1m''[0mll miss you guys [1m:))[0m      ▄[1m▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄[0m
-[1m  [0;1;30m--[0m logo by grindstone [1m/[0m shading by tnangel  ▄[1m▄[0;1;47m▄[0;1;40m▓▌[0m▀[1m▀▀▀[0;1;36m▀[0m                 [1m▀ ▀▀█[0m
+[1m  [0;1;30m  [0m                    [1m [0m                     ▄[1m▄[0;1;47m▄[0;1;40m▓▌[0m▀[1m▀▀▀[0;1;36m▀[0m                 [1m▀ ▀▀█[0m
 [1m [0m+-───-───────────-────-───────────-─────-─ ▄[1;47m▄[0;1;40m▀[0m                          [1m█ ███[0m
 [1m  ▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄[0;1;46m▄[0;1;36;40m▄[0;1;37;40m  ▀   ▄    [0m▐[1;47m▐[0;1;40m▌  [0mare you [1mbrain damaged[0m?  [1m▀█▀███[0m
 [1m [0;1;46m▓[0;1;47m█[0;1;40m▄ ▄▄[0;1;47m█[0;1;40m▄[0;1;47m███[0;1;40m▄[0;1;47m█[0;1;40m▄▄▄▄▄ ▄ ▀▀▀▀▀▀▀▀[0;1;36;40m▀[0;1;37;40m [0m▄       [1m▀▄  [0m▀[1m▀ ▄[0m                         [1m█████[0m

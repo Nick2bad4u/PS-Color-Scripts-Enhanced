@@ -5,7 +5,7 @@
 # Source SHA-256: d61d66a38e1493b8acbf0bcd6fce2f283c7e1e4b7b3e6ea40a32056588652ccd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-GP01.ANS by Thext (Mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Geeksta's Paradise
 # SAUCE Author: Thext
 # SAUCE Group: Mistigris
@@ -24,6 +24,6 @@ Write-Host '
 [33m░▌[0;31m░[0;1;31;41m░[0;31m▓ [0;1;33m░[0;33m▄  [0;1;31m▀▄   [0;31m▐[0;1;31;41m░ [0m   [1;31;41m░▒[0;31m▒ [0;1;33;43m▀[0;33m▄[0m         [31m▐[0;1;31;41m░[0m [33m▀[0;1;33m▀[0;1;33;43m▀[0m       [31m▀▄ [0;1;33m▀▄[0m          [33m▄[0;1;33m▀[0;31m▄▀[0m      [1;33;43m░[0;31m▐▓ [0;33m░[0m
 [33m▓  [0;31m▀▀  [0;33m▀░░░░[0;1;31m▀▄  [0;1;31;41m▒░[0m  [31m▐[0;1;31;41m▒▓▒░[0m [33m▒▒░░░░    [0;1;31;41m░▓░[0;31m█░[0;33m▓░░░   [0;31m░▓ ▀▄ [0;1;33m▀[0;33m▀▀ ▀▀▓░ ▌[0;31m▄▀ [0;33m▄▄▄▄ ▀▀[0;1;33m▀[0;31m▐[0;1;31;41m░[0m [33m░[0m
 [33m ▄[0;31m░▀[0;1;31;41m▀▀▀▀▀▀▀▀■ ▀[0;1;31;47m▓[0;1;31;41m▓▒[0;31m▌ [0;1;31;41m▐[0;1;31;47m▓[0;1;31;41m▓▓[0;31m▌░[0;1;31;41m░░[0;31m▓▓▓▓▓░ ▐[0;1;31;41m▓[0;1;31;47m▓[0;1;31;41m▓░[0m [1;31;40m▄▄▄[0;31m▄▄▄ ▐[0;1;31;41m░[0m [33m▄ [0;31m▀[0;1;31;41m░[0;1;31;47m▓[0;1;31;41m▒░░[0;31m▄▄▄▄▐[0;1;31;41m░░[0m [31m▄▄▄▄▄ ▓[0;1;31;41m░░▓[0;31m▌[0;33m▓[0m
-[33m  ▀  ▄▄▄ [0;1;33mgeekstah''s paradise [0;33m▄▄▄▄   [0;1;33mrash runs it.  [0;33m▀▄▄▄▄▄▄▄  [0;1;33mmistigris   [0;33m▄▄▄▄■[0m
+[33m  ▀  ▄▄▄ [0;1;33m                    [0;33m▄▄▄▄   [0;1;33m               [0;33m▀▄▄▄▄▄▄▄  [0;1;33m            [0;33m▄▄▄▄■[0m
 
                                                          [1;33mdrawn by thext [0;31m░░░░[0;1;31m░[0;1;31;41m░░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: cb1a5da47e7cc16164f39119a90c5abfd7b79d3f511969bca5b6a7124f96d2d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-HAQR.ANS by filth (FiRE); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: uNALL0CATED hACKERS sPACE
 # SAUCE Author: filth
 # SAUCE Group: FiRE
@@ -18,7 +18,7 @@
 
 Write-Host '
 
-[38;2;171;171;171;48;2;0;0;0m [0;38;2;171;0;171;48;2;0;0;0m░[0;38;2;0;0;0;48;2;171;0;171m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░[0;38;2;171;0;171;48;2;0;0;0m▓[0;38;2;0;0;171;48;2;0;0;0m [0;1;38;2;255;87;255;48;2;0;0;0mu[0;38;2;171;0;171;48;2;0;0;0mNALL0CATED [0;1;38;2;255;87;255;48;2;0;0;0mh[0;38;2;171;0;171;48;2;0;0;0mACKERS [0;1;38;2;255;87;255;48;2;0;0;0ms[0;38;2;171;0;171;48;2;0;0;0mPACE[0;1;38;2;87;87;255;48;2;0;0;0m  [0;1;38;2;255;87;255;48;2;0;0;0m♦[0;1;38;2;87;87;255;48;2;0;0;0m  BBS nETW0RK eCH0MAiL[0;38;2;0;0;171;48;2;0;0;0m [0;38;2;0;0;0;48;2;171;0;171m░[0;38;2;171;0;171;48;2;0;0;0m▓[0m
+[38;2;171;171;171;48;2;0;0;0m [0;38;2;171;0;171;48;2;0;0;0m░[0;38;2;0;0;0;48;2;171;0;171m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░[0;38;2;171;0;171;48;2;0;0;0m▓[0;38;2;0;0;171;48;2;0;0;0m [0;1;38;2;255;87;255;48;2;0;0;0m [0;38;2;171;0;171;48;2;0;0;0m           [0;1;38;2;255;87;255;48;2;0;0;0m [0;38;2;171;0;171;48;2;0;0;0m       [0;1;38;2;255;87;255;48;2;0;0;0m [0;38;2;171;0;171;48;2;0;0;0m    [0;1;38;2;87;87;255;48;2;0;0;0m  [0;1;38;2;255;87;255;48;2;0;0;0m [0;1;38;2;87;87;255;48;2;0;0;0m                      [0;38;2;0;0;171;48;2;0;0;0m [0;38;2;0;0;0;48;2;171;0;171m░[0;38;2;171;0;171;48;2;0;0;0m▓[0m
           [1;38;2;87;87;255;48;2;0;0;0m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m         [1;38;2;87;87;255;48;2;0;0;0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [38;2;0;0;171;48;2;0;0;0m [0;1;38;2;87;87;255;48;2;0;0;171m▄░ [0;38;2;0;0;171;48;2;0;0;0m █[0;1;38;2;87;87;255;48;2;0;0;171m▄ [0;1;38;2;87;87;255;48;2;0;0;0m  [0;38;2;0;0;171;48;2;0;0;0m█████████████ ░[0;1;38;2;87;87;255;48;2;0;0;171m▄░[0;38;2;0;0;171;48;2;0;0;0m▌▐[0;1;38;2;87;87;255;48;2;0;0;171m▄ [0;38;2;0;0;171;48;2;0;0;0m ███████████████████████████████████████[0;38;2;0;0;171;48;2;0;0;171m▄▄▄▄[0;38;2;0;0;171;48;2;0;0;0m█ ██[0m
 [38;2;171;0;171;48;2;0;0;0m [0;1;38;2;87;87;255;48;2;0;0;171m   [0;38;2;171;0;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m███[0m       [38;2;0;0;171;48;2;0;0;0m▀█▀[0m      [38;2;0;0;171;48;2;0;0;0m░[0;1;38;2;255;87;255;48;2;0;0;171m [0;38;2;0;0;171;48;2;0;0;0m█▌▐██[0m       [38;2;0;0;171;48;2;0;0;0m▀█▀[0m     [38;2;0;0;171;48;2;0;0;0m▀█▀[0m     [38;2;0;0;171;48;2;0;0;0m▀[0m     [38;2;0;0;171;48;2;0;0;0m████▀[0m     [38;2;0;0;171;48;2;0;0;0m▀█▀[0;1;38;2;87;87;87;48;2;0;0;0m    [0;38;2;0;0;171;48;2;0;0;0m██[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: ed7845c0134cc6078f15a38a2cf287f6b6c1d5dfb4dc9064a258b83be7d83930
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CIRCE.ANS by The Upright Man + Arlequin (rmrs-23); released in rmrs-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -34,6 +34,6 @@ Write-Host '
 [1;34;44m╬b.     .d╬L   ÑÑÑÑÑ$.[0;1;37;44m  [0;1;36;44m  └[0;36;44m╩[0;1;34;44m╩╩╩┘ ├╬╬╫╫yyyy▬▬▬▬[0;36;44m▬▬▬▬▬▬▬▬▬[0;1;36;44m▬▬▬▬▬▬▬▬▬▬▬yyyy[0;36;44m┼╬╬[0;1;36;44m╬┼┬┬┬┬[0m
 [36;44m╬╬╬╬$Ç$╬╬╬╬╬┌._`┘*4ÑSS. [0;1;36;44m║├[0;36;44m╥╥╥╥╥╖[0;1;34;44m ├╬╬╫╫╫╫╫╫╫╫╫╫[0;36;44m╫╫╫╫╫╫╫╫╫╫╫╫╫╫╫╫╫╫╫╫╫╪╪╪╫╫╪[0;1;36;44m╪╫╫╪╪┼[0m
 [1;36;44m`````````[0;36;44m``````        [0;1;36;44m ````````[0;1;34;44m `````````````[0;36;44m```````````````````````````[0;1;36;44m``````[0m
-[44mArlequin [Circe] and The Upright Man [Remorse Senior][0;34;40m██████████████████████████[0m
-[34;44mgreets: brad, neil, ryan, mikael, tk                     [0;34;40m█████████[0;34;44m           [0;34;40m██[0m
+[44m                                                     [0;34;40m██████████████████████████[0m
+[34;44m                                                         [0;34;40m█████████[0;34;44m           [0;34;40m██[0m
 [34;44m                                                          [0;34;40m█████████████[0;34;44m        [0m'

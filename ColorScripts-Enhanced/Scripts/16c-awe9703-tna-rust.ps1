@@ -5,7 +5,7 @@
 # Source SHA-256: ed4d8a658ae06a4051d9ce11ffa8b51f0a1ea9e67113dc86cfde97533e5bf45e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-RUST.ANS by The Night Angel (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rust
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -26,7 +26,7 @@ Write-Host '
 [36;40m [0;37;40m░ [0;31;40m█ ▄[0;33;41m░[0;31;43m▓▓▒▒[0m [31;40m▀ [0;34;40m▓[0;1;34;44m░[0;34m█ [0;31m▐▌  [0;31;43m░[0;33;41m▓▒[0;31;43m▒[0;33;41m░[0;31;43m▓[0;33;40m▄[0m     [34;40m▀▀[0;36;44m░[0;34;46m▓[0m    [1;37;40mHappy birthday John.  I know I''m late,[0m
 [34m▄  [0;31m▓ [0;31;43m▓▒[0;33;41m▒[0;31;43m░[0;33;41m▓[0;31;43m░[0;33;40m▄ [0;34;40m▐█[0;1;34;44m▀[0;34m▀▀ [0;31m▀[0;1;33m▄  [0;33m▀[0;31;43m░░[0;33;41m▓[0;31;43m░[0;33;40m█▄▄▄░[0;30;43m▓[0m   [34;40m▀    [0;1;37;40mbut hey, it''s the thought that counts.[0m
 [1;34;44m▄[0;34m▄ [0;31m░ [0;31;43m░[0;33;40m▀▀░[0;30;43m▓[0m   [34;40m▀[0;33;40m▄[0;1;33;40m▄▄[0;1;33;43m▄▄[0;1;33;40m█[0;1;33;43m█[0;1;33;40m█[0;1;33;43m▓▒░[0;33m▄▄ ▄[0;1;33m▄[0;1;33;43m▄[0;1;33;47m█[0;1;33;43m▓▒░[0;33m▓▒░    [0;1;37mAnyway, I hope you had a cool birthday[0m
-[1;34;44m░[0;34m▌ [0;1;30m▄[0m     [33m▄[0;1;33;43m▄[0;33m▄[0;1;33;43m▄█[0;1;33;40m██[0;1;37;40m██[0;1;33;40m█████[0;1;33;43m█▄▄[0;1;33;40m▄[0;1;33;43m▄[0;1;33;40m██[0;1;33;47m█[0;1;33;40m██▀  [0;34m▄▄    [0;1;37mand stuff.  Hope you enjoy that ansi[0m
+[1;34;44m░[0;34m▌ [0;1;30m▄[0m     [33m▄[0;1;33;43m▄[0;33m▄[0;1;33;43m▄█[0;1;33;40m██[0;1;37;40m██[0;1;33;40m█████[0;1;33;43m█▄▄[0;1;33;40m▄[0;1;33;43m▄[0;1;33;40m██[0;1;33;47m█[0;1;33;40m██▀  [0;34m▄▄    [0;1;37m                                    [0m
 [34m█ [0;1;30m▐▌ [0;33m▄[0;1;33m▄█  █[0;1;33;43m█[0;1;33;40m█████▀▀▀[0;1;30;40m▀▀   [0;1;33;40m▄▄████[0;1;33;47m▓[0;1;33;40m▌  [0;34m█[0;1;34;44m▀[0;34m█    [0;1;37mtoo. Talk to you later dude.  By the[0m
 [34m█ [0;1;30m█  [0;1;33;47m█[0;1;33;40m██░ ▐██▓▀ [0;34m▄▄██▀ [0;1;33m▄▀ ▄█[0;1;37m██[0;1;33m█▀[0;1;33;43m█[0;1;33;40m▀■ ▄ [0;34m█    [0;1;37mway, my birthday is June 15th.  =)  [0;36m░[0m
 [34;46m▓[0m [1;30;40m█  [0;1;33;40m▀█[0;1;33;43m█[0;1;33;40m▓ ▄██▌ [0;34m██[0;1;34;44m░░[0;34m▀ [0;1;33m▐▌ ▄ ▀██[0;1;33;43m█▀[0;33m▄ [0;34m▄▄▄▐[0;1;34;44m░[0m

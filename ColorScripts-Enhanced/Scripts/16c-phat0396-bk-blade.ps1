@@ -5,7 +5,7 @@
 # Source SHA-256: 1982b910b7afba2cd576b71cd9a7419eaaae4690192b904a8f4b8a300fcd88ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-BLADE.ANS by blackknight (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: a header for blade's lits
 # SAUCE Author: blackknight
 # SAUCE Group: READ THE INI FILE
@@ -39,4 +39,4 @@ Write-Host '
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;32;47m▓ ▒[0m [1;32;40m▐[0;1;32;47m▌ ▐[0;1;32;40m▌[0;1;32;47m▒ ▓[0m [1;32;40m▐[0;1;32;47m▌ ▐[0;1;32;40m▌ [0;1;32;47m▓ ▒[0;1;32;40m▐[0;1;32;47m▌ ▐[0;1;32;40m▌ [0;1;32;47m▓ ▒[0;1;32;40m▐[0;1;32;47m▌▐[0;1;32;40m▌ ▐[0;1;32;47m▌ ▐[0;1;32;40m▌ [0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 ░ ░░ ░░░ ░░░░ ░░░░[1;30m▌[0;1;32;47m▒[0;1;37;47m░[0;32;47m▓[0;37;40m░░[0;1;32;47m▓[0;1;37;47m░░[0;1;32;47m▓░[0;1;37;47m░[0;32;47m▓[0;37;40m░[0;1;32;47m▓[0;1;37;47m░░[0;32;47m▓[0;37;40m░░[0;1;32;47m▒[0;1;37;47m░[0;32;47m▓▓[0;1;37;47m░░[0;1;32;47m▓[0m░░[1;32;47m▒[0;1;37;47m░[0;32;47m▓▓[0;1;37;47m░░[0;1;32;47m▓[0;1;32;40m▄[0;1;32;47m▓[0;32;47m▄▄▄▓[0;1;30;40m▐[0m░░░░ ░░░░ ░░░ ░░ ░
                    [32;47m▓ █[0m [32;40m▐[0;32;47m▌ ▐[0;32;40m▌▐[0;32;47m▌▐[0;32;40m▌▐[0;32;47m▌ ▐[0;32;40m▌ [0;32;47m▓ █[0;32;40m▐[0;32;47m▌ ▐[0;32;40m▌ [0;32;47m▓ █[0;32;40m▐[0;32;47m▌▐[0;32;40m▌ ▄▄▄▄▄[0m
-[37;40mno, not the group! [0;32;47m█▄[0;1;30;42m░[0;32m▄█[0;32;47m▄[0;1;30;42m░[0;32m▀  ▀[0;32;47m▄[0;1;30;42m░[0;32m▄▀[0;32;47m▓▄[0;1;30;42m░[0;32m▄[0;32;47m█▄[0;1;30;42m░[0m [32m▀[0;32;47m▓▄[0;1;30;42m░[0;32m▄[0;32;47m█▄[0;1;30;42m░[0m [32m▀[0;32;47m▄[0;1;30;42m░[0;32m▄[0;32;47m▓▄▄[0;1;30;42m░[0;32m▌ [0;37mo''phat productions[0m'
+[37;40m                   [0;32;47m█▄[0;1;30;42m░[0;32m▄█[0;32;47m▄[0;1;30;42m░[0;32m▀  ▀[0;32;47m▄[0;1;30;42m░[0;32m▄▀[0;32;47m▓▄[0;1;30;42m░[0;32m▄[0;32;47m█▄[0;1;30;42m░[0m [32m▀[0;32;47m▓▄[0;1;30;42m░[0;32m▄[0;32;47m█▄[0;1;30;42m░[0m [32m▀[0;32;47m▄[0;1;30;42m░[0;32m▄[0;32;47m▓▄▄[0;1;30;42m░[0;32m▌ [0;37m                  [0m'

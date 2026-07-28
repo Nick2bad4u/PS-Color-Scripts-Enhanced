@@ -5,7 +5,7 @@
 # Source SHA-256: 6fdad6f2e886ef3d3f68fb55b90cded6e3d36aca087e0595f5cbe1390e7bdf9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-ST2.ANS by Sinister X (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sadistic Temptations
 # SAUCE Author: Sinister X
 # SAUCE Group: ACiD Productions
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[36m█[0;1;36;46m░[0;36m█████████████▀[0;37m [0;1;30mSiNiSTER X [FeAR Founder]  Greetz to sm.dv.sh.sl.[0m [1;33m▐███████████▓[0m
+[36m█[0;1;36;46m░[0;36m█████████████▀[0;37m [0;1;30m                                                 [0m [1;33m▐███████████▓[0m
 [36m█[0;1;36;46m▒[0;36m█[0;1;36;46m▄[0;36m█[0;1;36;46m▀▀▀▓█████[0;36m█[0;37m [0;1;30mki.pr.np.sd.pt.ou.pg.ad.zen.zw.andeveryoneoutthere.[0m [1;33m▓███████████[0m
 [36m█[0;1;36;46m▓ [0;36m█[0;1;36;46m░[0;36m█[0;1;36;46m▓▄ [0;36m█[0;1;36;46m▀▀▓▓[0;36m█▄▄▄▄▄▄▄▄▄▄ [0;35m░[0;37m  [0;36m▄▄[0;37m [0;36m ▄▄▄▄▄▄▄▄▄[0;37m [0;36m■[0;37m  [0;34m░░[0;37m [0;36m▄▄▄▄▄▄▄▄▄▄▄▄▌[0;37m  [0;1;33m▄▄▄▄████████████[0m
 [36m█[0;1;36;46m█[0;36m██[0;1;36;46m▄[0;36m█[0;1;36;46m■[0;36m██▀▀▀▀▀▀▓▓██[0;1;36;46m░[0;36m█▓▀▀▓▓▄▄■[0;37m [0;36m█▓[0;37m [0;35m■[0;37m [0;36m▀█[0;1;36;46m▀▓▄[0;36m█▓[0;37m [0;34m░[0;37m [0;36m▓▄[0;37m  [0;36m▀▀[0;1;36;46m▀▀▓▀[0;36m█▀▀▀█[0;1;36;46m▀■[0;36m▄ [0;37m [0;1;33m▀▓█████████████[0m

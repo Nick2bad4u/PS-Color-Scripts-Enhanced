@@ -5,7 +5,7 @@
 # Source SHA-256: fb7559e78ddb8f697b331cc77f4d33c45ed0164e4e7011c3d76bbf9b0899e1e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-SYSOP.ANS by Superfly (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -14,9 +14,9 @@ Write-Host '
 [37;40m┌───────[0;1;30;40m──[0m─[1;30m─[0m─[1;30m─────────[0m─[1;30m──[0m─[1;30m───────[0m─[1;30m──[0m─[1;30m─[0m───[1;30m─[0m──────┐     [1m▐[0;1;46m▌▄[0;36;46m█[0;1;37;46m▀[0;36;46m██████████████████[0m
 [37;40m│[0m                                               [37;40m│[0m     [1;37;47m█[0;36;46m█[0;1;37;46m▄[0;36;46m████████████████████[0m
 [1;30;40m│ [0;1;37;40mB[0;1;36;40ml[0;36ma[0;1;30mcklist[0m     [1;37mL[0;1;36mo[0;36mg[0;1;30ms[0m            [1;37mN [0;1;36mL[0;36mi[0;1;30mbraries[0m     [1;30m│[0m     [1;37;46m▌▀[0;36;46m█████████████████████[0m
-[37;40m│ [0;1;37;40mC[0;1;36;40mo[0;36mn[0;1;30mf. Manager [0;1;37mM[0;1;36ma[0;36mk[0;1;30me User[0m       [1;37mR [0;1;36mM[0;36me[0;1;30mnu Prompts  [0m│    [30m▐[0;36;46m█████████[0;34;46m▄▄[0;36;46m████████████[0m
+[37;40m│ [0;1;37;40m [0;1;36;40m [0;36m [0;1;30m           [0;1;37m [0;1;36m [0;36m [0;1;30m      [0m       [1;37m  [0;1;36m [0;36m [0;1;30m            [0m│    [30m▐[0;36;46m█████████[0;34;46m▄▄[0;36;46m████████████[0m
 [1;30;40m│ [0;1;37;40mD[0;1;36;40ma[0;36mt[0;1;30ma Areas    [0;1;37mT[0;1;36me[0;36mx[0;1;30mt Editor[0m     [1;37mV [0;1;36mE[0;36mv[0;1;30ment Editor  │    [0;36;46m████████[0;34;46m▄▀[0;36;46m██[0;34;46m▀▀▄[0;36;46m█████████[0m
-[1;30;40m│ [0;1;37;40mE[0;1;36;40md[0;36mi[0;1;30mt Menu[0m     [1;37mP[0;1;36mr[0;36mo[0;1;30mtocol Editor [0;1;37mX [0;1;36mE[0;36mx[0;1;30mtract Votin │[0m     [34m▀[0;1;33;46m▄▄[0;36;46m██[0;34;46m▐[0;36;46m█[0;34;46m▌[0;36;46m██[0;1;33;46m▄▄▄[0;36;46m██████████[0m
+[1;30;40m│ [0;1;37;40m [0;1;36;40m [0;36m [0;1;30m      [0m     [1;37m [0;1;36m [0;36m [0;1;30m             [0;1;37m  [0;1;36m [0;36m [0;1;30m            │[0m     [34m▀[0;1;33;46m▄▄[0;36;46m██[0;34;46m▐[0;36;46m█[0;34;46m▌[0;36;46m██[0;1;33;46m▄▄▄[0;36;46m██████████[0m
 [1;30;40m│ [0;1;37;40mG[0;1;36;40mo[0;36mo[0;1;30mdbye[0m       [1;37mQ[0;1;36mu[0;36mi[0;1;30mt to Main    [0;1;37mY [0;1;36mP[0;36ma[0;1;30mram. Editor │[0m     [1;33m▐[0;1;33;41m█▄[0;1;33;40m█[0;1;33;46m▄[0;36;46m█[0;34;46m▀[0;36;46m█[0;1;33;46m▄[0;1;33;40m██[0;1;33;41m█▄[0;1;33;40m█[0;36;46m█████████[0m
 [1;30;40m│ [0;1;37;40mI[0;1;36;40mn[0;36mf[0;1;30moforms[0m     [1;37mS[0;1;36my[0;36ms[0;1;30mtem Config   [0;1;37m& [0;1;36mJ[0;36mu[0;1;30mmp To Dos   │[0m     [34m▄[0;1;33m▀▀▀[0;34;46m▌[0;36;46m███[0;34;46m▐[0;1;33;40m▀▀▀▀[0;34m▄[0;36;46m█████████[0m
 [1;30;40m│ [0;1;37;40mK[0;1;36;40mi[0;36ml[0;1;30ml ''forms   [0;1;37mU[0;1;36ms[0;36me[0;1;30mr Editor[0m     [1;37m! [0;1;36mP[0;36mr[0;1;30mompt Editor │   [0;34m▄[0;34;46m▀[0;36;46m█[0;34;46m▀▀▀[0;36;46m█████[0;34;46m▀▀▀▀[0;36;46m██████████[0m

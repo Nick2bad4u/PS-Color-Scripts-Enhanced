@@ -5,7 +5,7 @@
 # Source SHA-256: ece0298e49342d3ec1693f8d4f0e4dae715f8539db1938ec1a1b98049b9aad0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-TSN.ANS by The Image (READ THE INI FILE); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Stellar Nights add
 # SAUCE Author: The Image
 # SAUCE Group: READ THE INI FILE
@@ -18,16 +18,16 @@ Write-Host '
   [1;30;40m▄▄▄▄▄▄▄▓▄▄▄▄▄[0;30m▄▄[0m [37m [0;30m            [0;1;30m    [0;30m [0;1;30m     [0;30m [0;1;30m  [0;30m [0;1;30m  [0;30m [0;1;30m    [0;1;37m [0;1;36m [0;36m [0;1;30m   [0;1;37m [0m [1;30m                   [0m
  [1;30m▓██▀▀[0m [36m▄▄▄▄▄[0m [1;30m▀▀██▓ [0;1;37m█[0m                              [31m▄▄[0m         [31m▓[0m                [1;30m [0m
 [1;30m▐██[0m [36m▄▓[0;1;35;46m░[0;36m██▄████▄[0m [1;30m██▌[0;1;37m▐▌[0;31m▄▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄[0;37m [0m
-[1;30m▐█[0m [1;35m▄ [0;36m▀▀█[0;1;35;46m░[0;36m█▒█▀▀[0m [1;35m▄[0;1;30m █▌[0;1;37m▐▌[0;31m▐[0m [1;37mWarning:[0m [31mimage has not attempted a pic in a while, so[0m [31m▓▌[0m
+[1;30m▐█[0m [1;35m▄ [0;36m▀▀█[0;1;35;46m░[0;36m█▒█▀▀[0m [1;35m▄[0;1;30m █▌[0;1;37m▐▌[0;31m▐[0m [1;37m        [0m [31m                                            [0m [31m▓▌[0m
 [1;30m▐█▌[0;1;35m▐██▄▄▄▄[0;36m░[0;1;35m▄▄▓█▌[0;1;30m▐█▌[0;1;37m▐▓[0;31m▐▄▄▄[0;1;35m [0;31m                            [0m  [31m▄▄▄▄▄▄▄▄▄▄▄[0;1;31;41m░[0;31m▄▄▄▄▄▄▄▄█▒[0;37m [0m
 [1;30m▐▓█[0m [1;35m█▀███▓███▒█[0m [1;30m█▄▌[0;1;37m▐▌[0;1;30m▄[0m [31m▀▓█▄▓▄▄▀▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▓▄▄▄▄▓[0;1;31;41m░[0m [1;30;40m▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▓▄[0m [31m░[0;37m [0m
 [1;30m▐██[0m [1;35m███▓█████░█[0m [1;30m▒█▌[0;1;37m▐▄[0m [1;30m▓▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄ [0;31m▒[0m [1;30m▄▄▄▄▄▄▄[0m [31m▒[0;1;30m ▄▄[0m [31m▒[0m [1;30m▄██▓▀[0;1;30;41m▓▒[0;1;30;40m▀▀▀■▀▀▀▓▀▀▀▒[0m
 [1;30;40m▐▄█[0m [1;35;40m████▄███▓██[0m [1;30;40m▓█▌[0;1;37;40m▐▌[0m [1;30;40m▒▀▀▀▀▓▀▀▀▀ ▀▀[0;1;30;45m▓[0;1;30;40m▀■▒[0m [31m░[0m [1;30m▀▀▀▀▓▄▀[0m   [1;30m▓■[0m   [1;30m▀▀[0m
 [1;30m▐▓█ [0;1;35m███████████[0m [1;30m██▌[0;1;37m▐▌[0m      [1;30m▒[0m       [1;30;45m▒[0m          [1;30;40m▐▓[0m    [1;30;40m▒[0m
-[1;30;40m▐█▓[0m [1;35;40m███▓███████[0m [1;30;40m██▌[0;1;37;40m▐▓[0m [31m     [0;1;30m░[0mgr33tz->[1;30mthe wizard[0;30ms[0;1;30m▒eerie  lestat stone the crow[0m
-[1;30m▐██[0m [1;35m██[0;1;35;46m▓[0;1;35;40m████████[0m [1;30;40m▓█▌[0;1;37;40m▐▒[0m [1;30;40mkrux ricker phatal cyruthalt hermit mantis T2 and[0;30mgot[0m
-[1;30m▐█▓[0m [1;35m▓████▄█▓██▀[0m [1;30m██▌[0;1;37m▐▌[0m [1;30myour dead sister''s boyfriend...[0;30m:[0;1;30moh yeah.. hey lefty,[0m
-[1;30m ▓█▄▄▄▄▄▄▄▄▄▄▄▄▓█▀[0m [1;37m▄▌[0m [1;30mare ya proud? ;)[0;30mead.[0m [1;30m▄[0m
+[1;30;40m▐█▓[0m [1;35;40m███▓███████[0m [1;30;40m██▌[0;1;37;40m▐▓[0m [31m     [0;1;30m░[0m        [1;30m          [0;30m [0;1;30m▒                            [0m
+[1;30m▐██[0m [1;35m██[0;1;35;46m▓[0;1;35;40m████████[0m [1;30;40m▓█▌[0;1;37;40m▐▒[0m [1;30;40m                                                 [0;30m   [0m
+[1;30m▐█▓[0m [1;35m▓████▄█▓██▀[0m [1;30m██▌[0;1;37m▐▌[0m [1;30m                               [0;30m [0;1;30m                    [0m
+[1;30m ▓█▄▄▄▄▄▄▄▄▄▄▄▄▓█▀[0m [1;37m▄▌[0m [1;30m                [0;30m    [0m [1;30m▄[0m
 [1;37m▄[0m [1;30m▀▀▓▀▀▓▀▀▀▀■▀▀ [0;1;37m▄▄▀[0m   [1;30m▀▄▄▓▄▄▄▄▄▄██▓▄▄■█▄▄█▄▓[0m  [1;37m                                [0m
  [1m▀▀▀▀▀[0m [1;30m▒[0m [1;37m▀▀▀▀▀▀▀[0m         [1;30m▒[0m            [1;30m▓[0m
        [1;30m░[0m                              [1;30m▒[0m

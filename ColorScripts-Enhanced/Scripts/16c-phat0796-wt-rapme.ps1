@@ -5,7 +5,7 @@
 # Source SHA-256: 7af96fb0f438884c088e177e0d16d698c78e011b7a30b598c0f25fcb5a01c25b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WT-RAPME.ANS by Wiktor (phat); released in phat0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rapme (uiuiuiu)
 # SAUCE Author: Wiktor
 # SAUCE Group: phat
@@ -38,4 +38,4 @@ Write-Host '
 [1;30m▀[0m [36m▀█[0;1;30;46m░[0;46m░[0;36;40m▀▀▀█[0;37;40m [0;36;40m▀█[0;37;46m░[0;1;36;46m▒[0;36m▀▀[0;1;30;46m░[0;32m [0;36m▀[0;37;46m■[0;36;40m██▀▀▀[0;1;30;46m░[0;30m [0;1;30m▀▓ ▒[0m [36m▀██[0;1;33;46m░[0;36m▀▀▀[0;37m [0;36m▀[0;1;30;46m░[0;46m░ [0;1;33;46m░[0;36m▀[0;37;46m░[0;37;40m [0;36;40m▀█[0;37;46m░[0;36;40m█[0;1;30;46m░[0;36m▀[0;37;46m░[0;37;40m [0;36;40m▀[0;37;46m░[0;1;30;46m░[0;36m█[0;1;30;46m░[0;36m▀▀█[0;37m [0;36m▀[0;1;30;46m░[0;46m░[0;1;36;46m░[0;36m▀▀▀[0;37m [0;1;30m▓▀[0m [1;30mby▀[0m
 [1;30m▓[0m   [1;30;46m░[0;36m█[0;37;46m░[0;37;40m [0;36;40m▀▀[0;37;40m  [0;32;40m [0;37;46m░[0;1;36;46m▓[0;36m ▀[0;1;30;46m▒[0;32m  [0;36m [0;1;30;46m░[0;1;33;46m░[0;36m ▀▀▀[0;37m [0;1;30m█▀ ▓[0m [36m▄[0;37m [0;36m▀[0;1;30;46m░[0;46m░▒[0;36;40m▄[0;37;40m [0;1;30;40m■[0m [1;30;46m░[0;46m░[0;1;33;46m░[0m [1;30;46m░[0m  [36m [0;1;30;46m░[0;46m░[0;1;36;46m░[0m [1;30;46m░[0m   [1;36;46m░[0;46m░[0;35;46m░[0;36;40m ■▄[0;37;40m [0;36;40m▄ ▀[0;1;30;46m░[0;46m░[0;36;40m█[0;1;30;46m░[0m [1;30m█[0m [1;30mstil[0m
 [1;30m▀▀[0m [36m▀▀▀▀▀[0;37m [0;36m▀[0;37m [0;36m▀▀▀[0;1;36m▀[0m [36m▀▀[0;37m [0;36m▀▀▀▀▀[0;37m [0;1;30m▀▀▓▀[0m [1;30m▀▀[0m [36m▀▀▀▀▀[0;37;46m░[0;36;40m▀[0;37;40m [0;36;40m▀▀▀▀▀▀▀[0;37;40m [0;36;40m▀▀▀▀▀[0;37;40m [0;1;30;46m▒[0m [36m▀▀▀▀▀▀▀▀[0;37m [0;36m▀▀▀▀▀[0;37;46m░[0;36;40m▀[0;37;40m [0;1;30;40m▀▀▓[0m  [1;30m▀[0m
-[1;30m+-──-─ -─────────-─-+[0m [1;30mGreetinx fly out to all WHiSPER Members[0m [1;30m+-───────────-──-+[0m'
+[1;30m  ── ─  ───────── ─  [0m [1;30m                                       [0m [1;30m  ─────────── ──  [0m'

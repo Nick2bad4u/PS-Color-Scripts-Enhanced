@@ -5,7 +5,7 @@
 # Source SHA-256: df4ade0de68cebabe73f4ca0cdeb61930fb2b3bac6cac5eb0ac280f9e44c0ac8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-5TH.ANS by sad (fuel); released in fuel19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 5th element
 # SAUCE Author: sad
 # SAUCE Group: fuel
@@ -17,10 +17,10 @@
 Write-Host '
 [1;32m▄■[0m    [1;32m  ▄[0m                 [1;32m░░[0m                                                 [1;32m■▄[0m
 [1;32m▐▄▓▓▄[0;1;32;42m▓[0;1;32;40m▀[0;1;33;40m  [0;33m▄▓[0;1;33;43m▒▓▓█▓[0;1;33;40m██▄▄▄ [0;1;32;40m  ■▄▓▓[0;1;32;47m▓▓░[0m▓▓ [1;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▓▓[0;1;32;47m▓▓[0;1;32;40m▄▌[0m
-[1;32;42m░[0;1;32;40m▌░░▌[0;1;33;40m [0;33m▄[0;1;33;43m░▒▒▓▓[0;1;33;40m██▀▀█████[0;1;33;47m██[0;1;33;40m▄ [0;1;32;40m▐▌[0m    [1;36mthis is an attempt to draw a manga-ansi. [0m    [1;32m▓▓[0;1;32;42m▓[0m
-[1;32;42m▒[0;1;32;40m▀[0;1;33;40m [0;1;32;40m▄[0;1;33;40m [0;1;33;43m░░▒▓▓[0;1;33;40m██▓ [0;1;37;40m▄[0;1;33;40m ▐▌[0;1;37;40m■[0;1;33;40m▀█[0;1;33;47m██▓[0;1;33;40m▌ [0;1;32;40m▀■[0m   [1;36mbetter never do it again. as it is, this[0m    [1;32m░░▐[0;1;32;42m▓[0m
-[1;32;42m▓[0;1;32;40m▄■[0;1;33;40m [0;33m▐[0;1;33;43m░▒▓▓[0;1;33;40m███▌       ▓███▓[0m       [1;36mansi is for a board called 5th element.[0m    [1;32m▄■▀[0;1;32;42m░[0m
-[1;32;42m▒[0;1;32;40m▌[0m   [1;33;43m░░▒▓▓▓[0;1;33;40m██▄  ▄█▄███[0;1;33;47m██[0;1;33;40m▌[0m■▄ [1;36mbeen trying to be cool, ever since highschool[0m  [1;32m▌■▄[0;1;32;42m░[0m
+[1;32;42m░[0;1;32;40m▌░░▌[0;1;33;40m [0;33m▄[0;1;33;43m░▒▒▓▓[0;1;33;40m██▀▀█████[0;1;33;47m██[0;1;33;40m▄ [0;1;32;40m▐▌[0m    [1;36m                                         [0m    [1;32m▓▓[0;1;32;42m▓[0m
+[1;32;42m▒[0;1;32;40m▀[0;1;33;40m [0;1;32;40m▄[0;1;33;40m [0;1;33;43m░░▒▓▓[0;1;33;40m██▓ [0;1;37;40m▄[0;1;33;40m ▐▌[0;1;37;40m■[0;1;33;40m▀█[0;1;33;47m██▓[0;1;33;40m▌ [0;1;32;40m▀■[0m   [1;36m                                        [0m    [1;32m░░▐[0;1;32;42m▓[0m
+[1;32;42m▓[0;1;32;40m▄■[0;1;33;40m [0;33m▐[0;1;33;43m░▒▓▓[0;1;33;40m███▌       ▓███▓[0m       [1;36m                                       [0m    [1;32m▄■▀[0;1;32;42m░[0m
+[1;32;42m▒[0;1;32;40m▌[0m   [1;33;43m░░▒▓▓▓[0;1;33;40m██▄  ▄█▄███[0;1;33;47m██[0;1;33;40m▌[0m■▄ [1;36m                                             [0m  [1;32m▌■▄[0;1;32;42m░[0m
 [1;32;42m░░▓[0m░░[1;33m [0;33m▀▓[0;1;33;43m░▒▒▓█[0;1;33;40m▀▀▀▀  ▄▄[0;1;33;47m█▓[0;1;33;40m▀ [0m▄▌[1;33m  [0;36m it''s just another sad%fuel%production%97[0;37m  [0;1;33m [0;1;32m░░▓[0;1;33m [0;1;32m▐[0m▓
 [1;32m▐▀[0;1;32;47m▓░░▓[0;1;32;40m▄▄[0;1;33;40m  [0;33m▀[0;1;33m   ▄█[0;1;33;47m▓[0;1;33;40m█[0;1;33;47m█▓[0;1;33;40m▀▀ [0;1;32;40m▄[0;1;32;47m░░▓▓[0;1;32;40m▄▄▄▄▄▄▄▄▄▄▄[0;1;32;42m▓▓[0;1;32;40m▄ [0;1;32;42m▓░░[0;32m▄▄▄▄▄▄▓▓▄▄ [0;1;32;47m░░▓▓[0;1;32;40m▄▄▄▄▄▄▄▄▄▄▄[0;1;32;42m▓░░▓[0;1;32;47m▓░░[0m
 [1;32m▀■[0m     [1;32m▀▀[0m [1;36mmwa!i''m sad[0m [1;32m▀▀[0m░░             [1;32m■▀▌[0m          [32m░░▓▌ [0;37m░░[0m                  [37m■▀[0m

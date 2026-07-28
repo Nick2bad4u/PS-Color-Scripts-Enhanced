@@ -5,7 +5,7 @@
 # Source SHA-256: be4fadbc4cf69f55f51d61f6fc07646b624660fe2bf713a4a92a056ad6abb24d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-VX1.ANS by Tae (Lapse Productions); released in lap-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Violator X
 # SAUCE Author: Tae
 # SAUCE Group: Lapse Productions
@@ -35,7 +35,7 @@ Write-Host '
 [1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m       [36m                                                 [0m      [1;37;47m▒░    [0;1;30;47m░▒[0m
 [1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m         [36m                                            [0m         [1;37;47m▒░    [0;1;30;47m░▒[0m
 [1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m      [36m                                                  [0m      [1;37;47m▒░    [0;1;30;47m░▒[0m
-[1;30;40m [0;1;30;47m▓▒░  [0;1;37;47m░▒▓[0m           [36mNetwork Contacts I can be reached at are :[0m         [1;37;47m▓▒░  [0;1;30;47m░▒▓[0m
+[1;30;40m [0;1;30;47m▓▒░  [0;1;37;47m░▒▓[0m           [36m                                          [0m         [1;37;47m▓▒░  [0;1;30;47m░▒▓[0m
 [1;30;40m [0;1;30;47m▓▓▒░[0;1;37;47m░▒▓▓[0m    [36m                                                          [0;1;37;47m▓▓▒░[0;1;30;47m░▒▓▓[0m
  [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m       [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1m ██████████████████████████████████████▀[0m     [1m▄[0;1;47m█████████████████████████▓▓▓█████[0m

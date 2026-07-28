@@ -5,20 +5,20 @@
 # Source SHA-256: 35fc4832eb67adf69baeb26f0a104d303c90a7d64a1e8871ec0068081a9a03b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-ESP5.ANS by Rabid Doctor (esp0496); released in esp0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
             ▄███▄
 [1;31m█▀▀▀▀▀▀▀▀▀▀[0;1;30m░[0m██▐███ [1;31m█▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄[0m
-[1;31m█[0m   ▄█████▄  ▀ ▐██▌[1;31m█[0m  [1;30meaSTeRN SeaBoaRD PiRaTeS we use other groups [0;1;31m▀[0m
+[1;31m█[0m   ▄█████▄  ▀ ▐██▌[1;31m█[0m  [1;30m                                             [0;1;31m▀[0m
 [1;31m█[0m  ▄███▌███▌   ▄██▌[1;31m█[0m [1;30mas target fucking practice!                  [0m [1;31m█[0m
 [1;31m█[0m  ▓██▀  ▀▀▄██████▌[1;31m█▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀[0m
 [1;31m█[0m  ▒▓█▄  ▄███▀ ██▓▌[1;31m█[0m
 [1;31m█[0m   ▒▓█  ███▀  █▓▒▌[1;31m█▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄   ▄▄▄ ▄▄▄▄▄▄▄▄ ▄▄▄▄[0m
 [1;31m█[0m   ░▒▓▄ ███▄  ▓▒░ [1;31m█ [0m [1;30m                                                   [0;1;31m▀[0m
-[1;31m█[0m    ░▒▒  ██▓ ▒▒░  [1;31m█[0;1;30m well as all other groups crappier than us!          [0;1;31m█[0m
+[1;31m█[0m    ░▒▒  ██▓ ▒▒░  [1;31m█[0;1;30m                                                     [0;1;31m█[0m
 [1;31m█[0m    ░░░   ▓▒░░░   [1;31m█[0;1;30m                                                    [0m [1;31m▄[0m
 [1;31m█[0m                  [1;31m█▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀[0m
 [1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m                             [1;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

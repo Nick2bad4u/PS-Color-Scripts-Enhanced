@@ -5,7 +5,7 @@
 # Source SHA-256: 52aaf3beaaf4e16e59f6ecf7b7e779e2136fd8500d8506a96154e48db512879f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MIHNOOMAH-SHOW DOWN.ANS by Mihnoomah (P.U.P.); released in blndr2022d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Show Down
 # SAUCE Author: Mihnoomah
 # SAUCE Group: P.U.P.
@@ -40,4 +40,4 @@ Write-Host '
 [37m▒▒░               [0;33m░░░[0;37m                    ░░           ░░░░░                 ░░░▒[0m
 [37m▒▒░░░                                      ░  ░░░░░░░░                      ░▒░▒[0m
 [37m▒░░░▒░░▒░░▒░░░░▒░░░▒░░░░░░░░░▒░░░░░░░░░░░░░░░░░░░░░░▒▒░░░░░░░░░░░░░░░▒░░░░░░░▒▒░[0m
-[1;37mCOWBOY / DUELLING / ABANDONED METAVERSE[0m▒░░▒█▒░░░░▒░▒▒░░░░░░░░░[1mmihnoomah for PUP[0m'
+[1;37m                                       [0m▒░░▒█▒░░░░▒░▒▒░░░░░░░░░[1m                 [0m'

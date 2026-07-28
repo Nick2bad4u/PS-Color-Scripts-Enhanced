@@ -5,7 +5,7 @@
 # Source SHA-256: 838fede595f8520dc105697f5ab4ffd34ff8e86882061b4b5f134403e3738f2f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-STB12.ANS by Integrity 06/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sarcastic Toaster
 # SAUCE Author: Integrity 06/95
 # SAUCE Group: Eerie
@@ -41,7 +41,7 @@ Write-Host '
           [1;35m████▀█▄░▄█▀███▀  ██▌[0m     [1;35m▄▀[0m                [1;30m▄▄▓    █▀  [0;30mall nasty and[0m
 [33m▀▄[0m      [1;35m▄██▌███▄▀▀█▌ ▄██▌   ██   ▄▓[0m          [1;30m▀ ▀▀▀[0m        [1;30m█▀  [0;30mstuff. thats why.[0;37m [0m
 [30m   [0;33m▀▄    [0;1;35m▀██ █[0;1;35;47m▓[0;1;35;40m██▄ ███▄██▌  ▄█▌▄▀▀██[0m                    [1;30;40m▄▀[0m
-     [33m▓▄   [0;1;35m▐██▄▀█[0;1;35;47m▓▒▒[0m▄[1;35m▀███[0;1;35;47m▓[0;1;35;40m██████▌    ▀▓[0m     [30mgreet to [0;1;30m▓ ▀ [0;30mvill, cuz he''s grounded[0;37m [0m
+     [33m▓▄   [0;1;35m▐██▄▀█[0;1;35;47m▓▒▒[0m▄[1;35m▀███[0;1;35;47m▓[0;1;35;40m██████▌    ▀▓[0m     [30m         [0;1;30m▓ ▀ [0;30m                       [0;37m [0m
 [30m  [0;33m░[0m                                 [33m░[0m                    [33m░[0m
 [33m  ▓▀[0m     [33m▀[0m      [33m▀[0;1;33;43m░[0;33m▀  [0;37m░[0m       [33m░▄■    ▀■▀[0m     [33m▀ ▀[0m         [33m▀▓   [0;37m░    [0;33m▀░ ■[0m
 [33m    [0;37;41m▓[0;37;40m█[0;1;37;40m▒ [0m■▀▀ ▓░ █▄ ■▄▄▓[43m▓[0;40m█[0;1;33;47m░[0m▀█▄   ▄■▀  ▓█▄■█▄ ■▄▄▓█[41m▓[0m [40m■▀▀ ▓░[0;1;33;47m░[0m ░  ▓█[41m▓▓[0;40m█  ▄■▀  ▓[0;43m▓[0;40m▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 91b97c28198cd106b9970668e36fbb21d16558070a34356429a3196e57cb21e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-KP1.ICE by TooN GooN (iCE); released in ice9509a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Kerplunk
 # SAUCE Author: TooN GooN
 # SAUCE Group: iCE
@@ -19,20 +19,20 @@ Write-Host '
 [1;34;44m█████▀[0;34m█▀██[0;31m [0;34m▀[0m                  [34m▄██████▀[0m     [34m▀[0m                      [34m▀█▄████████[0m
 [31m  [0;1;34m▀[0;34m▀▀▀█[0;31m   [0;34m▄[0m                  [34m▄████▀[0m          [34m▀▄[0;31m [0;34m▄[0;31m    [0;34m▄[0m            [34m█[0;31m [0;34m▄████████░[0m
       [34m▄[0m                        [34m▀▀▄[0m             [34m███▄▄[0;31m  [0;34m▄▄[0m      [34m▄▄██[0;31m   [0;34m▀█████[0;1;34;44m▄█▄[0m
-[30mthis is the first ansi i''ve drawn[0;34m ▀[0m             [34m███████▄▄▄▄▄█▄▄██▄[0;31m   [0;34m█████[0;1;34;44m█[0;1;34;46m▄[0;1;34;44m██[0;34m░[0;1;34m▄[0m
+[30m                                 [0;34m ▀[0m             [34m███████▄▄▄▄▄█▄▄██▄[0;31m   [0;34m█████[0;1;34;44m█[0;1;34;46m▄[0;1;34;44m██[0;34m░[0;1;34m▄[0m
 [30min 2 months.  everything else i''ve [0;34m▄[0m           [34m▐████████▄▄▄████▀[0;31m  [0;34m▀[0;31m  [0;34m▀█████[0;1;34;44m▀███▀[0m
 [30mdone recently or will do in the   [0;34m▀█▄[0m         [34m▄████[0;1;34;44m▄▄█[0;1;34;46m▀▀█[0;1;34;44m▄[0;34m█▀▀██▄[0m      [34m▀████[0;1;34;44m▄[0;1;34;46m█▓█[0;34m░[0m
 [30mnext 2 months is old stuff i nevr [0;34m███▄[0;31m [0;34m▄[0m       [34m▀[0;1;34;44m▀▄[0;1;34;46m▀[0;1;34;44m█[0;1;34;46m▄[0;1;34;44m██[0;1;34;46m▄█[0;34m█[0;31m    [0;34m▀[0m          [34m▀[0;1;34;44m▄[0;1;34;46m [0;1;34;44m█[0;1;34;46m▓█[0;34m░[0m
 [30mreleased..  i just had to draw one [0;34m█▀████[0m        [1;34;44m▀[0;1;34;46m███[0;1;34;44m█████▄[0m              [34m▄[0;1;34;44m██[0;1;34;46m▀██[0m
 [30mfor ol'' friar.. :)  greets to the    [0;34m▀▀▀[0m          [1;34;44m▀[0;1;34;40m▀[0;34m▀[0;31m    [0;34m▀[0;1;34m▀▀[0;31m [0;34m▄[0m       [34m▄████[0;1;34;44m [0;1;34;47m██[0;1;34;46m▀ [0m
 [30mwhole ice gang ''specially syntax for being [0;34m▀▄[0m                  [34m■[0m     [34m███████[0;1;34;44m▀█▀[0m
-[30ma very cool guy. this pic was taken from   [0;34m▄██▄[0m       [34m█▄[0;31m [0;34m█[0;31m [0;34m▄[0m          [34m▀███████▀[0m
+[30m                                           [0;34m▄██▄[0m       [34m█▄[0;31m [0;34m█[0;31m [0;34m▄[0m          [34m▀███████▀[0m
 [30mripclaw #2.  no, it isn''t an anime.. life [0;34m██████▄[0m      [34m▀[0;31m   [0;34m▀[0m        [34m▄███▄▄█[0;1;34;44m▄▄[0;34m█[0m
-[30mis alot of fun..  stop drawing ansi and  [0;34m████▀▀[0m       [30mtg(ice)[0m      [34m▄██████[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m▀[0m
+[30m                                         [0;34m████▀▀[0m       [30m       [0m      [34m▄██████[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m▀[0m
 [30mgo get you one.. :)  i''m having more fun  [0;34m▀█▄[0m                     [34m▄███████▀[0;1;34m▀[0;1;31m [0;34m▄██[0m
-[34m░[0;31m  [0;30mnow than any other time in my life..  woo. [0;34m▀▀[0m               [34m▄[0;31m [0;34m██▀██▀▀█▄▄░[0;31m   [0;34m▀[0m
-[31m  [0;34m■[0;31m    [0;30mgreets to all my ''fans'' and stuff..  greets to acid..  [0;34m▄█▀▀[0;31m [0;34m▄[0;31m [0;34m▄▄█▀[0;1;34;44m▀[0;34m▀[0;31m  [0;33m▄▄█[0m
-[33m▄▄[0;1;31m   [0;34m▀[0;31m  [0;34m▄▄[0;31m  [0;30mhope you guys come back strong. (seriously)   [0;34m▀[0;31m [0;34m▄▄[0;31m  [0;34m▄[0;1;34;44m▄[0;34m███▀[0;31m [0;34m▀[0;31m [0;33m▄▄████▀[0m
+[34m░[0;31m  [0;30m                                           [0;34m▀▀[0m               [34m▄[0;31m [0;34m██▀██▀▀█▄▄░[0;31m   [0;34m▀[0m
+[31m  [0;34m■[0;31m    [0;30m                                                       [0;34m▄█▀▀[0;31m [0;34m▄[0;31m [0;34m▄▄█▀[0;1;34;44m▀[0;34m▀[0;31m  [0;33m▄▄█[0m
+[33m▄▄[0;1;31m   [0;34m▀[0;31m  [0;34m▄▄[0;31m  [0;30m                                              [0;34m▀[0;31m [0;34m▄▄[0;31m  [0;34m▄[0;1;34;44m▄[0;34m███▀[0;31m [0;34m▀[0;31m [0;33m▄▄████▀[0m
 [33m█████▄▄▄[0;1;31m    [0;34m▀▀▀▀[0;31m   [0;34m▄▄▄[0m          [34m░[0m        [34m▄[0;31m    [0;34m▄▄[0;31m [0;34m▄▄▄▄▄▄[0;31m [0;34m▀▀▀██▀▀[0;31m  [0;34m▀[0;31m [0;33m▄▄▄████▀▀[0;1;31m   [0;33m▄[0m
 [33m████████████▄▄▄▄▄▄[0m              [34m░[0;31m  [0;34m▀▀▀▀▀▀▀▀▀[0m            [33m▄▄▄▄▄▄███▀▀▀▀[0m
 [33m██████▀▀  [0;1;31m [0;33m▀▀▀▀▀████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████████████▀[0m         [33m▄[0m      [37m▄▄▄▄[0m

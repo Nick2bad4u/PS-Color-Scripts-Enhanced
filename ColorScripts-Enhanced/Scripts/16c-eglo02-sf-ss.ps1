@@ -5,7 +5,7 @@
 # Source SHA-256: 22dd858b7eb1fa4684dc310b735d89630c9516fabd72fc8ade562ba3e8dfc45d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-SS.ANS by Shaft (Everglo Empire); released in eglo02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Special Sauce Main Menu
 # SAUCE Author: Shaft
 # SAUCE Group: Everglo Empire
@@ -29,10 +29,10 @@ Write-Host '
 [1;33;43m░[0;33m▄[0;37m  [0;1;35m░▒[0;1;31;45m░░░░░░░░░░░░░[0;1;37;45m [0;1;31;45m░░░[0;35m▀[0;37m  [0;35m▀▀▀▀▀   [0;31m▄▄[0;35m   ▀▀▀▀░░░░[0;37m [0;33m▐▄[0m   [33m  [0;1;33;43m ▄[0m [35m ▀[0;1;31;45m░░░[0;1;35;40m▒▒▒[0;35m█[0;1;35;45m░[0;35m███[0;1;37;45m  [0;1;35;45m▓[0;1;31;45m  ░░[0;35m▀[0m
 [1;33;43m▒░[0;33m▌[0m   [35m▀▀▀[0;1;35;45m░▒▄[0;35m██[0;1;35;45m▄▄[0;1;37;45m░[0;1;35;45m░[0;35m█▀▀▀  [0;31m▄[0;1;31;41m▄[0;31m█▄▄▄▄▄[0;1;31;41m▄[0;1;37;41m░░[0;1;31;41m█▓░[0;31m▌ ▄▄▄[0;1;31m   [0;33m▄▄▐█[0;1;33;43m▀█▓░[0;33m▄▄▀▀ ▄▬[0;35m▀▀▀███[0;1;35;45m▒░░[0;35m█[0;1;35;45m░▓[0;1;37;45m▒[0;1;35;45m▄[0;35m▀▀[0;37m [0;1;31m ░[0m
 [33m▀ [0;31m▄[0;33m [0;31m▀[0;33m  [0;5;30m                                                                    [0;31m▄[0;1;31m▄▄[0;1;37;41m░[0;1;31;40m▓[0m
-[31m▄█[0;33m ▄[0;1;33;43m░░[0;33m▄ ▄ [0;31m▀[0;1;33;41m░▓▒░[0;1;31;41m ░[0m  [1mHere you go Samurai, hope you like it and[0m  [31m▄█[0;1;31;41m░░[0;31m█[0;1;31;41m▀[0;31m█[0;1;31;41m▬[0;31m█▄▐█[0;1;31;41m▄[0;1;31;40m█[0;1;31;41m█▀██[0m
-[31m▀[0;33m ▐[0;1;33;43m░▓▓░[0;33m▐[0;1;33;43m▀[0;33m█▄ [0;1;31;41m▀[0;31m▀▀▀▀[0;37m  [0;1;37mthat it helps you to set Special Sauce up[0m  [31m█[0;1;31;41m▓▀[0;31m▀ ▀[0;1;33;41m░[0;31m▀█[0;1;31;41m░▄[0;1;37;41m▒░[0;1;31;41m▀[0;31m█▀[0;1;31;41m▐▓[0m
+[31m▄█[0;33m ▄[0;1;33;43m░░[0;33m▄ ▄ [0;31m▀[0;1;33;41m░▓▒░[0;1;31;41m ░[0m  [1m                                         [0m  [31m▄█[0;1;31;41m░░[0;31m█[0;1;31;41m▀[0;31m█[0;1;31;41m▬[0;31m█▄▐█[0;1;31;41m▄[0;1;31;40m█[0;1;31;41m█▀██[0m
+[31m▀[0;33m ▐[0;1;33;43m░▓▓░[0;33m▐[0;1;33;43m▀[0;33m█▄ [0;1;31;41m▀[0;31m▀▀▀▀[0;37m  [0;1;37m                                         [0m  [31m█[0;1;31;41m▓▀[0;31m▀ ▀[0;1;33;41m░[0;31m▀█[0;1;31;41m░▄[0;1;37;41m▒░[0;1;31;41m▀[0;31m█▀[0;1;31;41m▐▓[0m
 [33m █[0;1;33;43m▄[0;33m█▄█[0;30;43m▬[0;1;33;43m ░[0;33m▀▀ [0;31m▌[0;33m▐[0;1;33;43m▄▄[0;33m▄[0;37m  [0;1;37msoon. What should i do with this space ? [0m  [31m ▀[0;1;31m▀[0;1;31;41m▓[0;31m▄[0;1;31;41m▄▓░[0;31m█[0;1;33;41m░[0;1;31;41m▓[0;1;37;41m░[0;1;31;41m▓[0;1;31;40m▒[0m
-[33m  ▀▀ █[0;1;33;43m▄▄▓▄[0;33m▄  ▀▀[0;1;33;43m▓[0;33m▀[0;37m  [0;1;37mlets greet some =). greets to : Sophisto  [0m [31m [0;33m▄[0;31m [0;1;31;41m░[0;31m▀▀▀ [0;33m▄[0;31m ▀[0;1;31;41m▓░[0;31m▒ [0;33m░[0;31m [0m
+[33m  ▀▀ █[0;1;33;43m▄▄▓▄[0;33m▄  ▀▀[0;1;33;43m▓[0;33m▀[0;37m  [0;1;37m                                          [0m [31m [0;33m▄[0;31m [0;1;31;41m░[0;31m▀▀▀ [0;33m▄[0;31m ▀[0;1;31;41m▓░[0;31m▒ [0;33m░[0;31m [0m
 [31m ▄▄▄  [0;33m▀[0;1;33;43m▀█▀[0;33m▀ [0;31m░[0;33m ▀[0;1;33;43m░[0;33m▓[0;37m  [0;1;37mDfuse Samurai Nosegos Ville WhiteTrash   [0m  [31m [0;1;33m▀[0;33m▀[0;31m▐   [0;33m▀[0;1;33m▀[0;33m▀[0;31m▄[0;1;31;41m░[0;31m▀░ [0;33m▓[0;31m [0;1;31m▒[0m
 [1;31;41m▄[0;1;37;41m░[0;1;31;41m█▀[0;1;33;41m░[0;31m█▄▄[0;33m [0;31m▄[0;1;31;41m▄█[0;31m▓▄[0;33m  ▒[0;37m  [0;1;37mRex Ize Chrom Absent Spinsister Gaston   [0m  [1;31;41m▄[0;1;31;40m▄[0;31m▄█▄▄ ▀▀▀▀   [0;33m▀▀[0;31m ░[0m
 [31m█▀  ▀[0;1;31;41m▀▐[0;31m█▌[0;1;31;41m▓[0;1;37;41m░[0;1;31;41m▓░[0;1;33;41m░[0;31m█ [0;33m░[0;37m  [0;1;37mWinter Leonardo Noize Riddler Nail Filth [0m  [31m▀[0;1;31m▀[0;31m▀  ▄▄▄▄  ███▀  ▄[0m

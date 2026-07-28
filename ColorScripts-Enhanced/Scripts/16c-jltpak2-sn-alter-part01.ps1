@@ -5,7 +5,7 @@
 # Source SHA-256: d2fd3156d1275e165902146a58655dad7630f81f193273febdb13e567627d922
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-ALTER.ANS by Spawn (JoLT!); released in jltpak2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Alterhouse
 # SAUCE Author: Spawn
 # SAUCE Group: JoLT!
@@ -18,12 +18,12 @@ Write-Host '
  [30m┌─[0;37m──[0;1;37m───────────────────────────────[0m──[1;30m─┬─[0m──[1m────────────────────────────────[0m──[1;30m─┐[0m
 [1;30m [0m│ [31m░[0m                                 [31m░ [0;37m│[0;1;30m    [0m  [1;30m            [0m            [1;30m        [0m│
  [1m│ [0;31m░ ░[0m       [37m▄███▄▄[0m        [1;30m▀▄[0m      [31m░ ░ [0;1;37m│[0m                                      [1;37m│[0m
-[1m │ [0;31m▒ ░▒[0m     [37m▀▀ [0;1;30m▄ [0m▀██ ▀▀▀█▄  [1;30m▐▓    [0;31m▒░ ▒ [0;1;37m│[0;1;30mYeah I know every artist has done an  [0;1;37m│[0m
-[1m │ [0;31m▒ ▒▒▓[0m      [1;30m▓▀ [0m▐█▌ [1;30m▓▓▌ [0m▀█  [1;30m▓▌  [0;31m▓▒▒ ▒ [0;1;37m│[0;1;30mANSi of Spawn. Well, here''s another[0m  [1;30m [0;1;37m│[0m
+[1m │ [0;31m▒ ░▒[0m     [37m▀▀ [0;1;30m▄ [0m▀██ ▀▀▀█▄  [1;30m▐▓    [0;31m▒░ ▒ [0;1;37m│[0;1;30m                                      [0;1;37m│[0m
+[1m │ [0;31m▒ ▒▒▓[0m      [1;30m▓▀ [0m▐█▌ [1;30m▓▓▌ [0m▀█  [1;30m▓▌  [0;31m▓▒▒ ▒ [0;1;37m│[0;1;30m                                   [0m  [1;30m [0;1;37m│[0m
 [1m │ [0;31m▓ ▒▓▓▓ [0;1;30m▄▀ ▐▓▌ [0m▀▀  [1;30m▓▓▌  [0m▐▌ [1;30m▐▓ [0;31m▒▓▓▒ ▓ [0;37m│[0;1;30mone. =)[0m                               │
  [1m│ [0;31m▓ ▓▓██ [0;1;30m▓▓▄▓█▀[0m      [1;30m▓▓   [0m▀ [1;30m▓▓▌[0;31m▀█▓▓ ▓ [0;1;30m├─[0m──[1m────────────────────────────────[0m──[1;30m─┤[0m
-[1;30m [0;1;37m│ [0;31m█ ▓█▓▓  [0;1;30m▀▀▀[0m         [1;30m▀▄  ▄▓▓▀ [0;31m█▓█▓ █ [0;37m│[0;1;30mIf you have some iNSANE desire to have[0m│
- │ [31m█ ██▀▄▄▓▄▄▄▓▄▄▄▄▄▓▄▄▄▄▄▓▄▄▓▄▄▄▀█▒ █ [0;1;37m│[0;1;30man ANSi done by me (neat0!), contact  [0;1;37m│[0m
+[1;30m [0;1;37m│ [0;31m█ ▓█▓▓  [0;1;30m▀▀▀[0m         [1;30m▀▄  ▄▓▓▀ [0;31m█▓█▓ █ [0;37m│[0;1;30m                                      [0m│
+ │ [31m█ ██▀▄▄▓▄▄▄▓▄▄▄▄▄▓▄▄▄▄▄▓▄▄▓▄▄▄▀█▒ █ [0;1;37m│[0;1;30m                                      [0;1;37m│[0m
  [1;30m│ [0;1;37m·[0;1;30mδ∩[0;1;37m·[0;31m▀▀▀▀▀▓▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀[0m     [37m│[0;1;30mme on Diabolica...[0m [1;30m(and win a free[0m    │
                                        [1;30m│                     [0m [1;37m               [0;1;30m │ [0m
 [1;30m :[0m                                     [1;30m.[0;1;37m                               [0m       [1;30m:[0m

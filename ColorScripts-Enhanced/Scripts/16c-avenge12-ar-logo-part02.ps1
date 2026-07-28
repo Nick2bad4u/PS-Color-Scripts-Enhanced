@@ -5,7 +5,7 @@
 # Source SHA-256: 498d213f733d0d3989d5d7e2417ad268aaaf9bde03d1d027bd75b2c48b1367c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AR-LOGO.ANS by argon (avenge12); released in avenge12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo compilation
 # SAUCE Author: argon
 # Lines: 41-75
@@ -13,7 +13,7 @@
 
 Write-Host '
 [30mdec98[0m
-[1;30m───[0;34m│[0;1;30m─[0;34m│[0;30;44m│[0;34;40m▐▌██▐[0;1;34;44m [0;30;44m↓[0;1;34;44m  [0;30;44mcreator drew an awesome outline for this joint[0;1;34;44m [0;30;44m ↓[0;1;34;44m [0;34m▌██▐▌[0;30;44m│[0;34;40m│[0;1;30;40m─[0;34m│[0;1;30m─────[0m
+[1;30m───[0;34m│[0;1;30m─[0;34m│[0;30;44m│[0;34;40m▐▌██▐[0;1;34;44m [0;30;44m↓[0;1;34;44m  [0;30;44m                                              [0;1;34;44m [0;30;44m ↓[0;1;34;44m [0;34m▌██▐▌[0;30;44m│[0;34;40m│[0;1;30;40m─[0;34m│[0;1;30m─────[0m
 
    [1;35m  [0m   [35m    [0;34m   [0m       [34m┌[0;1;34;44m▄▓██[0;34m   [0;1;35m   [0;34m┌┐   [0;1;34m [0;1;34;44m█▓▓▄[0;34m    ┌──┐[0m
 [37m   [0;1;35m  [0m  [35m  [0;1;34m▄▄▄▄[0;34m [0;35m    [0;1;34m▄▄▄▄[0;34m│[0;1;34m▀▀▀▀[0;34m [0;1;34m█[0;1;34;46m▓▒▓▀└┘▀▀█▓[0;1;34;44m█[0;1;34;46m▓▓[0;1;34;44m█[0;1;34;46m█[0;1;34;44m█[0;1;34;46m▌ │[0;36m▄▄[0;34m│ ░[0;1;34m▄▄▄▄▄[0m
@@ -26,7 +26,7 @@ Write-Host '
                 [34m└[0;1;34m▀▀▀[0;36m▀▀[0;1;36;46m░[0;1;34;46m▐[0;1;34;44m█▄▄▓[0;1;34;47m██[0;1;34;40m▀▀[0;34m└─┬┼──[0;1;34;44m▓[0;1;34;46m▄┴┘[0;34m░└[0;1;34m▀[0;1;34;44m█▓[0;1;34;40m██[0;1;34;46m▓▓[0;1;34;40m▀[0;34m└[0;1;34m▀▀▀▀[0m     [1;34m▀▀[0;36m▀▀[0m
 [1;30m [0m               [1;30m  [0;34m░ ░░[0;1;34;46m▄[0;1;34;44m█[0;1;34;46m▓▓[0;1;34;44m▓[0;1;34;40m▀[0;34mar%cr[0;37m [0;34m└┘░[0;1;35m [0;1;34;46m▓[0;1;34;47m█[0;1;34;44m█▓[0;34m▒░ [0;1;35m [0;1;34m▀▀▀▀[0;34m▒░ ░░[0;1;34m [0;34m░[0m
 [30mdec98[0m
-[1;30m─────────[0;34m│[0;1;30m─[0;34m│[0;30;44m│[0;34;40m▐▌█[0;1;34;44m [0;34m▐[0;30;44m↓[0;1;34;44mwinner of the torn 1 hour logo competition[0;30;44m↓[0;34;40m▌██▐▌[0;30;44m│[0;34;40m│[0;1;30;40m─[0;34m│[0;1;30m─────────[0m
+[1;30m─────────[0;34m│[0;1;30m─[0;34m│[0;30;44m│[0;34;40m▐▌█[0;1;34;44m [0;34m▐[0;30;44m↓[0;1;34;44m                                          [0;30;44m↓[0;34;40m▌██▐▌[0;30;44m│[0;34;40m│[0;1;30;40m─[0;34m│[0;1;30m─────────[0m
 
                              [31m▄[0m             [31m▄▄▓▀▀█[0;1;31;41m▄[0;31m▄▄[0m
                      [31m▄ ▀▀[0m               [31m▄█▀[0m      [31m▀▓[0;1;31;41m▓▄ [0;31m▄[0m

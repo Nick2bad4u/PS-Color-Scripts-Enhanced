@@ -5,7 +5,7 @@
 # Source SHA-256: 12e05c702df6d259ae71534a6922916fa5a81ea1e7f8b2a842e8c095c3006b1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sm-nullart.ans by Smooth (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Null Emag cover art
 # SAUCE Author: Smooth
 # SAUCE Group: Fuel
@@ -17,7 +17,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30;40m<<--( [0;32missue [0;1;36m#3[0;32m cover art for NULL Emag[0;1;30m )------------------------------------->>[0m
+[1;30;40m      [0;32m      [0;1;36m  [0;32m                        [0;1;30m                                         [0m
                                         [31m▄▄▄[0m             [31m▄▄▄▄[0m           [31m▄  ▄[0m
        [31m▄[0m                         [31m▄▄▄[0;1;35;41m░░[0;31m▄  ▀ [0;37m▄▄▄▄▄▄▄▄ ▄  [0;31m▓    ▀▀▀██▄▄▄▀▀[0m
      [31m▄█ [0;1;33m▄[0;1;37m▄ [0m▄ [1;30m▄[0m▄▄▄▄▄[1;30m▄  [0;31m░░░░░░[0m      [31m▀▀[0m     [37m▄█▓▄▄▄▄▄  ▄  [0;33m▐[0;31m█[0;1;35;41m▄[0;31m▄   [0;37m▀ ▀█▄ [0;1;33m▀▄[0;33m▄[0;1;37m▀█▄[0m▄
@@ -40,6 +40,4 @@ Write-Host '
                  [33m▀[0;31m▀█▄[0m          [31m▄▄[0;1;31;41m░[0;31m█  ▄█▄▄▄[0;37m▀ █▓[0;1;30m▀   [0m▄[1;47m▄▀[0;1;30;47m▄[0;1;30;40m▀[0m       [31m█[0m
                     [33m▀ [0;31m▀▀▄▄▄▄▄▄[0;33m▀[0;31m▀▀  ▄ ▀▀▀▀▀[0;31;43m▄[0;31;40m [0;37;40m█ [0;31;40m█ [0;37;40m▄[0;1;33;47m▄▀[0m▀[1;30m▀[0;31m▄▄[0;1;35;41m▒░[0;31m▄▄██▀[0;33m▀[0m
                           [33m▀▀[0m     [31m▄▀█▓[0m     [37m█ █ ▄[0;1;33;47m▄▀[0;1;30;47m▄[0;1;30;40m▀ [0;31m▀█[0;1;35;41m░░[0;31m██▀[0;33m▀[0m
-                                  [31m▄▀[0m      [37m█▄██[0;1;33;47m▀[0;1;30;47m▄[0;1;30;40m▀[0m     [33m▀▀[0m
-
-[1;30m<<--( [0;32missue [0;1;36m#4[0;32m cover art for Null Emag[0;1;30m )------------------------------------->>[0m'
+                                  [31m▄▀[0m      [37m█▄██[0;1;33;47m▀[0;1;30;47m▄[0;1;30;40m▀[0m     [33m▀▀[0m'

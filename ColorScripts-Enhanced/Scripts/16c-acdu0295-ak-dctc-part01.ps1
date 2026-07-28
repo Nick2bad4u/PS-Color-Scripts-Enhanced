@@ -5,7 +5,7 @@
 # Source SHA-256: fd29343daeb30029f989665c48b8f359c3acb31a02ac51e5ed656ee420ef410b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-DCTC.ANS by Asian Knight + Vanquish (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Damage Control Trade Center
 # SAUCE Author: Asian Knight
 # SAUCE Group: ACiD Productions
@@ -23,7 +23,7 @@ Write-Host '
 [1;30;40m  [0;31m▒[0;1;30m▀▄[0m▀▀[1;30m▄█▄ [0m▀█▀[1;30m▄[0m▀▄▀████▀   ▀  █▄▄█  Stu: [1;30mHey man.. Like this one? =) [0mPat: [1;30mI[0m
 [1;30m░ [0;31m░[0;1;30m▀▓████  ▀▄███▄ ▄[0m▀[1;30m▄▄▀    ▄ [0;1;30;47m░[0m  [1;30;47m░[0m  [1;30;40mdon''t wanna do a side-scroller =) [0mPhil:    [1;30m░[0m
 [1;30m▒A▄ ▐█▀█▓▄▀ ████▓▀ ▀▓██▓▄▄▀  [0;1;30;47m▒[0m  [1;30;47m▒[0m  [1;30;40mYo =) [0mCasey: [1;30mJ-Love! [0mAndre: [1;30mGood work on   ▒[0m
-[1;30m▓K ▀███▓▀  ▀█▓█▀▒   ██▓█▀    [0;1;30;47m▓[0m  [1;30;47m▓[0m  [1;30;40mIntegrity - [0mACiD''95 : The Force of Art!    [1;30m▓[0m
+[1;30m▓  ▀███▓▀  ▀█▓█▀▒   ██▓█▀    [0;1;30;47m▓[0m  [1;30;47m▓[0m  [1;30;40m            [0m                               [1;30m▓[0m
 [1;30m█    ▀▀[0m      [1;30m▀  ░  ▀▀ ▀[0m      [1;30m█  █[0m                                             [1;30m█[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
      [31m▀[0;1;31m▀[0;31m▄[0;1;31m▄[0;1;31;41m▓[0;1;31m▀[0m      [1;31m▀▄▄[0;1;31;41m▓▒░[0;31m▀▄[0;1;31m▀[0m       ░  [1;31m▀▀[0m▄[1;31m▀[0;1;31;41m▓[0;1;31m▄[0;1;31;41m░[0;31m▀▀   [0m░ [1;31m▀[0m▄[1;31m▀[0;1;31;41m▓▒[0;1;31m▀ [0m░ ▄       [1;31m▀▄[0;1;31;41m▓░[0;31m▀▀[0m

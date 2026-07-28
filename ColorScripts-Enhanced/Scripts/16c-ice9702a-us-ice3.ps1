@@ -5,7 +5,7 @@
 # Source SHA-256: 64d9ecfb1c379ad2c004f3176299c67e20479fdf7dc108992fa5bd081c9c67fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ICE3.ICE by Mass Murderer + Lord Soth (ice9702a); released in ice9702a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -33,5 +33,5 @@ Write-Host '
 [1;30;40m▀▀▒[0m [1;30m▀▀▒  ▀▒[0m         [1m   [0;1;34m▐█[0;1;34;44m▓[0;1;34;40m▄███[0;1;34;44m▄▀▀▓▀▀ ▀▀[0;34m▀[0m      [1;37m█[0m [1m██[0m [1m███▀▄██▄[0;31m▀▀[0;1;31;41m ░░[0;31m███[0;37m [0;1;37;41m░▓▌[0;31m▀[0;1;37;47m▓[0;1;37;40m▄▄[0;1;30;40m▄[0;31m▀▀[0m
 [1;30mDo you doubt us?[0m        [34m▀[0;1;34;44m░▀▀ ▀▀▀░░░[0;34m▀▀[0;1;34m [0;34m▀[0;1;34;44m [0;34m▄[0m      [1;37m▐█▌▐██▌▐████[0m [1m█▄[0;31m▀▀███▌▐[0;1;37;41m▐[0;1;37;40m▌▐█[0;1;37;41m█[0;1;37;47m▀[0m▀
 [1;30mJust by reading this, all[0m  [34m▀▀▀▀▀[0m       [1;34m  [0m       [1m▀ ███[0m [1m██[0;1;33m█[0;1;37m█▌▐██▌▐▄[0;31m▀▀█▄▀[0;1;37m█[0;31m▄[0;37m▀ [0;1;37;47m▓[0m
-[1;30myour children will grow to be happy and have a very[0;1;37m▀▀ [0;1;33m█[0;1;37m█[0;1;33m██[0;1;37m ██[0;1;33m█[0m [1m██[0m █▄▄[31m▀[0;1;37;47m▓[0m▒ [1m [0m [1;47m▒[0;1;40m  [0;1;30;40m▄■[0m
+[1;30m                                                   [0;1;37m▀▀ [0;1;33m█[0;1;37m█[0;1;33m██[0;1;37m ██[0;1;33m█[0m [1m██[0m █▄▄[31m▀[0;1;37;47m▓[0m▒ [1m [0m [1;47m▒[0;1;40m  [0;1;30;40m▄■[0m
 [1;30;40mexciting and[0m [1;30mpromising life.  So there.           [0m     [1;33m▀▀[0m  [1m▀[0;1;33m▀▀[0;1;37m [0;1;33m▀[0m ▀▀▀   [1m▀▀[0m▀  [1m▀[0m▀[0m'

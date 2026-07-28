@@ -5,7 +5,7 @@
 # Source SHA-256: bed1eb742f45b6ec67a61261ce04e33bc5efe8980860178bf1207a338bbe3446
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-DREAM.ANS by Ensanguined (Apocalyptic Visions); released in avpack06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dream State Advert
 # SAUCE Author: Ensanguined
 # SAUCE Group: Apocalyptic Visions
@@ -20,7 +20,7 @@ Write-Host '
 [37;40m          [0;34;40m▒[0;36;44m░▒▓[0;36;40m███[0;36;44m▓▓▒░[0;34;40m▓[0;37;40m              [0;30;47m▌    [0;34;47m    [0;30;47m [0;34;47m  [0;30;47m [0;31;47m           [0;30;47m [0;34;47m      [0;30;47m          [0m
 [37;40m         [0;34;40m▓[0;36;44m▒▓▓[0;36;40m█████[0;36;44m▓▓▒░[0;34;40m▓[0;30;40mI[0;37;40m [0;30;40mspose it''s[0;37;40m [0;30;100m                                         [0m
        [34m▒[0;36;44m░▒▓▓[0;36;40m███[0;36;44m▓▓[0;36;40m██[0;36;44m▓▓▒░[0;34;40m░░[0;30;40mpretty[0;37;40m    [0;30;47m▌   Greetzzzzz...                       [0;37;40m█[0;30;47m█[0m
-[37;40m     [0;34;40m▓[0;36;44m░▒▓▓[0;36;40m████[0;36;44m▓▓▓▓[0;36;40m██[0;36;44m▓▓▒[0;34;40m▒▒[0;30;40mfucked any[0;30;47m▌       Anyone in aV. You don''t know me,[0;37;40m█[0;30;47m█[0m
+[37;40m     [0;34;40m▓[0;36;44m░▒▓▓[0;36;40m████[0;36;44m▓▓▓▓[0;36;40m██[0;36;44m▓▓▒[0;34;40m▒▒[0;30;40m          [0;30;47m▌                                       [0;37;40m█[0;30;47m█[0m
 [37;40m     [0;34;40m░[0;36;44m░▒▓[0;36;40m███[0;36;44m▓▓▓▄▄▓▓▓▓▒▒[0;34;40m▓[0;36;44m░░░░░░[0;34;40m▓░[0;30;40m   [0;1;37;40m███████[0;30;47m  [0;1;37;40m█[0;30;47m     [0;1;37;40m█[0;30;47m    [0;1;37;40m█[0;30;47m    [0;1;37;40m█[0;30;47m   [0;1;37;40m█[0;30;47m    [0;1;37;40m█[0;30;47m   [0;1;37;40m██[0;30;47m▐█[0m
 [37;40m     [0;36;44m░░▓▓▓[0;36;40m██[0;36;44m▓▓▀[0;36;40m███[0;36;44m▓▓▒[0;37;40m [0;34;40m▓[0;36;44m▒▓▓▓▓▓▓▒[0;34;40m▓▒[0;37;40m  [0;1;37;40m████████████████████████████████████████[0;30;47m▐█[0m
 [37;40m     [0;36;44m▒[0;34;40m▓▓[0;36;44m▒▓▓[0;36;40m██[0;36;44m▓▓▓▓▓▒▒[0;37;40m [0;36;44m░▒▓▄▓▄▄▄▓▓░[0;37;40m   [0;30;47m▌ [0;37;40m██[0;30;47mBlue Apache, Apollyon, Mr Krinkle,[0;37;40m███[0;30;47m██[0m
@@ -28,7 +28,7 @@ Write-Host '
 [37;40m     [0;36;44m▒[0;37;40m  [0;34;40m░[0;36;44m▒▓▓▓[0;36;40m██████[0;36;44m▓▒▓[0;36;40m██[0;36;44m▓▓▓▓[0;36;40m██[0;36;44m▓░[0;37;40m    [0;30;100m   there doesn''t seem to be anyone else...[0m
      [36;44m░[0;37;40m   [0;34;40m▓[0;36;44m▒▓▓▓▓▓▓▓▓▓▓[0;36;40m██[0;36;44m▓▓▒▓▓[0;36;40m██[0;36;44m▓[0;34;40m▒[0;37;40m    [0;30;47m█[0;30;100m  well that''s what backscroll told me. ;> [0m
      [36;44m░[0;37;40m    [0;34;40m▓[0;36;44m░▒▓▓░░▒▓▓[0;36;40m██[0;36;44m▓▓▒▓▓[0;36;40m██[0;36;44m▓▒[0;34;40m▓[0;37;40m    [0;30;47m█▌"Don''t look at meee. III didn''t [say] it"[0m
-   [37;40m         [0;34;40m░▓[0;36;44m▒░[0;37;40m [0;34;40m▓[0;36;44m▒▓▓▓░[0;34;40m▓[0;36;44m▒▓[0;36;40m██[0;36;44m▓▓▒[0;34;40m░[0;37;40m   [0;30;47m█▌ 100% Ensanguinated ansi..number 2/2 heh![0m
+   [37;40m         [0;34;40m░▓[0;36;44m▒░[0;37;40m [0;34;40m▓[0;36;44m▒▓▓▓░[0;34;40m▓[0;36;44m▒▓[0;36;40m██[0;36;44m▓▓▒[0;34;40m░[0;37;40m   [0;30;47m█▌                                         [0m
        [37;40m      [0;34;40m▒[0;36;44m▓[0;37;40m    [0;34;40m▓[0;36;44m░▒[0;34;40m▓[0;37;40m  [0;36;44m▒▓▓▒[0;34;40m▓░[0;37;40m    [0;1;37;40m▐█████████████████████████████████████████[0m
               [36;44m▒[0;37;40m          [0;34;40m [0;36;44m░▒[0;34;40m▓[0;37;40m     [0;1;37;40m▐█████████████████████████████████████████[0m
               [36;44m░[0;37;40m          [0;34;40m [0;36;44m▒▒[0;30;40m                                                [0m

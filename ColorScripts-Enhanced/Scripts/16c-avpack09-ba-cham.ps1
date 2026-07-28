@@ -5,7 +5,7 @@
 # Source SHA-256: 04aa5362553bbfd74e3c2065682e2657fc694bc42ef10247dc0f8bffb68090c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BA-CHAM.ANS by Blue Apache (Apocalyptic Visions); released in avpack09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Chameleon
 # SAUCE Author: Blue Apache
 # SAUCE Group: Apocalyptic Visions
@@ -23,7 +23,7 @@ Write-Host '
 [32m [0;1;32m [0;32m▄▒▒▒▓▓[0;1;32;42m░▒[0;1;32;40m▄▄[0;1;36;40m▐[0;36m▄[0;1;36m▀[0m   [1;36;46m▓[0;36m▄ [0;1;36;46m▓[0m    [36m█  [0;1;36;46m▓[0m   [36m▐▌  [0;1;36;46m▒[0;36m▌ [0;1;36m▐[0;1;36;46m▓[0;36m  ▄[0;1;36;46m░[0;36m▀[0m   [1;36;46m░[0;36m [0;1;36m▐[0;1;36;46m▓[0;36m  ▄[0;1;36;46m░[0;36m▀  [0;1;36m▐[0;1;36;46m▓[0m    [1;36;46m░[0;36m  [0;1;36;46m▓[0m   [36m▐▌[0;1;30m░[0m
 [1;32m [0;32m░▒▒▓▓▓[0;1;32;42m░▒▓█▓▒▒▒[0;32m▄▄▄[0;36m ▓▌▐[0;1;36;46m░[0m   [36m▓▌ [0;1;36m▐[0;36m▌[0m   [1;36;46m░[0m   [36m▓  [0;1;36;46m░[0;36m▀▀[0m   [36m▄  ▐▌ [0;1;36;46m░[0;36m▀▀[0m   [36m▄ ▐▌[0m    [36m▐▌ ▐▌ [0;1;30m░[0;36m ▓[0m
 [32m▐▒▒▓▓[0;1;32;42m░▒▒▓█▓▒▒▒░░ ░▒▓[0;32m▄[0;36m ▀▄▄▀▀░  ▒[0m   [36m▐▌  ▐▌  ▀▄▄▄▀ [0m   [36m▓  ▀▄▄▄▀   ▀▄▄▄▓▀   ▓ [0;1;30m▒[0;36m [0;1;36;46m░[0;36m▌[0m
-[32m▐▒▒▓▓▓[0;1;32;42m░▒▓▓▒▒░[0;32m▓[0;1;32m▀▀[0;1;37m▄▄▄[0;1;32m▀▀[0;1;32;42m▓[0;32m▄[0;36m  [0;30mgreets to: av, heretics, pop, ins, all ozzies[0m   [1;30m▓▄▄▄[0m
+[32m▐▒▒▓▓▓[0;1;32;42m░▒▓▓▒▒░[0;32m▓[0;1;32m▀▀[0;1;37m▄▄▄[0;1;32m▀▀[0;1;32;42m▓[0;32m▄[0;36m  [0;30m                                             [0m   [1;30m▓▄▄▄[0m
 [1;32m [0;32m░▒▒▓▓[0;1;32;42m░▒▓▒▓░[0;32m▓[0;1;32m [0;1;37m▄▓▀ [0;34m░[0;1;37;47m▒[0;1;37;40m▌[0m [1;32;42m▒▓[0m [1m                                                  [0m [1;30m█[0m
 [32m▒▄▀▀▒▓▓[0;1;32;42m░▒▒░[0;32m▓▒[0;37m [0;1;37m█▌[0;34m ░[0;1;37m ▐█[0m [1;32;42m▒▓░[0m [1m    [0m [1mm[0;1;30m.[0m messages       [1mf[0;1;30m.[0m files             [1m [0m [1;30m▄▄▄ █[0m [1m [0m
 [32m▓▓▒░[0;1;32m [0;32m▒▓[0;1;32;42m░▒▒░[0;32m▓▒▄[0;1;37m ▀  ▄▀ [0;1;32m▄[0;1;32;42m▓▓▒░[0m [1m   [0m  [1me[0;1;30m.[0m email mnu      [1md[0;1;30m.[0m distros          [1m [0m [1;30m█[0m [1;30m▓▄█[0m [1m [0m
@@ -31,7 +31,7 @@ Write-Host '
 [1;32;42m░[0;32m▓▒ ▒▒▓▓[0;1;32;42m▒▓█▒▒░░░░▒▒▓▓▓▓██▓▒░░[0;32m▄[0;37m    [0;1;37m%[0;1;30m. [0mpage admins    [1mb[0;1;30m.[0m feedback       [1m [0m [1;30m▓[0m [1;30m█[0m [1;30m█[0m [1m [0m
 [32m▓▓▌▐▒▓[0;1;32;42m░░▒▒▓█▓▒▒▒▓▓▓▓▓▓████▓▒▒▒░[0;1;32;40m [0;1;37;40m [0m  [1m![0;1;30m.[0m logoff cham    [1mg[0;1;30m.[0m global hlp. [1m   [0m [1;30m▒[0m [1;30m▀▀▒[0m [1m [0m
 [32m▓▒▌▐▒[0;1;32;42m░[0;32m▓▓[0;1;32;42m░░░▒▒▓▒▒▒▒▒▒▓▓▓▓█▓▓▓▓▒░[0;32m▌[0;1;37m                                       [0m [1;30m░▄▄▄▄▄▄[0m
-[1;32;42m░[0;32m▒░[0;1;32m [0;32m▒▒▒▒▓▓[0;1;32;42m░░[0;32m▀▀▀▀▀▀[0;1;32;42m░░▒▒▒▓▓▓▓▓▒░░[0m  [30mcouldnt think of anything else to put [0;37m  [0;1;30m▄▄[0m [1;30m▄[0m [1;30m▒[0m
+[1;32;42m░[0;32m▒░[0;1;32m [0;32m▒▒▒▒▓▓[0;1;32;42m░░[0;32m▀▀▀▀▀▀[0;1;32;42m░░▒▒▒▓▓▓▓▓▒░░[0m  [30m                                      [0;37m  [0;1;30m▄▄[0m [1;30m▄[0m [1;30m▒[0m
 [1;32;42m▓░[0;32m▒▒▄▀▀▀[0;1;32m▄▄[0;32m▄▄▒▓▓[0;1;32;42m░░▒[0;1;32;40m▄▄▄▄▄▄[0;32m▀▀▀▀▀▀[0m   [1;30m▀▀▓▀▀█ [0m [1;30m▄[0m  [1;30m█▀█▀▒[0m  [30min there }8-)[0m          [1;30m█[0m [1;30m█[0m [1;30m█[0m
 [1;32;42m▒▒▒░░▒▒▒▒░░░▒▒▒▒▒▓▓▓▓▓▓▒▒▒[0;1;32;40m▀▀[0;1;31;40m   [0;1;30;40m█▀▀[0;34m    [0;1;30m▓▀▀▀ [0m [1;30m█[0m [1;30m▀ ░ ▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀[0m [1;30m█[0m [1;30m█[0m
 [1;32;42m░░▒▒▒▒▓▓▒▒▒▒▓[0;1;32;40m▀▀▀▀▀▀▀▀[0m    [1;32m [0m     [1;30m▓▄▄▄█▀▀▀▀▀▀▀[0;1;31m [0;1;30m█[0m [1;30m▀▀▀[0m [1;30m▀ [0;1;31m [0;1;30m [0m [1mmain.menu[0m [1;30m   ▒ ▒▀▀▀█▀▀[0m [1;30m█[0m

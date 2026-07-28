@@ -12,11 +12,6 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-tcf20-2005-02-tcf-002",
-            "reason": "Reviewed self-attribution: 'All Original Art' identifies The Creep Fever's own work and does not name an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-mist0424-the-war-on-christmas-fox-hunt",
             "reason": "Reviewed public-domain source: the SAUCE credit identifies Winslow Homer's nineteenth-century Fox Hunt, whose underlying artwork is in the public domain."
         },
@@ -1473,22 +1468,7 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-ftc-05-lg-tdn2",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-fti-0695-cndx-kt",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-ice9703a-tg-f1",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-mpir0494-rl-tpp1",
             "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
         },
         {
@@ -1530,11 +1510,6 @@
             "issueType": "derivative-attribution-review",
             "family": "16c-grim-03-ml-crwl",
             "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-aim-0995-th-tfh",
-            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
         },
         {
             "issueType": "derivative-attribution-review",

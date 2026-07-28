@@ -5,7 +5,7 @@
 # Source SHA-256: dd3895816df3726a534c6fe1df42d71422230a94846f043e86b517003c318aa5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DIANE_W_YOUNG-ADVENTURES_IN_A_MINOR_ORDER.ANS by Moth + LDA (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Adventures in a Minor Order
 # SAUCE Author: Moth / LDA
 # SAUCE Group: Mistigris
@@ -35,7 +35,7 @@ Write-Host '
 [32;40m███████████████████████[0;30;42m /[0;33;42m''[0;32;40m████████████████████[0;1;33;42m▌[0;32m██████████[0;33;42m ▐[0;32;40m█████████████████████[0m
 [32;40m█████████████████████████████[0;30;42m    [0;32;40m████████████[0;1;33;42m▌[0;32m████████████[0;33;42m ▌[0;32;40m████████████████████[0m
 [32;40m████████████████████████████████████████████[0;30;42m│[0;32;40m██████████████[0;33;42m`[0;30;42m\[0;32;40m███████████████████[0m
-[32;40m█████████████████████[0;1;33;42mA citizen scientist explores the biodiversity[0;32m██████████████[0m
+[32;40m█████████████████████[0;1;33;42m                                             [0;32m██████████████[0m
 [32m████████████████████████████[0;1;33;42mand behavior of "Psocoptera"[0;32m████████████████████████[0m
 [32m█████████████████████████████[0;1;33;42m─the booklice and barklice[0;32m█████████████████████████[0m
 [32m████████████████████████████████████████████████████████████████████████████████[0m

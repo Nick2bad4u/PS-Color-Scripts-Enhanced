@@ -5,7 +5,7 @@
 # Source SHA-256: c3056cb3f1322f6c757cfc2fd6c248459ab855a8b27553b8da01b8bcc18dcdae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AV-WYVRN.ANS by anvilhead (epic); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the wyvern
 # SAUCE Author: anvilhead
 # SAUCE Group: epic
@@ -28,24 +28,24 @@ Write-Host '
 [1;35;45m▓▓░[0;35m  ░▒▒ ▀▀██  ▒▓▓▓█[0;1;35;45m  ░▒▓[0;1;35;40m▄[0;31m▀█▄[0;1;35m▀[0;35m▌[0m
 [1;35;45m░░[0;35m█▌ ░▒░[0;1;30m [0;1;30;47m▀▀[0;35m █  ░▒▒▓▓▓▓█[0;1;35;45m░▒██[0;1;35;40m▄▄[0;31m▀▀[0;35m [0;37m  [0m
 [35m███▌  ░░ [0;1;30;47m ▒[0;1;30;40m▌[0;35m   ░▒▒▒░░  ▀[0;1;35;45m░▓▓▓▒▒▒[0;35m▌[0;37m  [0m
-[35m▀▀█   ░░[0;37m [0;1;30;47m░[0;1;30;40m▀[0;35m     ░░      ▐[0;1;35;45m▒▒░░░[0;35m█ [0;37m  [0;35mIn the shadows of the night, a warrior[0m
+[35m▀▀█   ░░[0;37m [0;1;30;47m░[0;1;30;40m▀[0;35m     ░░      ▐[0;1;35;45m▒▒░░░[0;35m█ [0;37m  [0;35m                                      [0m
 [1;30;47m░▓[0;35m      [0;37m  [0m    [35m  ░       ▐[0;1;35;45m░[0;35m████▌ [0;37m  [0;35m                                      [0m
 [1;30;47m▒[0;1;30;40m▌[0;35m   [0m    [37m [0m      [35m      [0;34m▄[0;35m ██████  [0;37m  [0;35m                                      [0m
 [1;30;47m▒[0;35m      [0;37m   [0m    [34m ▀[0;35m   [0;34m ▄[0;35m  ▐█▀▀▀▀   [0;37m  [0;35m                                        [0m
 [37m [0;35m       [0;37m [0;34m▄[0m     [34m█[0;36;44m░[0;34;40m▄█▀[0m   [35;40m▐[0;37;40m [0;1;30;47m▓░▓[0;35m    [0;37m  [0;35mcastle. A cold wind blowed into his [0m
-[37m [0;35m      [0;37m [0;34m▀█▀[0;1;37m [0;34m▄▄[0;36;44m░░[0;34;40m▀▀[0;37;40m [0;34;40m■ [0m   [1;30;40m▐[0;1;30;47m▒ [0;1;30;40m▌[0;35m [0m     [35mhair as he stepped up to the huge [0m
+[37m [0;35m      [0;37m [0;34m▀█▀[0;1;37m [0;34m▄▄[0;36;44m░░[0;34;40m▀▀[0;37;40m [0;34;40m■ [0m   [1;30;40m▐[0;1;30;47m▒ [0;1;30;40m▌[0;35m [0m     [35m                                  [0m
 [37m [0;35m    [0;34m▀■[0;37m [0;34m▄▄█[0;36;44m▒▒[0;34;40m█▀[0m         [1;30;40m ▀[0;1;30;47m░[0;1;30;40m▌[0;35m [0m     [35mbalcony. He slowly turned his head [0m
     [1;34;44m░░[0;34m▄█[0;36;44m▒▒░[0;34;40m█▀██▀[0;1;30;40m   [0;1;37;40m  [0;1;30;40m    [0;1;37;40m    [0;1;30;40m [0m    [35maround, glanced into every corner.[0m
     [34m▄[0;36;44m░▓▓░[0;34;40m██[0;37;40m  [0;1;30;40m      [0;1;37;40m       [0;1;30;40m   [0m     [35m                                   [0m
    [34m█[0;36;44m█▓▓░[0;34;40m██▌[0;37;40m [0;34;40m▄[0;1;30;40m [0;34m▀[0;1;30m   [0;1;37m [0;1;30m        [0;1;37m  [0m     [35mwas a shiny pedestal made of stone.[0m
-[37m [0;34m█[0;36;44m░▓█▓▓ [0;34;40m██[0;1;34;44m░░[0;34m▌[0;1;30m     [0;1;37m  [0;34m▄[0;1;30m [0;1;37m       [0m     [35mAs he walked towards it, an unbearable[0m
+[37m [0;34m█[0;36;44m░▓█▓▓ [0;34;40m██[0;1;34;44m░░[0;34m▌[0;1;30m     [0;1;37m  [0;34m▄[0;1;30m [0;1;37m       [0m     [35m                                      [0m
 [37m  [0;34m▐[0;36;44m░██▓▒░[0;34;40m██████▄▄▄██[0m    [34;40m▄ [0m        [35;40mhigh-toned scream forced him to [0m
    [34;40m▀[0;36;44m░▓██▓▓▒░[0;34;40m██████[0;1;34;44m░░[0;34m█▄▄▀[0;1;34;44m▀[0;34m▀[0m        [35mraise his hands over his ears.[0m
 [37m  [0;34m■[0;37m  [0;34m▀█[0;36;44m░▓█[0;1;36;46m░░[0;36;44m▓▓▓▒░░░[0;34;40m██[0;1;34;44m▒▒[0;34m██▄▄▄[0m      [35mThen, from the dark depths of space,[0m
    [33m  [0;34m■▀▀[0;33m░░[0;34m▀▀[0;36;44m ▀▀▓[0;1;36;46m▒▒[0;36;44m█▓▒░[0;34;40m██[0;1;34;44m▒▒░[0;34m [0;37m [0;34m▀[0;37m [0;34m [0;37m  [0;35mappeared an ancient creature, [0m
 [37m  [0;33m▒ ▄▄[0;1;31;41m▒[0;1;31;43m░▒░░[0;33m▄▄░[0;37m [0;34m▀█[0;36;44m▀[0;1;36;46m▓▓[0;36;44m█▓▒░[0;34;40m█[0;1;34;44m▒▒░[0m   [34m■[0;37m  [0;35ma large, purple wyvern.[0;37m [0;35mThe wyvern[0m
 [37m  [0;33m [0;1;31;41m▓[0;1;31;40m▀░░█[0;1;31;43m▓[0m [1;31m▀▓▓[0;33m░[0;37m  [0;34m▐█[0;36;44m▐[0;1;36;46m██[0;36;44m█▓▒░[0;34;40m█[0;1;34;44m▓▓[0;34m█[0m     [35mcontinuously screamed out and [0m
-   [1;31m    █[0;1;31;41m▒░[0;1;31;40m▄[0;1;31;41m▓[0;1;31;40m▒[0;33m░[0;34m▄[0;37m  [0;34m█[0;36;44m▐[0;1;36;46m▓▓[0;36;44m▓▒░[0;34;40m██[0;1;34;44m░▓▓[0;34m▄[0m    [35mspit poisonous blue liquid on to the[0m
+   [1;31m    █[0;1;31;41m▒░[0;1;31;40m▄[0;1;31;41m▓[0;1;31;40m▒[0;33m░[0;34m▄[0;37m  [0;34m█[0;36;44m▐[0;1;36;46m▓▓[0;36;44m▓▒░[0;34;40m██[0;1;34;44m░▓▓[0;34m▄[0m    [35m                                    [0m
 [37m [0;31m░░░░[0;37m [0;1;31m▀▀▀[0;1;31;41m▓▒▒[0;1;31;40m░[0m  [1;34;44m░░[0;34m█[0;1;36;46m▒▒[0;36;44m▓▒▒░[0;34;40m██[0;1;34;44m░▓▓[0;34m▌[0m    [35mbalcony.[0;37m [0;35mIts long, sharp tongue[0m
        [1;31m▀▀▀▓▒░[0m  [34m▄[0;36;44m▄[0;1;36;46m░░[0;36;44m▓▒▒░░[0;34;40m██[0;1;34;44m▒▒[0;34m█[0m    [37m [0;35mwriggled in the air as it floated[0m
 [37m  [0;34m▄[0m   [34m▄▀ [0;1;31m [0;34m▄▄▄█[0;36;44m▄█▓▓▒▒░░[0;34;40m███[0;1;34;44m▒▒[0;34m███[0m    [35maround, flapping its enormous[0m

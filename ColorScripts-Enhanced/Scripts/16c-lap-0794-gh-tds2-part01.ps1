@@ -5,7 +5,7 @@
 # Source SHA-256: 66f70f69c056eeeb9c044d7b29b82160bbb4e03b29c2b7d740e6d9c2f7337aec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GH-TDS2.ANS by Ghent (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Dead Sovereignty
 # SAUCE Author: Ghent
 # SAUCE Group: Lapse
@@ -18,7 +18,7 @@ Write-Host '
 [1;30m█▓▒░  ░ [0;1;36m▄[0;1;36;47m██[0;1;36;40m▄ [0;1;30;40m░▒▓█ ┌───────────────────────────────────────────────────────────┐[0m
 [1;30;40m▓▒░[0;36m▄███▄[0;1;36m▐[0;1;36;46m▓[0;1;36;47m█[0;1;36;40m▌[0;36m▐[0;36;46m [0;36;40m▌[0;1;30;40m▒▓ │ [0;1;37;40mG[0mhent [1;30m[[0mL[1;30mapse] presents...[0m                                 [1;30m│[0m
 [1;30m▒░[0;1;30;46m ░[0;36m▀[0;1;30m░░[0;36m▀[0;1;30m░[0;1;36;46m▒▓[0;1;30;40m░[0;36m▐[0;1;30;46m░[0;36m▌[0;1;30m░▒ ├──────────────┬────────────────────────────────────────────┤[0m
-[1;30m░░[0;1;30;46m ▒[0;36m▄[0;1;30m░[0;36m▀█▀[0;1;36;46m░▒[0;36m▀█[0;1;30;46m▒[0;36m▌[0;1;30m░░ │ [0mGH-TDS2 .ANS [1;30m│ [0mThe Dead Sovereignty #2 - Half Face        [1;30m│[0m
+[1;30m░░[0;1;30;46m ▒[0;36m▄[0;1;30m░[0;36m▀█▀[0;1;36;46m░▒[0;36m▀█[0;1;30;46m▒[0;36m▌[0;1;30m░░ │ [0m             [1;30m│ [0m                                           [1;30m│[0m
 [1;30m░░[0;36m▀[0;36;46m [0;1;30;46m▓ [0;36m█▀[0;1;30m░[0;1;30;46m [0;36m▌[0;1;30m░[0;36m█[0;1;30;46m▓[0;36m▌[0;1;30m░  ├──────────────┴────────────────────────────────────────────┤[0m
 [1;30m ░░░░░░░ [0;36m█[0;1;30m░  ░░░  │                                                      [0m     [1;30m│[0m
 [1;30m  ░  ░ ░ [0;36m▓[0;1;30m░ ░ ░   │                                                  [0m         [1;30m│[0m

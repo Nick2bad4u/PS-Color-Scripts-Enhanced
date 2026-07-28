@@ -5,7 +5,7 @@
 # Source SHA-256: 9f1159ae5f1e3467c42a114d7fcf63c4cbcc29c5debdbe9e320296d07a35a7b4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M-MENU1.ANS by Milkmang (nerp-04); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -22,12 +22,12 @@ Write-Host '
 ▀████▄▀▀▓ ▐[1m▓[0m [1m▒[0m   [33m░░[0;1;37m▀▀▀▀[0m ▄[1m▄█[0;1;43m▓[0;33m░[0;37m  ▀[0;1;37m▀[0m     ▌ ▐[1;47m░[0;1;40m▀▀[0m              [1m▀[0m▀     [1m▒[0m [1m▓[0m▌ [1;34m▓▀▀▄████▀[0m
 ▓█▌ ▀[1;34;46m█[0;1;34;40m▓  ▒[0m [1m░[0m  [1m░[0m                       ▀▄▓                       [1m░[0m  [1m░[0m [1;34m░  ▓█▀ ▐█▓[0m
 [1;34;47m▓[0;1;34;40m█▌[0;32m  [0;1;34m▐[0;1;34;46m█[0;1;34;40m▌[0m                               ▀                               [1;34m▐█▌[0;32m  [0;1;34m▐█[0;1;34;47m▓[0m
-▒▓█[32m [0;1;34m▄[0;1;34;46m█[0;1;34;40m▒[0m [1;34m [0m   [32m [0;37m   [0;1;37mb[0;36m [0;37mbatch menu   [0;1;37mj[0;36m [0;37mjoin conf       [0;1;37mt[0;36m [0;37mtype a file   [0;32m [0;37m      [0;1;34m▒█▄[0;32m [0;1;34m█[0;1;34;47m▓░[0m
+▒▓█[32m [0;1;34m▄[0;1;34;46m█[0;1;34;40m▒[0m [1;34m [0m   [32m [0;37m   [0;1;37m [0;36m [0;37m             [0;1;37m [0;36m [0;37m                [0;1;37m [0;36m [0;37m              [0;32m [0;37m      [0;1;34m▒█▄[0;32m [0;1;34m█[0;1;34;47m▓░[0m
 ░▐[1;34;47m▓[0;1;34;40m██▀[0m   [1;34m░[0;32m  [0;34m  [0;32m  [0;1;37md[0;36m [0;37mdownload     [0;1;37mk[0;36m [0;37mconfigure file  [0;1;37mu[0;36m [0;37mupload       [0;32m  [0;37m   [0;1;34m░[0;32m   [0;1;34m▀██[0;1;34;47m▓[0m▌█
 █[32m [0;1;34;47m░[0;1;34;40m▌[0;32m [0;37m    [0;1;34m▓▌[0;32m [0;34m▐▀▄[0;32m [0;1;37mg[0;36m [0;37mgoodbye         listing        [0;1;37mv[0;36m [0;37mview file    [0;34m▄▀▌[0;32m [0;1;34m▐▓[0;32m     [0;1;34m▐[0;1;34;47m░[0;32m [0;37m▓[0m
 [37m▓[0;32m [0;37m▐[0;1;34m▌[0;32m [0;37m   [0;1;34m▄▀[0;32m  [0;34m██▓[0;32m [0;1;37ml[0;36m [0;37mlist files   [0;1;37ms[0;36m [0;37mfile search     [0;1;37mx[0;36m [0;37mextract file [0;34m▓█▓[0;32m  [0;1;34m▀▄[0m    ▐▌[32m [0;37m▒[0m
 [37m░[0;32m  [0;1;34;47m▓[0;32m [0;37m     [0;34m▄[0;1;34;44m░ [0;34m▀[0;32m  [0;1;37mn[0;36m [0;37mnewscan      [0;1;37mr[0;36m [0;37mresume transfer [0;1;37m+[0;36m [0;37mtag files     [0;34m▀█[0;1;34;44m░[0;34m▄[0;37m      [0;1;34;47m▒[0;32m  [0;37m░[0m
 [37m   [0;1;34m▐▓[0;32m  [0;1;34m▄▄[0;1;34;44m▓▒[0;34m▀▐[0;37m                                                      [0;34m▀[0;1;34;44m▒▓[0;1;34;40m▄▄  ▐▌[0m
-[32m  [0;1;34m▒███▀▀▀[0;32m [0;34m▌[0;37m [0;34m▐[0;37m   [0;1;37mlogin[0m config   [1mmenu[0;34m [0;37mchange       [0;1;37mext[0m ended command   [32m [0;1;34m▀▀▀███▒[0m
+[32m  [0;1;34m▒███▀▀▀[0;32m [0;34m▌[0;37m [0;34m▐[0;37m   [0;1;37m     [0m          [1m    [0;34m [0;37m             [0;1;37m   [0m                 [32m [0;1;34m▀▀▀███▒[0m
 [32m     [0;34m▄▄▀[0;37m  [0;34m▀▄▓[0;37m                                                         [0;1;34m [0;34m▀▄▄[0;1;34m   [0m
 [32m  [0;37m    [0;34m▀[0;32m  [0;37m                                                             [0;1;34m  [0;34m▀[0;1;34m [0m'

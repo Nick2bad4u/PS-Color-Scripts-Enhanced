@@ -5,7 +5,7 @@
 # Source SHA-256: dec72f6c4c08c6f07bfe4ab50eab4e1c53bbc2a1d820c29aed44a8a0a240a8cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-just-add-ice.ans by warpus (lazarus); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: just add iCE
 # SAUCE Author: warpus
 # SAUCE Group: lazarus
@@ -50,6 +50,6 @@ Write-Host '
 [30;106m────────────────────────────────────────────────────────────────────────────────[0m
 [1;36m████████████████████████████████████████████████████████████████████████████████[0m
 [1;36m████████████████████████████████████████████████████████████████████████████████[0m
-[1;36m██████████████████[0;36;106mor more commonly and accurately simply "[0;30;106miCE[0;36;106m"[0;1;36m██████████████████[0m
+[1;36m██████████████████[0;36;106m                                        [0;30;106m   [0;36;106m [0;1;36m██████████████████[0m
 [1;36m████████████████████████████████████████████████████████████████████████████████[0m
 [1;36m████████████████████████████████████████████████████████████████████████████████[0m'

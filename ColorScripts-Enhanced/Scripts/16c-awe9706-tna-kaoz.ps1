@@ -5,7 +5,7 @@
 # Source SHA-256: 0840287d9f0e8a16c7d83a7f7be171aefde175c3e9445053264048df2d99675d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-KAOZ.ANS by The Night Angel (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Kaoz
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -47,11 +47,11 @@ Write-Host '
      ░           ▄▄████████▀
      ▓     ▄ ░ ▄█████████▌▀
      █▀ [1;30m▄[0m▄▄██▓ ▐██████████░
-     ████████▓  ██████████▓           [1;30mHere''s the original version. Just thought[0m
-     ████████▌  ▀█████████▓           [1;30mit could be cool for you to see what it[0m
+     ████████▓  ██████████▓           [1;30m                                         [0m
+     ████████▌  ▀█████████▓           [1;30m                                       [0m
      ▐███████▄■ ▐██████████           [1;30mlooked like, before I went crazy. :)[0m
 [1;30m   [0;30;47m▓[0m [37;40m▄███████▌  ▀ █████████▌[0m
-[37;40m   ▌ ████████▄    ▀████████▓▒░[0m        [1;30;40mUse Home and End to switch between the two[0m
+[37;40m   ▌ ████████▄    ▀████████▓▒░[0m        [1;30;40m                                          [0m
 [1;30;40m   [0m▌ ██████████[1;30;47m▀[0m▄[1;30m▄ [0m▀███▀▀             [1;30mversions. It''s cool. :)[0m
 [1;30m   [0m▌[1;30;47m▀[0m█████████████████▄▄[1;30m▄▄ [0m▀██▀ ▄░
    ▀████████ ▀██████████████████▀

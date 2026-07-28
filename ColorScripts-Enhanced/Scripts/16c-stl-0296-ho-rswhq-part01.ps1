@@ -5,7 +5,7 @@
 # Source SHA-256: d814c30c2532ce420c71f9756d572330b9cee1c2337102c8ee7d552f04b10650
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HO-RSWHQ.ANS by HOoDOo (Stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: RsW Logo
 # SAUCE Author: HOoDOo
 # SAUCE Group: Stile
@@ -18,7 +18,7 @@ Write-Host '
 [1;30m■▀▀▀▀■▀▀■▀■▀▀▀▀▀■▀■▀■▀▀▀▀▀▀▀▀▀■█▀▀▀▀▀■■▀▀▀■▀▀▀▀▀▀■■▀▀▀■▀▀▀▀■▀▀▀▀▀■▀■▀■▀▀■▀▀▀▀▀▀■[0m
       [1;30m▄▄[0;1;30;42m▀▀[0;1;30;40m▄[0m                    [1;30m▐[0m                 [1;34mR s W  [0m [1;34mH Q[0m [1;34m   [0m
   [1;30m▄▄[0;1;30;42m▀▀    ▄[0;1;30;40m█▄ [0m                 [1;30m▐[0m
-[1;30m■▀[0;1;30;42m▄▒░[0;32m▀[0;1;30;42m░░▄[0;1;30;40m▀[0m [1;30m▐[0;1;30;42m▀[0;1;30;40m█[0m                 [1;30m▐[0m   [1;30mHOoDOo brings ya yet another ansi created[0m
+[1;30m■▀[0;1;30;42m▄▒░[0;32m▀[0;1;30;42m░░▄[0;1;30;40m▀[0m [1;30m▐[0;1;30;42m▀[0;1;30;40m█[0m                 [1;30m▐[0m   [1;30m                                         [0m
    [1;30m█[0;1;30;42m▓▒█[0;1;30;40m▀[0m    [1;30;42m█▐[0;1;30;40m▌[0m                [1;30m█[0m              [1;30mfor[0m [32mRsW HQ[0;1;30m...                  [0m
    [1;30m █▀[0m  [1;30mHo![0m [1;30m▐[0;1;30;42m [0;1;30;40m█[0m                [1;30m█[0m  [1;30m [0m  [1;30m                                        [0m
   [1;30m■▀ [0m  [1;30mSTiLE▐[0;1;30;42m [0;1;30;40m█[0m  [1;30m▄▄[0;1;30;42m▀▀[0;1;30;40m▄[0m         [1;30m▌[0m

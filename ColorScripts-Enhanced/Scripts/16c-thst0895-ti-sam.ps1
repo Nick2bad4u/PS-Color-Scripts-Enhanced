@@ -5,7 +5,7 @@
 # Source SHA-256: 3b4afe40c597f311624806dbabae2fd1711ca216f35f1fa414d0b1e5b8a82c61
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-SAM.ANS by TRiP (THRuSt); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Samurai
 # SAUCE Author: TRiP
 # SAUCE Group: THRuSt
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-    [31m█▄  ▄▀▄  ▄█    TRiP!THRuSt. If ya want a ansi from me, just  █▄  ▄▀▄  ▄█[0m
+    [31m█▄  ▄▀▄  ▄█                                                  █▄  ▄▀▄  ▄█[0m
 [31m   █ ▐▌▐▌▄  ▐▌ █  gimme a holler on irc, as _TRiP_. That or[0m     [31m█ ▐▌▐▌▄  ▐▌ █[0m
 [31m   ▐▌ ▀▄▀▄▀▄▀ ▐▌  mail me on any decent 6o2 board. Umm, yeah.   ▐▌ ▀▄▀▄▀▄▀ ▐▌[0m
 [31m    ▀▄  ▀▀▀  ▄▀[0m                                                  [31m▀▄  ▀▀▀  ▄▀[0m

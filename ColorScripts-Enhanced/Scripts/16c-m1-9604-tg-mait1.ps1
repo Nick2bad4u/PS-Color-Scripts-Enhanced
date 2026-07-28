@@ -5,7 +5,7 @@
 # Source SHA-256: a332d3a65b65a5012d438718ffee12f50dae8eca67ab5d0654426dcaa4f78592
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-MAIT1.ANS by Tang (m1-9604); released in m1-9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -34,7 +34,7 @@ Write-Host '
 [31;40m██████████████████▄[0m [1;31;43m░░▒▓[0;1;31;40m██████▄▄▀█████▀[0m [30;41mA man came slowly from the setting[0;31;40m█[0;30;41msun,[0;37;40m [0m
 [31;40m███████████████████▄[0m [1;31;43m ░▒▓[0;1;31;40m██▄░████████▀[0m [31m█[0;30;41mTo Emer, raddling raiment in her dun,[0;31;40m██[0;37;40m [0m
 [31;40m████████████████████▌[0;33;40m▐▀[0;1;31;43m░▒▓▓[0;1;31;40m████████▀▄[0m [30;41m  And said, ''I am that swineherd whom you[0;37;40m [0m
-[31;40m████████████████████[0m [33;40m▓[0;33;43m [0;33;40m▄▀[0;1;31;43m▓██[0;1;31;40m█████▀▄██[0m [31m██[0;30;41mbid Go watch the road between the[0;31;40m█[0;30;41mwood[0;31;40m█[0;37;40m [0m
+[31;40m████████████████████[0m [33;40m▓[0;33;43m [0;33;40m▄▀[0;1;31;43m▓██[0;1;31;40m█████▀▄██[0m [31m██[0;30;41m                                 [0;31;40m█[0;30;41m    [0;31;40m█[0;37;40m [0m
 [31;40m████████████████████[0m [1;31;43m ░▒▓[0;1;31;40m▄▀▀▀▀▀▄▄████[0;31m ▓█[0;30;41mand tide, But now I have no need to   [0;31;40m█[0;37;40m [0m
 [31;40m████████████████████[0m [33;40m▀▀▀[0;1;31;43m▒▓▓[0;1;31;40m███████▀▀▀[0m [31m█[0;30;41m watch it more.'' -- W.B. Yeats[0;31;40m██████████[0;37;40m [0m
 [31;40m█████▀▀▀▀▀▀▀▀▀▀▀▀▓▀    [0m     [1;31;40m▀[0m  [31m [0m   [31m    ▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████████[0;37m [0m

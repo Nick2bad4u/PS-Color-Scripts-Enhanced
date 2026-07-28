@@ -5,7 +5,7 @@
 # Source SHA-256: 557769e38db9d76e67d2fe1d38b7bce42102dc98b5665f666c7ac2b310761ad2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AR-PREVL.ANS by Argon (EPiC); released in epic0004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Prevail
 # SAUCE Author: Argon
 # SAUCE Group: EPiC
@@ -26,7 +26,7 @@ Write-Host '
                           ▄░  [31m░▒▓▄[0;1;31m▄[0;1;33m▄[0m ▀[33m░▀▀▓▀[0;37m [0;1;33m▄[0;1;31m▄[0;31m▄▓▒░[0;37m  [0;30;43m▒▓█[0m
                          ▀▀▄▓▄  [31m░▓▀[0;1;31m▀[0;31m▀[0;37m [0;33m▄▄▓[0;37m  [0;31m▀[0;1;31m▀[0;31m▀▓░[0;37m  [0;33m▄[0;30;43m░[0;33;40m▄[0m
 [37;40m                          [0;31;40m▒▄[0;37;40m  ▀▀▓▄▄[0;37;43m▒░  [0;33;40m▓▀▀[0;37;40m   [0;30;43m█▓▒[0;33;40m▀▀[0;37;40m  [0;31;40m▄▒[0m
-[30;40mgreets[0;37;40m [0;30;40mgo[0;37;40m [0;30;40mout[0;37;40m [0;30;40mto:[0;37;40m        [0;31;40m▓[0;37;40m [0;31;40m▀▀■▒▄[0;37;40m  ▀[0;37;43m▓▒░[0;33;40m▀[0;37;40m [0;33;40m▒[0;37;40m [0;33;40m▀[0;30;43m░[0;37;40m    [0;31;40m▄▒■▀▀[0;37;40m [0;31;40m▓[0;37;40m  [0;30;40mthis[0;37;40m [0;30;40mansi[0;37;40m [0;30;40mis[0m
+[30;40m      [0;37;40m [0;30;40m  [0;37;40m [0;30;40m   [0;37;40m [0;30;40m   [0;37;40m        [0;31;40m▓[0;37;40m [0;31;40m▀▀■▒▄[0;37;40m  ▀[0;37;43m▓▒░[0;33;40m▀[0;37;40m [0;33;40m▒[0;37;40m [0;33;40m▀[0;30;43m░[0;37;40m    [0;31;40m▄▒■▀▀[0;37;40m [0;31;40m▓[0;37;40m  [0;30;40m    [0;37;40m [0;30;40m    [0;37;40m [0;30;40m  [0m
 [30;40malla[0;37;40m [0;30;40mxul,[0;37;40m [0;30;40mmaytag[0;37;40m [0;30;40mman[0;37;40m      [0;31;40m▀[0;37;41m░[0;31;40m▄▄▄[0;37;41m░ [0;37;40m  [0;33;40m▀[0;37;43m░[0;37;40m  [0;33;40m▄▓[0;37;40m   [0;30;43m▓[0;37;40m  [0;31;40m█▓▄▄▄[0;33;41m░[0;31;40m▀[0;37;40m   [0;30;40mentirely[0;37;40m [0;30;40moriginal.[0m
 [30;40mdr[0;37;40m [0;30;40mshizuma,[0;37;40m [0;30;40mpropane[0;37;40m    [0;30;41m▓[0;37;40m  [0;31;40m▓▄[0;37;40m [0;31;40m▀▀▀[0;37;41m░[0;31;40m▓[0;37;40m  ▄[0;37;43m▒[0;33;40m▀[0;37;43m [0;33;40m▓▀▀▓[0;37;40m  [0;31;40m▓[0;33;41m░[0;31;40m▀▀▀[0;37;40m [0;31;40m▄▓[0m
 [30;40msod[0;37;40m [0;30;40m+[0;37;40m [0;30;40mthe[0;37;40m [0;30;40mepic[0;37;40m [0;30;40mcrew,[0;37;40m      [0;30;41m▓▓[0;31;40m▀▀▀▓[0;37;41m [0;31;40m▄[0;37;40m    [0;37;43m▒░ [0;33;40m▄[0;37;40m    [0;31;40m▄[0;33;41m░[0;31;40m▓▀▀▀[0m

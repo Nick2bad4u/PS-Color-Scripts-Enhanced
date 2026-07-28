@@ -5,19 +5,19 @@
 # Source SHA-256: eb312a49957dfad450d56b6aac6b2c688a78ceb25750d9475dccf81f330bee50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-BUST.ANS by Rabid Doctor (esp0496); released in esp0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
             ▄███▄
 [1;31m█▀▀▀▀▀▀▀▀▀▀[0m▐█▀ ███ [1;31m█▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄[0m
-[1;31m█[0m   ▄█████▄ ▀  ▐██▌[1;31m█[0m [1;30m I tried to draw this sorta like  Chinese  or [0;1;31m▀[0m
-[1;31m█[0m  ▄███▌███▌   ▄██▌[1;31m█[0m [1;30mJapanese writing. Eitherway you''re busted!   [0m [1;31m█[0m
+[1;31m█[0m   ▄█████▄ ▀  ▐██▌[1;31m█[0m [1;30m                                              [0;1;31m▀[0m
+[1;31m█[0m  ▄███▌███▌   ▄██▌[1;31m█[0m [1;30m                                             [0m [1;31m█[0m
 [1;31m█[0m  ▓██▀  ▀▀▄██████▌[1;31m█▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀[0m
 [1;31m█[0m  ▒▓█▄  ▄███▀ ██▓▌[1;31m█[0m
 [1;31m█[0m   ▒▓█  ███▀  █▓▒ [1;31m█▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄   ▄▄▄ ▄▄▄▄▄▄▄▄ ▄▄▄▄[0m
-[1;31m█[0m   ░▒▓▄ ███▄  ▓▒░ [1;31m█ [0m [1;30mESP - eaSTeRN SeaBoaRD PiRaTeS - if you don''t know [0;1;31m▀[0m
+[1;31m█[0m   ░▒▓▄ ███▄  ▓▒░ [1;31m█ [0m [1;30m                                                   [0;1;31m▀[0m
 [1;31m█[0m    ░▒▒  ██▓ ▒▒░  [1;31m█[0m [1;30m                                                    [0;1;31m█[0m
 [1;31m█[0m    ░░░   ▓▒░░░   [1;31m█[0;1;30m                                                    [0m [1;31m▄[0m
 [1;31m█[0m                  [1;31m█▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀[0m

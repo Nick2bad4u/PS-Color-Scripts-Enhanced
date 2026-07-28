@@ -5,7 +5,7 @@
 # Source SHA-256: 1c3a655e274a50b3a0a41931323c7ec6db7f2fd1cb4192bc85d0d4c53efcfe23
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MFS-ATLI.ANS by m3l farr suppastar (your mom); released in blndr006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: alien plays basketball with human
 # SAUCE Author: m3l farr suppastar
 # SAUCE Group: your mom
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30;46mi call this piece, alien-plays-basketball--[0;36;40m▀[0;1;36;40m [0;1;37;40m▄███ [0;1;36;40m████████▀▀▀▀▀██████ [0;1;37;40m████▄ [0;1;36;40m▀███[0m
+[30;46m                                           [0;36;40m▀[0;1;36;40m [0;1;37;40m▄███ [0;1;36;40m████████▀▀▀▀▀██████ [0;1;37;40m████▄ [0;1;36;40m▀███[0m
 [30;46mwith-human-head-on-moon                  ▄[0;1;36;40m [0;1;37;40m▄████▌ [0;1;36;40m████▀▀▀▀ [0;1;30;40m█[0;1;30;43m▀▀[0m [1;36m▀▀▀███▄ [0;1;37m█████ [0;1;36m▀██[0m
 [1;36m█████████████████████████████████████████ [0;1;37m██████ [0;1;36m▀██▀▀ [0;1;30m█[0;1;30;43m▀▀▀[0;33m████ █▄▄ [0;1;36m▀▀  [0;1;37m█████ [0;1;36m▀█[0m
 [1;36m███████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████████████████ [0;1;37m███████▄ [0;1;36m▀ [0;1;30;43m█[0;1;30;40m▀▀ [0;1;37;40m▄ [0;33m▀▀ [0;1;37m▄ [0;33m█████  [0;1;37m███████ [0;1;36m█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: e61ac8234eebe59c9710a2cd16de2fcd53af6a200a98496734e819eaf511c34d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EL-TRA.ANS by Elysius (DIVINE); released in div-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Realms Above
 # SAUCE Author: Elysius
 # SAUCE Group: DIVINE
@@ -52,4 +52,4 @@ Write-Host '
 [30m█████████████████████████████████[0;1;30mSysop[0;30m█[0;1;30m-[0;30m█[0;1;30mFusion[0;30m█[0;1;30mX[0;30m███████████████████████████████[0m
 [30m████████████████████████████████████████████████████████████████████████████████[0m
 [30m████████████████████████████████████████████████████████████████████████████████[0m
-[30m█████████████████████[0;1;30mOriginal[0;30m█[0;1;30martwork[0;30m█[0;1;30mby[0;30m█[0;1;30mElysius[0;30m█[0;1;30mof[0;30m█[0;1;30mDivine[0;30m█[0;1;30m1995[0;30m█████████████████[0m'
+[30m█████████████████████[0;1;30m        [0;30m█[0;1;30m       [0;30m█[0;1;30m  [0;30m█[0;1;30m       [0;30m█[0;1;30m  [0;30m█[0;1;30m      [0;30m█[0;1;30m    [0;30m█████████████████[0m'

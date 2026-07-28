@@ -5,7 +5,7 @@
 # Source SHA-256: 2256861e8ee53885ebe7a6aeb5f8308629f433c5d0c9edcc8aefade34dfff161
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-OFF.ANS by bizzarro (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: off
 # SAUCE Author: bizzarro
 # SAUCE Group: nerp
@@ -35,7 +35,7 @@ Write-Host '
    [34m [0;1;34m  [0;34m [0;1;34m░░▀[0;34m▀ ▄█████[0;1;34;44m░[0;36;44m▒[0;1;34;46m▓[0;1;34;40m▓░[0;34m ░░     ██[0;36;44m░░[0;1;34;44m▓▒░[0;34m█[0;1;34;44m░▒▓▓█[0;1;34;40m░ [0;1;32;40m [0;35mshrieking wind of forgotten souls[0m
 [37m  [0;34m    [0;1;34m  [0;34m▄[0;1;34;44m░░░[0;34m████[0;1;34;44m░░▒▓█[0;1;34;40m▌[0;34m      ▀█▄▐[0;1;34;44m░▒[0;36;44m░[0;1;34;44m▒░ [0;34m██[0;1;34;44m░▒█[0;1;34;40m▓▒░ [0;35mborn again from unquenched coals[0m
    [34m░░▄[0;1;34;44m░░░▒▄[0;34m██[0;1;31;44m░░[0;34m████[0;1;34m▐[0;34m          [0;1;34;44m░▒▓▒░░ [0;34m▀[0;1;34;44m░░ ░▓▀[0;1;34;40m░ [0m [35mdeath, he rides a furios stallion[0m
-   [1;34m░[0;1;34;44m░░▒▓▓▀▐[0;34m█[0;1;34;44m░[0;34m██[0;1;34;44m░[0;34m███[0;35;44m░[0;1;34;44m░[0;34m▄▄biz▄▄ [0;1;33;44m░░[0;1;34;44m░▒░[0;34m█[0;35;44m░░[0;34;40m█▀███[0;1;34;44m░[0;34m▀[0;1;34m [0;34m [0;37m [0;35mat the fore of the last battalion[0m
+   [1;34m░[0;1;34;44m░░▒▓▓▀▐[0;34m█[0;1;34;44m░[0;34m██[0;1;34;44m░[0;34m███[0;35;44m░[0;1;34;44m░[0;34m▄▄   ▄▄ [0;1;33;44m░░[0;1;34;44m░▒░[0;34m█[0;35;44m░░[0;34;40m█▀███[0;1;34;44m░[0;34m▀[0;1;34m [0;34m [0;37m [0;35m                                 [0m
 [37m  [0;1;34m░[0;1;34;44m░▒[0;36;44m░[0;1;34;44m▓██[0;34m█[0;1;34;44m    ░[0;34m█[0;1;34;44m░░[0;34m███▀▄▄▄██▄[0;1;33;44m░[0;34m███[0;1;34;44m░[0;34m█▀█▄█[0;1;34;44m░[0;34m▄ ▀   [0;37m  [0;35mwinternight of feverish hate [0m
 [37m [0;1;34m░▒[0;1;34;44m░[0;36;44m░[0;1;34;44m▒[0;1;32;44m░░[0;34m██[0;1;34;44m   ░▒░[0;34m█[0;1;34;44m  [0;34m██████▀[0;1;32;44m░░[0;34m██[0;1;34;44m░[0;34m██▀▐█[0;1;34;44m░▐▓░░[0;34m▓░░ [0;37m  [0;35man epoch of confusion        [0m
 [37m  [0;1;34m░[0;1;34;44m░[0;30;44m░[0;1;34;44m░[0;34m███[0;1;34;44m  ░░▓█▓▒░[0;34m██[0;1;32;44m [0;36;44m░░[0;1;32;44m [0;36;44m░▒[0;34;40m▀[0;30;44m░░[0;34;40m███▌ █[0;1;34;44m░▒██▓▒░[0;34m▌[0m    [35msteel crashes chaotic state[0m

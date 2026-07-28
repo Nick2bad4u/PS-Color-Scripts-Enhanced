@@ -5,20 +5,20 @@
 # Source SHA-256: 0269f304c468cc9434f6ea131b02719d4f08ebf827a31a961ffc9649248f531f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NB-POFT.ANS by Night Breed (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
 [1m                [0m [1;30m [0m [1;37m▄▄[0m▄▄▄ [1;30m [0m [1m               [0;1;30m││[0m    [1;37m                             [0m
-[1mHavo[0mk[1;30m∙[0;1;37m  ▄▄▄▄▄▄▄[0m [1;30mk∙[0m [1;37m█[0;1;32;42m██▓[0;1;30;47m [0m [1;30;40m▄[0m▄[1m▄▄▄▄[0m   [1;30mk[0m∙[1mHa[0mv[1mok∙[0;1;30m││[0m [1;37mdone with DarK DraW. But I am sure[0m
+[1m    [0m [1;30m [0;1;37m  ▄▄▄▄▄▄▄[0m [1;30m  [0m [1;37m█[0;1;32;42m██▓[0;1;30;47m [0m [1;30;40m▄[0m▄[1m▄▄▄▄[0m   [1;30m [0m [1m  [0m [1m   [0;1;30m││[0m [1;37m                                  [0m
 [1mok∙H[0ma[1;30mv[0;1;37m █[0;1;32;42m█▓▒░ [0;32m██[0;1;37m█[0m [1;30mv[0m [1;37;47m▓[0;1;32;42m▓▓▒[0;1;30;47m░[0m [32m░▒▓█[0;1;32;42m  [0;1;37;42m▀▀[0;1;37;40m▄[0m  [1;30;40mo[0mk[1m∙Hav[0;1;30m││[0m [1;37mit won''t be the last. It is smaller[0m
-[1;37mHavo[0mk[1;30m∙[0;1;37m █[0;1;32;42m█▓▒░ [0;32m██▓[0;37m█[0m  [1;37;47m▓[0;1;32;42m▒▒░[0;1;30;47m░[0m [1;30;40m▄[0;42m▄[0;1;42m▄▄[0;1;32;42m  ░▒▓[0;1;37;42m▀[0;1;37;40m▄[0m [1;30;40ma[0mv[1mok∙[0;1;30m││[0m [1;37mand faster then any other programs[0m
+[1;37m    [0m [1;30m [0;1;37m █[0;1;32;42m█▓▒░ [0;32m██▓[0;37m█[0m  [1;37;47m▓[0;1;32;42m▒▒░[0;1;30;47m░[0m [1;30;40m▄[0;42m▄[0;1;42m▄▄[0;1;32;42m  ░▒▓[0;1;37;42m▀[0;1;37;40m▄[0m [1;30;40m [0m [1m   [0;1;30m││[0m [1;37m                                  [0m
 [1mok∙H[0ma[1;30mv[0;1;37m █[0;1;32;42m█▓▒░[0;1;37;40m█[0;32m██▓▒[0;1;30m█[0m [1;37;47m▒[0;1;32;42m░░ [0;1;30;47m▒[0m [1;30;40m▄[0m▄[1m▄▄[0;1;42m▀[0;1;32;42m ░▒▓[0;1;37;42m▄[0;1;37;40m▀[0m [1;30;40mk[0m∙[1mHav[0;1;30m││[0m [1;37mI have seen. And the 3000+ line [0m
 [1mHavo[0mk[1;30m∙[0;1;37m █[0;1;32;42m█▓▒[0;1;37;40m█ █[0;32m█▓▒░[0m [1;37;47m▒[0;1;32;42m  [0;32m█[0;1;30;47m▒[0m [32m░▒▓█[0;1;32;42m  ░▒[0;1;37;42m▀[0;1;37;40m▄[0m  [1;30;40ma[0mv[1mok∙[0;1;30m││[0m [1;37mlimit is a great feature too. And [0m
 [1mok∙H[0ma[1;30mv[0;1;37m █[0;1;32;42m█▓▒[0;1;37;40m█[0m [1;37;40m █[0;32m▓▒░[0m [1;37;47m░[0;32m█▓▓[0;1;30;47m▓[0m [1;30;40m▀[0m▀[1m▀▀[0;1;42m▄[0;1;32;42m ░▒▓█[0;1;37;40m█[0m [1;30;40mk[0m∙[1mHav[0;1;30m││[0m [1;37mI am using the Alpha release, so [0m
-[1mHavo[0mk[1;30m∙ [0;1;37m█[0;1;32;42m█▓▒[0;1;37;40m█[0m [1;30;40ma[0;1;37;40m █[0;32m▒░[0m [1;37;47m░[0;32m▓▒▒[0;1;30;47m▓[0m [1;30;40m▀[0;42m▀[0;1;42m▀▀[0;1;32;42m  ░▒▓[0;1;37;42m▄[0;1;37;40m▀[0m [1;30;40ma[0mv[1mok∙[0;1;30m││[0m [1;37mI can''t wait to see the completed[0m
-[1mok∙H[0ma[1;30mv[0;1;37m █[0;1;32;42m█▓▒[0;1;37;40m█[0m [1;30;40mk∙[0;1;37;40m [0m█[32m░[0m [1;37;47m [0;32m▒░░[0;1;30;47m█[0m [32m░▒▓█[0;1;32;42m  [0;1;37;42m▄▄[0;1;37;40m▀[0m  [1;30;40mo[0mk[1m∙Hav[0;1;30m││[0m [1;37mversion. Check the .NFO file in    [0m
+[1m    [0m [1;30m  [0;1;37m█[0;1;32;42m█▓▒[0;1;37;40m█[0m [1;30;40m [0;1;37;40m █[0;32m▒░[0m [1;37;47m░[0;32m▓▒▒[0;1;30;47m▓[0m [1;30;40m▀[0;42m▀[0;1;42m▀▀[0;1;32;42m  ░▒▓[0;1;37;42m▄[0;1;37;40m▀[0m [1;30;40m [0m [1m   [0;1;30m││[0m [1;37m                                 [0m
+[1m    [0m [1;30m [0;1;37m █[0;1;32;42m█▓▒[0;1;37;40m█[0m [1;30;40m  [0;1;37;40m [0m█[32m░[0m [1;37;47m [0;32m▒░░[0;1;30;47m█[0m [32m░▒▓█[0;1;32;42m  [0;1;37;42m▄▄[0;1;37;40m▀[0m  [1;30;40m [0m [1m    [0;1;30m││[0m [1;37m                                   [0m
 [1;37mHavo[0mk[1;30m∙[0;1;37m ▀▀▀▀▀[0m [1;30ma[0mv[1;30mo[0m [1;30m▀[0m [1;37;47m [0;32m░  [0;1;30;47m█[0m [1;30;40m▀[0m▀[1m▀▀▀▀[0m   [1;30mk[0m∙[1mHavok∙[0;1;30m││[0m [1;37mthis pack for more info on getting [0m
 [1;37m                [0m [1;30m [0m ▀▀[1;30m▀▀▀[0m [1;30m [0m [1m               [0;1;30m││[0m [1;37m                           [0m
 [1;30m──────────────────────────────────────────┘└────────────────────────────────────[0m

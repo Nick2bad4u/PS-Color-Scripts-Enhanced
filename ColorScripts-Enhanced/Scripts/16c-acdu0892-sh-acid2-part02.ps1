@@ -5,7 +5,7 @@
 # Source SHA-256: 98100c7a0c818693e09c873250c9f5f3b74d7a51e27bb1e3fa2bc1cda7321106
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-ACID2.ANS by Tracer (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 36-79
 # Columns: 1-80
 
@@ -52,4 +52,4 @@ Write-Host '
 [1;30m  [0;1;37m│    [0;1;31m      [0;31m  [0;1;37m [0;1;31m   [0;31m  [0;1;37m [0;1;31m [0;31m  [0;1;30m  [0;1;33m [0m [1;33m  [0;1;37m [0;1;33m         [0;1;37m [0;1;33m      [0;1;30m  [0;1;37m [0;1;32m [0;32m  [0;1;37m [0;1;32m [0m [1;32m [0;32m  [0;1;37m [0;1;32m  [0;32m  [0;1;37m [0;1;32m      [0;32m    [0;1;30m [0m
 [1;30m  [0m│   [30;47m██[0;1;33m  [0;1;37m [0;1;33m         [0;1;37m [0;1;33m    [0;1;37m [0;1;33m     [0;33m  [0;1;37m [0;1;33m   [0;33m  [0;1;30m  [0;33m  [0;1;33m [0;33m [0;37m [0;1;37m [0;1;33m   [0;1;30m  [0;1;37m [0;1;34m      [0;34m  [0;1;37m [0;1;34m  [0;34m [0;37m  [0;1;37m [0;1;34m  [0;34m [0;30;47m████[0m [1;30m│[0m
 [1;30m  │[0m   [30;47m█[0m [30;40m█[0;1;33m [0;1;32m [0;1;36m  [0;1;37m [0;1;36m          [0;36m  [0;1;37m [0;1;36m  [0;36m  [0;1;30m   [0;1;37m [0;1;35m     [0;35m  [0;1;37m [0;1;35m [0;35m  [0;1;37m [0;1;35m  [0;35m [0;37m [0;1;37m [0;1;35m     [0;35m [0;37m [0;1;37m [0;35m [0;37m [0;1;37m [0;35m  [0;1;37m [0;1;35m   [0;35m [0m [30;47m█[0;30;40m██[0m  [37m│[0m
-[37m  [0;1;30m:[0m    [30;40m███[0;1;37mA[0mNS[1;30mi [0;1;37mB[0;1;30my [0;1;37mT[0mRACε[1;30mR/[0;1;37mR[0ma[1;30mD [0;1;37mM[0ma[1;30mn [0;1;37mo[0;1;30mf [0mAC[1mi[0mD [1mP[0mroduction[1;30ms [0;1;37m7[0;1;30m/[0;1;37m31[0;1;30m/[0;1;37m92 [0;1;30m∙∙──[0m───────[1m────┘[0m [30;47m█[0;1;37m [0m'
+[37m  [0;1;30m [0m    [30;40m███[0;1;37m [0m  [1;30m  [0;1;37m [0;1;30m  [0;1;37m [0m    [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0;1;30m  [0m  [1m [0m  [1m [0m         [1;30m  [0;1;37m [0;1;30m [0;1;37m  [0;1;30m [0;1;37m   [0;1;30m  ──[0m───────[1m────┘[0m [30;47m█[0;1;37m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: bed1eb742f45b6ec67a61261ce04e33bc5efe8980860178bf1207a338bbe3446
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-DREAM.ANS by Ensanguined (Apocalyptic Visions); released in avpack06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dream State Advert
 # SAUCE Author: Ensanguined
 # SAUCE Group: Apocalyptic Visions
@@ -53,7 +53,7 @@ Write-Host '
 [34m▒[0m      [1;34m "gig harddrive" is wedged   [0m [1;34m    [0m  [34m▒[0m         [1;30m██[0m    [1;30m██[0m  [1;30m▐█[0m    [1;30m██[0m
 [34m▒[0m       [1;34m in one of your harddrive     [0m     [34m▒[0m     [37man [0;1;30m██[0m      [1;30m██[0m  [1;30m▐█[0m  [1;30m██[0m
 [34m▓[0m        [1;34m                         [0m         [34m▓[0m                  [37m     [0;1;30m██[0m
-[34m█▄▄▄▄▄▄[0;37m  [0;1;34mthe necessary stuff here.[0m   [34m▄▄▄▄▄▄█[0m                  [37m    [0;1;30m██[0m production
+[34m█▄▄▄▄▄▄[0;37m  [0;1;34m                         [0m   [34m▄▄▄▄▄▄█[0m                  [37m    [0;1;30m██[0m           
  [34m ▄▄▄[0;37m [0;34m▓[0;37m                           [0m   [34m▓[0;37m [0;34m▄▄▄ [0m      [37m  [0m
 [34m▄▄[0;1;30;44m▀[0;34m▄[0;1;30;44m▀[0;34m▄█[0m     [1;34m  [0m                       [34m█▄[0;1;30;44m▀[0;34m▄[0;1;30;44m▀[0;34m▄▄[0m
 [34m▓[0;37m [0;1;30;44m▀[0;34m [0;1;30;44m▀[0;1;30;40m                          [0m      [34m  [0;1;30;44m▀[0;34m [0;1;30;44m▀[0m [34m▓[0m

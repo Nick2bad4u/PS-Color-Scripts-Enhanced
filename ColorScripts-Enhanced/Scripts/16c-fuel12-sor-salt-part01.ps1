@@ -5,7 +5,7 @@
 # Source SHA-256: 7c2463bb8c84935372735492cc17e91461c3bb722377b74025e4921915faa0f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-SALT.ANS by Spirit of Rage (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Salt
 # SAUCE Author: Spirit of Rage
 # SAUCE Group: Fuel Productions
@@ -17,9 +17,9 @@
 Write-Host '
 [1;47m▒░[0;1;30;47m  ▒▄[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30;47m▄▄░  [0;1;37;47m░░[0;1;30;40m [0;1;37;47m▒░[0;1;30;47m  ▒▄[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀ ▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30;47m▄▄░░     [0;1;37;47m░░[0m
 [1;37;47m░[0;1;30;47m ▄[0;1;30;40m▀ [0;31m▄▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄▄[0;37m [0;1;30m▀[0m▀[1;30;47m▄▒[0;1;30;40m [0;1;37;47m░[0;1;30;47m ▄[0;1;30;40m▀   [0m                                [1;30m ▀[0m▀▀▀▀▀▀▀
-▀▀[1;30m [0;1;31m▄[0;1;31;41m▒[0;31m▀[0;37m [0;1;30m▄[0;36m▄[0;1;30;46m░░[0;36m████[0;1;36;46m▀▓██▓▄[0;1;36;40m▄▄[0;36m▄[0;37m [0;31m▀▀█▄[0;1;30m ▀ [0;1;30;47m  [0;1;30;40m▌[0m   ansi pic by [1;33mspirit of rage[0m of [31mfuel[0;37m   [0;1;30m▐[0;1;30;47m▌[0;1;37;47m  [0m█
+▀▀[1;30m [0;1;31m▄[0;1;31;41m▒[0;31m▀[0;37m [0;1;30m▄[0;36m▄[0;1;30;46m░░[0;36m████[0;1;36;46m▀▓██▓▄[0;1;36;40m▄▄[0;36m▄[0;37m [0;31m▀▀█▄[0;1;30m ▀ [0;1;30;47m  [0;1;30;40m▌[0m               [1;33m              [0m    [31m    [0;37m   [0;1;30m▐[0;1;30;47m▌[0;1;37;47m  [0m█
 █[1;30m▌[0;1;31m▐[0;1;31;41m▓[0m [1;30m▐[0;1;30;46m▓▒[0;36m▌▀██████[0;1;36;46m▐███████▓▄[0;36m▄[0;37m [0;31m▀[0;1;31;41m▒[0;31m [0;1;30m [0;30;47m░[0;1;30;47m [0m    [1;30m                 [0m                    [1;30m▐[0;1;30;47m░[0;1;37;47m [0m█[30;47m░[0m
-[30;47m░[0;1;30;40m [0;1;31;47m▓[0;1;31;40m▌[0;1;30;40m▐[0;1;30;46m▓▒░[0;30;46m█[0;1;30;40m [0;30;46m█[0;36;40m▀▀▀[0;1;36;46m░[0;36m██[0;1;36;46m▀▓███▀[0;1;36;40m▀[0;36m▀[0;1;36m▐[0;1;36;46m█▌[0;36m [0;1;31;41m▓[0;1;31;40m▌[0m [30;47m▒░[0;37;40m    [0;1;32;40mfuel[0m [32mproduction[0;37m presents this full   [0;1;30m [0;30;47m░[0;37;40m█[0;30;47m░░[0m
+[30;47m░[0;1;30;40m [0;1;31;47m▓[0;1;31;40m▌[0;1;30;40m▐[0;1;30;46m▓▒░[0;30;46m█[0;1;30;40m [0;30;46m█[0;36;40m▀▀▀[0;1;36;46m░[0;36m██[0;1;36;46m▀▓███▀[0;1;36;40m▀[0;36m▀[0;1;36m▐[0;1;36;46m█▌[0;36m [0;1;31;41m▓[0;1;31;40m▌[0m [30;47m▒░[0;37;40m    [0;1;32;40m    [0m [32m          [0;37m                      [0;1;30m [0;30;47m░[0;37;40m█[0;30;47m░░[0m
 [30;47m▒[0;1;30;40m [0;1;31;40m▐[0;1;31;41m▓[0m [1;30m▀[0;1;30;46m▓▒░[0;36m▄▄▄▄▄[0;1;30m [0;36m▀▐▌[0;1;36m▀[0;1;30m     [0;30;46m█[0;1;36;46m██▓[0;36m [0;1;31m▐[0;1;31;47m▓[0m [30;47m▓▒[0;1;30;40m [0m   [34mc[0;32mo[0;31ml[0;35mo[0;33mr[0;37m smashing ansi, made in [0;1;36m1997[0;1;30m  [0m [1;30m  [0;30;47m▒░░▒[0m
 [30;47m▓[0;1;30;40m  [0;1;31;40m▀[0;1;31;41m▒[0;31m▄[0;37m [0;1;30m▀[0;36m▀▀[0;1;30;46m░░[0;36m█████[0;1;36;46m▄█▓[0;1;36;40m▄▄▄[0;1;36;46m█▓[0;1;36;40m▀[0;36m▀[0;37m [0;1;31m▄[0;1;31;41m▓[0;1;31;40m▌[0;31m [0;37m [0;30;47m▓[0;1;30;40m    [0m                                   [1;30m   [0;30;47m▓▒▒▓[0m
    [1;30;40m  [0;31m▀▀▀█▄▄▄▄▄▄▄▄[0;37m [0;1;36m▀▀▀▀[0;36m▀[0;37m [0;31m▄▄[0;1;31;41m▒[0;1;31;40m▀▀[0;31m [0m   [37m                [0;31m [0m    [1;30m  [0m [1;30m           [0m   [1;30m  [0m    [30;47m▓▓[0;1;30;40m [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 2232f46a5d21d3997836cea79488118ceec3e8510dd5215f5027ad53f772e4ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BCACID3.ANS by Manufacturer (acdu0792); released in acdu0792 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 41-59
 # Columns: 1-80
 
@@ -23,7 +23,7 @@ Write-Host '
  ▐██████[1;30;47m░▒[0;1;30;40m▌░[0m      ▐[30;44m█[0;34m▀██[0;1;34;44m░▒▓[0;30;44m██[0;34m▀[0;34;44m [0;1;34;44m░░▒[0;1;34;40m▀[0;31;40m░░▒[0;34m▀█[0;1;34;44m░▒▓[0;1;34;40m▀[0m  [34m██[0;1;47m░[0m██[1;30;47m▒[0;34m▀[0;1;34;44m░▒[0;1;34m▀[0m███[1;30;47m░[0;1;34;44m░░[0;30;44m███[0;1;30;40m▀    [0;1;30;47m▌[0m██████[1;30;47m░[0m▌
  ██[1;30m▓[0m███[47m [0;1;30;47m░▓[0m      [1;30;40m▄[0m▄█████[1;30;47m░▒[0;1;30;40m▓[0m▐███[41m▀▀▄░[0;31;40m█▄▓[0;37;41m▄[0;37;40m█[0;37;41m▀[0;1;31;41m∙[0;41m▀[0;43m▀[0m [1;30;40m░▒[0m▐[1;47m░[0m██[1;30;47m▓[0;1;30;40m▌ ▒[0;1;30;47m▌[0m███[1;30;47m░[0m▌[1;30m▒▓▀[0m     [1;30m░▓[0m██████[1;30;47m░[0;1;30m▒[0m
 ▐██[1;30m█[0m██[1m [0m  [1;30m [0m▄[1m [0m   [1;30m [0m█[1m [0m█[1m [0m   [1;30m [0;1m  [0m [1;30m [0;1m  [0m  [1;30m [0;40m█[0;1m [0;41m▒[0;1m [0m [1;30m [0;40m█[0;1m [0m   [1;30m [0;1;30;40m░[0;1m [0m  [1;30m [0;1m [0m      [1;30m [0;1;30;47m░[0;1m [0;1;30m▀[0;1m [0m [1;30m [0m [1m [0m  [1;30m  [0m▐[1m [0m  [1;30;40m [0m█[47m [0;1;30;40m▓[0m▌
-███[1;30;47m▓[0m█[1;30m▄[0m███████[1mR[0munnin[1;30mg[0;1;30;47m▓[0;1mV[0miSiON-[1;30mX[0m█[1mw[0mit[1;30mh[0m█[1mF[0melonyNE[1;30mT[0;1;30;40m▄[0;1m∙[0m█[1mS[0mysO[1;30mp[0;1m:[0m█[1mV[0meno[1;30mM[0m [1m[[0miCE/INC[1;30;40m][0m▄█████[1;30;40m▄[0;47m [0;1;30;47m▓▒[0m
+███[1;30;47m▓[0m█[1;30m▄[0m███████[1m [0m     [1;30m [0;1;30;47m▓[0;1m [0m      [1;30m [0m█[1m [0m  [1;30m [0m█[1m [0m       [1;30m [0;1;30;40m▄[0;1m [0m█[1m [0m   [1;30m [0;1m [0m█[1m [0m   [1;30m [0m [1m [0m       [1;30;40m [0m▄█████[1;30;40m▄[0;47m [0;1;30;47m▓▒[0m
 ▀[1;30;47m▄▄▒[0m▀[1;30;47m▓[0m▀[1;30m▄[0m▀▀▀▀▀[1;30mTMT▀<[0;31mAC[0;1;31mi[0;31mD[0;1;30;40m>[0m [1;30;40mProductions[0m▀[1;30;40m-[0m▀[1;30;40mo6/o5/92[0m▀[1;30;40m-[0m▀[1;30;40m"It''s[0m▀[1;30;40mKilling[0m [1;30;40mTime!"[0m▀▀▀▀[1;30;40m▄[0m▀[1;30;47m▓▄▒[0m▀
    [1;30m▀▀▓▓▒▒░░[0m              [1;30m░░▒▓▒░[0m        [1;30m░▒▓▌▐▓▒░[0m        [1;30m░▒▓▌░  ▄▄▀▀▀ ░░▒▒▓▓▀▀[0m
        [1;30m▀▀▓▓▒▒░░░[0m      [1;30m░░░▒▒▓▀▓▒░[0m      [1;30m░▒▓█ ▐▓▒░░[0m     [1;30m░░▒▓▀▄▄▀▀  ░░▒▒▓▓▀▀[0m

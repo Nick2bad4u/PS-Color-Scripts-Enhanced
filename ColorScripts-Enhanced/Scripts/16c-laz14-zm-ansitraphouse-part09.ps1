@@ -5,7 +5,7 @@
 # Source SHA-256: 4ab97caa605b7e6dfd4894f2b62ed970971e0825d06d372fb502310b7bc5cfe6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZM-ANSiTRaPHouSE.ans by Zeromous (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ZM-ANSiTRaPHouSE
 # SAUCE Author: Zeromous
 # SAUCE Group: LAZARUS
@@ -25,10 +25,10 @@ Write-Host '
 [37m                             [0;36;47m▐[0m
 [37;40m  [0;1;36;40m                           [0;1;35;46m▒[0m   [1;36m                                    [0m [1;36m        [0m
 
- [1;30mi can feel the judgement of the     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m  [1;30moooooh[0m
+ [1;30m                                    ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m  [1;30m      [0m
  [1;30mstreets as if we should know what[0m  ▄[1;36m▄████████████████████████████████▄[0m▄ [1;30myeaahh[0m
- [1;30mwe are looking at backhanded jabs[0m ▄[1;36;47m▄[0;1;36;40m███[0;35;106m████[0;1;36m█[0;1;35;106m ██[0;1;36m███[0;32;106m██[0;1;36m██[0;1;34;106m█[0;1;36m█[0;1;34;106m█[0;1;36m█[0;1;32;106m ███ [0;1;36m█[0;31;106m█ █[0;1;36m███[0;1;36;47m▄[0m▄ [1;30mcream[0m
- [1;30mcomparisons to artists but the    [0m█[1;36m████[0;35;106m████[0;1;36m█[0;1;35;106m████[0;1;36m█[0;32;106m████[0;1;36m█[0;1;34;106m███[0;1;36m█[0;1;32;106m█ █ █[0;1;36m█[0;31;106m███[0;1;36m████[0m█ [1;30mrises[0m
+ [1;30m                                 [0m ▄[1;36;47m▄[0;1;36;40m███[0;35;106m████[0;1;36m█[0;1;35;106m ██[0;1;36m███[0;32;106m██[0;1;36m██[0;1;34;106m█[0;1;36m█[0;1;34;106m█[0;1;36m█[0;1;32;106m ███ [0;1;36m█[0;31;106m█ █[0;1;36m███[0;1;36;47m▄[0m▄ [1;30m     [0m
+ [1;30m                                  [0m█[1;36m████[0;35;106m████[0;1;36m█[0;1;35;106m████[0;1;36m█[0;32;106m████[0;1;36m█[0;1;34;106m███[0;1;36m█[0;1;32;106m█ █ █[0;1;36m█[0;31;106m███[0;1;36m████[0m█ [1;30m     [0m
  [1;30mstreets still accept us weirdos[0m  █[1;36m█████[0;35;106m░░░░[0;1;36m█[0;1;35;106m░░░░[0;1;36m█[0;32;106m░░░░[0;1;36m█[0;1;34;106m░░░[0;1;36m█[0;1;32;106m░ ░ ░[0;1;36m█[0;31;106m░░░[0;1;36m█████[0m█ [1;30mtoda[0m
  [1;30maddicts the mentally unwell     [0m█[1;36m██████[0;35;106m░░░░[0;1;36m█[0;1;35;106m ░[0;1;31;106m███[0;1;36m█[0;32;106m░░[0;1;31;106m█[0;1;36m█[0;1;34;106m░[0;1;31;106m████[0;1;32;106m░░░ [0;1;36m█[0;31;106m░[0;1;36m█[0;31;106m░[0;1;36m██████[0m█ [1;30mtop[0m
  [1;30mcreators it should accept us[0m   ▄[1;36;47m▄[0;1;36;40m█████████████[0;1;31;106m█[0;1;36m████[0;1;31;106m██[0;1;36m█████[0;1;31;106m█[0;1;32;106m   [0;1;36m███████████[0;1;36;47m▄[0m▄  [1;30mR[0m

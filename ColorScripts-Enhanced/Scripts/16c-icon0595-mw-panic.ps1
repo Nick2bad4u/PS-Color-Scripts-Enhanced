@@ -5,7 +5,7 @@
 # Source SHA-256: 302dcee531d878052061cef2d0c886209e4a8fac27e19739b8db3d21156d296a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-PANIC.ANS by Maeve Wolf (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: DoN'T PaNiC!
 # SAUCE Author: Maeve Wolf
 # SAUCE Group: iCON
@@ -64,4 +64,4 @@ Write-Host '
 [34m∙ D [0;1;34m∙ o [0m∙ N [1;30m∙ '' ∙ T ∙ ░ ░▒▓[0;1;30;47m▓[0;36m▄▄▄█[0;1;36;46m▄[0;36m█[0;1;30m░▒▓[0;1;30;47m▓[0;36m█[0;1;36;46m▀[0;36m█[0;1;30m░  ░[0;36m█[0;1;37;46m▓[0;36m█[0;1;30m░ [0;34m∙ P [0;1;34m∙ a [0m∙ N [1;30m∙ i ∙ C ∙ ! ∙[0m
 [34m∙ + [0;1;34m∙ 6 [0m∙ 1 [1;30m∙ - ∙ 7 ∙ -  [0;36m▄[0;1;37;46m▒[0;36m█▀ [0;1;30m░[0;36m█[0;1;36m▓[0;36m█  [0;1;30m░▒[0;36m█[0;1;36m▓[0;36m█[0;1;30m░[0;36m▄▄█▀▀[0;1;30m▒ [0;34m∙ 2 [0;1;34m∙ o [0m∙ 2 [1;30m∙ 6 ∙ 8 ∙ 7 ∙ 8 ∙[0m
 [34m.1[0;1;34m00[0m%.[1;30mdEMO.oRIENTATED. ░ [0;36m█[0;1;37;46m░[0;36m█[0;1;30m░ ░[0;36m█[0;1;36m▒[0;36m█[0;1;30m░▒ ░[0;36m█[0;1;36m▒[0;36m█[0;1;30m▒░    ░  [0;34m.S[0;1;34mMA[0mSH[1;30m!.HQ. [0;34msY[0;1;34mSO[0mP.[1;30mJuD/[SM!].[0m
-[35m∙.:o[0;1;35mRIGI[0mNAL a[1;30mNSi bY : ─ ░▒[0;36m▀██▄▀█[0;1;36m░[0;36m█▄[0;1;30m░ [0;36m▄█[0;1;36m░[0;36m█[0;1;30m░ ─ ░── [0;35m-Mae[0;1;35mve W[0molf- [1;30mof iCON/SMASH!:.∙[0m'
+[35m    [0;1;35m    [0m     [1;30m         ─ ░▒[0;36m▀██▄▀█[0;1;36m░[0;36m█▄[0;1;30m░ [0;36m▄█[0;1;36m░[0;36m█[0;1;30m░ ─ ░── [0;35m    [0;1;35m    [0m     [1;30m                 [0m'

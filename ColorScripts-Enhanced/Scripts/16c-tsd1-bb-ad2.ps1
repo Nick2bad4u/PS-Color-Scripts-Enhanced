@@ -5,7 +5,7 @@
 # Source SHA-256: 5c492d9922b5e55779cdc0a48c8c0382ac5e9a9bd70cf6b83fb9e7e8b77ab1c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BB-AD2.ANS by Blue Beetle (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -20,7 +20,7 @@ Write-Host '
         [1;30;40m▐[0;1;37;47m▐█[0;1;30;40m░[0;1;37;47m█[0;1;37;40m█[0;1;30;40m░[0;1;37;40m██[0;1;37;47m▌[0;1;30;40m▌[0m           [1;37;40mExp[0merien[1;30mce [0;1;37mT[0mh[1;30me S[0mH[1mi[0mN[1mi[0mN[1;30mG [0;1;37mDa[0mr[1;30mkness [0ma[1;30mnd[0m
         [36m░[0;1;36m▒▓[0;1;30m░[0;1;36m███[0;1;30m░[0;1;36m▓▒[0;36m░[0m             [1;37mS[0mt[1;30mep [0;1;37mi[0mn[1;30mto [0;1;37ma w[0mho[1;30mle [0;1;37mn[0me[1;30mw [0;1;37mW[0mo[1;30mrld[0;1;37m.[0m.[1;30m.[0m
        [36m░▓[0;1;36m▒[0;1;30m░░[0;1;36m███▓[0;1;30m░[0;1;36m▒[0;36m▒░[0m
-      [36m░▓▓[0;1;30m░░[0;1;36m▓▓▓▓▓[0;1;30m░░[0;36m▓▒░[0m         [1;30mAN[0mS[1mi a[0mn[1;30md [0;1;37mV[0mG[1;30mA [0;1;37mGr[0map[1;30mhex [0;1;37mf[0mo[1;30mr [0;1;37mt[0mh[1;30me [0;1;37mM[0mass[1;30mes.[0m
+      [36m░▓▓[0;1;30m░░[0;1;36m▓▓▓▓▓[0;1;30m░░[0;36m▓▒░[0m         [1;30m  [0m [1m   [0m [1;30m  [0;1;37m [0m [1;30m  [0;1;37m  [0m  [1;30m    [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m   [1;30m   [0m
      [36m░▒▓[0;1;36m░[0;1;30m░░░[0;1;36m▒▒▓[0;1;30m░░░[0;1;36m▒░[0;36m▒░[0m
 [36m    ░[0;1;30m░░[0;36m▓▓[0;1;30m░░░░░░░░░[0;1;36m░░[0;1;30m░░[0;36m░[0m              [1;30m─────[0m─[1m─ ■ ─[0m─[1;30m─────[0m
 [1;30m   [0;36m░▒[0;1;30m░░[0;1;36m░[0;1;30m░░░░░░░░░░░[0;1;36m▒[0;36m▓[0;1;30m░░[0;36m░[0m

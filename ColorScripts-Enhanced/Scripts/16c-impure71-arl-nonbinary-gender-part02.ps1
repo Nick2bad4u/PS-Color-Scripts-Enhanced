@@ -5,7 +5,7 @@
 # Source SHA-256: fd6769ab69882a1305e3322832e1cfb0e6f041e7c98d0b9be4aef6a83ba0e32d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: arl-nonbinary-gender.ans by Arlequin (impure71); released in impure71 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20181020
 # SAUCE Dimensions: 80x82
 # SAUCE Font: IBM VGA
@@ -52,6 +52,6 @@ Write-Host '
         [34m▀▄[0;1;30m   [0m   [34m▄▀[0m              [34m▀▄[0;1;30m   [0m  [34m█▀▒▒▒▒▒▒▒[0;1;30m [0m [34m▒▒▒[0;37m  [0;34m▒▒▒▒[0;37m  [0;34m█[0m          [1;30m ▀▒▒▒▒▄[0m
         [31m  [0;34m▀▀▀▀▀▀[0m                  [34m▀▀▀▀▀[0;31m  [0;34m▀▄[0m       [34m█[0;31m    [0;34m█[0;31m   [0;1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄[0m
    [1;35m   [0m                          [1;30m   [0m        [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
-[35m▀ ▄[0;1;35m▀▄█[0;36m██[0;34mnon binary gender aliens[0;31m against ANSI neo fascisc[0;1;35;45mm[0;31;104m▄[0;31;105m▀[0;1;33;105m▄[0;1;33;46m▀[0;36;41m▄[0;1;34;41m▀[0;1;36;45m▄[0;1;31;45m▀[0;36;45m▄[0;1;32;105m▄[0;1;34;105m▀[0;1;34;46m▄[0;1;34;45m▀[0;36;45m▄[0;1;30;104m▄[0;32;104m▀[0;32;100m▄ [0;37;100m░[0m░[1;30m█▒[0m
+[35m▀ ▄[0;1;35m▀▄█[0;36m██[0;34m                        [0;31m                         [0;1;35;45m [0;31;104m▄[0;31;105m▀[0;1;33;105m▄[0;1;33;46m▀[0;36;41m▄[0;1;34;41m▀[0;1;36;45m▄[0;1;31;45m▀[0;36;45m▄[0;1;32;105m▄[0;1;34;105m▀[0;1;34;46m▄[0;1;34;45m▀[0;36;45m▄[0;1;30;104m▄[0;32;104m▀[0;32;100m▄ [0;37;100m░[0m░[1;30m█▒[0m
    [1;35m   [0;36m  [0m                                                 [37m  [0;34m▀▄[0m
                          [1;30m [0;34m  [0;1;30m [0;34m   [0m                         [37m    [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

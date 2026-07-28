@@ -5,7 +5,7 @@
 # Source SHA-256: 3873ed713161067fe36a65126396d57968b1764bb617baad407ad36433f9d317
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-bloxxi.ans by filth (bL0CKYtRONiCS); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Spade Magazine
 # SAUCE Author: filth
 # SAUCE Group: bL0CKYtRONiCS
@@ -46,7 +46,7 @@ Write-Host '
 [31m████  [0;1;37m───[0;1;35m────────────────────[0;31m [0;37m [0;1;35;45m▄[0;35m▀[0;37m  [0;1;35;45m░[0;35m▀[0;37m  [0;1;35m──────[0m  [1;35;45m▓[0;35m▌[0;37m  [0;35m▄[0;1;35;45m▒[0;35m▌[0;37m  [0;1;35m─────────────────[0;1;37m───[0;1;31m [0;33m ▄▓[0m
 [31m████ [0;30m█[0;35m▄▄▄ [0;1;31m [0;1;37m═[0;1;35m══[0;35m════════════════[0;37m  [0;1;35m▀■▀[0m   [35m════════[0;37m  [0;1;35m▀■■▀[0m   [35m══════════════[0;1;35m══[0;1;37m═[0;1;31m [0;33m ▒▓▓▓▓▓[0m
 [31m███ [0;35m████▓▓█▄ [0;1;31m [0;1;30m♠[0m   [1ms[0m [1;35mp[0m [35ma[0;37m [0;1;30md[0m [1;30me[0m   [1;30me[0m [1;30ml[0m [35me[0;37m [0;1;35mc[0m [1mt[0m [1mr[0m [1;35mo[0m [35mn[0;37m [0;1;30mi[0m [1;30mc[0m   [1;30mm[0m [1;30ma[0m [1;30mg[0m [1;30ma[0m [1;30mz[0m [35mi[0;37m [0;1;35mn[0m [1me[0m   [1;30m♠[0;1;31m [0;31m [0;33m▒▒▒▓▓██[0m
-[31m██[0;30m█[0;35m███████[0;1;35;45m░[0;35m▓ [0;1;31m [0;1;30m♠[0m  [35m get down with the underground art  hussle in 2020  [0;37m [0;1;30m♠[0;1;31m [0;31m [0;33m▒▓▓▓▒▓▓[0m
+[31m██[0;30m█[0;35m███████[0;1;35;45m░[0;35m▓ [0;1;31m [0;1;30m [0m  [35m                                                    [0;37m [0;1;30m [0;1;31m [0;31m [0;33m▒▓▓▓▒▓▓[0m
 [31m▓[0;30m█[0;35m███████[0;1;35;45m░[0;35m██▄▄▄▄[0;30m█[0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;30m█[0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30m█[0;31m ▄▄▄▄▄▄▄▄[0;33m    ▄▄▄ ▄▄▄▄▄▄▄▓▓▓▓▀[0m
 [35m █▓█[0;1;35;45m░░[0;35m██[0;1;35;45m░[0;35m█[0;1;35;45m░░░░[0;30m█[0;31m▓[0;1;31;41m░[0;31m█[0;1;31;41m░[0;31m█[0;1;31;41m░░ ░░ ░▒▒▒▒[0;35m░▓████[0;1;35;45m░░░░░[0;35m████▓[0;30m█[0;31m███████[0;1;31;41m░[0;31m█▀[0m       [33m▀▀▀▄▓▀▀▓▓█▓█▓▓▓[0m
 [35m▓█████[0;1;35;45m░░[0;35m█[0;1;35;45m░░░[0;35m█[0;30m█[0;1;31;41m░░▒░░░▒▒▒▒▒░▒▓▓▒[0;30m█[0;35m█[0;1;35;45m▒▒▒░░░░[0;35m██[0;1;35;45m░░░░[0;35m█[0;30m█[0;31m██████████[0;1;30m [0;33m▄[0;1;33m██[0m         [33m▀▀▀▄▄▓▀█▓█[0m

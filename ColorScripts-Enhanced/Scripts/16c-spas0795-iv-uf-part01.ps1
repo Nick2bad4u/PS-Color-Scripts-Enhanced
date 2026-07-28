@@ -5,7 +5,7 @@
 # Source SHA-256: 999982e98fa9c473eff14008634f1e33713fc9580ac71e8d264ee2e0dd354e99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IV-UF.ANS by iNNeR vIsIOn (Spastic Productions); released in spas0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Unseen Fate
 # SAUCE Author: iNNeR vIsIOn
 # SAUCE Group: Spastic Productions
@@ -19,7 +19,7 @@ Write-Host '
 [1;30m▓▄[0m▄▄[1;30m [0;1;33m▀▓▀[0;1;30m░[0;1;37;47m▓▒[0;1;37;40m▄[0m▄▀▄[1;30m▄[0;1;30;47m▒▓[0m [1;30m [0m▀▀[1;30m▀[0m [36m [0;1;37m [0;36m  [0;37m▀[0;1;30m▀[0m [1;30m  [0;36m  ░[0m    [1;34mi  n  n  e  r    v  i  s  i  o  n[0m
 [1;30m ░▒▓[0m█▓[1m [0;1;30m▀■[0m  [1;47m░[0;1;30;40m░[0m█[1;30m░[0;1;30;47m░[0m  ▄[1;30m▄▄ ▄    [0m▀[1;30m▀[0;36m [0;1;30m▀[0;36m [0;1;30m░[0;36m  ▒[0;37m  [0;1;37m────────────────────────────────────[0m
 [1;30m░ ░▒▀[0m▄▄[1;34;47m▄▄▄▄[0m▄▄▄  ▄▓[1;30m▓▒░[0m ▄▄[1;34;47m▄▄▄▄[0m▄▄▄ [1;30m▀[0m [36m ▒[0;37m  [0;1;37mWerdemup this is iv here with another[0m
-[1;30m░ [0m [1;47m [0;1;34;47m░▒▒▓▓▀[0m▀▀    ▀[1;30m▓▄[0m [1;47m [0;1;34;47m░▒▒▓▓▀[0m▀▀    ░ [36m▓[0;37m  [0;1;37mpic of [0;35mP[0;1;35mi[0;35mTT[0;1;37m.  This ansi goes out to [0m
+[1;30m░ [0m [1;47m [0;1;34;47m░▒▒▓▓▀[0m▀▀    ▀[1;30m▓▄[0m [1;47m [0;1;34;47m░▒▒▓▓▀[0m▀▀    ░ [36m▓[0;37m  [0;1;37m       [0;35m [0;1;35m [0;35m  [0;1;37m                         [0m
 [36m [0;37m [0;1;37;47m░▒░[0m█[1;34;47m░▒░[0;1;30;40m░[0m ■▄[1;30m░[0m  [1m [0m  [1;47m░▒░[0m█[1;34;47m░▒░[0m  [1m  [0m ▄▄[30;47m░[0;37;40m▀[0;36;40m▄[0;37;40m  [0;1;37;40mmuh homie[0m [1;36mPale[0m [1mwho''s been a spastic[0m
 [36m░[0;37m▐[0;1;37;47m▐▓░░ [0;1;34;47m░[0m▌ [36m [0;37m  [0;30;47m░[0;37;40m▄  [0;36;40m░[0;37;40m▐[0;1;37;47m▐▓░░ [0;1;34;47m░[0m▌  [1;30m░[0m  ▐[1;47m▒[0m▌ [36m█[0;37m  [0;1;37mloyaltist for the lawngest ;>  - iv![0m
 [36m▒[0;37m█[0;1;37;47m▓▓▓▒▒░[0m█▄   ▄[1;47m▄■[0m▄[36m [0;37m█[0;1;37;47m▓▓▓▒▒░[0m█▄   ▄[1;47m▄■[0;36m░ █[0;37m  Greets[0;1;30m:[0;1;37m The usual.. i greet everyone![0m

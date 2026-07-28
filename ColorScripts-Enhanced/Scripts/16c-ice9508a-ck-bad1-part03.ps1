@@ -5,7 +5,7 @@
 # Source SHA-256: 00d5737d030242a3eaffce247004ec6c9b502d6861bd1076fd0008242c78c992
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-BAD1.ICE by Chromatik + Maestro (ice%prod!1995.); released in ice9508a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the badlands! ..
 # SAUCE Author: chromatik
 # SAUCE Group: ice%prod!1995.
@@ -42,7 +42,7 @@ Write-Host '
     [36m▐[0;1;36;46m▒[0m   [34m░░░░░[0m [36m   [0m          [37m▓[0m  [37m▀[0m   [36m■[0m [37m▐██████████████████████[0;1;33;47m▄▄[0;1;37;47m▄▄▓▄[0m█▓▓▓▓▄▄
      [36m▀▄[0m          [36m  [0m            [36m░░[0m [36m▀[0m  [37m▀▀▀███████████[0;1;37;47m▀▀▀▀ ▀▀▀▀▀▀▀▀[0m█▀▀▀▀▀ ▀
    [36m▄█[0m   [36m▀▀▄▄▄▄[0m   [36m  [0m    [36m▄▄▀▀[0m [36m■[0m                                          [37m▀[0m
-  [36m▐[0;1;36;46m▒[0;36m▀▌[0m [36m▄[0;1;36;46m▒[0;36m▄[0m   [36m▀▀▀▓▄█▄ [0m [36m▀▓ [0m        [31m▄▄[0m   [1;30mthis^big ansi thingy by ck.ice.95 ..[0m
+  [36m▐[0;1;36;46m▒[0;36m▀▌[0m [36m▄[0;1;36;46m▒[0;36m▄[0m   [36m▀▀▀▓▄█▄ [0m [36m▀▓ [0m        [31m▄▄[0m   [1;30m                                    [0m
    [36m▀▀[0m  [36m■▀[0m      [36m▄[0m [36m■▀  [0;34m [0;36m    [0m    [31m▄▄█▀▀▀█▄▄ [0m
       [36m▀[0m           [34m░░░░▒▒▄▒[0m  [31m▄[0;1;33;41m░[0;31m▀  [0;1;30m▄▄   [0;31m▀▀▓▄▄[0m   [34m░░░[0m
     [36m▄[0;1;36;46m▒▒[0;36m▄[0m            [34m░░░▄[0m  [31m▄▀  [0;1;30m▄█[0;1;30;47m▀▀▒▒▒[0m▄▄   [31m▀▀[0;1;33;41m░[0;31m▄▄[0m

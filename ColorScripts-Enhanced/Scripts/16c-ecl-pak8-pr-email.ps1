@@ -5,7 +5,7 @@
 # Source SHA-256: 81b2159187c8b75047436908c12cb0f4d4720a9ae4b72c1eda0da0c835983fbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR_EMAIL.ANS by president (ecolove); released in ecl-pak8 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: email menu
 # SAUCE Author: president
 # SAUCE Group: ecolove
@@ -30,7 +30,7 @@ Write-Host '
   [33m▄[0;37m [0;1;34m▀▀ [0;1;34;44m░[0;1;34;40m█▌[0;34m▐[0;1;34;44m░▒[0;34m▄▄[0;1;34;44m░▒[0;34m▌[0;1;34m [0;1;34;44m░[0;1;34;40m█[0;1;34;47m▓[0m▌ [1;31m▄▄[0;1;31;47m▌[0m▌                    [1;34m▀▀▀▀▀▀ [0m     [32m▀▌[0;37m  [0;32m▄[0;1;32m▄▄[0;32m▄▄[0;1;31m  [0;32m▐[0;1;32;42m▐[0;1;32;40m█[0;1;32;42m▀▀[0;1;32;40m▀[0;32m▀▀[0m
 [1;31m  [0;33m▐[0;1;31;43m▒[0;1;31;40m█▌[0;34m▐[0;1;34;44m▐[0;1;34;40m██▄▄ [0;34m▀▀▀[0;1;34m ▄[0;1;34;44m▄[0;1;34;40m██[0;1;34;47m█▒[0m [1;31m▐█[0;1;31;47m▒[0m                                  [32m▀[0;37m  [0;32m▐[0;1;32;42m▀[0;1;32;40m██▄▄▄[0;1;32;42m▄[0;1;32;40m▀[0;32m▀[0;1;31m [0;1;32m  [0;32m▄[0;1;32m▄ [0m
    [33m▐[0;1;31;43m▓[0;1;31;40m█▄[0m [34m▀[0;1;34m▀▀▀[0;1;34;44m▀▀█[0;1;34;40m██▀▀[0;34m▀[0;37m [0;1;30m▄[0m [1;31m▄█[0;1;31;47m░[0m    [1;30m [0m [1;30msepulcrum requested an ansi[0m       [32m▀▀[0;1;32m▀▀[0m     [1;32m [0;32m▀[0;1;32;42m▒▓[0;1;32;40m▀[0m
-    [33m▀[0;1;31;43m▀[0;1;31;40m▀[0m [1;30;47m▒▄[0;1;30;40m█▄▄▄  ▄▄[0;1;30;47m▄[0;1;30;40m███▌[0;1;31;40m▀[0m▀     [1;30m [0m [1;30maaaages ago for the email menu he planned[0m
+    [33m▀[0;1;31;43m▀[0;1;31;40m▀[0m [1;30;47m▒▄[0;1;30;40m█▄▄▄  ▄▄[0;1;30;47m▄[0;1;30;40m███▌[0;1;31;40m▀[0m▀     [1;30m [0m [1;30m                                         [0m
        [1;30;47m░[0m▀[1;30m ▄██▓▒▓█[0;1;30;47m█[0;1;30;40m▀▀[0;1;30;47m▀[0;1;30;40m██▌[0m        [1;30mto make ... sorry that it is a little (!?)[0m
 [1;30m   [0m   ▐[1;30;47m▐[0;1;30;40m██[0;1;30;47m▄[0;1;30;40m▄[0m▄[1;30m ▀▀▀ [0m▄[1;30;47m▄[0;1;30;40m██▓▒[0m     [1;30m  [0m [1;30mlate buddy, i''m ashamed[0m [1;30mto say[0m
       [1;30m [0;1;30;47m▓[0;1;30;40m██▓█[0;1;30;47m█▒[0m▌[1;30m  [0;1;30;47m░▓[0;1;30;40m███▀▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: bd4ef048d0095a22ee61b825469a19f530b23cc642712ece9e87ac85dc7147cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRUSADE2.ANS by crusader (fbk.sargahd^vos); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: x-zone
 # SAUCE Author: crusader
 # SAUCE Group: fbk.sargahd^vos
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-█████[1;30;47m░[0m▀ ░▀▀▀▀▀▀▀█  [1;30m█[0m   ▀▀▀▀▀▀▀░       [1;30mthanx 2 avenger 4 the idea of the x style[0m
+█████[1;30;47m░[0m▀ ░▀▀▀▀▀▀▀█  [1;30m█[0m   ▀▀▀▀▀▀▀░       [1;30m                                         [0m
 ███[1;30;47m▒[0m ▓  ░       ░  [1;30m▓ [0;1;32m▄[0;1;32;42m▓[0;32m▄ [0;1;32m+───────+▄[0;1;32;42m▓[0;32m▄  ▄[0;1;32;42m░[0;32m▄+─────+▄▓▄[0m   [32m░[0;37m  [0;1;30m▓[0m  ▓▀   [1;30m░[0m▀▄▄  ▓   ▄▄▄
 █[1;30;47m░[0m   ▒  ▓          [1;30m▒[0;32m  [0;1;30m█[0;1;32m [0;32m▄  [0;35m▀████▓▄ [0;32m▀ [0;1;32m▄ [0;32m+▀ [0;35m▄█[0;1;35;45m■[0;35m▓▀  [0;32m▄▀[0m    [32m░[0;37m  [0;1;30m▓[0m  ░    ▓   ▓▀▓■▀▀ [1;30;47m░[0m█
 [1;30;47m░[0m    ░ ▄█▀[1;30m▀▀▀▀[0m▓[1;30m▀▀▀▀░▀[0m [1;30m▒[0m  [1;32m▄[0;1;32;42m▓[0;1;32;40m▄ [0;35m▀▓[0;1;35;45m░ [0;35m██   [0;1;32m▀  [0;1;35;45m░▓[0;35m▀▀ [0;32m▄▓▄▄▄▄[0;37m [0;32m▄▄▓[0;1;36m  [0;1;30m▓[0m     [1;30m▄▄▀[0m▀▀▄▀ ▒   [1;30;47m░[0m██

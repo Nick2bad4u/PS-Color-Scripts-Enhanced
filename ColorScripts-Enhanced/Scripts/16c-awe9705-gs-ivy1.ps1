@@ -5,7 +5,7 @@
 # Source SHA-256: 7962498b35684a7cd542af5a1f835243bd7d3f93f54e8797f45504e0ec4e8263
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GS-IVY1.ANS by Grindstone (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Operation Ivy
 # SAUCE Author: Grindstone
 # SAUCE Group: AWE Lettering
@@ -17,7 +17,7 @@
 Write-Host '
                   [34m [0m       [33m▄[0m                                [37m▄[0m
 [37m [0;34m+---------------- [0;1;37m░[0m  [33m▄▄[0;1;33m▄▄█▄▄▄[0;1;37m▄[0;1;33m░[0m  [1;33m▄[0m  [34m-------------[0;30;44m▓[0;34;40m-----[0;37;40m [0;1;33;40m▄▀[0;1;37;40m▀[0m [1m▄[0;36m [0;34m-----[0;37m [0;1;37m░[0m [34m-------∙[0m
-[37m [0;30;44m▓[0;37;40m [0;1;37;40mgreets fly out[0m  [1;33m▌[0m [1mto;[0m [36m [0;1;33;45m█▓[0;1;33;47m▓[0;1;33;45m██[0;1;33;40m▓██[0;1;33;46m█[0;1;33;40m▀[0;33m▀[0;36m [0;1;30m▄▄▄[0m  [1mtna, fluor, b[0;1;33m▐▌[0;1;37mvip▐▌er, h[0m [1;33m▌[0m [1marry..[0m [30;44m▓[0m
+[37m [0;30;44m▓[0;37;40m [0;1;37;40m              [0m  [1;33m▌[0m [1m   [0m [36m [0;1;33;45m█▓[0;1;33;47m▓[0;1;33;45m██[0;1;33;40m▓██[0;1;33;46m█[0;1;33;40m▀[0;33m▀[0;36m [0;1;30m▄▄▄[0m  [1m             [0;1;33m▐▌[0;1;37m   ▐▌     [0m [1;33m▌[0m [1m      [0m [30;44m▓[0m
 [37;40m  [0;34;40m ▄ -+ [0;35;40m░[0;1;37;40m  ▄[0;1;33;40m▄▄▄▄▄▄▄▌[0;34m-[0;30;44m▓[0;34;40m--[0;37;40m  [0;1;33;45m▓░▓[0;1;33;47m█▓[0;1;33;40m██[0;1;33;46m█[0;1;33;40m▄[0;36m     [0;1;30m▀▀[0;30;47m▓[0;1;30;40m▌[0;36m▄[0;1;36m▄[0m [34m-+------[0;37m [0;1;33m▓[0m [34m--- [0;1;37;43m█[0m [34m---[0;37m [0;1;37m▄[0;1;33m▌[0m [34m+-------[0m
 [37m  [0;34m▀[0;1;34m▀[0;34m [0;37m [0;35m▄▄▓[0;1;33m▓█[0;1;33;43m▀[0;1;33;40m▀▀[0;33m▀[0;37m  [0;1;37m▄[0m     [1;36m░[0m [1;33m░[0;1;33;45m▒ ░▓▓[0m  [33m▀[0;1;33m▀▀▓█▄▄[0;36m    [0;1;36m▀[0;1;37;46m█▓[0;1;37;40m▄[0m    ▄▌  [1;33m█[0m [34m░[0;30;44m▓[0;37;40m  [0;1;37;43m▓[0m [1;30m▄[0;33m▄[0;1;33m▄[0;1;33;43m▄[0;1;33;40m█▌[0m       [34m▄[0m
 [37m [0;34m▄▌[0;36m [0;35m▄[0;1;37;45m░ [0;1;31;45m▀[0;35m▀[0;1;30m▀[0m   [34m▄ [0;37m▀[0;1;37m▀███[0;1;37;47m█[0;1;37;40m█[0;1;37;46m▄[0;1;36;40m▓░[0m [1;33;45m░[0;35m▀▀[0;1;33;45m░▒[0;1;33;40m░[0m [34m▄▄[0;37m [0;1;33m░[0m [1;33m▀[0;1;33;46m▓[0;1;33;40m█▀[0;36m   [0;1;37m▐[0;1;37;47m▓█[0;1;37;40m▌[0m▄[1;47m▄[0m     [1;33m█[0m   [33m▄[0;1;33m▄[0;1;33;43m▓[0;1;33;40m█[0;1;33;46m▀[0;1;36;46m▄[0;1;33;46m▀[0;1;33;43m▀[0;1;30;40m▀[0;36m [0;34m ▄[0;1;34m▄▄▄▄▄█ [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: c3586ef7a4021c8eefdb872576e8a17ededdd66dface61ef5889485f7c479657
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-UIS1.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -13,12 +13,12 @@ Write-Host '
 [1;30m┌─────────────────┬───────────────────────────────────────────────────────────┐[0m
 [1;30m│   [0;34m▄▄▄    ▄▄▄▄▄▄ [0;1;30m│ [[0mA[1;30mF-[0mU[1;30miS[0m1[1;30m.[0mA[1;30mNS] [[0m1[1;30m2709 [0mB[1;30mytes] [[0m0[1;30m3[0;1;37m∙[0m2[1;30m6[0;1;37m∙[0m1[1;30m994] [[0mU[1;30mp [0mI[1;30mn [0mS[1;30mmoke]    │[0m
 [1;30m│  [0;34m█[0;1;37;44m▄▄ ▄[0m  [34m█[0;1;37;44m▄▄▄[0;34m█[0;1;37;44m▄[0;34m██[0;1;30m│  [0mG[1;30mreetz :[0m                                                 [1;30m│[0m
-[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m██[0;34;44m [0;34;40m▌▐[0;1;37;44m▐▌[0;34m███▀▀ [0;1;30m│ [0;1;36mFu[0;36mtur[0;1;30me Assasin : Hey bud, I''m going to yer Laser Quest ;) │[0m
-[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█▌██▐[0;1;37;44m▐▌[0;34m██▌   [0;1;30m│ [0;1;36mTh[0;36me Mu[0;1;30msician : Just thought I''d greet ya, babe ;)[0m         [1;30m│[0m
-[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█▌██▌[0;1;37;44m▐▌[0;34m███▄  [0;1;30m│ [0;1;36mTh[0;36me Ju[0;1;30mdge : Here''s your first greet, have a ball.. ;)[0m     [1;30m│[0m
-[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█████[0;1;37m▐[0;1;37;44m▌[0;34m█[0;1;37;44m▄▀ [0;34m▌ [0;1;30m│ [0;1;36mPy[0;36mro M[0;1;30maniac : Man, you were right, I AM good <grin>[0m       [1;30m│[0m
-[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█▌███▌██[0;34;44m [0;34;40m█▀  [0;1;30;40m│ [0;1;36;40mHo[0;36mund [0;1;30m: Hey, I really AM following you EVERYWHERE :)[0m      [1;30m│[0m
-[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█▌▐███▐██▌   [0;1;30m│ [0;1;36mTh[0;36me Ni[0;1;30mght Prowler : I was invited, who could refuse ;)    │[0m
+[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m██[0;34;44m [0;34;40m▌▐[0;1;37;44m▐▌[0;34m███▀▀ [0;1;30m│ [0;1;36m  [0;36m   [0;1;30m                                                     │[0m
+[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█▌██▐[0;1;37;44m▐▌[0;34m██▌   [0;1;30m│ [0;1;36m  [0;36m    [0;1;30m                                           [0m         [1;30m│[0m
+[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█▌██▌[0;1;37;44m▐▌[0;34m███▄  [0;1;30m│ [0;1;36m  [0;36m    [0;1;30m                                               [0m     [1;30m│[0m
+[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█████[0;1;37m▐[0;1;37;44m▌[0;34m█[0;1;37;44m▄▀ [0;34m▌ [0;1;30m│ [0;1;36m  [0;36m    [0;1;30m                                             [0m       [1;30m│[0m
+[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█▌███▌██[0;34;44m [0;34;40m█▀  [0;1;30;40m│ [0;1;36;40m  [0;36m    [0;1;30m                                              [0m      [1;30m│[0m
+[1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█▌▐███▐██▌   [0;1;30m│ [0;1;36m  [0;36m    [0;1;30m                                                    │[0m
 [1;30m│  [0;34m█[0;1;37;44m▄[0;34m█▌ ███▌██    [0;1;30m│ [0;1;36m  [0;36m  [0;1;30m                                                      │[0m
 [1;30m│   [0;34m▀    ▀▀ ▀[0m     [1;30m│ [0;1;36m  [0;36m   [0;1;30m                                                     │[0m
 [1;30m│ [0;36m [0;1;36m   [0;36m   [0;1;30m    [0m     [1;30m│ [0;1;36m  [0;36m    [0;1;30m                                                    │[0m

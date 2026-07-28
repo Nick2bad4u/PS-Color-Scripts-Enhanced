@@ -5,7 +5,7 @@
 # Source SHA-256: 51af9f9b16d435730f2784a428c9e178a66af6cd3ac593dddee6987bd7e74479
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-APICE.ICE by Misfit (iCE Productions); released in ice9612a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Apathy/iCE info
 # SAUCE Author: Misfit
 # SAUCE Group: iCE Productions
@@ -29,11 +29,11 @@ Write-Host '
 [1;35;45m░░[0;35m█▄[0;1;35;45m▓▓▒░▒░[0;35m█▄[0;1;33;45m░[0;35m█[0;37m            [0;1;33m▀▀█[0;1;33;43m▓▓[0;1;33;40m█[0;1;33;43m▓▓[0;33m▀[0;1;33;43m░░[0;33m█[0;37m  [0;33m░░[0;37m    [0;36mtrip and i just tired of running [0m
 [35m█[0;1;35;45m░░[0;35m██[0;1;35m▀[0;1;35;45m▓▓▓▒░[0;1;33;45m░[0;35m█[0;37m  [0;1;30m■[0m   ▄[1m▄▄▄▄▄[0m     [33m▀▀[0;1;33m▀[0;1;33;43m▒[0;33m▀▐▄▀▌░[0;37m  [0;35m░[0;37m  [0;36mthe group, and the overall quality[0m
 [1;35;45m░▒▒░░[0;35m█▄▄[0;1;35m▀▀[0;1;35;45m░░[0m     [1;30m▀▓▄▄[0m ▀[1m▀▀▀▀[0;1;30m ░▀[0m [35m▄▄▄[0;37m [0;35m▄[0;37m [0;33m▀[0;37m  [0;35m░░[0;37m  [0;36mwas suffering.[0;37m [0;36mwhile we didn''t have[0m
-[35m█[0;1;35m▀▀[0;1;35;45m▓[0;1;35;40m▄▄[0m [1;35m▄[0;35m▄▄▀[0;37m  [0;1;30m░░[0m    [1;30m▄▄▄▓▄░▀▀[0m [35m▄▄▓█▓▓▓▓░▒▒░░[0;37m  [0;36mthe resources to run apathy, we also[0m
+[35m█[0;1;35m▀▀[0;1;35;45m▓[0;1;35;40m▄▄[0m [1;35m▄[0;35m▄▄▀[0;37m  [0;1;30m░░[0m    [1;30m▄▄▄▓▄░▀▀[0m [35m▄▄▓█▓▓▓▓░▒▒░░[0;37m  [0;36m                                    [0m
 [35m██▄▄[0;1;35;45m▒▓[0;1;35;40m▀[0;35m▀▄[0;37m    [0;35m▄[0;37m [0;35m▄█[0;1;35;45m░[0;35m▀[0;37m [0;35m▄[0;37m  [0;35m▄▄█▄▀██[0;1;35;45m░[0;35m██▓▓▒▓▒░░[0;37m   [0;36mdidn''t want to break up the close  [0m
 [35m█[0;1;35;45m░▒▓▓[0;1;35;40m▄█▄▄[0m [35m▄▀▀▀▀█[0;1;35;45m░░▒░░[0;35m██▀▀▄██[0;1;35;45m░░[0;35m██▓▀▓▓▒▒░[0;37m [0;35m░[0;37m  [0;36mgroup of friends we''d formed there.[0m
 [1;35;45m░▒▓[0;1;35;40m▀▀[0m   [35m▄▀▀░░▓█▄▄[0;1;35;45m▓▓▒[0;35m▄▄█[0;1;35;45m░░░[0;35m█▓██▓▓▓▓▒▒▒░▒░ [0;37m [0;36mwe decided that hooking up with [0;1;33mice[0m [36m  [0m
-[1;35;45m░[0;1;35;40m▄▄█▀[0m  [35m▀[0;37m [0;35m░░▒▓▓▓█[0;1;35;45m░░░░░[0;35m██[0;1;35;45m  [0;35m▓▓▀▀▓▓[0;37m [0;35m▀░░[0;37m [0;1;37m▄▄[0m▄░  [36mwas the best way to go, so here we are[0m
+[1;35;45m░[0;1;35;40m▄▄█▀[0m  [35m▀[0;37m [0;35m░░▒▓▓▓█[0;1;35;45m░░░░░[0;35m██[0;1;35;45m  [0;35m▓▓▀▀▓▓[0;37m [0;35m▀░░[0;37m [0;1;37m▄▄[0m▄░  [36m                                      [0m
 [1;35;45m▒▓[0;1;35;40m▀[0;35m▄[0;1;35;45m░[0;35m█[0;37m  [0;35m▀[0;37m   [0;35m▒▒▒▓▓▓[0;1;35;45m░[0;35m▀▀▀▀[0;37m [0;35m▄▄▀▀[0;1;37m▄[0m▄▄▓▓[1;30m [0m [1;47m▓▒░[0m▓░  [36m.. fun stuff :).                      [0m
 [1;35;45m░▒░░[0;35m█[0;37m   [0;35m░[0;37m  [0;35m░[0;37m [0;35m░░[0;37m [0;1;30mmt[0m    [35m▀[0;37m ▄ [0;1;37;47m▓▓▒▒░░[0m▌[1;30m [0;1;37m█[0;1;37;47m▓░[0m▓░
 [35m█[0;1;35;45m░░[0;35m█ ▄▄▄▄[0;37m  [0;35m░░[0;37m  [0;1;35m▄[0;35m▄[0;1;35;45m░[0;35m▀▀[0;37m▄[0;1;37m▄[0;1;37;47m▒░[0m [1m██[0;1;47m▓▓▒▒░[0;1;30;40m▌[0;1;37;40m▐[0;1;37;47m▓▒[0m▓░  [36mbtw y''all, i''m modem-less for now, but[0m

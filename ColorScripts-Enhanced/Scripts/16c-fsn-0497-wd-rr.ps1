@@ -5,12 +5,12 @@
 # Source SHA-256: 2a64155fd3e3f2efa6a70e37f43d57f86640867d8cd8773ca0ab71e1d1269478
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WD-RR.ANS by Weirdo (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-[1md[0;1;35ma[0m [1mr[0;1;35mo[0;35mad[0;37m [0;1;37mr[0;1;35mu[0;35mnner[0;37m [0;1;37mb[0;1;35mb[0;35ms[0m         [34m ▄▄▄[0;1;30m▄[0m [1;34mm[0;34main [0;1;34mm[0;34menu[0m    [1;37m▄[0m▄▄[1;47m▀░[0m█[1;30;47m░▄[0m▀▀▀[1;47m▓[0;1;30;40m▀   [0m   [1;32m▄[0m
+[1m [0;1;35m [0m [1m [0;1;35m [0;35m  [0;37m [0;1;37m [0;1;35m [0;35m    [0;37m [0;1;37m [0;1;35m [0;35m [0m         [34m ▄▄▄[0;1;30m▄[0m [1;34m [0;34m    [0;1;34m [0;34m   [0m    [1;37m▄[0m▄▄[1;47m▀░[0m█[1;30;47m░▄[0m▀▀▀[1;47m▓[0;1;30;40m▀   [0m   [1;32m▄[0m
     [1;30;45m▀[0;35m▄▄▄[0;1;30m▄[0m           [1;30m▀▀[0;34m▀█  ▀▀[0;1;34;44m░[0m  [1;30m▀[0;34m [0;1;34mb[0;34my[0;1;34m w[0;34meirdo[0;37m  [0;1;37m▀[0m▀▀[1;47m▄▓[0m█[1;30;47m▀[0;1;30;40m▄[0m   [1;30m [0m    [1;30m▀[0;32m▀▀[0;1;30;42m▄░[0;1;32;42m▓[0;1;32;40m█[0;1;37;40m█[0;1;32;40m▄▄[0m
 [34m▌[0m   [35m▐[0;1;35;45m▀█▄▄[0;35m████[0;1;30;45m▀[0;35m▄▄[0;1;30m▄[0m    [34m▄▄[0;1;34;44m░[0;34m▄▄█▀▀[0;1;34;44m▓[0;34m   [0m                [1;37m▀[0m▀▀▀▀[1;47m▄[0;1;30;47m▀[0m▄▄▄▄[1;30m░[0m [32m  [0;1;30;42m█[0;32m█[0;1;32m██[0;1;32;42m▀█▓▀[0;1;32;40m▄[0m
 [34m█▄[0;37m [0;34m▄▄[0;35m▀█[0;1;35;45m▓██▀[0;35m▀▀[0;37m  [0;35m█[0;1;35;45m▄[0;35m█[0;1;30;45m▀[0;1;30;40m▄[0m  [1;34;44m░[0;34m [0;37m [0;34m ▌  [0;1;34m▀▀[0;34m  [0m                      [1;30m [0m     [32m [0;1;30m▐[0;1;30;42m▓[0;32m█▀[0;37m [0;1;32;42m▓[0;32m█[0;1;32;42m░[0;32m ▀▀[0;1;32m█[0m
@@ -22,7 +22,7 @@ Write-Host '
 [34m▐[0;1;34;44m▓[0;34m▄[0;37m [0;35m▐[0;1;35;45m███▌[0;35m▌[0;37m [0;1;34m [0;1;35;45m▐███[0;35m█[0;1;30;45m█[0m
 [1;34;44m▐█▌[0m [35m██[0;1;35;45m██[0;35m█[0;37m [0;35m▄█[0;1;35;45m▀▀▓[0;1;30;45m▄[0;1;30;40m▀[0m     [35m█[0;30;45ms[0;35;40m▌[0;1;36;40ms[0;36metu[0;1;30mp[0m        [35m█[0;30;45mb[0;35;40m▌[0;1;36;40mb[0;36millboar[0;1;30md[0m        [35m█[0;30;45mt[0;35;40m▌[0;1;36;40mt[0;36mime & dat[0;1;30me[0m
  [1;34;44m▓▌[0m [35m░▀[0;1;35;45m▐█▌[0;35m▄▄▓▄[0;1;30m▄[0m
-[1;34;44m▓▌[0;34m▀[0;37m  [0;35m▄[0;1;35;45m▓██[0;1;30;45m▄[0;1;30;40m▀[0m [35m▀█[0;1;35;45m▓[0;1;30;45m▀[0;1;30;40m▄[0m     [35m█[0;30;45mp[0;35;40m▌[0;1;36;40mp[0;36mage[0;37m [0;36msyso[0;1;30mp[0m   [35m█[0;30;45m![0;35;40m▌[0;1;36;40mc[0;36momment[0;37m [0;36m2[0;37m [0;36msyso[0;1;30mp[0m  [35m█[0;30;45ml[0;35;40m▌[0;1;36;40ml[0;36mogof[0;1;30mf[0m
+[1;34;44m▓▌[0;34m▀[0;37m  [0;35m▄[0;1;35;45m▓██[0;1;30;45m▄[0;1;30;40m▀[0m [35m▀█[0;1;35;45m▓[0;1;30;45m▀[0;1;30;40m▄[0m     [35m█[0;30;45m [0;35;40m▌[0;1;36;40m [0;36m   [0;37m [0;36m    [0;1;30m [0m   [35m█[0;30;45m [0;35;40m▌[0;1;36;40m [0;36m      [0;37m [0;36m [0;37m [0;36m    [0;1;30m [0m  [35m█[0;30;45m [0;35;40m▌[0;1;36;40m [0;36m    [0;1;30m [0m
 [34m█[0m   [35m▐█[0;1;35;45m██▓[0;1;30;40m▌[0m  [35m▄[0;1;35;45m▄▓[0;1;30;45m [0;1;30;40m█[0m
 [34m▌[0m   [35m█[0;1;35;45m█[0;1;37;40m█[0;1;35;45m▓[0;1;30;45m█[0m  [35m▀▀▀[0;1;35;45m░[0;1;30;40m▀[0m      [35m█[0;30;45mc[0;35;40m▌[0;1;36;40mc[0;36mha[0;1;30mt[0m         [35m█[0;30;45m$[0;35;40m▌[0;1;36;40mr[0;36megistratio[0;1;30mn[0m        [1;30m▀▄[0;32m▄[0m   [32m▐▌[0m    [1;32m▐▌[0m
 [1;34;44m▄ [0;34m▄[0;37m [0;35m█[0;1;35;45m▐██[0;1;30;45m█[0m                                                    [32m [0;1;30m▐[0;1;30;42m▓[0;32m█▄[0;37m [0;1;32;42m▓[0;32m██ ▄▄[0;1;32m█[0m

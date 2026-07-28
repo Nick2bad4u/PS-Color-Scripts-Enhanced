@@ -5,7 +5,7 @@
 # Source SHA-256: 23e8845ba06e1484afc818648c44b7758bc8676757a350986ab4559411501e44
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-AC1.ICE by Terminator2 (ice9505a); released in ice9505a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -43,7 +43,7 @@ Write-Host '
  [36m▀▀[0;1;36;46m░[0;36m█▄  ▓▀▀▀[0;1;36;46m░[0;36m█[0;1;36;46m░[0;36m▄ ▄▄[0;1;36;46m░▒[0;36m▀▀  ▐[0;1;36;46m░[0;36m██ █[0;1;36;46m░[0;36m██  ▄ ▄█[0;1;36;46m▒░[0;36m█▄█[0;1;36;46m░[0;36m▀▀▀ [0;1;36;46m░▀░[0m [36m▄[0;1;36;46m░▒░[0;36m▀▀▄[0;1;36;46m▒[0;36m█ ▐[0;1;36;46m░[0;36m█[0;1;36;46m░[0m [36m▀[0m     [36m▐[0;1;36;46m░░[0;36m█[0m
 [1;30;47m▀[0m    [36m▀▀■   ▀   ▀▀▓[0m     ▄  [36m▓▀▀▀■  ▀[0m     [36m▓▀▀  [0m▄   [36m■▄ ▓▀▀▀  ▄   ▓▀▀ ▓▀▀▀■  ▄▄▄█[0;1;36;46m░[0;36m█▌[0m
 [1;47m▄[0m   [1;30m▀[0m▀[1m▀[0m▀[1m▀▀▓▀[0m▀[1m▀[0m▀[1;30m▀   ▀[0m▀[1m▀▀[0m▀[1;30m▀ [0;36m▒ [0;1;30m▀[0m▀[1m▀[0m▀[1;47m▀▄[0;1m▀[0m▀[1;47m▄[0;1;30m▀   ▀[0m▀[1m▀[0m▀[1;30m▀ [0;36m▀[0m     [36m▄▄[0;1;36;46m░[0;36m▀▀▀▀▀▄▄▄[0;1;36;46m░[0;36m▄▄▄[0;1;36;46m░[0;36m█[0;1;36;46m░░▒▀[0;36m▀▀▀ [0;1;30m▄[0m
-[1;47m▄[0m . aStrocity . #is-kno-no[36m░[0mwn . cr▀[1m▀[0;1;47m▒[0mimson skye [36m■▄ ■▀[0m& lord car[36m▀▀▄[0;1;36;46m░[0;36m▀▀▀[0mnuss! . [1;47m▄[0m
+[1;47m▄[0m                         [36m░[0m       ▀[1m▀[0;1;47m▒[0m           [36m■▄ ■▀[0m          [36m▀▀▄[0;1;36;46m░[0;36m▀▀▀[0m        [1;47m▄[0m
 [1;47m▓[0m                                   [1m▓ [0m                         [36m■▀[0m             [1m▓[0m
 [1;47m▓[0;1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;47m▓[0;1m▄▄▄▄▄▄▄[0m▄[1m▄▄▄▄▄[0m▄[1m▄▄[0m▄▄[1;30m▄  [0;36m▄▄▀ [0;1;30m▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄▄[0m▄[1m▄▄▄[0m▄[1m▄[0;1;47m▓[0m
 ▀                                                        [1;36;46m░▄[0;36m▌[0m                  ▀

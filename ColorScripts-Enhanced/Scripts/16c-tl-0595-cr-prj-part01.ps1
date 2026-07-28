@@ -5,7 +5,7 @@
 # Source SHA-256: 27cfd844db90e2ae917bef6fa9713e8861b0cd14e59c83bd1005576a347361cd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-PRJ.ANS by Christopher Robin (TekLordZ); released in tl-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Projekt Insanity
 # SAUCE Author: Christopher Robin
 # SAUCE Group: TekLordZ
@@ -20,7 +20,7 @@ Write-Host '
            [1;30;47m     [0;1;30;40m█ [0;1;30;47m     ▀[0;1;30;40m▄[0;1;30;47m     [0;1;30;40m█[0;1;30;47m [0;1;30;40m█[0;1;30;47m     ▀[0;1;30;40m▄[0;1;30;47m     ▀ [0;1;30;40m█[0;1;30;47m     [0;1;30;40m█ [0;1;30;47m     ▀ [0;1;30;40m█ [0;1;30;47m     ▀[0;1;30;40m▄[0m
                   [1;30;40mA   [0mT e k  [1mL o r d Z   P r o d u c [0mt i o [1;30mN[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[31m████▀▀[0;1;30m▄▀[0m             [30mSecret greetz go to: Boogeyman, Tyme, Smooth[0m       [1;30m▀▄[0;31m▀▀███[0;31;41m [0m
+[31m████▀▀[0;1;30m▄▀[0m             [30m                                            [0m       [1;30m▀▄[0;31m▀▀███[0;31;41m [0m
 [31;40m██▀[0;1;30;40m▄▀▀[0m             [30mt_nothing, ts, Vyrus...[0m                                [1;30m▀▀▄[0;31m▀█[0;31;41m [0m
 [31;40m▀[0;1;30;40m▄▀[0m                                                        [30mand inky :)[0m       [1;30m▀ [0;31m▀[0m
 [1;30m█[0m                        ▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄                          [1;30m▀[0m

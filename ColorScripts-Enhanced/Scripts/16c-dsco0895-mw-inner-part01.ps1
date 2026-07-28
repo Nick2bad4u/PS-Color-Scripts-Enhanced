@@ -5,7 +5,7 @@
 # Source SHA-256: b8159e42e113e9924413665f363261b15f8afc30c6f1a06ce688c8d3a7d7c7b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-INNER.ANS by Maeve Wolf (discO); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Inner Sanctum
 # SAUCE Author: Maeve Wolf
 # SAUCE Group: discO
@@ -18,11 +18,11 @@ Write-Host '
         [1;34m▄[0m             [1;30m▄   [0;1;34m▄[0m       [1;30m                                              [0m
 [1;30m  [0;1;34m▄▄[0;1;34;44m▓[0;1;34;40m▀[0m            [1;36m▄   [0;1;30m▓[0m      [1;34m▀[0;1;34;44m▓[0;1;34;40m▄▄  [0;1;30;40m                                           [0m
 [1;30m [0;1;34;44m▓▒▓[0m    [1;36;46m▓[0;1;36;40m█[0;1;36;47m█[0;1;36;40m▀█[0m     [1;36m██[0;1;36;47m▓[0m [1;30m▒ [0;1;36m██▄    [0;1;34;44m▓▒▓[0m
-[1m [0;1;34;44m▒▓▓[0m    [1;36;46m█[0;1;36;47m█░[0m [1;36m█▀[0;1;36;47m░[0;1;36;40m█▄ [0;1;36;46m▓[0;1;36;40m█[0;1;36;47m▒[0m [1;30m░ [0;1;36;47m▓[0;1;36;40m█[0;1;36;46m█[0m    [1;34;44m▓▓▒[0m  [1;30mGreets to: Azrael, Creep (your dedication[0m
-[1;34;44m░▒▓[0m     [1;36;46m█[0;1;36;40m█[0;1;36;47m▒[0m [1;36m█ [0;1;36;47m░[0;1;36;40m██ ██[0;1;36;47m▒[0m [1;36m▄ [0;1;36;47m▒[0;1;36;40m██[0m     [1;34;44m▓▒░[0m [1;30mANSi is next =), Argon, Nivenh, Jazz, Venom,[0m
-[1;34;44m░░[0;34m▀▄    [0;1;36m██[0;1;36;47m▓[0m   [1;36;47m▒[0;1;36;40m██ ██[0;1;36;47m░[0m [1;36m█ [0;1;36;47m░[0;1;36;40m██    [0;34m▄▀[0;1;34;44m░░[0m [1;30mT_nothing, Blendz, Squidge][[0m
+[1m [0;1;34;44m▒▓▓[0m    [1;36;46m█[0;1;36;47m█░[0m [1;36m█▀[0;1;36;47m░[0;1;36;40m█▄ [0;1;36;46m▓[0;1;36;40m█[0;1;36;47m▒[0m [1;30m░ [0;1;36;47m▓[0;1;36;40m█[0;1;36;46m█[0m    [1;34;44m▓▓▒[0m  [1;30m                                         [0m
+[1;34;44m░▒▓[0m     [1;36;46m█[0;1;36;40m█[0;1;36;47m▒[0m [1;36m█ [0;1;36;47m░[0;1;36;40m██ ██[0;1;36;47m▒[0m [1;36m▄ [0;1;36;47m▒[0;1;36;40m██[0m     [1;34;44m▓▒░[0m [1;30m                                            [0m
+[1;34;44m░░[0;34m▀▄    [0;1;36m██[0;1;36;47m▓[0m   [1;36;47m▒[0;1;36;40m██ ██[0;1;36;47m░[0m [1;36m█ [0;1;36;47m░[0;1;36;40m██    [0;34m▄▀[0;1;34;44m░░[0m [1;30m                            [0m
 [1;30m [0;34m▀▄[0m     [1;36m██[0;1;36;47m▓[0m [1;30m░ [0;1;36;47m▓[0;1;36;40m██ ▀██▄█ [0;1;36;47m░[0;1;36;40m█[0;1;36;46m▓[0m     [34m▄▀[0m
-[34m    ▀■  [0;1;36m▀▀▀ [0;1;30m▒ [0;1;36m▀▀[0;1;36;46m▓[0m     [1;36m▀▀▀▀▀  [0;34m■▀   [0;1;30mA quirky and warm fuzzy ANSi that is [0m1oo%
+[34m    ▀■  [0;1;36m▀▀▀ [0;1;30m▒ [0;1;36m▀▀[0;1;36;46m▓[0m     [1;36m▀▀▀▀▀  [0;34m■▀   [0;1;30m                                     [0m    
       [1m▄[0m     [1;30m▓                   [0m          [1;30m                                   [0m
          [1m▄  [0;1;30m▀                [0m     [1;30m             [0m                 [1;32m▄[0m
 [1;36;46m       [0;1;37;46m▄■        [0;1;32;46m▄░    ▄      ░▄                    ▄ ▀ ■▄▄  ▄▄▀▀          [0;1;36;46m░[0;1;32;46m    [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 368e387e90089629236606646f7b0cc7d797074d0bef559c4f92106b232e0588
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-FIRE.ANS by Donut Hole (Fire); released in fire1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fire Promotional
 # SAUCE Author: Donut Hole
 # SAUCE Group: Fire
@@ -49,4 +49,4 @@ Write-Host '
               [1;31m▄[0;1;31;41m▀ ▀▄▄[0;1;31;40m▀▀▀▄▄[0m      [1;31m▄█▀▀   ▀■  ▄▀▀▀  ▀[0m      [1;31m█[0;1;31;41m▄▄[0;1;31;40m▀▀[0m        [1;31m▀[0m
              [1;31m▄█▀▀▀[0m       [1;31m▀    ▀[0m                       [1;31m▀[0m
 
-[1;30m▀ ▀▀▀▀▀▀▀▀▀▀▀▌Ansi by Donut Hole of [↑] on the night of Halloween▐▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m'
+[1;30m▀ ▀▀▀▀▀▀▀▀▀▀▀▌                       ↑                           ▐▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m'

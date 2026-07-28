@@ -5,7 +5,7 @@
 # Source SHA-256: ce89717aee2bd20f69d1d3e4a7d31b238eb6fcef335cd4fb616e0d9c659934a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D1_4O.ANS by Dissonance (Hieroglyphics); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mr4tune Tribute
 # SAUCE Author: Dissonance
 # SAUCE Group: Hieroglyphics
@@ -36,4 +36,4 @@ Write-Host '
 [1;33m▀▀  [0;31m▀[0;1;37m▀▀[0;1;31;41m▀[0;1;31;40m████▄▄ [0m   ██[1m█[0;1;36m██▓▓[0;1;35m▓▓▒▒[0;35m████[0;1;35m▒▒[0;35m▄[0;1;30m ▀▀▀▀▀▀[0m [1;34m  [0;1;30m   [0;1;34m [0;1;30m [0;30;43m████[0;31;40m▀▀▄█▀▀█[0;35;40m█▄▄[0;1;31;40m▒[0;30;45m▀ [0m      [31;40m▄[0;1;31;40m██[0;1;37;40m██[0;1;31;40m█[0m
         [1;33m  [0;31m▀[0;1;31m▀▀[0;1;37;41m█[0;1;37;40m█[0;1;31;40m█▄ [0m    [1;31m░░░[0;30;41m▀[0;1;31;40m▄▄▄▄▄▄▄▒▒▒[0;1;35;40m [0;1;30;40m  [0m   [1;34m    [0;1;30m   [0;1;34m    [0m      [31m▀ [0m    [1;31m▓▓▒ [0;30;45m█[0;37;40m [0;31;40m▄[0;1;31;40m▄[0;1;31;41m▄[0;1;31;40m███[0;1;37;40m▓▓[0;1;31;40m▀[0m
               [1;31m [0;31m▀[0;1;31m██[0m [1;31m▄▄[0;1;31;41m▄[0;1;31;40m█████[0;1;31;41m▀▀[0;1;31;40m▀▀▀▀▀▀▀[0m [1;30m                          [0m  [1;31;45m██[0;1;31;40m▓▄▄[0;1;37;40m██[0;1;31;40m█▀▀[0;31m▀[0;37m ░[0;30;47m▓[0m
-                [31;40m▀[0;1;31;40m██[0;1;37;40m█[0;1;31;40m▀▀▀[0;31m▀ [0;37m  [0;30;41m  A tribute to 4o and all things 4o.[0;1;31;40m▒▓▓█[0;1;31;41m▀[0;1;31;40m▀▀[0;31m▀[0m    [1;37mDee1[0m'
+                [31;40m▀[0;1;31;40m██[0;1;37;40m█[0;1;31;40m▀▀▀[0;31m▀ [0;37m  [0;30;41m                                    [0;1;31;40m▒▓▓█[0;1;31;41m▀[0;1;31;40m▀▀[0;31m▀[0m    [1;37m    [0m'

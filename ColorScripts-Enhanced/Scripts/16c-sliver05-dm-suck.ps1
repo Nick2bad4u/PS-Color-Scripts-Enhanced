@@ -5,7 +5,7 @@
 # Source SHA-256: 8d173184d443affb33b3dd0cc55fc60e89890fa769fbd1bbc4054b4a719ba639
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DM_SUCK.ANS by d3m0 (sliver); released in sliver05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: umbilica
 # SAUCE Author: d3m0
 # SAUCE Group: sliver
@@ -46,7 +46,7 @@ Write-Host '
 [1;33;47m█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m [1;33;47m [0m [1;33m▄▄ [0;1;33;47m [0m [1;33;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█[0m
 [1;33;47m█████████████████████████████████████████████████████[0;1;33;40m▄▄▄██▄▄▄███████████████████[0m
 [1;33;40m██████[0m                                                                         [1;33m█[0m
-[1;33m█ ▄▄▄▄  [0;30;43m►[0;33;40m►[0;30;43m►[0;31;40m►[0;30;43m►[0;31;40m►[0;30;43m►[0;31;40m►[0;30;43m►[0;31;40m►[0;30;43m►[0;31;40m►[0;30;43m►[0;31;40m► [0;1;31;40mth[0;30;47mis i[0;1;31;40ms fucked. i am fucked. this i[0;30;47ms m[0;1;31;40my entry for the   [0;1;33;40m█[0m
+[1;33m█ ▄▄▄▄  [0;30;43m►[0;33;40m►[0;30;43m►[0;31;40m►[0;30;43m►[0;31;40m►[0;30;43m►[0;31;40m►[0;30;43m►[0;31;40m►[0;30;43m►[0;31;40m►[0;30;43m►[0;31;40m► [0;1;31;40m  [0;30;47m    [0;1;31;40m                             [0;30;47m   [0;1;31;40m                  [0;1;33;40m█[0m
 [1;33;40m█ █▄ █[0m                [1;31m                [0;30;47m     [0;1;31;40m                       [0;30;47m     [0;1;31;40m        [0;1;33;40m█[0m
 [1;33;40m█▄▄▄▄█    [0;31m▲  [0;1;31m   [0;30;47m      [0;1;31;40m                                [0;30;47m     [0;1;31;40m    [0m                [1;33m█[0m
 [1;33m▄▄▄▄ █    [0;31mZ[0m                           [1;31m▄▄[0m                [1;34m▄▄▄▄▄▄▀▀▀▀  [0;1;33mby d3m0b3w █[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 371999884bdeb2a17d502e917ec2f64211d743c10e172f1c3b14e9efdd7ccc6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT-SOLAC.ANS by NighTrain (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Solace matrix
 # SAUCE Author: NighTrain
 # Lines: 1-22
@@ -30,7 +30,7 @@ Write-Host '
 [1;34m    [0;1;30m [0;1;34m    [0;36m███ ███████ █[0;1;36;46m▒[0;36m█[0m      [1;30m█[0;36m ████████[0;30;46mCHECK[0;36;40m███████████[0;30;46m    LEAVE[0;36;40m████[0;1;36;46m░[0;36m██[0m [1;30m█[0m
        [36m  ███ ███████ [0;1;36;46m░░[0;36m█[0m       [1;30m▀[0m [36m▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀   [0m
          [36m▀▀ [0;1;37m▄[0;36m ▀▀▀▀▀ [0;1;37m▄[0;36m ▀▀[0;37m [0m                            [36m  [0m                       [1;30m  [0m
-     [1;30m [0m   [34m▄█▄▄▄██▀██▄▄▄█▄[0;37m [0m  [1;30mi cheezed this one out, so i will draw you another[0m
+     [1;30m [0m   [34m▄█▄▄▄██▀██▄▄▄█▄[0;37m [0m  [1;30m                                                  [0m
         [34m▐█[0;1;34;44m░[0;34m█████████████▌[0m  [1;30m                                  [0m [1;30m                  [0m
         [34m█[0;1;34;44m░[0;34m██████▀█████▓██[0m
        [34m▐[0;1;34;44m░▒[0;34m█████▌ ▐███████▌[0m          [1;30m  [0m'

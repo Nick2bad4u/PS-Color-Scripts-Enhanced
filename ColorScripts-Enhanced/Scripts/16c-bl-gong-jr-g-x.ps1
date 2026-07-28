@@ -5,7 +5,7 @@
 # Source SHA-256: 07f1020e7a27bab50932c652bb733876c298a85137e82097c4453881d544f5f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_!GƒX!.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the g?x-hq's boot-up picture.
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -36,7 +36,7 @@ Write-Host '
     [36m▐[0;1;36;46m█▀[0;36m▓▀▀▀▀▒[0;1;36;46m▐▌[0m    [1;36;46m▐▌[0m                  ▀▄[1;31m [0;31m [0;37m■ ▐▌[0;31m░ [0;37m▐[0;1;37;47m▀[0m▌[1;30m░[0m [33m▓[0m       [1;30m▀▀▀[0m     [1;30m▀▀[0;36m  [0;34m▌[0;36m  [0;34m▒[0;36m [0;34m▄[0m
 [1;34;44m░[0;34m█▒▒[0;36m █[0;1;36;46m█[0;36m▌[0;34m▐█[0;36m █[0;1;36;46m▄▀█[0;36m▌[0;34m▐█▌[0;36m▐[0;1;36;46m█[0;36m▌[0;34m▐███[0;1;34;44m░░░░░[0;34m██▒░ [0m   [33m▄[0m      [37m▀  ▀[0;1;30m░░[0;36m [0;33m▐▌[0;37m [0;34m░░░▒█████▒███[0;1;34;44m░[0;34m█[0;30;44m..[0;34;40m██▀▐░░▀[0m
 [34;40m██░▒▄[0;36;40m █[0;1;36;46m▄[0;36m▄ [0;34m■[0;36m▒[0;1;36;46m█[0;36m░█[0;1;36;46m▌[0;36m [0;34m▀▀[0;36m [0;1;36;46m▐▌[0;36m [0;34m▀██▒▒██████▒░   [0;1;30m▐[0;33m▌[0m   [33m  [0;1;30m   ░░ [0;36m [0;33m░[0;36m  [0;34m░░▓▓█[0;1;34;44m▒▒[0;34m█[0;30;44m.jR°bL![0;34;40m▓▓▒▀▀▀▀▀[0m
-[34;40m█████▄[0;36;40m ▀▀[0;1;36;46m■[0;36m▄█▀  ▀▀█▄█▀[0;1;36;46m▀[0;36m█[0;37m [0;1;36mh[0;36m34DQUAR[0;30;46mT3[0;36;40mR [0;1;36;40mo[0;36mƒ [0;1;36me[0;36mXPLOSiVE [0;1;36ma[0;36mEROSOL [0;1;36ma[0;36mRT[0;30;46mW[0;36;40mARE, [0;1;36;40mt[0;36mHE [0;1;36mg[0;30;46mR[0;36;40mAPHiTDEE[0m
+[34;40m█████▄[0;36;40m ▀▀[0;1;36;46m■[0;36m▄█▀  ▀▀█▄█▀[0;1;36;46m▀[0;36m█[0;37m [0;1;36m [0;36m       [0;30;46m  [0;36;40m  [0;1;36;40m [0;36m  [0;1;36m [0;36m         [0;1;36m [0;36m       [0;1;36m [0;36m  [0;30;46m [0;36;40m     [0;1;36;40m [0;36m   [0;1;36m [0;30;46m [0;36;40m        [0m
 [34;40m▓▓▓██[0;1;34;44m░░[0;34m█▄▄▄▄▄███▄▄▄▄▄▄▄[0;36m [0;1;36ms[0;36mUBDiV[0;30;46mi[0;36;40mSiON [0;1;36;40mo[0;30;46mƒ[0;36;40m [0;1;36;40mb[0;36m0|L [0;1;36m.[0;36m..[0m    [1;30m░░[0m
 
 

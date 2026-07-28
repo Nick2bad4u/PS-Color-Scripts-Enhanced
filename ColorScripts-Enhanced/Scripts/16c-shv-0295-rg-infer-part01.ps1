@@ -5,7 +5,7 @@
 # Source SHA-256: fb1543cf1367b762e224c95ddc09b6a6abd8a37047a32cd775747d3401ffbe70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-INFER.ANS by Rimgale (Shiver); released in shv-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Inferno
 # SAUCE Author: Rimgale
 # SAUCE Group: Shiver
@@ -19,7 +19,7 @@ Write-Host '
 [1;30m░ ▀▓▄[0m▀▓▀[1;30m▄▓▀  ░ ░[0m     [1;30m░▒░  ▄▄▓▀▀[0m▄▄▓▄[1;30m▀▓▄ ░ ░[0m     [1;30m░ ░▒░ ░ ▄▓▀[0m▄[1;30m▀▓▄ ░  ░  ░[0m
 [1;30m▒░░ ▀▓▄▓▀ ░ ░▒░  ░  ░ ▄▄▓▀▀[0m▄▄▓█████▓▄[1;30m▀▓▄░  ░    ░ ░  ▄▓▀[0m▄▓█▓▄[1;30m▀▓▄ ░▒░    ░[0m
 [1;30m─ ─── ▀ ──[0m─[1;30m──[0m──────────────────────────[1;30m─[0m─[1;30m──── ─  ─ ▄▓▀[0m▄▓█████▓▄[1;30m▀▓▄ ─ ──[0m──[1;30m── ─  ─[0m
-w[1;30moow, [0ma[1;30mint [0mi[1;30mt [0mp[1;30munisher, [0mw[1;30mith [0ma n[1;30mew [0ms[1;30muit.. [0mh[1;30mehe   ▄▓▀[0m▄▓█████████▓▄[1;30m▀▓▄[0m
+ [1;30m     [0m [1;30m    [0m [1;30m  [0m [1;30m         [0m [1;30m    [0m   [1;30m   [0m [1;30m      [0m [1;30m      ▄▓▀[0m▄▓█████████▓▄[1;30m▀▓▄[0m
 [1;30m─  ─ ───[0m─[1;30m──[0m─[1;30m─[0m───────────────────────────────────────────────────[1;30m─[0m──[1;30m─[0m─[1;30m───── ─  ─[0m
 [34m▌[0;1;34m■▄[0;34m▀▌[0;1;34m■▀▀▓██████████████████▓▀▀▀▀▓■▀[0;1;30m▄■▀▓▀■[0;1;34m■▀▀▓██■[0;1;30m▄▄■[0;1;34m■▓██████████████████▓■▄[0;34m▀▀▓[0;1;34m▄■[0;34m▐[0m
 [34m▌[0;1;34m▐█▓▄▄■▓████████▓▀▀▀[0m     [1;30m▄▄■▓▀▀▓▄    ▄■▀ ▄▓▀■ ■▀ ▄■▀▄■[0;1;34m▀■▓███████████████████▓▀[0;34m▄▓[0m

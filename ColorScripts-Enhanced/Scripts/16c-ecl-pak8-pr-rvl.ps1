@@ -5,7 +5,7 @@
 # Source SHA-256: e41bde0caee506a6205e021419e53f03ce4fb132dcbd8d03d96a85587811774f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR_RVL.ANS by president (ecolove); released in ecl-pak8 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: revolution - end of the nfo
 # SAUCE Author: president
 # SAUCE Group: ecolove
@@ -32,7 +32,7 @@ Write-Host '
                                [34m▀[0;1;34;44m▐ [0;34m▀▀[0;1;34m  [0m                   [1m▐[0;1;47m▌▄[0m██[1;30;47m▀▒▄ [0m▄▄   ▄▄[1;47m▄▄▀[0m▀
                                 [34m▐▌[0m                      [1;37m▐[0;1;37;47m▌[0m█▄[1m▀▀[0m▀[1;47m▄▄[0m█[1;30;47m [0m██[1;30;47m▄[0m▀▀ ▀
                                                         [1;47m▓░[0m█[1;30;47m░▄[0m██▄▄▄▀▀▀█[1;30;47m ▐[0;1;30;40m▌[0m  [1;30mpr[0m
-     [1;30mpeople say we''re dorks , but we like to [0m          [1m▐[0;1;47m▌[0m██▀[1;47m▄[0m█[1;30m▌[0m▀ [34m▄[0;1;34m▄[0;1;34;47m▓[0;1;34;40m▄[0m  ▀[1;30;47m▀[0m▄[1;30m▄[0m
+     [1;30m                                        [0m          [1m▐[0;1;47m▌[0m██▀[1;47m▄[0m█[1;30m▌[0m▀ [34m▄[0;1;34m▄[0;1;34;47m▓[0;1;34;40m▄[0m  ▀[1;30;47m▀[0m▄[1;30m▄[0m
              [1;30mcall ourself revolution[0m                    [1;47m▒[0m█▌ [1m▐[0;1;47m▌[0;1;30;47m▐[0m [34m▐[0;1;34;44m▀█[0;1;34;40m█[0;1;34;44m▓░[0;34m▌[0;37m [0;1;30m▀[0m
                                                      [1;47m▓▀[0m▄[1m▐[0;1;47m▌[0m▌ [1m▐[0;1;47m▌[0;1;30;47m▐[0;1;30;40m▄[0m  [34m▀▀▀[0;37m   [0m
                                                       [37m▀▀▀▀  [0;1;37;47m▓[0m█[1;30;47m▄[0m▀[1;30m▀[0m

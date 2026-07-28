@@ -5,7 +5,7 @@
 # Source SHA-256: 9a219530cfc81488ed0a680af00023d2749c7c16a41c286059ddb70b2bb127be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-CIA2.ANS by Cleaner (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Cia
 # SAUCE Author: Cleaner
 # SAUCE Group: Nitrophusion
@@ -39,4 +39,4 @@ Write-Host '
        [1;30m▄ [0m [30;41m░░[0;1;30;41m░░[0;31m██[0;1;31;41m░░▒[0;1;31;40m▀▀▀▀[0m ▄▄[1;30m  [0m▀[1;30m [0;34m░[0;37m [0;1;30m  [0m [34m▒[0;37m  [0;34m▓[0;1;36m [0;1;34;44m░▒▒▓▓[0;1;34;47m▓▓[0;1;34;44m▓▓▒▒░░[0;1;33;44m░░▒▒▓▓[0;1;33;47m▓▓[0;1;37;47m▓[0m
         [1;30m ▄ [0;31m▀▀▀▀[0;37m ▄▄▄ [0;1;30m▀▀▀ [0m      [34m░[0;37m    [0;34m▒[0;37m  [0;34m▓[0;37m [0;34m█[0;1;34;44m░░▒▒▓▓[0;1;34;47m▓▓[0;1;34;44m▓▓▒▒░░[0;1;33;44m░░▒▒▓▓[0;1;33;47m▓[0m
           ▀▀[1;30m▀▀▀[0m
-[1;30m∙─[0m-[36m[[0;37mA[0;1;37mnsi By Cleane[0mr[36m/[0;37mN[0;1;37mitrophusio[0mn[36m][0;1;30m∙──[0m─---[1;30m-───[0m───[1;30m-----[0m--──[1;30m-[0;36m[[0;37m3[0;1;37m1[0;36m/[0;37mo[0;1;37m3[0;36m/[0;1;37m9[0m9[36m][0;37m─∙[0;1;30m-[0;36m[[0;37m2[0;1;37m2[0;36m:[0;1;37m2[0m5[36m][0;37m─[0;1;30m─∙[0m'
+[1;30m ─[0m [36m [0;37m [0;1;37m             [0m [36m [0;37m [0;1;37m          [0m [36m [0;1;30m ──[0m─   [1;30m ───[0m───[1;30m     [0m  ──[1;30m [0;36m [0;37m [0;1;37m [0;36m [0;37m [0;1;37m [0;36m [0;1;37m [0m [36m [0;37m─ [0;1;30m [0;36m [0;37m [0;1;37m [0;36m [0;1;37m [0m [36m [0;37m─[0;1;30m─ [0m'
