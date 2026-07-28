@@ -5,7 +5,7 @@
 # Source SHA-256: f3d8ae29d0d5e3f143518f3425e034a337bbfebd02db2c787ec3a78fb6f74b10
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VOIDJED2.ANS by Jed (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -46,7 +46,7 @@ Write-Host '
      [1;30m█ ████▀▄  ■[0;31m▀[0;1;31;41m▀[0;1;31;45m▄█▄[0;1;31;41m▀[0;31m▀[0m      [31m▀[0;1;31;41m▀▀[0;1;31;45m█▄█▄█[0;1;31;41m▀▀[0;31m▀   ▀▀[0;1;31;41m▀[0;1;31;45m████[0;1;31;41m▀[0m [31m▀▀▀[0;1;31;41m▀[0;1;31;40m██[0;1;31;41m▄[0;31m▀▀[0m       [1;30m▀▄ █ █[0m
 [1;30m   ▄▀▄█████▀ ▀▀   [0;31m▀[0;1;31;41m▀[0;31m▀[0m           [31m▀▀▀▀▀[0m         [31m▀[0;1;31;41m▀[0;31m▀▀[0m      [31m▀[0;1;31;41m▀[0;31m▀[0m         [1;30m▀ ▀▄▀▄▀▄[0m
 [1;30m  ▐▌▐██▄█▀▄█▀  ■  ·[0m                                                    [1;30m▀▀▄▌▐▌[0m
-[1;30m  █ ██▀▄▀▄▀  ■   ▌[0m     [31mTHE [0;1;31mVOID [0;1;37m· Sysop: The Gr[0;1;31mim Re[0;31maper[0m               [1;30m▄███ █[0m
+[1;30m  █ ██▀▄▀▄▀  ■   ▌[0m     [31m    [0;1;31m     [0;1;37m               [0;1;31m     [0;31m    [0m               [1;30m▄███ █[0m
 [1;30m  █ ██▄▀▄▀▄▀·   ▐▌[0m     [31mViSi[0;1;31mON-X [0;1;37mAlpha Site · 40[0;1;31m0 meg[0;31mz !![0m           [1;30m▌    ▐██ █[0m
 [1;30m ▀▄▀████▄▀ ▀    ▐▌[0m     [31mINC/[0;1;31miCE D[0;1;37mist. Site ! · 9[0;1;31m600+ [0;31mOnly[0m           [1;30m█[0m     [1;30m█▀█▄▀▄[0m
 [1;30m   ▀▀▄▄▀▀ ■▄·   █[0m      [31mCo·S[0;1;31mought [0;1;37mAfter · INC Un[0;1;31mdergr[0;31mound[0;1;30m▐▌[0m         [1;30m▐▌  ▀ ▄▀▀▄▀[0m

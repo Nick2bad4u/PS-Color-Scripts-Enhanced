@@ -5,7 +5,7 @@
 # Source SHA-256: 08967938b31fa31f1bcabdbd008a1aa5faaa83473ed3f0406716686f221f996a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GW-ICEX.ICE by Gwah (ice-9411); released in ice-9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 172-216
 # Columns: 1-80
 
@@ -50,7 +50,7 @@ Write-Host '
 [1;30;47m░[0m▒[1;30;47m▓[0;1;30;40m▄ ▀[0;1;30;47m████▄▄███▄▀▄▀█▄██▄████[0;1;30;40m ▀   [0;31m▄[0m [31m▓▒▓░▒░[0m [31m▐[0m  [1;30;47m▒░▒▓[0;1;30;40m████▀[0m ▄ [1;30m▀▓▀[0m        [31m▒░[0m [31m▒░▓▓██[0m
 [37m▐[0;1;30;47m▒▓[0;1;30;40m▓▄  ▀█▀█▓▀ ▀█████████▓▀▀  [0m▄▄[1;30;47m▓[0;1;30;40m▄  [0;31m▒░▒[0m [31m░[0m  [31m▐[0m   [37m▀[0;1;30m▄██▓▀[0m  [1;30;47m▒▓[0;1;30;40m█▄▄[0m  [1;30;40m▀[0m [31m▌[0m    [31m░[0m  [31m░[0m [31m▒▒░▀▓[0m
  [1;30m▓▀▀[0m  [1;30m▀[0m     [1;30m▄▓[0m    [1;30m▀▀▀▀[0m  [1;30m▒[0m [1;30m▄[0m [1;30;47m░▒▓[0m▒[1;30m▓█[0m [31m░ ░[0m           [1;30m [0m   [1;30m▀▀▓[0;1;30;47m▓[0;1;30;40m▀▓▀[0m   [31m▌[0m [37m▄▓[0;1;30;47m░[0;1;30;40m▄[0m    [31m░░[0m  [31m▒[0m
-[1;30m [0m [1;30m...The iCE eXperience...[0m   ▀[1;30m▓▀▀[0m    [31m░[0m [37m▄[0;1;30;47m░[0;1;30;40m▄[0;31m▐[0m [1;30m▄[0m  [1;30m...Coming Soon...[0m  [1;30m▀[0;1;30;47m▒▓[0;1;30;40m█▄[0;31m 12░08░94[0m
+[1;30m [0m [1;30m                        [0m   ▀[1;30m▓▀▀[0m    [31m░[0m [37m▄[0;1;30;47m░[0;1;30;40m▄[0;31m▐[0m [1;30m▄[0m  [1;30m                 [0m  [1;30m▀[0;1;30;47m▒▓[0;1;30;40m█▄[0;31m   ░  ░  [0m
    [37m▄[0;1;30m▄[0m   ▄[1;30m▄ [0m ▄[1;30;47m░▒▓[0;1;30;40m▄[0m  [1;30;40m▄[0m [1;30;40m [0m▄[1;30;47m░▒[0m▄        [1;30m▄▄▄[0m   [1;30;47m▒▓[0;1;30;40m▄▄[0m▒[1;30m▄[0m      ▄[1;30m▄▄[0m             [1;30m▀▓[0m      [1;30m▄[0m
  ▄[1;30;47m░▒▓[0;1;30;40m▀[0m [1;30;47m░▒▓[0;1;30;40m█[0m  [1;30;47m▒▓[0;1;30;40m██▄[0m  [1;30;40m▀[0m  [1;30;47m▒▓▓[0;1;30;40m█[0m▒ [1;30m▄[0m   [1;30;47m▒▓[0;1;30;40m██▓▄[0m  [1;30;40m▀[0;1;30;47m▓[0;1;30;40m██▀[0m     [1;30;47m▓▒▓[0;1;30;40m█▀[0m   [1;30;40m▄[0m   [1;30;40m▄▓▄[0m        ▄▓[1;30m██▀ [0m
 [1;37m▄▄▄[0m▄[1m▄[0m [1;30;47m░▒▓[0;1;30;40m██▓[0m  [1;30;40m▓▀[0m [1;37;40m▄[0m▄▄▄▄▄ [1;30;47m▓[0;1;30;40m▀[0;1;30;47m▓[0;1;30;40m██▓[0m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [1;30m▀▀[0m ▄▄▄▄▄▄▄▄▄▄▄▄▄[1m▄[0m▄▄▄[1m▄▄▄[0m▄[1m▄▄▄▄[0m

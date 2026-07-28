@@ -5,7 +5,7 @@
 # Source SHA-256: ff0d5d3f36f5fb7d0ac0834a9fda5c35cf1af1d216c987d596cb62fea6c1d329
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-BZMM.ANS by cyberpunch (rIb); released in rib-011 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: booze main menu
 # SAUCE Author: cyberpunch
 # SAUCE Group: rIb
@@ -21,7 +21,7 @@ Write-Host '
              [34m [0;36m ▄▐ [0;34m░███▌█[0;1;34;44m [0;34m█[0;1;34;44m▓▓▓[0;34m█  █████████████████▀▀▀▀███████████▌████▀████[0;1;34;44m▀█[0;34m█[0m
            [36m▄▄█[0;1;32;46m▄[0;36m█ [0;34m ▄███▌███[0;1;34;44m░░░[0;34m██████████████████[0;37m [0;35m▄▄▀▀[0m      [34m  [0m       [34m▀▀█▄  ██[0;1;34;44m▓[0;34m█[0m
        [36m██[0;1;32;46m▄▄▄▌[0;36m▌▀ [0;34m ▄████▄███████████████████████[0;35m▄[0;1;33;45m░[0;35m▀[0;34m        [0m     [34m        ▀█▄▀█[0;1;34;44m▒[0;34m█[0m
-       [36m▄▐[0;1;32;46m▐██[0;36m█ [0;34m ▐███████[0;1;34;44mbOOZE main menu   [0;34m███[0;35;44m░▓[0;34;45m [0;35;40m▌[0;37;40m [0;36;40mcommand[0m       [36;40mcommand[0;37;40m [0;34;40m ███[0;1;34;44m░[0;34m█[0m
+       [36m▄▐[0;1;32;46m▐██[0;36m█ [0;34m ▐███████[0;1;34;44m                  [0;34m███[0;35;44m░▓[0;34;45m [0;35;40m▌[0;37;40m [0;36;40m       [0m       [36;40m       [0;37;40m [0;34;40m ███[0;1;34;44m░[0;34m█[0m
        [36m▓[0;1;32;46m  ▓▓▓[0;36m▌ [0;34m▐█▓█████[0;30;44m+o : cyberpunch  [0;34;40m█████[0;35;44m█[0;34;45m█[0;37;40m  [0;36;40mcommand[0m       [36;40mcommand[0;37;40m  [0;34;40m▐████[0m
       [36;40m▄▄▄[0;1;32;46m ░░░ [0;36m▄ [0;34m ▀▀██████[0;30;44mrIb worldHQ[0;34;40m█████████[0;35;44m▓[0;34;40m▓[0;37;40m  [0;36;40mcommand[0m       [36;40mcommand[0;37;40m  [0;34;40m▐███▓[0m
        [36;40m█████▀[0;1;32;46m   [0;36m▄▄[0;34m    ▀▀▀▀███████████████████[0;35;44m▒[0;34;40m█[0;37;40m  [0;36;40mcommand[0m       [36;40mcommand[0;37;40m  [0;34;40m▐████[0m

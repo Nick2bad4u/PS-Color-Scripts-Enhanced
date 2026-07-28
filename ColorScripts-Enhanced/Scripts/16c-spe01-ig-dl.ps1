@@ -5,12 +5,12 @@
 # Source SHA-256: 5148e3ec803ab9aa0372e18f741ad0db5e2d02a435f68a177db54624b4ee41eb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IG-DL.ANS by Ironghost (spe01); released in spe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-[1;30mokay this is my[0;34m [0;1;31m▄░[0;1;31;44m█[0;1;31;40m█████████████████████████████████████▀▀█▄▄▀▌[0;1;30;40mentry to the dark[0m
+[1;30m               [0;34m [0;1;31m▄░[0;1;31;44m█[0;1;31;40m█████████████████████████████████████▀▀█▄▄▀▌[0;1;30;40m                 [0m
 [1;30;40mlands demo comp[0;1;31;40m▐██████████████████████████████████████████▓███[0;1;30;41m▒[0;1;30;40mo held on irc....[0m
 [1;30;40mthe winner is[0;1;34;40m [0;1;30;40ms[0;1;31;40m███████████████[0;1;31;41m▓[0;1;31;40m██████████▀████████▀▓████████████▄[0;1;30;40mupposed to get[0;1;34;40m [0m
 [1;30;40ma usr[0;34m [0;1;30m3[0;1;31m▄[0;1;30m3.6 mo[0;1;31m▐▀▀▀█████████████████[0;1;31;41m▓[0;1;31;40m████▌▐██████▀████████████████▄[0;1;30;40mdem..[0;1;31;40m▒▓▄[0;1;30;40mi hope[0m

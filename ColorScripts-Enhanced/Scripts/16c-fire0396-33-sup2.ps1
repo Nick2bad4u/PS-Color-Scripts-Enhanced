@@ -5,7 +5,7 @@
 # Source SHA-256: f24cc0672fb222766df9e24eab93ab945ad22951436dca8b6f2e61f05e7c3383
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-SUP2.ANS by Eerie-Kun (Fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Superflu issue #2
 # SAUCE Author: Eerie-Kun
 # SAUCE Group: Fire
@@ -16,7 +16,7 @@
 
 Write-Host '
     [1m██▀▀▀▀▀▀▀▀▀█▓█▌  eerie-kun [0;31m)[0m      [1;37m▄▄▄▄▄▄▄▄▄░  [0;1;30mnotice : the[0m           [31m{ [0;1;31mfire[0m
-[1;31m    [0;1;37m██    ▄   ██▀█[0m                   [1;37m██▀▀▀▀▀▀▀▓▓[0m     [1;30mauthor of this ansi fully[0m
+[1;31m    [0;1;37m██    ▄   ██▀█[0m                   [1;37m██▀▀▀▀▀▀▀▓▓[0m     [1;30m                         [0m
 [1;30m    [0;1;37m██ [0;31m░  [0;1;37m▐▄▄    ▀▀▓▄▄▄▓██████████████▌[0m       [1;37m██[0m          [1;30mendorses [0msuperflu [1;30mas[0m
 [1;30m   [0;1;37m▄▄▓█[0m      [1;37m▀▄▄▄▄ ░▀▀▀██[0m           [1;37m▀▀▌ [0;31m░[0m     [1;37m█████████▄▄▄   [0;1;30mthe best ansi[0m
 [1;30m   [0;1;37m▀▀▀▀▀▀▀██    █▄▄▄   ██▌▄▄▄▓█▌[0m          [1;37m▌  ▐█[0m        [1;37m▀▀▀▓▄[0m     [1;30mrelated ''zine[0m
@@ -38,5 +38,5 @@ Write-Host '
 [33m    [0;1;37m▐  ▐█▌   ▐████  [0;31m░ [0;1;37m▓▀  [0;31m▄▄░  [0;1;37m█  [0;31m▀ ▄  ▀▀ [0;1;37m▄██████▄▄▄ ░[0m     [33m▀ ▀▀▀ [0;1;37m▄▄▄▄▄███▌[0m
 [1;37m    ▐  ██  [0;31m░ [0;1;37m▐███▌ [0;31m▐▓   ▄▓█▓▓▌  [0;1;37m██▄▄▄▄▄▄███▀   ▀▀▀▀▀█████████████▀▀▀▀▀   ▌[0m
 [1;37m    ▀░ ██ [0;31m▐▒  [0;1;37m██▌[0m            [1;37m▄▄▄▄██▀▀▀▀▀▀[0m                                [1;37m▀[0m
-       [1;37m██ [0;31m▐▓▀ [0;1;37m███████████████▀▀▀▀▀▀   superflu 2 [0;1;30m- [0mas if you could read anyway.
+       [1;37m██ [0;31m▐▓▀ [0;1;37m███████████████▀▀▀▀▀▀              [0;1;30m  [0m                            
       [1m██▄▄▄▄▄▄▄██[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 05a1f230a05e6d194453fcce32fd88dd43e5e1376297aa92f83208d8b2f7ca73
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-CC1.ANS by Stone The Crow (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Cat's Cradle
 # SAUCE Author: Stone The Crow
 # SAUCE Group: ACiD Productions
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-  [1;30m■▀[0;1;37;47m ▐[0;1;37;40m█████[0;1;37;47m█[0;1;37;40m███[0;1;37;46m▓[0;1;37;40m███[0m               [1;30;40m░[0m █  K-rad greets go out to the following █ [1;30m█[0m
-     [1;47m▐[0;1;40m█████████[0;1;46m▒▀[0;36m▀[0;1;37m▀█[0m              [1;30m▒[0m █  people in the scene:  Rad Man, Cat,  █ [1;30m█[0m
+  [1;30m■▀[0;1;37;47m ▐[0;1;37;40m█████[0;1;37;47m█[0;1;37;40m███[0;1;37;46m▓[0;1;37;40m███[0m               [1;30;40m░[0m █                                       █ [1;30m█[0m
+     [1;47m▐[0;1;40m█████████[0;1;46m▒▀[0;36m▀[0;1;37m▀█[0m              [1;30m▒[0m █                                       █ [1;30m█[0m
       [1m▀▀███████[0;1;46m░[0m    [1;40m▀[0m             [1;30;40m▓[0m █  Sinned Soul, Formic Acid, Toon Goon, █ [1;30m▓[0m
          [1m▀██[0;1;47m▓[0;1;40m████▄  [0m  [1;40m [0m           [1;30;40m█[0m █  Devine Styler, Shivan, T_Nothing,    █ [1;30m▓[0m
           [1m▐█[0;1;47m▓[0;1;40m██████  [0m             [1;30;40m█[0m █  Syntax Error, Grateful Dead, EV_int, █ [1;30m▒[0m

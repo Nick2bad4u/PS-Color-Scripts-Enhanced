@@ -5,7 +5,7 @@
 # Source SHA-256: 8a29a63dc15c67d9eec9deadb52a45a262a26dbdd1d76fc167c6e77ec465910d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-DIRT2.ANS by Prisoner#1 (Fire); released in fire1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dirt Emag
 # SAUCE Author: Prisoner#1
 # SAUCE Group: Fire
@@ -39,7 +39,7 @@ Write-Host '
 [1;30m▓[0m     [33m ▄ [0m   [1;31m▄▄[0;1;31;43m█▓[0;1;31;40m▀[0;33m■ [0;31m▒[0;33m [0;1;31;43m▓▒[0;33m▒[0m [35;41m▐▓[0;31;40m▀[0m [33;40m [0;1;31;43m▓▒[0;33m▒[0m  [31m▒[0m  [33m [0;1;31;43m▓▒[0;33m▒▌[0;31m▐▄[0;33m ▄ [0m [31m▀ [0;1;31m▄▄[0;1;31;43m█▓[0;1;31;40m▀[0;33m■▒▌[0m [33m ▄ [0m   [1;31m▄▄[0;1;31;43m█▓[0;1;31;40m▀[0;33m  [0;37m█[0;1;37;47m▄▓██ [0m
 [1;30m█[0m [1;30m▄▓[0m   [1;30m▄[0;33m ▀[0;1;31;43m░▒▓[0;1;31;40m▀▀[0m [33m░  [0;31m░[0m [33m▀▐░[0m  [35;41m▀[0m [31;40m▄[0m [33;40m▀▐░[0m  [31;40m░[0m   [33;40m▀▐░▌[0m [31;40m▀ [0m [33;40m ▀[0;1;31;43m░▒▓[0;1;31;40m▀▀[0m  [33m▐░ [0m   [33m▄▀[0;1;31;43m░▒▓[0;1;31;40m▀▀[0m  ▄[1;47m░▄████ [0m
 [1;30m▌ ▀▀▀ ▀█▀[0m                                             [31m▄[0m        [33m▄▓▄[0m  [37m▄▄█[0;1;37;47m▄▒█████[0m█
-[1;30m▀[0m [1;31;41m▓[0;1;31;40m▀▀[0;1;31;41m▓[0m [1;30;40m▓[0m   [33mAnsi by Prisoner#1.Fire "Mr. OneMonthLeft"[0m   [33m░░[0m  [33m▄▀ [0m [33m▀▀▓▄[0m [37m▀[0;1;37;47m▀█▓[0m█▀▀▀▀▀
+[1;30m▀[0m [1;31;41m▓[0;1;31;40m▀▀[0;1;31;41m▓[0m [1;30;40m▓[0m   [33m                                          [0m   [33m░░[0m  [33m▄▀ [0m [33m▀▀▓▄[0m [37m▀[0;1;37;47m▀█▓[0m█▀▀▀▀▀
 [1;31;41m▒[0;1;31;40m▀[0;31m [0;1;30m▄[0m [1;31;41m▒[0m [1;30;40m▒[0m   [33mGreets to m''homies...[0m                           [33m▐▌[0m  [33m░[0m  [33m▐[0;1;30m█[0;33m▌ [0;37m▐[0;1;37;47m▐█[0m█ ▀ ██
 [1;31;41m░[0;31m▄▄▄▄[0;1;31;41m░[0m [1;30;40m▓▄▄[0m  [1;30;40m▄[0m     [1;30;40m▄[0m            ·[31mD  I  R  T     E  M  A  G[0;37m·[0m  [33m▀▄▄░[0m [33m▄▒▀[0m [37m▄█[0;1;37;47m▀▀[0m█ ██ ▄
                                                               [33m▀▀▀[0m'

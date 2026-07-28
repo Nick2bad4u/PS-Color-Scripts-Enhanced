@@ -5,7 +5,7 @@
 # Source SHA-256: faeb55a228493e05937d5d5c48df1396b7d560dfa83f38bf1d564ffde7dda8d5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-MELLO.ANS by el ni$o (room 208); released in 208-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mellow
 # SAUCE Author: el ni$o
 # SAUCE Group: room 208
@@ -43,6 +43,6 @@ Write-Host '
        [34m░░░░[0m     [35m▐[0;1;34;45m░[0;1;35;45m▀[0;1;31;45m▓[0;1;35;45m▓[0m [35m███   █▄ [0;1;35;45m░▓▓[0;35m▌[0;1;35;45m░▒[0m
                 [35m▐[0;36;45m▓[0;1;31;45m░▓░[0;1;35;45m░[0;35m█████[0;1;34;45m▄[0;35m▀▄██[0;1;35;45m░░[0;35m▌██[0m      [36mansi: el niño(208)[0m
                [1;30m▄▄[0;35m█[0;36;45m▓[0;1;31;45m░[0;1;35;45m░[0;35m███████▀█████ [0;33m▄[0m
-                 [1;30m [0;34m▀[0;35m▀▀▀ [0;34m▀[0;35m▀[0;35;44m▀[0;35;40m█████[0;35;44m▀[0;35;40m▀[0;37;40m [0;33;40m▀[0;1;31;43m▓[0;33m▌[0m      [36mthis piece of art reflects[0m
+                 [1;30m [0;34m▀[0;35m▀▀▀ [0;34m▀[0;35m▀[0;35;44m▀[0;35;40m█████[0;35;44m▀[0;35;40m▀[0;37;40m [0;33;40m▀[0;1;31;43m▓[0;33m▌[0m      [36m                          [0m
                  [1;30m [0;33m▐[0;1;31;43m▒[0;33m▌▀[0;36m            [0;33m▀▀[0m       [36m                              [0m
                    [33m ▌[0;37m [0;36m            [0m         [36m                     [0m'

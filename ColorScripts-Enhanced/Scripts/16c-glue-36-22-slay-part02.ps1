@@ -5,7 +5,7 @@
 # Source SHA-256: 122d4a53ca17c3d16f944c5a83f3327b81ed1b48e36dfe0678be26537835cfc0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-SLAY.ANS by catch22 (glue); released in glue-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: someone call animal rights!
 # SAUCE Author: catch22
 # SAUCE Group: glue
@@ -48,6 +48,6 @@ Write-Host '
                           [33m▀▀▀▀  [0;1;30m▀▀▀   [0m              [33m▀█████████████▀██████████▀▀[0m
                                                       [33m▀▀███████▀ ▄███████▀▀ [0;1;30m▄▄▀▀[0m
                                                           [33m▀▀██▄██████▀▀ [0;1;30m▄▄█▀▀[0m
-[1;30mstone that the builder refuse,[0m                             [33m▐█████▀▀ [0;1;30m▄▄██▀▀[0m
+[1;30m                              [0m                             [33m▐█████▀▀ [0;1;30m▄▄██▀▀[0m
 [1;30m                                      [0m                       [33m▀▀ [0;1;30m▄▄▀▀▀[0m
                                                                            [1;30m22222[0m'

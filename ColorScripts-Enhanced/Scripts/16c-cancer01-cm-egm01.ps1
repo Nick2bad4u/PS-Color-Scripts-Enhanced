@@ -5,7 +5,7 @@
 # Source SHA-256: 24e03163b43d9cfa4e4eb92bb6eb2b615b11f5e664ec8892f5f1924f625351c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-EGM01.ANS by Cheeze Monkey (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Enygma Menu Template
 # SAUCE Author: Cheeze Monkey
 # SAUCE Group: Cancer
@@ -31,7 +31,7 @@ Write-Host '
 ■▄▒░[1mm[0menu ▄ ▀▓▀                   ▄     ■▓▀     [36m▐▀▓ [0;37m▀▓ [0;36m▀▓  ▐█▌  ▓[0;36;46m [0;37;40m  ▐▌[0;36;40m▓[0;36;46m [0m   [36;40m▐[0;1;36;46m▒[0;36m▌[0m
 [37m▐[0;1;36;47m░[0m▓▒▌  ■                       [1;35mxx[0;1;34m.. [0;1;32me[0;36mnygma command  [0;37m▀■▄ ▓ [0;36m▀▓  ▐█▌ [0;37m■▀[0;36m▐█▌   ▓[0;1;36;46m░[0m
 [1;36m [0;1;36;47m▒░[0m▓▀■▀   [1;35mxx[0;1;34m.. [0;1;32me[0;36mnygma command  [0;1;35mxx[0;1;34m.. [0;1;32me[0;36mnygma command[0m            [36m▀▓ [0;37m▄▓▄[0;36m▀▓▀■▄▐█▌[0m
-[36m [0;37m▐█[0;1;31;47m░[0m▄■    [1;35mxx[0;1;34m.. [0;1;32me[0;36mnygma command  [0;1;35mxx[0;1;34m.. [0;1;32me[0;36mnygma command  [0;1;33mjoo get  [0m■▄   ▀ ■ ▄ [36m▐▀▓ [0;37m▓▄[0m
+[36m [0;37m▐█[0;1;31;47m░[0m▄■    [1;35m  [0;1;34m   [0;1;32m [0;36m               [0;1;35m  [0;1;34m   [0;1;32m [0;36m               [0;1;33m         [0m■▄   ▀ ■ ▄ [36m▐▀▓ [0;37m▓▄[0m
 [37m  [0;30;47m  ▐[0m     [1;35;40m  [0;1;34;40m   [0;1;32;40m [0;36m               [0;1;35m  [0;1;34m   [0;1;32m [0;36m             [0;1;33m              [0m▄     ▐▌    ▀ ■
 ■▄██▀■    [1;35m  [0;1;34m   [0;1;32m [0;36m               [0;1;35m  [0;1;34m   [0;1;32m [0;36m             [0;1;33m             [0m▀▓▀ ▄ ■▀       ▐▌
  ▐▀  ▄■   [1;35m  [0;1;34m   [0;1;32m [0;36m             [0m           [37m▀  ■[0m        [1;35m  [0;1;34m   [0;1;32m [0;36m             [0m       [37m▄[0m

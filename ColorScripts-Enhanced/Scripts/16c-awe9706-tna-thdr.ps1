@@ -5,7 +5,7 @@
 # Source SHA-256: 93ac82d786b0ab66c0afce96fe0a91f9e00d7658dd250eed50fe68f53eb2d890
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-THDR.ANS by The Night Angel (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Toast
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -30,7 +30,7 @@ tna([1mawe[0m)     [1;30m▄[0m▄▓▌       [34m░ ░▓▓▄[0m    
 [32m█[0;1;32;42m▄[0;32m▄  ▄[0;1;32;42m▄[0;32m█▄[0;1;30m▄ [0;34m▀▄██▄ [0;37m▀ [0;34m▀[0;1;34;44m▀[0;34m███▄██▄ ▐▀█▓░[0;36m▐▌ [0;34m░[0;30;44m▓[0;36;40m▐▌▀ ▄▄▀  [0;34;40m▐▀[0;1;34;44m▀█[0;1;34;47m▓▓[0;1;34;44m█▓▄[0;1;34;40m▄▄▄[0;34m█▀ [0;32m▄█▓▄█[0;1;32;42m▀▀[0;32m██▀▀███[0;1;32m▄[0;32m█[0;1;30;42m▀[0m
 [32m▄[0;32;42m [0;1;32;42m▀▀[0;32m█████▀ [0;34m░▓█▀[0;1;34;44m▀▀[0;34m▀ ▐▀▀ ▀[0;1;34;44m▀[0;34m██▀ [0;30;44m▓[0m  [34;40m░  [0;36;40m▀ ▄▄▀▌[0m     [34;40m▄[0;1;34;44m▄[0m  [34m▄█[0;1;34;44m▀▀██[0;1;34;40m▀▀[0;34m▀[0;1;30m▄▄[0;32m▄█[0;1;32;42m▀[0;32m██▄▄███▓▒░  ▀███[0m
 [32m▀▀▀[0;1;30m▀ [0;32m▀[0;1;30m▀[0m       [1;30m─-──   ───-──--  ──-───-─ [0;36m▀ [0;1;30m────-─────-─-───────---─────-──-────-─[0m
-[1;34m► [0m█[1;47mtime[0m███▓░  █[1;47mname[0m█████████████▓░  █[1;47mcalling from[0m███████▓░  █[1;47maffiliation/s[0m████▓░
+[1;34m► [0m█[1;47m    [0m███▓░  █[1;47m    [0m█████████████▓░  █[1;47m            [0m███████▓░  █[1;47m             [0m████▓░
 
 [34m►  [0;37m       [0m     [1;37m                 [0m     [1;36m                   [0m     [36m                [0m
 [34m►  [0;37m       [0m     [1;37m               [0m       [1;36m        [0m                [36m         [0m

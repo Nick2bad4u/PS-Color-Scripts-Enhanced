@@ -5,7 +5,7 @@
 # Source SHA-256: 31837cd52e416390bab1374f1ecd92b000966084ff0fbb09640ed8a01220cb75
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mx-icon.ans by mx (fuel30); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ANSIcon
 # SAUCE Author: mx
 # SAUCE Date: 20190714
@@ -27,7 +27,7 @@ Write-Host '
 [37m  [0;1;30m■▀[0;33m ░[0;37m [0;1;30m                                                                  [0m [33m░ [0;1;30m▀■[0m
   [1;30m▌[0;1;30;43m▓[0;33m░[0;37m  [0;1;30m                                                                   [0m [33m░[0;1;30;43m▓[0;1;30;40m▐[0m
   [1;30m▌[0;1;30;43m▒[0;33m▒░[0;37m [0;1;30mto share your vision.[0;31m                                              [0;33m░▒[0;1;30;43m▒[0;1;30;40m▐[0m
-  [1;30m▌[0;1;30;43m░[0;33m▓▒░░░░░░░░░[0;37m [0;1;30ma few shout-outs just like in the good ole days:[0m [33m░░░░░░░░░▒▓[0;1;30;43m░[0;1;30;40m▐[0m
+  [1;30m▌[0;1;30;43m░[0;33m▓▒░░░░░░░░░[0;37m [0;1;30m                                                [0m [33m░░░░░░░░░▒▓[0;1;30;43m░[0;1;30;40m▐[0m
   [1;30m▌[0;33m▓▒░[0;37m           [0;1;30m      [0;33m [0;31m [0;1;30m    [0;33m [0;1;30m      [0;33m [0;1;30m       [0;33m  [0;1;30m     [0;33m [0;1;30m          [0m            [33m░▒▓[0;1;30m▐[0m
   [1;30m▌[0;33m▒░[0;37m                    [0;1;30m        [0;33m [0;1;30m      [0;33m [0;1;30m        [0;33m [0;1;30m    [0m                     [33m░▒[0;1;30m▐[0m
   [1;30m▌[0;33m▒[0;37m             [0;1;30m   [0;33m [0;1;30m      [0;33m [0;1;30m     [0;33m [0;1;30m                 [0;33m [0;1;30m      [0;33m [0;1;30m    [0m             [33m▒[0;1;30m▐[0m

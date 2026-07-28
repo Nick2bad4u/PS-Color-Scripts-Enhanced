@@ -37,6 +37,10 @@ const MIXED_TEXT_LEDGER2_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger2.json"
 );
+const MIXED_TEXT_LEDGER3_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger3.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -284,6 +288,82 @@ test("second mixed text review is hash-only and fully applied", () => {
             file: "16c-thesauna01-tk-flamesauna.ps1",
             row: 28,
         },
+    ]);
+});
+
+test("third mixed text review is hash-only and fully applied", () => {
+    const ledger = JSON.parse(
+        fs.readFileSync(MIXED_TEXT_LEDGER3_PATH, "utf8")
+    );
+
+    assert.equal(ledger.schemaVersion, 1);
+    assert.equal(ledger.summary.candidateFiles, 753);
+    assert.equal(ledger.summary.evidenceRows, 1303);
+    assert.equal(
+        Object.values(ledger.summary.categoryRows).reduce(
+            (total, count) => total + count,
+            0
+        ),
+        1303
+    );
+    assert.equal(new Set(ledger.candidates.map(({ file }) => file)).size, 753);
+    assert.equal(
+        ledger.candidates.reduce(
+            (total, candidate) => total + candidate.evidence.length,
+            0
+        ),
+        1303
+    );
+
+    const missingRows = [];
+    for (const candidate of ledger.candidates) {
+        assert.ok(!Object.hasOwn(candidate, "text"));
+        const { rows } = readPayloadRows(candidate.file);
+        for (const evidence of candidate.evidence) {
+            assert.ok(!Object.hasOwn(evidence, "text"));
+            assert.match(evidence.sha256, /^[a-f\d]{64}$/u);
+            const currentRow = rows[evidence.row - 1];
+            if (currentRow === undefined) {
+                missingRows.push({
+                    file: candidate.file,
+                    row: evidence.row,
+                });
+                continue;
+            }
+            assert.notEqual(
+                getReviewEvidenceHash(stripAnsiControls(currentRow)),
+                evidence.sha256,
+                `${candidate.file}: row ${evidence.row} was not redacted`
+            );
+            assert.equal(
+                analyzeRow(currentRow).letterCount,
+                0,
+                `${candidate.file}: row ${evidence.row} still contains letters`
+            );
+        }
+    }
+    assert.deepEqual(missingRows, [
+        { file: "16c-afc-r7-su-rehab-part03.ps1", row: 37 },
+        { file: "16c-axf-ap-1-bx-bre.ps1", row: 22 },
+        { file: "16c-brhood02-sor-ccol-part04.ps1", row: 46 },
+        { file: "16c-d38-02-bs-dman.ps1", row: 41 },
+        { file: "16c-drg0697-jda-j4p.ps1", row: 21 },
+        { file: "16c-drop9705-rr-drop1.ps1", row: 44 },
+        { file: "16c-forge-07-mj-fluph.ps1", row: 22 },
+        { file: "16c-fos-0396-ck-opmn1.ps1", row: 27 },
+        { file: "16c-fsn-0497-53-plan4.ps1", row: 26 },
+        { file: "16c-fti-0695-cndx-kt-part03.ps1", row: 37 },
+        { file: "16c-glue-21-psi-9904-part01.ps1", row: 23 },
+        { file: "16c-impure70-pmt-cyberpunks-part02.ps1", row: 33 },
+        { file: "16c-locus-08-us-loc1.ps1", row: 26 },
+        { file: "16c-mdn-9704-rs-vansi.ps1", row: 18 },
+        { file: "16c-mist1223-ni-xms23.ps1", row: 31 },
+        { file: "16c-nh-0597-biz-locl-part02.ps1", row: 41 },
+        { file: "16c-oph-0013-bhabt-06.ps1", row: 37 },
+        { file: "16c-quad0896-mr-ut3.ps1", row: 24 },
+        { file: "16c-rare-002-sqr-acmp.ps1", row: 21 },
+        { file: "16c-surge14-imi-prt.ps1", row: 25 },
+        { file: "16c-trans03-pc-mess.ps1", row: 28 },
     ]);
 });
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 5c62e4333bd0226f2119335534a4cdf8087cfc0a9fada23bab6f10af88057ca2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS@HLMEN.ANS by Blind Sniper (Department 38); released in d38-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Holdens Lair IV Menu (ARRGH!)
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
@@ -33,9 +33,9 @@ Write-Host '
 [1;36;46m░▓[0;1;36;40m▀▀▀[0;1;32;40m▀[0;1;36;40m▀[0;1;32;40m▀[0;1;36;40m▀▀▀[0;1;37;40m▀[0;1;36;40m▀▀▀▀▀▀▀▀[0;1;37;40m▀▀[0m                           [1;36m [0m       [1;32m▀▀[0;1;36m▀▀▀▀▀▀▀▀▀▀▀[0;1;32m▀▀[0;1;36m▀[0;1;32m▀[0;1;36m▀▀▀▀[0;1;36;46m▓░[0m
 [1;36;46m [0;36m▌[0;37m [0;31m░[0m                                              [31m░[0m           [1;36m     [0m           [36m▐[0;1;36;46m [0m
 [1;36;46m│[0m [36m[[0;1;36;41mB[0;36m][0;1;36mBulletins[0;32m...............[0;36m][0m                   [36m[[0;1;36;41mS[0;36m][0;1;36mScripts[0;32m..................[0;36m][0;37m [0;1;36;46m│[0m
-[1;36;46m|[0m [36m[[0;1;36;41mC[0;36m][0;1;36mComment To Sysop[0;32m........[0;36m][0m                   [36m[[0;1;36;41mG[0;36m][0;1;36mLogoff[0;32m...................[0;36m][0;37m [0;1;36;46m|[0m
+[1;36;46m [0m [36m [0;1;36;41m [0;36m [0;1;36m                [0;32m        [0;36m [0m                   [36m [0;1;36;41m [0;36m [0;1;36m      [0;32m                   [0;36m [0;37m [0;1;36;46m [0m
 [1;36;46m:[0m [36m[[0;1;36;41mD[0;36m][0;1;36mOpen A Door[0;32m.............[0;36m][0m     [31m [0m             [36m[[0;1;36;41mH[0;36m][0;1;36mHelp[0;32m.....................[0;36m][0;37m [0;1;36;46m:[0m
-[1;36;46m:[0m [36m[[0;1;36;41mO[0;36m][0;1;36mPage Sysop[0;32m..............[0;36m][0;1;36m     [0m              [36m[[0;1;36;41mN[0;36m][0;1;36mSystem News[0;32m..............[0;36m][0;37m [0;1;36;46m:[0m
+[1;36;46m [0m [36m [0;1;36;41m [0;36m [0;1;36m          [0;32m              [0;36m [0;1;36m     [0m              [36m [0;1;36;41m [0;36m [0;1;36m           [0;32m              [0;36m [0;37m [0;1;36;46m [0m
 [1;36;46m:[0;36m▄[0m                                [31m▐[0m                                           [36m▄[0;1;36;46m:[0m
 [1;36;46m\\%o,._[0;36m█[0;1;36;46m_.,sS$`''∙,∙''`∙,· ·░ [0;36m▌▌█▐  [0;1;36;41mc[0;1;36;40mOMMAND[0;1;37;40m:[0;36m CMD   ▌█▐▐[0;1;36;46m░· ·,∙`''∙,∙''`$Ss,._ _.,o%//[0m
 >Cut Here F0o!<-----------------------------------------------------------------[0m'

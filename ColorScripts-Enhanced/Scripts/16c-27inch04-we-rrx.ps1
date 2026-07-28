@@ -5,7 +5,7 @@
 # Source SHA-256: f1beb7069af8cc878e919cd6ae0bf7f46c1ca5b03820cbbeb4356f7a58d7bc84
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WE-RRX.ANS by Avenging Angel + Enzo (27inch04); released in 27inch04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -28,7 +28,7 @@ Write-Host '
 [1;30;40m██[0;1;30;47m▀▀▀▀[0;1;30;40m█ ▄▄▄▄▄[0m       [1;30m███▄▄███[0;1;37;47m  [0;1;30;47m▀[0;1;30;40m█ █ ██ █▀▄[0m░░[1;30m█▀▀████[0;1;30;47m█▀▀[0;1;37;47m▄[0;1;37;40m▒▒[0;1;30;47m ▄█[0;1;30;40m███▀▀▀▄█[0m░░[1;30m██ █▀[0;1;30;46m█[0m  [1;30m▄▄▄[0m
 [1;30m▌█[0;1;30;47m▄    [0;1;30;40m▌[0;1;30;47m██   ▀[0;1;30;40m██▄▄▄[0m  [1;30m██[0m░░[1;30m█▀███[0;1;30;47m▄[0;1;30;40m█▌██▄▄ ▄█▀▀[0m   ▒[1;30;47m█▄▄▄████[0;1;30;40m▀▀▀▀[0m [1;30m ▄▄▄[0m▒[1;30m███[0;1;30;47m██[0;1;30;40m █▌█[0;36m░[0;1;30m██[0;1;30;46m▄[0;1;36;46m▀[0;1;36;40m▒▒[0m
 [1;30;40m███▀▀▀██████████[0;1;30;47m▄▄[0;1;30;40m██[0;1;30;47m▀[0;1;30;40m▄█████[0m    [1;30m▀▀▀▀▀▀[0m       [1;30m██▀▀▀[0m    [1;30m▄▄█▀▀[0m           [1;30m■███▀▀[0m  [1;30m▄[0;36m▄▄[0m
-[1;30m█[0;36m░░[0;1;30m██[0;1;30;46m▀▀[0;1;30;40m█▄[0m   [1;30m▀▀▀▀▀███[0;1;30;47m█[0;1;30;40m██▄[0m [1;30m▀█▄[0m menu name here[1;30m▀[0m   [1;30m▄█▀▀[0m   other info here ▒[1;30m██[0;1;30;46m█[0;36m░░[0;1;30m▀▀▀▀[0m
+[1;30m█[0;36m░░[0;1;30m██[0;1;30;46m▀▀[0;1;30;40m█▄[0m   [1;30m▀▀▀▀▀███[0;1;30;47m█[0;1;30;40m██▄[0m [1;30m▀█▄[0m               [1;30m▀[0m   [1;30m▄█▀▀[0m                   ▒[1;30m██[0;1;30;46m█[0;36m░░[0;1;30m▀▀▀▀[0m
 [1;30m████[0;1;36m▒[0;1;36;46m▀[0;1;30;46m ▀[0;1;30;40m█[0;31m░[0m           [1;30m▀▀██▄[0m [1;30m▀▄[0m                [1;30m▀[0m                        [1;30m█[0m [1;30m██▄▄▄▄█[0;1;30;46m▄[0m
 [1;30;40m█▄▄▄█▀▀▀█[0m  [1;30m░[0m             [1;30m▀▓[0m                                           [1;30m▌[0m [1;30m▓▀▀▀[0;36m░[0;37m  [0;1;30m▄[0m
 [1;30m██[0;1;36m▒[0;1;36;46m▄▄[0;1;30;46m▀[0;1;30;40m█[0m [1;30m█[0;31m░[0;37m [0;1;30m▓[0m                       options [1;30m[[0mX[1;30m][0m   [1;30m=b[0m                     [1;30m▓[0;31m░[0;37m▒[0;1;30m███▀▀[0m

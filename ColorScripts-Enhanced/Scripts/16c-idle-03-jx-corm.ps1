@@ -5,7 +5,7 @@
 # Source SHA-256: b20241413706a1f9db1efad0c79f3fe43266a940479eaba411fff695e0f061d5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JX-CORM.ANS by jinx (idle); released in idle-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: coruscant
 # SAUCE Author: jinx
 # SAUCE Group: idle
@@ -31,7 +31,7 @@ Write-Host '
 [34;40m█[0;30;44m░[0;34;40m▓▄▄[0;1;37;40m [0;1;30;40m▀[0;1;30;46m▓[0;1;37;40m [0;36m [0;1;30m▀[0;34m   ▀▀▀███[0;30;44m░[0;34;40m▄[0;1;37;40m [0;1;30;40m▀[0;1;37;40m [0;34m▐[0;30;44m░[0;34;40m▓▄[0;36;40m [0;1;30;40m▄[0;1;37;40m  [0;1;30;40m▀▀[0;1;37;40m [0;36m [0;1;30m∙[0;36m [0;1;36mmain[0;36m [0;1;30m∙[0;34m  [0;1;30m▐[0;1;30;46m▓▓[0;1;30;40m▀▀[0;1;37;40m [0;34m▄▄[0;30;44m░[0;34;40m▀ [0;1;30;40m▄ ▀ [0;34m▄▓[0;1;37m [0;1;30m▀[0m [34m▄[0;30;44m░[0;34;40m▓█▄■▀▀▀█[0;30;44mbf[0;34;40m▌[0m
 [36;40m┌▄───[0;1;37;40m [0;1;30;40m▄[0;1;37;40m [0;36m────[0;1;36m:\__[0;36m ───────────[0;1;30m ▐▌[0;1;37m [0;36mjx[0;1;37m [0;1;30m▀[0;1;37m [0;36m ─────── [0;1;37m [0;1;30;46m▓[0;1;30;40m▌[0;36m ──────[0;37m [0;1;30m▐▌ [0;36m ─────────────────▄┐[0m
 [36m██▀▀▓▄  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;37m [0;1;30m▀■[0;1;37m [0;1;30m▄ ▀[0;1;37m [0;36m ▀▀▀▀▀▀▀ [0;1;37m [0;1;30m▀▄[0m [36m▀▀▀▀▀▀ [0;37m [0;1;30m▀[0m [1;30m■[0m [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██[0m
-[36m▓[0;30;46m░[0;37;40m  [0;30;46m░a[0;1;36;40m uto-message menu[0m [36m░[0;30;46m▓[0m           [36;40m  [0m     [36;40m▒▄[0m              [36;40m▄[0;30;46m1[0;1;36;40m liners[0m         [30;46m░[0;36;40m▓[0m
+[36m▓[0;30;46m░[0;37;40m  [0;30;46m░ [0;1;36;40m                 [0m [36m░[0;30;46m▓[0m           [36;40m  [0m     [36;40m▒▄[0m              [36;40m▄[0;30;46m [0;1;36;40m       [0m         [30;46m░[0;36;40m▓[0m
 [30;46m▒▒[0;37;40m [0;30;40m [0;30;46m  [0;1;36;40m        [0m          [30;46m▒ [0;1;36;40m             [0m [36m░[0;37m [0;36m░[0;30;46m▓░ [0;1;36;40m             [0;36m░[0;30;46m░ [0;1;36;40m          [0m     [1;30m [0;30;46m▒[0;36;40m▒[0m
 [36;40m░[0;30;46m▓[0;36;40m [0;37;40m [0;30;46m  [0;1;36;40m              [0;36m░[0;1;36m [0;36m░[0;30;46m▓░ [0;1;36;40m             [0;1;30;40m [0;1;36;40m [0m   [30;46m  [0;1;36;40m             [0m [30;46m  [0;1;36;40m               [0m [36m░[0;30;46m▓[0m
 [36;40m░   [0;30;46m  [0;1;36;40m             [0m     [30;46m  [0;1;36;40m            [0m      [30;46m  [0;1;36;40m          [0m    [30;46m  [0;1;36;40m              [0m  [36m [0;30;46m▓[0m

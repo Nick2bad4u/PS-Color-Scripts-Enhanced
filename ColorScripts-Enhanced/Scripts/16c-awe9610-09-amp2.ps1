@@ -5,7 +5,7 @@
 # Source SHA-256: 4ee1bda1b0cac5e7560b6c1241ee987f96583089218ee1d40e6e99db6e1e786b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 09-AMP2.ANS by Fluor (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: & (aMPERSAND)
 # SAUCE Author: Fluor
 # SAUCE Group: awe lettering
@@ -35,7 +35,7 @@ Write-Host '
 [36m▄▄▄[0;1;36;46m▄[0;36m▄▄█[0;1;30;46m▓▄░[0;36m░[0m      [36m▀▀▀[0;1;36;46m▒[0;36m▌[0;1;36m▄[0;36m▄[0m    [37m▀[0m   [36m  [0;37m  [0;36m░[0;1;36m░[0;1;30;46m▒░[0;1;36;46m░[0;36m▌[0m        [30;46m▓[0;1;30;46m░▒▓▓[0;1;30;40m▄▐[0;1;30;46m▓░[0;36m▌▀▀  [0;37m [0;36m ▐▀[0m     [1;36m▀[0;1;37;46m▓[0;1;37;40m▌[0m
    [36m▀[0;37m [0;36m   [0;1;30m▀▀[0m            [36m▀[0;1;36m▒[0;36m░░[0m           [36m░░[0;1;37m [0;36m▀▀[0m         [30;46m▓[0;36;40m░[0;37;40m [0;1;30;40m▀▀[0m          [36m░[0m        [1;37m▀■[0m
   [1;32m░   [0m                 [1;36m░[0m          [1;32m  [0m
- [1;32m▄▌[0m     [1;36mtna[0;1;37m:[0;1;36m thank you for giving[0m [32m▄[0;1;32;42m▄[0;1;32;40m▄▄▄[0m [1;32m▄[0m                [1;36m░[0m    [30;46m▓[0;36;40m░[0;30;46m▓[0m          [36;40m░[0;1;37;40m [0m
-[32m▀█[0;1;32m▀▀▀ ▀[0m     [1;36m me[0m [1;36mlots of wonderful[0m [32m▐▀[0;1;32m [0m     [1m [0;1;36m░[0;1;37m [0;36m▄▄[0;1;37m [0;36m▐[0;1;37;46meerie[0;1;36;46m''[0;1;37;46ms[0;1;36;40m▒░░░▒[0;30;46m░[0;1;30;46m░[0;1;36;46m& aMPERSAND[0;36m▓▌[0;1;37m [0m
+ [1;32m▄▌[0m     [1;36m   [0;1;37m [0;1;36m                     [0m [32m▄[0;1;32;42m▄[0;1;32;40m▄▄▄[0m [1;32m▄[0m                [1;36m░[0m    [30;46m▓[0;36;40m░[0;30;46m▓[0m          [36;40m░[0;1;37;40m [0m
+[32m▀█[0;1;32m▀▀▀ ▀[0m     [1;36m   [0m [1;36m                 [0m [32m▐▀[0;1;32m [0m     [1m [0;1;36m░[0;1;37m [0;36m▄▄[0;1;37m [0;36m▐[0;1;37;46m     [0;1;36;46m [0;1;37;46m [0;1;36;40m▒░░░▒[0;30;46m░[0;1;30;46m░[0;1;36;46m           [0;36m▓▌[0;1;37m [0m
              [1;36mideas[0;1;37m.[0m               [32m░[0m      [36m▄▐[0;1;36m▓▌▀[0;36m▀[0m       [36m░[0;30;46m▓▓[0m   [1;36;40m░░░[0m         [30;46m▓[0;36;40m░░▀■▬[0;1;37;40m [0;36m▄[0m
                                         [36m▀▀[0;1;37m  [0;1;36m▀[0m'

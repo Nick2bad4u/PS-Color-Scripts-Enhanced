@@ -5,7 +5,7 @@
 # Source SHA-256: 36c6d0d510c822bd8f85b2b2e3c1b72685f4c973b40757b581fecb1b72b64735
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-DANK.ANS by cryogenic (lure); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dank
 # SAUCE Author: cryogenic
 # SAUCE Group: lure
@@ -34,7 +34,7 @@ Write-Host '
       [34m█▌[0;37m [0;35m▐[0;1;35;45m▓▀[0;35m▀[0;1;30m▄▀▀[0m  [34m           [0;37m  [0;35m▀▀[0;34m  [0;35m▐▓██▀[0;37m [0;35m▄▄[0;1;31;45m▄[0;35m▓░[0;37m [0;34m [0;37m [0;35m▓[0;37m [0;1;30m█▀[0m [1;30m   ▄▄▀▀[0m [35m▄███[0;1;30;45m▄[0;1;30;40m█▀ [0;34m▄[0m
       [34m▓▌[0;37m [0;35m▐▓[0;37m   [0;34m▄▄█[0;1;34m▒▒▒▒[0;34m███[0;1;34;44m░░▄▄[0;1;34;47m▀▓[0;1;34;44m▄[0;1;34;40m▄[0;34m▄█▄[0;37m [0;35m▀█▄█[0;1;31;45m░[0;1;31;40m▓[0;1;37;41m░[0;1;31;47m▓[0;35m▒[0;37m [0;34m░[0;37m [0;35m░[0;37m [0;1;30m▓[0m [34m▄▄[0;1;30m ▀ [0m   [35m▄█▀[0;1;30;45m▄[0;1;30;40m▄▀▀ [0;34m▄[0;1;34m▒▓[0m
          [35m▐▒[0m                        [37m    [0;35m▀[0;1;31;45m ░[0;1;31;40m▀[0;1;31;45m▀[0;35m░[0;37m   [0m        [35m▄[0;37m [0;35m▀[0;1;30;45m▄[0;1;30;40m▄█▀   [0m
-         [35m▐░[0;37m  [0;1;30mansi by cryogenic[0m           [35m▀█▓[0m   [35m░[0m     [35m▀[0m   [1;30m▄[0;30;47m▓[0;1;30;40m█▀ [0m dank
+         [35m▐░[0;37m  [0;1;30m                 [0m           [35m▀█▓[0m   [35m░[0m     [35m▀[0m   [1;30m▄[0;30;47m▓[0;1;30;40m█▀ [0m     
                                  [1;30m░░░░░░[0m   [35m▐▒[0m             [1;30m▀█ [0m +o spear
                                           [35m▐░[0m             [1;30m  ▓[0m
                                                             [1;30m░[0m'

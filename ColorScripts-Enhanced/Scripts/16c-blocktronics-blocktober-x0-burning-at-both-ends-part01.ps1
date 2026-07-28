@@ -5,7 +5,7 @@
 # Source SHA-256: 69269b6b259ae68c3f61cad010c36c28b5ad617d5871ef34541f897d058fdffd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: x0-burning-at-both-ends.ans by xero (blocktronics); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: burning at both ends
 # SAUCE Author: xero
 # SAUCE Group: blocktronics
@@ -30,7 +30,7 @@ Write-Host '
           ▒▒▒    ▒▒▒   ▒                                          [1;33;102m▓[0m   [1;33;102m▓▓▓[0m
             ▒▒▒▒▒▒     ▒                                            [1;33;102m▓▓▓[0m
                                                                   [1;33;102m▓▓▓[0m    [1;33;102m▓[0m
-       [1mblocktronics presents...  [0m                             [1;33;102m▓▓▓▓▓▓[0m     [1;33;102m▒[0m  [1;33;102m▓[0m
+       [1m                          [0m                             [1;33;102m▓▓▓▓▓▓[0m     [1;33;102m▒[0m  [1;33;102m▓[0m
                                                               [1;33;102m▓▓▒▓▓▓▓▓[0m      [1;33;102m▓[0m
     ┌┐ ┐  ┌┐ ┌┐ ┐┌ ┌┬─ ┌┐ ┌┐ ┌┐ ┌┐ [1;30m    [0m                       [1;33;102m▓▓░ ░▒▓▓▓[0m     [1;33;102m▒[0m
 [1;30m   [0m ││ │  ││ ││ ││  │  ││ ││ │└ ││ [1;30m    [0m                         [1;33;102m▒ ░ ░▓▓▓[0m  [1;33;102m▓▒░[0m

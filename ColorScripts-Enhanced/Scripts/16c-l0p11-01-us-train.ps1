@@ -5,7 +5,7 @@
 # Source SHA-256: bc4cb3ee7a9af6498cf7141fd47a6587c0dc1da55ee1a28226a6fbeddc95f187
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TRAIN.ANS by Simonking + Podo (thelo0p); released in l0p11_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: pociag zza glowy =)
 # SAUCE Author: podo^simonking
 # SAUCE Group: thelo0p
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
- [1;30manother joint by[0m        [34m▀▄[0;37m [0;1;30m▀[0;1;30;47m░░[0m█████████████▄[1m  [0m         [1;30mpodo and simonking =)[0m
+ [1;30m                [0m        [34m▀▄[0;37m [0;1;30m▀[0;1;30;47m░░[0m█████████████▄[1m  [0m         [1;30m                     [0m
                         [34m▄▀██▄[0;37m [0;1;30m▀[0;1;30;47m░░[0m█████████████▄[1m  [0;34m▄[0m
 [37m                      [0;1;37m [0;34m▄▀[0;1;37m [0m [34m▀██▄[0;37m [0;1;30m▀[0;1;30;47m░░ [0m████████████▄[1m [0;34m▀▄[0m
 [37m                    [0;1;37m  [0;34m▓▀[0;1;37m [0m    [34m▀█▀▄[0;1;37m [0;1;30m▀[0;1;30;47m░░[0m█████████████▄ [34m▀▄[0m

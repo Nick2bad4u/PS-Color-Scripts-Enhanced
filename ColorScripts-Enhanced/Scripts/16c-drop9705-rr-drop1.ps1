@@ -5,7 +5,7 @@
 # Source SHA-256: caa5694672e09c876d644fb0fec4b869297a526e437e7d8a99eadfa61586e1b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-DROP1.ANS by rink rat (dr0p); released in drop9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: weird green d00d with spikes
 # SAUCE Author: rink rat
 # SAUCE Group: dr0p
@@ -56,5 +56,4 @@ Write-Host '
 [32m---------------- [0;37m`''°$$⌡`  ''°'' ''$` [0;32m----- [0;37m`''"ⁿª"''`  $$$"ⁿª"''` [0;32m--------------------[0m
 [32m------------------------------------------------- [0;37m$$$ [0;32m--------------------------[0m
 [32m------------------------------------------------- [0;37m$$$ [0;32m--------------------------[0m
-[32m----------------------------------------------- [0;37m.,$$$,. [0;32m------------------------[0m
-[1;30m----------------[0md[1;30m-[0me[1;30m-[0ms[1;30m-[0mt[1;30m-[0mi[1;30m-[0mn[1;30m-[0my[1;30m--[0mr[1;30m-[0mu[1;30m-[0ml[1;30m-[0me[1;30m-[0ms[1;30m--[0mo[1;30m-[0mu[1;30m-[0mr[1;30m--[0mp[1;30m-[0me[1;30m-[0mo[1;30m-[0mp[1;30m-[0ml[1;30m-[0me[1;30m---->rink rat<drop>-[0m'
+[32m----------------------------------------------- [0;37m.,$$$,. [0;32m------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e71285ef821a7d6adf60548691e778eb25ee88235ff76b5bfb2fcae1584873cd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-FIRE1.ANS by ize (fire ?); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fire promo no1
 # SAUCE Author: ize
 # SAUCE Group: fire ?
@@ -39,7 +39,7 @@ Write-Host '
 [37m [0;31m■[0;31;43m▄[0;1;30;43m▒[0;31m■[0;37m [0;31m▐[0;1;30;43m▒[0;31;42m▓[0;37;40m [0;31;40m ░▐[0;1;30;43m▒[0;33m [0m   [33m▐[0;1;30;43m▒[0;33m▌[0m   [33m  [0;37m [0;1;30;43m▒[0;33m█ ▐[0;1;30;43m▒[0;33m▌[0m      [1;30;43m▒[0;33;42m▓[0;37;40m [0;1;30;43m▒[0;33m▄[0;37m [0;1;30;43m▒[0;33m▌[0;32m        [0;33m▐▄▄█[0;1;31;43m▄░[0;1;31;40m██[0;1;31;43m███▓[0;1;31;40m█[0;1;31;43m░[0;33m▌[0;32m▄[0;33m▐[0;1;30;43m▓[0;33m▀[0;37m [0;32m▄[0;33m▐▓[0;1;30;43m▓[0m
 [31m ▐[0;1;33;41m■▄[0;31m▄▓▄[0;1;30;43m▓[0;33m▌[0;31m▄■▐[0;33m▓[0;1;30;43m▓[0m [32m [0;37m  [0;33m█[0;1;30;43m▓[0m [32m▀  [0;37m [0;32m▀[0;37m [0;1;30;43m▓[0;33;42m▓[0;33;40m▌▐[0;1;30;43m▓[0;33m▌[0;32m ▀ [0;37m  [0;33m▐[0;1;30;43m▓[0;33m▌▐[0;1;30;43m▓[0;33m▌▐[0;1;30;43m▓[0;32m ▀  [0;37m  [0;32m▀[0;1;32m▄[0m [33m [0;1;31;43m░▄██[0;1;31;40m████[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m░ [0;33m▀[0;1;31m [0;32m▀▄[0;37m [0;32m▀▀[0;37m [0;33m▀▀[0;32m▄▀[0m
 [31m▄[0;1;33;41m▄ ▄[0;1;37;40m█[0;1;33;40m▓[0;1;33;41m▄▀[0;31m▓[0;1;33;41m■[0;32m [0;31m▄[0;33m▀[0;32m▄[0;31;42m▓[0;32;40m▀▄[0;33;40m▀▀[0;1;32;40m▄[0;32m ▀  ▀▄[0;33m▄█▀[0;32m▄[0;33m▀█▄[0;32m▄ ▀▄[0;33m▄█▀▄█▀▄█▀[0;1;32m▄▀[0;32m ▄▄▀   [0;1;32m▀[0;32m [0;1;31m▀▀███[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▀[0;33m▀▀[0;1;31m [0;1;32m▄▀[0m
-[31m▓▀[0;1;33m▀▀▀▀▀▀▀[0;31m▀▀[0;32m ▀▀▀     look ma!, i''ve put that forest on FIRE! [0;37m [0;32m [0m   [1;31m [0m
+[31m▓▀[0;1;33m▀▀▀▀▀▀▀[0;31m▀▀[0;32m ▀▀▀                                             [0;37m [0;32m [0m   [1;31m [0m
 
 
              [1;34m                   [0;31m▄▄▄▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 3decf8a70bb1782c17986074b385089ef23b01eb59c6ee586d19ef843b35c68f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-FORZE.ANS by sander (focus); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the forze
 # SAUCE Author: sander
 # SAUCE Group: focus
@@ -28,7 +28,7 @@ Write-Host '
 [1;35;45m▄[0;1;30;40m░░[0;1;37;40m█[0;34m█[0;37m [0;1;30m░[0m [1;30m░[0m [1;30m░░░░░[0;34m█[0;1;35m█[0;1;30m░░[0;1;37m▀▀▀▀▀▀▀▀▀▀[0;1;30m░░[0;1;37m█[0m [1;35m█[0;1;30m░░[0;1;37m█[0m [1;30m░░░░▄[0;35m▀[0;1;35;45m▀[0;1;37;40m▄[0;1;30;40m░[0;1;37;40m█[0;34m█[0;1;35m█[0;1;30m░░[0;1;35m▀[0;1;37m▀▀▀▀▀▀▀▀▀▀█[0m [1;35;45m▄[0;1;30;40m░░[0;1;35;40m▀[0;1;37;40m▀▀▀▀▀▀▀▀▀▀[0;1;35;40m█[0m
 [1;35;40m█[0;1;37;44m▄[0;1;37;45m▄[0;1;37;40m█[0;34m█[0;37m  [0;1;30m░[0m [1;30m░░░░░░[0m [1;35m█[0;1;37;44m▄▄▄▄▄▄▄▄[0;1;37;45m▄▄▄▄▄▄[0;1;37;40m█[0m [1;35m█[0;1;37;44m▄▄[0;1;37;40m█[0m [1;30m░░░░░▀▄[0;35m▀[0;1;35;45m▀[0;1;37;40m█[0;34m█[0;1;35m█[0;1;37;44m▄▄▄▄▄▄[0;1;37;45m▄▄▄▄▄▄▄[0;1;37;40m█[0m [1;35m█[0;1;37;44m▄▄▄▄▄▄▄[0;1;37;45m▄▄▄▄▄▄[0;1;35;40m█[0m
 [1;30;40m░[0m [1;30m░[0m [1;30m░[0m [1;30m░[0m [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
- [1;30m░[0;1;36mWelcome[0;30m▄▄█▀▀▀▀▀▀█[0;1;30m░[0;1;36mUploads[0;30m███████████[0;1;30m░[0;1;36mLocalMSG[0m          [1;30m░[0;1;35m[!] World of Warcraft[0;1;30m░[0m
+ [1;30m░[0;1;36m       [0;30m▄▄█▀▀▀▀▀▀█[0;1;30m░[0;1;36m       [0;30m███████████[0;1;30m░[0;1;36m        [0m          [1;30m░[0;1;35m                     [0;1;30m░[0m
  [1;30m░[0;1;37m            [0;30m▄▄▄▄▄[0;1;30m░[0;1;37m         [0;1;35m         [0;1;30m░[0;1;37m         [0;35m [0;1;35m     [0m   [1;30m░[0m    [1;35m [0m [1;35m     [0m          [1;30m░[0m
  [1;30m░░░░░░░░░░░[0m [1;30m░[0m [1;30m░[0m   [1;30m░░░░░░░░░░░░░[0m [1;30m░[0m [1;30m░[0m  [1;30m░░░░░░░░░░[0m [1;30m░[0m [1;30m░[0m     [1;30m░░░░[0m [1;30m░[0m [1;30m░[0m              [1;30m░[0m
  [1;30m░[0;35m [0;1;35m [0;35m [0;1;37m [0;1;36m        [0m     [1;30m░[0;35m [0;1;35m [0;35m [0;37m [0;36m     [0m         [1;30m░[0;35m [0;1;35m [0;35m [0;37m [0;36m            [0;30m██[0;1;30m░[0;35m [0;1;35m  [0;35m [0;37m [0;36m         [0m       [1;30m░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 1972b034561cfb3ff58b4910b073fe457e0cdb504ea88bab7229ad7bebf106f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-LG13.ANS by The Knight (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ansi logos pack 13
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel Productions
@@ -33,7 +33,7 @@ Write-Host '
 ░                                                                              ░
 ▒   [1;30m([0m%[1;30m) [0;33mmy mom has a lesbian lover [0m····································· [1;30m([0m%[1;30m)   [0m▒
 ▒░  [1;30m [0m [1;30m  [0;35m                        [0m                                         [1;30m [0m [1;30m   [0m░▒
-▓▒  [1;30m([0m%[1;30m) [0;1;34msug min kuk snörvel, fikken poppen.... [0m························· [1;30m([0m%[1;30m)  [0m▒▓
+▓▒  [1;30m [0m [1;30m  [0;1;34m                                       [0m                          [1;30m [0m [1;30m   [0m▒▓
 [1;47m░[0m▓  [1;30m [0m [1;30m  [0;32m                                              [0m                   [1;30m [0m [1;30m   [0m▓[1;47m░[0m
 [1;47m▒[0m▌  [1;30m [0m [1;30m  [0m                                                                 [1;30m [0m [1;30m   [0m▐[1;47m▒[0m
 [1;47m▓[0;1;40m▄  [0;1;30;40m [0m [1;30m  [0;36m                                               [0m                  [1;30m [0m [1;30m   [0;1;37m▄[0;1;37;47m▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: ae94fd30d822ed61b064290baead75da10eed583bbf651de4bc3f13ce92415e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-TRI.ANS by The Night Angel (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Trilogy Menu
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -27,9 +27,9 @@ tna([1mawe[0m)          [1;34m░[0m                [34m▬[0m            
 ■ [34m▄[0;1;34;44m▬[0;34m▀ [0;37m▄[0;1;37;47m▄█▌[0m▌ [1;34m▀[0;34m▀[0;1;34m▀[0;1;34;44m▀[0;1;34;40m▓█ [0m▓[1m▒▓▓[0m█  [34m░░[0;30;44m▓[0;34;40m▒[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m█▀[0;1;34;44m▀[0m  [1;34mN  [0mnew files scan    [1;34mX  [0mxpert mode
  [34m█[0;1;34;44m▀[0;34m▀ [0;37m▄[0;1;37;47m██▓[0m█ [34m▌ [0;37m█▄▄[0;1;30m▄  [0;1;37;47m▐[0;1;37;40m▓[0;1;37;47m▓█[0m█ [34m░[0;1;34m░[0;34m▓[0;30;44m░[0;34;40m▀[0;1;34;44m▒░░[0;34m▄  [0;1;34m░ L  [0mlocate filename   [1;34mP  [0mpage length
 [1;34m▒[0;1;34;44m░[0;34m▀ [0;1;30m▄[0;1;37;47m█▓▓░[0m [34m▄▌[0;37m▐[0;1;37;47m░░ ▄▄▄████░[0m  [34m▓[0;1;34;44m░░[0m [1;34;44m░[0m     [34;47m▓[0;37;40m [0;1;34;40mZ  [0mzippy search      [1;34mB  [0mbulletins
-[1;34;44m▄▓[0m [1;30m▄[0;30;47m▓[0;1;37;40m▓[0;1;37;47m▒░[0;1;30;47m▄[0m [1;34;44m░[0m ▀▀▀[1;30;47m▄▄[0;1;37;47m▄███[0;1;33;40m█[0;1;37;47m█[0m█ [1;34m░[0;1;34;44m░▒▒[0m [34m▐▌   ▐▌ [0;1;34mT  [0mtest zip file     [1;34mJ  [0mjoin a conference
+[1;34;44m▄▓[0m [1;30m▄[0;30;47m▓[0;1;37;40m▓[0;1;37;47m▒░[0;1;30;47m▄[0m [1;34;44m░[0m ▀▀▀[1;30;47m▄▄[0;1;37;47m▄███[0;1;33;40m█[0;1;37;47m█[0m█ [1;34m░[0;1;34;44m░▒▒[0m [34m▐▌   ▐▌ [0;1;34m   [0m                  [1;34m   [0m                 
 [1;34;47m▓[0;34m▀ [0;30;47m▓[0;37;40m▒[0;1;37;40m▒[0;1;37;47m░[0m█▄ [1;34;44m▓▄▄[0;34m█▄▄▄▄ [0;37m▀[0;1;37;47m▀██▌[0m▌ [34m▐[0;1;34;44m░░[0;34m▌ ▀▄▄ ▀  [0;1;34mR  [0mread messages     [1;34mO  [0mpage sysop
-[1;34;44m█[0m  [30;47m▒░[0;1;37;40m░[0m▀▀█ [34m█[0;1;34;44m██[0;1;34;47m▓[0;1;34;44m▀▀[0;34m▀[0;1;34;44m▀[0;34m▌ [0;37m▐[0;1;37;47m▐█▀[0m▀ [34m▄█[0;1;34;44m░▀[0;34m▄[0m       [1;34mE  [0menter message     [1;34mC  [0mcomment to sysop
+[1;34;44m█[0m  [30;47m▒░[0;1;37;40m░[0m▀▀█ [34m█[0;1;34;44m██[0;1;34;47m▓[0;1;34;44m▀▀[0;34m▀[0;1;34;44m▀[0;34m▌ [0;37m▐[0;1;37;47m▐█▀[0m▀ [34m▄█[0;1;34;44m░▀[0;34m▄[0m       [1;34m   [0m                  [1;34m   [0m                
 [1;34;44m▓[0;34m░ [0;30;47m░[0;37;40m█▄░[0;1;30;40m▄[0m▄ [34m▄█[0;1;34;44m█▀[0;34m█▄   [0;37m▄[0;1;37;47m▬▀[0m▀ [34m▄█[0;1;34;44m▄▄▀[0;34m▄  [0;37m▄ [0;34m░[0;30;44m▓[0;37;40m  [0;1;34;40mV  [0mview info         [1;34mG  [0mget lost!   [34m▄ ▀▀▄[0m
 [1;34;44m░[0;34m▓ [0;37m▐[0;1;33;47m░[0m█▓[1;30;47m░░[0m▌[34m▐[0;34;47m▓[0;34;40m▀▀  [0;37;40m▄▄▀▀ [0;34;40m▄[0;1;34;40m▄[0;1;34;44m▄[0;1;34;47m▓[0;1;34;44m▀▀[0;34m▀▀ [0;37m░▄  [0;1;37m██  [0;1;34mW  [0mchange info                     [34m▐▌   ▐▌[0m
 [34m█[0;34;47m▓[0;34;40m░ [0;37;40m▀ ▀[0;1;30;47m▓▒░[0m▄ [1m░[0m▀▀ [34m▄▄▄█[0;1;34;44m▀▀[0;1;34;40m▀[0;34m▀▀  [0;37m▄▄[0;1;37m▒[0m▀ [34m▄[0;1;34;44m▀██[0m                             [34m░[0m       [34m█ [0;1;34m▄ [0;34m░ [0;34;44m [0m

@@ -5,17 +5,17 @@
 # Source SHA-256: 18f50aece338df28b480e1515b9c7025c6aae76e55f54e08e2a05a038d0b2461
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-INFD1.ANS by Frost Byte (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
   [34m▄▄█[0;1;36;44m▄▄▄[0;1;36;40m██▄▄    [0;31m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█    [0;1;36m▄▄█[0;1;36;44m█▄▄▄ [0;34m▄▄[0m
-[34m [0;34;44m [0;1;36;44m▄[0;1;36;40m▀██████▀██   [0;31m▓[0m          [1;37mT[0;1;35mh[0;35mi[0;1;30ms [0;1;37mA[0;1;35mN[0;35mS[0;1;30mi [0;1;37mC[0;1;35mo[0;35mmpliment[0;1;30ms [0;1;37mo[0;1;35mf[0;35m:[0m           [31m▓   [0;1;36m██▀██████▀[0;1;36;44m▄[0;34m█[0m
+[34m [0;34;44m [0;1;36;44m▄[0;1;36;40m▀██████▀██   [0;31m▓[0m          [1;37m [0;1;35m [0;35m [0;1;30m  [0;1;37m [0;1;35m [0;35m [0;1;30m  [0;1;37m [0;1;35m [0;35m        [0;1;30m  [0;1;37m [0;1;35m [0;35m [0m           [31m▓   [0;1;36m██▀██████▀[0;1;36;44m▄[0;34m█[0m
 [34m▐[0;1;36;44m▐[0;1;36;40m▄ [0;1;34;40m▄[0;1;36;40m▀██▀[0;1;34;40m▄ [0;1;36;40m▄█▌  [0;31m▓[0m                                              [31m▓  [0;1;36m▐█▄ [0;1;34m▄[0;1;36m▀██▀[0;1;34m▄ [0;1;36m▄[0;1;36;44m▌[0m
  [1;36;40m▀██▄█▀▀█▄██▀   [0;31m▒[0m            [1;34mF[0;1;36mr[0;1;37mo[0;1;36ms[0;1;34mt [0;1;36mB[0;1;37my[0;1;36mt[0;1;34me [0;1;37mand /[0;1;33m┤[0;1;31mT[0;31mOMi[0;1;30mC[0m            [31m▒   [0;1;36m▀██▄█▀▀█▄██▀[0m
 [1;36m  [0;1;30m▄ [0;1;36m▀    ▀ [0m▄    [31m▒[0m                                              [31m▒    [0;37m▄ [0;1;36m▀    ▀ [0;1;30m▄[0m
-[1;30m   ▀▄[0;1;36m███[0;1;36;47m▄[0m▄▀     [31m░   [0;1;37m"A combination bringing Nuclear Winter"    [0;31m░[0m     [37m▀▄[0;1;36;47m▄[0;1;36;40m███[0;1;30;40m▄▀[0m
+[1;30m   ▀▄[0;1;36m███[0;1;36;47m▄[0m▄▀     [31m░   [0;1;37m                                           [0;31m░[0m     [37m▀▄[0;1;36;47m▄[0;1;36;40m███[0;1;30;40m▄▀[0m
      [1;30;40m▀[0;1;36;40m▀[0;1;37;40m▀[0;1;36;40m▀[0m       [31m░[0m              [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m                [31m░[0m       [1;36m▀[0;1;37m▀[0;1;36m▀[0;1;30m▀[0m
        [1;30m░[0m       [1;30m▄█[0;1;30;44m▀▀▀[0;1;30;40m█▄   ▄▄█[0;1;30;44m▀▀▀▀[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;30;44m▀▀▀▀▀[0;1;30;40m█▄▄   ▄█[0;1;30;44m▀▀▀[0;1;30;40m█▄    ▒[0m     [1;30;40m░[0m
        [1;30;40m░    ▓ █[0;1;30;44m▀[0;34m█▀ ▀█[0;1;30;44m▀[0;1;30;40m██[0;1;30;44m▀▀[0;34m█▀▀ [0;37m▄▄▄▄██████████▄▄▄▄▄ [0;34m▀▀█[0;1;30;44m▀▀[0;1;30;40m██[0;1;30;44m▀[0;34m█▀ ▀█[0;1;30;44m▀█[0m [1;30;40m▓[0m      [1;30;40m░[0m

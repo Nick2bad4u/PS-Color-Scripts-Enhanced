@@ -5,7 +5,7 @@
 # Source SHA-256: dd639684017d8f8d9be4de576a3e72a6f42d4c815a08cb3cd9c32c932c4dcb3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PND-SCHW.ANS by pandur (black mama); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hier kommt die schwester
 # SAUCE Author: pandur
 # SAUCE Group: black mama
@@ -42,6 +42,6 @@ Write-Host '
                 [1;30m▒▒▒[0m
 [1;30m    [0m     [1;30m▄▄▄▄▄▄▄▓▓▓[0m                                   [1;30m      ███▄▄▄▄▄▄▄▄[0m [1;30m▒▒▒▒[0m
  [1;30m▄▄▄████████▀▀   [0m                                             [1;30m    ▀▀████▓▓▓▓▄▄▄[0m
-[1;30m████████[0;1;30;47m▓▓[0;1;30;40m█▌[0m     ''conference join'' for my board .... ([1mdrastic[0m)[1;30m     [0m [1;30m▐███████████[0m
+[1;30m████████[0;1;30;47m▓▓[0;1;30;40m█▌[0m                                          [1m       [0m [1;30m     [0m [1;30m▐███████████[0m
 [1;30m ▀▀▓▓▓██████▄▄[0m                                              [1;30m [0m     [1;30m▄▄[0;1;30;47m▓▓[0;1;30;40m██████▀▀▀[0m
 [1;30m [0m  [1;30m▒▒▒[0m   [1;30m▀▀▀▀▀▀▀▀███[0m                                       [1;30m [0m [1;30m▓▓▓▀▀▀▀▀▀▀[0m'

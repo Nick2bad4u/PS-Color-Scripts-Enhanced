@@ -5,13 +5,13 @@
 # Source SHA-256: 2c951adcbabdb2f35781ed56ac262c7a4b17f89a618b7332b8630e52032517a6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-DR.ANS by Precious Metal (riot-019); released in riot-019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
           [33m▄[0;1;31;43m▒[0;33m██[0;1;31;43m▄▄▄[0;1;31;40m▄▄▄▄▄▄▄▄▄▄▄▄[0m -pM
-         [1;31;43m░▒▓▒▓[0;1;31;40m████████████████▄▄[0m  [1mBad Boy''s Leisure [0;1;31mDoor[0m [1mMenu[0m
+         [1;31;43m░▒▓▒▓[0;1;31;40m████████████████▄▄[0m  [1m                  [0;1;31m    [0m [1m    [0m
        [33m▄[0;1;31;43m░▒▓▒[0;33m▀▀[0;1;31;43m▓[0;1;31;40m██████████[0;1;31;43m▒▒░░[0;33m▀▀[0;1;31m██▄[0m
       [1;31;43m░░▒▓▓▒[0;33m█░[0;1;31m [0;1;31;43m▓[0;1;31;40m███████[0;1;31;43m▀▒░░[0;33m░[0;1;31m▄▄████▌[0m
      [33m ▐[0;1;31;43m░▓[0;1;31;40m█[0;1;31;43m▓▒░[0;33m▀[0;1;31m  ▀[0;1;31;43m▀[0;1;31;40m██[0;1;31;43m▓▒░[0;33m▀[0;1;31m   ▀[0;1;31;43m▀▓▓[0;1;31;40m████[0m

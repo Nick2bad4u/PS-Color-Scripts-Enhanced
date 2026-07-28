@@ -5,7 +5,7 @@
 # Source SHA-256: 006685350509a79448a9ab76c3bd870e682ce04a79c32ae4f6c9623a2fc47f13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PD-US.ANS by Paradox (Maiten1); released in m1-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Unearthly Shadows
 # SAUCE Author: Paradox
 # SAUCE Group: Maiten1
@@ -18,7 +18,7 @@ Write-Host '
 
 [31m▄[0;37m  [0;31m▄[0;37m  [0;31m▄[0m          [31m [0m     [31m▄■[0m   [31m     [0;37m  [0;31m■▄[0;1;37m  [0m
 [31m▐▌[0;37m [0;31m▐▌[0;37m [0;31m▐▌[0m         [31m [0m    [31m▐▓▄[0;37m [0;31m [0;1;37m    [0;1;30m [0;31m   ▄█▌[0;1;37m [0;31m <- [0;1;37ms[0;1;33ma[0;1;31mt[0;31man, god of all damned,[0m
-[37m [0;31m▀▄▄▓▄▄▓[0m         [31m [0m     [31m▀▓▀[0;37m▄[0;1;37;47m▄▄▄[0;1;37;40m███▄[0;31m▀▓▀ [0;37m [0;31mand life of all tupperware part[0;1;31mi[0;1;33me[0;1;37ms[0;1;31m.[0;31m.[0m
+[37m [0;31m▀▄▄▓▄▄▓[0m         [31m [0m     [31m▀▓▀[0;37m▄[0;1;37;47m▄▄▄[0;1;37;40m███▄[0;31m▀▓▀ [0;37m [0;31m                               [0;1;31m [0;1;33m [0;1;37m [0;1;31m [0;31m [0m
     [31m▀[0m            [31m [0m       [37m▐[0;1;37;47m▐[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m▀█▀[0;1;37;47m█[0;1;37;40m█▌[0;31m   [0m                        [31m▄■[0m   [31m   [0;37m  [0;31m■▄[0m
     [1;30m▐▌[0m           [31m [0m       [31m▄▄▄ ▄▄[0;1;31m▄[0;31m ▄[0;1;31m▄[0m                 [31m■▄[0;37m  [0;31m▄[0m      [1;31;41m▄[0;31m█[0m   [31m▐[0;1;31;41m▄[0m   [31m▐▓[0m
      [1;30m█[0m           [31m [0m      [31m▐███▄▄▄▄▄[0;1;31;41m▐▓[0;1;31;40m▌[0m              [31m▄ ▐[0;1;31;41m▐[0;31m▌[0;37m [0;31m▄[0;1;31;41m▄[0m  [31m▄▄▓▓[0;1;31;41m■▄[0;31m█▄ ▓█[0m   [1;31;41m■▄[0;31m▄[0m

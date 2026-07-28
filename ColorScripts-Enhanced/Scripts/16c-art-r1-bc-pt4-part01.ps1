@@ -5,7 +5,7 @@
 # Source SHA-256: eb5f48d68fe8443ef06a3547367ad73b089cc4099361e83839dea2fe06af8daf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-PT4.ANS by BEYoND C00l (aRT); released in art-r1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: X-ViLLE PUB
 # SAUCE Author: BEYoND C00l
 # SAUCE Group: aRT
@@ -17,12 +17,12 @@
 Write-Host '
 [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [31m▓[0m                                 [31m▓[0m [31m▒[0m                                        [31m▓[0m
-[31m▒ █▀▀▀▀▀▀▀▀▀▀▀█▄[0m     [31m▄█▀▀▀▀▀▀▀▀▀█ ▒[0m [31m▓[0m [1;30mBEYoND C00l presents yet another way 2 [0;31m▒[0m
+[31m▒ █▀▀▀▀▀▀▀▀▀▀▀█▄[0m     [31m▄█▀▀▀▀▀▀▀▀▀█ ▒[0m [31m▓[0m [1;30m                                       [0;31m▒[0m
 [31m░ █ [0;1;30m▀████▀███▄ [0;31m▀█▄▄▄█▀ [0;1;30m▄▄██▀▄▄█ [0;1;30;41m░[0m [31m░[0m [31m█[0m [1;30mB-KEWl ANSi ... Find me at ZoNE-X or   [0;31m░[0m
  [31m ▀[0;1;30;41m░[0m [1;30;41m▓[0;1;30;40m█[0;1;30;41m▓[0;1;30;40m█[0;30m█[0;1;30m▄█[0;1;30;41m▓[0;1;30;40m█▀[0;30m██[0;1;30m▄▄[0;30m██[0;1;30m▄[0;1;30;41m▓▓[0;1;30;40m█▀[0;30m█ █[0;1;30m▀█[0;30m█[0;1;30;41m░[0m [31m [0m [31m▓[0m [1;30mfind dah aRT requestor ...          [0m
  [1;30m  [0;1;30;41m▒[0m [1;30;41m▒▓▒▓[0;1;30;40m▀[0;1;30;47m█[0;1;30;41m▓▒[0;31m▄[0;30m██[0;1;30;41m░▒▒░[0;30m█[0;1;30;41m▒▒▒▓[0;30m█   █[0;1;30m▀[0;30m█[0;1;30;41m▒[0m [1;30;40m [0m [31m▒[0m
-[1;30m░[0;31m  [0;1;30;41m▓[0m [1;30;41m░▒░▒[0;30m██[0;1;30;41m▒░▒░[0;30m██[0;31m▀▀[0;30m██[0;1;30;41m░[0;31m█[0;1;30;41m░▒[0;30m██[0m     [1;30;41m▓[0m [1;30;40m░[0m [31m░[0m [1;30mANSi is 10 USD / 35 lines, rounded up. ░[0m
-[1;30m▒ █▀ [0;31m█[0;1;30;41m░[0;31m█[0;1;30;41m░[0;30m█[0;31m▄[0;1;30;41m░[0;31m█[0;1;30;41m░[0;31m▀[0;30m█[0;1;30m█▀▀█▄[0;30m█[0;31m▀█[0;1;30;41m░[0;31m█▄[0;30m██[0;31m▄▀[0;30m█[0;1;30;41m▓[0m [1;30;40m▒[0m [1;30;40m [0m [1;30;40mHot datez with girls will be axepted.  ▒[0m
+[1;30m░[0;31m  [0;1;30;41m▓[0m [1;30;41m░▒░▒[0;30m██[0;1;30;41m▒░▒░[0;30m██[0;31m▀▀[0;30m██[0;1;30;41m░[0;31m█[0;1;30;41m░▒[0;30m██[0m     [1;30;41m▓[0m [1;30;40m░[0m [31m░[0m [1;30m                                       ░[0m
+[1;30m▒ █▀ [0;31m█[0;1;30;41m░[0;31m█[0;1;30;41m░[0;30m█[0;31m▄[0;1;30;41m░[0;31m█[0;1;30;41m░[0;31m▀[0;30m█[0;1;30m█▀▀█▄[0;30m█[0;31m▀█[0;1;30;41m░[0;31m█▄[0;30m██[0;31m▄▀[0;30m█[0;1;30;41m▓[0m [1;30;40m▒[0m [1;30;40m [0m [1;30;40m                                       ▒[0m
 [1;30;40m▒ █ [0;31m▀▀▀▀▀▀▀▀▀ [0;1;30m▄█▀   ▀█▄▄ [0;31m▀▀▀▀[0;1;33m [0;1;30m▄█▀ ▓[0m [1;30m░[0m [1;30mNever attend school at HAM, Mechelen,  ▓[0m
 [1;30m▓ ▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [1;30m  [0;1;33m [0;1;30m▀▀▀▀▀▀▀▀[0;1;33m   [0;1;30m▒[0m [1;30m▒[0m [1;30mit sucks way toooo much ! I warned ya![0m [1;30m█[0m
 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m [1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m

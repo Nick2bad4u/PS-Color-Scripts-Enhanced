@@ -5,7 +5,7 @@
 # Source SHA-256: f51825f3c13c8ea41b27ffe08898bf9e14c29dc65a00ed4eff3c3f8a4ad971c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS--MOI.ANS by blind sniper (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: elite special force,
 # SAUCE Author: blind sniper
 # SAUCE Group: Department 38
@@ -30,7 +30,7 @@ Write-Host '
 [31m▌▄ [0m                 [31m▐█[0;1;31;41m███[0;31m█▌▄▄▄▄▄██[0;1;31;41m░█▀[0;31m█ [0;37m  [0;31m░█▌[0;37m ▐██  ░▀▀▀▀▀▄████████▄  ▐█[0;1;30m▀▀[0m  [1;31;41m ░▄[0;31m█▄[0m
 [31m███████████████████▄█[0;1;31;41m░▀▀ [0;31m████████[0;30;41m░[0;31;40m▀▀▀  [0;37;40m  [0;31;40m░██[0;37;40m  ██[0;1;30;47m [0m▄[1;30m▄▄▄[0;1;30;47m   [0m████▀███████[1;30;47m  ▓[0m  [31m█[0;1;31;41m ███[0;31m█▌[0m
                                          [31m░██▄[0;37m  ▀▀[0;1;30;47m░[0m▀▀▀▀▀▀ [1m▄▄▄[0m ▐██████▄  [31m ▄█[0;1;31;41m ▌▀ [0;31m▀[0m
-[37m  [0;1;30mBrief nfo on what the lightbar''s over[0m  [31m░█[0;1;31;41m▓▄▄[0;31m█▄[0;37m  [0;1;37m▄████[0;1;33m███[0;1;37m██▌[0m▐██████▌ [31m█▀▀█[0;1;31;41m ▀[0;31m█[0m
+[37m  [0;1;30m                                     [0m  [31m░█[0;1;31;41m▓▄▄[0;31m█▄[0;37m  [0;1;37m▄████[0;1;33m███[0;1;37m██▌[0m▐██████▌ [31m█▀▀█[0;1;31;41m ▀[0;31m█[0m
 [37m  [0;1;30m                              [0m   [31m  [0m    [31m░█[0;1;31;41m█▌ [0;31m▀▌[0;37m  [0;1;37m▀▀▀▀[0;1;33m▀▀▀[0m     ██████ [31m▐██[0m
 [31m ▀ [0;37m [0;31m▐▀[0m     [31m▐▀[0m     [31m█[0m    [31m█[0;37m  [0;31m▄▀▀▀▌[0m   [31m▐█▌[0m    [31m░█[0;1;31;41m▀ [0;31m▌[0;37m ▄▄▄▄▄▄▄[0;30;47m▓[0;37;40m░░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m  ██████[0m
 [37;40m [0;31;40m▓[0;37;40m  [0;31;40m▀▀▀▀▀█[0;37;40m [0;31;40m▀▀▀▀▀█[0;37;40m [0;31;40m█[0m    [31;40m█[0;37;40m  [0;31;40m█   █[0m   [31;40m▀▐▌[0m      [31;40m▌█[0;37;40m  ▀▀▀▀▀▀████████▌█████▌ bs![0m

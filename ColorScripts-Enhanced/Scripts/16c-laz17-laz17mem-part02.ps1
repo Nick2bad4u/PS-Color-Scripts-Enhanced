@@ -5,7 +5,7 @@
 # Source SHA-256: 32bf0f1b4537bd72c62772c6dd78c0716c91e6e952289fa3464a1b8fec410373
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAZ17MEM.ans by warpus (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: LAZARUS 17 MEMBERLIST
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -63,4 +63,4 @@ Write-Host '
 [1;30m▓█████[0;30m                     [0;1;32m ▒▒[0;1;30;102m╬[0;1;30m▌[0m                                              [1;30m▓▓[0m
 [1;30m▓█████[0;30m                      [0;1;32m╙╬[0;1;30;102m╬[0;1;30m▌[0m                                              [1;30m▒▓[0m
 [1;30m▓[0m [30m                           [0;1;30m                                                 ▒▒[0m
-[1;30m╙╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜[0;30m█[0;1;30mwith a 15 min break[0m  [1;30m↨[0m  [1;30msome rights reserved[0m  [1;30m╜╜[0m'
+[1;30m╙╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜[0;30m█[0;1;30m                   [0m  [1;30m↨[0m  [1;30m                    [0m  [1;30m╜╜[0m'

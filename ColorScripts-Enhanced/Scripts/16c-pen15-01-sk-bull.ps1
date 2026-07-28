@@ -5,7 +5,7 @@
 # Source SHA-256: cfaf690943ac359c1a9c2539e0965d17c953c9ab1e1649fa2efd0c5ae11d265a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!-BULL.ANS by sIMON kING (pROCREATION); released in pen15-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bULL
 # SAUCE Author: sIMON kING
 # SAUCE Group: pROCREATION
@@ -17,7 +17,7 @@
 Write-Host '
                [31m▄▄▄▄▄[0;1;31;41m░[0;31m▄[0m
          [31m▄▄▄[0;1;31;41m░[0;31m█[0;1;31;41m░░[0;31m███[0;1;31;41m░[0;31m▀[0;1;31;41m ░▓[0;31m▄▄[0m
-      [31m▄███[0;1;31;41m░░[0;31m██[0;1;31;41m░[0;31m▀▀▀[0;1;37m▄▄[0;1;37;47m▓[0m▄[31m▀▀▀▀[0;1;31;41m░[0m            [31mhuhu h[0;1;33;41mA[0;31m, nasza z[0;1;33;41mi[0;31mma zla, a m[0;1;33;41my[0;31m jej sie[0m
+      [31m▄███[0;1;31;41m░░[0;31m██[0;1;31;41m░[0;31m▀▀▀[0;1;37m▄▄[0;1;37;47m▓[0m▄[31m▀▀▀▀[0;1;31;41m░[0m            [31m      [0;1;33;41m [0;31m         [0;1;33;41m [0;31m           [0;1;33;41m [0;31m        [0m
      [31m▐▌▐█[0;1;31;41m░░[0;31m▀[0;1;37m▄▄██████████[0;1;37;47m▓▒[0m▄▄           [31mnie boimy b[0;1;33;41m0[0;31m wraz z bul[0;1;33;41ml[0;31m''em stuffik[0m
       [31m▀▀[0;1;31;41m░[0;31m▀[0;1;37m████████▀██▀█[0;1;37;47m▓█[0;1;37;40m███[0;1;37;47m▓▒[0m         [31mi[0;1;33;41md[0;31mzie :)[0;37m [0;1;37m         [0m
          [1m██████████[0;1;41m▀██[0;1;40m█[0;1;47m█[0;1;40m█████[0;1;47m▓▒[0m        [33m▄[0m

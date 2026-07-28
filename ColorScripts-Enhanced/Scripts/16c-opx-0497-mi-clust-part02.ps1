@@ -5,7 +5,7 @@
 # Source SHA-256: 98b7ba92780843fb41c4fd5841a98b2fae08092d755224aeda10158f8dff8168
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MI-CLUST.ANS by mongi (Opium Graphix); released in opx-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Prodigium stuff-cluster
 # SAUCE Author: mongi
 # SAUCE Group: Opium Graphix
@@ -39,7 +39,7 @@ Write-Host '
 [1;35;45m▒[0;1;35;40m██▀▀▀▀▀[0;35m▀[0m                                         [35m     [0m          [35m▀█[0;1;35m███[0;1;35;45m▒[0;1;35;40m████████[0m
 [1;35m█▀[0m [32m▄[0;1;32;42m▄   [0;1;32;40m▄[0;32m▄[0m     [30;42mf[0;32;40mile[0;30;42ms[0m           [30;45ms[0;35;40metu[0;30;45mp[0m           [30;42mm[0;32;40message[0;30;42ms[0m            [35;40m█[0;1;35;40m█▀▀▀▀▀▀████[0m
 [1;35m▀[0m [1;32;42m ▓ [0;32m▄[0;1;32m [0;1;35m▄[0;1;32m [0;32m▀[0;1;32;42m [0;32m▄[0;1;32m  [0m                                                      [32m▄▄[0;1;32;42m ▒▓ [0;32m▄[0;37m [0;1;35m▀██[0m
- [32m█[0;1;32m█[0;1;32;42m▄[0;32m▄[0m   [32m▄▄[0;1;32;42m░█[0;32m█[0;37m  [0;1;32m([0;32md[0;1;32m)[0;35mownload[0m      [1;32m([0;32mx[0;1;32m)[0;1;35mp[0;35me[0;1;35mr[0;35mt[0m         [1;32m([0;32mc[0;1;32m)[0;1;35momm[0;35ment.2.sys[0;1;35mop[0m   [32m█[0;1;32;42m░[0;32m▀[0;1;32m [0;1;35m▄[0m [32m▀▀[0;1;32;42m░[0;32m▄[0;37m [0;1;35m▀[0m
+ [32m█[0;1;32m█[0;1;32;42m▄[0;32m▄[0m   [32m▄▄[0;1;32;42m░█[0;32m█[0;37m  [0;1;32m [0;32m [0;1;32m [0;35m       [0m      [1;32m [0;32m [0;1;32m [0;1;35m [0;35m [0;1;35m [0;35m [0m         [1;32m [0;32m [0;1;32m [0;1;35m   [0;35m         [0;1;35m  [0m   [32m█[0;1;32;42m░[0;32m▀[0;1;32m [0;1;35m▄[0m [32m▀▀[0;1;32;42m░[0;32m▄[0;37m [0;1;35m▀[0m
 [32m▄█[0;1;32;42m▓[0;1;32;40m██[0;1;32;42m▄░▒▀▀[0;32m▀▀[0;1;32m [0m  [1;32m([0;32mu[0;1;32m)[0;1;35mp[0;35mload   [0m     [1;32m([0;32mp[0;1;32m)[0;35mage.len[0;1;35mg[0;35mth[0m   [1;32m([0;32me[0;1;32m)[0;35mnte[0;1;35mr[0m [30m       [0m    [32m█[0;1;32m█[0;1;32;42m▒ [0m [1;35m███[0m [32m▄[0;1;32;42m▓[0;32m█[0;37m [0m
 [1;35m▄[0m [32m█[0;1;32;42m▒[0;1;32;40m█[0;32m█[0;37m  [0;35m▄[0m      [1;32m([0;32ml[0;1;32m)[0;35mocate     [0m   [1;32m([0;32mv[0;1;32m)[0;1;35mi[0;35mew.nf[0;1;35mo[0m      [1;32m([0;32mq[0;1;32m)[0;1;35mui[0;35mck scan[0m        [32m█[0;1;32;42m░[0;32m▄[0;37m [0;1;35m▀▀[0m [32m▄[0;1;32;42m▒[0;32m█[0;37m [0;1;35m▄[0m
 [1;35m█▄[0m [32m█[0;1;32;42m░[0;1;32;40m█[0;32m█[0m        [1;32m([0;32mz[0;1;32m)[0;1;35mi[0;35mppy.sea[0;1;35mr[0;35mch[0;37m  [0;1;32m([0;32mw[0;1;32m)[0;1;35mri[0;35mte.nf[0;1;35mo[0m     [1;32m([0;32mr[0;1;32m)[0;35mea[0;1;35md[0m               [32m▀▀[0;1;32;42m ░▒▓ [0;32m▀[0;37m [0;1;35m▄█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: c5b8a3c3354466752d2b4db758fa3f726446a004804f6bcc8f89aa8f13addf0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-TGF.ANS by Unknown Comic (blnt0994); released in blnt0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ Write-Host '
 [30;47m░          [0;37;40m█████▄▄[0;1;37;40m▀[0;1;37;47m▓[0;1;37;40m▄  ▀▀▀▀▀ ▄[0m▀████[47m                                           [0;30;47m░[0m
 [30;47m▒░        [0;37;40m█████████▄[0;1;37;40m▀[0;1;37;47m▓▓[0;1;37;40m▀▀▀▀[0;1;37;47m▓▓[0m ▀███[47m                                           [0;30;47m░▒[0m
 [30;47m▓▒░       [0;37;40m███████████▄▄██ [0;33;40m▓▄   [0;37;40m██[0;37;47m                                           [0;30;47m░▒▓[0m
-[30;47m█▓▒░░     [0;37;40m███████████████▌[0;33;40m▐▓▒░ [0;37;40m▐[0;37;47m           [0;30;47mansi by Unknown Comic of BLuNT ░░▒▓█[0m'
+[30;47m█▓▒░░     [0;37;40m███████████████▌[0;33;40m▐▓▒░ [0;37;40m▐[0;37;47m           [0;30;47m                               ░░▒▓█[0m'

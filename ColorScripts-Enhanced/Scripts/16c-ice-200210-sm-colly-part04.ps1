@@ -5,7 +5,7 @@
 # Source SHA-256: efd7acbaf94cf4a69c4d4233cc48479e2a45b305baa2ddaac2e10666cf5649ee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sm-colly.ans by Smooth (iCE Advertisements); released in ice-200210 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hallowed Colly
 # SAUCE Author: Smooth
 # SAUCE Group: iCE Advertisements
@@ -27,7 +27,7 @@ Write-Host '
 [1;30m▌[0;1;37mMPS[0m.by.dreamMASTER (c)2002[1;30m▐[0m [1;30m██▓▒░[0m [1;30m░[0m   [1;30msM.ICE[0m  [1;30m ▀▀▀▀▀██[0m     [1;30m█▀[0m  [1;30m▀▀[0m  [1;30m▀▀▀▀▀▀▀▀▀▀█[0m
 [1;30m█▄▄▄▄▄▄[0m  [1;30m▄▄▄[0m [1;30m▄[0m    [1;30m ▄ ▄▄[0m  [1;30m▄▄▄█▀           [0m     [1;30m▀[0m  [1;30m██[0m  [1;30m▀▀▀▀▀▀▀▀[0;1;32m  [0m [32m <[0;1;32mDOREWARE[0;32m>[0m   [1;30m│[0m
 [1;30m│ [0m                                                                            [1;30m:[0m
-[1;30m:[0m [1;30m{[0;1;37mP[0;1;30m}[0mlay.Game[36m.[0;32m.[0;1;32m+[0;32m.[0;36m.[0;1;30m{[0;1;37m?[0;1;30m}[0mHelp[36m.[0;32m.[0;1;32m+[0;32m.[0;36m.[0;1;30m{[0;1;37mA[0;1;30m}[0mbout[36m.[0;32m.[0;1;32m+[0;32m.[0;36m..[0;1;30m{[0;1;37mS[0;1;30m}[0mcores[36m.[0;32m.[0;1;32m+[0;32m.[0;36m..[0;1;30m{[0;1;37mI[0;1;30m}[0mStats[36m.[0;32m.[0;1;32m+[0;32m.[0;36m.[0;1;30m{[0;1;37mQ[0;1;30m}[0muit[1;30m [0;36m [0;1;30m:[0m
+[1;30m [0m [1;30m [0;1;37m [0;1;30m [0m        [36m [0;32m [0;1;32m [0;32m [0;36m [0;1;30m [0;1;37m [0;1;30m [0m    [36m [0;32m [0;1;32m [0;32m [0;36m [0;1;30m [0;1;37m [0;1;30m [0m    [36m [0;32m [0;1;32m [0;32m [0;36m  [0;1;30m [0;1;37m [0;1;30m [0m     [36m [0;32m [0;1;32m [0;32m [0;36m  [0;1;30m [0;1;37m [0;1;30m [0m     [36m [0;32m [0;1;32m [0;32m [0;36m [0;1;30m [0;1;37m [0;1;30m [0m   [1;30m [0;36m [0;1;30m [0m
 [1;30m└──--+··[0m  [1;30m·[0m          [1;30m·[0m [1;30m·-+@+-[0;36m [0;1;37mc[0mmd[35m{[0;1;35mP?ASIQ[0;35m}[0;1;37m:» [0;1;30m< > -+@+-· ·[0m                 [1;30m··+--┘[0m
 [1;30m░[0m                                                                             [1;30m░[0m
 [1;30m▓[0m [1;30m▄[0m  [1;30m░[0m   [1;30m░[0m                       [35m  [0;1;30m▀[0;35m [0;1;30m▀▀[0m [1;30m▀███▄▄▄[0m [35m [0;1;30m░[0m    [35m█▀▀▀[0;37m [0;35m░[0m         [1;30m░[0m   [1;30m░[0m  [1;30m▄[0m [1;30m▒[0m

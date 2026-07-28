@@ -5,7 +5,7 @@
 # Source SHA-256: dec3d080a384a49c83e04276602c5de5bd0f87ac7c28939292b4da996f30cb23
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MO-HAZE1.ANS by monarch (haze); released in haze_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: haze promo
 # SAUCE Author: monarch
 # SAUCE Group: haze
@@ -55,4 +55,4 @@ Write-Host '
                 [1;32;46m▒░[0;36m█▀    [0;1;32;46m▒░[0;36m█▀  [0;1;32m▀████[0;1;32;46m▓▒░[0;36m█▀  [0;1;32m▀█[0;1;32;46m▓▒░░░░[0;36m█▀   [0;1;32m▀[0;1;32;46m▓[0;1;32;40m███[0;1;32;46m▓▒░[0;36m█▀[0m
                 [36m▄▀[0m      [36m▄▀[0m          [36m▄▀[0m          [36m▄▀[0m           [36m▄▀[0m
 
-              [1;30m·───[0m───[1m──[0;32m── [0;1;32mANS[0;36mI [0;1;32mb[0;36my[0;1;32m:  Monarc[0;36mh [0;1;32m[naft[0;36ma[0;1;32m/haz[0;36me[0;1;32m] [0;32m──[0;1;37m──[0m───[1;30m────·[0m'
+              [1;30m ───[0m───[1m──[0;32m── [0;1;32m   [0;36m  [0;1;32m [0;36m [0;1;32m         [0;36m  [0;1;32m     [0;36m [0;1;32m    [0;36m [0;1;32m  [0;32m──[0;1;37m──[0m───[1;30m──── [0m'

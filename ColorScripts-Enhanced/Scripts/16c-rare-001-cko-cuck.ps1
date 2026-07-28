@@ -5,7 +5,7 @@
 # Source SHA-256: 2772bb2642e08a7649d7f53c8f875b91ada9a35b208c0129679c393d16a06ae8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CKO-CUCK.ANS by cuckoo (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Not Available Screen
 # SAUCE Author: cuckoo
 # SAUCE Group: rARE!ASCii
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m]---------------[ [0mcuckoo logo [1;30m]-[ [0mrequested by : nobody![1;30m ]--------------------[[0m
+[1;30m                  [0m            [1;30m    [0m                      [1;30m                       [0m
 
 
     [1;30m:[0m   [1;30m          ,┌[0;33m┌▬,[0;1;30m  ┌[0;33m,[0;1;30m      [0;33m,[0;1;30m  [0;33m,▬┐┐[0;1;30m,_             :  [0m

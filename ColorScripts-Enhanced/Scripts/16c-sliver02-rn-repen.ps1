@@ -5,7 +5,7 @@
 # Source SHA-256: f115d79edd55b5a638e66dbebd3a20b792feba03502bfbf85a93e7fb1622529e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RN-REPEN.ANS by ruiner (sliver); released in sliver02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: reppen
 # SAUCE Author: ruiner
 # SAUCE Group: sliver
@@ -33,7 +33,7 @@ Write-Host '
 [37m  [0;31m▐[0;1;30m░[0m▌[31m▐[0m       [31m██[0m   [31m [0;1;31m [0m  [31m  [0;1;31m  [0m  [31m  [0;1;31m [0m  [31m  [0;1;31m  [0m  [31m [0;37m  [0;31m [0;1;31m [0m  [31m   [0;1;31m  [0m   [31m  [0;1;31m [0m          [31m▐▀[0m
 [37m  [0;31m▐[0;1;30m░[0;31m██[0;37m [0;33m█▓[0m     [31m▐[0m            [31mY[0;1;31mo[0mu [31md[0;37mo [0;31mju[0;1;31ms[0mt [31mwh[0;1;31ma[0mt [31mth[0;1;31me[0my [31mte[0;1;31ml[0ml [31my[0;1;31mo[0mu          [33m█▓[0m
 [37m [0;31m██[0;37m▌[0;31m▐[0;37m [0;31m▄░▒▄[0m           [31mREP[0;1;31mEN[0mT[31m,[0;37m [0;31mtha[0;1;31mt[0ms [31mwh[0;1;31ma[0mt [31mi[0;1;31m''[0mm [31mtal[0;1;31mki[0mn'' [31mabo[0;1;31mu[0mt         [31m▄░▒▄[0m
-[37m [0;31m▐[0;33m▄▄▄█[0;31m██░▓[0;33m█▄▄▄[0m          [31mi sh[0;1;31mRe[0md [31mth[0;37me [0;31msk[0;1;31mi[0mn [31mt[0;37mo [0;31mfe[0;1;31me[0md [31mth[0;37me [0;31mfa[0;1;31mk[0me     [33m▄▄▄█[0;31m██░▓[0;33m█▄▄▄[0m
+[37m [0;31m▐[0;33m▄▄▄█[0;31m██░▓[0;33m█▄▄▄[0m          [31m    [0;1;31m  [0m  [31m  [0;37m  [0;31m  [0;1;31m [0m  [31m [0;37m  [0;31m  [0;1;31m [0m  [31m  [0;37m  [0;31m  [0;1;31m [0m      [33m▄▄▄█[0;31m██░▓[0;33m█▄▄▄[0m
 [37m [0;31m▐[0m    [31m▀██▀[0m           [31m   [0;1;31m  [0m [31m [0;37m [0;31m  [0;1;31m  [0m  [31m  [0;1;31m [0m  [31m [0;1;31m [0m  [31m   [0;1;31m  [0m   [31m   [0;1;31m [0m          [31m▀██▀[0m
 [37m [0;31m▐█[0m    [33m▒█[0m                [37m [0m    [37m [0;31m [0;37m  [0;31m [0;37m  [0;31m   [0;1;31m  [0m  [31m   [0;1;31m   [0m                 [33m▒█[0m
 [37m  [0;31m▐[0m    [33m▓░[0m                            [31m [0;1;31m [0m  [31m   [0;1;31m  [0m  [31m   [0;1;31m   [0m             [33m▓░[0m

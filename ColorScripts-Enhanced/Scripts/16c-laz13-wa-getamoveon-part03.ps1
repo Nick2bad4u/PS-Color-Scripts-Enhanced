@@ -5,7 +5,7 @@
 # Source SHA-256: f2159432a7613de860a14cd3f7c2e007f99997cb2e10da929004c2dd67729a7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-getamoveon.ans by warpus (LAZARUS); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: RAZARO NO KUTSU
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -46,7 +46,7 @@ Write-Host '
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m
-[1;30m███████████[0;1;31m [0;1;30m█[0;1;31mRazaro no kutsu. [0;1;30m█[0;30mTsuneni shinsende, tsuneni subarash.[0;1;30m█████████████[0m
+[1;30m███████████[0;1;31m [0;1;30m█[0;1;31m                 [0;1;30m█[0;30m                                    [0;1;30m█████████████[0m
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m
 [1;30m███████[0;1;31m    [0;1;30m█████████████████████████████████████████████████████████████████████[0m
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m

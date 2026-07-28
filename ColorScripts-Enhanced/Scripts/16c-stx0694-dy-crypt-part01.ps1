@@ -5,7 +5,7 @@
 # Source SHA-256: b6c4e2bac614b2a94979458997efea8eaef8fbf631e02b9310c18faf9b600ee5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DY-CRYPT.ANS by Dynosaw (STX Production); released in stx0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ANSi For The Crypt
 # SAUCE Author: Dynosaw
 # SAUCE Group: STX Production
@@ -17,7 +17,7 @@
 Write-Host '
                                           [1;30m╓───────────────────────────────────[0;36m─[0;1;30m╖[0m
                                           [1;30m║ [0;1;36m▄   [0;36m▄▄  ▄[0;1;36m▄[0;1;30m│PiC: DYNOSAW of STX ''94 ║[0m
-                                          [1;30m║ [0;36m▀█[0;1;36m▄ [0;36m▀[0;1;30m█[0;36m▄[0;1;36;46m▄▀[0;36m▀[0;1;30m│starting to call all ya ║[0m
+                                          [1;30m║ [0;36m▀█[0;1;36m▄ [0;36m▀[0;1;30m█[0;36m▄[0;1;36;46m▄▀[0;36m▀[0;1;30m│                        ║[0m
                                           [1;30m║ █ [0;36m▀█[0;1;36m▄ [0;36m▀█  [0;1;30m│again :) needs requests [0;36m║[0m
                                           [1;30m║ [0;36m█▄[0;1;30m▄▄[0;36m▀█ [0;1;30m█  │cuz i''m bored !!!!!!!!! [0;1;36m║[0m
                                           [1;30m╙──────────────────────[0;36m─[0;1;30m───[0;36m─[0;1;30m──[0;36m────[0;1;36m───╜[0m

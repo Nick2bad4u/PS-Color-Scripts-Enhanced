@@ -5,7 +5,7 @@
 # Source SHA-256: cf849d78c9627e8d91b207cfaa19267eec8a2eb3411f8cc46279d6b03cda564c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: onestop3.ans by Shadow Demon (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ Write-Host '
          [31m██████[0;1;37m██▀ [0;34m█████▄  ▄████▀[0m       [34m(([0;1;34m( [0;1;37m5 1 6 [0;1;34m- [0;1;37mP R I [0;1;34m- [0;1;37mV A T E [0;1;34m)[0;34m))[0m
         [31m██[0;1;37;41m▄[0;1;37;40m█████▀   [0;34m▀█████▄███▀[0m                  [34mSysOp: [0;1;37mB[0;1;34mi[0;34mG [0;1;34mZ[0m
 [1;34m    [0;31m▄▄███[0;1;37m██[0;34m▐████ ▄▄▄▄▄ ▀████▀[0m              [34mRemote SysOp: [0;1;37mSh[0;1;34mad[0;34mow [0;1;37mDe[0;1;34mmo[0;34mn[0m
-[31m▄█████[0;1;37;41m▄[0;1;37;44m█[0;1;37;40m▀▀  [0;34m███████████ ▀█▀[0m              [34mFile SysOp: [0;1;37mT[0;1;34mh[0;34me [0;1;37mGr[0;1;34mea[0;34mt [0;1;37mWa[0;1;34mrri[0;34mor[0m'
+[31m▄█████[0;1;37;41m▄[0;1;37;44m█[0;1;37;40m▀▀  [0;34m███████████ ▀█▀[0m              [34m            [0;1;37m [0;1;34m [0;34m  [0;1;37m  [0;1;34m  [0;34m  [0;1;37m  [0;1;34m   [0;34m  [0m'

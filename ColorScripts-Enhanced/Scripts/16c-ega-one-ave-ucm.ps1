@@ -5,7 +5,7 @@
 # Source SHA-256: 78e6363779eb78bfb9e1f1c9d366a0985d8b594b69cca291a2b144b25b812782
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-UCM.ANS by avenger (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: undercover menu
 # SAUCE Author: avenger
 # SAUCE Group: ega
@@ -22,7 +22,7 @@ Write-Host '
     [30;43m▓▓░[0;1;33;40m██[0;1;37;42m██[0;1;33;40m▀[0;1;37;40m▀[0;1;33;40m▀[0m  [33m▄[0;1;33;43m▄[0;1;33;40m█[0;1;33;46m▓[0;1;33;41m▓[0;1;33;40m▀[0m                     dear cosmic, i''m a little lamer
      [30;43m░[0;1;33;43m█[0;1;33;42m▓▓[0;1;33;40m█▌[0m     [33m▐[0;1;33;43m▐[0;1;33;40m██[0;1;33;41m█[0;1;33;40m█▄▄[0m                   because i don''t know the whole
 [31m██[0;37m  [0;30;43m▓▓[0;1;33;43m░█[0;1;33;40m███▄[0m     [33m█[0;1;37m██[0;1;33m█[0;1;33;42m█[0;1;33;40m▌░░░[0m                 pcb keyset. sorry.
-    [31m▄[0;37m  [0;33m▀[0;1;33m▀▀[0;1;33;43m▀[0;1;33;45m▓[0;1;33;47m▓[0;1;33;40m█▄[0;30;43m▓░[0;1;33;43m▓[0;1;33;40m█[0;1;33;46m▓[0;1;33;40m▀▀[0;1;30;40mave[0m       [32m▐[0;1;32;42m▐[0;1;32;44m▓▓[0;1;32;40m▄▄▄[0m    btw: you needn''t use this as main.
+    [31m▄[0;37m  [0;33m▀[0;1;33m▀▀[0;1;33;43m▀[0;1;33;45m▓[0;1;33;47m▓[0;1;33;40m█▄[0;30;43m▓░[0;1;33;43m▓[0;1;33;40m█[0;1;33;46m▓[0;1;33;40m▀▀[0;1;30;40m   [0m       [32m▐[0;1;32;42m▐[0;1;32;44m▓▓[0;1;32;40m▄▄▄[0m                                      
   [31m▌[0;1;31;41m▄▓░[0;31m▄[0;37m  [0;30;43m▓▓[0;33;40m▀[0;1;33;40m▀[0;1;33;43m▀[0;1;33;40m▌[0;32m▄[0;1;32m▄▄▄▄▄▌[0m    [32m▄[0;1;32m▄▄▄[0m [32m▀[0;1;32m▀[0;1;32;44m▓▒▒▓▓▒[0;30;44m▒▓▓[0m
 [1;37;40m▄▄▄[0m [1;31m▀[0;31m▀▌ ░[0m      [32m▀[0;1;32;42m▀[0;1;32;46m▓[0;1;32;43m▓[0;1;32;42m▀[0;1;32;40m█[0;1;32;46m▓▓[0;1;32;40m▀▀[0m        [32m█[0;1;32m█▀▀▀[0m
 [1;47m▓▓[0;1;40m██[0;1;47m▓[0;1;40m▄▄[0m  [1;31;41m▀░[0;31m▄[0m   [32m▄▄[0;1;32m▄▄[0;1;32;42m▄[0;1;32;40m█▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: f94d51f0b7f4b3e2427ad7d4bfdec20207292d1103b7a767848586d0990c4c0d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-lost.ans by Shine + Kyp + Prosthesis (black maiden.glue); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lost paradize
 # SAUCE Author: shine.kyp.prst
 # SAUCE Group: black maiden.glue
@@ -17,7 +17,7 @@
 Write-Host '
 [1;36m▄[0;1;33m▄██[0;1;34m▀[0;1;36m ■ ▀█[0;1;34m [0;30;42m▒▒[0m   [1;36;40m█[0;1;32;40m█▌[0;1;34;40m▀[0m  [1;32m▄[0;1;36m█[0;1;36;46m▀[0;1;34;40m▀[0m [1;35m▀[0m     [36m▐[0;1;36;46m▐█▌[0;36m▄[0;1;31;41m▒░  [0m                 [1;31m▀[0;31m▀[0m   [35m▀[0;31m ▀▓▀ ▄[0m   [31m▄▄▄[0;1;33m█[0;31m▀[0m
 [1;36m [0;1;32m▄█[0;1;36m▄ [0;1;34m▄[0;1;36m▄[0;1;32m▄[0m  [1;34m▀[0m    [1;35m▐█[0;1;36m▐[0m   [1;32m▐█[0;1;35m█▌[0mgabirel, [30;46mfire[0;36;45m░[0;30;41mand[0;37;40m sword, fell[0m       [1;31;41m■[0;31m▀  ▄▌▌█[0;1;33m█[0;31m▌[0;1;33m▐[0;31m▄▌[0;1;31m▄[0;31m▀▐[0;1;31;41m▒[0;1;31;40m█[0m
-[1;36m▌[0;1;34m■[0;1;36m▀[0m   [1;32m▀[0;1;35m██[0;1;36m ▄[0;1;33m█▄[0;1;36m ▀[0;1;37m▀▌[0m   [1;36m ■[0mto follow th[30;46me w[0;30;45ma[0;30;41my of[0;31;40m▄[0;37;40mthe first one[0m    [31;40m ▄  [0;1;33;40m▄[0;1;31;40m▐[0;1;33;47m▓[0;41m▓[0;31;40m▌▀[0;1;31;40m█▄[0;1;31;41m▓[0;31m■▓[0;35m▄[0;31m▄[0;1;33m▀[0;31m [0m
+[1;36m▌[0;1;34m■[0;1;36m▀[0m   [1;32m▀[0;1;35m██[0;1;36m ▄[0;1;33m█▄[0;1;36m ▀[0;1;37m▀▌[0m   [1;36m ■[0m            [30;46m   [0;30;45m [0;30;41m    [0;31;40m▄[0;37;40m             [0m    [31;40m ▄  [0;1;33;40m▄[0;1;31;40m▐[0;1;33;47m▓[0;41m▓[0;31;40m▌▀[0;1;31;40m█▄[0;1;31;41m▓[0;31m■▓[0;35m▄[0;31m▄[0;1;33m▀[0;31m [0m
 [1;37m▀[0;1;34m [0;1;36m▀[0;1;34m▄[0;1;33m██[0;1;36m▄[0;1;34m▀[0;1;36m ▄ ▀ █[0;1;33m█▄[0m   [1;35m▐█[0;1;36m▄[0m       [1;32m▄[0m   [36m▒▓█[0;36;41m▓▒▒[0;31;40m▌[0;1;31;41m░▀[0;31m▀[0m    [1;35m▀[0m          [1;31m▀[0m [31m ▄[0;37;41m░[0;31;40m▀[0;1;33;40m▀[0m▀[1;31m▀[0;31m▀[0;1;33;47m▄█[0;31m█[0;1;35m▀[0;1;33m██[0;31m▀[0;1;34m    [0m
 [1;34m▄[0;1;32m▄[0;1;35m█▌▐▀▀[0;1;36m ▀[0;36m▀[0;1;36m  █[0;1;35m██[0;1;36m▀[0m [1;34m■[0m [1;36m▀▌[0;32m▀[0;1;34m▀[0m       [1;34m■[0m li[30;46mght[0;36;45m▓[0;30;45mc[0;30;41mrea[0;37;40mtures[0m          [1;35;40m■[0m  [1;33m▐█[0;31m  ▀▌ ▀  [0;1;31m▀▀[0;31m▀▀▀[0;1;34m [0;31m▀[0;1;34m  [0m
 [1;36m▄ [0;1;32m▀[0;1;36m▀[0m     [1;35m▄█[0;1;37m▄[0;1;36m▄[0m     [1;36m▄[0m       their wi[30;46mn[0;30;45mg[0;30;46ms[0;36;41m▒[0;30;41mso[0;1;31;45ma[0;30;41mk[0;37;40med in blood[0m        [31;40m▀[0;1;31;41m░[0;1;31;40m▄[0;31m  [0;1;33m▄[0;31m ▀▄▌ ▄[0;1;31;41m░[0;31m▄■ ▐[0;1;34m [0m

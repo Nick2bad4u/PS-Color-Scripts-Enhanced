@@ -5,7 +5,7 @@
 # Source SHA-256: 650f8036db4897caabb5d117c8cab822a01a562e26ebd18aeb907eb4eebe2282
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-ANKA.ANS by Dizzy (sadist04); released in sadist04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
 [32m░[0;33m█[0;1;33;43m▓▓[0;1;33;40m█[0;1;37;40m██[0;1;33;40m████████[0;1;37;40m███████████[0;1;33;40m█[0;1;33;43m▓▒░[0;33m▀▄░░[0;32m▀[0;37m  ▌▓▌          [0;1;37m          [0m        
 [32m▌[0;33m░▓█[0;1;33m██████[0;1;33;43m▓▓▓▓▓▓▓▓▓▓[0;1;33;40m████████[0;1;33;43m░░[0;33m▒██▓▄█[0;37m ▀▓▌don''t say anythin else bIATCH3Z[0m
 [33m▄█[0;1;33;43m▓▓▓▓▓▓▓▓░░░░[0;33m▀▀▀▀▀▀[0;1;33;43m░░░▓▓[0;1;33;40m████[0;1;33;43m▓▓▓░░[0;33m█▀[0;37m ▒▓▌anyways.. first i made this.. for[0m
-[37m [0;33m▀▀█[0;1;33;43m░░░[0;33m██▀▀[0;37m  [0;33m░░░[0;1;31;41m██░[0;31m▓[0;37m [0;33m░▀▀▀▓▓██████▀ [0;1;30m▄▐[0m▒▓[1;37m▌[0mhmmm sorry don''t remember the name
+[37m [0;33m▀▀█[0;1;33;43m░░░[0;33m██▀▀[0;37m  [0;33m░░░[0;1;31;41m██░[0;31m▓[0;37m [0;33m░▀▀▀▓▓██████▀ [0;1;30m▄▐[0m▒▓[1;37m▌[0m                                  
 ▀ █▄[33m▀▀▄[0;37m  [0;33m▓█████▌[0;31m▐[0;1;31;41m░[0;31m█ [0;33m██▄▄▄▄▄▄▄[0;37m [0;33m▄[0;37m ▄▄▌[0;1;30m▐▐[0m▒█[1;37m▌[0mof the ansiviewer... they wanted
 [1;30mdz_[0m [33m▄[0;1;33;43m░[0;33m▌[0;1;37m░[0;1;33;43m░▒▒▒▒▒▒[0;1;37;40m▓[0m [1;31;41m░[0;31m▌[0;1;33;43m▒▒░[0;33m███████░[0;1;33;43m░[0;33m▌[0;37m █▌[0;1;30m▐▐[0m▒█[1;37m▌[0ma pic as a help screen.. but anyway
 [32m▒▄[0;37m [0;1;33;43m▓▓[0;1;33;40m▀[0;1;37;40m░█[0;1;33;43m▓▓▓▓▓▓[0;1;37;40m██▌[0;31m▀[0;1;33m▄[0;1;33;43m▓▓▓░░░░░▓▓▓[0;1;33;40m▀[0;1;33;43m▓[0;1;33;40m [0m▐▌[1;30m▐▐[0m▒▓[1;37m▌[0mthey didn''t like this pic....

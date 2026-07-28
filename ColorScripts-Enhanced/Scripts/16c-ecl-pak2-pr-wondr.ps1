@@ -5,7 +5,7 @@
 # Source SHA-256: c1a9ecc4d9163df0da58265c99afb372944f55a349d011a119cc47322d641528
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR_WONDR.ANS by president (ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: wonderland
 # SAUCE Author: president
 # SAUCE Group: ecolove
@@ -54,6 +54,6 @@ Write-Host '
          [1;30m▀▀[0m           [31m      [0m   [1;30m█[0m▄[1;30m▄[0;31m  [0;1;37m▀▀███▄[0;31m [0;34m [0;31m [0;1;37m▀▀ [0;1;37;47m ▐█[0;31m [0;1;30m▌[0m▄▄▄[1;47m  █[0;1;40m  [0;1;47m█▄[0m▌[1m [0m▄[1;47m ▄▄ [0m▄[1;47m ██[0m ▀[1;47m▐[0;47m█[0;1;47m░[0m
   [1;30mmy first ''big'' ansi, well at[0m [1;30m ▀[0;1;30;47m▄[0;1;30;40m█▄[0m▄[1;30m▄ [0m  [1;30m▄▄▌[0;34m  [0;1;30m▄▌[0;1;37;47m▄██[0;1;30;40m▐▌[0;1;37;40m▐[0;1;37;47m▄▄███[0;1;37;40m▀▀█[0;1;37;47m██[0;1;37;40m▐█[0;1;37;47m▄[0;1;37;40m▌[0m [1;47m████[0;1;40m▌[0m  [1m▐█[0;1;47m█[0m
  [1;30m [0m [1;30mleast it''s more than 24 lines.  ▀▀[0;1;30;47m▄▄[0;1;30;40m▀▀▀[0m   [1;30m█[0;1;30;47m▀[0;1;30;40m▌[0;1;37;40m▐█[0;1;37;47m█[0;1;37;40m▄[0;31m [0;1;37;47m█▓▓██[0;1;37;40m▌[0;1;30;40m▐▌[0;1;37;40m▐█[0;1;37;47m████[0m  [1m▐[0;1;47m▓▓██[0;1;40m▄▄██▀[0m
-     [1;30mthis thingie was req''d by sequence^rvl[0m [34m [0;1;30m▐[0;1;30;47m▄▐[0;1;30;40m▄[0;31m [0;1;37m▀▀▀▀▀▀[0m [1;30m▄▄[0;1;30;47m▌▐[0;1;30;40m▄▄[0;31m [0;1;37m▀▀▀[0;31m  [0;1;37m▀▀▀[0m [34m      [0m
+     [1;30m                                      [0m [34m [0;1;30m▐[0;1;30;47m▄▐[0;1;30;40m▄[0;31m [0;1;37m▀▀▀▀▀▀[0m [1;30m▄▄[0;1;30;47m▌▐[0;1;30;40m▄▄[0;31m [0;1;37m▀▀▀[0;31m  [0;1;37m▀▀▀[0m [34m      [0m
                                               [1;30m▀▀███[0;1;30;47m█▀▀▀▀▀▀ ■  ▀▀▀[0;1;30;40m███▀[0m
                                                    [1;30m▀▀▀█[0;1;30;47m▄▄▄▄▄[0;1;30;40m█▀▀▀▀[0;34m [0m'

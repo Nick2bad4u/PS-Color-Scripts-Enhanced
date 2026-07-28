@@ -5,7 +5,7 @@
 # Source SHA-256: ed0ea29176887702f48ed02b6f7c8a00277da877a3a134487612fed756ffd234
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Abyss2.ans by Neurodancer (1oo_gnor); released in 1oo_gnor and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -21,7 +21,7 @@ Write-Host '
         [1;36;46m▒[0;36;46m██[0;1;36;46m░▓[0m          [36;46m█[0;1;34;46m░[0;36;46m█[0;1;34;46m▓[0;1;36;46m░[0m
 [1;30;40m▀ ▀▀▀ ▀ [0;1;36;46m░[0;36;46m█[0;1;36;46m░[0;36;46m█[0;1;36;46m░[0;1;36;40m [0;1;30;40m▀▀▀≡▀▀▀▀ [0;36m██[0;1;34;46m░█░[0;1;34;40m [0;1;30;40m▀ ▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀≡▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀ ▀[0m
         [36m████[0;1;34;46m░[0;36m▌[0m        [36m▐█[0;1;34;46m▒██▒[0;1;34;40m   [0;1;37;40ma[0;32mlloy [0;1;32m■ [0;1;37mb[0;32martman [0;1;32m■ [0;1;37md[0;32mexter [0;1;32m■ [0;1;37md[0;32mreamer [0;1;32m■ [0;1;37ml[0;32muka[0m
-        [36m█[0;1;34;46m░▓█▓░[0;36;46m█[0m       [1;34;46m░█▓██▓[0;36m▌[0m      [1;37mj[0;32mumping [0;1;37mp[0;32mixel [0;1;32m■ [0;1;37mn[0;32meurodancer [0;1;32m■ [0;1;37mp[0;32mink [0;1;32m■ [0;1;37mm[0;32moon[0m
+        [36m█[0;1;34;46m░▓█▓░[0;36;46m█[0m       [1;34;46m░█▓██▓[0;36m▌[0m      [1;37m [0;32m       [0;1;37m [0;32m     [0;1;32m■ [0;1;37m [0;32m           [0;1;32m■ [0;1;37m [0;32m    [0;1;32m■ [0;1;37m [0;32m   [0m
        [1;34m▐[0;1;34;46m▓▒████▓[0;1;34;40m▄▄    [0;1;34;46m▓██████▓[0;1;34;40m▄[0m        [1;37;40ms[0;32mting [0;1;32m■ [0;1;37mq[0;32mwerty [0;1;32m■ [0;1;37mp[0;32moet [0;1;32m■ [0;1;37ms[0;32mmc [0;1;32m■ [0;1;37ms[0;32mpin[0m
        [1;34;46m▓██[0;1;34;44m▓█████[0;1;34;46m▓[0;1;34;40m▄  ██[0;1;34;44m▓░[0;34;44m█[0;1;34;44m░▓████[0;1;34;40m▄[0m         [1;37;40mt[0;32moxic [0;1;32m■ [0;1;37mt[0;32myshdomos[0m
      [1;34m▄██[0;1;34;44m▓░[0;34;44m██[0;1;34;44m░▒▓█[0;1;34;40m▀   ▀[0;1;34;44m░▒[0;34;44m█████[0;1;34;44m░▓███[0;1;34;40m▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: e2d29d07a045632f81b0d3c913ab97be2bede7eaff15fe612aec51c97298f6fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pmt-cyberpunks.ans by Prismate (impure70); released in impure70 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20180930
 # SAUCE Dimensions: 80x66
 # SAUCE Font: IBM VGA
@@ -42,6 +42,4 @@ Write-Host '
 [30m█[0;37m [0;30m██████████████████████████████████████████████████████████████████████████████[0m
 [30m█[0m             [1;37m█▀▀▀ [0;30m█[0;1;37m█[0m [30m█ █ [0;1;37m█▀▀[0;44m▓[0;30;40m██[0;1;37;40m█▀▀█[0m [30m█[0;1;37m█▀▀[0;44m▓[0;40m  [0;1;40m█[0;30m██[0;37;44m▓[0;30;40m██[0;1;37;40m█▄[0;30m█[0;1;37m█[0;30m██[0;1;37m█[0;30m█[0;1;37m▄▀[0;30m██[0;1;37m█▀▀▀[0;30m██████████████[0m
 [1;30m▓▓▓▒▒▒▒░░░░░ [0m [44m▓[0m     [40m█▀▀[0;44m▓[0;40m  █▀▀▀  ██▀▀  █▀▀▀  █  █  █ ▀[0;44m▓[0;40m  [0;44m▓[0;40m▀▄    ▀▀[0;44m▓[0;40m [0;1;30;40m ░░░░░▒▒▒▒▓▓▓[0m
-              [1;30m█▄▄▀[0m  [1;30m█▄▄[0m▀  [1;30m█▄▄▀[0m  [1;30m█[0m [1;30m▀▄[0m  [1;30m█[0m     [1;30m█▄▄▀[0m  [1;30m█[0m  [1;30m▀[0m  [1;30m█[0m  [1;30m▀[0m  [1;30m▄▄▄▀[0m
-
-[1;30m______________________ [0maren''t  dead, iMPURE is the prove![1;30m ______________________[0m'
+              [1;30m█▄▄▀[0m  [1;30m█▄▄[0m▀  [1;30m█▄▄▀[0m  [1;30m█[0m [1;30m▀▄[0m  [1;30m█[0m     [1;30m█▄▄▀[0m  [1;30m█[0m  [1;30m▀[0m  [1;30m█[0m  [1;30m▀[0m  [1;30m▄▄▄▀[0m'

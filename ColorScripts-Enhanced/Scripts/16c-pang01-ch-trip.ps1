@@ -5,7 +5,7 @@
 # Source SHA-256: 385fbdbe9180439700ce2c3c6ad2c802d284e0c8df32aaaadcb9e01601c528c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH-TRIP.ANS by Chronic-Pang (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -29,6 +29,6 @@ Write-Host '
 [35;40m▐[0;1;33;45m  [0;1;35;45m([0;30;45mm[0;1;35;45m)[0;30;45menu command   [0;35;40m███[0;1;35;45m([0;30;45mmenu[0;1;35;45m)[0;30;45m command[0;35;40m█[0;30;45m [0;1;31;45m▀█▄■[0;35m█████[0;1;35;45m ▄█▀[0;35m██[0;30;45m█▌[0;35;40m█[0;30;45m█▌  [0;32;45m░░[0;30;45m [0;35;40m██[0;30;45m▐█ [0;35;40m▄▄[0;30;45m█▌ [0;35;40m██████[0m
 [35;40m ██[0;1;35;45m([0;30;45mm[0;1;35;45m)[0;30;45menu command     [0;35;40m█[0;1;35;45m([0;30;45mmen[0;1;35;45m)[0;30;45mu command[0;35;40m█[0;1;35;45m   [0;1;31;45m▀▀█▄▄[0;1;35;45m ▀▀ ▓░[0;35m██[0;30;45m▐█▐█      [0;35;40m██[0;30;45m█▌ [0;35;40m██[0;30;45m▐█[0;35;40m███████[0m
 [37;40m [0;35;40m██[0;1;35;45m([0;30;45mm[0;1;35;45m)[0;30;45menu command [0;35;40m█████[0;1;35;45m([0;30;45mmen[0;1;35;45m)[0;30;45mu command   [0;35;40m█[0;1;35;45m  ▄▄■[0;1;31;45m▀▀▄▄■[0;35m██████[0;34;45m [0;1;33;45m  [0;30;45m   [0;35;40m█████████████████[0m
-[35;40m  █[0;1;35;45m([0;30;45mm[0;1;35;45m)[0;30;45menu command     [0;35;40m█[0;1;35;45m([0;30;45mm[0;1;35;45m)[0;30;45menu command   [0;35;40m█[0;1;35;45m▀▀[0;35m█████████[0;1;34;45m [0;34;45m  ░░    [0;1;34;45m [0;30;45m+op nicOtine[0;35;40m█████▌[0m
+[35;40m  █[0;1;35;45m [0;30;45m [0;1;35;45m [0;30;45m                [0;35;40m█[0;1;35;45m [0;30;45m [0;1;35;45m [0;30;45m              [0;35;40m█[0;1;35;45m▀▀[0;35m█████████[0;1;34;45m [0;34;45m  ░░    [0;1;34;45m [0;30;45m            [0;35;40m█████▌[0m
 [35;40m   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35;45m▄[0;35m█[0;30;45mstuph your command:_[0;35;40m██████████████████████[0;1;35;45m░░[0;35m██████▌[0m
 [35m  [0m                        [35m [0;1;35m▀[0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35;45m▄[0;35m████████████████████▀▀▀▀  [0m'

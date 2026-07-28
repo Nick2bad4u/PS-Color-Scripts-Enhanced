@@ -5,7 +5,7 @@
 # Source SHA-256: 11dd61142a87ded80b4a9fd43667a97b9f697a4dd0c22569b02172e4a8d4cea0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-SOW1.ANS by Impact (Spastic Studios); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sowhatchawant!
 # SAUCE Author: Impact
 # SAUCE Group: Spastic Studios
@@ -24,7 +24,7 @@ Write-Host '
 [47m  [0;1;30;47miM uUST a fUQN hEAD! oH nOAH! [0m█     [1mlook it''s..  [0;1;33m▄▄▀▀▀▀ [0;1;30m▄▄▄▄▄▄▄▄▄ [0;1;33m▀▀▀▀▀▄▄ [0mlife
 █[47m [0;1;30;47mnO oNES eVER gONNA[0m▓[1;30;47mlIKE mE!@#[0m▓█     [1mcardiac!! ;>[0;1;33m▀ [0;1;30m▄▄███████████▓██████▄▄ [0;1;33m▀▄ [0m!!
 ▓[47m [0;1;30;47mmY sHADING[0m▓[1;30;47msUQS tEW! iMPACT''S [0m█  eYe lUb [1m▓   [0;1;33m▄▀ [0;1;30m▄██████▓███▓█████████▓███▄ [0;1;33m▀▄[0m
-█[1;30;47mtHE sCENES lAMEST fUKIN[0m▓[1;30;47mARTIST![0m▓SOWChAWANt[1m█   [0;1;33m█ [0;1;30m██▓██████████████▓██▓███████ [0;1;33m█[0m
+█[1;30;47m                       [0m▓[1;30;47m       [0m▓          [1m█   [0;1;33m█ [0;1;30m██▓██████████████▓██▓███████ [0;1;33m█[0m
 █[47m [0;1;30;47moWELL..[0m▓[1;30;47maT lEAST eYE gET tO Be[0m█          [1m█   [0;1;33m█[0;1;30m▐███████▓██████▓█████████████▌[0;1;33m█[0m
 █[47m [0;1;30;47maN aNSI fER[0m▓[1;47msOWHACHAWANT [0;1;30;47meLEET![0m          [1;37;40m█   [0;1;33;40m█ [0;1;30;40m████▓██████▓███████████▓████ [0;1;33;40m█[0m
 [1;33;40m [0m▓▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀ Phat Phro-[1m█[0m-> [1;33m▀▄[0;1;30m▐██▓████▀▀ [0;33m▄▄▄▄▄▄ [0;1;30m▀▀█▓█████▌ [0;1;33m█[0m

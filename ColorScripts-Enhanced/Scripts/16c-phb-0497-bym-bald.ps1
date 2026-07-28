@@ -5,7 +5,7 @@
 # Source SHA-256: f11c988d27348db0b7f386e85dbe86969a3dd1ec1f131008db757a8e86208938
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%BALD.ANS by big y3llow man (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bald man in suit
 # SAUCE Author: big y3llow man
 # SAUCE Group: pHOBIA@!
@@ -20,7 +20,7 @@ Write-Host '
                                           [37;40m [0;30;40m [0m          [1;30;40m▀▀▀▀▀▀▀[0;1;30;47m▄▄▄[0m███▐██▓▀▀[1;47m░[0;1;40m█[0m█▌
                                                    [33m▄▄▄█[0;1;31;43m▄░░[0;33m█[0;30;43m▀[0;33;40m▄▄[0;30;43m▓[0;37;40m [0;1;30;40m▀[0;1;30;47m▄[0;30;47m  [0;37;40m██  ▀ ██▌█ [0m
                                                 [33;40m▄█[0;30;43m░[0;35;43m░[0;1;31;43m▄[0;1;31;47m▀▀░▓[0;1;31;43m▄▄▓▄[0;33m██[0;1;33;43m░[0;33m▄[0;37m [0;1;30m▀[0;1;30;47m▄[0;30;47m [0;37;40m██▄▄███▄█ [0m
-   [36;40mmade [0;1;31;40monly [0;36mfor the plf[0;37m [0;36mapply form soo [0m    [33m   ▄[0;30;43m░[0;35;43m░░[0;1;31;43m▀[0;1;31;40m█[0;1;31;47m▓▓▓[0;1;31;40m██████[0;1;31;43m▄▄[0;33m██[0;30;43m▓[0;1;30;40m▐[0;1;30;47m▌[0m██████████
+   [36;40m     [0;1;31;40m     [0;36m           [0;37m [0;36m               [0m    [33m   ▄[0;30;43m░[0;35;43m░░[0;1;31;43m▀[0;1;31;40m█[0;1;31;47m▓▓▓[0;1;31;40m██████[0;1;31;43m▄▄[0;33m██[0;30;43m▓[0;1;30;40m▐[0;1;30;47m▌[0m██████████
    [36mdon''t[0;37m [0;36meven[0;37m [0;36mthink of doodle[0;37m [0;36ma bald[0;30m [0;36mman[0;37m [0m   [33m  [0;1;30m [0;30;47m███[0;33;40m▀▀█[0;1;31;43m▐█[0;1;31;40m█▀▀[0;30;47m████[0;1;31;40m▀▀█[0;33m██[0;30;47m█[0;1;30;40m█[0m███[1;33;47m░░[0m█[1;47m░░[0m██
    [36min[0;37m [0;36ma[0;37m [0;36msuit[0;37m [0;36manymore!@@#..[0m                  [1;30m▄▌[0m [35;43m░[0;33;40m█▀▀▌▐[0;1;31;40m████▄▄[0;30;47m█[0;1;31;40m▀▀█▄▄[0;1;31;43m▌[0;33m█▄[0;30;47m█[0;1;30;40m█[0;1;30;47m▄[0m██  ▀▀█▌
                                             [1;30m█▌[0;30;47m█[0;33;40m█▄[0;1;31;40m▄█[0;30;47m█[0;33;40m█[0;1;31;40m█████████[0;1;31;47m▓▓[0;1;31;43m█▓░[0;33m██[0;30;47m█[0;1;30;40m▐[0m█████[30;47m░░[0;37;40m▌[0m

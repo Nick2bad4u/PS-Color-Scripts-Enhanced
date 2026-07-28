@@ -5,7 +5,7 @@
 # Source SHA-256: 3ca626de2822d98c8e2a24f3e95147b552d8469335eb22e96eea4137d09a1f17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PE!TOAST.ANS by Phonyeye (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
  [31m     [0;37m [0;35m▀[0;1;31m▀▀[0;1;31;45m▀▄[0;1;31;40m▄▄[0;35m▄▐[0;1;31;45m▐[0;1;31;46m▓▓[0;1;31;45m▀[0;1;31;40m▀[0;1;31;45m▀▄[0;1;31;40m▄▄[0;35m▄[0;37m [0;35m▄[0;1;31m▄▄[0;35m█[0;1;31;45m▀[0;1;31;40m▀[0;35m▀[0;37m [0;31m▄[0;37m [0;35m▀▀[0;1;31m▀[0;35m██▄▄▄[0;37m [0;35m▄[0;30;45m░[0;35;40m▓[0;1;31;45m▐▄[0;1;31;40m▄[0;35m▄▄█[0;1;31;45m▀[0;1;31;40m▀▀[0;35m▀[0;37m [0;31m▄▄[0;37m [0;35m▀▀▀[0;1;31;45m▀[0;35m█▄▄▄▐[0;1;31;45m░▄▌[0;35m█[0m
 [31m    ░[0;30;41m▓░[0;31;40m██▄▄▄▄[0;37;40m [0;35;40m▀[0;1;31;40m▀▀▀[0;35m▀[0;37m  [0;31m▄[0m   [35m▀▀▀▀[0m    [31m▀[0;36;41m▀█▄░[0;31;46m▓[0;31;40m▄▄[0m     [35;40m░░[0;30;45m▓[0;35;40m      [0;37;40m [0;31;40m▄[0;36;41m░[0;31;46m▓[0;36;41m▀▀[0;1;32;46m▐▄[0;36;41m▌[0;31;40m▀[0m     [35;40m▀▀▀▀▀[0m
 [31;40m       ▄[0;31;46m▓[0;36;41m▀[0;31;40m▄ ▀▀      ▀▀▀[0;37;40m [0;31;40m▀[0m      [31;40m▀▀▀▀▐[0;36;41m▀▀[0;31;40m▌▀▀[0;37;40m [0;31;40m▄▄ [0m         [31;40m  ▀ ▄▄[0;36;41m▄[0;1;32;46m▀[0;31m▀[0;36;41m▀[0;31;40m█[0m   [31;40m▄▄ ▄░[0;30;41m▓[0m
-       [31;40m▀▐[0;36;41m░[0;31;46m▓[0;37;40m [0;31;40m Ansi By [0;1;30;40mP[0;1;30;41mh[0;1;30;40monyEye[0m<Cia>      [31m█[0;1;32;46m▀[0;31;46m░[0;36;41m░[0;31;40m Toast<[0;1;31;40mMe[0;31m>[0;37m [0;31m▀█[0;37m [0;31m▀▀▀▀[0m      [31m▀[0;36;41m▀▀▌[0;31;40m▄[0m
+       [31;40m▀▐[0;36;41m░[0;31;46m▓[0;37;40m [0;31;40m         [0;1;30;40m [0;1;30;41m [0;1;30;40m      [0m           [31m█[0;1;32;46m▀[0;31;46m░[0;36;41m░[0;31;40m       [0;1;31;40m  [0;31m [0;37m [0;31m▀█[0;37m [0;31m▀▀▀▀[0m      [31m▀[0;36;41m▀▀▌[0;31;40m▄[0m
              [30;41m▓[0;31;40m░░[0m     [1;30;40m^[0m                  [31m▀▀[0;37m [0;36m▄[0;31m▄ [0;36m      [0;37m  [0;31m▄[0m        [31m░[0;30;41m▓[0m   [31;40m█[0;36;41m▀[0;31;40m▌▀▀[0m
                              [31;40m   [0m           [31;40m▀[0m     [31;40m   [0m
                                              [31;40m▀[0m'

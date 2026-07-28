@@ -5,7 +5,7 @@
 # Source SHA-256: 487fa1301bc9db7dd147aa0a13c5c51a8a3d95c05eb2cf53323c7e868e0c75a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-TRAU2.ANS by ize (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: trauma
 # SAUCE Author: ize
 # SAUCE Group: fuel
@@ -35,7 +35,7 @@ Write-Host '
 [32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;37;40m  [0;1;31;43m [0;1;31;40m█████████▀▀[0;1;37;40m▄▄▄▄▄[0;1;31;40m▀▀[0;1;31;43m▓░[0;33m▌[0;1;32m [0;32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;1;32;40m [0;1;33;40m      [0;1;34;40m▀[0;34m▀▀▀[0m       [1;34m█[0;34m█[0;34;45m█[0;34;44m█[0;34;40m [0;36;40m [0;1;34;40m█[0;34m███[0;36m  [0;1;34m█[0;34m███▀▀[0;1;34;44m▄[0;34m███[0;36m [0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0m
       [1;31;40m [0;33m█[0;1;31m [0;1;31;43m [0;1;31;40m██████▄ [0;31m [0;1;37m [0;1;31m [0;1;37m   [0;31m  [0;1;37m [0;33m▄▀ [0;1;32m                             [0;1;34m▀[0;34m▀▀▀▀▀[0;1;34;44m▄[0;34m███▄[0;1;36m [0;1;34m█[0;34m███▄▄ [0m
       [1;31m [0;1;31;43m  [0;33m▄▀[0;1;31;43m▀[0;1;31;40m███████▄▄[0;1;37;40m▀▀▀[0;1;31;40m▄▄[0;1;31;43m [0;33m▀[0;1;32m  [0;32m  [0;37mhmm well I think here would[0;1;32m [0;1;33m      [0;1;32m    [0;36m [0;1;34m▀[0;34m▀▀▀[0m
-     [1;31m  [0;33m▐[0;1;31;43m▐▄[0;33m█▄▀[0;1;31;43m▀[0;1;31;40m█████████[0;1;31;43m▓▀[0;33m▀[0m   [1;33m [0m  be a good place to put all those
+     [1;31m  [0;33m▐[0;1;31;43m▐▄[0;33m█▄▀[0;1;31;43m▀[0;1;31;40m█████████[0;1;31;43m▓▀[0;33m▀[0m   [1;33m [0m                                  
       [1;31m  [0;1;31;43m [0;1;31;40m██[0;1;31;43m▄[0;33m█▄▄▀[0;1;31m▀▀[0;1;31;43m▀█▀▀[0;33m▀▀[0m         [37mneat commands you got :).. hehe[0m
         [33m▀[0;1;31;43m▀█[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▒░ [0;33m▀[0m
           [33m▀▀▀▀▀▀[0m'

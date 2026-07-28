@@ -5,7 +5,7 @@
 # Source SHA-256: b0209cf41516171dcee55702850303589b749eae3b2b9fb26df7b419391615ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-NEVER.ANS by eerie (the legion); released in legion04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: neverhood
 # SAUCE Author: eerie
 # SAUCE Group: the legion
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;45mneverhood[0;35m███████████████████████████████▀▀[0;34m▄▄▄▄███████▄▄▄▄[0;35m▀▀▀███████[0;1;37;45meerie/legion[0m
-[45ma menu template or something[0;35;40m████████▀▀[0;34;40m▄▄████[0;1;34;44m░░[0;34m█▀███████████▄▄ [0;35m▀████████████████[0m
+[45m                            [0;35;40m████████▀▀[0;34;40m▄▄████[0;1;34;44m░░[0;34m█▀███████████▄▄ [0;35m▀████████████████[0m
 [35m██████████████████████████████████▀ [0;34m▄█████████▀[0;33m▌[0;34m████▀▀████████▄ [0;35m▀██████████████[0m
 [35m█████████████████████████████████▀ [0;34m████[0;1;34;44m░░▀[0;34m█▀▀[0;33m▄█ [0;34m███▀[0;33m▐▌[0;34m██▀▀▄█████ [0;35m▀█████████████[0m
 [35m█████████████████████████████████ [0;34m▐████▀[0;33m▄▄▄▀▀[0;1;31m▀▀ [0;34m▀▀[0;33m▄█[0;1;31m█▄[0;33m▄▄█ [0;34m▀██████ [0;35m▐████████████[0m

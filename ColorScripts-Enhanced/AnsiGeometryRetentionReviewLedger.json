@@ -185,7 +185,7 @@
             "signal": "orphaned-tail-after-blank-run",
             "disposition": "retain-authentic-composition",
             "confidence": "medium",
-            "scriptSha256": "d662f363a3c87df458520373654d27232bc89983db0ed00934adb552243f55a5",
+            "scriptSha256": "07da43c90b80beb4fa917555d5a88d48de43d9c308423bc932db963591d2069c",
             "sourceUrl": "https://16colo.rs/pack/axf-0597/raw/QP-A666.ANS",
             "previewUrl": "https://16colo.rs/pack/axf-0597/x1/QP-A666.ANS.png",
             "sourceRows": "1-49",

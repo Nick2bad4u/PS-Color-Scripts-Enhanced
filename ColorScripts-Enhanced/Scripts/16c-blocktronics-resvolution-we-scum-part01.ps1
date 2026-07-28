@@ -5,12 +5,12 @@
 # Source SHA-256: 8267a559a04cceb2a33ac5197882fbb5ef8a82d20c9308831f9a409f3d7f5882
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-scum.ans by Zerovision + Noches (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
 Write-Host '
-[36m██████████████████[0;1;36;46m"Scum of the earth, Come on." -Rob Zombie[0;36m████████[0;37;46m░░░▒▒▒▒▒▒▒▒▒▒[0m
+[36m██████████████████[0;1;36;46m                                         [0;36m████████[0;37;46m░░░▒▒▒▒▒▒▒▒▒▒[0m
 [37;46m░░░[0;36;40m█████████████████████████▀██▓█████▒████▀██▀█▒██████▓██████████[0;37;46m░░░▒▒▒▒▓▓▓▓▓▓▓▓[0m
 [37;46m▒▒░░░[0;36;40m███████████████████▀███▌▐█░███▀█░▐█▀▄█▀ █▌▐███▀█░█████████[0;37;46m░░░░▒▒▓▓▓████████[0m
 [37;46m▒▒▒░░[0;36;40m███████████████▀███▌▐█ █ ▀ ▀[0m           [36;40m▐█ ███ █▌▐████████[0;37;46m░░░░▒▒▓▓▓█████[0;1;37;47m░░░[0;46m█[0m

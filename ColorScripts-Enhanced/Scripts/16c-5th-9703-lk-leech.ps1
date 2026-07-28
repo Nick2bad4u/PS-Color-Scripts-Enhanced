@@ -5,7 +5,7 @@
 # Source SHA-256: 961e1a1f4208d72e3d72d6bc78756ef4e5b2d4ea2b9a7dd43183e364b039090a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LK-LEECH.ANS by Lightning Knight (Ascent); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Leech Definition
 # SAUCE Author: Lightning Knight
 # SAUCE Group: Ascent
@@ -30,6 +30,6 @@ Write-Host '
 [1;30m  $$$$$$$$$$$$$$$$$$Sa.[0m      [1;30m.a.[0;34m9l[0;35;44m░[0;34;40ml$[0;35;40m$$$Sa [0;34;40m$i[0;35;40mii$    ,aa, [0;35;44m▓[0;35;40m;;;$$""$$;;;$ [0;1;30;40m$$$$$$$[0m
 [1;30m  $$$[0;1;37m-[0;1;35ml[0;35meec[0;34mh[0;1;37m ([0;1;35mn[0;1;37m). [0;1;35ma[0;1;37m [0;1;30m$$$$$$$$$$$a.[0;34m`²SS$$$$Sⁿ 9lll$a[0;35maaa$$$B [0;34m$i[0;35mii$    [0;34m$[0;35miii$ [0;1;30m$$$$$$$[0m
 [1;30m      [0;1;37m [0;1;35m [0;35m    [0;34m [0;1;37m [0;1;35m [0;35m [0;34m [0;1;37m [0;1;35m [0;35m   [0;34m [0;1;37m [0;1;35m [0;35m [0;34m [0;1;37m [0;1;30m      [0m      [1;30m   [0;34m      [0;35;44m░[0;34;40m           [0;35;40m     [0;34;40m   [0;35;40m   [0;1;30;40m       [0m
-[1;30m  $$$$[0;1;37m [0;1;35ml[0;35mif[0;34me[0;1;37m [0;1;35mb[0;35mloo[0;34md[0;1;37m [0;1;35mo[0;35mu[0;34mt [0;1;35mo[0;34mf[0;1;37m [0;1;35ma b[0;35moar[0;34md[0;1;37m [0;1;30m$$$$$$$$$$a.[0m         [1;30m.a.[0;34m`²S$$    $$S²'' [0;1;30m$$$$$$$[0m
+[1;30m      [0;1;37m [0;1;35m [0;35m  [0;34m [0;1;37m [0;1;35m [0;35m   [0;34m [0;1;37m [0;1;35m [0;35m [0;34m  [0;1;35m [0;34m [0;1;37m [0;1;35m   [0;35m   [0;34m [0;1;37m [0;1;30m            [0m         [1;30m   [0;34m               [0;1;30m       [0m
 [1;30m  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$a,. .,aa,.  .,a$$$$$$$[0m
 [1;30m  `²@S$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S@²''[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3ebbad47e67daaf901cfdd1cd87e662fa3eb20189e91dbdf0861ca241e71411b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-TOAST.ANS by ize (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: toast something :)
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -24,7 +24,7 @@ Write-Host '
 [30;41m░[0;32;40m [0;1;33;42m▀▄[0;32m▄▄ [0;31m▀[0;30;41m░[0;31;40m█[0;1;33;41m░░[0;30;42m▓[0;1;37;42m░▒▓██[0;1;33;42m████[0;1;37;42m [0;32m [0;1;33;41m [0;30;41m░[0;1;33;41m░░[0;1;33;40m▀▀▀▀[0m
 [30;41m░[0;31;40m▄[0;32;40m░[0;1;33;42m▐██▄[0;32m█▄ ▄▄▄▐[0;1;33;42m▌[0;32m▀█[0;1;33;42m██▀▀▀█[0;32m▌▄▄▄▄▄[0;30;42m░[0;32;40m▀▀[0;1;33;42m [0m         [1;37mTOasT[0m
 [1;31;41m ░[0;32m░█[0;1;33;42m▌[0;32m▀▀  [0;1;33;42m▐██▀[0;32m▀▐  ▀▀   ▀▀▀▀[0;1;33;42m▀█▀[0;32m▀▄▄[0;30;42m░[0;32;40m░[0;30;42m▓[0m
-[1;31;41m░▒[0;1;31;40m▄[0;32m [0;1;33;42m [0;1;37;40m▄ [0;32m [0;1;33;42m▐█▀[0;32m▀  [0;1;37m▐▀▀ [0;32m    ▄▄▄▐[0;1;33;42m███▄[0;1;37;42m█▓▒░[0m     [1;37mmatrix/menu/whatever it is :)[0m
+[1;31;41m░▒[0;1;31;40m▄[0;32m [0;1;33;42m [0;1;37;40m▄ [0;32m [0;1;33;42m▐█▀[0;32m▀  [0;1;37m▐▀▀ [0;32m    ▄▄▄▐[0;1;33;42m███▄[0;1;37;42m█▓▒░[0m     [1;37m                             [0m
 [1;31;41m▒▓▓[0;1;31;40m▌[0;32m▀▀▀▀[0;1;33;42m▐[0;32m▌▄█▐▌[0;1;37m▐ [0m    [32m  ▐▌▀▀▀▀▀[0;1;37;42m▀▀▀[0;1;33;42m█▄[0;32m▄[0m
 [1;31;41m▓[0;1;31;40m███[0;1;31;47m▓▐[0;31m▌[0;1;31m▄▄[0;32m [0;30;42m░[0;32;40m  ▌[0;1;37;40m░[0m     [1;37m [0;32m    [0;1;37m [0;1;31m▄[0;1;37m [0;1;31m▀▀▄[0;32m ▀▀▀▄[0m           [1;37m- ize[0m
 [1;31m██[0;1;31;47m▓▓░▐[0;31m▌[0;1;31m██[0;36m [0;30;42m▓[0;31;40m ░ [0m     [1;37;40m  [0;31m ░[0;1;37m  [0;1;31m▐▌[0;36m   [0;1;31m▐▌[0;36m     [0m

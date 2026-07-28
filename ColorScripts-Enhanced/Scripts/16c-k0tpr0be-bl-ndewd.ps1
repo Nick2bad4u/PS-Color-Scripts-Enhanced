@@ -5,7 +5,7 @@
 # Source SHA-256: 99891424836c82bea09ba104020ffc37339abf8389a5e65d511085c5c2590439
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-NDEWD.ANS by blade (sargahd); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: new user questionaire
 # SAUCE Author: blade
 # SAUCE Group: sargahd
@@ -27,7 +27,7 @@ Write-Host '
 [36m▐[0;1;36;46m░[0;36m████▄▄▄██▄▄▄▄ [0;35m▀[0;37m [0;1;30;45m░[0m [36m▓▄▄▄▄█▄▄▄▌▄▄█████▄▄▄██████▄[0;37m [0;35m▀[0;37m [0;1;30;45m░[0m [36m█▄▄▄▄█▄▄▄███[0;1;30;46m▄[0;36m█▄▄▄███████▀███[0m
 [36m███[0;1;36;46m            [0;36m██▄▄▄█████████████████████████████▄▄▄███████████[0;1;30;46m▀▓▀[0;36m██████████████[0m
 [36m▀███[0;1;36;46myour handle: (·············)[0;36m████[0;1;36;46m your realname: (····················)[0;36m██████[0m
-[36m████[0;1;36;46mlocation/gr[0;1;34;46mo[0;1;36;46mup: (·········[0;1;30;46m·[0;1;36;46m)     your vo[0;1;30;46mi[0;1;36;46mcenumba: (··················)[0;36m██████[0m
+[36m████[0;1;36;46m           [0;1;34;46m [0;1;36;46m              [0;1;30;46m [0;1;36;46m             [0;1;30;46m [0;1;36;46m                             [0;36m██████[0m
 [1;36;46m [0;36m██[0;1;36;46m░your birthdate: (··/··/····)   [0;1;30;46m░[0;1;36;46m your datan[0;1;30;46mu[0;1;36;46mmba:  (················[0;1;30;46m·[0;1;36;46m·)[0;36m████▓▌[0m
 [36m████[0;1;36;46mmal[0;1;34;46me[0;1;36;46m, female or animal? (··)[0;36m████[0;1;36;46m screen length[0;36m█[0;1;36;46m(24): (··)[0;36m████████████[0;1;30;46m■▀ ▄▄[0;36m█[0;1;30;46m▄[0m
 [1;36;46m [0;36m█[0;1;36;46m▄[0;1;37;40m█[0;1;36;46m▄[0;36m████████████████████████████████[0;1;30;46m░[0;36m█████████████████[0;1;30;46m [0;36m█████████████[0;1;30;46m▄[0;36m███████[0;1;30;46m█▌█[0m

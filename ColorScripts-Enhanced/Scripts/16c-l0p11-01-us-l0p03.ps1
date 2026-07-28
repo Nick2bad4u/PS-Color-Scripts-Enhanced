@@ -5,7 +5,7 @@
 # Source SHA-256: c998fbc799a209ec4e1cb12229f160bf69b362ae25a67d810ad2ef24f5d20aa5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-L0P03.ANS by Simonking + Firefx (thelo0p); released in l0p11_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: thelo0p003
 # SAUCE Author: firefx^simonking
 # SAUCE Group: thelo0p
@@ -39,7 +39,7 @@ Write-Host '
 [36m▄[0;1;36;46m▄[0;1;36;47m██▀▀▀[0m▀▀[1;36;47m▄[0m▄▄                 [1;32mansiworlddomination=)[0m [1;32m  [0m       ▀    [36m▀[0;1;36;46m▀▀[0;1;36;47m████[0;1;37;40m██[0;1;36;47m█▌[0m██[1;30;47m  [0m
 [1;36;47m██▌[0m▀  [36m▄[0;1;36;46m▄▄[0;1;36;47m███▄▄▄[0m▄▄                                             [1;36m▄[0m     [36m▀▀▀[0;1;36;46m▀▀▀▀[0;1;36;47m█▄[0;1;30;47m ░░[0m
 [1;36;47m██[0m▌  [36m▐[0;1;36;46m▐[0;1;36;47m██[0;1;36;46m██[0;1;36;47m██████▀▄[0m▄        [1;30m1st ansi-maker: firefx [0m              ▄         [36m▀[0;37m▀▀[0;1;30;47m▓▓[0m
-[36m▀[0;1;36;47m▀▄[0m▄  [36m▀[0;1;36;46m▀[0;1;36;47m█[0;1;36;46m█[0;1;36;47m█[0;1;37;40m██[0;1;36;47m█▀▀[0m▀ ▀[1;36;47m▀▄[0m▄      [1;30m2nd ansi maker: simonking[0m
+[36m▀[0;1;36;47m▀▄[0m▄  [36m▀[0;1;36;46m▀[0;1;36;47m█[0;1;36;46m█[0;1;36;47m█[0;1;37;40m██[0;1;36;47m█▀▀[0m▀ ▀[1;36;47m▀▄[0m▄      [1;30m                         [0m
    ▀▀▄   [36m▀[0;1;36m▀▀[0m▀▀     [1;30m▐[0;1;36;47m▐▌[0m▌
        ▀▀         [1;30m▄[0;1;30;47m▀[0m█▀
               [1;30m▄[0m▄ ▀▀[0m'

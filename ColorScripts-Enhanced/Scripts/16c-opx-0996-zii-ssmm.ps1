@@ -5,7 +5,7 @@
 # Source SHA-256: 3f25eee387b2f34462d63f5e9e223f617d2e5b67f4d0ed0bf29feeaf8c08c0f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-SSMM.ANS by Zeus II (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: silent scream main
 # SAUCE Author: Zeus II
 # SAUCE Group: Opium
@@ -36,4 +36,4 @@ Write-Host '
    [1;30;41m▒▓[0m [31m▀▀[0;37m [0;36;41m░[0;31;40m▄▀[0;37;40m [0;31;40m▀[0;36;41m░[0;1;30;41m▒[0;31m▄[0;36m▀▐█▄[0;32m▀▀[0;1;32;42m░[0;32m█[0;32;46m▒░[0;36;40m█▄▄▄▄█[0;32;46m▒▒[0;32;40m█[0;1;32;42m░[0;32m▀▀[0;36m▄█ [0;1;30;41m▒[0;31m▌[0;37m [0;1;30;41m▒▒░[0;31m▀[0;37m  [0;31m▐[0;1;30;41m▒▒[0;31m▀[0m   [31m■▀[0;37m  ([0;1;37mY[0m) [1;30mYodel[0m   [31m▄▄[0;1;31;41m▄[0;31m▀[0m
 [37m [0;31m░[0m   [31m▀[0;37m [0;31m■[0;37m [0;31m▀[0;1;30;41m░[0m [31m▀▄[0;37m [0;31m▀[0;1;30;41m▓▓[0;31m▄[0;36m▐[0;32;46m░[0;1;36;46m░[0;36m▄▄[0;37m [0;32m▀▀[0;32;46m▓▒░░░▒[0;36;40m▀[0;32;40m▀[0;37;40m [0;36;40m▄▄[0;1;36;46m░[0;32;46m░[0;36;40m█[0;31;40m▀[0;37;40m [0;31;40m▀▀[0;37;40m [0;31;40m▀[0m   [31;40m▄[0;1;30;41m▓[0;31m▀[0m   [31m░[0m   [31m▀▄[0m      [31m░[0m    [1;31;41m■▀[0;31m▀[0m
 [37m [0;31m▄[0m         [31m▀[0m    [31m░[0;37m [0;31m▀[0;37m [0;32;46m░[0;1;36;46m░░▒▓▓[0;1;36;40m▄▄▄▄▄▄▄▄[0;1;36;46m▓▓▓▒░[0;32;46m░[0;36;40m▌[0;37;40m ([0;1;37;40m=[0m) [1;30mStatus[0m   ([1m+[0m) [1;30mDeposit  [0m([1m?[0m)[1;30m Menu[0m
-  [1;31;41m■[0;31m■[0;37m _iTC_ROCKS!_  [0;31m [0;32;46m▒░[0;1;36;46m▒▓▓▓▓██████▓▓▓▓▒[0;32;46m▒▓[0;36;40m [0;37;40m ([0;1;37;40m#[0m) [1;30mSettings[0m ([1m-[0m) [1;30mWithdraw [0m([1m*[0m)[1;30m Sysop[0m'
+  [1;31;41m■[0;31m■[0;37m               [0;31m [0;32;46m▒░[0;1;36;46m▒▓▓▓▓██████▓▓▓▓▒[0;32;46m▒▓[0;36;40m [0;37;40m  [0;1;37;40m [0m  [1;30m        [0m  [1m [0m  [1;30m         [0m [1m [0m [1;30m      [0m'

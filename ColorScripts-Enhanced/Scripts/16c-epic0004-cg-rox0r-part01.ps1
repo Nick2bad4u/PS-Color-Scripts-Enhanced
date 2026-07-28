@@ -5,7 +5,7 @@
 # Source SHA-256: 668fa9c968a23f39561ccf38ea8fa3a8f3564b9e83f7de0da0c6188491d71143
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-ROX0R.ANS by Cryogenic (EPiC); released in epic0004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Logo / 25liner Colly
 # SAUCE Author: Cryogenic
 # SAUCE Group: EPiC
@@ -25,7 +25,7 @@ Write-Host '
 [1;34m▓[0m [31m [0;1;31;41m▄[0;31m▄[0;1;37m [0;35m▀[0;37m▀[0;1;37m [0;31m▀▀▄[0;1;31;41m▄[0;1;31;47m█▓[0;1;31;41m▀[0;1;31;40m▒[0;31m▄[0;1;37m [0;35m ▀[0;37m▀[0;35m▀  [0;1;37m [0;31m▄▄▀[0;37m  [0;34m [0;37m  [0;1;30m██[0m   [1;30mone thing ive found in drawing     [0m
 [1;34m█[0m [31m [0;1;31m▓▓▒▒[0;31m▄[0;1;37m [0;31m▄█ [0;1;31;41m▓██ [0;31m███▄ [0;1;37m [0;31m▀[0;1;31;41m▀█[0;1;31;47m▓[0;1;37;41m░[0;1;31;47m▀[0;1;31;41m▄[0m  [34m░[0;37m  ░[0;30;47m▓[0m   [1;30;40mthis is a sense of proportion,[0m
 [1;34;47m▓[0m [1;31m ▒▒[0;1;31;41m░░[0;31m▄███ [0;1;31;41m▓[0;1;31;47m▓[0;1;31;41m█  [0;31m███[0;1;31m▒▒[0;31m▄▄▀[0;1;31m█[0;1;31;47m▓[0;1;31;41m▀[0;31m▀[0;37m  [0;34m [0;37m  [0;1;30m██[0m   [1;30mwhich should help my future ansis.. =)[0m
-[1;44m▒[0;34m▌ [0;31m▐[0;1;31;41m░[0;31m▀████▀[0;1;31;41m▀[0;1;31;47m▓█[0;1;31;40m▓▒[0;31m▄████▀▀[0;1;31;41m░[0;1;31;40m▒▓▓▓[0m   [34m [0;37m  [0;1;30m██[0m   [1;30manywayz... scroll down for this month''s[0m
+[1;44m▒[0;34m▌ [0;31m▐[0;1;31;41m░[0;31m▀████▀[0;1;31;41m▀[0;1;31;47m▓█[0;1;31;40m▓▒[0;31m▄████▀▀[0;1;31;41m░[0;1;31;40m▒▓▓▓[0m   [34m [0;37m  [0;1;30m██[0m   [1;30m                                       [0m
 [1;44m░[0;1;34;44m▓[0;31m [0;37m [0;31m▓██▄[0;37m [0;31m▀▄ ▀[0;1;31m▀[0;31m▀▄███▀[0;1;37m  [0;31m▄█[0;1;31;41m░░[0;1;31;40m▓[0;31m░[0m   [1;34m░[0m  [1;30m██[0m   [1;30mlogos / 25liners .. EPIC4LIFE!@$! =)[0m
 [1;34m▓▓[0;34m▌[0;31m ░▓[0;1;31;41m░[0;31m█▒[0;37m [0;31m▐████[0;1;31;41m ░░[0;31m▌[0;1;37m [0;1;30m░[0;1;37m [0;31m▀███░ ░[0;37m  [0;1;34m▒[0m [1;30m [0;1;30;47m█[0;30;47m▓[0m   [1;30;40mcryogenic /// epic[0m
 [1;34m▒▒▓[0;34m [0;31m ░▓[0;1;31;41m░[0;31m▓ [0;1;30m▄[0m▄▄▄▄▄▄▄▄▄[1;30m▓[0;31m  ▐██ ░▓ [0;37m [0;1;34m▓[0;34m [0;37m ░[0;30;47m▓[0;37;40m  [0;1;30;40m░░[0m

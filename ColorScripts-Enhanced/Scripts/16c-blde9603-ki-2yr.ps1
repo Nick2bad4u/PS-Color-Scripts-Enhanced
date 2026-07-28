@@ -5,7 +5,7 @@
 # Source SHA-256: f5500e19636215da14288dfc2c74d81f7363a2d6f36ee1d50c1cca6bf4a1625f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KI-2YR.ANS by kiwi (blade productions); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: blade two year promo
 # SAUCE Author: kiwi
 # SAUCE Group: blade productions
@@ -38,4 +38,4 @@ Write-Host '
 [33m▐█[0;37;43m [0;33;40m█████▓▓▄▄▀▀▀▓▓████████[0;1;31;43m  [0;33m██▓▓▄▄[0m            [33m░[0m   [37mto repor-[0m
 [33m▐▐[0;37;43m  [0;33;40m█████████▓▓▄▄▄▄▄▄▄▒▒▀▀████████▄▄▄▄▄▄▄▄▄▄▓▌[0m   [37;40m*GASP* Mission Control,[0m
 [33;40m▐▐[0;37;43m    [0;33;40m███████████████[0;31;43m   [0;33;40m█▌ ██████████████████▌[0m   [37;40mWe have a problem out here.[0m
-[33;40m▐ ▀█[0;30;43mkiwi.blade[0;37;43m  [0;33;40m███[0;31;43m░░░[0;1;31;43m   [0;33m ░▀██████▓▓▓▓▓▓▓▓▓▓█▌[0;37m  [0;30;47m▌Blade two year anniversary.▐[0m'
+[33;40m▐ ▀█[0;30;43m          [0;37;43m  [0;33;40m███[0;31;43m░░░[0;1;31;43m   [0;33m ░▀██████▓▓▓▓▓▓▓▓▓▓█▌[0;37m  [0;30;47m▌                           ▐[0m'

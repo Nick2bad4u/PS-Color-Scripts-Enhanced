@@ -5,7 +5,7 @@
 # Source SHA-256: fb28416532479711e73888700872028a472daa64f259b052654a8da9e2566302
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ON-ATL1.ANS by O-Tron (Teklordz); released in tl199602 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Atlantis
 # SAUCE Author: O-Tron
 # SAUCE Group: Teklordz
@@ -62,6 +62,6 @@ Write-Host '
 [33m▌[0;37m [0;1;30m▄[0;33m▐[0;1;30;43m░   [0;1;33;43m░[0;33m▌[0;1;30m▄[0;1;37;47m▓[0m [1;30;47m▒[0m█ [1;36;46m░[0;1;36;40m▄[0m [1;30;47m▒[0m█ ▄ ▐▌[1;36;46m▒▒[0;1;30;47m▓[0m▌ ▄▄▄▀▀[1;30;47m░[0m▄ [1;30;47m▒[0m▄▄[1m▀█[0m [1;30m▀[0m
  [1;30m▐[0;1;37;47m░[0;33m▀[0;1;30;43m   [0;33m▀▀[0;37m ▐[0;1;37;47m▒[0m  [1;30;47m▓[0m▌[1;36;46m▒▒[0m  [1;30;47m▓[0m▀ ▀▄▀ [1;47m░[0;36m▄[0;37m▀▀[0;1;36;46m░[0;36m▄[0;1;36;46m░▒▓[0;1;36;40m▀[0;1;30;47m▒[0m▌[1;30m▄▄[0m▄▀   [1;30m▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀▀▀[0m    [1m▀▀▀[0m  [1m▀[0m
  [1;47m░[0m▄▀      █[1;47m▒[0;1;36;46m░[0m  [1;30;47m▓[0m▄▄   [1m▄▄[0m█▄█▄ [1;47m░[0;1;40m▄▄[0m▄▄▄▀[1;30m▀▀▀[0m▀    [1;30m■[0m [1;30m100%[0m [1;30mo[0mriginal pictur[1me[0m [1mand[0m [1mlogo[0m [1m█[0m
- [1;30m▐[0m▌      ▐[1;47m░[0m [1;36;46m░▒▓[0;1;36;40m▄[0m  ▀▀▀▄▀                 [1;30m▄[0m [1;30mby O-Tron[0m [1;30mof[0m Teklordz Prod[1muctions▐█[0m
+ [1;30m▐[0m▌      ▐[1;47m░[0m [1;36;46m░▒▓[0;1;36;40m▄[0m  ▀▀▀▄▀                 [1;30m▄[0m [1;30m         [0m [1;30m  [0m              [1m       ▐█[0m
         [1;30m▄[0;1;37;47m░[0;36m▄[0;1;36;46m░▒[0m  ▄▄▄▀▀▀                   [1;30m▀▀[0m      [1;30m▀▀[0m▀▀▀     ▀▀▀▀▀▀▀▀▀[1m▀[0m   [1m▀[0m [1m▀▀▀▀[0m
        [1;30m▀▀[0m▀[1m▀▀[0m▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c98776e62f6aeacf0f698f58b18834cb598385715f62fab0818520e43866688f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-cteaser.ans by Hayn9 + The Knight (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: C-Teaser
 # SAUCE Author: hayn9  the knight
 # SAUCE Group: Legacy Krew
@@ -50,7 +50,7 @@ Write-Host '
       [36m [0;37m    [0;36m███▀▀▀▀▀██[0;1;30m [0m  [36m▀▀▀▀▀[0m     [36m▀▀▀▀▀[0m     [36m▀[0;1;36;46m▀[0;36m██▄▄▄▄ █▀▀▀▀▀[0m     [36m▀[0;31m [0;1;37;41m▓[0;31m░[0;1;37;41m▒[0;36;41m▌[0;1;30;40m 7k[0m
       [36m ▀ [0;1;36;46m░░[0;36m ▄▄▄▄▄▄▄[0;1;36;46m▄[0;36m██▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄▄▄▄[0;1;36;46m░▒[0;36m█▀[0m      [36m▀█▌▄▄▄▄▄▄▄▄▄▄▄[0;1;37;41m▒[0;31m░[0;1;37;41m░[0;36;41m▌[0;1;30;40m [0;36m▄▄ ▀[0m
              [36m█▀▀▀█[0;1;36;46m▓▒░[0;36m▓▀▀▀▀▀█▀▀▀░▀▀▀▀▀▀▀▀▀▀▀▀░▀▀▀▀▀▀ ▀█[0;1;36;46m░[0;36m█▄▀▀▀▀▀▀▀▀▀[0;1;37;41m▒[0;31m▒[0;1;37;41m░[0;36;41m▌[0m
-             [36m█[0;1;30m▄[0m   [36m█[0;37m [0;1;36;46m░[0;36m▒[0;37m [0;1;30m [0mansi by[36m▒[0;37mhayn9[0;1;30m [0mand the[1;30m [0mknight[1;30m [0;36m█[0;1;36;46m▒▓[0;36m▓▀[0;37m  [0;1;30m░░░░░[0m [1;41m▒[0;31m▒[0;1;37;41m░[0;36;41m▌[0m
+             [36m█[0;1;30m▄[0m   [36m█[0;37m [0;1;36;46m░[0;36m▒[0;37m [0;1;30m [0m       [36m▒[0;37m     [0;1;30m [0m       [1;30m [0m      [1;30m [0;36m█[0;1;36;46m▒▓[0;36m▓▀[0;37m  [0;1;30m░░░░░[0m [1;41m▒[0;31m▒[0;1;37;41m░[0;36;41m▌[0m
              [36m█ [0;37m   [0;36m▌[0;37m [0;36m▓░[0;37m    [0;1;30m▄[0;36m█[0;1;30m ▄[0m [36m▓[0;1;30m▄▄▄▄▄[0m   [1;30m▄▄▄▄[0;36m░ [0;1;30m▄▄[0m [1;30m▄▄▄▄[0;36m██[0;1;36;46m░[0;36m▀██▄[0;37m  [0;1;30m▒▒▒[0m [31;47m [0;31;40m▓[0;1;37;41m▒[0;36;41m▌[0m
              [36m▌ [0m     [36m▒▐[0m     [36m█▄[0;37m [0;36m▐█[0m            [36m▒▌[0m      [36m █▐█[0;1;30m▄[0m [36m▀[0;1;37;41m▀▄[0;36m▄ [0;1;30m▓▓[0;31m [0;31;47m [0;31;40m▓[0;1;37;41m▓[0;36;41m▌[0m
               [36m  [0;37m    [0;36m░▀▄[0;37m    [0;36m█[0;37m [0;36m▀▀[0m             [36m▐▓[0m     [36m ██ ▓[0;37m [0;1;30m▀▄[0m [31m▀[0;1;37;41m▀▒[0;36m▄ [0;31m [0;31;47m [0;31;40m▓[0;1;37;41m▓[0;36;41m▌[0m

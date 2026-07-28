@@ -5,7 +5,7 @@
 # Source SHA-256: 15836f218aec841051ad89ea1bc88fd7b08caefb4f5d682ace3bbd78a62b3ffd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!MASKED_CHILDREN_IN_CIRCUS_TERRORISM.ANS by sIMONkING (thelo0p^LAZARUS); released in blndr2024d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Masked children in cirus
 # SAUCE Author: sIMONkING
 # SAUCE Group: thelo0p^LAZARUS
@@ -66,4 +66,4 @@ Write-Host '
 [31m███████▄▄▄███████████████████████████████████████▄▀███████████████████████▀▄████[0m
 [31m██████████████████████████████████████████████████▄▀█████████████████████▀▄█████[0m
 [31m████████████████████████████████████████████████████[0;37m [0;31m▀█████████████████▀[0;37m [0;31m███████[0m
-[1;30;41mGreetings for LAZAURS/thelo0p/IMPURE1940/FIRE/MISTIGRIS[0;31m▀█████████████▀▄██████[0;1;37;41m▀▀▀[0m'
+[1;30;41m                                                       [0;31m▀█████████████▀▄██████[0;1;37;41m▀▀▀[0m'

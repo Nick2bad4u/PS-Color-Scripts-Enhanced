@@ -5,7 +5,7 @@
 # Source SHA-256: 2b675d1cd36a28b8c617faec1e8b819bbfcb6e34a2dcacf37d28f9a6191ce97a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SQ-ALC3.ANS by Sobriquet (Saga); released in saga9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Alcatraz
 # SAUCE Author: Sobriquet
 # SAUCE Group: Saga
@@ -17,7 +17,7 @@
 Write-Host '
   [35m██▓███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████  [0m
   [35m█████▓[0m [1;30m█▀▀▓▀[0m [34m▄▄[0;1;34;44m▒░[0;1;30;40m █▓▄▄[0m [1;30;40m▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀█[0m [35m██████ [0;37m [0m
-  [35m██████[0m [1;30m▓....[0;1;34;44m░▒▓▓[0;34m▓[0;1;30m [0;1;30;44m▒▓[0;1;30;40m██▓....Sobriquet of Saga.......[0m [1;30;40m█[0m [1;30;40mcontact.me.on[0m [1;30;40m▓[0m [35m▓█████[0m
+  [35m██████[0m [1;30m▓    [0;1;34;44m░▒▓▓[0;34m▓[0;1;30m [0;1;30;44m▒▓[0;1;30;40m██▓                            [0m [1;30;40m█[0m [1;30;40m             [0m [1;30;40m▓[0m [35m▓█████[0m
   [35m██████[0m [1;30m█...[0;34m▀▓▀▀▀▀[0;1;30m ▀▀▀[0;34m▓[0;1;30m▀▀...Presents:...............[0m [1;30m█[0m [1;30malcatraz...or[0m [1;30m▒[0m [35m██████[0m
   [35m██████[0m [1;30m█...▀[0;1;30;44m▒▓▓█[0;1;30;40m▓ [0;1;34;44m▓▓▒░[0;34m█▀[0;1;30m...Alcatraz................[0m [1;30m█ ground...zero[0m [1;30m▓[0m [35m██████[0m
   [35m█████▓[0m [1;30m▓....▀[0;1;30;44m▓██[0;1;30;40m▓ [0;1;34;44m░▒[0;34m█▓▀[0;1;30m....One hello to Realize....[0m [1;30m▓[0m [1;30m.............[0m [1;30m█[0m [35m██████[0m

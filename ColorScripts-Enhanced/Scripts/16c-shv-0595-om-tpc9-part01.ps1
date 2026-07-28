@@ -5,7 +5,7 @@
 # Source SHA-256: 297350a3bfed40416919c060e6a5cea343d42171d85a42de58eb19403d7192b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OM-TPC9.ANS by Omega Red (Shiver); released in shv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Players Club
 # SAUCE Author: Omega Red
 # SAUCE Group: Shiver
@@ -17,7 +17,7 @@
 Write-Host '
 [1m  [0m         [1m [0;1;30m░[0;1;37m  [0;1;30m▄▄[0m▄[1;30m▄[0m▄[1;30;47m░[0m   [1;30m [0m
 [1m  [0m        [1;30m▒[0;1;37m [0;1;30m▄▓▀▓▀▀▀▒[0;1;30;47m▓▓▒[0m▄[1m [0;1;30m░[0;1;37m    [0m  [1;30;47m▒░[0;33;47m░[0;37;40m█▄▄[0m
-[1;37;40m  [0;1;37;47m▄▄[0;1;30;47m░[0;1;37;47m▄[0;33;47m▒[0;1;30;47m▒[0;1;37;47m■[0;1;30;47m▓[0m [1;30m▄[0;1;33m [0;1;30m [0;1;37m [0;1;30m▌[0;1;37m▓▄▄▄[0;1;30m  [0;1;30;47m▓░[0m▄[1m [0;1;30;47m█▓▒▒[0;33;47m▒[0;1;30;47m░[0;33;47m░[0;1;37;47m░▄[0;33;47m░[0;1;37;47m▄▄[0;33;47m░[0;37;40m▄[0;33;47m░[0;1;37;40m   [0;33miF yoU wOulD Like aN anSI aD,[0m
+[1;37;40m  [0;1;37;47m▄▄[0;1;30;47m░[0;1;37;47m▄[0;33;47m▒[0;1;30;47m▒[0;1;37;47m■[0;1;30;47m▓[0m [1;30m▄[0;1;33m [0;1;30m [0;1;37m [0;1;30m▌[0;1;37m▓▄▄▄[0;1;30m  [0;1;30;47m▓░[0m▄[1m [0;1;30;47m█▓▒▒[0;33;47m▒[0;1;30;47m░[0;33;47m░[0;1;37;47m░▄[0;33;47m░[0;1;37;47m▄▄[0;33;47m░[0;37;40m▄[0;33;47m░[0;1;37;40m   [0;33m                             [0m
 [1;37m  [0;1;37;47m▓[0;33;47mSHiVER[0;37;40m  [0;1;30;40m▓░ [0;1;37;40m▐▓ ▄ █▌[0;1;30;40m  [0;1;30;47m▓[0;1;30;40m█[0;1;37;40m  [0;1;30;47m█[0;33;47m░''95▓▒[0;1;37;47m▒▓▓█▄■[0;33;47m▒[0;33;40m▄[0;1;37;40m  [0;33mit wilL be 5 bucKs iF yoU cAn[0m
 [1;37m  [0;1;37;47m▒[0m█[33;47m░[0;1;30;47m░░▒[0m   [1;30m▒░[0;1;33m [0;1;37m▐▒ [0m▄[1m ▓▒[0;33m▒[0;1;30m ▓▓[0;1;37m  [0;1;30;47m▓▒░[0;1;37;47m░░▒▒▓▒▓▓▓▀[0;33;47m░[0;37;40m▌[0;1;37;40m  [0;33mfiND mE. ascII aD bY OmeGa [0;31mR[0;33med[0m
 [1;37m  [0;1;37;47m░▄■[0;1;30;47m░▒[0;33;47m▓[0;1;30;47m▓[0;1;30;40m█[0m [1m [0;1;30m▒░[0;1;37m░█▄▄▄▀■[0;33m░[0;1;30m░▒[0;1;37m [0;1;30m▓[0;1;30;47m▓[0;33;47m▓[0;1;30;47m▒[0;1;37;47m■[0;1;30;47m░[0;33;47m░[0;1;37;47m░▀▀▀▒▀[0;1;30;47m░[0m▀[1m    [0;33m    of SH[0;1;33mi[0;33mVER pRoDuCtiONs[0m

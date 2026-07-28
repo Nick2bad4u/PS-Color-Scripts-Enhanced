@@ -5,7 +5,7 @@
 # Source SHA-256: 21daba1c2c6327beeb22747ac72fbd71401e454ed1ec8be326502c48c3877eb3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FBATCHM.ANS by Amroth (am-gore); released in am-gore and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -31,6 +31,6 @@ Write-Host '
                                                     [1;33m▀▀    [0;1;30m▀▀   ▀▀[0m
      [31m▄▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▄[0m
 [31m    ▐[0;1;37;41m▄■[0;1;31;41m([0;1;37;41mC[0;30;41m)lear[0;31;40m█[0;30;41mBatch[0;31;40m█[0;30;41mQueue[0;31;40m███████[0;1;31;41m([0;1;37;41mD[0;30;41m)ownload[0;31;40m█[0;30;41mBatch[0;31;40m███▌ ▄▄[0m                    [31;40m▄▄[0m
-[31;40m    ▐[0;1;37;41m▌[0;31m█[0;1;31;41m([0;1;37;41mR[0;30;41m)emove[0;31;40m█[0;30;41mFile[0;31;40m█[0;30;41mfrom[0;31;40m█[0;30;41mQueue[0;31;40m██[0;1;31;41m([0;1;37;41mU[0;30;41m)pload[0;31;40m█[0;30;41mBatch[0;31;40m█████▌▒▒▀▀[0m                  [31;40m▀▀▓▓[0m
-[31;40m ▄[0;1;31;41m▄[0;31m█▐[0;1;37;41m│[0;31m█[0;1;31;41m([0;1;37;41mL[0;30;41m)ist[0;31;40m█[0;30;41mBatch[0;31;40m█[0;30;41mQueue[0;31;40m████████[0;1;31;41m([0;1;37;41mQ[0;30;41m)uit[0;31;40m█[0;30;41mBatch[0;31;40m█[0;30;41mMenu[0;31;40m▀▄██▄  ▄▄[0m       [31;40m▄■.   ▄▄█████[0m
+[31;40m    ▐[0;1;37;41m▌[0;31m█[0;1;31;41m [0;1;37;41m [0;30;41m      [0;31;40m█[0;30;41m    [0;31;40m█[0;30;41m    [0;31;40m█[0;30;41m     [0;31;40m██[0;1;31;41m [0;1;37;41m [0;30;41m      [0;31;40m█[0;30;41m     [0;31;40m█████▌▒▒▀▀[0m                  [31;40m▀▀▓▓[0m
+[31;40m ▄[0;1;31;41m▄[0;31m█▐[0;1;37;41m│[0;31m█[0;1;31;41m [0;1;37;41m [0;30;41m    [0;31;40m█[0;30;41m     [0;31;40m█[0;30;41m     [0;31;40m████████[0;1;31;41m [0;1;37;41m [0;30;41m    [0;31;40m█[0;30;41m     [0;31;40m█[0;30;41m    [0;31;40m▀▄██▄  ▄▄[0m       [31;40m▄■    ▄▄█████[0m
 [31;40m█[0;1;31;41m▒▒.[0;31m██▄▄■▄██▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▀▀▀▀■▄█████▓▓▓▓▓▓▀▀■▄[0;1;31;41m▄▒▒[0;31m██▌▓▓▀▀ .■  ▒▒▄[0;1;37;41mAMROTH GORE[0m'

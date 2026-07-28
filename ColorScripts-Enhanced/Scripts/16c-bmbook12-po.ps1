@@ -5,7 +5,7 @@
 # Source SHA-256: 50f9e70cdba16c83293d86d3266efcec0cafffdfdd69efeb69a660ed015c9a6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-&.ANS by poti (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ampersand
 # SAUCE Author: poti
 # SAUCE Group: black maiden
@@ -41,4 +41,4 @@ Write-Host '
 
 
 [34m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;37;40m [0;1;37;40mampersand [0;1;34;40mfor 33rie^awe [0;34m────────────────────────────────────────────┐ [0m
-[30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;1;30;40m [0;1;34;40mdieznyks solopack was simply too much for me. [0;34m─────────────────────┘[0m'
+[30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;1;30;40m [0;1;34;40m                                              [0;34m─────────────────────┘[0m'

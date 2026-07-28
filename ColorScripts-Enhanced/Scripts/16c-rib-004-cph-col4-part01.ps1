@@ -5,7 +5,7 @@
 # Source SHA-256: 1856ef9bb1a2f575e213fa0795b117bc823015c7383ce00489727aa5f39dca9d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-COL4.ANS by {YBERPUNCh (RiB); released in rib-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: {YBERPUNCh
 # SAUCE Group: RiB
 # SAUCE Date: 19971210
@@ -20,7 +20,7 @@ Write-Host '
 [1m  [0;1;32;42m░░░[0;1;37;40m    [0;1;32;42m░░░[0;1;37;40m [0;1;32;42m░░░[0;1;37;40m [0;1;36;46m▒░[0;1;37;40m [0;1;32;42m░░░[0;1;37;40m [0;1;32;42m░░░[0;1;37;40m [0;36m▄▄[0;1;37m [0;1;32;42m░░░[0;1;32;40m [0;1;34;46m░░░[0;1;36;46m  [0;36m█▐[0;36;42m▓[0;1;36;46m   in thiz colly u can see a lot   [0;36m█[0m
 [1;36m [0;1;34m [0;1;32;42m▒▒▒[0;1;34;40m [0;36m░░[0;1;34m [0;1;32;42m▒▒▒[0;1;34;40m [0;1;32;42m▒▒▒[0;1;34;40m [0;1;36;46m░░[0;1;34;40m [0;1;32;42m▒▒▒ ▒▒▒[0;1;34;40m [0;36;42m▓[0;36;40m▌[0;1;34;40m [0;1;32;42m▒▒▒[0;1;34;40m [0;36m██████▐[0;36;42m▓[0;1;36;46m   of my latest pix..so , i hope   [0;36m█[0m
 [36m [0;1;37m [0;1;32;42m▓▓▓[0;1;37;40m    [0;1;32;42m▓▓▓[0;1;37;40m [0;1;32;42m▓▓▓[0;1;37;40m [0;1;36;46m░[0;36m█[0;1;37m [0;1;32;42m▓▓▓[0;1;37;40m [0;1;32;42m▓▓▓[0;1;37;40m [0;36m█[0;1;37m [0;1;32m▐[0;1;32;42m▓▓[0;1;32;40m▌[0;36m █[0;36;42m▒▓▓[0;36;40m██▄[0;36;42m▓[0;1;36;46m   u will like it..                [0;36m█[0m
-[1;37m  [0;1;32m███[0;1;37m  [0;1;32m  ███[0;1;37m [0;1;32m███[0;1;37m [0;36m█▌[0;1;37m [0;1;32m███[0;1;37m [0;1;32m███[0;1;37m [0;36;42m▓[0;1;37;40m [0;1;32;40m███[0;36m ▐███████[0;1;36;46m    greetz go out to the whole       [0m
+[1;37m  [0;1;32m███[0;1;37m  [0;1;32m  ███[0;1;37m [0;1;32m███[0;1;37m [0;36m█▌[0;1;37m [0;1;32m███[0;1;37m [0;1;32m███[0;1;37m [0;36;42m▓[0;1;37;40m [0;1;32;40m███[0;36m ▐███████[0;1;36;46m                                     [0m
 ░░[1;32;47m▓▓▓[0m░░░░[1;32;47m▓▓[0;1;32;42m▓[0m░[1;32;47m▓▓▓[0m░[36;42m▓[0;37;40m░[0;1;32;40m▐[0;1;32;47m▓▓[0;1;32;40m▌[0m░[1;32;47m▓▓▓[0m░▓░[1;32;47m▓▓▓[0m░░[36m███████[0;36;42m▓[0;1;36;46m   russian demoscene and artists  [0;36m▄▄[0m
 [1;37m [0;1;32m▐██▌[0;1;37m  [0;1;32m [0;1;37m [0;1;32m███[0;1;37m [0;1;32m███[0;1;37m [0;36m▌[0;1;37m [0;1;32m███[0;36m [0;1;37m [0;1;32m███[0;1;37m [0;1;36;46m░[0;1;37;40m [0;1;32;40m▐██▌[0m [36m▐██████[0;36;42m▓[0;1;36;46m   i respect :                     [0;36m█[0m
 [1;37m [0;1;32;42m▓▓▓[0;1;37;40m     [0;1;32;42m▓▓▓[0;34m [0;1;32;42m▓▓▓[0;1;37;40m [0;36m▌[0;32m▐[0;1;32;42m▓▓[0;1;32;40m▌[0;36m▐▌[0;1;32;42m▓▓▓[0;1;37;40m [0;36m█▌[0;1;37m [0;1;32;42m▓▓▓[0;1;32;40m [0;36m █[0;1;36;46m░░[0;36m█▄█[0;1;36;46m    pL , mAg , phl! , HVK ..         [0m

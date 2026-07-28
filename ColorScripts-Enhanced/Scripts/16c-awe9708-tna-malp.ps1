@@ -5,7 +5,7 @@
 # Source SHA-256: 1b955fc2a52daa5588b418f3049abe54fa784c1e1782f0141d30c12015f2ada4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-MALP.ANS by The Night Angel (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Malpractice
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -37,5 +37,5 @@ Write-Host '
 [1;30m█▀ ░[0m     [1;36m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m         [0m       [1;30;47m▓[0;1;30;40m██▀[0m
 [1;30;40m██▄▓▐▄   [0;1;36;40m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m         [0m      [1;30m▐[0;1;30;47m▄[0;1;30;40m██▌[0m
 [1;30;40m▀████▀   [0;1;36;40m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m         [0m     [1;30m▄▀ ███[0m
-[1;30m█▀█[0;1;30;47m▀[0;1;30;40m██▄  [0;1;36;40me  [0;36mcommand e    [0;1;36mj  [0;36mcommand j    [0;1;36mo  [0;36mcommand o    [0;1;36mt  [0;36mcommand t [0;1;30m░▀▀   ▀▀▀[0m
+[1;30m█▀█[0;1;30;47m▀[0;1;30;40m██▄  [0;1;36;40m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m          [0;1;30m░▀▀   ▀▀▀[0m
 [1;30m ▀████▀ ─-─────-──────-─-─────-──-───-──────--─────-───-───--──-──( [0;1;36mcommand[0;36m: [0;1;5;37m_ [0;1;30m)[0m'

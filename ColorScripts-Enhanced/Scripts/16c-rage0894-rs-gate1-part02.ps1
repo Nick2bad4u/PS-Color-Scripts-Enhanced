@@ -5,7 +5,7 @@
 # Source SHA-256: eafb4c351ed1d867c5b7c38833e897388e9fcf1305023b6e3a3ec9a6890820c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-GATE1.ANS by ReNeGAde SPiRiT (RaGE); released in rage0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mystical Gate of Re-incarnation
 # SAUCE Author: ReNeGAde SPiRiT
 # SAUCE Group: RaGE
@@ -50,7 +50,7 @@ Write-Host '
              [1;34m.[0m              [1;34m.  ·[0m                               [1;34m·[0m
               [1;34m·    ·[0m                          [1;34m·[0m                [1;34m·[0m
                                [1;34m·[0m
-[1;34m  [0;1;30m┌─[0;1;37mL[0mi[1mƒ[0;1;30mE─[0;1;37mi[0mS[1;30m─[0;1;37mT[0mH[1;30me─0[0;1;37mn[0mL[1mY[0;1;30m─Γ[0;1;37mHi[0mÑ[1mG[0;1;30m─[0;1;37mW[0mo[1mRT[0;1;30mH─D[0;1;37mÿI[0mN[1mG─[0mF[1;30mO[0;1;37mR──┐[0m
+[1;34m  [0;1;30m┌─[0;1;37m [0m [1m [0;1;30m ─[0;1;37m [0m [1;30m─[0;1;37m [0m [1;30m ─ [0;1;37m [0m [1m [0;1;30m─ [0;1;37m  [0m [1m [0;1;30m─[0;1;37m [0m [1m  [0;1;30m ─ [0;1;37m  [0m [1m ─[0m [1;30m [0;1;37m ──┐[0m
 [1;37m  [0m│    [1;34m·[0m      [1;34m· .[0m            [1;34m· ·[0m            │       [1;34m· .[0m
 [1;34m  [0;1;30m│   [0;1;34m.[0m                      [1;34m.[0m              [1;37m│[0m
 [1;37m  [0;1;30m└───[0m─[1;30m───[0;1;37m─[0;1;30m─[0;1;37m──[0m───[1;30m─[0;1;37m─[0m──[1m──[0m─[1m─[0m───[1m────[0m─[1m───[0m──[1m──────┼────────[0m──[1m───[0;1;30m─[0m───[1m─[0;1;30m─[0m──[1;30m─[0m─[1;30m────────[0m──[1;30m┐[0m

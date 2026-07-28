@@ -5,7 +5,7 @@
 # Source SHA-256: 7160d01c4c40293fa5ea04cae70a65064f563955f656095233b30347adf19e5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LUM-MEN.ANS by geting high.. !@ (lum! ^ dC); released in shl_0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: geting high.. !@
 # SAUCE Group: lum! ^ dC
 # SAUCE Date: 19970527
@@ -38,7 +38,7 @@ Write-Host '
         [35m██████████████▄[0;32m [0;1;32;42m■[0;32m▌[0;37m [0;1;32;42m░[0;32m▄▄[0;37m  [0;32m▄[0;1;32;42m [0m     [35m▄███████▀▀▀[0m
          [1;35;45m■▄[0;35m████████████▄[0;37m [0;32m▀▄[0;37m [0;32m▀▀▀▀▀[0;37m [0;32m▄■[0;37m [0;35m▄███▀▀▀[0m
           [35m█[0;1;35;45m█[0;35m███████[0;1;35;45m▄▀[0;35m▀[0;37m  [0;35m▀[0;37m [0;32m▐[0;1;32;42m░▄[0;32m▄▄▄[0;1;32;42m▄■[0;32m▌[0;35m▀▀▀[0m     [1;30m15 mins fast job...[0m
-           [35m▀[0;1;35;45m▀██▄▄▄█▓[0m [32m▄ [0;37m  [0;32m▄█[0;1;32;42m▓█████[0;32m▌ ▄▄[0;37m  [0;32m [0;1;32;42m■[0m    [1;30mhey i just get the inspiration..[0m
+           [35m▀[0;1;35;45m▀██▄▄▄█▓[0m [32m▄ [0;37m  [0;32m▄█[0;1;32;42m▓█████[0;32m▌ ▄▄[0;37m  [0;32m [0;1;32;42m■[0m    [1;30m                                [0m
              [35m▀[0;1;35;45m▀▀▀▀[0;35m▀[0;37m [0;32m▄▄█▄██▐[0;1;32;42m▓█▓███▄[0;32m▄ ▀█▄▐[0;1;32;42m░[0;32m▀       [0m
                      [32m  ▀▀[0;37m [0;32m▐[0;1;32;42m▐█████▓▓[0;32m▌[0;37m  [0;32m▀▀[0m
                           [32m█[0;1;32;42m▓▓████[0;32m▄[0;1;32;42m▓[0;32m█[0m

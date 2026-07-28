@@ -5,7 +5,7 @@
 # Source SHA-256: a25c33c996e124cdb1c485bb1b212314fe8fb237736df69959e3a72e1c6db65f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-FIAT1.ANS by Mr.Wrong (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fiat lux
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: irato
@@ -32,7 +32,7 @@ Write-Host '
         [34m▄ ▀░[0;37m [0;34m [0;37m [0;34m▀[0;37m [0;33m▀[0;1;33;43m▀▄▀[0;33m▀[0;1;33;43m▀▓[0;33m▀▄[0;1;33m [0m [33m▐[0;1;33;43m░[0;33m▀[0;31m▄[0m   [34m▄[0m           [34m▄ ▀[0;31m▄[0;37m [0;31m▀[0;37m  [0;33m▄[0;1;33;43m▄[0;1;33;40m██[0;1;33;41m▓[0;1;33;43m▀[0;33m▀[0;31m▄[0;37m [0;34m▀[0m    [34m  [0;37m  [0;34m▀[0m
          [34m [0m    [37m     [0;33m▀[0;1;33;43m▀▄▓░[0;1;33;40m░[0;33m▄[0;37m  [0;33m▀[0;37m░[0;31m▀[0;37m [0;34m ▀[0m            [34m  [0;37m    [0;33m▀[0;31m▄[0;33m▀[0;1;33;43m░▓[0;1;33;40m█[0;1;33;43m▀[0;1;33;41m░[0;31m▄[0;33m▀[0;1;33m   [0m      [1;30mMr[0;31m.[0;1;30mWrong[0m
 [33m            - -- ---[0;37m [0;33m▀[0;1;33;43m░[0;33m▀[0;37;43m░[0;33;40m▌▀[0;37;40m [0;33;40m▀[0;1;34;40m░[0;34m▄▀[0;37m [0;33m-[0;37m  [0;1;33mF[0;1;37m [0;1;33mi a t[0;1;37m L u x[0m  [33m-[0;37m [0;31m▐▌[0;33m▐[0;1;33;43m░[0;33m▀▄[0;31m▀[0;37m [0;33m--- -- -[0;1;33m [0;33m [0;37m  [0;31m([0;1;30mGlue[0;31m)[0m
-            [34mwhat[0;37m [0;34man[0;37m   [0;33m░▀▄▀[0;37m [0;33m▄[0;34m░[0;37;44m░[0;34;40m▌[0;37;40m [0m    [34;40mugly name for[0;37;40m   [0;31;40m▄[0;37;41m░[0;31;40m▄[0;33;40m▀[0;37;40m░[0;33;40m▀[0;37;40m  [0;34;40ma magazine[0m
+            [34m    [0;37m [0;34m  [0;37m   [0;33m░▀▄▀[0;37m [0;33m▄[0;34m░[0;37;44m░[0;34;40m▌[0;37;40m [0m    [34;40m             [0;37;40m   [0;31;40m▄[0;37;41m░[0;31;40m▄[0;33;40m▀[0;37;40m░[0;33;40m▀[0;37;40m  [0;34;40m          [0m
              [37;40m            [0;31;40m▀▄[0;37;40m  [0;34;40m░▀[0;37;40m [0;34;40m [0m                [37;40m [0;31;40m▄[0;33;40m▀▄▀[0;31;40m▄[0;33;40m [0;37;40m     [0m
                             [31;40m▄[0m                   [33;40m▀[0m    [31;40m▀[0m
                                                    [31;40m▀[0m'

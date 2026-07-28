@@ -5,7 +5,7 @@
 # Source SHA-256: 4369144f3e522e5abede932011726f97e6ca1bbd315c9b1f40596e2df40b217a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-CH01.ANS by Lord Jazz (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Channel Zer0
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -18,7 +18,7 @@ Write-Host '
 [1m┌[0m───[1;30m─[0m──[1;30m─[0m─[1;30m────────────────────────────────────┬─────────────┬───────────────[0m─[1;30m─[0m─[1m┐[0m
 │ [33m▄  ▄[0m        [33m■ ▄ ▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄[0m            [1;30m│ LD-CH01.ANS │ Lord Jazz <[0;1;37mA[0;33mC[0;1;30miD> [0m│
 [1;30m│  [0;33m▄▀▄[0m      [33m■ ▄▀▀█▄▀[0;33;43m  [0;1;30;43m░[0m [1;30;43m          [0;33m▄   [0;1;30m· ··- -├─────────────┴──────────--- - · [0m│
-│ [43m  [0;33;40m▀▄[0m             [33;43m  [0;1;30;43m░▒[0m       [33m▀[0;33;43m  [0;1;30;43m░▒[0m          [1;30;40m│ If You Would Like To Purchase  │[0m
+│ [43m  [0;33;40m▀▄[0m             [33;43m  [0;1;30;43m░▒[0m       [33m▀[0;33;43m  [0;1;30;43m░▒[0m          [1;30;40m│                                │[0m
 [1;30;40m│ [0;1;30;43m ░▒▓[0m             [1;30;43m ░▒▓[0m        [1;30;43m ░▒▓[0m          [1;30;40m│ An ANSi From Me, I Can Be[0m      │
 [1;30m│ [0;1;30;43m░▒▓█[0m [1;30;40m▀[0m           [1;30;43m░▒▓█[0m [1;30;40m▀[0m      [1;30;43m░▒▓█[0m [1;30;40m▀[0m        [1;30;40m│ Reached In The 7i4 Area.[0m       [1;30;40m│[0m
 [1;30;40m│ [0;1;30;43m▒▓[0;1;30;40m▀[0m▄ [1;30m█[0m           [1;30;43m▒▓[0;1;30;40m▀[0m▄ [1;30m█[0m      [1;30;43m▒▓[0;1;30;40m▀[0m▄ [1;30m█ · ··- -├────────────────────────--- - · │[0m

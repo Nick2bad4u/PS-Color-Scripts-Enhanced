@@ -5,7 +5,7 @@
 # Source SHA-256: 2fc4218aad185d76accb972604c4700bffda5804d8e5126c3c0623cd458c4f8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM!ED.ANS by blIndman (READ THE INI FILE); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ethereal Dreams
 # SAUCE Author: blIndman
 # SAUCE Group: READ THE INI FILE
@@ -48,7 +48,7 @@ Write-Host '
 
                                                              [34m▄[0;1;30m  [0m  [34m▄▌[0m
                                                          [1;30m  [0;34m▄▄▄█▀▄[0;1;34;44m ░ [0;34m▄[0;1;34;44m░[0;34m▄[0;1;30m [0m
-            [1;30my0[0m [1;30mman.. the staff on this kewl board is[0m [1;30m:[0m    [34m▀[0;37m [0;34m▀█[0;1;34;44m░ [0;34m▄[0;1;34;44m░[0;34m▀▄[0;1;34;44m░[0;34m▀▄[0;1;34;44m ░[0;34m▄[0m
+            [1;30m  [0m [1;30m                                     [0m [1;30m [0m    [34m▀[0;37m [0;34m▀█[0;1;34;44m░ [0;34m▄[0;1;34;44m░[0;34m▀▄[0;1;34;44m░[0;34m▀▄[0;1;34;44m ░[0;34m▄[0m
                                                      [1;30m [0m   [1;30m [0;1;37m▄██▄[0;1;37;47m██[0;1;37;40m▄[0;1;34;44m  ░ [0;34m■▀▀[0;1;30m [0m [34m▀[0m
             [1;30msOP:[0m [1;30mCyko[0m [1;30m/[0m [1;30mcOSOP:[0m [1;30mOverdose n El[0m [1;30mProducto[0m    [1m ▄▀▌▄▀[0;1;47m█▓▒[0;1;40m [0;1;31;40m▄[0;1;31;43m▓▒[0;1;31;40m▄[0m
                                                          [36m▐▄[0;1;37;46m■[0;1;37;40m▌[0;36m▄[0;1;37;46m■[0;1;37;40m▐[0;1;37;47m█▓[0;1;31;40m▐█▀[0;1;31;43m░[0;33m▌[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 3f648a2a02cb1121144c856253435a46b0681257f79b2cd58de5e69b512d507c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EL-AXF2.ANS by Elrond (AXF); released in axf-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Axial Force
 # SAUCE Author: Elrond
 # SAUCE Group: AXF
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30;47m                      ansee made by elrond of axial force[0m███████████████████████
+[1;30;47m                                                         [0m███████████████████████
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
                                [1;33m▄▄▄▄▀▀▀▀▀▀▀▀▀▄▄▄▄[0m
                            [1;33m▄▄▀▀[0;35m ▄▄▄▄███████▄▄▄▄[0;37m [0;1;33m▀▀▄▄[0m

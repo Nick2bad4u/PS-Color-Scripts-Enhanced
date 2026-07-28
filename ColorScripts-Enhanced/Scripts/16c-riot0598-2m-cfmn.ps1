@@ -5,7 +5,7 @@
 # Source SHA-256: dad7be407b820f618056f56637e87340795f2ca9840089c5ea22079bbf9ecc94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2M-CFMN.ANS by 2much4u (RioT Productions); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Main Menu for my BBS: Cold Fusion
 # SAUCE Author: 2much4u
 # SAUCE Group: RioT Productions
@@ -25,13 +25,13 @@ Write-Host '
 [1;34m  [0;1;34;44m▒▒▓[0;1;34;40m▄[0m                [1;34m▄ ■[0m   [34m  [0;37m  [0;1;34m                                    [0;34m▐[0;37m [0;1;36m▌[0m
    [1;34m▀[0;1;34;44m▒▒▒▓[0;1;34;40m▄▄ [0m       [1;34m▄[0;1;34;44m▒▓[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m▀[0m    [34m [0m   [1;34m[[0;1;36mx[0;1;34m] Menu Command[0m   [1;34m[[0;1;36mx[0;1;34m] Menu Command[0;34m▐▀[0;37m [0;1;36m▌[0m
       [1;34m▀[0;1;34;44m▒▓▓▒▒▓[0;1;34;40m▄▄▄[0;1;34;44m▓▓▒[0;1;34;40m▀▀[0m       [34m [0m   [1;34m                                   [0;34m▐[0;37m [0;1;36m▐[0m
-          [1;34m▀▀▀[0;1;34;44m▒[0;1;34;40m▀▀▀[0m          [34m  [0m   [1;34m[[0;1;36mx[0;1;34m] Menu Command[0m   [1;34m[[0;1;36mx[0;1;34m] Menu Command[0;34m▐▌[0;1;36m■▌[0m
+          [1;34m▀▀▀[0;1;34;44m▒[0;1;34;40m▀▀▀[0m          [34m  [0m   [1;34m [0;1;36m [0;1;34m              [0m   [1;34m [0;1;36m [0;1;34m              [0;34m▐▌[0;1;36m■▌[0m
          [1;34m▄▄[0;1;34;44m▒▓[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m▄[0m                [1;34m                                   [0m [34m▌ [0;1;36;46m▒[0m
-       [1;34m▄█[0;1;34;44m▒[0;1;34;40m▀▀▀▀▀[0;1;34;44m▓▒[0;1;34;40m▄[0m              [1;34m[[0;1;36mx[0;1;34m] Menu Command[0m   [1;34m[[0;1;36mx[0;1;34m] Menu Command[0m [1;34;44m▓[0m [1;36m▀▌[0m
+       [1;34m▄█[0;1;34;44m▒[0;1;34;40m▀▀▀▀▀[0;1;34;44m▓▒[0;1;34;40m▄[0m              [1;34m [0;1;36m [0;1;34m              [0m   [1;34m [0;1;36m [0;1;34m              [0m [1;34;44m▓[0m [1;36m▀▌[0m
      [34m [0;1;34m▐[0;1;34;44m▌▒[0;1;34;40m▀[0m      [1;34;44m▒▓[0;34m▌[0m             [1;34m                                   [0m [1;34m▀▀▀[0m
        [1;34;44m▀░[0;34m▄[0m   [34m▄  [0;1;34;44m░[0;34m█[0m           [1;36m▄▄▄[0;1;34m [0;1;36m [0;1;34m              [0m   [1;34m [0;1;36m [0;1;34m              [0m
         [34m▀[0;1;34;44m░[0;34m█ ▀[0;1;34;44m▒░▒[0;34m▀[0m          [1;36m▄▀[0;34m▄▌[0;1;36;46m▓[0;1;34;40m                                   [0;34m▐▄[0m
-         [34m▀[0;1;34;44m▒[0;34m▌▄▄[0m            [1;36m▐[0m [1;34;44m░[0;34m▀[0;1;36m▄▀[0;1;34m[[0;1;36mx[0;1;34m] Menu Command[0m   [1;34m[[0;1;36mx[0;1;34m] Menu Command[0m [34m▀[0;34;46m▓[0m
+         [34m▀[0;1;34;44m▒[0;34m▌▄▄[0m            [1;36m▐[0m [1;34;44m░[0;34m▀[0;1;36m▄▀[0;1;34m [0;1;36m [0;1;34m              [0m   [1;34m [0;1;36m [0;1;34m              [0m [34m▀[0;34;46m▓[0m
           [34;40m▐[0;1;34;44m▒[0;34m▀[0m             [1;36m▐[0m [1;34;44m░▓[0;1;36;40m▐[0m      [1;36m▄▄▀▀▀▀▀▀[0;1;36;46m▒[0m                     [1;34m▄[0m [1;34;44m▌[0m
            [1;34;44m░[0;34m▌[0m             [1;36;46m▒[0;1;36;40m▌[0;1;34;44m░[0m [1;36;46m▓[0;1;36;40m▄▄▄▄▄█[0m [1;36m [0;1;34m■▀▀▀▀▄[0m [1;36m█▄▄▄▄▄▄[0m               [1;34m▀[0;1;34;44m█[0;1;34;40m▀▄[0m
          [34m ▐▀[0m               [1;36;46m▓[0;34m▀▄▄▄▄▄▄▄▄▄[0;1;36;44m▒[0;34m▄▄▄▄▄[0;1;34;44m▓▒[0;34m▄▄▄▄▄▄[0;1;36;44m▓▀[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▄▀[0m

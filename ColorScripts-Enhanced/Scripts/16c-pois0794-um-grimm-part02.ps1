@@ -5,7 +5,7 @@
 # Source SHA-256: 666e01d8232eb51085be672813486f9e50d04ee290ae69956e6f4f9417e4f593
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UM-GRIMM.ANS by Umbro (pois0794); released in pois0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -59,4 +59,4 @@ Write-Host '
 [34m█[0;1;34;44m░[0m [1;30;40m     [0;1;34;40m◄[0;34m► [0;1;30m                  [0;1;34m◄[0;34m► [0;1;30m            [0;1;34m◄[0;34m► [0;1;30m                 [0;1;34m◄[0;34m► [0;1;30m           [0;1;34;44m░[0;34m█[0m
 [34m█[0;1;34;44m░[0m [1;30;40m                   [0;1;34;40m◄[0;34m► [0;1;30m      [0;1;34m■ [0;1;30m    [0;1;34m◄[0;34m► [0;1;30m        [0;1;34m■ [0;1;30m                   [0;1;34m◄[0;34m►[0m       [1;34;44m▒[0;34m█[0m
 [34m█[0;1;34;44m░[0m [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;34m◄[0;34m► [0;1;30mGive Us a call [0;1;34m◄[0;34m► ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;34;44m▓[0;34m█[0m
-[34m▀▀▀▀  [0;1;34mAn[0;34msi [0;1;30mby Ümbro (c[0;34m) ''[0;1;34m94  [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  PO[0;1;34miS[0;1;30mON ProDucT[0;1;34mio[0;34mNS   ▀▀▀▀[0m'
+[34m▀▀▀▀  [0;1;34m  [0;34m   [0;1;30m           [0;34m   [0;1;34m    [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    [0;1;34m  [0;1;30m          [0;1;34m  [0;34m     ▀▀▀▀[0m'

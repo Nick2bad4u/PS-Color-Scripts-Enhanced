@@ -5,7 +5,7 @@
 # Source SHA-256: 061aa380ce8b32648ce552b9d820cc01b331fb05474d4f91bdf8b37825cbbf17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-TNS.ANS by Die Hard (bkn-1094); released in bkn-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 101-150
 # Columns: 1-80
 
@@ -58,5 +58,5 @@ Write-Host '
 [1;36;40m████ [0;36m█[0;36;44m▓▒░   [0;34;44m███[0;34;40m▄ [0;36;40m█[0;36;44m▓▒░                                                       8/94[0m
 
 [1;37;40m████████████████████████████████████████████████████████████████████████████████[0m
-███████████[47m   [0;1;30;47mPhoton (C) Rob Liefeld - /┤NSI by Diehard[0m█[1;30;47m<BROkEN>[0m████████████[47m    [0m
+███████████[47m   [0;1;30;47m                          ┤              [0m█[1;30;47m        [0m████████████[47m    [0m
 [1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

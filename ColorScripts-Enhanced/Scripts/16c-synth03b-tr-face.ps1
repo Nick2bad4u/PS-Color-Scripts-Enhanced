@@ -5,7 +5,7 @@
 # Source SHA-256: 8301b241aa2e9b0e3d98b11b8c3364c21187dbb91687459c95acf0f7c9876094
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-FACE.ANS by d!   -- trippah (Synthetic.Production); released in synth03b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: *WANTED* - a nice home for this doo
 # SAUCE Author: d!   -- trippah
 # SAUCE Group: Synthetic.Production
@@ -25,11 +25,11 @@ Write-Host '
    [33m░░▓░▓▌[0;30m  [0;33m▄▀[0;30m▐[0;37m▐[0;1;31;47m▒[0m▌[30m█[0;1;32m▀▀▀[0;30m█[0;37m▐▌[0;30m█[0;1;32m▀▀▀[0;30m█[0;37m▐[0;1;31;47m▄▒[0m█[30m█  [0;33m▀[0;30m [0;33m░[0;30m [0;33m▐▌[0;30m   [0m
    [30m  [0;33m█[0;30m [0;33m█[0;30m [0;33m░▓▌░░[0;1;31;47m▓▒▓[0m▄▓[1;31m▄█[0m█▓▓[1;31m▄▄▄█[0;1;31;47m▓▓▒▒▓▓[0;30m [0;33m░░[0;1;31m▄[0;30m▄[0;33m░░█[0;30m   [0m
    [30m [0;33m▐▌[0;30m [0;33m█[0;30m ▄[0;1;31m▄[0m▄[30m▄[0;37m▐[0;1;31m█[0;1;31;47m▓[0;1;31;40m████[0;1;31;47m▓▓[0;1;31;40m█████████[0;1;31;47m▓[0;1;31;40m██▄████▄[0;30m▄[0;33m▄   [0;37mthis dood needs a friend..[0m
-   [33m▀▀▀[0;30m [0;33m▄ [0;1;31m██████▄█▄[0;30m█[0;1;31m▀███[0;1;31;43m▓[0;1;31;40m███▀[0;30m█[0;1;31m▄▄[0;1;31;47m▓[0;1;31;40m████████▌[0;30m▌  [0;37m he needs a good bbs to live in[0m
+   [33m▀▀▀[0;30m [0;33m▄ [0;1;31m██████▄█▄[0;30m█[0;1;31m▀███[0;1;31;43m▓[0;1;31;40m███▀[0;30m█[0;1;31m▄▄[0;1;31;47m▓[0;1;31;40m████████▌[0;30m▌  [0;37m                               [0m
    [30m    ▄[0;1;31m▐██[0;1;31;43m▓[0;1;31;40m███████▄▄██[0;1;31;43m▓[0;1;31;40m██▄▄██[0;1;31;47m▓▓[0;1;31;40m████▀███[0;1;31;43m [0;30m█   [0;37mand being viewed by its users[0m
    [30m [0;33m░[0;30m [0;33m░░[0;1;31;43m░▒▓▓▓▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m████[0;1;31;43m██[0;1;31;40m█[0;1;31;43m▒[0;1;31;40m███████████▄███[0;1;31;43m▓[0;33m▌[0;30m▌   [0;37mat least once a day...[0m
    [30m    ▐[0;33m▐[0;1;31;47m▓▓[0;1;31;43m▒[0;1;31;40m█▀█████[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓▒░▒▒▓▓▓[0;1;31;40m███▀▄██[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▀[0;33m▀[0;30m▀    [0;37mif u think that you can get him[0m
-   [30m     ▀[0;33m ▀[0;1;31;43m░▀[0;1;31;40m█▄▀███[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m▀  ▀[0;1;31;40m█[0;1;31;43m▀[0;1;31;40m███▀▄█[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓▒[0;33m▀[0;30m▀      [0;37m/her a new home, people contact[0m
+   [30m     ▀[0;33m ▀[0;1;31;43m░▀[0;1;31;40m█▄▀███[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m▀  ▀[0;1;31;40m█[0;1;31;43m▀[0;1;31;40m███▀▄█[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓▒[0;33m▀[0;30m▀      [0;37m                               [0m
    [30m        ▀[0;33m▀[0;1;31;43m░░▒[0;1;31;40m▄▀██████████▀▄█[0;1;31;43m▓▒▒▀[0;33m▀[0;30m▀        [0;37mtrippah via email...[0m
    [30m          ▀[0;33m▀[0;1;31;43m▀░▓[0;1;31;40m▄▀▀███▀▀▄▄█[0;1;31;43m▓▓▒▀[0;33m▀ [0;30m               [0m
    [30m            ▀[0;33m▀[0;1;31;43m▀▓▓[0;1;31;40m█▄▄▄██[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓▒[0;33m▀ [0;30m                  [0m

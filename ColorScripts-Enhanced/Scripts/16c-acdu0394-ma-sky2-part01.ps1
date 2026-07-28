@@ -5,7 +5,7 @@
 # Source SHA-256: 4e57ae9678a1d43c2d4a164caf19eedeb25db8523cc6aabc5ef27d73ef9b86d7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-SKY2.ANS by Maestro (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Skynet
 # SAUCE Author: Maestro
 # SAUCE Group: ACiD Productions
@@ -17,10 +17,10 @@
 Write-Host '
  [1;33;43m▒[0;1;33;40m▄[0;1;30;40m───────[0;1;33;40m▄[0;1;33;43m▒[0m [1;33;43m▒[0;1;33;40m▄[0;1;30;40m─────────────────────────────────────────────────────────────────[0m
 [1;30;40m [0;1;33;43m░▒▓[0m ▄ [1m▄ [0;1;33;43m▓▒░[0m [1;33;43m░▒▓[0m [1;37;40m▄ [0;1;30;40mMaestro│ Terminator2: Wake up!! :)[0m                          [1;30;40m│[0m
-[1;30;40m [0;33m▀[0;1;33;43m░▒[0m [1;37;47m░▒▓[0m [1;33;43m▒░[0;33m▀ ▀[0;1;33;43m░▒[0m [1;37;47m▓▒[0m▄      [1;30m│ RaDMaN: Is your daughter recovering ok? :)[0m         [1;30m│[0m
-[1;30m [0;1;30;43m▒[0;33m▄▀ [0;37m▀[0;1;37;47m░[0m▀ [33m▀▄[0;1;30;43m▒[0m [1;30;43m▒[0;33m▄  [0;1;37m▀[0;1;37;47m▓▒░[0m▄    [1;30m│ Shihear Kallizad: Thanks anyway.[0m                   [1;30m│[0m
+[1;30;40m [0;33m▀[0;1;33;43m░▒[0m [1;37;47m░▒▓[0m [1;33;43m▒░[0;33m▀ ▀[0;1;33;43m░▒[0m [1;37;47m▓▒[0m▄      [1;30m│                                           [0m         [1;30m│[0m
+[1;30m [0;1;30;43m▒[0;33m▄▀ [0;37m▀[0;1;37;47m░[0m▀ [33m▀▄[0;1;30;43m▒[0m [1;30;43m▒[0;33m▄  [0;1;37m▀[0;1;37;47m▓▒░[0m▄    [1;30m│                                 [0m                   [1;30m│[0m
 [1;30m [0;1;30;43m▓▒░[0m     [1;30;43m░▒▓[0m [1;30;43m▓▒░[0m ▀ ▀[1;47m▒░ [0m▄  [1;30m│ Jocko: Fellow FART member:)[0m                        [1;30m│[0m
-[1;30m [0;1;30;42m█[0;1;30;43m▓▒[0m     [1;30;43m▒▓[0;1;30;42m█[0m [1;30;40m█[0;1;30;43m▓▒[0m     ▀[1;47m░ [0m▀ [1;30m│ Spirit Of Illusion: Keep in touch guy![0m             [1;30m│[0m
+[1;30m [0;1;30;42m█[0;1;30;43m▓▒[0m     [1;30;43m▒▓[0;1;30;42m█[0m [1;30;40m█[0;1;30;43m▓▒[0m     ▀[1;47m░ [0m▀ [1;30m│                                       [0m             [1;30m│[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
 [34m██▓▓▒▒▒░ ░░▒▒▓▓██[0;34;44m [0;1;34;44m░░[0;34m▀ [0;1;34m▐[0;1;34;46m▒[0;1;34;40m▄[0;1;34;46m▓[0;1;34;40m▀▄[0;1;34;44m▓[0m [33m█ █▓ [0;1;34m■▄[0;1;34;46m▒▒▒░░░[0;36m▄▄  [0;34m░░▒▒▓[0;34;44m [0;34;40m███[0;1;34;44m░░▒▒▓▓█[0m [1;37;40m████████████████[0m
 [1;34;44m░░[0;34m██▓▓▓ ░▒▒▓▓██[0;1;34;44m░░░▒[0m   [1;34;40m█[0;1;34;46m▓[0;1;34;40m▀[0;34m▄ [0;1;34;44m▒▒▒[0m [33m█▀ [0;1;34m▄▀█[0;1;34;46m▓▓▓▒▒▒░░░░[0;36m▄[0;34m▀▓▓███[0;1;34;44m░░▒▒▓▓██[0;1;34;40m▌[0;1;37;40m▐████████████████[0m

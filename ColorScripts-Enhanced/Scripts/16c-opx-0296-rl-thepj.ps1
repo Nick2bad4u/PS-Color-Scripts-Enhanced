@@ -5,7 +5,7 @@
 # Source SHA-256: f62686035e2771c0056b34e9b9af08096dbf092728d730d8466f81a79f21c1c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-THEPJ.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Practical Joke
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -39,7 +39,7 @@ Write-Host '
 [1;34;44m░▒▒▒▓▓▓[0;1;34;40m█████████████[0;1;34;44m▄[0;1;34;40m▄ [0m▀▀[1;47m▀▀████████▓[0;1;40m█[0;1;47m░▀▀▀░[0m███▀▀[1m▄▄[0;1;47m▓▓░ [0;1;40m [0;1;34;44m▓[0;1;34;40m███[0;1;34;44m██████[0;1;34;40m████[0;1;34;44m█[0;1;34;40m█[0;1;34;44m█▓▓▓▒▒▒░[0;1;34;40m  [0m
 [34m▀[0;1;34;44m░░░░▒▒▓▓▓[0;1;34;40m████████████[0;1;34;44m▄▄[0;34m▄[0;37m ▀▀▀▀▀█[0;1;37;47m░[0;1;30;47mrl!░[0m██▀▀▀ [1m▄▄▄██[0;1;47m▓▓▒░ [0;1;40m [0;1;34;44m▓[0;1;34;40m███[0;1;34;44m█████[0;1;34;40m█████[0;1;34;44m█▓▓▒▒▒░░░[0;1;34;40m [0;1;30;40m▄[0;1;34;40m [0m
 [1;30;40m [0m [34m▀▀▀▀[0;1;34;44m░░░▒▓▓▓[0;1;34;40m██████████[0;1;34;44m▓▓▄▄▄▄▄[0;1;34;40m▄▄▄▄▄[0;1;37;40m ▄▄▄▄█[0;1;37;47m████▓[0;1;37;40m█[0;1;37;47m▓▓▒░ ■[0;1;37;40m [0;1;34;44m▓[0;1;34;40m█████[0;1;34;44m▓▓[0;1;34;40m████[0;1;34;44m▓▓▓▒░░░[0;34m▀▀▀[0;1;30m ▄▓ [0m
-[1;30m▀[0m [1;30mopium - more than just a drug![0m                [1;30m▄▄▄▄▄▄▄[0m [32mrawlock.opium[0m   [1;30m▄▄▄▓▄▄█[0m
+[1;30m▀[0m [1;30m                              [0m                [1;30m▄▄▄▄▄▄▄[0m [32m             [0m   [1;30m▄▄▄▓▄▄█[0m
 [1;30m▓▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  █[0m [1;32m▄▄▄[0m [1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m [1;32m▄▄▄[0m [1;30m█[0m
 [1;32m▄▄▄▄▄▄[0m [1;30m▀▓▀[0m [1;32m▄▄▄▄▄[0m [1;30m▀▓[0m [1;32m▄▄▄▄▄▄[0m [1;30m▀▀[0m [1;32m▄▄▄▄▄▄[0m [1;30m▀▀[0m [1;32m▄▄▄▄[0m [1;30m▓▄▄█[0m [1;32m▄▄▄[0m [1;32m▄▄▄▄▄▄[0;1;30m ▀▀[0m [1;32m▄▄▄▄▄▄[0;1;30m ▀▀[0m [1;32;47m▓█[0;1;32;40m█[0m [1;30m█[0m
 [1;32;47m█▓█[0m  [1;32m▀█[0;1;32;47m▓[0;1;32;40m▄[0m [1;32;47m█▓█[0m  [1;32m▀█[0;1;32;47m▓[0;1;32;40m▄[0m [1;32m▄▄▄▄▄█[0;1;32;47m█▓[0;1;32;40m▄[0m [1;32m███  ▀[0;1;32;47m█▓[0;1;32;40m▄[0m [1;32;47m█▓█[0;1;32;40m▄▄▄▄▄▄[0m [1;32m█[0;1;32;47m▓█[0m [1;32m█[0;1;32;47m▓[0;1;32;40m█[0m  [1;32m▀█[0;1;32;47m▓[0;1;32;40m▄[0m [1;32m▄▄▄▄▄██[0;1;32;47m▓[0;1;32;40m▄[0m [1;32;47m█▓█[0m [1;30m█ [0m

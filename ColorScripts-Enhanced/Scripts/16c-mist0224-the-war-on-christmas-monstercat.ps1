@@ -5,7 +5,7 @@
 # Source SHA-256: 7293aa42f03e1b883d63d10be2e1c1239e171ec6e9cf5feac38777a1624a247e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: THE_WAR_ON_CHRISTMAS-MONSTERCAT.ANS by Anonymous (mist0224); released in mist0224 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: Anonymous
 # SAUCE Date: 20240222
 # SAUCE Dimensions: 80x50
@@ -63,4 +63,4 @@ Write-Host '
 [35;40m████████████████████▄▄█████████████████████████████[0;37;40m               [0;30;44m█[0;35;40m▄▄███████████[0m
 [35;40m████████████████████████████████████████████████████[0;37;40m        [0;30;44m██[0;35;40m▄▄████████████████[0m
 [35;40m█████████████████████████████████████████████████████▄▄▄▄███████████████████████[0m
-[36;45mTraced off offical art[0;35;40m█████████████████████████████████████████████████████[0;36;45m xmas[0m'
+[36;45m                      [0;35;40m█████████████████████████████████████████████████████[0;36;45m     [0m'

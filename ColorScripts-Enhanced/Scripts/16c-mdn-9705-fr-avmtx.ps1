@@ -5,7 +5,7 @@
 # Source SHA-256: 73de8f862cace476f25ab6edda0252e237124c56747515b90486c39b429070ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FR-AVMTX.ANS by feaRprOphet (csf/mdn/aif); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: avatar bOard matrix
 # SAUCE Author: feaRprOphet
 # SAUCE Group: csf/mdn/aif
@@ -32,7 +32,7 @@ Write-Host '
 [1;32;42m███▄[0;32m▄  ▄[0;1;32;42m▄██▓▒░[0;32;46m▒▒[0;30;46m▓[0;37;46m▓[0;30;46m▓▓[0;37;40m [0;30;46m▓[0m      [1;30;40mto make an account here[0m          ██ [36m▀▀[0;37m [0;36m ▄[0;1;36m▄[0;1;36;46m▄[0;36m▄ [0;1;36;46m░▒▓████[0m
 [1;32;42m████▀[0;1;32;40m▀▀▀▀▀▀▀[0;32m▀[0m   [37m▐[0;1;37;47m [0m          [1;30m [0m   [1;30mto check access [0m             █▌[32m  ▄[0;1;32m▄▄▄▄▄▄▄[0;32m▄ [0;36m▀[0;1;36m▀▀[0;1;36;46m▀█[0m
                 ██           [1;30m                     [0m           █ [32m█[0;1;32;42m░▒▓███████[0;32m█ [0;36m▄▄[0;32m  [0m
-[1;30mfr<[0mmaiden[1;30m>[0m    ▐[1;47m▐[0;1;40m█[0m          [1;30msay goodbye for we, dude[0m         ▌▐[32m█[0;1;32;42m  ░▒▓██████▄[0;1;32;40m▄[0;32m▄ [0;36m▀▀[0m
+[1;30m   [0m      [1;30m [0m    ▐[1;47m▐[0;1;40m█[0m          [1;30m                        [0m         ▌▐[32m█[0;1;32;42m  ░▒▓██████▄[0;1;32;40m▄[0;32m▄ [0;36m▀▀[0m
                [37m█[0;1;37;47m██[0m█                                   [30;46m▓[0;37;40m  [0;30;46m▓[0;37;40m [0;30;46m▓▓▓▓[0;32;46m▓▓[0;1;32;46m▓▓▓[0;1;32;42m███▀[0;1;32;40m▀▀[0;1;32;42m▀████[0;32m█[0m
               [37m▀[0;1;37m▀[0;1;37;47m▀█████[0m█                                            [32m▀[0;1;32m▀[0;32m▀    ▐[0;1;32;42m▐█[0;1;32;40m███[0m
                    ▀[1m▀▀[0;1;47m▀███▄[0;1;40m▄▄[0m▄          [1;30m[[0m▲[1;30m] [[0mENTER[1;30m] [[0m▼[1;30m][0m                      [1;32m [0m

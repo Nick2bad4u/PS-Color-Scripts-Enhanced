@@ -5,7 +5,7 @@
 # Source SHA-256: 7217c5a299d42e4fba3990774420cf73d8f2d237ec2e298a3effd6a4b52d8062
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FD-DIST.ANS by Fraud (rem-0394); released in rem-0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 42-79
 # Columns: 1-80
 
@@ -17,7 +17,7 @@ Write-Host '
  [1;30m█[0;1;37;47m▓▓▓▓[0m█  [1;30m▄█[0;1;30;47m▀▄[0;1;30;40m▀ [0;1;30;41m██[0m   [1;30;40m█[0;1;30;47m  ▀▀[0;1;30;40m▄[0m     ─  ───  ─   ────   ─   ───   ─          [1;30m█[0;1;37;47m▓▓▓▓[0m█
  [1;30;47m▄[0;1;37;47m▓▓▓▓[0m█ [1;30m█[0;1;30;47m▀  [0;1;30;40m█  [0;1;30;41m█▓[0m    [1;30;40m█[0;1;30;47m    [0;1;30;40m█    [0;1;37;40mHarve[0;1;30;40mstor [0;1;37;40mO[0;1;30;40mf [0;1;37;40mSorr[0;1;30;40mow [0m- [1mC/[0;1;30m┤M[0m              [1;30;47m▄[0;1;37;47m▓▓▓▓[0m█
  [1;30;47m▀[0;1;37;47m▒▒▓▓[0m█  [1;30m▀▀▀   [0;1;30;41m▓▓[0m     [1;30;47m█    [0;1;30;40m█   [0;1;37;40mSi[0;1;30;40mr [0;1;37;40mRedr[0;1;30;40mum [0m-                            [1;30;47m▀[0;1;37;47m▒▒▓▓[0m█
- [1;30m█[0;1;37;47m▒▒▓▓[0m█        [1;30;41m▓▒[0m [1;30;40m▄■° █[0;1;30;47m    [0;1;30;40m█   [0;1;37;40mAn[0;1;30;40md [0;1;37;40mEver[0;1;30;40myone [0;1;37;40mO[0;1;30;40mn [0;1;37;40mM[0;1;30;40my [0;1;37;40mBoa[0;1;30;40mrd [0;1;37;40mTh[0;1;30;40mat[0m           [1;30;40m█[0;1;37;47m▒▒▓▓[0m█
+ [1;30m█[0;1;37;47m▒▒▓▓[0m█        [1;30;41m▓▒[0m [1;30;40m▄■  █[0;1;30;47m    [0;1;30;40m█   [0;1;37;40m  [0;1;30;40m  [0;1;37;40m    [0;1;30;40m     [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m   [0;1;30;40m   [0;1;37;40m  [0;1;30;40m  [0m           [1;30;40m█[0;1;37;47m▒▒▓▓[0m█
  [1;30m█[0;1;37;47m▒▒▒▒[0m█        [1;30;41m▒░[0m     [1;30;40m█[0;1;30;47m    [0;1;30;40m█   [0;1;37;40mHa[0;1;30;40ms [0;1;37;40mPu[0;1;30;40mt [0;1;37;40mU[0;1;30;40mp [0;1;37;40mWi[0;1;30;40mth [0;1;37;40mM[0;1;30;40me[0m...                   [1;30m█[0;1;37;47m▒▒▒▒[0m█
  [47m [0;1;47m▒▒▒▒[0m█        [1;30;41m░ [0m     [1;30;40m█[0;1;30;47m    [0;1;30;40m█[0m                                           [1;30;47m [0;1;37;47m▒▒▒▒[0m█
  [1;30;47m▄[0;1;37;47m░░▒▒[0m█        [41m [0;35;41m░[0m     [1;30;40m█[0;1;30;47m    [0;1;30;40m█ █▄ ▄█▄ ▀███▄  ▀▀████ ▀███▄  █▄   ▀▀██▄ ▄  [0;1;30;47m▄[0;1;37;47m░░▒▒[0m█

@@ -5,7 +5,7 @@
 # Source SHA-256: 49147aa808af665add82f1caef7c8e137b6c8faa633d45d2b9ac531a8f8b2e3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ML-CRWL.ANS by Marshal Law (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 128-160
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
         [32m▀▄▄▄▄▀[0m
 [32m [0;37m▄[0;1;30;47m░░[0m███▄       [1;30m▄[0m▄     V [1mi [0mS [1mi [0mO N [1;30m- [0mX   B e t a  S i t e     ▄[1;30m▄[0m       ▄[47m [0;40m██[0;1;30;47m░░[0m▄
 [1;30m▐[0;1;30;47m▒░[0m███▀██      [1;30m■[0m■[1m─[0m─[1;30m────────────────────────────────────────[0m─[1m─[0m■[1;30m■[0m      [1;30;47m  [0m▀███[1;30;47m░▒[0;1;30;40m▌[0m
-[1;30;40m█[0;1;30;47m▓▒░[0m▀▄  █▀ [1;30m▄   ▐[0m▌3[1;30m-[0mDay Wares [1;30m· [0mSysOp[1;30m: [0mSought After [1;30m· [0m9600[1m+ [0mDS▐[1;30m▌   ▄ [0m▀[47m [0m  [40m▄▀[0;1;30;47m░▒▓[0;1;30;40m█[0m
+[1;30;40m█[0;1;30;47m▓▒░[0m▀▄  █▀ [1;30m▄   ▐[0m▌ [1;30m [0m          [1;30m  [0m     [1;30m  [0m             [1;30m  [0m    [1m  [0m  ▐[1;30m▌   ▄ [0m▀[47m [0m  [40m▄▀[0;1;30;47m░▒▓[0;1;30;40m█[0m
 [1;30;40m ▀[0;1;30;47m▓[0m  ▄▀███  [1;30;47m▒[0m  [1;30;40m▐[0m▌   [1;30m· [0mAffiliates[1;30m: [0mWAREZ[1;30m/[0mACiD [1;30m· [0mFelonyNet [1;30m·   [0m▐[1;30m▌  [0;1;30;47m▒[0m  ██[47m [0;30;47m▄[0;37;40m▄  [0;1;30;47m▓[0;1;30;40m▀[0m
 [1;30;40m   ▀▀▐[0;1;30;47m▒░[0m▀   ▐▌ [1;30m▐[0m▌CelerityNet [1;30m· [0m1200[1m+ [0mMegs [1;30m· [0mH[1;30m/[0mP[1;30m/[0mC Underground▐[1;30m▌ [0m▐▌   ▀[1;30;47m░▒[0;1;30;40m▌▀▀[0m
 [1;30;40m    █[0m       █  [1;30m■[0m■[1m─[0m─[1;30m────────────────────────────────────────[0m─[1m─[0m■[1;30m■  [0m█       [1;30m█[0m

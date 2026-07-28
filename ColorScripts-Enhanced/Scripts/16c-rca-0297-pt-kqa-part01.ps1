@@ -5,7 +5,7 @@
 # Source SHA-256: 778a71a499eeb440892ff9836761a0d468101c29fcf939b0b6aee5ac2d254dc7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-KQA.ANS by paratoxic (RCA); released in rca-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: k4lsqu3ll 4ddicts
 # SAUCE Author: paratoxic
 # SAUCE Group: RCA
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-     [31m░▄▄▄▄░▄▄▄▄[0m      [30mfingernägelschneiden umsonst[0m
+     [31m░▄▄▄▄░▄▄▄▄[0m      [30m                            [0m
 [37m [0;31m▄▀▀▀[0;37m [0;33m▄▄▄▄[0;1;33;43m░[0;1;33;40m▄▄▄[0m [31m▀▀▄[0m
 [31m▀[0;37m [0;33m▄▀▀▀[0;1;33;43m▄▓[0;1;33;40m████▓███▄[0m [31m█[0m
 [31m░[0;33m█▌[0;1;33m [0;31m  [0;1;33m ████[0;1;33;43m░[0;1;33;40m▀[0;31m  [0;1;33m▀█▌[0;31m▐░▄[0;1;31;41m░[0m      [31mp4intin''4 v0s 4nd[0;37m [0;31ms4rg4hd[0m                         [31m▄[0m

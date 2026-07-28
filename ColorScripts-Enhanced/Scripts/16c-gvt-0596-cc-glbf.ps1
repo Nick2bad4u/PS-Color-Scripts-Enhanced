@@ -5,7 +5,7 @@
 # Source SHA-256: a58e4f7fbbe23d5e97a4b078ae0ba927b9bfef03c317ce7564ae0978d7385780
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-GLBF.ANS by clorox cowboy (gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 'The Globe' File Conferences
 # SAUCE Author: clorox cowboy
 # SAUCE Group: gravity
@@ -17,7 +17,7 @@
 Write-Host '
  [1;30m▄▄[0m    [33m▄▄▄▄▄▄▄▄▄▄▄▄[0m    [35m▀▀▀▀▀[0;1;35m▀[0;1;35;45m▒▓██▓▄[0;35m█[0;1;35;45m▄[0;35m█████████████[0;30;45m      [0;1;35;45m▀[0;30;45m                [0;1;35;45m░ ▒▄▓██[0m
 [1;30;40m▀[0m      [1;30m▀[0m [33m▀[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓▓▒░[0;33m█▓[0;37m [0;33m█[0;1;31;43m░░░▒▒░░[0;33m▄▄▄▄[0;37m [0;1;35m▀▀[0;35m▀[0;1;35;45m▀[0;35m██████[0;1;31;45m░[0;35m███[0;1;35;45m░[0;35m█[0;1;35;45m [0;30;45mthis is the file conference[0;1;35;45m ▀▓█[0m
-        [1;30m▀[0m  [1;31m▀[0;1;31;43m▓▒░░[0;33m█▄[0;37m [0;33m█▓▀▓██▀▀▀▀[0;1;31;43m▓▒▒░░[0;33m▄▄[0;37m [0;35m▀██[0;1;35;45m▀[0;35m██[0;1;35;45m▄▒░[0;35m███[0;1;35;45m [0;30;45mmenu for my board ''The Globe''[0;1;35;45m▄[0m
+        [1;30m▀[0m  [1;31m▀[0;1;31;43m▓▒░░[0;33m█▄[0;37m [0;33m█▓▀▓██▀▀▀▀[0;1;31;43m▓▒▒░░[0;33m▄▄[0;37m [0;35m▀██[0;1;35;45m▀[0;35m██[0;1;35;45m▄▒░[0;35m███[0;1;35;45m [0;30;45m                             [0;1;35;45m▄[0m
 [1;30;40m▄▀[0m  [1;30m▀[0m [1;30m░[0m   [1;30m▄[0m [1;31m▀[0;1;31;43m░[0;33m█▀[0;37m [0;33m▄█▓▄▀[0;37m  [0;33m▄▄▄▄▄░[0;37m [0;33m▀▀▀[0;1;31;43m░[0;33m▓█▄[0;37m [0;1;35m▀[0;35m▀[0;1;35;45m██▓▄[0;35m█[0;1;35;45m▄[0;35m██[0;30;45m [0;1;35;45m [0;30;45mand is only for use by  [0;1;31;45m░[0;30;45m  [0;1;35;45m░[0;30;45m [0m
 [37;40m  [0;1;31;40m▄▄▄▄[0m      [1;30m░[0m [1;31;43m░░[0;33m██[0;1;31;43m░[0;33m█▓[0;37m [0;33m▄██[0;1;31;43m░[0;33m▀▀▀▀▀▀▄▄░▀▓▀▀▓[0;1;31m▄[0m [1;35m▀[0;1;35;45m██▓▒[0;35m█[0;1;35;45m░[0;30;45m   [0;1;35;45m [0;30;45mme... so dont even         [0m
 [1;31;40m▄█▀▀▀▀[0;1;31;43m░▒[0;1;31;40m▄[0m [1;30m▀▀[0m [1;30m▀[0m [1;31;43m▒▒░░[0;33m▌░[0;37m [0;33m█[0;1;31;43m░[0;33m▀[0;37m [0;1;37m▄[0m▀[1m▀▀█▄▄[0m [33m▀[0;37m [0;33m▒░░▓█[0;1;31;43m░[0;1;31;40m▄[0m [1;35m▀[0;1;35;45m▄[0;35m█[0;1;35;45m▄[0;35m█[0;30;45m  [0;1;35;45m [0;30;45mthink about rippin it   [0;1;35;45m░[0;30;45m   [0m

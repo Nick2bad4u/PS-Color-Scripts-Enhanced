@@ -5,7 +5,7 @@
 # Source SHA-256: 8983f2ca67d554a404a5b364fa7b9c10d6523374f804c6d838bcf7c089b90ece
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-L.ANS by metal defender (koi/rap/flux/riot/ro); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lunatic logo
 # SAUCE Author: metal defender
 # SAUCE Group: koi/rap/flux/riot/ro
@@ -21,7 +21,7 @@ Write-Host '
          [1;37;40m▄▄█████████[0;1;37;47m▓[0;1;37;40m█▌[0;1;30;40m▐[0;1;30;47m▌quality that thiz ;) hope lat-[0;1;30;40m█[0m
           [1;37;40m████[0;1;37;47m▓[0;1;37;40m████[0;1;37;47m▓▓[0;1;37;40m█[0;37;40m [0;1;30;40m█[0;1;30;47m eriser likes it ;) i think "l"[0;1;30;40m█[0m
           [1;37;40m████████[0;1;37;47m▓[0;1;37;40m███[0;37;40m [0;1;30;40m█[0;1;30;47m is quite enuff for lunatic ;) [0;1;30;40m█[0m
-          [1;37;40m▐█[0;1;37;47m▓[0;1;37;40m████████▌[0;1;30;40m▐[0;1;30;47m▌i still take requests for ansis[0;1;30;40m█[0m
+          [1;37;40m▐█[0;1;37;47m▓[0;1;37;40m████████▌[0;1;30;40m▐[0;1;30;47m▌                               [0;1;30;40m█[0m
           [1;37;40m▐██████████▌[0;1;30;40m▐[0;1;30;47m▌and ▄▄▄▄▄▄ asciis... muh e-mail[0;1;30;40m█[0m
           [1;37;40m▐████[0;1;37;47m▓[0;1;37;40m█████▌[0;1;30;40m▀█▀▀▀▀[0;37;40m [0;32;40m▄▄▄▄[0;1;33;40m [0;1;30;40m▀▀▀▀▀[0;1;30;47m▄ iz [0;36;47m▐[0;30;46mm[0;36;47m▌[0;30;47metal@cd.[0;1;30;40m█[0m
           [1;37;40m▐[0;1;37;47m▒▒[0;1;37;40m████████[0m  [32;40m▄▄█▓█▀▀▀[0;1;37;40m ▄▄[0;37;40m [0;32;40m█▓▓▄[0;37;40m [0;1;30;40m█[0;30;47msysda.kiev.ua![0;1;30;40m█[0m

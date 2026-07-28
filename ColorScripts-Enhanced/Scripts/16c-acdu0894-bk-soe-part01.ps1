@@ -5,7 +5,7 @@
 # Source SHA-256: f3af9fd802224accd8a59c1fd3d806ecab74299394e3151aa7e5c446fdddf636
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-SOE.ANS by Bad Karma (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: State of Euphoria
 # SAUCE Author: Bad Karma
 # SAUCE Group: ACiD Productions
@@ -21,7 +21,7 @@ Write-Host '
         [34m▀▀    ▐[0;1;34;44m▒░░[0;34m█▄[0;34;44mBK[0;1;34;44m░▒▓░[0m      [34m▐[0;1;34;44m░░[0;34m▄ ▄[0;1;34;44m░▒▓▒▒░[0m          [34m▄▄▄[0m
                [1;34;44m░░[0;34m█▀▀▀▀[0;37m▄▄▄▄▄    [0;34m▄[0;1;34;44m░▒▓▓░▓▒▓▒░[0m■▄[34m▀▄[0m      [34m▄[0;1;34;44m░▒▀[0;34m▀[0m
               [34m▀[0;1;37m▄▄▄█[0;1;37;47m▓▓▒▒░░░░░░[0m▄[34m▀▓▓▓[0;1;34;44m░░▒░[0;34m▀▀▀[0;37m▄▄[0;1;37;47m░░[0m▄[34m▀█▄▄█▀▀[0;1;30m─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m
-          [1m▄▄█▀▀▀  [0m▄■[1m▀▀▀[0;1;47m▓▓▒▒░░░[0m▌[34m░▒▀[0;37m▄■[0;1;34;44m░[0;34m▄[0;1;37m▀[0;1;37;47m▓▓▒▒▒░░[0m▌[34m▐[0;1;34;44m▒[0;34m▌   [0;1;30mTo purchase an ansi ad by[0m
+          [1m▄▄█▀▀▀  [0m▄■[1m▀▀▀[0;1;47m▓▓▒▒░░░[0m▌[34m░▒▀[0;37m▄■[0;1;34;44m░[0;34m▄[0;1;37m▀[0;1;37;47m▓▓▒▒▒░░[0m▌[34m▐[0;1;34;44m▒[0;34m▌   [0;1;30m                         [0m
          [1;37m▀ [0;34m▄▄▀▀[0;37m▄▄[0;1;37;47m░[0m▌[34m▐▓▒░ [0;1;37;47m▓▓▓▒▒[0m▀ ▄▄[1;47m░[0m▌[34m▐▓▓▒ [0;1;37;47m▓▓▓▒▒[0m▀[34m▄▓[0;1;34;44m▓▄[0;34m▄   [0;1;30mmyself,  you can contact[0m
        [34m▄▄[0;1;34;44m▄▓▒[0;34m▄[0;37m▀▀[0;1;37;47m░▒▒[0m [34m▀▀[0;1;37m▄▄[0;1;37;47m▓[0;1;37;40m▀▀▀[0;34m▄▄[0;37m▀▀[0;1;37;47m░▒▒[0m [34m▀▀[0;1;37m▄▄[0;1;37;47m▓[0;1;37;40m▀▀▀[0;34m▄▄▓[0;1;34;44m░▒▒▓▓▄[0;34m▄   [0;1;30mme  through  PRiME Net[0m
 [34m▄[0;1;34;44m▒░[0;34m█▀▀   ▀[0;1;34;44m▀▒▓░[0;34m█ [0;1;37m▐[0;1;37;47m▓[0m [1;37;40m▀▀[0;1;30;40m▄▄ [0;34m▀▀█▓▓▓▒ [0;1;37m▐[0;1;37;47m▓[0m [1;37;40m▀▀[0;1;30;40m▄▄ [0;34m▀▀▓▓█[0;1;34;44m░░░░▒▓▀▀[0;34m█▄   [0;1;30mStormwatch, or leave[0m

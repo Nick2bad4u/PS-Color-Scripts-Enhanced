@@ -5,7 +5,7 @@
 # Source SHA-256: 6ab7756c30db0a0314e44e34ef807ec4b23742d45130f4ae10fc61d04aad698e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH-MOUSE.ANS by Chronic-Pang (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -28,7 +28,7 @@ Write-Host '
 [37m  [0;1;34m([0;1;35mm[0;1;34m)[0;35menu command[0;37m [0;35m [0;37m  [0;1;34m([0;1;35mm[0;1;34m)[0;35menu command [0m   [1;34;44m▓[0;34m  [0;1;35;45m [0;35m▀▀▀[0;1;35;45m▐▀[0;35m▀▀[0;34m ▄▄  ▄  [0;35m▀█[0;1;35;45m▀▀█[0;35m▀[0;34m  ▄▄▀▀    ▄▄▄[0;1;34m▄▄[0;34m  [0m
 [37m  [0;1;34m([0;1;35mm[0;1;34m)[0;35menu command  [0;37m  [0;1;34m([0;1;35mm[0;1;34m)[0;35menu command [0;34m  [0;1;34;44m▓▓▒[0m   [1;34;44m▒[0;34m [0;35m▀[0;34m ▄█▀[0m      [34m■ [0;35m▀[0;34m  [0;35m▀[0;34m  [0;1;34;44m░[0;34m▌[0m   [1;34;44m░[0;34m▀▀▀    ▐[0;1;34m▓[0m
   [1;34m([0;1;35mm[0;1;34m)[0;35menu command  [0;37m  [0;1;34m([0;1;35mmen[0;1;34m)[0;35mu command[0m   [1;34;44m▒[0;34m [0;1;34;44m▒[0;34m▌ ▐██ ▐[0;1;34;44m░[0;34m [0m       [34m ▀ ▐[0;1;34;44m▒[0;34m  [0;1;34;44m░[0;34m▌  ▀ ▀[0m        [34m▐▌[0m
-[37m  [0;1;34m([0;1;35mm[0;1;34m)[0;35menu command [0m   [1;34m([0;1;35mmenu co[0;1;34m)[0;35mmmand[0;37m [0;34m [0;1;34;44m░[0;34m▌ [0;1;34;44m░░[0;34m [0;1;34;44m░[0;34m▌█▌[0;1;34;44m░[0;34m▌[0m         [34m█ [0;1;34;44m░[0;34m▌   ▀▀ █ ▀█▄ ▄▄▄▀▀▀[0m
-[37m  [0;1;34m([0;1;35mm[0;1;34m)[0;35menu command   [0;37m [0;1;34m([0;1;35mmenu [0;1;34m)[0;35mcommand [0;34m [0;1;34;44m░[0;34m▌  ▐[0;1;34;44m░[0;34m█ ▐█▀█ [0m       [1;34;44m░[0;34m▌ [0;1;34;44m ░[0;34m     [0;1;34;44m░▒[0;34m   [0;1;34;44m░[0;34m▌[0m     [34m▄[0m
+[37m  [0;1;34m [0;1;35m [0;1;34m [0;35m            [0m   [1;34m [0;1;35m       [0;1;34m [0;35m     [0;37m [0;34m [0;1;34;44m░[0;34m▌ [0;1;34;44m░░[0;34m [0;1;34;44m░[0;34m▌█▌[0;1;34;44m░[0;34m▌[0m         [34m█ [0;1;34;44m░[0;34m▌   ▀▀ █ ▀█▄ ▄▄▄▀▀▀[0m
+[37m  [0;1;34m [0;1;35m [0;1;34m [0;35m              [0;37m [0;1;34m [0;1;35m     [0;1;34m [0;35m        [0;34m [0;1;34;44m░[0;34m▌  ▐[0;1;34;44m░[0;34m█ ▐█▀█ [0m       [1;34;44m░[0;34m▌ [0;1;34;44m ░[0;34m     [0;1;34;44m░▒[0;34m   [0;1;34;44m░[0;34m▌[0m     [34m▄[0m
 [37m  [0;1;34m([0;1;35mm[0;1;34m)[0;35menu command  [0;37m  [0;1;34m([0;1;35mmen[0;1;34m)[0;35mu command[0;37m [0;34m▐[0;1;34;44m░[0;34m [0m   [34m█[0m   [1;34;44m░[0;34m▌▀█▄   ▄▄▀▀[0m   [34m▀█▄▄▄[0;1;34;44m░[0;34m▀ ▄▄▀▀[0;1;34;44m░[0;34m▄▄▄▀▀▀[0m
 [37m  [0;1;34m([0;1;35mm[0;1;34m)[0;35menu command  [0;37m  [0;1;34m([0;1;35mm[0;1;34m)[0;35menu command[0;37m [0;1;30;44m░░[0;34m [0;1;30m░░[0m   [1;30m░[0;34m [0;1;30;44m░[0;1;34;44m░[0;34m [0;1;30m░[0;34m ▀▀▀[0m   [1;30m░░░░    [0;34m▄▄▀▀[0;1;30m    [0m'

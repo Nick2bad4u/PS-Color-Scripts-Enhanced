@@ -5,7 +5,7 @@
 # Source SHA-256: 58e22b325a81948a6b8f3459abc30eee281b5765d18db628c653b7f9f894e3a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LBO-HA.ANS by torlock pop (LBO2); released in lbo2nfc and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: house adonis bbs logon screen
 # SAUCE Author: torlock pop
 # SAUCE Group: LBO2
@@ -18,10 +18,10 @@ Write-Host '
 
 [1;30m    [0;31m▄▄▄▄▄  ▄▄▄▄▄▄[0m
 [31m  ▄▀ [0;1;34m▄ [0;31m▀▀▀▀ [0;34m▄▄▄ [0;31m▀▄   [0;1;30m                                                         [0m
-[1;30m [0;31m█ [0;1;34m▄▀▀[0;1;34;44m▓▒[0;1;34m▄[0;1;34;44m▒[0;34m▄▀ [0;1;34m▄ [0;34m▀ [0;31m▀▄  [0;1;30mfor House Adonis (Yeah! another one..)[0m
+[1;30m [0;31m█ [0;1;34m▄▀▀[0;1;34;44m▓▒[0;1;34m▄[0;1;34;44m▒[0;34m▄▀ [0;1;34m▄ [0;34m▀ [0;31m▀▄  [0;1;30m                                      [0m
 [1;30m [0;31m▐▄▄▄  [0;1;34;44m░[0;34m▌[0;1;34m▄ ▄█▀▀[0;1;34;44m▓▓[0;1;34m▄ [0;31m█  [0;1;30m                                                      [0m
 [1;30m [0;31m▐   █ [0;1;30;44m░[0m  [1;34m▀ [0;1;30m▄▀  [0;1;34m▐[0;1;34;44m▒[0;34m▌[0;31m█▌ [0;1;30m                                                       [0m
-[1;30m [0;31m■  ▄█ [0;1;30;44m░[0m    [1;30m▐[0;1;30;44m▓[0m [34m▄[0;1;34m▀ [0;31m▄▀▓ [0;1;30mCow-Net members that i''ve forgotten.[0m
+[1;30m [0;31m■  ▄█ [0;1;30;44m░[0m    [1;30m▐[0;1;30;44m▓[0m [34m▄[0;1;34m▀ [0;31m▄▀▓ [0;1;30m                                    [0m
 [1;30m    [0;31m█ [0;34m▐[0;1;30;44m▒[0m     [1;30;44m▒░[0m [31m▄▀  ▐[0m
 [31m   █ [0;34m▄[0;1;30;44m▒▓[0;1;30m▌   [0;34m▐[0;1;30;44m░░[0;34m▄ [0;31m█  ■ [0;1;30m                                                         [0m
 [1;30m   [0;31m▀▄▄ [0;1;30m▀▀▄ [0;34m▄▀▀ [0;31m▄▄█    [0;1;30mor on House Adonis..[0m

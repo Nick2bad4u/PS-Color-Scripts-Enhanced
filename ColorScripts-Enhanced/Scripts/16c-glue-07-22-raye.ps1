@@ -5,7 +5,7 @@
 # Source SHA-256: e6d59fe4059df92a5116f87282af75fd83cbcf264e38581f38cb21455c67e27c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-RAYE.ANS by catch22 (glue 1998); released in glue-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ray earth matrix
 # SAUCE Author: catch22
 # SAUCE Group: glue 1998
@@ -25,8 +25,8 @@ Write-Host '
 [34m██████████████████████████████████▌ [0;1;37m▐███████[0;1;37;47m▓░[0m█████▄▄[33m ▀▀█▄▄█ [0;1;30m▄▄[0;1;30;47m▀[0;1;30;40m▀  [0;1;37;40m▄[0m  [1;30;47m▌▓[0;1;30;40m██▄[0;33m ███[0;1;30m▐[0m
 [34m████████[0;30;44mray   e a r t h[0;34;40m██[0;30;44mmatrix[0;34;40m████▄  [0;1;37;40m▀▀▀▀██[0;1;37;47m▒[0m██████[1;30;47m░▒▓█[0;1;30;40m▄[0;33m ▀█▌ [0;1;30m▐[0;1;37;47m░░[0;1;30;47m▀[0m▄▄▄▄[1;30;47m▀░▒▓[0;1;30;40m█▀[0;33m [0;1;31;43m░░[0;33m▌[0;1;30m▐[0m
 [34m██████████████████████████████████████▄▄▄  [0m   [1;37;47m░[0m█████[1;30;47m░▒▓[0;1;30;40m▀▀[0;33m▐[0;1;31;43m░░[0;33m [0;1;30m▀▀[0;1;30;47m▄▄[0m█████[1;30;47m▄[0m▀[1;30m▀[0m [33m▄[0;1;31;43m▒▒░[0;33m [0;1;30;47m▓[0m
-[34m████████[0;30;44mfor kyo.  thanks for guesting[0;34;40m████▌ [0;37;40m  ▐[0;1;37;47m░[0m██████[1;30;47m░[0m [33m▄█[0;1;31;43m░▒▓▄[0;33m█▄▄▄▄▄▄▄   ▄[0;1;31;43m▄▓▓▒[0;33m▌[0;37m▐[0;1;30;47m▒[0m
-[34m████████[0;30;44min the pack buddy.  here''s one[0;34;40m████▄  [0;1;37;47m▒░[0m███████▄[33m ▄[0;1;31;43m▄▓██▄[0;33m▄▄▀▀▀▀▀█[0;1;31;43m▄▄████▒[0;33m [0;1;37;47m░[0;1;30;47m░[0m
+[34m████████[0;30;44m                             [0;34;40m████▌ [0;37;40m  ▐[0;1;37;47m░[0m██████[1;30;47m░[0m [33m▄█[0;1;31;43m░▒▓▄[0;33m█▄▄▄▄▄▄▄   ▄[0;1;31;43m▄▓▓▒[0;33m▌[0;37m▐[0;1;30;47m▒[0m
+[34m████████[0;30;44m                              [0;34;40m████▄  [0;1;37;47m▒░[0m███████▄[33m ▄[0;1;31;43m▄▓██▄[0;33m▄▄▀▀▀▀▀█[0;1;31;43m▄▄████▒[0;33m [0;1;37;47m░[0;1;30;47m░[0m
 [34m████████[0;30;44mof the ansis i''ll be doing you,[0;34;40m███▌ [0;37;40m▐[0;1;37;47m░[0m████████▀[33m ▐[0;1;31;43m███▀███▄▄▄▄▄██████[0;33m█ [0;1;37m▄[0;1;37;47m▓░[0m
 [34m████████[0;30;44mlook for a pic in the NEAR[0;34;40m████████  [0;37;40m██▀▀▀[0;1;33;40m [0;33m▄[0;37m ▀▀[0;33m █[0;1;31;43m▄██▄[0;33m▄▀[0;1;31;43m▀█████████▀▀[0;33m▀[0;1;37m▄█▀▀▀[0m
 [34m████████[0;30;44mfuture, and good luck with your[0;34;40m██▌ [0;37;40m▀[0;34;40m [0;33;40m▄▄█[0;1;31;43m▄▄█▄▄[0;33m▄[0;1;31;43m▄██████[0;33m█ [0;1;31;43m▐████▀[0;33m▀▀▀  ▄▄▄[0;1;31;43m░░[0;33m▌[0m

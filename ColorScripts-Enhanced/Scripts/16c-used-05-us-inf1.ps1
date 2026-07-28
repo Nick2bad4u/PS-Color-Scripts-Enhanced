@@ -5,7 +5,7 @@
 # Source SHA-256: b506e6b0eea21cef27419f22fbe37c457f30244ce49c06812413f38aaeefa59f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-INF1.ANS by Spear + Cleaner (The Used Coalition); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Inflicted
 # SAUCE Author: Multiple Artists
 # SAUCE Group: The Used Coalition
@@ -39,4 +39,4 @@ Write-Host '
 [30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▓▓▀▀▀▀▀[0;1;30;40m▀[0m        [32m▀[0;37m   [0;32m▄[0;1;32;42m▄[0m                [1;30m▀[0m▀ [1;30m▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▓▓[0m
                             [1;32;40m▀[0;32m▀[0m     [1;32mI N F [0;32ml i c t e d[0m
 
-[1;30m∙─[0m─[[1;37mOutlines By Spear [0;36m-[0;37m [0;1;37mShading By Cleaner[0m]─-[1;30m--───[0m─∙────[1;30m─∙────[0m---──[[1;37mMay[0;36m''[0;1;37m2000[0m]─[1;30m─∙[0m'
+[1;30m ─[0m─ [1;37m                  [0;36m [0;37m [0;1;37m                  [0m ─ [1;30m  ───[0m─ ────[1;30m─ ────[0m   ── [1;37m   [0;36m [0;1;37m    [0m ─[1;30m─ [0m'

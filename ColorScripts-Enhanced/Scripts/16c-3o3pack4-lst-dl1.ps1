@@ -5,7 +5,7 @@
 # Source SHA-256: 1cae29bf49bb9ee789e83e165fec227e1c3c4957fe5b05e463b4e6f636403cb3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LST-DL1.ANS by soul trader (3o3pack4); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the arson pumpkin (he!)
 # SAUCE Author: soul trader
 # SAUCE Group: .
@@ -29,4 +29,4 @@ Write-Host '
    [33m███      ██  ██        ▀█[0;1;30;43m░[0;1;30;40m█[0m    [1;30m [0;33m [0;1;30m▄[0;33m [0;1;30m▄▄▄▄▄▄[0;33m ▀▀ [0;1;30m▄▄▄▄[0;33m [0;1;30m▄▄█[0;33m ▀▀ [0;1;30m▄▄▄▄▄▄[0;33m ▀▀▀▀▀▀ [0;1;30m▀[0m
     [33m████▄ ▀     ▀▀  [0;1;30mlst[0;33m ▄██[0;1;30;43m░[0;1;30;40m█[0m              [1;30m▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀[0m    [1;30m▀▀▀▀[0;33m [0;1;30m▀▀▀ ▀[0m
       [32;43m░░ [0;33;40m██▄▄▄▄   ▄▄▄▄▄█[0;1;30;43m░▒[0;1;30;40m█[0;33m [0;1;30m    [0m  [1;30m [0m [1;30m      name[0m [1;30m: demonic pumpkin sr.[0m
-       [33m  ▀▀▀▀██[0;1;30;43m [0;33m█[0;1;30;43m ▄▄[0;33m▀▀▀[0;1;30m▀[0m          [1;30m [0m [1;30mwanted for : excessive littering[0m'
+       [33m  ▀▀▀▀██[0;1;30;43m [0;33m█[0;1;30;43m ▄▄[0;33m▀▀▀[0;1;30m▀[0m          [1;30m [0m [1;30m                                [0m'

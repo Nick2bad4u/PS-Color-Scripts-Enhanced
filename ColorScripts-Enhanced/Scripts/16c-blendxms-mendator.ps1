@@ -5,7 +5,7 @@
 # Source SHA-256: b20fa2bbbf6e8a6a5ed9c754e3013ae185da9c76deb8a91efdc5598ec5208949
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MENDATOR.ANS by mendator (blend); released in blendxms and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mendator's greetings
 # SAUCE Author: mendator
 # SAUCE Group: blend
@@ -31,8 +31,8 @@ Write-Host '
 [34m ▐[0;1;31;45m▒[0;1;31;44m▓[0;1;31;45m▓[0;1;31;44m▓▓[0;1;31;45m▓[0;1;31;44m▓░[0;35;44m░[0;1;31;44m░[0;35;44m░[0;1;31;44m░[0;34m▌[0;31mthe fast monkeys run?[0m      [34m░[0;30;44m▓[0;34;40m▓[0;30;44m░░[0;1;34;47m▓░[0;36m█[0;1;31;46m░[0;43m▓▒░▒▓[0;40m███[0;45m▓▓░[0;1;34;45m░░░▓▓▓[0;1;34;40m█[0;30;45m░▓[0;31;40m▌[0;37;40m [0;30;43m▓░░[0;33;40m▓[0;30;43m░[0;33;40m▌[0;31;40m [0m
 [34;40m ▐[0;1;31;45m▓[0;1;31;44m▓███▓[0;1;31;45m▓[0;1;31;44m▓[0;1;31;45m▓▓[0;1;31;44m▓[0;1;31;45m▓[0;34m▌[0;1;30mru[0;31mn to the canada[0;32m''s wonderland[0;37m  [0;36m▄[0;1;31;46m░░░[0;43m▒░░▓[0;40m███[0;45m▓▓░░[0;35;40m█[0;1;34;45m ░░▓[0;1;34;40m▀[0;35m▀[0;37m  [0;31m▌[0;37m [0;31m [0;33m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;31;40m  [0m
 [37;40m [0;34;40m▐[0;1;31;44m▒▓▓█[0;1;31;45m█[0;1;31;44m███████[0;34m▌[0;1;30mth[0;31mere we can h[0;32mave s[0;1;32mome fun [0m [30;46m▓[0;36;40m░▓[0;30;46m░░[0;36;40m▀▀█[0;1;31;46m░░░[0;43m▓[0;40m██[0;45m▓▓▓▓▓░░[0;35;40m▀[0m   [31;40m▄[0;1;31;40m▄[0;1;31;41m▄▓[0;31m▄▌ [0;34m▄▄▄[0m
-[37m [0;34m▐[0;1;31;44m░▒▓[0;1;31;40m▀▀▀▀▀▀[0;1;31;44m▀██[0;34m▌[0;1;30mwi[0;31mth the monke[0;32mys, a[0;1;32mnd the d[0;32molphins[0m   [37m▀[0;30;47m░░[0;37;40m▓▓[0;30;47m░[0;37;40m▓▓[0;30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▌ [0;34;40m█▄▄ [0;37;40m [0;31;40m▀▌▀[0;37;40m [0;34;40m▄[0;1;37;44m ░▓[0m
- [34m▐▀  ▄▄▄▄▄▄  ▀▌[0;1;30mnobo[0;31mdy is sad,[0;32m at c[0;1;32manada''s [0;32mwonderland[0;37m [0;30;47m▓[0;37;40m░░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m [0;34;40m▀▀▀▀▀▀[0;37;40m  [0;34;40m▀▀▀▀▀▀[0m
+[37m [0;34m▐[0;1;31;44m░▒▓[0;1;31;40m▀▀▀▀▀▀[0;1;31;44m▀██[0;34m▌[0;1;30m  [0;31m            [0;32m     [0;1;32m        [0;32m       [0m   [37m▀[0;30;47m░░[0;37;40m▓▓[0;30;47m░[0;37;40m▓▓[0;30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▌ [0;34;40m█▄▄ [0;37;40m [0;31;40m▀▌▀[0;37;40m [0;34;40m▄[0;1;37;44m ░▓[0m
+ [34m▐▀  ▄▄▄▄▄▄  ▀▌[0;1;30m    [0;31m          [0;32m     [0;1;32m        [0;32m          [0;37m [0;30;47m▓[0;37;40m░░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m [0;34;40m▀▀▀▀▀▀[0;37;40m  [0;34;40m▀▀▀▀▀▀[0m
 [37;40m ·-─-·-─-─- -·─·--─·─ ─ -─-·-·-─·─    ·─- ·-─- ─·─-·─ · -· ·-─·  ▌▌▐▌▐▐▌▌▌ ▌▐▌[0m
 [37;40m                                                              [0m   [37;40m▌▌▐▌▐▐▌▌▌ ▌▐▌[0m
 [37;40m                                                           [0m      [37;40m▌▌▐▌▐▐▌▌▌ ▌▐▌[0m

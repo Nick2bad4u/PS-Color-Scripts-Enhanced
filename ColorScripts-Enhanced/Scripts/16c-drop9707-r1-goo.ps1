@@ -5,7 +5,7 @@
 # Source SHA-256: d5ec3510f90f77c0873c5f2578432c12a88df2b1d8f7d80ac60e224ecc69a533
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: R1-GOO.ANS by Ripper1 (READ THE INI FILE); released in drop9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: g00!
 # SAUCE Author: Ripper1
 # SAUCE Group: READ THE INI FILE
@@ -31,4 +31,4 @@ Write-Host '
            [34m▀▀▀▀▀▀█[0;1;34;44m▒[0;34m███[0;1;34;44m▓▒░░[0;34m████████████████████[0;1;34;44m░▒[0;34m███████████[0;37;44mRp1[0;34;40m▀▀▀▀▀▀▀    [0m
                   [34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
-[37;40m--x this is for spindoctor''s board x--------------------------------------------[0m'
+[37;40m                                                                                [0m'

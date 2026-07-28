@@ -5,7 +5,7 @@
 # Source SHA-256: 13ebfb3fcd4f44e7d3cbd2fcab4542e9257b7b2f85ddcf57acdd7cd59249e621
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZV-SBD.ANS by zeerow (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: step by death
 # SAUCE Author: zeerow
 # SAUCE Group: glue
@@ -36,7 +36,7 @@ Write-Host '
                     [1m▄▄██████████▄▄▄[0m
 [1;30m [0m        [1;30;47m▄▄[0m▄▄▄▄▄[1m ▄████▀██[0;1;47m▓▓▓[0;1;40m████▄[0m [34m▄[0;1;37m▀[0m
          [1;30m██████[0;1;37m [0;1;37;47m▓▓▓▓[0;1;37;40m▀[0;1;34;40m▄[0;1;34;44m▓[0;1;34;40m▄[0;1;37;40m▀▀[0;1;37;47m▓▓▓▓▓█[0;1;37;40m█[0;34m ▐[0;1;34;44m▀[0;1;34;40m▄[0m ▄          [1;30mI finally did a pic for lionik[0m
-         [1;30m█████▌[0m▐[1;47m░▒▒[0;1;40m [0;34m█[0;1;34;44m░▒▒░[0;34m█▄[0;1;37m▀[0;1;37;47m▒▓▒▒▓[0;1;37;40m▌[0;34m▐▓▒[0;37m [0;1;30m█[0;1;30;47m▄▄[0m▄▄      [1;30mand his board, step by death. [0m
+         [1;30m█████▌[0m▐[1;47m░▒▒[0;1;40m [0;34m█[0;1;34;44m░▒▒░[0;34m█▄[0;1;37m▀[0;1;37;47m▒▓▒▒▓[0;1;37;40m▌[0;34m▐▓▒[0;37m [0;1;30m█[0;1;30;47m▄▄[0m▄▄      [1;30m                              [0m
          [1;30m██████[0;1;37m [0m█[1;47m░[0m▌[34m▐██[0;1;34;44m░ [0;34m██▓▒[0;37m [0;1;37;47m▒░[0m▀[1;47m░▒[0m [34m ░[0;37m [0;1;30m▐████[0;1;30;47m▄[0m     [1;30mpleez pleez pleez no more    [0m
          [1;30m██████▌[0m▀█[34m  ▀▀▀▀[0;37m  [0;34m▀▀▌[0;37m▐[0;1;37;47m░[0m▌▐▌[34m▄[0m   [1;30m▐█████[0m     [1;30mrequests![0m [1;30mI''m starting school [0m
          [1;30m█████▀[0;1;37m▄█▄[0m    ▄▄[1;47m▒▓[0;1;40m▄▄[0m  ▀ ▀[1m ▄▄[0m▀ [1;30m██████[0m     [1;30magain and I have no time.[0m [1;30mFor[0m

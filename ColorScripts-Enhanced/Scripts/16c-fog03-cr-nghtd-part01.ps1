@@ -5,7 +5,7 @@
 # Source SHA-256: b9ac3215da75fd1e61a748f33ee7d50de47d9151ed2e3e82aa987c76088dcf33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-NGHTD.ANS by Coroner + Fightwinder (FiNiSH of GODz); released in fog03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Night Dancing
 # SAUCE Author: The Coroner
 # SAUCE Group: FiNiSH of GODz
@@ -21,10 +21,10 @@ Write-Host '
         [31m░░[0m   [31m█▀▄▓[0;37m  [0;31m▒[0m      [31m▒[0m   [31m▄▀▄[0m   [31m▒░[0m
 [1;30m───[0;1;37m [0;31m▓▒[0;1;37m [0;1;30m─[0;1;37m [0;31m▒░▄▀[0;1;33m▄▀▄[0;31m▀▄▓[0;1;37m [0;1;30m─ [0;31m░[0;1;37m [0;1;30m──[0;1;37m [0;31m▓▄▀[0;1;33m▄▀▄[0;31m▀▄▓[0;37m [0;1;30m─[0m [31m▓[0;37m [0;1;30m───────────────────────────────────────[0m
 [1;37m     [0;31m░░ [0;1;37m [0;31m▄▀[0;1;33m▄[0;1;33;43m██[0;31m│[0;1;33;43m██[0;1;33;40m▄[0;31m▀▄▓[0;1;37m   [0;31m▓[0;1;37m [0;31m▄▀[0;1;33m▄[0;1;33;43m██[0;31m│[0;1;33;43m██[0;1;33;40m▄[0;31m▀▄[0;37m [0;31m▓[0m     [31m░[0m   [1;30m                               [0m
-[1m [0;31m▒░[0;1;37m   [0;31m▒▄▀[0;1;33m▄[0;1;33;43m▓▓▓▓[0;31m│[0;1;33;43m▓▓▓▓[0;1;33;40m▄[0;31m▀▄[0;1;37m  [0;31m▄▀[0;1;33m▄[0;1;33;43m▓▓▓▓[0;1;37;40m [0;1;33;43m▓▓▓▓[0;1;33;40m▄[0;31m▀▄[0m   [31m▒ [0;37m  [0;1;30m  Kicking ANSi  Artwork done  for [0m
+[1m [0;31m▒░[0;1;37m   [0;31m▒▄▀[0;1;33m▄[0;1;33;43m▓▓▓▓[0;31m│[0;1;33;43m▓▓▓▓[0;1;33;40m▄[0;31m▀▄[0;1;37m  [0;31m▄▀[0;1;33m▄[0;1;33;43m▓▓▓▓[0;1;37;40m [0;1;33;43m▓▓▓▓[0;1;33;40m▄[0;31m▀▄[0m   [31m▒ [0;37m  [0;1;30m                                  [0m
 [1;37m   [0;31m▒[0;1;37m [0;31m▄▀[0;1;33m▄[0;1;33;43m▒▒▒▒▒[0;1;37;40m [0;31m▄▄▄▄▄▄[0;1;33m▀[0;31m▐▄▀[0;1;33m▄[0;1;33;43m▒▒▒▒▒[0;31m▐│[0;1;37m [0;1;33;43m▒▒▒▒▒[0;1;33;40m▄[0;31m▀▄▓[0m      [1;30mNiGHT DANCiNG Board... Font by  [0m
 [1;37m   [0;31m▄▀[0;33m▄[0;1;33;43m░░░░░░░[0;1;37;40m [0;31m▌[0;1;37m  [0;31m▄▄[0;1;37m [0;31m▀■[0;33m▄[0;1;33;43m░░░░░░░[0;31m▐[0;1;37m [0;31m▌[0;1;33;43m░░░░░░░[0;33m▄[0;31m▀▄[0m     [1;30mFightWindeR//FoG...         ...[0m
-[1m   [0;31m▌[0;33m▀[0;36m▄▄▄▄▄▄▄▄[0;1;37m [0;31m■ ▀█[0;1;37m [0;31m▀[0;1;37m [0;33m▀[0;36m▄▄▄▄▄▄▄▄[0;1;37m   [0;36m▄▄▄▄▄▄▄▄[0;33m▀[0;31m ▌[0m    [1;30mGreetz go to: Morpheus,  Street [0m
+[1m   [0;31m▌[0;33m▀[0;36m▄▄▄▄▄▄▄▄[0;1;37m [0;31m■ ▀█[0;1;37m [0;31m▀[0;1;37m [0;33m▀[0;36m▄▄▄▄▄▄▄▄[0;1;37m   [0;36m▄▄▄▄▄▄▄▄[0;33m▀[0;31m ▌[0m    [1;30m                                [0m
 [1;37m    [0;1;30m▀▄[0;36m▀[0;1;36;46m░░░░░░[0;1;37;40m [0;1;30;40m█▄▄▄▄▄▀█▄[0;36m▀[0;1;36;46m░░░░░░[0;1;30;40m▐▄▌[0;1;36;46m░░░░░░[0;36m▀[0;1;30m▄▀[0;31m █[0m    [1;30mRaider, Royal Ghost, Steel Rat,[0m
 [1m   [0;31m▌[0;1;30m■▌▀▄[0;1;36m▀[0;1;36;46m▒▒▒▒[0;1;36;40m▄[0;1;30;40m│[0;1;36;40m▄▄▄▄▄▀[0;1;30;40m▄▀▀▄[0;1;36;40m▀[0;1;36;46m▒▒▒▒[0;1;36;40m▄[0;1;30;40m│[0;1;36;40m▄[0;1;36;46m▒▒▒▒[0;1;36;40m▀[0;1;30;40m▄▀▌[0m [31m▐[0;1;31;41m▒[0;31m▄[0m   [1;30mJay Dee, Abbot Dervish,  Master [0m
 [1;37m   [0;31m▌[0;1;37m    [0;1;30m▀▄[0;1;36m▀[0;1;36;46m▓▓▓[0;1;30;40m│[0;1;36;46m▓▓▓[0;1;36;40m▀[0;1;30;40m▄▀[0;1;37;40m [0;1;30;40m▌[0;1;37;40m  [0;1;30;40m▀▄[0;1;36;40m▀[0;1;36;46m▓▓▓[0;1;36;40m [0;1;36;46m▓▓▓[0;1;36;40m▀▄[0;1;36;46m▒[0;1;36;40m▄[0;1;30;40m▀▄[0m [31m▐[0;1;37;41m▒[0;1;31;41m▒[0;31m▌[0;1;30m  Death,Micky Zombie,Super Reset,[0m

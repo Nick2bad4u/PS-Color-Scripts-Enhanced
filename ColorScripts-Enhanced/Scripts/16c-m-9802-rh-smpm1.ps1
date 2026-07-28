@@ -5,7 +5,7 @@
 # Source SHA-256: 99631722fc2d3f01a69f935c6b706055b59d78f1075f603ba260b79329e88cee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RH-SMPM1.ANS by rash (mistigris); released in m-9802 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Stupidmop menu??
 # SAUCE Author: rash
 # SAUCE Group: mistigris
@@ -38,4 +38,4 @@ Write-Host '
 [32m███[0;37m  [0;31m░[0;37m   [0;1;30mc[0;1;37mc[0m ommands  [1;30m·[0m   [1;30mc[0;1;37mc[0m ommands    [1;31m█[0;1;31;47m▓▓[0;1;31;40m███[0;1;31;43m██▄[0;1;31;40m▄[0;1;31;43m▄██[0;1;31;47m█[0;1;31;43m▓▒[0;33m▓ [0;1;31m [0;33m░[0;1;31;43m░▒▓▓[0;1;31;40m█[0;1;31;47m█[0;1;31;40m█[0;1;31;43m▓▓▓▓░[0;33m█ [0;37m   [0;1;33;42m [0;32m  █[0m
 [1;33;42m░[0;32m██[0;37m  [0;31m [0m                                 [1;31;47m▓▒▒▓▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;43m▄[0;1;31;40m▄[0;33m█[0;1;31m▀[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m▓▓[0;1;31;40m█████████[0;1;31;43m▓▒▒░░░[0;33m█  [0;37m  [0;32m█[0;30;42m░[0;32;40m▓█[0m
 [32;40m██▓▒░░ ░[0;30;42m▓[0;37;40m  [0;1;37;40mCOMMAND[0m [5m_[0m  [1mTIME : [0mNONE     [1;31m █[0;1;31;47m▓▓[0;1;31;40m████████[0;1;31;43m▒▒▓█[0;1;31;40m█████████[0;1;31;43m▓▓▒░░[0;33m████ [0;37m [0;32m░[0;30;42m▓░[0;32;40m▓[0;30;42m░[0;32;40m▓[0m
-[1;30;40m-------------------------------- [0m [1;30mMAIN MENU[0m??[1;30m  fOR FLIBBLES'' " STUPIDMOP "[0m'
+[1;30;40m                                 [0m [1;30m         [0m  [1;30m                             [0m'

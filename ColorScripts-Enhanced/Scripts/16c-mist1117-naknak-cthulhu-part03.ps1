@@ -5,7 +5,7 @@
 # Source SHA-256: 0cad770f8f35bacae720dd8f7795a9463f6e2b9df74dd3e3a9c2a49ad6b6add1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NAKNAK-CTHULHU.ANS by Nak (Mistigris); released in mist1117 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Self portrait as Cthulhu, 2006
 # SAUCE Author: Nak
 # SAUCE Group: Mistigris
@@ -57,7 +57,7 @@ Write-Host '
        [32mn[0m        [32m█░▒░▒[0m                               [1;31m█[0m         [1;101m▒▒[0;1;31m█████[0m
        [32me[0m         [32m█▒▒[0m                                [1;31m█[0m          [1;101m▒[0;1;31m████[0m
       [33m"[0m                                  [32m [0m                               [37m2006[0m
-[37m██████▓▓▒▒░░Ph''nglui mglw''nafh Cthulhu R''lyeh wgah''nagl fhtagn░░▒▒▓▓█████ N[0;33ma[0;37mK ██[0m
+[37m██████▓▓▒▒░░                                                  ░░▒▒▓▓█████  [0;33m [0;37m  ██[0m
                                                                            [1;37;101m▒[0;1;31m██[0m
                                                     [1;31m█[0m                     [1;101m▒[0;1;31m████[0m
                                                                            [1;31m███[0m'

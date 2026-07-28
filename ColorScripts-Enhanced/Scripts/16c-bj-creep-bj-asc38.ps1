@@ -5,7 +5,7 @@
 # Source SHA-256: 1b1af80fe6209b60d1a9d65c778462790ca9540a81a9a2f759bc916f75c32f6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc38.ans by Black Jack (Plain [11/07/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Logoff screen (Neosporin)
 # SAUCE Author: Black Jack
 # SAUCE Group: Plain [11/07/96]
@@ -32,7 +32,7 @@ Write-Host '
 [1;30m  [0;31m;,  ,b,_''   [0;37m`Y$$$ⁿ''[0;33mmm,,[0m        [34m:   ''[0m        [1;37m,$[0m$Y[1;30m''    [0;1;37ml$$$$, l$$$$$$$$$$$b.  .[0;1;30m:[0m
 [31m,m'' `Y'' `l,    [0;33m`YIII[0;33;41m&[0;33;40mIli:[0;37;40m.[0m       [34;40m.[0m            [1;37;40ml[0m$Y''     ;[1mY$$$$,iY$$$$$$$$$$Y''.:i[0;1;30ml[0m
 [31m$''    ;  `ⁿ+,[0;1;30m_,[0m.[33m`Yii[0;37m:il[0;33ml[0;37mi:[0;33m.[0;37m`$[0;1;30mb,[0m              [1md$[0m$l       I$[1m$$$$:$$$$I$$$$$$'',d[0m$[1;30ml:[0m
-[31m`l   ''    [0;1;30m,d$[0m$$$b,[33m:[0;37m:i[0;33mi[0;37mii:[0;33mib.[0;1;30m"ⁿ''  [0mcall back  [1m,$$$[0m:       [1;30ml[0m$$$[1m$$$&$i$$$$$$$[0mS$$Y[1;30mⁿ`[0m
+[31m          [0;1;30m   [0m     [33m [0;37m  [0;33m [0;37m   [0;33m   [0;1;30m     [0m           [1m    [0m        [1;30m [0m   [1m             [0m    [1;30m  [0m
 [1;30m [0;31m; .    [0;1;30m,d[0m$$$$$[1ml[0;1;47mi[0;1;40m, [0;33m`Y&Illⁿ"[0;37m,[0;1;30mmSm, [0m later..   [1md$$[0m&b[1;30m,[0m      [1;30m:$[0m$$$$$$$$$$$Yⁿ°"~     [1;30ml[0m
 [1;30m [0;31m.[0m     [1;30m,[0m$$$[1m&[0m$[1m&Il[0m$Sm  [33mⁿ"[0;37m,mS$[0;1;37mI[0m$$[1;30mI$ [0m          [1md$$[0m&Il[1;30mi[0m         [1;30m`[0m~"""""°"` [1m,_[0m      [1;30m;[0m$
        [1;30m`Y[0m$$[1m&Ili$[0m$ⁿ'',m$$$$$[1m&[0m$$[1;30mYⁿ[0;33mb,[0m         [1;37m;$$[0m$Il[1;30mi:.[0m                 [1m,dⁿ''[0m     .d[1m$[0m

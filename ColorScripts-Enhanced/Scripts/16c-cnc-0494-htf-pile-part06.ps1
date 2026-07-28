@@ -5,7 +5,7 @@
 # Source SHA-256: 1abf4f2afdc5ff20eabcb172919062905a3b8cafaf808859c024e598501ade49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HTF-PILE.ANS by Hanzo The Fiend (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 251-298
 # Columns: 1-80
 
@@ -37,7 +37,7 @@ Write-Host '
 
                             [1;32mT[0;32mhe [0;1;32mF[0;32mile [0;1;32mP[0;32mile [0;1;32mB[0;32mBS[0m         [34m█▀▀ █▀█ █▄ █ █▀▀ █▀▀ █▀█[0m
                                                       [1;34m█   █▀█ █▀██ █   █▀▀ █▀▄[0m
-[1;34m    [0;1;35mS[0;35mYSop: [0;1;35mB[0;35mlonde [0;1;35mH[0;35mak [0;1;35mH[0;35mEr[0m         [1;35m0[0;35m-3 [0;1;35mD[0;35mays [0;1;35mW[0;35marez[0m      [1;36m▀▀▀ ▀ ▀ ▀  ▀ ▀▀▀ ▀▀▀ ▀ ▀[0m
+[1;34m    [0;1;35m [0;35m      [0;1;35m [0;35m      [0;1;35m [0;35m   [0;1;35m [0;35m  [0m         [1;35m [0;35m   [0;1;35m [0;35m    [0;1;35m [0;35m    [0m      [1;36m▀▀▀ ▀ ▀ ▀  ▀ ▀▀▀ ▀▀▀ ▀ ▀[0m
 [1;36m    [0;1;35mC[0;35moSYS: [0;1;35mT[0;35mhe [0;1;35mS[0;35mmiling [0;1;35mB[0;35mandit[0m     [1;35mH[0;35m/[0;1;35mP[0;35m/[0;1;35mA[0;35m/[0;1;35mC[0;35m/[0;1;35mV[0m              [34m█▄ █ ▄█ █   █ █▀▀█[0m
 [34m  [0;35m2 [0;1;35mN[0;35modes: [0;1;35mP[0;35mri-[0;1;35mV[0;35mate[0m               [1;35mN[0;35mo [0;1;35mR[0;35matios[0m               [1;34m█▄█▄█  █▀▀▀█ █  █[0m
                                                            [1;36m▀ ▀   ▀   ▀  ▀▀ ▀[0m

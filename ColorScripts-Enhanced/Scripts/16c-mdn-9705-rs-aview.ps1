@@ -5,7 +5,7 @@
 # Source SHA-256: 0a189a63c0d7282c8bdf4a0bc6e79e6f917c261c31656b218d7f90121a601149
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-AVIEW.ANS by rorshack (Maiden Brazil); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: aifview layout
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -28,7 +28,7 @@ Write-Host '
 [1;30m▄[0m [1mc:\path\  [0m                                                                 [1;30m  ▄[0m
 [1;30m█──────────────────────────────────────────────────────────────────────────────█[0m
 [1;30m█  sample!@.ans  12345678901234567890123456789012345  12345678901234567890  A  █[0m
-[1;30m█  filename───┐  sauce description <───────────────┐  sauce author───────┐  ░  █[0m
+[1;30m█          ───┐                     ───────────────┐              ───────┐  ░  █[0m
 [1;30m█  ┌─────┐[0m    [1;30m│  │[0m                                 [1;30m│  ┌─────>[0m            [1;30m│  ░  █[0m
 [1;30m█  │[0m     [1;30m│[0m    [1;30m│  │[0m                                 [1;30m│  │[0m                  [1;30m│  ░  █[0m
 [1;30m█  │[0m     [1;30m│[0m    [1;30m│  │[0m                                 [1;30m│  │  hehehe[0m          [1;30m│  ▒  █[0m

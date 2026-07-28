@@ -5,7 +5,7 @@
 # Source SHA-256: 3a055256a788c16b0bd9d06087c4f76d1b05a2fae49d564735477427eba8b932
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-DOTS1.ANS by Synergy (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -50,7 +50,7 @@ Write-Host '
 
         [1;30m──[0;34m──[0;1;34m──[0;1;36m──[0m         [1;30mC[0mo[1m-[0;1;30mS[0mys[1mops: [0;1;30mBl[0mack[1msheep [0;1;30mA[0mn[1md [0;1;30mZ[0mi[1mTH[0m         [1;36m──[0;1;34m──[0;34m──[0;1;30m──[0;1;37m·[0m
 
-     [1;30m──[0;34m──[0;1;34m──[0;1;36m──[0m         [1;30mD[0mi[1mMM [0;1;30mW[0mH[1mQ!/[0;1;30mDr[0mevny[1maWare/[0;1;30mSu[0mbmis[1msion [0;1;30mN[0me[1mt[0m         [1;36m──[0;1;34m──[0;34m──[0;1;30m──[0;1;37m·[0m
+     [1;30m──[0;34m──[0;1;34m──[0;1;36m──[0m         [1;30m [0m [1m   [0;1;30m [0m [1m   [0;1;30m  [0m    [1m      [0;1;30m  [0m    [1m     [0;1;30m [0m [1m [0m         [1;36m──[0;1;34m──[0;34m──[0;1;30m──[0;1;37m [0m
              [1;37m.[0m                                                      [1;37m·[0m       ·
   [1;30m──[0;34m──[0;1;34m──[0;1;36m──[0m         [1;30mM[0mo[1mdem: [0;1;30mH[0;1;37mayes [0;1;30mO[0;1;37mptima [0;1;32m28.8 [0;1;30mMe[0mgg[1mage: [0;1;30m6[0;1;37m70 [0;1;30mM[0;1;37megs[0m         [1;36m──[0;1;34m──[0;34m──[0;1;30m──[0;1;37m·[0m
 

@@ -5,7 +5,7 @@
 # Source SHA-256: ed275d6a383bace66c62599367a89879995828d4c8fb174376a402ad67f366a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-ICE.ANS by splatt (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ice
 # SAUCE Author: splatt
 # SAUCE Group: Revival
@@ -32,6 +32,6 @@ Write-Host '
 [37;40m  [0;1;37;40m   [0m▀[1m▀[0m▐[1;47m▓[0;1;30;40m▒[0;1;37;40m▄▄[0m ▀▀[1m▀▀▀▀▀▀ [0m▄█[1m██[0;1;47m██[0;1;40m▄[0m      ▀[1m▀▀[0;1;47m▀[0;1;40m█▄▄[0m [1m▄[0m    [1m  [0m ▄[1;47m▄[0;1;40m████████[0m▄ ▀[1m▀▀[0m   ▀█[1m██▀[0m
          [1;30m░[0m  ▀[1m▀▀▀  [0m▀[1m▀[0m   [1;30m▀[0m▀[1m▀▀▀[0m                     ■▄[1m [0m▀▐[1m█[0;1;47m█▓[0;1;40m▓▀[0m▀▀
 [1;30m         ░  [0;1;36m    [0m                [1;30m░░[0m [1m   [0;1;36m        [0m
-                         [1;30m░░  ░░░▒▒[0;1;36m ansi by [0;1;37msplatt[0;1;36m of [0;1;37mrevival[0m  [1;30m░░░[0m    [1;30m░░[0m
+                         [1;30m░░  ░░░▒▒[0;1;36m         [0;1;37m      [0;1;36m    [0;1;37m       [0m  [1;30m░░░[0m    [1;30m░░[0m
          [1;30m░[0m                     [1;30m   [0m            [1;30m   [0m
                                                 [1;30m░░░[0m'

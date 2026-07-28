@@ -5,7 +5,7 @@
 # Source SHA-256: f3b45e98634d5529ae0df487c2a04f7d5c7c8dd8f502bc372cf1bf1648357e7a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!-HEXN.ANS by sIMON kING (nOMINAL^pEN15); released in pen15-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hEXEN zONE bBS
 # SAUCE Author: sIMON kING
 # SAUCE Group: nOMINAL^pEN15
@@ -34,6 +34,6 @@ Write-Host '
 [1;33m [0;36m▀▀█[0;1;36;46msK!98[0;36m██▄▄[0;1;36;46m▄▓▒▓[0;1;33;40m  [0;1;33;45m██[0;1;33;46m▓▒░[0;36m▄▄ ▐█[0;1;36;46m░[0;36m▌[0;34m [0;1;33m▐████[0m    [36m█[0;1;36;46m░[0;36m█[0;1;33m ▐[0;1;33;42m█[0;1;33;46m▓▒[0;36m██▄▄[0;1;36;46m░[0;36m█▀ [0;1;37m  ▀▀[0;31m▀▀▀▄[0;1;37m  [0;31m▐▀▀▀▀[0m   [1;37m▀[0;31m▀▀▄[0m
 [37m        [0;36m▀▀▀▀▀▀▀[0;1;36m▀[0m    [1;33m ▀▀[0;36m▀▀▀▀▀▀[0m   [1;33m▐████[0m   [36m▐[0;1;36;46m░[0;36m█▌[0;1;33m ▐[0;1;33;46m▓▒░[0;36m█[0m     [36m▄▄[0;37m [0;1;34mh[0;1;36mE[0mXA[1mN[0;31m▐▌[0;37m  [0;31m▄▀[0;1;34mz[0;1;36mO[0mN[1mE[0m [1;34mb[0;1;36mB[0mS[31m▀▌[0m
 [1;33m [0;1;30m───────────────────────────────[0;1;33m▐███[0;1;33;46m▓[0;36m [0;1;30m─[0;36m [0;1;36;46m░[0;36m██ [0;1;30m── [0;1;33m▀[0;1;33;46m▓▀[0;36m█▄▄▄██▀[0;34m [0;1;30m─────[0;31m─▀─[0;1;30m────────────[0;31m─[0;1;30m [0m
-    [34mL[0;1;34mi[0;1;36mN[0;1;37mE[0;1;34m #1 [0;1;30mxxx[0m-xxxxxxxxx[1;30mxxx[0m       [1;34mo[0;1;36mP[0;1;37mE[0;1;34mN: [0;1;30mxx[0m-xx c[1;30mET[0m        [31m▀▀[0;1;31;41m░[0;31m██████[0;1;31;41m░[0;31m▀███████[0;1;31;41m░[0m
+    [34m [0;1;34m [0;1;36m [0;1;37m [0;1;34m    [0;1;30m   [0m          [1;30m   [0m       [1;34m [0;1;36m [0;1;37m [0;1;34m   [0;1;30m  [0m     [1;30m  [0m        [31m▀▀[0;1;31;41m░[0;31m██████[0;1;31;41m░[0;31m▀███████[0;1;31;41m░[0m
     [34m [0;1;34m [0;1;36m [0;1;37m [0;1;34m    [0;1;30m   [0m          [1;30m   [0m       [1;34m [0;1;36m [0;1;37m [0;1;34m   [0m [1;30;47m [0;1;30;40m [0m    [1;30m  [0m             [31m▀▀[0;1;31;41m░[0;31m▀▀▐▌[0m   [31m▀▀[0;37m [0;31m▐▌[0m
                                                                  [31m▀▄[0;37m  [0;31m▀[0m      [31m▀[0m'

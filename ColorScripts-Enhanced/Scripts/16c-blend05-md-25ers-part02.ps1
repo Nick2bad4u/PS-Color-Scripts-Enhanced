@@ -5,7 +5,7 @@
 # Source SHA-256: ea126fbe920265bc40f0915308030f09772bd3888c83dbe6de49158ece13190d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-25ERS.ANS by mendator (blend); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 25 - liners
 # SAUCE Author: mendator
 # SAUCE Group: blend
@@ -18,7 +18,7 @@ Write-Host '
           [1;31m     [0m         [33m [0m            [33m  [0;37m  [0;33m      [0m    [1;31m▄▄[0m  [34m▄▄[0;1;34;44m▄█████████████████▀[0;34m▀▀[0;1;34;44m░[0m
  [32m [0;37m [0;30;43m▓[0m    [30;43m▓[0;37;40m [0;33;40m    ▄▄▄▄  ▀▀▀  [0;37;40m [0;33;40m>[0;37;40m [0;33;40m>>[0;37;40m [0;33;40mmendator([0;1;33;40mblend[0;1;5;33;40m_[0;33m)[0m   [1;31;43m▒[0;1;31;40m▓ [0;34m▄[0;1;34;44m▄██████[0;1;34;47m▓▓▓▓[0;1;34;44m██████▄[0;34m▄[0;31m [0;1;30m▄ ▐▌[0;34m▐[0m
 [37m [0;33m▄▄[0;30;43m░[0;1;33;43m░[0;30;43m░[0;33;40m▀▀▀▀▀[0m                                      [33;40m▐[0;1;31;43m░[0;1;31;40m▒[0m [1;34;44m▐████[0;1;34;47m█▓▓▓[0;1;34;44m████████▀[0;34m▀[0;1;30m ▄ [0m▒[1;30m▀ [0;34m▐[0m
-[37m [0;33m▐[0;1;33;43m▒░[0;1;33;40m░[0m         [1;34mn[0;34mocturnal[0;32m [0;1;34md[0;34mesire [0;1;34mm[0;34main[0;32m [0;1;34mm[0;34menu[0m          [1;33;43m░[0;33m█[0;37m [0;34m▐[0;1;34;44m█████████▓▓▓▓▓▓██▄[0;34m▄[0;31m [0;1;30m  [0m▒[1;30m▌[0;31m [0m
+[37m [0;33m▐[0;1;33;43m▒░[0;1;33;40m░[0m         [1;34m [0;34m        [0;32m [0;1;34m [0;34m      [0;1;34m [0;34m   [0;32m [0;1;34m [0;34m   [0m          [1;33;43m░[0;33m█[0;37m [0;34m▐[0;1;34;44m█████████▓▓▓▓▓▓██▄[0;34m▄[0;31m [0;1;30m  [0m▒[1;30m▌[0;31m [0m
 [37m [0;33m▐[0;1;33;43m▒[0;1;33;40m▒[0m                                              [1;33;43m▒[0;33m▌[0;37m [0;1;34;44m▐████████▓░░░░░░▓████▄[0;1;30;40m ▀▄[0m
  [33m▐[0;1;33;43m▓[0;33m▌[0m    [1;33mc[0m [33mcommand[0;37m [0;33mhere![0m       [1;33mc[0m [33mcommand[0;37m [0;33mhere![0m     [1;33;43m▓[0;33m▌[0;37m [0;34m▀[0;1;34;44m▐███▓▓▓▓▒[0;34m▀[0m    [34m▀[0;1;34;44m▒▓▓▓▓▓[0;34m▌[0;1;30m▐▓▌[0m
  [33m▐[0;1;33;43m▒[0;33m▌[0m                      [33m [0m                       [1;33m▐[0;33m▌[0;34m▐[0;1;34;44m▄▓▓▓▓░░░░░[0;34m█[0;1;30m ░░[0m [1;30m [0;1;34;44m░░░░░[0;34m▀[0;1;30m  ▀[0m

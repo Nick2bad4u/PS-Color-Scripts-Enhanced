@@ -5,7 +5,7 @@
 # Source SHA-256: 68f4535f584a27b25f5d2e4e6438f737aec373d666ddce63dc3be81a589057af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT-LORDM.ANS by Nootropic (3c6-open); released in 3c6-open and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -28,4 +28,4 @@ Write-Host '
 [33m([0;1;33mH[0;33m)ealers Hut  [0m             [33m([0;1;33mC[0;33m)onjugality List[0m   [33m▓[0;1;33;41m░[0m  [33m▄▄▄[0;1;30;43m░[0m     [1;33;41m▒░[0m [33m▓[0;1;30;43m░[0;33m▄▀▀▀[0;37m  [0;33m▒░[0m   [1;33;41m░▒[0m
 [33m([0;1;33mO[0;33m)ther Places[0m              [33m([0;1;33mX[0;33m)pert Mode       [0;31m [0;37m [0;1;33;41m░▒[0m   [1;33;43m░░[0;33m▌▐░[0m   [1;33;41m▓▓[0m [1;33;43m░[0;33m▓▀[0;1;33;43m░[0;33m▄▄[0;37m  [0;33m▓▒[0;37m  [0;33m [0;1;33;41m▒▓[0m
                             [33m([0;1;33mV[0;33m)iew your stats[0;37m [0;1;33m░[0;31m [0;33m▀[0;1;33m▀[0;1;33;41m▓[0;1;33;40m▌[0m [33m▄▓▀[0;37m [0;33m▀▌[0;37m  [0;1;33m▐[0;1;33;43m█[0;1;33;40m▌[0m [33m▓▒[0;37m  [0;33m▀▀[0;1;31;43m░[0;33m▄[0;37m [0;33m▓[0;37m  [0;33m▐[0;1;33;41m▓[0;1;33;40m▓[0m
-[33m([0;1;33mQ[0;33m)uit to Fields[0m            [33m([0;1;33mM[0;33m)ake Announcement[0m    [1;33m▀▓[0m [33m░[0;37m  [0;1;33m░[0m [1;33m▀▓▀[0m   [33m▒░[0m     [33m▀░▀▀▓▀[0;37m [0;1;33m░[0m'
+[33m [0;1;33m [0;33m              [0m            [33m [0;1;33m [0;33m                 [0m    [1;33m▀▓[0m [33m░[0;37m  [0;1;33m░[0m [1;33m▀▓▀[0m   [33m▒░[0m     [33m▀░▀▀▓▀[0;37m [0;1;33m░[0m'

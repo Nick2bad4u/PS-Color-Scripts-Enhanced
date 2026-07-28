@@ -5,7 +5,7 @@
 # Source SHA-256: 937a5b0be8c1448dae01dfa60fd5016ad66579ae3e60f432820c83249a6ed7bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-CHAOS.ANS by Minotaur (axf-0197); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -31,6 +31,6 @@ Write-Host '
               [35m▐[0;1;35;45m        ░░░░  [0m [35m▄[0;1;35m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35;45m▄[0;1;35;40m█[0;1;35;45m▓[0;1;35;40m███[0;1;35;45m▄[0;1;35;40m▄[0;1;35;45m▄[0;1;35;40m█[0;1;35;45m▀[0;1;35;40m▀▀▀▀[0;35m▀[0m       [35m▀[0;1;35m▀[0;35m▀[0m
               [35m █████[0;30;45m░[0;35;40m█[0;1;35;45m     [0;35m▓▌[0;37m [0;35m─────────────────────────[0;1;35m────────────────────────[0m
            [30;45m▓▓[0;37;40m  [0;30;45m░[0;35;40m██[0;30;45m░[0;35;40m███████▀[0;30;45m░[0;35;40m [0m    [36;40m  [0;1;35;40m [0;36m     chaos land board  +o xxxxxx[0m
-    [35m░[0;37m  [0;35m░[0;37m [0;30;45m▓[0;35;40m░▒[0;30;45m▒▓[0;35;40m░[0;30;45m░[0;35;40m▓▀▀▀████[0;30;45m▐▓▓[0;35;40m▒[0;30;45m▓[0;37;40m  [0;30;45m▓[0;35;40m░[0;36;40m [0;35;40m░░[0;30;45m▓[0;36;40mabc/cde/fgh/axf/ijk/lmn/acid/razor[0m
+    [35m░[0;37m  [0;35m░[0;37m [0;30;45m▓[0;35;40m░▒[0;30;45m▒▓[0;35;40m░[0;30;45m░[0;35;40m▓▀▀▀████[0;30;45m▐▓▓[0;35;40m▒[0;30;45m▓[0;37;40m  [0;30;45m▓[0;35;40m░[0;36;40m [0;35;40m░░[0;30;45m▓[0;36;40m                                  [0m
            [30;45m▓▓[0m      [35;40m▀[0;30;45m░[0;35;40m▀▀▀▀  ░[0m     [36;40m    [0m         [36;40m+xx.xxx.xxxxxxx[0m
            [35;40m░░[0m      [30;45m▓▒▓▓[0;37;40m  [0;35;40m  [0;30;45m▓[0;35;40m        [0m'

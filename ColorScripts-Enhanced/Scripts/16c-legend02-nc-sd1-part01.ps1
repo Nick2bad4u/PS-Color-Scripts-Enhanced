@@ -5,7 +5,7 @@
 # Source SHA-256: 154bf829ee24c3eceb9f0e989807dec8768cf8b3d6d2844799e29820e29df339
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NC-SD1.ANS by Neurotic (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sDelic Emag
 # SAUCE Author: Neurotic
 # SAUCE Group: Legend
@@ -44,7 +44,7 @@ Write-Host '
 [35;40m███████████▌[0m [30;40m  black & white[0m  [1;33;47m▓▓█[0;1;33;40m▀▀▀[0m                [1;33;40m▀[0;1;33;47m██[0;1;37;40m█▀▀▀[0;1;33;40m▀▀▀[0;1;33;47m▓▓[0;1;33;40m▄[0;30;47m▀  [0m [30;40mintended[0m
 [35;40m████████████[0m [30;40m(my excuse for[0m   [1;33;47m▓█[0;1;33;40m▌[0m        [1;33;40m▄▄▄▄▄▄▄[0m     [1;33;47m▓██[0m      [1;33;47m█▓▓▒░░[0m [30mthat way,[0m
 [1;31;45m░[0;35m██████[0;1;31;45m░[0;35m████[0m  [30mthe wacky[0m [1;33m▄▄    [0;1;33;47m██[0;1;33;40m▌[0m        [1;33;40m▄▄▄▄▄▄▄[0m     [1;33;47m▓▓▓[0m      [1;33;40m▐[0;1;33;47m▓▓▒▒░[0m [30mnot just[0m
-[1;31;45m░░[0;35m█████[0;1;31;45m░░░[0;35m██[0m  [30mcolouring[0;1;37m [0;30m=)[0m    [1;37m█[0;1;33;47m█[0m  [30mlotsa black space[0m  [1;33;47m▒▒▓[0m      [1;33;40m▐[0;1;33;47m▓▒▒░ [0m [30mbecause[0m
+[1;31;45m░░[0;35m█████[0;1;31;45m░░░[0;35m██[0m  [30m         [0;1;37m [0;30m  [0m    [1;37m█[0;1;33;47m█[0m  [30m                 [0m  [1;33;47m▒▒▓[0m      [1;33;40m▐[0;1;33;47m▓▒▒░ [0m [30m       [0m
 [1;31;45m▒░░[0;35m█████[0;1;31;45m░▒░[0;35m█[0m            [1;33m▄▄[0m         [30min this ansi..[0m    [1;33;47m░▒▒[0m       [1;33;47m▒▒░  [0m [30mi''m lazy.[0m
 [1;31;45m▓▒░░[0;35m█████[0;1;31;45m░▒░[0m                                         [1;31;47m [0;1;33;47m░▒[0m       [1;33;47m▒░[0m▀▀    [30m=)[0m
 [30m                                   [0m [36m▄▄▄▄▄▄▄[0m          [37;47m  [0;1;33;47m░[0m          [35m█▓[0m

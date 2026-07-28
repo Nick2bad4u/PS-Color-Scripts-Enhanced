@@ -7,18 +7,8 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-33rules-33-drool",
-            "reason": "Reviewed self-description: the artwork explicitly calls itself an original; the joking phrase 'ripped from' does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-mist0424-the-war-on-christmas-fox-hunt",
             "reason": "Reviewed public-domain source: the SAUCE credit identifies Winslow Homer's nineteenth-century Fox Hunt, whose underlying artwork is in the public domain."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-tw-roth-shipydop",
-            "reason": "Reviewed false positive: 'row after row' is part of the artwork's narrative, not a derivative-source attribution."
         },
         {
             "issueType": "avoidable-extra-part",
@@ -1458,11 +1448,6 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-bmbook12-po-uc",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-fire0897-rr-dl",
             "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
         },
@@ -1504,11 +1489,6 @@
         {
             "issueType": "derivative-attribution-review",
             "family": "16c-fld9612-px-mat1",
-            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-grim-03-ml-crwl",
             "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
         },
         {
