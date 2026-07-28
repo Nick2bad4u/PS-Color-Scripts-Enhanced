@@ -5,7 +5,7 @@
 # Source SHA-256: fdc9530c8e5834a4a8f609a4e6f4d467a92f09122b89d980a12b191fe2953f55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZV-AMEND.ANS by zeroVision (gluE!); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: AMEND
 # SAUCE Author: zeroVision
 # SAUCE Group: gluE!
@@ -39,7 +39,7 @@ Write-Host '
 [1;30m▀█▌[0m   [1;30m░[0m     [1;30m▀[0m  [1;30m▀[0m                                                        [1;30m▀▀[0;1;30;47m▓▓[0;1;30;40m████[0m
   [1;30m▀▄[0m
 [1;30m--------------------------------------------------------------------------------[0m
-[1;30mthis was for a new emag i think[0m [33m ▄▄██▀▀[0;1;33;43m▀▀▄[0;33m█▀[0;37m▄[0;1;31;47m▒▓[0;1;31;40m█▀[0;33m▄▀[0;1;31m▄▌ ▄▌[0;33m▀[0;1;33;43m░[0m [1;31m██▀▄████[0;1;31;43m▓▓▓▓▒░░[0;33m▀[0m
+[1;30m                               [0m [33m ▄▄██▀▀[0;1;33;43m▀▀▄[0;33m█▀[0;37m▄[0;1;31;47m▒▓[0;1;31;40m█▀[0;33m▄▀[0;1;31m▄▌ ▄▌[0;33m▀[0;1;33;43m░[0m [1;31m██▀▄████[0;1;31;43m▓▓▓▓▒░░[0;33m▀[0m
 [1;30mcalled AMEND i think i was[0m    [33m▄▀▀▄▀▄[0;1;33;43m▄▄▀▀[0;33m██[0;37m █[0;1;31;47m▒▓[0;1;31;40m█ [0;33m▀[0;1;31m▄██[0m [1;31m▐█▄▌[0;33m█[0;1;31m▐[0;1;31;47m▓[0;1;31;40m▌▐███▀██▀[0;1;31;43m▓[0;1;31;40m▀[0;1;31;43m▓▒[0;33m▌[0m
 [1;30msupposed to draw a 25 liner.[0m    [33m█[0;1;33;43m░▒▓▓[0;33m▀▄▄[0;1;33;43m░[0;33m▌[0;37m▐[0;1;31;47m▒▓[0;1;31;40m█▌[0;33m▄[0;1;31m▐█[0;1;31;47m▓▓[0;1;31;40m█▄▀[0;1;31;47m▓[0;1;31;40m [0;33m▌[0;1;31m██▀▀▄▄▌▐█▌▐█▌▓▀[0m
 [1;30mewps.[0m                          [33m▐▀▄[0;1;33;43m▒▒[0;33m▀▀[0;37m  [0;33m▄ [0;1;31;47m░▒▓[0;1;31;40m█[0;33m▐▌[0;1;31m█▄▀[0;1;31;47m▓▓[0;1;31;40m██▀ ▄▀ [0;33m▄[0;1;31;43m▒▓[0;1;31;40m▀▄█[0;1;31;47m▓[0;1;31;40m▄[0;1;31;47m▓▓[0;1;31;40m▀[0m

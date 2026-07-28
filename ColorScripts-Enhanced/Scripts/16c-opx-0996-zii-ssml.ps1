@@ -5,7 +5,7 @@
 # Source SHA-256: 569507d720a5b987852f670c4add715f7dea68fb5792da96c57ee91119db5fee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-SSML.ANS by Zeus II (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: "Silent Scream" login
 # SAUCE Author: Zeus II
 # SAUCE Group: Opium
@@ -34,7 +34,7 @@ Write-Host '
            [33m  [0;37m [0;1;30;43m░░[0;33m▄[0;37m [0;33m▀▀▀[0;37m [0;33m▄[0;1;30;43m░[0;33m█[0;37m [0;33m▀ [0;37m  [0;33m▄▀[0m
              [1;30;43m░░[0;1;31;43m░░ [0m   [33m█[0;1;30;43m░[0;33m███[0m    [33m [0m
             [33m▐[0;1;30;43m░[0;33m▀▀▀▀▀[0;37m [0;33m▀▀▀▀██▌[0m
-            [33m▀[0;37m [0;33m▄[0;1;30;43m▒░░░[0;33m█████▄ ▀[0m            [1;30m[This one is not a 100% finished..][0m
+            [33m▀[0;37m [0;33m▄[0;1;30;43m▒░░░[0;33m█████▄ ▀[0m            [1;30m                                   [0m
        [33m   [0m    [33m ▀[0;37m [0;1;30;43m▒░[0;33m▄▄█▄[0;37m  [0;33m▄[0m             [1;30m                                 [0m [1;30m [0m
          [33m ▀▄[0m   [33m▄[0;1;30;43m▒░[0;1;31;43m░▒▒░[0;33m████[0m
               [33m ▀[0;1;30;43m▒░░[0;33m████▀▀[0m'

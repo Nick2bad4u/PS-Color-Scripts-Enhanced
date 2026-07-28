@@ -5,7 +5,7 @@
 # Source SHA-256: eaac11a900673fe580193abe6d7500e0eed012bb29aca064f33938f36e137eca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-ARTRE.ANS by ize (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: art-request
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -21,7 +21,7 @@ Write-Host '
 [32m████████▀▀▀[0;37m  [0;33m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;37;40m [0;30;42m▓█[0;33;40m▀[0;1;35;43m▀█▓▓[0;33m▌ ▒▒▒  [0;32m░[0;30;42m▓[0m
 [1;32;42m░░░[0;32m▀▀[0;37m [0;33m▄▄▄███ ▒▒▒▒[0;37m [0;30;42m░[0;32;40m░[0;30;42m▓[0;33;40m▐[0;1;35;43m▓▓░░[0;33m [0;30;43m░[0;33;40m▓[0;30;43m░[0;33;40m [0;32;40m█[0;30;42m░[0;32;40m▓░[0;30;42m▓[0m
 [1;32;42m▒▒[0m [33m▄███[0;1;31;43m░░[0;33m█▀▀ [0;30;43m░[0;33;40m▓[0;30;43m░[0;33;40m▓[0;37;40m [0;30;42m▓[0;37;40m [0;33;40m▄[0;1;35;43m ░░[0;33m█▌▐███ [0;1;32;42m░[0;32m█[0;30;42m░[0;32;40m▓░[0;30;42m▓[0;33;40m [0;30;42m▓[0;33;40m  [0;30;42m▓[0m    [1;37;40mI hope you dont need more than[0m
-[1;32;42m▓[0;32m▌[0;33m▐[0;1;33;43m [0;33m█[0;1;33;43m░░[0;33m▀[0m   [33m░░[0;1;31;43m░░[0;33m██▄█▓▀▀██▀░[0;1;31;43m░░  [0;33m▄▄ [0;32m░[0;30;42m▓[0m           [1;37;40m40 lines to write the stuff on?[0m
+[1;32;42m▓[0;32m▌[0;33m▐[0;1;33;43m [0;33m█[0;1;33;43m░░[0;33m▀[0m   [33m░░[0;1;31;43m░░[0;33m██▄█▓▀▀██▀░[0;1;31;43m░░  [0;33m▄▄ [0;32m░[0;30;42m▓[0m           [1;37;40m                               [0m
 [1;32;42m█[0m [1;33;43m ░░▓[0;33m▌[0;37m [0;32m░[0;30;42m▓[0;1;32;40m [0;33m░░█[0;1;33;43m ░░[0;33m█▄░▄▓▄▄▄ ▀▀[0;1;31;43m░░[0m     [33m▄[0;1;31;43m▄▄▄▄[0;33m▌[0m     [1;37myeah.. [0m
 [1;32;42m█[0;32m▌[0;33m▐[0;1;33;43m▓▓█▄[0;33m▄[0m    [33m [0;1;33;43m░░▓▓[0m [33m▀▀▀[0;1;31;43m  ░░░ [0;33m▄ [0;1;31;43m▓[0;1;31;40m▄[0;33m▄▄[0;1;31;43m▄▄▓[0;1;31;47m▓[0;1;31;43m▀▀[0;33m▀[0m         [1;37mbtw. dont use this its for[0m
 [1;36m█[0;1;32;42m▌[0m [33m▀[0;1;33;43m▀████▄[0;1;33;40m▄▄▄[0;1;33;43m▓▓██[0m [1;32;42m▐▄[0;1;36;40m▄[0;32m▄[0;37m [0;33m▀[0;1;31;43m▓▓░░[0;33m▌▐[0;1;31;43m▓█▀▀[0;33m▀▀▀[0m               [1;37m   [0m  [1mcaithor only ok? [0m

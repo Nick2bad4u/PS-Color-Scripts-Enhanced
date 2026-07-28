@@ -5,7 +5,7 @@
 # Source SHA-256: 8e67c774a0c6bc3f4c8e98a07a2706fd8442c8065a41de610997fb97a79377ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEATHROW.ANS by Marly Man (fawk1193); released in fawk1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 40-77
 # Columns: 1-80
 
@@ -41,7 +41,7 @@ Write-Host '
                [1;30m──────────────── [0;1;34mNUP: NOKDAGLOK [0;1;30m──────────────────[0m
              ──────────── [34mNew World Order [0;1;30m[] [0;34mValiant [0;37m──────────────[0m
            [1;37m───────────── [0;1;34mLethal [0;1;30m[] [0;1;34mBoom [0;1;30m[] [0;1;34mBlitZ Mail [0;1;37m───────────────[0m
-         ────────────────── [34mEternity  Member Board [0;37m────────────────────[0m
+         ────────────────── [34m                       [0;37m────────────────────[0m
        [1;30m──────────────────── [0;1;34mH/P/A [0;1;30m[] [0;1;34mWarez [0;1;30m[] [0;1;34mAnsi [0;1;30m──────────────────────[0m
      ───────────────────── [34mNo Ratio For LD Visitors [0;37m───────────────────────[0m
 [37m   [0;1;37m────────────────────────── [0;1;34m9600 + Are Welcome [0;1;37m────────────────────────────[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 09c4f916843f03cbe3d2fe4cc9009e237f6a3aa5ec4a9178c26548f7f3eaaa45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FFH-ABRA.ANS by Fire From Heaven (mISTFUNK 1998); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Abraxas
 # SAUCE Author: Fire From Heaven
 # SAUCE Group: mISTFUNK 1998
@@ -56,4 +56,4 @@ Write-Host '
   [1;31;43m▓▓█▓█▒█▓▓█▓▒▓█▓█▒▓█▓█▓█▓▒▓▒▒░░░[0;33m███▌[0;37m  [0m
 [37m  [0;1;31;43m█▓███▓██▓██▓████▓███████▓█▓▓▒░▒░[0;33m██[0;37m  [0m              [37mzuesII, teakay, samurai,[0m
 [37m  [0;1;31;43m██████████████████████████▓▓▒▒▒▒[0;33m█[0;37m   [0m              [37mpandora, [0;1;37mnail[0m, god, and
-  [1;31;43m███████████████████████████▓▓▒▓░[0m                  the rest of fuel/fire[1m/mist[0m'
+  [1;31;43m███████████████████████████▓▓▒▓░[0m                                       [1m     [0m'

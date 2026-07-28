@@ -5,7 +5,7 @@
 # Source SHA-256: 206dd065580422985a8694a25147c255dfb2a99a188cf1d1ce495caf9673ecaf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!CHOAS.ANS by Madcap (d38-10); released in d38-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -43,7 +43,7 @@ Write-Host '
           [31m▀▀▀█████[0;31;43m░[0;1;33;43m░[0;1;33;40m██[0;1;33;44m▄[0;33;44m▄[0;1;34;44m░[0;1;34;42m▒[0;32m▒▒░ ▀▀▀▀ ▄████████████████▌[0m       [1;33mo[0m
                [31m░▀▀▀▓███[0;31;43m▓[0;33;41m▒[0;1;33;43m▀[0;1;33;40m█[0;1;33;44m▄[0;1;33;42m▄[0;33m▄░[0;32m░▒▓[0;32;44m▓▓▓▓▓[0;32m█████████████▓[0m       [34m┘[0;1;33mo[0m
 [1;33m" ha he ha[0m            [31m░▀▀▀▓███░ [0;32m░░▒▓[0;32;44m▓▓▓▓▓▓[0;32m██████████[0;32;44m▓[0;32m▌    ▄▌[0;34m─┘   [0;1;34m"Drop that[0m
-[1;34m [0;1;33m.. no one can stop[0m               [32m░▒▓[0;32;44m▓▓▓▓[0;32m███████████[0;32;44m▓[0;32m▌   ─▄▌[0;34m─[0;1;33mo  [0;1;34mcarrier, nice[0m
+[1;34m [0;1;33m                  [0m               [32m░▒▓[0;32;44m▓▓▓▓[0;32m███████████[0;32;44m▓[0;32m▌   ─▄▌[0;34m─[0;1;33m   [0;1;34m             [0m
 [1;34m  [0;1;33mme now! "[0m                    [1;34m▄[0;1;34;42m▓[0;1;34;40m▄▄ [0;32m▓[0;32;44m▓▓▓[0;32m███████████[0;32;44m▓▓[0;1;33;40m [0;31m▄▓█▀[0m       [1;34mand slowly"[0m
                               [1;34m▓[0;1;34;42m░░[0;1;34;40m▓▌[0;32m▓[0;32;44m▓▓▓[0;32m██████████[0;32;44m▓▓▓[0;1;33;40m [0;31m▐▀▀[0m
                               [1;34m▓[0;1;34;42m░[0;32m█[0;32;44m▓▓▓▓[0;32m█████████[0;32;44m▓▓▓▓▓[0m

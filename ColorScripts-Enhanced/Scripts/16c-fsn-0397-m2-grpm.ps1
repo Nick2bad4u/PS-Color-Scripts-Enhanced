@@ -5,7 +5,7 @@
 # Source SHA-256: 8a1207b1fc7bd9b8c36a711d71e13766ab42eaadc75ee901da82e24b15d468be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M2-GRPM.ANS by _mi1kman (fusion); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: grape mainset
 # SAUCE Author: _mi1kman
 # SAUCE Group: fusion
@@ -32,7 +32,7 @@ Write-Host '
 [37m [0;33m ▀[0;37;43m░[0;1;31;43m▀[0;1;31;47m▓[0;1;31;43m▄▄[0;33m▀▐[0;1;31;43m░[0;1;31;47m▓[0;33m▐[0;1;31;43m█[0;1;31;47m▓▓▓▓[0;33m▌[0;37;43m░[0;1;31;43m░▒[0;1;31;40m██[0;1;31;47m▓[0;43m░[0;33;40m▌█[0;1;31;47m▓▓▓[0;1;31;43m█[0;1;31;47m▓▓[0;1;31;43m█[0;33m▀▀▐[0;1;31;47m▓▓[0;1;31;43m█▀▀▀[0;33m▀[0;37m  [0;30;43m►[0;33;40m►[0;37;40m  [0;1;33;40mE[0m [31m-[0;37m [0;31menter message[0;37m           [0m
 [33m▐[0;37m  ░[0;30;47m▓[0;33;40m▀▀▀▀▀[0;1;31;43m░▒[0;33m▄[0;1;31;43m▓▀▀▀▀[0;33m▀[0;1;31;43m░▒▓[0;1;31;40m█[0;1;31;47m▓▓[0;43m░[0;1;31;43m▄[0;33m▄[0;1;31;43m▀▀░░▓[0;33m▄▄▀▀▀▀▀▀[0;37m [0;1;30m▄▄▄▌[0m [33m█[0;37m   [0;1;33mC[0m [31m-[0;37m [0;31mcomment to sysop[0;37m        [0m
 [33m▐█▄▄▄▄▄▄[0;37m    [0;33m▄▄▄▄▀▀[0;31m▀▀▄▄[0;1;31m██[0;1;31;43m▀▀[0;33m▀▀[0;37m [0;1;30m▄▄▄▄▄▄▄▌[0m [1;30m▀▀▀[0m      [33m█ [0;37m  [0;1;33mRE[0m [31m- reply to msg[0;37m           [0m
-[33m  ▀▀▀▀[0;33;47m▄▄▄█▀▀▀▓▓[0;33;40m▓▓▒[0;30;43m▒▒[0;33;40m░[0;30;43m▓[0;37;40m [0;1;30;40m▄▄▄▄[0m         [1;30m [0m          [30;43m►[0;33;40m►[0;37;40m  [0;1;33;40mBBS[0m [31m- bbs adverisment[0;37m       [0m
+[33m  ▀▀▀▀[0;33;47m▄▄▄█▀▀▀▓▓[0;33;40m▓▓▒[0;30;43m▒▒[0;33;40m░[0;30;43m▓[0;37;40m [0;1;30;40m▄▄▄▄[0m         [1;30m [0m          [30;43m►[0;33;40m►[0;37;40m  [0;1;33;40m   [0m [31m                 [0;37m       [0m
 [37m [0;33m  [0;37m      [0;33m▀▀▀[0;33;47m█▄▄[0;33;40m▒[0;30;43m▒[0;33;40m░░[0;30;43m▒[0;33;40m░[0;30;43m▓[0;37;40m  [0;1;30;40m▐[0m                      [33;42m█[0;33;40m_  [0;1;33;40mUSER[0m [31m-userlist[0;37m              [0m
 [37m [0;33m   [0;37m           [0;33m▀░░░▀[0;30;43m▓[0;33;40m░[0;30;43m▓[0;37;40m [0;1;30;40m▐[0m                      [33m [0;37m [0;33m [0;37m     [0;1;33m [0m
    [33m           [0;37m   [0;33m▀█▌[0;30;43m▓[0;33;40m░[0;30;43m▓[0;37;40m         [0;1;30;40m             [0m                [36m [0;37m   [0;1;30mmilkman/fusion[0m'

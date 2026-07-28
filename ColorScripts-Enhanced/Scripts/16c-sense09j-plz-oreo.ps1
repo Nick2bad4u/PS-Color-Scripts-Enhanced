@@ -5,7 +5,7 @@
 # Source SHA-256: e16a40c2baea63d392d29cfea257fd74436715031ad9bff59cd36ee291539ac0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PLZ-OREO.ANS by Plazz (Sense Imagery); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Oreo
 # SAUCE Author: Plazz
 # SAUCE Group: Sense Imagery
@@ -38,4 +38,4 @@ Write-Host '
 [1;30;40m█[0;1;30;47m▄▄█▀▀[0;1;30;40m███▄[0;36m  ▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀[0;1;36m▀▀▀[0;36m▀  ▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0;1;30m▀[0;1;30;47m▄▄[0;1;30;40m▀ █[0;1;30;47m▀ [0;1;30;40m█[0;1;37;47m██[0;1;30;40m█[0m
 [1;30;40m ▀█[0;1;30;47m▄▄[0;1;30;40m█▀ ─────[0;34m ▀▀[0;36;44m▀▀▀[0;1;34;44m▀[0;34m▀▀ [0;1;30m─[0;34m █[0;1;34;44m▀██▀[0;34m  ▀[0;1;34;44m▀██▄[0;34m▄▄ ▀▀[0;36;44m▀▀[0;1;34;44m▀▀[0;34m▀▀[0;1;30m ── [0;34m▀▀[0;36;44m▀▀[0;1;34;44m▀[0;34m█▀▀  ▀█ [0;1;30m─────── ▀[0;1;30;47m▄▄▄[0;1;30;40m▀ ─[0m
                         [34m▄█[0;36m██[0;1;34;44m▀[0;34m▓[0m    [34m▀[0;1;34;44m▀[0;36m██[0;1;34;44m▄[0;34m█▄[0m                    [1;34;44m ▀[0m
-    [1;30moreo version 0.0[0m    [34m▀▀[0;1;34;44m▀▀▀[0;34m░[0m     [34m▀█[0;1;34;44m▀[0;34m▀▀  [0;1;30m [0;34m [0;1;30mcoded by plazz[0m'
+    [1;30m                [0m    [34m▀▀[0;1;34;44m▀▀▀[0;34m░[0m     [34m▀█[0;1;34;44m▀[0;34m▀▀  [0;1;30m [0;34m [0;1;30m              [0m'

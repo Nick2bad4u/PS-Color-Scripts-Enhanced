@@ -5,7 +5,7 @@
 # Source SHA-256: 38bc41914e09af7e986d8d64c12c3e31b1bfb2eeb050980bc067769a7d3e440c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-EEK.ANS by Calamity (toon0895); released in toon0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -15,7 +15,7 @@ Write-Host '
                            [1;30m█[0m [1m██[0m [1;30m█[0m [1;30m█[0m [1m█[0;1;47m▓[0m [1;30m█[0m  [1;30m█[0m [1m██[0m   [1;30m█ [0;1;37m██[0m [1;30m▓[0m
                            [1;30m█[0m [1;47m▓▓[0m [1;30m█[0m [1;30m█▓[0;1;37;47m▓▓[0m [1;30m█[0m  [1;30m█[0m [1;47m▓[0;1;40m█[0m [1;30m▄▓█[0m [1;47m▓[0;1;40m█ [0;1;30;40m█[0m  [1;30m   [0m [1;30m∞[0m [1mcALAMITY[0m [1;30m∞[0m
                            [1;30m█[0m [1;47m▓▒[0m [1;30m░[0m [1;30m▓▄▄▄▄█[0m  [1;30m▓[0m [1;47m▓▓[0m  [1;30m▄[0m [1m [0;1;47m▓▓[0m [1;30m█[0m [1;30maHIGHT PEOPLE HERE''S[0m
-                           [1;30m█[0m [1;47m▒▒[0;1;30;40m ▒[0m  [1;30m [0m      [1;30m█[0m [1;47m▒▒[0m [1;30m█ █[0m [1;47m▓▒[0m [1;30m█[0m [1;30mANOTHER ANSI BY THE ONE[0m
+                           [1;30m█[0m [1;47m▒▒[0;1;30;40m ▒[0m  [1;30m [0m      [1;30m█[0m [1;47m▒▒[0m [1;30m█ █[0m [1;47m▓▒[0m [1;30m█[0m [1;30m                       [0m
                            [1;30m█[0m [1;47m▒░[0;1;30;40m ▓[0m [1;30m█▀▀▀▀█[0m  [1;30m█[0m [1;47m▒░[0m [1;30m█[0m [1;30m░[0m [1;47m▒▒[0m [1;30m█[0m [1;30mAND ONLY CALAMITY.  AND [0m
                            [1;30m█[0m [1;47m░[0m█[1;30m █[0m [1;30m█[0m [1;47m░▒[0m [1;30m█[0m  [1;30m▓[0m [1;47m░[0m█ [1;30m█[0m [1;30m▒[0m [1;47m▒░[0m [1;30m█[0m [1;30mYES IT IS EEK THE CAT.[0m
                            [1;30m█[0m ██[1;30m █[0m [1;30m█[0m [1;47m░[0m█ [1;30m█[0m  [1;30m█[0m ██ [1;30m█ ▓[0m [1;47m░[0m█ [1;30m█[0m [1;30m [0m

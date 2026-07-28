@@ -5,7 +5,7 @@
 # Source SHA-256: dc23fd167d10a09f04a235ce83a3e5c4abc9eedf83a3d5b3af102dc76a82b83f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WM-SCRIB.ANS by Widowmaker (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Scribe
 # SAUCE Author: Widowmaker
 # SAUCE Group: AWE Lettering
@@ -34,7 +34,7 @@ Write-Host '
   WM[1;33m([0;1;37mAWE[0;1;33m)[0m                                     [31m ▀▀▀▀▀[0;1;37;41m▀▀▀▀▀█▄▄[0;31m▄▄▄[0m         [31m▄▄▄[0;1;37;41m▄[0;31m█[0;1;37;41m▀▀[0;31m▀[0m
 [31m [0;37m [0;30;46m▓▓[0;36;40m░[0;30;46m▓[0;36;40m░[0m                                                  [31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;36;40m   [0m
 [37;40m [0;36;40m [0;30;46m░░[0;36;40m▓▓▓░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0m           [31;40mWOOWOWOW .. put your stuff  [0m        [36;40m  ░[0;30;46m▓▓▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m
-[37;40m [0;36;40m▐[0;1;36;46m░░░░░[0;36m▓[0;30;46m░░[0;36;40m▓[0;30;46m░[0;36;40m▌ [0m         [31;40mhere .. you could even make this[0m     [36;40m▀▓[0;30;46m░[0;36;40m▓[0;30;46m░░░░[0;36;40m▓░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m
+[37;40m [0;36;40m▐[0;1;36;46m░░░░░[0;36m▓[0;30;46m░░[0;36;40m▓[0;30;46m░[0;36;40m▌ [0m         [31;40m                                [0m     [36;40m▀▓[0;30;46m░[0;36;40m▓[0;30;46m░░░░[0;36;40m▓░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m
 [37;40m [0;36;40m█[0;1;36;46m▓▓▓▓▓░░░░░▄[0;36m▄  [0m       [31ma menu, eh?[0m                           [36m▐[0;1;36;46m░░░░░░░[0;30;46m░[0;36;40m▓[0;30;46m░░[0;36;40m▓[0;30;46m░░[0;36;40m▓▌ [0m
 [36;40m▐[0;1;36;46m▐█████▓▓▓▓▓██▄▄[0;36m▄▄▄  [0m                                      [36m▄▄[0;1;36;46m▄▓▓▓▓▓▓▓░░░░░░░░▄[0;36m▄ [0m
 [36m█[0;1;36;46m██████████████████▄▄▄▄[0;36m▄▄▄▄▄▄[0m                     [36m▄▄▄▄▄▄[0;1;36;46m▄▄▄██████████▓▓▓▓▓▓▓▓█▌[0;36m▌[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1844ef3fb4aca96094f7832be08ad0edfeae9a6e6364a326425f35edcd3d8e03
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-5.ANS by Marly Man (fawk1193); released in fawk1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 31-60
 # Columns: 1-80
 
@@ -32,9 +32,9 @@ Write-Host '
          [1;30m▄▀ [0;1;37m█ ▄ █ ▄ █ [0;1;30m▀[0;1;37m▄▀[0m       [1;37mNUP: Nokdaglok[0m       [1;37m▀▄[0;1;30m▀ [0;1;37m█ ▄ █ ▄ █ [0;1;30m▀▄[0m
        [1;30m▄▀ [0;1;37m█ ▄ █ ▄ █ ▄ █   [0;1;30mNew World Order [] Valiant   [0;1;37m█ ▄ █ ▄ █ ▄ █ [0;1;30m▀▄[0m
      [1;30m▄▀ [0;1;37m█ ▄ █ ▄ █ ▄ █ ▄  Lethal [] Boom [] BlitZ Mail  ▄ █ ▄ █ ▄ █ ▄ █ [0;1;30m▀▄[0m
-[1;30m    ▀▄[0;1;37m▀ ▄ █ ▄ █ ▄ █ ▄ █[0m     [1;30mEternity  Member Board[0m     [1;37m█ ▄ █ ▄ █ ▄ █ ▄ ▀[0;1;30m▄▀[0m
+[1;30m    ▀▄[0;1;37m▀ ▄ █ ▄ █ ▄ █ ▄ █[0m     [1;30m                      [0m     [1;37m█ ▄ █ ▄ █ ▄ █ ▄ ▀[0;1;30m▄▀[0m
       [1;30m▀▄[0;1;37m▀ ▄ █ ▄ █ ▄ █ ▄[0m       [1;37mH/P/A  Warez  ANSI[0m       [1;37m▄ █ ▄ █ ▄ █ ▄ ▀[0;1;30m▄▀[0m
-        [1;30m▀▄[0;1;37m▀ ▄ █ ▄ █ ▄ █    [0;1;30mNo Ratio For LD Visitors    [0;1;37m█ ▄ █ ▄ █ ▄ ▀[0;1;30m▄▀[0m
+        [1;30m▀▄[0;1;37m▀ ▄ █ ▄ █ ▄ █    [0;1;30m                            [0;1;37m█ ▄ █ ▄ █ ▄ ▀[0;1;30m▄▀[0m
           [1;30m▀▄[0;1;37m▀ ▄ █ ▄ █ [0;1;30m▄[0;1;37m▀▄   9600 + Callers Welcome   ▄▀[0;1;30m▄ [0;1;37m█ ▄ █ ▄ ▀[0;1;30m▄▀[0m
             [1;30m▀▄[0;1;37m▀ ▄ █ [0;1;30m▄▀█ [0;1;37m█   [0;1;30mTo Those That Are Slow   [0;1;37m█ [0;1;30m█▀▄ [0;1;37m█ ▄ ▀[0;1;30m▄▀[0m
               [1;30m▀▄[0;1;37m▀[0;1;30m▄▄▀  █ [0;1;37m█  Get A Real Modem You Ho!  █ [0;1;30m█  ▀▄▄[0;1;37m▀[0;1;30m▄▀[0m

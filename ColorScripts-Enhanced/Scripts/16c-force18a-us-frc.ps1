@@ -5,7 +5,7 @@
 # Source SHA-256: 335096a95200382e9d6fc604d8dffe36660fac470b43d97021371442a16ae7cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FRC!.ANS by Rzarector + Eclipse (forCe produCtions); released in force18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: forCe promo
 # SAUCE Author: eclipse + rzarector
 # SAUCE Group: forCe produCtions
@@ -34,6 +34,6 @@ Write-Host '
     [1;32;42m░▄▄[0;34;42m░░░▓[0;37;40m  [0;31;40m▐░░░[0;37;40m [0;1;37;40m [0m [31m░░[0m             [34m░[0;37m  [0;1;37m    [0m [1m   [0;31m░[0;1;37m [0;31m▀[0;1;31m▀▀▀▀▀▀[0;31m▀[0;1;37m  [0m                   [34m▐[0;32;44m▄[0;34;40m▄[0m
     [1;32;42m░▀[0;32m▀░[0;30;42m▓[0;32;40m▄▀[0;34;40m [0;37;40m [0;31;40m▐[0;1;37;40m  [0m  [34m░[0;30;44m▓[0m                                                        [34;40m▄[0;32;44m▄[0;1;32;42m▄▄[0m
     [34;42m [0;32;40m▌[0;37;40m [0;32;40m▄▀ [0;37;40m  [0;31;40m▄▀[0m                                                         [34;40m▄[0;32;40m▄▄[0;32;44m▄[0;1;32;42m▄▄█[0;1;32;47m▓▓[0m
-[34m    [0;32m█▓▀[0;34m ░▒▌[0;31m▐▌[0;34m▐[0;1;37;44m   [0;34m▌[0;31m▄[0;34m▐█[0;1;37;44m eclipse[0;44m([0;1;44mforce[0;44m)[0;1;44m [0;44m+ [0;1;44mrzarector[0;44m([0;1;44mforce[0;44m)[0;1;44m   [0;34;42m▓[0;1;37;44m  [0;34;42m▓▓▓[0;1;37;44m [0;34;42m▓▓░░[0;32;47m▓[0;1;32;42m░░▓▓[0;1;32;47m██▓▓[0;1;37;40m██[0m
+[34m    [0;32m█▓▀[0;34m ░▒▌[0;31m▐▌[0;34m▐[0;1;37;44m   [0;34m▌[0;31m▄[0;34m▐█[0;1;37;44m        [0;44m [0;1;44m     [0;44m [0;1;44m [0;44m  [0;1;44m         [0;44m [0;1;44m     [0;44m [0;1;44m   [0;34;42m▓[0;1;37;44m  [0;34;42m▓▓▓[0;1;37;44m [0;34;42m▓▓░░[0;32;47m▓[0;1;32;42m░░▓▓[0;1;32;47m██▓▓[0;1;37;40m██[0m
     [32m▐▌[0;37m [0;34m  [0;37m [0;32m▄[0;37m [0;31m▀[0;37m [0;31m▄[0;37m [0;31m▀[0m
      [32m▀[0;34m [0;32m▄[0;37m [0;32m▀[0m        [1;30m [0m [1;30m                                          [0m'

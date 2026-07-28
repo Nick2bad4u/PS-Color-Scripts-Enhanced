@@ -5,7 +5,7 @@
 # Source SHA-256: 473becd4fa9e2e55daa4c728be863c63a935b64a42814d5122e0debfea31d1eb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-WHIPL.ANS by Snow Dog (max-400r); released in max-400r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 45-71
 # Columns: 1-80
 
@@ -33,5 +33,5 @@ Write-Host '
                         [32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■ [0;1;37mWHIPLASH [0;32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■[0m
                       [32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■ [0;1;37m206-PRI-VATE [0;32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■[0m
                  [32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■ [0;1;37mTRWS World Headquarters [0;32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■[0m
-                [32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■ [0;1;37mOnly the best need apply! [0;32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■[0m
+                [32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■ [0;1;37m                          [0;32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■[0m
                       [32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■ [0;1;37mSysop:  Kram [0;32m■[0;1;32m■[0;1;37m■[0m■[1;30m■[0m■[1m■[0;1;32m■[0;32m■[0m'

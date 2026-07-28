@@ -5,7 +5,7 @@
 # Source SHA-256: 51101f26102ee8c981bd510f9ab8897b43fa6064ce6061b4d2444b70c2d0de44
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ND-ICY.ICE by noOdles (iCe); released in ice9712 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ICE
 # SAUCE Author: noOdles
 # SAUCE Group: iCe
@@ -34,7 +34,7 @@ Write-Host '
      [1;34m    [0m    [1;33m [0m  [1;32m▐[0;32m▌[0m         [1;30m▀[0m    [1;32m▀[0m      [1;36m▄[0;36m▄▄[0;37m [0;1;36m▀[0;36m▀[0;37m [0;1;37m [0m   [1;33m  [0;1;34m   [0m [1;32m [0;1;33m [0;1;34m    [0;1;33m [0m [1;32m [0m  [1;34m [0m  [1;33m [0;33m [0;1;34m [0m
          [1;34m     [0m  [1;32m▌[0m  [1;34m   [0m      [1;36m [0;1;37m▄[0;1;36m▄▄[0;36m▄▄[0;1;36m▀▀[0;36m▀▀▀[0m        [1;33m     [0;1;34m    [0;1;32m▀[0;1;34m    [0;1;33m  [0m     [1m [0;36m▄░[0;30;46m▓[0;36;40m [0;37;40m  [0;1;36;40m [0m
                      [1;34m  [0m  [1m▄▀▀[0;1;36m▀[0m                               [1;36m▄[0;36m▄▄[0;37m [0;36m▀▀[0;37m [0;1;34m  [0m  [34m [0;1;34m [0m
-         [1;34m    [0m  [1;32m▀[0m [1;34m     [0m  [1m▐▌[0m [1;30mhappy new year!       [0m [1m▄[0;1;36m▄▄[0;36m▄▄[0;1;36m▀▀[0;36m▀▀[0m    [1;30m-[0m [1;30mnoOdles (iCe)[0m
+         [1;34m    [0m  [1;32m▀[0m [1;34m     [0m  [1m▐▌[0m [1;30m                      [0m [1m▄[0;1;36m▄▄[0;36m▄▄[0;1;36m▀▀[0;36m▀▀[0m    [1;30m [0m [1;30m             [0m
                          [1m▀[0m [1;36m▄[0;36m  [0;1;37m▄▄▄[0;1;36m▄▄[0;36m▄▄▄▄▄▄[0;37m  [0;1;37m▀▀[0;1;36m▀▀[0;36m▀[0m
 
                                            [1;30m [0m

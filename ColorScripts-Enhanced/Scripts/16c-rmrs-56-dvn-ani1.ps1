@@ -5,7 +5,7 @@
 # Source SHA-256: 3eb52e00fb5a5b01b1cdefd0db38018ab8373dfa89f9ad85811d9d923c98bca8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dvn-ani1.ans by Devin (rmrs-56); released in rmrs-56 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -13,13 +13,13 @@ Write-Host '
 [31m⌠[0;1;30m▀═┌    [0m             [35m [0;37m            [0;30m            [0;37m  [0;31m⌠[0;1;30m ─ ─ ─ ─ ── ─   ─           [0m
 [31m│[0;37m☻☻  [0;1;37m`[0m      ☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻"  ☻  [1m☻[0;33m☻[0;1;30m:[0;33m''[0m       [31m│   <<[0;31;47m [0;30;47mw a r n i n g . . . [0;31;40m>>[0m
 [31;40m╘[0;37;40m☻☻ [0;1;36;44m☻[0;33;41m:[0;1;36;44m☻☻☻[0;1;34;40m☺ [0m☺ ☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻''☻☻☻ [1m☻☺[0;1;30m`[0;1;33m☺[0;33m☺☻☻☻` [0;37m☻☻[0;31m│[0;34m≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈[0m
-[1;30md[0m☻☻ [1;35;44m☺[0;1;34;40m:  [0;1;36;44m☻☻[0m ☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻ [1m☻"[0;1;33m☺  [0;1;30m`[0;33m☻☻☻ [0;37m☻☻[0;31m│[0;31;44m  [0;37;44msEE tHAT? eVEN bADLY dRAWN  [0m
+[1;30m [0m   [1;35;44m [0;1;34;40m   [0;1;36;44m  [0m                          [1m  [0;1;33m   [0;1;30m [0;33m    [0;37m  [0;31m│[0;31;44m  [0;37;44m                            [0m
 [1;30;40mo[0m☻☻ [1;36;44m☻☻[0;36m.    [0;37m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☺☻☺ [0;33m☻[0;1;33m"[0;1;30m:[0m       ☻☻[31m│[0;34m≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈[0m
 [1;30mn[0m☻☻ [1;35;44m☺☺ [0m ⌐[1;35;44m"[0m ☻☺☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☺☻☻ [33m☻[0;1;30m''[0;1;37m"   [0;33m☺☻  [0;37m☻☻[0;31m│[0;31;44m [0;37;44mnEWsCHOOL^aNIME^gIRL kNOWZ   [0m
 [1;30;40mt[0m☻☻ [44m [0;1;36;44m☻[0;1;35;44m☺ [0;1;36;44m☻[0;1;34;40m" [0m☻☺☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☺☻☻   [1;30m`[0;33m☻ ☻`[0;1;30m:  [0m☻☻[31m│[0;34m≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈[0m
-[34m [0;37m☻☻☻ [0;1;36;44m☻☻☻☻[0m ☻☻☺☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☺☺☻" [33m☻☻[0;1;33m☻[0;33m☻[0;1;33m☻☺  [0m☻☻☻[31m│[0;31;44m [0;37;44mdAT nEWsCHOOL iZ fOR bABIEZ! [0m
+[34m [0;37m    [0;1;36;44m    [0m                            [33m  [0;1;33m [0;33m [0;1;33m    [0m   [31m│[0;31;44m [0;37;44m                             [0m
 [1;30;40mt"[0m☻☻      ☻☻☺☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☺☻☻  [1;33m☻☻☻[0;33m☺  [0;37m☻☻☻☻[0;31m│[0;34m≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈[0m
-[1;30mr::[0m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻.       ☻☻☻ [31m│[0;1;30maCiD pUtZ  h0lez iN yEr bR4iN![0m
+[1;30m   [0m                                             [31m│[0;1;30m                              [0m
 [1;30my::`[0m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻  [31m│ [0;33m___[0;1;31m__[0;1;33m_[0;1;31m_[0;1;33m_/[0;1;37m\[0m      [1;30m_ [0;31m_[0;1;30m_[0;31m_[0;1;30m_[0m
 [1;30m ::`[0m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻[31m│[0;30me[0;37m█[0m         [1;33m\_[0;1;31m__[0;31m_/[0;1;30m/[0;31m/   [0;1;30m/ [0;1;31m_[0;1;33m_[0;1;37m:[0;1;33m_[0m
 [1;30mt::[0;1;37m☺[0;1;30m:[0m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻[31m│[0;30ma[0;37m█▄[0;33m__[0;31m_[0;33m_[0;31m__[0m     [31m/\[0;33m_[0;31m_[0;33m_[0;1;31m_[0;33m_ [0;31m│[0;1;31m/  [0;1;33m│[0m

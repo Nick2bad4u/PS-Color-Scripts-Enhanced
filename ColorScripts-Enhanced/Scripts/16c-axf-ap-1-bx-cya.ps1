@@ -5,7 +5,7 @@
 # Source SHA-256: f7f09c91f9584fa0206b32a2c266b39c05971e158c8e8c8aa57d571d4062d7e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-CYA.ANS by baxter (Axial Force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Virtual Hell logoff screen
 # SAUCE Author: baxter
 # SAUCE Group: Axial Force
@@ -26,7 +26,7 @@ Write-Host '
 [1;32m▐▌ ▐▌   ▐▌  [0;1;37m██▄▀ [0;1;31;41m▓█[0;1;31;40m█▄[0;1;32;40m▐▌█   █[0m     [36m▀▄▄▄▄ ▄ ▀  [0;1;32m█ [0;35m██████  [0;1;32m█ █  [0;35m▐██[0;35;45m [0;1;33;45m▀[0;35m█▌  [0;1;32m█[0;1;32;42m▓[0;1;32;40m█  █   █[0m
 [1;32m██ ██ █▌ █▄▄ [0;1;37m▀[0;1;32m▄█▄[0;1;31m▀[0;1;31;41m▓▓[0;1;31;40m▀[0;1;32;40m██████ ██▄▄ █▄▄▄▄█▄██[0;1;32;42m▓[0;1;32;40m██ [0;35m▀████▀[0;1;32m▄█[0;1;32;42m▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m█▀▄[0;35m▀███▀[0;1;32m▄█[0;1;32;42m▓▒[0;1;32;40m███▄███▄██▌[0m
 [1;32;40m██▄████▄█[0;1;32;42m▓[0;1;32;40m██[0;1;32;42m▓[0;1;32;40m█████▄▄█████████████████[0;1;32;42m▒░░[0;1;32;40m███[0;1;32;42m▓░[0;1;32;40m██▄▄▄▄█[0;1;32;42m▓[0;1;32;40m████████▄▄▄███████████[0;1;32;42m▓[0;1;32;40m████[0m
-[1;32;40m██████[0;1;32;42m▓[0;1;32;40m██████████████████[0;1;32;42m▒[0;1;37;42mAlso[0;1;32;42m▓[0;1;37;42mcheck out these[0;1;32;42m▒[0;1;37;42mother[0;1;32;42m▒[0;1;37;42mboards[0;1;32;42m░▒▓[0;1;32;40m██████████████[0;1;32;42m▓[0;1;32;40m██[0;1;32;42m▓[0m
+[1;32;40m██████[0;1;32;42m▓[0;1;32;40m██████████████████[0;1;32;42m▒[0;1;37;42m    [0;1;32;42m▓[0;1;37;42m               [0;1;32;42m▒[0;1;37;42m     [0;1;32;42m▒[0;1;37;42m      [0;1;32;42m░▒▓[0;1;32;40m██████████████[0;1;32;42m▓[0;1;32;40m██[0;1;32;42m▓[0m
 [1;32;40m██[0;1;32;42m▓[0;1;32;40m█████[0;32m█▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;32;42m░[0;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀█[0;1;32m███[0;1;32;42m▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m█[0;1;32;42m▓▓[0m
 [1;32;42m▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m██[0;1;32;42m▓[0;1;32;40m█[0;1;32;42m▓[0;32m▌[0;1;31;41m░[0;32m▐[0;1;30m·························································[0;32m▌[0;1;31;41m░[0;32m▐[0;1;32;42m▓[0;1;32;40m██[0;1;32;42m▓[0;1;32;40m█[0;1;32;42m▒▓▒▒[0m
 [1;32;42m█[0;1;32;40m█[0;1;32;42m▒▓[0;1;32;40m█[0;1;32;42m▒▓▒[0;32m▌[0;1;31;41m▒[0;32m▐[0;1;30m·························································[0;32m▌[0;1;31;41m▒[0;32m▐[0;1;32;42m▒[0;1;32;40m██[0;1;32;42m▓▒▒▒▒[0;32m█[0m

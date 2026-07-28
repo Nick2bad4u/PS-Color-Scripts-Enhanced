@@ -5,7 +5,7 @@
 # Source SHA-256: 250cd38c0dfe85f7c24c5e44352accc5994b6479bbd011219a4d9afb18af38d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-BKT1.ANS by mozzerella (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: buckets 'O' fun
 # SAUCE Author: mozzerella
 # SAUCE Group: eclipse
@@ -19,7 +19,7 @@ Write-Host '
 
                ▄  ░░ ▀  ▄▄
            ▄         [33m  [0m   [37m ▀▄[0m
-       [37m ▄     [0;33m ▄▄▄▄[0;1;32;43m░░ ░[0;33m▄▄▄[0;37m  ▐▌ the bucket+op:mongoloid [0m   [1;33m░░░[0m
+       [37m ▄     [0;33m ▄▄▄▄[0;1;32;43m░░ ░[0;33m▄▄▄[0;37m  ▐▌                         [0m   [1;33m░░░[0m
        ▐▌ [33m▄▄[0;1;31;43m░░[0;33m▀▀▀▀▀▀▀ [0;37m [0;31m▄▄▄▄▄▄▄▄[0;34m ▄ [0m                    [1;33m░░░░[0;1;33;44m▒▒▒░[0;1;34;44m  [0;34m█[0m
        [31m▄▄▄▄▄▄▄▄████[0;1;31;41m▄▄▄▄[0;31m███[0;1;31;41m░░[0;31m██▌[0;34m▐[0;30;44m░[0;34;40m▄▄▄▄▄[0m      [34;40m▀▀█████[0m       [34;40m▐[0;1;33;44m░░[0;34m█[0;1;34;44m░░░[0;34m▌[0m
        [31m▐[0;1;31;41m ▄▄▄█████[0;1;31;47m▓▓▓[0;1;31;41m█[0;1;31;47m▓[0;1;31;41m▀▀▀  [0;31m███▌[0;34m▐█▄[0m   [34m▀▀▀▀█████▄▄▀██[0m       [34m▐█[0;1;34;44m▄█▄▄[0;34m█▌[0m

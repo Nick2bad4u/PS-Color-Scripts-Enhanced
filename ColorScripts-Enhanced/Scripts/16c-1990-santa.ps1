@@ -5,12 +5,12 @@
 # Source SHA-256: efac7bf8aa577c41d30c70f5f93d538c28addba4de5cb79393c13446f47011fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SANTA.ANS by Ansi-Mation (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
-[34;44m│[0;1;30;44mScreen by Ansi-Mation! (tm)[0;44m [0;34;40m█[0m [31;40m▀▀▀[0m [31;40m████████████████████████████▌[0;34;40m▐[0;1;37;44m           ·   [0m
+[34;44m│[0;1;30;44m                           [0;44m [0;34;40m█[0m [31;40m▀▀▀[0m [31;40m████████████████████████████▌[0;34;40m▐[0;1;37;44m               [0m
 [34;44m│[0;1;37;44m    ·  [0;1;30;44mCopyright (c) 1990.[0;1;37;44m [0;34m▀[0;37m▄[0;1;37m███▄[0;31m▀████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;37;44m    ·          [0m
 [34;44m│[0;1;37;44m                  ·        [0;34m▄[0;37m▀[0;37;47m  [0;1;37;47m▀[0;1;37;40m▀[0m [31m▀▀▀▀▀[0;1;37m▄▄▄▄▄▄▄▄▄▄▄█████████████▄[0;34m▀[0;1;37;44m              [0m
 [34;44m│            [0;1;5;37;44m│[0;1;30;44m               [0;34m█[0m [37m▄▄█[0;1;37m█████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m [1;37;44m             [0m

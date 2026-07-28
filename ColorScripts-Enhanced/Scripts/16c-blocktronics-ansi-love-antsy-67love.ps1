@@ -5,7 +5,7 @@
 # Source SHA-256: 269c76148826b2c3ac3eb9f13682ec97bc643a550a59fc40c74dfff5b4d7ac9d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: antsy-67love.ans by Antsy atheist (guest); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: i love 67
 # SAUCE Author: Antsy atheist
 # SAUCE Group: guest
@@ -50,7 +50,7 @@ Write-Host '
    ░[1;36;46m██▌▐███ ▀█░█████░████░[0;1;30;40m [0;1;37;42m░[0;1;36;46m▒[0;33;46m ▓[0;1;30;43m░░[0;33;46m█[0;5;31;41m███░██░▀[0;1;32;45m▄▄▄[0;5;31;41m▀░[0;45m░[0;5;31;41m██░░░[0;1;30;43m██[0;1;36;46m░[0;1;37;42m░░[0;1;37;40m  [0;1;36;40m■▀[0;1;36;46m▀▀[0;1;36;40m▀▓[0;1;36;46m▓▓▓[0;1;36;40m▓[0;1;36;46m▓██[0;1;36;40m██[0;1;36;46m███[0;1;36;40m██[0m
 [1;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33;46m░░[0;1;36;40m▀▀[0;33;46m▀[0;5;31;41m   [0;31m██[0;5;31;41m       [0;45m░[0;5;31;41m     [0;1;30;43m [0;1;36;46m [0;1;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;36;46m▒▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒    ▒▒▒▒▒▒▒░░░░░ [0;33;46m█[0;5;31;41m              [0;1;36;46m [0;5;31;41m [0;1;36;46m  ░░░ [0;34;46mall you need is love[0;1;36;46m [0m
-[1;36;46m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   [0;33;46m█[0;5;31;41m  [0;1;36;46m [0;5;31;41m      [0;31m█[0;5;31;41m  [0;1;36;46m      [0;34;46mansi by Antsy atheist[0;1;36;46m   [0m
+[1;36;46m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   [0;33;46m█[0;5;31;41m  [0;1;36;46m [0;5;31;41m      [0;31m█[0;5;31;41m  [0;1;36;46m      [0;34;46m                     [0;1;36;46m   [0m
 [1;36;46m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;32m▌[0;33;46m█[0;5;31;41m  [0;1;36;46m [0;5;31;41m       [0;32m [0;1;36;46m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;32;42m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;32m▌[0;31m ▄[0;5;31;41m       [0m [32m▐[0;1;32;42m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [1;32;42m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;32m▄[0;31m ▀[0;5;31;41m     [0;31m▌[0;32m▐[0;1;32;42m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

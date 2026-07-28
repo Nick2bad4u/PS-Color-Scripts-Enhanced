@@ -5,7 +5,7 @@
 # Source SHA-256: f28288f2eba6875f7190ab287d1f919ad218b16931951c2db1624ecbd6001d51
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASELIBBS.ANS by Ansi-Mation (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -26,8 +26,8 @@ Write-Host '
 [37;40m  [0;1;30;40m▄▀[0;37;40m         [0;1;30;40m▀▀▄[0;37;40m    name!     [0;1;33;40m█▄▄█[0;37;40m [0;1;33;40m█▄▄█[0;37;40m [0;1;33;40m█▄▄▄[0;37;40m [0;1;33;40m█[0;37;40m  [0;1;33;40m█[0;37;40m [0;1;33;40m█▄▄▄[0;37;40m   [0;1;33;40m█▄▄█[0;37;40m [0;1;33;40m█▄▄█[0;37;40m [0;1;33;40m█▄▄█[0;37;40m         [0m
 [1;37;40m [0;1;30;40m▐▌[0;37;40m          [0;1;37;40m▄▄[0;37;40m [0;1;30;40m█[0;37;40m /                                                             [0m
 [37;40m [0;1;30;40m█[0;37;40m          [0;1;37;40m████[0;37;40m                                                                [0m
-[1;30;40m▐▌[0;37;40m          [0;1;37;40m▐█[0;37;40m [0;1;37;40m.▀[0;1;33;40m▄███████████████▄[0;37;40m         [0;1;34;40mOpus[0;37;40m [0;1;34;40main''t[0;37;40m° [0;1;34;40mthe[0;37;40m [0;1;34;40monly[0;37;40m [0;1;34;40mBBS [0;37;40m            [0m
-[1;30;40m▐▌[0;37;40m           [0;1;37;40m█▄[0;37;40m [0;1;33;40m▄██████████████████▄[0;37;40m       [0;1;34;40msoftware[0;37;40m [0;1;34;40mnamed[0;37;40m [0;1;34;40mafter[0;37;40m [0;1;34;40ma[0;37;40m [0;1;34;40mpenguin![0;37;40m      [0m
+[1;30;40m▐▌[0;37;40m          [0;1;37;40m▐█[0;37;40m [0;1;37;40m ▀[0;1;33;40m▄███████████████▄[0;37;40m         [0;1;34;40m    [0;37;40m [0;1;34;40m     [0;37;40m  [0;1;34;40m   [0;37;40m [0;1;34;40m    [0;37;40m [0;1;34;40m    [0;37;40m            [0m
+[1;30;40m▐▌[0;37;40m           [0;1;37;40m█▄[0;37;40m [0;1;33;40m▄██████████████████▄[0;37;40m       [0;1;34;40m        [0;37;40m [0;1;34;40m     [0;37;40m [0;1;34;40m     [0;37;40m [0;1;34;40m [0;37;40m [0;1;34;40m        [0;37;40m      [0m
 [1;30;40m▐▌[0;37;40m            [0;1;33;40m▄▄█████████████████████▄[0;37;40m                                          [0m
 [1;30;40m▐▌[0;37;40m          [0;1;31;40m▄[0;37;40m  [0;1;33;40m▀███████████████▀▀▀▀[0;37;40m                                             [0m
 [1;30;40m▐▌[0;37;40m          [0;1;31;41m▄▀[0;1;31;40m▄[0;37;40m [0;1;31;40m▄[0;1;31;41m▀▄[0;37;40m                                                             [0m

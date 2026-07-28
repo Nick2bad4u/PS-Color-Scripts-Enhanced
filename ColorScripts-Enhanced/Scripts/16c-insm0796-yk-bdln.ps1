@@ -5,7 +5,7 @@
 # Source SHA-256: 3d949a65c05b7cbec3d8e4d89e102eb0d26c756351ba0cf6e9bd46e66b541551
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YK`BDLN.ANS by YaNKeE (insomnia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: BoRDeR LiNe
 # SAUCE Author: YaNKeE
 # SAUCE Group: insomnia
@@ -62,6 +62,6 @@ Write-Host '
        [35m▐[0;1;35;45m▒[0;1;31;45m▓▄[0;35m█[0m   [1;31m▄▄[0m                 [31m    [0;37m [0;31m  [0m   [31m      [0;37m  [0;1;30m [0m
        [1;31;45m░██▌[0;35m▌▄[0;1;31;45m▀▓[0;1;31;40m█▀[0m    [35m▄▄[0m                             [1;30m [0m
        [35m▐[0;1;31;45m▓█[0;1;35;45m░[0;1;30;40m  [0;35m▀▀▄▄▄█[0;1;31;45m▄▄▄[0;1;35;45m░░[0m                            [1;30m [0m
-      [1;30m  [0;1;31;45m░▀[0;35m▌ ▄[0;1;31;45m░[0;1;35;45m░[0;1;31;45m▄▄▓████▓▄[0;1;35;45m░[0m                            [1;30m░ansi by yankee^insm░[0m
+      [1;30m  [0;1;31;45m░▀[0;35m▌ ▄[0;1;31;45m░[0;1;35;45m░[0;1;31;45m▄▄▓████▓▄[0;1;35;45m░[0m                            [1;30m░                   ░[0m
      [1;30m  [0m [35m ▀ ▀▀[0;1;31;45m ▀▀▀[0;1;35;45m░[0;1;31;45m▀██▓▀[0;1;35;45m░[0;35m [0m
                   [35m ▀▀▀▀[0m                      [1;30m [0m'

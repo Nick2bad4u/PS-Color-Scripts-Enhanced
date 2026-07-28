@@ -261,6 +261,26 @@
             "reviewRationale": "The family was rebalanced at verified contiguous source-row boundaries. The remaining gap and repeated motif are source-authored; removing either would crop or reorder the composition."
         },
         {
+            "script": "16c-circe01-dd-new",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "a3b24d1d5a67575c24662ab5d29edb9ef20411a4658e63d99e7b42f58fe0a216",
+            "sourceUrl": "https://16colo.rs/pack/circe01/raw/DD-NEW.ANS",
+            "previewUrl": "https://16colo.rs/pack/circe01/x1/DD-NEW.ANS.png",
+            "sourceRows": "1-19",
+            "sourceColumns": "1-80",
+            "observedComposition": "The text-redacted new-user panel retains its source-authored lower frame after the intentionally empty table body.",
+            "metrics": {
+                "blankRunStartRow": 9,
+                "blankRunEndRow": 18,
+                "blankRunRows": 10,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The isolated tail is the lower border that closes the original framed table. Removing it would crop the source composition, while compacting the reviewed empty rows would reflow and squish its geometry."
+        },
+        {
             "script": "16c-cnc-0494-htf-ugly-part02",
             "signal": "orphaned-tail-after-blank-run",
             "disposition": "retain-authentic-composition",
@@ -402,13 +422,13 @@
         }
     ],
     "disposition": "retained-after-review",
-    "policy": "Retain source-authored negative space, structural borders, semantic tails, and repeated motifs when removing them would crop, reorder, or distort the original ANSI composition. Geometry signals are review prompts, not automatic deletion rules.",
-    "reviewBasis": "Each current severe geometry signal was reviewed against the rendered terminal-cell output, contiguous source coordinates, sibling-part context where applicable, and the official 16colors preview. Full-script hashes and exact analyzer metrics fail closed on future drift.",
+    "policy": "Retain source-authored negative space, structural borders, semantic tails, repeated motifs, and source-faithful empty panels created by reviewed text redaction when removing them would crop, reorder, reflow, or distort the original ANSI composition. Geometry signals are review prompts, not automatic deletion rules.",
+    "reviewBasis": "Each current severe geometry signal was reviewed against the rendered terminal-cell output, contiguous source coordinates, sibling-part context where applicable, the tracked content-review evidence, and the official 16colors preview. Full-script hashes and exact analyzer metrics fail closed on future drift.",
     "reviewedAt": "2026-07-28",
     "schemaVersion": 1,
     "summary": {
-        "scripts": 21,
+        "scripts": 22,
         "extremeLeadingBlankRun": 10,
-        "orphanedTailAfterBlankRun": 11
+        "orphanedTailAfterBlankRun": 12
     }
 }

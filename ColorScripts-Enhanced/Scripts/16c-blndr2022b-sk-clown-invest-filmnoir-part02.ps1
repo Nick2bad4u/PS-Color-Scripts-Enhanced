@@ -5,7 +5,7 @@
 # Source SHA-256: 8f0c4b311a3d17bc2a6f3d2d27e8eade3ea134c246f03de24505961cccfa935b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sK!clown_invest_filmnoir.ans by sIMONkING (thelo0p!); released in blndr2022b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: CLOWN/INVEST/NOIR FILM
 # SAUCE Author: sIMONkING
 # SAUCE Group: thelo0p!
@@ -45,5 +45,5 @@ Write-Host '
 [1;33m███████[0m [1;33m▄▄[0m [1;33m█████████[0m
 [1;33m███████[0m    [1;33m█████████[0m
 [1;33m███████[0m [1;33m▀▀[0m [1;33m████████[0m                [1;30m(c)2022 by sIMONkING/LAZAURS[0m
-[1;33m██████[0m [1;33m▄▄[0m [1;33m████████▀[0m            [1;30mdla drugiego blendera roku 2022 (2022b)[0m
+[1;33m██████[0m [1;33m▄▄[0m [1;33m████████▀[0m            [1;30m                                       [0m
 [1;33m▀▀▀▀██[0m    [1;33m████████[0m                                             [1;30m▀▀▀▀▀▀▀[0m'

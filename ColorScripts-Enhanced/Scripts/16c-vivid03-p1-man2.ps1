@@ -5,7 +5,7 @@
 # Source SHA-256: 8bb2410f67a02cf5f80e708d9de651a989e761a4272ba4068114abaae0353a05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-MAN2.ANS by Paranormal Intensity (ViViD); released in vivid03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mango Logon
 # SAUCE Author: Paranormal Intensity
 # SAUCE Group: ViViD
@@ -18,7 +18,7 @@ Write-Host '
             [32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
        [32m▄███████████████[0;1;32;42m▀▀▀▀▀▄▄[0;32m█████████▄▄[0m        [1;30m                               [0m
      [32m▄█[0;1;32;42m▓[0;32m██████████[0;1;32;42m▒[0;32m███████████[0;1;32;42m▀▀▄[0;32m███████████▄▄[0m   [1;30m... fukz ths is fo Shattered [0m
-     [1;32;42m      [0;32m██████████[0;1;32;42m▓[0;32m█████████████████████████▄[0;37m [0;1;30mImpulse for his Mango Platoon..[0m
+     [1;32;42m      [0;32m██████████[0;1;32;42m▓[0;32m█████████████████████████▄[0;37m [0;1;30m                               [0m
      [32m▐[0;1;32;42m██▄   [0;32m███████████████████████████████[0;1;32;42m▓[0;32m████[0m
       [1;32;42m▐[0;1;37;40m██[0;1;32;42m█▒[0;32m████████████████████████████[0;1;32;42m░[0;32m██████[0;1;32;42m▐[0;32m█▌[0m
 [37m  [0;32m▄[0;1;32;42m ░ ▐████▄[0;32m███████████████████████████████[0;1;32;42m▒[0;32m███[0;1;32;42m▌[0;32m█[0m       [1;37mL[0m [1;30m.[0m [1mO[0m [1;30m.[0m [1mG[0m [1;30m.[0m [1mO[0m [1;30m.[0m [1mN[0m

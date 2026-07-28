@@ -5,7 +5,7 @@
 # Source SHA-256: 671602d80e091d1e966ed5af25f66097118595da2b07f455edbcafe8335d688e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 53-1LNRS.ANS by Senile (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
 ▄▄███[1;30;47m░▒▓▓▓[0;1;30;40m███▄▄▄  ▐▌[0m    [1;30;40m █[0m   [1;30;40m█ [0;31m [0;37m3[0;31m [0;1;30m▀[0;31m  [0;1;31moneliners rox?[0m                      [1;30m▐▀▀ ▀▀[0m
  [31m [0;37m▀█[0;1;30;47m░▒▓[0;1;30;40m▀▀▀[0m       [1;30m▀▀▀▀ ▀ ▐▌  ▀▀▌[0;31m [0;37m4[0;31m [0;1;30m▌[0;31m  [0;1;31mwOOpEE[0m                            [1;30m▄▄█ [0;1;30;47m▓[0;1;30;40m▓ █[0m
 [1;30;40ms[0;31m  [0;37m▐[0m        [1;30m▄▄▄▄███▄▄▄▄▄█[0m    [1;30m█▀[0;31m [0;37m5[0;31m [0;1;30m█[0m [31m [0;1;31mjEEHAA!##%@£"#^#"#╧[0m                 [1;30m█▄▄▄▐█[0m
-[1;30me[0m   █[1;30m▄▄▄██▀▌▀▀  ██[0m           [1;30m▐ [0;31m [0;37m6[0;31m [0;1;30m▀▀[0;31m [0;1;31mthis is for dkl''s slam city[0m          [1;30m ▐▀[0m
+[1;30m [0m   █[1;30m▄▄▄██▀▌▀▀  ██[0m           [1;30m▐ [0;31m [0;37m [0;31m [0;1;30m▀▀[0;31m [0;1;31m                           [0m          [1;30m ▐▀[0m
 [1;30mn[0;31m  [0;37m▀█[0;31m  [0;1;30;47m▓[0;1;30;40m████ ▀████▌[0m   [1;30;40m░░[0m     [1;30;40m█ [0;31m [0;37m7[0;31m [0;1;30m█[0m [31m [0;1;31mdewn''t rip![0m                         [1;30m▀▐[0;1;30;47m▓▓[0;1;30;40m▄▄[0m
 [1;30;40mi[0;31m  [0;37m▐▀▀[0;1;30;47m░▓[0;31m [0;1;30m▀▀▀[0m   [1;30m███▀▀▀▀▓▓▀▀▀▄▄█▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▐▀▀▀▄▄▄[0m         [1;30;47m██[0m
 [1;30;40ml[0;31m  [0;37m█▌[0;31m  [0;1;30;47m▓[0;1;30;40m██[0;31m [0;1;30m ▀▀▀█▄▄[0m    [1;30m░░[0m        [1;30m▐▀▀ █▀[0m        [1;30m▀▌[0m       [1;30m▀▀▀ ▐▀[0m   [1;30m████▀▀▀▀▀▀▀▀ ▀▀█[0m

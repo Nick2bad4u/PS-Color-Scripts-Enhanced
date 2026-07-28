@@ -5,7 +5,7 @@
 # Source SHA-256: e98bcd0a431861fc1d9b0f173ba0acf9541ce0f04363e459984f34e0061649d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-SHED.ANS by Trippah (Apocalyptic Visions); released in avpack12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Shed
 # SAUCE Author: Trippah
 # SAUCE Group: Apocalyptic Visions
@@ -33,7 +33,7 @@ Write-Host '
 [30;47m   [0;37;40m [0;1;37;46m▒[0;1;36;46m   ▒[0;30;47m█[0;1;36;46m▒     ▒[0m [1;36;46m░   ░[0m [1;36;46m░   ░[0m [1;36;46m░   ░[0m [1;36;46m▒    ▒[0m [1;36;46m░   ░[0m [1;36;46m░    ░[0m [1;30m▓[0m [1;35m [0;1;36mC[0;36mredits[0;1;35m [0;1;36mF[0;36mor[0;1;35m [0;1;36mP[0;36mrog.[0;37m  [0;1;30m▓[0m
 [1;30;47m▀▒▄[0;30;47m█[0;1;37;46m▒[0;1;36;46m   ░ ░     ░[0m [1;36;46m     [0m [1;36;46m     [0m [1;36;46m     [0;36m█[0;1;36;46m░    ░[0m [1;36;46m           [0;30;47m█[0;37;40m [0;1;30;40m█[0m                   [1;30m░[0m [1;30m█[0m
 [30;47m   [0;37;40m [0;1;37;46m░[0m     [1;32m▄▄[0;32m▄▄▄[0m                                 [1;32m▄▄▄x[0;32m▄[0;37m [0;30;47m█[0;37;40m [0;1;30;40m█[0m  [1;36mH[0;36melp[0;35m [0;1;36mA[0;36mround[0;35m [0;1;36mB[0;36mBS.[0m   [1;30m█[0m
-[30;47m▄▄[0;1;37;40m [0;1;32;40m▄▄[0;32m▄[0;1;32;42m▓▀[0;30;42m        [0;1;32;42m▀▓[0;30;42m█[0;1;37;40mT[0mhe[1m S[0mhed[1m I[0mnformation [1mK[0mit[1;30m.[0;1;32;42m▓▀▀[0;30;42m       [0;1;32;42m▒[0;30;42m█[0;1;30;40m■[0m  [1;30m [0m [1;30m░[0m                [1;30m■[0m
+[30;47m▄▄[0;1;37;40m [0;1;32;40m▄▄[0;32m▄[0;1;32;42m▓▀[0;30;42m        [0;1;32;42m▀▓[0;30;42m█[0;1;37;40m [0m  [1m  [0m   [1m  [0m           [1m [0m  [1;30m [0;1;32;42m▓▀▀[0;30;42m       [0;1;32;42m▒[0;30;42m█[0;1;30;40m■[0m  [1;30m [0m [1;30m░[0m                [1;30m■[0m
 [1;32m▄[0;1;32;42m▀[0;30;42m          [0;1;32;42m░[0;30;42m        [0;1;32;42m░▒▓[0;1;32;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;32;42m▓▀[0;30;42m [0;1;32;42m░▒[0;30;42m     [0;1;32;42m▒[0;30;42m     [0;1;32;42m▀[0m [1;30m▀[0m [1;30m█[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄ █[0m▀[1m▀[0m▀
 [1;32;42m▒[0;30;42m          [0;1;32;42m░▒░[0;30;42m [0;1;32;42m░[0;30;42m                                          [0;1;32;40m▄[0;30;42m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   [0m
 [1;32;42m▓[0;30;42m           [0;1;32;42m░[0;30;42m                      [0;1;32;42m▀▓▄[0;30;42m                                  [0;1;32;42m▄▓▄[0;30;42m     [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b49da409e3584ae8ca13696321dcb5bca5ebac9ed6c7a18599d11bd28be11860
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ-MAYO.ANS by Mojo (pulse); released in pls-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mayo
 # SAUCE Author: Mojo
 # SAUCE Group: pulse
@@ -20,7 +20,7 @@ Write-Host '
 [1m█▀▀██▀ [0;1;35m▄[0;1;35;45m▓[0;35m▄ [0;1;37m██▀█ [0;1;35m▄[0;1;35;45m▓[0;35m▄ [0;1;37m▀▀ [0;1;35m▄[0;1;35;45m▓[0;35m▄ [0;1;37m▀█████████[0;1;37;47m▌[0m█▀█████████▀▀█▀█████▀▀▀██████▀▀▀█▀▀▀█████
      [1;35m▄█[0;1;35;45m▓▒░[0;35m▌ [0;1;37m▀  [0;1;35m▐[0;1;35;45m▓▒░[0;35m█▄[0;1;35m▄█[0;1;35;45m▓▒░[0;35m▌ [0;1;37m▀▀  ▀▀▀   [0m▀    ▀                               ▀▀
       [1;35m▀[0;1;35;45m▒░[0;35m██    [0;1;35;45m▓▒░[0;35m█▀  [0;1;35m▀[0;1;35;45m▒░[0;35m██[0m
-[35m [0;36m▄[0;1;36;46m▄▄▄▄[0;36m█[0;35m▐[0;1;35;45m░[0;35m██[0;36m▐██▌[0;1;35;45m▒░[0;35m█ [0;36m████[0;35m▐[0;1;35;45m░[0;35m██[0;36m▐[0;36;46m▓[0;36;40m█[0;1;36;46mgreetz::motion/lintec/pocco               [0;36m██████▄[0m
+[35m [0;36m▄[0;1;36;46m▄▄▄▄[0;36m█[0;35m▐[0;1;35;45m░[0;35m██[0;36m▐██▌[0;1;35;45m▒░[0;35m█ [0;36m████[0;35m▐[0;1;35;45m░[0;35m██[0;36m▐[0;36;46m▓[0;36;40m█[0;1;36;46m                                          [0;36m██████▄[0m
 [36m▐[0;1;36;46m▐█▀ [0;36m██▌[0;35m███▌[0;36m██[0;35m▐[0;1;35;45m░[0;35m██[0;36m▐████▌[0;35m███▌[0;36;46m▓[0;36;40m███████[0;1;36;46m::proze/cjammer                    [0;36m█████[0;36;46m [0;1;36;46m▐ [0m
 [36m▐[0;1;36;46m▐   [0;36m██▌[0;35m████[0;36m▐▌[0;35m████[0;36m▐█████[0;35m▐██▌[0;36;46m▓[0;36;40m███████[0;1;36;46m::w|zard/gecko                  [0;36m███████[0;36;46m [0;1;36;46m▄█[0;36m█[0m
 [36m ▀[0;36;46m   [0;36;40m██[0;35;40m▐████▌▐████▌[0;36;40m█████[0;35;40m▐██▌[0;36;46m▓[0;36;40m███████[0;1;36;46m::krinkle/suicide      [0;36m███████████████[0;1;36;46m▀▀▀ [0;36m▀[0m

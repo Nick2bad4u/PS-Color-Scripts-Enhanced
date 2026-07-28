@@ -5,7 +5,7 @@
 # Source SHA-256: c02aaae85cec8d1d3842309fd2224ff24b6a49ddf5b0e9003fa2eda141a71c9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FLYING.ANS by J Kemp (ansis-f); released in ansis-f and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -21,9 +21,9 @@ Write-Host '
 [33m [0;37mIn Itself Is Not[0m     [1;36m`──────[0;32m▀▄[0;1;36m\/[0;1;36;43m [0;1;36;40m\/\[0;32m■[0;33m/[0;1;32m▀▄[0;1;36m/[0;32m▀▄[0;1;36m\[0;32m▄▀▄▀[0;1;36m\/[0m│  [32m▀▄[0;31mδ[0;32m▀ ▄  [0;33m█▓▌   ▒█   [0;32m■▄▌[0;31mσ[0;31;42m [0;33;40m▀[0;32;40m■[0m
 [32;40m  [0;37;40mInherently Dangerous.[0m     [32;40m▄▀ ▀[0;33;40m▀[0;32;43m▄[0;33;40m▀▀▀▀▄▄▄[0;1;32;40m─▀▄[0;32m▀[0;33m\█[0;32m■[0;31mδ [0;37m─┘   [0;31mδ  [0;32m▀[0;33m\  ▓▓▌   ▓█▌   [0;1;32m▄[0;32m▀■▄[0m
 [32m   [0;37mBut To An Even Greater   [0;31mδδ[0;32m▀█▄▀▌[0m      [33m▀▀█▀▀▀▀▀▓▀▀▀▓▄▄▄  ▓▄▄▒▓   ▐▒▓▌  [0;32m▄▀[0;33m/[0;32m▄[0;1;32m▀[0m
-[1;32m    [0mDegree Than The Sea, It Is   [31mσ[0;32m▀[0;31mδ[0m     [31mσ[0;32m▀▀▄▀  ▀▄▀▄ [0;33m█ [0;32m▄[0;33m▀▓▓▒▓▓▓█   ▐▓█  [0;31mσ[0;32m▀▄■[0m
-     [37mTerribly Unforgiving Of Any[0m            [32m■▄  █  ▄ █▀    [0;33m█▓▒▓█   ▓▓█▌   [0;31mδ[0m
-      [37mCarelessness, Incapacity Or[0m            [31mδ    [0;32m▀ ▀ [0;31mδ    [0;33m█▓█▓▌  ▐▓▒█[0m         [31mδ[0m
+[1;32m    [0m                             [31m [0;32m▀[0;31m [0m     [31m [0;32m▀▀▄▀  ▀▄▀▄ [0;33m█ [0;32m▄[0;33m▀▓▓▒▓▓▓█   ▐▓█  [0;31m [0;32m▀▄■[0m
+     [37m                           [0m            [32m■▄  █  ▄ █▀    [0;33m█▓▒▓█   ▓▓█▌   [0;31m [0m
+      [37m                           [0m            [31m     [0;32m▀ ▀ [0;31m     [0;33m█▓█▓▌  ▐▓▒█[0m         [31m [0m
        [37mNeglect![0m                                      [32m▀▄    [0;33m█▓█▓▌ [0;31mδ [0;33m▓▓█▌  [0;31mδ[0m
                                           [32m▄▀   ▄ [0;31mδ    [0;32m▄▀ [0;33m▄▓▓█▓▓   ▐▒▓█▌[0m
                                       [33m▄[0;32m▄▄▀▄ ▄▀[0;33m▄▀[0;32m▄    ▀[0;33m▐▄█▓▓█▓▓▓▓  ▓▒░▓█▌[0m

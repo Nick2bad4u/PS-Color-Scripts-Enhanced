@@ -5,7 +5,7 @@
 # Source SHA-256: 7df4b32f27059bca1929b4755d02f78bfaaae65e2ac02c38a2e7704f31cd8d08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LUGB.ANS by Spice + Noize (phat & fire,ms,bm...); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lugburz-joint for glandyth
 # SAUCE Author: spice & noize
 # SAUCE Group: phat & fire,ms,bm...
@@ -35,4 +35,4 @@ Write-Host '
 [1;36;46m█[0;36m▌▐[0;1;36;46m██[0;36m▌▐[0;1;37;46m███[0;1;36;46m█▀[0;1;36;40m▀▀▀[0;36m▀[0;37m         [0;36m▀[0;1;36m▀▀▀▀▀▀[0;1;36;46m▀██████[0;1;36;40m▄▄[0;1;37;46m██[0;1;36;46m███▀[0;1;36;40m▀[0;36m▀[0;37m [0;35m▄[0;1;35;45m▄█▀██[0;35m▄▀[0;1;35;45m▀░[0m   [1;33;44m░[0m     [1;33;44m▓[0m   [1;33;43m███[0;1;37;40m███[0;1;33;43m█[0m
 [1;36;46m█▌[0;36m [0;1;37;46m██[0;1;36;46m█[0;36m ▀[0;1;36m▀[0;36m▀[0;37m                            [0;36m▀[0;1;36m▀▀▀▀▀[0;36m▀[0;37m [0;1;33m▄▄[0;33m▄[0;35m ░▀[0;1;35;45m▓░[0;35m▄▀[0;1;35;45m▓▓[0;35m▄[0;37m [0;35m▀[0;37m  [0;1;33;43m▓[0;1;33;40m▄▄▄[0;33m▄ [0;1;33;43m█[0;1;33;40m▄▄[0;33m▄▀[0;1;33;43m▀█████[0m
 [1;37;46m█[0;1;36;46m█[0;36m▌[0;1;36m▀[0;1;30m  spice - ''L'', basic background[0m [33m█[0;1;33;43m████[0;1;37;40m███[0;1;33;43m█████[0;1;33;40m▄▄[0;33m▄[0;37m [0;35m▀▓▄[0;37m [0;35m▀[0;1;35;45m░[0;35m▄[0;37m [0;33m▀[0;1;33;43m▀█[0;1;37;40m██[0;1;33;43m██▄██[0;1;37;40m██[0;1;33;43m▄█▀███▀[0m
-[1;36;40m▀[0;1;30;40m  noize - background, shading fixes [0;33m▀[0;1;33;43m▀██████▀[0;33m▀[0;1;33;43m▀████▄[0;1;33;40m▄[0;33m▄[0;37m [0;35m▀[0;37m [0;33m▄[0;1;33m▄[0;33m▄[0;1;33;43m▄█████▀[0;33m▀[0;1;33;43m▀███████▀[0;33m▀▄[0m'
+[1;36;40m▀[0;1;30;40m                                    [0;33m▀[0;1;33;43m▀██████▀[0;33m▀[0;1;33;43m▀████▄[0;1;33;40m▄[0;33m▄[0;37m [0;35m▀[0;37m [0;33m▄[0;1;33m▄[0;33m▄[0;1;33;43m▄█████▀[0;33m▀[0;1;33;43m▀███████▀[0;33m▀▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 98dc52f507e89c796de65a8dbca2660d74258ba77fb4f637b68da066e5266303
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LN-TOON.ANS by liithn (MOP); released in mop-9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: toon town
 # SAUCE Author: liithn
 # SAUCE Group: MOP
@@ -31,7 +31,7 @@ Write-Host '
   [1;31;41m░[0;31m██████████████████████████████████[0;37m  [0;1;31m█████████████████████████████▀▀[0m   [33m▄▄[0;1;31;43m▄▄[0;1;31;40m█▌[0m
   [31m█████████[0;1;33;41moperated by watOr[0;31m█████████[0;37m  [0;1;31m█████████████████████████▄█▄▄▄▄[0;1;31;43m▄▄[0;1;31;40m██████[0m
 [1;31m [0m [1;31;41m░[0;31m██████████████████████████████████[0;37m  [0;1;31m█████████████████████████████████████▀[0m
-  [31m█████[0;1;33;41mansi by liithn (mop) for [0;31m████▌[0;37m  [0;1;31m█████████████████████████████████▀▀ [0m   [1;31m▄[0m
+  [31m█████[0;1;33;41m                         [0;31m████▌[0;37m  [0;1;31m█████████████████████████████████▀▀ [0m   [1;31m▄[0m
   [31m███████[0;1;33;41m#graffiti ansi compo[0;31m██████▀ [0;37m  [0;1;31m████████████████████████████▀▀[0m   [1;31m  [0;33m▄▄[0;1;31m▄[0;1;31;43m▄[0;1;31;40m▌[0m
   [31m▀████████████████████████████████▌ [0;37m  [0;1;31m██████████████████████████▄▄▄▄ ▄▄[0;1;31;43m▄▄[0;1;31;40m████[0m
   [31m▐█████[0;31;45m██[0;31;40m██████████████████████████ [0;37;40m  [0;1;31;40m█████▀▀▀[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m███████████[0;1;31;40m██████████████████[0m

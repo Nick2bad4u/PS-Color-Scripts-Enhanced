@@ -5,7 +5,7 @@
 # Source SHA-256: 69702f97c814a9d4e5769d7d0613b2b38370c031d4931f59d84f2ac1b81e7bed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-NEW.ANS by Diamond Darrell (Circe); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: new user
 # SAUCE Author: Diamond Darrell
 # SAUCE Group: Circe
@@ -21,16 +21,16 @@ Write-Host '
  [30;42m▓▓▓[0;32;40m  [0;30;42m▓▓▓[0;32;40m [0;30;42m▓▓▓[0;32;40m  [0;30;42m▓▓▓[0;32;40m░[0;30;42m▓▓▓[0;32;40m  [0;30;42m▓▓▓[0;32;40m  [0;30;42m▓▓▓[0;32;40m [0;30;42m▓▓▓[0;32;40m  [0;30;42m▓▓▓[0;32;40m [0;30;42m▓▓▓[0;32;40m  [0;30;42m▓▓▓[0;32;40m [0;30;42m▓▓▓[0;32;40m  [0;30;42m▓▓▓[0;32;40m [0;30;42m▓▓▓[0;37;40m [0;32;40m [0;30;42m▓▓▓▓▓▓▓[0;37;40m [0;32;40m [0;30;42m▓▓▓[0m
 [37;40m [0;30;42m▒▒▒[0;32;40m  [0;30;42m▒▒▒[0;32;40m [0;30;42m▒▒▒[0;32;40m  [0;30;42m▒▒▒[0;32;40m [0;30;42m▒▒▒[0;32;40m  [0;30;42m▒▒▒[0;32;40m  [0;30;42m▒▒▒▒▒▒▒[0;32;40m  [0;30;42m▒▒▒[0;32;40m [0;30;42m▒▒▒[0;32;40m  [0;30;42m▒▒▒▒▒▒▒[0;32;40m  [0;30;42m▒▒▒[0;32;40m [0;30;42m▒▒▒[0;32;40m  [0;30;42m▒▒▒[0;32;40m [0;30;42m▒▒▒[0;32;40m  [0;30;42m▒▒▒[0m
 [32;40m▄[0;30;42m░░░[0;32;40m▓ [0;30;42m░░░░░░░[0;32;40m  [0;30;42m░░░[0;32;40m [0;30;42m░░░[0;32;40m  [0;30;42m░░░[0;32;40m  [0;30;42m░░░[0;32;40m▄[0;30;42m░░░[0;32;40m  [0;30;42m░░░░░░░[0;32;40m  [0;30;42m░░░[0;32;40m [0;30;42m░░░[0;32;40m  [0;30;42m░░░[0;32;40m [0;30;42m░░░[0;32;40m  [0;30;42m░░░[0;32;40m [0;30;42m░░░[0;32;40m  [0;30;42m░░░[0;32;40m▀[0m
-[32;40m▄[0;32;46m███[0;32;40m  [0;32;46m███[0;32;40m [0;32;46m███[0;32;40m▄▄[0;32;46m███[0;32;40m▀[0;32;46m███[0;32;40m▄▄[0;32;46m███[0;32;40m▄▄[0;32;46m███[0;32;40m▀[0;32;46m███[0;32;40m▄▄[0;32;46m███[0;32;40m▄[0;32;46m███[0;32;40m▄▄[0;32;46m███[0;32;40m▀[0;32;46m███[0;32;40m▄▄█[0;32;46m██[0;32;40m [0;32;46m███[0;32;40m  Dd! ██[0;32;46m█[0;32;40m▄▄[0;32;46m███[0;32;40m▄[0m
-[1;32;42m░[0;32m [0;1;37mN[0m a m e[1m [0;32m▀[0;37m  [0;32m░[0;1;37m   [0;32m░░[0;1;37m     F[0m r o m  [1m  [0;32m▀░[0;30;42m▓[0;32;40m░[0;1;37;40m   D[0m a t e[1m   [0m [32m▀ [0;1;37mT[0m i m e[32m  ░░[0;1;37mS[0m p e e d[1m [0;32m █ [0m
-[37m  SYSOP                 [*] SOLITARIO [*  07-10-97     12:30      115200      [0m
-[37m  SYSOP                 [*] SOLITARIO [*  07-10-97     12:30      115200      [0m
-[37m  SYSOP                 [*] SOLITARIO [*  07-10-97     12:30      115200      [0m
-[37m  SYSOP                 [*] SOLITARIO [*  07-10-97     12:30      115200      [0m
-[37m  SYSOP                 [*] SOLITARIO [*  07-10-97     12:30      115200      [0m
-[37m  SYSOP                 [*] SOLITARIO [*  07-10-97     12:30      115200      [0m
-[37m  SYSOP                 [*] SOLITARIO [*  07-10-97     12:30      115200      [0m
-[37m  SYSOP                 [*] SOLITARIO [*  07-10-97     12:30      115200      [0m
-[37m  SYSOP                 [*] SOLITARIO [*  07-10-97     12:30      115200      [0m
-[37m  SYSOP                 [*] SOLITARIO [*  07-10-97     12:30      115200      [0m
+[32;40m▄[0;32;46m███[0;32;40m  [0;32;46m███[0;32;40m [0;32;46m███[0;32;40m▄▄[0;32;46m███[0;32;40m▀[0;32;46m███[0;32;40m▄▄[0;32;46m███[0;32;40m▄▄[0;32;46m███[0;32;40m▀[0;32;46m███[0;32;40m▄▄[0;32;46m███[0;32;40m▄[0;32;46m███[0;32;40m▄▄[0;32;46m███[0;32;40m▀[0;32;46m███[0;32;40m▄▄█[0;32;46m██[0;32;40m [0;32;46m███[0;32;40m      ██[0;32;46m█[0;32;40m▄▄[0;32;46m███[0;32;40m▄[0m
+[1;32;42m░[0;32m [0;1;37m [0m      [1m [0;32m▀[0;37m  [0;32m░[0;1;37m   [0;32m░░[0;1;37m      [0m        [1m  [0;32m▀░[0;30;42m▓[0;32;40m░[0;1;37;40m    [0m      [1m   [0m [32m▀ [0;1;37m [0m      [32m  ░░[0;1;37m [0m        [1m [0;32m █ [0m
+[37m                                                                              [0m
+[37m                                                                              [0m
+[37m                                                                              [0m
+[37m                                                                              [0m
+[37m                                                                              [0m
+[37m                                                                              [0m
+[37m                                                                              [0m
+[37m                                                                              [0m
+[37m                                                                              [0m
+[37m                                                                              [0m
 [32m█▄▄▄▄▄▄▄▄▄▄ ▄  [0;1;32;42m░░[0;32m▄▄▄▄▄▄▄ ▄▄▄▄▄ ░ ░░▒ ▄▄▄▄▄▄▄▄▄▄█▓▄ ▄▄▄▄▄▄▄▄▄▄  ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▓[0m'

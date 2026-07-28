@@ -5,7 +5,7 @@
 # Source SHA-256: 30b628b0b44a986a66d105660c4f96188a7b9301ae6f4261c9a7be6abfa8ddea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-EPIC1.ANS by Argon + Avenging Angel (the used coalition); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Epic Ansi
 # SAUCE Author: Multiple Artists
 # SAUCE Group: the used coalition
@@ -37,4 +37,4 @@ Write-Host '
 [1;32;42m█▄[0;32m▄[0;1;32;42m▄█[0;1;32;40m▄▄[0;32m█▄[0;37m      [0;1;30m▀[0;33m▀▀▀[0;37m [0;32m▄▄[0;37m [0;36m▀[0;1;36m▀[0m [1;30m▀[0;33m▀[0;37m  [0;32m▄[0;1;32m▄[0m [32m▀[0;1;32m▀▀[0;1;32;42m▓▓░[0;32m▀▀[0;37m [0;32m▄[0;1;32m▄[0m  [33m▀[0;37m [0;33m▀▀[0;37m  [0;32m▀[0;1;32m▒[0m [1;30m▄[0;33m▄█▀▀[0;37m     [0;32m▄[0;1;32m▒[0;32m▄▄▄[0;37m [0;1;32;42m▒▀[0;32m▄[0;1;32;42m [0;32m▄▄█[0;1;32;42m▀[0;32m▀[0m
 [1;32m▓▓[0;32m▄▄[0;1;32;42m▓▀[0;32m▀[0;37m [0;32m▄[0;1;32m▄[0;1;32;42m▓░[0;32m▄▄[0;37m [0;1;32m▄▄[0;32m▄[0;37m [0;32m▀[0;1;32m▒[0m [1;32m▄[0;32m▄[0;37m   [0;32m▀[0;1;32m▀▀▀▀█[0;1;32;42m▄[0;1;32;40m▄▄▄[0;32m▄[0;1;32m▄▄▄[0;1;32;42m▄██▀ [0;1;30;42m▄[0;32m▀▀▀[0;1;30m▀[0m [32m▄[0;1;32m▄▄[0m   [32m▄[0;1;32m▄▄[0;1;32;42m▄[0;32m▄[0;1;32m▄[0;32m▄[0;37m  [0;32m▄[0;1;32;42m▄██▄[0;32m▄▄[0;37m [0;32m▀[0;1;30m▀[0m
 
-[1;30m░░░░░░░░░░░░░░░░░░░░░[0m  e[1ma[0mp[1mr[0mi[1mt[0mc [1;30m-[0m [1mphatter[0m [1mthan[0m [1myour[0m [1mmother[0m  [1;30m░░░░░░░░░░░░░░░░░░░░░[0m'
+[1;30m░░░░░░░░░░░░░░░░░░░░░[0m   [1m [0m [1m [0m [1m [0m  [1;30m [0m [1m       [0m [1m    [0m [1m    [0m [1m      [0m  [1;30m░░░░░░░░░░░░░░░░░░░░░[0m'

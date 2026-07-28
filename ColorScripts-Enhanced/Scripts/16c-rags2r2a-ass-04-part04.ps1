@@ -5,7 +5,7 @@
 # Source SHA-256: b71ecad27b29a5302dc09ea68c3fd5a5410386f03ec7759900bee0f8fe307cbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASS-04.ANS by ASS (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: "Soul Assassin .. rAG nUMBAH fOUR?"
 # SAUCE Author: ASS
 # SAUCE Group: .rAGS 2 rICHES.
@@ -45,7 +45,7 @@ Write-Host '
                                [31m░░░░[0;37m  [0;31m ░░░░[0m   [31m░░░░[0m
 [31m▄[0m
 [31m ■[0;37m [0;31m▄[0;37m [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄ ▄ ▄[0;37m [0;31m ▄[0m
-[37m [0;31m▄▀▄▀▄▀[0;37m [0;31mthe GREETZ goes to:[0m                                                 [31m■[0m
+[37m [0;31m▄▀▄▀▄▀[0;37m [0;31m                   [0m                                                 [31m■[0m
 [37m [0;31m▄▀▄▓▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀ ▀ ▀  ▀   [0m
 [37m [0;31m█▓▓▒░[0;37m [0;31m                                                                  [0m   [31m▀[0m
 [37m [0;31m█▓▒░[0;37m  [0;31m                                    [0m                                 [31m▄[0m

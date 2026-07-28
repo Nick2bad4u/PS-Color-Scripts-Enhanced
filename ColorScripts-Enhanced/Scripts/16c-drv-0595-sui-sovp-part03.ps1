@@ -5,7 +5,7 @@
 # Source SHA-256: d7713190c82eac2f2f0723b07af1a3c109a2b200fa93579fca73c43f84fa78a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUI-SOVP.ANS by SuiCyco (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Agressor
 # SAUCE Author: SuiCyco
 # SAUCE Group: Driven
@@ -32,7 +32,7 @@ Write-Host '
                        [1;36;40m█[0;1;36;46m▒[0;1;36;40m█ [0m█▌ [1;36m██ [0;1;30m▐[0m█ [1;36m██[0;1;36;46m█▄[0;1;36;40m█ [0m█▌ [1;36m██ [0;1;30m▐[0m█ [1;36m██[0;1;36;46m▄[0m
      [1;30;40m.·!greets!·.[0m      [1;36m█[0;1;36;46m░[0;1;36;40m█▄ [0m▀▄  ▄▀ [1;36m▄█[0;1;36;46m▓███[0;1;36;40m▄ [0m▀▄  ▄▀ [1;36m▄███[0m   [1;30m [0m [1;30m.·!sui sez!·.[0m
      [1;30m            [0m      [1;36m█[0;1;36;46m▄[0;1;36;40m███■ [0m■■[1;36m ■███[0;1;36;46m▒[0;1;36;40m█[0;1;36;46m█[0;1;36;40m███■ [0m■■[1;36m ■██[0;1;36;46m▓[0;1;36;40m██   [0;1;30;40m [0;1;36;40m [0;1;30;40m             [0m
-     [1;30;40mav,snoop,dre    [0m  [1;36;40m███▀ [0m▄▀  ▀▄ [1;36m▀█[0;1;36;46m░▓█[0;1;36;40m█▀ [0m▄▀  ▀▄ [1;36m▀[0;1;36;46m▒[0;1;36;40m██   [0;1;30;40m [0;1;36;40m [0;1;30;40ma pain in the[0m
+     [1;30;40m                [0m  [1;36;40m███▀ [0m▄▀  ▀▄ [1;36m▀█[0;1;36;46m░▓█[0;1;36;40m█▀ [0m▄▀  ▀▄ [1;36m▀[0;1;36;46m▒[0;1;36;40m██   [0;1;30;40m [0;1;36;40m [0;1;30;40m             [0m
      [1;30;40m            [0m [1;30m     [0;1;36m███ [0m█▌ [1;36m██ [0m▐█ [1;36m█[0;1;36;46m▄▒█[0;1;36;40m█ [0m█▌ [1;36m██ [0m▐█ [1;36;46m░[0;1;36;40m██   [0;1;30;40m [0;1;36;40m [0;1;30;40m    [0m [1;30;40m        [0m
      [1;30;40mdriven  crew[0m   [1;30m   [0;1;36m███▌[0m▐█▄  ▄█▌[1;36m▐[0;1;36;46m▓[0;1;36;40m█[0;1;36;46m░[0;1;36;40m█[0;1;36;46m█[0;1;36;40m▌[0m▐█▄  ▄█▌[1;36m▐[0;1;36;46m▄[0;1;36;40m██    [0m [1;30;40mdraw[0m [1;30;40mcrashed.[0m
      [1;30;40mkickin in 95 [0m     [1;36;47m▓█[0;1;36;40m██ [0;1;30;40m▀[0;1;30;47m▄[0m███▀ [1;36m█[0;1;36;46m▒[0;1;36;40m█[0;1;36;46m▄[0;1;36;40m█[0;1;36;46m█[0;1;36;40m█ [0;1;30;40m▀[0;1;30;47m▄ [0m██▀ [1;36m███[0;1;36;47m▓[0m     [1;30;40marghh![0m [1;30;40marghh![0m

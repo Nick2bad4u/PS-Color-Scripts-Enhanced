@@ -5,7 +5,7 @@
 # Source SHA-256: fe8ceaa87e9736efbda53bd7a6ec347faaa3cce7b138b5e89912713511fc6f8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-TM3.ANS by blue cheeze (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: spanking pickles (??)
 # SAUCE Author: blue cheeze
 # SAUCE Group: eclipse
@@ -30,7 +30,7 @@ Write-Host '
 [37m  [0;32m▄▄[0;1;30m▀▀█▌[0m    [33m░░[0;37m [0;1;30m▐█▀█████▌ [0;32m [0;1;30m▓██▀███▄█▀▀  [0m      needed a facelift. ;) anyways,
  [32m▐[0;1;32;42m░░▄▄[0;32m▄▄[0;37m [0;33m░░░▒▒░[0;1;30m▐██████▓▓ ░░▓▓█▀▀[0m             enjoy, again, wheaty boy..
   [1;32;42m  ▐[0;1;37;42m██[0;1;32;42m█[0;32m▌[0m   [33m░░[0;1;30m ███████▀[0m [1;30m  [0;32m [0;1;30m▀▀[0m   [33m░░[0;1;30m [0;33m░[0m         [37m(ohh yeah.. and this time, i [0m
-   [32m▀▀[0;1;32;42m▀▀[0;32m▀[0m    [1;30m  ▀▀▀ ▄▄▄▄▄█▀███[0;1;30;47m▓▓[0;1;30;40m▄▄▄▄▄▄[0m [32m░[0m       [37mleft him bootless so that this[0m
+   [32m▀▀[0;1;32;42m▀▀[0;32m▀[0m    [1;30m  ▀▀▀ ▄▄▄▄▄█▀███[0;1;30;47m▓▓[0;1;30;40m▄▄▄▄▄▄[0m [32m░[0m       [37m                              [0m
         [1;30m [0m  [1;30m▄▄▄▓▓███████████████[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓[0;1;30;40m▌[0;32m░[0;30;42m░[0;32;40m█▄▄▄[0;37;40m [0;1;37;40m [0m can be used as a menuset..)
        [1;30m▄▄▀▀▓███████████[0;1;30;47m▓▓[0;1;30;40m▀▀▀▀▀[0;1;30;47m██[0;1;30;40m███ [0;32m ▐[0;1;37;42m█[0;1;32;42m█▌[0m [1m  [0m
       [1;30m▐▌░[0;32m▄░[0;1;30m [0;32m [0;1;30m▀█████[0;1;30;47m▓[0;1;30;40m▀▀[0m           [1;30m▀▀▀[0;32m▄[0;1;32;42m░▀▀[0m

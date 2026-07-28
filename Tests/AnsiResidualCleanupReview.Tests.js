@@ -45,6 +45,10 @@ const MIXED_TEXT_LEDGER4_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger4.json"
 );
+const MIXED_TEXT_LEDGER5_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger5.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -425,6 +429,64 @@ test("fourth mixed text review is hash-only and fully applied", () => {
     assert.deepEqual(missingRows, [
         { file: "16c-k0tpr0be-tr-cedeu.ps1", row: 32 },
         { file: "16c-k0tpr0be-tr-cedeu.ps1", row: 35 },
+    ]);
+});
+
+test("fifth mixed text review is hash-only and fully applied", () => {
+    const ledger = JSON.parse(
+        fs.readFileSync(MIXED_TEXT_LEDGER5_PATH, "utf8")
+    );
+
+    assert.equal(ledger.schemaVersion, 1);
+    assert.equal(ledger.summary.candidateFiles, 671);
+    assert.equal(ledger.summary.evidenceRows, 1298);
+    assert.equal(
+        Object.values(ledger.summary.categoryRows).reduce(
+            (total, count) => total + count,
+            0
+        ),
+        1298
+    );
+    assert.equal(new Set(ledger.candidates.map(({ file }) => file)).size, 671);
+    assert.equal(
+        ledger.candidates.reduce(
+            (total, candidate) => total + candidate.evidence.length,
+            0
+        ),
+        1298
+    );
+
+    const missingRows = [];
+    for (const candidate of ledger.candidates) {
+        assert.ok(!Object.hasOwn(candidate, "text"));
+        const { rows } = readPayloadRows(candidate.file);
+        for (const evidence of candidate.evidence) {
+            assert.ok(!Object.hasOwn(evidence, "text"));
+            assert.match(evidence.sha256, /^[a-f\d]{64}$/u);
+            const currentRow = rows[evidence.row - 1];
+            if (currentRow === undefined) {
+                missingRows.push({
+                    file: candidate.file,
+                    row: evidence.row,
+                });
+                continue;
+            }
+            assert.notEqual(
+                getReviewEvidenceHash(stripAnsiControls(currentRow)),
+                evidence.sha256,
+                `${candidate.file}: row ${evidence.row} was not redacted`
+            );
+            assert.equal(
+                analyzeRow(currentRow).letterCount,
+                0,
+                `${candidate.file}: row ${evidence.row} still contains letters`
+            );
+        }
+    }
+    assert.deepEqual(missingRows, [
+        { file: "16c-laz09aug-cy-tge.ps1", row: 26 },
+        { file: "16c-thst0895-ti-crwt-part02.ps1", row: 17 },
+        { file: "16c-thst0895-ti-crwt-part02.ps1", row: 18 },
     ]);
 });
 

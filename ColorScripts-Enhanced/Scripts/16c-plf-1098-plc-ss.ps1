@@ -5,7 +5,7 @@
 # Source SHA-256: 60d65f6a003e58ac0be52a2c1bc33fa5386807fc497a3e12bb23eacfae7083cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PLC-SS.ANS by plc (poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: special sauce
 # SAUCE Author: plc
 # SAUCE Group: poffelipoff
@@ -48,4 +48,4 @@ Write-Host '
                                 [31m    [0;37m [0;31m▀▀▀[0;1;31m▀▀[0;1;31;41m▀█████▀[0;1;31;40m▀▀▀[0;31m▀[0m                [33m    [0;1;30m▀[0m▀▀[1;30;47m▄ [0;1;37;47m▀▓[0m
                                                                            [33m    [0;1;30m▀[0m
 
-[1;30m────[0m [1;30m──[0m [1;30m──────[0m [1;30m─[0m [1;30m [0m [1;30m─[0m   [1;30manother ansi by ( [0;1;37mplc[0;1;30m ) [0m'
+[1;30m────[0m [1;30m──[0m [1;30m──────[0m [1;30m─[0m [1;30m [0m [1;30m─[0m   [1;30m                  [0;1;37m   [0;1;30m   [0m'

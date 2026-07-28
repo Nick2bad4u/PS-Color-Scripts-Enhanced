@@ -5,7 +5,7 @@
 # Source SHA-256: 9d61b3bd070645225a2ee23101b56ee0a570eca6101ebe7d8c49b1a70a08a62c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-AD.ANS by poti (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: artificial dope (go#2)
 # SAUCE Author: poti
 # SAUCE Group: black maiden
@@ -40,5 +40,5 @@ Write-Host '
                            [1m [0m                  [1;30m▀▀[0m
 
 
-[34m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;37;40m [0;1;37;40martificial dope [0;1;34;40mfor nail''s go#2 [0;34m────────────────────────────────────┐[0m
+[34m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;37;40m [0;1;37;40m                [0;1;34;40m                [0;34m────────────────────────────────────┐[0m
 [30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;30;44m►[0;34;40m►[0;1;30;40m [0;1;34;40mextreme 13 and 33-ripoff. i''m so sorry. [0;34m───────────────────────────┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5870ebcf84d7beb176213ed28289547d3003d6d26d8cbb40f8a3d2ec4e32178c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FUEL.ANS by The Knight + Massm (iCE & Fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fuel promo
 # SAUCE Author: massm & teakay
 # SAUCE Group: iCE & Fuel
@@ -31,7 +31,7 @@ Write-Host '
 
 [1;37;40m        [0m▄[1;30m▄[0;1;37m [0m▀▀[1;30m▀[0;1;37m [0m■[1m [0;1;30mJoint fUEL logo [0m  [1m [0m                       [32m   [0;1;32m  [0m■[1m [0;1;30m▀[0m▀▀[32m [0;1;30m▄[0m▄[1m      [0m
     ▄[1;30m▄[0m▀[1;30m▀[0m [1;30m▒[0m                                                    [32m   [0;1;32m [0;32m  [0;37m  [0;1;30m▒[0m [1;30m▀[0m▀[1;30m▄[0m▄
-  ▐[1;47m▄▀[0;1;30;40m▐[0m   [1;30m░[0m   Shading & background:               Outlines  :          [1;30m░[0m   [1;30m▌[0;1;37;47m▀▄[0m▌
+  ▐[1;47m▄▀[0;1;30;40m▐[0m   [1;30m░[0m                                                            [1;30m░[0m   [1;30m▌[0;1;37;47m▀▄[0m▌
   ▐[1;47m■[0m▌ [1;30m▌[0m      [1m░░[0;34m██[0;32m██[0;1;36;46mtk[0;31m██[0;1;35;45m  [0;33m██[0;37m██[0;1;30m██[0;1;34m██[0;1;32m██[0;1;36m██[0;1;31m██[0;1;35m██[0;1;33m██[0;1;37m██[0m    [1m░░[0;34m██[0;32m██[0;36m██[0;1;37;41mma[0;35m██[0;33m██[0;37m██[0m        [1;30m▐[0m ▐[1;47m■[0m▌
    ▐█  [1;30m■[0m           [31m↑↑[0m                                    [31m↑↑[0m             [1;30m■[0m  [1;30;47m▄[0m▌
      ■▓▄          [1mf[0;1;36mUEL[0m                                   [1mi[0;1;31mCE[0m            ▄▓■

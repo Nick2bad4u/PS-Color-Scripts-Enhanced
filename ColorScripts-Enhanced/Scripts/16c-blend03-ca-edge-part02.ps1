@@ -5,7 +5,7 @@
 # Source SHA-256: 84f7dc7208d3445d2178a1d28ac816eaa84c249dc59dc3ac7aa64814d9bb01a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-EDGE.ANS by catonica (blend); released in blend03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: circuil edge
 # SAUCE Author: catonica
 # SAUCE Group: blend
@@ -41,5 +41,5 @@ Write-Host '
 [36m█████[0;1;36;46m░[0;36m▄█▄▄▄██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;36;46m░[0;36m███[0;1;37;46m<[0;1;36;46mCatonica[0;1;37;46m/[0;1;36;46mBlend[0;1;37;46m>[0;36m███[0;1;36;46m░▒[0m
 [36m██████████████████████████████████████████████████████████████████████████████[0;1;36;46m░▓[0m
 [36m████████████████████████████[0;1;36;46mSysops : Kain ^ IceTrain [0;36m██████████████████████[0;1;36;46m░[0;36m█[0;1;36;46m░▒▒[0m
-[36m████████████[0;1;36;46m  Node # 1 : +46-XX-XXXXXXX[0;36m███[0;1;36;46mNode # 2 : +46-XX-XXXXXXX[0;36m██████[0;1;36;46m░[0;36m██[0;1;36;46m░░▒▓[0m
+[36m████████████[0;1;36;46m                           [0;36m███[0;1;36;46m                         [0;36m██████[0;1;36;46m░[0;36m██[0;1;36;46m░░▒▓[0m
 [36m████████████████████████████████████████████████████████████████████[0;1;36;46m░[0;36m███[0;1;36;46m░░░▒▒▒▓▓[0m'

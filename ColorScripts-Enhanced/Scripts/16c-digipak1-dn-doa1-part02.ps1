@@ -5,7 +5,7 @@
 # Source SHA-256: e5add01a561832bc8fc266c5c8eaebdb2a314dc459a037d4f6acaee328260025
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DN-DOA1.ANS by Dark Ninja (digipak1); released in digipak1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 27-52
 # Columns: 1-80
 
@@ -23,7 +23,7 @@ Write-Host '
                [30;47m█[0;36;40m████▀▄▄▄▀███[0;30;46m▀[0;36;40m█[0;36;46m  [0;36;40m▀   ▀[0;36;46m      [0;36;40m█████▄▄▄▀[0;1;36;46m▒▓[0;36m▄[0m     [34m▄▄▄▄[0;1;34;44m░░▒▓[0;34m▀[0m
               [30;47m█[0;36;40m███▀▄██████████▀[0m        [36;40m▀▀███████[0;1;36;46m░▒▒▓[0;30;47m█[0;1;36;46m▒▓[0;30;47m█[0;34;40m█████▀▀▀▀▀▀[0m
                [36;40m▀██▄▀██████▀▀[0m              [36;40m▀████[0;1;36;46m░▒▓▓[0;36m▀▄[0;1;36;46m▓[0;36m▀[0m
-                 [36m▀▀▀ ▀▀▀[0m                    [36m▀▀▀▀▀▀[0m     [1;36mA[0;36mnsi [0;1;36mB[0;36my[0;1;36m: [0;1;31mD[0;31ma[0;1;37mr[0mk [1;31mN[0;31mi[0;1;37mn[0mj[1;30ma [0;1;31m[[0;31mD[0;1;37mO[0mA[1;30m][0m
+                 [36m▀▀▀ ▀▀▀[0m                    [36m▀▀▀▀▀▀[0m     [1;36m [0;36m    [0;1;36m [0;36m [0;1;36m  [0;1;31m [0;31m [0;1;37m [0m  [1;31m [0;31m [0;1;37m [0m [1;30m  [0;1;31m [0;31m [0;1;37m [0m [1;30m [0m
          [34m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m              [1;34m▄▄▄▄▄▄▄▄▄[0m               [1;36m▄[0m      [1;34m[[0;1;36m0[0;36m1[0;34m.[0;1;36m0[0;36m3[0;34m.[0;1;36m9[0;36m3[0;1;34m][0m
       [34m▄[0;1;34;44m░░░░▒▒▒▒▒▒▒▓▓▓▓▓▄[0;34m▄[0m        [1;34m▄[0;36;44m▓▒▓▓▓▓[0;1;34;40m▀[0;36;44m▓▓▓▒▓▓[0;1;34;40m▄[0m          [1;36;40m▄[0;1;36;46m▓▓[0;1;36;40m█▄[0m
      [1;34;44m░░░░[0;34m▀▀    ▄[0;1;34;44m░[0;34m▌   ▀[0;1;34;44m▓▓▓▓[0;34m▄    [0;1;34m▄[0;36;44m▓▓▒▓▓[0;1;34;40m▀[0m     [1;34;40m▀[0;36;44m▓▒▓▓▓[0;1;34;40m▄[0m       [1;36;40m█[0;1;36;46m▓▒▓▓[0;1;36;40m█▄[0m

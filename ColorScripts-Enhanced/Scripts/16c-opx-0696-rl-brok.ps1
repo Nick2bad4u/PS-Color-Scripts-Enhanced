@@ -5,7 +5,7 @@
 # Source SHA-256: d77b8c633aec8c5832404810583931bd4addfdcaf5a5ed4a5a23ed9700ebdafb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-!BROK.ANS by Rawlock (Opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Broken Arrow
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -17,7 +17,7 @@
 Write-Host '
                 [33m  [0m            [34m▄[0m
          [1;30m▄[0m  [1;30m▄▓▄[0m  [33m▄[0;37m [0;33m▄[0;1;31;43m░[0;33m▄[0m      [34m▄[0;1;34;44m▄[0;1;34;40m█[0;1;34;44m▄[0;34m▄[0m    [1;37mb[0;1;33m r o k e n   [0;1;37ma[0;1;33m r r o w[0m   [33m-  - --[0;37m>[0m
-[37m [0;1;30m▄▄▄▄[0m   [1;30mansi by rawl[0;33m▀[0;1;30mock[0;34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;47m▓[0;1;34;40m█▓█[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m█▄[0;1;34;40m▄[0;34m▄[0;37m [0;1;30m rl![0;1;33m░[0m [1;30m [0;1;33m [0m                 [1;33m    [0m
+[37m [0;1;30m▄▄▄▄[0m   [1;30m            [0;33m▀[0;1;30m   [0;34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;47m▓[0;1;34;40m█▓█[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m█▄[0;1;34;40m▄[0;34m▄[0;37m [0;1;30m    [0;1;33m░[0m [1;30m [0;1;33m [0m                 [1;33m    [0m
 [33m [0;1;30m▓[0m [32m▄▄▄█▀▀▀▀▀▀▀▓[0;1;32;42m [0;32m▀▀▀▀▀▀▀▓▄▄▄[0;37m [0;1;34m▀[0;32m▄▄▄▄▄▄▄▄█▀▀▀[0;1;33m ▒ [0;32m▀▀▀▀▀▀▀▀▀▀▀▀█▄▄█▀▀▀▀▀▀▀▀▀▀▀[0;1;32;42m░[0;32m▄▄ [0m
 [33m [0;37m [0;1;32m [0;1;32;42m░[0m ▄[1;33m▄▄[0;1;33;47m▄[0;1;33;46m█▀[0;1;33;40m█▀ [0;1;32;42m░░[0;1;33;40m [0;1;33;47m [0;1;33;40m████▄▄▄ [0;32m▀▀▀▀[0;37m ▄[0;1;33m▄▄▄▄▄▄ ▀▀█▓██▀ [0m▄[1;33;47m▄▓[0;1;33;40m ████▄▄▄ [0;32m▀[0;1;33m ▀████▄[0;1;33;47m [0;1;33;40m█[0;1;33;47m▓[0;1;33;40m▄▄[0;32m ▀[0;1;32;42m░[0m
 [33m [0;37m [0;1;32m [0;32m█▄[0;37m [0;1;33;47m ▓[0;1;33;40m█[0;1;33;46m█░[0;1;33;40m█▄▄▄  [0m▀[1;33m▀███ [0;1;33;47m ▓[0;1;33;40m██[0;1;33;47m▓[0;1;33;40m▄ ▀████ [0;1;33;47m [0;1;33;40m█[0;1;33;47m█▓[0;1;33;40m▄ █[0;1;33;46m▓[0;1;33;40m█▄██▀  ▀[0;1;33;47m▓[0;1;33;40m██ [0;1;33;47m [0;1;33;40m█[0;1;33;46m▀[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m▄ [0;1;33;47m▓[0;1;33;40m████[0;1;33;47m▄[0;1;33;40m█[0;1;33;46m▀[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m [0;32m▀▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 9fd16d3027141dfec811121390e886e4cd8fe689a98a395f3b0ea7c070aeb466
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-CRYS.ICE by Incubus (ice-9404); released in ice-9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 47-93
 # Columns: 1-80
 
@@ -50,7 +50,7 @@ Write-Host '
 [1;30;47m▓[0;1;30m█████████████▓▓▓▓▀▓▓▓▀▓▓▒░ ░[0m              [1;30m░[0m       ▀▄[1;47m░[0m [1;30m▄ [0;1;30;47m░░[0;1;47m░▒▓[0;1m▌ ▀██[0m█ ▐[1;47m▒▓[0;1m█████[0;1;47m█[0;1m█[0m
 [1;30m████████▓▓▓▓▓▓▓▓▓▓▒ ░░▒  ░[0m                   [1;30m▀[0m     [1;30m▐[0;1;30;47m░[0m [1m▀[0m▄[1;30m▄ [0;1;30;47m░[0m█[1;47m▒▓[0m    ▀   [1;47m▓▓▓[0;1m███[0;1;47m█[0;1m█▌[0m
 [1;30m██▓▓▓▓▓▓▀▀▓▀▓▓▒▒░[0m          [30mThe Pantheon will never [0;1;30m▄  ▐[0;1;30;47m░[0;1;47m░[0;1;30;47m▀[0;1;30m▄[0m▀[1;47m░[0m          [1m▀[0;1;47m▀[0;1m▀▀▀▀▀[0m▄
-[1;30m▓▓▀▀▓▓ ▒▒░  ░    ░[0m          [30mgo up! mwuhahahaha!!  [0;1;30m▓   [0;1;30;47m▒░[0;1;47m░▒[0m [1m▄   [0;30mhi mom!  [0m▐█    ▌
+[1;30m▓▓▀▀▓▓ ▒▒░  ░    ░[0m          [30m                      [0;1;30m▓   [0;1;30;47m▒░[0;1;47m░▒[0m [1m▄   [0;30m         [0m▐█    ▌
 [1;30m▓▒▒░░ ░   ░[0m            [1;30m▄ ▄▓▒▀▀[0m                 [1;30m█ ▄   ▐[0;1;30;47m▒[0m█[1;47m░[0m▌█[1;47m▒▓[0;1m█▄  ▄▄▄▄    [0m▌   ▐▌
 [1;30m░░ ░[0m               [1;30m▄▄▒▓▓█▓▓▓▀[0m                  [1;30m▐▓  ▄  [0;1;30;47m▓[0m█▀▄[1;47m▒▓[0;1m█[0;1;47m█[0;1m█▐[0;1;47m▓▓[0;1m████▄▄[0;1;47m▓▓[0;1m███▄[0m▀
                      [1;30m▓▀▓▓▓▒▀[0m            [1;30;47m▓[0m    [1;30m░ ░ ▄ ■   [0m▀ [1;47m▒▓▓██[0;1m▌[0;1;47m▒▒▓[0;1m█████[0;1;47m▒▓█████[0;1m█[0m

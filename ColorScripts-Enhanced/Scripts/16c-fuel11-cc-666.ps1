@@ -5,7 +5,7 @@
 # Source SHA-256: b9d6a521b201cd3a7b8a198ffdada3b2e7bb06c97d56fea8370b2255efe70113
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-666.ANS by ChronicC (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Route 666
 # SAUCE Author: ChronicC
 # SAUCE Group: Fuel
@@ -57,5 +57,5 @@ Write-Host '
               [1;30m ░░ [0;1;33m▐[0;33m▌[0;1;30m    ▀█▀    ▀██ [0;1;30;47m▓▓[0;31m [0;1;30m   ▐██[0m [1;30;47m▓▓[0;1;30;40m▌   ▐██▄   ░░  [0;1;33;40m■[0;1;30;40m  ▀▀[0m
              [1;30m▄▄[0m         [1;30m███  [0m  [1;30m▓▓▓[0m [1;30m███▀[0m [1;30m ▓▓▓[0m [1;30;47m██[0;1;30;40m█▀[0m  [1;30m▓▓▓[0m     [1;33m■[0;33m▀[0m    [1;30m▄▄[0m
              [1;30m▀▀[0m  [1;30m  [0m [33m▀[0;37m  [0;1;33m▄[0;1;30m ▀▀▀▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▀▀▀[0m  [1;30m ▀▀▀▀▀▀▀[0m     [1;33;43m▌[0m      [1;30m▀▀[0m
-             [1;30m▓▓[0m   [1;30m     [0m  [30;47m►[0;1;30;47m░[0m█[30;47mroute 666 bbs  sysop:[0;37;40m█[0;30;47maOh[0;37;40m█[0;1;30;47m░[0m [1;30m  [0;33m ▄[0;37m [0;1;30m   [0m [1;30m▓▓[0m
+             [1;30m▓▓[0m   [1;30m     [0m  [30;47m►[0;1;30;47m░[0m█[30;47m                     [0;37;40m█[0;30;47m   [0;37;40m█[0;1;30;47m░[0m [1;30m  [0;33m ▄[0;37m [0;1;30m   [0m [1;30m▓▓[0m
              [1;30m███[0;1;30;47m▓▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m███▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▓[0;1;30;40m█▄▄▄▄[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█[0m'

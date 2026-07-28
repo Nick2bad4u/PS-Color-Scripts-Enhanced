@@ -5,7 +5,7 @@
 # Source SHA-256: 52c042c79fb93e0ca88df4aa2526333958e5c796036d4869f56578e0004f6405
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-RLG.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ Write-Host '
 [34m [0;1;37m▀[0;1;36m▀███[0;1;36;47m▓[0;1;36;40m█[0;1;36;47m█[0;1;36;40m█[0;1;37;40m█▌[0;34m [0;1;30m [0m [1;36m▄████[0;1;36;47m▓██[0;1;36;40m██████[0;1;37;40m▀[0m [34m▄▄▄[0;37m [0;1;37m▀[0;1;36m██▄▄███████▓█▀▀▀[0m [1m▄[0;1;36m▄█████[0;1;36;47m▓[0;1;36;40m███▀▀▀▀▀▀[0m   [1;36m▐██[0;1;36;47m▓[0;1;36;40m█▌[0m
 [34m██▄▄ [0;1;36m▀[0;1;37m▀▀▀▀▀[0m [34m [0;37m [0;1;36m▄████████[0;1;37m█▀▀▀▀[0m [34m▄██▀▀▀   [0;37m [0;1;37m▀[0;1;36m▀▀[0;1;37m▀▀▀[0;34m ▄▄▄▄██▄[0;1;30m [0m [1m▀▀▀▀[0;1;36m▀▀▀[0m [34m▄▄▀▀▀▀[0;37m [0;1;36m▄▄███[0;1;36;47m▓[0;1;36;40m█▀[0m
 [1;34;44m░░[0;34m█████[0;1;34;44m░[0;34m█████[0;37m [0;1;37m▀[0;1;36m▀▀▀▀▀[0;1;37m▀[0m [34m▄▄▄██[0;1;34;44m░░[0;34m██[0;37m [0;1;37mr[0m  [1;47m l [0;34m [0;37m [0;1;37mg[0;34m ████[0;1;34;44m░[0;34m███[0;1;34;44m░░[0;34m████████[0;1;34;44m░[0;34m██[0;37m [0;1;37m▄▄▄▀▀▀▀[0;1;36m▀▀▀[0m [34m▄▄██ [0m
-        [34m   ▀▀▀▀▀▀▀▀▀▀▀ [0;37mr[0;1;37meligion vid[0me[1mo p[0;30;47ml[0;1;37;40mant[0m distrosite[34m ▀▀▀▀▀▀▀▀[0m     [34m▀▀▀▀▀▀▀▀▀▀  [0m'
+        [34m   ▀▀▀▀▀▀▀▀▀▀▀ [0;37m [0;1;37m           [0m [1m   [0;30;47m [0;1;37;40m   [0m           [34m ▀▀▀▀▀▀▀▀[0m     [34m▀▀▀▀▀▀▀▀▀▀  [0m'

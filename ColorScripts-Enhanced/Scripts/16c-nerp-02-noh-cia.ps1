@@ -5,7 +5,7 @@
 # Source SHA-256: 601fbf771e5b61d881acfd39447d77701f417a56a90e7802b2105c7f6d6a3608
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-CIA.ANS by nOah? (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cia promo!
 # SAUCE Author: nOah?
 # SAUCE Group: nerp
@@ -29,4 +29,4 @@ Write-Host '
               [31m░░[0m           [31m▄[0;1;31m▄[0m▄[1;31m▄▄▄[0;31m▄[0m    [31m ▒▒▒░░░              [0m       [31m░░[0m
                      [31m▄[0;1;31m▄▄[0;1;31;41m▄█[0;1;31;47m▄▓[0;1;31;41m███▀[0;1;31;40m▀▀▀[0;31m▀[0m   [31m░░░[0m    [31m               [0m
              [31m▄▄▄▄█[0;1;31;41m░▒▓█▀[0;1;31;40m▀▀[0;31m▀[0m                              [31m              [0m
-       [31m░░▒▒▓▓█▀▀▀▀[0m             [31m  [0m     [31mCREATOR OF INTENSIVE ART             [0m'
+       [31m░░▒▒▓▓█▀▀▀▀[0m             [31m  [0m     [31m                                     [0m'

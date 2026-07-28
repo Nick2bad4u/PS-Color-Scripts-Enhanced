@@ -5,7 +5,7 @@
 # Source SHA-256: bfc47585484e4cba99e6d389add387cd8c4b6e6abae8c4f285ab6386f12a5c71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-NC4.ANS by Defiant (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: No Control
 # SAUCE Author: Defiant
 # Lines: 1-19
@@ -30,4 +30,4 @@ Write-Host '
        [32m▄▄▄[0;1;32;42m▄[0;32m▀▀▌▀▀   [0;30;43m░[0;33;40m█[0;33;43m [0;33;40m████[0;1;33;43m░░▒▓▀[0;1;33;40m▀[0;33m▀ ▄▄[0;36;43m░░░░░[0;33;40m▀▀▀▀[0;30;43m░░[0;33;40m████[0;1;33;43m░░░[0;33m█[0;1;33;43m░░[0;33m▄▄█[0;1;33;43m░▄█▓[0;33m▌   [0;32m░[0m
 [32m   ■ ▀▀   [0;1;32m▒[0m      [30;43m▓░ [0;33;40m████[0;1;33;43m░░[0;33m██▀░  [0;32m░  [0;33m▀▀▀[0m           [33m▀▀▀█[0;1;33;43m░░▒▓▓▓▓██▀[0;33m▀[0m
           [1;32m░[0m      [33m▐[0;30;43m░[0;33;40m███[0;1;33;43m░[0;33m██▀[0m                             [33m▀▀[0;1;33;43m▀█▀[0;1;33;40m▀[0;33m▀[0m
-                  [33m▀[0;30;43m░░[0;33;40m▀▀[0;30;43m▓[0;33;40m░[0m         [32;40mansi by [0;1;32;40mdefiant[0m'
+                  [33m▀[0;30;43m░░[0;33;40m▀▀[0;30;43m▓[0;33;40m░[0m         [32;40m        [0;1;32;40m       [0m'

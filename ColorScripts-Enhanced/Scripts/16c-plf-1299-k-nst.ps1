@@ -5,7 +5,7 @@
 # Source SHA-256: 74b44a28326eebff4db492b2338a396707788cffa07db444b697e872af9e6187
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K-NST.ANS by kyp (black maiden); released in plf-1299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: PLF 23 promotion
 # SAUCE Author: kyp
 # SAUCE Group: black maiden
@@ -23,8 +23,8 @@ Write-Host '
 [30;45m [0;36;45m     [0;35;40m███[0;36;45m  :                    \__________|           _ blackMAIDEN     [0;35;40m███████[0m
 [30;45m [0;35;40m████████[0;36;45m  :...........................................:               [0;35;40m█████████[0m
 [1;35;40m░[0;33m▄▄ [0;35m▀▀▀▀▀███████████████████████████████████████████████████████████████████████[0m
-[1;35m░[0;33m███[0;33;43m▄[0;33;40m██[0;33;45m█[0;33;40m▄▄▄[0;33;45m▄▄▄[0;33;40m▄▄▄▄▄[0;33;45m▄▄▄▄[0;35;40m▀▀▀▀▀▀▀██████[0;36;45mrEspect: sHine, pOti, eNzo, aVenger, dV8,[0;35;40m███[0m
-[1;35;40m░[0;1;33;40m░[0;35;43m▄▄▄▄▐██▄▄█[0;36;43m▓▓▓▓▓▓▓▓▓▓[0;35;40m▀▀▀▀▀█▄[0;33;40m▄▄▄ [0;35;40m▀▀█████[0;36;45msCope, cThulu, lIceboy, aVatar, zIppy,[0;35;40m██[0m
+[1;35m░[0;33m███[0;33;43m▄[0;33;40m██[0;33;45m█[0;33;40m▄▄▄[0;33;45m▄▄▄[0;33;40m▄▄▄▄▄[0;33;45m▄▄▄▄[0;35;40m▀▀▀▀▀▀▀██████[0;36;45m                                         [0;35;40m███[0m
+[1;35;40m░[0;1;33;40m░[0;35;43m▄▄▄▄▐██▄▄█[0;36;43m▓▓▓▓▓▓▓▓▓▓[0;35;40m▀▀▀▀▀█▄[0;33;40m▄▄▄ [0;35;40m▀▀█████[0;36;45m                                      [0;35;40m██[0m
 [1;35;40m░[0;35;43m▐██[0;1;36;45m░░░░[0;35m███[0;35;47m█[0;31;45m▓▓[0;1;31;46m░░[0;36m██[0;1;36m▒[0;33m▀ ▄▄[0;1;31;43m▀▀▀[0;33m██[0;31m▄▄[0;33m▀▀[0;35m██▄[0;33m  [0;35m▀██▀▀▀▀▀█████[0;36;45mpAndur, sOing, gOmorrah,[0;35;40m█[0;36;45mtOot,[0m
 [1;35;40m░[0;33m█[0;35;43m██[0;1;36;45m░░░░[0;35m█[0;36;43m░░░[0;31;45m▓▓[0;1;31;46m░░[0;36m█[0;1;36m▒[0;36m [0;33m▄▀[0;31m▀[0;33m [0;1;33m▄▄[0;1;35m▄[0;33m ▀▀[0;31;43m▀[0;1;31;43m▓[0;34m▄[0;33m [0;31m▀[0;37;43m▀[0;1;31;41m▄[0;35m▄[0;33m  [0;31m▄▄█[0;31;43m▀[0;33;40m█▄▄▄[0;35;40m ▀▀▀████[0;36;45mmOther,[0;35;40m█[0;36;45mmYth, oRbitoz,   [0m
 [1;35;40m░[0;33m█[0;35;43m████[0;35;40m███[0;34;40m███[0;33;40m   [0;36;40m█▀▀ [0;33;40m ▄[0;1;37;40m███[0;1;33;40m███[0;1;31;40m█▄[0;33m ▀[0;1;33m░░[0;33m▄[0;31m▐█[0;1;31;41m▄[0;34;41m▀[0;31;40m▄[0;34;40m▄[0;33;40m ▀[0;31;40m█▄▄[0;1;33;40m [0;33m▀▀▀[0;36m░[0;35m▄[0;34m▄[0;35m▀▀█████[0;36;45mkB, cRayon, tRip,[0;35;40m████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: a43845a213eab9a8f2226696020351c4541339ad6e34b000c20eab8bdc201cea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-IDI2.ICE by Cephalon Tsurphr (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-97
 # Columns: 1-80
 
@@ -51,7 +51,7 @@ Write-Host '
 [35m [0;1;34;44m█▓[0;34m▌[0;1;30m▐[0;1;30;47m▓▓▓▓▓▄▄[0m▄[1;30;47m▓[0;1;37;47m░░░░░░░░░░░░░░[0m [1;34;40m█[0;1;34;44m█[0;1;34;40m███████[0;1;34;44m████[0;1;30;44m░[0m         [1;35;40mSup[0;35mp[0;1;35mort[0;35min[0;1;35mg [0;35m24o[0;1;35mo [0;35m- 144oo[0m
 [35m [0;1;34;44m▓▒░[0;34m▄[0;1;30m▀[0;1;30;47m▓▓▓▓▓[0;1;30;40m█[0;30;47m░[0;1;30;47m▒[0;1;37;47m░░░░░░░░░░░░░░░[0m [1;34;44m█[0;1;34;40m███████[0;1;34;44m████[0;1;30;44m░[0m         [1;35;40mSpe[0;35mc[0;1;35mtre[0;35mNe[0;1;35mt [0;35m/ L[0;1;35mi[0;35mthiumNet[0m
 [35m [0;1;34;44m▓▒░  [0;34m▄[0;1;30m▀[0;1;30;47m▓▓▓[0;1;30;40m█▓[0;1;30;47m░[0;1;37;47m░░░░░░░░░░░▒░░░[0m▌[1;34m▐██████[0;1;34;44m██████[0;1;30;44m░[0m        [1;35;40m610 FAZ[0;35mR  [0;1;35mS[0;35mupp[0;1;35mo[0;35mrt Board[0m
-[35m [0;1;34m█[0;1;34;44m▓▒░  [0;34m█ [0;1;30;47m▓▓[0;1;30;40m█▓[0;1;30;47m [0;1;37;47m░░░░░░░░░▒▓█▒░░[0m▌[1;34m▐██████[0;1;34;44m███[0;1;34;46m█▓[0;1;34;44m█[0;1;30;44m░[0m        [1;35;40mTOF  Di[0;35msc[0;1;35mus[0;35msio[0;1;35mn  [0;35mBoard![0m
+[35m [0;1;34m█[0;1;34;44m▓▒░  [0;34m█ [0;1;30;47m▓▓[0;1;30;40m█▓[0;1;30;47m [0;1;37;47m░░░░░░░░░▒▓█▒░░[0m▌[1;34m▐██████[0;1;34;44m███[0;1;34;46m█▓[0;1;34;44m█[0;1;30;44m░[0m        [1;35;40m       [0;35m  [0;1;35m  [0;35m   [0;1;35m   [0;35m      [0m
 [35m [0;1;34m██[0;1;34;44m▓▒░  [0;34m█ [0;1;30;47m▓[0;1;30;40m█▓[0;1;30;47m▓[0;1;37;47m▓▒░░░░░▒▓█▓▒░▄▀[0m▌[1;34m▐██████[0;1;34;44m███[0;1;34;46m▓▒▓[0;1;34;44m█[0;1;30;44m░[0m       [1;35;40mWar[0;35me[0;1;35ms,U[0;35mti[0;1;35mls[0;35m,Gr[0;1;35ma[0;35mphics...[0m
 [35m [0;1;34m███[0;1;34;44m▓▒░  [0;34m█▄[0;1;30m▀▓[0;1;30;47m▓▒[0;1;37;47m▀▓▒░░░░░░▄▄▀[0;1;30;47m▄░[0m [1;34;44m█[0;1;34;40m██████[0;1;34;44m██[0;1;34;46m▓▒░▒[0;1;34;44m█[0;1;30;44m░[0m       [1;35;40m...[0;35ma[0;1;35mnd [0;35mmu[0;1;35mch[0;35m, m[0;1;35mu[0;35mch more![0m
 [35m [0;1;34m███[0;1;34;44m██▓▒░ [0;34m█▄[0;1;30m▀[0;1;30;47m▓▒░▄ [0;1;37;47m▀▀▀▀▀▀[0;1;30;47m░▄░[0m▀[1;34m▄█[0;1;34;44m█[0;1;34;40m██████[0;1;34;46m▓[0;1;34;44m█[0;1;34;46m▓▒░ ▓[0;1;34;44m█[0;1;30;44m░[0m

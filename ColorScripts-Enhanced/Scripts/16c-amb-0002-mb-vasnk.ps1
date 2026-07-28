@@ -5,7 +5,7 @@
 # Source SHA-256: 253f9b8b3c878ea0be5612cafb625fab9e51af4865485dd9d5dd8543f89f9fe5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-VASNK.ANS by MADBiT (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Vasniak-O-Matic
 # SAUCE Author: MADBiT
 # SAUCE Group: AMBUSH Productions
@@ -36,4 +36,4 @@ Write-Host '
 [1;30m█[0m                                                                             [1;30m▒[0m
 [1;30m▓[0m                                                                             [1;30m▓[0m
 [1;30m▓▌[0m                                                                           [1;30m▐▓[0m
- [1;30m▀▓[[0;36mcoded by [0;1;36mmadbit[0;36m^[0;1;36mamb[0;1;30m]▀■▀▀▓▀■▀▓▀▀▓▀■▀▀▀▓▀▀▀▀▓▀■▀▀▀▓▀▀▀▀■▀▀▓[[0;36mmsg[0;1;30m [0;1;36moooo[0;36m/[0;1;36moooo[0;1;30m]▀▀[0m'
+ [1;30m▀▓ [0;36m         [0;1;36m      [0;36m [0;1;36m   [0;1;30m ▀■▀▀▓▀■▀▓▀▀▓▀■▀▀▀▓▀▀▀▀▓▀■▀▀▀▓▀▀▀▀■▀▀▓ [0;36m   [0;1;30m [0;1;36m    [0;36m [0;1;36m    [0;1;30m ▀▀[0m'

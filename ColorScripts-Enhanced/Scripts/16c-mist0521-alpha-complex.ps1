@@ -5,7 +5,7 @@
 # Source SHA-256: e7cd54d0a1646d73cebc6156f80f8bcf9641ad4ce2a8975d89ef1de2b4c050b1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ALPHA-COMPLEX.ANS by Alpha (None); released in mist0521 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Alpha Complex
 # SAUCE Author: Alpha
 # SAUCE Group: None
@@ -17,7 +17,7 @@
 
 Write-Host '
    [1;31m▄[0m  [1;31m▄[0m  [1;31m▄▄[0m  [1;31m█[0m [1;31m▄[0m  [1;31m▄[0m      [1;31m▄[0m  [1;31m▄[0m   [1;31m▄ ▄[0m  [1;31m▄▄[0m  [1;31m█[0m  [1;31m▄▄▄[0m [1;31m▄ ▄[0m
-  [1;31;41m░[0;31m▄[0;1;31;41m░[0m [1;31;41m░[0m  [1;31;41m░[0;31m▄▀[0;37m [0;1;31;41m░[0;31m▀[0;1;31;41m░[0m [1;31;41m░[0;31m▄[0;1;31;41m░[0m    [1;31;41m░[0m  [1;31;41m░[0;31m [0;1;31;41m░[0m [1;31;41m░[0;31m ▀ [0;1;31;41m░[0m [1;31;41m░[0;31m▄▀[0;37m [0;1;31;41m░[0m  [1;31;41m░[0;31m▀[0;37m   [0;1;31;41m░[0m   [36mSysOp[0;1;36m ALPHA[0;1;35m / [0;1;32mBerkeley, CA[0m
+  [1;31;41m░[0;31m▄[0;1;31;41m░[0m [1;31;41m░[0m  [1;31;41m░[0;31m▄▀[0;37m [0;1;31;41m░[0;31m▀[0;1;31;41m░[0m [1;31;41m░[0;31m▄[0;1;31;41m░[0m    [1;31;41m░[0m  [1;31;41m░[0;31m [0;1;31;41m░[0m [1;31;41m░[0;31m ▀ [0;1;31;41m░[0m [1;31;41m░[0;31m▄▀[0;37m [0;1;31;41m░[0m  [1;31;41m░[0;31m▀[0;37m   [0;1;31;41m░[0m   [36m     [0;1;36m      [0;1;35m   [0;1;32m            [0m
   [31m▀ ▀[0;37m [0;31m▀▀[0;37m [0;31m▀[0;37m   [0;31m█[0;37m   [0;31m▀ ▀[0;37m     [0;31m▀[0;37m  [0;31m▀[0;37m  [0;31m▀[0;37m   [0;31m▀[0;37m [0;31m▀[0;37m   [0;31m▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀[0;37m [0;31m▀[0m
 [37m                       ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [37m                      █[0;1;37m▄[0;30;47m▄[0;1;37;47m▀██[0;1;37;40m██[0;1;37;47m██████████████[0;1;37;40m█████████[0;1;37;47m▀[0;30;47m▄[0;1;37;40m▄[0m█[35m░▒▓[0;35;42m█████[0;35;40m██████████[0;35;42m█████[0m

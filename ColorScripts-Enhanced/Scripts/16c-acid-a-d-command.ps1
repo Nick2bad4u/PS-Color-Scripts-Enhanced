@@ -5,7 +5,7 @@
 # Source SHA-256: 50c6b5a4bb0eedd51c271bf67ba2c84dad7805f5a919cab4307875da34d22fb2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: COMMAND.ANS by Kingpin (acid_a-d); released in acid_a-d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -23,7 +23,7 @@ Write-Host '
 [31m [0;33m░▒▒▓▓▓░▒▓█[0;37m▓██[0;33m▒░▓█▓░▒[0;37m▓█[0;1;30;47m▒[0;33m░▓▓▓▒▒░[0;1;30m░[0m                  [31m█[0m
 [33m░▒▒▓██▓▓░▒▓█[0;37m▓▓█[0;33;47m▀▀▀▀▀[0;37;40m▓▓█[0;33;40m▒░▓██▓▒▒░[0;31;40m░[0m                 [31;40m▐▌[0m      [34;40m─[0;1;37;40mA[0;1;36;40mC[0;36mi[0;1;34mD[0;34m─[0m
 [33m░▒▓███▓▒░▒▓▓[0;37m▓▓▓▓▒▒▒▓▓▓▓[0;33m▒░▒▓██▓▒░[0;31m░[0;1;30m░[0m                    [1;37mANSi[0m/[1mVGA Requests[0m
-[33m░▒▒▓██▓▒░▒▒▒[0;1;30;47m█[0m▒▒▒░▓░▒▒▒▒[1;30;47m█[0;33m▒░░▒▓▓▒░░[0;31m░[0m              [1;37mWe Slaughter The Competetion[0m
+[33m░▒▒▓██▓▒░▒▒▒[0;1;30;47m█[0m▒▒▒░▓░▒▒▒▒[1;30;47m█[0;33m▒░░▒▓▓▒░░[0;31m░[0m              [1;37m                            [0m
 [33m░░▒▓█▓▒░[0;1;30m░[0;33m░░[0;37m░░░░░▒█▒░░░░░░[0;33m▒[0;1;30m▒[0;33m░▒▒▒▒░[0;1;30m░[0m
 [33m░░░▒▓░░▒ ░[0;37m▒▓[0;1;30;47m▒[0m█[1;47m░[0m█▓[47m [0;40m▓█[0;1;47m░░[0m█▓▒░[1;30m░[0;33m░▒▓█▓▒░[0;1;30m░[0m                     [1;30m.  ■  ∙[0m
 [33m░▒▒▓█▓▓▓[0;1;30m▌[0m░▒▓▓▓▓▓█[47m [0;40m█▓▓▓▓▓▒░ [0;1;30;40m░[0;33m▒▒▓▓▒░[0;1;30m░[0m                   [1;30m▄ [0;31m▄▀ ▄[0;1;30m∙▄  .[0m

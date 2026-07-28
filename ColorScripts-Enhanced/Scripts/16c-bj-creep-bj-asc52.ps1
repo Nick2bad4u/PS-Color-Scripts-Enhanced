@@ -5,7 +5,7 @@
 # Source SHA-256: 86d0a5d77172d14f1dc983f28d2a675a4c913be2a52d8fce69337b2d59f5de85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc52.ans by Black Jack (Echo [01/04/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Welcome Screen (Weirds bar & grill)
 # SAUCE Author: Black Jack
 # SAUCE Group: Echo [01/04/96]
@@ -40,11 +40,11 @@ Write-Host '
 [1;37m·[0m                                  [1;34m`Y$Pⁿ°[0;34m"~[0;37m m[0;1;37m@S[0m;[1m$$l[0m;$[1m$l[0md[1m$$$[0ml[1m$@$[0m [1mmS$[0m [34m`Y[0;37m $[0;1;33m$[0;34m;$[0;1;34m$Pⁿ"~[0m
                                    [1;34m,[0;1;37md$[0;1;34mS$$$P,dS@m,[0m~[1m" ⁿ''[0;1;34m_[0;1;37m [0m~[1m"°[0;34m_[0;1;37m~`[0;1;34m,d[0;34mS,d$:$[0;37m [0;1;33m$[0m$[34ml$$m@P''[0m
 [37m  [0;34m,[0;1;34md@mm[0;34mmm,_ _[0m                      [1;37m`Y[0;1;34m$b,`Yb`Y$ⁿ[0;1;37m,dS[0;1;34m$$$$$$$[0;34m$$$b.`Y$l$[0;1;34m$[0;34mi[0;1;34m$[0m l''[34mⁿ"`[0m
-[37m [0;34md[0;1;34m$[0;1;37m$[0;1;34m$Pⁿ°"~ ~[0;34m~""~ [0m         [34m  .[0m        [1;34ml[0;1;37m$[0;1;34ml`[0;1;37m$[0;1;34m$,`Y[0;1;37m$[0;1;34m$$$$$$$$$$$[0;34m$$$l[0;37m [0;34m$[0;1;34m$[0;34m;$[0;1;34m$[0;34ml$[0;37m.''[0;34m [0;1;30mbj^echo[0m
-[34m~"ⁿ[0;1;34mY[0;34m$''[0;37m [0;1;37mweird''s bar[0m [1m& grill[0m [1;34m.[0;34m:[0m       [1;34m,d$;,d$l[0m [1;34m$$$$$$$$$$$$$$[0;34m$$$[0;37m [0;34ml[0;1;34m$[0;34m,[0;1;34m$$[0;34mi[0;1;34m''[0;1;30m          [0m
-   [34ml[0;1;34m$[0;34mb,_ [0m                  [1;34m:[0;34mi[0m       [1;34ml[0;1;37m$[0;1;34m$l;$$$,`Y$$$$[0;34m$$[0;1;34m$$$$$$[0;34m$P'',d[0;1;34m$[0;34mi$[0;1;34m$[0;34m''[0m      [1;30m [0;34m.:il[0m
-   [1;34m$l[0;34mⁿ°"~ ~[0m                [1;34mil[0;34mb,_ _[0;37m  [0;1;34m`ⁿY[0;1;37m$[0;1;34m`Y$ⁿ$[0m [1;34m$$$[0;34m$$[0;1;30mP[0;34mⁿY$[0;1;34m$$$[0;34mPⁿ,d$[0;1;34m$[0;34mP[0;1;34m"ⁿ''[0m     [34m,:il&$$[0m
-   [1;34m&i[0m    [1mf i l l    m e  [0m [34md[0;1;34ml$[0;34mP''[0m             [1;34m`[0m  [1;34m`[0;1;30m"[0;34m°[0;1;30mⁿ[0;34m''[0;37m  [0;34m`""ⁿ`[0;37m  [0;34m`""`[0m     [34m,:il&$$$$$[0m
+[37m [0;34m [0;1;34m [0;1;37m [0;1;34m        [0;34m     [0m         [34m   [0m        [1;34m [0;1;37m [0;1;34m  [0;1;37m [0;1;34m    [0;1;37m [0;1;34m           [0;34m    [0;37m [0;34m [0;1;34m [0;34m  [0;1;34m [0;34m  [0;37m  [0;34m [0;1;30m       [0m
+[34m   [0;1;34m [0;34m  [0;37m [0;1;37m           [0m [1m       [0m [1;34m [0;34m [0m       [1;34m        [0m [1;34m              [0;34m   [0;37m [0;34m [0;1;34m [0;34m [0;1;34m  [0;34m [0;1;34m [0;1;30m          [0m
+   [34m [0;1;34m [0;34m    [0m                  [1;34m [0;34m [0m       [1;34m [0;1;37m [0;1;34m             [0;34m  [0;1;34m      [0;34m     [0;1;34m [0;34m  [0;1;34m [0;34m [0m      [1;30m [0;34m    [0m
+   [1;34m  [0;34m      [0m                [1;34m  [0;34m     [0;37m  [0;1;34m   [0;1;37m [0;1;34m     [0m [1;34m   [0;34m  [0;1;30m [0;34m   [0;1;34m   [0;34m     [0;1;34m [0;34m [0;1;34m   [0m     [34m       [0m
+   [1;34m  [0m    [1m                [0m [34m [0;1;34m  [0;34m  [0m             [1;34m [0m  [1;34m [0;1;30m [0;34m [0;1;30m [0;34m [0;37m  [0;34m     [0;37m  [0;34m    [0m     [34m          [0m
    [1;34mIl[0;34m,[0m       [31m      [0m       [34m`Y[0;1;34m$b,[0;34m_ _[0m                   [1;33m,:[0m   [1;33m.:i.[0m      [34m,:i&$$$$$$P[0;1;37m,[0m
    [34ml[0;1;34m$b,[0;34m_[0m         [34m [0m        [34m,[0;1;34md$[0;1;37m$[0;1;34m$Pⁿ°"~[0m           [1;33m,m@S$[0m$P'' [1;33m,:il$b, _  _,[0;1;37mmb,[0;1;33mmS$$$$$[0;1;37m$[0m
    [34miⁿ°"~~ ~[0;1;37m  [0;34m.,_ _,mm[0;1;34mmd$[0;1;37m$[0;1;34m$$$P''[0m             [1;33m,[0mm[1;33m@S$$$$[0m$$, [1;33m;il&$$$$$$$$$$$[0;1;37m$P[0;1;33m`Y$$$$[0;1;37m$$[0m

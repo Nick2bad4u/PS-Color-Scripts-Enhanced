@@ -5,7 +5,7 @@
 # Source SHA-256: 7e2e21b06770df541881e1075fa0c8762b2893633f488f6348e5ae4584936a25
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZлOPIUM.ANS by Ize (fsn-0296); released in fsn-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -23,5 +23,5 @@ Write-Host '
     [1;33m  [0m    [1;31m▐[0;1;31;45m▓█[0m      [1;31;45m█▓[0;1;31;40m▌[0;1;31;45m▓█[0;1;31;40m▌[0m      [1;31m▐[0;1;31;45m█[0m [1;31;45m▓█▓[0m [1;31m█[0;1;31;45m▓▓[0m      [1;31;45m█▓█[0m [1;31m█[0;1;31;45m▓[0;1;31;40m█[0m   [1;31;45m█▓[0;1;31;40m█[0m   [1;31;45m▓█▓[0m
     [1;33m  [0m     [1;31m▀[0;1;31;45m█[0;1;31;40m▌[0m    [1;31m▐[0;1;31;45m█[0;1;31;40m▀▐[0;1;31;45m█[0;1;31;40m▌▀■▄▄▄▄■▀[0m [1;31m▐[0;1;31;45m█[0;1;31;40m▀[0m   [1;31m▀[0;1;31;45m█[0;1;31;40m▌[0m    [1;31m▐[0;1;31;45m█[0;1;31;40m▀[0m [1;31m▐[0;1;31;45m█[0;1;31;40m▀[0m   [1;31m▐[0;1;31;45m█[0;1;31;40m▀[0m   [1;31m▐[0;1;31;45m█[0;1;31;40m▀[0m  [35m▄[0;1;31;45m▒[0;35m▄[0m
         [37m   [0;1;31m [0m [1;31m▀■▄▄■▀[0m [1;31m■▀▀[0m         [1;31m■▀[0m       [1;31m▀■▄▄■▀[0m  [1;31m■▀[0m    [1;31m■▀[0m    [1;31m■▀[0m     [35m▀[0m
-        [37m [0;35m ▄[0;1;31;45m░[0;35m▄[0;37m  [0m    [1;31m▄ [0m [1;31m■[0m [1;31m▀[0m [1;31m■[0m [1;31m▄[0m [1;31m▀[0m [35mthe only drug you need![0;1;31m [0;35m...[0m
+        [37m [0;35m ▄[0;1;31;45m░[0;35m▄[0;37m  [0m    [1;31m▄ [0m [1;31m■[0m [1;31m▀[0m [1;31m■[0m [1;31m▄[0m [1;31m▀[0m [35m                       [0;1;31m [0;35m   [0m
            [35m▀[0;37m          [0m'

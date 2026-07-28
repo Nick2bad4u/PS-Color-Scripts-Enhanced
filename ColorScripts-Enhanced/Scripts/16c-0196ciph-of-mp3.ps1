@@ -5,7 +5,7 @@
 # Source SHA-256: a498f21bd34c2490620dd8983793b311be0baf9f0615b401885e379bbb82c329
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OF-MP3.ANS by Offspring (PRiC); released in 0196ciph and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mnemonic Psychosis Font
 # SAUCE Author: Offspring
 # SAUCE Group: PRiC
@@ -26,7 +26,7 @@ Write-Host '
 [1;30;40m─[0m──────[32m─[0;37m [0;1;30;47m  ░ ▐█▓[0;32m▐[0;30;47m░[0;1;30;47m▐[0;32;47m [0;1;30;47m░[0m [1;30;47m [0;32;47m░[0;30;47m░[0;32;47m [0;1;30;47m▌░[0m [1;30m─[0m─[32m─ [0;1;30;47m▌ [0;32;47m░[0;1;30;47m     [0;32;47m░[0;37;40m▀▀▀▀ [0;1;30;40m─[0m───────────────────────────────[32m─[0m
 [37m [0m    [32m [0;1;37m [0;32m  [0;32;47m░[0;1;30;47m  [0;32;47m·[0;1;30;47m █ [0;32m▐[0;32;47m▌[0;1;30;47m [0;32;47m▐·[0;37;40m [0;32;47m▄ ▌░·▌[0m    [32;40m [0;32;47m [0;1;30;47m    [0;32;47m░[0;30;47m [0;37;40m  [0;1;37;40m  [0m
    [32m  [0;1;37m  [0;32m  [0;32;47m▐[0;30;47m░[0;32;47m▐░[0;1;30;47m ▌ [0;32m▐[0;32;47m▒■▐▄[0;37;40m [0;32;40m▓[0;32;47m▐▌■█▌[0m    [32;40m [0;32;47m▐░·▐[0;1;30;47m  [0;32;47m▐[0;37;40m  [0;1;37;40m∙[0;1;33;40mM[0;32mn[0;1;30memonic Psychosis[0;32m [0m
-[37m [0m    [1;37m  [0;32m [0;37m [0;32;47m▐▌▓[0;1;30;47m  [0;32;47m·▌[0;32;40m▐[0;32;47m█▓█[0;32;40m▓[0;37;40m [0;32;40m▓[0;32;47m██▓█▓[0m    [32;40m [0;32;47m▐▌▐█■▐█[0;37;40m  [0;1;37;40m∙[0;1;33;40mS[0;32m''o[0;1;30mp: Lord of Illusion^PRiC^Prez[0m
+[37m [0m    [1;37m  [0;32m [0;37m [0;32;47m▐▌▓[0;1;30;47m  [0;32;47m ▌[0;32;40m▐[0;32;47m█▓█[0;32;40m▓[0;37;40m [0;32;40m▓[0;32;47m██▓█▓[0m    [32;40m [0;32;47m▐▌▐█■▐█[0;37;40m  [0;1;37;40m [0;1;33;40m [0;32m  [0;1;30m                             [0m
          [32;47m█▓█■█[0;1;30;47m [0;32;47m▒[0;32;40m▐▓██▓[0;37;40m [0;32;40m▒[0;32;47m▒███[0;32;40m▓[0m    [32;40m █[0;32;47m▒██▒█[0;32;40m▓[0;37;40m  [0;1;37;40m∙[0;1;33;40m5[0;32m1[0;1;30m9[0;32m [0;1;37m  [0m
          [32m▓████[0;32;47m▓[0;32;40m▓[0;37;40m [0;32;40m▀▀█▒[0;37;40m [0;32;40m▀████▓[0m    [32;40m ▓[0;32;47m█████[0;32;40m▓[0;37;40m  [0;1;37;40m∙[0;1;33;40mC[0;32mi[0;1;30mPHER WHQ[0;32m [0m
 [37m [0m        [1;30m [0;32m▀▀███▓[0;37m  [0;1;30m [0m [32m▐[0;1;30m [0m   [32m▀█▒[0m    [32m ▀█████▓[0m          [1;37m  [0m

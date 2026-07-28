@@ -5,7 +5,7 @@
 # Source SHA-256: 5afaa42aa40670cff10adfcc02a0ee148e62454703d01e2c5518d4f498b8c469
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-BS2.ANS by Silver Rat (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Blood Shot 2
 # SAUCE Author: Silver Rat
 # SAUCE Group: Union
@@ -26,7 +26,7 @@ Write-Host '
 [31m██[0m [31m▀[0m [1;30mthis[0m [1;30mwas[0;31m▒[0m  [31m▓[0m [31m [0m [31m ▀▀▀▀▀▓■█▄▓▒▀█[0;1;33;41m░[0;31m▒█▀█▄██▓▀▀▀▓▀▀▒[0m    [31m  ▓ ▒ ▓[0m [31m█[0m [31m  [0m    [31m███████[0m
 [31m██▀[0m  [1;30msupposed[0;31m▒[0;1;30mto[0;31m▒[0;1;30mbe  [0m [31m    ░[0m   [31m▀▀███▌▀[0m     [31m [0m [31m [0m [31m▒ [0m [31m░[0m  [31m [0m [31m  ▒░▒ ▒[0m [31m▒[0m [31m   [0m   [31m▐██████[0m
 [31m▐▓■[0m  [1;30mColossus[0;31m▒[0;1;30m..[0;31m░[0;1;30mbut his face[0m   [31m▐▓▀[0m    [31m░[0m      [31m░[0m         [31m▒[0m [31m░[0m   [31m░[0m [31m  [0m    [31m▐██████[0m
- [31m▓▀[0m  [1;30mdid not[0m [31m░[0;1;30mturn out very good[0m [31m▒[0;1;30mso[0m  [31m ▓▌[0m               [31m░[0m   [31m░[0m  [31m  [0m     [31m▐██████[0m
+ [31m▓▀[0m  [1;30m       [0m [31m░[0;1;30m                  [0m [31m▒[0;1;30m  [0m  [31m ▓▌[0m               [31m░[0m   [31m░[0m  [31m  [0m     [31m▐██████[0m
  [31m▒[0m  [1;30m i turned[0;31m░[0;1;30mhis hair into blood[0;31m░[0m    [31m▀█▌[0m   [31m       [0m            [31m  [0m      [31m███▓██[0m
  [31m░[0m   [1;30mand[0m [1;30mkilled the[0;31m░[0;1;30mface.. :)[0m  [31m░[0m    [31m▄██▀█ [0m                      [35m [0m     [31m███████[0m
                    [31m▒[0m     [31m░[0m   [31m ▄▓▀██▄[0;1;31;41m ░[0;31m▌[0m [31m▐▓▄[0m          [31m░[0m                [31m██▄█▀█▓[0m

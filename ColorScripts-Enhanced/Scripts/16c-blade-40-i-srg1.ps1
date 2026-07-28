@@ -5,7 +5,7 @@
 # Source SHA-256: 2aae9b2484a80ee179a2211c5b2046e47a29b78d895381587bba74edaf922bf5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: I!-SRG1.ANS by Internal Stalker (blade productions 97); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: SRG
 # SAUCE Author: Internal Stalker
 # SAUCE Group: blade productions 97
@@ -36,5 +36,5 @@ Write-Host '
 [35m█[0;1;31;45m███▄ [0m  [34m▄ [0m           [34m▀█▄[0m            [34m▐▌[0m                   [34m█[0;1;34;44m▓▓░[0;34m█▀█[0;1;34;44m▒▒ [0m       [35m█[0;1;31;45m████[0;35m█[0m
 [1;31;45m ████ [0m [34m▐▌[0m             [34m▐█▌[0m        [34m▄[0;37m  [0;34m▀[0m      [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;34;44m░░[0;34m██[0;37m [0;34m█[0;1;34;44m░░[0;34m█[0m       [35m▀▀▀▀▀▀[0m
 [35m█[0;1;31;45m████[0;35m█[0;37m  [0;34m▀[0m            [34m▄█▀[0m    [34m▄[0;37m  [0;34m▀[0m         [34m▄▀[0m              [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[35m█[0;1;31;45m█▓██[0;35m█[0m     [34m▀[0;37m [0;34m▄[0;37m  [0;34m▄[0;37m  [0;34m▀[0m       [34m▐▌[0m        [34m▄[0;37m [0;34m▀[0m      [37msurge thing that prolly wont[0;1;31;45m ▄▄▄▄[0;35m█[0m
+[35m█[0;1;31;45m█▓██[0;35m█[0m     [34m▀[0;37m [0;34m▄[0;37m  [0;34m▄[0;37m  [0;34m▀[0m       [34m▐▌[0m        [34m▄[0;37m [0;34m▀[0m      [37m                            [0;1;31;45m ▄▄▄▄[0;35m█[0m
 [35m█[0;1;31;45m█▓██[0;35m█[0m                      [34m▀[0;37m  [0;34m▄ ■ ▀[0m    [37mbe used[0m                           [35m█[0;1;31;45m████[0;35m█[0m'

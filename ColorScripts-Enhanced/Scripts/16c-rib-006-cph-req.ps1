@@ -5,7 +5,7 @@
 # Source SHA-256: 63f492515e145ba411c875c45876d91733e6cb389fb0b640bae526157573fd4b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-REQ.ANS by {YBERPUNCh (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: request
 # SAUCE Author: {YBERPUNCh
 # SAUCE Group: RiB
@@ -25,7 +25,7 @@ Write-Host '
 [1;34;40m▄[0;1;34;42m███▓[0;1;37;40m  [0;35m▀[0;1;37m   [0;32m▌[0;1;37m  [0;35m░[0;1;37m [0;1;34m▄[0;1;34;42m██▓█[0;1;37;40m         [0;35m▄[0;1;35m▄▄▄▄[0;35m▄[0;1;37m   [0;1;34m▀▀▀▀[0;1;34;42m████[0;1;34;40m▄[0;1;37;40m  [0;1;34;40m▀▀█▄[0;1;37;40m [0;1;34;40m▄▄[0;1;34;42m██▓[0;1;34;40m▀[0;1;37;40m [0;1;34;42m██▓▓[0;1;37;40m       [0;35m▄[0m
 [1;37m  [0;1;34m ▀▀▀[0;1;37m     [0;32m▌[0;1;37m       [0;1;34m▀▀▀▀██▄▄▄▄[0;1;37m  [0;35m▀▀[0;1;35;45m▀▀[0;1;35;40m▀[0;35m▓▓▀[0;1;37m   [0;1;34m▀▀▀▌[0;1;37m        [0;1;34m▀▀[0;1;37m       [0;1;34m▐▀▀▀▀▓▓▄▄▄▄[0m
 [1m      [0;32m▄▄[0;1;32;42m▀[0;32m█▀▀█▓▄▄▄[0;1;37m   [0;1;32m▄[0;32m▄[0;1;37m     [0;1;34m▀▀[0;1;37m                [0;1;34m▌[0;1;37m            [0;35m▀[0;1;35m▀[0;1;37m   [0;1;34m▀[0m
-[35m░░[0;1;37m    [0;32m▀▀▀██▄▄[0;1;37m [0;32m▀▀▌[0;1;37m   [0;32m▐[0;1;34;42m░[0;32m██▄▄ [0;1;37m  [0;1;32m▄[0;32m▄▄[0;1;37m  [0;35m■ ▄▄[0;1;37m  [0;32mSo , you wanna request something ?[0m
+[35m░░[0;1;37m    [0;32m▀▀▀██▄▄[0;1;37m [0;32m▀▀▌[0;1;37m   [0;32m▐[0;1;34;42m░[0;32m██▄▄ [0;1;37m  [0;1;32m▄[0;32m▄▄[0;1;37m  [0;35m■ ▄▄[0;1;37m  [0;32m                                  [0m
 [1;37m     [0;32m▐[0;1;34;42m▄[0;32m▄▄▄[0;1;37m  [0;32m▀▀▀█▄▄▄[0;1;37m [0;32m▐█[0;1;34;42m■▀[0;32m▌ ▀[0;35m░[0;1;37m  [0;32m█[0;1;34;42m▄░■[0;32m▄[0;1;37m  [0;35m▀[0;1;35;45m▀▄[0;35m▄[0m
 [1;37m   [0;35m▄[0;1;37m [0;1;34m█[0;1;34;42m▌■[0;32m▌[0;1;37m   [0;35m░░[0;1;37m [0;32m▐[0;1;34;42m░[0;1;34;40m▄[0;1;34;42m░[0;1;37;40m [0;1;34;42m■▀▌▓[0;1;37;40m   [0;35m░[0;1;37m  [0;1;34;42m▄▌▄▄[0;1;37;40m    [0;35m▐[0;1;35;45m██[0;35m▌[0m
 [1;37m [0;35m█[0;1;35m▄[0;35m▌[0;1;37m [0;1;34m▐[0;1;34;42m█▓▓[0;1;37;40m      [0;1;34;42m█▓▓[0;1;34;40m▌[0;1;37;40m [0;1;34;40m▐[0;1;34;42m██▓[0;1;37;40m     [0;1;34;40m▐[0;1;34;42m█▓▓[0;1;34;40m▌[0;1;37;40m   [0;35m▄[0;1;35;45m■▀[0;35m▀[0m

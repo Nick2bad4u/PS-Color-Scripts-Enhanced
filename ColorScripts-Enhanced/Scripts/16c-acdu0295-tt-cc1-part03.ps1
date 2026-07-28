@@ -5,7 +5,7 @@
 # Source SHA-256: c607995bc69f99258f13a259c02418162d3da258c7b7a5ed4954c3fe481aa436
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-CC1.ANS by Twisted Terrorist (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Cat's Cradle
 # SAUCE Author: Twisted Terrorist
 # SAUCE Group: ACiD Productions
@@ -30,7 +30,7 @@ Write-Host '
 [1;30;40m─ ──  ────tt▓▀ ────── ── ▀ ───── ────── ▄▀ ▄▀ ──────────  ─[0m      [1;30;40m─    ── ─── ──[0;1;30;45m▒[0m
     ▄ [31m▓▄ [0;37m■ ▄▄▄  ▀ ▓ ▄▄ ▀ ■ ▄  ▄▄ [0;31m▀[0;37m▄ ▓▄▄[0m                                        [1;30;45m░[0m
  [31m▄▀[0;37m▄▄[0;1;37;47m░[0m▄  ▄[1;47m░[0m [31m▄ [0;37m▀▄  ▒▀ ▀[0;1;37;47m░[0m▄ [31m▄[0;37m▀ ▄▀[0;31m· [0;37m▀▄ [0;1;37;47m░[0m▀  ▀■  ''[1m/┤CiD Productions 1995[0m''            [35m▀[0m
-[37m▄ [0;1;31;41m░[0m [1;37;47m░[0m▄▀█▄▀ [31m▀▓ [0;37m▀[0;31m▄▄[0;37m▀▄ ▀[0;31m▄ [0;37m▓▌[0;31m▓  [0;37m▀▄▄▓▀[0;1;37;47m▒[0m ▀▄▓▀▄ [31m▀ [0;37m''dis my last pic kids, I''m outta''   [0;35m▄[0m
+[37m▄ [0;1;31;41m░[0m [1;37;47m░[0m▄▀█▄▀ [31m▀▓ [0;37m▀[0;31m▄▄[0;37m▀▄ ▀[0;31m▄ [0;37m▓▌[0;31m▓  [0;37m▀▄▄▓▀[0;1;37;47m▒[0m ▀▄▓▀▄ [31m▀ [0;37m                                    [0;35m▄[0m
 [35m   [0;37m▐█   ▀▓▄ [0;31m░ ▀▓ [0;37m▐[0;1;37;47m░[0m [31m▀[0;1;31;41m░[0;31m▄[0;37m▐[0;1;37;47m░[0;31m▒▀ [0;37m▄   ▄[0;1;37;47m░[0m [31m▀▄▄ [0;1;37;47m░[0m▌[31m▄▓[0;37m                         [0m       [37m    [0;35m▐[0m
 [35m  [0;37m▀▓█▌[0;31m▀[0;1;31;41m░[0;31m▄ [0;37m▄▄  ▄ ▀[0;1;37;47m░▒[0m▌[31m▀ [0;37m▄[0;1;37;47m░▒[0;31m░ ▀▄[0;37m▀▓▀▀[0;31m▄ [0;37m▀▄▄▄▀ [0;31m▓▀ [0;37m▌██▐▐ ▐ ▌█▌▌▌ acid_seal-o-quality[0m
      [37m▀  [0;31m▀   [0;37m▀▀    ▀ ▀▀  [0;31m▄▓▀  ▄ ▀[0;1;31;41m░[0;31m▀ ▀▄▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 504ef587d3f83d33a296e2a069811625ddb6bab00125a5ab0041569dbf0951f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-3457.ANS by Aesthetic + Ansichrist (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -41,6 +41,6 @@ Write-Host '
 [32m▀▀  ░    ▀ ▒  [0;1;33;42m░░[0;32m▀    ░  ▀▀▓[0m       [32me   [0;1;32ma[0;32m    ▀[0;1;33m▀[0;32m▄▄  ▀[0;1;33m▀[0;1;33;42m▓▓[0;32m▄▄ ▀[0;1;33m▀[0;32m▀▀▓▓▓▒░░[0m     [32m▄▄[0;1;33;42m▒▒[0;32m▄[0m
            [32m░[0m              [32m░[0m              [1;32ms[0;32m    ▀[0;1;33m▓█▄▄[0;32m▄ ▀[0;1;33;42m░░[0;32m█▄▄▄[0m       [32m░   ▄▄▄▓▓▌[0m
                                            [1;32mt[0;32m   [0;1;33m░▀█[0;32m▄▀[0;1;33;42m▓▓[0;32m▄[0;1;33;42m▒▒[0;32m▀▀ ▀▀■■▄  ▓  ▄▄[0;1;33;42m▓▓▀[0;32m▀ ▄[0m
-[30;42m we gave avg the day off.[0;32;40m▓░[0m                  [1;33;40m9[0;32m    ▓█ █▀   _43[0m      [32m▀▀▀[0;1;33;42m░░[0;32m▀▀  ▓▓[0m
+[30;42m                         [0;32;40m▓░[0m                  [1;33;40m [0;32m    ▓█ █▀      [0m      [32m▀▀▀[0;1;33;42m░░[0;32m▀▀  ▓▓[0m
                                               [1;33m9[0;32m   ░▓   ns~[0m               [32m■■▀▀[0m
                                                    [32m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 56dc255e5f04d7ed91e7340e44304498590107c78222e670f5aea3b7bad89fca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-POEM1.ANS by tr4nsi3nt (l4z4rus); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: p03m-1
 # SAUCE Author: tr4nsi3nt
 # SAUCE Group: l4z4rus
@@ -28,7 +28,7 @@ Write-Host '
     █[36;47m░░▒[0;37;40m▐█[0;1;30;47m░░░[0;35;47m░[0;37;40m██[0;36;47m░▒[0;37;40m▀▀[0;35;40m▀[0;37;40m▐[0;1;30;47m░[0m█[1;30;47m░░▒▒[0m▐[35;47m░▒▓▓▓[0;35;40m█[0m [36;40m▐[0;1;36;40m█[0;1;36;46m░[0;36m█▌[0m  [32m▀▀▄[0m [1;32m [0;1;32;42m░[0m [32m▐▌[0m  [32m ▐▄[0m [32m▄▄▄[0m  [1;36mtomb of my magic[0;1;30m░[0m
      ▀[36;47m░░░░░[0;35;47m░░[0;37;40m███[0;1;30;47m░[0;36;47m░[0;37;40m▌  [0;1;30;47m░░[0m██[1;30;47m░░[0;35;47m░▒▓▓▓▓[0;35;40m█▌[0m [36;40m▀▀▀[0m  [32;40m▄▌▄▄[0;1;32;42m░[0;36;42m▒[0;32;40m▄[0;1;32;42m▒[0;36;42m░[0;32;40m█▄[0;1;30;42m▒[0;32m▀▀▀▀▀[0;1;32;42m░[0m    [1;36;40mi breathed the[0m
        ▀[36;47m░░░░░░[0;37;40m███[0;1;30;47m░[0;36;47m░[0;37;40m  [0;1;30;47m░▒░[0m██[35;47m░▒▓▓▓[0;35;40m██▀[0m     [32;40m▀▀[0m   [32;40m▀▀▀[0m [32;40m▀[0;1;30;42m░[0m      [1;30;40m░[0m   [1;30;40m░[0m  [1;36;40msmell of lost [0m
-   [33m░░░░[0m   [37m▀▀[0;36;47m░░░[0;1;30;47m░[0m▄▄▄▄   ▄▄▄[35;47m░▒▓[0;35;40m██▀[0m   [1;30;40mplant the seed[0;32m▀▌[0m     [1;30m▒[0m   [1;30m▒[0m  [1;36mmemories and[0m
+   [33m░░░░[0m   [37m▀▀[0;36;47m░░░[0;1;30;47m░[0m▄▄▄▄   ▄▄▄[35;47m░▒▓[0;35;40m██▀[0m   [1;30;40m              [0;32m▀▌[0m     [1;30m▒[0m   [1;30m▒[0m  [1;36m            [0m
 [33m░░░░░░░▒▒[0m     [37m▀▀▀[0;1;30;47m▒[0;36;47m░░[0;37;40m▌▄▐▀[0;35;47m░▒▓[0;35;40m██▀[0m      [1;30;40mgrow some ..[0m      [1;30;40m░▒▓█▌▄▓[0m  [1;36;40mlost youth, that[0;1;30;40m░[0m
 [33m▓▒▒▒▒▒▒▓▓▓[0;1;30;43m░▒▓[0;1;30;40m▄▄[0m    ▀▀[35;47m░▒▓[0;35;40m█▀▀[0m    [1;30;40m░░[0m          [1;30;40m■[0m            [1;30;40m▒[0m [1;30;40m██▓[0m  [1;36;40mseemed so beaut-[0;1;30;40m░[0m
 [33m███▓▓▓▓█[0;1;30;43m░▒▓[0;1;30;40m██████▄▄[0m                      [1;30;40m▄▀[0m             [1;30;40m░[0m [1;30;40m▐█▓[0m  [1;36;40miful. god, if it[0;1;30;40m░[0m

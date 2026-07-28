@@ -5,7 +5,7 @@
 # Source SHA-256: 5682dfa2ff0ef7d659f327257dcfe571651ac647cd81fed7b0d8a3511f7007b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LST-DL1.ANS by soul trader (dox_09); released in dox_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: demoniclands/dragonslair
 # SAUCE Author: soul trader
 # SAUCE Date: 19970505
@@ -28,4 +28,4 @@ Write-Host '
    [1;30m█[0;1;33m ███████████[0;1;33;43m▄[0;1;33;40m▄▄▄▄▄▄▄▄▄▄███████████[0;33m█[0;1;33m ███████████[0;33m█[0;1;33m [0;1;30m▓[0;1;33m  [0m      [1;33m███████████[0;33m█[0m
    [1;30m▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m ████[0;1;33m███████[0;33m█[0;1;33m [0;1;30m█▄[0;1;33m  [0;1;30m▄[0;1;33m [0;1;30m▄[0;1;33m  ██████████[0;33m█[0;1;33m [0m
                                       [1;30m▓[0;1;33m ███████████[0;1;33;43m▄[0;1;33;40m▄▄▄▄▄▄▄▄▄▄███████████[0;33m█[0m
-   [1;30mdragons lair or demonic lands.[0m     [1;30m▄[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄▄▄▄▄[0m     [1;30m▄[0m'
+   [1;30m                              [0m     [1;30m▄[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄▄▄▄▄[0m     [1;30m▄[0m'

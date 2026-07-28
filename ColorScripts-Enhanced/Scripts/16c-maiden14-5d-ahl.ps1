@@ -5,7 +5,7 @@
 # Source SHA-256: 124d6c503b214192e20ca9f69fafed50af3844e2175ad0c230f7858453edb6bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5D-AHL.ANS by 5layer dreams (maid ey maid ey!); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: alien hideout logoff!@
 # SAUCE Author: 5layer dreams
 # SAUCE Group: maid ey maid ey!
@@ -35,7 +35,7 @@ Write-Host '
 [37m [0;1;30m [0m▄[1;30;47m▄[0;1;30;41m▓▓▓░[0;31m▄▄[0;37m  [0;36m████▐███▀▀▌[0;37m [0m    [36m███▀[0;1;36m▐▀▀▀[0;36m   [0;1;36m▐▀▀▀[0;1;37m▀[0;1;36m▄[0;36m [0;1;36m▀█ [0m     [1;36m▀[0;36m▀▀▀[0;1;36m▀[0;36m▀ ███████▌[0m    [31m▐[0;1;30m  [0m
  ▐▌[1;30m  [0;1;30;41m░░[0;31m██▌[0;37m [0;36m▐████▐██▌  ▌[0m      [36m██ [0;1;36m▐[0;36m   [0;1;36m█▄[0;36m [0;1;36m▐[0;36m    [0;1;36m▐▌[0;36m [0;1;36m▐[0m             [36m█  █████[0m   [1;31;41m▀[0;31m█[0;1;31m▄[0;31m▄[0m
 [37m [0;1;30m [0m▀[1;31;47m▒[0;31m█[0;1;31;41m░░[0;31m██▌[0;37m [0;36m▀▀▀▀[0;36;41m▓[0;36;40m▐██▌  ▌[0m       [30;46m░░[0;1;36;40m▀▀▀ [0;36m   [0;1;36m▀▀▀▀▀▀[0;36m ▄[0m              [36m████▀▀▀▀▀[0;37m  [0;1;31;41m░[0;31m█[0;30;41m░[0;31;40m▓[0;30;41m▓▓▓[0m
-    [1;31;40m▀[0;1;31;41m▄[0;31m█▄[0;1;31;41m [0;31m▌[0m     [31m▐[0m      [36m▌[0m       [30;46m▓▓[0;37;40m [0;1;37;40minfo info info info info in[0m       [31m▄[0;1;31m▄[0m     [30;41m▓▓[0m
+    [1;31;40m▀[0;1;31;41m▄[0;31m█▄[0;1;31;41m [0;31m▌[0m     [31m▐[0m      [36m▌[0m       [30;46m▓▓[0;37;40m [0;1;37;40m                           [0m       [31m▄[0;1;31m▄[0m     [30;41m▓▓[0m
      [1;31;40m▐[0;31m▀[0;30;41m░[0;31;40m▓▀▀▀▀▀▀▀▀▀▀▀█▀[0;36;41m░[0;1;37;41m░░[0;1;37;40m██[0;1;37;41m▌[0;30;41m░[0;31;40m▓[0;30;41m▓▓[0;37;40m [0;1;37;40mfo info info info info info[0m [1;30m░ ░░▓[0;1;30;41m▓░[0;31m▐▄[0m
-     [1;31m▀[0;1;30m [0;30;41m▓▓[0m             [31;40m█▀▀▀▀▐[0;30;41m░[0;31;40m▓[0;30;41m▓▓[0;37;40m [0;1;37;40minfo info info info info in[0m [1;30m      [0;31m▐[0;1;30m  [0m
+     [1;31m▀[0;1;30m [0;30;41m▓▓[0m             [31;40m█▀▀▀▀▐[0;30;41m░[0;31;40m▓[0;30;41m▓▓[0;37;40m [0;1;37;40m                           [0m [1;30m      [0;31m▐[0;1;30m  [0m
 [1;30m--(cut)----------------------------------->8--[0m'

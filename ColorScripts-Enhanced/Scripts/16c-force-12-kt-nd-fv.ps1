@@ -5,7 +5,7 @@
 # Source SHA-256: 4b22c412dd91fc425f39efce2c0b6a1a636527abaa504fc5a00d48a2f3dcbccd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KT&ND-FV.ANS by Kurrupt + Noodles (fORCE); released in force-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: forceview
 # SAUCE Author: kURRUPt w/ noOdles
 # SAUCE Group: fORCE
@@ -32,4 +32,4 @@ Write-Host '
 [37m  [0;31m        [0;32m▄[0;31m [0;32m▄▄[0;1;32;42m▄▓█[0;1;32;40m█████[0;1;32;42m█▓▀[0;32m▀ [0;37m  [0;31m▄█[0;1;31;41m▀[0;1;31;47m▄[0;1;31;41m▀[0;31m█▄[0;1;35m [0;1;32m [0;1;36m [0;36m█[0;1;36;46m▐[0;1;36;40m██[0;1;36;46m██[0;1;36;40m██[0;1;36;46m█[0;36m█[0;1;36m  [0;31m▀▀█[0;1;31;41m▀[0;31m▀▀▀[0;1;36m [0;36m▐[0;1;36;46m▐[0;1;36;40m██████[0;1;36;46m▌[0;36m▌[0;1;35m [0;35m░░░░░░░[0;37m  [0;1;36m [0m
   [31m         [0;32m [0m   [32m▀▀[0;1;32m▀▀▀▀[0;32m▀▀   [0;37m [0;31m▀[0;1;31m [0;1;35m [0m [31m▀█▀[0;1;31m  [0;31m▀[0;37m [0;36m▐█[0;1;36;46m▓█[0;1;36;40m████[0;1;36;46m█▌[0;36m▓[0;1;36m  [0m [33m░[0;30;43m▓[0;31;40m▀[0;37;40m [0;1;36;40m  [0;36m▄█[0;1;36;46m▓[0;1;36;40m███[0;1;36;46m▓▀▀[0;36m▀[0;1;36m [0m
             [1mf[0morce[1mv[0miew...[1;30m [0;35m [0;1;31m   [0m  [1;31m [0;31m▐[0;1;31m [0;1;35m  [0m  [1;30m [0;36m█[0;1;36;46m ▀▓███[0;1;36;40m█[0;1;36;46m▓▄ [0;36m▄▄▄▄▄▄██[0;1;36;46m ▀▀▀[0;36m▀▀▀[0;1;36m [0m
-        [1;30mthe sexiest viewer[0m [1;30mto[0m   [33m░[0;30;43m▓[0;37;40m  [0;1;30;40m  [0m  [36m▀▀[0;1;36;46m  ░▀▀▀▀▀▀[0;36m█▀▀▀▀▀[0m      [1;30mkt[0m'
+        [1;30m                  [0m [1;30m  [0m   [33m░[0;30;43m▓[0;37;40m  [0;1;30;40m  [0m  [36m▀▀[0;1;36;46m  ░▀▀▀▀▀▀[0;36m█▀▀▀▀▀[0m      [1;30m  [0m'

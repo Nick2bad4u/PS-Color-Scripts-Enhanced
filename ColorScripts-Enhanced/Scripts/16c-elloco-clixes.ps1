@@ -5,7 +5,7 @@
 # Source SHA-256: d0bf9fc2bfc4bb104968a149dc2c510b850131d374eed4225c0e41d09cd45bb2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CLIXES.ANS by El LoCo (NeveRLanD People); released in elloco and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: CLiXES BBS
 # SAUCE Author: El LoCo
 # SAUCE Group: NeveRLanD People
@@ -32,4 +32,4 @@ Write-Host '
 [1;32m [0;32m▐[0;1;32;42m░▒▓[0;1;32;40m█[0m         ▄   [32m█[0;1;32;42m░▒▓█▓[0;1;32;40m██▀[0m    [1;32;42m▓█▓▒░[0;32m [0;37m [0;32m █ [0;37m  [0;1;32;42m▒▓▒░░[0;32m▌[0m   [31m▄▄[0;1;33;41m SysOp:El RUBiO[0;1;31;41m░▒▓[0;1;31;40m▌[0m
 [1;32m  [0;32m█[0;1;32;42m░▒▓[0;1;32;40m█▄[0m      [1;32;47m▒░ [0m▄[1;32m  [0;32m█[0;1;32;42m░▒▓▓[0;1;32;40m▀[0m      [32m▐[0;1;32;42m▓▒░[0;32m▌[0;37m [0;32m  █[0m    [32m▀▀▀▀[0m       [31m▀▀▀▀█████████[0;1;31;41m░▒▓█[0m
    [32m▀[0;1;32;42m░▒▓█[0;1;32;40m█▄▄▄▄[0;1;32;47m▓▒▒░ [0m   [32m▀▀▀[0m         [32m▀▀[0m     [32m▐[0m                       [31m▀▀▀▀▀▀▀[0;32m [0m
-     [32m▀▀[0;1;32;42m▓▓▓▓[0;1;32;40m██[0;1;32;47m█▓▒[0m▀                       [32m▐ [0m        [1;30mA[0mn[1msi [0mB[1;30my[0m [1;30mE[0ml[1m Lo[0mC[1;30mo[0;1;37m [[0;1;30mN[0mL[1mA[0mN[1;30mD[0;1;37m][0m'
+     [32m▀▀[0;1;32;42m▓▓▓▓[0;1;32;40m██[0;1;32;47m█▓▒[0m▀                       [32m▐ [0m        [1;30m [0m [1m   [0m [1;30m [0m [1;30m [0m [1m   [0m [1;30m [0;1;37m  [0;1;30m [0m [1m [0m [1;30m [0;1;37m [0m'

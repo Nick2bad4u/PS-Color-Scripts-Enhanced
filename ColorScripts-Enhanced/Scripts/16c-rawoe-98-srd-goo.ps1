@@ -5,7 +5,7 @@
 # Source SHA-256: f065088dac8b12a38e5054c1a7625254011cd056a36a205dba2f2220f1afac1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SRD-GOO.ANS by sordid (woe); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: gOO!!
 # SAUCE Author: sordid
 # SAUCE Group: woe
@@ -36,5 +36,5 @@ Write-Host '
      [34m [0m          [34m▀▀[0;37m  [0;1;31m▀▀▀▀▀[0m  [34m▀▀[0m            [34m [0;37m [0;32m  [0;1;33m▐█[0m [31m█[0;1;31m█████[0;31m█[0;37m  [0;31m▀[0;1;31;41m▀[0;1;31;40m████[0;31m█[0m
     [34m [0m                                         [1;33m█▄[0m [31m█[0;1;31m█████[0;1;31;41m▄▄▄[0;1;31;40m███[0;1;31;41m▀[0;31m▀[0m
      [1;30m                                     [0m   [1;33m███▄[0m [31m▀▀[0;1;31;41m▀▀▀▀▀▀▀▀[0;31m▀[0;37m [0;1;33m▄[0m
-     [1;30mmean..?!.. dunno..  I don''t think I''ll[0m  [1;33m ▀▀███▄▄▄▄▄▄▄▄▄▄███[0m [1;33msrd[0m[[1;33mw0E[0m]
+     [1;30m                                      [0m  [1;33m ▀▀███▄▄▄▄▄▄▄▄▄▄███[0m [1;33m   [0m [1;33m   [0m 
      [1;30m                                [0m                [1;33m   ▀▀▀▀▀▀▀[0m'

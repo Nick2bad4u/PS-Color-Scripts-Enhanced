@@ -5,7 +5,7 @@
 # Source SHA-256: c0a691df2bcd06bc699cb1c7c5b504a87ebdec8ad3fd3d8ab8d627ad0fda507c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sph_del.ans by sephiroth (gen-05); released in gen-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: delirium bbs
 # SAUCE Author: sephiroth
 # SAUCE Group: ..
@@ -51,7 +51,7 @@ Write-Host '
        [34m▄█[0;1;34;44m▄▀▀[0;34m▀[0;30;44m░[0;1;34;44m░▀[0;34m▀[0;1;34;44m▀▀[0;1;34;47m▓[0;1;34;44m▄[0;34m▄▄[0;37m [0;31m+o[0;34m [0;31m3dfx![0;37m  [0;34m▌▄ █[0;1;34;44m▄[0;34m▄[0;1;34;44m▄▀[0;34m▀▀[0;37m      [0;34m█[0;1;34;44m▄[0;34m▄█ ▄[0m
        [34m▄ ▀  █[0;30;44m▒[0;1;34;44m░[0;34m▌   ▀[0;1;34;44m▀▄[0;34m▄▄▄[0m         [34m█[0;1;34;44m▄[0;34m▌█▀▀[0;1;34;44m▀[0;1;34;47m▓[0;34m█[0;1;34;44m▀[0;34m▌▄[0;37m [0;34m▄ [0;37m  [0;34m▀[0;1;34;44m▀[0;1;34;47m▓[0;1;34;44m▄[0m
        [34m   ▄ █[0;30;44m▓[0;34;40m█[0m      [34;40m▀[0;1;34;44m▀█▀▄[0;34m▄[0m      [34m▐[0;1;34;44m▄[0;1;34;47m▓[0;34m█▌[0m              [34m▄[0;1;34;44m▄▀[0;34m▀[0m          [34mLive in vain[0m
-[34mansi by  [0m   [34m█ [0;1;34;44m▒[0;34m▌[0m       [34m▀▄[0;1;34;44m▄▌[0;34m ▄ [0m   [34m█[0;1;34;44m█▀█▀▓░[0m         [34m▄[0;37m [0;34m▐[0;1;34;47m▀▓[0;34m▀[0m        [34m   Die in pain. [0m
+[34m         [0m   [34m█ [0;1;34;44m▒[0;34m▌[0m       [34m▀▄[0;1;34;44m▄▌[0;34m ▄ [0m   [34m█[0;1;34;44m█▀█▀▓░[0m         [34m▄[0;37m [0;34m▐[0;1;34;47m▀▓[0;34m▀[0m        [34m                [0m
 [34msephiroth▀ ▄▄[0;30;44m▓[0;1;34;44m░[0;34m▀▄ ▄  [0;30;44m▓▓[0;34;40m  ▀[0;1;34;44m▀[0;34m▌[0;1;34;44m▐▄[0;34m▄[0;37m [0;34m▀▄[0;1;34;44m▄[0;1;34;47m▓[0;34m█[0m       [34m  █[0;1;34;44m▄▄[0;34m▌[0;37m  [0;1;34;44m▐▀▄[0;34m▌[0m      [34m▀[0;1;34;44m▀[0;34m█[0;1;34;44m▄[0;34m▄▄[0m
 [34m(sadist)[0m    [34m█[0;30;44m▒[0;34;40m█▀       [0m    [34;40m█[0;1;34;47m▓▓[0;1;34;44m█[0;34m▌[0;37m [0;34m▐[0;1;34;47m▓▄▓[0;1;34;44m▌[0m [30;44m▓▓[0m   [34;40m  █[0;1;34;47m▓[0;1;34;44m▀[0;34m▌[0;37m  [0;34m▐▄[0;1;34;44m▐▌[0m [30;44m▓▓[0m     [34;40m▄[0;1;34;44m▄[0;1;34;47m▓[0;34m▄ ▀[0m
 [37m  [0;32m▀[0m   [30;42m▓▓[0m    [1;34;44m░[0;30;44m░[0;34;40m█▌▄▄▄ ▄▄[0;1;34;44m▄[0;34m▄▄▄▀[0;1;34;44m▀[0;1;34;47m▓▄▓[0;1;34;44m▌[0m  [34m█▀[0;1;34;44m▀▄[0;34m▄▄[0;37m  [0;30;42m▓▓[0;37;40m [0;34;40m▐[0;1;34;44m▐▄[0;34m▄[0m   [1;34;44m▐▀[0;34m▀▄[0;37m [0;34m▄▄▄▌█[0;1;34;44m▄▄▀▀[0;34m▀[0m   [32m▄[0;37m  [0;32m▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b1606fd7c9a563047916ab5e8567bfe8bddea2bfbbdcba8b256a807b4be48920
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 1998 - 13 - Joint - 33-guttr.ans by Eerie + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 32-61
 # Columns: 1-80
 
@@ -38,5 +38,5 @@ Write-Host '
 [33m▄▄▄▄▄▄[0;30;41m▀[0;37;40m    [0;33;41m█[0;33;43m [0;37;43m░░░[0;33;40m░  ▀▀▀▀▀▀[0;1;30;40m▀▀▀    [0;33;41m▓[0;33;40m█[0;37;43m░[0;33;40m██[0;33;41m▓[0;33;40m▌  ▐█[0;37;43m░░[0;33;41m▓▓[0;33;40m▌ ██[0;1;30;43m░░░░▄▄▄▄[0;33m▓[0m
 [33m█[0;37;43m░░░[0;33;40m█████[0;33;41m▄[0;33;40m▄▄██[0;33;43m  [0;33;40m▓[0m               [1;30;43m░░░░[0;33m██▌   █[0;1;30;43m░░░ [0;33m▌  [0;1;30m▀▀▀▀▀▀▀▀▀[0m░
 [43m [0;33;40m██[0;33;43m     [0;33;40m▌[0m         [1;37;40m              [0;1;30;40m▀[0;1;30;43m▓▓▓▓██▄[0;1;30;40m▄[0;33m▄[0;1;30;43m▄▓▓▓▓[0;1;30;40m▌ [0;31m                      [0;1;31m       [0;31m [0m
-[31;43m [0;1;30;43m░░░░░░░░[0;33m▄  [0;1;30m██[0m░░[1;30m░[0m                  [1;30m▀▀▀▀▓▓██████░ [0;31mfont shaded by fever (lgn too)[0m
+[31;43m [0;1;30;43m░░░░░░░░[0;33m▄  [0;1;30m██[0m░░[1;30m░[0m                  [1;30m▀▀▀▀▓▓██████░ [0;31m                              [0m
 [31m [0;33m▀[0;1;30m▀▀▀▀[0;1;30;43m▓▓▓████[0;1;30;40m██[0;1;30;43m█[0;1;30;40m▓[0m'

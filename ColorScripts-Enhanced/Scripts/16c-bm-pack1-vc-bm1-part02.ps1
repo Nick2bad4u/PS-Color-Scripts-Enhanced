@@ -5,7 +5,7 @@
 # Source SHA-256: 380f32c950685ccbc23a12508a1b45e3b9e7375c8c960a7d4bd8a4e3f8b907ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC-BM1.ANS by Voice (bm-pack1); released in bm-pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -20,7 +20,7 @@ Write-Host '
 [1;30;47m                      ░▒[0;1;30;40m░ ░[0m░░█  ▐[1;30;47m░[0m█   [1;30m░  ░   [0m█[1;30;47m░[0m▌ ▓░░[1;30m░ ░[0;1;30;47m▒░                       [0m
 [1;30;47m                       ░▒[0;1;30;40m░ [0m░█     ▀          ▀   [47m [0;40m▓░ [0;1;30;40m░[0;1;30;47m▒░                        [0m
 [1;30;47m    "He who calls      ░▒[0;1;30;40m░ ░▒[0m▓                   ▓[1;30m▒░ ░[0;1;30;47m▒░      "Foretell         [0m
-[1;30;47m      the moon          ░▒[0;1;30;40m░ ░▒[0m▒  [1;30m░[0m           [1;30m░  [0m▒[1;30m▒░ ░[0;1;30;47m▒░     not the shadows,    [0m
+[1;30;47m                        ░▒[0;1;30;40m░ ░▒[0m▒  [1;30m░[0m           [1;30m░  [0m▒[1;30m▒░ ░[0;1;30;47m▒░                         [0m
 [1;30;47m     at night, has       ░▒[0;1;30;40m░ ▒[0m▒  [1;30m▒░   ░ ░   ░▒  [0m▒[1;30m▒ ░[0;1;30;47m▒░        for the           [0m
 [1;30;47m         lost            ░▒[0;1;30;40m░ ░▒[0m▒ [1;30m▓▒░[0m▄▓▓▓▓▓▄[1;30m░▒▓ [0m▒[1;30m▒░ ░[0;1;30;47m▒░       shadows shall      [0m
 [1;30;47m      his mortal          ░▒[0;1;30;40m░ ░▒[0;1;30;47m▄▄▄▄[0;1;30;40m▒▓▒▓▒▓▒[0;1;30;47m▄▄▄▄[0;1;30;40m▒░ ░[0;1;30;47m▒░          fall upon        [0m

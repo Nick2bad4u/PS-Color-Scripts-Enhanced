@@ -5,7 +5,7 @@
 # Source SHA-256: d21dc82bacc070285b23a9e1afce62a1cb208043a8e6c3103506d4e3f29e1ddd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BA-IR.ANS by Black Aksion (max1093); released in max1093 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -15,7 +15,7 @@ Write-Host '
 ██[1m■ M[0;1;47m [0;30;47m╔══──────────────┐ [0;1;37;40m·■ Ma [0;1;30;40m■▀▀▀▀▀▀▀▀▀▀▀▀■  [0;1;37;40maX ·■ [0;1;37;47m [0;30;47m╔══──────────────┐ [0;1;37;40m■·■ [0;1;30;47m██[0m
 ██[1m·■ [0;1;47m │ [0;34;47mBLACK AKSION   [0;30;47m│ [0;1;37;40m■· [0;33m▄[0;1;33m░▒▒▓██████████▓▒▒░[0;33m▄ [0;1;37mX ·■[0;1;37;47m │ [0;34;47m(c)1993 B.A.   [0;30;47m│ [0m [1;37;40m■·■[0;1;30;47m▀▄[0m
 ██ [1m·■[0;1;47m │ [0;34;47mof mAx         [0;30;47m│ [0m [1;37;40m■·■ [0;33m▀█████████████[0;33;43m [0;33;40m▀  [0;37;40mMaX ·[0;37;47m [0;1;37;47m│ [0;34;47mNo part of this[0;30;47m│ [0;37;40mX ■·[0;1;30;47m▄[0m█
-██X ·[47m [0;1;47m│ [0;34;47mfor            [0;30;47m│ [0;37;40mX ■·■ [0;33;40m█[0;33;43m [0;30;43m▄▀▀▀▀▀▀▀▀▀▀ [0m [37;40m·■ MaX [0;37;47m [0;1;37;47m│ [0;34;47mANSI may be    [0;30;47m│ [0;37;40maX ■[0;1;30;47m■▀[0m
+██   [47m [0;1;47m│ [0;34;47m               [0;30;47m│ [0;37;40m  ■ ■ [0;33;40m█[0;33;43m [0;30;43m▄▀▀▀▀▀▀▀▀▀▀ [0m [37;40m ■     [0;37;47m [0;1;37;47m│ [0;34;47m               [0;30;47m│ [0;37;40m   ■[0;1;30;47m■▀[0m
 █[1;30;47m·[0maX [47m·[0;1;47m│ [0;34;47mINFINITE [0;37;47maX ■·■[0;30;47m│[0;37;47mM[0;37;40maX ■· [0;33;40m█[0;30;43m▀ ▄▄▄▄▄▄▄▄▄▄ [0m  [37;40m·■ MaX[0;37;47m·[0;1;37;47m│ [0;34;47m"ripped" or [0;37;47m■·■[0;30;47m│[0;37;47mM[0;37;40mMaX [0;37;47m [0;1;30;47m■[0m
 [1;30;47m·[0m█MaX[47m [0;1;47m│[0;47m■[0;34;47mRAGNAROK BBS [0;37;47m■·[0;30;47m│ [0;37;40mMaX ■·[0;33;40m▐[0;30;43m▄▀ [0;33;40m█████████▌ [0;37;40mX ·■ Ma[0;37;47m [0;1;37;47m│[0;47m■[0;34;47maltered in any[0;37;47m·[0;30;47m│ [0m [37;40mMaX[0;1;30;47m·[0m█
 █[1;30;47m▀[0m Ma[47mX[0;1;47m│[0;47m·[0;34;47m[9i6] [0;37;47m■·■ MaX ■[0;30;47m│[0;37;47m■[0m [37;40mMaX ■ [0;33;40m█[0;33;43m [0;30;43m▄▀▀▀▀▀▀▀▀[0;33;40m█ [0;37;40mMaX ·■ M[0;37;47mX[0;1;37;47m│[0;47m·[0;34;47mform. [0;37;47m■·■ MaX ■[0;30;47m│[0;37;47m■[0;37;40m■ M [0;37;47m [0;1;30;47m·[0m

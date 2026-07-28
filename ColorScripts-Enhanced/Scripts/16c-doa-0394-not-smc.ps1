@@ -5,7 +5,7 @@
 # Source SHA-256: b995f846860764fb635e3e91dd54456b1ae496997c34f673482497ca720961a6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOT-SMC.ANS by Anubis-Doa (doa-0394); released in doa-0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -48,7 +48,7 @@ Write-Host '
                             [1;31;44m▓▒░[0;1;34;47m▓▒[0;1;34;44m [0m [1;33;44m▓[0;1;31;44m▓▒░[0;1;34;40m▒░░[0m      [1;34;40m▓░░[0m
 [1;34;40m [0;1;36;40m[[0;1;34;40m5[0;34m0[0;1;30m3] [0;1;36mN[0;1;34mU[0;34mC[0;1;30m-LEAR[0m              [1;31;44m▓▒░[0;1;34;47m▓▒[0;1;34;44m [0;1;33;44m▓[0;1;31;44m▓▒░[0;1;34;40m▓▒░░    ▓▒░[0m     [32mS[0;1;32mM[0;1;37mC [0;1;30mWorld HQ[0m
                              [1;31;44m▓▒░[0;35;47m▓[0;1;34;47m▓[0;1;34;44m [0;1;31;44m▓▒░[0;1;34;40m▓▒▒▒░░░  ▓░[0m
-[1;34;40m H[0;34m/[0;1;34mP[0;34m/[0;1;34mT[0;34m/[0;1;34mB[0;34m/[0;1;34mCell[0m                  [1;31;44m▒░[0;1;34;47m▓▒[0;1;31;44m▓▒░[0;1;34;40m▓▒▒▒░   ▓▒    [0;32mP[0;1;32mH[0;1;37maTE [0;1;30mGlobal HeadQuarters[0m
+[1;34;40m  [0;34m [0;1;34m [0;34m [0;1;34m [0;34m [0;1;34m [0;34m [0;1;34m    [0m                  [1;31;44m▒░[0;1;34;47m▓▒[0;1;31;44m▓▒░[0;1;34;40m▓▒▒▒░   ▓▒    [0;32m [0;1;32m [0;1;37m    [0;1;30m                   [0m
                                 [1;31;44m▓▒░[0;1;33;44m▓[0;1;31;44m▓▒░[0;1;34;40m▓▒░   ▓▒░[0m
 [1;34;40m [0;1;30;40m        [0;31m [0;35m [0;1;35m  [0;35m [0;31m [0;35m  [0;1;35m [0;35m [0;31m [0;1;30m             [0;1;31;44m▓▒░[0;1;33;44m▓[0;1;31;44m▓▒░░[0;1;34;40m▒▒░░▓▒[0m       [32m [0;1;32m [0;1;37m   [0;1;30m [0;32m [0;1;32m [0;1;37m  [0;1;30m           [0m
                                    [1;31;44m▓▒░[0m [1;34;40m▓░░░░[0m

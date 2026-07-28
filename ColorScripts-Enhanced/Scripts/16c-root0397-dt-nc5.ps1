@@ -5,7 +5,7 @@
 # Source SHA-256: b8263b762f58b86bc8f7a1860805eebbed81e956dc2a3b2f8be6563a3b937e5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-NC5.ANS by Defiant (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: No Control
 # SAUCE Author: Defiant
 # Lines: 1-23
@@ -33,5 +33,5 @@ Write-Host '
 [32m░██  [0;1;36;46m░[0m  [1;32;42m▒[0;32m████[0;32;42m [0;1;32;42m▄[0;32m█▀░  [0;30;46m███[0m  [35;40m▄[0;1;35;45m░▓[0;1;35;40m█▀[0m                                      [35m■  ▄[0m
 [32m▓██▐ [0;36m█░ [0;1;32;42m▓▓░[0;32m▌███▌ [0;36m▄[0;30;46m▓█[0;36;40m■[0;30;46m█[0m  [35;40m▀▀[0;1;35;40m▀▀[0m         [1;30;40m                     [0m               [35m▀▄▄ ▄█[0m
 [32m████ [0;36m█▓ [0;1;32;42m█▀[0;32m▀ ░█[0;30;42m░[0;32;40m█ [0;36;40m▀[0;36;46m [0;36;40m█[0;30;46m▓█[0;32;40m▐[0;1;32;42m▄[0;32m█▀▀ ▀[0m                                              [1;35;45m░▄█░[0m
-[32m▀▀██ [0;36m▐█  ▄▄▌▄ [0;32m▀██▄▄  ▄██▌ [0;1;35;45m░[0;1;35;40m█▐[0m      [1;30;40mfor infusium to use only! ... .[0m         [35m▐[0;1;35;45m░▓░[0m
+[32m▀▀██ [0;36m▐█  ▄▄▌▄ [0;32m▀██▄▄  ▄██▌ [0;1;35;45m░[0;1;35;40m█▐[0m      [1;30;40m                               [0m         [35m▐[0;1;35;45m░▓░[0m
 [36m▄  [0;32m▀▌ [0;36m██[0;1;36;46m▄▄█▄  [0;36m▄ [0;32m▀▀████▀▀ [0;35m▐▀[0;1;35;45m░▀[0;35m▄ ▄[0m                                      [35m▄  ▄▄█[0;1;35;45m░[0;35m█▀[0m'

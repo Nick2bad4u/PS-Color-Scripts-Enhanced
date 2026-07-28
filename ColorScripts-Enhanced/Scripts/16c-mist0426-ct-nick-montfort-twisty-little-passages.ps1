@@ -5,7 +5,7 @@
 # Source SHA-256: 2da8857d9f440d4e38569ffcc3a15de61726150544f21dba49e580db51c8b4a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-NICK_MONTFORT-TWISTY_LITTLE_PASSAGES.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Twisty Little Passages
 # SAUCE Author: Cthulu
 # SAUCE Group: Mistigris
@@ -40,7 +40,7 @@ Write-Host '
 [37;40m      [0;33;40m▓▄▄▄▄▄▄[0;37;40m  [0;32;40m█[0;37;40m  [0;32;40m▄▄▄▄▄▄▄▄▄█[0;37;40m  [0;32;40m▄▄▄█[0;37;40m [0;33;40m█[0;37;40m  [0;33;40m▄▀▀▀▄■▄▄▀▄▄▀▄▀▀▀▄▀▄▄▀[0;37;40m [0;33;40m█▄▄[0;37;40m [0;33;40m■▄▄▀[0;37;40m [0;32;40m▄▄▄▓[0m
 [37;40m      [0;33;40m█[0;37;40m     [0;33;40m█[0;37;40m  [0;32;40m█[0;37;40m  [0;32;40m█[0;37;40m           [0;32;40m█[0;37;40m                                      [0;32;40m█[0;37;40m  [0;32;40m█[0m
 [37;40m      [0;33;40m▀▀▀█[0;37;40m  [0;33;40m▀[0;37;40m  [0;32;40m▀▀▀▀[0;37;40m  [0;33;40m▀▀▀▀▀▀▀[0;1;33;40m  [0;32m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m  [0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m  [0;32m█▀▀▓▀▀▀▀▀▀[0;37m  [0;32m█[0m
-[37m      [0;34m▄[0;37m  [0;33m█▄▄[0;32m▄[0;33m▄▄▄▄▄▄[0;34m [0;1;37mAN  APPROACH  TO  INTERACTIVE  FICTION[0m  [32m█[0;37m  [0;32m█[0;37m  [0;34m▄▄▄▄[0;37m  [0;32m█[0m
+[37m      [0;34m▄[0;37m  [0;33m█▄▄[0;32m▄[0;33m▄▄▄▄▄▄[0;34m [0;1;37m                                      [0m  [32m█[0;37m  [0;32m█[0;37m  [0;34m▄▄▄▄[0;37m  [0;32m█[0m
 [37m      [0;34m█[0;37m     [0;32m█[0;37m                                                  [0;32m█[0;37m  [0;34m█[0;37m  [0;34m█[0;37m  [0;32m█[0m
 [37m      [0;34m▓▀▀█[0;37m  [0;32m█[0;37m  [0;32m█▀▀█[0;37m  [0;32m█▀▀▀[0;37m  [0;33m█[0;37m  [0;32m█▀▀▀▀▀▀▀▀▓▀▀▀[0;37m  [0;33m▀▀▀▓▀▀▀[0;37m  [0;32m█▀▀█[0;37m  [0;34m▀▀▀[0;32m▀[0;34m▀▀▀[0;1;37m  [0;34m█[0;37m  [0;32m█[0m
 [37m      [0;34m█[0;37m  [0;34m█[0;37m  [0;32m█▄▄█[0;37m  [0;32m█▄▄█[0;37m  [0;33m▄▄▄█[0;37m  [0;32m█[0;37m  [0;34m▄▄▄▄[0;37m  [0;32m█[0;37m  [0;32m▄▄▄▄▄▄[0;33;42m▀[0;32;40m▄▄[0;34;40m▄[0;32;40m▄▄█[0;37;40m  [0;32;40m█▄▄▄[0;37;40m  [0;32;40m▄▄▄▄[0;1;37;40m  [0;34m█▄▄[0;34;42m▄[0m

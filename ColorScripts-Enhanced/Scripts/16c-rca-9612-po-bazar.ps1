@@ -5,7 +5,7 @@
 # Source SHA-256: 78681e1b846f1d24c01d9860306b490bac2c448bc4a93f1d81841e742e2889c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-BAZAR.ANS by Poetic Justice (RCA); released in rca-9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Bazaar
 # SAUCE Author: Poetic Justice
 # SAUCE Group: RCA
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
- [1;35m▄[0m  [35m▀[0m     [1;30m▀▄[0m      [1;30m..logo by poetic justice of rca[0m    [35m▀[0;1;35m▀[0;1;35;45m█▄▓▒ ▀ ▒░[0;35m████[0;1;35;45m ░[0;35m█[0;1;35;45m  ░░░░░░░[0m
+ [1;35m▄[0m  [35m▀[0m     [1;30m▀▄[0m      [1;30m                               [0m    [35m▀[0;1;35m▀[0;1;35;45m█▄▓▒ ▀ ▒░[0;35m████[0;1;35;45m ░[0;35m█[0;1;35;45m  ░░░░░░░[0m
 [35m░[0m   [35m  [0;30;45m▓[0;1;35;40m▄[0;35m▄▄[0;1;30m▀[0m    [35m [0;37m          [0m                             [35m▀[0;1;35m▀▀[0;1;35;45m▓▄█▓▄▄░▒░  [0;35m██[0;1;35;45m     ░ ░░[0m
 [35m  [0;1;35m▄[0;35m▄[0;1;35m▀[0;35m▀▀[0m      [35m   [0m                                      [37m     [0;35m▀[0;1;35m▀▀▀[0;1;35;45m▒▄▄█[0;35m█[0;1;35;45m▓▀░▒[0;35m█[0;1;35;45m░▄░[0;35m█[0;1;35;45m   [0m
 [35m [0;1;35m█[0;35m█▄▓     [0;37m [0;35m     [0;1;35mt[0m     [35mh[0m   [37m  [0;1;30me[0m       [1;30m.[0m       [1;30m.[0m                    [35m▀[0;1;35m▀▀▀▀[0;1;35;45m▓▄▄▄▓█▄ ▒▐[0m

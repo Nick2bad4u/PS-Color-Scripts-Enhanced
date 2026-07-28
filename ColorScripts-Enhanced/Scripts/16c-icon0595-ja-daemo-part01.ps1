@@ -5,7 +5,7 @@
 # Source SHA-256: 76582c6f0aaa834df37606c2615df1d1f2ec9471574341b4d14d5bea512c67ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JA-DAEMO.ANS by Jashik (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Daemon's Gate
 # SAUCE Author: Jashik
 # SAUCE Group: iCON
@@ -17,7 +17,7 @@
 Write-Host '
 [1m██████[0m [1mKikkin it Live in ''95...[0m               [1;30m▄[0m
 [1;37m██████[0m  [1;37m▄▄█████▄[0m    [1;37m▄███[0m [1;37m███▄[0m   [1;37m████[0m [1;37m▄████▄▄[0m  [1;30m█[0m  Quick shotz out ta God and My
-[1m█████[0m [1m▄███[0m   [1m████[0m  [1m████[0m   [1m████[0m  [1m████[0m [1m█▀▀████▄[0m [1;30m█[0m  Family and my manager and also
+[1m█████[0m [1m▄███[0m   [1m████[0m  [1m████[0m   [1m████[0m  [1m████[0m [1m█▀▀████▄[0m [1;30m█[0m                                
 [1m█████[0m [1m████[0m   [1m████[0m [1m ████[0m   [1m████ [0m [1m████[0m    [1m█████[0m [1;30m█[0m                              
 [1m█████[0m [1m████[0m        [1m ████[0m   [1m████ [0m [1m████[0m    [1m█████[0m [1;30m█[0m                               
 [1m▀▀▀▀ [0m [1m████[0m   [1m████[0m  [1m████[0m   [1m████ [0m [1m████[0m    [1m█████[0m [1;30m█[0m                                

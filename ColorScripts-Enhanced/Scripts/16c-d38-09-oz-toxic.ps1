@@ -5,7 +5,7 @@
 # Source SHA-256: 2982f41dc59d86e9b23743d476f05589a889a56e8e760a2ff0708b25968254bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OZ-TOXIC.ANS by -Oz (department 38); released in d38-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: P H A T  P H A T  P H A T  P H A T
 # SAUCE Author: -Oz
 # SAUCE Group: department 38
@@ -25,5 +25,5 @@ Write-Host '
 [36m█[0;1;36;46m▐[0;1;37;40m█[0m  [1;32;42m▐[0;1;32;40m▀[0;1;37;40m▀[0;1;33;40m▀[0m [33m█[0;1;33m██████▌[0m [33m▐[0;1;37m██[0;1;33m█▓▓▌[0;1;37m [0m [1;36;46m▌[0;36m████████████████████[0;32m ███████ [0;36m█████████▀██████[0;1;36;46m░░▓▓[0;1;36;40m█▌[0m
 [36m█▀[0;1;37m [0;1;36m▄▄▄▄[0;1;37m▄ [0m  [33m▐[0;1;33m█▀██▄[0m  [1;33;43m▐[0;1;33;40m███▄▄▄[0m   [36m██████████▓[0;1;37m   [0;36m▀▀█[0;1;36;46m▄▄▄[0;32m ███████ [0;1;36;46m▄▄[0;1;36;40m███▀▀▄[0;1;36;46m▄▄▄▓[0;1;36;40m████[0;1;36;46m▓▓[0;1;36;40m█[0;1;37;40m█[0;1;36;40m  [0m
 [1;37;40m [0;36m▀▀▀[0;1;36m▀[0;1;37m▀▀▀ [0m  [1;33m▐██▄▀▀[0;1;33;43m▀[0;1;33;40m▀▀▀[0m   [33m▀[0;1;33m▀[0;1;33;43m▀[0m  [36m▀▀▀▀▀▀▀▀▀▀▀[0;1;37m   ░░[0;1;36m▀▀[0;1;37m▀▀[0;32m [0;1;32m█[0;1;37m██[0;1;32m█[0;1;32;42m▄▄[0;32m█ [0;1;37m▀▀▀▀  ▀▀▀▀▀▀▀▀▓▓██▀▀[0;1;36m  [0m
-     [1m-Oz[0m [1;33m░░▓[0;1;33;42m▓[0;1;33;40m█▀▀[0;1;37;40m [0m [33m [0;1;36mtoxhic overdohze[0m [1;36m> enzyme[0m                               [1m ▀▄[0m
+     [1m   [0m [1;33m░░▓[0;1;33;42m▓[0;1;33;40m█▀▀[0;1;37;40m [0m [33m [0;1;36m                [0m [1;36m        [0m                               [1m ▀▄[0m
            [1;33m░░[0m   [33m  [0m'

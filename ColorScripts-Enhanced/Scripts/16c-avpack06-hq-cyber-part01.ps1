@@ -5,7 +5,7 @@
 # Source SHA-256: cca29cb5c0e00bbab9e3fce56c222fee1eb05ab64939584a17ec493a0d69941a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-CYBER.ANS by Harlequin (Apocaliptic Visions); released in avpack06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: All things Dark & Cyberpunk
 # SAUCE Author: Harlequin
 # SAUCE Group: Apocaliptic Visions
@@ -45,7 +45,7 @@ Write-Host '
               [1;30m█[0;1;30;47m▓[0;1;30;40m█▀▐░░░▓█▐█▓▒[0m [1;30m ▒▒▒[0m [1m▌[0m  [30mManual, CP2020.[0m     [1;37m▀[0;1;37;47m▓▒[0;1;37;40m▄[0m▀▀▀█[1;47m▀[0;1;40m▄[0m░▒▓[1m█[0m ░[1;47m▐▌[0m▓▒[1;47m▄█[0m
          [1m   [0m [1m▄[0;1;30m███[0m▄[1;30m█░░░▓█▐█▓▒▒▓█[0;1;30;47m▀▀▀[0;1;37;47m▐[0m                        [1m▀▀[0;1;47m▓▓▒[0;1;40m [0m▀▀[1m▀[0;1;47m▄[0m▒▓[1m█[0m░[1;47m▐▌▄▀▓▒[0m
       [1m  ▄▄[0;1;47m▓[0;1;40m█▐[0;1;47m▓[0;1;30;40m█▓█[0m▀▓[1;47m▓█[0;1;40m▄[0;1;30;40m▓█▐█▓▒█[0;1;30;47m▓▄▀▀▒[0;1;37;47m▐[0m  [30mBad likeness, but hey,[0;37m [0;1;37m█[0;1;37;47m  ▀▀▀▄▄▄[0;1;37;40m█[0;1;37;47m▄[0m▓[1;47m▀▄▌▌[0m▒[1;47m▓▒[0m
-   [1m▄▄▄[0;1;47m▓▓▒[0m▀▄▓▌█[1;30m█▒█[0m▒▄▄[1;47m▓[0;1;40m▀[0;1;30;40m▓█▐█▓▒█[0;1;30;47m▓▄▀▀▒[0;1;37;47m▐[0m  [30mANSi isn''t reknown for[0;1;37m ▐[0;1;37;47m▌[0m▓▓▓▓▒▒░░ [1m▀▀▀[0;1;47m▄[0;1;40m▌[0;1;47m░▒▓[0m
+   [1m▄▄▄[0;1;47m▓▓▒[0m▀▄▓▌█[1;30m█▒█[0m▒▄▄[1;47m▓[0;1;40m▀[0;1;30;40m▓█▐█▓▒█[0;1;30;47m▓▄▀▀▒[0;1;37;47m▐[0m  [30m                      [0;1;37m ▐[0;1;37;47m▌[0m▓▓▓▓▒▒░░ [1m▀▀▀[0;1;47m▄[0;1;40m▌[0;1;47m░▒▓[0m
   [1m▀▀[0;1;47m▓▓[0m▀▄▄▒▓[1;47m [0m▀ [1;30m█▒█▄█▄▄░▓█▐█▓▒█[0;1;30;47m▓▄▀▀▒[0;1;37;47m▐[0m  [30mit''s pinpoint accuracy[0;37m [0;1;37m▐[0;1;37;47m▌[0m▓▒▒░░     ░▒[1m█[0m▐▓[1;47m▄[0;1;40m█[0m
   [1m█[0;1;47m▓█[0m▄▄▄▀▀    [1;30m█░█▀▌▀▀▀▓█▐█▓▒█[0;1;30;47m▓▄▀▀▒[0;1;37;47m▐[0m  [30mand vast array of     [0;37m  [0;1;37;47m▌[0m▓▓▒▒░░    ░▒[1m▐▄[0;1;47m▀▓▒[0m
 [1;30m [0;1;37m▐[0;1;37;47m▓▒▒[0m ▒▓▌    [1;30m █░█ █▀▀▀▄▀▌█▓▒▒▓█[0;1;30;47m▄▄▒[0;1;37;47m▐[0m  [30mcolours.... [0m            [1;37m█[0;1;37;47m▓  [0m▓▒▒░░   ░▒[1m▌[0m▓[1;47m▒▓[0m'

@@ -1433,17 +1433,7 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-1991-aselibbs",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-avpack06-hq-drag",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-blndr009-us-blndr",
             "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
         },
         {
@@ -1505,16 +1495,6 @@
             "issueType": "derivative-attribution-review",
             "family": "16c-vpr0695-vz-lomat",
             "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-spas9503-dp-crap",
-            "reason": "Reviewed generic influence: 'based on the art scene' identifies a community theme rather than a source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-d38-05-bs-adgap",
-            "reason": "Reviewed figurative phrase: 'get your balls ripped' is a comedic tagline, not a source-art credit."
         },
         {
             "issueType": "derivative-attribution-review",

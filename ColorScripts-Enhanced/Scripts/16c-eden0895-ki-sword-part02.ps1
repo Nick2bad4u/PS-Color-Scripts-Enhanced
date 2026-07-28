@@ -5,7 +5,7 @@
 # Source SHA-256: 1224b279e095ee0829236cb9c52f0f6c69596c00d65574d9ffe40ff5b740830d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KI-SWORD.ANS by Kiwi (eden); released in eden0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Mage's Tome
 # SAUCE Author: Kiwi
 # SAUCE Group: eden
@@ -64,4 +64,4 @@ Write-Host '
      [1;30m\ ▒  ▒▓▓▓▓▒  ▒ /[0m          [1;30;47m█▓█▓[0;1;30;40m█▓▒░░[0m                [34m<[0;1;34mc[0;36mös[0;1;36mys[0;1;37möp[0;36m: [0;1;37mTαr [0;1;36mH[0;36méè[0;1;34ml[0;34m>[0m
 [34m [0;31m░▒▓ [0;1;30m-░ [0;31m░ [0;1;30m░▒▒▒▒░ [0;31m░ [0;1;30m░- [0;31m▓▒░[0m      [1;30m▓[0;1;30;47m█[0;1;30;40m▓[0;1;30;47m█[0;1;30;40m▓▓▒░░░[0m      [1;30;40m░[0m          [34m<[0;1;34mc[0;36mös[0;1;36mys[0;1;37möp: [0;1;36mk[0;36míw[0;1;34mì[0;34m>[0m
      [1;30m/ [0;31m░▒░ [0;1;30m░░░░ [0;31m░▒░ [0;1;30m\[0m          [1;30m▒▓▒▓▓▒▒░░ ░    ░░[0m
-[1;30m [0;31m░░ [0;1;37my[0mou[1;30mr [0;1;37mh[0mom[1;30me [0;1;37mf[0mo[1;30mr [0;1;37mA[0mD&[1;30mD [0;31m░░[0m      [1;30m░▒░▒▓▒▒▒░░   ░ ░▒[0m             [1;35mb[0;35my [0;1;35mk[0;35míwì [0;1;35m9[0;35m5[0m'
+[1;30m [0;31m░░ [0;1;37m [0m  [1;30m  [0;1;37m [0m  [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m  [1;30m  [0;31m░░[0m      [1;30m░▒░▒▓▒▒▒░░   ░ ░▒[0m             [1;35m [0;35m  [0;1;35m [0;35m    [0;1;35m [0;35m [0m'
