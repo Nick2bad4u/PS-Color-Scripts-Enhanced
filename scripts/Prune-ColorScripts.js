@@ -168,6 +168,39 @@ function removeAnalysisExceptions(document, names) {
 }
 
 /**
+ * Expand a script-removal selection with split-family identifiers only when
+ * every currently installed sibling is selected. This prevents stale family
+ * exceptions without deleting an exception for a partially retained work.
+ *
+ * @param {string[]} names
+ * @param {string[]} availableNames
+ * @returns {string[]}
+ */
+function getFullyRemovedAnalysisScopes(names, availableNames) {
+    const selected = new Set(names);
+    const scopes = new Set(names);
+    for (const name of names) {
+        const family = name.replace(
+            /(?:-panel\d+)?-part\d+$/u,
+            ""
+        );
+        const siblings = availableNames.filter(
+            (available) =>
+                available === family ||
+                available.startsWith(`${family}-part`) ||
+                available.startsWith(`${family}-panel`)
+        );
+        if (
+            siblings.length > 0 &&
+            siblings.every((sibling) => selected.has(sibling))
+        ) {
+            scopes.add(family);
+        }
+    }
+    return [...scopes];
+}
+
+/**
  * @param {object} checkpoint
  * @param {Map<string, string>} removedProvenanceBlocks
  * @param {string} remainingProvenance
@@ -430,12 +463,23 @@ function main(arguments_ = process.argv.slice(2)) {
     const provenanceSource = fs.readFileSync(PROVENANCE_PATH, "utf8");
     const checkpoint = JSON.parse(fs.readFileSync(CHECKPOINT_PATH, "utf8"));
     const exceptions = JSON.parse(fs.readFileSync(EXCEPTIONS_PATH, "utf8"));
+    const availableNames = fs
+        .readdirSync(SCRIPTS_DIRECTORY, { withFileTypes: true })
+        .filter(
+            (entry) =>
+                entry.isFile() &&
+                entry.name.toLocaleLowerCase("en-US").endsWith(".ps1")
+        )
+        .map((entry) => path.basename(entry.name, ".ps1"));
     const metadataResult = removeScriptMetadataLines(metadataSource, names);
     const provenanceResult = removeProvenanceEntries(
         provenanceSource,
         names
     );
-    const exceptionsResult = removeAnalysisExceptions(exceptions, names);
+    const exceptionsResult = removeAnalysisExceptions(
+        exceptions,
+        getFullyRemovedAnalysisScopes(names, availableNames)
+    );
     const updatedCheckpoint = updateCheckpoint(
         checkpoint,
         provenanceResult.removedBlocks,
@@ -482,6 +526,7 @@ if (require.main === module) {
 
 module.exports = {
     assertSafeScriptName,
+    getFullyRemovedAnalysisScopes,
     getQuotedProperty,
     parseArguments,
     removeAnalysisExceptions,

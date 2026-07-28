@@ -5,7 +5,7 @@
 # Source SHA-256: 159b2e24a2e4bd6c9bd26915902496899a907b357951ca54788a7abce390effd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LST-LST2.ANS by soul trader (dox product 97); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: a small 'lst' logo
 # SAUCE Author: soul trader
 # SAUCE Group: dox product 97
@@ -15,13 +15,6 @@
 # Columns: 1-80
 
 Write-Host '
-
-
-
-
-
-
-
           [34m█[0;1;34;44m░[0;34m██[0;1;34;44m▄▄[0;1;34;40m█[0m           [1;34;44m░[0;34m██[0;1;34;44m▄▄[0;1;34;40m██▀▀▀█▄▄▄▄▄▄ [0;34m██[0;1;34;44m░[0;34m█[0;1;34;44m▄[0;1;34;40m█[0;1;34;44m▄[0;1;34;40m▄[0m
           [34m█[0;34;44m [0;1;34;44m░▓▄[0;1;34;40m██   [0;1;34;44m░  ▄[0;1;34;40m█[0;1;34;44m▄▄[0m [34m█[0;1;34;44m░▀[0;1;34;40m████ ░░▓██████ [0;34m█[0;1;34;44m░▄[0;1;34;40m████   [0;1;34;44m ░▄[0;1;34;40m█[0;1;34;44m▄▄[0;1;34;40m█[0m
           [1;34;44m ▄█[0;1;34;40m████   [0;1;34;44m ░▄[0;1;34;40m████ [0;34m█[0;1;34m██████   ██[0;1;34;47m▓░▀[0;1;34;40m██ [0;34m█[0;1;34;44m█[0;1;34;40m█████   [0;1;34;44m ▐[0;1;34;40m█[0;1;34;45m▓░▄[0;1;34;40m█[0m

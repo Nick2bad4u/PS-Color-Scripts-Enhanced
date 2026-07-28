@@ -146,6 +146,22 @@ test("contact detection finds real endpoints without flagging dates or baud rate
             ],
         }
     );
+    assert.deepEqual(findContactDetails("Node 2:292/5o7.13"), {
+        categories: ["network-endpoint"],
+        values: ["2:292/5o7.13"],
+    });
+    assert.deepEqual(findContactDetails("@MSGID: 69:800/0"), {
+        categories: ["network-endpoint"],
+        values: ["69:800/0"],
+    });
+    assert.deepEqual(findContactDetails("       11-305-927-78011       "), {
+        categories: ["phone"],
+        values: ["11-305-927-78011"],
+    });
+    assert.deepEqual(findContactDetails("    444o4.977.348OOO    "), {
+        categories: ["phone"],
+        values: ["444o4.977.348OOO"],
+    });
     assert.deepEqual(findContactDetails("Released 1997-05-31 at 14400 baud"), {
         categories: [],
         values: [],
@@ -171,6 +187,10 @@ test("contact detection finds real endpoints without flagging dates or baud rate
         values: [],
     });
     assert.deepEqual(findContactDetails("$$$$OOOOOIIIIIiiiii"), {
+        categories: [],
+        values: [],
+    });
+    assert.deepEqual(findContactDetails("Scene ratio 292/507"), {
         categories: [],
         values: [],
     });
@@ -274,6 +294,31 @@ Call 212-555-0198
             applyReviewedRows(source, [{ row: 3, text: "Call 212-555-0100" }]),
         /stale/u
     );
+});
+
+test("reviewed row redaction does not count art-only context as blanked", () => {
+    const source = `Write-Host '
+██ ART ██
+'`;
+    const result = applyReviewedRows(source, [
+        {
+            row: 2,
+            sha256: getReviewEvidenceHash("██ ART ██"),
+        },
+    ]);
+
+    assert.equal(result.blankedRows, 1);
+    const artOnlySource = `Write-Host '
+██ ▓▓ ██
+'`;
+    const artOnlyResult = applyReviewedRows(artOnlySource, [
+        {
+            row: 2,
+            sha256: getReviewEvidenceHash("██ ▓▓ ██"),
+        },
+    ]);
+    assert.equal(artOnlyResult.blankedRows, 0);
+    assert.equal(artOnlyResult.changed, false);
 });
 
 test("baseline compaction removes only rows blanked by curation", () => {
@@ -499,7 +544,8 @@ test("content curation checkpoint matches the retained gallery state", () => {
             checkpoint.removals.adultContentScripts +
             checkpoint.removals.lowQualityScripts +
             checkpoint.removals.incompleteSourceScripts +
-            checkpoint.removals.postCurationDuplicateScripts,
+            checkpoint.removals.postCurationDuplicateScripts +
+            checkpoint.removals.residualAdvertisementScripts,
         checkpoint.scope.removedScripts
     );
     for (const property of [
@@ -520,12 +566,17 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.removals.adultContentWorks, 21);
     assert.equal(checkpoint.policyReview.adultTaggedWorksRetained, 9);
     assert.equal(checkpoint.policyReview.adultTaggedScriptsRetained, 13);
-    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 33812);
-    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23756);
+    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 33960);
+    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23759);
     assert.equal(
         checkpoint.contentCleanup.highConfidenceGeometryRowsRemoved,
-        690
+        767
     );
+    assert.equal(checkpoint.contentCleanup.residualContentRowsBlanked, 148);
+    assert.equal(checkpoint.contentCleanup.residualContentRowsRemoved, 6);
+    assert.equal(checkpoint.contentCleanup.residualGeometryRowsRemoved, 77);
+    assert.equal(checkpoint.removals.residualAdvertisementWorks, 8);
+    assert.equal(checkpoint.removals.residualAdvertisementScripts, 27);
     assert.equal(checkpoint.contentCleanup.rebalancedFamilies, 26);
     assert.equal(checkpoint.contentCleanup.rebalancedScripts, 134);
     assert.equal(checkpoint.contentCleanup.rebalancedSourceRowsRetained, 5078);

@@ -38,6 +38,8 @@ const EMAIL_PATTERN =
     /[\p{L}\p{N}._%+-]+@[\p{L}\p{N}.-]+\.[\p{L}]{2,}/giu;
 const NETWORK_ENDPOINT_PATTERN =
     /\b(?:(?:https?|ftp|telnet):\/\/|www\.)[^\s]+|\b(?:bbs|telnet)\.[\p{L}\p{N}.-]+\.[\p{L}]{2,}\b/giu;
+const FIDO_ENDPOINT_PATTERN =
+    /(?<![\p{L}\p{N}])[\dOo]{1,3}:[\dOo]{1,6}\/[\dOo]{1,6}(?:\.[\dOo]{1,6})?(?![\p{L}\p{N}])/giu;
 const PHONE_CANDIDATE_PATTERN =
     /(?<![\p{L}\p{N}])(?:\+|00|011)?[\dOoIiLl([][\dOoIiLl\s()[\]./·■-]{5,}[\dOoIiLl)](?![\p{L}\p{N}])/giu;
 const SOURCE_FIDELITY_LOCK_PATTERN =
@@ -386,12 +388,22 @@ function isHighConfidencePhone(candidate, visible) {
         groups.at(-1).length === 4 &&
         (groups.some((group) => group.length === 3) ||
             groups.filter((group) => group.length === 1).length >= 7);
+    const surroundingText = visible
+        .replace(candidate, "")
+        .replace(ART_GLYPH_PATTERN, "")
+        .replace(/[^\p{L}\p{N}]/gu, "");
+    const isIsolatedSeparatedNumber =
+        surroundingText.length === 0 &&
+        groups.length >= 3 &&
+        groups.at(-1).length >= 4 &&
+        groups.some((group) => group.length >= 3);
 
     return (
         hasContactContext ||
         hasInternationalPrefix ||
         hasParenthesizedAreaCode ||
-        hasConventionalGroups
+        hasConventionalGroups ||
+        isIsolatedSeparatedNumber
     );
 }
 
@@ -410,7 +422,23 @@ function findContactDetails(visible) {
         categories.add("network-endpoint");
         values.add(match[0]);
     }
+    const fidoMatches = [...visible.matchAll(FIDO_ENDPOINT_PATTERN)];
+    for (const match of fidoMatches) {
+        categories.add("network-endpoint");
+        values.add(match[0]);
+    }
     for (const match of visible.matchAll(PHONE_CANDIDATE_PATTERN)) {
+        const start = match.index ?? -1;
+        const end = start + match[0].length;
+        if (
+            fidoMatches.some((fidoMatch) => {
+                const fidoStart = fidoMatch.index ?? -1;
+                const fidoEnd = fidoStart + fidoMatch[0].length;
+                return start < fidoEnd && end > fidoStart;
+            })
+        ) {
+            continue;
+        }
         if (!isHighConfidencePhone(match[0], visible)) continue;
         categories.add("phone");
         values.add(match[0].trim());
@@ -721,9 +749,13 @@ function applyReviewedRows(source, evidence) {
             source,
         };
     }
-    const blankedRows = rows.map((row, index) =>
-        blankIndexes.has(index) ? blankTextRow(row) : row
-    );
+    let blankedRowCount = 0;
+    const blankedRows = rows.map((row, index) => {
+        if (!blankIndexes.has(index)) return row;
+        const blanked = blankTextRow(row);
+        if (blanked !== row) blankedRowCount += 1;
+        return blanked;
+    });
     const updatedRows = removeRowsPreservingControls(
         blankedRows,
         removeIndexes
@@ -732,7 +764,7 @@ function applyReviewedRows(source, evidence) {
         replacePayloadRows(source, payload, updatedRows)
     );
     return {
-        blankedRows: blankIndexes.size,
+        blankedRows: blankedRowCount,
         changed: updatedSource !== source,
         removedRows: removeIndexes.size,
         source: updatedSource,

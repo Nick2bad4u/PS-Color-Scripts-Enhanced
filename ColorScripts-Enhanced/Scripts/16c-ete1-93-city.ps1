@@ -5,7 +5,7 @@
 # Source SHA-256: e64839fcd00d26e2b2bc5fccc02a94472a05795c45b58004928c1307226f2393
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CITY.ANS by Maestro (ete1-93); released in ete1-93 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -41,8 +41,8 @@ Write-Host '
                   M[1merlin [0mT[1moo[0m                     [1;30m▌┌┤││││├┐[0m│[1;30m▬▬▬[0m▬[1;30m▬▬▬[0m└[1;30m┴═════─[0m╨┐   ║
                   F[1mleetwood[0m                      [1;30m▌│││││││[0m││▬[1;30m▬▬▬▬▬[0m▬▬[1;30m▬▬▬[0m▬[1;30m▬▬  [0m│   ║
                    M[1máestro[0m                       [1;30m▌│││││││[0m││[1;30m═════════─[0m┐[1;30m▬[0m▬[1;30m▬  [0m│   ║
-            [31mP[0;1;31mower-[0;31mN[0;1;31mET [0;31mW[0;1;31mHQ1 [0m1[1m25[0;1;33m:[0m1[1;33m/[0m1[1m24[0m            [1;30m▐ │││││││[0m││[1;30m∩ ∩ ∩ ∩ [0m∩ │[1;30m▬┌──══════[0m
-              [31mS[0;1;31mlow-[0;31mN[0;1;31mET [0m2[1m3[0;1;33m:[0m3[1m21[0;1;33m/[0m4[1m05[0m               [1;30m▌ │││││││[0m││[1;30m∩ ∩ ∩┌───═══┴┴─[0m┐[1;30m▬─▬─[0m▬
+            [31m [0;1;31m     [0;31m [0;1;31m   [0;31m [0;1;31m    [0m [1m  [0;1;33m [0m [1;33m [0m [1m  [0m            [1;30m▐ │││││││[0m││[1;30m        [0m  │[1;30m▬┌──══════[0m
+              [31m [0;1;31m    [0;31m [0;1;31m   [0m [1m [0;1;33m [0m [1m  [0;1;33m [0m [1m  [0m               [1;30m▌ │││││││[0m││[1;30m     ┌───═══┴┴─[0m┐[1;30m▬─▬─[0m▬
            [32mH[0;1;32mome [0;32mO[0;1;32mf [0;1;37mC.S.P [0;32mP[0;1;32mrogrammers[0m            [1;30m▌ │││││││[0m││[1;30m∩ ∩ ∩▌┌───────┐[0m└─╖ [1;30m─▬[0m
               Y[1mes [0mW[1me [0mH[1mave [0mF[1miles,[0m                [1;30m▌  ││││││[0m││  [1;30m∩ ∩▌├───────┴┐ [0m║ [1;30m∙[0m
                M[1message [0mF[1morums,[0m                  [1;30m▌   │││││ [0m│     [1;30m▌├────────┤ [0m║

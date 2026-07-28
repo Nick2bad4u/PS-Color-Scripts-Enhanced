@@ -5,7 +5,7 @@
 # Source SHA-256: c8e2bb863911d89ac8fc5e9af2d39fb237921a63fa65b9ab2b8370d7d851ee59
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LG-TAURA.ANS by lawn genie (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: taura productionz..
 # SAUCE Author: lawn genie
 # SAUCE Group: ftc
@@ -15,12 +15,6 @@
 # Columns: 1-80
 
 Write-Host '
-
-
-
-
-
-
 [1;35;45m░░░░░░[0m  [1;47m▓▓▓▓[0m [35m ▀▀▀▀▀[0;1;35;45m░░░[0;35m▀▀[0;37m [0;1;37m▄▄▄[0;1;37;47m▓▓▓▓[0m  [1;47m▓▓▓▓[0m [1;35;45m░[0m [1m▄▄▄▄[0m  [1;47m▓▓▓▓[0;1;40m▄▄▄[0m [35m▀▀[0;1;35;45m░░░░[0;35m▀▀[0;37m [0;1;37m▄▄▄[0;1;37;47m▓▓▓▓[0m [1;35;45m░░░░░░░[0;35m [0m
 [1;35;45m▒▒▒▒▒[0;35m▄[0;37m [0;1;37m▀[0;1;37;47m▒▒▒▒[0;1;37;40m▀▀▀▀[0m ▀[35m [0;1;35;45m▒[0;35m▀[0;37m ▄[0;1;37;47m▒▒▒[0;1;37;40m▀[0m ▄[1;47m▒▒▒[0m  [1;47m▒▒▒▒[0m [1;35;45m▒[0m [1;47m▒▒▒▒[0m  [1;47m▒▒▒[0m▄ [1m▀[0;1;47m▒▒▒[0m▄ [35m▀▀[0;37m ▄[0;1;37;47m▒▒▒[0;1;37;40m▀[0m ▄[1;47m▒▒▒[0m [1;35;45m▒▒▒▒▒▒▒[0m
 [1;35m▀▀▀▀▀▀[0m  [1;47m░░░░[0m   ▄▄▄▄  ▐[1;47m░░░[0m▌  [1;47m░░░░[0m  [1;47m░░░░[0m [1;35m▀[0m [1;47m░░░░[0m  [1;47m░░░░[0m  ▐[1;47m░░░[0m▌[1;30mlg[0m▐[1;47m░░░[0m▌  [1;47m░░░░[0m [1;35m▀▀▀▀▀▀▀[0m

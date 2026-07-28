@@ -5,7 +5,7 @@
 # Source SHA-256: a1be2423d863b926c0f05fbb20128bf2a1ddb835fa4ddb51c972940a7cfd9d08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-TF1.ANS by Terminator2 (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Terra Firma
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -19,10 +19,10 @@ Write-Host '
 [1;30;46m ░░▒▒▓▓▓[0;1;30m█[0;1;30;46m▓[0;1;30m██[0;1;30;46m▓[0;1;30m███████████████████████████████████████████████████[0;1;30;46m▓[0;1;30m███[0;1;30;46m▓▓[0;1;30m█[0;1;30;46m▓▓▓▒▒░░ [0m
 [1;30;46m░▒[0m                              [1;30m▄[0m                                            [1;30;46m▒░[0m
 [1;30;46m▒▓[0m     [1;30m▄▄▄[0m              [1;30m▄[0m           [1;30m                                         ▀[0;1;30;46m▓[0m
-[1;30;40m▄▀   ▀▀▀▓▓▒░▄ [0;1m▄▄█▀██▀[0;1;30m▄▓▓▀▒▄[0m     [1;30m▄▀  1) Call A BBS That I An A Member Of And  [0;1;30;46m▓[0;1;30m▄[0m
-[1;30m▀[0;1;30;46m▓[0m          [1m▄█▀[0;1;30m▄▄▓▄[0;1m▀█▄▄▄█▄[0m      [1;30m▄[0;1;30;46m▓[0m     [1;30mLeave Me A Message Or Something...    ▄▀[0m
-[1;30m▀▄    ▄ [0;1;36m▄  [0;1m▐▀▀▀▄[0;1;30m▀▀ [0;1m▀▀▀[0;36m▄[0;1m▀[0;1;30m▄[0;1m▀▌[0m     [1;30m▀▄  2) Talk To RaDMan, Corwin, Or My Agents   ▀[0m
-[1;30m    ▄▀[0;1;36m▄███[0;1;36;46m█▓▒░ [0m [1;36m███[0;1;36;46m▓▓▒▒░[0;36m▄[0;1;30m▀▄[0m     [1;30;46m▒▓[0m  [1;30m3) Find Me On IRC Some Where...[0m          [1;30m▄[0m
+[1;30;40m▄▀   ▀▀▀▓▓▒░▄ [0;1m▄▄█▀██▀[0;1;30m▄▓▓▀▒▄[0m     [1;30m▄▀                                           [0;1;30;46m▓[0;1;30m▄[0m
+[1;30m▀[0;1;30;46m▓[0m          [1m▄█▀[0;1;30m▄▄▓▄[0;1m▀█▄▄▄█▄[0m      [1;30m▄[0;1;30;46m▓[0m     [1;30m                                      ▄▀[0m
+[1;30m▀▄    ▄ [0;1;36m▄  [0;1m▐▀▀▀▄[0;1;30m▀▀ [0;1m▀▀▀[0;36m▄[0;1m▀[0;1;30m▄[0;1m▀▌[0m     [1;30m▀▄                                            ▀[0m
+[1;30m    ▄▀[0;1;36m▄███[0;1;36;46m█▓▒░ [0m [1;36m███[0;1;36;46m▓▓▒▒░[0;36m▄[0;1;30m▀▄[0m     [1;30;46m▒▓[0m  [1;30m                               [0m          [1;30m▄[0m
 [1;30m▀ ▄▀[0;1;36m▄███████[0;1;36;46m▓▒░[0m [1;36;46m█████▓▓▒▒░[0;36m▄[0;1;30m▀▄   [0;1;30;46m░▒[0m
 [1;30;40m▄██▄▄▄▄▄▄ [0;1;36;46m███▓▒[0;1;30m·T2·[0;1;36m▄[0;1;36;46m███▓▓[0;36m▀[0;1;30m▄▀    [0;1;30;46m ░░▒▒[0;1;30m▀▄[0;1;30;46m▓[0;1;30m▀▄▀  ▄[0m                                [1;30m▀[0m
 [1;30m▄[0m       [1;30;46m▓[0m [1;36m▀▀▀[0;1;30m▄▄  ▄█▄▄[0;1;36m▀[0;1;36;46m█[0;1;36m▀[0;1;30m▄[0;1;30;46m▓[0m                     [36m▀▄ ▄▀[0;1;30;46m░[0;36m▄ ▀▄ ▄▀[0;1;30;46m░▒[0;36m▄▀▄  ▀▄ ▄▀[0;1;30;46m░[0;36m▄   [0;1;30m▄[0m

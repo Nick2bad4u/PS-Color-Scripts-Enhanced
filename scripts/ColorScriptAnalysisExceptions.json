@@ -1598,11 +1598,6 @@
         },
         {
             "issueType": "tiny-tail-part",
-            "family": "16c-ansis-t-tt-iq",
-            "reason": "Reviewed source transition: the final part is a coherent BBS-information panel separated from the preceding composition."
-        },
-        {
-            "issueType": "tiny-tail-part",
             "family": "16c-blde9404-tp-spade",
             "reason": "Reviewed source transition: the final part is a coherent credit panel separated from the preceding composition."
         },
@@ -1980,11 +1975,6 @@
             "issueType": "tiny-tail-part",
             "family": "16c-lap-1294-wx-dead1",
             "reason": "Reviewed official preview: part 04 preserves the authored sparse drips and credits beneath the complete DEADLY wordmark."
-        },
-        {
-            "issueType": "tiny-tail-part",
-            "family": "16c-laz17-us-chaostw",
-            "reason": "Reviewed official preview: part 03 is the coherent title and credit panel beneath the completed character composition."
         },
         {
             "issueType": "tiny-tail-part",

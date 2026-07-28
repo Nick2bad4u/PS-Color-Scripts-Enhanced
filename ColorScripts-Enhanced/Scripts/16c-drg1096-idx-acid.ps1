@@ -5,7 +5,7 @@
 # Source SHA-256: b0d73696925a5e89249e155fd1f11e92847e7b92b62c6ffc37b01b7dbb8cddf0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IDX-ACID.ANS by id x (deranged); released in drg1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: We tribute ACiD so much!
 # SAUCE Author: id x
 # SAUCE Group: deranged
@@ -15,12 +15,6 @@
 # Columns: 1-80
 
 Write-Host '
-
-
-
-
-
-
      [35m▄▄[0;1;35;45m░[0;35m▄▄▄▄▄ [0;34m [0;37m▄▄▄▄[0;1;34;47m░[0m▄▄▄  [35m▄▄▄[0;1;35;45m░[0;35m▄▄ [0;34m [0;37m▄▄▄▄▄▄▄▄[0;34m [0;35m▐▄[0;1;35;45m▓[0;35m▄[0;37m ▄[0;34m [0;37m▄[0;1;34;47m▓[0m [1;35;45m░[0;35m▄▄ [0;37m ▄▄▄▄[0;1;34;47m░[0m▄▄[34m [0;35m▀▀▄▄▄▄▄▄[0;1;35;45m░[0;35m▄ ▄[0m
     [35m▐[0;1;35;45m░░░░░░░[0;34m [0;37m▄█[0;1;34;47m░[0;1;34;44m██[0;1;34;47m▓[0;34m [0;37m█[0;1;34;44m██[0;1;34;47m▄ [0;34m [0;1;35;45m░░░░[0;34m [0;37m▄[0;1;34;47m▓[0;1;34;44m███[0;34m [0;37m█[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m█[0m█ [1;35;45m░░[0;35m▌[0;37m▐[0;1;34;47m░▄█░[0m▌[1;35;45m░░[0m ▄█[1;34;44m██[0;1;34;47m░[0m█[1mi[0;1;34;47m░[0;1;34;44m█[0;1;34;47m▄▄[0m▄[34m [0;35m▐[0;1;35;45m░░░░░▓░░[0;35m▌[0m
     [1;35;45m▓▓▓▓▓▓▓[0;35m▌[0;37m▐[0;1;34;44m█████[0;1;34;47m▓[0m █[1;34;47m█▓[0;1;34;44m█[0;1;34;47m█[0m▌[35m▐[0;1;35;45m▓▓[0;35m▌[0;37m▐[0;1;34;44m███[0;1;34;47m░[0m█[34m [0;37m█[0;1;34;44m█[0;1;34;47m█[0;1;34;44m█[0;1;34;47m▓[0m▌[1;35;45m▓▓[0;35m▄[0;34m [0;37m▀[0;1;34;47m█▓[0m▀[34m [0;1;35;45m▓▓[0;35m▌[0;37m▐[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m██[0m█[1md[0m█[1;34;44m█[0;1;34;47m▓[0;1;34;44m█[0m█[1;34;47m▓[0m [1;35;45m▓▓▓▓▓▓▓▓[0;35m█[0m

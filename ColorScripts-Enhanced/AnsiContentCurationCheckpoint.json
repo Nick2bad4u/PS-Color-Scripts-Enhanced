@@ -1,8 +1,8 @@
 {
     "archiveState": {
-        "accepted16colorsSources": 15083,
-        "emitted16colorsScripts": 21524,
-        "rejectedContentSources": 1374,
+        "accepted16colorsSources": 15075,
+        "emitted16colorsScripts": 21497,
+        "rejectedContentSources": 1382,
         "rejectedDuplicateRenderSources": 371,
         "rejectedQualitySources": 13992,
         "reviewedAnalysisExceptions": 427
@@ -17,17 +17,22 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 33812,
+        "totalRowsBlanked": 33960,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
         "sourceFidelityRowsRestored": 34,
-        "totalTrailingRowsRemoved": 23756,
-        "reviewedContentRowsBlanked": 1172,
-        "contactOrPromotionalRowsBlanked": 324,
-        "curationCompactedRows": 8609,
-        "reviewedRowsRemoved": 56,
-        "highConfidenceGeometryRowsRemoved": 690,
+        "totalTrailingRowsRemoved": 23759,
+        "reviewedContentRowsBlanked": 1320,
+        "contactOrPromotionalRowsBlanked": 472,
+        "curationCompactedRows": 8610,
+        "reviewedRowsRemoved": 62,
+        "highConfidenceGeometryRowsRemoved": 767,
+        "residualContentRowsBlanked": 148,
+        "residualContentRowsRemoved": 6,
+        "residualCompactedRows": 1,
+        "residualTrailingRowsRemoved": 3,
+        "residualGeometryRowsRemoved": 77,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
         "rebalancedSourceRowsRetained": 5078,
@@ -73,6 +78,18 @@
         "orphanedTailAfterBlankRun": 11,
         "disposition": "retain-authentic-composition"
     },
+    "residualCleanupReview": {
+        "contentLedger": "AnsiResidualContentReviewLedger.json",
+        "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
+        "candidateFilesRedacted": 41,
+        "contentRowsBlanked": 148,
+        "artOnlyContextRows": 18,
+        "contentRowsRemoved": 6,
+        "geometryRowsRemoved": 77,
+        "advertisementWorksRemoved": 8,
+        "advertisementScriptsRemoved": 27,
+        "reviewedRetentions": 4
+    },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
         "Seventeen whole works whose retained output became identical after text curation were removed as rejected-duplicate-render; the retained-at-deduplication and removed source IDs are recorded below, including two retained copies later removed under the adult-content policy.",
@@ -81,6 +98,7 @@
         "Twenty-one adult works represented by 46 scripts were removed after official-tag and preview review. Nine adult-tagged but general-audience-safe works represented by 13 scripts have explicit retained-after-review decisions.",
         "Twenty-six reviewed split families represented by 134 scripts were rebalanced without reflowing retained source cells. The hash-locked plan discarded 69 generated presentation rows, removed 544 excessive source-authored leading blank rows, and rejected blank or severely imbalanced outputs.",
         "The 21 residual severe geometry signals are explicit, hash-locked retention decisions: 10 source-authored leading negative-space compositions and 11 structural, semantic, or repeated-motif tails. The retention verifier scans the full gallery and fails on drift or any unreviewed severe signal.",
+        "A second ledger-excluded review changed 154 surviving contact, identifying, commission, and recruitment rows across 41 scripts, retained 18 art-only context rows in the hash-locked review ranges, removed eight complete advertisement or board-information works represented by 27 scripts, and cropped 77 fully rendered-blank leading rows from 12 compact logos.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
@@ -107,6 +125,8 @@
         "lowQualityScripts": 146,
         "incompleteSourceScripts": 51,
         "postCurationDuplicateScripts": 17,
+        "residualAdvertisementScripts": 27,
+        "residualAdvertisementWorks": 8,
         "incompleteSourceWorks": [
             "16colors:33rules/33-GLO.ANS",
             "16colors:amish-0717/filth - camp.ans",
@@ -195,23 +215,23 @@
                 "retained": "16colors:glue-02/US-GLUE9.ANS"
             }
         ],
-        "reason": "When a text-only or low-quality part was removed, every surviving sibling from the same accepted source was also removed if retaining it would omit source rows. After text curation, whole works with identical retained output were deduplicated by preferring the earliest dated or archive-year source, then a stable lexicographic source ID when chronology was tied or unavailable."
+        "reason": "When a text-only, low-quality, or principally promotional part was removed, every surviving sibling from the same accepted source was also removed if retaining it would omit source rows. After text curation, whole works with identical retained output were deduplicated by preferring the earliest dated or archive-year source, then a stable lexicographic source ID when chronology was tied or unavailable."
     },
     "residualStructuralReviewSignals": {
-        "continuous-split-review": 1962,
+        "continuous-split-review": 1959,
         "dense-split-boundary": 10,
         "extreme-leading-blank-run": 10,
-        "internal-blank-run": 1388,
-        "leading-blank-run": 1855,
+        "internal-blank-run": 1382,
+        "leading-blank-run": 1842,
         "orphaned-tail-after-blank-run": 11,
-        "tiny-tail-part": 75
+        "tiny-tail-part": 68
     },
     "schemaVersion": 1,
     "scope": {
         "initialAddedScripts": 21968,
-        "removedScripts": 270,
-        "remainingAddedScripts": 21698,
-        "finalGalleryScripts": 24851,
+        "removedScripts": 297,
+        "remainingAddedScripts": 21671,
+        "finalGalleryScripts": 24824,
         "sourceFidelityLockedScripts": 21
     }
 }

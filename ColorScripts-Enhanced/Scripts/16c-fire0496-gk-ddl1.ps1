@@ -5,7 +5,7 @@
 # Source SHA-256: 464ae975178dbd4f374a8e82da77f41da4d042df0e7cbd62ae187bc500ac459d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GK-DDL1.ANS by grind king (fire); released in fire0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: doodle promo
 # SAUCE Author: grind king
 # SAUCE Group: fire
@@ -15,13 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                         [1;35m [0m                    [1m   [0m
-
-
-
-
-
-[34m              [0;37m [0;1;36m▄[0m                              [1;36m▄[0m         [34m [0m       [34m               [0m
+[1;35m[0m[1m[0m[34m              [0;37m [0;1;36m▄[0m                              [1;36m▄[0m         [34m [0m       [34m               [0m
 [30;44m▒░ [0;34;40m█████████[0;1;34;44m░[0;1;36;40m ▓██ [0;1;34;44m░[0;34m▀[0;1;36m ▄▄▄███▄▄ [0;34m█▀▀[0;1;36m ▄▄▄ [0;34m▀▀█████▄▄[0;1;36m █▄ [0;34m▀[0;1;36m ▄ [0;34m████[0;1;34;44m [0;34m▀▀▀[0;1;36m ▄▄▄ [0;34m▀██████████[0m
 [34m█[0;1;34;44m [0;34m████████[0;1;34;44m [0;1;36;40m ▄ ▐█[0;1;37;40m█[0;1;36;40m▌ ▐██▀ [0;35m [0;1;36m▀█[0;1;37m█[0;1;37;47m▓[0;1;36;40m▌ ▄▓▀  ▀██▄ [0;34m█[0;1;34;44m  ░▒[0;34m▀[0;1;36m ▐[0;1;37m█▌[0;1;36m █[0;1;37m█[0;1;36m [0;34m██[0;37;44m [0;1;34;44m░▒[0;1;36;40m █[0;1;36;47m▓[0;1;36;40m▀▀ ▐[0;1;37;40m█[0;1;36;40m▌[0;34m▐█████████[0m
 [34m█████████[0;1;34;44m [0;34m [0;1;36m▄[0;1;36;47m▓[0;1;36;40m▀ ██[0;1;36;46m▓[0;1;36;40m [0;1;36;47m▓▀[0;1;36;40m▌[0;34m░[0;30;44m░[0;34;40m█▌[0;1;36;40m▐█[0;1;36;47m▓[0;1;36;40m [0;1;36;47m▓[0;1;36;40m█▌[0;34m▐█[0;1;34;44m [0;34m▄[0;1;36m █[0;1;37m█[0;1;36m▌[0;34m▐▀▀[0;1;36m ▄ ▀ ██ ▐[0;1;36;47m▓[0;1;36;40m▌[0;34m▐[0;37;44m  [0;34;40m█▌[0;36;40m▐[0;1;36;46m▓[0;1;36;47m▒[0;1;36;40m [0;30;44m░[0;34;40m▀[0;1;36;40m [0;1;36;47m▓[0;1;36;40m█ [0;1;34;44m░ [0;34m███████[0m

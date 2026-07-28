@@ -9,3 +9,6 @@ ColorScripts-Enhanced/Scripts/asciiville-*.ps1 -text whitespace=-blank-at-eol
 
 # Durdraw's native ANSI example is an LF-only 80-column stream.
 ColorScripts-Enhanced/Scripts/durdraw-*.ps1 -text whitespace=-blank-at-eol
+
+# 16colors conversions may retain background-colored spaces through the right edge.
+ColorScripts-Enhanced/Scripts/16c-*.ps1 whitespace=-blank-at-eol

@@ -5,6 +5,7 @@ const test = require("node:test");
 
 const {
     assertSafeScriptName,
+    getFullyRemovedAnalysisScopes,
     getQuotedProperty,
     parseArguments,
     removeAnalysisExceptions,
@@ -86,6 +87,33 @@ test("removeAnalysisExceptions removes only exact family matches", () => {
     assert.deepEqual(result.document.exceptions, [
         { family: `${NAME}-other`, issueType: "mostly-plain-ascii" },
     ]);
+});
+
+test("analysis scopes include a split family only when every sibling is removed", () => {
+    const available = [
+        "16c-example-part01",
+        "16c-example-part02",
+        "16c-other-part01",
+    ];
+
+    assert.deepEqual(
+        getFullyRemovedAnalysisScopes(
+            ["16c-example-part01", "16c-example-part02"],
+            available
+        ).sort(),
+        [
+            "16c-example",
+            "16c-example-part01",
+            "16c-example-part02",
+        ]
+    );
+    assert.deepEqual(
+        getFullyRemovedAnalysisScopes(
+            ["16c-example-part01"],
+            available
+        ),
+        ["16c-example-part01"]
+    );
 });
 
 test("updateCheckpoint decrements emitted counts but retains the source", () => {
