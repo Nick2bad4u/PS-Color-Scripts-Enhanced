@@ -5,7 +5,7 @@
 # Source SHA-256: f58dd878f6fac7bb0250948feab0fe2f9e36062d631ca5afbcfcc63e7c0054e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-PIN.ANS by Tetsuo (hr09-94); released in hr09-94 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
             [31m▄▄█████████[0;1;31;41m▄[0;1;31;40m██[0;1;31;41m█████[0;1;31;40m██[0;1;31;41m█[0;1;31;40m███ [0;1;30;40m▄▄▄▄▄▄▄[0m       [31m███[0;1;31;41m▒▓[0;31m█  [0;1;30mYou can reach me on[0m
          [31m▄███████████[0;1;31;41m▄[0;1;31;40m███[0;1;31;41m█████████[0;1;31;40m██▌[0;1;30;40m▄█▀▀[0;1;30;47m▄▀  ▀▀▀[0;1;30;40m▄▄ [0;31m▐███[0;1;31;41m▓█[0;1;31;40m█[0;31m█  [0;1;30mRGSNet, HRNet, and[0m
           [31m██████████[0;1;31m███[0;1;31;41m██████████[0;1;31;40m███[0m        [1;30;40m▀▀▀▀█[0;1;30;47m▄[0;1;30;40m█▄[0;31m▀███[0;1;31m███[0;31m█  [0;1;30mPSINet... or thru[0m
-           [31m████████[0;1;31;41m▐█████████████[0;1;31;40m██▌[0m              [1;30;40m▀█▌[0;31m▐██[0;1;31;41m▐[0;1;31;40m███[0;31m▌ [0;1;30memail on High[0m
+           [31m████████[0;1;31;41m▐█████████████[0;1;31;40m██▌[0m              [1;30;40m▀█▌[0;31m▐██[0;1;31;41m▐[0;1;31;40m███[0;31m▌ [0;1;30m             [0m
            [31m▐████████[0;1;31m███[0;1;31;41m██████████[0;1;31;40m██[0m                 [1;30;40m▓ [0;31m██[0;1;31m████[0;31m▌ [0;1;30mFidelity, House[0m
             [31m████████[0;1;31;41m▐████████████[0;1;31;40m█▌   [0;32m▄[0;1;32;42m▄[0;32m▄[0m        [32m▄[0;1;32m▌ [0;1;30m▒ [0;31m█[0;1;31;41m▄█[0;1;31;40m███[0;31m█ [0;1;30mof Sin, NeoTokyo,[0m
             [31m▐████████[0;1;31;41m▀[0;1;31;40m████████████[0m     [32m▀[0;1;32m▀[0;32m▀[0;1;32m■    ■[0;32m▀[0;1;32m▀ [0;1;30m░  [0;31m▐[0;1;31m█████[0;31m█ [0;1;30mor the Shadow''s[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: a3073ad2fc61a8cddce8ba0a485a9ac838d34701986e979b96bab9fb566ff124
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-TAC3.ANS by Thor (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Apocalyptic City #2
 # SAUCE Author: Thor
 # SAUCE Group: Shiver
@@ -22,7 +22,7 @@ Write-Host '
 [1;37;47m░ [0m [31m▓[0;1;30m░▄[0;1;30;47m▓[0m  [1;30;40m░██▐  [0;31m▓[0;1;30;42m▓[0;1;30;40m▄▓  [0;1;37;47m▓▓[0;1;37;40m██ [0;1;37;47m░[0m▄ [1;30m     ▀                                          [0;1;30;47m░▒[0m
 [1;30;47m ░[0m [1;30;40m▄[0;1;30;47m▓[0;1;30;41m▄▀[0;1;30;40m▓▓█[0;1;30;41m▀[0;1;30;40m▌█[0;1;30;41m▀▀[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█[0;1;30;41m▄[0;31m▄ [0;1;37m██▀▀ [0;1;37;47m▒▒▓[0;1;37;40m▄[0;1;30;40m▒▄  ▓▀  I got this really K-SpAm idea for one, [0;1;30;47m ░[0m
 [1;30;47m░░[0m  [1;30;40m▀▓[0;1;30;46m▓[0;31m█▀▀[0;1;30;46m▓[0;1;30;40m██▀▓[0;31m▀█[0;1;30m█▀[0;31m█ [0;1;30m▄▄██ [0;1;37;47m▓▓[0;1;37;40m▀ [0;1;30;40m▒▒░ ▀█  and here it is.  If you''d like one of  [0;1;37;47m░ [0m
-[1;30;47m▒░[0m [31m░[0;1;30m░ ▀ [0;31m█[0;1;30m▄█[0;1;30;41m▄█[0;1;30;40m▄▒ ▀[0;31m█ ▓ [0;1;30m██▓▓ ▄▄█▓▓▓▒ █[0;1;30;47m▓[0m  [1;30;40mmy ansi''s, contact me on TAC.  They''re [0;1;37;47m▒░[0m
+[1;30;47m▒░[0m [31m░[0;1;30m░ ▀ [0;31m█[0;1;30m▄█[0;1;30;41m▄█[0;1;30;40m▄▒ ▀[0;31m█ ▓ [0;1;30m██▓▓ ▄▄█▓▓▓▒ █[0;1;30;47m▓[0m  [1;30;40m                                       [0;1;37;47m▒░[0m
 [1;30;47m▒▒[0m [31m▒   ▐▌[0;1;30m▀[0;1;30;47m▓[0;1;30;41m▀▄[0;1;30;40m▀░  [0;31m▓ ▒ [0;1;30m▓▓▒▒ ██▓ ▓▒░ [0;1;30;47m▓▒[0m  [1;30;40malways free. But stats never hurt..:)  [0;1;37;47m▓▒[0m
 [1;30;47m▓▒[0;31m■▓▀ ▄█▌ █[0;1;30;41m▀[0m     [31m▒ ░ [0;1;30m             [0;1;30;47m░▒[0m                                         [1;37;47m█▓[0m
 [1;30;47m▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█[0;31m█[0;1;30m▓█▓▄█▀▓▄ ▀ [0;31m░  [0;1;30m▄   ░░   ░    [0;1;30;47m  ░ ░░▒░▒▒▓▒▓▓[0;1;30;40m██▓▄▀ ▄  ▒ ▀ ░░    ░▒[0;1;30;47m█▓▒░ [0;1;37;47m░▒▓██[0m

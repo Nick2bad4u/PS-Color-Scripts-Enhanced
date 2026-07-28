@@ -98,7 +98,14 @@ test("rendered blank analysis reports leading, internal, and trailing runs", () 
         "",
     ]);
 
-    assert.deepEqual(blankRows, [true, true, false, true, false, true]);
+    assert.deepEqual(blankRows, [
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+    ]);
     assert.deepEqual(findBlankRuns(blankRows), [
         {
             count: 2,
@@ -127,7 +134,11 @@ test("contact detection finds real endpoints without flagging dates or baud rate
             "Call (212) 555-0198 or mail sysop@example.org; telnet://bbs.example.org"
         ),
         {
-            categories: ["email", "network-endpoint", "phone"],
+            categories: [
+                "email",
+                "network-endpoint",
+                "phone",
+            ],
             values: [
                 "(212) 555-0198",
                 "sysop@example.org",
@@ -139,29 +150,18 @@ test("contact detection finds real endpoints without flagging dates or baud rate
         categories: [],
         values: [],
     });
-    assert.deepEqual(
-        findContactDetails(
-            "Date: 11-01-92 (12:17) Number: 107"
-        ),
-        {
-            categories: [],
-            values: [],
-        }
-    );
-    assert.deepEqual(
-        findContactDetails("300/1200/2400 baud accepted"),
-        {
-            categories: [],
-            values: [],
-        }
-    );
-    assert.deepEqual(
-        findContactDetails("24OO/96OO/144OO Accepted"),
-        {
-            categories: [],
-            values: [],
-        }
-    );
+    assert.deepEqual(findContactDetails("Date: 11-01-92 (12:17) Number: 107"), {
+        categories: [],
+        values: [],
+    });
+    assert.deepEqual(findContactDetails("300/1200/2400 baud accepted"), {
+        categories: [],
+        values: [],
+    });
+    assert.deepEqual(findContactDetails("24OO/96OO/144OO Accepted"), {
+        categories: [],
+        values: [],
+    });
     assert.deepEqual(findContactDetails("████ 11111111 ████"), {
         categories: [],
         values: [],
@@ -175,9 +175,7 @@ test("contact detection finds real endpoints without flagging dates or baud rate
         values: [],
     });
     assert.deepEqual(
-        findContactDetails(
-            "SYSOP [*] SOLITARIO [*] 07-10-97 12:30 115200"
-        ),
+        findContactDetails("SYSOP [*] SOLITARIO [*] 07-10-97 12:30 115200"),
         {
             categories: [],
             values: [],
@@ -199,10 +197,7 @@ test("functional contact exceptions are exact-file and exact-row scoped", () => 
         }),
         true
     );
-    assert.equal(
-        isFunctionalContactException("other.ps1", { text }),
-        false
-    );
+    assert.equal(isFunctionalContactException("other.ps1", { text }), false);
     assert.equal(
         isFunctionalContactException("nerd-font-test.ps1", {
             text: text.replace("https://", "http://"),
@@ -273,15 +268,10 @@ Call 212-555-0198
     assert.equal(removedResult.blankedRows, 0);
     assert.equal(removedResult.removedRows, 1);
     assert.doesNotMatch(removedResult.source, /212-555-0198/u);
-    assert.match(
-        removedResult.source,
-        /██ ART ██\n\u001b\[32m▓▓ MORE ART ▓▓/u
-    );
+    assert.match(removedResult.source, /██ ART ██\n\u001b\[32m▓▓ MORE ART ▓▓/u);
     assert.throws(
         () =>
-            applyReviewedRows(source, [
-                { row: 3, text: "Call 212-555-0100" },
-            ]),
+            applyReviewedRows(source, [{ row: 3, text: "Call 212-555-0100" }]),
         /stale/u
     );
 });
@@ -296,10 +286,7 @@ Promotional text
 \u001b[41m   \u001b[0m
 MORE ART
 '`;
-    const current = baseline.replace(
-        "Promotional text",
-        "                "
-    );
+    const current = baseline.replace("Promotional text", "                ");
     const result = compactBlankRowsIntroducedSince(current, baseline);
     const payload = extractPowerShellPayload(result.source).value;
 
@@ -332,10 +319,7 @@ Removed heading
 
 ART
 '`;
-    const current = baseline.replace(
-        "Removed heading",
-        "               "
-    );
+    const current = baseline.replace("Removed heading", "               ");
     const result = trimExpandedLeadingBlankRows(current, baseline);
     const payload = extractPowerShellPayload(result.source).value;
 
@@ -356,7 +340,11 @@ ART
 test("removed rows carry terminal controls into the retained payload", () => {
     assert.deepEqual(
         removeRowsPreservingControls(
-            ["\u001b[31mART", "\u001b[0m", "MORE"],
+            [
+                "\u001b[31mART",
+                "\u001b[0m",
+                "MORE",
+            ],
             new Set([1])
         ),
         ["\u001b[31mART", "\u001b[0mMORE"]
@@ -508,14 +496,44 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.removals.postCurationDuplicateWorks.length, 17);
     assert.equal(
         checkpoint.removals.allBlankScripts +
+            checkpoint.removals.adultContentScripts +
             checkpoint.removals.lowQualityScripts +
             checkpoint.removals.incompleteSourceScripts +
             checkpoint.removals.postCurationDuplicateScripts,
         checkpoint.scope.removedScripts
     );
-    assert.ok(
-        Object.values(checkpoint.finalAudit).every((count) => count === 0)
+    for (const property of [
+        "contactRows",
+        "failedFileContactRows",
+        "filesWithContactRows",
+        "filesWithPolicyRows",
+        "filesWithTrailingBlankRows",
+        "policyRows",
+        "shadowGenuineContactOrPromotionalRows",
+        "trailingBlankRows",
+    ]) {
+        assert.equal(checkpoint.finalAudit[property], 0, property);
+    }
+    assert.equal(checkpoint.finalAudit.failedFiles, 56);
+    assert.equal(checkpoint.finalAudit.functionalContactExceptions, 1);
+    assert.equal(checkpoint.finalAudit.sourceFidelityLockedScripts, 21);
+    assert.equal(checkpoint.removals.adultContentWorks, 21);
+    assert.equal(checkpoint.policyReview.adultTaggedWorksRetained, 9);
+    assert.equal(checkpoint.policyReview.adultTaggedScriptsRetained, 13);
+    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 33812);
+    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23756);
+    assert.equal(
+        checkpoint.contentCleanup.highConfidenceGeometryRowsRemoved,
+        690
     );
+    assert.equal(checkpoint.contentCleanup.rebalancedFamilies, 26);
+    assert.equal(checkpoint.contentCleanup.rebalancedScripts, 134);
+    assert.equal(checkpoint.contentCleanup.rebalancedSourceRowsRetained, 5078);
+    assert.equal(
+        checkpoint.contentCleanup.rebalancedPresentationRowsDiscarded,
+        69
+    );
+    assert.equal(checkpoint.contentCleanup.rebalancedLeadingRowsRemoved, 544);
     assert.ok(
         Object.values(checkpoint.finalFreshContentOrIntegrityFindings).every(
             (count) => count === 0

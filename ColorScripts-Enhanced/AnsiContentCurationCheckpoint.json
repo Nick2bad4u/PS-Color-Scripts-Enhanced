@@ -1,10 +1,11 @@
 {
     "archiveState": {
-        "accepted16colorsSources": 15104,
-        "emitted16colorsScripts": 21570,
+        "accepted16colorsSources": 15083,
+        "emitted16colorsScripts": 21524,
+        "rejectedContentSources": 1374,
         "rejectedDuplicateRenderSources": 371,
         "rejectedQualitySources": 13992,
-        "reviewedAnalysisExceptions": 459
+        "reviewedAnalysisExceptions": 427
     },
     "auditDate": "2026-07-27",
     "baseline": {
@@ -16,24 +17,39 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 32316,
+        "totalRowsBlanked": 33812,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
         "sourceFidelityRowsRestored": 34,
-        "totalTrailingRowsRemoved": 22903
+        "totalTrailingRowsRemoved": 23756,
+        "reviewedContentRowsBlanked": 1172,
+        "contactOrPromotionalRowsBlanked": 324,
+        "curationCompactedRows": 8609,
+        "reviewedRowsRemoved": 56,
+        "highConfidenceGeometryRowsRemoved": 690,
+        "rebalancedFamilies": 26,
+        "rebalancedScripts": 134,
+        "rebalancedSourceRowsRetained": 5078,
+        "rebalancedPresentationRowsDiscarded": 69,
+        "rebalancedLeadingRowsRemoved": 544
     },
     "curationHistory": {
         "initialContentCurationCommit": "7a63e6107434739ed6ac914f87f4ba81de3d37aa",
         "followupCheckpointCommit": "b7916f45e84e907356a9325037fda86ed1ad13ff"
     },
     "finalAudit": {
-        "failedFiles": 0,
+        "failedFiles": 56,
+        "failedFileContactRows": 0,
+        "filesWithContactRows": 0,
+        "contactRows": 0,
         "filesWithPolicyRows": 0,
-        "filesWithTextRows": 0,
         "filesWithTrailingBlankRows": 0,
+        "functionalContactExceptions": 1,
         "policyRows": 0,
-        "textRows": 0,
+        "reviewedShadowFalsePositiveRows": 44,
+        "shadowGenuineContactOrPromotionalRows": 0,
+        "sourceFidelityLockedScripts": 21,
         "trailingBlankRows": 0
     },
     "finalFreshContentOrIntegrityFindings": {
@@ -52,7 +68,11 @@
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
-        "Seventeen whole works whose retained output became identical after text curation were removed as rejected-duplicate-render; the retained and removed source IDs are recorded above.",
+        "Seventeen whole works whose retained output became identical after text curation were removed as rejected-duplicate-render; the retained-at-deduplication and removed source IDs are recorded below, including two retained copies later removed under the adult-content policy.",
+        "The 56 remaining render or static-extraction failures are audited through a conservative authored-source fallback; none contains literal contact data outside provenance comments.",
+        "A separate bounded full-corpus contact scan found and removed 96 detector misses across 94 files. Its 44 remaining candidates exactly match the hash-locked false-positive review set.",
+        "Twenty-one adult works represented by 46 scripts were removed after official-tag and preview review. Nine adult-tagged but general-audience-safe works represented by 13 scripts have explicit retained-after-review decisions.",
+        "Twenty-six reviewed split families represented by 134 scripts were rebalanced without reflowing retained source cells. The hash-locked plan discarded 69 generated presentation rows, removed 544 excessive source-authored leading blank rows, and rejected blank or severely imbalanced outputs.",
         "Residual structural findings are retained as review queues; they do not indicate written text, policy terms, trailing blank output, malformed provenance, or decoding damage.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
@@ -65,10 +85,18 @@
             "slur": 1,
             "violence": 0
         },
+        "adultContentRemovalManifest": "AnsiPolicyRemovalManifest.json",
+        "adultContentRetentionLedger": "AnsiPolicyRetentionReviewLedger.json",
+        "adultWorksRemoved": 21,
+        "adultScriptsRemoved": 46,
+        "adultTaggedWorksRetained": 9,
+        "adultTaggedScriptsRetained": 13,
         "matching": "Exact normalized words and phrases plus exact punctuation-obfuscated tokens; arbitrary spaced-letter substrings, phone-number masking, and ambiguous surnames are excluded to avoid false positives."
     },
     "removals": {
         "allBlankScripts": 10,
+        "adultContentScripts": 46,
+        "adultContentWorks": 21,
         "lowQualityScripts": 146,
         "incompleteSourceScripts": 51,
         "postCurationDuplicateScripts": 17,
@@ -117,7 +145,9 @@
             },
             {
                 "removed": "16colors:ice9705a/US-CRYPT.ICE",
-                "retained": "16colors:fire0697/US-CRY3.ANS"
+                "retained": "16colors:fire0697/US-CRY3.ANS",
+                "retainedAtDeduplication": true,
+                "subsequentlyRemovedUnderAdultPolicy": true
             },
             {
                 "removed": "16colors:ira-007a/MR-MTRX.ANS",
@@ -149,7 +179,9 @@
             },
             {
                 "removed": "16colors:rile_001/FV-EXILE.ANS",
-                "retained": "16colors:fever1yr/25L00021.ANS"
+                "retained": "16colors:fever1yr/25L00021.ANS",
+                "retainedAtDeduplication": true,
+                "subsequentlyRemovedUnderAdultPolicy": true
             },
             {
                 "removed": "16colors:soc-0997/US-GLUE9.ANS",
@@ -159,17 +191,20 @@
         "reason": "When a text-only or low-quality part was removed, every surviving sibling from the same accepted source was also removed if retaining it would omit source rows. After text curation, whole works with identical retained output were deduplicated by preferring the earliest dated or archive-year source, then a stable lexicographic source ID when chronology was tied or unavailable."
     },
     "residualStructuralReviewSignals": {
-        "continuous-split-review": 2072,
-        "dense-split-boundary": 16,
-        "leading-blank-run": 1980,
-        "tiny-tail-part": 42
+        "continuous-split-review": 1962,
+        "dense-split-boundary": 10,
+        "extreme-leading-blank-run": 10,
+        "internal-blank-run": 1388,
+        "leading-blank-run": 1855,
+        "orphaned-tail-after-blank-run": 11,
+        "tiny-tail-part": 75
     },
     "schemaVersion": 1,
     "scope": {
         "initialAddedScripts": 21968,
-        "removedScripts": 224,
-        "remainingAddedScripts": 21744,
-        "finalGalleryScripts": 24897,
+        "removedScripts": 270,
+        "remainingAddedScripts": 21698,
+        "finalGalleryScripts": 24851,
         "sourceFidelityLockedScripts": 21
     }
 }

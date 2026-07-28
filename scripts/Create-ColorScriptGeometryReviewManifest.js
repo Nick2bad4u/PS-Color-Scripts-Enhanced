@@ -44,6 +44,47 @@ function writeFileAtomic(targetPath, content) {
 }
 
 /**
+ * Reproduce the analyzer's source-row normalization so reviewed row numbers
+ * can be mapped back to the serialized payload. The analyzer removes the
+ * serializer's opening presentation row only when the current payload length
+ * still matches the declared source span. Earlier curation may legitimately
+ * remove trailing blank rows without narrowing the archival source
+ * coordinates, in which case the analyzer keeps that presentation row.
+ *
+ * @param {string} source
+ * @param {string[]} rows
+ * @param {number} presentationRows
+ * @param {{ totalRows?: number }} finding
+ * @returns {number}
+ */
+function getAnalysisRowOffset(
+    source,
+    rows,
+    presentationRows,
+    finding
+) {
+    if (presentationRows === 0) return 0;
+    if (Number.isSafeInteger(finding.totalRows)) {
+        if (finding.totalRows === rows.length - presentationRows) {
+            return presentationRows;
+        }
+        if (finding.totalRows === rows.length) return 0;
+        throw new Error(
+            "Reviewed total rows no longer match either analyzer row convention."
+        );
+    }
+    const sourceRowsMatch =
+        /^# Lines:\s*(\d+)\s*-\s*(\d+)\s*$/mu.exec(source);
+    if (!sourceRowsMatch) return 0;
+    const startRow = Number(sourceRowsMatch[1]);
+    const endRow = Number(sourceRowsMatch[2]);
+    const declaredRows = endRow - startRow + 1;
+    return rows.length === declaredRows + presentationRows
+        ? presentationRows
+        : 0;
+}
+
+/**
  * @param {unknown} classification
  * @param {string} scriptsDirectory
  * @returns {object}
@@ -92,6 +133,12 @@ function createGeometryReviewManifest(
         const blankRows = getRenderedBlankRows(rows);
         const presentationRows =
             payload.kind === "literal" && blankRows[0] ? 1 : 0;
+        const analysisRowOffset = getAnalysisRowOffset(
+            source,
+            rows,
+            presentationRows,
+            finding
+        );
         const action = ACTION_MAP.get(finding.recommendedAction);
         const common = {
             action,
@@ -101,20 +148,22 @@ function createGeometryReviewManifest(
             totalRows: rows.length,
         };
         if (action === "crop-leading-blank-rows") {
+            const classifiedPresentationRows =
+                analysisRowOffset === 0 ? presentationRows : 0;
+            const removableRows =
+                finding.rows - classifiedPresentationRows;
             if (
                 !Number.isSafeInteger(finding.rows) ||
-                finding.rows < 1 ||
-                finding.rows + presentationRows >= rows.length ||
+                !Number.isSafeInteger(removableRows) ||
+                removableRows < 1 ||
+                removableRows + presentationRows >= rows.length ||
                 blankRows
                     .slice(
                         presentationRows,
-                        presentationRows + finding.rows
+                        presentationRows + removableRows
                     )
                     .some((isBlank) => !isBlank) ||
-                blankRows[presentationRows + finding.rows] ||
-                (Number.isSafeInteger(finding.totalRows) &&
-                    finding.totalRows !==
-                        rows.length - presentationRows)
+                blankRows[presentationRows + removableRows]
             ) {
                 throw new Error(
                     `${script}: leading geometry no longer matches the reviewed finding.`
@@ -123,20 +172,22 @@ function createGeometryReviewManifest(
             actions.push({
                 ...common,
                 preserveLeadingRows: presentationRows,
-                rows: finding.rows,
+                rows: removableRows,
             });
             continue;
         }
+        const gapStartRow = finding.startRow + analysisRowOffset;
+        const gapEndRow = finding.endRow + analysisRowOffset;
         if (
             !Number.isSafeInteger(finding.startRow) ||
             !Number.isSafeInteger(finding.endRow) ||
             finding.startRow < 2 ||
             finding.endRow < finding.startRow ||
-            finding.endRow + presentationRows >= rows.length ||
+            gapEndRow >= rows.length ||
             blankRows
                 .slice(
-                    finding.startRow - 1 + presentationRows,
-                    finding.endRow + presentationRows
+                    gapStartRow - 1,
+                    gapEndRow
                 )
                 .some((isBlank) => !isBlank)
         ) {
@@ -145,16 +196,16 @@ function createGeometryReviewManifest(
             );
         }
         const visibleTailRows = blankRows
-            .slice(finding.endRow + presentationRows)
+            .slice(gapEndRow)
             .filter((isBlank) => !isBlank).length;
         if (visibleTailRows < 1) {
             throw new Error(`${script}: reviewed orphan tail is now blank.`);
         }
         actions.push({
             ...common,
-            gapEndRow: finding.endRow + presentationRows,
-            gapStartRow: finding.startRow + presentationRows,
-            keepRows: finding.startRow - 1 + presentationRows,
+            gapEndRow,
+            gapStartRow,
+            keepRows: gapStartRow - 1,
             visibleTailRows,
         });
     }
@@ -267,6 +318,7 @@ if (require.main === module) {
 
 module.exports = {
     createGeometryReviewManifest,
+    getAnalysisRowOffset,
     main,
     parseArguments,
 };

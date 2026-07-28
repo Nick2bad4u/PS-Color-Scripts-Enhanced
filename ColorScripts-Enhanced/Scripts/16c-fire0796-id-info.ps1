@@ -5,7 +5,7 @@
 # Source SHA-256: c4eb20a7c423b27de00f65fb0f05a4483cb34b5aec0dfad8e467fc0828b2efc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ID-INFO.ANS by iodine (fire0796); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Nativity in B&W
 # SAUCE Author: iodine
 # SAUCE Date: 19960703
@@ -34,7 +34,7 @@ Write-Host '
 [37m  [0;34m▐▓[0m   [1;37m     [0;1;36m                [0;1;37m    [0m         [1;36m                        [0;34m ░ [0m    [1;36m▄▄[0m
   [34m▀░[0;37m  [0;1;37m                   [0m          [1;33m ▄[0m    [1;36monly get your own[0m [1;36m  [0m        [31m [0;37m [0;1;36m▀[0m [1;36m▄▀[0m
    [34m [0m   [1;37mDave Mei[0m                  [1;33m ▄[0;1;33;43m██[0;1;33;40m▄▄ [0m [1;33mAUTHENTIC IODINE LOGO.[0m  [31m  ▄▀[0;37m  [0;36m▄█▄▄▌[0;37m [0;31m░[0m
-       [1;37m1157 71st. [0m             [1;33m  [0;33m▀[0;1;33;43m░░▓▓[0;1;33;40m▓ [0m [1;36mHere''s how to order.[0m   [31m░░▓▌▄▓▄▄▄▄▄▄▄▌[0m
+       [1;37m           [0m             [1;33m  [0;33m▀[0;1;33;43m░░▓▓[0;1;33;40m▓ [0m [1;36m                    [0m   [31m░░▓▌▄▓▄▄▄▄▄▄▄▌[0m
        [1;37m                    [0m     [1;33m  [0;33m ▀[0;1;33;43m [0;1;33;40m   [0m [1m                   [0;31m [0m    [31m ▓▓[0;1;31;41m▀[0;31m▌[0m       [31m▌[0m
                                    [1;33m  [0m        [31m▄[0m     [31m▄[0;37m [0;31m▄▄[0;1;31;41m▄▄[0;31m▄[0;1;31;41m▄▄▄[0;31m▄▀▀▀[0;37m [0;31m░░  [0m      [31m [0m
        [1;37mMake Checks/Money Orders[0m             [31m▄▌[0;37m  [0;31m▄[0;1;31;41m▄[0;31m█▄█▀▀▀▀[0m

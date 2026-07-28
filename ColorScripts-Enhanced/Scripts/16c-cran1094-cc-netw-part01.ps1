@@ -5,7 +5,7 @@
 # Source SHA-256: 75e5f420554fe638d9a2116f6647a2e1d261526ce83bf7aa24cb5f987a9f6028
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-NETW.ANS by Clorox Cowboy (cran1094); released in cran1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
      ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄    │
    ▄▀   [36m▀▀▀▀▀▀[0;1;36m▀▀▀ ▀[0m            [1;37m█   [0;1;35m│ [0;1;37mIf Y[0;1;36mou Woul[0;36md Like An ANSi O[0;1;36mr VGA D[0;1;37mone[0m
 [1;37m  [0m█      [1;30m▄▀▀▀▀▀▀▀▀▀▀█   █▀▀[0;1;37m▄    [0m█  [1;35m│ [0;1;37mBy M[0;1;36myself O[0;36mr Any Other Member [0;1;36mOf Cran[0;1;37mium[0m
-[1;37m [0m█  [1;36m▄▀ [0;1;30m▄▀[0m           [1;30m█ [0;1;36m▀ [0;1;30m▀[0;1;37m▀▀ [0;1;36m▄▀  [0m█  [35m│ [0;1;37mPro[0;1;36mductio[0;36mns, Contact Us At O[0;1;36mur HQ Or [0;1;37mAny[0m
+[1;37m [0m█  [1;36m▄▀ [0;1;30m▄▀[0m           [1;30m█ [0;1;36m▀ [0;1;30m▀[0;1;37m▀▀ [0;1;36m▄▀  [0m█  [35m│ [0;1;37m   [0;1;36m      [0;36m                   [0;1;36m         [0;1;37m   [0m
 [1;37m [0m█   [36m▄ [0;1;30m▀▄[0m           [1;30m█ [0;36m▄  ▀▀▀ [0;37m▄▄▀   [0;35m│ [0;1;37mOf O[0;1;36mur Fine [0;36mDistribution Sit[0;1;36mes Near [0;1;37mYou.[0m
 [1;37m  [0m█  [36m▄▄  [0;1;37m▀▀▀▀▀▀▀[0m▄   [1;30m█ [0;36m▄ [0;37m▄[0;1;30m▀▀▀▀▀[0m     [35m│[0m
 [35m   [0;37m▀[0;1;30m▄ [0;36m▀▀▀ ▀ [0;1;36m▀▀  [0m█   [1;30m█ [0;36m▀ [0;37m█[0m          [1;35m│[0m

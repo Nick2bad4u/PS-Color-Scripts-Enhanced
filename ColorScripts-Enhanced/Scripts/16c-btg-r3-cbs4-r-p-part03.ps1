@@ -5,7 +5,7 @@
 # Source SHA-256: 6275d310b887c6a564523984ad161ecb29ff92fa7dadd433ede271e57120daa7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CBS4#R&P.ANS by Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 79-114
 # Columns: 1-80
 
@@ -43,4 +43,4 @@ Write-Host '
 [1;30;40m  ▀▓█▀[0m     [34m▀██   [0;1;30m▀[0;34m▀▀▀[0m       [34m▀[0;1;30m▀ [0;34m▀▀▀[0;1;30;44m▒[0;1;30;40m▀    [0;34m▀[0;1;30;44m▒░▒[0;34m▀ ▐█[0;1;30;44m░▒[0;34m▄    ▐█   [0;1;30;44m▓▒[0m   [1;30;40m▀▓█▀[0m      [34m▀[0;1;30m▀[0m
        [1;30m█[0;1;30;44m▓[0m  [34m▐[0;1;30;44m░[0;34m█[0m                                 [34m▀[0;1;30;44m░[0;34m▀[0m      [34m▀▄ [0;1;30m▀▀[0m
        [1;30m▐[0;1;30;44m▓▒[0;34m▄[0;1;30;44m░░[0;34m▌[0m
-        [34m▀[0;1;30;44m▒░[0;34m█▀[0m     [1;30m-- [0;36m+[0;1;36m3[0;36m5[0;1;36m8-(9)84-767[0;36m5[0;1;36m8[0;36m3 [0;1;30m-- [0;36mO[0;1;36mpe[0;36mn [0;1;36m24[0;36mh [0;1;30m-- [0;36m2[0;1;36m400 [0;36m- [0;1;36m2880[0;36m0 [0;1;36mbp[0;36ms [0;1;30m--[0m'
+        [34m▀[0;1;30;44m▒░[0;34m█▀[0m     [1;30m   [0;36m [0;1;36m [0;36m [0;1;36m           [0;36m [0;1;36m [0;36m  [0;1;30m   [0;36m [0;1;36m  [0;36m  [0;1;36m  [0;36m  [0;1;30m   [0;36m [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m  [0;36m  [0;1;30m  [0m'

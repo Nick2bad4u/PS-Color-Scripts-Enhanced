@@ -5,7 +5,7 @@
 # Source SHA-256: 1ab74f87ea1d687c3cb7045672448b4860c8f3594f1f26537cecdeaa68c1df1a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PN-PLSMA.ANS by Piston (Shiver); released in shv-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Plasma
 # SAUCE Author: Piston
 # SAUCE Group: Shiver
@@ -23,7 +23,7 @@ Write-Host '
 [1;30m▀▀░░░░░░▒▒▓     [0m        ▐[1;47m░░  [0m█[1;30m  ░▀   [0;34m▄[0m  [1;30m▀░▒▓▓█[0m  ▐[1;30;47m░ [0;1;37;47m░▒▓[0m   │ [1mp[0mu[1;34mr[0;34mc[0;1;30mhase an original[0m
     [1;30m▀▀░░░▒▌[0m    [34m░[0m    [1;37m▄▄▄[0;1;37;47m▒▓▒▒░░ [0m▌[1;30m▀   [0m [34m▐░▄[0m  [1;30m▐▓▓██[0;1;30;47m▓[0m▄[1;30;47m░░ [0;1;37;47m░▒▓[0;1;37;40m▌[0m  [1;30;40m│[0m [1;37;40mA[0mN[1;34mS[0;34mi[0;1;30m from yours truly[0m
      [1;30m  ▀░▀[0m    [34m▐░▌[0;1;30m [0;1;37m▄[0;1;37;47m▒▒▓▓▓█▓▓▒▒[0m█ [1;30m    [0m [34m▒░░▌[0m  [1;30m██[0;1;30;47m▓▓▓▒░ [0;1;37;47m░▒▓██[0m  [1;30;40m∙[0m [1;37;40mf[0mo[1;34mr[0;1;30m a small fee, then[0m
-   [1;30m    [0m       [34m░▒░[0;1;30m [0;1;37;47m▒▓▓██████▓▓[0m▌[1;30m    [0m [34m▐░▒▒▒ [0m [1;30m▐[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▒░ [0;1;37;47m░░▒▓██[0;1;37;40m▌[0m [1;37;40m [0m [1;37;40my[0mo[1;34mu[0;1;30m can contact me on[0m
+   [1;30m    [0m       [34m░▒░[0;1;30m [0;1;37;47m▒▓▓██████▓▓[0m▌[1;30m    [0m [34m▐░▒▒▒ [0m [1;30m▐[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▒░ [0;1;37;47m░░▒▓██[0;1;37;40m▌[0m [1;37;40m [0m [1;37;40m [0m [1;34m [0;1;30m                  [0m
               [34m▒▒░▌[0;1;30m [0;1;37;47m█████████[0m▀[1;30m   [0m [1;30m [0m [34m▒▒▓▓▓▒ [0m [1;30m█[0;1;30;47m▓▓▒░ [0;1;37;47m░▒▓████[0m [1;37;40m [0m [1;37;40mt[0mh[1;34me[0;1;30m SHiVER CHQ, The[0m
              [34m▐▓▓▒▒[0;1;30m  [0;1;37m▀▀[0;1;37;47m███[0;1;37;40m▀▀[0;1;30;40m [0m [1;30;40m     [0;34m▐▓▓███▓▓[0;1;30m  [0;1;30;47m▓▒░ [0;1;37;47m░▒▓█████[0m [1;37;40m [0m [1;37;40mC[0mr[1;34mi[0;34mm[0;1;30mson Waters or on[0m
              [34m▓██▓▓▌[0;1;30m  [0m     [1;30m        [0;1;34;44m░[0;34m██[0;1;34;44m░░░[0;34m█▓▌[0;1;30m  [0;1;30;47m░░ [0;1;37;47m░▒▓████[0;1;37;40m▌[0m   [1;37;40mM[0me[1;34mt[0;34ma[0;1;30ml Edge (in 613)[0m [1;30m [0m

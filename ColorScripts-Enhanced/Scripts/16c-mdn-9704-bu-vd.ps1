@@ -5,7 +5,7 @@
 # Source SHA-256: 98a8d2f8a8076cdf505441f1455dc5fd5e84c86dd3188e10fa80b3c25a4af7f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BU-VD!.ANS by bUtTmAn (cSf/mAiden); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: viRTUAL dEATH...
 # SAUCE Author: bUtTmAn
 # SAUCE Group: cSf/mAiden
@@ -34,7 +34,7 @@ Write-Host '
                                   [1;30m [0;34m█[0;1;34;44m▀███████████▄▄▄█████████████▌[0;34m▌[0;37m [0;1;37m▀▀[0;1;32m█[0;1;32;42m▀[0m  - -────
           [32m [0;37m+[0;1;30m·[0mo [1;30m·[0m m[1;30m·[0ma[1;30m·[0mv[1;30m·[0me[1;30m·[0mr[1;30m·[0mi[1;30m·[0mc[1;30m·[0mk    [34m▀▀[0;1;34;44m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;34m▀▀▀▀▀[0;36m [0;32m [0;1;32m█[0;32m█▌[0m
                                                [32m                [0;1;32m▄▄▄▄▄[0;1;32;42m█▀[0;32m██[0m
-               [37m+[0;1;30m·[0m5[1;30m·[0m5[1;30m·[0m-[1;30m·[0m1[1;30m·[0m1[1;30m·[0m-[1;30m·[0m2[1;30m·[0m6[1;30m·[0m0[1;30m·[0m-[1;30m·[0m5[1;30m·[0m1[1;30m·[0m3[1;30m·[0m5    [1m▀██[0;1;32m████████████[0;1;32;42m▀▀▀[0;32m███▀▀[0m
+               [37m [0;1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m     [1m▀██[0;1;32m████████████[0;1;32;42m▀▀▀[0;32m███▀▀[0m
                                                  [32m      [0;1;32m▀▀▀▀▀[0;32m▀▀▀▀▀[0m
 
 [1;30m────  [0m                       [1;30m ─ ─ ─ ─ ─ ───── [0m                    [1;30m ─     ─ ─ ─ ─[0m'

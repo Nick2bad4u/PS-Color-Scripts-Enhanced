@@ -5,7 +5,7 @@
 # Source SHA-256: 637299c08fe2c8b93e8fc63002e9abfbd47c8a39a64148039474e6f10c180f58
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-S&S1.ANS by Sabotage (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Cave (Simon & Simon =)
 # SAUCE Author: Sabotage
 # SAUCE Group: WBT/SHiVER
@@ -18,7 +18,7 @@ Write-Host '
    [33m▄▄▄[0m      [1;30m   [0m      [33m▄▄▄[0m   [1;30m││                                                  [0m
 [33m ▀▀▄[0;1;30m ▄[0;33m▀▀▄[0m         [33m▄▀▀[0;1;30m▄[0;33m ▄▀▀[0;1;30m ││ T.V show, this is my attemp at drawing whats his[0m
     [33m█[0;1;30m █[0;1;30;47m▓[0;1;30;40m▄[0;33m▀▄▄[0m   [33m▄▄▀[0;1;30m▄[0;1;30;47m▓[0;1;30;40m█[0;33m █[0m    [1;30m││ name, Umm, A.J. I think. Any ways, its original[0m
-     [33m█[0;1;30m █[0;1;30;47m▒░[0m▄[33m ▀▀▀[0;37m ▄[0;1;30;47m░▒[0;1;30;40m█[0;33m █[0m     [1;30m││ like usual.[0m  [1;30mBlah, contact me somewhere if you[0m
+     [33m█[0;1;30m █[0;1;30;47m▒░[0m▄[33m ▀▀▀[0;37m ▄[0;1;30;47m░▒[0;1;30;40m█[0;33m █[0m     [1;30m││            [0m  [1;30m                                 [0m
      [33m█[0;1;30m █[0;1;30;47m▒░[0m▀[33m ▄▄▄[0;37m ▀[0;1;30;47m░▒[0;1;30;40m█[0;33m █[0m     [1;30m││ need an ansi, this is my 3-4 ansi for The Cave, I[0m
     [33m█[0;1;30m █[0;1;30;47m▓[0;1;30;40m▀[0;33m▄▀▀[0m   [33m▀▀▄[0;1;30m▀[0;1;30;47m▓[0;1;30;40m█[0;33m █[0m    [1;30m││ would kinda like some new boards to draw for.[0m
 [33m ▄▄▀[0;1;30m ▀[0;33m▄▄▀[0m         [33m▀▄▄[0;1;30m▀[0;33m ▀▄▄[0;1;30m ││ Just like to say hey to POE : WBT aint so bad :)[0m

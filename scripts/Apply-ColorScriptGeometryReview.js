@@ -124,7 +124,7 @@ function validateManifest(document) {
                 candidate.gapEndRow < candidate.gapStartRow ||
                 candidate.gapEndRow >= candidate.totalRows ||
                 candidate.visibleTailRows < 1 ||
-                candidate.visibleTailRows !==
+                candidate.visibleTailRows >
                     candidate.totalRows - candidate.gapEndRow)
         ) {
             throw new Error(
@@ -232,6 +232,7 @@ function applyGeometryAction(source, action) {
  * @param {string[]} arguments_
  * @returns {{
  *     manifestPath: string;
+ *     onlyScript: string | null;
  *     scriptsDirectory: string;
  *     write: boolean;
  * }}
@@ -239,6 +240,7 @@ function applyGeometryAction(source, action) {
 function parseArguments(arguments_) {
     const options = {
         manifestPath: null,
+        onlyScript: null,
         scriptsDirectory: DEFAULT_SCRIPTS_DIRECTORY,
         write: false,
     };
@@ -253,6 +255,9 @@ function parseArguments(arguments_) {
                 REPOSITORY_ROOT,
                 argument.slice("--scripts-dir=".length)
             );
+        } else if (argument.startsWith("--only=")) {
+            options.onlyScript = argument.slice("--only=".length);
+            assertSafeFileName(options.onlyScript);
         } else if (argument === "--write") {
             options.write = true;
         } else if (argument === "--help") {
@@ -261,6 +266,7 @@ function parseArguments(arguments_) {
 Options:
   --manifest=<path>     Reviewed geometry action manifest
   --scripts-dir=<path>  Colorscript directory
+  --only=<script.ps1>   Apply one manifest action for resumable review
   --write               Apply validated actions (default is a dry run)
   --help                Show this help`);
             process.exit(0);
@@ -273,6 +279,7 @@ Options:
     }
     return {
         manifestPath: options.manifestPath,
+        onlyScript: options.onlyScript,
         scriptsDirectory: options.scriptsDirectory,
         write: options.write,
     };
@@ -287,7 +294,18 @@ function main(arguments_ = process.argv.slice(2)) {
     const manifest = JSON.parse(
         fs.readFileSync(options.manifestPath, "utf8")
     );
-    const actions = validateManifest(manifest);
+    const manifestActions = validateManifest(manifest);
+    const actions =
+        options.onlyScript == null
+            ? manifestActions
+            : manifestActions.filter(
+                  (action) => action.script === options.onlyScript
+              );
+    if (options.onlyScript != null && actions.length !== 1) {
+        throw new Error(
+            `${options.onlyScript}: manifest contains no matching geometry action.`
+        );
+    }
     let removedRows = 0;
     for (const action of actions) {
         const filePath = path.join(

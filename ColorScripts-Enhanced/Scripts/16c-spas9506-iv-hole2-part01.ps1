@@ -5,7 +5,7 @@
 # Source SHA-256: c5ae7009be494541d2aecdae5946dd45a1a33e0b707cf8895ba1cb14e198f9dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IV-HOLE2.ANS by iNTeR vIzIoN (spastik!); released in spas9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hOle! #2 !
 # SAUCE Author: iNTeR vIzIoN
 # SAUCE Group: spastik!
@@ -19,7 +19,7 @@ Write-Host '
 [1;37m▄░[0m [1;37m▀█[0;1;37;45m▓[0;1;37;47m▓[0;1;37;40m█▀▌[0m [1;37;40m█[0;1;37;45m▓[0;1;37;47m▓[0;1;37;40m█▀▌[0;31m░[0;1;37m█[0;1;37;45m▓[0;1;37;47m▓[0;1;37;45m█[0;1;37;40m▀▌[0;31m▒[0m [1;37mi  n  n  e  r   v  i  s  o  n [0m [1;37m%  s  p  a  s  t  i  c[0;31m▒[0m
 [31m▒[0m [1;37m▀■▐▓▀[0m [1;37m▀■[0;31m▄[0;1;37m▐▓▀[0m [1;37m▀■[0;31m▐[0;1;37m▐▓▀[0m [1;37m▀■[0;31m▓[0m
 [31m▓█▄ [0;1;37m▀▒[0m   [1;37m [0;31m▄[0;1;37m▀▒[0m   [1;37m [0;31m▒[0;1;37m▀▒[0m   [1;37m [0;31m█[0m  [37m                    [0;1;37m  [0m                            
-[31m████[0m [1;37m░[0;1;30m▄[0m [1;30m░[0;1;37m [0;1;31;41m░[0m [1;37;40m░[0;1;30;40m▄[0m [1;30;40m░[0;1;37;40m [0;1;31;41m░[0m [1;37;40m░[0;1;30;40m▄[0m [1;30;40m░[0;1;37;40m [0;1;31;41m░[0m  [1;37;40mhOle[0m!, [1mAzrael[0m''s board :) umm. . to contact me, call
+[31m████[0m [1;37m░[0;1;30m▄[0m [1;30m░[0;1;37m [0;1;31;41m░[0m [1;37;40m░[0;1;30;40m▄[0m [1;30;40m░[0;1;37;40m [0;1;31;41m░[0m [1;37;40m░[0;1;30;40m▄[0m [1;30;40m░[0;1;37;40m [0;1;31;41m░[0m  [1;37;40m    [0m   [1m      [0m                                      
 [1;31;41m░[0;31m▀▀▀[0m [1;30m▓▌[0m [1;30m▒■[0;1;31;41m▒[0m [1;30;40m▓▌[0m [1;30;40m▒■[0;31m▐[0m [1;30m▓▌[0m [1;30m▒■[0;1;31;41m▒[0m  my bbs, [1mOrganized Konfusion[0m,[1m [0mor catch me on the [1mirc [0;1;31;41m▒[0m
 [1;30;40m▄[0m [1;30;40m▀■▐[0;1;30;47m▓[0;1;30;40m▄▀▓▌[0;1;31;41m▓[0;1;30;40m▐[0;1;30;47m▓[0;1;30;40m▄▀▓▌[0;1;31;41m▓[0;1;30;40m▐[0;1;30;47m▓[0;1;30;40m▄▀[0;1;30;47m▓[0;1;30;40m▌[0;1;31;41m▒[0m  Greets: Azrael, Twisted Terro ist, Crimson Skye,
 [31m [0;1;30m▓▄■▀[0;1;31m▄[0;1;30m▀▀▀▄■▀[0;1;31m▄[0;1;30m▀▀▀■▄▀▀▀▀[0;1;31m▄▄█▌[0m Joe Mama, Ts, Matrixx, Def, a l of spastic  - iv95![1;31m▐[0;1;31;41m▓[0m

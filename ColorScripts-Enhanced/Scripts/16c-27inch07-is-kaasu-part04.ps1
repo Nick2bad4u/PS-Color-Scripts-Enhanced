@@ -5,21 +5,12 @@
 # Source SHA-256: 888852032e049a711289bfec43d47e94c75b4976aa06ee6c9d77ec1d7bd1c249
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: is-kaasu.ans by Prosthesis (27inch07); released in 27inch07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 127-170
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
+# Lines: 137-170
 # Columns: 1-80
 
 Write-Host '
-[1;30m███ [0m              [1;30m▄█████▒[0m
-[1;30m███ [0m               [1;30m▀▓▓▓▓▒[0m
-[1;30m███▄[0m                [1;30m▒▒▒▒[0m           [1;30m▄▄█[0m [1;30m███[0m                          [1;30m▒[0m
-[1;30m████[0m                             [1;30m▒████████[0m                          [1;30m▒[0m
-[1;30m█████ [0m                           [1;30m█████████[0m                          [1;30m▒[0m
-[1;30m█████ [0m                         [1;30m ▒█████████[0m                          [1;30m▒[0m
-[1;30m█████▄[0m                          [1;30m██████████[0m                          [1;30m▒[0m
-[1;30m███████ [0m                        [1;30m██████████[0m                          [1;30m▒[0m
-[1;30m████████ [0m                      [1;30m▒██████████[0m                          [1;30m▒[0m
-[1;30m█████████   [0m                   [1;30m▒██████████[0m                          [1;30m▒[0m
+[0m[0m[1;30m█████████   [0m                   [1;30m▒██████████[0m                          [1;30m▒[0m
 [1;30m█████████▄ [0m                    [1;30m███████████[0m                          [1;30m▒[0m
 [1;30m██████████  [0m                   [1;30m███████████[0m                          [1;30m▒[0m
 [1;30m██████████  [0m                   [1;30m███████████[0m                          [1;30m▒[0m
@@ -48,4 +39,4 @@ Write-Host '
 [1;30m███████████████▒[0m         [1;33mBLING BLING.[0m       [1;30m▒█[0m▓█[1;30m▒[0m   ▀▀▓▓[1;30m█[0m      █[1m▓▓▓▓[0m██[1m▒[0;1;30m▒[0m
 [1;30m██████▀[0m                                     [1;30m▓█[0;1;30;47m▒▒[0m░     ██░[1m▒[0m▄▄[1;30m  ▄[0;1;30;47m▄▄[0m▒▒[1;30m▒[0;1;37m▒▒[0m▓▓[1;30m▄[0m
 [1;30m████▀[0m                                       [1;30m▒▒[0m░░[1;30m░[0m     ██░[1m▒[0m███▒[1;30m████▀[0m [1;30m▀█[0m▒[1;47m▀[0m█[1;47m▒▒[0;1;40m█[0m
-[1;30;40m▀▀▀[0m    [1;30mi had to hurry a bit with this piece [0m          [1;30m▒▒▒▀▀[0m▒▒▒[1;30m█▀▀[0m      [1;30m▀▀▀██[0m'
+[1;30;40m▀▀▀[0m    [1;30mi had to hurry a bit with this piece [0m          [1;30m▒▒▒▀▀[0m▒▒▒[1;30m█▀▀[0m      [1;30m▀▀▀██[0m[0m'

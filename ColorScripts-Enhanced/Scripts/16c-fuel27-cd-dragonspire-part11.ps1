@@ -5,17 +5,20 @@
 # Source SHA-256: 9ebf08ab9c744f33ddf4d22ce129a501ee65d8075d0427641454b95f7c11467c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cd-dragonspire.ans by Who!? aka CD (FUeL); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dragonspire
 # SAUCE Author: Who!? aka CD
 # SAUCE Group: FUeL
 # SAUCE Date: 20180531
 # SAUCE Dimensions: 80x533
 # SAUCE Font: IBM VGA
-# Lines: 486-533
+# Lines: 481-533
 # Columns: 1-80
 
 Write-Host '
+[0m[0m                  [31m░░▒▒▓▓▓█████▓▓▀▀▀▀▓▀[0m
+                         [31m▀[0;37m  [0;31m▀▀[0m      [31m░[0m
+[0m
 
 
 
@@ -62,4 +65,4 @@ Write-Host '
 
 
 
-                                                                           [1;30m▄[0m'
+                                                                           [1;30m▄[0m[0m'

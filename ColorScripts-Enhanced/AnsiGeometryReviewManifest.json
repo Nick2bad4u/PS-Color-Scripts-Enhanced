@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-27T22:24:28.044Z",
+  "policy": "Apply only high-confidence reviewed crops that remove rendered-blank leading margins or stranded tails after a verified blank gap. Background-colored spaces and source-fidelity-locked payloads fail closed.",
+  "summary": {
+    "actions": 14,
+    "leadingCrops": 9,
+    "orphanTailCrops": 5
+  },
+  "actions": [
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "5df26e8b08cc70ef6e5319be11cbb71ede97207b47dd89b41d41d50c7cf9aabe",
+      "reason": "The user explicitly identified this compact logo's three source-authored blank leading rows as excessive. Preserve the serializer's single presentation row and remove only those fully blank source rows.",
+      "script": "16c-air-0597-ch-jolt.ps1",
+      "totalRows": 16,
+      "preserveLeadingRows": 1,
+      "rows": 3
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "6c24b2fb3d7515c66fa517ebb2e8563d1a40ff3f764db8c995d2871ce9383234",
+      "reason": "This is an unsplit, compact work whose leading blank run exceeds or nearly equals the visible composition. Cropping only fully blank terminal rows improves gallery output without changing any visible cell.",
+      "script": "16c-awe-12-ma-forg.ps1",
+      "totalRows": 23,
+      "preserveLeadingRows": 1,
+      "rows": 11
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "dac09756d0e9f891961dba437b25e16f3f387df5f0435dec632f2544443f3b5e",
+      "reason": "This is an unsplit, compact work whose leading blank run exceeds or nearly equals the visible composition. Cropping only fully blank terminal rows improves gallery output without changing any visible cell.",
+      "script": "16c-bpi0696-sd-vrb.ps1",
+      "totalRows": 14,
+      "preserveLeadingRows": 1,
+      "rows": 6
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "f7ddc831493838bdc09deacb4d51ead0951ca5e3100c9323e96a6688d363ed90",
+      "reason": "This is an unsplit, compact work whose leading blank run exceeds or nearly equals the visible composition. Cropping only fully blank terminal rows improves gallery output without changing any visible cell.",
+      "script": "16c-bpi0896-sd-chat.ps1",
+      "totalRows": 15,
+      "preserveLeadingRows": 1,
+      "rows": 8
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "ab1ab6eea5745956acf31637ffcb763441c947c9be9607130972afc8b58003b0",
+      "reason": "This is an unsplit, compact work whose leading blank run exceeds or nearly equals the visible composition. Cropping only fully blank terminal rows improves gallery output without changing any visible cell.",
+      "script": "16c-fsn-0397-iz-lorez.ps1",
+      "totalRows": 21,
+      "preserveLeadingRows": 1,
+      "rows": 12
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "c7e633681b81c601fca4b2f6c06380a1e5a8724e4838c6dc85a4dc0507be8284",
+      "reason": "This is an unsplit, compact work whose leading blank run exceeds or nearly equals the visible composition. Cropping only fully blank terminal rows improves gallery output without changing any visible cell.",
+      "script": "16c-purg-04-jd-foi1.ps1",
+      "totalRows": 14,
+      "preserveLeadingRows": 1,
+      "rows": 7
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "14452f47f96210fc4eb16ae35da989d7b041ab3273899e4d5926d37c2448dc58",
+      "reason": "This is an unsplit, compact work whose leading blank run exceeds or nearly equals the visible composition. Cropping only fully blank terminal rows improves gallery output without changing any visible cell.",
+      "script": "16c-rmtz-4-nvz-tiny.ps1",
+      "totalRows": 16,
+      "preserveLeadingRows": 1,
+      "rows": 7
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "32a6acbd8c2a400cbe9d6e417c2cbef77d1d3e04c23ed3c6fe736cba760a348f",
+      "reason": "This is an unsplit, compact work whose leading blank run exceeds or nearly equals the visible composition. Cropping only fully blank terminal rows improves gallery output without changing any visible cell.",
+      "script": "16c-rmtz-4-sf-rmtz2.ps1",
+      "totalRows": 15,
+      "preserveLeadingRows": 1,
+      "rows": 7
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "30386e8a1311f4323932879996d6f8d811e12dd98eb8902e470dce49c47c5339",
+      "reason": "This is an unsplit, compact work whose leading blank run exceeds or nearly equals the visible composition. Cropping only fully blank terminal rows improves gallery output without changing any visible cell.",
+      "script": "16c-sclr-14-phz-neam.ps1",
+      "totalRows": 15,
+      "preserveLeadingRows": 1,
+      "rows": 7
+    },
+    {
+      "action": "crop-orphaned-tail",
+      "expectedPayloadSha256": "d00e620705896561711dc1d782d2e310830f46f1378ce765a182c0b5ffb933c5",
+      "reason": "Only an isolated dot, smiley, or block remains after a long fully blank run. The fragment is not a structural edge and reads as a stranded footer artifact in gallery output.",
+      "script": "16c-blocktronics-16colors-we-09.ps1",
+      "totalRows": 43,
+      "gapEndRow": 42,
+      "gapStartRow": 32,
+      "keepRows": 31,
+      "visibleTailRows": 1
+    },
+    {
+      "action": "crop-orphaned-tail",
+      "expectedPayloadSha256": "cdbe3d0db717c25adf504397be0371dadb740c360ab9ecf19dc86cd0abfed644",
+      "reason": "Only an isolated dot, smiley, or block remains after a long fully blank run. The fragment is not a structural edge and reads as a stranded footer artifact in gallery output.",
+      "script": "16c-blocktronics-acid-trip-mt-paris-is-burning-part05.ps1",
+      "totalRows": 43,
+      "gapEndRow": 42,
+      "gapStartRow": 27,
+      "keepRows": 26,
+      "visibleTailRows": 1
+    },
+    {
+      "action": "crop-orphaned-tail",
+      "expectedPayloadSha256": "43dd148d92f5909bd7e25a895dc041983065783430e840b07fa1dbe1ed2c3b2b",
+      "reason": "Only an isolated dot, smiley, or block remains after a long fully blank run. The fragment is not a structural edge and reads as a stranded footer artifact in gallery output.",
+      "script": "16c-laz12-wa-truth-part02.ps1",
+      "totalRows": 31,
+      "gapEndRow": 30,
+      "gapStartRow": 22,
+      "keepRows": 21,
+      "visibleTailRows": 1
+    },
+    {
+      "action": "crop-orphaned-tail",
+      "expectedPayloadSha256": "7133fa33a4b8f3a0fd3de5562d425e4719cbea5b37d198d740da7086efadf201",
+      "reason": "A promotional footer and stray line fragment remain after a fifteen-row fully blank gap. Removing the stranded tail preserves the complete interface panel above it while eliminating excessive blank space and unrelated identifying text.",
+      "script": "16c-ls-0394-pp-re-part02.ps1",
+      "totalRows": 42,
+      "gapEndRow": 36,
+      "gapStartRow": 22,
+      "keepRows": 21,
+      "visibleTailRows": 2
+    },
+    {
+      "action": "crop-orphaned-tail",
+      "expectedPayloadSha256": "315e3c138b259463094ef13c1e30ef4c414589c9cc5247ba94d5a40bbd553883",
+      "reason": "Only an isolated dot, smiley, or block remains after a long fully blank run. The fragment is not a structural edge and reads as a stranded footer artifact in gallery output.",
+      "script": "16c-sys2-02-zs-mmc5.ps1",
+      "totalRows": 44,
+      "gapEndRow": 43,
+      "gapStartRow": 27,
+      "keepRows": 26,
+      "visibleTailRows": 1
+    }
+  ]
+}

@@ -106,6 +106,12 @@
             "reason": "The numerically mergeable final ranges are independent logos and remain separate so every random gallery entry is coherent."
         },
         {
+            "issueType": "mergeable-adjacent-parts",
+            "family": "16c-blocktronics-block-n-roll-luciano-0-neural-robot",
+            "panel": 1,
+            "reason": "The three rebalanced panel-one entries each contain a substantive sequential scene. The final two fit numerically but remain separate at the reviewed source transition so random gallery output does not combine distinct frames."
+        },
+        {
             "issueType": "derivative-attribution-review",
             "family": "16c-sense09j-cg-tma2",
             "reason": "Reviewed title text: 'The Mourning After' is the depicted BBS name, not a source-art credit."
@@ -127,17 +133,7 @@
         },
         {
             "issueType": "continuous-split-review",
-            "family": "16c-ikeauno-zii-ilc1",
-            "reason": "Visually reviewed: the selected boundaries separate coherent stacked panels or standalone artworks; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
             "family": "16c-plenty-dx-100ln",
-            "reason": "Visually reviewed: the selected boundaries separate coherent stacked panels or standalone artworks; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-used-04-ns-c0000",
             "reason": "Visually reviewed: the selected boundaries separate coherent stacked panels or standalone artworks; no figure or composition is cropped, reflowed, or narrowed."
         },
         {
@@ -153,11 +149,6 @@
         {
             "issueType": "continuous-split-review",
             "family": "16c-avenge12-cr-ac01",
-            "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-avenge12-kio-c1",
             "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
         },
         {
@@ -272,11 +263,6 @@
         },
         {
             "issueType": "continuous-split-review",
-            "family": "16c-epic0003-cg-psy2",
-            "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
             "family": "16c-epic0004-ar-prevl",
             "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
         },
@@ -348,11 +334,6 @@
         {
             "issueType": "continuous-split-review",
             "family": "16c-glue-22-us-alien",
-            "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-glue-24-22-locus",
             "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
         },
         {
@@ -463,16 +444,6 @@
         {
             "issueType": "continuous-split-review",
             "family": "16c-purg-30a-pt-gc",
-            "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-purg-31-pt-tea",
-            "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-purg-31-zb-eigrl",
             "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
         },
         {
@@ -649,11 +620,6 @@
             "issueType": "leading-blank-run",
             "family": "16c-sae005-m0d-shre",
             "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-sclr-14-phz-neam",
-            "reason": "The 8 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
         },
         {
             "issueType": "leading-blank-run",
@@ -2082,37 +2048,12 @@
         },
         {
             "issueType": "leading-blank-run",
-            "family": "16c-27inch07-is-kaasu-part02",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
             "family": "16c-acdu0494-vs-fed1-part01",
             "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
         },
         {
             "issueType": "leading-blank-run",
             "family": "16c-allnc-01-la-colbx-part02",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-ane-1195-cc-god-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-apathy13-fil-saga-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-blocktronics-1980-smk2m-nvscene-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-blocktronics-block-n-roll-luciano-0-neural-robot-panel01-part01",
             "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
         },
         {
@@ -2127,47 +2068,7 @@
         },
         {
             "issueType": "leading-blank-run",
-            "family": "16c-blocktronics-miracle-on-67th-street-misfit-aphidtwix-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
             "family": "16c-blocktronics-miracle-on-67th-street-misfit-snowflake-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-blocktronics-yotb-avg-pendellgate101-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-cnc-0494-htf-madh-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-cnc-0494-htf-madh-part07",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-cnc-0894-sl-wmin3-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-force-01-fixer-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-hrp-6-aaa0041-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-ice9503a-lo-aney1-part01",
             "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
         },
         {
@@ -2176,44 +2077,9 @@
             "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
         },
         {
-            "issueType": "leading-blank-run",
-            "family": "16c-lgcy-001-5m-crow-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-roc-0795-7a-rocnt-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-sense22-us-cold2-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-tnt-010-sp-kia-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-tri-1094-pb-triad-part01",
-            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
-        },
-        {
-            "issueType": "low-cell-variety",
-            "family": "16c-blocktronics-1980-smk2m-nvscene-part01",
-            "reason": "Reviewed official preview and raw hash: the 45-row leading canvas and first logo cells are authentic source geometry; moving the split would cut the logo without eliminating the sparse panel."
-        },
-        {
             "issueType": "low-cell-variety",
             "family": "16c-blocktronics-darker-image-2-us-grift-part06",
             "reason": "Reviewed official preview, part sheet, and raw hash: background-space rendering triggers the heuristic, but the panel contains the lower logo, tagline, and terminating composition across 31 visible rows."
-        },
-        {
-            "issueType": "low-cell-variety",
-            "family": "16c-tri-1094-pb-triad-part01",
-            "reason": "Reviewed official preview and raw hash: the 38-row top margin and first portrait row are authentic source geometry; moving the split would sever the portrait."
         },
         {
             "issueType": "sparse-cell-density",
@@ -2247,11 +2113,6 @@
         },
         {
             "issueType": "sparse-cell-density",
-            "family": "16c-ice-9407-sc-tfr-part01",
-            "reason": "Reviewed official preview and raw hash: the dark upper field and right-edge silhouette introduce the portrait beginning at row 33; the boundary is compositional."
-        },
-        {
-            "issueType": "sparse-cell-density",
             "family": "16c-mist0520-lda-home-part01",
             "reason": "Reviewed official preview and raw hash: this is the deliberate multicolor starfield prologue before the moon enters at row 40; moving the seam would cut the moon."
         },
@@ -2267,21 +2128,6 @@
         },
         {
             "issueType": "very-small-output",
-            "family": "16c-blocktronics-1980-smk2m-nvscene-part01",
-            "reason": "Reviewed official preview and raw hash: the 45-row leading canvas and first logo cells are authentic source geometry; moving the split would cut the logo without eliminating the sparse panel."
-        },
-        {
-            "issueType": "very-small-output",
-            "family": "16c-blocktronics-blockalypse-goo-unleash-part05",
-            "reason": "Reviewed official preview and raw hash: the near-black suspense frame and small red eyes are the deliberate transition between the forest fade and next scene; all twelve panels are near the row limit."
-        },
-        {
-            "issueType": "very-small-output",
-            "family": "16c-blocktronics-blockalypse-goo-unleash-part09",
-            "reason": "Reviewed official preview and raw hash: this is the authored fade-out between the close-up and mask reveal; adjacent panels cannot be combined under 50 rows."
-        },
-        {
-            "issueType": "very-small-output",
             "family": "16c-blocktronics-resvolution-zo-lud-part01",
             "reason": "Reviewed official preview and raw hash: this is a coherent typographic opener with the two believe lines, diagonal artist credit, and beginning of the matrix transition."
         },
@@ -2289,11 +2135,6 @@
             "issueType": "very-small-output",
             "family": "16c-mist0520-lda-home-part01",
             "reason": "Reviewed official preview and raw hash: this is the deliberate multicolor starfield prologue before the moon enters at row 40; moving the seam would cut the moon."
-        },
-        {
-            "issueType": "very-small-output",
-            "family": "16c-tri-1094-pb-triad-part01",
-            "reason": "Reviewed official preview and raw hash: the 38-row top margin and first portrait row are authentic source geometry; moving the split would sever the portrait."
         }
     ],
     "schemaVersion": 1

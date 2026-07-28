@@ -5,7 +5,7 @@
 # Source SHA-256: 658c926b5754f28a80efa1120f8c66e7d338cb1c191a68405b78e19f1cf817ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-CIB.ANS by Soul Seeker (blde9405); released in blde9405 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
        [1;37m▄▀▀[0;1;30m▄▄▄██████████▄▄▄[0;1;37m▀▄[0m      SS-CIB.ANS - An Origional Spawn By Moi...
      [1m▄▀[0;1;30m▄███████████▀▀ █████▄[0;1;37m▀▄ [0;1;30m────────────────────────────────────────────────[0m
 [1;30m    [0;1;37m█ [0;1;30m████▀▀ [0m▄▄▄▄▄   ▄ [1;30m▀▀████ [0;1;37m█   [0;1;30mIf you would like to request an ANSI from me,[0m
-[1;30m   [0;1;37m█ [0;1;30m███▀ [0m▄█████▀  ▄█▀██▄ [1;30m▀███ [0;1;37m█   [0;1;30myou can contact me on Imperial Network, God[0m
+[1;30m   [0;1;37m█ [0;1;30m███▀ [0m▄█████▀  ▄█▀██▄ [1;30m▀███ [0;1;37m█   [0;1;30m                                           [0m
 [1;30m  [0;1;37m█ [0;1;30m███▀ [0m█████▀  ▄█▀  ████ [1;30m▀███ [0;1;37m█   [0;1;30mNetwork, Valiant Network, Intrusion Network[0m
 [1;30m  [0;1;37m█ [0;1;30m██▀ [0m█████  ▄██  ▄██████ [1;30m▀██ [0;1;37m█   [0;1;30mand of course my board, Ravenhill... [908][0m
 [1;30m [0;1;37m█ [0;1;30m███ [0m█████  ███  █████████ [1;30m███ [0;1;37m█ [0;1;30m────────────────────────────────────────────[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 0a9d2dd5615fc23a7ef9beb9d7ed3c59e8ca5a3f338b1a1981feb1264c916b12
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RV-BBS.ANS by RaVe (KRYN-CNC-LCS); released in rv-awxpk and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Information about diz Ansi Package
 # SAUCE Author: RaVe
 # SAUCE Group: KRYN-CNC-LCS
@@ -21,7 +21,7 @@ Write-Host '
 [1;37mI[0mf[1;30m your are interested in my work you can leave [0mm[1me[0m  [1;30m    [0;32m███████████[0;1;32m████████████[0m
 [1mc[0mo[1;30mmments or questions on my own BBS [PRIVAT PAR[0mK[1m][0m   [1;30m   [0m  [32m██████████[0;1;32m███████████[0m
 [1mo[0mr[1;30m leave me an E-MAIL .. direct on the BBs i am [0mo[1mn.[0m [1;30m     [0m [32m██████████[0;1;32m██[0;32m█[0;1;32m███████[0m
-[1mY[0mo[1;30mu can contact me on any CNC/KRYN/LCS site ... t[0mh[1mis[0;1;30m      [0m [32m█████████[0;1;32m█[0;32m███[0;1;32m██████[0m
+[1m [0m [1;30m                                               [0m [1m  [0;1;30m      [0m [32m█████████[0;1;32m█[0;32m███[0;1;32m██████[0m
 [1ms[0mh[1;30mould be no problem .. or u leave an E-MAIL to t[0mh[1me[0;1;30m [0m        [32m█████████████[0;1;32m██████[0m
 [1mp[0me[1;30mrsons who know me like the guys who i am greeting he[0mr[1me.[0m    [32m████████████[0;1;32m██████[0m
                                                              [32m████████████[0;1;32m███████[0m

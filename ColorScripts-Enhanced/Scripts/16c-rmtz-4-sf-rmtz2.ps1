@@ -5,18 +5,11 @@
 # Source SHA-256: 00bcfe6b978aef247b0b3588b15a3cc40940b4b80788ae2f83cc032e2b42be4e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-RMTZ2.ANS by Spitfire (rmtz-4); released in rmtz-4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
-
-
-
-
-
-
-
                     ▄▄▄▄                   ▄▄▄▄■              ░[30;47m▓[0m
            [30;47m▓[0;37;40m  ▄[0;1;33;47m▒▄▄▓[0m▀[1;33m███[0;1;33;47m▄▓[0m ▄[1;33;47m▄▒▄▄[0m▄[1;33;47m▄▄▓[0m▄ ▄▄▄  [1;33;47m▓[0;1;33;40m██[0;1;33;47m▄▒[0m▄     ▄[1;33;47m▄▄▄[0m▄[1;33;47m▓▄▄[0m▄
              [1;33m▐[0;35m█[0;1;33;45m▀[0;1;33;40m█[0;1;33;47m▓[0m▌  █[1;33m█████[0;1;33;47m▓[0;1;33;40m██[0m▌ [1;33m█[0;1;33;47m▒[0;1;33;40m██[0m▀[1;33m█[0;1;33;47m▓▄░[0;1;33;40m▐[0;1;33;47m█▓[0;1;33;40m█[0;1;33;47m▌[0m▌  [30;47m▓[0;37;40m  ▐[0;1;33;47m▒▀▀[0m▀ ▐[1;33;47m▐▓▌[0m▌

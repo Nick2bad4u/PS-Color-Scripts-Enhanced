@@ -4,15 +4,15 @@
   "normalization": "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
   "policy": "Rows were manually reviewed for contact details, identifying information, promotional blocks, or policy-ineligible standalone text. Hash-only evidence avoids retaining removed text.",
   "sourceAudit": {
-    "candidateFiles": 1051,
+    "candidateFiles": 1050,
     "explicitFunctionalExceptions": 1,
-    "filesScanned": 24897,
+    "filesScanned": 24851,
     "parseFailures": 21,
     "reviewedFalsePositiveRows": 24
   },
   "summary": {
-    "candidateFiles": 1053,
-    "evidenceRows": 1173,
+    "candidateFiles": 1052,
+    "evidenceRows": 1172,
     "supplementalRows": 2
   },
   "candidates": [
@@ -11960,20 +11960,6 @@
         }
       ],
       "file": "16c-opx-0396-rl-sect7.ps1"
-    },
-    {
-      "evidence": [
-        {
-          "action": "blank-text",
-          "categories": [
-            "phone"
-          ],
-          "row": 25,
-          "severity": "high",
-          "sha256": "4a0fb642e95e27973ee15aec713061012baa18857cc68a4398f3b79df44d4486"
-        }
-      ],
-      "file": "16c-opx-0497-rl-071.ps1"
     },
     {
       "evidence": [

@@ -5,7 +5,7 @@
 # Source SHA-256: 3ab5854bb8615bdf334cbddbff66227fa701847344a5c26cc70d3f07277242b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD!VRB.ANS by sad (black pyramid! inc.); released in bpi0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: vrb corp. logo
 # SAUCE Author: sad
 # SAUCE Group: black pyramid! inc.
@@ -15,12 +15,6 @@
 # Columns: 1-80
 
 Write-Host '
-
-
-
-
-
-
          [1;34m▄[0m   [1;34m ▄ [0m  [1;34m      [0m  [1;34m ▄▄▄ [0m
 [33m--░░----[0;1;34m██▄[0;33m--[0;1;34m▄██[0;33m-[0;1;34m▄██▀▀██▄[0;33m-[0;1;34m▐██▌[0;33m------[0;1;34m▄██▀▀██▄[0;33m-[0;1;34m▄██▀▀██▄[0;33m-[0;1;34m▄██▀▀██▄[0;33m-[0;1;34m▄██▀▀██▄[0;33m----░░--[0m
 [33m░░▒▒░░░[0;1;34m▐[0;1;34;41m▓▓[0;1;34;40m▌[0;33m░░[0;1;34m▐[0;1;34;41m▓▓▒▓▓[0;1;34;40m▌[0;33m░░[0;1;34m▐[0;1;34;41m▓▓▒▓▓▓[0;1;34;40m▀▀[0;1;34;41m▓▓[0;1;34;40m▄[0;33m░[0;1;34m▐[0;1;34;41m▓▓[0;1;34;40m▌[0;33m░░[0;1;34m▐[0;1;34;41m▓▓▒▓▓[0;1;34;40m▌[0;33m░░[0;1;34m▐[0;1;34;41m▓▓▒▓▓[0;1;34;40m▌[0;33m░░[0;1;34m▐[0;1;34;41m▓▓▒▓▓[0;1;34;40m▌[0;33m░░[0;1;34m▐[0;1;34;41m▓▓[0;1;34;40m▌[0;33m░░░▒▒░░ [0m

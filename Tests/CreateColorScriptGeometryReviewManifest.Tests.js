@@ -8,6 +8,7 @@ const test = require("node:test");
 
 const {
     createGeometryReviewManifest,
+    getAnalysisRowOffset,
     parseArguments,
 } = require("../scripts/Create-ColorScriptGeometryReviewManifest.js");
 
@@ -72,9 +73,73 @@ test("geometry manifest generator selects only supported reviewed crops", () => 
             manifest.actions[0].preserveLeadingRows,
             1
         );
+        assert.equal(manifest.actions[0].rows, 1);
     } finally {
         fs.rmSync(directory, { force: true, recursive: true });
     }
+});
+
+test("geometry manifest preserves presentation rows counted by the analyzer", () => {
+    const directory = fs.mkdtempSync(
+        path.join(os.tmpdir(), "geometry-manifest-curated-")
+    );
+    try {
+        fs.writeFileSync(
+            path.join(directory, "leading.ps1"),
+            "# Lines: 1-4\n\nWrite-Host '\n\nART'"
+        );
+        const manifest = createGeometryReviewManifest(
+            {
+                findings: [
+                    {
+                        disposition: "high-confidence-change",
+                        rationale:
+                            "The analyzer retained its presentation row after trailing curation.",
+                        recommendedAction:
+                            "crop-leading-blank-rows",
+                        rows: 2,
+                        script: "leading",
+                        totalRows: 3,
+                    },
+                ],
+            },
+            directory
+        );
+
+        assert.equal(manifest.actions[0].preserveLeadingRows, 1);
+        assert.equal(manifest.actions[0].rows, 1);
+        assert.equal(manifest.actions[0].totalRows, 3);
+    } finally {
+        fs.rmSync(directory, { force: true, recursive: true });
+    }
+});
+
+test("analysis row offsets reproduce declared source-span normalization", () => {
+    const source = "# Lines: 11-13\n\nWrite-Host '\nART\n'";
+
+    assert.equal(
+        getAnalysisRowOffset(source, ["", "ART", ""], 1, {}),
+        0
+    );
+    assert.equal(
+        getAnalysisRowOffset(
+            source,
+            ["", "ART", "", ""],
+            1,
+            {}
+        ),
+        1
+    );
+    assert.throws(
+        () =>
+            getAnalysisRowOffset(
+                source,
+                ["", "ART", ""],
+                1,
+                { totalRows: 1 }
+            ),
+        /no longer match/u
+    );
 });
 
 test("geometry manifest generator rejects reviewed geometry drift", () => {

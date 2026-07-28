@@ -5,7 +5,7 @@
 # Source SHA-256: 39fcb9e8c5bdd3ec7683b44afa0f6a8abbccc089f406e7928c28d55bc5b79f42
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-LUNA!.ANS by rorsh4ck (Maiden Brazil!); released in mdn-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lunatic asylum logon matrix
 # SAUCE Author: rorsh4ck
 # SAUCE Group: Maiden Brazil!
@@ -18,7 +18,7 @@ Write-Host '
                       [1m▄▄▄[0m▄[1m▄▄[0m▄▄[1m▄[0m▄▄▄▄        [1m▄▄▄[0m▄[1m▄▄▄[0m▄▄[1m▄[0m▄▄▄[1m▄[0m▄▄
     [1m▄▄▄[0m▄[1m▄▄[0m▄[1m▄[0m▄      [1m▄[0;1;47m▓▀░[0m█████████████[1;30;47m░[0;1;30;40m▄[0m  [1m▄[0;1;47m▓▀░[0m████████████████[1;30;47m░[0;1;30;40m▄[0m     [1m▄▄▄[0m▄[1m▄[0m▄[1m▄[0m▄
  [1m▄[0;1;47m▓▀░[0m█████████[1;30;47m░[0;1;30;40m▄[0m  [1m▐[0;1;47m▓░[0;30;47muhn...maybe he  [0;1;30;47m▒[0;1;30;40m▌[0;1;37;40m▐[0;1;37;47m▓░[0;30;47mhe wants FEEDBACK! [0;1;30;47m▒[0;1;30;40m▌[0m [1m▄[0;1;47m▓▀░[0m████████[1;30;47m░[0;1;30;40m▄[0m
-[1m▐[0;1;47m▒[0;30;47mLOGON sucker![0;1;30;47m▒[0;1;30;40m▌[0m [1m▐[0;1;47m▒░[0;30;47mneeds to APPLY![0;1;30;47m░▒[0;1;30;40m▌[0;1;37;40m▐[0;1;37;47m▒░[0;30;47mor maybe to CHAT!?[0;1;30;47m░▒[0;1;30;40m▌[0;1;37;40m▐[0;1;37;47m▒[0;30;47m GET OUT!!! [0;1;30;47m▒[0;1;30;40m▌[0m
+[1m▐[0;1;47m▒[0;30;47m             [0;1;30;47m▒[0;1;30;40m▌[0m [1m▐[0;1;47m▒░[0;30;47m               [0;1;30;47m░▒[0;1;30;40m▌[0;1;37;40m▐[0;1;37;47m▒░[0;30;47m                  [0;1;30;47m░▒[0;1;30;40m▌[0;1;37;40m▐[0;1;37;47m▒[0;30;47m            [0;1;30;47m▒[0;1;30;40m▌[0m
  [1m▀[0;1;47m░[0m██████████[1;30;47m▒▄[0;1;30;40m▀[0m   [1m▀[0;1;47m▒[0m██████████████[1;30;47m▄▓[0;1;30;40m▀[0m  [1m▀[0;1;47m░[0m█████████████████[1;30;47m▄▓[0;1;30;40m▀[0m ▄[1m▀[0;1;47m░[0m█████████[1;30;47m▒▄[0;1;30;40m▀[0m
     ▀[1;30m▀[0m▀▀[1;30m▀▀[0m▀[1;30m▀▀[0;1;37m▄  [0m   ▄[1m■▀[0m▀▀[1;30m▀[0m▀▀[1;30m▀▀[0m▀▀[1;30m▀▀▀▀[0m     ▄[1m■▀[0m ▀[1;30m▀[0m▀▀▀[1;30m▀▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀▀▀▀[0m  ▐▌   ▀[1;30m▀[0m▀[1;30m▀▀[0m▀[1;30m▀▀[0m
    [36m▄▄▄▄▄▄▄▄[0;37m  ▐▌[0m   [37m▐▌  [0;36m▄▄▄▄▄▄▄▄[0;37m [0;36m        [0;37m▐▌ [0;36m▄▄▄▄▄▄▄▄[0;37m [0;36m         [0;37m [0;36m▄▄[0;1;37;46m▀[0;1;37;40m■[0;36m▄▄▄▄[0;37m [0;36m        [0m

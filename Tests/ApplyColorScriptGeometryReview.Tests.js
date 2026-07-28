@@ -6,6 +6,7 @@ const test = require("node:test");
 const {
     applyGeometryAction,
     getPayloadSha256,
+    parseArguments,
     validateManifest,
 } = require("../scripts/Apply-ColorScriptGeometryReview.js");
 const {
@@ -66,6 +67,30 @@ test("orphan-tail review validates the blank gap before cropping", () => {
     );
 });
 
+test("orphan-tail review permits blank rows around visible tail fragments", () => {
+    const source = "Write-Host 'ART\n\n\nfooter\n\nfragment'";
+    const action = createAction(source, {
+        action: "crop-orphaned-tail",
+        gapEndRow: 3,
+        gapStartRow: 2,
+        keepRows: 1,
+        rows: undefined,
+        totalRows: 6,
+        visibleTailRows: 2,
+    });
+
+    assert.doesNotThrow(() =>
+        validateManifest({
+            actions: [action],
+            schemaVersion: 1,
+        })
+    );
+    const result = applyGeometryAction(source, action);
+
+    assert.equal(result.removedRows, 5);
+    assert.equal(extractPowerShellPayload(result.source).value, "ART");
+});
+
 test("geometry review fails closed on payload drift and fidelity locks", () => {
     const source = "Write-Host '\n\nART'";
     const action = createAction(source);
@@ -118,5 +143,24 @@ test("geometry manifest rejects duplicates and invalid coordinates", () => {
                 ],
             }),
         /leading-row review geometry is invalid/u
+    );
+});
+
+test("geometry review arguments support a safe resumable script filter", () => {
+    const options = parseArguments([
+        "--manifest=review.json",
+        "--only=sample.ps1",
+        "--write",
+    ]);
+
+    assert.equal(options.onlyScript, "sample.ps1");
+    assert.equal(options.write, true);
+    assert.throws(
+        () =>
+            parseArguments([
+                "--manifest=review.json",
+                "--only=../sample.ps1",
+            ]),
+        /unsafe reviewed script filename/iu
     );
 });
