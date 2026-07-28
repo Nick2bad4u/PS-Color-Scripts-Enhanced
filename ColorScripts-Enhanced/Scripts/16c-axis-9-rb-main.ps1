@@ -5,7 +5,7 @@
 # Source SHA-256: fd569db768cb64721c4165c1f859526ae0d648cc66ffbabcd43e62ee1cdf49f1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RB-MAIN.ANS by Rabi Li (axis-9); released in axis-9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
 [1;31;41m██▌[0;33m▐▌[0;34m██[0;36m▐██████▌ [0;34m█▌[0;36m█████████ [0;34m▐▌[0;36m██████ [0;34m▐▌[0;36m████████  [0;34m█▌[0;36m███▌▀██▄ [0;30;44m█[0;34;40m▌[0;36;40m████▀██ [0;34;40m▐██▓[0;33;40m▐▌[0;1;31;41m▐██[0m
 [1;31;41m██▌[0;33m▐▌[0;34m██▌[0;36m█████▄ [0;34m▐██[0;36m▐███████▌ [0;34m██[0;36m▐████▌ [0;34m██[0;36m▐██▌▀██▌ [0;34m▐██[0;36m▐██▄▐██▌ [0;34m██[0;36m▐███▐█▌ [0;34m████[0;33m▐▌[0;1;31;41m▐██[0m
 [1;31;41m██[0;31m▌[0;33m■▓[0;34m▐██[0;36m▐████ [0;1;36;44mile [0;34m▌[0;36m███████ [0;34m▐██▌[0;36m████ [0;34m▐██▌[0;36m██  ██  [0;34m███▌[0;36m███▀██ [0;34m▐██[0;30;44m▐[0;36;40m████▀a[0;1;36;44mge [0;34m█▌[0;33m▓ [0;1;31;41m▐██[0m
-[1;31;41m██[0;31m▌[0;33m▌█[0;34m▐██▄[0;36m▀▀▀[0;34m▄[0;1;36;44mMenu [0;34m█[0;36m▐█▌▀ █▌s[0;1;36;44mg[0;34m███[0;36m▐██▌n[0;1;36;44mfo[0;34m██[0;36m▐█▄▐█▌n[0;1;36;44mline[0;34m█[0;36m▐█▌▐█▌n[0;1;36;44my[0;34m███[0;36m▐██▌M[0;1;36;44me [0;34m███▌[0;33m▒▐[0;31m▐[0;1;31;41m██[0m
+[1;31;41m██[0;31m▌[0;33m▌█[0;34m▐██▄[0;36m▀▀▀[0;34m▄[0;1;36;44m     [0;34m█[0;36m▐█▌▀ █▌ [0;1;36;44m [0;34m███[0;36m▐██▌ [0;1;36;44m  [0;34m██[0;36m▐█▄▐█▌ [0;1;36;44m    [0;34m█[0;36m▐█▌▐█▌ [0;1;36;44m [0;34m███[0;36m▐██▌ [0;1;36;44m  [0;34m███▌[0;33m▒▐[0;31m▐[0;1;31;41m██[0m
 [1;31;41m██[0;31m▌[0;33m█▐▌[0;34m▓█▌[0;1;37m█[0;34m▐████████▄[0;36m▀[0;34m▄█▄[0;36m▀[0;34m▄[0;1;36;44mMenu[0;34m█▄[0;36m▀▀[0;34m▄[0;1;36;44mMenu[0;34m█▄[0;36m▀▀▀▀[0;34m▄[0;1;36;44mMenu[0;34m██▄[0;36m▀[0;34m▄[0;36m▀▀ [0;1;36;44mShow[0;34m█▄[0;36m▀▀[0;34m▄█▌[0;1;37m█[0;34m▐█▓[0;33m▐▌█[0;31m▐[0;1;31;41m██[0m
 [1;31;41m█▌[0;33m▐█▌█[0;34m▒▓[0;1;37;47m▓[0;1;37;40m█▌[0;34m█▀[0;1;37;44m▄▄▄[0;34m▀▀[0;1;37;44m▄█▄[0;34m▀▀[0;1;37m▄▄▄[0;34m▀▀[0;1;37m▄███▄[0;34m▀[0;1;37m▄█▄ ▄██▄[0;34m▀▀[0;1;37m▄███▄[0;34m▀▀[0;1;37m▄▄▄[0;34m▀▀[0;1;37m▄███▄[0;34m▀▀[0;1;37m▄▄▄[0;34m▀█[0;1;37m▐█[0;1;37;47m█[0;34m▓▒[0;33m█▐█▌[0;1;31;41m▐█[0m
 [1;31;41m█[0;31m▌[0;33m██▓▐▌[0;1;37;47m▒▓[0;1;37;40m██[0;34m▒[0;1;37m████▌[0;1;37;47m▓█[0;1;37;40m██▌█████▐█████[0;1;37;47m▓[0;1;37;40m▐██▌[0;1;37;47m▓[0;1;37;40m███▌[0;1;37;47m▓[0;1;37;40m█████▌█████▐█████[0;1;37;47m▓[0;1;37;40m▐████[0;34m░[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓▒[0;33m▐▌███[0;31m▐[0;1;31;41m█[0m

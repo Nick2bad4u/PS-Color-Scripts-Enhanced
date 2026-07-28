@@ -5,7 +5,7 @@
 # Source SHA-256: e0264fbeae9258b9743357edd3dc51e00475dc6804cc40eabc55e362265654b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-EAS13.ANS by Defiant (Root); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ease
 # SAUCE Author: Defiant
 # SAUCE Group: Root
@@ -36,5 +36,5 @@ Write-Host '
 [34;40m▐░  [0;35;40m▄   [0;34;40m■▀[0m                                             [31;40m▐[0;1;31;41m░[0;31m██[0;30;41m░[0;31;40m█[0;30;41m░░[0;31;40m▀▀▀  ░ ■▀[0m
 [34;40m▐    [0;35;40m▀▄[0;1;35;40m▄░[0m                                               [31m▀▀▀▀[0m      [31m▄  ▄█[0;31;41m [0;30;41m░[0;31;40m▄▄░[0m
 [34;40m▀  ■▀  [0;1;35;45m░[0;1;35;40m▀[0;35m▀▄[0m                                            [34m░[0m        [1;31;41m░░ [0;31m█▄ ▀▀██[0;30;41m░░[0;31;40m█▄▄[0m
-[35;40m■[0m      [35;40m░  ▐▀  ▀    ░   [0;1;30;40mansi by defiant (root)[0m        [34m■    [0;35m░[0m      [1;31;41m░[0;31m████▌▄  ▀▀███[0m
+[35;40m■[0m      [35;40m░  ▐▀  ▀    ░   [0;1;30;40m                      [0m        [34m■    [0;35m░[0m      [1;31;41m░[0;31m████▌▄  ▀▀███[0m
                                                                  [31m▐[0;1;31;41m░[0;31m█████▓░   ▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 21e0e4f1fc56c22015081d7d8e1c0d28a0c96f7a63658c70197e201386d18a14
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TW-THAB.ANS by The Watcher (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -38,7 +38,7 @@ Write-Host '
 [1;30m   [0;31m█████████[0;1;31;41m▒▒[0;31m█[0m                           [1;30mThe Watcher[0m
 [1;30m   [0;31m▀[0;1;31m█[0;31m███████[0;1;31;41m▒[0;31m██ [0;34m▄▄▄▄▄▄▄[0m                     [1;33mA[0;1;31mT[0;1;33mO[0;1;31mM[0;1;33mi[0;1;31mC [0;1;33m`[0;1;31m9[0;1;33m4[0m
      [31m██████[0;1;31;41m▒▒[0;31m█ [0;34m▄████████▄[0m                [1;35m────────────────────────────[0m
-     [31m██████[0;1;31;41m▒░[0;31m█ [0;34m██    ▀[0;1;34;44m▄█▓[0;34m█[0m                [1;37mLet the dead bury their dead.[0m
+     [31m██████[0;1;31;41m▒░[0;31m█ [0;34m██    ▀[0;1;34;44m▄█▓[0;34m█[0m                [1;37m                             [0m
      [31m██████[0;1;31;41m░░[0;31m█ [0;34m██[0m     [34m█[0;1;34;44m▓▒[0;34m█[0m                [1;37m-New Testament, Matthew, VIII, 22[0m
      [31m██████[0;1;31;41m░ [0;31m█ [0;34m███    █[0;1;34;44m▒▒[0;34m█ ▀█████████▄[0m
       [31m█████[0;1;31;41m░[0;31m█▀ [0;34m███▄▄▄▄[0;1;34;44m▒▒░[0;34m█   [0;34;44m    [0;34;40m▀▀████  ▄█████▄[0m          [1;30;40m▄█[0m

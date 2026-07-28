@@ -5,7 +5,7 @@
 # Source SHA-256: 885cc442921173c768431d8209e2ced1226daee9644620bf2d7fa90ffc6229df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX-100LN.ANS by dexter (slogan.arts); released in plenty and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 100 line ansi
 # SAUCE Author: dexter
 # SAUCE Group: slogan.arts
@@ -32,7 +32,7 @@ Write-Host '
 [1;33m█[0;1;33;43m▀▀▀▀▀▀▓▓[0;1;33;40m▀▀▀[0m       [1;32m▄▄▄▄▄▄▄▄▄▀[0m  [1;33m [0m [1;33m▀[0;1;33;43m▄ ░░ ▄[0;1;33;40m▀[0m [1;32m ▀▀▀▀▀▀▀█[0m  [1;32m░[0m [36m''still dre''[0m    [1;36;46m▓[0m
 [1;33m▐[0;1;33;43m ▀▐[0;1;33;40m▀▀▀[0m  [1;32m▄▄▄▄▀▀▀▀▀▀[0m [1;35m▄▄▄▄▄▄▄▄▄█[0;1;35;45m▀▀[0;1;35;40m█▄[0m [1;33m▀[0;1;33;43m▄▄[0;1;33;40m▀[0m [1;35m▄█[0;1;35;45m▀▀▀▀▀▀▓[0m [1;32m█[0m   [36m''rymoholik''[0m   [36m░░[0;1;36;46m▓[0m [36m░░[0;37m [0;36m░[0m
 [1;33m [0;1;33;43m▌░[0;1;33;40m▌[0m  [1;32m▀▀▀[0m [1;35m▄▄[0;1;37m▄▄[0;1;35m█[0;1;35;45m▀▀▀[0;1;37;45m▀▀[0;1;35;45m▀            ▀[0;1;35;40m█▄▄▄▄[0;1;35;45m▀        ▐[0;1;35;40m▌[0;1;32;40m▐▌[0;1;35;40m [0;36m''jade''[0m          [1;36m▐▌[0m
-  [33m▀▄[0m   [1;35m▀▀[0;1;35;45m█[0;1;37;45m ▀▀[0;35m███[0;1;35;45m [0;1;37;45mgreets: sK! zr0 .no[kA] ins[0;1;35;45m   ░░▓[0m [1;32m█[0m            [1;36m▄▄▄▄▄[0;1;36;46m▓[0m
+  [33m▀▄[0m   [1;35m▀▀[0;1;35;45m█[0;1;37;45m ▀▀[0;35m███[0;1;35;45m [0;1;37;45m                           [0;1;35;45m   ░░▓[0m [1;32m█[0m            [1;36m▄▄▄▄▄[0;1;36;46m▓[0m
 [32m▀▄ [0m   [1;32m▀▀▄▄[0m [1;35m▀▀▀█[0;1;35;45m██▄▄  ░░  [0;1;37;45m$zw! riv![0;1;35;45m [0;1;37;45mall.. :) [0;1;35;45m▄[0;1;35;40m█▀▀▀[0m [1;32m▄█[0m [1;36m▀▀▀▀▀▀▀▀▀▀▀[0m
 [32m▐[0;1;32;42m░[0m [33m▀▄[0;37m [0;32m▀[0;1;32m▄▄[0m [1;32m▀▀▀▄▄▄[0m [1;35m▀▀▀▀[0;1;35;45m▓▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m [1;32m▄▀▀▀[0m
 [1;32;42m░▒▓[0m [33m▐[0;1;33m▌[0m  [1;32m▀▀██▄▄[0m  [1;32m▀▀▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m

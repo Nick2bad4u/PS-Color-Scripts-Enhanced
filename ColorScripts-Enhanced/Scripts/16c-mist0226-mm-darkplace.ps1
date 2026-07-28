@@ -5,7 +5,7 @@
 # Source SHA-256: 2f66bc81fa3112bc8173080e83fb8fd3a8ea5f2530140df117a3f8d720f26dc7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-DARKPLACE.ANS by Mavenmob (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dark Place
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
@@ -50,7 +50,7 @@ Write-Host '
 [37m  [0;30m░░[0;37m   [0;1;30m▄[0;1;33m██[0;32m█[0;1;35m█▀[0;35m  [0;32m███[0;35m▀[0;1;30m██[0;32m▌[0;30;47m██[0;1;33;40m [0;1;30;40m▄██[0;30m████░░█[0;1;36;46mlife[0;1;36;40m [0;36mma[0;1;36mk[0;36me sen[0;1;30mse    █▀[0m  [35m░[0;1;35m°°°°[0;35m░[0;37m [0;32m▀[0;35m [0;1;35m°≈[0;1;33m■[0;1;35m°[0;35m°[0;1;35m░[0;32m▄██[0m
 [37m [0;30m░░░[0;37m [0;1;30m▀[0;1;33m █[0;32m█[0;1;35m██░[0;35m  [0;32m▄█[0;1;35m°  [0;35m█[0;1;30m██▄[0;30m█████░▀[0;1;30m █[0;30m  ▄█████[0;36mc[0;1;36man anyo[0;1;30mne tell[0m [1;35m░░[0m [1;35m■[0;1;33m°[0;1;35m°°≈■░░▄[0;1;33m■[0;1;35m°°[0;35m  [0;32m██▀[0m
 [30m███[0;37m  [0;35m\\[0;32m▀[0;35m▀[0;1;35m▀[0;35m█░[0;37m  [0;32m█[0;1;35m██[0;30m ▄█████▄[0;1;30m██  ▄w[0;36mh[0;1;36mat i''ve[0;36m d[0;1;36mon[0;36me? [0;1;36mi [0;36mm[0;1;36miss[0;36m      [0;1;35m░░°[0;1;33m≈[0;1;35m■░[0;1;33m░▄[0;1;35m▄░░°≈[0;35m≈≈[0;1;35m≈[0;32m▀[0m
-[30m█░[0;35m\[0;30m█[0;37m         [0;30m███▀ ██°[0;1;30m°°th[0;1;36me [0;36mli[0;1;36mfe[0;36m.[0;1;36m i miss[0;36m [0;1;37mt[0;1;36mhe colors of[0;30m▄▄  ▄[0;37m  [0;1;35m°°■■[0;1;33m■░░[0;1;35m▄■°\/ /[0;35m//[0m
+[30m█░[0;35m [0;30m█[0;37m         [0;30m███▀ ██ [0;1;30m    [0;1;36m  [0;36m  [0;1;36m  [0;36m [0;1;36m       [0;36m [0;1;37m [0;1;36m            [0;30m▄▄  ▄[0;37m  [0;1;35m  ■■[0;1;33m■░░[0;1;35m▄■     [0;35m  [0m
 [30m░██         [0;1;30m    [0;36m  [0;1;36m [0;36m [0;1;36m  [0;1;36;46m                      [0;1;36;40m  [0;36m [0;1;36m      [0;30m▐[0;1;30m    [0;36m  [0;1;36m  [0;36m  [0;1;36m   [0m          [30m░░▄[0m
 [30m█░░░   ▄[0;1;30m  [0;1;36m      [0;1;33m                  [0;1;36m   [0;36m  [0;1;36;46m      [0;36m [0;1;36;46m    [0;36m [0;1;30m   [0;1;36m [0;1;30m  [0;1;36m [0;1;33m  [0;36m [0;1;36m  [0;36m [0;1;36m      [0;1;37m   [0;1;33m    [0;30m▄░█[0m
 [30m ░░░[0;37m  [0;1;33m         [0;1;36m [0;1;37m [0;1;36m    [0;1;37m [0;1;36m  [0;1;37m  [0;1;36m   [0;1;36;46m   [0;1;37;40m [0;1;33;40m    [0;36m [0;1;36m   [0;36m     [0;1;36m  [0;36m    [0;1;36;46m      [0;1;36;40m   [0;1;33;40m         [0;1;36;40m      [0;30m▄▒█░[0m

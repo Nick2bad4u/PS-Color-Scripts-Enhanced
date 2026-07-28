@@ -5,7 +5,7 @@
 # Source SHA-256: 900a448996c81c06777d08e95c0ee8efb0771ceb771334613c85217888e7df9e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PIRATES.ANS by Polyducks + Rhoq + Mig_Moog (Mistigris); released in mist0620 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Pirates!
 # SAUCE Author: Textmode Friends
 # SAUCE Group: Mistigris
@@ -19,7 +19,7 @@ Write-Host '
 [35m▀▄[0;37m        [0;35m"[0;37m  [0;35m▄▄▄▄▀[0;37m                [0;35m█[0;37m  [0;35m█[0;37m                           [0;36m▄█████[0;1;36;46m▄[0;1;36;40m████████[0m
   [35m▀▀▀▄▄▄▄▄▄███▀▀[0;37m                   [0;35m█[0;37m [0;35m█[0;37m             [0;1;30moctopi[0m      [1;30m▄[0;36m██████████[0;1;30;46m▄▄▄▄[0;1;36;46m▀[0;1;36;40m█[0m
               [36m▄▄▄▄██████████▄▄[0;37m      [0;35m▀▀[0;37m             [0;1;30moctopodes[0m  [1;30m██[0;36m███████▀[0;1;30m▀▀[0m     [36m▀[0m
-[37m          [0;36m▄██████████████[0;1;36m███[0;1;36;46m▄▄[0;36m█▄[0;37m              [0;36m(The [0;1;33;46moctopuses[0m [36mhad dangerous[0m
+[37m          [0;36m▄██████████████[0;1;36m███[0;1;36;46m▄▄[0;36m█▄[0;37m              [0;36m     [0;1;33;46m         [0m [36m             [0m
 [37m       [0;36m▄███████████████████[0;1;36;46m▀[0;1;36;40m██[0;36m██[0;37m   [0;36m▄█▄[0;37m         [0;36mappetites!)[0;37m   [0;1;30m███[0;36m██[0;1;36;46m▄▄[0;36m██[0m
 [37m    [0;36m▄██████████████████████[0;1;36m██[0;1;36;46m▀[0;36m███▄█[0;1;36;46m▄▄[0;36m█[0;37m                       [0;1;30m▀██[0;36m██[0;1;36m██[0;36m█[0m
 [37m   [0;36m█████[0;1;36;46m▄▄▄[0;36m███▀▀▀▀▀[0;37m     [0;36m█████████[0;1;36;46m▄[0;1;36;40m█[0;1;36;46m▀[0;36m▀[0;37m                         [0;1;30m███[0;1;30;46m▄▄[0;36m█▀[0m

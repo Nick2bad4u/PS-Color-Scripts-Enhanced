@@ -5,7 +5,7 @@
 # Source SHA-256: 93d15214f4969b889597e60a2997eb726bfe455c33c0b1d168fef1337f14d2a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-HRUC.ANS by {YBERPUNCh (RiB); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hidden reality stuff
 # SAUCE Author: {YBERPUNCh
 # SAUCE Group: RiB
@@ -25,6 +25,6 @@ Write-Host '
 [34m▓[0;31m [0;1;36;41m████[0;31m [0;34m▓▓▓[0;31m [0;1;36m▐[0;1;36;41m▓▓▓▓[0;1;36;40m▓[0;1;36;46m▓[0;1;36;41m█[0;1;36;40m▐[0;31m [0;1;36;41m░░░░[0;31m [0;34m▓▓▓▓[0;31m ▌[0;1;36;41m█[0;1;36;46m▓▓[0;1;36;41m▓▓[0;1;36;40m▓[0;1;36;41m▓[0;31m [0;34m████[0;31m [0;1;31m▒▒[0;1;36;41m░░[0;31m [0;1;36;41m▓[0;1;36;40m▓▓[0;1;36;41m▓[0;31m [0;34m▄▓▓[0;31m [0;1;36m▐███▌[0;1;36;41m██[0;1;36;46m▓▓[0;31m [0;34m▓▓▓▓[0;31m ▌[0;1;36;41m▓[0;1;36;40m▓[0;1;36;41m▓[0;31m [0;34m▓[0m
 [34m█[0;31m [0;1;37m███[0;1;36;46m▓[0;31m [0;34m█▀[0;1;36m [0;1;37m▄[0;1;36;41m██[0;1;36;46m▓▓[0;1;36;41m████[0;1;36;40m▐[0;31m [0;1;36;41m▓▓▓▓[0;1;36;40m▌[0;34m ▀█▀[0;31m ▌[0;1;37m█[0;1;36;41m██[0;1;36;46m▓▓[0;1;36;41m██[0;1;36;40m▌[0;34m ▀▓▀[0;31m [0;1;36;41m░░▓[0;1;36;40m▓[0;31m [0;1;37m█[0;1;36;41m██[0;1;36;46m▓[0;1;36;40m [0;34m█▀[0;31m [0;1;37m▄██[0;1;36m█▀[0;31m [0;1;37m███[0;1;36;41m█[0;31m [0;34m████[0;31m ▌[0;1;36;46m▓[0;1;37;40m██[0;31m [0;34m█[0m
 [34m█[0;31m [0;1;37m▀▀[0;31m [0;34m▄▄█[0;31m [0;1;37m██▀▀[0;1;36m▀[0;31m [0;34m▄▄▄▄▄▄▄[0;31m [0;1;36m▀▀[0;1;37m██[0;31m  [0;1;37m▄[0;1;36m▌[0;31m▌[0;1;37m█▀[0;1;36m▀[0;31m  [0;1;36m▀[0;1;37m▀██[0;31m [0;34m▌[0;1;36m▄▌[0;1;36;41m▓▓[0;1;36;40m▀[0;1;37;40m▀[0;31m [0;1;37m▀▀[0;31m [0;34m▄▄█[0;31m [0;1;37m▀▀▀[0;31m [0;34m▄▄[0;31m [0;1;37m▀▀[0;31m [0;34m▄▄████[0;31m ▀[0;1;36m▀[0;31m [0;34m▄▄█[0m
-[34m████████▄▄▄▄████████████▄▄▄▄▄▄▄▄▄▄████▄▄▄▄▄▄▄▄▄▄█[0;36;44mansi by[0;34;40m█[0;36;44mcyberpunch(rib)[0;34;40m████████[0m
+[34m████████▄▄▄▄████████████▄▄▄▄▄▄▄▄▄▄████▄▄▄▄▄▄▄▄▄▄█[0;36;44m       [0;34;40m█[0;36;44m               [0;34;40m████████[0m
 
 [1;36;40m  [0m           [1;36mR        E       A        L        I         T         Y[0m'

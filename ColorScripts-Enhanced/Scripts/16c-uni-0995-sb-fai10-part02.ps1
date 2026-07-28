@@ -5,7 +5,7 @@
 # Source SHA-256: 50efbdbe2308a362b1c25816d4d8015297a11079211d13d409da8d1eb505453b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-FAI10.ANS by SpellBinder (uni-0995); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FairGrounds #10
 # SAUCE Author: SpellBinder
 # SAUCE Date: 19950808
@@ -56,4 +56,4 @@ Write-Host '
 [1m ██[0;1;47m█[0;1;40m▌ ▐▀[0m      [1m▐██▌▀█▀   ▐██▌[0m         [1m▐██ █▄  ▄██▀▄█▌ ▀██▐███▌   ▀ ███[0m        [1m▐██[0m
 [1m  ▀██▄[0m        [1m████▄  ▄   ███▄[0m       [1m▄██▌   ▀▀   ▐██▌    ▀▀██ ▄  ▄█ ██▌▄[0m      [1m██▌[0m
      [1m▀▀[0m      [1m▐██▀▀█▀▀[0m     [1m▀▀██▄▄ ▄▄██▀▀[0m                        [1m▀▀ █▀▀▄█▌   ▄██▀[0m
-           [1m▀  ▄ ▀[0m               [1m▀▀▀  [0mcolored blocks by spellbinder.   [1m▀▀▄██▀▀[0m'
+           [1m▀  ▄ ▀[0m               [1m▀▀▀  [0m                                 [1m▀▀▄██▀▀[0m'

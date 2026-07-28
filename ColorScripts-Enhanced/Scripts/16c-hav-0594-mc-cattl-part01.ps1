@@ -5,7 +5,7 @@
 # Source SHA-256: 7ad35305cf8779f133a8a071a269046812ceeffd791a1a98ee4fbf2c4c58c826
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-CATTL.ANS by Mr Corruption (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [1m█ [0;1;34m. Corruption · Ha[0;34mv[0;1;30mo [0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;30mo[0;34mr[0;1;34mruption · Havok · Mr. [0;1;37m█[0m
 [1;37m█  [0;1;34m· Mr. Corruptio[0;34mn  [0;1;37;47m▓[0;1;34;44m██████████████████[0;1;37;47m▓[0;1;34;44m█████████████[0;1;37;47m▓[0m [1;30;40mr[0;34m. [0;1;34mCorruption · Havok  [0;1;37m█[0m
 [1;37m█ [0;1;34m. Corruption · [0;34mH[0;1;30ma [0;1;37;47m▒[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37;47m▒[0;1;34;44m▓▓▓▓▓[0;1;34;47m▀▀▀▀▀[0;1;34;44m▓▓▓▓[0;1;37;47m▒[0m [1;30;40mr[0;34mu[0;1;34mption · Havok · Mr. [0;1;37m█[0m
-[1;37m█  [0;1;34m· Mr. Corrupt[0;34mi[0;1;30mo [0;1;37;47m░[0;1;34;44m▒▒▒▒▒[0;1;34;47m▀[0;1;34;44m▒▒▒▒▒▒▒[0;1;34;47m▀[0;1;34;44m▒▒▒▒▒▒[0;1;37;47m░[0;1;34;44m▒▒▒▒[0;1;34;47m [0m [1;30;40mH[0;34ma[0;1;30mv [0;1;30;47m [0;1;34;44m▒▒[0;1;34;47m▀▀[0m▀  [34mC[0;1;34morruption · Havok  [0;1;37m█[0m
+[1;37m█  [0;1;34m             [0;34m [0;1;30m  [0;1;37;47m░[0;1;34;44m▒▒▒▒▒[0;1;34;47m▀[0;1;34;44m▒▒▒▒▒▒▒[0;1;34;47m▀[0;1;34;44m▒▒▒▒▒▒[0;1;37;47m░[0;1;34;44m▒▒▒▒[0;1;34;47m [0m [1;30;40m [0;34m [0;1;30m  [0;1;30;47m [0;1;34;44m▒▒[0;1;34;47m▀▀[0m▀  [34m [0;1;34m                   [0;1;37m█[0m
 [1;37m█ [0;1;34m. Corruption [0;34m·  [0;34;47m [0;1;34;44m░░░░░[0;1;34;47m [0m [1;34;47m [0;1;34;44m░░░░░[0;1;34;47m [0m [1;34;47m [0;1;34;44m░░░░░[0;1;34;47m [0;1;34;44m░░░░[0;1;30;47m░[0m  [34m· [0;1;30mM [0m▀▀  [1m▄▄ [0;1;30mp[0;34mt[0;1;34mion · Havok · Mr. [0;1;37m█[0m
 [1;37m█  [0;1;34m· Mr. Corru[0;34mp[0;1;30mt [0;1;30;47m░[0;34m█████[0;1;30;47m░[0m [1;30;47m░[0;34m█████[0;1;30;47m░[0m  [1;30;47m░[0;34m█████[0;1;30;47m░[0;34m████[0;1;30;47m▒[0m [1;30;40mH[0;34ma[0;1;34mv[0;34mo[0;1;30mk [0;1;37m▄[0;1;37;44m▀▀[0;34m██[0;1;30;47m░[0m [1;30;40mo[0;34mr[0;1;34mruption · Havok  [0;1;37m█[0m
 [1;37m█ [0;1;34m. Corruptio[0;34mn  [0;1;30;47m▒[0;34m▓▓▓▓▓[0;1;30;47m▒[0m [1;30;47m▒[0;34m▓▓▓▓▓[0;1;30;47m▒[0m [1;30;40mr [0;1;30;47m▒[0;34m▓▓▓▓▓[0;1;30;47m▒[0;34m▓▓▓▓[0;1;30;47m▓[0m  [34m· [0;1;34mM[0;34mr[0;1;30m. [0;1;30;47m▒[0;34m▓▓▓▓[0;1;30;47m▒[0m [1;30;40mi[0;34mo[0;1;34mn · Havok · Mr. [0;1;37m█[0m

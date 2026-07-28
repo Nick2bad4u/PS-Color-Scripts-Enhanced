@@ -5,7 +5,7 @@
 # Source SHA-256: f215d732051e19a47202ddfd0e7b38ed3abdc99ba143b0dc16eb7746a7599636
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: APL-MHZ1.ANS by apollo (arla/sense/kmd/pus); released in arla0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: megahertz
 # SAUCE Author: apollo
 # SAUCE Group: arla/sense/kmd/pus
@@ -20,7 +20,7 @@ Write-Host '
 [37m [0;34m▄██▀[0;37m [0;31m█[0m       [1;37m████████▄▄  [0;31m■[0;37m [0;34m▀█████████████████████████████████████████████▄[0m
 [37m [0;34m███[0;37m [0;31m█[0m   [1;37m   [0m  [1m██████████▄ [0;31m █[0;37m [0;1;30;44m [0;1;37;44m a p o l l o ^ a r l a   p r e s e n t s : [0;1;30;44m [0;34m█[0m
 [37m [0;34m██▀[0;37m [0;31m█[0;37m  [0;1;37m▄███▄[0m [1m████████████[0m [31m█[0;37m [0;34m▀█████████████████████████████████████████████[0m
-[37m [0;34m██[0;37m [0;31m█[0;37m  [0;1;37m██▀███[0m [1m ██████████[0;1;47m▓[0m▄ [31m█[0;37m [0;34m██[0;32;44mmegahertz - 100% by apl - yay me. vittuje.[0;34;40m█[0m
+[37m [0;34m██[0;37m [0;31m█[0;37m  [0;1;37m██▀███[0m [1m ██████████[0;1;47m▓[0m▄ [31m█[0;37m [0;34m██[0;32;44m                                          [0;34;40m█[0m
 [37;40m [0;34;40m▀█[0;37;40m [0;31;40m█[0;37;40m  [0;1;37;40m▀████▀[0m [1m ▀█▄█████[0;1;47m▓▓▒[0m▀ [31m█[0;37m [0;34m▀███████████████████████████████████████████▀[0m
      [31m▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀[0m
 

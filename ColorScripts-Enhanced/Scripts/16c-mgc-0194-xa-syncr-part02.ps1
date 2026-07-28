@@ -5,7 +5,7 @@
 # Source SHA-256: eedb1495be72767b0d4cb0635887ef320529cd4cdee48f43c262fbfa7a9d4e2e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XA-SYNCR.ANS by Xaxisian (mgc-0194); released in mgc-0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -58,5 +58,5 @@ Write-Host '
 [1;30m└─────────────────────────a [0;35mgo[0;1;35mod [0;1;37m& evil mixed em[0;1;35muls[0;35mion[0;1;30m.────────────────────────┘[0m
 
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;36;46m▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄[0m  [1;37;40mA[0;1;35;40mN[0;35mS[0;1;30mi [0;1;37mC[0;1;35mR[0;35mE[0;1;30mATiON [0;1;37mB[0;1;35mY[0;35m: [0;1;37mX[0;1;35mA[0;35mX[0;1;30miSiAN [M[0mA[1mG[0mi[1;30mC]  [0;1;36;46m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀[0m
+[1;36;46m▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄[0m  [1;37;40m [0;1;35;40m [0;35m [0;1;30m  [0;1;37m [0;1;35m [0;35m [0;1;30m      [0;1;37m [0;1;35m [0;35m  [0;1;37m [0;1;35m [0;35m [0;1;30m        [0m [1m [0m [1;30m    [0;1;36;46m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀[0m
 [1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

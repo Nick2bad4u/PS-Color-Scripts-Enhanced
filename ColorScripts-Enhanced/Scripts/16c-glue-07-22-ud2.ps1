@@ -5,7 +5,7 @@
 # Source SHA-256: f6e473eef976a0d9a27478685adab7a91aa22f78eec47bc4fc860a873f657114
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-UD2.ANS by catchMEplease (glue glue glue); released in glue-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: unknown matrix
 # SAUCE Author: catchMEplease
 # SAUCE Group: glue glue glue
@@ -30,7 +30,7 @@ Write-Host '
 [31m██████[0;30;41msomtimes i just want to shout[0;31;40m██▌[0;37;40m [0;1;30;40m▐[0;1;30;47m██▀[0m████[1;47m░░[0;1;30;47m▀▌▀[0;1;30;40m▄[0;33m ▐[0;1;31;43m ░[0;33m▌ [0;1;31;43m░▓[0;1;31;47m▒  ░▓[0;1;31;43m▓▄███████▓░[0;33m [0;37m▀[0;1;30;47m▄[0m
 [31m██████[0;30;41mit outloud.  somtimes, i just[0;31;40m███[0;37;40m  [0;1;30;47m█▓░[0m█[1;30;47m [0;1;37;47m░░▒▒░[0m███[1;30m▄[0m [1;31;43m ░▒[0;33m  [0;1;31;43m░[0;1;31;47m▓▒░░▒▓[0;1;31;43m█████████▓░[0;33m [0;1;30m▐[0m
 [1;31;41m░░[0;31m████[0;30;41mwant to be myself.  somtimes[0;31;40m████[0;37;40m  [0;1;30;40m▀▌▀[0;1;30;47m▄[0m███[1;47m░░░[0m████[1;30m▌[0;33m █[0;1;31;43m░[0;33m  ▐[0;1;31;43m█[0;1;31;47m▓▒▒▓[0;1;31;43m██▓[0;33m▀[0;1;31;43m▀██████▓░[0;33m [0m
-[31m██████[0;30;41mi just want to be someone else[0;31;40m███▄[0m    [33;40m▄ [0;1;30;40m▀[0;33m  [0;1;30m▀[0;1;30;47m▄[0m█[1;47m░░[0;1;30;47m▐[0;33m ▐▌   [0;1;31;43m██[0;1;31;47m▓▓▓[0;1;31;43m█▓▒░[0;33m ▐[0;1;31;43m▓████▒░[0;33m▌[0m
+[31m██████[0;30;41m                              [0;31;40m███▄[0m    [33;40m▄ [0;1;30;40m▀[0;33m  [0;1;30m▀[0;1;30;47m▄[0m█[1;47m░░[0;1;30;47m▐[0;33m ▐▌   [0;1;31;43m██[0;1;31;47m▓▓▓[0;1;31;43m█▓▒░[0;33m ▐[0;1;31;43m▓████▒░[0;33m▌[0m
 [31m██████[0;30;41mbut none of it''s worth it unless[0;31;40m██[0m    [33;40m▐[0m     [1;30;40m▐[0m█[1;47m░░[0m█[1;30m▌[0m [33m█   [0;1;31;43m▓██████▓▒[0;33m▌ [0;1;31;43m░▓███░[0;33m▀ [0m
 [31m▐█████[0;30;41myou''re there.  gimme a kiss kate.[0;31;40m█[0m    [33;40m▀[0m      [1;30;47m▌[0;1;37;47m▒▒░[0;1;30;47m▐[0m [33m▐▌ ▐[0;1;31;43m▓███████▓[0;33m▌ ▐[0;1;31;43m▓███▌[0;33m▌[0;1;30m▐[0m
 [31m ▀██████████████[0;30;41m    [0;31;40m████████████████████▌[0;37;40m  [0;1;30;40m▐[0;1;30;47m░[0;1;30;40m▀[0m     [1;30m▐[0;1;37;47m░░ [0m█[1;30m▌[0;33m █▄[0;1;31;43m░▒▓████[0;1;31;47m▓▓[0;1;31;43m▓[0;33m  [0;1;31;43m░▓███[0;33m▌[0;1;30m▄[0;1;30;47m▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 4e0baa6a787fd073dabdd9065a350a36fce50de616176c685daa921f10ce48dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-PC1.ANS by Black Lightning (Union); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Psycho City
 # SAUCE Author: Black Lightning
 # SAUCE Group: Union
@@ -17,7 +17,7 @@
 Write-Host '
 [1;30m█▀▀[0m                                                                          [1;30m▀▀█[0m
 [1;30m▀ ▄▄▄▄▄▄▄▄▄[0m         [1;30m▄▄▄▄▄[0m                                                      [1;30m▀[0m
-[1;30m  █ [0m▄▄▄▄▄▄ [1;30m▀▀▄[0m      [1;30m█ [0m▄▄ [1;30m▀▄[0m       [1;30mgreetings to: ld! 33! nz![0m
+[1;30m  █ [0m▄▄▄▄▄▄ [1;30m▀▀▄[0m      [1;30m█ [0m▄▄ [1;30m▀▄[0m       [1;30m                         [0m
 [1;30m  █ [0;1;34;47m▒░░░░ [0m█▓ [1;30m▐▌[0m     [1;30m█ [0;1;34;47m▒▒░[0m [1;30;40m▐▌[0m      [1;30;40mmd! mca! gr! from![0m
 [1;30;40m  █ [0;1;34;47m▓▓▒▒▒░░ [0m▓ [1;30m█[0m     [1;30m█ [0;1;34;47m▓▓[0m [1;30;40m▄▀[0m       [1;30;40malan!huang![0m                \  [1m▄▄███▄▄[0m
 [1m  [0;1;30;47m▓[0m [1;34;44m▓▓[0;1;34;47m▓▓▓▒░ [0m▀ [1;30;47m▓[0m     [1;30;40m█ [0;1;34;44m▓▓[0;1;34;40m▌[0;1;30;40m▐▌[0m                                    [1;37;40m████████▌▄█▄▄[0m

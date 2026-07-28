@@ -5,7 +5,7 @@
 # Source SHA-256: 9fbe3f51363eb61a3bbe501d05689cfe5ebc9787b23cc0f7489b32986e3892b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-acidunderworld.ans by Smooth + The Knight (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ACiD Underworld
 # SAUCE Author: tk and smooth
 # SAUCE Group: Fuel
@@ -60,7 +60,7 @@ Write-Host '
     [31m▄▄▄▀[0m          [1;37m▀[0;1;30m▀[0;1;37m▀[0;1;30m▀[0m▀[1;30m▀[0;1;37m▀[0;1;30m▀[0m▀      [1;30m▐[0;1;37;47m░▒▓█████▓▒░[0;1;30;40m▌[0m      ▀[1;30m▀[0;1;37m▀[0;1;30m▀[0m▀[1;30m▀[0;1;37m▀[0;1;30m▀[0;1;37m▀[0m          [31m▀▄▄▄[0m
 [37m  [0;31m▀█▓[0;37m  [0;31m [0m         [31m▄[0m     [31m▄▄▄▄▄[0;37m [0;31m▄[0;37m  [0;31m▄▄[0m           [31m▄▄ [0;37m [0;31m▄ ▄▄▄▄▄ [0;37m    [0;31m▄[0m         [31m [0;37m  [0;31m▓█▀[0m
 [37m [0;31m█████▄▄[0;37m [0;31m▄▄[0;37m [0;31m▄▄▄░[0;37m [0;31m█████████████████████████████████████████████[0;37m [0;31m░▄▄▄[0;37m [0;31m▄▄[0;37m [0;31m▄▄█████[0m
-[37m  [0;31m▀▀██▓███▓█▓▓▓▒[0;37m [0;31m███[0;1;37;41m··[0;31m█[0;1;33;41mA JOiNT [0;1;37;41mtHE.kNiGHT[0;1;33;41m and [0;1;37;41msMOOTH[0;1;33;41m ANSI[0;31m█[0;1;37;41m··[0;31m██[0;37m [0;31m▒▓▓▓▓█▓███▓█▀▀[0m
+[37m  [0;31m▀▀██▓███▓█▓▓▓▒[0;37m [0;31m███[0;1;37;41m  [0;31m█[0;1;33;41m        [0;1;37;41m          [0;1;33;41m     [0;1;37;41m      [0;1;33;41m     [0;31m█[0;1;37;41m  [0;31m██[0;37m [0;31m▒▓▓▓▓█▓███▓█▀▀[0m
 [37m  [0;31m ▀██▀█████▀▀█▓[0;37m [0;31m▀▀▀█▀██████████████████████████████████▀█▀▀▀▀[0;37m [0;31m▓█▀▀█████▀██▀[0m
          [31m▀▀[0;37m  [0;31m▀[0m      [1;30m▄▄▄[0m [1;30m▄[0m  [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m       [1;30m▄▄▀[0m    [31m▀[0;37m  [0;31m▀▀[0m
                    [1;30m▀[0m   [1;30m▀█▐▀▒▀▀█[0;1;30;43m░░[0;1;30;40m▒▀█▀▀▀▓▀▀▓▀▀▀▀▒▀▀█▀▀██▀▀▀[0m

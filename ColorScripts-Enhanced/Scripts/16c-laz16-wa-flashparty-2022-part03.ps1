@@ -5,7 +5,7 @@
 # Source SHA-256: eef173edc00f89fdbec9b07c63fb17974db3daff7ae6579dedf3121c78eebb35
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-flashparty-2022.ans by warpus (LAZARUS); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FLASH PARTY 2022
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -48,5 +48,5 @@ Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m
 [1m████████████████████████████████████████████████████████████████████████████████[0m
 [1m█████████████[0;1;41m███████████████████████████████████████████████████████████████████[0m
-[1;40m▐████[0;30;107mLIVE FROM BUENOS AIRES, ARGENTINA[0;1m██████[0;1;41m██████[0;1;40m███████████████[0;30;107msince 1998[0;1m████▌[0m
+[1;40m▐████[0;30;107m                                 [0;1m██████[0;1;41m██████[0;1;40m███████████████[0;30;107m          [0;1m████▌[0m
 [1m ▀▀██████████████████████████████████████████████████████████████████████████▀▀[0m'

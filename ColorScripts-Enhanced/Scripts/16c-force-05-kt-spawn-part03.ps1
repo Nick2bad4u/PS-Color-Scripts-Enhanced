@@ -5,7 +5,7 @@
 # Source SHA-256: 5c2f2c685d5ffbebf97eb6ae41500190d36ee532a945e5cfad53452e2b89e465
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KT-SPAWN.ANS by kURRUPt (fORCE); released in force-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Spawning Ground
 # SAUCE Author: kURRUPt
 # SAUCE Group: fORCE
@@ -18,7 +18,7 @@ Write-Host '
             [1;31;40m▐▓█▀[0m                  [35m  ▄▄▄████████████████████████████████████████[0;1;35;45m░[0m
 [1;31;40m█▄[0m           [1;31;40m▒▌[0m                [35m  ▄█████████████████████████████████████████████[0;1;35;45m [0m
 [1;31;40m██▓▒░[0m [1;31m [0m      [1;31m░[0m                [35m  ▐███[0;30;45m                                         [0;35;40m██[0;1;35;45m░[0m
-[1;31;40m███▓▒░ [0m                         [35m ████[0;30;45mfORCE PROdUCtiONz NiNEtEEN NiNEtY fiVE[0;35;45m ██[0;35;40m█[0;1;35;45m▒[0m
+[1;31;40m███▓▒░ [0m                         [35m ████[0;30;45m                                      [0;35;45m ██[0;35;40m█[0;1;35;45m▒[0m
 [1;31;40m███▓▒░░[0m                        [35m  ▐██[0;30;45m ▄▓▄▄▄▓▄  ▄▓▄ ■▄▄▓▄▄▄▄   ▒▄▄▓▄▄  ▄▄▓▄▄ [0;35;40m█[0;35;45m██[0;35;40m█[0;1;35;45m░[0m
 [1;31;40m███▓▒░[0m                         [35m  ▐██[0;30;45m▀██[0;35;40m █▄  ▄▀ ▄░ ▐█░ [0;30;45m▒[0;35;40m█▄ ░█▀░ ▒▄░ ▐▌  █▌  █[0;35;45m██[0;35;40m█[0;1;35;45m▒[0m
 [1;31;40m██▓▒░░░░[0m                      [35m  ▄████  ▐████░ ▐█▌  █  [0;30;45m▓kt[0;35;40m▌ ▐▌  ███▄█  ▐██  ▐[0;35;45m██[0;35;40m█[0;1;35;45m▒[0m

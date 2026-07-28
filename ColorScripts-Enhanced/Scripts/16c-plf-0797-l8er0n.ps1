@@ -5,7 +5,7 @@
 # Source SHA-256: 484b37e2994df7b1e13e2107495930a1b1b481c75c7c1f727d72032c7fa194dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _L8ER0N.ANS by phobia crew (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: good bye =) =) =)
 # SAUCE Author: phobia crew
 # SAUCE Group: phobia
@@ -30,7 +30,7 @@ Write-Host '
 [37m [0;34m▐░░ [0;37m [0;33m█[0;1;31;43m [0;1;33;43m▀[0;33m█▀▀▀[0;31m▐[0;1;31m█▄▄[0;31m   [0;37m  [0;33m█[0;1;31;43m ▀▀[0;33m▌[0;35m▐█[0;1;37;45m ▒▒[0;35m█[0;1;37;45m▌░░[0;35m█[0;1;37;45m█[0;1;33;45m that''s what we had to[0;35m██[0;1;35;45m██[0;35m█[0m    [34m▀▄[0m
 [37m [0;34m▐    [0;33m▐▀[0;31m ▄▄▄▄▄ [0;1;31m▀▀▀[0;31m▀ ▄▄▄▄▄ [0;33m▀[0;35m ▐█[0;1;37;45m░░[0;35m█[0;1;37;45m▌[0;35m███[0;1;37;45m▌[0;35m█[0;1;33;45moffer this month =)[0;35m████[0;1;35;45m██[0;35m█[0m     [34m▐▄[0m    [34m▌[0m
 [37m [0;34m█[0;1;34;44m▄[0;34m▄█▀[0;31m █[0;30;41m░░  [0;31;40m██[0;1;31;41m   [0;31m█[0;1;31;41m    [0;30;41m ░░[0;31;40m██[0;37;40m [0;35;40m▐███[0;1;33;45mhope you liked it...         [0;1;35;45m▐█▌[0;35m▌[0m    [34m▄███[0;37m  [0;34m▄▌[0m
-[34m▀█[0;1;34;47m▓[0;1;34;44m▀[0;34m▌[0;37m [0;31m▐[0;30;41m  [0;31;40m████[0;1;31;41m  [0;31m████[0;1;31;41m░▄▓[0;31m███[0;30;41m  [0;31;40m▌[0;35;40m ███[0;1;33;45mthanks to all of you who [0;35m████[0;1;35;45m▐█▌[0;35m▌ [0;1;30m [0;34m▄███▓▓▌█▓█ [0m
+[34m▀█[0;1;34;47m▓[0;1;34;44m▀[0;34m▌[0;37m [0;31m▐[0;30;41m  [0;31;40m████[0;1;31;41m  [0;31m████[0;1;31;41m░▄▓[0;31m███[0;30;41m  [0;31;40m▌[0;35;40m ███[0;1;33;45m                         [0;35m████[0;1;35;45m▐█▌[0;35m▌ [0;1;30m [0;34m▄███▓▓▌█▓█ [0m
 [34m ▄[0;1;34;44m▐[0;34m█[0;37m  [0;31m████▌████▀ ███[0;1;31;41m▀[0;31m▀ █▐█[0;1;31;41m░[0;31m█[0;37m [0;35m███[0;1;33;45mcontinues to support us.We  [0;35m█[0;1;35;45m██[0;35m█ [0;34m▐█[0;1;34;44m▄██[0;34m█▀▀[0;37m [0;34m▐▀ [0m
 [34m▀▀▀▀▀[0;37m [0;30;41m░[0;31;40m█[0;1;31;41m░░[0;31m ██▄▄▄███▄▄▄█▌▐[0;1;31;41m░▓[0;30;41m░[0;37;40m [0;35;40m███[0;1;33;45mlove you all =)[0;35m██████████████[0;1;35;45m██[0;35m█ [0;34m▐[0;1;34;44m█[0;1;34;47m▓▓[0;1;34;44m▌[0;34m██▄▄ [0m
 [34m [0;1;37mBYM [0m [30;41m░ [0;31;40m██ [0;30;41m░░[0;31;40m███████[0;1;31;41m▄▌[0;31m█ █[0;1;31;41m░▓[0;30;41m░[0;35;40m ██████▀▀▀▀▀▀▀▀▀▀▀▀▀[0m            [35;40m ▀[0;1;35;45m▀[0;35m█ [0;34m▐[0;1;34;44m▐▀▀▀▀▀[0;34m█▀▀▀[0m

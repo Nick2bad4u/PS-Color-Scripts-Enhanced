@@ -5,19 +5,19 @@
 # Source SHA-256: d2fc68dc43a02f927ee7b2fc26ee63d51e21824fc91dfa0bac0eb422dd9aa2e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ-NACHO.ICE by Blazer (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 73-115
 # Columns: 1-80
 
 Write-Host '
                            [1;30;40m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0;1;31;40m████████[0;1;31;41m▌[0m  [1;30;40min this [0;1;31;40m▒[0;33;41m▒▒[0;1;31;43m▒▒▒[0;1;31;41m█████████████████[0m
 [1;31;40m  [0mYou see, being that i''m  [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0;1;31;40m██████████[0;1;31;41m▌[0m [1;30;40meither. [0;1;31;40m▒[0;33;41m▒[0;1;31;43m▒▒[0;1;31;41m██████████████████[0m
-[1;31;40m [0ma member of iCE (although [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0;1;31;40m███████████[0;1;31;41m▌[0m [1;30;40mTHAT''S [0;1;31;40m▒[0;33;41m▒[0;1;31;43m▒▒[0;1;31;41m██████████████████[0m
+[1;31;40m [0m                          [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0;1;31;40m███████████[0;1;31;41m▌[0m [1;30;40m       [0;1;31;40m▒[0;33;41m▒[0;1;31;43m▒▒[0;1;31;41m██████████████████[0m
 [1;31;40m [0mi got in for coding),     [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0;1;31;40m████████████[0;1;31;41m▌[0;1;30;40mold sc-[0;1;31;40m▒[0;33;41m▒[0;1;31;43m▒▒[0;1;31;41m██████████████████[0m
 [1;31;40m [0mevery ansi i do           [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0;1;31;40m██████████████[0;1;31;41m▌[0;1;30;40mhool[0;1;31;40m▒[0;33;41m▒[0;1;31;43m▒▒[0;1;31;41m███████████████████[0m
 [1;31;40m [0mautomatically must rule.  [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0;1;31;40m███████████████[0;1;31;41m▌[0;1;30;40m:)[0;1;31;40m▒[0;33;41m▒[0;1;31;43m▒▒[0;1;31;41m████████████████████[0m
 [1;31;40m [0mTherefore, even though    [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0;1;31;40m███████████████████[0;1;31;41m▒[0;1;31;43m▒[0;1;31;41m█████████████████████[0m
-[1;31;40m [0mthis ansi may appear to   [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0;1;31;40m████████████████████[0;1;31;41m▒█████████████████████[0m
+[1;31;40m [0m                          [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0;1;31;40m████████████████████[0;1;31;41m▒█████████████████████[0m
 [1;31;40m [0msuck, it''s just your      [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0m▒[1;31m██████████████████████[0;1;31;41m▒███████████████████[0m
 [1;31;40m [0mimagination. I''m sorry,   [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0m▒▒▒[1;31m███████████████████████[0;1;31;41m▒██████████████████[0m
 [1;31;40m [0mbut rules are rules.      [1;30m▒▒[0m▒[1m▒[0;1;30;47m▒[0m█▒▒▒[1m▒[0;1;31m████████████████████████[0;1;31;41m▒█████████████████[0m

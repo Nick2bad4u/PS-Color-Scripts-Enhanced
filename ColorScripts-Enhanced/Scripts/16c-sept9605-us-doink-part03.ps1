@@ -5,7 +5,7 @@
 # Source SHA-256: 337d2c265ab080334ff94f5e20a71ca93b23502753137f779523bea862114baf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DOINK.ANS by Hennifer + Warpus (septic); released in sept9605 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: doink
 # SAUCE Author: hennifer.warpus
 # SAUCE Group: septic
@@ -44,7 +44,7 @@ Write-Host '
    [1;30m█▀█[0m [1;30m▓[0m  [1;30;47m▓▒░░░▒▄[0;1;30;40m▀▀▀[0m▀▀▀▀[1;30;47m▒▄░[0m▄▀[1;30;47m░▓[0m [1;30m▓▄▄▄▄▄█[0m [1;30m▀▀▀▀▀▀▀[0m       [1;30m█[0m [1;30m▓[0m [1;30m▀█▄▓[0m [1;30m▀▀▀[0m          [1;30m▓[0m
    [1;30m▓ ▀▀▀[0m [1;30m▐[0;1;30;47m▒[0m▀▄[1;30;47m▄[0;1;30;40m▀[0m ▄▄[1;47m░[0m▀▀▀▀▄▄ [1;30m▀[0;1;30;47m▒░[0m [1;30;47m▓[0m [1;30m▄▄▄[0m                   [1;30m█▄▓[0m   [1;30m [0m               [1;30m█[0m
    [1;30m█[0m [1;30m▓▀█[0m [1;30;47m▓[0m [1;30;47m▒[0;1;30;40m▀[0m ▄[1;47m▒▄[0;1;40m▀[0;1;30;40m▄▒▀▌[0;1;37;40m■ [0;1;37;47m▄▒[0m▄ [1;30;47m▒[0m▌[1;30m▐[0m [1;30m█[0m [1;30m█[0m  [1myay for pics     [0m                [1;30m█▀▓[0m   [1;30m█[0m
-   [1;30m█ ▓[0m [1;30m█[0m [1;30m▌▐[0m  [1;47m░▄█[0;1;40m▌[0;1;30;47m▀[0m▓▄[1;30m ▄[0;1;30;47m▀[0;1;30;40m▌[0;1;37;40m▐█[0;1;37;47m▒[0m▌ [1;30;47m▓[0m  [1;30m█[0m [1;30m█[0m  [1mthat don''t match the board''s[0m     [1;30m█[0m [1;30m▓[0m   [1;30m█[0m
+   [1;30m█ ▓[0m [1;30m█[0m [1;30m▌▐[0m  [1;47m░▄█[0;1;40m▌[0;1;30;47m▀[0m▓▄[1;30m ▄[0;1;30;47m▀[0;1;30;40m▌[0;1;37;40m▐█[0;1;37;47m▒[0m▌ [1;30;47m▓[0m  [1;30m█[0m [1;30m█[0m  [1m                            [0m     [1;30m█[0m [1;30m▓[0m   [1;30m█[0m
    [1;30m█[0m [1;30m▓[0m [1;30m█[0m   [1;30m▄[0m▐[1;47m▒▓█[0;1;40m█▄[0m▀[1;30;47m░▒░[0m▀[1m▄█[0;1;47m█▓░[0m [1;30m▐[0m▌ [1;30m█[0m [1;30m█[0m  [1mattitude!  ..btw, all my stuff[0m   [1;30m█[0m [1;30m█[0m   [1;30m█[0m
    [1;30m▓[0m [1;30m█[0m [1;30m█[0m ▌[1;30m■[0m▀ ▀▀[1;47m▓▓[0;1;40m██▄▄▄██[0;1;47m▓▓[0m▀▀[1m [0m [1;30;47m░[0m [1;30m█[0m [1;30m▓[0m  [1mis 100% orig.  [0m                  [1;30m▓[0m [1;30m█[0m   [1;30m█ [0m
    [1;30m█[0m [1;30m█[0m [1;30m█[0m [1;30;47m▒[0m▄▄▀▄▄▄▄ [1m▀▀▀▀▀[0m ▄▄▄▀ ▐[1;30;47m▓[0m [1;30m█[0m [1;30m▓[0m        [1;30m▄▄▄▄▄▄▄▄▄[0m      [1;30m█▀▀▀▓[0m   [1;30m▄▄▄[0m [1;30m▓[0m [1;30m▀▀▓[0m [1;30m█[0m

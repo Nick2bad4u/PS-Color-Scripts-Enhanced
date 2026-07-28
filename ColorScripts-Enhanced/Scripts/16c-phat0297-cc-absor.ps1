@@ -5,7 +5,7 @@
 # Source SHA-256: a985297b2b36eb7e6ccbee6ddeca5853d2009eec8dbcd1d856997cdd125b66ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-ABSOR.ANS by chronicc (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: compo
 # SAUCE Author: chronicc
 # SAUCE Group: phat studios '97
@@ -19,7 +19,7 @@ Write-Host '
 
 
                                                 [37;40m [0m
-       [1;31;40m▄[0m    [30;41m►►>> >absorb emag    ▀ ▄▄[0;31;40m [0;30;41m▄[0m         [1;33;40m [0m    [30;41m▄[0;31;40m [0;30;41m▄▄ ▀ by:chronicc[phat]███[0m
+       [1;31;40m▄[0m    [30;41m►►                   ▀ ▄▄[0;31;40m [0;30;41m▄[0m         [1;33;40m [0m    [30;41m▄[0;31;40m [0;30;41m▄▄ ▀                  ███[0m
          [1;31;40m■[0m  [30;41m▄[0m                    [31;40m■[0m                                          [30;41m░[0m
        [31;40m   [0;1;31;40m▐▌[0m                  [31m▀[0m                 [33m [0m                           [30;41m▒█[0m
 [37;40m        [0;1;31;40m▄[0m                   [31m▐▌[0m      [31m▀[0m    [1;37m▄▄[0;1;33m▄███[0;1;33;43m▓[0;1;33;40m██[0;1;33;43m▄▄[0;33m▄▄▄[0m                     [30;41m▓[0m

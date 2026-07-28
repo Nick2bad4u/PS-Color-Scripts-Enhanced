@@ -5,7 +5,7 @@
 # Source SHA-256: 192e4b25ba9ddd789776186497281a6ac2e4a4e4b164fd3651f4c8287a8530b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bs-blndr2018.ans by burps (fuel); released in blndr2018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: blender 2018 entry
 # SAUCE Author: burps
 # SAUCE Group: fuel
@@ -42,7 +42,7 @@ Write-Host '
 [34m▓▓▓▓▀▀ [0;1;30m▄▀[0;33m▀▀ ▀▓▀[0;1;37m▄▄[0;1;37;47m▓▌[0;1;37;40m [0m█[1;30;47m░[0m█▄ [1;30;47m▒[0m▄▄▄ [34m▀▀▀▀▓▓▌[0;36m▄▄▄█[0;1;36;46m░░▒░[0;36m▀▀ [0;1;30m▄▐▓▄[0;1;30;46m▓▒[0;36m░▀[0m     [34m░  e->x² = y1[0m
 [34m▀ [0;37m▄▄ [0;1;30m▀▓▓▓ [0;1;37;47m▓░[0m▄ [1m▀[0;1;47m▓▓[0;1;40m█[0m▌▐[1;47m░[0m█▄▄ [1;30m▀[0;1;30;47m▓[0m█[1;47m░░░[0m█▌▄ [34m▀▒  [0;36m▀▀▓█▀[0;34m░[0m     [1;30m▀[0m      [34m░░░   α+dx +(y-3)²[0m
 [1;37;47m▀░░[0m▌ ▄▄[1;30;47m▓[0;1;30;40m▓▌[0;1;37;40m▐▌[0m▄ [35m▀[0;37m▄[0;1;37m▀[0;1;37;47m░[0m █[1;47m░░[0;1;30;47m░░[0m▀ [1;30m▄[0;1;30;47m▓▄[0m███ █[1;30;47m░[0;1;37;40m [0;34m░░░░░[0m           [34m░░░[0m
-[1;30;47m░░[0m█[1;30;47m░[0;1;30;40m▌[0m▐[1;30;47m░░▓[0;1;30;40m▌ [0;1;37;40m▄[0m▀[35m▐▄[0;37m▐[0;1;37;47m░[0m▄▐[1;47m░░[0;1;30;47m░░[0m▌[1;30m▐█[0;1;30;47m▀[0m███[1;30;47m░[0m▌▐[1;30;47m░▓[0;1;30;40m▐  [0;1;34;40mEverything I know today, I''ve learned[0m
-[1;30;47m▒▒▓▓[0;1;30;40m█ [0m██[1;30;47m░[0m▌[1m▐ [0;35m▐[0;1;35;45m▀░[0;1;37;40m [0;1;37;47m▓[0;1;37;40m▌[0m▐[1;47m░[0;1;30;47m░░[0m▌ [1;30;47m▓[0m█[1;47m░[0m██[1;30;47m░▓[0;1;30;40m▌[0m▐[1;30;47m▓[0;1;30;40m▀█    [0;1;34;40mfrom the whales at Crater Lake[0;34m.[0m
+[1;30;47m░░[0m█[1;30;47m░[0;1;30;40m▌[0m▐[1;30;47m░░▓[0;1;30;40m▌ [0;1;37;40m▄[0m▀[35m▐▄[0;37m▐[0;1;37;47m░[0m▄▐[1;47m░░[0;1;30;47m░░[0m▌[1;30m▐█[0;1;30;47m▀[0m███[1;30;47m░[0m▌▐[1;30;47m░▓[0;1;30;40m▐  [0;1;34;40m                                     [0m
+[1;30;47m▒▒▓▓[0;1;30;40m█ [0m██[1;30;47m░[0m▌[1m▐ [0;35m▐[0;1;35;45m▀░[0;1;37;40m [0;1;37;47m▓[0;1;37;40m▌[0m▐[1;47m░[0;1;30;47m░░[0m▌ [1;30;47m▓[0m█[1;47m░[0m██[1;30;47m░▓[0;1;30;40m▌[0m▐[1;30;47m▓[0;1;30;40m▀█    [0;1;34;40m                              [0;34m [0m
 [1;30m█[0;1;30;47m▓▓▓▓[0;1;30;40m▌[0m▐███ [35m▐[0;1;35;45m▀░▄[0;1;37;40m [0;1;37;47m▓[0;1;37;40m [0m█[1;30;47m░░[0m█ [1;30;47m▓░░▄[0m▀[1;30m▀▀▀  ▄▓█▌bs[0m                 [34m- [0;1;34mNeil deGrasse Tyson[0m
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

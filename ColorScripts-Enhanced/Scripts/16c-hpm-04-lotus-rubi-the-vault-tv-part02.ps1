@@ -5,7 +5,7 @@
 # Source SHA-256: b990560767fc325dfc0654eefe9f5d5153d0cb36529c38d73401d7cae3d5fb33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: lotus_rubi-The Vault TV.ans by Lotus Rubi (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Vault BBS - TV
 # SAUCE Author: Lotus Rubi
 # SAUCE Group: HPM
@@ -54,7 +54,7 @@ Write-Host '
 [37m [0;31m▄[0;37m █     [0;1;37m.           .           .           .[0m [34m♦♦[0;37m44[0;34m♦♦♦♦♦♦[0;37m   █ [0;33m■[0;1;30m    ▐[0;1;31m■[0;1;30m▌[0m  [1;30m▐[0;1;31m■[0;1;30m▌[0;31m   ▀[0m
 [37m [0;1;30m░[0m █           [1m.           .           .         [0;34m♦♦♦♦♦♦♦[0;37m    █ [0;1;30m█[0m               [33m░[0m
 [37m [0;1;30m░[0m █     [34m                                               [0;37m    █ [0;33m■[0;37m     [0;1;37m [0m    [1m [0m    [1;30m║[0m
- [31m▄[0;37m █            [0;34mhttp, jpg, gif and other vermins            [0;37m█ [0;31m░[0;37m    [0;1;30m▐[0;1;31m■[0;1;30m▌[0m  [1;30m▐[0;31m■[0;1;30m▌[0m   [1;30m░[0m
+ [31m▄[0;37m █            [0;34m                                            [0;37m█ [0;31m░[0;37m    [0;1;30m▐[0;1;31m■[0;1;30m▌[0m  [1;30m▐[0;31m■[0;1;30m▌[0m   [1;30m░[0m
  [31m▄[0;37m █         [0;34m                                               [0;37m█ [0;31m▐[0;37m               [0;1;30m▀[0m
  [1;30m░[0m █                                                        █ [31m░[0;37m     [0;1;37m5[0m    [1m6[0m    [1;30m▀[0m
  [31m▄[0;37m █        [0;1;34m                                                [0m  [33m░[0;37m    [0;1;30m▐[0;1;31m■[0;1;30m▌[0m  [1;30m▐[0;1;31m■[0;1;30m▌[0m   [1;30m░[0m

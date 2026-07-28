@@ -5,13 +5,13 @@
 # Source SHA-256: 8cdaf0eddc121ec68a38a1dad0a15072662420f09e755fb9b5cbf03f0a5f3a16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-9907.ICE by Magnetic M (ice9907a); released in ice9907a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
             ░
-        ▄[1m▄[0;1;47m▄[0;1;40m█[0;1;47m▓[0;1;40m▀▀▀▄▄▄[0m         ▄[1m▄[0;1;47m▄[0;1;40m██[0;1;47m▀[0;1;40m▀▀▀■[0m           [1;34;40mMagnetic M [0mof [1miCE [0mpresents
+        ▄[1m▄[0;1;47m▄[0;1;40m█[0;1;47m▓[0;1;40m▀▀▀▄▄▄[0m         ▄[1m▄[0;1;47m▄[0;1;40m██[0;1;47m▀[0;1;40m▀▀▀■[0m           [1;34;40m           [0m   [1m    [0m        
      [34m░[0;1;37m▄██[0;1;37;44m▓[0;1;37;40m▀ ▄[0;1;37;44m▓[0m   [1;37;40m▀██▄[0m     [1;37;40m▄███[0;1;37;44m▓[0;1;37;40m▀  ▄[0;1;37;44m▒[0m   [1;37;40m█▄[0m              July 24th 1999
   [34m░░░[0;1;37;44m▓▓▓▒░[0;34m░░[0;1;37m██[0;34m░   [0;1;37;44m▓[0;1;37;40m██[0;1;37;44m▒[0m   [1;37;44m▒[0;1;37;40m███[0;1;37;44m▓░[0m   [1;37;40m█[0;1;37;44m▓[0m  [34m░[0;1;37;44m▓[0;1;37;40m█[0;1;37;44m▒[0m
 ▀[1m▀▀ ▀███[0;1;44m░[0;34m▓  [0;1;37m██[0;34m▒   [0;1;37;44m▒[0;1;37;40m██[0;1;37;44m▓[0;1;37;40m▀ ▀████[0;1;37;44m░[0;34m▓   [0;1;37m██[0;34m░  [0;1;37;44m▒[0;1;37;40m█[0;1;37;44m▓°[0;34m▀▀▀▀▀▀   [0;37ma completely original[0m

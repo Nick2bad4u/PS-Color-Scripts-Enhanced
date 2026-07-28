@@ -5,7 +5,7 @@
 # Source SHA-256: a1e49c59243e6e3ffd6ae722c0c452a065d19080f748723eab322584c57a3d75
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-MAI.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -22,6 +22,6 @@ Write-Host '
 [37m [0;31m██[0;37m ▐[0;1;37m███[0;1;32;42m▓[0;1;32;40m█[0;1;32;47m▒[0;1;37;47m▀[0m [31m██████[0;37m [0;1;37;47m▐[0;1;37;40m███[0;1;37;47m▓[0m [31m▄███▒[0m    [30;42m►[0;1;37;42ml[0;1;37;40mast calls[0m        [30;42m►[0;1;37;42mz[0;1;37;40mbbs history[0m
  [31m███[0;37m▐[0;1;37m████[0;1;37;47m▓[0m▌▀ [31m████▀[0;37m [0;1;37m▄███[0m▀ [31m█████▓[0m    [30;42m►[0;1;37;42mm[0;1;37;40messages[0m          [30;42m►[0;1;37;42m![0;1;37;40mtetris[0m
  [31m▀█▄[0;37m [0;1;37m▐▀▀▀[0m▀[1m [0;1;41m░[0;31m████▌[0;37m [0;1;37m▐█[0;1;32m█[0;1;32;47m▒[0;1;37;47m▀[0m [31m▐[0;30;41m►[0;1;37;41main[0;31m█▓[0m    [30;42m►[0;1;37;42mn[0;1;37;40mote 2 op[0m        [30;42m►[0;1;37;42m/?[0;1;37;40mhelp[0m
- [30;41m►[0;31;40m███▄▄▄░[0;30;41m▓[0;31;40m██▌▄██[0;37;40m ▀[0;1;37;47m▓[0;1;37;41m▓[0;1;37;40m▀[0m▀ [31m▄██[0;1;37;41mMenu[0;31m█►[0m   [30;42m►[0;1;37;42mp[0;1;37;40mage op[0m          [30;42m►[0;1;37;42m/![0;1;37;40mtetris scrs[0m
+ [30;41m►[0;31;40m███▄▄▄░[0;30;41m▓[0;31;40m██▌▄██[0;37;40m ▀[0;1;37;47m▓[0;1;37;41m▓[0;1;37;40m▀[0m▀ [31m▄██[0;1;37;41m    [0;31m█►[0m   [30;42m►[0;1;37;42m [0;1;37;40m      [0m          [30;42m►[0;1;37;42m  [0;1;37;40m           [0m
        [31m▀▀▀▀▀▌▀▀████████[0;30;41m↓[0;31;40m████▀▀ [0m    [30;42m►[0;1;37;42mq[0;1;37;40mwk[0m
     [1m        [0m                       [1;32;42m░[0m'

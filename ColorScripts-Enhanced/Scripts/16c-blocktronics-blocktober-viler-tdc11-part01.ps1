@@ -5,7 +5,7 @@
 # Source SHA-256: 3773b1de773ae5bc18c4316ee278999c15d87709add3e47a22e2a44d5945bbcd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VileR-TDC11.ans by Viler (blocktronics_blocktober); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
 [1;34;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [1;34;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [1;34;44m▓▓▓▓▓▓▓▓▓▓[0;1;5;36;44m▄▄[0;1;34;44m▓▓[0;1;5;36;44m▄▄▄[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-[1;34;44m█████████[0;1;5;36;44m ██▀▀[0;1;34;44m██████████████████████████████████[0;1;5;36;44mGuess what''s coming for dinner?[0;5;44m [0m
+[1;34;44m█████████[0;1;5;36;44m ██▀▀[0;1;34;44m██████████████████████████████████[0;1;5;36;44m                               [0;5;44m [0m
 [5;35;44m░░░░░░░░░[0;1;5;36;44m▄▄[0;1;36m██[0;1;5;36;44m▄▄▄▄▄[0;5;35;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;5;37;44m/[0;5;35;44m░░░░░░░░░░░░░░░░░[0m
 [5;35;44m▒▒▒▒▒▒▒▒▒[0;1;36;45m▀[0;36;45m█▄█▄█▄█[0;1;36;45m▀[0;5;35;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;32;45m▄[0;1;32;42m▒▓[0;32;45m▄[0;5;35;44m▒▒[0m
 [5;35;44m▓▓▓▓▓[0;1;32;45m▄▄████████▄▄[0;5;35;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;31;45m▀▄[0;5;35;44m▓▓▓▓▓▓▓▓▓[0;1;32;45m▄[0;5;32;42m   [0;1;32;42m▀▒░[0;32;45m▒[0m

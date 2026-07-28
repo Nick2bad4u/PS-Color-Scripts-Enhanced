@@ -5,7 +5,7 @@
 # Source SHA-256: f247ffb2506bdf99ac662b26e75b1590b2b594f8d6afafb7f56de6c11f4ba3b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-edison2023.ans by warpus (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: EDISON UNDER THE SEA
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -49,4 +49,4 @@ Write-Host '
 [1;30;40m████[0m [33m██[0;30;43mHe was the first human to   [0;33;40m [0;1;30;46m▓▓▓▓▓▓▓▓▓[0m [1;30;47m▌▒[0;1;30;40m████▀▀▌░▄▄▌█████▄▄▄▄▄▄▄▄[0m [1;30m▓[0;1;30;46m▒▒▒▒▒▒[0m
 [1;30;40m███▌[0;33m▐██[0;30;43morganize a school of fish.  [0;33;40m▌[0;1;30;40m▐[0;1;30;46m███████[0;1;30;40m▌▐[0;1;30;47m ▓[0;1;30;40m████▄█▌▓▓▓▓▐████████████[0m [1;30m▐[0;1;30;46m▒▒▒▒▒▒[0m
 [1;30;40m▓▓▒[0m [33m█[0;30;43m                          [0;33;40m█[0;30;43m  [0;33;40m██ [0;1;30;40m██[0;1;30;46m█████[0m [1;30;47m▌░▓[0;1;30;40m██████[0m [1;30m▓▓▓▓▐████████████▌▐[0;1;30;46m▓▓▓▓▓▓[0m
-[1;30;40m▓▓░[0;33m▐[0;30;43m 80x33[0;33;40m█[0;30;43mansi by[0;1;33;43m warpus[0;30;43m([0;1;33;43mlazarus[0;30;43m) [0;33;40m█▌[0;1;30;40m▒▓▓▓▓▓▒▐[0;1;30;47m ▒█[0;1;30;40m█[0;1;30;47m███[0;1;30;40m█▌▓▓▓▓▓░████████████▌▐[0;1;30;46m▓▓▓▓▓▓[0m'
+[1;30;40m▓▓░[0;33m▐[0;30;43m      [0;33;40m█[0;30;43m       [0;1;33;43m       [0;30;43m [0;1;33;43m       [0;30;43m  [0;33;40m█▌[0;1;30;40m▒▓▓▓▓▓▒▐[0;1;30;47m ▒█[0;1;30;40m█[0;1;30;47m███[0;1;30;40m█▌▓▓▓▓▓░████████████▌▐[0;1;30;46m▓▓▓▓▓▓[0m'

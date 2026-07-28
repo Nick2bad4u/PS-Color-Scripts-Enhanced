@@ -5,7 +5,7 @@
 # Source SHA-256: 9280497bd1da3f20ed8aeb18c14e378c646b88993e8a6c1d2c804c4b3d7b4086
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-ACID.ANS by Stone The Crow (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ACiD Advo
 # SAUCE Author: Stone The Crow
 # SAUCE Group: ACiD Productions
@@ -36,7 +36,7 @@ Write-Host '
      [36m▐▓▐██████[0;1;36;46m▐░[0;36m▌▄[0m       [36m█▄▀[0m             [36m▀[0;1;36;46m▓[0;36m█████[0;1;36;46m ▄▄█▀[0;36m▀[0m    [36m░[0m         [36m▒[0m     [36m▀[0m  [36m█[0;1;36;46m▌[0m
       [36m███████[0;1;36;46m▄█[0;36m█▐▓▌[0m      [36m█[0;1;36;46m░[0;36m▌[0m               [36m▀▀[0;1;36;46m▒▀▀▀▀[0;36m▀▀[0m                [36m░[0m    [36m■[0m    [1;36;46m▓[0m
        [36m▀▀██[0;1;36;46m▀▀[0;36m▀▀▄▓▀[0m        [36m█[0;1;36;46m░▒[0m                                                 [1;36;46m▒[0m
-                         [36m▄[0m [36m▄█[0;1;36;46m■[0;36m█▄▄[0m             [37mThe space above can be used[0m     [1;36;46m░[0m
+                         [36m▄[0m [36m▄█[0;1;36;46m■[0;36m█▄▄[0m             [37m                           [0m     [1;36;46m░[0m
                           [36m▀█[0;1;36;46m▀ [0;36m▀[0m               [37m                          [0m      [36m▓[0;37m [0m
                                               [37m                           [0m     [36m▒[0;37m [0m
       [37mUse[0m          [36m▄▀[0m          [36m▄▄▄[0;1;36;46m  ▄▄▄[0;36m█▄▄▄[0m                         [37m- stc[0m     [36m░[0;37m [0m

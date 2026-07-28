@@ -11,8 +11,8 @@
         "artOnlyContextRows": 18,
         "removedScripts": 27,
         "removedWorks": 8,
-        "retainedFiles": 4,
-        "retainedRows": 13
+        "retainedFiles": 3,
+        "retainedRows": 12
     },
     "candidates": [
         {
@@ -1308,18 +1308,6 @@
         }
     ],
     "reviewedRetentions": [
-        {
-            "action": "retain",
-            "category": "scene-caption",
-            "evidence": [
-                {
-                    "row": 29,
-                    "sha256": "0f8074379e94a6a58532e3da6376ef7760d9c2bef9ec4c87bea0857f14184f63"
-                }
-            ],
-            "file": "16c-used-02-te-st02-part01.ps1",
-            "rationale": "BBS wording is a scene caption without an endpoint or external instruction."
-        },
         {
             "action": "retain",
             "category": "interface-panel",

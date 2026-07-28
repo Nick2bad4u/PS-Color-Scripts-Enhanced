@@ -5,7 +5,7 @@
 # Source SHA-256: 9c721ac5f7f43d6b3e155aaf681235852b4dca3e16ce849977b513a46af236da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CCIACID1.ANS by Innate Malice (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 38-75
 # Columns: 1-80
 
@@ -44,7 +44,7 @@ Write-Host '
 [31;40m    [0;1;34;40m▄▀[0m▄[1;30;47m░░[0m▀      ▀██▄ [1m▀ [0;1;47m░░[0m▀[1;47m░░[0m▄██[47m  [0m [1;34;40m▀▀▀▀▀▀█[0m                [31m░[0m
 [31m  [0;1;34m▄▀[0m▄[47m  [0;40m▀[0m       [40m▄██▀    [0;47m  [0m  [40m▀[0;47m [0;40m▀ [0;47m  [0m [1;47m▒░ [0;1;30;47m░▒[0m [1;34;40m█[0m                 [31m░[0m
 [1;34m▄▀[0m▄[47m  [0;40m▀[0m       [40m▄██▀   [0;47m  [0m [47m  [0m      [47m  [0m       [34;40m▀[0m
-[34;40m ▀▄[0;37;40m▀[0;1;37;47m░░[0m▄       ▀[47m  [0;40m▄  [0;1;30;47m░░[0m [1;30;47m  [0m      [1;30;47m░░[0m             [1;30;40mCybe[0mrCrime [1mInternatio[0mnal Net[1;30mwork[0m
+[34;40m ▀▄[0;37;40m▀[0;1;37;47m░░[0m▄       ▀[47m  [0;40m▄  [0;1;30;47m░░[0m [1;30;47m  [0m      [1;30;47m░░[0m             [1;30;40m    [0m       [1m          [0m       [1;30m    [0m
 [1;30m   [0;34m▀▄[0;1;37m▀[0;1;37;47m▒▒[0;1;37;40m▄[0m       ▀[1;30;47m░░[0m▄▀[1;30;47m▒[0m [1;30;47m░░[0m      [1;30;47m▒▒[0m [1;34;40m▀▀▀▀▀▀▀▀▀█[0m
      [34m▀▄[0;1;37m▀[0;1;37;47m▓▓[0;1;37;40m▄[0m       ▀[1;30;47m▒▒[0m▄ [1;30;47m▒▒[0m      [1;30;47m▓▓[0m [1;37;47m░    [0;1;30;47m░▒▓[0m [1;34;40m█[0m       [1m I[0;1;34mn[0;34mnate [0;1mM[0;1;34ma[0;34mlice <[0;1;34mA[0;1mCi[0;1;34mD[0;34m>[0m
                                            [34m▀[0m'

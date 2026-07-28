@@ -5,7 +5,7 @@
 # Source SHA-256: 45975af2744e5ad1f4ac860364c7ca7682726f3ed93f03239319d8802841b4ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SJ-MYST.ANS by The Sad Jester (blind-02); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
                                   [1;30m   greets[0m  [1;30m [0m       [1;30m▄▄[0;1;37m▄[0m
    NOTE: PUT STATS                    [1;30mto:[0m [1;30m [0m        [1;30m▄[0;1;30;47m▓▒░[0;1;37;40m▓[0;1;37;47m▓[0;1;37;40m▄[0m
    ANYWAREz.                        [1;30mLoi~,qk,[0m       [1;30;47m▓▒▒░[0;1;37;47m▓▓▒[0m     [1m [0m
-   and remove                    ▌ [1;30mMyst Sysop[0m▐     [1;30m▀[0;1;30;47m▓░[0;1;37;47m▓▓▒[0;1;37;40m▀[0m▄
+                                 ▌ [1;30m          [0m▐     [1;30m▀[0;1;30;47m▓░[0;1;37;47m▓▓▒[0;1;37;40m▀[0m▄
    the note            [36m▄[0;1;36m▀■[0m     ■▀ [1;30mand!  blind[0m ▀■     [1;30m▀[0;1;37m▓▀[0m▄[1;47m▒[0;1;40m▌[0m
                       [1;36m▄[0;1;36;46m░[0m [32m▄[0;1;32;42m░░[0;32m▄[0;1;32;42m░░[0;32m▄[0;37m [0;32m▄[0;1;32;42m░░[0;32m▐▄sj▄[0;1;32;42m░▒▒░[0;32m▄[0;37m [0;1;32m▄[0;1;32;42m░▒░▓▒░[0;32m▄[0;37m ▐[0;1;37;47m▒[0m
                       [1;36;46m▒▓[0m [1;32;42m░▒░[0;32m▐▐[0;1;32;42m▒░[0m [1;32;42m░▒▒[0;32m▐[0;1;32;42m░░[0m [1;32;42m░░▒[0;32m▐[0;1;32;42m▒░[0m [1;32;42m░▒[0;32m▐[0;1;32;42m▒[0;32m▌[0;1;32;42m▓▒░[0m ▐[1;47m░[0m

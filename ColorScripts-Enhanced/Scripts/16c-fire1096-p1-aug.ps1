@@ -5,7 +5,7 @@
 # Source SHA-256: a7cdc01fac5934ee83ba912cb8a4140089cc4b60a2aeb8b981e29448dc161c0c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-AUG.ANS by Prisoner#1 (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Auggie's Basement
 # SAUCE Author: Prisoner#1
 # SAUCE Group: fire
@@ -39,7 +39,7 @@ Write-Host '
                                          [35m░▓▓█▓██[0;1;31;45m░[0;35m█[0;1;31;45m░▒▒▒[0;35m▀ ▒▄[0;1;31;45m░[0;35m█[0;1;31;45m░░░[0;35m█▄█▓▓▀[0m [36m▄█[0;1;37;46m▄▄▄████[0m
        [35mAuggie''s Basement....[0m               [35m░▓▓█████[0;1;31;45m░[0;35m█[0m [35m▄[0;1;31;45m░░░[0;35m█▀▀[0m    [35m▀░▄[0m [36m▐[0;1;37;46m▐████████[0m
                                           [35m░░▒▓▓▓██▓█░▒▓█▀▀[0m [37m▄▄▓[0;1;37;47m▄[0m▄▐[1;47m▄[0m▄  [36m▄█[0;1;37;46m██████▓█[0m
-  [35mKeen 31 liner by PrisonerNumberOne[0m      [35m░[0m [35m▒[0m [35m▓▓█░[0m [35m▒▓▒[0m     [37m▀[0m [37m▀[0;1;37;47m▀[0m▄▀ [36m▄█[0;1;37;46m▄██▓▓█▓▓▓▓[0m
+  [35m                                  [0m      [35m░[0m [35m▒[0m [35m▓▓█░[0m [35m▒▓▒[0m     [37m▀[0m [37m▀[0;1;37;47m▀[0m▄▀ [36m▄█[0;1;37;46m▄██▓▓█▓▓▓▓[0m
                       [35mFire 1996[0m              [35m░[0m  [35m▓░[0m [35m▒▒[0m     [36m▄▄██▄▄▄▄█[0;1;37;46m▄▓█▓▓▒▓▓▓▒▓▒[0m
                                                 [35m▒[0m [35m░[0m     [36m▄██[0;1;37;46m░░░░░  ▒▓▓▓▓▒░▒▒▓▒▒▒[0m
                [35m·[0m                           [35m░[0m    [35m░[0m     [36m▄█▄████[0;1;37;46m░░[0;36m█[0;1;37;46m░░░▒▓▒░░ ░░▒░░░[0m

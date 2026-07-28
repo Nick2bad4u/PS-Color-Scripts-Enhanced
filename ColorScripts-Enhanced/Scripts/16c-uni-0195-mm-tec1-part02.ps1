@@ -5,7 +5,7 @@
 # Source SHA-256: 4183d95ec0100da3486f8982e172e6524daf827f4b64beba3daff12305aa56a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-TEC1.ANS by Magnetic M (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The End Complete
 # SAUCE Author: Magnetic M
 # SAUCE Group: Union
@@ -50,7 +50,7 @@ Write-Host '
                 [1;36;46m▒█[0;1;36;40m██▒   [0;36m▀[0m     [1;36;46m▒[0;1;36;40m██    [0;1;36;46m▒[0;1;36;40m█████▓ [0;36m░[0;1;36;46m▒[0;1;36;40m██[0m      [36m▄[0;1;36;46m▄[0;1;36;40m███▒[0m
                  [1;36;46m▒[0;1;36;40m███▄[0m     [36m▄  [0;1;36;46m▒[0;1;36;40m██[0m     [1;36;46m▒[0;1;36;40m████▓ [0;36m░[0;1;36;46m▒[0;1;36;40m▓█   [0;36m▄[0;1;36m▄[0;1;36;46m▄[0;1;36;40m████▀[0m
                   [36m▀[0;1;36;46m▀[0;1;36;40m████▄[0;1;36;46m▄[0;1;36;40m██▒ [0;1;36;46m▒[0;1;36;40m██▄▄ ▄  [0;1;36;46m▒[0;1;36;40m██▓▒ [0;36m░[0;1;36;46m▒[0;1;36;40m▒▀███████▀▀[0m
-[1;36;40m [0;1;30;40mMMmbnnmlnmblmnn...  [0;36m▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m▀▀▀  [0;36m▀[0;1;36;46m▀[0m        [1;36;46m▒[0;1;36;40m▀▀   [0;36m▀[0;1;36m▀░   [0;36m▀    [0;1;30mM&M''s... they rule![0m
+[1;36;40m [0;1;30;40m                    [0;36m▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m▀▀▀  [0;36m▀[0;1;36;46m▀[0m        [1;36;46m▒[0;1;36;40m▀▀   [0;36m▀[0;1;36m▀░   [0;36m▀    [0;1;30m                   [0m
 [1;30m    [0;36m▄[0;1;36m▄▄▄▄    [0;36m▄[0;1;36m▄   [0;36m▄[0;1;36m▄▄▄[0m     [36m▄[0;1;36m▄▄[0m     [36m▄[0;1;36m▄▄▄▄▄▄▄  [0;36m▄[0;1;36m▄▄▄▄ [0;1;30m:)   [0;36m▄[0;1;36m▄▄[0;1;37m▄ [0;36m▄[0;1;36m▄▄▄▄▄▄▄▄   [0;36m▄[0;1;36m▄[0;1;37m▄▄[0m
 [1;37m [0;36m▄[0;1;36;46m▄[0;1;36;40m█▀   ▀ [0;36m▄[0;1;36;46m▄[0;1;36;40m█▀  [0;1;37;40m▀▄ [0;36m▀[0;1;36;46m▀[0;1;36;40m██▀[0;36m▄[0;1;36m▄   [0;36m▀[0;1;36;46m▀[0;1;36;40m█▄   [0;1;36;46m░[0;1;36;40m██  [0;36m▀[0;1;36;46m▀[0;1;36;40m██▄▀██    [0;36m▄[0;1;36;46m▄[0;1;36;40m█▀  [0;36m▀  ▀ █[0;1;36m█▀  [0;36m▀▄[0;1;36;46m▄[0;1;36;40m█▀  [0m▀
 [36m▒[0;1;36;46m▓[0;1;36;40m█▌  [0;1;30;40m(: [0;36m▐[0;1;36;46m▐[0;1;36;40m█▌    [0;1;37;40m▐▌ [0;36m▐[0;1;36;46m▐[0;1;36;40m█▌ [0;36m▀[0;1;36;46m▀[0;1;36;40m▄  [0;36m▐[0;1;36;46m▐[0;1;36;40m██  [0;1;36;46m░[0;1;36;40m██   [0;36m▐[0;1;36;46m▐[0;1;36;40m██▌▐▌   [0;36m▐[0;1;36;46m▐[0;1;36;40m█▌[0m       [36m▐[0;1;36;46m▐[0;1;36;40m▌   [0;36m▐[0;1;36;46m▐[0;1;36;40m█▌[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: f9486128c916696972650f6480033cdb9e2a72b56b23b860d30ef860479a21d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-SKF7.ANS by Fire 11/96 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Skullfish
 # SAUCE Author: Fire 11/96
 # SAUCE Group: Eerie
@@ -22,7 +22,7 @@ Write-Host '
                 [31m░░[0m
 [31m ░░[0m       [31m░▄▀▀▀▀▓▓█▄▄▄▄▄▄▄▄▄▄[0m
 [31m ▓▓▀▀    ░▀[0m     [31m▀▀▀█▀▀▀▀▀▀▀▓▓[0m      [31mtake a break, driver 8 -[0m
-[31m ▀[0m       [31m▀ ██▌[0m             [31m░░   ░░ we can reach our destination[0m
+[31m ▀[0m       [31m▀ ██▌[0m             [31m░░   ░░                             [0m
 [31m ░█[0;31;47m▓░▄[0;31;41m  [0;31;40m█▓░██████▄▐[0;31;47m▓▄[0;31;40m████[0m     [31;40m▀▀▓▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░░[0m
 [31;40m   █[0;31;47m▓[0;31;40m█▌▀▀▀  ▄▄▐██▌ [0;31;47m█[0;31;40m█▌▀▀▀ ▄▄▄   ██████████████████████████████████████████▓▓███[0m
 [31;40m█▓████▓▌░██▌[0;1;31;41m░░▄[0;31m██░▓███████[0;31;41m [0;31;40m██[0m       [31;40m███████████████████████████████████████████[0m

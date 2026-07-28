@@ -5,7 +5,7 @@
 # Source SHA-256: 4f780ca4c98fbb23d2144d525fed21f1718776374b065bbf424034bdd9449db5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKY!NEWS.ANS by skylord (fluid); released in fld9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: news ?!?!
 # SAUCE Author: skylord
 # SAUCE Group: fluid
@@ -29,7 +29,7 @@ Write-Host '
     [34m▄[0;1;34;44m▄[0;34m▄ [0;37m [0;34m▀[0;1;34;44m░▒[0;34m▀[0;1;34;44m▒[0;34m▄[0;1;34;44m░[0;1;30;44m░[0;34m▓▀▀▀[0;37m▓▄██▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄███▄▄  [0;1;31m [0;34m▀▀▀▓▄[0;1;34;44m░[0;34m▄▄ ▀ [0;37m    [0m
     [1;30m░[0;34m▀  ▄▄[0;37m [0;34m▓▀▀▀ [0;37m▄▄▄███[0;1;30;47m [0m███████████████████████████████████████▓█▄▄▄ [34m▀▀[0;1;30;44m░[0;1;34;44m░[0;34m▄▄ [0;37m   [0;34m░[0m
     [37m  [0;1;30m [0m [34m ▀[0;37m [0;34m▒[0;37m ▄█████[0;1;30;47m [0m██████[1;30;47m [0m██████████████████████████████████████████▄[31m [0;34m▓▀ ▄ [0;37m  [0;34m░[0m
-    [34m░    [0;1;34m░█[0;34m▀[0;37m █████[0;1;30;47m [0m██[1;30;47m [0m█[1;30;47m [0m█[1;30;47m Thiz one is NOT for[0m█[1;30;47mpublic use...[0m████████████ [34m▀[0;1;34m█[0;34m▓ [0m
+    [34m░    [0;1;34m░█[0;34m▀[0;37m █████[0;1;30;47m [0m██[1;30;47m [0m█[1;30;47m [0m█[1;30;47m                    [0m█[1;30;47m             [0m████████████ [34m▀[0;1;34m█[0;34m▓ [0m
     [34m░   ▐[0;1;34m░[0;34m▌ [0;37m██████[0;1;30;47m [0m██[1;30;47m [0m█[1;30;47m [0m█[1;30;47m It''s only for[0m█[1;30;47melastic[0m██████████████████████[1;30;47m [0m██▄[34m▐[0;1;34m█[0;34m▌[0m
       [34m  ▐[0;1;34m▓[0;34m▌ [0;37m▓█████[0;1;30;47m [0m██[1;30;47m [0m█[1;30;47m [0m█[1;30;47m So don''t fucking[0m█[1;30;47muse it......[0m██████████████████[34m▐[0;1;34m█[0;34m▌[0m
        [34m ▐▓▌ [0;37m▀███[0;1;30;47m           [0m██████████████████████████████████████████████[34m▐[0;1;34m█[0;34m▌[0m

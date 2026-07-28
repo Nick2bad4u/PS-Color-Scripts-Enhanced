@@ -5,7 +5,7 @@
 # Source SHA-256: cdcf4f64a40d22ed42ea13177427b75178c1d75a4c4124366042a4dd318aea7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PA-SYNT.ICE by Parasite (iCE); released in ice9606a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Happy Birthday!
 # SAUCE Author: Parasite
 # SAUCE Group: iCE
@@ -16,7 +16,7 @@
 
 Write-Host '
  ▄▄█████████▄██▀▀▀█████████[1;30;47m░░░[0m█[1;30;47m░[0m█████████████████[30;47m  [0;37;40m███████[0;1;30;47m▀▀[0m█[1;30;47m▀[0m██████[47m0[0;40m████████▄▄ [0m
-[40m▐[0;1;47mpa[0;30;47mrasite + [0;1;37;47mi[0;30;47mce[0;37;40m██▄▄▄██[0;1;37;47m▄░░[0m█████▀▀[1;47m  ▄[0m▄▄▄██▀▀▀██[1;30;47m ▀█▄[0;30;47m   Happy Birthday Syntax!![0;37;40m█[0;30;47m   [0;37;40m▌[0m
+[40m▐[0;1;47m  [0;30;47m         [0;1;37;47m [0;30;47m  [0;37;40m██▄▄▄██[0;1;37;47m▄░░[0m█████▀▀[1;47m  ▄[0m▄▄▄██▀▀▀██[1;30;47m ▀█▄[0;30;47m                          [0;37;40m█[0;30;47m   [0;37;40m▌[0m
 [37;40m██[0;1;37;47m░░░[0m█[1;47m░░[0m████▀▀██▄▄▄▄█▀▀[1;47m▓▌[0m▀[1;47m▄[0;1;40m▄▄[0;1;47m█▀▀▀░░[0m▀▀█████▄▄ ▀███[1;30;47m▀[0m███████████[1;30;47m▄▄[0m████▀▀███████████
 ██████▀▀ ▄█████▀▀▀▀▀▀█▌[1m▀[0m [1m▀▀▀[0m▀ [1m   [0m▀▀▀█▄▄ ▀████▄ ▀█████▀▀▀  ▄[1;33;47m▄[0m██████▄  [1;31m▄[0m █[1;30;47m░[0m███████
 ██▀▀▄██[1;47m░░[0m█▀▀ [1m▄▄▄███▀  [0m▄  [1m▄[0m▄[1m ▀█████▄▄ [0m▀▀███▄▀▀███▄█████ [31m▄[0;1;31;41m▄[0m █[1;33;47m██▌▄▄░░ [0m█ [1;31m█[0;31m▌[0;37m▐[0;1;30;47m▒▌ [0m█████

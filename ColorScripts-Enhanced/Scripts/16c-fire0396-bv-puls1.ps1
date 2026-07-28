@@ -5,7 +5,7 @@
 # Source SHA-256: 73cccf75b9e9284fd61535b81ba462a18841a65f6ec890c5aa2d709a8cc639f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BV-PULS1.ANS by Black Viper (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Pulse
 # SAUCE Author: Black Viper
 # SAUCE Group: fire
@@ -16,7 +16,7 @@
 
 Write-Host '
                  [34m ▄[0;36m▄▄[0;34m [0;36m▄[0;34m■▄ [0m                   [34m [0m
-[37m [0;34m  [0m   [34m▄▄▄  ▒▓[0;36;44m░[0;34;40m█[0;36;44m░▒▒▒▓[0;34;40m   ░ ▀■  [0;1;30;40m- Ansi by Black Viper (Fire)              [0m      [34m ▄ [0m
+[37m [0;34m  [0m   [34m▄▄▄  ▒▓[0;36;44m░[0;34;40m█[0;36;44m░▒▒▒▓[0;34;40m   ░ ▀■  [0;1;30;40m                                          [0m      [34m ▄ [0m
 [37m [0;36m▄[0;36;44m▒[0;34;40m▓[0;36;44m░░░[0;34;40m▓▒ ▒▓▀▀▀[0;36;44m░[0;34;40m▀▀[0;36;44m▒[0;34;40m ▄■  [0m                 [34;40m     ▄  [0m          [34;40m▄[0m         [34;40m▄▄▄▄▄[0;36;44m▒[0;34;40m▀[0;36;44m▒▒[0;34;40m▀▀[0m
 [34;40m■▄▀▓[0;36;44m▒░░[0;34;40m▀▄■[0m    [34;40m■▄▄░░▄▓bv ▀■▄[0m      [34;40m▄▄▄[0;36;44m▒░[0;34;40m▄▄▄■▀   ▐▀[0m     [34;40m ▄▄[0;36;44m░░[0;34;40m▓ ▀▀▀■ ▄▄[0;36;44m░[0;34;40m▀▀ ■▀▄▄▒░▄▀[0m
 [37;40m [0;34;40m ■▀▄[0;36;44m░░[0;34;40m█▓▌ ░░p  ▓[0;36;44m░░░[0;34;40m ▄▄    ▄[0m    [34;40m [0;1;34;40m▄[0;34m▀[0;36;44m░░[0;34;40m▀▀[0;36;44m░[0m   [34;40m  ▀▄▄▄▄[0;36;44m░░[0;34;40m▀▀▀ ▄▄[0;36;44m░[0;34;40m▄[0;36;44m░[0;34;40m▌■▄[0;36;44m░░▒▒░░[0m   [34;40m▐[0;36;44m▒[0;34;40m▄[0;36;44m▒[0;34;40m▌ [0m

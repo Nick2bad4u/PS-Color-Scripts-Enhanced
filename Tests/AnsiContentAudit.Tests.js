@@ -563,12 +563,12 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.finalAudit.failedFiles, 56);
     assert.equal(checkpoint.finalAudit.functionalContactExceptions, 1);
     assert.equal(checkpoint.finalAudit.sourceFidelityLockedScripts, 21);
-    assert.equal(checkpoint.archiveState.reviewedAnalysisExceptions, 416);
+    assert.equal(checkpoint.archiveState.reviewedAnalysisExceptions, 413);
     assert.equal(checkpoint.removals.adultContentWorks, 21);
     assert.equal(checkpoint.policyReview.adultTaggedWorksRetained, 9);
     assert.equal(checkpoint.policyReview.adultTaggedScriptsRetained, 13);
-    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 37506);
-    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23827);
+    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 38817);
+    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23832);
     assert.equal(
         checkpoint.contentCleanup.highConfidenceGeometryRowsRemoved,
         767
@@ -577,10 +577,10 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.contentCleanup.residualContentRowsRemoved, 6);
     assert.equal(checkpoint.contentCleanup.residualGeometryRowsRemoved, 77);
     assert.equal(checkpoint.contentCleanup.contactOrPromotionalRowsBlanked, 646);
-    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 3546);
+    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 4857);
     assert.equal(
         checkpoint.contentCleanup.residualMixedTextTrailingRowsRemoved,
-        68
+        73
     );
     assert.equal(
         checkpoint.residualCleanupReview.mixedTextPass2FilesRedacted,
@@ -605,6 +605,18 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(
         checkpoint.residualCleanupReview.mixedTextPass3TrailingRowsRemoved,
         44
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass4FilesRedacted,
+        709
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass4RowsBlanked,
+        1311
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass4TrailingRowsRemoved,
+        5
     );
     assert.equal(checkpoint.removals.residualAdvertisementWorks, 8);
     assert.equal(checkpoint.removals.residualAdvertisementScripts, 27);

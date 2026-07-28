@@ -5,7 +5,7 @@
 # Source SHA-256: 60299b0454dc497a6e9df28c48cd68b0d864063f140f49f60a492f4834def20e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-AMPH.ANS by inclusive (fuel); released in fuel19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: amphetamine paradise
 # SAUCE Author: inclusive
 # SAUCE Group: fuel
@@ -35,6 +35,6 @@ Write-Host '
   [33m▀[0;1;31;43m░[0;33m▄███▐███[0;1;31;43m▐[0;1;31;40m█▌[0;33m▐██[0;1;31;43m ░[0;1;31;40m███████[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;43m█[0;1;31;40m▌[0;33m▐[0;1;31;43m▐[0;1;31;40m█████▌[0;33m▐[0;1;31m▓█[0m    info!info!info!info!info!info!
     [33m▀▀[0;37m [0;33m▄████[0;1;31;43m▐[0;1;31;40m██[0m [33m▀██[0;1;31;43m  ▀[0;1;31;40m████████[0;1;31;43m▓[0;1;31;40m▀ [0;1;31;43m [0;1;31;40m██████▌██▀[0m    info!info!info!info!info!info!
     [1;30m░░[0m [33m▓█[0;1;31;43m░░[0;33m█[0;1;31;43m [0;1;31;40m███▄ [0;33m▀▀[0;1;31;43m░   ▀▀▀[0;1;31;40m█▀▀ [0;33m▄[0;1;31;43m▄[0;1;31;40m███████▄[0;1;31;43m▓[0m
-       [1;31m [0;33m█[0;30;43minc.[0;1;31;43m ▒[0;1;31;40m█████▄▄▄▄▄▄[0;33m▄▄▄[0;1;31;43m▄▄▓▓[0;1;31;40m███████[0;1;31;43m▓[0;1;31;40m [0m      for dash_. my first toon pic
+       [1;31m [0;33m█[0;30;43m    [0;1;31;43m ▒[0;1;31;40m█████▄▄▄▄▄▄[0;33m▄▄▄[0;1;31;43m▄▄▓▓[0;1;31;40m███████[0;1;31;43m▓[0;1;31;40m [0m                                  
         [1;30m░[0;33m▀▀██[0;1;31;43m [0;33m█[0;1;31;43m▀▓[0;1;31;40m██████████████████████▀[0m        in ages.  inclusive//fuel.
               [33m▀▀▀▀[0;1;31m▀▀[0;1;31;43m▀▀▀▓▓[0;1;31;40m████████▀▀▀▀[0m'

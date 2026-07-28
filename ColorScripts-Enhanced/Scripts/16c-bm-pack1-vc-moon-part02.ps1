@@ -5,7 +5,7 @@
 # Source SHA-256: 63fb0ea211551f0ec7e0fa4f6ef95ae318750cc99c2f8c598bdbe9e1d74fe58c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC-MOON.ANS by Voice (bm-pack1); released in bm-pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -57,6 +57,6 @@ Write-Host '
 [1;36;46m                                                                         [0;1;37;46m░░▒▒▓▓█[0m
 [1;37;46m [0;1;30;46m▀[0;1;30;40m▀▀▀▀▀▀[0;1;30;46m▄     [0;1;36;46m100% Original          [0;1;37;46mGreetz to:                          ░░▒▒▓▓█[0m
 [1;37;46m     [0;1;30;40m█ [0;1;30;46m [0;1;30;40m█ [0;1;30;46m    [0;1;36;46m                       [0;1;37;46m                                    ░░▒▒▓▓█[0m
-[1;37;46m   [0;1;30;46m▀[0;1;30;40m▀▀▀▀▄ [0;1;30;46m                           [0;1;37;46mCoke, TΣX, and all the others...    ░░▒▒▓▓█[0m
+[1;37;46m   [0;1;30;46m▀[0;1;30;40m▀▀▀▀▄ [0;1;30;46m                           [0;1;37;46m                                    ░░▒▒▓▓█[0m
 [1;37;46m     [0;1;30;40m█ [0;1;30;46m [0;1;30;40m█ [0;1;30;46m                                                               [0;1;37;46m░░▒▒▓▓█[0m
      [1;30;40m█  ▄ \/()i[E[0m                                             [1;30;40m-═-═- November ''94[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 6f75e0e27b1dd012d47c45d395acb31dee972a6868da5fe79c70fb8772bf35ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-XEN.ANS by Shadow Master (blde0394); released in blde0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -16,7 +16,7 @@ Write-Host '
 [1;30m  [0;1;36;46m░▒▓█[0m        [1;30;44m█[0;1;30;41m▓▒░[0m
 [1;30;40m  [0;1;34;46m░[0;1;36;46m░▒▓█[0m      [1;30;44m█[0;1;30;41m▓▒░[0;1;31;41m░[0m                     [34m┌──[0;1;34m───[0;1;37m──[0m─[1m─[0m─[1m──[0m──[1m──[0m─[1m─[0m──[1m──[0;1;34m───[0;34m──┐[0m
 [34m  [0;1;34;46m▒░[0;1;36;46m░▒▓█[0m    [1;30;44m█[0;1;30;41m▓▒░[0;1;31;41m░▒[0m                     [34m│[0;1;37m][0m[[1;30mT [0;1;37mC[0mo[1;30muriering [0;1;37mH[0me[1;30mad[0;1;37mQ[0mu[1;30marters[0;34m│[0m
-[34m  [0;1;34;46m▓▒░[0;1;36;46m░▒▓█[0m  [1;30;44m█[0;1;30;41m▓▒░[0;1;31;41m░▒▓[0m                     [1;34;40m│    [0;1;37;40mI[0mD [1mA[0mr[1;30mt [0;1;37mH[0me[1;30mad[0;1;37mQ[0mu[1;30marters    [0;1;34m│[0m
+[34m  [0;1;34;46m▓▒░[0;1;36;46m░▒▓█[0m  [1;30;44m█[0;1;30;41m▓▒░[0;1;31;41m░▒▓[0m                     [1;34;40m│    [0;1;37;40m [0m  [1m [0m [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m          [0;1;34m│[0m
 [1;34m   [0;1;34;46m▓▒░[0;1;36;46m░▒[0m  [1;30;44m█[0;1;30;41m▓▒░[0;1;31;41m░▒▓[0m                      [1;34;40m│[0m      [1;37;40m4 g[0mi[1;30mgz [0;1;37mo[0mf [1mF[0mi[1;30mlez[0m      [1;34m│[0m
 [1;34m    [0;1;34;46m▓▒░[0m  [1;30;44m█[0;1;30;41m▓▒░[0;1;31;41m░▒▓[0m       [1;30;40m▄▀▀▀▀▀▀▀▀▀▀▀▀▄  [0;34m│[0m       [1;37m([0;1;30mXXX[0;1;37m)Y[0mE[1;30mA-[0;1;37mR[0mi[1;30mTE[0m       [34m│[0m
      [1;34;46m▓[0m  [1;30;44m█[0;1;30;41m▓▒░[0;1;31;41m░▒▓[0m        [1;30;40m█ [0;1;37;40m▀█████████▄ [0;1;30;40m█ [0;34m└──[0;1;34m───[0;1;37m──[0m─[1m─[0m─[1m──[0m──[1m─[0m─[1m──[0m──[1m──[0;1;34m───[0;34m──┘[0m

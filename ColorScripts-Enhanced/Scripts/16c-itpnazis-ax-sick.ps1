@@ -5,7 +5,7 @@
 # Source SHA-256: 99a685c6593dbb878a7bac152cf015a7992522e14b827a31119b028c8ef20fb2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX_SICK.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -19,7 +19,7 @@ Write-Host '
             [1;30m▐[0m   [1;30m █[0m   [1;30m▌[0m                   [1;30m▐[0m▀▓█[1;37m▓▓[0m█[1;30m▄[0m▒▒[1;30m▀[0m▄[46m▓[0;32;47m░[0;37;40m▓▄[0;1;30;40m▀[0m▀[1;30m▄[0m▄■[42m▓[0;40m▓[0;1;30;40m░[0m▀  [1;30m▀[0m
                  [1;30m▌[0m                         ▄█[1;30;47m▀▒[0;1;37;40m▓▓[0m [32m▄[0;37;46m▒▓[0;37;40m█▀[0;1;30;40m▀[0m▄[1;30;47m▀[0m▐█▓▄   ▄▄
                                          ▒▄[1;30m▄[0m▀██▀[32m▄▓[0;37;46m▒[0;32;47m░[0;1;30;47m▀[0m█[1;37m▓▓▓▓▓▓[0m▓▓█   [1;30m▀[0m ▀░ ■[1;30m▄[0m
-[1;30m░░[0m [36mwe''re sicker than[0;1;30m [0;36myou can[0;37m [0;36mimagine [0;1;30m░░[0m [1;30m▐[0;1;30;47m░[0m██▓▄[32m▄[0;32;46m▒[0;33;42m▒[0;37;46m▒[0;32;47m░[0;37;40m█[0;1;30;47m▄[0m▐[1;30;47m▄[0;1;30;40m▀[0m▄[1;37m▄▄[0m▄ [1;30m▀▌   [0m        [1;30m░[0m
+[1;30m░░[0m [36m                 [0;1;30m [0;36m       [0;37m [0;36m        [0;1;30m░░[0m [1;30m▐[0;1;30;47m░[0m██▓▄[32m▄[0;32;46m▒[0;33;42m▒[0;37;46m▒[0;32;47m░[0;37;40m█[0;1;30;47m▄[0m▐[1;30;47m▄[0;1;30;40m▀[0m▄[1;37m▄▄[0m▄ [1;30m▀▌   [0m        [1;30m░[0m
                    [1;30m  [0m                  [1;30m  ▓[0;1;30;47m▄▓[0;32;47m▄[0;37;46m▒[0;1;30;42m░[0;32;47m▒[0;37;40m▓█▀[0;1;30;47m▀ ▐[0;1;30;40m▒[0;1;37;40m▓▓▀[0;31m▒[0;1;37m▀▓[0;1;30m▒[0;1;30;47m▀[0;1;30;40m▄[0m
                    [1;30m   [0m                  [36m [0;32m▄[0;35;42m░[0;32;46m▒▒[0;37;40m▓[0;1;30;47m▄[0m [1;30;47m▄▒[0m▒[1;30m▀░[0;1;30;47m▄[0m██▄[1;30m▄[0m [31;47m▀▀[0;36;40m█[0;1;36;40m▓▓[0;1;30;40m█[0m
                    [1;30m  [0m            [1;30m▄ [0m▄▒▐░[1;30m [0;32m▓[0;32;46m▓[0;32;40m█[0;37;42m▄[0;37;40m█[0;1;30;42m▄[0;46m▀[0;32;40m▓▓[0;1;30;42m▀[0;1;30;40m▀[0;36m▄[0;1;30;46m▄[0;1;30;40m▌▀[0m█[36;47m■▄▄[0;37;40m▓[0;36;47m░░[0;1;36;40m▓▒[0;36m▓[0;1;30m▌[0m

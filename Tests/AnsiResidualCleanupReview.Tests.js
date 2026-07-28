@@ -41,6 +41,10 @@ const MIXED_TEXT_LEDGER3_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger3.json"
 );
+const MIXED_TEXT_LEDGER4_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger4.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -73,8 +77,8 @@ test("residual content review is hash-only and fully applied", () => {
         artOnlyContextRows: 18,
         removedScripts: 27,
         removedWorks: 8,
-        retainedFiles: 4,
-        retainedRows: 13,
+        retainedFiles: 3,
+        retainedRows: 12,
     });
     assert.equal(new Set(ledger.candidates.map(({ file }) => file)).size, 41);
 
@@ -364,6 +368,63 @@ test("third mixed text review is hash-only and fully applied", () => {
         { file: "16c-rare-002-sqr-acmp.ps1", row: 21 },
         { file: "16c-surge14-imi-prt.ps1", row: 25 },
         { file: "16c-trans03-pc-mess.ps1", row: 28 },
+    ]);
+});
+
+test("fourth mixed text review is hash-only and fully applied", () => {
+    const ledger = JSON.parse(
+        fs.readFileSync(MIXED_TEXT_LEDGER4_PATH, "utf8")
+    );
+
+    assert.equal(ledger.schemaVersion, 1);
+    assert.equal(ledger.summary.candidateFiles, 709);
+    assert.equal(ledger.summary.evidenceRows, 1311);
+    assert.equal(
+        Object.values(ledger.summary.categoryRows).reduce(
+            (total, count) => total + count,
+            0
+        ),
+        1311
+    );
+    assert.equal(new Set(ledger.candidates.map(({ file }) => file)).size, 709);
+    assert.equal(
+        ledger.candidates.reduce(
+            (total, candidate) => total + candidate.evidence.length,
+            0
+        ),
+        1311
+    );
+
+    const missingRows = [];
+    for (const candidate of ledger.candidates) {
+        assert.ok(!Object.hasOwn(candidate, "text"));
+        const { rows } = readPayloadRows(candidate.file);
+        for (const evidence of candidate.evidence) {
+            assert.ok(!Object.hasOwn(evidence, "text"));
+            assert.match(evidence.sha256, /^[a-f\d]{64}$/u);
+            const currentRow = rows[evidence.row - 1];
+            if (currentRow === undefined) {
+                missingRows.push({
+                    file: candidate.file,
+                    row: evidence.row,
+                });
+                continue;
+            }
+            assert.notEqual(
+                getReviewEvidenceHash(stripAnsiControls(currentRow)),
+                evidence.sha256,
+                `${candidate.file}: row ${evidence.row} was not redacted`
+            );
+            assert.equal(
+                analyzeRow(currentRow).letterCount,
+                0,
+                `${candidate.file}: row ${evidence.row} still contains letters`
+            );
+        }
+    }
+    assert.deepEqual(missingRows, [
+        { file: "16c-k0tpr0be-tr-cedeu.ps1", row: 32 },
+        { file: "16c-k0tpr0be-tr-cedeu.ps1", row: 35 },
     ]);
 });
 

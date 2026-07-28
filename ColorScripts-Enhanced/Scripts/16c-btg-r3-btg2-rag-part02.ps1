@@ -5,7 +5,7 @@
 # Source SHA-256: 3badc53d933c69dde286b59537f8e0e5e5788fadec9d8ca95aea86ac0efa3cac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BTG2#RAG.ANS by Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -59,4 +59,4 @@ Write-Host '
 [30m█████████████████████ [0;31m█[0;1;32m█[0;1;31m████████[0;31m█[0m      [31m█[0;1;31m██[0;31m█[0m       [1;32m█[0;1;31m████████[0;31m█    [0;30m███ [0;1;32m▐[0;30m████ ████[0m [1;32;42m█[0m
 [30m█████████████████████  [0;1;32m█[0;31m████████[0m        [31m██[0m        [1;32m▐[0;31m████████[0m     [30m███  ████ ████ [0;1;32m▐[0m
 [30m█████████████████████  [0;1;32m▐[0m                                        [30m███  ████ ████ [0;1;32m▐[0m
-                               [31mAns[0;1;31mi: [0;31mRag[0;1;31me[0;31m/Bytegarde[0;1;31mn[0m              [30m████ ████[0m'
+                               [31m   [0;1;31m   [0;31m   [0;1;31m [0;31m          [0;1;31m [0m              [30m████ ████[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 11e67de95cebe827aad54be140fca02ee4a9907787f64d68850570db83c9ee12
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CE-TAS1.ANS by Cerebrus (acdu1193); released in acdu1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
                   [1;30m:[0m          [1;34m▄ ▀▀[0m     [1;34m▐▌[0m           [1;34m▀▀[0m      [1;30m:[0m
 [1;36;46m▀[0;1;34;40m▄[0;1;37;40m▀[0;1;36;46m▀[0;36m▀[0;1;34m▀[0;34m▀▀ [0;1;37m▀ ▀[0;1;36m▀[0;36m▀[0;1;34m▀[0;34m█▀ [0;1;30m.[0m         [1;34m▀[0;1;34;44m▓[0;1;34;40m▀[0m       [34m▄▄[0m                   [1;30m. [0;1;36;46m▀[0;1;34;40m▄[0;1;37;40m▀[0;1;36;46m▀[0;36m▀[0;1;34m▀[0;34m▀▀ [0;1;37m▀ ▀[0;1;36m▀[0;36m▀[0;1;34m▀[0;34m█▀[0m
 [1;34;44m▀[0;34m▄▀▄[0;1;34m▀[0;34m▄   ▄ █ ▄▀   [0;1;30m·[0m                   [34m▀[0m                    [1;30m· [0;1;34;44m▀[0;34m▄▀▄[0;1;34m▀[0;34m▄   ▄ █ ▄▀[0m
-[34m█   ▀▄▀▄▄█ █▀[0m      [1;37mA S[0mea[1;30m-[0;1;37mB[0mrush [1;30m([0;1;37me[0mrr[1;30m... [0;1;37mC[0merebrus[1;30m) [0;1;37mP[0mroduction  [34m█   ▀▄▀▄▄█ █▀[0m
+[34m█   ▀▄▀▄▄█ █▀[0m      [1;37m   [0m  [1;30m [0;1;37m [0m     [1;30m [0;1;37m [0m  [1;30m    [0;1;37m [0m       [1;30m  [0;1;37m [0m           [34m█   ▀▄▀▄▄█ █▀[0m
 
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀▀▀[1m▀▀▀▀▀▀▀[0m▀▀▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
                                [34m▄▄▄▄▄ ▄ ▐[0;1;34;44m▓ █████[0;1;34;46m [0;1;34;44m█[0m   [1;34;40m▄▄▄▄[0m

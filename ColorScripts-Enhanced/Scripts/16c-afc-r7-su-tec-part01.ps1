@@ -5,14 +5,14 @@
 # Source SHA-256: 2250b895cf273d30f4b612f39b0ec788e1282c299b71f9d24371d730e58d50b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SU-TEC.ANS by Suhu (afc-r7); released in afc-r7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
                       [35m░░░░░░░░[0m
                    [35m░░░▒▒▒▒▒▒▒▒░░[0m               [1;30m/ [0;1;37mA[0;1;34mn[0;34msi by Suhu / A[0;1;34mF[0;1;37mC [0;1;30m/[0m
-                 [35m░░▒▒▒▓▓▓▓▓▓▓▓▒▒░[0m              [1;30m/ [0;1;37mH[0;1;34mi [0;34mto all friends of mine.[0;1;34m.[0;1;37m. [0;1;30m/[0m
+                 [35m░░▒▒▒▓▓▓▓▓▓▓▓▒▒░[0m              [1;30m  [0;1;37m [0;1;34m  [0;34m                       [0;1;34m [0;1;37m  [0;1;30m [0m
               [35m░░░▒▒▓▓▓[0;35;45m [0;30;45m▄▄▄▄▄  [0;35;40m▓▓▒░    ░[0m
             [35;40m░░▒▒▒▓▓[0;35;45m  [0;30;45m▄████████▄ [0;35;40m▓▒░░░░▒░[0m
           [35;40m░░▒▒▓▓▓[0;35;45m [0;30;45m▄██████[0;1;30;40m▀[0m▀[1m▀▄[0;30;45m███ [0;35;40m▓▒▒▒▒▓▒░░░░░[0m

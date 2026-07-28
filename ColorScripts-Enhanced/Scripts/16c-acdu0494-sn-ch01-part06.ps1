@@ -5,7 +5,7 @@
 # Source SHA-256: ad81adf091933310e3374104e7e0fd1006e335c6169d4c908192acbab1e3bc2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-CH01.ANS by Spawn (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Channel Zer0
 # SAUCE Author: Spawn
 # SAUCE Group: ACiD Productions
@@ -33,7 +33,7 @@ Write-Host '
 [1;30m▄███[0;1;30;47m▓█▓▒▒▒▒▓▓▓[0;1;30m█[0;1;30;47m▓[0;1;30m██▀▀[0m                      [32m░░▒▓███████████[0;1;32;42m░░▒▓▓[0;1;32m███████▓▒░[0m
 [1;30m███[0;1;30;47m▓[0;1;30m█[0;1;30;47m▓█▓▓▓▓[0;1;30m███▀▀[0m                         [32m░ ░▒▓█▓█████████[0;1;32;42m ░▒▓█[0;1;32m███████▓▒▒░[0m
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;47m██▓▓▒▒[0m█[1;47m░░[0m███[1;47m░[0m█[1;47m░[0m████████[1;30;47mFairchild taken from Gen13 Issue #1[0m█████████[1;30;47m░[0m██[1;30;47m░░░▒▒▓▓██[0m
+[1;47m██▓▓▒▒[0m█[1;47m░░[0m███[1;47m░[0m█[1;47m░[0m████████[1;30;47m                                   [0m█████████[1;30;47m░[0m██[1;30;47m░░░▒▒▓▓██[0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
 

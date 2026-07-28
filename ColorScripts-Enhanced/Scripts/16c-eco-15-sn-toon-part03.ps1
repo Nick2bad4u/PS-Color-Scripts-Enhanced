@@ -5,7 +5,7 @@
 # Source SHA-256: 15e497c8a1344e2b9960aff711cdeae0f3352d8967629f266ef5bc6ee5aa97f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-TOON.ANS by 5now8a11 (Ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shitty Cartoon Colly
 # SAUCE Author: 5now8a11
 # SAUCE Group: Ecolove
@@ -48,4 +48,4 @@ Write-Host '
 
 [34m▄[0m
 [34m▌[0m
-[34m█[0;1;36;44mSnowball[0;34m█[0;1;36;44madult entertainment (c)  [0;34m▓▓▒▒░░[0;37m [0;34m░░░[0m      [34m░░░[0;37m [0;1;36m [0m'
+[34m█[0;1;36;44m        [0;34m█[0;1;36;44m                         [0;34m▓▓▒▒░░[0;37m [0;34m░░░[0m      [34m░░░[0;37m [0;1;36m [0m'

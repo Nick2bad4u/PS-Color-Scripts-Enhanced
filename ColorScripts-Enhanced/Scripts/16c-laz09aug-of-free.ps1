@@ -5,7 +5,7 @@
 # Source SHA-256: 7bf0b4b1d3992607e2262336a51f8c885f6358c813216e3f7c4f8425b397681e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OF-FREE.ANS by offspring (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: my right eye
 # SAUCE Author: offspring
 # SAUCE Group: lazarus
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;31;47m▓▓[0;1;31;43m█[0;1;31;40m████████▀▀[0;1;30;40m  [0m       [30;47m▓▓[0;1;30;40mof[0m [1;31m▀▀▀[0;1;31;43m██[0;1;31;40m████████[0m [1;30;47m░[0;1;37;47m░░[0m  [1;30manyone can use this, i don''t care[0m
+[1;31;47m▓▓[0;1;31;43m█[0;1;31;40m████████▀▀[0;1;30;40m  [0m       [30;47m▓▓[0;1;30;40m  [0m [1;31m▀▀▀[0;1;31;43m██[0;1;31;40m████████[0m [1;30;47m░[0;1;37;47m░░[0m  [1;30m                                 [0m
 [1;31;47m▓[0;1;31;40m███████▀[0m [1;31m▄▄▄█████[0;1;31;43m▓▓▓[0;1;31;40m▄▄▄▄[0m    ░[30;47m▓[0;37;40m [0;1;31;40m▀▀[0;1;31;43m▓[0;1;31;40m█████[0m [1;30;47m░ [0;1;37;47m░[0m  [1;30mi just like this eye, just leave[0m
 [1;31;47m▓[0;1;31;40m██████▄██████[0;1;31;43m▀█▀▀▀[0;1;31;40m███[0;1;31;43m██▀▀▀ [0;33m▄▄[0;37m  [0;1;31m   ▀████[0m [1;30;47m▒░░[0m  [1;30mthe of on there.[0m
 [1;31m███████████████▀▀[0;33m▀▀▀▀▀▀[0;1;31;43m░░░    ░░[0;33m▄▄[0;37m ░[0;1;31m ███[0m [1;30;47m▒▒░[0m  [1;30moffspring...[0m

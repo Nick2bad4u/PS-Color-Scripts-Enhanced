@@ -5,7 +5,7 @@
 # Source SHA-256: 21a8f9228e1613f3d7f176f267e862ff134bb295c20baa47550ddcbac5a309a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-G0NK.ANS by filth (FiRE); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: BLADE
 # SAUCE Author: filth
 # SAUCE Group: FiRE
@@ -63,6 +63,6 @@ Write-Host '
 [30;41m┌[0;1;33;41m  477, 4C01Y73, 46N057iC, 41i3N473D 7357iC13, 417323D 57473, 4NiNiM41, 4NX    [0;30;41m┐[0m
 [1;33;41m  45H24F 6H02i, B45iC, B457, B34713, B31i41, Bi6 B207H32, Bi5H0P, B14CK H4Z31   [0m
 [1;33;41m  B24iN 34732, B20K3N M4CHiN3, C4B13, C4NDiD3, C4PP4CiN0, C32341 Ki1132, CH422  [0m
-[1;33;41m     CH102iN3, CH20M47iK, CH20NiC, F47i6U3, C14YP001, C0UN732P0iN7, C234702     [0m
+[1;33;41m                                                                                [0m
 [1;33;41m  C2iM50N iC3, C2i5i5, C2i7iC41 i11U5i0N, C20WK33P32, C7HU1U, CU3 F02 466235i0N [0m
 [1;33;41m  CU2i0U5 Y3110W, CY1U5, D. C0N7201, D42K KNi6H7, D42KFY23, D42KM4N, D34D 50U1  [0m'

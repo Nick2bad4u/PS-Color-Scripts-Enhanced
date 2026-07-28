@@ -5,7 +5,7 @@
 # Source SHA-256: 29953878cd0b0a0f66de5d6f7fc0c386309025f94a2f2cc209ee24715e688151
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-EPIC.ANS by Anvilhed + Savagecow (epic); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: is there something in my teeth?
 # SAUCE Author: anvilhed/savageCOW
 # SAUCE Group: epic
@@ -37,8 +37,8 @@ Write-Host '
 [34m█[0;1;30m░[0;1;37;47m░░▒▒▓▓████[0;1;37;40m▀▀▀[0m▀▀▀█████████████[1;30;47m░░▒▒▓▓▓██[0;1;30;40m▄▄▄▄▄▄[0m [1;30m▀[0m▀▀▀▀▀▀▀▀▀▀       [1;30m ▄▄▄[0;1;30;47m█▓▓▒░░[0m███ [34m█[0m
 [34m█[0;1;30m░[0;1;37;47m▒▒▓▓██████[0m [1;44m░[0;1;36;44m░[0;30;44m [0;34;40m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37;40m [0;1;30;47m██▓▓▒▒░░░[0m██████ [34m█[0m
 [34m█[0;1;30m░[0;1;37;47m▓▓████████[0m [34m▀█▀▀                                            █[0;37m [0;1;30;47m▓▓▒▒░░[0m█████████ [34m█[0m
-[34m█[0;1;30m░[0;1;37;47m▒▓▓████████[0;34m █  [0;1;37mWHAT?!  Do I have something in my teeth?  [0;1;30m  [0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-[34m█[0;1;30m░[0;1;37;47m▒▓▓██████[0;1;33;40m██[0m [34m█  [0;1;37m  HUH?!  There''s something on my head?        [0m   [34m    [0m
+[34m█[0;1;30m░[0;1;37;47m▒▓▓████████[0;34m █  [0;1;37m                                          [0;1;30m  [0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
+[34m█[0;1;30m░[0;1;37;47m▒▓▓██████[0;1;33;40m██[0m [34m█  [0;1;37m                                              [0m   [34m    [0m
 [34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██[0;1;36;44m░[0;1;37;44m░[0m
                                                            [34m▀▀█▀ [0m
                                                              [34m█[0m

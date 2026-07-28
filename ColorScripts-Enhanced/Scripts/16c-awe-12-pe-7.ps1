@@ -5,7 +5,7 @@
 # Source SHA-256: 74141d75d01be8fd0fdbb6f7d3defc0bf5bd1a4b5883b78a2fbf671608bae15a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PE!7.ANS by Phony Eye (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 7th Seal
 # SAUCE Author: Phony Eye
 # SAUCE Group: AWE Lettering
@@ -16,7 +16,7 @@
 Write-Host '
                [35m            [0m
          [35m    [0;1;35m░[0;35m              [0m              [35m                      [0m
-[34m▐█[0;1;34;44m░░░[0;34m███[0;1;34;44m■[0;34m▌[0;37m [0;35m▐[0;1;35;45m▐[0;1;35;40m▓[0;1;35;45m▌[0;35m▓▓░░  ░    [0;1;30mP[0;1;30;41mh[0;1;30;40monyEye[0;34m [0;1;30mof Awe[0m  [35m                  Menu ::[0m
+[34m▐█[0;1;34;44m░░░[0;34m███[0;1;34;44m■[0;34m▌[0;37m [0;35m▐[0;1;35;45m▐[0;1;35;40m▓[0;1;35;45m▌[0;35m▓▓░░  ░    [0;1;30m [0;1;30;41m [0;1;30;40m      [0;34m [0;1;30m      [0m  [35m                         [0m
 [37m [0;34m▀███████[0;1;34;44m▄[0;34m▄ [0;35m▀[0;1;35m▀[0;1;35;45m▀▄[0;35m▄[0;34m [0;35m        [0;1;30m^[0m            [35m   [0m   [35m      ▄░░  [0m
     [34m▀▀▐███[0;1;34;44m██▄[0;1;34;40m▄▄[0;34m▄[0;37m  [0;1;35m▀[0;35m▀[0;37m [0;35m    ▄[0m       [35m         [0;37m [0;34m▄[0;1;34;44m▄[0;34m▄[0;35m  [0;1;35m▀▌[0;35m       Command????????????[0m
 [37m [0;34m     ▐█[0;1;34;44m  ▐█▌[0;34m▌[0;1;34m▀▀▀[0;1;34;44m▀[0;1;34;47m▄▓[0;1;34;44m▄[0;1;34;40m▄▄▄▄▄▄[0;34m▄[0m   [34m▀[0m   [34m▀[0;1;34m▀[0m  [34m▀[0;1;34m▀[0;1;34;44m▀████▄[0;34m▄[0;35m ▀      [0;37m [0;35mCommand????????????[0m

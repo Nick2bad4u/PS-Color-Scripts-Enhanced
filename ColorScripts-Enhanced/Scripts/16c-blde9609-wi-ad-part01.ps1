@@ -5,7 +5,7 @@
 # Source SHA-256: 12ab94bfa8c1972b8b115a215d698b993b6596c2677af341354f9d8d97b50cd6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WI-AD.ANS by widHOmakWHORE#$@ (bLAYDE#$@); released in blde9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: aCS. dEENYED@#$%!
 # SAUCE Author: widHOmakWHORE#$@
 # SAUCE Group: bLAYDE#$@
@@ -18,7 +18,7 @@ Write-Host '
 
 
                         [1;30m▄▄▄▄▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-                  [1;30m▄▄[0;1;30;47m▀▀▓▀ [0;30;47mansi: widowmaker(blade)96[0;1;37;47m▒▄▄▄░[0m▄▄▄
+                  [1;30m▄▄[0;1;30;47m▀▀▓▀ [0;30;47m                         [0;1;37;47m▒▄▄▄░[0m▄▄▄
                [1;30m▄[0;1;30;47m▀▓[0;1;37;47m▄▄▒██▓░[0m [35m▄▄▄▄▄▄▄[0;37m         [0;35m▄▄▄▄▄▄▄[0;37m [0;1;37;47m ▐████▓▄▄░[0m▄
               [1;30m▐[0;1;30;47m▓[0;1;37;47m▐▓█████▌[0m▌[35m▐[0;1;35;45m░░░▒▒▒[0;35m▌[0;37m  [0;1;35m▄▄▄▄[0;1;34m [0m  [35m▐[0;1;35;45m▒▒▒░░░[0;35m▌[0;37m▐[0;1;37;47m░▓██████▓░[0m▌
                [1;30m▀[0;1;30;47m▄▄[0;1;37;47m░▀▀▒█▓░[0;34m [0;35m▀▀[0;1;35;45m░░▒▒▓[0;1;35;40m▄▄▐[0;1;35;45m▓▓▓[0;1;35;40m▌▄▄[0;1;35;45m▓▒▒░░[0;35m▀▀[0;37m █[0;1;37;47m▐████▓▀▀░[0m▀

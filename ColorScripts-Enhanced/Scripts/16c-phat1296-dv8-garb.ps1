@@ -5,7 +5,7 @@
 # Source SHA-256: 8308d676ff0884e50a2062a6e3536ac119ec908bb120d7c910c1b0c8c94fdaa7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DV8-GARB.ANS by dv8! (phat!); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: garbage promo!
 # SAUCE Author: dv8!
 # SAUCE Group: phat!
@@ -34,7 +34,7 @@ Write-Host '
 [30m█████ [0;1;36m▀███[0;1;37m█▄▄[0;30m    [0;1;37m░▄[0;31m [0;30m   [0;1;37m▄██[0;1;37;47m▓[0;1;37;40m▀ [0;30m      [0;1;37;47m▓[0;1;37;40m████[0;30m   [0;1;37;47m░░[0m▌▀█████████▄[31m [0;30m [0;31m [0;30m   [0;37m▓██████▀[0;30m         [0m
 [30m█████    [0;1;36m▀▀█[0;1;37m█████▓▓███████[0;30m          [0;1;37m▀██[0;1;37;47m▓▓░░[0m█▀[30m      [0;37m▀▀▀░█████████▀[0;1;37mdv8![0;30m           [0m
 [30m████████████[0;1;37m▀▀▀▀████▀▀▀▀▀[0;30m▀▀▀▀          [0;37m▀▀[0;1;37;47m▓▓[0;1;37;40m  [0;30m     ▀▀▀▀▀▀▀██[0;37m▀▀▀▀[0;30m█████████████████[0m
-[30m████████████████████▀   this file was first in da garbage  ▀████████████████████[0m
+[30m████████████████████▀                                      ▀████████████████████[0m
 [31m [0;30m██████████████[0;31m     [0;30;41mG█[0;31;40ma r b a g e : op''d by lord chaos^b2b[0;30;40m    ▐█████████████████[0m
 [30;40m▐█████████████████▀                                          ▀█████████████████▌[0m
 [30;40m ▀███████████████                                                               [0m

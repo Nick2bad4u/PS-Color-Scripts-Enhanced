@@ -5,7 +5,7 @@
 # Source SHA-256: 1da735b061423736094e1987eb588ca5e126adbd5281b67ae66e5a310d365c16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-KP.ANS by Internal + Phobia (Glue); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: KP?
 # SAUCE Author: Internal + Phobia
 # SAUCE Group: Glue
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;34m     ░░░ [0m      [1;34m░░░░[0m  [1;34mphobia[0;34m:outline[0m           [37m [0;1;34m░░[0m    [1;34m░░internal[0;34m:shades[0;1;34m░[0m   [1;34m░[0m [1;34m░░░[0m
+[1;34m     ░░░ [0m      [1;34m░░░░[0m  [1;34m      [0;34m        [0m           [37m [0;1;34m░░[0m    [1;34m░░        [0;34m       [0;1;34m░[0m   [1;34m░[0m [1;34m░░░[0m
 [1;34m [0;1;34;47m░▓▓▓[0;1;34;40m█▓▓ ██[0;1;34;44m█[0;1;34;40m▄▀█[0;1;34;44m▓▓[0;1;34;40m▓▓████████████[0;1;34;44m▓▓░░░[0;34m██[0;1;34;44m░░░░▓▓▓██[0;1;34;40m▓[0;1;34;44m█[0;1;34;40m▄[0m [1;34m▀██[0;1;34;44m▓[0;1;34;40m▓███[0;1;34;47m▓▓▓[0;1;34;40m████▄[0;34m [0;1;34m▀▀████[0;1;34;47m▓▓[0;1;34;40m█▓[0;1;34;44m▓[0m
 [1;34m [0;1;34;47m▓[0;1;34;40m██████▄[0;1;34;44m█[0;1;34;40m▓▓[0;1;34;44m░░[0;34m▄[0;1;34m▀███████[0;1;34;44m▓▓[0;1;34;40m██▓[0;1;34;44m▓▓░░░░[0;34m███████[0;1;34;44m░░░░▓▓█[0;1;34;47m▓▓[0;1;34;40m▌░▐██████[0;1;34;47m█[0;1;34;44m███▓▓▓░░░[0;34m▄▄[0;37m [0;1;34m▀▀██[0;1;34;44m███[0m
 [34m [0;1;34;44m█████[0;1;34;40m▓▓[0;1;34;44m▓░░░ [0;34m██▌[0;1;34m▐█[0;1;34;47m█▓▓▓[0;1;34;40m██[0;1;34;44m█▓▓░░░[0;34m████▀[0;1;34;44m [0;34m█▄ ▀[0;1;34;44m░░░░▓████[0;1;34;40m▀[0m [1;34m▄█[0;1;34;44m▓▓██▓▓░░░░░     [0;34m████▄ [0;1;34m▀[0;1;34;44m▓██[0m

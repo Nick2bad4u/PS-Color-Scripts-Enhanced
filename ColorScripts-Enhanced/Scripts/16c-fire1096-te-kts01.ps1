@@ -5,7 +5,7 @@
 # Source SHA-256: bde79d7d90bdf7541204433bb0829323d3e388cada40583e5377cda11df78ab4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-KTS01.ANS by The Extremist (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Kitschnet
 # SAUCE Author: The Extremist
 # SAUCE Group: fire
@@ -20,7 +20,7 @@ Write-Host '
 [34;40m▄▄▄▄▄█▀▀[0;1;30;40m▄[0;30;42m▒░[0;1;32;42m░░▒▓▓[0;30;42m█[0;34;40m█▌[0m     [34;40m▐▌▀█▄[0m     [34;40m█▀█▄  ▀█▄▄█[0;30;47m█[0;30;42m▒[0;1;30;40m▄[0;34m▀█▄[0m     [37mcthulu, bast, pedantik,[0m
 [34m▀▄▄   [0;1;30m▀[0;30;42m▓▒░ [0;1;32;42m░▒▒▓▒[0;30;42m█[0;34;40m█▌[0m      [34;40m█[0;30;47m█[0;30;42m▀[0;34;40m▀▀█▄▄▄█[0;30;42m▌▀[0;34;40m▀█▄▄█▄▀█▌[0;30;42m▌░▒[0;1;30;40m▄[0;34m▀▀█▄▄  [0;37mhalaster, silverthorn,[0m
 [37m  [0;34m▀█▄[0;1;30m▀[0;30;42m▒[0;32;40m▄▄[0;30;42m▀▀▀▄▄▄[0;32;40m▀[0;30;42m█[0;34;40m█▌[0m      [34;40m█▌[0;30;42m▌[0;1;32;42m▄[0;30;42m▀▀[0;30;47m█[0;34;40m▀▀[0;30;42m▀[0;1;32;42m░▒▒[0;30;42m▀[0;34;40m▀[0;30;47m█[0;30;42m▀▀[0;1;32;42m░[0;30;42m▀[0;30;47m██[0;30;42m [0;1;30;40m▀▀ [0;34m▄▄▀▀▀▀   [0;37mand a special greet[0m
-[30mte [0;34m▐█▌[0;1;30m▐[0;30;42m▒░ [0;1;32;42m░░▒▒▓▒[0;30;42m█[0;34;40m▐█[0m     [34;40m▄█[0;30;47m█[0;1;32;42m▐▒▀[0;30;42m▄▄[0;1;32;42m░░▒▒▓▓▓▓▒░░[0;30;42m▄[0;1;32;42m░[0;30;42m▐[0;30;47m█[0;30;42m▀▒[0;1;30;40m▌[0;34m▐█   [0;37mto eerie because he gave[0m
+[30m   [0;34m▐█▌[0;1;30m▐[0;30;42m▒░ [0;1;32;42m░░▒▒▓▒[0;30;42m█[0;34;40m▐█[0m     [34;40m▄█[0;30;47m█[0;1;32;42m▐▒▀[0;30;42m▄▄[0;1;32;42m░░▒▒▓▓▓▓▒░░[0;30;42m▄[0;1;32;42m░[0;30;42m▐[0;30;47m█[0;30;42m▀▒[0;1;30;40m▌[0;34m▐█   [0;37m                        [0m
 [37m  [0;34m▄▄█▀[0;1;30m▄[0;30;42m▓▒░ [0;1;32;42m░░▒▓▓[0;30;42m▐[0;34;40m▐█  ▄▄█▀[0;30;42m▀[0;1;32;42m▄▒░[0;30;42m░[0;30;47m█[0;1;37;47m▓[0;1;37;40m▄▄[0;32m▀[0;1;32;42m░▒▓▓▓▓▒[0;30;47m█[0;1;37;40m▌[0;30;42m▄▀[0;1;32;42m░ [0;30;42m░▓[0;1;30;40m▄[0;34m▀█▄  [0;37mthe scene a great group[0m
 [34m█▀▀[0;1;30m▄▄[0;30;42m▓▒▒░  [0;32;40m▀▀[0;1;32;40m▀▀▀[0;32m▀ [0;34m██▀█▄[0;30;47m█[0;30;42m▄[0;1;32;42m▀▓░ [0;30;42m░▒[0;30;47m█[0;1;37;47m░▓▓[0;1;37;40m▄[0;32m▀[0;1;32;42m▀▒▒▒[0;30;42m▐[0;1;37;40m▐[0;1;37;47m▒[0m▌[30;42m▌[0;1;32;42m▒░ [0;30;42m░▒▓[0;1;30;40m▄[0;34m▀▀█▄▄  [0;1;37msamsara [0mwill be rem
 [34m▄[0;1;30m▀▀▀▄▄▄[0;30;42m▀▀▀▀[0;1;32;42m░▒▒▓▓▒[0;32m▄[0;34m▐█  ▀▀█▄[0;30;42m▄[0;1;32;42m▀▒ [0;30;42m░▒[0;1;30;40m▄[0m▀[1m▀[0;1;47m▓▓[0;32m▐[0;1;32;42m░░▒[0;30;47m█[0;1;37;47m▒[0m▀ [30;42m▄▄▄▀▀[0;1;30;40m▄▄▄[0;30;47m██[0;34;40m▄▄█▀▀▀ ▀▀▀▀▀▀▀▀█▄▄ [0;37;40member[0m

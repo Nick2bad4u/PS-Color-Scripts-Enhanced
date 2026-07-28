@@ -5,7 +5,7 @@
 # Source SHA-256: 1efbce033ae22c5303b86d3bfb6ad3435b4b0bc9c52cfe2246e02dc886cefc88
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!BLEND.ANS by Madcap (d.38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: For Shadows, land of
 # SAUCE Author: Madcap
 # SAUCE Group: d.38
@@ -29,7 +29,7 @@ Write-Host '
 [1;37m████████▀ [0;31m▒  ▌ ▀▓▓▄ ▌░[0m          [1;30m░   [0;31m░[0m      [31m░[0m
 [1;30m░[0;1;37m█████▒ [0;31m▄▀ ■▀ ▄▀  ▀■   [0;34m│ [0;33m▄─ ▄ [0;34m▌[0m               [31m░    [0;1;37mAnyway.. this is just a wee[0m
 ░[1m███▀[0m         [31m▌[0m        [34m▐[0m      [34m█[0m                      [1;37mlittle picture for[0m
-[1;37m░█▒  [0;1;33m▄[0m        [31m▀[0m        [34m▓   [0;33m_■ [0;34m▐▓[0m            [1;30m░[0m      [1;37mThe Land Of Shadows BBS[0m
+[1;37m░█▒  [0;1;33m▄[0m        [31m▀[0m        [34m▓   [0;33m ■ [0;34m▐▓[0m            [1;30m░[0m      [1;37m                       [0m
 [1;37m▒▓[0;1;30mM[0;1;33m▄▓░[0;33m░[0m                [34m░▌ [0;33m▀  [0;34m▄▒▌[0m          [1;30m░   [0;1;37mhmm.. yeah.. I''ve been a bit busy[0m
 [1;37m▓▒[0;1;30mC  [0;33m▀[0;1;33m▀▀▒▒▄▒[0;33m▒[0m           [34m▒   .░▀[0m                [1;37mwith things.. so this might[0m
 [1;37m ░[0;1;30m [0m         [33m▀[0;1;33m▀[0;33m▀ [0;1;33m▄[0m                      [1;30m░   [0;1;37m                              [0m

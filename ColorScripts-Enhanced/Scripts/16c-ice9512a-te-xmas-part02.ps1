@@ -5,7 +5,7 @@
 # Source SHA-256: 7f39557b0a86f157e7c4746da0b1823abbaae13538910e21f8420942f1625303
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-XMAS.ICE by Tetanus (iCE); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Seasons Greetings
 # SAUCE Author: Tetanus
 # SAUCE Group: iCE
@@ -62,7 +62,7 @@ Write-Host '
 [37m███▄▄▄▄▄▄▄▄█████▄▄▄▄█████▄▄▄▄▄▄████▄▄▄▄▄▄████▄▄▄▄██▄▄▄▄▄▄██▄▄▄▄█[0;31m  ▄▄▄█▄▀[0;37m ▄▄▄▄▄▄█[0m
 [37m▀██████████████████████████████████████████████████████████████ [0;31m▄▀  █ [0;37m▄▄███████▀[0m
 [1;32m▌[0m ████████████████████████████████████████████████████████████▌ [31m█▄[0;37m [0;31m▄█[0;37m ████████ [0;1;32m▐[0m
-[1;32m█[0;32m▄[0;37m ▀██████████████████████[0;30;47mSeason''s Greetings from [0;1;34;47mi[0;34;47mCE[0;30;47m! [0;37;40m████████▄ [0;31;40m▀▀▀[0;37;40m ▄██████▀ [0;32;40m▄[0;1;32;40m█[0m
+[1;32m█[0;32m▄[0;37m ▀██████████████████████[0;30;47m                        [0;1;34;47m [0;34;47m  [0;30;47m  [0;37;40m████████▄ [0;31;40m▀▀▀[0;37;40m ▄██████▀ [0;32;40m▄[0;1;32;40m█[0m
 [1;32;40m█[0;32m██▄[0;37m ▀▀▀████████████████████████████████████████████████████████████████▀▀▀ [0;32m▄██[0;1;32m█[0m
 [1;32m▀█[0;1;32;42m▄[0;32m████▄▄[0;37m ▀▀▀▀███████████████[0;30;47mAnsi By Tetanus [iCE][0;37;40m███████████████▀▀▀▀  [0;32;40m▄▄████[0;1;32;42m▄[0;1;32;40m█▀[0m
                            ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

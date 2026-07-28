@@ -5,7 +5,7 @@
 # Source SHA-256: 09369dd6114bdfa4e140e8974aa1edbeffb1bfb121b04a2f60335c5ad24aa49e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLZ-DIRS.ANS by blaze (infinite); released in inf-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mystic area change
 # SAUCE Author: blaze
 # SAUCE Group: infinite
@@ -35,4 +35,4 @@ Write-Host '
 [1;31;43m▒▒[0;33m█▓ [0;1;31;43m░[0;33m██▓▓░░ ▀[0;1;31;43m▓░[0;33m █[0;1;31;43m▓[0;33m▌▐▄▄▄▀▀▀▀▀▀▀ ██[0;37m [0;33m▐[0;1;31;43m▓▓[0;33m█[0;37m [0;36m [0;1;30;46m█ █[0m [36m [0m
 [1;31;43m▓[0;33m▓▀ █[0;1;31;43m▓░░[0;33m██▓▓░░[0;37m [0;33m▀█ █▄[0;1;31;43m▄███▄▄▄▄▓▓ [0;33m▌▐[0;37m [0;1;31;43m▄[0;33m▄▀[0;1;31;43m▀█▄[0;33m▄[0;36m [0;1;30m▀▀█▄▄[0;36m [0;1;30m                                [0m
 [33m▀ ▄[0;1;31;43m▄██▓▓░░[0;33m██▓▓░░ [0;37m [0;33m ▀[0;1;31;43m▓▓▓▀▀[0;30;43m▄▄▄[0;33;40m█[0;1;31;43m░░[0;33m▀ ▄[0;1;31;43m▀▓▄[0;33m▄▀[0;1;31;43m▀█▄▄[0;33m▄▄▄[0m   [1;30m ,, infinite productions 1997  [0m
-[33m ▓[0;1;31;43m██████▓▓░░[0;33m██▓▓░░[0;37m  [0;33m ▀▀[0;30;43m▀▀▀░▒▀[0;33;40m▀ ░░▓▓[0;1;31;43m░▓█▄[0;33m▄▀▀[0;1;31;43m▀▀▀▀▄▄[0;1;30;40m 100% original ansi by blaze ,,[0m'
+[33m ▓[0;1;31;43m██████▓▓░░[0;33m██▓▓░░[0;37m  [0;33m ▀▀[0;30;43m▀▀▀░▒▀[0;33;40m▀ ░░▓▓[0;1;31;43m░▓█▄[0;33m▄▀▀[0;1;31;43m▀▀▀▀▄▄[0;1;30;40m                               [0m'

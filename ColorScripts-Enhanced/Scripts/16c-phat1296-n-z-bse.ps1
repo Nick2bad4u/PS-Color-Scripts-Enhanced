@@ -5,7 +5,7 @@
 # Source SHA-256: 461a66453e4019f79658177abe5ad9cf9c85cc714653b5278a890436a4cfea4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!Z-BSE.ANS by noize (phat); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hacienda bse
 # SAUCE Author: noize
 # SAUCE Group: phat
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;35m░[0;1;37m▄[0;1;35m█[0;1;35;45m▓[0;1;35;40m▀▀[0;35m▀▀▀▀[0;37m [0;35m▀[0m     [35m▀[0;37m [0;35m  [ noize # phat ]   ▀▓[0m      [1;35m▀░▀[0m                           [1;35m▀░[0m
- [1;35m▓[0;1;35;45m▓[0;1;35;40m [0m [1;30mc: just an idea - an answer on that[0m     [35m▓▀[0m      [35m▀[0;37m [0;35m▀[0;1;35m▀▀▀▀[0;35m▀[0;1;35m [0;35m▀[0;1;35m▀▀▀▀[0;35m▓[0;1;35;45m▓░[0;1;35;40m▄░[0;35m [0m
+ [1;35m▓[0;1;35;45m▓[0;1;35;40m [0m [1;30m                                   [0m     [35m▓▀[0m      [35m▀[0;37m [0;35m▀[0;1;35m▀▀▀▀[0;35m▀[0;1;35m [0;35m▀[0;1;35m▀▀▀▀[0;35m▓[0;1;35;45m▓░[0;1;35;40m▄░[0;35m [0m
 [37m  [0;35m▄[0m     [1;30m                                [0m [35m▌[0m   [35m▐[0;37m [0;1;30m                   [0m  [1;45m▀[0;1;35;40m▓[0m
      [1;35m■[0;1;30m░[0m  [35m▄▄▄▄▄▄▄▄▄▄[0m    [35m▄▄▄▄▄▄▄▄▄▄[0m       [35m▄▓[0m   [35m▐[0;37m [0;1;30m4: tcr!''s hacienda[0m  [35m [0;1;35m▀[0m
 [1;35m░▄[0m                                          [1;30m░[0;35m▄▄[0m         [35m▄▄▄[0m     [35m■[0;37m [0;1;35m▀[0m            [1;30m░[0m

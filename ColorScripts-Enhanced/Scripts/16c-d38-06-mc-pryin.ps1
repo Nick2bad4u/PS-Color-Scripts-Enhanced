@@ -5,7 +5,7 @@
 # Source SHA-256: 3dda932e9c979182e20bc364ca74c742a872f322cbc664dab620e6b99f1cb1fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!PRYIN.ANS by Madcap (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: You goto pray,just to make it today
 # SAUCE Author: Madcap
 # SAUCE Group: D38
@@ -35,6 +35,6 @@ Write-Host '
                  [32m▄[0;1;32;42m▓[0;1;32;40m█████▌    [0;1;37;40mrepea[0;1;35;40mt[0;1;37;40mably, step 6[0m      [32m▀[0;1;32;42m▀[0;1;32;40m██[0;1;32;42m▄[0;1;32;40m▄▄[0;32m▄▄   ▄▄[0;1;32m▄▄[0;1;32;42m▄[0;1;32;40m█████████[0m
                  [1;32;42m▒[0;1;32;40m██████▌    [0;1;37;40mtill [0;1;35;40mi[0;1;37;40mt works[0m          [1;32;40m▄  [0;32m▀[0;1;32m▀[0;1;32;42m▀▀[0;1;32;40m████████████████████[0m
 [1;32;40m  [0;32m▄▀▀     ▐     ▐[0;1;32m███████▌[0m         [35m│[0m                 [1;32m██▄[0;32m▄[0m       [32m▀▀▀[0;1;32m▀▀▀[0;1;32;42m▀▀▀▀[0;1;32;40m██████[0m
-[1;32;40m [0;32m▐[0m      [32m▀▄▌     ▐[0;1;32m███████▌ [0;1;37mAnsi by [0;35mM[0;1;37madcap of that    [0;1;32m█████[0;1;32;42m▄[0;1;32;40m▄▄[0;32m░[0m            [1;32m▐█████[0m
+[1;32;40m [0;32m▐[0m      [32m▀▄▌     ▐[0;1;32m███████▌ [0;1;37m        [0;35m [0;1;37m                 [0;1;32m█████[0;1;32;42m▄[0;1;32;40m▄▄[0;32m░[0m            [1;32m▐█████[0m
 [1;32m [0;32m▌[0m              [1;32m▐███████▌ [0;1;37mDangerou[0;35ms [0;1;37m38[0m              [1;32m███████████[0;1;32;42m▄▄[0;1;32;40m▄▄▄[0;1;32;42m▄▄[0;1;32;40m█████████[0m
 [32m▐    [0;1;32m▄██[0;1;32;42m▄[0;32m▄[0m      [1;32m████████[0;32m▌[0m         [35m`[0m                 [1;32m███████████████████████████[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 782e79b32a7bf9cbb3aa2b49040c2932c2d078fd2ca294801e818d7f76315b22
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-NVMNU.ANS by nitron (Lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Noverdu BBS Screen Pack
 # SAUCE Author: nitron
 # SAUCE Group: Lazarus
@@ -45,9 +45,9 @@ Write-Host '
 [35m    [0;37m█ [0;34m▓[0;35;44m   [0;34;40m▓[0;35;44m   [0;34;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m [0;1;37;47m▓[0m█▓▒
 [35m   [0;1;30;47m [0m [34m█[0;1;34;44m   [0;35;44m   [0;1;34;44m                [0;1;37;44mSOME MENU[0;1;34;44m                    [0m [1;47m▓[0m██▓▒[1;30m▌[0m   [31m▄▄▓▓▓██▄▄[0m
 [35m   [0;1;30;47m [0m [1;34;44m  [0;34m█████████[0;1;34;44m                                         [0m [1;47m▓[0m█▓▒░  [31m▄█ ▀▓████▀ █▄[0m
-[35m  [0;1;30;47m░[0m [34m█[0;1;34;44m [0;34m█[0;34;44m [0;34;107m>a.command<[0;34m██[0;1;37;44ma.command[0;34m███[0;1;37;44ma.command[0;34m███[0;1;37;44ma.command[0;34m█[0;1;34;44m [0m [1;47m▓[0m█▓▓▒░ [31m▄▓▓▄       ▄██▄[0m
+[35m  [0;1;30;47m░[0m [34m█[0;1;34;44m [0;34m█[0;34;44m [0;34;107m           [0;34m██[0;1;37;44m         [0;34m███[0;1;37;44m         [0;34m███[0;1;37;44m         [0;34m█[0;1;34;44m [0m [1;47m▓[0m█▓▓▒░ [31m▄▓▓▄       ▄██▄[0m
 [35m  [0;1;30;47m░[0m [1;34;44m [0;34m██████████[0;35;44m [0;1;34;44m [0;34m██████████[0;35;44m [0;1;34;44m [0;34m██████████[0;35;44m [0;1;34;44m [0;34m██████████[0;35;44m [0;34;40m███[0;1;34;44m [0m [1;47m▒[0m█▓▒░[1;30m  [0;31m▓▓▀ [0;1;33m▀█▄[0;31m [0;1;33m▄█▀[0;31m ▀██[0m
-[37m [0;1;30;47m▒[0m [34m█[0;1;34;44m [0;34m█[0;34;44m [0;34;40m█[0;1;37;44ma.command[0;34m███[0;1;37;44ma.command[0;34m███[0;1;37;44ma.command[0;34m███[0;1;37;44ma.command[0;34m██[0;37m [0;1;37;47m▒[0m██▓▒░  [31m▓▌     ▬     ▐█[0m
+[37m [0;1;30;47m▒[0m [34m█[0;1;34;44m [0;34m█[0;34;44m [0;34;40m█[0;1;37;44m         [0;34m███[0;1;37;44m         [0;34m███[0;1;37;44m         [0;34m███[0;1;37;44m         [0;34m██[0;37m [0;1;37;47m▒[0m██▓▒░  [31m▓▌     ▬     ▐█[0m
 [37m [0;1;30;47m▒[0m [1;34;44m [0;34m███████████████████████████████████████████████████[0;37m [0;1;37;47m▒[0m█▓▒░    [31m█▄   ▄▄▄   ▄█[0m
 [1;30;47m▓[0m [34m█[0;1;34;44m [0;34m█[0;34;44m [0;34;40m█[0;1;37;44ma.command[0;34m███[0;1;37;44ma.command[0;34m███[0;1;37;44ma.command[0;34m███[0;1;37;44ma.command[0;34m██[0;1;30m [0;1;37;47m░[0m██▓▒░[1;30m     [0;31m▀▓▄▐███▌▄█▀[0m
 [1;30;47m▓[0m [1;34;44m [0;34m███████████████████████████████████████████████████ [0;1;37;47m░[0m█▓▒░[1;30m         [0;31m▀▀▀▀▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 983301981a3f3a5e97a6ba3a3efe8ce4b498a1dda5862821b0aba91b4213bd94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-MTV-R.ANS by Blades (max_artpack_0293); released in max_artpack_0293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -51,5 +51,5 @@ Write-Host '
 [1m [0;1;30m▒[0;1;33m░░░░░░░░░░░░░░░░░░░░▒▌▒░░▒▒[0;1;30m░[0;1;33m░▒ [0;1;30m▒[0;1;37;47m░[0;1;33;40m▒░░░▒▒▒▒▒▒░▒ ▒▒▒▓▌[0m
 [1;33;40m [0;1;30;40m▒[0;1;33;40m░░░░░░░░░░░░░░░░░░░░▒▌ ▒▒▓▌[0;1;30;40m░[0;1;33;40m░░▒ ▒░░░░▒▒▒▒▒▒▒▒▒▒▒▒▓▌[0m          [1;30;40m1 [0m9 9 [1m3[0m
 [1m [0;1;30m▒[0;1;33m░░░░░░░░░░░░░░░░░░░░▒▌  ▓▌ [0;1;30m▒[0;1;33m░░░▒░░░░░░▒▒▒▒▒▒▒▒▒▒▒▓▌[0m
-[1;33m [0;1;30m▓▒░░░░░░░░░░░░░░░░░░[0m     [1;33m▐  [0;1;30m▓▒░░░░░░░░░░░░░░░░░░░░   [0;1;33mT[0;36mhe [0;1;33mN[0;36mew [0;1;33mA[0;36mNSi [0;1;33mR[0;36mevolution[0m
+[1;33m [0;1;30m▓▒░░░░░░░░░░░░░░░░░░[0m     [1;33m▐  [0;1;30m▓▒░░░░░░░░░░░░░░░░░░░░   [0;1;33m [0;36m   [0;1;33m [0;36m   [0;1;33m [0;36m    [0;1;33m [0;36m         [0m
 [1;33m[[0;34m[[0;1;34mm[0;1;33mA[0;1;34mx[0;34m][0;1;33m][0m                       [1;30m·. ───[0m───[1m─── [0;1;30mB[0mB[1mB£ÄδÉS[0m'

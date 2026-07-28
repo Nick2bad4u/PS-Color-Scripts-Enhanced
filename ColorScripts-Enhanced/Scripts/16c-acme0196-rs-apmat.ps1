@@ -5,7 +5,7 @@
 # Source SHA-256: 393e6d95d247192c9d2294871f090a5a27f2ae1a68e0f9f520db7f11e650ab13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-APMAT.ANS by Rusty (Acme); released in acme0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Argyle Park Matrix
 # SAUCE Author: Rusty
 # SAUCE Group: Acme
@@ -36,5 +36,5 @@ Write-Host '
 [1;34;44m      [0;36;44m▄▀[0;1;34;44m [0;34m▄[0;36m▀▀▀[0;36;47m▒▒▒▒▒▒▒[0;36;40m▀[0;34;40m▄[0;1;34;44m   [0;36;44m▀▄▄▓▄▄■ [0;1;34;44m      [0;36;44m ▀[0;34;40m▄[0;1;37;40m▀▀█████[0;1;37;46m▓▒░[0;36m▀[0;34m▄[0;1;34;44m [0;35m [0;1;30;45m▒░[0;35m▄[0;1;30;45m░[0;35m▀ [0;1;30;45m▒░[0m [1;30;45m  [0;35m [0;1;30;45m▒░[0;35m▄[0;1;30;45m [0;35m▀ [0;1;30;45m▒░[0m [1;30;45m [0;35m▄[0;34m [0m
 [1;34;44m░    [0;36;44m▄▓▄[0;1;34;44m   [0;34m██▄▄▄▄▄▄▄[0;1;34;44m        [0;36;44m▀[0;1;34;44m           [0;36;44m▓ [0;1;34;44m  [0;34m▄▄▄▄▄▄▄▄[0;36;44m■▄[0;1;34;44m [0;34m█▄[0;35m▀ [0;1;30;45m [0;34m █▄[0;35m▀ [0;1;30;45m  [0;34m ▄[0;35m▀ [0;1;30;45m  [0;34m ▄[0;35m▀ [0;1;30;45m  [0;34m [0m
 [1;34;44m▒[0;1;30;44m     [0;36;44m▀[0;1;30;44m         [0;36;44m▀[0;1;30;44m                        [0;36;44m■▄[0;1;30;44m         [0;36;44m▄▓▄[0;1;30;44m    [0;34m▄[0;36;44m▀▄■[0;1;30;44m  [0;34m▄▄[0;36;44m▓[0;1;30;44m   [0;34m▄▄[0;1;30;44m    [0;34m▄▄[0;1;34;44m▒[0m
-[1;34;44m▓[0;36;44m [0;1;30;44m  [0;34;45m▓▒░  ansi is by rusty/acme!        ░░▒▒▓▓[0;1;30;44m  [0;36;44m▄[0;1;30;44m [0;36;44m▄[0;1;30;44m [0;36;44m■[0;1;30;44m [0;36;44m▀[0;1;30;44m            [0;36;44m▐█[0;1;30;44m  [0;36;44m▄[0;1;30;44m        [0;1;34;44m▓[0m
+[1;34;44m▓[0;36;44m [0;1;30;44m  [0;34;45m▓▒░                                ░░▒▒▓▓[0;1;30;44m  [0;36;44m▄[0;1;30;44m [0;36;44m▄[0;1;30;44m [0;36;44m■[0;1;30;44m [0;36;44m▀[0;1;30;44m            [0;36;44m▐█[0;1;30;44m  [0;36;44m▄[0;1;30;44m        [0;1;34;44m▓[0m
 [1;34;44m█▄▄[0;1;30;44m [0;1;34;44m▄▄[0;1;30;44m [0;1;34;44m▄[0;1;30;44m [0;36;44m■▄[0;1;30;44m [0;36;44m▄■[0;1;30;44m                                           [0;36;44m▀ ▄ ▄▄[0;1;30;44m [0;36;44m■▀[0;1;30;44m [0;36;44m▀■▀[0;1;30;44m  [0;1;34;44m▄[0;1;30;44m [0;1;34;44m▄▄[0;1;30;44m [0;1;34;44m▄▄█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 63cc61421870784162c5eedaa696a11b67a44781891653dc265ec6733cfee8dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-CORE.ANS by warbym (poffelipoff); released in plf-0899 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: city soldier
 # SAUCE Author: warbym
 # SAUCE Group: poffelipoff
@@ -16,7 +16,7 @@
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m
-[36;44m  the[0;1;33;44mBYM[0;36;44m@#! 1999 for the poffelipoff                           [0;34;40m█████████████████[0m
+[36;44m     [0;1;33;44m   [0;36;44m                                                       [0;34;40m█████████████████[0m
 [34;40m██[0;36;44mfighting forces... [0;34;40m███████████████████████████████████████████████████████████[0m
 [34;40m███████████████████████████████████████████████████████████████[0;36;44m                 [0m
 [34;40m████████████████████████████████████████████████████████████████████████████████[0m

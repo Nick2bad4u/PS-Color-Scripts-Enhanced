@@ -5,7 +5,7 @@
 # Source SHA-256: d309c1467cf0c5c8389abc496ff97097f0341b9a39f5c2a1ce79a8112b18854c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LR!-ALOD.ANS by LATE RISER (FLUX '97); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: alien on dope // transfer screen
 # SAUCE Author: LATE RISER
 # SAUCE Group: FLUX '97
@@ -19,7 +19,7 @@ Write-Host '
 [1;31;47m ░▒[0;1;31;41m██▀▀▀[0;31m▀▀▀▀[0m     [1;30m▄▄▄▄▄▄▌[0m  [31m  [0;1;30m░░[0;31m       [0m         [1;30m▄▄▄▄▀▀▀▀▀▀[0m           [1;30m▀▀▀▀▄▄▄[0m
 [1;31;47m▓[0;1;31;41m█▀[0;31m▀▀ [0m    [1;30m▄▄▄█[0;1;30;47m▀▀▀▀[0;1;37;47m▄▄▌[0;1;30;47m▀▌[0;1;30;40m███▄▄▄   ░░[0;31m [0m        [1;30m▄▀▀[0m     hey dudes, read this   [1;30m▀▀▄[0m
 [1;31;41m▀[0;31m▀[0m     [1;30m▄▓▀▀▀█[0;1;30;47m▄▄▄[0;1;37;47m▀▀▀██▄[0;1;30;47m ▀▀[0;1;30;40m██████▄ [0;31m [0;37m [0;1;30m▄[0m  [1;30m▀▀▄[0m [1;30m▐▌[0m                                [1;30m▐▌[0m
-[31m▌[0m     [1;30m▐▌ [0;1;37m▄█▄▄[0;1;30m  ▀▀█[0;1;30;47m▄ [0;1;37;47m▀▌[0;1;30;47m▄▄▄▄[0;1;30;40m█▀▀▀▀▓▌ ▐▌▐▌[0m  [1;30m▐▌█  [0mabout to overtake your homie    [1;30m█[0m
+[31m▌[0m     [1;30m▐▌ [0;1;37m▄█▄▄[0;1;30m  ▀▀█[0;1;30;47m▄ [0;1;37;47m▀▌[0;1;30;47m▄▄▄▄[0;1;30;40m█▀▀▀▀▓▌ ▐▌▐▌[0m  [1;30m▐▌█  [0m                                [1;30m█[0m
 [31m [0m   [1;30m░░[0m [1;30m [0;1;37m▐██▀[0m     [1;30m▐[0;1;30;47m▌▄▄[0;1;30;40m█▀▀ [0;1;37;40m▄▄[0;1;30;40m [0;34m░░[0m     [1;30m▀▀[0m [1;30m▄▄▀[0m [1;30m▐▌[0m  earth and we are on dope ...  [1;30m▐▌[0m
 6df[33m [0m   [1;30;47m▓[0;1;30;40m [0;1;37;40m█[0m   [34m░░[0m   [1;30;47m█[0;1;30;40m█ [0;1;37;40m▄▄█▀▀[0;1;30;40m     ▐░ [0m [35m█[0;1;35;45m░[0;35m▄▄▄▄[0;37m  [0;1;30m▀▄▄[0m              [32m\|/[0;37m      [0m     [1;30m▄▄▀[0m
 23t134 [1;30m▐▌[0m        [1;30m▐█▌[0;1;37m▐▀[0m   [34m░░[0;1;30m   ▄█  [0;35m█[0;1;35;45m▐▓▓██▄▄[0;35m█▄▄[0;37m [0;1;30m▀▀▀▀▄▄▄▄▄▄▄▄▄ [0m      [1;30m▄▄▄▄▄▀▀▀[0m [34m▄▄▌[0m

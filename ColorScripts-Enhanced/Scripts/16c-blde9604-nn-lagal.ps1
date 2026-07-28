@@ -5,7 +5,7 @@
 # Source SHA-256: f18bc934c847d6146aff74194a0ff975868a7c691d9abce894c13545338c0d0e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NN-LAGAL.ANS by neo negro (blade); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: la gallerie
 # SAUCE Author: neo negro
 # SAUCE Group: blade
@@ -33,7 +33,7 @@ Write-Host '
 [33m▐[0;1;31;43m▒[0;33m▌ [0;37mauthor''s name here [0;1;31m▀▀ ▀▀[0;1;31;45m▓██[0;1;31;40m▄[0;1;31;45m▓█[0;1;31;40m▀▐[0;1;31;45m░▄[0;1;31;40m▌░    [0;1;31;45m░▄▓[0m [35m▐[0;1;35;45m░[0;1;35;40m▒[0;35m▌▐[0;1;35;45m░[0;1;35;40m▒[0;35m▌[0m      [1;31m░▓█▄[0;1;37m▀[0;1;31m▄▌[0m
 [1;31m░[0;1;31;43m▓▓[0;1;31;40m▄░[0m                [1;31m░▄[0;1;31;43m▓▓[0;1;31;40m░  ░  ▀▀░ ▀▀[0;1;31;45m▓█[0;1;31;40m▄░▀░▀▀[0;1;31;45m█[0;1;31;40m▓▄[0;35m▀[0;1;35;45m  [0;35m▀▀▄▄[0;1;31m▄░▄░ ▄░ ▐▌▀[0;1;31;47m▓[0;1;31;40m▌░[0m
 [1;31m ░▀▀▀▀▀▀■░[0;1;37mauthor[0;1;31m░■▀▀▀▀▀░[0m             [1;31m░[0m        [1;31m░▐[0;1;31;45m░▄[0;1;31;40m▌▐[0;1;31;45m░▄[0;1;31;40m▌░[0m      [1;31m ░▀▀▀░[0m
-[1;31m [0;34m░▄▄▓▌[0;37mla gallerie v0.01[0;34m▐▓▌[0;1;37mdescription[0;34m▐▓▒░ ░▒▓█▄[0;1;31m▀▀▀[0;1;31;45m▓[0;1;31;40m▄[0;1;31;45m▓██[0;1;31;40m▄[0;34m▀▓▓▌[0;1;37mfilename[0;34m▐█▓▒░▒▓▄▄░[0m
+[1;31m [0;34m░▄▄▓▌[0;37m                 [0;34m▐▓▌[0;1;37m           [0;34m▐▓▒░ ░▒▓█▄[0;1;31m▀▀▀[0;1;31;45m▓[0;1;31;40m▄[0;1;31;45m▓██[0;1;31;40m▄[0;34m▀▓▓▌[0;1;37m        [0;34m▐█▓▒░▒▓▄▄░[0m
 [34m░[0;1;34;44m░░[0;34m▀▀[0m                                             [1;31m░ [0;34m▄[0;1;31m▀▀ [0;34m▀[0m                 [34m▀▀[0;1;34;44m░░[0;34m░[0m
 [34m▐[0;1;34;44m▒[0;34m▌ [0;37mdescription #1 -------------------------------- [0;34m▐[0;1;34;44m▒[0;34m▌ [0;37mansi0001.ans[0m        [34m▐[0;1;34;44m▒[0;34m▌[0m
 [1;34m▐[0;1;34;44m▒[0;1;34;40m▌ [0;1;37;40mdescription #2 -------------------------------- [0;1;34;40m▐[0;1;34;44m▒[0;1;34;40m▌ [0;1;37;40mansi0002.ans[0m        [1;34m▐[0;1;34;44m▒[0;1;34;40m▌[0m

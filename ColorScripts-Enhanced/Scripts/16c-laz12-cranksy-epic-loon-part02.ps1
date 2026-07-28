@@ -5,7 +5,7 @@
 # Source SHA-256: b9905fbe816ea12fd8c0bcdd611dd1fcf6ba8e6d1607163afebe6a87c1f52ca7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cranksy-epic_loon.ans by cranksy (LAZARUS); released in laz12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Epic Loon
 # SAUCE Author: cranksy
 # SAUCE Group: LAZARUS
@@ -44,7 +44,7 @@ Write-Host '
   [1;44m▄[0;1;40m███████▀[0m  [1m██[0;1;47m▌[0;1;40m██[0;1;47m▀[0;1;40m▀[0m  [1;30m▐[0;1;37m███[0m█ [1;30m▐[0;1;37m████████[0m [1m▐█████▄[0;1;47m▄[0;1;40m█████████[0;1;44m▀[0m ▀[1;47m▀[0;1;40m█▀[0;1;44m▀[0;1;30;44m▀[0;34m█▀[0;37m [0;1;30m▐░░▒▓▌[0m
  [34m▄[0;1;37;44m▀[0;1;37;40m███▀[0m     [1;30m▐[0;1;37m████[0;1;30m▌[0m    [1;44m▐[0;1;40m███[0m█▀  [1m███[0;1;47m▀[0;1;40m▀▀[0m  [1;47m▐[0;1;40m█████████■▀███▀▀[0m  [1;30m▌[0m  [1;30m░░░▒▓▓▌[0m
 [1;30m▐[0;34m█[0;1;37;47m▐[0;1;37;40m███[0;1;37;47m▌[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m█■[0;1;37;44m▐[0;1;37;40m░[0;1;37;47m▌[0;1;37;40m██[0m    [1;30m▐[0;1;37;44m▐[0;1;37;40m█[0m [1m■[0m▀    [1m▄▄▄██[0m [1m▄█████████[0;1;44m▀▀[0m [1;30m▌[0m  [1;30m░░▒▓▓▌[0m           [1;30m-cR / L_K[0m
- [34m▀[0;1;37;47m▀[0;1;37;40m████████▄[0;44m▐[0;1;47m▐[0;1;40m█[0;1;47m▀▌[0;1;30;40m▌[0m       [1m▄▄▄██████[0;1;30m▓▒▌[0;1;37m▐▓███[0;1;37;44m▀▀▀[0;34m▀▀[0;1;30m░░░▒▓▓▌[0m     [1;30man ansi dedicated to[0m
+ [34m▀[0;1;37;47m▀[0;1;37;40m████████▄[0;44m▐[0;1;47m▐[0;1;40m█[0;1;47m▀▌[0;1;30;40m▌[0m       [1m▄▄▄██████[0;1;30m▓▒▌[0;1;37m▐▓███[0;1;37;44m▀▀▀[0;34m▀▀[0;1;30m░░░▒▓▓▌[0m     [1;30m                    [0m
 [34m█[0;1;37;44m▄[0;1;37;40m▄███████▀▀[0m▀[1;30m▌[0m    [1m▄▄▄▄████████▀▀▀▀▀▀[0m [1;30m▐[0;1;37m▀▀[0m [34m▀▀[0;1;30m░░▒▓[0m       [1;30ma[0m [1;30mSoundtrack by Pryapisme[0m
 [34m█[0;1;37;47m▐▀[0;1;37;40m▀▀▀[0m  [1;30m▐▓▒░[0;1;37m▄▄▄█▀▀▀[0;1;30m░░░▒▒▓▓▓▌[0m
 [1;30m▌[0m   [1;30m░▒▓▓▓▌[0m'

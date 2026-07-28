@@ -5,7 +5,7 @@
 # Source SHA-256: f2c29aa04dde49eea3c8d0c5a7a37c463eb12a6b27ff2592ebb8ee93ce8c6ffc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-ESNC1.ANS by Shatter Shot (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Essence
 # SAUCE Author: Shatter Shot
 # SAUCE Group: Shiver
@@ -19,10 +19,10 @@ Write-Host '
 [1;30;44m████[0m                                   [1;30;40m   [0;1;30;44m    [0m
 [1;30;44m▀███[0m     [1;37;47m▓▓▓▒▒░░[0m███[1;47m [0m█  [1;47m▓▓▓▒▒░[0m  [1;47m▓▓▓▒▒░[0m     [1;30;44m    [0m
 [1;30;44m██▀█[0;1;30;40m  [0m   [1;37;47m▓▓▒▒░░[0m████[1;47m [0m█[1;30m [0m [1;37;47m▓▓▒▒░░[0m  [1;37;47m▓▓▒▒░░[0m     [1;30;44m    [0m   [1;30;40mThis goes to the best [0m
-[1;30;44m███▀[0m     [1;37;47m▓▒▒░░[0m▀▀▀▀▀▀▀  [1;47m▓▒▒░░ [0m  [1;47m▓▒▒░░ [0m     [1;30;44m    [0m   [1;30;40mfucking modded obv/2 board[0m
+[1;30;44m███▀[0m     [1;37;47m▓▒▒░░[0m▀▀▀▀▀▀▀  [1;47m▓▒▒░░ [0m  [1;47m▓▒▒░░ [0m     [1;30;44m    [0m   [1;30;40m                          [0m
 [1;30;44m▄▄▀█[0m     [1;37;47m▒▒░░[0m█  [1;30m   [0m [1;30m [0m  [1;37;47m▒▒░░  [0m  [1;37;47m▒▒░░  [0m     [1;30;44m    [0m   [1;30;40mthat I have ever seen.  [0m
 [1;30;44m▀███[0m     [1;37;47m▒░░[0m██  █[1;47m  ░░[0m  [1;47m▒░░   [0;1;30;40m [0m [1;37;47m▒░░   [0m     [1;30;44m ▀ ▀[0m   [1;30;40mSo why don''t you check it out![0m
-[1;30;44m███▄[0m     [1;37;47m░░[0m███  █[1;47m ░░▒[0;1;30;40m [0m [1;37;47m░░    [0m▀ [1;47m░░    [0m     [1;30;44m ▄██[0m   [1;30;40mGreets to PiTT, J-Smoove [AiM][0m
+[1;30;44m███▄[0m     [1;37;47m░░[0m███  █[1;47m ░░▒[0;1;30;40m [0m [1;37;47m░░    [0m▀ [1;47m░░    [0m     [1;30;44m ▄██[0m   [1;30;40m                              [0m
 [1;30;44m▀█  [0m     [1;30;40m     [0m  █[1;47m░░▒▒[0m  [1;47m░     [0m  [1;47m░     [0m     [1;30;44m▀ ▄█[0m   [1;30;40mArchangel [AiM] NarTTeiK[0m [1;30;40m[VOR][0m
 [1;30;44m▄   [0m     ▄▄▄▄▄▄▄[1;47m░░▒▒▓[0m  [1;47m░     [0m  [1;47m░     [0m     [1;30;44m████[0m   [1;30;40mQuisling [UNiON/VOR], Guardian [0m
 [1;30;44m    [0m     ██████[1;47m░░▒▒▓▓[0m  [1;47m      [0m  [1;47m      [0m     [1;30;44m ██▄[0m   [1;30;40m[SS SHiVER], and the rest of   [0m

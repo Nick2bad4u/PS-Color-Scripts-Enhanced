@@ -5,7 +5,7 @@
 # Source SHA-256: 8b1f49d670b0d1c869744d9026f4c409b8ca8e4f5d63344d25f38110bcb5bef5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-INTXC.ANS by Soul Assassin (ACiD Productions); released in acdu1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Intoxica
 # SAUCE Author: Soul Assassin
 # SAUCE Group: ACiD Productions
@@ -24,7 +24,7 @@ Write-Host '
                                    [1;30m▄▀ [0m▄[1;30;47m░[0m▄[1;30m [0m▀▄       [1;30m▄▀ ▄[0;1;30;47m▒░ [0;1;37;47m░▒[0;1;30;40m [0;1;37;40m█▄▀  [0m      [1m [0m
                                  [1;30m▄▀ ▄[0;1;30;47m▓▒░▒░[0m▄[1;30m [0m▀▄   [1;30m▄▀ ▄█[0;1;30;47m▓▓▒░░[0;1;37;47m░[0;1;30;40m [0;1;37;40m█    [0m     [1m [0m
   [1;30mWell,[0m here''s [1;30manothe[0mr[36m [0;37mgreat[0m   [1;30m▄▀ ▄██▀[0;1;30;47m█▓▒▒░▒[0;1;30;40m▄ [0m▀[1;30m▀[0m▀[1;30m ▄[0;1;30;47m▒▓[0;1;30;40m██[0;1;30;47m▓▒░▒[0;1;37;47m [0;1;30;40m [0;1;37;47m▓[0m    [1m  [0m
-  So[1;30mul[0m [1;30mAs[0msassin''s [1;30mansi[0m from  ▄[1;30m▀ ▄▓██[0;1;30;47m▓▓[0;1;30;40m▄▀█[0;1;30;47m▓▒▓▒▒▒[0;1;30;40m▀▄[0;1;30;47m▒░░▒▓[0;1;30;40m█[0;1;30;47m█▓▒▒░[0;1;30;40m [0;1;37;47m▒[0m      [1m  [0m
+    [1;30m  [0m [1;30m  [0m         [1;30m    [0m       ▄[1;30m▀ ▄▓██[0;1;30;47m▓▓[0;1;30;40m▄▀█[0;1;30;47m▓▒▓▒▒▒[0;1;30;40m▀▄[0;1;30;47m▒░░▒▓[0;1;30;40m█[0;1;30;47m█▓▒▒░[0;1;30;40m [0;1;37;47m▒[0m      [1m  [0m
   ACiD[1;30m.[0m [1;30mIt''[0ms for Bla[1;30mtz[0m [1;30mthi[0ms   ▀▄[1;30m ▀▓██[0;1;30;47m▓▒░[0m▄[1;30m▀[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▀▄[0;1;30;47m▓▒░▒░░[0;1;30;40m▀ [0;1;30;47m█[0;1;30;40m█[0;1;30;47m▓▓▒[0;1;30;40m [0;1;37;47m░[0;1;30;40m [0;1;37;40m      [0m [1m [0m
   [1;30mt[0mime. [1;30m''Hope[0m that''s th[1;30me[0m        ▀▄[1;30m ▀██[0;1;30;47m▓▓░░[0m▄[1;30m▀░▓[0;1;30;47m██▓▒▒[0m▀[1;30m ▀ [0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓▒[0;1;30;40m [0m▀▄[1;30m  [0m      [1m  [0m
   [1;30mof[0m ansi y[1;30mou[0m [1;30mw[0manted.     ▀[1;30;47m▀[0;1;30;40m▀▀▀▀▀ ▄[0;1;30;47m▓[0;1;30;40m▄▀██[0;1;30;47m▓▒░░[0m▄[1;30m▒▓[0;1;30;47m██▓▒▓▒░░▒▓[0;1;30;40m██[0;1;30;47m▓▒[0;1;30;40m▄ [0m▀▄        [1m  [0m

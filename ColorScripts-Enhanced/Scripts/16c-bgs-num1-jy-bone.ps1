@@ -5,7 +5,7 @@
 # Source SHA-256: 49c217538877629324b5a62136068e13e7090e3906718cb92324616009d61c17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JY_BONE.ANS by Joy (bgs_num1); released in bgs_num1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
    [1;30m▀[0;1;33m▀▀▀▀[0m      [1;30m▀[0;1;33m▀████▀▐█▄▀▀[0m       [1;30m█▄[0m [31m██▄[0;37m  ▀▀████████████▀▀  ▀▀▀▀▀ [0;34m▄▄████████████▄[0m
                                   [1;30m█▄[0m [31m▀ [0;34m▄▄█▄▄▄[0;37m ▀▀▀▀▀▀ [0;34m▄▄[0;1;33m▄[0;34m█████████████▀██████████[0m
 [1;30mHmmm... only this little uppies[0m  [1;30m▄█▀[0m [34m▄████████▀ ██████[0;1;33m█[0;1;33;44m██[0;34m█████████████▄[0;37m [0;34m▀███████[0m
-[1;30mfor all da stuff ya drag outta[0m  [1;30m█▀[0m [34m▄██████[0;30;44m■[0;34;40m▀█▀ █[0;1;33;44m▄▄▄▄▄█████▄▄▄▄▄▄[0;34m███████▀[0;37m [0;34m▄██████[0m
+[1;30m                              [0m  [1;30m█▀[0m [34m▄██████[0;30;44m■[0;34;40m▀█▀ █[0;1;33;44m▄▄▄▄▄█████▄▄▄▄▄▄[0;34m███████▀[0;37m [0;34m▄██████[0m
 [1;30mhere?!?[0m [1;30m Well then it''d better[0m  [1;30m█[0m [34m██████████▄ █[0;1;33;44m▀▀▀█████████▀▀▀[0;34m████████[0;37m [0;34m▄████████[0m
 [1;30mbe 100% legal coz we don''t want[0m [1;30m█▄[0;34m ▀███████▀ ██████[0;1;33;44m▄██████▄[0;34m██████████[0;1;37m ▄[0m [34m▀██████▀[0m
 [1;30mno fuckin'' illegal mumbojumbo...[0m [1;30m▀█▄▄[0;34m ▀▀█▀[0;37m ■[0;34m ████[0;1;33;44m▄██▀▀  ▀▀██▄[0;34m███████[0;1;37m █[0;1;37;47m░[0m█▄ [34m▀███▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 6de6c8ed66611d17a8720707f2d1c806b7088c05474ed49535178652730642ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QP-ZOO1.ICE by Quip (Ice Advertisements); released in ice9812a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Zoo York
 # SAUCE Author: Quip
 # SAUCE Group: Ice Advertisements
@@ -18,7 +18,7 @@ Write-Host '
                                            ▄▄▄▄▄▄
                                         ▄[1;47m▄▄▄[0m█[1;47m▄██ ▄[0m█
                                        ▐[1;47m▐███▌[0m██[1;47m▀[0m████
-            [1;33mquip presents a lame[0m        ▀[1;47m▀▀▀   [0m▀█[1;47m░░[0m█▌
+            [1;33m                    [0m        ▀[1;47m▀▀▀   [0m▀█[1;47m░░[0m█▌
             [1;33mfloating mouse head[0m           █████▌▐[1;47m▓▓[0m█▌
                                           ▐██[1;47m░░[0m▌▐[1;47m██░[0m
             [35m▓[0;1;35;45m▓▓░░[0;35m████████████████████▓▓ ░ [0;37m █[0;1;37;47m░▒▒[0m▌▐[1;47m█▀[0m [35m▒███[0;1;35;45m▄▄░[0;35m░[0;37m  ▄▄▄▄[0;1;37;47m▄▄▄[0m▄

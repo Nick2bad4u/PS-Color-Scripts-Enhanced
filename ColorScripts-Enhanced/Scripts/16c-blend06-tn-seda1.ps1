@@ -5,7 +5,7 @@
 # Source SHA-256: c4ae799f7c6db9ac527706a81603df8abb824b6b1dbe8cb46132571539a2a449
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TN-SEDA1.ANS by Deadtank (blend); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sedation sucks
 # SAUCE Author: Deadtank
 # SAUCE Group: blend
@@ -35,6 +35,6 @@ Write-Host '
 [31m▐[0;1;31;41m████▄[0;31m▄ [0;1;31;41m▐▌[0;31m▌[0;33mtn![0;31m [0;1;37m░[0;31m ▄[0;1;31;41m ▐█▀███████▀[0;31m██████▄[0;37m  [0;1;32;42m██[0;1;32;40m▀▀[0;1;32;42m███[0;1;32;40m▄██[0;32m▄█▀▀[0;36;42m▀[0;37;40m [0m   [37;40mville''s sedation,[0m
 [31;40m▄[0;1;31;41m█████[0;31m▌▐▀▀     ▄ ▄[0;1;31;41m▄▀▀▐███▓▓▒░░[0;31m███████▌[0;37m [0;1;32;42m█[0m [32m▄[0;1;32m▄[0;1;32;42m███[0;1;32;40m█[0;1;32;42m▓▀[0;32m█[0;37m [0;1;37m░[0m   uh.. I''d like to say
 [1;31;41m░▒▒▓▓[0;31m▀ [0;1;37m  [0;31m     ▐[0;1;31;41m█▄▀[0;31m▀▀██[0;1;31;41m▀█▌░░ [0;31m█████████▀[0;1;32m▐[0;1;32;42m████[0;1;32;40m▄[0;1;32;42m██▓░[0;32m█▌[0;37m  hi to my mom and dad for[0m
-[31m▓██[0;1;31;41m░░[0;31m▄▄ [0;1;37m░[0;31m    ▄ ▀▀ ▄▄████[0;1;31;41m▀   [0;31m███████▀[0;37m [0;1;32m▄█[0;1;32;42m███████▌[0;32m█▌[0;37m  supporting my ansi-hobby[0m
+[31m▓██[0;1;31;41m░░[0;31m▄▄ [0;1;37m░[0;31m    ▄ ▀▀ ▄▄████[0;1;31;41m▀   [0;31m███████▀[0;37m [0;1;32m▄█[0;1;32;42m███████▌[0;32m█▌[0;37m                          [0m
 [31m░███████▄  ▄ ▀▀ ▄▐██████[0;1;31;41m  [0;31m████████▄[0;37m [0;32m▀█[0;1;32;42m▀████████[0;32m▌[0;37m  and taking away my computer.[0m
 [31m▐█[0;1;37;43m░[0;31m████████▄▄▄██████████[0;1;31m▒▒▒[0;31m█████████▄[0;32m ▀▀[0;36;42m▀[0;32;40m░[0;37;40m [0;32;40m▀▀[0;1;32;42m▀[0;32m█▀[0;37m [0m'

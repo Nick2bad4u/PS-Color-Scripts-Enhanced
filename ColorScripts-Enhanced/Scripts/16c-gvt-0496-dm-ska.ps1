@@ -5,7 +5,7 @@
 # Source SHA-256: ce2be818fd104c5206023c6a799dd4f42adb79beab68ad56fca0b412acc72c1d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DM-SKA.ANS by domino (gravity); released in gvt-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ska
 # SAUCE Author: domino
 # SAUCE Group: gravity
@@ -33,7 +33,7 @@ Write-Host '
 [32;40m  [0;34;40m▄[0;1;34;44m░░▒▒▓▓[0;1;34;40m██[0;32m▐▀██[0;35;42m░[0;32;40m███[0;32;42m     [0;35;42m░  [0;32;40m█▀ [0;1;34;44m▒[0;32m▐█[0;35;42m░[0;32;40m███▌███▄▄█▌ ▀█[0;35;42m░[0;32;40m██[0;35;42m░[0;32;40m███████▀▐███▌[0m
 [34;40m▄[0;1;34;44m░░▒▒▓▓[0;1;34;40m██[0;1;34;44m▓▓▒░[0;34m▄[0;32m▀▀███[0;35;42m░[0;32;40m██████▀ [0;1;34;44m░[0;34m▀[0;32m▄███[0;35;42m░[0;32;40m█▀  ▀███▀    ▀▀█████[0;35;42m░[0;32;40m▀▀ ▄███▀[0m
 [1;34;44m░▒▒▓▓[0;1;34;40m██[0;1;34;44m▓▓▒▒░[0;34m▀[0m
-[1;34;44m▒▓▓[0;1;34;40m██[0;1;34;44m▓▓▒▒░░[0;34m▀[0m        [1;37mListen to ska cuz it''s a-ok![0m
+[1;34;44m▒▓▓[0;1;34;40m██[0;1;34;44m▓▓▒▒░░[0;34m▀[0m        [1;37m                            [0m
 [1;34;44m▓[0;1;34;40m██[0;1;34;44m▓▓▒▒░░[0;34m▀[0m
 [1;34m█[0;1;34;44m▓▓▒▒░░[0;34m▀[0m     [1;30m                                             [0m
 [1;34;44m▓▒▒░░[0;34m▀[0m                        [1;37mska![0m

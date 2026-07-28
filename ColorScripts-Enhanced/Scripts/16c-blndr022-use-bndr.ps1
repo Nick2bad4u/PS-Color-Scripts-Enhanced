@@ -5,7 +5,7 @@
 # Source SHA-256: 0a64130709734faa1f39339f10a1c700a102467fa13a97271ba9c568308b3453
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: USE-BNDR.ANS by Stereo + Mafesto + Silver Dagger + Nitris (blndr022); released in blndr022 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -33,4 +33,4 @@ Write-Host '
 [34m█▓▒▀▀▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▀▄▀▄▀██▓█▓█▒▒▓█▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▄▀[0;37m  [0;1;37mthe guy is diving off a[0m
 [34m ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▌▄▀▌▀▌▀▌▀▌▄▐▀▌▐▄▌▀▐▌▄▐▀▌▄ [0;37m [0;1;37mcliff into the water . of[0m
 [34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m     [1;37mcourse he is very afraid,  [0m
-[34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37mnot of getting caught, but be-ca[0m'
+[34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37m                                [0m'

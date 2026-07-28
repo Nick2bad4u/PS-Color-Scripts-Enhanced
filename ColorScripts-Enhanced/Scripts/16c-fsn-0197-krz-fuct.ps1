@@ -5,7 +5,7 @@
 # Source SHA-256: 4d8a23de260d04df8a180590302711e4a8457ddbee886ce3b381252a8f087748
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRZ%FUCT.ANS by Krazie (fsn-0197); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -35,5 +35,5 @@ Write-Host '
            [1;35;45m [0m [1m [0;1;34m░[0m [1;34m [0m                                            [1;35m  [0m [1;35;45m [0;1;37;40m [0m [1;30m [0m   [1m  [0m
               [33m [0;37m [0;33m [0m
 [1;30m--[0m-[1;30m-[0m [1;30m---[0m---[1m--[0m--[1m-[0m----[1m--------[0m--[1m  [0m-----[1m------ --[0m----[1m [0m---------------[1;30m----- ---[0m--[1;30m---[0m
-[35m░░░░░░░░░░░░░░░░░░▒▒[0;37m -([0;1;35;45mo[0;1;37;40mp[0mpe[1;30md[0m b[1;35;45my[0m : Co[1mc[0;1;34;44ma[0mine  C[1mla[0mvi[1;30mc[0;1;34;44ml[0;1;30;40me[0;1;37;40m [0m [1mS[0mh[1;35;45me[0mr[1;30mma[0;1;34;44mn[0m P)- [35m▒░░░░░░░░░░░░░░[0m
+[35m░░░░░░░░░░░░░░░░░░▒▒[0;37m   [0;1;35;45m [0;1;37;40m [0m  [1;30m [0m  [1;35;45m [0m     [1m [0;1;34;44m [0m      [1m  [0m  [1;30m [0;1;34;44m [0;1;30;40m [0;1;37;40m [0m [1m [0m [1;35;45m [0m [1;30m  [0;1;34;44m [0m     [35m▒░░░░░░░░░░░░░░[0m
 [1;30m----[0m--[1;30m--[0m --[1m-[0m---[1m-----[0m----[1m--[0m------[1m [0m--------[1m----- [0m----[1m----[0m-[1m [0m-------[1;30m- ---[0m--[1;30m-[0m-[1;30m---[0m--[1;30m--[0m'

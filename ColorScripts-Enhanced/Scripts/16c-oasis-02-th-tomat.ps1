@@ -5,7 +5,7 @@
 # Source SHA-256: a68a613afcbab0ee21915a3890e0bd34dbd08191220bb36cfcdef70239341e00
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-TOMAT.ANS by Tempus Hellfire (Oasis); released in oasis-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Tripomatic Matrix
 # SAUCE Author: Tempus Hellfire
 # SAUCE Group: Oasis
@@ -16,7 +16,7 @@
 
 Write-Host '
 [34m░░[0;37m [0;34m░[0m     [34m░░░░[0m       [34m░[0m   [34m░░[0;37m [0;34m░░░[0m
-[37m [0;34m░░░[0m   [34m░░░░░[0m    [34m░[0;37m     [0;34m░[0;37m  [0;34m░░░[0m   [37m▄▄[0;1;30;47m░[0m█[1;30;47m░░▒▒▓▓▓[0m       cheap matrix for tom by th!
+[37m [0;34m░░░[0m   [34m░░░░░[0m    [34m░[0;37m     [0;34m░[0;37m  [0;34m░░░[0m   [37m▄▄[0;1;30;47m░[0m█[1;30;47m░░▒▒▓▓▓[0m                                  
 [34m░░░[0;37m  [0;34m░░░[0;37m [0;34m░[0m    [1;30m▄▄[0m▄[1;30;47m▒[0;1;30;40m▌[0m  [34m░[0;37m [0;34m░░[0m   [37m▄▄[0;1;30;47m░[0m█▀▀▀▀▀▀[1;30;47m░▒▒▓▓[0;1;30;40m▄[0m
  [34m░[0m         [1;30m▄█[0;1;30;47m▒▒▒░[0;1;30;40m▀[0m   [34m░░[0m   [37m▄[0;1;30;47m░[0m▀▀ [1;30m▄███[0;1;30;44m▓▓[0;1;30;40m▄▌▀[0;1;30;47m▒▓▓[0;1;30;40m▀[0m    [1;30m▄██[0;1;30;44m▓[0;1;30;40m▄ ▄[0;1;30;44m▓[0;1;30;40m███[0m [1;30;44m▓▓[0;1;30;40m█[0;1;30;44m▓[0;1;30;40m▄[0m
 [34m░[0;37m  ▄[0;1;37;47m░░▒▒▓▓[0;1;37;40m▄[0m [1;30;47m▓▒░[0;1;30;40m▀[0m  [34m░[0;37m [0;34m░░░[0;37m ▄█▀[0;1;30m▄███▀[0m    [1;30m▀[0;1;30;44m▓▓[0;1;30;40m▄▄[0m   [1;30m░[0m      [1;30;44m▓▓[0;1;30;40m [0;1;30;44m▓[0;1;30;40m█▀[0m [1;30m▄[0m [1;30;44m▓▒[0m [1;30m██[0m

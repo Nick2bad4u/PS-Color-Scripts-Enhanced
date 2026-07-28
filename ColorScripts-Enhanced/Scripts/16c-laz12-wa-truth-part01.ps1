@@ -5,7 +5,7 @@
 # Source SHA-256: 00f03ec9b90a10249c163762b2b9e5575241640b2cbe6fbd4333766a4d4ddad7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-truth.ans by warpus (LAZARUS); released in laz12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Truth
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -21,7 +21,7 @@ Write-Host '
 [1;31m▓██████████████████████████████████████████████████████[0;1;31;43m█[0;1;31;46m█[0;1;31;43m▄[0;1;31;46m██[0;1;31;43m▀▄█▓▓▄▀█  [0;1;31;46m██[0;1;31;43m ░░  [0;33;43m███[0m
 [1;31;40m███████████████████████████████████████████████████[0;1;31;46m███████[0;1;31;43m▀▄█▀ ▄▀▄▀ ▄▀[0;33;43m░▒▓███████[0m
 [1;31;40m█████████████████████████[0;30;101m                             [0;1;31;46m█[0;1;31;43m█▀▄█▀ ▄▀▄▀  [0;33;43m░▒▓██████████[0m
-[1;31;40m█████████████████████[0;30;101mdon''t tell me what I want to hear[0;1;31;43m███▀ ▄▀   [0;33;43m░▒▓████████[0;33;40m█████[0m
+[1;31;40m█████████████████████[0;30;101m                                 [0;1;31;43m███▀ ▄▀   [0;33;43m░▒▓████████[0;33;40m█████[0m
 [1;31;40m██████████████████████████████████████[0;1;31;46m███████████[0;1;31;43m██████▀     [0;33;43m▒▓████████[0;33;40m█████████[0m
 [1;31;40m██████████████████████████████████████[0;1;31;46m███████[0;1;31;43m████████▀    [0;33;43m▒▓█████████[0;33;40m███████████[0m
 [1;31;40m████████████████████████████████████[0;1;31;46m███████[0;1;31;43m████████▀[0;33;43m▓█████████████[0;33;40m██████████████[0m

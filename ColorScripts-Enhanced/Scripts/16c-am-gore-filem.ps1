@@ -5,7 +5,7 @@
 # Source SHA-256: 48aef444baea4bcb9cf09f1121c6ed47f69dd985df0f756121f3923f3f320d7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FILEM.ANS by Amroth (am-gore); released in am-gore and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -31,6 +31,6 @@ Write-Host '
                                      [31m▐[0;1;37;41m▌[0;31m█[0;1;31;41m [0;1;37;41m [0;30;41m                    [0;1;31;41m [0;1;37;41m [0;30;41m              [0;1;31;41m▓[0m
                                      [31m▐[0;1;37;41m▌[0;31m█[0;1;31;41m [0;1;37;41m [0;30;41m                    [0;1;31;41m [0;1;37;41m [0;30;41m              [0;1;31;41m▓[0m
 [1;31;40m [0;31m▄▄[0m                                 [31m░▐[0;1;37;41m▌[0;31m█[0;1;31;41m [0;1;37;41m [0;30;41m                    [0;1;31;41m [0;1;37;41m [0;30;41m             [0;31;40m█[0;1;31;41m█[0m
-[31m▓▓▀▀■[0m                              [31m▒▒▐[0;1;37;41m│[0;31m█[0;1;31;41m([0;1;37;41mQ[0;30;41m)uit to Main      [0;31;40m▓[0;31;41m    [0;30;41mCall Date &  [0;1;31;41m▀[0m
+[31m▓▓▀▀■[0m                              [31m▒▒▐[0;1;37;41m│[0;31m█[0;1;31;41m [0;1;37;41m [0;30;41m                  [0;31;40m▓[0;31;41m    [0;30;41m             [0;1;31;41m▀[0m
 [31m████▄  .■▄[0m                    [31m▄▄   ▄[0;1;31;41m▄[0;31m▐[0;1;37;41m│[0;31m██████▀▀▀▀▀▀▀▓▓███[0;31;41m  [0;31;40m▓▓▄▄▄▀[0;30;41mTime       [0;31;40m▀▄▓[0m
 [1;37;41mAMROTH[0;31m▄[0;1;37mG[0;1;37;41mORE[0;31m▄    ■.[0m        [31m▒▒ ▀▀▓▓ [0;1;37;41m.[0;1;31;41m▀▒▒[0;31m██▓▓▀■▄█████▓▓▓▓▓▓▒▒▒▄[0;31;41m [0;1;37;41m.[0;31m███▄▓▓▓▓▒▒▒▒▒▄[0;1;37;41m■.[0;31m█[0m'

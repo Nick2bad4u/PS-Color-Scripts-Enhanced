@@ -5,7 +5,7 @@
 # Source SHA-256: 2bcd65cf0c3fb5a682c5620082fa6a00b6745979c97b132acbc9ebe8967b8e51
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UNS-AWE1.ANS by Unsane (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: AWE Promotional
 # SAUCE Author: Unsane
 # SAUCE Group: AWE Lettering
@@ -29,7 +29,7 @@ Write-Host '
        [31m░[0;30;41m▓[0;31;40m████▀[0m        [31;40m▐████▀░[0;30;41m▓[0;31;40m█████▄▄████████▄▄████▀▀  ▀▀████▄▄▄▄[0m
        [31;40m░[0;30;41m▓[0;31;40m██████▀▀▀▀▀▀███▀▀ ▄▄  ▀▀██▀▀▀▀    ▀▀▀▀▀  [0;1;30;40m▄▄[0;1;30;47m▓[0;1;30;40m▀▀[0;1;30;47m▓[0;1;30;40m▄▄ [0;31m▀▀▀██▀▀[0m
                  [31m░░▓▓████▄▄[0m          [31m▀▀▀▄[0m       [1;30m▀▀▀[0m░░    [1;30m▀▀▀▀[0m
-     aW3 type''o    [31m░░   ▀▀▀▀██░░[0m         [31m█  ▄▄▄[0m       [37man unsane origional[0m
+                   [31m░░   ▀▀▀▀██░░[0m         [31m█  ▄▄▄[0m       [37m                   [0m
                             [31m░░░░[0m         [31m█[0m
 
                                          [31m■[0m

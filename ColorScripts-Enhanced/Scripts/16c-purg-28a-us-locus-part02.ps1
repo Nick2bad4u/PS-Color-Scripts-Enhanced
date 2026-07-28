@@ -5,13 +5,13 @@
 # Source SHA-256: 02a79379a5bcf0c5285d4fb94b79a3b481019be6dae65743bafddc60c243e9a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LOCUS.ANS by Slackzor + Avenging Angel (purg-28a); released in purg-28a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 45-73
 # Columns: 1-80
 
 Write-Host '
                  [37m░░[0m     [37m▄ [0;1;37m▀[0m▀
-[34m    ▄[0;1;34;44m▄[0;34m▄    [0;37m [0;30mblackonblackisgay..[0m    [34m▄[0m        [1;30m░░░░░░[0m    [1;30m ▀[0;1;30;47m▄[0;1;30;40m▀[0m               [1mavg[0mfks
+[34m    ▄[0;1;34;44m▄[0;34m▄    [0;37m [0;30m                   [0m    [34m▄[0m        [1;30m░░░░░░[0m    [1;30m ▀[0;1;30;47m▄[0;1;30;40m▀[0m               [1m   [0m   
      [34m▀   ▄[0;1;34;44m▄▄[0;34m▄[0;37m  ▄▄[0;1;30m▄[0m            [34m▀[0;37m [0;1;30m▄[0m [34m▀[0;1;34;44m▀[0;34m▀  ▄▄[0m                  [1;30m▄[0;1;30;47m▀[0;1;30;40m█▄[0m
           [34m▀[0;1;34m▀[0;34m▄[0;1;34;44m▄█[0;1;34;47m█[0;1;34;40m▄▄[0;34m▄▀[0;1;34;44m█▄[0;34m▄[0m    [34m   [0;1;34m▄▄▄[0;34m▄[0m   [1;30m▄[0;34m▀[0;1;34;44m▀▀[0;34m▀▄▄▄▄▀[0;1;34m▒▒[0;34m▄▄ [0;37m▄[0;1;30m▄[0m      [1;30m▀▀[0m       [1;30m▄[0m   [1;30m▄[0m
        [1;30m ▄[0;1;30;47m▀[0;1;30;40m▄[0;34m ▀▀[0;1;34;44m▀[0;1;34;47m▄ ██[0;1;34;44m███[0;34m [0;1;30m▄[0;1;30;47m▀[0;34m    ▄[0;1;34;47m██▄▄▄[0;1;34;44m█▄[0;1;34;40m▄[0;34m▄ [0;1;34;44m         [0;34m█▄▄▄▄▀[0;1;34m▒▒[0;34m▄▄[0;1;30m [0m▄[1;30m▄[0m          [1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0m

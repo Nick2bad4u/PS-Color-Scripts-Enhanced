@@ -5,7 +5,7 @@
 # Source SHA-256: 3773b1de773ae5bc18c4316ee278999c15d87709add3e47a22e2a44d5945bbcd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VileR-TDC11.ans by Viler (blocktronics_blocktober); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 81-119
 # Columns: 1-80
 
@@ -48,4 +48,4 @@ Write-Host '
          [30;42m■▌[0m     [30;42m■▌[0;37;40m  [0;32;40m▐[0;33;40m■[0;37;40m [0;30;42m■▌[0;37;40m  [0;33;40m▬[0;37;40m [0;30;42m■▌[0;37;40m  [0;33;40m▬[0;37;40m [0;30;42m■[0;32;40m▐[0;33;40m▀═[0;37;40m▀ [0;30;42m■▌[0m       [32;40m▒[0m     [32;40m▒[0;37;40m  [0;32;40m■▌[0;37;40m  [0;30;47m▐[0;5;30;40m■[0m [30;42m■▌[0;37;40m [0;1;30;40m▐[0m▒
          [5m░[0;33;47m▀[0;1;33;40m_▬▄[0;33m▌[0;37m [0;5;37m░[0;33;47m▀[0;1;33;40m_▬▄[0;33m▌[0;37m [0;5;37m░[0;33;47m▀[0;1;33;40m_▄[0;5;33;43m▬[0m [5m░[0;33;47m▀[0;1;33;40m_▄[0;5;33;43m▬[0m [5m░[0;33;47m▀[0;1;33;40m_▬▄[0;33m▌[0;5;37m░[0;33;47m▀[0;1;33;40m_▬▄[0;33m▌[0;37m  [0;1;30m▐[0;30;43m■[0;5;30;43m▀[0;33m▌[0;37m [0;1;30m▐[0m▬[30;43m■[0;5;30;43m▀[0m [1;30m▐[0;33;47m▀[0;37;40m▬[0;1;5;33;40m▬█[0;5;33;40m▒[0m [5m▌[0;33;47m▀[0;37;40m [0;1;33;40m▐▄[0;33m▬[0m
 
-     [1;30m  [0m  [32m:[0;1;32m♦[0;32m:[0;37m [0;36m[[0;1;36mRelease 11[0;36m][0;1;30m [0;32m:[0;1;32m♦[0;32m:[0;37m [0;36m[[0;1;36mFeb. 2016[0;36m][0;1;30m [0;32m:[0;1;32m♦[0;32m:[0;37m  [0;1;30m·─·──────·─·[0m  [1;30mANSi: VileR[0m'
+     [1;30m  [0m  [32m [0;1;32m [0;32m [0;37m [0;36m [0;1;36m          [0;36m [0;1;30m [0;32m [0;1;32m [0;32m [0;37m [0;36m [0;1;36m         [0;36m [0;1;30m [0;32m [0;1;32m [0;32m [0;37m  [0;1;30m ─ ────── ─ [0m  [1;30m           [0m'

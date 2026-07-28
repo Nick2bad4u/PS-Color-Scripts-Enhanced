@@ -5,7 +5,7 @@
 # Source SHA-256: ff4676305e46e115353f3bda53587716b71116256fd6f00de3ca9528c4a3b870
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RI-GLOBE.ANS by riyee (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the globe
 # SAUCE Author: riyee
 # SAUCE Group: eclipse
@@ -29,7 +29,7 @@ Write-Host '
     [35;40m░[0;30;45m▓[0;35;40m█████████████████▀▀██████░[0;30;45m▓[0m           [1;37;40mthe glObe[0m .. wee, I know the
     [35m  ▀▀▀▀▀▀[0;1;35;45m░░░░░░[0;35m██████▌▀▀▀▀▀▀[0m             [37mglobe there looks more like [0m
             [35m█████████████   [0m                [37ma pile of puke, but hey, I [0m
-           [35m▐██████████▀▀▀  [0m                 [37mtried hard .. :) ansi by [0;1;37mrai [0m
+           [35m▐██████████▀▀▀  [0m                 [37m                         [0;1;37m    [0m
            [35m▀▀▀▀▀▀[0;37m [0;1;30m▄▄▄▄▄█░[0m                   of [1meclipse[0m, man ..
            [1;30m░██████▀▀▀[0;1;30;47m▓▓▓[0;1;30;40m░[0m
            [1;30m░█████▓ █████▌[0m

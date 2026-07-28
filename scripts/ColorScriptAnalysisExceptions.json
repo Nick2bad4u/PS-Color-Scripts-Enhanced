@@ -1453,11 +1453,6 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-ice9703a-tg-f1",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-mtx-05a-mb-jterm",
             "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
         },
@@ -1465,11 +1460,6 @@
             "issueType": "derivative-attribution-review",
             "family": "16c-shv-0695-st-union",
             "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-acid-s-z-voidjed2",
-            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
         },
         {
             "issueType": "derivative-attribution-review",
@@ -1525,11 +1515,6 @@
             "issueType": "derivative-attribution-review",
             "family": "16c-d38-05-bs-adgap",
             "reason": "Reviewed figurative phrase: 'get your balls ripped' is a comedic tagline, not a source-art credit."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-img0994-c-tdh2",
-            "reason": "Reviewed idiom: 'hooker that ripped him off' describes a financial or social interaction, not copied artwork."
         },
         {
             "issueType": "derivative-attribution-review",

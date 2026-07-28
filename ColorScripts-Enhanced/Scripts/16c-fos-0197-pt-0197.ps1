@@ -5,7 +5,7 @@
 # Source SHA-256: 677cd8ff3844dea35c0506fd364d9a118e155b8620d6f251c21e179cdc6aeb52
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-0197.ANS by Platinum (MiSTiGRiSTEEL); released in fos-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: January Logocolly
 # SAUCE Author: Platinum
 # SAUCE Group: MiSTiGRiSTEEL
@@ -29,7 +29,7 @@ Write-Host '
   [1;34;47m▓▓[0;1;37;40m [0m █▓▓█▄ [1m▀[0m▄▄██▌ [1;30m░[0m █▓▓█▄▄[1;47m▀[0m████▌ [1;47m▀[0m ░░ █▄[1m▀[0m▀[1;47m▄[0m▓▓███▄▄[1;47m▀[0m██▀▀  [1m █[0m▄▄▄ [1m [0m   [1m▄▄[0;1;47m▀▀[0m█[1;47m▀[0m▌  [1;30;47m▓▓[0m
   [1;34;47m██▓▓[0m ▀▀▄ ▀▀▀ ▀▀▀    ▀▀▀▀▀▀▀ ▀▀▀▀ ▄          [1m▀[0m▀▀▀▀▀          [1m▀[0m▀▀▀▀▀▀▀▀▀▀▀▀ [1;30;47m▓██[0m
        ▀                           ▀
-░▒█▓▓███ ▀▀▀▀▀▀▀▀▀▀█▀█▀ ▀▀▀[30;47m▐[0;37;40m▀█▀▐[0;30;47m(HE▄LP!  I''m stuck in this ansi!~[0;37;40m▀▀▀▄ ▄▀▀▀▓▓█▒░[0m
+░▒█▓▓███ ▀▀▀▀▀▀▀▀▀▀█▀█▀ ▀▀▀[30;47m▐[0;37;40m▀█▀▐[0;30;47m   ▄                             [0;37;40m▀▀▀▄ ▄▀▀▀▓▓█▒░[0m
 [37;40m░████▄ ▀▀▀▄▄▄▓ ███▀  ▄█▄██ ▀±÷▐[0;30;47m_/[0;37;40m▄▀ ▀▄▄[0;30;47mand the pigs are on my[0;37;40m█ [0;30;47mtail![0;37;40m▌[0;30;47m)[0;37;40m▄.|~▄███░[0m
 [37;40m▒████▀▀█  ▀▀▀▀ ███▀▀  ▀▀█  ° ▀▀▀▄▄▄█▄▄[0;30;47m~~~[0;37;40m▀▀▀▀▀▀▀▀▀▀ ▄▄▄▄▄▄▄▄[0;30;47m~[0;37;40m▌▐[0;30;47m~~~~~[0;37;40m▌▐▄_  ████▒[0m
 [37;40m▓██████▄▀████▄█▀▄▄▄▌▐▄▄    ▄███▀▀[0;30;47mc≡-[0;37;40m▄▄▀▄▄██▀▀█▄█[0;30;47mc≡-  [0;37;40m█   ▀▄▄    ▄█[0;30;47m  [0;37;40m █ `  ████▓[0m

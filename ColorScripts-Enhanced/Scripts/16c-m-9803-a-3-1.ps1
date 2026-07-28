@@ -5,7 +5,7 @@
 # Source SHA-256: 71f67cf889b275ff837c6d5ae442755280a656d56851a0c66646e4fa733901a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (3)-1.ANS by Tricolore (Mistigris); released in m-9803-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: HipE
 # SAUCE Author: Tricolore
 # SAUCE Group: Mistigris
@@ -16,7 +16,7 @@
 
 Write-Host '
   [1;34m│[0m                                                                          [1;34m│[0m
-[1;34;44m╓─┘ ┐─ ─[0;1;34;40m──[0m [1;34mHipE information file, by Tricolore[0m                        [1;34m──[0;1;34;44m─ ─┌ └─╖[0m
+[1;34;44m╓─┘ ┐─ ─[0;1;34;40m──[0m [1;34m                                   [0m                        [1;34m──[0;1;34;44m─ ─┌ └─╖[0m
 [1;34;40m║[0m   [1;34m└[0m                                                                      [1;34m┘[0m   [1;34m║[0m
             [34m▄▄[0m
         [34m   █ ▐▌ █▌[0m         [34m [0m                    [31m▄▄▄▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: f54fc06b9f43ed79a39c338c01de810b03f925e59a52d55b3b6d2fc0a8e582f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cs-colly.ans by Capsone (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 23-57
 # Columns: 1-80
 
@@ -35,12 +35,12 @@ Write-Host '
 [1;32;42m░[0m                                                   [32m █▒████[0;37m [0;1;31m░▄[0;33m▄    ▄▄▄▄▄▄▄▄█▓▒░[0m
 [1;32;42m░[0m                                                   [32m ▓░[0;1;32;42m░░░[0;32m▀[0;37m [0;1;31;43m▓▒░[0;33m██▄▄ ▀██[0;1;30;43m░░░[0;33m█▓▒░[0m
 [1;32;42m [0m                                                    [32m▒ [0;1;32;42m▒▒░[0;32m [0;1;31;43m▓▒░[0;33m█▄▀███▄ ▀█[0;1;30;43m░[0;33m█▓▒░[0;37m [0;33m░[0m
-[1;32;42m [0m     [1m<[0;36mf[0;1;37m>[0m [1;30mfile areas   [0m       [1m<[0;36mi[0;1;37m>[0;1;30m board stats   [0m    [32m ░ [0;1;32;42m▓▒[0;32m▌[0;1;31m▐[0;1;31;43m▒░[0;33m███▌ ████▌▐█▓▒░[0m
+[1;32;42m [0m     [1m [0;36m [0;1;37m [0m [1;30m             [0m       [1m [0;36m [0;1;37m [0;1;30m               [0m    [32m ░ [0;1;32;42m▓▒[0;32m▌[0;1;31m▐[0;1;31;43m▒░[0;33m███▌ ████▌▐█▓▒░[0m
 [32m█[0m     [1;37m<[0;36ma[0;1;37m>[0m [1;30mmessage areas[0m       [1m<[0;36mw[0;1;37m>[0;1;30m who''s online  [0m    [32m   ██ [0;1;31m▀▀[0;1;31;43m▓▒░[0;33m▀[0;37m [0;33m ▐████[0;37m [0;33m█▓▒░[0m
 [1;32;42m░[0m     [1m<[0;36mm[0;1;37m>[0m [1;30mmail[0m                [1m<[0;36ml[0;1;37m>[0;1;30m last callers  [0m     [32m░ ████▄[0;1;31m ▄[0;33m▄▄▄▄█████[0;37m [0;33m█▓▒░[0m
 [1;32;42m▒[0m     [1m<[0;36md[0;1;37m>[0m [1;30mdoors[0m               [1m<[0;36mb[0;1;37m>[0;1;30m bbs list[0m           [32m▒░[0;32;42m░[0;37;42m░░[0;32;40m█ [0;1;31;40m░▄▄▄[0;33m▄▄▄▀▀▀▀[0;30;43m▐[0;33;40m█[0;1;30;43m░[0;33m▓▒░[0m
 [1;32;42m▒[0m     [1m<[0;36mg[0;1;37m>[0m [1;30mgallery[0m             [1m<[0;36mo[0;1;37m>[0;1;30m oneliners[0m          [33m [0;32m▓▒█[0;37;42m░[0;1;32;42m░░[0;32m [0;1;31m██[0;1;31;43m▓▒░[0;33m█████████▓█▒░[0m
 [1;32;42m▓[0m     [1m<[0;36ms[0;1;37m>[0m [1;30muser config  [0m       [1m<[0;36mu[0;1;37m>[0;1;30m userlist[0m          [33m [0;32m█▓██[0;1;32;42m░▒[0;1;32;40m▄[0;32m [0;1;31m▀▀▀[0;33m▀▀▓█████████▓███[0m
-[1;32;42m▓[0;32m▌[0;37m    [0;1;37m<[0;1;33m*[0;1;37m>[0m [1;30mpage sysop   [0m       [1m<[0;1;33m![0;1;37m>[0;1;30m log off (bye!) [0m   [32m▐[0;1;32;42m░░░[0;32m██[0;1;32;42m▒▓▓[0;32m▄ [0;1;31m▄▓[0;1;31;43m▓▒░[0;33m███████████▀[0m
+[1;32;42m▓[0;32m▌[0;37m    [0;1;37m [0;1;33m [0;1;37m [0m [1;30m             [0m       [1m [0;1;33m [0;1;37m [0;1;30m                [0m   [32m▐[0;1;32;42m░░░[0;32m██[0;1;32;42m▒▓▓[0;32m▄ [0;1;31m▄▓[0;1;31;43m▓▒░[0;33m███████████▀[0m
 [1;32;42m█▒[0;32m [0m                                                 [1;32;42m░░▒▒▒[0;32m█████▄[0;1;31m █[0;1;31;43m█▓▒░[0;33m███████▀[0m
 [1;37;42m█[0;1;32;42m▓▒[0;1;32;40m░[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;32m░▓[0;1;32;42m░░▒▒▓▓[0;30;42mcS.☺[0;32;40m▓▄[0;1;31;40m ▀▀[0;1;31;43m█▓▒░[0;33m██▀[0m     [37m-[0m'

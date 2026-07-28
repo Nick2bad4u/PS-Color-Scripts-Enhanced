@@ -5,7 +5,7 @@
 # Source SHA-256: 93801ee0d61a95e0371f4d0e7407c10f771f318e3b7cd5d48c4f71d95df884db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAC-UKMN.ANS by lacaid (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: uk?! main menu
 # SAUCE Author: lacaid
 # SAUCE Group: dope
@@ -34,7 +34,7 @@ Write-Host '
 [1;30;40m█▄██▌   ▒[0m      [36m▐[0;1;36;46me[0;36m▌mail[0m           [36m▐[0;1;36;46mu[0;36m▌sers[0m            [36m▐[0;1;36;46mc[0;36m▌onfig[0m            [1;30m▐▌ ▐[0;1;30;47m▓▒▓█[0m
 [1;30;40m▀███[0m           [36m▐[0;1;36;46mf[0;36m▌iles[0m           [36m▐[0;1;36;46ml[0;36m▌ast callers[0m     [36m▐[0;1;36;46mp[0;36m▌age lacaid[0m        [1;30m▀■▐[0;1;30;47m█▓█[0;1;30;40m▌[0m
 [1;30;40m █▓[0m            [36m▐[0;1;36;46mm[0;36m▌sgs[0m            [36m▐[0;1;36;46mb[0;36m▌bs list[0m         [36m▐[0;1;36;46ms[0;36m▌ys bulletins[0m         [1;30m█[0;1;30;47m█[0;1;30;40m▀[0m
-[1;30m▐[0;1;30;47m▓[0;1;30;40m█▌[0m           [36m▐[0;1;36;46mq[0;36m▌wkmail[0m         [36m▐[0;1;36;46mv[0;36m▌ote[0m             [36m▐[0;1;36;46mn[0;36m▌ote to lacaid[0m         [1;30m▓▌▀[0m
+[1;30m▐[0;1;30;47m▓[0;1;30;40m█▌[0m           [36m▐[0;1;36;46m [0;36m▌      [0m         [36m▐[0;1;36;46m [0;36m▌   [0m             [36m▐[0;1;36;46m [0;36m▌             [0m         [1;30m▓▌▀[0m
 [1;30m█[0;1;30;47m▒▓[0;1;30;40m█[0m           [36m▐[0;1;36;46md[0;36m▌oors[0m           [36m▐[0;1;36;46mi[0;36m▌nfo on uk[0m       [36m▐[0;1;36;46mg[0;36m▌oodbye[0m               [1;30m▐█[0;1;30;47m▓[0m
 [1;30m▐[0;1;30;47m▓[0;1;30;40m█▄ ▄▌▄[0m                                                                    [1;30;40m■██▌[0m
 [1;30;40m ▐▀▓▀▀■ [0;33mcmd [0;36m[  ] [0;1;30m───────────────────────────────────────────────────────────  ▀[0m'

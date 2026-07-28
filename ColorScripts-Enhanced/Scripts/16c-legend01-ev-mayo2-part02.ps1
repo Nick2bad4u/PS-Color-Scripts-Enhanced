@@ -5,7 +5,7 @@
 # Source SHA-256: 496502347d2fee17740a9338f13d63e8a38050567e84407a41474cae850a9cda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EV-MAYO2.ANS by EverLast (Legend); released in legend01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mayo
 # SAUCE Author: EverLast
 # SAUCE Group: Legend
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;30;47m▓[0;1;30;40m▌ [0;1;30;47m▓[0m [1;30m▄▀[0m▐[1;30;47m░[0m  ▀■  ▀▀ This goes out to all ▀▀ ▀▄▄▀[1;30m [0;1;30;47m▓[0;1;30;40m▀[0m▄[1;30;47m░[0m [1;30;47m▓▓[0;1;30;40m▄ [0;1;37;40m▀[0m [1;46m░[0;36m█▓▌[0m   [1;37m▒[0m         [1;30m▀▀██[0m
-[1;30;47m▓[0;1;30;40m▌[0m [1;30;47m▒[0;1;30;40m [0m  ▀▀ those fuckers that said I wouldn''t  ▐[1;30;47m░[0;1;30;40m  [0m▀ [1;30;47m▒▒▓▓[0;1;30;40m░[0m [1;46m▒░[0;36m▓[0m   [1;37m ▓[0m▄ [1m    [0m [32m■▄▄▄[0;37m [0;1;30m▀[0m
+[1;30;47m▓[0;1;30;40m▌[0m [1;30;47m▒[0;1;30;40m [0m  ▀▀                                     ▐[1;30;47m░[0;1;30;40m  [0m▀ [1;30;47m▒▒▓▓[0;1;30;40m░[0m [1;46m▒░[0;36m▓[0m   [1;37m ▓[0m▄ [1m    [0m [32m■▄▄▄[0;37m [0;1;30m▀[0m
 [1;30;47m▒░[0m [1;30;47m░[0m▌ ▀▄▄                                      ▀ [1;30m▀▄█[0;1;30;47m░▓▒▓[0;1;30;40m▓ [0;1;37;46m▒░[0;36m▓[0m    [37m [0;1;37;47m░░░[0m▄▄    [32m▀[0;1;32;42m■▄[0;32m▄[0m
 [1;30;47m▒[0m█▄▀▀▄[1;47m▄▀▀▓[0m▄█░[1;32;42m▓▒[0;32m▓[0;37m [0;1;30;47m▓[0;1;30;40m▄▌[0m  [1;30m█▄[0m ▄▓▓▄[1;47m▓[0m▄▄■▄[1;30m▄[0m▄[1;30m▄▄▄[0m [1;30m▄▓[0m [1;35;45m▒█▒[0;35m▌[0;1;35;45m█[0;35m█[0;37m ▓[0;1;30m█[0;1;30;47m░░░▓[0;1;30;40m▓[0m [1;46m▓░[0;36m█▓[0;37m  [0;36m░[0;37m [0;1;30m▄[0m▀[1;47m▒░░░░[0m▄▄▄[1m [0;32m  [0m
 [1;30;47m░[0;1;37;47m■[0m█▀█[1;47m▀[0m█▀[1;30;47m░[0;1;37;47m▒[0m█[1;47m▀[0m▓ [1;32;42m▓▒[0;32m▓[0;37m [0;1;30;47m▒▓[0m [1;30;47m░▒▓[0m █[1;47m▄▄▀▒▀▀▄▄[0;1;30;47m░░▒▓[0;1;30;40m▄[0;35m▀▄▄[0;1;35;45m▄▓[0;35m█▀[0;1;30m▌[0;1;35;45m█[0;35m█[0;37m [0;1;30;47m▓▒░░░▒▓[0m [1;46m▓░[0;36m██▓▄▓[0m   [1;30m▄[0m▀[1;47m▒▒▒░░░░░░[0m

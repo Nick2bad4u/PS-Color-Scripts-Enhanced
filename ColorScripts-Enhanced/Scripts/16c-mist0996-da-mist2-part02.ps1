@@ -5,7 +5,7 @@
 # Source SHA-256: 3b7f29b645b10096cbe5e9441aa3bb3fc2048995e1b0604b960e293fe8988e8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DA-MIST2.ANS by dash (MiSTiGRiS); released in mist0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: untitled
 # SAUCE Author: dash
 # SAUCE Group: MiSTiGRiS
@@ -29,7 +29,7 @@ Write-Host '
      [1;30m░[0m [1;30m▐▌▐▄       ▀▀▓████████████[0m [1;30m░░[0m [1;30m░[0m  [1;30m▓[0m  [1;30m▒▌[0m [1;30m░[0m  [1;30m▒[0m  [1;30m░░[0m  [1;30m░[0m [1;30m░[0m   [1;30m░[0m    [1;30m░[0m    [1;30m  [0m
        [1;30m░█[0m [1;30m▀█▄▄      ░ ▀▀▀███████▀▄▌░[0m [1;30m░[0m [1;30m░▒[0m  [1;30m░[0m  [1;30m░[0m  [1;30m░[0m            [1;30m░[0m
      [1;30m░░▒▓▀▓▄[0m [1;30m▀▀▀▓█▄▄▄▄▄▐████▀▀▀[0m [1;30m▄▌▓░[0m    [1;30m░[0m  [1;30m░[0m     [1;30m░[0m
-       [1;30m░▒▒▓[0m [1;30m▓▌▀▓▐▄ [0m [1;30m▄[0m [1;30m▀▀▀▄[0m [1;30m▄▓▀[0m [1;30m▀▓▌▒[0m [1;30mdash       [0m  [30mnas:if i ruled the world...[0m
+       [1;30m░▒▒▓[0m [1;30m▓▌▀▓▐▄ [0m [1;30m▄[0m [1;30m▀▀▀▄[0m [1;30m▄▓▀[0m [1;30m▀▓▌▒[0m [1;30m           [0m  [30m                           [0m
    [1;30m  [0m   [1;30m░░▒[0m [1;30m▒[0m [1;30m░▒░▓░▐▓▀[0m [1;30m▀▓▌▄░▓░[0m [1;30m░▒▌░[0m
         [1;30m░[0m [1;30m░[0m [1;30m░[0m  [1;30m░ ▒ ▓▒░[0m [1;30m░▒░▐▓▒▓▄▄▓▓[0m
                  [1;30m░[0m [1;30m▒░[0m   [1;30m░[0m  [1;30m▒░▒▓▓▒▒[0m

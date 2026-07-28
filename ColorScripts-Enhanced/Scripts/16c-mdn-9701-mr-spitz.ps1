@@ -5,7 +5,7 @@
 # Source SHA-256: 2a0cd69aa55e1f5fc1f88ab1f01d1f6f0ff30e5f774c013314be6e8d5e6c09c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-SPITZ.ANS by .,s$(minotaur)$s,. (.,s$(MDN)$s,.); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo for spitz
 # SAUCE Author: .,s$(minotaur)$s,.
 # SAUCE Group: .,s$(MDN)$s,.
@@ -33,7 +33,7 @@ Write-Host '
  [1;30;47m▄[0;1;30;40m▀▀▀▀▀▀▀▀▀[0;1;30;47m▄[0m   [32msysop : cockrane   [0m        [32m▐[0;1;32m██[0;32m▀[0m                       [1;32m▐[0;1;32;42m▓▓▓▓▓▓[0;1;32;40m██▀[0;32m▀[0m
 [37m [0;1;30m█[0m [30;42m▄[0;32;40m█[0;1;32;42m▀[0;32m█[0;1;32;42m▀▀▓[0m [1;30m█[0m   [32mblablablablablabla[0m        [32m■▀▀[0m                [30;42m▓▓[0m      [32;40m▐[0;1;32;42m▒▒▒▒▒▒▓[0;1;32;40m▀[0m
  [1;30;47m▓[0;32ms[0;1;32;42mp[0;30;42mitz[0;1;32;42m░[0;30;42m`[0;1;32;42m9[0;32m6[0;1;30;47m▓[0m   [32mx.x gigas on-line [0m                       [30;42m▓▓[0;37;40m  [0;30;42m▒▒[0;37;40m [0;30;42m░░[0;37;40m [0;30;42m░░[0;1;32;42m░░░▒[0;32m▀▀[0m   [1;32m [0m
- [1;30m█[0m [30;42m▓▄▄[0;32;40m███[0;1;32;42m▀[0m [1;30m█[0m   [32meleech/bbc/acid/razor/xxx/seila[0m                   [32m▀▀▀▀[0m
+ [1;30m█[0m [30;42m▓▄▄[0;32;40m███[0;1;32;42m▀[0m [1;30m█[0m   [32m                               [0m                   [32m▀▀▀▀[0m
 [37m [0;1;30;47m▀[0;1;30;40m▄▄▄▄▄▄▄▄▄[0;1;30;47m▀[0m   [32mblablablablabla[0m                              [30;42m▓▓[0m
 
 

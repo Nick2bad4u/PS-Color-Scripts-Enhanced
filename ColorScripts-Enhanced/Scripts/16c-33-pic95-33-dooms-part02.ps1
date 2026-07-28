@@ -5,7 +5,7 @@
 # Source SHA-256: 641f05e309095012b3050b5286ef7be42e0a7a7e1aba29a7e9830de8e2ada296
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-DOOMS.ANS by Eerie (ACiD Productions); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Doomsday
 # SAUCE Author: Eerie
 # SAUCE Group: ACiD Productions
@@ -46,7 +46,7 @@ Write-Host '
 [44m▒▓▒▒░[0m  [33;40m█[0;37;43m░▒░[0;33;40m▌ ▀ [0;31;40m▌ [0;1;31;43m░[0;33m▌ ▐ ▄▓ [0;31m▐    [0;1;31;41m▓[0m       [34m▌[0m
 [37;44m▒▒▒░[0;34;40m▌ [0;33;40m▐[0;37;43m░▒▓[0;33;40m▀ [0;31;40m▌▄■▀[0;33;40m▐[0;37;43m░[0m  [1;31;43m░[0;33m▄[0;1;31;43m░[0m  [1;31;41m░[0m    [1;31;41m▒[0m                 [31m▄▄■▄▄[0;1;31;41m░[0;31m▄ [0;1;31m▄[0;31m▄▄■▄▄▄▄[0;1;31m▄[0;31m▄[0;1;31;41m░[0;31m▄▄▄ ▄[0;1;31;41m▒[0;31m▄[0m
 [37;44m▒▒░░[0;34;40m▓ [0;33;40m▐[0;37;43m░▓▒░[0m [1;31;41m░[0m [33m▄[0;37;43m░[0;33;40m▀ ▄█▀    [0;1;31;41m▒[0m    [1;31;40m▒[0m             [31m▄[0;1;31;41m░[0;31m▀[0;1;31m▀[0m                          [1;31m▀[0;31m▀■▄[0m
-[37;44m░░░░[0;34;40m▌ [0;33;40m▐[0;37;43m▒▓▒[0;33;40m▄▌[0;31;40m▌[0;33;40m■[0;37;43m░[0;33;40m▀▄▓▀[0m      [1;31;41m▒[0m   [1;31;41m░[0;31m▌[0m            [31m▐▌ [0;37mgreets to p1. hal. boa. jello. [0;1;31m▐[0;31m▌[0;37m [0m
+[37;44m░░░░[0;34;40m▌ [0;33;40m▐[0;37;43m▒▓▒[0;33;40m▄▌[0;31;40m▌[0;33;40m■[0;37;43m░[0;33;40m▀▄▓▀[0m      [1;31;41m▒[0m   [1;31;41m░[0;31m▌[0m            [31m▐▌ [0;37m                               [0;1;31m▐[0;31m▌[0;37m [0m
 [37;44m░░░[0;34;40m█  [0;33;40m█[0;37;43m░▒[0;33;40m▄[0;37;43m░[0;33;40m▌[0;31;40m▌[0;1;31;43m░░░[0;33m█ [0;31m▐[0m       [1;31;41m░[0;1;31;40m■[0;31m▄▀[0m             [1;31;41m▒[0m      flood. radman. cat. quran.  [31m▓[0;37m [0m
 [37;44m░░░[0;1;34;44m░[0;34m▄ [0;1;31;43m░[0;43m░░[0;1;31;43m░░[0m [31m▌[0;33m▀▀   [0;1;31m▒[0m         [1;31;41m░[0m              [1;31;41m▒[0m      jazz. young. voiz. jaydee.  [1;31;41m░[0m
 [1;34;44m░[0;44m░░[0;1;34;44m░[0;34m▌ [0;1;31;43m░[0;33m█▀▓▀ [0;1;31;41m░[0m   [34m▐ [0;1;31;41m░[0m         [1;31;41m░[0m              [1;31;41m▓[0m  sr. tinyz. posk. neurotic. md.  [1;31;41m▒[0m

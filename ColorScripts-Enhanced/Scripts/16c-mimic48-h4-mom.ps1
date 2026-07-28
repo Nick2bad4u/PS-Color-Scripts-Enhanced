@@ -5,7 +5,7 @@
 # Source SHA-256: cd0318a29b1bf87dfd0012a0675764ac8527e845281d680c27e1a100287c9a39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: h4-mom.ans by Haji (mimic48); released in mimic48 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -25,7 +25,7 @@ Write-Host '
 [31m││││││[0;1;34m╠╬╬k.[0;1;37m`4[0;31m mmmm[0;37m [0;1;34m ... ..▬┐ÿ┼┼[0;34m┼╬[0;1;34m╬╬╬╬╬╬╬╬╬╬╬╬╣[0;31m ││││││││[0m     [34m║║[0;37m [0;34ms  p  e c i  a  l[0m
 [31m││││││[0;1;34m╠╬╬╬╬k.[0;1;37m`q╦╦.[0m [1;34m :[0m  [1;34m:;;iil[0;34ml[0;1;34ml┼┼┼┼┼╬╬╬╬╬╬╬╬╬╣[0;31m ││││││││[0m     [34m║║[0;37m [0;34mconsideration  is[0m
 [31m││││││[0;1;34m╠╬╬╬╬╬╬k.[0;1;37m`4╬k.....[0m [1m...[0m   [1m..[0m     [1m.[0m       [31m ││││││││[0m     [34m║║[0;37m [0;34mmade   to   mimic[0m
-[37m  [0;31m    [0;1;34m╠╬╬╬╬╬╬╬╬k[0m [1m║║║[0m [1mit doesn''t seem like much[0;34m [0;1;37m             [0;34m║║[0;1;37m [0;34mmembers who i may[0m
+[37m  [0;31m    [0;1;34m╠╬╬╬╬╬╬╬╬ [0m [1m║║║[0m [1m                         [0;34m [0;1;37m             [0;34m║║[0;1;37m [0;34m                 [0m
 [37m  [0;31m    [0;1;34m╠╬╬╬╬╬╬╬╬╣[0m [1m│││[0m [1;34m╔╦╦╦╦╦╦╦╦╦[0;34m╦[0;1;34m╦╦╦[0;34m╦╦[0;1;34m╦[0;34m╦╦╦[0;1;34m╦[0;34m╦╦╦╦╗[0;1;37m             [0;34m║║[0;1;37m [0;34mconsider friends.[0m
 [37m [0;31m│││││[0;1;34m╠╬╬╬╬╬╬╬╬╣[0m [1m:::[0m [1;34m╠╬╬╬╬╬╬╬╬╬[0;34m╬[0;1;34m╬╬╬[0;34m╬╬[0;1;34m╬[0;34m╬╬╬[0;1;34m╬[0;34m╬╬╬╬╣[0;37m [0;31m││││││││ [0m   [34m║║[0;37m [0;34mthanks        for[0m
 [37m [0;31m│││││[0;1;34m╠╬╬╬╬╬╬╬╬╣[0m [1m...[0m [1;34m╠╬╬╬╬╬╬╬╬╬[0;34m╬[0;1;34m╬╬╬[0;34m╬╬[0;1;34m╬[0;34m╬╬╬[0;1;34m╬[0;34m╬╬╬╬╣[0;37m [0;31m││││││││[0m    [34m║║[0;37m [0;34mputting  up  with[0m

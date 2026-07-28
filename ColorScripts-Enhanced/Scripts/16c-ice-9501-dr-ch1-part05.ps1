@@ -5,7 +5,7 @@
 # Source SHA-256: 35cf7b6912fa74d2c89ad1bdb51f7877a1c269eeb0b6b07b76a6272f7cc37fd9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-CH1.ICE by Lord Drakul (iCE); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Cerebral Hemorrhage
 # SAUCE Author: Lord Drakul
 # SAUCE Group: iCE
@@ -51,7 +51,7 @@ Write-Host '
 [1;37m████████████████[0m                                              [1;37m██████████████████[0m
 [1;37m███████████████[0m                  [31m0-2[0;1;37m Days[0m [1;37mWarez[0m                [1;37m█████████████████[0m
 [1;37m███████████████[0m           [1;37mSysops: [0m [1;37mContiuum[0m [1;37m,[0m [1;37mJinx.AiM[0m         [1;37m█████████████████[0m
-[1;37m████████████████ [0m       [1;37mI forgot the rest of the stats!![0m      [1;37m██████████████████[0m
+[1;37m████████████████ [0m       [1;37m                                [0m      [1;37m██████████████████[0m
 [1;37m█████████████████▄▄▄[0m                  [1;37m:P[0m                  [1;37m▄▄▄███████████████████[0m
 [1;37m█████████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███████████████████████████[0m
 [1;37m████████████████████████████████████████████████████████████████████████████████[0m

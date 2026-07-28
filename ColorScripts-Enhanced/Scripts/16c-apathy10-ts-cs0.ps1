@@ -5,7 +5,7 @@
 # Source SHA-256: 6357869ea9258fe663b3d86b9b572027e7d8c190c572bb48fcda779c435a93d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-CS0.ANS by Transient (apathy); released in apathy10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Color Shock
 # SAUCE Author: Transient
 # SAUCE Group: apathy
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mgr33tz[0m:       ░[1m [0m    [1ma[0;1;33m.[0mn[1;33m.[0;1;34m,[0;1;37ma[0;1;33m.[0mn[1;33m.[0ms[1;33m.[0;1;37mi[0;1;34m,[0;1;33m.[0;1;37mb[0;1;33m.[0my[1;34m,[0;1;33m.[0;1;37mt[0;1;33m.[0mr[1;33m.[0ma[1;33m.[0mn[1;33m.[0ms[1;33m.[0mi[1;33m.[0me[1;33m.[0mn[1;33m.[0;1;37mt[0;1;34m,[0;1;33m.[0m      ░        :[1;30mzt33rg[0m
+[1;30m      [0m        ░[1m [0m    [1m [0;1;33m [0m [1;33m [0;1;34m [0;1;37m [0;1;33m [0m [1;33m [0m [1;33m [0;1;37m [0;1;34m [0;1;33m [0;1;37m [0;1;33m [0m [1;34m [0;1;33m [0;1;37m [0;1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0;1;37m [0;1;34m [0;1;33m [0m      ░         [1;30m      [0m
 [1;30mm4infr4m3[0m,    ░ [1m         [0m      ▄▄▄  ▄▄▄▄   ▄▄▄                  ░     ,[1;30m3m4rfni4m[0m
 [1;30mmisfit[0;1;37m,[0;1;30mtrip[0m,  ░ [1m   [0m [1;33m▐█▄▄▄█▀[0m    [1;37;47m░[0m ▄[1;47m░[0m  [1;47m▒[0m▄▄▌ [1;47m░[0m▄ [1;47m▒[0m    [1;33;40m▀█▄▄▄█▌[0m       ░   ,[1;30mpirt[0;1;37m,[0;1;30mtifsim[0m
 [1;30mn0otr0pics[0m,   ▒ [1m  [0m  [1;33m█[0;1;33;43m▒▒▒▒▓[0;1;33;47m▓▓▓[0;1;33;40m▄[0m ▀  ▀  ▀    ▀  ▀ [1;33m▄[0;1;33;47m▓▓▓[0;1;33;43m▓▒▒▒▒[0;1;33;40m█[0m       ▒    ,[1;30mscip0rto0n[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 81d518840e3058eb22c07d26dcbc292f0960a754f6643c842d82a66aa8842395
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-PAN1.ICE by Cooly + Lord Soth (iCE hey!); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Pantheon
 # SAUCE Author: Cooly
 # SAUCE Group: iCE hey!
@@ -56,7 +56,7 @@ Write-Host '
 [33m  ▀▄▓▓ [0;31m▀ ▄    ▀[0;33m░  ▀▀▀▓▓░    [0;35m▀▀[0m       [33m▀▀▓▓[0m     [31m▄[0;33m▀▀▓▓ ▓▀▀[0m     [33m░ [0;35m░░[0m       [33m▓▀  [0;35m░▄[0;1;35;45m░[0m
 [1;35;40m   [0;31m▄[0;33m▀▀[0;31m▄▀    ██▄[0m                              [31m▀▀[0;1;31;41m▀ [0;31m▄▄▄▄▀[0m                     [35m▀▀[0m
 [35m   [0;31m█[0;1;31;41m▒░[0;31m█▌    ▀██                                 [0m         [31m              [0;1;30m        [0m
-[31m▄▄███[0;1;31;41m▒▒░[0;31m█▄▄ ▀ ▀▀▄▄▄▄   Sysop - Lord Soth[0m                         [31mLord [0;1;30mSloth[0m
+[31m▄▄███[0;1;31;41m▒▒░[0;31m█▄▄ ▀ ▀▀▄▄▄▄                    [0m                         [31m     [0;1;30m     [0m
 [1;30m    [0;31m▀▀███▀ ▀▀▀[0m
                     [31m\o/   o   <o_  <o>[0m
                      [31m|   <|>   |    |[0m

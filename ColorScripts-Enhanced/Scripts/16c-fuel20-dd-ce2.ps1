@@ -5,7 +5,7 @@
 # Source SHA-256: 72d3d4c07afb72f78e38f9266fd75ca67e25a7c4312a882b7b5d3435f1a4213c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-CE2.ANS by Da Drug (fuckyou); released in fuel20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: corp's elite... yah
 # SAUCE Author: Da Drug
 # SAUCE Group: fuckyou
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;34;44m░░[0;34m▀[0;1;34;44m░░░░[0;34m█▀▀▄[0;1;34;44m░░░░░[0;34m█▀▀▀[0;33m▄[0;1;31;43m▒[0;33m▀[0;34m▄[0;1;34;44m░[0m [33m▄[0;1;31;43m▓▓▓░[0m  [33m▄ [0;34m▀█▄▄▀[0;1;34;44m░[0;34m█[0m
-[34m▀▄[0;30;44mdd[0;34;40m▀▀██[0;1;34;44m░░░░[0;34m██▀▀ [0;33m▄[0;1;31;43m▒[0;33m▀▀[0;34m▄▀ [0;33m▄[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;43m▓▓[0;33m▌[0;34m▐ [0;1;31;43m░[0;33m▄▄ [0;34m▀[0;1;34;44m░░[0;34m▄   [0;37mfor corp''s elite to use only.[0m
+[34m▀▄[0;30;44m  [0;34;40m▀▀██[0;1;34;44m░░░░[0;34m██▀▀ [0;33m▄[0;1;31;43m▒[0;33m▀▀[0;34m▄▀ [0;33m▄[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;43m▓▓[0;33m▌[0;34m▐ [0;1;31;43m░[0;33m▄▄ [0;34m▀[0;1;34;44m░░[0;34m▄   [0;37m                             [0m
 [34m▀▀▄▄█[0;1;34;44m░░░[0;34m▀▀▀▀ [0;33m▄[0;1;31;43m▒▒▓[0;33m▀  ▄▄[0;1;31;43m▓▓▓█[0;1;31;40m████[0;1;31;43m▓░[0m [34m▌[0;1;31;43m░▓▓▓[0;33m▄ [0;34m▀█[0m
 [34m█[0;1;34;44m░░[0;34m▀▀▀ [0;33m▄▄[0;1;31;43m░▒▒▓▓▓[0;1;31;40m▀[0;33m▀▄[0;1;31;43m░▓▓▓[0;1;31;40m██[0;1;31;47m█[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m███[0;1;31;43m▓░[0m [1;31;43m▒▓▓[0;1;31;40m█[0;1;31;43m▓▓[0;33m▄    [0;1;37mdarkleader[0m
 [34m▀ [0;33m▄▄[0;1;31;43m░░▒▒▒▓▓[0;1;31;40m▀[0;1;31;43m▓[0;33m▄▄[0;1;31;43m░▒▓▓▓█[0;1;31;40m███[0;1;31;47m▓▓█[0;1;31;40m████[0;1;31;43m▓▓▓[0m [1;31;43m░▓▓▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 7dfc65ad86696cf7c87e44d31e1bd7eab2ab222da5fec86b845b25453ee812d7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-IE01.ANS by The ExtremisT (FIRE!/Mistigris); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Illegal Error
 # SAUCE Author: The ExtremisT
 # SAUCE Group: FIRE!/Mistigris
@@ -18,7 +18,7 @@ Write-Host '
          [32m▀[0;1;32m▀▀▀▀[0;32m▀█▄▄[0m                                          [32m▄▄▄▄▄[0;1;32m▄▄[0;1;32;42m▄▄▄▄▄▄▄▄▄▄▄[0;32m█[0m
          [1;31;41m▒[0m [32m▀[0;1;32;42m▀[0;1;32;47m▓█[0;1;32;42m█▓░[0;32m█▄ [0;31m▀▄[0m                                         [32m▀▀▀█[0;1;32;42m▀▀▓▓▓▓▓▒[0;32m▀▀▀[0m
         [1;31;41m▒▓▒[0m [32m▀[0;1;32;42m▀[0;1;32;47m█▓[0;1;32;42m██▓░░[0m [31m▐[0;1;31;41m░[0m         [31m▌[0m          [1;37millegal error[0m            [32m▀[0;1;32;42m░▒░░░[0;32m█ [0;31m▀▄[0m
-       [1;31;41m░▒░ [0;31m▀ [0;32m▄▄▄▄█▀▀ [0;1;31m▄[0;1;31;41m▒[0m        [31m▄[0;1;31;41m░[0m    [1;37;40mopped by platinum of mistigris   [0;32m▐▀▀▀    [0;31m▐[0m
+       [1;31;41m░▒░ [0;31m▀ [0;32m▄▄▄▄█▀▀ [0;1;31m▄[0;1;31;41m▒[0m        [31m▄[0;1;31;41m░[0m    [1;37;40m                                 [0;32m▐▀▀▀    [0;31m▐[0m
       [1;31;41m░[0;31m▀▀ [0;32m▄▄█[0;32;42m [0;1;32;42m░[0m [31m▄▄[0;1;31m▄[0;1;31;41m▄▓▓[0m   [31m▄▄[0;1;31m▄▄[0;1;31;41m▓▒░[0m   [1;31;40m▀▄░[0m       [1;37;40m604-CYA-SOON[0m     [31m▄[0m      [32m▄[0;1;32;42m░[0m [31m▀▄    █[0m
 [31m    ░▓▌ [0;32m▀[0;1;32m▀▀▀▀[0;1;32;42m▓▓[0m  [30;41m░ [0;1;31;41m▒▒[0m [32m▄█▄▄ [0;31m▀[0;1;31;41m▓▒░[0m     [1;31;40m▐▓[0m       [31m▄▄▄[0m            [31m▄[0;1;33;41m░[0;31m▌ [0;32m▄▄▄▀▀▀  [0;1;31;41m░[0;31m▌   █[0;1;31;41m▓[0m
       [31m▀▄▀ [0;32m█[0;1;32;42m░░░[0;32m▀ [0;1;33;41m░░[0;1;31;41m░░[0m [32m▄█[0;1;32;42m░░▓▀[0m [31m▐[0;1;31;41m░[0m     [1;31;40m▄█[0;1;31;41m█▓[0;1;31;40m▄▄   ▄[0;31m▄ ▀[0;1;31;41m▀▄▄ [0;31m▄▄▄▄▄▄█[0;1;33;41m░░ [0m      [31m▄▄[0;1;31m▄[0;1;31;41m▄▒[0m   [31m█[0;1;31;41m▒▒[0m

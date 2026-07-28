@@ -5,7 +5,7 @@
 # Source SHA-256: 22fc3b501f7eb46c76c4f9fd9a656cf429801f84a6d05e385a492a07e711003e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-GKA.ANS by Geekboy + The Extremist (mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Girls kick ass!
 # SAUCE Author: flibbles and thext
 # SAUCE Group: mistigris
@@ -40,7 +40,7 @@ Write-Host '
 [1;32m▀▀▀▀▀▀[0m       [1;33;47m██[0;1;32;40m█  ██ [0;1;37;47m░░▒▒▓▓[0;1;37;40m██████▀██████▓▓░ [0;1;32;40m████[0;1;33;40m██[0;1;37;40m██[0;1;33;40m█████████████[0;1;32;40m███▓▓▓▓███████[0m
                     ▐█[1;47m░░░░▓[0;1;40m█▀███▄ ███▌ ▀▀▀▀[0m                         [1;32;40m░▒▒░[0m
 [1;32;40m  [0;1;30;40mfor rash''s[0m        ▀▀▀▀▀    [1m████ ▐██▌[0m                              [1;32m░░░[0m
-[1;32m  [0;1;30mer33to burrito board,[0m     [1;37m▐███▌ ████[0m
+[1;32m  [0;1;30m                     [0m     [1;37m▐███▌ ████[0m
 [1;37m  [0;1;30mgeekstah''s paradise.[0m      [1;37m████▌ ███▌[0m
                             [1;37m████  ████[0m
                            [1;37m░▓███  ██[0;1;37;47m▓▓[0m░[30;47m▓[0m

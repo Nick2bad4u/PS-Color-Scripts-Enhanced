@@ -5,7 +5,7 @@
 # Source SHA-256: 550b33f4fa3f24deb341e96672cac4454d5d6158039a53815f61f41bb847ac00
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-LUNA2.ANS by minotaur (maiden^brazil); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: menu for luna/2
 # SAUCE Author: minotaur
 # SAUCE Group: maiden^brazil
@@ -29,7 +29,7 @@ Write-Host '
 [31m▒▒[0m   [1;31m▐ [0m  [1;31m▌[0m                     [31m▐[0m                          [1;30m▀[0m▀▀▀▀[1;30;47m▄[0;1;37;47m░[0m██▄▄▄░░
 [31m░░░[0;1;31m  ▐░░ ▌[0m       [1;33;41m xx [0m [1mfillhere[0m [31m▀[0;37m  [0;1;33;41m xx [0m [1mfillhere[0m                    [1;30m▐▀[0m▀▀▀[1;30;47m▄[0m█[1;47m▄[0m▄▄[31mmr_[0m
    [1;31m  ▐▓▓░▌[0m                                                         [1;30m▐[0m      [1;30m▀[0m▀█[1;47m▄[0m█
-[31m░░░[0;1;31m  ▐[0;1;31;47m▓▓[0;1;31;40m▓▌[0m       [1;33;41m xx [0m [1mfillhere[0m    [1;33;41m xx [0m [1mfillhere[0m    [1;33;41m xx [0m [1mfillhere[0m            [1;30m▐[0;1;37;47m▐▄ [0m
+[31m░░░[0;1;31m  ▐[0;1;31;47m▓▓[0;1;31;40m▓▌[0m       [1;33;41m    [0m [1m        [0m    [1;33;41m    [0m [1m        [0m    [1;33;41m    [0m [1m        [0m            [1;30m▐[0;1;37;47m▐▄ [0m
    [1;31m▄▄██[0;1;31;41m▀▀▀[0m                                                                   [1;47m▐█[0;1;37;47m▌[0m
 [1;31;40m ▄[0;1;31;47m▓▓[0;1;31;41m▀  [0;1;33;41m▄▄▌[0m       [1;33;41m xx [0m [1mmaiden! [0m    [1;33;41m xx [0m [1mmaiden! [0m    [1;33;41m xx [0m [1mmaiden! [0m             [1;47m▐█[0;1;37;47m▌[0m
 [1;31;40m▐[0;1;31;47m▀[0;1;31;40m█[0;1;31;41m▌ [0;1;37;40m██[0;1;33;41m██▌[0m                                                                   [1;47m▐▓[0;1;37;47m▌[0m

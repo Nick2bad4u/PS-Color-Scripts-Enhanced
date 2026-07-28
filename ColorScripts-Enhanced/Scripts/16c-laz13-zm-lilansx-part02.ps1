@@ -5,7 +5,7 @@
 # Source SHA-256: e9ae98b51b421a1c7a40bc1534746b3fae7bf9fda665e8bda03a46cc95a8986b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZM_LilAnsX.ans by Zeromous (LAZARUS); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Lil Ans X
 # SAUCE Author: Zeromous
 # SAUCE Group: LAZARUS
@@ -25,7 +25,7 @@ Write-Host '
 [37;40m [0;31;40m▀▄[0;37;40m     [0;31;40m██▀[0;37;40m  [0;31;40m▄[0;1;30;41m▀[0;31m▀▀▀[0;37m   [0;31m▄▄▄▄▄▄[0;37m      [0;31m▀▀▄▄[0;37m   [0;1;30m█[0;31m█▄[0;37m [0;31m▀███[0;37m [0;31m████████████▀▀█[0;30;41mhorse to the old[0m
 [37;40m  [0;31;40m▀▄[0;37;40m [0;31;40m▄▄[0;37;40m   [0;31;40m▄▀▀[0;37;40m    [0;31;40m▀[0;37;40m   [0;31;40m▀▄▀[0;37;40m [0;31;40m▀[0;37;40m  [0;31;40m▀▀█▄▄[0;37;40m   [0;31;40m▀[0;37;40m [0;31;40m▄[0;1;30;40m▄[0m [1;30m▀[0;1;30;41m▄[0;31m█▄[0;37m [0;31m▀██[0;37m [0;31m█████▀▀▄▄▄▄█[0;30;41mtown road im gonna[0m
 [37;40m [0;31;40m▄[0;1;30;41m▄[0;1;30;40m▀[0;31m▀[0;37m [0;31m▄▄▀▀[0;37m [0;31m▄█▀▀▄▄[0;37m [0;31m█[0;37m [0;31m▀▀[0;37m [0;31m█▄▀▀▀[0;37m   [0;31m▄██[0;37;41m▄[0;37;40m▄[0;31;40m▄[0;37;40m [0;31;40m▀█[0;1;30;41m▀[0;1;30;40m▄[0m [1;30m█[0;1;30;41m▄[0;31m█▄[0;37m [0;31m▀▄[0;30;41mride till i cant no[0;37;41m [0;30;41mmore i got[0m
-[1;30;41m▄[0;1;30;40m▀[0m  [31m▄[0;1;37;41m▄▄[0m [31m▄██▀[0;1;37m▄[0m [31m█[0;37m [0;31m▄█▄[0;37m [0;31m▄▄▄▄██████▄▄▄[0;37m [0;31m▀▄[0;37m█[0;31m█▄[0;1;37m▄[0;1;37;41m▄[0;31m█[0;1;30m█[0m [1;30m▀█▀[0;1;30;41m▄[0;31m▄[0;37m [0;31m▀[0;30;41m orses in the back my tack is[0m
+[1;30;41m▄[0;1;30;40m▀[0m  [31m▄[0;1;37;41m▄▄[0m [31m▄██▀[0;1;37m▄[0m [31m█[0;37m [0;31m▄█▄[0;37m [0;31m▄▄▄▄██████▄▄▄[0;37m [0;31m▀▄[0;37m█[0;31m█▄[0;1;37m▄[0;1;37;41m▄[0;31m█[0;1;30m█[0m [1;30m▀█▀[0;1;30;41m▄[0;31m▄[0;37m [0;31m▀[0;30;41m                             [0m
 [37;40m  [0;31;40m▄[0;1;37;41m▄[0;1;37;40m█[0;1;37;41m▀[0;31m▄█[0;1;37m▄[0;31m▄[0;1;37;41m▀▀[0;31m▄▀▄▀▄▄▄█▄███▀████████▀▄[0;37m [0;31m▀███[0;1;31;41m▀[0;1;31;40m█[0;1;31;41m▄[0;1;30;41m▀[0;1;30;40m▄[0m [1;30m▄[0m [1;30m▀[0;31;47m▀[0;37;40m  [0;30;41m attached .. my hat is matte[0m
 [31;40m▄█[0;1;37;40m█▀[0;31m█[0;1;37;41m▄[0;1;37;40m█[0;1;37;41m▀[0;31m▀▄█▀▄▀[0;37m [0;31m█▄███████▀████[0;1;37;41m▄[0;1;37;40m█[0;31m████▄[0;37m [0;31m▀█[0;37;41m▀[0;31;40m▀█[0;1;31;41m▀[0;1;31;40m█[0;31m█[0;1;30;41m▀[0;1;30;40m▄▀▄[0m ▀▄ [31m▀[0;30;41m black got the boot thats [0m
 [1;37;41m▄[0;1;37;40m█[0m [31m█[0;1;37;41m▄[0;1;37;40m▀[0;31m▄█▀[0;1;37;41m▄[0;1;37;40m▀[0;31m▄▄████████▄█████[0;1;37;41m▄[0;1;37;40m█[0;1;37;41m▀[0;31m█████[0;37m [0;31m█[0;37m [0;1;30m▄▄▄██████▄▄▄▄▄[0m▀[1;31m▄[0m [31m▀[0;30;41m black to maatch riding [0m

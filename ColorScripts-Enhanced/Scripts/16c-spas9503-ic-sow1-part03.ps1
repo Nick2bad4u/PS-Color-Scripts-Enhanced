@@ -17,7 +17,7 @@
 Write-Host '
 [36m░    ▄▓▄[0m      [36m▀▀████▄   ▄▄▄▄▄[0m     [36m░[0m      [36m███▀[0m      [1;36mSorry about the semi-rushed[0m
 [36m░   ██▀▀█▄[0m       [36m▀███▌▄███████▄   ▒[0m     [36m██▓▌   ░   [0;1;36mfont cash.. i had to hurry to[0m
-[36m▒  ██▀ ░ ▀█    ░   ███▐█▀   ▀██▌  ▓    ▐███    ▒ ░ [0;1;36mget it into the pack.. i had[0m
+[36m▒  ██▀ ░ ▀█    ░   ███▐█▀   ▀██▌  ▓    ▐███    ▒ ░ [0;1;36m                            [0m
 [36m▓ ▐██  ▒  █▌   ░   ▐██ ▀[0m      [36m██  ▀ ░  ███▌  ░ ▓ ░ [0;1;36mta finish the last 2/3 of the[0m
 [36m▀ ██▌  ▓   █▌  ▒    ██[0m      [36m░ ▐█▌   ▒ ▐███  ▄▒▄  ░ [0;1;36mfont in about 20 min. or so..[0m
 [1;36m  [0;36m██   ▄▄██▐█▌ ▓ ░  ▐█   ░  ░ ▐█▌  ▄▓█▐███▐██▓█▌ ▒ [0;1;36mhope you like the ansi..[0m

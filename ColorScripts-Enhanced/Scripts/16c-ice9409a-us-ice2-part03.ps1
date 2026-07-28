@@ -5,7 +5,7 @@
 # Source SHA-256: dce3540fa56e3d461d04d9882f22fbdd6290e9df736f76367ca7df9a8f1d2a7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ICE2.ICE by Spirit Of Illusion + Vanquish (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 83-131
 # Columns: 1-80
 
@@ -56,6 +56,6 @@ Write-Host '
 [30mlalalalalalala[0m        [1;36m▒▀   ▒   [0;1;34m░[0m     [1;36m▓▀    ▒ [0;36m░[0m          [1;36m▒▀    ▒ [0;36m░   [0;30mfish[0m
 [30m                      [0;1;36m░    ░[0m         [1;36m▒[0m     [1;36m░[0m     [30m │     [0;1;36m░[0m     [1;36m░  [0;30m              [0m
                              [30m\  │  │ [0;1;36m░ [0;30m│  │   │   │ /[0m              [30mmake sense[0m
-[30mits my birthday tommorow -> ──\┌──────────────────┐/── <- rules!![0m
+[30m                            ── ┌──────────────────┐ ──           [0m
 [30m  [0;37m                             [0;30m│[0;37m                  [0;30m│[0;37m             [0;1;37m [0m            [1m [0m
 [1m [0;1;30m                               [0;30m───[0;1;30m    [0;30m─[0;1;30m                                       [0m'

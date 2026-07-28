@@ -5,7 +5,7 @@
 # Source SHA-256: dce3540fa56e3d461d04d9882f22fbdd6290e9df736f76367ca7df9a8f1d2a7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ICE2.ICE by Spirit Of Illusion + Vanquish (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 40-82
 # Columns: 1-80
 
@@ -23,7 +23,7 @@ Write-Host '
 [30msoi[0;1;30m▐[0m▀▄▄▀[1m▀    [0;30mi want to fry some   [0;1;33m▀ [0;1;30m▄[0;1;30;47m▓[0;1;30;40m▀[0;1;34;40m▄[0m▀[1;30m▄▀[0;1;30;47m▒[0;34m▄[0;1;34m▄[0;1;34;47m▒[0m [1;33;41m▓▓▓▒▒▒▒▒▓▓█[0;1;33;40m▌   [0;30m▒ ▒  ▒▀[0m
 [30msoi [0;1;30;47m░[0m▄▀[1m▀▓  [0;30mfishy today.  yes[0m       [1;30m▐▀[0m▄[1;34m▀[0;1;30m▄[0;34m▀[0;37m▄[0;1;34;47m░[0;34;47m▒[0;1;34;44m▒[0;1;34;40m▀ [0;1;33;40m▀▀▀▀[0;1;33;41m▓▓▓▓▓██[0;1;33;40m▀    [0;30m▓ ▓▄ ▓▄[0m     [1;37m▄[0;1;33m▄[0;1;33;41m▒▀[0m
 [30msoi [0;1;30;47m▒▌[0;32;47m▒░[0;37;40m▄▌[0m                        [1;30;40m▐[0m▄[1;30m■▄▀[0m▄[47m [0;1;34;47m░[0;34;47m░[0;1;34;40m▀[0m     [1;37;40m▄█[0;1;33;41m███[0;1;33;40m▀▀[0m               [1;37;40m▄[0;1;33;40m▄[0;1;33;41m▓▀▀░[0;31m▓▒[0m
-[1;37;47m▓[0;30msoi[0;1;30m▐[0;1;30;47m▓[0;32;47m░[0;37;40m█[0;1;37;47m▄░[0m [30mgreets to sb,es,pn[0m     [37m▀[0;1;34;47m▒▓[0m▄▀[34;47m▒▄[0;1;34;40m▀[0m        [1;37;40m▀[0m                [1;37;40m▄[0;1;33;40m▄[0;1;33;41m▀▒▀░[0;31m▓▓▒▀▀░[0m
+[1;37;47m▓[0;30m   [0;1;30m▐[0;1;30;47m▓[0;32;47m░[0;37;40m█[0;1;37;47m▄░[0m [30m                  [0m     [37m▀[0;1;34;47m▒▓[0m▄▀[34;47m▒▄[0;1;34;40m▀[0m        [1;37;40m▀[0m                [1;37;40m▄[0;1;33;40m▄[0;1;33;41m▀▒▀░[0;31m▓▓▒▀▀░[0m
 [1;37;47m▒[0;30msoi[0;1;30m▐[0;1;30;47m▒[0m█[1;47m▄▒[0;1;40m▀ [0;30mtempus, syntaxxxxx  [0;1;34m▄ [0;1;30m▐▄  [0m▀■  [30mburn me[0m        [1;34m▀    ▄▄  [0;1;37m▀[0;1;33m▀[0;1;33;41m▒[0;31m▓▓▀▀▀ [0;37m▄▄ [0;1;37;47m▒░[0m
 [1;37;47m▌[0m▌[30mso[0;1;30m▄▀[0m▀[1m▀[0m▄[1m▌[0m                    [1;34m▄  [0;1;30m▀[0;1;30;47m▒[0;1;34;47m░▒[0;1;34;40m▄[0m            [1;34;40m▄■[0m       [1;34;40m▄▀▀▄▄█▀▄▄▄▄ [0;1;34;47m ░ [0;1;37;47m░▒[0m [1;37;47m░[0m█
 [1;47m▌[0m▌[30m [0;1;30m▐[0;1;30;47m▓▀[0m█[1;47m░▒[0m [30m                    [0;1;34m▄▌ [0;1;30m■▀[0m▀    [1;34m▄■[0m       [1;34m▀▀    ▄▓▀  ▄█▓█ ███[0;1;34;47m▓[0;1;34;40m▌[0m▐[47m   [0;40m▓[0;1;47m░[0m █▓

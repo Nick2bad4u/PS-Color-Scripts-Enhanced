@@ -5,7 +5,7 @@
 # Source SHA-256: 40e4b5d03a2b63eaec81c56ffc14d6b77ace8b26d0a06c4621578809258332c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-shiva.ans by Mypalgoo + Zeus Ii (blocktronics); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: shiva
 # SAUCE Author: zeus ii, mypalgoo
 # SAUCE Group: blocktronics
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[35m   ▄▄▄▄[0;37m      [0;35m▄▄█▄▄▄▄▄████[0;30;45mZeus II and mypalGOO Present:     [0;35;40m▄▄▄▄▄▄▄▄▄▄[0;37;40m     [0;35;40m▀▀▀▀██[0m
+[35m   ▄▄▄▄[0;37m      [0;35m▄▄█▄▄▄▄▄████[0;30;45m                                  [0;35;40m▄▄▄▄▄▄▄▄▄▄[0;37;40m     [0;35;40m▀▀▀▀██[0m
 [35;40m██▀▀▀▄▄▄███████████████████████████████████████████████████████████████▄▄▄▄▄▀▀▀[0m
 [35;40m▄▄▄████████▀▀███▄▄█████████████████████████████████████████████████▄▄▄██▀▀▀████▄[0m
 [35;40m██▀▀▀█▄▄███████▀▀████████████████████████[0;1;32;45m▀[0;35m██████████████████████████████████▄▄▀▀[0m

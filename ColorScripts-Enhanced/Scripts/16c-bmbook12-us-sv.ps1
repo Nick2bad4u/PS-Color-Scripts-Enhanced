@@ -5,7 +5,7 @@
 # Source SHA-256: 3c6b707105d801c279394b7e439dd8fbc875a2522239025f0cf2960a3cd73656
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SV.ANS by Avenger + Poti (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: synthetic visions
 # SAUCE Author: ave + poti
 # SAUCE Group: black maiden
@@ -18,7 +18,7 @@ Write-Host '
      [31m▄▄▌[0m                  [31m░░▓[0;1;31m▄▄▄▄[0m
 [31m▄[0;1;31;41m░[0;31m▀[0;1;32m    [0;32m▄▄[0;1;32m▒[0;32m█[0;1;32;42m▄▄▐[0;1;32;40m██▄▄▄[0;32m▄[0m           [31m▀[0;1;31m▀▀[0;31m▌[0;1;32m [0;31m▄[0;1;31m▄▄[0m
 [1;31;41m▓[0;31m▌[0;1;32m   [0;1;32;42m   ▄[0;1;32;40m█[0;1;32;47m▓▓[0;1;32;40m█[0;1;32;42m▄[0;1;32;40m█[0;1;32;47m▓▓▓[0;1;32;40m███▀▀▀██[0;1;32;47m▀▓▓[0;1;32;40m▄▄▄ [0m   [31m [0;1;32m [0;31m▀░[0;1;32m  [0;31m▄[0;1;31;41m▄[0;31m▄[0;1;32m  [0mone out of 1860608 possibilities
-[1;31;47m▓[0;1;31;41m▄[0;31m▄[0;1;32m   [0;32m▀[0;1;32m▒[0;1;32;42m ▓[0;1;32;40m███████[0;1;32;47m▓▓[0;1;32;40m▀▌    █[0;1;32;47m▌▄▄[0;1;32;40m███▌  [0;31m░[0m    [31m▄▄[0;1;32m [0;31m▀[0;1;32m  [0m to create a 23liner in ansi.
+[1;31;47m▓[0;1;31;41m▄[0;31m▄[0;1;32m   [0;32m▀[0;1;32m▒[0;1;32;42m ▓[0;1;32;40m███████[0;1;32;47m▓▓[0;1;32;40m▀▌    █[0;1;32;47m▌▄▄[0;1;32;40m███▌  [0;31m░[0m    [31m▄▄[0;1;32m [0;31m▀[0;1;32m  [0m                             
 [1;31;41m▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;32m   [0;32m▐[0;1;32;42m░▓▓[0;1;32;40m▀▀▀[0;32m▀[0;1;32m  ▄▄     ▐██[0;1;37m███[0;1;32m█   [0;31m▓▄[0;1;31m▄▄[0;31m▀[0;1;31;41m▀[0;1;31;47m▓[0;31m▀[0m
 [31m▀▐[0;1;31;47m▌▀[0;1;31;41m▌[0;1;32;40m   [0;1;32;42m  [0;32m▀[0;1;32m   ▄[0;1;37m██[0;1;32m██▌    ▄[0;1;37m██[0;1;32m██▀▀  [0;31m▄[0;1;31;41m▄[0;1;31;47m▓▒░░▓[0;1;31;41m▄[0;31m▄[0;1;32m  [0;1;37m     [0m   [1;37msynthetic visions?[0m
 [31m▐[0;1;31;41m█[0;1;31;47m▓▓[0;31m▌[0;1;32m  [0;32m▐[0;1;32;42m [0;32m▌[0;1;32m     ▐[0;1;32;42m▓[0;1;32;40m██▌ ▄▄█▀▀▀[0m     [31m▐▀▀[0;1;31;41m▀█[0;1;31;47m▓[0;1;31;41m▀[0;1;31;40m▀[0;31m█▀[0m

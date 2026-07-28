@@ -5,7 +5,7 @@
 # Source SHA-256: 56c4a2a358e09f6e659ae5687d18d48a69cb4551641c2fe701635d70997b0b71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-CACO.ANS by filth (the legion); released in legion02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cacoa cola
 # SAUCE Author: filth
 # SAUCE Group: the legion
@@ -21,7 +21,7 @@ Write-Host '
 [1;30m░░░[0m      [1;31;43m▄[0;1;31;40m█[0;1;31;47m▓▓[0;33m▄[0;1;31;43m▄███[0;1;31;40m█████[0;1;31;43m▓░[0;33m█▄ [0;30mfil[0;31m  ▓█████▄ ▐▀█  ██████▄  ▄█[0;1;37;41mc[0;31m█[0;1;37;41ma[0;31m██[0;1;37;41mc[0;31m███[0;1;37;41mo[0;31m███████████▀▀[0m
 [30mfilth[0;37m [0;33m░[0;37m [0;1;31m▓▓████[0;1;31;43m░░░░██[0;1;31;40m█[0;1;31;43m▓▓░[0;33m███▓[0;30mfil[0m   [31m▒▐█████▄████▄█[0;30;41mdogin[0;31;40m███████████████████████▓▓▓░[0m
 [30;40mfilth[0m   [33;40m▄[0;1;31;40m▀▀█[0;1;31;43m▓░[0;33m█▄██[0;1;31;43m▓[0;1;31;40m██[0;1;31;43m▒[0;33m██▄▄▓░[0;30mfil[0;31m   ░ ████████████[0;30;41mget in a fite[0;31;40m██████████████████▓[0m
-[30;40mfilth[0;37;40m  [0;33;40m▐[0;1;31;43m▓▄[0;33m▓[0;37m [0;1;31m▀[0m [36m▄▄[0;37m [0;1;31m▀▀██[0;1;31;43m▀[0;33m▀[0;37m [0;36m▄▄▄▄[0;30m fil[0m   [31m ████████████[0;30;41minvolvement with drugs[0;31;40m██████████[0m
+[30;40m     [0;37;40m  [0;33;40m▐[0;1;31;43m▓▄[0;33m▓[0;37m [0;1;31m▀[0m [36m▄▄[0;37m [0;1;31m▀▀██[0;1;31;43m▀[0;33m▀[0;37m [0;36m▄▄▄▄[0;30m    [0m   [31m ████████████[0;30;41m                      [0;31;40m██████████[0m
 [37;40m▓▓█[0;1;37;47m░[0m▄ [1;30m [0m [1;31;43m░[0;33m▓[0;36m ▄█[0;1;37;46m▄░░░[0;36m█▓ [0;1;31;47m▓[0;1;31;43m█[0;1;31;47m█[0;1;31;40m▓[0m [1;46m▓[0;36m▄▀█▄[0;30m fil[0;37m  [0;31m▐████▀██░██[0;30;41m infectious diseases[0;31;40m█████████████[0m
 [1;37;47m░[0m█[1;47m░▒░▒[0m█▄▄ [36m▐█[0;1;37;46m▀▀[0;36m█▓▓▓▒░[0;1;31m▀[0;33m▀▀▄[0;37m [0;36m▀[0;1;37m▀[0;36m▀▄[0;1;30m▄▌[0;30mfil[0;37m  [0;31m ▀▀█▀▀▀▄ ▀▀▀▀▀▀▀▀   ▀▀▀██▄▄ ▀▀▀ [0;33m▄▄ [0;31m▀█████▀▀ [0m
 [1;37;47m▒░▒▓▒▓▓█▓▓[0m▄▄▄▄▄▄▄▄▄▄ [33m▀[0;1;31m▀▀[0m ██▄▄▄▄▄█▄▄ ██▄▄▄▄▄▄▄▄▄▄▄[1;47m░░░░░░[0m▄▄▄▄▄▄▄▄▄█▓ [33m ▐[0;1;31;43m░[0;33m█▌[0;31m ▐▀     [0m

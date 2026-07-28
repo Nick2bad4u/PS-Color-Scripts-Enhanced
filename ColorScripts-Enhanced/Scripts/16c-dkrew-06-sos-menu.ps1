@@ -5,7 +5,7 @@
 # Source SHA-256: 8d899b8f11b0d27374dbd0fe9b37c388bb0c4e956bd6ae331d3d052cc2dd2160
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOS-MENU.ANS by Son of Sam (dead krew); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rev menu
 # SAUCE Author: Son of Sam
 # SAUCE Group: dead krew
@@ -33,9 +33,9 @@ Write-Host '
 [37m [0;1;34;44m   ░  [0m  [1;31;41m██▓[0m [1;34;44m░░▒▒▒[0m   [1;31;41m██▓[0m [31m■ [0;1;30mArticles[0m                [31m■ [0;1;30mSecret Articles[0m     [1;31;41m░█▒[0;31m█[0m
 [37m [0;34m▒[0;1;34;44m     [0m  [1;31;41m▓█▓[0m  [34m█[0;1;34;44m░░░[0m  [31m█[0;1;31;41m▓▒▓[0m [31m■ [0;1;30mInside Scoop[0m            [31m■ [0;1;30mGroup Requests[0m     [31m█[0;1;31;41m░░[0;31m██[0m
 [37m  [0;34m▀▀▓[0;1;34;44m [0m  [31m█[0;1;31;41m▒▓░[0;31m█[0;37m  [0;34m▀▀[0;1;34;44m░[0;34m█[0;37m  [0;1;31m [0;31m█[0;37m  [0;31m■ [0;1;30mGame Reviews[0m            [31m■ [0;1;30mPersonal Requests[0;31m  █[0;1;31;41m▓█▒[0;31m [0m
-[37m [0;30;41m▓▒[0;37;40m  [0;34;40m▒[0;37;40m  [0;31;40m█[0;1;31;41m░▒░[0;31m███▀[0;37m  [0;34m█▄[0;37m [0;31m█[0;1;31;41m░[0m  [31m■ [0;1;30mFascinating Stories[0m     [31m■ [0;1;30mOverall Survey[0m     [31m█[0;1;31;41m██▒[0m
+[37m [0;30;41m▓▒[0;37;40m  [0;34;40m▒[0;37;40m  [0;31;40m█[0;1;31;41m░▒░[0;31m███▀[0;37m  [0;34m█▄[0;37m [0;31m█[0;1;31;41m░[0m  [31m■ [0;1;30m                   [0m     [31m■ [0;1;30m              [0m     [31m█[0;1;31;41m██▒[0m
  [30;41m▒[0;31;40m██▄[0;37;40m  [0;31;40m▄▄[0;1;33;41m▄[0;1;31;41m░[0;31m██▀[0m      [34m▀[0;1;31m [0;31m▄[0;1;31m  [0;31m■ [0;1;30mScene News Flash[0m        [31m■ [0;1;30mJob Openings[0m        [31m█[0;1;31;41m█▓[0m
-  [31m█[0;1;33;41m▀[0;31m█████▀▀[0m      [31m▄[0;30;41m▒[0;1;31;41m███[0;31m█[0;1;31m  [0;31m■ [0;1;30mSpecial Highlights[0m      [31m■ [0;1;30mContacting Us[0m       [31m█[0;1;31;41m█[0;1;33;41m▄[0;1;31;41m▒[0m
-    [31m▀▀▀[0m        [31m▄[0;1;31;41m▓███▀[0;31m▀ [0;1;31m  [0;31m■ [0;1;30mScene Group NFOs[0m        [31m■ [0;1;30mConclusion[0m         [31m▄[0;1;31;41m░[0;31m▀▀▀▀▀[0m
+  [31m█[0;1;33;41m▀[0;31m█████▀▀[0m      [31m▄[0;30;41m▒[0;1;31;41m███[0;31m█[0;1;31m  [0;31m■ [0;1;30m                  [0m      [31m■ [0;1;30m             [0m       [31m█[0;1;31;41m█[0;1;33;41m▄[0;1;31;41m▒[0m
+    [31m▀▀▀[0m        [31m▄[0;1;31;41m▓███▀[0;31m▀ [0;1;31m  [0;31m■ [0;1;30m                [0m        [31m■ [0;1;30m          [0m         [31m▄[0;1;31;41m░[0;31m▀▀▀▀▀[0m
 [31m█▄▄[0m       [31m▄▄▄▄[0;1;31;41m░▒▓▒[0;31m▀▀ [0m      [1;31m▄▄▄[0;1;31;41m█[0;31m█[0;1;31;41m█▓████[0;1;33;41m▒[0;1;31;41m██[0;1;31;40m█▄▄▄[0;31m▄▄▄▄▄[0m            [31m▄▄▄▄▄[0;1;31;41m░▒▓[0;1;31;40m▀[0;31m ▀[0m
 [31m█▀▀▀▀▀▀▀▀▀▀▀▀[0m         [31m▄▄█[0;1;31;41m▄▄█▒▓[0;31m▀▀▀[0;1;31m▀▀▀▀▀▀▀[0;31m█[0;1;31;41m█▓▓▒▒[0;31m█[0;1;31;41m░[0;31m███[0;1;31;41m░[0;31m█[0;1;33;41m▀[0;31m█[0;1;31;41m▒[0;31m█▀▀▀▀▀▀▀▀▀[0m'

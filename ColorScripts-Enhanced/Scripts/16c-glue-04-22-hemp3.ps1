@@ -5,7 +5,7 @@
 # Source SHA-256: 3df0895d0753f3fcef21a9cec0d98d9aa071a79480a889d435195e75d2aec3c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-HEMP3.ANS by catch22 (glue); released in glue-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the hemp gate
 # SAUCE Author: catch22
 # SAUCE Group: glue
@@ -27,12 +27,12 @@ Write-Host '
 [1;35;45m▓[0;35m▌[0;37m [0;1;37mhemp gate[0m [35m▐[0m     [1;37mmenu command[0m         [31m▀▀[0;1;31;41m▀▀██████████▄█████[0;31m█[0;37m [0;1;36m▒[0;1;36;46m██████████[0;1;37;40m███████[0m
 [1;35;45m▓▄[0;35m▄▄[0m         [35m▐[0m     [1;37mmenu command[0m             [31m▀▀[0;1;31;41m▀▀████████████[0;31m█[0;37m [0;1;36m▒[0;1;36;46m██████████[0;1;37;40m███████[0m
 [1;35;45m████▄▄[0;35m▄▄▄[0m    [35m█[0m     [1;37mmenu command[0m                 [31m▀▀[0;1;31;41m▀▀██████▓▓[0;1;31;40m▒[0m [36m█[0;1;36;46m██████████[0;1;37;40m███████[0m
-[1;35;45m█████████▄▄▄▄ [0m     [1mmenu command[0m    [1mmenu command[0m     [31m▀▀[0;1;31;41m▀▀▓▓▒▒[0;1;31;40m▒[0m [36m█[0;1;36;46m█████[0;1;37;40m█████[0;1;36;46m███████[0m
-[1;35;45m██████████▓▓░░[0m     [1mmenu command[0m    [1mmenu command[0m         [31m▀▀[0;1;31;41m░░[0;1;31;40m▒[0m [36m█[0;1;36;46m█████[0;1;37;40m█████[0;1;36;46m███████[0m
-[1;35;47m▓▓[0;1;35;45m██████████▓[0;35m█[0m     [1;37mmenu command[0m    [1mmenu command[0m           [36m▄▄▄▄[0;1;36;46m▄█████████████████[0m
-[1;35;47m▒▒▓▓[0;1;35;45m█████████[0;35m█[0m     [1;37mmenu command[0m    [1mmenu command[0m           [36m█[0;1;36;46m█████████████████████[0m
-[1;35;47m░░▒▒▓▓[0;1;35;45m███████[0;1;35;40m▒[0m     [1mmenu command[0m    [1mmenu command[0m          [1;36m▒[0;1;36;46m████████████████████▄█[0m
-[1;35;47m  ░░▒▒▓▓[0;1;35;45m██▀██[0;1;35;40m▒[0m     [1mmenu command[0m    [1mmenu command[0m         [1;36m▒[0;1;36;46m█████[0;1;37;40m██[0;1;36;46m██████████▀█████[0m
+[1;35;45m█████████▄▄▄▄ [0m     [1m            [0m    [1m            [0m     [31m▀▀[0;1;31;41m▀▀▓▓▒▒[0;1;31;40m▒[0m [36m█[0;1;36;46m█████[0;1;37;40m█████[0;1;36;46m███████[0m
+[1;35;45m██████████▓▓░░[0m     [1m            [0m    [1m            [0m         [31m▀▀[0;1;31;41m░░[0;1;31;40m▒[0m [36m█[0;1;36;46m█████[0;1;37;40m█████[0;1;36;46m███████[0m
+[1;35;47m▓▓[0;1;35;45m██████████▓[0;35m█[0m     [1;37m            [0m    [1m            [0m           [36m▄▄▄▄[0;1;36;46m▄█████████████████[0m
+[1;35;47m▒▒▓▓[0;1;35;45m█████████[0;35m█[0m     [1;37m            [0m    [1m            [0m           [36m█[0;1;36;46m█████████████████████[0m
+[1;35;47m░░▒▒▓▓[0;1;35;45m███████[0;1;35;40m▒[0m     [1m            [0m    [1m            [0m          [1;36m▒[0;1;36;46m████████████████████▄█[0m
+[1;35;47m  ░░▒▒▓▓[0;1;35;45m██▀██[0;1;35;40m▒[0m     [1m            [0m    [1m            [0m         [1;36m▒[0;1;36;46m█████[0;1;37;40m██[0;1;36;46m██████████▀█████[0m
 [1;35;47m░░▒▒▓▓[0;1;35;45m███████▄[0;35m▄▄[0m                                      [36m▄[0;1;36;46m▄████████████████████████[0m
 [1;35;47m▒▒▓▓[0;1;35;45m████████████▄▄▄[0;35m▄▄▄[0m       [1;37m [0m                    [36m▄▄[0;1;36;46m▄▄██████████████████████████[0m
 [1;35;47m▓▓[0;1;35;45m███████▄████████████▄▄▄[0;35m▄▄[0m                [36m▄▄▄▄[0;1;36;46m▄▄▄██████████████████████  ██████[0m
