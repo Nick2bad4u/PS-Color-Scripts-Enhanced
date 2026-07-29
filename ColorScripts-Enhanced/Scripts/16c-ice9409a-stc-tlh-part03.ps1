@@ -5,7 +5,7 @@
 # Source SHA-256: 075bac548ac4dd4f547e147a1862b2abed6c005d7aaa7377e5b553d325b5a497
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-TLH.ICE by Stone The Crow (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 98-147
 # Columns: 1-80
 
@@ -46,7 +46,7 @@ Write-Host '
 [1;33;43m░[0;33m▓[0;30;43m■[0;33;40m▀▀    [0;32;40m▐  [0;1;32;42m▒[0m  [1;32;42m░[0;32m▄▌ █ ▐[0;1;32;42m▒[0;32m▓  ▐  ▓  ▌   ▌ ▌▒   [0;1;30m           [0m       [32m▐[0;30;42m [0;32;40m▌ [0;1;30;40m░   [0;1;37;40m▌   [0;31m█[0;1;31;41m░[0;31m█[0;30;41m■[0;31;40m▌[0m
 [33;40m▀[0m        [32;40m▐  [0;1;32;42m░[0m  [32m▐[0;1;32;42m▒[0;32m▌ █  [0;1;32;42m▒[0;32m▌  ▐  ▐  ▌[0m      [32m▓[0m                      [1;32;42m░[0;32m▓ [0;1;30m░[0m       [31m▐[0;31;41m [0;1;31;41m░[0;31m█[0m
             [32m█  ▐▌▌ ▐  [0;1;32;42m▒[0;32m▌[0m     [32m▐[0m         [32m█   [0;1;30mWhite Noise:[0m       [1;32;42m▒[0;32m█[0m     [1;37m▌  [0;31m▄[0;1;31;41m░[0;31m█ [0;30;41m.[0;31;40m▌[0m
-            [32;40m▐  ▐   ▐  [0;1;32;42m░[0;32m▌[0m     [32m▐[0m         [32m▌   [0;1;30mAre you supposed   [0;32m▐[0;1;32;42m░[0;32m▌[0;1;37m▐[0m     [31m▐[0;1;31;41m▒[0;31m▀   ▀▄[0m
+            [32;40m▐  ▐   ▐  [0;1;32;42m░[0;32m▌[0m     [32m▐[0m         [32m▌   [0;1;30m                   [0;32m▐[0;1;32;42m░[0;32m▌[0;1;37m▐[0m     [31m▐[0;1;31;41m▒[0;31m▀   ▀▄[0m
             [32m▐  ▐   ▐  [0;1;32;42m░[0;32m▌[0m               [32m▌   [0;1;30mto be somebody?    [0;32m▐[0;1;32;42m░[0;30;42m■[0;1;37;40m▐▌▌ ▌▌ [0;31m▀▌  [0;1;37m▐[0m
             [32m▐[0m         [32m█▌   [0;33m▄▄ [0;32m▄▄▓[0;30;42m.[0;1;32;42m░[0;32m▄▄[0m                          [32m█▓  [0;1;37m█ ▌█[0m     [1;37m█[0m
 [1;37m  [0;33m▄ [0;32m▄▓[0;30;42m■[0;32;40m▄▄   ▐[0m         [1;32;42m░[0m  [33m▄▀[0;32m▄▄▀█▓[0;30;42m■[0;32;40m▀▀▀[0;1;32;42m░▒[0;32m▄    [0;1;30mFAWK: <snicker>[0m      [1;32;42m▒░[0m [1;37;47m▓[0;1;37;40m▌▐[0;1;37;47m▓[0;1;37;40m▌[0;1;30;40m░  [0;1;37;40m▐[0;1;37;47m▓[0;1;37;40m▌▐[0m

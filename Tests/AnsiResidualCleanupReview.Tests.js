@@ -61,6 +61,10 @@ const MIXED_TEXT_LEDGER8_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger8.json"
 );
+const MIXED_TEXT_LEDGER9_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger9.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -689,6 +693,63 @@ test("eighth mixed text review is hash-only and fully applied", () => {
         { file: "ansi-star-wars-nu-boba.ps1", row: 23 },
         { file: "h7-liquid.ps1", row: 19 },
     ]);
+});
+
+test("ninth mixed text review is hash-only and fully applied", () => {
+    const ledger = JSON.parse(
+        fs.readFileSync(MIXED_TEXT_LEDGER9_PATH, "utf8")
+    );
+
+    assert.equal(ledger.schemaVersion, 1);
+    assert.equal(ledger.summary.candidateFiles, 134);
+    assert.equal(ledger.summary.evidenceRows, 207);
+    assert.equal(
+        Object.values(ledger.summary.categoryRows).reduce(
+            (total, count) => total + count,
+            0
+        ),
+        207
+    );
+    assert.equal(
+        new Set(ledger.candidates.map(({ file }) => file)).size,
+        134
+    );
+    assert.equal(
+        ledger.candidates.reduce(
+            (total, candidate) => total + candidate.evidence.length,
+            0
+        ),
+        207
+    );
+
+    const missingRows = [];
+    for (const candidate of ledger.candidates) {
+        assert.ok(!Object.hasOwn(candidate, "text"));
+        const { rows } = readPayloadRows(candidate.file);
+        for (const evidence of candidate.evidence) {
+            assert.ok(!Object.hasOwn(evidence, "text"));
+            assert.match(evidence.sha256, /^[a-f\d]{64}$/u);
+            const currentRow = rows[evidence.row - 1];
+            if (currentRow === undefined) {
+                missingRows.push({
+                    file: candidate.file,
+                    row: evidence.row,
+                });
+                continue;
+            }
+            assert.notEqual(
+                getReviewEvidenceHash(stripAnsiControls(currentRow)),
+                evidence.sha256,
+                `${candidate.file}: row ${evidence.row} was not redacted`
+            );
+            assert.equal(
+                analyzeRow(currentRow).letterCount,
+                0,
+                `${candidate.file}: row ${evidence.row} still contains letters`
+            );
+        }
+    }
+    assert.deepEqual(missingRows, []);
 });
 
 test("residual geometry review preserves one blank row and every visible row", () => {

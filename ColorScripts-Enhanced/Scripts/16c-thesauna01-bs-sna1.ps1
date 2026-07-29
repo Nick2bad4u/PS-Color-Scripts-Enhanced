@@ -5,7 +5,7 @@
 # Source SHA-256: 6763c022a5a7f78823f880921e8470c6ecb4188149559cf081ef947c56cc73bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-SNA1.ANS by burps (fuel); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: SAUNA - makes you sweat
 # SAUCE Author: burps
 # SAUCE Group: fuel
@@ -42,7 +42,7 @@ Write-Host '
                     [1;37m██[0m▌[1m▐[0m▐▐▌                  [43m░[0;33;40m▌▓▓▐▓▌▄▓▐  [0;1;37;40m▀█[0;1;36;40m█[0;1;37;40m██[0;1;37;46m▄▄[0;1;36;40m▄[0;36m▄▄[0;1;30m▌[0;1;36;46m▓[0;1;36;40m█ [0;33m▌[0m
                     [1;37;47m▌▓[0m▌[1m▌[0;1;30;47m░[0m▐▌                    [33m▀[0m      [33m▐▓▌▄ [0;1;37m█▌  ▀▀██[0;1;36;46m▄[0;1;36;40m█[0;1;37;40m█[0m
                    [1;37;40m▐[0m▌[1;47m▓[0;1;40m▐[0m▐[1;30;47m░[0m▐[1;30;47m░[0;1;37;40m    [0;36mS A U N A[0m                 [37;43m░[0;33;40m▌ [0;1;37;40m▀ [0;33m▓▓ ▄ [0;1;37m▀█[0;1;37;47m▓[0m [1;30mbs[0m
-                   [1;37m▐▐[0;1;37;47m░[0m▌[1;30;47m░[0m█▐[1;30;47m░[0;1;37;40m    [0;1;30;40mmakes you [0msweat[1;30m.[0m                [33m▀▐▓ [0;1;30m▌[0;1;37m█[0;1;37;47m▓[0;1;37;40m▌[0m
+                   [1;37m▐▐[0;1;37;47m░[0m▌[1;30;47m░[0m█▐[1;30;47m░[0;1;37;40m    [0;1;30;40m          [0m     [1;30m [0m                [33m▀▐▓ [0;1;30m▌[0;1;37m█[0;1;37;47m▓[0;1;37;40m▌[0m
                    [1;37;40m▐▐[0;1;37;47m▌[0m▐█[1;47m░[0;1;40m▐[0m█                                        [1;30m▀[0;1;37m▀█▓░[0m
                     [1;37m▐▌[0m▐[1;47m░░[0;1;40m▐[0;1;47m░[0m
                      ▌█[1;47m░▒[0;1;40m▐[0;1;47m▌[0m▌

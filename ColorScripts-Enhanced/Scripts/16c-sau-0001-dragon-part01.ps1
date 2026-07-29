@@ -5,14 +5,14 @@
 # Source SHA-256: ea74d3082efa138a003cfac12b5477cab43c3c39ef60f3c09b483d2a74e0270d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DRAGON.ANS by Duffy Duck (sau-0001); released in sau-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
          [32m▓█[0;1;32;42m▓[0m                                         [32m▒▓[0;1;32;42m▒[0m
      [30m▀▀▀[0;32m▒▓█[0;1;32;42m▒▓[0m                                     [30;45m█[0;32;40m▄▒▓█[0;1;32;42m▒▓[0m
-     [30m▀▀▀[0;32m░▒██[0;1;32;42m▓[0;32m▄[0;30m▀▀[0m         [31mthe stupid look[0m         [32m▒[0;30;42m▒[0;32;40m████[0;1;32;42m░▒[0m
+     [30m▀▀▀[0;32m░▒██[0;1;32;42m▓[0;32m▄[0;30m▀▀[0m         [31m               [0m         [32m▒[0;30;42m▒[0;32;40m████[0;1;32;42m░▒[0m
 [31mthe  [0;30m▀▀▀[0;32m▒▓███[0;1;32;42m░▒▓[0m                [31m│[0m              [32m▒▓█[0;32;42m [0;32;40m████[0;1;32;42m▓█[0m [1;37;40m▄▄▄▄▄ ▄ ▄ ▄▄▄▄[0m
 [31mstupid[0;30m▀▀▀[0;32m▒▓████[0;1;32;42m░▒[0;30m▀▀▀[0m            [31m│[0m             [32m▒▓██[0;32;42m [0;32;40m███[0;1;32;42m▒▒[0m    [1;37;45m█[0m   [1;37;40m█▄█ █▄[0m
 [31mear ───►[0;30m▀▀[0;32m▒▓████[0;1;32;42m░▒[0;30m▀▀[0m            [31m│[0m            [32m▒▓███[0;32;42m [0;32;40m█[0;1;32;42m▒▓▒[0m     [1;37;40m█   █ █ █▄▄▄[0m

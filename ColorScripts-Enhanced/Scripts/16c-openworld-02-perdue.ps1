@@ -5,7 +5,7 @@
 # Source SHA-256: 9fcb48c5501964dac0e5bcf7985b9bcbed965a20bdf8404617040b5c84aa7914
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Perdue.ans by Luxuse (openworld-02); released in openworld-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -21,7 +21,7 @@ Write-Host '
 [32m    ▒░░[0;33m█[0;30;43m▀[0;30;40m [0;1;32;40m░[0;30;43m▀[0;33;43m█[0;30;43m▄▄▄▄▄▄[0;32;40m░░ ░ ░   ░[0m                            [1;32;40m░[0;31m░[0m      [32m░░ ░░[0m
 [32m   ░░   [0;30;43m▄[0;33;43m███[0;33;40m   [0;32;40m░░[0;33;40m█[0;30;43m▀[0;32;40m░  ░░░   ▒ [0;1;30;40mOubli[0mé[1;30m, L''arbre[0m           [31m░▒[0m
 [31m   [0;32m░░░░[0;30;43m▄▄▄[0;30;40m [0;30;43m▄[0;33;43m█[0;30;43m▀[0;30;40m [0;32;40m░░ [0;33;40m█[0;32;40m▒ [0;1;32;40m░[0m                                  [31m░[0m
-[31m   [0;32m░░[0m      [33m████[0;30;43m▀[0;33;43m█[0;30;43m▄▄[0;30;40m [0;32;40m░[0m         [1;30;40mpleure une foi[0m            [31m░[0m                      [31m░[0m
+[31m   [0;32m░░[0m      [33m████[0;30;43m▀[0;33;43m█[0;30;43m▄▄[0;30;40m [0;32;40m░[0m         [1;30;40m              [0m            [31m░[0m                      [31m░[0m
 [31m  [0;32m░░ [0;33m▀█[0;30;43m▀▀[0;30;40m [0;33;40m█[0;1;33;40m█[0;33m██   [0;32m░░░   ▒[0m                                [1;31m░[0m                      [31m░[0m
 [31m  [0;32m▒   [0;30m▄▄[0;30;43m▄[0;33;43m███[0m       [32;40m░░░░░[0m                               [1;31;40m░░[0m                     [31m▒░[0m
 [31m    [0;30m▄▄▄ [0;33m████[0m      [32m░ [0;30;43m▀[0;33;43m█[0;32;40m░░[0m         [1;30;40mPerdue[0m               [1;31;40m░[0;1;33;40m▀█▄▄▄[0m                  [31m░ [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 4e0e891d7b8aa83bb3e15bbbc5dcfc85990ba4eafade1434412a2147c84b489a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-THANK.ANS by .,s$(minotaur)$s,. (MAiDEN BRAZiL); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: thanks logo
 # SAUCE Author: .,s$(minotaur)$s,.
 # SAUCE Group: MAiDEN BRAZiL
@@ -16,7 +16,7 @@
 Write-Host '
                       [31m▐[0;1;31;41m  ▄▐▓[0;1;31;40m████[0;1;31;47m▓▓[0;1;31;40m███[0;1;31;47m▓▓[0;1;31;41m▀▀[0;1;31;40m▀▀▀▀▀[0;31m▀[0;1;31;41m▀[0;30;41m▒[0m
                       [31;40m▐[0;1;31;41m ▄[0;1;31;40m█[0;1;31;41m▄[0;1;31;47m▓[0;1;31;41m▀▀▀[0;1;31;40m▀▀▀[0;31m▀▀[0;37m [0;1;31m    [0m [1;33m▀█[0;1;33;41m▀▌[0m [31m▐[0;30;41m░[0m
-                      [31;40m█[0;1;31;41m ▌[0;31m▀▀[0;1;33m▄[0;31m [0;1;31mfill here with[0;1;33m▐█[0;1;33;41m▀[0m [1;31;41m  [0m
+                      [31;40m█[0;1;31;41m ▌[0;31m▀▀[0;1;33m▄[0;31m [0;1;31m              [0;1;33m▐█[0;1;33;41m▀[0m [1;31;41m  [0m
 [1;31m              [0m        [31m█[0;1;31;41m [0;1;31;40m [0;31m▐[0;1;33;41m▄[0;1;33;40m▌[0;1;31;40mhe info u want [0;1;33;40m▀[0;31m ▄▄[0;1;31;41m▐▌[0m
           [1;31m  [0m     [34m▓[0m    [31m██[0;30;41m [0;37;40m [0;1;33;41m▀[0;1;33;40m▄[0;1;33;41m▓[0;1;31;40mor del![0;31m▄▄[0;1;31m▄▄▄[0;1;31;41m▄▄▄[0;1;31;47m▓[0;1;31;41m▄[0;1;31;40m█[0;1;31;41m▄ [0m
               [34m▄▄▄█[0m   [31m █[0;1;31;41m▐▄▄[0;1;31;40m▄▄▄▄▄[0;1;31;41m▄▄[0;1;31;47m▓▓[0;1;31;40m███[0;1;31;47m▓▓[0;1;31;40m████[0;1;31;41m█▌▄  [0;1;31;40m    [0;34m▄▄▄█[0m

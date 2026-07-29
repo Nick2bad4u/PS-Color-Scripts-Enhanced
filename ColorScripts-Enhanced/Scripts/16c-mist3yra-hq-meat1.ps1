@@ -5,7 +5,7 @@
 # Source SHA-256: 767c0d620c2f7fb52a3564b24d7d79d2631527825681c1f67703130fd9a3ff83
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-MEAT1.ANS by Haqisaq (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Live Meat! (yum)
 # SAUCE Author: Haqisaq
 # SAUCE Group: MiSTiGRiS
@@ -36,4 +36,4 @@ Write-Host '
             [31m▐[0;1;34;41m░░[0;31m█ [0;1;34m▄▄█[0;1;34;41m▓▓░[0;31m▌█[0;1;34;41m▓▓[0;31m▌[0;1;34;41m▒▒▒[0;31m▀▀[0m     [31m█[0;1;34;41m▓▓▓▓▒[0;31m▐[0;1;34;41m▓▓[0;35;41m▓[0m  [31;40m▐[0;1;34;47m▓▓[0;1;34;41m▓[0;1;34;44m▓[0;1;34;41m█[0;31m▄[0;1;34;41m▒▒░[0m  [31m▐[0;1;34;47m░░[0;1;34;41m█[0;31m▌[0m
             [31m████▀▀▀▐█[0;1;34m▄▄[0;31m▄ ▀[0;1;34;41m░░[0;31m█[0;1;34;41m░░[0;31m▄▄▄[0;1;34;41m▐[0;1;34;47m▓▓[0;31m▌ █[0;1;34;41m░░[0;31m▀▀▐[0;1;34;41m░░[0;35;41m░[0;31;40m▌▄[0;35;40m▄█[0;1;34;41m▓▓▒[0;31m▀▀[0;1;34;41m░░[0;35;41m▒▒[0;31;40m▄▄[0;35;41m▓[0;1;34;41m▒▒[0;31m▌[0m
                     [1;34;47m▓▓[0;1;34;41m▓░[0m   [31m▀▀▀   █[0;1;34;41m░▒▒[0m  [31m▀▀▀  ████▀▀▀ ▀▀▀  [0;1;34;41m▒▒░[0;31m▌  ▀▀▀▀[0m
-                    [31m▀▀▀▀   [0;1;30mit''s[0m        [1;30mnot[0m        [1;30mdead[0m'
+                    [31m▀▀▀▀   [0;1;30m    [0m        [1;30m   [0m        [1;30m    [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8437bebd20f5ed5cb646db7ac5a965dc4f9a25becb3f9b5628d355980035fd29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RI-DOINK.ANS by rai (blade); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dOink!
 # SAUCE Author: rai
 # SAUCE Group: blade
@@ -21,7 +21,7 @@ Write-Host '
           [1;33m  ▄[0m      [1;34m [0;1;33m▐█▌[0;1;34m   [0;1;33m▐█[0;1;34m       [0m [1;33m ▄██▌[0m
     [1;30m       [0;1;33m ▐▌[0m   [1;34m   [0;1;33m▐[0;1;33;43m▓▓[0;1;33;40m▌[0m   [1;33;43m▓▓[0m   [1;34m   [0;1;33m █[0;1;33;43m▓▓▓[0m
          [1;30m  [0m  [1;33m██▄[0m     [1;33m███[0m   [1;33m▐█[0m     [1;33m▐███[0m
-         [1;30m   [0m  [1;33m▐[0;1;33;43m▓▓[0m  [1;30m░░[0;1;33m▐██▌[0m [1;30m░[0;1;33m▐█▌[0m  [33m [0;1;33m████▌[0m       woah.. i have a mohawk! :)
+         [1;30m   [0m  [1;33m▐[0;1;33;43m▓▓[0m  [1;30m░░[0;1;33m▐██▌[0m [1;30m░[0;1;33m▐█▌[0m  [33m [0;1;33m████▌[0m                                 
                [1;33m▐██[0m  [1;33m▄██▀▀  ▀▀▀[0m  [1;33m▀▀██[0m      /
         [1;30m░[0m    [1;30m░░░[0;1;33m██▀[0;1;34m [0;33m▄[0;1;31m▄▄■[0m ▄█[1;47m▄▄[0;1;40m██▄[0m ■▄[1m▄[0m
               [1;33m▄[0;1;34m  [0;33m▄▄█[0;1;31;43m▓[0;1;31;40m██[0m █[1;47m▓[0;1;40m███████▌[0m▐[1;47m▐▓[0m
