@@ -1,0 +1,96 @@
+{
+    "schemaVersion": 1,
+    "reviewedAt": "2026-07-29",
+    "normalization": "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
+    "policy": "Human-reviewed readable prose, dialogue, generic menu fields, captions, placeholder copy, and explicit filler text found by disjoint punctuation, clustered-row, short-multiword, single-caption, and targeted placeholder detectors were blanked when row-level redaction preserved the surrounding ANSI artwork, controls, backgrounds, and geometry. Artist and group attribution, titles, filenames, dates, source-significant labels, thematic captions, repeated lettering used as structural texture, and large typographic art were retained.",
+    "summary": {
+        "candidateFiles": 2,
+        "evidenceRows": 13,
+        "categoryRows": {
+            "repeated-x-placeholder": 13
+        }
+    },
+    "candidates": [
+        {
+            "action": "blank-text",
+            "category": "repeated-x-placeholder",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "1c0e6f85a58df1ed983647f81c774837b0b37a2ccf946fdbf7415c1cfb962303"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "57cd76ef783f7e896c7121cdfe12899545a4f314cbe79cd50fc60d2159432561"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "39d5713314fe7001e1d8ccdc4cc03db726f2746d433450ee0d846fb5cf008ca8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "61c6fb2eb178f9f71cad0018f9d0688d0a0c624fa7464bcd7ae97b48fe0d6b7e"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "5a142058b3c3b860e93f7bf00fb5f55212d3d3726f71d6ede515391d21e269f8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "f8b6b38eb3844599536d641d257ea4a6e9ab86513f9fd06baac9b0cdd0283dda"
+                }
+            ],
+            "file": "16c-mdn-9702-mr-idt.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "repeated-x-placeholder",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "7244b6978d2bf8930d541a915e5fbe70cf6bdfb7e31a17c15fbec715b0b90bc3"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "32ffefdd3efbfe6041e14ffe80c352043c226af38197ea36652756ba5fc457dd"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "954dae1097f3adcc54b4e8d219a6b431a0591ff9aa0ebc6032a1417b40a1a8c8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "d761cf78f9229ed469b938bbfe1d62367abcf7e6d7104ca41db1cad662fc3ecf"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "d376b5e17b5ff6651f1cecfa9bdf0f3c1a9e0bd27844f31f9da01019b2796dd8"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "060c434f61239719437a8f3d4ce5397e1598fa9e68f9aee04f11e7c65f0dcac1"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "6be3ec3707552f5efb46b8cfb0b555c3095ed5cd3fb79fa9e7a21901a0218f04"
+                }
+            ],
+            "file": "16c-plf-0599-bym-12g.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        }
+    ]
+}

@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 47000,
+        "totalRowsBlanked": 47013,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 13040,
+        "residualMixedTextRowsBlanked": 13053,
         "residualMixedTextTrailingRowsRemoved": 101,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -106,6 +106,7 @@
         "mixedTextLedger22": "AnsiResidualMixedTextReviewLedger22.json",
         "mixedTextLedger23": "AnsiResidualMixedTextReviewLedger23.json",
         "mixedTextLedger24": "AnsiResidualMixedTextReviewLedger24.json",
+        "mixedTextLedger25": "AnsiResidualMixedTextReviewLedger25.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -186,7 +187,10 @@
         "mixedTextPass23TrailingRowsRemoved": 0,
         "mixedTextPass24FilesRedacted": 1,
         "mixedTextPass24RowsBlanked": 4,
-        "mixedTextPass24TrailingRowsRemoved": 0
+        "mixedTextPass24TrailingRowsRemoved": 0,
+        "mixedTextPass25FilesRedacted": 2,
+        "mixedTextPass25RowsBlanked": 13,
+        "mixedTextPass25TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -231,6 +235,7 @@
         "A twenty-fourth hash-locked mixed-text review blanked 192 rows of generic command, placement, information, news, and repeated filler placeholders across 29 scripts after a disjoint 800-row punctuation and clustered-row scan plus 58 targeted and expanded follow-up rows. Four lane reviews, two independent cross-reviews, and a final 193-coordinate full-payload projection audit rejected functional hotkeys, interface fields, identities, attribution, thematic prose, structural typography, mixed protected rows, and one destructive information-placeholder false positive before application; exact ANSI controls, widths, geometry, attribution boundaries, and zero overlap with the first 21 ledgers were verified, and no newly empty terminal rows were removed.",
         "A twenty-fifth hash-locked mixed-text review blanked 46 rows of generic command, matrix, and repeated filler placeholders across eight scripts after a disjoint 615-row punctuation and clustered-row scan. Four lane reviews, two independent history-aware cross-reviews, and a final 51-coordinate full-payload projection audit rejected functional hotkeys and option lists, prior-reviewed adjacent expansions, a numbered Top Ten Groups interface, and five rows whose identical sixth continuation shared protected artist attribution; exact ANSI controls, widths, geometry, attribution boundaries, and zero overlap with the first 22 ledgers were verified, and no newly empty terminal rows were removed.",
         "A twenty-sixth hash-locked mixed-text review blanked the final four rows accepted from 228 remaining clustered detector candidates: the complete separable phrase \"matrix stuff goes here\" in one script. Two lane reviews, a history-aware cross-review, and a final full-payload projection audit retained the other 224 rows as functional, authored, structural, identity-related, mixed, or incomplete text; exact ANSI controls, widths, geometry, attribution boundaries, and zero overlap with the first 23 ledgers were verified, and no newly empty terminal rows were removed.",
+        "A twenty-seventh hash-locked mixed-text review blanked 13 repeated lowercase-X placeholder fields across two scripts after a new residual repeat detector excluded every coordinate reviewed through the first 24 ledgers. Full-payload review and independent cross-review verified that every projection replaced only the 15- or 16-cell filler span with spaces while preserving ANSI controls, colored backgrounds, panel borders, headings, identities, attribution, width, and row geometry; no newly empty terminal rows were removed.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
