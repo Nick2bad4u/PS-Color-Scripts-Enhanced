@@ -1,11 +1,11 @@
 {
     "archiveState": {
-        "accepted16colorsSources": 15075,
-        "emitted16colorsScripts": 21497,
+        "accepted16colorsSources": 15073,
+        "emitted16colorsScripts": 21495,
         "rejectedContentSources": 1382,
-        "rejectedDuplicateRenderSources": 371,
+        "rejectedDuplicateRenderSources": 373,
         "rejectedQualitySources": 13992,
-        "reviewedAnalysisExceptions": 403
+        "reviewedAnalysisExceptions": 402
     },
     "auditDate": "2026-07-28",
     "baseline": {
@@ -17,12 +17,12 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 45244,
+        "totalRowsBlanked": 45533,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
         "sourceFidelityRowsRestored": 34,
-        "totalTrailingRowsRemoved": 23851,
+        "totalTrailingRowsRemoved": 23860,
         "reviewedContentRowsBlanked": 1320,
         "contactOrPromotionalRowsBlanked": 646,
         "curationCompactedRows": 8610,
@@ -33,8 +33,8 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 11284,
-        "residualMixedTextTrailingRowsRemoved": 92,
+        "residualMixedTextRowsBlanked": 11573,
+        "residualMixedTextTrailingRowsRemoved": 101,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
         "rebalancedSourceRowsRetained": 5078,
@@ -91,6 +91,8 @@
         "mixedTextLedger7": "AnsiResidualMixedTextReviewLedger7.json",
         "mixedTextLedger8": "AnsiResidualMixedTextReviewLedger8.json",
         "mixedTextLedger9": "AnsiResidualMixedTextReviewLedger9.json",
+        "mixedTextLedger10": "AnsiResidualMixedTextReviewLedger10.json",
+        "mixedTextLedger11": "AnsiResidualMixedTextReviewLedger11.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -126,11 +128,17 @@
         "mixedTextPass8TrailingRowsRemoved": 6,
         "mixedTextPass9FilesRedacted": 134,
         "mixedTextPass9RowsBlanked": 207,
-        "mixedTextPass9TrailingRowsRemoved": 0
+        "mixedTextPass9TrailingRowsRemoved": 0,
+        "mixedTextPass10FilesRedacted": 50,
+        "mixedTextPass10RowsBlanked": 62,
+        "mixedTextPass10TrailingRowsRemoved": 0,
+        "mixedTextPass11FilesRedacted": 170,
+        "mixedTextPass11RowsBlanked": 227,
+        "mixedTextPass11TrailingRowsRemoved": 9
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
-        "Seventeen whole works whose retained output became identical after text curation were removed as rejected-duplicate-render; the retained-at-deduplication and removed source IDs are recorded below, including two retained copies later removed under the adult-content policy.",
+        "Nineteen whole works whose retained output became identical after text curation were removed as rejected-duplicate-render; the retained-at-deduplication and removed source IDs are recorded below, including two retained copies later removed under the adult-content policy.",
         "The 56 remaining render or static-extraction failures are audited through a conservative authored-source fallback; none contains literal contact data outside provenance comments.",
         "A separate bounded full-corpus contact scan found and removed 96 detector misses across 94 files. The 96 removals are hash-locked; its 44 remaining candidates were reviewed as false positives and are retained as an aggregate checkpoint count.",
         "Twenty-one adult works represented by 46 scripts were removed after official-tag and preview review. Nine adult-tagged but general-audience-safe works represented by 13 scripts have explicit retained-after-review decisions.",
@@ -156,6 +164,8 @@
         "A tenth hash-locked mixed-text review classified all 4,743 remaining ranked candidates, 267 dense-file candidates, adjacent dense-file prose, and 25 legacy converted-art text candidates. It blanked 1,082 rows of separable prose, dialogue, generic menu fields, captions, and placeholders across 785 scripts while retaining artist and group attribution, identities, filenames, dates, source-significant labels, structural lettering, and large typographic art; six newly empty terminal rows were removed.",
         "Four earlier interface-panel row retentions were removed after the tenth mixed-text review superseded them with hash-locked blank-text decisions; the seven surviving retention rows remain hash-valid.",
         "An eleventh hash-locked mixed-text review blanked 207 rows of readable prose, dialogue, generic menu fields, captions, and placeholders found by disjoint punctuation, clustered-row, short-multiword, and single-caption detectors across 134 scripts while retaining artist and group attribution, titles, filenames, dates, source-significant labels, structural lettering, and large typographic art; no newly empty terminal rows were removed.",
+        "A twelfth hash-locked mixed-text review blanked 62 rows of readable prose, dialogue, generic menu fields, captions, and placeholders across 50 scripts after snapshotting all 1,600 reviewed punctuation, cluster, short-multiword, and single-caption candidates; no newly empty terminal rows were removed.",
+        "A thirteenth hash-locked mixed-text review blanked 227 rows of readable prose, dialogue, generic menu fields, captions, and placeholders across 170 scripts after snapshotting and classifying all 1,559 fresh detector candidates; nine newly empty terminal rows were removed. The same validation pass removed two whole works whose normalized renders became duplicates of earlier or stable-preferred retained sources and retired one continuous-split exception whose triggering boundary no longer exists.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
@@ -181,7 +191,7 @@
         "adultContentWorks": 21,
         "lowQualityScripts": 146,
         "incompleteSourceScripts": 51,
-        "postCurationDuplicateScripts": 17,
+        "postCurationDuplicateScripts": 19,
         "residualAdvertisementScripts": 27,
         "residualAdvertisementWorks": 8,
         "incompleteSourceWorks": [
@@ -270,15 +280,29 @@
             {
                 "removed": "16colors:soc-0997/US-GLUE9.ANS",
                 "retained": "16colors:glue-02/US-GLUE9.ANS"
+            },
+            {
+                "removed": "16colors:glue-17/US-AMEND.ANS",
+                "retained": "16colors:pst-06/C&P-AMND.ANS",
+                "removedScripts": [
+                    "16c-glue-17-us-amend"
+                ]
+            },
+            {
+                "removed": "16colors:nerp-04/US-BLACK.ANS",
+                "retained": "16colors:fire-32/US-BLACK.ANS",
+                "removedScripts": [
+                    "16c-nerp-04-us-black"
+                ]
             }
         ],
         "reason": "When a text-only, low-quality, or principally promotional part was removed, every surviving sibling from the same accepted source was also removed if retaining it would omit source rows. After text curation, whole works with identical retained output were deduplicated by preferring the earliest dated or archive-year source, then a stable lexicographic source ID when chronology was tied or unavailable."
     },
     "residualStructuralReviewSignals": {
-        "continuous-split-review": 1956,
-        "dense-split-boundary": 10,
+        "continuous-split-review": 1955,
+        "dense-split-boundary": 11,
         "extreme-leading-blank-run": 10,
-        "internal-blank-run": 1390,
+        "internal-blank-run": 1391,
         "leading-blank-run": 1845,
         "orphaned-tail-after-blank-run": 12,
         "tiny-tail-part": 70
@@ -286,9 +310,9 @@
     "schemaVersion": 1,
     "scope": {
         "initialAddedScripts": 21968,
-        "removedScripts": 297,
-        "remainingAddedScripts": 21671,
-        "finalGalleryScripts": 24824,
+        "removedScripts": 299,
+        "remainingAddedScripts": 21669,
+        "finalGalleryScripts": 24822,
         "sourceFidelityLockedScripts": 21
     }
 }

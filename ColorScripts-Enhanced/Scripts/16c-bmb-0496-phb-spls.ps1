@@ -5,7 +5,7 @@
 # Source SHA-256: bab1a2efa8b7d573200e07a9a989e7b170048495c41e660117ed4c9547ef7185
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PHB-SPLS.ANS by Phobic (bmb-0496); released in bmb-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -27,5 +27,4 @@ Write-Host '
 [34m$$$$s.[0;36m [0;35m`²$$$$$''    `²[0m      [34m$Ss.[0;35m`²$$$$$''    `² $$$$''  [0;34m$.[0;35m`²$$$$$''    `² $$$$''[0;34m ²$$[0m
 [34m$$$$²[0m     [34m.[0m       [34m.$s    .$$$$$Ss[0m            [34m.s.    .$$$s[0m           [34m.,.[0m      [34m$$[0m
 [34m$$$   .sS$$s[0m     [34m.$$$s  .$$ascii$$s[0m       [34m.sS$$$s  .$$$$$Ss.[0m     [34m.sS$$$$s.  s$$[0m
-[34m$$$ssS$$$$$$$s,.,$$$$$Ss$$by$phobic$s,..sS$$$$$$$s,$$$$$$$$$Ss.sS$$$$$$$$$$$$$$[0m
-[1;37m-[0m---[1;30m--[0m---[1m---[0m--[1;30m---[0m--[1m--[0m-[1;30m--[0m-[1m-[0m--[1;30m--[0m--[1m--[0m- [1;30mdiskmag [0m-[1m--[0m--[1;30m--[0m--[1m-[0m-[1;30m--[0m-[1m--[0m--[1;30m---[0m--[1m---[0m---[1;30m--[0m---[1m-[0m'
+[34m$$$ssS$$$$$$$s,.,$$$$$Ss$$by$phobic$s,..sS$$$$$$$s,$$$$$$$$$Ss.sS$$$$$$$$$$$$$$[0m'

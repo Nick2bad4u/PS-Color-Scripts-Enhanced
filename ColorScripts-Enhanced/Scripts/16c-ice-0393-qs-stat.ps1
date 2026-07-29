@@ -5,7 +5,7 @@
 # Source SHA-256: bd9912a79e39fa8a58ea152e2d86a2d7d99b17fdc8bb0dce5bbd21dc62fd3934
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QS-STAT.ICE by Quicksilver (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
@@ -34,7 +34,7 @@ Write-Host '
 [1;33;43m▒▒[0;1;33;40m▄[0;1;30;40m▀[0m▒▓█[1;47m░░▒▒▒░░░[0;1;30;47m░▒▓[0;1;30;40m█▓▒░[0m      [1;30;40m▀  [0m▄[1;30;47m▒▓▓[0;1;30;40m░░[0m
 [1;33;43m▒▒▓▓[0;1;30;40m▐ ▀[0;1;30;47m▓▓▒▒▓▓[0;1;30;40m▓▀▀▀[0m            ▄[1;30;47m░▒▒[0;1;30;40m▀▀▌░[0m     [1;31;40mH[0;31mandle: [0;1;33m|UH[0m
 [1;33;43m▒▒▓▓█[0m [1;30;40m░  ▀▀▀[0m            ▄▄▄▄[47m [0;40m█[0;1;30;47m░[0m▀   [1;30m▀░[0m     [1;31mU[0;31mserNote: [0;1;33m|UN[0m
-[1;33;43m▒▒▓▓[0;1;33;40m█ [0;1;30;40m░░[0m           ▄▄[1;47m░▓▓▒▒░░░ [0m▌   [1;30m▐ ░[0m     [1;31mA[0;31mccess Level: [0;1;33m|UL[0m
+[1;33;43m▒▒▓▓[0;1;33;40m█ [0;1;30;40m░░[0m           ▄▄[1;47m░▓▓▒▒░░░ [0m▌   [1;30m▐ ░[0m     [1;31m [0;31m             [0;1;33m   [0m
 [1;33;43m▓▓[0;1;33;41m▓[0;1;33;43m█[0;1;33;40m█ [0;1;30;40m▒░[0m       [1;30;40m▄▄[0m▄[1;30;47m░[0;1;37;47m░▓▓██▓▓▒▒░░[0m▌   [1;30m▐▌░░    [0;1;31mX[0;31mfer Level: [0;1;33m|FL[0m
 [1;33;43m▓[0;1;33;41m▓[0;1;33;40m███[0;1;30;40m░▓▒░   ▄▀▀[0;1;30;47m▓▒▒░[0;1;37;47m░▒▓▓███▓▒▒[0;1;30;47m░[0m█▄▄▄[1;30;47m▓[0;1;30;40m▀[0m      [1;31;40mU[0;31mploads k: [0;1;33m|UK[0m
 [1;33;41m▒▓[0;1;33;40m███[0;1;30;40m░▓▓▒░ █ ▓▌▄ [0m▀[1;30;47m░[0m▀[1;47m░[0m▀[1;47m▒▓▓▓▒▒░░[0;1;30;47m░[0m▄▄  [1;30m░░[0m     [1;31mU[0;31mploads: [0;1;33m|NU[0m

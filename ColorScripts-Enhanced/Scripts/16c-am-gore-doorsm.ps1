@@ -5,7 +5,7 @@
 # Source SHA-256: 25ab4b08fb44c4cac34ce15246a24b8e397f55bdc504313b74b9f98f30ff6d41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DOORSM.ANS by Amroth (am-gore); released in am-gore and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -29,7 +29,7 @@ Write-Host '
                                     [31m█▌  █▌█  █▌█  █▌█[0m     [31m▀█▄[0m
 [31m    ▄▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▄[0m             [31m▓▀▀▀   ▀▀▓  ▀▀▓ ▓    ▓▀▀[0m
 [31m   ▐[0;1;37;41m▄■[0;1;31;41m([0;1;37;41mL[0;30;41m)ist Doors    [0;1;31;41m░[0;31m▌[0m            [31m▒[0m                    [31m▒[0m
-[31m   ▐[0;1;37;41m▌[0;31m█[0;1;31;41m([0;1;37;41mI[0;30;41m)nfo on Doors [0;1;31;41m▒[0;31m▌ ▄▄[0m                                                [31m■▄▄[0m
+[31m   ▐[0;1;37;41m▌[0;31m█[0;1;31;41m [0;1;37;41m [0;30;41m              [0;1;31;41m▒[0;31m▌ ▄▄[0m                                                [31m■▄▄[0m
 [31m  ▒▐[0;1;37;41m▌ [0;1;31;41m([0;1;37;41mO[0;30;41m)pen Doors    [0;1;31;41m▓[0;31m▌▒▒▀▀[0m                                               [31m▀▀▓▓[0m
 [31m ▄▄▐[0;1;37;41m│[0;31m█[0;1;31;41m([0;1;37;41mQ[0;30;41m)uit to Main[0;31;40m▀▄██▄[0m                                         [31;40m▄■.  ▄▄██████[0m
 [1;37;41m.[0;1;31;41m▒[0;31m██▓▓▓▒▒▒▒▒▒▒▒▀▀▀■▄[0;1;37;41m■▀[0;31m████ ▀█▄[0m                              [31m. ▄ ▄██▄[0;1;37mAM[0;1;37;41mROTH GORE[0m'

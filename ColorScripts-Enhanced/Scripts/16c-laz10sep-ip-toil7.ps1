@@ -5,7 +5,7 @@
 # Source SHA-256: c6e7c740b6da9267d1364c6984e0c08f1513277899180a18652340106b26a43f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IP-TOIL7.ANS by impulse (laz10sep); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Toil
 # SAUCE Author: impulse
 # SAUCE Date: 19970908
@@ -20,7 +20,7 @@ Write-Host '
              [33m▐[0;1;33;43m▀░   [0;33m█▄[0;1;33;43m ░ [0;33m████▓▄▄▄▄[0;37m [0;33;47m▓[0;37;40m [0;1;36;46m░[0;36m▄[0m                            [1;30m    [0m
        [1;30m  %----- ---─────- ---------- --% -[ toil something ] -- %     [0m [1;30m [0m
        [1;30m [0m [36m ▄[0;1;36;46m░[0;36m▄[0;37m [0;33m▀███████[0;1;31;43m   ░       [0;33m▄▄[0;37m [0;1;36;46m░[0;36m▌[0m
-        [1;30m [0m [36m ▀  [0;33m [0;1;33;43m░[0;33m█[0;1;31;43m  █[0;33m██[0;1;31;43m ░░▒░    [0;1;33;43m░[0;33m█[0;1;31;43m [0;33m▌[0;36m [0;1;36;46m▒[0;36m▀▀[0m   [1;31mblah blah ..... here.[0m
+        [1;30m [0m [36m ▀  [0;33m [0;1;33;43m░[0;33m█[0;1;31;43m  █[0;33m██[0;1;31;43m ░░▒░    [0;1;33;43m░[0;33m█[0;1;31;43m [0;33m▌[0;36m [0;1;36;46m▒[0;36m▀▀[0m   [1;31m                     [0m
          [36m   ░ [0;37m [0;33m▐█[0;1;31;43m        ░  [0;33m█[0;33;43m██[0;33;40m███▌[0;37;40m [0;36;40m ▄ [0m
         [1;30;40mip[0m  [1;36;46m░[0;36m▌[0;33m ██[0;1;30m▀[0;33m████[0;1;31;43m░[0;33;43m████[0;33;40m▓▀▀▀▄[0;1;33;43m [0;33m▓▓[0;36m █▌ [0m
             [36m▐[0;1;36;46m [0;36m▌[0;33m █▀█[0;33;43m█[0;33;40m▄[0;33;43m█[0;33;40m█▀▀▀[0;37;40m [0;36;40m▄[0;1;36;40m▄▀[0m [33m▀▀▀▀[0;37m [0;1;36;46m▓[0;36m [0;33m [0;36m [0;33m▄[0;36m      [0;1;30m [0;36m    [0;37m [0;1;30m▄[0;1;30;47m▓[0;1;30;40m▄[0m    [33m   [0;36m  [0;33m [0m

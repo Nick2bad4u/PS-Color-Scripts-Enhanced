@@ -5,7 +5,7 @@
 # Source SHA-256: db112f2bbe35a49cf1419c00a85feeb6bebabc2220c21a95ed3ce15b1657f3cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-SOME.ANS by Maeve Wolf (REV.SM!); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Somewhere Else
 # SAUCE Author: Maeve Wolf
 # SAUCE Group: REV.SM!
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-        [1;34m▄[0m             [1;30m▄   [0;1;34m▄ [0;1;30mGimme a home among[0;1;33m▄█[0;1;33;41m▓▓▓[0;1;32;40m▀[0;1;32;42m░[0;1;32;40m▀[0;1;33;40m▄[0;1;33;41m▒[0;1;33;40m▄[0;1;32;40m▀▄▀[0;1;32;42m░[0m [1;33;41m░▒▒▓▒▒▓▓▓[0;1;33;40m█▄[0m
+        [1;34m▄[0m             [1;30m▄   [0;1;34m▄ [0;1;30m                  [0;1;33m▄█[0;1;33;41m▓▓▓[0;1;32;40m▀[0;1;32;42m░[0;1;32;40m▀[0;1;33;40m▄[0;1;33;41m▒[0;1;33;40m▄[0;1;32;40m▀▄▀[0;1;32;42m░[0m [1;33;41m░▒▒▓▒▒▓▓▓[0;1;33;40m█▄[0m
 [1;33m  [0;1;34m▄▄[0;1;34;44m▓[0;1;34;40m▀[0m            [1;36m▄   [0;1;30m▓[0m      [1;34m▀[0;1;34;44m▓[0;1;34;40m▄▄[0;1;30;40mthe gumtrees[0;1;33;40m█[0;1;33;41m▓[0;1;33;40m▀▀▀ [0;1;32;42m░[0m [1;33;41m▒▒▒[0;1;33;40m▀ [0;1;32;42m▒[0;1;32;40m▄▄▀[0;1;32;42m▒[0m [1;33m▀[0;1;33;41m▒░▒▒▒▓▓▓▓[0;1;33;40m██▄[0m
 [1;33m [0;1;34;44m▓▒▓[0m    [1;36;46m▓[0;1;36;40m█[0;1;36;47m█[0;1;36;40m▀█[0m     [1;36m██[0;1;36;47m▓[0m [1;30m▒ [0;1;36m██▄    [0;1;34;44m▓▒▓[0m [1;33m▄▄▄▄███ [0;1;32m▄▄▄▄[0;1;32;42m▓[0;1;32;40m▀[0;1;32;42m░▒[0;1;32;40m▀[0;1;33;41m▒▒▒[0;1;33;40m▀[0;1;32;40m▄[0;1;32;42m▓░[0m [1;32;42m▓[0;1;32;40m█ ▀[0;1;32;42m▓[0m [1;33m▀[0;1;33;41m▒▒▓▓▒▒▓▓▓▓[0;1;33;40m█[0;1;33;41m▓[0;1;33;40m█[0m
 [1;33;40m [0;1;34;44m▒▓▓[0m    [1;36;46m█[0;1;36;47m█░[0m [1;36m█▀[0;1;36;47m░[0;1;36;40m█▄ [0;1;36;46m▓[0;1;36;40m█[0;1;36;47m▒[0m [1;30m░ [0;1;36;47m▓[0;1;36;40m█[0;1;36;46m█[0m    [1;34;44m▓▓▒[0;1;33;40m█[0;1;33;41m▓▓▓▓[0;1;33;40m▀▀[0;1;32;40m▄█[0;1;32;42m▓[0;1;32;40m▀▀[0;1;32;42m░[0;1;32;40m▄▄▀ [0;1;33;41m░▒▓[0m [1;32m█[0;1;32;42m▓▒[0;1;32;40m▀▄[0;1;32;42m▓[0;1;32;40m█ [0;1;33;41m▒[0;1;33;40m▄[0;1;32;40m▀[0;1;32;42m▓[0;1;32;40m▄[0;1;33;40m▀[0;1;33;41m▒▒[0;1;33;40m▀▀[0;1;33;41m▒▒▒▒▓▓▓[0m

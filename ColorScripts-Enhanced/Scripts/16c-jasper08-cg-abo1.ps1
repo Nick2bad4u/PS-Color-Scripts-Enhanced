@@ -5,7 +5,7 @@
 # Source SHA-256: 4fa5ec6d0664737847f03f9a80716d259c2cdb2d432a4fed7fc4f27712b5b2dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Cg-abo1.ans by cryogenic (jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: aboriginal
 # SAUCE Author: cryogenic
 # SAUCE Group: jasper
@@ -36,5 +36,5 @@ Write-Host '
 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [36m [0m                                                 [36m [0m
 [1;30m▄[0m▄▄[1;30;47m▀[0m▓[1;30m▀ ▄[0m▄[1;30;47m▀[0m▓[1;30m▀ [0;1;30;47m█[0m░[30;47m▓[0;1;30;47m█[0;1;30;40m ▀[0m▓[1;30;47m▀[0m▄[1;30m▄ ▀[0m▓[1;30;47m▀[0m▄▄[1;30m▄[0;1;37m  [0m   [1maboriginal[0m   [36m  [0;1;30m▄[0m▄▄[1;30;47m▀[0m▓[1;30m▀ ▄[0m▄[1;30;47m▀[0m▓[1;30m▀ [0;1;30;47m█[0m░[30;47m▓[0;1;30;47m█[0;1;30;40m ▀[0m▓[1;30;47m▀[0m▄[1;30m▄ ▀[0m▓[1;30;47m▀[0m▄▄[1;30m▄[0m
-[1;30m ▀[0m▀[1;30;47m▄   ▀[0m▄[1;30;47m▀   ▀[0m▄▄[1;30;47m▀  ▀[0m▄[1;30;47m▀    ▄[0m▀[1;30m▀[0m [36m [0;1;37m write stuff here[0m [36m [0;1;30m ▀[0m▀[1;30;47m▄   ▀[0m▄[1;30;47m▀   ▀[0m▄▄[1;30;47m▀  ▀[0m▄[1;30;47m▀    ▄[0m▀[1;30m▀[0m
+[1;30m ▀[0m▀[1;30;47m▄   ▀[0m▄[1;30;47m▀   ▀[0m▄▄[1;30;47m▀  ▀[0m▄[1;30;47m▀    ▄[0m▀[1;30m▀[0m [36m [0;1;37m                 [0m [36m [0;1;30m ▀[0m▀[1;30;47m▄   ▀[0m▄[1;30;47m▀   ▀[0m▄▄[1;30;47m▀  ▀[0m▄[1;30;47m▀    ▄[0m▀[1;30m▀[0m
 [1;30m░░  [0m [1;30m ▀[0m▀▀▀[1;30;47m▄  [0;1;37;40m▒▒▒▒[0;1;30;47m  ▄[0m▀▀▀[1;30m▀    ░░ [0m                   [1;30m░░  [0m [1;30m ▀[0m▀▀▀[1;30;47m▄  [0;1;37;40m▒▒▒▒[0;1;30;47m  ▄[0m▀▀▀[1;30m▀    ░░[0m'

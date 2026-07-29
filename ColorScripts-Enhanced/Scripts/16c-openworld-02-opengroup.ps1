@@ -5,7 +5,7 @@
 # Source SHA-256: 2579108322f551bb5d10b81c3684edc7d795ea7693aa8d1d5a7d21e30563fb81
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: opengroup.ans by Luxuse (openworld-02); released in openworld-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -31,7 +31,7 @@ Write-Host '
 [35m██[0;1;35m█[0;35m███[0;36m█[0;30;46m▀▀▀[0m      [30;46m▀[0;36;46m█[0;1;36;46m█[0;1;36;40m [0;30;46m▀▀▀▀[0m        [30;46m▀▀▀▀▀[0m     [35;40m░ [0;30;46m▀▀▀[0;36;46m█[0;30;46m▄▀▀▀[0m      [30;46m▀[0;1;36;40m░[0;36m██[0;30;46m▀▀▀▀[0m            [30;46m▀▀[0m
 [35;46m█████[0;36;46m█[0;35;46m▄[0;30;46m▄[0;35;40m░[0;30;46m▄▄[0;36;46m█[0;30;46m▀▀▀[0;36;46m█[0;30;46m▄[0;30;40m [0;1;35;40m░[0;30;46m▄▄[0;30;40m  [0;30;46m▄▄▀▀[0;35;40m░[0;30;46m▀[0;36;46m█[0;30;46m▄▄▄[0;30;40m    [0;30;46m▄▄▄▀▀▀[0;36;46m█[0;30;46m▄[0;30;40m   [0;35;40m░  [0;30;46m▄▄[0;36;46m█[0;30;46m▀▀[0;36;46m█[0;35;40m░[0m        [30;46m▄▄▄[0;35;46m█[0;30;46m▀[0;30;40m    [0;30;46m▀[0;36;46m█[0;30;46m▄▄[0;35;40m░[0m
 [35;40m████[0;36;40m█[0;35;46m▄█[0m     [1;36;40m░▒[0m                                                        [30;46m▄▄[0;36;46m█[0;1;36;40m▒[0;30;46m▄▄[0m
-[35;40m██[0;35;46m▀[0;36;46m█[0;35;46m███[0m                            [1;33;40mGroupe note[0m
+[35;40m██[0;35;46m▀[0;36;46m█[0;35;46m███[0m                            [1;33;40m           [0m
 [35m█[0;35;46m▀[0;36;46m█[0;35;46m████[0;35;40m [0;37;40m                                          ↓                        [0m
 [35;40m█[0;1;36;40m█[0;35m█[0;1;35m█[0;35m███ [0;37m                   ↓                               ↓              [0m
 [35m█[0;36m█[0;35m█[0;1;35m███[0;35m█ [0;37m    ↔      ↓                                                       [0;1;33m▄▄▄▄▄[0m

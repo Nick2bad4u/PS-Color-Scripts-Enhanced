@@ -5,7 +5,7 @@
 # Source SHA-256: 395f061b30d3058a3ed690525b42c679ab37bd0c21261ebae62f2b52005c59f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VN-LOGO2.ANS by vENOMOUS (dEVIL fORCES); released in df-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: oTHER aSKEE fOR lOGON
 # SAUCE Author: vENOMOUS
 # SAUCE Group: dEVIL fORCES
@@ -31,7 +31,7 @@ Write-Host '
 [1;30m$$[0m :$$$$$$$$$$$≤, [1;30m$$$[0;32m$[0;1;32m$[0m [1md[0mO[1;30mNED[0;1;37m b[0mY[1m v[0mE[1;30mNOMOUS[0m [1;32m$[0;32m$[0;1;30m$$$$$$[0;1;37m[[0m.....................[1m][0;1;30m$[0;32m$[0;1;30m$$$$$[0m
 [32m$[0;1;32m$[0;1;30m,[0m l$$$$$$$$$$$$b [1;30m$$$$$[0;32m$[0;1;32m$[0;1;37m [d[0mV[1;30mL/f[0mR[1mC] [0;1;32m$[0;32m$[0;1;30m$$$$$$$$$$$$$$$[0;1;31m/[0;31m|[0;1;31m\[0;1;30m [0;1;37mh[0mA[1;30mNDLE [0;1;31m/[0;31m|[0;1;31m\[0;1;30m$$$$$$$$$$$$[0m
 [1;30m$$Ss [0m`S$$$$$$$$$$$b, [1;30m$$$$$$$$$$$$$$$[0;32m$$[0;1;32m$[0;32m$$[0;1;30m$$$$$[0;1;37m[[0m..............................][1;30m$$[0m
-[1;32m$[0;32m$[0;1;30m$$$,[0m `S$$$$$$$$$$$s [1;30m$$$$$$$[0;32m$[0;1;32m$[0;32m$[0;1;30m$$$$$$$[0;32m$[0;1;32m$[0;32m$[0;1;30m$$$$$$$$$$$[0;1;31m/[0;31m|[0;1;31m\[0m [1mp[0mA[1;30mSSCODE[0m [1;31m/[0;31m|[0;1;31m\[0;1;30m$[0;32m$[0;1;32m$[0;32m$[0;1;30m$[0m$[1;30m$$$$$[0m
+[1;32m [0;32m [0;1;30m    [0m                [1;30m       [0;32m [0;1;32m [0;32m [0;1;30m       [0;32m [0;1;32m [0;32m [0;1;30m           [0;1;31m [0;31m [0;1;31m [0m [1m [0m [1;30m      [0m [1;31m [0;31m [0;1;31m [0;1;30m [0;32m [0;1;32m [0;32m [0;1;30m [0m [1;30m     [0m
 [1;30m$$$$$$Ss,[0m`²$$$$$$$$$$s [1;30m"²S$$$$$$$$$$$$$$$$$$[0;32m$[0;1;32m$[0;32m$[0;1;30m$$$[0;1;37m[[0m.....................[1m][0m [1;30m$$$$$$[0m
 [1;30m$$$$$$$$Ss,[0m`$$$$$$$$$$SSs[1;30m`^"[0;32mSS[0;1;32m$$[0;32m$$[0;1;30m$$SSSS""""^^^^^^S$$$$$[0;1;32m$[0;32m$[0;1;32m$[0;1;30m$$$$$$$$$$$$$$$$$4$$$[0m
 [1;30m$$[0;32m$[0;1;32m$[0;32m$[0;1;30m$$$$$$[0m `$$$$$$$$$$$$$S@ss,,,,,,ssss@@@@$$$$$$ [1;30m$$$$$$$[0;1;32m$[0;32m$[0;1;32m$[0;1;30m$$$$$$$[0;1;32m$$[0;1;30m$$$$$$$$$$[0m

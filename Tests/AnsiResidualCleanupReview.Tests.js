@@ -65,22 +65,106 @@ const MIXED_TEXT_LEDGER9_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger9.json"
 );
+const MIXED_TEXT_LEDGER10_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger10.json"
+);
+const MIXED_TEXT_LEDGER11_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger11.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
 );
+const CONTENT_CHECKPOINT = JSON.parse(
+    fs.readFileSync(
+        path.join(MODULE_ROOT, "AnsiContentCurationCheckpoint.json"),
+        "utf8"
+    )
+);
+const POST_CURATION_DUPLICATE_SCRIPTS = new Set(
+    CONTENT_CHECKPOINT.removals.postCurationDuplicateWorks.flatMap(
+        ({ removedScripts = [] }) =>
+            removedScripts.map((name) => `${name}.ps1`)
+    )
+);
 
 function readPayloadRows(file) {
-    const source = fs.readFileSync(
-        path.join(SCRIPTS_DIRECTORY, file),
-        "utf8"
-    );
+    const scriptPath = path.join(SCRIPTS_DIRECTORY, file);
+    if (!fs.existsSync(scriptPath)) {
+        assert.equal(
+            POST_CURATION_DUPLICATE_SCRIPTS.has(file),
+            true,
+            `${file}: missing script must have a post-curation duplicate disposition`
+        );
+        return { rows: [], source: "" };
+    }
+    const source = fs.readFileSync(scriptPath, "utf8");
     return {
         rows: extractPowerShellPayload(source)
             .value.replace(/\r\n?/gu, "\n")
             .split("\n"),
         source,
     };
+}
+
+function assertAppliedMixedTextLedger(
+    ledgerPath,
+    { candidateFiles, evidenceRows, expectedMissingRows }
+) {
+    const ledger = JSON.parse(fs.readFileSync(ledgerPath, "utf8"));
+
+    assert.equal(ledger.schemaVersion, 1);
+    assert.equal(ledger.summary.candidateFiles, candidateFiles);
+    assert.equal(ledger.summary.evidenceRows, evidenceRows);
+    assert.equal(
+        Object.values(ledger.summary.categoryRows).reduce(
+            (total, count) => total + count,
+            0
+        ),
+        evidenceRows
+    );
+    assert.equal(
+        new Set(ledger.candidates.map(({ file }) => file)).size,
+        candidateFiles
+    );
+    assert.equal(
+        ledger.candidates.reduce(
+            (total, candidate) => total + candidate.evidence.length,
+            0
+        ),
+        evidenceRows
+    );
+
+    const missingRows = [];
+    for (const candidate of ledger.candidates) {
+        assert.ok(!Object.hasOwn(candidate, "text"));
+        const { rows } = readPayloadRows(candidate.file);
+        for (const evidence of candidate.evidence) {
+            assert.ok(!Object.hasOwn(evidence, "text"));
+            assert.match(evidence.sha256, /^[a-f\d]{64}$/u);
+            const currentRow = rows[evidence.row - 1];
+            if (currentRow === undefined) {
+                missingRows.push({
+                    file: candidate.file,
+                    row: evidence.row,
+                });
+                continue;
+            }
+            assert.notEqual(
+                getReviewEvidenceHash(stripAnsiControls(currentRow)),
+                evidence.sha256,
+                `${candidate.file}: row ${evidence.row} was not redacted`
+            );
+            assert.equal(
+                analyzeRow(currentRow).letterCount,
+                0,
+                `${candidate.file}: row ${evidence.row} still contains letters`
+            );
+        }
+    }
+    assert.deepEqual(missingRows, expectedMissingRows);
 }
 
 test("residual content review is hash-only and fully applied", () => {
@@ -301,6 +385,10 @@ test("second mixed text review is hash-only and fully applied", () => {
         },
         {
             file: "16c-kbsart03-lm-kbs.ps1",
+            row: 26,
+        },
+        {
+            file: "16c-nerp-04-us-black.ps1",
             row: 26,
         },
         {
@@ -630,6 +718,7 @@ test("seventh mixed text review is hash-only and fully applied", () => {
     }
     assert.deepEqual(missingRows, [
         { file: "16c-dox-9611-lst-urbn.ps1", row: 24 },
+        { file: "16c-glue-17-us-amend.ps1", row: 25 },
     ]);
 });
 
@@ -750,6 +839,34 @@ test("ninth mixed text review is hash-only and fully applied", () => {
         }
     }
     assert.deepEqual(missingRows, []);
+});
+
+test("tenth mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER10_PATH, {
+        candidateFiles: 50,
+        evidenceRows: 62,
+        expectedMissingRows: [],
+    });
+});
+
+test("eleventh mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER11_PATH, {
+        candidateFiles: 170,
+        evidenceRows: 227,
+        expectedMissingRows: [
+            { file: "16c-bmb-0496-phb-spls.ps1", row: 20 },
+            { file: "16c-jasper08-bm-glue.ps1", row: 36 },
+            {
+                file: "16c-lap-0794-hs-vio-x-part04.ps1",
+                row: 39,
+            },
+            {
+                file: "16c-plenty-dx-100ln-part02.ps1",
+                row: 51,
+            },
+            { file: "16c-rare-002-cko-wmsg.ps1", row: 17 },
+        ],
+    });
 });
 
 test("residual geometry review preserves one blank row and every visible row", () => {

@@ -5,7 +5,7 @@
 # Source SHA-256: 9d535f78a840a25e33cf22b0c7b902b49a3e5569a03b9b7c3243255a378d5f30
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DSTAT.ANS by Rzarector + Cryogenic (force18a); released in force18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dark sorrow stats
 # SAUCE Author: cyro / rz
 # SAUCE Date: 19970613
@@ -32,7 +32,7 @@ Write-Host '
 [1;34;44m░▓▓▓█▌[0;34m▌[0;37m ▐[0;1;30;47m░▓[0;1;30;40m███████[0;1;30;47m▓░[0m▌ [34m▐[0;1;34;44m▐▓▓██▓▓█▌[0;34m▌[0m    [37mbaud rate[0;1;30m:[0m [1m%CR[0m
 [1;34;44m▓▓▒▒▓▓▒[0;34m▄[0;37m ▀[0;1;30;47m░▓[0;1;30;40m███▓█[0;1;30;47m▓░[0m▀ [34m▄[0;1;34;44m▄▓▒▒▓▓▒▒▓ [0m     time limit[1;30m:[0m [1m%TL[0m
 [1;34;44m▒▒░░▒▒░░▒[0;34m▄[0;37m [0;1;31m [0;1;30m▀█▓▓▀▀[0;1;32m [0;34m▄[0;1;34;44m░░▒▒░░▒▒░░▒▒[0;34m▌[0m    [37mp/c ratio[0;1;30m:[0m [1m%PC[0m
-[1;34;44m░░  ░░  ░░  [0;34m▄[0m   [34m▄▄[0;1;34;44m░░  ░░  ░░  ░░[0;34m▌[0m    [37mcalls today[0;1;30m:[0m [1m%CT[0m
+[1;34;44m░░  ░░  ░░  [0;34m▄[0m   [34m▄▄[0;1;34;44m░░  ░░  ░░  ░░[0;34m▌[0m    [37m           [0;1;30m [0m [1m   [0m
 [1;34;44m                                [0;34m▓░[0;30;44m▓[0;37;40m             [0;1;30;40m [0m [1m   [0m
  [34m▀▀▀▓███████████████[0;1;34;44m-[0;34m█[0;1;34;44mcryo + rz![0;34m█▓▄▄  ▄[0m
     [34m░[0m                            [34m░[0m    [34m [0m'

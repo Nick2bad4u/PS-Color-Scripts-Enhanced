@@ -5,7 +5,7 @@
 # Source SHA-256: 363ce50df20e9da7096f0307239d7587fddab9784c413798f9ae5041c5b9b343
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZE-UPLA.ANS by ize (fusion); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: upload
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -30,4 +30,4 @@ Write-Host '
 [33;40m▄[0m        [33;40m▄▄▄███[0;34;40m  █████▌[0;35;40m▐[0;1;35;45m░▒▒▒░░[0;35m██████▄▄▄▄▄▄▄▄██[0;37;45m░░[0;35;40m█▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;35;45m░░[0;35m█[0m   [33m█████▌[0m
 [33m███████████████[0m       [35m ▐[0;1;35;45m▓▓▓▓▒▒▒░░[0;35m███████████████████████[0;1;35;45m░░░▒▒▒▓▓[0;35m█[0m   [33m████████████[0m
 [33m█████[0;1;33;43m░░░[0;1;33;40m▒▒▒▒▒▒[0;1;33;43m  [0;33m█████ [0;35m ▐[0;1;35;47m ░▒▓[0;1;35;45m▓▓▒▒░░[0;35m██ [0m                        [35m█[0;1;35;45m▀▀[0;35m█[0m
-                       [35m▐[0;37;45m▀▀[0;1;35;45m▀▀[0;35m████████[0;37m [0;35m [0;37mUPLOAD thingy[0m'
+                       [35m▐[0;37;45m▀▀[0;1;35;45m▀▀[0;35m████████[0;37m [0;35m [0;37m             [0m'

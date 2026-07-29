@@ -5,7 +5,7 @@
 # Source SHA-256: 6af1065e522f90c496e17b705a0c826a7d570764ba4f23eaf114f43df427d259
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-PGPM1.ANS by Mr.Wrong (Mistigris.); released in m-9802 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Pretty good piracy menu.
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Mistigris.
@@ -36,5 +36,5 @@ Write-Host '
   [1;30m ▄[0;1;30;44m▓░▓[0;1;30;40m█[0;1;30;44m▓[0;1;30;40m█▀ [0m [36m▀[0;1;36;46m▀[0;1;36;40m███[0;1;36;46m▄[0;36m▄[0;37m [0;1;30m▀[0;1;30;47m▄[0;1;30;40m█▄[0m [34m▀ ▄[0;37m [0;1;30m▐[0;1;30;47m▓[0;1;30;40m░░[0;1;30;44m▓[0;1;30;40m█████[0;1;30;44m▓░[0;1;30;40m▄██▄▄▄▄▄[0m ▀▀███████████████▀  ▀ ▄ [1;30m█[0m
    [1;30m▐█[0;1;30;44m▄[0;1;30;40m██████▄[0m [36m [0;1;36;46m▐[0;1;36;40m█[0;1;36;46m▓[0;1;36;40m██[0;1;36;46m▄[0;36m▄[0;37m [0;1;30m▀[0;1;30;47m▓▓[0;1;30;40m▄[0m   [1;30m▄[0;1;30;47m▀[0;1;30;40m▄ ▀██████[0;1;30;44m▄[0;1;30;40m█[0;1;30;44m▓▓█[0;1;30;40m█████▄▄▄[0m  ▀▀▀▀▀▀▀▀ [1;30m▄▄▄▄███▄▄▄▌[0m
    [1;30m▄▀▀ ░░░   ▀[0m [36m▐[0;1;36;46m▓░▀▀[0;36m▀▀▀▄[0;37m [0;1;30m▀[0;1;30;47m▄▀[0;1;30;40m▄█▀▀ ▀ ▄[0m [1;30m▀▀▀▀  ░░  ▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ░█▀▀▀▀▄[0m
- [1;30m▀ [0m            [1;36;46m▀[0;36m▀[0m      [37m [0;36m▄[0;37m  [0;1;30m▀[0;1;30;47m▓[0;1;30;40m▌[0m [1;30m [0;1;37mcommand ?:[0;1;5;37m_[0m        [1;30m▀[0m            [1;30m[[0;1;37mwrng[0;1;30m][0m [1;30m▄[0m
+ [1;30m▀ [0m            [1;36;46m▀[0;36m▀[0m      [37m [0;36m▄[0;37m  [0;1;30m▀[0;1;30;47m▓[0;1;30;40m▌[0m [1;30m [0;1;37m          [0;1;5;37m [0m        [1;30m▀[0m            [1;30m [0;1;37m    [0;1;30m [0m [1;30m▄[0m
             [36m▄[0;37m [0;36m▀[0m      [37m      [0;1;30m▄▀[0m'

@@ -113,11 +113,6 @@
         },
         {
             "issueType": "continuous-split-review",
-            "family": "16c-plenty-dx-100ln",
-            "reason": "Visually reviewed: the selected boundaries separate coherent stacked panels or standalone artworks; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
             "family": "16c-used-05-ns-123",
             "reason": "Visually reviewed: the selected boundaries separate coherent stacked panels or standalone artworks; no figure or composition is cropped, reflowed, or narrowed."
         },

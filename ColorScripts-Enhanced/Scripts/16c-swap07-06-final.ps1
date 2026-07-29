@@ -5,7 +5,7 @@
 # Source SHA-256: 46107a672707d1d497d37b42212d26a3f813e97f3b7b2250888d9a80aae16987
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 06-FINAL.ANS by Mel Farr Suppastar + Corinthian + Stone The Crow + Nail + Illusion X + Epoxy + Pzyko + Black Viper (swap07); released in swap07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ skater [1;30m▄[0;34m █[0;1;34;44m▓██▓▓▓▓░[0;34m [0;32m�
 [32m▀█▌ [0;1;30;42m▒░▀[0;32m▄▌[0;37m [0;1;34;44m░░░    [0;34m▀▄[0;37m [0;1;30m   ▀[0;1;30;42m▄[0;32m█[0;1;30;42m░[0;1;30;40m▀[0;32m ▌█████[0;1;32;42m░░░▒▒░[0;32m█[0;1;32;42m░░░░[0;32m██[0;1;32;42m░[0;32m███████████[0;1;32;42m ░░[0;32m████████████[0;1;30;42m░▄[0;32m▀▀[0;1;30m▀[0m
 [32m█[0;1;30;42m░░[0;32m▄ ███[0;1;32;42m░[0;32m  [0;1;30m▄ ▄▄▄▄▄▄▄██▄  [0;1;30;42m░[0;32m█[0;1;30;42m░▀[0;32m█████████[0;1;32;42m░░[0;32m█████████████████[0;1;30;42m░░[0;32m█████[0;1;30;42m░▄[0;32m▀▀▀▀▀[0;1;30m▀[0;32m        [0m
 [37m [0;1;30m▀[0;1;30;42m░[0;32m▀[0;1;30;42m▄░░[0;32m███▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█████████████████████[0;1;30;42m░░▄[0;32m▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀ [0m            [32m      [0m
-      [1;30m▀[0;32m▀▀▀[0;1;30m▀[0;32m ▀[0;1;30m▀[0;32m           [0m          [32m     [0m           [32m      [0;37m  [0;32m [0;37m [0;1;30m"sucker"  [0m'
+      [1;30m▀[0;32m▀▀▀[0;1;30m▀[0;32m ▀[0;1;30m▀[0;32m           [0m          [32m     [0m           [32m      [0;37m  [0;32m [0;37m [0;1;30m          [0m'

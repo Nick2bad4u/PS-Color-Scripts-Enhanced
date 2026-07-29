@@ -5,7 +5,7 @@
 # Source SHA-256: d74b37b8d5f69e356f0e7377a953926d06001c212136d1739c31196873338c41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH!CAFE.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -30,4 +30,4 @@ Write-Host '
 [1;30;40m   [0;1;33;40m(XxX) XxX-XxXx[0m         [1;37;40m▀[0;1;37;47m▀▄▄▄[0;1;30;47m▒▒▒░░░░░░░░[0;1;36;47m▀▀▀▀[0;1;36;46m░░    [0;1;34;46m░░[0;1;34;47m▀▀▀▀[0;1;30;47m░░░░▒▒▒▒░░░[0;1;37;47m▄▄▄▀[0;1;30;40m▀[0m
                             ▀[1;47m░░▀▀▀▀▄▄▄▄▄▄[0;1;30;47m░░░░░░░░░░░░░░░░░░[0;1;37;47m▄▄▄▄▄▄▀▀▀▀[0;1;30;47m▓▓[0;1;30;40m▀[0m
 [1;30;40m   [0;1;35;40mComments, comments,[0m        ▀▀▀▀[1;47m░░░ ░ ░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m░░▒▒▒▒▒[0;1;30;40m▀▀▀[0m
-[1;30;40m   [0;1;35;40mblah blah blah[0m                     ▀▀▀▀[1;30;47m░░░░░░░░░░░░░░░░[0m▀▀▀▀[0m'
+[1;30;40m   [0;1;35;40m              [0m                     ▀▀▀▀[1;30;47m░░░░░░░░░░░░░░░░[0m▀▀▀▀[0m'

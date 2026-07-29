@@ -5,7 +5,7 @@
 # Source SHA-256: 296bc0d6aacbde57f48bc51ce2fb2593ca5637bad55b8ffdb8004ef6a7fe7914
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TL!DEEPS.ANS by Timeless (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -23,7 +23,7 @@ Write-Host '
 [35m §[0;1;35m.[0;1;30m`²[0;36m7$g┌[0;1;36m┌g$7²''[0;1;30m.`²[0;36m7$g┌┌[0;1;36mg$7²''`²7$g┌┌g[0;36m$7²'' [0;1;30m§[0;36m§[0;1;36m§ [0;35m....┌sS§§|[0m            [33m    [0m
 [35m §§§Ss[0m     [35m--²²§§@s..[0;1;35m...s²└└^┘[0;1;36m  yyy[0;36m [0;1;35m.s²::══====S§§§§[0;35m§§§[0;1;37m [0m [1mpas[0msword [1;30m:[0m
 [35m |§''[0;36m.s@[0;1;36mS²^^²S@s.[0;35m`[0;1;36m:yy[0;36my[0;1;30my[0;36m .s[0;1;36m@S²^^²S§§§[0;36m [0;1;30m.s[0;36m@[0;1;36mS²^^²S@s.[0;1;35m`§§§[0;1;35;45m§§[0;1;35;40m§[0m
-[35m |§[0;36m [0;1;30m§[0;36m§§''[0m    [1;36m`²²² ;§§[0;36m§[0;1;30m|[0;36m;|§[0;1;36m§''[0m    [1;36m`§[0;1;36;46m§§[0;36ms§[0;1;37;46m§§[0;1;36;40m''[0m    [1;36;40m`§§§ [0;1;35;40m§§[0;1;37;45m§§[0;1;35;40m§§[0;1;36;40m [0m [1mloc[0mation [1;30m:[0m
+[35m   [0;36m [0;1;30m [0;36m   [0m    [1;36m        [0;36m [0;1;30m [0;36m   [0;1;36m  [0m    [1;36m  [0;1;36;46m  [0;36m  [0;1;37;46m  [0;1;36;40m [0m    [1;36;40m     [0;1;35;40m  [0;1;37;45m  [0;1;35;40m  [0;1;36;40m [0m [1m   [0m      [1;30m [0m
 [35m ;§[0;36m [0;1;30m²²[0;36m²²²[0;1;36m²²²²§§§s|[0;1;36;46m§§[0;36m§; §§§[0;1;30m.[0;36m [0;1;36m   .§§§[0;36m [0;1;30m§[0;36m§§²²²[0;1;36m²²²²²²[0;1;35m:|§§§§§:[0m
 [35m [0;1;30m;[0;35m§[0;36m [0;1;30m§[0;36m§§Sg┌┌[0;1;36mg$7²'' §[0;36m§§§[0;1;30m:[0;36m `²7$g[0;1;36m┌┌g$7²''[0;1;35m.[0;1;30m`[0;36m²7$g┌[0;1;36m┌g$7²''[0;1;35m.§§§[0;1;35;45m§§[0;1;35;40m§§.[0;1;36;40m  [0;1;30;40m::[0m
 [35m [0;1;30m:[0;35m§sssss┐..┐[0;1;35mss@S@sssss@§Ss┌┌..┌┌sSS§§Ss┌┌..┌┌sSS§§§§§§§§§s.[0m

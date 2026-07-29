@@ -5,7 +5,7 @@
 # Source SHA-256: d765c64a0acb5002882ef5fe8176fee381f5349bbabe8aec016d171228d049fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EP-FD3.ANS by Epitaph (Fire); released in fire0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Flying Donuts
 # SAUCE Author: Epitaph
 # SAUCE Group: Fire
@@ -45,7 +45,7 @@ Write-Host '
                        [1;31;41m▓  [0;31m▌▓[0;31;41m [0;31;40m▌[0m
                        [1;31;41m▐ [0;31m▌▐[0;31;41m [0;31;40m▓▌[0m
                        [31;41m [0;31;40m▓▄█▓[0;31;41m [0;31;40m▌[0m              [1;30;40mEat ''em.....[0m
-                       [31m▓[0;31;41m  [0;31;40m▌▓▓▌[0m                              [1;30;40mEat ''em good.[0m
+                       [31m▓[0;31;41m  [0;31;40m▌▓▓▌[0m                              [1;30;40m             [0m
                        [31m▓██▐[0;1;31;41m░[0;31m▓░[0m
                        [31m▓▓▓ ▓▒░[0m
                        [31m▒▓▒▒▒▓▒[0m
