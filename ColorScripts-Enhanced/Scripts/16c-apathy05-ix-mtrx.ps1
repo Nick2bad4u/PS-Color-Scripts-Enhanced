@@ -5,7 +5,7 @@
 # Source SHA-256: 38efb21be29a92f37d0e3c5d73db4cd4b257286c9185cf8fd09e9df796e422c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IX-MTRX.ANS by Illusion X (READ THE INI FILE); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Spawn matrix
 # SAUCE Author: Illusion X
 # SAUCE Group: READ THE INI FILE
@@ -32,9 +32,9 @@ Write-Host '
 [1;34;44m████▓▓▓▓▒▒▒░░[0;34m▄▄▄▄▄▄███▀█▀███▄▄▄▄▄▄▄       [0m
 [1;34;44m▓▓▒▒▒▒░░░░  [0;34m███[0;1;34;44m [0;34m█[0;1;34;44m [0;34m█████████▄▄▄▄▄▄▄▀▀▀▀▀▀▀█▄▄▄▄▄▄[0;1;30m  [0;34m         [0m
 [1;34;44m▒▒░░░░ [0;34m████[0;1;34;44m░ [0;34m███████[0;1;34;44m [0;34m████████████████████▄▄▄▄▄▄▄▀▀▀▀▀▓▒░░ ░ [0m
-[1;34;44m▒░░░[0;34m███[0;1;34;44m░[0;34m██████████████████████████████████████████▓▓▓   ▒░ ░[0;37m  [0;1;37m■ [0;1;30muse this [0;1;37m■[0m
-[1;34;44m░░[0;34m█████████████████████████████████████████████████▓▓▓ ▓▒  [0m   [1;37m■[0m [1;30mspace 4[0m  [1m■[0m
-[1;34;44m░[0;34m█[0;1;34;44m░ [0;34m█▀▀██████████▀▀   ▀▀████████████████████████████▓ ▓▒ ░ [0m   [1;37m■ [0;1;30mthe stu[0m [1m ■[0m
-[34m████ ░░ ███████▀  ░░░ ░░ ▀███████████████▀██████████ █▒  [0m     [1;37m■[0m [1;30mff[0m       [1m■[0m
+[1;34;44m▒░░░[0;34m███[0;1;34;44m░[0;34m██████████████████████████████████████████▓▓▓   ▒░ ░[0;37m  [0;1;37m■ [0;1;30m         [0;1;37m■[0m
+[1;34;44m░░[0;34m█████████████████████████████████████████████████▓▓▓ ▓▒  [0m   [1;37m■[0m [1;30m       [0m  [1m■[0m
+[1;34;44m░[0;34m█[0;1;34;44m░ [0;34m█▀▀██████████▀▀   ▀▀████████████████████████████▓ ▓▒ ░ [0m   [1;37m■ [0;1;30m       [0m [1m ■[0m
+[34m████ ░░ ███████▀  ░░░ ░░ ▀███████████████▀██████████ █▒  [0m     [1;37m■[0m [1;30m  [0m       [1m■[0m
 [1;34;44m░[0;34m████▄▄██████▀▀▄ ░░▒░░ ░▒ ▀██████████████▀ ▀███████ ██ [0m       [1;37m■[0m [1m [0m        [1m■[0m
 [34m████████████ ░░ █ ░░░ ░░  ▄█████████▀▀▀▀ ░░  ▀████ ██  [0m'

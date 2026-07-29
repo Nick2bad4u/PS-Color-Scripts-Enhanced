@@ -5,7 +5,7 @@
 # Source SHA-256: d75e5c5f5e6e2cb0786b667c2db107f190eeef99c1466268a7fb0ab0f91c940d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-NEWS.ANS by baxter (Axial Force); released in axf-037a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: news-screen
 # SAUCE Author: baxter
 # SAUCE Group: Axial Force
@@ -19,7 +19,7 @@ Write-Host '
                    [1;30m| [0m                                      [1;30m|[0m           [1;33m▄▄[0m
      [1;33m▄[0m  [1;33m▐▌[0m [1;33m▄▀[0m      [1;30m.[0m              xx/xx/97                 [1;30m:[0m     [1;33m▄▄▄▄▀[0;1;33;47m▓[0m██[1;33;47m▀[0;1;33;40m▌[0m
   [1;33m▄[0m  [1;33m▐▌[0;1;31m [0;1;33m█[0;1;31m [0;1;33m▐▌[0;1;31m [0;1;33m▄▀▀[0m   [1;30m:[0m                                       [1;30m.[0m    [1;33;47m▓[0m█[1;33;47m [0m▌   ▀█[1;33;47m░[0m█▌
-   [1;33m▀▄[0m [1;33m▀[0m [1;33m▀[0m [1;33m▀[0;1;31m▄▄[0m      [1;32m▄▄[0;32m▄[0;1;32;42m▒░░[0;32m█▄▄[0;37m  put your news here[0m           [1;30m:[0m    [1;33m▐[0m▀[1;33;47m [0m█     █[1;33;47m░[0m█▌  [1;32m▄[0m
+   [1;33m▀▄[0m [1;33m▀[0m [1;33m▀[0m [1;33m▀[0;1;31m▄▄[0m      [1;32m▄▄[0;32m▄[0;1;32;42m▒░░[0;32m█▄▄[0;37m                    [0m           [1;30m [0m    [1;33m▐[0m▀[1;33;47m [0m█     █[1;33;47m░[0m█▌  [1;32m▄[0m
      [1;31m▄▀▀██▀[0;1;37m▄▄[0m  [32m [0;1;32m▄[0;1;32;42m▓▒▒░░    [0;32m▀[0m                                     [37m █[0;1;33;47m░[0m█▌   ▀▀▀▀ [1;32m▄[0;1;32;42m▓[0;1;33;42m▓[0m
     [1m ▄[0;1;47m▓[0;1;40m▀▄[0m [1;47m▒▓[0;1;40m▄[0;1;47m▓[0m [1;32;42m▓▒▒░ ░[0;32m██▀[0m    [37m      [0m                         [1;30m|[0m      ▀▀[1;33;47m▄[0;1;33;40m▄▄▄▄▄[0;32m ▄[0;1;32;42m▓▒░[0;1;33;42m░[0m
      [1m▀[0;1;47m▒▓[0;1;40m▀[0;1;31;40m▄▄[0;1;37;40m▀▀[0;1;31;40m [0;1;32;42m▒░ ░░[0;1;33;42m▒[0;32m██▌[0;37m [0m    [37m                       [0m               [1;33;47m▓▀[0m█▌  ▐[1;33;47m▒[0;1;33;40m▌[0;32m▐[0;1;32;42m░░[0;1;33;42m░[0;32m▌[0m
