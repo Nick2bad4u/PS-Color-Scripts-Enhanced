@@ -5,7 +5,7 @@
 # Source SHA-256: 3ace85c18b2f4c1a77b8f32203f9036794500944661badb023ad63e35235ee45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-FREE.ANS by nOah! (phb-0397); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: free matrix?
 # SAUCE Author: nOah!
 # SAUCE Date: 19970302
@@ -25,11 +25,11 @@ Write-Host '
         [32m  [0;1;32;42m░[0;32m▄▄[0;1;31m ░░████▀▀▀▀▀▀▀▀████ [0;32m▄[0;1;32;42m░[0;32m▀▀[0m   [31m████[0;30;41m-nOah[0;31;40m████████████[0m
            [32m▀▀▀   [0;1;31m░▀▀▀[0;1;31;43m▄▄[0;33m▄▄▄[0;1;31;43m▄▄[0;1;31;40m▀▀[0m          [31m█████████████████████[0m
  [1;32m     [0;33m░░[0;1;32m       [0;1;31m░░▓▓█▄▄▄▄[0;1;32m                 [0;31m     [0m       [31m████[0;1;31;41m  [0;31m██[0m
- [1;32m   [0;33m░░[0;1;31;43m░▄▄▄▄▄▄▄▄▄▄█[0;1;31;40m██████[0;1;31;43m▄▄▄▄▄▄▄[0;1;31;40m    [0;30;42m  command  [0m     [31;40m  ██[0;1;31;41m    [0;31m██[0m
-[37m [0;1;32m    [0;1;31m █████████████████████████      [0;32mcommand[0;1;32m  [0m       [31m████████ [0m
-[37m [0;1;32m    [0;1;31m ███ ██▀██▄▀███▀██▄▀██ ███      [0;32mcommand[0;1;31m [0;1;32m  [0m     [31m ███████▐ [0m
-     [1;31m ███ █░██[0;1;31;43m▀[0;1;31;40m██░█░██[0;1;31;43m▀[0;1;31;47m▓█[0;1;31;40m░█ ███ [0m  [31m   [0;32mcommand[0m         [31m███████ [0m
-[37m  [0;1;31m    ▓▓▓ ██▄▀▀▀▄███▄▀▀▀▄██ ▓▓▓[0m      [32mcommand[0m         [31m██████▀ [0m
+ [1;32m   [0;33m░░[0;1;31;43m░▄▄▄▄▄▄▄▄▄▄█[0;1;31;40m██████[0;1;31;43m▄▄▄▄▄▄▄[0;1;31;40m    [0;30;42m           [0m     [31;40m  ██[0;1;31;41m    [0;31m██[0m
+[37m [0;1;32m    [0;1;31m █████████████████████████      [0;32m       [0;1;32m  [0m       [31m████████ [0m
+[37m [0;1;32m    [0;1;31m ███ ██▀██▄▀███▀██▄▀██ ███      [0;32m       [0;1;31m [0;1;32m  [0m     [31m ███████▐ [0m
+     [1;31m ███ █░██[0;1;31;43m▀[0;1;31;40m██░█░██[0;1;31;43m▀[0;1;31;47m▓█[0;1;31;40m░█ ███ [0m  [31m   [0;32m       [0m         [31m███████ [0m
+[37m  [0;1;31m    ▓▓▓ ██▄▀▀▀▄███▄▀▀▀▄██ ▓▓▓[0m      [32m       [0m         [31m██████▀ [0m
       [1;31m▒▒▒ ████████[0;1;31;43m▀[0;1;31;40m████████[0;35m [0;1;31m▒▒▒[0;35m           [0m           [31m▀▀▀▀ [0m
       [1;31m░░░[0m [1;31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m [1;31m░░░[0m
           [1;31m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
