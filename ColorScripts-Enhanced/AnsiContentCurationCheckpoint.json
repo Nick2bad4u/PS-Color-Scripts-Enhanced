@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 45691,
+        "totalRowsBlanked": 45820,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 11731,
+        "residualMixedTextRowsBlanked": 11860,
         "residualMixedTextTrailingRowsRemoved": 101,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -97,6 +97,7 @@
         "mixedTextLedger13": "AnsiResidualMixedTextReviewLedger13.json",
         "mixedTextLedger14": "AnsiResidualMixedTextReviewLedger14.json",
         "mixedTextLedger15": "AnsiResidualMixedTextReviewLedger15.json",
+        "mixedTextLedger16": "AnsiResidualMixedTextReviewLedger16.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -150,7 +151,10 @@
         "mixedTextPass14TrailingRowsRemoved": 0,
         "mixedTextPass15FilesRedacted": 4,
         "mixedTextPass15RowsBlanked": 5,
-        "mixedTextPass15TrailingRowsRemoved": 0
+        "mixedTextPass15TrailingRowsRemoved": 0,
+        "mixedTextPass16FilesRedacted": 36,
+        "mixedTextPass16RowsBlanked": 129,
+        "mixedTextPass16TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -186,6 +190,7 @@
         "A fifteenth hash-locked mixed-text review blanked 44 rows of readable prose, dialogue, generic menu fields, captions, and placeholders across 42 scripts after snapshotting and classifying all 839 fresh detector candidates. It retained the remaining 795 rows as artwork titles, attribution, BBS or service facts, interface labels, memorial or dedication text, structural lettering, or uncertain source-significant text; no newly empty terminal rows were removed.",
         "A sixteenth hash-locked mixed-text review blanked 22 rows of junk commentary, hostile or derogatory prose, release chatter, crude asides, and template placeholders across eight scripts after snapshotting and classifying all 846 fresh detector candidates. A second full-context review retained the other 838 detector rows, including thematic captions, poems, character dialogue, visual gags, attribution, BBS or service facts, interface labels, memorial or dedication text, and structural lettering, then blanked 14 adjacent rows that completed already-started disposable passages; no newly empty terminal rows were removed.",
         "A seventeenth hash-locked mixed-text review blanked five generic placeholder rows across four scripts after snapshotting and classifying all 828 fresh detector candidates. Four detector rows were accepted and 824 were retained; full-context follow-up found one additional placeholder missed by the queues. The review preserved thematic captions, dialogue, titles, attribution, BBS or service facts, interface labels, memorial text, separators, and structural lettering; no newly empty terminal rows were removed.",
+        "An eighteenth hash-locked mixed-text review blanked 129 rows of explicit placeholder copy, repeated filler, crude filler, and unfinished layout instructions across 36 scripts after full-context review of 967 unique detector, targeted-placeholder, and adjacent-follow-up rows. Independent pre-application review retained the other 838 rows and rejected mixed rows that shared protected titles, artist identity, BBS or service facts, meaningful UI labels, thematic captions, separators, ASCII composition, or structural lettering; no newly empty terminal rows were removed.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],

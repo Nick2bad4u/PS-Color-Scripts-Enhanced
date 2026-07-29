@@ -5,7 +5,7 @@
 # Source SHA-256: 039832f480c17b7fd5b401a52a5c5d0c15701f805ca395687a3bb493da5182ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YK`WLMTX.ANS by YaNKeE (iNSoMNia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Wave Length [MaTRiX]
 # SAUCE Author: YaNKeE
 # SAUCE Group: iNSoMNia
@@ -35,7 +35,7 @@ Write-Host '
 [1;33;43m▓[0;1;33;40m█[0;1;33;43m▒▓▓▒▒▓▒▓[0;1;33;40m▀[0;1;33;43m▓[0;1;33;40m▀▀█[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓▒▓[0;1;33;40m█▀▀▀█[0;1;33;43m▓▓▒▒▀[0;1;33;40m▄[0;36m▀ [0;37m▄▄[0;1;37m▄▄▄[0;1;37;47m███▓▒[0;1;37;40m▀[0m            ▀████[1;47m [0m▄▄[1m▄▄[0;36m▀ ▀■▌█[0;1;34;46m░░░[0;36m██[0;1;34;46m▒▓[0m
 [1;33m▀[0m [1;33m█▀[0m [1;33m▀▀[0m   [1;33m░ [0m    [1;33m▀▀▀[0;1;30m [0m  [1;33m░[0m  [1;33m▀█[0;1;33;43m▓▒[0;1;33;40m▀[0m▄[1;47m░ ░▒▓████▓▒░[0m              [1;47m  ░  ░░▓███▓[0m▄▄▄[36m▀■██[0;1;34;46m░░[0;36m█[0m
 [1;33m░[0m   [1;33m■[0m           [1;30m   [0m      [1;33m▐[0;1;33;43m▓[0;1;33;40m▀[0;1;37;40m■▀[0m▀[1;47m ░▒▓████▓▒░[0m▌              ▐██[1;47m░░▒▓███▓▒░ [0m█[1;47m░[0m▄[36m▀[0;1;34;46m░[0;36m■█[0;1;34;46m░[0m
-  [1;30m Put some stats here   [0m [1;33m▐[0;1;33;43m▒[0;1;33;40m▄[0;1;37;40m▀[0m█[1;47m░▒▓████▓▒░[0m█▌              ▐█[1;47m░▒▓████▓▒░ [0m█[1;47m░[0m▀[36m    ▀■ [0m
+  [1;30m                       [0m [1;33m▐[0;1;33;43m▒[0;1;33;40m▄[0;1;37;40m▀[0m█[1;47m░▒▓████▓▒░[0m█▌              ▐█[1;47m░▒▓████▓▒░ [0m█[1;47m░[0m▀[36m    ▀■ [0m
 [37m  [0;1;30m.xXx.xXx.xXx.xXx.xXx.[0;1;33m░[0m   [1;33m█[0;1;33;43m▓[0;1;33;40m▄[0;36m [0;37m▀[0;1;37m▀[0;1;37;47m████▓▒░[0m██[1;47m░[0m              [1;47m ░▒▓████▓[0;1;40m▀[0m▀▀[36m          [0m
 [1;33;43m░[0m    [1;30m(Made 4 phant)   [0;33m [0;37m [0;33m [0;1;33m▄[0;1;33;43m▒▓▓[0;1;33;40m▀[0;36m        [0;37m▀▀▀▀▀■▄▄▄[0;1;37m▄▄▄▄▄[0m▄[1m▄▄[0m▄■▀▀▀[1m▀▀[0;36m                  [0m
 [1;33m■[0;1;33;43m░[0;1;33;40m▄■[0m      [1;30m [0m       [1;33m░[0m  [1;33m■▄█[0;1;33;43m▓[0;1;33;40m▀▀▀[0;36m                                   [0;1;30m[[0mYaNKeE[1;30m?[0miNSoMNia[1;30m][0m'

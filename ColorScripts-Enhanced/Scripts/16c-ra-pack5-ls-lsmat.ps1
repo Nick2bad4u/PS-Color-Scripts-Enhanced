@@ -5,7 +5,7 @@
 # Source SHA-256: 02ffc2880fd143b148163620b6c76d39b561b9841dc41b152e307f69a187b516
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS-LSMAT.ANS by Lost Soul (ra-pack5); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -24,9 +24,9 @@ Write-Host '
  [34m▓[0;37m [0;34m▓▓▓▓▒▒▒▒▓▓▒▒░░[0;37m [0;31m██[0;31;47m▓[0;1;31;41m░[0;31;47m▓▓▓▓[0;1;31;41m░[0;31m▌[0;37m  [0;34m░▒▒▓▓▓▓▓▒▒▒░░░░▒▒░░[0;37m [0;1;37m▐[0;1;37;47m░[0;31;47m▓▓▓▓[0;31;40m▌[0;37;40m [0;34;40m▒▓[0;37;40m [0;1;30;40m▀█░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m
 [34m▓[0;37m  [0;34m▓[0;37m [0;34m▓▓▒▒░▒▒▓▒▒░[0;37m [0;31m▐██[0;1;37;47m░[0;31;47m▓▓[0;1;37;47m░[0;31;47m▓▓▓[0;37;40m [0;34;40m░░░▒▒▓▓▓▓▒[0;37;40m    [0;34;40m░░░░░░ [0;37;40m [0;1;37;47m░[0;31;47m▓▓▓[0;31;40m██▀[0;37;40m [0;34;40m▒▓▓[0;37;40m  [0;1;30;40m▀█▀▀▀[0m      [1;30m▀▀▀▀[0m [1;30m█[0m
     [34m▓▓▓▓▒▒░▒▒▒░░[0;37m [0;31m████[0;1;37;47m░[0;31;47m▓[0;1;37;47m░░[0;31;47m▓[0;1;37;40m▄[0m [34m░░░░▒▒▓▓[0;37m   [0;1;37;47m██[0;1;37;40m▄▄[0m    [1m▄▄[0;1;47m░░[0;31;47m▓[0;31;40m█▀[0;37;40m   [0;34;40m▓▓▓▓▓▓[0;37;40m [0;1;30;40m█▌[0m             [1;30m█[0m
-   [34m▓[0;37m  [0;34m▓▓▒▒░▒▒▒░░[0;37m  [0;31m████[0;1;37;47m░[0;31;47m▓[0;1;37;47m░░░[0;1;37;40m▄▄▄▄[0m      [1;47m███▓▓█▓▓▓▒▒▒░[0;31;47m▓[0;1;37;47m░[0m  [34m▓▓▓▓▓[0;37m [0;34m▓▓[0;37m  [0;1;30m█[0m    [1;30minsert[0m    [1;30m▓[0m
-       [34m▓▓▒▒░░░░░░[0;37m [0;31m▄███[0;1;37;47m▒░░▒▒▒▒▓▓▓████[0m  [1m▀[0;1;47m██▓▓▓▓▓▒▒▒▒[0;1;40m▀▀[0m   [34m▓▓[0;37m    [0;34m▓[0;37m [0;1;30m██▌[0m   [1;30moptions[0m   [1;30m▓[0m
-      [34m▓▓▓▓▒▒░░░[0;37m   [0;31m███[0;1;37;47m▒[0;31m█[0;1;37;47m▒▒▒▓▓▓▓▓█▓██[0m    [1m▀▀[0;1;47m██[0;1;40m▀▀▀[0m         [34m▓[0m     [34m▓[0;37m [0;1;30m█▓▌[0m   [1;30mhere....[0m  [1;30m▓[0m
+   [34m▓[0;37m  [0;34m▓▓▒▒░▒▒▒░░[0;37m  [0;31m████[0;1;37;47m░[0;31;47m▓[0;1;37;47m░░░[0;1;37;40m▄▄▄▄[0m      [1;47m███▓▓█▓▓▓▒▒▒░[0;31;47m▓[0;1;37;47m░[0m  [34m▓▓▓▓▓[0;37m [0;34m▓▓[0;37m  [0;1;30m█[0m    [1;30m      [0m    [1;30m▓[0m
+       [34m▓▓▒▒░░░░░░[0;37m [0;31m▄███[0;1;37;47m▒░░▒▒▒▒▓▓▓████[0m  [1m▀[0;1;47m██▓▓▓▓▓▒▒▒▒[0;1;40m▀▀[0m   [34m▓▓[0;37m    [0;34m▓[0;37m [0;1;30m██▌[0m   [1;30m       [0m   [1;30m▓[0m
+      [34m▓▓▓▓▒▒░░░[0;37m   [0;31m███[0;1;37;47m▒[0;31m█[0;1;37;47m▒▒▒▓▓▓▓▓█▓██[0m    [1m▀▀[0;1;47m██[0;1;40m▀▀▀[0m         [34m▓[0m     [34m▓[0;37m [0;1;30m█▓▌[0m   [1;30m        [0m  [1;30m▓[0m
      [34m▓[0;37m   [0;34m▓▓▒▒░[0;37m  [0;31m▀▀█▀▀▀[0;37m    [0;1;37m▀▀▀▀[0;1;37;47m▓▓█[0;1;37;40m▀▀▀▀▀[0m                [34m▓▓[0;37m    [0;34m▓[0;37m  [0;1;30m█▓[0m              [1;30m▒[0m
          [34m▓▓▒▒░░░▒[0;37m   [0;34m▓▓▓▓[0;37m  [0;34m▓[0m                          [34m▓[0m         [1;30m▐▓[0m    [1;30mlaits    [0m [1;30m▒[0m
         [34m▓[0;37m  [0;34m▓▓▓▒▒░▒▓▓▓▒▓[0;37m  [0;34m▓[0m                                     [1;30m▒▒▌[0m             [1;30m░[0m

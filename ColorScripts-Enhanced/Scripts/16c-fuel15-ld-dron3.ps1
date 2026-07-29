@@ -5,7 +5,7 @@
 # Source SHA-256: f626434ef9ca61734a722ddaaa3ce88268f0d4a264b251479b98552abbe3f63f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-DRON3.ANS by oned (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: drone
 # SAUCE Author: oned
 # SAUCE Group: fuel productions
@@ -18,7 +18,7 @@ Write-Host '
 [33m███▀██▓▓▓▓██[0;33;43m    [0;1;33;43m▀▀▓▓[0;33m▌▀█ ▄[0;37m▐█[0;1;30;47m░[0;1;30;40m▌[0;33m▐▓  ▄▌   [0;1;32m▐[0;1;32;47m ▓[0;1;32;40m█ [0m█[1m██▀█▀▄█████▓▓▒  ▓ ▐███████▓[0m▌[32m▐[0;1;32m█[0;1;32;47m▓▒  [0;1;32;40m█[0m
 [33m█[0;1;33;43m░░[0;33m▌▀  ░░░▀▓███▀▐▓[0;1;33;43m░[0;33m▀   ▐█▄[0;37m▀[0;1;30m▀[0;33m▄▓ ▄█▌ █▌ [0;1;32m▓[0;1;32;47m░[0;1;32;40m█▌[0m▐[1m██▌████████████▓ ▐▓ ▐███████[0m▌[32m▐[0;1;32m███[0;1;32;47m▓▓[0;1;32;40m█▌[0m
 [33m▌▀▀[0m          [33m▀▀▀▀[0m      [33m█[0;1;33;43m░░[0;33m▀▀▀ [0;1;30m▄[0;33m▀█ █[0;1;33;43m░[0;33m▓ [0;1;32m▐██ [0;1;37m█████████████████▌ █▓ ██████▓ [0;1;32m▓███[0;1;32;47m▓[0;1;32;40m██[0m
-[33m█▌   [0;32mput stuff here    [0;33m▀[0;1;30m▄[0m▄[1;30;47m▓[0;1;30;40m█ [0m▓█[1;30;47m█[0m [1;30;40m▄[0;33m▀█▌ [0;1;32m██▓ [0;1;37m▓█████████████████▌ █▌▐████▀[0;32m▄[0;1;32m▓██████ [0;1;37m▓[0m
+[33m█▌   [0;32m                  [0;33m▀[0;1;30m▄[0m▄[1;30;47m▓[0;1;30;40m█ [0m▓█[1;30;47m█[0m [1;30;40m▄[0;33m▀█▌ [0;1;32m██▓ [0;1;37m▓█████████████████▌ █▌▐████▀[0;32m▄[0;1;32m▓██████ [0;1;37m▓[0m
 [33m█[0m                      [1;30m▐[0m██[1;30;47m░[0;1;30;40m▌[0m▐█[47m [0;1;30;40m▌[0m▐[1;30;47m░[0;1;30;40m▌[0;33m▐▌[0;1;32m▐▓▓▒[0;32m▌[0;37m▐[0;1;37m▓▓█████████████████ █▌█▀▀[0;32m▄[0;1;32m▓▓██████ [0;1;37m▓█[0m
 [33m█[0m                      [37m████ ███ ██[0;1;30;47m▓[0;1;30;40m▌ [0;1;32;40m██▄▄[0;32m▀▀[0;37m▐[0;1;37m▒▓▓████████████████ ██[0;32m▐[0;1;32m▒▒▓█████▀[0;1;37m▄███[0m
 [33m█▌[0m                     [37m███▌████▐██[0;1;30;47m▐[0m ▄[1;32m▀█▓▓▒▒[0;32m▄ [0;37m▀[0;1;37m▒▓▓[0m▄[1m▀██▓ █████████▌[0m▌ [32m▀▀[0;1;32m▄▄▄█▀[0m▄[1m██▀▀[0m▀

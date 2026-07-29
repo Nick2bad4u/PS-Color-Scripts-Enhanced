@@ -5,7 +5,7 @@
 # Source SHA-256: 9b361c8a6c23a1e8a82afd64eb84eb331c383190b21752616aef489f0d10ac59
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-POD1.ANS by The Night Angel (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Oneliners [POD]
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -30,11 +30,11 @@ Write-Host '
                                      [37m▄ ▀[0m                       [37m▀   [0;34m░  [0;37m▀ ▄▄▀[0m
 [37m  [0;1;30m░ [0;1;37m                         [0m       █▌  [1;30m  [0;1;37m             [0m   [1;34m    [0;34m█[0;1;37;44m  [0;34m█[0m
                                      [37m▀[0m
-[37m  [0;31m► [0;1;33mblah..[0m
-[1;33m  [0;31m► [0;1;33mblah..[0m
-[1;33m  [0;31m► [0;1;33mblah..[0m
-[1;33m  [0;31m► [0;1;33mblah..[0m
-[1;33m  [0;31m► [0;1;33mblah..[0m
-[1;33m  [0;31m► [0;1;33mblah..[0m
-[1;33m  [0;31m► [0;1;33mblah..[0m
-[1;33m  [0;31m► [0;1;33mblah..[0m'
+[37m  [0;31m► [0;1;33m      [0m
+[1;33m  [0;31m► [0;1;33m      [0m
+[1;33m  [0;31m► [0;1;33m      [0m
+[1;33m  [0;31m► [0;1;33m      [0m
+[1;33m  [0;31m► [0;1;33m      [0m
+[1;33m  [0;31m► [0;1;33m      [0m
+[1;33m  [0;31m► [0;1;33m      [0m
+[1;33m  [0;31m► [0;1;33m      [0m'
