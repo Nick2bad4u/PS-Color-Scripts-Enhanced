@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "reviewedAt": "2026-07-29",
+    "normalization": "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
+    "policy": "Human-reviewed readable prose, dialogue, generic menu fields, captions, placeholder copy, and explicit filler text found by disjoint punctuation, clustered-row, short-multiword, single-caption, and targeted placeholder detectors were blanked when row-level redaction preserved the surrounding ANSI artwork, controls, backgrounds, and geometry. Artist and group attribution, titles, filenames, dates, source-significant labels, thematic captions, repeated lettering used as structural texture, and large typographic art were retained.",
+    "summary": {
+        "candidateFiles": 1,
+        "evidenceRows": 4,
+        "categoryRows": {
+            "alternative-clustered": 4
+        }
+    },
+    "candidates": [
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "ea07493187453d8551056854f05fe5a8fc01938b84f358cc771b533591693d3f"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "6bd827a86086083df76506085f9bc02000dcb79ac48a0eb25ec424598fbd3507"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "01396f21d929e972a60e851479e89e4a2fdcadbc6d6454ef926fd36b0cb93a22"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 25,
+                    "sha256": "478e55d35bf269f3442cf65a6694c6bc8281379f57a80ee401c4aada9f1cc550"
+                }
+            ],
+            "file": "16c-bmbook12-t-mtrix1.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        }
+    ]
+}
