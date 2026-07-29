@@ -5,7 +5,7 @@
 # Source SHA-256: 3320d90e0d944219fac97dd367d49b5e5dc25c91191fef4491303f55359f136c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-CIZB2.ans by The Extremist (MiSTiGRiS); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: City iZ Burning
 # SAUCE Author: The Extremist
 # SAUCE Group: MiSTiGRiS
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;33m▓▀ [0m▄▄██████████▄▄  [1;33m▀▓[0;1;33;41m▓▓▓[0;1;33;45m▓[0;1;33;41m▓[0;1;33;40m▓▀  [0;34m▄▄[0;37;44m▒▒▒▒▒▒▒[0;37;43m▓[0;37;44m▒[0m [37;44m▓▒▒▒▒▒▒▒▒▒[0;37;43m▒[0;34;40m▄▄ [0;1;33;40m▀▓▄  [0;1;30;40mwe like rule or[0m
+[1;33m▓▀ [0m▄▄██████████▄▄  [1;33m▀▓[0;1;33;41m▓▓▓[0;1;33;45m▓[0;1;33;41m▓[0;1;33;40m▓▀  [0;34m▄▄[0;37;44m▒▒▒▒▒▒▒[0;37;43m▓[0;37;44m▒[0m [37;44m▓▒▒▒▒▒▒▒▒▒[0;37;43m▒[0;34;40m▄▄ [0;1;33;40m▀▓▄  [0;1;30;40m               [0m
 [1;30;40m [0m▄[44m▓▓[0;43m▓[0;44m▓▓▓▓▓▓[0;43m▓[0;44m▓▓▓▓▓▓[0;40m▄ [0;1;33;40m▐[0;1;33;41m▒▒▒[0;1;33;45m▒[0;1;33;41m▒[0;1;33;40m▌ [0;34m▄[0;37;44m░░░░░░░░░░[0;37;43m▒[0;37;44m░[0m [37;44m▒░░░░░░░░░[0;37;43m░[0;37;44m░░░[0;34;40m▄ [0;1;33;40m▓▌ [0;1;30;40msomethin''...[0m
 [34m▐[0;37;44m▒▒▒[0;37;43m▒[0;37;44m▒[0;34;40m▀[0;37;44m▒▒▒▒[0;37;43m▒[0;37;44m▒[0;34;40m▀[0;37;44m▒▒▒▒[0;37;43m▒[0;34;40m▌ [0;1;33;41m░[0;31m▀ [0;35m▄[0;31m▄ [0;34m▐[0;1;34;44m░░░░[0;34m▌[0;1;34;44m░░░░░░[0;43m░[0;1;34;44m░[0m [44m░[0;1;34;44m░░░░░░░░░[0;1;34;43m [0;1;34;44m░░░░[0;34m▌ [0;1;33m▓ [0;1;30mTExt!m1st''95[0m
 [44m░░░░[0;43m░[0;44m░[0m [44m░░░░[0;43m░[0;44m░[0m [44m░░░░[0;43m░[0;44m░[0m [31;40m▌▄[0;31;41m [0;31;45m [0;31;41m [0m [34;40m▀▀▀▀▀[0;1;33;40m▓▀ ▄[0;34m▄▄▄[0;33m▄[0;34m▄  [0;1;33m▄░ [0;1;34;44m▒▒▒▒▒[0m        [1;33;40m▀[0m      [1;30;40m▄▄▄▄▄▄▀▀▀▀▀▀[0m

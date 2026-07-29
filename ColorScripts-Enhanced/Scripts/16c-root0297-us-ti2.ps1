@@ -5,7 +5,7 @@
 # Source SHA-256: 15758379d049de45cf89afa40bf73d0d374b7770437a462a4cb4313521947121
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TI2.ANS by Idrosynth + Defiant (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Twisted Images
 # SAUCE Author: Idrosynth & Defiant
 # Lines: 1-21
@@ -20,7 +20,7 @@ Write-Host '
 [31;40m█ [0;37;40m█[0;1;37;40m███ [0m█[1m███[0;1;47m [0;1;40m█▌[0;1;47m [0;1;40m██[0m█[1m███    [0m█[1m███[0;1;47m [0;1;40m███ [0m█[1m███[0m▄[1m▄▄▄[0m█[1m███ [0;1;47m [0;1;40m██ [0;31m█[0;31;41m                          [0;31;40m█[0m
 [31;40m█ [0;37;40m█[0;1;37;40m███ [0m█[1m███[0;1;47m [0;1;40m█▌[0;1;47m [0;1;40m██[0m█[1m███[0;1;47m [0;1;40m██ [0m█[1m███[0;1;47m [0;1;40m███ [0;1;47m [0;1;40m███[0m█[1m███[0m█[1m███ [0;1;47m [0;1;40m██ [0;31m█[0;31;41m   [0;31;40m█▀[0m                   [31;40m▀██[0m
 [31;40m█ [0;37;40m█[0;1;37;40m███ [0m█[1m███[0;1;47m [0;1;40m█▌[0;1;47m [0;1;40m██[0m█[1m███[0;1;47m [0;1;40m██ [0m█[1m███[0;1;47m [0;1;40m███ [0;1;47m [0;1;40m███[0m█[1m███[0m█[1m███ [0;1;47m [0;1;40m██ [0;31m█[0;31;41m   [0;31;40m█[0m                     [31;40m██[0m
-[31;40m█ [0;37;40m█[0;1;37;40m███ [0m█[1m███[0;1;47m [0;1;40m█▌[0;1;47m [0;1;40m██[0m█[1m███[0;1;47m [0;1;40m██ [0m█[1m███[0;1;47m [0;1;40m███ [0;1;47m [0;1;40m███[0m█[1m███[0m█[1m███ [0;1;47m [0;1;40m██ [0;31m█[0;31;41m   [0;31;40m█  [0;31;45m  [0;1;35;45mlogon to bbs  [0m   [31m██[0m
+[31;40m█ [0;37;40m█[0;1;37;40m███ [0m█[1m███[0;1;47m [0;1;40m█▌[0;1;47m [0;1;40m██[0m█[1m███[0;1;47m [0;1;40m██ [0m█[1m███[0;1;47m [0;1;40m███ [0;1;47m [0;1;40m███[0m█[1m███[0m█[1m███ [0;1;47m [0;1;40m██ [0;31m█[0;31;41m   [0;31;40m█  [0;31;45m  [0;1;35;45m              [0m   [31m██[0m
 [31m█ [0;37m▀[0;1;37;47m▀[0;1;37;40m██ [0m▀[1;47m▀[0;1;40m██[0;1;47m▄[0;1;40m██[0;1;47m▄[0;1;40m██[0m▀[1;47m▀[0;1;40m██[0;1;47m [0;1;40m██▄[0;1;47m▄[0;1;40m██▀[0m▀[1;47m▀[0;1;40m██ [0m▀[1;47m▀[0;1;40m██[0;1;47m▄[0;1;40m███[0m█[1m███[0;1;47m▄[0;1;40m██▀ [0;31m█[0;31;41m   [0;31;40m█[0m      [1;30;40mfeedback[0m       [31m██[0m
 [31m██  [0;37m▄[0;1;37m▄▄ [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██[0;31;41m   [0;31;40m█[0m       [1;30;40mlogoff[0m        [31m██[0m
 [31m██ [0;37m▀[0;1;37m▀▀ [0m▄[1m▄▄▄▄[0m▄[1m▄▄▄▄▄ [0m▄[1m▄▄▄▄▄  [0m▄[1m▄▄▄▄▄  [0m▄[1m▄▄▄▄▄  [0m▄[1m▄▄▄▄▄▄ [0;31m█[0;31;41m   [0;31;40m█    [0;1;30;40mapply as new[0m     [31m██[0m

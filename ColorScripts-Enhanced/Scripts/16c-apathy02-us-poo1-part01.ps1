@@ -5,7 +5,7 @@
 # Source SHA-256: 41801ac2f914d200345fe1df7e1577c80b63ccbf39bda8388eab7df834b42851
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-POO1.ANS by Ewheat + Scribble (apathy02); released in apathy02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: poO!
 # SAUCE Author: multiple artists
 # SAUCE Date: 19951008
@@ -27,8 +27,8 @@ tv rots your brain tv rots your brain tv ro █[30;47m ▐[0;1;34;40m▐[0;1;
 brain tv rots your brain tv r [1;30m▄[0m  your brain █[30;47m [0;1;34;40m █[0;1;34;46m  [0;1;34;40m█████████████████████████████[0m
 rots your bra [1;30m▄▄▄[0m rots your  [1;30m█▀█[0m  tv rots yo▐[30;47m [0;1;34;40m █[0;1;34;46m [0;1;34;40m██████████████████████████████[0m
 tv rots your [1;30m████▀[0m v rots yo [1;30m▄▀▀[0m ain tv rots █[30;47m▐[0;1;34;40m▐[0;1;34;46m▀[0;1;34;40m██████████████████████████████[0m
-brain tv rots [1;30m▀▀[0m [1;30m▀▄[0m rain tv [1;30m▄▀[0m s     ▄▄▄[1;30;47m▄[0m▄▄  ▀[30;47m▐[0;1;34;40m▐[0;1;34;46m█[0;1;34;40m██████████████████████████████[0m
-rots your brain tv[1;30m ▀▄[0m       [1;30m▀[0m▄▄▄[1;30;47m▄[0;30;47m [0;1;30;47m▄▄▄██████▄▄[0;30;47m [0;37;40m▄▄▄[0;1;34;40m▀▀▀███████████████████████████[0m
+              [1;30m▀▀[0m [1;30m▀▄[0m         [1;30m▄▀[0m       ▄▄▄[1;30;47m▄[0m▄▄  ▀[30;47m▐[0;1;34;40m▐[0;1;34;46m█[0;1;34;40m██████████████████████████████[0m
+                  [1;30m ▀▄[0m       [1;30m▀[0m▄▄▄[1;30;47m▄[0;30;47m [0;1;30;47m▄▄▄██████▄▄[0;30;47m [0;37;40m▄▄▄[0;1;34;40m▀▀▀███████████████████████████[0m
 ▄▄▄▄      ▄▄▄▄▄▄▄▄▄[30;47m [0;37;40m▄[0;1;30;40m▀▄[0;1;31;40m▀█████▄[0m▀[30;47m      [0;1;30;47m▀[0;30;47m  [0;1;30;47m▀▀▀▀▀▀▀██[0;30;47m [0;1;30;47m▄ [0m▄▄▄▄[1;34m▀▀▀████████████████████[0m
 [1;47m▀▀[0;30;47m     [0;1;37;47m▄[0;30;47m  [0;1;37;47m▀▀██▀▀▀▀▀▀[0;30;47m [0;37;40m▀[0;1;31;40m▄[0;1;30;40m▀[0;1;31;40m▄██████[0m [30;47m                           [0;37;40m▄▄▄[0;1;34;40m▀████████████████[0m
 [1;30;47m▀▄[0;30;47m                 [0;1;37;47m [0m▄[1;31m▀█████████▀[0m▄[30;47m                           [0;37;40m▀▀▀ [0;1;34;40m█[0;1;34;44m▀▀[0;1;34;40m██[0;1;34;44m▀▀▀▀▀[0;1;34;40m█████[0m

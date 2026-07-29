@@ -5,7 +5,7 @@
 # Source SHA-256: 833730fb15441a53636df70803eec4162e11c1cdb4dec07e5f2d0db726cdf007
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NS-R3.ANS by Ansichrist (Hieroglyphics); released in rmrs-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: Ansichrist
 # SAUCE Group: Hieroglyphics
 # SAUCE Date: 20010203
@@ -25,9 +25,9 @@ Write-Host '
         [31ml[0;1;33ml$$┬$$$$$$$''[0;1;31md$[0;31mb[0;1;33m`$$$7[0;33m`,,[0;37m `$$$$$$$$$$$$[0m
         [33m:[0;1;33m$$"[0;31myy[0;1;33m`"$$$$b[0;1;31m`┴[0;31m`[0;1;33md$$[0;33m`,d$$:[0;37m  7d$$$$$$$$$[0m
          [33m`[0;1;33m7$mm$$$$$$$$$$$└[0;33m`d7└`` °[0;1;30m [0ml$$$$$$$$$$
-        [33m,[0;1;33m:l$$$$$$$$$$$$$$[0;33m,``,°,,d$:[0;37m:$$$$$$$$$$  here''s a picachu for you[0m
+        [33m [0;1;33m                [0;33m          [0;37m                                     [0m
        [33m:[0;1;33m$:[0;33m:[0;1;33m$$$$$$$$$$$$$$$$$[0;33m d77└`,[0;1;30m:[0m$$$$$$$$$$  remorse seniors...
-        [33m``[0;1;33m $$$$$$$$$$┐`,$$$:[0;33m``,,[0;1;33md$:[0;1;30m.[0m$$$$$$$$$$  hope you like it... =)
+        [33m  [0;1;33m           ┐      [0;33m    [0;1;33m   [0;1;30m [0m                                  
            [33m`[0;1;33m7$$$$$$$: :$$$$$$$$$7[0;33m`*.[0;37m`"└*7$$$$$[0m
              [33m`[0;1;33m└7$$$$l l$$$$7└"[0;33m``[0;37m b,  [0;33m`[0;1;33m└*.[0;33m_[0;37m`└*7[0m
                 [33m*,,_..`[0;1;33m7$$$$b[0m ;; $$$$$┐,_[33m`[0;1;33m└b[0m $

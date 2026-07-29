@@ -5,7 +5,7 @@
 # Source SHA-256: 125360cae90b2309fd51f4139fe6dc95353314523d6cea890658cdcbc4d47938
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: crs-hmes.ans by Crasher + Shadow (buzina6); released in buzina6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
 [34m=┴╖_₧╤╫▒Uìî m''/µa╫ Ω±`f `[0;36m [0;37m j$$[0;1;37mZ$├''[0;34m   [0;1;37m.┐`$b#S$┘`[0;34m   /ì └/▒¬,`£ íá¬₧ │8║\g═[D &Ujƒv[0m
 [34m⌠⌂                   [0;36m  [0;34m [0;36m  [0;37m  ░  ┘ [0;34m      [0;1;37m [0m       [34m     ╝    ╦                 ╞  ╦ [0m
 [34m╦─JûZ▒æ¢ôûZX╕ ôûZX╕ ╢`[0;36m [0;37m,┐l+┘"` [0;1;37m  [0m     [34m ¬,`£ [0;37m   [0;34m  \ 7╚ ! / ▒vH2 &Tp┤Ö@_k║╥=Ü╜{╬δ«[0m
-[34m+╧¢µ┌j╫▒Uìî m''Uìî m''[0;36m [0;34mE[0;36m [0;1;37m   [0;34m,[0;36m  [0;37m    [0;34m `.\╝>e╦nÜ:.\╝>,┼ ┬q# ├Ñ\ grÄ√3^<t<"╧╞₧╞_v≈å╘t¿[0m
+[34m ╧  ┌ ╫▒            [0;36m [0;34m [0;36m [0;1;37m   [0;34m [0;36m  [0;37m    [0;34m    ╝  ╦     ╝  ┼ ┬   ├             ╧╞ ╞    ╘  [0m
 [34m¢}5P =Æ└,µ?./Ω,µ?./Ω░ùäΦ≈ƒ╘╛┤Ñ╞ `.\╝G Me╦nÜ=╥7╚ ┐╝," # `.\╝>,*≈·pmrÆ,k╔└`ôg1╓▄╪}[0m
 [34m─═⌐¥* ╔ ≥ û''½êΩ/.?µ,└Æ\üp⌡ºqum╒F#Y,▀ ! / ▒v_╞/B. ╩+Wj2ÿ/k┼½≤4╩K1<D[═g\║8│ ₧u;D â[0m
 [34mó╦éL8} _æ¢ôûZX''m îìU▒╫[0;37m [0;34mûô¢æ┴o╩}≥!û!+G ├ íá¬₧ │8║\g═tFΘ∞╙▌╠H█m┘/`mà¢e9┌┤╝/ ≡H┤Ä +[0m

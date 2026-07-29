@@ -5,7 +5,7 @@
 # Source SHA-256: 04e56c02261181df8be3cc6b1905ab0aee6614f857bf96c99692bad6d1291693
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TC.ICE by Tempus Thales (ice-9407); released in ice-9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 31-73
 # Columns: 1-80
 
@@ -31,8 +31,8 @@ Write-Host '
                                        [36m░░░░▒▒▒▒▄▄[0;37m▀[0;1;37;47m▒▒▒▒░░   ░░▒▒▓▓[0;1;37;40m▀[0m
                                     [36m░░░▒▒▒▒▓▓▓▓▓▓▓▄[0;1;37m▀[0;1;37;47m▓▓▒▒░░░▒▒▓▓[0;1;37;40m▀[0;36m▄▒▒░░░░[0m
 [36m [0;30mCorwin, fucking lighten [0;36m░░    ░ ░░░▒▒▒▓▓▓▓██████▓▓▓▄[0;1;37m▀[0;1;37;47m▓▓▒▒▒▓▓[0;1;37;40m▀[0;36m▄▓▓▓▓▒▒▒▒░░░░[0m
-[36m [0;30mup man.  You take[0m     [36m░░▒▒▓█▀▀[0m     [36m▀▓▓▓██[0;36;46m          [0;36;40m█▓▄[0;1;37;40m▀[0;1;37;47m▓▓▓[0;1;37;40m▀[0;36m▄▓▓████▓▓▓▓▒▒▒▒░░[0m
-[36m [0;30mjokes on IRC WAY too [0;36m░▒▓██▀ [0;33m░░░░░░░░  [0;36m▀▀[0;1;36;46m░░░        [0;36m████▄[0;1;37m▀[0;36m▄▓[0;1;36;46m░[0;36m██████████▓▓▀▀  [0;33m░░[0m
+[36m [0;30m                 [0m     [36m░░▒▒▓█▀▀[0m     [36m▀▓▓▓██[0;36;46m          [0;36;40m█▓▄[0;1;37;40m▀[0;1;37;47m▓▓▓[0;1;37;40m▀[0;36m▄▓▓████▓▓▓▓▒▒▒▒░░[0m
+[36m [0;30m                     [0;36m░▒▓██▀ [0;33m░░░░░░░░  [0;36m▀▀[0;1;36;46m░░░        [0;36m████▄[0;1;37m▀[0;36m▄▓[0;1;36;46m░[0;36m██████████▓▓▀▀  [0;33m░░[0m
 [33m [0;30mseriously.[0m           [36m▒▓█▀ [0;33m░░▒▒▒▒▒▒▒▒░░░░  [0;36m▀[0;1;36;46m░░     [0;36m█[0;36;46m  [0;36;40m█[0;36;46m [0;1;36;46m░[0;36m█[0;1;36;46m░░[0;36m████████[0;1;36;46m░░░[0;36m▀ [0;33m░░░░▒▒[0m
                      [36m░▒█ [0;33m░░▒▒▓▓▓▓▓▓▓▓▒▒▒▒░░░ [0;36m▀[0;1;36;46m▒░░[0;36m█[0;1;36;46m░ ░░ ░░▒░[0;36m█[0;1;36;46m░ [0;36m███[0;36;46m [0;1;36;46m░░▒[0;36m▀ [0;33m░░▒▒▒▒▓▓[0m
                      [36m▒▓▌[0;33m░▒▒▓▓█[0;33;43m [0;33;40m██████▓▓▓▓▒▒▒░░ [0;36;40m▀[0;1;36;46m▒▒░░░▒▒▓▓▒░ [0;36m██[0;36;46m [0;1;36;46m░░▒▒[0;36m▀ [0;33m░░▒▒▓▓▓▓[0;33;43m  [0m

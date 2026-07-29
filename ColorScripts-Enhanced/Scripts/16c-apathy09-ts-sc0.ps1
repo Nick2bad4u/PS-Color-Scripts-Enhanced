@@ -5,7 +5,7 @@
 # Source SHA-256: 6c64c9d0aed130ce41f8b7d007f81a57be17e3e17e79f7cc0cfdc9e3c4b15139
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-SC0.ANS by Transient (apathy); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Stone Chapel
 # SAUCE Author: Transient
 # SAUCE Group: apathy
@@ -35,7 +35,7 @@ Write-Host '
 [1;30m█▓█[0;1;30;47m▓[0;1;30;40m▒▀█[0;1;30;47m▓[0;1;30;40m▄[0m [1;30;40m░░[0m [1;30;40m░░░░[0;1;36;47m░[0m▀▀▀▀[1;30;47m░ ░[0m██[1;30;47m▓░░[0m██▀▀▀ ▄▀[1;30m  █▌▐█[0;31m░[0;1;30m█[0m [1;30m███▌▄▀[0m ▄████   bigger if you
 [1;30m▓[0;1;30;47m▓[0m [1;30;40m██[0;1;30;47m▓[0m [1;30;40m█░▌[0m [1;30;40m░░[0m [1;30;40m▒░[0m█▄▄[1;30;47m░[0m  [1;30;47m▓[0m ▀▀▀▀▀▀ ▄[1;30m▓[0m  ▄[1;30;47m▒[0m  [1;30;40m▄▀[0m [1;30;40m█[0;31m░[0;1;30m▀[0m [1;30m▄███[0m ▄▄██████    like .. put
 [1;30;47m▓▒▓[0m [1;30;40m█░[0;1;30;47m▓[0m [1;30;40m█[0;1;30;47m▓[0;1;30;40m▌░░▓▒[0;31m [0m [37m█[0;1;30;47m░[0m▌ [1;30;47m░▒[0m ▐[1;30;47m▒[0m  [1;30;47m░[0m▌ ▐▌ ▐[1;30;47m░[0m  [1;30;40m▀[0m [1;30;40m▄██▀[0m [1;30;40m███▀[0m ▄████████     anything
-[1;30;47m▓[0;1;30;40m▌[0m [1;30;40m▐░[0;1;30;47m▓[0;1;30;40m▌░█[0;1;30;47m▓[0;1;30;40m▓░█[0m [1;30;40m░[0;31m  [0;37m▐[0;1;30;47m░[0m ░[1;30;47m░[0m▌░[1;30;47m▒▓[0m █[1;30;47m░▒[0m ▐[1;30;47m░[0m ▐[1;30;47m░[0m [1;30;40m▄ ▀▀ [0m [1;30;40m▄▀▀[0m ▄▄██████████    ya'' want in it.
+[1;30;47m▓[0;1;30;40m▌[0m [1;30;40m▐░[0;1;30;47m▓[0;1;30;40m▌░█[0;1;30;47m▓[0;1;30;40m▓░█[0m [1;30;40m░[0;31m  [0;37m▐[0;1;30;47m░[0m ░[1;30;47m░[0m▌░[1;30;47m▒▓[0m █[1;30;47m░▒[0m ▐[1;30;47m░[0m ▐[1;30;47m░[0m [1;30;40m▄ ▀▀ [0m [1;30;40m▄▀▀[0m ▄▄██████████                   
 [1;30m▀[0m  [1;30;47m▓▓[0;1;30;40m▀[0m [1;30;40m█▀[0m  [1;30;40m░[0m [1;30;40m░[0m [31m [0m [1;30;47m▒[0m▌ █[1;30;47m░[0m▌ [1;30;47m▒▓[0;1;30;40m▌[0;1;30;47m░▒▓[0m▌▐[1;30;47m░[0m ▐▌  [1;30;47m▒▓[0;1;30;40m▌▄▌[0m ▄▄█████████████▌                  ▐█
 [1;30m1o▀o%[0;31m [0;1;30m▀or░igonal[0m▄[1;30;47m▓[0m ██[1;30;47m░[0m ▐[1;30;47m░▒[0m ▐[1;30;47m░▒▓[0m▐[1;30;47m░[0m▀█[1;30;47m░[0m▄  [1;30m█▌[0m [1;30m▀▄[0m ███████████████  [1;30m   ts[0m/[1;30mapa     [0m ▄██
 [1;30mtransient[0m/[1;30mapathy![0m▀ ▀█▄ █[1;30;47m░▒[0m▄ █[1;30;47m░▒[0m [1;30;47m░▒[0m ▀    [1;30m▀[0m  ▄▄███████████████████▄▄▄▄▄▄▄▄██████[1;30;47mts[0m'

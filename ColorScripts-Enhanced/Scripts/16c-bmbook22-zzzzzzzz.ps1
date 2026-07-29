@@ -5,7 +5,7 @@
 # Source SHA-256: 38eeef2859d7087901a75662a9d2a58fd436e5dc840afac6bdd731ac8586fde9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZZZZZZZZ.ANS by black maiden (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: thanks for watching
 # SAUCE Author: black maiden
 # SAUCE Group: black maiden
@@ -17,7 +17,7 @@
 Write-Host '
 [33m----------------[0;37m [0;32m█[0;37m [0;33m --------------------------------------------------------[0;36m ■ [0;33m-[0m
 [31m▄▓▓▓▓██[0;1;31;41m▄█[0;1;31;47m▀ [0;1;30;40m█▄[0m  [1;30m▄[0m [32m▀▄[0;37m [0;31m▀[0;1;33;41m░░[0m  [31m▀█▌[0;32m░[0;31m▐██████████▄▄▄▄[0m
-[31m█ ████▀▀[0;37m [0;1;31;41m▀▀[0m [32m█[0m   [1;30;43m▀[0;33m▄[0;37m [0;1;32;42m▓[0;32m▄[0;37m [0;31m█[0;36m░[0;37m [0;1;30m▄[0m  [32m█[0;37m [0;31m▀[0;1;31;41m▀▓▓▓░░░░[0;31m██▄▀▀▀▀[0m   [37meverything will end[0m
+[31m█ ████▀▀[0;37m [0;1;31;41m▀▀[0m [32m█[0m   [1;30;43m▀[0;33m▄[0;37m [0;1;32;42m▓[0;32m▄[0;37m [0;31m█[0;36m░[0;37m [0;1;30m▄[0m  [32m█[0;37m [0;31m▀[0;1;31;41m▀▓▓▓░░░░[0;31m██▄▀▀▀▀[0m   [37m                   [0m
 [31m▓ [0;37m [0;1;33;41m░░[0;31m█[0m   [31m██[0;37m [0;32m▓[0m   [1;31;43m▒▒[0;33m▀[0;37m [0;1;32;42m█[0m  [36m▓[0;37m [0;33m [0;1;30;43m▀[0;33m▄ [0;32m▀▄[0m    [31m▀▀▀█▄▄▀▀▀▀▀▄▄▄▄▄[0m     [37msome day.[0m     [31m▀█▄[0m
 [31m░[0;36m░[0;37m [0;31m█▀[0;37m  [0;36m░[0;37m [0;31m▓ [0;37m [0;32m░[0;33m█[0;37;43m [0;33;40m [0;1;31;43m░[0;33m█[0;32m▄[0;1;32;42m▄[0;32m▄[0;37m  [0;36m▀[0;37m  [0;33m█[0;1;31;43m░[0;33m▀▄[0;37m [0;32m█▀[0m   [31m▀▀ [0m            [31m▀▀▀▄▄▄[0m              [31m▐█▌[0m
 [37m [0;36m▓[0;37m  [0;1;37m▄▌[0m [36m▓[0m   [32m▀[0;37m [0;37;43m░ [0;33;40m ██[0;37;40m [0;32;40m▀[0;37;40m [0;32;40m▄[0;37;40m ▀[0;35;40m▀[0;37;40m [0;37;43m░░[0;33;40m [0m   [32;40m  [0;37;40m [0;36;40m▄▓[0m                    [31;40m▀▀▄▄[0m         [31;40m▄█▀[0m

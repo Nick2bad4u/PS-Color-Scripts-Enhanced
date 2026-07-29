@@ -5,7 +5,7 @@
 # Source SHA-256: 82e697b3c484a41a0fac0b2c445bb3629522aca96afc3e55b28c9241a1a97f3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-NCT.ANS by Creator + Hellspawn (avenge/tribe); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: terbium
 # SAUCE Author: _666
 # SAUCE Group: avenge/tribe
@@ -28,7 +28,7 @@ c[1mhoose [0ma f[1mont [0m.[1m..     [0;1;30m▄      [0;1;37;47m░[0m�
 [1;37;44m Default DOS Font    [0m [1;30;47m█[0;1;30;40m    [0m▐     ▀█   ▀■ [1;31;47m▓[0;1;31;43m█▓▒░▒[0;33m▀▄[0;37m▀▄■[0;1;37;47m░░░░░[0m▌[33m▀▒ ▐   ▌ ▄ [0;37m▀▀▄      [0;1;30m▄[0m
  Freehand Text       [1;30m [0;1;30;47m▓[0;1;30;40m     [0m■      ■     [33m▌[0;1;31;47m▓[0;1;31;43m▒░[0;1;31;40m▀[0;1;31;43m▓▒[0;1;31;40m▄[0;33m▌[0;37m▐█[0;37;47m [0;1;37;47m░░[0m▄ ▀[33m▄[0;1;31;43m░[0;33m▒      ▒▓ [0;37m▀  [0;1;30m▄▀[0m
  Futuristic Text     [1;30m▐[0;1;30;47m▒[0;1;30;40m                  [0;33m▀▀▄▄[0;1;31;43m▄▒░[0;1;31;40m▀[0m·█[1;47m░[0m▄[1;47m░[0m▀[33m▄▄[0;1;31;43m░▒■░[0;33m▌  ·  ░▓▌[0;1;30m▀▄▀▄▌ ▄[0m
- Child''s Handwriting [1;30m▐[0;1;30;47m▓[0;1;30;40m                   [0;1;31;47m▓[0;1;31;40m▄▄▀[0;1;31;43m░[0;33m■[0;37m▄█[0;37;47m [0;37;40m▀▀[0;33;40m▄[0;1;31;43m▄[0;1;31;40m▓[0;1;31;43m▒[0;33m▀▄[0;1;31;43m▒[0;33m▀   ■   ▐▓[0;1;30m▐[0;1;30;47m▓[0;1;30;40m▐▄▌▀▄▄[0m▄▀
+                     [1;30m▐[0;1;30;47m▓[0;1;30;40m                   [0;1;31;47m▓[0;1;31;40m▄▄▀[0;1;31;43m░[0;33m■[0;37m▄█[0;37;47m [0;37;40m▀▀[0;33;40m▄[0;1;31;43m▄[0;1;31;40m▓[0;1;31;43m▒[0;33m▀▄[0;1;31;43m▒[0;33m▀   ■   ▐▓[0;1;30m▐[0;1;30;47m▓[0;1;30;40m▐▄▌▀▄▄[0m▄▀
  Middle Ages Text     [1;30m▀                   [0;33m■[0;1;31m▀[0;1;31;43m░[0;33m▀[0;37m▄█▀[0;33m▄▄[0;1;31;43m▄▄▓[0;1;31;40m▓[0;33m▀▄▄▀  ▄■ ▌    ▀[0;1;30m▄[0;1;30;47m▓[0;1;30;40m▐▄[0;1;30;47m▓[0;1;30;40m [0;1;30;47m▓[0m▄[1;30;47m░[0m▐
                      [1;30m▐▀                   [0m▐▀▄█▀[33m▄▓[0;1;31;43m░▒▓▒░[0;33m▀▀ · ▄▓ ▄ ▐▌  [0;1;30m▄▀[0;1;30;47m▓[0;1;30;40m▌▌▄▀[0;1;30;47m▓[0m▄[1;30;47m▒[0m▄■
                       [1;30m▀                    [0m▀■ [33m▀ ▀▀▀▀▄░ ■ ▄▓▀  [0;1;30m■▄▄▄▄█[0;1;30;47m▓[0;1;30;40m▀[0;1;30;47m▓[0;1;30;40m █■█[0m■[1;30;47m▓▒░[0m■

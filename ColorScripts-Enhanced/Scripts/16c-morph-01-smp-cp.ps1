@@ -5,7 +5,7 @@
 # Source SHA-256: 25b8d1d5cd1bfe2cb3b1bba2d7450ffd357615e5655d560ca3a7207cba8b89d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-CP.ANS by shrimp (morph); released in morph-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cess pool
 # SAUCE Author: shrimp
 # SAUCE Group: morph
@@ -32,7 +32,7 @@ Write-Host '
 [32m)[0;37m [0;32m)[0;1;32m)[0m [1;32m:[0m [32m)[0;1;32m$$$$$$$$$$$b}[0;32m} }[0m    [33m$[0;1;31m$[0;33m$[0m   [36m-[0;1;36m*?$$$$$$$$$[0;36mb[0m    [36m░[0;1;36m░░[0;36m~"[0;1;36m²╝$$@y[0;36m,.d[0;1;36m$[0;36m►►>>[0;37m [0;36m>[0m
      [32mi[0;37m  [0;32m`[0;1;32m▓▓[0;32m▓"[0;1;32m²*S$$$$byyy[0;32my[0;37m [0;32my[0;37m [0;32my[0;1;32myyyy[0;32m┐,._[0;36m~²[0;1;36m?$$$$$$[0;36m$[0m            [36m`²[0;1;36m?$$$[0;36m''[0m
     [32md[0;1;32m$[0;32mb[0;37m  [0;32m░░[0m     [32m||"[0;1;32m╝S$╝[0;32m"[0m    [33my┐[0;32m`7[0;1;32m$$$[0;1;32;42m$[0;1;33;42m$[0;1;37;42m$[0;32mb [0;36m$[0;1;36m$$[0;1;37m$$$[0;36mP[0;37m  [0;36m>[0;37m [0;33m)[0;1;31m$$$►>[0;33m >[0m   [36m`[0;1;37mY[0;36m''[0m
-    [32m`ⁿ''[0m         [32m::[0;37m  [0;32m [0;1;32mY[0m      [33m$[0;1;31m$[0;33m*[0;37m [0;32m7[0;1;32m$$$[0;1;32;42m$[0;1;33;42m$[0;32mP[0;37m [0;36m$[0;1;36mWW[0;1;37mW[0;36m|`[0;37m [0;33myyyy[0;1;31m$$[0;33mP''[0m        [1;36mi[0m
+    [32m   [0m         [32m  [0;37m  [0;32m [0;1;32m [0m      [33m [0;1;31m [0;33m [0;37m [0;32m [0;1;32m   [0;1;32;42m [0;1;33;42m [0;32m [0;37m [0;36m [0;1;36m  [0;1;37m [0;36m  [0;37m [0;33m    [0;1;31m  [0;33m  [0m        [1;36m [0m
                      [1;32m|[0m      [33m$[0;1;31m$[0m [32m''''7[0;1;32m$$[0;1;32;42m$[0;32mP[0;37m [0;36mW[0;1;36mW[0;36m|[0;1;36m|[0;36m|:[0;37m [0;33my[0;1;31m$$$$$$[0;33m`[0;37m [0;33m`[0m       [36m:[0m
                      [32m:[0m      [33m$[0;1;31mW[0;33m$ [0;37m  [0;32m7[0;1;32m$[0;32mP[0;37m [0;1;36mW||[0;36m:::[0;37m [0;33my[0;1;31m$$$$$$[0;33m$[0m         [36md[0;1;36m$[0;36mb[0m
                             [33mW[0;1;31m|[0;33mW[0m    [32mY[0;37m  [0;1;36m|[0;36m::[0;37m [0;33myyy[0;1;31m$$$▓▓▓[0;33m▓▓[0m         [36m`ⁿ''[0m

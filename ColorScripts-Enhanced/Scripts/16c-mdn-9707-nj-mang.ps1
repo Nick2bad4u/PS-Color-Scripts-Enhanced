@@ -5,7 +5,7 @@
 # Source SHA-256: 811e5ff232a2b559bbe19d3ed7f0b5f20048e8ed36818d2e87cc0b9efeab49d7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NJ-MANG.ANS by Ninja (Maiden); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mangue Maiden
 # SAUCE Author: Ninja
 # SAUCE Group: Maiden
@@ -30,7 +30,7 @@ Write-Host '
 [1;36;40m▀[0;36m▀[0;32m▄[0;1;32;42m▄[0;1;32;40m███[0;1;32;42m███▄[0;32m▄[0;33m▀[0;1;31;43m▀[0;1;31;40m████[0;1;31;43m▄[0;1;31;40m▄▄[0;1;31;43m█[0;1;31;40m██[0;1;31;47m█▓▓█[0;1;31;40m▀[0;32m▄[0;1;32;42m▄[0;1;32;40m██[0;1;32;42m█[0;1;32;40m████[0;1;32;42m██▄▄▄▄▄[0;32m██████[0;1;32;42m     [0;32m█████[0;1;32;42m▄▄▄▄███[0;32m█▄▄▄▄▄▄▄█[0;1;32m███[0m
 [1;32;42m▄▄[0;1;32;40m██[0;1;32;42m████▀[0;1;32;40m▀▀[0;32m▀[0;34m▄▄▄[0;33m▀[0;1;31m▀▀██[0;1;31;43m▄[0;1;31;40m▄█▀▀▀[0;34m▄[0;1;34m▄▄[0;32m▀[0;1;32m▀▀[0;1;32;42m▀[0;1;32;40m██[0;1;32;42m██[0;1;32;40m██[0;1;32;42m████████████▄▄▄▄▄██████████████▄▄▄▄▄██[0;1;32;40m███[0m
 [1;32;40m▀▀▀▀▀▀[0;32m▀[0;34m▄▄████[0;1;34;44m  ▄▄█[0;1;34;40m▄▄▄▄▄[0;1;34;44m▄[0;1;34;47m████[0;1;34;40m██[0;1;34;47m██[0;1;34;40m▄▄[0;32m▀[0;1;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[30;47m█[0;37;40m    [0;1;37;40m [0;34m▐██████[0;1;34;44m ▐[0;1;34;40m███[0;1;34;47m▓▓[0;1;34;40m████[0;1;34;47m█▓▓▓█[0;1;34;44m▀█[0;1;34;47m█▓▓[0;1;34;40m▌[0;1;30;40m<- Even mangue boys phear us![0m
+[30;47m█[0;37;40m    [0;1;37;40m [0;34m▐██████[0;1;34;44m ▐[0;1;34;40m███[0;1;34;47m▓▓[0;1;34;40m████[0;1;34;47m█▓▓▓█[0;1;34;44m▀█[0;1;34;47m█▓▓[0;1;34;40m▌[0;1;30;40m                             [0m
 ▄[1m▄▄▄▄[0m  [30;44m░[0;34;40m█[0;1;34;44m [0;34m█ [0;1;34;44m ░█[0;1;34;40m█ [0m  [1;34m▄ ▄[0m  [1;34m [0;1;34;47m█▓█[0;1;34;44m█[0;34m █[0;1;34;44m█[0;1;34;47m█▓[0m    ▄[1m▄▄▄▄[0m      ▄[1m▄▄▄▄[0m      ▄[1m▄▄▄▄[0m    [31m [0;37m ▄[0;1;37m▄▄▄▄[0m   [30;47m█[0m
 [37;40m▀▀[0;1;37;40m▀▀▀[0m  [30;44m░[0;34;40m█[0;1;34;44m [0;34m█▌▐[0;1;34;44m ▐[0;1;34;40m█▌[0m  [1;34m▐[0;1;34;47m█[0;1;34;40m▌[0m  [1;34m▐[0;1;34;47m██[0;1;34;40m█▌[0;34m▐[0;1;34;44m▐[0;1;34;40m██[0;1;34;47m█[0m    ▀▀[1m▀▀▀[0m      ▀▀[1m▀▀▀[0m      ▀▀[1m▀▀▀[0m      ▀▀[1m▀▀▀[0m  [30;47m██[0m
 [1;30;40m       [0;34m▐█[0;1;34;44m [0;34m██ [0;30;44m░[0;1;34;44m ▀[0;1;34;40m█▄▄▄[0;1;34;44m█[0;1;34;40m▄▄▄█[0;1;34;47m███[0;34m █[0;1;34m█[0;1;34;47m█[0;1;34;40m█▌[0;1;30;40m  [0m                                  [1;30mninja[0m([1;30mmdn[0m)[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 426dcfc8de1a235365b3ad8d3b863115d70be3dacdc2a1aaad6c13e646ace54a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-FIC01.ANS by Mr.Wrong (Fokus fonting); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fiction #01
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Fokus fonting
@@ -33,7 +33,7 @@ Write-Host '
    [1;30m▀[0m░[1;30m░█[0;1;30;47m▄▓[0;1;30;40m█[0m  [34m▀[0;37m  [0;1;35mF[0;35m i c t i o n --[0;37m [0;35me - z[0;34m▄[0;35mi[0;37m [0;35mn[0;37m [0;35me[0;37m░ [0;35m--[0;37m [0;34m▄[0;37m  [0;35mt[0;37m [0;35mo p[0;37m░░░[0;35mt e n  [0;34m▀[0;37m [0;1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0;1;30;47m▓[0m [1;30m░[0m [1;30m▒[0m
   [1;30m ▄[0m▒[1;30m▄▓▀▀▄[0m░░░[1;30m▄▄[0m▄▄▄[1;30m▄[0m▄[1;30m▄▄ ▄[0;1;30;47m▀[0m▄[1;30m▄[0m▄[1;30m▄▄ ▄[0;1;30;47m▀▓[0;1;30;40m▄▄▄[0m▄[1;30m▄▄[0m▄[1;30;47m▀▒▓[0;1;30;40m▄ ▄▄▄[0m▄▄[1;30m▄▄ ▄[0;1;30;47m▀░▒▓[0;1;30;40m▄▄[0m▄▄[1;30m▄▄[0m▒▒▒[1;30;47m▓[0;1;30;40m▌[0m [1;30;47m▒[0m [1;30m░[0m [1;30m▓░[0m
    [1;30m▐▀[0m [1;30m█▄▀▀  ▄▓▀▀       ▄▀[0m     [1;30m▄[0m [1;30m▀▀[0m   [1;30m▀▀[0m [1;30m▄█▀▀[0m    [1;30m▀▀▀[0m   [1;30m ▀▀▀▀ [0m  [1;30m▀▀▄[0m [34m [0;1;30m▄▀▀▄[0;1;30;47m░[0m [1;30m░▄▀[0m
-  [1;30m   [0;1;30;47m▓▄[0;1;30;40m▌[0m   [1;30m▀[0m     [33m#[0;1;33mFirst[0m       [33m  [0m    [33m#[0;1;33mSecond[0m  [1;30m▀[0m    [33m  [0m   [33m#[0;1;33mThird[0m   [34m  [0;1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0;34m [0;1;30m▐[0;1;30;47m▄[0;1;30;40m█▀░[0m
-   [1;30m [0m [1;30m░▀▀▄▄ [0m [1;30m [0;33m #[0;1;33mFourth[0m                [33m#[0;1;33mFifth [0m               [33m#[0;1;33mSixth[0m [34m  [0;1;30m▄▄▀▀[0m [1;30m [0m
+  [1;30m   [0;1;30;47m▓▄[0;1;30;40m▌[0m   [1;30m▀[0m     [33m [0;1;33m     [0m       [33m  [0m    [33m [0;1;33m      [0m  [1;30m▀[0m    [33m  [0m   [33m [0;1;33m     [0m   [34m  [0;1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0;34m [0;1;30m▐[0;1;30;47m▄[0;1;30;40m█▀░[0m
+   [1;30m [0m [1;30m░▀▀▄▄ [0m [1;30m [0;33m  [0;1;33m      [0m                [33m [0;1;33m      [0m               [33m [0;1;33m     [0m [34m  [0;1;30m▄▄▀▀[0m [1;30m [0m
    [1;30m [0m   [1;30m [0m [1;30m ▀ [0;33m [0;1;33m       [0m       [33m [0;1;33m      [0m            [33m [0;1;33m     [0m        [33m [0;1;33m     [0;1;30m ▀[0m  [35m  [0;1;30m [0;35m      [0m
    [1;30m                                                               ▀[0m    [1;30m([0;35mFokus[0;1;30m)[0m'

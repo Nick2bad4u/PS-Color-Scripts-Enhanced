@@ -5,7 +5,7 @@
 # Source SHA-256: a8cf3e4061a263b33fd7a1b37036f9e1348b37c10e60449d046c6db238430d97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-MIRRORSHADES.ANS by Cthulu (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mirroshades
 # SAUCE Author: Cthulu
 # SAUCE Group: Mistigris
@@ -26,7 +26,7 @@ Write-Host '
 [34m░░[0;35m■[0;34m▒▓▒▒▒▒▒▒▒▒▒▓▓▓██▓▒▒▒▒░[0;37m [0;34m░▒░▒[0;37m [0;1;31m█[0;1;33;41m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [34m░░░[0;35m■[0;34m▒▓▒▒▒▒▒▓▒▒▒▒▓[0;35;44m■[0;34;40m▓▒▒▒▒░[0;37;40m   [0;34;40m░▒░░▄[0;1;31;40m▀███████████████████████████████[0;1;37;41m"A[0;1;31;40m█[0;1;37;41mknowing[0;1;31;40m██████[0m
 [34m░░░[0;35m■[0;34m░[0;35m■[0;34m▓▓▒▒▒▒░░▒▒▒▒▒▒▒▒░[0;37m     [0;34m░▒▒░▄[0;1;33m [0;1;31m▀█████████████████████████[0;1;37;41mbunch[0;1;31;40m█[0;1;37;41mof[0;1;31;40m█[0;1;37;41mguys,[0;1;31;40m██████[0m
-[34m░░░░░░▒[0;35m■[0;34m▓▒▒▒░░░░▒▒▒░░░[0;37m       [0;34m░▒▒░▒[0;37m [0;1;31m▐[0;1;31;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37;41mbristling[0;1;31;41m▓[0;1;37;41mwith[0;1;31;41m▓[0;1;37;41mrock,[0;1;31;41m▓▓▓▓▓▓[0m
+[34m░░░░░░▒[0;35m■[0;34m▓▒▒▒░░░░▒▒▒░░░[0;37m       [0;34m░▒▒░▒[0;37m [0;1;31m▐[0;1;31;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37;41m         [0;1;31;41m▓[0;1;37;41m    [0;1;31;41m▓[0;1;37;41m     [0;1;31;41m▓▓▓▓▓▓[0m
 [34m░░░░[0;35m■[0;34m░░[0;35;44m■[0;34;40m▒▓[0;35;44m■[0;34;40m▒▒▒▒░░░░[0;37;40m           [0;34;40m░▒▒░▒[0;37;40m [0;1;31;41m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;37;41mpain[0;1;31;41m▒[0;1;37;41mand[0;1;31;41m▒[0;1;37;41moctane."[0;1;31;41m▒▒▒▒▒▒[0m
 [34m░░░░░░░░░▒▓▓[0;35;44m■[0;34;40m▒▒▒▒░░░[0;37;40m        [0;34;40m░░▒▒▒░▒[0;31;40m▐[0;1;31;41m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [34m░░░░░░░░░░▒▒▓[0;35;44m■[0;34;40m▓▒▒▒▒▒░░[0;37;40m  [0;34;40m░░░░▒▒▒▒░▒[0;37;40m [0;31;40m██████████████████████[0;1;37;41m- BRIAN W. ALDISS[0;31m██████[0m

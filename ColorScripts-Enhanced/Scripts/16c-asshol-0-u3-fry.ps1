@@ -5,7 +5,7 @@
 # Source SHA-256: 581862b791518a647d1d35a013699b6ffef59d274171dfa22be5e05b1b4c7c09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: U3-FRY.ANS by Unseen Fate (asshol-0); released in asshol-0 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [35m█[0;1;35;45m■█▓[0;1;35;40m▀[0;35m▀[0;37m [0;1;30m▄[0;34m▄[0;1;30;44m▀[0;34m████████[0;30;44mu3!(a) [0;34;40m██████[0;1;36;44m▓▓▓██[0;34m█[0;1;30;44m▀█[0;1;30;40m▄▄[0m [35m▀ ▄▄▄▄▄ ▀▀▀  [0;1;30m░[0;35m [0;1;30m [0;35m   [0m   [35m ▄ [0m
 [35m█[0;1;35;45m▀▀[0;35m█[0;37m [0;1;30m▀[0;34m▀█[0;1;36;44m▀██[0;34m██[0;34;47m░[0;37;44m▓[0;34;40m████████████████[0;1;36;44m░░░[0;34m████[0;1;30;44m▀[0;1;30;40m▓▓▀▀[0m [35m█[0;1;35;45m▓███[0;35m█     [0m         [35m▀▓▀[0;37m         [0m
 [35m▄ ▀▀▀[0;1;30m▀[0;35m░[0;37m [0;34m▀█[0;1;36;44m█▓[0;34m█[0;37m█▀▀▀▀▀▀▀[0;34m▀[0;37m▀▀[0;34m▀[0;37m▀[0;34m▀▀▀▀▀▀▀▀▀███[0;1;30;44m█[0;1;30;40m▀[0m [35m░▀▀▀[0;1;35;45m▐▀▀[0;1;30;45m▄[0;35m ▄▓▄ [0;37mhandle: unseen fate[0m
-[1;35;45m░[0;35m█[0;1;30;45m▀[0m [1;31;41m■[0;1;31;40m▄▄[0;31m  [0;1;30;44m▓[0;34m█[0;1;36;44m░[0;34m█[0;37m [0;31m▄█[0;1;31;41m▀▓▓█████[0;1;31;47m▄▄▄▄▄[0;1;31;41m█▀▀[0;31m██[0;37m [0;34m█[0;1;30;44m▄[0;1;30;40m██[0m  [1;31m▄[0;31m▄█[0;37m [0;35m▄▄▄▄▄ ▀[0;37mlocation: kÖKLAx PHAT CIT3e[0m
+[1;35;45m░[0;35m█[0;1;30;45m▀[0m [1;31;41m■[0;1;31;40m▄▄[0;31m  [0;1;30;44m▓[0;34m█[0;1;36;44m░[0;34m█[0;37m [0;31m▄█[0;1;31;41m▀▓▓█████[0;1;31;47m▄▄▄▄▄[0;1;31;41m█▀▀[0;31m██[0;37m [0;34m█[0;1;30;44m▄[0;1;30;40m██[0m  [1;31m▄[0;31m▄█[0;37m [0;35m▄▄▄▄▄ ▀[0;37m                           [0m
 [1;35;45m▓▓[0;35m█[0;37m [0;31m█[0;1;31;41m▐[0;1;31;40m▀[0;1;31;41m█[0;31m▄[0;37m [0;34m▀[0;30;44m░[0;34;40m▓[0;37;40m [0;1;30;40m▓[0;1;30;41m▄[0;31m▀▀▀▀▀▀▀[0;1;30;41m [0;1;31;41m▀[0;31m▀▀▀▀▀▀▀[0;1;30;41m▄█[0m [1;30m▓▓[0m [31m [0;1;31m▄[0;1;31;41m▀[0;31m▀▓▓[0;37m [0;35m█[0;1;35;45m███▄[0;30;45m░[0;35;40m▓  [0;37;40mpasswd:[0;35;40m [0;37;40m*******[0m
 [1;35;45m▀▀[0;35m█▌[0;31m▐█▌[0;1;31m▐█[0;31m█[0;37m [0;34m▀[0;31m ▐▓▓▓▓▓▓▓▄ ▓█▄▓▓▓▓▓▓▓▓▌[0;34m [0;1;30m░[0;31m [0;1;31;47m▓[0;1;31;41m█[0;31m▌▐█▌[0;35m▐[0;1;35;45m░▓██▀■[0;35m█     ░░   [0;1;30m▄▓[0;35m [0;1;30m▄■[0;35m         [0;1;30m░[0;35m   [0m
 [35m▀[0;1;30m▀[0;35m ▄[0;37m [0;31m▓▓ ▀[0;1;31m█[0;31m█[0;37m [0;31m░[0;30;41m░[0;31;40m▀ ▄▄▄ ▀█ [0;1;31;41m  [0;31m██▀ ▄▄▄ ▀[0;30;41m░[0;31;40m░ █[0;1;31;40m█[0;31m▀ █[0;1;30m█[0m [1;30m▐[0;1;30;45m▄[0;1;35;45m▀▀[0;35m█▀▀░  ▄▄▄[0;30;45m░[0;35;40m▓█[0;1;35;45m▄■[0;35m█[0;1;30m▀[0m  [1;30m▄▄▄▄▄█▀▀▀▀▓▄▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: c0e3af60d7ce92a581d63f84b2e1d91791ecb4e1d1e645a4c8e0b58611107881
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-KSAD.ANS by The Night Angel (Avenge Cult); released in avenge05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: K-Sad
 # SAUCE Author: The Night Angel
 # SAUCE Group: Avenge Cult
@@ -35,6 +35,6 @@ Write-Host '
 [35m ▓▄▌ [0;1;36m▌ [0;36m▓▀ [0;33m▀██▄▐█[0;1;33;43m▀█████[0;33m▓  [0;1;36m▓█▄ [0;33m░▄▄█[0;1;33;43m█▀[0;1;33;40m▀[0m▀ [1;30m░[0;33m█▌ ▐▀[0;1;33;43m▀█[0;1;37;40m█[0;1;37;47m█[0;1;33;43m██▀[0m [1;30;40m▄ [0;1;36;40m█▀▀ [0;33m▄▀ ▄[0;1;33;43m▄▄██[0;1;37;40m█[0;1;33;43m▀[0m [35m▄▓ [0;1;36m▓ [0;36m▀ [0;35m░ ▓▄[0m
 [35m █[0;1;35;45m▄[0;35m▌▄  [0;36m░ [0;35m▄▄[0;1;30m▄ [0;33m▀▀▀[0;33;47m▓[0;1;33;43m▀[0;33m█[0;1;33;43m███▄[0;33m▄ [0;1;36m░▓▓[0m       [36m▀[0;1;36;46m▀[0m [1;30;40m▓[0;33m█▀ ▀▄ ▀[0;1;33m▀[0;1;37;47m▀[0;1;33;43m██[0;1;33;40m▄[0;33m▄█▄▄ ▀█[0;1;33m▄[0;1;33;43m▄[0;33m██[0;33;43m [0;1;33;43m██▀[0m▀ [1;30m░[0;1;33;45m░[0;35m█ [0;1;36m▓░ [0;35m▄▓▄█▀[0m
 [35m [0;1;35;47m█▀[0;1;35;45m▄▄[0;1;30;45m▀[0m   [35m▄[0;1;35;45m▄ [0;1;30;45m▄[0;35m▀▀[0;1;30m▀▀ [0;33m▀▀[0;1;30m▀[0m     [1;36m░░  [0;33m░[0;30;43m▓[0;33;40m▀▀█▄▄ [0;1;30;43m▀[0;33m▀ [0;1;35;45m▄[0;35m▄ [0;33m▀▀ ▄▄█▄ ▀▀   ▄█▀██▀▀ ▄  [0;1;30m▓[0;35m█[0;1;30m▄ [0;1;36m░ [0;35m▄[0;35;45m [0;1;35;45m▄▌[0;35m▀[0m
-[35m [0;1;35;47m█▓█[0;1;35;45m██[0;35m▄ [0;1;30;45m▀ ▄[0m  [1;36;40mnew msgs   continue  [0;35m▄ [0;33m▀██ [0;1;30;45m▀[0;1;35;47m██[0;1;35;45m█▄[0;1;35;40m▄▄[0;35m▄ [0;33m▀▀▀▀  ▄ [0;35m▄▄ [0;33m▀████▀ [0;35m▄[0;1;30;45m▀[0;1;35;45m▄▄[0;1;30;40m▄ [0;35m▄█[0;1;35;45m█[0;1;35;47m▓▀[0;1;35;40m▄▓[0m
+[35m [0;1;35;47m█▓█[0;1;35;45m██[0;35m▄ [0;1;30;45m▀ ▄[0m  [1;36;40m                     [0;35m▄ [0;33m▀██ [0;1;30;45m▀[0;1;35;47m██[0;1;35;45m█▄[0;1;35;40m▄▄[0;35m▄ [0;33m▀▀▀▀  ▄ [0;35m▄▄ [0;33m▀████▀ [0;35m▄[0;1;30;45m▀[0;1;35;45m▄▄[0;1;30;40m▄ [0;35m▄█[0;1;35;45m█[0;1;35;47m▓▀[0;1;35;40m▄▓[0m
 [1;35;40m [0;35m▀ ▄[0;1;35;45m▄███▀ [0m   [36m▐[0;1;37;46mconference[0;36m▌  [0;1;36mquit  [0;35m▄[0;1;35;45m▄▌[0m [33m▀ [0;35m▄██[0;1;35;45m▀▀[0;1;35;47m▄▓▓█[0;1;35;40m█[0;1;35;45m█▀[0;1;35;40m▀[0;35m▀ [0;33m█▌ [0;35m▀[0;1;35;45m█▄[0;1;35;40m▄[0;35m▄    █▀[0;1;35;45m▀[0;1;35;47m▄▓[0;1;35;45m▄[0;35m▄ [0;1;30m▀[0;35m▀[0;1;35;45m▀[0;1;35;47m█[0;1;35;45m█[0;1;35;40m▀[0m
          [1;30;40m▀[0m                                             [33m▀[0m'

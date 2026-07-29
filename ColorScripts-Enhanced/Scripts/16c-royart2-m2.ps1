@@ -5,7 +5,7 @@
 # Source SHA-256: 8d1c1d61067d65bafd22f333a5f5ce84ab17d44499bdcf2e25d06c4c2a4b7ad5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M2.ANS by Roy (royart2); released in royart2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -38,7 +38,7 @@ Write-Host '
             [1;35m▐░ [0;1;30m▀▄ [0;34m▓ [0;1;30m▄▀  ▓ [0;34m░ [0;1;30m▓   [0;35m▐[0m
 [35m [0;1;30m.[0m          [1;35m▐░  [0;1;30m▀▄▄▄▀ ▄ ▀▄▄▀    [0;35m▒[0m        [1m3 Li[0mNE[1;30mS [0;1mW[0miT[1;30mH [0;1mD[0mUA[1;30mL [0;1mST[0mANDA[1;30mRD   [0;1;34m·[0m
 [1;34m   [0;1;30m.[0m        [35m▒▌[0m      [1;30m▄[0;1;30;42m▀[0;32m▓[0;1;30;42m▀[0;1;30m▄[0m       [35m▓    [0;1;34m·   [0;1mRU[0mNNi[1;30mNG [0;1mW[0miT[1;30mH [0;1mA[0mM[1;30mi [0;1mE[0mX
-           [35m▐░ [0;33m▄    [0;1;30m█[0;32m▒▓▒▓▒[0;1;30m█    [0;33m▄ [0;35m░▌[0m       [1mSY[0mSO[1;30mP [0;1mi[0mS [1;34mSTB[0m
+           [35m▐░ [0;33m▄    [0;1;30m█[0;32m▒▓▒▓▒[0;1;30m█    [0;33m▄ [0;35m░▌[0m       [1m  [0m  [1;30m  [0;1m [0m  [1;34m   [0m
            [1;35m▐░ [0;33m▐█▄   [0;1;30m▀▀▀▀▀   [0;33m▄█▌ [0;35m▐▒[0m                       [1;34m·[0m         [1;34m·[0m      [1;34m·[0m
            [1;35m█▒░ [0;33m█▓▒▄▄▄▄▄▄▄▄▄▓██  [0;35m░▓▌[0m                [1;34m·[0m
           [1;35m▐▒░[0;35m▌ [0;33m▐▓▓▒[0;1;30m░▒[0;1;30;47m▌[0;1;47m▐[0m█[1;30m▓▒░[0;33m▒▓▌ [0;35m░░░▌   [0;1;34m·  [0;1mTRSi/FAiTH   GERMAN HQ[0m       [1m·[0m

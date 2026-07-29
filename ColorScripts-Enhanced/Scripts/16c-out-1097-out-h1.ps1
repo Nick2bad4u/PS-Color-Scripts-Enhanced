@@ -5,7 +5,7 @@
 # Source SHA-256: 3f489340be02c94f8aec4d75448ce575892129b2a8f865f438110da3aea86d86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OUT-H1.ANS by OutWorld Arts (OutWorld Arts); released in out-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Halloween
 # SAUCE Author: OutWorld Arts
 # SAUCE Group: OutWorld Arts
@@ -29,7 +29,7 @@ Write-Host '
 [31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;33m▐▐▌[0m     [33m█[0;30;43m░▒[0;33m█[0;30;43m░[0;33m██[0;30;43m░[0;33m█[0;30;43m░[0;33m▌[0;30;47m││││││││││││││[0m█[30;47m══════ [0;1;32;47m■[0;30;47m│[0m
 [31m░░[0;33m▄▄▄▄▄▄ [0;31m░░[0;33m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;31m░░[0;33m▐▐▌  [0;1;33m·  [0;33m█[0;30;43m░░[0;1;33;43mTrick[0;33m█[0;30;43m░[0;33m▌[0;30;47m└────────────┴─────────┘[0m [1;33m·[0m
 [1;33m▀[0;33m▐░░░░░░▌[0;1;33m▀[0;31m░[0;33m█ [0;1;31mHave a safe and  [0;33m█[0;31m░░[0;33m▐▐▌[0m     [33m█[0;30;43m▒░[0;33m█[0;30;43m░[0;1;33;43mor[0;30;43m▒[0;33m█[0;30;43m░[0;33m█    [0;1;30m█▄████    █▄▄▄▄█▌[0m
-[31m░[0;33m▐░░░░░░▌[0;31m░░[0;33m█ [0;1;33mHappy Halloween[0;1;31m! [0;33m█[0;31m░░[0;33m▐▐▌[0m     [33m█[0;30;43m▒░[0;1;33;43mTreat[0;33m█[0;30;43m▒[0;33m█    [0;1;30m█▄▄▄█▄    ███▓▒░[0m
+[31m░[0;33m▐░░░░░░▌[0;31m░░[0;33m█ [0;1;33m               [0;1;31m  [0;33m█[0;31m░░[0;33m▐▐▌[0m     [33m█[0;30;43m▒░[0;1;33;43m     [0;33m█[0;30;43m▒[0;33m█    [0;1;30m█▄▄▄█▄    ███▓▒░[0m
 [31m░[0;33m▐░░░░░░▌[0;31m░░[0;33m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;31m░░[0;33m▐▐▌[0m     [33m█[0;30;43m▒[0;33m██[0;30;43m░▒[0;33m█[0;30;43m▒[0;33m█[0;30;43m▒[0;33m█    [0;1;30m▀████▀  [0;1;33m· [0;1;30m▐█▀ ▀▒  [0;1;33m·[0m
 [31m░[0;33m▐░░░░░░▌[0;31m░░░░░░░░░░░░░░░░░░░░░░░░[0;33m▐▐▌[0;1;33m·    [0;33m█[0;30;43m▒[0;33m██[0;30;43m░[0;33m██[0;30;43m░[0;33m█[0;30;43m░[0;33m█[0m     [1;30m▄▄▀░[0m      [1;30m░▓██▄[0m
 [31m░[0;33m▐░░░░░░▌[0;31m░░░░░░░░░░░░░░░░░░░░░░░░[0;33m▐█▌[0m                     ▄▄[1m▄[0m▄      [1;30m██▓▓░[0m

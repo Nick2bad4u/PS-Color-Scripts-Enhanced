@@ -5,7 +5,7 @@
 # Source SHA-256: f45b156641cba26c9a32be53def48b54c5748cbad5aaaebd7561ac38aa9e49f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC!DPZ.ANS by VOiCE (BLACK MAiDEN); released in bm9-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: DPZ Menu Template
 # SAUCE Author: VOiCE
 # SAUCE Group: BLACK MAiDEN
@@ -22,7 +22,7 @@ Write-Host '
 [1;30m─────────────[0;32m─[0;1;30m───────[0;36m│[0;1;30m───[0;32m─┬[0;1;30m─[0;32m─[0;1;30m─ ,at&$²"$[0;32m$[0;36m$[0;32m$$[0;1;30m`$[0;32m$$[0;1;30m$$ ─`[0;32m$[0;1;30;42m$[0;32m$$b[0;37m [0;1;30m$$²²²²²²$$[0;32m$[0;1;30m$[0;32m$$[0;1;30;42m$[0;32m$''[0;37m [0;1;30m─[0;32m─[0;1;30m──[0m
 [32m└─┐--─[0;36m──[0;32m─[0;37m [0;32m──[0;1;32m─[0;32m─[0;1;32m──[0;32m─[0;1;32m─[0;32m---┤-─[0;36m─[0;32m─[0;36m│[0;32m--[0;37m [0;1;30md¼$$$''  $$[0;32m$[0;1;30;42m$[0;32m$[0;37m [0;1;30m$$[0;32m$[0;1;30m$[0;32m$[0;1;30m,  $[0;32m$$[0;1;30m$?[0m [36m─[0;32m--[0;1;30m _,ad$[0;32m$[0;1;30m$[0;32m$[0;1;30m$[0;32m²''[0;1;30m_,a&$[0m [32m┐[0m
 [37m  [0;1;32m│[0;32m:[0;37m [0;36m([0;1;30mp[0;36m)[0;32mut commands[0;37m  [0;32m:[0m   [32m:[0;36m|[0m   [1;30m?$¼$$  ,$[0;32mS[0;1;30m$$$[0m [1;30m$$$$$$ad$@²"  _s$$¼¼$[0;32m$[0;1;30m$$$²a$$$$$$''[0m [32m|[0m
-[37m [0;32m:[0;1;32m│[0;32m∙[0;37m [0;36m([0;1;30mh[0;36m)[0;32mere like this[0m     [36m∙[0m   [1;30m "²@$ta$$@²" [0m [1;30m$[0;32m$[0;1;30m$¼$,[0m       [1;30m`²$$¼¼$$$$$$$$$$$$$''[0m  [32m:[0m
+[37m [0;32m [0;1;32m│[0;32m [0;37m [0;36m [0;1;30m [0;36m [0;32m             [0m     [36m [0m   [1;30m             [0m [1;30m [0;32m [0;1;30m    [0m       [1;30m                    [0m  [32m [0m
 [37m [0;32m|│[0;37m  [0;36m([0;1;30mb[0;36m)[0;32mlah blah[0m          [32m`∙ _ ''[0;37m  [0;1;30m   [0m     [1;30m.d$$$¼$![0m       [1;30m [0m  [1;30m²$¼$²²²"""""²²²$[0m
  [32m│ [0;37m  [0;36m [0;1;30m [0;36m [0;32m               [0m   [36m [0m       [1;30m   [0m    [1;30m          [0m  [1;30m           [0m [1;30m [0m  [1;30m  [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [32m [0m
 [37m [0;32m::[0;37m  [0;36m([0;1;30mk[0;36m)[0;32mookerookoo[0m        [36m│[0m   [32m∙[0m            [1;30m:[0m  [1;30m`²$$b[0m        [32m:[0m      [36m,∙[0;1;30m:[0;36m,[0m     [32m_∙²²∙[0m

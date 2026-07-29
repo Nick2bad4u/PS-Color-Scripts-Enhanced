@@ -5,7 +5,7 @@
 # Source SHA-256: 6b581051aa28d261621e5b70739dac0063acda462c75adfda06bee747cf7de9e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-TO2.ANS by sinful! (rune!); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 2nd pic.. total ad!
 # SAUCE Author: sinful!
 # SAUCE Group: rune!
@@ -34,7 +34,7 @@ Write-Host '
 [34m███████████████████████████▄[0;37m [0;33m▀▀[0;1;31;43m [0;33m▄[0;1;31m▀▀▀▀▀▀▄▄▄▄▄▄█████[0;1;31;47m█[0;1;31;40m████▄████████[0;1;31;43m▓▀ [0;33m▀[0;37m [0;34m▄████████▓█[0m
 [34m▀[0;1;36;44mtOtal! op: sl!<rune>    [0;1;34;44m   [0;34m██▄▄[0;37m [0;33m▀▀▀▀▀[0;1;31;43m ▀▀▀▓[0;1;31;40m█████████████████[0;1;31;43m▀▀▀[0;33m▀▀[0;37m [0;34m▄▄████████████[0m
 [34m█[0;1;36;44mcoming soon.. obv2!?[0;1;34;44m [0;34m██████[0;1;34;44m░[0;34m████████▄   [0;33m▀▀▀▀▀▀▀▀▀█[0;1;31m████[0;1;31;47m█[0;1;31;40m███[0;1;31;43m [0;33m▀[0;37m [0;34m▄▄██████▀▀▀███████[0m
-[34m█[0;1;36;44mlotsa nets and afilz  [0;34m█[0;1;34;44m  [0;34m█[0;1;34;44m░▒░[0;34m██[0;1;34;44m░[0;34m███▀ [0;1;32m▄█▄▄▄[0;34m ▀▀▀▀▀[0;37m [0;33m▓[0;1;31;43m▀▀▀[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m▀▀[0;33m▓[0;37m [0;34m▀▀▀▀▀[0;37m [0;1;32m▄▄▄▄▓▄[0m [34m▀███▀ [0m
+[34m█[0;1;36;44m                      [0;34m█[0;1;34;44m  [0;34m█[0;1;34;44m░▒░[0;34m██[0;1;34;44m░[0;34m███▀ [0;1;32m▄█▄▄▄[0;34m ▀▀▀▀▀[0;37m [0;33m▓[0;1;31;43m▀▀▀[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m▀▀[0;33m▓[0;37m [0;34m▀▀▀▀▀[0;37m [0;1;32m▄▄▄▄▓▄[0m [34m▀███▀ [0m
 [34m█[0;1;36;44m"tOtal = thee bomb!"[0;1;34;44m [0;34m██████[0;1;34;44m░[0;34m███████ [0;1;32m▀▓[0;1;32;42m▄[0;32m█[0;1;32;42m░▀▀▀▀▀▀▀▓[0;1;32;40m▄▄▄[0;33m▀▀▀▀▀[0;37m [0;1;32m▄[0;1;32;42m▓▀▀▀▀▀▀▀[0;32m██[0;1;32;42m░▄█[0;1;32;40m▀[0m [34m███▄ [0m
 [34m█[0;1;36;44m    [0;1;34;44m [0;1;36;44m [0;30;44m░[0;1;36;44m    [0;1;34;44m [0;1;36;44m        [0;1;34;44m  [0;34m██████████████▄[0;37m [0;1;32m▀▀▀▀[0;1;32;42m▄▄[0;32m█[0;1;32;42m░[0;32m██[0;1;32;42m [0;32m██[0;1;32;42m▀▀▀▀▀▀▀▀░[0;32m██[0;1;37;42m [0;32m██[0;1;37;42m▀[0;32m██[0;1;32;42m▄▓[0;1;32;40m▀[0m [34m▄██████[0m
 [34m▀[0;1;34;44m     [0;30;44m░▒░[0;1;34;44m [0;30;44m░[0;1;34;44m      [0;34m██[0;1;34;44m   [0;34m█▀████[0;1;34;44m░[0;34m████▀[0;37m [0;1;32m▄▄▄▄▄[0;1;32;42m▓▀[0;1;32;40m█▄[0;1;32;42m▓[0;1;32;40m▀[0;1;32;42m█[0;32m██████[0;1;32;42m░[0;32m██[0;1;37;42m▀ ▀▓▄ ▄[0;32m█[0;1;37;42m■[0;32m█[0;1;32;42m░▄█[0;1;32;40m▀▄[0;1;32;42m█[0;1;32;40m▄▄[0m [34m▀████[0m

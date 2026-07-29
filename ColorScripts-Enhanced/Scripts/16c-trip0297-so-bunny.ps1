@@ -5,7 +5,7 @@
 # Source SHA-256: 98f3520fe7d8946df736caf3c33901975b89f3eafb2401fe1b276864bd282dcc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-BUNNY.ANS by Soopaphunky (Trippin productions); released in trip0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Psycodelic Bunny?
 # SAUCE Author: Soopaphunky
 # SAUCE Group: Trippin productions
@@ -34,7 +34,7 @@ Write-Host '
 [37m  [0;33m█▐▐ ▄████▄ ▀▄▐▐▄▀▐▐▐▄[0;1;30m    ▄■▀▀▀ ░ ▀▓▀▀▀ ▄   ▀▀ ▄ [0;1;31mWHAT THA?!@[0m [1;31m█[0m [34m▄▄▄▄▄▄▄▄▄▄│▄▄▄▄│[0m
 [37m  [0;33m█▌▌████████ ▌▓▀▀▓▀▌▌█[0;1;30m ▄▀▀  [0m    [1;30m▄▄ ░ ▄▄▄▄▄      ▀[0m           [1;31m █[0m [34m█▌▌▓▄▌▌▌▌▌└────┘[0m
 [37m  [0;33m█▐▐████████▌▐▐▐▐▐▄▀▐█[0;37m  [0;36m▄▄▄▄▄[0;37m [0;1;30m▄█▓▒░▓░▒▒▒▓███▄ [0m   [1;31mIf this[0m     [1;31m█[0m [34m█▐▐▐▓▄▀▄▓▀▐▐▐▐▐▐[0m
-[1;33m▄▄▄▄[0;33m ████████ [0;37m [0;1;33m▄▄▄▄▄▄▄[0;36m  [0;37m [0;36m▀[0;37m [0;36m▌▌[0;1;30m █▓▒▒░█▀▀░░░▒▒▒▓██[0m   [1;31mansi doesnt[0m [1;31m█[0m [34m█▌▌▌▄▌▌▌▌▌▌▌▌▌▌▌[0m
+[1;33m▄▄▄▄[0;33m ████████ [0;37m [0;1;33m▄▄▄▄▄▄▄[0;36m  [0;37m [0;36m▀[0;37m [0;36m▌▌[0;1;30m █▓▒▒░█▀▀░░░▒▒▒▓██[0m   [1;31m           [0m [1;31m█[0m [34m█▌▌▌▄▌▌▌▌▌▌▌▌▌▌▌[0m
 [1;33m▀▄▓▄▀[0;33m ▀████▀ [0;1;33m▐▐▐▐▐▐▐[0;34m ▄████▄[0;36m▐ [0;1;30m█▓▒░░[0m   [1;30m█░░▒░░▒▓█[0m  [1;31mlook cool, [0m   [1;31m█[0m [34m█▐▐▓▀▐▐[0;1;34m ▄████▄ [0;34m▀[0m
 [1;33m▌▌▌▌▌▌[0;36m      [0;1;33m▌▌▌▀▓▄▌▌[0;34m████████ [0;1;30m▓▓▒█[0m [36m▐▐[0;1;30m▓██░░▄ ▀▀[0m [1;30m [0;1;31msmoke a dube   █[0m [34m█▌▌▌▌▌[0;1;34m ████████ [0m
 [1;33m──█▀▓┐▐▐▐▐▐▐▐▐▀▄▐▐▐[0;34m▐████████▌[0;1;30m▀ [0;36m  ▌▌▌▄[0;37m [0;1;30m▄▄▀[0m   [1;31mand look again    █[0m [34m█▐▓▄▐[0;37m [0;1;34m▐████████▌[0m

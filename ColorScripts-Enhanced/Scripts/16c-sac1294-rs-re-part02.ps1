@@ -5,7 +5,7 @@
 # Source SHA-256: 2b98aff72b59899345798a3c106d68046ce3afab9db6a05dda1dff319b493834
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-RE.ANS by raiser; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: RAVERS END logon
 # SAUCE Author: RAISER
 # SAUCE Group: READ THE INI FILE
@@ -34,7 +34,7 @@ Write-Host '
 [1;30;40m░░[0m [1;30;40m░░[0m       [1;31;40m▀▀██ ▀███████████████████████▄▄▄[0m           [1;30;40m░[0m [1;30;40m░░░░░▒░▒▒▒▒▒[0m [1;33;40m▄▀ [0;1;30;40m▒·rs·▒[0m
 [1;30;40m▒░░░[0m [1;30;40m░[0m [1;30;40m░[0m       [1;31;40m▀▀    ▀▀█████████████[0;1;31;43m▓[0;1;31;40m████████ [0m          [1;30m░[0m  [1;30m░░░░░▒▒▒▒▒▒[0m [1;30m▒▒ S╟\C▒[0m
 [1;30m▒▒░░░[0m [1;30m░[0m                  [1;31m█████████[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;43m▓▓▓▓▓▓[0;1;31;40m█▌ ██▄[0m       [1;30;40m░[0m   [1;30;40m░░░░▒▒▒[0m  [1;30;40m▒▒▒▒▒  ▒▓[0m
-[1;30;40m▒▒▒▒░░░░░░[0m             [1;31;40m▄▄  ▀███████[0;1;31;43m▓▓▓▓▒▒▒▒▒▓[0;1;31;40m▌▐████[0m     [1;30;40m░░░[0m [1;30;40m░░[0m  [1;31;40mGR[0;31mEETIN[0;1;30mGS[0m [1;30mTO ▓▓[0m
+[1;30;40m▒▒▒▒░░░░░░[0m             [1;31;40m▄▄  ▀███████[0;1;31;43m▓▓▓▓▒▒▒▒▒▓[0;1;31;40m▌▐████[0m     [1;30;40m░░░[0m [1;30;40m░░[0m  [1;31;40m  [0;31m     [0;1;30m  [0m [1;30m   ▓▓[0m
 [1;30m▒▒░░░░[0m [1;30m░[0m  [1;30m░[0m        [1;31m▄▄█████▄   ▀▀▀▀▀▀[0;1;31;43m▓▒▒░░░░░▒[0;1;31;40m ▐█████[0m      [1;30;40m░░░[0m [1;31;40mROY[0;31m,[0;1;30m░[0;31mHET[0;1;30mERO, XT 7[0m
 [1;30m▒░░░░░[0m     [33m▄▄▄▄[0;1;31;43m▒▓▓▓[0;1;31;40m██████████▄▄▄▄▄▄[0m          [1;31;40m▄███████▄[0m      [1;30;40m░░░░[0m [31mKAET[0;1;30mHE[0;1;31m [0;1;30mAND[0m  [1;30m▓[0m
 [1;30m░░░[0m  [1;30m░░[0m  [1;31;43m░░░▒▒▒▓▓▓[0;1;31;40m█████████████████████████████████████[0m   [1;30;40m░[0m [1;30;40m░░░[0m [31mBEAS[0;1;30mTMASTER[0;1;31m [0;1;30m;-)[0m

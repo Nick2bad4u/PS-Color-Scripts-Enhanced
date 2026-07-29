@@ -5,7 +5,7 @@
 # Source SHA-256: 5fc5c7d581c8002ec272b4c4715c6825acc9c06b1c10a8d73f822979825f5b1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-SH1.ANS by Mother Fungus (DoS); released in dos-v195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Satan's Hammer
 # SAUCE Author: Mother Fungus
 # SAUCE Group: DoS
@@ -38,7 +38,7 @@ Write-Host '
       [31m■  [0;1;31m▐▌ █[0;1;31;41m▓▓█▓▒░[0;31m█▓▒░▀[0;37m▄[0;1;30;47m░░░▒▒▒▒▒▒▒▒▒▓▓[0m [1;30;40m▓▄[0;31m░▒▓█[0;1;31;41m░▒▓▓█████[0m   [1;31;40m▐█▄██▀[0m
          [1;31;40m███[0;1;31;41m▓▓▒▒░[0;31m█▓▒░▀[0;37m▄[0;1;30;47m░░░▒▒▒▒▒▒▒▒▒▓▓[0m [1;30;40m█▓▒▒▒▄[0;31m░▒▓█[0;1;31;41m░▒▓▓████[0;1;31;40m▄ ████▀ [0;30m Man, everytime[0m
       [1;31m▄  ▐█[0;1;31;41m▓▓▒▒[0;31m█▓▒░▀[0;37m▄[0;1;30;47m░░░▒▒▒▒▒▒▒▒▒▓▓[0m [1;30;40m█▓▓▒▒▒▒░░▄[0;31m░▒▓█[0;1;31;41m░▒▓▓███[0;1;31;40m▐███▀  [0;30mI try to hammer[0m
-      [1;31m▐█ ██[0;1;31;41m▓▓▒▒[0;31m▒░▀[0;37m▄[0;1;30;47m░░░▒▒▒▒▒▒▒▒▒▓▓[0m [1;30;40m█▓▓▒▒▒▒▒░░░░░[0;31m░▒▓█[0;1;31;41m░▒▓▓██[0;1;31;40m███ [0;30ma nail in it keeps[0m
+      [1;31m▐█ ██[0;1;31;41m▓▓▒▒[0;31m▒░▀[0;37m▄[0;1;30;47m░░░▒▒▒▒▒▒▒▒▒▓▓[0m [1;30;40m█▓▓▒▒▒▒▒░░░░░[0;31m░▒▓█[0;1;31;41m░▒▓▓██[0;1;31;40m███ [0;30m                  [0m
       [1;31;41m██▓▒░[0;31m█▓▒░▀[0;37m▄[0;1;30;47m░░░▒▒▒▒▒▒▒▒▒▓▓[0m [1;30;40m█▓▓▒▒▒▒▒░░░░░░░[0;31m░▒▓█[0;1;31;41m░▒▓▓███[0;1;31;40m▀  [0;30m melting on me.[0m
 [31m    [0;1;31;41m██▓▒░[0;31m█▓▒░▀[0;37m▄[0;1;30;47m░░░▒▒▒▒▒▒▒▒▒▓▓[0m [1;30;40m█▓▓▒▒▒▒▒░░░░░░░▀[0;31m░▒▓█[0;1;31;41m░▒▓▓███[0m
 [1;31;40m  [0;1;31;41m▓██▒░[0;31m█▓▒░▀[0;37m▄[0;1;30;47m░░░▒▒▒▒▒▒▒▒▒▓▓[0m [1;30;40m█▓▓▒▒▒▒▒░░░░░░░▀[0;31m▄▒▓█[0;1;31;41m░▒▓▓███[0;1;31;40m▀[0m         [31m■[0m

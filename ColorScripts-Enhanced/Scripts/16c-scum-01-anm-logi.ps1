@@ -5,7 +5,7 @@
 # Source SHA-256: 7b481b57b36e06133537b01707c7ce9ba41fca977b3dd60012d351578cce5205
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-LOGI.ANS by anomite (scum); released in scum-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Matrix-login
 # SAUCE Author: anomite
 # SAUCE Group: scum
@@ -19,9 +19,9 @@ Write-Host '
 [1;30m [0m▐█[1;30;47m░▒▓[0;1;30;40m█████████▄▄▄▄▄▄███████[0;1;30;47m▓▒▒░░░[0m█████▌   [32m ▄█[0;1;32;42m▀▀[0;32m▀▀[0m             [32m▀▀▀▀▀▀█[0;1;32;42m░▀[0;32m█[0;1;32;42m▄[0;32m▄▄[0;37m [0;32m [0m
 [1;30m  [0;33m▄▄▄▄▄▄[0;1;30m ▀▀█████████▓██████[0;1;30;47m▓▒[0m▀▀▀ [33m▄▄▄▄▄▄[0;37m  [0;32m ▄▀[0;37m  [0;1;30m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m  [32m▀[0;1;32;42m▀░[0;32m█▄[0m
 [33m▐[0;1;31;43m░▄▓▓█▀▀▄[0;33m█[0;37m [0;1;30m▀▀▀▀▀▀██▓▒███▀▀▀[0m   [33m█[0;37m [0;33m█[0;1;31;43m▄▀█▓░░[0;33m█▌[0;32m▐▌[0;37m [0;1;30;47m▓▓▓[0;1;30;40m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▓▓▓[0;1;30;40m▄[0m [32m ▐[0;1;32;42m░▒[0;32m▌[0m
-[37m [0;33m▀█[0;1;31;43m▀▀░[0;33m█▄▀▐█[0;1;31;43m▄▄░ [0;33m▄[0;1;30m ▀▀▀▓█▀▀[0m [33m▄█[0;1;31;43m▄▄[0;33m█▐█▀▄[0;1;31;43m░▓█▀[0;33m█▀[0;37m [0;32m [0;37m [0;1;30;47m▒▒▒[0m▀   [1;30mApply[0m [1;30mas new user[0m    [1;30;47m▒▒▒[0;1;30;40m [0m [32m█[0;1;32;42m▓[0;32m█[0m
+[37m [0;33m▀█[0;1;31;43m▀▀░[0;33m█▄▀▐█[0;1;31;43m▄▄░ [0;33m▄[0;1;30m ▀▀▀▓█▀▀[0m [33m▄█[0;1;31;43m▄▄[0;33m█▐█▀▄[0;1;31;43m░▓█▀[0;33m█▀[0;37m [0;32m [0;37m [0;1;30;47m▒▒▒[0m▀   [1;30m     [0m [1;30m           [0m    [1;30;47m▒▒▒[0;1;30;40m [0m [32m█[0;1;32;42m▓[0;32m█[0m
 [32m▄▌[0;33m ▀▀▀[0m    [33m▀▀█[0;1;31;43m░▀▓▄░░[0m [1;30m▀[0m [33m██[0;1;31;43m▄▄▀▀░[0;33m▀[0;37m [0;33m▀[0m   [33m▀▀▀  [0;37m  ▐[0;1;30;47m░░[0;1;30;40m▌[0m [1;30m   [0m   [1;30mPage[0m [1;30msysOp[0m        ▐[1;30;47m░░[0m▌ [32m█[0;1;32;42m▓[0;32m█[0m
-[32m▄[0;37m [0;33m [0;37m [0;1;30m▄▄[0m [34m▄[0;1;34;44m░[0;34m▄[0;37m [0;1;34m▄[0;33m  ▀▀█[0;1;31;43m░[0;33m█[0;1;31;43m▄▓▄▄░█░[0;33m▀ [0;1;30m▄[0m [1;34m▄[0;34m▀▀[0;37m▄▀[0;33m ▄▄██ [0;37m [0;1;30;47m░░░[0m ▌█████[30;47mLogin to bbs[0;37;40m██████▐ █[0;1;37;47m░[0m█ [32m▐[0;1;32;42m█[0;32m█[0m
+[32m▄[0;37m [0;33m [0;37m [0;1;30m▄▄[0m [34m▄[0;1;34;44m░[0;34m▄[0;37m [0;1;34m▄[0;33m  ▀▀█[0;1;31;43m░[0;33m█[0;1;31;43m▄▓▄▄░█░[0;33m▀ [0;1;30m▄[0m [1;34m▄[0;34m▀▀[0;37m▄▀[0;33m ▄▄██ [0;37m [0;1;30;47m░░░[0m ▌█████[30;47m            [0;37;40m██████▐ █[0;1;37;47m░[0m█ [32m▐[0;1;32;42m█[0;32m█[0m
 [1;32;42m▓[0;32m▌[0;37m [0;1;30;47m▓▒▒░[0m▄[34m▀▀[0;1;34m▀[0m▄[1;47m░[0m▀  [33m ██████▀ ▄▄▌[0;1;30m ▀[0m▀▀[33m ▄▄█[0;1;31;43m▌▀[0;33m▌[0m   [1;37;47m░░░[0m          [1;30mLogoff[0m          ▐[1;47m░░[0m▌ [32m█[0;1;32;42m█[0;32m█[0m
 [1;32;42m▌[0m  [33m▄[0;37m [0;1;30m▀[0m▀▀▀▀▀  [33m▄[0;1;31;43m░[0;33m██▄[0;1;31;43m░[0;33m███[0;1;31;43m [0;33m█▀▀▀██▄█████[0;1;31;43m▀▄[0;33m██[0m   [1;30m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m  [32m▐[0;1;32;42m▐▌[0;32m▌[0m
 [32m▌[0;37m  [0;33m▐██▄▄▄▌▄█[0;1;31;43m▄▀[0;33m█▌▄[0;1;31;43m▄▄░[0;33m██[0;1;31;43m [0;33m▄█████[0;1;31;43m▀▄▄▄▀▀█[0;33m█[0;1;31;43m░[0;33m█▌[0;37m [0;32m▄▀[0m         [32m▄▄▄▄▄[0;37m [0;32m▄[0m                [32m█[0;1;32;42m▀[0;32m█[0m

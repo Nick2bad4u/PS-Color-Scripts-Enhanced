@@ -5,7 +5,7 @@
 # Source SHA-256: 462663dcf9cc1b0c04f6000ae663ed8408c89c2fe542dc182827316a29be2a5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M-LB7.ANS by milkmang (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lunchbox (7) screen
 # SAUCE Author: milkmang
 # SAUCE Group: nerp
@@ -26,7 +26,7 @@ Write-Host '
 [1;34;44m   [0;34m▌[0;37m [0;1;32;42m▓██[0;32m  [0;1;32;42m███[0;32m [0;1;32;42m███[0;32m  [0;1;32;42m███[0;32m [0;1;32;42m███[0;32m   [0;1;32;41m▓▓▓[0;32m█[0;37m [0;34m▐[0;1;34;44m  [0m  [1;33mxx[0;32m [0;37m like this[0m                      [34m█████[0m
 [1;34;44m [0;34m▌▀[0;1;32m [0m [1;32;42m▓█▌[0;32m  [0;1;32;42m███[0;32m [0;1;32;42m▓█▌[0;32m  [0;1;32;42m██▓[0;32m [0;1;32;42m██▓[0;32m   [0;1;32;41m██[0;1;32;42m▓[0;32m▌[0;37m [0;34m▐▐█[0;37m  [0;1;33mxx[0;32m [0;37m like this[0m                      [34m███▌█[0m
 [34m▀[0;32m [0;37m  [0;32m [0;1;32;42m░▀ [0;32m  [0;1;32;42m▐█▓[0;32m [0;1;32;42m░▀▌[0;32m  [0;1;32;42m▐█▓[0;32m [0;1;32;42m▐█▒[0m   [1;32;42m▌▀░[0;32m [0;37m [0;34m▀ ▀[0;37m  [0;1;33mxx[0;32m [0;37m like this[0m                     [34m ▀▀▀[0;1;34m [0;34m▀[0m
-[34m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;32;40m▐[0;1;32;42m  [0;32m▌  [0;1;32;42m ▀▌[0;32m [0;1;32;42m [0;32m██  █[0;1;32;42m▀░[0;32m █[0;1;32;42m▀░[0;32m  ▐▀█▌ [0;34m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;37;40m  [0;1;33;40mxx[0;32m [0;37m like this[0m           [34m([0;1;34mmenuname[0;34m)[0;37m [0;34m░[0;30;44m▓[0;34;40m░░[0;30;44m▓[0m
+[34m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;32;40m▐[0;1;32;42m  [0;32m▌  [0;1;32;42m ▀▌[0;32m [0;1;32;42m [0;32m██  █[0;1;32;42m▀░[0;32m █[0;1;32;42m▀░[0;32m  ▐▀█▌ [0;34m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;37;40m  [0;1;33;40m  [0;32m [0;37m          [0m           [34m [0;1;34m        [0;34m [0;37m [0;34m░[0;30;44m▓[0;34;40m░░[0;30;44m▓[0m
     [32;40m █[0;1;32;42m  [0;32m▄ ▀[0;1;32;42m  [0;32m▄███▄ ▀██▀██▀ ▄██▀  ▄[0m
    [32m▐ ▌ ▀▀▀[0;1;32;42m   [0;32m▄[0;1;32;42m  [0;32m▀▀▀▓██▀█[0;1;33;42m░░[0;32m▀▀ ▐  ▐▀▌[0;37m            [0m
    [32m▐▄[0;1;32;42m▄▄[0;32m▌[0m   [32m▌ ▐░    ▌   █[0;1;32;42m▄[0;32m█▀    ■  ▌[0m

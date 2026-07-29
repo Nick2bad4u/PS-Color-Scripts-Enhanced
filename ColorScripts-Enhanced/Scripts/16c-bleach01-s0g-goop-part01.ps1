@@ -5,7 +5,7 @@
 # Source SHA-256: 58a44b95e00ae9b78fb6d74c41eecb99b97d1f9e2e00ffd8ab037826034dd6b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S0G-GOOP.ANS by Snoop (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: gOop!
 # SAUCE Author: Snoop
 # SAUCE Group: READ THE INI FILE
@@ -16,7 +16,7 @@
 
 Write-Host '
 [30;45mS[0;35;45m███[0;30;45mWats^ ld,ls,ay,sx,ts....[0;35;45m██████████████████████████████████████[0;1;35;45m▒[0;35m█████████████[0m
-[30;45m0[0;35;45m███[0;30;45mgreetz r cool eh?[0;35;45m█████████████████████████████████████████████[0;1;35;45m▒[0;35m█████████[0;35;45m ███[0m
+[30;45m [0;35;45m███[0;30;45m                 [0;35;45m█████████████████████████████████████████████[0;1;35;45m▒[0;35m█████████[0;35;45m ███[0m
 [30;45mG[0;35;45m██████████████████████████████████████████████[0;1;35;45m▒[0;35m██████████████████[0;1;35;45m▒[0;35m█████████████[0m
 [35m███████████████████████████████████████████████[0;1;35;45m▒[0;35m██████████████████[0;1;35;45m░[0;35m█████████████[0m
 [35m███████████████████████████████████████████████[0;1;35;45m▒[0;35m██████████████████[0;1;35;45m▒[0;35m█████████████[0m

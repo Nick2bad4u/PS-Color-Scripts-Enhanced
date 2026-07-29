@@ -5,7 +5,7 @@
 # Source SHA-256: ab989197c9b198607c2341524a88931fcadaa6e05d40615506498329607f53f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 09-EVIL.ICE by Fluor (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -21,7 +21,7 @@ Write-Host '
      [34m▄▄█[0;1;37;44m░[0;1;32;44m ░[0;1;37;40m▄[0;1;33;40m▄▌[0;1;37;40m [0;34m▄[0;1;34;44m▄█████▀[0;34m▀[0;1;37m  [0;1;30m   [0m▄[1;47m▄[0;1;44m█████▀[0;34m▀[0;1;37m   [0;1;30m▄▀ [0m
       [34m█[0;1;37;44m░▒░░[0;1;37;40m   [0;34m▐[0;1;34;44m▐[0;1;34;47m▓▓[0;1;34;44m███▌[0;34m▌[0;1;37m [0;1;30m▄▄█[0m▄[1;47m▄[0;1;44m█████▀[0;34m▀[0;1;37m   [0;1;30m▄▀ [0m    [1mnetwork[0m : [1;31mblack[0mnet
  [34m░[0;37m [0;34m░░▒[0;30;44m░[0;1;35;44m░[0;1;37;44m░[0;34m██[0;1;35m░[0;1;37m   [0;34m▀[0;1;34;44m▀█████▄[0;34m▄[0;1;37m  [0m▐[1;47m▐[0;1;44m██▓▓█▌[0;34m▌[0;1;37m  [0;1;30m ▐▌[0m
-[1m     [0;34m░[0;1;35;44m░░[0;34m█[0;1;35;44m░░[0;1;35;40m░[0;1;37;40m     [0;34m▀[0;1;34;44m▀█████▄[0;34m▄[0;1;37m [0m▀[1;47m▀[0;1;44m▓▒▒▓▓[0;1;34;44m▄[0;34m▄[0;1;37m   [0;1;30m▀▄[0m     [1mnumbah[0m  : [1m1[0;1;36m([0;36meye[0;1;36m)[0;36mdon[0;1;36m-[0;36mtkno[0m
+[1m     [0;34m░[0;1;35;44m░░[0;34m█[0;1;35;44m░░[0;1;35;40m░[0;1;37;40m     [0;34m▀[0;1;34;44m▀█████▄[0;34m▄[0;1;37m [0m▀[1;47m▀[0;1;44m▓▒▒▓▓[0;1;34;44m▄[0;34m▄[0;1;37m   [0;1;30m▀▄[0m     [1m      [0m    [1m [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;36m [0;36m    [0m
 [1;37m     [0;34m░[0;1;35;44m▒▒░▒▒[0;1;35;40m░[0;1;37;40m       [0;34m▀[0;1;34;44m▀[0;1;34;40m▀█[0;1;34;44m███▄[0;34m▄[0;1;37m [0m▀[1;44m░░▒▒▒░[0;34m█▄[0;37m  [0;1;30m ▀▄[0m
 [1m      [0;1;35;44m▓▓▒▓▒[0;1;35;40m▒░░[0;1;37;40m      [0;34m▐[0;1;34;44m▐███[0;1;34;46m▓▓[0;1;34;44m▌[0;34m▌[0;1;37m  [0;1;34m▀[0;1;37;44m░░░[0;34m█[0;1;36;44m░░[0;34m▌[0;1;37m    [0;1;30m▀▄[0m
 [1m      [0;1;35m█[0;1;35;45m▓[0;1;35;44m▓[0;1;35;45m█[0;1;35;44m▓[0;1;35;40m▓▄▌[0;1;37;40m     [0;34m▄[0;1;34;44m▄█████▀[0;34m▀[0;1;37m    [0;34m▐[0;1;33;44m░[0;1;37;44m░[0;1;36;44m░▒▒░[0;1;37;40m  [0m    [1;30m▀▄[0m

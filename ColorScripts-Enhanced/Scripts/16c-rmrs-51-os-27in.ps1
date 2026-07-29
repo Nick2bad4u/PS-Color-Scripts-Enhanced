@@ -5,7 +5,7 @@
 # Source SHA-256: 6020c9ff4b43b5bf8e7ea84e9529767674c621a951b51c90a265d37d3edbdb01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Os-27in.ans by Offset (rmrs-51); released in rmrs-51 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -38,4 +38,4 @@ Write-Host '
 [34m████████[0;1;37;44m                                                                [0;30;44m [0;34;40m██[0;30;44m    [0m
 [34;40m███████████████████████████████[0;30;44m                                  [0;34;40m██████████████[0m
 
-[1;30;40m------------------------(usEless infOrmation below)---------------------------- [0m'
+[1;30;40m                                                                                [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ea993f4f8e6cc974bae563003c4101bf2d6c1e81ad25cbe5b220f3ab21e65375
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: INT-GOLD.ANS by Internal (Glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: pot-o-gold
 # SAUCE Author: Internal
 # SAUCE Group: Glue
@@ -34,7 +34,7 @@ Write-Host '
        [34m█[0;1;32;44m░▓██[0;1;33;44m█ [0;34m▀[0m    [35m▐▀[0;37m [0;35m ▄▄[0;1;35;45m░░[0;34;45m  [0;35;40m█[0;35;44m▀▀   [0;34;40m████▀▀ [0m
        [34;40m▐[0;1;34;44m█[0;1;32;44m░▓▀[0;34m▀[0m         [35m██[0;1;35;45m░▓[0;35m█[0;35;44m▀   [0;34;40m██▀▀▀   [0m   [34;40m▄[0;37;40m [0;34;40m▀[0;37;40m  [0;34;40m▀[0;37;40m [0;34;40m▄[0m          [31;40mThis is glue,[0m
       [34;40m▄[0;1;34;44m░▓█[0;34m▀   [0m       [35m▐█[0;1;35;45m░▓[0;35;44m▀ [0;1;35;44m  [0;34m█▀[0m       [34m [0;37m  [0;34m▐▌[0m        [34m▀▄[0;37m  [0;34m [0m    [31mwelcome to our[0m
-    [30;44m▓░[0;34;40m██▀[0;37;40m  [0;34;40m▄▌ [0m      [35;40m █[0;1;35;45m░▓[0;35;44m▀ [0;1;35;44m▄ [0;34m▀[0;37m  [0;1;35m▀[0m    [1;35m▄[0m     [34m▀[0;37m  [0;34m▄[0m      [34m▐█▄ [0m    [31mpot of gold, freak.[0m
+    [30;44m▓░[0;34;40m██▀[0;37;40m  [0;34;40m▄▌ [0m      [35;40m █[0;1;35;45m░▓[0;35;44m▀ [0;1;35;44m▄ [0;34m▀[0;37m  [0;1;35m▀[0m    [1;35m▄[0m     [34m▀[0;37m  [0;34m▄[0m      [34m▐█▄ [0m    [31m                   [0m
     [30;44m▓▒[0;34;40m▀[0;37;40m  [0;34;40m▄██  [0m      [35;40m▐[0;1;35;45m░▓[0;1;35;44m▌▀ [0;34;47m▀[0;37;40m▌[0m           [1;35;40m▀[0m  [1;35m▄[0m        [34m▄███▌[0m
    [30;44m██▓[0;34;40m▀▄████  [0m      [35;40m▐[0;1;35;45m▓█[0;1;35;44m▄[0;35;44m▄[0;1;33;47m▄█▄[0m▄             [1;35m▐▌[0m   [34m  ▄█[0;1;33;44m░▄[0;34m█▀[0m
          [34m▀▀▐  [0m      [35m▐[0;1;35;45m░▓[0;35;44m▀[0;37;44m▐[0;1;33;47m▐[0;1;33;40m▄▀▀[0;1;33;47m▄[0;1;33;40m▄[0m▄         [1;35m▄▀[0m  [34m░░▓█[0;1;33;44m░▄█▓[0;1;33;40m▀[0;1;33;44m▄ [0;34m█▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: d70d1367d786c9673538b23e6f1a8e8a87ed67c4c571c65a29320d2743611315
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRL-VOL1.ANS by krl (polyester); released in pst-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: volume v.1 interface
 # SAUCE Author: krl
 # SAUCE Group: polyester
@@ -18,11 +18,11 @@ Write-Host '
 [30;41m░░░░░░░░░▒▒░░░░░░░░░░░░░░░░░░░░░░░░░[0;31;40m▒  ▒[0;30;41m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [31;40m█████████[0;30;41m░░[0;31;40m█████████▄ ▓█████[0m                                               [33;40m░░[0;1;33;41m░░[0;31m█[0m
 [31m████[0;36;41m░[0;31;46m▓[0;31;40m████████████[0;33;40m  [0;31;40m██████▓▒[0m                                                 [31;40m███[0m
-[31;40m██[0;36;41m░[0;31;46m▒[0;30;46m☺☻[0;36;41m▒░[0;31;45m█[0;31;40m██████████████████░ [0;37;40mfile 1      [0;1;37;40m [[0;1;30;40m............[0;1;37;40m]  [0;31m [0;37m  watermark file[0;36m [0;31m ███[0m
+[31;40m██[0;36;41m░[0;31;46m▒[0;30;46m  [0;36;41m▒░[0;31;45m█[0;31;40m██████████████████░ [0;37;40m            [0;1;37;40m  [0;1;30;40m            [0;1;37;40m   [0;31m [0;37m                [0;36m [0;31m ███[0m
 [31m████[0;36;41m░[0;31;46m▓[0;31;45m███[0;31;40m██████████████████░ [0;37;40mfile 2      [0;1;37;40m[[0;1;30;40m............[0;1;37;40m]   [0;31m [0;37m  image file   [0m   [31m▐██[0m
 [31m███████[0;31;45m█[0;31;40m█████████████▄[0;30;41m▬[0;31;40m██▀[0;30;41m░[0;31;40m▀ [0;37;40mpause       [0;1;37;40m[[0;1;30;40m..[0;1;37;40m]             [0;31m [0;37m  (0-10)   [0m       [31m▐██[0m
 [31m█████▀█████████████████████▌ [0;37mblack out   [0;1;37m    [[0;1;30m.[0;1;37m]          [0;31m [0;37m  (y/n)         [0;36m [0;31m ▐██[0m
-[31m▓▒░  ████████████████▀██████ [0;37moutput file [0;1;37m  [[0;1;30m............[0;1;37m][0m    save as       [36m [0;31m ▐██[0m
+[31m▓▒░  ████████████████▀██████ [0;37m            [0;1;37m   [0;1;30m            [0;1;37m [0m                  [36m [0;31m ▐██[0m
 [31m▌[0;1;37m▒▒[0;31m ████████████▀▄██████ ▀██[0m     [37m     [0m                       [37m  [0m               [31m██[0m
 [1;37m [0m░░[31m▐███████▀▀  ██████████  █▓▒[0;33m   [0m                           [37m [0;1;37mfinish[0m           [31m██[0m
 [31m▌  [0;31;45m▓[0;31;40m████[0;33;41m░░░[0;31;40m [0;37;40m░░[0;31;40m░[0;30;41m░[0;31;40m▓████████  ▐[0;1;30;41m▒[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓████▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄                         ██[0m

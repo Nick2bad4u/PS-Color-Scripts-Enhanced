@@ -5,7 +5,7 @@
 # Source SHA-256: 178f437b1dc8edc2b9ffcc9c7b2a1f2d7ba26d40eb430f18fdfb03e453e581aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-HOTHS.ICE by Trip (iCE); released in ice9902a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hoth
 # SAUCE Author: Trip
 # SAUCE Group: iCE
@@ -39,4 +39,4 @@ Write-Host '
  [1;30m▐[0;31m█[0;31;45m▓[0;35;41m▓[0;31;45m▓[0;35;41m▓[0;31;45m▓[0;35;41m▓█▓▓▀[0;31;40m█[0;1;30;41m▄[0;31m▀▀▀[0;1;30m▀▀  ▌[0m▓▓[1;30m  ▀  █    ▀    ▐[0m▄[1;30m ▄   ▄   [0m▄[1;30m [0m▓[1;30m▌ ▐▌    [0m
   [1;30;41m▄[0;31m█[0;31;45m▓[0;31;40m█[0;1;30;41m▄[0;31m▀▀▀[0;1;30m▀[0m  [1;30m▄  [0m▄[1;30m ti ▐▌[0m▒▒░[1;30m▄ iCE      ▄▄ [0m░▒[1;30m▐[0m▓[1;30m▌  ▐   [0m▒[1;30m [0m░[1;30m▌ ▐[0m▓[1;30m▄[0m  ░
 [1;30m▄     ▄▄[0m▒▓[1;30m   [0m▓[1;30m▌▐[0m▒[1;30m▄   [0m░[1;30m▄▀▄[0m▄[1;30m▀  ▄▄▌  ▐█▐[0m▓▓[1;30m▄▀[0m░[1;30m▐[0m░[1;30m   [0m▓[1;30m▌    ▀ ▄[0m▒[1;30m▀[0m [30mSatan laughing      [0m
-[37m▓[0;1;30m  [0m░▓[1;30m▌[0m░░▒[1;30m▀  ▄[0m▒░[1;30m ▀  ▄▄  ▀▀  ▄[0m░▓▓[1;30m█   ▀▄█[0m░░[1;30m▄    ▄[0m▄▒░[1;30m▄  ▀▄[0m░[1;30m▀[0m   [30mspreads his wings    [0m'
+[37m▓[0;1;30m  [0m░▓[1;30m▌[0m░░▒[1;30m▀  ▄[0m▒░[1;30m ▀  ▄▄  ▀▀  ▄[0m░▓▓[1;30m█   ▀▄█[0m░░[1;30m▄    ▄[0m▄▒░[1;30m▄  ▀▄[0m░[1;30m▀[0m   [30m                     [0m'

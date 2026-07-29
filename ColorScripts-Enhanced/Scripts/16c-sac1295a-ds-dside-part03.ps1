@@ -5,7 +5,7 @@
 # Source SHA-256: 655dd8f70594beef3d8e2ee1365938119b00d3277a9f86f7b7869839af66ef8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-DSIDE.ANS by dark star; released in sac1295a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Darkside Login
 # SAUCE Author: Dark Star
 # SAUCE Group: SAC
@@ -39,7 +39,7 @@ Write-Host '
     [1;30m▄▀█ ▀▄▀▀▄▀[0m  [1;30m▄▀▄[0m [1;30m▄▀[0m [1;30m   [0;1;37m     [0;1;30m             [0m   [1m        [0m  [1;30m▄[0m [1;30m▀█[0m [1;30m▄▀▄▀[0m  [1;30m▀[0m  [1;30m▄▀▄[0m     [1m [0m
   [1;30m▀▀████▄██▀▀█▄█▀███▀▀▄▄  φ[0m [1mT[0;34m·[0;1;37mH[0;34m·[0;1;37mE  D[0;34m·[0;1;37mA[0;34m·[0;1;37mR[0;34m·[0;1;37mK[0;34m·[0;1;37mS[0;34m·[0;1;37mI[0;34m·[0;1;37mD[0;34m·[0;1;37mE[0m [1;30mφ[0m  [1;30m▀▄[0m [1;30m▀██▀▄ ▄██▄▀█▄▀█▄█▀▀[0m
       [1;30m▀▀██▀██▀███▄█▄▄▀█▀▄▄[0m  [1;30m▄[0m [1;30m           [0m         [1;30m▄[0;1;37m [0;1;30m▄▀ █▀▄▄█▄████▀█▀██▀▀[0m  [1;30m▄ [0m
-     [1;30m▀[0m [1;30m▀▀██▀███████▄▄▀▄[0m    [1;30m▄ φ[0m [1mSYSOP: PENNYWiSE[0m [1;30mφ[0;1;37m [0m [1m  [0;1;30m▀[0m [1;30m▄▀▄▄███████▀██▀▀[0m [1;30m▀[0m
+     [1;30m▀[0m [1;30m▀▀██▀███████▄▄▀▄[0m    [1;30m▄  [0m [1m                [0m [1;30m [0;1;37m [0m [1m  [0;1;30m▀[0m [1;30m▄▀▄▄███████▀██▀▀[0m [1;30m▀[0m
       [1;30m▄[0m [1;30m▄█▀██▀████████▀▄▄▀[0m       [1;30m       [0m          [1;30m▀▀[0m [1;30m▄▄▀█████████▀█▀█▄[0m [1;30m▄[0m
     [1;30m▄▄▄▄[0m [1;30m▀▄▄▄█████▀▄█▄█▄▄▄▀[0m [1;30mφ[0m [1mMERLIN HEADQUARTER[0m [1;30mφ[0m  [1;30m▄[0m [1;30m▄█▄█▄▀████▄█▄▄▀[0m [1;30m▄▄▄▄[0m
      [1;30m▄[0m   [1;30m▄▄█[0m [1;30m██████▀▄▄▄▀█[0m  [1;30mφ[0m [1mOUTLAWS[0;1;30m [0;1;37m HEADQUARTER[0m [1;30mφ[0m  [1;30m▄▀▄▄▄▀█████[0m [1;30m██▄▄[0m   [1;30m▄[0m

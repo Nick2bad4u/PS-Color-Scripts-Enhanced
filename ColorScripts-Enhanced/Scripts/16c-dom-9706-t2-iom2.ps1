@@ -5,7 +5,7 @@
 # Source SHA-256: c02990fcf6e5d077b920a940f759d14d9e80672d21f8c66d3987a5c02cbdad13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-IOM2.ANS by Terminator2 (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ides of March
 # SAUCE Author: Terminator2
 # SAUCE Group: Domino
@@ -31,7 +31,7 @@ Write-Host '
 [1;30m█[0;1;30;47m▓▒▓▓[0;1;30;40m██[0;1;30;47m█▓[0;1;30;40m█ ▀░[0;34m▄ ▀▄▓[0;1;34;44m▀[0;1;34;40m▓[0;1;34;44m▄▒[0;34m▄ ▀ [0;1;30m▓  [0;34m▄[0;1;30m▐[0;1;30;43m█[0;1;30;47m█[0;1;30;43m█[0;1;30;47m▓[0;1;30;40m█▌ ▀▀░ [0;34m▌▀▐[0;1;34;44m▀▒[0;34m▀ [0;1;30m▓ [0;34m░[0;1;30m▐█[0;1;30;47m▓[0;1;30;40m██▌ [0;34m▌[0;1;34;44m▐▓▌[0;34m▐  [0;1;30m▀▀ ░▀▐[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;47m█▓[0;1;30;40m█▌[0m
 [1;30m▀█[0;1;30;47m▓[0;1;30;40m██████ [0;34m▄[0;1;34;44m▄[0;34m▄ [0;1;30m▄░[0;34m▐▌▄[0;1;34m▀[0;34m▀   [0;1;30m▓▀  ▄  ▀[0;1;30;43m▓█[0;1;30;40m▀▀  [0;34m░  ░▓[0;1;34;44m░[0;34m▄[0;1;34;44m░[0;34m▀▄▄ [0;1;30m▄  ▀█[0;1;30;43m▓[0;1;30;40m▀░ [0;34m▓[0;1;34m▓[0;1;34;44m▓▀[0;34m▓░  ░ [0;1;30m▀ ▄▀▀██▀▀[0m
 [1;30m▄▄ ▀▓▀▀▀░▄ [0;34m▀   ▄▀▀  i[0;1;34mdes of marc[0;34mh  ▀   ▄▄▀▀  ▄▀ [0;1;30m▄▄█[0;1;30;47m▓███[0;1;30;40m▄▄ [0;34m▀[0;1;34m▀▀[0;1;34;44m░[0;34m▄▄  [0;1;30m▄▄▄█▌▐[0;1;30;43m█[0;1;30;47m█[0;1;30;40m▄▄░[0m
-[1;30m▀ ▄██[0;1;30;43m▓[0;1;30;40m█▀▀███ [0;34m░ [0;1;30m▄ [0;34mf[0;1;34mtpsite . op: nurember[0;34mg ▀▀▄▐▌ [0;1;30m▐█[0;1;30;47m▓[0;1;30;40m▄[0;1;30;47m▒▓[0;1;30;40m▀▀[0;1;30;47m▓[0;1;30;40m██[0;1;30;43m▓[0;1;30;40m█▄▄ [0;1;34;40m▀[0;34m▀▄ [0;1;30m▀▀ ▄███[0;1;30;43m▓[0;1;30;40m▀▀[0m
+[1;30m▀ ▄██[0;1;30;43m▓[0;1;30;40m█▀▀███ [0;34m░ [0;1;30m▄ [0;34m [0;1;34m                     [0;34m  ▀▀▄▐▌ [0;1;30m▐█[0;1;30;47m▓[0;1;30;40m▄[0;1;30;47m▒▓[0;1;30;40m▀▀[0;1;30;47m▓[0;1;30;40m██[0;1;30;43m▓[0;1;30;40m█▄▄ [0;1;34;40m▀[0;34m▀▄ [0;1;30m▀▀ ▄███[0;1;30;43m▓[0;1;30;40m▀▀[0m
 [1;30m───────── ▓▀ ────────────────────────────── [0;34m▀▀▄  [0;1;30m▀▀[0;1;30;47m▓[0;1;30;40m███▄▄▀▀ ─────[0;34m▐▌[0;1;30m────────────[0m
 [1;30m l [0mo g o  b y  .  t e r m i n a t o r 2  . t w i [34m■▄   [0;1;30m▀[0m        [34m▄ ▀ [0;1;30m░ [0m0 5 / 9 [1;30m7[0m
 [1;30m─────────────────────────────────────────────────── [0;34m░ [0;1;30m─── [0;34m▀ [0;1;30m───────────────────[0m'

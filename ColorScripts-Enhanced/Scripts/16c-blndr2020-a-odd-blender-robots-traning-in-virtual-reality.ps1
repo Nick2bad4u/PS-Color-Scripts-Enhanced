@@ -5,7 +5,7 @@
 # Source SHA-256: 34e63af3830ef5f4f0eab029f106dd5a3866985b83355127ad7b626deaef54bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: a-odd-blender-robots_traning_in_virtual_reality.ans by Odd (Solo FTM); released in blndr2020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: Odd
 # SAUCE Group: Solo FTM
 # SAUCE Date: 20200418
@@ -27,7 +27,7 @@ Write-Host '
 [1;36;47m▒▒▒▒▒▒▓[0;1;33;40m▐[0;1;33;47m████[0;1;33;40m▓▓▒▌[0;1;36;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m [1m█[0m  [35m/\  /\  /\  /\  /\  /[0;1;36m·■▓▒░▒▓■·[0m  [35m/\[0;37m  [0;35m/\[0;37m  [0;35m/\[0;37m  [0;35m/\[0m
 [1;36;47m▓▓▓▓▓▓▓[0;1;36;40m▄[0;1;33;40m▀▓▓▓▒▒▀[0;1;36;40m▄[0;1;36;47m▓▓▓▓▓▓▓▓▓▓▓[0;1;36;40m████[0m [1m█[0m [1m▄▄▄▀▀▀▀▀▄▄▄[0;35m     [0;1;37m▄▄▄[0m   [35m/\[0;37m  [0;35m/\[0;33m  [0;35m/\[0;33m  [0;35m/\[0;33m  [0;35m/\[0;33m  [0;35m/\[0m
 [1;36;47m▓▓▓▓▓▓▓[0;1;36;40m██▄▄▄▄▄██████████████████[0m [1m█[0;31m|OOOOOOOOO|[0;1;37m▀▀▀▀▀[0;31m|||[0;1;37m▀▀▀▄▄   ▄▄▄▄[0m [35m/\[0;37m  [0;35m/\[0;33m  [0;35m/\[0;33m  [0;35m/\[0m
-[1;36m███████████[0;30;106mRELAXATION[0;1;36m███████▓▓▓▓[0m [1m█[0;1;34m==SOCIAL INTERACTION[0;36m*[0;1;34m=[0;31m||[0;1;37m▀▀▀[0;31m||||[0;1;37m▀▀▄▄[0m   [35m/\[0;33m  [0;35m/\[0;1;37m▄▀[0m
+[1;36m███████████[0;30;106m          [0;1;36m███████▓▓▓▓[0m [1m█[0;1;34m                    [0;36m [0;1;34m [0;31m  [0;1;37m▀▀▀[0;31m    [0;1;37m▀▀▄▄[0m   [35m  [0;33m  [0;35m  [0;1;37m▄▀[0m
 [1;36m████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▀▀▓▓▓▓▓▓[0m [1m█[0;31m|OOOOOOOOOOOOOOOOOOOOOOO)[0;36m*[0;1;34mONLINE[0;31m(OO|[0;1;37m█[0;35m/\[0;33m  [0;35m/\[0;33m [0;1;37m█[0m [1;30m■[0m
 [1;36m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m [1;30m▓▓[0m [1;36m▒▒▒▒[0m [1m█[0;31m|OOOO|[0;1;30m▓▓[0;31m|O|[0;32m[LAH BLAH BLA][0;31m|OOOOOOOOOO|[0;1;37m▀▄[0m [35m/\[0;33m [0;1;37m▄▀[0m [1;30m░[0m
 [1;36m▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▌[0;1;30m▐[0m▒▓▌[1;36m▐▒▒▒[0m [1m█[0;31m|OOOO[0;37m▐▓▒[0;1;30m▌[0;31m|[0;32m[BLAH BLAH BLAH][0;31m|OOOOOOOOO|[0;1;37m▄▀▄▄▀▀[0m [1;30m▒░[0;32m░[0;1;30m░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 06f162ed69920975053d7f87846b8d48af3b493ca1b8a6d57126eb6e63d7828d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-123.ANS by Abstrakt + Aesthetic (sense16j); released in sense16j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
         [34m   .  [0;37m [0;1;37mabstrakt [0mand[1m [0m        [1;36m  [0;1;30m`[0;36m`[0;1;36m [0;36m.┌\$$│[0;1;36mP┘`  [0;36m''''`[0;1;36m  .d[0;36m$[0;1;36m$P┘`[0;32m_,d[0;1;32m$[0;32m$[0;1;32m$[0;32m$[0;1;32m$[0;32m$↕┘[0;1;32m$[0;32m$[0m
         [34m   .  [0;37m [0;1;37maesthetic    [0m        [1;36m  .[0;36m⌐[0;1;36mS[0;36m$$[0;1;36m$[0;36m7[0;1;36m` [0;36m_.┌d$[0;1;36m. .┌d[0;36m$[0;1;36m$$$┐. [0;32m`"└Q$[0;1;32m$[0;32m$[0;1;32m7[0;32m` _$[0;1;32m$[0;32m  y[0m
         [34m   :. [0m                      [1;36m d$[0;36m$[0;1;36m$$[0;36m$[0;1;36m7  [0;36mj[0;1;36m$S⌂*┘² └┘*SQ[0;36m│[0;1;36m$$[0;36m$$[0;1;36mSs. [0;32m`4$$$$$[0;1;32m$[0;32m$ [0;1;30m:[0;32m$[0m
-        [34m   :. [0;37m greets to [0;1;37mjashiin[0m,   [1;36md$$[0;36m$[0;1;36m$$$[0;36m:[0;1;36m  _.┌⌐s%#[0;36m/[0m      [1;36m`$$$$$$[0;36mk[0;1;36m [0;1;32m [0;32m''$$^`$[0;1;30ml[0;32m l$[0m
+        [34m      [0;37m           [0;1;37m       [0m    [1;36m   [0;36m [0;1;36m   [0;36m [0;1;36m    ┌⌐   [0;36m [0m      [1;36m       [0;36m [0;1;36m [0;1;32m [0;32m      [0;1;30m [0;32m   [0m
         [34m   i: [0;37m [0;1;37mblack jack[0m, [1m123[0m +   [36ml[0;1;36m$[0;1;37m$[0;1;36m$$$$$┌d[0;1;36;46m$$[0;1;36;40m$$$$$$[0;36m.[0m      [36m.[0;1;36m$$$$$$$[0;36mL[0;1;32m [0;32m T$%S$[0;1;30m:[0;32m $[0;1;32m$[0m
         [34m   Ii [0;37m [0;1;37mmimic[0m!     [1;36m,[0m        [1;36m$[0;1;37m$$$$[0;1;36m$$$$$$$$│QQ4$$$S%s%S$$$$[0;1;37m$[0;1;36m$$$P[0;1;32m [0;32m l$$$P j$$[0m
         [34m   [0;1;34m||[0m             [1;36m$$b┐.[0;34m    [0;36mY[0;1;36m$[0;1;37m$$$$$[0;1;36m$S[0;36m*┘"`[0;32m_.,.[0;1;36m`└Q$$$[0;1;37m$[0;1;36m$$[0;1;37;46m$$[0;1;36;40m$[0;1;37;40m$$[0;1;36;40m$P [0;1;32;40m [0;32m,$*┘''.j$$[0;1;30m$[0m

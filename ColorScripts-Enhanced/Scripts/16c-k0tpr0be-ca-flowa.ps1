@@ -5,7 +5,7 @@
 # Source SHA-256: 18f9866ad71b3eda7e9650c1670e91645437dc262ca2dc96973864a249163357
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-FLOWA.ANS by caynan (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: free flower matrix
 # SAUCE Author: caynan
 # SAUCE Group: fbk
@@ -21,8 +21,8 @@ Write-Host '
 [36m▓████▀▀[0;1;30m▓[0;33m▐[0;1;33m██▀[0;1;37m▄▄▄▄▄▄▄▄[0;1;33m▀[0;1;33;43m▓[0;1;33;40m███[0;1;33;43m░[0;33m▀ [0;36m███████[0;1;30m░[0m                            [36m███████████████▌[0m
 [36m▐███▌[0;1;30m░[0;33m▄[0;1;33;43m░[0;1;33;40m██▌[0;1;37;40m█████████▓[0;1;33;40m▐█[0;1;33;47m▓[0;1;33;40m█[0;33m▄■[0;36m▐██████▌[0m                             [36m▐██████████████▌[0m
 [36m▐███▌[0;33m▐[0;1;33m▓███[0;1;37m▐███ ██▀▓██▌[0;1;33m▀██[0;1;33;43m▌[0;1;33;40m▓ [0;1;33;46m░[0;36m██[0;1;30;46m░[0;36m█▓[0;1;30;46m▓[0m   [1;30m░----------------------[0m [1;30m   [0;36m████[0;1;30;46m░[0;36m█████████▌[0m
-[36m▐███▌[0;33m■▀▀[0;1;33m▄█[0;1;37m▐███▄██▄███▌[0;1;33m███[0;1;33;43m▓[0;33m▌[0;36m▐█████▌[0m     [37mif you like this, use [0m    [36m▐█████████████[0;1;30m░[0m
-[30;46m▓[0;36;40m███[0;1;33;46m░[0m [1;30m░[0;1;33m▄██▌[0;1;37m▓██▀▀▄████[0;1;33m▐█▓[0;1;33;43m▌[0;33m▀ [0;36m██████[0m      [37mit but don''t touch        [0;1;30m░[0;36m██████████████[0m
+[36m▐███▌[0;33m■▀▀[0;1;33m▄█[0;1;37m▐███▄██▄███▌[0;1;33m███[0;1;33;43m▓[0;33m▌[0;36m▐█████▌[0m     [37m                      [0m    [36m▐█████████████[0;1;30m░[0m
+[30;46m▓[0;36;40m███[0;1;33;46m░[0m [1;30m░[0;1;33m▄██▌[0;1;37m▓██▀▀▄████[0;1;33m▐█▓[0;1;33;43m▌[0;33m▀ [0;36m██████[0m      [37m                          [0;1;30m░[0;36m██████████████[0m
 [36m ███▌[0;33m▀[0;1;33;43m▐[0;1;33;40m██[0;1;33;47m▓[0;1;33;40m█▄[0;1;37;40m■▀▀▀▀▀▀▓[0;1;33;40m▐███[0;33m▄[0;1;30m░[0;36m▐██████░[0m     [37mthe credits![0m               [36m██████████████[0m
 [36m ███▌[0;33m▐[0;1;33;43m▓[0;33m▀▀■[0;1;33m████▐██▌███▄▀█▓[0;33m▌[0;36m▐██████▌[0m    [1;30m----------------------░[0m [1;30m   [0;36m▐██████[0;36;47m▓[0;36;40m███████[0m
 [36;40m ▐███▄▄▄ [0;1;33;43m▓▀[0;1;33;40m██[0;1;33;42m▓░▓[0;1;33;40m██▐[0;1;33;43m▓[0;1;33;40m██[0;1;33;43m▓[0;33m■▀ [0;36m████████[0;1;30m░[0m                              [36m▓██████████████[0m

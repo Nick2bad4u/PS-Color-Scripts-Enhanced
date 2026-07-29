@@ -5,7 +5,7 @@
 # Source SHA-256: b408ad6d49e8a88db274b81ad000078dd676f8ced520ed70049159d2d1b86274
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-ED.ANS by Distortion (rage_294); released in rage_294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -58,4 +58,4 @@ Write-Host '
 [1;30m░░░░░░░░░▒▒▒▒░░ [0m▀█[1;47m░░[0m█▄ [1;30m░░░░░░░    [0m▄▄▄▄██████▀  [1;30m▒▒▒▒░░░░░░[0m
 [1;30m   ░░░░░░░░░░ ░░▒ [0m▀█[1;47m░░[0m██▄▄[1;30m░░  [0m▄██[1;47m░░░░[0m███ [1;30m▒▒▒▒▒░░░░░░░░[0m
 [1;30m  ░░░░░░░░░░░░░░▒▒  [0m▀█[1;47m░░[0m▀ ▄▄█[1;47m░░░░[0m███▀  [1;30m▒▒░░░░░░░[0m
-[1;30m  ░░░░░░░░░░▒▒▒░ ░▒▒  [0m▀▄█[1;47m░░░░[0m███▀▀  [1;30m▒▒░░░░░░░░    "You Suddenly Get This[0m'
+[1;30m  ░░░░░░░░░░▒▒▒░ ░▒▒  [0m▀▄█[1;47m░░░░[0m███▀▀  [1;30m▒▒░░░░░░░░                          [0m'

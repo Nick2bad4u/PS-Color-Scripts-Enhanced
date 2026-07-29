@@ -5,7 +5,7 @@
 # Source SHA-256: f8d38ac6c1b9ff2b20844f172481f70990d3bee3cd7dd00b0363b349c967cc42
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-AWCA2.ANS by chromatik (Blade Productions); released in blde9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: awca logo
 # SAUCE Author: chromatik
 # SAUCE Group: Blade Productions
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-      [1;30;40m─[0;36m─[0;1;30m-─+─∙-─[0;36m∙[0;1;30m──[0m [1;35ma[0;35mrgh[0;1;35m![0;35m [0;1;35mw[0;35mhat''[0;1;35ms[0;35m [0;1;35mt[0;35mhat [0;1;35ms[0;35mound[0;1;35m!?[0;35m [0;1;35mn[0;35mo! [0;1;35mi[0;35mt''s [0;1;35m...[0;35m [0;1;30m─+=───-─+─∙-───[0m
+      [1;30;40m─[0;36m─[0;1;30m ─ ─  ─[0;36m [0;1;30m──[0m [1;35m [0;35m   [0;1;35m [0;35m [0;1;35m [0;35m    [0;1;35m [0;35m [0;1;35m [0;35m    [0;1;35m [0;35m    [0;1;35m  [0;35m [0;1;35m [0;35m   [0;1;35m [0;35m    [0;1;35m   [0;35m [0;1;30m─  ─── ─ ─  ───[0m
       [1;30m▄▄▓▄[0m [1;30m▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄[0m
       [1;30m█[0;1;30;47m▓[0;1;30;40m████████[0m [1;30;40m█▀██▀████[0;1;30;47m▓▓[0;1;30;40m█▀█▀▀▓██▀█████▄▄▄▓██[0;1;30;47m▓▓[0;1;30;40m██████[0;1;30;47m▓[0;1;30;40m██████[0;1;30;47m▓[0;1;30;40m██▓▀▄▄[0m [1;30;40m▀░[0m
       [1;30;47m▓▓[0;1;30;40m█▓▄██[0;1;30;47m▓[0;1;30;40m███▓▀▓███▀▓[0;1;30;47m▓▓[0;1;30;40m██▓▀▀▀▀█▓▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▓▄█▀▀▀▀▀▓▄██▀[0;1;30;47m▓▓[0;1;30;40m▓▀██[0;1;30;47m▓[0;1;30;40m█[0m [1;30;40m███[0;1;30;47m▓[0;1;30;40m████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: e04c7cfa04f1eae24b7d140306a30ddde3b456f1744e566bc3eed2685f23a1cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-HALC.ANS by The Night Angel (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Halcyon Menu
 # SAUCE Author: The Night Angel
 # SAUCE Group: awe lettering
@@ -19,7 +19,7 @@ Write-Host '
 [1;36m                     [0m▄▒ [1;36m      ░▌[0;1;37;46m█▓▓██████[0;1;37;40m▓[0m▌[1m▄[0m▄ [1;36m                                 [0m
 [36m──────────────── [0;1;37m▄[0m▄▐▌▀ [36m─────-─ [0;1;36m▌[0;1;37m▀▀▀▀▀[0m▀[1m▐▓[0;1;46m█████[0;1;47m▄[0m▄ [36m─-─────────────────────────────[0m
 [1;34mH   [0m· ▄[1m▄[0m▐[1m▓██[0m▌[1m░▄[0;1;47m▄█▀[0m▀   [30;46m▓[0;37;40m  [0;1;37;40mMain  [0;1;36;40m▌   ▌[0;1;30;40m▐  [0;1;37;40m░ ▀[0;1;37;46m█[0;1;33;47m█[0;1;37;46m██[0;1;37;47m▒[0m▌ [33m▌[0m
-[1;34mA [0;1;37m░[0m▄[1;47m▄[0;1;46m███[0;1;47m▀[0m▀ ▄[1;47m▄[0;1;46m█[0;1;47m██[0;1;46m█[0;1;47m▌[0m▌   [36m▐  [0;37mMenu  [0;1;36m▌  ░▌[0;1;30m▐░    [0;1;37m▐[0;1;33;47m█[0;1;37;47m█[0;1;33;47m█[0;1;37;47m▓▌[0m [33m▌ ▌[0m
+[1;34m  [0;1;37m░[0m▄[1;47m▄[0;1;46m███[0;1;47m▀[0m▀ ▄[1;47m▄[0;1;46m█[0;1;47m██[0;1;46m█[0;1;47m▌[0m▌   [36m▐  [0;37m      [0;1;36m▌  ░▌[0;1;30m▐░    [0;1;37m▐[0;1;33;47m█[0;1;37;47m█[0;1;33;47m█[0;1;37;47m▓▌[0m [33m▌ ▌[0m
 [1;34mL[0m▐[1m▓█[0;1;46m█[0;1;40m█[0;1;46m█[0;1;47m▌[0m▌ ▐[1;36;47m▐██[0;1;37;47m██[0;1;37;46m▓[0;1;37;47m▄[0m▄   [36m▐▄▄▄░ .  [0;1;36m█   █[0;1;30m▐▓░    [0;1;33;47m███[0;1;37;47m█[0;1;33;47m▌[0m [33m▌[0;1;30m░[0;33m▌[0m
 [33m [0;1;37;47m▐[0;1;37;40m▄█[0;1;37;46m███[0;1;37;47m▌[0m▀  ▀[1;36;47m█[0;1;36;46m▓▓[0;1;36;40m█[0;1;37;46m▓░[0;36m▌ [0;33m. [0;36m▐▓▌[0;1;36;46m░[0;36m▓▌▄▄ [0;1;36m▐▌  ▐▌[0;1;30m█▒    [0;1;33;47m███▌▌[0m [1;33;43m [0m [33m▌[0m
 [37m▐[0;1;37;46m█████[0;1;37;47m▀[0m▀   [36m▀▀[0;1;36;46m░[0;36m▀[0;1;36m▐[0;1;37;46m░[0;36m▀   [0;33m▄   [0;36m▀[0;36;46m [0;1;37;46m░[0;36m█[0;36;46m [0;36;40m▐▄[0;1;36;40m▀▄  ▀▄[0;1;30;46m▀[0m [36m░ [0;1;30m░[0;1;33;47m███▌[0m▌ [43m [0;40m [0;33;40m▌[0m

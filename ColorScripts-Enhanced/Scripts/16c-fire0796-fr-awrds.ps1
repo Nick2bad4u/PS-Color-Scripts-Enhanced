@@ -5,7 +5,7 @@
 # Source SHA-256: a258117b205e1e67dd892100a455b4bb440bbb20d2687b46c37baa55faa9e67f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FR-AWRDS.ANS by Fractal (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Awards 96
 # SAUCE Author: Fractal
 # SAUCE Group: fire
@@ -31,6 +31,6 @@ Write-Host '
 [36m░░[0;30;46m░[0;36;40m▓▓[0;1;36;46m░  [0;36m▄▄▄▄ [0;1;35;45m▀▓▀[0;30;45m░  [0;35;40m▀ [0;35;46m  [0;30;46m░[0;36;40m▓[0;30;46m░[0m [36;40m▄[0;36;46m  [0;1;36;46m░[0;36m█[0;36;46m [0;36;40m▄[0;35;40m█[0;1;35;45m▓██ [0m   [36m░[0;30;46m░[0;36;40m▓▓[0;1;36;46m░  [0;36m▄▄▄▄ [0;1;35;45m▀▓▀[0;30;45m░  [0;35;40m▀  [0;1;35;40m▀▀[0;1;35;45m▀█▓▄[0;35m▄▄ [0;35;46m [0;36;40m█▄█[0;30;46m░[0;36;40m▓░[0;30;46m▓[0m
   [30;46m▓[0;36;40m░    [0;34;40m▄[0;1;34;40m▄    [0;1;35;40m▀   [0;35m█    [0;36m░[0;30;46m▓[0;36;40m░    [0;34;40m▄▄▄ [0;30;45m░ [0;1;35;45m▀▓█ [0m   [30;46m▓[0;36;40m░   [0;34;40m▄▄▄    [0;1;35;40m▀   [0;35m█ [0;34m▄█[0;1;34;44m░[0m       [34m▄▄   [0;30;46m▓[0;36;40m░[0m
 [36;40m [0;34;40m▄    ▀▀[0;1;34;40m▀[0;1;34;44m▓░[0;34m▄▄   █▄▄▄[0;34;44m  [0;34;40m▄▄    ▀▀██▌ [0;30;45m▓[0m   [30;45m [0;1;35;40m▀[0;35m▀[0m     [34m▀▀▀▀[0;1;34m▀[0;34m▀▀ ▀[0m     [34m▄▀▀▀▀ [0;1;34m▀   [0;34m▀[0;1;34;44m░[0;1;34;40m▀[0;34m▀    ▄[0m
-[34m▀[0;1;34;44m░[0;34m▀[0;1;34m▀ [0;34m▀[0m     [34m▀▀[0;34;44m [0;1;34;44m▄[0;34m█[0;1;34;44m░▀[0;34m▓▓▀[0;34;44m [0;34;40m█[0;1;34;44m░[0;34m█[0;30;44m░[0;34;40m░[0;30;44m▓[0m   [34;40m█▀   [0;1;34;44m░[0;34m▄ [0;1;30m[ [0;1;37;47ma[0;1;37;40mw[0ma[1;30mrds 1996 [0m- [1;47mc[0;1;40mo[0mm[1;30ming july 30th ] [0;34m▀ ▀[0;1;34m▀[0;1;34;44m░[0;34m▀[0m
+[34m▀[0;1;34;44m░[0;34m▀[0;1;34m▀ [0;34m▀[0m     [34m▀▀[0;34;44m [0;1;34;44m▄[0;34m█[0;1;34;44m░▀[0;34m▓▓▀[0;34;44m [0;34;40m█[0;1;34;44m░[0;34m█[0;30;44m░[0;34;40m░[0;30;44m▓[0m   [34;40m█▀   [0;1;34;44m░[0;34m▄ [0;1;30m  [0;1;37;47m [0;1;37;40m [0m [1;30m         [0m  [1;47m [0;1;40m [0m [1;30m                [0;34m▀ ▀[0;1;34m▀[0;1;34;44m░[0;34m▀[0m
            [34m▄ [0;1;34m▀    [0;34m░░ ▐▌▀ ░[0m       [34m▀   [0;1;34m▀[0;34m▀ ▄  ▄▄    ▄▄[0;1;34m▄▄[0;1;37m▄[0;1;34m▄▄[0;34m▄▄▄▄ ▄  ▄[0;1;34m▄[0;34m▄  ▄▄[0;1;34;44m▄[0;34m▌-frak!@[0m
                      [34m▀[0m                                                  [34m▀ ▄[0m'

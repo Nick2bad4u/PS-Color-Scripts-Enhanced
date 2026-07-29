@@ -5,7 +5,7 @@
 # Source SHA-256: 77b7d4073c0470fbf2ddb10c305fc5c07c8403084269137fda4d3adba801c03f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: w0-asdfs.ans by Webpige0 (sac-32); released in sac-32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -43,7 +43,7 @@ Write-Host '
                                               [1;30m▄[0m▄[1;30m▄[0;1;30;47m▓▓[0;1;30;40m▐[0;1;30;47m▓▒▒░░[0m██████████████████████
   [30m  MULTi MEDiA POSSE 2004[0m                [1;30m▄[0m▄[1;30;47m▀░░▒▒[0;1;30;40m▀▀[0m [1;30m▀[0;1;30;47m▓▒▒░░░[0m████████████████████
        [30mBETTA RECOGNiZE    [0m             [1;30m▄[0;1;30;47m▒▒░░[0m█[1;30;47m▄[0m▀[33m▓▓▓▓▄[0;37m  [0;1;30m▀[0;1;30;47m▓▓▒▒░░░[0;1;37;47m     [0m███████████[1;30;47m░[0m
-        [30mor you get this   [0m           [1;30m▄[0;1;30;47m▓▓▓[0;1;30;40m▀▀[0m [33m▄▄[0;1;31;43m░▒░ [0;33m▓▓░░░[0;37m [0;1;30m▀[0;1;30;47m▓▓▓▒▒▒░░░░░[0m██████[1;30;47m░░░░▒[0m
+        [30m                  [0m           [1;30m▄[0;1;30;47m▓▓▓[0;1;30;40m▀▀[0m [33m▄▄[0;1;31;43m░▒░ [0;33m▓▓░░░[0;37m [0;1;30m▀[0;1;30;47m▓▓▓▒▒▒░░░░░[0m██████[1;30;47m░░░░▒[0m
   [30min your face![0m      [30m/    [0m          [33m▄▄▄▓▓▓▄[0;1;31;43m░▒▓█[0;1;31;47m▓[0;1;31;43m▓░ [0;33m▓▒▒░░[0;37m [0;33m░[0;37m [0;1;30m▀▀[0;1;30;47m▓▓▓▒▒▒▒▒░░░░░▒▒▒▓▓[0m
                [33m▄[0;1;31;43m▒▒[0;33m▄▄[0m          [33m▄▄▄[0;1;31;43m  ░░▒▒▒▓▓▓▓██[0;1;31;47m▓[0;1;31;43m▓▒[0;1;31;40m▀[0;1;31;43m░[0;33m▓▓▒▒░[0;37m  [0;33m░░[0;37m   [0;1;30m▀▀▀[0;1;30;47m▓▓▓▒▒▒▒▓▓[0;1;30;40m▀▀[0m [33m░[0m
 [37m    [0;1;31m   [0;33m▄[0;1;31;43m▒▒[0;33m▄▄[0;1;31m [0;33m▄[0;1;31;43m▒[0;33m▄[0;1;31;43m▒▒▓▒▒[0;33m▄[0;1;31;43m▒▒[0;33m▄[0;1;31m [0;33m▄▄[0;37m [0;33m▀▓▓▓[0;1;31;43m░░▒▒▓▓[0;1;31;40m▀███▄[0;1;31;47m▒▒[0;1;31;43m▓▓▒▒░ [0;33m▓▒▒░[0;37m   [0;33m░▒▒▄[0m             [33m▒▒[0m

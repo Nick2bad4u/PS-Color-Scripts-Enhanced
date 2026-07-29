@@ -5,7 +5,7 @@
 # Source SHA-256: cf7de925e51f082a8c29cb48bcc9f0e70f4c097142308794a7530fbf02e8eb68
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-EIS2.ANS by mr.manson (GRAPE); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mos eisley
 # SAUCE Author: mr.manson
 # SAUCE Group: GRAPE
@@ -36,6 +36,6 @@ Write-Host '
 [37m  $$[0;34mⁿ°~~[0;37m [0;34m~~°ⁿ$$[0;37m  [0;34m~[0;1;34m°ⁿ[0m$$ $$[1;34mⁿ[0;34m°~~[0;37m ~~[0;1;34m°ⁿ$[0m$ $$[34mⁿ°~~[0;37m [0;34m~~°ⁿ[0;1;34m$[0m$ [34m$$ⁿ°~~[0;37m [0;34m~~°ⁿ$$[0;37m $$[0;1;34mⁿ°[0;34m~~[0;37m [0;34m~~°ⁿ$$[0m
 [34m  [0;37m`[0;1;34m/[0;34m:[0m   [34m.·+._+[0;1;34m''······[0m''[1;34m·`] [0mm o s    [1;34m''[0m `e i s l e y[1;34m''[[0;34m`[0;1;34m···········[0;34m''[0;1;34m·`[0;34m+_.+·.[0m   [34m:[0;1;34m\[0;34m''[0m
 [34m[[0;1;34mo[0;34m]\:-.''[0;1;34m···············][0m running a modded renegade[1;34m [····················`[0;34m.-:/[[0;1;34mo[0;34m][0m
-[34m┌-----`[0;1;34m···············][0m op''d by that deltA dude guy[1;34m [····················''[0;34m-----┐[0m
+[34m┌      [0;1;34m                [0m                            [1;34m                       [0;34m     ┐[0m
 [34m├──[0;1;34m··---[0;34m─[0;1;34m·[0;34m─[0;1;34m-[0;34m──[0;1;34m···[0;34m───[0;1;34m·[0;34m────[0;1;34m--[0;34m────[0;1;34m·[0;34m───────[0;1;34m-[0;34m───────[0;1;34m·[0;34m─────[0;1;34m---[0;34m───────────[0;1;34m-[0;34m───[0;1;34m·[0;34m──[0;1;34m···[0;34m─[0;1;34m-[0;34m┤[0m
 [34m└──[0;1;34m     [0;1;30m                                                           [0;1;34m [0;34m───[0;1;34m [0;34m──[0;1;34m   [0;34m─[0;1;34m [0;34m┘[0m'

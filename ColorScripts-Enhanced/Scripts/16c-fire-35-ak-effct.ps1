@@ -5,7 +5,7 @@
 # Source SHA-256: 7d6025b2decae85c46261f581c313cba02462d18eca70117e5ed611a9b26a0c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-EFFCT.ANS by abstrakt (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sleep
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[36;40m.,┌d[0;1;33;40mb.[0;36m`*┐[0;1;33m,. d$b [0;36m.,┌[0;1;33m*''[0;36m.d[0;1;33mb┐,.[0;34m   [0;1;30m.[0md$$$[1;30m$$jS*j┐.[0m              [1;30m`''²└j$$$[0m$b./[1;30m$$[0m Y$[1;30m$b [0;32mabs[0m
+[36;40m  ┌ [0;1;33;40m  [0;36m  ┐[0;1;33m       [0;36m  ┌[0;1;33m  [0;36m  [0;1;33m ┐  [0;34m   [0;1;30m [0m    [1;30m      ┐ [0m              [1;30m   └    [0m    [1;30m  [0m   [1;30m   [0;32m   [0m
 [37m [0;1;33m$T└"`[0m   [36m~`''[0;1;33m"''"''`~[0m   [36m`[0;1;33m''└/$[0m   [1;30md$$[0m$$[1;30mjP''[0m                         [1;30m?''Y┘''$$[0m$[1;30m$  Y j\ [0;33m,[0m
 [37mj┴b   [0;1;33m∙[0m┤[1;33;43m XXXX MENU [0m├[1;33m∙[0m   [1;30m.[0m$, [1;30mj┘`Q*''[0m                     [36m_ .,┌▬.   [0;1;30m,d[0m$$$$b[1;30m┐, 4┐.[0m [33m''[0m
 [37m$ $[0m                     [1;30m$[0m $  [1;30m,d[0m.   [36m/*[0;1;36m┘''''[0;36m└+,.    _.[0;1;36m┌[0;36m*┘''[0;1;36m`[0m     [1;36m\[0;36m$;[0;1;30m  Y[0m$$[1;30m$`4[0m│$[1;30m$b.`4b[0m

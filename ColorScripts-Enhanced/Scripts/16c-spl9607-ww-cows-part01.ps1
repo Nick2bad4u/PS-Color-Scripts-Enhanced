@@ -5,14 +5,14 @@
 # Source SHA-256: a66cf59ec8bdcf65af0799b3995d6ef6dc677ca45261d10b030d635eb1c0b542
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WW-COWS.ANS by Wicked Wolf (spl9607); released in spl9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
 [30m██████████████████████[0;1;31m  [0;33m░[0;1;31m  [0;33m░░[0;1;31m     [0;1;37m░░[0;1;31m    [0;1;37m░░[0;1;31m     [0;1;37m░[0;1;31m   [0;1;37m░[0;1;31m      [0;33m░░[0;1;31m     [0;30m███[0;33m░[0;30m██████████[0m
 [30m█████████████████████[0;33m            [0;1;37m░[0;30m████[0;1;37m░[0;30m██[0;33m▄▄[0;33;43m███[0;33;40m▄[0;30;40m██[0;1;37;40m░[0;30m██[0;1;37m░░[0;33m   [0;1;37m░[0;33m  ░  ░░░ [0;30m████████████[0m
-[30m███[0;1;37m''Hey ... I can see ya know''[0;33m [0;1;37m░░[0;33m [0;30m█[0;1;37m░░[0;30m███[0;33;43m██[0;1;33;43m░░[0;33;43m████[0;30;40m██[0;1;37;40m░[0;30m█[0;33m  [0;1;37m░[0;33m           [0;30m██[0;33m░[0;30m██████████[0m
+[30m███[0;1;37m                           [0;33m [0;1;37m░░[0;33m [0;30m█[0;1;37m░░[0;30m███[0;33;43m██[0;1;33;43m░░[0;33;43m████[0;30;40m██[0;1;37;40m░[0;30m█[0;33m  [0;1;37m░[0;33m           [0;30m██[0;33m░[0;30m██████████[0m
 [30m█████████████[0;33m░░[0;30m███████[0;1;31m    [0;33m░[0;1;31m        [0;1;37m░[0;30m███[0;33m██[0;1;33;43m░[0;33;43m█[0;1;33;43m░[0;33;43m███[0;33;40m██▄[0;1;31;40m  [0;1;37;40m░[0;1;31;40m [0;1;37;40m░[0;1;31;40m   [0;1;37;40m░[0;1;31;40m   [0;1;37;40m░░[0;1;31;40m [0;1;37;40m░[0;30m███[0;33m░[0;30m█████████[0m
 [30m███████████[0;33m░[0;30m███████[0;33m░[0;30m██[0;33m░░[0;1;31m      [0;1;37m░[0;1;31m  [0;1;37m░[0;1;31m  [0;33m▄▄[0;33;43m██████[0;1;33;43m░[0;33;43m█[0;33;40m█[0;33;43m████[0;33;40m▄ [0;1;31;40m [0;1;37;40m░[0;1;31;40m  [0;1;37;40m░░░[0;1;31;40m     [0;30m████[0;33m░[0;30m█████████[0m
 [30m███████████[0;33m░[0;30m████[0;1;37m░░[0;30m██████[0;1;31m [0;1;37m░[0;1;31m  [0;1;37m░[0;1;31m  [0;1;37m░[0;1;31m  [0;30m█[0;33m██[0;33;43m█[0;33;40m▀ [0;37;40m▄[0;30;40m█[0;33;40m▀[0;33;43m████[0;33;40m▀[0;30;40m██[0;33;40m▀█[0;33;43m█[0;30;40m█[0;1;31;40m [0;1;37;40m░[0;1;31;40m  [0;1;37;40m░[0;1;31;40m     [0;1;37;40m░[0;30m███[0;33m░[0;30m██████████[0m

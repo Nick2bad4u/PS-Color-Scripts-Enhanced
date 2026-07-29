@@ -5,7 +5,7 @@
 # Source SHA-256: e379da62eafa10d307b9430edcd02f5ea4db4ea8cbef2c7933f4ed20b44830ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-SDA.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -37,7 +37,7 @@ Write-Host '
 [1;34m [0m                               [1;34m█[0;32m▐[0;32;42m       [0;32;40m▌[0;1;34;40m█    [0;34m█[0m         [1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀▀▀▀▀[0m
                                [1;34m█[0;32m▐[0;32;42m      [0;1;32;42m░░[0;32m▌[0;1;34m█    [0;34m█[0m
                               [1;34m█[0;32m▐[0;32;42m      [0;1;32;42m░░[0;32m▌[0;1;34m█    [0;34m█[0m
-       [1;30mAn[0ms[1mi [0mb[1;30my[0m                [1;34m█[0;32m▐[0;32;42m    [0;1;32;42m░░▒▒[0;32m▌[0;1;34m█    [0;34m█[0m
+       [1;30m  [0m [1m  [0m [1;30m [0m                [1;34m█[0;32m▐[0;32;42m    [0;1;32;42m░░▒▒[0;32m▌[0;1;34m█    [0;34m█[0m
 [34m    [0;1;30mTe[0mmp[1mus Th[0mal[1;30mes[0m            [1;34m█[0;32m▐[0;32;42m   [0;1;32;42m░░▒▒▓▓[0;32m▌[0;1;34m█   [0;34m░█[0m
        [1;30mF[0meb[1m:[0m`9[1;30m2[0m              [1;34m█[0;32m▐[0;32;42m [0;1;32;42m░░░▒▒▓▓█[0;1;32;40m█▌[0;1;34;40m█  [0;34m░░█[0m
                             [1;34m█[0;32m▐[0;1;32;42m▒▒▒▓▓███[0;1;32;40m██▌[0;1;34;40m█ [0;34m░░▒█[0m       [1;30m·[0m

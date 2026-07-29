@@ -5,7 +5,7 @@
 # Source SHA-256: f233dc22acf33bcd2cf622f74de73620a6c1d9fa961fb9f97aba9d1d84737912
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-MEDU1.ANS by catch22 (glue); released in glue-29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: medusa bbs screen
 # SAUCE Author: catch22
 # SAUCE Group: glue
@@ -36,7 +36,7 @@ Write-Host '
 [36m  [0;1;30;47m▓[0;1;30;46m███[0;1;30;40m▄[0;36m  [0m        [35m▄▄ ▀[0m     [1;36;46m▀██████▀[0;36m█ ▀▀ ▀[0;1;30m▀▀▀▀▀[0m       [36m▀[0;1;36m▀[0;1;36;46m▀█[0;1;36;40m█[0;34m [0;1;30m▄[0;32m▀[0m
 [36m  [0;1;30m▓[0;1;30;46m██[0;1;30;47m▓▄[0;1;30;40m██[0;36m  [0;35m▄▄▄█[0;1;35;45m▄[0;35m▄▀▀[0m    [1;30m▀[0;1;30;44m▀[0;34m▄[0;1;34;44m▄█[0;34m▀▀▀[0m                          [34m▄▄  [0;1;30m▄▄[0;1;32m▀[0;1;32;42m█[0;1;32;47m▀▓[0;1;32;42m▄[0;1;32;40m▄▄[0;32m▄[0m    [32m▄[0;1;32m▄[0;1;32;42m▄█[0;1;32;40m▌[0m
   [1;30m▓▀▀▀[0;35m███▄█[0;1;35;45m██▀[0;35m▀▀[0m   [1;30m▄▄▀[0;34m▄[0;1;34;44m▄[0;34m▀[0m                                [34m▐[0;1;34;44m▓█[0;34m  [0;1;30m▀▀[0;34m  [0;32m░░░░░░░░[0;37m  [0;1;30m▄▄22[0m
-[1;35;45m████[0;35m▌▐[0;1;35;45m▄██▀[0;35m▌▀▀[0;34m [0;1;30m▀[0m   [1;30m▐█▌[0;34m▐[0;1;34;44m█[0;34m▌[0m    [1;30m  how do you compare?[0;5m_[0m       [34m▀[0m
+[1;35;45m████[0;35m▌▐[0;1;35;45m▄██▀[0;35m▌▀▀[0;34m [0;1;30m▀[0m   [1;30m▐█▌[0;34m▐[0;1;34;44m█[0;34m▌[0m    [1;30m                     [0;5m [0m       [34m▀[0m
 [1;35;45m███[0;1;35;47m▓▓▓[0;1;35;40m▀▀[0;1;35;45m▓[0;35m▀[0;1;30m▐█▀[0m      [1;30m▀▀▄[0;34m▀▀▄[0m                          [34m ▄[0;1;34;44m▄█[0;34m▌[0;1;30m [0m
 [1;35;45m███████▌[0;35m▌░░░  [0m         [1;30m▀▀[0m   [34m▄▄[0m                [34m▄[0;1;34;44m▄██[0;34m▌[0m   [1;30m▀▀[0m
 [1;35;47m▀▓[0;1;35;45m████▀[0;35m▀[0m                         [34m▀[0;1;34;44m▀█[0;1;34;47m▓▓▓[0;1;34;44m▄[0;34m█[0;1;34;44m▄[0;34m▌▀ [0;1;30m ▄██▀[0m'

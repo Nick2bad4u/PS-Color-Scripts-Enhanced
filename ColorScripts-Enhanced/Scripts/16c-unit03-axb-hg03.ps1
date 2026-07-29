@@ -5,7 +5,7 @@
 # Source SHA-256: 86e6f2d8692f66794740e10bff9d1879513d7128ffbb57417b67ffcc943271bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AXB-HG03.ANS by AXb (Unit); released in unit03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hallucinogenic
 # SAUCE Author: AXb
 # SAUCE Group: Unit
@@ -30,7 +30,7 @@ Write-Host '
 [34;40m;;;░;;,, '' [0;31;40m,,siS▓$$S[0;33;40m,  [0;34;40m;''  matri,x[0;1;30;40m [0;34m.s;,[0;1;30m [0m [31m" [0;1;30mi,[0m  [34m"^[0;33m. ,,  ,;''''[0;37m  [0;34m''''[0;37m  [0;33m;,   [0;34m;░;,,, [0;33m'' [0;34m,[0m
 [34m;,;''''''''  [0;31msiS$$▓$$$░i[0;33m;[0;37m  [0;35m +i/- -[0;37m [0;34m''[0;37m [0;34m''''"''^[0;35m [0;1;30m ,,░i[0m;,[1;30m,[0;35m-\i+   [0;34m, ,░'' [0;31m,s,,    [0;34m,, ;;;;;;;;;[0m
 [34m'' [0;31m,sS$[0;33m,.[0;31m"""S$$$$$[0;33mi[0;31m$[0;33mi;[0;37m  [0;35m ;[0;37m [0;1;30m,[0m     [34m''[0m   [34m [0;37m [0;1;30m"''''''[0m [1;30m''[0m     [35m;i ░[0m   [34m''; [0;31m,S$$▒S[0;33mis,[0;31m, [0;34m'''';'';;;;;;[0m
-[34m  [0;1;30m.[0;31m"$[0;33mi'' '';, ,s; ''[0;31m"[0;33mSi;[0;37m [0;35m░[0;37m  [0;1;30m;░''[0m [1;41mTake a tab #!$@!![0m  [1;30m''[0m [35m; [0;33m [0m   [34m.  [0;31mii▓$$░$[0;33m$$[0;31mS[0;33mis  [0;34m'';;;;;;[0m
+[34m  [0;1;30m [0;31m  [0;33m            [0;31m [0;33m   [0;37m [0;35m░[0;37m  [0;1;30m ░ [0m [1;41m                 [0m  [1;30m [0m [35m  [0;33m [0m   [34m   [0;31m  ▓  ░ [0;33m  [0;31m [0;33m    [0;34m       [0m
 [1;30m;i[0m'' [33m''    [0;37m,s[0;1;30m$i[0;33mi;'';;."[0m   [35m [0;33m    [0;37m [0;1;30mtak3[0m [1;30my0Ur 1St H1t ,;[0m [35m,[0;33m [0;1;30m  [0m     [31mii$i$$SS[0;33m$S[0;31m"[0;33m"".  [0;34m;;;'';[0m
 [1;30m,    ,[0m,iiS$S[1;30m'' [0;34m.[0;37m     [0;34m,,''[0;35m [0;37m  [0;1;30m;''''[0m [1;30m''[0m   [1;30m"[0m      [1;30m   [0m  [1;30m"^i,[0m [33m [0m    [34m''[0;37m  [0;31m;iS"''[0;33m";s, ,;''  [0;34m,;;;;;[0m
 [1;30m;;,;;[0mi[1;30miS[0m$$;  [34m░[0m    [34m;;[0m    [35m'' [0;1;30m.[0;35m  [0;37m [0;1;30mch3Ck y0ur b4Gz [0m  [1;30m ''[0;35m ░[0;1;30m  [0m  [34m;,  [0;33m".;;'';i[0;1;30mi$s,  [0;34m'''';;;░;[0m

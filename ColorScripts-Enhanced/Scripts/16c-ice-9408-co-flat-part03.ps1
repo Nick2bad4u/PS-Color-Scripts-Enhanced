@@ -5,14 +5,14 @@
 # Source SHA-256: bd08899e3eabe2bdce365482d5a01b2ce19c65fe7d19a4b6802a232fc90ecec4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-FLAT.ICE by Cooly (ice-9408); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 81-123
 # Columns: 1-80
 
 Write-Host '
                    [31m▐[0;1;31;41m░░▒▓[0;1;31;40m████[0m                      [31m▀[0;1;31;41m░▒▓[0;1;31;40m████[0m
                   [31m [0;1;31;41m ░▒▓[0;1;31;40m████   [0;30m                     [0;1;31;41m░▒▓[0;1;31;40m█████▄▄[0m
-                [31m  ▐[0;1;31;41m░▒▓[0;1;31;40m████    [0;30mCauyour too young, [0;31m▄  [0;1;31;41m░▒▓[0;1;31;40m███ ███▄[0m
+                [31m  ▐[0;1;31;41m░▒▓[0;1;31;40m████    [0;30m                   [0;31m▄  [0;1;31;41m░▒▓[0;1;31;40m███ ███▄[0m
                [31m   [0;1;31;41m░▒▓[0;1;31;40m████[0m     [30mOnleople over 80  [0;1;31;41m░[0m [1;31;41m▓[0;1;31;40m█▄[0;1;31;41m█▓▓[0;1;31;40m██  ███▄[0m
                [31m  [0;1;31;41m░▒▓▓[0;1;31;40m███[0m      [30mcane it, its a   [0;31m▄[0;1;31;41m░[0m [1;31;41m▓▓▓[0;1;31;40m▄▀[0;1;31;41m▓▓[0;1;31;40m▀▄█ ███[0m
               [31m  ▐[0;1;31;41m░░▒▓[0;1;31;40m██[0;31m [0;1;31m   [0;30mkind of magic :)    [0;1;31;41m░░░[0;31m▄[0;1;31m▀▀[0;1;31;41m▓▓[0;1;31;40m▄▄██▀▄██▀[0m

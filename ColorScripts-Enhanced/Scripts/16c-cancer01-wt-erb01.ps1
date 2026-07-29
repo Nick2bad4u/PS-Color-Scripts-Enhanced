@@ -5,7 +5,7 @@
 # Source SHA-256: eeb8cd4838a7cec651733976c1c5ee5a73cc8fe233b3e32972ebc41c0d025374
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WT-ERB01.ANS by White Trash (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Erebus Menu Set
 # SAUCE Author: White Trash
 # SAUCE Group: Cancer
@@ -28,5 +28,5 @@ Write-Host '
 [1;31;47m▓████[0;1;31;43m▓▓▒▒░░[0;33m▄▄[0;1;31m [0;1;37m▀▀■  [0m ■▀▀▀▀   [33m▄[0;1;31;43m░▒▒░▒▓█▓[0;33m▌[0;35m▐[0;37;45m░▒▓[0;37;40m▌░[0;33;40m [0;35;40m▐[0;37;45m░░▒[0;35;40m▌[0;1;35;47m░[0;35;47m▒▒░[0;37;40m▌[0;33;40m  [0;35;47m▒▒░░[0;37;40m▌[0;35;40m▐[0;37;45m░▒░[0;37;40m▌ ░[0;35;40m▐[0;37;45m░░▒[0;35;40m▌[0;1;30;40m [0m
 [1;31;47m▒▓███[0;1;31;43m▓[0;1;31;47m█[0;1;31;43m▓▒▒░░▒▒▓[0;1;31;40m▄▄▄▄▄▄▄▄▄▄[0;1;31;43m▓▓▓▓▓▓▒▓▓██[0;1;31;40m█[0;1;31;43m▓[0;33m▄[0;35m▀[0;37;45m▒▓[0;37;40m▓▒▄[0;37;45m▓▓▓[0;1;35;45m░[0m  ▀[1;35;47m░░[0m▓▄  [35;47m░░[0;37;40m██▄[0;35;40m▀[0;37;45m▒▓[0;37;40m▓▄▓[0;37;45m▓▓[0;1;35;45m░[0;45m░[0;40m  [0m
 [1;31;47m░▒▓█[0;1;31;43m▓▒▓[0;1;31;47m█[0;1;31;43m▓▓▒▒▓▓▓▓▓▓▓▓[0;1;31;47m███[0;1;31;43m▓▓▓▓████▓▓█▓█[0;1;31;40m█[0;1;31;43m▓▒░[0;33m▄▄▄[0;37m▀▀▀[0;33m [0;37m       ░   [0;33m [0;37m        ▀▀▀[0;33m [0;37m        [0m
-[1;31;47m▒▓███[0;1;31;43m▓[0;1;31;47m████[0;1;31;43m▓▓[0;1;31;47m██████████[0;1;31;43m▓▓▓[0;1;31;47m███████[0;1;31;43m▓▓▓▓[0;1;31;40m█[0;1;31;43m▓▓▒░░[0;33m▀▀▀▀[0;37m [0;33m▀▀[0;37m [0;33m▀[0;37m [0;33m▀[0;1;30m░[0m [1;30m▀[0m [1;30m■..ma[0;35min [0;1;35mme[0;1;37mnu..[0m
+[1;31;47m▒▓███[0;1;31;43m▓[0;1;31;47m████[0;1;31;43m▓▓[0;1;31;47m██████████[0;1;31;43m▓▓▓[0;1;31;47m███████[0;1;31;43m▓▓▓▓[0;1;31;40m█[0;1;31;43m▓▓▒░░[0;33m▀▀▀▀[0;37m [0;33m▀▀[0;37m [0;33m▀[0;37m [0;33m▀[0;1;30m░[0m [1;30m▀[0m [1;30m■    [0;35m   [0;1;35m  [0;1;37m    [0m
 [1;30m--------------------------------------------------------------------------------[0m'

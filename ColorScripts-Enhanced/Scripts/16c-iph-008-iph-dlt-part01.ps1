@@ -5,14 +5,14 @@
 # Source SHA-256: b250ede32bbe76f52bb15dd6badb5b0196da0829c0c64b31367900ee86ab0b96
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IPH_DLT.ANS by Interphaze (iph-008); released in iph-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
             [1;30m _.┌gg[0m##g┐._     [1;30m░░░[0m
  [1;30m   [0;34m  ┐  [0;37m [0;1;30m┌  [0m   [1m [0;30;47m  [0;1;37;40m  [0m     ┐                              
-  [34m:[0;1;34m$[0;30;44m$[0;37;44m$[0;1;34;40m$[0m db$[1m$[0;30;47m$$[0;1;37;40m$[0;1;37;47m$$$$$$[0;1;37;40m$[0;30;47m$$[0;1;37;40m$[0m$ⁿ''      with my fokkfingarz!@&%
+  [34m [0;1;34m [0;30;44m [0;37;44m [0;1;34;40m [0m    [1m [0;30;47m  [0;1;37;40m [0;1;37;47m      [0;1;37;40m [0;30;47m  [0;1;37;40m [0m                                
   [34mi[0;1;34;44m$[0;44m$$[0;34;40m$:  [0;37;40m`ⁿ$$[0;1;37;40m$$$[0;1;37;47m$$$[0;1;37;40m$[0m$$ⁿ`       [33m/[0m         [37m.┌g[0m
 [1;30m :[0;34m$[0;1;34m$$[0;1;34;44m$$[0;34mi[0m     [37m''$$[0;1;37m$[0;1;37;47m$$[0;1;37;40m$[0m$$`    .i[1;30m:[0m     ,┌g[1;30m. [0md[1m$$[0;1;30mPⁿ[0m
 [1;30m  [0;30;44m$$[0;1;34;40m$$$[0;34m$ [0;37mi┐[0m    [37m$$[0;1;37m$[0;30;47m$[0;1;37;40m$[0m$:    ,gd[1;30m;[0m     [1m$[0;30;47m$[0;37;40m$[0;1;30;40m$ [0m`ⁿ`

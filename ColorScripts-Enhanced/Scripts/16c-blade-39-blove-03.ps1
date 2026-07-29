@@ -5,7 +5,7 @@
 # Source SHA-256: 1e604b6c62e605c0f2b141cda56fa96d6e78a7b28364aeafbdd7e6db8cd2d91e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLOVE-03.ANS by b Love (blade epic 05/97); released in blade-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: digital illusions
 # SAUCE Author: b Love
 # SAUCE Group: blade epic 05/97
@@ -37,5 +37,5 @@ Write-Host '
 [30;46m░[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░ [0;37;40m ▀▄[0;37;41m░[0;30;41m░[0;37;40m▐▌[0;34;40m▀[0;1;34;44m░░▓▓▓▒▒[0;34m█[0;37m  [0;1;32m▒▒▒[0m [1;32m+o  frank[0m               [1;33m▀▀▀▀▀▀[0m [1;33;47m▓▓[0;1;33;40m▀▀▀▀[0;34m     [0;1;32m▀▀▀▀▀[0m [1;36m▀▀[0m
 [30;46m ░[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░ [0;37;40m  ▀ ▀▄[0;31;40m▐▄[0;34;40m▀▀[0;1;34;44m░░▒░[0;34m▌[0;37m  [0;1;32m░░░[0m                                [1;33;47m▒▒░░[0m
 [36m███[0;30;46m░░[0;36;40m░[0;30;46m▓[0;36;40m░░ [0;37;40m   ▐▌[0;30;41m░░[0;31;40m▄▄[0;34;40m▀[0;1;34;44m░[0;30;44m▒[0;34;40m▀▀[0m
-[36;40m█████[0;30;46m ░░[0;36;40m░░░ [0;37;40m ▀▄▄[0;31;40m▀[0;1;31;41m░[0m▄  [34m░░[0m      [37madd info here frank. =} --[0m
+[36;40m█████[0;30;46m ░░[0;36;40m░░░ [0;37;40m ▀▄▄[0;31;40m▀[0;1;31;41m░[0m▄  [34m░░[0m      [37m                          [0m
                [37m▀▀▀[0m'

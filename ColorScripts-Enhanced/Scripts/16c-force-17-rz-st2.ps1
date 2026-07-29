@@ -5,7 +5,7 @@
 # Source SHA-256: 2021eebf980dd7d62c9b5d16f314d89c1eec0c4ec9d7019f6dca5c53bebf091e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZ-ST2.ANS by Rzarector (fORCE); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: StAESiS/2
 # SAUCE Author: Rzarector
 # SAUCE Group: fORCE
@@ -25,7 +25,7 @@ Write-Host '
 [37;40m           [0;30;42m▓[0;32;40m▓[0;30;42m░[0;32;40m▓[0;30;42m░░[0;32;40m▀▀▀▀▀▀▀[0;30;42m░░[0;32;40m▓[0;30;42m░░[0;32;40m▓[0;30;42m░▓[0m        [1;30;40m  [0m [1;30m ▄▄▄[0m [1;30m▄[0m   [1;30m▄▄▄[0m [1;30m▄[0m   [1;30m▄ ▄▄▄▄[0m [1;30m▄[0m
      [36m▄[0;1;36;46m▄▓[0;1;36;47m▓▓[0;1;36;40m█▄[0;32m▀▀▀[0;1;32;42m░▄[0;32m▌[0;36m▐[0;1;36;46m▐█[0;1;36;47m▓▓[0;1;36;40m▌[0;32m▐[0;1;32;42m░▄░[0;32m▀▀▀[0;36m▄[0;1;36;46m▄[0;1;36;40m██[0;1;36;47m▓[0;1;36;40m▄▄[0m [1;30m  ▄[0m [1;30m▄▓▄[0m
      [36m▐[0;1;36;46m▐[0;1;36;47m▓[0;1;37;40m██[0;1;36;47m▓[0;1;36;40m▌▀▀▀[0m [1;36m▄[0m [36m▐[0;1;36;46m▐[0;1;36;47m▓[0;1;37;40m██[0;1;36;40m▌[0m [36m▄[0;1;37m▀▄[0;36m▀[0;1;36m▀▀[0;32m [0;36m▐[0;1;36;46m▐[0;1;36;47m▓[0;1;37;40m█[0;1;36;47m▓[0;1;36;40m▌[0m [1;30m  [0m  [1;30m▄░▀[0;1;37m  [0;1;30m [0;1;37ml[0mogin[1;30m:[0m rzarector
-      [36m▀[0;1;36;46m▀[0;1;36;47m▓▓[0;1;36;40m█▄▄▄[0;1;32;40m▀[0;1;37;40m▀ ▀[0;36m▄[0;1;36;46m▄▓▓▓█[0;1;36;40m▄[0m [1m▀▀[0;1;32m▀▀[0;36m▄[0;1;36m▄▄[0;1;36;46m▄[0;1;36;40m█[0;1;36;47m▓[0;1;36;40m▀[0m  [1;30m  [0m   [1;30m ▓[0m   [1;30m#69 for quicker login[0m
+      [36m▀[0;1;36;46m▀[0;1;36;47m▓▓[0;1;36;40m█▄▄▄[0;1;32;40m▀[0;1;37;40m▀ ▀[0;36m▄[0;1;36;46m▄▓▓▓█[0;1;36;40m▄[0m [1m▀▀[0;1;32m▀▀[0;36m▄[0;1;36m▄▄[0;1;36;46m▄[0;1;36;40m█[0;1;36;47m▓[0;1;36;40m▀[0m  [1;30m  [0m   [1;30m ▓[0m   [1;30m                     [0m
  [32m░[0;37m [0;32m░[0;30;42m▓[0m     [36;40m▀[0;1;36;40m▀[0;1;36;46m▀▓[0;1;36;40m██[0;1;36;46m▓[0;36m▄[0;1;36m [0;36m█[0;1;36;46m░░░▓[0m [1;30m▄[0;1;30;46m▓░[0;36m█[0;1;36;46m░▓[0;1;36;40m█▀▀[0m    [1;30m  [0m [1;30m▄▄[0m [1;30m ▀[0m
      [1;30m▐[0;1;30;46m▓░ [0;1;36;40m██▌[0;36m▄[0;1;36;46m▄[0;1;36;40m█[0;1;36;46m▓░░[0;36m▀[0;1;30;46m░░░░[0;1;36;46m░[0;36m▀[0;1;30m██[0;1;30;46m▓░[0;36m▀[0;37m [0;32m  [0;37m [0;36m▐▄[0;1;36m▄[0m [1;30m  [0m [1;30m▀[0m   [1;30m [0;1;37mp[0massword[1;30m:[0m *******
      [1;30m█[0;1;30;46m█▓░ [0;1;36;40m█▄[0;36m▐[0;1;36;46m▐▓░[0;36m▓▀[0;37m [0;1;30m▐[0;1;30;46m▓▓▓░[0;36m▌[0;37m [0;1;30m▀▀▀▀[0;1;30;46m▓[0m [36m▄▓[0;1;30;46m░░[0;36m▀[0;37m [0;1;30m  ░▓▄[0m

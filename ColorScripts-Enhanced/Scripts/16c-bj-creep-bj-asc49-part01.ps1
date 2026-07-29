@@ -5,7 +5,7 @@
 # Source SHA-256: 41d6d742b3445bd2c6100e0a4c02d4f262aba8c4b663ddf1621fd1115b4642cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc49.ans by Multiple Artists (Cia/Acid); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Gloom
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Cia/Acid
@@ -37,7 +37,7 @@ Write-Host '
       [1m [0;1;30ml[0m$$$$$$$$$$&$$$$$$$$$$$$$$$$$$[1m$[0m$$$$b`Y$$$$$$[1m$[0m$[1m$[0m$$$$i$Pⁿ@m,d$,$$$$$Pⁿ°"~,$
         [1;30m`Y[0m$$$$$$$$$$$$$$$$$$$$$$$$$$$$Pⁿ°"~ ~ⁿY"ⁿY$$$[1m$[0m$[1m$[0m$$$$Sm@S$$$i$$$mm@S$$$$$
          ,[1;30m`Y[0mⁿ°"~  ~''[1m _[0m,[1m,[0m`ⁿ°"~ `°"~"°ⁿ''      ,m,$b$$$$$$$$$$"°ⁿ°"'',$$$$$$$$$$$$$$
-        l$[1mb[0m ,m@[1mSP''[0m,mS[1m$$P[0m,@S[1m$b, ,mb, [0m [1m [0m,_   .~""ⁿ$$$$$$$$$$$S@m@S$$$$$&li: .:i&$$
+          [1m [0m    [1m   [0m   [1m   [0m   [1m         [0m [1m [0m                                          
          Y$[1m,[0ml$[1m$$l[0m $$[1m$$$''[0ml$[1m$$$$[0m.$[1m$$$[0mb[1m:$$[0m$,`[1mY[0mi,[1m`[0m$b,`Y$$$$$$$$$$$$$$$$$$$i:. :.il&$
        [1m`[0m `ⁿl[1m,[0mⁿY[1m$b[0m Y$$[1m$$b[0m Y$[1m$$$:[0mY$[1m$P[0m''[1md$[0m$$P[1m $[0m$P [1mP[0mⁿ"  `$&$$$$$$Y$$$$$$$$$$li:ilI&$$
             [1m  [0m  `[1m~[0m `~~[1m""[0m `""[1m°ⁿ [0m`dⁿ[1m [0m [1m`ⁿ[0m°" ''~  [1m`[0m      iI$$$Pⁿ",$$$$$$$$$$$$$$$$$$$

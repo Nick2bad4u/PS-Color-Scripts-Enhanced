@@ -5,7 +5,7 @@
 # Source SHA-256: 7c58cb236cefe2eca19c570138f9c846eef54300cb9b6f72928d02072b524c63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-LEECH.ANS by Impact (Spastic Studios); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: LeechWorld, Inc.
 # SAUCE Author: Impact
 # SAUCE Group: Spastic Studios
@@ -54,7 +54,7 @@ Write-Host '
        [1;33;40m▐█▌[0;1;37;40m▐█▄▄▄ ▀▀  ▀██████[0;1;37;47m▓▓[0;1;37;40m▌▐█████████[0;1;37;47m▓▓[0m    ▐█[30;47me[0;37;40m█[0;30;47mr[0;37;40m█[0;30;47me[0;37;40m█[0;30;47m![0;37;40m█    that hurts your eyes[0m
         [1;33;40m█▌[0;1;37;40m▐████████ ▄▄▄ ▀▀▀█▀ ▀████████[0;1;37;47m▓▓[0m    ▄██[30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█▌                      [0m
         [1;33;40m█▓ [0;1;37;40m███████[0;1;37;47m▓[0m [1;37;40m██████▄▄▄█ ▄ ▀▀▀▀▀ ▄▄  [0m■▀ ▓█[30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█                    [0m
-        [1;33;40m▐█▌[0;1;37;40m▐██████[0;1;37;47m▓[0m [1;37;40m█████████[0;1;37;47m▓[0m [1;37;40m█████████[0m       █[30;47m![0;37;40m█[0;30;47m![0;37;40m█[0;30;47me[0;37;40m█[0;30;47m![0;37;40m▌    read it.. i like it![0m
+        [1;33;40m▐█▌[0;1;37;40m▐██████[0;1;37;47m▓[0m [1;37;40m█████████[0;1;37;47m▓[0m [1;37;40m█████████[0m       █[30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m▌                        [0m
         [1;33;40m▐▓▌[0;1;37;40m▐██████[0;1;37;47m▓[0m [1;37;40m█████████[0;1;37;47m▓[0m [1;37;40m████████[0;1;37;47m▓[0m        [30;47m![0;37;40m█[0;30;47m![0;37;40m█[0;30;47mt[0;37;40m█[0;30;47m![0m [37;40m▓   looks like an mca[0m
          [1;33;40m██ [0;1;37;40m▀█████[0;1;37;47m▓[0m [1;37;40m█████████[0;1;37;47m▓[0m [1;37;40m████████[0;1;37;47m▓[0m         ▀▀▓▀▀       font or sumthin
           [1;33m██ [0;1;37m█████[0;1;37;47m▓[0m [1;37;40m█████████[0;1;37;47m▓[0m [1;37;40m███████[0;1;37;47m▓[0;1;37;40m▌[0m                      leet like that!

@@ -5,7 +5,7 @@
 # Source SHA-256: ecc1b2d007d961131e00167ec85f5e552fa860a0b8f2c8b84e451b81b9fa1c7f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HX-PAGZ.ANS by HeXD (SeNSe); released in sense10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Pagz, man!
 # SAUCE Author: HeXD
 # SAUCE Group: SeNSe
@@ -30,7 +30,7 @@ Write-Host '
 [34mbad$$$$P[0;1;33m,ⁿ°''[0;34m,d$$$b[0;1;33m`?$b.[0;34m`$$$$$$$$$$$$$$$ba.[0;1;36m`""''[0;34m,d$$Pⁿ°~°ⁿ?$ba,.,ad$$$$$$$$$$$$$$$[0m
 [34m$$$$$$$badPⁿ°~°ⁿ?$b.[0;1;33m`°ⁿ.[0;34m?$$$$$$$$$$$$$$$$$$$$$$$$''[0;1;34m,d$$$b.[0;34m`$$$$$$$$$$$$$$$$$$$$$$[0m
 [34m$Pⁿ°~°ⁿ?$''[0;1;34m,d$$$b.[0;34m`$$$$bad$$$$$$$$$$$$$$$$$$$$$$$$[0;1;34m $$$$$$$ [0;34m$$$$$$$$$$$$$$$$$$$$$$[0m
-[34m''[0;1;34m,d$$$b.[0;34m`[0;1;34m $$$$$Pⁿ [0;34m°ⁿ?$$$Pⁿⁿ?$$$$Pⁿ°°ⁿ?$$Pⁿ°°°ⁿ?$$.[0;1;34m`?$$$P''[0;34m,$$$$$$$$$$$$$$$$$$$Pⁿ°[0m
+[34m [0;1;34m       [0;34m [0;1;34m         [0;34m                                [0;1;34m       [0;34m                       [0m
 [1;34m $$$$$$$[0m [34m.[0;1;34m`?$P[0;33m,ad$$b.[0;34m`?''[0;33m,db.[0;34m`?P[0;33m,ad$$b.[0;34m"[0;33m,ad$$$b.[0;34m?$$ba,.,ad$$$$$$$$$$$$$$$$$$$''[0;1;34m,d$[0m
 [34m.[0;1;34m`?$$$P''[0;34m,$ba,[0;37m [0;33m$$$[0;37m [0;33m.d$[0;1;34m [0;33m,$$""$$.[0;37m [0;33m$$$[0;37m  [0;33m"''[0;37m [0;33m`ⁿ""°?$''[0;34md$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;34m $$$[0m
 [34m$ba,.,ⁿ°~°ⁿ?$[0;37m [0;33m$$$[0;1;34m [0;33m`°''[0;37m [0;33m$$$bd$$$[0;37m [0;33m$$$[0;37m [0;33mⁿ?b[0;34m`$P''[0;33m,dP''[0;34mdⁿ?$$$$$$$$$$Pⁿ°~°ⁿ?$$$$$$$$$$.[0;1;34m`?$[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 27a8e18d5f0008bce66813e1301da772c9e6b4a82c5402bd21a37f245351ef70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN!CELES.ANS by aneuriZm (oOps!aSCii); released in oops_a04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: erm
 # SAUCE Author: aneuriZm
 # SAUCE Group: oOps!aSCii
@@ -34,7 +34,7 @@ Write-Host '
    [32m`7$$$$$$$$$$$$[0;1;32;42m$$[0;1;32;40m$$$P''[0m   [1m`"²÷S$$[0;1;33m$$$$$i[0;1;36m           [0m [36m [0;34m [0;37m [0;1;33mi$$$$$$$$$$$$[0;33m$$$$$$$bn[0;1;36m''[0m
      [32m`"²÷S$$$$$$[0;1;32m$S÷²"''[0m          [1m`"²÷S$$$[0;1;33mL_.,adO$Obn,._J$$$$$$$$$$$$$$$$$$[0;33m$$$$bn[0m
 [37m [0;36m [0m   [36m_.,adO[0;32m$$$$$Obn,._[0m     [37m [0;36m [0m   [1;36m     [0;1;37ml$$[0;1;33m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;33m$$$l[0m
-[36m [0;37m [0;36m ,JP[0;1;31my[0;31m$[0;1;31m"²y[0;32mY$$$P[0;1;31my[0;31m$[0;1;31m"²y[0;32mYL.[0m   [36m [0;37m [0;36m [0;1;36m [0;1;37m_.,adO$$[0;1;33m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;33m$$$$P''[0m
+[36m [0;37m [0;36m    [0;1;31m [0;31m [0;1;31m   [0;32m     [0;1;31m [0;31m [0;1;31m   [0;32m   [0m   [36m [0;37m [0;36m [0;1;36m [0;1;37m        [0;1;33m                                   [0;33m      [0m
 [36m ,J$[0;32ml[0;31m$$[0;1;31ml[0;1;37myy[0;1;31m$$[0;32ml$l[0;31m$$[0;1;31ml[0;1;37myy[0;1;31m$$[0;32ml[0;1;37m_.,aidS$$$$$[0;1;33m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;33m$$$$S÷²"''[0;36mL[0m
 [36m,J[0;32;46m$$[0;32;40ml[0;1;31;40m`[0;31m$[0;1;31m$[0;1;37myy[0;1;31m$''[0;32m:$:[0;1;31m`[0;31m$[0;1;37m_.,aidS$$[0;1;33m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;33m$$$$S÷²"''[0;1;37my[0;1;31m$''[0;36ml$[0;1;36m$l[0m
 [36ml$$[0;32;46m$$[0;32;40mb[0;1;31;40m`$t$''[0;32md$$$b[0;1;37ml$$[0;1;33m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;33m$$$$$l[0;36m$b[0;1;31m`$t$''[0;36md$$$[0;1;36m$[0m
@@ -42,7 +42,7 @@ Write-Host '
  [32m`T$$$$$$$$$$$$$$$$$[0;1;32;42m$[0;1;32;40m$[0;1;37;40m`"²÷S$[0;1;33;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;33m$$l[0;36m$$$$$$$$$$$$[0;1;36;46m$[0;1;36;40m$$$P''[0m
    [32m`7$$$$$$$$$$$$[0;1;32;42m$$[0;1;32;40m$$$P''[0m   [1m`"²÷S$$[0;1;33m$$$$$$$$$$$$$$$$$$$$$$$$[0;33m$$$Obn,._[0;36m$$$$[0;1;36;46m$$[0;1;36;40m$$$P''[0m
      [32m`"²÷S$$$$$$[0;1;32m$S÷²"''[0m          [1m`"²÷S$$[0;1;33m$$$$$$$$$$$$$$$$$$$$$$[0;33m$$$$$$Obn,.[0;1;33m [0;1;36m²''[0;36m    [0m
-[37m [0;36m [0m   [36m_.,adO[0;32m$$$$$Obn,._[0m     [37m [0;36m [0m   [36m_.,ad[0;1;37m`"²÷S$$$$[0;1;33m$$$$$$$$$$$$$$$$$$$$[0;33m$$$$$$Obn,.[0m
+[37m [0;36m [0m   [36m      [0;32m           [0m     [37m [0;36m [0m   [36m     [0;1;37m         [0;1;33m                    [0;33m           [0m
 [36m [0;37m [0;36m ,JP[0;1;31my[0;31m$[0;1;31m"²y[0;32mY$$$P[0;1;31my[0;31m$[0;1;31m"²y[0;32mYL.[0m   [36m [0;37m [0;36m ,JP[0;1;31my[0;31m$[0;1;31m"²y[0;34mY$$$[0;1;37m`"²÷S$$$$$[0;1;33m$$$$$$$$$$$$$$$$$$$$$[0;33m$$$$bn[0m
 [36m ,J$[0;32ml[0;31m$$[0;1;31ml[0;1;37myy[0;1;31m$$[0;32ml$l[0;31m$$[0;1;31ml[0;1;37myy[0;1;31m$$[0;32ml$L.[0;37m [0;36m ,J$[0;34ml[0;31m$$[0;1;31ml[0;1;37myy[0;1;31m$$[0;34ml$l[0;31m$$[0;1;31ml[0;1;37myyl$$$[0;1;33m$$$$$$$$$$$$$$$$$$$$$$$$$[0;33m$$$l[0m
 [36m,J[0;32;46m$$[0;32;40ml[0;1;31;40m`[0;31m$[0;1;31m$[0;1;37myy[0;1;31m$''[0;32m:$:[0;1;31m`[0;31m$[0;1;31m$[0;1;37myy[0;1;31m$''[0;32ml$[0;1;32m$l[0;32m.[0;36m,J[0;36;44m$[0;34;40m$l[0;1;31;40m`[0;31m$[0;1;31m$[0;1;37myy[0;1;31m$''[0;34ml[0;1;37m_.,adO$$$[0;1;33m$$$$$$$$$$$$$$$$$$$$$$$[0;33m$$$$P²''[0;1;36ml[0m

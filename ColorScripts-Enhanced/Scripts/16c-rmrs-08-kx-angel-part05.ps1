@@ -5,7 +5,7 @@
 # Source SHA-256: 65e1672affdd7647b15f3e8a3ed7a32d3e9898496bf36f9612c2f671b7f12e8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KX-ANGEL.ANS by Kxmode (rmrs-08); released in rmrs-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 196-245
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ $[1m.  [0m"[1mT[0m''[1m.d!W$$$$$$[0mRTW[1m$$$$$$WM$$$$$$[0mR9[1m$$$[0m
 [1m*[0m*..[1m [0m [1m`@*[0mU[1m$$$$$$5[0m?7[1m$$$$$[0m$$7$$$$$$$X$R$$$RX[1m@[0;1;30m@#$[0m$6[1m :[0m^*$$$$$$$D"[1m   [0m . [1m  [0;35m?![0;1;37m   [0;35m!4[0;1;37mk  [0m
 [1m*.*[0m"[1m :[0mXHt[1m$$$$$$$$[0m%$R$T$$$[1m$$$$$$$$$$$W$$$$[0mB[1m![0;1;30mM$$$[0m$[1mi<* [0m`"#*"""[1m     [0m!x[1m~  `      ?  [0m
 [1mP[0m.[1mF )$[0mMN[1m$$$$$$[0m$3X$$$5!Q$$$$$$$$RR!$$$$$$$$t[1;30m??N$$[0m@.[1m  [0m `~    [1m     [0m''![1m   >   [0mo[1m  ''  [0m
-[1mE  #![0mXM[1m$$SM[0mN$$B$$$[1;30m$$$!MR[0m$$$$$$$$R!$$$$t$$8$[1;30m![0mFW[1;30m($$[0m6x[1m  ''> [0m"[1m   [0m%[1m   [0mXM[1m> ''"   "   ` [0m
+[1m     [0m  [1m    [0m       [1;30m      [0m                   [1;30m [0m  [1;30m   [0m  [1m     [0m [1m   [0m [1m   [0m  [1m             [0m
  [1m ''M[0mTM[1m$$$[0m6W$$$$G[1;30mW$$$$$!($[0m$$$RTRM~!M$Z$@$$$R[1;30m`$[0mX[1;30m$R$$[0m$e[1m"'':         [0m@t[1m :           [0m
 [1mT[0m!XDX[1m@$[0m$$$$$$[1;30m$$$$$$$$$M`?[0m##[1;30mRP[0m!:! ~`!X$$[1;30m$$$R.9$[0mH[1;30m@$$$[0m8L[1m :         [0m!R[1mX  .         [0m
 [1m!.[0mMNU$$$$[1;30m$$$$$$$$$$$$$$ ''W[0mX[1;30m-[0m.dNWWWWX!MR$[1;30m$$!!9RX!?$$$[0mEL[1m    [0m''>[1m   ''[0mX#[1m!       `    [0m
@@ -32,13 +32,13 @@ $[1m.  [0m"[1mT[0m''[1m.d!W$$$$$$[0mRTW[1m$$$$$$WM$$$$$$[0mR9[1m$$$[0m
 [1;30m@$$$$$$$$$6R$$$$$$$$$$$!`''X[0m$[1;30mR$*$B$$[0m$$$U%T[1;30m~!4$$$WX?M$$$[0mB:[1m  [0m:[1m   [0m:[1m ~ [0mk[1m         [0m.x[1m [0m
 [1;30m$$$$$#M$$$$$$$$$$$$$$$$! ''M[0m$%[1;30m `""$$$$[0m$$i?~[1;30m %$$BRMX!?!$[0m$![1m          [0mX[1m        [0me$$[1m [0m
 [1;30m$$$$$BRRR8R$$$$$$*$$$$$~. `@[0m$.[1;30m o:X!@$$[0m$$N[1;30m  ?$@XX!>M[0;1;37m [0;1;30m''!"[0m''[1mnm =4=    [0m''[1m      .[0m.[1mue@[0m
-[1;30m$$$$$$$XXMR$$$$$$$7$B$*:W..?R[0m$:[1;30mR$MXXR$[0m$M6k[1;30m ''8RF^~ R[0;1;37m   4 M*[0m...xx[1m      [0m4[1m: [0m.[1mM[0;1;30mX$R![0m
+[1;30m                             [0m  [1;30m       [0m    [1;30m         [0;1;37m       [0m     [1m      [0m [1m  [0m [1m [0;1;30m    [0m
 [1;30m$$$$$$$#MM@$$$$$$?UB$~.$$I@ 4M[0m$[1;30mX$NhXHX?[0m?M![1;30m  R%[0;1;37m     -  ^ W ``          [0m.e$[1mW[0;1;30m$#:"[0m
 [1;30m$$$$$$$M$b??#$@$B$$NT $&$$$X $$[0m$[1;30m?$$$*$$[0mMX![1;30m  ![0;1;37m         [0mnn`H@ .[1m.*      .ed$[0;1;30mR*)d$[0m
 [1;30m$$$$$$$$!&M?t$$9$B$$!n6B$$$Mi#M$[0mN[1;30m?$$$!$$[0m$&[1;30m  ''[0;1;37m    -    [0m**##I"7[1m9     $x$[0;1;30m#.=:W$R3[0m
 [1;30m$$$$$$$BU$UW$##$$$$MX$$95$$$MkR$$[0m5[1;30m?$*WBM[0m$R>[1;30m [0;1;37m [0m. :    [1m  [0mxxc+@ M[1mH4  u@W[0;1;30m#)^x@$*U@$[0m
 [1;30m$$$$$$B$$WR$#X~BZ$7~$$$68R$$@I<$I$[0m$([1;30m*$$M@[0mM>[1;30m [0;1;37m [0mX      [1m  [0m.!*F"I" [1m.e$[0;1;30m#*")d!M#b$$#`[0m
-[1;30m$$$$$$$$$B$#W?.`TXhWNR*$$$$$$$RXB$$[0m$L[1;30m!!M7[0mX[1;30m  [0;1;37m~[0m$> '' : [1m  2`.2e[0m [1m:@$[0;1;30mR~%)d$RGWRTF u@[0m
+[1;30m                                   [0m  [1;30m    [0m [1;30m  [0;1;37m [0m       [1m       [0m [1m   [0;1;30m               [0m
 [1;30m$$$$$$$$$$$B!%< ""tB$%$RI8$$B$$@R$6$[0m$N:[1;30m!![0m`[1;30m  [0;1;37m''[0m$N  xXX[1m<  !![0m [1m )$#[0;1;30m)4kW$*D@*)-"k(W#[0m
 [1;30m$$$$$R7$$N8$?x.  -RNM!*!"MMRM$$8XQR$$$[0mEh:[1;30m   [0;1;37m [0m$$c`` "[1m    [0m.e[1mnT[0;1;30m#(o$*#U$#b$~.@R#[0;1;37m   [0m
 [1;30m$$$$$X$9$$$8&@!X  @5$RXX!XX?$MR$$T$$M$$[0m$@k[1;30m  [0;1;37m:[0m$RT<> %[1m   [0m.[1mzX[0;1;30m=.W$$T7@Te$#?@R"&[0;1;37m    [0m
@@ -58,5 +58,5 @@ $[1m.  [0m"[1mT[0m''[1m.d!W$$$$$$[0mRTW[1m$$$$$$WM$$$$$$[0mR9[1m$$$[0m
 [1;30m$$$$$$$$B$$$$l$$I@:!!$M$R$$8W?@M$$[0m$N[1mTX[0;1;30m.<[0;1;37m   "R. $$R[0m*)[1m [0;1;30m !<:::[0;1;37m [0md[1mHT%[0mN[1m      xW@!T*`[0m
 [1;30m$$$$$RI$$Z$$$$$R$5~*T?R$$@$T$Z@$T@@$$[0m$[1m9:   :f`<$B8[0m$R[1;30m>X4%!![0m~@[1m$X![0m8E[1m        *[0m= tX
 [1;30m$$RT$$$$B$8$$$$$BB)/?k$$$$$B$$$M$WM?$9@X[0;1;37m.  -`<$$$$$[0m$>[1;30mC!!!!:[0m$[1m$S[0m@![1m"r      "`[0m:es$
-[1;30m$$2$@R$@$$#$$$$$8X.t.!9Z6I$$$B$ZBMSM*ZM[0m6[1m     <$$$$$[0m$!&[1;30m`!!!~[0m*[1mS[0m$5[1m(d$.      "[0m*lR$
+[1;30m                                       [0m [1m           [0m   [1;30m     [0m [1m [0m  [1m           [0m    
 [1;30m$$RB$$B$R$@$$R$$#!.-!tTW$$$$$$$$RMURXB@[0mM[1mL     #t$M$$![0m$[1;30m!!!!!''[0m$$[1m*F"*"       [0m!~ ![0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7f02aaa30eba74a2871064ff093b82776332b0e9a8a65d7ca5025f067b0b9d11
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-MAD.ANS by Harlequin (Apocalyptic Visions); released in avpack05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Madness Network
 # SAUCE Author: Harlequin
 # SAUCE Group: Apocalyptic Visions
@@ -59,7 +59,7 @@ Write-Host '
   [31m░░░▒▒▓████▓▓▒▒▒▒▒▒░░░[0;30mD... tHIS[0m  [31m░[0;1;30;41m▐[0;1;30;40m▓▓██▒[0;1;30;41m▌[0;31m▓▓▒░░[0m    [31m░░▒▒▓[0;1;30mHarlequin / AV[0;31m░[0;1;30m''95[0;31m░▒▓▓▓[0m
 [30mAV[0m   [31m░░▒▒▒▓████▓▓▓▓▓▒▒▒░░░░░[0;30mis A[0m   [1;30m▓▓██▒▒[0;31m▓▓▓▒▒░░[0m    [31m░░▒▒[0;1;30mGreetz:[0;31m▒▒▒▒░░░[0m      [31m░▒▓[0m
 [31m░░[0;30mAV[0m   [31m░░░▒▒▒▒▓████▓▓▓▓▒▒▒▒▒░░[0;30mMODE[0;1;30m▐▓██▒▒[0;31m░▒▓▓▓▒░░[0m    [31m░░▒▒▒▓[0;1;30mQuiet[0;31m▓[0;1;30mRiot[0;31m▒▒▒░░[0m    [31m░▒[0m
-[31m▒░░░[0;30mAV[0m    [31m░░░░▒▒▒▒▓████▓▓▓▓▓▒▒░░[0;30mRN[0;1;30m▐▓█▒▒[0m [31m░░▒▓▓▓▒░░[0m     [31m░░▒▒[0;1;30mRattlesnake[0;31m▒▒▒▒░░[0m   [31m░[0m
+[31m▒░░░[0;30m  [0m    [31m░░░░▒▒▒▒▓████▓▓▓▓▓▒▒░░[0;30m  [0;1;30m▐▓█▒▒[0m [31m░░▒▓▓▓▒░░[0m     [31m░░▒▒[0;1;30m           [0;31m▒▒▒▒░░[0m   [31m░[0m
 [31m▒▒▒░░░░░[0;30mAV[0m    [31m░░░░▒▒▒▓█████▓▓▓▒▒░░[0;1;30m▓▓▒▒[0;30mGROO[0;31m░▒▓▓▓▒░░[0m      [31m░▒[0;1;30mBig[0;31m█[0;1;30mMad[0;31m█[0;1;30mRed Thing![0m
 [31m▓▓▒▒▒▒▒░░░░░[0;30mAV[0m    [31m░░░▒▒▒▒▓▓███▓▓▒[0;1;30m▓▓▒[0;1;30;41m▀[0;31m░[0;30mUP A[0;31m░░▒▓▓▓▒▒░░[0m   [31m░░░[0;1;30mCatchin''[0;31m█[0;1;30mVapours[0;31m▒░░[0m
 [31m█▓▓▓▓▓▒▒▒▒▒░░░░░[0;30mAV[0m   [31m░░░░▒▓▓████[0;1;30;41m▄[0;1;30;40m▒[0;1;30;41m▀[0;31m▒▒░░░[0;30mFTE[0;31m░░▒▓▓▓▓▒░░[0m   [31m░░[0;1;30mSCi[0;31m▓[0;1;30mSoftware[0;31m█▓▓▒▒▒▒░░[0m

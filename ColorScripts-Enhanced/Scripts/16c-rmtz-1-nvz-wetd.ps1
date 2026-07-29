@@ -5,7 +5,7 @@
 # Source SHA-256: 03fe76aaa17e193a3f510a317e3ff840f935c6d3ddc75169dea2bcddc55360d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NVZ-WETD.ANS by N0ViCE (rmtz); released in rmtz-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: WEt dREAM -=}
 # SAUCE Author: N0ViCE
 # SAUCE Group: rmtz
@@ -16,7 +16,7 @@
 
 Write-Host '
 [34m░[0m              [34m░[0;37m  [0;34m░[0;37m  [0;34m░[0m    [34m░[0m      [1;30m▄[0m▄    [1;30m▄[0m,    [34m░[0;37m [0;34m░[0m    [34m░[0;37m  [0;34m░[0m         [34m░[0m       [34m░[0m
-[37m RiGAM0RtiZ is like a [0;1;30m▄▀[0m▄    [34m░[0;37m  [0;1;30m█[0m▐▌   [1;30m▐▌[0m▌▄                [34m░[0m    [34m░[0m       [34m░[0m   [34m░[0;37m  [0;34m░[0m
+[37m                      [0;1;30m▄▀[0m▄    [34m░[0;37m  [0;1;30m█[0m▐▌   [1;30m▐▌[0m▌▄                [34m░[0m    [34m░[0m       [34m░[0m   [34m░[0;37m  [0;34m░[0m
 [34m░[0m        [34m░[0;37m [0;34m░[0m     [34m░[0m   [1;30m▐▌[0m█▌▄███▄ [1;30m▐▌[0m█▌█  [1;30m▐▌[0m█▐▌▄▄[1;30;47m▀[0m▐▌▄▄▄▄▄████▄▄▄ [34m░[0m     [34m░[0m   [34m░[0;37m  [0;34m░[0;37m  [0;34m░[0m
    [37mWET DREAM !!!![0m    [1;30m█[0m▐█▐█▀[1;30m▄[0m▀██[1;30m▐▌[0m█[1;30m▌[0m█▌ [1;30m█[0m▐█▌█▐▀▀[1;30m▌[0m█▌[1;30m▄[0m▄▄▄▄▄    [1;30m▄[0m ▄   ▄▄  [34m░[0;37m     [0m   [34m░░[0m
 [37m [0;34m░[0m        [34m░[0m   [34m░[0m     [1;30m▐▌[0m██▐▌  [1;30m█[0m▐█[1;30;47m▐[0m▐█[1;30m█[0m▐█ [1;30m█[0m▐█[1;30m▌[0m█▌  [1;30m█[0m▐█ [1;30m▀[0m ▀[1;30;47m▄[0m▀████▌██▐█▀[1;30m▀ [0m▀   [34m░[0;37m [0;34m░[0;37m [0m

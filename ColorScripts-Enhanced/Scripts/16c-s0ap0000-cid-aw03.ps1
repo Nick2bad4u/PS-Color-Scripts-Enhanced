@@ -5,7 +5,7 @@
 # Source SHA-256: 9a232d064bb59920092184acc12191c629a63db94917b1b39688ff5fbd6e3ff9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CID-AW03.ANS by Cidica + Prizm (sOAP.dOPE!); released in s0ap0000 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: alIENwoRKSHOP[3]
 # SAUCE Author: 114.[cid]
 # SAUCE Group: sOAP.dOPE!
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;30m┌─────────--──────---─────────────----─────────---───-───-────────-───────────┐ [0m
-[1;30m│[0;1;34m [0;32m$[0;1;34m ,aS$$$$Sa. [0;32m$$$$$$$[0;1;30m:▒░[0m [1;30ma l i e n   w [0;1;37mo[0;1;30m r k s h o p[0m [1;30m░▒:[0;32m$$$$$$$$"[0;1;31m,aS$$$$Sa.  [0;1;30m│[0m
+[1;30m│[0;1;34m [0;32m [0;1;34m            [0;32m       [0;1;30m ▒░[0m [1;30m              [0;1;37m [0;1;30m            [0m [1;30m░▒ [0;32m         [0;1;31m            [0;1;30m│[0m
 [1;30m│[0;32m`"[0;1;34m,$$$$$$$$$$,[0;32m`$CID$$ay,..[0m    [1;37m   [0;1;33m..,sa$Syssa,.[0m     [32m..,ya$$$$$$$''[0;1;31m,$$$$$$$$$$, [0;1;30m│[0m
 [1;30m│[0;1;34m  $$$$$$$$S$$S [0;32m$$$$$$$$$$$$$$[0;37m [0;1;33m,a$$$²"''[0;1;37m [0;1;33m"$$$$$$ss,[0;1;37m [0;32m$$$$$$$[0;1;32;42m$[0;32m$$$$$[0;1;31m $$$$$$$$S$$S [0;1;30m│[0m
 [1;30m│[0;1;34m  $P""&$$&""Y$ [0;32m$$$▀$$$$$$$$''[0;1;33m,qS$$$$a,[0;1;37m  [0;1;33m$S$$$$$$XSa,.[0;32m²$$$$$$$$$$[0;1;31m $P""&$$&""Y$ [0;1;30m│[0m

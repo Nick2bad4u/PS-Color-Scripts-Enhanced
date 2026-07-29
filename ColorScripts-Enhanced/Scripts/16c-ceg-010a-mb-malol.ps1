@@ -5,7 +5,7 @@
 # Source SHA-256: 7e367d83c05de0e3309b98121c38570ebf73c8470fc411ca5c1f6f7c6a340c5d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-MALOL.ANS by mr.byte (chaos energy group); released in ceg-010a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 'maloletka'
 # SAUCE Author: mr.byte
 # SAUCE Group: chaos energy group
@@ -49,7 +49,7 @@ Write-Host '
           [1;33m▄[0m [1;33m■[0m [1;33m▀[0m        [1m▐▀██████▀█████████████████████████████▌[0m
                        [1m█▐██████▌▄████████▐█████████▀█▀▄███████▌[0m     [1;33m▄▄███▀█▄[0m
  [36min r[0;30;46mu[0;36;40mssia - [0;30;46mt[0;36;40mhe[0m      [1;37;40m▐▌███████[0m [1m▐████████▌[0;1;47m█[0;1;40m██▀▀▄████[0m  [1m▐████████[0m    [1;33m▐██▌▀▌▄██▌[0m
- [36mbadly li[0;30;46mt[0;36;40mtle g[0;30;46mi[0;36;40mrl[0;37;40m    [0;1;37;40m█▄█████▀▀[0m [1m███████████▄▄███████▌[0m [1m▄████████▌[0m    [1;33m▀███▀█▀▀[0m
+ [36m        [0;30;46m [0;36;40m     [0;30;46m [0;36;40m  [0;37;40m    [0;1;37;40m█▄█████▀▀[0m [1m███████████▄▄███████▌[0m [1m▄████████▌[0m    [1;33m▀███▀█▀▀[0m
  [36mn[0;30;46ma[0;36;40mmed - ''ma[0;30;46ml[0;36;40moletka''[0;37;40m [0;1;37;40m▀▀▀▀▀[0;1;31;40m▄▄ [0m  [1m▐█▌██████████████████▌[0m   [1;31m▄▄[0;1;37m▀▀▀▀▀▀[0m      [1;33m▄[0m [1;33m■[0m [1;33m▀[0m
                        [1;31;41m▒[0;1;31;40m███▌[0m   [1m██▐███████████████████[0m   [1;31m▐[0;1;31;41m▓[0;1;31;40m███[0m
       [35m▀██▄▄[0;37m   [0;35m▄▄█[0;1;35m▄[0m [35m▄█▄[0;1;35m▄[0;1;31m▐[0;1;31;41m▓[0;1;31;40m██[0m [1;35m▄[0m [1m▐█▀▄███████████████▀▀▐█▌[0m   [1;31;41m▒▓[0;1;31;40m█▀▌[0m

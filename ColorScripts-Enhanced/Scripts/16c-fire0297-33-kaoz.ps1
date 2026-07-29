@@ -5,7 +5,7 @@
 # Source SHA-256: a2ef793ed43d9c5b6a9cd5c8aad2111988793bcd3e3f39461ab6f39ece8ca5bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-KAOZ.ANS by Eerie (Fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Kaoz
 # SAUCE Author: Eerie
 # SAUCE Group: Fire
@@ -26,7 +26,7 @@ Write-Host '
                   [34m▄▄▄[0m      [34;43m [0;1;31;43m▀██▄▀▀████████████▄ [0;33m▀[0;1;31m▀▀▀▀▀[0;33m▀▀[0m            [34m▄▄▄▄▄██▀██▀[0m
 [1;37meLEET[0m        [34m███████▀[0m       [33m▀▀▀[0;1;31m▀▀▀▀[0;33m▀[0;1;31m▀▀▀[0;33m▀[0m        [34m▄▄█████▄▄  ▄▄▄██████▀▀▀  ▄██▀[0m
 [1;37mmATRIX[0m       [34m▀▓[0;34;44m [0;1;34;44m░░░[0;34m█  [0;33m▄░░   [0;34m▄▀[0m     [34m▄██▄  [0;33m▄▄▄█▀[0;34m▄███▀   ▀▓██░ █[0;1;34;44m░░[0;34m░[0m       [34m▄███[0m
-[1;37mmENU[0m        [33m█▄[0;34m░[0;1;34;44m▄▓▓▓[0;34m█  [0;33m█▓▓▀[0;34m▄▓▀   [0;33m▄ [0;34m██▀[0;1;34;44m░░[0;34m█ [0;33m█[0;33;47m▓[0;33;40m▀[0;34;40m░█[0;1;34;44m░░[0;34m▓   [0;33m▄▄░[0;34m░██▓░▐[0;1;34;44m▓▓[0;34m▓  [0;33m▄▄▀[0;34m▄[0;1;34;44m▄░░[0;34m▀   [0;33m▄[0m
+[1;37m    [0m        [33m█▄[0;34m░[0;1;34;44m▄▓▓▓[0;34m█  [0;33m█▓▓▀[0;34m▄▓▀   [0;33m▄ [0;34m██▀[0;1;34;44m░░[0;34m█ [0;33m█[0;33;47m▓[0;33;40m▀[0;34;40m░█[0;1;34;44m░░[0;34m▓   [0;33m▄▄░[0;34m░██▓░▐[0;1;34;44m▓▓[0;34m▓  [0;33m▄▄▀[0;34m▄[0;1;34;44m▄░░[0;34m▀   [0;33m▄[0m
             [33;47m▓[0;33;40m█ [0;1;34;44m▓███[0;34m▓  [0;33m█▀[0;34m▄█▓   [0;33m▄█ [0;34m██▓ ▐[0;1;34;44m▓▓▄[0m [33m▀ [0;34m▓[0;1;34;44m▄▓▓[0;34m░  [0;33;47m▓░░[0;33;40m▓ [0;34;40m███▓[0m     [33;40m█▀[0;34;40m▄[0;1;34;44m▄▓▓[0;34m▀   [0;33m▄[0;33;47m▀▓[0m
 [1;31;40mRIP THIS    [0;33m██ [0;1;34;44m░███[0;34m░  ▄[0;1;34;44m░░[0;34m█░  [0;33m█▓ [0;1;34;44m░░[0;34m█░  [0;1;34;44m▐██▄[0m [34m░[0;1;34;44m░███[0m  [33m░█[0;33;47m▓▓[0;33;40m█ [0;34;40m████ [0;33;40m▄▄ [0;34;40m░▄[0;1;34;44m▄█▀[0;34m▀  [0;33m░▄█[0;33;47m▓▓[0;33;40m▓[0m
 [1;31;40m& YOU WILL  [0;33m██ [0;34m▓[0;1;34;44m███[0;34m▄[0;1;34;44m▄▓▓▀[0;34m▀   [0;33m██░[0;34m█[0;1;34;44m▓▓[0;34m▓  [0;33m▄[0;34m▐[0;1;34;44m▓██[0;34m░▓[0;1;34;44m▓██░[0m  [33m▓████ [0;34m█[0;1;34;44m░░ [0m [33m█▀[0;34m▄[0;1;34;44m▄██▀[0m   [33m▄▓████░[0m

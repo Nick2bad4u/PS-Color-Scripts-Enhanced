@@ -12,7 +12,7 @@
         "removedScripts": 27,
         "removedWorks": 8,
         "retainedFiles": 3,
-        "retainedRows": 11
+        "retainedRows": 7
     },
     "candidates": [
         {
@@ -1313,14 +1313,6 @@
             "category": "interface-panel",
             "evidence": [
                 {
-                    "row": 14,
-                    "sha256": "05b9c45e089b4be193f7b3ae60782112b8963550cd5ae36181b4c3b2c77eb896"
-                },
-                {
-                    "row": 15,
-                    "sha256": "f154d69edcdfade08310e1cf6c1c8f5f7bc43dd621ca284ecca242a7dece7463"
-                },
-                {
                     "row": 16,
                     "sha256": "bb7d5d20e704f5848602a4b26ad03b89a80756c90dfc378ece18c49b5376d1f5"
                 },
@@ -1347,10 +1339,6 @@
                 {
                     "row": 23,
                     "sha256": "ea190027392d2d1018acd704e3f4ff37aadc2ed15c632bb31fe5957c34de9f0a"
-                },
-                {
-                    "row": 24,
-                    "sha256": "f852901072053a9ff62ac61a0a78d1e39045e094d4b140f482a325530dd972fb"
                 }
             ],
             "file": "16c-uprise06-xs-earth.ps1",
@@ -1360,10 +1348,6 @@
             "action": "retain",
             "category": "interface-panel",
             "evidence": [
-                {
-                    "row": 19,
-                    "sha256": "a37b91e34f25889fc2ed3ae9a8bb04e26f78a6ecf3b67ae42cb93c28e21c776f"
-                },
                 {
                     "row": 20,
                     "sha256": "4926d36189af6fb554aac978678e9b89d51a69036f829cfbd77e77b3eca2a3e5"

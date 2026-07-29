@@ -17,12 +17,12 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 43955,
+        "totalRowsBlanked": 45037,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
         "sourceFidelityRowsRestored": 34,
-        "totalTrailingRowsRemoved": 23845,
+        "totalTrailingRowsRemoved": 23851,
         "reviewedContentRowsBlanked": 1320,
         "contactOrPromotionalRowsBlanked": 646,
         "curationCompactedRows": 8610,
@@ -33,8 +33,8 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 9995,
-        "residualMixedTextTrailingRowsRemoved": 86,
+        "residualMixedTextRowsBlanked": 11077,
+        "residualMixedTextTrailingRowsRemoved": 92,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
         "rebalancedSourceRowsRetained": 5078,
@@ -89,6 +89,7 @@
         "mixedTextLedger5": "AnsiResidualMixedTextReviewLedger5.json",
         "mixedTextLedger6": "AnsiResidualMixedTextReviewLedger6.json",
         "mixedTextLedger7": "AnsiResidualMixedTextReviewLedger7.json",
+        "mixedTextLedger8": "AnsiResidualMixedTextReviewLedger8.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -118,7 +119,10 @@
         "mixedTextPass6TrailingRowsRemoved": 5,
         "mixedTextPass7FilesRedacted": 1376,
         "mixedTextPass7RowsBlanked": 1897,
-        "mixedTextPass7TrailingRowsRemoved": 1
+        "mixedTextPass7TrailingRowsRemoved": 1,
+        "mixedTextPass8FilesRedacted": 785,
+        "mixedTextPass8RowsBlanked": 1082,
+        "mixedTextPass8TrailingRowsRemoved": 6
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -145,6 +149,8 @@
         "Five derivative-attribution analysis exceptions were removed after the eighth mixed-text review blanked the exact prose that had produced those reviewed false-positive findings.",
         "A ninth hash-locked mixed-text review blanked 1,897 rows of readable prose, lyrics, labels, greetings, dedications, credits, signatures, release commentary, board information, menu copy, poems, and placeholders across 1,376 scripts while retaining structural, repeated, reversed, and large typographic lettering; one newly empty terminal row was removed.",
         "One derivative-attribution analysis exception was removed after the ninth mixed-text review blanked the exact prose that had produced that reviewed false-positive finding.",
+        "A tenth hash-locked mixed-text review classified all 4,743 remaining ranked candidates, 267 dense-file candidates, adjacent dense-file prose, and 25 legacy converted-art text candidates. It blanked 1,082 rows of separable prose, dialogue, generic menu fields, captions, and placeholders across 785 scripts while retaining artist and group attribution, identities, filenames, dates, source-significant labels, structural lettering, and large typographic art; six newly empty terminal rows were removed.",
+        "Four earlier interface-panel row retentions were removed after the tenth mixed-text review superseded them with hash-locked blank-text decisions; the seven surviving retention rows remain hash-valid.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
@@ -264,10 +270,10 @@
         "reason": "When a text-only, low-quality, or principally promotional part was removed, every surviving sibling from the same accepted source was also removed if retaining it would omit source rows. After text curation, whole works with identical retained output were deduplicated by preferring the earliest dated or archive-year source, then a stable lexicographic source ID when chronology was tied or unavailable."
     },
     "residualStructuralReviewSignals": {
-        "continuous-split-review": 1957,
+        "continuous-split-review": 1956,
         "dense-split-boundary": 10,
         "extreme-leading-blank-run": 10,
-        "internal-blank-run": 1389,
+        "internal-blank-run": 1390,
         "leading-blank-run": 1844,
         "orphaned-tail-after-blank-run": 12,
         "tiny-tail-part": 70

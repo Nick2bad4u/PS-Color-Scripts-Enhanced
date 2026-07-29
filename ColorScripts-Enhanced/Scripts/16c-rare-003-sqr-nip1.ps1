@@ -5,7 +5,7 @@
 # Source SHA-256: 081ced45da550ada74b7e863a88afa9f42fd30e204f8ca6897be74b65ebbb9df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SQR!NIP1.ANS by square (rare!ascii); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: nipple (damn you psylock =)
 # SAUCE Author: square
 # SAUCE Group: rare!ascii
@@ -21,7 +21,7 @@ Write-Host '
                               [1;30m║[0m [1;31ml|[0;33ml|l[0;1;30ml [0m   _.,,_   [1;30m`[0;33m°[0;1;30m²[0;33m╚[0;1;30m*[0;33mYllllllll[0;1;31m||[0;33mb[0;1;30m,[0m`T[1;34m|i$l$[0;34m$$[0;37m [0;1;30m│[0m
  [1;30m                           [0m  [1;30m║[0m [33m      [0;1;30m [0;33m  [0;37m   [0;1;37m     [0m       [33m [0;1;30m  [0;33m  [0;1;30m┘[0;33m     [0;1;31m [0;33m [0;1;30m [0;1;34m      [0;34m [0;37m [0;1;30m  [0m
  [1;30m            [0m                 [1;30m│[0m [1;31m   [0;33m      [0;1;30m [0;33m [0;1;30m [0m [1m   [0m  [34m  [0;1;34m   [0;1;31m [0;1;30m [0m  [1m ▬[0m   [1;30m [0;33m [0;1;30m┘[0;33m [0;1;31m  [0;33m [0;1;30m [0;1;34m     [0m [1;30m│[0m
-                              [1;30m|[0m [1;31m|||il||[0;33m$$$b[0;1;30m,_`[0m°Y$,[34m`[0;1;34m*[0;1;30m.[0m,[1mg[0;1;31mlⁿ[0;1;30m''[0;31m [0;37ml[0;1;37m$llS[0mg▬[1;30m.[0;33m_[0;1;30m`┘[0;33mT[0;1;31m$[0;33mb[0;1;30m,[0;1;34m`Tl[0m [1;30m║[0m
+                              [1;30m [0m [1;31m       [0;33m    [0;1;30m   [0m    [34m [0;1;34m [0;1;30m [0m [1m [0;1;31m  [0;1;30m [0;31m [0;37m [0;1;37m    [0m ▬[1;30m [0;33m [0;1;30m ┘[0;33m [0;1;31m [0;33m [0;1;30m [0;1;34m   [0m [1;30m║[0m
                               [1;30m:[0m [1;30m|[0;1;31m;|||ii|[0;33m|$&&Ss[0;1;30m,_`[0;1;37m°[0m┘▬_  _,▬d[1m$ll$[0m$P[1m╝[0m`    [1;30m`┘[0;33mTb[0;1;30m,[0;1;34m`[0m [1;30m║[0m
                                 [1;30m`;|:[0;1;31m;|il||[0;33m$$$&ll[0;1;30mSg,  `°[0;1;37mⁿ╨[0m╨╨╨²°`  [1;30m_,._[0m   [1;30m l[0;33m$$b[0;37m [0;1;30m║[0m
 [1;30m╓╥╥╥┬╥┐┌┬┐┌┐ ┬  ┬    ┬ [0m            [1;30m`;:[0;1;31m;|||||[0;33ml$$&&ll[0;1;30mlS@g▬,..,▬[0;33m╥g@S&&[0;1;30mll$|@[0;33m@$[0;1;30m$$l[0m [1;30m│[0m

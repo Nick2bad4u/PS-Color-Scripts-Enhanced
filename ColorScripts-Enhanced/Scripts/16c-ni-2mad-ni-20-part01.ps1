@@ -5,7 +5,7 @@
 # Source SHA-256: ee191fa2e5907e726b3c580d28a118da07fd7a5e525937787fbd93e45facc998
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: !NI-20.ANS by nitron (ni-2mad); released in ni-2mad and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 20 For Beers
 # SAUCE Author: nitron
 # SAUCE Date: 20221226
@@ -35,7 +35,7 @@ Write-Host '
 [35m  [0;1;30m  [0;35m [0;1;35m   [0m [35m  [0;37m [0;1;30m   [0;35m [0;1;35m  [0;35m  [0;1;35m  [0;1;30m ┌[0;33m               [0;1;30m ░[0;33m   [0;1;30m  [0;33m [0;1;33m   [0;33m   [0;1;30m   [0;33m [0;1;33m└[0;33m [0;1;33m   [0;1;37m    [0;33m [0;1;33m ⌂[0;1;37m   [0m
 [37m [0;35m [0;37m [0;1;30m [0m [1;35m    [0m  [1;30m [0m [35m [0;1;35m▬ [0;35m [0;1;35m  [0;35m [0;1;35m [0;33m [0;1;30m [0;33m               [0;1;33m  [0;1;30m└░[0;33m [0;1;30m   [0;33m [0;1;33m   ░ [0;33m   [0;1;30m  [0;33m [0;1;33m  [0;33m [0;1;33m└[0;33m [0;1;33m└  [0;1;37m  [0;1;30m  [0;1;33m [0;1;37m [0m
 [35mc[0;37m   [0;1;35mGXP[0;1;30m┌b[0m [1;30m4Gb[0m [1;35m└bG[0;35mFB[0;1;35md[0;33m [0;1;30md§[0;33m§§§§§§§§§§§FI§§┐[0;1;33m└b  [0;1;30mGP''[0;33m:[0;1;33md''[0;33m/[0;1;33m _▬▬_d''[0;1;30m_[0;33m AG.[0;1;33m ''b;[0;33mXb[0;1;30m ~[0;1;33md[0;33m''[0m
-[35m~/I[0;1;35mGG`[0;1;30mdGP`[0m [1;30mdAb[0m [1;35m\\b[0;33m [0;1;35mb[0;33m [0;1;30m§S[0;33m#§§§§§§§§§§┘S§§§b,[0;1;33m ░  [0;33m~[0;1;33m`b  / [0;1;30me[0;1;33m k[0;33m  [0;1;30meb[0;33m G``  [0;1;33m`X[0;33m'' [0;1;33md[0;33m''[0m
+[35m   [0;1;35m   [0;1;30m    [0m [1;30m   [0m [1;35m   [0;33m [0;1;35m [0;33m [0;1;30m  [0;33m           ┘      [0;1;33m ░  [0;33m [0;1;33m      [0;1;30m [0;1;33m  [0;33m  [0;1;30m  [0;33m      [0;1;33m  [0;33m  [0;1;33m [0;33m [0m
 [37m [0;35mnI[0;1;35mGk[0m [1;30mb`[0;35m//[0;37m [0;1;30mjGƒ[0m [35m\[0;37m [0;35md[0;1;35m,[0;35mb.[0;1;30md[0;33mbcd§§§§§§§§§§b`⌂S*§,[0;1;30m [0;1;33m░[0;33m .[0;1;33mb b /._[0;1;30m░[0;1;33m`[0;1;30m4[0;1;33mk[0;33m▬._GGCj[0;1;33mG[0;33mGG ''[0;1;33m└e▬[0;33m_[0m
 [35m   [0;1;35m  [0;35m [0;33m  [0;35m [0;33m      ┐[0;1;30m  [0;1;35m  [0;35m [0;1;30m [0;33m                     [0;1;33m [0;33m  [0;1;33m      [0;33m [0;1;33m [0;1;30m░[0;33m  [0;1;33m [0;33m [0;1;33m [0;33m┌ [0;1;33m    [0;1;37m [0;33m└ [0;1;30m  [0;1;33m  [0;1;37m [0m
 [33m [0;35m  [0;1;35m [0;33m  [0;35m  [0;33m [0;35m [0;33m [0;35m [0;33m   [0;1;30m   [0;35m [0;1;35m [0;35m [0;1;30m   [0;33m [0;36m [0;33m           ⌂ [0;1;30m [0;1;36m [0;33m   [0;1;33m    [0;33m  [0;1;33m [0;33m  [0;1;33m [0;33m  └ [0;1;33m  ▬[0;33m [0;1;33m    [0;1;37m  [0;33m ┐[0;1;30m  [0;33m [0;1;37m [0m

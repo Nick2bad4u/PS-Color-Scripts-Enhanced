@@ -5,7 +5,7 @@
 # Source SHA-256: edb892d87fa4011235d08da3c31e652ae76733094c33990f088fcc73ab953dca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 90-PYRO.ANS by PleetO (Hype Inc.); released in hype-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: " Pyro Pic "
 # SAUCE Author: PleetO
 # SAUCE Group: Hype Inc.
@@ -25,7 +25,7 @@ Write-Host '
 [1;36;46m▓▓▌░░   ▄[0;1;36;40m████████[0;1;31;40m ▌[0;1;30;40m█████▓█████▓[0;1;31;40m▐[0m [1;36m███████████████[0;1;36;46m█▓▓[0;1;36;40m████████[0;1;36;46m██[0;1;36;40m█▓▄▄▄▄▓████████████[0m
 [1;36;40m███[0;1;36;46m▄▄▄▓▓[0;1;36;40m█████████▄[0m [1;31m▄▄▄▄ ▄▄▄ ▄▄▄[0m [1;36m▄███████████████[0;1;36;46m░░           ▀▀▀▀▀▀▀▀▀▀[0;1;36;40m█████████[0m
 [1;36;40m██████████████████[0m [1;31;47m▓▓[0;1;31;40m██▄▄▄▄▄██▓[0m [1;36m███████████████[0;1;36;46m▓   [0;30;46mAll was nice, and[0;1;36;46m   ▐▓▓[0;1;36;40m██████[0m
-[1;36;40m██████████████████[0m [1;31m█[0;1;31;47m█[0;1;31;40m█████▀▀▀▀▀ [0;1;36;40m▀▀▓█████████████[0;1;36;46m  [0;30;46mpeaceful, until he[0;1;36;46m   ▐[0;1;36;40m████████[0m
+[1;36;40m██████████████████[0m [1;31m█[0;1;31;47m█[0;1;31;40m█████▀▀▀▀▀ [0;1;36;40m▀▀▓█████████████[0;1;36;46m  [0;30;46m                  [0;1;36;46m   ▐[0;1;36;40m████████[0m
 [1;36;40m██████████████████▄[0;1;31;40m ▀▀▀▀▀▀ [0;1;37;40m▀▀▀[0;33m▀[0;1;31m▀░[0m [1;36m██████████████[0;1;36;46m▌ [0;30;46mcame.....[0;1;36;46m            ▐[0;1;36;40m████████[0m
 [1;36;40m████████████████▓▀[0m [1;30m▄▄[0m [1;31m▀▀▀▀▀▀[0;36m [0;1;30m▄▄[0m  [1;36m▄███████████[0;1;36;46m▓▓█▌  [0;30;46mHis name is...[0;1;36;46m       [0;1;36;40m████████[0m
 [1;36;40m██████████████▓▀[0m [1;30m▄███ [0;1;36;46m░░[0;36m████[0;1;30m ███▄[0m [1;36m▀▓████████████[0;1;36;46m▌░░       [0;30;46mBippy....[0;1;36;46m     █[0;1;36;40m███████[0m

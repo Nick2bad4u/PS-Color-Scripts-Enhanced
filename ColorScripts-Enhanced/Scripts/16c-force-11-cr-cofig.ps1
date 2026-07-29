@@ -5,7 +5,7 @@
 # Source SHA-256: 425ff7a2af2cbbaccf95d1c68dd6351468cd5f3f648016d47f85ef2f59c1a6f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-COFIG.ANS by Cryptic (?ORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Obv2 Config Screen
 # SAUCE Author: Cryptic
 # SAUCE Group: ?ORCE
@@ -16,9 +16,9 @@
 
 Write-Host '
 [1;36;46m████▓▓▒░░[0m [1;31m▀▀▀▀[0;1;31;43m▓▓██▓█[0;1;31;40m▄[0m [36m▐[0;1;36;46m░░░▒▒▒▓▓████[0m [1m[[0;1;32mQ[0m][32mui[0;1;30mt  [0m
-[1;36;46m█▓▓▒▒░░[0;36m█▄[0;37m [0;1;36m▀▓[0;1;36;46m▓[0;1;36;40m▄▄[0m [1;31;43m▒▓███[0;1;31;40m▌[0;36m ███[0;1;36;46m░░░▒▒▓▓██[0m [1m[[0;1;32mF[0m][32mull[0;37m [0;1;30mScreen Editor[0m: [1m|FS[0m
+[1;36;46m█▓▓▒▒░░[0;36m█▄[0;37m [0;1;36m▀▓[0;1;36;46m▓[0;1;36;40m▄▄[0m [1;31;43m▒▓███[0;1;31;40m▌[0;36m ███[0;1;36;46m░░░▒▒▓▓██[0m [1m [0;1;32m [0m [32m   [0;37m [0;1;30m             [0m  [1m   [0m
 [1;36;46m▓▒░░[0;36m███[0;1;36;46m░[0;36m█▌[0;37m [0;1;36m▐▀▓▌[0;1;30m▓[0;33m▀[0;1;31;43m▒▓██[0;1;31;40m█▄[0m [36m▀████[0;1;36;46m░░▒▒▓█[0m [1m[[0;1;32mY[0m][32mes/[0;1;30mNo Bars[0m       : [1m|YN[0m
-[1;36;46m▒░░[0;36m██[0;1;36;46m░[0;36m█▓▀[0;37m [0;1;30m▄[0;1;36m▀▓[0;1;36;46m▓[0;1;36;40m▀[0m [1;30m▒[0;33m▀[0;1;31;43m▒▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█▓[0m [36m ▓[0;1;36;46m░ [0;36m█[0;1;36;46m░░▒▒▓[0m [1m[[0;1;32mD[0m][32mSc[0;1;30mreen Pausing[0m   : [1m|DP[0m
+[1;36;46m▒░░[0;36m██[0;1;36;46m░[0;36m█▓▀[0;37m [0;1;30m▄[0;1;36m▀▓[0;1;36;46m▓[0;1;36;40m▀[0m [1;30m▒[0;33m▀[0;1;31;43m▒▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█▓[0m [36m ▓[0;1;36;46m░ [0;36m█[0;1;36;46m░░▒▒▓[0m [1m [0;1;32m [0m [32m  [0;1;30m            [0m     [1m   [0m
 [1;36;46m░░[0;36m███▀[0;37m [0;1;30m▄▄[0;1;30;47m▓▒[0;1;30;40m█▄▄[0;1;30;47m▓▒▓[0;1;30;40m▄▄[0m [1;31m▀█[0;1;31;43m▓[0;1;31;40m██▄[0m [36m▀[0;1;36;46m░[0;36m███[0;1;36;46m░░▒[0m        Foreground
 [1;36;46m░[0;36m██▀[0;37m [0;1;30m▄[0;1;30;47m█▀░░▒▓[0;1;30;40m██[0;1;30;47m█▒░▒▓█[0;1;30;40m▄[0m [1;31m███[0;1;31;43m▓[0;1;31;40m█▄[0m [36m▀▓███[0;1;36;46m░[0m [1m<[0;1;30m[[0;1;37mK[0;1;30m][0;1;37m>[0m              [1m<[0;1;30m[[0;1;37mL[0;1;30m][0;1;37m>[0m
 [36m█▓▀[0;37m [0;1;30m▀▀[0m▄▄▄▄▄▄▄▄▄ ▀▀[1;30;47m▒▓█[0;1;30;40m▌[0;1;31;40m▐███▓██▄[0m [36m▀[0;1;36;46m░[0;36m█[0;1;36;46m░[0m [1;30m─[0m─[1m─[|CB[0;36m█[0;31m█[0;35m█[0;33m█[0;37m█[0;1;30m█[0;1;34m█[0;1;32m█[0;1;36m█[0;1;31m█[0;1;35m█[0;1;33m█[0;1;37m█]─[0m─[1;30m──[0m

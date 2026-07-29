@@ -5,7 +5,7 @@
 # Source SHA-256: cdbf7580aa497ca17ba1a5b719e2cfa4cf331c70568cf695f1b481eae9b62e80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MQ-MSG1.ANS by Moleql (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Msg Menu
 # SAUCE Author: Moleql
 # Lines: 1-22
@@ -23,7 +23,7 @@ Write-Host '
    [1;31;41m░[0;31m░[0;1;34;44m▒[0;31;44m▐[0;31;41m [0;31;40m█[0;1;34;44m░▒[0;1;34;41m▌[0;1;34;44m▒░[0;31m░[0;31;44m▌[0;1;34;44m░░[0;31m▒[0;1;34;44m▓▒[0;31m░[0;1;34;44m░[0;31;44m▐[0;31;40m▓[0;31;41m [0m [31;40m███████▓▓▓▓▓    [0;1;37;47m▓▓[0m                                 [1;30;40m▐[0;1;30;47m█[0m
    [1;31;41m░[0;31m█[0;1;34;44m░ [0;31m██[0;31;44m [0;1;34;44m░[0;34;41m▐[0;1;34;44m░ [0;31m▒▓[0;31;44m [0;1;34;44m░[0;31m░[0;1;34;44m░ [0;31m▒[0;1;34;44m░  [0;31m▓ ███████▓▓▒▒▒    [0;1;37;47m▒▒[0m                                 [1;30;47m██[0m
    [1;31;41m▒░[0;31m██[0;1;31;41m░░[0;31m████▓█▓█████▓█▓▓[0;31;41m [0m [31;40m██████▓▒▒▒▒░    [0;1;37;47m░░[0m                                 [1;30;47m██[0m
-   [1;31;41m▓▒▒░▒░ ░   ░   ░░  [0;31m▓[0;31;41m  [0;1;31;41m░[0m [31m██████▓▒▒░░░    [0;31;47m  [0m       [1;30;40mPut Commands Here...[0m      [1;30;47m▓▓[0m
+   [1;31;41m▓▒▒░▒░ ░   ░   ░░  [0;31m▓[0;31;41m  [0;1;31;41m░[0m [31m██████▓▒▒░░░    [0;31;47m  [0m       [1;30;40m                    [0m      [1;30;47m▓▓[0m
    [1;31;41m█▓▒▒▓▒░▒░░░▒░░░▒▒░░ ░░▒[0m [31m██████▓▓▒░░░    [0;31;47m [0;1;30;47m░[0m                                 [1;30;47m▒▒[0m
    [1;31;41m██▓▓█▓▒▓▒▒▒▒▒▒▒▒▓▒▒░▒▒▒[0m [31m██████▀▀▒░░ ▌   [0;1;30;47m░▒[0m                                 [1;30;47m░░[0m
    [1;31;41m██████▓█▓▓▓▓▓▓▓▓█▓▒▒▒▒▒[0m [31m█████▌   ░░░▌   [0;1;30;47m▒▓[0m                                 [1;30;47m  [0m

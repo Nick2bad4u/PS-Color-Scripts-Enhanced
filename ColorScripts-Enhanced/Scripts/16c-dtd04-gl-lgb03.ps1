@@ -5,7 +5,7 @@
 # Source SHA-256: 5eb0f0d885a87eab25ad35c5095d263fdc8a1ed75e72da939165876f84c33d0e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GL-LGB03.ANS by glandyth-a-krae (DEVOTiON TO DARKNESS); released in dtd04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: lugburz bulletin letter.
 # SAUCE Author: glandyth-a-krae
 # SAUCE Group: DEVOTiON TO DARKNESS
@@ -20,9 +20,9 @@ Write-Host '
 [31m  [0;34m▀ ▀█[0;1;34;44m▀[0;34m▀[0;1;34;44m▀[0;1;34;47m▓▓[0;1;34;44m▓▌[0;34m▌gl        [0;31m▀ ▀[0;1;31;41m▀[0;31m█▄[0;1;31m▄[0;1;31;41m▄█[0;1;31;47m▓▓[0;1;31;41m███▓[0;31m█▄[0;1;31;41m░▓██[0;31m█[0m                               [31m█[0;1;31;41m█[0m
 [31m░[0;30;41m▓[0;37;40m  [0;34;40m▐[0;1;34;44m░▓▄[0;1;34;47m▓░[0;1;34;44m▌[0;34m▐[0;1;34;44m▓[0;34m█     ▀   [0;31m▄█▄█▀▀▀▀[0;1;31;41m▀███▓▓▀[0;31m▓▄[0;1;31;41m▓▓█[0;1;31;47m▓▀[0;1;31;41m█▄[0;31m▄▄[0;37m  [0;1;31;41m     top caller      [0m  [31m▄▄[0;1;31;41m▄█[0;1;31;47m▀[0m
 [31m▓   [0;34m▀[0;1;34;44m▐█[0;1;34;47m▀[0;1;34;44m█▀▌[0m [34m▀[0;1;34;44m▀░[0;34m▄  ▄   [0;31m▀▀       ▐[0;1;31;41m░▓░[0;31m█▀▄[0;1;31;41m▄██████▀[0;31m▀[0m    [31m  top caster(mana)   [0m    [31m▀[0;1;31;41m▀█[0m
-[31m█[0;1;31;41m▄[0m [34m▀[0;1;34m▀[0;1;34;44m▀█▀[0;34m▀ ▀    ▀▀▀           [0;31m▄ ▀ █▄█[0;1;31;41m▄██[0;1;31;47m▀▓▓[0;1;31;41m█▓▓[0;31m▌[0m     [31m top caster(spells)  [0m     [31m▐[0;1;31;41m▓[0m
+[31m█[0;1;31;41m▄[0m [34m▀[0;1;34m▀[0;1;34;44m▀█▀[0;34m▀ ▀    ▀▀▀           [0;31m▄ ▀ █▄█[0;1;31;41m▄██[0;1;31;47m▀▓▓[0;1;31;41m█▓▓[0;31m▌[0m     [31m                     [0m     [31m▐[0;1;31;41m▓[0m
 [1;31;41m▀[0;31m▀[0;1;31;41m░[0;31m  [0;34m▐[0;1;34;44m▐▓░[0;34m▄[0;1;34;44m▄[0;1;37;40m                     [0;31m▀▀[0;1;31;41m▀▀▓█[0;1;31;47m▄░▄[0;1;31;41m█▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0m    [31m  top leecher(mana)  [0m    [31m▄[0;1;31;41m▄▀[0m
-[31m▄ ▄▌ [0;34m▐[0;1;34;44m▀[0;34m▀▓░▐▌              ▄▀        [0;31m▀[0;1;31;41m▀█▀█▄[0;31m▄ ▄[0;1;31;41m▄▀[0;31m█▄[0;37m  [0;31m top leecher(spells) [0;37m  [0;31m▄█[0;1;31;41m▀▄[0;31m▄[0m
+[31m▄ ▄▌ [0;34m▐[0;1;34;44m▀[0;34m▀▓░▐▌              ▄▀        [0;31m▀[0;1;31;41m▀█▀█▄[0;31m▄ ▄[0;1;31;41m▄▀[0;31m█▄[0;37m  [0;31m                     [0;37m  [0;31m▄█[0;1;31;41m▀▄[0;31m▄[0m
 [1;31;41m█▄▒[0m  [34m█   ░[0;30;44m▓[0;34;40m▀▄           ▄[0;1;34;44m▄[0;34m▌      [0;31m▄ ▄▄▄[0;30;41m░[0;31;40m▄[0;1;31;41m▄██▀▀[0;31m▀▄▄▄[0;37m  [0;31m   top provocater    [0;37m  [0;31m▄▄▄▀[0;1;31;41m▀[0m
 [1;31;41m▓▓[0;31m▌ [0;34m▐▌▄▄ ▀▀▀▄[0;1;34;44m▄[0;34m▀      ▄▄[0;1;34;44m▄▓[0;34m█ ▄▀         [0;31m▐[0;1;31;41m▐▓▀[0;31m▀▄██[0;33;41m▀[0;31;40m▀[0m                           [31;40m▀[0;33;41m▀[0;31;40m██[0m
 [1;31;41m░[0;31m█  [0;1;34;44m▀[0;34m▀    ▄░░ ▀▄▄▄[0;1;34;44m▄▄▄▓[0;1;34;47m▓▄[0;1;34;44m▌[0;34m▌▐▌          [0;31m█[0;1;31;41m▓░[0m [31m████▌[0m                             [31m▐██[0m

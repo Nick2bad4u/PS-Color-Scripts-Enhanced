@@ -5,14 +5,14 @@
 # Source SHA-256: 66087d2d6469d9aa37de7746902371424c192a1b36fbded763b2a9b1e17d51b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-CC.ANS by Superfly (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
 [36;46m████████████████████████████[0m  [1;37;40m▄[0m         [1;37;40m▄▄    [0;1;30;40m▄▄▄ [0;36m█[0;36;46m██████████████████████████  [0m
 [36;46m█████████[0;1;37;46mSupeτƒly[0;36;46m███████████[0m [1;30;40m▌[0;1;37;40m██▄  [0;1;30;40m▄▄▄ ▌[0;1;37;40m▌[0;1;30;40m▌[0;1;37;40m▀▄ ▌[0;1;30;40m▌   [0;36m█[0;36;46m████████████████████████████[0m
-[36;46m█████████[0;1;37;46mpresents[0;36;46m███████████[0m [1;30;40m▌[0;1;37;40m█[0;1;30;40m▌[0;1;37;40m█▌▌[0;1;30;40m▌[0;1;37;40m▐[0;1;30;40m▐ ▌[0;1;37;40m▌▄▀  ▐[0;1;30;40m▐■  [0;36m█[0;36;46m█████[0;1;37;40mP[0;1;36;40m∙[0;1;37;40mR[0;1;36;40m∙[0;1;37;40mO[0;1;36;40m∙[0;1;37;40mD[0;1;36;40m∙[0;1;37;40mU[0;1;36;40m∙[0;1;37;40mC[0;1;36;40m∙[0;1;37;40mT[0;1;36;40m∙[0;1;37;40mI[0;1;36;40m∙[0;1;37;40mO[0;1;36;40m∙[0;1;37;40mN[0;36;46m████[0m
+[36;46m█████████[0;1;37;46m        [0;36;46m███████████[0m [1;30;40m▌[0;1;37;40m█[0;1;30;40m▌[0;1;37;40m█▌▌[0;1;30;40m▌[0;1;37;40m▐[0;1;30;40m▐ ▌[0;1;37;40m▌▄▀  ▐[0;1;30;40m▐■  [0;36m█[0;36;46m█████[0;1;37;40m [0;1;36;40m [0;1;37;40m [0;1;36;40m [0;1;37;40m [0;1;36;40m [0;1;37;40m [0;1;36;40m [0;1;37;40m [0;1;36;40m [0;1;37;40m [0;1;36;40m [0;1;37;40m [0;1;36;40m [0;1;37;40m [0;1;36;40m [0;1;37;40m [0;1;36;40m [0;1;37;40m [0;36;46m████[0m
 [36;46m████████████[0;1;37;46mÆ[0;36;46m█████████    ██[0m [1;30;40m▌[0;1;37;40m██▀ ▌[0;1;30;40m▌[0;1;37;40m▐[0;1;30;40m▐ ▌[0;1;37;40m▌    ▌[0;1;30;40m▌   [0;36m█[0;36;46m████████████████████████████[0m
 [36;46m██████████████████████    ██[0m [1;30;40m▌[0;1;37;40m▀   ▌[0;1;30;40m▀▀▀ ▌[0;1;37;40m▀    ▌[0;1;30;40m▀▀▀ [0;36m█[0;36;46m████████████████████████████[0m
 [36;46m████████████████████████[0;1;37;46m▄▄[0;1;37;40m██████████████████████████[0;1;37;46m▄▄[0;36m█████[0;36;46m████████████████████[0m

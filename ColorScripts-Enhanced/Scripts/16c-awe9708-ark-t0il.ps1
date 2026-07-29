@@ -5,7 +5,7 @@
 # Source SHA-256: 2ab5d989998a5b8bc1677247369c16d3dfb161eb46c0e304d133a2ef9634cd13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARK-T0IL.ANS by Ark Anjel (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Toil
 # SAUCE Author: Ark Anjel
 # SAUCE Group: AWE Lettering
@@ -35,5 +35,5 @@ Write-Host '
 [1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓█[0m  [1;30;47m▌[0;1;37;47m████▓▓▓▓▓░░ [0;1;30;47m [0m█[1;47m░░▓░[0m▄       [1;30m▄[0;1;37;47m░▓░░[0m▀▌[1;30m▄[0m▄[1;30;47m▀[0;1;37;47m░▒▓▓▓▒░[0;1;30;40m▐[0m▄▄[1;30;47m▀[0m███████[1;30;47m░[0m█▌
 [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓█[0;1;30;47m▓▄[0;1;30;40m▌[0m [1;30m▐[0m▀[1;47m▀▓▓░░░░░ [0m███[1;30;47m [0m▀▀[1;47m░[0m████▄▄▄[1;30;47m▀[0m███[1;47m░[0m██▀[1;30;47m▄[0m████[1;47m░░░░░[0m████[1;30;47m     ░░ [0m█▀
 [1m-[0m+[1m-[0m─+[1m--[0m--+[1m-[0m-[1m+[0m+─+─+[1;30m--[0m [1;30m▀[0m▀[1;30;47m▄[0m█████[1;30;47m░░░[0m█████[1;30;47m░░░ [0m████▀▀▀ [1;30m▄░ ▐[0m▀▀[1;30;47m▄[0m██████[1;30;47m    ░░░  [0m█▀▌
-[1ma[0;1;33mp[0;33mply [0;1;37ma[0;1;33ms[0;33m [0;1;37mn[0;1;33me[0;33mw[0;37m [0;1;37m<<[0m [1myea[0;1;31m     [0m [1;30m▐[0m▀▀▀[1;30;47m▄[0m██████▀▀▀▀▀[1;30m ▄▄▄▄[0;1;30;47m▓▓▀▐[0;1;30;40m▓▌▄▄▄▄▄▄ ▀[0m▀▀▀[1;30;47m▄   [0m▀▀▀
+[1m [0;1;33m [0;33m    [0;1;37m [0;1;33m [0;33m [0;1;37m [0;1;33m [0;33m [0;37m [0;1;37m  [0m [1m   [0;1;31m     [0m [1;30m▐[0m▀▀▀[1;30;47m▄[0m██████▀▀▀▀▀[1;30m ▄▄▄▄[0;1;30;47m▓▓▀▐[0;1;30;40m▓▌▄▄▄▄▄▄ ▀[0m▀▀▀[1;30;47m▄   [0m▀▀▀
                                      [1;30m▀▀▀▀▀▀██[0;1;30;47m▓▒░▄▄[0;1;30;40m██[0;1;30;47m▓▓[0;1;30;40m▌▀▀▀▀▀▀▀[0m       ark([1mawe[0m)[0m'

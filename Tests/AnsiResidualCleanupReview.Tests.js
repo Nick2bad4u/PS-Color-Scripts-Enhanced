@@ -57,6 +57,10 @@ const MIXED_TEXT_LEDGER7_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger7.json"
 );
+const MIXED_TEXT_LEDGER8_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger8.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -90,7 +94,7 @@ test("residual content review is hash-only and fully applied", () => {
         removedScripts: 27,
         removedWorks: 8,
         retainedFiles: 3,
-        retainedRows: 11,
+        retainedRows: 7,
     });
     assert.equal(new Set(ledger.candidates.map(({ file }) => file)).size, 41);
     assert.equal(
@@ -622,6 +626,68 @@ test("seventh mixed text review is hash-only and fully applied", () => {
     }
     assert.deepEqual(missingRows, [
         { file: "16c-dox-9611-lst-urbn.ps1", row: 24 },
+    ]);
+});
+
+test("eighth mixed text review is hash-only and fully applied", () => {
+    const ledger = JSON.parse(
+        fs.readFileSync(MIXED_TEXT_LEDGER8_PATH, "utf8")
+    );
+
+    assert.equal(ledger.schemaVersion, 1);
+    assert.equal(ledger.summary.candidateFiles, 785);
+    assert.equal(ledger.summary.evidenceRows, 1082);
+    assert.equal(
+        Object.values(ledger.summary.categoryRows).reduce(
+            (total, count) => total + count,
+            0
+        ),
+        1082
+    );
+    assert.equal(
+        new Set(ledger.candidates.map(({ file }) => file)).size,
+        785
+    );
+    assert.equal(
+        ledger.candidates.reduce(
+            (total, candidate) => total + candidate.evidence.length,
+            0
+        ),
+        1082
+    );
+
+    const missingRows = [];
+    for (const candidate of ledger.candidates) {
+        assert.ok(!Object.hasOwn(candidate, "text"));
+        const { rows } = readPayloadRows(candidate.file);
+        for (const evidence of candidate.evidence) {
+            assert.ok(!Object.hasOwn(evidence, "text"));
+            assert.match(evidence.sha256, /^[a-f\d]{64}$/u);
+            const currentRow = rows[evidence.row - 1];
+            if (currentRow === undefined) {
+                missingRows.push({
+                    file: candidate.file,
+                    row: evidence.row,
+                });
+                continue;
+            }
+            assert.notEqual(
+                getReviewEvidenceHash(stripAnsiControls(currentRow)),
+                evidence.sha256,
+                `${candidate.file}: row ${evidence.row} was not redacted`
+            );
+            assert.equal(
+                analyzeRow(currentRow).letterCount,
+                0,
+                `${candidate.file}: row ${evidence.row} still contains letters`
+            );
+        }
+    }
+    assert.deepEqual(missingRows, [
+        { file: "16c-dvl-pk01-ve-file.ps1", row: 16 },
+        { file: "16c-laz09aug-3d-ta2.ps1", row: 26 },
+        { file: "ansi-star-wars-nu-boba.ps1", row: 23 },
+        { file: "h7-liquid.ps1", row: 19 },
     ]);
 });
 

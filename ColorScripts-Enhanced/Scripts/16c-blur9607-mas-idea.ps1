@@ -5,7 +5,7 @@
 # Source SHA-256: 1ac31507574ed7ce50c04f28daedc5ec675533a161beee125f2ab3e2f9da2503
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAS-IDEA.ANS by mass hypnosis (blur); released in blur9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Poison Ideas
 # SAUCE Author: mass hypnosis
 # SAUCE Group: blur
@@ -18,7 +18,7 @@ Write-Host '
 [1;30m▌▐▌▐▌[0m [1;30m█▌[0m [1;30m█▌[0;1;37mp[0myr[1;30mo''s po[0mison[1med[0m [1mi[0mde[1;30maz[0m [1;30m███▓████████████████████▓████████[0m [1;30m██▌[0m [1;30m█▌▐▌▐[0m [1;30m▌[0m [1;30m▌[0m
 ▄▄                      [1;30m [0m     [1;30m [0m     [1;30m    [0m   [1;30m░[0m    [1;30m░[0m                         [1;30m▄[0m
 [1;30;47m░▒▓▓▒[0m▄▄▄                  [1;30m▄▄▄███▀■[0m  [30mfont by[0;37m   [0m      [1;30m■[0m    [1;30m▄▄▄██▀      ▄▄▄ ▀     ▄[0m
-[1;37;47mmas[0;1;30;40m███[0;1;30;47m▒[0;1;30;40m██████▄▄▄▄▄▄▄▄█████████████[0m [30mmass hypnosis[0;37m  [0;1;30m▄▄▄█████████▄▄▄▄████████▄▄  ▄█[0m
+[1;37;47m   [0;1;30;40m███[0;1;30;47m▒[0;1;30;40m██████▄▄▄▄▄▄▄▄█████████████[0m [30m             [0;37m  [0;1;30m▄▄▄█████████▄▄▄▄████████▄▄  ▄█[0m
 [1;30;47m▓▓[0;1;30;40m████████▀▀▀▀▀██[0;1;30;47m▓[0;1;30;40m██▀▀▀▀█████████[0;1;30;46m█[0;1;30;40m███▄▄▄▄▄▄█████████████████▀▀▀▀▀▀▀▀▀▀██[0;1;30;47m███[0;1;30;40m█████[0m
 [1;30;47m▓[0;1;30;40m█████▀▀[0m    [1;34m▄▄[0m [1;30m [0;1;30;47m▓▒▓[0;1;30;40m [0m [1;34m▄▄[0m    [1;30m▀▀███[0;1;30;46m▓▒█[0;1;30;40m████████████████████▀▀[0m   [34m░[0;1;34m▄▄▄■▄▄▄[0;34m▒░[0;37m  [0;1;30m▀▀████[0;1;30;47m▓[0;1;30;40m█[0m
 [1;30;40m█████[0;34m  [0;1;34m▄▄██[0;1;34;47m▓▓[0;1;34;40m▌[0;1;30;40m ▐█[0;1;30;47m▓[0;1;30;40m█▌[0m [1;34m▐[0;1;34;47m▓[0;1;34;40m███▄▄[0;1;30;40m [0m [1;30m▀██[0;1;30;46m▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m███████████▀[0m     [1;30m▀[0m [34m░[0;1;34m▄██[0;1;34;47m▓[0;1;34;44m▓▒[0;1;34;40m▌[0m [1;34m▐█[0;1;34;44m▓[0;1;34;40m█[0;1;34;47m▓[0;1;34;44m▓[0;1;34;40m▄▄[0m  [1;30m███[0;1;30;47m▓[0;1;30;40m█[0m

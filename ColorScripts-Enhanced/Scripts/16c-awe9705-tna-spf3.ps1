@@ -5,7 +5,7 @@
 # Source SHA-256: eee196417f59a724c4ec9f4b1c0dde938fd60efc015eccda9b1f8780b4d6f57d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-SPF3.ANS by The Night Angel (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Oneliners [Spoof]
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -28,7 +28,7 @@ Write-Host '
 [36m█[0;1;36;46m▄[0;36m██████ [0;1;37m░[0m▄▄  [36m█ [0;37m██▄ [0;36m▀   [0;37m▄[0;1;37;47m░▓▓█▓▓█[0m▄▀ [32m▐[0;1;32;42m░▓░░[0m  [33mspoof[0m                 [1;30m░ [0m░[30;47m▓[0m   [32;40m░▓[0;1;33;42m░[0;32m█[0;1;32;42m░ ░▓▓[0m
  [36m▀▀█▄▄ ▀  ▄▄▄ ▐▌ [0;1;37;47m▀[0m▀ [1;36m░ [0m░▒▓[47m [0;1;47m▀▓█[0m▄[1m▀[0m▀[32m▐▄▄█▀[0;1;32;42m░[0;32m▄█  [0;1;33moneliners[0m                     [32m▒▐[0;1;32;42m░▒▓▓██[0m
  [36m░▒▓█[0;1;36;46m▄[0;36m████[0;1;36;46m▀[0;36m██▀ ▀ ▄▄▀   [0;37m▄[0;1;37m▄[0;1;37;47m▄[0m█[1;30;47m▀[0m▄   [32m█[0;1;32;42m▀[0;32m███  █[0m                                [32m░ ██▄▄[0;1;32;42m▀[0;32m▀[0m
-[32m░  [0;1;30m▄ [0;36m▀ ▀[0;1;36;46m▀[0;36m█▄[0;1;36;46m▄[0;36m██▄    ▄█▄ [0;37m▄[0;1;37;47m▄[0m█▀█▓▒░  [32m▀█▀  ▐[0;1;33;42m░[0;32m▌ [0;1;37madd a oneliner[0m?  yes █[1;47mno[0m█       [32m▄█[0;1;32;42m▀[0;32m███[0m
+[32m░  [0;1;30m▄ [0;36m▀ ▀[0;1;36;46m▀[0;36m█▄[0;1;36;46m▄[0;36m██▄    ▄█▄ [0;37m▄[0;1;37;47m▄[0m█▀█▓▒░  [32m▀█▀  ▐[0;1;33;42m░[0;32m▌ [0;1;37m              [0m       █[1;47m  [0m█       [32m▄█[0;1;32;42m▀[0;32m███[0m
 [32m▓░ [0;1;32;42m▄[0;32m▄ ░ [0;1;30m─ [0;36m▀███▀ [0;1;30m─── [0;36m▀ [0;1;30m────────── [0;32m▄█▓▒░ ▀ [0;1;30m───────────────────────────-── [0;32m░ [0;1;30m─ [0;32m▀▀▀[0m
 [1;32;42m▄[0;32m▄▐[0;32;42m [0;32;40m█▓▓ [0;36;40m░▓▄█[0;1;30;40m▄[0;36m░  [0;1;33m· [0mblah..
 [42m  [0;1;32;42m░[0;32m██▀▀  [0;36m▀[0;1;36;46m░░[0;1;36;40m▒[0;1;30;46m▀[0;36m░ [0;1;33m· [0mblah..

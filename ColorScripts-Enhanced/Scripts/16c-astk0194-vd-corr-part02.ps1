@@ -5,7 +5,7 @@
 # Source SHA-256: d6216d8f66203b765a2bc955b6b7843c43029a5d91ed161ba696b277af0f8ce0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VD-CORR.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 31-56
 # Columns: 1-80
 
@@ -18,7 +18,7 @@ Write-Host '
                        [1;30m▀[0;1;30;47m▄[0;1;30m▀[0;1;30;47m▄   ▄    ▄   █    ██ ▄▄[0;1;30m▀[0m              [1;30mdo Bungee under[0m
                          [1;30m▄[0;1;30;47m▀▄ █   ▄▀  ▄▄▄█▄  █ █ ▄[0;1;30m█ ▄[0m           [1;30mQuébec Bridge...[0m
                      [1;30m▄▄█ █[0;47m  ▀▀[0;1;30;47m▀▀▀[0;47m▄[0;1;30;47m▀▀▀  [0;47m█ █[0;1;30;47m▀▀ [0;47m█ [0;1;30;47m▀ [0;1;30m█ [0;1;30;44m█[0;1;30m██▄▄[0m      [1;30mSt-Lawrence River[0m
-                 [1;30m▄▄██[0;1;30;44m███[0m [1;30m█[0m██[1;30;47m█     █     █ █[0m██████ [1;30;44m██████[0;1;30m██▄   is hard for skin![0m
+                 [1;30m▄▄██[0;1;30;44m███[0m [1;30m█[0m██[1;30;47m█     █     █ █[0m██████ [1;30;44m██████[0;1;30m██▄                    [0m
                [1;30m▄█[0;1;30;44m████████[0;1;30m▄[0;1;30;47m▄  [0;1;30m█[0;1;30;47m     █    █   █  ▄█[0;1;30;44m█████████[0;1;30m█▀[0m
              [1;30m▄▄▄▄▀[0;1;30;44m████████[0;1;30;47m██▄ [0;1;30m█[0;1;30;47m    █   █     ▄█[0;1;30;44m█████████[0;1;30m▀▄▄▄▄[0m
      [1;30m▄▄▄▄▄███[0;1;30;44m█████[0;1;30m▄▀[0;1;30;44m█████████[0;1;30;47m█▄   █     █  ▄█[0;1;30;44m█████████[0;1;30m▀▄[0;1;30;44m█████[0;1;30m███▄▄▄▄▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: c09f09ce6d1d23e1b9559c6e709e652103fe9f8df8a3a350101062498bc2d298
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FiL-ASTRUM.ans by filth (LAZ R US); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: PLANET 31337
 # SAUCE Author: filth
 # SAUCE Group: LAZ R US
@@ -20,7 +20,7 @@ Write-Host '
                                                                             [34m▀[0;31m▀[0;33m▀[0;1;35m▀[0m
 [30m                                               [0;34m▄▄[0;37m     [0;34m▄[0m
 [30m                                                [0;34m▀[0;37m    [0;34m▀▓▀[0m
-[30mBUT IN NO WAY HUMAN                     [0;34m░░[0;37m                [0;34m▄▄▄[0;37m    [0;34m▄▄▄[0m
+[30m                                        [0;34m░░[0;37m                [0;34m▄▄▄[0;37m    [0;34m▄▄▄[0m
 [30m                                                 [0;34m▄▄[0;37m     [0;34m▐████▄[0;37m  [0;34m▐██▀[0m
 [37m                                           [0;34m▄▄▄[0;37m  [0;34m▐█[0;37m  [0;34m█▄[0;37m   [0;34m▀███▌[0;37m             [0;34m░[0m
 [37m                                      [0;34m▐██[0;37m  [0;34m██▀[0;37m  [0;34m▐█████▄▄▀▀███▄▄▄[0;37m [0;34m▄██[0;37m        [0;34m·[0m

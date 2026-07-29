@@ -5,7 +5,7 @@
 # Source SHA-256: c5e9284627e531f0fe41462acde49cda385a974cd816cce8309120b2452482fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TL-SKULL.ANS by Tung Lo (rile0496); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Skull Matrix menu
 # SAUCE Author: Tung Lo
 # SAUCE Date: 19960315
@@ -16,7 +16,7 @@
 Write-Host '
 [1;32m▌[0;1;30;47m░[0m                          [1;30;47m░[0m [1;32;42m████████▓[0;1;30;40m▐[0;1;30;47m▓▓▒░░[0;1;37;47m░░░░░░▒▒▓▓▓[0;1;37;40m███[0;1;37;47m▓▓▒░░░▒▓▓▓▓▓[0m▀▀[1;47m░░░░░░[0;1;37;47m░[0m
 [1;32;40m▌[0;1;30;47m▒[0m                          [1;30;47m▒[0m [1;32;42m▓▓█████▓▓[0;1;32;40m▌[0;1;30;47m▓▓░░[0;1;37;47m░░░░░▒▒▓▓█[0;1;37;40m███[0;1;37;47m▓▓▓[0m▀▀▄[1;47m░▒▓[0;1;40m▀▀▀[0;1;47m▓▓▓▓[0m▄▄▀[1;47m░░░[0;1;37;47m░[0m
-[1;32;40m▌[0;1;30;47m▓[0m   [1;30m` Looks Like This Is[0m   [1;30;47m▓[0m [1;32m▀[0;1;32;42m▓▓██▓▓▓▓▓[0;1;30;40m▐[0;1;30;47m▓░░[0;1;37;47m░░░░▒▓▓[0;1;37;40m███[0;1;37;47m█▓▓▓[0m▀▄[1;47m░▒▓[0m▀ [1;31m▄▄[0;1;31;41m▓[0;1;31;40m▄▄ [0;1;37;40m▀[0;1;37;47m▓▓▓▒[0m▄▀[1;47m░[0;1;37;47m░[0m
+[1;32;40m▌[0;1;30;47m▓[0m   [1;30m                    [0m   [1;30;47m▓[0m [1;32m▀[0;1;32;42m▓▓██▓▓▓▓▓[0;1;30;40m▐[0;1;30;47m▓░░[0;1;37;47m░░░░▒▓▓[0;1;37;40m███[0;1;37;47m█▓▓▓[0m▀▄[1;47m░▒▓[0m▀ [1;31m▄▄[0;1;31;41m▓[0;1;31;40m▄▄ [0;1;37;40m▀[0;1;37;47m▓▓▓▒[0m▄▀[1;47m░[0;1;37;47m░[0m
 [1;32;40m▌[0;1;30;40m█[0m        [1;30mFor You! ''[0m        [1;30m█[0m [1;32m▌▐[0;1;32;42m▓▓▓▓▒▒▒▒[0;1;32;40m▌[0;1;30;40m▀[0;1;30;47m▒░░[0;1;37;47m░░░▒▓[0;1;37;40m██▀[0;1;37;47m▓▓▓▓▒░▒▓[0m▀ [31m▄[0;1;31;41m░░▒▓▓▓[0;1;31;40m▌ [0;1;37;40m▐[0;1;37;47m▓▓▓▒[0m▐[1;47m░[0;1;37;47m░[0m
 [1;32;40m▌[0;1;30;40m▓[0m                          [1;30m▓[0m [1;32;42m▓[0;32m [0;1;32;42m▓▓▒▒▒▒░░░░[0;32m▄[0;1;30m▀[0;1;30;47m░[0;1;37;47m░░▒▓▓[0;1;37;40m███▄[0m▀▀[1;47m▓▓[0m▀▀ [31m▄██[0;1;31;41m░░▒▒▓▓[0;1;31;40m▀ [0;1;37;47m▒▓▓▒[0m▄[1;47m░░[0;1;37;47m░[0m
 [1;32;40m▌[0;1;30;40m▒[0m                          [1;30m▒[0m [1;32;42m▓[0;1;32;40m▌▐[0;1;32;42m▒▒▒░░░░░░░░[0m▐[1;47m░░▒▓█[0;1;40m████[0;1;47m█▓[0m▄▄▄ [31m▀▀▀[0;1;31;41m░░[0;1;31;40m▀▀▀ [0m▄▄[1;47m▒▒▓▓▓▒▒░[0;1;37;47m░[0m

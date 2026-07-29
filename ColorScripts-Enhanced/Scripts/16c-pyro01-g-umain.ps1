@@ -5,7 +5,7 @@
 # Source SHA-256: 3cb1a107875008d34ef0e92b2d824bed2ec5f52c36b1fc2addf0a23690d8e69f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: G-UMAIN.ANS by Genocide (Pyro); released in pyro01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: UFO MAIN
 # SAUCE Author: Genocide
 # SAUCE Group: Pyro
@@ -33,7 +33,7 @@ Write-Host '
 [1;30m [0;1;30;41m░[0m  [31m[[0;1;31mS[0;31m] [0;1;30mInfo[0m             [1;30;41m░[0m [1;30m▐▌[0;35m▐[0;1;35;45m░[0;35m███[0;1;35;45m░▒▓██[0m [1m█[0;1;30;47m░ [0;1;37;40m█ [0;1;37;47m█ [0;1;30;47m░[0;1;37;40m█ █[0;1;30;47m░ [0;1;37;40m█ [0;1;35;45m██▒▓[0m [1m█[0;1;30;47m░ [0;1;37;40m█ █[0;1;37;47m [0;1;30;47m░[0;1;37;40m█ [0;1;35;45m▓▒[0;35m▀[0;1;35;45m▒░[0;35m▌[0;1;30m▐▌[0m
 [1;30m [0;1;30;41m [0m  [31m[[0;1;31mC[0;31m] [0;1;30mGonfig[0m           [1;30;41m [0m  [1;30m█ [0;35m▀█[0;1;35;45m░[0;35m██[0;1;35;45m░▒▓█[0m [1m▀▀▀▀▀▀▀▀▀ ▀▀▀▀ [0;1;35;45m█▓░▒[0m [1m▀▀▀▀▀▀▀▀▀ [0;1;35;45m░[0;35m▄  ▀[0;1;30m▄▀[0m
 [1;30m [0;1;31;41m░[0m  [31m[[0;1;31mG[0;31m] [0;1;30mGraffiti Wall    [0;1;31;41m░[0m   [1;30m▀▄ [0;35m▀██▀ ▀[0;1;35;45m▓▒▓█▓▒░▓▒░[0;35m█[0;1;35;45m░▒░▒▒█▓▒[0;35m▀[0;1;35;45m░[0;35m█[0;1;35;45m░▒▒░▓█▒▓▓██▒ [0m [1;30m█[0m
-[1;30m [0;1;31;41m▒[0m  [31m[[0;1;31mP[0;31m] [0;1;30mPage Sysop[0m       [1;31;41m▒[0m     [1;30m▀▄▄▄▄▄ [0;35m▐[0;1;35;45m░▒▓▒[0;35m▌▀[0;1;35;45m▒░[0;35m▀  ▀▀[0;1;35;45m░░▓▒[0;35m▌   ▀▀[0;1;35;45m░▒▒▓░[0;1;35;40m▀▀[0;1;35;45m▒▓▓░[0;35m▌[0;1;30m▐▌ ·[0m
+[1;30m [0;1;31;41m▒[0m  [31m [0;1;31m [0;31m  [0;1;30m          [0m       [1;31;41m▒[0m     [1;30m▀▄▄▄▄▄ [0;35m▐[0;1;35;45m░▒▓▒[0;35m▌▀[0;1;35;45m▒░[0;35m▀  ▀▀[0;1;35;45m░░▓▒[0;35m▌   ▀▀[0;1;35;45m░▒▒▓░[0;1;35;40m▀▀[0;1;35;45m▒▓▓░[0;35m▌[0;1;30m▐▌  [0m
 [1;30m [0;1;31;41m▓[0m  [31m[[0;1;31mU[0;31m] [0;1;30mUFO DataBase[0m     [1;31;41m▓[0m     ·     [1;30m█ [0;35m▀█[0;1;35;45m▒░░[0;35m▄  [0;1;30m▄▀▀▄▄ [0;35m▐[0;1;35;45m▒░[0;35m█ [0;1;30m▄▀▀▄ [0;35m▀▀▀ [0;1;30m▄ [0;35m▐[0;1;35;45m░▒▒[0m [1;30m█[0m
 [1;30m [0;1;31;41m█[0m  [31m[[0;1;31mR[0;31m] [0;1;30mRegistration[0m     [1;31;41m█[0m            [1;30m▀▄ [0;35m▀▀▀ [0;1;30m▄▀  [0m.  [1;30m█ [0;1;35;45m░[0;35m█▌[0;1;30m▐▌   ▀▀▀▀▀ ▀▄[0;35m▀[0;1;35;45m░░[0m [1;30m█[0m
 [1;30m [0;1;31m▐▌ [0;31m[[0;1;31mB[0;31m] [0;1;30mL8r Lamer[0m       [1;31m▐▌[0m         [1;30m.    ▀▀▀▀▀[0m       [1;30m▀▄ [0;35m▀ [0;1;30m█   [0;1;37m.[0m        [1;30m█ [0;35m▌[0;1;30m▐▌[0m

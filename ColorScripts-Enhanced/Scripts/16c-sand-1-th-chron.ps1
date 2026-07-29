@@ -5,7 +5,7 @@
 # Source SHA-256: e96ce6b4d75f1e20e2a7b473de467a36f906d56ebc9e3cdf1f2c91c2fe539b4e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH_CHRON.ANS by Tempus Hellfire (sand_1); released in sand_1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ Write-Host '
    [37m░[0m   [37m░[0m       [34m   [0;1;37mchronic nebula[0m        ▐████[1;30;47m░▒▓[0m [31m [0;37m [0;31mhole[0;37m ▐███▓▓[0;1;30m▄▀[0m ░[1;30m▌[0m  [1;34m [0;32m██▄▄[0;1;32m▄[0;1;34m [0;32m  [0m
                  [1;37mplace.. forests [0m     [33m▄█▄[0;37m▐██[0;1;30;47m░▒▒[0;1;30;40m▌[0;31m█[0;1;31m▄█▀█[0;31m █[0;1;31m▀[0;31m [0;37m▓▓▓▓▒▒ [0;1;30m▀[0m  [1;30m■[0m [1;34m [0;32m [0;1;34m   [0;32m [0;1;34m [0m [32m   [0m
                 [34m   [0;1;37mof weed man..[0m     [33m████[0;37m ██[0;1;30;47m░▒▓[0m [31m█ [0;1;31m█[0;31m [0;1;31m█[0m [31m█[0;1;31m▀[0m  ▒▒▒▒▒░  [1;30m■[0m   [32m [0;1;34m   [0;32m [0m
-                [1;37mforests. green weed[0m  [33m███▌[0;37m▄██[0;1;30;47m░▒▓[0m [31m█ [0;1;31m█▄█▄[0;31m█[0;1;31m▄[0m    ░░░░      [32m  [0;1;34m [0;32m  [0m'
+                [1;37m                   [0m  [33m███▌[0;37m▄██[0;1;30;47m░▒▓[0m [31m█ [0;1;31m█▄█▄[0;31m█[0;1;31m▄[0m    ░░░░      [32m  [0;1;34m [0;32m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c67fb68a401adccb86b0702f5bf6ad4ba95d57eba39019d9e08c1ed248dc5544
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ko-gasfm.ans by Konami (mimic43); released in mimic43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -33,5 +33,5 @@ Write-Host '
 [30m purple[0m    [31m▒▒▒[0;1;31m7`[0;35m  ;$$$$$$$[0;1;35m▒▒▒▒▒[0;35m$$$$$b, [0;1;35m`7▒▒▒▒7`  [0;35m [0m               [1;32m [0;32m  $$[0;1;32m    )$$$[0m
 [30m-headed[0m        [1;31m,d[0;35m l$$$$$$[0;1;35m7²"``"/[0;35m┼$$$$$$$$$[0;1;30m$[0;35m  [0m           [1;33mGASFACE![0m [1;32m;$$$$$$$$$$7`[0m
 [30mmons4ah![0m      [31md`[0;35m ;$$$$$$[0;1;35m7[0;35m [0;1;31m"`[0;35m.¬⌐, `²/$$┼┼$$[0;1;30m$[0m            [1;33m [0m [1;31mASCII/[0m   [32m  $$[0m      [32m,d[0m
-            [31m`[0m   [35m l$$$$$$[0;1;30m$$$$[0;35m$$$$┼Ss⌐,._ $$[0;1;30ml[0m              [1;33m [0;31mANSI[0;1;33m [0m   [1;33m [0m [32m$$$7`[0;37m [0;32m,d$$[0m
+            [31m [0m   [35m        [0;1;30m    [0;35m    ┼  ⌐      [0;1;30m [0m              [1;33m [0;31m    [0;1;33m [0m   [1;33m [0m [32m     [0;37m [0;32m    [0m
                  [1;30m$$$$$$$$$$$$$$$$$$$$$$$$$;[0m            [1;33m [0;1;30mMAGAZINE [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ba769613c931a8684f23f8c53f329c55e4442670ad54638672a571eb284950ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-MMAIN.ANS by caynan (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: massive attack! main menu
 # SAUCE Author: caynan
 # SAUCE Group: fbk
@@ -32,7 +32,7 @@ Write-Host '
    [1;34;44m░[0;34m█▌   [0;1;37m  [0m                   [1m  [0m                     [1m     [0m                [34m▄[0m
 [34m   ░▀▓■  [0;1;37m  [0m              [34m▄■   [0;1;37m  [0m                     [1m    [0m               [1;34m▄[0;1;34;44m░[0;34m██▓[0m
          [1;37m  [0m              [34m▄▓   [0;1;37m  [0m                 [34m▄■  [0;1;37m  [0m               [1;34m▄[0;1;34;44m▓[0;34m███[0;1;30;44m░[0;34m▌[0m
-[1;34m▄[0;1;34;44m▓▀░▄ [0;34m▄▄[0m              [1;34m▄[0;1;34;44m▓▀░[0;34m█▌  [0;1;37mEDiT [0mBATCH             [1mG [0mGOODBYE       [1;34m▀[0;1;34;44m▓[0;34m█[0;1;34;44m░[0;34m█▓▀[0m
+[1;34m▄[0;1;34;44m▓▀░▄ [0;34m▄▄[0m              [1;34m▄[0;1;34;44m▓▀░[0;34m█▌  [0;1;37m     [0m                  [1m  [0m              [1;34m▀[0;1;34;44m▓[0;34m█[0;1;34;44m░[0;34m█▓▀[0m
 [1;34m▀[0;1;34;46m▀[0;34m███████████▓▄▄▄    [0;1;34m▀[0;1;34;44m░[0;34m████▓[0m           [1;34m▄▄▄[0;34m▄▄▄[0;1;30;44m░[0;34m█████▓▄▄▄▄▄▄▄▄▄▄■[0m         [34m▀▀[0m
 [34m  [0;1;34m▀▀[0;1;34;44m▓▄░[0;34m████████████▓▀■ ▀▓▀[0;1;30m▀  [0;1;34m▄[0;1;34;44m▓▀▀▀▀▀▀▀▀░[0;34m█[0;30;44mm [0;1;30;44ma [0;30;44ms s i v e[0;34;40m██[0;1;30;44m░[0;34m█████████▓▄[0;1;30m▄■[0m
       [1;34m▀▀[0;1;34;44m▓[0;1;34;40m▀[0;34m▀▀▀▀▀▀▀▓[0;1;30m▀[0m         [1;34;44m▓[0;34m███[0;37;44m▄[0;34;40m███[0;1;34;44m░[0;34m███████[0;1;30;44ma[0;34m█[0;30;44mt[0;1;30;44m░[0;30;44mt [0;1;30;44ma [0;30;44mc k[0;34;40m██████▓▀▀▀▀▀[0;1;30;40m▀ca[0m
