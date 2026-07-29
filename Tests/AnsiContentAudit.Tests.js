@@ -275,6 +275,17 @@ test("blankTextColumns preserves controls, geometry, and unselected cells", () =
     );
 });
 
+test("blankTextColumns treats archived CP437 symbols as single art cells", () => {
+    const input = "≡─°²·ⁿ∙♥ cut here ♥─";
+    const output = blankTextColumns(input, [
+        { end: 12, start: 10 },
+        { end: 17, start: 14 },
+    ]);
+
+    assert.equal(output, "≡─°²·ⁿ∙♥          ♥─");
+    assert.equal([...output].length, [...input].length);
+});
+
 test("blankTextColumns rejects ambiguous or destructive ranges", () => {
     assert.throws(() => blankTextColumns("text", []), /non-empty/u);
     assert.throws(
