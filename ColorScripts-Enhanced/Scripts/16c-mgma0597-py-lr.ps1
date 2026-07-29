@@ -5,7 +5,7 @@
 # Source SHA-256: 7438083b3f7e54d426fc8a9475b73c4c34e0536c37d67bf4a1743d5a854e4e80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PY-LR.ANS by Pyhrrus (Magma); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Lost reality ascii
 # SAUCE Author: Pyhrrus
 # SAUCE Group: Magma
@@ -27,4 +27,4 @@ Write-Host '
                [36m        [0;34m$[0;1;34m$$$$$[0;34m$[0;37m  [0;1;34m [0;34mS[0;1;34m$[0m$[1;34m$[0;34mS[0;1;34m [0m     [34m$[0;1;34mS[0m R [1;34mS[0;34m$[0;37m e   [0;1;37ma[0m   l   i   t   y
                        [34m`²╜╜╜²''s,,$[0;1;34m$$$[0;34m$,[0;37m  [0m   [34m$[0;1;34m$ggg$[0;34m$[0m
                                 [34m`²╜╜╜²''[0m     [34m`²╜╜╜²''[0m
-[1;30m----------[cutz0r] -──--──-──  -  ─ ─-─-─----── ─--───-───-──--─-──-───[cutz0r]-[0m'
+[1;30m----------[      ] -──--──-──  -  ─ ─-─-─----── ─--───-───-──--─-──-───[      ]-[0m'

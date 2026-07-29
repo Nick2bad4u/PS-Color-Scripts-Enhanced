@@ -5,7 +5,7 @@
 # Source SHA-256: b230ac2b0b3cb570275a200770dd3ee86ca0b142fd5e384d5a7e287c7b1875d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-AUD2.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: supper time!!!
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -40,4 +40,4 @@ Write-Host '
 [37m [0;1;31;41m░░[0;31m▌[0;36m █[0;36;42m░[0;32;40m██[0;33;42m░▀[0;33;40m██▄▄▄▄█[0;32;43m░░░[0;33;41m░[0;33;40m▌   [0;31;40m░░░[0m     [31;40m▀▀▀███████[0;35;40m██████[0;35;44m▓▓░░[0;34;40m▀▀▀[0m     [31;40m▐[0;1;31;41m■░  ▀█▓▓░[0;31m█▀▀▀[0m
 [37m [0;31m░░  [0;36m░██[0;32m█████[0;32;43m█▓▓▒[0;33;42m▓██[0;31;40m▓▀[0;33;40m    [0;31;40m▓▓[0;1;31;41m░░░[0;31m▒░[0m        [31m▀▀▀▀▀[0;31;44m▓▓▒[0;34;40m▒░░░[0;33;40m   [0;31;40m▄▄▄ ▄▄▄████[0;1;31;41m  ░░[0;31m██▓▓▀[0m
        [36m▀[0;32m▀[0;36m█[0;32m█████[0;31;46m░[0;32;43m▓[0;32;41m░[0;31;40m█▀   ▀▀ ▄▄[0;1;31;41m▀ ░ ░░[0;31m▓▒▒░░ ░░    ░░░    ░▓██▀■    ▄▄▄▄▄[0;1;31;41m   [0;31m█▀[0m
-           [36m▀▀[0;32m▀[0;31m▀▀▀[0;32m    [0;31m▀▀▀▀▀▀▀▀▀▀[0m                        [31m▀▀[0m                 [31m[[0;37meof[0;31m][0m'
+           [36m▀▀[0;32m▀[0;31m▀▀▀[0;32m    [0;31m▀▀▀▀▀▀▀▀▀▀[0m                        [31m▀▀[0m                 [31m[[0;37m   [0;31m][0m'

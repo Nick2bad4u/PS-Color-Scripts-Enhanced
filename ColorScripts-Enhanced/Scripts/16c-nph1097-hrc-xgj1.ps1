@@ -5,7 +5,7 @@
 # Source SHA-256: f0f00ea94c82e03f5f95e13fd123c9da9ab153fa900b29d2347a1ede211ceaee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HRC-XGJ1.ANS by .s$ hURRICANE $s. (.s$ nITROPHUSION $s.); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: .s$ xGJ^lOGO^aNSI $s.
 # SAUCE Author: .s$ hURRICANE $s.
 # SAUCE Group: .s$ nITROPHUSION $s.
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m-------[cUT^hERE]-------[lOGO^xGJ^rEQUEST^bY^nONE]----------------------------[0m
+[1;30m-------[   ^    ]-------[lOGO^xGJ^rEQUEST^bY^nONE]----------------------------[0m
 
        [1;32m.[0;1;37m    [0;1;32m![0m                  [1;32m:[0m    [1;32m![0m                     [1;32m.[0m    [1;32m:.[0m    [1;32m![0m
 [1m [0m      [1;32m:[0m    [1;32m:[0m                  [1;32m.[0m    [1;32m:[0m                     [1;32m![0m    [1;32m.![0m    [1;32m:[0m

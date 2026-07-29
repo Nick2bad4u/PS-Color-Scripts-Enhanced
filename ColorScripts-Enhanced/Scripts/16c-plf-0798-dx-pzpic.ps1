@@ -5,7 +5,7 @@
 # Source SHA-256: 8df43e41c247681cd2ccc928203b0c39cf8b2f5d30753033a28d60c46e018261
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX-PZPIC.ANS by drax (poffelipoff); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: p z
 # SAUCE Author: drax
 # SAUCE Group: poffelipoff
@@ -52,7 +52,7 @@ Write-Host '
 [37m [0;31m    ''?$,  [0;1;37m     [0m   [1;30m''ⁿ[0m*..                     '' .                      [31m  ,$''?   [0m
 [37m [0;31m  `$$[0;1;31m$[0;31m   [0;37m [0;31m ..[0;1;37m             [0m                      .                  [31m..    $[0;1;31m$[0;31m$` [0m
 [37m [0;31m ?$[0;1;31;41m$$[0;31m$`   [0;37m [0;31m::[0;37m ^~                                            [0m    [37m~^ [0;31m::   `$[0;1;31;41m$$[0;31m$?[0m
-[37m [0;31m:$$[0;1;31m$$[0;1;33;41m$[0;31m$*` [0;1;37m [0;31m..[0;1;37m [0m|   [1madd what you want here ..  =)[0m                  : [31m.. `*$[0;1;31m$[0;31m$[0;1;31m$[0;1;33;41m$[0;31m$:[0m
+[37m [0;31m:$$[0;1;31m$$[0;1;33;41m$[0;31m$*` [0;1;37m [0;31m..[0;1;37m [0m|   [1m                       ..  =)[0m                  : [31m.. `*$[0;1;31m$[0;31m$[0;1;31m$[0;1;33;41m$[0;31m$:[0m
 [37m [0;31m ?$[0;1;31m$[0;30;41m$$[0;31;40m`   [0;1;37;40m [0;31m..[0;1;37m [0m                                                     [31m..   `[0;1;31m$[0;30;41m$$[0;31;40m$?[0m
 [37;40m [0;31;40m  `$$[0;1;31;40m$[0;31m    [0;1;37m    [0m.                                                  .   [31m    $[0;1;31m$[0;31m$` [0m
 [37m [0;31m    ''?$,  [0;1;37m [0;31m..[0;1;37m [0m|                                                  | [31m..  ,$?''   [0m

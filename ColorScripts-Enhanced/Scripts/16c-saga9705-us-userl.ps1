@@ -5,7 +5,7 @@
 # Source SHA-256: 098b682cd85f8833a3cc8b3b4bdc360b59c5977c449f9c5c19b58a9bbeaaf234
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-USERL.ANS by Stoner + Sharque + Creator (saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: User login
 # SAUCE Author: multiple artist
 # SAUCE Group: saga
@@ -39,4 +39,4 @@ Write-Host '
 [37m [0;33m     [0;36m░ [0;30m█[0;37m▀[0;30m█[0;37m▓███[0;1;33;47m    [0m▀██[36;47m░░░░[0;37;40m▓█[0;1;37;47mcr[0m▀▀▀[36m▄█[0;30;46m▄[0;37;40m  [0;1;33;40m▀[0;33m▀[0;1;33;43m░░[0;33m▄▄▀█[0;33;45m█[0;33;40m▓▓▒░    [0;1;30;40m▐[0;1;30;47m▒▒▒▒▓▓▒▒▒▒░[0m▀▄[1;30;47m░░[0m███ [1;33m▄[0;33m▄[0;33;45m█[0;1;33;43m░[0;30m•[0m
 [37m [0;1;33m                 [0;36m░   ▄▄[0;36;47m▒▒[0;36;40m    ▀   [0;37;40m    [0;1;33;40m▀▄▄[0;33m▀▀▓▓▄▄▄▀▀▒░    [0;1;30;47m░░░▒▒▒▒░░░[0m▌▐█████▌[1;33m▐[0;1;33;43m▓▒░[0;33;45m█[0;30;40m•[0m
 [37;40m [0;1;30;40m     [0m      A [1mSaga[0m Production[1m [0;1;30m        [0;1;33m▐[0;1;33;43m▓▒░[0;33;45m█[0;33;40m▄▄▒▀▒▒▀  [0;37;40m▄▄▄▀███[0;1;30;47m░░░░[0m▀██████████▄[1;33m▀[0;33m▀[0;37m▄▄[0m
-[37m [0;1;30m - -(snip) --- -   --  - ---- - ----- --  ----- --    ---   --- --- --    -- - [0m'
+[37m [0;1;30m - -(    ) --- -   --  - ---- - ----- --  ----- --    ---   --- --- --    -- - [0m'

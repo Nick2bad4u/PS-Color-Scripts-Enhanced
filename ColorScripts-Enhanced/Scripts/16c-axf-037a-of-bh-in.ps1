@@ -5,7 +5,7 @@
 # Source SHA-256: 8358c503cc786f39bfe18eca942a1d5b9a1342f7044d3ca4cbf1b0d987a4d36f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OF-BH_IN.ANS by overfiend (aXialfOrce); released in axf-037a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: blackhole login
 # SAUCE Author: overfiend
 # SAUCE Group: aXialfOrce
@@ -28,4 +28,4 @@ Write-Host '
 [37m ■[0m
 [37m [0;1;30m╙-[[0;36mami[0;33m/[0;36mX[0;1;30m [0;36mstyle[0;1;30m [0;36ml[0;37mO[0;36mg[0;37mi[0;36mn[0;1;30m]─·─----──·─-[0;1;33m>[0m [33m>>[0;37m     [0m
 
-[37m ---(choppa!)------------------------------------------------------------------[0m'
+[37m ---(      !)------------------------------------------------------------------[0m'

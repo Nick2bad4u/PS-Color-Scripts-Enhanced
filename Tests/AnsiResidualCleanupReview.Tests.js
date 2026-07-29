@@ -142,6 +142,10 @@ const MIXED_TEXT_LEDGER28_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger28.json"
 );
+const MIXED_TEXT_LEDGER29_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger29.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -1138,6 +1142,22 @@ test("twenty-eighth mixed text review is hash-only and fully applied", () => {
         candidateFiles: 193,
         evidenceRows: 249,
         expectedMissingRows: [],
+    });
+});
+
+test("twenty-ninth mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER29_PATH, {
+        candidateFiles: 221,
+        evidenceRows: 374,
+        expectedMissingRows: [
+            { file: "16c-arla0196-apl-tcha.ps1", row: 44 },
+            {
+                file: "16c-blocktronics-blocktober-x0-burning-at-both-ends-part04.ps1",
+                row: 50,
+            },
+            { file: "16c-fire-42-zir-p4nk-part02.ps1", row: 41 },
+            { file: "roy-sac-pent.ps1", row: 17 },
+        ],
     });
 });
 

@@ -5,7 +5,7 @@
 # Source SHA-256: a65c3708cb2107b7250a4a4b0c89e4f651825551422261399d45d34f232f23a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-F1R3.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FIRE 2023!!!
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -66,4 +66,4 @@ Write-Host '
 [1;30;40m 3232 ░[0;36m░░░▒ [0;1;30m23232323232323232   [0;30;41m▒[0;31;40m█████▀   [0;36;40m░░▒▒▒▒   [0;31;40m▀▀▀    [0;1;30;40m2323232323[0m        [1;30m323[0m
 [1;30m 2323 ░[0;36m░░░▒ [0;1;30m32323232323232323  [0;31m░[0;30;41m▒░░[0;31;40m▓▓░[0m      [36;40m░░░░░░   [0;1;30;40m32323323232323232332323232[0m
  ----------------------------  [31m░[0;30;41m▓▓▓▓▓[0;31;40m░ [0;37;40m----------------------------------------[0m
-                                                                          [1;30;40m[eof][0m'
+                                                                          [1;30;40m[   ][0m'

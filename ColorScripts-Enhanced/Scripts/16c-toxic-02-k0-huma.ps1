@@ -5,7 +5,7 @@
 # Source SHA-256: 16caf3f0b04b181210d10db39d731edc34f1ed35ce51d95c38ab74ba23c20093
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K0-HUMA.ANS by k0rpse (TOXiC); released in toxic-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hUMA
 # SAUCE Author: k0rpse
 # SAUCE Group: TOXiC
@@ -51,4 +51,4 @@ Write-Host '
              [31m▐[0;1;31;41m▐[0;1;31;40m█▌[0m       [31m▐[0;1;31;41m▐[0;1;31;40m█[0m            [1;31;41m [0;1;31;40m█▌[0m               [31m▐[0;1;31;41m▐[0;1;31;40m█[0m
               [31m▀[0;1;31;41m▀[0;1;31;40m▄[0m       [31m▀[0;1;31m▀[0m              [31m▀[0;1;31m▀[0m               [31m▀[0;1;31m▀[0m
                    [31m▀[0;1;31m▀[0m                       [31m▀[0;1;31m▀   [0;31m▄[0;1;31;41m▄[0;1;31;40m█▄ [0;31m▀[0;1;31m▀[0m
-[1;30m-eof-[0m                                             [31m▀[0;1;31m▀[0m'
+[1;30m-   -[0m                                             [31m▀[0;1;31m▀[0m'

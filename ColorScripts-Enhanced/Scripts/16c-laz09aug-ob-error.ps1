@@ -5,7 +5,7 @@
 # Source SHA-256: a291cf335edb2ab116a0337d290b63978f9a3ba95d8328cff932b3213a96ebe0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OB-ERROR.ANS by oddball (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Error Emag
 # SAUCE Author: oddball
 # SAUCE Group: lazarus
@@ -34,4 +34,4 @@ Write-Host '
                               [30;44m▒[0;34;40m▒▀▀▀▀[0m
                               [34;40m░[0;30;44m▓[0;34;40m [0m   [1;37;40m            [0m
                                [34m   [0m
-[37m<cut/klipp])--------------------------------------------------------------------[0m'
+[37m<   /     ])--------------------------------------------------------------------[0m'

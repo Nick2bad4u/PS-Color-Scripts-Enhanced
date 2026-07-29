@@ -5,7 +5,7 @@
 # Source SHA-256: 9da259979b68f761712247b2e062008a2030daf599eee255735e59884ca51d23
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IY-01A.ANS by Imortality (RCA); released in rca-19a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: Imortality
 # SAUCE Group: RCA
 # SAUCE Date: 19980416
@@ -31,4 +31,4 @@ Write-Host '
                                                                   [33m▀[0m
 [37m [0;1;30m  [0m
  [1;30m  [0m
-[1;30m--( phukn'' cut )----------------------------------------------------------------[0m'
+[1;30m--(      ''     )----------------------------------------------------------------[0m'

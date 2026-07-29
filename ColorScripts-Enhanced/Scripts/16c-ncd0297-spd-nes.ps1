@@ -5,7 +5,7 @@
 # Source SHA-256: a8997d8ac50fa33c774114ecc685c78ad253f623fc206976f34bb7d43c5fdf7c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPD!NES.ANS by spud (ncd0297); released in ncd0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: @neslogo
 # SAUCE Author: spud
 # SAUCE Date: 19970131
@@ -34,4 +34,4 @@ Write-Host '
                                                                        [35m▐[0;1;35m▀[0m
                                                                       [35m ▀[0m
 
-[1;30m---░----(.partcut.)-----------░----  [0m'
+[1;30m---░----(.       .)-----------░----  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 144abbf190f8ba1baaa0ebf3b42d7972ce9f314a7048de8e07f9cedf0c3231ff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-US.ANS by superbym (nerp); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: userstats
 # SAUCE Author: superbym
 # SAUCE Group: nerp
@@ -27,8 +27,8 @@ Write-Host '
 [34m [0;36;44m▄▄[0;34;40m▄▄  ░░        ▀▀▀▀▀▀      ▄▐[0;36;44m▄[0;1;36;46m▄[0;36;44m▌[0;34;40m ▀▀▀▀▀ [0m               [34;40m    [0m      [34;47m█[0;34;40m████[0;36;44m▐[0;34;40m▌ ▀▀   [0m
 [34;40m [0;36;40m▀▀[0;30;46m [0;36;44m█▄[0;34;40m▄    ▄        ░▓▓██▄▄▄▄[0;36;44m ▐[0;1;36;46m██▄[0;36;44m▄[0;34;40m▄[0m                    [1;33;40m  [0m     [1;33m  [0m     [34m▀[0;1;33m░[0;34m▌[0;37m [0;34m   [0m
 [36m▓▄  ▀█[0;36;44m▓ [0;1;37;40m  [0;36m▐[0;1;33;46m▄[0;36;44m▄[0;34;40m▄[0m        [34;40m    ▀▀▀▓██[0;36;44m▀▀[0;1;36;46m▀▌[0;34m█[0m        [1;33m [0m [1;33mu  s  e  r  ..s t a[0;36m [0;1;33mt[0;36m [0;1;33ms[0;36m [0;1;33m [0m
-[36m ▀█▄ ▐█[0;36;44m▓[0;34;40m▌[0;36;40m▄[0;1;33;46m▐[0;1;37;40m██[0;36;44m▌[0;34;40m▌[0;37;40m  [0;1;36;40mo1. [0;1;30;40mxxxxxxxx  [0;34m▀▀▀█[0;36;44m▀[0;34;40m▌[0;1;30;40m xxxxxxxxxxxxxxxxxxxxxxx[0m           [36m▌[0m
-[36m  ▀█[0;1;36m  [0;36m▐[0;30;46m [0;36;44m▄[0;36;40m██[0;1;33;46m▀█▌[0;34m▌[0;37m  [0;1;36mo2.[0;34m [0;1;30mxxxxxxxxxxxxx  [0;34m▀▄[0;1;30m xxxxxxxxxxxxxxxxxxxxxx[0m           [36m▌[0m
+[36m ▀█▄ ▐█[0;36;44m▓[0;34;40m▌[0;36;40m▄[0;1;33;46m▐[0;1;37;40m██[0;36;44m▌[0;34;40m▌[0;37;40m  [0;1;36;40mo1. [0;1;30;40m          [0;34m▀▀▀█[0;36;44m▀[0;34;40m▌[0;1;30;40m                        [0m           [36m▌[0m
+[36m  ▀█[0;1;36m  [0;36m▐[0;30;46m [0;36;44m▄[0;36;40m██[0;1;33;46m▀█▌[0;34m▌[0;37m  [0;1;36mo2.[0;34m [0;1;30m               [0;34m▀▄[0;1;30m                       [0m           [36m▌[0m
    [36m▐[0m   [1;33;46m░ [0;36m▀  ▀[0;1;33;46m▌[0;36m▌[0;34m [0;1;36m    [0;34m [0;1;30m                                        [0m      [36m▐[0m   [36m▐▌[0m     [36m▌[0m
        [1;33;46m▒[0;36m▌[0m    [36m▐▌[0;34m  [0;1;36m   [0m [1;30m                                        [0m          [30;46m [0;36;40m▌[0m    [36;40m▐▌[0m
    [36;40m▐[0m   [36;40m▐▌[0m     [36;40m▌[0;34;40m  [0;1;36;40m   [0m [1;30m                                        [0m      [36m▐[0m   [30;46m [0;36;40m█▄  ▄█▌[0m

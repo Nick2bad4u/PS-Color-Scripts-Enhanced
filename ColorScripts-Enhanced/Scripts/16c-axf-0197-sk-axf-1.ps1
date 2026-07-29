@@ -5,7 +5,7 @@
 # Source SHA-256: 0633e4d50bcf34b19c78036afbacc2427e3087954fd67f1098f245304b2d3ae2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-AXF#1.ANS by .o!Skyknight-o. (AXF.ANL.ELP); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Axial Force - Logo
 # SAUCE Author: .o!Skyknight-o.
 # SAUCE Group: AXF.ANL.ELP
@@ -22,4 +22,4 @@ Write-Host '
  [1;35;43m▓█[0;1;35;40m▄[0;1;35;47m▒░[0m█[1;47m░[0m [1;35m▄[0;1;35;43m█[0m [1;35;47m▒░[0m█[1;47m░[0m [1;35;43m▓█[0m [1;35;43m▓█[0;1;35;40m▄[0;1;35;47m▒░[0m█[1;47m░[0m [1;35;43m▓█[0m [1;35;47m▒░[0m█[1;47m░[0m     [1;35;43m▓█[0m      [1;35;43m▓█[0m [1;35;47m▒░[0m█[1;47m░[0m [1;35;43m▓█[0;1;35;40m▄[0;1;35;47m▒░[0m█▀ [1;35;43m▓█[0m [1;35;47m▒░[0m█[1;47m░[0m [1;35;43m▓█[0m [1;35;47m▒░[0m█[1;47m░[0m
  [1;35;43m█[0;1;35;47m▓[0m [1;35;47m░[0m█[1;47m░▒[0m [1;35;43m█[0;1;35;47m▓[0m [1;35;47m░[0m█[1;47m░▒[0m [1;35;43m█[0;1;35;47m▓[0m [1;35;43m█[0;1;35;47m▓[0m [1;35;47m░[0m█[1;47m░▒[0m [1;35;43m█[0;1;35;47m▓[0;1;35;40m▄[0;1;35;47m░[0m█[1;47m░▒[0m     [1;35;43m█[0;1;35;47m▓[0m      [1;35;43m█[0;1;35;47m▓[0;1;35;40m▄[0;1;35;47m░[0m█[1;47m░▒[0m [1;35;43m█[0;1;35;47m▓[0m [1;35;47m░[0m█[1;47m░▒[0m [1;35;43m█[0;1;35;47m▓[0;1;35;40m▄[0;1;35;47m░[0m█[1;47m░▒[0m [1;35;43m█[0;1;35;47m▓[0;1;35;40m▄[0;1;35;47m░[0m█[1;47m░▒[0m
  [1;30m▄  ▄[0m [1;30m▄[0m▄▄ ▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄ ▄▄[1;30m▄[0m [1;30m▄  ▄[0m
-[1;30m───-─-────────-────-░───-────-────░──────░─-───────-─-─-────▒─-─-──-([0mCUT HERE[1;30m)-─[0m'
+[1;30m───-─-────────-────-░───-────-────░──────░─-───────-─-─-────▒─-─-──-([0m        [1;30m)-─[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 918bf89ca5fd66ff9eae8b85a213eb22138d67b6515630a5e817a03b58855415
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-USKU.ANS by .:(cLEANER):. (.:(nITROPHUSION):.); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: .:(u-sKULE^lOGO):.
 # SAUCE Author: .:(cLEANER):.
 # SAUCE Group: .:(nITROPHUSION):.
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m-[0m--[1;30m-[0;36m[[0;37mc[0;1;30mU[0mT[36m^[0;37mh[0;1;30mER[0mE[36m][0;1;30m-[0m--[1;30m-[0;36m[[0;37ml[0;1;30mOG[0mO[36m^[0;37mu[0;36m-[0;37ms[0;1;30mKUL[0mE[36m^[0;37mr[0;1;30mEQUESTE[0mD[36m^[0;1;30mb[0mY[36m^[0;37me[0;1;30mLLE[0mR[36m][0;1;30m-[0m--[1;30m-[0;36m[[0;1;30m2[0m5[36m/[0;1;30m1[0m0[36m/[0;1;30m9[0m7[36m][0;1;30m-[0m--[1;30m-[0;36m[[0;1;30m0[0m1[36m:[0;1;30m1[0m9[36m][0;1;30m-[0m--[1;30m-[0m
+[1;30m-[0m--[1;30m-[0;36m[[0;37m [0;1;30m [0m [36m^[0;37m [0;1;30m  [0m [36m][0;1;30m-[0m--[1;30m-[0;36m[[0;37ml[0;1;30mOG[0mO[36m^[0;37mu[0;36m-[0;37ms[0;1;30mKUL[0mE[36m^[0;37mr[0;1;30mEQUESTE[0mD[36m^[0;1;30mb[0mY[36m^[0;37me[0;1;30mLLE[0mR[36m][0;1;30m-[0m--[1;30m-[0;36m[[0;1;30m2[0m5[36m/[0;1;30m1[0m0[36m/[0;1;30m9[0m7[36m][0;1;30m-[0m--[1;30m-[0;36m[[0;1;30m0[0m1[36m:[0;1;30m1[0m9[36m][0;1;30m-[0m--[1;30m-[0m
 
                        [1;30m▄▄▄▄▄▄[0m                                            [1;30m▄▄▄▄▄[0m
                     [1;30m▄▀▀ [0;35m▄▄▄▄ [0;1;30m▀▄ ▄▀▀▀▄   ▄▀▀▀▄[0m                         [1;30m▄▀▀ [0;35m▄▄▄ [0;1;30m▀▄[0m

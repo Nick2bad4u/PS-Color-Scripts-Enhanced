@@ -5,7 +5,7 @@
 # Source SHA-256: 0aca55993579373c6de073b0f7da0b8b7cae875de4ed52a5c37022095683ad5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CRY4.ANS by Nail + Kyp (fire); released in fire-32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the crypt
 # SAUCE Author: kyp / nail
 # SAUCE Group: fire
@@ -25,7 +25,7 @@ Write-Host '
 [1;30m▐▄▀[0;1;30;47m▓▓[0;1;30;40m▄▀▌█[0;1;30;47m░░[0;1;30;40m▐[0;1;30;47m░[0;1;30;40m░▓███▐[0;1;30;47m▄[0;1;30;40m▀ ▐[0;1;30;47m▓[0;1;30;40m▌█████ [0;33m▄[0;1;31;43m░[0;33m▄▀ ▀▀ [0;1;31;43m▄[0;1;31;47m▓[0;33m▌[0;1;31;43m███▀▀███[0;1;31;47m▒▒▓▓[0;1;31;43m█▓▓░░ [0;33m [0;34m [0;33m █▌ [0;34m█▀  ▐     [0m
 [1;30m ▀▀ ▀▀▀ ▀[0m▀▀▀▀[1;30m▀▀▀▀▀     ▀▌██ [0;33m▄▄▄▄[0;1;31;43m▄▄▄▄██[0;33m▌▐[0;1;31;43m█▒[0;1;31;40m▐[0;1;31;43m▓[0;33m▀  ▐[0;1;31;43m▀█[0;1;31;47m▓▓[0;1;31;43m████▓▓░[0;33m [0;34m▄[0;33m █▀ [0;34m▄   [0;37m [0;34m▀[0;37m [0;34m     ▐ [0m
 [1;30m▌   [0mname.[1;30m [0;1;37mfireandice[0;1;30m     █▀ [0;33m▐[0;1;31;43m█[0;1;31;47m▀[0;1;31;43m█[0;1;31;47m▓▓[0;1;31;43m████▓[0;33m [0;1;31m▀[0;33m ▄▄    ▐[0;1;31;43m▐███████▀[0;33m [0;34m░▀[0;33m█▀[0;34m▄[0;33m [0;34m   ▄[0;37m [0;34m░░[0m   [34m   [0m
-[1;30;47m█[0;1;30;40m░  [0mpw.[1;30m   [0;1;37mxxxxx[0;1;30m         ▄ [0;31m▄[0;33m▀ ▀[0;1;31;43m█████████[0;33m▀▐█▌▀█▄   ▐[0;1;31;43m▐█████▀[0;33m  ▄[0;1;31;43m░[0;33m▀  ▄▀ [0;34m■[0;33m [0m   [34m [0m   [34m   [0m
+[1;30;47m█[0;1;30;40m░  [0mpw.[1;30m   [0;1;37m     [0;1;30m         ▄ [0;31m▄[0;33m▀ ▀[0;1;31;43m█████████[0;33m▀▐█▌▀█▄   ▐[0;1;31;43m▐█████▀[0;33m  ▄[0;1;31;43m░[0;33m▀  ▄▀ [0;34m■[0;33m [0m   [34m [0m   [34m   [0m
 [1;30;47m▓[0;1;30;40m▓▄  ▄▄▐▄▄▄▄▄▄▄▄▄▄▄▌ ▄[0;1;30;47m▓▓[0;1;30;40m▀ [0;31m▌▐[0;1;31;43m▄[0;33m▌█[0;1;31m▀▀[0;1;31;43m█▓▀██[0;33m▌▐█▐  ▐[0;1;31;43m░░[0;33m▌  ▐[0;1;31;43m▐███[0;33m▀ ▄[0;1;31;43m▄▀[0;33m  ▄█▌    [0m   [34m [0m   [34m   [0m
 [1;30;47m▌[0;1;37;47m▄[0;1;30;47m▀▓[0;1;30;40m▄▀█▐[0;1;30;47m▓[0;1;30;40m▐█████[0;1;30;47m▓[0;1;30;40m███▌[0;1;30;47m▓▓[0;1;30;40m▀ [0;31m▄█▄[0;33m [0;31m▀[0;1;31;41m▄[0;1;31;43m░░[0;33m▄▄[0;1;31;43m▄███[0;33m ▄▄█▌  [0;1;31;43m░▓░[0;33m   █[0;1;31;43m██[0;33m▄[0;1;31;43m█[0;1;31;47m▓[0;1;31;43m█▀[0;33m  ▄██▄▌   [0;37m [0;34m░░ [0m
 [1;30m▐[0;1;37;47m░░[0;1;30;47m░▓▓[0;1;30;40m▄▐▀▐█████[0;1;30;47m▓[0;1;30;40m████▀ [0;33m [0;31m█▀[0;1;31;41m░▄[0;31m▌[0;33m [0;31m▐[0;1;31;41m░[0;1;31;43m▓▓████▓[0;33m [0;1;31;43m░[0;33m▀▀▄  ▀[0;1;31;43m░[0;33m█▌  █[0;1;31;43m██[0;1;31;47m▓▓[0;1;31;43m█▌[0;33m▌ ▐[0;1;31;43m░░[0;33m█▀▌[0m   [34m░▒░ [0m   [34m▌[0m

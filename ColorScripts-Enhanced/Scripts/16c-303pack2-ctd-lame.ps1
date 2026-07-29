@@ -5,7 +5,7 @@
 # Source SHA-256: 62cbb70907bda04dcad541cfc5a7c35e212207f5433e95a8bc42cfd229d70332
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CTD-LAME.ANS by crash test dummy ([3o3] 4r7 !?!); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dunno .. ?!?
 # SAUCE Author: crash test dummy
 # SAUCE Group: [3o3] 4r7 !?!
@@ -55,4 +55,4 @@ Write-Host '
                                 [34m▐[0;1;37;44m       [0;34m▌         [0m
 
 
-[1;37m-------------------------------------------------------------------([0;33m [0;1;32mc[0;33m [0;1;33mu[0;33m [0;1;36mt[0;33m [0;1;37m)----[0m'
+[1;37m-------------------------------------------------------------------([0;33m [0;1;32m [0;33m [0;1;33m [0;33m [0;1;36m [0;33m [0;1;37m)----[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3482dea163e13ba5f57d45233d7ba87333436c6628388c500f2f07fe5a7e2e57
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CDI.ICE by Halaster + Slothy + Boa (The Logomafia); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Ode to CDi
 # SAUCE Author: boa.halaster.slothy
 # SAUCE Group: The Logomafia
@@ -35,4 +35,4 @@ Write-Host '
                        [30;44m▓▓[0m  [34;40m       [0;1;34;40m                [0;34m     [0;30;44m▓[0;34;40m░[0m
                      [34;40m░[0m     [34;40mslo··∙─ ────────── ─∙··thy[0m
 
-                                      [1;30;40m- -------- ------------------ ------[[0;1;37;40me[0mo[1;30mf][0m'
+                                      [1;30;40m- -------- ------------------ ------[[0;1;37;40m [0m [1;30m ][0m'

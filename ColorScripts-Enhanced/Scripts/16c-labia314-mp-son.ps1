@@ -5,7 +5,7 @@
 # Source SHA-256: 65b9c83d33ea9997f216670d0427c4ba9179346ca6f41c9fc6dfc10548bf407a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-son.ans by Meatpod (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -33,4 +33,4 @@ Write-Host '
                         [31m [0;33m```[0;31m [0m   [31m [0m          [31m      [0;33m`[0;31m└?$$b┐[0;33m.__.,[0;31m┌d$[0;33m''[0;31m   [0;33m```[0;31m    [0;33m``[0;1;31m   [0m
        [1ms t a t e [0;1;33mo f[0;1;37m n e r v o u s n e s s[0m    [1;31m     [0;31m  [0;33m`[0;31m"└*?$$$P┘[0;33m''[0;31m             [0;1;30mmp.[0m
 
-[cut here]-8X-------------------------------------------------------------------[0m'
+[        ]-8X-------------------------------------------------------------------[0m'
