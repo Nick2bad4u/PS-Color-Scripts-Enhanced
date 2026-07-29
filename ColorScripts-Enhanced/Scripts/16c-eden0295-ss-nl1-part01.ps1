@@ -5,7 +5,7 @@
 # Source SHA-256: 701c3cd0364d0161250305d7848b6132893cc83136389d721e5a84df34f68a3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-NL1.ANS by Saint Sinner (EdEN); released in eden0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: NegativeLand
 # SAUCE Author: Saint Sinner
 # SAUCE Group: EdEN
@@ -48,7 +48,7 @@ Write-Host '
 [37;40m               [0;1;31;40m████▀██████[0;1;31;41m▄[0;31m▄[0;37m    [0;1;31m▄███████████▀▀▀[0m  [1;31m▀███[0m [41m [0;1;31;41m███[0;41m  [0;40m                    [0m
 [40m               [0;1;31;40m▀███[0m   [1;31m▀▀▀▀███████▀▀▀▀▀▀[0;1;37m▄▄▄[0m▄▄[47m [0;40m▄  [0;1;31;40m██[0m [1;31m██[0m [1;31;41m▄███[0;41m  [0;40m                    [0m
 [40m                [0;1;31;40m████[0m     [47m [0;40m▄▄[0;1;40m▄▄▄▄▄██████████[0;1;47m▄[0;47m  [0;40m [0;1;31;40m██▀▄█▀▄███[0;1;31;41m▀[0;41m [0;31;40m▀[0;37;40m                    [0m
-[37;40m                 [0;1;31;40m███[0m     [47m  [0;1;47m█████████████████[0;47m [0;40m▀[0;1;31;40m▄██[0m [1;31m██[0m [1;31m████[0;41m  [0;40m [0;1;30;40m"Has this ever[0m
+[37;40m                 [0;1;31;40m███[0m     [47m  [0;1;47m█████████████████[0;47m [0;40m▀[0;1;31;40m▄██[0m [1;31m██[0m [1;31m████[0;41m  [0;40m [0;1;30;40m              [0m
                  [1;31m████[0m     [47m [0;1;47m▀███████████████▀[0;47m [0;40m [0;1;31;40m███[0m [1;31m██[0m [1;31m████[0;41m  [0;40m  [0;1;30;40m happened to[0m
                   [1;31m███[0m     ▀[47m [0;1;47m█████████████▀[0m▀▀ [1;31m▄██▀▄██[0m [1;31m████[0;41m  [0;40m     [0;1;30;40m you?"[0m
                   [1;31m████[0m     ▀▀[1m██████▀▀▀▄▄[0m▄▄[47m  [0;40m [0;1;31;40m███[0m [1;31m██▀▄███[0;41m  [0;40m                      [0m

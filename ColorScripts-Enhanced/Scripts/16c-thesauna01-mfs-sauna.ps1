@@ -5,7 +5,7 @@
 # Source SHA-256: 9d6ac86c83082b71f681f8e9bdfad2401fa620757698abcc49ab659be4a537a6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mfs-SAUNA.ans by Mel Farr Suppastar (thesauna01); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20190901
 # SAUCE Dimensions: 80x27
 # SAUCE Font: IBM VGA
@@ -37,6 +37,6 @@ Write-Host '
 [36m  ▒▒[0;1;35m▒▒[0;1;33m▒▒[0;1;37m▒[0;1;37;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37;40m██████████████████[0;1;37;46m▓▓[0;1;37;40m▒▒[0;1;33;40m▒▒[0;1;35;40m▒▒[0;36m▒▒[0;1;37m░░░[0;1;30m░▀[0;1;30;47m▓[0;1;30;40m▌[0;36m▓▓▒▒▒[0;1;35m▒▒[0;1;33m▒▒[0;1;37m▒[0;1;37;47m▓▓[0;1;37;40m███▌[0m
 [36m  ▒▒▒[0;1;35m▒▒[0;1;33m▒▒[0m                   [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m▀▀▀[0;36m░[0;1;36m░░░[0;1;30m╜[0;1;37m  [0;36m▄▒▒[0;1;36m░[0;36m░[0;1;36m▀▀▀[0;1;37m▀▀▀▀▀▀▓▓▓[0m
                                                      [36m:░░[0;1;36m░░▒▒▒░░[0;36m:[0m        [1;37mmfs!2019[0m
- [1;30m so anyways...[0m                                        [36m:░░░░░:[0m
+ [1;30m              [0m                                        [36m ░░░░░ [0m
        [1;30m                        [0m                     [35m [0;37m   [0;36m  ▓█►[0m
                                                          [36m:█►[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 39bd738b4312e6395c04a88234603035fc551a6d11e08b250bd1e31d70971999
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!HOLDN.ANS by Madcap (Dep.38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Holdens lair 4
 # SAUCE Author: Madcap
 # SAUCE Group: Dep.38
@@ -31,7 +31,7 @@ Write-Host '
  ▒█▓▀▀▒█▀   ░▓[1;30m▐[0m      [1;30m▌ ▀[0m        ▓█▓ ▄▒█░ [33m░[0;1;31;47m▓[0;1;31;41m▓▓▒ [0;31m▒░░░░░░     [0;1;30m▄▄[0m▄▄[1;30;47m▓[0m▄[1m▄▄[0m█[1;47m▐[0;1;30;40m▄[0m▄[1;30m▄▄[0m
 [31m▌ [0m▓█▄     ▄▒▓█▌      [1;30m▀[0m           ▀█▓██▒  [1;33;47m▒░[0;1;31;47m▒▓█[0;1;31;41m▓▒[0;31m▓▒▒░░░░[0m
 [1;31;41m░[0;31m░ [0m▓█▓[1;30m▄ [0m▄█████▓   ▓█▄              ██▓ [33m░[0;1;33m▐[0;1;33;47m▓▒░[0;1;31;47m▒▒█[0;1;31;41m▓▒░[0;31m▓▒▒░░░  [0;1;35mhmm.. I even left[0m
-[1;31;41m▒[0;1;31;40m▓▄ [0m▀██[1;47m░▄[0m█████▀   ▐███▄    [1;30m░     [0m▄██▀  [1;33m▄▓[0;1;33;47m▓▓▒▒░[0;1;31;47m▒▓█[0;1;31;41m▒░[0;31m▓▓▒░░  [0;1;35mroom for a matrix[0m
+[1;31;41m▒[0;1;31;40m▓▄ [0m▀██[1;47m░▄[0m█████▀   ▐███▄    [1;30m░     [0m▄██▀  [1;33m▄▓[0;1;33;47m▓▓▒▒░[0;1;31;47m▒▓█[0;1;31;41m▒░[0;31m▓▓▒░░  [0;1;35m                 [0m
 [1;31;41m▓[0;1;31;45m█▓▓[0;35m▄ [0m▀██[1;47m▀▒[0m█▓      ▓██▓[1;30m▌  ░  [0m▄▄▒▓▓▀  [1;31m▒[0;1;33;47m▓▓▓▓▒▓▓▒░[0;1;31;47m▒▓█[0;1;31;41m▒░[0;31m▓▓▒░  [0;1;35m<sorta>.. hmmm..[0m
 [1;31;45m██▒[0;1;35;45m▒[0;1;35;40m█▓▄ [0m▀[1;30;47m▄[0m████     ██▀[1;30;47m▄[0m  ▄▄▓██▓[1;30;47m▒[0;1;30;40m▀  [0;1;31;40m░▒[0;1;31;47m▒▒[0;1;33;47m░▒▒▓▓▒▒░[0;1;31;47m▒█[0;1;31;41m▓▒ [0;31m▓▒▒░  [0;1;35manyway.. this was[0m
 [1;31;45m▒[0;1;35;45m▒▓████░[0;1;31;45m▓[0;1;31;40m▄ [0m▀▀▒███████████▓[1;30;47m▄[0m▀▀   [31m▄[0;1;31m▄▒▓[0;1;31;47m▓█[0;1;31;41m▓[0;1;31;47m█▓▒▒▒[0;1;33;47m░░[0;1;31;47m▒▓█[0;1;31;41m▒░[0;31m▓▒▒░  [0;1;35mdone by Madcap of ol''[0m
