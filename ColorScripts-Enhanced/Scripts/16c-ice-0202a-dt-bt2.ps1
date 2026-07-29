@@ -5,7 +5,7 @@
 # Source SHA-256: 9b1d03bc720c7e6c2be77ee8122506c920961be909ad394dece02c4f0a7e9cef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dt-bt2.ice by Defiant (ice-0202a); released in ice-0202a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -27,8 +27,8 @@ Write-Host '
 [1;30;40m ▌▄[0;1;30;47m▓[0;1;30;40m▓▀▀[0;1;34;40mb[0;34mlack [0;1;34;44mt[0;34mhursday ▀[0;1;34;44m░▄[0;34m▌█[0;1;34m▓[0;1;34;44m▄[0;1;34;40m▀▀ [0;33m▀   ░ █   ▀█   [0;37m▀[0;1;37;47m▀[0;1;37;40m▌[0;1;37;47m▄▌ [0m█[1;47m▓[0;1;40m▌[0;1;47m ▓[0;1;40m▄ [0m█[1;47m░[0m██[47m [0;40m██[0;1;30;47m▓[0;1;30;40m▌[0m███[47m [0;1;47m░  [0m██[1;30;47m░[0m
 [1;30;40m █▀[0m                      [34m▌▀[0;1;34m▀[0m     [34m▄▄ ▄ [0;33m█ ░   ▄    [0;37m▒[0;1;37m█[0;1;37;47m█[0m██[1;47m▀[0m▄[1;47m▄░[0m█▄[1;30m▐[0m██▓███[1;30;47m░▐[0m██████████
  [1;30m█[0m                       [34m█▄▄▄██▀▀   [0;1;30m░ [0;33m▐ ▒   ▐ ▄▌  [0;37m▀[0;1;37;47m▀█[0;1;37;40m█▀▀  [0m▀      [1;30m░▀[0m▀▀█[1;30m▄[0m▀▀▀[1;30;47m▄▄▓░░[0m
-[33m░[0;1;30m▌    ([0mi[1mnsert [0mi[1mnfo[0m                  [1;30m▓ [0;33m█ ▓▄▄█▐▄▄    [0;1;30m░[0m▄ ▄[1;47m▄[0m▄  ▄▄[47m [0;40m▓[0;47m [0;40m█▄▄▄[0;1;30;40m▄▄ ▄[0;1;30;47m▓░░[0m██[1;30;47m▄[0m▌
-[33m░[0m         [37mi[0;1;37mn [0mh[1mere..[0m...[1m.[0m..[1;30m......)    ▌ [0;33m█▄██▀▄▐[0;1;37;43m░[0;1;33;43m░[0;33m▌░   [0;37m▐[0;1;37m▄[0m▌[1m▐[0;1;47m█▄▌[0m█[1;47m▀▓░[0;1;33;47m░  [0m▀▀[1;30;47m▄░▀▀▌[0m███[1;30;47m█[0m [1;30;40m░[0m
+[33m░[0;1;30m▌     [0m [1m      [0m [1m   [0m                  [1;30m▓ [0;33m█ ▓▄▄█▐▄▄    [0;1;30m░[0m▄ ▄[1;47m▄[0m▄  ▄▄[47m [0;40m▓[0;47m [0;40m█▄▄▄[0;1;30;40m▄▄ ▄[0;1;30;47m▓░░[0m██[1;30;47m▄[0m▌
+[33m░[0m         [37m [0;1;37m  [0m [1m     [0m   [1m [0m  [1;30m           ▌ [0;33m█▄██▀▄▐[0;1;37;43m░[0;1;33;43m░[0;33m▌░   [0;37m▐[0;1;37m▄[0m▌[1m▐[0;1;47m█▄▌[0m█[1;47m▀▓░[0;1;33;47m░  [0m▀▀[1;30;47m▄░▀▀▌[0m███[1;30;47m█[0m [1;30;40m░[0m
 [33m▒▌  ░[0m                              [1;30m▄█ [0;33m▐[0;1;33;43m░▄[0;33m▌ ██▀▀ ▒   [0;1;30m░[0;1;37;47m░▌[0m [1;37;40m▀    [0m▀▀[1;30m▀ ▄[0;1;30;47m█▀░[0m█[1;47m░░[0m██[1;30;47m▄[0m▀ ▄[1;30;47m░[0m
 [33m▓█▄[0;32m░[0;33m▒defiant.ice[0m           [1;30m░ ░░▀ ▀▀[0;1;30;47m▓[0;1;30;40m▀ [0;33m▓█[0;1;33;43m░[0;33m█▄▄    ▓[0;30;43m▓▓[0m [1;30;40m░[0m█[1;47m█▄[0m▄▄█[1;47m▄▄[0m▄[1;30m▄▄░ [0;1;30;47m█[0m████[1;30;47m▄[0m▀▀▄█[1;30;47m░░[0m▀
 [33m████▓▄▄█▄▄▄▄▄▓[0;1;33;43m░[0;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▐▄▄▄▄▄▄█▀▀▀▀█[0;1;33;43m▀░░[0;33m█▌▌  [0;37m▐[0;1;37;47m███[0m█[1;47m▐█▌░[0m██[1;30;47m▀[0m▄[1;30m▐[0m██[1;30;47m▀[0m▄██[1;30;47m░░[0m▀▀▒░
