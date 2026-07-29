@@ -5,7 +5,7 @@
 # Source SHA-256: b5258f8882bbb70b609c1e5540b648ee10966e2798daf56b2b604fd0f4e120d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MIDJET.ANS by Formaldehyde (blndr039); released in blndr039 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
                                                                      ▄
                                                           [1m▄[0m        [1m▄[0m▐█▌
                                                           [1m▐██▄[0;31m▄▄▄[0;1;37m███[0m▐█▌
-          [1;30m▀█▄[0m                     [1minverse canadian flag[0m [1m-[0m [31m [0;1;37m███[0;1;37;41m\|/[0;1;37;40m███[0m▐█▌
+          [1;30m▀█▄[0m                     [1m                     [0m [1m [0m [31m [0;1;37m███[0;1;37;41m   [0;1;37;40m███[0m▐█▌
        [1;30m▄[0m   [1;30m▐█▌ [0m    [1;30msuper wrench[0m                            [1m███[0;31m█[0;1;37;41m^[0;31m█[0;1;37m███[0m▐█▌
         [1;30m▀▄▄█[0;1;30;47m█[0;1;30;40m█▄[0m  [1;30m/[0m                                         [31m [0;1;37m▀█[0;31m███[0;1;37m▀▀[0m ▐█▌
          [1;30m  ▀[0;1;30;47m███[0;1;30;40m█▄[0m        [1;31m▄▄▄▄▄[0m       [1;31m [0m                              ▐█▌

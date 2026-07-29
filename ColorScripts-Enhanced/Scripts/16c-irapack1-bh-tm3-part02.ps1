@@ -5,7 +5,7 @@
 # Source SHA-256: 36120a8a3071949407b87c45cedfc65b37bb4f211691ada8ef6dd95cf20082e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BH-TM3.ANS by Bloodhawk (irapack1); released in irapack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 30-58
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
              [34m████████████▌[0m      [1;34;44m▒▒▒▒▒▒▒▒▒▒[0;34m▌[0m      [1;34;44m     [0m      [34m▐[0;1;34;44m▒▒▒▒▒▒▒▒▒▒[0m
             [34m▐[0;1;34;44m░░░░░[0;34m███████▌[0m     [1;34;44m▒▒▒▒▒▒▒▒▒▒▒[0m        [1;34;44m   [0m       [1;34m [0;1;34;44m▒▒▒▒▒▒▒▒▒▒▒[0m
             [1;34;44m░░░░░░░░░░░░[0;34m█▌[0m    [1;34;44m▓▒▒▒▒▒▒▒▒▒▒[0;1;34;40m▌[0m         [34m▀[0m         [1;34m▐[0;1;34;44m▒▒▒▒▒▒▒▒▒▒▓[0m
-           [1;34m▐[0;1;34;44m▒▒▒▒░░░░░░░░░[0m    [1;34;44m▓▓▓▓▓▒▒▒▒▒▒▒[0m [1;35m ∙T[0;34mo[0;1;35mY∙[0;34mM[0;1;35ma[0;1;37mCHi[0;1;35mN[0;34me[0;1;35m∙BBs∙ [0m [1;34;44m▒▒▒▒▒▒▒▓▓▓▓▓[0m
+           [1;34m▐[0;1;34;44m▒▒▒▒░░░░░░░░░[0m    [1;34;44m▓▓▓▓▓▒▒▒▒▒▒▒[0m [1;35m   [0;34m [0;1;35m  [0;34m [0;1;35m [0;1;37m   [0;1;35m [0;34m [0;1;35m      [0m [1;34;44m▒▒▒▒▒▒▒▓▓▓▓▓[0m
            [1;34m█[0;1;34;44m▒▒▒▒▒▒▒▒▒░░░░[0m   [1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓[0;1;34;40m▌[0;1;35;40m   ∙(7o9)739∙o961∙   [0;1;34;40m▐[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓[0m
           [1;34m▐[0;1;34;44m▓▓▓▓▒▒▒▒▒▒▒▒▒░[0m  [1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;35;40m  VaST MeSSaGe BaSeZ  [0m [1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
           [1;34m█[0;1;34;44m▓▓▓▓▓▓▓▒▒▒▒▒▒▒[0m [1;34;44m██▓▓▓▓▓▓▓▓▓▓▓[0;1;34;40m▌[0;1;35;40m [0m [1;35m uP To DaTe FiLeZ  [0m  [1;34m▐[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓██[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: ae8ecb899bf15e2c15a2cd1ff06321c065b18e0982675766733415a60f95c0a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RCKYACD2.ANS by Jed (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 28-54
 # Columns: 1-80
 
@@ -35,5 +35,5 @@ Write-Host '
 [33;40m  ▄▄▄▄████[0;33;43m                                                         [0;33;40m▌[0m
 [33;40m ▐████████[0;33;43m                                                          [0m
   [33;40m▀██▀ ▀▀██████▀▀  ▀▀█████▀▀▀▀▀▀▀[0m       [33;40m▀▀█████▀   ▀▀▀████▀▀▀██▀▀▀▀[0m
-[33;40m   ▐[0m      [33;40m██▀[0m              [1;37;40mANS[0mi[1;30m·[0;1;37mJED[0;1;30m<[0mAC[1mi[0mD[1;30m>   [0;33m▀▀[0m         [33m▀█▀   ▐[0m
+[33;40m   ▐[0m      [33;40m██▀[0m              [1;37;40m   [0m [1;30m [0;1;37m   [0;1;30m [0m  [1m [0m [1;30m    [0;33m▀▀[0m         [33m▀█▀   ▐[0m
           [33m▐[0m'

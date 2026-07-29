@@ -5,7 +5,7 @@
 # Source SHA-256: 9993e397c5751509d86ba82ec45bb2a093fc7f0b27f5fe0be66cac3a35882001
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-HYS1.ANS by The Night Angel (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hysteria
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -37,4 +37,4 @@ Write-Host '
 [1;33;40m   [0;1;30;40m» [0;1;33;40mblah.. .[0m
 [1;33;40m   [0;1;30;40m» [0;1;33;40mblah.. .[0m
 [1;33;40m   [0;1;30;40m» [0;1;33;40mblah.. .[0m
-[1;30;40m──────────────────────────────────────────────────────- [0;1;37;40madd something[0m?  [1;34myes [0;34m█[0;1;37;44mno[0;34m█[0m'
+[1;30;40m──────────────────────────────────────────────────────  [0;1;37;40m             [0m   [1;34m    [0;34m█[0;1;37;44m  [0;34m█[0m'

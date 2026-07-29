@@ -5,7 +5,7 @@
 # Source SHA-256: b5f91b5ee6c9b21ee1942dd9a7ff66899e8dda9f3c4cda6054c4620b4339e865
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMI-B24.ANS by Samurai (blndr024); released in blndr024 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
      [1;30m░[0;1;37m▐█[0;33m▌[0;37m█[0;1;37m██████▀[0;31m▐[0;1;31;41m▐[0;1;31;47m▀[0;1;31;41m▌▀▌[0;31m▌[0;1;37;47m▐[0;1;37;40m█████[0;1;37;47m▌[0;34m▄▄[0;1;34m▄[0;1;34;44m▄▄▄[0;34m█▄  [0;35m░[0;30;45m▓▓▓▓▓▓[0;35;40m [0m              [32;40m░░[0m
      [1;30;40m░[0;1;37;40m▐█[0;33m█[0;1;30m▐[0m█[1m█████[0;1;47m▄[0;1;40m▄[0;31m█[0;1;31;47m▓▓[0;1;31;41m█[0;31m▓[0;1;37;47m [0;1;30;40m█ [0;1;37;40m▄[0m█▄[1;30m▄[0;34m▀[0;1;34;44m▀[0;1;34;47m▓▓▀▀▓▓[0;34m█▌ [0;35m▐▒▒▒▒▒▒░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;37;40m  [0;35;40m▄▌[0m         [1;34;40msamurai[0;1;30;40mDARK[0m
        [1;33m█[0;33m█[0;1;30m▐[0m█[1m███████[0;1;47m▄[0;1;40m▄▄[0;1;47m▄▄[0;1;40m█▐█[0m█[1;30;47m░░▓[0;1;30;40m▌[0;34m▐[0;1;34;44m▀▀[0;1;34;47m▓▓[0;34m▀▀▀  [0;35m▐▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▒▒[0;30;45m▒[0;35;40m▒▒[0m     [1;30;40m░░░░[0m    [34m           [0m
-       [1;33m█[0;1;33;43m░[0;33m▄[0;1;37;47m ▀▀▀▓▓▓[0;1;37;40m▌[0;1;30;40m▀▀[0m▀▀▀▀▀▀ [1m▀[0m▀[1;30m▀[0m           [35m▐[0;1;35;47m▀▓▓[0;1;35;45m█▓░[0;35m▓▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m░[0;30;45m▓[0;35;40m░[0m          [34;40mat ansi again░[0m
+       [1;33m█[0;1;33;43m░[0;33m▄[0;1;37;47m ▀▀▀▓▓▓[0;1;37;40m▌[0;1;30;40m▀▀[0m▀▀▀▀▀▀ [1m▀[0m▀[1;30m▀[0m           [35m▐[0;1;35;47m▀▓▓[0;1;35;45m█▓░[0;35m▓▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m░[0;30;45m▓[0;35;40m░[0m          [34;40m             ░[0m
        [1;33;40m▐[0;1;33;43m▓[0;33m▌[0;37m   [0m
        [1;33m▐█[0;33m▌[0;37m [0;5;31m [0;1;30;47m▓▓[0;1;30;40m▀▀█▄ ▄[0;1;30;47m▓[0;1;30;40m▀▀[0;1;30;47m▓[0;1;30;40m▄ [0;1;30;47m▓▓[0;1;30;40m▄ ▄[0;1;30;47m▓▓[0;1;30;40m ▀▀ [0;1;30;47m▓▓[0;1;30;40m▄  [0;1;30;47m▓▓[0;1;30;40m ▄[0;1;30;47m▓[0;1;30;40m▀▀[0;1;30;47m▓[0;1;30;40m ▀▀[0;1;30;47m▓▓[0;1;30;40m▀▀ ▀▀ ▄[0;1;30;47m▓[0;1;30;40m▀▀[0;1;30;47m▓[0;1;30;40m▄ [0;1;30;47m▓▓[0;1;30;40m▄  [0;1;30;47m▓▓[0m
        [1;33m▐▓▓[0m [5;31m [0;1;30;47m░░[0;1;30;40m  [0;1;30;47m▓▓[0;1;30;40m [0;1;30;47m░░[0;1;30;40m  [0;1;30;47m▒▒[0;1;30;40m [0;1;30;47m░░[0;1;30;40m ▀ [0;1;30;47m▒▒[0;1;30;40m [0;1;30;47m░░[0;1;30;40m [0;1;30;47m░░[0;1;30;40m ▀▄[0;1;30;47m▒▒[0;1;30;40m [0;1;30;47m░░[0;1;30;40m▀▀[0;1;30;47m▒▒[0;1;30;40m  [0;1;30;47m░░[0m   [1;30;47m░░[0;1;30;40m [0;1;30;47m░░[0;1;30;40m  [0;1;30;47m▒▒[0;1;30;40m [0;1;30;47m░░[0;1;30;40m ▀▄[0;1;30;47m▒▒[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 31fb6a8736ba7524ad17c7cc2d4787cd6f3b9fdbf5adeb110e00dc382f672ea7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RV-XS2.ANS by rave; released in sac0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ACCESS DENIED BBS
 # SAUCE Author: RaVe
 # SAUCE Group: SAC
@@ -17,7 +17,7 @@
 Write-Host '
                   [33m▄▄▄▄▄[0m                                      [1;30m▄[0m
 [1m  [0m               [33;41m▓▓███▓[0m                                [37;40m     [0;31;40m█ [0;1;30;40m▄  [0m
-[1m·[0;31mAcc[0;1;31mess[0;1;37m  [0m    [1m [0m [31m█[0;33;41m▓▓[0;1;37;40m  [0;33;41m▓▓▓[0;31;40m▌[0m   [1;37;40m [0m [33m▄▄▄▄[0m   [1;37m [0m [33m▄▄▄▄[0;37m  [0;1;37m [0;31m▄[0;33;41m░░▒[0;33;40m▄[0m    [1;37;40m [0;33m▄[0;33;41m▓▓[0;31;40m █ [0;1;37;40m [0;33m▄[0;33;41m▓▓[0;37;40m [0;30;40m   [0;1;30;40mA[0;31mn[0;1;31msi[0;1;35m [0;31mb[0;1;30my   [0;30m░[0m
+[1m [0;31m   [0;1;31m   [0;1;37m  [0m    [1m [0m [31m█[0;33;41m▓▓[0;1;37;40m  [0;33;41m▓▓▓[0;31;40m▌[0m   [1;37;40m [0m [33m▄▄▄▄[0m   [1;37m [0m [33m▄▄▄▄[0;37m  [0;1;37m [0;31m▄[0;33;41m░░▒[0;33;40m▄[0m    [1;37;40m [0;33m▄[0;33;41m▓▓[0;31;40m █ [0;1;37;40m [0;33m▄[0;33;41m▓▓[0;37;40m [0;30;40m   [0;1;30;40m [0;31m [0;1;31m  [0;1;35m [0;31m [0;1;30m    [0;30m░[0m
 [1;37m  [0m [1m   [0m    [1m   [0m [33;41m▒▒[0;1;37;40m    [0;33;41m▒▓▓[0;31;40m▌[0;1;37;40m   [0;33;41m▓█[0;33;40m▀[0;1;37;40m  [0;33m▀[0;33;41m█[0;1;37;40m  [0;33;41m▓█[0;33;40m▀[0;1;37;40m  [0;33m▀[0;33;41m█[0;37;40m [0;1;31;41m░[0;33;41m░[0;31;40m▀[0;33;41m▒▓█[0;33;40m▌[0m   [33;41m██▓▓[0;31;40m▌▌[0;37;40m [0;33;41m██▓▓[0;31;40m▌[0;30;40m    [0;1;31;40mR[0;31ma[0;33mV[0;37me[0m     [30m░[0m
 [37m  [0;1;37m [0;1;31mDen[0;31mied[0;1;37m·[0m  [31m█[0;33;41m░▒[0m     [33;41m▒▒▒[0;31;40m▌[0;1;37;40m  [0;33;41m▒▓[0m      [1;37;40m [0;33;41m▒▓[0m      [31;40m▐[0;1;31;41m░[0m  [33;41m▓▓[0;33;40m▀[0;37;40m  [0;33;40m▄█▀[0;37;40m [0;31;40m█[0;33;41m▒[0;31;40m▌[0;33;40m▄█▀[0;37;40m [0;31;40m█[0;33;41m▒[0;31;40m▌[0;1;30;40m[KR[0;31mY[0;1;31mN/CNC[0;31m/S[0;1;30mAC][0m
 [1;37m    [0m       [33;41m░░[0m       [33;41m▒▒▒[0;31;40m▌[0;1;37;40m [0;31m▐[0;33;41m░▒[0m     [1;31;40m■[0;31m▐[0;33;41m░▒[0m     [1;31;40m■[0;1;31;41m▒░[0;31m▄[0;33;41m▓█[0;31;40m▀[0;37;40m  [0;1;31;40m■[0;33m▀[0m   [31m▐[0;33;41m▒░[0;33;40m▀[0m   [31;40m▐[0;1;37;41m░░[0m

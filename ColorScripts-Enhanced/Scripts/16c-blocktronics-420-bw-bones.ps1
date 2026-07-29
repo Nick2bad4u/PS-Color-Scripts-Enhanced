@@ -5,7 +5,7 @@
 # Source SHA-256: 57b452dac17817b7e9aca154d57cac472f3c7b556194c2dda3ef880de1e70e34
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw_bones.ans by binary walker (blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bones
 # SAUCE Author: binary walker
 # SAUCE Group: blocktronics
@@ -51,8 +51,8 @@ Write-Host '
 [1;33m                         [0;31m█[0;37m        [0;31m▀[0;1;31;41m▄[0;31m▀[0;36m  [0;31m▒[0;36m █[0;1;36;46m░[0;36m▓   ▀[0;1;36;46m▀[0;36m▄ [0;31m░░░   [0;36m▄[0;1;36;46m▄▀[0;36m▀ [0;31m▄█[0;1;31;41m▀▄[0;31m▄█[0;1;31;41m█▄▀[0;31m█[0;1;31;41m▀[0;31m▀▀▀[0m
 [37m B O N E S                          [0;31m▀[0;37m  [0;31m▓[0;37m [0;36m██░    ▐[0;1;36;46m█[0;36m▌[0;31m░▒  [0;36m█ ▀▀ ▄[0;37m [0;31m▀▄[0;1;31;41m▄[0;31m█▀▄▄▄▄[0;37m [0;31m▀▀▀▀[0m
 [1;33m                                       [0;31m█[0;36m █▓    ▄[0;1;36;46m▀[0;36m▀ [0;31m▓▓[0;36m ▄ ▀[0;1;36m▀▀[0;36m▀[0;37m [0;31m▄▀██▀█[0;1;31;41m▄▀[0;31m▀▀█[0;1;31;41m▄▄[0;31m▄▄[0m
-[1;33m  [0mby Florian Ochmann aka              [31m▐█[0;36m █  ▀ [0;37m▀[0;36m  [0;31m▄▓[0;1;31;41m▄[0;31m▓▄[0;36m [0;1;36m▀[0;36m▀▀  [0;31m▄▄▀[0;37m   [0;31m▐[0;1;31;41m█[0;31m▌▀[0;37m    [0;31m▀▀▀█▄[0m
-[1;33m   [0mbw! of Blocktronics                [1;31;41m▄[0;31m▌[0;36m▐▌ [0;31m▄▄▄▄[0;1;31;41m▄▄[0;31m▀[0;36m  [0;1;31;41m▒[0;36m [0;31m▀▀▀[0;36m   [0;31m▀[0;37m    [0;31m▄█▀[0m
+[1;33m  [0m                                    [31m▐█[0;36m █  ▀ [0;37m▀[0;36m  [0;31m▄▓[0;1;31;41m▄[0;31m▓▄[0;36m [0;1;36m▀[0;36m▀▀  [0;31m▄▄▀[0;37m   [0;31m▐[0;1;31;41m█[0;31m▌▀[0;37m    [0;31m▀▀▀█▄[0m
+[1;33m   [0m                                   [1;31;41m▄[0;31m▌[0;36m▐▌ [0;31m▄▄▄▄[0;1;31;41m▄▄[0;31m▀[0;36m  [0;1;31;41m▒[0;36m [0;31m▀▀▀[0;36m   [0;31m▀[0;37m    [0;31m▄█▀[0m
 [37m                                    [0;31m▄▀[0;36m  █  [0;31m▓▌       ▐▀▄▄[0;37m        [0;31m██[0m
 [37m                                  [0;31m▀[0;37m    [0;36m▀    [0;31m▀▀▄▄[0;37m    [0;31m▐[0;37m            [0;31m▀▀▄[0m
 [37m                                     ▀[0;36m          [0;31m▀[0;37m                   [0;31m▀[0m

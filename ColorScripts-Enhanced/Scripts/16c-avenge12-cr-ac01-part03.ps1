@@ -5,7 +5,7 @@
 # Source SHA-256: 0670016325d613cf80e3e4519e726db1a4f33213fc7e2bc892228db07d0dc45c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-AC01.ANS by creator (Avenge Productions); released in avenge12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: astro city
 # SAUCE Author: creator
 # SAUCE Group: Avenge Productions
@@ -42,7 +42,7 @@ Write-Host '
         ▄▓▓▄▄█          [34m [0;1;37m▌[0m   [1m [0;34m   [0;1;37m░ ░░▓[0;1;37;44m██[0;1;37;40m▌[0m         [1m░░░░[0;34m [0;1;37m░░░[0m      ░   ░░▓█▀▌▓█████
 [34m [0;37m░[0m    [37m░░▓████▓░░[0;34m [0;37m░[0m      [34m [0;1;37m [0;34m  [0;1;37m ▌[0m       [1m▐[0;1;46m█[0;1;44m█[0;1;40m▓░[0;34m   [0m                        [37m  ▌  ░[0m   [37m  [0m
     [37m▄▄▄▄███▄██▄▄▄▄[0m      [1;37m▌[0m           [1m░[0;34m [0;1;37;44m███[0;1;37;40m▌ [0;34m     [0;37m+o crimson skye[0m
-     [37m▀▓████▄███▓▀[0m                  [1;37m▀▓[0;1;37;44m██[0;1;37;40m▐[0;1;37;44m██[0;1;37;40m▓▀[0;34m [0;30m100% shit2ans conversion!!!!![0m
+     [37m▀▓████▄███▓▀[0m                  [1;37m▀▓[0;1;37;44m██[0;1;37;40m▐[0;1;37;44m██[0;1;37;40m▓▀[0;34m [0;30m                             [0m
       [37m ▀▓██ ██▀░[0m                     [1;37m▀[0;1;37;44m█[0;1;37;40m▐▓▀░[0;34m  [0m
         [37m░▀▓▌▀[0m                         [34m [0;1;37m▐ [0m
            ▌[0m'

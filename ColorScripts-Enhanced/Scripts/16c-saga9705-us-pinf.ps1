@@ -5,7 +5,7 @@
 # Source SHA-256: 3de0d090fe5db5efd0dc6bdb5678cb983b61dd73f3808c9265e07f6a987b0134
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PINF.ANS by Sharque + Creator (Saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: project inf
 # SAUCE Author: Multiple
 # SAUCE Group: Saga
@@ -23,7 +23,7 @@ Write-Host '
 [36;40m░[0;1;30;40m [0m [36m█[0;1;30;46m░[0;36m█▌[0;1;36;46m▓▒░[0;36m▌▀[0;1;36;46m░░[0;36m█▌[0;1;36;46m░▒▓[0;36m▌[0;37m [0;1;36;46m░▒▓[0;36m▌[0;1;36;46m░▒▓[0;1;36;40m▌[0;36m▐[0;1;36;46m░[0;36m▀[0;37m [0;33m░░▒▒▓▄▓▄▀▌███████▄[0;1;31;43m░▓▓███[0;33m▌▐[0;1;31;43m▀[0;33m▀▀▓█[0;1;31;43m▄▌[0;33m███[0;1;31;43m▐[0;33m▓░    [0;36m▀▐██[0m
 [36m▒[0;37m [0;36m▀█[0;1;36;46m░▒[0;1;36;40m▄[0;1;36;46m▓▓▒[0;1;36;40m▄[0;1;36;46m▓▒[0;36m█▓[0;1;36;46m░▒▓[0;1;36;40m█[0;1;36;46m▓░▒▓[0;1;36;40m██[0;1;36;46m▓▓[0;1;36;40m██▄[0;1;36;46m▒[0m [30;43m▓[0;33;40m░▒▒▓█[0;1;31;43m░▄▌[0;33m▌▐[0;1;31;43m▄[0;33m█▄▀▀██[0;1;31;43m▀▀██[0;1;31;47m▓▀▒[0;1;31;43m▌[0;33m   ░▐[0;1;31;43m▐██▄[0;33m█[0;1;31;43m▐▌[0;33m▌ ▐▄ [0;30;43m▓[0;1;33;40m [0;36m▄▓█[0m
 [36m▓ [0;1;30m░[0m  [1;36m▀▀▀▀▓▀[0m [36m    [0;1;36m ▀▓▀▀▀    ▀▀▀[0;1;36;46m▓[0;1;36;40m▌[0;33m░[0;30;43m▓[0;33;40m▒▒▓[0;30;43m░[0;1;31;43m░ ▀[0;33m▀ █[0;1;31;43m▀█▄░[0;33m▄▄ ▀███[0;1;31;43m▀▀[0;1;31;47m▄[0;33m▓░   █[0;1;31;43m▀[0;1;31;47m▀▓[0;1;31;43m███[0;33m█  ▄█▓ [0;36m▀▓██[0m
-[36m▄ [0;37mproject[0;1;36m [0minfinity[1;30m [0m- magazine[1;36m▐[0;1;30m [0;30;43m▓[0;33;40m░▒▒▓▓[0;1;31;43m░▐▄[0;33m█▄ ▀▓[0;1;31;43m█▓[0;1;31;47m▓[0;1;31;43m▄▄[0;33m█▄██▄▓▀▌   ▓[0;1;31;47m▀▓[0;1;31;43m▄ ▀▀▌[0;33m▌▄[0;1;31;43m▄█[0;33m█▀▌[0;36m▐▀██[0m
+[36m▄ [0;37m       [0;1;36m [0m        [1;30m [0m          [1;36m▐[0;1;30m [0;30;43m▓[0;33;40m░▒▒▓▓[0;1;31;43m░▐▄[0;33m█▄ ▀▓[0;1;31;43m█▓[0;1;31;47m▓[0;1;31;43m▄▄[0;33m█▄██▄▓▀▌   ▓[0;1;31;47m▀▓[0;1;31;43m▄ ▀▀▌[0;33m▌▄[0;1;31;43m▄█[0;33m█▀▌[0;36m▐▀██[0m
          [1;36m [0m        [1;36m [0m          [30m   [0;30;43m▓[0;33;40m░░▒▓[0;1;31;43m░░▓[0;1;31;47m▓[0;1;31;43m▄ [0;33m▄ ▀[0;1;31;43m▀▓▀█▓▄[0;33m▓▀█[0;1;31;43m▄[0;33m█▄  ▓[0;1;31;43m▀▀███▄[0;33m▄▀█[0;1;31;43m▀▓▌[0;33m▌ [0;36m▄ ▐██[0m
 [36m  [0m                           [1;30m [0;33m░  ░▀[0;30;43m░[0;33;40m▓[0;30;43m░[0;1;31;43m░░▓▄[0;33m█▄ ▀▀[0;1;31;43m░[0;33m▄▀[0;1;31;43m▀▓▌[0;33m▌ ▓[0;1;31;43m▓▄[0;33m▌▐██▐▓█[0;1;31;43m▀▀█[0;33m█ ▀▓█ [0;36m▐████▓[0m
                         [1;30m    [0;30;43m▓[0;33;40m░▒▒▓▓▄▄ ▀▀[0;1;31;43m░[0;33m▀[0;1;31;43m▀▀[0;1;31;47m▓[0;1;31;43m▄[0;33m▄sQ ▀ █[0;1;31;43m▀[0;33m█▄ [0;1;31;43m▐▓░▀▄■[0;33m▌▐▓█▓▀[0;1;31;43m▀[0;33m█ ░▀▌ [0;36m████▓[0m

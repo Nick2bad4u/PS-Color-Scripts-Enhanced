@@ -5,7 +5,7 @@
 # Source SHA-256: ec8e4b9dfbe01fdbcb108896fd207a8f000a59eda6f49344811da6534bda35a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5D-MILK.ANS by slayer dreams (maiden brazil!); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: milk board logo!
 # SAUCE Author: slayer dreams
 # SAUCE Group: maiden brazil!
@@ -32,7 +32,7 @@ Write-Host '
           [37m [0m                     [1;37m■[0m ▄▄[1m▐███▄▀[0;1;47m▓▓[0;1;40m██▄ [0m▀█[1m  [0m
                                  ▀█▄[1m▀▀▀█▄▀▀▀▀[0m▄▄▄[1;47m■[0m▌[1m [0m
                                    [1;47m·[0m██▄▄▄[1;47m▀ [0m██  ██
-                                    █[30;47m░[0;37;40m▓█[0;1;37;47m■[0m████████      [1mmilk board![0m
+                                    █[30;47m░[0;37;40m▓█[0;1;37;47m■[0m████████      [1m           [0m
                                      ██▄████████▌
                                       █████[30;47m░[0;37;40m▓███▌[0m
                                        [37;40m██▀▀▀▀   [0m'

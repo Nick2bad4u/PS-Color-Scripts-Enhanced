@@ -5,7 +5,7 @@
 # Source SHA-256: 2f8c51c1944e59232359d8e37d2b3067d94ef19d0f55ed4277f5d9dbf44d83a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-ice3.ans by Enzo + Spear (iCE Advertisements); released in ice-200208 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: iCE
 # SAUCE Author: Enzo & Spear
 # SAUCE Group: iCE Advertisements
@@ -47,4 +47,4 @@ Write-Host '
 [1;30m▄ ▀ [0m [31m▄▀▀[0m           [1;30m▐▌[0;31m▐█▀▀▓▄ ▀▀[0m            [1;30m▀▀▄▄[0;31m▀▀▄▌[0;37m [0;1;30m [0m         [1;30m▀▀[0m [1;30m▄[0;31m▀▄▀██[0;1;31;41m▄▀[0;31m▌[0m
 [1;30m  [0m                [1;30m▄▀[0;31m▄[0;1;37;41m [0;31m▄[0;1;37;41m [0;31m▀[0m                     [1;30m▀▄[0;31m ▀▄[0m             [1;30m▐▌[0;31m▐ ▄[0;1;37;41m [0;31m█▀[0m
                 [1;30m▀[0;31m▄▄▀▀▀ [0m    [34mIts that i[0;1;36mc[0;1;37me[0m [34mfunk[0m     [31m [0;37m [0;31m  [0m          [1;30m▄▀[0;31m▄▄[0;1;37;41m [0;31m▀[0m
-            [1;30m░░ [0m     [31m   [0;37m [0;34mspear and enzo, ice 2002[0m          [1;30m ▄ ▀[0;1;30;41m▀[0;31m▄▀▀[0m'
+            [1;30m░░ [0m     [31m   [0;37m [0;34m                        [0m          [1;30m ▄ ▀[0;1;30;41m▀[0;31m▄▀▀[0m'

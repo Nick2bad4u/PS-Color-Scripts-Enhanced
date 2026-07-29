@@ -5,7 +5,7 @@
 # Source SHA-256: 2dc79987f071972068e51464cb1201153827788c81e19569a2bea1fe187cc028
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%3O3.ANS by big y3llow man (3o3 productions); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: [3o3] productions
 # SAUCE Author: big y3llow man
 # SAUCE Group: 3o3 productions
@@ -17,7 +17,7 @@
 Write-Host '
                                   [30;46m▓▓[0;37;40m [0;30;46m  [0;1;33;46m░░ [0;36m██[0;1;33;46m   [0;36m██[0;30;46m▀▀▀▀▀▀▀▀▌[0;1;33;46m░░[0;36m██▀▀[0;33m [0;37m▄▄[0;1;31m▄▄[0;33m▄▄▄▄  [0;36m▀███[0m
 [37m  [0;1;37m(best[0m [1mviewed[0m [1min[0m [1msvga)[0m           [30;46m▓▓[0;37;40m [0;30;46m▌▄██▄[0;36;40m███[0;1;33;46m██▄▄▄█▓▓███[0;36m█[0;30;46m▌[0;36;40m███ [0;1;31;40m▄▄[0;1;31;47m▄▄▓█[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;43m▄[0;33m█▄ [0;36m▀█[0m
-[1;34m [0;1;30mansee by big yellow man[0m             [30;46m██▓▓█▌[0;36;40m████[0;1;33;46m█████    [0;1;35;46m [0;36m██▀ [0;30;47m█[0;1;31;40m▀[0;1;37;40m▄▄▄[0;33m▀█[0;1;31;43m▀[0;1;31;40m██▀▀[0;1;37;40m▄▄[0;30;47m█[0;33;40m█[0;30;47m█[0;36;40m█[0m
+[1;34m [0;1;30m                       [0m             [30;46m██▓▓█▌[0;36;40m████[0;1;33;46m█████    [0;1;35;46m [0;36m██▀ [0;30;47m█[0;1;31;40m▀[0;1;37;40m▄▄▄[0;33m▀█[0;1;31;43m▀[0;1;31;40m██▀▀[0;1;37;40m▄▄[0;30;47m█[0;33;40m█[0;30;47m█[0;36;40m█[0m
 [37;40m [0;1;30;40mof 303pRODUCTIONS@##!!.[0m              [30;46m███▀ [0;1;33;46m████▀████ [0;36m█[0;30;46m▄[0;36;40m█[0;1;33;46m░░[0;36m█ [0;33m▌▐▌[0;37m▐[0;1;37;47m█[0;1;37;40m▄[0;1;37;47m█[0m▄ [1;31;43m▐[0;30;47m█[0;1;37;47m▓█[0;1;37;40m▄[0m▌[1;31m▐[0;1;31;43m▌[0;33m▌[0;36m▐[0m
                             [30;47m▓▓▓▓▓[0m   [30;46m███ [0;1;35;46m [0;30;46m [0;1;33;46m█▓▓██▌████[0;36m█[0;30;46m▀▓▀ [0;1;33;46m [0;36m▌[0;33m ▄█[0;1;31;43m▄[0;1;31;40m▄[0m▀▀[1;31m▄▄[0;30;47m█[0;33;40m█[0;1;31;40m█▄▄[0m▀▀[1;31m▄[0;1;31;43m▓[0;33m█▄[0m
                             [30;47m▓▓▓▓▓[0m      [30;46m░░[0;36;40m███[0;30;46m▄▄▄[0;36;40m█[0;1;33;46m▀▀▀█▌     [0;36m▌ [0;1;31;43m▐[0;1;31;40m▀█[0;1;31;47m▓▓[0;1;31;40m██▌[0;33m▐[0;1;31;43m▐██[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m██▀[0;33m█[0m

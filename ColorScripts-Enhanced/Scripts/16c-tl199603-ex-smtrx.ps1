@@ -5,7 +5,7 @@
 # Source SHA-256: 14deac555b798dc27b288f60111eb0551ba12b3f69c552947009698867dfe45d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EX-SMTRX.ANS by Extreme (TeklordZ); released in tl199603 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Sherman Matrix
 # SAUCE Author: Extreme
 # SAUCE Group: TeklordZ
@@ -33,7 +33,7 @@ Write-Host '
 [1;32;42m░░[0m                     [1;32m█[0m [34m▄[0;1;30m▀▀▀▀█████████████████▀[0m▄▄▄▄▄██▀▄[1;30m█████████████▀█████▄[0;1;34m▐[0m [1;32;42m [0m
 [1;32;42m░░[0m  [1;30mHeres a little[0m     [1;32m█[0m [1;34;44m█▓▒░[0;34m▀[0;1;30m▄▀[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄████▄▄▄▄▄██[1;30m▐█████████▀▀▄▀[0m [1;30m█████▄[0;1;34m▀[0m
 [1;32;42m▒▒[0m  [1;30mmatrix for my[0m      [1;32m█[0m [1;34;44m█▓▒[0;34m▀[0;1;30m▐[0m [1;47m▄█[0m███████████████████████[1;47m [0m▌[1;30m██████▀▄▄▀▀[0m [1;30m▄▀[0m [1;30m▄█████[0m
-[1;32;42m▒▒[0m  [1;30mboard. Don''t rip[0m   [1;32;42m▓[0m [1;34;44m▓▓[0;34m▀[0;1;30m▐█[0m▐[1;47m█▌[0m███████████████████████[1;47m ▄[0;1;40m▌[0;1;30;40m██████▄[0m [1;30m▄▀▀[0m [1;30m▄████████[0m
+[1;32;42m▒▒[0m  [1;30m                [0m   [1;32;42m▓[0m [1;34;44m▓▓[0;34m▀[0;1;30m▐█[0m▐[1;47m█▌[0m███████████████████████[1;47m ▄[0;1;40m▌[0;1;30;40m██████▄[0m [1;30m▄▀▀[0m [1;30m▄████████[0m
 [1;32;42m▒▒[0m  [1;30mit ;)    [0m         [1;32m█▀[0m [1;34;44m▓[0;1;34;40m▀[0;1;30;40m▐█▌[0;1;37;47m███▄  [0m████████████████████[1;47m ▐█[0;1;40m▌[0;1;30;40m██▀████▄▄███████████[0m
 [1;32;42m▒▓[0m                    [1;32m▀▀[0m [1;34m▀[0;1;30m▐██[0;1;37m▐[0;1;37;47m██▀[0m█[1;47m▀[0m██████████████████████[1;47m▄██[0;1;40m▌[0;1;30;40m██▐████████████████[0m
 [1;32;42m▓▓[0m                [1;30mext[0m  [1;32m█[0m [1;30m▐███[0;1;37m▐[0;1;37;47m███▄▄[0m██████████████████████[1;47m [0m█[1;47m▀█[0;1;40m▌[0;1;30;40m█▌▐███████████████[0m

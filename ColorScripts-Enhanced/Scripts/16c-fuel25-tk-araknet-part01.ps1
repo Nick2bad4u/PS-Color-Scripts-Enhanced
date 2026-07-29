@@ -5,7 +5,7 @@
 # Source SHA-256: dafbb4d65cfe195dba01dbd3f64a0c99bc526d9aed7cafd0a8cca58f9b78aefb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-araknet.ans by the knight (FUEL); released in fuel25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ArakNet board
 # SAUCE Author: the knight
 # SAUCE Group: FUEL
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;31;41m░░░[0;1;37;41m        [0;31m█[0;1;37;41m    [0;1;31;41m░[0;1;37;41m     [0;1;31;41m░[0;1;37;41m          ░    [0m  [1;30m░[0m [1;41m ░ ▒░░ [0m [1;30m░[0m  [1;41m · ■ ·· ■ ▄[0m [1;41m ArakNeT Board [0m
+[1;31;41m░░░[0;1;37;41m        [0;31m█[0;1;37;41m    [0;1;31;41m░[0;1;37;41m     [0;1;31;41m░[0;1;37;41m          ░    [0m  [1;30m░[0m [1;41m ░ ▒░░ [0m [1;30m░[0m  [1;41m   ■    ■ ▄[0m [1;41m               [0m
 [31m▀▀▀▌[0m          [31m▐▀▀▀[0;37m   [0;31m▀▀▀[0;37m  [0;31m▀[0;37m [0;31m▐ [0m       [37m▄ ▌[0m     [31m▀▌[0;37m    ▐ ▄[0m        [31m▀▀▀▀▀▀▀▌[0;37m  [0;31m▌[0;37m [0;31m▀[0;37m [0;31m▀▀▀▀[0m
 [1;31;41m▓▓▓░░░░░░░░░░░[0;31m▓[0;1;31;41m▒▒▒[0;31m▓▓▓[0;1;31;41m░░▀[0;31m▓▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓▓▓▒░[0;37m [0;1;30m▄[0;1;37;47m▀[0m [1;47m▌[0m  [31m▒▓▓▓[0;1;31;41m░[0;31m▌▓▓▒░[0;37m [0;1;37;47m▐[0m [1;47m▀[0;1;30;40m▄[0;31m░▒▓▓▓▓[0;1;31;41m░░░░░░░[0;31m▌▓[0;1;31;41m▒[0;31m▓▓[0;1;31;41m▒[0;31m▓[0;1;31;41m▒▒▓▓[0m
 [31m▒▒▒▌▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▐▒▒░[0;37m  [0;1;37m▄▀▄[0;1;37;47m▀[0;1;30;40m▓[0m [31m░▒▒▒▒▒▌▒▒▒░[0;37m [0;1;30m▓[0;1;37;47m▀[0;1;37;40m▄▀▄[0m  [31m░▒▒▒▒▒▒▒▒▒▌▒▒▒▒▒▒▒▒▒▒[0m

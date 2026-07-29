@@ -5,7 +5,7 @@
 # Source SHA-256: b95bda79caeb115353aba7a509d0a2ab48159f954e0fab1dbd0a54d6e806ee09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-AMEND.ANS by Zfact0r + Prosthesis (glue\legion); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Amend
 # SAUCE Author: zfact0r\prst
 # SAUCE Group: glue\legion
@@ -38,4 +38,4 @@ Write-Host '
 [1;31m░[0m [1;31m▄[0;36m  ▄[0;1;36;46m██▄▓░[0;36m▀▀▀ ▄▄ ■[0;37m [0;36m▀[0m   [1;30m▄▄ [0m   [1;36;46m░[0;1;36;40m░░[0m [1;30m▄▄██▀▀[0m        [1;30m▄▓░[0m  [34m░░[0m    [34m  ▄[0;1;34;44m▄█▄█▀[0;1;34;40m▀▀[0;34m▀ ▄▄ ■ ▀[0;37m [0;1;30m▄[0m
 [1;31m▓▀[0;36m ▄[0;1;36;46m▄▀[0;1;36;40m▀[0;36m▀ [0;1;36;46m░[0;36m▓▓▀▀[0m   [1;30m▄▄▓▓[0;1;30;47m ▄[0m▀[1;30m▀[0m [1;30m▄▄▄[0m    [1;30m░▒▒▓▓██[0;1;30;47m▓▓░░    ▀[0m▄[1;30m▄░░[0m  [1;30m░░░[0;34m ▄░░▀▀  [0;30;44m░░[0;34;40m▀▀[0m   [1;30;40m▄▄██[0m
 [1;31m▌[0;36m ▐▀[0m     [36m░░[0;37m  [0;1;30m░░▓▓▀▀▄[0m▄[1;30;47m  ░░▓▓[0;1;30;40m▓▓░░[0m  [1;30m░▒▒▓▓▓███[0;1;30;47m▓▓░░▄[0;1;30;40m▀[0;1;30;47m▄ ░░▓[0;1;30;40m▓▓▒▒░[0;34m▐▀[0m   [1;30m░▓▄▄▄▄▓▓▀▀[0m
-zfact0r[1;30m([0;1;37mglue[0;1;30m)[0m      [1;32m   [0m░░░░░[1;30m░░░░[0m  [1;30m░░░░░░  ▄▄█▀▀ ░▓▓[0;1;30;47m▓▓[0;1;30;40m███▓▓░[0m   [1;30m░▓▓▓▀[0;1;37m [0mprst[1;30m([0;1;37mlegion[0;1;30m)[0m'
+       [1;30m [0;1;37m    [0;1;30m [0m      [1;32m   [0m░░░░░[1;30m░░░░[0m  [1;30m░░░░░░  ▄▄█▀▀ ░▓▓[0;1;30;47m▓▓[0;1;30;40m███▓▓░[0m   [1;30m░▓▓▓▀[0;1;37m [0m    [1;30m [0;1;37m      [0;1;30m [0m'

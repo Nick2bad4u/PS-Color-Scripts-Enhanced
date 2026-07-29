@@ -5,7 +5,7 @@
 # Source SHA-256: 03a48cd6fb3150cc5a4da34ecdfcc6ad4d4c00e40ee84ccd927b5a1e2c6dc716
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-DL.ANS by dark star; released in sac1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Darklands
 # SAUCE Author: Dark Star
 # SAUCE Group: SAC
@@ -45,7 +45,7 @@ Write-Host '
 [1;30m▀ ▒█▓▓▓▒▓█[0m [1;30m▀[0;31m▒[0;1;30m▀[0;31m▀▄▄[0;1;30m▓▒▓██▒ ▀▀▀▓▀▀[0m [31m       [0;1;30m ▀▀▀▀▀[0;31m        [0;1;30m ▀▀▀▀[0;31m▀[0;1;30m ▓▒▓▒▓░▀█ ▀▀▀▀ ▒[0;31m▄▄█[0;1;30m░░ [0m
 [1;30m█▀▄▀█▓▒▓▒▀▄▒▒▓▓▓▄▀▒▓▌[0;31m▀[0;1;30m▄ [0;31m   [0;1;30m  ·[0;31mD[0;1;30m·[0mA[1;30m·[0;1;31mR[0;1;30m·[0mK[1;30m·[0;31mL[0;1;30m·[0mA[1;30m·[0;1;31mN[0;1;30m·[0mD[1;30m·[0;31mS[0;1;30m· [0;31m   [0;1;30m▄▒▒▓▒▓▄▀▓▒▓▌░ ▄▒▒▒▒▓▄[0;31m█[0;1;30m▓[0;31m▄[0;1;30m▓▓▓ [0m
 [1;30m▓▓▒ [0;31m▄▄▀█[0;1;30m▄ ▓▒▓█▒▓█ ▄▄▄▄▄[0;31m▀       [0;37m [0;31m                    [0;1;30m▓▓▒▒▓▓▓[0m [1;30m▄▄▄▄▄[0m [1;30m▒▓▒█▒▓[0;31m▄[0;37m [0;1;30m▄▄[0;31m▄[0;1;30m▄▄[0m
-[1;30m▀▀ ▒▒█▒▓[0;31m▄▌▌[0;1;30m▀▒▀▀▄▒▓░░[0;31m▄[0;1;30m▓[0;31m▀[0;1;30m▓[0;31m   [0;1;30m«[0;31m SY[0;1;31mSO[0mP[1;31m : [0;31mDEATHWAL[0;1;31mKE[0mR[31m [0;1;30m»[0;1;31m [0;31m  [0;1;30m▀▀▀▀▀[0;31m ▀▓[0;1;30m▓[0;31m▀▄[0;1;30m█▓[0m [1;30m▀▀▀▀▀[0m [1;30m▓█▓▓[0;31m▄[0;1;30m█ [0m
+[1;30m▀▀ ▒▒█▒▓[0;31m▄▌▌[0;1;30m▀▒▀▀▄▒▓░░[0;31m▄[0;1;30m▓[0;31m▀[0;1;30m▓[0;31m   [0;1;30m [0;31m   [0;1;31m  [0m [1;31m   [0;31m        [0;1;31m  [0m [31m [0;1;30m [0;1;31m [0;31m  [0;1;30m▀▀▀▀▀[0;31m ▀▓[0;1;30m▓[0;31m▀▄[0;1;30m█▓[0m [1;30m▀▀▀▀▀[0m [1;30m▓█▓▓[0;31m▄[0;1;30m█ [0m
 [1;30m▓█▄▀▓▒▒▓░▀▒▓▒▓▒▓▄▄▀▒▓█▒▀[0;31m                                   [0;1;30m▀█[0;31m▀[0;1;30m▓▓█▀▄█▓▒▒▒▄▀██▓▓█ [0m
 [1;30m▓▒▒▒▐▒▒▒▓[0;33m [0;1;30m▓[0;31m▒█▄▀[0;1;30m▓█[0m [1;30m [0m        [1;30m«[0m [31m4 NO[0;1;31mDE[0mS[31m [0;37m([0;31mH[0;1;31mS[0;31m [0;37m&[0;31m IS[0;1;31mD[0mN) [1;30m»[0m          [1;30m▄▄▄▄▄[0m [1;30m▒▓▒[0;31m▀[0;1;30m▀▄▄[0m [1;30m▄▄▄▄▄[0m
 [1;30m▀▀▒▓ ▄[0;31m▄[0;1;30m▐▄▒ ▀▀▀▀[0;31m▀[0;1;30m [0;31m [0m                                         [1;30m▒▒▓█▓▓▒[0m [1;30m▀▄░▓▓▒ █▓█▓▒[0m

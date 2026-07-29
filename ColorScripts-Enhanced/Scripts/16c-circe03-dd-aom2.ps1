@@ -5,7 +5,7 @@
 # Source SHA-256: e1f2f3a88a3e2318ec10f4cc046a9668fce15ab4cdba2670f2f6c01dd02fdb86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-AOM2.ANS by Diamond Darrell (Circe Argentina); released in circe03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: "Absense of Morality"
 # SAUCE Author: Diamond Darrell
 # SAUCE Group: Circe Argentina
@@ -36,5 +36,5 @@ Write-Host '
 [1;32;40m▓▓▓▓▓▓▓▓▓▄▄[0;36m [0;32m▀▀▀▀▀█[0;30;42m░[0;32;40m▓▓▀▀██[0;30;42m░░░[0;32;40m▌[0;36;40m [0;32;46m▓▓▓▓▓[0;32;40m▌ [0;1;32;40m▓▓▓▓[0;32m ▐[0;32;46m▓▓▓▓[0;32;40m█ █████ [0;1;32;40m░░[0;32m █████ ░░ ██[0;30;42m   [0;32;40m [0;1;32;40m▀▓▓▓▓▓▓[0m
 [1;32;40m█████▓▓▓▓▓▓▓▓▓▓▓▄▄▄▄▄[0;36m [0;32m▐█████▀[0;36m [0;32m▐[0;32;46m█████[0;32;40m  [0;1;32;40m▀▀▀[0;32m [0;30;42m░░░░[0;32;40m█ ▐████▌ [0;1;32;40m░░[0;32m ██▓[0;30;42m░[0;32;40m▀▀░  [0;30;42m░░░[0;32;40m██▀ [0;1;32;40m██▓▓▓▓[0m
 [1;32;40m████████████████████▌[0;36m [0;32m▀▀[0;36m [0;1;32m▄▄▄▄▄[0;32m ▀▀[0;30;42m░[0;32;40m▓[0;30;42m░░[0;32;40m█▄▄▄[0;30;42m░░░[0;32;40m█▀▀ [0;1;32;40m▄▄[0;32m ▀▀▀▀ [0;1;32m▄[0;32m ▓▓▓▓▓ [0;1;32m▄[0;32m ▀▀ [0;1;32m▄▄▄▄▄██████[0m
-[1;32m█████[0;1;33m██▓[0;1;37m [0;1;33ma[0;1;37mbsence [0;1;33mo[0;1;37mf [0;1;33mm[0;1;37morality[0m [1;32m███▄▄▄▄▄▄▄▄[0;32m ▀▀ [0;1;32m▄▄█████████▓▓[0;32m ░[0;30;42m▓[0;32;40m░░░ [0;1;37;42mDd!/CRC[0;1;32;42m▐[0;1;32;40m██[0;1;33;40m▓▓████[0m
+[1;32m█████[0;1;33m██▓[0;1;37m [0;1;33m [0;1;37m       [0;1;33m [0;1;37m  [0;1;33m [0;1;37m       [0m [1;32m███▄▄▄▄▄▄▄▄[0;32m ▀▀ [0;1;32m▄▄█████████▓▓[0;32m ░[0;30;42m▓[0;32;40m░░░ [0;1;37;42m       [0;1;32;42m▐[0;1;32;40m██[0;1;33;40m▓▓████[0m
                                       [1;32m                  [0m                [1;33m░░░[0m'

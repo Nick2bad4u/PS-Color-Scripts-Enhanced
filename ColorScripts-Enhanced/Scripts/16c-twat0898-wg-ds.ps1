@@ -5,7 +5,7 @@
 # Source SHA-256: b6885899bdc20203d480c42aa7020a78331597726aa83aacca7eac92da46b642
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WG!DS.ANS by Wargod (twat0898); released in twat0898 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -22,7 +22,7 @@ Write-Host '
 [1;30m [0;36m░░ ░ ░░ ░░░░ ░ [0;1;30mw4[0;1;37;47m░[0;1;37;40m██████████████   [0;36m░░░  ░ ░░░ ░░░   ░░   ░ ░  ░░ ░ ░ ░░░ ░ ░░░[0m
 [1;30m--──-─-─-─-──-─- [0;1;32m▄ [0m▀[1m▀████▀████▀▀ [0;32m▄ [0;1;30m─-─-─-─-─-─-─-─-──-─-──-───-──-─-──--─-─-─-─-[0m
                  [1;32m▀[0;1;32;42m▌[0;32m█▄▄▄▄▄▄▄▄▄▄▄██▀[0m
-                  [1;32m▀[0;1;32;42m▌[0;32m██████  ▀███▀[0m      [36ms[0;1;36mCA[0;1;30mN [0;36mf[0;1;36mE[0;1;30mR [0;36mn[0;1;36mE[0;1;30mW [0;36mf[0;1;36mILE[0;1;30mS [0;1;35m/ [0;36mm[0;1;36mESSAGE[0;1;30mS [0;35m?!?[0m
+                  [1;32m▀[0;1;32;42m▌[0;32m██████  ▀███▀[0m      [36m [0;1;36m  [0;1;30m  [0;36m [0;1;36m [0;1;30m  [0;36m [0;1;36m [0;1;30m  [0;36m [0;1;36m   [0;1;30m  [0;1;35m  [0;36m [0;1;36m      [0;1;30m  [0;35m   [0m
                    [1;32m▀[0;32m███████████▀[0m
                       [32m▀▀▀▀▀▀▀[0m                      [36myES  nO[0m
 

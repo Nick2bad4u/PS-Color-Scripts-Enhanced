@@ -5,7 +5,7 @@
 # Source SHA-256: 62e69e094dcd91f733e63de851870346398eea4d87bd6554005baa0c76603fa9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_NAPSM.ANS by Jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: naps state mainmenu
 # SAUCE Author: Jerusalem
 # SAUCE Group: boil
@@ -26,7 +26,7 @@ Write-Host '
              [34m░░[0m      [1;30m▀▀▀▀▀▀[0m  [1;30m■[0m  [1;30m▀[0;1;30;45m▓[0;1;30;40m█▄[0m        [1;30m░[0m [1;30m▄[0m    [1;30m▄[0;1;30;47m▄[0;1;30;40m▓▓▀▀[0m     [1;30m░░░[0m [34m■[0m   [1;30m▓▌[0m
 [34m░░[0;37m [0;34mnAPS sTATE cOMMaNDS[0;37m [0;34m░░[0m   [31m░[0;37m [0;1;30m░[0m [1m■[0m [1;30m▀[0;1;30;47m▀[0;1;30;40m▌[0m    [1;30m░░░[0m  [1;30m▌[0m  [1;30m▄[0;1;30;47m▄[0;1;30;40m█▓▀[0m            [34m▄[0;31;44m░[0;37;40m  [0;1;30;40m▄[0m
                            [35;43m░[0;33;40m░[0;37;40m  [0;1;30;40m░[0m    [1;30m█[0m   [1;30m░░▒[0m  [1;30;47m▓[0;1;30;40m▄▄[0;1;30;47m [0;1;30;40m██▀[0m [1m▄▄[0m         [34m▄█░[0m
-[37mj[0;1;30m join conf / [0mf[1;30m list dir[0m [33m░░░[0m    [1;30m░[0;34m░▄[0;37m [0;1;30m▐▌[0m  [1;30m░▒▒[0m [1;30m▐[0;1;30;47m▓▓[0;1;30;40m▓▓▀[0m  [1m██▀[0m       [34m▄░░[0m   [1;30m░░[0m   [1;30m░░[0m
+[37m [0;1;30m             [0m [1;30m         [0m [33m░░░[0m    [1;30m░[0;34m░▄[0;37m [0;1;30m▐▌[0m  [1;30m░▒▒[0m [1;30m▐[0;1;30;47m▓▓[0;1;30;40m▓▓▀[0m  [1m██▀[0m       [34m▄░░[0m   [1;30m░░[0m   [1;30m░░[0m
 u[1;30m upload / [0md[1;30m download[0m       [33m░▄[0m   [1;30m▀░▄▄▌[0m    [1;30m▓▓[0m [1;30m▀▀▀[0m           [34m░[0m      [1;30m░░[0m   [1;30m░░░░░[0m
 edit[1;30m ulby-string[0m    [1;30m [0m   [33m░[0;37m  [0;33m░▒▌[0;37m [0;33m▄[0;37m [0;33m░[0;37m  [0;1;30m▀▀░[0m      [1;30m░▓▄▒░░░░▄[0m       [1;30m░░░▓░[0m   [1;30m░░░░░░░[0m
 n s a[1;30m newfiles[0m             [33m▒▒[0;1;33;43m▄▄[0;31;43m▓[0;33;40m░░[0;37;40m ▐[0;1;30;40m▒▒▒░[0m    [1;30m░▒[0m  [1;30m▀▄[0m [1;30m▀▀███▓▒▓░░[0m           [1;30m░░░░░[0m

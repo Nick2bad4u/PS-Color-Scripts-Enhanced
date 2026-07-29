@@ -5,7 +5,7 @@
 # Source SHA-256: 1f6b0229ca3458f10bb79f72ca077b0f45aaea7366701fda85d5e790ac87d935
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-TERB1.ANS by Misfit (Apathy Studios); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Terbium
 # SAUCE Author: Misfit
 # SAUCE Group: Apathy Studios
@@ -19,7 +19,7 @@ Write-Host '
      [37;40mnewsletter[0m     [31;40m░▒[0;37;40m [0;33;40m▄█[0;37;43m░░[0;33;40m▌[0;37;40m   [0;33;40m▄▀▀[0;37;40m   [0;33;40m▀▀▀█▄[0;37;40m [0;33;40m■[0;37;40m  [0;33;40m▀[0;37;40m  [0;33;40m▄█▀[0;37;40m   [0;33;40m▒░[0;37;40m    [0;33;40m▄▄▄▄▄▄[0;37;40m [0;33;40m▄▄[0;37;40m  [0;33;40m▄▄▄▄[0;37;40m   [0;33;40m░[0m
      [1;37;40m [0marticles      [31m▐▓[0;37m [0;33m▀▄█▀[0;37m [0;33m▄█▀[0;37m [0;33m░░░[0;37m [0;33m▀▀▄[0;37m  [0;33m▀[0;37;43m░[0;33;40m▄▀[0;37;40m   [0;33;40m▄▀[0;37;40m [0;33;40m▒░[0;37;40m  [0;33;40m▄▄[0;37;40m [0;33;40m▀▀▀[0;37;40m  [0;33;40m▄[0;37;40m [0;33;40m▄▄[0;37;40m [0;33;40m▄[0;37;40m [0;33;40m▀▄░▓▄▄▀[0;37;40m   [0m
      [37;40minterviews[0m     [31;40m▐█[0;37;40m [0;33;40m█▀[0;37;40m [0;33;40m▄█▀[0;37;40m  [0;33;40m░░░░░░[0;37;40m  [0;33;40m▀■[0;37;40m [0;33;40m▀█▌░[0;37;40m [0;33;40m▐[0;37;40m [0;33;40m░[0;37;40m [0;33;40m▄[0;37;40m [0;33;40m▀ [0;37;40m      [0;33;40m ░▓[0;37;40m [0;33;40m▄▄░▓[0;37;40m [0;33;40m▓▀[0;37;40m [0;33;40m▓▄▄▓[0;37;40m   [0m
-[37;40m  [0;30;47m░ pack reviews ░[0;37;40m  [0;31;40m▐▓[0;37;40m [0;33;40m▒[0;37;40m [0;33;40m██[0;37;40m  [0;1;31;40m█▄▄▄[0m     [33m░░[0;37m    [0;33m▀▌[0;37m   [0;33m■▀[0;37m  [0;33m▄[0;37m [0;33m▀▀▀▀██▄▄▄[0;37m      [0;33m░▀▄[0;37m       [0m
+[37;40m  [0;30;47m░              ░[0;37;40m  [0;31;40m▐▓[0;37;40m [0;33;40m▒[0;37;40m [0;33;40m██[0;37;40m  [0;1;31;40m█▄▄▄[0m     [33m░░[0;37m    [0;33m▀▌[0;37m   [0;33m■▀[0;37m  [0;33m▄[0;37m [0;33m▀▀▀▀██▄▄▄[0;37m      [0;33m░▀▄[0;37m       [0m
      [1;37m [0mansi art      [31m▐▓[0;37m [0;33m░▐█[0;37m [0;1;31m▄██▀██████▄▄▄[0m [1;31m▄▄[0m   [1;31m▄[0m [1;31m▀▄▄[0;1;31;47m▓[0m▄▄░      [33m▀█[0;37;43m░░[0;33;40m█▄▄[0;37;40m            [0m
       [37;40mget lost[0m      [31;40m▓▌[0;37;40m [0;33;40m▀▀[0;1;31;40m▄█[0;1;31;47m▓[0;1;31;40m███[0m [1;31m█████████[0;1;31;47m█[0;1;31;40m██▄███████[0;1;31;47m▓▒░[0m░ [33m░[0;37m [0;33m░▒[0;37m  [0;33m██[0;37;43m░░░[0;33;40m█▄[0;37;40m   [0;33;40m░░[0;37;40m     [0m
 [31;40m [0m    [1;37;40m         [0m   [31m▄▄██ [0;1;31m▄█████[0;1;31;47m▓▓[0;1;31;40m█▌▐███████[0;1;31;47m▓▓[0;1;31;40m███████████[0;1;31;47m▓▒░[0m░ [33m░▒[0;37m    [0;33m██[0;37;43m░▒░[0;33;40m██[0;37;40m   [0;33;40m░░[0;37;40m    [0m

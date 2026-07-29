@@ -5,7 +5,7 @@
 # Source SHA-256: dfc3155b7b92727ed40107b140d3b30de9f4904083f85724fb3eff6658ed436f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-CFG.ANS by shot; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ Write-Host '
 [35m█▓▒  [0;1;37m·[0m                                  [1;30m·[0m        [1;37m·[0m      [1;31m▄███[0m          [35m░▒▓▒▓█▒░[0m
 [35m▓▒░ [0;37m·[0m      [1;30m·[0m     ·              ·                   [1;31m▄▄████▀    [0;1;37m·[0m       [35m░▒░▒▓░[0m
 [35m▒░[0m             [37m·[0m        [1;37m·[0m             [35m▄▄▄▄▄[0;35;45m   [0;1;31;45m░▒▓▓[0;1;31;40m██████▀[0m     [1;30;40m·[0m      ·  [35m░ ░▒[0m
-[35m░ [0;1;30m· [0;1;31m░▒▓█ [0;1;35mcoded by SINUS [0;1;31m█▓▒░ [0;35m■▄▄▄▄▄████████[0;35;45m [0;1;31;45m░▒▓[0;1;31;40m███████▀   [0;35m/┤nsi by ShoT    ░[0m'
+[35m░ [0;1;30m  [0;1;31m░▒▓█ [0;1;35m               [0;1;31m█▓▒░ [0;35m■▄▄▄▄▄████████[0;35;45m [0;1;31;45m░▒▓[0;1;31;40m███████▀   [0;35m ┤               ░[0m'

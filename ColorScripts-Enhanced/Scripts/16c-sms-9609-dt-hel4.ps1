@@ -5,7 +5,7 @@
 # Source SHA-256: d9cf41befbfc4b083e51369beeb1a2680569b502ed5e6b7b6c3e71435b62a40a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-HEL4.ANS by Defiant (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Helltech
 # SAUCE Author: Defiant
 # SAUCE Group: Samsara
@@ -32,7 +32,7 @@ Write-Host '
                     [33;40m▄█[0;1;31;43m░[0;33m█▄█[0;1;31;43m░▓▓▒[0;33m▌▐▓▀▀▌  [0;31m▄[0;1;31;41m░[0m [1;31;41m░█▓░[0;36m░[0;1;36;46m▓  [0m [1;36;46m  lc[0;1;37;46m░[0m [36m▓[0;1;37;46m▒▒[0;36m█[0;1;36;46m▓[0;36m██[0;1;37;46m░[0;36m████[0;1;37;46m░[0;36m█[0;1;36;46m▓[0;30;46m▓[0;32;40m░    ▄█[0m
 [32;40m▄ [0;1;30;40m░[0m           [32m░    [0;33m▐[0;1;31;43m░[0;33m▀ ▀█[0;1;31;43m░▀▓█[0;33m▓█[0m      [31m▀[0;1;31;41m░▒░[0;31m▐[0;1;31;41m▓[0;31m▀▀ [0;1;36;46m▓[0;36m█[0;30;46m░[0;36;40m▌███[0;1;36;46mh[0;1;37;46m▓[0;36m▄█[0;1;37;46m▓[0;1;36;46m░[0;36m█[0;1;36;46m▓[0;36m█▌██▌████[0;1;36;46m▓[0m [32m▓  ▄[0;1;32;42m░▒[0;32m▌[0m
 [32m ▄[0m     [31m▄ [0;32m▄▀▀▄▄▒[0m            [33m▀▀▀░[0m     [31m░ ▐[0;1;31;41m▒▓[0;1;31;40m▄ [0;1;33;40m▄█ [0;1;36;46m▓[0;36m█[0;30;46m░[0;36;40m▌█░   ▀▀[0;1;37;40m▀[0;1;36;40m▀[0;36m▀  ▀   ░███[0;1;36;46m▒[0m [32m█[0;1;32;42m░▒▓░[0;32m▀░[0m
-[32m  ▀[0;1;32;42m▒[0;32m▄ [0;31m■▀▄[0m     [32m▀ ▄[0m                    [31m▀[0;1;31;41m░▓░[0;32m░[0;1;33m▐█▓ [0;1;36;46m▒[0;36m█[0;30;46m░[0;36;40m▌█ [0;36;44m [0;1;34;44mlogon to bbs [0m [36m█[0;1;36;46m░[0;36m█[0;1;36;46m░[0m [32m▓█▀▀[0m
+[32m  ▀[0;1;32;42m▒[0;32m▄ [0;31m■▀▄[0m     [32m▀ ▄[0m                    [31m▀[0;1;31;41m░▓░[0;32m░[0;1;33m▐█▓ [0;1;36;46m▒[0;36m█[0;30;46m░[0;36;40m▌█ [0;36;44m [0;1;34;44m             [0m [36m█[0;1;36;46m░[0;36m█[0;1;36;46m░[0m [32m▓█▀▀[0m
 [32m   ▐[0;1;32;42m▓[0;1;32;40m▌[0;31m░[0;1;33m▀ [0;31m█▀[0m              [33m▄▄ ▄▄ ▄▄▌▄▄░░▄[0;31m▀   [0;1;33m▀░ [0;1;36;46m░[0;36m█[0;30;46m░[0;36;40m▌█[0m     [34;40mapply[0m      [36;40m█[0;1;36;46m░[0;36m▀█ [0;32m▓[0m
 [32m░  [0;1;32;42m▒[0;32m▀  [0;31m▀[0;32m▄[0m         [33m▄▄ ▄█[0;1;31;43m░▒▒░[0;33m▌█[0;1;31;43m░[0;33m█[0;1;31;43m░░░[0;33m█[0;1;31;43m░[0;33m▓▓█▌[0;31m▀ [0;1;31;41m░▓[0m [30;46m▓[0;36;40m█████░  [0;34;40mcheck axs   [0;36;40m░████[0m     [1;30;40m░[0m
 [32m▒ █[0;1;32;42m░[0;32m▀▀▄▓▌[0m       [33m░███▌▄██▓[0;1;31;43m░[0;33m▀▀▀▀▀░▀ ▀██▀▀   [0;31m▀[0;1;31;41m░[0;31m▌ [0;36m█[0;1;37;46m░[0;36m█▌█▓░   [0;34mlogoff [0;36m░  ▓██ █ [0;1;30mdefiant[0;32m░[0m

@@ -5,14 +5,14 @@
 # Source SHA-256: 48056eed0c1462c10b9165af0f44f6e958bc64321cbd411876e3e13592a42ca0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OUT-KMS.ANS by Sandy Chidester (out-0597); released in out-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
                ▄█[1;31;47m▄[0;1;31m▀[0m          [1;33m▄▄█[0;31m▄▄▄▄[0;1;33m█▄  [0;31m███▄▄▄▀▀▄██▄▄   [0;1;31m█▀[0;31m▀▀[0;1;31m▀▀▀[0;31m▀[0;1;33m▀[0;1;31m▀[0;31m▀[0;1;33m▀▀[0;33m▀▀[0;31m▀▀▀▀▀▀▀▀█[0m
            [1;30m▄[0;33m▀▄[0;33;47m▄[0;1;31;47m▄[0;1;31m▀[0m         [1;33m▄████▄[0;31;41m██[0;1;33m▄▀[0;31m█[0;1;33;41m▄▄▀██▀▄▄  ▀[0;1;33m██[0;31m██▀[0;1;33;41m▀[0m  [1;33;41m [0m  [31m·■█[0;30;41mKNIGHTMARES![0;31m█■·  [0;1;33m█[0m
-         [1;30m▀▄  ▄[0;33m▀▄[0m         [1;33m███▀[0;31m██[0;1;31;41m▀[0;1;33m▀█[0;31m██[0;1;33;41m▀█████[0;33;41m█[0;1;33;41m███▀▄▄█ ▀▄ [0m  [1;33m█ [0mThe most widely-read [33m█[0m
+         [1;30m▀▄  ▄[0;33m▀▄[0m         [1;33m███▀[0;31m██[0;1;31;41m▀[0;1;33m▀█[0;31m██[0;1;33;41m▀█████[0;33;41m█[0;1;33;41m███▀▄▄█ ▀▄ [0m  [1;33m█ [0m                     [33m█[0m
 [33m   [0;1;33;41m▄▀[0m   [33m▄█    [0;1;30m▄[0m        [1;33m▄█[0;31m█[0;30;41m▀[0;31;41m██[0;1;30m▄[0;31m▀[0;1;30m▀▀▀▀▀▀█[0;1;33;43m█[0;1;33;41m█▀▀[0;1;33;43m██████████[0;1;33;41m  [0;1;33;43m█[0m [33m█  [0mepub of it''s kind!  [1;31m█[0m
 [1;31m  [0;1;33;41m▀█▀[0m     [1;30m█    ▀▄▄    [0;1;33m██[0;31m██[0;1;30;41m▄[0;1;30;43m▄[0;1;30m▀[0m         [1;30m█[0;31m█[0;1;33;41m ▄[0;1;33;47m█[0;1;33;41m▄ ▀[0;1;33;47m█████[0;31m██▄▀ [0;1;31m█   [0mHorror, mystery,   [31m█[0m
 [1;33;41m ▀██▀▄▀[0m    [1;30m▀▄[0m     [1;30m▀▀  [0;31m█[0;30;41m▀[0;1;31;41m▄[0;1;30;43m▄[0;1;30m▀[0m          [31m▀[0;1;33m██[0;1;33;41m█▀▄  ▀▀▀[0m [31m▀▀██▄▄ █  [0mmonsters and more!  [1;31m█[0m

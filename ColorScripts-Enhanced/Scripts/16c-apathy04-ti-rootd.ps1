@@ -5,7 +5,7 @@
 # Source SHA-256: 4c6ec028680c3c948dcba58eedf5759bad13e1ef811496967f9f9453e523ab3c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-ROOTD.ANS by Trip (READ THE INI FILE); released in apathy04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Root Down interface
 # SAUCE Author: Trip
 # SAUCE Group: READ THE INI FILE
@@ -36,7 +36,7 @@ Write-Host '
  interviews    [31m [0;1;30m▀▓ [0m▄▄  [33m      [0;37m ▐[0;1;33;47m░[0m  [33m▀▀▄[0;1;30;43m▒[0;33m▄▀[0;1;30;43m░[0;33m▄█[0;1;30;43m░[0;33m██[0;1;33;43m░▒░[0;33m▀[0;1;33;43m░░[0;33m███[0;1;33;43m░[0;33m██▄███▄▀[0;1;30;43m▒▓▓▒▒▓▒▒░░[0;33m██[0;1;33;43m░[0;33m█[0;1;33;43m░░[0m
  top ten ansis  [1;30m█▌ [0m▀▀█▄       [1;33;47m░[0m▌[33m [0;1;30m░[0;33m▐[0;1;30;43m▒▒▓▒[0;33m▌[0;1;30;43m▒▒░░[0;33m██[0;1;33;43m░ ░[0;33m▄▌█▀█████[0;1;33;43m░░[0;33m███▌[0;1;30;43m░▓▓▓▓▓▓▒▒░░[0;33m████[0;1;33;43m░[0m
  rankings       [1;30m▐█ [0;31m██▄▄[0;37m▀▀▄▄ ▄█▀ [0;1;30m░[0;33m░ ▀[0;1;30;43m▒▒▒[0;33m▌▐[0;1;30;43m▒░[0;33m█[0;1;33;43m ░░░░░[0;33m█████[0;1;33;43m░░░░[0;33m██▀▀▀▄█[0;1;30;43m▒▒▒▓▒▒▒▒░░░░[0;33m█[0;1;33;43m░[0m
- art we liked   [1;30m░█ [0;31m██████▄[0;37m▀██▀[0;33m [0;1;30m░[0;33m░[0;1;30m░[0;33m░▒░ ▀█ [0;1;30;43m▒░[0;33m███[0;1;33;43m░░▒░░[0;33m██[0;1;33;43m░░░░[0;33m█▀  ▄▄█████[0;1;33;43m░[0;33m███[0;1;30;43m░▒▒░░░░░[0m
+                [1;30m░█ [0;31m██████▄[0;37m▀██▀[0;33m [0;1;30m░[0;33m░[0;1;30m░[0;33m░▒░ ▀█ [0;1;30;43m▒░[0;33m███[0;1;33;43m░░▒░░[0;33m██[0;1;33;43m░░░░[0;33m█▀  ▄▄█████[0;1;33;43m░[0;33m███[0;1;30;43m░▒▒░░░░░[0m
  closing notes  [1;30m▐▓ [0;31m███████▌[0;37m▐▌[0;33m  ░[0;1;30m░[0;33m▒░░▒▓▒▐ [0;1;30;43m▒░░[0;33m███[0;1;33;43m░░▒[0;33m █[0;1;33;43m░░░[0;33m█▀ [0;1;30m▄[0;1;30;43m▓▒░░[0;33m█[0;1;33;43m░░▒░░░░[0;33m████[0;1;30;43m░░░[0;33m██[0m
 [37m buh-bye[0m        [1;30m▐▄ [0;31m█[0;30;41m      [0;31;40m█[0;37;40m █[0;33;40m  ░[0;1;30;40m▒[0;33m░▒░▒▒▓█▌▐[0;1;30;43m▒░░[0;33m██[0;1;33;43m░░[0;33m▄[0;1;33;43m░░░[0;33m█▀ [0;1;30m▄[0;1;30;43m▓▒░[0;33m█[0;1;30;43m░[0;33m█[0;1;33;43m░░░░▒▒▒▒░░░[0;33m████[0;1;30;43m░░[0m
               [1;30m [0m [1;30;47m▓[0;1;30;40m▌[0;31m▐████████▌[0;37m▐▌[0;33m ░░[0;1;30m▓[0;33m▒▒▒▓█▓█▄▀▀██[0;1;33;43m░▒░░░[0;33m█▀▀[0;1;30m▄[0;1;30;43m▓▓▒░[0;33m██[0;1;33;43m░░░░░▒▒▒▓▒▒▒░░░[0;33m████[0m'

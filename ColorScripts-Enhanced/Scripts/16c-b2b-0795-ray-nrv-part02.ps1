@@ -5,7 +5,7 @@
 # Source SHA-256: 4c65e74ecea51be5a4c7fcc838c20a06bc7e2f94f2fe67f59761c0452e74cef8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RAY^NRV!.ANS by rAYTRAYZa (bACKT tO tHE bASiX); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: NiRVANA^THE^EViL^ONE
 # SAUCE Author: rAYTRAYZa
 # SAUCE Group: bACKT tO tHE bASiX
@@ -50,16 +50,16 @@ Write-Host '
 [1;30m▀[0m                                                                              [1;30m▀[0m
 [1;30m■■ [0m         [1;30m ■■ [0m                  [1;30m ■■ [0m             [1;30m ■■ [0m                      [1;30m ■■[0m
     [1;30m [0m
-                      [1;30m▄▄ ▄■▄■[[0;36maS a WoRLDHeaDQuaRTeR[0;1;30m]■▄■▄▄▄ ▄[0m
+                      [1;30m▄▄ ▄■▄■ [0;36m                     [0;1;30m ■▄■▄▄▄ ▄[0m
                     [1;30m▀[0m                                        [1;30m▀[0m
                 [1;30m     [0m      [1;30m■ [0m            [1;30m ■ [0m       [1;30m ■[0m
 
-                    [1;30m▄▄ ▄■▄■[[0;36maS a GERMAN HEADDQuaRTeR[0;1;30m]■▄■▄▄▄ ▄[0m
+                    [1;30m▄▄ ▄■▄■ [0;36m                        [0;1;30m ■▄■▄▄▄ ▄[0m
              [36m [0m     [1;30m▀[0m              [36m  [0m                          [1;30m▀[0m
 
      [1;30m [0m                [1;30m■ [0m        [1;30m ■■ [0m           [1;30m ■■ [0m       [1;30m ■[0m
 
-                      [1;30m▄▄ ▄■▄■[[0;36maS a DiSTRiBuTioNSiTe[0;1;30m]■▄■▄▄▄ ▄[0m
+                      [1;30m▄▄ ▄■▄■ [0;36m                     [0;1;30m ■▄■▄▄▄ ▄[0m
                     [1;30m▀[0m                                        [1;30m▀[0m
 [1;30m ■ [0m                                       [1;30m ■ [0m                   [1;30m ■ [0m          [1;30m ■[0m
             [1;30m■ [0m              [1;30m ■ [0m             [1;30m ■ [0m                 [1;30m ■[0m

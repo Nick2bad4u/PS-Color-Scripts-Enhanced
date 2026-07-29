@@ -5,7 +5,7 @@
 # Source SHA-256: 36a8c86cbf10d1780715bb0c62170bbcde0978e9c21d43e61b99c8efbcfca5e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-LOT.ANS by Hard Target (uni-0194); released in uni-0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 28-61
 # Columns: 1-80
 
@@ -30,7 +30,7 @@ Write-Host '
        [1;30;40m█[0;1;30;47m▓▓▓▒▓▒▒[0m  [1;30;40m█[0;1;30;47m▓▓▓▒░▒░░[0;47m█[0m     [1;30;40m█[0;1;30;47m▓▓▒▒[0m      [1;30;40m█[0;1;30;47m▒░▒░▒[0;1;30;40m█[0;1;30;47m▓░▒▓▒▓[0m [1;30;40m█[0;1;30;47m▒▒░░▒░▒▒▒[0m
 
                       [1;35;40m┌[0m                              [1;35;40m┐[0m
-                     [35m┌[0;1;35m│  S[0;35mys[0;1;30mop  [0;1;35m─╖[0;35m╓[0;1;30m─  [0;1;35mLo[0;35mr[0;1;30md [0;1;35mA[0;35mO[0m        [1;35m│[0;35m┐[0m
+                     [35m┌[0;1;35m│   [0;35m  [0;1;30m    [0;1;35m─╖[0;35m╓[0;1;30m─  [0;1;35m  [0;35m [0;1;30m  [0;1;35m [0;35m [0m        [1;35m│[0;35m┐[0m
                     [1;30m┌[0;35m│[0;1;35m│  C[0;35mo([0;1;30ms)  [0;35m─╜[0;1;30m╙─  [0;1;35mR[0;35mis[0;1;30men [0;1;35mD[0;35mev[0;1;30mil    [0;1;35m│[0;35m│[0;1;30m┐[0m
                     [1;30m│[0;35m│[0;1;35m│  Nu[0;35mmb[0;1;30mer [0;1;35m─╖[0;35m╓[0;1;30m─  [0;1;35m[[0;35mIT[0;1;30mS] [0;1;35mN[0;35mO[0;1;30mW[0;1;35m·D[0;35mO[0;1;30mWN [0;1;35m│[0;35m│[0;1;30m│[0m
                     [1;30m│[0;35m│[0;1;35m│  S[0;35mpe[0;1;30med  [0;35m─╜[0;1;30m╙─  [0;1;35m2[0;35m4[0;1;30moo [0;1;35mb[0;35ma[0;1;30mud[0m      [1;35m│[0;35m│[0;1;30m│[0m

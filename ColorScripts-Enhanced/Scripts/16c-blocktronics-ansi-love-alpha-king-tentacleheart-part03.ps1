@@ -5,7 +5,7 @@
 # Source SHA-256: 93c28193e9026f3952c983a5f5cf22e1fb52909b1e935faeb648bd4a46188c4b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: alpha_king-tentacleheart.ans by Alpha King (blocktronics_ansi_love); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 20170811
 # SAUCE Dimensions: 80x140
 # SAUCE Font: IBM VGA
@@ -47,7 +47,7 @@ Write-Host '
          [1;30m·[0m    [1;30m░[0m      █[1;30;47m▒▒▒[0m█ [1;30m▒[0m [1;30m   [0;1;37m▀[0;1;31m▀▀▀▀[0;1;30m   [0m  [1;30m [0;1;37m■▀▀[0;1;30m  [0;1;31m▀[0;1;31;107m▓[0;1;31m▌[0;1;30m [0;1;37m■▄[0;1;37;47m▓[0;1;37;40m▀▀[0;1;30;40m [0;1;37;40m▀▀[0;1;31;107m░▒▓[0;1;31m▓▀▀[0m
                      [1;47m░░[0;1;30;47m░░[0;1;37;47m░[0m [1;30m▓[0m   [1;30m■▀[0m  [1;31m▄[0;1;31;107m▓[0;1;31m▌[0m
                     ░[1;47m▒▒[0;1;30;47m░[0;1;37;47m▒▒[0m [1;30m▀▀▀[0m [1m▄▄▄[0;1;31;107m▒▓[0;1;31m▀[0m
-                 [1;30m [0;1;37m▄▄[0;1;37;47m▓▓[0;1;37;40m▀▀▀[0;1;37;47m▒▓▓▓▓▓▓▓[0;1;31;107m░░[0;1m▌[0m   [30m [0;1;30malpha king [0;31m<[0;1;31m3[0;1;30m space queen[0m
+                 [1;30m [0;1;37m▄▄[0;1;37;47m▓▓[0;1;37;40m▀▀▀[0;1;37;47m▒▓▓▓▓▓▓▓[0;1;31;107m░░[0;1m▌[0m   [30m [0;1;30m           [0;31m [0;1;31m [0;1;30m            [0m
                  [1m  ▀▀[0m        [1m▀▀▀▀▀▀ [0m   [30m [0;37m    [0;1;30mblocktronics 2017[0m
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: f197a792ca7028d33ee52dd8f7dcfe18468f97c1cd8577c16707e7f663e20370
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-MAIDX.ANS by r0rshack (Maiden Productions); released in mdn-9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: maiden productions logo - brazil!
 # SAUCE Author: r0rshack
 # SAUCE Group: Maiden Productions
@@ -20,7 +20,7 @@ Write-Host '
 [37m [0;32m█████████████▀▀[0;37m [0;1;33m▄▄██▄▄[0m [32m▀▀█████████████[0;37m  [0m
 [37m [0;32m█████████▀▀ [0;1;33m▄▄██▀▀[0;1;34m▄▄▄[0;1;33m▀▀█▄▄[0m [32m▀▀█████████[0;37m  [0m
 [37m [0;32m█████▀▀[0;37m [0;1;33m▄▄████▀[0;1;34m▄[0;1;34;47m▓[0;1;34;40m██ █▀█[0;1;33;40m ▀███▄▄[0m [32m▀▀█████[0m      [37m▄▄▄▄▄▄    ansee by [0;1;37mrorshack[0m
- [32m██▀[0m   [1;33m▀▀▀▀▀▀▀▀ [0;1;34m▀▀▀███▄█[0;1;34;44m▓[0;1;33;40m ▀▀▀▀▀▀▀[0m [32m  ▀▀▀[0m      [37m█ [0;32m▄▄[0;37m [0;1;37;47mr[0m  of [1mmaiden productions[0m
+ [32m██▀[0m   [1;33m▀▀▀▀▀▀▀▀ [0;1;34m▀▀▀███▄█[0;1;34;44m▓[0;1;33;40m ▀▀▀▀▀▀▀[0m [32m  ▀▀▀[0m      [37m█ [0;32m▄▄[0;37m [0;1;37;47m [0m     [1m                  [0m
  [32m██[0;37m █▀▀▀▀▀▀▀▀▀▀▀▀█▄ ▄▄▄▄▄▄█▀▀▀▀█▀▀▀▀▀██▀▀▀▀▀▀▀ [0;32m██[0;37m [0;1;37;47ms[0m█▀▀▀▀▀▀▀▀▀▀██▀▀▀▀▀▀▀▀▀▀▀██
  [32m██[0;37m [0;1;37;47m░[0m [1;33m████[0m [1;47m░[0m [1;47m░[0m [32m█▄[0;37m [0;1;37;47m░[0m▄[1;47m░[0m▄▄▄▄▄▄ [32m██[0;37m [0;1;37;47m░[0m▀▀▀▀▀[1;47m░[0m [1;33m▄████[0m [1;47m░[0m [32m██[0;37m [0;1;37;47m░[0m [1;33m▄████[0m [1;47m░[0m [32m█▄[0;37m [0;1;37;47m░[0m [1;33m█████[0m [1;47m░[0m [32m█▄[0;37m [0;1;37;47m░[0m
  [32m██[0;37m [0;1;37;47m░[0m [1;33m█[0;1;33;43m▓[0;1;33;40m██[0m [1;47m░[0m▄[1;47m░[0m [32m██[0;37m [0;1;37;47m░[0m▀[1;33m ▄▄▄▄[0m ▄ [32m██[0;37m ▀ [0;32m███[0;37m [0;1;37;47m░[0m [1;33m█████[0m [1;47m░[0m [32m██[0;37m [0;1;37;47m░[0m [1;33m█████[0m ▄▄▄▄▄[1;47m░[0m [1;33m██[0;1;33;43m▓[0;1;33;40m██[0m [1;47m░[0m [32m██[0;37m [0;1;37;47m░[0m

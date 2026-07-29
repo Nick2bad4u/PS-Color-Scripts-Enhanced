@@ -5,7 +5,7 @@
 # Source SHA-256: 93a494ce5184e5f8e725e7ce07676aaa80cbb4961158155f4eb20261b25d81d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GK-HAL1.ANS by grind king (FiRE); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: stat screen (halcyon)
 # SAUCE Author: grind king
 # SAUCE Group: FiRE
@@ -20,7 +20,7 @@ Write-Host '
 [1;30;40m▓[0m [1;34;44m▐▄[0;34m▀▀▀▀[0;1;34;44m░  ▓[0;34m▀▀▀▀[0;1;34;44m█░[0;34m▄[0;1;34;44m▐▓[0;34m▄▄▄▄[0;1;34;44m▀ [0;34m▀▀[0;1;34;44m [0;34m██████▀▀▀▀[0;1;34;44m░[0;34m▀▀▀[0m   [33m▄[0;37m  [0;33m▄█[0;37m  [0;33m▄▀[0;37m [0;33m▄█████[0;36;43m░░[0;33;40m▄▄ ▄[0;36;43m░░[0;33;40m▄▄▄[0;37;40m [0;34;40m▀▀[0;1;34;44m░[0;34m▐[0m
                              [1;34;44m░░[0;34m███▀[0;37m [0;36m▄[0;36;43m░░[0;33;40m▄[0;37;40m  [0;33;40m▄[0;37;40m  [0;36;40m░[0;33;40m▐[0;36;43m░[0;33;40m▌▐█[0;37;40m [0;33;40m▄▓[0;37;40m [0;36;40m▄[0;36;43m░░[0;33;40m██████████▄▄▄[0;36;43m░[0;33;40m▀███▄▄ [0m
 [34;40mhalcyon user stats..     [0m   [1;34;40m░█[0;1;34;47m▓[0;1;34;44m▓[0;34m▀[0;33m ■ [0;37m [0;36;43m▓▓[0;33;40m██[0;37;40m [0;33;40m▐▌░ [0;36;43m░[0;33;40m▌▐[0;36;43m░[0;33;40m▌▄[0;37;40m [0;36;40m▄[0;36;43m▓▓[0;33;40m███████████████████████[0m
-[1;30;40m(don''t rip my stat screen)[0m   [34m▀▀[0;37m [0;36m▄░[0;37m [0;33m▀▄[0;37m [0;36m░[0;36;43m▒▒[0;33;40m█[0;37;40m [0;33;40m▓[0;36;40m [0;33;40m▐▓ [0;36;43m░[0;33;40m▓[0;37;40m [0;36;40m▄[0;36;43m▒▒[0;33;40m▀▀▄▄[0;36;43m░[0;33;40m▄▀▀[0;36;43m░[0;33;40m▄▄▄▄▄ ▀▀▀██████[0;36;43m░[0m
+[1;30;40m                          [0m   [34m▀▀[0;37m [0;36m▄░[0;37m [0;33m▀▄[0;37m [0;36m░[0;36;43m▒▒[0;33;40m█[0;37;40m [0;33;40m▓[0;36;40m [0;33;40m▐▓ [0;36;43m░[0;33;40m▓[0;37;40m [0;36;40m▄[0;36;43m▒▒[0;33;40m▀▀▄▄[0;36;43m░[0;33;40m▄▀▀[0;36;43m░[0;33;40m▄▄▄▄▄ ▀▀▀██████[0;36;43m░[0m
                              [36;43m░░[0;33;40m▄▄▄[0;37;40m [0;33;40m░▐▌░[0;37;40m [0;36;43m░░[0;33;40m█  [0;36;43m [0;33;40m▌  ▄[0;36;43m░░[0;33;40m▀▀▀▀[0;37;40m [0;33;40m▄[0;37;40m  [0;33;40m▄█▀▀▀  ▀▀[0;37;40m [0;1;31;40m▄▄▄▄[0m [33m▀▀██[0m
                              [33m▀[0;36m░[0;33m ▀▀▀▓[0;37m [0;36;43m░[0;37;40m [0;33;40m▄[0;37;40m [0;36;43m░░[0;33;40m▓ █  [0;36;43m░[0;33;40m▌ ▄   ▄▓▀ ▀▀ ▄▓▀[0;37;40m [0;33;40m▀■.[0;1;31;40m▐██████[0m  [33m▓[0m
                              [36m▄▄[0;33m▄▄██▄▄▐▌░▐[0;37m [0;33m█[0;1;30;43m░[0;33m▐[0;1;30;43m░[0;33m░▐▓ ▓▀ [0;37m [0;33m▀[0;37m  [0;1;31m ▄▄▄[0;33m▄▄[0;1;31m [0m [33m▀▓[0;37m  [0;1;31m██[0;1;31;43m▓[0;1;31;40m▀[0m [1;31m▄▀█[0m

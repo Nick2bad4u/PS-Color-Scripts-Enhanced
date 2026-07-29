@@ -5,7 +5,7 @@
 # Source SHA-256: e2826b9e69e2918b86d3ed655f0351af5b1a9b620829e424110b044c74ff1216
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UT-NAMI.ANS by untamed (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: namistai bbs
 # SAUCE Author: untamed
 # SAUCE Group: jasper
@@ -39,5 +39,5 @@ Write-Host '
 [33m░▓▄▄▓░[0;1;33m     [0;33m▓░▀▀▓░ [0;1;33m [0;33m█▌[0;37m  [0;1;30m  ▓[0m  [1;30m▀▀▄[0;1;30;47m▓[0;1;30;40m ▓[0;1;30;47m░▓[0;1;30;40m██▌█[0m [1;47m░▓[0;1;40m█████▓ ░█████▌▐█[0;1;47m▓▒▓▒▒▒▓▓▒[0;1;40m██[0;1;47m▓▒▓[0;1;40m██▓██▒[0m
 [1;30m  [0;1;33m  [0;33m▀▀▀▀▀▀▄▄▄▄▄[0;1;33m  [0;33m [0;1;33m [0m [33m▓[0;37m     [0;1;30m░[0m [1;30m ▓[0;1;30;47m░▓[0;1;30;40m▓█[0;1;30;47m▓[0;1;30;40m███▓[0m [1;30m░[0m [1;47m░▓[0;1;40m█████▒██████▌▐[0;1;47m▓▒░▒░░░▒▒░▓[0;1;40m█[0;1;47m▒░▒▓[0;1;40m███▓▒[0m
   [1;30m   [0m [1;30m░[0m        [33m▀▀▀▓[0;37m  [0;33m▓[0;37m      [0;1;30m ░▓▄▀██▐█▀ ░[0m   [1;47m░▓[0;1;40m████▓██████▌[0;1;47m▓▒░ ░░  ░░ ▒░░ ░▒[0;1;40m██▓▒░[0m
-[1;30m░[0m  [33m   [0;37m             [0;33m░ [0;37m [0;33m░[0;37m  [0;1;30m░[0m     [1;30m ░▓▌▀  ░[0m  [1;30m░[0;1;37m░▒▓███████████■[0;1;37;47m▓░ [0;30;47mnamistai[0;1;37;47m░[0;30;47mbbs[0;1;37;47m ░[0;1;37;40m█▓▒░░ [0m
+[1;30m░[0m  [33m   [0;37m             [0;33m░ [0;37m [0;33m░[0;37m  [0;1;30m░[0m     [1;30m ░▓▌▀  ░[0m  [1;30m░[0;1;37m░▒▓███████████■[0;1;37;47m▓░ [0;30;47m        [0;1;37;47m░[0;30;47m   [0;1;37;47m ░[0;1;37;40m█▓▒░░ [0m
 [1;30;40m--------------------------------------------------------------------------------[0m'

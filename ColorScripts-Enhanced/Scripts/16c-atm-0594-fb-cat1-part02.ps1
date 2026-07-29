@@ -5,7 +5,7 @@
 # Source SHA-256: 54b187a27fa8b35d6cf45b017c08d44f7b1bfca20b8ea967659413a970a9fbdf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-CAT1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 41-76
 # Columns: 1-80
 
@@ -29,7 +29,7 @@ Write-Host '
             ▀        ▀    ▀       ▀▀▀         ▀▀                   ▀       ▀
                 [1m┌[0m─[1;30m┬─── ────── ──── ──  ·  ── ──── ────── ────┬[0m─[1m┐[0m
               ┌[1;30m─[0m┤ │                                          │ ├[1;30m─[0m┐
-              [1m├[0m─[1;30m──[0;1;37m┘  [0;1;30m─ ─\[0m/\[1m>   The Cattle Kingdom  <[0m/\[1;30m/─ ─   [0;1;37m└[0m─[1;30m─[0m─[1m┤[0m
+              [1m├[0m─[1;30m──[0;1;37m┘  [0;1;30m─ ─ [0m  [1m                         [0m  [1;30m ─ ─   [0;1;37m└[0m─[1;30m─[0m─[1m┤[0m
               [1;30m│[0m      [1;30m─ ─\[0m/\[1m>[0m       [1m414DREAMON[0m      [1m<[0m/\[1;30m/─ ─[0m       [1;30m│[0m
               [1;30m│[0m      [1;30m─ ─\[0m/\[1m> Staff    -   WIZ[0m      [1m<[0m/\[1;30m/─ ─[0m       [1;30m│[0m
               [1;30m│[0m      [1;30m─ ─ [0m  [1m                         [0m  [1;30m ─ ─[0m       [1;30m│[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 8ef572dccae4e3773524331f8d5c1ef2adf509196016b2d773dfd77b85c97d71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-HMENU.ANS by Blind Sniper (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hercules Menu
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
@@ -29,7 +29,7 @@ Write-Host '
 [36m▀▀▀▀▒▀▀▀▀▀▀▀▀▀[0m     [1;32m▀[0;1;32;47m▓[0;1;32;40m▀▀▀[0m   ▀  ▄       [1m  [0;33m▒[0m       [37m▄[0m   [37m▀[0;1;37m [0m   [1;32m▐▀▀[0m    [36m▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀▀[0m
 [36m  [0;37m  [0;36m▓[0m                                   [33m░[0m                                  [36m▓[0;37m  [0;36m  [0m
 [36m [0m   [36m█[0m         [1;30m               [0m      [1;30m       [0m    [1;30m   [0m [1;30m            [0m             [36m█[0;37m  [0;36m  [0m
-[36m█▀▀▀▀[0m         [1;30m2.. Command Two[0m        [1;30m       [0m  [1;30m6..[0m [1;30mCommand Six[0m             [36m ▀▀▀▀█[0m
+[36m█▀▀▀▀[0m         [1;30m               [0m        [1;30m       [0m  [1;30m   [0m [1;30m           [0m             [36m ▀▀▀▀█[0m
 [36m█[0m             [1;30m                 [0m      [1;30m       [0m  [1;30m   [0m [1;30m             [0m                [36m█[0m
 [36m█[0m             [1;30m                [0m       [1;30m       [0m  [1;30m                 [0m                [36m█[0m
 [36m█▄▄▄▄▄▄▄▄▄[0;37m  [0;36m█[0m                             [1;30m       [0m                 [36m█[0;37m  [0;36m▄▄▄▄▄▄▄▄▄▄█[0m

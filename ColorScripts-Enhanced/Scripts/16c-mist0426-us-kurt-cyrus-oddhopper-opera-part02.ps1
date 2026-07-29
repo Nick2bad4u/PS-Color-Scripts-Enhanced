@@ -5,7 +5,7 @@
 # Source SHA-256: fbdea22b0da49cd8aa8ecfce3b2ac7494710e3bc64ae9528ba18c593467d6bf5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-KURT_CYRUS-ODDHOPPER_OPERA.ANS by LDA + Moth (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Oddhopper Opera
 # SAUCE Author: Moth / LDA
 # SAUCE Group: Mistigris
@@ -31,6 +31,6 @@ Write-Host '
 [32;40m███████[0;1;31;42m /[0;32;43m▬ [0;33;42m▀[0;31;42m;[0;32;40m████[0;1;37;42mA   B U G '' S   G A R D E N   O F   V E R S E S[0;32m████████████████[0m
 [32m██████[0;1;31;42m`''_|[0;32m██[0;1;37;42m                                                        [0;32m████████████[0m
 [32m█████████████[0;1;37;42m              [0;1;36;42m|/[0;1;37;42m     [0;1;36;42m┼[0;1;37;42m   [0;1;36;42m/~`[0;1;37;42m                           [0;32m████████████[0m
-[32m█[0;32;42mMy favorite childhood [0;32;40m████[0;1;36;42m|\[0;32m█[0;1;36;42mU[0;32m█[0;1;36;42mΓ[0;32m█[0;1;36;42m¿[0;32m███[0;1;36;42m\_,[0;32m█[0;1;36;42mV[0;32m█[0;1;36;42mΓ[0;32m█[0;1;36;42mU[0;32m█[0;1;36;42mS[0;32m███████████████████████████████[0m
-[32;42mbook (seeing a pattern? :P) - moth[0;32;40m███████[0;1;36;42m ''[0;32m█████████████████████████████████████[0m
+[32m█[0;32;42m                      [0;32;40m████[0;1;36;42m  [0;32m█[0;1;36;42m [0;32m█[0;1;36;42m [0;32m█[0;1;36;42m [0;32m███[0;1;36;42m   [0;32m█[0;1;36;42m [0;32m█[0;1;36;42m [0;32m█[0;1;36;42m [0;32m█[0;1;36;42m [0;32m███████████████████████████████[0m
+[32;42m                                  [0;32;40m███████[0;1;36;42m  [0;32m█████████████████████████████████████[0m
 [32m████████████████████████████████████████████████████████████████████████████████[0m'

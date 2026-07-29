@@ -5,7 +5,7 @@
 # Source SHA-256: 43acd1b1c0a9de123649a3baffb0b2426aa368856d3218ef18d2f1e30c2deddf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HYPE1.ANS by Cephyr (mge_art1); released in mge_art1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 49-96
 # Columns: 1-80
 
@@ -55,6 +55,6 @@ Write-Host '
       [1;30m░░▒▓█▓▒░[0m                  [1;30mCLo[0;1;37mSE[0;1;30mD SY[0mS[1mTE[0mM [1;30m![0m                  [1;30m░░▒▓█▓▒░[0m
       [1;30m░░▒▓█▓▒░[0m                     [1;37mNo [0;1;30mlAM[0mA[1mZ![0m                     [1;30m░░▒▓█▓▒░[0m
       [1;30m░░▒▓█▓▒░[0m                [1;37mF[0;1;30mE[0mDER[1mAL [0;1;30mLAW [0mW[1moR[0mLD [1;30mH[0;1;37mQ[0m               [1;30m░░▒▓█▓▒░[0m
-      [1;30m░░▒▓█▓▒░[0m                 [1;30mYA [0;1;37mSY[0;1;30mS[0;1;37mo[0;1;30mP:  C[0;1;37mEP[0mHY[1;30mR![0m                [1;30m░░▒▓█▓▒░[0m
+      [1;30m░░▒▓█▓▒░[0m                 [1;30m   [0;1;37m  [0;1;30m [0;1;37m [0;1;30m     [0;1;37m  [0m  [1;30m  [0m                [1;30m░░▒▓█▓▒░[0m
       [1;30m░░▒▓█▓▒░[0m                 [1;37m0[0m-7 [1mDAY [0;1;30mW[0mAR[1;30mE[0;1;37mZ [0moN[1;30mLY[0m                [1;30m░░▒▓█▓▒░[0m
      [1;30m░░▒▓███▓▒░[0m                                                 [1;30m░░▒▓███▓▒░[0m'

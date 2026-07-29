@@ -5,7 +5,7 @@
 # Source SHA-256: e189636447e26d3eb6b192cec175e9d93b4253e260377b700daf2229d3ee9321
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SG-03.ANS by SG (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: "Snake Grunger . rAG nUMBAH tHREE?"
 # SAUCE Author: SG
 # SAUCE Group: .rAGS 2 rICHES.
@@ -31,7 +31,7 @@ Write-Host '
 [1;30m▄██░██▒▄▄▀██▄██░██▓▄   [0;34mbutton do?"[0;1;30m              ▀▀▀▒▀▀▓▀██▀███████▄██▄▄▄▄▄▄▄   [0m
 [1;30m███▒██▓▀█████▀▀▒▄██▓▓   [0;34m"Oh! That one? It''s the[0;1;30m      ▀  █[0m       [1;30m▓   █ █▄   █▀▀█[0m
 [1;30m▓██▓█ ▓▀█[0m      [1;30m▓  █▓  [0m   [1;30m  [0;34mauto-descruct button,[0;1;30m   [0m     [1;30m▓   ▀  ▀▀ ▀ █ ▀▀▀  █ ▓▀[0m
-[1;30m▓ █▓  █   ▓[0m       [1;30m▓  [0m       [34mNEVER push that button,[0;32m  [0;1;30m▀  ▒▀    ░   ▀▀▀ ░    ▓ ▒▀[0m
+[1;30m▓ █▓  █   ▓[0m       [1;30m▓  [0m       [34m                       [0;32m  [0;1;30m▀  ▒▀    ░   ▀▀▀ ░    ▓ ▒▀[0m
 [1;30m▓  █  █▄▄▄▓ ▄▄▄▄▄ ▀▀ ▄▓▄ ▀ ▄   [0;34mson!"[0;1;30m               [0;32m  [0;1;30m▄    ▄▄▄ ▒ ▄  ▓      [0;34m [0;1;30m▒ ░[0m
 [1;30m▒ ▀█▀▀    ▓[0m           [1;30m▓[0m       [34m"Oh! You mean like       [0;1;30m       ▓   ▀▀  ▒    ░   [0m
 [1;30m▒  ▀[0m      [1;30m▓[0m           [1;30m▀▀[0m     [35m▄ [0;1;30m  [0;35m▄[0;34mthis?"[0;35m▄[0;1;30m  [0;35m▄▀▄[0;1;30m   [0;35m▄▀▄[0;32m [0;1;30m▀▀▀▀ █▀▀▀▀ ▀▀▀▀▀▀▓    ░[0m

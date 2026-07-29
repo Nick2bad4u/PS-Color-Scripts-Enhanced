@@ -5,7 +5,7 @@
 # Source SHA-256: 6478ecfb023b28b39db431bed041134836bd75a909971d9e116d8d60fe9ebed4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RB-DING2.ANS by rebal (bLADE); released in blde9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dING ansi?!?!
 # SAUCE Author: rebal
 # SAUCE Group: bLADE
@@ -31,10 +31,10 @@ Write-Host '
 [37m [0;34m▐█[0;37m [0;34m▄█████░[0m      [34m▐█████▐▌[0;37m  [0;32m▀███[0;1;32;42m░▒▒░░[0;32m█[0;1;32;42m██▓██▄▄▄▄▄▄[0;32m▄▄▌ ▀▄[0m        [33mblah6[0m           [32m [0m
 [37m [0;34m██▌▐█[0;1;34;44m░[0;34m██▌[0m       [34m▐███[0;1;34;44m░[0;34m█[0;37m [0;34m▀▄[0m    [32m▀▀[0;1;32;42m░░░[0;32m███[0;1;32;42m ▒▀▀▀▀███▄▄▄[0;32m█▄▄▐▌[0m                       [32m [0m
 [37m [0;34m███▄▀[0;1;34;44m░[0;34m██▌[0m      [34m░████[0;1;34;44m░[0;34m█▌rb!▄▄[0;37m  [0m     [32m▀█[0;1;32;42m░▓█████▓▓▀[0;32m█[0;1;32;42m░[0;32m██▌[0;37m [0;1;32;42m░[0;32m░[0m   [1;30myou can use this[0m   [32m░[0m
-[37m [0;34m▐██[0;1;34;44m ░▒░[0;34m██[0m       [34m▐█[0;1;34;44m░░░[0;34m█▀▀▀▀▀░▀▀[0;37m [0;34m▀[0;32m░[0;30;42m▓[0;37;40m  [0;32;40m▐█[0;1;32;42m░▀▀[0;1;32;46m▓[0;1;32;42m▀▀███▓▒░[0;32m█ ▐▌[0;37m [0;1;30mfor whatever or[0m [1;30myou[0m   [32m▒[0m
+[37m [0;34m▐██[0;1;34;44m ░▒░[0;34m██[0m       [34m▐█[0;1;34;44m░░░[0;34m█▀▀▀▀▀░▀▀[0;37m [0;34m▀[0;32m░[0;30;42m▓[0;37;40m  [0;32;40m▐█[0;1;32;42m░▀▀[0;1;32;46m▓[0;1;32;42m▀▀███▓▒░[0;32m█ ▐▌[0;37m [0;1;30m               [0m [1;30m   [0m   [32m▒[0m
 [37m [0;34m▐█[0;1;34;44m ░▒▒░░[0;34m█[0;37m  [0;30;44md[0;34;40ming[0;37;40m [0;34;40m▐[0;1;34;44m▒▒▒░[0;34m▌[0m      [32m▄[0;37m [0;32m▄▄[0;30;42m░░[0;32;40m▄█[0;1;32;42m▄▄▄███████▀[0;32m█[0;1;32;42m░[0;32m█▌▄▀[0;37m  [0;1;30mcan trash it.. I  [0m    [32m▓[0m
 [37m  [0;1;34;44m░░▒▓▓▐▒░[0;34m▌[0m      [34m▐[0;1;34;44m▌▓▓▄[0;34m█▒░[0;37m  [0;34m▄[0;37m  [0;32m▄███[0;1;32;42m▄▄█[0;1;32;46m██▓[0;1;32;42m█[0;1;32;46m▓[0;1;32;42m██▀▀[0;32m████▀ [0;1;30;42m▒[0m  [1;30mwouldn''t use it though[0m [30;42m░[0m
-[32;40m▌[0;37;40m [0;34;40m▐[0;1;34;44m▒▓██▄▓▌[0;34m█▄[0m      [1;34;44m▓██▌▒[0m [34m▄▀[0m   [32m▀[0;1;30;42m░[0;32m█[0;1;32;42m▀▀▓▓█████▓▓██▄▄[0;32m█[0;1;32;42m░[0;32m▌ █[0;37m  [0;1;30mcause it[0m [1;30mlooks like pig[0m [32m▓[0m
+[32;40m▌[0;37;40m [0;34;40m▐[0;1;34;44m▒▓██▄▓▌[0;34m█▄[0m      [1;34;44m▓██▌▒[0m [34m▄▀[0m   [32m▀[0;1;30;42m░[0;32m█[0;1;32;42m▀▀▓▓█████▓▓██▄▄[0;32m█[0;1;32;42m░[0;32m▌ █[0;37m  [0;1;30m        [0m [1;30m              [0m [32m▓[0m
 [1;32;42m░[0m  [34m▀[0;1;34;44m ▒███▄▄░[0;34m█▄[0m    [1;34;44m▒▀█▄ [0;34m▐▌[0;37m  [0;32m▀▀▀█[0;1;32;42m░[0;32m█[0;1;32;42m░▒▒░[0;32m███[0;1;32;42m▀▀▀▀▀▓██▒░[0;32m ░▓▒░[0m   [1;30m    [0m    [32m  [0m          [1;30;42m░[0m
 [1;32;42m▒▒[0;32m▄[0;37m  [0;34m▀█[0;1;34;44m▀▀[0;1;34;47m▓[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m▄▄[0;34m▌▄▄█[0;1;34;44m▄▐[0;1;34;47m▓[0;1;34;44m█▌[0m [34m▀▄[0m        [32m▀▀▀▀▀▀▀▀▀▀[0;1;32;42m░▒░▀▄[0;32m██▌▐▌[0m        [32m░[0;37m [0;32m▄▀▀▄ [0m       [32m▄▄▓[0m
 [1;32;42m▀▀▒░[0;32m▄[0;37m  [0;34m▀▀▀[0;1;34m▓[0;1;34;44m▀[0;1;34;47m▒▓[0;1;34;44m██[0;1;34;40m▄▄[0;34m█[0;1;34;44m▀[0;1;34;47m▒[0;1;34;44m▄▄▒[0;34m▄▄[0;1;34;44m█▄[0;34m▄▄▄[0;37m  [0;34m▄[0m     [34m░▄[0;37m [0;1;30m░[0m [32m▐[0;1;32;42m░[0;1;30;42m░░[0;32m█[0;1;32;42m░░[0;32m█▄▀▒░[0;37m [0;32m▄▄▄▄▄▓▄  ▄▄██▄ ░■▄█▄▄[0;1;32;42m░[0m'

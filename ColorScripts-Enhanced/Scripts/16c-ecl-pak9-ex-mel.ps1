@@ -5,7 +5,7 @@
 # Source SHA-256: ded69eafe74c445be10b1b1fc752e1a14b1397766f39a1af1a50d08ce1c17d5a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EX%MEL.ANS by exocet (ecolove); released in ecl-pak9 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: mellow!
 # SAUCE Author: exocet
 # SAUCE Group: ecolove
@@ -35,7 +35,7 @@ Write-Host '
 ████     ▀█[1;30;47m░[0m▀ [1;30m▄█▓▓[0;1;31m  [0;33m▀███[0;1;31;43m ░▓▓▓[0;1;31;40m███▀▀[0;1;31;43m▓▒░[0;33m▀▀▀▒▓▒ [0;1;31m▄[0;1;31;43m░[0;33m█▓[0;1;31m    [0m   [1;30m ▄▄▀▀▀▀▀[0m    ▄▄█████▓▓
  ▀█▌  ▀  ▀░░[1;31m [0;1;30;47m░▓[0;1;30;40m▀▀▀[0;1;31;40m    [0;33m▀▀████[0;1;31;43m░▓▓[0;1;31;40m███▄▄▄█████▄[0;1;31;43m░[0;33m██▀[0;1;31m   [0m              ▄█████████▀
 [1;31m [0m  ▀ ▄▄      [1;31m   [0;31m▄▄▄▄     ▄[0;1;31m [0;33m▀▀▀[0;1;31;43m░▓█████████▓░[0;33m▀▀[0;1;31m   [0m [31m██[0;1;31;41m░▓▓▄[0;31m█[0;37m [0m   [37m▀[0m      [37m▀▀▀▀▀[0m
-     [37m▀▓▓     [0;31m███▀▀█▄[0;1;31;41m▓▄▄▄[0;31m████▄[0m     [31m▄▄[0m         [31m▄████▀[0;37m  [0;31m█[0;1;31;41m█[0;31m▌[0;37m [0;1;30mt[0mhis one needs no log[1;30mo[0m
+     [37m▀▓▓     [0;31m███▀▀█▄[0;1;31;41m▓▄▄▄[0;31m████▄[0m     [31m▄▄[0m         [31m▄████▀[0;37m  [0;31m█[0;1;31;41m█[0;31m▌[0;37m [0;1;30m [0m                    [1;30m [0m
 ░░ ▀          [31m█[0;1;31;41m█▓░[0;31m█▀██▀▀██▀[0;37m  [0;31m▄[0;37m  [0;31m██[0;1;31;41m▀▓▓[0;31m█[0;37m  [0;31m██[0;1;31;41m▀[0;31m█▀▀▓▓[0;37m [0;31m▐▄▀[0;37m [0;1;31;41m▐▌[0m  [1;30mi[0mt''s [1mmellow[0m enough[1;30m! [0m
        ░░      [31m█[0;1;31;41m█[0m  [31m▄▓▓[0;37m [0;31m▀▀[0;37m [0;31m▀[0m   [31m▄  [0;1;31;41m░▀[0;31m█▀▀[0;37m  [0;31m▀▀[0;1;31;41m▀▀[0;31m██ ▄ ▀[0;37m [0;31m▄[0;1;31;41m▄▀[0;31m▌[0m     [37m+[0;1;37mo[0m [1mzatchm[0mo
 ▄▄▄▄▄▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄[0m  [31m██▀▀ex/ecl!██▀▀[0;37m  [0;1;30m▄▄▄[0m▄[1;30m▄[0m▄▄[1;30m▄▄▄[0m [31m▀▀██[0;1;31;41m▓▓[0;31m████[0;37m  [0;1;30m▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄[1;30m▄[0m▄▄▄▄▄▄▄▄[1;30m▄[0m▄▄[0m'

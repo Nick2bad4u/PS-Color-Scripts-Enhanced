@@ -5,7 +5,7 @@
 # Source SHA-256: d3ac50f746b3f6efbb775f911e2567d781f0c75efcd8f01bb5b65741c6d66ae5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-911.ANS by Kleenex + Quip (Function); released in fx-9810 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 911
 # SAUCE Author: Kleenex / Quip
 # SAUCE Group: Function
@@ -15,7 +15,7 @@
 
 Write-Host '
                                          ▄[1;30;47m▀[0;1;30;40m░[0m ▄▄[1;30m [0m
-                       [1;30m▄[0m███             ▄▄[1;47m▄▓[0m█[1;30m▀[0m   [1;30mlogo by kleenex & quip[0m
+                       [1;30m▄[0m███             ▄▄[1;47m▄▓[0m█[1;30m▀[0m   [1;30m                      [0m
              [1;30m▒ [0m  [1;30m▄[0m▄▄▄[1;47m▄▄░[0m▄██[1;30m [0m       ░▄▄█[1;47m█ [0m██[1;30;47m▄[0;1;30;40m▀[0m
 ▄░        [1;30m▄[0m▄▄[1;30;47m▀[0m███[1;47m ▐██▀[0m▀▀██▓[1;30m [0m    ▄▄[1;47m █▀[0m██▀██[1;47m░[0;1;30;40m█[0m     [1;30mfunction.[0m
  █[1;47m▄[0m▄▄▄▄█████████[1;47m░[0;1;30;47m▄[0m▀▀   ███▓ ▄▄[1;47m▄██▀ [0m▀▀  [1;47m▄[0m██[1;47m░[0;1;30;40m▒[0m

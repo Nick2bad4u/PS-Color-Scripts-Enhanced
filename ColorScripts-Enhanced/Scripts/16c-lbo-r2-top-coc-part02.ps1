@@ -5,7 +5,7 @@
 # Source SHA-256: 884358426f73937f7346da6b75987fc62aa8a5efb7f1319e6888abe0af0cf073
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TOP-COC.ANS by Torlock Pop (lbo-r2); released in lbo-r2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -57,6 +57,6 @@ Write-Host '
 [31m  ▀▀▀▄▐█[0;31;41m [0;1;31;41m▓▓▌[0;31m█▀▄  ▄[0;1;31m▀▄▄[0;1;31;41m▀▀[0;31m▄▀▀▀[0;31;41m  [0;31;40m█[0;1;31;41m▀[0;31m█▀███▀▀ ▀███▀[0;1;31;41m▀▀[0;31m▄█▀▀███▄█[0;1;31;41m▄[0;31m▀[0;1;31;41m▀[0;31m▄[0;1;31;41m▀▀▀[0;31m▄ ▀▄[0;31;41m [0;1;31;41m▒▓█[0;31m██▀▀▀[0m
       [31m▄▀[0;31;41m  [0;1;31;41m▀[0;31m▀▄    ▄[0;1;31m▀    [0;31m▀▀[0m        [31m▀▄    ▀▀[0m       [1;31m▄▀[0m     [1;31;41m▐[0m  [31m▀▄ █   ▄▀[0;31;41m [0;1;31;41m▀█▄[0;31m▄▀[0m
      [31m▀·▄▀█[0m      [1;31m▐[0m                                           [31m▄   ▀ ■▀[0;1;31;41m▀[0;31m█▀ ▀▀▀▄[0m
-       [31m▄ ▐▌[0m          [1;37m■ SiZE-Up : PRoPHET ■ 1.2 GiG ONLiNE ■[0m        [31m▐ ▄▄█[0;1;31m▌ ▄[0m
+       [31m▄ ▐▌[0m          [1;37m■                   ■                ■[0m        [31m▐ ▄▄█[0;1;31m▌ ▄[0m
                   [1;37m■                           ■              ■[0m
                      [1;37m■                     ■              ■[0m'

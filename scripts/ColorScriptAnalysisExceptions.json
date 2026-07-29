@@ -102,11 +102,6 @@
             "reason": "Reviewed title text: 'The Mourning After' is the depicted BBS name, not a source-art credit."
         },
         {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-sense-18-us-die",
-            "reason": "Reviewed title text: 'after the years' is prose within the artwork, not a derivative-source attribution."
-        },
-        {
             "issueType": "continuous-split-review",
             "family": "16c-glue-36-22-slay",
             "reason": "The dense row-47 transition separates two complete standalone compositions confirmed against the official preview."

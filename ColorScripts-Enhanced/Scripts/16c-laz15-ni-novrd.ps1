@@ -5,7 +5,7 @@
 # Source SHA-256: 41e20d3a496d301f2de30c8dbc67f7c54a59e1ffbf4c53353e5c3479868e5d6e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ni-NOVRD.ans by nitron (M.A.D.); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Matrix Login
 # SAUCE Author: nitron
 # SAUCE Group: M.A.D.
@@ -39,4 +39,4 @@ Write-Host '
  [1;30m▄             [0m▐[47m▐[0;40m█[0;47m▌[0;40m▌▐[0;47m▐[0;40m█[0;47m▌[0;40m▌▐█ [0;33;40m█▀▄[0;37;40m ▀ ██ [0;1;37;47m▀[0;1;37;40m▀▄[0;1;30;40m                [0;1;37;40m█[0m██[1;30m█[0m     [1;30mabout[0m     [1m█[0m██[1;30m█[0m
   [1;30m▀ ▄▄▄▄▄▄[0m [1;30m▄[0m   [1;30;47m   [0m█ ████ █▌[33m▐█▄▀▀■[0;37m▐██ █ [0;1;37;47m▀[0;1;37;40m▌▄[0m [1m- I''ll get   █[0m██[1;30m█[0m     [1;30mleave     [0;1;37m█[0m██[1;30m█[0m
               ▀▀▀▀ ▀▀▀▀ ▀▀ [33m▀▀[0;37m █▀▄██ █▌█▌▄ [0;1;37;47m█[0m [1myou Gadget![0m [1m█[0m███[1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m██[1;30m█[0m
-       [1;33mThe Doctor is:[0;1;33;41m IN [0;1;30;40mOUT[0m   ▀█▀▄█▀▄▀▄▀█              [1;47m▀[0;1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;40m█[0m'
+       [1;33m              [0;1;33;41m    [0;1;30;40m   [0m   ▀█▀▄█▀▄▀▄▀█              [1;47m▀[0;1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;40m█[0m'

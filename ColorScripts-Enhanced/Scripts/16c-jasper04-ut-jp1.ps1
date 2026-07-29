@@ -5,7 +5,7 @@
 # Source SHA-256: 4a491ed925a65ef03ce78dac39f27d4f4373a6912ab718c4ef4ba4f8888e27d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UT-JP1.ANS by untamed (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: jasper font
 # SAUCE Author: untamed
 # SAUCE Group: jasper
@@ -33,7 +33,7 @@ Write-Host '
 [1;30;47m█▓░[0m█████▄▄▄ ▀[1;30m▀▀▀[0m▀   ▄▒█▄▄▄▄ ▄▄▀[1;30m▀[0;1;30;47m▒░[0;1;37;47m▀[0;1;37;40m▄[0;1;37;47m█[0m▌[1;30m█[0m█[1;47m░▓██▀[0m▀▀▀▄[1m▄▄[0m█ ▀▀▓▀▀▀    [1m▀[0;1;47m▀▀[0;1;30;47m▄[0;1;30;40m▓░[0m   ▄[1m▒[0m▀▌▀▒▓
 [1;30m▓[0;1;30;47m█▓░░ ░[0m█▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀     ▀[1;30;47m░░[0m▄▄▀▀[1;47m▀▄[0m▄▀▀     ▄▐[1;47m████[0m▌  ░         [1;30m▀▀[0m    ▀ [1m [0;1;30m▐[0m▌ ░▒
 [1;30m▒█▀▒▀[0m                 [1muntamed[0m [1;30m▓[0;1;30;47m▒░[0m▀    ▀[1;47m▄[0m▄[1m░[0m     ▓▀   ▀▀▄[32m [0;37m [0;1;37m Jasper Project  [0;1;30m▐[0m▌  ░
-[1;30m░[0m  [1;30m▓[0m  [30mhow can you revive[0m      [1;30m░▀[0m        ▀[1m▒[0m     ░    [32m  [0;37m [0;32m     [0m               [1;30m▀[0m
+[1;30m░[0m  [1;30m▓[0m  [30m                  [0m      [1;30m░▀[0m        ▀[1m▒[0m     ░    [32m  [0;37m [0;32m     [0m               [1;30m▀[0m
 [1;30m░[0m  [1;30;47m▓[0m  [30m                        [0m     [37m      [0;1;37m▐[0m▌[30m                              [0;37m   [0;1;30m▀[0m
 [36m [0;37m  [0;1;30;47m▒[0m  [30m     [0m                   [1;30m░[0;36m  [0;31m [0;37m     ▄[0;1;30m▄▀[0m [30m                        [0m
 [36m [0;37m [0;1;30m▄[0;1;30;47m░[0;1;30;40m▌[0m                         [1;30m▒[0m      [1;30m▀▀[0m

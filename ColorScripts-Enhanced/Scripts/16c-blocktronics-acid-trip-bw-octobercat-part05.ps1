@@ -5,7 +5,7 @@
 # Source SHA-256: fc2fbb0c9795be797ee9f1c260323555b0ae86bf8955f8f8d35f1afd0384a803
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw_OCTOBERCAT.ANS by binary walker (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: October Cat
 # SAUCE Author: binary walker
 # SAUCE Group: blocktronics
@@ -50,7 +50,7 @@ Write-Host '
       [1;30m█[0m
      [1;30m█[0m
     [1;30m█[0m             [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30m   █          ▄▓▓▀▀▀  ▄▓▓███▀▀███▓▒ [0;31m▀[0;1;31;41m▀█[0;1;31;40m [0;1;30;40m▄▄    [0;35mTHIS [0;1;33mA[0;35mNSI W[0;1;33mA[0;35mS M[0;1;33mA[0;35mDE BY[0m
+[1;30m   █          ▄▓▓▀▀▀  ▄▓▓███▀▀███▓▒ [0;31m▀[0;1;31;41m▀█[0;1;31;40m [0;1;30;40m▄▄    [0;35m     [0;1;33m [0;35m     [0;1;33m [0;35m   [0;1;33m [0;35m     [0m
 [1;30m  █          █▀ [0;31m▄▄█▀ [0;1;30m▓▓▀▀▀█ ▀▀▀▀██▓ [0;1;31;41m░[0;31m█[0;1;31;41m░[0;1;31;40m [0;1;30;40m░▓█▄[0m
 [1;30m █           ▓ [0;1;37;41m░[0;1;31;41m░░[0;31m▌  ▄▄▄▄ [0;1;30m▐█▄ [0;31m▄▄▄▄  [0;1;31;41m▓▄[0;31m▄ [0;1;30m▒███▌ [0;1;30;47m░▄[0;1;30;40m▀[0;1;30;47m██[0;1;30;40m [0;1;30;47m░▄[0;1;30;40m▀▀[0m
 [1;30m█[0m            [1;30m▒ [0;1;31;41m▓▒▒[0;1;31;40m   [0;31m▀[0;1;31;41m█▀[0;31m▄ [0;1;30m█▀▀▀▄[0;31m▐[0;1;31;41m█[0;31m▌  ▄[0;1;37m▄[0;31m▄ [0;1;30m▄▀██▓ ██ ██ ██▀[0m
@@ -60,5 +60,5 @@ Write-Host '
                 [1;31;41m░█▀[0;31m▀    [0;1;30m░▒▓██████████▀▀▀ ▀ [0;35m▄▄[0;1;30m▐[0;1;30;47m [0;1;30;40m█ ▄█[0;1;30;47m▀▀[0;1;30;40m▄▄▄ ▀█[0;1;30;47m▄ [0;1;30;40m▓ [0;35m▄▄▄▄[0m
 [37m                 [0;1;31;41m░[0;31m▌[0;37m           [0;1;30m▀▀▄▄  ▄  ▀ [0;35m▄█[0;1;35;45m▀[0;35m▓ [0;1;30m█[0;1;30;47m▀[0;1;30;40m█▀  ▐[0;1;30;47m▄░[0;1;30;40m▌▀▌▐▓█ [0;35m▄[0;1;37;45m▒[0;1;35;45m█▀[0;35m▓▒░[0m
 [37m                  [0;31m▀▄  [0;35m30th September[0;37m         [0;1;37m▄ [0;1;30m▀[0;1;30;47m▄▀▀[0;1;30;40m▄█[0;1;30;47m▄[0;1;30;40m█▄▀ █░█ [0;1;37;40m▄[0m
-                             [35min 2013 [0;1;33ma[0;35m.D.    [0;1;37m▀▀  [0;1;30m▀▀▓▓ ▀ [0;1;37m▄ [0;1;30m▓ ▓ [0;35mblocktronics[0m
+                             [35m        [0;1;33m [0;35m       [0;1;37m▀▀  [0;1;30m▀▀▓▓ ▀ [0;1;37m▄ [0;1;30m▓ ▓ [0;35m            [0m
 [37m                                                   [0;1;30m░░ [0;1;37m▀▀  [0;1;30m░ ░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9e59492ec64661c5b01e88ff75fe22f13452fbebb21d28310ee6621cb0df0480
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-H1.ANS by avenger (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hazard/2 files
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -24,7 +24,7 @@ Write-Host '
 [31m████[0;1;31;41m ▀[0;1;31;47m▄[0;1;31;41m▀[0;31m█░[0;37m  [0;34m▐[0;1;34m░[0m        [34m▀[0;1;34m▀▀▌[0m    [1;33m░[0m      [36;44m░[0;34;40m▌▓░[0;37;40m [0;1;31;40m▒[0;31m███[0;1;31;41m▄▄[0;31m█[0m    [32m░░[0;37m [0;31m▐[0;1;33;41ma[0;31m▌[0;1;31mchange area[0m [32m▀[0m
 [1;31;41m ▄█[0;1;31;47m▓[0;1;31;41m▄ [0;31m█▌▀[0m   [34m▐[0;1;34m▓░[0m   ▄        [34m▄▄[0m     [34m▄[0;36m▄[0;36;44m▓[0;34;40m▀▌░[0;37;40m [0;31;40m░█[0;36;41m [0;31;40m█[0;1;31;41m██[0;1;31;47m▄[0;1;31;41m▌[0;31m▌[0m      [31m▐[0;1;33;41mb[0;31m▌[0;1;31mbatch menu[0m
 [1;31;41m▄ ▀▀░░[0;1;31;40m▒▒[0m [35m░[0;37m  [0;1;34m▄▌[0m        ░▄▄[34m▄▄▌[0m     [36;44m░[0;36;40m▀▀[0;37;40m  [0;34;40m▌[0;37;40m  [0;31;40m▓[0;37;41m░[0;36;41m [0;31;40m██[0;1;31;41m▀▀[0;31m█░[0m      [31m▐[0;1;33;41md[0;31m▌[0;1;31mdownload[0m
-[1;31;47m▓▓[0;1;31;41m▄[0;31m█▀██▌[0;37m [0;35m▓▄[0;37m [0;1;34m▐ [0m  [1;34m░[0m ▄[1;47m▄[0m▄ ▄▌   [34m▌[0m    [34m  [0m    [34m▌[0;37m [0;31m▐█[0;1;31;41m▄▄██[0;1;31;47m▀[0;1;31;41m▄░[0;31m░[0m      [31m▐[0;1;33;41mj[0;31m▌[0;1;31mjoin conference[0m
+[1;31;47m▓▓[0;1;31;41m▄[0;31m█▀██▌[0;37m [0;35m▓▄[0;37m [0;1;34m▐ [0m  [1;34m░[0m ▄[1;47m▄[0m▄ ▄▌   [34m▌[0m    [34m  [0m    [34m▌[0;37m [0;31m▐█[0;1;31;41m▄▄██[0;1;31;47m▀[0;1;31;41m▄░[0;31m░[0m      [31m▐[0;1;33;41m [0;31m▌[0;1;31m               [0m
 [1;31;41m█[0;1;31;47m▌▄[0;1;31;41m█[0;31m▌▀[0;37m  [0;35m▄[0;1;34;45m▄▓[0m [1;34m▐▄▓[0m  ▄ ▀  ▌ [35m░[0;37m  [0;34m▌[0m          [34m▌[0;37m [0;31m▐[0;1;31;41m▐███[0;1;31;47m██▓[0;1;31;41m▌[0;31m░[0m      [31m▐[0;1;33;41ml[0;31m▌[0;1;31mlist files [0m
 [1;31;41m█[0;1;31;47m█[0;1;31;41m▀[0;31m▀[0;35m ▄▐[0;1;34;47m▀▓[0;1;34;45m▀[0;35m▀[0;37m [0;1;34;47m▓[0;1;34;40m▀[0m    ▄▐[1;47m█▄[0m▄ [35m▓░[0;37m [0;34m▌[0m       [1;37m░▄[0m [34m▌[0;37m [0;31m▐█[0;1;31;41m▀█████▌[0m       [31m▐[0;1;33;41mm[0;31m▌[0;1;31mgoto messages[0m
 [1;31;41m▀[0;31m▀[0;37m [0;35m▄[0;1;34;45m ▓▄[0;1;34;40m▀[0m   [1m [0;1;34;47m░[0m▄   █[1;47m█▄███[0m▌[1;35;45m░[0;35m▌[0;37m [0;34m▌[0m    [1;34m░[0m   [1m█[0m [34m▌[0m    [31m▀[0;1;31m▀[0;1;31;41m▀█▀[0;31m█[0m       [31m▐[0;1;33;41mn[0;31m▌[0;1;31mnewfilescan[0m  [1;32m [0m

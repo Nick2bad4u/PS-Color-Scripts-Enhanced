@@ -5,14 +5,14 @@
 # Source SHA-256: 2e5dde8a2bc13e19769e52d74677bcf7483082d661540a39dc277fbb7235cd8d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DIE-INK.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
            [31m▀▄ ░▄[0m         [34m [0m          [30;42m░[0;32;40m░[0;30;42m▓[0m
             [31;40m▐[0;1;37;41m▄[0;30;41m░[0;31;40m▌[0m           [30;42m▓[0;32;40m▀▀▌[0;30;42m▓[0;32;40m▄▄[0;1;32;42m▄[0;32m▄▐[0;1;32;42m░[0;32m▄[0;30;44m▓[0;32;40m▄▄[0;1;32;40m▒[0;30;42m░[0;1;32;40m░[0;32m░[0m
-         [31m░[0;37m  [0;1;37;41m░▓▀[0;31m▀[0m     [31m▀[0;30;44m▓[0m    [31;40m▄▄[0m   [31;40m [0;32;40m ▀▀▀[0;1;33;42m▀[0;1;32;42m░░[0;32m▀▀    ▀░[0;37m  [0m     [1;31mink[0;31m.. for [0;1;33mts[0;31m & [0;33msmooth[0;31m.[0m
+         [31m░[0;37m  [0;1;37;41m░▓▀[0;31m▀[0m     [31m▀[0;30;44m▓[0m    [31;40m▄▄[0m   [31;40m [0;32;40m ▀▀▀[0;1;33;42m▀[0;1;32;42m░░[0;32m▀▀    ▀░[0;37m  [0m     [1;31m   [0;31m       [0;1;33m  [0;31m   [0;33m      [0;31m [0m
           [31m▒ [0;1;31m▒[0;1;37;41m▒[0;31m▌[0m   [31m ▄▌[0m   [30;41m▓░[0;1;31;41m░▀[0;31m█▄█▀▀[0;30;41m▓[0;32;40m▄▄[0;1;33;42m▄▄▌[0;32m▄ [0;31m▄[0;1;31;41m░▄[0;31m▄[0;1;31m▒[0;32m [0;36m▄■[0m
       [31m▀░▄ ▐▌▐[0;1;37;41m░[0;30;44m▓[0;37;40m  [0;31;40m▄ ▀[0m      [32;40m░▄▄▄ ▄[0;30;42m░[0;32;40m▄ ▀[0;1;33;42m▀▓[0;1;32;40m▒[0;32m▌[0;31m░[0;30;41m▓[0;31;40m ▀▀ [0;32;40m [0;36;40m▄ ■▀[0;30;44m▓[0m
         [31;40m▐[0;1;37;41m░[0;31m▄[0;30;41m░[0;31;40m▄░ ▐[0;1;37;41m▄▒[0;30;41m░[0;31;40m░[0m    [32;40m▄[0;1;32;42m▄▄█▓░[0;32m▀▀░▀▌ ▐[0;1;33;42m░[0;32m▌[0;30;41m▓[0;32;40m  ▀█[0;1;32;42m▄[0;32m▄ [0;36m  ▄ ■▀░[0;30;46m▓[0m     [30;43m▓▓[0m

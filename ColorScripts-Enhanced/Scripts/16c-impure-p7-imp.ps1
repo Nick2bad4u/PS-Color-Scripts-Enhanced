@@ -5,7 +5,7 @@
 # Source SHA-256: e7ef2c7d0853030ccc97c8b9c871ca695e2d57f53863d40c7f122da543cd888c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P7-IMP.ANS by Plummet (impure); released in impure and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -23,6 +23,6 @@ Write-Host '
     [35;40m▀▀▀█[0;37;40m [0;32;40m▓███[0;1;32;42m░░[0;1;30;42m [0;32m██▌░████[0;1;32;42m░░[0;32m████▌[0;37m [0;32m▀▀[0;35m [0;1;30m░[0;32m▀▀██▀ ▐████████[0;1;30;42m░[0;32m▓░▐[0;1;30;42m░[0;32m██[0;1;32;42m░[0;32m███▄▄[0;1;30;42m░[0;32m████[0;1;32;42m░[0;32m███▌[0;35m▐██▀[0m
         [33m [0;32m▐██████[0;1;30;42m░ [0;32m▀  ▓█████████▄[0;35m  [0;32m░[0;35m       [0;32m▀█▀▀▀▀▀█[0;1;30;42m░[0;32m▀  ▐███[0;1;32;42m░[0;32m█[0;35;42m░[0;32;40m█▌ ▀▀░ ▀▀██▀ [0;37;40m [0;35;40m▀[0m
         [33;40m  [0;32;40m▀[0;1;30;42m░[0;32m█▀▀   ░░[0;37m [0;32m ▀██▀▀▀▀▀██▀    [0;35m      [0;32m    ░      ░███[0;1;32;42m ░[0;32m██▓ [0;37m [0;32m [0;37m [0;32m     [0m
-         [33m    [0;37m [0;32m░[0m        [32m  [0;37m  [0;32m░░[0;37m [0;32m  [0m   [32mthis is the first[0;37m  [0;32m ▐█████[0;35;42m░[0;32;40m█▌[0;37;40m   [0m
+         [33m    [0;37m [0;32m░[0m        [32m  [0;37m  [0;32m░░[0;37m [0;32m  [0m   [32m                 [0;37m  [0;32m ▐█████[0;35;42m░[0;32;40m█▌[0;37;40m   [0m
                                  [32;40mlogo d░ne yet by [0m    [32;40m ░▓███████▄░[0m
-                      [33;40m [0;32;40m [0;33;40m    [0m   [32;40mplummet.  it was done[0m    [32;40m░▀█▀▀▀▀[0;1;30;42m░[0;32m█▀ [0m'
+                      [33;40m [0;32;40m [0;33;40m    [0m   [32;40m                     [0m    [32;40m░▀█▀▀▀▀[0;1;30;42m░[0;32m█▀ [0m'

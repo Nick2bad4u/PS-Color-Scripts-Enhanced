@@ -5,7 +5,7 @@
 # Source SHA-256: 119d7ae8d86b553c1f32da470be8ccb6d29b69bfbf03ad663f97a06df3a35b35
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-MLMR.ANS by Zeus II (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: MorningLightMountain Rules
 # SAUCE Author: Zeus II
 # SAUCE Group: Mistigris
@@ -18,7 +18,7 @@
 Write-Host '
 [34m████[0;1;34;44m░[0;34m█[0;1;34;44m░░░░▒▓▒▒▓▓▓▄▓[0;1;34;40m██[0;1;34;44m▓[0;1;34;40m████████████████[0;1;34;44m▓▓[0;1;34;40m██[0;1;34;44m▓▄▓▓▓▓▓▒▒░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m████████████████████████[0m
 [34m███[0;1;34;44m░▒░▒▒▒▓▓[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m██████[0;1;34;44m▀▀[0;1;34;40m███[0;1;34;44m▀▀[0;1;31;44m▄▄▄[0;1;31;40m████[0;1;34;44m ▀▀▀[0;1;34;40m█[0;1;34;44m▀▀▀[0;1;31;44m▄▄[0;1;34;44m  ▀▀▀[0;1;34;40m█[0;1;34;44m▓▓▓▒░▒░░▒[0;34m█[0;1;31;44m    When four motiles[0m
-[1;34;44m░[0;34m█[0;1;34;44m░▒▓▒▓▓[0;1;34;40m██[0;1;34;44m██▀▀[0;1;31;44m▄▄▄▄[0;1;31;40m▄[0;1;31;44m▄▄▄▄[0;1;31;40m██[0;1;31;47m▓[0;1;31;40m██[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m████▀▀█[0;1;31;47m▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m██▄[0;1;31;44m▄[0;1;34;44m▀▀▀▀[0;1;34;40m█[0;1;34;44m▓▄▓▒▒░░[0;34m██[0;1;31;44m merged to form the[0m
+[1;34;44m░[0;34m█[0;1;34;44m░▒▓▒▓▓[0;1;34;40m██[0;1;34;44m██▀▀[0;1;31;44m▄▄▄▄[0;1;31;40m▄[0;1;31;44m▄▄▄▄[0;1;31;40m██[0;1;31;47m▓[0;1;31;40m██[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m████▀▀█[0;1;31;47m▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m██▄[0;1;31;44m▄[0;1;34;44m▀▀▀▀[0;1;34;40m█[0;1;34;44m▓▄▓▒▒░░[0;34m██[0;1;31;44m                   [0m
 [1;34;44m░▒▄▓[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m██[0;1;34;44m▀▀▀[0;1;31;44m▄[0;1;31;40m██[0;1;31;47m▓▓▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m▀▀▀▀▀▀▀▀▀▀▀█[0;1;31;47m▒▒▒▓[0;1;31;40m▀[0;1;30;40m▐▌[0;1;31;47m▒▓▓[0;1;31;40m██▀▀███[0;1;31;44m▄[0;1;34;40m███[0;1;34;44m▀▀▓▒▒[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;31;44m    new immotile,[0m
 [1;34;44m▒▓[0;1;34;40m███[0;1;34;44m▀▀▀[0;1;34;40m█[0;1;31;44m▄[0;1;31;40m██[0;1;31;47m▓▒▒[0;1;31;40m█▀▀[0m [1;33m▄▄▄███████▄▄▄[0m  [1;31m▀▀[0m [1;30m▌█▄[0m [1;31;47m▒▒[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m██[0;1;31;44m▄▄[0;1;34;44m▀▀▀[0;1;34;40m█[0;1;34;44m▓▄▒▒░░░[0;34m█[0;1;34;44m░[0;1;31;44mthe last thing[0m
 [1;34;44m▓▓[0;1;34;40m█[0;1;34;44m▀▀▀[0;1;31;44m▄▄▓[0;1;31;47m▓[0;1;31;40m█[0;1;31;47m▓▓▒[0;1;31;40m▀[0m [1;33m▄████████████████▄[0m [1;30m▄[0;1;30;47m▀[0;1;30;40m ██▌[0m [1;31m▀▀█[0;1;31;47m▒▒▓▓▓▓[0;1;31;44m▓[0;1;31;40m███[0;1;31;44m▄▄▄▓▓▒▒[0;1;34;44m▒[0;1;31;44m░[0;1;34;44m░░[0;1;31;44m  they saw was[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 89c6dff0e9f8f93f2146cddac4f2631418761a4fd5f3af152f3b85d6fd776aa1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-ABX0.ANS by Transient (apathy); released in apathy12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Abraxas
 # SAUCE Author: Transient
 # SAUCE Group: apathy
@@ -28,7 +28,7 @@ Write-Host '
       [36m▀▀[0;1;36m▄[0;1;37m▄▄▄▄▄[0;1;36m▄█[0;1;36;46m▄■░[0;36m▌[0;1;32m░[0;32m▀[0m [36m█[0;1;37;46m░[0;1;36;46m▓[0m    [36m▀[0;1;36m█[0;36m▄[0;32m▀[0;1;32m░[0m  [36m▀▀▀[0;32m ▄ ▀▀[0m [36m▄[0;1;37;46m▄[0;1;36;46m░[0m    [1;36;46m▓[0;1;36;40m█▄[0m [32m▀[0;1;32m▀[0m [1m▀[0;1;36;46m░░░[0;36m█▀[0;37m [0;32m▀[0;1;32m▀[0;36m▄█▀[0m
          [36m▀▀▀▀▀▀▀▀█[0;1;37;46m▀[0;36m▄[0;1;32m [0;32m▀[0;36m▐█[0;1;37;46m■[0;36m▌ [0m     [36m▀▀[0;1;36;46m░▒[0;36m▄▄▄▄▄▄▄[0;1;36;46m░░░[0;1;37;46m▓▀[0;36m▀[0m    [36m▀[0;1;36;46m▒▓▀[0;1;37;46m▄▄░[0;1;36;46m▒░░░[0;1;37;46m▄▄░[0;36m█▀▀[0m
            [1;37ma[0;1;33mb[0;1;37mx![0m  [1;37m ▀█[0;1;36;46m░[0;36m▄[0;1;36;46m■▀░[0m [1;36;40ma[0;36mb[0;1;37mr[0;1;36ma[0;1;37mxa[0;1;36ms[0;1;37m [0m  [36m▀▀[0;1;36;46m▒▀█▀[0;1;37;46m░░[0;36m▀▀[0;37m    [0m  [37m     [0;36m▀▀▀▀▀[0;1;36;46m░[0;36m▀▀[0m
-                    [36m▀▀▀▀[0;37m [0m [1;36mo[0;36mp[0;1;37mp[0;1;36me[0;1;37md:[0m      [36m ▀[0;1;36;46m░[0;1;37;46m▒[0;36m▀ [0;37m  Ha[0;1;37mppy [0;1;32mBirt[0;32mhday [0m
+                    [36m▀▀▀▀[0;37m [0m [1;36m [0;36m [0;1;37m [0;1;36m [0;1;37m  [0m      [36m ▀[0;1;36;46m░[0;1;37;46m▒[0;36m▀ [0;37m    [0;1;37m    [0;1;32m    [0;32m     [0m
                      [1;37m │[0m  [1;37m [0;1;36m [0;36m [0;1;37m [0;1;36m [0;1;37m  [0;36m [0;1;37m  [0m   [1;37m [0;36m▐[0;1;37;46m▒▓[0;36m▌ [0m  [37m  [0;1;37m    [0;1;32m    [0;32m     [0m
                 [32m [0m     [1;37m [0m   [1;36m [0;36m [0;1;37m [0;1;36m [0;1;37m [0m       [36m▐[0;1;36;46m▄▓[0;1;37;46m▐▌[0;36m [0m  [37m  [0;1;37m    [0;1;32m    [0;32m     [0m
                       [1;37m│[0m   [1;36mt[0;36mr[0;1;37mansi[0;36me[0;1;37mnt![0m   [36m▀[0;1;36;46m▀[0;1;37;46m▀[0;36m▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 807a73f9d82d0f6ce978a430571b1b2cda928603ccb79394ced8cd4824cd6428
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WZ-BURMA.ANS by Whazzit (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: All the King's Horses
 # SAUCE Author: Whazzit
 # SAUCE Group: Blocktronics
@@ -61,4 +61,4 @@ Write-Host '
                   [31m████████████████████████████████▒█████████▒█████████████████[0;1;38;2;85;85;85m █[0;5;30;48;2;85;85;85m▄▀[0;1;38;2;85;85;85m███████▓███▓████[0;1;38;2;85;85;85;47m▓▓[0;5;30;48;2;85;85;85m▐[0;1;30;47m▓▓▓▓▓[0;1;38;2;85;85;85;40m█[0m▒[1;30;47m▒▒▒▒▓[0;1;38;2;85;85;85;40m██[0;5;30;48;2;85;85;85m▄▄▄▄▄[0m
                   [31m████████████████████████████████▒█████████▒█████████████████[0;1;38;2;85;85;85m ██▓█████▓[0;5;30;48;2;85;85;85m▐[0;1;30m▓[0;1;38;2;85;85;85m██▓▓██[0;1;38;2;85;85;85;47m▓▓▓▓[0;5;30;48;2;85;85;85m▐[0;1;30;47m▓▓▓[0;5;30;48;2;85;85;85m▄▄▄[0;1;38;2;85;85;85m██[0;5;30;48;2;85;85;85m▀▀▀[0;1;38;2;85;85;85m███▓▓▓[0;5;30;48;2;85;85;85m▌[0;1;30m▓[0m
                   [31m████████████████████████████████▒█████████▒█████████████████[0;1;38;2;85;85;85m █▓▓█████▓[0;5;30;48;2;85;85;85m▐[0;1;30m▓[0;1;38;2;85;85;85m██▓▓██[0;5;30;48;2;85;85;85m▄▄[0;1;38;2;85;85;85m█[0;5;30;48;2;85;85;85m▀▀▀[0;1;30;47m▓▓▓[0;1;38;2;85;85;85;40m█[0;5;30;48;2;85;85;85m▌[0;1;30;47m▓▓▓▓▓[0;1;38;2;85;85;85;40m█████▓[0;5;30;48;2;85;85;85m▌[0;1;30m▓[0m
-                 [31m█████████████████████████████████▒█████████▒█████████████████[0;1;38;2;85;85;85m ▓▓▓[0;5;30;48;2;85;85;85m▌[0;1;38;2;85;85;85m█▓▓▓▓█▓▓[0;5;30;48;2;85;85;85m▄▄▀▀[0;1;38;2;85;85;85m█[0;5;30;48;2;85;85;85mwhazzit / blocktronics[0;1;38;2;85;85;85m██[0m'
+                 [31m█████████████████████████████████▒█████████▒█████████████████[0;1;38;2;85;85;85m ▓▓▓[0;5;30;48;2;85;85;85m▌[0;1;38;2;85;85;85m█▓▓▓▓█▓▓[0;5;30;48;2;85;85;85m▄▄▀▀[0;1;38;2;85;85;85m█[0;5;30;48;2;85;85;85m                      [0;1;38;2;85;85;85m██[0m'

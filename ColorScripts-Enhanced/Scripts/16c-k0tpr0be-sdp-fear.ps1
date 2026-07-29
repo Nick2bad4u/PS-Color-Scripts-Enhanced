@@ -5,7 +5,7 @@
 # Source SHA-256: c5e2006c47d4cb95c0c3ca7646b7f02b6fef236717a2f849c704a4beeccaf2c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SDP-FEAR.ANS by s?dp0l (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: preview
 # SAUCE Author: s?dp0l
 # SAUCE Group: fbk
@@ -29,14 +29,14 @@ Write-Host '
                         [1;31m [0m [1;30m░[0m   [1;30m░[0m [30;47m▒[0;1;37;47m▓[0;1;37;40m █[0;1;37;47m▓[0;33m [0;1;37;47m░[0;1;37;40m █▄[0m [1;30m▒[0m  [1;30m [0m     [1;32m       OTHER crews[0m
                   [1;31m [0m      [1;30m▒[0m   [1;30m░▒[0m [1;47m▒[0;1;40m█[0m [1m█[0;1;47m▓[0;33m [0;1;37;47m▒[0;1;37;40m █[0;1;37;47m▓[0m [1;30m▒░[0m [1;30m [0m    [1;32m  [0m [1;32mtell B O R ING stories[0m
                    [1;31m [0m     [1;30m▒[0m   [1;30m░▒ [0;1;31m▄▄▄▄▄▄▄▄▄▄[0m  [1;30m▒[0m [1;30m [0m     [1;32mabout a p a r tmentz and[0m
-                    [1;31m [0m    [1;30m░[0m   [1;30m░▒[0;1;31m▐████████[0;1;31;43m▓▒▒[0m [1;30m░[0m [1;30m [0m      [1;32mpillow fights, the[0m
+                    [1;31m [0m    [1;30m░[0m   [1;30m░▒[0;1;31m▐████████[0;1;31;43m▓▒▒[0m [1;30m░[0m [1;30m [0m      [1;32m                  [0m
                      [1;31m [0m    [1;30m ░[0m  [1;30m░[0;1;31m▐██▄▄█████[0;1;31;43m▓▒[0;1;31;40m▌[0m  [1;30m [0m           [1;32m█▌▀▀[0m [1;32m█▌▀▄[0m [1;32m▐█[0m [1;32m█ WOU [0m
                              [1;30m [0m  [1;30m░[0;1;31m▀▀▀▀▀▀▀▀▀[0;1;30m░  [0m            [1;32m▐█[0m [1;32m▀ ▐█▐██[0m [1;32m█▌▀▄[0m    [1;32mLD[0m
                 [1;31m▄[0;1;31;43m███[0m [1;31m▄▄▄▄▄▄▄[0;1;30m  ░▒  [0m  [1;31m██[0;1;31;43m░[0m [1;30m░░[0m             [1;32mbring  YOU the F U LL[0m
                [1;30m░[0;1;31;43m██▓[0m    [1;31m▀▀▀▀█████████▄▄▄▄████▄▄▄▄[0;1;30m▄[0m        [1;32mt r u t h  about[0m [1;32mtheir[0m
                [1;30m▒[0;1;31m [0m               [1;31m▀[0;1;31;43m▀[0;1;31;40m██[0;1;31;43m▓[0;1;31;40m██[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓░ [0m   [1;31m▀[0;1;31;43m▓[0;1;31;40m█▄[0;1;30;40m▄[0m    [1;32mSATANIC RITUALS[0m
                [1;30m░[0m                  [1;31m█[0;1;31;43m▓[0;30;43mF[0;1;31;41m▐[0;1;31;40m█[0;1;31;41m▀[0;30;43mk[0;1;31;43m░▓[0m       [1;31;43m▒▓[0;1;30;40m▒ [0m  [1;32m([0m [1;32mincl uuu ding THE[0m
-               [1;30m░[0m                 [1;31m ██[0;1;31;41m ▄[0;30;43mB[0;1;31;41m▐▌[0;1;31;40m█[0;1;31;43m▓[0m       [1;31m█[0;1;31;43m▒[0;1;30;40m▒[0m    [1;32mSLAUGHTERING of[0m [1;32mlittle[0m
+               [1;30m░[0m                 [1;31m ██[0;1;31;41m ▄[0;30;43m [0;1;31;41m▐▌[0;1;31;40m█[0;1;31;43m▓[0m       [1;31m█[0;1;31;43m▒[0;1;30;40m▒[0m    [1;32m               [0m [1;32m      [0m
                [1;30m▒[0m                  [1;31m██[0;1;31;41m▌[0;1;31;40m█[0;1;31;41m▌[0;1;31;40m████[0m        [1;30m▒░[0m          [1;32mBABIES as well[0m
                [1;30m▒[0m                 [1;31m█████████▀[0m [1;31m▄[0;31m▄[0m     [1;30m▓░[0m      [1;32mas PER V E R SE[0m
                [1;30m▒[0m                [1;31m▐██████▀▄▄██[0;31m█▀█[0m    [1;30m▓ [0m     [1;32mSEXUAL practiceez[0m [1;32m)[0m

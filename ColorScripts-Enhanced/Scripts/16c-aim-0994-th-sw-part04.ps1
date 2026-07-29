@@ -5,7 +5,7 @@
 # Source SHA-256: e4a12ecd6b6da2bb8a22b63f333c08a41aa14707382f408288dd818f0c8a40f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-SW.ANS by TH/LP (AiM); released in aim-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shadow World BBS ANSi
 # SAUCE Author: TH/LP
 # SAUCE Group: AiM
@@ -50,7 +50,7 @@ Write-Host '
 [1m   │  [0m│  [1m│[0m                    [1;30m +[0m1-[1m818-Pri-V[0mat[1;30me [0m                             [1m│[0m
 [1m   │  │  │[0m                     [1m [0;1;30mN[0mUV[1m Enfor[0mce[1;30md[0;1;37m [0m                               [1m│[0m
 [1m   │  │  [0m│                      [1;30mN[0mUP[1m Requi[0mre[1;30md[0m                   [1;30m  [0m┌[1m──┐[0m       [1m│[0m
-[1m   │  [0m│  [1;30m│[0m      [1;30m 0[0m-3 [1mDay WareZ [0m [1m■[0m  [1mv32bis  ■  v42bis[0m  [1m■[0m  vF[1;30mC [0m [1;30m [0m  [1;30m│  [0m│       [1m│[0m
+[1m   │  [0m│  [1;30m│[0m      [1;30m  [0m   [1m          [0m [1m■[0m  [1m        ■        [0m  [1m■[0m    [1;30m  [0m [1;30m [0m  [1;30m│  [0m│       [1m│[0m
 [1m   └[0m─[1;30m─│─[0m─[1m─────────────────────────────────────────────────────────[0m─[1;30m─│─[0m─[1m─────┘[0m
 [1m   ┌───[0m─[1;30m─[0m│[1;30m─[0m─[1m────────────────────────────────────────────────────[0m─[1;30m│[0m─[1m─────────┐[0m
 [1m   │  [0;1;30m│  │[0;1;37m  [0;1;30m [0m       [1;30m [0m  [1m        ■       ■              [0m  [1;30m [0;1;37m      [0;1;30m  │  │[0m       [1;37m│[0m

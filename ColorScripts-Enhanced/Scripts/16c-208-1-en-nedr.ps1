@@ -5,7 +5,7 @@
 # Source SHA-256: 3df7c34619de93ed9e7efdfdc81680182c51d556502891a815fc6bbe45b176f1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-NEDR.ANS by el ni$o (room 208); released in 208-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: needle drama
 # SAUCE Author: el ni$o
 # SAUCE Group: room 208
@@ -30,12 +30,12 @@ Write-Host '
 [1;37m  [0m  [31m            [0;33m [0;31m ▐▀[0;33;41m ▀▀[0;31;40m███[0;1;31;40m▀[0;31m▀▄[0;1;30;41m▄▄[0;31;47m▀▀[0;1;30;40m█▀▀[0m             [32m tHiS aNzEE iS ([0;1;36mC[0;32m)[0m
 [1;37m  [0m  [31m             ░░█[0;1;31;47m▓[0;1;31;41m▄[0;33m▄[0;31m▀▀▀▀▀▀▀▀  [0m       [36m  [0m        [32meL nIÑ0 1998.[0m
 [1;37m  [0m         [31m▄[0;1;31m▄[0;31m▄[0;33m [0;34m▀▄▄▄[0;33m▀[0;1;31;41m▀▄▄[0;33;41m▄[0;1;31;41m [0;31m██▄▄[0;1;30m▄[0m            [36m  [0m       [32miF y0u rIP IT i''LL[0m
-[1;37m  [0m     [33m▄[0;1;31;43m▄[0;1;31;47m▀▓[0;1;31;41m▀[0;31m▀█▀ [0;34m▀[0;34;46m▓[0;36;40m▀[0;34;46m▒[0;36;40m▄[0;31;40m▀▐[0;1;31;41m▀[0;33;41m▀▀[0;1;31;41m [0;1;30;41m▀[0;1;30;47m█[0;1;30;40m░░[0m                   [32mhAVE tO tRAcK yOU dOWN[0m
+[1;37m  [0m     [33m▄[0;1;31;43m▄[0;1;31;47m▀▓[0;1;31;41m▀[0;31m▀█▀ [0;34m▀[0;34;46m▓[0;36;40m▀[0;34;46m▒[0;36;40m▄[0;31;40m▀▐[0;1;31;41m▀[0;33;41m▀▀[0;1;31;41m [0;1;30;41m▀[0;1;30;47m█[0;1;30;40m░░[0m                   [32m                      [0m
 [1;37m  [0m    [31m▐[0;1;31;43m▐[0;1;31;41m▄[0;33;41m▄[0;31;40m▄█▀[0;1;30;40m▀[0;31m [0m   [36m▀▄[0;34;46m░[0;36;40m█▀[0;31;40m  ▀[0;1;30;40m▀▀[0;1;30;47m▓[0;1;30;40m▌[0;31m    [0m                [32mand tAKE a hUgE bITE oF[0m
 [1;37m  [0m    [31;43m▄[0;1;31;41m▓▒[0;31m █[0;1;30m▀[0;31m [0m       [36m▀[0;1;36;46m░▄▄[0;36m▄[0m                         [32my0U''r bALLZ!@#%[0m
 [1;37m  [0m    [1;31;41m░[0;1;30;41m▄[0;31m▀ ▌[0;1;30m [0m          [36m▀[0;1;37m▀[0;1;36;46m▀[0;36m█[0;1;30m▄░[0m
-[1m  [0m    [31m▌[0;37m  [0;1;30m░▌[0m             [1;30m ▀[0m [1;30m▄[0;33m  [0;31m▄[0;33m    [0;31m░░[0;33m  [0m           [32mjust kidding, use it[0m
-[1;37m  [0m    [1;30m▌[0m   [1;30m  [0m               [31m▄[0;1;31;41m▄▄[0;1;31;47m▓[0;1;31;41m▄▄[0;33m▄[0;31m▐██[0;1;30m▄[0m            [32mif you want to.[0m
+[1m  [0m    [31m▌[0;37m  [0;1;30m░▌[0m             [1;30m ▀[0m [1;30m▄[0;33m  [0;31m▄[0;33m    [0;31m░░[0;33m  [0m           [32m                    [0m
+[1;37m  [0m    [1;30m▌[0m   [1;30m  [0m               [31m▄[0;1;31;41m▄▄[0;1;31;47m▓[0;1;31;41m▄▄[0;33m▄[0;31m▐██[0;1;30m▄[0m            [32m               [0m
 [1;37m  [0m  [1;30m ▐  [0m                 [31m░▓[0;1;31;41m▀[0;1;31;47m▄░▓[0;1;31;43m▄[0;1;31;41m▄[0;33;41m▄[0;31;40m█[0;30;41men[0;31;40m█[0;1;30;40m▌[0m
 [1m  [0m   [1;30m [0m                      [31m▀▀[0;1;31;41m▀▀[0;1;31;43m▄[0;1;31;41m▄[0;33;41m▄▄[0;31;40m█[0;1;30;40m▀[0m
                                 [31m▀[0;1;31;41m▀[0;31m▀[0m'

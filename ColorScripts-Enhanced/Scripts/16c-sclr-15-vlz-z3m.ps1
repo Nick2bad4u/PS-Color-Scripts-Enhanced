@@ -5,7 +5,7 @@
 # Source SHA-256: 74ea862a4c09f24aa94bbef7b43d9903c88ee56afc359723188ac8af103ea4c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VLZ-Z3M.ANS by Vilaz (sclr-15); released in sclr-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -29,7 +29,7 @@ Write-Host '
 [1;37;40m    [0;33m▀█[0;1;33;43m ▄▄▄ ▓▓[0;33m█[0;1;33;43m░[0;33m██[0;1;33;43m   [0;33m███▀▀▀▀       ▀▀▀▀████▄ █▀     [0;1;33;43m░[0;33m   [0;1;37m▐██ [0;33m███████████████ [0;1;37m▐██[0;1;37;40m  [0m
 [1;37;40m      [0;33m▀[0;1;33;43m▀██[0;33m█▀▀▀▀▀        [0mcyclonus IS:     [33m▀▀[0m▄           [1m▐██ [0;33m███████████████ [0;1;37m▐██[0;1;37;40m  [0m
 [1;37;40m       [0m▄▀                   [1m░               [0m█      [1;33;43m░[0;33m   [0;1;37m▐██ [0;33m██[0;1;37;43msenen!?zone[0;33m██ [0;1;37m▐██[0;1;37;40m  [0m
-[1;37;40m      [0m█  [1;30mvilaz   [0;1;37m▄▄▄▄    ▄▄▄[0;1;37;47m▓▓[0;1;37;40m░░  [0;1;30;40mslash     [0m█      [1;33;43m░[0;33m   [0;1;37m▐██ [0;33m█[0;1;37;43m (c)cyclonus  [0;1;37;40m ▐██  [0m
+[1;37;40m      [0m█  [1;30m        [0;1;37m▄▄▄▄    ▄▄▄[0;1;37;47m▓▓[0;1;37;40m░░  [0;1;30;40m          [0m█      [1;33;43m░[0;33m   [0;1;37m▐██ [0;33m█[0;1;37;43m              [0;1;37;40m ▐██  [0m
 [1;37;40m   [0m▄██▌  [1;30mkeeen  [0;1;37m█[0;1;37;47m▓▓█[0;1;37;40m███▄███▀███   [0;1;30;40mudaleator [0m▓██▄   [1;33;43m░[0;33m   [0;1;37m▐██ [0;33m▀█████████████▀ [0;1;37m██▌[0;1;37;40m  [0m
 [1;37;40m  [0m██▓█   [1;30mseltorn [0;1;37m▀███▀██▀████▀▀   [0;1;30m..and    [0m░▓▓███  [1;33;43m░[0;33m    [0;1;37m███▄▄ [0;33m▀▀▀▀▀████▀  [0;1;37m███[0;1;37;40m   [0m
 [1;37;40m   [0m▀██   [1;30mblaker     [0;1;37m▀▀▀           [0;1;30mmaybe U? [0m░▓▓██▀  [1;33;43m░[0;33m     [0;1;37m▀████████▄▄▄▄▄▄████[0;1;37;40m    [0m

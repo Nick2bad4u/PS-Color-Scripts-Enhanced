@@ -5,7 +5,7 @@
 # Source SHA-256: 05fa2d6d161e3546999f5ea6b5f00f9565d713fccc8d29a735bb3a3138e1c158
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S1-MATRX.ANS by sma!1 (klfrogz!); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: vaginal lubrication login matrix
 # SAUCE Author: sma!1
 # SAUCE Group: klfrogz!
@@ -20,8 +20,8 @@ Write-Host '
 [34m██▄[0;37m [0;1;33m▄[0m [34m▀███████▀[0;37m [0;1;33m█[0;1;33;43m▓[0m [34m████▀[0;37m [0;1;33;43m▓[0;1;33;40m█[0m [34m██████████▀▀▀███████████████████████████████████████[0m
 [34m███▄[0;37m [0;1;33m█▄[0m [34m▀█████[0;37m [0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▒[0m [34m███▀[0;37m [0;1;33;43m▓[0;1;33;40m█[0;33m▀[0;37m [0;34m██████▀▀[0;37m [0;1;33m▄[0m [1;33m▀[0m [34m██████▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓███[0m
 [34m████▄[0;37m [0;1;33;43m▒[0;1;33;40m█▄[0m [34m▀██[0;37m [0;1;33m▄[0;1;33;43m░[0;1;33;40m▀[0;33m▀[0;37m [0;34m▀▀▀ [0;1;33;43m░[0;1;33;40m█[0;1;33;43m░[0m [34m███▀▀ [0;1;33m▄▄█[0;1;33;43m▒[0;1;33;40m▀[0m [34m████████ [0m         [34mlogin vl!.[0m         [37m [0;34m█[0;30;44m [0;34;40m█[0m
-[37;40m [0;34;40m▀███▄[0;37;40m [0;1;33;43m░▓[0;33m▀[0;37m [0;34m▀[0;37m [0;33m▄[0;1;33m▄▄[0;1;33;43m▄▓██[0;1;33;40m█[0;1;33;43m▄[0;1;33;40m▄▄[0;33m▄▀[0;37m [0;34m▀[0;37m [0;1;33m▄▄██[0;1;33;43m▓▒[0;33m▀[0;37m [0;34m▄█████████ [0m   [34mwrite message to sma!.[0m   [37m [0;34m█[0;30;44m [0;34;40m█[0m
-[1;33;40m█▄[0m [34m▀▀▀[0;37m [0;1;33m [0;33m▄[0;1;33m▄[0;1;33;43m▄▓[0;1;33;40m█████████████[0;1;33;43m▄▒ [0;33m▄▄[0;1;33m▀▀[0;1;33;43m [0m [34m▄███████▀▀▀██ [0m   [1;37mapply for axes[0;34m [0;1;37mon[0;34m [0;1;37mvl!.[0m    [34m███[0m
+[37;40m [0;34;40m▀███▄[0;37;40m [0;1;33;43m░▓[0;33m▀[0;37m [0;34m▀[0;37m [0;33m▄[0;1;33m▄▄[0;1;33;43m▄▓██[0;1;33;40m█[0;1;33;43m▄[0;1;33;40m▄▄[0;33m▄▀[0;37m [0;34m▀[0;37m [0;1;33m▄▄██[0;1;33;43m▓▒[0;33m▀[0;37m [0;34m▄█████████ [0m   [34m                      [0m   [37m [0;34m█[0;30;44m [0;34;40m█[0m
+[1;33;40m█▄[0m [34m▀▀▀[0;37m [0;1;33m [0;33m▄[0;1;33m▄[0;1;33;43m▄▓[0;1;33;40m█████████████[0;1;33;43m▄▒ [0;33m▄▄[0;1;33m▀▀[0;1;33;43m [0m [34m▄███████▀▀▀██ [0m   [1;37m              [0;34m [0;1;37m  [0;34m [0;1;37m    [0m    [34m███[0m
 [1;33m▀[0;1;33;43m▒▀[0;1;33;40m▀[0m [33m▄[0;1;33;43m▒█[0;1;33;40m█[0;1;33;43m█[0;1;33;40m██████████████████[0;1;33;43m▄░ [0;33m▄[0;37m  [0;34m████▀▀[0;1;33m ▄▄▀[0m [34m██ [0m        [34msay goodbye!.     [0;37m [0;34m  █[0;30;44m [0;34;40m█[0m
 [37;40m [0;33;40m▀[0;1;33;40m [0;33m▄[0;1;33;43m▒[0;1;33;40m█████████████████████████[0;1;33;43m░ [0;33m█▄[0;37m [0;34m▀[0;1;33m ▄▄█[0;1;33;43m▀ [0;34m ▄███▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓███[0m
 [34m▀[0;33m [0;1;33;43m░█[0;1;33;40m███████████████████████████[0;1;33;43m▓ [0;33m██[0;37m [0;1;33;43m█[0;1;33;40m█[0;1;33;43m▒▀[0;33m▀[0;1;33m [0;34m▄█████████████████████████████████████[0m

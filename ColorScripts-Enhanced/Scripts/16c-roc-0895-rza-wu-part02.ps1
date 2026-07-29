@@ -5,7 +5,7 @@
 # Source SHA-256: 7c9f518945c6b31da6741bd5ab091e0559ef2977a2b9513f544f1f034503f363
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZA-WU.ANS by The RZA (Rulers Of Chaos); released in roc-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Wu Tang
 # SAUCE Author: The RZA
 # SAUCE Group: Rulers Of Chaos
@@ -18,7 +18,7 @@ Write-Host '
      [31m▄[0m        [31m [0m [1;30m [0m  [31m  [0m
      [31m [0;1;31m■[0m   [31m▀[0m   [31m▒[0;1;30m [0;31m▄[0;1;30m [0;31m▀[0m           [31m░[0m      [31m▄[0;1;31m [0;1;31;41m▄[0m
   [31m■[0m [31m░[0m [31m▓[0;1;31;41m▄[0;31m▄▄ [0m [31m▄▄█ [0m              [31m▒[0m [31m▀[0m [31m▄█▄[0m  [1;31;41m▀[0;1;31;40m▀[0m
-    [31m▓[0m [31m▐[0;1;31;41m▒[0;1;31;40m▓[0;1;31;41m▒[0;31m▄[0;1;31;41m▄[0;1;31;40m▀[0;31m▀[0m   [31m▄[0m            [31m▓■█[0m [31m■█[0;1;31;41m▀▓▒▒░[0;31m█▄▄▄▄[0m             [31mwhat the bloodclot?[0m
+    [31m▓[0m [31m▐[0;1;31;41m▒[0;1;31;40m▓[0;1;31;41m▒[0;31m▄[0;1;31;41m▄[0;1;31;40m▀[0;31m▀[0m   [31m▄[0m            [31m▓■█[0m [31m■█[0;1;31;41m▀▓▒▒░[0;31m█▄▄▄▄[0m             [31m                   [0m
     [31m█▄[0;1;31;41m░▄▒▓[0;1;31;40m█[0;1;31;41m▌[0;1;31;40m [0;31m▄[0m  [31m▓[0;1;31;41m▄[0;31m█[0m          [31m▄█▐█[0;1;31;41m▄▒▓[0;31m▄▄▓▄▄[0m  [31m▀[0m [31m▒█▄▄[0m                [1;31m [0m [1;31m       [0m
    [31m▄█[0;1;31;41m▀[0;31m▀[0m [1;31;41m▀▀[0;31m▐[0;1;31m█[0;31m▌[0m    [31m▀[0m         [31m▀■ [0m [31m█[0;1;31;41m▒██[0;31m█▀▀ ▀▓██▄█▄  [0m [31m▒▀▀▄▄▓ [0m        [1;31m      [0m
  [31m ▀ ▀[0m [31m▄▄[0m [31m▒[0m [31m▄█[0m             [31m▀  ▀▀█[0;1;31;41m▓▀▀▀▒░[0;31m█▄▄▄▄░[0m  [31m▀░▄▄[0m    [31m ░▄[0m      [1;31m  [0m [1;31m  [0m

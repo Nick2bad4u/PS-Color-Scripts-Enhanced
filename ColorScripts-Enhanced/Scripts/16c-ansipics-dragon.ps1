@@ -5,7 +5,7 @@
 # Source SHA-256: 010633fa2796a9c8a4f82cbd0ba39e3edca85386424c26fd51e9d2c624bbecac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DRAGON.ANS by Merk (ansipics); released in ansipics and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -18,7 +18,7 @@ Write-Host '
          [31;40m [0m                     [1;31;40m▀[0;1;31;41m▄[0;31;40m▄▌█▄[0;1;31;41m▀▄▀▄[0;31;40m████▄  [0;1;31;40m▀▄[0m
        [31;40m  [0m [31;40m      [0m           [5;30;41m▌[0;5;31;40m▌[0;31;40m ▐▄█[0;1;33;41m▄▄[0;31;40m██[0;1;31;41m▀[0;31;40m▐██[0;1;31;41m▀█▄▀▄[0;31;40m▀[0m
          [31;40m      [0;1;31;40m [0;31;40m           ▐▄▄▄█[0;1;33;41m▀[0;1;33;40m▀[0;1;33;41m█▌[0;31;40m█▌█████[0;1;31;41m▀█[0m
-       [31;40m  [0;1;31;40mAnsi[0;31;40m [0;1;31;40mBy: Merk[0;31;40m     ▐[0;31;41m [0;1;35;41m ▀[0;31;40m▀ [0;1;33;41m█▀[0;31;40m██▄▀██████[0;1;31;41m▀[0;1;31;40m▄[0m
+       [31;40m  [0;1;31;40m    [0;31;40m [0;1;31;40m        [0;31;40m     ▐[0;31;41m [0;1;35;41m ▀[0;31;40m▀ [0;1;33;41m█▀[0;31;40m██▄▀██████[0;1;31;41m▀[0;1;31;40m▄[0m
        [31;40m [0m [31;40m  [0;1;31;40m  [0;31;40m     [0;1;31;40m [0;31;40m         ▀▀▀ [0;1;33;40m▐[0;1;33;41m█▌[0;31;40m████▄▄▄▀▀ ▀█[0m
        [31;40m        [0m            [31;40m   [0m   [1;33;41m█▀[0;31;40m████████▄   [0;1;31;40m▀[0m
                                 [31;40m▄███[0;1;33;41m▄▄█▄▄[0;31;40m███▌▄[0m

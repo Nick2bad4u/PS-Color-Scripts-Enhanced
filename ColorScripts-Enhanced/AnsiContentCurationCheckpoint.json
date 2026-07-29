@@ -5,7 +5,7 @@
         "rejectedContentSources": 1382,
         "rejectedDuplicateRenderSources": 371,
         "rejectedQualitySources": 13992,
-        "reviewedAnalysisExceptions": 404
+        "reviewedAnalysisExceptions": 403
     },
     "auditDate": "2026-07-28",
     "baseline": {
@@ -17,12 +17,12 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 42058,
+        "totalRowsBlanked": 43955,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
         "sourceFidelityRowsRestored": 34,
-        "totalTrailingRowsRemoved": 23844,
+        "totalTrailingRowsRemoved": 23845,
         "reviewedContentRowsBlanked": 1320,
         "contactOrPromotionalRowsBlanked": 646,
         "curationCompactedRows": 8610,
@@ -33,8 +33,8 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 8098,
-        "residualMixedTextTrailingRowsRemoved": 85,
+        "residualMixedTextRowsBlanked": 9995,
+        "residualMixedTextTrailingRowsRemoved": 86,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
         "rebalancedSourceRowsRetained": 5078,
@@ -88,6 +88,7 @@
         "mixedTextLedger4": "AnsiResidualMixedTextReviewLedger4.json",
         "mixedTextLedger5": "AnsiResidualMixedTextReviewLedger5.json",
         "mixedTextLedger6": "AnsiResidualMixedTextReviewLedger6.json",
+        "mixedTextLedger7": "AnsiResidualMixedTextReviewLedger7.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -114,7 +115,10 @@
         "mixedTextPass5TrailingRowsRemoved": 7,
         "mixedTextPass6FilesRedacted": 1276,
         "mixedTextPass6RowsBlanked": 1943,
-        "mixedTextPass6TrailingRowsRemoved": 5
+        "mixedTextPass6TrailingRowsRemoved": 5,
+        "mixedTextPass7FilesRedacted": 1376,
+        "mixedTextPass7RowsBlanked": 1897,
+        "mixedTextPass7TrailingRowsRemoved": 1
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -123,7 +127,7 @@
         "A separate bounded full-corpus contact scan found and removed 96 detector misses across 94 files. The 96 removals are hash-locked; its 44 remaining candidates were reviewed as false positives and are retained as an aggregate checkpoint count.",
         "Twenty-one adult works represented by 46 scripts were removed after official-tag and preview review. Nine adult-tagged but general-audience-safe works represented by 13 scripts have explicit retained-after-review decisions.",
         "Twenty-six reviewed split families represented by 134 scripts were rebalanced without reflowing retained source cells. The hash-locked plan discarded 69 generated presentation rows, removed 544 excessive source-authored leading blank rows, and rejected blank or severely imbalanced outputs.",
-        "The 21 residual severe geometry signals are explicit, hash-locked retention decisions: 10 source-authored leading negative-space compositions and 11 structural, semantic, or repeated-motif tails. The retention verifier scans the full gallery and fails on drift or any unreviewed severe signal.",
+        "The 22 residual severe geometry signals are explicit, hash-locked retention decisions: 10 source-authored leading negative-space compositions and 12 structural, semantic, or repeated-motif tails. The retention verifier scans the full gallery and fails on drift or any unreviewed severe signal.",
         "A second ledger-excluded review changed 154 surviving contact, identifying, commission, and recruitment rows across 41 scripts, retained 18 art-only context rows in the hash-locked review ranges, removed eight complete advertisement or board-information works represented by 27 scripts, and cropped 77 fully rendered-blank leading rows from 12 compact logos.",
         "A third hash-locked mixed-text review blanked 614 rows of readable essays, greetings, release commentary, affiliation lists, and BBS advertising across 77 scripts while preserving ANSI controls, colored backgrounds, line art, shading, and repeated text used as structural texture; one newly empty terminal row was removed.",
         "A fourth hash-locked mixed-text review blanked 1,629 rows of readable prose, labels, greetings, dedications, credits, signatures, release commentary, board information, and placeholder copy across 755 scripts while retaining repeated lettering used as structural texture and large typographic art; 23 newly empty terminal rows were removed.",
@@ -139,6 +143,8 @@
         "An eighth hash-locked mixed-text review blanked 1,943 rows of readable prose, lyrics, labels, greetings, dedications, credits, signatures, release commentary, board information, menu copy, poems, and placeholders across 1,276 scripts while retaining structural, repeated, reversed, and large typographic lettering; five newly empty terminal rows were removed.",
         "One earlier interface-panel row retention was removed after the eighth mixed-text review superseded it with a hash-locked blank-text decision.",
         "Five derivative-attribution analysis exceptions were removed after the eighth mixed-text review blanked the exact prose that had produced those reviewed false-positive findings.",
+        "A ninth hash-locked mixed-text review blanked 1,897 rows of readable prose, lyrics, labels, greetings, dedications, credits, signatures, release commentary, board information, menu copy, poems, and placeholders across 1,376 scripts while retaining structural, repeated, reversed, and large typographic lettering; one newly empty terminal row was removed.",
+        "One derivative-attribution analysis exception was removed after the ninth mixed-text review blanked the exact prose that had produced that reviewed false-positive finding.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
@@ -258,13 +264,13 @@
         "reason": "When a text-only, low-quality, or principally promotional part was removed, every surviving sibling from the same accepted source was also removed if retaining it would omit source rows. After text curation, whole works with identical retained output were deduplicated by preferring the earliest dated or archive-year source, then a stable lexicographic source ID when chronology was tied or unavailable."
     },
     "residualStructuralReviewSignals": {
-        "continuous-split-review": 1958,
+        "continuous-split-review": 1957,
         "dense-split-boundary": 10,
         "extreme-leading-blank-run": 10,
-        "internal-blank-run": 1387,
+        "internal-blank-run": 1389,
         "leading-blank-run": 1844,
-        "orphaned-tail-after-blank-run": 11,
-        "tiny-tail-part": 69
+        "orphaned-tail-after-blank-run": 12,
+        "tiny-tail-part": 70
     },
     "schemaVersion": 1,
     "scope": {

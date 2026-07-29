@@ -5,7 +5,7 @@
 # Source SHA-256: a4d916842470b37000d36d6f5dafd2a8db2f70e7120f7d6797f64cd323954be4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STEALTH.ANS by Plasma (ansis-s); released in ansis-s and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
                                ▄██[1;30;47m▀▀▀     ▀▀▀[0m██▄
                               █[47m                 [0;40m█[0m
                              [40m▐█[0;46m▀▐█[0;40m██[0;1;34;47m▄▄▄▄▄▄▄[0m███[46m▌▀[0;40m█▌[0m
-[40m    [0;1;31;40mA new form of stealth    [0m█[47m [0;1;36;46m▄[0m██[1;34;44m█▀▀[0;34;47m███[0;34;44m [0;34;47m█[0;1;34;44m▀▀[0;1;34;47m█[0m██[1;36;46m▄[0m██
+[40m    [0;1;31;40m                         [0m█[47m [0;1;36;46m▄[0m██[1;34;44m█▀▀[0;34;47m███[0;34;44m [0;34;47m█[0;1;34;44m▀▀[0;1;34;47m█[0m██[1;36;46m▄[0m██
         [1;31mtechnology...[0m       ▐█[1;36;47m▐▌[0m█[1;34;47m█[0;1;34;44m▀[0;34;47m███[0;34;44m    [0;34;47m██[0;1;34;44m▀[0;1;34;47m█ [0;1;36;47m▐▌[0m█▌
                             ██[1;36;47m█ [0;1;34;47m▐[0;1;34;44m▌[0;34;47m██████[0;34;44m [0;1;37;44m▀█▄[0;34;47m█[0;1;34;44m▐[0;1;34;47m▌[0m█[1;36;47m█[0m██
         [34m│[0;1;30mL[0mL[1mLUMA[0mA[1;30mA[0;34m│[0m         [37m▐█[0;1;36;47m▐▌[0m█[1;34;47m█[0;34;47m███████[0;34;44m   [0;1;37;44m█ [0;34;47m█[0;1;34;47m█[0m█[1;36;47m▐▌[0m█▌

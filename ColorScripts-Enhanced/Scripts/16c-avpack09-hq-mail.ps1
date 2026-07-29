@@ -5,7 +5,7 @@
 # Source SHA-256: 7ab9a64d6f7621ea5dc19e2c2da5e9a050ca7d141030e3f576c83d13507e036a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-MAIL.ANS by Harlequin (AV); released in avpack09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mail Menu
 # SAUCE Author: Harlequin
 # SAUCE Group: AV
@@ -16,7 +16,7 @@
 
 Write-Host '
                        [33m       [0;37m   [0;1;32;42m░[0;32m▄[0;37m [0;32m▀[0;1;32;42m░[0;32m▀[0;37m [0;1;32m▄▄▄■[0m [32m▀▀▀[0;37m  [0;1;32m▄▄[0;1;32;42m▓▒░[0;32m▄[0;37m [0;32m▀▀[0;1;32m▀[0;1;32;42m▓▒░[0;32m█▄[0;37m [0;32m [0;1;32m▄■[0m [32m▀[0;37m [0;1;32m▄■[0m [32m▄▄▐[0m
-[30mNo Place For Monsters.[0;37m   [0m     [33m■▄[0;37m  [0;32m▀[0;1;32;42m░[0;1;32;40m [0m [1;32m▄[0;1;32;42m▓▒[0;32m▀[0;37m [0;1;32m▄[0;1;32;42m▓▒░[0;32m█▄[0;1;32m▀[0;1;32;42m▒[0;1;32;40m▀▀[0m [32m▄[0;37m [0;32m▀■[0;37m  [0;32m▄▄[0;1;32;42m▓▒[0;32m▀[0;37m [0;1;32;42m▓▒[0m [32m▄[0;1;32;42m▓▒[0;1;32;40m▀[0m [1;32;42m▓▒[0;32m▀▐[0m
+[30m                      [0;37m   [0m     [33m■▄[0;37m  [0;32m▀[0;1;32;42m░[0;1;32;40m [0m [1;32m▄[0;1;32;42m▓▒[0;32m▀[0;37m [0;1;32m▄[0;1;32;42m▓▒░[0;32m█▄[0;1;32m▀[0;1;32;42m▒[0;1;32;40m▀▀[0m [32m▄[0;37m [0;32m▀■[0;37m  [0;32m▄▄[0;1;32;42m▓▒[0;32m▀[0;37m [0;1;32;42m▓▒[0m [32m▄[0;1;32;42m▓▒[0;1;32;40m▀[0m [1;32;42m▓▒[0;32m▀▐[0m
                     [37m   [0;33m▄■[0;37m   [0;33m▄■▒▓[0;1;33;43m▒[0;1;33;40m▄[0m  [1;32m [0;1;32;42m▒[0;1;32;40m▀[0;32m▀[0;1;31m  [0;1;32m▀▀▀[0;1;31m  [0;32m▀▀▀■[0;1;31m  [0;32m▀▀▀[0;1;31m  [0;32m■▀▀▀▀[0;1;31m  [0;32m▀▀[0;1;31m  [0;32m▀▀[0;1;31m  [0;1;32m▀▀[0;1;31m  [0;32m▐[0m
                      [33m▄▀[0;37m  [0;33m▄█▀░▒▓[0;1;33;43m ░▒▓[0;33m [0;32m▀[0;37m [0;1;31m▄[0;1;31;41m▓▒░[0;31m█▄▄[0;1;31;41m█▓▒░[0;31m▄[0;37m [0;1;31m▄[0;1;31;41m▓▒░[0;1;30;41m░[0;1;31;40m▀[0;1;31;41m█▓▒░[0;31m▄[0;37m [0;1;31m█[0;1;31;41m▓▒░[0;1;30;41m░[0m [1;31m█[0;1;31;41m▓▒░[0;1;30;41m░[0m [1;32;42m▒[0m [32m▐[0m
      [37m▌[0m             [33m■▀ ▄▓▄[0;37m  [0;33m░▒▒▓▓█[0;1;33;43m░▒▓[0m  [1;31;41m▓▒░[0;1;30;41m░[0;1;30;40m▌[0;31m▐▌[0;1;31m▐[0;1;31;41m▒░[0;1;30;41m░▒[0m [1;31;41m▓▒░[0;1;30;41m░▒[0;31m▄[0;1;31;41m▓▒░[0;1;30;41m░▒[0m [1;31;41m▓▒░[0;1;30;41m░▒[0m [1;31;41m▓▒░[0;1;30;41m░▒[0m   [32m▐[0m

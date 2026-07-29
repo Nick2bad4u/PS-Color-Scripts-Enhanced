@@ -5,7 +5,7 @@
 # Source SHA-256: 801aeab6f5149c9c41add4d71d52f55a46074c5e327ec867c8d3e63faa3cc93a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-KRONR.ANS by putrid carcass (twisted); released in twst0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: a template screen for kr0nic emag
 # SAUCE Author: putrid carcass
 # SAUCE Group: twisted
@@ -37,5 +37,5 @@ Write-Host '
 [1;36;46m█░[0;36;45m█[0;35;46m░░[0;36;45m▒░▒[0;35;46m░[0;1;36;46m░[0;36;45m█[0;1;36;46m [0;36;45m███[0;1;36;46m  [0;36;45m█████[0;36;40m▄[0;1;30;40m ▀▀[0m░[1;30;42m▄▄[0;1;32;42m ▀▀▀▀▀▀▀▀▀[0;32m█[0;1;30;42m▄▄[0;1;30;40m█▀▀[0;36m ▄[0;1;36;46m  [0;36;45m▒▓▓█▓▒▓[0;1;35;46m░[0;36m▓▓   [0m   [36m▄▄▄▄[0;30;46m░░[0;1;36;46m  [0;36;45m▓[0;1;36;46m▄▄▄[0;1;36;40m█▀[0;35m [0m
 [1;36;46m█▓▄▄▄[0;35;46m░▒░[0;36;45m█[0;1;36;46m▒ [0;36m██[0;36;45m██[0;36;40m█[0;36;45m█[0;1;36;46m   ░░[0;36m▀▀[0;32m [0;1;37m▄[0;1;32m▄[0m [1;30m▀▀▀▀[0;1;30;47m█[0;1;30;42m▄[0m░░[1;30;42m▄[0;1;30;40m▀▀▀▀[0m [35m  [0;1;36m▀██[0;1;36;46m▄▄[0;36;45m▓██[0;1;36;46m [0;36;45m█▓█▓[0;36;40m█░░▄██[0;1;36;46m    ▄▄▄[0;1;36;40m▓▓█▀▀[0;1;37;40m▀[0;1;36;40m▀[0m
 [1;36m▐[0;1;36;46m██████▄▄▓▒░░ ▄▄▓▓[0;1;36;40m▀[0;36m▀[0;32m [0;1;32m▄▄█[0;1;32;42m▓▀▀▀▀▓▓[0;1;32;40m▄▄▄▄▄▄▄█[0;1;32;42m▓▓▀▀▓[0;1;32;40m▄▄[0;32m [0;1;36m▀▀██[0;1;36;46m█▄▄▄▄   ▒ ▄▄▄[0;1;36;40m███▀▀▀░░[0m
-[35m [0;1;36m [0;1;37m▀▀▀[0;1;37;46m█[0;1;36;46m██████▓▓█[0;1;36;40m▀[0;35m [0;1;32m▄▄██[0;1;32;42m░░▀[0;30;42m [0;1;32;42m kR0NiC - sm0ke it ▀▓██[0;1;37;40m▄[0;1;32;40m▄[0;35m [0;1;36m▀[0;1;37m▀▀[0;1;36m██[0;1;36;46m▓▓█▓[0;1;36;40m█▀▀▀[0;35m [0;1;30m-this sux[0m
+[35m [0;1;36m [0;1;37m▀▀▀[0;1;37;46m█[0;1;36;46m██████▓▓█[0;1;36;40m▀[0;35m [0;1;32m▄▄██[0;1;32;42m░░▀[0;30;42m [0;1;32;42m                   ▀▓██[0;1;37;40m▄[0;1;32;40m▄[0;35m [0;1;36m▀[0;1;37m▀▀[0;1;36m██[0;1;36;46m▓▓█▓[0;1;36;40m█▀▀▀[0;35m [0;1;30m         [0m
 [1;30m-------------------------------------------------------[0m%[35m [0;1;37m150%[0;1;30m [0;1;35mputrid[0;35m¿[0;1;35mcarCass[0m %[1;30m--[0m'

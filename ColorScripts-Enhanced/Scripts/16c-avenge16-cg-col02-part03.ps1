@@ -5,7 +5,7 @@
 # Source SHA-256: d66d7550d4ac5ea5aca1af2c47036c0cc20e39b7a86e84baf44424110254b447
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-COL02.ANS by cryogenic (avenge); released in avenge16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo colly #2
 # SAUCE Author: cryogenic
 # SAUCE Group: avenge
@@ -58,7 +58,7 @@ Write-Host '
        [32m█▀[0;37m [0;32m▀▀[0;1;32;42m▀▀[0;32m█[0;1;32;42m▓▓[0;32m█▄[0m   [35m█▀█[0;1;31;45m░░[0;35m██▄[0;37m [0;35m▄[0;1;31;45m ░░[0;35m███▄▄▄[0;1;31;45m░█▀[0;35m█[0;1;31;45m░░[0;35m██▀[0;37m [0;1;31;45m░░[0;35m██[0;37m [0;35m▀█[0;37m  [0;1;32;42m▓▓[0;32m█[0;1;32;42m█▀[0;1;32;40m▀▀[0;1;32;42m▓ ▀▀[0;32m▀▀█▄[0;1;32m▒[0;32m▄[0m
          [1;30;42m▄[0;32m█▄[0;1;32m▒▒[0;32m█[0;1;32;42m░░[0;32m███[0;37m  [0;35m█[0;37m [0;1;30m▀[0m [1;30;45m▄[0;35m█▄[0;37m  [0;1;30m▀[0m [1;30m▄[0;1;30;45m░[0;35m▀▀[0;1;30m▄[0;1;30;45m░[0;35m▀[0;37m [0;1;30m▄[0;1;30;45m░[0;35m█▀▀▀[0;37m  [0;1;30m▄[0;1;30;45m░[0;35m█▀[0;37m [0;1;30m▀[0;35m▀[0;37m [0;35m▓[0;37m  [0;1;32;42m░░[0;32m██▄▄[0;37m [0;1;30m▀[0;1;30;42m░[0;32m█▄[0;37m  [0;32m█▀█▄[0m
          [1;30m▄[0;1;30;42m▀[0;32m██████▀██[0;37m  [0;35m▓[0;37m  [0;1;30m▀[0;35m▀[0m          [35m [0;1;30m▀[0;35m▀[0;37m   [0;1;30m▀[0;35m▀[0m      [1;30m▀[0;35m▀[0m    [35m░[0;37m  [0;32m██[0;1;32m▒▒[0;1;30;42m░[0;32m▄[0;37m [0;1;30m▀[0;32m▀[0m    [32m▓[0;37m [0;32m▀[0;37m [0;32m▄[0m
-         [32m█▀[0;1;30;42m░[0;32m▄[0;1;30m▀[0;1;30;42m▄[0m [1;30m▀[0m [1;30;42m░[0;32m█[0;37m  [0;35m░[0m      [37mt[0;1;37mhe[0m  [35m  [0;37md[0;1;37mream[0m    f[1mactory[0m        [32m██▀[0;37m [0;1;30m▀[0;32m▀ ▄[0m     [32m░[0m
+         [32m█▀[0;1;30;42m░[0;32m▄[0;1;30m▀[0;1;30;42m▄[0m [1;30m▀[0m [1;30;42m░[0;32m█[0;37m  [0;35m░[0m      [37m [0;1;37m  [0m  [35m  [0;37m [0;1;37m    [0m     [1m      [0m        [32m██▀[0;37m [0;1;30m▀[0;32m▀ ▄[0m     [32m░[0m
          [32m▓ [0;1;30m▀[0m      [32m▓▓[0m       [1;37m [0m     [1m [0m                          [32m▓▓[0m    [1;30m▀[0;32m▀[0m
          [32m░[0;37m  [0;1;30m░░░░[0m  [32m░░[0;37m  [0;1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m  [32m░░[0;37m  [0;1;30m░░░░░░░░   [0m
 

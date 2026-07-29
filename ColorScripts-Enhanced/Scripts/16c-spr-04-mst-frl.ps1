@@ -5,7 +5,7 @@
 # Source SHA-256: e5df9cba8dff4b16397496e55ce7b61836a1618000f75dfc16ccf12140d6ed1a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MST!FRL.ANS by Mist (spr_04); released in spr_04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -19,7 +19,7 @@ Write-Host '
 [35m▒▒▒[0m                    [1;30m  [0m [1;35m░░░░[0;35m░░░[0;37m [0;1;30m█▀[0;31m▄[0;1;30m [0;31m▀[0;37m [0;1;30m░░░░░░ ▀ [0;32m▓[0;34m [0;31m▀[0;1;34m ▄██[0;1;34;44m [0;34m█▄[0;31m▓▓▌[0;32m▓[0;37m [0;1;30m■[0m [1;30m░░░░░░[0m  [1;30m▀▀▀▀█[0m
    [35m░░░[0m                  [1;30m [0m [1;35m░░[0;35m░░░░░[0;31m [0;1;30m██▄[0;31m▀[0;1;30m▄ ░ [0m [1;30m░░░░░[0;32m █▌[0;1;30m [0;1;34m▐███[0;1;34;44m  [0;34m█▌[0;32m ▐█[0;37m [0;1;30m░░░░░[0m [1;30m ░[0m  [1;30m░░░[0m [1;30m▓[0m
 [35m░░░[0m       [37mJ[0;1;30mest [0mt[1;30mo [0mp[1;30manel[0m [1;30m [0m [1;30m       [0;31m [0;1;30m█▀▀▀▌ [0m  [1;30m░░░░[0m [32m ▐█▌[0;1;30m [0;1;34;44m██[0;1;34;40m▀▀[0;34m▀▀[0;1;34;44m  [0;32m ▐[0;32;44m█[0;32;40m▌ [0;37;40m [0;1;30;40m░░░░[0m    [1;30m░░░[0m [1;30m▒[0m
- [35m       [0;1;30m  [0md[1;30mo [0ma[1;30mscii/[0ma[1;30mnsi   [0;1;35m░░░[0;35m░[0;1;35m░░░[0;1;30m ▓ ░░░░░ [0m [32m▄ ▄▄[0;1;32;42m▄▄[0;32m█▌[0;1;30m ▄▄██[0;1;30;47m▀▀[0;1;30;40m▄▄[0;32m ▐[0;32;44m█[0;1;32;42m▄▄[0;32m▄▄[0;37m [0;32m▄[0;37m  [0;1;30m░░░░░░[0m [1;30m░[0m
+ [35m       [0;1;30m  [0m [1;30m  [0m [1;30m     [0m [1;30m      [0;1;35m░░░[0;35m░[0;1;35m░░░[0;1;30m ▓ ░░░░░ [0m [32m▄ ▄▄[0;1;32;42m▄▄[0;32m█▌[0;1;30m ▄▄██[0;1;30;47m▀▀[0;1;30;40m▄▄[0;32m ▐[0;32;44m█[0;1;32;42m▄▄[0;32m▄▄[0;37m [0;32m▄[0;37m  [0;1;30m░░░░░░[0m [1;30m░[0m
          [1;30m [0mp[1;30macka   [0mg[1;30mrupy[0m   [1;35m░[0;35m░░░░░[0;1;35m░[0;1;30m ▒[0m [1;30m░░[0m░░░   [32m▄▄[0;32;44m█[0;1;32;42m ▀[0;32m█ [0;1;30m█[0;1;30;41m▓▓█[0;1;30;40m█[0;1;30;47m▄[0;1;37;47m▀▄[0;1;30;47m [0;1;30;40m█[0;32m █[0;1;32;42m▀  [0;32m▄▄[0m   [1;30m░░░░░░[0m
           F[1;30mreelancers.[0m   [35m ░░░░░░░[0;1;30m ░[0m [1;30m░░[0m░░ [32m▄██[0;1;32;42m▄▄▄▄ [0;32m▌[0;1;30m▐[0;1;30;46m█[0;1;30;41m██[0;1;30;46m██[0;1;30;40m█[0;1;30;47m█▄[0;1;37;47m▀[0;1;30;47m▐[0;1;30;40m▌[0;32m▐[0;32;44m█[0;1;32;42m▄▄▄▄  [0;32m▄[0;37m [0m      [1;30m [0m
                        [1;30m  [0m [1;35m░░[0;35m░[0;1;35m░[0;35m░[0;1;35m░░[0;1;30m░░░[0m░░░[1;30m [0;32m▐█[0;1;32;42m░░▓▓▓▓░░[0;1;30;40m [0;1;30;47m▓▓[0;1;30;40m██████[0;1;30;47m▓▓[0;1;30;40m [0;1;32;42m░░▓▓▓▓░░ [0;32;46m█[0;32;40m▐[0;32;46m█[0;32;40m▐▌▐[0;37;40m [0;1;30;40m [0m

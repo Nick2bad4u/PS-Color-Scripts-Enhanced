@@ -5,7 +5,7 @@
 # Source SHA-256: 2f64e5a8219526b14c09f261855f07cd1d06492c40836e6a5be78261c9d01878
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-BLOG.ANS by {YBERPUNCh (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bOOZe login
 # SAUCE Author: {YBERPUNCh
 # SAUCE Group: RiB
@@ -23,7 +23,7 @@ Write-Host '
 [37m [0;35m░░[0m   [1;35;45m░[0;35m█[0;1;35;45m▐[0;35m███[0;1;35;45m▄[0;35m▓▐   [0;1;34;44m▐▒[0;1;34;40m▄[0;34m▄[0m      [35m▐▓[0;1;35;45m▐▓███▄▄░[0;35m [0;37m  [0;35m▀[0m         [34m [0m      [34m▀[0m
       [1;35;45m░[0;35m█[0;1;35;45m▀▀█ ▌[0;35m▓▐[0;37m  [0;34m▀[0;1;34m▀▀[0;34m▌▐[0m      [35m▐█[0;1;35;45m▐██████[0;35m▌[0;37m [0;34m       [0;35m         [0;34m [0;35m· bOOZE MAtRiX ·[0m
      [35m▀▀██[0;1;35;45m░▓ ▌[0;35m▓▐[0m     [34m▀▐[0;37m [0;1;35m{Ph?![0;30;45mRi[0;1;35;45mB█████▌[0;35m [0;37m [0;34m▐ [0m       [34m  [0;37m  [0;1;34m [0m
-      [35m█[0;1;35;45m▄▄▄███▌[0;35m▐[0;37m  [0;34m [0m   [34m▐[0m    [35m ▐▓[0;1;35;45m▐█████▌[0m [34m▄[0;1;34m▄[0;34m▐[0;1;34m▄[0;34m▄[0m       [34m [0;37m  [0;1;34m [0m  [1;34m  login to board[0m
+      [35m█[0;1;35;45m▄▄▄███▌[0;35m▐[0;37m  [0;34m [0m   [34m▐[0m    [35m ▐▓[0;1;35;45m▐█████▌[0m [34m▄[0;1;34m▄[0;34m▐[0;1;34m▄[0;34m▄[0m       [34m [0;37m  [0;1;34m [0m  [1;34m                [0m
  [34m▄[0;35m  ░░▓[0;1;35;45m▓███▓▓▌[0;35m▐[0;37m [0;34m▐[0;1;34;44m▓█▄[0;34m▄[0;1;34;44m░[0;34m▄[0;37m  [0;35m ▄[0;1;35;45m ▄███▓▓▌[0m  [1;34;44m▒▓██[0;34m▓▒░░[0m    [34m [0m     [1;34mapply as a new user[0m
  [34m▌[0;35m  ░░▓[0;1;35;45m██▌█▀█▌[0;35m▐[0;37m [0;34m█[0;1;34m▀▀▀[0;34m▀[0;37m [0;35m▄▄█[0;1;35;45m▄▄██[0;1;35;40m██[0;1;35;45m▀[0;1;35;40m▀[0;35m▀[0;37m [0;34m ▄[0;1;34m▄[0;1;34;44m▄█▓▌[0m       [34m [0m     [1;34m [0m [1;34mpage to zyzgod[0m
 [1;34;44m▐▌[0;34m▓░[0;35m  █[0;1;35;45m▓ [0;35m█[0;1;35;45m▌[0;35m█[0;1;35;45m█▌[0;35m▐▄▄▄██▀[0;1;35m▀[0;35m▀[0;1;35m▀▀▀[0;35m▀[0;37m [0;34m▄▄▄▄▄▄▄▄▌  [0;37m [0;34m▌[0m        [34m [0m     [1;34m    [0m [1;34mfeedback[0m

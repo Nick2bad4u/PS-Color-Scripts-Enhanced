@@ -5,7 +5,7 @@
 # Source SHA-256: fd288f0db88d1b3f83c042b5f84808af9a116b6b21ab1232f6dcc5bc1f704080
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CJY-JPNOGRE.ANS by consolejockey (Mistigris); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Japanese Ogre
 # SAUCE Author: consolejockey
 # SAUCE Group: Mistigris
@@ -64,4 +64,4 @@ Write-Host '
 [37m    [0;36m▀▀▀▀▄▄▄[0;37m            [0;1;37m▄▀[0;31m  [0;31;41m▀[0;31;40m█[0;1;31;41m░░░░░▒▒▒▓▓████▓▓▒▒▒░░░░░[0;31m█[0;31;41m▀[0;37;40m  [0;1;37;40m▀▄[0m    [36m▄▄▀▀▀[0;37m     [0;36m▄▄▄▄[0m
 [37m           [0;36m▀▀▀▀[0;37m [0;36m▀▀▄[0;37m         [0;31m▀▀[0;31;41m▀▀▀[0;31;40m█[0;1;31;41m░░▒▒▒▒▒▒▒▒▒▒░░[0;31m█[0;31;41m▀▀▀[0;31;40m▀▀       [0;36;40m▀▀[0;37;40m    [0;36;40m▄▄▄▀▀▀[0;37;40m     [0;36;40m▀[0m
 [37;40m                   [0;36;40m■[0;37;40m             [0;31;40m▀██[0;1;31;41m░░░░░░░░░░[0;31m██▀[0;37m               [0;36m▀▀[0m
-[37m [0;33m■ MiSTiGRiS GANG!                 [0;31m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m     [0;33m..CJY!     HALLOWEEN 2024 ■[0m'
+[37m [0;33m■                                 [0;31m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m     [0;33m                          ■[0m'

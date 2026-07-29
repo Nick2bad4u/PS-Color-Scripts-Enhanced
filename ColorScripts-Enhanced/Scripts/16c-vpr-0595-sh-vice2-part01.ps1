@@ -5,7 +5,7 @@
 # Source SHA-256: 95d0bc53cc25a964bc348406eaddebfd8057be1cabd85b6e7d78635f4e91a1c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-VICE2.ANS by Shattershot (Vapor); released in vpr-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ::Vice Versa::
 # SAUCE Author: Shattershot
 # SAUCE Group: Vapor
@@ -16,7 +16,7 @@
 Write-Host '
 [1;30m [0m           ▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▓▄▄▄▄ [1;30mGreetz:[0m
 [1;30m [0m [1;30m          [0m▓ [1;30m▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▓▄▄▄ [0m▓ [1;30mPitt[0m
-[1;30m Presents  [0m ▒ [1;30m▓▀  [0;1;37m▄▄ ▄  ▄ ▄ [0;1;30m▀▀ [0;1;37m▄  ▄ [0;1;30m▀ [0;1;37m▄▄ [0;1;30m▀ [0;1;37m▄▄  ▄▄ ▄  ▄ ▓▄   ▄ [0;1;30m▀██ [0m▒ [1;30mLeonard0[0m
+[1;30m           [0m ▒ [1;30m▓▀  [0;1;37m▄▄ ▄  ▄ ▄ [0;1;30m▀▀ [0;1;37m▄  ▄ [0;1;30m▀ [0;1;37m▄▄ [0;1;30m▀ [0;1;37m▄▄  ▄▄ ▄  ▄ ▓▄   ▄ [0;1;30m▀██ [0m▒ [1;30m        [0m
 [1;30m A Vapor!@ [0m ░ [1;30m█ [0;1;37m▓▀▄▀ ▒ █▓▀ █▄▓▀█▀▓█▀▄▓▄▓▀▄▓ ▀▓▀▄▀▓█ █▓▄▀ █▓▀█▀▄ [0;1;30m▓ [0m░ [1;30mInvasion[0m
 [1;30m Production[0m ░ [1;30m█ [0;1;37m▄▄ ▓▐▓▀▌▄▀▀▓ ▀▓▌ ▐▌ ▀█ ▄▓▄█ ▀▄▄ ▓▐▓▀▓ █ ▄▓▀▓▌ [0;1;30m▓▄█ [0m░ [1;30mCyberdemon[0m
 [1;30m [0m [1;30m:1995:[0m    ▒ [1;30m█▄ [0;1;37m▀▀ ▀ ▀  ▀▀ ▀ ▀  ▀ [0;1;30m▄▓ [0;1;37m▀▀  ▀▀  ▀▀ ▀ ▀   ▀▀  ▀ [0;1;30m████ [0m▒ [1;30mImpact[0m

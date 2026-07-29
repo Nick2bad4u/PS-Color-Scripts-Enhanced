@@ -5,7 +5,7 @@
 # Source SHA-256: 21eeffee3dbd7f48c3937db31e013229e5337b409e27f38b6e6ff5e5bc884eb4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5D-KICK.ANS by slayer dreams (maiden brazzilllllLL); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: maiden brazil!!
 # SAUCE Author: slayer dreams
 # SAUCE Group: maiden brazzilllllLL
@@ -31,6 +31,6 @@ Write-Host '
 [32m▀▀[0;37m [0;32m░[0;30;42m▓[0m    [32;40m▐█▌[0;37;40m [0;1;37;40m [0;32m  [0;1;32;42m░[0;32m█▄▄▄▀▄▄▄▄[0;1;33m ▀▀▀▀██▌[0;34m▐[0;30;44m░[0;34;40m▓███▌ [0;1;32;40m [0;34m▄████▀ [0;32m▄▄██[0;1;32;42m░░[0;32m██[0;1;32;42m [0;32m█████[0;30;42m░[0;32;40m▓██ [0;1;37;40m  [0m
           [32m██ [0;1;37m  [0;32m▐▌▀▀▀ ▐████[0;37;42m░[0;32;47m▓[0;32;40m██▄▄▄▄[0;34;40m ███[0;30;44m░[0;34;40m▓█▄█▀▀▀ [0;32;40m▄▄██████████████████▀  [0m
          [32;40m ▐[0;30;42m░[0;32;40m▌[0m   [32;40m█▄▄▄▄██[0;1;32;42m░░[0;32m███████[0;30;42m░[0;32;40m▓▌[0;34;40m▐▀▀▀ [0;32;40m▄▄▄▄███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [32;40m [0m
-          [32;40m ░[0;30;42m▓[0;37;40m  [0;1;37;40m [0;32m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m    [32m░[0;37m [0;32m░[0;30;42m▓[0;37;40m  [0;1;30;40mlogo by[0;32m slayer [0;1;32md[0;1;33mr[0;1;34mea[0;1;33mm[0;1;32ms[0m  [32m░[0;30;42m▓[0;32;40m░[0;37;40m [0;30;42m▓[0m
+          [32;40m ░[0;30;42m▓[0;37;40m  [0;1;37;40m [0;32m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m    [32m░[0;37m [0;32m░[0;30;42m▓[0;37;40m  [0;1;30;40m       [0;32m        [0;1;32m [0;1;33m [0;1;34m  [0;1;33m [0;1;32m [0m  [32m░[0;30;42m▓[0;32;40m░[0;37;40m [0;30;42m▓[0m
              [32;40m░[0;30;42m▓[0;37;40m  [0;1;33;40m│[0m   [32m [0m
                  [1;33m└   [0;1;32m     [0;32m                            [0;1;32m                   [0;32m [0m'

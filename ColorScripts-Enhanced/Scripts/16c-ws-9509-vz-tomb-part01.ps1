@@ -5,7 +5,7 @@
 # Source SHA-256: afa07eaf9832476d6961a1826c26015a917af1fc16158a50bcae9795131ffbe8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VZ-TOMB.ANS by voiz (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: tombstone
 # SAUCE Author: voiz
 # SAUCE Group: READ THE INI FILE
@@ -16,7 +16,7 @@
 
 Write-Host '
 [30;46m [0;36;40m████████████████████████████████████░████████████[0;1;36;46m  ▄▄▄[0;36m████████████████████████[0m
-[1;36;46m░░[0;30;46m        [0;36;40m███████████████████████████▒██████████████[0;1;36;46m█[0;36m█[0;30;46mgreetz:[0;36;40m█[0;30;46minner vision[0;36;40m██[0;1;36;46m░[0;36m██[0m
+[1;36;46m░░[0;30;46m        [0;36;40m███████████████████████████▒██████████████[0;1;36;46m█[0;36m█[0;30;46m       [0;36;40m█[0;30;46m            [0;36;40m██[0;1;36;46m░[0;36m██[0m
 [36m█████████████░█[0;30;46m  ▄ [0;36;40m██████[0;1;30;46m░[0;36m███[0;30;46m ▀██▄[0;36;40m███▓██████████████[0;1;36;46m▓[0;36m█████[0;1;36;46m [0;36m███[0;30;46mmass delusion[0;36;40m█[0;1;36;46m░[0;36m██[0m
 [36m██[0;1;36;46m░[0;36m██████████░[0;30;46m    █▄     [0;1;30;46m░[0;30;46m     ▄██████▄▄  [0;36;40m██████████[0;1;36;46m▒[0;36m█████[0;1;36;46m ░░[0;36m█[0;30;46mabomination[0;36;40m███[0;1;36;46m░[0;36m██[0m
 [36m████████████[0;30;46m [0;36;40m▒[0;30;46m ▄█████▄■   [0;36;40m█░[0;30;46m  ▐██████▀■             [0;1;36;46m░[0;30;46m   [0;36;40m██[0;1;36;46m [0;36m███[0;30;46mprism[0;36;40m█████████[0;1;36;46m▒[0;36m██[0m
@@ -29,7 +29,7 @@ Write-Host '
 [36;40m█[0;1;36;46m░[0;36m███████[0;30;46m■[0;36;40m██████▒[0;30;46m████▄  ▀███████▀▐███   █████████▀ ▄▄▄▄▄ ▄[0;36;40m▓[0;30;46m████▀█▀[0;36;40m█████████████[0m
 [36;40m█[0;1;36;46m░[0;36m███████[0;30;46m [0;36;40m██████░[0;30;46m ▀████[0;1;30;46m░[0;30;46m▄ ▀▀▀▀[0;36;40m▓[0;30;46m   ▀[0;36;40m▓[0;30;46m▀▀   █▀▀▀█████████████████[0;36;40m█████████████████[0m
 [36;40m█[0;1;36;46m░[0;36m█████████████[0;1;36;46m [0;36m░███[0;30;46m▀██████▀▀ [0;36;40m█[0;30;46m    [0;36;40m█[0;30;46m    ▀       ▀▀▀▀[0;36;40m▓[0;30;46m▀█████[0;36;40m▓[0;30;46m▀[0;36;40m████████[0;1;36;46m█[0;36m█████████[0m
-[36m██████[0;1;36;46m░░[0;36m████████░████[0;30;46m  ▀[0;36;40m▓[0;30;46m▀  this is a voiz production[0;36;40m█▄ [0;30;46m██ [0;36;40m▒█████████[0;1;36;46m▓█[0;36m████████[0m
+[36m██████[0;1;36;46m░░[0;36m████████░████[0;30;46m  ▀[0;36;40m▓[0;30;46m▀                           [0;36;40m█▄ [0;30;46m██ [0;36;40m▒█████████[0;1;36;46m▓█[0;36m████████[0m
 [36m████████████[0;1;36;46m█[0;36m███░███████▒███████████████████████████░█[0;30;46m▄█▀ [0;36;40m███████████[0;1;36;46m▒▓[0;36m████████[0m
 [1;36;46m░░[0;36m███[0;1;30;46m░░[0;36m█████[0;1;36;46m▓[0;36m███████████░███████████████████████████░██[0;30;46m  [0;36;40m████████████[0;1;36;46m░▒[0;36m████████[0m
 [36m████████████[0;1;36;46m▒[0;36m████[0;1;30;46m░[0;36m█████████████████[0;1;30;46m░░[0;36m████████████████████████████████[0;1;36;46m░░[0;36m████████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 7d393ab0775dd41c4bcf6a467ac0410b005a91aa2d156eaae47b8677d16da94c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 1998 - 17 - Joint - WE-CIZB.ANS by multiples (legion); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the city iz burning
 # SAUCE Author: multiples
 # SAUCE Group: legion
@@ -48,8 +48,8 @@ Write-Host '
       [1;30m▄[0m      [36m▄[0m   [36m   [0;37m [0;36m [0;37m [0;36m   [0;37m [0;36m         [0m       [36m        [0;37m [0;36m  [0;37m [0;36m   [0;37m [0;36m   [0m
       [1;30m▀[0m [36m▄█▀[0m                                                       [36m▀▀▄▄[0;37m  ░ [0;36m░░[0;37m [0;36m░[0m
 [36m▓▓[0;1;33;46m▓[0;36m█▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▓▓[0;1;33;46m░[0;36m▓█[0m
-[36m█[0;1;33;46m░▓[0;36m█▀[0m                             [36moutlines[0;37m [0;36m:[0;37m [0;1;37mfever[0m [36m(legion)[0m             [36m▀▄▄[0;1;33;46m▄▓[0;36m█▌[0m
-[1;33;46m░▒▒[0;36m▌[0m                               [36mshading[0;37m [0;36m:[0;37m [0;1;37meerie[0m [36m(legion)[0m               [36m▀[0;1;33;46m▒▓░[0m
+[36m█[0;1;33;46m░▓[0;36m█▀[0m                             [36m        [0;37m [0;36m [0;37m [0;1;37m     [0m [36m        [0m             [36m▀▄▄[0;1;33;46m▄▓[0;36m█▌[0m
+[1;33;46m░▒▒[0;36m▌[0m                               [36m       [0;37m [0;36m [0;37m [0;1;37m     [0m [36m        [0m               [36m▀[0;1;33;46m▒▓░[0m
 [36m█[0;1;33;46m░░ [0m                       [36m        [0;37m [0;36m      [0;37m [0;36m [0;37m [0;1;37m       [0m [36m     [0m                 [1;33;46m░▓[0;36m▀▄[0m
 [36m▐[0;1;33;46m░░[0;36m▌[0m                [36m     [0;37m [0;36m  [0;37m [0;36m        [0;37m [0;36m    [0;37m [0;36m [0;37m [0;1;37m       [0m [36m     [0m                 [36m█[0;1;33;46m▒[0;36m█[0m
 [36m▄[0;1;33;46m░▒[0;36m█▄▄[0;37m [0;36m▄▄▄▄▄[0;37m [0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▓█▄▄▄▄▄▄▄▄█[0;1;33;46m░[0;36m█▀[0m

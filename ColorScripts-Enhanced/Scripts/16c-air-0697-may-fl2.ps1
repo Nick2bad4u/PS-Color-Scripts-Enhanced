@@ -5,7 +5,7 @@
 # Source SHA-256: ec20824c932801c3bc93fd76f1e1bef4a974ae01d0c38b9f842585a9df013e94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAY-FL2.ANS by maytag man (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fluph_menu!
 # SAUCE Author: maytag man
 # SAUCE Group: air
@@ -24,7 +24,7 @@ Write-Host '
 [1;36m [0;30;46m▓[0m    [1;33;40m░▓█▀  ▐▀█████▌[0m   [1;33;40m░  [0;1;33;44m▒[0;1;33;45m▒[0;1;33;41m▒[0;1;33;40m████▀ [0m         [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m        [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m
  [1;36ml[0m     [1;33m▐[0;1;33;42m▓▓[0;1;33;40m▄▄▄▄██████▄███▀ [0m                  [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m        [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m
 [1;36;40m [0;30;46m▓[0m      [1;33;40m▀▀▀[0m   [1;33;40m██[0;1;33;46m▓▓[0;1;33;40m██   ▀ ▓▓░░[0m               [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m        [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m
- [1;36mu[0m     ░     [1;33m▐██████[0m     [1;33m░░[0m    [30;45m▓░[0;35;40m▄▄▄[0;37;40m [0;1;36;40mmay [0;35m [0;37m  [0;1;32mcommand ([0;1;36mxx[0;1;32m)[0m        [1;32mcommand ([0;1;36mxx[0;1;32m)[0m
+ [1;36m [0m     ░     [1;33m▐██████[0m     [1;33m░░[0m    [30;45m▓░[0;35;40m▄▄▄[0;37;40m [0;1;36;40m    [0;35m [0;37m  [0;1;32m         [0;1;36m  [0;1;32m [0m        [1;32m         [0;1;36m  [0;1;32m [0m
  [1;36m [0m    ░▓▌[1;33m [0m░░[1;33m █▀████▌[0m        [35m▀[0;1;36;45m▀▌[0;35m▄[0;1;36;45m▄[0;35m▄[0m          [1;32mcommand ([0;1;36mxx[0;1;32m)[0m        [1;32mcommand ([0;1;36mxx[0;1;32m)[0m
 [1;36m [0;30;46m▓[0m    [37;40m ░ [0m     [1;33;40m▄▄▄█[0;1;33;42m▓[0;1;33;40m█▄ [0m     [35m▐▄▀ ▀[0;1;36;45m▐▓[0;1;36;40m░[0m         [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m        [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m
  [1;36mp[0m           [1;33m░▓█[0;1;33;42m▌▀▀▌[0;1;33;40m██▄▄[0m    [35m▀[0;1;36;45m░[0;35m▄[0;1;36;45m▄░[0;35m▌ [0m         [1;32mcommand ([0;1;36mxx[0;1;32m)[0m        [1;32mcommand ([0;1;36mxx[0;1;32m)[0m

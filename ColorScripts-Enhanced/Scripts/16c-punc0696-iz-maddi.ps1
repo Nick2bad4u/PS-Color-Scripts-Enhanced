@@ -5,7 +5,7 @@
 # Source SHA-256: 6dec90286bd806e1a155e299780a5a83c3702b433e410c3a5c6905d625693b61
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-MADDI.ANS by ize (punc productions); released in punc0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: madbase
 # SAUCE Author: ize
 # SAUCE Group: punc productions
@@ -26,7 +26,7 @@ Write-Host '
 [31m▐[0;1;31;41m█▀▀[0;31m▀▀[0m       [31m▐[0;1;31;41m█▀▀[0;31m▀▀[0m     [31m▐[0;1;31;41m█▀▀[0;31m▀▀[0;1;30m▄▄▄[0m         [31m▀▀[0;1;31;41m▀▀█[0;31m▌ ▐[0;1;31;41m█▀▀[0;31m▀▀[0m      [31m▐[0;1;31;41m█▀▀[0;31m▀▀[0m    [31m ▐[0;1;31;41m█iz[0;31m▀▀[0m
 [31m▀▀[0m           [31m▀▀ [0m   [1;30m▄▄█[0;1;30;44m▓[0;1;30;40m▄[0;31m▀▀[0;1;30m▄▄▓████[0;1;30;47m▓[0;1;30;40m█▄▄▄[0m        [31m▀▀ ▀▀[0m         [31m ▀▀[0m        [31m ▀▀ [0m
               [1;30m▄▄████[0;1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀[0m       [1;30m▀▀▀██▄▄[0m
-            [1;30m▄██▀▀[0;32m [0;1;30m░[0m                   [1;30m ░▀▀█▄[0m     [1;30mand oh! =).. it''s a cloud up[0m
+            [1;30m▄██▀▀[0;32m [0;1;30m░[0m                   [1;30m ░▀▀█▄[0m     [1;30m                            [0m
            [1;30m▐[0;1;30;45m▓[0;1;30;40m▀[0m                            [1;30m [0;1;30;41m▓[0;1;30;40m▌[0m      [1;30m                      [0m
            [1;30m█ [0m                              [1;30m▐█[0m        [1;30m                    [0m
            [1;30m▐▌[0m                            [1;30m■[0;1;32m [0;1;30m▀    [0m

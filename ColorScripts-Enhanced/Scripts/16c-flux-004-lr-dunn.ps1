@@ -5,7 +5,7 @@
 # Source SHA-256: c1c12e9b39e7dfcacbda0580f0fd7d567373988bb8f0e87446a8716fc4e9c09e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LR!-DUNN.ANS by LATE RISER (FLUX '97); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: for learning purpose
 # SAUCE Author: LATE RISER
 # SAUCE Group: FLUX '97
@@ -35,6 +35,6 @@ Write-Host '
 [36m█▄[0;37m  [0;1;31m▀▀▀[0;1;31;45m▓▄▄▄[0;35m▄▄▄▄[0;37m [0;36m█[0;37m [0;31m▐[0;1;33;41m▐[0;1;37;41m██[0;1;33;41m█▌[0;31m▌[0;37m [0;1;37;44m▐▄▄[0;34m▄▄▄[0;37m  [0;33m▀▀▀[0;1;35;43m▀▀▓▓█▄▄[0;33m▄[0m
 [36m█[0;1;36;46m▐▄[0;36m██▄▄▄[0;37m  [0;1;31m▀▀▀▌[0m [36m▐[0;1;36;46m█[0;36m▌[0;37m [0;1;33m▀▀▀▀▌[0m [34m▀[0;1;34;44m▐[0;1;37;44m███[0;1;34;44m▄▄▄▄  [0;34m▄▄[0;37m [0;33m▀[0;1;35;43m▀[0;1;37;43m██[0;1;35;43m▓▌[0;33m▌[0;37m     [0m   [37mthis one is for[0m
 [1;36;46m █[0;1;37;46m██[0;1;36;46m██▄▄▄[0;36m██▄▄▄▄██▄▄▄▄▌ [0;37m [0;36m▐▌[0;34m▐[0;1;34;44m░▓██[0;1;34;47m▓▓[0;1;34;44m████▄▄[0;34m▌[0;33m▐[0;1;37;43m▒██▓[0;1;35;43m [0m       learning purpose.
-[36m█[0;1;36;46m██[0;1;37;46m██▓[0;1;36;46m████[0;1;36;47m▓▓[0;1;36;46m██████▄▄▄▄ [0;36m██▄[0;37m [0;34m▀▀▀█[0;1;34;44m▀▀▀▀█▓▓░[0;34m█[0;37m [0;1;35;43m [0;1;37;43m░█▒[0;1;35;43m▌[0;33m▌[0;37m  i have tried some shading[0m
+[36m█[0;1;36;46m██[0;1;37;46m██▓[0;1;36;46m████[0;1;36;47m▓▓[0;1;36;46m██████▄▄▄▄ [0;36m██▄[0;37m [0;34m▀▀▀█[0;1;34;44m▀▀▀▀█▓▓░[0;34m█[0;37m [0;1;35;43m [0;1;37;43m░█▒[0;1;35;43m▌[0;33m▌[0;37m                           [0m
 [1;36;46m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36;47m▓▓[0;1;36;46m▀▀▒▒░░[0;36m▄▄▄▄[0;34m  ▀▀▀▀▀▌[0;37m  [0;1;35m▀▀▀▀[0m     but, like you can see
                                                       ...[0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: 9a5255b058fb0eacefc6fe87d45b51c64be7861a2c16077d2bfa62da74246b98
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cxc_wab2021site_final.ans by Coaxcable (cph.artpack29); released in cph.artpack29 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
-[31m█[0;1;36;41mWAB[0;1;32;41m (We Are Back)[0;31m█[0;1;36;41mBanner Ver.1 [0;31m███████████████████████████████████████████████[0m
+[31m█[0;1;36;41m   [0;1;32;41m              [0;31m█[0;1;36;41m             [0;31m███████████████████████████████████████████████[0m
 
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 393e5e827c26f583af839bd3bf73eb226649a89bd71d6be1a961eb26540873be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-TOONS.ANS by Malformed (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: something..
 # SAUCE Author: Malformed
 # SAUCE Group: Root
@@ -18,7 +18,7 @@ Write-Host '
                    [34m░░[0m
           [34m░░[0m     [34m░░███▓▓░[0;37m  [0;34m░[0m
                    [34m▓▓                              [0m       [34m░░[0m
-                   [34m░░      [0;1;37mmalformed''s[0m toon-o-rama!      [34m░▓▓░[0m   [34m░░[0m
+                   [34m░░      [0;1;37m           [0m                   [34m░▓▓░[0m   [34m░░[0m
                     [34m  [0m                                    [34m██[0m
                                                       [34m░░▓▓██[0m
                                                           [34m░░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 97d99df2cf8032257b9edee70a4340f4ce6b814aeb21029bf67dae0608c359cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aleperez-no_game_over_esp.ans by @AljandroPrez (HPM); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: no game over
 # SAUCE Author: @AljandroPrez
 # SAUCE Group: HPM
@@ -61,4 +61,4 @@ Write-Host '
 [33;40m░░░░▀[0;1;36;40m▄▄██▀[0;33m▄░░░░[0;30;43m▒[0;32;40m▄[0;1;31;40m▀▄▄▄▄▄▀[0;32m▄█████[0;1;37m█[0;30;47m#[0;37;40m█[0;1;37;40m█[0;32m█[0;1;33;44m...[0;32m██████████████████▄[0;1;31m▀▄▄▄▀[0;32m▄██████[0;33;42m▀▀▀▀▀[0;32;40m██████[0m
 [33;40m░░░░░▄▄▄▄░░░░[0;30;43m▒▒▒▒[0;32;40m█▄▄▄▄▄█████[0;1;37;42m▄[0;1;37;47m▀[0m█[1;47m▄[0;1;42m▀[0;32m█████████████████████████▄▄▄███████████████████[0m
 [1;37m────────────────────────────────────────────────────────────────────────────────[0m
-  [1;32m╓──────╖[0m [1;32mCENTRO DE INTELIGENCIA[0m'
+  [1;32m╓──────╖[0m [1;32m                      [0m'

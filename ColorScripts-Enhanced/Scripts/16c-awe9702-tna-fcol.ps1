@@ -5,7 +5,7 @@
 # Source SHA-256: 608357d7f76f6fb05902d575793f27edc965706b08d6f2d092f97742678c4b0e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-FCOL.ANS by The Night Angel (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Oneliners [FC]
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -36,4 +36,4 @@ Write-Host '
 [31;40m [0;37;40m▀ [0;31;40m▄ ░[0;30;41m▓[0;31;40m▄▄[0;30;41m░[0m  [31;40m▄▄▄[0;1;31;41m▄[0;31m▄██▀[0;1;33m▄[0;33m▄ [0;1;30m▀[0;31m▄  ░[0;30;41m▓▒[0;31;40m▓█[0;1;31;41m▀[0;31m▀▄■ ▀[0m                 [31m░[0;30;41m▓[0m      [37;40m░  [0;31;40m▄▄▄▄  ▄▄▄ ░[0;30;41m▓[0m [37;40m▀[0m
 [37;40m [0;31;40m▀█[0;1;31;41m▀[0;31m▀▀▀[0;1;31;41m▀[0m [31m█ ▀[0;1;31;41m▀[0;31m█ █[0;1;31;41m░░[0;31m█▄[0;33m▀  [0;31m▄[0;1;33;41m░[0;31m█ ▄  [0;37m■  [0;31m▀[0;1;31;41m▀[0;31m█▄ [0;1;37mo n e l i n e r s[0m.. [1;30m.[0m▀ ■ ▄ [31m█[0;1;31;41m▀[0;31m████▀[0;1;37;41m░░ [0;1;31;40m▄▀█▓▄[0m
 [1;31;40m [0;31m▐[0;1;37;41m░[0;31m▄[0;1;33m▀[0;33m▀ [0;31m▄ █▄ [0;1;37m▄[0m▄[31m▐▌[0;1;31;41m▒▒[0m [31m▀███▀▀  [0;1;31m▀[0;31m▀ [0;37m▄░[0;30;47m▓[0m [31;40m▀▀[0m                          [37;40m▀[0;1;37;40m▀  [0;31m▀▀▀█▄ ▀▀[0;1;31;41m▀[0;1;31;47m▄[0;1;31;41m█▀[0;1;31;40m▀[0;31m▀[0m
-[31m ▀[0;1;31;41m▀[0;31m███▀[0;1;31;41m▀[0;31m▀▀▀▄▄ ▀  ▀▀[0;31;41m [0;1;31;41m░[0;30;41m░[0;31;40m▓▒[0;30;41m▓[0m [1;37;40m░▒▓███[0;1;37;47m▄▄[0;1;37;40m▄▄[0m▄ [1;33madd a oneliner[0;33m? ▐[0;1;37;43myes[0;33m▌ [0;1;37mno [0;31m░[0;30;41m▓▒░[0;31;40m▓[0;31;47m▓[0;31;40m█▄[0;1;33;40m▀[0;33m▀ [0;31m▄[0;1;31;41m▀[0;31m█▄░[0m'
+[31m ▀[0;1;31;41m▀[0;31m███▀[0;1;31;41m▀[0;31m▀▀▀▄▄ ▀  ▀▀[0;31;41m [0;1;31;41m░[0;30;41m░[0;31;40m▓▒[0;30;41m▓[0m [1;37;40m░▒▓███[0;1;37;47m▄▄[0;1;37;40m▄▄[0m▄ [1;33m              [0;33m  ▐[0;1;37;43m   [0;33m▌ [0;1;37m   [0;31m░[0;30;41m▓▒░[0;31;40m▓[0;31;47m▓[0;31;40m█▄[0;1;33;40m▀[0;33m▀ [0;31m▄[0;1;31;41m▀[0;31m█▄░[0m'

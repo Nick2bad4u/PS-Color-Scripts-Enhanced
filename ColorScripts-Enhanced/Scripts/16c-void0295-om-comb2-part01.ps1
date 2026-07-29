@@ -5,7 +5,7 @@
 # Source SHA-256: 791b301164dd322b7a47c703c2bec01e2bfc7a2eda4c59738b64425a026d0e0e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OM-COMB2.ANS by Omega Red (Void); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Playaz Club Combo
 # SAUCE Author: Omega Red
 # SAUCE Group: Void
@@ -26,7 +26,7 @@ Write-Host '
 [31m▄▀▌█■█ ▀▌█■▀▄▀██■██■▐▄  █▀[0;1;30m█[0m█[1;30m▄[0m [1;30m█[0m [31m■[0m            [1;33m▀■ ▀[0;33m▐[0;1;31m ▄[0m▀[33m■[0;1;31m███[0;1;31;43m▄[0;33m▄[0;1;31;43m▄[0;1;31;40m█[0m [1;33m███▐[0m [33m▌█[0;37m     [0m
  [31m▀ ▌[0m  [31m■▀[0m [31m▌▀[0m    [31m [0m [31m▀[0m  [31m▐ ■[0m [31m▌[0;1;30m█[0m█[1;30m▐[0m [1;30m▀█[0m [31m▐ [0m           [1;33m▄▄[0m [1;33m▄■[0;1;31m ██ ▀▀▄██▀█[0m [1;33m█▌█[0m [1;33m█[0;33m▐[0;1;33;43m■[0;33m▌[0m
 [31m▌[0m                [31m■[0m      [31m▌[0;37m███[0;1;30m▀▄█[0m             [1;33m▀█▄▀▄[0m [33m▐[0;1;31m█▀█▄█▀▀██ █[0m [1;33m█▌█▐[0m [1;33;43m▌■[0m
- [1;36;40mThe PlayaZ Club Voting[0m [31m▌[0;37m██[0m [1;30m█[0m [1;30m▄[0m [31m■[0m             [1;33m▄▀▌▌▌█[0;1;31m█▀▀▀██▄▄▀[0;33m▄[0m [1;33m█[0m [1;33m█ █[0m [1;33m▌█[0m
+ [1;36;40m                      [0m [31m▌[0;37m██[0m [1;30m█[0m [1;30m▄[0m [31m■[0m             [1;33m▄▀▌▌▌█[0;1;31m█▀▀▀██▄▄▀[0;33m▄[0m [1;33m█[0m [1;33m█ █[0m [1;33m▌█[0m
 [31m·[0m                       [31m■[0;1;37m█[0m██[1;30m▄[0m [1;30m■[0m             [1;33m▄█▄▌▌▄▀▄[0;33m▀[0;1;33m▄▀▄[0;33m▀[0;1;33m▌█[0m [1;33m▌▀▄[0m [1;33m▐[0m [1;33m█[0m [1;33m█[0m [1;33m▄▀▄▀█▄[0m
  [36mHandle:[0;1;34m [0;1;37m&U[0m [1;37m [0m           █[1m█[0m█[1;30m█[0m [1;30m▀▀[0m [31m·[0m          [1;33m█[0m [1;33m▄[0m [1;33m█▀▄▀[0m [1;33m▄▀[0m [1;33m█[0m [1;33m█[0m [1;33m█▀▄▄▀ ▄[0m [1;33m█[0m [1;33m▀▄█▄▀▄▀[0m
                         [1;37m██[0m█[1;30m▐▀▄█[0m         [34m▄■[0m [1;33m▀▄[0m [1;33m▀[0m [1;33m▀▄▄▀[0m [33m▄[0m  [1;33m█[0m [1;33m▀▄▐[0m [1;33m▄[0m [1;33m▌[0m [1;33m▀▄[0m [1;33m▀▄■ █[0m

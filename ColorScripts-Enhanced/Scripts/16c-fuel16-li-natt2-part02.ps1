@@ -5,7 +5,7 @@
 # Source SHA-256: 19f6bdb42c630876c2f9872a2032113c61e660a8fb65914496fbc73da7e97473
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LI-NATT2.ANS by lint (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: natt2
 # SAUCE Author: lint
 # SAUCE Group: fuel
@@ -39,5 +39,5 @@ Write-Host '
 [34;40m████████[0;36;44m    [0;34;40m█████   ▀ ▄█████[0;37;44m░░[0;34;40m████████████▄[0;37;40m  [0;33;40m▀█▀[0;37;40m  [0;34;40m▄███████[0;36;44m░▒░[0;34;40m▌[0m        [34;40m▄▄▄███████[0m
 [34;40m███████[0;36;44m    [0;37;44m [0;34;40m██████▄  ▐█████[0;37;44m░▒▒░[0;34;40m█████████████▌[0m   [34;40m▄█████████[0;36;44m░░░[0;34;40m█   ▄▄▄████████████[0m
 [34;40m███████[0;36;44m░░░[0;34;40m██████████▄▄██████[0;37;44m░░[0;34;40m███████████████[0;37;40m  [0;34;40m▐████████████[0;36;44m░[0;34;40m███████████████████[0m
-[34;40m███████████████[0;36;44m100% original pic by Lint[0;34;40m████▌▄█████████████████████████████████[0m
+[34;40m███████████████[0;36;44m                         [0;34;40m████▌▄█████████████████████████████████[0m
 [34;40m████████████████████████████████████████████████████████████████████████████████[0m'

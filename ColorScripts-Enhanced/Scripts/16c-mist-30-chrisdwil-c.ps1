@@ -5,7 +5,7 @@
 # Source SHA-256: 43d8475e3bfe1cfb90aac903a4b9272e4ff067158b54b345d2b119ff7914958a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CHRISDWIL-C.ANS by Chris D. Wil (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: C
 # SAUCE Author: Chris D. Wil
 # SAUCE Group: Mistigris
@@ -17,7 +17,7 @@
 
 Write-Host '
 [1;36m    [0;31m.[0;1;36m.      [0;31m.[0;1;36m.            /                                              [0;1;37m↑↑↓↓[0m
-[1;36m   /[0;31m|[0;1;36m|\    /[0;31m|[0;1;36m|\         //  t[0;31mes[0;1;36mt pr[0;31mes[0;1;36msing     [0;31m.d[0;1;36mSƒ`         ..___        [0;31m◄◄►◄[0m
+[1;36m    [0;31m [0;1;36m       [0;31m [0;1;36m                [0;31m  [0;1;36m    [0;31m  [0;1;36m         [0;31m  [0;1;36m                         [0;31m◄◄►◄[0m
 [1;36m  ┘┘[0;31m|[0;1;36m|└└  ┘┘[0;31m|[0;1;36m|└└        \      _s↓▼         [0;31m/[0;1;36mƒƒ`         [0;31m/|[0;1;36m |fS||ƒss._   [0;1;37mBA *[0m
 [1;36m    [0;31m|[0;1;36m|      [0;31m|[0;1;36m|         //     [0;31m`7[0;1;36m$ƒsS.      [0;31m?"[0;1;36m         [0;31m.≥ƒ7[0;1;36m&l ƒ7²"[0;31m^"²«S[0;1;36m|s,_[0m
 [1;36m    [0;31m||[0;1;36m      [0;31m||[0;1;36m        `     [0;31m|[0;1;36mƒ[0;31m   `ƒ[0;1;36mƒfbb.      [0;31m7|¬  .sƒƒ[0;1;36m%▼    [0;31m|[0;1;36m||      [0;31m`"|[0;1;36mƒƒ.[0m

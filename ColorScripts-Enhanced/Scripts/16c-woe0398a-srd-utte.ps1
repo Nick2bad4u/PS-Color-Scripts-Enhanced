@@ -5,7 +5,7 @@
 # Source SHA-256: fd956ba096c77dd3a859dde30df268a4e1626ce9815eb65e94dacbdb075e1b12
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SRD-UTTE.ANS by sordid (wOE!); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: utter blasphemy
 # SAUCE Author: sordid
 # SAUCE Group: wOE!
@@ -18,7 +18,7 @@ Write-Host '
        [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [31m▄▄▄████[0;1;31;41m   [0;31m██▄▄▄[0;37m [0;34m   ▄▄▄[0m    [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [34m   ▄█████████████████████████[0;37m [0;31m██▄[0;37m [0;31m▀▀ [0;34m▄▄▄▄▄▄▄[0;31m ▀▀[0;37m [0;31m▄▄█[0;37m [0;34m▀▀███[0;37m [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████▄ [0m
   [34m███[0;30;44mYou Dialed the[0;34;40m███████▀[0;37;40m [0;31;40m▄▄[0;37;40m [0;31;40m████▄[0;37;40m [0;34;40m▀█████▀[0;37;40m [0;31;40m▄▄███[0;37;40m [0;31;40m▄█[0;37;40m [0;34;40m▀████████████████[0;37;40m  [0;1;30;40m▀▀▀▀██[0m
-  [34m███[0;30;44mNumber of the Beast[0;34;40m██[0;37;40m [0;31;40m██▀ [0;37;40m [0;31;40m██ ▀█▄[0;37;40m [0;34;40m▀█▀[0;37;40m [0;31;40m▄█▀ ▄█[0;37;40m [0;34;40m▄[0;31;40m ██[0;37;40m [0;34;40m▀████████████████████ [0;1;30;40m▀█ [0m
+  [34m███[0;30;44m                   [0;34;40m██[0;37;40m [0;31;40m██▀ [0;37;40m [0;31;40m██ ▀█▄[0;37;40m [0;34;40m▀█▀[0;37;40m [0;31;40m▄█▀ ▄█[0;37;40m [0;34;40m▄[0;31;40m ██[0;37;40m [0;34;40m▀████████████████████ [0;1;30;40m▀█ [0m
  [34m████[0;30;44myou are connected[0;34;40m███▀[0;37;40m [0;31;40m██ [0;34;40m█▄[0;37;40m [0;31;40m██  ▀█▄ ▄█▀ ▄██[0;37;40m [0;34;40m▄█[0;31;40m ▀██[0;37;40m [0;34;40m██████[0;1;34;44m░░[0;34m█████████████ [0;1;30m▀[0m
  [34m████[0;30;44mTo.... [0;34;40m█████████████[0;37;40m [0;31;40m██▀ [0;34;40m██[0;37;40m [0;31;40m▀██▄██▀▀▀█▄▄██[0;37;40m  [0;34;40m███[0;31;40m ██[0;37;40m [0;34;40m████[0;1;34;44m░[0;34m█████[0;1;34;44m░░[0;34m██████████ [0m
 [34m████████████[0;1;34;44m░░░░[0;34m████[0;1;34;44m░░░[0;34m██[0;37m [0;31m██[0;37m [0;34m▀▀[0;37m [0;31m▄▄███▄ [0;34m▄█▄[0;31m ▄████▄[0;37m [0;34m▀█[0;31m ██[0;37m [0;34m████[0;1;34;44m░░[0;34m██████[0;1;34;44m░░░[0;34m███████[0m

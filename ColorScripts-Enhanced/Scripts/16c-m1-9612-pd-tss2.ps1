@@ -5,7 +5,7 @@
 # Source SHA-256: 58cfb32dcf612176b8a3e1875c220d5da906fd8423e193dd335da1e4f0493306
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PD-TSS2.ANS by Paradox (Maiten1); released in m1-9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Spiral Staircase
 # SAUCE Author: Paradox
 # SAUCE Group: Maiten1
@@ -29,6 +29,6 @@ Write-Host '
               [36m▐[0;1;36;46m░[0;36m█[0;1;36;46m░[0;36m██[0m       [1;32;46m░░   ░ [0;1;36;46m░   [0m    [1;32;46m░   ░░ [0;1;36;46m░ [0;1;32;46m  [0m [1;32m██[0;1;32;46m▓▒░ [0;1;32;40m [0m       [1;32;46m░    ░   [0m
 [36m▄▄▄▄▄[0m          [1;36;46m░▒▓░[0;36m█▌[0m      [36m▐[0;1;36;46m ▒ ░░  ░▓  [0;36m▄▄▐[0;1;36;46m          [0;1;32;40m▌[0m [1;32m▐██[0;1;32;46m▓▒░[0;36m▌[0m      [1;32m▐[0;1;32;46m ░      [0;36m▌[0m
 [36m███████▄███▄■▄▄█[0;1;36;46m▓▒▒░[0;36m█▄▓▓▀▄▄[0;37m [0;36m▀[0;1;36;46m░▒▓  [0;36m▄[0;1;36;46m    [0;36m▄▄[0;1;36;46m           [0m [36m▄[0;37m [0;30;46m▓░[0;1;32;40m█[0;1;32;46m▓▒░[0;1;32;40m▄▄▄▄▄█[0;1;32;46m▓▓▒░░  [0;36m▀▄▄█▓ [0m
-[36m██████▄█▓▓▀▓▓███████[0;30;46mthe spiral [0;36;40m█████[0;30;46mst[0;36;40m▓[0;30;46ma[0;36;40m▓[0;30;46mi[0;36;40m▄▄▄[0;30;46mr[0;36;40m▓▓[0;30;46mcase..[0;36;40m▓[0;30;46m..[0;36;40m▄▄████▀▀▄▄▄████▄▄█████[0m
+[36m██████▄█▓▓▀▓▓███████[0;30;46m           [0;36;40m█████[0;30;46m  [0;36;40m▓[0;30;46m [0;36;40m▓[0;30;46m [0;36;40m▄▄▄[0;30;46m [0;36;40m▓▓[0;30;46m      [0;36;40m▓[0;30;46m  [0;36;40m▄▄████▀▀▄▄▄████▄▄█████[0m
 [37;40m [0;36;40m▀█▓▀▀█▓▓█▓▀▀[0m          [36;40m▀▀▀▀█▓█▀▀▀█▀▓██▀▀▀▀▀███████▀▀▀█▓▀▀▀▀██▓▓██▓▀▀▀▀▀▓█████▓█[0m
         [36;40m▀▀■[0m                                                               [36;40m▀▓■▀█[0m'

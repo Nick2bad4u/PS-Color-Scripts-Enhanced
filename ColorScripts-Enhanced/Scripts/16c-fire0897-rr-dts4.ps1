@@ -5,7 +5,7 @@
 # Source SHA-256: d47fc92cdae5651693fcb45b58210f8fe3e0942e437b6b0f845ce7ee2c860c41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-DTS4.ANS by riddler (fire graphics); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: deathscape
 # SAUCE Author: riddler
 # SAUCE Group: fire graphics
@@ -26,7 +26,7 @@ Write-Host '
 [32m██[0;1;32m▒░[0;32m [0;1;32mby oned when[0;32m [0;1;32mi[0;32m  [0;1;32m▀▓▀█[0;1;32;42m▓░[0;1;32;40m░[0;34m [0m   [1;30m░[0m  [1;34m▀[0m   [1;31m [0m   [34m▒▓[0;1;34;44m░▓[0;1;34;40m▀█▓▓▒░░░[0m  [1;30m▀[0m    [36m▀[0;1;34m▀[0;36m [0;37m   [0;34m▄▄▀█▀▀[0;1;34;44m░▓[0;1;34;40m███[0m
 [32m█▀   [0;1;32mdrew[0;32m [0;1;32mthis.[0;32m        [0;1;32m▓█▓░[0;34m  [0;37m [0;34m [0;37m  [0;1;31m [0m   [1;31m  [0;34m [0;37m  [0;1;34m░▓[0;1;34;44m░▓[0;1;34;47m▓[0;1;34;40m██▒▒[0;34m▀[0;1;34m▒▒░▒░ [0;1;31m  [0m  [1;31m  [0m [34m▄█▄▓▓▀▀█▄▄[0;1;34m█▀██[0m
 [32m█░       [0;1;32m  [0;32m           ░█[0;1;32m▒[0;32m▀[0;34m  [0;37m [0;34m▄ [0;1;31m    [0;34m ▄▄ [0;37m   [0;34m▐[0;1;34;44m▓[0;1;34;47m▓▓[0;1;34;40m██▓▓▒▒▒▒[0;34m▄[0;1;34m▓▓▓▓[0;34m▄[0;1;31m [0;34m▄[0;1;34m▓▓[0;34m▄▄█▀[0;1;34;44m▄▄▓[0;1;34;40m▄[0;34m▄▄▀█[0;1;34m███[0m
-[32m█▓  [0;1;32mansi by riddler[0;32m   ▓██▌[0;34m  ▓█▓░▄[0;1;31m [0;34m░▓█[0;1;34;44m▒[0;34m▓░[0;1;31m  [0;1;34m▐[0;1;34;47m▓▒[0;1;34;40m███▓▓▓▒▓▓▓▓▓[0;1;34;44m▓▓▒▒░  ▄▄[0;1;34;40m█[0;1;34;47m▀░▓███[0;1;34;40m███▄██[0m
+[32m█▓  [0;1;32m               [0;32m   ▓██▌[0;34m  ▓█▓░▄[0;1;31m [0;34m░▓█[0;1;34;44m▒[0;34m▓░[0;1;31m  [0;1;34m▐[0;1;34;47m▓▒[0;1;34;40m███▓▓▓▒▓▓▓▓▓[0;1;34;44m▓▓▒▒░  ▄▄[0;1;34;40m█[0;1;34;47m▀░▓███[0;1;34;40m███▄██[0m
 [1;32m▒▒[0;32m  [0;1;32mof fire.     [0;32m    ░▓█▀[0;34m  ░[0;1;34;44m▒░  ▀[0;34m█▄▀██[0;1;34;44m░░[0;34m▓[0;1;31m [0;1;34;44m▐[0;1;34;40m██████▓▓▓▓▓[0;34m▀▓[0;1;34;44m▓▓█[0;1;34;40m█[0;1;34;44m▓▓▓[0;1;34;40m█[0;1;34;47m█▀▄▄▓█[0;1;34;40m█[0;1;34;47m█████[0;1;34;40m███[0m
 [1;32m▒░[0;32m  [0;1;32m         [0;32m        [0;1;32m [0;32m▓▄█▌[0;34m [0;1;31m [0;1;34m▓[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m▄▄▓░░[0;34m████░[0;1;31m [0;1;34;44m▐[0;1;34;40m███[0;1;34;47m██[0;1;34;40m██▓▓▓[0;1;34;44m░[0;34m█▓▄▄█▀[0;1;34;44m░░░▓[0;1;34;47m██[0;1;34;40m███████████[0;1;34;44m▓[0;1;34;40m▓[0m
 [1;32m▒▒[0;32m                    ░█▓ [0;34m  [0;1;31m [0;1;34m▓[0;1;34;47m▀▓[0;1;34;40m██[0;1;34;44m▓▓▄▄[0;34m▓░[0;1;31m  [0;1;34m███████[0;1;34;47m█[0;1;34;40m▓█[0;1;34;44m▓▓[0;34m▀▀▓▓███[0;1;34;44m▒▒[0;1;34;40m█████████[0;1;34;44m▀[0;34m▀[0;1;34;44m▀▀ ░[0;1;34;40m░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 94d5bfef885a541cb190dad0005e283cd527efdaed97048cac9b1531e0c66502
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DFT-NP.ANS by draft (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Neo Pagan 1
 # SAUCE Author: draft
 # SAUCE Group: fORCE
@@ -16,7 +16,7 @@
 
 Write-Host '
 [35m▄▀▀▀▀[0;37m [0;35m▄▄[0;1;30m▀████▓█▀░[0;1;31m▄▄▄▄▄[0;1;30m▀▀█▓▄░[0m [34m██[0;37m [0;34m███▀▀▀▀░▓██[0;37m [0;34m▓██▓▄▀█▓[0;37m [0;34m▒▓█ [0;31m▌[0;37m [0;34m▓██▓ ▀▀[0;37m  [0;34m▀▀[0m   [34m▀[0;37m  [0;31m▀▀■▄[0m
-[1;35;45m░[0;32m░[0;35m▀▀▀▀▄▄▀▄[0;1;30m▀█▓▀[0;31m▄▀[0;1;31m▀[0m  [1;31m█[0m  [1;33m▀▀▄[0;1;30m▀██▒[0;34m ▀▄[0;35m [0;34m▀[0;35m [0;34m███[0;35m [0;34m▀██▓▀■▀█▀█[0;35m [0;34m█▓█▄▀▓[0;37m [0;31m▌[0;35m [0;34m▀▀░[0;35m [0;1;30mansi.[0mdraft[[1;30mfORCE[0m]
+[1;35;45m░[0;32m░[0;35m▀▀▀▀▄▄▀▄[0;1;30m▀█▓▀[0;31m▄▀[0;1;31m▀[0m  [1;31m█[0m  [1;33m▀▀▄[0;1;30m▀██▒[0;34m ▀▄[0;35m [0;34m▀[0;35m [0;34m███[0;35m [0;34m▀██▓▀■▀█▀█[0;35m [0;34m█▓█▄▀▓[0;37m [0;31m▌[0;35m [0;34m▀▀░[0;35m [0;1;30m     [0m      [1;30m     [0m 
 [35m ▄▀▀▀▀▄[0;37m [0;35m■[0;37m [0;35m▌[0;1;30m▒[0m [1;31;41m░[0m [1;30m░▓[0m [1;31;41m▓[0m [1;31m█[0m [1;30m▓▓[0m [1;31m█[0;31m [0;1;30m▓█▄[0;34m▀██[0;37m [0;34m█▓██[0;37m [0;31m░■▄▄██▓▄▄[0;35m [0;31m░░▄▄▄▄ ▄■▀▀■░[0;37m [0;1;30m■■[0m■■■[1;47m■[0m■■■[1;30m■■[0m [31m▓█[0;1;31;41m░[0;31m█▓[0m
 [35m▀▄▀▀▀▀▄[0;37m [0;35m▀[0;32m░[0;35m▐[0;37m [0;31m█[0m    [1;31;41m░[0m [1;30m░[0m [1;31m█[0m    [1;31m▀[0;1;30m ▀▀ [0;34m▀[0;31m░▄▄░[0;37m [0;34m▀▓▄[0;37m [0;31m▐[0;31;45m▓▓▓▓▓▓[0;31;40m▀[0;31;45m█▒▒█▓▓▓[0;31;40m▀▐[0;37;40m [0;34;40m█[0;37;40m [0;31;40m■[0;37;40m [0;1;30;40msysop.[0mferret [31m▓█▀[0m
 [35m█[0;32m░[0;35m▀[0;1;35;45m▒[0;35m▀[0;32m░[0;1;35;45m▒[0m [1;35;45m░[0m [35m▐[0;37m [0;31m▀▓▀▀▀[0;1;31;41m░[0;31m▀▀▀[0;1;31;41m▓[0;31m▀▀░■▀[0;31;45m█▓▓▓▓▒█[0;31;40m▀[0;31;45m█▓▓[0;31;40m▄▄░░[0;31;45m▒▒▒░▒▒[0;37;40m [0;31;45m▒▒░▒▒▒[0;35;40m▌[0;37;40m [0;31;40m▐[0;37;40m [0;34;40m▓▌[0;31;40m▌[0;37;40m [0;1;30;40mopen.24.hrs[0m [31m░▄▄█▓[0m

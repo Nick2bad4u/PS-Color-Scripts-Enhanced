@@ -5,7 +5,7 @@
 # Source SHA-256: 89de63256b9e16dab212a2aa17dfa320e1336077350f739822806f859c9fb0cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAMER.ANS by Hacker-Bh (bh-art1); released in bh-art1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -22,7 +22,7 @@ Write-Host '
 [5;34m   [0;1m█[0m       [1m█  █ █   █  ██[0m     [1m██    ▄█▄    █[0m      [5;32mgelamed  gelamed  gelamed[0m
 [5;32m   [0;1m████    █  █  █  █  █ █   █ █   ▄█ █▄   █[0m      [5;31mgelamed  gelamed  gelamed[0m
 [5;31m   [0;1m█[0m       [1m█  █   █ █  █  █ █  █  ▄█■■■█▄  █[0m      [5;35mgelamed  gelamed  gelamed[0m
-[5;35m   [0;1m██████  █  █    ██  █   █   █  █[0m     [1m█  █████  [0;1;5;33mgelamed  gelamed  gelamed[0m
+[5;35m   [0;1m██████  █  █    ██  █   █   █  █[0m     [1m█  █████  [0;1;5;33m                         [0m
 
 [1;5;33m   [0;1m█[0m     [1m█  ██    █  █████▄   [0;5;34m                                          [0m
 [5;34m   [0;1m█[0m     [1m█  █ █   █  █    █   [0;5;32m                                          [0m

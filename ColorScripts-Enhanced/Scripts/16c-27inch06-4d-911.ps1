@@ -5,7 +5,7 @@
 # Source SHA-256: 106dae70afdd8d59bd9406c3acba5f09cf3ca052aa9789870ef0cb089dec400a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 4d-911.ans by Access Denied (27inch06); released in 27inch06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -32,5 +32,5 @@ Write-Host '
 [37m [0;36m▒[0;37m ▌[0;1;30m [0m [1;30m▒[0;1;30;47m▓▓▓[0m  [1;30m█[0;1;30;47m░[0;1;37;47m░[0;1;30;40m█[0m     [33m░ ░░ [0m      [1;30mcommands here[0m                [33m▓▓[0m       [1;30m [0;1;37m▓[0m  [36m [0;37m [0;1;37;47m█[0m  [1;36;46m░[0m
  [1;36;46m░[0m ▌[36m ░[0;37m [0;1;30m▓[0;1;30;47m░[0;1;37;47m░░[0m  [1;30m▓[0;1;30;47m▓▓[0;1;30;40m▓[0m            [1;36;46m   commands here   [0m       [1m [0;1;30m [0m   [33m░░  [0;1;30m░[0m  [1;30m [0m [1;30m░[0m [1m█[0m  [36m [0;37m [0;1;37m█[0m  [1;36;46m▒[0m
  [1;36;46m▓[0m [1;30;47m▒[0m [36m▒░[0;37m [0;1;30m█[0m▓[1;47m▓[0;1;40m▌[0;1;30;40m [0m [1;30m░░░░[0m              [1;30mcommands here[0m           [1;30m  [0m  [1;30m [0m  [1;30m [0m [1;30;47m▓[0m [1;30m [0m▒  [1m▐▌[0m  [1m▐▌[0m [36m░[0;1;36;46m▓[0m
- [1;46m█[0m [1;30m▓[0m [36m▓▓[0;37m [0;1;30m▐█[0;1;37;47m░[0;1;30;47m▒[0;1;30;40m▄[0m  [1;30m [0m                [1;30mcommands here[0m  [1;30m.. or not   [0m [1;33m  [0;1;30m    [0m▀[1;47m░[0m  [36m░░[0;1;37m▀[0;1;30m [0;1;37m▐▀[0m [36m░[0;1;36m▒[0;1;36;46m█[0m
+ [1;46m█[0m [1;30m▓[0m [36m▓▓[0;37m [0;1;30m▐█[0;1;37;47m░[0;1;30;47m▒[0;1;30;40m▄[0m  [1;30m [0m                [1;30m             [0m  [1;30m            [0m [1;33m  [0;1;30m    [0m▀[1;47m░[0m  [36m░░[0;1;37m▀[0;1;30m [0;1;37m▐▀[0m [36m░[0;1;36m▒[0;1;36;46m█[0m
    [1;30m░[0m                                                               ░      [1m▄[0m'

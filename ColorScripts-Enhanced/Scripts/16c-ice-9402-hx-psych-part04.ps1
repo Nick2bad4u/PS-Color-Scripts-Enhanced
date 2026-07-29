@@ -5,7 +5,7 @@
 # Source SHA-256: 1789d59163fea206176a9e0b8f0d21e65d817c125d4d5d1fc872d5c229683e01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HX-PSYCH.ICE by Hoaks (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 146-192
 # Columns: 1-80
 
@@ -47,7 +47,7 @@ Write-Host '
        [1;34m▌  [0;1;36m [0;36m [0;34m  [0;1;36m [0;36m [0;34m  [0;1;34m   [0;1;36m [0;36m [0;34m  [0;1;34m [0m                            [1;36m [0;36m [0;34m  [0;1;34m   [0;1;36m [0;36m [0;34m   [0;1;34m     [0;34m▌[0m
        [1;34m▌  [0;1;36m [0;36m [0;34m  [0;1;36m [0;36m [0;34m   [0;1;34m       [0m                               [1;36m [0;36m [0;34m  [0;1;36m [0;36m [0;34m   [0;1;34m     [0;34m▌[0m
        [34m▌  [0;1;36m [0;36m [0;34m   [0;1;36m [0;36m [0;34m   [0;1;34m       [0m                                 [1;36m [0;36m [0;34m   [0;1;36m [0;36m [0;34m    [0;1;34m▌[0m
-       [34m▌  [0;1;36mO[0;36mP[0;34miU[0;1;34mM [0;1;36mD[0;36mi[0;34mstr[0;1;34mibution[0m     [34m───────[0;1;34m────[0;34m───[0;1;34m────[0;34m────────[0;1;34m───[0;34m──────   [0;1;34m▌[0m
+       [34m▌  [0;1;36m [0;36m [0;34m  [0;1;34m  [0;1;36m [0;36m [0;34m   [0;1;34m       [0m     [34m───────[0;1;34m────[0;34m───[0;1;34m────[0;34m────────[0;1;34m───[0;34m──────   [0;1;34m▌[0m
        [1;34m▌  [0;1;36m [0;36m [0;34m   [0;1;36m [0;36m [0;34m   [0;1;34m       [0m               [1;36m [0;36m  [0;1;36m [0;36m [0;34m   [0;1;34m      [0;1;36m [0;36m [0;34m  [0;1;36m [0;36m [0;34m  [0;1;36m [0;36m [0;34m  [0;1;34m   ▌[0m
        [34m▌  [0;1;36m [0;36m [0;34m  [0;1;36m [0;36m [0;34m   [0;1;34m       [0m             [1;36m [0;36m [0;34m  [0;1;34m  [0;1;36m [0;36m [0;34m  [0;1;36m [0;36m [0;34m   [0;1;34m   [0;1;36m [0;36m [0;34m  [0;1;36m [0;36m [0;34m   [0;1;34m     ▌[0m
        [1;34m▌  [0;1;36m [0;36m [0;34m   [0;1;34m   [0;1;36m [0;36m [0;34m   [0;1;34m   [0m             [1;36m [0;36m [0;34m   [0;1;36m [0;36m [0;34m     [0;1;36m [0;36m [0;34m  [0;1;36m [0;36m [0;34m  [0;1;34m  [0;1;36m [0;36m [0;34m   [0;1;34m     ▌[0m

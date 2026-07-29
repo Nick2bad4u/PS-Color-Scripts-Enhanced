@@ -5,7 +5,7 @@
 # Source SHA-256: 7bf3e774acbbe5d1c231ec05f19c19feb691615d1e9f897b21c81c23c4c799ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-AWE.ANS by Fluor + Aoh (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: AWE Lettering
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -17,7 +17,7 @@
 Write-Host '
                       [1;30m░[0m
                      [1;30m■[0m              [1;30m  [0m                                      [1;30m■[0m
-               [1m  [0;1;30m░▄▄▀[0m            [1;30m░[0m [1;30m [0m [1;30m▬[0;1;37m [0;1;30m.awe,let[0;36mteri[0;1;36mng,b[0;1;37maby!![0m  [1;30m▄[0m [1;30m▀▀▄[0m [1m  [0;1;30m░░▄▄█▀[0;1;37m [0m
+               [1m  [0;1;30m░▄▄▀[0m            [1;30m░[0m [1;30m [0m [1;30m▬[0;1;37m [0;1;30m        [0;36m    [0;1;36m    [0;1;37m     [0m  [1;30m▄[0m [1;30m▀▀▄[0m [1m  [0;1;30m░░▄▄█▀[0;1;37m [0m
              [1;30m▄▄█▀▓▀[0m              [1m [0;1;30m▄▄▀[0;1;37m [0m                       [1;30m▐▌[0m   [1;30m█▄▄█▓▀██▌[0m
 [1m   [0m       [1m [0;1;30m▄[0;1;37m [0;1;30m▄[0;1;30;47m▓[0;1;30;40m█[0;30;47m▓[0;1;30;40m▀[0;1;37;40m  [0;1;30;40m▌[0m       [1m [0;1;30m▄▄▄[0m░[1;30m██▀[0m                 [1m   [0;1;30m ▄▄▄▄▓████▀█▀████[0m░     [35m░[0m
 [1;37m  ░[0m [35m■[0m     [1;30;47m█▓▓▒▒▓[0;30;47m▒[0;37;40m░[0;1;37;40m  [0;1;30;40m█[0;1;37;40m  [0;1;30;40m▄▄▄[0;1;30;47m▓████[0;1;30;40m▀▀[0m      [1m      [0m   [1;30m░[0;1;37m [0;1;30m▄▄[0m░[1;30m▀███████▀▀▀▌ [0;1;37m [0;1;30m░[0;1;37m [0m░[1;30;47m▓▓█[0m░     [35m▐[0m

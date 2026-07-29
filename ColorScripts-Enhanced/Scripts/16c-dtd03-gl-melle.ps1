@@ -5,7 +5,7 @@
 # Source SHA-256: dd468684aae363adac8806f72a0cdf669c485a3e9fdc292a9caf3a06575edecc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GL-MELLE.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: MAiN MENU
 # SAUCE Author: GLANDYTH-A-KRAE
 # SAUCE Group: DEVOTiON TO DARKNESS
@@ -22,7 +22,7 @@ Write-Host '
 [1;30;46m▓[0m  [1;30m▐▓▓░[0;1;33m [0;1;31m [0;1;33;43m░[0;1;33;40m [0;1;30;40m   [0;1;33;40m [0;1;30;46m░[0;1;33;40m  [0;36m▄▄[0;1;30;46m▄[0;1;30;40m▀[0;1;33;40m [0;36m░▓▀[0;1;33;46m ░[0;36m▄[0;1;33m [0;36m▀[0;1;33;46m▓▓[0;36m▄▄▄▄▄▄▄▄▄[0m
 [1;30m▀█▀▀ [0m    [33m▀▀[0;31m▀[0;1;30m▀ [0;33m▄[0;1;33;46m▄[0;1;37;46m▄[0;1;33;46m▓░[0;36m▌[0;1;33m [0;1;30m▄ ▄▄[0;1;33m [0;36m▐[0;1;33;46m░▓▌[0;1;33;40m [0;36m▐[0;1;33;46m▐▓[0;36m▌[0;1;33m [0;1;30m▄▄[0;1;33m [0;1;36;46m░[0;1;33;40m [0;1;30;46m░[0;1;33;40m  [0md[1md[0md[1;30m_[0;1;33m [0md[1mdevotion[0mn t[1mto[0mo g[1mglandyth[0mh
  [1;30m▓[0m [1;31;41m░[0;1;31;40m▀▀▀▀[0;1;31;41m▓[0;1;31;40m▀[0;31m▀[0;1;33m [0;33m▄[0;1;33;43m▄▓▓[0;1;37;40m██[0;1;33;46m▓▄[0;1;33;40m▄▄ [0;1;30;40m▀[0;1;33;40m [0;33m▄[0;1;33;43m▓[0;1;33;40m█[0;1;33;46m▓▓[0;1;33;40m█ [0;1;33;46m▓[0;1;37;46m▓[0;1;33;46m▌[0;1;33;40m [0;1;30;40m ▀[0;1;33;40m [0;1;36;46m▓[0;1;33;40m [0;1;30;46m▓[0m
- [1;30m░[0m [31m█▄▄[0;33m  [0;1;31;41m░[0;33m  █[0;1;33;43m░▓▓▒░▀░▒▓▓▓░[0;33m█[0;1;33;43m░▓▓[0;1;33;46m██[0;1;33;43m▓▓[0;1;37;40m██[0;1;37;46m▌[0;33m  [0;1;33;43m▓[0;1;37;40m▀▀[0;33m [0;1;30;46m█[0;33m  [0;37mc[0;1;37mc[0mc[1;30m_[0;1;33m [0mc[1mcommant[0mt t[1mto[0mo s[1msysgod[0md
+ [1;30m░[0m [31m█▄▄[0;33m  [0;1;31;41m░[0;33m  █[0;1;33;43m░▓▓▒░▀░▒▓▓▓░[0;33m█[0;1;33;43m░▓▓[0;1;33;46m██[0;1;33;43m▓▓[0;1;37;40m██[0;1;37;46m▌[0;33m  [0;1;33;43m▓[0;1;37;40m▀▀[0;33m [0;1;30;46m█[0;33m  [0;37m [0;1;37m [0m [1;30m [0;1;33m [0m [1m       [0m   [1m  [0m   [1m      [0m 
      [31m█  ▓[0;33m ▐[0;1;31;43m▐░[0;1;33;43m░░░[0;1;31;43m░▄▓▄░[0;1;33;43m░░[0;33m█▀[0;1;33;43m ░░▓▓░▓▓█[0m   [1;33;43m░[0;31m [0;37m▓▓▀[0m
      [31m▄  ░[0;33m  ▓[0;1;31;43m░▓▓▓▓▓░[0;33m▀[0;31m [0;33m▐▀[0;31m  [0;33m▐[0;1;31;41m▓░[0;1;33;43m░[0;1;31;43m░▄[0;1;33;43m░▌[0;31m  [0;37m░[0;31m [0;1;31;43m░[0;31m [0;37m░░[0;1;30m░[0m
      [1;30;41m░[0;31m  [0;1;30m [0;31m [0;1;30m▄[0;31m [0;1;31;41m░▓███▌[0;31m▌ ▄[0;1;31m▄[0;31m▄[0;1;31m▄▄[0;1;31;41m░█▓▒▓▓░[0;31m [0;37m▄▄▓[0;31m [0;1;31;43m▓[0m   [1;30m▓[0m

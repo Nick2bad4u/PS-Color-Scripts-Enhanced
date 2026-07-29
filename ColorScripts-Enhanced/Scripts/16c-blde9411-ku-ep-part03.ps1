@@ -5,7 +5,7 @@
 # Source SHA-256: 28a93ae03434da5e43eba1c842b874518b56681d457934e8bdbfd7393959ae1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KU-EP.ANS by Kung Lao (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Eternal Psychosis
 # SAUCE Author: Kung Lao
 # SAUCE Group: Blade Productions
@@ -41,7 +41,7 @@ Write-Host '
                               [1;30;40m [0m [1m             [0m [1;30m [0m
 
                    [1;30m    ─ ─[0m─[1m  [0;1;30m [0m [1m               [0m [1;30m  [0;1;37m [0m─[1;30m─ ─    [0m
-                   [1;30m· ··─·─[0m─[1m{ [0;1;30mC[0mo[1m-Sysop: Ear[0m       [1m}[0m─[1;30m─·─·· ·[0m
+                   [1;30m    ─ ─[0m─[1m  [0;1;30m [0m [1m           [0m       [1m [0m─[1;30m─ ─    [0m
                    [1;30m    ─ ─[0m─[1m  [0;1;30m [0m [1m               [0m   [1m [0m─[1;30m─ ─    [0m
                    [1;30m· ··─·─[0m─[1m{ [0;1;30m0[0m-[1m3 day warez[0m       [1m}[0m─[1;30m─·─·· ·[0m
                    [1;30m· ··─·─[0m─[1m{ [0;1;30mP[0m/[1mH/A/C/V[0m           [1m}[0m─[1;30m─·─·· ·[0m

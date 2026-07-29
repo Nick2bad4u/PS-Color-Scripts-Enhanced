@@ -5,7 +5,7 @@
 # Source SHA-256: a110b40cd6609faeed6795e022911ab9366c2b450c528db7b3d010cf9a3cffcb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K-OVERDZ.ANS by kelthar (shade); released in shade002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: overdoze
 # SAUCE Author: kelthar
 # SAUCE Group: shade
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[35m▓▄▄[0;37m [0;35m░[0m                  [37mOnly 2 b viewed under 80x25 mode...[0m          [35m▓█[0;1;35;45m▒▓ [0;35m███▓█[0;35;44m▓[0;35;40m█[0m
+[35m▓▄▄[0;37m [0;35m░[0m                  [37m                                   [0m          [35m▓█[0;1;35;45m▒▓ [0;35m███▓█[0;35;44m▓[0;35;40m█[0m
 [1;35;45m■ [0;35m██▒▄[0;37m [0m   [37m                                      [0m                     [35m▓█[0;1;35;45m▒░[0;35;44m▓[0;35;40m█████▓[0m
 [35;40m█[0;35;44m▓[0;1;35;45m ░[0;35m▓▒▄[0m             [1;30m [0m                [1;30m [0m                                [35m▀▓██[0;1;35;45m░[0;35m██[0;30;45m■[0;35;40m▀ [0m
 [35;40m██▓▀ █▓[0m           [1;30;40m▀[0m [1;30m▒■▀▀▀▀▀[0m  ▒ [1;30m▀▀▀▓▀▀▀ ▀▀▀▀▀▀▀▀▒▀▀■ ▀  ■▄   [0m           [35m▒ ▀▀▓███▓[0m

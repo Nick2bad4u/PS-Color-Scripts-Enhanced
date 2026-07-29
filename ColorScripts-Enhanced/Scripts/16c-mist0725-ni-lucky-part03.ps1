@@ -5,7 +5,7 @@
 # Source SHA-256: cff5b0c561c1377f2d489562eaa1215a954390a7e1755b68c46f596ec3145e16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-LUCKY.ANS by Nitron (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Lucky Mendoza Tribute
 # SAUCE Author: Nitron
 # SAUCE Group: Mistigris
@@ -40,7 +40,7 @@ Write-Host '
            [1;30m███████████▀▀▀▀▀████[0m
           [1;30m▓[0m         [1;30m▄▄▄▄██████▀[0m
           [1;30m▓█▄▄████████████████[0m
-          [1;30m▓▓▓▓▓▓████████████▀[0m          [1mChuckles "Lucky" Mendoza[0;31m ♥[0m
+          [1;30m▓▓▓▓▓▓████████████▀[0m          [1m                        [0;31m  [0m
 [37m          [0;1;30m▓▓▓█████████████▀▀[0m  [1;30m▌[0m           [1mApr 2007 - Oct 2022[0m
            [1;30m▓████▀▀████▀▀▀[0m    [1;30m▄▌[0m
            [1;30m▓[0m              [1;30m▄▄██[0m

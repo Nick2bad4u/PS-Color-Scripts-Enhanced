@@ -5,13 +5,13 @@
 # Source SHA-256: 045a736e1dd9a428ec5bfa6f0b555f9b16740b5b039df2e9b091c1c0a9edcb2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DISASTR1.ANS by Con Artist (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
 [1;37;40m  [0m      [1;33;41m▒█▓▒▒█▓▒▓█▒[0m                                         [1;33;41m▒▓▒▓██▓▓█[0m
-[1;5;32;40m       [0;1;33;41m▒▓█[0;31m███[0;1;31;41m▄[0;31m███[0;1;33;41m█▓▒▓█[0;1;5;32;40m      [0;1;5;32m  [0;1;34m[[0;1;32mA[0;1;35m.[0;1;36mA[0;1;35m.[0;33mA[0;1;35m. [0;1;31mb[0;1;31;40my: Con Artist[0;1;34;40m][0m       [1;33;41m▓▒█[0;31m██[0;1;31;41m▄[0;31m██[0;1;33;41m▀█▒▓█▒[0m
+[1;5;32;40m       [0;1;33;41m▒▓█[0;31m███[0;1;31;41m▄[0;31m███[0;1;33;41m█▓▒▓█[0;1;5;32;40m      [0;1;5;32m  [0;1;34m [0;1;32m [0;1;35m [0;1;36m [0;1;35m [0;33m [0;1;35m  [0;1;31m [0;1;31;40m             [0;1;34;40m [0m       [1;33;41m▓▒█[0;31m██[0;1;31;41m▄[0;31m██[0;1;33;41m▀█▒▓█▒[0m
       [1;33;41m▒█[0;31m███[0;1;31m█[0;1;31;41m▀[0;31m█[0;1;31m██[0;31m█[0;1;33;41m▒▓█▒▓█[0m [1;33;41m▒[0m  [1;33;41m▒▓█▒▒█▓▒▓█▒▓▓▒█▒█[0m   [1;33;41m█▓█▓[0m [1;33;41m▒▓█[0m [1;33;41m▒▓█[0m [1;33;41m▒▓[0;31m█[0;1;31m██[0;31m█[0;1;31;41m▀[0;1;31;40m█[0;31m██[0;1;33;41m▒█▒▓▓▒█[0m
      [1;33;41m▒▓[0;31m██[0;31;41m [0;1;31;41m▀[0;31m██[0;1;31;41m▐[0;1;31;40m█[0;1;31;41m▌ [0;1;33;41m▒▓█▒▒▓█▒▒▓▒▒▓█▓▓▓█▒█▓█▓▒██▒▒▓█▒▓▒█▓▒▒▓█▒▒▓█▒▓█[0;1;31;41m▐[0;1;31;40m█[0;1;31;41m▌[0;31m██[0;1;31;41m▀ [0;31m█[0;1;33;41m▒█▒█▓[0m
      [1;33;41m▒██[0;31m█████[0;1;31m██[0;31m████[0;1;33;41m▒▓█▓▒█▒█▒▓█▓▒█▓▒█▒▓▓█▒▓█▒▓█▓▒█▒▒▓▒▓▒█▓▒█▒▓▒▒[0;31m█[0;1;31m██[0;31m█████[0;1;33;41m▓▒▒▓██[0m

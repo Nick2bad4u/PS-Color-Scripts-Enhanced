@@ -5,7 +5,7 @@
 # Source SHA-256: b76ab6753ada3df0e1d5d62e8fafc3888044744964d566fcad5065602e42d6d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-FUHE.ANS by hetero; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FUCK HEAD
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -28,7 +28,7 @@ Write-Host '
 [1;30;46m░░▒▒▓▓[0;1;30;40m▄█▓▒ █[0m     [1;31;40m▀[0;31m█▀░░[0m           [1;30m▄▀░ ▄▄ ▄ ░▀▄   ▄▀▒▀[0m
 [1;30m [0;1;30;46m░░▒▒▓[0;36m▄[0;1;30m▀▀   ▀▄   [0;31m░ ░░[0m        [1;30m▄▄▀▀ ░▄█▓▒░░▀ ▓▒▀▄▀▒▀[0m
 [1;30m  [0;36m▀[0;1;30;46m░[0;36m▀▀ [0;1;30m░ ▄█▓▒ ▀▄▄[0m      [1;30m▄▄▄▀▀▀  [0;36m▄▀[0;1;30m▄███▀▄░░ ▓▓▓▒▄▒[0m     [1;37m─[0;1;36m──[0;36m─[0;1;36m─[0;36m──[0;1;30m─[0;36m─[0;1;30m──────[0;36m─[0;1;30m─[0;36m──[0;1;36m─[0;36m─[0;1;36m──[0;1;37m─[0m
-[1;37m   [0;1;30m░ ░░ █▓▒░[0m     [1;30m▀▀▄▄▀▀    ░ [0;36m▄█▓▒[0;1;30m▀█▀ [0;36m░ [0;1;30m▓▓▓ ▄▀▀▒   · [0mS[36mU[0;1;36mPERI[0;36mO[0;37mR [0;1;30m· [0;36mA[0;1;36mR[0;36mT [0;1;30m· [0mC[36mR[0;1;36mEATIO[0;36mN[0;37mS [0;1;30m·[0m
+[1;37m   [0;1;30m░ ░░ █▓▒░[0m     [1;30m▀▀▄▄▀▀    ░ [0;36m▄█▓▒[0;1;30m▀█▀ [0;36m░ [0;1;30m▓▓▓ ▄▀▀▒     [0m [36m [0;1;36m    [0;36m [0;37m  [0;1;30m  [0;36m [0;1;36m [0;36m  [0;1;30m  [0m [36m [0;1;36m     [0;36m [0;37m  [0;1;30m [0m
 [1;30m  ░ ░░   █▓▒░▄▓▒▄█▓▒▄█▓▒░ ░  [0;36m▀██▓▒▒░░▀  [0;1;30m▒▓  █[0m        [1;37m─[0;1;36m──[0;36m─[0;1;36m─[0;36m──[0;1;30m─[0;36m─[0;1;30m──────[0;36m─[0;1;30m─[0;36m──[0;1;36m─[0;36m─[0;1;36m──[0;1;37m─[0m
 [1;37m   [0;1;30m░ ░░░ ▀█▓▀█▓▀█▓▒▀█▓▒░ ▄▄▀▀▄▄▄[0;36m▀▀▀ [0;1;30m▄ █ ▒▒▒ [0;1;30;47m▓[0;1;30;40m░[0m
 [1;30;40m    ░ ░░░  ▀▀ ▀█ ▀█▀ ▀█▀▀▄▄███▓▓▓▓▓ [0;1;30;47m▓[0m [1;30;47m▓[0m [1;30;40m▒▒░ [0;1;30;47m▒[0;1;30;40m░[0m

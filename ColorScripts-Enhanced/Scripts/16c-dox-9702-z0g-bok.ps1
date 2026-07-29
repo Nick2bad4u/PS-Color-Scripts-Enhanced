@@ -5,7 +5,7 @@
 # Source SHA-256: e20cdf1fe3ace20e1415dfae6e9c9dfb9f6b74ee48abcb83dd050164300515a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Z0G-BOK.ANS by zoglomorph (d0x.product); released in dox_9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the bookworm
 # SAUCE Author: zoglomorph
 # SAUCE Group: d0x.product
@@ -21,7 +21,7 @@ Write-Host '
                             [34;40m█[0;36;44m░                   ░[0;34;40m█[0m
 [34;40mb00k W0RM Z0G <DoX>[0m       [34;40m▄[0;34;44m               [0;1;37;44m▄[0;1;37;40m███[0;1;37;44m▄   [0;36;44m░[0;34;40m█[0m
 [34;40m0ld SkWEL hEhEhE..[0m       [34;40m█[0;36;44m░               [0;1;37;40m███▀█[0;1;37;44m   [0;36;44m░[0;34;40m█[0m
-[34;40mThe Book of "Tomas"[0m     [34;40m▄[0;34;44m [0;36;44m░               [0;1;37;44m▀[0;1;37;40m██▄[0;1;37;44m▀   [0;36;44m░[0;34;40m█[0m
+[34;40m                   [0m     [34;40m▄[0;34;44m [0;36;44m░               [0;1;37;44m▀[0;1;37;40m██▄[0;1;37;44m▀   [0;36;44m░[0;34;40m█[0m
                        [34;40m█[0;34;44m [0;36;44m░                       ░ [0;34;40m█[0m
                       [34;40m█[0;34;44m            [0;34;40m▀▀▀[0;34;44m             [0;34;40m▀[0m
                       [34;40m█[0;34;44m           [0;34;40m█    ▀▀▀▀▀▀▀▀▀▀▀[0m

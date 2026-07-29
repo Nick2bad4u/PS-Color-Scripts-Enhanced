@@ -5,7 +5,7 @@
 # Source SHA-256: d05da936cc1da7620a2a982d75fd4efa830a29982264faf71b2e8b3b9af01a0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-TOAST.ANS by rorshack (Maiden Brazil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: toast
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -37,7 +37,7 @@ Write-Host '
              [1;33m▄[0;1;33;43m▀▀▀[0;1;30;40m▄[0m
             [1;33;43m█ [0;33m▄█▄[0;1;30;43m▐[0m [1;47m▀░[0m▄    tehehehehe.
          [1m▄[0;1;47m█[0m [1;33;43m▌[0;33m█▀▀▀[0;37m▄▄███[0;1;30;47m█[0;1;30;40m░░[0m this is a toaster.
-        [1m▐[0;1;47m▌[0m█▄▄▄██[1;47m▄▄ ▀[0m██[1;30;47m▐[0;1;30;40m▌[0m  there is a toast in it.
+        [1m▐[0;1;47m▌[0m█▄▄▄██[1;47m▄▄ ▀[0m██[1;30;47m▐[0;1;30;40m▌[0m                         
       [1m ░[0;1;47m█[0m█ █[1;47m▀░▓▀[0m█████[1;30;47m░▐[0;1;30;40m▌[0m
         [1;47m▌[0m▀[1m▄[0m▀██[1;30;47m░[0;47mrs![0;40m█[0;1;30;47m░ ▄█[0;1;30;40m▌[0m  see?
         [1;47m█[0m█▄▄██[1;30;47m▓[0m██[1;30;47m▄▄▓[0;1;30;40m█▀▀[0m

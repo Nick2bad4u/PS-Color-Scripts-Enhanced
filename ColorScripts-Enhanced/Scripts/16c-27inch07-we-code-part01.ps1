@@ -5,7 +5,7 @@
 # Source SHA-256: 63cc8d0c120e41df82a9fdb2bb9ba84200cf254e261d0234bc3cbbaf7df136e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-code.ans by Enzo + Spear (27inch07); released in 27inch07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
                               [1;30m▀[0;1;30;43m▄█[0;33m▀▀▀████[0;1;31;43m▀[0;1;31;40m▄[0;33m ▀ [0;37m    [0;1;30m█▄[0m  [1;30m▄█▀[0m            ▀[1;47m▀█▀[0m▀
                         [32m  [0;33m    [0;1;30m█[0;33m  [0;1;37m▄▄[0;33m  ██▀██▌ [0;32m▄[0;33m [0;37m / [0;33m [0;1;30m▀▀▀[0m
                          [32m▀▄[0;33m [0;32m▄[0;33m  [0;1;30m█▄[0;33m   ▄█████ [0;32m█[0m
-                     [32m▄[0;37m   [0;33m [0;32m█[0;1;32;42m▄[0;32m█▌[0;33m [0;1;30m▄[0;1;30;43m▀[0;33m████▀▀[0;1;31;43m ▄[0;33m▄ [0;32m█▄[0;1;32;42m▄[0;32m▄▄▀[0;33m   [0;1;30m [0m* enzo has joined #kidporn
+                     [32m▄[0;37m   [0;33m [0;32m█[0;1;32;42m▄[0;32m█▌[0;33m [0;1;30m▄[0;1;30;43m▀[0;33m████▀▀[0;1;31;43m ▄[0;33m▄ [0;32m█▄[0;1;32;42m▄[0;32m▄▄▀[0;33m   [0;1;30m [0m                          
                       [32m▀█▄[0;33m  [0;32m█[0;1;32;42m█[0;33m [0;1;30m█[0;1;30;43m   [0;33m█▄▄[0;1;30m▀[0;1;30;43m▀[0;33m█[0;1;31;47m█[0;1;31;43m▀[0;33m▌[0;32m▐[0;1;32;42m█▀[0;32m▀[0;33m [0;32m▄▌[0m
                         [1;32;42m▀▄██▀[0;33m  [0;1;30m▀[0;33m [0;1;30;43m▄[0;33m█████[0;1;31;43m▀[0;33m▀  [0;32m▀▀█[0;1;32;42m ▄[0;32m█[0;33m [0;37m   [0;32m▄[0;37m    <spear> enzo: pablo?[0m
                      [32m▀▄▄[0;37m [0;32m█[0;1;32;42m▀[0;32m▀[0;37m [0;31m▄[0;1;31;41m▄[0;1;31;40m▀[0m [1;30m▄[0;33m [0;1;30m▀[0;33m▀▀ [0;37m [0;34m▄[0;37m [0;1;31;43m ░[0;33m▄ [0;1;32;42m█▀[0;33m [0;32m▄██▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: d5cbcb1f791831f919073e426e98e1bd9edc9d48375cb66d1345704379c8e0a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PARATOX7.ANS by paratoxic (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: system x with atomic dressing
 # SAUCE Author: paratoxic
 # SAUCE Group: fbk.sargahd
@@ -27,7 +27,7 @@ Write-Host '
    [35m▓[0;1;35;45m░[0;35m [0;33m▀[0;1;33;43m░[0;33m▄[0;37m▀▀[0;1;37;47m ▒[0;1;37;40m▄▄▓▄██▀[0m [1;33;43m▓[0;1;33;40m▌ [0;31m░  [0;32m▓▓▀[0;34m▐░[0;37m▄ ▀▀▓▓▀  [0;35m▀[0;1;35;45m▓▀[0;35m░[0;37m ▄░▀▀▓▓▀    [0m   [31m▀░▀[0;1;31;41m░[0;31m▄▄▄[0;37m [0;32m ▀[0;1;32;42m░▓▄[0;32m▌[0m
    [35m █[0;1;35;45m▓[0;35m░ [0;33m▀▀▄▄[0;1;37m [0m▀▀[1m▀▀[0m [1;33m▄▄▀▀[0;31m ▐▓▄[0;1;33m [0;32m░░[0;1;33m [0;34m▀[0;37m [0;36m ▄[0;1;36;46m░[0;36m▌[0;37m░░[0m     [37;45m░[0;1;35;45m░[0;35m▌[0m    [37m░░            [0;31m▀[0;1;31;41m▀▄▄[0;31m█▄[0;37m [0;32m▐▀ [0m
    [37m  [0;35m▓▓█░[0;1;33m  [0;31m [0;33m▀▀▀[0;1;33m▀[0;1;33;43m▓[0;1;33;40m▀[0m [31m▄▄[0;1;31;41m▄▄▓▀[0;31m▌░[0m     [36m▐[0;1;36;46m▓▌[0m         [35m░▌[0m                   [31m▐[0;1;31;41m░██▌[0;31m▌[0;37m [0;32m [0m
-     [35m  ▐[0m         [31m▄▓▓▀▀▀▀▀[0m        [36m▀▀▌[0;37m  paratoxic ^sargahd^rca   [0;31m ▄[0;1;31;41m▄▓▀░[0;31m▀[0m
+     [35m  ▐[0m         [31m▄▓▓▀▀▀▀▀[0m        [36m▀▀▌[0;37m                           [0;31m ▄[0;1;31;41m▄▓▀░[0;31m▀[0m
                   [31m░░[0m                                          [31m▀▀▀▀▀[0m
                [37m▄▄[0;1;37m▄▄[0m                                      [33m░░[0m
             [37m▄[0;1;37;47m░▄[0;1;37;40m██[0;1;37;47m███▓[0;1;37;40m▄[0m                                [33m▄▄▄▓▓ [0m

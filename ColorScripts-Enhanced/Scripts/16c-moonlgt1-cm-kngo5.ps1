@@ -5,7 +5,7 @@
 # Source SHA-256: def1ed5263103b6d94035cd8ac64ee28b69aedcfb1da9cd3162df84c8bbbf610
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-KNGO5.ANS by meeze chonkey (?!) (sunlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: kongo! ansi #5
 # SAUCE Author: meeze chonkey (?!)
 # SAUCE Group: sunlight
@@ -18,7 +18,7 @@ Write-Host '
      [1;32m░[0m                                             [36m▄[0;1;34;46m░▒▓[0;1;34;40m▄ ▀ ■▄[0m
 [1;34m  [0;1;32m░ ▒▒░[0m                                             [36m▀▀[0;1;34m▀[0;36m░    [0;34m▐[0;1;34m▌[0m
 [1;34m    [0;1;32m░░[0m       [1;34m▄■▀[0;34m▀[0;1;34m▀▀[0;1;30m▀[0;1;34m▀[0;34m▀[0;1;34m▀▀▀[0;34m▀[0;1;34m■▄[0m                              [1;34m▄[0;34m■[0;1;34m▀░░[0m
-[1;34m [0;34m░[0m          [34m▐[0;1;34m▌  [0;1;37mk[0m0ngO[1;34m![0;1;37mb[0mbs  [34m▐[0;1;34m▌[0;35mcm![0m                         [1;34m▐[0;34m▌[0m                    [34m░[0m
+[1;34m [0;34m░[0m          [34m▐[0;1;34m▌  [0;1;37m [0m    [1;34m [0;1;37m [0m    [34m▐[0;1;34m▌[0;35m   [0m                         [1;34m▐[0;34m▌[0m                    [34m░[0m
 [34m ▓▄ [0;1;32m░  ▄▄▄ [0;34m▄[0;1;34m▄▓[0;34m▄[0;1;34m▄[0;34m▄▄ [0;1;32m░  ▄▄▄ [0;1;34m▄▓▄[0;34m▄▄[0;1;34m▄▄ [0;1;32m░  ▄▄▄ [0;34m▄▄▄▄▄▄▄ [0;1;32m░  ▄▄▄ [0;34m▄▄▓▄▄▄▄ [0;1;32m░  ▄▄▄ [0;34m▄▄▄▄▄▄▄▄▓[0m
 [34m [0;34;44m [0;37;40m [0;1;32;40m▄▓[0;1;32;46m█▓▓█[0;1;32;40m▌▄▄▄▄▄▄  ▄▓[0;1;32;46m█▓▓█[0;1;32;40m▌[0;1;34;40m▀▀▀[0;34m▀[0;1;34m▀[0;1;34;44m░▓[0m [1;32m▄▓[0;1;32;46m█▓▓█[0;1;32;40m▌[0;34m▀▀▀▀▒▓█ [0;1;32m▄▓[0;1;32;46m█▓▓█[0;1;32;40m▌[0;34m▀▀▀▀▀██▌[0;1;32m▄▓[0;1;32;46m█▓▓█[0;1;32;40m▌[0;34m▀▀▀▀▀██[0;1;30;44m░[0;1;34;44m░░[0m
  [1;34;44m [0m [36m▄[0;1;32m▐[0;1;32;46m▀█▒[0;1;32;40m▀▀▄[0;1;32;46m▓█▓[0;1;32;40m▄▄  [0;36m▄[0;1;32m▐[0;1;32;46m▀█▒[0;1;32;40m▀▀▀[0;1;32;46m▓█▓[0;1;32;40m▄▄[0;1;34;40m▐ [0;36m▄[0;1;32m▐[0;1;32;46m▀█▒[0;1;32;40m▀▀▀[0;1;32;46m▓█▓[0;1;32;40m▄▄[0;34m▐ [0;36m▄[0;1;32m▐[0;1;32;46m▀█▒[0;1;32;40m▀▀▀[0;1;32;46m▓█▓[0;1;32;40m▄▄[0;34m▐ [0;36m▄[0;1;32m▐[0;1;32;46m▀█▒[0;1;32;40m▀▀▀[0;1;32;46m▓█▓[0;1;32;40m▄▄ [0;34m▀▀▀[0m

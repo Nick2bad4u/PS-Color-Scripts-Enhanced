@@ -5,7 +5,7 @@
 # Source SHA-256: de1b8ab4353a18815581aee7715bb3072b4bdb4a9512e29c76da901e1386cd5d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ!OUTP.ANS by ize (fusion); released in fsn-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the final outpost
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -35,5 +35,5 @@ Write-Host '
          [1;30m▐▓█▌[0m            [1;30m▄█[0m          [1;30m■▀ ▀■▄[0m [1;30m■[0m      [1;30m▓█▄[0m     [1;30mize.fsn!█[0m
           [1;30m█▓[0m            [1;30m▐▓▌▀■[0m           [1;30m  [0m      [1;30m■▀[0m [1;30m▀██[0m         [1;30m  ▀▓▌[0m
           [1;30m▐█▌[0m          [1;30m■▀[0m             [1;30m    [0m           [1;30m▓▌[0m            [1;30m▌[0m
-        [1;30m■▀[0m [1;30m▀▓▄ [0m      [1;30m     - stats should be here -[0m    [1;30m▀■[0m        [1;30m ■▀[0m
+        [1;30m■▀[0m [1;30m▀▓▄ [0m      [1;30m                             [0m    [1;30m▀■[0m        [1;30m ■▀[0m
              [1;30m▀■·[0m                                                [1;30m■[0m'

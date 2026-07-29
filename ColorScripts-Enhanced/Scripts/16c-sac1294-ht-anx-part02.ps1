@@ -5,7 +5,7 @@
 # Source SHA-256: 0a02303acd1d9d8b77d66702c5f299fa94568b5556e72fffc7fa0dd6f27a6d2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-ANX.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ANXIETY
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -62,5 +62,5 @@ Write-Host '
               [1;31;41m░[0m               [36m      [0;1;36m      [0;36m       [0;37m     [0m          [31m▀[0;1;31;41m░░[0m [1;30;40m░[0m     [36m░[0m
 [36m  ░[0m           [1;31;41m░[0m                 [36m     [0;1;36m    [0;36m      [0;37m       [0m           [31m█  [0;1;30m░  [0;36m░[0m
              [31m█[0;1;31;41m░[0;31m▄[0m                                                 [31m▄  [0;1;30m░[0m
-              [31m▀[0m           [31m· ─ { S[0;1;31mYSO[0;1;37mP : BAC[0;1;31mCHU[0;31mS } ─ ·[0m           [1;31;41m░░[0;31m▀[0m
+              [31m▀[0m           [31m  ─    [0;1;31m   [0;1;37m       [0;1;31m   [0;31m    ─  [0m           [1;31;41m░░[0;31m▀[0m
               [1;31;41m░[0m                                                  [31m▀[0m'

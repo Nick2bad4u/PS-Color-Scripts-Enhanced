@@ -5,7 +5,7 @@
 # Source SHA-256: a5fb434c8cd3dedf393795438f87e5e9bd333451e8913a87327dd6f5f872a404
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GULP-03.ANS by The Joint (joint05); released in joint05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
     [35m▄█████████████████████████████████████████████████████████▌[0m   [1;36m██████████ ███[0m
    [35m▐███████████████████████████████████████████████████████████[0m   [1;36m▐█████■███■███[0m
     [35m▀▀██████████████████████████████████████████████████████████[0m   [1;36m█████ ███ █ █[0m
-         [35m▀████████████[0;37;45mhappy people drink gulp!@![0;35;40m████████████████▓▄[0;1;36;40m  ▀████████▌▐█[0m
+         [35m▀████████████[0;37;45m                          [0;35;40m████████████████▓▄[0;1;36;40m  ▀████████▌▐█[0m
           [35m▐█████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀████████████████████▌[0m   [1;36m▀████▀▀▄██[0m
          [35m▄████████████▀▀▀▀▀[0;1;31m ▄▄▄▄▄▄██████████▄▄▄▄▄▄▄   [0;35m▀▀▀▀▀█████████▄▄[0m   [1;36m▀▀▀████[0m
    [35m ▄▄▄████████▀▀[0;1;31m  ▄▄▄▄████████████  ████  █████████████▄▄▄▄[0;35m [0;1;31m  [0;35m▀▀▀██████[0;35;47m▓▓[0;35;40m▄▄[0m

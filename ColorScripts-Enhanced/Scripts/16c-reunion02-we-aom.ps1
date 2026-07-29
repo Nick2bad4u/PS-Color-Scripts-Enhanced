@@ -5,7 +5,7 @@
 # Source SHA-256: 4d237842d04466eb4489357b9b756519cfc8c8787500351722bdccaed76d17e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-aom.ans by Maestro + The Silent Killer (reunion02); released in reunion02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -29,6 +29,6 @@ Write-Host '
 [32m ▐[0;1;32;42m░▓████▓[0;32m▌[0m          [1;33m░░░[0;1;32m░[0;32m   [0;1;32m▐[0;1;32;42m███████▀[0;1;32;40m▀[0;32m▀[0m     [1;32;42m████[0m         [1;33m░▓███[0;1;32m███[0;1;32;42m▀[0;1;32;40m▀▀[0;32m▀[0m
 [32m  ▀[0;1;32;42m▀█████▄[0;32m▄    [0m       [32m    [0;1;32m▄[0;1;32;42m█████▀[0;32m▀[0m         [1;33m███[0;1;32;42m█[0m           [1;32m▀▀▀[0;32m▀[0m
 [32m    ▀[0;1;32;42m▀█████▄[0;1;32;40m▄[0;32m▄[0m        [1;32m▄▄[0;1;32;42m██████▀[0;32m▀[0m           [1;33m▓▓▓[0;1;32m▓[0m
-      [32m▀[0;1;32m▀[0;1;32;42m▀██████▄[0;1;32;40m▄▄▄█[0;1;32;42m██████▀[0;1;32;40m▀[0;32m▀[0m              [1;33m░░░[0;1;32m░[0;32m  [0;1;30mabsense of mortality[0m
+      [32m▀[0;1;32m▀[0;1;32;42m▀██████▄[0;1;32;40m▄▄▄█[0;1;32;42m██████▀[0;1;32;40m▀[0;32m▀[0m              [1;33m░░░[0;1;32m░[0;32m  [0;1;30m                    [0m
           [32m▀[0;1;32m▀▀[0;1;32;42m▀███████▀[0;1;32;40m▀▀[0;32m▀[0m
                 [32m▀▀▀[0m'

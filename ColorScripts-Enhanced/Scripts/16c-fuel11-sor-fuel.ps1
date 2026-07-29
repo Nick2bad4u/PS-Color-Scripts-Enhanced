@@ -5,7 +5,7 @@
 # Source SHA-256: 613f6437e324ed611621bb6311e7f0b1c82e86d2bb5873aace92398d7880fe17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-FUEL.ANS by Spirit of Rage (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fuel logo
 # SAUCE Author: Spirit of Rage
 # SAUCE Group: Fuel
@@ -26,7 +26,7 @@ Write-Host '
 [1;30m   ▄[0m [35m▀[0;30;45m▓[0;35;40m▀▀▀▀▌▀▀▀▀[0;37;40m  [0;31;40m [0;30;41m▒[0;31;40m  [0;1;30;40m▐[0;1;37;47m▐[0;1;37;40m██[0;1;30;47m▐[0m   [1;30;47m▌[0;1;37;40m██[0;1;30;47m▐[0m [35m [0;30;45m▓[0;37;40m  [0;1;30;47m▌[0;1;37;40m██[0;1;30;47m▐[0;1;37;40m  [0m [1;30m▐[0;1;37;47m▐[0;1;37;40m██[0;1;30;47m▐[0m   [1;30;47m▌[0;1;37;40m█[0;1;37;47m▌[0;1;30;40m▌  ▄  [0m [35m▀[0;30;45m▓[0;35;40m▀▀▀▀▀▀▐▀▀▀▀ ▀▀[0m
 [1;30;40m▒▓▐▀█▄▄ █▓▄▄▐▓▄▒▒▓[0m [30;41m▓[0;37;40m [0;30;42m▓[0;1;37;40m [0;1;30;47m▌[0;1;37;40m███[0;1;37;47m▌[0;1;30;40m▌▐[0;1;37;47m▐[0;1;37;40m█[0;1;37;47m▌[0;1;30;40m▌[0;36m [0;35m [0;30;45m▒[0;36;40m [0;1;30;40m▐[0;1;37;47m▐[0;1;37;40m███[0;1;30;47m▐[0;1;37;40m   [0;1;30;47m▌[0;1;37;40m████████[0;1;30;47m▐[0m [1;30m░█▓▓▒░ ▄▄█▀▓▓▌▄▄█▄▓▌█▓[0m
      [1;30m▀[0m        [1;30m▀[0m      [30;42m▒[0;1;32;40m [0;1;30;40m▐[0;1;37;47m▐[0;1;37;40m█[0;1;37;47m▌[0;1;30;40m▌[0;1;37;40m [0;1;30;47m▌[0;1;37;40m███[0;1;37;47m▌[0;1;30;40m▌[0m   [1;30;47m▌[0;1;37;40m██[0;1;37;47m▌[0;1;30;40m▌[0m [1m   [0m▄[1m▄▄[0m▄               [1;30m▀[0m      [1;30m▀[0m
-                [32m░[0;30;42m▓[0;37;40m  [0;32;40m▐[0;1;32;42m░[0;32m▄[0;1;30m [0;1;30;47m▌[0;1;37;40m██[0;1;30;47m▐[0m  [1;30;47m▌[0;1;37;40m███████████[0;1;30;47m▐[0;1;37;40m   [0;1;30;47m▌[0;1;37;40m██[0;1;37;47m▌[0;1;30;40m▌[0m [32m [0;1;36mspirit of rage [0;36mof[0;1;36m fuel[0m
+                [32m░[0;30;42m▓[0;37;40m  [0;32;40m▐[0;1;32;42m░[0;32m▄[0;1;30m [0;1;30;47m▌[0;1;37;40m██[0;1;30;47m▐[0m  [1;30;47m▌[0;1;37;40m███████████[0;1;30;47m▐[0;1;37;40m   [0;1;30;47m▌[0;1;37;40m██[0;1;37;47m▌[0;1;30;40m▌[0m [32m [0;1;36m               [0;36m  [0;1;36m     [0m
                    [32m▀[0;1;32;42m░▒[0;32m▌ [0;1;30;47m▌[0;1;37;47m██▌[0;1;30;40m▌[0m  [30;42m▓[0;32;40m▄[0;1;32;40m▄   [0;1;37;40m  [0;1;30;47m▌[0;1;37;40m█████████[0;1;30;47m▐[0m   [1;30m     [0;32m░[0;30;42m▓[0;1;30;40m       [0m
                    [32m▐[0;1;32;42m▒▓▓[0;1;32;40m▄[0;32m▄ ▄▄[0;1;32m▄[0;1;32;43m▓▓[0;1;32;40m██[0;1;32;42m▓▓▒▒░[0;32m▄▄▄▄▄▄▄[0;1;32m▄[0m [32m▄[0;1;32m▄[0m  [32m▄[0;1;32m▄[0m         [1;30m [0m
                [32m▀[0;1;32m▀[0m [32m▀[0;1;32m▀[0;1;32;42m▒▒[0;1;32;46m▓▓[0;1;32;40m██[0;1;32;47m▓▓[0;1;32;40m██[0;1;32;47m█[0;1;32;40m█[0;1;32;42m▓▓[0;1;32;40m▀[0;1;32;42m░[0;1;32;40m▀[0;32m▀▀[0;1;32m▀▀[0m [30;42m▓▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: e35cfc6d24221d43ca35e9f2d82982c6bb6534133030830e9c81b842eed67ae2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NK-666.ANS by NiGHT KNiGHT (dEViL fORCES); released in df-0003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 666 diSTR0 ?oZi
 # SAUCE Author: NiGHT KNiGHT
 # SAUCE Group: dEViL fORCES
@@ -36,8 +36,8 @@ Write-Host '
      [1;32;42m░[0;32m█▄ [0;31m█ [0;32m▄█████▄▄▀▀█ ▀▀█▀ ▀▌ ▀▀▀▌▀▀█▀███▀▀█▀▄▄  ▀███[0;1;32;42m░▓[0m    [33mmAL[0;1;31mEFiCiO[0;1;33mS eN g[0;32mRAl.[0m
       [1;32;42m░░[0;31m▐ [0;32m▄▄▀[0;1;33;42m▒[0;32m█▀▀ █▀[0m                   [32m▀▐[0m     [32m█[0;1;33;42m░[0;32m█▀▄██[0;1;32;42m░▓[0m       [33m·[0m
        [32m▀▄████[0;1;33;42m░[0;32m██[0m     [31m▄▄▄█[0;1;31;41m░░░[0;31m██▄▄▄███[0;1;31;41m░▒[0;31m█▄▄▄▄  [0;32m███▄█ █[0;1;32;42m░▒[0m    [33m■[0m               [33m·[0m
-            [32m██[0;1;33;42m░▒[0;32m██▄[0;31m███[0;1;31;41m░▒▒░▒▓░░[0;31m███[0;1;31;41m░░▒▓░▒░░░[0;31m██[0;32m███████▄    [0;33m·    [0;1;37me[0mSTe [1mB[0mBS [1me[0mS:     [33m.[0m
+            [32m██[0;1;33;42m░▒[0;32m██▄[0;31m███[0;1;31;41m░▒▒░▒▓░░[0;31m███[0;1;31;41m░░▒▓░▒░░░[0;31m██[0;32m███████▄    [0;33m     [0;1;37m [0m    [1m [0m   [1m [0m       [33m [0m
               [32m▀▀▀[0;31m███[0;1;31;41m░▒▒▓███▒▓░[0;31m██[0;1;31;41m░▒▓▓███▓█▒░[0;31m███[0;32m██▀▀[0m     [33m.[0m                   [33m·[0m
-[33mANZi bY[0m         [31m███[0;1;31;41m░▒▒▓▓▓█▓▓▒░[0;31m██[0;1;31;41m░▒▒▓██▓█▒█▒░░[0;31m██[0m           [31mWORL[0;1;31mD HEAD[0;1;33mQUAR[0;32mTERS[0m
+[33m       [0m         [31m███[0;1;31;41m░▒▒▓▓▓█▓▓▒░[0;31m██[0;1;31;41m░▒▒▓██▓█▒█▒░░[0;31m██[0m           [31m    [0;1;31m      [0;1;33m    [0;32m    [0m
 [1;31mNiGHT KNiGHT[0m     [31m████[0;1;31;41m░░▒▒▒░░░[0;31m█▀▀█[0;1;31;41m░░▒▓▒▒▒░░░[0;31m███[0m        [33m·[0m           [33m·[0m
                    [31m▀▀████[0;1;31;41m░[0;31m█▀▀    ▀[0;1;31;41m░[0;31m▀[0;1;31;41m▓[0;31m██████▀[0;1;31;41m░[0m            [33m·[0m'

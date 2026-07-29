@@ -5,7 +5,7 @@
 # Source SHA-256: 7d5ff6361ce1f8746977e3ce79d4eccee84ddaf3ecffdb865eefc92b67dd92e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-MATRX.ANS by caynan (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: free matrix
 # SAUCE Author: caynan
 # SAUCE Group: fbk
@@ -25,7 +25,7 @@ Write-Host '
 ▐█████▀[1;30;47m░[0m                          ▀███████████■▄[1;33;47m░[0m [1;31m█▌[0m▐[1;47m░▓[0;1;40m██████[0m▐[1;47m▐▓[0;1;40m▀████[0;1;47m▓[0;1;40m███▌[0;1;31;40m▐█▌[0;1;33;47m▓[0;1;33;40m▀[0;1;30;40m░[0m
 ▐████▌    another free matrix...   ▐██████████[1;30;47m░[0m██ [1;31m██ [0;1;31;47m [0;1;37;47m░[0;1;37;40m▄██[0;1;37;47m▒[0;1;37;40m██■[0m▀█[1;47m▀▓[0;1;40m██████▀ [0;1;31;40m██ [0m███
 █████▌                             ▐█████████████▄ [1;31m██▄[0m▀▀[1m▀▓▀▀[0;1;31m▄██▄[0m▀▀▀[1m▀▀▀░ [0;1;31m▄██ [0m▄[1;30;47m░[0m█▌
-█████▌     feel free to use it     [1;30;47m░[0m█████████▀ [1;31m▄▄ [0m▀[1;30m▓[0;1;31m▀█████████████████████▌[0m▐███▌
+█████▌                             [1;30;47m░[0m█████████▀ [1;31m▄▄ [0m▀[1;30m▓[0;1;31m▀█████████████████████▌[0m▐███▌
 ██████     but don''t touch the     [1;30;47m▒[0m████████ [1;31m▄█████▄[0;1;30m■[0m▄[1;31m▀███████████████[0;1;31;41m░[0;1;31;40m██▀ [0m████[1;30;47m▓[0m
 █████■     credz! btw, eye-        ▐████████▄ [1;31m█[0;1;31;41m▓▀[0;1;31;40m█▀[0;1;35;40m▄▄▄[0;1;30;47m▓[0m [1;31m▀███▀[0;1;31;47m▓[0;1;31;40m███[0;1;31;41m██[0;1;31;40m█[0;1;31;41m░▓[0;1;31;40m█▀[0;1;30;47m▓[0m▄█████▌
 █████▌     shading by trate..      ■█████████▄ [1;31m▀█▌[0;1;35m▐████▄[0;1;30m░[0;1;31m■████████[0;1;31;41m▀ ▄[0;1;31;40m█ [0m▄███████▌

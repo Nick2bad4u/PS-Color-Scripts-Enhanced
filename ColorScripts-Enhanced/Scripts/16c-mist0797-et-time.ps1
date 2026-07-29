@@ -5,7 +5,7 @@
 # Source SHA-256: 4c594a40fd2ad1b42b9242ee41ac4443fea528054037f0ec52bf1265cd688384
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ET-TIME.ANS by Etana (MiSTiGRiS); released in mist0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: What time is it?
 # SAUCE Author: Etana
 # SAUCE Group: MiSTiGRiS
@@ -19,9 +19,9 @@ Write-Host '
 [31m                     [0;1;32m▄▀[0m▄████▄[1;32m▀[0m▄████▄[1;32m▀[0m
 [31m                    [0;1;32m█ [0m██[5;30;47m█[0m██[5m█[0m██[47m [0;5;30;47m█[0m██[5m█[0m█[1;47m░[0m
 [31m                    [0;1;32m█ [0;1;37;47m░[0m█[47m [0;40m█████[0;47m [0;40m██████[0m
-[31;40m                   [0;1;32;40m█▓▓ [0m▀[1;47m░ [0m██▀[1;32m▄[0m▀[1;47m░[0m███▀[1;32m▄▄[0;31m             [0;1;34mYour Mr. Lizard Clock (tm)[0m
+[31;40m                   [0;1;32;40m█▓▓ [0m▀[1;47m░ [0m██▀[1;32m▄[0m▀[1;47m░[0m███▀[1;32m▄▄[0;31m             [0;1;34m                          [0m
 [31m                  [0;1;32m▓▓████▄▄▄▄███▄▄▄▄████▓[0;31m              [0;1;34mtells you how much[0m
-[31m                  [0;1;32m▓████████████████████▓[0;31m            [0;1;34mtime you have left on[0m
+[31m                  [0;1;32m▓████████████████████▓[0;31m            [0;1;34m                     [0m
 [31m                   [0;1;32m▓▓███▄▀██████▄██▄██▓[0;31m                   [0;1;34mDoDEL..[0m
 [31m                    [0;1;32m▓▓▓███▄▄▀▀▀▀▀▀▀▀█▀[0m
 [31m                     [0;1;32m▄▄▄  [0;1;32;45m▀▀▀▀▀▀▀▀[0;1;32;40m▀▀▄▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 935e4f8e61cb6e0dda24fd86968a0d55aa05d922c1cce3be4d273e809abdd50d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WORLD.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: NeXX-DA Ad
 # SAUCE Author: Tank
 # SAUCE Group: NeXX
@@ -29,7 +29,7 @@ Write-Host '
        [1;37;40m▀[0;1;37;43m▄[0;33m▓▒▒▒░░░▒▒▓[0;1;33;43m░░▒▓[0;1;33;42m▓░░[0;1;32;42m▒░[0;32m▓▒░░░▒▒▓▒▓[0;32;43m░[0;1;33;43m░[0;32;43m░[0;1;33;43m░[0;1;33;42m▒░[0;1;37;42m▄[0;1;37;40m▀[0m            Ice Castle
          [1m▀▀▀[0;1;43m▄▄[0;1;40m▀▀[0;1;43m▄[0;33m▒▒▓▓[0;1;33;43m░▒▓[0;1;33;42m▒░░[0;1;32;42m▒░[0;32m▓▒░[0;1;30;42m▓[0;32m▒▓▒▓[0;1;33;42m░[0;1;33;43m░[0;32;43m▓[0;1;33;43m░[0;32;43m▓[0;1;32;43m▒[0;1;37;40m█[0m               [1;37;40mSITES[0m
                 [1;37;40m▀[0;1;37;43m▄[0;30;43m▒[0;1;37;43m▄▄[0;1;33;43m░░▒[0;1;33;42m▒▓░▒[0;1;32;42m▒░[0;32m▓▒▒░▒[0;1;37;42m▄▄▄[0;1;37;40m▀[0;1;37;42m▄▄[0;1;37;40m▀[0;1;37;42m▄ █[0m             Swindler''s Stronghold
-                 [1m▀▀▌ ▀[0;1;43m▄[0;1;33;43m▒▓[0;1;33;42m▒░[0;1;37;42m▄▄[0;1;37;40m▀▀▀▀▀[0;1;37;42m▄[0;1;37;40m▌[0m      [1;37;40m▀[0;1;37;42m▄[0;32m█[0;1;37m▌[0m            Tinsel Town Rebellion
+                 [1m▀▀▌ ▀[0;1;43m▄[0;1;33;43m▒▓[0;1;33;42m▒░[0;1;37;42m▄▄[0;1;37;40m▀▀▀▀▀[0;1;37;42m▄[0;1;37;40m▌[0m      [1;37;40m▀[0;1;37;42m▄[0;32m█[0;1;37m▌[0m                                 
                       [1m▀[0;1;43m▄[0;1;33;43m▓[0;1;37;42m▄[0;1;37;40m▀[0m                [1;37;40m▐[0;32m█[0;1;37;42m▐[0;1;37;40m▌[0m           The Temple
                        [1m▀[0;1;42m▄[0;1;40m▌[0m                  [1;40m▀█[0m
                          [1;40m▀[0m               [1;40m· ·■[0m

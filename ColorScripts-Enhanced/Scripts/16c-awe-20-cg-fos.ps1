@@ -5,7 +5,7 @@
 # Source SHA-256: f0f223632e564887a60c8c9101da8705bdaef4cda249a7130f9aceaeb0b6de66
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-FOS.ANS by Cryogenic (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Fistful of Steel
 # SAUCE Author: Cryogenic
 # SAUCE Group: AWE Lettering
@@ -17,7 +17,7 @@
 Write-Host '
                      [1;36m░░[0m              [1;36m░[0m         [1;36m░░[0m
                      [1;36m▓▓[0m       [1;36m░░[0m     [1;36m▓[0;36m [0;1;36m░░[0m      [1;36m▓▓[0m    [1;36m░░[0m
-                     [1m█[0;1;36;46m█[0;1;36;40m▄[0;36m▄[0;1;30mcryo[0m [1;36m▓▓[0m     [1;36;46m█[0m [1;36m▓▓[0m   [1;36m░░[0m [1;36;46m██[0m [36m▄[0;37m  [0;1;36m▓▓[0m  [1;36m░░[0m  [1mcryogenic[0;1;30m[[0mawe[1;30m][0m
+                     [1m█[0;1;36;46m█[0;1;36;40m▄[0;36m▄[0;1;30m    [0m [1;36m▓▓[0m     [1;36;46m█[0m [1;36m▓▓[0m   [1;36m░░[0m [1;36;46m██[0m [36m▄[0;37m  [0;1;36m▓▓[0m  [1;36m░░[0m  [1m         [0;1;30m [0m   [1;30m [0m
                      [1;36;47m█▓▓[0;1;36;46m███▄[0;1;36;40m▄[0;1;37;40m▄[0;1;36;46m██[0m   [1m░[0;36m▄[0;1;36;46m█[0;1;36;40m▄[0;1;36;46m██[0;36m▄[0;37m  [0;1;36m▓▓[0;1;37m░██[0;1;36;46m██[0;1;36;40m▄[0;1;37;40m▄█[0;1;36;46m█[0m  [1;36m▓▓[0m
                     [36m▐[0;1;36;46m▓██[0;36m▌[0;37m [0;36m▀[0;1;36;46m██[0;1;36;47m█▓▓[0;1;36;40m▄▄[0;1;36;46m▄[0;1;37;40m█[0;1;36;46m█[0;36m▌[0;37m [0;36m▀[0;1;36;46m█▓▄[0;1;36;40m▄[0;1;37;40m██[0m [1;36;46m████[0m [1;36m█▀[0;1;36;46m▓▄[0;1;36;40m▄[0;1;36;46m█▓[0;36m░[0m    [37m░[0m
               [37m░░[0m    [37m [0;36m▀[0;1;36;46m▀█[0;36m▌[0;37m  [0;1;36;46m▓[0;36m▀[0;1;36;46m███▀████[0;36m▌[0;37m  [0;1;36;46m▓[0;36m▀[0;1;36;46m▀█[0;1;36;47m▓▓[0;1;36;40m▄[0;1;36;46m█[0;1;36;47m▓▓[0;1;36;46m█[0m [1;36m▓[0m [36m▀[0;1;36;46m▀██▀[0;36m▀[0;37m [0;36m▄[0;37m  ▓[0m

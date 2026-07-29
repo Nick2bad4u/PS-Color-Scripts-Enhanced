@@ -5,7 +5,7 @@
 # Source SHA-256: 683cd4a594fa98fa9ee1d3f8f9840fba5d9ac193354e48eb06f10f7c6733259d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OUT-CH5.ANS by Sandy Chidester (out-1196); released in out-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
    [34m▄▄▄▄▄████████████████████[0;1;44m [0;34m█████[0;1;36;44m·[0;34m████████████████████████████████████████▄▄[0m
 [34m [0;1;36;44m·[0;34m███████[0;1;44m▀[0;34m███████████████████████████████████████████[0;1;36;44m·[0;34m████████████████████████▄[0m
 [34m▐████████[0;1;44m▄[0;34m████████████████[0;1;36;44m·[0;34m██████[0;1;36;44m·[0;34m████[0;1;36;44m·[0;34m██████[0;1;36;44m·[0;34m███████████████[0;1;36;44m·[0;34m█████[0;1;36;44m·[0;34m███████████[0m
-[1;36;44m·[0;34m██[0;1;44m■[0;34m█████[0;1;44m▀[0;34m█████[0;1;44m■[0;34m███[0;1;44mUnto us a child is born...[0;34m███████[0;1;36;44m·[0;34m██████████████[0;1;36;44m·[0;34m███████████[0m
+[1;36;44m [0;34m██[0;1;44m■[0;34m█████[0;1;44m▀[0;34m█████[0;1;44m■[0;34m███[0;1;44m                          [0;34m███████[0;1;36;44m [0;34m██████████████[0;1;36;44m [0;34m███████████[0m
 [34m██████[0;1;44m▀▄[0;34m█[0;1;44m█[0;34m█[0;1;44m▄▀[0;34m██████████████[0;1;44m   [0;34m██████████████[0;1;36;44m·[0;34m██████████████████████████[0;1;36;44m·[0;34m████████[0m
 [34m▐█[0;1;44m▄ [0;34m█[0;1;44m▄▄▄▄█▄▄▄▄ [0;34m█[0;1;44m▄[0;34m█████[0;1;36;44m·[0;34m█████[0;1;36;44m·[0;34m████[0;1;36;44m·[0;34m███[0;1;36;44m·[0;34m███████████████████[0;1;36;44m·[0;34m████[0;1;36;44m·[0;34m████████████████▌[0m
 [34m▐████[0;1;44m  ▄ █[0;34m█[0;1;44m▄[0;34m████████████████[0;1;44m   [0;34m████████████████████[0;1;36;44m·[0;34m███████████████████████████▌[0m

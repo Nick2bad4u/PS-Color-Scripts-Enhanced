@@ -5,7 +5,7 @@
 # Source SHA-256: 4dd299b10ddbad97bbb25fdc261482ca7f36b5d119c63433704206f5be8d836c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JOKER.ANS by Willie (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ Write-Host '
 [30;45m  █[0;1;33;40m█▄▄▄▄▄███▀[0;30;45m▀█[0;1;33;40m▄▄[0;33m▀▀▀█████▀[0;30;45m█[0m [1;33;40m▄▄[0;30;45m█▀[0;1;33;40m▀███▄▄▄▄▄█[0;30;45m█            [0m [33;40m▄▄▄▄▄▄▄[0;30;45m█              [0m
 [30;45m   ▀[0;1;33;40m▀█████▀[0;30;45m▀▄█▄█[0;1;33;40m████▄▄▄▄▄████[0;30;45m█ [0;1;31;45m▄ [0;30;45m▀[0;1;33;40m▀█████▀[0;30;45m▀             ▀[0;33;40m▀▀▀▀▀▀▀[0;30;45m▀              [0m
 [30;45m     ▀▀▀▀▀▄█▄█▄██[0;1;33;40m███████████[0;30;45m█[0;1;31;45m▄███▄ [0;30;45m▀▀▀▀▀                 [0;1;37;40m▐[0;1;37;45m███[0;1;37;40m▌[0;1;37;45m                [0m
-[1;37;45m           [0;30;45m▀▄█▄▀ ▀[0;1;33;40m▀███████▀[0;30;45m▀  [0;1;31;45m▀█▀  [0;1;36;45mA[0;1;31;45mN[0;1;33;45mS[0;1;37;45mi [0;1;32;45mB[0;1;36;45my[0;1;30;45m: [0;31;45mW[0;1;31;45mì[0;1;37;45m£[0;1;35;45m£[0;1;36;45mí[0;1;34;45mÉ [0;1;33;45m<[0;1;37;45mAAA[0;1;33;45m> [0;1;37;40m▐[0;1;37;45m███[0;1;37;40m▌[0;1;37;45m                [0m'
+[1;37;45m           [0;30;45m▀▄█▄▀ ▀[0;1;33;40m▀███████▀[0;30;45m▀  [0;1;31;45m▀█▀  [0;1;36;45m [0;1;31;45m [0;1;33;45m [0;1;37;45m  [0;1;32;45m [0;1;36;45m [0;1;30;45m  [0;31;45m [0;1;31;45m [0;1;37;45m [0;1;35;45m [0;1;36;45m [0;1;34;45m  [0;1;33;45m [0;1;37;45m   [0;1;33;45m  [0;1;37;40m▐[0;1;37;45m███[0;1;37;40m▌[0;1;37;45m                [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ce9186271efc0e7639b4da22d168640affa8acb3de681dfbf5bc822504052f95
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-BUGS.ANS by rorshack (Maiden Brazil); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: bugs r us
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -38,6 +38,6 @@ Write-Host '
 [36m --[cut]-----------------------------------------------------------------------[0m
    [37m [0m     [1;30m▄█▀▀▀[0;1;30;47m▓[0m [1m▄▄[0m  (?)   this is not [1mbugs[0m
      [1;30m ▄▓█[0m [1m▄[0;1;47m▓[0;1;40m▀▄[0m [1m█▀█[0;1;47m▓[0m /       [1mbunny[0m, it is
-    [1;30m▄▀▄▀█▄[0m [1m▀▀[0m [1;30m▄[0m [1m▀▀[0;1;30m▄▀█[0m     bugs-r-us sysop,
+    [1;30m▄▀▄▀█▄[0m [1m▀▀[0m [1;30m▄[0m [1m▀▀[0;1;30m▄▀█[0m                     
    [1;30m▐▌▄█▄[0m [1;30m░▀▀▀▀▀▀▀ ▐▌▀▀[0m        [1mhighlite[0m
    [1;30m [0m [1;30m▀  ▀[0m        [1;30m▀▀▀[0m'

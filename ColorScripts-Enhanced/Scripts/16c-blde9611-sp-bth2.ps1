@@ -5,7 +5,7 @@
 # Source SHA-256: ae4098b3fa8b95e176c2cdd4f1a63c7b771977c73bfcc02dd9cc1833e6a48060
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-BTH2.ANS by spear (blade productions); released in blde9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: beyond the horizon
 # SAUCE Author: spear
 # SAUCE Group: blade productions
@@ -34,5 +34,5 @@ Write-Host '
          [1;33m▀▀▀▀▀█████[0;1;33;47m▓▓[0;1;33;40m▄▄[0m     [32m▄█[0;1;32;42m▄███[0;1;32;40m▄[0m     [1;36m░░[0m    [32m▀█[0;1;32;42m▀█[0;1;32;40m██▄[0m   [36m██[0;1;36;46m████[0m [1m▀▀██[0;1;36m██[0;1;36;47m▓[0;1;36;40m███[0;1;36;46m▀ [0;36m▀[0m
                    [1;33m▀▀▀▀▀▀▀[0m [32m▐█[0;1;32;42m▐[0;1;32;47m█[0;1;32;46m▓▓[0;1;32;42m█[0m      [1;34m  [0m    [32m ▐[0;32;42m [0;1;32;42m▐[0;1;32;47m▓▓█[0;1;32;40m▌[0m   [36m██[0;1;36;46m█████[0;1;36;40m▄▄[0m [1;36m████[0;1;36;46m  [0m
                             [32m▀▀[0;1;32;42m▀▀██[0;1;32;40m▄[0m           [32m▄█[0;1;32;42m▄[0;1;32;40m██▀▀[0m      [36m▀▀[0;1;36m▀▀[0m    [1;36m▐█[0;1;36;46m  [0m
-     [35mspe[0;1;35mA[0;35mr[d[0;1;35mA[0;35mrk][0;37m [0;35mbeyond all.[0m     [32m▀▀[0;1;32m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m               [1;36m▄▄▄[0;1;36;46m▀▀[0;36m▀▀[0;37m  [0m
+     [35m   [0;1;35m [0;35m   [0;1;35m [0;35m   [0;37m [0;35m           [0m     [32m▀▀[0;1;32m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m               [1;36m▄▄▄[0;1;36;46m▀▀[0;36m▀▀[0;37m  [0m
                                                            [1;36m▀▀▀[0;36m▀▀[0m'

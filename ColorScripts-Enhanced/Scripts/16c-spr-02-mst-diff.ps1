@@ -5,7 +5,7 @@
 # Source SHA-256: 9236898b46c01c7e1407720f4859292b1c7effe7672690c929655cf625b4e902
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MST!DIFF.ANS by Mist (spr_02); released in spr_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
                              [33m■[0m      [33m■[0m
          [33m▄[0m           [33m■[0;37m   [0;33m■[0m      [33m■[0m      [33m▌[0m              [33m▌[0m         [33mautor: Mist[0m
        [33m▄█▌▐▄  [0;37m    [0;33m▐[0;37m  [0;33m▄▌[0;37m [0;33m▄[0;37m    [0;33m▌▄[0;1;31;43m▄[0;33m▄▐▄▐▄[0;37m [0;33m▐▌[0;37m   [0;33m ▐ [0;37m   [0;33m▄▌[0;37m [0;33m▌▐▌[0;37m [0;33m▄[0m       [33mname : deaf[0m
-      [33m▐[0;1;31;43m▐▄[0;33m█▐█▌ ▐ ▐▄▐▄▌■[0;37m [0;33m [0;37m  [0;33m▄▌▄[0;1;31;43m▄███▄▌▄█▄[0;33m▄█▄▐▐▄█▐▄▐▄█▌▄█[0;37m [0;33m▓▐▌[0;37m [0;33m▄[0m     [33mdedicated to:[0m
+      [33m▐[0;1;31;43m▐▄[0;33m█▐█▌ ▐ ▐▄▐▄▌■[0;37m [0;33m [0;37m  [0;33m▄▌▄[0;1;31;43m▄███▄▌▄█▄[0;33m▄█▄▐▐▄█▐▄▐▄█▌▄█[0;37m [0;33m▓▐▌[0;37m [0;33m▄[0m     [33m             [0m
 [37m [0;33m [0;37m   [0;1;31;43m▐▄███▄█▄[0;33m▄▐▌█▓▓▒▒▄ [0;37m [0;33m▄▐[0;1;31;43m▀▄█████████████▄▄▄▄▄ ░░▒▒░░[0;33m▌█▓█▀▄[0;37m [0;33m [0;37m   [0;33mAisha^Blade[0m
 [37m    [0;33m▐[0;1;31;43m▐▌[0;33m▀[0;1;31;43m▀█████▄▄▌  [0;33m▓▓▄▌▄[0;1;31;43m▄████▀▐██████████████▌   ░░  [0;33m███▄▓▓▀▄▌[0m
      [33m▀[0;1;31;43m▀[0;33m█▄▀▀[0;1;31;43m▀▀██▀██▄▀▄█▄█████▌[0;33m▌[0;1;31;43m▐█▀▐[0;33m▀[0;1;31;43m▀█████████▀▌█▐   [0;33m██▀▀▄[0;1;31;43m ▀█[0;33m██[0m

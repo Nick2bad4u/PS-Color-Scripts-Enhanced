@@ -5,7 +5,7 @@
 # Source SHA-256: 042cac24aec81990e552621f77c8ab3f9d98aa726b45ce25312039e53e18ed27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VA-TC.ANS by Vassago (THRuSt); released in thst1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Tokin' Toadie!
 # SAUCE Author: Vassago
 # SAUCE Group: THRuSt
@@ -25,7 +25,7 @@ Write-Host '
 [1;30m░[0m    [1;30m [0;32m▄▄[0;1;32;42m░░[0;1;37;47m▒█▓█[0;1;37;41m█[0;1;37;47m▓[0;1;37;41m██[0;1;37;47m▒[0;1;32;47m▒▓▓[0;1;37;47m▓█▓[0;1;37;44m█[0;1;37;47m░█[0;1;37;44m█[0;1;32;42m▓[0;1;37;47m▓░[0;1;37;42m▌[0;1;32;42m▓▒▒[0;32m▄▄[0;35m [0;1;30m▀[0m  [1;30m▐[0;1;30;47m░░[0;1;30;40m▌[0m [1;30m▄▄▄▄▄[0;1;30;47m▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m▄▄[0m [1;30m░[0m
 [1;30m▒[0m    [1;32;42m░▓░▒▓[0;1;32;47m▒[0;1;32;42m▓████████▓██████████▓▓▓▒▒▒░░[0m   [1;30m ▀▀░██[0m█[1;30;47m░[0;1;37;47mcould it be?[0;1;30;47m ▒░[0;1;30;40m█▄[0m          [1;30m░[0m
     [1;30m  [0;32m▀[0;1;32;42m▒▒▒▓▓▓████▓██▓█████▒▓██[0;1;32;47m▒[0;1;32;42m▓▓▓▓▒▒▒░[0;32m [0m    [1;30m▒█[0;1;30;47m ▒░[0;1;37;47myet another leet''[0m█[1;30;47m▓[0;1;30;40m▄[0m        [1;30m▒[0m
-     [1;30m   [0;32m▄[0;1;32;42m▒▒▒███[0;32m▀[0;1;32;42m░█████████[0;32m▀[0;1;32;42m▓█▓█▓▓▓▓█▀▒[0;32m▌[0m    [1;30m░█[0m█[1;30;47m░[0;1;37;47mToastyCom Ansi!?[0;1;30;47m ░ ░[0m█[1;30m█[0m [1;30m░[0m
+     [1;30m   [0;32m▄[0;1;32;42m▒▒▒███[0;32m▀[0;1;32;42m░█████████[0;32m▀[0;1;32;42m▓█▓█▓▓▓▓█▀▒[0;32m▌[0m    [1;30m░█[0m█[1;30;47m░[0;1;37;47m                [0;1;30;47m ░ ░[0m█[1;30m█[0m [1;30m░[0m
   [1;30m░[0m   [32m▄[0;1;32;42m█▓▓▄[0;32m█[0;1;32;42m▒▓█[0;1;32;40m▄[0;32m▄[0;1;32;42m███████▓[0;1;32;40m▄[0;32m▄[0;1;32;42m█▓█▓▓█▀▒▓▒░░[0;32m▄[0m    [1;30m▒█[0m█[1;30;47m░  [0;1;37;47mbought'' fuckin''[0;1;30;47m░▓[0;1;30;40m█░[0m
  [32m [0;1;30m▒[0m [32m▄[0;1;32;42m▓██▓▒▒▒ ▒█▓████▓███████[0;1;32;47m▓[0;1;32;42m▓▒▀▒▒▓█░█▒░[0;32m▌[0m    [1;30m▒█[0m█[1;30;47m▒░░▒ [0;1;37;47mtime!![0;1;30;47m░[0;1;37;47m=][0;1;30;47m░░[0m█[1;30;47m █[0m [1;30m▒[0m       [1;30m░[0m
  [32m  ▄[0;1;32;42m▓██[0;1;32;47m▓[0;1;32;42m▓▒▒▒░[0;1;33;42m░░▒░▓▓████████▓▓▓[0;1;32;42m░░▒▓▓██[0;1;32;47m▓▓[0;1;32;42m▓░[0;32m▌[0m    [1;30m░▀[0;1;30;47m▒[0;1;30;40m░[0;1;30;47m▄[0;1;30;40m▀[0;1;30;47m▄▄▄▄▄▄▄▄▄[0;1;30;40m▀▀[0;1;30;47m▄▄[0;1;30;40m▀[0m  [1;30m▓[0m       [1;30m▒[0m

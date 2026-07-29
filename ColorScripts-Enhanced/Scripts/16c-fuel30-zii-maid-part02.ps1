@@ -5,7 +5,7 @@
 # Source SHA-256: 0a1da1c4473401b4cb3827723d07352a8bcf8828ac83247964486c56ecdd0bf3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zII-MAID.ans by Zeus II (FUEL); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: O Canada
 # SAUCE Author: Zeus II
 # SAUCE Group: FUEL
@@ -33,7 +33,7 @@ Write-Host '
 [31m████████████████████████▄▀█[0;1;31;41m▀▀▄[0;31m▄▄    [0;37m [0;31m▄[0;37m   [0;31m░[0;37m  [0;31m▄[0;1;31;41m▄▀▀[0;31m█▀██████████████████████████████[0m
 [31m███████████████████████████▄██[0;1;31;41m▀[0;31m██▀▀[0m        [31m█▀▀▄▄████████████████████████████████[0m
 [31m███████████████████████████████████[0;1;31;41m▄[0;31m▄   [0;1;31;41m▓[0;31m █ ▄██[0;1;31;41m▄[0;31m████████████████████████████████[0m
-[31m███[0;1;31;41mShoutout to all my[0;31m█████████[0;1;31;41m▄[0;31m██▀▄▀[0;1;31;41m▀[0;31m█ [0;1;31;41m▒▒[0;31m  █[0;1;31;41m▄▀[0;31m██████████████████████████████████[0m
+[31m███[0;1;31;41m                  [0;31m█████████[0;1;31;41m▄[0;31m██▀▄▀[0;1;31;41m▀[0;31m█ [0;1;31;41m▒▒[0;31m  █[0;1;31;41m▄▀[0;31m██████████████████████████████████[0m
 [31m███[0;1;31;41mCanadian fans [0;31m███████████████[0;1;31;41m▀▄[0;31m▄ ▀ ▐[0;1;31;41m▒[0;31m▌ █[0;1;31;41m█[0;31m████████████████████████████████████[0m
 [31m██████████████████████████████████[0;1;31;41m▀[0;31m█  [0;1;31;41m░░[0m [31m█[0;1;31;41m█[0;31m███████[0;1;31;41m                   [0;31m███████████[0m
 [31m████████████████████████████████████[0;37m [0;31m█[0;1;31;41m░[0;31m▌▐███████████████████████████████████████[0m

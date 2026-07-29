@@ -5,7 +5,7 @@
 # Source SHA-256: 0ec12219b6390338577aa727eb588abbce66cee0f0bb4981fada49295647abcb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D!-DFTRY.ANS by desert (dezign); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: damn first try
 # SAUCE Author: desert
 # SAUCE Group: dezign
@@ -32,7 +32,7 @@ Write-Host '
 [34m [0;32m▓░  [0;37mth[0;1;37mi[0ms [1mi[0ms my    [34m▀████[0;36m░ [0;33m█[0;1;31;43m▒▓[0;1;37;40m▐█▐[0;1;37;44m▐[0;1;37;40m█▓▒   [0;1;31;40m████[0;1;31;43m▓[0;1;31;40m███[0;1;31;43m▓▒[0m [34m█▌[0;1;31m█████▀▀▄  [0;1;37m▄█████▓▓░[0m       [33m██[0m
 [33m [0;32m▒░  [0;37m      [0;1;37m [0m         [34m██▌[0;36m▓[0;36;46m [0;37;40m [0;33;40m█[0;1;31;43m▒[0;1;31;40m▌[0;1;37;40m█▌███▀    [0;1;31;40m████████[0;1;31;43m▓[0;1;31;40m▌[0;34m▌[0;1;31m▐███▄▄█▀  [0;1;37m███████▓▒░[0m      [34m░ [0;33m▀[0m
 [32m░▒  [0;37mattempt to do[0m     [34m█  [0;36m▓[0;36;46m [0;37;40m [0;33;40m█[0;1;31;43m▒[0;1;31;47m▌[0;1;37;40m█ █▀[0m      [1;31m████████[0;1;31;43m▓[0;1;31;40m▐██████  [0;1;37;40m▄▐██████▓▒░[0m      [34m░▒▒[0m
-[32m░░ [0;37mans[0;1;37mi [0mp[1mi[0mctures!    [34m▐ [0;36m░ ▓[0;36;46m [0;37;40m [0;1;31;43m░[0;1;31;40m█[0;1;37;40m█▌[0m         [1;31m████████[0;1;31;43m▓[0;1;31;40m█████ [0;1;37;40m▄██▌▀██▀▀▀[0m        [34m░░▓▓[0;1;31m▐[0m
+[32m░░ [0;37m   [0;1;37m  [0m [1m [0m           [34m▐ [0;36m░ ▓[0;36;46m [0;37;40m [0;1;31;43m░[0;1;31;40m█[0;1;37;40m█▌[0m         [1;31m████████[0;1;31;43m▓[0;1;31;40m█████ [0;1;37;40m▄██▌▀██▀▀▀[0m        [34m░░▓▓[0;1;31m▐[0m
 [1;31m  [0;32m░[0m                 [36m░  ▒▓[0;36;46m [0;36;40m▌[0;33;40m▐[0;1;31;43m░▓[0;1;31;40m█[0;1;37;40m█  [0;34m░▒░░░░ [0;1;31m▐████████████▄█[0;1;31;47m▌[0;1;37;40m██▌[0m            [34m░░▒▓▀ [0;1;31m█[0m
 [1;31m   [0;32m░[0;35m░▒▒▒░░[0m        [36m░░   ▓[0;36;46m [0;36;40m▀[0;33;40m▄[0;1;31;43m░▒▓[0;1;31;40m██[0;1;37;40m█  [0;34m▓▒▒▓▓█ [0;1;31m███[0;1;31;43m▓[0;1;31;40m██████████[0;1;31;47m▌[0;1;37;40m███ [0;34m░[0m     [34m░ ░░▒▓█▀ [0;1;31m▄██[0m
 [1;31m [0;32m░[0;35m░▓▒░░ ░ ░░[0m     [36m░░▒ ▓[0;36;46m [0;36;40m▀[0;33;40m▄█[0;1;31;43m░▒▓[0;1;31;40m██▄▄  [0;34m▀▀▀▀▀ [0;1;31m▄███████████████[0;1;37m███▌ [0;34m░░░▒▒▓▓██▀▀ [0;1;31m▄█[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓[0m

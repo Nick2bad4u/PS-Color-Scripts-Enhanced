@@ -5,7 +5,7 @@
 # Source SHA-256: 619018ffd1c99b37781e031b6c64d23e44d266d7ad27099aa2ffe31c8655db8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TERB.ICE by Magnetic M + Lord Soth (iCE Advertisements); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Terbium!
 # SAUCE Author: Magnetic M/LS
 # SAUCE Group: iCE Advertisements
@@ -32,7 +32,7 @@ Write-Host '
                                        [1;30m▄[0m                  [31m▀[0;1;31;41m▀▀[0;31m▀▀[0m   [31m▀▀▀         [0;1;37m  [0m
         [31m▄[0;1;31m▄[0;1;31;41m▄[0;1;31;40m▄[0;31m▄[0m           [1;30m█▄[0m         [1m░░[0;33m▄[0;1;30;43m▀[0;1;30;40m█▀[0m                           [1m  [0m
 [1m [0;1;30m▄[0m▄ ▄  [31m▓[0;1;31;41m▓[0;1;31;40m████[0;1;31;41m▄[0m         [1;30m▄█[0;1;30;43m▓▓[0;1;30;40m█▄▄▄ ▄[0;33m▄[0;1;30;43m▀[0;1;37;43m▒▒░░[0;33m█[0;1;30;43m▀[0;33m▄[0;1;30m▄[0m                                 [1;30m [0m
-█▀[1m▄████▄[0;1;41m▄▒▒[0;1;31;40m███[0;31m█[0m       [1;30m▄[0;1;30;43m▓▓▒▒▄[0;1;30;40m█ ▄[0;1;30;43m▀[0;33m███[0;1;37;43m░░[0;33m███████[0;1;30;43m▀[0;33m▄▄[0;1;30m▄[0m    [1;30mIn celebration of CK -[0m
+█▀[1m▄████▄[0;1;41m▄▒▒[0;1;31;40m███[0;31m█[0m       [1;30m▄[0;1;30;43m▓▓▒▒▄[0;1;30;40m█ ▄[0;1;30;43m▀[0;33m███[0;1;37;43m░░[0;33m███████[0;1;30;43m▀[0;33m▄▄[0;1;30m▄[0m    [1;30m                      [0m
 [1m▄███▀████[0;1;41m▓▓[0;1;31;47m▀[0;1;31;40m██[0;31m█[0m      [1;30m▄██[0;1;30;43m▀[0;1;30;40m█ ▄[0;1;30;43m▀[0;33m██████████▀ ▀███████[0;1;30;43m▀[0;33m▄[0;1;30m▄[0m [1;30m▄[0m [1;30mLord Soth/Magnetic M[0m
 [1m███[0m█▄▄▄[1m▄███[0;1;47m [0;31m▀[0;1;31m█[0;31m█ [0;1;30m▄ ▄▄█[0;1;30;43m▓▓[0;1;30;40m▀█[0;33m▄[0;1;30;43m▀[0;33m█████████▓▓▒▒ [0;1;30;43m▀░░░░░[0;33m█████[0;1;30;43m▀[0;1;30;40m█▀[0m
 [1m███████████[0;1;47m [0m [1;31m█[0;31m█ [0;1;30;43m▓▓[0;1;30;40m▀▀▀▄[0;33m▄[0;1;30;43m▀[0;33m█████████[0;1;30;43m▄▄[0;33m▀░░ [0;1;30m▄[0;1;30;43m▀▒▒▒▒▒▒░░[0;33m██▓▓▒▒░░░░░░░░░░░░░░░░░░░░░░░[0m

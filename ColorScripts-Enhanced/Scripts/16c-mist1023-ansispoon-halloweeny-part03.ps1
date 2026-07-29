@@ -5,7 +5,7 @@
 # Source SHA-256: c2a4ba7281a2cab9e62a81f392f3f81fa2a3296c3fe48dce054621273aedb3a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANSISPOON-HALLOWEENY.ANS by Ansispoon (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Maddison
 # SAUCE Author: Ansispoon
 # SAUCE Group: Mistigris
@@ -62,7 +62,7 @@ Write-Host '
 [1m  ▐ ▌ [0;31m▒▒█[0;37m                [0;30m██[0;31m▒▒[0;1;30m▒▒[0;33m▒[0;30m████[0;33m▒▒▒▒[0;30m█[0;37m        [0;31m▒▒[0;30m█[0;37m          [0;31m▒█[0;37m          [0;1;37m▐ ▌[0m
 [1m  ▌ ▐[0m                    [30m█[0;31m▒▒[0;30m████    ████[0;37m        [0;31m▒▒[0;37m            [0;31m▒█[0;37m           [0;1;37m▌ ▌[0m
 [1m  ▐▄▌[0m                     [31m▒[0;37m                     [0;31m▒[0;37m                          [0;1;37m▐ ▐[0m
-[1m  ▐▐[0m                      [31m▒    [0;35mYou''ll always have[0;31m▒[0;37m                         [0;1;37m▌ ▌[0m
+[1m  ▐▐[0m                      [31m▒    [0;35m                  [0;31m▒[0;37m                         [0;1;37m▌ ▌[0m
 [1m  ▐ ▌[0m                     [31m▒▒[0;37m        [0;35mme...[0;37m        [0;31m▒[0;37m                         [0;1;37m▐ ▐[0m
 [1m  ▌ ▌[0m          [1;31;41m▒[0m           [31m▒[0;37m                     [0;31m▒[0;37m                         [0;1;37m▌▄▄▌[0m
 [1m  ▐ ▌[0m         [31m██[0;37m           [0;31m▒[0;37m                                              [0;1;37m▐▐[0m'

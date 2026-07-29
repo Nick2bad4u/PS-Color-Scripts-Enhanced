@@ -5,7 +5,7 @@
 # Source SHA-256: 7c0fcdbf008d2413cd06ac1f84e730c24600e1cb9b7f94513e0fd261122c89e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WB-ON.ANS by Warblade (cnc-0694); released in cnc-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -16,7 +16,7 @@ Write-Host '
             [30;44m▀[0;1;30;44m▓[0;1;34;44m▓ ▓▒▒░░░[0m                  [30;44m▀ [0;1;34;44m▓▓[0;30;44m▀[0m                  [34;40mWa[0;1;34;40mRBL[0;36maD[0;1;36mE In[0m
           [30;44m▀[0;1;34;44m▓▓[0;1;30;44m▓▓▓ [0;1;34;44m▓▒▒░░░[0m               [30;44m▀    [0;1;34;44m▓▒ [0m              [34mAssoc[0;1;34miat[0;36mio[0;1;36mn With A[0m
         [30;44m▀[0;1;34;44m▒▒▓▓▓[0;1;30;44m░░▓ [0;1;34;44m▓▒▒▒░░[0m           [30;44m▀▀     [0;1;34;44m▓▓▓▒░[0m             [34mCaNCe[0;1;34mR P[0;36mro[0;1;36mductions[0m
-      [30;44m▀[0;1;34;44m░▒▒▓▓▓[0;1;30;44m░▒▓▓[0;44m░[0;1;34;44m▓▓▒▒▒░░[0m     [30;44m▀▀[0;1;34;44m░▒▒▒       ▓▓▒░[0;30;44m▐[0m            [34;40mPrese[0;1;34;40mnts [0;36mW[0;1;36mB-ON.ANS[0m
+      [30;44m▀[0;1;34;44m░▒▒▓▓▓[0;1;30;44m░▒▓▓[0;44m░[0;1;34;44m▓▓▒▒▒░░[0m     [30;44m▀▀[0;1;34;44m░▒▒▒       ▓▓▒░[0;30;44m▐[0m            [34;40m     [0;1;34;40m    [0;36m [0;1;36m        [0m
 [1;36m    [0;30;44m▀[0;1;34;44m░░▒▓▓▓▓[0;1;30;44m░▒▓▓[0;44m░[0;1;34;44m▓▓▒▒▒▒▒░░[0m [30;44m▀▀ [0;1;34;44m░░░░▒▒▒     ▓▓▒▒▒░[0m
 [1;34;40m  [0;30;44m▀[0;1;34;44m░░░▒▒▓▓▓[0;1;30;44m░▒▓▓[0;44m░░░[0m [1;34;44m▓▓▒▒░░░░[0;1;34;40m▀▀▀▀▀▀[0;1;34;44m▄▄▄▄▄▄▄ ▓▓▒▒▒░░[0m
 [30;44m▀[0;1;34;44m░░░░▒▒▓▓▓[0;1;30;44m░░▒▓[0;44m░░░[0m   [1;34;44m▓▓▓▒▒░░░[0m         [30;44m▄▄ [0;1;34;44m▀▀▄▄▒░░░[0m

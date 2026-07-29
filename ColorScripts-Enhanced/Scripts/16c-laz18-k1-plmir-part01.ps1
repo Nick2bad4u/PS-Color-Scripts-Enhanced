@@ -5,7 +5,7 @@
 # Source SHA-256: 399b15080e61360412a582bf0fc6b79008f6cb0e3662fe2e273fbabebe88744f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: k1-plmir.ans by knocturnal (lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Project Lazarus
 # SAUCE Author: knocturnal
 # SAUCE Group: lazarus
@@ -35,7 +35,7 @@ Write-Host '
 ▓██[1;33;47m░[0m█[1;33;47m░░[0m▌[1;30m [0;1;33m░[0;33m▌[0;1;30m    [0;33m▄[0;1;30m    [0;33m▐[0;1;33m░[0;1;30m▐[0;1;33m▒[0;33m    [0;1;33m▒[0m  [1;30m▄[0m▒▒[1;30;47m▀░[0m  [1;33m▐▌[0m    [1;33m▀[0;33m▀[0;37m   [0;1;33m▐▌[0m [1;33m▒▀▀▀▀▀[0;33m▀▀▀[0;1;30m   [0;1;33m▐░[0m [1;30m▐[0m  [1;30m██░[0;1;30;47m▓[0m░[1;30m█▓[0m░[1;30m░[0m
 █████[1;33;47m·[0m█  [1;30;43m▒[0m ■· [1;30;43m▓[0;33m▀[0;1;30;43m▓[0;1;30;40m    [0;1;30;43m▒[0;1;30;40m▐[0;1;30;43m▒[0m·[1;30m  ▐[0;1;33;43m░[0m  [1;30;47m░[0;30;47m░[0;37;40m▄██▒  [0;33;40m▀[0;1;30;43m▓[0;1;30;40m▄[0m·    [1;30m▄░[0;1;33;43m░[0m [1;30m░[0;1;33;43m░[0m      ·■ [1;30m▄▄[0;33m▒[0;37m  [0;1;30m▀  █▒░[0;1;30;47m▓[0m░[1;30m█▓[0m░[1;30m░[0m
 ▓▓████[1;30;47m▐[0m  [1;30m▀▀▀▀▀▀ ▀▀▀▀▀▀░▀▀▀▀▀▀[0m [1;30m▐[0;1;30;47m░[0m█████[1;30;47m■[0;1;30;40m▄[0m [1;30m░▀▀▀▀▀▀ ▄[0m▄▒ [1;30m▀▀ ▀▀▀▀▀▀▀[0m        [1;30m▀▀░▓[0m░[1;30m█▄▓░[0m
-[30;47m░[0;37;40m▓▓█▓▓[0;1;30;47m▀[0;1;30;40m▄▄▄▄▄▄▄▄░░▄▄▄▄▄▄▄▄▄▄▄[0m▄▄[1;30;47m▀░[0m█▓▓[30;47m░[0;37;40m▓██[0;1;30;47m░[0m▓[1;30m▒▄░[0m    [34m.[0;37m  [0;30mfont sucks, blame BioWare[0;37m [0;1;30m░░[0m
+[30;47m░[0;37;40m▓▓█▓▓[0;1;30;47m▀[0;1;30;40m▄▄▄▄▄▄▄▄░░▄▄▄▄▄▄▄▄▄▄▄[0m▄▄[1;30;47m▀░[0m█▓▓[30;47m░[0;37;40m▓██[0;1;30;47m░[0m▓[1;30m▒▄░[0m    [34m [0;37m  [0;30m                         [0;37m [0;1;30m░░[0m
 ░▒░▒[30;47m▒[0;37;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓░▒░░░[0;1;30;40m▀[0;34m▄░ [0;30;44m▓[0m
 ░ ░[30;47m▓[0;37;40m░░[0;30;47m▓▓[0;37;40m░[0;30;47m▓[0;37;40m░░[0;30;47m▓[0;37;40m░░░[0;30;47m▓[0;37;40m░░░░░░░░░[0;30;47m▓▓[0;37;40m░░░░░░░░[0;30;47m▓[0;37;40m░ ░[0;1;30;40m▀[0;34m▄░░[0m               [1;30m░ ░░░░░░░ ░░[0m [1;30m▄▄ .[0m
 ▒▒▒[30;47m░[0;37;40m▓▓[0;30;47m░[0;37;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;30;47m░[0;37;40m▓▓[0;30;47m░[0;37;40m▓▓▓▒▓▓▒▓▒▒▒[0;1;30;40m▀[0;34m▄[0;30;44m▓[0;34;40m░[0;37;40m   ░[0;1;30;40m▄[0m                          [1;30m░░▒▒▒[0m░

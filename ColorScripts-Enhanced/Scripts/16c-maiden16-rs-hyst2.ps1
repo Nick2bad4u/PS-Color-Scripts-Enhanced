@@ -5,7 +5,7 @@
 # Source SHA-256: dab80ef0937a33f1e7bcb48b30a572a9b396c77d5bbe5e59a24590c7e261f4c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-HYST2.ANS by rorshack (Maiden Brazil); released in maiden16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hysteria emag!@!#@$#
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -33,6 +33,6 @@ Write-Host '
 [1;30m▀▀▀▀▀█[0;36m ▐[0;1;37;46m▐█▌[0;36m▌  ▄▄▄▄█████[0;32;46m░░▒▒[0;36;42m▒░░░[0;32;40m█▄▄█[0;1;33;42m██[0;32m█[0;37m [0;1;30m▐▄ [0;32m [0;1;33m▀███[0;1;33;43m▓[0;33m▄ [0;1;37;43m░[0;33m  [0;1;37;43m▓[0;33m  [0;37m ▄█▄▄     ▄███▀ ████▌[0m
 [37m [0;1;30m▌[0m   [1;30m█▌[0;36m █[0;1;37;46m██▄▄[0;36m█████▀▀▀▀▀▀[0;37m     [0;32m▀▀▀█[0;1;33;42m▀▀▀█[0;32m█[0;37m [0;1;30m▐▓█▄[0;32m  [0;1;33m▀[0;1;33;43m▓▒░[0;33m██▄▄[0;1;37;43m░[0;33m▌ [0;37m▀██████▄▄███▀   ▐████[0m
 [37m [0;1;30m▌[0m   [1;30m██[0;36m ▐[0;1;37;46m▀▀[0;36m█▀▀[0;37m  [0m   [1;30m▄▄▄▄▓█▀▀▀[0m  [1;30m▄▄[0m   [32m▀▀▀[0;37m  [0;1;30m░▀▀▀[0m   [33m▀███████ [0;37m [0;1;30m [0m ▀▀██████▄▄   ▐████
- [1;30m▌[0m  [1;30m░▓█▌[0m    [1;30m▄▄ ■▐▀▀▌[0m  [1;30m▄▒▌ [0;1;37mphear the hysteria! [0;1;30m▄[0m  [33m▀█████▌[0;37m [0;1;30m▐█▄▄[0m  ▀▀██████▄█████▌
+ [1;30m▌[0m  [1;30m░▓█▌[0m    [1;30m▄▄ ■▐▀▀▌[0m  [1;30m▄▒▌ [0;1;37m                    [0;1;30m▄[0m  [33m▀█████▌[0;37m [0;1;30m▐█▄▄[0m  ▀▀██████▄█████▌
  [1;30m▓[0m [1;30m▌▀▀▀▀▀▀▀▀▀[0m [1;30m▄▄▐[0m      [1;30m░▌▄▄▄▄▄▄[0m [1;30m▄[0m [1;30m▄[0m   [1;30m░▄▄▄▄ ▄ ▓░[0m [1;30m▄▄[0m     [1;30m░▓▌ ▀▀█▄▄[0m  ▀▀████████▌
  [1;30m░[0m [1;30m▀▀▀[0m  [1;30m▀[0m       [1;30m▐▀▀▀▌▄            ▀▀▀ ▓▀[0m             [1;30m▐▀▀▀▀▀     ▀▀▀[0m    ▀▀█████[0m'

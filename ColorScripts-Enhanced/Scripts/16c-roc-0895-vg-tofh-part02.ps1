@@ -5,7 +5,7 @@
 # Source SHA-256: ecd8ea84cf2f02fe04c5f49e06a8240b91f751a852808b2e344420e56586ab04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VG-TOFH.ANS by Voltage (Rulers Of Chaos); released in roc-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: ToFH
 # SAUCE Author: Voltage
 # SAUCE Group: Rulers Of Chaos
@@ -49,7 +49,7 @@ Write-Host '
 [36m████████████████████[0;37m [0;1;30m███▄[0;31m▀▀▀[0;1;30m▄█▄[0;31m▀▀▀▀▀▀[0;1;31m▀[0;1;30m▄▄████████████████████████████████▌[0;36m▐██████[0m
 [36m█████████[0;1;37;46m░[0;36m███████████[0;37m [0;1;30m██████████████████████████████████████████████████ [0;36m███████[0m
 [30;46mi was gon[0;1;37;46m▒[0;30;46ma do[0;36;40m████████▄[0;1;30;40m▀██████████████████████████████████████████▓█████[0m [36m███████[0m
-[30;46mmuh first[0;1;37;46m▓[0;30;46mbackround pic,[0;36;40m▄[0;1;30;40m▀█████████████████▓█████████████████ ██████████ [0;36m███████[0m
+[30;46m         [0;1;37;46m▓[0;30;46m              [0;36;40m▄[0;1;30;40m▀█████████████████▓█████████████████ ██████████ [0;36m███████[0m
 [30;46mbut uhmma[0;1;37;46m▀[0;30;46mlazy! so[0;36;40m███████▀[0;1;30;40m▄██████████████████████████████████▌▐████████▌[0;36m▐███████[0m
 [30;46mfergive da lame[0;36;40m████▀▀[0;1;30;40m▄▄▄█████████████████████████████████████ ██████▓██▄▄[0;36m▀▀█████[0m
 [30;46mbackround :)[0;36;40m████▀[0;1;30;40m▄▄████████████████████▓████████████████████▌▐█▀▀[0;1;37;40m▄▄▄▄▄▄▄▄[0;1;30;40m▀▀▄[0;36m▀███[0m'

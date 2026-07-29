@@ -5,7 +5,7 @@
 # Source SHA-256: 5235ae5b3cc554d0651d87b10a5c28c16a9e1bd01bb63cc19a5ccec160c9f4ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: INT-RS2.ANS by Intrepid (the girl scouts); released in 765n001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Rust
 # SAUCE Author: Intrepid
 # SAUCE Group: the girl scouts
@@ -35,7 +35,7 @@ Write-Host '
 [1;32;42m░░[0;32m███▀▀▀███[0;1;31m [0;32m▀[0;1;32;42m░░▒▒[0;1;32;40m██▒█[0;1;31;40m [0;1;32;40m▄████[0;1;32;42m▓[0;1;32;40m█[0;1;32;42m▒[0;1;32;40m██▒[0;1;32;42m▓[0;33m [0;1;31m [0m               [31m▄[0m   [31m■[0m    [31m.[0;1;31m.[0;1;37m.[0m [1m[xxx/xxx-xxxx][0m
 [32m▓▓[0;1;32m▄▄[0;1;32;42m▓▓[0;33m [0;32m▐█[0;1;32;42m░░[0;33m  [0;32m▀[0;1;32;42m▓▓[0;1;32;40m█▓▓█[0;1;31;40m [0;1;32;40m█[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;42m▓░▒░▓▓[0;1;32;40m▒▓[0;33m  [0;37m     [0m       [37m   [0;31m■[0m   [31m▌[0m     [31m.[0;1;31m.[0;1;37m.[0m [1mrenegade modded[0m
 [32m▒▒▒[0;1;32m  [0;32m░[0;1;32m    [0;32m▀▀■[0;1;31m  [0;1;32m▀██▓▀▐[0;1;32;42m▓[0;1;32;40m█[0;1;32;42m▓▓▓░░ [0;1;32;40m▒[0;32m█▀[0;33m [0m              [37m    [0;31m▄[0;37m [0;31m■[0m
-[32m░░[0;1;32m           [0;30mint[0;1;32m   [0;1;31m  [0;1;32;42m▒[0;1;32;40m███▓▓▒▓[0;32m▀[0;33m [0m                [37m  [0m           [31m.[0;1;31m.[0;1;37m.[0m [1mfire member[0m
+[32m░░[0;1;32m           [0;30m   [0;1;32m   [0;1;31m  [0;1;32;42m▒[0;1;32;40m███▓▓▒▓[0;32m▀[0;33m [0m                [37m  [0m           [31m [0;1;31m [0;1;37m [0m [1m           [0m
 [32m░[0;1;32m                    ▓▓▓▓▒▒▓ [0;1;31m [0m                   [31m▓[0m
     [32m▄▄▄▀▀▀▄▄▄▄▄[0m      [1;32m░▒▒▒░ [0m                        [31m█[0;37m  [0;31m▀[0m
 [37m  [0;32m▀▀[0m           [32m▀▀▀▄[0m   [37m  [0;1;32m░░[0m                         [31m▌[0m    [31m▀▀[0;37m [0;31m▀▀▀▀▀▀▀▀▀█[0m

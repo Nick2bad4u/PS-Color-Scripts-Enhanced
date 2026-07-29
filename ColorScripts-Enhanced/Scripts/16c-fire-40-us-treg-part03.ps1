@@ -5,7 +5,7 @@
 # Source SHA-256: fddab9b56843560a0518ca715dc3314e2f74a6a4e11f23ce6b282370dff4fca0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TREG.ANS by Nail + Tainted (fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: the regency
 # SAUCE Author: nail + tainted
 # SAUCE Group: fire
@@ -17,7 +17,7 @@
 
 Write-Host '
 ░   ▄[1m▄[0;1;47m▄[0;1;40m█[0;1;47m████▄[0;1;40m▄[0m▄  ▄[1;47m▄[0m▌   [1;30m▄[0;1;30;47m░░░[0;1;30;40m█[0;1;30;47m░░[0;1;30;40m█░[0;1;30;47m░░░[0m█[1;30;47m░[0m  ▄▀                          [1;30mtnt[0m  ░░    ░
-  ▄[1;47m▄██▀▀████████▄█▌[0m█ [1;30m▄[0m▒▒[1;30;47m▓▓▓[0;1;30;40m▐[0;1;30;47m▓▓[0;1;30;40m▓[0m ▒[1;30;47m▓▓[0m▓[1;30;47m▓▓▓[0;1;30;40m▀[0m  [1m FiRE[0;36m [0;37mWorld Headquarters[0m        [1;37m▒[0m▄
+  ▄[1;47m▄██▀▀████████▄█▌[0m█ [1;30m▄[0m▒▒[1;30;47m▓▓▓[0;1;30;40m▐[0;1;30;47m▓▓[0;1;30;40m▓[0m ▒[1;30;47m▓▓[0m▓[1;30;47m▓▓▓[0;1;30;40m▀[0m  [1m     [0;36m [0;37m                  [0m        [1;37m▒[0m▄
  ▐[1;47m▓[0m▀     ▀[1;47m███[0m▓▀[1;47m▀███▄[0m██[1;30m▀[0m  [1;30m▀[0m [1m░[0;1;30m▀▀[0m   [1;30m▀[0m ░[1;30m▀▀[0m                                   ▄[1m█[0;1;47m█▄[0m
  [1;47m▒[0;1;30;47m▐[0m    ░▒▓[1;47m███[0m░  ▀[1;47m████[0m█▄▄▄▀ [1m▒[0m       ▄[1m▄▄[0m      ▄▄    ▄   ▄[1;47m▄[0m▄     ▄▄   ▄▄   ▄[1m█[0;1;47m██[0;1;40m▓[0m
  ▐[1;47m░[0;1;30;40m▄[0m    ▄▀[1;47m███[0m    ▀[1;47m████[0m▌  ▄[1;47m▄[0;1;40m▓[0;1;47m▄[0m▄  ▄[1m▄[0;1;47m▄███▄[0m▄  ▄[1;47m▄██▄[0m▄▄[1;47m▄█▄[0m▄[1;47m▄████[0m▄[1m▄▄[0;1;47m▄██▄[0m▄[1;47m▄██▄[0m▄ ▓[1;47m███[0;1;40m▌[0m

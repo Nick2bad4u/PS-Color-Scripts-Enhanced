@@ -5,7 +5,7 @@
 # Source SHA-256: f4a8de1f0397bfe5eacd6e2123fa0d1fd336569e272bf8fc7bc5db4fae6901fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-H00D.ANS by tainted (fire); released in blndr2023b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: radmando
 # SAUCE Author: tainted
 # SAUCE Group: fire
@@ -20,7 +20,7 @@ Write-Host '
                                                                      [1;30mf[0m [1;30mi[0m [1;30mr[0m [1;30me[0m
                                                              [32m▄[0m
 [37m                                                              [0;32m▄▄[0m
-[37m                               [0;1;37mthis is the way.[0m          [32m▄▄[0;1;37m▄▄[0;1;37;42m▄█░[0;32m▌[0m
+[37m                               [0;1;37m                [0m          [32m▄▄[0;1;37m▄▄[0;1;37;42m▄█░[0;32m▌[0m
 [37m                                                        [0;32m▀[0;1;37m▀▀▀[0;1;37;42m▓▀[0;32m▀▀[0m
 [37m                   [0;1;37m█▀▀█[0m [1m▄▀▀█[0m [1m█▀▀▄[0m [1m█▀█▀█[0m [1m▄▀▀█[0m [1m█▄ █[0m [1m█▀▀▄[0m [1m█▀▀█[0m [1;42m░[0;32m█▌[0m
 [37m                   [0;1;37m█▀▀▄[0;36m [0;1;37m█▀▀█[0m [1m█▄▄█[0m [1m█[0;36m [0;1;37m▀[0;36m [0;1;37m█[0;36m [0;1;37m█▀▀█[0;36m [0;1;37m█[0m [1m▀█[0m [1m█▄▄█[0;36m [0;1;37m▀▄▄█[0;36m [0;32m▀▀[0m

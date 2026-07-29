@@ -5,13 +5,13 @@
 # Source SHA-256: 4f32587c58c459b37b58a4fafaaa2bf708f8354dda65ebebfa79ef10a1d00209
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-DRM.ANS by Shrimp (glue-21); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
 Write-Host '
    [1;36mD[0;36mREAM.[0m                        [1;37m▄▄[0m
-   [36mMETALIC ANSI BY   [0m   [36m [0m   [37m [0;1;37m▄▄▀▀[0m▄▀[1;47m░░[0m▄ ▀[1m▄[0m  [1m▄[0m
+   [36m                  [0m   [36m [0m   [37m [0;1;37m▄▄▀▀[0m▄▀[1;47m░░[0m▄ ▀[1m▄[0m  [1m▄[0m
    [36mSHRIMP[0;1;36mGLUE[0;36m.[0m           [1;37m▄▄██▀[0m    ▀▄▀[1;47m▓░[0m▄[1m▄█▀[0m
                        [1m▄█[0;1;47m█[0;1;40m██[0m▌       [1m▄[0;1;47m█▓[0;1;40m▓▀[0m
                       [1m▐[0;1;47m█[0;1;33;40m██[0;1;37;47m█▌[0m      ░[1;47m▓██▓[0m▌

@@ -5,7 +5,7 @@
 # Source SHA-256: dffdf2797953c3ecc30f6eacc112ebaea408a909d3020ec198f4ca9d59951fd3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-LIQUI.ANS by Flax (SiCk); released in sick-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Liquid-E rave/drug brd
 # SAUCE Author: Flax
 # SAUCE Group: SiCk
@@ -60,5 +60,5 @@ Write-Host '
                                [37m▓[0;1;30;47m░ ░[0;1;30;40m▌[0m
                               [1;30;40m▐[0;1;30;47m▒▒░▒[0;1;30;40m▓[0m
 [34m-░---░----░░----░----░░--░-░--[0;1;30m▐[0;1;30;47m▓▒▒▒▓[0;1;30;40m▌[0;34m-░---░-░░-----░-░░-----░░--░░------░-░---░-[0m
-                              [1;30;47m▓▓▓▒▓▓▓[0;1;30;40m▀[0m                              a[1;30mrt [0mb[1;30my [0mf[1;30mlax[0m
+                              [1;30;47m▓▓▓▒▓▓▓[0;1;30;40m▀[0m                               [1;30m   [0m [1;30m  [0m [1;30m   [0m
                              [1;30m▀▓▀▀▀[0m'

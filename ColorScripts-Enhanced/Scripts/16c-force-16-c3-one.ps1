@@ -5,7 +5,7 @@
 # Source SHA-256: 2a3c605bac2572b25edf3a1ddb5e67032b2808e4cd0b1550ba5343cbd6e25e66
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: C3-ONE#!.ANS by c3 (force); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: One Liners
 # SAUCE Author: c3
 # SAUCE Group: force
@@ -36,4 +36,4 @@ Write-Host '
 [34;40m ▀[0;1;34;40m▀[0;1;37;40m▀[0m [36m▄[0;1;36m▄▄[0m [34m▀[0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;37m  [0;32m▀[0;1;32;42m▐▄[0;1;32;40m▄▄[0;32m▄[0;37m  [0;32m  ▄[0;1;32m▄▄[0;1;32;42m▄[0;1;32;40m██[0;1;32;42m▀[0;1;32;40m▀▀▀[0;32m▀              ▀[0;1;32m▀▀[0;1;32;42m▀[0;1;32;40m█[0;1;32;42m███▓▒[0;30;42m░[0m
 [37;40m [0;36;40m▓██ █[0;1;36;46m ▐[0;36m▐█[0;1;34;46m░[0;36m█▀[0;1;36;46m▀▌[0;36m▄ ▀██▀█[0;1;36;46m▀▌[0;36m ███▀█[0;1;36;46m▀▌[0;36m▄ [0;37m [0;32m█[0;1;32;42m████▄[0;1;32;40m▄▄▄[0;32m▄ ▄[0;1;32;42m▄█[0;1;32;40m▄[0;32m▄[0;37m [0;32m [0;1;33mo n e l i n e r s[0;1;37m [0m  [32m ▀[0;1;32m▀[0;1;32;42m▀▓░[0m
 [32m [0;36m▄▐█▄██▀[0;1;36m▐[0;36m▌▄▄▄▄▓▐ ██▐ █▄▄▌█▓▄▄▄▄▄  [0;32m▄[0;1;32m▄[0;1;32;42m▄[0;1;32;40m█[0;1;32;42m█▄[0;1;32;40m▄▄[0;32m▄     [0m                             [32m▀[0;1;32;42m▒[0m
- [1;36;46m▐▄[0;36m█ [0;1;34;46m░[0;36m██▄[0;1;36m▐[0;1;36;46m▄[0;36m█ [0;1;34;46m░░[0;36m▄▌[0;1;36;46m▐▄[0;36m▄▄[0;1;34;46m░[0;36m▌▄ [0;1;36m▄▄[0;36m▄▄[0;1;34;46m░[0;36m▌▄▄ [0;37m  [0;32m█[0;1;32;42m███▓▒[0;30;42m░[0;32;40m▓▒░[0;30;42m▓[0;37;40m [0;1;36;40mxPRESS YOUR thOUGhtS [0;36m▐[0;30;46myes[0;36;40m▌ [0;1;36;40mno[0m [32m▐[0m'
+ [1;36;46m▐▄[0;36m█ [0;1;34;46m░[0;36m██▄[0;1;36m▐[0;1;36;46m▄[0;36m█ [0;1;34;46m░░[0;36m▄▌[0;1;36;46m▐▄[0;36m▄▄[0;1;34;46m░[0;36m▌▄ [0;1;36m▄▄[0;36m▄▄[0;1;34;46m░[0;36m▌▄▄ [0;37m  [0;32m█[0;1;32;42m███▓▒[0;30;42m░[0;32;40m▓▒░[0;30;42m▓[0;37;40m [0;1;36;40m                     [0;36m▐[0;30;46m   [0;36;40m▌ [0;1;36;40m  [0m [32m▐[0m'

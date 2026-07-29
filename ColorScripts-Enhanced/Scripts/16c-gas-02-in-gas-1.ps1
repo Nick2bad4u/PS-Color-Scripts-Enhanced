@@ -5,7 +5,7 @@
 # Source SHA-256: 94cd6a82d6253626dbc208d1855ecfacab748c82496d18cd97b9f9e4a52e8dd9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-GAS#1.ANS by insane (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: gas promo
 # SAUCE Author: insane
 # SAUCE Group: gas
@@ -32,7 +32,7 @@ Write-Host '
         [31m▀▀▀▀▀▀▀[0;37m [0;1;37m [0;36m░▀▀[0;1;30;46m░[0;36m█████[0;1;30;46m░░░░[0;36m███[0;35m [0;1;30;46m░░░░[0;36m██░[0;35m [0;1;30;46m░░░░░[0;36m██░█[0;1;30;46m░░░░[0;36m███▄[0;1;30;46m░░░░░[0;36m██[0;1;33m [0;31m▀▀▀▀▀▀[0m
                  [35m         [0;36m▀▀▀▀▀▀[0;35m [0;1;33m▄▄▄▄▄▄▄▄[0;35m [0;36m▀▀▀▀▀▀▀[0;35m  [0;31m▄[0;35m       [0;36m▀▀▀▀▀▀░[0m
       [1;30mw00! gAS ''96 baby[0m   [1;35m [0m [31m█[0;37m [0;1;33m███████████████[0;1;33;43m▓▓░[0;33m██[0;31m █[0m
-     [1;30mguest appearance by[0m  [1;35m  [0;31m▐▌[0;1;33m▐███████[0;1;33;43m▓▓▓▓▓▓▓░░[0;33m██▌[0;31m▐▌[0m
+     [1;30m                   [0m  [1;35m  [0;31m▐▌[0;1;33m▐███████[0;1;33;43m▓▓▓▓▓▓▓░░[0;33m██▌[0;31m▐▌[0m
     [1;30m [0m   [1;30minsane/force[0m       [1;35m  [0;31m█[0;37m [0;1;33m▀██[0;1;33;43m▓▓▓▓░░░░░░[0;33m████▀[0;37m [0;31m█[0;1;35m [0m
                             [1;35m  [0;31m▀▄▄[0;1;33m [0;33m▀▀▀██████▀▀▀[0;37m [0;31m▄▄▀[0;1;35m  [0m
                               [1;35m   [0;31m▀▀▀▄▄▄▄▄▄▄▄▀▀▀[0;1;35m   [0m                      [1m [0m'

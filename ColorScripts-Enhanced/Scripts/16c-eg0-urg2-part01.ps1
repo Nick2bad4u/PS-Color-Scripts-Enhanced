@@ -5,7 +5,7 @@
 # Source SHA-256: 6c8f0e4a53d8f842ee9508b8ca9998c5bf6b84355de7d1ff5ec6d4a3ee3ca134
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: URG2.ANS by Urg (eg0); released in eg0 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -35,6 +35,6 @@ Write-Host '
               [32m▀██▄  ██▄▄▄▄   ▀▀▀▀█[0;32;42m            [0;32;40m█  ▄█▀[0m      [1;30;40m57.[0;5;31m6k[0;1;30m+ Onl[0;5;31my![0m
                [32m▀███▄ ▀▀▀██████▄▄▄▄   ▀▀▀▀▀▀▀▀▀ ▄██▀ █▄    [0;1;30m[Y0U[0;5;31m][0;1;30mARE-[0;5;31mDU[0;1;30mMB[0m
                   [32m▀████▄▄▄▄▄ ▀▀▀▀▀██████████████ ▄▄██▀    [0;1;30mSup[0;5;31mp0[0;1;30mrt[0;5;31mz 0Ver 10[0m
-                     [32m▀▀██████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███[0m      [1;30mBiL[0;5;31mLi[0;1;30m0[0;5;31mN [0;1;30mANSi [0;5;31mGr0[0;1;30mu[0;5;31mpz[0m
+                     [32m▀▀██████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███[0m      [1;30m   [0;5;31m  [0;1;30m [0;5;31m  [0;1;30m     [0;5;31m   [0;1;30m [0;5;31m  [0m
 [5;31m [0;1;30mRuNniN''[0m                 [32m▀▀██████████████████████▀[0m
-[32m    [0;1;30mRadTeRM v.24,210[0m           [32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m            [1;30mK[0;5;31mΣW[0;1;30mL N0rTHE[0;5;31mrN Ce[0;1;30mn[0;5;31mt[0;1;30mRal[0m'
+[32m    [0;1;30m                [0m           [32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m            [1;30m [0;5;31m  [0;1;30m        [0;5;31m     [0;1;30m [0;5;31m [0;1;30m   [0m'

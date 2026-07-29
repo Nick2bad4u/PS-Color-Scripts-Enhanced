@@ -5,7 +5,7 @@
 # Source SHA-256: 9e9bdd9ef53df406d81dd99b9db1c1ab7057e9defbbca34b73d7a7f13b07ba55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-GSMTX.ANS by shatters (gravity); released in gvt-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: glass matrix
 # SAUCE Author: shatters
 # SAUCE Group: gravity
@@ -35,7 +35,7 @@ Write-Host '
      [1;31m  [0;33m█[0;1;31;43m░▒▓[0;1;31;40m█████████████[0;1;31;47m▓▓▓▓[0;1;31;40m██████████████████[0;1;31;47m▓[0;1;31;40m██████[0;1;31;43m▓▒[0;33m▌  [0;35m░ [0;37m ▄▄▄▀[0;1;30m▀[0m ▄ ▄▄ ▄▄▄ ▀▄▄▄
       [1;31m  [0;33m█[0;1;31;43m░▒▓▓█[0;1;31;40m████████████████████████▌▐█████████████[0;1;31;43m▒░[0;33m  [0;35m▄[0;33m [0;37m░ ▓[0m                [37m░▓[0m
      [35m░▒[0;1;31m  [0;33m█[0;1;31;43m░▒▒▓▓▓▓██[0;1;31;40m████████████████████▄████████████[0;1;31;43m▒░[0;30;47m█[0;33;40m   [0;37;40m   ▄  [0;1;30;40mthis is for [0m   [1;30;47m▒[0m
-[35m░[0;37m  [0;33m█▄[0;1;31m     [0;33m█[0;1;31;43m░▒▒▒▒[0;33m▀[0;1;31;43m▓█[0;1;31;40m███████████████████▄█▄▀[0;1;31;43m█[0;1;31;40m████████[0;1;31;43m▓░[0;30;47m█[0;33;40m   [0;37;40m▄▄    [0;1;30;40mmuh board glass[0m [1;30;47m▓[0m
+[35m░[0;37m  [0;33m█▄[0;1;31m     [0;33m█[0;1;31;43m░▒▒▒▒[0;33m▀[0;1;31;43m▓█[0;1;31;40m███████████████████▄█▄▀[0;1;31;43m█[0;1;31;40m████████[0;1;31;43m▓░[0;30;47m█[0;33;40m   [0;37;40m▄▄    [0;1;30;40m               [0m [1;30;47m▓[0m
   [1;31;43m     [0;33m▄▄[0;1;31m  [0;33m▀▀▀▄▄[0;1;31;43m▓▓█[0;1;31;40m██████████████████████▌▐[0;1;31;43m▓[0;1;31;40m██████[0;1;31;43m▓░[0;30;47m█[0;33;40m  [0;1;30;40m▀[0m [33m [0;37m ▀▄[0;1;30;47m░[0m [1;30mdon''t rip it![0m   █
  [33m █[0;1;31;43m ░░░░░▒▒▒▓▓▓▓██[0;1;31;40m███████████████▀[0;1;31;43m▓[0;1;31;40m████▀▀[0;33m▄[0;1;31;43m▒▓[0;1;31;40m█████[0;1;31;43m▓░[0;33m        [0;37m ▐▌ [0;1;30m1oO% shatters[0m ░ ▒
 [1;31m [0;33m▐[0;1;31;43m░░▒▒▒▒▓▓▓▓███████[0;1;31;40m██████████████████▄[0;1;31;43m▓▓▒▒▓[0;1;31;40m█████[0;1;31;43m▓[0;1;31;40m▀[0;33m        [0;37m░  ▓▄▄▄▄▄[0;1;30m  ▄  [0m▄▄  ▄▄▄▓[0m'

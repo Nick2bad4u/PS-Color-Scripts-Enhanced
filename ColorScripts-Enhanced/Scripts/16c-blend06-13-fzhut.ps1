@@ -5,7 +5,7 @@
 # Source SHA-256: 9195edca65ee2a5256596e9f227249c3d5ad640d38c43ce659cd4e12a2f6fd0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 13-FZHUT.ANS by ville (blend karate); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fuzzhut
 # SAUCE Author: ville
 # SAUCE Group: blend karate
@@ -29,5 +29,5 @@ Write-Host '
 [37;40m  [0;34;40m░▌[0;35;40m▐[0;1;35;40m▒[0;1;37;43m [0;33m█[0;33;47m▓[0;33;40m▌ [0m    [33;40m▀█[0;33;47m▄[0;33;40m█[0;33;47m▓▄[0;33;40m██ ▐█[0;33;47m▓[0;33;40m███[0;33;47m▀▀▀▀[0;33;40m██▐█[0;33;47m▓[0;33;40m███[0;33;47m▀▀▀▀[0;33;40m██[0;37;40m [0;1;30;40m█[0;1;30;47m▓[0m▓[1;30;47m▓[0m   [1;30m░[0;1;30;47m▓[0;1;37;47m▐[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▄▀[0;1;30;40m▄[0m [1;30m▄[0;1;30;47m▀ [0;1;37;47m▀[0;1;30;47m▐[0;1;30;40m▌ [0;34m▐▌▀[0;34;46m▓[0;37;40m [0;34;40m▀▄[0;32;40m░[0m
 [37;40m  [0;34;40m░[0;37;40m [0;35;40m▐[0;33;40m░░▀▀▌ [0m     [35;40m░[0;33;40m▀▀█▓▀[0;32;40m░[0;37;40m [0;33;40m▀▀▀▀▐███[0;33;47m▓▓▓[0;33;40m█▀▀▀▀▐███[0;33;47m▓▓▓[0;33;40m█[0;37;40m [0;1;30;40m█[0m░░[1;30m█[0m   [1;30m░█[0;1;30;47m [0;1;30;40m▓[0m [1;30m▀▀[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▄[0;1;30;40m▀[0m [1;30m█[0;1;30;47m▄▐[0;1;30;40m  [0;34m▀▄[0;32m░[0;34m▀▄[0m
          [33m  [0m         [35m [0m          [35m▀▀▀▀[0m       [35m▀▀▀▀▀▀[0;37m [0;1;30m░░░[0m    [1;30m░█[0;1;30;47m▓[0;1;30;40m░[0m         [1;30m▀█[0;1;30;47m▓[0;1;30;40m▄[0m [1;30m [0m [34m▄[0;32m░[0m
-[37m [0;34mfuzz hut - op flame;                             [0m      [1;30m░█[0m             [1;30m▀[0m░[1;30;47m▄[0;1;30;40m▄[0m
+[37m [0;34m                                                 [0m      [1;30m░█[0m             [1;30m▀[0m░[1;30;47m▄[0;1;30;40m▄[0m
 [34m                   [0m                                      [1;30m▌[0m                [1;30m░░▀[0m'

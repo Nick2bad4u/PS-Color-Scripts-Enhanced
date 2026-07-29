@@ -5,7 +5,7 @@
 # Source SHA-256: da13e88585391bf51d05c6b9701862cb3b5584a71079cda00b14b347ac57e179
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-HOLOH.ANS by r0rshack (Maiden Productions); released in mdn-9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hol0caust, logon matrix!
 # SAUCE Author: r0rshack
 # SAUCE Group: Maiden Productions
@@ -37,4 +37,4 @@ Write-Host '
 [33m██▄[0;1;33m ▀[0m [36m█[0m    [1;37mget out now[0m    [36m█[0;37m [0;31m█▀███▓██████[0;1;31;41m░▒▓[0m [1;31;41m▐▓▄[0;31m███▄[0m   [37m▀██[0m          [37m████[0m
 [1;33;43m░[0;33m███▄[0;37m [0;36m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;37m [0;1;31;41m░[0;31m█ ███▄▀███████▌▀▀▀█[0;1;31;41m▀■[0;31m██▄[0m   [37m██[0m          [37m██[0m
 [1;33;43m▒░░[0;33m██▄▄[0;1;33m  ▄▄▄▄▄▄[0;1;31m ▄▄[0;31m▄▄▄▄▄▄▄▄▄▄[0;1;31;41m░[0;31m██▄▀███ ▀▀███████▄▄▄ ▀▀██▄[0;37m  ▀▄[0m         [37m█[0m
-[1;33;43m▓▒▒░░[0;33m███▄[0;37m [0;1;33m▀████▌[0;1;31m▐[0;1;31;41m░[0;31m███[0;37m [0;31m█[0;1;31;41mansi.rorshack[0;31m█▄  ▀▀█████████▄▄[0;1;31m [0;31m▀▀[0m   [37m▀[0m       [37m▀[0m'
+[1;33;43m▓▒▒░░[0;33m███▄[0;37m [0;1;33m▀████▌[0;1;31m▐[0;1;31;41m░[0;31m███[0;37m [0;31m█[0;1;31;41m             [0;31m█▄  ▀▀█████████▄▄[0;1;31m [0;31m▀▀[0m   [37m▀[0m       [37m▀[0m'

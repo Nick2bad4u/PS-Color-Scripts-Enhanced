@@ -5,7 +5,7 @@
 # Source SHA-256: a90ecd88a63b512468f2ec264cff7e733f59da6f64a27b87c642f54c62f52158
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TW-MT8.ANS by The Watcher (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
 [1;34;40m   [0;1;34;44m▒▒▒▒▒░░░░▒▒▒▒▒▒▒▒▒▓▒▓▓░░▓▓▒▒▒▒▒▒░░░░░░░         [0m
      [1;34;44m▒▒░░░░░░░░▒▒▒▒▒▒▒▒▒▓▓░░▓▓▒▒░░░░░░░        [0m
 [1;34;40m    [0;1;34;44m▒▒░░   ░▒▒▒▒▒▒░░░░▒▒▓░░▓▓▓▒░  ░░░        [0m
-[1;34;40m    [0;1;34;44m▒░░   ░░░▒[0;1;36;40m██[0;1;36;44m▓[0;1;34;44m▒▒ ░░░▒▒░░▓▓▒░░ ░░░░░░░░        [0m     [36m"[0;1;34mThe time is apon us[0m
+[1;34;40m    [0;1;34;44m▒░░   ░░░▒[0;1;36;40m██[0;1;36;44m▓[0;1;34;44m▒▒ ░░░▒▒░░▓▓▒░░ ░░░░░░░░        [0m     [36m [0;1;34m                   [0m
 [1;34m   [0;1;34;44m▒▒▒░░     ▒▒▒░░ ░░▒░░░▒░█▓▒░  ░░░░░░░░░░░        [0m   [1;34;40mto face our fears[0;36m.."[0m
      [1;34;44m▒░░░   ░░▒▒▓░░░▒▒░▒▒▒██▓▒░   ░░░░░          [0m
 [1;34;40m    [0;1;34;44m▒▒▒▒░░ ░░▒▒▓▓▓▒▒▒░░▒▒▒▒█▓▒░    ░░░░░░░         [0m

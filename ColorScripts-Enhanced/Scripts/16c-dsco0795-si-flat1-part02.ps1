@@ -5,7 +5,7 @@
 # Source SHA-256: 77f597dc5e8998347fdcc08d5bea8dab8e3f3b2e308812c6c08ae156304a362c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-FLAT1.ANS by Spirit of Illusion (READ THE INI FILE); released in dsco0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Flatliner
 # SAUCE Author: Spirit of Illusion
 # SAUCE Group: READ THE INI FILE
@@ -27,7 +27,7 @@ Write-Host '
 [37m▄▄ ▒ ░█▌ [0;36m■▀   ████[0;1;36;46m░[0;36m▌ ▐████▌ ▓██[0;1;36;46m░▄[0;36m▄[0;37m░[0m         [37m▓█■ ░░▀▀■▄▓█[0;1;37;47m▀[0m██[1;47m▄▄▒[0m█▀ [36m▄▄██▌▐▓██[0;1;36;46m▓[0;36m█  ▀[0m
 [37m███▓  ▓[0m       [36m███[0;1;36;46m▒[0;36m█ [0;1;30ms[0;36m▓████▒ ███[0;1;36;46m▒[0;36m█ ██▄[0m       [37m▒▀░    ░░▒▀[0;1;37;47m░[0m█[1;47m▓▀[0m▀▀ [36m▄ ▓███[0;1;36;46m▓[0;36m█ ▒██[0;1;36;46m▀▒[0;36m█[0m
 [37m██[0;1;37;47m▓▄[0m▌ ▐▌     [36m▐███[0;1;36;46m▓[0;36m█ [0;1;30mo[0;36m█[0;36;46m [0;36;40m██[0;1;36;46m░[0;36m░▐████▌▐██[0;1;36;46m▀[0;36m█▌[0m     [37m░[0m        [37m░░▓██ [0;36m▄██[0;1;36;46m░[0;36m▌▐███[0;1;36;46m▒▌[0;36m▌▐████[0;1;36;46m░[0;36m█[0m
-[37m███[0;1;37;47m▒[0m█▄■▓▄    [36m▐████▓ [0;1;30mi[0;36m█████▌▐█▒█[0;1;36;46m░[0;36m▌▐[0;1;36;46m▄░[0;36m██[0;1;36;46m░[0m [30mgreets go to:  [0;37m▒▐▌[0;36m▐▓████ ████[0;1;36;46m▒[0;36m█ ▀▀████░[0m
+[37m███[0;1;37;47m▒[0m█▄■▓▄    [36m▐████▓ [0;1;30m [0;36m█████▌▐█▒█[0;1;36;46m░[0;36m▌▐[0;1;36;46m▄░[0;36m██[0;1;36;46m░[0m [30m               [0;37m▒▐▌[0;36m▐▓████ ████[0;1;36;46m▒[0;36m█ ▀▀████░[0m
 [37m▐███[0;1;37;47m░[0m ▄█▌    [36m▓■▀▒██▌  ▓▀█[0;1;36;46m▒[0;36m▌▐████ █[0;1;36;46m▀▒[0;36m██▓[0m                [37m░░█ [0;36m█████ ▒██████▄ ▐███▒[0m
 [37m▒▀■█████ [0;36m▄█▄    ░ ▀█▄ ░ ▐█▌▀ ▀██ █████▌[0;30mprince of death,  [0;37m█▌[0;36m▐███[0;1;36;46m░[0;36m▌▐█████[0;1;36;46m░[0;36m█▄▄███▓[0m
 [37m░▄███▒██  [0;36m▀█▌■▄   ▄█■   ██    ▐▀▐█████ [0;30msinned soul, ol'' [0;37m▐▓  [0;36m▒███[0;1;36;46m▒[0;36m▄▀■███████████[0m

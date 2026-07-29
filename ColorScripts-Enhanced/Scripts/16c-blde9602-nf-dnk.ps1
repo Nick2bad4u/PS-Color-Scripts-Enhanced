@@ -5,7 +5,7 @@
 # Source SHA-256: ebce15ed461178474cc00b09e6cd6f1aa074a74a0fe85b99c011ce1573214ba8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NF-DNK.ANS by infinity (blade productions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: doink!
 # SAUCE Author: infinity
 # SAUCE Group: blade productions
@@ -29,7 +29,7 @@ Write-Host '
 [31m░[0m       [31m░   ░  ░ ░░▓░▀▀▀▄▄▄▄▀▀▀▀▄▄▄▀▀[0;41m░[0;31m█▓▀▀▀▀░ ▀▀[0m     [31m▄▀▀▀ ▄█▀▀▀▀    ▀ █▀    █[0m
 i can''t draw hair [31m▐▄▄▀▀▀    ▀▀▀▀▄▄░▀▀▄    [0mnf!              [1;31m▄  [0;31m░[0m      [41m░[0;31m█▌  ░▓[0m
 so i puts a font [31m■▀[0m          [31m▐██▄▄▀▄░ ▌[0m       [1;31m▄▄▄▄▄▄▄▄█████[0;31m░ ░ [0;1;31m▄▄▄[0;31m░░▒▓█▓▄▄▀[0m
-at the top and whala!       [31m░[0;41m▒[0;31m▓▓█▀[0;1;31m▄▄[0;31m▀▒▓[0;1;31m▄████████████████████▄▄[0;31m░ ░░░▒▓▀▀▀[0m
+                            [31m░[0;41m▒[0;31m▓▓█▀[0;1;31m▄▄[0;31m▀▒▓[0;1;31m▄████████████████████▄▄[0;31m░ ░░░▒▓▀▀▀[0m
                [1;31m▄▄▄▄▄▄▄███████ [0;31m▓▒ [0;1;31m████[0;31m░▒[0;1;31m█████████▀▀[0;1m▄▄▄▄▄▄▄ [0;1;31m▀▀█████████▌  [0mhe''s
        [1;31m▄▄█████████████████████ [0;31m▒░[0;1;31m▐██▌[0;31m░[0;1;31m▐███████▀[0;1m▄███▀▀░ ▄▄▀▀▄ [0;1;31m▀████████  [0mgonna
       [1;31m███████▀▀[0;1m▄▄▄▄▄▄[0;1;31m▀▀███████▄ [0;31m░░[0;1;31m█▀[0;31m░[0;1;31m▄██████▀[0;1m▄███▓ [0;33m▄ [0m▄[1;47m▓[0;1m███▓ █ [0;1;31m████████  [0mkick

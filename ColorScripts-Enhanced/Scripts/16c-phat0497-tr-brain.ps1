@@ -5,7 +5,7 @@
 # Source SHA-256: 4e506a31031f1ebd349d3d68612be6e89dfeec6eae3dc9193c4d8d1cc255f6c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-BRAIN.ANS by trinity (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: brain-damage
 # SAUCE Author: trinity
 # SAUCE Group: phat studios '97
@@ -33,7 +33,7 @@ Write-Host '
 [33m░[0;37m [0m             [33m▌▄▄▄▄████████     [0;35m████[0;1;31;45m░░[0;35m███[0;37m [0;33m [0;1;31mbrain[0m     [33m▀▀▀▀▀▀▌▀▀[0;37m    [0;33m▀▀█[0;1;33;43m▄▄▄▓▓[0;33m█[0;37m [0;1;31;45m▐█[0;1;31;47m▓[0m
 [33m█▌███[0;1;33;43m▄▄▄▄[0;1;33;45m█[0;1;33;43m▌[0;1;33;45m█[0;1;33;43m▄▄▄[0;33m▌██████[0;1;31;43m░░▓▓▄▄▄▄▄█[0;33m▌[0;35m▀███[0;1;31;45m▓▓[0;35m███▌[0;33m  [0;1;31mdamage[0m   [33mlogoff[0m          [33m▀█[0;1;33;43m███[0;33m█[0;37m [0;35m▐[0;1;31;45m▓▓[0m
 [33m█▌█[0;1;33;43m░▓[0;1;33;45m███[0;1;37;40m██[0;1;33;45m██[0;1;33;43m▀▀▓░[0;33m█▀▀▀▀░░▐[0;1;31;43m█▀▀▄█[0;1;31;47m▓░[0;1;31;43m█[0;33m█▄[0;35m▀▀▀█[0;1;31;45m███[0;1;31;47m▓▓[0;1;31;45m█[0;35m░░[0;33m     [0m   [33mstep back[0m        [33m▐[0;1;33;43m▀▀▀▀[0m  [1;31;45m░░[0m
-[33m██[0;1;33;43m▄▄▄▄▌▀▀▀▓[0;33m█▀▀[0;37m [0;33mtr[0;37m      [0;33m█[0;1;31;43m▀▀▀▀▀▀▀▌▀▀▀[0;33m█▄▄ [0;35m▀[0;1;31;45m▐[0;1;31;47m░░▓[0;1;31;45m█▀[0;35m▄▄▄[0;33m [0m    [33mfeedback to wh[0m   [33m ▓▓▓▓[0;37m  [0;35m▐█[0m
+[33m██[0;1;33;43m▄▄▄▄▌▀▀▀▓[0;33m█▀▀[0;37m [0;33m  [0;37m      [0;33m█[0;1;31;43m▀▀▀▀▀▀▀▌▀▀▀[0;33m█▄▄ [0;35m▀[0;1;31;45m▐[0;1;31;47m░░▓[0;1;31;45m█▀[0;35m▄▄▄[0;33m [0m    [33m              [0m   [33m ▓▓▓▓[0;37m  [0;35m▐█[0m
 [33m░██▄▄▄[0;37m    [0;33m▀[0;37m  [0;33m░░[0;37m        [0m        [37m  [0;33m▄[0;35m ▄▄▄▄█[0;1;31;45m▄█████▄▄▄▄[0;35m██▄▄▄▄▄[0m              [33m ░░░░[0;37m [0;35m▓▓█[0m
 [33m░▀█[0;1;31;43m░▓▓░░[0;33m▄▄▄[0;37m [0;33m█▓▓▄▄▄▄▄▄░░[0;37m [0;33m▄▄▄▄▄████▌[0;35m▐█▀▀▀▀▀▀▀▀▀▀██[0;1;31;45m▀▓▓[0;35m [0;1;35;45m ▓██[0;35m [0m     [35m▄▄████▄▄[0;37m [0;35m░░[0;37m [0;35m▄▄▄█▀▀[0m
 [37m   [0;33m▀█[0;1;31;43m▀▓▓▓[0;33m█▌▐███[0;1;31;43m▀▀███▌[0;33m████[0;1;30;43m░▒░[0;33m█▀▀▀[0;37m    [0;33m [0;35m▀▀▀[0;1;35;45m▀▀[0;1;35;40m██▄▄[0m [35m     [0;1;35;45m▀▀▀▀▀▓▓▄[0;35m█████▌▀▀██[0;1;30;45m░▒░[0;35m██▀▀[0m

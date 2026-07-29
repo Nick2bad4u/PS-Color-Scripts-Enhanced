@@ -5,7 +5,7 @@
 # Source SHA-256: eb3b6e66fe3c927eacc28a68c1b26b67b5d42cb5c0b0d305c40a769113583785
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DRC-NR4.ANS by Drc (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Logo 4
 # SAUCE Author: Drc
 # SAUCE Group: Fuel
@@ -40,4 +40,4 @@ Write-Host '
                                  [35m▀[0m      [31m▀▀▀  ░[0m              [1;30m [0m
 
 
-[1;30m─────────────────────────────────────────────────> Ansi by Drc in 1997 <────────[0m'
+[1;30m─────────────────────────────────────────────────                       ────────[0m'

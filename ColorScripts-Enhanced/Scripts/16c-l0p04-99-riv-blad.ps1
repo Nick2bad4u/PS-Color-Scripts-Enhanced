@@ -5,7 +5,7 @@
 # Source SHA-256: ec35e9955f226ebfe07a9cca17858f423f0f60037c58693ecba054288665bfc0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RIV!BLAD.ANS by Riven (Thelo0p); released in l0p04_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: B L A D E
 # SAUCE Author: Riven
 # SAUCE Group: Thelo0p
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1;34m▓▓[0;1;32m SPREAD BY: [0;1;34m▓▓[0m   [1;34m▐[0m [1;34m█[0;34m▐[0;1;34m█[0;34m▌▐▐[0;1;34m▌[0m [1;34m█[0;34m▐[0;1;34m▀[0;34m▀[0;1;34m▄█[0;34m ▌▐▌[0;1;34m▐[0;34m▌[0m      [1;37;46mBLADE / TATANKA + EVENFLOW[0m
-[1;34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;34m [0;37m [0;1;34m■[0;34m▀▌▄▀▀[0;1;34m▄[0;34m▀▄[0;1;34m▄[0;34m▀▄▀██[0;1;34m▐[0;34m ▀[0;1;34m▄[0;34m▀▄[0;1;34m▀[0;34m▄[0;37m [0;1;33;43mPawel Winiarski, Sportowa 2/11, 06300[0m
+[1;34m▓▓[0;1;32m            [0;1;34m▓▓[0m   [1;34m▐[0m [1;34m█[0;34m▐[0;1;34m█[0;34m▌▐▐[0;1;34m▌[0m [1;34m█[0;34m▐[0;1;34m▀[0;34m▀[0;1;34m▄█[0;34m ▌▐▌[0;1;34m▐[0;34m▌[0m      [1;37;46m                          [0m
+[1;34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;34m [0;37m [0;1;34m■[0;34m▀▌▄▀▀[0;1;34m▄[0;34m▀▄[0;1;34m▄[0;34m▀▄▀██[0;1;34m▐[0;34m ▀[0;1;34m▄[0;34m▀▄[0;1;34m▀[0;34m▄[0;37m [0;1;33;43m                                     [0m
 [1;34m▒▒▒▒[0m        [1;34m▒▒▒▒[0;31m [0;37m  [0;1;34m▀[0;34m▀[0;37m [0;1;34m▌[0;34m▀ [0;1;34m▀[0m  [34m▀ [0;37m [0;34m▄[0;1;34m▀[0m [1;34m▄[0;34m▀▄▌▄[0;1;34m▀[0m  [44m [0;40m [0;44m [0;40m [0;44m    [0;40m [0;44mP R [0;1;44mZ[0;44m A [0;1;44mS[0;44m N Y S [0;1;44mZ[0m [44m  [0;40m [0;44m   [0;40m [0;44m [0;40m [0;44m [0m
 [1;34;40m░░░░[0m [1;34;46m░░░░░░[0;1;37;40m [0;1;34;40m░░░░[0m     [34m▀[0;37m [0;31m ░░░░░░[0;33m [0;37m  [0;34m [0m   [1;34m▀[0m              [31m░░░░░░[0;37m [0m
 [1;34m▄[0;1;30m [0;1;34m▄▄▄[0;1;34;46m▒▒▒▒▒▒[0;1;34;40m▀▀▀▀▀[0;34m [0;1;30;44m  ░░░░[0;1;30;40m [0;31m░░░░░░[0;37m [0;1;30;42m  ░░░░[0m [1;30;44m  ░░░░[0;34m▀[0;1;30;44m  ░░░░[0m [31m░░░░░░[0;1;30m [0;1;30;42m░░░░  [0m [1;30;44m  ░░░░[0;34m▀[0;1;30;44m  ░░░░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 6114a9909a87d04741420bec0df30a51b9af801e0a77f14e38032a3a6eaf0a34
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TUS-BS.ANS by tus (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: black sunshine
 # SAUCE Author: tus
 # SAUCE Group: READ THE INI FILE
@@ -22,7 +22,7 @@ Write-Host '
        [1;30m|[0m [30m [0m  [1;30m|[0m  [1;30m|[0m   [1;30m|[0;30m|[0m    [1;30m/ [0;30m_|[0m [1;30m   | [0m [30m               [0m             [35m░[0m
        [1;30m|  [0m  [1;30m| [0m [1;30m|[0m         [1;30m|[0m       [1;30m| [0m
        [1;30m|[0m [1;30m [0m  [1;30m|[0m  [1;30m|[0m         [1;30m|[0m       [1;30m| [0m
-   [35m [0m  [1;30m/._ ___[0m  [1;30m·._______.·_______:            presents[0m          [35m░[0m
+   [35m [0m  [1;30m       [0m  [1;30m                                       [0m          [35m░[0m
                                          [35m░[0m                      [35m░[0m             [35m░[0;37m [0m
                                          [35m░[0m                      [35m░[0m
                    [35m░[0m                     [35m▒[0m                      [35m░[0m

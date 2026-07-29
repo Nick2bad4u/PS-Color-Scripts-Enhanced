@@ -5,7 +5,7 @@
 # Source SHA-256: 8429a5a5f191ad99bf3655918a8b56eb84090e05e2e17db165432ae5dab4b291
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EP-DX.ANS by Epistasis (tide0496); released in tide0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dimension X
 # SAUCE Author: Epistasis
 # SAUCE Date: 19960330
@@ -32,7 +32,7 @@ Write-Host '
        ▐▌ [1;30m[ [0;1;37mdimension x [0;1;30m][0;31m▀▀[0;1;31;41m▀░▓[0;31m▄[0m   [36m▐▌[0;37m ▀▀▄ [0;1;30m░░▀[0m  [31m▄[0;1;31;41m░▓[0;31m█[0;37m  ▄▀ [0;1;30m░░░▀[0m  ▐▌
         ▀  ▄    [1;30m[ [0;1;37mop: X [0;1;30m][0m  [1;31;41m░[0m [31m▀▀▀[0;37m [0;36m▄▀[0;37m ▄ ■▐▌ [0;1;30m░[0m ▀  [31m▀░[0;1;31;41m█▄▄[0;31m▄▄▀[0;37m [0;1;30m░▀▀[0m ▄▀
             ▀▀▄    [1;30m[[0;1;37m770[0;1;30m][0;1;37mxxxxxxx[0m      ■ ▀  ▀▄ [1;30m░[0;31m [0;1;31;41m░[0;31m▄▀▀▀[0;37m  ▀  ■[0m
-              [37m▐▌  [0;1;30m[ [0;1;37mother stats go here[0m▄   ▐▌ [31m▀ [0m
+              [37m▐▌  [0;1;30m  [0;1;37m                   [0m▄   ▐▌ [31m▀ [0m
              [37m▄▀[0m                          [37m■ ▀ [0;1;30m                 [0m
             ▐▌    ▄▄  ▀▀▀  ▄      ▄▀▀▄   ▄
              ▀ ■ ▀         ▐▌    ▐▌  ▐▌  ▐▌

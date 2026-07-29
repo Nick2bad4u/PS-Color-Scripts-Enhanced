@@ -5,7 +5,7 @@
 # Source SHA-256: c3586ef7a4021c8eefdb872576e8a17ededdd66dface61ef5889485f7c479657
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-UIS1.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 45-84
 # Columns: 1-80
 
@@ -45,6 +45,6 @@ Write-Host '
 
                              ┌[1;30m─[0mU[1;30mp [0mI[1;30mn [0mS[1;30mmoke[0m─[1;30m┐[0m
                             [1;30m┌┴ [0m [1;30m   [0m [1;30m   [0m [1;30m   ┴[0m┐
-                          [1;30m┌[0m─[1;30m┴[0mS[1;30mys[0mO[1;30mp : [0mS[1;30min-[0mJ[1;30min┴[0m─[1;30m┐[0m
+                          [1;30m┌[0m─[1;30m┴[0m [1;30m  [0m [1;30m    [0m [1;30m   [0m [1;30m  ┴[0m─[1;30m┐[0m
                           ├   [1;30m     [0m [1;30m   [0m [1;30m    [0m [1;30m [0m┤
                           └[1;30m──[0m───[1;30m───[0m─[1;30m──[0m──[1;30m─[0m─[1;30m─[0m──[1;30m─┘[0m'

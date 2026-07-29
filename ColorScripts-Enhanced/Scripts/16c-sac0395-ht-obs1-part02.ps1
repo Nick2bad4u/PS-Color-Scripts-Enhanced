@@ -5,7 +5,7 @@
 # Source SHA-256: 9ed4b1958cc7b5b738b4afb65ee7294bd803f4304d9c665d63bb3bbe8071b07c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-OBS1.ANS by HETERO (LKCC); released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: OBSESSION
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -38,7 +38,7 @@ Write-Host '
 [1;30m  ░[0m                                [1;31m [0;31m     [0;1;31m [0m
 [1;30m▀ ▒[0m                                                                         [1;30m░[0m
 [1;30m  ▓    ▀[0m                      [1;37m [0;1;31m [0;31m             [0;1;31m [0;1;37m [0m                          [1;30m▀  ▒[0m
-[1;30m █[0;1;30;41m▓[0m [1;30;40m▄█▀[0m                     [1;37;40mO[0;1;31;40mB[0;31mSESSED DIVISION W[0;1;31mH[0;1;37mQ[0m                          [1;30m▐▓ ▀[0m
+[1;30m █[0;1;30;41m▓[0m [1;30;40m▄█▀[0m                     [1;37;40m [0;1;31;40m [0;31m                 [0;1;31m [0;1;37m [0m                          [1;30m▐▓ ▀[0m
 [1;30;41m▓▒░░[0;1;30;40m▄█▄[0m                                                                 [1;30;40m▄▄▄[0;1;30;41m▓░▓[0;1;30;40m▄[0m
 [1;30;40m▀▀▓▀█▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀  ▀[0m                                [1;30;40m▀   ▀▀▀  ▀▀▀▀▀▀▀▀▀▀█[0;1;30;41m▒[0;1;30;40m█▀[0m
 [1;30;40m  ▒   ▀[0m                                                                  [1;30;40m▀  [0;1;30;41m▓[0m'

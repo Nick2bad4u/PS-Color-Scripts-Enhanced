@@ -5,7 +5,7 @@
 # Source SHA-256: 11952a64de3868c0ff18ceac1b133cc45d2640fcadd1a5b1b13f351f2b2443a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-RS1.ANS by Trip (Apathy Studios); released in apathy15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Raging Sea screen
 # SAUCE Author: Trip
 # SAUCE Group: Apathy Studios
@@ -38,4 +38,4 @@ Write-Host '
 █░ ░▄▓█▄▄▄ ▀[1m▀▀[0m▀[31m■[0;37m ▄▄█▒[0;1;30m▀▀[0m ░░     [1;33m ░ ▀▒▓█▄▒█▓█▀▀▀ [0;34m░▒▓▓░[0;37m [0;1;34m [0mb[36my[0;1;34m: me[0m
  ▀▄▄▀▄█[1;47m░[0m█▓▓▒░ ▀▒▓▓▒░        [1;33m░░[0m [1;33m░▒▒▓▓▀▀▀▀[0m [31m▄▄▒░[0;34m  ▒▓▓▒[0;37m  t[0;36mh[0;1;34men: pay[0m
 [34m░[0m   [37m▀▀██▓▒[0;1;30m▄[0m▀  ░░▒░  ▄▄▄▄ ▀▀▀[1;33m▀[0m▀[1;33m▀▀░[0m   [31m░▒▓▒▓▓▒ [0;34m ▒▄▓▓▒░[0;37m  m[0;36me[0;1;34m: like[0m
-[34m▒░[0m      [37m▀▀▄▄▄▄▄▄▄ ▀ [0m     [31m░░[0;37m  [0;31m░[0m    [31m░░▒░▒░▒▒ [0;34m░▄▓█▀░ [0m   [37mr[0;36mi[0;1;34mpper: did.[0m   [31mtrip[apathy][0m'
+[34m▒░[0m      [37m▀▀▄▄▄▄▄▄▄ ▀ [0m     [31m░░[0;37m  [0;31m░[0m    [31m░░▒░▒░▒▒ [0;34m░▄▓█▀░ [0m   [37m [0;36m [0;1;34m          [0m   [31m            [0m'

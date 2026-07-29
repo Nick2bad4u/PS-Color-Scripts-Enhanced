@@ -5,7 +5,7 @@
 # Source SHA-256: dc773243b018fbdad95f7bfcbab94bdd22317054b6bc379d39b232a93d509fad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-FBI!.ANS by raider (blender 14); released in blndr014 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FBI skydiving in India
 # SAUCE Author: raider
 # SAUCE Group: blender 14
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[36m════[[0;1;36m words: FBI SKYDIVING in INDIA [0;36m]═══════════════════════════════════════════[0m
+[36m════ [0;1;36m                               [0;36m ═══════════════════════════════════════════[0m
                             [30;44m█[0m
 [35;40m                                                                           [0m
 [35;40m                                                                            [0m

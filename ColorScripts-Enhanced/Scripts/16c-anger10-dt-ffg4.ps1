@@ -5,7 +5,7 @@
 # Source SHA-256: 8cc0cab8e2f77e6f638c0511f38bbf8312bc599b5c061dbde4b8cebbef075b2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-FFG4.ANS by defiant (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fall from grace.
 # SAUCE Author: defiant
 # SAUCE Group: anger
@@ -33,6 +33,6 @@ Write-Host '
 [1;33;40m   ░ [0;32m▐[0;1;33;42m▒[0;32m▌[0m     [32m█[0;1;33;42m▓[0;32m█    ░ ▐▌    ░░ ▐   [0;1;33;42m░▓[0;32m█[0m        [32m▓[0;32;42m [0;1;33;42m▒[0;32m█  ▐[0m       [32;42m [0;1;33;42m█▌[0;32m▌[0m       [32m█[0m
       [1;33;42m░[0;32m░░ ░   ▀██▄   ▄▀[0m        [32m▐    ▀[0;1;33;42m▀[0;32m█▄[0m     [32m▄▒█[0;1;33;42m░[0;32m▌  █[0m      [32m▐[0;1;33;42m▐█▀▄[0;32m▄[0m
       [32m▐[0m           [32m▀▀   fal[0;1;32ml [0;32mf[0;1;32mrom gra[0;1;33mc[0;1;32me..[0;32m▀▀▀▀  ░ █  ▐[0;1;33;42m▓[0;32m█[0m     [1;33;42m░█[0;32m█  ▀▀▄▄  ▀[0m
-      [1;33;42m░[0m              [32mo[0;1;32mps: rai an[0;1;33md [0;1;32ms[0;1;33mpl[0;1;32matt[0m      [32m░  ▀  ▀    ▄█▀▀[0m
+      [1;33;42m░[0m              [32m [0;1;32m          [0;1;33m  [0;1;32m [0;1;33m  [0;1;32m   [0m      [32m░  ▀  ▀    ▄█▀▀[0m
      [32;42m [0;1;33;42m▓[0;32m▌[0m                                           [32m▀   ▀▀[0m
       [32m▀[0m'

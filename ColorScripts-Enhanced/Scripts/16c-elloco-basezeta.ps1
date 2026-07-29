@@ -5,7 +5,7 @@
 # Source SHA-256: 68d11709a34ceea5f43b83b1fa46772277d9c24677da57a18b75192a199066b1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BASEZETA.ANS by El LoCo (NeveRLanD); released in elloco and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Base Zeta BBS
 # SAUCE Author: El LoCo
 # SAUCE Group: NeveRLanD
@@ -29,7 +29,7 @@ Write-Host '
       [1;32;42m░▒▓[0m      [1;32m▄▄▄[0;1;32;42m█▓▒░[0m   [1;32m▀▀[0;1;32;42m░░░░░░░░░░░░[0;32m▀▀▀  ▄▄▄█[0;1;32;42m░░[0;1;32;40m▀▀[0m    [32m [0;1;32m▀[0;1;32;42m▒▒░░░[0;32m███[0;1;32;42m░░[0;32m▌[0m
       [1;32;42m░▒▓██[0;1;32;40m████[0;1;32;42m███▓[0;32m▀▀[0;37m [0;1;37m       [0;32m        ▄▄▄▄████▀▀▀[0;37m  [0;1;31m▄▄[0;1;31;41m▓▓▓[0;1;31;40m▄▄▄[0m [32m ▀▀▀▀▀▀▀[0m
       [1;32;42m░▒▓[0;1;32;40m▀▀▀▀▀[0;32m       [0m    [31m     [0;32m▀▀▀▀▀▀▀▀▀▀▀[0;37m  [0;31m  ▄▄[0;1;31;41m░░░▒▒▒▒▒▓▓██[0;31m   [0m     [31m [0m
-      [32m▐▌[0;37m  [0;1;37m    [0;1;30mA[0mN[1mSi By El Lo[0mC[1;30mo[0m      [31m     ▄▄████[0;1;31;41m░░░░░░░░▒▒▓▓█[0;31m [0;1;31m  [0m   [1;31m    [0m   [1;31m▄▄▀▀[0m
+      [32m▐▌[0;37m  [0;1;37m    [0;1;30m [0m [1m           [0m [1;30m [0m      [31m     ▄▄████[0;1;31;41m░░░░░░░░▒▒▓▓█[0;31m [0;1;31m  [0m   [1;31m    [0m   [1;31m▄▄▀▀[0m
       [32m▐[0m                          [31m   ▄▄███████▀▀▀▀    ▀[0;1;31;41m░▒▓█[0;1;31;40m▌[0;31m [0;1;31m [0m   [1;31m     ▄█▀[0m
       [32m▐[0m                        [31m ▄▄████▀▀▀▀     [0m      [31m▄[0;1;31;41m░▒▓█[0;31m [0m    [1;31m   ▄██▀[0m
                               [31m [0m                     [1;31;41m ░▒▓█[0m     [1;31m  ▄██▀[0m

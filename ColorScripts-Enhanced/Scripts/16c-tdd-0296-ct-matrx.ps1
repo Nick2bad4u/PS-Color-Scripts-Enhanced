@@ -5,18 +5,18 @@
 # Source SHA-256: 186e4a36352e6129da36bf491142c818c0fad919ff24481e680590ed21f88d66
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-MATRX.ANS by Cool T (tdd-0296); released in tdd-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
  [30;47m                               [0;37;40m███▀ [0;32;40m▄▄▄ ▀■░ ▄▄[0;1;32;42m░[0;30;42m▄▄[0;32;40m▄▄ [0;1;30;40m░   ▀■▄▄▒[0m     [1;30m░  ░  [0;32m▄[0;1;32;42m■▒▄░[0;32m▄[0m
 [32m [0;32;47m                               [0;37;40m█■[0;32;40m▄[0;1;32;42m▒[0;32m█[0;30;42m▀■▄▄[0;1;32;42m░[0;32m▄ ▀[0;1;32;42m░[0;32m▀■▀▀[0;30;42m▀■▄[0;32;40m▄ [0;1;30;40m░    ░▀▀■▄■▀▀■▄▒    [0;32m▀▀▄▄[0m
-[32m [0;32;47m   [0;37;40m [0;1;37;40ml.ogon to the system[0m      [1;47m [0m█▌[32m▓▀▒ ░▀▀ ■░▄▄[0;1;32;42m░▓■▄[0;32m▄ ▀▒ [0;1;30m▓  ░ ▒▓■▀░  ▓▄■▀▀ [0;32m▒▄█[0;30;42m▄■[0;1;32;42m░[0m
- [1;32;47m    [0;30;47ma.pply for an account      [0;37;40m█▌[0;32;40m▒ ░  [0;1;30;40m░[0;32m▄[0;1;32;42m▒[0;32m▄▀▓▀▀■▀▓▀▓ ░  [0;1;30m▀▄▓■▀░▀■▓■▀▀ ░ [0;32m░▀▀[0;30;42m▀[0;1;32;42m░[0;32m▀░▀[0m
+[32m [0;32;47m   [0;37;40m [0;1;37;40m                    [0m      [1;47m [0m█▌[32m▓▀▒ ░▀▀ ■░▄▄[0;1;32;42m░▓■▄[0;32m▄ ▀▒ [0;1;30m▓  ░ ▒▓■▀░  ▓▄■▀▀ [0;32m▒▄█[0;30;42m▄■[0;1;32;42m░[0m
+ [1;32;47m    [0;30;47m                           [0;37;40m█▌[0;32;40m▒ ░  [0;1;30;40m░[0;32m▄[0;1;32;42m▒[0;32m▄▀▓▀▀■▀▓▀▓ ░  [0;1;30m▀▄▓■▀░▀■▓■▀▀ ░ [0;32m░▀▀[0;30;42m▀[0;1;32;42m░[0;32m▀░▀[0m
 [32m [0;32;47m    [0;30;47mc.heck your mail           [0;37;40m█▌[0;32;40m░[0;1;30;40m■ [0;32m▄[0;1;32;42m▒■▀░[0;32m▀ ■▄░  ░ ▒ ■[0;1;30m▄■▀  ░ ░▓▄■▀■▓▄▒  [0;32m■▀▄▄ ■░[0m
-[32m [0;32;47m    [0;30;47mf.ind out system password  [0;37;40m█▓■ [0;32;40m░▓▀▒ [0;1;30;40m░[0;32m▄▀ ▐[0;30;42m■[0;1;32;42m░[0;32m▄  ░ ▒ [0;1;30m░▀■▄▓■▀▄▒  ░ ░▀■[0;32m■▓[0;1;32;42m░[0;32m▄[0;30;42m■[0;32;40m▀▓■[0m
-[32;40m [0;32;47m    [0;30;47mp.age the sysop            [0;37;40m██▀■ [0;32;40m▒ ░ [0;1;32;42m▒░[0m [32m▌░[0;1;32;42m░[0;32m▐[0;1;32;42m▒[0;32m▌[0;1;30m░  [0;32m░[0;1;30m■▄▒    ░▄▀■▄▒ ▓░  [0;32m░▀▓[0;1;32;42m░░[0;32m▄[0;30;42m■[0m
+[32m [0;32;47m    [0;30;47m                           [0;37;40m█▓■ [0;32;40m░▓▀▒ [0;1;30;40m░[0;32m▄▀ ▐[0;30;42m■[0;1;32;42m░[0;32m▄  ░ ▒ [0;1;30m░▀■▄▓■▀▄▒  ░ ░▀■[0;32m■▓[0;1;32;42m░[0;32m▄[0;30;42m■[0;32;40m▀▓■[0m
+[32;40m [0;32;47m    [0;30;47m                           [0;37;40m██▀■ [0;32;40m▒ ░ [0;1;32;42m▒░[0m [32m▌░[0;1;32;42m░[0;32m▐[0;1;32;42m▒[0;32m▌[0;1;30m░  [0;32m░[0;1;30m■▄▒    ░▄▀■▄▒ ▓░  [0;32m░▀▓[0;1;32;42m░░[0;32m▄[0;30;42m■[0m
 [37;40m [0;30;47m    g.oodbye/logoff!           [0;37;40m▀[0;32;40m▄■░ ░  ▐▓░ ■ ▒▌[0;1;32;42m░[0m [32m▓▄[0;1;30m░ ░ ▀■▓▄■▀[0;34m■[0;1;34;44m░[0;34m▒ [0;1;30m▀■█▓■▀[0;32m▄▓■ ░▀[0;1;32;42m░[0m
  [1;32;47m                               [0;32m▐▓░ [0;37m■ [0;32m■▀ ▒■ ▓ ░ ▓ ░▓▀▒ [0;1;30m■▀▀▄░░ [0;34m█[0;1;34;44m▓[0;34m▓ [0;1;30m▓▄■  [0;32m▐▓▐[0;1;32;42m░[0;32m▌■▀░[0m
 [32m [0;32;47m                               [0;37;40m▌[0;32;40m▒ ▄▄[0;1;32;42m■[0;30;42m▄[0;32;40m▄ ░ [0;1;32;42m▒░[0m [32m■ ▒ [0;1;30m░[0;32m▒ ░ [0;1;30m░  ░▀■ [0;34m▓[0;1;34;44m▒[0;34m▒ [0;1;30m▒ ░ ░▒[0;32m▌[0;1;32;42m░[0;32m▀▄▀▓▄[0m

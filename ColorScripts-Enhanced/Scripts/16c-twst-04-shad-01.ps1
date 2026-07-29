@@ -5,7 +5,7 @@
 # Source SHA-256: ce8c16aa3246fb43b7a2aa73b417ae5ea1b17d520db46ad718dd5d0fb53cf90d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SHAD-01.ANS by Shadow Runner (Twisted Ansi); released in twst-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: turmoil request for r3ptile, yay.
 # SAUCE Author: Shadow Runner
 # SAUCE Group: Twisted Ansi
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;36;46ma twisted ansi[0m  [35m▄▄██▄▀█▄████▀▀▀████▄▄▄█▄█▄███████▄▄▀▄███▀▄▀█▄▀▄ ▀ ▄[0m
+[1;36;46m              [0m  [35m▄▄██▄▀█▄████▀▀▀████▄▄▄█▄█▄███████▄▄▀▄███▀▄▀█▄▀▄ ▀ ▄[0m
             [35m▄███▀▄██▄██▀▄▄▄▀████▀▀▀▀▄▄  [0;1;35m▄ [0;35m▀▄▄▄▀██▄▀▄▀▀██████▄ ▄▀ ▄▀▀[0m
           [35m▄███▀█ █▀▀▄▄▄█▀▀▀▀▀▀▄ [0;1;35m▄██▄▄▄▄▀▀▀▄▄▄  [0;35m▀▀▀  ▀ ▀  ▀▀▄▄▀██ ▀▄▄▀▀▄[0m
          [35m▀██▀▄██▄████▀▀ [0;1;35m▄████▄▄▄█▄██▄█▄▄██████▄███▀▄▀  █▀▄   [0;35m▀▀▀▀▀▄▄▀[0m

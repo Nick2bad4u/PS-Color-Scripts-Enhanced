@@ -5,7 +5,7 @@
 # Source SHA-256: f376e7653163ba5f320e1788f0d3c3d01bfc741fea569fbeaa7662347066bb0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-R101.ANS by Harlequin (Apocalyptic Visions); released in avpack07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: RooM 101
 # SAUCE Author: Harlequin
 # SAUCE Group: Apocalyptic Visions
@@ -16,8 +16,8 @@
 # Columns: 1-80
 
 Write-Host '
-[30mThis ansi was[0m    [37m  [0;34m       ▄  ▄▄█▀ ▄▀▄▀▄▄  ▄▄▄▄▄▄▄▄▄▄▄                 [0;37m    [0m
-[30minspired by something▄[0;34m▄▄█▀ ▄█▀▄▄█▀▄ ▀█▄▀██▄▄▄▄▄▄▄▀▀▀[0;1;34;44m░░░[0;34m▄▄▀▀▀▄▄▄          [0;1;30m [0m
+[30m             [0m    [37m  [0;34m       ▄  ▄▄█▀ ▄▀▄▀▄▄  ▄▄▄▄▄▄▄▄▄▄▄                 [0;37m    [0m
+[30m                     ▄[0;34m▄▄█▀ ▄█▀▄▄█▀▄ ▀█▄▀██▄▄▄▄▄▄▄▀▀▀[0;1;34;44m░░░[0;34m▄▄▀▀▀▄▄▄          [0;1;30m [0m
 [30mGolgotha did while[0;34m▄█[0;1;34;44m░░[0;34m▀ ▄█▀ ▄█[0;1;34;44m░[0;34m▀▄[0;1;34;44m░[0;34m▌▄▄ ▀█▄▀▀▀▀█[0;1;34;44m░░░░░▒[0;34m▄▄▄▀▀▀▀[0;1;34;44m░[0;34m▄▄▀▀[0;1;34;44m░[0;34m▄▄      [0;1;30m [0m
 [30mhe was in iCE.  [0;34m▄[0;1;34;44m░░░░[0;34m ▄█▀ ▄█[0;1;34;44m░░[0;1;31;40m [0;1;34;44m ░░▒[0;34m▄▀█ ▄▀████▄▄▄▀▀█[0;1;34;44m░░░░░▒[0;34m▄▀▄▄▀[0;1;34;44m░░[0;34m [0;1;34;44m ░░[0;34m▄     [0m
 [30m          [0;34m    ▄[0;1;34;44m ░░░[0;34m▀▄[0;1;34;44m░[0;34m▀ ▄█[0;1;34;44m░░░[0;1;31;40m [0;1;34;44m ░░░▒▒[0;34m █[0;1;34;44m░[0;34m▄▀▄▄▀▀█[0;1;34;44m░░░░[0;34m▄▄▀█[0;1;34;44m░░░░▒[0m [1;34;44m░▒[0;34m [0;1;34;44m░░[0;34m [0;1;34;44m ░░▒[0;34m    [0m

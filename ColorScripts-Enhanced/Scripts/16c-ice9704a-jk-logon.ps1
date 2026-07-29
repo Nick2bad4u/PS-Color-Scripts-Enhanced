@@ -5,7 +5,7 @@
 # Source SHA-256: 84b9fbb44d71964f3a86cb1225cbb9b8da1832bf397e7a2f4ed4a47c67788d7f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JK-LOGON.ICE by Joker (ice9704a); released in ice9704a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -33,5 +33,5 @@ Write-Host '
 [1;31;40m█████████████████████████████▀▀▀▀▀ [0;1;37;40m▄▄ [0;1;31;40m▄████[0;1;31;41m▌[0;31m▌ █ [0;1;31m▐███████[0;1;31;41m▄ ▀▀█[0;1;31;40m████▀ [0;1;37;40m▄███████████[0m
 [1;31;40m████████████████████▀▀▀▀▀▀ [0m▄[1m▄▄ [0m▀█[1;47m▀[0;1;40m█▀ [0;1;31;40m▄█████[0;1;31;41m▄[0;1;31;40m▄[0;1;31;41m▀[0;31m▀[0;1;31m▄████████▌ [0;31m▀▀▀▀[0;1;31m▀ [0;1;37m▄▄█████████████[0m
 [1;31m█████████▀▀▀▀▀ ▄▄[0;31m▄▄ [0;37m▄█▀[0;1;37m▀[0;31m▄[0;37m▀▀[0;1;37m▀▀ [0;31m▄█▄[0;1;31m▄▄▄[0;1;31;41m▄[0;31m▄[0;1;31m▀█████[0;1;31;41m▄[0;1;31;40m▄█████████▀ [0;1;37;40m▄█████████████████████[0m
-[1;31;40m▐██████▀▄█████████[0;1;31;41m▄▄[0;1;31;40m▄▄[0;1;31;41m  ▄▄[0;1;31;40m███[0;1;31;41m▄▄[0;1;31;40m██████[0;1;31;41m▄[0;31m▄[0;1;31m▐█████████████▀ [0;1;37m▄██ [0mAnsi: Joker[[1mi[0mCE] [1m███[0m
+[1;31;40m▐██████▀▄█████████[0;1;31;41m▄▄[0;1;31;40m▄▄[0;1;31;41m  ▄▄[0;1;31;40m███[0;1;31;41m▄▄[0;1;31;40m██████[0;1;31;41m▄[0;31m▄[0;1;31m▐█████████████▀ [0;1;37m▄██ [0m            [1m [0m    [1m███[0m
 [1;31m▄▀█████████████████████████████████████████████████▀ [0;1;37m▄█████████████████████████[0m'

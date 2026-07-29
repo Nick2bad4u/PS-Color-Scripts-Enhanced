@@ -5,7 +5,7 @@
 # Source SHA-256: 3d33ff631be5c0a11aaa8e662bb9a81f9387c19d1fbd5370837f1e324edbcc60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 77-OA.ANS by agent #77 (tOOn); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: organized anarchy toon
 # SAUCE Author: agent #77
 # SAUCE Group: tOOn
@@ -44,5 +44,5 @@ Write-Host '
        [31m▄▀[0m   [31m▀[0m       [1;31;41m█[0;1;31;40m██[0m    [1;31;40m▀▀▀[0;1;31;41m███[0m [1;31m▀▀▀███[0m    [1;31m▀▀▀▀▀▀▀[0;1;31;41m▓██[0m [1;31m▀▀▀██[0;1;31;41m▄[0;31m▄[0;1;31;41m░▄[0;31m█[0;37m  [0;31m▄[0m    [31m█[0m
        [31m█[0m                                                                 [31m█[0m
        [31m▀▄[0;37m  [0;31m [0m                                                             [31m█[0m
-          [31m▄█▄[0m                        [31mansi.agent77[0m                    [31m▄[0;37m  [0;31m▀[0m
+          [31m▄█▄[0m                        [31m            [0m                    [31m▄[0;37m  [0;31m▀[0m
            [31m▀[0m                                                        [31m▀█▀[0m'

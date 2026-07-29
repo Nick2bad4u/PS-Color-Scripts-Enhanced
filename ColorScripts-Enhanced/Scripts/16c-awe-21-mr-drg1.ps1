@@ -5,7 +5,7 @@
 # Source SHA-256: 5c0587d8aa7493e4e1de3e4ce0e811033706657549ebff4e8c247e6a257fbdaa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-DRG1.ANS by Mr. Wrong (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Dr.Ganja
 # SAUCE Author: Mr. Wrong
 # SAUCE Group: AWE Lettering
@@ -17,7 +17,7 @@
 Write-Host '
                                                                            ░
 [1m   [0m░[30;47m▓[0;37;40m▄[0;1;37;40m▄▄[0;1;37;47m▄█▀[0;1;37;40m▀[0m▀░[1m▀  [0m   [1;31m [0m░[34m▄[0;1;34m▄░░[0;34m▄[0;1;31m [0;34m▀[0m   [37m░░░[0m   [37m░░[0m                        [37m ▀[0;1;37m [0m▀[1m▀[0;1;47m▀█▄[0;1;40m▄▄[0m▄[1m░[0m░[1m   [0m
-[1m  [0m▄[1;47m▄[0;1;40m███[0;1;47m▀[0m▀  [1;30mMr[0;35m.[0;1;30mWrong[0m [34m▐[0;1;34;44m▀[0;1;34;40m▄[0;1;34;44m▄[0;1;34;40m▓▓[0;34m▌▄[0;31m [0;37m              [0;1;30mfor Prime-62k[0m [1;30mof[0m      [1m    [0m  ▀[1;47m▀[0;1;40m███[0;1;47m▄[0m▄[1m  [0m
+[1m  [0m▄[1;47m▄[0;1;40m███[0;1;47m▀[0m▀  [1;30m  [0;35m [0;1;30m     [0m [34m▐[0;1;34;44m▀[0;1;34;40m▄[0;1;34;44m▄[0;1;34;40m▓▓[0;34m▌▄[0;31m [0;37m              [0;1;30m             [0m [1;30m  [0m      [1m    [0m  ▀[1;47m▀[0;1;40m███[0;1;47m▄[0m▄[1m  [0m
 [1m [0m▐[1;47m▐[0;1;36;40m███[0;1;37;47m▌[0m▌[1m      [0;35m([0;1;30mawe[0;35m)[0;37m [0;34m▀[0;1;34;44m░▒▓[0;1;34;47m▓▓[0;1;34;44m▄▓[0;34m▌[0;37m  [0;31m [0;37m░[0;34m▄[0;1;31m [0;1;30m▀[0m  [1;30mh o t h  e n t e r p r i s e s[0;1;37m  [0m [1m [0m▐[1;47m▐[0;1;40m█[0;1;36;40m██[0;1;37;47m▌[0m▌[1m [0m
 [1m ▄[0;1;47m▄[0;1;40m▄█[0;1;47m██▄[0m▄░░[1m   ░░ [0m [1;31m [0;1;30m▀[0;1;31m [0;34m▌▀[0;1;34m▀[0;1;34;44m▀[0;1;34;47m▀▀▀[0;1;34;40m▄[0;1;31;40m [0;34m▄[0;1;34;44m▄▌[0;34m▌[0;37m    [0;1;31m [0;34m░░[0;37m                     [0;34m░░[0;37m [0;1;37m   [0m░░[1m░[0m▄[1;47m▄██[0;1;40m█▄[0;1;47m▄[0;1;40m▄ [0m
  [1;47m▄█▓█▓▓▒▒░░[0m▓▒░[1;47m▄▄[0m▄[1m▄▄▄[0m [34m▌[0;1;31m [0;34m▀[0;1;34;44m░[0;1;34;47m▓▒░[0;1;34;44m▌[0;34m▐[0;1;34;44m▐█[0;1;34;47m▓[0;1;34;44m▄[0;34m▄[0;1;30m▀[0;1;37m▄[0;1;30m▄▄[0;34m▓▓[0;1;31m [0m░   [34m░[0;37m    [0;1;30m░[0m░[1;31m [0;1;30m▄▄[0;1;37m▄[0m  [31m [0;37m░[0;34m░▓[0;1;34m▒[0;34m▄[0;1;31m [0;34m▀[0;37m░▓[0;1;37;47m░░▒▒▓▓█▓█▄[0m

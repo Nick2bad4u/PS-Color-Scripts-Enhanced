@@ -5,7 +5,7 @@
 # Source SHA-256: 282c90822fb4d9ba698619354eba67229ba78de522b46bbf536aa4338eea804e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-PSYM.ANS by thrasher (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: psy factor main menu (nerp guest)
 # SAUCE Author: thrasher
 # SAUCE Group: nerp
@@ -26,8 +26,8 @@ Write-Host '
    [1;36mf[0;1;34m iles    [0m   [34m▌[0;37m  [0;34m▐[0;1;34;44m▐▀[0;34m█[0;1;34;44m [0;34m████████[0;1;34;44m▀▓█▄[0;34m▓▀██████▄▐███▀██▀█[0;1;34;44m▄▌[0;34m▌[0m     [34m▄▀▌[0m        [34m▀[0m
                 [34m▌[0m   [34m▀[0;1;34;44m░░▀[0;34m▀▐[0;1;34;44m▄▌[0;34m██[0;1;34;44m▀[0;34m███[0;1;34;44m▐[0;34m█████▄███████▌▐[0;1;34;44m▄▌[0;34m█ ▀▀[0m   [34m▄■[0m
    [1;36me[0m [1;34mnter msg[0m   [34m▀[0m    [1;34m░░[0m  [34m▀[0;1;34;44m▀█▀[0;34m█▀▐████[0;1;34;44m▄[0;34m████[0;1;37;44m░▄█▌▀[0;34m██▄[0;37m [0;34m▀▀[0;37m [0;34m▄[0;1;34;44m▄▄▄[0;34m▄[0m                 [1;34m    [0m
-   [1;36mc[0m [1;34momment to[0m    [34m▄▄███[0;1;34;44m▄░[0;34m▄[0;37m [0;34m▀▄████[0;1;34;44m▄[0;34m█[0;1;34;44m▀▓  [0;34m█████[0;1;37;44m▀[0;34m██████████[0;1;34;44m░▀▌[0;34m▌▄▄▌[0;37m [0;1;36mw[0;1;34m rite stats[0m
-     [1;34msysop[0m       [34m██[0;1;34;44m▀▌[0;34m█▀▐█[0;1;34;44m▄[0;34m██[0;1;34;44m▄▌▀[0;34m█[0;1;34;44m▀▌[0;34m████[0;1;34;44m  ▄░[0;34m████████████[0;1;34;44m▀[0;34m▌▀░[0;37m [0;34m▐▌▀[0;37m [0;1;36mv[0m [1;34miew stats[0m
+   [1;36m [0m [1;34m         [0m    [34m▄▄███[0;1;34;44m▄░[0;34m▄[0;37m [0;34m▀▄████[0;1;34;44m▄[0;34m█[0;1;34;44m▀▓  [0;34m█████[0;1;37;44m▀[0;34m██████████[0;1;34;44m░▀▌[0;34m▌▄▄▌[0;37m [0;1;36m [0;1;34m           [0m
+     [1;34m     [0m       [34m██[0;1;34;44m▀▌[0;34m█▀▐█[0;1;34;44m▄[0;34m██[0;1;34;44m▄▌▀[0;34m█[0;1;34;44m▀▌[0;34m████[0;1;34;44m  ▄░[0;34m████████████[0;1;34;44m▀[0;34m▌▀░[0;37m [0;34m▐▌▀[0;37m [0;1;36m [0m [1;34m         [0m
                 [34m▐[0;1;34;44m▐▄[0;34m████▄█████[0;1;34;44m▄▌[0;34m██▌▀[0;1;34;44m▀▌▄[0;34m█▀▀▀▀█████[0;1;34;44m▄▌[0;34m█████▄[0;1;34;44m▄▄[0;34m▄▐[0m
    [1;36mo[0m [1;34mpage sysop[0m  [34m▀[0;1;34;44m▀█▓░[0;34m▀▐[0;1;34;44m▄[0;34m██▄▀[0;1;34;44m▀█▄░[0;34m█▌░▀▀[0;37m [0;34m▄█[0;1;34;44m▄[0;34m▄[0;37m [0;34m▐██[0;1;34;44m▄▄░[0;34m█[0;1;34;44m▄▌[0;34m▌▀█[0;1;34;44m▐▀[0;34m▀█[0;37m [0;34m▄[0m
                     [34m▄[0;37m  [0;1;34;44m▐▓▄▌[0;34m█▌[0;37m [0;34m▐▀▀▌[0;37m [0;34m▐[0;1;34;44m▄▄█░[0;34m█[0;1;34;44m▄▌[0;34m▌▐█[0;37m [0;34m▀[0;1;34;44m▀▓▓▀[0;34m▀[0;37m  [0;1;34m░[0;34m▀▀▀█[0;37m [0;34m▀▌[0m

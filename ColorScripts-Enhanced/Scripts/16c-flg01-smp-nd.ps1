@@ -5,7 +5,7 @@
 # Source SHA-256: f2fee489592acb4f0e44aa2a905e591b513598783486874cac833ba5b7ff1ff4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-ND.ANS by Knocturnal (AWE Lettering); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Aftermath
 # SAUCE Author: Knocturnal
 # SAUCE Group: AWE Lettering
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[36m [0m    [36mDedi Levi [0;37m  [0;36m([0;1;36mN[0;36might [0;1;36mD[0;36maemon)[0m               [36m [0m              [36m  ▄▄▄██████████[0;30;46m░░░░[0m
+[36m [0m    [36m          [0;37m  [0;36m [0;1;36m [0;36m     [0;1;36m [0;36m      [0m               [36m [0m              [36m  ▄▄▄██████████[0;30;46m░░░░[0m
 [30;46m░░[0;36;40m▄▄[0m       [36;40m [0m                [36;40m   ▄▄██[0;30;46m░░[0;1;30;40m  ▀▀ ▄▄[0m    [36m ▀▄[0m      [36m▄▄▄████████▀▀▀▀▀▀[0;1;30mShrimp[0m
 [30;46m░[0;1;36;46m     [0;36m▄▄[0m    [1;36m1980[0m [36m-[0;37m [0;1;36m1997[0m  [36m  ▄▄██[0;1;36;46m     [0;36m█[0;30;46m░[0;36;40m▄[0m     [1;30;40m▀[0m    [36m ▐█▄▄[0;1;36;46m▄▓░[0;36m█████▀▀▀[0m
 [30;46m░[0;1;36;46m        [0;36m█▄▄ [0m          [36m▄▄[0;1;36;46m░     [0;36m██▀▀▀[0m      [1;30m▄▄▀[0m   [36m ▄[0;1;36;46m░▓[0;1;37;46m██[0;1;36;46m█▓▒░[0;36m▀▀[0;1;30m  [0m      [1;30m▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 56a059ac55ad2dbbd3257bd9eefb8f8ea87585a8a8e22d3d5e2b0d627d73962b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-RF.ANS by Flame (RiGOR); released in rgr-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Raging Fluids Logo
 # SAUCE Author: Flame
 # SAUCE Group: RiGOR
@@ -41,9 +41,9 @@ Write-Host '
    [36m█████   [0;1;30m▄ ███████   ███[0;1;30;47m▓[0;1;30;40m███████████████[0;1;30;47m▓[0;1;30;40m████████ [0;36m▄██[0;1;34;46m▀[0;36m█[0;1;36;46m▀[0;36;46m█ [0;1;37;46m▀[0;1;34;46m▓[0;1;37;46m▄[0;36;46m█[0;36;40m███████[0;36;46m  [0;1;37;46m▄   [0;1;34;46m░  [0m
      [1;30;40m▄▄▄▄███▄ ███████   █████████████████[0;1;30;47m█▓[0;1;30;40m███████  [0;36m▀[0;1;34;46m▀░[0;1;37;46m▓[0;1;34;46m▄█░▄▄█░[0;36m███████████[0;1;37;46m▓▄[0;1;34;46m░[0;1;37;46m▄[0;1;34;46m▄[0;1;37;46m▄[0m
     [1;30;40m█████████▄ ████████   [0;1;30;47m▓[0;1;30;40m██████████████[0;1;30;47m█[0;1;30;40m███████   [0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄[0m
-     [1;30m███████▀█▄ ████████    █████████████[0;1;30;47m▒[0;1;30;40m██████   [0;36m▄ [0;1;30mgreetz: enzyme, hack m. [0;36m▄[0m
+     [1;30m███████▀█▄ ████████    █████████████[0;1;30;47m▒[0;1;30;40m██████   [0;36m▄ [0;1;30m                        [0;36m▄[0m
      [1;30m██████████▄ ▀████████    ▀▀▀▀███████████▀▀ ▄  [0;36m█ [0;1;30msportz, stelent, skips  [0;36m█[0m
-      [1;30m████████████ ▀▀███████[0m                       [36m▀ [0;1;30mson, screech, brass mon.[0m
+      [1;30m████████████ ▀▀███████[0m                       [36m▀ [0;1;30m                        [0m
         [1;30m▀▀ ▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀ ▀[0m                 [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀ ▓▀[0m
 [36m  ▀▀▀ ▀▀▀▀▀ ▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▓▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀  ▀[0m
 [36m    ▓  [0;1;37m▄▄[0;32m▄▄▄▄[0;1;33;42m▄▄▀[0;1;33;43m█[0m [1;37;40m▄▄▄[0;32m▄[0;1;37m▄[0;32m▄▄▄▄▄ [0;1;37m▄▄[0;32m▄[0;1;37m▄[0;32m▄▄▄▄[0;1;37m▄[0m       [1;37m▄▄▄▓▄▄ ▄▓▄▄[0;32m▄▄▄▄▄   [0;36m███[0;1;37;46m░[0;36m███████   █[0m

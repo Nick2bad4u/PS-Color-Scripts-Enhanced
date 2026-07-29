@@ -5,7 +5,7 @@
 # Source SHA-256: 91c9cd883057acec422e9a345e8b916323badba88e8a311959df426c5390acc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KIP_MSR2.ANS by kipsake (thelo0p); released in l0p01_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: measure 2
 # SAUCE Author: kipsake
 # SAUCE Group: thelo0p
@@ -37,6 +37,6 @@ Write-Host '
 [35m█░[0m   [35m░▄░[0;37m [0;30;41m▓[0;37;40m  [0;30;44m▓[0;34;40m▄▄[0;1;37;44m▒░[0;34m▄▄[0;30;44m▓[0;32;40m▄[0;35;40m░[0m          [32;40m░[0;35;40m░▄▄[0;37;40m  [0;30;41m▓[0;35;44m▄[0;31;40m▄▄▄▄[0;1;33;41m│[0;1;31;41m▀▀▀[0;31m█[0;30;41m▓[0;37;40m  [0;35;40m░[0;37;40m  [0;34;40m░[0;37;40m [0;1;30;40m░[0m  [30;41m▓[0;37;40m  [0;1;30;40m░[0m    [35m░[0;37m [0;34m░▄█[0;1;34;44m▒[0;34m██[0;35m░[0m
 [35m▀█▄▄█▀▀[0m     [30;44m▓[0;35;44m▒░[0;1;37;44m▓▒░[0;35;44m░[0;34;40m█[0;32;40m░[0;37;40m [0;32;40m░▄[0;1;32;40m▒[0;32m▄[0;37m [0;32m░▄░▄░[0;37m  [0;35m░[0;32m░[0;35m▀[0;35;44m▓[0;35;40m▄▄▄▄░[0m       [35;40m░[0;34;40m▀██[0;1;34;44m░[0;34m█▄▄▄▄░[0m   [34m░▄▄▄▄[0;1;34;44m▒[0;34m███▀[0;35m░[0m
     [32mkipZakE‼[0;37m [0;30;44m▓[0;34;40m█[0;1;37;44m▀▓▒░░[0;34m█[0;30;44m▓[0;37;40m  [0;32;40m▀░[0;37;40m [0;32;40m█[0;1;32;40m▒██[0;32m█[0m       [32m░[0;35m░▀▀▀░ ■[0;37m [0;1;30m░[0m    [35m░[0;34m▀▀▀▀▀[0;1;34;44m░[0;34m████[0;1;34;44m░[0;34m██▀▀▀▀░[0m
-        [32m     [0;37m [0;30;44m▓▓[0;1;37;44m░▀▒▒░░[0m      [32m▀░▀░[0;37m [0;1;33;41mM[0;1;33;40measure #7 - [0;1;33;41mD[0;1;33;40misk[0;1;30;40m░[0;1;33;41mM[0;1;33;40magazine[0m    [35m░[0m      [1;30m░[0m
+        [32m     [0;37m [0;30;44m▓▓[0;1;37;44m░▀▒▒░░[0m      [32m▀░▀░[0;37m [0;1;33;41m [0;1;33;40m            [0;1;33;41m [0;1;33;40m   [0;1;30;40m░[0;1;33;41m [0;1;33;40m       [0m    [35m░[0m      [1;30m░[0m
          [1;30m░[0m     [32m [0;37m [0;30;44m▓[0;35;44m░▒▒▓▓[0;34;40m▄▄▄▄[0;30;44m▓[0m         [1;30;40m░[0m          [1;30m░[0m          [1;30m░[0m
                         [30;44m▓[0;34;40m▀▀▀▀▀▀▀▀▀░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 04ea24e1058989d1a062856a4e79b5b67269d863bf0637d906022dd086290604
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-HAZ2.ANS by Avenger + Dv8 (ph33red and teetotal); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: hazard/2
 # SAUCE Author: dv8!
 # SAUCE Group: ph33red and teetotal
@@ -16,7 +16,7 @@
 
 Write-Host '
                                                              ▄[1m▄[0;1;47m▄[0;1;40m█[0;1;36;40m▄[0;1;37;40m▄▄[0m▄
-    [36mlogo by dv8!  &[0;37m [0;36mavenger[0m          [37m  [0m                      [37m▐[0;1;37;47m███▀[0m▀[1m▀[0;1;47m██[0;1;40m▄[0m▄▌
+    [36m               [0;37m [0;36m       [0m          [37m  [0m                      [37m▐[0;1;37;47m███▀[0m▀[1m▀[0;1;47m██[0;1;40m▄[0m▄▌
                                                               ▀ ▄[1m▄▄▄▄[0;1;47m▄██[0m▄
               ▄[1;47m▄▄[0m▄  [34m           [0m                   [37m▄[0;1;37m▒▒[0m█▀    ▄▄▄ [1;47m▐██[0;1;40m▀▌[0m   ▀▀
              [1;47m▐████▌[0m  [1m░[0m                          ▄[1;47m░░[0m█▀▌ ▄▄[1m▒[0m█▀  ▐[1;47m██[0m▌ [1m░[0m   ▐[1;47m█[0;1;36;40m██[0m▄

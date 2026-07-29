@@ -5,7 +5,7 @@
 # Source SHA-256: 2587676b644a5c0f6fd8638ba24e9a9b8748fbe876121ca09804df97f0075b2e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: hrv_ansiology.ans by harvest (Lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Church of Ansiology
 # SAUCE Author: harvest
 # SAUCE Group: Lazarus
@@ -21,7 +21,7 @@ Write-Host '
 [37m      [0;34m▓[0;1;34;44m     [0;34m▄▄▄▄▄[0;37m                                             [0;34m▄▄▄▄▄[0;1;34;44m   [0;34m██[0;1;34;44m░[0;34m▓[0m
 [37m      [0;34m▓[0;1;34;44m ░             [0;34m▓[0;37m  [0;1;34;44m     [0;34m██▄▄▄▄▄▄▄[0;37m  [0;34m▄▄▄▄▄▄▄██[0;1;34;44m [0;34m█[0;1;34;44m ░[0;34m▓[0;37m  [0;34m▒▓█████[0;1;34;44m   [0;34m█[0;1;34;44m  [0;34m██[0;1;34;44m▒[0;34m▓[0m
 [37m      [0;34m▒[0;1;34;44m ░            ░[0;34m▓[0;37m  [0;1;34;44m░         ░░░ [0m  [1;34;44m░░          ░[0;34m▓[0;37m  [0;34m▓[0;1;34;44m  [0;34m████████[0;1;34;44m  [0;34m██[0;1;34;44m░[0;34m▒[0m
-[37m      [0;34m▒[0;1;34;44m ░  [0;1;37;44mRELEASES[0;1;34;44m   [0;34m▓[0;37m  [0;1;34;44m░   [0;1;37;44mGROUPS[0;1;34;44m   ░[0m  [1;34;44m░    [0;1;37;44mTHEN[0;1;34;44m    [0;34m▓[0;37m  [0;34m▓[0;1;34;44m░[0;34m█[0;1;37;44m 16COLOURS [0;34m█[0;1;34;44m░[0;34m▒[0m
+[37m      [0;34m▒[0;1;34;44m ░  [0;1;37;44m        [0;1;34;44m   [0;34m▓[0;37m  [0;1;34;44m░   [0;1;37;44m      [0;1;34;44m   ░[0m  [1;34;44m░    [0;1;37;44m    [0;1;34;44m    [0;34m▓[0;37m  [0;34m▓[0;1;34;44m░[0;34m█[0;1;37;44m           [0;34m█[0;1;34;44m░[0;34m▒[0m
 [37m      [0;34m░[0;1;34;44m ░░           ░[0;34m▓[0;37m  [0;1;34;44m░      [0;1;37;44m&[0;1;34;44m     ░[0m  [1;34;44m░      [0;1;37;44m&[0;1;34;44m     [0;34m▓[0;37m  [0;34m▓[0;1;34;44m░ [0;34m█[0;34;44m▀▀▀▀▀▀[0;34;40m█[0;1;37;44m [0;1;34;44m [0;44m [0;34;40m█[0;1;34;44m░[0;34m░[0m
 [37m      [0;34m░█[0;1;34;44m░░░░░░       ░[0;34m▓[0;37m  [0;1;34;44m░░  [0;1;37;44mARTISTS[0;1;34;44m   [0m  [1;34;44m░░    [0;1;37;44mNOW[0;1;34;44m    [0;34m▓[0;37m  [0;34m▓[0;1;34;44m░░          [0;34m█[0;1;34;44m░░[0;34m░[0m
 [37m       [0;34m░░▒▒▓█[0;1;34;44m░░░░░ ░ ░[0;34m▓[0;37m  [0;1;34;44m░░░░░░░░░ ░ ░ [0m  [1;34;44m░░░░░░░░ ░ ░ [0;34m▓[0;37m  [0;34m▓[0;1;34;44m░░░░░ ░░ [0;34m▓▓▒▒░░[0m

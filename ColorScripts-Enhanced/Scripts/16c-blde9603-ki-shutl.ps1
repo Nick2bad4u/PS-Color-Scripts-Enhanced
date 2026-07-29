@@ -5,7 +5,7 @@
 # Source SHA-256: 50e177957066d848f802d3a55f00028ba351f684bb2b38b79af71118dc1fa599
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KI-SHUTL.ANS by kiwi (blade productions); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: shuttle logon
 # SAUCE Author: kiwi
 # SAUCE Group: blade productions
@@ -26,8 +26,8 @@ Write-Host '
                        [1;30m▄▄▄▄▀▄[0m▄[1;47m░░[0;1;30;47m▒▄▄▄▄[0;1;37;47m▒▓[0;1;37;40m▄[0m░[1;30m▀▄▄▄▄[0m      [1;30m░▄▄▄▄▄▄▄▄■░░░░  ░           [0m
         [1;30m·[0m             [1;30m█▓▓█▒▄[0;1;30;47m▓[0m▀▀▀▀▀▀[1m▀▀▀▀▀[0;1;47m▒[0m▄[1;30m▀[0;1;30;47m▓▒▓▓[0m     [1;30m▐[0;1;30;47m [0;1;30;40m▌[0m■[1mL[0mand[1;30m               [0m .[1;30m   [0m
                      [1;30m█████▐██▌      ░░[0m ▐[1;47m▒░[0m█[1;30m▐[0;1;30;47m▒▒▒▓[0m   [1;30m·▐[0;1;30;47m░[0;1;30;40m▌[0m■[1mA[0mpply for Hangar      [1;30m ░[0m
-                    [1;30m█[0;1;30;47m█▓[0;1;30;40m▀[0;1;30;47m█[0;1;30;40m█▌██▌    [0m     ▐[1;47m░░[0m▌[1;30;47m▓▒▒▒▒▒[0m   [1;30m▐[0;1;30;47m▒[0;1;30;40m▌[0m■[1mC[0mheck Landing Clearance[1;30m░[0m
-       ·       [1;30m.[0m     [1;30m▀▐[0;1;30;47m▒[0m▌[1;30m█▌▐██    [0m     [1;47m ░ [0;1;30;40m▐[0;1;30;47m▒[0m▐[1;47m░[0m▌▀    [1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0m■[1mR[0mequest Hailing Channel[1;30m▐[0m
+                    [1;30m█[0;1;30;47m█▓[0;1;30;40m▀[0;1;30;47m█[0;1;30;40m█▌██▌    [0m     ▐[1;47m░░[0m▌[1;30;47m▓▒▒▒▒▒[0m   [1;30m▐[0;1;30;47m▒[0;1;30;40m▌[0m■[1m [0m                      [1;30m░[0m
+               [1;30m [0m     [1;30m▀▐[0;1;30;47m▒[0m▌[1;30m█▌▐██    [0m     [1;47m ░ [0;1;30;40m▐[0;1;30;47m▒[0m▐[1;47m░[0m▌▀    [1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0m■[1m [0m                      [1;30m▐[0m
                     [1;30m▄▓▄[0m▀  [1;30m▀[0m [1;30;47m▓[0;1;30;40m█▌      [0m  [1;47m░ [0m ▀ [1;30m▄[0m▀▄[1;30;47m░[0m▄   [1;30m▐▓▌[0m■[1mS[0mend Transmission     [1;30m ▐[0m
                  [1;30m ▄▓▓▓▓█▌[0m    [1;30;47m█[0;1;30;40m█[0m▄▄▄▄[1m▄▄▄[0;1;47m▌ [0m    [1;30m▐[0;1;30;47m▒▐▒░░[0m▄  [1;30m▒ [0m■[1mD[0mepart               [1;30m ▄[0;1;30;47m▓[0m
                [1;30m▄▄█▓▓▓▓▀▀[0m  [1;30m [0m  [1;30m▐[0;1;30;47m█▌[0m█[1;47m░░▒▀▀░[0m▌  [1;30m [0m  ▀▀[1;30;47m▀▓▒░░[0m▄▄[1;30m                ░  ░░■▀▀▀ [0m

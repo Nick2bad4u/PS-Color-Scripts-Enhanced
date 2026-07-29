@@ -5,7 +5,7 @@
 # Source SHA-256: 03b8d8384d80203bd7b153740a987c4139e9bcebeb64b7ae34ef47687297d615
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HB-MIDGT.ANS by Handiboy (blndr039); released in blndr039 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -25,6 +25,6 @@ Write-Host '
        [37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
       [34m████████████████████████████████████████████████████████[0;1;34;44m██████[0;1;36;40m██[0;1;36;47m▌[0;1;34;44m▌[0m
       [34m██████████████████████████████████████████[0;1;34;44m░░░░[0;34m██████████[0;1;34;44m▓▓▓██████▌[0m
-      [34m▐███[0;1;37;44mCANADIAN MIDGET-WRESTLING FEDERATION[0;34m██[0;1;34;44m░░░░[0;34m██████████[0;1;34;44m░░▓▓█████[0;34m█[0m
+      [34m▐███[0;1;37;44m                                    [0;34m██[0;1;34;44m░░░░[0;34m██████████[0;1;34;44m░░▓▓█████[0;34m█[0m
       [34m▐█████████████████████████████████████████████████████████[0;1;34;44m▒▒▒▓▓██[0;34m▌[0m
        [34m███████████████████████████████████████████████████████████[0;34;44m [0;1;34;44m░░░░[0;34m▌[0m'
