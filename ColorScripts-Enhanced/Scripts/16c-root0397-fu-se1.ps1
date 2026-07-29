@@ -5,7 +5,7 @@
 # Source SHA-256: 35250a8ae67eec365197fbacc1574fa97caba40aa87f7d741ad5d45986f9d581
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FU-SE1.ANS by Fusion (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Spilled Entrails
 # SAUCE Author: Fusion
 # Lines: 1-22
@@ -14,8 +14,8 @@
 Write-Host '
    [32m▄█[0;32;47m█[0;1;32;42m▄[0;32;47m████████████████[0;32;40m▓▀ ▄[0;32;47m██████[0;32;42m                   [0;32;40m███▓▀ ▄█[0;30;42mspilled entrails[0;32;40m▓▄[0m
 [32;40m  ▐[0;32;47m█[0;1;32;42m▄█▌[0;32;47m████████[0;30;42m░[0;32;47m███████[0;32;40m▄█▀[0;32;47m███[0;1;32;42m▄[0;32;47m███[0;32;42m [0;32;47m██████████████[0;32;40m██████[0;32;47m█[0;32;40m▌ [0;32;47m█[0;32;40m▓▀[0m                [32;40m▀██[0m
-[32;40m  █[0;1;32;42m▐█▓[0;32;47m██████████████████[0;32;40m▌ ▐[0;32;47m█[0;1;32;42m█▓ [0;32;47m████████████████[0;32;40m████[0;32;47m████[0m [1;32;42m▐▄[0;32m▌  [0;1;30mPut cmds in[0m     [32m▐[0;32;47m█[0;32;40m█[0m
-[32;40m  ▓█[0;1;32;42m▀ [0;32;47m█████████████████[0;32;40m▓  [0;32;47m█[0;1;32;42m▐▓▌[0;32;47m█████████████████[0;32;40m███████[0;32;47m██[0;1;32;42m▐▌[0;32m▓[0m      [1;30mhere.[0m       [1;30;42m [0;1;32;42m▄ [0m
+[32;40m  █[0;1;32;42m▐█▓[0;32;47m██████████████████[0;32;40m▌ ▐[0;32;47m█[0;1;32;42m█▓ [0;32;47m████████████████[0;32;40m████[0;32;47m████[0m [1;32;42m▐▄[0;32m▌  [0;1;30m           [0m     [32m▐[0;32;47m█[0;32;40m█[0m
+[32;40m  ▓█[0;1;32;42m▀ [0;32;47m█████████████████[0;32;40m▓  [0;32;47m█[0;1;32;42m▐▓▌[0;32;47m█████████████████[0;32;40m███████[0;32;47m██[0;1;32;42m▐▌[0;32m▓[0m      [1;30m     [0m       [1;30;42m [0;1;32;42m▄ [0m
 [1;30;40m▄ [0;32m▐█[0;1;32;42m▀[0;32;47m███████[0;32;40m▀[0;32;42m  [0;32;40m█████[0;32;47m████[0;32;40m▌ ▐[0;32;47m█[0;1;32;42m▀▓ [0;32;47m███████████[0;32;40m█▀[0;32;47m████████████[0;32;42m [0;1;32;42m▀[0;32;47m██[0;32;40m▄[0m              [32;40m▄[0;1;32;42m▄  [0;32m▌[0m
 [1;30m▓▄ [0;32m▀▀▀▀   ▄[0;32;42m  [0;32;47m████████████[0m  [32;40m▀▓▀▀▀▀  ▄▄▄▓[0;32;47m███████████████████████████[0;32;40m▀[0;32;47m█[0;32;40m▓▄▄▄ ▄[0;36;42m▀[0;1;32;42m▄▓▀[0;32;47m█[0m
 [32;40m ▄    ▄▄█[0;32;47m█[0;1;32;42m▄[0;32;47m████████████[0;32;40m▓▀[0m      [32;40m▄▄[0;32;47m███████████████████████[0;32;40m█▄▄▀▀[0;32;47m███████[0;32;40m▄▄▀▀[0;30;42m░[0;32;47m████[0;32;40m▀ [0;1;30;40m▄[0m

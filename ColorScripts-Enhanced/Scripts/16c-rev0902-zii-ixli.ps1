@@ -5,7 +5,7 @@
 # Source SHA-256: cf81881d60f662c420bf2cd050b686309527c5025d997bc6f86dbea84408b6e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-IXLI.ANS by Zeus II (Revival); released in rev0902 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Elixir
 # SAUCE Author: Zeus II
 # SAUCE Group: Revival
@@ -19,7 +19,7 @@ Write-Host '
 [32m█[0;1;32;42m███[0;32m█▀▀[0;37m▄▄▀[0;1;37m▒▒[0m██████████████[1m▓[0;1;47m███[0m [1;30m▐█[0m▒[1;30m█▀[0;31m▄▓██████████████████████████▀▀[0;1;33m▄▄[0;1;33;43m█▓▓▒░ [0;33m▄[0;1;33;43m░ [0;33m▓▒ [0m
 [1;32;42m█▀▄[0;32m▀▀█ [0;37m ▀█████████████████[0;1;37m▒[0;1;37;47m███[0m [1;30m██[0;1;30;46m▓[0;1;30;40m▌[0;31m▐[0;1;31;41m▒░░[0;31m█████████████████[0;1;37;41m░░░[0;31m███▀[0;1;33m▄[0;1;37m▓▀▀[0;1;33m▀▀[0;31m▄▄▄[0;37m [0;1;33;43m▒▓▒▒[0;33m▀[0;1;33m [0m
 [1;32;42m▀[0;32m▀▀[0;37m █▄[0;32m▀[0;37m █▄▄███████████████[0;1;37m░[0;1;37;47m▓▓▓[0m [1;30m█[0;1;30;46m▓▓[0m [1;31;41m▓▓▒▒[0;31m▀███████████[0;1;37;41m   [0;31m██████▀▄▄▄▄██████▌[0;1;33m▐[0;1;33;43m▓[0;1;33;40m▄[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▒[0;33m▀[0m
-[1;32;42m█▄[0m ▄▀██▄▀██[30;47mcommands here[0;37;40m███[0;1;37;47m▒▒[0m▌ [1;30m███[0m [1;31;41m██▓▓▒[0;31m██████████████▀▒███████[0;1;31;41m░░░░░░[0;31m█▀[0;1;33m▄[0;1;37m█▀▀[0;1;33m▀[0m  [1;33;43m░[0m
+[1;32;42m█▄[0m ▄▀██▄▀██[30;47m             [0;37;40m███[0;1;37;47m▒▒[0m▌ [1;30m███[0m [1;31;41m██▓▓▒[0;31m██████████████▀▒███████[0;1;31;41m░░░░░░[0;31m█▀[0;1;33m▄[0;1;37m█▀▀[0;1;33m▀[0m  [1;33;43m░[0m
 [1;32;42m▓█[0m ████████████████████████[1;47m░░[0m▌[1;30m▐██▌[0;31m▐[0;1;31;41m████▓░[0;31m██████████████▄▄▓██[0;1;31;41m░░░▒▒▒▒▒[0;31m▄▄▄▄▄█[0;1;31;41m░░[0;31m [0;1;33m▐[0;1;33;43m▒[0m
 [1;32;42m▒[0;1;32;40m▓[0m █████████████████████████▀[1;30m▄██▀[0;31m▄[0;1;31;41m▄█▀ █▀░[0;31m███▀▀▀  ▄▄▄▄█▄▄▀▀███[0;1;31;41m▓▓▓▀▀[0;31m█▀▀▀▀▀▀▀█[0;1;31;41m░[0;31m▌[0;1;37m▓[0;1;33;43m▓[0m
 [1;32;42m░[0;1;32;40m▒[0m [1;47m░[0m██████████████████████▄ [1;30m█▓▄[0m [31m▀[0;1;31;41m▀[0;31m███▀████▄▄▄█████▓▓▓▓▀▀▀▀▀▀  ▄  ▄[0;1;31m▄[0;1;31;41m▄[0;31m█ ▀ ▄ ██ [0;1;37m▀[0;31m▄[0m

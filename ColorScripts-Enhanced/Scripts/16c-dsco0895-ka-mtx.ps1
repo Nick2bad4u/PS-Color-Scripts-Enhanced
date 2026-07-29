@@ -5,7 +5,7 @@
 # Source SHA-256: 0a364f3f405e876c5c7eeb5cb80fb37f8729bc4e6fefab44453a764202e2aa16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KA-MTX.ANS by Kadaver (dsco0895); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
 [1;35m██[0m  [34m■[0m            [1;32m▀███[0;1;32;44m█[0;1;32;40m█▌[0m█[1;47m░░▒▒▓▓[0;1;40m█▀[0m   [1;30m░▒▒▓▓▒▒▒▒[0;1;37m  [0;1;30m░░░[0;1;37m  [0;1;30m░[0;1;37m    [0m     [46m▓▓▓▒▒[0;1;47m░░▒▒▓▓[0m [1;35;45m   ░░[0m
 [1;35m██[0m  [1;32m■[0m [1;30m     [0m [1;30m    [0m   [1;32m█[0;1;32;44m▓▓[0;1;32;40m█[0;1;32;44m█[0m [1;47m ░░▒▒[0;1;40m▀[0m    [1;30m░▒▓▓▓█[0m ▀ [1;30m█[0m▄[1m▄[0m [1;30m█[0;1;37m▄[0m ▄[1m▄▀[0m [1;30m▒▒[0m      [46m▓▒▒[0;1;47m░░▒▒▓▓[0m [1;35;45m  ░░░░[0m
 [1;35m██[0m  [34m■[0m              [1;32;44m▓▒▒▓▓[0;1;32;40m█[0m [1;47m ░░[0m      [1;30m░▒▓▓█[0;1;37m [0m             [1;30m▒░░▒▒[0m     [46m▒[0;1;47m░░▒▒▓▓[0m [1;35;45m░░░░░░░[0m
-[1;35m█▀[0m  [34m■[0;37m [0;1;30mgoes[0m [1;30mhere![0m    [1;32;44m░░▒▒[0;1;32;40m▌[0m▄▓[1;47m [0m      [1;30m░▒▓▓[0m   [31m░░░▒[0;37m [0;31m░░▒▒[0m    [1;30m▒░░▒▒[0m      [1;47m░░▒▒▓[0m [1;35;45m░░░░░░░▒[0m
+[1;35m█▀[0m  [34m■[0;37m [0;1;30m    [0m [1;30m     [0m    [1;32;44m░░▒▒[0;1;32;40m▌[0m▄▓[1;47m [0m      [1;30m░▒▓▓[0m   [31m░░░▒[0;37m [0;31m░░▒▒[0m    [1;30m▒░░▒▒[0m      [1;47m░░▒▒▓[0m [1;35;45m░░░░░░░▒[0m
 ▄[1;30;47m [0m  [34m■[0m              [34m▐[0;1;32;44m  ░░[0;1;32;40m [0m▒▓    [1;30m░░▒▒▓▓[0m   [31m░▒▒▒▓█[0;37m [0;31m░▒▓█[0m   [1;30m ▒░░▒▒[0m  [1;30m░[0m  [1;47m░▒▒▓[0m [1;35;45m░░░░░░▒▒▓[0m
 [1;30;47m ░░[0m               [1;32m [0;1;32;44m   [0;34m▀[0;1;32m [0m  ▀      [1;30m░░[0m ▄▄   [31m▓▓▓███[0;37m [0;31m▀███[0m    [1;30m░░▒▒[0m     [1;47m▒▒▓[0m [1;35;45m░░░░░░▒▓▓[0;1;35;40m█[0m
 [1;30;47m░▒▒▓[0;1;30;40m▄[0m             [34m▄[0;1;32;44m [0;34m▀[0;1;32m [0;1;30m░[0;1;32m [0m   [1;30m░░[0m       ▄▀    [31m▀▀▀▀█▓▓▀▀[0;37m   ▀  [0;1;30m▒▒[0m   [1;30m░[0m  [1;47m▒▓[0m [1;35;45m░░░░░▒▓▓[0;1;35;40m██[0;1;35;45m▓[0m

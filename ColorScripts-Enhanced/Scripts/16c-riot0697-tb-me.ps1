@@ -5,7 +5,7 @@
 # Source SHA-256: 0d118cd3125c74fb1ba45addf7a25c5297ece7476ce65a1910d9378423566bdd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TB-ME.ANS by Turbine (RioT Productions); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Author: Turbine
 # SAUCE Group: RioT Productions
 # SAUCE Date: 19970530
@@ -27,7 +27,7 @@ Write-Host '
                          [1;33;40m▀[0m                         [1;33;40m▀▀▀▀▀▀▀▀▀▀▀[0m     [1;36;40mPrecious[0m
           [1;36;40m▄██▀   ▄███[0m                [1;36;40m▄[0;1;36;47m▓[0;1;36;40m█████▄[0m                 [1;36;40m▄█[0;1;36;47m▓[0;1;36;40m▀[0m        [1;36;40mMetal[0m
         [1;36;40m▄██▀[0m     [1;36;40m██ ██[0m             [1;36;40m▄██▀    ▀█▓▄[0m             [1;36;40m▄██▀   NuM:[0m
-      [1;36;40m▄▓█▀[0m       [1;36;47m▓[0;1;36;40m█  ██[0m          [1;36;40m▄▓█▀[0m        [1;36;40m▀██▄[0m         [1;36;40m▄[0;1;36;47m▓[0;1;36;40m█▀[0m     [1;36;40mINS-ERT-IT:)[0m
+      [1;36;40m▄▓█▀[0m       [1;36;47m▓[0;1;36;40m█  ██[0m          [1;36;40m▄▓█▀[0m        [1;36;40m▀██▄[0m         [1;36;40m▄[0;1;36;47m▓[0;1;36;40m█▀[0m     [1;36;40m            [0m
 [1;36;40m    ▄[0;1;36;47m▓[0;1;36;40m█▀[0m         [1;36;40m█▓   ██[0m       [1;36;40m▄██▀[0m            [1;36;40m▀[0;1;36;47m▓[0;1;36;40m█[0m      [1;36;40m▄██▀[0m
 [1;36;40m  ▄██▀[0m           [1;36;40m██    ██[0m     [1;36;40m██▀[0m              [1;36;40m▀▀[0m     [1;36;40m▄▓█▀[0m
 [1;36;40m ███▄▄▄▄▄▄▄▄[0m     [1;36;40m██[0m     [1;36;40m▀█   [0;1;36;47m▓[0;1;36;40m█[0m                      [1;36;40m███▄▄▄▄▄▄▄▄[0m

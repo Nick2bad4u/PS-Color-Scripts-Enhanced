@@ -5,7 +5,7 @@
 # Source SHA-256: 0f15823fd6a9d29b6448002641993a57fbb2da128d8ce33233cf1111ef64924d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-19.ANS by Haquisaq (mist1297); released in mist1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -28,8 +28,8 @@ Write-Host '
 [34m▀▀ [0;31m▀[0;1;31m▀▀ [0;31m▀[0;1;31m▀▀ [0m█[1;30m▌[0;1;30;44m▓▒░░[0;34m▄  ▄[0;1;34;44m░░ [0;34m▀▄████[0;1;34;44m▄[0;34m▌[0;1;30m▄▄▄   [0m▀▀  [1;31;47m▓[0;33m▌[0;37m▐[0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37;47m▄▄▄▐[0;1;37;40m█████████████████[0;1;37;47m [0m
 ▐[1m█[0m▌  ████[1;47m▄▄[0m█[1;30m▌▐[0;1;30;44m▓▓██[0;1;30;47m█[0;1;30;40m▄ [0;34m▀[0;34;44m [0;34;40m████[0;1;34;44m░▄[0;1;34;46m▓▓[0m [1;30;40m▐[0m█[1;47m░[0;1;40m█[0;1;47m▄[0;1;40m▄▄▄▄[0m▄ ▄█[1m█████[0;1;47m███[0;1;40m█[0;1;47m█[0;1;40m███[0;1;47m▀▀▀[0;1;40m▀▀[0;1;30;47m▄[0m▀▀▀▀[1;30m▀▀[0m        ▐
 ▐[1m█▌ [0;1;30m▐[0m██[1;47m▒███ [0m▌[1;30m▐█▀█████▄▄ [0;34m▀▀▐[0;1;34;44m▓[0;1;34;40m██[0;34m▌ [0;1;30m▐[0m█[1m███████████[0;1;47m██████[0;1;40m██[0;1;47m▌▀[0;1;30;47m▄[0m▀[1;30m▀▀[0m                   ▐
-▐[1;47m▐[0;1;40m▌ [0;1;30;40m▐[0;1;30;47m▒[0m█[1;47m░███[0m█▌ ▄ [1;30m▀▀[0;1;30;44m█[0;1;30;40m▀████▄▄▄    ▄[0m▄[1;47m▓▓██████[0;1;40m██[0;1;47m███████[0;1;40m███[0;1;47m [0;1;30;40m▀[0m     [1;37;40mput something[0m
-▐[1;47m▐▌[0m  ▐██[1;47m▀▀█░[0;1;30;47m▐[0m ▐[1;47m█▌[0m  [1;30;40m▐████▌▐[0;1;30;44m▓[0;34m▀ [0;1;30m▄[0m██[1m███[0;1;47m█████████[0;1;40m████████[0;1;47m [0;1;30;47m▐[0m          [1;37;40mhere.[0m
+▐[1;47m▐[0;1;40m▌ [0;1;30;40m▐[0;1;30;47m▒[0m█[1;47m░███[0m█▌ ▄ [1;30m▀▀[0;1;30;44m█[0;1;30;40m▀████▄▄▄    ▄[0m▄[1;47m▓▓██████[0;1;40m██[0;1;47m███████[0;1;40m███[0;1;47m [0;1;30;40m▀[0m     [1;37;40m             [0m
+▐[1;47m▐▌[0m  ▐██[1;47m▀▀█░[0;1;30;47m▐[0m ▐[1;47m█▌[0m  [1;30;40m▐████▌▐[0;1;30;44m▓[0;34m▀ [0;1;30m▄[0m██[1m███[0;1;47m█████████[0;1;40m████████[0;1;47m [0;1;30;47m▐[0m          [1;37;40m     [0m
 ▐[1;47m▐[0;1;40m█[0;1;30;40m▌ [0;1;30;47m▌[0m██[1;47m▐██▒[0m█ [34m▄ ▄▄[0;1;30;44m▓█[0;1;30;40m▄█[0;1;30;47m██[0;1;30;40m█▄▌ [0m▐█[1m██████████████████[0;1;47m▌▀▀▀▀▀[0m▌                     [1;30m▐██[0m
 ▐[1;47m▐█[0;1;30;40m▌ [0;1;30;47m▌[0m██[1;47m▐███[0m█ [1;30;44m▒▒▓▓[0;1;30;47m█[0;1;30;40m██[0;1;30;44m█▓▓█[0;1;30;40m▀ ▐[0m██[1;47m▒▒▒▒░░░░░[0m██▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30;47m▐[0m                 [1;30;40m▄▄▄▄▐█▌[0m
 [1;30;40m [0m▀▀[1;30m▀[0m                                  [1;30m▀▀▀[0m            [1;30m▀[0;1;30;47m▄[0m                    [1;30;40m▀▀▀▀[0m'

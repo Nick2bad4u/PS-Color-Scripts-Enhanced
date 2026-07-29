@@ -5,14 +5,14 @@
 # Source SHA-256: f8863c32e31265a9f7875cf7b5f35c71c978ef701ba6f8b4d837dea14ad91093
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-ASYLU.ANS by Precious Metal (riot-019); released in riot-019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
   [1;33;47m▓[0;1;33;40m▀[0m ▄[1;33m▄▄[0;1;37m██[0;1;33m██[0;1;33;47m▓[0;1;33;40m▀[0m▄[1;33m▄▄[0;1;33;47m▓[0;1;33;40m▄▄██[0;1;37;40m██[0m▌▄[1;33m▄▄█[0;1;37m██[0;1;33m█▄▄▀[0m
 ▀ [1;33m▄▀[0;1;33;47m░[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m▀█▀▀  ▀▀▀▀▀▀█[0;1;33;47m░[0m▄[1;33m▄[0;1;33;47m▓[0;1;33;40m▄▄▄[0;1;33;47m░[0m▄[1;33m▀[0;1;33;47m▓[0;1;33;40m▀▀[0m▀[1;33;47m░[0m
- [1;33;47m▓[0;1;33;40m▄▄[0;1;33;47m▓▓[0;1;33;40m▄▌[0m [33m▄[0;1;31;43m███▄▄▄[0;1;31;40m▄▄▌▄[0m [1;33m▀▀█[0;1;37m███[0;1;33m██[0m▄[1;33m▄▄▀[0m▀[1;33m▄[0m   info/text here           [35m▄▄[0m
+ [1;33;47m▓[0;1;33;40m▄▄[0;1;33;47m▓▓[0;1;33;40m▄▌[0m [33m▄[0;1;31;43m███▄▄▄[0;1;31;40m▄▄▌▄[0m [1;33m▀▀█[0;1;37m███[0;1;33m██[0m▄[1;33m▄▄▀[0m▀[1;33m▄[0m                            [35m▄▄[0m
 [1;33m▄▐[0;1;37m██[0;1;33m▌[0m [1;33m▀[0m [33m▐[0;1;31;43m██[0;1;31;40m█[0;1;31;47m▓▓▓▒[0;1;31;40m████[0;1;31;43m▄▄[0;1;31;40m▄▄[0;33m▄[0;37m▀[0;1;33m▀▀▄[0m▀[1;33;47m▓[0;1;33;40m▄▄▌[0m                           [35m▄[0;1;35;45m░▄▄▄[0;35m▄[0m
 [37m [0;1;33m▀[0;1;33;47m▓[0;1;33;40m█[0m▀ [33m▄[0;1;31;43m▄█[0;1;31;40m█▀[0;33m▀[0;37m▄▄[0;1;31;47m░░▒[0;33m▀█[0;1;31m███[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;43m▄[0;33m▄[0;37m▀[0;1;33m▀█[0;1;37m██[0;1;33m█[0m  [1mThe...[0m                  [35m█[0;1;35;45m███▓▓█[0;35m█[0m
      [33m▐[0;1;31;43m█[0;1;31;40m█[0;1;31;43m▀[0;33m▀[0;37m▄█[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m▄ [0m▄▄ [33m▀[0;1;31m▀[0m [1;31;47m▓▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█[0;33m█ [0;1;33m▄[0;1;33;47m▓[0;1;33;40m▀[0;1;33;47m░[0m   [35m▄[0m          [35m▄[0;1;35;45m░[0;35m▄▄▄[0m        [35m▀[0;1;35;45m▀▀▀[0;35m█▀[0m

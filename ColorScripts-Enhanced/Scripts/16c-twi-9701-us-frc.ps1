@@ -5,7 +5,7 @@
 # Source SHA-256: 47576adaedc92d104e1f03c0f8895c05a68ef7f9453a27e71c8f8a85d2005e1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FRC.ANS by Defiant + Coug (Twilight); released in twi-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Free Coke
 # SAUCE Author: Coug/Defiant
 # SAUCE Group: Twilight
@@ -17,9 +17,9 @@
 Write-Host '
 [34m░ [0;1;34m▀▀▀▀▀[0;1;34;44m▓[0;1;34;40m▀[0;1;34;44m▀▀[0;34m▀▀ [0;1;33m▀▀[0;1;33;43m█[0;1;33;40m█[0;1;33;43m▓▒[0;1;33;40m▄▄[0;33m▄█ [0;34m▀█▀▀▀█▀▀▀▀▀▀▀ ▀▀▀▀  ▀▀    ▀[0m     [35m░    [0;30;41m▓[0m [30;41m▓▓[0;35;41m░[0;35;40m▄    █▄▄▄▄[0m
 [1;34;40m▀ [0;1;34;44m███▓█░[0;34m█░  [0;1;33m▀███[0;1;37m██[0;1;33m██[0;1;33;43m▓▒▒░ [0m [34m▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m         [35m░ ░░▒▓▄▄█[0;1;34;45m░░▄▌▒[0;35;41m▓[0;35;40m█ ▄▄▄██[0;1;35;45m░░░[0;35m█[0m
-[1;34;44m█[0m [1;34;40m▄▄[0;1;34;44m█▒▀[0;34m▀   [0;1;33m▄██[0;1;33;43m▓▒[0;1;33;40m▀▀[0;1;31;40m▄▄▄▄▄[0;33m▀▄ [0;34m▀█▄▄▄ ▄   [0;34;45m [0;1;35;45menter commands [0m   [35m▄▄▀▐█[0;1;34;45m░██[0;1;37;45m██[0;45m█[0;1;34;45m▌[0;35m▌ ▄▄▀█[0;1;34;45m░░░[0;1;35;45m░░[0;35m▌[0m
-[1;34;44m█[0m [1;34;40m█[0;1;34;44m██▓█[0;34m█▀   [0;1;33m▄[0;1;33;43m▓░[0m [1;31;43m▒▓[0;1;31;47m▓[0;1;31;43m███▓▒░[0;33m▌ [0;34m█[0m      [35menter cmd enter cmd ▐█▌  ██[0;1;34;45m░▀▀███[0;35m█ ▀▀▀▐█████[0m
-[1;34m▄ ▄[0;1;34;44m████▀[0;34m▀  [0;1;33m░▀  [0;34m▄ [0;1;31;43m▒[0;1;31;47m█[0;1;31;43m▓[0;1;31;47m█[0;1;31;43m██▒[0;33m█ [0;34m▐█▀▀[0m      [35menter [0;34m▄  [0;35mcommand    ▀▄ ██[0;1;34;45m░▒▓██▄[0;35m█ ▄▄▄[0m
+[1;34;44m█[0m [1;34;40m▄▄[0;1;34;44m█▒▀[0;34m▀   [0;1;33m▄██[0;1;33;43m▓▒[0;1;33;40m▀▀[0;1;31;40m▄▄▄▄▄[0;33m▀▄ [0;34m▀█▄▄▄ ▄   [0;34;45m [0;1;35;45m               [0m   [35m▄▄▀▐█[0;1;34;45m░██[0;1;37;45m██[0;45m█[0;1;34;45m▌[0;35m▌ ▄▄▀█[0;1;34;45m░░░[0;1;35;45m░░[0;35m▌[0m
+[1;34;44m█[0m [1;34;40m█[0;1;34;44m██▓█[0;34m█▀   [0;1;33m▄[0;1;33;43m▓░[0m [1;31;43m▒▓[0;1;31;47m▓[0;1;31;43m███▓▒░[0;33m▌ [0;34m█[0m      [35m                    ▐█▌  ██[0;1;34;45m░▀▀███[0;35m█ ▀▀▀▐█████[0m
+[1;34m▄ ▄[0;1;34;44m████▀[0;34m▀  [0;1;33m░▀  [0;34m▄ [0;1;31;43m▒[0;1;31;47m█[0;1;31;43m▓[0;1;31;47m█[0;1;31;43m██▒[0;33m█ [0;34m▐█▀▀[0m      [35m      [0;34m▄  [0;35m           ▀▄ ██[0;1;34;45m░▒▓██▄[0;35m█ ▄▄▄[0m
 [1;34;44m█[0;1;34;40m▀[0;1;34;44m████▄[0;34m▄▄[0;1;34;44m▒[0;34m▄  ▄[0;1;34;44m░[0;34m█  [0;1;31;43m░▓█[0;1;31;40m▀▀[0;1;31;43m▓[0;33m▌ [0;34m▀[0;1;34;44m░[0;34m██▄▄▄[0m         [34m▄[0m               [1;35m▄ [0;35m▀▀▀▀█[0;1;34;45m▀[0;35m█▌ ▀[0m
 [1;34;44m█[0;1;34;40m▄[0;1;34;44m███▓███▄[0;34m▄[0;1;34;44m▄[0;34m█▀▀  [0;31m▄▄[0;1;31m▀▀[0;1;31;43m██[0;1;31;40m▀[0;31m▄[0;1;31;41m▒[0;31m▄▄ ▄▄▄ [0;34m▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀ ▀[0m        [1;35m▀███▄▄▄ [0;35m▀    [0;1;35mfree[0m
 [1;34;44m█[0;1;34;40m▀[0;1;34;44m███▒█▓█░▀[0;34m▀ [0;31m▄▄[0;1;31;41m▒▓[0;31m▄▄    ▄▄[0;1;31;41m░░[0;31m█[0;31;41m [0;1;31;41m░ ░░▓▒[0;31m▓ ▓▄▄▄▄▄▄[0m           [1;35m░ ░░▒▓██████[0;1;33;45m░[0;1;35;40m▄[0m     [1;35;40mcoke[0m

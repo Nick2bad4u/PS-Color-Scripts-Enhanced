@@ -5,7 +5,7 @@
 # Source SHA-256: 9fe80f3c5b33115158c1db07ff6c125e9cf5fecc4f70d5472bc8356170d79da7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-SOD.ANS by Diehard (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: SOD
 # SAUCE Author: Diehard
 # SAUCE Group: Samsara
@@ -37,5 +37,5 @@ Write-Host '
 [37m  [0;31m▓▒░[0;37m [0;31m█▓▒░[0;37m [0;31m░▀███▓  [0;33m ░░░▒▒▓▓░[0;1;31m ▄[0m▀[1;31m▄[0m▀[1m▀[0m▀[1;33m▄[0;1;37m▀▀▀▀▀▀▀[0m▀[1m▀[0m▀▀[1m [0m▀ [33m▒▒▒░░   [0;1;31m [0;31m████▀[0;37m  [0;31m        [0;37m [0;31m░░▒▓[0m
 [37m  [0;31m▒░[0m   [31m█▓▒░░▒[0;37m [0;31m███▌[0;37m [0;34m░░[0;37m [0;33m░░[0;37m [0;33m░▒[0;1;31m▄▓▓██▀[0;1;33m▄[0;1;31m▀[0;1;33m [0;1;31m▀██▄[0;1;33m▀[0;1;31m▄██[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m▓▄ [0;33m░░[0;34m░░[0;37m  [0;1;31m  [0;31m▐▓▀[0m    [1;33m `[0;31m [0;1;33ms O d[0m [1;33m''[0;31m░░▒[0m
 [31m  [0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0;1;34;44m░░[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▓▄▄▄▄▄▄▄▄▄▄▄[0;1;34;44m░[0;34m▄▄▄▄▄▄▄▄▄▄[0;31m   [0m
-[34m░▒▓▓█[0;37m [0;34m▄▄ [0;1;33m            commands here...            [0m                       [34m▀[0;37m [0;34m▀█▓▓▒░[0m
+[34m░▒▓▓█[0;37m [0;34m▄▄ [0;1;33m                                        [0m                       [34m▀[0;37m [0;34m▀█▓▓▒░[0m
 [37m  [0;34m▀▀▀▀▀▀▀[0;1;34;44m░░[0;34m▀▀▀[0;1;34;44m░[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀[0;1;34;44m░[0;34m▓▓▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓▀▀▀▀▀▀[0;31mdhd[0m'
