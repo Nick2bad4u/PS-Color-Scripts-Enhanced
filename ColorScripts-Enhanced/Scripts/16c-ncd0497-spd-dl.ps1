@@ -5,7 +5,7 @@
 # Source SHA-256: 29142d84867c0cdf2e505e55f95766fd2ddbccc6e1d3e9f74984623a307387dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPD!DL.ANS by spud (no.code); released in ncd0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dl for jf!
 # SAUCE Author: spud
 # SAUCE Group: no.code
@@ -34,4 +34,4 @@ Write-Host '
                  [1;30m ▌■[0;33m▀▀▌[0m        [1;30m▀[0m    [1;30m▀■[0m   [1;30m▐▄[0;33m▀■▄▄██▀[0;1;30m▄▄▄▌[0;33m▀[0m
                     [1;30m▀ [0m                    [1;30m▀▀■[0m
 
-[1;30m-------------(cut?)-------------------------------------------------------------[0m'
+[1;30m-------------(   ?)-------------------------------------------------------------[0m'

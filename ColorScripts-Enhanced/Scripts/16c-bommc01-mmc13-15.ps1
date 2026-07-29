@@ -5,7 +5,7 @@
 # Source SHA-256: 28a84d3846a758d5813b82cf654ffa42e7d0914c1d74f6eea4a841957885494b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mmc13-15.ans by Essence/Polygon (bommc01); released in bommc01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Borgasm
 # SAUCE Author: Essence/Polygon
 # SAUCE Date: 19990607
@@ -30,9 +30,9 @@ Write-Host '
 [1;30m [0m           [1;30m   [0m  [1;30m [0m   [1;30m  ┌      [0m    [35m [0m    [31m [0;35m [0;1;35m [0;35m [0;1;30m [0m           [35m [0;31m [0m      [1;37m          [0m
          [1;30m,:[0;1;37m [0;1;30m$$$  i$│:[0m$$$$`.l$[1;30m$,[0m        [1;30m`[0;1;31m`[0;1;35m4[0;1;37m│$[0;35mb[0;31m┌,.[0m    [31m,[0m          [1;37mcommand #5[0m
        ,d$P[1;30mu[0m$$$$$I$$iS[1m$$$$$[0m$$$$[1;30mk,[0m         [31m`[0;35m"[0;1;31m└*[0;31m⌂⌂[0;37m [0;31m░░[0m         [1;37m▒▒[0m [30;47mcommand #6[0m
-    [1;37;40m,d$$$$[0m└$[1ml$$$$[0mS[1m$$S[0mi[1m$$$$$$$7[0m$$$$b,          [1;30m``[0m               [1mcommand[0;35m [0;1;37m#7[0m
-[1m┌%IISSS$$[0mpl[1m$$II$$[0m$[1m$$$[0ml[1mS$$$$[0mi[1m$$b$$$$$[0m│$%┌,.__               [1;30m,[0m   [1mcommand[0;35m [0;1;37m#8[0m
-[1millIISS$[0mP:l[1m$$$SS$$$$$[0mII[1m$$$$[0ml[1m$$$$└$$$$$$$$$││││$Y@%%gg[0mgg%#llI   [1mcommand[0;35m [0;1;37m#9[0m
+    [1;37;40m,d$$$$[0m└$[1ml$$$$[0mS[1m$$S[0mi[1m$$$$$$$7[0m$$$$b,          [1;30m``[0m               [1m       [0;35m [0;1;37m#7[0m
+[1m┌%IISSS$$[0mpl[1m$$II$$[0m$[1m$$$[0ml[1mS$$$$[0mi[1m$$b$$$$$[0m│$%┌,.__               [1;30m,[0m   [1m       [0;35m [0;1;37m#8[0m
+[1millIISS$[0mP:l[1m$$$SS$$$$$[0mII[1m$$$$[0ml[1m$$$$└$$$$$$$$$││││$Y@%%gg[0mgg%#llI   [1m       [0;35m [0;1;37m#9[0m
 [1m;iillSS$$[0mi[1mS$$$$$$$$$$$[0mI[1mS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$lII$$[0mS
 [1m;;il$$$$$[0mi[1m$$$$$$$$$$$$$S$$$$[0mi[1m$SS$$$$$[0mb,[1m$$$$$$$$$$$$$$$II$$#[0m$
 [1miiI$$$$$$l$$$$$$$$$$$$$$$$$$lS$$SS$$$$$$SS$$$$[0m┌┌[1m⌐$$$$$[0mi┘[1m$$$[0m$

@@ -5,7 +5,7 @@
 # Source SHA-256: b832a56ec753ec7a176f0764afcaf0c75c06c36b52282255e997b3fc2b0eb63c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-FOLI.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: FOLIage
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
@@ -41,4 +41,4 @@ Write-Host '
     [35m▐█[0;1;33;45m░[0;1;37;40m▀[0m   [35m▄▄▀▀▀[0m     [36mFoliage[0;1;33m  [0m      [35m ▀▀[0;1;33;45m ▀▀▀█▓░░ [0;35m▄▄▄[0m     [35m ▀▀▀▀▀▀█[0;1;35;45m░░[0;35m▄▄▄▄[0;36m  [0;35m [0m   [35m▄[0;1;37;45m░[0;35m▀[0m
 [36m  [0;35m ▄▀▀[0m    [35m▀[0m                                  [35m▀▀▀▀▀██▄[0m           [35m░[0;30;45m▓[0;36;40m [0;37;40m [0;35;40m▀▀▀▀▄ ▀▀ [0m
 [37;40m [0;35;40m  [0m                                                 [35;40m▀▌[0m
-[1;30;40m═════([0mcut[1;30m)══════════════════════════════════════════════════════════════════════[0m'
+[1;30;40m═════([0m   [1;30m)══════════════════════════════════════════════════════════════════════[0m'

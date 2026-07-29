@@ -5,7 +5,7 @@
 # Source SHA-256: a2bd764f67b971aa71f0afb7f993a93d2427c00b78fe63147ce18e4e15addb6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GC-HED1.ANS by Galanacer (glue-17); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -31,7 +31,7 @@ Write-Host '
          [36m▌[0m                [36m▐[0m                   [1;31m░░[0m       [35m░[0;30;45m▓[0;35;40m ░▓█[0;1;35;45m▄[0;1;35;40m▀▐▓▓▓[0;35m▌[0;31m▐[0m
 [36mh[0;1;36me[0;1;32mdo[0;31mn[0;1;31mic,[0;1;35m.[0;35m.[0m       [31m░[0;30;41m▓[0;31;40m░[0;37;40m  [0;31;40m░░[0;30;41m▓[0;37;40m [0;31;40m░[0;37;40m [0;31;40m░[0;30;41m▓[0m                             [35;40m░[0;30;45m░[0;35;40m▓[0;1;35;40m▓▓░░░░[0m
                                                             [35m░░[0;30;45m▓[0;35;40m░[0m
-[37;40m-(cut)------------------------------------------------------------------------- [0m
+[37;40m-(   )------------------------------------------------------------------------- [0m
 
 [37;40m                                                                               [0m
 [37;40m                                                                         [0m
@@ -43,4 +43,4 @@ Write-Host '
 
 [37;40m       [0m
 
-[37;40m-(cut)------------------------------------------------------------------------- [0m'
+[37;40m-(   )------------------------------------------------------------------------- [0m'

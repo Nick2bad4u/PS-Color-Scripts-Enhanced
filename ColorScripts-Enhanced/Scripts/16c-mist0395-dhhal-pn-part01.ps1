@@ -5,7 +5,7 @@
 # Source SHA-256: ec4ce0f336e9c31d2d7c6afcb2cc5d1b8d2c0c0f8306ff5423994a01a064b4a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DHHAL-PN.ANS by Donut Hole/Halaster (Mistigris); released in mist0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Pinion
 # SAUCE Author: Donut Hole/Halaster
 # SAUCE Group: Mistigris
@@ -48,7 +48,7 @@ Write-Host '
 [1;30m░[0m      [1;30m░[0m                      [1;30m░[0m                               [1;30m░[0m              [1;30m░[0m
                      [34m░[0m        [1;30m░[0m                     ■
                      [34m▒[0m                                 [37m▄   [0;1;30m■▀▀▀█▄[0m     [1;30m░[0m
-        [30mcut''npas[0;34m░[0;30me:)[0;34m▄[0;30;44m▀[0;34;40m▄▄[0m                       [37;40m▄[0m         [37;40m▄   [0;1;30;40m░  ▀█▄   ▒░[0m
+        [30m   ''    [0;34m░[0;30m :)[0;34m▄[0;30;44m▀[0;34;40m▄▄[0m                       [37;40m▄[0m         [37;40m▄   [0;1;30;40m░  ▀█▄   ▒░[0m
                 [34m▒ ▄█[0;1;34;44m  ▀▓▄[0;34m▄[0m               [37m▄▄ ▄▄  ▀▓[0;30;47m■[0;37;40m▄▄   ▄▄ ▀ [0;1;30;40m▓░   ▀█▄ ▓▒■▀▄[0m
                [34m░▓▐[0;30;44m■[0;34;40m█████[0;1;34;44m ■[0;34m▌[0m                       [37m▐[0;30;47m▐[0;37;40m▐[0;1;37;47m░[0m▄  ▄▀  [1;30m█▓    ▄▓ █▓  ▐▌[0m
            [37m▄▄▀  [0;34m░ ▀▄▀▀[0;1;34;44m  ░[0;34m▀[0m                         [37m▒[0;1;30m░[0;1;30;47m░[0;1;37;47m▒[0m█      [1;30m▀▓▄▄█▀  ██   █[0m

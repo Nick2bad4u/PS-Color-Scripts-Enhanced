@@ -5,7 +5,7 @@
 # Source SHA-256: a37999eed56ae5de664baca935dd62e8069ba5ba3ab53ca25177492baf88e33e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 32-OCTA.ANS by ezy (fluid); released in fld9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: octagon
 # SAUCE Author: ezy
 # SAUCE Group: fluid
@@ -34,4 +34,4 @@ Write-Host '
 [36m░░▀[0;1;36m▀[0;1;36;46m▀[0;1;36;40m████▄▄▄▄▄▄▄ [0m [36m░░░░ [0m   [36m▀[0;1;36m▀▀▀▀▀▀▀[0m         [1;36;43m▓▓▒▒▒[0m           [36m▀[0;1;36m▀[0m [1;36m▀▀[0;1;37m█[0;1;33m█[0;1;37m█[0;1;36m▀[0m [36m▀[0;1;36m▀▀[0;1;36;46m▓▓▓[0;1;36;40m▀32[0m
         [36m▀[0;1;36m▀▀▀▀▀▀▀▀▀▀[0m    [1;36mo[0m  [1;36mc░[0m [1;36;46mt[0m  [1;36ma[0m  [1;36mg░░o[0m [1;36m░n[0m  [1;36;43m░░░░[0m
 
-[1;30m---cut---[0m'
+[1;30m---   ---[0m'

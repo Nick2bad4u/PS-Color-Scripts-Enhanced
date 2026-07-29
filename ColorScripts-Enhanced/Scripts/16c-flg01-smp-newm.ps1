@@ -5,7 +5,7 @@
 # Source SHA-256: fd12185e2bdfafaf04e429dd7166830b550273ca0b168e8f5907d75ca7fa8477
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-NEWM.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: "NEW" (mail?)
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
@@ -39,4 +39,4 @@ Write-Host '
                [37m▄[0m   [37m▄▄  ▄▄[0;1;37;47m░▓█▀[0m█▀   ▄ ▄▄▄█[1;47m▄█▀[0m▀     ▀▀[1;47m▀▓▓[0m█▄ ▄  [32m▀[0m    [37m ▀█[0;1;37;47m▀▀[0m██▄ ▄▄ ▄
 
 [1m         [0;32m   [0;1;37m                                              [0m [1;36;42m [0;1;37;42m   [0;1;36;42m [0m [1m [0m    
-────(cut)───────────────────────────────────────────────────────────────────────[0m'
+────(   )───────────────────────────────────────────────────────────────────────[0m'

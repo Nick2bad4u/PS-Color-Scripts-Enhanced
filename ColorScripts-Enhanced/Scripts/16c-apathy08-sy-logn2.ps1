@@ -5,7 +5,7 @@
 # Source SHA-256: d22fc685a46a58df259b3b89b8993acca681e77405db588ef1d8cb75026c5acb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SY-LOGN2.ANS by shoony (like you care!); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: yet another kick ass ansi
 # SAUCE Author: shoony
 # SAUCE Group: like you care!
@@ -28,8 +28,8 @@ Write-Host '
 ██  [31m▄[0;1;31m▄█▄ [0;31m▄[0;1;31;41m   ▄█[0;1;31;40m██████████[0;1;31;41m█▓[0;1;31;40m▄ ▄[0;1;31;41m▒[0;1;31;40m▄▄[0m  █████████████████████████████████████▓[1;30m▄[0m▀▄
 █▌ [31m█[0;1;31;41m█[0;1;31;40m██▌[0;31m▐[0;1;31;41m   ▐[0;1;31;40m██████████[0;1;31;41m▀[0;1;31;40m████▌▐[0;1;31;41m██[0;1;31;40m█[0;1;31;41m▓[0m ▐█████████████████████████████████████▓ [1;47m▒[0m
 ██ [31m▐[0;1;31;41m▐[0;1;31;40m██▌[0;31m▐[0;1;31;41m    [0;1;31;40m█████████[0;1;31;41m▄░▄[0;1;31;40m███▌▐[0;1;31;41m█[0;1;31;40m██▌[0m ███████████████████████████████████████ [1;47m▒[0m
-██▌ [31m▀[0;1;31;41m ▀▀[0;1;31;40m [0;31m▀[0;1;31;41m    ▀▀[0;1;31;40m███████████▀ █[0;1;31;41m▓[0;1;31;40m▀▀[0m ▐███████████[30;47mp u t[0;37;40m███[0;30;47mc[0;37;40m█[0;30;47mo[0;37;40m█[0;30;47mm[0;37;40m█[0;30;47mm[0;37;40m█[0;30;47ma[0;37;40m█[0;30;47mn[0;37;40m█[0;30;47md[0;37;40m█[0;30;47ms[0;37;40m██████ [0;1;37;47m▒[0m
-███▄▄ [1;31m [0;31m▀█[0;1;31m [0m▄[1m [0;31m▀▀▀[0;1;31;41m    ▀▀▓[0;1;31;40m▀▀▀[0m [1m▄[0m [1;31m▓▀[0m  ▄▄████████████████████[30;47mh e r e  [0;37;40m████████████ [0;1;37;47m▓[0m
+██▌ [31m▀[0;1;31;41m ▀▀[0;1;31;40m [0;31m▀[0;1;31;41m    ▀▀[0;1;31;40m███████████▀ █[0;1;31;41m▓[0;1;31;40m▀▀[0m ▐███████████[30;47m     [0;37;40m███[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m██████ [0;1;37;47m▒[0m
+███▄▄ [1;31m [0;31m▀█[0;1;31m [0m▄[1m [0;31m▀▀▀[0;1;31;41m    ▀▀▓[0;1;31;40m▀▀▀[0m [1m▄[0m [1;31m▓▀[0m  ▄▄████████████████████[30;47m         [0;37;40m████████████ [0;1;37;47m▓[0m
 ▀▀▀▀▀▀▀ [1;31;41m░[0m ▐[1;47m█[0;1;40m██▄▄▄▄ ▄▄▄▄███▌[0m [1;31m█[0m ▀▀▀▀▀▀████████████████████████[30;47m  [0;37;40m█████████████ [0;1;37;47m▓[0m
 [1;32;42m▄ [0;32m████[0;30;42m░[0;37;40m [0;1;31;41m▓[0;1;37;40m  [0m▀[1;47m▀▀█[0;1;40m███ [0;1;47m▀██[0;1;40m███▀ [0;1;30;40m [0;1;31;40m█[0m [32m█████▄▄▄[0;37m ▀▀███████████████████████████████████ [0;1;37;47m▓[0m
 [1;32m████[0;1;32;42m▄▄[0;32m█[0;1;34m [0;1;31;41m█[0m [1;47m▓[0;1;40m▄▄ [0m▀▀[1m▀▀ [0m▀▀[1m▀▀ ▄▄[0;1;47m▓[0;1;30;40m [0;1;31;40m█[0m [32m████[0;1;32;42m▄▄▄▄▄[0;32m█▄[0;37m ██████████████████████████████████ [0;1;37;47m█[0m

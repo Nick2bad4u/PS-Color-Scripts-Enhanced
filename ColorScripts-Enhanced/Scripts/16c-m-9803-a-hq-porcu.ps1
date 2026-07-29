@@ -5,7 +5,7 @@
 # Source SHA-256: c63a5157f383167b6e97c3c779c745d681cb7f1c1f1fa184b2c6344eae66ed98
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-PORCU.ANS by Haquisaq (Mistigris); released in m-9803-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Porcupine Stats Screen
 # SAUCE Author: Haquisaq
 # SAUCE Group: Mistigris
@@ -33,8 +33,8 @@ Write-Host '
 [32m [0;36m░░ [0;1;30m▀▀▀▀▀█▄▄█▀▀███▄[0;1;30;47m▀▐[0;1;30;40m█▐[0;1;30;47m▓[0;1;30;40m▌▀█▐▄  [0;33m▀▀██[0;1;31;43m░░░░[0;33m█████▀  [0;32m▄[0m     [32m▀▄[0;1;32m▌[0m
       [1;30m▀▀   ▄[0;1;30;47m▀█▄[0;1;30;40m█▀▀▐▀██████▐ ▐▌▒▓  [0;33m▀▀█████▀▀[0m       [32m▀▀[0;1;32;42m░▄▄▄▄[0;1;32;40m▄▄[0;32m▄▄[0m
 [32m [0;1;32;42m░██▄[0m    [1;30;40m▀▀▀    [0;33m▄[0;1;31m▄▄▄  [0;1;30m█▀  ▀▐ ▀[0m              [33m▄[0;1;31;43m▄▌[0;33m▐[0;1;31;47m▓[0;1;31;43m▄[0;33m▄  [0;1;32;42m▐[0;1;33;40m█████[0;1;32;42m▐[0;1;32;40m██[0;1;32;42m▄▄[0;32m▄──-──-─-─ -─ -[0m
-[32m [0;32;42m [0;1;32;42m█[0;1;33;40m████[0;1;32;42m▄[0;32m▄▄   [0;33m▐█[0;1;31;43m▒▒█[0;1;31;47m▒▒[0;1;31;43m▌[0m             [33m▄[0;1;31m▄▄[0;33m▄[0m     [33m▐[0;1;31;43m██[0;33m▄██▀▀  [0;1;32;42m▄[0;1;33;40m█████[0;1;32;40m██[0;1;33;40m██[0;1;32;42m██▌▄▄[0;32m░[0;1;30m▓    [0;1;37myour[0m
-[1;37m [0;1;37;42m [0;1;32;42m▒███████[0;32m█   [0;33m▀▀▀▀  ▄▄[0;1;31;43m▒[0;1;31;47m▓[0;1;31;40m▄  [0;32m░░░  [0;33m▐█[0;1;31;43m▒▓█[0;1;31;47m▓▓[0;1;31;43m▌[0m  [32m▄  [0;33m▀▀   [0;32m▄▄[0;1;32;42m▄█▓██████▀█▀▀▀▀  ▀[0;32m▄   [0;1;37minfo[0m.
+[32m [0;32;42m [0;1;32;42m█[0;1;33;40m████[0;1;32;42m▄[0;32m▄▄   [0;33m▐█[0;1;31;43m▒▒█[0;1;31;47m▒▒[0;1;31;43m▌[0m             [33m▄[0;1;31m▄▄[0;33m▄[0m     [33m▐[0;1;31;43m██[0;33m▄██▀▀  [0;1;32;42m▄[0;1;33;40m█████[0;1;32;40m██[0;1;33;40m██[0;1;32;42m██▌▄▄[0;32m░[0;1;30m▓    [0;1;37m    [0m
+[1;37m [0;1;37;42m [0;1;32;42m▒███████[0;32m█   [0;33m▀▀▀▀  ▄▄[0;1;31;43m▒[0;1;31;47m▓[0;1;31;40m▄  [0;32m░░░  [0;33m▐█[0;1;31;43m▒▓█[0;1;31;47m▓▓[0;1;31;43m▌[0m  [32m▄  [0;33m▀▀   [0;32m▄▄[0;1;32;42m▄█▓██████▀█▀▀▀▀  ▀[0;32m▄   [0;1;37m    [0m 
  [32m█[0;1;32;42m░██████▓▓░[0;32m█▄▄▄▄[0m     [33m▀▀   [0;32m███▄▄    [0;33m▀▀▀   [0;32m███▄▄▄[0;1;32;42m▄▄██████▌▀▀▀▀ [0;32m███[0;1;32;42m▄[0;1;32;40m█[0;1;32;42m██▄ [0;32m██▄▄▄[0m
 [32m ██[0;1;32;42m███████▓▒░░[0;32m█████████████████████▄▄▄▄▄████[0;32;42m  [0;1;32;42m▀▀▀▀▀░░░   [0;32m█████[0;1;32;42m▀[0;32m███[0;1;32;42m▀▀▀[0;32m█[0;32;42m [0;30;42mhq!mist [0m
 [30;40m [0;1;30;40m----(ch0p cHoP)---------------------------------------------------------------[0m'

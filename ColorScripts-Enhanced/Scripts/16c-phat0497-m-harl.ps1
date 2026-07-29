@@ -5,7 +5,7 @@
 # Source SHA-256: 22d1c039a21e4d8622c30d7133faae1edc8672c4b2bff2419c803bbb066ee40f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (M!)HARL.ANS by m0! (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: harakiri login
 # SAUCE Author: m0!
 # SAUCE Group: phat studios '97
@@ -38,4 +38,4 @@ Write-Host '
 [1;32;42m░░▐██▌[0;32m█▌[0;34m▄[0;30;44m░[0;34;40m▀ [0;1;30;40m▄▄▄▄[0;34m ▀█ █▀ [0;1;30m▄▄▄[0;34m ▀█▄[0;32m ▐[0;1;32;42m ▄▄▄[0;1;37;42m▄▄[0;1;32;42m▄▄▄▓▓░░[0;32m█[0;1;32;42m▄▄▄▄▄▄▄[0;1;37;42m▄▄[0;1;32;42m▄▓▓░░▄[0;32m███[0;1;32;42m▄▄▄▄[0;1;37;42m▄▄[0;1;32;42m▄▄▄▄▓░░[0;32m██ [0m
 [32m ▀█[0;1;32;42m▀▀▀[0;32m█▄[0;34m [0;1;30m  ▀▀▌▀▀▀     ▀▀▀▀▀   [0;32m▄█[0;1;32;42m░▓▓▀▀▀▀░░[0;32m▀▀  ▀▀▀██[0;1;32;42m░░▀[0;1;37;42m▀▀[0;1;32;42m▀▀▀[0;32m███▀ ▀▀██[0;1;32;42m▀▀▀▀▀[0;32m███▀▀▀[0m
 
-[1;30m--(cut)--(schneid)---------- ------------- - ---(kastrier)--------------------- [0m'
+[1;30m--(   )--(       )---------- ------------- - ---(        )--------------------- [0m'

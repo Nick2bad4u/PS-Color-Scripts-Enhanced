@@ -5,7 +5,7 @@
 # Source SHA-256: 58f6152d1d6cc35885f67907ea1b2c3183f83dbe8328c8ba64dc05d53993af9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DEEP.ANS by Dosage + Luminous + Toxix (divine legacy); released in divine01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: deep ??
 # SAUCE Author: multiple artists
 # SAUCE Group: divine legacy
@@ -40,4 +40,4 @@ Write-Host '
 ██▄ ▀[1;30;47m▒▓[0;1;30;40m▀[0m [1;30m▀▓▒░[0;33m▄[0;1;33m▄[0;1;37m▄[0;1;33m▄[0;33m▄[0;1;30m▄ [0;1;30;47m▒▒▓▓[0;1;30;40m█▓▒░ ▀░▀[0m ░▒▒▓▓█████[1m▒▒[0m██████████████[1;47m░░░░▒▒▒▒▒▓▓▓▓▓▓▓████[0;1;37;47m█[0m
 [1;30;47m15[0m▓░ [1;31m▄▄▄[0;1;31;43m▓[0m  [34m▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;30m▀░[0m  [1;31m▄[0;1;31;43m▓░[0m  ░░▒▒▓▓████████████[1;47m░░░░░░░▒▒▒▒▓▓▓▓▓██████████[0;1;33;40m██[0m
 
-cut-[0m'
+   -[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3597f61e6c11bdcd6fb3190a53bf946027cd28e945c54706471c10b1374d40de
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DRM-INSO.ANS by dorm (wOE!); released in woe0798a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: inso2#
 # SAUCE Author: dorm
 # SAUCE Group: wOE!
@@ -58,4 +58,4 @@ Write-Host '
 [1;32m▀[0;1;32;42m▓[0;33m    [0;1;32m▐[0;1;32;42m░[0;32m▄[0;33m   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄████████[0;30;43m░[0;33;40m█████████████████████████[0;30;43m░[0;33;40m▓[0m
 [33;40m▄▄[0;30;43m░[0;33;40m███▄▄▄▄████[0;30;43m░[0;33;40m██████████████[0;30;43m░[0;33;40m████████████████████[0;30;43m░[0;33;40m██████████████████████[0;30;43m░░[0;33;40m███[0;30;43m░[0;33;40m▓[0m
 
-[33;40m- - -- - -  - --< [0;1;33;40mcut here[0;33m <-  - ---- --  - - --  - --  - --  -- - - - -  - - -[0m'
+[33;40m- - -- - -  - --< [0;1;33;40m        [0;33m <-  - ---- --  - - --  - --  - --  -- - - - -  - - -[0m'

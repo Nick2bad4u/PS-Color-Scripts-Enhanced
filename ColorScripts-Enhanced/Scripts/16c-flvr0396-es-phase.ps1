@@ -5,7 +5,7 @@
 # Source SHA-256: 1ae14929640b630c70079eeb506c17d7763a3b29cfc18181929708f3c796ec6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ES-PHASE.ANS by elusive (flvr0396); released in flvr0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: phase one
 # SAUCE Author: elusive
 # SAUCE Date: 19960203
@@ -38,4 +38,4 @@ Write-Host '
 [1;30m░[0m  [1m [0m                               [1m [0m                                      [1m [0m  [1;30m ░[0m
 [1;30m▒[0m  [1m [0m                    [1;30m [0m [1;30m                             [0m                   [1m [0m   [1;30m▒[0m
 [1;30m▓▒ ░[0m [1;30m▄[0m [1;30m▄[0m              [1;36m     [0m                                     [1;30m    [0m [1;30m▄ [0m [1;30m▄ ░ ░▒▓[0m
-[1;30mut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut[0m'
+[1;30m  ---8<---   ---8<---   ---8<---   ---8<---   ---8<---   ---8<---   ---8<---   [0m'
