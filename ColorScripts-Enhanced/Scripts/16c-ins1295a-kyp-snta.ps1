@@ -5,7 +5,7 @@
 # Source SHA-256: 79f6533b4255c022c5854173bf1b5127f1260854b809c63ab16582c35649fb84
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KYP-SNTA.ANS by KYP (black maiden); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: santa for bbs
 # SAUCE Author: KYP
 # SAUCE Group: black maiden
@@ -16,8 +16,8 @@
 
 Write-Host '
   [1;31m┌[0;1;35mK[0meep [1;35mi[0mn [1;35mm[0mind,               [31m▄▄████▓▄[0m
-[31m  [0;1;30m│[0;1;35mt[0mhat [1;35mi[0mt [1;35mw[0masn''t           [31m▄████[0;1;37;41m▄[0;1;37;40m▓[0;1;37;41m▄[0;31m███▓▄[0m
-[31m   [0;1;35mS[0manta, [1;35mw[0mho [1;35md[0mied          [1m▓▓█[0;1;43m█[0;1;40m▓[0;1;43m▀▀▀[0;1;40m█▓[0;1;43m█[0;31m██▓▄[0m
+[31m  [0;1;30m│[0;1;35m [0m    [1;35m [0m  [1;35m [0m                [31m▄████[0;1;37;41m▄[0;1;37;40m▓[0;1;37;41m▄[0;31m███▓▄[0m
+[31m   [0;1;35m [0m      [1;35m [0m   [1;35m [0m             [1m▓▓█[0;1;43m█[0;1;40m▓[0;1;43m▀▀▀[0;1;40m█▓[0;1;43m█[0;31m██▓▄[0m
 [31m   [0;1;35mf[0mor [1;35mu[0ms !   [1;30m─[0;1;31m┘[0m           [1m▒▓[0;33m█[0;1;31;43m▒░[0;33m█▓▓[0;31;43m▒[0;1;31;43m░[0;33m█[0;1;31;43m░[0;33m█[0;31m███▌[0m
                            [1;37m░  [0;33m█▄▀█[0;1;31;43m░[0;33m▀▄[0;1;31;43m░[0;31;43m░▒[0;37;40m [0;31;40m█▓▌[0m                  [33;40m▄    ▄▀[0m
         [33;40m▀▀▄▀▄[0m                [33;40m▐[0;1;31;43m░▒[0;33m▌▀[0;1;31;43m░[0;33m▄▓[0;33;43m [0;1;37;43m░[0;31;43m░[0;37;40m [0;31;40m▓█▓[0m                   [33;40m█▄▓▒▄▀▀▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b00f44ee3fbf9cc1ac9ea097fdd83a0fb1906ac72999c985aca655df12572230
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MISTFUNK-MM.ANS by Consolejockey + Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Mistfunk logo
 # SAUCE Author: Mavenmob / CJ
 # SAUCE Group: Mistigris
@@ -65,4 +65,4 @@ Write-Host '
 [1m██████████████▌[0;1;31m▐███▄███▌[0;1;37m▐███[0m  [1m▄   █  █▀▀[0m [1;31mknows[0;1;37mthattheboat[0m  [1m██▌  [0;1;31m▀███▀♥♥[0;1;37m███    [0m█[1m█[0m
 [1m█[0;30m██[0;1;37m████████████ [0;1;31m▀█████▀[0;1;37m ███[0m♥[1;31m♥[0;1;37m▄[0;1;31m♥▐▐▐▐▐   [0;1;37misleakingeverybody[0m  [1m▀██▄  [0;1;31m▌▀  [0;1;37m▄████[0m    [1m██[0m
 [30m█████[0;1;37m███████████▄ [0;1;31m▐▐▀[0;1;37m ▄███[0m█  [1m█[0;1;31m▐▐▐▐▐ [0;1;37m█[0m [1mknowsthecaptainlied[0m    [1m███[0;1;31m▐[0;1;37m█████▀███[0m    [1m██[0m
-[1m█[0;30m██[0;1;37m███████████████[0;1;31m▐▐[0;1;37m▄██[0;1;31m♥[0;1;37m██[0m█[1m  █[0;1;31m▐▐▐▐▐[0;1;37m ▀[0m [1meverybodygot[0;1;31mthisbroken[0;1;37m ▐██[0;1;31m▐[0;1;37m      ▐█▀[0m    [1m██[0m'
+[1m█[0;30m██[0;1;37m███████████████[0;1;31m▐▐[0;1;37m▄██[0;1;31m [0;1;37m██[0m█[1m  █[0;1;31m▐▐▐▐▐[0;1;37m ▀[0m [1m            [0;1;31m          [0;1;37m ▐██[0;1;31m▐[0;1;37m      ▐█▀[0m    [1m██[0m'
