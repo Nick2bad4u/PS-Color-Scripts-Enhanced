@@ -5,7 +5,7 @@
 # Source SHA-256: 85e71f09d2df0baa6cb62e364d4f287dee9471666842865bb98ea2fa86726338
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZO-SUGAR.ANS by zork (blade productions); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sc's sugar!
 # SAUCE Author: zork
 # SAUCE Group: blade productions
@@ -45,8 +45,8 @@ Write-Host '
  █[1;47m▄█▀[0m▀▀               [1;36m▀[0m                         ▀▀▀▀▀▀▀[1;36;47m░[0;1;37;47m▀[0m██[1;47m▀▀▀▀▀██████████████[0m█
 ▐[1;36;47m░[0;1;37;47m██[0m▌   [1;36ms u g a r ![0m                                          ▀▀▀▀▀██[1;47m ▀▀▀█▀▀[0m▀▀▀[1;36;47m░[0m
   ▀[1;46m█▓[0;1;36;40m▌[0m                                                               ▀▀▀[1;36;47m░[0m█ [1;36mz[0m [1;36mo[0m
-     [1;36m▀[0m  [1;36m▄▄[0m          [1;36m▀[0m                [1;36m▀[0m        [1;36mn e e t o s t u f f[0m         [1;36;47m░[0m▄▄▄[1;47m▄[0m
+     [1;36m▀[0m  [1;36m▄▄[0m          [1;36m▀[0m                [1;36m▀[0m        [1;36m                   [0m         [1;36;47m░[0m▄▄▄[1;47m▄[0m
             [1;36m ▀[0m                                                              [1;47m▀█▌[0m
-                                           [1;36m▄[0m           [1;36mh e r e ![0m            [1;36m▐[0;1;37;47m██[0m
+                                           [1;36m▄[0m           [1;36m         [0m            [1;36m▐[0;1;37;47m██[0m
                                                                            [1;36m■▀▀[0m
                                                     [1;36m▀[0m              [1;36m▀[0m'

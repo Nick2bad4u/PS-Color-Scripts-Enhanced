@@ -9,6 +9,7 @@ const {
     auditAuthoredSourceContacts,
     extractPowerShellPayload,
     findContactDetails,
+    getRawRowHash,
     getRenderedBlankRows,
     getReviewEvidenceHash,
     isFunctionalContactException,
@@ -133,6 +134,10 @@ const MIXED_TEXT_LEDGER26_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger26.json"
 );
+const MIXED_TEXT_LEDGER27_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger27.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -217,11 +222,35 @@ function assertAppliedMixedTextLedger(
                 evidence.sha256,
                 `${candidate.file}: row ${evidence.row} was not redacted`
             );
-            assert.equal(
-                analyzeRow(currentRow).letterCount,
-                0,
-                `${candidate.file}: row ${evidence.row} still contains letters`
-            );
+            if (evidence.action === "blank-columns") {
+                assert.ok(Array.isArray(evidence.columnRanges));
+                assert.match(
+                    evidence.expectedRawSha256,
+                    /^[a-f\d]{64}$/u
+                );
+                assert.match(
+                    evidence.expectedRenderedSha256,
+                    /^[a-f\d]{64}$/u
+                );
+                assert.equal(
+                    getRawRowHash(currentRow),
+                    evidence.expectedRawSha256,
+                    `${candidate.file}: row ${evidence.row} targeted raw projection drifted`
+                );
+                assert.equal(
+                    getReviewEvidenceHash(
+                        stripAnsiControls(currentRow)
+                    ),
+                    evidence.expectedRenderedSha256,
+                    `${candidate.file}: row ${evidence.row} targeted rendered projection drifted`
+                );
+            } else {
+                assert.equal(
+                    analyzeRow(currentRow).letterCount,
+                    0,
+                    `${candidate.file}: row ${evidence.row} still contains letters`
+                );
+            }
         }
     }
     assert.deepEqual(missingRows, expectedMissingRows);
@@ -1046,6 +1075,57 @@ test("twenty-sixth mixed text review is hash-only and fully applied", () => {
         candidateFiles: 2,
         evidenceRows: 4,
         expectedMissingRows: [{ file: "roy-sac-mva.ps1", row: 17 }],
+    });
+});
+
+test("twenty-seventh mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER27_PATH, {
+        candidateFiles: 53,
+        evidenceRows: 81,
+        expectedMissingRows: [
+            { file: "16c-765n000-wt-aos01.ps1", row: 26 },
+            { file: "16c-apathy06-mt-entr2.ps1", row: 26 },
+            { file: "16c-awe-12-plz-pec.ps1", row: 27 },
+            { file: "16c-awe-12-plz-pec.ps1", row: 28 },
+            { file: "16c-axf-0197-sk-reque.ps1", row: 9 },
+            { file: "16c-axf-ap-1-bx-camou.ps1", row: 22 },
+            { file: "16c-cri-0495-da-cri.ps1", row: 43 },
+            { file: "16c-elp-0297-sk-elp-1.ps1", row: 13 },
+            { file: "16c-fact-04-pl-cot.ps1", row: 26 },
+            { file: "16c-fact-04-pl-cot.ps1", row: 30 },
+            { file: "16c-fos-0795-on-doa.ps1", row: 34 },
+            { file: "16c-l0p18-03-sk-boxfi.ps1", row: 20 },
+            { file: "16c-laz04mar-wa-air.ps1", row: 32 },
+            { file: "16c-nph-05-hrc-dbw.ps1", row: 41 },
+            { file: "16c-odium-04-ce-ld.ps1", row: 24 },
+            { file: "16c-odium-04-ce-ld.ps1", row: 27 },
+            {
+                file: "16c-opx-0497-diz-neve-part02.ps1",
+                row: 42,
+            },
+            {
+                file: "16c-plan9-01-bf-ans1-part02.ps1",
+                row: 34,
+            },
+            {
+                file: "16c-plan9-01-bf-ans1-part02.ps1",
+                row: 35,
+            },
+            { file: "16c-plenty-dx-plant.ps1", row: 25 },
+            { file: "16c-purg-13-drm-ept.ps1", row: 19 },
+            { file: "16c-rmrs-51-os-bksx.ps1", row: 26 },
+            { file: "16c-rune0896-pn-genoc.ps1", row: 25 },
+            { file: "16c-rune0896-pn-genoc.ps1", row: 26 },
+            { file: "16c-sclr-25-us-acid.ps1", row: 21 },
+            { file: "16c-shao0598-sm-sf.ps1", row: 27 },
+            { file: "16c-twi-9709-dr-23l.ps1", row: 25 },
+            { file: "16c-uni-0995-mt-gzer0.ps1", row: 27 },
+            {
+                file: "16c-vain0495-ic-alcat-part02.ps1",
+                row: 23,
+            },
+            { file: "16c-woe0798a-drm-da.ps1", row: 25 },
+        ],
     });
 });
 

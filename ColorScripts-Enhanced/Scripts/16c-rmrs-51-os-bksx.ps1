@@ -5,7 +5,7 @@
 # Source SHA-256: 931ad8caff973051e73e74a59e258f766d42ebc7d104793acdc113964b746c53
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OS-BKSX.ANS by Offset (rmrs-51); released in rmrs-51 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -32,6 +32,4 @@ Write-Host '
 [31m█[0;1;31;41m▒[0;31m████▌ ▀▀  ■▀▓[0;1;31;41m▒▓▒░[0;31m   ▀▀▀▀▐████[0;1;31;41m░▀░[0;31m███░ ░▓  [0;32m [0;1;30m▒█▓▄▄▄▄░[0;32m   [0;1;30m ▄[0;1;30;46m▀[0;36m█████████[0;1;30;46m  [0;36m████████ [0;1;36;46m [0;36m [0m
 [1;31;41m▒▓░[0;31m█[0;1;31;41m░[0;31m█▌  [0;1;31;41m░░[0;31m▄▄░  ▀[0;1;31;41m░[0;31m    ▄▄▄   ▀████[0;1;31;41m░[0;31m██▓[0;32m [0;31m░▓░[0;32m [0;31m [0;1;30m░▓███[0;1;30;43m▓[0;1;30;42m█[0;1;30;43m█[0;1;30;40m▓[0;1;30;42m█[0;1;30;46m▓▒░[0;36m██████████████████████░ [0m
 [1;31;41m▓█▓▒░[0;31m█[0;1;31;41m░[0;31m  ▐[0;1;31;41m▒▒░[0;31m▓       [0;1;31;41m░[0;31m█[0;1;31;41m▒░[0;31m█   ▐[0;30;41m      █[0;31;40m ▓[0;1;31;41m░[0;32m   [0;1;30m▒█████[0;1;30;42m██[0;1;30;46m▓▒░[0;36m███████[0;1;37;46m [0;36m████████████████▓ [0m
-[1;31;41m■▀░[0;31m███    ▀▀▀   ▄[0;1;31;41m░[0;31m▓▄  ▀▀▀   ▄[0;30;41m      [0;31;40m▓[0;32;40m [0;31;40m░█▓[0;1;30;40mos!▓█████[0;1;30;46m▓▒░[0;36m██[0;30;46m           [0;1;37;46m  [0;36m████████████ [0m
-[1;30m [0m    [32m             [0;37m [0;32m                                                             [0m
-[1;30m·················[ C U T H E R E ]·············································[0m'
+[1;31;41m■▀░[0;31m███    ▀▀▀   ▄[0;1;31;41m░[0;31m▓▄  ▀▀▀   ▄[0;30;41m      [0;31;40m▓[0;32;40m [0;31;40m░█▓[0;1;30;40mos!▓█████[0;1;30;46m▓▒░[0;36m██[0;30;46m           [0;1;37;46m  [0;36m████████████ [0m'

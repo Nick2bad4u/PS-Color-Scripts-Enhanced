@@ -5,7 +5,7 @@
 # Source SHA-256: 6ff91518de1881116af849c9a2e445b6daa511decfdde6e21a31849766f7b1f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-SF.ANS by Smokey (Shaolin's Finest); released in shao0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Shaolin
 # SAUCE Author: Smokey
 # SAUCE Group: Shaolin's Finest
@@ -38,6 +38,4 @@ Smk[1m([0mSik[1m)[0m [31m░[0m                                       [31
         [31m▒[0m                                                [1;30m█[0m     [1;30m▓[0m    [31m█[0;37m [0;31m░▒░[0;37m [0;31m▒[0m
         [31m░[0m                                                [1;30m▐▌[0m   [1;30m▐▌[0m    [31m█[0;37m  [0;31m░[0;37m  [0;31m▓[0m
                                                           [1;30m▀[0m [1;30m▄▄▀[0m     [31m▐▌[0m   [31m▐▌[0m
-                                                                     [31m▀[0;37m [0;31m▄▄▀[0m
-
-[37m--(Cut Here)--------------------------------------------------------------------[0m'
+                                                                     [31m▀[0;37m [0;31m▄▄▀[0m'

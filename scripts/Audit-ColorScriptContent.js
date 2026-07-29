@@ -26,6 +26,9 @@ const ART_GLYPH_PATTERN =
     /[\u2190-\u21FF\u2300-\u23FF\u2500-\u259F\u25A0-\u25FF\u2800-\u28FF]/gu;
 const ART_GLYPH_SINGLE_PATTERN =
     /^[\u2190-\u21FF\u2300-\u23FF\u2500-\u259F\u25A0-\u25FF\u2800-\u28FF]$/u;
+const RAW_C0_PATTERN =
+    /^[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]$/u;
+const LEGACY_CP437_SOURCE_CELL_PATTERN = /^\u0016$/u;
 const NONSPACE_PATTERN = /\S/gu;
 const RESET_SEQUENCE = "\u001b[0m";
 const CONTACT_CONTEXT_PATTERN =
@@ -688,7 +691,10 @@ function isFunctionalContactException(file, row) {
  *
  * @param {string} source
  * @param {{
- *     action?: "blank-text" | "remove-row";
+ *     action?: "blank-columns" | "blank-text" | "remove-row";
+ *     columnRanges?: { end: number; start: number }[];
+ *     expectedRawSha256?: string;
+ *     expectedRenderedSha256?: string;
  *     row: number;
  *     sha256?: string;
  *     text?: string;
@@ -704,9 +710,12 @@ function applyReviewedRows(source, evidence) {
     const payload = extractPowerShellPayload(source);
     const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
     const blankIndexes = new Set();
+    const blankColumnRows = new Map();
     const removeIndexes = new Set();
 
     for (const item of evidence) {
+        const action = item?.action || "blank-text";
+        const isBlankColumns = action === "blank-columns";
         if (
             !item ||
             !Number.isInteger(item.row) ||
@@ -717,8 +726,21 @@ function applyReviewedRows(source, evidence) {
                     !/^[a-f\d]{64}$/u.test(item.sha256)))
             ||
             (item.action != null &&
+                item.action !== "blank-columns" &&
                 item.action !== "blank-text" &&
-                item.action !== "remove-row")
+                item.action !== "remove-row") ||
+            (isBlankColumns &&
+                (!Array.isArray(item.columnRanges) ||
+                    typeof item.expectedRawSha256 !== "string" ||
+                    !/^[a-f\d]{64}$/u.test(item.expectedRawSha256) ||
+                    typeof item.expectedRenderedSha256 !== "string" ||
+                    !/^[a-f\d]{64}$/u.test(
+                        item.expectedRenderedSha256
+                    ))) ||
+            (!isBlankColumns &&
+                (item.columnRanges != null ||
+                    item.expectedRawSha256 != null ||
+                    item.expectedRenderedSha256 != null))
         ) {
             throw new RangeError("Reviewed row evidence is malformed.");
         }
@@ -735,13 +757,45 @@ function applyReviewedRows(source, evidence) {
                 `Reviewed row ${item.row} is stale: rendered text no longer matches.`
             );
         }
-        const action = item.action || "blank-text";
-        const target =
-            action === "remove-row" ? removeIndexes : blankIndexes;
-        target.add(rowIndex);
+        if (
+            blankIndexes.has(rowIndex) ||
+            blankColumnRows.has(rowIndex) ||
+            removeIndexes.has(rowIndex)
+        ) {
+            throw new Error(
+                `Reviewed row ${item.row} has conflicting actions.`
+            );
+        }
+        if (action === "remove-row") {
+            removeIndexes.add(rowIndex);
+        } else if (action === "blank-columns") {
+            const blanked = blankTextColumns(
+                rows[rowIndex],
+                item.columnRanges
+            );
+            const rawHash = getRawRowHash(blanked);
+            const renderedHash = getReviewEvidenceHash(
+                stripAnsiControls(blanked)
+            );
+            if (
+                rawHash !== item.expectedRawSha256 ||
+                renderedHash !== item.expectedRenderedSha256
+            ) {
+                throw new Error(
+                    `Reviewed row ${item.row} projection is stale: expected output hashes no longer match.`
+                );
+            }
+            blankColumnRows.set(rowIndex, blanked);
+        } else {
+            blankIndexes.add(rowIndex);
+        }
     }
 
-    if (blankIndexes.size === 0 && removeIndexes.size === 0) {
+    if (
+        blankIndexes.size === 0 &&
+        blankColumnRows.size === 0 &&
+        removeIndexes.size === 0
+    ) {
         return {
             blankedRows: 0,
             changed: false,
@@ -751,8 +805,9 @@ function applyReviewedRows(source, evidence) {
     }
     let blankedRowCount = 0;
     const blankedRows = rows.map((row, index) => {
-        if (!blankIndexes.has(index)) return row;
-        const blanked = blankTextRow(row);
+        const columnBlanked = blankColumnRows.get(index);
+        if (!blankIndexes.has(index) && columnBlanked == null) return row;
+        const blanked = columnBlanked ?? blankTextRow(row);
         if (blanked !== row) blankedRowCount += 1;
         return blanked;
     });
@@ -927,6 +982,155 @@ function blankTextRow(rawRow) {
         })
         .join("");
     return result;
+}
+
+/**
+ * Validate one-based inclusive terminal-cell column ranges.
+ *
+ * @param {unknown} columnRanges
+ * @returns {{ end: number; start: number }[]}
+ */
+function validateColumnRanges(columnRanges) {
+    if (!Array.isArray(columnRanges) || columnRanges.length === 0) {
+        throw new RangeError(
+            "Column ranges must be a non-empty array."
+        );
+    }
+    let previousEnd = 0;
+    return columnRanges.map((range) => {
+        if (
+            !range ||
+            typeof range !== "object" ||
+            !Number.isSafeInteger(range.start) ||
+            !Number.isSafeInteger(range.end) ||
+            range.start < 1 ||
+            range.end < range.start ||
+            range.start <= previousEnd
+        ) {
+            throw new RangeError(
+                "Column ranges must be sorted, non-overlapping, one-based inclusive safe integers."
+            );
+        }
+        previousEnd = range.end;
+        return { end: range.end, start: range.start };
+    });
+}
+
+/**
+ * Blank only explicitly reviewed source-cell columns. ANSI sequences do not
+ * consume a source cell. The one legacy raw CP437 0x16 glyph required by the
+ * retained corpus consumes one source cell and is retained byte-for-byte;
+ * every other unmatched C0 byte fails closed. The accepted glyph set is
+ * deliberately narrow so ambiguous Unicode display widths fail closed.
+ *
+ * @param {string} rawRow
+ * @param {{ end: number; start: number }[]} columnRanges
+ * @returns {string}
+ */
+function blankTextColumns(rawRow, columnRanges) {
+    if (/[\t\r\n]/u.test(rawRow)) {
+        throw new RangeError(
+            "Targeted column blanking does not support tabs or line breaks."
+        );
+    }
+    const ranges = validateColumnRanges(columnRanges);
+    let result = "";
+    let rawCursor = 0;
+    let visibleColumn = 0;
+    let changedCharacters = 0;
+    let rangeIndex = 0;
+
+    /**
+     * @param {string} plainText
+     * @returns {void}
+     */
+    const appendPlainText = (plainText) => {
+        for (const character of plainText) {
+            if (LEGACY_CP437_SOURCE_CELL_PATTERN.test(character)) {
+                visibleColumn += 1;
+                while (
+                    rangeIndex < ranges.length &&
+                    visibleColumn > ranges[rangeIndex].end
+                ) {
+                    rangeIndex += 1;
+                }
+                if (
+                    rangeIndex < ranges.length &&
+                    visibleColumn >= ranges[rangeIndex].start &&
+                    visibleColumn <= ranges[rangeIndex].end
+                ) {
+                    throw new RangeError(
+                        "Targeted column ranges may not select raw C0 source cells."
+                    );
+                }
+                result += character;
+                continue;
+            }
+            if (RAW_C0_PATTERN.test(character)) {
+                throw new RangeError(
+                    "Targeted column blanking encountered an unsupported raw C0 control."
+                );
+            }
+            if (
+                !/^[\u0020-\u007E]$/u.test(character) &&
+                !ART_GLYPH_SINGLE_PATTERN.test(character)
+            ) {
+                throw new RangeError(
+                    "Targeted column blanking encountered a glyph with ambiguous terminal width."
+                );
+            }
+            visibleColumn += 1;
+            while (
+                rangeIndex < ranges.length &&
+                visibleColumn > ranges[rangeIndex].end
+            ) {
+                rangeIndex += 1;
+            }
+            const selected =
+                rangeIndex < ranges.length &&
+                visibleColumn >= ranges[rangeIndex].start &&
+                visibleColumn <= ranges[rangeIndex].end;
+            if (selected && ART_GLYPH_SINGLE_PATTERN.test(character)) {
+                throw new RangeError(
+                    "Targeted column ranges may not select terminal-art glyphs."
+                );
+            }
+            if (selected && character !== " ") {
+                result += " ";
+                changedCharacters += 1;
+            } else {
+                result += character;
+            }
+        }
+    };
+
+    for (const match of rawRow.matchAll(ANSI_CONTROL_PATTERN)) {
+        appendPlainText(rawRow.slice(rawCursor, match.index));
+        result += match[0];
+        rawCursor = match.index + match[0].length;
+    }
+    appendPlainText(rawRow.slice(rawCursor));
+
+    const lastRange = ranges.at(-1);
+    if (lastRange === undefined || lastRange.end > visibleColumn) {
+        throw new RangeError(
+            "Targeted column range extends beyond the rendered row."
+        );
+    }
+    if (changedCharacters === 0) {
+        throw new RangeError(
+            "Targeted column ranges did not redact any visible characters."
+        );
+    }
+    return result;
+}
+
+/**
+ * @param {string} rawRow
+ * @returns {string}
+ */
+function getRawRowHash(rawRow) {
+    return createHash("sha256").update(rawRow, "utf8").digest("hex");
 }
 
 /**
@@ -1524,6 +1728,7 @@ module.exports = {
     auditAuthoredSourceContacts,
     applyReviewedRows,
     auditSource,
+    blankTextColumns,
     blankTextRow,
     compactBlankRowsIntroducedSince,
     documentCuration,
@@ -1533,6 +1738,7 @@ module.exports = {
     findPolicyTerms,
     getAddedFiles,
     getRenderedBlankRows,
+    getRawRowHash,
     getReviewEvidenceHash,
     getWorkingTreeFiles,
     isFunctionalContactException,
@@ -1546,4 +1752,5 @@ module.exports = {
     serializePayload,
     stripAnsiControls,
     trimExpandedLeadingBlankRows,
+    validateColumnRanges,
 };

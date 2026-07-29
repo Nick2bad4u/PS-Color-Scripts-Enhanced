@@ -5,7 +5,7 @@
 # Source SHA-256: 4485faa4bc277789afebe330e272e54ff123b608a071210d3ffcfa24bfa5cbf9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CTD-DIM.ANS by Crash Test Dummy (3o3 Productions); released in 303pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Cl. Dimension
 # SAUCE Author: Crash Test Dummy
 # SAUCE Group: 3o3 Productions
@@ -16,7 +16,7 @@
 
 Write-Host '
 [35m▀[0;1;31;45m▓▄[0;35m▄▄[0;37m [0;32m  [0m               [37m▄[0m                   [32m  [0;35m ▄▄▄▄▄██████▄▄▄▄▄ [0m
-[1;32m▀[0m [35m▀▀[0;32m▄[0;1;32m▀[0;35m▄▄▄[0m          [37m■▄   ▀[0;1;37;47m▄[0m▄ ■▄[1;47m▄[0m  ▄[1;47m ▒[0m▄       [35m███[0;1;37;45m  matrix stuff[0;35m███ [0m
+[1;32m▀[0m [35m▀▀[0;32m▄[0;1;32m▀[0;35m▄▄▄[0m          [37m■▄   ▀[0;1;37;47m▄[0m▄ ■▄[1;47m▄[0m  ▄[1;47m ▒[0m▄       [35m███[0;1;37;45m              [0;35m███ [0m
 [36m    [0;32m■[0;35m▀[0;1;31;45m▓▀█▄[0;35m▄[0;32m▀[0m        [37m▄[0;1;37;47m▄[0m▄▄▓[1;47m▒[0m▀[1;47m▀[0m█[1;47m▓▒▄▒▀[0m▀ ▀▀▄    [35m█[0;1;31;45m▄▀[0;35m█[0;1;37;45m  ...... ..... [0;35m███[0m
 [36m      [0;37m [0;1;32m▄[0;35m▀▀[0;1;32m▄[0;32m■[0;35m▄[0;37m ■▄ ▄▄[0;1;37;47m▓▀[0m▀▀[33m▄▄▄▀▒▄▄▄[0;37m▀▀▓[0;1;37;47m▒[0m    ■  [35m▐[0;1;31;45m▄▓ [0;35m███[0;1;37;45m...... .....[0;35m█████▄[0m
 [36m        [0;37m [0;32m▀ [0;1;31;45m▀▓[0;35m▀[0;37m ▄[0;1;37;47m▀[0m▄[1;47m▄[0m▀[33m▄▓▀[0;37m▄▄▄[0;33m▀▓[0;1;31;43m▀▓▄[0;33m█▓ [0;37m▀[0;1;37;47m▀[0m▄▀  [32m  [0;35m█[0;1;31;45m▓▀[0;35m███[0;1;37;45m ...... .....[0;35m█████▌[0m

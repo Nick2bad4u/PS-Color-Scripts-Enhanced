@@ -169,6 +169,106 @@ test("loadReview preserves bounded duplicate-hash allowances", () => {
     });
 });
 
+test("loadReview preserves validated targeted-column evidence", () => {
+    withTemporaryDirectory((directory) => {
+        const reviewPath = path.join(directory, "review.json");
+        const sha256 = "a".repeat(64);
+        const expectedRawSha256 = "b".repeat(64);
+        const expectedRenderedSha256 = "c".repeat(64);
+        fs.writeFileSync(
+            reviewPath,
+            JSON.stringify({
+                candidates: [
+                    {
+                        evidence: [
+                            {
+                                action: "blank-columns",
+                                columnRanges: [
+                                    { end: 4, start: 2 },
+                                    { end: 9, start: 7 },
+                                ],
+                                expectedRawSha256,
+                                expectedRenderedSha256,
+                                row: 7,
+                                sha256,
+                            },
+                        ],
+                        file: "sample.ps1",
+                    },
+                ],
+            })
+        );
+
+        assert.deepEqual(loadReview(reviewPath), new Map([
+            [
+                "sample.ps1",
+                [
+                    {
+                        action: "blank-columns",
+                        columnRanges: [
+                            { end: 4, start: 2 },
+                            { end: 9, start: 7 },
+                        ],
+                        expectedRawSha256,
+                        expectedRenderedSha256,
+                        row: 7,
+                        sha256,
+                    },
+                ],
+            ],
+        ]));
+    });
+});
+
+test("loadReview rejects malformed or misplaced targeted-column evidence", () => {
+    withTemporaryDirectory((directory) => {
+        const reviewPath = path.join(directory, "review.json");
+        const baseEvidence = {
+            action: "blank-columns",
+            columnRanges: [{ end: 4, start: 2 }],
+            expectedRawSha256: "b".repeat(64),
+            expectedRenderedSha256: "c".repeat(64),
+            row: 7,
+            sha256: "a".repeat(64),
+        };
+        const writeReview = (evidence) => {
+            fs.writeFileSync(
+                reviewPath,
+                JSON.stringify({
+                    candidates: [{ evidence: [evidence], file: "sample.ps1" }],
+                })
+            );
+        };
+
+        writeReview({
+            ...baseEvidence,
+            columnRanges: [
+                { end: 4, start: 2 },
+                { end: 5, start: 4 },
+            ],
+        });
+        assert.throws(() => loadReview(reviewPath), /malformed/u);
+
+        writeReview({
+            ...baseEvidence,
+            expectedRawSha256: undefined,
+        });
+        assert.throws(() => loadReview(reviewPath), /malformed/u);
+
+        writeReview({
+            ...baseEvidence,
+            action: "blank-text",
+        });
+        assert.throws(() => loadReview(reviewPath), /malformed/u);
+
+        writeReview({
+            ...baseEvidence,
+            row: 0,
+        });
+        assert.throws(() => loadReview(reviewPath), /malformed/u);
+    });
+});
+
 test("baseline comparison distinguishes introduced blanks from authored blanks", () => {
     const baseline =
         "# Source Modification: original\nWrite-Host '\nART\nPROMO\n\n'";

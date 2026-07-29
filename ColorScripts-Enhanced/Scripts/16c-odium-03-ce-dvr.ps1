@@ -5,7 +5,7 @@
 # Source SHA-256: c90adf827c72a8c5d7b050340c67fce6e2e71a143d3ab7729f527dfaabc36380
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CE-DVR.ANS by celestian (odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: dvr
 # SAUCE Author: celestian
 # SAUCE Group: odium
@@ -57,4 +57,4 @@ Write-Host '
 [1;34;40m██████████████████████████████████████████████████████████████████████████████[0m
 [1;37;40m                                                                              [0m
 
-[1;37;40m----------------------//---[ cut here ] -------//-----------------------------[0m'
+[1;37;40m                                                                              [0m'

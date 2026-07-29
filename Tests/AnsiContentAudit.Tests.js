@@ -10,6 +10,7 @@ const {
     auditAuthoredSourceContacts,
     applyReviewedRows,
     auditSource,
+    blankTextColumns,
     blankTextRow,
     compactBlankRowsIntroducedSince,
     documentCuration,
@@ -18,6 +19,7 @@ const {
     findContactDetails,
     findPolicyTerms,
     getRenderedBlankRows,
+    getRawRowHash,
     getReviewEvidenceHash,
     isFunctionalContactException,
     isSourceFidelityLocked,
@@ -253,6 +255,66 @@ test("blankTextRow preserves ANSI controls, geometry, and art glyphs", () => {
     );
 });
 
+test("blankTextColumns preserves controls, geometry, and unselected cells", () => {
+    const input = "\u001b[41mAB\u0016CD ░ EF\u001b[0m";
+    const output = blankTextColumns(input, [{ end: 5, start: 4 }]);
+    const multiRangeOutput = blankTextColumns(
+        "\u001b[31mABC\u001b[0m DEF",
+        [
+            { end: 1, start: 1 },
+            { end: 7, start: 5 },
+        ]
+    );
+
+    assert.equal(output, "\u001b[41mAB\u0016   ░ EF\u001b[0m");
+    assert.equal(multiRangeOutput, "\u001b[31m BC\u001b[0m    ");
+    assert.equal(stripAnsiControls(output), "AB   ░ EF");
+    assert.equal(
+        stripAnsiControls(output).length,
+        stripAnsiControls(input).length
+    );
+});
+
+test("blankTextColumns rejects ambiguous or destructive ranges", () => {
+    assert.throws(() => blankTextColumns("text", []), /non-empty/u);
+    assert.throws(
+        () =>
+            blankTextColumns("text", [
+                { end: 2, start: 1 },
+                { end: 3, start: 2 },
+            ]),
+        /sorted, non-overlapping/u
+    );
+    assert.throws(
+        () => blankTextColumns("text", [{ end: 5, start: 4 }]),
+        /beyond/u
+    );
+    assert.throws(
+        () => blankTextColumns("te\txt", [{ end: 2, start: 1 }]),
+        /tabs/u
+    );
+    assert.throws(
+        () => blankTextColumns("tést", [{ end: 1, start: 1 }]),
+        /ambiguous terminal width/u
+    );
+    assert.throws(
+        () => blankTextColumns("░ text", [{ end: 1, start: 1 }]),
+        /terminal-art/u
+    );
+    assert.throws(
+        () => blankTextColumns("A\u0016B", [{ end: 2, start: 2 }]),
+        /raw C0/u
+    );
+    assert.throws(
+        () => blankTextColumns("AB\u001b", [{ end: 1, start: 1 }]),
+        /unsupported raw C0/u
+    );
+    assert.throws(
+        () => blankTextColumns(" text", [{ end: 1, start: 1 }]),
+        /did not redact/u
+    );
+});
+
 test("reviewed row redaction fails closed and preserves neighboring artwork", () => {
     const source = `# Source Modification: original conversion
 
@@ -293,6 +355,76 @@ Call 212-555-0198
         () =>
             applyReviewedRows(source, [{ row: 3, text: "Call 212-555-0100" }]),
         /stale/u
+    );
+});
+
+test("reviewed targeted redaction requires pinned output hashes", () => {
+    const rawRow = "\u001b[41mLabel: 12345 ░\u001b[0m";
+    const source = `Write-Host '
+${rawRow}
+'`;
+    const columnRanges = [{ end: 12, start: 8 }];
+    const expectedRow = blankTextColumns(rawRow, columnRanges);
+    const evidence = {
+        action: "blank-columns",
+        columnRanges,
+        expectedRawSha256: getRawRowHash(expectedRow),
+        expectedRenderedSha256: getReviewEvidenceHash(
+            stripAnsiControls(expectedRow)
+        ),
+        row: 2,
+        sha256: getReviewEvidenceHash(stripAnsiControls(rawRow)),
+    };
+    const result = applyReviewedRows(source, [evidence]);
+
+    assert.equal(result.blankedRows, 1);
+    assert.equal(result.removedRows, 0);
+    assert.match(result.source, /Label: {7}░/u);
+    assert.throws(
+        () =>
+            applyReviewedRows(source, [
+                { ...evidence, expectedRawSha256: "0".repeat(64) },
+            ]),
+        /projection is stale/u
+    );
+    assert.throws(
+        () =>
+            applyReviewedRows(source, [
+                {
+                    ...evidence,
+                    expectedRenderedSha256: "0".repeat(64),
+                },
+            ]),
+        /projection is stale/u
+    );
+    assert.throws(
+        () =>
+            applyReviewedRows(source.replace("[41m", "[42m"), [
+                evidence,
+            ]),
+        /projection is stale/u
+    );
+    assert.throws(
+        () =>
+            applyReviewedRows(source, [
+                {
+                    ...evidence,
+                    action: "blank-text",
+                },
+            ]),
+        /malformed/u
+    );
+    assert.throws(
+        () =>
+            applyReviewedRows(source, [
+                evidence,
+                {
+                    action: "remove-row",
+                    row: evidence.row,
+                    sha256: evidence.sha256,
+                },
+            ]),
+        /conflicting actions/u
     );
 });
 
@@ -567,8 +699,8 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.removals.adultContentWorks, 21);
     assert.equal(checkpoint.policyReview.adultTaggedWorksRetained, 9);
     assert.equal(checkpoint.policyReview.adultTaggedScriptsRetained, 13);
-    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 47017);
-    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23862);
+    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 47098);
+    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23914);
     assert.equal(
         checkpoint.contentCleanup.highConfidenceGeometryRowsRemoved,
         767
@@ -577,10 +709,10 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.contentCleanup.residualContentRowsRemoved, 6);
     assert.equal(checkpoint.contentCleanup.residualGeometryRowsRemoved, 77);
     assert.equal(checkpoint.contentCleanup.contactOrPromotionalRowsBlanked, 646);
-    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 13057);
+    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 13138);
     assert.equal(
         checkpoint.contentCleanup.residualMixedTextTrailingRowsRemoved,
-        103
+        155
     );
     assert.equal(
         checkpoint.residualCleanupReview.mixedTextPass2FilesRedacted,
@@ -881,6 +1013,18 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(
         checkpoint.residualCleanupReview.mixedTextPass26TrailingRowsRemoved,
         2
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass27FilesRedacted,
+        53
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass27RowsBlanked,
+        81
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass27TrailingRowsRemoved,
+        52
     );
     assert.equal(checkpoint.removals.residualAdvertisementWorks, 8);
     assert.equal(checkpoint.removals.residualAdvertisementScripts, 27);

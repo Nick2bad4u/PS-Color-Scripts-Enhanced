@@ -5,7 +5,7 @@
 # Source SHA-256: 9e30f703868253e6390948623b0edeafc06c946499db0867fc023bc25321f284
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-REQUE.ANS by .o!Skyknight-o. (AXF.ANL.ELP); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Request
 # SAUCE Author: .o!Skyknight-o.
 # SAUCE Group: AXF.ANL.ELP
@@ -21,5 +21,4 @@ Write-Host '
 [1;30m▒▒▒▒ [0;1;31;43m▓[0;1;31;40m▄▄[0m [1;31m▀[0m [1;31m▄[0;1;31;43m▒[0;33m [0;1;30m▒▒▒▒▒▒▒[0;36m█[0;37;46m░[0;37;40m [0;1;35;45m█▓[0;1;35;40m▄[0;35m▄[0;1;35;45m░[0;35m▀[0;37m [0;1;35;45m█▓[0;1;35;40m▀▀[0;35m▀▀[0;37m [0;1;35m█[0;1;35;45m▓[0m  [1;35;45m░[0;35m█[0;37m [0;1;35m█[0;1;35;45m▓[0;36m  [0;1;35;45m░[0;35m█[0;1;35m █[0;1;35;45m▓[0;1;35;40m▀▀[0;35m▀▀[0;37m  [0;1;35m▀▀[0;35m▀[0;1;35;45m░[0;35m▄[0;37m  [0;1;35;45m▓▒[0m [36m▄▄█[0;1;36;46m [0;1;30;40m▒▒▒▒▒▒[0m
       [1;31m▀[0;1;31;43m▒▓[0;1;31;40m▀▀[0;1;31;43m▓[0;33m▌[0m       [36m █[0;37;46m░[0;37;40m [0;1;35;45m▓▒[0m  [35;47m█[0;35;40m█[0;37;40m [0;1;35;40m▀[0;1;35;45m▒[0;35m▄▄█▀[0;37m [0;1;35m▀[0;1;35;45m▒[0;35m▄[0;1;35;45m░[0;35m█▀[0;37m [0;1;35m▀[0;1;35;45m▒[0;35m▄▄█▀[0;37m [0;1;35m▀[0;1;35;45m▒[0;35m▄▄█▀[0;37m [0;1;35m▀[0;1;35;45m▒[0;35m▄▄█▀[0;37m  [0;1;35m▀[0;1;35;45m░[0m [36m█[0;37;46m░[0;1;36;46m░[0;36m█[0;37m ![0;36mSk[0;37m¡[0m
         [1;31m▀▀[0;33m▀[0;37m  [0;36m        █[0;1;36;46m▒[0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37;46m░[0;36;40m▄▄▄▄[0;37;40m [0;35;40m▀[0;37;40m [0;36;40m▄▄▄▄▄▄█▄▄▄▄▄▄█▄▄▄▄▄▄██▄▄▄[0;1;36;46m▒[0;46m░[0;1;36;46m [0;36m█[0m
-                     [1;36m [0;36m▀▀▀▀[0;30;46m░[0;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;46m░[0;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36;40m [0m
-[1;30m--------------------------[ cut[0m [1;30mhere ]-----------------------------------------[0m'
+                     [1;36m [0;36m▀▀▀▀[0;30;46m░[0;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;46m░[0;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36;40m [0m'

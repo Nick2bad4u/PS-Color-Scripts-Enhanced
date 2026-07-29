@@ -13,6 +13,7 @@ const {
     removeTrailingBlankRows,
     stripAnsiControls,
     trimExpandedLeadingBlankRows,
+    validateColumnRanges,
 } = require("./Audit-ColorScriptContent.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
@@ -88,8 +89,11 @@ function mayContainNewBlankRows(source, baselineSource) {
 /**
  * @param {string} reviewPath
  * @returns {Map<string, {
- *     action?: "blank-text" | "remove-row";
+ *     action?: "blank-columns" | "blank-text" | "remove-row";
  *     allowedRemainingOccurrences?: number;
+ *     columnRanges?: { end: number; start: number }[];
+ *     expectedRawSha256?: string;
+ *     expectedRenderedSha256?: string;
  *     row: number;
  *     sha256?: string;
  *     text?: string;
@@ -117,15 +121,33 @@ function loadReview(reviewPath) {
         }
         const rows = new Map();
         for (const evidence of candidate.evidence) {
+            const action = evidence?.action || "blank-text";
+            const isBlankColumns = action === "blank-columns";
             if (
                 !evidence ||
                 !Number.isInteger(evidence.row) ||
+                evidence.row < 1 ||
                 (typeof evidence.text !== "string" &&
                     (typeof evidence.sha256 !== "string" ||
                         !/^[a-f\d]{64}$/u.test(evidence.sha256))) ||
                 (evidence.action != null &&
+                    evidence.action !== "blank-columns" &&
                     evidence.action !== "blank-text" &&
                     evidence.action !== "remove-row") ||
+                (isBlankColumns &&
+                    (typeof evidence.expectedRawSha256 !== "string" ||
+                        !/^[a-f\d]{64}$/u.test(
+                            evidence.expectedRawSha256
+                        ) ||
+                        typeof evidence.expectedRenderedSha256 !==
+                            "string" ||
+                        !/^[a-f\d]{64}$/u.test(
+                            evidence.expectedRenderedSha256
+                        ))) ||
+                (!isBlankColumns &&
+                    (evidence.columnRanges != null ||
+                        evidence.expectedRawSha256 != null ||
+                        evidence.expectedRenderedSha256 != null)) ||
                 (evidence.allowedRemainingOccurrences != null &&
                     (!Number.isSafeInteger(
                         evidence.allowedRemainingOccurrences
@@ -135,6 +157,19 @@ function loadReview(reviewPath) {
                 throw new Error(
                     `${candidate.file}: reviewed row evidence is malformed.`
                 );
+            }
+            let columnRanges;
+            if (isBlankColumns) {
+                try {
+                    columnRanges = validateColumnRanges(
+                        evidence.columnRanges
+                    );
+                } catch (error) {
+                    throw new Error(
+                        `${candidate.file}: reviewed row evidence is malformed.`,
+                        { cause: error }
+                    );
+                }
             }
             const normalized = {
                 ...(typeof evidence.action === "string"
@@ -149,6 +184,20 @@ function loadReview(reviewPath) {
                     : {}),
                 ...(typeof evidence.sha256 === "string"
                     ? { sha256: evidence.sha256 }
+                    : {}),
+                ...(columnRanges == null ? {} : { columnRanges }),
+                ...(typeof evidence.expectedRawSha256 === "string"
+                    ? {
+                          expectedRawSha256:
+                              evidence.expectedRawSha256,
+                      }
+                    : {}),
+                ...(typeof evidence.expectedRenderedSha256 ===
+                    "string"
+                    ? {
+                          expectedRenderedSha256:
+                              evidence.expectedRenderedSha256,
+                      }
                     : {}),
                 ...(typeof evidence.text === "string"
                     ? { text: evidence.text }

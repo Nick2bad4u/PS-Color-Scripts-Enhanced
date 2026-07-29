@@ -5,7 +5,7 @@
 # Source SHA-256: ac16ed6328713f8994c25c52d30d19614858f868ef031ce4072a77b3256265ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P8-SK.ANS by <sOulphuree> (Maiden Brazil); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: silicon knights to l0rd mafesto ..
 # SAUCE Author: <sOulphuree>
 # SAUCE Group: Maiden Brazil
@@ -31,6 +31,6 @@ Write-Host '
             [1;37m`[0m
                                                              [1;37m_.,[0;1;31m_[0m       _s[1;30ms_[0m
                                                               [1;31m~ⁿ$$b_ _s[0;1;30m$ⁿ__ⁿ[0m
--[1;30m----(CUT/HERE)------------------------------------------------- [0;1;31m~;[0m%[1;31m$[0;1;30m- --------[0m
+ [1;30m                                                                [0;1;31m  [0m [1;31m [0;1;30m          [0m
                                                                [1;31m_s$$[0;31mⁿ ~ⁿ[0;1;30m$s°°s[0m
                                                               [31m~ⁿ°''[0m      [1;30m~ss''[0m'
