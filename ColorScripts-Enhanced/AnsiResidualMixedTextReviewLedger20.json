@@ -4,14 +4,14 @@
     "normalization": "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
     "policy": "Human-reviewed readable prose, dialogue, generic menu fields, captions, placeholder copy, and explicit filler text found by disjoint punctuation, clustered-row, short-multiword, single-caption, and targeted placeholder detectors were blanked when row-level redaction preserved the surrounding ANSI artwork, controls, backgrounds, and geometry. Artist and group attribution, titles, filenames, dates, source-significant labels, thematic captions, repeated lettering used as structural texture, and large typographic art were retained.",
     "summary": {
-        "candidateFiles": 49,
-        "evidenceRows": 232,
+        "candidateFiles": 48,
+        "evidenceRows": 230,
         "categoryRows": {
-            "alternative-punctuated": 4,
+            "alternative-punctuated": 3,
             "alternative-punctuated+manual-followup": 52,
             "manual-followup": 74,
             "alternative-clustered+manual-followup": 65,
-            "outside-queue-followup": 37
+            "outside-queue-followup": 36
         }
     },
     "candidates": [
@@ -39,19 +39,6 @@
                 }
             ],
             "file": "16c-acdu0494-ld-ch01-part04.ps1",
-            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
-        },
-        {
-            "action": "blank-text",
-            "category": "alternative-punctuated",
-            "evidence": [
-                {
-                    "action": "blank-text",
-                    "row": 21,
-                    "sha256": "b64d6f2d8c86d932d10ce1980e18872efdbc01e528a5352c29763bf0a12ba20e"
-                }
-            ],
-            "file": "16c-amb-0002-mb-kma1.ps1",
             "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
         },
         {
@@ -866,11 +853,6 @@
                     "action": "blank-text",
                     "row": 19,
                     "sha256": "ac24ea30840b49111472ac2c1a1cbba2803ab8cb00ee78fe68dbb2a3545eeae3"
-                },
-                {
-                    "action": "blank-text",
-                    "row": 23,
-                    "sha256": "4140835b8009ef1be6a79a16c5272803467cf7de307fae798704c3f0d9879fe0"
                 }
             ],
             "file": "16c-laz08jly-bf-tic1.ps1",
