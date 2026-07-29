@@ -567,7 +567,7 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.removals.adultContentWorks, 21);
     assert.equal(checkpoint.policyReview.adultTaggedWorksRetained, 9);
     assert.equal(checkpoint.policyReview.adultTaggedScriptsRetained, 13);
-    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 45533);
+    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 45620);
     assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23860);
     assert.equal(
         checkpoint.contentCleanup.highConfidenceGeometryRowsRemoved,
@@ -577,7 +577,7 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.contentCleanup.residualContentRowsRemoved, 6);
     assert.equal(checkpoint.contentCleanup.residualGeometryRowsRemoved, 77);
     assert.equal(checkpoint.contentCleanup.contactOrPromotionalRowsBlanked, 646);
-    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 11573);
+    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 11660);
     assert.equal(
         checkpoint.contentCleanup.residualMixedTextTrailingRowsRemoved,
         101
@@ -701,6 +701,18 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(
         checkpoint.residualCleanupReview.mixedTextPass11TrailingRowsRemoved,
         9
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass12FilesRedacted,
+        76
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass12RowsBlanked,
+        87
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass12TrailingRowsRemoved,
+        0
     );
     assert.equal(checkpoint.removals.residualAdvertisementWorks, 8);
     assert.equal(checkpoint.removals.residualAdvertisementScripts, 27);

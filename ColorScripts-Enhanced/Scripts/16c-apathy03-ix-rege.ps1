@@ -5,7 +5,7 @@
 # Source SHA-256: 0809d31d5533d364c3fe4bd073c4d00878d889489c32b906cb9a8b1f27c41146
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IX-REGE.ANS by Illusion X (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Regency
 # SAUCE Author: Illusion X
 # SAUCE Date: 19951025
@@ -27,7 +27,7 @@ Write-Host '
 [1;31m █▀▀▀██████████[0;1;31;44m█[0;1;31;40m████████████████▀▄██[0;35m░[0;1;31m████[0;1;37m|[0m [32m ▀[0;1;32;42m▓[0;32m▀▀▀▀▀▀█▄■▀[0m
 [1;31m█ ▄▀▓▓ ░▀▀▀███[0;1;31;44m█▀▐[0;1;31;40m██████████████[0;1;31;44m▐[0;1;31;40m▄███[0;35m░[0;1;31m████[0;1;37m|[0m [32m  [0;1;32;42m▒[0;32m      [0;1;32;42m░[0;32m▌[0m
 [1;31m██▓█▄▄▄▄░   ░▀[0;1;34;44m░▓[0;1;31;40m██████████████[0;1;34;44m▓[0;1;31;44m▐█[0;1;31;40m██[0;35m░[0;1;31m█████[0;1;37m|[0m [32m  [0;1;32;42m░[0;32m  [0m    [32m█[0m          [1;30margh.. i give[0m
-[1;31m███████████▄▄  ▀██████████████[0;1;31;44m▄█[0;1;31;40m███[0;35m▒[0;1;31m█████[0;1;37m|[0m [32m  █   [0m   [32m    [0m      [1;30mput whatever her[0m
+[1;31m███████████▄▄  ▀██████████████[0;1;31;44m▄█[0;1;31;40m███[0;35m▒[0;1;31m█████[0;1;37m [0m [32m  █   [0m   [32m    [0m      [1;30m                [0m
 [1;31m██████████████▄▄ ▀█████████████████[0;35m░[0;1;31m█████[0;1;37m|[0m [32m  [0;1;32;42m░[0;32m  █▄▄▄▄▄▄▄[0m      [1;30mlike..stats[0m
 [1;31m█████████████████▄  ▀▀▀█████████████[0;35m░[0;1;31m████[0;1;37m|[0m   [32m█  [0;1;32;42m░[0;32m      [0;1;32;42m▒[0;32m    [0m
 [1;31m████▄█▀████████████▄     ▀▀████[0;1;31;43m▓▓[0;1;31;40m███ ████[0;1;37;40m|[0m      [1;32;42m░[0;32m      [0;1;32;42m▓[0m   [32m [0m

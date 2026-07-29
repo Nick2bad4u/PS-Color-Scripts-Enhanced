@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 45533,
+        "totalRowsBlanked": 45620,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 11573,
+        "residualMixedTextRowsBlanked": 11660,
         "residualMixedTextTrailingRowsRemoved": 101,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -93,6 +93,7 @@
         "mixedTextLedger9": "AnsiResidualMixedTextReviewLedger9.json",
         "mixedTextLedger10": "AnsiResidualMixedTextReviewLedger10.json",
         "mixedTextLedger11": "AnsiResidualMixedTextReviewLedger11.json",
+        "mixedTextLedger12": "AnsiResidualMixedTextReviewLedger12.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -134,7 +135,10 @@
         "mixedTextPass10TrailingRowsRemoved": 0,
         "mixedTextPass11FilesRedacted": 170,
         "mixedTextPass11RowsBlanked": 227,
-        "mixedTextPass11TrailingRowsRemoved": 9
+        "mixedTextPass11TrailingRowsRemoved": 9,
+        "mixedTextPass12FilesRedacted": 76,
+        "mixedTextPass12RowsBlanked": 87,
+        "mixedTextPass12TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -166,6 +170,7 @@
         "An eleventh hash-locked mixed-text review blanked 207 rows of readable prose, dialogue, generic menu fields, captions, and placeholders found by disjoint punctuation, clustered-row, short-multiword, and single-caption detectors across 134 scripts while retaining artist and group attribution, titles, filenames, dates, source-significant labels, structural lettering, and large typographic art; no newly empty terminal rows were removed.",
         "A twelfth hash-locked mixed-text review blanked 62 rows of readable prose, dialogue, generic menu fields, captions, and placeholders across 50 scripts after snapshotting all 1,600 reviewed punctuation, cluster, short-multiword, and single-caption candidates; no newly empty terminal rows were removed.",
         "A thirteenth hash-locked mixed-text review blanked 227 rows of readable prose, dialogue, generic menu fields, captions, and placeholders across 170 scripts after snapshotting and classifying all 1,559 fresh detector candidates; nine newly empty terminal rows were removed. The same validation pass removed two whole works whose normalized renders became duplicates of earlier or stable-preferred retained sources and retired one continuous-split exception whose triggering boundary no longer exists.",
+        "A fourteenth hash-locked mixed-text review blanked 87 rows of readable prose, dialogue, generic menu fields, captions, and placeholders across 76 scripts after snapshotting and classifying all 927 fresh detector candidates. It retained the remaining 840 rows as artwork titles, attribution, BBS or service facts, interface labels, structural lettering, or uncertain source-significant text; no newly empty terminal rows were removed.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
@@ -302,7 +307,7 @@
         "continuous-split-review": 1955,
         "dense-split-boundary": 11,
         "extreme-leading-blank-run": 10,
-        "internal-blank-run": 1391,
+        "internal-blank-run": 1392,
         "leading-blank-run": 1845,
         "orphaned-tail-after-blank-run": 12,
         "tiny-tail-part": 70

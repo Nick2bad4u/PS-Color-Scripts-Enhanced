@@ -73,6 +73,10 @@ const MIXED_TEXT_LEDGER11_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger11.json"
 );
+const MIXED_TEXT_LEDGER12_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger12.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -866,6 +870,14 @@ test("eleventh mixed text review is hash-only and fully applied", () => {
             },
             { file: "16c-rare-002-cko-wmsg.ps1", row: 17 },
         ],
+    });
+});
+
+test("twelfth mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER12_PATH, {
+        candidateFiles: 76,
+        evidenceRows: 87,
+        expectedMissingRows: [],
     });
 });
 
