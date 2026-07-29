@@ -5,7 +5,7 @@
 # Source SHA-256: a7fb32fe8b22429c39656cffa072de536beb943f19c4cb94d9128062ad99b747
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!QTM2.ANS by cat-dog (hazmat!a); released in cia60-b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: quantum #2
 # SAUCE Author: cat-dog
 # SAUCE Group: hazmat!a
@@ -53,4 +53,4 @@ $$$$$$$$$\  `┘,.                    [30mcd![0m                 [37m   _.└
                                                    [37m^^^[0m      [37m     $$`````````````[0m
                                                                  [37m^^[0m   [37m          [0m
 [37m                   o_/[0m   [37m [0m    [37mo_/[0m        [37m [0m            [37mo_/                   o_/[0m
-[37m────( cut mmkoy? )─O°\────────O°\─────────────────────O°\───────────────────O°\─[0m'
+[37m────(            )─O°\────────O°\─────────────────────O°\───────────────────O°\─[0m'

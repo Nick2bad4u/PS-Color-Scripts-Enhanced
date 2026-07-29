@@ -5,7 +5,7 @@
 # Source SHA-256: 192c92a8c2c0b33945343854738bc5b26133b777cf34388269bc43ac6369d25d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N4-PRG.ANS by Sodium (wax-02); released in wax-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 19971030
 # SAUCE Dimensions: 80x25
 # Lines: 1-25
@@ -31,4 +31,4 @@ Write-Host '
                            [32m:[0;1;32m:[0m                   [1m+o [0;1;33m::[0m m7m[1;31m  [0m
                            [32m..[0m                  [36m [0m
                            [32m  [0m
-[37m-----{{ Scissor''s Here }}-------------------------------------------------------[0m'
+[37m-----{{                }}-------------------------------------------------------[0m'

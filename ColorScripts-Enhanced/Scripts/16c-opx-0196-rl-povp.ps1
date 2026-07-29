@@ -5,7 +5,7 @@
 # Source SHA-256: 709334d383fcfb2bf1140897303f1f86a5c57a7b364e71b86dff7b09e11dbe5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-POVP!.ANS by Rawlock (Opium); released in opx-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Povertys Paradise
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -30,7 +30,7 @@ Write-Host '
  [1;30m                                                                              [0m
  [1m  [0m        [1m  [0;1;30m-[0m≥ [1mW e l c o m e   t o   t h e   P a r a d i s e [0m≤[1;30m-[0;1;37m [0m
 
-[1;34m-----[0;1;37m[[0mKeep em[1;30m''[0;1;34m [0mseparated[1m][0;1;34m-------------------------------------------------------[0m
+[1;34m-----[0;1;37m[[0m       [1;30m [0;1;34m [0m         [1m][0;1;34m-------------------------------------------------------[0m
 
 [1;30m                            [0m                         [1;32m████[0m
 [1;30m [0m [1;32m▀▄[0;1;32;47m▓▓▓[0;1;32;40m▀[0;1;32;47m▓[0;1;32;40m▓█▄[0m [1;32m▄[0;1;32;47m▓▓▓[0;1;32;40m▀[0;1;32;47m▓[0;1;32;40m▓▄▄[0m [1;32;47m▓▓▓▓[0m [1;32;47m▓[0;1;32;40m▓▄▄[0m [1;32m▄[0;1;32;47m▓▓▓[0;1;32;40m▀[0;1;32;47m▓[0;1;32;40m█▄▄[0m [1;32m▄[0;1;32;47m▓▓▓[0;1;32;40m▀[0;1;32;47m▓[0;1;32;40m▓▄▄▀[0;1;32;47m▓▓▓▓[0;1;32;40m▀█[0;1;32;47m▓▓▓[0m [1;32;47m▓[0;1;32;40m█▄▄[0m [1;32m▄[0;1;32;47m▓▓▓[0;1;32;40m▀[0;1;32;47m▓[0;1;32;40m▓▄▄[0m
@@ -47,4 +47,4 @@ Write-Host '
  [1;30m                                                                              [0m
                [1;30m-[0m≥ [1mW e l c o m e   t o   t h e   P a r a d i s e [0m≤[1;30m-[0;1;37m [0m
 
-[1;34m-----[0;1;37m[[0mKeep em[1;30m''[0;1;34m [0mseparated[1m][0;1;34m-------------------------------------------------------[0m'
+[1;34m-----[0;1;37m[[0m       [1;30m [0;1;34m [0m         [1m][0;1;34m-------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 902904ca4c2c2206912fdc368e307c92125ef63dcd6303a9b9eacec7a726c0c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR!EMERG.ANS by trinity (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: emergency page
 # SAUCE Author: trinity
 # SAUCE Group: Phat Studios '97
@@ -17,7 +17,7 @@
 Write-Host '
 [1;30m▀████▄▄▄▄▄▄▓▓[0m                  [1;34m  [0;32m▄▄▄[0m     [1;32m▄▄[0m [1;32m▀[0m
   [1;33m▄▄▄▄[0m [1;30m▀▀▀▀▀███▀▀▀[0m    [32m▄▄▄▄▄▄▄▄[0;1;32;42m░▒░[0;32m███[0;37m  [0;1;32m▄[0;1;32;47m▓[0;1;32;40m█▀[0m     [31memergency![0m                  [31m░░[0m
-[1;33m▄▄█[0;1;33;42m█[0;1;37;40m███[0;1;33;42m████[0;1;33;40m▄▄▄▄▄[0;1;33;42m███▀▀▀      [0;32m████████▌[0;1;32m█[0;1;32;47m░▓[0m    [1;30m [0m  [31menter[0;37m [0;31mpassword:[xxxxx......][0m
+[1;33m▄▄█[0;1;33;42m█[0;1;37;40m███[0;1;33;42m████[0;1;33;40m▄▄▄▄▄[0;1;33;42m███▀▀▀      [0;32m████████▌[0;1;32m█[0;1;32;47m░▓[0m    [1;30m [0m  [31menter[0;37m [0;31mpassword:[     ......][0m
    [1;33m██[0;1;33;42m███▀   ▀██▀▀▀▓[0;32m██▀▀▀▀████████[0;1;32;42m [0;32m█[0;1;32;42m░▐█[0;1;32;47m▓[0;1;32;40m▌▄[0;32m [0;37m   [0;1;30m  [0m   [31m░░[0;37m [0;1;30m            [0m
   [1;30m█▄[0;1;33m▐[0;1;33;42m▓▓▓[0;32m█████[0;1;33;42m▐▌[0;32m███[0;1;33;42m░[0;32m██▌[0m       [32m▀█[0;1;32;42m  ░ [0;32m██[0;1;32m▀▀███▄[0m   [1;30m   [0;32m    [0;1;30m      [0m  [1;30m   [0m
   [1;30m██[0;1;35m░[0;1;33;42m░░░[0;32m███████████████████▄▄▄█[0;1;32;42m  ▓▄▄▄[0;32m█[0;37m  [0;1;32m▀▐█▌[0m [1;30m    [0;32m     [0;1;30m          [0m

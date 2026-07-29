@@ -5,7 +5,7 @@
 # Source SHA-256: 764bb00f99d9274fb922c64a883f538cef3ffd4cd98380a894cbec0fc95c8950
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cxc-capitol_shrill-bbs_washington_monument_final.ans by Coaxcable (cph.artpack28); released in cph.artpack28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
 [37m▌[0;34m█[0;37m ▌[0;34m▄[0;37m ▀▀▀▀[0;34m▄[0;37m▀▀▀▀▐[0;34m▐[0;37m ▌▀▀▀▀[0;34m▄[0;37m▀▀▀▀▀▌[0;34m▄[0;37m▀▀▀▀▀█▀▐[0;1;37;47m▓[0;1;37;40m▌[0m▀  ▐▀▀▀███▀▀ [34m▄[0;37m▐▀▀▀▀▀▐ [0;34m▄[0;37m▀▀▀[0;34m▄[0;37m▀▀▀▀▀▀▌ ▌[0;34m▄[0;37m▐[0m
 [37m▌[0;34m█▄▄███████████[0;37m▐[0;34m▐▌[0;37m▀[0;34m▓████████[0;37m ▌[0;34m█████▌[0;37m▐ [0;1;30;47m░[0;1;37;47m▓█[0m [34m█▌[0;37m▐ [0;34m█[0;37m ■  [0;34m■▀▀[0;37m ▀ [0;34m▀▀▀▀[0;37m" [0;34m▀▀▀▀▀▀▀▀██[0;37m :[0;34m▀▀█[0;37m▐[0m
 [1;34m┌──────────────────────────────────┐[0;34m█[0;37m [0;1;30;47m░[0;1;37;47m██[0m [34m██▄██[0;37m █[0;1;33;47m░[0m▀[1;47m░[0m █[1;33;47m░[0m █[1;47m▓[0m ██▀▀█ ▀[1m▀[0m [1;33;47m▒[0;1;37;47m▓[0m [34m██[0;37m [0;1;33;47m░[0;1;37;47m▓[0m [34m██[0m
-[1;34m│Date XX/XX/XXXX ■ Time XX:XX ZONE[0m [1;34m│[0;34m█[0;1;30m░[0;1;30;47m░[0;1;36;47m░[0;1;37;47m█[0m [34m█████[0;37m [0;37;43m▓[0;37;40m█▄▄ [0;37;43m▓[0;37;40m█▄██ [0;37;43m▓[0;37;40m█▄▄[0;1;37;47m▒[0m [43m▓[0;40m█ [0;43m▓[0;1;47m▒[0m [34m▀▀[0;37m [0;37;43m▓[0;1;37;47m▒[0m [34m▀▀[0m
+[1;34m│Date   /  /     ■ Time   :       [0m [1;34m│[0;34m█[0;1;30m░[0;1;30;47m░[0;1;36;47m░[0;1;37;47m█[0m [34m█████[0;37m [0;37;43m▓[0;37;40m█▄▄ [0;37;43m▓[0;37;40m█▄██ [0;37;43m▓[0;37;40m█▄▄[0;1;37;47m▒[0m [43m▓[0;40m█ [0;43m▓[0;1;47m▒[0m [34m▀▀[0;37m [0;37;43m▓[0;1;37;47m▒[0m [34m▀▀[0m
 [1;34m└──────────────────────────────────┘[0;34m▌[0;1;30m▐[0;1;30;47m▐[0;1;36;47m░[0;1;37;47m█[0;1;37;40m▌[0;34m▀▀▀▀▀[0;37m ▄ █[0;1;33;47m░[0m [43m▓[0;40m█ [0;1;33;47m░▒[0m [43m▓[0;40m█ █▄ [0;43m▓[0;1;33;47m░[0m [43m▓[0;40m█ [0;1;33;47m░[0;1;37;40m█[0m [43m▓[0;1;33;47m░[0m █[1m█[0m
 [34m ███████████████████████████████████▌[0;1;30m▐[0;1;30;47m▐[0;1;37;47m▒▒[0;1;37;40m▌[0m▀▀▀▀▀ ▀▀▀▀ ▀▀ ▀▀ ▀▀ [1;33;47m░░[0m ▀▀ ▀▀▀▀▀ ▀▀▀▀▀
  [34m███████████████████████████████████▌[0;1;30m▐[0;1;30;47m▐[0;1;37;47m░▒[0;1;33;40m▌[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [1;33;47m░[0m█ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀
