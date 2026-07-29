@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 46494,
+        "totalRowsBlanked": 46758,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 12534,
+        "residualMixedTextRowsBlanked": 12798,
         "residualMixedTextTrailingRowsRemoved": 101,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -102,6 +102,7 @@
         "mixedTextLedger18": "AnsiResidualMixedTextReviewLedger18.json",
         "mixedTextLedger19": "AnsiResidualMixedTextReviewLedger19.json",
         "mixedTextLedger20": "AnsiResidualMixedTextReviewLedger20.json",
+        "mixedTextLedger21": "AnsiResidualMixedTextReviewLedger21.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -170,7 +171,10 @@
         "mixedTextPass19TrailingRowsRemoved": 0,
         "mixedTextPass20FilesRedacted": 48,
         "mixedTextPass20RowsBlanked": 230,
-        "mixedTextPass20TrailingRowsRemoved": 0
+        "mixedTextPass20TrailingRowsRemoved": 0,
+        "mixedTextPass21FilesRedacted": 42,
+        "mixedTextPass21RowsBlanked": 264,
+        "mixedTextPass21TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -211,6 +215,7 @@
         "A twentieth hash-locked mixed-text review blanked 134 rows of generic command, information-field, placement, and work-in-progress placeholders across 20 scripts after full-context review of 807 frozen detector candidates and separate targeted, expanded, manual, and adjacent-follow-up queues. Independent cross-review removed 14 unsafe command or hotkey rows and two thematic or signed-text false positives before a final coordinate-by-coordinate audit verified exact ANSI controls, widths, geometry, attribution boundaries, and zero prior-ledger overlap; no newly empty terminal rows were removed.",
         "A twenty-first hash-locked mixed-text review blanked 108 rows of generic command, option, information-field, and placement placeholders across 41 scripts after full-context review of 802 frozen detector candidates plus targeted, expanded, outside-queue, manual, and adjacent-follow-up scans. Independent cross-review rejected hotkeys, ASCII panels, dotted identity layouts, signed notes, thematic captions, process commentary, and structured oneliner fields before a final coordinate-by-coordinate audit verified exact ANSI controls, widths, geometry, attribution boundaries, and zero overlap with the first 18 ledgers; no newly empty terminal rows were removed.",
         "A twenty-second hash-locked mixed-text review blanked 230 rows of generic command, option, information-field, insertion, and placement placeholders across 48 scripts after disjoint punctuation, clustered-row, targeted, outside-queue, manual, and adjacent-follow-up scans. Independent full-payload projection review protected an identity field label and a functional command prompt with its input widget before the final ledger was applied; exact ANSI controls, widths, geometry, attribution boundaries, and zero overlap with the first 19 ledgers were verified, and no newly empty terminal rows were removed.",
+        "A twenty-third hash-locked mixed-text review blanked 264 rows of generic command, option, article, and message-body placeholders across 42 scripts after a disjoint 800-row punctuation and clustered-row scan. Independent lane review, continuation review, cross-review, and a final 279-coordinate full-payload projection audit rejected 15 additional authored captions, thematic greetings, sound effects, and design commentary before application; exact ANSI controls, widths, geometry, attribution boundaries, and zero overlap with the first 20 ledgers were verified, and no newly empty terminal rows were removed.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
