@@ -166,6 +166,10 @@ const MIXED_TEXT_LEDGER34_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger34.json"
 );
+const MIXED_TEXT_LEDGER35_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger35.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -1245,6 +1249,14 @@ test("thirty-fourth mixed text review is hash-only and fully applied", () => {
     assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER34_PATH, {
         candidateFiles: 9,
         evidenceRows: 24,
+        expectedMissingRows: [],
+    });
+});
+
+test("thirty-fifth mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER35_PATH, {
+        candidateFiles: 1,
+        evidenceRows: 5,
         expectedMissingRows: [],
     });
 });
