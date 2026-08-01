@@ -5,7 +5,7 @@
 # Source SHA-256: 9ed93581150cf05a0e0199e622816e97c90066d7e19602df559fc4b7dd8b4e8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-EI3.ANS by chromatik (Blade Productions); released in blde9502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: eternal insanity!
 # SAUCE Author: chromatik
 # SAUCE Group: Blade Productions
@@ -59,7 +59,7 @@ Write-Host '
 [36m▀▓▄▄[0m [36m▄▄▄[0m [36m▄▓[0m [36m▄▓[0m [36m░▓▄▄░▄[0m [36m▄▓[0m [36m▄▄▓[0m  [36m▄▄▄▓▄[0m  [36m▄▓▄[0m [36m▄▄▄▓[0m [36m▄▄▄▓▄▄▄[0m [36m▓▄▄▓▄▄[0m [36m▄░▄▄[0m [36m▄▓▄[0m [36m▓▄▄[0m [36m▓▄▄▓▀[0m
 [36m          ▒   [0m              [1;30m░[0m         [36m▒[0m          [36m▀[0m            [36m [0m              [36m▒[0;37m [0m
 [1;30m    [0m▒[1;36m [0m▄▄█▓█▄▒ [1;30m    ▒[0m         [1;30m▒[0m    [1;30m░[0m     [1;30m░[0m      [1;30m▒[0m                  [1;30m▒[0m      [1;30m▒[0m
-[1;30m▄▓[0;1;36m [0m▄▓[30;47mi00% orig[0;37;40m▄▒[0;1;30;40m ▄▓[0m [1;30;40m▄▄▄▓▄[0m [1;30;40m▄▄▓▄[0m [1;30;40m▄▄▄▄▄▄▄▄▄▄▓▄▄▓[0m [1;30;40m▓▄▄▓[0m [1;30;40m▄▄▄▄▓▄[0m [1;30;40m▄▄▄▓▄▄▄▓▄[0m [1;30;40m▄▄▓[0m [1;30;40m▓▄▄▄▄▓▄[0m
+[1;30m▄▓[0;1;36m [0m▄▓[30;47m         [0;37;40m▄▒[0;1;30;40m ▄▓[0m [1;30;40m▄▄▄▓▄[0m [1;30;40m▄▄▓▄[0m [1;30;40m▄▄▄▄▄▄▄▄▄▄▓▄▄▓[0m [1;30;40m▓▄▄▓[0m [1;30;40m▄▄▄▄▓▄[0m [1;30;40m▄▄▄▓▄▄▄▓▄[0m [1;30;40m▄▄▓[0m [1;30;40m▓▄▄▄▄▓▄[0m
 [1;30;40m░[0m ▄[30;47m            [0;37;40m▓[0m [1;30;40m      [0m [1;30;40m                                     ▓          ▓[0m
 [1;30m▀[0;36m [0;30;47mblade prod. 95[0;37;40m█[0m [1;30;40m█▓ ▀▓[0m [1;30;40m▀▀▀▓[0m [1;30;40m▀▓[0m [1;30;40m▀▀▓[0m  [1;30;40m▀▀▀▀▀▀▀▀▓▀▀ ▀▀▀▀▀[0m [1;30;40m▓▀▀[0m [1;30;40m▀▀▓▀▀▀[0m [1;30;40m▀▀▀▓▀[0m [1;30;40m▓▀▀▀▀[0m [1;30;40m▓[0m
 [1;30;40m [0;1;36;40m [0m▀[36m [0;37m▓▀▀▓███████▓[0;1;36m [0m [1;30m▓[0m [1;30m                                                           [0m

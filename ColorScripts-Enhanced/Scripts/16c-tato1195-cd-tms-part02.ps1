@@ -5,7 +5,7 @@
 # Source SHA-256: dc2ed6baa896b56879a3d1e69fbf7a94312109dcb24634a18fc9c50b3a8e107b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!-TMS!.ANS by cREEPiNG dEATH (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: martiansolution
 # SAUCE Author: cREEPiNG dEATH
 # SAUCE Date: 19951030
@@ -44,5 +44,5 @@ Write-Host '
 [36m███[0;1;36;46m█[0;1;36;40m▄▄ [0;1;37;47m░[0m [36m▄▄▄▄▄▄▄▄████████[0;1;36m█▄▄▄▄ [0;1;37;47m░[0m [36m▄▄[0;1;36m█▄▄▄▄▄ [0;1;37;47m░[0m [36m▄▄▄▄██[0;1;36m█ [0;1;37;47m░[0m [36m██[0;1;36m█▄▄[0;36m▄█████[0;1;36m█▄▄▄▄▄ [0;1;37;47m░[0m [36m▄█████[0m
 [36m█████[0;1;36;46m█[0;1;36;40m▄▄[0;36m▄████████████████████[0;1;36m█▄▄[0;36m▄███████[0;1;36m█▄▄[0;36m▄██████[0;1;36m█▄▄[0;36m▄████████████████[0;1;36m█▄▄[0;36m▄██████[0m
 [36m████████████████████████████████████████████████████████████████████████████████[0m
-[36m███████████████[0;1;37;46m.100%.originality.by.creeping.death.of.tatoo.95.[0;36m█[0;1;37;46m [0;36m███████████████[0m
+[36m███████████████[0;1;37;46m                  by.creeping.death.of.tatoo.95.[0;36m█[0;1;37;46m [0;36m███████████████[0m
 [36m████████████████████████████████████████████████████████████████████████████████[0m'

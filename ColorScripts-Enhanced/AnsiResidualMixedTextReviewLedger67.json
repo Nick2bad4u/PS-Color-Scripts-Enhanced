@@ -1,0 +1,937 @@
+{
+  "batch": 67,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 9
+            }
+          ],
+          "expectedRawSha256": "1bdee9a3dfcec77f1749781a2506e74bffdc7ef3c7341c0c64beff6d81b90b32",
+          "expectedRenderedSha256": "117a71739db78b246cbdf54e943eb1bdd492b674a3723564994a9495fd93a4f9",
+          "row": 34,
+          "sha256": "e5f466466ffcba73266bb79fc6c5f1519cc3d06cc657c5de5adf395024bf6b3e"
+        }
+      ],
+      "file": "16c-allnc-01-la-colbx-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "b8dbedac133124ac500e07073a4e5cb50c77a554fd96f7112064d25a7d7f3d9c",
+          "expectedRenderedSha256": "7da930827c2da4029e20958b653097c5450d806af3121ec5542fe51277130cf2",
+          "row": 3,
+          "sha256": "6652c30df8e0f9f27efb4a37a9dabd148ed7171486791fe873cf7e522a556abf"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "b9b4b5252156c45d3a68ce8e1df16cee199aa7fb1f76abc340895a0b9405e73a",
+          "expectedRenderedSha256": "68d054244434d8c64ae666c3cc7899e2f9e993415f3931afdcbd0a58a3bb2d2c",
+          "row": 4,
+          "sha256": "13c52f92f2e1451af0adef527fbd20602a73a3e235e8f4dd6a7d8d7954a9678f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 69
+            },
+            {
+              "end": 80,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "4e2de9206cd8802fc61a3ca7ab22ffa9615c4cbf937c2b1c72cc4effd494b3ed",
+          "expectedRenderedSha256": "cea41ad62932e3b2e0b662173575add1e063bca52466ae6592ba3b17fcdda1a0",
+          "row": 5,
+          "sha256": "6b53cceb2b240318ddbecaa9a29ed82ce2b85b02294bbace27b9281c8a1dd966"
+        }
+      ],
+      "file": "16c-apathy09-bw-doa.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "b8dbedac133124ac500e07073a4e5cb50c77a554fd96f7112064d25a7d7f3d9c",
+          "expectedRenderedSha256": "7da930827c2da4029e20958b653097c5450d806af3121ec5542fe51277130cf2",
+          "row": 3,
+          "sha256": "6652c30df8e0f9f27efb4a37a9dabd148ed7171486791fe873cf7e522a556abf"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "b9b4b5252156c45d3a68ce8e1df16cee199aa7fb1f76abc340895a0b9405e73a",
+          "expectedRenderedSha256": "68d054244434d8c64ae666c3cc7899e2f9e993415f3931afdcbd0a58a3bb2d2c",
+          "row": 4,
+          "sha256": "13c52f92f2e1451af0adef527fbd20602a73a3e235e8f4dd6a7d8d7954a9678f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 69
+            },
+            {
+              "end": 80,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "4e2de9206cd8802fc61a3ca7ab22ffa9615c4cbf937c2b1c72cc4effd494b3ed",
+          "expectedRenderedSha256": "cea41ad62932e3b2e0b662173575add1e063bca52466ae6592ba3b17fcdda1a0",
+          "row": 5,
+          "sha256": "6b53cceb2b240318ddbecaa9a29ed82ce2b85b02294bbace27b9281c8a1dd966"
+        }
+      ],
+      "file": "16c-apathy09-bw-spinl.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "ec334b3ea05c11cf765dcee1983a2e5930ed14149da772ed00efddbb545cef81",
+          "expectedRenderedSha256": "b02d6c554d1a7a882de8b2bc331cbce6ca8f17fd78b849bdf0f4c95873fe78c9",
+          "row": 13,
+          "sha256": "5cbe8e27a46ba84fcb7aea5197761ce257badd251271c8fe92a0b6f107e1e390"
+        }
+      ],
+      "file": "16c-apathy10-ti-sg1.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 4,
+              "start": 1
+            },
+            {
+              "end": 14,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "e7169ce4df6829f7760d5345b56fb48c02c63e0941bab532ad4952877ca8493d",
+          "expectedRenderedSha256": "9454eccd8aaf65df1ba39243ae9acd383373498e7b1a71284a03ebc237971168",
+          "row": 2,
+          "sha256": "1de874f8c098c968221fff687130bb8c60685be6559fc5222031cbadbc023e90"
+        }
+      ],
+      "file": "16c-basic-05-gdr-icb.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 6
+            }
+          ],
+          "expectedRawSha256": "ffc5286ac90ee4de3a5bd8e3610d312e09eda5ad278a070acf20bacf2dc3d108",
+          "expectedRenderedSha256": "39d225f0052c47ca6524dfcde85f0f71a8ae297fc11c182faf8fe6f875f984ba",
+          "row": 46,
+          "sha256": "0d3430f3cca0484a3263fb87c5935258cfd7f89fd57a46fb1387e4d90fab36df"
+        }
+      ],
+      "file": "16c-blde9502-ck-ei3-part04.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "4a8be95c6d011478c1a84e4e86e91b1e10b1263e9e2117ea02ae0fa7a4636fe2",
+          "expectedRenderedSha256": "bf99c03f8f17fb402f293045f133984c054357e4619f20e0bbbf73273da681f4",
+          "row": 41,
+          "sha256": "fa4cf46f2aaa401831f3036fee00afa15184b943d9b70f3ce6a6d03f3a41983f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "1633218c96c1922f5a46936546d4a7b1ee6ac306300ddfa79ab94798d90c6305",
+          "expectedRenderedSha256": "15a4502b00ef6bbeb792c63066994490e64be3d234adc0556d0c7295d583bf63",
+          "row": 43,
+          "sha256": "8c2ba97b72ded347350eb2a40de5c2b66e8a66855da85c292f7571f31a970a19"
+        }
+      ],
+      "file": "16c-cancer01-rs-tjt01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 38,
+              "start": 23
+            }
+          ],
+          "expectedRawSha256": "f2c65d9840d8508270e6631393d63893c15b7cf448444231fb59a29853401de1",
+          "expectedRenderedSha256": "a1f05addef61f08ec95ceef394f0db4ee6865e71a541fd73748aa001b9ec3b86",
+          "row": 47,
+          "sha256": "883bced95e6de84bda4c7cbda89dd40a504b48be4bacc47bf21c369dc6e3eea8"
+        }
+      ],
+      "file": "16c-ceg-009a-mb-icede-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 58,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "4f2ea0a4d5cbfd025fac1b958cb7df9d5d94d53c1bf63b826e4effbe0e0bcefb",
+          "expectedRenderedSha256": "3eb55893b9f9b20d5e700cdb3ece5997eb5c9968c181f79d9d34bf07136b30ee",
+          "row": 13,
+          "sha256": "ef8651458d5c31c71a697a827da2c3e99782c9edb3557453a6467d0925d7559b"
+        }
+      ],
+      "file": "16c-epic0004-cg-rox0r-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 48,
+              "start": 38
+            }
+          ],
+          "expectedRawSha256": "fcf982cd92e9974d466ecfa13696d06ca1c8cb748fea80ceade44b46ee8222c8",
+          "expectedRenderedSha256": "5d0cf82868ba61455290688f70b1a5997e3325a32d51ed52f585bcd41b7ebdb5",
+          "row": 19,
+          "sha256": "749361f537855ebe30ebd6b8df79e82f3907173c36de6ce8ea8bf6139eb817d7"
+        }
+      ],
+      "file": "16c-fsn-0597-53-1lnrs.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 4,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "d34bbd3fde20eff83ddc882988451685db20ad123e2bd333b8de15bcd88075eb",
+          "expectedRenderedSha256": "a03bbfcc3d04451601510b2c3d78957b0d2248c0de9c5cebfcac293b7c1d7260",
+          "row": 17,
+          "sha256": "fa2595d53959683d22cc7447b97e905c594e5f24f8099ab732139f9b6f8d1cb1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 6,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "07a9a84c859e4c84e9cf85a0d3664a47460e9c09c6c8334bb2b16f0d0d568ab5",
+          "expectedRenderedSha256": "339fbd93ccba0f6bc2ae405dbc6645f9cb3719bbd9f6132dd3ea0e7b4586ead1",
+          "row": 18,
+          "sha256": "241b68820c6e251b4c097644224a6e788f95989e5d3eb36271a92576ceb17dcc"
+        }
+      ],
+      "file": "16c-fuel11-sor-schf.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 24,
+              "start": 17
+            }
+          ],
+          "expectedRawSha256": "f93a428b63e6af2190881f590b686115b5b0a8a4e358bbf551df07b06dd9e68d",
+          "expectedRenderedSha256": "6df72d6e3540e708362e2a82320b6c303fdb0a7c024fb2120873bad425eef2aa",
+          "row": 15,
+          "sha256": "696e6eb4dbc1150d36894b17a0004b13704ba8fb8f01b8d95d525ccfbf4ccdb4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 18
+            }
+          ],
+          "expectedRawSha256": "8409f5f9d08a3bc417edac5cd82318c8e4529efe868f6575ba1e8f36c0fcc4bf",
+          "expectedRenderedSha256": "8b180323fb342884cc4edbefcfc55a6926932b5379783ae7280b200bf937800e",
+          "row": 16,
+          "sha256": "20a7804597f5ea02e6fbd969c2250ea7a5d90b6b17095c478e858118ce7a89a1"
+        }
+      ],
+      "file": "16c-fuel12-tk-glas.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 27,
+              "start": 9
+            }
+          ],
+          "expectedRawSha256": "51536f3654dd4cf549c1de44ebe1a27e48c91d518b9672a9905bc69352d7c610",
+          "expectedRenderedSha256": "48239837a583991846e6be9d68c003f509d6b217472cf6d587ab9eade21b2bd7",
+          "row": 2,
+          "sha256": "8e0591b470d87594fe590ae7968b0a31729e6cea07040c54162e8ba463b61417"
+        }
+      ],
+      "file": "16c-glue-35-ns-coll5-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 27,
+              "start": 13
+            }
+          ],
+          "expectedRawSha256": "39b18c46af7457f06194d76f121f3e76f888ef5e8bc09cea491217af1186f06d",
+          "expectedRenderedSha256": "0e11df22754d0a48287a7154c9b721dbe285740fa7ec9229d46d71f466408dda",
+          "row": 26,
+          "sha256": "83aab0e03df7a37c0eab23fbab13dad9d1749870830b2cdb97e3c069caadc41e"
+        }
+      ],
+      "file": "16c-ice9703a-mm-23pho-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 49,
+              "start": 43
+            }
+          ],
+          "expectedRawSha256": "f9772659d0e99d9c92581c431d35380ebf9899c0440288dd9280b4475fb03988",
+          "expectedRenderedSha256": "46111ad7e6b7cacac1e78a71968c31c644c874083532cf1e0373201ad6967844",
+          "row": 25,
+          "sha256": "f6651dbcea71d5a7b30eea65242a958ce569964fd92a8c2b542800160af2833a"
+        }
+      ],
+      "file": "16c-l0p03-99-d3x-msr-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "a6e2e5c6fb82e5dbd36106dd8a494bc38d4629eee27beee272f326e680475597",
+          "expectedRenderedSha256": "b3ebd4e9ffd061d32ba1dfc44ba20e11220f928b1dd57ba9437d5db67a1e1f1e",
+          "row": 39,
+          "sha256": "8a6a5a598874ef6c23468568319a9352271e10ca18cc229359b828294b40a7bd"
+        }
+      ],
+      "file": "16c-plenty-dx-100ln-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 31,
+              "start": 17
+            },
+            {
+              "end": 37,
+              "start": 33
+            }
+          ],
+          "expectedRawSha256": "05496a5b7e474041f75fead0938b55b24a79e000e7a0cfda9759af34d3493ca4",
+          "expectedRenderedSha256": "007d6ddfecd82ddf2e41fd8ef988d04d048cf24ee0445b1b6ecc9d913a41830a",
+          "row": 17,
+          "sha256": "88fa7d8521fad2d1c2d313b947fae4ef352fee832979969d2b06bcd10e2d7a97"
+        }
+      ],
+      "file": "16c-rib-003-sr-gh.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 68,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "2b2aae5641c653ccf86dd0a18e7f0116e963becfd2a7bdade19f324f1da50e69",
+          "expectedRenderedSha256": "1fb240fd3ce52e96c13a01db87847a43a77e12d05c7c5d71dd8f811d33604f72",
+          "row": 28,
+          "sha256": "dcedaa7246f9bbe4e5b9d86659c97fc493420e6d9789bf2e399d5d61c88efad7"
+        }
+      ],
+      "file": "16c-sclr-12-as-pg.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 50,
+              "start": 38
+            }
+          ],
+          "expectedRawSha256": "8f9614b1849965a1b31eb882a611fcc3d8b9f7e04ebec2388ed5c16c1407551a",
+          "expectedRenderedSha256": "de510f3e9f9924892d4c740be7b8fa377465a983738fa6ee1fa7d9138621ef87",
+          "row": 33,
+          "sha256": "77f23f11b51aeee1bd736a50ae9b4bcfa2896b1e3ca21063fb5c5f7f674272a4"
+        }
+      ],
+      "file": "16c-sept9605-us-doink-part03.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "b343d046acbcfc7af8c32c1805be0decc28b57869187f6850e8a546e9691d76a",
+          "expectedRenderedSha256": "a38a8acd1d9255a8a9bfd6015aa326768cb72163d7c4cf4fc05812074bbc8af3",
+          "row": 25,
+          "sha256": "aebcfdef21c59918b16f49d2688dc4bd9a4195e96bb39930d823d296dfddbeeb"
+        }
+      ],
+      "file": "16c-shl-0697-lum-men.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 50,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "4593d14dd4552aa3de1a25febca27a85cafd49dfa0ec12739c4d0b4a4509a2c8",
+          "expectedRenderedSha256": "9de7202eb2e112ece9fcd97ce2f9507e2560d026b066811c7a9c97cb4a4ea9ed",
+          "row": 3,
+          "sha256": "425195ac6f504c554b4c64a699e16e5581480c8d71f4314b16c110f596d5e265"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 46,
+              "start": 33
+            }
+          ],
+          "expectedRawSha256": "28d350ff865fbc8330269f9dfee88753b1ab5259d3aaae45bc8bc934c8c26fd5",
+          "expectedRenderedSha256": "e8a67be08dde72084a5ad798856cd848bebff1e387556d7394de448c8d7f5762",
+          "row": 4,
+          "sha256": "b30878c0fc1a014388de9c8acf57b99e4851e3259d3443ae430d01b5f58bf50d"
+        }
+      ],
+      "file": "16c-su-1194-nd-bio1-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 33,
+              "start": 16
+            }
+          ],
+          "expectedRawSha256": "ab7ac15c294c1b2d19242a10efaf7cdea58029583ec0043e9fb21f7b45387f05",
+          "expectedRenderedSha256": "90e72e3807236738c3f13a5e39438353fa5986ea8be6e3484d90660098b48fb8",
+          "row": 32,
+          "sha256": "bfab257d9f4948de7880613a326b9d21d95b3ccf588e566862fbddcc46038ffa"
+        }
+      ],
+      "file": "16c-tato1195-cd-tms-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch67-source-use-and-production-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 35
+            }
+          ],
+          "expectedRawSha256": "81d86374eb8621398022efd26c96d731b1b6c038b097dadc1f830d099bef55bd",
+          "expectedRenderedSha256": "916046132f7b7127876a552eedef90065ae4e7303b4fd5d144d2540ebf5d9364",
+          "row": 21,
+          "sha256": "4d16328c14bfbafb2de375854d14a1d91fcdeadc072c33be9221e21232564e7d"
+        }
+      ],
+      "file": "16c-uni-0195-ma-haz3-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process chatter. Titles, artist and group identity, attribution, copyright, functional interfaces, structural lettering, slogans, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch67-source-use-cues.json",
+        "temp/text-blanking-continuation/batch67-all-candidates.txt",
+        "temp/text-blanking-continuation/batch67-line-count-context.txt",
+        "temp/text-blanking-continuation/batch67-rip-context.txt",
+        "temp/text-blanking-continuation/batch67-production-chatter.json",
+        "temp/text-blanking-continuation/batch67-family-context-a.txt",
+        "temp/text-blanking-continuation/batch67-family-context-b.txt",
+        "temp/text-blanking-continuation/batch67-family-context-c.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-a.txt",
+        "temp/text-blanking-continuation/batch67-proposed-full-context-b.txt",
+        "temp/text-blanking-continuation/batch67-history-collisions.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of source-use and production-chatter cues in every static color-script payload. Accept only exact separable pricing, advertisement, anti-copy, originality, source-medium, line-count, duration, work-time, or production-process spans proven by complete-panel and family context; retain titles, identity, attribution, copyright, functional interfaces, structural text, slogans, and ambiguity.",
+  "priorRedactionExtensions": [],
+  "priorRetentionSupersessions": [],
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "acceptedDetectorCues": 39,
+    "blankColumnRows": 31,
+    "candidateFiles": 23,
+    "candidateGroups": 23,
+    "categoryRows": {
+      "batch67-source-use-and-production-chatter": 31
+    },
+    "changedCells": 346,
+    "detectorAcceptedRows": 25,
+    "detectorFiles": 147,
+    "detectorRows": 161,
+    "evidenceRows": 31,
+    "familyExtensions": 6,
+    "parseFailures": 21,
+    "productionDetectorFiles": 71,
+    "productionDetectorRows": 78,
+    "retainedDetectorRows": 136,
+    "sourceUseDetectorFiles": 97,
+    "sourceUseDetectorRows": 106,
+    "staticFiles": 24801
+  }
+}

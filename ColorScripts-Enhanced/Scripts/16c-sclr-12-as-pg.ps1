@@ -5,7 +5,7 @@
 # Source SHA-256: dfcce037869a809441692348a8d407b34d353b2cfc0ebed237bf9815270a1dbf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-PG.ANS by as-d (secular); released in sclr-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: pappy girl
 # SAUCE Author: as-d
 # SAUCE Group: secular
@@ -40,7 +40,7 @@ Write-Host '
 [37;40m                      [0;31;40m`/│[0;1;31;40m$[0;31;40m$[0;1;31;40m$$$$$│└°`[0;37;40m         [0;1;31;40m`╜/│$$$[0;31;40m$$\`[0;32;40m..........:.......[0;37;40m   [0;32;40m:[0;37;40m  [0m
 [37;40m                       [0;31;40m`/│$$[0;1;31;40m$$7`[0;37;40m  [0;1;37;40m,╓ymm┌╒ay╓,[0;37;40m  [0;1;31;40m`7$[0;31;40m$$7`[0;37;40m          [0;1;32;40m  [0;32;40m:....../...:[0;37;40m  [0m
 [37;40m    [0;32;40m,s[0;1;30;42mS[0;32;40m$Ss,[0;37;40m               [0;31;40m`$$│[0;1;31;40m$b╓,[0;37;40m [0;1;37;40m`└/│$$7\└''[0;37;40m  [0;1;31;40m,d[0;31;40m$$7`[0;37;40m                   [0;1;32;40m╖[0;32;40m:[0;37;40m      [0m
-[37;40m   [0;32;40m;[0;1;30;42m$[0;1;32;42m$$[0;1;30;42m$[0;32;40m$$$........[0;37;40m         [0;31;40m`/[0;1;31;40m║[0;31;40m$[0;1;31;40m$$|\╓╓,,._.,╖╖\[0;31;40m$│$`[0;37;40m   [0;1;30;40m100%[0;37;40m [0;1;30;40mascii art[0;37;40m     [0;32;40m:[0;37;40m      [0m
+[37;40m   [0;32;40m;[0;1;30;42m$[0;1;32;42m$$[0;1;30;42m$[0;32;40m$$$........[0;37;40m         [0;31;40m`/[0;1;31;40m║[0;31;40m$[0;1;31;40m$$|\╓╓,,._.,╖╖\[0;31;40m$│$`[0;37;40m   [0;1;30;40m    [0;37;40m [0;1;30;40m         [0;37;40m     [0;32;40m:[0;37;40m      [0m
 [37;40m    [0;32;40m`?$[0;1;30;42m$[0;32;40m$P''.......:..........[0;37;40m [0;31;40m`$$[0;1;31;40m$[0;31;40m║│[0;1;31;40m$[0;31;40m$$│[0;1;31;40m$$[0;31;40m│[0;1;31;40m║[0;31;40m$│$\`[0;37;40m   [0;1;30;40mby as-d^sclr[0;37;40m [0;1;30;40my2k  [0;37;40m   [0;32;40m:[0;37;40m      [0m
 [37;40m       [0;32;40m:...\......:[0;1;32;40m╓[0;32;40m [0;37;40m           [0;31;40m`╙\│[0;1;31;40m$$[0;31;40m$[0;1;31;40m$[0;31;40m$$$$│/┘''[0;37;40m                      [0;32;40m,sS$[0;1;30;42mS[0;32;40ms,[0;37;40m   [0m
 [37;40m           [0;32;40m:[0;37;40m                      [0;1;32;40m_[0;37;40m [0;31;40m`"²²╜╜²"`[0;37;40m                         [0;32;40m$$$[0;1;30;42m$[0;1;32;42m$$[0;1;30;42m$[0;32;40m;[0;37;40m  [0m
