@@ -242,6 +242,10 @@ const MIXED_TEXT_LEDGER53_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger53.json"
 );
+const MIXED_TEXT_LEDGER54_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger54.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -1076,6 +1080,7 @@ test("eleventh mixed text review is hash-only and fully applied", () => {
         evidenceRows: 227,
         expectedMissingRows: [
             { file: "16c-bmb-0496-phb-spls.ps1", row: 20 },
+            { file: "16c-glue-19-int-glue.ps1", row: 26 },
             { file: "16c-jasper08-bm-glue.ps1", row: 36 },
             {
                 file: "16c-lap-0794-hs-vio-x-part04.ps1",
@@ -1290,6 +1295,9 @@ test("twenty-ninth mixed text review is hash-only and fully applied", () => {
             },
             { file: "16c-fire-42-zir-p4nk-part02.ps1", row: 41 },
             { file: "roy-sac-pent.ps1", row: 17 },
+        ],
+        expectedSupersededRows: [
+            { file: "16c-serial05-mp-sc.ps1", row: 22 },
         ],
     });
 });
@@ -1557,6 +1565,18 @@ test("fifty-third mixed text review is hash-only and fully applied", () => {
         candidateFiles: 13,
         evidenceRows: 17,
         expectedMissingRows: [],
+    });
+});
+
+test("fifty-fourth mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER54_PATH, {
+        candidateFiles: 55,
+        evidenceRows: 85,
+        expectedMissingRows: [
+            { file: "16c-d0pe0597-lac-uk.ps1", row: 25 },
+            { file: "16c-glue-19-int-glue.ps1", row: 27 },
+            { file: "16c-serial05-mp-sc.ps1", row: 23 },
+        ],
     });
 });
 
