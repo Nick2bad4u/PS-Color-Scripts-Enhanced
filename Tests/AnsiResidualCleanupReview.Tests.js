@@ -202,6 +202,10 @@ const MIXED_TEXT_LEDGER43_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger43.json"
 );
+const MIXED_TEXT_LEDGER44_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger44.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -340,7 +344,12 @@ function assertAppliedMixedTextLedger(
         }
     }
     assert.deepEqual(missingRows, expectedMissingRows);
-    assert.deepEqual(supersededRows, expectedSupersededRows);
+    const byCoordinate = (left, right) =>
+        left.file.localeCompare(right.file, "en-US") || left.row - right.row;
+    assert.deepEqual(
+        [...supersededRows].sort(byCoordinate),
+        [...expectedSupersededRows].sort(byCoordinate)
+    );
 }
 
 test("residual content review is hash-only and fully applied", () => {
@@ -1281,6 +1290,50 @@ test("thirtieth mixed text review is hash-only and fully applied", () => {
             { file: "16c-root0397-dt-nc2.ps1", row: 12 },
             { file: "16c-root0397-dt-nc2.ps1", row: 13 },
             { file: "16c-root0397-dt-nc2.ps1", row: 14 },
+            { file: "16c-awe-15-tna-hys1.ps1", row: 11 },
+            { file: "16c-awe-15-tna-hys1.ps1", row: 13 },
+            { file: "16c-awe-15-tna-hys1.ps1", row: 15 },
+            { file: "16c-awe-15-tna-hys1.ps1", row: 17 },
+            { file: "16c-awe-15-tna-hys1.ps1", row: 19 },
+            { file: "16c-awe-15-tna-hys1.ps1", row: 21 },
+            { file: "16c-awe-15-tna-hys1.ps1", row: 23 },
+            { file: "16c-awe-15-tna-hz2.ps1", row: 10 },
+            { file: "16c-awe-15-tna-hz2.ps1", row: 12 },
+            { file: "16c-awe-15-tna-hz2.ps1", row: 14 },
+            { file: "16c-awe-15-tna-hz2.ps1", row: 16 },
+            { file: "16c-awe9610-tna-eld.ps1", row: 8 },
+            { file: "16c-awe9610-tna-eld.ps1", row: 10 },
+            { file: "16c-awe9610-tna-eld.ps1", row: 12 },
+            { file: "16c-awe9610-tna-eld.ps1", row: 14 },
+            { file: "16c-awe9610-tna-eld.ps1", row: 16 },
+            { file: "16c-awe9610-tna-eld.ps1", row: 18 },
+            { file: "16c-awe9610-tna-eld.ps1", row: 20 },
+            { file: "16c-awe9702-us-p1.ps1", row: 6 },
+            { file: "16c-awe9703-tna-smnu.ps1", row: 10 },
+            { file: "16c-awe9703-tna-smnu.ps1", row: 12 },
+            { file: "16c-awe9703-tna-smnu.ps1", row: 14 },
+            { file: "16c-awe9703-tna-smnu.ps1", row: 16 },
+            { file: "16c-awe9703-tna-smnu.ps1", row: 18 },
+            { file: "16c-awe9704-tna-fmnu.ps1", row: 12 },
+            { file: "16c-awe9704-tna-fmnu.ps1", row: 14 },
+            { file: "16c-awe9704-tna-fmnu.ps1", row: 16 },
+            { file: "16c-awe9704-tna-fmnu.ps1", row: 18 },
+            { file: "16c-awe9704-tna-fmnu.ps1", row: 20 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 11 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 12 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 13 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 14 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 15 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 16 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 17 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 18 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 19 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 20 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 21 },
+            { file: "16c-awe9706-tna-pod2.ps1", row: 22 },
+            { file: "16c-mdn-9706-mr-domen.ps1", row: 19 },
+            { file: "16c-phat0297-in-0297a-part02.ps1", row: 6 },
+            { file: "16c-phat0997-us-tjg.ps1", row: 8 },
         ],
     });
 });
@@ -1385,6 +1438,14 @@ test("forty-third mixed text review is hash-only and fully applied", () => {
     assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER43_PATH, {
         candidateFiles: 36,
         evidenceRows: 261,
+        expectedMissingRows: [],
+    });
+});
+
+test("forty-fourth mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER44_PATH, {
+        candidateFiles: 13,
+        evidenceRows: 52,
         expectedMissingRows: [],
     });
 });
