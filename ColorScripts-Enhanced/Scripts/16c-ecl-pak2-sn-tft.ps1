@@ -5,7 +5,7 @@
 # Source SHA-256: f8046617f0acd3a65010ac7ea00e5892d60a54c04d6532e73113613307f25448
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN!TFT.ANS by Snowball (Ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Turbo/Slow login for Tft2000
 # SAUCE Author: Snowball
 # SAUCE Group: Ecolove
@@ -28,9 +28,9 @@ Write-Host '
 [1;34;44m▐███[0;34m█[0;37m [0;33m [0;1;30m▐[0;1;30;47m▓▒░[0m█[1;47m  [0;1;40m█▌ ▐██[0;1;47m░░[0;1;34;40m [0;1;37;40m  [0m▀[1;47m▀[0;1;40m██▀   [0;1;47m░[0;1;40m█████▌[0m [34m██[0;1;34;44m████[0;1;34;47m▓▓▓[0;1;34;44m████▌[0;34m█[0m    [1;34mteam 2000[0m  [34m [0;37m [0;34m███[0m
 [1;34;44m▐[0;1;34;47m▒▒[0;1;34;44m█▌[0;34m▌[0;33m [0;1;37m [0;1;30m█[0;1;30;47m█▄  [0m█[1;47m▐[0;1;40m█  ██[0;1;47m▌ [0m▌[1;34m    [0;1;37m [0m [1m   [0m▐[1;47m▐[0;1;40m█████ [0;34m▐█[0;1;34;44m▐█[0;1;34;47m▓▓▓▒▒▒▒▓[0;1;34;44m███[0;34m█▌[0m              [34m ▐██▌[0;37m [0;34m▄[0m
 [1;34;44m▐[0;1;34;47m▓▓▓[0;1;34;44m█[0;34m█▄[0;1;37m  [0;1;30m▀[0;1;30;47m▓▓▒░[0m█[1;47m▀[0;1;40m▌ ▐██[0;1;47m▄░[0m▄[1m [0m [31m▄■ ▀[0;1;37m [0m▄[1;47m▄[0;1;40m████▀  [0;34m█[0;1;34;44m░▓████[0;1;34;47m▓▓▓[0;1;34;44m████▌[0;34m██[0m               [34m███ ▀[0;1;34;44m▀[0;34m▀[0m
-[34m█[0;1;34;44m█[0;1;34;47m▒▒▒[0;1;34;44m█[0;34m█▌  [0;1;37m  [0;1;30m▀▀█[0;1;30;47m▄[0;1;37;47m▐[0;1;37;40m▌ ▀██[0;1;37;47m█▄▄▄[0;1;37;40m▄▄▄[0;1;37;47m██[0;1;37;46m█[0;1;37;40m███▀[0m  [34m▄███[0;1;34;44m▀███████████[0;34m██▌[0m    [1;34mdo not[0m     [34m▐██▌[0m
-[34m█[0;1;34;44m ▀███▀[0;34m█ ▐██▄▄[0;37m [0;1;30m▀[0m▀[1;47m▓[0;1;40m▌  ▀▀▀▀[0;1;46m▓▓▓▒[0;1;40m█▀▀▀[0m     [34m▀▀▀▀█[0;1;34;44m ▀▀██████▀[0;34m██▀[0m     [1;34mrip this[0m    [34m███[0m
-[34m▄ ▀▀▀▀▀ ▄[0;1;30;44m░░[0;34m████▄▄▄▄ [0m          [34m▄▄▄███████▄▄▄[0;37m  [0;34m▀█[0;1;34;44m▀██▀[0;34m██▀▀ [0m     [1;34mone, ok![0m   [34m▐██▌ [0m
+[34m█[0;1;34;44m█[0;1;34;47m▒▒▒[0;1;34;44m█[0;34m█▌  [0;1;37m  [0;1;30m▀▀█[0;1;30;47m▄[0;1;37;47m▐[0;1;37;40m▌ ▀██[0;1;37;47m█▄▄▄[0;1;37;40m▄▄▄[0;1;37;47m██[0;1;37;46m█[0;1;37;40m███▀[0m  [34m▄███[0;1;34;44m▀███████████[0;34m██▌[0m    [1;34m      [0m     [34m▐██▌[0m
+[34m█[0;1;34;44m ▀███▀[0;34m█ ▐██▄▄[0;37m [0;1;30m▀[0m▀[1;47m▓[0;1;40m▌  ▀▀▀▀[0;1;46m▓▓▓▒[0;1;40m█▀▀▀[0m     [34m▀▀▀▀█[0;1;34;44m ▀▀██████▀[0;34m██▀[0m     [1;34m        [0m    [34m███[0m
+[34m▄ ▀▀▀▀▀ ▄[0;1;30;44m░░[0;34m████▄▄▄▄ [0m          [34m▄▄▄███████▄▄▄[0;37m  [0;34m▀█[0;1;34;44m▀██▀[0;34m██▀▀ [0m     [1;34m        [0m   [34m▐██▌ [0m
 [1;34;44m [0;34m█████[0;1;34;44m▄▄▄▄██████▄▄▄[0;34m███▄  ▄▄▄██[0;1;34;44m▄▄▄████████▄▄[0;34m██▄[0;37m [0;34m▀██▀▀[0;37m [0;34m▄[0;1;34;44m▄▄▄[0;34m▄[0m              [34m███[0m
 [1;34;44m [0;34m██[0;1;34;44m▄██████[0;1;34;47m▓▓▓[0;1;34;44m████████▄[0;34m██[0;37m  [0;34m███[0;1;34;44m███████████████[0;34m██▌[0m       [34m▀▀▀[0m               [34m▐██▌[0m
 [1;34;44m ░░▓▓███[0;1;34;47m▓▓▓▒▒▓[0;1;34;44m████████▌[0;34m█▌[0;37m [0;34m▐██[0;1;34;44m▐████[0;1;34;47m▓▓▓▓▒▒▓▓[0;1;34;44m██▌[0;34m██[0;37m  [0;34m▄[0;1;34;44m▄▄▄▄[0;34m▄ [0;37m  [0;34m▄[0;1;34;44m▄[0;34m▄[0m        [34m■ ▄██▀[0;36m [0m

@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 48199,
+        "totalRowsBlanked": 48254,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 14239,
+        "residualMixedTextRowsBlanked": 14294,
         "residualMixedTextTrailingRowsRemoved": 162,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -117,6 +117,7 @@
         "mixedTextLedger33": "AnsiResidualMixedTextReviewLedger33.json",
         "mixedTextLedger34": "AnsiResidualMixedTextReviewLedger34.json",
         "mixedTextLedger35": "AnsiResidualMixedTextReviewLedger35.json",
+        "mixedTextLedger36": "AnsiResidualMixedTextReviewLedger36.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -230,7 +231,10 @@
         "mixedTextPass34TrailingRowsRemoved": 0,
         "mixedTextPass35FilesRedacted": 1,
         "mixedTextPass35RowsBlanked": 5,
-        "mixedTextPass35TrailingRowsRemoved": 0
+        "mixedTextPass35TrailingRowsRemoved": 0,
+        "mixedTextPass36FilesRedacted": 42,
+        "mixedTextPass36RowsBlanked": 55,
+        "mixedTextPass36TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -286,6 +290,7 @@
         "A thirty-fifth hash-locked mixed-text review blanked 50 rows across 10 scripts after a fresh completed-history-excluded inventory examined 49,280 residual lexical rows across the full 24,822-script gallery. Full-payload review classified all 135 strongest explicit, prose, and non-16colors candidates, retaining 125 as authored dialogue, jokes, dedications, credits, signatures, titles, functional interface text, source-significant language, or terminal-art false positives. Ten candidate rows and 40 coherent family continuations remove only generic empty-panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Whole-family adjudication supersedes three exact prior retains whose isolated treatment would leave disposable note fragments. Independent replay verified 50 exact one-based source-cell projections, 535 changed text cells, unchanged terminal widths and non-target cells, preserved the GREAT ZAMBINI and aiOMEN attributions, zero unsupported art selection, and zero unacknowledged history collisions; no trailing rows were removed.",
         "A thirty-sixth hash-locked mixed-text review blanked 24 rows across 9 scripts after a fresh completed-history-excluded inventory examined 49,233 residual lexical rows across the full 24,822-script gallery. Full-payload review retained all 125 strongest explicit, prose, and non-16colors detector candidates as authored dialogue, jokes, credits, signatures, titles, functional interface text, source-significant language, or terminal-art false positives, then an adjacent-gap and production-phrase audit found nine coherent source-note families outside those primary lanes. The accepted rows remove only an unfinished-art apology, drawing-duration and homepage-status notes, a presentation suggestion, orphaned fill-in instructions, and fragments left by earlier partial note removal. Whole-family adjudication supersedes one exact prior retain whose isolated treatment left a presentation-note fragment. Independent replay verified 24 exact one-based source-cell projections, 231 changed text cells, unchanged terminal widths and non-target cells, preserved shared-row signatures and attribution, zero unsupported art selection, and zero unacknowledged history collisions; no trailing rows were removed.",
         "A thirty-seventh hash-locked mixed-text review blanked five repeated unfinished-menu placeholders in one script after the CP437 width model was corrected to recognize guillemets as single terminal cells. Full-payload comparison with the previously blanked D-option row confirmed that the five B, C, H, I, and J phrases were generic template copy rather than functional labels. Independent projection replay verified five exact one-based source-cell ranges, 110 changed text cells, unchanged row widths and non-target cells, and preservation of every guillemet, hotkey letter, ANSI control, colored space, frame glyph, title, signature, and attribution; no trailing rows were removed.",
+        "A thirty-eighth hash-locked mixed-text review blanked 55 rows across 42 scripts after a fresh full-gallery explicit-pattern scan found 51 cut-marker, placeholder, source-use, and possible false-positive rows. Full-payload review retained eight authored or functional hits: two Crash Test Dummy attributions, two functional change-area labels, three robot-dialogue BLAH textures, and one thematic monster caption. The accepted rows remove 34 repeated source cut markers, one literal filler field, and coherent anti-rip or source-use passages across eight works. Independent ANSI-aware replay verified 55 exact one-based source-cell projections and 842 changed cells while preserving all brackets, separator lines, frame art, the shared-row tOast attribution, ANSI controls, colored spaces, widths, and row geometry; no trailing rows were removed.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
