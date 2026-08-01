@@ -1,0 +1,264 @@
+{
+  "batch": 38,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch38-source-placement-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "f85cf52debe5e799d86f968762f37ba3cf8fc353dcf63e30addde42af324c932",
+          "expectedRenderedSha256": "64d45a074c52a905c111fd580ce6f782aa14b41642c0dd0dab7b8c47a58f8c58",
+          "row": 27,
+          "sha256": "99e69532c27b4aceb659cd0268b66f3c54cf6982beb80a2f35cd9c3b445c8dbc"
+        }
+      ],
+      "file": "16c-bleach05-sg-be1-part03.ps1",
+      "rationale": "Full-payload review confirmed only a source cut marker, placement or fit instructions, an isolated insert annotation, and a coherent source-use restriction. Exact preimage and projected hashes preserve every unselected terminal cell, including titles, attribution, functional menu text, separator framing, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch38-focused-review.json",
+        "temp/text-blanking-continuation/batch38-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch38-source-placement-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 68,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "13fb38dc270b924cecb79a21d1b6ab4dbd9a3f58457e9b7a5e844eec3abaf0e1",
+          "expectedRenderedSha256": "bf94ff32dca73548f13b587f1c2c80c98ac6a14e30fb8847dec9d6d3cae15945",
+          "row": 8,
+          "sha256": "de5e78d0a9842403fbf55a0a84c18c1c001ccaa741503077cc173b3b338f0749"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 66,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "8e3126591af6036d6bded937a8ea13ade084bbb08a524990f504c55f1cc7a23b",
+          "expectedRenderedSha256": "5c7dc6c70a588e163e746332593caa228df626f2759909885630dc7aaed4c012",
+          "row": 9,
+          "sha256": "49e999a052570503eac2ff2de6b17155c150f6b3d219c69e9b33ea11f0880197"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "f6fa5e09e7f474c792a65602f7e374b760ea1e7ea0e89d8b8d6761a07fe2ba58",
+          "expectedRenderedSha256": "61407b24eca10fd69eb82f80bf04fb82e1ca33e81b0ea063ab9a068f763b411d",
+          "row": 10,
+          "sha256": "655663b556f5698b51438735f2ce3c4258394debad9a11855e2c62061e886d2b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 68,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "f0abd4575f74436f941770ae0bbd1e184640e1d75ed37bea2e1f9d37753e1a24",
+          "expectedRenderedSha256": "b225bdff12a39a355469c7178fc481b610eef35c613b3dce684d92c8e85a43ca",
+          "row": 13,
+          "sha256": "0793ddb706daecb013c5a6e589e9ea959290f06f353af2b1aeebf62ee46e45ae"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "60dcade466d4c89188e53c472a215adfa588f07e3cb2495131683d30a44dd3d6",
+          "expectedRenderedSha256": "7202ca04130649880729967f6b7dd1dc6a8aff6b062517027d48734ddd1dd76f",
+          "row": 14,
+          "sha256": "112dece514c9c8b8fef84c228698ee63f59409f23e4eafa925fc93b454833dbb"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "73e841afea8c04612ec4cd4e6f7a14b1db880db5f14320613effe6ef691c2f4c",
+          "expectedRenderedSha256": "886f6ffff8f4d57389cc5ce9eabbe19cbb95a299b2857199a147d0bd2fda2db5",
+          "row": 15,
+          "sha256": "0d24751efb0f35f4a7cd69f82311676b94b9d9e94fcdef3e90667d1619ab8895"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "e47bd40a8688303f39d120201d1b987e5badf639c42de64be6e0e63309607cf1",
+          "expectedRenderedSha256": "9b69e9c61bb88ef611d9ffaaebf61bdbd265e44e1fbe7c5ec2f5cd48fcbcb9a0",
+          "row": 16,
+          "sha256": "af20bca1a9bb25a09531d97899c9c8e4dd843adb3888fbe34bb40125e73758b2"
+        }
+      ],
+      "file": "16c-ice9703a-cu-r6663.ps1",
+      "rationale": "Full-payload review confirmed only a source cut marker, placement or fit instructions, an isolated insert annotation, and a coherent source-use restriction. Exact preimage and projected hashes preserve every unselected terminal cell, including titles, attribution, functional menu text, separator framing, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch38-focused-review.json",
+        "temp/text-blanking-continuation/batch38-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch38-source-placement-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 54,
+              "start": 43
+            }
+          ],
+          "expectedRawSha256": "68fbbd6c9ff8576ded531939d0b6348fdadf24dbb3cc92eeceaefc7beede814d",
+          "expectedRenderedSha256": "dcfa16ac61e02471219364c8af9e0af35c98ba5f00fee6e2d19df59948f1b177",
+          "row": 5,
+          "sha256": "7aeae40da6cbf46a16d96ff6878542b2e491c684e2335fa4bae76dfa695b17e9"
+        }
+      ],
+      "file": "16c-moonlgt1-cm-gfunk.ps1",
+      "rationale": "Full-payload review confirmed only a source cut marker, placement or fit instructions, an isolated insert annotation, and a coherent source-use restriction. Exact preimage and projected hashes preserve every unselected terminal cell, including titles, attribution, functional menu text, separator framing, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch38-focused-review.json",
+        "temp/text-blanking-continuation/batch38-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch38-source-placement-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 34,
+              "start": 21
+            }
+          ],
+          "expectedRawSha256": "c2ced117088e216551f1a912d6d6ac7602bd2129015c77fd2210067537883c54",
+          "expectedRenderedSha256": "3de005b2272ff8574f476aaf8a16218644c863444f89e5df20fa785884b68a2d",
+          "row": 14,
+          "sha256": "7f3c14009739dedbe5a885e9ed75507ce475de56aaf0d466550122adec7f698b"
+        }
+      ],
+      "file": "16c-phat0297-in-0297a-part01.ps1",
+      "rationale": "Full-payload review confirmed only a source cut marker, placement or fit instructions, an isolated insert annotation, and a coherent source-use restriction. Exact preimage and projected hashes preserve every unselected terminal cell, including titles, attribution, functional menu text, separator framing, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch38-focused-review.json",
+        "temp/text-blanking-continuation/batch38-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch38-source-placement-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "f160f0f15c493d1b33f739286891e90da0d933949c6b972c42aeb1715614c515",
+          "expectedRenderedSha256": "1952dc3de13b7bcc40a7a8a50fc53f794485b76248267d3db492aa47a6affae9",
+          "row": 5,
+          "sha256": "c5227da708081b3963b6dafd0c3ed647b50209ea28b99715e829187cdf0d11fb"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "fa087ec73fec53aedda647e974f0e5a7f1d2ebc8087e0991dd11fff82c76e600",
+          "expectedRenderedSha256": "55b09fc7ede241faacb326b5b89ca0c9c8062ae7680d2273ead336d613211659",
+          "row": 6,
+          "sha256": "e3c9f9ad5da01bc82ace428686a4d67e3d656312d0a9d68b57f6fc1f5c8e4a51"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "7eba21ef108953e04d3201e12f00eeb25acb3c86edcd692335e2dafda5dbd29e",
+          "expectedRenderedSha256": "1f77448adb6e9fe3d073d52a0bf32e2f5ea145f7ae53e5537fff06ff8ac4933c",
+          "row": 7,
+          "sha256": "ecc825cc409114bb2dd78bc9227e51fc4dfcee620e70bea4493d85ef09137cea"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "5009acee59301bc941f1972166e61ef91f87d791a6b2ebf6a32c05f8af92bd93",
+          "expectedRenderedSha256": "bab93de6f3801b8a3bf3a9355a801cf72d6cba76624391e6b5fda05f026962fb",
+          "row": 8,
+          "sha256": "a223dd169a046e0b22ac33a25fb54283bc98c9ea38ff1112655f995cbf5613d0"
+        }
+      ],
+      "file": "16c-saga9705-sq-apply.ps1",
+      "rationale": "Full-payload review confirmed only a source cut marker, placement or fit instructions, an isolated insert annotation, and a coherent source-use restriction. Exact preimage and projected hashes preserve every unselected terminal cell, including titles, attribution, functional menu text, separator framing, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch38-focused-review.json",
+        "temp/text-blanking-continuation/batch38-focused-crosscheck.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed residual prose review after Batch 37. Only a source cut marker, placement or fit instructions, an isolated insert annotation, and a coherent source-use restriction are included. Authored dialogue, greetings, jokes, credits, signatures, titles, functional interface text, source-significant identities, structural lettering, separator framing, and artwork remain intact.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 14,
+    "candidateFiles": 5,
+    "candidateGroups": 5,
+    "categoryRows": {
+      "batch38-source-placement-and-use-copy": 14
+    },
+    "evidenceRows": 14,
+    "priorAcceptExtensions": 0,
+    "priorRetainSupersessions": 0
+  }
+}
