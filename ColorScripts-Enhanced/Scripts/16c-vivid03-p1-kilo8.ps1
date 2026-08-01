@@ -5,7 +5,7 @@
 # Source SHA-256: d1ced69a3fdc842e34f126b2ce5f488fdb072e196f685e6f56a321ca7441d5ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-KILO8.ANS by Paranormal Intensity (ViViD); released in vivid03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: P1-KILO8
 # SAUCE Author: Paranormal Intensity
 # SAUCE Group: ViViD
@@ -36,5 +36,5 @@ Write-Host '
 [1;36;46m██████▄▄[0;36m▄▄[0;32m▀▀▀[0;1;32;42m▀[0;32m▀[0;35m▄[0;1;35;45m▄█▄[0;35m▄[0;32m▀[0;1;32;42m▀[0;32m▀[0;35m▄[0;1;35;45m▄█▄[0;35m▄[0;32m▀[0;1;32;42m▀█▀[0;32m▀[0;35m▄[0;1;35;45m▄▄[0;35m▄[0;32m▀▀▀▀▀▀▀▀▀ [0;35m▄[0;1;35;45m▄[0;35m▄ [0;37m▀▄[0;34m▐[0;1;34;44m▀██████████████████▀[0;34m▀[0m
 [1;36;46m██████████▄▄▄[0;36m▄[0;35m▐[0;1;35;45m█████▄[0;35m▄[0;1;35;45m▄█████▄[0;35m▄[0;32m▀[0;35m▄[0;1;35;45m▄████▄▄▄▄▄▄▄▄▄▄███▄[0;35m▄ [0;34m▄[0;1;34;44m▄████████████████▀[0;34m▀[0m
 [1;37m█[0;1;36;46m██████[0;1;37;40m██[0;1;36;46m████[0;36m▌[0;1;35;45m▐███████████████▄█████████████████████[0;35m▌[0;1;34;44m▐███████████████▀[0;34m▀ [0;1;37mLogon[0m
-[1m██[0;1;36;46m███████[0;1;37;40m█[0;1;36;46m██▌[0;35m▐[0;1;35;45m██████████████████████████████████████▌[0;34m▐[0;1;34;44m████████[0;1;34;40m█████[0;1;34;44m▀[0;34m▀  [0;1;37m~01^02[0m
-[1m███[0;1;36;46m█████████[0;36m▌[0;1;35;45m▐███████████████████████████████████████[0;35m▌[0;1;34;44m▐████████[0;1;34;40m██[0;1;34;44m▀[0;34m▀    [0;1;37m~02^02[0m'
+[1m██[0;1;36;46m███████[0;1;37;40m█[0;1;36;46m██▌[0;35m▐[0;1;35;45m██████████████████████████████████████▌[0;34m▐[0;1;34;44m████████[0;1;34;40m█████[0;1;34;44m▀[0;34m▀  [0;1;37m      [0m
+[1m███[0;1;36;46m█████████[0;36m▌[0;1;35;45m▐███████████████████████████████████████[0;35m▌[0;1;34;44m▐████████[0;1;34;40m██[0;1;34;44m▀[0;34m▀    [0;1;37m      [0m'

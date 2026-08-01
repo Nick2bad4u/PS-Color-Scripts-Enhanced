@@ -1,0 +1,1458 @@
+{
+  "batch": 60,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 6,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "a3d500812f5412e22dd04a1e105c9d7b11628f86693c2b20aa3d6a94be85d566",
+          "expectedRenderedSha256": "90927cddbc4731ff2f56d2a58e3707c8c6f9d959a58972564329ecf62ee3b517",
+          "row": 17,
+          "sha256": "337b64c14f240edd394c0a98756ef92618c0528897051e0c5e77ba69870faf6f"
+        }
+      ],
+      "file": "16c-avenge03-sx-stat.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 33,
+              "start": 31
+            }
+          ],
+          "expectedRawSha256": "b32839de0ae65717745ed4e90cb4577aa90081a7e01eb5951039acec3753ff9e",
+          "expectedRenderedSha256": "1019a580ebd773c75ecbc897a4c2a54e724fcd09aa9b2f06b583919b4e1bfecb",
+          "row": 14,
+          "sha256": "7aa2bf3bc25b8ec59545b53e77769c1d727cef5e36906a0158aca31ee20dc66c"
+        }
+      ],
+      "file": "16c-avenge12-ar-logo-part02.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 51,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "8a3ed7725aa0410d90dbfd0e19077207b47bff8ce48b8ac45482ad1a14b66fcf",
+          "expectedRenderedSha256": "237e5ba7033d0448baaa7420dfc24506fe3e57550e2757fd06e2c0e5f6024a55",
+          "row": 5,
+          "sha256": "c4c04b3dcfd2c21097e25ae9e2134aebc7eefcac509d31a9f40e10edabc5f08f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 51,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "d9965265e15863054932c5ecb514b46a23506c536858dbd32a927da37746b3b8",
+          "expectedRenderedSha256": "6dc1be79f1cce0e920d3371164249136b5fcf6f547d15a0554ccec36fdd7d172",
+          "row": 6,
+          "sha256": "2909f928fc6aceddded91d24aca747b3bd848a753a6177b3a13dc6a1df90e9f1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 51,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "1e41e971b4fd261dba770bfa0e56567fd30001efdbebd45ce7534252ed053b33",
+          "expectedRenderedSha256": "7d3b30168c4132c2db6898109dc782244498c426763ebd4f679853be7129f6f4",
+          "row": 7,
+          "sha256": "0e844b2ee20febd287515ce35f040207e020c19d1a3c320125a0930d5ab7eca8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 51,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "829c618eedea5cbb9fd1d239231f8e41d62e7abf3fcbcf83baf21b1786f4c703",
+          "expectedRenderedSha256": "1c4f06683149977a04e6b4e2b93783f248a75f2514d7c6b84f42b3a05fa484d3",
+          "row": 8,
+          "sha256": "bd4f61a62121281acf8924e828a88571279f0068f1274c813060b57f041978f7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 51,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "9996be3021060e0663aafd00d9d96a871d526f73e91f691cccf1cee7e80f497d",
+          "expectedRenderedSha256": "b3d7a5085064fbc91d808990b328135aa79a93c12c7a4d07ea9c23d2a1fd548e",
+          "row": 9,
+          "sha256": "32735320a322837e5e0c90cad34cde642b8b19186f39f4563de84e42f3cad2e3"
+        }
+      ],
+      "file": "16c-axf-ap-1-bx-vhmat.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 8,
+              "start": 6
+            }
+          ],
+          "expectedRawSha256": "89da58894037984960efa93df5e0091fcdc6c852aec5fb54f4a06556ae266d03",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 20,
+          "sha256": "a540fb46d96b37dad8d044ac6836a3cb942c2155dedc828c2bb18287cc482491"
+        }
+      ],
+      "file": "16c-blde9601-rt-logo1.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "b8e82d2241fc83bfccb0e7a499ede5ee6954a98d49b2b1e7faa6f90799fc3b32",
+          "expectedRenderedSha256": "1a0d39dcfc57673387d48458031d8a83e5e3c8b81872bfb925258584295d1325",
+          "row": 18,
+          "sha256": "c6ecd993af67703f2c100b7d042c2390f8b688949d2e29a429be7f23375fb692"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "7930ff46354890cd69add840018143d8ac71465d0b1e4202001c70d789d8f2d2",
+          "expectedRenderedSha256": "cadaea558113814724ad57cfe6456cf66af20c49b8cd4fd1f2f56f7d45db3a95",
+          "row": 19,
+          "sha256": "50e885b4a7d9e3c8799936a4aba8b057a264463762e84ad2181b22bf210ab557"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "e84c0299a9a7895f9681c0dc247178e909c4e00b04b08a07f99a76e2805c296d",
+          "expectedRenderedSha256": "52076c90c7b67cd46c60f9fb23fd5af3ea7e3bc8038b83af1488cbcb0c536ff1",
+          "row": 20,
+          "sha256": "d37f64497ca507d1267b5369977dfb2560155e1018cf68b0d0481b9a43f35fcb"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "94cd64435858f77e660cae53e337d112b15a6de1c445b8d5025faab4effcc018",
+          "expectedRenderedSha256": "0e50c2554c3bcf607ec313a4f1a185c2ee8ffda7b0e567d4670e61946ee08576",
+          "row": 21,
+          "sha256": "f45f1af3e07d26671b7b943afbc10fbf8d81ed738e3858700e67d588247420a5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "9055b9aaaf5210b72e5365e70266aa66ff124fa33a86361d5b43d8d46df1cefa",
+          "expectedRenderedSha256": "1870216920d6a39b650c8101f968a1fbfb85b1a35c31f74999f4a96f80ae2195",
+          "row": 22,
+          "sha256": "5698e92fed21788b2e3bd79b7caf257f47ce2abc8c264f925addda3ae3bfaac6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "de866ddda31cc484db149f78897b73003678c1fae98ffa3ea70e76c0a2870dd3",
+          "expectedRenderedSha256": "4b9eed0225807f8a0012b4044c31e3e1601356025bf020343227000847125776",
+          "row": 23,
+          "sha256": "42bab1f0a25c130121edee345642cc39368e7592de5199ce29e5be31c1238cbe"
+        }
+      ],
+      "file": "16c-blde9603-gr-ffg.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "a933989ee8f82f81ee9459e25f87dd05a8d45ced10e2e08d38bd65b4a842de91",
+          "expectedRenderedSha256": "7dda21bb9309efb2f0cbc167608032dfe8ab2dcf138c0d1da4be36cbb37d119b",
+          "row": 3,
+          "sha256": "d60e0891b4d86ccd4b323d2c4e9564267511500b684c6f657574aae5bb5dfdba"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "a445d17a92c79d5c40fee8df92282c641cb7b50cc597d2adee0a2435a9adaa49",
+          "expectedRenderedSha256": "c27686f72a3861e03ad93260016e755cf6058b301a3df1442bce05570c544e47",
+          "row": 4,
+          "sha256": "b54fb98c1967eb7a02c1e13990c32fb36426118c24fbc3bb8577f19e7ee81e30"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "af483d2aa9a9ed4ddc1d176462cb3d6acccb6746a3ce6a87a0d270deda329d57",
+          "expectedRenderedSha256": "36c1cc8bd163c9a55f4489a2ac86a3dc0ed4a3fe69927ea8d5bd01d2ac7c8271",
+          "row": 5,
+          "sha256": "9621f1de946d58bbd994bbfcefd0078298fdd9c3130aa01137e0f0b450d97788"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "06b95e0c49605b785c664548841a30f95615089a74f9918a446611481220a681",
+          "expectedRenderedSha256": "8bff86fc2b50d473333a09338c1e99f61bf08b23bd905e5e644e2889990c80f7",
+          "row": 6,
+          "sha256": "454f980e558952f6013f9c63cbca68f5c1e8ba1be77a2af0f484ef11522e3515"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "5fc5868ba6adb7de5b7de833235efc114e9aba0a058120ff6fbd04fa8232a085",
+          "expectedRenderedSha256": "6207afc6c66da1836964990f83335d85ce8805f1ddc65aee8ac7017ef29205d2",
+          "row": 7,
+          "sha256": "37bd6414c760a090e637bc2db01468dfba063b4c0e74534c1194e6931f2c45e8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "e8bdfac6b002329ba16a31ad3b1d67e7ffe0517b51a3940dc12da5f273ee2cc2",
+          "expectedRenderedSha256": "9731feec999574a597b2631aa620aa2d370c938561ec48db34c137dfe9d1539d",
+          "row": 8,
+          "sha256": "23372db1406807d74c00be6957ae64b0b763abef6e05a6b5f1312e251fdfb77b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "72a179503f08c3ebf08ca2e52378f177ab6dd03e88b492ca81728b9a97c44ef3",
+          "expectedRenderedSha256": "30c7af137ae9107c89eef46e5ba95ae75b323ab4b9617eca39fb6048fc7846be",
+          "row": 9,
+          "sha256": "058042fe593110ccedfac86aacbaf4cb2f89d84252571b476a73705387c6d096"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "51aeafaa1c165433b8cae49606fc255c47dc8be2acc4f2ff2a0ac9c7f34da027",
+          "expectedRenderedSha256": "3be3e59e5a9ee5e95b6766d947491acff0834034931e23338fa3945cd022c25c",
+          "row": 10,
+          "sha256": "ccc021da638367cb76b9efbf0f5a0e5f7df3551ef0b5ff2a36055cc1fbf702c5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "3ae80b6654cb14e790131bb49cdcc1395868ca00ba633181cd4b56cc071ab3be",
+          "expectedRenderedSha256": "d1c97089c8552d04343d121348a8a4da5832f1259f8d84433a19beb1628dbdce",
+          "row": 11,
+          "sha256": "b69b559a58ce7fa94874c7d3dafe77db983e71f67cdf27bcb68f13b1df4c32ce"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "e213567cd1bd6067ee2ea36147d45f0557bf7bdd2ecaabe977de83b64cba0571",
+          "expectedRenderedSha256": "2ebd5250372617fa19d4dd6cd584b39f871a864d8e853a88b46603e8ff41454d",
+          "row": 12,
+          "sha256": "8b2af05aa7bcd6ce2866714c7f122cd5e7e27f8125a6845c669c7bbba9fe1098"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "de49b9858ecbd5ce3db07d5b0fc798da145b90cf99d163d8f503884baa14d384",
+          "expectedRenderedSha256": "14f98efdc7457414e52629b8cf0bcdb56193559c8b17a8ba27c5715ac1ba5daf",
+          "row": 13,
+          "sha256": "f864442c53e1e29440150b7bddadb02c34bb42ecb027dfee7547b8e649cc5b92"
+        }
+      ],
+      "file": "16c-ecl-04-st-gub.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "766da493956d241e52410f4f4874067a6c3cd648228109334bb447fc450069f4",
+          "expectedRenderedSha256": "70f535c8105f5837df5da33af6c219e621c1ad44fa96a4b93ce3c709ceb572d5",
+          "row": 13,
+          "sha256": "81f29c074555b84b6f0c5b47aca95814ee486c1eb02bb62792cb5a0a3bf0a156"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "2dbfbff70c05b2d7ee1932f356105fa66a90f11b7ae006922cbd3e52c4a93f8c",
+          "expectedRenderedSha256": "1d4b7a0599055233892d25184bf3a549c5e42a59aac1ca066adfa1971f12c858",
+          "row": 14,
+          "sha256": "3c65b0e6342b7e655c57b152139c1ce65461bd75ed326cb5b64dedb039fe0d8e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "707e353e086e90561a7f9e126a38c0288fb63320573f03e8141f35d43a23da5e",
+          "expectedRenderedSha256": "a10cc362b4a35258eaf0c60fb6fe83b97b514170e470121fe11cdea0ee859648",
+          "row": 15,
+          "sha256": "942d1c0d5f1a103fc5d292f84b566f1b269d430bfc221562529274c2b56f0996"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "4e0918fa402b876e5019ca837bf23e426cc96c6ea4662ad5db2881bdeeddaa09",
+          "expectedRenderedSha256": "502e786fadfa4ea25640bc78a3b2dbd772c00edda5afc94bae820d1d22c536da",
+          "row": 16,
+          "sha256": "aab293f3da6e811632cba1c3af1eb9002b26d78456db2990c92361c16557b5a5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "9bda11cb91ead17271cc4325f408894ffbf47b0b687215cba288930a151faa10",
+          "expectedRenderedSha256": "7b6344f9eae57404f5dd32e5171b5322041a7427422745c06740d1ccfe7c0140",
+          "row": 17,
+          "sha256": "da881cd05ecaa7209999eb3b9b52fb949fff28b1fd5d3d0c353cba56fce391c7"
+        }
+      ],
+      "file": "16c-fever1yr-25l00003.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "06044a93d4550407dc385d020b63992a9f86a115213f562b1efb3a3b7d69f71e",
+          "expectedRenderedSha256": "f5f7739ec02dd1368dea3330d6653a835ab651b68a148e5f84f8832f7a282d23",
+          "row": 14,
+          "sha256": "1323c4fab30774f937d4db2958a4508ae5425017c3e77d6c032aa7ad1ad7497a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "ce6e30300a5ac78c8f6543efe62ec2c9ed8da29163fa26b57115c615c371ae43",
+          "expectedRenderedSha256": "d66a55a8d0d2760eabbd449581d2109cc55f22ccaefbdb6d245e4060c2e9be5c",
+          "row": 15,
+          "sha256": "2f45ef1e0a35a34f4c78f634f24e6355ccd76780d8de4d49d7bd4288ccd8ec96"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "e331522f65d2159f7af1226eef80234b29c5b475d2893bd2db2353de46777b9f",
+          "expectedRenderedSha256": "978ba6152e7575f223d493c27e6f7e2b1a093e8079949fda2d4486e6d0e0746f",
+          "row": 16,
+          "sha256": "3a6f945f31fa27f91c7cffd45a002cc90e2fafe488811652f6438f16d98ebb1c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "fdb92f17809091e692375a06cbca583b9867461e2507fa82e7f7fef1b3302818",
+          "expectedRenderedSha256": "237b8587e4b63d4de698512e12c2d904a922bc300cad4bb83c51990817aa7113",
+          "row": 17,
+          "sha256": "3f4142cab42a9411c40b2e8e74cf46a04a859f3e3a46de2e178a3c2548518f92"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "150544d8fbc1d6631f1ff3fdfb0ace2169c6bc58ba7755ac62eb5d0f8b0fdca8",
+          "expectedRenderedSha256": "0636e7b4c611c4a32f489a78ca869d3129f4f41493e3417b58449a4b788bff46",
+          "row": 18,
+          "sha256": "fe5a1ceb90b317edf124996610e241d8673f11ba8328772dc527f72a4a7a062d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "60eb9338bf92fecddaf4bd0c4fd9455dd17ff191e35f64d03fc6aa4510923776",
+          "expectedRenderedSha256": "0495eec13f3fb4da4ea833ff99bca100946eabc94e241d488f2e78363aa48ea6",
+          "row": 19,
+          "sha256": "71f7d2385065cba6b06f7b903913414a844de84c0a70e927262811fbc5c31f92"
+        }
+      ],
+      "file": "16c-fire0696-sr-pmtn1.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "1eed7930aecd9a93af0d4fc1aa30fc60ef20f7ad24498c86a273934b85343177",
+          "expectedRenderedSha256": "c5d2c7941f80d0bb21c0090dcc3bcbe807334014ec0e65fc1bb5cedff220213d",
+          "row": 15,
+          "sha256": "d6e5a620caf4c40d432bf95e430a9d89dee30e33e66051e985eb76ff2cf71285"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "6d304f2a4467d289fadc6ecbeb5b900a96f0da7e08e86b8445d863075c8c13b6",
+          "expectedRenderedSha256": "0063482d844e858593bd8a016f3a57dd5f760c1bd220a1ccfcb61e1c010ed2cc",
+          "row": 16,
+          "sha256": "b91ead1244dd16c73c404d890aefdb50c635a27b0aca7b69061c06949cf0a27b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "caaebc6189ba1039c1000a50d3d3695f5d20927218c3df6d92398d02358bcec6",
+          "expectedRenderedSha256": "0114997d5ad9a495ea7aec72db8ab35114c5fcf25690549e71683701f3dd152b",
+          "row": 17,
+          "sha256": "71942b24d26e2ac8a2df6dc853f082f2649062f0d647b9fc60dd716595fd3d3d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "e12a3acf99ae55847cb4c733bbe48ed40b4070b3278572b6db8717bd63ec94aa",
+          "expectedRenderedSha256": "dba6d791e86bee27fb455bd55f806b4a6778f59c95e09a18425569c37cd5d79e",
+          "row": 18,
+          "sha256": "58b09db902caeb8ffa75a2f147c0b94469afa70d9183f20c97de0850a92eb7d6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "a985caf2ca463d28973f3f6779cfe7f236b6172970de15753cf6e7eb6652199a",
+          "expectedRenderedSha256": "d7c6be3f64d1c5032a1081a0a39f0e5b7c704fd3157cf708dcfb1f5e8d53307b",
+          "row": 19,
+          "sha256": "9e094ce2299d5d5f43ea18e8bd69c92029251eac59783874268bd7a914976caf"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "9de4767abeda72ac1d2a1aa1d67901f86b09653070f90c4d207f2805b34bbc6d",
+          "expectedRenderedSha256": "3e9f5930abe52a2f5b59dece18e628baa0e54248c2b7b8c2d040f281b8e83423",
+          "row": 20,
+          "sha256": "73ca076d3af917981ba75417247f0b36d7ec1808970f2b1563bf5508801d7887"
+        }
+      ],
+      "file": "16c-force-15-jz-statm.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "ac7d6f004d083d4b7df8572a84f107506e423fbc5d9a4c7b4c8f306a59528b57",
+          "expectedRenderedSha256": "6a1f83e6b43dcf92a6d2dc4dd73a695c270ab9397842eaecead8aff464ef2147",
+          "row": 3,
+          "sha256": "f2a0d1e5314159863ac8429e7001cc16efedb2ada6698be8f8f02e654afb50bd"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "0bf77e7cf84f8a809aefc0315bf80eefe59f65ddfa5d483c4a0de87d0b5e39d2",
+          "expectedRenderedSha256": "6ed55976200414346ee4bf61b4b10e166d5f0b537db0c9184cce11df2bc26a41",
+          "row": 4,
+          "sha256": "c1f96c63395ce0d270a8373998a4dd082dc3dec74e5d93a952c5310028d17c87"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "452f578953465ab52365625ff1603a57859c61d67dacbae1bb9faab261637764",
+          "expectedRenderedSha256": "a0cc3b4f2a1ae075516be3baee23dedb6f69a3fd8633e1fb2c6a953c132ff41a",
+          "row": 5,
+          "sha256": "c4da57156fd3237be5a51bdf71d6aa854e82834f101cc4eb188530c889a99e7a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "cb587baa217bafd957cd0b2cc33a05b7f03044d74d10f4b08a0acfee140fc7aa",
+          "expectedRenderedSha256": "2ec50dcaaa5b0853e6d9cdab250cc3c2d815b80d44c55540aafa2753516b01fb",
+          "row": 6,
+          "sha256": "cdeb702cd809be0c2c5dd987f39f2e0098e235e661b5f6ca2802044fb8a41670"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "98520d3c80a26e02d167f2b0a50a5fd0ebeec9687dba131c0ace2b88615cfc94",
+          "expectedRenderedSha256": "6b7b86e4d44a6a5108d5f625d823b0d30377c6271c7b1e7775f578a4fb77806a",
+          "row": 7,
+          "sha256": "7e9f598d6b5ebf5745a49ca8d32c6a3e2b1b6b36ece5a3dd93ab5aa94b77dca8"
+        }
+      ],
+      "file": "16c-force-20-us-mtx.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 51,
+              "start": 49
+            }
+          ],
+          "expectedRawSha256": "fa46ff7734550bc72f9df667506c8a08b85f4fd18822263777b2c14caae3bba4",
+          "expectedRenderedSha256": "11db0e9fad3f13aad8926bf8a675f276103665894adf24bc30db1a40c8c90be3",
+          "row": 17,
+          "sha256": "c21ccc56af7a72a5c467a44b46681cf1a507c1182da5106550172db5d85946ed"
+        }
+      ],
+      "file": "16c-force18a-us-dstat.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 4,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "9cb6779d9ba8a6ae49ef6aefcabc2a26ae8d04bbbf030f52c0db189853d7e1a5",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "a540fb46d96b37dad8d044ac6836a3cb942c2155dedc828c2bb18287cc482491"
+        }
+      ],
+      "file": "16c-jive1196-eye-sl.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 15
+            }
+          ],
+          "expectedRawSha256": "b891e380ead52cdac2cd4544ad6b6b47264eaf9c77d7e3672d7d9b6c439db966",
+          "expectedRenderedSha256": "cc59f287cef4fdb5ff5e5fa0e374bf1d4522c7297b35e8ca7827517c36cc2f81",
+          "row": 13,
+          "sha256": "9cc74b1dc73e27d22c8ecc52e0b4e66c76d9444ba3b6375e665a9b311a7fef10"
+        }
+      ],
+      "file": "16c-mean9610-n-eusta.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "dadcb85391ad446db39ba3206cbe03755c81a7faee429e456de6f06f845bc3ca",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "9ed3ba47cb64f2b6ff9fb3516fd47b37b0a6a99fbf9d3c574f7cf0ad1759b0b1"
+        }
+      ],
+      "file": "16c-mist0721-max-mouse-hypernode-illusion-part01.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "270c02198e26ef10161a216ee06f588405adfa8be29111dc5115be73a9b9044e",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 18,
+          "sha256": "74a5183aeb7de32f99d1c227ce5cadbe154b3e886f27e62ab314f449231d367f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "012f09efdd4d99392337f885cc4e74da658e2aaaa1beea2992963edf13892142",
+          "expectedRenderedSha256": "948a842e8be572b07b79a3f13e1b68f86cd18816b6bb6bc02767c3e2f6d8dfd8",
+          "row": 36,
+          "sha256": "2b9f440f3461b0482fbcb81111e088f8dd1165297893bcbfe17391a9d77c1bce"
+        }
+      ],
+      "file": "16c-mist0721-max-mouse-hypernodec-part01.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 9,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "7a451d36721faa850b5f619675ed497ac24d4a80d8e2528c30be3f60dd08e51d",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 8,
+          "sha256": "426f9311b6b2694905170b015bd269404b28cc1ee2aa2fd3a42509f8c0a7b327"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "f1bc25b2b172d503f68cd897961d11beb939492634be07e0a1d7b443f2009712",
+          "expectedRenderedSha256": "aecf181c7eaa90b480a200feb4b7d1d945a939aa2e31800ddcd342f759b4dfdf",
+          "row": 10,
+          "sha256": "713aa87d6103528ef0bed7254b2ec6a96f085825e4b74b5422d408b5e7c41770"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "b1e69356abbc60caa3fc310a5f02ce6c1d2e47c42fb972eb09de0ade00c0dbe3",
+          "expectedRenderedSha256": "4bee1e3ba9e4857d296fbee9f2412a144dc3a2dd78e6dd9d502d4b5d33de8d6d",
+          "row": 11,
+          "sha256": "d666b1f85705558003b2632ad7957f362c7f3d40e95459ecb613a179645afd97"
+        }
+      ],
+      "file": "16c-mist0721-max-mouse-hypernodec-part02.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "c270d4b25a828edfc0ecd1203c5ed6a523e2705fefc6c375ad1d0317be5002d8",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "14566046206e7130a2a88fcc40e094e965b985b8b4bb7415c42724936e73ff6c"
+        }
+      ],
+      "file": "16c-mist0721-max-mouse-sushidisk-part01.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "b979e65d4720787d13abed160c677c063e9aff57949a1c0ae72b2f988f1ae56f",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 3,
+          "sha256": "ca844c44c8e575141944fda50e15a4acd43af5f3194fac656f54367a451989b0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "5cc3f867cc023a0daef538cc25c683382fd7af39719ac3230d95f80ac1d27238",
+          "expectedRenderedSha256": "afd650f40278acb248a1287693ca735a90a3365c57f9159dc9cf96da4bdb592c",
+          "row": 4,
+          "sha256": "1f34d532f8ae33c901ac3b7b8dbf1966d7b3533a5d74f91ddcd7326f3ca10a3b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "e3ce28c3f63f58e6ff77b319e0a28c71659190362c04d688662f67005865cfda",
+          "expectedRenderedSha256": "1ebd1ef99c93e424fb573d03ecf1983d0388e8f77c35cef971ec27b72803b3a8",
+          "row": 5,
+          "sha256": "4bec71bbff38e53fbc1e0e03162596f45ac47532f946bd1acb1d7e8113de8542"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "a62d7fd6976086336d6d1ad96219b8594244adb94a9c5c3ba5e9f0b480a7192f",
+          "expectedRenderedSha256": "3b1ce46b0bd1b01efc3dd0e46fc9fa2e5bd2d1af9d2a8b3e9245e75fc8f22b8b",
+          "row": 6,
+          "sha256": "cfd91a341f30ae46738498ae123be54d5b4b3c7e93390b6cf7a3600587c82761"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "36a7b1a115c6719b481aba42d7b6b38073c50412212f1ad19742e65a10d65d34",
+          "expectedRenderedSha256": "61df76b2e639600dc2e27bab54771ed29ccf46a2b9e9350bd20d3ad4d93e5e30",
+          "row": 7,
+          "sha256": "52739748ba8e5547e1ed3dffd37266f27808bb8c13811cd610e0dd55f7418d33"
+        }
+      ],
+      "file": "16c-moi-1196-ci-matri.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "5e40189b7f1fe1694d8b2dc616cd056d1ed278948798cef8f8a8f88cde2598b1",
+          "expectedRenderedSha256": "47a28134a65023024cc9255d229ef35fa8b1ad9ecdec74b187a59bd8a1d21832",
+          "row": 19,
+          "sha256": "ffa6cfa1afdfd2d0201f30ccfef2fd64740397cff97b9394861bc6d05e1bc0c2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "25c0ec73e5282b48d477284e9a22e6992151b7579fd5350c5048e2f1e680a183",
+          "expectedRenderedSha256": "da5bd26c82c64491db6f11b2285d150c055c4b2a88eb442940f128a2ad5a391f",
+          "row": 20,
+          "sha256": "bb8e400f356436c56cad6011f73361990fa06139ee6c93da95b38c6853288a2e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "546eee5108828dfbba4307d9675016ca1493969c76eb4d22e2842d66dcce128c",
+          "expectedRenderedSha256": "e44e3d3ad47c3d20ef2321e774ebe06a7a5b9b0a8affa34f125065e56166b36f",
+          "row": 21,
+          "sha256": "4dda9ad1417848aa6fea05edabbf6934d5cae87f273f8973e3397755ae8e582b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "5042fad31a24f19cf2a11147e331f1d4098a95353dd6188e5d4db65419610da0",
+          "expectedRenderedSha256": "ee1f4bfaa7bc61065f06e16d690cfaef2f387f46f8b60dc681ab7bec798db5cf",
+          "row": 22,
+          "sha256": "959dabcd1e8508aa16d103aae7389be88d58401008287dd57fb95a18d57de9a7"
+        }
+      ],
+      "file": "16c-opx-0996-zl-matr.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 3,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "0aad7da77d2ed59c396c99a74e49f3a4524dcdbcb5163251b1433d640247aeb4",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "a540fb46d96b37dad8d044ac6836a3cb942c2155dedc828c2bb18287cc482491"
+        }
+      ],
+      "file": "16c-ra-pack4-ss-filez.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "5ea8d06c897fe5ff5e78663e7bf33d7d79761854e2d1868c9c2ac4860468458b",
+          "expectedRenderedSha256": "6a1f83e6b43dcf92a6d2dc4dd73a695c270ab9397842eaecead8aff464ef2147",
+          "row": 3,
+          "sha256": "f2a0d1e5314159863ac8429e7001cc16efedb2ada6698be8f8f02e654afb50bd"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "f6e50484ae96ec49efda9b85ea8d393899255f6bfbd21cf65d294e1ebbdb98fa",
+          "expectedRenderedSha256": "6ed55976200414346ee4bf61b4b10e166d5f0b537db0c9184cce11df2bc26a41",
+          "row": 4,
+          "sha256": "c1f96c63395ce0d270a8373998a4dd082dc3dec74e5d93a952c5310028d17c87"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "8461b7224f339e5d3af16d1f4ef3932a04c9b9c6aed4848ce4fe082e43013cbf",
+          "expectedRenderedSha256": "a0cc3b4f2a1ae075516be3baee23dedb6f69a3fd8633e1fb2c6a953c132ff41a",
+          "row": 5,
+          "sha256": "c4da57156fd3237be5a51bdf71d6aa854e82834f101cc4eb188530c889a99e7a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "1bb13f4581e7ef2b5f74829c962854c7153a37e328ef550529c4e16cfe00fc12",
+          "expectedRenderedSha256": "2ec50dcaaa5b0853e6d9cdab250cc3c2d815b80d44c55540aafa2753516b01fb",
+          "row": 6,
+          "sha256": "cdeb702cd809be0c2c5dd987f39f2e0098e235e661b5f6ca2802044fb8a41670"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "ba9ff50e19932a4561b72c4b25e14259a2bff137dac8ce449ab8c964e0693c8f",
+          "expectedRenderedSha256": "6b7b86e4d44a6a5108d5f625d823b0d30377c6271c7b1e7775f578a4fb77806a",
+          "row": 7,
+          "sha256": "7e9f598d6b5ebf5745a49ca8d32c6a3e2b1b6b36ece5a3dd93ab5aa94b77dca8"
+        }
+      ],
+      "file": "16c-rca-19a-us-mat-1.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 3,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "f74f4eca39f58269ae763c718e89150735efbb8a848f2c73f4659b04d51dbf6c",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 20,
+          "sha256": "62f24888e5f51113264c93aea2889bda44a80ac2355e6e9140b89084a0b7f655"
+        }
+      ],
+      "file": "16c-riot-019-pm-wrlk.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 3,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "a5d20a42a4f91b9a7253543a2823e42afa38d05d54b4253e84f3cdd11c3804bb",
+          "expectedRenderedSha256": "b1f4372d40549044adf9336b3a0455327b99ff47a78a400c4814429e90c15d75",
+          "row": 24,
+          "sha256": "999ec9ab016a99a2f9f58cb1558d03b41314f5955de0eb6bd408a171bfbc5688"
+        }
+      ],
+      "file": "16c-riot0198-pm-id.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 3,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "2ec6faa4eacf3b83ae03e821a8e5d45f492fd8baf5c010e969444339d01b86fc",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 24,
+          "sha256": "62f24888e5f51113264c93aea2889bda44a80ac2355e6e9140b89084a0b7f655"
+        }
+      ],
+      "file": "16c-riot0598-pm-bbl.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 3,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "db25e996e56ea144102fedb4d98ad46d2fcb37dc20e89fe7bacca0162d938fc4",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 35,
+          "sha256": "27d786499a205c57df920a1d76fed4981547736d9b433c149e4db4da7df0f4ed"
+        }
+      ],
+      "file": "16c-spas9503-im-tsn-part03.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 3,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "43e81f66f2ec43653e5820a54d0bce1e48847143785c0eca7fdfb9657063290c",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "a540fb46d96b37dad8d044ac6836a3cb942c2155dedc828c2bb18287cc482491"
+        }
+      ],
+      "file": "16c-think008-sm-ad4ac.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch60-bbs-control-and-menu-template-tokens",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "be4a49f8404286b397a82251af9886608e16fc4a785026e2a1f73f5303358476",
+          "expectedRenderedSha256": "5ec4453f9e1df9cad34b8ead60b05493fed2a7c34b11d4b8ba469c5467dc0055",
+          "row": 23,
+          "sha256": "6ad1d42d94ea4ffea90b101cd2e5c75d87921af449ad5a32075f751e01528041"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "741387c8e0a7b8b887ef931a5aa7744b985213175a45b02dc64b8e9286302569",
+          "expectedRenderedSha256": "5729962c816d423f005bf201882495245394f4e88e903b7ff0093d0642156825",
+          "row": 24,
+          "sha256": "89e44616d72a8fc0ce38b5b91dd0ef5c61d0dc4815a838ad51134dd6a5d2d05a"
+        }
+      ],
+      "file": "16c-vivid03-p1-kilo8.ps1",
+      "rationale": "Complete syntax-family, full-payload, and rendered-preview review proves each selected span is an unexpanded BBS directive, runtime value, or generic numbered menu-template token. Artist/group suffixes, leetspeak, binary texture, functional labels, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch60-production-debt.json",
+        "temp/text-blanking-continuation/batch60-bbs-control-tokens.json",
+        "temp/text-blanking-continuation/batch60-focused-review.json",
+        "temp/text-blanking-continuation/batch60-terminal-review.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of every production-debt phrase and every legacy BBS control/color-token match. Accept only spans proven by complete syntax-family, full-payload, and rendered-preview evidence to be unexpanded directives, runtime values, or generic numbered menu-template markers; retain completion metadata, attribution, functional labels, artist/group suffixes, leetspeak, binary or ASCII texture, authored text, and ambiguity.",
+  "priorRetainSupersessions": [
+    {
+      "coordinate": "16c-force18a-us-dstat.ps1:17",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-mean9610-n-eusta.ps1:13",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-mist0721-max-mouse-hypernodec-part02.ps1:11",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-mist0721-max-mouse-hypernodec-part02.ps1:8",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    }
+  ],
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 79,
+    "candidateFiles": 27,
+    "candidateGroups": 27,
+    "categoryRows": {
+      "batch60-bbs-control-and-menu-template-tokens": 79
+    },
+    "detectorAcceptedRows": 79,
+    "detectorFiles": 85,
+    "detectorRows": 139,
+    "evidenceRows": 79,
+    "parseFailures": 21,
+    "priorAcceptExtensions": 79,
+    "priorRetainSupersessions": 4,
+    "retainedDetectorRows": 60
+  }
+}

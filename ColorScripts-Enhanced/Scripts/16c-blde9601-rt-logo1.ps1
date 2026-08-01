@@ -5,7 +5,7 @@
 # Source SHA-256: b510d3e27656c57af7b515c31be3436919cd0bca69883747c81279bf206da607
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RT-LOGO1.ANS by riptide (blade productions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo collection 1
 # SAUCE Author: riptide
 # SAUCE Group: blade productions
@@ -33,7 +33,7 @@ Write-Host '
                                                          [1;30m [0m
 
 
-     [37;40m%CL[0m                     [32;40m [0m
+     [37;40m   [0m                     [32;40m [0m
                          [35;40m▄[0m [35;40m■[0;37;40m [0;35;40m▀[0;37;40m [0;35;40m■▄[0m
                         [35;40m▀[0;1;30;45m░[0;35m▀[0m      [35m▀[0;1;30;45m░[0;35m▄[0m
              [37m [0m         [1;30m■ [0m         [35m▐[0;1;35;45m░ [0m                 [32m [0m

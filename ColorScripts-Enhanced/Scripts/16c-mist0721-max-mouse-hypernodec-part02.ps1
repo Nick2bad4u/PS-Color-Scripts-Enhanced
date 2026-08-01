@@ -5,7 +5,7 @@
 # Source SHA-256: 41fe70b979857aa6106c8faa41c725f5a8603649246922fa43c6e9eca958b48b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAX_MOUSE-HYPERNODEC.ANS by Max_Mouse (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Hypernode colly
 # SAUCE Author: Max_Mouse
 # SAUCE Group: Mistigris
@@ -22,10 +22,10 @@ Write-Host '
     [36m│││   [0;35m▀▀[0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m▀▀[0;36m   ││[0;37m   [0;36m├─────────┤[0;34m░[0;1;37m█▄█ █▄█  [0;34m░[0;1;37m█[0m
     [36m╘╧╛  [0;35m·[0;37m                                     [0;36m╘╛[0;37m   [0;36m└─────────╧─────═─═══───[0m
 
-[1;33m|CL|PO|AO[0m
+[1;33m         [0m
   [1;45mINBOX[0m [35m▓[0;37m [0;35m▒[0;37m [0;35m░[0;37m [0;35m_[0;37m                             ▄[0;1;37m▄▄[0m▄▬
-  [36mH Y P R ░ D _[0;37m                        ▄▄ [0;1;35;47m▄[0;1;35;40m▄ ▀▀[0;35m▀  [0;37m▀■▄        [0;1;37m|UH[0m
-[30m  [0;1;30mH Y P R N D _[0m                     ▄ ▀[35m▄  [0;1;35m▄█[0;1;35;45m███▄[0;35m█▄   [0;37m▀[0;1;30m▄[0m      [35mMAIL SENT[0;1;35m: [0;1;36m|ME[0m
+  [36mH Y P R ░ D _[0;37m                        ▄▄ [0;1;35;47m▄[0;1;35;40m▄ ▀▀[0;35m▀  [0;37m▀■▄        [0;1;37m   [0m
+[30m  [0;1;30mH Y P R N D _[0m                     ▄ ▀[35m▄  [0;1;35m▄█[0;1;35;45m███▄[0;35m█▄   [0;37m▀[0;1;30m▄[0m      [35mMAIL SENT[0;1;35m: [0;1;36m   [0m
                               [1;30m▬[0m▄[1m▄▄▀[0m▀ [35m░   [0;1;35m▄█[0;1;35;45m▀[0;35m▒[0;1;35;45m▀[0;35m░[0;34m▄[0;37m     [0;35m░▄[0;37m▀▄[0m
 [36m▀█▄ ▀█▄ ▀█▄ ▀█▄ ▀█▄ ▀█▄ ▀▀  [0;1;30m■[0;45m▀[0;35;40m▄   [0;1;35;40m▄[0;1;35;45m▄[0;35m▀   █[0;1;35m▀[0;35m▄[0;1;35m███[0;1;35;45m▀[0;35m▓░    [0;1;35m▐▀[0;35m▀[0;1;35m▄[0;1;30m▀[0m▄ [36m▀█▄ ▀█▄ ▀█▄ ▀█▄ ▀█▄[0m
 [36m▄ ▀█▄ ▀█▄ ▀█▄ ▀█▄ ▀█   [0;1;37m▄[0m▄[1;30m■ [0;35;47m▄[0;35;40m  ▀█ [0;1;35;40m▀▀[0;35m░   ░[0;1;35m▄[0;35m▀ ▀[0;1;35m▀[0;1;35;45m▀▄[0;35m█░    ▐ [0;1;35m▓[0;35m▌▀ [0;37m▀▄ [0;36m▀█▄ ▀█▄ ▀█▄ ▀█▄ ▀█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 0241f2c67986df5a13a210e90feca2981e1c1c95ea1c5e60902159bbadaf2a78
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAX_MOUSE-SUSHIDISK.ANS by Max_Mouse (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Wasabi Floppy
 # SAUCE Author: Max_Mouse
 # SAUCE Group: Mistigris
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;33m|CL|PO|DI40[0m
+[1;33m           [0m
 
 
           [34m____________[0;37m     [0;34m________    _ _______________ _____________[0m

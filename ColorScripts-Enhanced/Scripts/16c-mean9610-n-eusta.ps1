@@ -5,7 +5,7 @@
 # Source SHA-256: 7912692a67e572753de8712053cab6c1c9ec6d77bf6a290f10367f539cada116
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!EUSTA.ANS by nail (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: eternity underground stats
 # SAUCE Author: nail
 # SAUCE Date: 19961031
@@ -25,7 +25,7 @@ PCR         : [1m%PC[0m          [31m█▄█▀[0;33m▄▀▀▀[0;37m�
 Total Calls : [1m%CS[0m          [31m█[0;1;31;41m▒[0;31m▌[0;33m▐[0;37m  ▐[0;1;30;47m░░░▓▓[0;1;30;40m█▀▄[0;33m▀[0;1;31;43m░░[0;33m▄[0;37m [0;1;30;47m▓[0;1;30;40m▄▄[0m█[1;47m░░[0;1;30;47m░▒▓▓[0;1;30;40m█▄[0;33m▀[0;1;30m▄███[0;1;30;47m▓[0;1;30;40m▓[0m  [1;30m▐▄[0m [1;30m▄▓[0m    [1;30m░[0m
 New Files   : [1m%NF[0m          [31m█▄[0;1;31;41m▄[0m [31m▄[0m     [1;30m▀▀▀█▄[0m [1;30m▐▄[0m [33m▀[0;1;30m▄[0;1;30;47m▓▓[0m█▀▀▀      [1;30m▄[0;1;30;47m▓▓[0;1;30;40m███░[0m [1;30m▓[0;1;30;47m▓░▓[0;1;30;40m▀[0m  [1;30m▄▓[0m
 New Posts   : [1m%NP[0m          [31m▀[0;37m [0;1;31;41m▓░[0;31m▌[0;37m ▐▄▄[0m     [1;30m▀▀[0;33m▄▄[0;1;30m▀███▀[0m      ▄▄[1;30;47m░░▒▓[0;1;30;40m███▌[0m  [1;30m░[0;1;30;47m▒ ░▓[0;1;30;40m▄▓█▀[0m
-Baud Rate   : [1m%CR[0m      [31m▌▐▌▐[0;1;31;41m▒[0;31m▄[0;1;31;41m▀[0;31m█[0;37m  [0;1;37;47m░[0m█[1;30;47m▀▒▓[0;1;30;40m▀▀[0;1;31;40m▄[0m [1;31;43m█░[0;33m█▌[0;37m [0;1;30m▀▀▓[0m████[1;47m░[0;1;30;47m ░░▒▒▓▓▓[0;1;30;40m▀▀[0m [33m▄[0;37m  [0;1;30m▐[0;1;30;47m▓[0;1;30;40m█▀▀[0m
+Baud Rate   : [1m   [0m      [31m▌▐▌▐[0;1;31;41m▒[0;31m▄[0;1;31;41m▀[0;31m█[0;37m  [0;1;37;47m░[0m█[1;30;47m▀▒▓[0;1;30;40m▀▀[0;1;31;40m▄[0m [1;31;43m█░[0;33m█▌[0;37m [0;1;30m▀▀▓[0m████[1;47m░[0;1;30;47m ░░▒▒▓▓▓[0;1;30;40m▀▀[0m [33m▄[0;37m  [0;1;30m▐[0;1;30;47m▓[0;1;30;40m█▀▀[0m
 Time Limt   : [1m%TT[0m          [31m▄▐█[0m   [37m▐[0;1;30;47m░[0m▀ [1;31m▄[0;1;31;47m▓[0;1;31;43m█[0;1;31;40m▌[0m [1;31;47m▓[0;1;31;43m▓░[0;30;43m░[0;33;40m░[0m   [33;40m▄[0;1;30;40m▀[0m▀[1;47m░░[0m█[1;30;47m░▒▒[0;1;30;40m▀▀[0;33m▄[0;1;31m▄[0;1;31;43m▄░[0;33m▀[0;37m  [0;1;30m▄▓▀▓░[0m   [1;30m░[0m [1;30m▄[0m
 Time Left   : [1m%TL[0m          [31m█[0;1;31;41m░[0;31m▌▄▌[0;37m  ▀ [0;1;31;47m▓[0;1;31;43m██▓▓[0m [1;31;43m██▀[0;33m▀[0;1;31;43m░[0;33m▄[0;30;43m░[0;1;31;43m░▒▓█[0;1;31;40m▄▄[0m▀[1;30m▀[0;33m▄▄█[0;1;31;43m░░▀▓[0m   [1;30m▐▀░[0m    [1;30m░▄▓[0m [1;30m▄[0m
 Uploads     : [1m%UP[0m          [31m█[0;1;31;41m█▄▄░[0m [31m▄[0;37m [0;1;31m▀[0;1;31;43m██▓▒░[0m [1;31;47m▓[0;1;31;43m██[0;33m▄░[0;37m [0;33m▀[0;1;31;43m░[0;33m█[0;1;31;43m░▓█[0;1;31;47m▓[0;1;31;43m█▓▒░[0;33m█[0;30;43m░░░[0m   [1;30;40m░▓[0m     [1;30m░▓█▌▐▓[0m

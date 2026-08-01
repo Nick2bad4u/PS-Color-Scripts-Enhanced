@@ -5,12 +5,12 @@
 # Source SHA-256: 09e36e04e42a95e685565004932f234f0838f2b16c7938e68a7abb3d55b8566a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-FILEZ.ANS by Satanslayer666 (ra-pack4); released in ra-pack4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
-%CL
+   
                          [1;34m.d.[0m            [1;34md$$''_[0;1;30m__[0m      [1;34m.[0m
         [1;30m`└$#s┐,.  ___.[0;1;37m [0;1;34m ,d$$$b.[0;1;31m [0;1;30m______ _[0;1;34md$$''`[0;1;30mT$$$b[0;1;37m [0;1;34m,.d$[0m         [1;30m__ .s#S#s,[0m
           [1;30m;$$$P''  .$$l[0;1;37m [0;1;34md$$$$$$P`,$$$$$[0;1;30m,[0;1;34md$$$. [0;1;30m `$$$[0;1;34m$.$$$[0;30;42m████[0;37;40m  [0;34;40m.#$$$$b[0;1;30;40m$²""╚$$b.[0m

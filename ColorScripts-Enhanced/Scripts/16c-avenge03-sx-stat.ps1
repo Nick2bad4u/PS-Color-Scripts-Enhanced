@@ -5,7 +5,7 @@
 # Source SHA-256: 43c3e17bf05db657fb0e433528e3f8690c12b67c8460765afe8df957b865691b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SX-STAT.ANS by sinistrx (avenge); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: status
 # SAUCE Author: sinistrx
 # SAUCE Group: avenge
@@ -30,7 +30,7 @@ Write-Host '
    [1;37m%UL[0m                   [34m████[0;37m  [0;31m▀[0;1;31m▀█[0;1;31;47m▓▓[0;1;31;40m█▄▄[0;31m▀▀▀[0;37m [0;31m▄▄▄▀▀▀████████▄▄▀▀[0;37m [0;31m▄██[0;1;31;41m■[0;31m██▄[0;37m  [0;34m▓████████[0m
                          [34m████▌[0;37m [0;31m▐▄[0;37m [0;1;31m▀██▀[0;31m▀[0;37m [0;31m▄▄▀██████▄▄▀▀███▓▓▀▀[0;37m [0;31m▄▄▀██▀[0;1;31;41m [0;31m█[0;37m  [0;34m█[0;1;37;44m·[0;34m█████[0;1;37;44m·[0;34m█[0m
 [37m  Baud Rate[0;1;30m:[0m             [34m██[0;1;37;44m·[0;34m██[0;37m  [0;31m▓[0;1;31m▀[0m  [1;31m▄[0;1;31;41m█[0;1;31;47m▓[0;1;31;41m██▄[0;31m█▄█████████▄[0;37m [0;31m▀▄▄██[0;1;31;41m░[0;31m████▄███▌[0;37m [0;34m▐█[0;1;37;44m [0;34m██[0;1;37;44m·[0;34m███[0m
-   [1;37m%CR[0m                   [34m█████▓[0;37m  [0;31m▓[0;1;31;41m▓[0;1;31;40m█[0m [1;31m▀[0;1;31;47m█[0;1;31;41m███▓[0;31m█▄█████▀▀▄▄██▄▀██[0;1;31;41m▄▄[0;31m█[0;1;31;41m▀[0;31m█[0;37m [0;31m▓███[0;37m  [0;34m████████[0m
+   [1;37m   [0m                   [34m█████▓[0;37m  [0;31m▓[0;1;31;41m▓[0;1;31;40m█[0m [1;31m▀[0;1;31;47m█[0;1;31;41m███▓[0;31m█▄█████▀▀▄▄██▄▀██[0;1;31;41m▄▄[0;31m█[0;1;31;41m▀[0;31m█[0;37m [0;31m▓███[0;37m  [0;34m████████[0m
                          [34m███[0;1;37;44m·[0;34m██▓[0;37m  [0;31m▓[0;1;31;41m▓[0;1;31;40m█[0m [1;31m▐[0;1;31;41m█[0;1;31;47m▓▓[0;1;31;41m█▓[0;31m█[0;37m [0;31m▀▀▄▄████████▀[0;1;31;41m▀██▀[0;31m▀[0;37m [0;31m▓████▓[0;37m  [0;34m███[0;1;37;44m [0;34m██[0;1;37;44m·[0m
   Time Limit[1;30m:[0m            [34m███████▓[0;37m  [0;31m▓[0;1;31;41m▓[0;1;31;40m▌[0m [1;31;41m██[0;1;31;40m▀▀[0m [1;31m▄[0;31m█[0;37m [0;31m█████[0;1;31;41m░░░▄██▄[0;31m▀▀▀▄[0;37m [0;31m▀███████▄[0;37m [0;34m▀▀████[0m
    [1;37m%TL[0m                   [34m█[0;1;37;44m·[0;34m██████▓[0;37m  [0;31m▀[0;1;31m▀[0m  [1;31m▄▄[0;1;31;41m███▌[0;31m▌▐██[0;1;31;41m▄▄█[0;1;31;40m▀▀▀▄▄[0;1;31;41m▓▓[0m [31m▀[0;37m [0;31m▄█▄[0;37m [0;31m▀███▄███▄▄[0;37m [0;34m▀▀[0m

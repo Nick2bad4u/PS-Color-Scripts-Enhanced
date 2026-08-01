@@ -5,7 +5,7 @@
 # Source SHA-256: ff2d0fd2d9f8464b300569c77a19c8b8e53e4cdb4123d987ca8642f94e42cfbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-FFG.ANS by grendel (blade productions); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: fall from grace
 # SAUCE Author: grendel
 # SAUCE Group: blade productions
@@ -31,10 +31,10 @@ Write-Host '
     [1;33;43m▓[0;1;33;40m█[0m [1;33;40m▄▄▄▄▀▀[0m                       [31m▐[0;1;31;41m▒░   [0;30;41m ░░░[0;31;40m▒▒▒[0;30;41m░░      [0;31;40m███[0;33;41m░[0;31;40m█[0;33;41m░▒▒▓▓[0m [34;40m▐[0;1;34;44m███▓▒░░[0;34m█[0;30;44m░[0;34;40m▒░[0m
     [1;33;40m▐█▌[0m     .. fall from grace ..   [1;31m▐[0;1;31;41m▒░   [0;30;41m   ░░░░░      [0;31;40m██[0;33;41m░░▒░▒▒▓▓▓[0;31;40m▌[0m [1;34;44m█▓▒░░[0;34m█[0;30;44m░░[0;34;40m▒░[0;37;40m [0m
      [1;33;43m▓[0;1;33;40m▌[0m                             [1;31;41m▓▒░░[0;31m█[0;1;31;41m [0;30;41m     ░░░     [0;31;40m██[0;33;41m░▒▒░░▒▒▓▓▓▓[0m [34;40m▐[0;1;34;44m▒░[0;34m█[0;30;44m░░[0;34;40m▒▒░[0m
-      [1;33;43m▓[0m   [1;37;40m|01[0m%01                    [1;31;41m▓▒░░[0;31m███[0;1;31;41m [0;30;41m     ░░   [0;31;40m██[0;33;41m░▒▓▒░░▒▒▓▓▓▓[0;31;40m▌[0m [34;40m█[0;30;44m░░[0;34;40m▒▒░░[0m
-       [1;33;40m█[0m  [1;37;40m|02[0m%02                    [1;31m▐[0;1;31;41m▓▒░░[0;31m████[0;30;41m        [0;31;40m██[0;33;41m░▒▓▒░░[0;31;40m█[0;33;41m░▒▒▓▓▓▓[0m [30;44m░░[0;34;40m▒▒░░[0m
-        [1;33;43m▓[0m [1;37;40m|03[0m%03                     [1;31m▀[0;1;31;41m▓▒▒░[0;31m█████[0;30;41m       [0;33;41m░▒▓▓▒░░[0;31;40m██[0;33;41m░▒▒▓▓▓[0m [34;40m▒▒░░░[0m
-         [1;33;40m▀[0;1;37;40m|04[0m%04                       [1;31;41m▓▒░[0;31m████████[0;30;41m   [0;31;40m█[0;33;41m░▒▓▓▓▒▒░[0;31;40m██[0;33;41m░▒▒▓▓[0m [34;40m░░░░[0m
-          [1;37;40m|05[0m%05                        [1;31;41m▓▒░[0;31m█████████[0;1;31;41m [0;30;41m [0;33;41m░▒▒▓▓▓▒▒░░[0;31;40m█[0;33;41m░▒▒[0;31;40m▌[0;34;40m░░░░[0m
-          [1;37;40m|06[0m%06                         [1;31;41m▓▒░[0;30;41m░[0;31;40m██████████[0;33;41m░▒▓▓▓▓▒▒▒░░░░[0;31;40m▌[0;34;40m░░░[0m
+      [1;33;43m▓[0m   [1;37;40m   [0m                       [1;31;41m▓▒░░[0;31m███[0;1;31;41m [0;30;41m     ░░   [0;31;40m██[0;33;41m░▒▓▒░░▒▒▓▓▓▓[0;31;40m▌[0m [34;40m█[0;30;44m░░[0;34;40m▒▒░░[0m
+       [1;33;40m█[0m  [1;37;40m   [0m                       [1;31m▐[0;1;31;41m▓▒░░[0;31m████[0;30;41m        [0;31;40m██[0;33;41m░▒▓▒░░[0;31;40m█[0;33;41m░▒▒▓▓▓▓[0m [30;44m░░[0;34;40m▒▒░░[0m
+        [1;33;43m▓[0m [1;37;40m   [0m                        [1;31m▀[0;1;31;41m▓▒▒░[0;31m█████[0;30;41m       [0;33;41m░▒▓▓▒░░[0;31;40m██[0;33;41m░▒▒▓▓▓[0m [34;40m▒▒░░░[0m
+         [1;33;40m▀[0;1;37;40m   [0m                          [1;31;41m▓▒░[0;31m████████[0;30;41m   [0;31;40m█[0;33;41m░▒▓▓▓▒▒░[0;31;40m██[0;33;41m░▒▒▓▓[0m [34;40m░░░░[0m
+          [1;37;40m   [0m                           [1;31;41m▓▒░[0;31m█████████[0;1;31;41m [0;30;41m [0;33;41m░▒▒▓▓▓▒▒░░[0;31;40m█[0;33;41m░▒▒[0;31;40m▌[0;34;40m░░░░[0m
+          [1;37;40m   [0m                            [1;31;41m▓▒░[0;30;41m░[0;31;40m██████████[0;33;41m░▒▓▓▓▓▒▒▒░░░░[0;31;40m▌[0;34;40m░░░[0m
                                           [1;31;41m▒[0;31m▄[0;30;41m▒░░░[0;31;40m███████[0;33;41m░▒▓▓▓▓▓▓▒▒░░[0;31;40m█[0m [34;40m░[0m'
