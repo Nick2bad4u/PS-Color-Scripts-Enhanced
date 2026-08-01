@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 48348,
+        "totalRowsBlanked": 48350,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 14388,
+        "residualMixedTextRowsBlanked": 14390,
         "residualMixedTextTrailingRowsRemoved": 162,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -122,6 +122,7 @@
         "mixedTextLedger38": "AnsiResidualMixedTextReviewLedger38.json",
         "mixedTextLedger39": "AnsiResidualMixedTextReviewLedger39.json",
         "mixedTextLedger40": "AnsiResidualMixedTextReviewLedger40.json",
+        "mixedTextLedger41": "AnsiResidualMixedTextReviewLedger41.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -250,7 +251,10 @@
         "mixedTextPass39TrailingRowsRemoved": 0,
         "mixedTextPass40FilesRedacted": 14,
         "mixedTextPass40RowsBlanked": 35,
-        "mixedTextPass40TrailingRowsRemoved": 0
+        "mixedTextPass40TrailingRowsRemoved": 0,
+        "mixedTextPass41FilesRedacted": 2,
+        "mixedTextPass41RowsBlanked": 2,
+        "mixedTextPass41TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -311,6 +315,7 @@
         "A fortieth hash-locked mixed-text review blanked 14 rows across 5 scripts after the completed-history-excluded residual prose lane expanded from the strongest 300 to the next 400 ranked rows. Full-payload family review accepted only a literal cut marker, two isolated placement annotations, a four-row fit instruction, and a seven-row source-use restriction while retaining functional BBS commands, authored greetings, attribution, titles, and ambiguous numbered interface copy. Independent ANSI-aware replay verified 14 exact one-based source-cell projections and 152 changed cells while preserving every unselected glyph, separator, ANSI control, colored space, width, and row coordinate; no trailing rows were removed.",
         "A forty-first hash-locked mixed-text review blanked 24 rows across 7 scripts after expanding the completed-history-excluded prose lane to ranked rows 701-1100. Full-payload family review accepted only coherent delivery, placement, source-use, design-commentary, modification, and incomplete payment-process notes while retaining functional BBS commands, authored greetings, identities, attribution, titles, and ambiguous numbered interface copy. Independent ANSI-aware replay verified 24 exact one-based source-cell projections and 283 changed cells while preserving every unselected glyph, separator, ANSI control, colored space, width, and row coordinate; no trailing rows were removed.",
         "A forty-second hash-locked mixed-text review blanked 35 rows across 14 scripts after expanding the completed-history-excluded prose lane to ranked rows 1101-1500. Full-payload review accepted only source-process and delivery notes, explicit code or credit placeholders, repeated crude filler, narrowly offensive spans, a placement annotation, and separable design commentary while retaining authored dialogue and captions outside those spans, recipient identities, attribution, titles, and functional interface copy. Independent ANSI-aware replay verified 35 exact one-based source-cell projections and 367 changed cells while preserving every unselected glyph, separator, ANSI control, colored space, width, and row coordinate; no trailing rows were removed.",
+        "A forty-third hash-locked mixed-text review reconciled the prose-lane tail by excluding every coordinate reviewed in lanes 37-40, then classified the remaining 59 qualified rows. It blanked only a filename-like source descriptor and an orphaned production-comment fragment across 2 scripts, retaining the other 57 rows as attribution, titles, functional menu or BBS copy, authored captions, identities, or structural text. Independent ANSI-aware replay verified 2 exact one-based source-cell projections and 33 changed cells while preserving every unselected glyph, ANSI control, colored space, width, and row coordinate; no trailing rows were removed.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
