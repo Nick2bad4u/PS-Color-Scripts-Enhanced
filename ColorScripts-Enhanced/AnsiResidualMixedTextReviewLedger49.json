@@ -1,0 +1,69 @@
+{
+  "batch": 49,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch49-orphaned-prose-heads",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 49,
+              "start": 43
+            }
+          ],
+          "expectedRawSha256": "45d1026189706b49bf8143eb9598e49dc7ea52782f8366b66d467c1b1bf657d1",
+          "expectedRenderedSha256": "73b46c532d5405e6b8dab064af9adb16dda05dce2f8e3e80ab5fae79a7bc9931",
+          "row": 28,
+          "sha256": "daf89f27ce47f7b34315a435e02974ae1fbbffe1f953b1f20445dbe9cc45373c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 5,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "d868d774d6be9fa60d9e5659678deef71c81f698bf29652e3dd805d9c5539200",
+          "expectedRenderedSha256": "a353f9cbe67174296a36d01df44756974a3cb68122082cfa8b9fd98beaf6df72",
+          "row": 34,
+          "sha256": "7073c1c7db2e7b4eb2a23276ffad4337b5a4173bdce2fd7508568e3b154052bc"
+        }
+      ],
+      "file": "16c-roots01-us-slurg.ps1",
+      "rationale": "The original import preimage proves two complete text blocks: `We used / every color, / what more do / you want from us?` and `mIRC / incoming events / REGISTER MIRC OR ELSE..`. Earlier ledgers blanked the continuation rows but left the two heads. Exact cell ranges finish those prior decisions while preserving every surrounding art glyph, ANSI control, colored space, width, and row coordinate; no completed-history retain or tracked accepted projection is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch49-process-phrase-scan.json",
+        "temp/text-blanking-continuation/batch49-original-comparison.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch49-focused-review.json",
+        "temp/text-blanking-continuation/batch49-terminal-review.json",
+        "temp/text-blanking-continuation/batch49-focused-crosscheck.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of every candidate in the post-Batch-48 source-process phrase inventory. Accept only orphaned text heads proven by original import preimages and already-blanked continuation rows. Retain functional upload or BBS labels, anti-rip statements, attribution, authored captions, structural text, and detector false positives. Completed-history collisions and tracked accepted projections are forbidden.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 2,
+    "candidateFiles": 1,
+    "candidateGroups": 1,
+    "categoryRows": {
+      "batch49-orphaned-prose-heads": 2
+    },
+    "detectorRows": 23,
+    "evidenceRows": 2,
+    "familyExtensions": 1,
+    "priorAcceptExtensions": 1,
+    "priorRetainSupersessions": 0,
+    "retainedDetectorRows": 22,
+    "skippedDynamicScripts": 21
+  }
+}
