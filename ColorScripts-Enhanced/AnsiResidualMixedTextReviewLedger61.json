@@ -1,0 +1,436 @@
+{
+  "batch": 61,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch61-orphaned-source-editor-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "0da9ae0f549cba08737f04fdbcd3ff97fb6b209bfc44aba7230ea762dae17c11",
+          "expectedRenderedSha256": "d9b77e3e14f6aafd6b7e3e7aaa34ff29a0c7c09228a51a3a4f0a91edce7120dc",
+          "row": 3,
+          "sha256": "d94a73c347c4b8fc54acb81bc839221721e527bcecedf3d2ad32e9485129e24e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "572e8955ca15e52e76c5fc889e69a86a2d139d2ecb6052c710f8abd3e629e5b4",
+          "expectedRenderedSha256": "273a4cb833866b315ad7047fa48734217730610e88ded7374c806757f0c97281",
+          "row": 4,
+          "sha256": "3f79e94e20089bc3ac0fa8c77c28248dc1eb9f2c20f5ae557caff77d847f00ce"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "a61817d96292226314e27e12e2418f3e835c0a913b3d7ca952bf776cba2cd5b2",
+          "expectedRenderedSha256": "af78c0d8364092752af88516dd3b498e50bc460d0ece052e1679a5ebfa6a9e6c",
+          "row": 6,
+          "sha256": "aa803256b9983c94ce913bfdb6d9cfcda927f170734f88d7161704c31bbf5f5e"
+        }
+      ],
+      "file": "16c-fire0597-two-rust.ps1",
+      "rationale": "Full-payload and historical-diff review proves each selected span is orphaned source-production copy, editor/shareware metadata, board-promotion copy, or a source-use warning. Existing authorship, group and title metadata, functional prompts, structural lettering, captions, signatures, and terminal art remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch61-natural-language.json",
+        "temp/text-blanking-continuation/batch61-editor-metadata.json",
+        "temp/text-blanking-continuation/batch61-focused-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch61-orphaned-source-editor-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 18,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "f6b0a6e6aa136519980f7d15a1ad460f52c2274547396d97e51b5e1ece1d4435",
+          "expectedRenderedSha256": "4e45a80385669f6d894b55abf5592e876eb36547284af0c82b36770dee8b6478",
+          "row": 9,
+          "sha256": "bd46811ad5163b648b2c9a36c28deabc2ec365f82a79a3bc5584efa87c41af19"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 18,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "f239d7234d82721c473af01d023f7c3fd6a6ce1aab81c7ce153f0f99cf416ae6",
+          "expectedRenderedSha256": "d81fd8cb338ae14a65812226462495ca476ae665fb051d3c9d3473435c233aed",
+          "row": 10,
+          "sha256": "be38ba83e41244d22f93ef762d5a153dd9dc0e13b4214f341c0353da20c833e9"
+        }
+      ],
+      "file": "16c-fld9611-ph-mof.ps1",
+      "rationale": "Full-payload and historical-diff review proves each selected span is orphaned source-production copy, editor/shareware metadata, board-promotion copy, or a source-use warning. Existing authorship, group and title metadata, functional prompts, structural lettering, captions, signatures, and terminal art remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch61-natural-language.json",
+        "temp/text-blanking-continuation/batch61-editor-metadata.json",
+        "temp/text-blanking-continuation/batch61-focused-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch61-orphaned-source-editor-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "ee1999e91e417f959aa3e3ef633b7932b573c0a8af1770082420800b60e4ab62",
+          "expectedRenderedSha256": "b16b0f78a70101e8b78a5c17dba278b04e88366a1d88822f9f088881f7aacb2e",
+          "row": 24,
+          "sha256": "087bb6e8462a065714a7cf77b40952cbf7a02a994b55ba8f8a33b8d9e28c2c3e"
+        }
+      ],
+      "file": "16c-fsn-0296-iz-nucma.ps1",
+      "rationale": "Full-payload and historical-diff review proves each selected span is orphaned source-production copy, editor/shareware metadata, board-promotion copy, or a source-use warning. Existing authorship, group and title metadata, functional prompts, structural lettering, captions, signatures, and terminal art remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch61-natural-language.json",
+        "temp/text-blanking-continuation/batch61-editor-metadata.json",
+        "temp/text-blanking-continuation/batch61-focused-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch61-orphaned-source-editor-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "856608394c9094ed27f90b69636cd0c04f5cce9264ff14829dd0bb0fe97eb9bb",
+          "expectedRenderedSha256": "ae0807226833d1a3f5b95268659c5d2e14764f40958e2e6e9796d6d8890bedff",
+          "row": 17,
+          "sha256": "4660eba1fa5173dc460e7bdeddb1e7112ec11296ccee994b2379b45117fdd55e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "8a64927e1ae81b06d9889b629d719d36c5c0e2f8cd990faba9856c6db4fa05cd",
+          "expectedRenderedSha256": "14461808274afbc4c052cff59ccc6a23d1a546c8af674c923b0f8c8d698b90b3",
+          "row": 19,
+          "sha256": "f4fb4c93290490120b110aa1b598b7fd75f970d770af61b0b5d473667d00dc86"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "a7f7ea280c27c4f8ca6fc7d7cbe9959c0d5b4489aca54b9ba1c7bdf769760ec0",
+          "expectedRenderedSha256": "227b86d5df211be209ca83efada58b93b8985172ba4e92ced89b8c4d5f5f3b79",
+          "row": 21,
+          "sha256": "92d08fa3ca605bbe11792851e66b67b750e76c5ec0f4e88b38cf3ac0617dcc18"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 7,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "bdc2382c494f7f0e1b57922b5117d2d50b65d0dc6ea297eeaac576b3201f801a",
+          "expectedRenderedSha256": "a0c4171a4997f212e5ee65fc66b141c836c313b2ac575f4bb7ac82efae7ac12d",
+          "row": 28,
+          "sha256": "261c257653578bcb10d3b7d16737f62db742a2423cff9cee591696104801c927"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 7,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "bed8ed7dcafaa1ca8f5cf3be26dfce8dfbdab6f7baf52c86df1c0946f1bfa234",
+          "expectedRenderedSha256": "bb6114752d1d4d8b42f93e29aae39fd9dad879afc957470f146fa2f843c9581f",
+          "row": 30,
+          "sha256": "d66a2ec9f8ea4fdc54514596cdfe67fcdaafefd54042a3a40c1deb880e21cca4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "35dc082497e65856b539ae397e4abc1b363ee53fad22f067597420bdf2f19193",
+          "expectedRenderedSha256": "47335669d55cf2996afcbb06875d118065b431c7eaa080499bfef555c893144f",
+          "row": 31,
+          "sha256": "632955468626947d046b9c7d757c76e6bca8815b03387bf9241c447ecd5278b2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 7,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "b1d08f4b661aa1f43ab79d4d5564ce56bd22df35da0d38ba6486a5a16c8b8182",
+          "expectedRenderedSha256": "c7ca474f6facfbf5527c3aee8281d335ec8616c25be72442d56ab5f292108d35",
+          "row": 32,
+          "sha256": "faa2537f34f3ca603d8ce0c47c282faace071d0d61f1a4c2034c8c60914d91a5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "bd4f365d07fe627fa68c1b2819f27dde629a4c1382c8e0692239cf474eaaa768",
+          "expectedRenderedSha256": "a7d5b0feef19fd52851c98c7bb389bed4289c60a40ccc71e19b8ba0bb910151d",
+          "row": 34,
+          "sha256": "144af8aff52bd8e553eb54982f4fd553eb9a897007f7d995ce30d94ba7e9c02a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 7,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "7d6ba208e8b4e5441ecac2ae6fe597e6369d10a7c978f9a515a07c3287aeead0",
+          "expectedRenderedSha256": "da2f34527a9b34eccd9e4e3f7e7c9d94eb813a5944e8d5d0a55ce8e90485b1c0",
+          "row": 35,
+          "sha256": "76c59116983ffdd564b0ed6ecb60cd477e0816c07e3a104c7a225b5a43e97407"
+        }
+      ],
+      "file": "16c-itpnazis-ax-draw-part04.ps1",
+      "rationale": "Full-payload and historical-diff review proves each selected span is orphaned source-production copy, editor/shareware metadata, board-promotion copy, or a source-use warning. Existing authorship, group and title metadata, functional prompts, structural lettering, captions, signatures, and terminal art remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch61-natural-language.json",
+        "temp/text-blanking-continuation/batch61-editor-metadata.json",
+        "temp/text-blanking-continuation/batch61-focused-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch61-orphaned-source-editor-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "327d69ab2163681be6616db9896f436cb980c773dc5c2bb4a9c1a7579cb36d15",
+          "expectedRenderedSha256": "7ece63c2b322f021d28e55ef19f980d6b43f9c802158be63533b8bd7e5fe0b0d",
+          "row": 19,
+          "sha256": "78a349ea77417c9d8c1840a1835a76a660e800d9c3d1e3d23bc434dd806bb4e9"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 18,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "d1cf17a388d2b8b4c55b75c4df6ba4cb07f74c1d527404562f2ff43930c6f13e",
+          "expectedRenderedSha256": "e9f9c5a415c48b022f917655ca849db2be6d93edd62343d69ddea5cb3b1dbd6f",
+          "row": 20,
+          "sha256": "8a401c7214863d7db85d0bfbc9a7effbfb73db97992f2969cba29a1a4c63b835"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 18,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "54bcadfcdc13d38e358113993f9a4f78fa0279af2e82e6a87ebd2e3b5d1b41f6",
+          "expectedRenderedSha256": "df60267110a213d5d24301e0c40eb8012ec986d43e5123ecb6c2276301b751bf",
+          "row": 23,
+          "sha256": "2b96dccdd1546cf38311c33feaeaa9dd6282dedf3454db2b5009e5670ceea88a"
+        }
+      ],
+      "file": "16c-oph-0018-corey-02.ps1",
+      "rationale": "Full-payload and historical-diff review proves each selected span is orphaned source-production copy, editor/shareware metadata, board-promotion copy, or a source-use warning. Existing authorship, group and title metadata, functional prompts, structural lettering, captions, signatures, and terminal art remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch61-natural-language.json",
+        "temp/text-blanking-continuation/batch61-editor-metadata.json",
+        "temp/text-blanking-continuation/batch61-focused-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch61-orphaned-source-editor-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 54,
+              "start": 25
+            }
+          ],
+          "expectedRawSha256": "fcfbe1880b91f5bb789eadc80f1df4040bce8b51eeb7dbb9f3f5d3aa32d8b29d",
+          "expectedRenderedSha256": "a1981c8f3a0651d9bf45fab39f3da6bbc3f63d3a950e6caed9ed8de746f37de2",
+          "row": 2,
+          "sha256": "5b461eabdcceee71c3b8f9ca5278544213f616f462a07cb507eaa773cd7e6169"
+        }
+      ],
+      "file": "16c-pro-0597-mor-bid.ps1",
+      "rationale": "Full-payload and historical-diff review proves each selected span is orphaned source-production copy, editor/shareware metadata, board-promotion copy, or a source-use warning. Existing authorship, group and title metadata, functional prompts, structural lettering, captions, signatures, and terminal art remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch61-natural-language.json",
+        "temp/text-blanking-continuation/batch61-editor-metadata.json",
+        "temp/text-blanking-continuation/batch61-focused-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch61-orphaned-source-editor-and-use-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 32,
+              "start": 12
+            }
+          ],
+          "expectedRawSha256": "05964ae55b375f7411edaf0a31cf3a1e3b88f91583717725b060f293c6b6df0a",
+          "expectedRenderedSha256": "c3291b13183c6b9da894125876ba770dbeb2d84b3ec5b48ca096eca189a3c0e1",
+          "row": 12,
+          "sha256": "767f7f44029482e640eb9df9a7448fbf2b217847ac06949840cafbd8b8e8b511"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 26,
+              "start": 15
+            }
+          ],
+          "expectedRawSha256": "8d1953b026c13fa50bdc5d28187e139d8e42271840b818da125e837739b091f2",
+          "expectedRenderedSha256": "98d63823f7ef6597916b8521711cebe05ad30fb199b5fb88baac101882221686",
+          "row": 13,
+          "sha256": "f2705e838c25a5697ca6b2726b30c9eae033b1947784934d37af4c7450567b88"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 21,
+              "start": 18
+            }
+          ],
+          "expectedRawSha256": "06348a85647e23da270624fdced1eeda784ea20de763d10a7870959629c3f189",
+          "expectedRenderedSha256": "b3d350d82e125162fb24aef3a22cc79e591c1d7c48ee8162f77d3ebe326bf563",
+          "row": 15,
+          "sha256": "2ae01a264d8892190f2b4a586e3cd5d5459891e2c0cdb2e249b893590d070933"
+        }
+      ],
+      "file": "16c-wax03-gdr-file.ps1",
+      "rationale": "Full-payload and historical-diff review proves each selected span is orphaned source-production copy, editor/shareware metadata, board-promotion copy, or a source-use warning. Existing authorship, group and title metadata, functional prompts, structural lettering, captions, signatures, and terminal art remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch61-natural-language.json",
+        "temp/text-blanking-continuation/batch61-editor-metadata.json",
+        "temp/text-blanking-continuation/batch61-focused-review.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of every exact source-use, anti-rip, editor-metadata, and targeted production-note candidate. Accept only separable disposable copy proven by complete payload and historical redaction-family evidence; retain attribution, titles, functional prompts, authored jokes or captions, structural text, terminal-art texture, and ambiguity.",
+  "priorRedactionExtensions": [
+    {
+      "commit": "a8b241cba",
+      "coordinates": [
+        "16c-wax03-gdr-file.ps1:12",
+        "16c-wax03-gdr-file.ps1:13",
+        "16c-wax03-gdr-file.ps1:15"
+      ]
+    },
+    {
+      "commit": "b2e57744c",
+      "coordinates": [
+        "16c-itpnazis-ax-draw-part04.ps1:28",
+        "16c-itpnazis-ax-draw-part04.ps1:30",
+        "16c-itpnazis-ax-draw-part04.ps1:31",
+        "16c-itpnazis-ax-draw-part04.ps1:32",
+        "16c-itpnazis-ax-draw-part04.ps1:34",
+        "16c-itpnazis-ax-draw-part04.ps1:35"
+      ]
+    },
+    {
+      "commit": "920f0f948",
+      "coordinates": [
+        "16c-itpnazis-ax-draw-part04.ps1:17",
+        "16c-itpnazis-ax-draw-part04.ps1:19",
+        "16c-itpnazis-ax-draw-part04.ps1:21",
+        "16c-oph-0018-corey-02.ps1:19",
+        "16c-oph-0018-corey-02.ps1:20",
+        "16c-oph-0018-corey-02.ps1:23"
+      ]
+    }
+  ],
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 22,
+    "candidateFiles": 7,
+    "candidateGroups": 7,
+    "categoryRows": {
+      "batch61-orphaned-source-editor-and-use-copy": 22
+    },
+    "changedCells": 266,
+    "detectorAcceptedRows": 13,
+    "detectorFiles": 13,
+    "detectorRows": 21,
+    "evidenceRows": 22,
+    "familyExtensions": 9,
+    "parseFailures": 21,
+    "retainedDetectorRows": 8
+  }
+}
