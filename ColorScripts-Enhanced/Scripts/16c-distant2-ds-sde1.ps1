@@ -5,7 +5,7 @@
 # Source SHA-256: 0089d55a31249648142886f97f28c10967e8c93bb1f2b9494ad593aa7b30949a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-SDE1.ANS by deceased squirrel (distant2); released in distant2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: shade ansi
 # SAUCE Author: deceased squirrel
 # SAUCE Date: 19980726
@@ -30,7 +30,7 @@ Write-Host '
   [36mmenu[0m   [1;36m▀█[0m    [34md d[0;1;34mistan[0;34mt[0m    [1;36m▀[0;1;36;46m▓▓[0;1;36;40m▄[0;30;47m█[0;37;40m  [0;1;36;40m▀[0m  [34md d[0;1;34mistan[0;34mt[0m    [1;36m░░[0;1;36;46m▓[0;1;36;40m▄[0m    [34md d[0;1;34mistan[0;34mt[0m    [1;36m▀[0m [1;36m▄[0m
 [1m▐[0m          [1;36m▀[0m                [1;36m▄[0;1;36;46m▓▓▓[0;1;36;40m▄[0;30;47m███[0m                [1;36;40m▀[0;1;36;46m▓▓[0;1;36;40m▀[0m                 [1;36m▄[0;1;36;46m▓[0;1;36;40m█[0m
 [1;34;44m░[0;1;37;44m░[0m       [1m▄[0m     [34md d[0;1;34mistan[0;34mt[0;37m  [0;1;36m▀█[0;1;36;46m▓▓[0;1;36;40m▀[0;1;36;46m▓[0;1;36;40m██[0;30;47m███[0;37;40m [0;34;40md d[0;1;34;40mistan[0;34mt[0m            [34md d[0;1;34mistan[0;34mt[0m      [1;36m█[0m
-[1;34;44m░[0;30;44m ▄▄[0m   [37;40m [0;30;44m▐[0m                 [1;36;40m░░[0;1;36;46m▓▓▓[0;1;36;40m▐█[0m [1;36m▌[0m [30;47m█[0;30;40mhidden text #!@#!@#!@@#!!@@[0m       [1;37;40m▄[0m  [1;36m [0m   [1m ▐[0m
+[1;34;44m░[0;30;44m ▄▄[0m   [37;40m [0;30;44m▐[0m                 [1;36;40m░░[0;1;36;46m▓▓▓[0;1;36;40m▐█[0m [1;36m▌[0m [30;47m█[0;30;40m                           [0m       [1;37;40m▄[0m  [1;36m [0m   [1m ▐[0m
 [1;34;44m░░[0;30;44m▐[0;37;40m [0;30;44m▄[0;37;40m  [0;1;34;44m░[0m    [30;44m▀[0m       [1;37;40m▄[0m        [1;36;46m▓[0;1;36;40m▀▀[0m  [1;36m▀[0m                                   [1m█[0;1;44m░[0m   [1m▀[0m  [30;44m▌[0;1;37;44m░[0m
 [30;44m▐[0;1;34;44m░░[0;30;44m▀[0;37;40m  [0;1;34;44m░░[0m    [30;44m▐[0m       [30;44m▐[0;1;37;40m■[0m    [30;44m▀[0;37;40m  [0;1;36;40m▌[0m     [30;44m▀[0m   [1;37;40m▐[0m   [1m▄[0m       [1m▄[0m [34m+o fishie[0;37m  [0;34m■[0;30;44m▀[0m      [30;44m▄▐[0;37;40m  [0;30;44m▌▀ [0;1;34;44m░[0m
  [30;44m▄[0;1;34;44m░░▒[0;1;34;40m█[0;1;34;44m░[0m    [30;44m▀[0m    [30;44m▀[0m   [1;37;44m░[0m   [1;34;44m░░[0m   [1;36m▀▄[0m    [30;44m▐[0m   [1;34;44m░[0;30;44m▀[0;37;40m  [0;30;44m▌▀[0;37;40m [0;1;37;44m░[0;1;34;44m░░[0;30;44m▀▀▐[0m    [30;44m▀[0m        [30;44m▐[0m        [30;44m▄▄  [0;1;34;44m░░[0m
