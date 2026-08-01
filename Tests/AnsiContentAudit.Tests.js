@@ -286,6 +286,14 @@ test("blankTextColumns treats archived CP437 symbols as single art cells", () =>
     assert.equal([...output].length, [...input].length);
 });
 
+test("blankTextColumns preserves CP437 guillemet hotkey framing", () => {
+    const input = "«B»Options go here stupid";
+    const output = blankTextColumns(input, [{ end: 25, start: 4 }]);
+
+    assert.equal(output, "«B»                      ");
+    assert.equal([...output].length, [...input].length);
+});
+
 test("blankTextColumns rejects ambiguous or destructive ranges", () => {
     assert.throws(() => blankTextColumns("text", []), /non-empty/u);
     assert.throws(
