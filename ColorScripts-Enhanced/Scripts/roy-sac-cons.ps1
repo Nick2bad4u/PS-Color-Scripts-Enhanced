@@ -5,12 +5,12 @@
 # Source SHA-256: ee79b29915efbdb5b100ab46f15048fba135c0b9e11554944253004552c00ab1
 # Source License: FAL-1.3
 # Source Attribution: ROY-CONS.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-9
 # Columns: 1-80
 
 Write-Host '
-@CLS@
+     
 
 [34m  █▀ [0;1m▄█████████████▄  ██████▄ [0;34m▀ [0;1m▄█████████████▄  ███ [0;34m████▀ [0;1m▄██████  ▄██████ [0;34m█[0m
 [34m █[0;1;34;44m░[0m [1;47m▒▒▒[0m [34m▄▄▄▄ [0m▄▄▄  [1;47m▒▒▒[0m [1;47m▒▒▒[0m  [1;47m▒▒▒[0m [1;47m▒▒▒▒[0m     ▄▄▄  [1;47m▒▒▒[0m [1;47m▒▒▒[0m  ▄ [34m▀ [0;1;47m▒▒▒[0m  ▀▀▀ [1;47m▒▒▒[0m▄▄▄  [34m▄[0;1;34;44m░[0;34m█[0m

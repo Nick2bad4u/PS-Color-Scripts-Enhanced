@@ -10,7 +10,7 @@
 # Columns: 1-80
 
 Write-Host '
-@CLS@
+     
 
 [1m                                  [0;35maa$$$a[0m
 [35m                                 aaa²a$$$a[0m

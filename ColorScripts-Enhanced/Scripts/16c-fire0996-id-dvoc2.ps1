@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m@CLS@[0m
+[1m     [0m
 
 
 

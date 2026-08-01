@@ -12,3 +12,6 @@ ColorScripts-Enhanced/Scripts/durdraw-*.ps1 -text whitespace=-blank-at-eol
 
 # 16colors conversions may retain background-colored spaces through the right edge.
 ColorScripts-Enhanced/Scripts/16c-*.ps1 whitespace=-blank-at-eol
+
+# Roy/SAC conversions may likewise retain source-cell spaces through the right edge.
+ColorScripts-Enhanced/Scripts/roy-sac-*.ps1 whitespace=-blank-at-eol
