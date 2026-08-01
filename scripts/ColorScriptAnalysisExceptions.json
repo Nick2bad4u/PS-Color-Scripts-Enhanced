@@ -1448,11 +1448,6 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-lap-1294-gh-efg1",
-            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-max1093-ba-ir",
             "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
         },

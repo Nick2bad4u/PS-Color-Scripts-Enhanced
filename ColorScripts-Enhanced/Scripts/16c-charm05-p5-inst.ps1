@@ -5,7 +5,7 @@
 # Source SHA-256: c4bd5901a0c867b417747dbcc052b5270ada7754684bf2bd08e4c86f73f2d0e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: p5-inst.ans by prosthesis (charm); released in charm05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: 45 line ansi for my boarD!@#
 # SAUCE Author: prosthesis
 # SAUCE Group: charm
@@ -31,9 +31,9 @@ Write-Host '
    [1;30m▄[0m
    [1;30m▌[0m         [1;30m▌[0m
    [1;30m▀[0m    [1;30m░[0m                [1;30m▄▄[0m                  [1;30m▐[0m
-                 [34m░[0m        [1;30m▐[0m               [1;30m▄▄▀▀[0m        [30;42m:: greets [0;32;40m►[0m
+                 [34m░[0m        [1;30m▐[0m               [1;30m▄▄▀▀[0m        [30;42m::        [0;32;40m►[0m
         [34;40m▄█[0m       [34;40m▓  █[0m     [1;30;40m▓[0m             [1;30m▐[0m
-[34m▄[0;1;34;44m░[0;34m█ ░▓  ▀[0;1;34;44m░▓[0;34m▀  ▄█ [0;1;34;44m░[0;34m▌▐[0;1;34;44m░[0;34m▌[0m    [1;30m░[0m             [1;30m▄[0m     [1;30m░░[0m            [1;30masphynx!@[0m
+[34m▄[0;1;34;44m░[0;34m█ ░▓  ▀[0;1;34;44m░▓[0;34m▀  ▄█ [0;1;34;44m░[0;34m▌▐[0;1;34;44m░[0;34m▌[0m    [1;30m░[0m             [1;30m▄[0m     [1;30m░░[0m            [1;30m         [0m
 [34m▐[0;1;34;44m▐▌[0;34m▄ [0;1;34;44m░[0;34m▄░░ [0;1;34;44m▐▄[0;34m▓█▀ ▄[0;1;34;44m▓▄[0;34m▄[0;1;34;44m▓[0;34m░▄▄[0;1;34;44m░░[0m                 [1;30m▀[0m
 [34m▓▀[0;1;34;44m█▓░[0;34m░[0;1;34;44m▓░[0;34m▄▀ ▀[0;1;34;44m▀▀[0;34m░█ ▄▄[0;1;34;44m▀[0;34m▀▀▀[0m                     [1;30m▐[0m         [1;30m  [0;30;42m:: major thanks [0;32;40m►[0m
 [34;40m░ █▀▀ ▀▀[0m     [34;40m░▀[0m            [1;30;40m▀[0m              [1;30m▄▄█[0m

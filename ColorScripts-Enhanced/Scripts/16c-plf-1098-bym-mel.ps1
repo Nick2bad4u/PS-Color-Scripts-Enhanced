@@ -5,7 +5,7 @@
 # Source SHA-256: cd64f3bde36a9fe242bec988386dadeaa0d74ce6825dffc76b325b453107e2d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-MEL.ANS by bubbelbym (poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: myluev
 # SAUCE Author: bubbelbym
 # SAUCE Group: poffelipoff
@@ -19,7 +19,7 @@ Write-Host '
 [37m  [0;31m░[0m              [34m▄[0;36m▄▄▄[0;34m▄[0m                 [33m▐▌[0m
 [37m  [0;31m▒[0;37m  [0;31m░[0;37m [0;31m▐[0m    [34m▄[0;36;44m▄[0;34;40m▀[0;37;40m [0;33;40m▄▄[0;34;40m▀█[0;36;44m▀[0;1;36;46m░▄[0;36m▄[0m   [31m▌[0m   [31m▌░░[0m     [1;33m█[0;33m░[0;30;43m▓[0m
 [37;40m  [0;31;40m▓[0;37;40m  [0;31;40m▒[0;37;40m [0;31;40m▐[0;37;40m  [0;31;40m▌[0;37;40m [0;34;40m▌[0;37;40m [0;33;40m▄█[0;1;31;40m▒▒[0;1;31;43m▄[0;33m▄[0;34m▀█▄▀▌[0;37m  [0;31m▌[0;37m  [0;31m▄▌[0m   [33m▐▄[0;37m [0;1;33m▄██▄[0m [33m▄▌[0m           [1;36mgerman haircut(tm)░.[0m
-[31m░[0;37m [0;31m▓[0;37m [0;31m▐▓[0;37m [0;31m██▄▌[0;37m  [0;33m▐▒[0;1;31;43m ▀▓█▀▀▀[0;1;33;43m░▓[0m  [31m▄█[0;37m [0;31m█▀[0;37m [0;31m▄▌[0;37m [0;33m▄[0;1;33m▀█▀██▀█▀[0;33m▄[0;37m   [0m        [36mrequested by zatchmo[0m
+[31m░[0;37m [0;31m▓[0;37m [0;31m▐▓[0;37m [0;31m██▄▌[0;37m  [0;33m▐▒[0;1;31;43m ▀▓█▀▀▀[0;1;33;43m░▓[0m  [31m▄█[0;37m [0;31m█▀[0;37m [0;31m▄▌[0;37m [0;33m▄[0;1;33m▀█▀██▀█▀[0;33m▄[0;37m   [0m        [36m                    [0m
 [31m▒[0;37m [0;1;31;41m░[0m [31m▐█▄[0;1;31;41m░░[0;31m██▌[0;37m [0;33m▐[0;1;31;43m▐[0;1;31;40m▄▄[0;1;31;43m█[0;1;31;40m▀[0;33m▐[0;1;31m▄▄[0;1;33;43m▒[0;1;33;40m▌[0m  [31m████[0;37m [0;33m▄[0;37m [0;33m▐[0;1;33m▄▀[0;33m▀[0;37m [0;1;33m▐██▌[0m [33m▀[0;1;33m▀▄[0;33m▌[0m          [1;34moriginality 4 ever[0m
 [31m▓█[0;1;31;41m▒[0;31m▌█▓▓█▀▀[0;37m [0;35m▄▄[0;37m [0;33m▀[0;1;31;43m▀[0;1;31;40m█▀▀▀█[0;1;31;43m▀[0;1;33;40m▀[0m [35m▄▄[0;37m  [0;31m▀▌[0;37m [0;1;33m▀[0;33m▀[0;37m [0;33m▀[0;1;33m█[0;33m▐[0;1;33m▄▄██▄▄[0;33m▌[0;1;33m█[0;33m▀[0;37m [0;33m▀[0;1;33m▀[0;1;30m▄[0m       [36m░░░░░░░░░░░░░░░░░░[0m
 [31m█[0;1;31;41m░▓░[0;31m█▀▀[0;37m [0;35m▄█[0;1;35;45m▄▄█▄[0;35m▄[0;37m [0;33m▀[0;1;31;43m ▄[0;1;31;47m▓[0;1;31;40m▀[0m [35m▄[0;1;35;45m [0;1;33;45m░░▒▓[0;36m   [0;37m [0;1;33m▄[0m [33m▄[0;37m  [0;33m▀[0;1;33m▀██▀[0;33m▀[0;37m  [0;33m▄[0;37m [0;1;33m▄[0m [33m▀[0;1;33m▀[0;33m▄[0;37m  [0;1;33m▄[0;1;30m▄[0m
