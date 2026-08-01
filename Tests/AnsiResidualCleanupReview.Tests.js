@@ -198,6 +198,10 @@ const MIXED_TEXT_LEDGER42_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger42.json"
 );
+const MIXED_TEXT_LEDGER43_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger43.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -1248,6 +1252,36 @@ test("thirtieth mixed text review is hash-only and fully applied", () => {
         candidateFiles: 95,
         evidenceRows: 331,
         expectedMissingRows: [],
+        expectedSupersededRows: [
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 7 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 8 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 9 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 10 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 11 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 12 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 13 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 14 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 15 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 16 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 17 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 18 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 19 },
+            { file: "16c-d0697a3-pnd-pmen.ps1", row: 20 },
+            { file: "16c-ira1297f-fs-fz1.ps1", row: 11 },
+            { file: "16c-ira1297f-fs-fz1.ps1", row: 12 },
+            { file: "16c-riot-019-pm-dr.ps1", row: 8 },
+            { file: "16c-riot-019-pm-dr.ps1", row: 9 },
+            { file: "16c-riot-019-pm-dr.ps1", row: 10 },
+            { file: "16c-riot-019-pm-dr.ps1", row: 11 },
+            { file: "16c-riot-019-pm-dr.ps1", row: 12 },
+            { file: "16c-riot-019-pm-dr.ps1", row: 13 },
+            { file: "16c-riot-019-pm-dr.ps1", row: 14 },
+            { file: "16c-riot-019-pm-dr.ps1", row: 15 },
+            { file: "16c-riot-019-pm-dr.ps1", row: 16 },
+            { file: "16c-root0397-dt-nc2.ps1", row: 12 },
+            { file: "16c-root0397-dt-nc2.ps1", row: 13 },
+            { file: "16c-root0397-dt-nc2.ps1", row: 14 },
+        ],
     });
 });
 
@@ -1343,6 +1377,14 @@ test("forty-second mixed text review is hash-only and fully applied", () => {
     assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER42_PATH, {
         candidateFiles: 12,
         evidenceRows: 85,
+        expectedMissingRows: [],
+    });
+});
+
+test("forty-third mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER43_PATH, {
+        candidateFiles: 36,
+        evidenceRows: 261,
         expectedMissingRows: [],
     });
 });
