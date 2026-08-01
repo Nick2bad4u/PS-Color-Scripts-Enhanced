@@ -1,0 +1,515 @@
+{
+  "batch": 37,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 57,
+              "start": 51
+            },
+            {
+              "end": 64,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "3a951c95f6ff48911cc39725d4b5b80064685ea10239d9c7f3cf537eaa7146f2",
+          "expectedRenderedSha256": "9b3dbbffee51b13c88246df174c5ec98ca4fd472dae67007c0c4a4a919ed42f4",
+          "row": 27,
+          "sha256": "138ac598365095b3c79f296d94acd1761a9bb971cfdf8c073d87135f6952305b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 57,
+              "start": 47
+            },
+            {
+              "end": 69,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "26a9263edf28b1e762eec34c59e3c50197c9ef5bc1158de07b7c13d1a95e356b",
+          "expectedRenderedSha256": "1635bb9169cd1a76f230f0103e5b3d145a62e025803efaac22fa4f437ddb62f3",
+          "row": 28,
+          "sha256": "62e747e8cd34789f2469346afe0b42ec417ed70539b69d65da28e83953441771"
+        }
+      ],
+      "file": "16c-ane-1195-cc-god-part03.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "680b7eea0f7a3b355c58d7d41443bf62523dec06b716eee148d8570cf134e13e",
+          "expectedRenderedSha256": "252d13a8f7bb61629bd721030a86633d8016ff8220c833a4c0d66a7f634d4256",
+          "row": 12,
+          "sha256": "3eacd6cb2e668f24421f22ee010b4308a0589e299898c77b5df60a075bb2e9af"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 75
+            }
+          ],
+          "expectedRawSha256": "d611d612b9da10c9312050c265c9fc1636c4e19a487087c8bcac671f7d78f5de",
+          "expectedRenderedSha256": "c4957e9ac2006111ffa02399d763878a23e89273238514c16b34dff423646834",
+          "row": 13,
+          "sha256": "124ec40243126570af139de4cad0e4f69448b3ed5de397070536528a9128c3d8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 74
+            }
+          ],
+          "expectedRawSha256": "41a9d76668508d39014ebb6ab9ce17e79acba1563b11c107df47e6a2624a5e57",
+          "expectedRenderedSha256": "97ff7ac8db6163a48803631ac6151dd4a67f806d6049e37ea57cf66b3f5a861f",
+          "row": 14,
+          "sha256": "15b0930f3446c4de39833629fec1f6bcc27a2e752ec7fb08ea160d482126b2da"
+        }
+      ],
+      "file": "16c-cx-timeline-006-sc-souls-part01.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 22,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "701b8f1cc6194f92c22f31d4df8079d6eea244d9ff6b496b6ff4f2da1da0a06f",
+          "expectedRenderedSha256": "3343615dcccf1d37d0af8c5cf570f7784656d93bfe69e0f47c965a393bffbadf",
+          "row": 20,
+          "sha256": "1c6ac38eb7fac412de3c1fb9036fe6c9fa4d3283f195e064f1f5513c97bb657c"
+        }
+      ],
+      "file": "16c-d38-03-sun-odc.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "cda09d3dc1f7bf580077e4bf65456622bed7e3f49368f2089cf3e742078a98ae",
+          "expectedRenderedSha256": "9f59ab725f35e679fdfbad6955325072ca0b4cf45bae0c07174e91fe2ed836d8",
+          "row": 2,
+          "sha256": "acae8bc6cb9ee2da4b80dd4c195e35f95175e6535936fb6f50fb0387ac0fca5c"
+        }
+      ],
+      "file": "16c-fog03-if-dd-part01.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 44,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "3727200b211d8467920d9b4fc2ab1544631f12983beba2920bef73a9114c6792",
+          "expectedRenderedSha256": "96ae7d08bbe7bdac1b3069189195d23426c6224912f0dc5cb4ac77b09f17c155",
+          "row": 17,
+          "sha256": "952aa8d15519e97dcaa8d509711849346bb63eea4eba427caa9e4f87d19f3535"
+        }
+      ],
+      "file": "16c-icon0395-gr-iconn-part01.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 29,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "6fe6452c95d60390690d5c905aea424d4e36ab37d30ef44f082fd3ce74e83331",
+          "expectedRenderedSha256": "b49f6f7ecdca4bb05e1919174d0d367d5a807be0aa68ec0b1f22bb98c092e984",
+          "row": 2,
+          "sha256": "6da30fc957d87687ed207ef84fe94251fcdd1f1883ec3a4c7d52ef41431b93cc"
+        }
+      ],
+      "file": "16c-nh-0597-biz-locl-part02.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "d5ee6a9ce582de2086145b81fb9cc7c092d397fa73e4d1d42f96622a9ef0ea76",
+          "expectedRenderedSha256": "30765caa6b1c968347f193c459eb3714c765ebb30d3a2ac42fa359611a0325c5",
+          "row": 30,
+          "sha256": "d492c50f188a2a320dfa7488e2a9d3325b1128bf3acf084109eb3cc3ca1f1256"
+        }
+      ],
+      "file": "16c-phat0297-in-0297b-part05.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 24,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "6f803a8913dab7bca1b09d7fd824e285bbb231f8ff79122558bbb806301aafcd",
+          "expectedRenderedSha256": "5d057cad89e185c7d398a0f09259ea70a92b9d91ba757f6133a9484a07e8b2c9",
+          "row": 17,
+          "sha256": "bf606ce3c48b577981ad56dcee81436e37d485740d3ad2262b3303f848e6e0a2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 22,
+              "start": 6
+            }
+          ],
+          "expectedRawSha256": "3ce74692cacbb5c557090c79abcd5e08c1bb0464ed0470dd677f0516c58cd2ba",
+          "expectedRenderedSha256": "e922ff79602460fb4dff5e7fc3940493557da788b5352da10fc81eee79ae522d",
+          "row": 42,
+          "sha256": "071751fd3e8d1acab045e07d0cd22a38d302fa02e5169037e004c50e580b1a63"
+        }
+      ],
+      "file": "16c-phat0497-tr-logo1-part01.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 16
+            },
+            {
+              "end": 43,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "1704fd4752a6b09a329519f3350242ff55fe92c4e2cf1baba426b6848ee25729",
+          "expectedRenderedSha256": "722ea120e422bc42a4140a5fb824fb95d876659bdb296464cce22917490e5709",
+          "row": 5,
+          "sha256": "441491ca6dc05bf2d475dabe57209ad31911fa1d62f14bee484f0f7434457fdd"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 16
+            },
+            {
+              "end": 43,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "1704fd4752a6b09a329519f3350242ff55fe92c4e2cf1baba426b6848ee25729",
+          "expectedRenderedSha256": "722ea120e422bc42a4140a5fb824fb95d876659bdb296464cce22917490e5709",
+          "row": 34,
+          "sha256": "441491ca6dc05bf2d475dabe57209ad31911fa1d62f14bee484f0f7434457fdd"
+        }
+      ],
+      "file": "16c-purg-30a-zb-col30-part01.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 16
+            },
+            {
+              "end": 43,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "1704fd4752a6b09a329519f3350242ff55fe92c4e2cf1baba426b6848ee25729",
+          "expectedRenderedSha256": "722ea120e422bc42a4140a5fb824fb95d876659bdb296464cce22917490e5709",
+          "row": 46,
+          "sha256": "441491ca6dc05bf2d475dabe57209ad31911fa1d62f14bee484f0f7434457fdd"
+        }
+      ],
+      "file": "16c-purg-30a-zb-col30-part02.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 16
+            },
+            {
+              "end": 43,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "174b57627bb9159bbdafe5647ccd34c07e217addfa2dd120f54c45cb5b335f10",
+          "expectedRenderedSha256": "722ea120e422bc42a4140a5fb824fb95d876659bdb296464cce22917490e5709",
+          "row": 30,
+          "sha256": "441491ca6dc05bf2d475dabe57209ad31911fa1d62f14bee484f0f7434457fdd"
+        }
+      ],
+      "file": "16c-purg-30a-zb-col30-part03.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 16
+            },
+            {
+              "end": 43,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "174b57627bb9159bbdafe5647ccd34c07e217addfa2dd120f54c45cb5b335f10",
+          "expectedRenderedSha256": "722ea120e422bc42a4140a5fb824fb95d876659bdb296464cce22917490e5709",
+          "row": 44,
+          "sha256": "441491ca6dc05bf2d475dabe57209ad31911fa1d62f14bee484f0f7434457fdd"
+        }
+      ],
+      "file": "16c-purg-30a-zb-col30-part04.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "b1bddd9c119426eb9613d9b3f1a091895c72034afd39e8970ab6eb2c47030859",
+          "expectedRenderedSha256": "c8d376d0b5011a7f321d8ed8c3cf68b5b85f76fbf859ff4b72df651fab23627b",
+          "row": 3,
+          "sha256": "06de83b72f13ea5cd41100e566e5a2f8cca1ceaffbf7d0acd3e455152c4edc38"
+        }
+      ],
+      "file": "16c-rib-002-cph-xcol-part01.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 58,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "3c77bf969d2e24c685ed814af5ec8534abd524c40a980f57255881b7809e9910",
+          "expectedRenderedSha256": "7047ab390552ad39ea69acc530139b1584724cb311d865127374aaa9f41f3085",
+          "row": 25,
+          "sha256": "164e1a78db8b57fd07d70c0964dfd6c8f4a7354bc1824021472530a2f8ea4208"
+        }
+      ],
+      "file": "16c-spin-01-arx-face.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 22,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "77bcfef86a1cab9321229dd09934c2ebe987997165ae6c60111fd098a86682fb",
+          "expectedRenderedSha256": "17cac5334ba6fd213207d3ee10575837cff14ecf1b562943358a61f17638dbf2",
+          "row": 28,
+          "sha256": "67fd8a50b40f27986632c6ac7434d2a5b762046b741e200ed7fe6be2cb5a8a14"
+        }
+      ],
+      "file": "16c-tus-04-sp-tempo.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch37-residual-placeholder-and-source-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "9cb18b2af78aafa4a823018ab2e67158d5eaaad39fec8182599ea1d760a91bfb",
+          "expectedRenderedSha256": "ec5480cff3abd4cdfaec16f7858cb570ad7e27cb0b5e3dc5cc7e6a6f1d271bcb",
+          "row": 6,
+          "sha256": "caf51237b4587e3776987dff7e3cb5fc27405f6830614c9fd3192fcf04796e96"
+        }
+      ],
+      "file": "16c-twat0898-logic-st.ps1",
+      "rationale": "Full-payload review confirmed only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary. Exact preimage and projected hashes preserve every unselected terminal cell, including filenames, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch37-focused-review.json",
+        "temp/text-blanking-continuation/batch37-focused-crosscheck.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed residual prose review after Batch 36. Only isolated generic placeholders, source-production annotations, upload or competition notes, an orphaned shout-out, and incomplete source-process commentary are included. Authored dialogue, jokes, credits, signatures, titles, functional interface text, source-significant filenames, structural lettering, separator framing, and artwork remain intact.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 21,
+    "candidateFiles": 16,
+    "candidateGroups": 16,
+    "categoryRows": {
+      "batch37-residual-placeholder-and-source-copy": 21
+    },
+    "evidenceRows": 21,
+    "priorAcceptExtensions": 0,
+    "priorRetainSupersessions": 0
+  }
+}
