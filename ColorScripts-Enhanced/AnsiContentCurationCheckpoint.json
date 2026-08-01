@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 48052,
+        "totalRowsBlanked": 48083,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 14092,
+        "residualMixedTextRowsBlanked": 14123,
         "residualMixedTextTrailingRowsRemoved": 162,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -112,6 +112,7 @@
         "mixedTextLedger28": "AnsiResidualMixedTextReviewLedger28.json",
         "mixedTextLedger29": "AnsiResidualMixedTextReviewLedger29.json",
         "mixedTextLedger30": "AnsiResidualMixedTextReviewLedger30.json",
+        "mixedTextLedger31": "AnsiResidualMixedTextReviewLedger31.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -210,7 +211,10 @@
         "mixedTextPass29TrailingRowsRemoved": 7,
         "mixedTextPass30FilesRedacted": 95,
         "mixedTextPass30RowsBlanked": 331,
-        "mixedTextPass30TrailingRowsRemoved": 0
+        "mixedTextPass30TrailingRowsRemoved": 0,
+        "mixedTextPass31FilesRedacted": 10,
+        "mixedTextPass31RowsBlanked": 31,
+        "mixedTextPass31TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -261,6 +265,7 @@
         "A thirtieth hash-locked mixed-text review blanked 249 unique rows across 193 scripts after full-gallery, completed-history-excluded scans for production boundaries, placement instructions, generic filler, vertical continuations, spaced-letter placeholders, conversational process notes, and previously accepted rows that had survived identical source occurrences. Independent lane and full-context cross-reviews rejected functional dialogue, titles, framed captions, protected interface text, and two ambiguous-width projections. The reconciled ledger uses 244 exact one-based source-cell column projections and five whole-text projections, preserving all non-target artwork, CP437 C0 cells, ANSI controls and offsets, colored backgrounds, widths, and row geometry; no trailing rows were removed.",
         "A thirty-first hash-locked mixed-text review blanked 374 unique rows across 221 scripts after completed-history-excluded full-gallery scans for placeholder instructions, source-production boundaries, generic menu and data fields, filler tails, editorial delete markers, and previously accepted text that survived in copied or shifted rows. Independent full-payload cross-reviews rejected authored captions, attribution, jokes, service facts, titles, signatures, functional menu structure, and ambiguous text texture; five conflicting coordinates received separate terminal adjudication. The reconciled ledger uses 339 exact one-based source-cell column projections and 35 whole-text projections, preserving all non-target artwork, CP437 C0 cells, ANSI controls and offsets, colored backgrounds, widths, and row geometry; seven newly empty terminal rows were removed.",
         "A thirty-second hash-locked mixed-text review blanked 331 unique rows across 95 scripts after six completed-history-excluded full-gallery detector lanes reviewed explicit placeholders, generic menu and data fields, editor-export metadata, production cut markers, orphan prose fragments, and novel residual filler. Independent full-payload cross-reviews retained authored captions, attribution, signatures, functional prompts, and real menu structure. A separate two-part adjudication reviewed all 79 prior-retain collisions; final whole-family diff review then superseded two preliminary retains after proving that they belonged to the same twenty generic option placeholders as eight accepted companion rows. The ledger blanks every complete option phrase, including its associated number-sign and number cells, without leaving punctuation debris. All 331 actions use exact one-based source-cell column projections with pre- and post-redaction hashes, preserving all non-target artwork, CP437 C0 cells, ANSI controls and offsets, colored backgrounds, widths, and row geometry; no trailing rows were removed.",
+        "A thirty-third hash-locked mixed-text review blanked 31 rows across 10 scripts after a fresh completed-history-excluded inventory examined 49,340 residual lexical rows across the full 24,822-script gallery. Full-payload review retained 148 of 159 strongest explicit, prose, and non-16colors candidates as authored captions, dialogue, jokes, credits, functional interface text, source-significant language, or terminal-art false positives. The accepted rows remove only coherent tutorial/template instructions, mock file-list data, generic numbered command placeholders, a dummy handle field, and source-production/use notes. Whole-family adjudication supersedes three exact prior retains whose isolated treatment would leave instruction fragments, while three exact prior accepts are safely extended to remove orphan number-sign debris left by an earlier partial projection. Independent replay verified 31 exact one-based source-cell projections, 385 changed text cells, unchanged terminal widths and non-target cells, zero unsupported art selection, and zero unacknowledged history collisions; no trailing rows were removed.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],

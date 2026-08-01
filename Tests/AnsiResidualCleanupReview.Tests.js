@@ -150,6 +150,10 @@ const MIXED_TEXT_LEDGER30_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger30.json"
 );
+const MIXED_TEXT_LEDGER31_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger31.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -188,7 +192,12 @@ function readPayloadRows(file) {
 
 function assertAppliedMixedTextLedger(
     ledgerPath,
-    { candidateFiles, evidenceRows, expectedMissingRows }
+    {
+        candidateFiles,
+        evidenceRows,
+        expectedMissingRows,
+        expectedSupersededRows = [],
+    }
 ) {
     const ledger = JSON.parse(fs.readFileSync(ledgerPath, "utf8"));
 
@@ -215,6 +224,10 @@ function assertAppliedMixedTextLedger(
     );
 
     const missingRows = [];
+    const expectedSuperseded = new Set(
+        expectedSupersededRows.map(({ file, row }) => `${file}:${row}`)
+    );
+    const supersededRows = [];
     for (const candidate of ledger.candidates) {
         assert.ok(!Object.hasOwn(candidate, "text"));
         const { rows } = readPayloadRows(candidate.file);
@@ -244,18 +257,31 @@ function assertAppliedMixedTextLedger(
                     evidence.expectedRenderedSha256,
                     /^[a-f\d]{64}$/u
                 );
-                assert.equal(
-                    getRawRowHash(currentRow),
-                    evidence.expectedRawSha256,
-                    `${candidate.file}: row ${evidence.row} targeted raw projection drifted`
-                );
-                assert.equal(
-                    getReviewEvidenceHash(
-                        stripAnsiControls(currentRow)
-                    ),
-                    evidence.expectedRenderedSha256,
-                    `${candidate.file}: row ${evidence.row} targeted rendered projection drifted`
-                );
+                const key = `${candidate.file}:${evidence.row}`;
+                if (expectedSuperseded.has(key)) {
+                    supersededRows.push({
+                        file: candidate.file,
+                        row: evidence.row,
+                    });
+                    assert.notEqual(
+                        getRawRowHash(currentRow),
+                        evidence.expectedRawSha256,
+                        `${key} was declared superseded but still matches the intermediate projection`
+                    );
+                } else {
+                    assert.equal(
+                        getRawRowHash(currentRow),
+                        evidence.expectedRawSha256,
+                        `${candidate.file}: row ${evidence.row} targeted raw projection drifted`
+                    );
+                    assert.equal(
+                        getReviewEvidenceHash(
+                            stripAnsiControls(currentRow)
+                        ),
+                        evidence.expectedRenderedSha256,
+                        `${candidate.file}: row ${evidence.row} targeted rendered projection drifted`
+                    );
+                }
             } else {
                 assert.equal(
                     analyzeRow(currentRow).letterCount,
@@ -266,6 +292,7 @@ function assertAppliedMixedTextLedger(
         }
     }
     assert.deepEqual(missingRows, expectedMissingRows);
+    assert.deepEqual(supersededRows, expectedSupersededRows);
 }
 
 test("residual content review is hash-only and fully applied", () => {
@@ -1146,6 +1173,11 @@ test("twenty-eighth mixed text review is hash-only and fully applied", () => {
         candidateFiles: 193,
         evidenceRows: 249,
         expectedMissingRows: [],
+        expectedSupersededRows: [
+            { file: "16c-bommc01-mmc13-15.ps1", row: 18 },
+            { file: "16c-bommc01-mmc13-15.ps1", row: 19 },
+            { file: "16c-bommc01-mmc13-15.ps1", row: 20 },
+        ],
     });
 });
 
@@ -1169,6 +1201,14 @@ test("thirtieth mixed text review is hash-only and fully applied", () => {
     assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER30_PATH, {
         candidateFiles: 95,
         evidenceRows: 331,
+        expectedMissingRows: [],
+    });
+});
+
+test("thirty-first mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER31_PATH, {
+        candidateFiles: 10,
+        evidenceRows: 31,
         expectedMissingRows: [],
     });
 });
