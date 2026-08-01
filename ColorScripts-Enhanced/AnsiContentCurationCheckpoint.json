@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 48120,
+        "totalRowsBlanked": 48170,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 14160,
+        "residualMixedTextRowsBlanked": 14210,
         "residualMixedTextTrailingRowsRemoved": 162,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -114,6 +114,7 @@
         "mixedTextLedger30": "AnsiResidualMixedTextReviewLedger30.json",
         "mixedTextLedger31": "AnsiResidualMixedTextReviewLedger31.json",
         "mixedTextLedger32": "AnsiResidualMixedTextReviewLedger32.json",
+        "mixedTextLedger33": "AnsiResidualMixedTextReviewLedger33.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -218,7 +219,10 @@
         "mixedTextPass31TrailingRowsRemoved": 0,
         "mixedTextPass32FilesRedacted": 12,
         "mixedTextPass32RowsBlanked": 37,
-        "mixedTextPass32TrailingRowsRemoved": 0
+        "mixedTextPass32TrailingRowsRemoved": 0,
+        "mixedTextPass33FilesRedacted": 10,
+        "mixedTextPass33RowsBlanked": 50,
+        "mixedTextPass33TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -271,6 +275,7 @@
         "A thirty-second hash-locked mixed-text review blanked 331 unique rows across 95 scripts after six completed-history-excluded full-gallery detector lanes reviewed explicit placeholders, generic menu and data fields, editor-export metadata, production cut markers, orphan prose fragments, and novel residual filler. Independent full-payload cross-reviews retained authored captions, attribution, signatures, functional prompts, and real menu structure. A separate two-part adjudication reviewed all 79 prior-retain collisions; final whole-family diff review then superseded two preliminary retains after proving that they belonged to the same twenty generic option placeholders as eight accepted companion rows. The ledger blanks every complete option phrase, including its associated number-sign and number cells, without leaving punctuation debris. All 331 actions use exact one-based source-cell column projections with pre- and post-redaction hashes, preserving all non-target artwork, CP437 C0 cells, ANSI controls and offsets, colored backgrounds, widths, and row geometry; no trailing rows were removed.",
         "A thirty-third hash-locked mixed-text review blanked 31 rows across 10 scripts after a fresh completed-history-excluded inventory examined 49,340 residual lexical rows across the full 24,822-script gallery. Full-payload review retained 148 of 159 strongest explicit, prose, and non-16colors candidates as authored captions, dialogue, jokes, credits, functional interface text, source-significant language, or terminal-art false positives. The accepted rows remove only coherent tutorial/template instructions, mock file-list data, generic numbered command placeholders, a dummy handle field, and source-production/use notes. Whole-family adjudication supersedes three exact prior retains whose isolated treatment would leave instruction fragments, while three exact prior accepts are safely extended to remove orphan number-sign debris left by an earlier partial projection. Independent replay verified 31 exact one-based source-cell projections, 385 changed text cells, unchanged terminal widths and non-target cells, zero unsupported art selection, and zero unacknowledged history collisions; no trailing rows were removed.",
         "A thirty-fourth hash-locked mixed-text review blanked 37 rows across 12 scripts after a fresh completed-history-excluded inventory examined 49,315 residual lexical rows across the full 24,822-script gallery. Full-payload review classified all 148 strongest explicit, prose, and non-16colors candidates, retaining 135 as authored dialogue, jokes, dedications, credits, signatures, titles, functional interface text, source-significant language, or terminal-art false positives. Thirteen candidate rows and 24 coherent family continuations remove only untranslated template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Whole-family adjudication supersedes two exact prior retains whose isolated treatment would leave production-note fragments. Independent replay verified 37 exact one-based source-cell projections, 385 changed text cells, unchanged terminal widths and non-target cells, preserved artist signatures, zero unsupported art selection, and zero unacknowledged history collisions; no trailing rows were removed.",
+        "A thirty-fifth hash-locked mixed-text review blanked 50 rows across 10 scripts after a fresh completed-history-excluded inventory examined 49,280 residual lexical rows across the full 24,822-script gallery. Full-payload review classified all 135 strongest explicit, prose, and non-16colors candidates, retaining 125 as authored dialogue, jokes, dedications, credits, signatures, titles, functional interface text, source-significant language, or terminal-art false positives. Ten candidate rows and 40 coherent family continuations remove only generic empty-panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Whole-family adjudication supersedes three exact prior retains whose isolated treatment would leave disposable note fragments. Independent replay verified 50 exact one-based source-cell projections, 535 changed text cells, unchanged terminal widths and non-target cells, preserved the GREAT ZAMBINI and aiOMEN attributions, zero unsupported art selection, and zero unacknowledged history collisions; no trailing rows were removed.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],

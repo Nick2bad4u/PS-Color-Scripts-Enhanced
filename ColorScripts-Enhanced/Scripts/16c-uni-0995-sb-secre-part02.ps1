@@ -5,7 +5,7 @@
 # Source SHA-256: fcd42f6eb77507eae99a2265831f8493941ca8946fcfd1a6bb721805e2bb4da7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-SECRE.ANS by SpellBinder (uni-0995); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Secrecy BBS-Software
 # SAUCE Author: SpellBinder
 # SAUCE Date: 19950730
@@ -19,9 +19,9 @@ Write-Host '
 [33m ▐██  ▐[0;1;31;43m░[0;33m▌ [0;37m▀[0;1;37m█▀ [0;1;37;47m█[0;1;37;40m█████[0m▀  ▐[1;47m▄[0;1;40m▐██[0;1;47m▓▓[0;1;40m██ ████████▌▀█████▀▀███[0m▌▐[1m████[0;1;47m██ [0m    [33m▌▄▀[0m
 [33m▄█▀   ▄[0;1;31;43m▓[0;33m█ [0;37m▓▄▓▐[0;1;37m███▀[0m▀    [1m██▌█████▌[0m▐[1m█████████ [0m▐[1m█[0;1;47m▓▓[0m  ▀▌[1m███ ████[0;1;47m█[0m▀ [33m▌  █[0m
      [33m▐[0;1;31;43m▄▓[0;33m█ [0;37m▐▀  [0;1;37m█[0m▀ [33m▌[0m     [1;37m████████ [0;1;37;47m [0;1;37;40m█████████  [0m█[1;47m▀[0;1;40m██▄▄████[0m▌ ▀▀ [33m▄▄█ ▄▀[0m
-     [33m▀[0;1;31;43m▀[0;1;31;40m█[0;33m█ [0;37m▄[0;1;37m▄[0;1;37;47m▓[0m▄  [33m▀▓[0m     [1;37m▐████▀▀▀[0m▐[1;47m ▐[0;1;40m███████▌  [0m▐[1;47m░ ▀▀[0;1;40m███▀[0m▀ [33m▄[0;1;31m█████[0;33m▌[0;37m [0;34mmy pics are get  [0m
-      [33m▄[0;1;31;43m▄[0;33m▌ [0;1;37;47m░▓▓░[0m▌  [33m▐[0;1;31;43m░[0;33m▄[0m     [1;37m▀[0m     █[1;47m  ▀[0;1;40m█[0;1;47m▓▓[0;1;40m███▌   [0m▀[1;47m░▄[0m▀▀    [33m▐[0;1;31m█████[0;1;31;43m▓[0m [34mting wierd''r and[0m
-      [33m▄[0;1;31;43m▄[0;33m▌ [0;37m▐[0;1;37;47m▀░[0m▀▄▀ [33m▄▀[0;1;31m    [0;31m▄[0;1;31;41m▄[0;31m█▄▄▄   [0;37m▀[0;1;37;47m░░ ▀▀[0;1;37;40m██▀[0m       ▄[1m█[0m▄   [1;31;43m░▓▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m░[0m [34mwierd''r.[0m
+     [33m▀[0;1;31;43m▀[0;1;31;40m█[0;33m█ [0;37m▄[0;1;37m▄[0;1;37;47m▓[0m▄  [33m▀▓[0m     [1;37m▐████▀▀▀[0m▐[1;47m ▐[0;1;40m███████▌  [0m▐[1;47m░ ▀▀[0;1;40m███▀[0m▀ [33m▄[0;1;31m█████[0;33m▌[0;37m [0;34m                 [0m
+      [33m▄[0;1;31;43m▄[0;33m▌ [0;1;37;47m░▓▓░[0m▌  [33m▐[0;1;31;43m░[0;33m▄[0m     [1;37m▀[0m     █[1;47m  ▀[0;1;40m█[0;1;47m▓▓[0;1;40m███▌   [0m▀[1;47m░▄[0m▀▀    [33m▐[0;1;31m█████[0;1;31;43m▓[0m [34m                [0m
+      [33m▄[0;1;31;43m▄[0;33m▌ [0;37m▐[0;1;37;47m▀░[0m▀▄▀ [33m▄▀[0;1;31m    [0;31m▄[0;1;31;41m▄[0;31m█▄▄▄   [0;37m▀[0;1;37;47m░░ ▀▀[0;1;37;40m██▀[0m       ▄[1m█[0m▄   [1;31;43m░▓▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m░[0m [34m        [0m
      [33m▐[0;1;31;43m▓▓[0;33m█  [0;37m▄▄[0;1;37m▄ [0;33m▀[0;33;47m▓[0;33;40m▄[0;1;31;40m    [0;31m▐[0;1;31;41m▐▓▓▄▄[0;31m██▀█▄    ▄▄▄█[0;1;31;41m▄░[0;31m█▄   [0;37m▄[0;1;37m██[0m▌ [33m▐[0;1;31m█[0;1;31;43m▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m██[0;33m▌[0m
       [33m█[0;1;31m▀[0;33m▀ [0;37m▀▀[0;1;37m▀[0;1;37;47m░[0;1;37;40m█ [0;33m▐ [0;1;31m   [0;31m▄[0;1;31;41m▄▓▀▀[0;31m███[0;31;47m▓▓[0;31;40m███▄██[0;1;31;41m▄▄████▄[0;31m█▓ [0;37m▀[0;1;37;47m▀▓▓[0;1;37;40m█ [0;33m█[0;1;31m█████[0;33m█[0m
 [33m   [0;31m▄▄▄▄[0;1;31;41m▄[0;31m█[0;1;31;41m▄▀▄▄[0;31m██▄▄  ▀▀▀▀▀[0;1;31;41m░░[0;31m██▄██▓▀▄█[0;1;31;41m▄█▓▓▓▀▀░░[0;31m█▀ [0;37m▄ ▀[0;1;37m▀ [0;33m▐[0;1;31m█[0;1;31;43m▀▀▄[0;1;31;40m█[0;1;31;43m▀[0m

@@ -1423,11 +1423,6 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-avpack06-hq-drag",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-mtx-05a-mb-jterm",
             "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
         },
