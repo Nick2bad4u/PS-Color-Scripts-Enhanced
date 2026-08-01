@@ -5,7 +5,7 @@
 # Source SHA-256: afc1a5c4c2c1e722cea2c2bf33cd1b44aa79cc171b62b77f8b0a4228de2d2975
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RA-Z55IN.ANS by Reanimator (Saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: z55
 # SAUCE Author: Reanimator
 # SAUCE Group: Saga
@@ -17,7 +17,7 @@
 Write-Host '
 [33m     [0;1;30m▄▄▄██[0;33m  [0;1;30m [0;33m [0;1;30m▄▓▓▓▓█▄[0;33m        [0;1;30m▄▄▄▄[0;33m         [0;32m [0;1;30m░[0;32m [0;1;32m▄▄▄▄[0;32m▄[0;30;42m█[0;1;36;40mz55 viewing program[0;32m  ▒▀▀▀[0;1;32m▀[0;1;37;42m▓▓[0;1;32;40m [0m
 [1;30;40m░[0;33m   [0;1;30m█▓▓██▓▓▄[0;1;30;43m▓▓▓▓▓▓▓[0;1;30;40m█▌[0;33m [0;1;30m▄▄[0;33m   [0;1;30m███████▄[0;33m [0;1;30m▄▄███▄▄[0;32m [0;1;32;42m█▓[0;1;32;40m▀[0m                             [1;32m  [0;1;32;42m░[0m
-[1;30m░░░▓▓█▐[0;1;30;43m▓▓▓▓▒▒▒▒▒▒▒▒[0;1;30;40m█[0;33m [0;1;30m███▌[0;33m [0;1;30;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;40m [0;1;32;42m▓[0;1;32;40m▌[0m  [[1mfilename][0m    [[1mDescription[0m]
+[1;30m░░░▓▓█▐[0;1;30;43m▓▓▓▓▒▒▒▒▒▒▒▒[0;1;30;40m█[0;33m [0;1;30m███▌[0;33m [0;1;30;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;40m [0;1;32;42m▓[0;1;32;40m▌[0m   [1m         [0m     [1m           [0m 
 [1mra[0;33m [0;1;30m███▌█[0;1;30;43m▓▓[0;1;30;40m█[0;33m [0;1;30;43m▒▒▒▒▒▒▒▒▒▒▒▒▓[0;33m  [0;1;30;43m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m [1;32;42m▒[0;32m [0m                               [1;32m [0;30;42m▒[0m
 [33;40m [0;1;30;40m▄[0;33m  [0;1;30m▀▀[0;33m [0;1;30m▐██[0;33m  ▐[0;1;30;43m░░░░[0;33m▀▀[0;1;30;43m░░░░░░[0;33m  [0;1;30;43m░░░░░░[0;33m▀▀▀▀▀▀▀▀[0;30;43m▒▒[0;37;40m [0;1;32;42m▒[0;1;32;40m [0;32m [0;37m   [0m                           [1;32m [0m
 [1;30m█[0;1;30;43m▓▓▓[0;1;30;40m▄▄[0;33m  [0;1;30m▀[0;33m  [0;30;43m▓░[0;33;40m██▄▄  [0;30;43m▒▒▒▒[0;33;40m▀▀            ▄▄    [0;37;40m [0;1;32;42m▒[0;1;32;40m  [0;32m [0m                             [1;32m [0;32m█[0m
