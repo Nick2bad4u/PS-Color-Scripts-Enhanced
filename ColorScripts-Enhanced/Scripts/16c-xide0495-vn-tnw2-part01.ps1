@@ -5,7 +5,7 @@
 # Source SHA-256: b8fbc1879d43bd697e7a8d36fd16dd126229e4716080375237d069a6c90fa297
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VN-TNW2.ANS by Venom (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [1m█▄[0m▄▄[1;30m▄▄▄▄▄▄▄[0m▄▄[1m▄█▄[0m▄▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄  ▄▄▄▄    ▄▄[0m      [1;30m▄    ▄    ▄▄  ▄▄▄▄▄ ▄[0m▄▄[1m▄█[0m
 [1m█ [0;31m▄   ▄ ▄▄  ▄ [0;37m█  [0;1;32mG[0;32mr[0;1;30moup: XiDE[0m                                                   [1;37m█[0m
 █  [31m█ █  ▐▌█▐▌ [0;1;30m█  [0;1;32mA[0;32mr[0;1;30mtist: Venom[0m                                                 █
-[1;30m█  [0;31m▐█   █ ▐█  [0;37m█  [0;1;32mF[0;32mi[0;1;30mle Name: VN-TNW3.ANS[0m                                        [1;30m█[0m
+[1;30m█  [0;31m▐█   █ ▐█  [0;37m█  [0;1;32m [0;32m [0;1;30m                    [0m                                        [1;30m█[0m
 [1;37m█  [0;31m▀   ▀   ▀  [0;1;37m█  [0;1;32mY[0;32me[0;1;30mar: 1995[0m                                                    [1;37m█[0m
 [1;37m▀▀[0m▀▀[1;30m▀▀▀▀▀▀[0m▀▀[1m▀▀▀▀▀[0m▀▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀[1m▀▀[0m
 
