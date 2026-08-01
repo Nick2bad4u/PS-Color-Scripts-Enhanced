@@ -282,6 +282,10 @@ const MIXED_TEXT_LEDGER63_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger63.json"
 );
+const MIXED_TEXT_LEDGER64_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger64.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -432,6 +436,15 @@ test("residual content review is hash-only and fully applied", () => {
     const ledger = JSON.parse(
         fs.readFileSync(CONTENT_LEDGER_PATH, "utf8")
     );
+    const supersedingLedger = JSON.parse(
+        fs.readFileSync(MIXED_TEXT_LEDGER64_PATH, "utf8")
+    );
+    const expectedSupersededRetentions = new Set(
+        supersedingLedger.priorRetentionSupersessions.flatMap(
+            ({ coordinates }) => coordinates
+        )
+    );
+    const supersededRetentions = new Set();
 
     assert.equal(ledger.schemaVersion, 1);
     assert.deepEqual(ledger.summary, {
@@ -484,13 +497,24 @@ test("residual content review is hash-only and fully applied", () => {
             )
         );
         for (const evidence of retention.evidence) {
-            assert.equal(
-                currentHashes.has(evidence.sha256),
-                true,
-                `${retention.file}: retained row hash drifted`
-            );
+            const coordinate = `${retention.file}:${evidence.row}`;
+            if (expectedSupersededRetentions.has(coordinate)) {
+                assert.equal(
+                    currentHashes.has(evidence.sha256),
+                    false,
+                    `${coordinate}: superseded retention still matches`
+                );
+                supersededRetentions.add(coordinate);
+            } else {
+                assert.equal(
+                    currentHashes.has(evidence.sha256),
+                    true,
+                    `${retention.file}: retained row hash drifted`
+                );
+            }
         }
     }
+    assert.deepEqual(supersededRetentions, expectedSupersededRetentions);
 
     for (const work of ledger.removedWorks) {
         assert.equal(work.disposition, "rejected-content");
@@ -1701,6 +1725,14 @@ test("sixty-third mixed text review is hash-only and fully applied", () => {
     assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER63_PATH, {
         candidateFiles: 26,
         evidenceRows: 41,
+        expectedMissingRows: [],
+    });
+});
+
+test("sixty-fourth mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER64_PATH, {
+        candidateFiles: 11,
+        evidenceRows: 27,
         expectedMissingRows: [],
     });
 });
