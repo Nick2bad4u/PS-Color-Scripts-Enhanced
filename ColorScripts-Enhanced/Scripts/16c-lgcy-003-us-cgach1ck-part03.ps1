@@ -5,7 +5,7 @@
 # Source SHA-256: 28fb2ce67e8b8fc3613a2aec1614e71513d4030bf6139412f371edfa609fd8a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-cgach1ck.ans by Hayn9 + Tainted (legacy krew / 67); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: cga ch1ck
 # SAUCE Author: hayn9 / tainted
 # SAUCE Group: legacy krew / 67
@@ -59,8 +59,8 @@ Write-Host '
                    [1;30m▄▀[0m [1;30m▄▀[0m    [35m▐▌[0;37m [0;1;30m▄▀   ▀[0m     [35m▄██▀[0;1;37;105m█▄[0m   [1;35m▄[0;1;37;105m▄▄[0;1;35m▌[0;1;37m▄▄▄[0m [1;35m▄[0;1;37;105m▓▓[0;1m▀▀[0;1;35m▐[0;1;37m▒[0m [1;35m▐[0;1;37;105m■▀[0;1;35m▌[0;34;105m░░[0m  [34m▐[0;1;35;44m░[0;34m▌[0m
                   [1;30m▀[0m          [35m▀▄■[0m        [35m▄█▀[0;37m [0;35m▀▀[0;1;37;105m░▓[0;1;35m▌[0m [1m▄[0;1;105m▀[0;1m▀[0;1;105m▒▒[0;1m▀[0;1;35m▀▐█[0;1;37;105m░░[0m [1;35m▄▄[0m [34;105m░[0;1;35m▌[0;34;105m░[0;1;35m▌[0;34m▐[0;34;105m░░[0;34m▌[0;37m   [0;34m▀[0m
                                        [35m██[0m      [1;37;105m░░[0;1;35m█▀[0m  [1;105m░[0;34;105m░[0m [1;35m▄█▀▐[0;34;105m░░[0;34m▀▀[0;37m [0;34m▐[0;34;105m░░[0;1;35m▌[0m [34;105m▒▒[0;34m▌[0;37m  [0;34m▒[0;1;35m▒[0;34m▌[0m
-              [1;30m150  lines.[0m             [35m▐█▌[0m      [1;35m▐[0;34;105m░[0;1;35m▀█▄[0m [34m▐[0;34;105m▒▒▒[0;34m▄[0;37m [0;34m▐[0;34;105m▒[0;34m▌[0;37m    [0;34;105m▒▒[0;34m▌[0;37m [0;34m▐[0;34;105m▓[0;34m▌[0;37m   [0;34m▀[0m
-              [1;30m100% original[0m            [35m▀█▄[0m      [34;105m▒[0;34m▌[0;37m [0;34m▀█▄[0;34;105m▓[0;34m▌▀[0;34;105m▓▓[0;34m▄[0;34;105m▓▓[0;34m▄▄[0;1;35;44m▀[0;34m▌▐[0;34;105m▓[0;34m▌[0;37m  [0;34m▀[0m
+              [1;30m           [0m             [35m▐█▌[0m      [1;35m▐[0;34;105m░[0;1;35m▀█▄[0m [34m▐[0;34;105m▒▒▒[0;34m▄[0;37m [0;34m▐[0;34;105m▒[0;34m▌[0;37m    [0;34;105m▒▒[0;34m▌[0;37m [0;34m▐[0;34;105m▓[0;34m▌[0;37m   [0;34m▀[0m
+              [1;30m             [0m            [35m▀█▄[0m      [34;105m▒[0;34m▌[0;37m [0;34m▀█▄[0;34;105m▓[0;34m▌▀[0;34;105m▓▓[0;34m▄[0;34;105m▓▓[0;34m▄▄[0;1;35;44m▀[0;34m▌▐[0;34;105m▓[0;34m▌[0;37m  [0;34m▀[0m
                                          [35m▀▀▄▄[0;37m   [0;34m▐[0;34;105m▓[0;34m▄[0;37m [0;35m▄[0;34;45m▀▀▄▄[0;37;40m [0;34;40m▀██▀▀▀[0;37;40m [0;34;40m▄▄[0;1;34;44m░░[0;34m▀▀▀▀▀[0m
               [1;30mlegacy krew![0m [1;30mrepRzent.[0m         [35m▀▀▀▀[0;34;45m▄▄[0;35;40m▀[0;37;40m   [0;34;40m▀[0;34;105m▓▓[0m [34m▄▄▄▀▀▀█▄▄▀▀▀▀▀[0;37m [0;34m▀■[0m
                                                        [34m▄▄█▀[0;1;34;44m░[0;34m▄▀▀▀▀[0m

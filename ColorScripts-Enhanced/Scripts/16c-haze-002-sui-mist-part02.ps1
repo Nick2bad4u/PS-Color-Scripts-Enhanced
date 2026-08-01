@@ -5,7 +5,7 @@
 # Source SHA-256: e6d9c97cc8b1a5c84bd1c410ac6be8965e1c2cb78fac1262c7f504e129634d1c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUI-MIST.ANS by SuiCyco (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: guardian of the mist
 # SAUCE Author: SuiCyco
 # SAUCE Group: haze
@@ -33,7 +33,7 @@ Write-Host '
 [1;34m▀▀[0;1;34;44m▀▀▀▀[0;1;34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀▀▀▀▀▀▀[0;37m [0;34m▀▀[0;37m [0;34m▀[0m
 [34m [0;1;34;44m░[0;34m███[0;1;37;44m░[0;34m▌[0m
 [34m▐█[0;1;34;44m ░[0;34m██[0;37m  [0;1;37mH[0;1;34ma[0;34mz[0;1;37me[0;34m!·[0;1;37mS[0;1;34mu[0;34mi[0;1;37mC[0;1;34my[0;34mc[0;1;37mo[0m
-[34m█[0;1;37;44m▒[0;34m██▄▓▀[0;37m [0;34m1[0;1;37m8[0;1;34m7[0;34m% [0;1;34mo[0;34mr[0;1;37mi[0;1;34mg[0;34mi[0;1;37mn[0;1;34ma[0;34ml[0m
+[34m█[0;1;37;44m▒[0;34m██▄▓▀[0;37m [0;34m [0;1;37m [0;1;34m [0;34m  [0;1;34m [0;34m [0;1;37m [0;1;34m [0;34m [0;1;37m [0;1;34m [0;34m [0m
 [34m█[0;1;37;44m ░[0;34m█▌■[0m
 [37m [0;34m██▀▄█[0m
 [37m [0;34m▐██[0;37m [0;34m█▌[0m                                               [35m■[0m

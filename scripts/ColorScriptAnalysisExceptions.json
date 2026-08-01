@@ -472,11 +472,6 @@
             "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
         },
         {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-roc-best-vg-pb",
-            "reason": "Reviewed false positive: the artwork explicitly labels the picture as entirely original and not ripped from another source."
-        },
-        {
             "issueType": "leading-blank-run",
             "family": "16c-1fluid1-del-1-part01",
             "reason": "The 13 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
@@ -1449,11 +1444,6 @@
         {
             "issueType": "derivative-attribution-review",
             "family": "16c-max1093-ba-ir",
-            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-oph-0018-blion-06",
             "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
         },
         {

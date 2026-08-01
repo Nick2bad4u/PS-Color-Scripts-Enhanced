@@ -5,7 +5,7 @@
 # Source SHA-256: fda7a6339557f7cfc779e5048137c9d531d1cee112a7ed25fc8cbb52b27cc68f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-CL20.ANS by avenger (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: logo collection #20
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -40,7 +40,7 @@ Write-Host '
 [34;40m▀██▄▄[0;31;40m  [0;34;40m▄█▀[0;31;40m   ▓▄▄[0;1;31;40m▒[0;31m▓[0;1;37;47m█[0;31m [0;37m▓[0;31m  [0;37m [0m           [1;37;47m█[0m▓[31m█░    [0;34m▀▓▓▄▄[0m            [34m▀▀[0m
 [31m   [0;34m▄▓▓▄[0;31m  [0;34m▀[0;31m    ▀[0;33;41m▀█[0;31;40m▄▄█▀[0;37;40m▒[0;1;37;47m█[0m▄ [31m       [0;37m▄[0;31m [0;1;37;47m▄[0;31m [0;37m▒[0;31m▄▄▓▀[0m       [34m▀▀▄[0m
 [34m▄▄[0;31m     [0;34m▀[0;31m  [0;34m▀▓▄▄[0;31m  ▀▀[0;33;41m▀[0;1;33;43m▀░░[0;33;41m▄[0;31;40m▓▓▓▓▓▄▄▄▄[0;33;41m▄[0;1;33;43m░░░[0;33;41m█▀[0;31;40m▀[0m               [34;40m▀▀▄[0m               [37;40maveBM[0m
-[31;40m  [0;34;40m▀▀[0;31;40m                ▀▀██▀ ▄[0;33;41m░░░[0;31;40m▓▓▓▀▀▀[0m       [34;40m   [0m                    [37;40m100%original![0m
+[31;40m  [0;34;40m▀▀[0;31;40m                ▀▀██▀ ▄[0;33;41m░░░[0;31;40m▓▓▓▀▀▀[0m       [34;40m   [0m                    [37;40m             [0m
 
 
 

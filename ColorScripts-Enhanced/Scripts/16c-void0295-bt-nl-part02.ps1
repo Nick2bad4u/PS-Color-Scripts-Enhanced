@@ -5,7 +5,7 @@
 # Source SHA-256: da2316627b27583dd09b4096a084c8f6a1c6071a5b73af289d82d109b9418d5f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BT-NL.ANS by Bibitte (Void); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Negativeland
 # SAUCE Author: Bibitte
 # SAUCE Group: Void
@@ -51,8 +51,8 @@ Write-Host '
 [1;30m█[0;30m███████████[0;32m█████████████[0;1;30;42m░[0;32m▄[0;1;32m▀[0;1;32;42m▓▓▒▒░░ [0;32m█[0;1;32;42m░[0;32m█▀▓███████[0;1;32;42m░░[0;32m█[0;1;32;42m░▒▓▒▒░░[0;32m█▓ █████[0;30m██████████████[0m
 [1;30m▀▓█▄▄▄[0;30m█[0;1;30m▄[0;30m████[0;32m████████████[0;1;30;42m░[0;32m▓ [0;1;30;42m░[0;32m▄▄▀▀▀▀▀▄▄▄███[0;1;30;42m░[0;32m███████[0;1;32;42m░▒▓▒░░[0;32m████ ▓██▓▌[0;30m█████████[0;1;30m▓[0;30m█[0;1;30m▄▄▄[0m
 [1;30m▓[0;30m██[0;1;30m▀▀▀█▄██▄▓▄▄[0;32m▀▀▀▀▀██████▌▐[0;1;30;42m░░░[0;32m███[0;1;30;42m░[0;32m██[0;1;30;42m░[0;32m██████[0;1;32;42m░░░[0;32m████[0;1;32;42m░▒░[0;32m██████▓▐▀▀▀    [0;1;30m▄▄▓▄▄███▄▀▓[0m
-[30m█[0;1;30m░ansi[0;30m█[0;1;30m▓[0;30m██[0;1;30m▓▀▄▀███▓█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▀▄▄▄▄▄▄▄▄▓▄▄▓▄▄██████▓▀▀▄▓▀1oo%[0;30m█[0;1;30m▒[0m
-[1;30mbibitte░[0;30m██[0;1;30m▄▄▄▄▄▄█▀██▓██▀▓▀▀▀▓▀▀▀▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▀▀▀██▀██▓██▄▄▄▄▄▄▓[0;30m█[0;1;30moriginal[0m
+[30m█[0;1;30m░ansi[0;30m█[0;1;30m▓[0;30m██[0;1;30m▓▀▄▀███▓█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▀▄▄▄▄▄▄▄▄▓▄▄▓▄▄██████▓▀▀▄▓▀    [0;30m█[0;1;30m▒[0m
+[1;30mbibitte░[0;30m██[0;1;30m▄▄▄▄▄▄█▀██▓██▀▓▀▀▀▓▀▀▀▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▀▀▀██▀██▓██▄▄▄▄▄▄▓[0;30m█[0;1;30m        [0m
 [1;30m▄[0;30m█[0;1;30m▓▄███▀▓█▀▀▓▀▀▓[0;30m█[0;1;30m▀[0;30m███████████████████████████████████████[0;1;30m▀[0;30m█████[0;1;30m▀▀▓▀▄▀▀████▄▓▄▄▄[0m
 [1;30m▄█▀▓[0;30m███[0;1;30m▀[0;30m███████████████████████████████████████████████████████████████[0;1;30m▓[0;30m██[0;1;30m▀▀▀▓▀[0m
 [30m█[0;1;30m▓[0;30m█████████████████████████████████████████████████████████████████████████████[0m

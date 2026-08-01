@@ -5,7 +5,7 @@
 # Source SHA-256: e24b6a589ede2e68cbb35b608780d79bacb769dfdb18834e2380a27d12d7dc2f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KF-SAT9.ANS by kid frost (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: sat9
 # SAUCE Author: kid frost
 # SAUCE Group: roots
@@ -16,7 +16,7 @@
 
 Write-Host '
 [31m██████████████████████████████████████████████████████████████████████[0;30;41mkf[[0;1;33;40mb[0;1;31;41mu[0;30;41mrn08][0m
-[31;40m█████████████████████████████████████████████████████████████[0;30;41mcompleted:[0222008][0m
+[31;40m█████████████████████████████████████████████████████████████[0;30;41m                   [0m
 [31;40m████████████████████████████████████████████████████████████████████████████████[0m
 [31;40m██████████████████████████████████████████████████████▌▀████████████████████████[0m
 [31;40m███████████████████████████████████████████████████████▄████████████████████████[0m

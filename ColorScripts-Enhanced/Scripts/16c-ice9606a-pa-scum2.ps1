@@ -5,7 +5,7 @@
 # Source SHA-256: d5024df54e5400a28936a51127ae42565cd4e6a930fee4bcf62dbe7c5a17b446
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PA-SCUM2.ICE by Parasite (ice9606a); released in ice9606a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ Write-Host '
 [1;31;41m▌[0;31m█                         ▄[0;1;31;41m ░[0;31m█▀    ██▀█[0;1;31;41m░░[0;31m▀ [0;1;31m   [0;31m [0;1;31m [0;31m▄[0;1;31m    [0;31m▄▌ ▐▄      ▄▄██[0;1;31;41m▄▄[0;31m▌    ice[0m
 [31m█            [0;37m    [0;1;37m [0;31m      ▄▄[0;1;31;41m▄▄▀[0;31m▀       ▀▀▌ ▄ ░░[0;1;31m       [0;31m▀▀▀  ▀[0;1;31;41m▀[0;31m▀  ▀     ▀[0;1;31;41m▀[0;31m▓   [0;33m [0;31m    [0m
 [31m▌                  ▄▄▄[0;1;31;41m▄▄█▀▀[0;31m▀           ▀   [0;1;31m    [0;31mgoop![0;1;31m  [0;31m        ▀       ░        [0m
-[31m▀        ▄ ▄▄▄▄██[0;1;31;41m▀▀▀░░[0;31m▀▀▀                  [0;1;31m        [0;31m        100% original      [0m'
+[31m▀        ▄ ▄▄▄▄██[0;1;31;41m▀▀▀░░[0;31m▀▀▀                  [0;1;31m        [0;31m                           [0m'

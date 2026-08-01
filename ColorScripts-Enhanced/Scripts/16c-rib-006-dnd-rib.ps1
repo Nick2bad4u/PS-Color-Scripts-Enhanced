@@ -5,7 +5,7 @@
 # Source SHA-256: fd3e9b3ef7a93e49ae298976490b2f9d8fe93c93483dc13951a6950215306a53
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DND-RIB.ANS by diAMONd (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: RiB lOGO
 # SAUCE Author: diAMONd
 # SAUCE Group: RiB
@@ -44,7 +44,7 @@ Write-Host '
 [1;30m  [0m║ [1m   [0m   [1m   [0m                                                                 
   │  [1m   [0m   [1m [0m                                                                 [1;30m [0m
 [1;30m  ╡ [0m  [1m   [0m                                                                    [1;30m│[0m
-[1;30m  │ [0mDat[1me[0m        : 25/02/98                                                   ║
+[1;30m  │ [0m   [1m [0m                                                                     ║
 [1;30m─[0m─╫[1;30m─══[0m═[1;30m═───[0m══[1;30m═─══[0m═──[1;30m-[0m─  [1;30m══─══ ───[0m───[1m══ ═[0m───[1;30m─[0m     ─[1;30m─── ──══  [0m──[1;30m-───══─═─═-[0m-─[1;30m--[0m╟─═
   |                                                                          [1;30m:[0m
 [1;30m  :[0m                                                                          [1;30m∙[0m'
