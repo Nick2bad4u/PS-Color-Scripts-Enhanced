@@ -1,0 +1,1373 @@
+{
+  "batch": 52,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "0e56029f9eae4039956d2342e041f122ff734fc4b4207ed35bdd0472a337c410",
+          "expectedRenderedSha256": "17abf56414be6bea55517f6c1d6f714105af8e30bec65fc08933ea3cfc5ea583",
+          "row": 4,
+          "sha256": "122cbf8c37e7c582da089964ce2a72d72c42e6810b03c0f41d23146ef99f0526"
+        }
+      ],
+      "file": "16c-33rules-33-prod2-part02.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "dfe4a1c211e8511c8eadef8e66c29bdaa93253fef1d02af0ccdc802450da6212",
+          "expectedRenderedSha256": "7f8594edd04d59d62194642c75003e86177904e6da8e57bcc10885039971b5fd",
+          "row": 12,
+          "sha256": "8fd156f78e65fa2cfb84c4bb6fd8b249389155c1edad52e93e92a015ee4d667c"
+        }
+      ],
+      "file": "16c-acdu0794-bk-di-part01.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "db3aa13a8879099d70e5f53a323f91703c9e774e040cb47300d7789376508781",
+          "expectedRenderedSha256": "68b724b3beeea718cd0a84aded27b288d743ea304daa7ffdd6fc4b68a0a38744",
+          "row": 10,
+          "sha256": "5537126cea06336e7e48503f61d0a7cfee477bc9863786e2047c0c42183c6975"
+        }
+      ],
+      "file": "16c-acdu1294-bk-gs1-part01.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "db3aa13a8879099d70e5f53a323f91703c9e774e040cb47300d7789376508781",
+          "expectedRenderedSha256": "68b724b3beeea718cd0a84aded27b288d743ea304daa7ffdd6fc4b68a0a38744",
+          "row": 10,
+          "sha256": "5537126cea06336e7e48503f61d0a7cfee477bc9863786e2047c0c42183c6975"
+        }
+      ],
+      "file": "16c-acdu1294-bk-nc2-part01.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 49,
+              "start": 37
+            }
+          ],
+          "expectedRawSha256": "2302e9fec8c570c952e609234ee91a5c9ef3b561351e9949f2f273c234915a04",
+          "expectedRenderedSha256": "7331d505bfdb8cfd2349feee6b7c5f699e73f700020dbc8ca1c7b1c200542597",
+          "row": 18,
+          "sha256": "43263b5b42d9559eebdb519f1db768104f58219b49a03b82c53730c93082f4cd"
+        }
+      ],
+      "file": "16c-avpack05-krl-mad.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "6f9ae8f93a6fcd408e9157b204bc5a47108077ef351f4c9faefc394528913659",
+          "expectedRenderedSha256": "6a2df0a911f2adb21b4cd7315f287c14aa7043ad306f11e8a357744ad0db304b",
+          "row": 23,
+          "sha256": "1e9c1c827c31d3d3eb568d373b6c38045a3a840255afb73a4baf271d8b9cbe7b"
+        }
+      ],
+      "file": "16c-avpack08-hq-drm.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 15,
+              "start": 6
+            },
+            {
+              "end": 56,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "d8fa9f1fb9bbc60f5646bfa2dc8965137eacc8044e3431c7d3cc2fe10be7b119",
+          "expectedRenderedSha256": "74014155df0a15aacf2552a42ae1ae6921782d7fa1f646902a4b68892a8bcb3b",
+          "row": 37,
+          "sha256": "4e3024345c6aa8d1b9280efbe70cff8e90cbfa3821e8864b91525634b4713127"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 9
+            }
+          ],
+          "expectedRawSha256": "54c74200284708ab8b720cd5bc67aebc71e1b9c346552999de9f7738ff5fdc46",
+          "expectedRenderedSha256": "e4409a6dfcc1319c32578b4cf70be3b4c8f35a4838f7dfc0b32134160348f41f",
+          "row": 38,
+          "sha256": "9cb156cdd67dc935aa1b4adebc05f7e8a96c28a5d50cd40f27f3230f47d2551d"
+        }
+      ],
+      "file": "16c-avpack11-en-nn.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "41dcc9c2f72b79fde84bbc055c1168abb850c96fc7f902a5a36db1609f06ffe3",
+          "expectedRenderedSha256": "0b9f6936dc605ce0e0ef18d4062a28af256574a57757ddc03e2c0145a7cfb79c",
+          "row": 11,
+          "sha256": "ae6ebaaf5a49ae49cf25ca47f3c3be0b4b70b60e1ff515c4949d1ea99ab273bb"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "7caaf10425dbf8de7009e0411d44d012044c3757b37394b3cac335550f1c00ab",
+          "expectedRenderedSha256": "f803b7a5f5784649f026d9119f4eb0355a74c2371bec6f68177ac6c7d748c777",
+          "row": 14,
+          "sha256": "30e0987aa338749c548c14f73be8d5ac5fb9dc98fc8e17717f0bc63b5c17600d"
+        }
+      ],
+      "file": "16c-awe9704-ma-fc10.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "1dd3fbef9e0b6e8124da48def9aa4f01c402c56a42a2a2f2acba7f51f3752c7a",
+          "expectedRenderedSha256": "7f80bd4c2eeca1baa20ccadac672b7252b1fcd5813be49e896959e934458727a",
+          "row": 22,
+          "sha256": "5f0161f94923f4ee6998a2e835fd474b6808f31f5f8795a81ac7bd5b074e6c11"
+        }
+      ],
+      "file": "16c-blndr006-us-bball.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "4aa05a89d930aaa220331b73e507da98b00ac82ec3777f5f3916ad6d0115484f",
+          "expectedRenderedSha256": "8f6c754ecb116011616252c74c88838abe3fb273627d4732d2d405d160698241",
+          "row": 5,
+          "sha256": "b8828e7994b101e1f6fa7c621513eb8c02d8e863860e796e8be35d6210ae3f47"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "c3d82d746a7bdbe461a9f1169f48082af52227f2b47827a23d9bdc7149c3a0c9",
+          "expectedRenderedSha256": "dfb8266aee5005100720521993205d2df414f09d57acf8f1399aa2a8384cabce",
+          "row": 8,
+          "sha256": "147b270e69a3a5b4d2cf24019ac016e0c365a3babe4cff81e6b9574b37843753"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "d0cb49768ca1467a615e1b85788835a381d9ad9a8e82cfce2bf3da833ad5df86",
+          "expectedRenderedSha256": "a5d0ad749b6e8ceb2b4fb755dabc384556d0745352cf8b9599b80bd924052544",
+          "row": 9,
+          "sha256": "96b598fea1bc371edd39a3c81f5200029a160fe178e1897d755024e944c26141"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "e32a80537bcbf87ff42cd6c9e7792aec1a0097ec515fdf10b71532abf9e5f79b",
+          "expectedRenderedSha256": "573c08d04059a6f70150e7e20e682940cfa7ba0e8ec0b7abaeb06486c2d221b7",
+          "row": 10,
+          "sha256": "b35360371741fdc6af6ff2104df539bc5b68615a1932152f9cc9af6b4b62af30"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "f4cbee1c48d02c3118209e43366d28e953771672b8246ad1dfc02ca1d7a78c18",
+          "expectedRenderedSha256": "74a6b19a49ed9e7f249ab5ec9c9611e589724f9b009d947f061b7b01253b1c48",
+          "row": 11,
+          "sha256": "e11c2abb1082723d27f9afaeba84b6dcc63521fd7967aa5504e250115bf1a8c2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "d5c6880e8bb3c25050cb67bc1fd56df3ab4eefbfd941151c5ba6ffb193e28f30",
+          "expectedRenderedSha256": "dc11176e80eca12095ef3ff0479ba0cfcda3a116ed784f444bb99fe5dabaaee4",
+          "row": 12,
+          "sha256": "963be97ddcbb04f3aab55a2c652dc261f7f3b07ef5c21386188ac403bd6ecb84"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "cd35926a65fe178bb602fef5e2da203ff46df2a0262c5d2366499232e63157cf",
+          "expectedRenderedSha256": "c5304df54a249293cd1cf13e7e72057100a58f7152b72417ef639fd3702a645f",
+          "row": 13,
+          "sha256": "8bb6b969b6340e86dd6d68e1d372a882873ca1885c2a373e5cfe6aa54fe872ba"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "f7e6ab34d4d22f3b5741c0c1af7e0521ddfd387c27818c9fe59a61544ec4c988",
+          "expectedRenderedSha256": "1fdecef74158a1ebd3cf1f791efa14bd9186512852fb05a9ac6e23d8331effb8",
+          "row": 14,
+          "sha256": "fa5ad21293a442d3ee0dec838408ae2fabefbc290a9e556a742c457ccc76b6ac"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "0eaa4f02ede622c78172204115f0dca075048ecb55014ccceb28d6b15c0eb8a8",
+          "expectedRenderedSha256": "cfc743d6cdb87c6b66c97821bb100998d896989dce05b99378bfcf8789d53502",
+          "row": 15,
+          "sha256": "eb2bdb44bbdccadeed0cc9b12ed602189383d853bed062a4de12e507f929aad0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "82d5f9e9a35dc7e65f734438145fb815d82b02f7d77df120fa795ef169a4551c",
+          "expectedRenderedSha256": "13180782fb4f90f98c5be0369461b03a00e538f8edb555ad8a9f76fd7f8fbc99",
+          "row": 16,
+          "sha256": "40feb370e6a06a5312285692c50dbba0defd2aaadeb9356c2542b66ddb4282c6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "f163c58c1ba8d17f788709fa79c80c335d3d32b77d6812199a8c548f36baf50a",
+          "expectedRenderedSha256": "a766bc914e082bcc6c02634afe2c23684d6c0371dd8dfb1e002cd8786248ad30",
+          "row": 17,
+          "sha256": "58a230ef8b1239ad18e4cebf26b66cd78d5b05a172be6f3108614a630d2e1311"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "dc5e9d94d16ba45f945951af4f192a1da55ff10e96c2fcdbda22e9a7f57caf54",
+          "expectedRenderedSha256": "8cdd71262a41ac5f47ccd8169c132c1d84c053e120c7d328da291ec104002a0a",
+          "row": 18,
+          "sha256": "6ec8aac362c0d8eda44f3608ba6ba11db61aec7ab545f08ca19a40b5cff517c0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "d19520eeedccc2d885d5dce703464329098b4679db35226cd0cca2b205c0aa79",
+          "expectedRenderedSha256": "91a1f3db1fc6de19085b74eef865794862fae96801e72c77a0c69a87e0adffee",
+          "row": 19,
+          "sha256": "92586a3aab2845b17ba2e8f21b31b4d3f924e7ed1ba128c4f5de950ad55f6a6d"
+        }
+      ],
+      "file": "16c-cia54-pe-det.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 44,
+              "start": 37
+            }
+          ],
+          "expectedRawSha256": "dcf4c92a13c20809f21da70988308a3f9f0e7a1afc7556fde6006d58cb79ee5d",
+          "expectedRenderedSha256": "815b3f87cf079a943d6677f37cd7171199d1750f0179f0a735d2b06984a85f25",
+          "row": 12,
+          "sha256": "b9b85aaa4ebbda30a289b3ee62d038ecdda345d3d1f734471384547d2eac6cbc"
+        }
+      ],
+      "file": "16c-cnc-0495-tv-nodes-part01.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "a9527e2140f4b56ca1b341d2e3f1eac6b2b1fcf2605b956a5988769d722ab3a8",
+          "expectedRenderedSha256": "88e58c35fb85d52b4d84ff5c231eb977b384580df7ac22273ae6f34665777724",
+          "row": 8,
+          "sha256": "281083b299daeb1b97feeeda0087639ef10179f75183251d9a1fa4c4f9669355"
+        }
+      ],
+      "file": "16c-fear1194-fi-du-part01.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "c72fb9eea4d27298de51b93142d19bb068e53bed14d2fed47f91fc43f9f9720e",
+          "expectedRenderedSha256": "a869785f715292ce2b7f00f3fc65e09a3de29b997746e98849f0f3f3e2dd0397",
+          "row": 14,
+          "sha256": "cfee73eb4646c77c563043d2e84591868e1ae5ca86ac4fa08725a77466e14d9a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "e939c12fcf27ff11e439b045012f5e5492dc51f3a0f784f325f0dec4620eb653",
+          "expectedRenderedSha256": "ce0d2e8f73f31b1a1d56063858849eb1c292a45e9be22390ac54d36f8edd9620",
+          "row": 15,
+          "sha256": "f6af2dca242115f642774852038ed9ffcd99822b195642342554f056fd1ec0a8"
+        }
+      ],
+      "file": "16c-fire-36-us-fail-part02.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 45
+            }
+          ],
+          "expectedRawSha256": "ea5f2b80e340020e2a815ea21a3bee23f4c791089eff0725c6f657456e703d4e",
+          "expectedRenderedSha256": "56bf8b9794400cc24ec8615eb23574b725b83eb00580a3c45274b55e75e7c70d",
+          "row": 11,
+          "sha256": "6090541cd7b66a5ef4f70db05cedefbbc5393a5f2746cd16627dcf5cbc8f6ccd"
+        }
+      ],
+      "file": "16c-fire0397-13-raind.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 57,
+              "start": 54
+            }
+          ],
+          "expectedRawSha256": "6125635bfa3f0e78368b6bc761f7e63c69eedc4f608f18154b5ddda7bf199b4b",
+          "expectedRenderedSha256": "82faa9d0b09a18a5e2aad17be6f341cc1cd8d778980dfdfc9f525557d481aa3c",
+          "row": 17,
+          "sha256": "dacb0f1df9f3a78ba707298c1722449aae4a95f818d39fead0c3ddc337772932"
+        }
+      ],
+      "file": "16c-fire0897-rr-brdm.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 19
+            },
+            {
+              "end": 61,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "6f5df72311a15126b24cc5fd88e18572b0d1afcadcebc6ab2338747880b865eb",
+          "expectedRenderedSha256": "23181aad149b003af20fda4ee594ac062eeabd52924356a5d15ba533460a55be",
+          "row": 20,
+          "sha256": "3088d70395238093925c280bf3b90a1209c0e94cf3274fceee92cf00b5c518d1"
+        }
+      ],
+      "file": "16c-fuel09-us-snl.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "badc146e7f7cc619e710d3f38127ad3d704f6c2b3a8ab1ccf53ffb446f481ddc",
+          "expectedRenderedSha256": "216ca2d8340b2146179f0682983ae5b9e6092d66fe9f0508df7a4fbeb5544e80",
+          "row": 35,
+          "sha256": "6790cedeca60e0608ff512f7e6086be30edd42a8c7849862dffe3c9cf62f388c"
+        }
+      ],
+      "file": "16c-fuel13-sor-mixt.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 27,
+              "start": 21
+            },
+            {
+              "end": 60,
+              "start": 54
+            }
+          ],
+          "expectedRawSha256": "1038faa1154871762e17098d2095cfd6dd0eb3c38fc7d201b7e44428091872b3",
+          "expectedRenderedSha256": "9f89c4b65678660b606dd626575eff66a5dfcc3c67c7208fc7bae67cf9d36858",
+          "row": 20,
+          "sha256": "882a32e1c2c8663fc4cbf7c97a7ab2aeb86944c619014ec78c0824c992930f60"
+        }
+      ],
+      "file": "16c-fuel15-tk-snl4.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 5,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "0dba371649f3553ac55d453e147345a3e99e9bedede041ecf1bbfe3f342e8671",
+          "expectedRenderedSha256": "03c23e7ef7ec1f8d9151a8439cb6e21bfff0eb59f87565c8afc3dc57fcfdaea4",
+          "row": 29,
+          "sha256": "1aefcb62644aba0f1de43ab7d8f5f435f1607e967921f31e9455368cd2dcfeec"
+        }
+      ],
+      "file": "16c-glue-21-zv-amend-part05.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "e0d4ba8977e42a4be20eb7d4a5eb3334be0dc424579156e86717e6684711c51e",
+          "expectedRenderedSha256": "6fde1ef4cce829f3728b470cb51941fe6a1c7e7ac0a2d94283420115eb64eb62",
+          "row": 23,
+          "sha256": "1192adde6f3a0fd270354338440c0be7802515f63e5b70ae32b61d63beb19d32"
+        }
+      ],
+      "file": "16c-hmd-0596-fl-mista.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 49
+            }
+          ],
+          "expectedRawSha256": "6342fdb9a27a16df72d7201f89b7a69e8e266b9b8304e7d56d8a8402a3c5dc0c",
+          "expectedRenderedSha256": "6896042188d16c25a9b6b661e00d9e60d571d10169a2a84bfa9cf9dc22c04497",
+          "row": 2,
+          "sha256": "3083c3f8a4a7e1802bb1577b22e8a18cfafe6e1d560ea0d6cb088c2648944a2e"
+        }
+      ],
+      "file": "16c-ice-9506-bz-nacho-part03.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 41
+            }
+          ],
+          "expectedRawSha256": "fca17cb7d170dc8d5df2fd37dc8cc885aeeaefa9cdbfaa47645ac03b68ccfcda",
+          "expectedRenderedSha256": "aefab6b1371005cd23b769fa9f9a6e28f6095228bfee71d1b241b40310cc411f",
+          "row": 7,
+          "sha256": "e9a1553275bfb4ce0931f1bcc9175ef8da1550d30788457f226ff59e5a64b2a1"
+        }
+      ],
+      "file": "16c-jltpak2-sn-alter-part01.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 63,
+              "start": 54
+            }
+          ],
+          "expectedRawSha256": "cadff0c153510fd6a5b56849ffec01e36a3e963089fe6e480bd9ae1d5e3246f1",
+          "expectedRenderedSha256": "943a9ebce1fcdd81189cc7456e00a8a4968f3f21ce58eb8eb14587b017fa5ab3",
+          "row": 15,
+          "sha256": "9f4712892536d9f9397ee5fdde2a52b50af19efdd8ed242bd02fcf86c1683d68"
+        }
+      ],
+      "file": "16c-l0p06-00-ppa-drag.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 32,
+              "start": 25
+            }
+          ],
+          "expectedRawSha256": "b33134e9c4c7376deb13fc55d2269c187eb422e288b738869744fa685d51af26",
+          "expectedRenderedSha256": "fd951559cd06e59eb0831e0c12acde8e5fa2013c7c276e9affd9fa926dc4e912",
+          "row": 40,
+          "sha256": "08be6d385cc907a636a4bf0480b0d7c95db2e13c999f0a496b434b7c616588f9"
+        }
+      ],
+      "file": "16c-lght9405-qt-tub-part02.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 30,
+              "start": 16
+            }
+          ],
+          "expectedRawSha256": "99298099b304d8dee2cea09abc7ccd23b19fab2004f5a8b89ea18f2088a13978",
+          "expectedRenderedSha256": "ba67c95da89658021f7fc840bf512fa51503d103ac08f67f1f23f15e021ade68",
+          "row": 22,
+          "sha256": "f4460c8db37dbd2ad5206d05b5226d8579d4ca71eb2473685b7ab739899bf22d"
+        }
+      ],
+      "file": "16c-mdn-9701-mr-spitz.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 67,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "ad3beef29242ad3e3d1aa5c55b88fea56a5425b2c4126082599d5a2dbb911f75",
+          "expectedRenderedSha256": "d9fc46b9f25e2bf39ac40f808135d7bf280dfea171d2a16a6ad5623b17e3c757",
+          "row": 5,
+          "sha256": "0036ad59030404040ee093e8b1e1829c6d1b3f202787d6cb539eaec2dd994744"
+        }
+      ],
+      "file": "16c-phat1296-a-hac13.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "9f3bd4fbddc074aa974da98455299de1f1a45ffd0fd80d84edcba531af82aea2",
+          "expectedRenderedSha256": "57ab3609b078da0219d998ce02854722dfd8e7f231d6f1b8a0f3b8015449c299",
+          "row": 7,
+          "sha256": "1e6256b31b28b2ac12dc2270bf9d85738b6b6a9651b08d3bf1f9eb6001a5f63b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "bcafd6ece4d870cfd55e935fe0e3eadcf704a6650103e4ed0ad2cabeb372b3b7",
+          "expectedRenderedSha256": "f245ddd9626c45bd7e64a989708515b4273824f5b0d236848cf0b61dfe136018",
+          "row": 8,
+          "sha256": "36680ce881e362ce1e305ec462154dd44833800ff8bcb9fa33439b1315674295"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "76a6feec5dd7e7a7de118dcad72afee03513af8cbcbe4c73f0c8789ebb6ef725",
+          "expectedRenderedSha256": "0be42316cda5a0ce682e14dfcd22165aa0bce66e6f7890f811f1ce0a7857d453",
+          "row": 9,
+          "sha256": "183902c7848dc4f215cd69eafc3447fe8dcb2f5b6a5c0fa6ed7b053e8b89b84b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "22147357eaab3ca88df8cbae3d26ae33ef72b7d7ace43271bee57336a5245793",
+          "expectedRenderedSha256": "d9edf2f299914659fde867ef8c47d286e880e3ba38a55f5253fb0c61b0ba637d",
+          "row": 12,
+          "sha256": "f463f7a9a94fbebc1f58494632ba4eaec07aaa8bfa1c497678d63f2fbc10758f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "d62fd3730298c0abf5ff05fa5ef585a23e94419a1330667add55a54c15a770d8",
+          "expectedRenderedSha256": "1199c4874dd544c0f55a44bde6856d0319594db0c860c406069adf83f2e5c42b",
+          "row": 13,
+          "sha256": "0a5c8bf2ab35067bd0c7bcab56b4fa70bd80d20fbaf02968c2729d07454f526f"
+        }
+      ],
+      "file": "16c-root04-nc-pwdr.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "9ab2774749cf7bcb154c0567a0c58822d64405cd0df2ef3f4b8e518af3d8a7f4",
+          "expectedRenderedSha256": "80609c6d650152d9c8f1da28e9df2d38fa52b69f71f5966efefb93366e29f01c",
+          "row": 16,
+          "sha256": "2da1b1838d576e70649e83572663fab681b1563055d2f6dc4122a981f0a7f370"
+        }
+      ],
+      "file": "16c-shv-1194-mp-f451-part01.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 37,
+              "start": 9
+            }
+          ],
+          "expectedRawSha256": "5af3b14c74a9c36fef10b3b4595bd5383e2a4a172a7796b600060b5bc1d160eb",
+          "expectedRenderedSha256": "a54394139c3e1b7e7a7faa37fa14cd5f98ccc5fb9266e70e1ebc892aa487b391",
+          "row": 22,
+          "sha256": "3a09690708acaba51ee09bc1b9ca754c65c1b69866755a5442dc39a69b050aa8"
+        }
+      ],
+      "file": "16c-sms-9609-ok-haz1.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 39,
+              "start": 35
+            }
+          ],
+          "expectedRawSha256": "30ec47cbf8b07be8c642462dbee8c0709f68275a89e0514c05ab3f92b4eb82e8",
+          "expectedRenderedSha256": "dbcf47d0b885f14e5040ae454c39eddc3895dd22dc1248a5fc2994de610d4508",
+          "row": 21,
+          "sha256": "201b0ad84c46ac9a0133351cd8064ab1bb1eb9dc217054d7c07d0a1b6b0066ae"
+        }
+      ],
+      "file": "16c-sms-9609-ok-poo1.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 65,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "e2d49ae50e9402f444656955fc84a2bc57311f5f65a0989d9e685e053f0c7beb",
+          "expectedRenderedSha256": "4da9694b7d8c8a770430c62e0737720feff3560266eb28c7a31cb25bee362c6c",
+          "row": 13,
+          "sha256": "cd874aa83bfeab0435d816736c2dc86c625ba785aa1405d24184192dd56d1f0e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 54
+            }
+          ],
+          "expectedRawSha256": "11f5120875653b75a5d50b00bc8ed32e3b1b4cc67dd534f5f55b872ba868b7d2",
+          "expectedRenderedSha256": "cf03abc599e673b26b0d6e4b629fe710dd8c92248dcb973c4c4fe832733b0031",
+          "row": 14,
+          "sha256": "47e000b2f69dc979994d44dcd959caa3b0d423cc2c946006490b21ebd64c8b45"
+        }
+      ],
+      "file": "16c-thst1095-va-tc-part01.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 7
+            }
+          ],
+          "expectedRawSha256": "cec64f61646922e336f364177586d02378aa059984270bdc7a0708e0ac9bf9ba",
+          "expectedRenderedSha256": "43fb9e62f5be9c2e835d1a5462eeaaf59c31f0b4ba87dd5950fa36aecf241678",
+          "row": 9,
+          "sha256": "76f69eeb257d1a72850a55907013b8a318b7ccf4d62ecb13401e482a216c82b2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "5fbcf219cb44c04843881b288c700737c1f136e65afb98ecef2443078cb1dc1c",
+          "expectedRenderedSha256": "ef2a2a8841d155ad882c502900641217d12a8b0f09ab1d1c1495c40376f9d399",
+          "row": 13,
+          "sha256": "7cff323a106af472fef1fc20a52871127e7f779659ff68ca8d907a204ff68170"
+        }
+      ],
+      "file": "16c-tl-0195-sm-emi3.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "b054e817f37926c9f65a73b14943b98cab1774e84d84aeb54fce966317b642bf",
+          "expectedRenderedSha256": "e186ee1b02f40b4f9792becfb830e453661872e26abf776ecf69d1b5b7c93f2b",
+          "row": 14,
+          "sha256": "06882c17b63f56a2b336204f2d97e8384501aaced44b78209e4ce06e1311afb0"
+        }
+      ],
+      "file": "16c-tl-0795-ik-cmptn-part02.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch52-one-sided-remnants-and-proven-families",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 8,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "9129a4a32ca4cf960f1be95282c7504bf93865e3eb2da3fb979e2c81e1a87413",
+          "expectedRenderedSha256": "a8731a4aa23567a53888dcf0444459da7fa3e5dd2baaa3668391b9a49ec8728f",
+          "row": 20,
+          "sha256": "d1fc05cfea8254225355a8229a268555b8715241b926c38a67f8c0aba77296d4"
+        }
+      ],
+      "file": "16c-twst0197-pc-remix.ps1",
+      "rationale": "Each exact span is a disposable prose remnant, solicitation fragment, placeholder, greeting, or filler caption. Immediate accepted neighbors and aligned import-preimage context prove family membership. Repeated filename.txt and DeathroadOption!@ placeholders are removed across their full surviving families. Exact cell projections preserve structural lettering, identities, attribution, ANSI controls, colored spaces, width, and row coordinates. Any earlier retain-by-omission supersession is explicitly enumerated and supported by stronger whole-family evidence.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch52-one-sided-remainder.json",
+        "temp/text-blanking-continuation/batch52-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch52-focused-review.json",
+        "temp/text-blanking-continuation/batch52-terminal-review.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of all 236 post-Batch-51 natural-language survivors with an immediate accepted neighbor and a second accepted row on the same side, plus exact whole-family expansion for connected sentence fragments and repeated placeholder tokens. Accept only separable disposable text proven by full-payload and aligned import-preimage evidence. Retain poetry, dialogue, narrative, functional copy, titles, identities, attribution, structural lettering, source-significant content, and ambiguity. Earlier retain-by-omission decisions may be superseded only when stronger whole-family evidence is enumerated.",
+  "priorRetainSupersessions": [
+    {
+      "coordinate": "16c-avpack11-en-nn.ps1:38",
+      "sources": [
+        "batch46-terminal-review.json"
+      ]
+    },
+    {
+      "coordinate": "16c-cia54-pe-det.ps1:10",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-cia54-pe-det.ps1:11",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-cia54-pe-det.ps1:12",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-cia54-pe-det.ps1:14",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-cia54-pe-det.ps1:15",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-cia54-pe-det.ps1:16",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-cia54-pe-det.ps1:17",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-cia54-pe-det.ps1:18",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-cia54-pe-det.ps1:8",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-fire-36-us-fail-part02.ps1:15",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-root04-nc-pwdr.ps1:7",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    }
+  ],
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 55,
+    "candidateFiles": 34,
+    "candidateGroups": 34,
+    "categoryRows": {
+      "batch52-one-sided-remnants-and-proven-families": 55
+    },
+    "detectorAcceptedRows": 37,
+    "detectorRows": 236,
+    "evidenceRows": 55,
+    "familyExtensions": 18,
+    "importReconstructionFailures": 16,
+    "importedRowsReconstructed": 220,
+    "priorAcceptExtensions": 55,
+    "priorRetainSupersessions": 12,
+    "retainedDetectorRows": 199
+  }
+}
