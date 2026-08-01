@@ -294,6 +294,14 @@ test("blankTextColumns preserves CP437 guillemet hotkey framing", () => {
     assert.equal([...output].length, [...input].length);
 });
 
+test("blankTextColumns preserves the CP437 not-sign art cell", () => {
+    const input = "¬┐  called";
+    const output = blankTextColumns(input, [{ end: 10, start: 5 }]);
+
+    assert.equal(output, "¬┐        ");
+    assert.equal([...output].length, [...input].length);
+});
+
 test("blankTextColumns rejects ambiguous or destructive ranges", () => {
     assert.throws(() => blankTextColumns("text", []), /non-empty/u);
     assert.throws(
