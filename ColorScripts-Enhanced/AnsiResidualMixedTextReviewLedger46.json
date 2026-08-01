@@ -1,0 +1,198 @@
+{
+  "batch": 46,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch46-history-reconciled-placeholder-family",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "148f001f1f29f5df7f3152b6aafd95ef9e2465b7d103201297228549788f5484",
+          "expectedRenderedSha256": "cec5e3cc60074c389d1d240ac5f45da84f58229ae911edda81235c0a38a60f93",
+          "row": 6,
+          "sha256": "4cd86e1843da3654e9a8bde64d94b9ba58acffe00f82a507cb11e54a584c3771"
+        }
+      ],
+      "file": "16c-blend06-rr-sol2.ps1",
+      "rationale": "A history-aware full-payload review confirmed an omitted row from an accepted repeated command family, a complete five-row generic `xx solace` command family, a misspelled source cut marker, and one incomplete `(stuff` menu placeholder. Exact cell ranges preserve hotkeys, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-placeholder-lexicon-full.json",
+        "temp/text-blanking-continuation/batch46-placeholder-lexicon-live.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch34-gap-candidates.json",
+        "temp/text-blanking-continuation/batch46-focused-review.json",
+        "temp/text-blanking-continuation/batch46-terminal-review.json",
+        "temp/text-blanking-continuation/batch46-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch46-history-reconciled-placeholder-family",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 22,
+              "start": 12
+            }
+          ],
+          "expectedRawSha256": "91bac5e0ada9c8bc1ab805acfc006ebe1955fa66bf3282e18f840e2f12a48698",
+          "expectedRenderedSha256": "590ccb73c8a4de29c964c2b9942276ea692f69ba18a38a53ef981edb91e916de",
+          "row": 22,
+          "sha256": "43a297a8a34a52212c150c95185409eaf7788ce32b2f807308611f53c0fed96d"
+        }
+      ],
+      "file": "16c-l0p06-00-dx-sk.ps1",
+      "rationale": "A history-aware full-payload review confirmed an omitted row from an accepted repeated command family, a complete five-row generic `xx solace` command family, a misspelled source cut marker, and one incomplete `(stuff` menu placeholder. Exact cell ranges preserve hotkeys, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-placeholder-lexicon-full.json",
+        "temp/text-blanking-continuation/batch46-placeholder-lexicon-live.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch34-gap-candidates.json",
+        "temp/text-blanking-continuation/batch46-focused-review.json",
+        "temp/text-blanking-continuation/batch46-terminal-review.json",
+        "temp/text-blanking-continuation/batch46-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch46-history-reconciled-placeholder-family",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "9db6fed3c8276cc855e9aff99d8e154eab1e02312540235f270d55e050c66be2",
+          "expectedRenderedSha256": "645c0dba81e8d6fd488fc062b5a0e7ce470683d27de914edc95032fe9d520d06",
+          "row": 17,
+          "sha256": "2dbd9c928907b0dfe05ec134a6616b6320b1c0363f09aaf3f5ecbf550d71bcf7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "3affa5a87173881f2968738428cdae51b59b9aad26a2ff3fdbb037beb4694173",
+          "expectedRenderedSha256": "9f65f44fafc7379397cfa54901bea18e242443fb7b1cab20c205b5f0ee79d361",
+          "row": 18,
+          "sha256": "9b5e3f2b16e139000f2c8858da0f4950fb137efb3285b17fd368d85eba99e789"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "d24568605af8429da71d0e442448ba5659ffca38074f1de6131151e09a6a52e4",
+          "expectedRenderedSha256": "7bce6205f744991bae5c8117a007570dd28f777ce659efc00cb8ac0da631f06c",
+          "row": 19,
+          "sha256": "ff7e99ffc96a4ada103289a6d35c6d8a687a7b1dd0dc2756d17ccfe2d837cd9f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "a55d5f9ddee1fdc168b3b04a38c72b4ded104dc2147cc02e6d80a3827bd19c84",
+          "expectedRenderedSha256": "641729d07efda1bd1148037ca25c98e2d5b5417f7a1cb5510b9d0401bf835361",
+          "row": 20,
+          "sha256": "82afd2b4f19ac7f01dc43ac6686a3fce493993d76c6581cced927978da83a2f6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "9d14613170f8c3bdd2ebd0a43e4dfc0c0f35a350ba0ea464f795e505d0c954e6",
+          "expectedRenderedSha256": "13bbd8f6a54e7755a5c42bbb53d3bb340c352fe392d00cd870137f9dbc04816c",
+          "row": 21,
+          "sha256": "2eac7904cc771814e9a9c6c9757bb01520f0350d069a8e0791252651a04916fa"
+        }
+      ],
+      "file": "16c-omen-001-ai-00008.ps1",
+      "rationale": "A history-aware full-payload review confirmed an omitted row from an accepted repeated command family, a complete five-row generic `xx solace` command family, a misspelled source cut marker, and one incomplete `(stuff` menu placeholder. Exact cell ranges preserve hotkeys, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-placeholder-lexicon-full.json",
+        "temp/text-blanking-continuation/batch46-placeholder-lexicon-live.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch34-gap-candidates.json",
+        "temp/text-blanking-continuation/batch46-focused-review.json",
+        "temp/text-blanking-continuation/batch46-terminal-review.json",
+        "temp/text-blanking-continuation/batch46-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch46-history-reconciled-placeholder-family",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 53,
+              "start": 48
+            }
+          ],
+          "expectedRawSha256": "bd4fa9d9383d1aedc01e80cea88d0d40f3fa02ed24c1e3689d69a6b6f8e99e32",
+          "expectedRenderedSha256": "edd0a4ac9a1af706bff480939e894492989d0dac8b1cd69a29dff7b4ff616e5a",
+          "row": 31,
+          "sha256": "e7c3447b6a72482bf204b632763957edfc3bc4de4f647476e7bbfe55ba32b7c5"
+        }
+      ],
+      "file": "16c-opx-0497-mi-clust-part02.ps1",
+      "rationale": "A history-aware full-payload review confirmed an omitted row from an accepted repeated command family, a complete five-row generic `xx solace` command family, a misspelled source cut marker, and one incomplete `(stuff` menu placeholder. Exact cell ranges preserve hotkeys, titles, attribution, frame art, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-placeholder-lexicon-full.json",
+        "temp/text-blanking-continuation/batch46-placeholder-lexicon-live.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch34-gap-candidates.json",
+        "temp/text-blanking-continuation/batch46-focused-review.json",
+        "temp/text-blanking-continuation/batch46-terminal-review.json",
+        "temp/text-blanking-continuation/batch46-focused-crosscheck.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of every candidate in the refreshed historical placeholder-lexicon inventory. Accept only complete, separable generic placeholders and source-production markers; retain titles, identities, attribution, authored captions, structural text, functional interface or BBS copy, and terminal-art false positives. Exact prior-retain collisions are forbidden.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 8,
+    "candidateFiles": 4,
+    "candidateGroups": 4,
+    "categoryRows": {
+      "batch46-history-reconciled-placeholder-family": 8
+    },
+    "detectorRows": 3,
+    "evidenceRows": 8,
+    "familyExtensions": 5,
+    "priorAcceptExtensions": 2,
+    "priorRetainSupersessions": 0,
+    "retainedDetectorRows": 102,
+    "resolvedDetectorRows": 35
+  }
+}
