@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 49132,
+        "totalRowsBlanked": 49141,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 15172,
+        "residualMixedTextRowsBlanked": 15181,
         "residualMixedTextTrailingRowsRemoved": 179,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -139,6 +139,7 @@
         "mixedTextLedger55": "AnsiResidualMixedTextReviewLedger55.json",
         "mixedTextLedger56": "AnsiResidualMixedTextReviewLedger56.json",
         "mixedTextLedger57": "AnsiResidualMixedTextReviewLedger57.json",
+        "mixedTextLedger58": "AnsiResidualMixedTextReviewLedger58.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -318,7 +319,10 @@
         "mixedTextPass56TrailingRowsRemoved": 5,
         "mixedTextPass57FilesRedacted": 12,
         "mixedTextPass57RowsBlanked": 46,
-        "mixedTextPass57TrailingRowsRemoved": 0
+        "mixedTextPass57TrailingRowsRemoved": 0,
+        "mixedTextPass58FilesRedacted": 7,
+        "mixedTextPass58RowsBlanked": 9,
+        "mixedTextPass58TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -396,6 +400,7 @@
         "A fifty-seventh hash-locked mixed-text review exhausted all 857 current, previously undecided text-bearing rows two to five rows from accepted redactions when every intervening row was non-prose. Full-payload review retained 826 functional BBS or menu rows, authored dialogue, narrative, jokes or captions, titles, identities, attribution, structural lettering, source-significant content, and ambiguous fragments. Aligned import reconstruction covered 810 rows; the 47 unmatched rows were adjudicated fail-closed from live context. Thirty-one detector rows and eight visually proven family continuations removed only disposable placeholders, process commentary, orphan greetings, filler, and general-audience-policy remnants. Stronger whole-family evidence explicitly superseded six earlier retain decisions. Independent ANSI-aware replay verified 39 exact one-based source-cell projections and 458 changed cells across 31 scripts while preserving every unselected row and cell, CP437 terminal-art glyph including the pound sign, identity, attribution, ANSI control, colored space, width, and internal row coordinate; eight newly empty terminal rows were removed and no internal rows were compacted.",
         "A fifty-eighth hash-locked mixed-text review exhausted all 76 current exact recurrences of the phrases accepted by Batch 55 across 66 static scripts. Full-context review retained 58 real filenames, titles, greetings or credits, authored jokes or captions, functional BBS or menu labels, structural text, source-significant content, and ambiguous fragments. The 21 dynamic or nonliteral scripts outside the static-payload lane were explicitly accounted for and left fail-closed. Eighteen rows removed three literal `@WAIT@` runtime artifacts, eleven surviving members of the proven `o  hallo fastjack` filler family, one dummy word field, one isolated comment production marker, one spacer marker, and one filename-description runtime-template row. Exact recurrence and whole-family evidence explicitly superseded 14 earlier retain decisions. Independent ANSI-aware replay verified 18 exact one-based source-cell projections and 228 changed cells across eight scripts while preserving every unselected cell, functional label, real filename, title, greeting, attribution, authored text, ANSI control, colored space, terminal-art glyph, width, and internal row coordinate; five newly empty terminal rows were removed and no internal rows were compacted.",
         "A fifty-ninth hash-locked mixed-text review exhausted all 80 current rows containing `@TOKEN@`-shaped spans across 42 static scripts. Complete-family review retained 34 rows whose at-delimited substrings were embedded ASCII-art texture rather than runtime text. The 21 dynamic or nonliteral scripts outside the static-payload lane were explicitly accounted for and left fail-closed. Forty-six rows removed only unexpanded `@CLS@` and `@POFF@` directives plus user, transfer-count, time, bank, ratio, comment, and related runtime-value tokens while preserving every functional label and panel border. Whole-family evidence explicitly superseded 32 earlier retain decisions, including two row-level retains made before the complete token family was visible. Independent ANSI-aware replay verified 46 exact one-based source-cell projections and 325 changed cells across 12 scripts while preserving every unselected cell, title, attribution, authored text, ASCII-art texture, ANSI control, colored space, terminal-art glyph, width, and row coordinate; no rows were removed or compacted.",
+        "A sixtieth hash-locked mixed-text review exhausted all 521 current rows containing percent-, brace-, angle-, or double-bracket-delimited tokens across 446 static scripts, covering 606 token occurrences. Full token-family inventory and focused full-payload review retained 512 rows as names, signatures, attribution, group tags, authored captions, functional menu or BBS labels, structural lettering, source-significant text, or delimiter-shaped terminal art. The 21 dynamic or nonliteral scripts outside the static-payload lane were explicitly accounted for and left fail-closed. Nine rows removed only an `xxxxxxxx` BBS-name value, a Dungeon3 runtime-stat token, `<Image>`, `<yer bbsname>`, `<art>`, three production markers, and a nonvisual `%CL%AO` directive. The earlier explicit adjudication protecting repeated `(x) <command>` functional menu fields was upheld; stronger exact-span evidence superseded only two omission-based retains. Independent ANSI-aware replay verified nine exact one-based source-cell projections and 89 changed cells across seven scripts while preserving every unselected cell, functional label, name, signature, title, attribution, ANSI control, colored space, terminal-art glyph, width, and internal row coordinate; no rows were removed or compacted. Dollar-delimited and double-underscore exploratory matches were excluded as unsound text detectors because they overwhelmingly represent PowerShell interpolation or terminal-art glyph runs.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
