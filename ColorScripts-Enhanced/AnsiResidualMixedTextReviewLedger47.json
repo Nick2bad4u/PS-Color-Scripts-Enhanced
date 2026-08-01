@@ -1,0 +1,226 @@
+{
+  "batch": 47,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch47-attached-placeholder-family",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "b231c131e22e84d0344e5d15f0e44e26d480e8b3e2ca506692600d75ceeefe09",
+          "expectedRenderedSha256": "31d83d277fc689edca2d59c40c241210db7ad565fdaa02f0d02708f7525af261",
+          "row": 14,
+          "sha256": "1e6ce202e9f091d7c696e4cf8889e778defc8600536bcbe85a8e3cd50f665239"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "9368fb9178178139413f9d21699dec89e9bcfae72804aa07fb70ccdf44f1d4dc",
+          "expectedRenderedSha256": "a6e8eee03d46a99bfdc1a4174610f9b6f2a7cbf4eb96cf2d7a83a6009dfe2925",
+          "row": 15,
+          "sha256": "23b6bde598ad4d3a7b70479c8113444a1b3a950ff6613302a45a7d3ccd37b578"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "f74694a600992a4a66d8f242bebd9908b9b6813c66e9bb854e1b6923420f3cbf",
+          "expectedRenderedSha256": "29d802285a88a2a68bfae6acc1993009f8cf0f3a7864bd35c7a7c3cf7a713705",
+          "row": 16,
+          "sha256": "49f033ad175bbffca43673c5f390c574e0e0a29869cec101179d98e74af15c58"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "9b1bcbb7b8c5138f556ebb0e2f3f480e46f1d357decc2ea1e8d258b54a76809b",
+          "expectedRenderedSha256": "f3924bfbbee93895eabb042a734bc2f70e2e2f66b1791a52047018f06578998b",
+          "row": 17,
+          "sha256": "92f73eaa13695f30fba3d2f827b13c12ef7a1cd2d170b69c085659c90ed2f59a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "58e4357838c232a693cba6d1f421041fb6a462ee043b8fd52b726339ec77af52",
+          "expectedRenderedSha256": "97170513b108084e2677b2cc957e8e61ac91e63c95a008a352c607bf99a69cef",
+          "row": 18,
+          "sha256": "32ea900c066688aef6b1e5197a75d469f2ae5a848f9ec870255ad37d3aa3172e"
+        }
+      ],
+      "file": "16c-avenge07-cr-infm.ps1",
+      "rationale": "A complete attached-placeholder scan and full-payload review confirmed coherent `option1`-`option5` and `command0`-`commandB` template families. Exact cell ranges preserve surrounding artwork, separators, attribution, ANSI controls, colored spaces, widths, and row coordinates. Nine earlier omission-based snapshot retentions are explicitly superseded by the stronger whole-family evidence; no tracked semantic retention or accepted projection is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch47-attached-placeholder-scan.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch47-focused-review.json",
+        "temp/text-blanking-continuation/batch47-terminal-review.json",
+        "temp/text-blanking-continuation/batch47-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch47-attached-placeholder-family",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 16
+            },
+            {
+              "end": 33,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "bc0e8437e53644f5447284fea1f6ddac1d6430f8a66a71c059498778fc63c7a2",
+          "expectedRenderedSha256": "ec3511edf319ed31bd9aa1952e5f8200e79cf6b8d9d899400a3f48dc2f97c7cd",
+          "row": 18,
+          "sha256": "50ee58d6b1c5150bdd5d88d1bffedea7d875ddceb3071746ab1c5bcf8a6424bf"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 16
+            },
+            {
+              "end": 33,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "6fcd4ab5efbe50f378929a79765b4e645b1a728cb02ca8ec65755fec2fcae58d",
+          "expectedRenderedSha256": "669c2977616eb62e050ef5b9efe5f0a5fdec148707945824ec5348f77bd612a4",
+          "row": 19,
+          "sha256": "2549b972d1a1177eaad2c41b348439af12b0ca40b1b78c9cbe3984e06120d196"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 16
+            },
+            {
+              "end": 33,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "0ecc91e2c1f517d545488c73be30496f0bb8e0a844dc99ae3b38952eadbc5618",
+          "expectedRenderedSha256": "094f1c04870364a901612528efd605cddcf17a848421b0d1da654134f06d8d30",
+          "row": 20,
+          "sha256": "0da00877e6662eb7ef76647e7315e1d0cc7a9e06afbf31ef2d97043af7a5a151"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 16
+            },
+            {
+              "end": 33,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "feb2eccdb680546a9ccf513d27092238665c15dea880f2d10f3239ed3f5b43b6",
+          "expectedRenderedSha256": "ecf9ee73115dcc021426037ad51e07b86ff3bb46acece1c789d0a32aa54ee219",
+          "row": 21,
+          "sha256": "a1a7262757e784c1e50c938c0d4bbebe4c5fe1238dda82f19b858a18dd73623a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 16
+            },
+            {
+              "end": 33,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "347a574167d28f66c738a0775b2a64df1b011ead1a12492a684e580f8ad5bbf0",
+          "expectedRenderedSha256": "709483a1fa2ac7c99343933fe9e9068666b55d3cfcecef9369a091c20d1fd3e8",
+          "row": 22,
+          "sha256": "3fae430afb5b71fb6d4682fb44ea20a68b4552a4b9c5661db42b379f38e48d15"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 16
+            },
+            {
+              "end": 33,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "fc2525a3360eeac07fa0f96bdc0718d73b58fe7086418802f754cf1d6e9eeea5",
+          "expectedRenderedSha256": "aae0ede5415756c0c5eada1d0e5694d5c5060a1133f4ac4fbde856c452edffad",
+          "row": 23,
+          "sha256": "abd594a7b74a8b857e26021e0e8207577c0b85f1d9287ed322662c8958d7d6f9"
+        }
+      ],
+      "file": "16c-glue-35-ns-coll5-part04.ps1",
+      "rationale": "A complete attached-placeholder scan and full-payload review confirmed coherent `option1`-`option5` and `command0`-`commandB` template families. Exact cell ranges preserve surrounding artwork, separators, attribution, ANSI controls, colored spaces, widths, and row coordinates. Nine earlier omission-based snapshot retentions are explicitly superseded by the stronger whole-family evidence; no tracked semantic retention or accepted projection is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch47-attached-placeholder-scan.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch47-focused-review.json",
+        "temp/text-blanking-continuation/batch47-terminal-review.json",
+        "temp/text-blanking-continuation/batch47-focused-crosscheck.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of every candidate in the full-gallery attached-placeholder inventory. Accept only complete, separable generic placeholder families. A prior retain may be superseded only when it was an omission-based ignored snapshot decision and the complete family now provides stronger evidence; tracked semantic retains and prior accepted projections remain protected.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 11,
+    "candidateFiles": 2,
+    "candidateGroups": 2,
+    "categoryRows": {
+      "batch47-attached-placeholder-family": 11
+    },
+    "detectorRows": 11,
+    "evidenceRows": 11,
+    "familyExtensions": 0,
+    "priorAcceptExtensions": 0,
+    "priorRetainSupersessions": 9,
+    "retainedDetectorRows": 0,
+    "resolvedDetectorRows": 0,
+    "skippedDynamicScripts": 21
+  }
+}

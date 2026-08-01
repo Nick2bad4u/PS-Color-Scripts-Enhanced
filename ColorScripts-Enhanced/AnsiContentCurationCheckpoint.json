@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 48786,
+        "totalRowsBlanked": 48797,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 14826,
+        "residualMixedTextRowsBlanked": 14837,
         "residualMixedTextTrailingRowsRemoved": 162,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -128,6 +128,7 @@
         "mixedTextLedger44": "AnsiResidualMixedTextReviewLedger44.json",
         "mixedTextLedger45": "AnsiResidualMixedTextReviewLedger45.json",
         "mixedTextLedger46": "AnsiResidualMixedTextReviewLedger46.json",
+        "mixedTextLedger47": "AnsiResidualMixedTextReviewLedger47.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -274,7 +275,10 @@
         "mixedTextPass45TrailingRowsRemoved": 0,
         "mixedTextPass46FilesRedacted": 4,
         "mixedTextPass46RowsBlanked": 8,
-        "mixedTextPass46TrailingRowsRemoved": 0
+        "mixedTextPass46TrailingRowsRemoved": 0,
+        "mixedTextPass47FilesRedacted": 2,
+        "mixedTextPass47RowsBlanked": 11,
+        "mixedTextPass47TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -341,6 +345,7 @@
         "A forty-sixth hash-locked mixed-text review reconciled every coordinate from the historical high-confidence generic-label selection against the live gallery. Of 224 selected rows, 172 were already clean before this pass, 51 retained separable alphabetic menu slots or dummy command and info markers, and one stale Roy coordinate no longer existed; full-family review also added one visually verified continuation row from the same accepted menu structure. Independent ANSI-aware replay verified 52 exact one-based source-cell projections and 193 changed cells across 13 scripts while preserving titles, artist and group attribution, functional prompts, brackets and panel art, every unselected glyph, ANSI control, colored space, width, and row coordinate. A post-application rescan proved zero surviving ASCII text across all 224 historical selection coordinates; no trailing rows were removed.",
         "A forty-seventh hash-locked mixed-text review indexed all 347 coordinates from the broader historical generic-label detector against the completed Batch 30 history, terminal field decisions, and all tracked ledgers. Of the 53 genuinely novel rows, full-payload review accepted 21 separable generic placeholders or production counters and retained 32 project demonstrations, titles, identities, attribution, filenames, authored dialogue or captions, functional interface or BBS copy, and source-significant facts. Nine visually verified family extensions completed the same accepted `kaoz command`, option, and production-counter structures. Independent ANSI-aware replay verified 30 exact one-based source-cell projections and 282 changed cells across 12 scripts while preserving every protected label, terminal-art glyph, ANSI control, colored space, width, and row coordinate. A post-application history rescan proved terminal coverage for all 347 detector coordinates; no trailing rows were removed.",
         "A forty-eighth hash-locked mixed-text review refreshed the complete 140-row historical placeholder-lexicon inventory against the current gallery and completed history. Thirty-five detector preimages were already resolved, full-payload review retained 102 rows as titles, identities, attribution, authored captions, structural text, functional interface or BBS copy, or terminal-art false positives, and three separable generic placeholders or source-production markers were accepted. Five coherent family extensions completed a repeated command placeholder, the five-row `xx solace` command family, and two exact earlier partial projections without superseding any retain. Independent ANSI-aware replay verified eight exact one-based source-cell projections and 84 changed cells across four scripts while preserving hotkeys, titles, attribution, frame art, every unselected glyph, ANSI control, colored space, width, and row coordinate; no trailing rows were removed.",
+        "A forty-ninth hash-locked mixed-text review ran a full-gallery attached-placeholder scan with case-preserving identifier validation, excluding plural-word false positives and explicitly accounting for 21 dynamic or nonliteral scripts outside the static-payload lane. Full-payload review accepted the complete `option1`-`option5` and `command0`-`commandB` template families. Nine earlier omission-based snapshot retentions were superseded by this stronger whole-family evidence; no tracked semantic retain or accepted projection was overridden. Independent ANSI-aware replay verified 11 exact one-based source-cell projections and 131 changed cells across two scripts while preserving surrounding artwork, separators, attribution, every unselected glyph, ANSI control, colored space, width, and row coordinate; no trailing rows were removed.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
