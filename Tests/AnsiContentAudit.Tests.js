@@ -764,8 +764,8 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.removals.adultContentWorks, 21);
     assert.equal(checkpoint.policyReview.adultTaggedWorksRetained, 9);
     assert.equal(checkpoint.policyReview.adultTaggedScriptsRetained, 13);
-    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 49726);
-    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23956);
+    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 49743);
+    assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23971);
     assert.equal(
         checkpoint.contentCleanup.highConfidenceGeometryRowsRemoved,
         767
@@ -774,10 +774,10 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.contentCleanup.residualContentRowsRemoved, 6);
     assert.equal(checkpoint.contentCleanup.residualGeometryRowsRemoved, 77);
     assert.equal(checkpoint.contentCleanup.contactOrPromotionalRowsBlanked, 646);
-    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 15766);
+    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 15783);
     assert.equal(
         checkpoint.contentCleanup.residualMixedTextTrailingRowsRemoved,
-        197
+        212
     );
     assert.equal(
         checkpoint.residualCleanupReview.mixedTextPass2FilesRedacted,
@@ -1690,6 +1690,18 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(
         checkpoint.residualCleanupReview.mixedTextPass77TrailingRowsRemoved,
         0
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass78FilesRedacted,
+        14
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass78RowsBlanked,
+        17
+    );
+    assert.equal(
+        checkpoint.residualCleanupReview.mixedTextPass78TrailingRowsRemoved,
+        15
     );
     assert.equal(checkpoint.removals.residualAdvertisementWorks, 8);
     assert.equal(checkpoint.removals.residualAdvertisementScripts, 27);

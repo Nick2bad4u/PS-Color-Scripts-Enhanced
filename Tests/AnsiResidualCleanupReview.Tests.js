@@ -338,6 +338,10 @@ const MIXED_TEXT_LEDGER77_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualMixedTextReviewLedger77.json"
 );
+const MIXED_TEXT_LEDGER78_PATH = path.join(
+    MODULE_ROOT,
+    "AnsiResidualMixedTextReviewLedger78.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
     MODULE_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
@@ -1901,6 +1905,21 @@ test("seventy-seventh mixed text review is hash-only and fully applied", () => {
         candidateFiles: 10,
         evidenceRows: 19,
         expectedMissingRows: [],
+    });
+});
+
+test("seventy-eighth mixed text review is hash-only and fully applied", () => {
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER78_PATH, {
+        candidateFiles: 14,
+        evidenceRows: 17,
+        expectedMissingRows: [
+            { file: "16c-eden1294-bs-eden2-part03.ps1", row: 42 },
+            { file: "16c-ice9607a-th-rust.ps1", row: 28 },
+            { file: "16c-tlyx-02-om-deh.ps1", row: 28 },
+            { file: "16c-twat0898-lgc-twt.ps1", row: 24 },
+            { file: "16c-twat0898-logic-st.ps1", row: 17 },
+            { file: "16c-twat0898-logic-tw.ps1", row: 13 },
+        ],
     });
 });
 
