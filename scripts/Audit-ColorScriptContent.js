@@ -29,6 +29,7 @@ const ART_GLYPH_SINGLE_PATTERN =
 const RAW_C0_PATTERN =
     /^[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]$/u;
 const LEGACY_CP437_SOURCE_CELL_PATTERN = /^\u0016$/u;
+const NON_BREAKING_SPACE_PATTERN = /^\u00A0$/u;
 const NONSPACE_PATTERN = /\S/gu;
 const RESET_SEQUENCE = "\u001b[0m";
 const CONTACT_CONTEXT_PATTERN =
@@ -1073,6 +1074,7 @@ function blankTextColumns(rawRow, columnRanges) {
             }
             if (
                 !/^[\u0020-\u007E]$/u.test(character) &&
+                !NON_BREAKING_SPACE_PATTERN.test(character) &&
                 !ART_GLYPH_SINGLE_PATTERN.test(character)
             ) {
                 throw new RangeError(
