@@ -5,14 +5,14 @@
 # Source SHA-256: fd9d71823ad41c10d13b08d4a80f0508e739271b7733cfa7425c90cc86ed7939
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GO-LOGO1.ANS by Gohan (oasis-02); released in oasis-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Date: 19960511
 # SAUCE Dimensions: 80x24
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-[35m──{[0;37m [0;35mDIS IS A LOGO[0;37m [0;35m}─────────────────────────────────────────────────────────────[0m
+[35m──{[0;37m [0;35m             [0;37m [0;35m}─────────────────────────────────────────────────────────────[0m
 [35m░░░░░░░ ░░░░░░░[0;37m [0;35m░░░░░░░[0;37m [0;35m░░░░░░░[0;37m [0;35m░░░░░░░[0;37m [0;35m░░░░░░░[0;37m [0;35m░░░░░░░[0;37m [0;35m░░░░░░[0;37m [0;35m░░░░░░░[0;37m [0;35m░░░░[0;37m [0;35m░[0m
 [35m░▒░[0;37m [0;35m░▒░ ░▒░[0;37m [0;35m░▒░[0;37m [0;35m░▒░[0;37m [0;35m░▒░ ░▒░[0;37m [0;35m░▒░[0;37m [0;35m░▒░[0;37m [0;35m░▒░[0m   [35m░▒░[0m     [35m░▒░ [0;37m  [0;35m░▒░[0m    [35m░▒░[0;37m [0;35m░▒░ ░▒[0;37m [0;35m░[0;37m [0;35m░[0m
 [35m▒░▒[0m     [35m▒░▒[0;37m [0;35m▒░▒[0;37m [0;35m▒░▒[0;37m [0;35m▒░▒[0;37m [0;35m▒░▒[0;37m [0;35m▒░▒[0;37m [0;35m▒░▒[0;37m [0;35m▒░▒[0m   [35m▒░▒[0m     [35m▒░▒[0m   [35m▒░▒[0m    [35m▒░▒[0;37m [0;35m▒░▒[0;37m [0;35m▒░[0;37m [0;35m░[0;37m [0;35m░[0m
