@@ -1,0 +1,108 @@
+{
+  "batch": 75,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch75-explanatory-quality-and-hiatus-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "27e864f986692c139328e342ae779154b96e197ff81cf265a5d4f01232ff357f",
+          "expectedRenderedSha256": "203f385808cfb8c05b77060cc96c252de8522777fb5fa9e9f4a39f9bad5d4a31",
+          "row": 21,
+          "sha256": "a21227fba91f469321262db46a6230e00b585760317654ff8657f41a4a023d2c"
+        }
+      ],
+      "file": "16c-blde9505-mp-re1-part01.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is separable literal-identification, quality-reaction, or creation-hiatus commentary. Titles, identity, attribution, dedications, authored narrative and dialogue, functional interfaces, slogans, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch75-constraint-excuses-current.json",
+        "temp/text-blanking-continuation/batch75-anti-copy-variants-current.json",
+        "temp/text-blanking-continuation/batch75-explanatory-asides-current.json",
+        "temp/text-blanking-continuation/batch75-quality-reactions-current.json",
+        "temp/text-blanking-continuation/batch75-creation-hiatus-current.json",
+        "temp/text-blanking-continuation/batch75-detector-context.txt",
+        "temp/text-blanking-continuation/batch75-detector-full-context.txt",
+        "temp/text-blanking-continuation/batch75-curation-review.json",
+        "temp/text-blanking-continuation/batch75-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch75-explanatory-quality-and-hiatus-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "133e533b1df9b4ab92e4a24f0b7648d7684eabb723e74edd631d986094c13cdd",
+          "expectedRenderedSha256": "87c50447977f09f20ee1325894a81445b1abdd9cbe493a8581ba7b81b5d108ba",
+          "row": 8,
+          "sha256": "044c7db29ce485bdd9eb5dc49844a330e1d2a19cdeada38102d7e3696fb7c105"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "b4ea49c11adf8545954644edc494e37c5e61fe86d25f763ec5bfca6bf855ee15",
+          "expectedRenderedSha256": "0afb350aea7967d9ebd8f5ed29ceaa4d7aac1c35dd8a22b497a1c4ae38195911",
+          "row": 9,
+          "sha256": "f43305eee4f3bfad187ef63820296f15419cf8c44af8c41aedbfafc99167e65b"
+        }
+      ],
+      "file": "16c-ecl-pak9-cpl-puto.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is separable literal-identification, quality-reaction, or creation-hiatus commentary. Titles, identity, attribution, dedications, authored narrative and dialogue, functional interfaces, slogans, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch75-constraint-excuses-current.json",
+        "temp/text-blanking-continuation/batch75-anti-copy-variants-current.json",
+        "temp/text-blanking-continuation/batch75-explanatory-asides-current.json",
+        "temp/text-blanking-continuation/batch75-quality-reactions-current.json",
+        "temp/text-blanking-continuation/batch75-creation-hiatus-current.json",
+        "temp/text-blanking-continuation/batch75-detector-context.txt",
+        "temp/text-blanking-continuation/batch75-detector-full-context.txt",
+        "temp/text-blanking-continuation/batch75-curation-review.json",
+        "temp/text-blanking-continuation/batch75-history-collisions.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of creator-constraint, anti-copy-variant, explanatory-aside, quality-reaction, and creation-hiatus cues in every static color-script payload. Accept only exact separable literal-identification, quality, or hiatus commentary proven by complete-panel context; retain titles, identity, attribution, dedications, authored dialogue or narrative, functional interfaces, slogans, structural text, and ambiguity.",
+  "priorRedactionExtensions": [],
+  "priorRetentionSupersessions": [],
+  "reviewedAt": "2026-08-02",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "acceptedDetectorCues": 3,
+    "blankColumnRows": 3,
+    "candidateFiles": 2,
+    "candidateGroups": 2,
+    "categoryRows": {
+      "batch75-explanatory-quality-and-hiatus-asides": 3
+    },
+    "changedCells": 58,
+    "detectorAcceptedRows": 3,
+    "detectorFiles": 13,
+    "detectorRows": 16,
+    "evidenceRows": 3,
+    "familyExtensions": 0,
+    "parseFailures": 21,
+    "retainedDetectorRows": 13,
+    "staticFiles": 24801
+  }
+}
