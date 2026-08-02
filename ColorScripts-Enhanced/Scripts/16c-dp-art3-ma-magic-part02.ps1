@@ -5,7 +5,7 @@
 # Source SHA-256: d8a34f7d55b1a799f8961de6ac0ed1af42e021e951ac061c2f9eccf9e6473b45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-MAGIC.ANS by Malcolm (DEEP); released in dp-art3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: BAD INFLUENCE
 # SAUCE Author: Malcolm
 # SAUCE Group: DEEP
@@ -38,4 +38,4 @@ Write-Host '
            [1;30m░██▓▒█▄▄░▄█▒▄▄  ▄▒█░░█▓▄░▄▓▒█▄  ▄▒█░░█▓▄░▄▓▒█▄  ░██▓▒▓▄▄░▄█▒▄▄[0m
             [1;30m▒   ▒▀   ░▀▀[0m     [1;30m▒▀▀[0m             [1;30m▒▀▀[0m            [1;30m▒▓▒▒░░   ░▀▀[0m
                                                             [1;30m░▒▀░▒[0m
-[1;30m    ─── 1oo % 0RiGiNaL By .\\alcolm [DEEP] ──────────────────── ░ ─────────[0m'
+[1;30m    ───                By .\\alcolm [DEEP] ──────────────────── ░ ─────────[0m'

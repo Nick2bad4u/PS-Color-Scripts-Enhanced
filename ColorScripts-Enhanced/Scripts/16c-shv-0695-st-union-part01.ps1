@@ -5,7 +5,7 @@
 # Source SHA-256: 993958b4ea9ebcb55193abaf90cf59e6bec5e75afd05f212da061d34aa53114c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-UNION.ANS by Stone Chapel (Shiver); released in shv-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Union Farewell
 # SAUCE Author: Stone Chapel
 # SAUCE Group: Shiver
@@ -17,7 +17,7 @@
 Write-Host '
 [34m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ [0m
-[34m█████[0;30;44m▀[0;34;40m██▓████▓████[0;30;44m▐[0;34;40m█▓████████▓▓[0;30;44m100% origi[0;34;40m▓[0;30;44mal![0;34;40m█▄████[0;30;44m■[0;34;40m████▓███████▓████▓█████▓▓██[0m
+[34m█████[0;30;44m▀[0;34;40m██▓████▓████[0;30;44m▐[0;34;40m█▓████████▓▓[0;30;44m          [0;34;40m▓[0;30;44m   [0;34;40m█▄████[0;30;44m■[0;34;40m████▓███████▓████▓█████▓▓██[0m
 [30;44m■[0;34;40m█████[0;30;44m▄[0;34;40m█▓████▓████[0;30;44m▐[0;34;40m██████████▓█[0;30;44mld-im getting t[0;34;40m▐[0;30;44mhere[0;34;40m▐[0;30;44m! =)   [0;34;40m██████████▓██████▓██[0m
 [30;44m▐[0;34;40m██[0;30;44m▀[0;34;40m██[0;30;44m▄█▀[0;34;40m█████████[0;30;44m█[0;34;40m███████████▓████████▐██████▐████▐█████▀██████▓██████████████[0m
 [30;44m▐[0;34;40m██[0;30;44m█ [0;34;40m█[0;30;44m█▀[0;34;40m██▀▀▀▓▀▀▀█[0;30;44m▐[0;34;40m█████████████[0;30;44m■[0;34;40m███▀██▐█▀▀▀▀[0m     [34;40m▀[0;30;44m▌[0;34;40m▀████▐███████████▓▀▀▀███▓██[0m
