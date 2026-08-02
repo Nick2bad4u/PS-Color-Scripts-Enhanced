@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 49646,
+        "totalRowsBlanked": 49663,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 15686,
+        "residualMixedTextRowsBlanked": 15703,
         "residualMixedTextTrailingRowsRemoved": 190,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -154,6 +154,7 @@
         "mixedTextLedger70": "AnsiResidualMixedTextReviewLedger70.json",
         "mixedTextLedger71": "AnsiResidualMixedTextReviewLedger71.json",
         "mixedTextLedger72": "AnsiResidualMixedTextReviewLedger72.json",
+        "mixedTextLedger73": "AnsiResidualMixedTextReviewLedger73.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -378,7 +379,10 @@
         "mixedTextPass71TrailingRowsRemoved": 0,
         "mixedTextPass72FilesRedacted": 28,
         "mixedTextPass72RowsBlanked": 41,
-        "mixedTextPass72TrailingRowsRemoved": 0
+        "mixedTextPass72TrailingRowsRemoved": 0,
+        "mixedTextPass73FilesRedacted": 6,
+        "mixedTextPass73RowsBlanked": 17,
+        "mixedTextPass73TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -471,6 +475,7 @@
         "A seventy-second hash-locked mixed-text review exhausted 16 literal-art-description, handle-introduction, guess-caption, forgotten-element, old-work-aside, and audience-signoff cue rows across 15 files after scanning all 24,801 static scripts and accounting for the 21 dynamic or nonliteral scripts fail-closed. Complete-payload, neighboring-row, family, and historical-ledger review retained seven detector rows as keyed BBS commands, a structured newsletter field, or a standalone final signoff whose removal would violate the no-compaction geometry invariant. Nine detector rows plus 12 coherent family extensions removed only separable literal captions, creator asides, audience signoffs, and an old-work note while preserving titles, artist and group identity, attribution, and functional interface text. Independent comparison against the committed preimage verified 21 exact one-based source-cell projections and 230 changed cells across 10 scripts while preserving all 239 untargeted payload rows byte-for-byte, every ANSI control sequence, every unselected cell, width, and row coordinate; no rows were removed or compacted.",
         "A seventy-third hash-locked mixed-text review exhausted four first-person creation, object-creation, passive-creation, and work-process cue rows across four files after scanning all 24,801 static scripts and accounting for the 21 dynamic or nonliteral scripts fail-closed. Complete-payload, neighboring-row, family, and historical-ledger review retained two detector rows as direct artist attribution and authored poetic expression. Two detector rows plus six coherent adjacent family extensions removed only a separable six-row production aside and a two-row creator/originality caption while preserving the Cyclops dedication, artist identity and attribution, titles, structural lettering, and ambiguity. Independent comparison against the committed preimage verified eight exact one-based source-cell projections and 95 changed cells across two scripts while preserving all 59 untargeted payload rows byte-for-byte, every ANSI control sequence, every unselected cell, width, and row coordinate; no rows were removed or compacted.",
         "A seventy-fourth hash-locked mixed-text review exhausted 58 enjoyment, dismissive-interjection, laughter-reaction, and closing/completion cue rows across 53 files after scanning all 24,801 static scripts and accounting for the 21 dynamic or nonliteral scripts fail-closed. Complete-payload, neighboring-row, family, and historical-ledger review retained 30 detector rows as titles, identity, attribution, dedications, authored or foreign-language dialogue, functional interfaces, structural lettering, or encoded ambiguity. Twenty-eight detector rows plus 13 coherent family extensions removed only separable reactions, interjections, audience signoffs, placeholder instructions, usage notes, and production asides. Independent comparison against the committed preimage verified 41 exact one-based source-cell projections and 403 changed cells across 28 scripts while preserving all 844 untargeted payload rows byte-for-byte, every ANSI control sequence, every unselected cell, width, and row coordinate; no rows were removed or compacted.",
+        "A seventy-fifth hash-locked mixed-text review exhausted 52 gratitude, apology, audience-hope, feedback-request, audience-invitation, and casual-farewell cue rows across 50 files after scanning all 24,801 static scripts and accounting for the 21 dynamic or nonliteral scripts fail-closed. Complete-payload, neighboring-row, family, and historical-ledger review retained 46 detector rows as direct credits, authored memorial or dialogue text, functional BBS menu and logoff commands, structural interface labels, or composition-linked expression. Six detector rows plus 11 coherent family extensions removed only a feedback fragment, an advertisement caption, a reader signoff, a literal logoff-screen description, and production apologies. Independent comparison against the committed preimage verified 17 exact one-based source-cell projections and 139 changed cells across six scripts while preserving all 162 untargeted payload rows byte-for-byte, every ANSI control sequence, every unselected cell, width, and row coordinate; no rows were removed or compacted.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
