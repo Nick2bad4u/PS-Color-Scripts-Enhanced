@@ -5,7 +5,7 @@
 # Source SHA-256: 4cad007fe3c248ff0bd0c268ebb676cbb784d42e048350fd1ca4a47f3dac50e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DLT-SAE.ANS by Dalton (Share And Enjoy); released in sae-1al and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Share And Enjoy
 # SAUCE Author: Dalton
 # SAUCE Group: Share And Enjoy
@@ -45,6 +45,6 @@ Write-Host '
            [1m▀███████████████▀ [0m    [1m ▀▀▀█████▀▀▀[0m [1;34m▄[0;1;34;44m▓▒░░[0;34m▄[0;37m [0;1;37m▀███████████████▀[0m
              [1m▀▀▀████████▀▀[0m            [34m▄▄▄▄▄[0;1;34;44m▓▓██▓▒▒░░[0;34m█▄[0;37m  [0;1;37m▀▀▀█████▀▀▀[0m
                                     [34m▄██[0;1;34;44m░░▒▒▓▓[0;1;34;46m▓[0;1;34;44m█▓▒▒░░[0;34m██[0;37m              [0m
-[37m  >> Share And Enjoy[0m        [37m     [0;34m▄▄██[0;1;34;44m░░▒▒▓▓█[0;1;34;46m▓[0;1;34;44m█▓▒▒░░ [0;34m█▌[0;37m             [0m
+[37m  >>                [0m        [37m     [0;34m▄▄██[0;1;34;44m░░▒▒▓▓█[0;1;34;46m▓[0;1;34;44m█▓▒▒░░ [0;34m█▌[0;37m             [0m
                              [34m▄▄██[0;1;34;44m░░▒▒▓▓██[0;1;34;46m▓▒░▓[0;1;34;44m█▓▒▒░░[0;34m██[0;37m               [0m
                         [34m▄▄▄██[0;1;34;44m ░░▒▒▓▓███[0;1;34;46m▓▒[0;1;36;46m░[0;1;34;46m▒▓[0;1;34;44m█▓▒▒░░[0;34m█▀[0;37m               [0m'

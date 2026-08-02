@@ -1,0 +1,165 @@
+{
+  "batch": 71,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch71-creator-action-and-opinion-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "f0b0791d0e8241ea8c6e3214ed433cbcb99f249cdb91b8d6cdd5e226716e5901",
+          "expectedRenderedSha256": "682cfe29edf40d94e196897fd0ac9bcca01e3ed46d4eaf0cd574072c504221e6",
+          "row": 14,
+          "sha256": "5f743bfd47d86710c2d8242f7f2706a8141cb6e2c7ae47db38bb21ab2d93b1be"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "530c01af0ce8ae4fa9f2c4d5aea52749a9843203590587ab356b019408ad0a95",
+          "expectedRenderedSha256": "7052482f7e6782681974ffa274ab273dcf65a3b2e2ca895bacb62bb4868cfaaa",
+          "row": 15,
+          "sha256": "26ddeb92691b7bb69ddd3b964d35906998805c0c54757d84e4f093aea53beab3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "d69f5c8f7f74bddeb9b24ade4126f9a6b08f84ea4236566d67bfd7e7f2f7f13e",
+          "expectedRenderedSha256": "4d10e80ca63d7bc00599060a4d7d36f214d399b08e71a48d317abac9bd8f13d0",
+          "row": 16,
+          "sha256": "ffb1a34d6ff22ff28ee7df07ef47c8701e77fd1b367c26cac27ef0266c3281aa"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "fd2b58858d456421c3313bbb0d7eef4149120048ff9f928f3d62c0132eccd516",
+          "expectedRenderedSha256": "8a46ab9c9c3b44a632f4f38036d9e8b5951a4db99ec93c279d98ca20d4e3ae03",
+          "row": 17,
+          "sha256": "7d1bcf08990ab556c8ff1f2b90be7d9095f5258026240b5fd816aefa10293906"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "e110e7a068f47f6d8ca757b0aebe05445d3819f0aea749ec7007b50e4024e6e1",
+          "expectedRenderedSha256": "e4a15d7538be6a7f17b7798355e0157934bc092381af9ea65e862cca47662271",
+          "row": 18,
+          "sha256": "7fc153985e462faebc407c17b43329ede895da69816ffef8057b814a51f0d82d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 63
+            }
+          ],
+          "expectedRawSha256": "e944da12a489c2fea73d11b21a49eb46a9243338541ad288acd28f45097e5d16",
+          "expectedRenderedSha256": "7153ea31f25a34ad6609bb22730abe49a9a04566c19aa0ea5ea17640d276f1c5",
+          "row": 19,
+          "sha256": "60ffc94b4d3b1322777a5fc6e0252aeb839bb6b45ad9bb33b4655929148b2f85"
+        }
+      ],
+      "file": "16c-ecl-pak2-sn-cyko.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is separable first-person creation chatter or an attached opinion aside. Artist attribution, authored narrative, titles, identity, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-creator-actions.json",
+        "temp/text-blanking-continuation/batch71-creator-actions.txt",
+        "temp/text-blanking-continuation/batch71-full-context.txt",
+        "temp/text-blanking-continuation/batch71-creator-curation-review.json",
+        "temp/text-blanking-continuation/batch71-creator-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch71-creator-action-and-opinion-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 57,
+              "start": 31
+            }
+          ],
+          "expectedRawSha256": "46f031540c8661c0ffd3521be524cfd56f1c667203741104b6d55ae9802a5341",
+          "expectedRenderedSha256": "b375864dc3e1370746d70471643f0b5c76d90ae562888df2b5d0de57bb33ab99",
+          "row": 11,
+          "sha256": "65d73a2cfbdbb10776e03e43131023c3ae7120150cea16929343cd6a621639e8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 57,
+              "start": 31
+            }
+          ],
+          "expectedRawSha256": "574f8d3d34c406fe09634920f0676d17f2d17fec621de23beac3bd6bf812940b",
+          "expectedRenderedSha256": "0e8b1b9a2592d6453af7c0c4789e4d33ff96d68d209f93833b9f84b1b0f1aad9",
+          "row": 12,
+          "sha256": "8f0dfb9830ff08a8431cc005d1660696d0c4108b62ade92a6ba0823fd8934b37"
+        }
+      ],
+      "file": "16c-legend05-sg-trn1-part03.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is separable first-person creation chatter or an attached opinion aside. Artist attribution, authored narrative, titles, identity, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-creator-actions.json",
+        "temp/text-blanking-continuation/batch71-creator-actions.txt",
+        "temp/text-blanking-continuation/batch71-full-context.txt",
+        "temp/text-blanking-continuation/batch71-creator-curation-review.json",
+        "temp/text-blanking-continuation/batch71-creator-history-collisions.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of first-person creation statements, object-creation phrases, passive-creation phrases, and work-process language in every static color-script payload. Accept only exact separable creator-action and attached opinion chatter proven by complete-panel context; retain artist attribution, authored narrative, titles, identity, functional interfaces, structural text, and ambiguity.",
+  "priorRedactionExtensions": [],
+  "priorRetentionSupersessions": [],
+  "reviewedAt": "2026-08-02",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "acceptedDetectorCues": 4,
+    "blankColumnRows": 8,
+    "candidateFiles": 2,
+    "candidateGroups": 2,
+    "categoryRows": {
+      "batch71-creator-action-and-opinion-chatter": 8
+    },
+    "changedCells": 95,
+    "detectorAcceptedRows": 2,
+    "detectorFiles": 4,
+    "detectorRows": 4,
+    "evidenceRows": 8,
+    "familyExtensions": 6,
+    "parseFailures": 21,
+    "retainedDetectorRows": 2,
+    "staticFiles": 24801
+  }
+}

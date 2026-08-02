@@ -5,7 +5,7 @@
 # Source SHA-256: 0ea5a47b436a26243f7513595655c1b46bd267a32050d1d1d39f516221eada42
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZE-NAOC.ANS by ize (Revival); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Naoc
 # SAUCE Author: ize
 # SAUCE Group: Revival
@@ -31,4 +31,4 @@ Write-Host '
       [31;40m▄▄▄[0;1;31;41m░[0;31m░[0;36m  [0;1;31m▀[0;1;31;41m▄[0;31m▄▄▄▄[0;36m ▐█  [0;30;46m░ [0;1;33;46m  [0;36m▀[0;31m ▄▄ [0;1;36m [0;1;33;46m ░░[0;36m█[0;30;46m░[0;36;40m [0;31;40m▄█▄[0;36;40m █[0;1;37;46m▀[0;1;33;46m▀[0;36m██████████████ [0;31m▄▄▄▄▄▄▄▄▄▄▄[0;36m  ize[0m
               [31m░[0;1;31;41m░[0;31m▀▀█[0;36m █[0;1;33;46m▄▄   [0;36m▀ [0;31m▄[0;1;31;41m░░[0;31m▀[0;1;36m [0;36m█[0;1;33;46m▐█▀[0;30;46m░[0;36;40m [0;31;40m▄█░█▄▄▄▄[0m        [31;40m▄  ▄ ▄▄[0;1;31;41m▀▀ [0;31m░[0m
               [31m░[0;30;41m░[0;31;40m▄▄█[0;36;40m █[0;1;37;46m▀[0;1;33;46m▀[0;36m█▀ [0;31m▄[0;1;31;41m▄[0;1;31;47m▓▓[0;30;41m░[0;1;36;40m [0;36m█[0;1;37;46m▀[0;1;33;46m▀▀[0;30;46m░[0;36;40m [0;31;40m▄█░[0m                  [31;40m         [0m
-                         [31;40m▀[0;1;31;41m▀▀▀▀[0;31m█▄▄▄▄▄▄▄█░[0;36m  Naoc.. eh whatever..[0m'
+                         [31;40m▀[0;1;31;41m▀▀▀▀[0;31m█▄▄▄▄▄▄▄█░[0;36m  Naoc..              [0m'
