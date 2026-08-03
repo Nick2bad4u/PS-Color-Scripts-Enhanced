@@ -5,7 +5,7 @@
 # Source SHA-256: 156a37826be0e8fc61756b1753421c6da007a9830e49f6d4f8ef4b5fba4a3585
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-JIZZ.ANS by tsk (acid); released in acdu0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: jizz
 # SAUCE Author: tsk
 # SAUCE Group: acid
@@ -21,7 +21,7 @@ Write-Host '
          [1m  [0m▄▄▄▄[1m▄[0m▄[1m▄[0m▄▄ [1m    [0m▄▄[1;47m▄▄░[0m▄
      [1m      [0m▀▀▀[1m▀▀[0;1;47m▓▓[0;1;40m██[0;1;47m▄▄ [0;1;40m [0;1;47m▄█▓▓[0;1;40m█[0;1;47m▀[0m▀[1m  ▄▄[0m▄▄[1;47m▄▓▄▄▄▄░[0m▄[1m       [0m▄▄▄[1m▄[0;1;47m▄▄▄▄▄▄░[0m▄[1m [0m
               [1m     [0;1;46m▓▓▓[0;1;40m█[0m▌▐[1;46m▓▓▓[0m▀[1m [0m▄[1;46m▓▓▓▓[0;1;40m█[0;1;46m▓[0;1;40m▀▀▀[0;1;46m▓▓[0;1;40m█[0;1;46m▓[0;1;47m▌[0;1;40m    [0m▄[1;46m▓▓▓▓▓[0;1;47m▓[0;1;40m▀[0m▀▀[1;46m▓▓▓▓[0;1;47m▌[0;1;40m [0m
-            [1m [0m     [1;46m▓▒▒▒▓[0m   [1m▀▀ [0;1;46m▓▓▒▒▒[0;1;40m▀[0m    [1;46m▓▒▒▓▒[0;1;40m [0m   [1;46m▓▓▒▒▒[0;1;40m▀[0m    [1;46m▓▒▒▒▒[0;1;40m  [0;34mjiZZ!?@[0m
+            [1m [0m     [1;46m▓▒▒▒▓[0m   [1m▀▀ [0;1;46m▓▓▒▒▒[0;1;40m▀[0m    [1;46m▓▒▒▓▒[0;1;40m [0m   [1;46m▓▓▒▒▒[0;1;40m▀[0m    [1;46m▓▒▒▒▒[0;1;40m  [0;34m    !?@[0m
    [36m [0;1;37m▄▄▄▄[0;36m  [0m      [34m [0;1;37;46m▒▒░░░[0m   [1;46m▒░░[0;36m [0;1;37m▀[0;1;37;46m▒░░[0;36m▌[0;34m [0m   [1;37;46m▒▒░░▒[0;36m [0m   [1;37m▐[0;1;37;46m▒▒░░[0;36m▌[0m   [36m [0;1;37;46m░▒░░░[0;36m [0m
 [1;34;47m▓[0;1;34;44m▀▀[0;34m▌[0;36m [0;1;37;46m▒▒░[0;36m██[0;1;37m▀▀[0;36m [0;1;34;44m▀[0;34m▀ [0;1;37;46m░░░[0;36m█[0;1;37;46m [0;36m [0;34m▄[0;36m [0;1;37;46m░░[0;36m███ [0;34m▄▄▄▄[0;1;34;44m░[0;34m▀ [0;36m█[0;1;37;46m░░[0;36m██ [0;34m▄[0;1;34;44m▀▀░[0;34m▄▄▄▄▄▄[0;1;34;44m▀[0;34m▀[0;36m [0;1;37;46m [0;36m█[0;1;37;46m░[0;36m█[0;1;37;46m [0;36m [0;34m▄[0;1;34;44m░░[0;34m█[0;1;34;44m▀[0;34m███[0;1;34;44m▀[0;34m█[0;1;34;44m▀▀░▀▀▀▀[0;1;34;47m▓[0m
 [1;34;44m▓[0;34m█▌ [0;36m█[0;1;37;46m░░[0;36m█[0;1;36m▒[0;36m [0;34m▄[0;1;34;44m░░[0;34m▀[0;36m [0;1;36m▒[0;36m█[0;1;37;46m [0;1;36;40m▒▒[0;36m [0;1;34;44m░[0;36m [0;1;36m▒[0;36m██[0;1;36m▒▒[0;36m [0;34m▄[0;1;34;44m░[0;34m▀▀▀▀[0;36m [0;1;36m▒[0;36m██[0;1;36m▒▒[0;36m [0;34m▄[0;1;34;44m░░[0;34m█▀▀▀[0;36m ▄▄ [0;34m▀[0;36m ▀[0;1;36m▒▒[0;36m█[0;1;36m▒[0;36m [0;34m▐[0;1;34;44m░░[0;34m▀▀[0;36m ▄▄▄▄ [0;34m▀▀▀[0;1;34;44m░░░[0;34m█[0;1;34;44m▓[0m
