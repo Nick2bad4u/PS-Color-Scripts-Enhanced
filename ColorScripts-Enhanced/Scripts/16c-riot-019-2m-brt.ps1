@@ -5,7 +5,7 @@
 # Source SHA-256: e9bdc477d7be1222f5f8b65de026e9ff303dbd0705f86f34c0ffb9e20fef11ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2M-BRT.ANS by 2mStone (RioT Productions); released in riot-019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Black Rose Tavern
 # SAUCE Author: 2mStone
 # SAUCE Group: RioT Productions
@@ -46,4 +46,4 @@ Write-Host '
             [1;30m▀▀▀▀[0m  [1;30m▀▀▀[0;1;30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;40m▀[0m             [1;30m ▀[0;1;30;47m▓▓▓▓[0;1;30;40m▄  [0m   [1;30m  [0;1;30;47m▒▒▓▓▓▓▓▓▒▒▓▓[0;1;30;40m  [0m
                                                        [1;30m▀[0;1;30;47m▓▓▓[0;1;30;40m▄[0m  [1;30m  [0;1;30;47m▒▒▓▓▓▓▓▒▒▓▓▓▓▓[0;1;30;40m  [0m
                                                           [1;30m▀[0m [1;30m [0m   [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30m-------------------------------pffft--------------------------------------------[0m'
+[1;30m-------------------------------     --------------------------------------------[0m'
