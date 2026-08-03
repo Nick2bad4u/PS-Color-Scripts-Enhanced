@@ -1,0 +1,48 @@
+{
+    "batch": 85,
+    "candidates": [
+        {
+            "action": "blank-columns",
+            "category": "batch85-conversational-creator-filler",
+            "evidence": [
+                {
+                    "action": "blank-columns",
+                    "columnRanges": [{ "start": 39, "end": 47 }],
+                    "expectedRawSha256": "276e67724669b06f9e480bd99a1a3e064607dd7dd600d973d3553825a9a6651e",
+                    "expectedRenderedSha256": "f642345bb9ed9d674db5c6984ddee861431f86f8b141e8a358260d4b2c1e5b30",
+                    "row": 26,
+                    "sha256": "f6fbfba3e961437b15d195db6e1ffa04255ecfafbe5e43a465387ce9fb65bd4b"
+                }
+            ],
+            "file": "1999-14-joint-r-f-poly.ps1",
+            "rationale": "Complete-composition and source-preimage review prove the selected nine-cell \"cool huh?\" suffix is separable conversational creator filler. The edit preserves terminal-cell geometry, SGR state, palette, the complete Polyester artwork, and the valid Rippa/Fever joint-credit line. Titles, attribution, identity, dialogue, structural lettering, art-integrated words, and ambiguity remain intact.",
+            "reviewSources": [
+                "temp/text-blanking-continuation/batch85-base-audit.json"
+            ]
+        }
+    ],
+    "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+    "pendingInputs": [],
+    "policy": "Fail-closed review of conversational creator-filler cues in every static color-script payload. Accept only a complete, separable casual aside proven non-structural by complete-composition and source-preimage review; retain titles, signatures, attribution, credits, dialogue, narrative, slogans, structural text, art-integrated words, and ambiguity.",
+    "priorRedactionExtensions": ["1999-14-joint-r-f-poly.ps1:26"],
+    "priorRetentionSupersessions": [],
+    "reviewedAt": "2026-08-03",
+    "schemaVersion": 1,
+    "status": "ready",
+    "summary": {
+        "acceptedDetectorCues": 1,
+        "blankColumnRows": 1,
+        "candidateFiles": 1,
+        "candidateGroups": 1,
+        "categoryRows": { "batch85-conversational-creator-filler": 1 },
+        "changedCells": 9,
+        "detectorAcceptedRows": 1,
+        "detectorFiles": 8,
+        "detectorRows": 9,
+        "evidenceRows": 1,
+        "familyExtensions": 0,
+        "parseFailures": 0,
+        "retainedDetectorRows": 8,
+        "staticFiles": 24801
+    }
+}
