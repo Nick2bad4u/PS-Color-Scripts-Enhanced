@@ -1,0 +1,50 @@
+{
+    "batch": 83,
+    "candidates": [
+        {
+            "action": "blank-columns",
+            "category": "batch83-creator-commentary-and-reaction",
+            "evidence": [
+                {
+                    "action": "blank-columns",
+                    "columnRanges": [{ "start": 55, "end": 73 }],
+                    "expectedRawSha256": "6a1b0e2333d9fcd13dad2b5fb5515b0f140bc68c0a08c2ffe645916e11923962",
+                    "expectedRenderedSha256": "f22946c72b99cbd3531ac713524dded3ac37727032b04b9c480d6040570fee1f",
+                    "row": 5,
+                    "sha256": "9824b0d0572b43a3ec2034b1040c9194131d4a5d05c89c04d3d5f41e2daf59f0"
+                }
+            ],
+            "file": "16c-ecl-02-m7-sigo.ps1",
+            "rationale": "Complete-composition, introduction-commit, and current-corpus review proves the selected span is a separable generic group-reaction aside. The edit preserves terminal-cell geometry, SGR state, palette, neighboring artwork, the retained quotation, and the creator signature. Titles, attribution, identity, dialogue, structural lettering, art-integrated words, and ambiguity remain intact.",
+            "reviewSources": [
+                "temp/text-blanking-continuation/batch83-informal-reactions.json",
+                "temp/text-blanking-continuation/batch83-full-context.txt",
+                "temp/text-blanking-continuation/batch83-history-context.txt"
+            ]
+        }
+    ],
+    "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+    "pendingInputs": [],
+    "policy": "Fail-closed review of informal-reaction and laughter cues in every static color-script payload. Accept only complete, separable creator commentary or reaction-aside spans proven non-structural by complete-composition and introduction history; retain titles, signatures, attribution, credits, dialogue, narrative, slogans, structural text, art-integrated words, and ambiguity.",
+    "priorRedactionExtensions": ["16c-ecl-02-m7-sigo.ps1:5"],
+    "priorRetentionSupersessions": [],
+    "reviewedAt": "2026-08-02",
+    "schemaVersion": 1,
+    "status": "ready",
+    "summary": {
+        "acceptedDetectorCues": 1,
+        "blankColumnRows": 1,
+        "candidateFiles": 1,
+        "candidateGroups": 1,
+        "categoryRows": { "batch83-creator-commentary-and-reaction": 1 },
+        "changedCells": 17,
+        "detectorAcceptedRows": 1,
+        "detectorFiles": 29,
+        "detectorRows": 51,
+        "evidenceRows": 1,
+        "familyExtensions": 0,
+        "parseFailures": 0,
+        "retainedDetectorRows": 50,
+        "staticFiles": 24801
+    }
+}
