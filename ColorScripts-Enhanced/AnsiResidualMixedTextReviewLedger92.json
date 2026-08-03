@@ -1,0 +1,165 @@
+{
+  "batch": 92,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch92-creator-process-commentary",
+      "file": "16c-fsn-0697-us-uc.ps1",
+      "rationale": "The selected text-only cells are a separable explanation of the contributors process. Displayed collaborator credit and terminal art remain intact.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 6,
+          "columnRanges": [
+            {
+              "start": 65,
+              "end": 74
+            }
+          ],
+          "sha256": "8a402c5b428f9f01d1482907019b6bc4880350bb62d14cd7072adbc65658643e",
+          "expectedRawSha256": "40596463f81f431cc4e823a0bce91ce1f111db50fe26b5ad73d4cda66075d4a6",
+          "expectedRenderedSha256": "f4b19d558d6fd2bb615c11551d6fd088708744422ca3d1a2d5664aeba9c73727"
+        },
+        {
+          "action": "blank-columns",
+          "row": 7,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 75
+            }
+          ],
+          "sha256": "27eb46d58ac7b1ecf99473315cf0bed4691c925d5cbbec07a933622ed0008d9a",
+          "expectedRawSha256": "09e1aca01575b1c782feb803adf0cab0b2e48455b81a3af1fce8957f031666b0",
+          "expectedRenderedSha256": "5180bd72436c3323aa56d099381e7be131e3a7f4b7dc8fa7821970252ac20eaa"
+        },
+        {
+          "action": "blank-columns",
+          "row": 8,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 72
+            }
+          ],
+          "sha256": "1ca2ef169da9131e93d2ee15fcb000a1126fb3aff5246743485e36060b862a9d",
+          "expectedRawSha256": "e2d5574f7baa23849f74e8d7b2bd8c02344d1ffd14d9d069f5fd2c7751f8681e",
+          "expectedRenderedSha256": "1f600fa86b754efdd5f5a861dac9fdd130a9bbbf88594547090db6ed477d1592"
+        },
+        {
+          "action": "blank-columns",
+          "row": 9,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 75
+            }
+          ],
+          "sha256": "9b69495c7d2b83ed2c8462fde08d805da60bc4c05b11ae84c3d5d1366b439fad",
+          "expectedRawSha256": "543c6a5c986d570aa7abae2012fc21ee3b2fdba4dea44f972ce5727a75716f67",
+          "expectedRenderedSha256": "3b7c098b93674f36eadd68462f9616e8417fe982819bef659dbf83d8451924c9"
+        },
+        {
+          "action": "blank-columns",
+          "row": 10,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 79
+            }
+          ],
+          "sha256": "5d5242117f66c980afd48d3515125d75c24dd186e622a22153eecb958f01270a",
+          "expectedRawSha256": "b1b3f0785c39e96c28ac0162c3e5fea56b5c56d23797acc84cbce5c5121ae10e",
+          "expectedRenderedSha256": "2db5f6c3654c5f7022ba9d47bd77f5e00673a502651bbb4682bb910b41dc1869"
+        },
+        {
+          "action": "blank-columns",
+          "row": 12,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 77
+            }
+          ],
+          "sha256": "5810c4b0443221d075215f70bcf619e626fdce01c9262ed3c3cfcb3c23341545",
+          "expectedRawSha256": "32879add2ce5bbdf99550ddb61cd85e989e811a4c21068aab92aa7bad4e76956",
+          "expectedRenderedSha256": "6421912c595200536fa1852032c90b46115b171275bccea0f0ae124891ce196a"
+        },
+        {
+          "action": "blank-columns",
+          "row": 13,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 73
+            }
+          ],
+          "sha256": "4a25d5a7c9cfd63ba9ce8d119ea7983e16e9e553f62e8ea117b42537a26f107a",
+          "expectedRawSha256": "54d3f95e83c1ea7ce853c9ff016c8d91eb7ad8fddac08c501722304209411f64",
+          "expectedRenderedSha256": "2a94fdaab3168b804a464188063ba7bd21a81720aeb4f27e7ddbae75bd13d775"
+        },
+        {
+          "action": "blank-columns",
+          "row": 14,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 78
+            }
+          ],
+          "sha256": "56fcf4dd16e3eedf398a7126a5616189fd960e42b1d969b3a92ca0db2f066553",
+          "expectedRawSha256": "7176fddf108cc26e1f4cc1a2a98362fbdf3e1f45b6b6f215119bf96f23fb213b",
+          "expectedRenderedSha256": "64ab81e5fd3f262156458330404d337f1ff1757649f20b8cb7287ff9b8f55a24"
+        },
+        {
+          "action": "blank-columns",
+          "row": 15,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 75
+            }
+          ],
+          "sha256": "60cad2f9da80602acad83eb4d32c7a1995ee3f675a1c89777282f188fb8ab622",
+          "expectedRawSha256": "6cd2b39ba0056416c5668a8bc60e392a999b597d600be110c9e501660a635abf",
+          "expectedRenderedSha256": "97eb61d7666f5b0cc2893218cbd180e6e62116a38aaf67a0afb592d1f9942ea9"
+        },
+        {
+          "action": "blank-columns",
+          "row": 16,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 78
+            }
+          ],
+          "sha256": "27905c08edcbfc5b9ea40f2854a12e3cbed9b5f498d5b4db53f23031d24db554",
+          "expectedRawSha256": "418a032c210b27040ad7f0e81f7a68478c9ccb6352af3517e15f100cb6913e70",
+          "expectedRenderedSha256": "cbf8c543b778408951fd6d1ebbf007695d181201d19ecdccb3bbee09e1b8f5cc"
+        },
+        {
+          "action": "blank-columns",
+          "row": 17,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 79
+            }
+          ],
+          "sha256": "401cfe2cb2f47b9c16c26544092ebee00d81db1dca70cff097c71871d91deb12",
+          "expectedRawSha256": "8efbcad666e27d3133c9a1473817493163e732cc4415175f49eb3521ce43b271",
+          "expectedRenderedSha256": "4339e67f42fdb509c2f6aa70b66f1d7101e2b07edd31ad754a4a3f815e1e5427"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "candidateFiles": 1,
+    "evidenceRows": 11,
+    "categoryRows": {
+      "batch92-creator-process-commentary": 11
+    }
+  },
+  "schemaVersion": 1,
+  "status": "ready"
+}

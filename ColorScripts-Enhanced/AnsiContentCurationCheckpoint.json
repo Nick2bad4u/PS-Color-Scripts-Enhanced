@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 49804,
+        "totalRowsBlanked": 49815,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 15845,
+        "residualMixedTextRowsBlanked": 15856,
         "residualMixedTextTrailingRowsRemoved": 214,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -173,6 +173,7 @@
         "mixedTextLedger89": "AnsiResidualMixedTextReviewLedger89.json",
         "mixedTextLedger90": "AnsiResidualMixedTextReviewLedger90.json",
         "mixedTextLedger91": "AnsiResidualMixedTextReviewLedger91.json",
+        "mixedTextLedger92": "AnsiResidualMixedTextReviewLedger92.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -182,8 +183,8 @@
         "advertisementWorksRemoved": 8,
         "advertisementScriptsRemoved": 27,
         "reviewedRetentions": 3,
-        "mixedTextFilesRedacted": 78,
-        "mixedTextRowsBlanked": 618,
+        "mixedTextFilesRedacted": 79,
+        "mixedTextRowsBlanked": 629,
         "mixedTextTrailingRowsRemoved": 1,
         "mixedTextPass2FilesRedacted": 755,
         "mixedTextPass2RowsBlanked": 1629,
@@ -455,6 +456,9 @@
         "mixedTextPass91FilesRedacted": 1,
         "mixedTextPass91RowsBlanked": 4,
         "mixedTextPass91TrailingRowsRemoved": 0
+        ,"mixedTextPass92FilesRedacted": 1
+        ,"mixedTextPass92RowsBlanked": 11
+        ,"mixedTextPass92TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
