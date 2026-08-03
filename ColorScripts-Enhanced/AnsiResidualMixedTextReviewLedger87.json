@@ -1,0 +1,29 @@
+{
+  "batch": 87,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch87-duplicated-direct-contact-panel",
+      "file": "16c-acdu0694-bk-td-part01.ps1",
+      "rationale": "The four right-edge spans are a separable direct-contact panel; the exact-cell edits retain the entire left-side ANSI composition.",
+      "reviewSources": ["temp/text-blanking-continuation/batch87-ledger.json"],
+      "evidence": [
+        {"action":"blank-columns","row":10,"columnRanges":[{"start":57,"end":78}],"sha256":"4909cf939f42b9e1964f8ef4bb5f7cd44073cc874ad2cc023ec907255686714d","expectedRawSha256":"972de7f149cfa4cd71366fa3cd52f5119ca84975ff9374055ce4379b94672859","expectedRenderedSha256":"68b724b3beeea718cd0a84aded27b288d743ea304daa7ffdd6fc4b68a0a38744"},
+        {"action":"blank-columns","row":11,"columnRanges":[{"start":59,"end":78}],"sha256":"59f797916eff6b54284dff2ca112a996b3eb07ffbf6ecb18c85221dc88f67682","expectedRawSha256":"3a3375ffa277b44c47c501e2b12cb9070fe3d05443da48c371dec5d7b4cb0de7","expectedRenderedSha256":"415be76e6d67f81c1504bebc07ae2d4dc84fbbed653343cb19c4b0a937e4f62e"},
+        {"action":"blank-columns","row":12,"columnRanges":[{"start":60,"end":78}],"sha256":"8fd156f78e65fa2cfb84c4bb6fd8b249389155c1edad52e93e92a015ee4d667c","expectedRawSha256":"cd8b387f7b6a12a1d71dfd635c4593977f9a9b538e969a8dbed38f507729b8e3","expectedRenderedSha256":"f62ae6e84badf82ca48e4ba4ea5f15a4fe59c61a9b47e026f8c8187b774f68f7"},
+        {"action":"blank-columns","row":13,"columnRanges":[{"start":61,"end":65}],"sha256":"f7380f6f5ee84e3bb8018ad5fad282f6ffb6668ed34fd4ae2e3568528da79eaf","expectedRawSha256":"2c95e991703785d201555aa49cd2be866e325e39d2f8c13b4a24f36e66de9ef0","expectedRenderedSha256":"b4c1e90a2d6ed782a264234eca0f4a3d4b514739203f49d5b9fcbc7efcb975d6"}
+      ]
+    },
+    {
+      "action": "blank-columns", "category": "batch87-duplicated-direct-contact-panel", "file": "16c-acdu0894-bk-soe-part01.ps1",
+      "rationale": "This source has the same four-row direct-contact panel and the same safe terminal-cell boundaries.", "reviewSources": ["temp/text-blanking-continuation/batch87-ledger.json"],
+      "evidence": [
+        {"action":"blank-columns","row":10,"columnRanges":[{"start":57,"end":78}],"sha256":"4909cf939f42b9e1964f8ef4bb5f7cd44073cc874ad2cc023ec907255686714d","expectedRawSha256":"972de7f149cfa4cd71366fa3cd52f5119ca84975ff9374055ce4379b94672859","expectedRenderedSha256":"68b724b3beeea718cd0a84aded27b288d743ea304daa7ffdd6fc4b68a0a38744"},
+        {"action":"blank-columns","row":11,"columnRanges":[{"start":59,"end":78}],"sha256":"59f797916eff6b54284dff2ca112a996b3eb07ffbf6ecb18c85221dc88f67682","expectedRawSha256":"3a3375ffa277b44c47c501e2b12cb9070fe3d05443da48c371dec5d7b4cb0de7","expectedRenderedSha256":"415be76e6d67f81c1504bebc07ae2d4dc84fbbed653343cb19c4b0a937e4f62e"},
+        {"action":"blank-columns","row":12,"columnRanges":[{"start":60,"end":78}],"sha256":"8fd156f78e65fa2cfb84c4bb6fd8b249389155c1edad52e93e92a015ee4d667c","expectedRawSha256":"cd8b387f7b6a12a1d71dfd635c4593977f9a9b538e969a8dbed38f507729b8e3","expectedRenderedSha256":"f62ae6e84badf82ca48e4ba4ea5f15a4fe59c61a9b47e026f8c8187b774f68f7"},
+        {"action":"blank-columns","row":13,"columnRanges":[{"start":61,"end":65}],"sha256":"f7380f6f5ee84e3bb8018ad5fad282f6ffb6668ed34fd4ae2e3568528da79eaf","expectedRawSha256":"2c95e991703785d201555aa49cd2be866e325e39d2f8c13b4a24f36e66de9ef0","expectedRenderedSha256":"b4c1e90a2d6ed782a264234eca0f4a3d4b514739203f49d5b9fcbc7efcb975d6"}
+      ]
+    }
+  ],
+  "normalization":"SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming.","pendingInputs":[],"policy":"Fail-closed direct-contact review; retain all non-selected artwork and terminal state.","priorRedactionExtensions":["16c-acdu0694-bk-td-part01.ps1:10-13","16c-acdu0894-bk-soe-part01.ps1:10-13"],"priorRetentionSupersessions":[],"reviewedAt":"2026-08-03","schemaVersion":1,"status":"ready","summary":{"acceptedDetectorCues":1,"blankColumnRows":8,"candidateFiles":2,"candidateGroups":1,"categoryRows":{"batch87-duplicated-direct-contact-panel":8},"changedCells":132,"detectorAcceptedRows":8,"detectorFiles":2,"detectorRows":8,"evidenceRows":8,"familyExtensions":4,"parseFailures":0,"retainedDetectorRows":0,"staticFiles":24801}
+}
