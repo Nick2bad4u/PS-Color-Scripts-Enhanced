@@ -5,7 +5,7 @@
 # Source SHA-256: 52e1251fda30f90769a88d5a661e63d2e37f50b3c14ea68809bb50d0d5edab66
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RB-PMAIN.ANS by Rebal (avenge); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: Matrix
 # SAUCE Author: Rebal
 # SAUCE Group: avenge
@@ -31,7 +31,7 @@ Write-Host '
 [1;34;44m█▄[0;34m▄[0;37m [0;1;30m▀▌[0m [33m ███████[0;33;46m▓[0;36;43m░[0;33;40m███████████[0;1;31;43m▄ ▄█[0;1;31;40m████[0;1;31;47m▓[0;1;31;40m████████████[0m   [34m▄▄▄▄▄▓░[0;32m [0;1;33m.. directors[0;32m [0;34m█▀▀▀[0;32m  [0m
 [1;34;47m▓[0;1;34;44m█▀[0;34m▀[0;37m [0;1;30m▄[0m  [33m █████████[0;36;43m░[0;33;46m▓[0;33;40m███████████[0;1;31;43m▐[0;1;31;40m████[0;1;31;47m▓[0;1;31;40m█████████[0;1;31;47m▓▒[0m   [34m▄▄▄[0;1;34;44m▄█▄[0;34m▄▄[0;32m [0;1;33m.. articles[0;32m  [0;1;34;44m▄▓[0;34m▄▄[0;32m  [0m
 [34m▄▐[0;1;34;44m█[0;34m▀[0m     [33m ██████████[0;33;46m▓[0;33;40m██████████[0;1;31;40m▀▀▀████████████[0;1;31;47m▓[0m  [34m▀█[0;1;34;44m▀[0;34m▌▄[0;1;34;44m▌[0;34m▀▀▀[0;32m  [0;1;33m.. reviews[0;32m   [0;34m▐[0;1;34;44m▄▄[0;34m▄▄▄[0m
-[34m▐[0;1;34;44m▄█▄▓ [0;34m▄▄[0;37m  [0;33m █████████████████[0;1;30;43m░[0;33m▀[0;37m▄[0;1;37;47m▄[0;1;37;40m██▄[0;1;31;40m ▀█████████[0m  [34m▄▄▄▄[0;1;34;44m▄█▄█▀[0;34m▌[0;32m  [0;1;33m..[0;32m [0;1;33mtop fucks[0;32m [0;34m▄▀[0;1;34;44m▌[0;34m▀▀[0;32m [0m
+[34m▐[0;1;34;44m▄█▄▓ [0;34m▄▄[0;37m  [0;33m █████████████████[0;1;30;43m░[0;33m▀[0;37m▄[0;1;37;47m▄[0;1;37;40m██▄[0;1;31;40m ▀█████████[0m  [34m▄▄▄▄[0;1;34;44m▄█▄█▀[0;34m▌[0;32m  [0;1;33m..[0;32m [0;1;33mtop      [0;32m [0;34m▄▀[0;1;34;44m▌[0;34m▀▀[0;32m [0m
 [32m [0;1;34;44m▐▌[0;34m▀[0;32m [0;1;34;44m▄[0;34m▄▄▄▄[0;37m [0;33m ██████████████[0;1;30;43m░[0;33m▄▄[0;37m▀[0;1;37m▀▀[0;1;31m▄▄▄████████[0;1;31;47m▓[0;1;31;40m█[0m [34m▄▄▄[0;1;34m▄[0;1;34;44m▄█▀[0;34m▀[0;1;34;44m▀[0;34m▄▄▀[0;32m  [0;1;33m.. blow load[0;32m [0;34m▀▀[0;1;34;44m▀▌[0;34m▄█[0m
 [32m [0;1;34;44m▄█▄░[0;34m▀▀▀[0m    [33m ▀██████████████████▀▀[0;1;31m▀███████[0;1;31;47m▓▓[0m   [34m▄▄▄▄[0;1;34;44m▄[0;34m▄▐[0;1;34;44m▀▀[0;1;34;47m▓[0;1;34;44m█▄[0;34m▄▄▀▀[0;1;34;44m░▀█▀▀[0;34m▀▀▄▄▄[0;1;34;44m▄[0;34m▀▀▀▄[0;32m [0m
 [34m▐[0;1;34;44m▄█▀▀[0;34m█▀▀▀ [0m   [33m▄[0;37m [0;33m▀███████████████▄▄[0;1;31;43m░▄▄[0;1;31;40m███████[0m ▄▄   [34m ▀▀▀▀▀▓▓▓[0;1;34;44m▄▄█▄▄[0;34m▄[0;1;34;44m▄▐[0;34m█▄[0;1;34;44m▄██▀▀▄▄▄▄▄[0;34m█[0m
