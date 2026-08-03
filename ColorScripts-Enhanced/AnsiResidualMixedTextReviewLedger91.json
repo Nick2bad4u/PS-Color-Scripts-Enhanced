@@ -1,0 +1,87 @@
+{
+    "batch": 91,
+    "candidates": [
+        {
+            "action": "blank-columns",
+            "category": "batch91-creator-contact-aside",
+            "file": "16c-flux-003-md-l.ps1",
+            "rationale": "The selected cells are a separable creator aside containing a complete e-mail address and closing salutation. The logo, its frame, the decorative block glyphs interleaved with the text, and the retained title remain intact.",
+            "reviewSources": [
+                "temp/text-blanking-continuation/batch91-ledger.json"
+            ],
+            "evidence": [
+                {
+                    "action": "blank-columns",
+                    "row": 9,
+                    "columnRanges": [
+                        { "start": 25, "end": 27 },
+                        { "start": 36, "end": 55 }
+                    ],
+                    "sha256": "1dfd18468fa46d89d4f7af345307a3e3126b2083fe60f25950eb288638a46398",
+                    "expectedRawSha256": "dd629f7165b254eeed6426d967c49eb9afe23e3401f3e70ad97ad3f8fc78cb0f",
+                    "expectedRenderedSha256": "08ec1082bc3698935d2febe87f15bd03d0001000f9d56734f0f3824e59b10a51"
+                },
+                {
+                    "action": "blank-columns",
+                    "row": 10,
+                    "columnRanges": [
+                        { "start": 42, "end": 44 },
+                        { "start": 46, "end": 46 },
+                        { "start": 48, "end": 55 }
+                    ],
+                    "sha256": "0f2a4b3c3f13f6e67883da7f2bc5f67e7d22527e21c25b206b9ab986492b561c",
+                    "expectedRawSha256": "96aaf2baaa49ea4cbc4b2862b8ee7c5ab562c6a35275cccbb6ab86dd13bf0c31",
+                    "expectedRenderedSha256": "dd034958194a5260d75e1fde3ff92bd77c74ec15b381d542bf23a3e7a58bdf5e"
+                },
+                {
+                    "action": "blank-columns",
+                    "row": 11,
+                    "columnRanges": [
+                        { "start": 42, "end": 55 }
+                    ],
+                    "sha256": "8ed69057689800f7e4994cbfff994e49edffb170df5e0ed48f2862c5b77fecba",
+                    "expectedRawSha256": "34394e0228fbf2ea649680b7230f4815dca17d79393e66eba19ab4228108015b",
+                    "expectedRenderedSha256": "c6e8823fdb70fe507e65b1d50d1f8105e701d708437e99cb645b7e2c7087e844"
+                },
+                {
+                    "action": "blank-columns",
+                    "row": 12,
+                    "columnRanges": [
+                        { "start": 44, "end": 52 }
+                    ],
+                    "sha256": "7034e13285f30e3e0f73c9f043732f8656619a7820edfb5c78fa49dc233e93fe",
+                    "expectedRawSha256": "8585b384e6da9840ca32ab816ed9208ce35a55a3818b5b18535d3536a2381f62",
+                    "expectedRenderedSha256": "60b2ab106d29173cb03077673f9a81ed37f5ede0d24c3ba2aa463f2cd3fe386d"
+                }
+            ]
+        }
+    ],
+    "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming.",
+    "pendingInputs": [],
+    "policy": "Fail-closed review accepts only a separable creator contact aside and closing salutation; the logo title, frame, decorative glyphs, and terminal art remain retained.",
+    "priorRedactionExtensions": [
+        "16c-flux-003-md-l.ps1:9-12"
+    ],
+    "priorRetentionSupersessions": [],
+    "reviewedAt": "2026-08-03",
+    "schemaVersion": 1,
+    "status": "ready",
+    "summary": {
+        "acceptedDetectorCues": 4,
+        "blankColumnRows": 4,
+        "candidateFiles": 1,
+        "candidateGroups": 1,
+        "categoryRows": {
+            "batch91-creator-contact-aside": 4
+        },
+        "changedCells": 58,
+        "detectorAcceptedRows": 4,
+        "detectorFiles": 1,
+        "detectorRows": 4,
+        "evidenceRows": 4,
+        "familyExtensions": 0,
+        "parseFailures": 0,
+        "retainedDetectorRows": 0,
+        "staticFiles": 24801
+    }
+}
