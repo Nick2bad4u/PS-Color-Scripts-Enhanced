@@ -5,7 +5,7 @@
 # Source SHA-256: c18b23ee68942ff77af4d7ffaf90e65f44d13124a8dc1c55ce4e80548075bba2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-CHIP.ANS by sammael (art); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: chip's challenge
 # SAUCE Author: sammael
 # SAUCE Group: art
@@ -17,7 +17,7 @@
 Write-Host '
 [1;36m████████████████████████████████[0m  [1;36m████████████████████████████████[0m
 [1;36m███████████████[0m    [1;36m█████████████[0m  [1;36m███████████████[0m    [1;36m█████████████[0m  for all you
-[1;36m██[0;1;34m███████████[0m  [33m████[0;1;34m   ████████[0;1;36m██[0m  [1;36m██[0;1;34m███████████[0m  [33m████[0;1;34m   ████████[0;1;36m██[0m  morons that
+[1;36m██[0;1;34m███████████[0m  [33m████[0;1;34m   ████████[0;1;36m██[0m  [1;36m██[0;1;34m███████████[0m  [33m████[0;1;34m   ████████[0;1;36m██[0m         that
 [1;36m██[0;1;34m██████████ [0;33m██████[0;1;30m█[0;33m█[0;34m [0;1;34m████████[0;1;36m██[0m  [1;36m██[0;1;34m██████████ [0;33m██████[0;1;30m█[0;33m█[0;34m [0;1;34m████████[0;1;36m██[0m  don''t  know
 [1;36m██[0;1;34m██[0;34m██[0;36m  [0;34m████[0;1;34m [0;33m██████[0;1;30m█[0;33m█[0;1;34m [0;34m████[0;36m  [0;1;34m██[0;1;36m██[0m  [1;36m██[0;1;34m██[0;34m████████[0;1;34m [0;33m██████[0;1;30m█[0;33m█[0;1;34m [0;34m██████[0;1;34m██[0;1;36m██[0m  what   this
 [1;36m██[0;1;34m██[0;34m█[0;36m [0;1;37m█[0m█[36m [0;34m██[0;37m [0;33m███████[0;1;34m [0;33m██[0;1;34m [0;34m██[0;36m [0;1;37m█[0m█[36m [0;1;34m█[0;1;36m██[0m  [1;36m██[0;1;34m██[0;34m███████[0;37m [0;33m███████[0;1;34m [0;33m██[0;1;34m [0;34m█████[0;1;34m██[0;1;36m██[0m  is,  it  is

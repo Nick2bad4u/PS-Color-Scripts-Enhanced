@@ -5,7 +5,7 @@
 # Source SHA-256: 87d4fb8256ff732bf24eacbaad619905c78e224dcfc32e501ecc7b4ffdbac639
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D3!-SELF.ANS by debauch (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: self_recognition
 # SAUCE Author: debauch
 # SAUCE Group: air
@@ -33,5 +33,5 @@ Write-Host '
      [34m `²XXs.s$$$$$$ [0;37m [0;32m$$.[0;37m  [0;32m .[0m   [32m.s$$$²''[0m
                [34m`$$$.[0;37m [0;32m`$$s...sS$$$²''[0m
                 [34m`²½$[0;37m  [0;32m`²$$$$$$²''[0m    [1;30mD3![0m
-                   [34m"².[0m            [37m-[0;1;30mcrud[0m-
+                   [34m"².[0m            [37m-[0;1;30m    [0m-
                        [34m`[0m    [34m.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 14b546bdfea636019864f3d83a85f7f7b19ea6675dcc3ea1834e43ebbd711c59
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FNBNE-04.ANS by fonebone (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: [] \[[[[[[[[[[[[[[[[[[[[[[[]^\0
 # SAUCE Author: fonebone
 # SAUCE Date: 19960917
@@ -30,7 +30,7 @@ Write-Host '
 [36m████████████████████████████████▄[0;37m [0;1;31m██▓▄▄▄[0;1;31;47m▓▓░▓[0;1;31;43m█▓░[0;1;31;40m▐██████████████▓▓▓░░[0;1;31;46m▓▓ ▒[0;36m████████[0m
 [36m█████████████████████████████████▄[0;37m [0;1;31m█████ █[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m▓░[0;1;31;40m ███████████████████[0m [1;31;46m   [0;36m█████████[0m
 [36m██▓▀▀▀▀[0m                   [36m▀▀▀▓████▌[0;1;31m▐████▓▄▀[0;33m▀▀[0;1;31m▄▓████████████████[0;1;31;43m▀[0;1;31;40m█▌[0;36m▄████████[0;1;36;46m░░[0;36m██[0m
-[36m█▀[0m     [1;35myou damned kids[0;35m!@?#[0m    [36m█████[0;37m [0;1;31m▓██████▀▀▀▀▀▀▀▀▀▀███████████[0;1;31;43m [0m [36m▐████████[0;1;36;46m░░[0;36m██[0m
+[36m█▀[0m     [1;35myou        kids[0;35m!@?#[0m    [36m█████[0;37m [0;1;31m▓██████▀▀▀▀▀▀▀▀▀▀███████████[0;1;31;43m [0m [36m▐████████[0;1;36;46m░░[0;36m██[0m
 [36m▌[0m   [1;35mget off my f[0;35m*@$[0;1;35ming lawn[0;35m!#[0;37m [0;36m▐████[0;37m [0;1;31m██▀▀[0m          ░ [1;31m ▄██████[0;1;31;43m▓[0;1;31;40m██[0;1;31;43m▌[0;33m▓▌[0;36m▀████████[0;1;36;46m░░[0;36m██[0m
 [36m█▄[0m                         [36m▄▄▓▄▄▄▓▌[0;1;31m▐█[0;1;31;47m▓[0;1;31;40m█▄[0m░▄        ▄ [1;31m▐███████[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▀ [0;33m▓[0;37m [0;1;31m░[0;36m████████████[0m
 [36m█████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████████[0;1;31m █[0;1;31;47m▓[0;1;31;40m██▄[0m▀▀[1;47m░░[0m▄▄▄[1m▓[0m█▀[1;31m▄███████[0;1;31;43m█▓▓ [0;33m▀[0;37m [0;36m▄█████▀▀▀▀▀ [0;1;37m▄▄[0;36m [0m
