@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 49776,
+        "totalRowsBlanked": 49777,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 15816,
+        "residualMixedTextRowsBlanked": 15818,
         "residualMixedTextTrailingRowsRemoved": 214,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -165,6 +165,7 @@
         "mixedTextLedger81": "AnsiResidualMixedTextReviewLedger81.json",
         "mixedTextLedger82": "AnsiResidualMixedTextReviewLedger82.json",
         "mixedTextLedger83": "AnsiResidualMixedTextReviewLedger83.json",
+        "mixedTextLedger84": "AnsiResidualMixedTextReviewLedger84.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -422,7 +423,10 @@
         "mixedTextPass82TrailingRowsRemoved": 2,
         "mixedTextPass83FilesRedacted": 1,
         "mixedTextPass83RowsBlanked": 1,
-        "mixedTextPass83TrailingRowsRemoved": 0
+        "mixedTextPass83TrailingRowsRemoved": 0,
+        "mixedTextPass84FilesRedacted": 1,
+        "mixedTextPass84RowsBlanked": 2,
+        "mixedTextPass84TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
@@ -526,6 +530,7 @@
         "An eighty-third hash-locked mixed-text review exhausted 28 apology, gratitude, hope, enjoyment, self-correction, tentative, direct-plea, and self-deprecation coordinates across 28 files after scanning all 24,801 static scripts with no parse failures. Complete-composition, neighboring-row, introduction-commit preimage, and prior-ledger review retained 21 detector rows as dedications, credits, functional prompts, titles, identity, authored dialogue or narrative, slogans, structural lettering, art-integrated words, or ambiguity. Seven detector rows plus eleven coherent family extensions removed only historically orphaned fragments of creator prose and a generic audience signoff. Independent comparison against the committed preimage verified 18 exact one-based source-cell projections and 209 changed cells across seven scripts while preserving all 232 untargeted payload rows byte-for-byte, every ANSI control sequence, every unselected cell, width, and row coordinate; no rows were removed or compacted.",
         "An eighty-fourth hash-locked mixed-text review exhausted 22 interjection and exclamation coordinates across 21 files after scanning all 24,801 static scripts with no parse failures. Complete-composition and introduction-commit review retained 19 detector rows as artist handles, titles, identity, dialogue, narrative, captions, slogans, structural lettering, art-integrated words, or ambiguity. Three isolated creator reactions or separator fillers were blanked across three scripts. Independent comparison against the committed preimage verified three exact one-based source-cell projections and 17 changed cells while preserving all nonblank retained terminal rows, ANSI controls, palette, and cell geometry; the standard curation tail trim removed two rendered-blank suffix rows from one source after its standalone reaction was blanked.",
         "An eighty-fifth hash-locked mixed-text review exhausted 51 informal-reaction and laughter coordinates across 29 files after scanning all 24,801 static scripts with no parse failures. Complete-composition, introduction-commit, and current-corpus review retained 50 detector rows as titles, artist identity, dialogue, visual screens, captions, slogans, structural lettering, art-integrated words, or ambiguity. One generic group-reaction aside was blanked from a source whose adjacent creator commentary had already been removed. Exact preimage projection verified one one-based source-cell span and 17 changed cells while retaining all remaining rows, ANSI controls, palette, and terminal-cell geometry.",
+        "An eighty-sixth hash-locked mixed-text review exhausted 19 creator-production coordinates across 19 files after scanning all 24,801 static scripts with no parse failures. Complete-composition and introduction-commit review retained 18 detector rows as titles, attribution or credits, dialogue, structural text, art-integrated words, or ambiguity. One detector row plus its coherent completion row removed only the separable \"I did this / pic REALLY fast..\" creator-production aside. Exact preimage projection verified two one-based source-cell spans and 27 changed cells while retaining all remaining rows, ANSI controls, palette, and terminal-cell geometry; no rows were removed or compacted.",
         "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
         "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
     ],
