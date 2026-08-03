@@ -364,6 +364,18 @@ test("blankTextColumns preserves the CP437 bullet art cell", () => {
     );
 });
 
+test("blankTextColumns preserves CP437 accented art cells", () => {
+    const input = "ÑÇ crap";
+    const output = blankTextColumns(input, [{ end: 7, start: 4 }]);
+
+    assert.equal(output, "ÑÇ     ");
+    assert.equal([...output].length, [...input].length);
+    assert.throws(
+        () => blankTextColumns(input, [{ end: 1, start: 1 }]),
+        /terminal-art/u
+    );
+});
+
 test("blankTextColumns rejects ambiguous or destructive ranges", () => {
     assert.throws(() => blankTextColumns("text", []), /non-empty/u);
     assert.throws(
@@ -788,7 +800,7 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.removals.adultContentWorks, 21);
     assert.equal(checkpoint.policyReview.adultTaggedWorksRetained, 9);
     assert.equal(checkpoint.policyReview.adultTaggedScriptsRetained, 13);
-    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 49938);
+    assert.equal(checkpoint.contentCleanup.totalRowsBlanked, 49939);
     assert.equal(checkpoint.contentCleanup.totalTrailingRowsRemoved, 23973);
     assert.equal(
         checkpoint.contentCleanup.highConfidenceGeometryRowsRemoved,
@@ -798,7 +810,7 @@ test("content curation checkpoint matches the retained gallery state", () => {
     assert.equal(checkpoint.contentCleanup.residualContentRowsRemoved, 6);
     assert.equal(checkpoint.contentCleanup.residualGeometryRowsRemoved, 77);
     assert.equal(checkpoint.contentCleanup.contactOrPromotionalRowsBlanked, 646);
-    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 15979);
+    assert.equal(checkpoint.contentCleanup.residualMixedTextRowsBlanked, 15980);
     assert.equal(
         checkpoint.contentCleanup.residualMixedTextTrailingRowsRemoved,
         214
