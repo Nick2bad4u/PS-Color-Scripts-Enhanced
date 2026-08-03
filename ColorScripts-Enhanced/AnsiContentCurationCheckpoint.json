@@ -17,7 +17,7 @@
         "initialPolicyRows": 1013,
         "initialRowsBlankedAfterOverlapDeduplication": 32051,
         "expandedPolicyRows": 265,
-        "totalRowsBlanked": 49783,
+        "totalRowsBlanked": 49791,
         "initialTrailingRows": 5152,
         "trailingRowsExposedByInitialTextCleanup": 17765,
         "trailingRowsExposedByExpandedPolicyCleanup": 20,
@@ -33,7 +33,7 @@
         "residualCompactedRows": 1,
         "residualTrailingRowsRemoved": 3,
         "residualGeometryRowsRemoved": 77,
-        "residualMixedTextRowsBlanked": 15824,
+        "residualMixedTextRowsBlanked": 15832,
         "residualMixedTextTrailingRowsRemoved": 214,
         "rebalancedFamilies": 26,
         "rebalancedScripts": 134,
@@ -168,6 +168,7 @@
         "mixedTextLedger84": "AnsiResidualMixedTextReviewLedger84.json",
         "mixedTextLedger85": "AnsiResidualMixedTextReviewLedger85.json",
         "mixedTextLedger86": "AnsiResidualMixedTextReviewLedger86.json",
+        "mixedTextLedger87": "AnsiResidualMixedTextReviewLedger87.json",
         "geometryManifest": "AnsiResidualGeometryReviewManifest.json",
         "candidateFilesRedacted": 41,
         "contentRowsBlanked": 148,
@@ -434,7 +435,10 @@
         "mixedTextPass85TrailingRowsRemoved": 0,
         "mixedTextPass86FilesRedacted": 1,
         "mixedTextPass86RowsBlanked": 5,
-        "mixedTextPass86TrailingRowsRemoved": 0
+        "mixedTextPass86TrailingRowsRemoved": 0,
+        "mixedTextPass87FilesRedacted": 2,
+        "mixedTextPass87RowsBlanked": 8,
+        "mixedTextPass87TrailingRowsRemoved": 0
     },
     "notes": [
         "Twenty-one passthrough scripts retain their original source-significant trailing rows and are excluded from mutating content cleanup by an explicit Source Conversion Mode marker.",
