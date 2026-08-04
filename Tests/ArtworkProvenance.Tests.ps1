@@ -59,6 +59,9 @@ fs.writeFileSync(process.argv[3], reader.serializeArtworkProvenanceJson(provenan
         }
         $script:Checkpoint = Read-JsonFile -LiteralPath $script:CheckpointPath
         $script:ImportedPrefixes = @('16c-', 'asciiville-', 'botany-', 'durdraw-', 'os-ansi-', 'roy-sac-')
+        $script:IntegralTypes = @(
+            [byte], [sbyte], [int16], [uint16], [int32], [uint32], [int64], [uint64]
+        )
         $script:ImportedScriptFiles = @(Get-ChildItem -LiteralPath $script:ScriptsRoot -File -Filter '*.ps1' | Where-Object {
                 $name = $_.BaseName
                 @($script:ImportedPrefixes | Where-Object { $name.StartsWith($_, [System.StringComparison]::OrdinalIgnoreCase) }).Count -gt 0
@@ -148,7 +151,9 @@ fs.writeFileSync(process.argv[3], reader.serializeArtworkProvenanceJson(provenan
                     if ($null -ne $entry.SauceDimensions) {
                         $entry.SauceDimensions | Should -Match '^[1-9]\d*x[1-9]\d*$'
                     }
-                    $entry.SauceFlags | Should -BeOfType ([int])
+                    $entry.SauceFlags.GetType() | Should -BeIn $script:IntegralTypes
+                    $entry.SauceFlags | Should -BeGreaterOrEqual 0
+                    $entry.SauceFlags | Should -BeLessOrEqual 255
                     if ($null -ne $entry.SauceFont) {
                         $entry.SauceFont | Should -BeOfType ([string])
                         $entry.SauceFont | Should -Match '^[\x20-\x7e]+$'
