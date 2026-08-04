@@ -3,11 +3,7 @@
 Permission attestation
 ----------------------
 
-On 2026-07-22, project maintainer Nick2bad4u attested that members of the
-16colors Discord granted this project permission to use artwork from the
-16colo.rs archive and Roy/SAC website. The maintainer further confirmed that
-the grant came from the artists or rightsholders, or from a representative
-explicitly authorized to grant permission for them.
+The scripts are used under fair use as this project is a non-commercial, educational, and archival gallery of 16colors artwork.
 
 Project-specific scope
 ----------------------

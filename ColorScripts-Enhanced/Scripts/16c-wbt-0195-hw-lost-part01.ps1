@@ -5,7 +5,7 @@
 # Source SHA-256: a1aa0878c5f6b46bef9047d7082cf6e7dfe7305da78fb555d51aa8e285149f63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HW-LOST.ANS by Heat Wave (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
 # SAUCE Title: The Lost Realms
 # SAUCE Author: Heat Wave
 # SAUCE Group: WBT/SHiVER
