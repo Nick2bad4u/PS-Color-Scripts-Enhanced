@@ -1,6 +1,7 @@
 "use strict";
 
 const assert = require("node:assert/strict");
+const childProcess = require("node:child_process");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
@@ -44,6 +45,35 @@ const SCRIPTS_DIRECTORY = path.join(
     "ColorScripts-Enhanced",
     "Scripts"
 );
+
+test("hash-locked artwork files disable Git line-ending conversion", () => {
+    const paths = [
+        "ColorScripts-Enhanced/Scripts/16c-0196ciph-ad-ciph1.ps1",
+        "ColorScripts-Enhanced/Scripts/botany-sunflower.ps1",
+        "audit/ArtworkHeaderMigration.json",
+        "audit/ArtworkProvenance.psd1",
+        "docs/assets/artwork-provenance.json",
+    ];
+    const output = childProcess.execFileSync(
+        "git",
+        ["check-attr", "-z", "text", "--", ...paths],
+        {
+            cwd: REPOSITORY_ROOT,
+            encoding: "utf8",
+        }
+    );
+    const fields = output.split("\0");
+    fields.pop();
+
+    assert.equal(fields.length, paths.length * 3);
+    for (let index = 0; index < fields.length; index += 3) {
+        const filePath = fields[index];
+        const attribute = fields[index + 1];
+        const value = fields[index + 2];
+        assert.equal(attribute, "text");
+        assert.equal(value, "unset", `${filePath} must be marked -text`);
+    }
+});
 
 test("unmapped-script hashes ignore checkout-only CRLF conversion", () => {
     const lf = Buffer.from("first\nsecond\n", "utf8");
