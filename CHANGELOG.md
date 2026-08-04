@@ -190,6 +190,8 @@
 
 ### 🛠️ Bug Fixes
 
+- [`c0a5fb7`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/c0a5fb709f0ad0394da94b10ced671185313bda7 "Diff: 2 files, +2 | -2") — Preserve UTF-8 parsing for Durdraw artwork <sub><em>(2 files, +2, -2)</em></sub>
+
 - [`ba4713d`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/ba4713d0ef00680e710d609d74a2b31acf85c587 "Diff: 1 file, +6 | -1") — 🛠️ [fix] Accept platform-native JSON integers <sub><em>(1 file, +6, -1)</em></sub>
 
 🔢 Validate SAUCE flags as bounded integral CLR values instead of requiring a parser-specific Int32 representation.
