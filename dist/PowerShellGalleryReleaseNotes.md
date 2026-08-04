@@ -1,6 +1,6 @@
 ## ✨ What's Changed
 
-- <b>Commit Range: ➡️</b> [`v2026.7...fd1cc6d`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.2250...fd1cc6d2fd86ac66641227790e5efa2a47f5d65f "View full commit range on GitHub")
+- <b>Commit Range: ➡️</b> [`v2026.7...843ac10`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.2250...843ac108904b8ba87f1fa3dfb8a4ec8663fa2e73 "View full commit range on GitHub")
 
 ### ✨ Features
 
@@ -1682,6 +1682,16 @@ Keep every mirrored generated count marker aligned and verify the Gallery README
 - [`d0b6088`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/d0b6088f54dd63b6cb003f0efc5255cc21e49a77 "Diff: 1 file, +6 | -6") — ⬆️ [build] Update dependabot_all-a846e8a06a dependencies <sub><em>(1 file, +6, -6)</em></sub>
 
 ### 🛡️ Security
+
+- [`843ac10`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/843ac108904b8ba87f1fa3dfb8a4ec8663fa2e73 "Diff: 8 files, +206 | -43") — 🛠️ [fix] Make legacy provenance hashes cross-platform <sub><em>(8 files, +206, -43)</em></sub>
+
+🔐 [fix] Canonicalize only CRLF pairs before hashing 3,153 unmapped legacy scripts, and upgrade migration evidence to fail-closed schema 2.
+
+🧪 [test] Cover checkout line endings, lone CR bytes, schema validation, inventory changes, and content drift across the 340-test conversion suite.
+
+🛡️ [security] Replace brittle line fingerprints with an exact two-value Gitleaks allowlist for known SHA-256 false positives.
+
+📝 [docs] Document the checkout-stable hash invariant in root and packaged artwork guidance.
 
 - [`fd1cc6d`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/fd1cc6d2fd86ac66641227790e5efa2a47f5d65f "Diff: 1 file, +4 | -0") — 🛡️ [fix] Baseline provenance hash false positives <sub><em>(1 file, +4, -0)</em></sub>
 
