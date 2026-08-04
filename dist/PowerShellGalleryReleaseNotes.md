@@ -1,6 +1,6 @@
 ## ✨ What's Changed
 
-- <b>Commit Range: ➡️</b> [`v2026.7...bb0cbec`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.2250...bb0cbec23bba5c5010f2fe8440f742f9a145f198 "View full commit range on GitHub")
+- <b>Commit Range: ➡️</b> [`v2026.7...c7fba22`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.2250...c7fba2258f2cba91c866ba48fc63cea7b9bf16a3 "View full commit range on GitHub")
 
 ### ✨ Features
 
@@ -185,6 +185,14 @@
 🧪 Expand converter, provenance, localization, cache, and rendering coverage while synchronizing the current documentation set.
 
 ### 🛠️ Bug Fixes
+
+- [`c7fba22`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/c7fba2258f2cba91c866ba48fc63cea7b9bf16a3 "Diff: 6 files, +135 | -23") — 🛠️ [fix] Make release verification platform-stable <sub><em>(6 files, +135, -23)</em></sub>
+
+🔗 Route PowerShell provenance checks through the shared fail-closed reader without relying on PS7-only data-file parameters.
+
+🌐 Read translated help as strict UTF-8 and normalize line endings before line-anchored assertions.
+
+🧪 Remove filesystem ordering assumptions from random-selection refresh coverage and verify the compatibility adapter.
 
 - [`bb0cbec`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/bb0cbec23bba5c5010f2fe8440f742f9a145f198 "Diff: 2 files, +39 | -0") — 🛠️ [fix] Preserve hash-locked artwork bytes <sub><em>(2 files, +39, -0)</em></sub>
 
