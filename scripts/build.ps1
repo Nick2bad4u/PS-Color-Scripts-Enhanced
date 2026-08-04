@@ -176,6 +176,26 @@ function Copy-DocumentationTree {
         $relativePath = $sourceFile.FullName.Substring($sourceResolved.Length).TrimStart(
             [System.IO.Path]::DirectorySeparatorChar,
             [System.IO.Path]::AltDirectorySeparatorChar)
+        $normalizedRelativePath = $relativePath.Replace(
+            [System.IO.Path]::DirectorySeparatorChar,
+            [char]'/'
+        ).Replace(
+            [System.IO.Path]::AltDirectorySeparatorChar,
+            [char]'/')
+        if ($normalizedRelativePath -in @(
+                'artwork.html',
+                'assets/artwork-provenance.json') -or
+            $normalizedRelativePath.StartsWith(
+                'ColorScripts-Enhanced/',
+                [System.StringComparison]::OrdinalIgnoreCase)) {
+            # The artwork files power the GitHub Pages provenance viewer, while
+            # docs/ColorScripts-Enhanced contains separately published
+            # updatable-help packages. Mirroring either into module/docs would
+            # ship repository-only web data or duplicate generated archives in
+            # every gallery package.
+            continue
+        }
+
         $targetPath = Join-Path -Path $destinationFullPath -ChildPath $relativePath
         $targetDirectory = Split-Path -Path $targetPath -Parent
 

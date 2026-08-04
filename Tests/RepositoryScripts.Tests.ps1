@@ -122,6 +122,7 @@ Describe 'Release lint wiring' {
         $script:PackageJsonPath = Join-Path -Path $script:RepoRoot -ChildPath 'package.json'
         $script:PublishWorkflowPath = Join-Path -Path $script:RepoRoot -ChildPath '.github/workflows/publish.yml'
         $script:LintScriptPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/Lint-Module.ps1'
+        $script:BuildScriptPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/build.ps1'
     }
 
     It 'keeps verification non-mutating' {
@@ -138,6 +139,18 @@ Describe 'Release lint wiring' {
 
         $workflow | Should -Match 'pwsh -NoProfile -File \./scripts/Lint-Module\.ps1 -TreatWarningsAsErrors'
         $workflow | Should -Not -Match 'Invoke-ScriptAnalyzer'
+    }
+
+    It 'keeps web-only provenance artifacts out of the module documentation copy' {
+        $buildScript = Get-Content -LiteralPath $script:BuildScriptPath -Raw
+        $moduleDocs = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced/docs'
+
+        $buildScript | Should -Match "'artwork\.html'"
+        $buildScript | Should -Match "'assets/artwork-provenance\.json'"
+        $buildScript | Should -Match "'ColorScripts-Enhanced/'"
+        Test-Path -LiteralPath (Join-Path -Path $moduleDocs -ChildPath 'artwork.html') | Should -BeFalse
+        Test-Path -LiteralPath (Join-Path -Path $moduleDocs -ChildPath 'assets/artwork-provenance.json') | Should -BeFalse
+        Test-Path -LiteralPath (Join-Path -Path $moduleDocs -ChildPath 'ColorScripts-Enhanced') | Should -BeFalse
     }
 
     It 'keeps analyzer isolation bounded and fail-closed' {
